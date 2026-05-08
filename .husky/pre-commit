@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+# Pre-commit gate per Iron Laws 2.4, 2.12, 2.16.
+# Failures here block the commit. To bypass: investigate the failure and fix
+# the root cause; do NOT pass --no-verify (Iron Law 2.16 forbids it).
+
+set -e
+
+echo "[pre-commit] Running grep-mogtrix..."
+bash scripts/grep-mogtrix.sh
+
+echo "[pre-commit] Running grep-forbidden-words..."
+bash scripts/grep-forbidden-words.sh
+
+echo "[pre-commit] Running supply-chain-scan..."
+bash scripts/supply-chain-scan.sh
+
+echo "[pre-commit] All checks passed."
