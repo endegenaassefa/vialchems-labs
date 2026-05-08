@@ -15,10 +15,33 @@ export function SiteFooter() {
             <p className="text-[18px] font-semibold tracking-tight text-[var(--text)] mb-2">
               {siteConfig.name}
             </p>
-            <p className="text-[14px] text-[var(--text-muted)] max-w-sm">
+            <p className="text-[14px] text-[var(--text-muted)] max-w-sm mb-5">
               Research peptides with per-batch independent Certificates of Analysis.
               {' '}
               <span className="font-mono text-[var(--accent)]">{siteConfig.tagline}</span>
+            </p>
+            <form
+              action="/api/newsletter/subscribe"
+              method="POST"
+              className="flex gap-2 max-w-sm"
+            >
+              <input
+                type="email"
+                name="email"
+                required
+                aria-label="Email address for newsletter"
+                placeholder="research@example.com"
+                className="flex-1 h-10 px-3 rounded-[var(--radius-md)] bg-[var(--surface-strong)] border border-[var(--border)] text-[14px] focus:border-[var(--accent)] focus:outline-none"
+              />
+              <button
+                type="submit"
+                className="px-4 h-10 rounded-[var(--radius-md)] bg-[var(--accent)] text-[var(--bg)] font-medium text-[13px] hover:bg-[var(--accent-soft)] transition-colors"
+              >
+                Subscribe
+              </button>
+            </form>
+            <p className="font-mono text-[11px] text-[var(--text-subtle)] mt-2">
+              Research updates. No marketing fluff. 15% off first order.
             </p>
           </div>
 
