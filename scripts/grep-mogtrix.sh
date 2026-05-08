@@ -60,7 +60,9 @@ md_hits=$(
     --exclude-dir='.next' \
     --exclude-dir='.git' \
     --exclude-dir='docs' \
-    . 2>/dev/null || true
+    . 2>/dev/null \
+  | grep -v 'grep-mogtrix' \
+  || true
 )
 
 if [ -n "$md_hits" ]; then

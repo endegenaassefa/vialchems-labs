@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vialchems Labs
 
-## Getting Started
+Research peptide e-commerce site. Posture A (clean clinical) per locked brand decision. Day-1 catalog: 7 SKUs + Recovery Stack bundle. Per-batch independent Certificates of Analysis through Janoshik Analytical.
 
-First, run the development server:
+`Counted, weighed, verified.`
+
+## Status
+
+Built end-to-end across 15 phases per the Stage 6 super-prompt at `/root/peptide-launch-bundle/corpus/SUPER_PROMPT_v3_2026-05-08.md`. Day-1 release v1.0.0 — see [`CHANGELOG.md`](./CHANGELOG.md).
+
+## Stack
+
+- Next.js 16.2.6 (App Router, Turbopack)
+- React 19.2.4 / TypeScript 5
+- Tailwind CSS v4
+- Supabase (Postgres + Auth) — wires post-launch with real project
+- Vercel hosting + Sentry monitoring
+- Resend email
+- BTCPay Server (self-hosted) + Plaid ACH for payments — cards deferred to Phase 2
+- Vitest + Playwright
+
+## Get started
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev          # http://localhost:3000
+npm test             # 304 unit tests
+npm run build        # production build
+npm run preflight    # typecheck + lint + 3 supply-chain gate scripts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Pre-launch checklist (operator)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Before deploying to production, complete `docs/operator-runbook.md` Pre-Launch Checklist:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Register `vialchems.labs` domain (`.labs` TLD via Donuts/Identity Digital)
+2. USPTO TESS trademark search
+3. Form Wyoming/Delaware/Nevada LLC
+4. Confirm source supplier terms (MOQ, lead time, COA passthrough)
+5. Sign per-batch testing agreement with Janoshik Analytical
+6. Replace stub credentials in `.env`:
+   - `NEXT_PUBLIC_SUPABASE_URL` + `NEXT_PUBLIC_SUPABASE_ANON_KEY` + `SUPABASE_SERVICE_ROLE_KEY`
+   - `RESEND_API_KEY` + verified sender domain
+   - `NEXT_PUBLIC_SENTRY_DSN` + `SENTRY_AUTH_TOKEN` + `SENTRY_ORG` + `SENTRY_PROJECT`
+   - `PLAID_CLIENT_ID` + `PLAID_SECRET` + `PLAID_WEBHOOK_VERIFICATION_KEY`
+   - `BTCPAY_URL` + `BTCPAY_API_KEY` + `BTCPAY_STORE_ID` + `BTCPAY_WEBHOOK_SECRET`
+7. Replace `public/coa/*.pdf` placeholders with real per-batch COAs from Janoshik
+8. `vercel link` and configure environment variables in Vercel
+9. Point `vialchems.labs` DNS to Vercel
+10. Optional: 60-min buyer-conversation assignment per Bible §16
 
-## Learn More
+## Compliance
 
-To learn more about Next.js, take a look at the following resources:
+- **Iron Laws** (Day-1 enforced): no human-use language, no BAC water, no GLP-1 / Tirzepatide / Semaglutide / Retatrutide, no Stripe/PayPal/Square direct, no fake reviews, no before/after imagery.
+- **Catalog**: Day-1 7 SKUs at locked prices per `DECISIONS/opening_sku_set.md`.
+- **Payment rails**: Day-1 BTCPay (crypto) + Plaid (ACH) only. Phase 2 cards (MESH/MAX/Rocketfuel) at Day 90+.
+- **Jurisdictional**: US-only Day-1; CA / TX / NY / FL blocked.
+- **Age gate**: text-based contractual checkbox at first cart action (21+).
+- **Buyer qualification**: 7-attestation block per Appendix A.5, including research-purpose textarea filtered by `assertMarketingCopySafe`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Documentation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `docs/operator-runbook.md` — Day-1 / Weeks 2-4 / Months 2-3 acquisition runbook
+- `docs/checkpoints/phase_*.md` — per-phase build artifacts (15 phases)
+- `docs/superpowers/plans/2026-05-08-architecture.md` — locked architecture plan
+- `docs/research/sub_*.md` — 6 Phase 1 corpus distillations (compliance, pricing, acquisition, industry, site anatomy, payment posture)
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Proprietary. © 2026 Vialchems Labs LLC.
