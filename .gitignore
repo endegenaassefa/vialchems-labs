@@ -1,0 +1,15 @@
+.env
+.env.local
+.env*.local
+node_modules/
+.next/
+.vercel/
+.turbo/
+.DS_Store
+dist/
+build/
+coverage/
+.nyc_output/
+*.log
+.idea/
+.vscode/
