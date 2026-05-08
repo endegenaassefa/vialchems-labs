@@ -27,6 +27,7 @@ import {
   products,
   type Product,
 } from '@/lib/content/products';
+import { getProductDescription } from '@/lib/content/product-descriptions';
 import { siteConfig } from '@/lib/content/site';
 
 type TabKey = 'description' | 'coa' | 'related';
@@ -89,6 +90,8 @@ export function ProductTabs({ slug }: ProductTabsProps) {
 }
 
 function DescriptionPanel({ product }: { product: Product }) {
+  const fullDescription = getProductDescription(product.sku);
+  const paragraphs = fullDescription.split('\n\n').filter((p) => p.trim().length > 0);
   return (
     <div
       role="tabpanel"
@@ -97,16 +100,11 @@ function DescriptionPanel({ product }: { product: Product }) {
       className="grid gap-10 md:grid-cols-[3fr_2fr]"
     >
       <div className="space-y-4 text-[16px] leading-[1.65] text-[var(--text-muted)]">
-        <p className="text-[var(--text)]">{product.shortDescription}</p>
-        <p>
-          Each vial contains {product.dose} of lyophilized peptide. Sealed amber
-          vial; reconstitute in laboratory-grade solvent according to the
-          researcher&apos;s established protocol. Store at 2-8 °C until reconstitution.
-        </p>
-        <p className="text-[14px] text-[var(--text-subtle)] font-mono">
-          Phase 6 will replace this body with the verbatim 336-345 word
-          description from Appendix E.1.
-        </p>
+        {paragraphs.map((para, i) => (
+          <p key={i} className={i === 0 ? 'text-[var(--text)]' : undefined}>
+            {para}
+          </p>
+        ))}
       </div>
       <Specs
         items={[

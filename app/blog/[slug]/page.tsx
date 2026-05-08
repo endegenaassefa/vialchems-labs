@@ -1,7 +1,9 @@
 /**
- * Blog post dynamic route. Phase 5 renders any matching slug with placeholder
- * body copy. Phase 6 will replace this with rendered article content (MDX or
- * structured field) and citation footnotes.
+ * Blog post dynamic route — Phase 6 long-form rendering.
+ *
+ * Renders structured post body (sections + paragraphs) and a citations
+ * footnote block. No markdown parser is used; the data is already structured
+ * in lib/content/blog.ts so the renderer can stay declarative and audited.
  */
 import type { Metadata } from 'next';
 import Link from 'next/link';
@@ -9,6 +11,7 @@ import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { blogPosts, getBlogPostBySlug } from '@/lib/content/blog';
+import { siteConfig } from '@/lib/content/site';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -26,7 +29,7 @@ export async function generateMetadata({
   if (!post) return { title: 'Article not found' };
   return {
     title: post.title,
-    description: post.summary,
+    description: post.excerpt,
   };
 }
 
@@ -50,32 +53,61 @@ export default async function BlogPostPage({ params }: PageProps) {
             </p>
             <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)] mb-3">
               <time dateTime={post.publishedAt}>{post.publishedAt}</time>
+              <span className="mx-2 text-[var(--text-subtle)]">·</span>
+              <span>{post.author}</span>
             </p>
             <h1 className="text-[clamp(36px,5vw,60px)] font-light leading-[1.08] tracking-tight text-[var(--text)] mb-6">
               {post.title}
             </h1>
             <p className="text-[18px] leading-[1.55] text-[var(--text-muted)] mb-12">
-              {post.summary}
+              {post.excerpt}
             </p>
 
-            <div className="space-y-6 text-[16px] leading-[1.7] text-[var(--text-muted)]">
-              <div className="rounded-[14px] border border-[var(--border-strong)] bg-[var(--surface)] px-6 py-5">
-                <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-2">
-                  Placeholder
-                </p>
-                <p className="text-[15px] text-[var(--text)]">
-                  Article content lands in Phase 6. The full reference will run ≥1500
-                  words with ≥5 scientific citations and pass the marketing-copy safety
-                  filter at build time.
-                </p>
-              </div>
-              <p>
-                This page exists in the route table so internal linking, sitemap
-                generation, and the Research Index listing are all in shape ahead of
-                content drop. The dynamic route resolves any of the five Phase-5 stub
-                slugs and 404s on anything else.
-              </p>
+            <div className="space-y-10 text-[16px] leading-[1.7] text-[var(--text-muted)]">
+              {post.sections.map((section, idx) => (
+                <section key={idx} className="space-y-5">
+                  {section.heading ? (
+                    <h2 className="text-[22px] md:text-[26px] font-medium tracking-tight text-[var(--text)] mt-2">
+                      {section.heading}
+                    </h2>
+                  ) : null}
+                  {section.paragraphs.map((para, i) => (
+                    <p key={i}>{para}</p>
+                  ))}
+                </section>
+              ))}
             </div>
+
+            <section className="mt-16 border-t border-[var(--border)] pt-10">
+              <h2 className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-6">
+                References
+              </h2>
+              <ol className="space-y-4 text-[14px] leading-[1.6] text-[var(--text-muted)]">
+                {post.citations.map((citation, i) => (
+                  <li key={citation.id} className="flex gap-3">
+                    <span className="font-mono text-[12px] text-[var(--text-subtle)] shrink-0 w-6">
+                      [{i + 1}]
+                    </span>
+                    <span>{citation.text}</span>
+                  </li>
+                ))}
+              </ol>
+            </section>
+
+            <section className="mt-12 rounded-[14px] border border-[var(--border-strong)] bg-[var(--surface)] px-6 py-5">
+              <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-2">
+                Research-only positioning
+              </p>
+              <p className="text-[14px] leading-[1.6] text-[var(--text)]">
+                This article is a research register for in-vitro and animal-model
+                contexts. {siteConfig.name} supplies research reference materials
+                with per-batch independent Certificates of Analysis. See{' '}
+                <Link href="/coa" className="text-[var(--accent)] hover:text-[var(--accent-soft)]">
+                  /coa
+                </Link>{' '}
+                for the COA index.
+              </p>
+            </section>
           </div>
         </article>
       </main>
