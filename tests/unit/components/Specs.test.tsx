@@ -44,7 +44,7 @@ describe('Specs', () => {
     render(
       <Specs
         items={[
-          { term: 'COA', value: <a href="/coa">View PDF</a> },
+          { term: 'COA', value: <a href="https://example.com/coa.pdf">View PDF</a> },
         ]}
       />,
     );
