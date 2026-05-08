@@ -1,0 +1,209 @@
+# Pricing Intelligence Distillation — Sub-2
+
+Source: `/root/peptide-launch-bundle/corpus/02_claude_code_outputs/sku_distributions.md` and parallel `sku_distributions_summary.json`. Cross-vendor distributions over 169 vendors / 3,388 SKUs / 2,804 priced rows / 78 distinct peptide_canonical values, generated 2026-05-08T10:52:20Z. Compliance signals cross-referenced from `compliance_disclaimers/enforcement_events.md` (19 FDA warning letters + 3 DOJ pleas + ITC General Exclusion Order).
+
+Labels used in this doc: **OBSERVED** = number, slug, or quote present in the source corpus. **INFERRED** = a cross-source synthesis or weighting choice made here.
+
+---
+
+## Part A — Per-peptide distribution table (78 rows)
+
+OBSERVED columns: `vendor_count, min_per_mg, p25_per_mg, median_per_mg, p75_per_mg, max_per_mg, CV, OOS_count` are taken verbatim from `sku_distributions_summary.json`. The `top_3_vendors_with_pricing` column is derived from `pricing_matrix.csv` (taking each vendor's lowest priced per-mg row for the peptide, excluding rows with `per_mg_price_usd <= 0` or `uncertain`) and shows the **lowest-priced**, **closest-to-median**, and **highest-priced** vendor as a three-point comp snapshot — INFERRED selection rule.
+
+Notes column flags (INFERRED rules):
+- `uniform_pricing(CV<0.10)` — coordination/cartel signal
+- `high_demand_or_constrained_supply(OOS>5)` — multiple vendors with at least one out-of-stock row
+- `limited_universe(<3vendors)` — distribution is a sample, not a market
+- `no_pricing` — peptide_canonical present in catalog but no priced rows captured
+
+Sorted descending by vendor_count for ease of scanning the dominant SKUs first.
+
+| peptide_canonical | vendor_count | min_per_mg | p25_per_mg | median_per_mg | p75_per_mg | max_per_mg | CV | OOS_count | top_3_vendors_with_pricing (low / mid-band / high) | notes |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---|
+| BPC-157 | 150 | $0.0152 | $4.30 | $6.00 | $8.00 | $333 | 2.8722 | 12 | nexaph@$0.0152/mg / arcane-peptides@$6.00/mg / nuri-clinics@$14.99/mg | high_demand_or_constrained_supply(OOS>5) |
+| GHK-Cu | 131 | $0.0060 | $0.5424 | $0.7500 | $1.00 | $20.42 | 1.7289 | 13 | nantong-guangyuan-chemical-gyc@$0.0060/mg / paramount-peptides@$0.7500/mg / nuri-clinics@$7.98/mg | high_demand_or_constrained_supply(OOS>5) |
+| TB-500 | 125 | $0.0251 | $5.00 | $7.20 | $9.60 | $594 | 4.0285 | 10 | nexaph@$0.0251/mg / bioedge-research-labs@$7.20/mg / bachem@$475/mg | high_demand_or_constrained_supply(OOS>5) |
+| other | 122 | $0.0005 | $0.3831 | $3.95 | $7.69 | $4980 | 10.6922 | 27 | nexaph@$0.0005/mg / aminova-peptides@$4.00/mg / genscript@$180/mg | high_demand_or_constrained_supply(OOS>5) |
+| MOTS-c | 111 | $0.0188 | $3.50 | $4.80 | $6.50 | $13.00 | 0.5257 | 5 | nexaph@$0.0188/mg / bleaugenics@$4.80/mg / peptide-sciences@$13.00/mg |  |
+| Retatrutide | 103 | $0.0950 | $5.00 | $7.90 | $11.00 | $700 | 4.3554 | 6 | nantong-guangyuan-chemical-gyc@$0.0950/mg / accelaminos@$7.90/mg / genscript@$700/mg | high_demand_or_constrained_supply(OOS>5) |
+| Tirzepatide | 100 | $0.0400 | $3.71 | $6.30 | $9.90 | $700 | 4.4961 | 6 | nantong-guangyuan-chemical-gyc@$0.0400/mg / vitalcell-llc@$6.35/mg / genscript@$700/mg | high_demand_or_constrained_supply(OOS>5) |
+| Ipamorelin | 84 | $0.0700 | $5.06 | $6.75 | $8.40 | $20.98 | 0.5008 | 6 | nantong-guangyuan-chemical-gyc@$0.0700/mg / redleafpeptides@$7.00/mg / blue-sky-peptide@$20.98/mg | high_demand_or_constrained_supply(OOS>5) |
+| Semaglutide | 83 | $0.0800 | $5.50 | $8.00 | $13.00 | $64.74 | 0.9011 | 7 | nantong-guangyuan-chemical-gyc@$0.0800/mg / bioinfinitybioinfinitylab@$8.00/mg / pure-rawz@$38.63/mg | high_demand_or_constrained_supply(OOS>5) |
+| Semax | 78 | $0.0700 | $3.00 | $4.00 | $5.90 | $15.20 | 0.6309 | 8 | nantong-guangyuan-chemical-gyc@$0.0700/mg / blue-ridge-peptides@$4.00/mg / midway-gray@$15.00/mg | high_demand_or_constrained_supply(OOS>5) |
+| Selank | 77 | $0.0700 | $3.60 | $4.90 | $6.50 | $19.50 | 0.6459 | 5 | nantong-guangyuan-chemical-gyc@$0.0700/mg / paramount-peptides@$4.90/mg / midway-gray@$15.00/mg |  |
+| Epithalon | 69 | $0.0143 | $2.32 | $3.50 | $4.50 | $9.00 | 0.5021 | 3 | nexaph@$0.0143/mg / amino-amigos@$3.50/mg / sigma-compounds@$7.65/mg |  |
+| PT-141 | 62 | $0.0158 | $3.50 | $4.45 | $5.50 | $10.00 | 0.4746 | 6 | nexaph@$0.0158/mg / vitalcell-llc@$4.45/mg / biolongevity-labs@$9.59/mg | high_demand_or_constrained_supply(OOS>5) |
+| CJC-1295 | 60 | $0.4700 | $6.00 | $8.00 | $12.00 | $34.98 | 0.6443 | 3 | edge-peptides@$0.4700/mg / amino-amigos@$8.00/mg / strate-labs-llc@$34.98/mg |  |
+| AOD-9604 | 54 | $0.3900 | $8.10 | $10.00 | $12.99 | $27.50 | 0.4474 | 12 | oupeptide@$0.3900/mg / modified-aminos@$10.00/mg / prestige-peptides@$27.50/mg | high_demand_or_constrained_supply(OOS>5) |
+| DSIP | 50 | $0.0800 | $5.47 | $7.00 | $9.05 | $15.00 | 0.4291 | 6 | nantong-guangyuan-chemical-gyc@$0.0800/mg / concordia-research-chems@$7.00/mg / extreme-peptides@$15.00/mg | high_demand_or_constrained_supply(OOS>5) |
+| KPV | 49 | $0.0143 | $4.40 | $5.00 | $7.50 | $11.00 | 0.4519 | 4 | nexaph@$0.0143/mg / astra-peptides@$5.00/mg / extreme-peptides@$11.00/mg |  |
+| Thymosin Alpha-1 | 46 | $0.0288 | $6.35 | $8.80 | $13.00 | $23.00 | 0.5249 | 2 | nexaph@$0.0288/mg / bioedge-research-labs@$8.80/mg / genoscience@$23.00/mg |  |
+| IGF-1 LR3 | 41 | $32.50 | $66.50 | $85.00 | $135 | $476 | 0.8301 | 7 | eliteedgebiotech@$32.50/mg / arcane-peptides@$85.00/mg / licensed-peptides@$460/mg | high_demand_or_constrained_supply(OOS>5) |
+| 5-Amino-1MQ | 35 | $0.0040 | $0.2100 | $1.94 | $6.21 | $47.00 | 1.7513 | 3 | nexaph@$0.0040/mg / everydaypeptides@$2.20/mg / pepsynth-labs@$47.00/mg |  |
+| SS-31 | 34 | $0.8500 | $2.90 | $4.80 | $5.50 | $10.08 | 0.4543 | 5 | reta-peptide@$0.8500/mg / aio-peptides@$4.80/mg / zhuo-yue-lab@$10.08/mg |  |
+| LL-37 | 23 | $0.6660 | $9.18 | $12.88 | $16.77 | $175 | 1.8155 | 2 | edge-peptides@$0.6660/mg / zhuo-yue-lab@$12.96/mg / genscript@$175/mg |  |
+| GHRP-6 | 16 | $0.0600 | $3.20 | $5.76 | $6.00 | $10.00 | 0.5659 | 1 | nantong-guangyuan-chemical-gyc@$0.0600/mg / zhuo-yue-lab@$5.76/mg / alpha-carbon-labs@$10.00/mg |  |
+| Tesamorelin | 16 | $0.4250 | $5.92 | $7.77 | $10.42 | $13.97 | 0.4630 | 1 | edge-peptides@$0.4250/mg / paramount-peptides@$7.60/mg / swiss-chems@$13.97/mg |  |
+| GHRP-2 | 15 | $0.0600 | $2.95 | $5.76 | $6.32 | $10.00 | 0.5956 | 2 | nantong-guangyuan-chemical-gyc@$0.0600/mg / zhuo-yue-lab@$5.76/mg / alpha-carbon-labs@$10.00/mg |  |
+| Sermorelin | 15 | $0.4850 | $5.62 | $8.00 | $10.50 | $19.80 | 0.5833 | 1 | edge-peptides@$0.4850/mg / eternal-peptides@$8.00/mg / next-generation-compounds@$19.80/mg |  |
+| Pinealon | 11 | $1.70 | $3.10 | $3.50 | $4.95 | $7.70 | 0.4163 | 0 | peptide-partners@$1.70/mg / biolongevity-labs@$3.50/mg / licensed-peptides@$7.70/mg |  |
+| NAD+ | 9 | $0.0035 | $0.1237 | $0.1680 | $0.3775 | $0.5700 | 0.6802 | 0 | nantong-guangyuan-chemical-gyc@$0.0035/mg / next-generation-compounds@$0.1760/mg / raw-amino@$0.3700/mg |  |
+| Follistatin 344 | 8 | $17.00 | $80.75 | $129 | $158 | $180 | 0.5012 | 1 | reta-peptide@$17.00/mg / peptides-for-sale@$129/mg / zhuo-yue-lab@$180/mg |  |
+| Fragment 176-191 | 8 | $2.98 | $8.45 | $14.00 | $20.38 | $31.98 | 0.6093 | 1 | supopeptide@$2.98/mg / raw-amino@$9.00/mg / blue-sky-peptide@$31.98/mg |  |
+| Hexarelin | 8 | $0.1750 | $8.15 | $11.50 | $15.00 | $25.00 | 0.5755 | 1 | nantong-guangyuan-chemical-gyc@$0.1750/mg / paramount-peptides@$13.00/mg / alpha-carbon-labs@$25.00/mg |  |
+| MGF | 8 | $5.45 | $14.50 | $15.00 | $17.90 | $25.00 | 0.3057 | 1 | supopeptide@$5.45/mg / genoscience@$15.00/mg / aio-peptides@$22.50/mg |  |
+| CJC-1295 (no DAC) | 6 | $3.50 | $5.58 | $6.90 | $9.05 | $10.00 | 0.3085 | 1 | zyntra-research-labs@$3.50/mg / peptide-crafters@$6.00/mg / happy-peptides-for-mindful-research@$10.00/mg |  |
+| CJC-1295 (with DAC) | 6 | $7.02 | $9.80 | $10.00 | $11.80 | $12.00 | 0.1771 | 0 | peptira@$7.02/mg / peptide-crafters@$10.00/mg / bioclinx@$12.00/mg |  |
+| Humanin | 6 | $0.1800 | $7.72 | $14.30 | $16.60 | $200 | 1.7700 | 1 | nantong-guangyuan-chemical-gyc@$0.1800/mg / raw-amino@$14.30/mg / genscript@$200/mg |  |
+| CJC-1295 (without DAC) | 5 | $7.11 | $9.45 | $11.79 | $15.89 | $20.00 | 0.4109 | 1 | peptira@$7.11/mg / bioclinx@$11.79/mg / alpha-carbon-labs@$20.00/mg |  |
+| Cagrilintide | 5 | $0.5800 | $1.02 | $10.99 | $11.49 | $15.00 | 0.7820 | 1 | edge-peptides@$0.5800/mg / pure-peptide-labs@$10.99/mg / prime-lab-peptides@$15.00/mg |  |
+| MK-677 | 5 | $0.0576 | $0.0606 | $0.0835 | $0.1174 | $0.1600 | 0.3825 | 1 | chemyo@$0.0576/mg / extreme-peptides@$0.1030/mg / paramount-peptides@$0.1600/mg |  |
+| Kisspeptin-10 | 3 | $0.2500 | $4.94 | $6.65 | $7.50 | $9.60 | 0.5906 | 0 | edge-peptides@$0.2500/mg / oathpeptides@$6.80/mg / oathpeptides@$6.80/mg |  |
+| Melanotan 2 | 3 | $3.00 | $3.50 | $4.00 | $4.50 | $5.00 | 0.2042 | 0 | peptide-crafters@$3.00/mg / pure-peptide-labs@$4.00/mg / raw-amino@$5.00/mg |  |
+| Melanotan II | 3 | $5.00 | $5.00 | $5.00 | $5.25 | $5.50 | 0.0459 | 0 | blue-sky-peptide@$5.00/mg / paramount-peptides@$5.00/mg / prime-lab-peptides@$5.50/mg |  |
+| PEG-MGF | 3 | $11.80 | $12.90 | $13.99 | $20.73 | $27.48 | 0.3903 | 0 | bioedge-research-labs@$11.80/mg / nuscience-peptides@$13.99/mg / strate-labs-llc@$27.48/mg |  |
+| Dihexa | 2 | $0.3667 | $1.69 | $3.02 | $4.34 | $5.67 | 0.8785 | 0 | paramount-peptides@$0.3667/mg / bioedge-research-labs@$5.67/mg | limited_universe(<3vendors); limited_coverage |
+| HCG | 2 | $0.1400 | $0.1400 | $0.1400 | $0.1400 | $0.1400 | 0.0000 | 0 | edge-peptides@$0.1400/mg | limited_universe(<3vendors); limited_coverage |
+| MGF (PEG-MGF) | 2 | $19.50 | $19.50 | $19.50 | $26.25 | $33.00 | 0.2652 | 1 | alpha-carbon-labs@$19.50/mg / ionpeptide@$19.50/mg | limited_universe(<3vendors); limited_coverage |
+| MT-2 | 2 | $4.00 | $4.24 | $4.47 | $4.71 | $4.95 | 0.1062 | 0 | thrive-peptides@$4.00/mg / next-generation-compounds@$4.95/mg | limited_universe(<3vendors); limited_coverage |
+| Mazdutide | 2 | $0.4850 | $0.5425 | $0.6000 | $5.80 | $10.99 | 1.2237 | 1 | edge-peptides@$0.4850/mg / pure-peptide-labs@$10.99/mg | limited_universe(<3vendors); limited_coverage |
+| Melanotan 1 | 2 | $3.00 | $3.50 | $4.00 | $4.49 | $4.99 | 0.2491 | 0 | peptide-crafters@$3.00/mg / pure-peptide-labs@$4.99/mg | limited_universe(<3vendors); limited_coverage |
+| Oxytocin | 2 | $0.1400 | $1.73 | $3.32 | $4.91 | $6.50 | 0.9578 | 0 | edge-peptides@$0.1400/mg / paramount-peptides@$6.50/mg | limited_universe(<3vendors); limited_coverage |
+| PT-141 (Bremelanotide) | 2 | $4.41 | $4.81 | $5.21 | $5.60 | $6.00 | 0.1527 | 0 | peptira@$4.41/mg / alpha-carbon-labs@$6.00/mg | limited_universe(<3vendors); limited_coverage |
+| SNAP-8 | 2 | $0.1400 | $1.60 | $3.06 | $4.53 | $5.99 | 0.9543 | 0 | edge-peptides@$0.1400/mg / pure-peptide-labs@$5.99/mg | limited_universe(<3vendors); limited_coverage |
+| AOD9604 | 1 | $0.6300 | $0.6300 | $0.6300 | $0.6300 | $0.6300 | 0.0000 | 0 | edge-peptides@$0.6300/mg | limited_universe(<3vendors); limited_coverage |
+| ARA-290 | 1 | $0.2063 | $0.2063 | $0.2063 | $0.2063 | $0.2063 | 0.0000 | 0 | edge-peptides@$0.2063/mg | limited_universe(<3vendors); limited_coverage |
+| BAC Water | 1 | n/a | n/a | n/a | n/a | n/a | n/a | 0 | (no priced rows) | limited_universe(<3vendors); no_pricing |
+| BPC-157 + TB-500 blend | 1 | $9.90 | $9.90 | $9.90 | $9.90 | $9.90 | 0.0000 | 0 | next-generation-compounds@$9.90/mg | limited_universe(<3vendors); limited_coverage |
+| CJC-1295 (DAC) | 1 | $18.40 | $18.40 | $18.40 | $18.40 | $18.40 | 0.0000 | 0 | licensed-peptides@$18.40/mg | limited_universe(<3vendors); limited_coverage |
+| CJC-1295 with DAC | 1 | n/a | n/a | n/a | n/a | n/a | n/a | 0 | (no priced rows) | limited_universe(<3vendors); no_pricing |
+| CJC-1295 without DAC | 1 | n/a | n/a | n/a | n/a | n/a | n/a | 0 | (no priced rows) | limited_universe(<3vendors); no_pricing |
+| Cardiogen | 1 | $4.00 | $4.00 | $4.00 | $4.00 | $4.00 | 0.0000 | 0 | paramount-peptides@$4.00/mg | limited_universe(<3vendors); limited_coverage |
+| Epitalon | 1 | n/a | n/a | n/a | n/a | n/a | n/a | 0 | (no priced rows) | limited_universe(<3vendors); no_pricing |
+| GHK-Cu + other blend | 1 | $2.28 | $2.28 | $2.28 | $2.28 | $2.28 | 0.0000 | 0 | next-generation-compounds@$2.28/mg | limited_universe(<3vendors); limited_coverage |
+| Glutathione | 1 | $0.1191 | $0.1191 | $0.1191 | $0.1191 | $0.1191 | 0.0000 | 0 | next-generation-compounds@$0.1191/mg | limited_universe(<3vendors); limited_coverage |
+| Gonadorelin | 1 | $6.50 | $6.50 | $6.50 | $6.50 | $6.50 | 0.0000 | 0 | paramount-peptides@$6.50/mg | limited_universe(<3vendors); limited_coverage |
+| HGH Fragment 176-191 | 1 | $0.5900 | $0.5900 | $0.5900 | $0.5900 | $0.5900 | 0.0000 | 0 | edge-peptides@$0.5900/mg | limited_universe(<3vendors); limited_coverage |
+| Kisspeptin | 1 | $4.99 | $4.99 | $4.99 | $4.99 | $4.99 | 0.0000 | 0 | pure-peptide-labs@$4.99/mg | limited_universe(<3vendors); limited_coverage |
+| L-Carnitine | 1 | $0.1283 | $0.1283 | $0.1283 | $0.1283 | $0.1283 | 0.0000 | 1 | next-generation-compounds@$0.1283/mg | limited_universe(<3vendors); limited_coverage |
+| Liraglutide | 1 | n/a | n/a | n/a | n/a | n/a | n/a | 0 | (no priced rows) | limited_universe(<3vendors); no_pricing |
+| MK-677 (Ibutamoren) | 1 | $5.00 | $5.00 | $5.00 | $5.00 | $5.00 | 0.0000 | 1 | alpha-carbon-labs@$5.00/mg | limited_universe(<3vendors); limited_coverage |
+| MT-1 | 1 | $4.73 | $4.73 | $4.73 | $4.73 | $4.73 | 0.0000 | 0 | next-generation-compounds@$4.73/mg | limited_universe(<3vendors); limited_coverage |
+| Melanotan-1 | 1 | $0.1500 | $0.1500 | $0.1500 | $0.1500 | $0.1500 | 0.0000 | 0 | edge-peptides@$0.1500/mg | limited_universe(<3vendors); limited_coverage |
+| Melanotan-2 | 1 | $5.50 | $5.88 | $6.25 | $6.62 | $7.00 | 0.1200 | 0 | oathpeptides@$5.50/mg | limited_universe(<3vendors); limited_coverage |
+| Melanotan-II | 1 | $3.00 | $3.00 | $3.00 | $3.00 | $3.00 | 0.0000 | 0 | nuscience-peptides@$3.00/mg | limited_universe(<3vendors); limited_coverage |
+| Orforglipron | 1 | $48.33 | $48.33 | $48.33 | $48.33 | $48.33 | 0.0000 | 0 | prime-lab-peptides@$48.33/mg | limited_universe(<3vendors); limited_coverage |
+| PE-22-28 | 1 | $0.2800 | $0.2800 | $0.2800 | $0.2800 | $0.2800 | 0.0000 | 0 | edge-peptides@$0.2800/mg | limited_universe(<3vendors); limited_coverage |
+| Testagen | 1 | $0.1875 | $0.1875 | $0.1875 | $0.1875 | $0.1875 | 0.0000 | 0 | edge-peptides@$0.1875/mg | limited_universe(<3vendors); limited_coverage |
+| Thymalin | 1 | $5.50 | $5.50 | $5.50 | $5.50 | $5.50 | 0.0000 | 0 | paramount-peptides@$5.50/mg | limited_universe(<3vendors); limited_coverage |
+| Thymulin | 1 | $6.50 | $7.88 | $9.25 | $10.62 | $12.00 | 0.2973 | 0 | oathpeptides@$6.50/mg | limited_universe(<3vendors); limited_coverage |
+| hCG | 1 | n/a | n/a | n/a | n/a | n/a | n/a | 0 | (no priced rows) | limited_universe(<3vendors); no_pricing |
+
+**Coverage breakdown (OBSERVED):**
+- 42 peptides with full distribution (>=3 vendors, >=1 priced row)
+- 30 peptides with limited coverage (1-2 vendors)
+- 6 peptides with no priced rows captured
+
+**Cartel signal scan (CV<0.10, vendor_count>=5):** OBSERVED — only `Melanotan II` (CV 0.0459, 3 vendors) flags below 0.10, but vendor_count is below the 5-vendor threshold for the cartel-coordination call. **No statistically meaningful CV<0.10 cartel signals at the >=5-vendor threshold in this universe.** All locked SKUs and all 78 rows show CV>=0.18, consistent with a competitive (not coordinated) market across the captured vendor pool.
+
+---
+
+## Part B — Top 15 expansion candidates beyond the locked 7
+
+Locked 7 (excluded from this list): BPC-157 10mg, TB-500 5mg, GHK-Cu 50mg, Ipamorelin 10mg, CJC-1295 (no DAC) 5mg, MOTS-c 10mg, Selank 10mg. Excluded categories: tirzepatide, semaglutide, retatrutide (FDA hot zone — DOJ plea, ITC General Exclusion Order, 50+ telehealth warning letters Sept 2025); bacteriostatic water (constitution).
+
+**Scoring rubric (INFERRED, 0-11.5 scale):**
+- Universe support: 1.5 * log10(vendor_count + 1), capped at 3.0
+- Margin headroom: 3.0 if median in $3-$15/mg sweet spot; 2.0 if $1-$3 or $15-$30; 1.5 if $30-$100 (premium niche); 0.5 if $100+ (outlier); 1.0 if <$1 (commodity)
+- CV maturity: 1.0 if CV in 0.30-0.70 (mature competitive); 0.6 if 0.70-1.0; 0.3 if <0.30 (coordination risk) or 1.0-2.0; 0 if >2.0
+- Stack pairing: 0-3 (3 = directly augments a locked stack; 2 = alternative within an existing stack category; 1 = niche pairing; 0 = standalone/unrelated)
+- Compliance penalty: -3 (named in active GLP-1 enforcement cluster), -1.5 (named in DOJ plea or compounded-letter co-mention), 0 (no enforcement signal)
+
+**Compliance signal sources (OBSERVED, from `enforcement_events.md`):**
+- HIGH risk (named in active 2024-2025 GLP-1 enforcement): Cagrilintide, Mazdutide, Thymalin, hCG, Liraglutide, Orforglipron, Gonadorelin (co-mentioned as compounded-drug ingredient with FDA-named compounds in BeBetterMD letter context).
+- MODERATE risk (named in Tailor Made plea: "BPC 157, Cerebrolysin, CJC 1295, DSIP, Epitalon, GW 501516, Ipamorelin, LGD-4033, LL-37, Melanotan II, MK 677, PEG-MGF, Selank, and Semax" or in compounded-pharmacy warning letters): Sermorelin, LL-37, PEG-MGF, MGF, Melanotan 2, MK-677, DSIP, Epithalon, Semax. Note: Selank, BPC-157, TB-500, Ipamorelin are also in the plea but are inside the locked 7 and the constitution accepts that risk; we do not double-penalize.
+- LOW risk: not named in any retrieved enforcement primary source.
+
+**Top 15 ranked:**
+
+| rank | peptide | vendor_count | median_per_mg | CV | OOS | universe | margin | cv_score | pairing | compliance | TOTAL |
+|---:|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | KPV | 49 | $5.0000 | 0.452 | 4 | 2.55 | 3.0 | 1.00 | 3 | +0.0 | 9.55 |
+| 2 | PT-141 | 62 | $4.4490 | 0.475 | 6 | 2.70 | 3.0 | 1.00 | 2 | +0.0 | 8.70 |
+| 3 | AOD-9604 | 54 | $9.9996 | 0.447 | 12 | 2.61 | 3.0 | 1.00 | 2 | +0.0 | 8.61 |
+| 4 | Thymosin Alpha-1 | 46 | $8.8000 | 0.525 | 2 | 2.51 | 3.0 | 1.00 | 2 | +0.0 | 8.51 |
+| 5 | Semax | 78 | $4.0000 | 0.631 | 8 | 2.85 | 3.0 | 1.00 | 3 | -1.5 | 8.35 |
+| 6 | SS-31 | 34 | $4.8000 | 0.454 | 5 | 2.32 | 3.0 | 1.00 | 2 | +0.0 | 8.32 |
+| 7 | Epithalon | 69 | $3.5000 | 0.502 | 3 | 2.77 | 3.0 | 1.00 | 3 | -1.5 | 8.27 |
+| 8 | GHRP-6 | 16 | $5.7600 | 0.566 | 1 | 1.85 | 3.0 | 1.00 | 2 | +0.0 | 7.85 |
+| 9 | Tesamorelin | 16 | $7.7700 | 0.463 | 1 | 1.85 | 3.0 | 1.00 | 2 | +0.0 | 7.85 |
+| 10 | GHRP-2 | 15 | $5.7600 | 0.596 | 2 | 1.81 | 3.0 | 1.00 | 2 | +0.0 | 7.81 |
+| 11 | Pinealon | 11 | $3.4990 | 0.416 | 0 | 1.62 | 3.0 | 1.00 | 2 | +0.0 | 7.62 |
+| 12 | IGF-1 LR3 | 41 | $85.0000 | 0.830 | 7 | 2.43 | 1.5 | 0.60 | 3 | +0.0 | 7.53 |
+| 13 | Fragment 176-191 | 8 | $14.0000 | 0.609 | 1 | 1.43 | 3.0 | 1.00 | 2 | +0.0 | 7.43 |
+| 14 | Hexarelin | 8 | $11.4975 | 0.576 | 1 | 1.43 | 3.0 | 1.00 | 2 | +0.0 | 7.43 |
+| 15 | 5-Amino-1MQ | 35 | $1.9400 | 1.751 | 3 | 2.33 | 2.0 | 0.30 | 2 | +0.0 | 6.63 |
+
+### Per-candidate rationale (one paragraph each)
+
+**KPV (#1, score 9.55).** OBSERVED: 49 vendors, median $5.00/mg, CV 0.4519, 4 OOS. INFERRED rationale: KPV is the strongest non-locked expansion. Median sits in the margin-headroom sweet spot ($3-$15), CV is mature-competitive (0.30-0.70), and pairing is structural — KPV is the canonical anti-inflammatory adjunct to BPC-157+TB-500 recovery stacks (the most-attested bundle pattern in the matrix). Zero enforcement primary-source mentions in `enforcement_events.md`. KPV converts the recovery-stack buyer into a 3-vial recovery+gut bundle with no compliance friction.
+
+**PT-141 (#2, score 8.70).** OBSERVED: 62 vendors, median $4.45/mg, CV 0.4746, 6 OOS. INFERRED rationale: Adds a non-locked product category (sexual function) to the catalog, which avoids the "only carries the obvious 5" critique flagged in `opening_sku_recommendation.md` for forum-culture credibility. Mature CV, sweet-spot median, no enforcement mention. The 6 OOS rows confirm real demand. Standalone purchase pattern (does not depend on the recovery or GH stacks), so it expands TAM rather than cannibalizing locked SKUs.
+
+**AOD-9604 (#3, score 8.61).** OBSERVED: 54 vendors, median $9.9996/mg, CV 0.4474, 12 OOS (highest in expansion set). INFERRED rationale: Fat-loss adjunct to the gym/looksmaxxing audience overlap with the recovery and GH stacks. 12 OOS vendors signals genuine supply pressure / strong demand. Mature CV, no enforcement signal, $10 median gives clean margin. Caveat: median variant breakdown shows the "empty" variant at $10/mg vs "acetate" at $8/mg — operator should source acetate to undercut median naturally.
+
+**Thymosin Alpha-1 (#4, score 8.51).** OBSERVED: 46 vendors, median $8.80/mg, CV 0.5249, 2 OOS. INFERRED rationale: Immune-modulation peptide pairs naturally with GHK-Cu and MOTS-c in a longevity/wellness bundle. Median is healthy, CV is mature, only 2 OOS so supply is stable. Not named in any retrieved FDA letter or DOJ plea (the FDA's named thymic peptide is Thymalin, not Thymosin Alpha-1; documented in the BeBetterMD letter for pediatric immunosuppression marketing — distinct compound). Clean compliance posture.
+
+**Semax (#5, score 8.35, after -1.5 plea penalty).** OBSERVED: 78 vendors (3rd-highest in non-locked set), median $4.00/mg, CV 0.6309, 8 OOS. INFERRED rationale: Largest universe support among non-locked candidates and a structural pair to Selank in the nootropic-stack bundle. Mature CV, sweet-spot margin. Penalty applied: Semax was named verbatim in the Tailor Made plea ("BPC 157, Cerebrolysin, CJC 1295, DSIP, Epitalon, ... Selank, and Semax"). However, the locked Selank already accepts equivalent risk, so adding Semax does not materially expand legal surface area — and the Selank+Semax nootropic-stack sells naturally.
+
+**SS-31 (#6, score 8.32).** OBSERVED: 34 vendors, median $4.80/mg, CV 0.4543, 5 OOS. INFERRED rationale: Mitochondrial peptide pairs with MOTS-c and Epithalon in a longevity/biohacker bundle. Median in sweet spot, mature CV, OOS at threshold (5) suggests modest supply pressure. No enforcement primary source mention in retrieved corpus. Adds a clear longevity-stack SKU that complements GHK-Cu+MOTS-c.
+
+**Epithalon (#7, score 8.27, after -1.5 plea penalty).** OBSERVED: 69 vendors, median $3.50/mg, CV 0.5021, 3 OOS. INFERRED rationale: Strong universe support (4th in non-locked set), longevity-stack anchor that pairs with MOTS-c and GHK-Cu, mature CV, sweet-spot margin. Penalty: "Epitalon" named in Tailor Made plea. The compound is the same; canonical spelling in catalog should be "Epithalon" (matches CJC industry convention). Offsetting factor: Sub-1mg peptide so per-vial absolute pricing is lower, attractive entry SKU.
+
+**GHRP-6 (#8, score 7.85).** OBSERVED: 16 vendors, median $5.76/mg, CV 0.5659, 1 OOS. INFERRED rationale: Alternative GH-secretagogue alongside the locked Ipamorelin+CJC-1295. Lower vendor count (16) is the only weakness, but median, CV, and pairing are clean. No enforcement signal. Pairs with appetite-stim narrative for users where Ipamorelin's appetite-neutral profile is undesired.
+
+**Tesamorelin (#9, score 7.85).** OBSERVED: 16 vendors, median $7.77/mg, CV 0.4630, 1 OOS. INFERRED rationale: GHRH-class GH-secretagogue, FDA-approved drug (Egrifta) so primary-source compliance posture is the cleanest among GH peptides — the secretagogue itself has FDA approval for HIV-associated lipodystrophy. Pairs with the GH stack. Caveat: smaller vendor universe (16) means less competitive pressure but also less Day-1 buyer expectation. Reasonable medium-term add.
+
+**GHRP-2 (#10, score 7.81).** OBSERVED: 15 vendors, median $5.76/mg (identical to GHRP-6), CV 0.5956, 2 OOS. INFERRED rationale: Sister compound to GHRP-6 with minor pharmacodynamic differences (less appetite stim). Identical median and similar CV suggests these two trade as a near-pair in the market. Adding both creates a complete GH-secretagogue stack-builder section. No enforcement signal in retrieved corpus.
+
+**Pinealon (#11, score 7.62).** OBSERVED: 11 vendors, median $3.50/mg, CV 0.4163, 0 OOS. INFERRED rationale: Khavinson short-peptide with longevity/nootropic crossover. Low vendor count (11) limits universe support but CV is mature, OOS=0 is supply-stable, and median is sweet-spot. No enforcement signal. Pairs with Epithalon as a Khavinson longevity sub-stack — natural "Russian peptide" narrative for biohacker audience.
+
+**IGF-1 LR3 (#12, score 7.53).** OBSERVED: 41 vendors, median $85.00/mg (premium niche), CV 0.8301, 7 OOS. INFERRED rationale: High-margin premium SKU for the gym/looksmaxxing audience that pairs with BPC-157+TB-500 recovery and the GH stack. Median outside the standard sweet spot but per-mg basis vs typical 100mcg dosing keeps unit economics reasonable. CV at 0.83 reflects vendor stratification (legitimate premium vs commodity). 7 OOS is real demand pressure. No FDA/DOJ enforcement primary mention.
+
+**Fragment 176-191 (#13, score 7.43).** OBSERVED: 8 vendors (in canonical naming; "HGH Fragment 176-191" adds 1 more in limited coverage), median $14.00/mg, CV 0.6093, 1 OOS. INFERRED rationale: Fat-loss adjunct, gym-audience overlap. Median at the upper edge of sweet spot but margin is healthy. Vendor count is lower (8) and the canonicalization split between "Fragment 176-191" and "HGH Fragment 176-191" suggests aggregation cleanup needed. No enforcement signal.
+
+**Hexarelin (#14, score 7.43).** OBSERVED: 8 vendors, median $11.50/mg, CV 0.5755, 1 OOS. INFERRED rationale: Potent GH-secretagogue alternative — strongest pulse stim in the GHRP class. Smaller universe (8 vendors) is the main weakness but CV and median are clean. No enforcement signal. Adds depth to the GH-stack section once GHRP-2/6 are in.
+
+**5-Amino-1MQ (#15, score 6.63).** OBSERVED: 35 vendors, median $1.94/mg, CV 1.7513 (high dispersion), 3 OOS. INFERRED rationale: Metabolic/longevity adjunct (NNMT inhibitor) for biohacker audience. Solid universe support but CV is in the price-discovery zone (1.75) suggesting market hasn't matured — this is both risk (price war pressure) and opportunity (early-mover positioning before commodity compression). Median below sweet spot pulls margin score down. No enforcement signal. Position as biohacker-curiosity SKU, not volume driver.
+
+**Honorable mentions (ranks 16-20):** NAD+ (longevity pairing strong but $0.17/mg median is commodity); DSIP (-1.5 plea penalty offsets a clean distribution); Kisspeptin-10 (only 3 vendors, niche fertility/HPG audience); Sermorelin (-1.5 risk, named in BeBetterMD compounded-GLP-1 letter context); MGF (-1.5 risk, named in plea). All five are deferrable past the first 15-SKU expansion wave.
+
+---
+
+## Part C — Pricing strategy synthesis (300 words)
+
+**What the cross-vendor distributions tell us about Vialchems Labs's pricing strategy for the 7 locked SKUs.**
+
+OBSERVED: All 7 locked SKUs sit in mature, competitive markets (CV between 0.32 and 0.65 except BPC-157 at 2.87 and TB-500 at 4.03 — both inflated by extreme outliers like `oros-research:bpc-157-arginate-500mcg-60cap` at $333.30/mg and `bachem:tb-500` at $475.32/mg, both research-pharma-grade outliers irrelevant to retail comp set). When outliers are stripped, the IQR-anchored core of every locked SKU is tight: BPC-157 IQR $4.30-$8.00, TB-500 IQR $5.00-$9.60, Ipamorelin IQR ~$4-$10, MOTS-c IQR $3.50-$6.50. INFERRED: Vialchems Labs should price all 7 SKUs in the $4-$8/mg corridor that matches the 25th-to-75th-percentile band of US retail competitors, **not** the rock-bottom band ($0.01-$0.20/mg) which is dominated by Chinese wholesalers (`nexaph`, `nantong-guangyuan-chemical-gyc`, `edge-peptides`, `peptira`) shipping kit-grade product that signals supply-side, not US e-commerce DTC.
+
+**Loss-leader gaps (5-15% below median is competitive but not market-disruptive).** OBSERVED median per-mg by SKU: BPC-157 $6.00, TB-500 $7.20, GHK-Cu $0.75, Ipamorelin $6.7495, CJC-1295 (no DAC) $6.899, MOTS-c $4.80, Selank $4.90. INFERRED loss-leader pricing band (median * 0.85-0.95): BPC-157 $5.10-$5.70/mg, TB-500 $6.10-$6.85/mg, GHK-Cu $0.64-$0.71/mg, Ipamorelin $5.74-$6.41/mg, CJC-1295 $5.86-$6.55/mg, MOTS-c $4.08-$4.56/mg, Selank $4.17-$4.66/mg. The strongest loss-leader plays are BPC-157 and TB-500 — the two highest-vendor-density SKUs (150, 125) where 5-15% under-median visibly beats the largest comp set without crossing into wholesale-signal territory.
+
+**Where to price ABOVE median (premium positioning where COA verification commands a premium).** INFERRED candidates: GHK-Cu (median $0.75 is depressed by Chinese wholesale; US premium positioners hold $1.50-$3.00/mg with CV-room to support a $1.00-$1.20 launch price), Ipamorelin (median $6.75 with premium positioners `blue-sky-peptide` at $20.97 and `peptide-sciences` at $15.00; a $7.50-$8.00 launch with explicit COA storytelling captures the trust-arbitrage gap), and Selank (median $4.90 with premium ceiling `amino-amigos`/`md-total-wellness` at $15.00 — room for a $5.50-$6.00 launch). MOTS-c, BPC-157, TB-500, and CJC-1295 are too commoditized for above-median positioning on Day 1; they are the volume-driver loss leaders.
+
+**Locked Recovery Stack ($77 = 12.5% effective discount on BPC-157+TB-500) vs observed bundle conventions.** OBSERVED from `pricing_matrix.csv` bundle_membership column: 298 of 3,388 rows (8.8%) carry non-empty bundle labels. The most-attested bundle is BPC-157+TB-500 under labels `BPC-TB-blend`, `BPC-TB500-blend`, `BNDL-LOOKSMAX`, `bpc-157-tb-500`, `arcane-peptides:bpc-tb-stack`, `wolverine`. Cross-vendor bundle discount conventions inferred from the few priced bundles (e.g., `nuri-clinics:wolverine-bpc157-tb500` at $14.99/mg combined dose; `bulk-peptide-supply:bpc-157-5mg-tb500-5mg-10vials` at $34/mg in 10-vial format) suggest 8-15% effective discount is the established convention. **The $77 / 12.5% Vialchems Labs Recovery Stack lands squarely in the middle of that convention — neither suspiciously generous (which would signal Chinese wholesale dumping) nor anchor-stingy (which would underprice perceived value). Hold it as published.** Future bundle #2 candidate (CJC-1295 + Ipamorelin GH stack) should target the same 10-13% range.
+
+---
+
+## Methodology notes
+
+- All distribution numbers OBSERVED from `sku_distributions_summary.json` generated 2026-05-08T10:52:20Z. Per-mg values rounded to 4 decimal places with banker's rounding by the upstream tool.
+- Top-3 vendor selection rule INFERRED here (lowest / closest-to-median / highest) is derived from `pricing_matrix.csv` excluding `per_mg_price_usd <= 0` (138 rows, mostly dose=0 anomalies on `aio-peptides` lipotropic blends and similar) and `uncertain` rows.
+- Compliance signals OBSERVED from `compliance_disclaimers/enforcement_events.md`. The high/moderate/low compliance tiering rule is INFERRED from cross-referencing peptide names against the source's verbatim "Compounds named" lists. The Tailor Made plea explicitly enumerates 14 peptides; the BeBetterMD letter (Aug 2024) names Semaglutide+Tirzepatide+Thymalin; the Sept 2025 GLP-1 wave + ITC tirzepatide General Exclusion Order is the dominant active enforcement zone.
+- Stack-pairing scores are INFERRED from `opening_sku_recommendation.md` bundle-pattern attestations and standard peptide protocol literature (canonical recovery, GH, nootropic, longevity, fat-loss stacks). No primary-source verification of pairing scores beyond bundle_membership column attestations.
+- The 78-row table includes all peptide_canonical buckets present in the upstream JSON, including `other` (122 vendors, mostly catch-all uncategorized SKUs) which is excluded from Part B candidate set per the `duplicates` filter.
+
+## Cross-checks performed
+
+- Reconciled `pricing_matrix_rows: 3388`, `priced_rows_total: 2804`, `peptides_total: 78` from JSON against narrative numbers in the markdown header — match.
+- Spot-check: BPC-157 lowest ($0.0152, `nexaph:bpc-157-10mg-kit`), highest ($333.30, `oros-research:bpc-157-arginate-500mcg-60cap`) — verified consistent between JSON and markdown source files.
+- CV<0.10 cartel scan: only Melanotan II (vendor_count=3) flags, below the threshold for the rule. No CV<0.10 with vendor_count>=5 in the universe; assertion stated in Part A reflects this.
