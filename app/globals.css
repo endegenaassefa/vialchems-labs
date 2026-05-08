@@ -1,26 +1,204 @@
 @import "tailwindcss";
 
+/* ============================================================
+ * Vialchems Labs — Posture A clean clinical
+ * Source: SUPER_PROMPT_v3 Appendix V.2
+ * Mirrored in lib/design/tokens.ts
+ * ============================================================ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Surfaces */
+  --bg: #0a0e0f;
+  --surface: #141a1c;
+  --surface-strong: #1a2226;
+  --surface-muted: rgba(20, 26, 28, 0.6);
+
+  /* Brand accents */
+  --accent: #3dd4c8;
+  --accent-soft: #5eebdf;
+  --accent-glow: #7ff1e8;
+  --electric: #67e8f9;
+
+  /* Text */
+  --text: rgba(255, 255, 255, 0.92);
+  --text-muted: rgba(255, 255, 255, 0.62);
+  --text-subtle: rgba(255, 255, 255, 0.42);
+
+  /* Borders */
+  --border: #1f2a2e;
+  --border-strong: #2a3a40;
+
+  /* Status */
+  --pill-accent: #3dd4c8;
+  --pill-info: #5eebdf;
+  --pill-electric: #67e8f9;
+  --pill-error: #f87171;
+
+  /* Spacing */
+  --sp-2xs: 2px;
+  --sp-xs: 4px;
+  --sp-sm: 8px;
+  --sp-md: 12px;
+  --sp-lg: 16px;
+  --sp-xl: 24px;
+  --sp-2xl: 32px;
+  --sp-3xl: 48px;
+  --sp-4xl: 64px;
+  --sp-5xl: 96px;
+  --sp-6xl: 128px;
+
+  /* Radii */
+  --radius-sm: 4px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 16px;
+  --radius-2xl: 18px;
+  --radius-full: 999px;
+
+  /* Motion */
+  --ease-premium-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: ease-in;
+  --ease-move: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-linear: linear;
+
+  --dur-micro: 80ms;
+  --dur-short: 200ms;
+  --dur-medium: 320ms;
+  --dur-long: 540ms;
+  --dur-slow: 720ms;
+
+  /* Typography */
+  --font-sans: var(--font-plex-sans, "IBM Plex Sans"), system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono, "IBM Plex Mono"), ui-monospace, monospace;
+  --font-serif-italic: var(--font-newsreader, "Newsreader"), ui-serif, Georgia, serif;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-strong: var(--surface-strong);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-glow: var(--accent-glow);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-text-subtle: var(--text-subtle);
+  --color-border: var(--border);
+  --color-electric: var(--electric);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+  --font-serif-italic: var(--font-serif-italic);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-feature-settings: "tnum" 1, "lnum" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Atmospheric radial gradient: subtle teal pull from top-right; kept restrained */
+  background:
+    radial-gradient(ellipse 80% 60% at 80% 0%, rgba(61, 212, 200, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 20% 100%, rgba(103, 232, 249, 0.04) 0%, transparent 70%),
+    var(--bg);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* Tabular numerals everywhere a number lives */
+.tabular {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* Mono utility */
+.font-mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.font-serif-italic {
+  font-family: var(--font-serif-italic);
+  font-style: italic;
+}
+
+/* Field label — Plex Mono uppercase */
+.field-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+}
+
+/* Focus ring (Iron Law: 2px solid accent + 2px offset) */
+*:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 100;
+  padding: 8px 16px;
+  background: var(--surface-strong);
+  color: var(--text);
+  border-radius: var(--radius-md);
+}
+
+.skip-link:focus {
+  left: 16px;
+  top: 16px;
+}
+
+/* Reduced-motion fallback (mandatory per Appendix W.5) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Vial sway — Posture A signature motion (Appendix V.2) */
+@keyframes vial-sway {
+  0%, 100% { transform: rotate(-12deg); }
+  50% { transform: rotate(12deg); }
+}
+
+@keyframes vial-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes vial-sheen {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Stagger reveal for catalog tiles */
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal-up {
+  animation: reveal-up var(--dur-medium) var(--ease-premium-out) both;
 }
