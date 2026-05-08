@@ -59,9 +59,7 @@ export async function POST(request: Request) {
   //   2. Generate per-email promo code (or assign WELCOME15 default)
   //   3. Trigger Resend welcome-sequence email 1 of 4
   //   4. Schedule emails 2/3/4 at days +3, +7, +14
-  // For now, log + redirect.
-  // eslint-disable-next-line no-console
-  // (intentional: stub diagnostic; replaced in Phase 10)
+  // For now, accept + redirect.
 
   // Form submissions redirect for non-JS clients.
   if (!contentType.includes('application/json')) {
