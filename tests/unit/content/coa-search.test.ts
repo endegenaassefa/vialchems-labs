@@ -24,8 +24,10 @@ describe('COA search (Fuse)', () => {
     expect(hits.length).toBe(coaRecords.length);
   });
 
-  it('finds records by laboratory name', () => {
-    const hits = fuse.search('Janoshik');
+  it('finds records by laboratory name (lab-agnostic per v1.3 override)', () => {
+    // v1.3 — operator removed specific lab affiliation; records carry the
+    // generic "Independent Lab" label. Search by that string.
+    const hits = fuse.search('Independent Lab');
     expect(hits.length).toBe(coaRecords.length);
   });
 

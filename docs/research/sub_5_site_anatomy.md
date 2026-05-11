@@ -1,6 +1,6 @@
 # Sub-5: Site Anatomy Blueprint
 
-**Constitution acknowledgment:** Read and acknowledged. North star: peptide e-commerce site, FDA-enforcement-survivable, zero-edit-deployable, research-grounded. Brand LOCKED to Vialchems Labs (Posture A clean clinical, vialchems.labs).
+**Constitution acknowledgment:** Read and acknowledged. North star: peptide e-commerce site, FDA-enforcement-survivable, zero-edit-deployable, research-grounded. Brand LOCKED to vialchemlabs (Posture A clean clinical, vialchemlabs.com).
 
 **Sample composition (n=14 vendor profiles read):**
 - **Active survivors:** core-peptides, swiss-chems, chemyo, skye-peptides, polaris-peptides, mile-high-compounds, apexpeptidesupply, prime-peptides (8)
@@ -84,7 +84,7 @@ The market has functionally converged on **3 stable nav archetypes**:
 - **Compliance / Regulatory page** (0% — universally folded into TOS)
 - **Investor / Founder Story** (0%)
 
-This last bucket is the **differentiation surface**: a clean clinical brand (Vialchems Labs Posture A) can win by lighting up Sourcing, Quality Control, and a research-grounded blog while Tier-2 incumbents lean on price/affiliate volume.
+This last bucket is the **differentiation surface**: a clean clinical brand (vialchemlabs Posture A) can win by lighting up Sourcing, Quality Control, and a research-grounded blog while Tier-2 incumbents lean on price/affiliate volume.
 
 ---
 
@@ -98,7 +98,7 @@ This last bucket is the **differentiation surface**: a clean clinical brand (Via
 
 **Imagery treatment** (OBSERVED): "clinical" = white-background lyophilized vial / labeled bottle photo. 11/14 self-describe as clinical. Two outliers — pure-rawz and amino-asylum — both labeled "meme_coded" (Reddit-influencer aesthetic).
 
-**Vialchems Labs implication (Posture A):** clinical white-background photography, 3-image carousel minimum (vial front, vial label macro, COA inline). Skip lifestyle/influencer imagery.
+**vialchemlabs implication (Posture A):** clinical white-background photography, 3-image carousel minimum (vial front, vial label macro, COA inline). Skip lifestyle/influencer imagery.
 
 ### Description length distribution (OBSERVED, word counts approximate from excerpts)
 
@@ -117,7 +117,7 @@ Vendors with **structured "spec sheet" formatting** (sequence / molecular formul
 - **Tabbed (a "Disclaimer" or "Research Use" tab alongside Description / COA):** 3/14 (chemyo, pure-rawz, swiss-chems uses tabbed interface for COA/HPLC/MS but disclaimer is footer)
 - **Sidebar:** 0/14 — not observed
 
-**Vialchems Labs implication:** dual placement — short banner above-fold ("For laboratory research only. Not for human use.") + full disclaimer paragraph below description + footer site-wide. Mirror peptide-sciences/core-peptides exact-text patterns.
+**vialchemlabs implication:** dual placement — short banner above-fold ("For laboratory research only. Not for human use.") + full disclaimer paragraph below description + footer site-wide. Mirror peptide-sciences/core-peptides exact-text patterns.
 
 ### COA hosting model (OBSERVED — the most consequential trust differentiator)
 
@@ -157,7 +157,7 @@ Ranking algorithm not visible in static fetches but inferred (INFERRED) as categ
 - **KLOW stack (KPV + GHK-Cu + TB-500 + BPC-157):** skye-peptides ("KLOW 50/10/10/10 mg"), polaris-peptides, mile-high-compounds ("KLOW-80 Blend") — multi-vendor convergence on the exact same blend identity.
 - **CJC-1295 + Ipamorelin blend:** universal — every vendor in sample carries it.
 
-This is **strong evidence of community-driven blend canon** — Vialchems Labs should ship Day-1 with at least the Recovery (BPC/TB) and CJC/Ipa blends, and consider GLOW.
+This is **strong evidence of community-driven blend canon** — vialchemlabs should ship Day-1 with at least the Recovery (BPC/TB) and CJC/Ipa blends, and consider GLOW.
 
 ---
 
@@ -174,7 +174,7 @@ This is **strong evidence of community-driven blend canon** — Vialchems Labs s
 - **21+:** 7/14 (peptide-sciences, swiss-chems, mile-high-compounds, polaris-peptides, prime-peptides, skye-peptides, pure-rawz implicit)
 - **Inconsistent (TOS says 21+ but checkout says 18+):** blue-sky-peptide flagged this internally
 
-**Vialchems Labs implication:** 21+ modal age gate on first visit + checkout checkbox reaffirmation — matches highest-trust posture (peptide-sciences / swiss-chems / mile-high-compounds posture).
+**vialchemlabs implication:** 21+ modal age gate on first visit + checkout checkbox reaffirmation — matches highest-trust posture (peptide-sciences / swiss-chems / mile-high-compounds posture).
 
 ### Jurisdictional surface (OBSERVED)
 
@@ -191,7 +191,7 @@ The exact "[Brand] is not a compounding pharmacy or chemical compounding facilit
 - **Both footer AND TOS:** 4/14 (highest-trust posture — peptide-sciences, swiss-chems, chemyo, polaris-peptides)
 - **Neither:** 0/14 — universally present somewhere
 
-**Vialchems Labs implication:** include in BOTH footer and TOS verbatim. Match the polaris-peptides exact wording for safety.
+**vialchemlabs implication:** include in BOTH footer and TOS verbatim. Match the polaris-peptides exact wording for safety.
 
 ### Trustpilot / BBB integration (OBSERVED)
 
@@ -208,7 +208,7 @@ The exact "[Brand] is not a compounding pharmacy or chemical compounding facilit
 - prime-peptides (homepage testimonials)
 - paradigm-peptides historical (5.00/5 from 7 reviews)
 
-**Vialchems Labs Day-1 decision (per constitution):** NO on-site reviews, NO testimonials Day 1. This aligns with peptide-sciences, core-peptides, limitless-life-nootropics, swiss-chems, polaris-peptides, skye-peptides, mile-high-compounds (7/14 — the **majority of high-trust vendors do NOT show reviews**, despite Reddit pressure to show them).
+**vialchemlabs Day-1 decision (per constitution):** NO on-site reviews, NO testimonials Day 1. This aligns with peptide-sciences, core-peptides, limitless-life-nootropics, swiss-chems, polaris-peptides, skye-peptides, mile-high-compounds (7/14 — the **majority of high-trust vendors do NOT show reviews**, despite Reddit pressure to show them).
 
 ### Forum-review-thread links (OBSERVED)
 
@@ -248,7 +248,7 @@ The market norm is to let earned community references stay external (off-site mo
 | Wire transfer | 2/14 (limitless-life-nootropics multi-currency, swiss-chems) |
 | **Stripe-as-named-processor** | 1/14 (apexpeptidesupply WooCommerce Payments) — distinguishes from "credit card" because Stripe is high-risk-tagged for this category |
 
-**Constitutional non-negotiable confirmed:** No Stripe / PayPal / Square. Pattern of vendors who explicitly avoid these: peptide-sciences (ACH + custom CC), swiss-chems (BTC + bank wire), chemyo (BTC + Visa via custom processor + eCheck via Checkbook.io), pure-rawz (Venmo + crypto + custom CC). **There is a clear "high-risk processor" cohort** the constitution is asking Vialchems Labs to follow.
+**Constitutional non-negotiable confirmed:** No Stripe / PayPal / Square. Pattern of vendors who explicitly avoid these: peptide-sciences (ACH + custom CC), swiss-chems (BTC + bank wire), chemyo (BTC + Visa via custom processor + eCheck via Checkbook.io), pure-rawz (Venmo + crypto + custom CC). **There is a clear "high-risk processor" cohort** the constitution is asking vialchemlabs to follow.
 
 UX presentation: **radio buttons** (8/14 PROXY based on WooCommerce defaults), **tabs** (1/14 swiss-chems), **selector dropdown** (uncommon).
 
@@ -321,7 +321,7 @@ Constitutional implication: **Omnisend** is the safe Day-1 choice (4/4 of explic
 - **Twitter/X Ads:** 1/14 (mile-high-compounds)
 - **Snap / LinkedIn:** 0/14
 
-**Vialchems Labs implication:** GA4 + GTM + Meta Pixel + (optional) TikTok Pixel is the safe convergent stack. Skip Pinterest (lower ROI signal for this category).
+**vialchemlabs implication:** GA4 + GTM + Meta Pixel + (optional) TikTok Pixel is the safe convergent stack. Skip Pinterest (lower ROI signal for this category).
 
 ### Chat widget presence (OBSERVED)
 
@@ -354,7 +354,7 @@ Industry leans **away from on-site chat** — perceived attack surface for moder
 4. **Therapeutic application overviews** (cancer immunotherapy, regenerative medicine, hair regrowth, sleep) — polaris-peptides, paradigm-peptides historical
 5. **Bioregulator / longevity profiles** (Epitalon, KED, Vesugen, Pinealon) — core-peptides distinctive cadence
 
-**Author bylines:** 7/14 yes (peptide-sciences with Dr. Marinov MD/PhD at core-peptides, limitless-life-nootropics, polaris-peptides false, blue-sky-peptide false). When present, the byline is **a credentialed-MD framing** (not community influencer). This is a strong trust signal Vialchems Labs should adopt.
+**Author bylines:** 7/14 yes (peptide-sciences with Dr. Marinov MD/PhD at core-peptides, limitless-life-nootropics, polaris-peptides false, blue-sky-peptide false). When present, the byline is **a credentialed-MD framing** (not community influencer). This is a strong trust signal vialchemlabs should adopt.
 
 ### Internal linking patterns (OBSERVED)
 
@@ -371,7 +371,7 @@ Industry leans **away from on-site chat** — perceived attack surface for moder
 
 ---
 
-## Section 7 — Vialchems Labs Day-1 IA Recommendation (Posture A clean clinical, vialchems.labs)
+## Section 7 — vialchemlabs Day-1 IA Recommendation (Posture A clean clinical, vialchemlabs.com)
 
 **Top-level navigation (8 items, lean clinical):**
 1. **Shop** (mega-menu: Recovery Peptides, Longevity Peptides, Cognitive Peptides, Bioregulators, Topicals, Blends, Supplies — Type-axis only Day 1; add Research-Category-axis Phase 2)
@@ -395,7 +395,7 @@ Industry leans **away from on-site chat** — perceived attack surface for moder
 
 4. **No on-site reviews, no testimonials Day 1** (per constitution). Aligns with high-trust majority (peptide-sciences, core-peptides, limitless-life-nootropics, swiss-chems, polaris-peptides, skye-peptides, mile-high-compounds — 7/14).
 
-5. **Credentialed MD blog bylines** from launch (Dr. Marinov pattern at core-peptides). Even one named MD reviewer for the cornerstone posts moves Vialchems from "vendor" to "research supplier" framing.
+5. **Credentialed MD blog bylines** from launch (Dr. Marinov pattern at core-peptides). Even one named MD reviewer for the cornerstone posts moves vialchemlabs from "vendor" to "research supplier" framing.
 
 **Where to follow the median (don't reinvent the wheel):**
 
@@ -421,7 +421,7 @@ Industry leans **away from on-site chat** — perceived attack surface for moder
 |---|---|---|
 | Constitution acknowledgment | ✅ | Top of doc |
 | North star references (FDA-survivable, zero-edit, research-grounded) | ✅ | Section 7 explicitly maps each |
-| Brand LOCKED to Vialchems Labs | ✅ | Section 7 only |
+| Brand LOCKED to vialchemlabs | ✅ | Section 7 only |
 | No Mogtrix / no BAC water / no Stripe-PayPal-Square / no reviews Day 1 | ✅ | Constitution non-negotiables called out at Sec 4 (payments), Sec 3 (reviews), Sec 7 (Day-1 IA) |
 | 25 priority profiles | ⚠️ Partial — 12 of 25 in corpus + 2 substitutes (apexpeptidesupply, prime-peptides) — covers all 12 available priorities; 13 not present in corpus (biotech-peptides, behemoth-labz, peptide-guys, domestic-supply, particle-peptides, ascension-peptides, sports-technology-labs, apollo-peptide-sciences, onyx-biolabs, loti-labs, peptaura, qsc-peptides, mountain-peptides). Substituted with apexpeptidesupply and prime-peptides; cross-checked against ~30 vendor evidence-file grep |
 | 7 sections | ✅ | All present |
@@ -431,10 +431,10 @@ Industry leans **away from on-site chat** — perceived attack surface for moder
 | Trust/compliance cross-vendor | ✅ | Section 3 |
 | Lab partner naming frequency | ✅ | Section 2 — Janoshik dominance documented |
 | Tech stack distribution | ✅ | Section 5 — WooCommerce 71%, Cloudflare CDN, Omnisend dominant |
-| Vialchems Labs IA recommendation 300 words | ✅ | Section 7 (~700 words including reasoning beyond strict 300) |
+| vialchemlabs IA recommendation 300 words | ✅ | Section 7 (~700 words including reasoning beyond strict 300) |
 
 **Sample-size limitation flagged:** 14 vendor profiles read in detail; cross-referenced against 200+ corpus vendor list and ~30 evidence files via grep. Findings are robust on the dominant-pattern axis (COA, payment, age gate, footer disclaimer). Findings are weaker on niche signals (chat widget exact distribution, exact analytics-tool mix at vendors with JS-rendered/walled stacks).
 
 **Conflict surfaces:** None with constitution. Two market-pattern conflicts surfaced for operator awareness:
-1. **On-site reviews:** majority of high-trust vendors do NOT show them (constitution-aligned), but Reddit-trusted budget tier (chemyo, pure-rawz, amino-asylum) does — Vialchems must accept slight conversion-rate disadvantage vs. budget tier for trust posture
-2. **Membership-wall trend:** 3 of 14 vendors went members-only by 2026 (skye, polaris, mile-high). This is a defensive posture Vialchems may need to consider Phase 2 if FDA enforcement intensifies, but conflicts with conversion-in-21-days mandate Day 1.
+1. **On-site reviews:** majority of high-trust vendors do NOT show them (constitution-aligned), but Reddit-trusted budget tier (chemyo, pure-rawz, amino-asylum) does — vialchemlabs must accept slight conversion-rate disadvantage vs. budget tier for trust posture
+2. **Membership-wall trend:** 3 of 14 vendors went members-only by 2026 (skye, polaris, mile-high). This is a defensive posture vialchemlabs may need to consider Phase 2 if FDA enforcement intensifies, but conflicts with conversion-in-21-days mandate Day 1.

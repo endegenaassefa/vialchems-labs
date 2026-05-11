@@ -10,7 +10,7 @@ import { siteConfig } from '@/lib/content/site';
 export const metadata: Metadata = {
   title: 'Refund Policy',
   description:
-    'Refund and replacement policy for Vialchems Labs research-peptide orders. All sales final on opened vials. Damage replacement requires photo evidence within 7 days.',
+    'Replacement policy for vialchemlabs research-peptide orders. All sales final on opened vials. Shipping damage replacement requires photo evidence within 7 days.',
 };
 
 export default function RefundsPage() {
@@ -23,9 +23,9 @@ export default function RefundsPage() {
       lastUpdated="2026-05-08"
     >
       <P>
-        This Refund Policy governs refunds and replacements for orders placed
-        with {brand}. By placing an order, you acknowledge and agree to this
-        policy.
+        This policy governs final sale terms and replacement requests for
+        orders placed with {brand}. By placing an order, you acknowledge and
+        agree to this policy.
       </P>
 
       <H2>1. All Sales Final on Opened Vials</H2>
@@ -45,7 +45,7 @@ export default function RefundsPage() {
       </P>
       <UL>
         <LI>
-          Contact <A href="mailto:research@vialchems.labs">research@vialchems.labs</A>{' '}
+          Contact <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A>{' '}
           or use the <A href="/contact">contact form</A> within 7 days of
           delivery.
         </LI>
@@ -85,14 +85,13 @@ export default function RefundsPage() {
         <LI>Storage failures after delivery (e.g., temperature excursion, damage by recipient).</LI>
       </UL>
 
-      <H2>5. Refund Processing</H2>
+      <H2>5. Replacement-First Remedy</H2>
       <P>
-        Where a refund is approved, processing typically takes 5-10 business
-        days from approval. Refunds are issued to the original payment
-        instrument where feasible. For cryptocurrency payments, refunds are
-        issued in the same currency to the wallet address from which payment
-        was originally received, unless the buyer provides a different address
-        in writing.
+        The primary remedy for eligible shipping damage or order error is a
+        corrective replacement shipment. Cash refunds are not guaranteed and
+        are considered only where a replacement is not commercially practical
+        or where required by applicable law. Refunds, if approved, are issued
+        to the original payment instrument where feasible.
       </P>
 
       <H2>6. Lost Packages</H2>
@@ -108,7 +107,7 @@ export default function RefundsPage() {
       <H2>7. Contact</H2>
       <P>
         Refund and replacement requests:{' '}
-        <A href="mailto:research@vialchems.labs">research@vialchems.labs</A>.
+        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A>.
       </P>
     </LegalShell>
   );

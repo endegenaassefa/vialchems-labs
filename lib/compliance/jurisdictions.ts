@@ -35,13 +35,13 @@ export function validateShippingAddress(address: {
   if (!isAllowedCountry(address.countryCode)) {
     return {
       ok: false,
-      reason: `Vialchems Labs ships to United States addresses only at this time. International shipping is not currently available.`,
+      reason: `vialchemlabs ships to United States addresses only at this time. International shipping is not currently available.`,
     };
   }
   if (address.stateCode && isBlockedState(address.stateCode)) {
     return {
       ok: false,
-      reason: `Vialchems Labs does not ship to ${address.stateCode}. The customer assumes all regulatory compliance responsibility for their jurisdiction.`,
+      reason: `vialchemlabs does not ship to ${address.stateCode}. The customer assumes all regulatory compliance responsibility for their jurisdiction.`,
     };
   }
   return { ok: true };

@@ -8,11 +8,13 @@ import Link from 'next/link';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { Pill } from '@/components/ui/Pill';
+import { Card } from '@/components/ui/Card';
+import { buttonClassNames } from '@/components/ui/Button';
 
 export const metadata: Metadata = {
   title: 'Subscription confirmed',
   description:
-    'Thank you for subscribing to Vialchems Labs research updates. Your Reconstitution and Storage Guide PDF is in your inbox.',
+    'Thank you for subscribing to vialchemlabs research updates. Your Reconstitution and Storage Guide PDF is in your inbox.',
 };
 
 export default function NewsletterThanksPage() {
@@ -36,7 +38,7 @@ export default function NewsletterThanksPage() {
               and small-catalog updates.
             </p>
 
-            <div className="rounded-[14px] border border-[var(--border-strong)] bg-[var(--surface)] px-6 py-8 text-left max-w-md mx-auto mb-12">
+            <Card variant="elevated" className="px-6 py-8 text-left max-w-md mx-auto mb-12">
               <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-3">
                 Welcome offer
               </p>
@@ -46,19 +48,13 @@ export default function NewsletterThanksPage() {
               <div className="flex items-center justify-center font-mono tabular text-[28px] font-semibold text-[var(--accent)] tracking-[0.06em] py-3 border border-dashed border-[var(--border-strong)] rounded-[10px]">
                 WELCOME15
               </div>
-            </div>
+            </Card>
 
             <div className="flex items-center justify-center gap-3 flex-wrap">
-              <Link
-                href="/shop"
-                className="inline-flex items-center gap-2 px-6 h-12 rounded-[var(--radius-full)] bg-[var(--accent)] text-[var(--bg)] font-medium text-[15px] hover:bg-[var(--accent-soft)] transition-colors"
-              >
+              <Link href="/shop" className={buttonClassNames('primary', 'lg')}>
                 Browse Catalog
               </Link>
-              <Link
-                href="/coa"
-                className="inline-flex items-center gap-2 px-6 h-12 rounded-[var(--radius-full)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[15px] transition-colors"
-              >
+              <Link href="/coa" className={buttonClassNames('outline', 'lg')}>
                 View COAs
               </Link>
             </div>

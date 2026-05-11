@@ -9,41 +9,64 @@
 import type { Metadata } from 'next';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
+import { StaggerReveal } from '@/components/ui/StaggerReveal';
 import { faqEntries } from '@/lib/content/faq';
+import { faqPageJsonLd, serializeJsonLdSafe } from '@/lib/seo/jsonLd';
 
 export const metadata: Metadata = {
   title: 'FAQ',
   description:
-    'Twenty answers on Vialchems Labs research peptides, Certificates of Analysis, payment, shipping, refunds, and the affiliate program.',
+    'Twenty answers on vialchemlabs research peptides, Certificates of Analysis, payment, shipping, refunds, and the affiliate program.',
 };
 
 export default function FaqPage() {
+  const faqLd = faqPageJsonLd(
+    faqEntries.map((entry) => ({ q: entry.q, a: entry.a })),
+  );
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeJsonLdSafe(faqLd) }}
+      />
       <SiteHeader />
       <main id="main" className="flex-1">
+        {/* v4 hero — varied. FAQ uses a numbered counter range hero
+            (01 → 20) per the brand's mono-numerical visual register. */}
         <section className="border-b border-[var(--border)]">
-          <div className="mx-auto max-w-3xl px-6 py-20 md:py-24">
-            <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-6">
-              FAQ
+          <div className="mx-auto max-w-3xl px-6 py-32 md:py-40">
+            <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-[var(--accent)] mb-10">
+              F R E Q U E N T L Y · A S K E D
             </p>
-            <h1 className="text-[clamp(40px,5.6vw,72px)] font-light leading-[1.05] tracking-tight text-[var(--text)] mb-6">
-              <span className="block">Twenty</span>
-              <span className="font-serif-italic block text-[var(--accent-soft)]">answers.</span>
-            </h1>
+            <div className="flex items-baseline gap-6 mb-10">
+              <p className="font-mono tabular text-[clamp(96px,16vw,180px)] leading-none font-light text-[var(--text)]">
+                20
+              </p>
+              <div className="font-mono text-[12px] uppercase tracking-[0.16em] text-[var(--text-subtle)] leading-relaxed">
+                <p>questions</p>
+                <p>answered</p>
+                <p>below</p>
+              </div>
+            </div>
             <p className="text-[18px] leading-[1.55] text-[var(--text-muted)] max-w-2xl">
-              Operational and compliance questions. If a question is not here,
-              reach the team via <a href="/contact" className="text-[var(--accent)] hover:text-[var(--accent-soft)]">the contact form</a>.
+              Operational and compliance questions. If yours is not here,
+              reach the team via{' '}
+              <a href="/contact" className="text-[var(--accent)] hover:text-[var(--accent-soft)]">
+                the contact form
+              </a>{' '}
+              — response within one business day.
             </p>
           </div>
         </section>
 
         <section>
           <div className="mx-auto max-w-3xl px-6 py-12">
-            <ol className="space-y-3">
+            <StaggerReveal as="ol" itemAs="li" className="space-y-3">
               {faqEntries.map((entry, idx) => (
-                <li key={idx}>
-                  <details className="group rounded-[14px] border border-[var(--border)] bg-[var(--surface)] open:border-[var(--border-strong)]">
+                <details
+                  key={idx}
+                  className="group rounded-[14px] border border-[var(--border)] bg-[var(--surface)] shadow-[var(--shadow-sm)] open:border-[var(--border-strong)] open:bg-[var(--surface-elevated)] open:shadow-[var(--shadow-md)] transition-[background-color,border-color,box-shadow] duration-[var(--dur-short)]"
+                >
                     <summary
                       className="
                         flex cursor-pointer items-baseline gap-4 px-6 py-5
@@ -66,13 +89,12 @@ export default function FaqPage() {
                         +
                       </span>
                     </summary>
-                    <div className="px-6 pb-6 pl-[calc(1.5rem+2rem)] text-[15px] leading-[1.65] text-[var(--text-muted)]">
-                      {entry.a}
-                    </div>
-                  </details>
-                </li>
+                  <div className="px-6 pb-6 pl-[calc(1.5rem+2rem)] text-[15px] leading-[1.65] text-[var(--text-muted)]">
+                    {entry.a}
+                  </div>
+                </details>
               ))}
-            </ol>
+            </StaggerReveal>
           </div>
         </section>
       </main>

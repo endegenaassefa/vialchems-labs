@@ -36,7 +36,7 @@ These items are stubbed Day-1 and require operator-side action OR Phase 2 wiring
 2. **Real Supabase Auth**: when Supabase project is provisioned, `lib/auth/*` will be ported from Mogtrix with peptide-context customizations. Day-1: stub login/signup forms with placeholder no-op submit.
 3. **Real Plaid/BTCPay payment processing**: addressed in Phase 9. Stub adapters Day-1.
 4. **Cart cross-reload persistence**: Day-1 in-memory only via Zustand. Phase 2 candidate to add localStorage or Supabase persistence.
-5. **Cookie consent banner**: Vialchems Labs intentionally does NOT load 3rd-party trackers (no GA, no Meta Pixel, no GTM). The strict-necessary cookie surface (auth, cart, checkout) is permitted by GDPR/CCPA without consent banner. Banner deferred to operator decision post-launch.
+5. **Cookie consent banner**: vialchemlabs intentionally does NOT load 3rd-party trackers (no GA, no Meta Pixel, no GTM). The strict-necessary cookie surface (auth, cart, checkout) is permitted by GDPR/CCPA without consent banner. Banner deferred to operator decision post-launch.
 
 ## Verification Gate
 

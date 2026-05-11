@@ -7,8 +7,10 @@
  *
  * Search uses Fuse.js across name + sku + category label (fuzzy threshold 0.4).
  *
- * In-stock state is hardcoded `true` for all SKUs in Phase 5 (real inventory
- * lands in Phase 9). The toggle filter is wired but always passes for now.
+ * v4 design overhaul: removed the placebo "In stock only" toggle (it was a
+ * `list.filter(() => true)` no-op until real inventory lands in Phase 9).
+ * Re-introduce when product.inStock is wired to real data; until then, do not
+ * render UI for state we cannot honor. Iron Law spirit: do not fake controls.
  */
 'use client';
 
@@ -17,10 +19,14 @@ import Fuse from 'fuse.js';
 import { useMemo, useState } from 'react';
 import { Card } from '@/components/ui/Card';
 import { Pill } from '@/components/ui/Pill';
-import { Button } from '@/components/ui/Button';
+import { Button, buttonClassNames } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
 import { FieldLabel } from '@/components/ui/FieldLabel';
-import { Vial } from '@/components/ui/Vial';
+import { ProductStudioVisual } from '@/components/ui/ProductStudioVisual';
+import { BundleStudioVisual } from '@/components/ui/BundleStudioVisual';
+import { EmptyState } from '@/components/ui/EmptyState';
+import { StaggerReveal } from '@/components/ui/StaggerReveal';
+import { RecoveryStackSheen } from '@/components/ui/RecoveryStackSheen';
 import { useCartStore } from '@/lib/cart-store';
 import {
   bundles,
@@ -46,7 +52,6 @@ export function ShopCatalog() {
   const [activeCategories, setActiveCategories] = useState<Set<ProductCategory>>(
     new Set(),
   );
-  const [inStockOnly, setInStockOnly] = useState(false);
   const [sortKey, setSortKey] = useState<SortKey>('newest');
 
   const fuse = useMemo(
@@ -68,10 +73,7 @@ export function ShopCatalog() {
     if (activeCategories.size > 0) {
       list = list.filter((p) => activeCategories.has(p.category));
     }
-    if (inStockOnly) {
-      // PLACEHOLDER: real inventory lands in Phase 9. Currently all SKUs treated as in-stock.
-      list = list.filter(() => true);
-    }
+    // v4: in-stock filter removed (was placebo; inventory not yet wired)
 
     switch (sortKey) {
       case 'price-asc':
@@ -89,7 +91,26 @@ export function ShopCatalog() {
         break;
     }
     return list;
-  }, [query, activeCategories, inStockOnly, sortKey, fuse]);
+  }, [query, activeCategories, sortKey, fuse]);
+
+  // ISSUE-008 fix: hide the Recovery Stack bundle when an active query / filter
+  // doesn't match its name OR any of its constituent SKUs. Without this the
+  // empty-results state still rendered the bundle on top.
+  const visibleBundles = useMemo(() => {
+    const filtersActive =
+      query.trim().length > 0 || activeCategories.size > 0;
+    if (!filtersActive) return bundles;
+    const visibleSkus = new Set(visible.map((p) => p.sku));
+    const q = query.trim().toLowerCase();
+    return bundles.filter((b) => {
+      const nameMatch = q.length > 0 && b.name.toLowerCase().includes(q);
+      const constituentMatch = b.constituents.some((sku) => visibleSkus.has(sku));
+      // When ONLY the category filter is active (no text query), keep the
+      // bundle if any constituent is in the visible list.
+      if (q.length === 0) return constituentMatch;
+      return nameMatch || constituentMatch;
+    });
+  }, [query, activeCategories, visible]);
 
   function toggleCategory(cat: ProductCategory) {
     setActiveCategories((prev) => {
@@ -104,28 +125,37 @@ export function ShopCatalog() {
     <section>
       <div className="mx-auto max-w-6xl px-6 py-12">
         {/* RECOVERY STACK BUNDLE — separate accent card */}
-        {bundles.map((bundle) => (
+        {visibleBundles.map((bundle) => (
           <Card
             as="article"
             key={bundle.slug}
             variant="interactive"
-            className="mb-12 p-6 md:p-8 flex flex-col md:flex-row gap-6 items-start md:items-center justify-between"
+            className="group/product relative mb-12 grid gap-6 overflow-hidden p-4 md:grid-cols-[minmax(280px,360px)_1fr_auto] md:items-center md:p-6"
           >
-            <div className="flex items-center gap-5">
-              <Vial size="md" aria-hidden="true" />
-              <div>
-                <Pill variant="accent" className="mb-2">
-                  Bundle
-                </Pill>
-                <h2 className="text-[24px] md:text-[28px] font-medium tracking-tight text-[var(--text)] mb-1">
-                  {bundle.name}
-                </h2>
-                <p className="text-[14px] text-[var(--text-muted)] max-w-xl leading-relaxed">
-                  {bundle.description}
-                </p>
-              </div>
+            <RecoveryStackSheen />
+            <Link
+              href={`/products/${bundle.slug}`}
+              className="block"
+              aria-label={`View ${bundle.name}`}
+            >
+              <BundleStudioVisual
+                bundle={bundle}
+                className="aspect-[4/3] rounded-[8px] border border-[color:color-mix(in_srgb,var(--accent)_16%,transparent)]"
+                sizes="(min-width: 768px) 360px, calc(100vw - 48px)"
+              />
+            </Link>
+            <div>
+              <Pill variant="accent" className="mb-2">
+                Bundle
+              </Pill>
+              <h2 className="text-[24px] md:text-[28px] font-medium tracking-tight text-[var(--text)] mb-1">
+                {bundle.name}
+              </h2>
+              <p className="text-[14px] text-[var(--text-muted)] max-w-xl leading-relaxed">
+                {bundle.description}
+              </p>
             </div>
-            <div className="flex flex-col items-end gap-2 shrink-0">
+            <div className="flex flex-col items-start gap-2 md:items-end shrink-0">
               <div className="flex items-baseline gap-2">
                 <span className="font-mono tabular text-[24px] font-semibold text-[var(--text)]">
                   {formatPrice(bundle.listPriceCents)}
@@ -136,7 +166,7 @@ export function ShopCatalog() {
               </div>
               <Link
                 href={`/products/${bundle.slug}`}
-                className="inline-flex items-center gap-2 px-5 h-10 rounded-[var(--radius-full)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[14px] transition-colors"
+                className={buttonClassNames('outline', 'md')}
               >
                 View bundle
               </Link>
@@ -145,75 +175,69 @@ export function ShopCatalog() {
         ))}
 
         {/* CONTROLS: search / filters / sort */}
-        <div className="mb-8 grid gap-6 md:grid-cols-[2fr_3fr_1fr]">
-          <div>
-            <FieldLabel htmlFor="catalog-search">Search</FieldLabel>
-            <div className="mt-2">
-              <Input
-                id="catalog-search"
-                placeholder="Peptide name or SKU"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-              />
+        <div className="mb-8 rounded-[14px] border border-[var(--border)] bg-[var(--surface)] p-4 shadow-[var(--shadow-sm)]">
+          <div className="grid gap-5 md:grid-cols-[minmax(0,1.35fr)_minmax(0,2fr)_180px]">
+            <div>
+              <FieldLabel htmlFor="catalog-search">Search</FieldLabel>
+              <div className="mt-2">
+                <Input
+                  id="catalog-search"
+                  placeholder="Peptide name or SKU"
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                />
+              </div>
             </div>
-          </div>
 
-          <div>
-            <FieldLabel>Category</FieldLabel>
-            <div className="mt-2 flex flex-wrap gap-2">
-              {productCategories.map((cat) => {
-                const active = activeCategories.has(cat.id);
-                return (
-                  <button
-                    key={cat.id}
-                    type="button"
-                    onClick={() => toggleCategory(cat.id)}
-                    aria-pressed={active}
-                    className={[
-                      'inline-flex items-center h-8 px-3 rounded-[var(--radius-full)]',
-                      'font-mono uppercase tracking-[0.12em] text-[11px]',
-                      'transition-colors duration-200 ease-[cubic-bezier(0.16,1,0.3,1)]',
-                      active
-                        ? 'bg-[color:color-mix(in_srgb,var(--accent)_18%,transparent)] text-[var(--accent)] border border-[var(--accent)]'
-                        : 'bg-[var(--surface)] text-[var(--text-muted)] border border-[var(--border)] hover:border-[var(--border-strong)]',
-                    ].join(' ')}
-                  >
-                    {cat.label}
-                  </button>
-                );
-              })}
+            <div>
+              <FieldLabel>Category</FieldLabel>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {productCategories.map((cat) => {
+                  const active = activeCategories.has(cat.id);
+                  return (
+                    <button
+                      key={cat.id}
+                      type="button"
+                      onClick={() => toggleCategory(cat.id)}
+                      aria-pressed={active}
+                      className={[
+                        'inline-flex items-center h-8 px-3 rounded-[var(--radius-full)]',
+                        'font-mono uppercase tracking-[0.12em] text-[11px]',
+                        'transition-colors duration-200 ease-[cubic-bezier(0.16,1,0.3,1)]',
+                        active
+                          ? 'bg-[color:color-mix(in_srgb,var(--accent)_18%,transparent)] text-[var(--accent)] border border-[var(--accent)]'
+                          : 'bg-[var(--surface-strong)] text-[var(--text-muted)] border border-[var(--border)] hover:border-[var(--border-strong)]',
+                      ].join(' ')}
+                    >
+                      {cat.label}
+                    </button>
+                  );
+                })}
+              </div>
             </div>
-          </div>
 
-          <div>
-            <FieldLabel htmlFor="catalog-sort">Sort</FieldLabel>
-            <div className="mt-2">
-              <select
-                id="catalog-sort"
-                value={sortKey}
-                onChange={(e) => setSortKey(e.target.value as SortKey)}
-                className="w-full h-10 px-3 rounded-[var(--radius-md)] border border-[var(--border)] bg-[var(--surface-strong)] text-[14px] text-[var(--text)]"
-              >
-                {SORT_OPTIONS.map((opt) => (
-                  <option key={opt.value} value={opt.value}>
-                    {opt.label}
-                  </option>
-                ))}
-              </select>
+            <div>
+              <FieldLabel htmlFor="catalog-sort">Sort</FieldLabel>
+              <div className="mt-2">
+                <select
+                  id="catalog-sort"
+                  value={sortKey}
+                  onChange={(e) => setSortKey(e.target.value as SortKey)}
+                  className="w-full h-10 px-3 rounded-[var(--radius-md)] border border-[var(--border)] bg-[var(--surface-strong)] text-[14px] text-[var(--text)]"
+                >
+                  {SORT_OPTIONS.map((opt) => (
+                    <option key={opt.value} value={opt.value}>
+                      {opt.label}
+                    </option>
+                  ))}
+                </select>
+              </div>
             </div>
           </div>
         </div>
 
+        {/* v4: "In stock only" placebo toggle removed. Counter retained. */}
         <div className="mb-6 flex items-center gap-3">
-          <label className="inline-flex items-center gap-2 text-[14px] text-[var(--text-muted)] cursor-pointer">
-            <input
-              type="checkbox"
-              checked={inStockOnly}
-              onChange={(e) => setInStockOnly(e.target.checked)}
-              className="h-4 w-4 accent-[var(--accent)]"
-            />
-            <span>In stock only</span>
-          </label>
           <span className="font-mono text-[11px] uppercase tracking-[0.12em] text-[var(--text-subtle)]">
             {visible.length} / {products.length} shown
           </span>
@@ -221,17 +245,32 @@ export function ShopCatalog() {
 
         {/* GRID */}
         {visible.length === 0 ? (
-          <p className="py-16 text-center text-[var(--text-muted)]">
-            No products match the current filters.
-          </p>
+          <EmptyState
+            title="No matching peptides"
+            description="No products match the current search query and category filters. Try clearing one or both."
+            action={
+              <Button
+                variant="outline"
+                size="md"
+                onClick={() => {
+                  setQuery('');
+                  setActiveCategories(new Set());
+                }}
+              >
+                Clear all filters
+              </Button>
+            }
+          />
         ) : (
-          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <StaggerReveal
+            as="ul"
+            itemAs="li"
+            className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+          >
             {visible.map((product) => (
-              <li key={product.slug}>
-                <ProductTile product={product} />
-              </li>
+              <ProductTile key={product.slug} product={product} />
             ))}
-          </ul>
+          </StaggerReveal>
         )}
       </div>
     </section>
@@ -247,41 +286,52 @@ function ProductTile({ product }: { product: Product }) {
     <Card
       as="article"
       variant="interactive"
-      className="p-5 h-full flex flex-col gap-4"
+      className="group/product h-full overflow-hidden p-0 flex flex-col"
     >
       <Link
         href={`/products/${product.slug}`}
-        className="flex items-start gap-4 group"
+        className="block p-3 pb-0"
         aria-label={`View ${product.name}`}
       >
-        <Vial size="sm" aria-hidden="true" />
-        <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-2 mb-2">
-            <Pill variant="info">{categoryLabel}</Pill>
-            <Pill variant="accent">In stock</Pill>
+        <div className="mb-3 flex flex-wrap gap-1.5">
+          <Pill variant="electric" className="h-5 px-1.5 text-[9px]">
+            RUO
+          </Pill>
+          <Pill variant="accent" className="h-5 px-1.5 text-[9px]">
+            COA
+          </Pill>
+          <Pill variant="info" kind="tag" className="h-5 px-1.5 text-[9px]">
+            {categoryLabel}
+          </Pill>
+        </div>
+        <ProductStudioVisual
+          product={product}
+          className="mb-4 aspect-[4/5] rounded-[8px] border border-[color:color-mix(in_srgb,var(--accent)_16%,transparent)]"
+          fallbackClassName="scale-[0.92]"
+        />
+        <div className="px-1">
+          <div className="flex items-baseline justify-between gap-3">
+            <h3 className="text-[18px] font-semibold leading-tight text-[var(--text)] group-hover/product:text-[var(--accent-soft)] transition-colors">
+              {product.shortName}
+            </h3>
+            <p className="font-mono tabular text-[16px] font-semibold text-[var(--text)]">
+              {formatPrice(product.listPriceCents)}
+            </p>
           </div>
-          <h3 className="text-[18px] font-medium leading-tight text-[var(--text)] mb-1 group-hover:text-[var(--accent-soft)] transition-colors">
-            {product.shortName}
-          </h3>
-          <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-[var(--text-subtle)]">
-            {product.dose} · {product.sku}
+          <p className="mt-1 font-mono text-[10px] uppercase tracking-[0.12em] text-[var(--text-subtle)]">
+            {product.sku} · {product.dose} · {formatPerMg(product.perMgCents)}
           </p>
         </div>
       </Link>
 
-      <p className="text-[13px] leading-[1.55] text-[var(--text-muted)] flex-1">
+      <p className="px-4 pt-3 text-[13px] leading-[1.55] text-[var(--text-muted)] flex-1">
         {product.shortDescription}
       </p>
 
-      <div className="flex items-baseline justify-between gap-3">
-        <div>
-          <p className="font-mono tabular text-[20px] font-semibold text-[var(--text)]">
-            {formatPrice(product.listPriceCents)}
-          </p>
-          <p className="font-mono text-[11px] text-[var(--text-subtle)]">
-            {formatPerMg(product.perMgCents)}
-          </p>
-        </div>
+      <div className="mt-4 flex items-center justify-between gap-3 border-t border-[var(--border)] px-4 py-4">
+        <span className="font-mono text-[10px] uppercase tracking-[0.12em] text-[var(--accent)]">
+          In stock
+        </span>
         <Button
           variant="primary"
           size="sm"

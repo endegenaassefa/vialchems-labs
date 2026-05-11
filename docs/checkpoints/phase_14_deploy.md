@@ -5,7 +5,7 @@ Status: GitHub COMPLETE; Vercel deferred to operator action
 
 ## GitHub
 
-**Repository**: https://github.com/endegenaassefa/vialchems-labs
+**Repository**: https://github.com/endegenaassefa/vialchemlabs
 **Visibility**: PRIVATE (operator may flip to public post-launch)
 **Tag**: v1.0.0
 **Branch**: main (default)
@@ -16,7 +16,7 @@ Status: GitHub COMPLETE; Vercel deferred to operator action
 The build cannot complete autonomous deploy because:
 1. Vercel CLI requires interactive auth flow (`vercel login`) tied to operator's account
 2. Production env vars must be set in Vercel dashboard (operator's choice for project name, region, env-var rotation)
-3. `vialchems.labs` domain registration + DNS pointing requires operator's registrar account
+3. `vialchemlabs.com` domain registration + DNS pointing requires operator's registrar account
 
 ### Step-by-step Vercel deploy procedure
 
@@ -32,17 +32,17 @@ vercel link
 #   - Set up and deploy? → yes
 #   - Scope (team / personal) → operator chooses
 #   - Link to existing project? → no
-#   - Project name → vialchems-labs
+#   - Project name → vialchemlabs
 #   - Code root → ./
 #   - Auto-detected framework Next.js → confirm
 
 # 3. Add production env vars (one-time; replace stubs with real values)
 vercel env add NEXT_PUBLIC_SITE_URL production
-# paste: https://vialchems.labs (or fallback domain)
+# paste: https://vialchemlabs.com (or fallback domain)
 vercel env add BRAND_NAME production
-# paste: Vialchems Labs
+# paste: vialchemlabs
 vercel env add BRAND_DOMAIN production
-# paste: vialchems.labs
+# paste: vialchemlabs.com
 
 # Supabase (real cloud project required)
 vercel env add NEXT_PUBLIC_SUPABASE_URL production
@@ -52,7 +52,7 @@ vercel env add SUPABASE_SERVICE_ROLE_KEY production
 # Resend (real account + verified domain required)
 vercel env add RESEND_API_KEY production
 vercel env add ORDER_EMAIL_FROM production
-# paste: research@vialchems.labs
+# paste: research@vialchemlabs.com
 vercel env add ORDER_STAFF_EMAILS production
 
 # Sentry (real project required for error monitoring)
@@ -85,15 +85,15 @@ vercel env add PAYMENT_PROVIDER production
 vercel --prod
 
 # 5. Configure custom domain
-vercel domains add vialchems.labs
+vercel domains add vialchemlabs.com
 # Operator points DNS A or CNAME at Vercel target shown in output
 
 # 6. Verify
-curl https://vialchems.labs/api/health
-# Expected: { "status": "ok", "service": "vialchems-labs", "time": "..." }
+curl https://vialchemlabs.com/api/health
+# Expected: { "status": "ok", "service": "vialchemlabs", "time": "..." }
 
 # 7. Smoke test
-# Browser: open https://vialchems.labs, confirm:
+# Browser: open https://vialchemlabs.com, confirm:
 #   - Hero renders with "Counted, weighed, verified."
 #   - /shop loads with 7 SKUs + Recovery Stack bundle
 #   - /products/bpc-157-10mg renders verbatim 336-345 word description
@@ -105,15 +105,15 @@ curl https://vialchems.labs/api/health
 
 ### Domain registration note
 
-`vialchems.labs` (`.labs` TLD) is operated by Donuts/Identity Digital. Available registrars include:
+`vialchemlabs.com` (`.labs` TLD) is operated by Donuts/Identity Digital. Available registrars include:
 - 101domain (https://www.101domain.com)
 - Gandi (https://www.gandi.net)
 - Possibly Namecheap, Dynadot for some `.labs` TLDs
 
-If `vialchems.labs` is unavailable or restricted, fallback options:
-1. `vialchems.com` — check via WHOIS; standard registrars
-2. `vialchemslabs.com`
-3. `vialchems.bio`
+If `vialchemlabs.com` is unavailable or restricted, fallback options:
+1. `vialchemlabs.com` — check via WHOIS; standard registrars
+2. `vialchemlabs.com`
+3. `vialchemlabs.bio`
 
 Update `NEXT_PUBLIC_SITE_URL` env to match registered domain.
 

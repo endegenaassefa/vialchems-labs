@@ -50,3 +50,6 @@ next-env.d.ts
 playwright-report/
 test-results/
 .playwright/
+
+# gstack workspace metadata (per-developer; not part of the codebase)
+.gstack/

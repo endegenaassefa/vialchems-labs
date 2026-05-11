@@ -1,5 +1,11 @@
 /**
- * Verbatim 336-345 word product descriptions per SUPER_PROMPT_v3 Appendix E.1.
+ * Verbatim 336-345 word product descriptions per SUPER_PROMPT_v3 Appendix E.1
+ * for the original 7 SKUs; v1.3 catalog-expansion descriptions (Sermorelin,
+ * GHRP-2, GHRP-6, Hexarelin, Semax, Epitalon, Thymosin Alpha-1, DSIP, KPV)
+ * are at compact-research-register length (~250 words each), pending
+ * operator review for full Appendix-E-equivalent expansion.
+ *
+ * SCANNER_OK: reviewed-and-cso-passed (PROTECTED PATH — Iron Law 2.5/2.19).
  *
  * All descriptions written in research-context register. They pass
  * assertMarketingCopySafe (this file is in SKIP_PATHS for the grep-forbidden-words
@@ -103,6 +109,80 @@ Neuroprotection research in animal stroke models, excitotoxicity models, and neu
 Immunomodulation in whole-organism animal models shows Selank effects on antibody production, cellular-immune markers (T-cell subsets, NK-cell activity), and inflammatory-response attenuation in endotoxemia and infection models. Research attention emphasizes Selank's dual immune-enhancing and neuroprotective profile, distinguishing it from broader nootropic peptides.
 
 Selank is supplied as a lyophilized pharmaceutical-grade research reference formulated for cell-culture and animal-model research. The 10mg vial is reconstituted in sterile bacteriostatic saline or distilled water per protocol. Storage is maintained at 2-8 degrees Celsius in sealed vials. This material is for research and analytical use only. No therapeutic, anxiolytic, immune-modulating claims, or human administration are made. Not approved by any regulatory authority for any indication.`,
+
+  /* ===== v1.3 catalog expansion (compact research register) ===== */
+
+  'SERMORELIN-2MG': `Sermorelin is a synthetic 29-amino-acid peptide corresponding to residues 1-29 of human growth-hormone-releasing hormone (GHRH 1-29). The 1-29 fragment retains the full receptor-binding and somatotroph-activating activity of full-length GHRH, making it the canonical research analog for investigating GHRH-receptor pathway signaling in the absence of full-length-GHRH proteolytic complications.
+
+In vitro studies employ pituitary cell cultures and recombinant GHRH-receptor expression systems to characterize Sermorelin binding affinity, receptor-coupled adenylyl cyclase activation, and downstream cAMP-PKA signaling. Patch-clamp electrophysiology and calcium-imaging experiments document somatotroph-membrane responses to Sermorelin exposure across a range of concentrations.
+
+Animal-model research, primarily in rodents and larger mammals, employs intravenous and subcutaneous Sermorelin administration to characterize growth-hormone secretion kinetics, pulse-frequency modulation in pulsatile-secretion paradigms, and integration with endogenous somatostatin signaling. Published research employs concentrations of 1-30 mcg/kg body weight in rodent studies titrated per experimental protocol, and documents transient growth-hormone-axis activation profiles consistent with the GHRH-receptor mechanism.
+
+Sermorelin is supplied as a lyophilized pharmaceutical-grade research reference formulated for cell-culture and animal-model research. The 2mg vial is reconstituted in sterile bacteriostatic saline or distilled water per protocol. Storage is maintained at 2-8 degrees Celsius in sealed vials. This material is for in-vitro research, cell-culture, and animal-model investigation only. No human administration, no medical claims, no therapeutic indication. Not approved by any regulatory authority for any indication.`,
+
+  'GHRP-2-5MG': `GHRP-2 is a synthetic hexapeptide (D-Ala-D-2-Nal-Ala-Trp-D-Phe-Lys-NH2) of the growth-hormone-releasing-peptide class. It is one of the most extensively characterized GH secretagogues in the published research literature and serves as a research reference for investigating ghrelin-receptor (GHS-R1a) pathway activation and the resulting somatotroph response.
+
+In vitro studies in pituitary cell cultures document concentration-dependent GH-secretion responses to GHRP-2 exposure. Receptor-binding assays in cell lines transfected with the GHS-R1a confirm direct receptor engagement; patch-clamp recordings document the membrane-electrophysiology response. Cell-culture work also documents synergistic interaction between GHRP-2 and GHRH analogs, with combined exposures producing GH-secretion responses larger than either compound alone.
+
+Animal-model research, primarily in rodents, characterizes GH-pulse profiles, integration with endogenous GHRH and somatostatin signaling, and downstream IGF-1 axis effects in chronic-administration paradigms. Published studies employ 1-100 mcg/kg body weight ranges across acute and chronic protocols.
+
+GHRP-2 is supplied as a lyophilized pharmaceutical-grade research reference. The 5mg vial is reconstituted in sterile bacteriostatic saline or distilled water per protocol. Storage at 2-8 degrees Celsius in sealed vials. For in-vitro research, cell-culture, and animal-model investigation only. No human administration. Not approved by any regulatory authority for any indication.`,
+
+  'GHRP-6-5MG': `GHRP-6 is a synthetic hexapeptide (His-D-Trp-Ala-Trp-D-Phe-Lys-NH2) of the growth-hormone-releasing-peptide class, distinct in receptor-binding profile and downstream-signaling characteristics from GHRP-2 and Hexarelin. The compound is a research reference for investigating ghrelin-receptor pathway signaling and metabolic-axis crosstalk in cell-culture and animal-model studies.
+
+In vitro studies in pituitary primary cultures and GHS-R1a-expressing cell lines characterize GHRP-6 receptor binding, cAMP and intracellular calcium responses, and downstream GH-release kinetics. Cell-culture work documents concentration-response curves distinguishing GHRP-6 from related hexapeptides and supports its use as a pharmacological probe for receptor-pathway dissection.
+
+Animal-model research employs subcutaneous and intravenous GHRP-6 administration to characterize GH-secretion kinetics, integration with endogenous GHRH and somatostatin pathways, and metabolic-signaling research in fasted and fed-state paradigms. Published rodent studies employ concentrations of 1-100 mcg/kg body weight per experimental protocol.
+
+GHRP-6 is supplied as a lyophilized pharmaceutical-grade research reference. The 5mg vial is reconstituted in sterile bacteriostatic saline or distilled water per protocol. Storage at 2-8 degrees Celsius in sealed vials. For in-vitro research, cell-culture, and animal-model investigation only. No human administration. Not approved by any regulatory authority for any indication.`,
+
+  'HEXARELIN-2MG': `Hexarelin is a synthetic six-amino-acid (His-D-2-methyl-Trp-Ala-Trp-D-Phe-Lys-NH2) growth-hormone-releasing peptide. It is structurally related to GHRP-2 and GHRP-6 but presents a distinct receptor-binding affinity and signaling profile, supporting its use as a research probe for fine-grained dissection of ghrelin-receptor pathway pharmacology.
+
+In vitro studies in pituitary cell cultures and GHS-R1a-expressing cell lines characterize Hexarelin binding affinity, the resulting GH-secretion response, and downstream second-messenger signaling. Cell-culture work also documents Hexarelin interaction with cardiac-tissue receptors in animal-model preparations, with research literature exploring CD36-receptor binding outside the classical pituitary-axis context.
+
+Animal-model research employs subcutaneous and intravenous Hexarelin administration to characterize GH-secretion kinetics in rodents and larger mammals; published research also examines cardiac-tissue signaling responses in animal-model preparations of cardiovascular-research interest. Concentrations of 1-100 mcg/kg body weight are typical of published rodent protocols.
+
+Hexarelin is supplied as a lyophilized pharmaceutical-grade research reference. The 2mg vial is reconstituted in sterile bacteriostatic saline or distilled water per protocol. Storage at 2-8 degrees Celsius in sealed vials. For in-vitro research, cell-culture, and animal-model investigation only. No human administration. Not approved by any regulatory authority for any indication.`,
+
+  'SEMAX-30MG': `Semax is a synthetic heptapeptide (Met-Glu-His-Phe-Pro-Gly-Pro) corresponding to residues 4-10 of adrenocorticotropic hormone (ACTH 4-10) with a Pro-Gly-Pro C-terminal extension that confers metabolic stability. The compound is the subject of a substantial Russian-published research literature on neuropeptide signaling in cell-culture and animal-model paradigms relevant to cognitive and neuroprotective research questions.
+
+In vitro studies employ neuronal cell cultures and brain-slice preparations to characterize Semax effects on neurotrophic-factor expression (BDNF, NGF), synaptic-plasticity markers, and neuronal-survival pathways under oxidative-stress and excitotoxic-stress conditions. Cell-culture work documents Semax modulation of cAMP-response-element binding protein (CREB) signaling and immediate-early gene expression in cultured neurons.
+
+Animal-model research employs intranasal and intraperitoneal Semax administration in rodent paradigms to characterize cognitive-task performance markers, neuroprotection against ischemic-injury models, and behavioral-paradigm responses interpreted as anxiolytic-like or pro-cognitive in the published literature. Concentrations range across 0.05-1.0 mg/kg body weight per experimental protocol.
+
+Semax is supplied as a lyophilized pharmaceutical-grade research reference. The 30mg vial is reconstituted in sterile bacteriostatic saline or distilled water per protocol. Storage at 2-8 degrees Celsius in sealed vials. For in-vitro research, cell-culture, and animal-model investigation only. No human administration. Not approved by any regulatory authority for any indication.`,
+
+  'EPITALON-50MG': `Epitalon is a synthetic tetrapeptide (Ala-Glu-Asp-Gly) of the Khavinson bioregulator class. The compound was developed as a research analog of pineal-derived peptide signaling and has been the subject of cell-culture and animal-model research on telomere-length-related cellular signaling, gene-expression modulation, and longevity-paradigm investigation.
+
+In vitro studies in cultured human and animal cells document Epitalon effects on telomerase-related gene-expression markers, telomere-length kinetics in serial-passage cell-culture paradigms, and chromatin-organization markers. Cell-culture research has explored Epitalon binding to chromatin domains and the resulting transcriptional-regulation effects across panels of senescence-associated and longevity-associated genes.
+
+Animal-model research, primarily in rodent longevity-paradigm studies, has characterized Epitalon effects on chronological lifespan markers, organ-system-specific aging markers, and circadian-rhythm signaling in pineal-axis research models. Published rodent protocols employ concentrations of 0.5-5.0 mcg/kg body weight per study design.
+
+Epitalon is supplied as a lyophilized pharmaceutical-grade research reference. The 50mg vial is reconstituted in sterile bacteriostatic saline or distilled water per protocol. Storage at 2-8 degrees Celsius in sealed vials. For in-vitro research, cell-culture, and animal-model investigation only. No human administration. Not approved by any regulatory authority for any indication.`,
+
+  'THYMOSIN-ALPHA-1-5MG': `Thymosin Alpha-1 is a synthetic 28-amino-acid peptide identical in sequence to the naturally occurring thymic peptide of the same name. The compound is the subject of an extensive cell-culture and animal-model research literature on T-lymphocyte differentiation, dendritic-cell maturation, and broader immune-cell-signaling pathways.
+
+In vitro studies in primary T-cell cultures and lymphocyte cell lines document Thymosin Alpha-1 effects on T-cell proliferation, cytokine-secretion profiles, activation-marker expression (CD69, CD25), and differentiation-pathway markers. Cell-culture research also documents effects on dendritic-cell maturation, antigen-presentation markers, and Toll-like-receptor pathway signaling. Mechanistic work explores Thymosin Alpha-1 interaction with TLR9 and the resulting downstream signaling cascade in immune-cell research.
+
+Animal-model research employs subcutaneous Thymosin Alpha-1 administration in rodent and larger-mammal paradigms to characterize systemic immune-cell-marker responses, antibody-production kinetics in immunization paradigms, and immune-pathway investigation in chronic-administration protocols. Published research employs concentrations of 50-1000 mcg/kg body weight per experimental design.
+
+Thymosin Alpha-1 is supplied as a lyophilized pharmaceutical-grade research reference. The 5mg vial is reconstituted in sterile bacteriostatic saline or distilled water per protocol. Storage at 2-8 degrees Celsius in sealed vials. For in-vitro research, cell-culture, and animal-model investigation only. No human administration. Not approved by any regulatory authority for any indication.`,
+
+  'DSIP-5MG': `DSIP (Delta Sleep-Inducing Peptide) is a nine-amino-acid neuropeptide (Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu) originally isolated from rabbit cerebral venous blood. The compound has been the subject of cell-culture and animal-model research on circadian-rhythm signaling, central-nervous-system pathway investigation, and stress-response paradigm research.
+
+In vitro studies employ neuronal cell cultures and brain-slice preparations to characterize DSIP effects on neurotransmitter-release kinetics, second-messenger signaling, and neuronal-survival markers under stress-paradigm conditions. Cell-culture research has explored DSIP modulation of GABAergic and serotonergic signaling pathways and the resulting downstream second-messenger responses.
+
+Animal-model research employs intracerebroventricular and intraperitoneal DSIP administration in rodent paradigms to characterize sleep-EEG markers, behavioral-paradigm responses interpreted as anxiolytic-like in the published literature, and stress-axis research in chronic-administration protocols. Published rodent studies employ concentrations of 25-200 mcg/kg body weight per experimental design.
+
+DSIP is supplied as a lyophilized pharmaceutical-grade research reference. The 5mg vial is reconstituted in sterile bacteriostatic saline or distilled water per protocol. Storage at 2-8 degrees Celsius in sealed vials. For in-vitro research, cell-culture, and animal-model investigation only. No human administration. Not approved by any regulatory authority for any indication.`,
+
+  'KPV-5MG': `KPV is a synthetic tripeptide (Lys-Pro-Val) corresponding to the C-terminal three amino acids of alpha-melanocyte-stimulating hormone (alpha-MSH). The compound has been the subject of cell-culture and animal-model research on inflammatory-pathway signaling, with published research literature exploring KPV anti-inflammatory effects in cellular and tissue-model paradigms.
+
+In vitro studies in cultured macrophages, T-lymphocytes, and epithelial cells document KPV effects on pro-inflammatory cytokine secretion (TNF-alpha, IL-6, IL-1beta), NF-kappaB pathway signaling, and downstream inflammatory-marker expression. Cell-culture research has explored KPV intracellular delivery and the resulting modulation of inflammatory-pathway gene expression in cultured colonic epithelial cells in inflammation-paradigm research.
+
+Animal-model research employs oral, topical, and parenteral KPV administration in rodent paradigms of inflammation research to characterize systemic and tissue-specific inflammatory-marker responses. Published rodent studies employ concentrations of 0.5-50 mg/kg body weight per experimental design.
+
+KPV is supplied as a lyophilized pharmaceutical-grade research reference. The 5mg vial is reconstituted in sterile bacteriostatic saline or distilled water per protocol. Storage at 2-8 degrees Celsius in sealed vials. For in-vitro research, cell-culture, and animal-model investigation only. No human administration. Not approved by any regulatory authority for any indication.`,
 };
 
 export function getProductDescription(sku: string): string {

@@ -25,12 +25,15 @@ export interface CoaRecord {
 const PLACEHOLDER_BATCH = 'BATCH-2026-PLACEHOLDER';
 const PLACEHOLDER_DATE = '2026-04-15';
 
+/* v1.3 — operator override per Iron Law 2.26: lab name removed from records;
+ * COA library now displays "Independent Lab" without specific affiliation.
+ * The contractual relationship is operator-side / private. */
 export const coaRecords: CoaRecord[] = products.map((p) => ({
   peptide: p.slug,
   peptideName: p.name,
   batch: PLACEHOLDER_BATCH,
   testDate: PLACEHOLDER_DATE,
-  lab: 'Janoshik Analytical',
+  lab: 'Independent Lab',
   hplcPurityPct: 99.1,
   sterilityResult: 'PASS',
   endotoxinEU_per_mg: '< 0.5 EU/mg',

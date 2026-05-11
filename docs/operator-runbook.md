@@ -1,18 +1,45 @@
-# Vialchems Labs — Operator Runbook (Day-1 through Months 2-3)
+# vialchemlabs — Operator Runbook (Day-1 through Months 2-3)
 
-Date generated: 2026-05-08
-Brand: Vialchems Labs (Posture A clean clinical, vialchems.labs)
+Date generated: 2026-05-08 (v1) — updated 2026-05-10 (v2 / Phase 13.3 v4)
+Brand: vialchemlabs (Posture A clean clinical, vialchemlabs.com)
 Source: SUPER_PROMPT_v3 Appendix I + research digest sub_3_acquisition.md
++ v4 deferral closures (Phases 0-12)
 
 ---
 
+## v4 status snapshot (2026-05-10)
+
+The v4 pass closed **all in-scope deferrals from D1 through D27**. The
+remaining items below are operator-only (credentials + domain
+registration + first-buyer dollar) — codebase is ready the moment they
+land.
+
+```
+v4 phases shipped: 0 1 2 3 4 5 6 7 8 9 10 11 12   (12/12 + Phase 13 docs)
+deferrals closed:  D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13
+                   D14 D15 D16 D17 D24 D25 D26 D27          (21/27)
+deferrals operator: D18 D19 D20 D21 D22 D23                  (6/27)
+unit tests:        304 → 457
+e2e tests:           0 → 136 (incl. 114 visual baseline)
+git tag local:     v1.1.0 (push deferred to operator)
+```
+
+Detailed phase ledger: `docs/checkpoints/v4_phase_*.md`.
+
 ## Pre-Launch Checklist (Operator Action Required)
 
-Before public launch, complete these in order:
+Items marked ✅ are already shipped against placeholders in the
+codebase — operator just needs to drop the credentials. Complete in
+order:
 
-1. **Domain registration**: register `vialchems.labs` via a registrar that supports the `.labs` TLD (Donuts/Identity Digital ecosystem). If unavailable, fall back to `vialchems.com` and update `NEXT_PUBLIC_SITE_URL` env.
-2. **USPTO TESS trademark search** for "vialchems" and "vialchems labs". Flag conflicts.
-3. **LLC formation**: file Wyoming (default), Delaware, or Nevada LLC. Update `LLC_NAME` and `LLC_JURISDICTION` env. Replace `[Wyoming]` placeholder in legal pages.
+1. ✅ **Domain registration**: register `vialchemlabs.com`. Per-registrar
+   guide at `docs/deploy/dns.md`. Cloudflare > Gandi > 101domain >
+   Namecheap. Fallback: `vialchemlabs.bio`, `vialchemlabs.com`. **(D19)**
+2. **USPTO TESS trademark search** for "vialchemlabs" and "vialchemlabs".
+   Flag conflicts.
+3. ✅ **LLC formation**: file Wyoming (default), Delaware, or Nevada LLC.
+   Update `LLC_NAME` and `LLC_JURISDICTION` env. Replace `[Wyoming]`
+   placeholder in legal pages. **(D20)**
 4. **Source supplier conversation**: confirm MOQ, lead time, COA passthrough, contingency, per-mg cost. Update `DECISIONS/source_terms.md` (operator-side).
 5. **Real lab partner contract**: Janoshik Analytical (default placeholder). Sign per-batch testing agreement. Update LAB_PARTNER_NAME if different.
 6. **Replace stub credentials**:
@@ -23,7 +50,7 @@ Before public launch, complete these in order:
    - BTCPay Server self-hosted URL + API key + store ID + webhook secret
 7. **Replace placeholder COA PDFs**: `public/coa/<slug>-BATCH-2026-PLACEHOLDER.pdf` are stubs marked "EXAMPLE COA — REPLACE BEFORE LAUNCH". Generate real per-batch COAs from Janoshik for first inventory.
 8. **Vercel project link**: `vercel link` in the project directory; environment variables set per `.env.example`.
-9. **Domain DNS**: point `vialchems.labs` (or fallback) to Vercel.
+9. **Domain DNS**: point `vialchemlabs.com` (or fallback) to Vercel.
 10. **Buyer-conversation assignment** (Bible §16): 60-minute test with 3 prospective buyers in target audience. Optional but recommended.
 
 ## Day-1 Acquisition Workstreams
@@ -37,7 +64,7 @@ These start the moment the site goes live. Execute in parallel.
 **Day-1 baseline**: 5 blog posts already shipped (BPC-157 mechanism, COA reading guide, GHK-Cu overview, TB-500 mechanism, Recovery Stack synergy). Each at 1500-2400 words with 6 PubMed citations.
 
 **Operator extension**:
-- Submit `https://vialchems.labs/sitemap.xml` to Google Search Console.
+- Submit `https://vialchemlabs.com/sitemap.xml` to Google Search Console.
 - Add 30-50 PDPs over 90 days (1500-2400 words each, 10+ scientific citations).
 - Internal linking discipline: every blog post links ≥2 PDPs; every PDP links ≥3 related products.
 - Schema markup: Product on PDPs, Article on blog posts, FAQPage on /faq, BreadcrumbList on catalog. (Currently rendered server-side via Next metadata; verify with Google Rich Results Test.)
@@ -56,7 +83,7 @@ These start the moment the site goes live. Execute in parallel.
 
 **Operator extension**:
 - Generate the actual lead-magnet PDF (5 pages, brand-consistent).
-- Configure Resend with verified sender domain (`research@vialchems.labs`).
+- Configure Resend with verified sender domain (`research@vialchemlabs.com`).
 - Set up DMARC `p=reject` policy for the sending domain.
 - Optional: dedicated Mailgun IP at $59/month for deliverability if list grows past 500.
 
@@ -72,21 +99,21 @@ These start the moment the site goes live. Execute in parallel.
 >
 > Hi [name],
 >
-> I run [Outliyr / Muscle+Brawn / PepPal / Brainflow]'s peptide vendor coverage. We launched Vialchems Labs this month at vialchems.labs with seven research peptides and per-batch independent third-party COA testing through Janoshik Analytical.
+> I run [Outliyr / Muscle+Brawn / PepPal / Brainflow]'s peptide vendor coverage. We launched vialchemlabs this month at vialchemlabs.com with seven research peptides and per-batch independent third-party COA testing through Janoshik Analytical.
 >
 > Three things I'd flag for any vendor review:
 >
-> 1. Every batch is HPLC-tested by Janoshik; PDFs are public at vialchems.labs/coa.
+> 1. Every batch is HPLC-tested by Janoshik; PDFs are public at vialchemlabs.com/coa.
 > 2. Catalog is intentionally small (BPC-157, TB-500, GHK-Cu, Ipamorelin, CJC-1295 no DAC, MOTS-c, Selank). No GLP-1s.
 > 3. Compliance posture: research-use-only, age 21+ contractual checkbox, no shipping to CA/TX/NY/FL Day 1.
 >
-> Affiliate program: 10% / 15% / 20% commission tiers (90-day cookie) at vialchems.labs/affiliate.
+> Affiliate program: 10% / 15% / 20% commission tiers (90-day cookie) at vialchemlabs.com/affiliate.
 >
 > Happy to send a sample for review or answer any questions.
 >
 > Thanks,
 > [Operator name]
-> Vialchems Labs
+> vialchemlabs
 
 **Send to**: Outliyr, Muscle+Brawn, PepPal, Brainflow, plus 5-10 niche peptide listicle sites discovered via Google "best peptide vendor 2026" searches.
 
@@ -107,7 +134,7 @@ Source: research digest `docs/research/sub_3_acquisition.md` Tier S band.
 
 > Hi [creator handle],
 >
-> I'm [Operator] from Vialchems Labs. We supply research peptides for in-vitro and animal-model studies with per-batch independent Janoshik COAs.
+> I'm [Operator] from vialchemlabs. We supply research peptides for in-vitro and animal-model studies with per-batch independent Janoshik COAs.
 >
 > I noticed your work on [topic — recovery research, sleep research, longevity research]. Would you be open to a paid post + affiliate program?
 >
@@ -116,8 +143,8 @@ Source: research digest `docs/research/sub_3_acquisition.md` Tier S band.
 > - Per-creator unique discount code (your audience saves 15%)
 > - Full creative latitude with one constraint: research-use-only framing (no human-use claims, no dosing protocols on-platform). FTC #ad disclosure required.
 >
-> Catalog: vialchems.labs/shop
-> Affiliate detail: vialchems.labs/affiliate
+> Catalog: vialchemlabs.com/shop
+> Affiliate detail: vialchemlabs.com/affiliate
 >
 > Reply if interested and I'll send a sample for your protocol research.
 >
@@ -130,7 +157,7 @@ Source: research digest `docs/research/sub_3_acquisition.md` Tier S band.
 
 ### 5. Defensive social handle registration
 
-**What**: register `@vialchems`, `@vialchemslabs`, `@vialchems.labs` (where allowed) on Instagram, TikTok, X — but **do NOT actively post** Day 1.
+**What**: register `@vialchemlabs`, `@vialchemlabs`, `@vialchemlabs.com` (where allowed) on Instagram, TikTok, X — but **do NOT actively post** Day 1.
 
 **Why**: prevents squatters; keeps platform-policy surface minimal. Posture A doesn't compete on social-native creative; the active social presence is via Tier S creator partnerships, not first-party posting.
 
@@ -142,7 +169,7 @@ Source: research digest `docs/research/sub_3_acquisition.md` Tier S band.
 
 **Cadence**: 1 thread per week. Pattern: "New paper: [study title] — [3-4 sentence summary]. [Link]. #peptide #research."
 
-**Why**: builds technical brand reputation in the community; signals expertise; drives indirect search traffic to vialchems.labs.
+**Why**: builds technical brand reputation in the community; signals expertise; drives indirect search traffic to vialchemlabs.com.
 
 ---
 

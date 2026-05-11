@@ -12,7 +12,7 @@ import { siteConfig } from '@/lib/content/site';
 export const metadata: Metadata = {
   title: 'Terms of Service',
   description:
-    'Terms of Service for Vialchems Labs research-peptide supply, including age gate, jurisdictional restrictions, and dispute resolution.',
+    'Terms of Service for vialchemlabs research-peptide supply, including age gate, jurisdictional restrictions, and dispute resolution.',
 };
 
 export default function TermsPage() {
@@ -267,7 +267,7 @@ export default function TermsPage() {
       <H2>21. Contact</H2>
       <P>
         Questions regarding these Terms may be sent to{' '}
-        <A href="mailto:research@vialchems.labs">research@vialchems.labs</A> or
+        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A> or
         via the <A href="/contact">contact form</A>.
       </P>
     </LegalShell>

@@ -20,10 +20,22 @@ export interface SpecsItem {
 
 export interface SpecsProps extends HTMLAttributes<HTMLDListElement> {
   items: ReadonlyArray<SpecsItem>;
+  /**
+   * Phase 2 v4 — `dense` tightens row spacing (py-2 → py-1) and drops dt/dd
+   * font sizes one step (12px → 11px / 14px → 13px). Used in the PDP sidebar
+   * (per Appendix AD §5 Metrics & Usage) where vertical space is at a premium.
+   */
+  dense?: boolean;
   ref?: Ref<HTMLDListElement>;
 }
 
-export function Specs({ items, className, ref, ...rest }: SpecsProps) {
+export function Specs({
+  items,
+  className,
+  dense = false,
+  ref,
+  ...rest
+}: SpecsProps) {
   return (
     <dl
       ref={ref}
@@ -35,16 +47,26 @@ export function Specs({ items, className, ref, ...rest }: SpecsProps) {
           key={`${item.term}-${index}`}
           className={cn(
             'flex items-baseline justify-between gap-4',
-            'py-2',
+            dense ? 'py-1' : 'py-2',
             'border-b border-dotted border-[var(--border)]',
             // last row drops the divider so the list does not look unfinished
             'last:border-b-0',
           )}
         >
-          <dt className="font-mono text-[12px] uppercase tracking-[0.12em] text-[var(--text-muted)]">
+          <dt
+            className={cn(
+              'font-mono uppercase tracking-[0.12em] text-[var(--text-muted)]',
+              dense ? 'text-[11px]' : 'text-[12px]',
+            )}
+          >
             {item.term}
           </dt>
-          <dd className="font-mono text-[14px] text-[var(--text)] tabular-nums text-right">
+          <dd
+            className={cn(
+              'font-mono text-[var(--text)] tabular-nums text-right',
+              dense ? 'text-[13px]' : 'text-[14px]',
+            )}
+          >
             {item.value}
           </dd>
         </div>

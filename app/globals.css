@@ -1,38 +1,60 @@
 @import "tailwindcss";
 
 /* ============================================================
- * Vialchems Labs — Posture A clean clinical
- * Source: SUPER_PROMPT_v3 Appendix V.2
- * Mirrored in lib/design/tokens.ts
+ * vialchemlabs — clinical-minimal light theme
+ *
+ * v5 rebrand (2026-05-10): default theme switched from dark+teal to
+ * warm-off-white + cyan-navy per operator brand spec. Variable names
+ * kept for backward compat with existing components; values rewritten.
+ * Dark theme overrides live under [data-theme="dark"].
  * ============================================================ */
 
 :root {
-  /* Surfaces */
-  --bg: #0a0e0f;
-  --surface: #141a1c;
-  --surface-strong: #1a2226;
-  --surface-muted: rgba(20, 26, 28, 0.6);
+  /* Surfaces (light) */
+  --bg: #fafaf7;
+  --surface: #ffffff;
+  --surface-strong: #f4f4f0;
+  --surface-muted: rgba(244, 244, 240, 0.7);
+  --surface-elevated: #ffffff;
+  /* Inverted strip (dark sections within an otherwise light page) */
+  --bg-inverse: #0a0e14;
 
-  /* Brand accents */
-  --accent: #3dd4c8;
-  --accent-soft: #5eebdf;
-  --accent-glow: #7ff1e8;
-  --electric: #67e8f9;
+  /* Aliases per new spec — components can use either name */
+  --bg-elevated: var(--surface);
+  --bg-sunken: var(--surface-strong);
 
-  /* Text */
-  --text: rgba(255, 255, 255, 0.92);
-  --text-muted: rgba(255, 255, 255, 0.62);
-  --text-subtle: rgba(255, 255, 255, 0.42);
+  /* Brand accents — cyan-navy default */
+  --accent: #0f3a5f;       /* primary deep navy */
+  --accent-soft: #e8f7fb;  /* accent tint */
+  --accent-glow: #06b6d4;  /* cyan high-key */
+  --accent-deep: #082842;  /* pressed */
+  --accent-hi: #06b6d4;    /* alias for new spec */
+  --electric: #06b6d4;
 
-  /* Borders */
-  --border: #1f2a2e;
-  --border-strong: #2a3a40;
+  /* Text — light theme (WCAG AA verified on #fafaf7 bg) */
+  --text: #0a0e14;        /* 17:1 ratio */
+  --text-muted: #4d5663;  /* 7.1:1 ratio (was #5a6470 → 6.5:1 — bumped for body) */
+  --text-subtle: #6b7280; /* 4.8:1 ratio (was #8b95a1 → 3.4:1 — failed AA for body) */
+  /* Aliases per new spec */
+  --fg: var(--text);
+  --fg-muted: var(--text-muted);
+  --fg-subtle: var(--text-subtle);
+
+  /* Borders — hairline only */
+  --border: #e6e4dc;
+  --border-strong: #c9c6bb;
+  --border-faint: #efede6;
+  --line: var(--border);
+  --line-strong: var(--border-strong);
+  --line-faint: var(--border-faint);
 
   /* Status */
-  --pill-accent: #3dd4c8;
-  --pill-info: #5eebdf;
-  --pill-electric: #67e8f9;
-  --pill-error: #f87171;
+  --pill-accent: #0f3a5f;
+  --pill-info: #06b6d4;
+  --pill-electric: #06b6d4;
+  --pill-error: #b3261e;
+  --pill-success: #1f8a5b;
+  --pill-warn: #b08400;
 
   /* Spacing */
   --sp-2xs: 2px;
@@ -46,6 +68,9 @@
   --sp-4xl: 64px;
   --sp-5xl: 96px;
   --sp-6xl: 128px;
+  /* Phase 1 v4 — hero atmospheric breathing room */
+  --sp-7xl: 192px;
+  --sp-8xl: 256px;
 
   /* Radii */
   --radius-sm: 4px;
@@ -54,6 +79,55 @@
   --radius-xl: 16px;
   --radius-2xl: 18px;
   --radius-full: 999px;
+  /* Phase 1 v4 — clarity alias for --radius-full on pill components */
+  --radius-pill: 999px;
+
+  /* v5 — restrained shadow scale for light theme. Per brand spec §4. */
+  --shadow-sm: 0 1px 0 rgba(10, 14, 20, 0.04);
+  --shadow-md: 0 4px 16px -8px rgba(10, 14, 20, 0.10), 0 1px 0 rgba(10, 14, 20, 0.04);
+  --shadow-lg: 0 24px 48px -24px rgba(10, 14, 20, 0.18), 0 1px 0 rgba(10, 14, 20, 0.04);
+  --shadow-xl: 0 32px 80px -32px rgba(10, 14, 20, 0.20), 0 1px 0 rgba(10, 14, 20, 0.04);
+  --shadow-2xl: 0 48px 128px -48px rgba(10, 14, 20, 0.24);
+
+  /* v5 — gradient tokens, light theme. Subtler than dark-theme atmospheric. */
+  --gradient-hero-atmospheric:
+    radial-gradient(ellipse 80% 60% at 80% 0%, rgba(6, 182, 212, 0.04) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 20% 100%, rgba(15, 58, 95, 0.025) 0%, transparent 70%);
+  --gradient-accent-radial:
+    radial-gradient(circle at 50% 50%, rgba(6, 182, 212, 0.08) 0%, transparent 70%);
+
+  /* Phase 1 v4 — Vial-specific tokens per Appendix AD operator-supplied
+   * vial reference image. Promotes hard-coded values from
+   * components/ui/Vial.tsx into the token system. */
+  --vial-glass: rgba(61, 212, 200, 0.06);
+  --vial-cap-metallic-top: #5a6065;
+  --vial-cap-metallic-mid: #3a4045;
+  --vial-cap-metallic-bottom: #2a2f33;
+  --vial-powder-cream-top: #f4ecd8;
+  --vial-powder-cream-bottom: #d9cfb3;
+  --vial-powder-dark-top: #3a3530;
+  --vial-powder-dark-bottom: #1f1d1a;
+
+  /* Phase 1 v4 — wrap-label tokens per Appendix AD. The label visual
+   * system mirrors site tokens but is named per its label-system role for
+   * clarity in <Vial withLabel ... /> overlay code (Phase 2 deliverable). */
+  --label-bg: var(--bg);
+  --label-text-primary: var(--text);
+  --label-text-secondary: var(--text-muted);
+  --label-accent-stripe: var(--accent);
+
+  /* Phase 1 v4 — third-tier component-level tokens (per X.1.56 + D27).
+   * Resolve against semantic tokens above; used by Phase 2 primitive
+   * overhaul to remove ad-hoc class lists in components/ui/*. */
+  --button-primary-bg: var(--accent);
+  --button-primary-bg-hover: var(--accent-soft);
+  --button-primary-bg-active: var(--accent-deep);
+  --button-primary-fg: var(--bg);
+  --card-padding-sm: var(--sp-md);
+  --card-padding-md: var(--sp-xl);
+  --card-padding-lg: var(--sp-2xl);
+  --pill-h: 24px;
+  --input-h: 40px;
 
   /* Motion */
   --ease-premium-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -67,27 +141,190 @@
   --dur-long: 540ms;
   --dur-slow: 720ms;
 
-  /* Typography */
-  --font-sans: var(--font-plex-sans, "IBM Plex Sans"), system-ui, sans-serif;
-  --font-mono: var(--font-plex-mono, "IBM Plex Mono"), ui-monospace, monospace;
-  --font-serif-italic: var(--font-newsreader, "Newsreader"), ui-serif, Georgia, serif;
+  /* Typography — product-storefront pass inspired by the reference research:
+   * Space Grotesk for display, Inter Tight for dense commerce copy. */
+  --font-display: var(--font-space-grotesk, "Space Grotesk"), ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", sans-serif;
+  --font-sans: var(--font-inter-tight, "Inter Tight"), ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", sans-serif;
+  --font-mono: var(--font-geist-mono, "Geist Mono"), ui-monospace, "SF Mono", Menlo, monospace;
+  --font-serif-italic: var(--font-display);
+}
+
+/* ============================================================
+ * Dark theme override — opt-in via [data-theme="dark"] on <html>
+ * ============================================================ */
+[data-theme="dark"] {
+  --bg: #030303;
+  --surface: #0b0b0b;
+  --surface-strong: #111111;
+  --surface-muted: rgba(12, 12, 12, 0.76);
+  --surface-elevated: #141414;
+  --bg-inverse: #fafaf7;
+  --bg-elevated: var(--surface);
+  --bg-sunken: var(--surface-strong);
+
+  --text: #f5f5f0;
+  --text-muted: #c7c7be;
+  --text-subtle: #97978f;
+  --fg: var(--text);
+  --fg-muted: var(--text-muted);
+  --fg-subtle: var(--text-subtle);
+
+  --border: #202020;
+  --border-strong: #383838;
+  --border-faint: #141414;
+  --line: var(--border);
+  --line-strong: var(--border-strong);
+  --line-faint: var(--border-faint);
+
+  --accent: #f5f5f0;
+  --accent-soft: #d8d8cf;
+  --accent-glow: #ffffff;
+  --accent-deep: #a6a69f;
+  --accent-hi: #f5f5f0;
+  --electric: #b8b8b0;
+  --pill-accent: #f5f5f0;
+  --pill-info: #c9c9c0;
+  --pill-electric: #a9a9a1;
+
+  --shadow-sm: 0 1px 0 rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 16px -8px rgba(0, 0, 0, 0.6), 0 1px 0 rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 24px 48px -24px rgba(0, 0, 0, 0.7), 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* Canonical theme tokens. These are the source of truth for readable text in
+ * both modes; legacy aliases below intentionally resolve through them. */
+:root,
+[data-theme="dark"],
+.dark {
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.88);
+  --text-muted: rgba(255, 255, 255, 0.72);
+  --text-disabled: rgba(255, 255, 255, 0.54);
+  --text-on-accent: #ffffff;
+  --bg-primary: #0a0e1a;
+  --bg-secondary: #141823;
+  --bg-elevated: #1c2030;
+  --border-subtle: rgba(255, 255, 255, 0.10);
+  --accent: #4dabf7;
+  --accent-hover: #74c0fc;
+
+  --bg: var(--bg-primary);
+  --surface: var(--bg-secondary);
+  --surface-strong: var(--bg-elevated);
+  --surface-muted: rgba(20, 24, 35, 0.72);
+  --surface-elevated: var(--bg-elevated);
+  --bg-inverse: #ffffff;
+  --bg-sunken: #070a12;
+
+  --text: var(--text-primary);
+  --text-subtle: var(--text-muted);
+  --fg: var(--text-primary);
+  --fg-muted: var(--text-secondary);
+  --fg-subtle: var(--text-muted);
+
+  --border: var(--border-subtle);
+  --border-strong: rgba(255, 255, 255, 0.22);
+  --border-faint: rgba(255, 255, 255, 0.06);
+  --line: var(--border);
+  --line-strong: var(--border-strong);
+  --line-faint: var(--border-faint);
+
+  --accent-soft: var(--accent-hover);
+  --accent-glow: var(--accent-hover);
+  --accent-deep: #1971c2;
+  --accent-hi: var(--accent-hover);
+  --electric: var(--accent-hover);
+  --pill-accent: var(--accent);
+  --pill-info: var(--accent-hover);
+  --pill-electric: var(--accent-hover);
+  --button-primary-bg: var(--accent);
+  --button-primary-bg-hover: var(--accent-hover);
+  --button-primary-bg-active: var(--accent-deep);
+  --button-primary-fg: var(--text-on-accent);
+}
+
+[data-theme="light"],
+.light {
+  --text-primary: #0a0e1a;
+  --text-secondary: rgba(10, 14, 26, 0.78);
+  --text-muted: rgba(10, 14, 26, 0.58);
+  --text-disabled: rgba(10, 14, 26, 0.38);
+  --text-on-accent: #ffffff;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f4f6fa;
+  --bg-elevated: #ffffff;
+  --border-subtle: rgba(10, 14, 26, 0.10);
+  --accent: #1971c2;
+  --accent-hover: #1864ab;
+
+  --bg: var(--bg-primary);
+  --surface: var(--bg-secondary);
+  --surface-strong: var(--bg-elevated);
+  --surface-muted: rgba(244, 246, 250, 0.72);
+  --surface-elevated: var(--bg-elevated);
+  --bg-inverse: #0a0e1a;
+  --bg-sunken: #eef2f7;
+
+  --text: var(--text-primary);
+  --text-subtle: var(--text-muted);
+  --fg: var(--text-primary);
+  --fg-muted: var(--text-secondary);
+  --fg-subtle: var(--text-muted);
+
+  --border: var(--border-subtle);
+  --border-strong: rgba(10, 14, 26, 0.22);
+  --border-faint: rgba(10, 14, 26, 0.06);
+  --line: var(--border);
+  --line-strong: var(--border-strong);
+  --line-faint: var(--border-faint);
+
+  --accent-soft: var(--accent-hover);
+  --accent-glow: #4dabf7;
+  --accent-deep: #0b5cad;
+  --accent-hi: #4dabf7;
+  --electric: #1971c2;
+  --pill-accent: var(--accent);
+  --pill-info: var(--accent);
+  --pill-electric: var(--accent);
+  --button-primary-bg: var(--accent);
+  --button-primary-bg-hover: var(--accent-hover);
+  --button-primary-bg-active: var(--accent-deep);
+  --button-primary-fg: var(--text-on-accent);
 }
 
 @theme inline {
   --color-bg: var(--bg);
   --color-surface: var(--surface);
   --color-surface-strong: var(--surface-strong);
+  /* Phase 1 v4 additions — Tailwind v4 utility access for new surface + accent */
+  --color-surface-elevated: var(--surface-elevated);
   --color-accent: var(--accent);
   --color-accent-soft: var(--accent-soft);
   --color-accent-glow: var(--accent-glow);
+  --color-accent-deep: var(--accent-deep);
   --color-text: var(--text);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
   --color-text-muted: var(--text-muted);
   --color-text-subtle: var(--text-subtle);
+  --color-text-disabled: var(--text-disabled);
+  --color-text-on-accent: var(--text-on-accent);
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-secondary: var(--bg-secondary);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-border-subtle: var(--border-subtle);
   --color-border: var(--border);
   --color-electric: var(--electric);
   --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
   --font-mono: var(--font-mono);
   --font-serif-italic: var(--font-serif-italic);
+  /* Phase 1 v4 additions — Tailwind v4 utility access for shadows + gradients */
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  --shadow-2xl: var(--shadow-2xl);
 }
 
 * {
@@ -96,22 +333,26 @@
 
 html,
 body {
-  background: var(--bg);
-  color: var(--text);
+  background: var(--bg-primary);
+  color: var(--text-primary);
   font-family: var(--font-sans);
   font-feature-settings: "tnum" 1, "lnum" 1;
+  letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  /* Atmospheric radial gradient: subtle teal pull from top-right; kept restrained */
-  background:
-    radial-gradient(ellipse 80% 60% at 80% 0%, rgba(61, 212, 200, 0.08) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 40% at 20% 100%, rgba(103, 232, 249, 0.04) 0%, transparent 70%),
-    var(--bg);
-  background-attachment: fixed;
+  /* v5 — flat light bg, no atmospheric pull. The brand voice is "minimal,
+   * restrained" so we drop the colored radial gradients on body. Per-section
+   * gradients can still opt in via --gradient-hero-atmospheric inline. */
+  background: var(--bg-primary);
   min-height: 100vh;
+}
+
+::placeholder {
+  color: var(--text-muted);
+  opacity: 1;
 }
 
 /* Tabular numerals everywhere a number lives */
@@ -126,8 +367,26 @@ body {
 }
 
 .font-serif-italic {
-  font-family: var(--font-serif-italic);
-  font-style: italic;
+  font-family: var(--font-display);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+h1,
+h2 {
+  font-family: var(--font-display);
+  letter-spacing: 0;
+}
+
+h1.font-light,
+h2.font-light {
+  font-weight: 600;
+}
+
+h1 .font-serif-italic,
+h2 .font-serif-italic {
+  color: inherit;
 }
 
 /* Field label — Plex Mono uppercase */
@@ -201,4 +460,250 @@ body {
 
 .reveal-up {
   animation: reveal-up var(--dur-medium) var(--ease-premium-out) both;
+}
+
+/* Phase 7 v4 — pure-CSS stagger for table rows (COA library). Used in
+ * places where wrapping a <tr> in a JS motion element would break HTML
+ * semantics. Per-row delay set via inline style; the global
+ * prefers-reduced-motion rule above disables this automatically. */
+[data-stagger-row] {
+  animation: reveal-up var(--dur-medium) var(--ease-premium-out) backwards;
+}
+
+/* Phase 7 v4 — Recovery Stack sheen sweep. The component restricts this to
+ * once-per-session via sessionStorage and the @media reduced-motion rule
+ * above hard-disables it. */
+@keyframes recovery-sheen {
+  0% {
+    transform: translateX(-100%) skewX(-12deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(350%) skewX(-12deg);
+    opacity: 0;
+  }
+}
+
+/* v4 design overhaul — trust ticker marquee.
+ * Inspired by biocollexresearch.com's repeating trust banner. The duplicate-
+ * items pattern in components/ui/TrustTicker.tsx renders two copies of the
+ * list back-to-back; this animation translates them by exactly 50% to give a
+ * seamless infinite scroll. Disabled automatically by the global
+ * prefers-reduced-motion rule above (sets animation: none !important). */
+@keyframes trust-ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-trust-ticker {
+  animation: trust-ticker 32s linear infinite;
+  will-change: transform;
+}
+
+/* v4 design overhaul — utility classes mirroring the new spacing tokens
+ * (--sp-7xl / --sp-8xl) for use on hero / closing-CTA sections. Tailwind v4
+ * arbitrary-value syntax can also reach these via py-[var(--sp-7xl)] but a
+ * named utility reads better in component code. */
+.py-hero {
+  padding-top: var(--sp-7xl);
+  padding-bottom: var(--sp-7xl);
+}
+.py-grand {
+  padding-top: var(--sp-8xl);
+  padding-bottom: var(--sp-8xl);
+}
+
+/* Age verification gateway */
+.age-gate-root {
+  position: relative;
+  min-height: 100dvh;
+  overflow: hidden;
+  color: var(--text-primary);
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.9);
+  --text-muted: rgba(255, 255, 255, 0.74);
+  background:
+    radial-gradient(ellipse at center, #0a0e1a 0%, #04060d 70%, #000000 100%);
+}
+
+.age-gate-root::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at center, transparent 40%, rgba(0, 0, 0, 0.5) 100%),
+    repeating-linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.035) 0,
+      rgba(255, 255, 255, 0.035) 1px,
+      transparent 1px,
+      transparent 4px
+    );
+  opacity: 0.78;
+}
+
+.age-gate-root::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+  opacity: 0;
+  background: #000;
+  transition: opacity 600ms var(--ease-premium-out);
+}
+
+.age-gate-root.age-gate-exiting::after {
+  opacity: 1;
+}
+
+.age-gate-content {
+  position: relative;
+  z-index: 10;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: clamp(20px, 4vw, 48px);
+  transition:
+    opacity 600ms var(--ease-premium-out),
+    transform 600ms var(--ease-premium-out);
+}
+
+.age-gate-exiting .age-gate-content {
+  opacity: 0;
+  transform: scale(1.04);
+}
+
+.age-gate-logo {
+  animation: age-logo-in 800ms var(--ease-premium-out) 200ms both;
+}
+
+.age-gate-letter {
+  display: inline-block;
+  animation: age-letter-in 620ms var(--ease-premium-out) both;
+}
+
+.age-gate-subtitle {
+  animation: age-fade-in 700ms var(--ease-premium-out) 1200ms both;
+}
+
+.age-gate-card {
+  background: rgba(14, 20, 34, 0.74);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  backdrop-filter: blur(20px) saturate(140%);
+  animation: age-card-in 700ms var(--ease-premium-out) 1400ms both;
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.36);
+}
+
+.age-gate-primary {
+  box-shadow:
+    0 0 24px rgba(77, 171, 247, 0.45),
+    0 0 48px rgba(77, 171, 247, 0.20);
+  animation:
+    age-fade-in 650ms var(--ease-premium-out) 1700ms both,
+    age-glow-pulse 3000ms ease-in-out 2400ms infinite;
+}
+
+.age-gate-primary:hover {
+  transform: scale(1.02);
+  box-shadow:
+    0 0 30px rgba(77, 171, 247, 0.58),
+    0 0 62px rgba(77, 171, 247, 0.28);
+}
+
+.age-gate-secondary {
+  animation: age-fade-in 650ms var(--ease-premium-out) 1900ms both;
+}
+
+.age-gate-footer {
+  animation: age-fade-in 650ms var(--ease-premium-out) 2000ms both;
+}
+
+@keyframes age-logo-in {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes age-letter-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes age-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes age-card-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes age-glow-pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 18px rgba(77, 171, 247, 0.30),
+      0 0 38px rgba(77, 171, 247, 0.14);
+  }
+  50% {
+    box-shadow:
+      0 0 28px rgba(77, 171, 247, 0.55),
+      0 0 58px rgba(77, 171, 247, 0.24);
+  }
+}
+
+@media (max-width: 640px) {
+  .age-gate-content {
+    padding: 16px;
+  }
+}
+
+/* v1.3 — additional Vial animation primitives.
+ * Used by `<Vial spin />` and `<Vial bob />`. Both honor the global
+ * prefers-reduced-motion kill switch above; the Vial component also gates
+ * via the `motion-safe:` Tailwind utility for belt-and-suspenders. */
+@keyframes vial-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes vial-bob {
+  0%, 100% { transform: translateY(0) rotate(-3deg); }
+  50%      { transform: translateY(-6px) rotate(3deg); }
 }

@@ -11,6 +11,7 @@
 import type { Metadata } from 'next';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
+import { CheckoutGuard } from '@/components/CheckoutGuard';
 import { CheckoutSteps } from '../CheckoutSteps';
 import { AddressForm } from './AddressForm';
 
@@ -37,7 +38,9 @@ export default function CheckoutAddressPage() {
 
         <section>
           <div className="mx-auto max-w-2xl px-6 py-12">
-            <AddressForm />
+            <CheckoutGuard>
+              <AddressForm />
+            </CheckoutGuard>
           </div>
         </section>
       </main>

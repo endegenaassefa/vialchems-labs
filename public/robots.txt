@@ -1,0 +1,14 @@
+# Phase 9 (v4) — public/robots.txt
+# vialchemlabs: open to indexing for all major search engines.
+# Sitemap referenced explicitly.
+
+User-agent: *
+Allow: /
+
+# Internal/operational paths Google does not need to index. Cart and
+# checkout require qualification anyway, so de-prioritising them in
+# crawl budgets is honest.
+Disallow: /cart
+Disallow: /checkout/
+
+Sitemap: https://vialchemlabs.com/sitemap.xml

@@ -10,8 +10,14 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
+import { Card } from '@/components/ui/Card';
 import { blogPosts, getBlogPostBySlug } from '@/lib/content/blog';
 import { siteConfig } from '@/lib/content/site';
+import {
+  articleJsonLd,
+  breadcrumbJsonLd,
+  serializeJsonLdSafe,
+} from '@/lib/seo/jsonLd';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -40,8 +46,32 @@ export default async function BlogPostPage({ params }: PageProps) {
     notFound();
   }
 
+  const articleLd = articleJsonLd(
+    {
+      slug: post.slug,
+      title: post.title,
+      summary: post.excerpt,
+      publishedAt: post.publishedAt,
+      author: post.author,
+    },
+    siteConfig.url,
+  );
+  const breadcrumbLd = breadcrumbJsonLd([
+    { name: 'Home', url: `${siteConfig.url}/` },
+    { name: 'Research Index', url: `${siteConfig.url}/blog` },
+    { name: post.title, url: `${siteConfig.url}/blog/${post.slug}` },
+  ]);
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeJsonLdSafe(articleLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeJsonLdSafe(breadcrumbLd) }}
+      />
       <SiteHeader />
       <main id="main" className="flex-1">
         <article className="border-b border-[var(--border)]">
@@ -94,20 +124,20 @@ export default async function BlogPostPage({ params }: PageProps) {
               </ol>
             </section>
 
-            <section className="mt-12 rounded-[14px] border border-[var(--border-strong)] bg-[var(--surface)] px-6 py-5">
+            <Card variant="elevated" className="mt-12 px-6 py-5">
               <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-2">
                 Research-only positioning
               </p>
               <p className="text-[14px] leading-[1.6] text-[var(--text)]">
                 This article is a research register for in-vitro and animal-model
                 contexts. {siteConfig.name} supplies research reference materials
-                with per-batch independent Certificates of Analysis. See{' '}
+                with independent third-party Certificates of Analysis. See{' '}
                 <Link href="/coa" className="text-[var(--accent)] hover:text-[var(--accent-soft)]">
                   /coa
                 </Link>{' '}
                 for the COA index.
               </p>
-            </section>
+            </Card>
           </div>
         </article>
       </main>

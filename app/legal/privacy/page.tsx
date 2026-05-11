@@ -9,7 +9,7 @@ import { siteConfig } from '@/lib/content/site';
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description:
-    'How Vialchems Labs collects, uses, shares, and protects personal information, and your rights under GDPR and CCPA.',
+    'How vialchemlabs collects, uses, shares, and protects personal information, and your rights under GDPR and CCPA.',
 };
 
 export default function PrivacyPage() {
@@ -137,7 +137,7 @@ export default function PrivacyPage() {
         what categories of personal information are collected, to opt out of
         any &quot;sale&quot; (we do not sell personal data), and to request
         deletion. To exercise any of these rights, email{' '}
-        <A href="mailto:research@vialchems.labs">research@vialchems.labs</A>.
+        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A>.
         We may verify your identity before responding. We will respond within
         the timeframe required by applicable law (typically 30 days).
       </P>
@@ -170,7 +170,7 @@ export default function PrivacyPage() {
       <P>
         For privacy questions, data-rights requests, or to update your contact
         preferences, email{' '}
-        <A href="mailto:research@vialchems.labs">research@vialchems.labs</A>.
+        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A>.
       </P>
 
       <H2>11. Changes</H2>

@@ -52,7 +52,11 @@ if [ -n "$hits" ]; then
   exit 1
 fi
 
-# Markdown files: only `docs/` folder is allowed to mention Mogtrix
+# Markdown files: only `docs/` folder is allowed to mention Mogtrix.
+# v4 allowlist (Phase 0 hygiene): three operator-handoff reference docs at repo root
+# legitimately cite Mogtrix as a pattern-attribution source per Iron Law 2.12.
+# These docs are referenced by absolute path in the v4 super-prompt §1.1 — moving
+# them would break those cross-references. The allowlist is narrowly named.
 md_hits=$(
   grep -rni 'mogtrix' \
     --include='*.md' \
@@ -62,6 +66,9 @@ md_hits=$(
     --exclude-dir='docs' \
     . 2>/dev/null \
   | grep -v 'grep-mogtrix' \
+  | grep -v '^\./SUPER_PROMPT_' \
+  | grep -v '^\./RESEARCH_PLAN\.md' \
+  | grep -v '^\./CODEBASE_UNDERSTANDING\.md' \
   || true
 )
 

@@ -20,7 +20,7 @@ Initialize NEW Next.js project. NOT a Mogtrix fork. Port specific Mogtrix patter
 | scripts/supply-chain-scan.sh (Iron Law 2.16) | ✓ |
 | lib/compliance.ts (ported, extended Appendix P, 50 tests pass) | ✓ |
 | lib/compliance/jurisdictions.ts (CA/TX/NY/FL block list, Iron Law 2.8) | ✓ |
-| lib/content/site.ts (Vialchems Labs brand config) | ✓ |
+| lib/content/site.ts (vialchemlabs brand config) | ✓ |
 | app/api/health/route.ts (canary endpoint) | ✓ |
 | .env.example (full env template) | ✓ |
 | Vitest config + tests/setup.ts | ✓ |

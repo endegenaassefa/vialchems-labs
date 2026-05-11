@@ -80,7 +80,7 @@ The plan itself is durable and reviewable — operator can re-run the interactiv
 Phase 3 (Backend Bootstrap) can begin immediately. No blockers.
 
 Operator-action items deferred to operator-runbook (Phase 11):
-- Register vialchems.labs domain
+- Register vialchemlabs.com domain
 - Form Wyoming LLC
 - Confirm source supplier terms
 - Replace all stub credentials

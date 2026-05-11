@@ -77,4 +77,15 @@ describe('Input', () => {
       /custom-input/,
     );
   });
+
+  // Phase 2 v4 — focus-state inset shadow for depth (per Phase 1 token system)
+  describe('Phase 2 v4 — elevated visuals', () => {
+    it('applies inset shadow on focus state for depth perception', () => {
+      render(<Input placeholder="x" />);
+      const input = screen.getByPlaceholderText('x');
+      // Inset shadow on focus complements the global *:focus-visible 2px outline
+      // (which is unchanged per Iron Law). Provides Apple Dev Docs-style depth.
+      expect(input.className).toMatch(/focus:shadow-\[inset_/);
+    });
+  });
 });

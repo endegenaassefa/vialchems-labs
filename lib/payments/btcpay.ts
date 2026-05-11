@@ -131,18 +131,76 @@ export function createBtcpayAdapter(
     id: 'btcpay',
 
     async createIntent(input: CreateIntentInput): Promise<PaymentIntent> {
-      void input; // Phase 10 wires Greenfield POST; signature pinned by PaymentProvider.
       if (!envIsConfigured(env)) {
         throw new Error(
           'btcpay_not_configured: BTCPAY_URL, BTCPAY_API_KEY, BTCPAY_STORE_ID, and BTCPAY_WEBHOOK_SECRET must all be set to non-stub values.',
         );
       }
-      // Phase 9 scaffold: real Greenfield invoice POST lands when ops
-      // provisions the BTCPay server. Throwing here prevents a silent
-      // success against the stub server.
-      throw new Error(
-        'btcpay_create_intent_not_implemented: scaffolded for Phase 10 wiring.',
-      );
+
+      // Phase 10.5 (v4) / D10: real Greenfield invoice POST.
+      const url = `${env.BTCPAY_URL!.replace(/\/$/, '')}/api/v1/stores/${env.BTCPAY_STORE_ID}/invoices`;
+      const amount = (input.amountCents / 100).toFixed(2);
+      const ts = new Date().toISOString();
+      const body = JSON.stringify({
+        amount,
+        currency: 'USD',
+        metadata: {
+          intentId: input.orderId,
+          orderId: input.orderId,
+          customerEmail: input.customerEmail,
+          ...(input.metadata ?? {}),
+        },
+        checkout: {
+          speedPolicy: 'MediumSpeed',
+          paymentMethods: ['BTC', 'LTC'],
+          redirectURL: `${process.env.NEXT_PUBLIC_SITE_URL ?? ''}/checkout/confirm`,
+        },
+      });
+
+      let res: Response;
+      try {
+        res = await fetch(url, {
+          method: 'POST',
+          headers: {
+            Authorization: `token ${env.BTCPAY_API_KEY}`,
+            'Content-Type': 'application/json',
+          },
+          body,
+        });
+      } catch (err) {
+        throw new Error(
+          `btcpay_invoice_create_failed: network error ${(err as Error).message}`,
+        );
+      }
+      if (!res.ok) {
+        const text = await res.text().catch(() => '');
+        throw new Error(
+          `btcpay_invoice_create_failed: HTTP ${res.status} ${text.slice(0, 256)}`,
+        );
+      }
+      const json = (await res.json()) as {
+        id: string;
+        status?: string;
+        checkoutLink?: string;
+      };
+
+      const intent: PaymentIntent = {
+        id: json.id,
+        provider: 'btcpay',
+        method: 'crypto',
+        amountCents: input.amountCents,
+        currency: 'USD',
+        status: mapBtcpayStatus(json.status ?? 'New'),
+        metadata: {
+          ...(input.metadata ?? {}),
+          ...(json.checkoutLink ? { checkoutLink: json.checkoutLink } : {}),
+        },
+        createdAt: ts,
+        updatedAt: ts,
+        externalId: json.id,
+        redirectUrl: json.checkoutLink,
+      };
+      return intent;
     },
 
     async getIntent(intentId: string): Promise<PaymentIntent | null> {

@@ -1,15 +1,17 @@
 /**
  * AddToCartIsland — client wrapper around the Add-to-Cart button + qty picker.
  *
- * Owns the qty input local state, calls into the cart store on submit. Disables
- * itself with a visual "added" pill for 1.5s after a successful add (Phase 5
- * cosmetic — real cart-drawer + toast lands in Phase 9).
+ * Owns the qty input local state, calls into the cart store on submit. Phase 4
+ * v4: replaces the inline `justAdded` Pill with the Phase 2 `<Toast>` primitive
+ * for transient success feedback. Toast carries role="alert" + aria-live so AT
+ * announce the cart-add without requiring focus shift; auto-dismisses after
+ * 3000ms (faster than default 4000ms — cart adds are quick interactions).
  */
 'use client';
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/Button';
-import { Pill } from '@/components/ui/Pill';
+import { Toast } from '@/components/ui/Toast';
 import { useCartStore } from '@/lib/cart-store';
 
 interface AddToCartIslandProps {
@@ -27,12 +29,13 @@ export function AddToCartIsland({
 }: AddToCartIslandProps) {
   const addLine = useCartStore((s) => s.addLine);
   const [qty, setQty] = useState(1);
-  const [justAdded, setJustAdded] = useState(false);
+  const [toast, setToast] = useState<string | null>(null);
 
   function handleAdd() {
     addLine({ sku, slug, name, unitPriceCents, qty });
-    setJustAdded(true);
-    window.setTimeout(() => setJustAdded(false), 1500);
+    setToast(
+      qty === 1 ? `Added ${name} to research order` : `Added ${qty} × ${name}`,
+    );
   }
 
   return (
@@ -70,7 +73,14 @@ export function AddToCartIsland({
       <Button variant="primary" size="lg" onClick={handleAdd}>
         Add to cart
       </Button>
-      {justAdded && <Pill variant="accent">Added</Pill>}
+      {toast ? (
+        <Toast
+          message={toast}
+          tone="success"
+          duration={3000}
+          onDismiss={() => setToast(null)}
+        />
+      ) : null}
     </div>
   );
 }

@@ -1,7 +1,26 @@
 import { describe, expect, it, vi } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { Button } from '@/components/ui/Button';
+import { Button, buttonClassNames } from '@/components/ui/Button';
 import { findMarketingCopyViolation } from '@/lib/compliance';
+
+// Phase 3 v4 — reusable className helper for non-<button> consumers (Link CTAs).
+describe('buttonClassNames helper', () => {
+  it('returns the same className the Button component renders for a given variant+size', () => {
+    const { container } = render(<Button variant="primary" size="lg">x</Button>);
+    const buttonClass = container.querySelector('button')!.className;
+    expect(buttonClassNames('primary', 'lg')).toBe(buttonClass);
+  });
+
+  it('merges extra className via cn() (tailwind-merge dedup)', () => {
+    const cls = buttonClassNames('outline', 'md', 'mt-4');
+    expect(cls).toMatch(/mt-4/);
+    expect(cls).toMatch(/border-\[var\(--border-strong\)\]/);
+  });
+
+  it('defaults to primary + md when both args omitted', () => {
+    expect(buttonClassNames()).toBe(buttonClassNames('primary', 'md'));
+  });
+});
 
 describe('Button', () => {
   it('renders children', () => {
@@ -121,5 +140,53 @@ describe('Button', () => {
   it('uses compliant copy in test labels (sanity)', () => {
     // Sanity: nothing in this test file uses forbidden marketing patterns
     expect(findMarketingCopyViolation('Add to research order')).toBeNull();
+  });
+
+  // Phase 2 v4 — visual elevation additions per Phase 1 token additions
+  describe('Phase 2 v4 — elevated visuals', () => {
+    it('primary variant carries --shadow-sm on resting state', () => {
+      render(<Button variant="primary">Primary</Button>);
+      const btn = screen.getByRole('button');
+      expect(btn.className).toMatch(/shadow-\[var\(--shadow-sm\)\]/);
+    });
+
+    it('primary variant lifts to --shadow-md on hover', () => {
+      render(<Button variant="primary">Primary</Button>);
+      const btn = screen.getByRole('button');
+      expect(btn.className).toMatch(/hover:shadow-\[var\(--shadow-md\)\]/);
+    });
+
+    it('primary variant uses --accent-deep on active (pressed) state', () => {
+      render(<Button variant="primary">Primary</Button>);
+      const btn = screen.getByRole('button');
+      expect(btn.className).toMatch(/active:bg-\[var\(--accent-deep\)\]/);
+    });
+
+    it('exposes new "success" variant for transactional confirmations', () => {
+      render(<Button variant="success">Confirm</Button>);
+      const btn = screen.getByRole('button');
+      // success uses --accent-soft (lighter teal) to read as "ok / confirmed"
+      // within Posture A; not a green-out (Iron Law 2.26 — no acid green).
+      expect(btn.className).toMatch(/bg-\[var\(--accent-soft\)\]/);
+    });
+
+    it('exposes new "danger" variant for destructive transactional surfaces', () => {
+      render(<Button variant="danger">Cancel order</Button>);
+      const btn = screen.getByRole('button');
+      // danger uses --pill-error (red); Phase 5 Dialog cancel-order + refund flows.
+      expect(btn.className).toMatch(/bg-\[var\(--pill-error\)\]/);
+    });
+
+    it('Specs[ButtonVariant] union includes success + danger', async () => {
+      const mod = await import('@/components/ui/Button');
+      // Type-level smoke: render with both new variants without TS error
+      const { container } = render(
+        <>
+          <mod.Button variant="success">ok</mod.Button>
+          <mod.Button variant="danger">no</mod.Button>
+        </>,
+      );
+      expect(container.querySelectorAll('button')).toHaveLength(2);
+    });
   });
 });

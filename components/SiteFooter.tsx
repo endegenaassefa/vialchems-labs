@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { siteConfig } from '@/lib/content/site';
+import { NewsletterForm } from '@/components/NewsletterForm';
 
 /**
  * Site footer with verbatim disclaimer block (Appendix A.1) and link grid (Appendix O).
@@ -8,40 +9,27 @@ import { siteConfig } from '@/lib/content/site';
 export function SiteFooter() {
   const year = new Date().getFullYear();
   return (
-    <footer className="mt-auto border-t border-[var(--border)] bg-[var(--surface)]">
-      <div className="mx-auto max-w-6xl px-6 py-12">
+    <footer className="mt-auto border-t border-[var(--border)] bg-[var(--bg)]">
+      <div className="mx-auto max-w-6xl px-6 py-14">
+        {/* v5 — RESEARCH USE ONLY badge banner per brand spec §5 */}
+        <div className="mb-10 flex items-center justify-center">
+          <span className="inline-flex items-center gap-2 px-3 h-7 rounded-[var(--radius-pill)] border border-[var(--border)] bg-[var(--surface)] font-mono text-[11px] uppercase tracking-[0.05em] text-[var(--text-muted)]">
+            <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-[var(--accent-hi)]" />
+            Research use only · For verified laboratories
+          </span>
+        </div>
         <div className="grid gap-10 md:grid-cols-5">
           <div className="md:col-span-2">
-            <p className="text-[18px] font-semibold tracking-tight text-[var(--text)] mb-2">
-              {siteConfig.name}
+            <p className="text-[18px] font-medium tracking-tight text-[var(--text)] mb-2">
+              vialchemlabs
             </p>
-            <p className="text-[14px] text-[var(--text-muted)] max-w-sm mb-5">
-              Research peptides with per-batch independent Certificates of Analysis.
-              {' '}
-              <span className="font-mono text-[var(--accent)]">{siteConfig.tagline}</span>
+            <p className="text-[14px] text-[var(--text-muted)] max-w-sm mb-5 leading-relaxed">
+              {siteConfig.tagline} For verified laboratories and qualified
+              research organizations only.
             </p>
-            <form
-              action="/api/newsletter/subscribe"
-              method="POST"
-              className="flex gap-2 max-w-sm"
-            >
-              <input
-                type="email"
-                name="email"
-                required
-                aria-label="Email address for newsletter"
-                placeholder="research@example.com"
-                className="flex-1 h-10 px-3 rounded-[var(--radius-md)] bg-[var(--surface-strong)] border border-[var(--border)] text-[14px] focus:border-[var(--accent)] focus:outline-none"
-              />
-              <button
-                type="submit"
-                className="px-4 h-10 rounded-[var(--radius-md)] bg-[var(--accent)] text-[var(--bg)] font-medium text-[13px] hover:bg-[var(--accent-soft)] transition-colors"
-              >
-                Subscribe
-              </button>
-            </form>
-            <p className="font-mono text-[11px] text-[var(--text-subtle)] mt-2">
-              Research updates. No marketing fluff. 15% off first order.
+            <NewsletterForm />
+            <p className="font-mono text-[11px] uppercase tracking-[0.05em] text-[var(--text-subtle)] mt-2">
+              Research updates. No marketing fluff.
             </p>
           </div>
 
@@ -120,7 +108,7 @@ export function SiteFooter() {
 
         <div className="mt-8 text-[12px] text-[var(--text-subtle)] flex justify-between flex-wrap gap-3">
           <p>© {year} {siteConfig.llcName}, {siteConfig.llcJurisdiction}. All rights reserved.</p>
-          <p className="font-mono">vialchems.labs</p>
+          <p className="font-mono">vialchemlabs</p>
         </div>
       </div>
     </footer>

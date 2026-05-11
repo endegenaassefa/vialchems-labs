@@ -1,9 +1,9 @@
-# Subagent 3 — Customer Acquisition Channel Digest (Vialchems Labs, Posture A)
+# Subagent 3 — Customer Acquisition Channel Digest (vialchemlabs, Posture A)
 
 **Compiled:** 2026-05-08
 **Sources:** Slice 2 acquisition_channels/ (11 channel files); slice_B2_influencer_tier_map.md (78 creators); acquisition_synthesis_slice2.md (master synthesis).
 **Status of Slice 3 (community channels: Reddit, specialized forums, Telegram, Discord, niche aggregators):** PLACEHOLDER_AWAITING_SLICE_3 — see Section 4.
-**Vialchems Labs is locked Posture A:** clean clinical, vialchems.labs, no Mogtrix branding, no BAC water, no tirzepatide/semaglutide/retatrutide in catalog.
+**vialchemlabs is locked Posture A:** clean clinical, vialchemlabs.com, no Mogtrix branding, no BAC water, no tirzepatide/semaglutide/retatrutide in catalog.
 
 ---
 
@@ -19,13 +19,13 @@
 
 **Time-to-traction.** Median 3-6 months to first compound-term rankings, 9-18 months to meaningful traffic. Lower bound (28-day Nexamed case) is "marketing puffery, not a planning baseline." Upper bound 12-18 months for head-term rankings is unrealistic; new entrants win compound long-tail and never reach head terms.
 
-**Termination risk.** YMYL classification means Google scrutinizes peptide pages for medical claims. April 2026 FDA finding that "Research Use Only" disclaimers do not change drug status raises the bar — promotional language read by Google's reviewer or by FDA enforcement is now triple-coupled. Moderate-high platform-policy risk; high-critical regulatory risk if SKU includes GLP-1s. (Vialchems excludes them by mandate.)
+**Termination risk.** YMYL classification means Google scrutinizes peptide pages for medical claims. April 2026 FDA finding that "Research Use Only" disclaimers do not change drug status raises the bar — promotional language read by Google's reviewer or by FDA enforcement is now triple-coupled. Moderate-high platform-policy risk; high-critical regulatory risk if SKU includes GLP-1s. (vialchemlabs excludes them by mandate.)
 
 **Posture A vs B.** PURSUE for A (clean clinical wins YMYL E-E-A-T by construction). DEFER for B (meme posture is structurally penalized by YMYL).
 
 ### 1.2 Google Ads
 
-**Mechanics.** Google's policy stack effectively closes paid search to research-peptide e-commerce. The Pharmaceutical Manufacturers sub-policy permits B2B-to-lab supply only (Canada/US, certified at child-account level); the catch-all Unapproved Substances policy bans "Herbal and dietary supplements with active pharmaceutical or dangerous ingredients"; cloaking is enumerated in the Circumventing Systems policy as account-termination class violation. The only documented working lane is LegitScript-certified compounded-GLP-1 telehealth — incompatible with Vialchems posture and excluded by mandate.
+**Mechanics.** Google's policy stack effectively closes paid search to research-peptide e-commerce. The Pharmaceutical Manufacturers sub-policy permits B2B-to-lab supply only (Canada/US, certified at child-account level); the catch-all Unapproved Substances policy bans "Herbal and dietary supplements with active pharmaceutical or dangerous ingredients"; cloaking is enumerated in the Circumventing Systems policy as account-termination class violation. The only documented working lane is LegitScript-certified compounded-GLP-1 telehealth — incompatible with vialchemlabs posture and excluded by mandate.
 
 **Exemplars.** Of 8 anchor vendors with Similarweb data, 7 show paid-search keyword share at or below 1% (Peptide Sciences 0%, Swiss Chems 0.12%, Pure Rawz 0%, Biotech 0%, Behemoth 0%, Core 0%, Amino Asylum 0%). Limitless Life Nootropics is the lone outlier at 20.39% — almost entirely branded-defensive bidding (semax is the only non-branded compound term).
 
@@ -39,7 +39,7 @@
 
 **Exemplars.** Biotech Peptides owns 10/10 ranks on Bing for brand search (distinctive name beats namespace collision); Core Peptides #1 on DDG "buy peptides"; Limitless #1 brand on Bing but a Reddit "SCAM!! DO NOT ORDER" thread sits at #5 and damages CTR.
 
-**Cost band, time, risk.** $0 incremental beyond Google SEO; same time-to-traction. Risk profile inherits Google SEO. Vialchems Labs brand is distinctive (no insurance/band collision risk pre-screened — verify on Bing before launch).
+**Cost band, time, risk.** $0 incremental beyond Google SEO; same time-to-traction. Risk profile inherits Google SEO. vialchemlabs brand is distinctive (no insurance/band collision risk pre-screened — verify on Bing before launch).
 
 **Posture A vs B.** PURSUE A (free byproduct). PURSUE B (same).
 
@@ -91,7 +91,7 @@
 
 **Termination risk.** Critical — Meta crawls landing pages and bans accounts even when ad copy is compliant. Halo architecture is observed standard practice, not paranoia.
 
-**Posture A vs B.** DEFER A (clinical posture is hostile to Instagram's attention economy; explainer carousels don't move). PURSUE B with explicit account-loss budget — Behemoth + PureRawz playbook. Vialchems Labs Posture A: register defensive handles only (`@vialchems`, `@vialchems.labs`, `@vialchems_research`, `@vialchemsofficial`) on Day 1, no active posting.
+**Posture A vs B.** DEFER A (clinical posture is hostile to Instagram's attention economy; explainer carousels don't move). PURSUE B with explicit account-loss budget — Behemoth + PureRawz playbook. vialchemlabs Posture A: register defensive handles only (`@vialchemlabs`, `@vialchemlabs.com`, `@vialchemlabs_research`, `@vialchemlabsofficial`) on Day 1, no active posting.
 
 ### 1.8 Vendor-owned TikTok (influencer-proxied only)
 
@@ -105,7 +105,7 @@
 
 **Termination risk.** Critical — "accounts easily get banned" (ChinaTalk reporting). Per-creator codes (the SwissChems pattern) so attribution is unambiguous and codes can be retired when a creator violates policy.
 
-**Posture A vs B.** DO NOT PURSUE A as vendor account — register defensive handles only. PURSUE B as influencer-proxied. Vialchems Labs Posture A: defensive registration of @vialchems / @vialchems.labs / @vialchems_research; no active brand presence.
+**Posture A vs B.** DO NOT PURSUE A as vendor account — register defensive handles only. PURSUE B as influencer-proxied. vialchemlabs Posture A: defensive registration of @vialchemlabs / @vialchemlabs.com / @vialchemlabs_research; no active brand presence.
 
 ### 1.9 Vendor-owned X (founder-personal cadence)
 
@@ -133,7 +133,7 @@
 
 **Exemplars.** Behemoth Labz (https://behemothlabz.com/newsletter/ — 15% off + FREE Hand Strengthener no-purchase-required; "Your email will never be shared because we detest spam!"); Pure Rawz (https://purerawz.co/prz-library/ Elementor eBook PDF lead magnet, Name+Surname+Email capture); Peptide Sciences (Brevo + Magento + custom exit-intent popup tied to Account Credit, not discount code).
 
-**Cost band.** $0-$300/mo Omnisend (free tier <500 subscribers; ~$59/mo at 5K; Klaviyo $45/mo at 1K; Brevo ~$25/mo at 20K emails); $50-$200/mo popup tooling (or Omnisend built-in). Lead-magnet PDF $50-$200 production. Mailgun dedicated IP ~$59/mo Foundation plan (Vialchems should buy this — competitive deliverability advantage when competitors are all on shared IPs with `p=none`).
+**Cost band.** $0-$300/mo Omnisend (free tier <500 subscribers; ~$59/mo at 5K; Klaviyo $45/mo at 1K; Brevo ~$25/mo at 20K emails); $50-$200/mo popup tooling (or Omnisend built-in). Lead-magnet PDF $50-$200 production. Mailgun dedicated IP ~$59/mo Foundation plan (vialchemlabs should buy this — competitive deliverability advantage when competitors are all on shared IPs with `p=none`).
 
 **Time-to-traction.** 48-72 hours for first welcome firing. 3-6 months to 5-15K contacts where retention email becomes meaningful revenue. Behemoth-tier "emails on a regular basis offering better discounts" cadence per Trustpilot.
 
@@ -153,7 +153,7 @@
 
 ---
 
-## Section 2 — Influencer + creator tier strategy (Vialchems Labs Day-1 focus: Tier S)
+## Section 2 — Influencer + creator tier strategy (vialchemlabs Day-1 focus: Tier S)
 
 ### 2.1 Tier XL (500K+, 13 creators)
 
@@ -201,7 +201,7 @@ Macro creators with documented peptide proximity. **Owner-operator economics dom
 
 **Tier M commission.** Mid-tier rates $1K-$5K per branded post (industry-analysis); peptide vertical premium 25-50%.
 
-### 2.4 Tier S (5K-30K, 25 creators) — focus band for Vialchems Labs Day 1
+### 2.4 Tier S (5K-30K, 25 creators) — focus band for vialchemlabs Day 1
 
 - **@biohacked_belle** (TikTok 14.5K) — biohacking + lifestyle.
 - **@biohacking_tecnicas** (TikTok 20.4K, Spanish) — LATAM Gen Z bilingual ramp.
@@ -215,18 +215,18 @@ Macro creators with documented peptide proximity. **Owner-operator economics dom
 - **@inonaround / Catherine Power** (27K IG, 3.8%, Harvard background, non-toxic brands).
 - **@piperamirezvanguardista** (29K IG, Spanish), **@drpaulvin** (17K IG, longevity medicine + HRT clinical credential), **@rachelvargaofficial** (22K IG, aesthetic nurse + skincare = softmaxxing), **@tanya.schrobilgen** (21K IG, ER PA-C), **@lauren_sambataro** (22K IG, Biohacker Babes co-host), **@biohacker_babes** (10K IG duo), **@ketonesforme / Kiera Smale** (20K IG, 2.1%), **@projectcameron247365** (36K IG, extreme protocol), **@primalhackerofficial** (12K IG, 0.1%), **@colette.biohackingmama** (17K IG, 0.2%).
 
-**Tier S commission.** $50-$300 per post baseline (TikTok); $200-$500 (IG with engagement); peptide-vertical premium 25-50% → $300-$1K for clinical-credential standouts. Discount-code commission 15-25% per affiliate program. **Vialchems offer:** 20% commission with 90-day cookie matches top of market and undercuts the 10% Onyx/Royal/Particle floor.
+**Tier S commission.** $50-$300 per post baseline (TikTok); $200-$500 (IG with engagement); peptide-vertical premium 25-50% → $300-$1K for clinical-credential standouts. Discount-code commission 15-25% per affiliate program. **vialchemlabs offer:** 20% commission with 90-day cookie matches top of market and undercuts the 10% Onyx/Royal/Particle floor.
 
-**Tier S commitment for Vialchems Day 1: 5-10 micro-creators with engagement ≥2% and a clinical credential (RN, PA-C, MD, PharmD, DC) in bio.** Priority outreach: @doctorambernd (peptide therapy in bio = highest topical fit), @breezy.wellness (19.9% engagement standout), @thebiohackingnurse (RN credential at 1.6% — above-median for the band), @ash.the.pa, @inonaround, @drvincentesposito, @drpaulvin, @rachelvargaofficial, @tanya.schrobilgen.
+**Tier S commitment for vialchemlabs Day 1: 5-10 micro-creators with engagement ≥2% and a clinical credential (RN, PA-C, MD, PharmD, DC) in bio.** Priority outreach: @doctorambernd (peptide therapy in bio = highest topical fit), @breezy.wellness (19.9% engagement standout), @thebiohackingnurse (RN credential at 1.6% — above-median for the band), @ash.the.pa, @inonaround, @drvincentesposito, @drpaulvin, @rachelvargaofficial, @tanya.schrobilgen.
 
 ### 2.5 Outreach script template for Tier S (looksmaxxing-coded creators)
 
 ```
-Subject: Vialchems Labs partnership — clinical-grade peptides, 20% commission
+Subject: vialchemlabs partnership — clinical-grade peptides, 20% commission
 
 Hi [creator handle],
 
-I'm reaching out from Vialchems Labs (vialchems.labs), a US-domestic
+I'm reaching out from vialchemlabs (vialchemlabs.com), a US-domestic
 research-peptide supplier launching with [X] compounds in our Day-1
 catalog. Each PDP carries third-party HPLC + MS COAs with batch
 numbers, and our blog runs credentialed-author research deep-dives.
@@ -244,7 +244,7 @@ Our affiliate offer:
 - Compliance brief provided (FTC-compliant disclosure language,
   research-only framing)
 
-The compliance brief includes the verbatim line: "All Vialchems
+The compliance brief includes the verbatim line: "All vialchemlabs
 products are sold for research, laboratory, or analytical purposes
 only, and are not for human consumption." We'd ask you to include
 "#ad" or "#sponsored" at the start of any post, not the end.
@@ -255,8 +255,8 @@ no minimum post requirements — just a partnership offer.
 
 Best,
 [Founder name]
-Vialchems Labs
-[email] | vialchems.labs
+vialchemlabs
+[email] | vialchemlabs.com
 ```
 
 ### 2.6 Discount-code matrix (17 vendor-creator relationships observed)
@@ -304,7 +304,7 @@ Vialchems Labs
 - **Derek MPMD** — Linktree "Recommended Products & Discount Codes" framing (gray zone — owner-operator of unbranded products requires disclosure under 2023 revision).
 - **TikTok peptide-creator surface generally** — Mile High Compound code-creators (rickie, MADISONVERDE, BLOOM, VDGLP, HeatherM, MARMAR, Oilfield) show discount codes embedded in caption or video without consistent #ad visual overlay; InfluenceFlow 2026 explicitly states "Hashtags alone are not sufficient" and "Short-form content requires disclosures at the beginning, not end, with visible text overlays."
 
-**OBSERVED finding:** FTC non-disclosure is normalized in the peptide-vendor-creator economy. The 2023 FTC Endorsement Guides revision makes individual creators liable for deceptive claims, but enforcement against research-peptide promotion has been concentrated in vendor warning letters (Prime Peptides, Xcel Peptides, Swiss Chems, Summit Research December 2024) rather than creator-side prosecutions. **For Vialchems, this is a finding, not a permission slip — Vialchems must require partners to use FTC-compliant disclosure to avoid being the test case for creator-side enforcement.**
+**OBSERVED finding:** FTC non-disclosure is normalized in the peptide-vendor-creator economy. The 2023 FTC Endorsement Guides revision makes individual creators liable for deceptive claims, but enforcement against research-peptide promotion has been concentrated in vendor warning letters (Prime Peptides, Xcel Peptides, Swiss Chems, Summit Research December 2024) rather than creator-side prosecutions. **For vialchemlabs, this is a finding, not a permission slip — vialchemlabs must require partners to use FTC-compliant disclosure to avoid being the test case for creator-side enforcement.**
 
 ### 2.8 Account-termination forensics (operator must internalize)
 
@@ -322,29 +322,29 @@ The vendor-side mortality rate in 2025-2026 has been extraordinarily high. Any c
 
 ---
 
-## Section 3 — Day-1 / Weeks-2-4 / Months-2-3 / Avoid prioritization for Vialchems Labs (Posture A)
+## Section 3 — Day-1 / Weeks-2-4 / Months-2-3 / Avoid prioritization for vialchemlabs (Posture A)
 
 ### 3.1 Day 1 (active in first week)
 
-1. **Vendor-owned blog** at vialchems.labs/research/ or /blog/ — stand up dated archive structure, hire ONE credentialed MD or PhD author with dedicated /author/<name>/ page (table-stakes E-E-A-T). Publish 4-6 posts in month 1, each targeting one Day-1 catalog compound: hero summary → mechanism (8-15 peer-reviewed citations) → research summary → comparison/stack adjacencies → "Buy [compound] - [dose]" CTA back to PDP. Verbatim disclaimer: "Not for human consumption. For research use only. The information provided is for educational purposes only and is not intended to diagnose, treat, cure, or prevent any disease." Add Product+Offer+AggregateRating JSON-LD to every PDP, FAQ schema for AI Overview eligibility (under-used by competitors — gap).
+1. **Vendor-owned blog** at vialchemlabs.com/research/ or /blog/ — stand up dated archive structure, hire ONE credentialed MD or PhD author with dedicated /author/<name>/ page (table-stakes E-E-A-T). Publish 4-6 posts in month 1, each targeting one Day-1 catalog compound: hero summary → mechanism (8-15 peer-reviewed citations) → research summary → comparison/stack adjacencies → "Buy [compound] - [dose]" CTA back to PDP. Verbatim disclaimer: "Not for human consumption. For research use only. The information provided is for educational purposes only and is not intended to diagnose, treat, cure, or prevent any disease." Add Product+Offer+AggregateRating JSON-LD to every PDP, FAQ schema for AI Overview eligibility (under-used by competitors — gap).
 
 2. **Google organic SEO infrastructure** — same site investment as #1. Skip head-term fortress entirely. Target compound-name commercial-intent variants ("BPC-157 vial", "TB-500 5mg buy", "<compound> for sale"). Build per-compound PDPs that ARE the long-form research-deep-dive (PDP and educational content fused on one URL). Target the "Peptide Sciences alternatives" cluster — write a "Looking for a Peptide Sciences alternative?" landing page with comparison table. Submit sitemap to Google Search Console + Bing Webmaster Tools.
 
 3. **Email marketing via Omnisend on WooCommerce** (or Brevo on Magento if backend is Magento). Provision day 1. Build welcome sequence: credibility-artifact PDF lead magnet (NOT a discount — clinical-posture must be defended) → research-context email → soft product CTA → abandoned-cart re-engagement. Set DMARC `p=reject` (Peptide Sciences pattern). Buy Mailgun dedicated IP $59/mo Foundation plan. Deploy abandoned-cart sequence Omnisend native (consider Metorik layered).
 
-4. **Vendor-X founder account (@vialchems-founder or named handle)** — research-citation hashtag-thread cadence, Peptide Sciences template directly emulable. Bio: "Vialchems Labs specializes in the synthesis of highly purified peptides, proteins and amino acid derivatives for scientific research and development." 1 hashtag-thread post every 1-2 days citing PubMed/NCBI papers. No promotional language, no founder voice that sounds like brand account.
+4. **Vendor-X founder account (@vialchemlabs-founder or named handle)** — research-citation hashtag-thread cadence, Peptide Sciences template directly emulable. Bio: "vialchemlabs specializes in the synthesis of highly purified peptides, proteins and amino acid derivatives for scientific research and development." 1 hashtag-thread post every 1-2 days citing PubMed/NCBI papers. No promotional language, no founder voice that sounds like brand account.
 
 5. **Tier S micro-creator outreach (5-10 creators)** — clinical-credential standouts: @doctorambernd, @breezy.wellness, @thebiohackingnurse, @ash.the.pa, @inonaround, @drvincentesposito, @drpaulvin, @rachelvargaofficial, @tanya.schrobilgen. Send outreach script (Section 2.5). Issue per-creator codes (the SwissChems pattern). 20% commission, 90-day cookie. Compliance brief includes FTC-compliant #ad-at-start language and verbatim research-only disclaimer.
 
-6. **Defensive social handle registration** — IG (@vialchems, @vialchems.labs, @vialchems_research, @vialchemsofficial), TikTok (@vialchems, @vialchems.labs, @vialchems_research), X brand handle (@vialchems_labs as defensive stub; founder X is the real load-bearing handle). No active posting on IG/TikTok brand handles — these are namespace defense + reincarnation insurance.
+6. **Defensive social handle registration** — IG (@vialchemlabs, @vialchemlabs.com, @vialchemlabs_research, @vialchemlabsofficial), TikTok (@vialchemlabs, @vialchemlabs.com, @vialchemlabs_research), X brand handle (@vialchemlabs as defensive stub; founder X is the real load-bearing handle). No active posting on IG/TikTok brand handles — these are namespace defense + reincarnation insurance.
 
 7. **Affiliate program infrastructure** — UpPromote (used by Amino Asylum) or Refersion (Apollo Peptide Sciences pattern). Public affiliate landing page with 20% commission + 90-day cookie + FTC-compliance brief.
 
-8. **Brand name verification** — verify "Vialchems Labs" against Bing entity disambiguation BEFORE launch (the Pure Rawz / Behemoth Labz failure mode). Search the brand on Bing; confirm vialchems.labs surfaces, not a band/movie/insurance.
+8. **Brand name verification** — verify "vialchemlabs" against Bing entity disambiguation BEFORE launch (the Pure Rawz / Behemoth Labz failure mode). Search the brand on Bing; confirm vialchemlabs.com surfaces, not a band/movie/insurance.
 
 ### 3.2 Weeks 2-4 (secondary channels to ramp)
 
-- **Outreach to FTC-compliant affiliate listicles** — Outliyr, Muscle+Brawn, PepPal, Brainflow, Project Biohacking, BestBPC157Reviews. Pitch placement on "Peptide Sciences alternatives" listicles. Avoid Wild West Peptides (refuses affiliates by policy) and undisclosed-shill sites (PeptideDeck, davidsoftmicro Substack, AminoVault, Cernum) — partnership with non-FTC-compliant sites takes Vialchems brand reputational hit when partners get cited.
+- **Outreach to FTC-compliant affiliate listicles** — Outliyr, Muscle+Brawn, PepPal, Brainflow, Project Biohacking, BestBPC157Reviews. Pitch placement on "Peptide Sciences alternatives" listicles. Avoid Wild West Peptides (refuses affiliates by policy) and undisclosed-shill sites (PeptideDeck, davidsoftmicro Substack, AminoVault, Cernum) — partnership with non-FTC-compliant sites takes vialchemlabs brand reputational hit when partners get cited.
 - **Podcast outreach** — Jay Campbell Podcast (host-read with vanity-code, JAY15 model), Vigorous Steve (peptide-content core), Outliyr/Nick Urban (Top 13 Legit Peptide Companies Review article ecosystem), DDT Method Podcast, Boomer Anderson Smarter Not Harder, The Dr. Tyna Show, Better Health Guy, Sleep is a Skill, Wellness Mama. Single host-read mid-roll on 50K-100K download mid-tier biohacking show: $1.5K-$4.5K (industry-analysis).
 - **Tier M micro-creator expansion (5-10 more)** — @thebiohackingnurse ramp, @drvincentesposito (clinical chiropractor), @lillie_kane_, @celinabelizan, @melanieavalon (IF-podcast crossover).
 - **Continue blog cadence** — 4-6 more compound deep-dives, building toward ~30-50 PDPs with research-article fusion.
@@ -354,11 +354,11 @@ The vendor-side mortality rate in 2025-2026 has been extraordinarily high. Any c
 
 - **Tier L cautious engagement** — @nathalieniddam (highest-credibility peptide-specific Tier L creator, peptide-education specialist) — outreach for podcast/sponsorship; her audience is the Posture A target demographic.
 - **Compound long-tail expansion** — under-served terms in research literature ("SLU-PP-332 for sale", "KPV peptide buy") that competitors haven't claimed.
-- **"Peptide Sciences alternatives" landing page promotion** — backlink campaign + outreach to listicle ecosystem to add Vialchems to the alternatives lists.
+- **"Peptide Sciences alternatives" landing page promotion** — backlink campaign + outreach to listicle ecosystem to add vialchemlabs to the alternatives lists.
 - **Public newsletter archive** — none of the surveyed vendors maintain one; competitive-advantage gap a clinical-posture entrant can fill (Posture A specifically).
 - **Year-2 podcast macro-tier exploration** — only after audience scale justifies. Huberman/Attia/Rogan tier is permanently out of budget; Vigorous Steve / Mark Bell's Power Project / Ben Greenfield Life are the realistic ceiling.
 
-### 3.4 Avoid for Vialchems Labs Posture A (with reason)
+### 3.4 Avoid for vialchemlabs Posture A (with reason)
 
 | Channel | Reason |
 |---|---|
@@ -368,7 +368,7 @@ The vendor-side mortality rate in 2025-2026 has been extraordinarily high. Any c
 | **Vendor IG active brand presence** | Clinical-posture vendors (Biotech, Core) demonstrate channel-absence as posture. Explainer carousels don't move on the algorithm. Defensive registration only. |
 | **Vendor TikTok active brand presence** | TikTok Shop excludes peptides categorically; vendor accounts get banned. Defensive registration only; influencer-proxied is the only model. |
 | **SMS marketing** | CTIA + TCPA + carrier vetting close the channel; $500-$1,500 per message TCPA exposure; vertical-specific peptide marketing agency doesn't even offer SMS. |
-| **Posture B "meme-coded" creator partnerships** | Looksmaxxing/mogging audience does not buy from clinical-posture brands. Clavicular-tier sponsorship wrong audience for Vialchems clean-clinical positioning. Tier XL macro-influencer fees structurally unaffordable AND wrong demographic. |
+| **Posture B "meme-coded" creator partnerships** | Looksmaxxing/mogging audience does not buy from clinical-posture brands. Clavicular-tier sponsorship wrong audience for vialchemlabs clean-clinical positioning. Tier XL macro-influencer fees structurally unaffordable AND wrong demographic. |
 | **Reviews / testimonials / before-after on Day 1** | Compliance contract — strengthen never weaken. AggregateRating schema is permitted (Biotech "4.93/5 from 67 ratings" template) but explicit testimonials and before/after photographic evidence are forbidden Day 1. |
 
 ---
@@ -389,7 +389,7 @@ The vendor-side mortality rate in 2025-2026 has been extraordinarily high. Any c
 
 - **Niche aggregators** — looksmax.org forum (100K+ members; the unsampled looksmaxxing Tier S frontier per Slice B2 explicit note), thepeptidecatalog.com, peptidedossier.com, peptide forums tied to specific compound communities (BPC-157, GHK-Cu, NAD+).
 
-**Acknowledgement that primary-data community-channel strategy is dark.** The B2 influencer tier map explicitly notes (Section H.11): "Reddit cross-reference captures r/Peptides, r/Biohackers, r/Steroids, r/PEDs as discovery surfaces but did not enumerate moderators or specific creator-mention threads. The Reddit cross-reference is a surface recommendation, not a fully executed pass." For Vialchems Day 1, this means the community-trust-signaling layer (which the synthesis flagged as "the missing trust-signaling layer that turns first-traffic into first-conversion") is unmapped. Recommended action per the audit: fire B1 + brand pick + source terms before Stage 6, then revise this section with primary community data.
+**Acknowledgement that primary-data community-channel strategy is dark.** The B2 influencer tier map explicitly notes (Section H.11): "Reddit cross-reference captures r/Peptides, r/Biohackers, r/Steroids, r/PEDs as discovery surfaces but did not enumerate moderators or specific creator-mention threads. The Reddit cross-reference is a surface recommendation, not a fully executed pass." For vialchemlabs Day 1, this means the community-trust-signaling layer (which the synthesis flagged as "the missing trust-signaling layer that turns first-traffic into first-conversion") is unmapped. Recommended action per the audit: fire B1 + brand pick + source terms before Stage 6, then revise this section with primary community data.
 
 ---
 

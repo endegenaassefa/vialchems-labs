@@ -14,8 +14,8 @@ Verify environment, load manifest, detect tooling, establish new project directo
 | Decision | Status | Value |
 |---|---|---|
 | Project directory | LOCKED | `/root/peptide-site/` (created, git initialized as `main`) |
-| Brand pick | LOCKED_OVERRIDE | **Vialchems Labs** (Posture A clean clinical) — operator override of 34-candidate synthesis. Bundle's `corpus/DECISIONS/brand_pick.md` updated with LOCKED entry. |
-| Brand domain | LOCKED | `vialchems.labs` (literal `.labs` TLD; registration TBD by operator) |
+| Brand pick | LOCKED_OVERRIDE | **vialchemlabs** (Posture A clean clinical) — operator override of 34-candidate synthesis. Bundle's `corpus/DECISIONS/brand_pick.md` updated with LOCKED entry. |
+| Brand domain | LOCKED | `vialchemlabs.com` (literal `.labs` TLD; registration TBD by operator) |
 | Source-side terms | PENDING | Build uses placeholder fulfillment promises; Janoshik Analytical as default lab partner placeholder |
 | Opening SKU set | LOCKED_DEFAULT | 7 SKUs + Recovery Stack bundle ($77) + 15% intro promo |
 | Compliance posture | LOCKED_DEFAULT | RUO + 21+ + CA/TX/NY/FL block + 503A/503B + verbatim disclaimers |
@@ -28,11 +28,11 @@ Verify environment, load manifest, detect tooling, establish new project directo
 | Provider | Status | Notes |
 |---|---|---|
 | Supabase | STUB | `NEXT_PUBLIC_SUPABASE_URL=https://stub.supabase.co`; `REQUIRE_SUPABASE=false` |
-| Resend | STUB | Order/notification emails log to console; `ORDER_EMAIL_FROM=research@vialchems.labs` |
+| Resend | STUB | Order/notification emails log to console; `ORDER_EMAIL_FROM=research@vialchemlabs.com` |
 | Sentry | STUB | Error logging local only; DSN empty |
 | Plaid | STUB | `PLAID_ENV=sandbox`, all keys stub |
 | BTCPay | STUB | URL stub; payment adapter falls back to deterministic mock (`PAYMENT_PROVIDER=stub`) |
-| LLC | TBD | `LLC_NAME=Vialchems Labs LLC (TBD)`, `LLC_JURISDICTION=Wyoming` (default) |
+| LLC | TBD | `LLC_NAME=vialchemlabs LLC (TBD)`, `LLC_JURISDICTION=Wyoming` (default) |
 | GitHub | LIVE | Authenticated as `endegenaassefa` (gh 2.90.0) |
 | Vercel | INSTALLED | CLI 53.2.0 (linking deferred to Phase 14) |
 
@@ -73,7 +73,7 @@ Operator action required before public launch: replace every stub with real cred
     └── superpowers/plans/     (empty, populated in Phase 2)
 ```
 
-Git committer identity: `Vialchems Labs <ak47abhinav47@gmail.com>` (configured in this repo only).
+Git committer identity: `vialchemlabs <ak47abhinav47@gmail.com>` (configured in this repo only).
 
 ## Iron Laws acknowledged (all 17)
 
@@ -110,7 +110,7 @@ Will be pinned verbatim to every Agent dispatch from §3 of SUPER_PROMPT_v3.
 ## Outstanding issues / blockers
 
 1. **Supabase CLI not installed** — non-blocking until Phase 3. Workarounds: `npx supabase init`, or skip CLI and use Supabase JS client with cloud project provisioned via dashboard.
-2. **Brand `vialchems.labs` not registered** — operator action; build proceeds with placeholder URL.
+2. **Brand `vialchemlabs.com` not registered** — operator action; build proceeds with placeholder URL.
 3. **Slice 3 (B1) not fired** — operator action; runbook will emit PLACEHOLDER markers.
 4. **Source supplier terms not confirmed** — build uses observed-industry-standard placeholders; operator confirms post-build.
 5. **All real credentials stubbed** — operator replaces before public launch.
@@ -128,7 +128,7 @@ Phase 1 (Comprehension — Full Corpus Read) can begin immediately:
 - [x] State report exists (this file)
 - [x] All manifest paths verified
 - [x] New project directory confirmed (created empty, git initialized)
-- [x] Brand pick stated (Vialchems Labs Posture A LOCKED_OVERRIDE)
+- [x] Brand pick stated (vialchemlabs Posture A LOCKED_OVERRIDE)
 - [x] All 5 decision states reported
 - [x] Iron Laws 2.1-2.17 acknowledged
 - [x] Subagent Constitution noted for verbatim pinning

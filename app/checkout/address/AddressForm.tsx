@@ -10,6 +10,7 @@
 
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
+import { z } from 'zod';
 import { Button } from '@/components/ui/Button';
 import { FieldLabel } from '@/components/ui/FieldLabel';
 import { Input } from '@/components/ui/Input';
@@ -18,6 +19,20 @@ import {
   validateShippingAddress,
 } from '@/lib/compliance/jurisdictions';
 import { useSessionStorageItem } from '@/lib/use-session-storage';
+
+const addressSchema = z.object({
+  name: z.string().trim().min(2, 'Recipient name is required'),
+  email: z.string().trim().email('Valid email required'),
+  street: z.string().trim().min(3, 'Street address is required'),
+  street2: z.string().trim().optional().default(''),
+  city: z.string().trim().min(2, 'City is required'),
+  stateCode: z.string().min(2, 'Select a state'),
+  zip: z
+    .string()
+    .trim()
+    .regex(/^\d{5}(-\d{4})?$/, 'Enter a 5-digit US zip code'),
+  countryCode: z.literal('US'),
+});
 
 const US_STATES: { code: string; name: string }[] = [
   { code: 'AL', name: 'Alabama' },
@@ -83,7 +98,7 @@ interface AddressFields {
   countryCode: string;
 }
 
-const STORAGE_KEY = 'vialchems:checkout:address';
+const STORAGE_KEY = 'vialchemlabs:checkout:address';
 
 const EMPTY_ADDRESS: AddressFields = {
   name: '',
@@ -105,6 +120,7 @@ export function AddressForm() {
   const [overrides, setOverrides] = useState<Partial<AddressFields>>({});
   const fields: AddressFields = { ...EMPTY_ADDRESS, ...stored, ...overrides };
   const [submitError, setSubmitError] = useState<string | null>(null);
+  const [fieldErrors, setFieldErrors] = useState<Partial<Record<keyof AddressFields, string>>>({});
 
   const stateValidation = fields.stateCode
     ? validateShippingAddress({
@@ -117,11 +133,31 @@ export function AddressForm() {
 
   function set<K extends keyof AddressFields>(key: K, value: AddressFields[K]) {
     setOverrides((prev) => ({ ...prev, [key]: value }));
+    setFieldErrors((prev) => {
+      if (!(key in prev)) return prev;
+      const next = { ...prev };
+      delete next[key];
+      return next;
+    });
   }
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setSubmitError(null);
+    setFieldErrors({});
+
+    const parsed = addressSchema.safeParse(fields);
+    if (!parsed.success) {
+      const errors: Partial<Record<keyof AddressFields, string>> = {};
+      for (const issue of parsed.error.issues) {
+        const key = issue.path[0] as keyof AddressFields;
+        if (!errors[key]) errors[key] = issue.message;
+      }
+      setFieldErrors(errors);
+      setSubmitError('Fix the highlighted fields and try again.');
+      return;
+    }
+
     const validation = validateShippingAddress({
       countryCode: fields.countryCode,
       stateCode: fields.stateCode,
@@ -151,6 +187,7 @@ export function AddressForm() {
               required
               value={fields.name}
               onChange={(e) => set('name', e.target.value)}
+              error={fieldErrors.name}
             />
           </div>
         </div>
@@ -168,6 +205,7 @@ export function AddressForm() {
               required
               value={fields.email}
               onChange={(e) => set('email', e.target.value)}
+              error={fieldErrors.email}
             />
           </div>
         </div>
@@ -184,6 +222,7 @@ export function AddressForm() {
               required
               value={fields.street}
               onChange={(e) => set('street', e.target.value)}
+              error={fieldErrors.street}
             />
           </div>
         </div>
@@ -213,6 +252,7 @@ export function AddressForm() {
               required
               value={fields.city}
               onChange={(e) => set('city', e.target.value)}
+              error={fieldErrors.city}
             />
           </div>
         </div>
@@ -247,6 +287,14 @@ export function AddressForm() {
               {stateValidation.reason}
             </p>
           )}
+          {fieldErrors.stateCode && !showStateWarning && (
+            <p
+              role="alert"
+              className="mt-2 text-[12px] font-mono text-[var(--pill-error)]"
+            >
+              {fieldErrors.stateCode}
+            </p>
+          )}
         </div>
 
         <div>
@@ -262,6 +310,7 @@ export function AddressForm() {
               required
               value={fields.zip}
               onChange={(e) => set('zip', e.target.value)}
+              error={fieldErrors.zip}
             />
           </div>
         </div>

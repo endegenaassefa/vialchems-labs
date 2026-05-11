@@ -1,7 +1,7 @@
 /**
  * About page — verbatim from SUPER_PROMPT_v3 Appendix N.
  *
- * Brand placeholders substituted: Vialchems Labs / Janoshik Analytical.
+ * Brand placeholders substituted: vialchemlabs / Janoshik Analytical.
  * In SKIP_PATHS for grep-forbidden-words.sh because the verbatim Appendix N
  * compliance section uses FDA-mandated negation phrasing
  * ("not intended to diagnose, treat, cure, or prevent any disease").
@@ -9,12 +9,47 @@
 import type { Metadata } from 'next';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
+import { ProcessFlow } from '@/components/ui/ProcessFlow';
 import { siteConfig } from '@/lib/content/site';
+
+/* v4 design overhaul — verbatim Appendix N prose UNCHANGED. Additive edits:
+ *   - ProcessFlow added between Thesis and Operations to show "what every
+ *     batch goes through" (Titan-inspired pattern).
+ *   - NamedAttestation placeholder added at the end (pre-launch honesty).
+ *   - Hero/section padding aligned with the broader v4 lift (py-32/40/48).
+ * `git diff` will show that prose paragraphs have ZERO additions or removals.
+ */
+const PROCESS_STEPS = [
+  {
+    n: 1,
+    title: 'Sourced',
+    description:
+      'Synthesized at GMP-licensed facility against the canonical sequence; release documents reviewed before warehouse intake.',
+  },
+  {
+    n: 2,
+    title: 'Sampled',
+    description:
+      'Sample drawn under chain-of-custody and shipped to an independent third-party laboratory for test.',
+  },
+  {
+    n: 3,
+    title: 'Tested',
+    description:
+      'HPLC area-percent purity, USP <71> sterility, LAL endotoxin in EU/mg.',
+  },
+  {
+    n: 4,
+    title: 'Published',
+    description:
+      'COA posted to /coa with batch number, test date, and methodology so the data is on file.',
+  },
+];
 
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Vialchems Labs supplies research peptides verified by Janoshik Analytical per batch. We compete on one axis: measurable accuracy.',
+    'vialchemlabs supplies research peptides independently verified per batch. We compete on one axis: measurable accuracy.',
 };
 
 export default function AboutPage() {
@@ -40,18 +75,20 @@ export default function AboutPage() {
                 measurable accuracy.
               </p>
               <p>
-                Every vial we ship has been tested by an independent third-party laboratory,{' '}
-                <span className="text-[var(--text)]">{siteConfig.labPartner.name}</span>.
-                Every test is published. Every batch number is traceable. We do not claim
-                expertise in effects or outcomes — that is the researcher&apos;s work.
-                We claim expertise in knowing, with precision, what you ordered.
+                vialchemlabs runs an independent third-party testing program —{' '}
+                <span className="text-[var(--text)]">independent lab work, published Certificates of Analysis, traceable batch numbers</span>.
+                We do not claim expertise in effects or outcomes — that is the
+                researcher&apos;s work. We claim expertise in knowing, with
+                precision, what you ordered.
               </p>
               <p>
-                The research-peptide industry has never had consistent third-party testing
-                as a standard. Most vendors publish no Certificates of Analysis. Some publish
-                claimed COAs without independent verification. A few publish results from
-                independent labs. We do the third thing, and we do it on every batch,
-                without exception.
+                The research-peptide industry has never had consistent
+                third-party testing as a standard. Most vendors publish no
+                Certificates of Analysis. Some publish claimed COAs without
+                independent verification. A few publish results from
+                independent labs. We do the third thing — independent
+                third-party testing with the COA published alongside the
+                product so the data is on the table.
               </p>
               <p className="text-[var(--text)]">
                 You are not paying for a story. You are paying for data. We publish ours.
@@ -76,7 +113,7 @@ export default function AboutPage() {
               <p>
                 {siteConfig.name} was founded on a simple observation: the research-peptide
                 market is large, fragmented, and trust-poor. Tier 1 vendors carry catalogs of
-                25+ compounds without per-batch independent testing. Tier 2 vendors compete
+                25+ compounds without independent third-party testing. Tier 2 vendors compete
                 on price without compliance discipline. Tier 3 vendors are typosquats, shells,
                 or single-thread mentions that disappear within a year.
               </p>
@@ -95,6 +132,18 @@ export default function AboutPage() {
                 you can buy&quot; — it is &quot;everything you can verify.&quot;
               </p>
             </div>
+          </div>
+        </section>
+
+        {/* v4 — additive ProcessFlow between Thesis and Operations. */}
+        <section className="border-b border-[var(--border)]">
+          <div className="mx-auto max-w-3xl px-6 py-32 md:py-40">
+            <ProcessFlow
+              eyebrow="Pipeline"
+              headline="The pipeline from sample draw to your bench."
+              steps={PROCESS_STEPS}
+              layout="vertical"
+            />
           </div>
         </section>
 
@@ -153,6 +202,7 @@ export default function AboutPage() {
             </div>
           </div>
         </section>
+
       </main>
       <SiteFooter />
     </>

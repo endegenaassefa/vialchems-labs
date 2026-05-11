@@ -11,10 +11,12 @@ import Link from 'next/link';
 import { Card } from '@/components/ui/Card';
 import { Pill } from '@/components/ui/Pill';
 import { Specs } from '@/components/ui/Specs';
+import { EmptyState } from '@/components/ui/EmptyState';
+import { buttonClassNames } from '@/components/ui/Button';
 import { formatPrice } from '@/lib/content/products';
 import { useSessionStorageItem } from '@/lib/use-session-storage';
 
-const ORDER_KEY = 'vialchems:checkout:order';
+const ORDER_KEY = 'vialchemlabs:checkout:order';
 
 interface StoredOrder {
   id: string;
@@ -53,22 +55,15 @@ export function OrderDetailIsland({ expectedId }: { expectedId: string }) {
 
   if (!order) {
     return (
-      <Card className="p-12 text-center">
-        <p className="text-[18px] text-[var(--text-muted)] mb-3">
-          No detail available for this order in your current session.
-        </p>
-        <p className="text-[14px] text-[var(--text-subtle)] mb-6">
-          PLACEHOLDER: Phase 9 swaps the session-bound stub for a token-gated
-          read against Supabase. Until then, only the originating browser tab
-          can render this view.
-        </p>
-        <Link
-          href="/account/orders"
-          className="inline-flex items-center gap-2 px-5 h-11 rounded-[var(--radius-full)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[14px] transition-colors"
-        >
-          Sign in to view order →
-        </Link>
-      </Card>
+      <EmptyState
+        title="Order detail not available in this session"
+        description="Token-gated order pages activate pre-launch. Until then, only the originating browser tab can render this view."
+        action={
+          <Link href="/account/orders" className={buttonClassNames('outline', 'md')}>
+            Sign in to view order
+          </Link>
+        }
+      />
     );
   }
 
@@ -84,7 +79,7 @@ export function OrderDetailIsland({ expectedId }: { expectedId: string }) {
         <Pill variant="electric">Tracking pending</Pill>
       </div>
 
-      <Card className="p-6">
+      <Card variant="elevated" className="p-6">
         <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-4">
           Summary
         </p>

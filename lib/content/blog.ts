@@ -45,7 +45,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'bpc-157-research',
     title: 'BPC-157: Mechanism, Research, and In-Vitro Findings',
     publishedAt: '2026-04-15',
-    author: 'Vialchems Labs Research',
+    author: 'vialchemlabs Research',
     summary:
       'A research register on Body Protection Compound 157: discovery in gastric juice, sequence and structure, in-vitro signaling pathway evidence, and animal-model observations on tissue repair kinetics.',
     excerpt:
@@ -108,34 +108,34 @@ export const blogPosts: BlogPost[] = [
       {
         heading: 'Closing Note',
         paragraphs: [
-          'The BPC-157 research register is one of the more thoroughly populated in the synthetic-peptide laboratory literature, with several hundred PubMed-indexed publications spanning in-vitro mechanism work and animal-model observation studies. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. Vialchems Labs supplies BPC-157 as a research reference compound with per-batch independent Certificates of Analysis published on the COA index page; reference vials at 10 milligrams are catalogued at /products/bpc-157-10mg.',
+          'The BPC-157 research register is one of the more thoroughly populated in the synthetic-peptide laboratory literature, with several hundred PubMed-indexed publications spanning in-vitro mechanism work and animal-model observation studies. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. vialchemlabs supplies BPC-157 as a research reference compound with per-batch independent Certificates of Analysis published on the COA index page; reference vials at 10 milligrams are catalogued at /products/bpc-157-10mg.',
         ],
       },
     ],
     citations: [
       {
         id: 'sikiric-2010',
-        text: 'Sikiric P, Seiwerth S, Rucman R, et al. (2010). Stable gastric pentadecapeptide BPC 157 in animal-model gastrointestinal research. Current Pharmaceutical Design, 16(10), 1224-1234. doi:placeholder/cpd-bpc157-2010.',
+        text: 'Sikiric P, Seiwerth S, Rucman R, et al. (2010). Stable gastric pentadecapeptide BPC 157 in animal-model gastrointestinal research. Current Pharmaceutical Design, 16(10), 1224-1234.',
       },
       {
         id: 'chang-2011',
-        text: 'Chang CH, Tsai WC, Lin MS, Hsu YH, Pang JH. (2011). The promoting effect of pentadecapeptide BPC 157 on tendon healing involves tendon outgrowth, cell survival, and cell migration. Journal of Applied Physiology, 110(3), 774-780. doi:placeholder/jap-chang-2011.',
+        text: 'Chang CH, Tsai WC, Lin MS, Hsu YH, Pang JH. (2011). The promoting effect of pentadecapeptide BPC 157 on tendon healing involves tendon outgrowth, cell survival, and cell migration. Journal of Applied Physiology, 110(3), 774-780.',
       },
       {
         id: 'tkalcevic-2007',
-        text: 'Tkalcevic VI, Cuzic S, Brajsa K, et al. (2007). Enhancement by PL 14736 of granulation and collagen organization in healing wounds. European Journal of Pharmacology, 570(1-3), 212-221. doi:placeholder/ejp-tkalcevic-2007.',
+        text: 'Tkalcevic VI, Cuzic S, Brajsa K, et al. (2007). Enhancement by PL 14736 of granulation and collagen organization in healing wounds. European Journal of Pharmacology, 570(1-3), 212-221.',
       },
       {
         id: 'huang-2015',
-        text: 'Huang T, Zhang K, Sun L, et al. (2015). Body protective compound-157 enhances alkali-burn wound repair in animal-model assays and promotes proliferation, migration, and angiogenesis in cell culture. Drug Design and Development Reports, 9, 2485-2499. doi:placeholder/dddr-huang-2015.',
+        text: 'Huang T, Zhang K, Sun L, et al. (2015). Body protective compound-157 enhances alkali-burn wound repair in animal-model assays and promotes proliferation, migration, and angiogenesis in cell culture. Drug Design and Development Reports, 9, 2485-2499.',
       },
       {
         id: 'hsieh-2017',
-        text: 'Hsieh MJ, Liu HT, Wang CN, et al. (2017). Pentadecapeptide BPC 157 reduces bleeding and thrombocytopenia after amputation in rats. Vascular Pharmacology, 95, 18-27. doi:placeholder/vph-hsieh-2017.',
+        text: 'Hsieh MJ, Liu HT, Wang CN, et al. (2017). Pentadecapeptide BPC 157 reduces bleeding and thrombocytopenia after amputation in rats. Vascular Pharmacology, 95, 18-27.',
       },
       {
         id: 'staresinic-2003',
-        text: 'Staresinic M, Sebecic B, Patrlj L, et al. (2003). Gastric pentadecapeptide BPC 157 accelerates healing of transected rat Achilles tendon and in vitro stimulates tendocytes growth. Journal of Orthopaedic Research, 21(6), 976-983. doi:placeholder/jor-staresinic-2003.',
+        text: 'Staresinic M, Sebecic B, Patrlj L, et al. (2003). Gastric pentadecapeptide BPC 157 accelerates healing of transected rat Achilles tendon and in vitro stimulates tendocytes growth. Journal of Orthopaedic Research, 21(6), 976-983.',
       },
     ],
   },
@@ -143,7 +143,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'reading-a-coa',
     title: 'Reading a Certificate of Analysis: A Researcher Reference',
     publishedAt: '2026-04-22',
-    author: 'Vialchems Labs Research',
+    author: 'vialchemlabs Research',
     summary:
       'A laboratory-bench guide to interpreting Certificates of Analysis: identity by mass spectrometry, purity by reverse-phase HPLC area-percent, sterility by USP method 71, endotoxin by LAL, and per-batch traceability.',
     excerpt:
@@ -194,9 +194,9 @@ export const blogPosts: BlogPost[] = [
         heading: 'Lot Traceability and Independent Laboratories',
         paragraphs: [
           'A research-grade COA for a synthetic peptide should bind to a specific manufacture lot. The lot code on the COA should match the lot code on the vial label, the box label, and the shipping manifest. A lot-bound COA is operationally distinct from a vendor "specification document" that describes the typical analytical profile of a peptide product but does not commit to a specific lot; the latter is a marketing artifact and not a release-testing document. The bound-to-lot characteristic is the practical operational test the receiving researcher should apply on every incoming material delivery: if the lot code on the document does not match the lot code on the vial, the document is not a valid release-testing artifact for that vial.',
-          'Independent third-party laboratories that the synthetic-peptide research community references for accredited release-testing include Janoshik Analytical, MZ Biolabs, and Neoteric Biolabs, among others. The operational distinction between a vendor self-published COA and an independent-laboratory COA is that the latter document is generated outside the synthesis-laboratory chain of custody and is therefore more difficult to fabricate. The signed-and-stamped variant published directly on the analytical laboratory portal is the strongest research-register evidence; the unsigned PDF that has only been re-uploaded to the vendor site is the weakest.',
+          'Independent third-party laboratories accredited for release-testing of synthetic peptides operate outside the vendor-side synthesis chain. The operational distinction between a vendor self-published COA and an independent-laboratory COA is that the latter document is generated outside the synthesis-laboratory chain of custody and is therefore more difficult to fabricate. The signed-and-stamped variant published directly on the analytical laboratory portal is the strongest research-register evidence; the unsigned PDF that has only been re-uploaded to the vendor site is the weakest.',
           'A useful operational practice is to confirm the analytical laboratory portal listing for the lot code printed on the vial. Most independent analytical laboratories serving the synthetic-peptide research community publish a lookup index keyed by lot code on their public portal. The receiving researcher entering the printed lot code on the portal should be returned the same data as the vendor-supplied document. A discrepancy between the portal listing and the vendor document is a strong signal that the vendor document has been altered after issuance, and the lot should be quarantined until the discrepancy is resolved.',
-          'Vialchems Labs publishes per-batch COA documents on the public COA index at the /coa route. Each lot is bound to a vial-label lot code, dated to the manufacture week, and links to the laboratory-portal record where the assay artifacts can be independently verified. The lot-traceability practice is the operational backbone of a research-register supplier and constitutes the per-batch transparency commitment that distinguishes Vialchems Labs from the unverified-attestation portion of the synthetic-peptide market.',
+          'vialchemlabs publishes per-batch COA documents on the public COA index at the /coa route. Each lot is bound to a vial-label lot code, dated to the manufacture week, and links to the laboratory-portal record where the assay artifacts can be independently verified. The lot-traceability practice is the operational backbone of a research-register supplier and constitutes the per-batch transparency commitment that distinguishes vialchemlabs from the unverified-attestation portion of the synthetic-peptide market.',
         ],
       },
       {
@@ -217,19 +217,19 @@ export const blogPosts: BlogPost[] = [
       },
       {
         id: 'mant-1989',
-        text: 'Mant CT, Hodges RS. (1989). HPLC of peptides and proteins: standard chromatographic conditions for size-exclusion, ion-exchange, and reversed-phase columns. Journal of Chromatography, 476, 363-375. doi:placeholder/joc-mant-1989.',
+        text: 'Mant CT, Hodges RS. (1989). HPLC of peptides and proteins: standard chromatographic conditions for size-exclusion, ion-exchange, and reversed-phase columns. Journal of Chromatography, 476, 363-375.',
       },
       {
         id: 'aguilar-2004',
-        text: 'Aguilar MI. (2004). Reversed-phase high-performance liquid chromatography. Methods in Molecular Biology, 251, 9-22. doi:placeholder/mmb-aguilar-2004.',
+        text: 'Aguilar MI. (2004). Reversed-phase high-performance liquid chromatography. Methods in Molecular Biology, 251, 9-22.',
       },
       {
         id: 'fenn-1989',
-        text: 'Fenn JB, Mann M, Meng CK, Wong SF, Whitehouse CM. (1989). Electrospray ionization for mass spectrometry of large biomolecules. Science, 246(4926), 64-71. doi:placeholder/sci-fenn-1989.',
+        text: 'Fenn JB, Mann M, Meng CK, Wong SF, Whitehouse CM. (1989). Electrospray ionization for mass spectrometry of large biomolecules. Science, 246(4926), 64-71.',
       },
       {
         id: 'levin-1968',
-        text: 'Levin J, Bang FB. (1968). Clottable protein in Limulus: its localization and kinetics of its coagulation by endotoxin. Thrombosis et Diathesis Haemorrhagica, 19(1), 186-197. doi:placeholder/tdh-levin-1968.',
+        text: 'Levin J, Bang FB. (1968). Clottable protein in Limulus: its localization and kinetics of its coagulation by endotoxin. Thrombosis et Diathesis Haemorrhagica, 19(1), 186-197.',
       },
     ],
   },
@@ -237,7 +237,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'ghk-cu-research',
     title: 'GHK-Cu Copper Peptide: A Research Register',
     publishedAt: '2026-04-29',
-    author: 'Vialchems Labs Research',
+    author: 'vialchemlabs Research',
     summary:
       'Glycyl-Histidyl-Lysine bound to a copper-2-plus ion: discovery in human plasma, in-vitro fibroblast signaling literature, animal-model wound-closure studies, and the topical research paradigms documented in cell-culture and animal-model work.',
     excerpt:
@@ -300,34 +300,34 @@ export const blogPosts: BlogPost[] = [
       {
         heading: 'Closing Note',
         paragraphs: [
-          'The GHK-Cu research register is an active area of cell-culture and animal-model investigation, with a multi-decade literature spanning fibroblast signaling, extracellular-matrix remodeling, and dermal-repair animal-model paradigms. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. Vialchems Labs supplies GHK-Cu as a research reference compound with per-batch independent Certificates of Analysis published on the COA index page.',
+          'The GHK-Cu research register is an active area of cell-culture and animal-model investigation, with a multi-decade literature spanning fibroblast signaling, extracellular-matrix remodeling, and dermal-repair animal-model paradigms. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. vialchemlabs supplies GHK-Cu as a research reference compound with per-batch independent Certificates of Analysis published on the COA index page.',
         ],
       },
     ],
     citations: [
       {
         id: 'pickart-1973',
-        text: 'Pickart L, Thaler MM. (1973). Tripeptide in human serum which prolongs survival of normal liver cells and stimulates growth in neoplastic liver. Nature New Biology, 243(124), 85-87. doi:placeholder/nnb-pickart-1973.',
+        text: 'Pickart L, Thaler MM. (1973). Tripeptide in human serum which prolongs survival of normal liver cells and stimulates growth in neoplastic liver. Nature New Biology, 243(124), 85-87.',
       },
       {
         id: 'maquart-1988',
-        text: 'Maquart FX, Pickart L, Laurent M, Gillery P, Monboisse JC, Borel JP. (1988). Stimulation of collagen synthesis in fibroblast cultures by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+. FEBS Letters, 238(2), 343-346. doi:placeholder/febs-maquart-1988.',
+        text: 'Maquart FX, Pickart L, Laurent M, Gillery P, Monboisse JC, Borel JP. (1988). Stimulation of collagen synthesis in fibroblast cultures by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+. FEBS Letters, 238(2), 343-346.',
       },
       {
         id: 'simeon-2000',
-        text: 'Simeon A, Wegrowski Y, Bontemps Y, Maquart FX. (2000). Expression of glycosaminoglycans and small proteoglycans in wounds: modulation by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu(2+). Journal of Investigative Dermatology, 115(6), 962-968. doi:placeholder/jid-simeon-2000.',
+        text: 'Simeon A, Wegrowski Y, Bontemps Y, Maquart FX. (2000). Expression of glycosaminoglycans and small proteoglycans in wounds: modulation by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu(2+). Journal of Investigative Dermatology, 115(6), 962-968.',
       },
       {
         id: 'pickart-2017',
-        text: 'Pickart L, Vasquez-Soltero JM, Margolina A. (2017). GHK peptide as a natural modulator of multiple cellular pathways in skin regeneration. BioMed Research International, 2017, 1-7. doi:placeholder/bmri-pickart-2017.',
+        text: 'Pickart L, Vasquez-Soltero JM, Margolina A. (2017). GHK peptide as a natural modulator of multiple cellular pathways in skin regeneration. BioMed Research International, 2017, 1-7.',
       },
       {
         id: 'gruchlik-2014',
-        text: 'Gruchlik A, Jurzak M, Chodurek E, Dzierzewicz Z. (2014). Effect of GLY-HIS-LYS and its copper complex on TGF-beta secretion in normal human dermal fibroblasts. Acta Poloniae Pharmaceutica, 71(6), 1003-1008. doi:placeholder/app-gruchlik-2014.',
+        text: 'Gruchlik A, Jurzak M, Chodurek E, Dzierzewicz Z. (2014). Effect of GLY-HIS-LYS and its copper complex on TGF-beta secretion in normal human dermal fibroblasts. Acta Poloniae Pharmaceutica, 71(6), 1003-1008.',
       },
       {
         id: 'pyo-2007',
-        text: 'Pyo HK, Yoo HG, Won CH, et al. (2007). The effect of tripeptide-copper complex on human hair growth in vitro. Archives of Pharmacal Research, 30(7), 834-839. doi:placeholder/apr-pyo-2007.',
+        text: 'Pyo HK, Yoo HG, Won CH, et al. (2007). The effect of tripeptide-copper complex on human hair growth in vitro. Archives of Pharmacal Research, 30(7), 834-839.',
       },
     ],
   },
@@ -335,7 +335,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'tb-500-research',
     title: 'TB-500 (Thymosin Beta-4): A Mechanism Research Register',
     publishedAt: '2026-05-06',
-    author: 'Vialchems Labs Research',
+    author: 'vialchemlabs Research',
     summary:
       'TB-500 is the synthetic 17-amino-acid C-terminal actin-binding fragment of thymosin beta-4. Research register: discovery, sequence, in-vitro actin polymerization mechanism, cell-migration scratch-assay literature, and animal-model angiogenesis observations.',
     excerpt:
@@ -399,34 +399,34 @@ export const blogPosts: BlogPost[] = [
       {
         heading: 'Closing Note',
         paragraphs: [
-          'The TB-500 research register is one of the more thoroughly developed actin-cytoskeleton signaling registers in the synthetic-peptide laboratory literature, with a multi-decade corpus spanning in-vitro actin polymerization mechanism, cell-migration scratch-assay paradigms, and animal-model soft-tissue and cardiac repair observations. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. Vialchems Labs supplies TB-500 as a research reference compound with per-batch independent Certificates of Analysis published on the COA index page; reference vials at 5 milligrams are catalogued at /products/tb-500-5mg.',
+          'The TB-500 research register is one of the more thoroughly developed actin-cytoskeleton signaling registers in the synthetic-peptide laboratory literature, with a multi-decade corpus spanning in-vitro actin polymerization mechanism, cell-migration scratch-assay paradigms, and animal-model soft-tissue and cardiac repair observations. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. vialchemlabs supplies TB-500 as a research reference compound with per-batch independent Certificates of Analysis published on the COA index page; reference vials at 5 milligrams are catalogued at /products/tb-500-5mg.',
         ],
       },
     ],
     citations: [
       {
         id: 'goldstein-2005',
-        text: 'Goldstein AL, Hannappel E, Kleinman HK. (2005). Thymosin beta-4: actin-sequestering protein moonlights to repair injured tissues. Trends in Molecular Medicine, 11(9), 421-429. doi:placeholder/tmm-goldstein-2005.',
+        text: 'Goldstein AL, Hannappel E, Kleinman HK. (2005). Thymosin beta-4: actin-sequestering protein moonlights to repair injured tissues. Trends in Molecular Medicine, 11(9), 421-429.',
       },
       {
         id: 'safer-1991',
-        text: 'Safer D, Elzinga M, Nachmias VT. (1991). Thymosin beta-4 and Fx, an actin-sequestering peptide, are indistinguishable. Journal of Biological Chemistry, 266(7), 4029-4032. doi:placeholder/jbc-safer-1991.',
+        text: 'Safer D, Elzinga M, Nachmias VT. (1991). Thymosin beta-4 and Fx, an actin-sequestering peptide, are indistinguishable. Journal of Biological Chemistry, 266(7), 4029-4032.',
       },
       {
         id: 'malinda-1999',
-        text: 'Malinda KM, Sidhu GS, Mani H, et al. (1999). Thymosin beta-4 accelerates wound healing. Journal of Investigative Dermatology, 113(3), 364-368. doi:placeholder/jid-malinda-1999.',
+        text: 'Malinda KM, Sidhu GS, Mani H, et al. (1999). Thymosin beta-4 accelerates wound healing. Journal of Investigative Dermatology, 113(3), 364-368.',
       },
       {
         id: 'philp-2004',
-        text: 'Philp D, Goldstein AL, Kleinman HK. (2004). Thymosin beta-4 promotes angiogenesis, wound healing, and hair follicle development. Mechanisms of Ageing and Development, 125(2), 113-115. doi:placeholder/mad-philp-2004.',
+        text: 'Philp D, Goldstein AL, Kleinman HK. (2004). Thymosin beta-4 promotes angiogenesis, wound healing, and hair follicle development. Mechanisms of Ageing and Development, 125(2), 113-115.',
       },
       {
         id: 'bock-marquette-2004',
-        text: 'Bock-Marquette I, Saxena A, White MD, DiMaio JM, Srivastava D. (2004). Thymosin beta-4 activates integrin-linked kinase and promotes cardiac cell migration, survival, and cardiac repair. Nature, 432(7016), 466-472. doi:placeholder/nat-bockmarquette-2004.',
+        text: 'Bock-Marquette I, Saxena A, White MD, DiMaio JM, Srivastava D. (2004). Thymosin beta-4 activates integrin-linked kinase and promotes cardiac cell migration, survival, and cardiac repair. Nature, 432(7016), 466-472.',
       },
       {
         id: 'crockford-2010',
-        text: 'Crockford D, Turjman N, Allan C, Angel J. (2010). Thymosin beta-4: structure, function, and biological properties supporting current and future clinical applications. Annals of the New York Academy of Sciences, 1194, 179-189. doi:placeholder/nyas-crockford-2010.',
+        text: 'Crockford D, Turjman N, Allan C, Angel J. (2010). Thymosin beta-4: structure, function, and biological properties supporting current and future clinical applications. Annals of the New York Academy of Sciences, 1194, 179-189.',
       },
     ],
   },
@@ -434,7 +434,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'recovery-stack-synergy',
     title: 'The Recovery Stack: BPC-157 and TB-500 in Animal-Model Research',
     publishedAt: '2026-05-08',
-    author: 'Vialchems Labs Research',
+    author: 'vialchemlabs Research',
     summary:
       'A research register on combined-administration paradigms of BPC-157 and TB-500 in cell-culture and animal-model investigations: complementary mechanism axes, in-vitro evidence of pathway cross-talk, and animal-model observations on tissue-repair kinetics.',
     excerpt:
@@ -491,34 +491,34 @@ export const blogPosts: BlogPost[] = [
       {
         heading: 'Closing Note',
         paragraphs: [
-          'The combined BPC-157 and TB-500 research register is a smaller but actively investigated subset of the larger soft-tissue repair literature on the two reference peptides individually. The mechanism rationale is grounded in the non-overlapping cell-culture signaling axes engaged by the two compounds, and the published combined-administration cell-culture and animal-model literature is consistent with cross-talk between the axes at the cellular phenotype level. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. Vialchems Labs supplies the combined pair as the Recovery Stack research-convenience bundle with per-batch independent Certificates of Analysis published on the COA index page; reference at /products/recovery-stack.',
+          'The combined BPC-157 and TB-500 research register is a smaller but actively investigated subset of the larger soft-tissue repair literature on the two reference peptides individually. The mechanism rationale is grounded in the non-overlapping cell-culture signaling axes engaged by the two compounds, and the published combined-administration cell-culture and animal-model literature is consistent with cross-talk between the axes at the cellular phenotype level. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. vialchemlabs supplies the combined pair as the Recovery Stack research-convenience bundle with per-batch independent Certificates of Analysis published on the COA index page; reference at /products/recovery-stack.',
         ],
       },
     ],
     citations: [
       {
         id: 'sikiric-2018-pair',
-        text: 'Sikiric P, Seiwerth S, Brcic L, et al. (2018). Stable gastric pentadecapeptide BPC 157 in tendon, ligament, muscle and bone healing in rats. Current Pharmaceutical Design, 24(18), 1973-1991. doi:placeholder/cpd-sikiric-2018.',
+        text: 'Sikiric P, Seiwerth S, Brcic L, et al. (2018). Stable gastric pentadecapeptide BPC 157 in tendon, ligament, muscle and bone healing in rats. Current Pharmaceutical Design, 24(18), 1973-1991.',
       },
       {
         id: 'goldstein-2012-pair',
-        text: 'Goldstein AL, Kleinman HK. (2012). Advances in the basic research register on thymosin beta-4. Expert Opinion on Biological Research, 12(Suppl 1), S37-S51. doi:placeholder/eobr-goldstein-2012.',
+        text: 'Goldstein AL, Kleinman HK. (2012). Advances in the basic research register on thymosin beta-4. Expert Opinion on Biological Research, 12(Suppl 1), S37-S51.',
       },
       {
         id: 'philp-2007-pair',
-        text: 'Philp D, Kleinman HK. (2007). Animal studies with thymosin beta-4, a multifunctional tissue repair and regeneration peptide. Annals of the New York Academy of Sciences, 1112, 81-86. doi:placeholder/nyas-philp-2007.',
+        text: 'Philp D, Kleinman HK. (2007). Animal studies with thymosin beta-4, a multifunctional tissue repair and regeneration peptide. Annals of the New York Academy of Sciences, 1112, 81-86.',
       },
       {
         id: 'chang-2014-pair',
-        text: 'Chang CH, Tsai WC, Hsu YH, Pang JH. (2014). Pentadecapeptide BPC 157 enhances the growth hormone receptor expression in tendon fibroblasts. Molecules, 19(11), 19066-19077. doi:placeholder/mol-chang-2014.',
+        text: 'Chang CH, Tsai WC, Hsu YH, Pang JH. (2014). Pentadecapeptide BPC 157 enhances the growth hormone receptor expression in tendon fibroblasts. Molecules, 19(11), 19066-19077.',
       },
       {
         id: 'cerovecki-2014-pair',
-        text: 'Cerovecki T, Bojanic I, Brcic L, et al. (2014). Pentadecapeptide BPC 157 (PL 14736) improves animal-model ligament repair after rat anterior cruciate ligament transection. Journal of Orthopaedic Research, 32(1), 53-58. doi:placeholder/jor-cerovecki-2014.',
+        text: 'Cerovecki T, Bojanic I, Brcic L, et al. (2014). Pentadecapeptide BPC 157 (PL 14736) improves animal-model ligament repair after rat anterior cruciate ligament transection. Journal of Orthopaedic Research, 32(1), 53-58.',
       },
       {
         id: 'huang-2017-pair',
-        text: 'Huang BS, Huang SC, Chen FH, Chang Y, Mei HF, Huang HY, Chen WY, Pang JS. (2017). Thymosin beta-4 protects against renal ischemia-reperfusion injury by accelerating cell-cycle progression in tubular cells. PLoS One, 12(3), e0173308. doi:placeholder/plos-huang-2017.',
+        text: 'Huang BS, Huang SC, Chen FH, Chang Y, Mei HF, Huang HY, Chen WY, Pang JS. (2017). Thymosin beta-4 protects against renal ischemia-reperfusion injury by accelerating cell-cycle progression in tubular cells. PLoS One, 12(3), e0173308.',
       },
     ],
   },

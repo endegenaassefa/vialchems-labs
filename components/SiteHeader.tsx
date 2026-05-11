@@ -1,30 +1,31 @@
 import Link from 'next/link';
 import { siteConfig } from '@/lib/content/site';
+import { CartCount } from '@/components/CartCount';
+import { MobileNavMenu } from '@/components/MobileNavMenu';
+import { AuthHeaderLink } from '@/components/AuthHeaderLink';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
+// v5 rebrand — nav rewritten per brand spec §6:
+//   Shop Peptides · Verify a Vial · Get Verified · My Lab
 const NAV = [
-  { href: '/shop', label: 'Shop' },
-  { href: '/test-reports', label: 'Quality' },
-  { href: '/coa', label: 'COA' },
-  { href: '/blog', label: 'Research' },
-  { href: '/about', label: 'About' },
-  { href: '/faq', label: 'FAQ' },
-  { href: '/contact', label: 'Contact' },
+  { href: '/shop', label: 'Shop Peptides' },
+  { href: '/coa', label: 'Verify a Vial' },
+  { href: '/verify', label: 'Get Verified' },
+  { href: '/account', label: 'My Lab' },
 ];
 
 export function SiteHeader() {
   return (
-    <header className="border-b border-[var(--border)] bg-[var(--surface-muted)] backdrop-blur-md sticky top-0 z-20">
+    <header className="border-b border-[var(--border)] bg-[var(--bg)]/85 backdrop-blur-md sticky top-0 z-20">
       <div className="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
         <Link
           href="/"
-          className="flex items-baseline gap-2 group"
+          className="group inline-flex items-baseline leading-none"
           aria-label={`${siteConfig.name} home`}
         >
-          <span className="text-[20px] font-semibold tracking-tight text-[var(--text)] group-hover:text-[var(--accent-soft)] transition-colors duration-[var(--dur-short)]">
-            Vialchems
-          </span>
-          <span className="font-mono text-[11px] uppercase tracking-[0.16em] px-2 py-0.5 rounded-[var(--radius-sm)] border border-[var(--border-strong)] text-[var(--accent)]">
-            LABS
+          {/* Wordmark — single lowercase brand name. */}
+          <span className="text-[18px] font-medium tracking-tight text-[var(--text)]">
+            vialchemlabs
           </span>
         </Link>
 
@@ -40,21 +41,24 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-3">
+          <ThemeToggle />
+          <AuthHeaderLink />
           <Link
-            href="/account"
-            className="hidden md:inline-flex items-center font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] hover:text-[var(--accent)] transition-colors px-3 py-2"
+            href="/verify"
+            className="hidden md:inline-flex items-center px-3 h-9 rounded-[var(--radius-md)] bg-[var(--accent)] text-[var(--text-on-accent)] text-[13px] font-medium hover:bg-[var(--accent-deep)] transition-colors duration-[var(--dur-short)]"
           >
-            Account
+            Get Verified
           </Link>
           <Link
             href="/cart"
-            className="inline-flex items-center gap-2 px-4 h-10 rounded-[var(--radius-md)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[14px] transition-colors duration-[var(--dur-short)]"
+            className="inline-flex items-center gap-2 px-3 h-9 rounded-[var(--radius-md)] border border-[var(--border)] hover:border-[var(--accent)] text-[13px] transition-colors duration-[var(--dur-short)]"
             aria-label="Cart"
           >
             <span>Cart</span>
-            <span className="font-mono text-[11px] text-[var(--text-muted)]">0</span>
+            <CartCount />
           </Link>
+          <MobileNavMenu items={NAV} />
         </div>
       </div>
     </header>

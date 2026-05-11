@@ -54,12 +54,38 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: false, error: 'missing_email' }, { status: 400 });
   }
 
-  // PLACEHOLDER: Phase 10 wires this to:
-  //   1. Insert into Supabase email_subscriptions table
-  //   2. Generate per-email promo code (or assign WELCOME15 default)
-  //   3. Trigger Resend welcome-sequence email 1 of 4
-  //   4. Schedule emails 2/3/4 at days +3, +7, +14
-  // For now, accept + redirect.
+  // Phase 10.2 wiring: persist + dispatch welcome sequence. When
+  // REQUIRE_SUPABASE=false / REQUIRE_RESEND=false (Day-1 default), both
+  // call paths return synthetic stub ids so the form still feels real
+  // and the redirect lands.
+  let subscriptionId: string | undefined;
+  try {
+    const sb = (await import('@/lib/supabase')).serviceSupabase();
+    if (sb && email) {
+      const { data: existing } = await sb
+        .from('email_subscriptions')
+        .select('id')
+        .eq('email', email)
+        .maybeSingle();
+      if (existing?.id) {
+        subscriptionId = existing.id;
+      } else {
+        const { data: inserted, error } = await sb
+          .from('email_subscriptions')
+          .insert({ email, promo_code: 'WELCOME15' })
+          .select('id')
+          .single();
+        if (!error && inserted?.id) subscriptionId = inserted.id;
+      }
+    }
+    const dispatcher = await import('@/lib/email/welcome-sequence');
+    if (email) {
+      await dispatcher.dispatchWelcomeSequence({ email, subscriptionId });
+    }
+  } catch {
+    // Persistence / send failure should not 500 the user; the audit log
+    // captures the gap once Phase 10.3 Sentry alerts are wired.
+  }
 
   // Form submissions redirect for non-JS clients.
   if (!contentType.includes('application/json')) {

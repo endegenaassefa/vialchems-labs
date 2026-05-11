@@ -7,9 +7,13 @@ describe('COA content', () => {
     expect(coaRecords).toHaveLength(products.length);
   });
 
-  it('every record uses Janoshik Analytical as the lab', () => {
+  it('every record uses the generic lab-agnostic label per v1.3 override', () => {
+    // Iron Law 2.26 v1.3 override — operator removed specific lab affiliation
+    // from public UI. The records carry "Independent Lab" rather than a named
+    // partner. The contractual relationship is operator-side / private.
     for (const r of coaRecords) {
-      expect(r.lab).toBe('Janoshik Analytical');
+      expect(r.lab).toBe('Independent Lab');
+      expect(r.lab).not.toContain('Janoshik');
     }
   });
 

@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
+import { Card } from '@/components/ui/Card';
+import { buttonClassNames } from '@/components/ui/Button';
 import { products } from '@/lib/content/products';
 
 export const metadata = {
   title: 'Page not found',
-  description: 'The page you were looking for does not exist on Vialchems Labs.',
+  description: 'The page you were looking for does not exist on vialchemlabs.',
 };
 
 export default function NotFound() {
@@ -28,22 +30,13 @@ export default function NotFound() {
               the product may have been retired, or the link you followed is out of date.
             </p>
             <div className="flex gap-3 flex-wrap justify-center">
-              <Link
-                href="/shop"
-                className="inline-flex items-center px-6 h-11 rounded-[var(--radius-full)] bg-[var(--accent)] text-[var(--bg)] font-medium text-[14px] hover:bg-[var(--accent-soft)] transition-colors"
-              >
+              <Link href="/shop" className={buttonClassNames('primary', 'md')}>
                 Browse Catalog
               </Link>
-              <Link
-                href="/coa"
-                className="inline-flex items-center px-5 h-11 rounded-[var(--radius-full)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[14px] transition-colors"
-              >
+              <Link href="/coa" className={buttonClassNames('outline', 'md')}>
                 Certificate of Analysis Library
               </Link>
-              <Link
-                href="/"
-                className="inline-flex items-center px-5 h-11 rounded-[var(--radius-full)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[14px] transition-colors"
-              >
+              <Link href="/" className={buttonClassNames('outline', 'md')}>
                 Home
               </Link>
             </div>
@@ -58,15 +51,16 @@ export default function NotFound() {
             <ul className="grid gap-4 md:grid-cols-3">
               {featured.map((p) => (
                 <li key={p.slug}>
-                  <Link
-                    href={`/products/${p.slug}`}
-                    className="block rounded-[var(--radius-lg)] border border-[var(--border)] bg-[var(--surface)] hover:border-[var(--accent)] p-5 transition-colors"
-                  >
-                    <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-[var(--text-muted)] mb-2">
-                      {p.sku}
-                    </p>
-                    <p className="text-[18px] font-medium mb-1">{p.shortName}</p>
-                    <p className="text-[13px] text-[var(--text-muted)]">{p.dose} vial</p>
+                  <Link href={`/products/${p.slug}`} className="group block">
+                    <Card variant="interactive" className="p-5">
+                      <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-[var(--text-muted)] mb-2">
+                        {p.sku}
+                      </p>
+                      <p className="text-[18px] font-medium mb-1 group-hover:text-[var(--accent-soft)] transition-colors">
+                        {p.shortName}
+                      </p>
+                      <p className="text-[13px] text-[var(--text-muted)]">{p.dose} vial</p>
+                    </Card>
                   </Link>
                 </li>
               ))}

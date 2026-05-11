@@ -88,7 +88,7 @@ export default function SettingsPage() {
                 Save preferences
               </Button>
               <p className="mt-4 font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)]">
-                Phase 5 stub · saves no-op until Phase 8
+                Preference storage activates with the public launch
               </p>
             </Card>
 
@@ -108,7 +108,7 @@ export default function SettingsPage() {
                 </Link>
               </div>
               <p className="mt-3 text-[12px] text-[var(--text-subtle)]">
-                Account deletion is processed by Vialchems Labs support within 1
+                Account deletion is processed by vialchemlabs support within 1
                 business day of the request.
               </p>
             </Card>

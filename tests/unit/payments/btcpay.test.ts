@@ -134,7 +134,11 @@ describe('createBtcpayAdapter — stub env guards', () => {
     expect(await adapter.getIntent('any_id')).toBeNull();
   });
 
-  it('throws not-implemented even with real env (Phase 10 wires HTTP)', async () => {
+  it('attempts a Greenfield POST when env is real (Phase 10.5 wired)', async () => {
+    // With real env values pointing at a fake host, the network fetch
+    // resolves to a connection failure; the adapter normalizes that as
+    // btcpay_invoice_create_failed (was: btcpay_create_intent_not_implemented
+    // in v1.0.0 before Phase 10.5 wired the real POST).
     const adapter = createBtcpayAdapter({ env: REAL_ENV });
     await expect(
       adapter.createIntent({
@@ -143,7 +147,7 @@ describe('createBtcpayAdapter — stub env guards', () => {
         orderId: 'order_x',
         customerEmail: 'r@example.com',
       }),
-    ).rejects.toThrow(/btcpay_create_intent_not_implemented/);
+    ).rejects.toThrow(/btcpay_invoice_create_failed/);
   });
 });
 

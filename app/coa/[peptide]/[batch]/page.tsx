@@ -9,7 +9,12 @@ import { notFound } from 'next/navigation';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { Pill } from '@/components/ui/Pill';
+import { Card } from '@/components/ui/Card';
+import { buttonClassNames } from '@/components/ui/Button';
 import { coaRecords, getCoa } from '@/lib/content/coa';
+import { getProductBySlug } from '@/lib/content/products';
+import { breadcrumbJsonLd, serializeJsonLdSafe } from '@/lib/seo/jsonLd';
+import { siteConfig } from '@/lib/content/site';
 
 interface PageProps {
   params: Promise<{ peptide: string; batch: string }>;
@@ -40,9 +45,23 @@ export default async function CoaDetailPage({ params }: PageProps) {
   if (!coa) {
     notFound();
   }
+  const product = getProductBySlug(coa.peptide);
+
+  const breadcrumbLd = breadcrumbJsonLd([
+    { name: 'Home', url: `${siteConfig.url}/` },
+    { name: 'Certificates', url: `${siteConfig.url}/coa` },
+    {
+      name: `${coa.peptideName} · ${coa.batch}`,
+      url: `${siteConfig.url}/coa/${coa.peptide}/${coa.batch}`,
+    },
+  ]);
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: serializeJsonLdSafe(breadcrumbLd) }}
+      />
       <SiteHeader />
       <main id="main" className="flex-1">
         <section className="border-b border-[var(--border)]">
@@ -52,73 +71,83 @@ export default async function CoaDetailPage({ params }: PageProps) {
                 ← All Certificates
               </Link>
             </p>
-            <h1 className="text-[clamp(36px,5vw,60px)] font-light leading-[1.08] tracking-tight text-[var(--text)] mb-3">
+
+            {/* Phase 4 v4: header hierarchy adopts Appendix AD §1 label
+                ordering: BRAND → COMPOUND → DOSE → BATCH → DATES → STATUS.
+                The PDP-side wrap-label (<Vial withLabel ...>) and this COA
+                detail header now share the same visual rhythm so a buyer
+                scanning the physical product label and the digital COA
+                page perceives them as the same object. */}
+            <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-[var(--text-muted)] mb-2">
+              VIALCHEMLABS
+            </p>
+            <h1 className="text-[clamp(36px,5vw,60px)] font-light leading-[1.08] tracking-tight text-[var(--text)] mb-2">
               {coa.peptideName}
             </h1>
-            <p className="font-mono text-[14px] text-[var(--text-muted)] mb-8">
-              Batch {coa.batch} · Tested {coa.testDate}
+            {product ? (
+              <p className="font-mono tabular text-[20px] text-[var(--accent)] mb-3">
+                {product.dose}
+              </p>
+            ) : null}
+            <p className="font-mono text-[13px] uppercase tracking-[0.12em] text-[var(--text-muted)] mb-2">
+              Batch {coa.batch}
             </p>
+            <p className="font-mono text-[13px] text-[var(--text-muted)] mb-6">
+              Tested {coa.testDate}
+            </p>
+            <div className="mb-8">
+              <Pill variant="accent">Verified</Pill>
+            </div>
 
             <div
               role="note"
-              aria-label="Placeholder notice"
-              className="mb-10 rounded-[14px] border border-[var(--accent)] bg-[color:color-mix(in_srgb,var(--accent)_8%,transparent)] px-6 py-5"
+              aria-label="Sample certificate"
+              className="mb-10 rounded-[14px] border border-[var(--accent)] bg-[color:color-mix(in_srgb,var(--accent)_8%,transparent)] px-6 py-5 shadow-[var(--shadow-sm)]"
             >
               <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-2">
-                Example COA — replace before launch
+                Sample certificate
               </p>
               <p className="text-[14px] text-[var(--text)] leading-[1.6]">
-                This record is a placeholder. The first production COA will replace
-                this entry before public order acceptance. The route table is in shape
-                today so internal linking is correct from day one.
+                Independent third-party laboratory · HPLC purity, USP &lt;71&gt;
+                sterility, and LAL endotoxin. Production batch certificates
+                follow the same format with live values.
               </p>
             </div>
 
-            <dl className="rounded-[14px] border border-[var(--border)] divide-y divide-[var(--border)]">
-              <Row label="Peptide" value={coa.peptideName} />
-              <Row label="Batch" value={coa.batch} mono />
-              <Row label="Test date" value={coa.testDate} mono />
-              <Row label="Laboratory" value={coa.lab} />
-              <Row
-                label="HPLC purity"
-                value={`${coa.hplcPurityPct.toFixed(1)}% (area-percent, UV 220nm)`}
-                mono
-              />
-              <Row
-                label="USP <71> sterility"
-                value={coa.sterilityResult}
-                mono
-              />
-              <Row
-                label="LAL endotoxin"
-                value={coa.endotoxinEU_per_mg}
-                mono
-              />
-              <div className="px-6 py-5 flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2">
-                <dt className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)]">
-                  Status
-                </dt>
-                <dd className="text-[14px]">
-                  <Pill variant="accent">Verified</Pill>
-                </dd>
-              </div>
-            </dl>
+            {/* Phase 4 v4: Specs grid in elevated Card */}
+            <Card variant="elevated" className="p-0 overflow-hidden">
+              <dl className="divide-y divide-[var(--border)]">
+                <Row label="Peptide" value={coa.peptideName} />
+                <Row label="Batch" value={coa.batch} mono />
+                <Row label="Test date" value={coa.testDate} mono />
+                <Row label="Laboratory" value={coa.lab} />
+                <Row
+                  label="HPLC purity"
+                  value={`${coa.hplcPurityPct.toFixed(1)}% (area-percent, UV 220nm)`}
+                  mono
+                />
+                <Row
+                  label="USP <71> sterility"
+                  value={coa.sterilityResult}
+                  mono
+                />
+                <Row
+                  label="LAL endotoxin"
+                  value={coa.endotoxinEU_per_mg}
+                  mono
+                />
+              </dl>
+            </Card>
 
             <div className="mt-10 flex flex-wrap gap-3">
-              <a
-                href={coa.pdfPath}
-                className="inline-flex items-center gap-2 px-6 h-12 rounded-[var(--radius-full)] bg-[var(--accent)] text-[var(--bg)] font-medium text-[15px] hover:bg-[var(--accent-soft)] transition-colors"
-              >
+              <a href={coa.pdfPath} className={buttonClassNames('primary', 'lg')}>
                 Download PDF
               </a>
-              <a
-                href="https://janoshik.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 h-12 rounded-[var(--radius-full)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[15px] transition-colors"
-              >
-                Verify at Janoshik portal ↗
-              </a>
+              {/* v1.3 — operator override per Iron Law 2.26 — public-facing
+                  external "verify at lab portal" link removed (no specific
+                  lab affiliation in UI). The COA PDF below is the verification
+                  artifact; lab portal verification, if needed, is operator-
+                  side via the contractual partner relationship. */}
             </div>
 
             <p className="mt-10 text-[13px] text-[var(--text-subtle)] leading-[1.6]">

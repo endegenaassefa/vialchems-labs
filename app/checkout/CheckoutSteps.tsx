@@ -17,17 +17,26 @@ export type CheckoutStepId = (typeof STEPS)[number]['id'];
 
 export function CheckoutSteps({ active }: { active: CheckoutStepId }) {
   const activeIdx = STEPS.findIndex((s) => s.id === active);
+  const activeStep = STEPS[activeIdx] ?? STEPS[0];
   return (
-    <ol
-      role="list"
-      aria-label="Checkout progress"
-      className="flex items-center gap-3 flex-wrap"
-    >
-      {STEPS.map((step, idx) => {
-        const isActive = step.id === active;
-        const isComplete = idx < activeIdx;
-        return (
-          <li key={step.id} className="flex items-center gap-3">
+    <>
+      <p role="status" aria-live="polite" className="sr-only">
+        Step {activeStep.n} of {STEPS.length}: {activeStep.label}
+      </p>
+      <ol
+        role="list"
+        aria-label="Checkout progress"
+        className="flex items-center gap-3 flex-wrap"
+      >
+        {STEPS.map((step, idx) => {
+          const isActive = step.id === active;
+          const isComplete = idx < activeIdx;
+          return (
+            <li
+              key={step.id}
+              className="flex items-center gap-3"
+              aria-current={isActive ? 'step' : undefined}
+            >
             <span
               className={cn(
                 'inline-flex items-center gap-2',
@@ -45,7 +54,7 @@ export function CheckoutSteps({ active }: { active: CheckoutStepId }) {
                   isActive
                     ? 'border-[var(--accent)] bg-[color:color-mix(in_srgb,var(--accent)_18%,transparent)] text-[var(--accent)]'
                     : isComplete
-                      ? 'border-[var(--text)] bg-[var(--text)] text-[var(--bg)]'
+                      ? 'border-[var(--text)] bg-[var(--text)] text-[var(--bg-primary)]'
                       : 'border-[var(--border-strong)] text-[var(--text-subtle)]',
                 )}
               >
@@ -62,6 +71,7 @@ export function CheckoutSteps({ active }: { active: CheckoutStepId }) {
           </li>
         );
       })}
-    </ol>
+      </ol>
+    </>
   );
 }

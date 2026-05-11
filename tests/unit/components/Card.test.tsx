@@ -78,4 +78,45 @@ describe('Card', () => {
     );
     expect(ref.current).toBeInstanceOf(HTMLElement);
   });
+
+  // Phase 2 v4 — additive elevation per Phase 1 shadow + surfaceElevated tokens
+  describe('Phase 2 v4 — elevated visuals', () => {
+    it('default variant carries --shadow-sm for subtle separation from bg', () => {
+      render(<Card data-testid="card">x</Card>);
+      const el = screen.getByTestId('card');
+      expect(el.className).toMatch(/shadow-\[var\(--shadow-sm\)\]/);
+    });
+
+    it('interactive variant lifts shadow to --shadow-md on hover', () => {
+      render(
+        <Card variant="interactive" data-testid="card">
+          x
+        </Card>,
+      );
+      const el = screen.getByTestId('card');
+      expect(el.className).toMatch(/hover:shadow-\[var\(--shadow-md\)\]/);
+    });
+
+    it('exposes new "elevated" variant with --surface-elevated bg + --shadow-lg', () => {
+      render(
+        <Card variant="elevated" data-testid="card">
+          x
+        </Card>,
+      );
+      const el = screen.getByTestId('card');
+      expect(el.className).toMatch(/bg-\[var\(--surface-elevated\)\]/);
+      expect(el.className).toMatch(/shadow-\[var\(--shadow-lg\)\]/);
+    });
+
+    it('elevated variant does not regress hover-translate (no aesthetic regression per Iron Law 2.18)', () => {
+      // Elevated is a static raised surface; it does not also lift on hover (would be visually busy).
+      render(
+        <Card variant="elevated" data-testid="card">
+          x
+        </Card>,
+      );
+      const el = screen.getByTestId('card');
+      expect(el.className).not.toMatch(/hover:-translate-y/);
+    });
+  });
 });

@@ -1,7 +1,7 @@
-# Architecture Plan — Vialchems Labs Peptide E-commerce Site
+# Architecture Plan — vialchemlabs Peptide E-commerce Site
 
 Date: 2026-05-08
-Brand: Vialchems Labs (Posture A clean clinical, vialchems.labs)
+Brand: vialchemlabs (Posture A clean clinical, vialchemlabs.com)
 Phase coverage: Phase 3 through Phase 15
 Builder: Claude Opus 4.7 (1M context), single-track per SUPER_PROMPT_v3 §4.5
 Reference: `/root/peptide-launch-bundle/corpus/SUPER_PROMPT_v3_2026-05-08.md`
@@ -16,7 +16,7 @@ These do not get re-litigated downstream:
 4. **Catalog: 7 SKUs + Recovery Stack bundle + 15% intro promo**. LOCKED via DECISIONS/opening_sku_set.md. No GLP-1, no BAC water (Iron Law 2.7+2.14).
 5. **Payment: BTCPay + Plaid ACH Day-1; cards Phase 2**. LOCKED via DECISIONS/payment_stack.md. No Stripe/PayPal/Square direct (Iron Law 2.9).
 6. **Compliance: text-checkbox age gate at first cart action; CA/TX/NY/FL block; 503A/503B verbatim footer; verbatim product disclaimer; full forbidden-words list**. LOCKED via DECISIONS/compliance_posture.md.
-7. **Brand: Vialchems Labs Posture A**, IBM Plex Sans + Mono + Newsreader Italic, charcoal + teal palette. LOCKED via DECISIONS/brand_pick.md.
+7. **Brand: vialchemlabs Posture A**, IBM Plex Sans + Mono + Newsreader Italic, charcoal + teal palette. LOCKED via DECISIONS/brand_pick.md.
 8. **Performance gates**: Lighthouse Perf ≥ 90, A11y ≥ 95, SEO ≥ 95, Best Practices ≥ 95 every page. Hard fail blocks phase.
 
 ## 2. Stack Selection
@@ -36,7 +36,7 @@ These do not get re-litigated downstream:
 | Linting | ESLint + Prettier + Tailwind plugin | Standard |
 | Hosting | Vercel (iad1, auto-deploy on main) | Per Mogtrix; staging via preview deployments |
 | CDN | Vercel Edge Network | Default |
-| Analytics | Vercel Analytics + Sentry (no GA, no GTM, no Meta Pixel) | Privacy-first; sub_5 noted GA4+GTM+Meta Pixel is industry convergent but Vialchems Labs differentiates by NOT loading 3rd-party trackers (zero cookies needed beyond strict-necessary) |
+| Analytics | Vercel Analytics + Sentry (no GA, no GTM, no Meta Pixel) | Privacy-first; sub_5 noted GA4+GTM+Meta Pixel is industry convergent but vialchemlabs differentiates by NOT loading 3rd-party trackers (zero cookies needed beyond strict-necessary) |
 | Cookie consent | Self-hosted banner (no Osano/OneTrust dependency) | GDPR/CCPA compliant; minimal because we don't load third-party trackers |
 | Search | Fuse.js (client-side fuzzy) for catalog | Sufficient for 7-SKU + 15-expansion catalog; revisit at 50+ SKUs |
 | 3D / illustration | CSS-only Vial primitive (no R3F Day 1) | Mogtrix uses @react-three/fiber 9.4; we keep it pluggable but Phase 4 builds CSS-only Vial.tsx for performance budget. R3F is Phase-2 enhancement candidate. |
@@ -46,7 +46,7 @@ These do not get re-litigated downstream:
 - **Next.js 16 vs 15**: 16 is current stable; matches Mogtrix. No reason to downgrade.
 - **App Router vs Pages Router**: App Router for RSC, layouts, parallel routes, streaming. Mogtrix uses App Router.
 - **Vitest vs Jest**: Vitest faster, ESM-native, integrates with Vite-first toolchain. Mogtrix-proven.
-- **Resend vs Omnisend**: Sub_5 says Omnisend dominant. But Resend is API-first (faster integration), Mogtrix-proven, and Vialchems Labs is too small Day-1 to need Omnisend's segmentation. Revisit at 1K+ subscribers.
+- **Resend vs Omnisend**: Sub_5 says Omnisend dominant. But Resend is API-first (faster integration), Mogtrix-proven, and vialchemlabs is too small Day-1 to need Omnisend's segmentation. Revisit at 1K+ subscribers.
 - **Vercel vs Cloudflare Pages vs self-hosted**: Vercel for SSR + edge functions; Mogtrix-proven; supabase JS client works; Sentry integration via wizard. Cloudflare Pages would require more wiring for Supabase server-side and Stripe Phase-2 webhooks.
 - **No GA / no Meta Pixel**: Sub_5 industry-convergent BUT a peptide-site loading these trackers triggers ad-platform classifiers. Privacy-first stance also reduces cookie consent surface. Tradeoff: lose marketing-attribution data; gain compliance posture + faster page loads. Aligned with bible §4 "two-goal tension" (don't draw platform attention).
 
@@ -177,7 +177,7 @@ These do not get re-litigated downstream:
 │   │   └── jurisdictions.ts      (state block list)
 │   ├── validation/{catalog,access}.ts
 │   ├── content/
-│   │   ├── site.ts               (siteConfig.name = "Vialchems Labs")
+│   │   ├── site.ts               (siteConfig.name = "vialchemlabs")
 │   │   ├── products.ts           (7 SKUs + verbatim descriptions)
 │   │   ├── faq.ts                (20 Q+A from Appendix M)
 │   │   ├── legal.ts              (ToS, Privacy, etc.)
@@ -190,7 +190,7 @@ These do not get re-litigated downstream:
 │   ├── order-email.ts            (Resend templates)
 │   └── sentry.ts                 (init, alert thresholds)
 ├── public/
-│   ├── brand/                    (vialchems wordmark, favicon)
+│   ├── brand/                    (vialchemlabs wordmark, favicon)
 │   ├── coa/                      (placeholder per-batch PDFs marked EXAMPLE_COA)
 │   ├── opengraph/                (default OG image)
 │   └── visuals/                  (vial photography placeholders)
@@ -220,7 +220,7 @@ These do not get re-litigated downstream:
 Tables (per super-prompt §8 Phase 3):
 
 ```sql
--- vendors (Vialchems Labs single-vendor; future-proof for affiliate)
+-- vendors (vialchemlabs single-vendor; future-proof for affiliate)
 -- products (7 SKUs Day-1; expansion-ready)
 -- product_variants (dose/format variants)
 -- bundles (Recovery Stack)
@@ -261,7 +261,7 @@ PaymentProvider interface (lib/payments/types.ts)
 │   └── Dev mode; deterministic mock; auto-confirms after 2s
 
 Selection:
-  PAYMENT_PROVIDER=stub  (dev default; current Vialchems Labs setting)
+  PAYMENT_PROVIDER=stub  (dev default; current vialchemlabs setting)
   PAYMENT_PROVIDER=btcpay (prod default)
   PAYMENT_PROVIDER=plaid  (alternative prod default)
 
@@ -359,8 +359,8 @@ Verification gate: site builds, tests pass, deploys to Vercel staging, /api/heal
 
 ### Phase 4: Brand + Design System (target 90-120 min)
 
-1. Generate brand assets (Vialchems Labs):
-   - Wordmark: SVG with IBM Plex Sans 600 "Vialchems" + IBM Plex Mono 500 "LABS" chip
+1. Generate brand assets (vialchemlabs):
+   - Wordmark: SVG with IBM Plex Sans 600 "vialchemlabs" + IBM Plex Mono 500 "LABS" chip
    - Favicon: 16x16 + 32x32 + apple-touch-icon 180x180 (vial silhouette in teal accent on dark)
    - OpenGraph card: `app/opengraph-image.tsx` via next/og (dark bg, wordmark, Plex Mono metadata strip showing "Per-batch COA. 7 research peptides. Independent lab verified.")
 2. Build design tokens at `lib/design/tokens.ts` and `app/globals.css`:
@@ -388,7 +388,7 @@ Verification gate: site builds, tests pass, deploys to Vercel staging, /api/heal
 4. Update `components/SiteHeader.tsx` with brand wordmark + nav (Shop / Quality / Sourcing / About / Blog / FAQ / Contact / Account per sub_5 IA recommendation, omitting Affiliate from primary nav per design-review reasoning — affiliate goes in footer)
 5. Update `components/SiteFooter.tsx` with verbatim footer disclaimer (Appendix A.1 + Appendix O template)
 6. Skip `/design-shotgun` (brand locked).
-7. Run inline design-review against home-page hero with Vialchems Labs applied. Iterate if anti-patterns surface (no purple gradients, no 3-column SaaS grid, no stock photos, no emojis).
+7. Run inline design-review against home-page hero with vialchemlabs applied. Iterate if anti-patterns surface (no purple gradients, no 3-column SaaS grid, no stock photos, no emojis).
 8. Save `docs/checkpoints/phase_4_brand_design.md` with: brand assets, token diff, before/after screenshots, accessibility contrast audit (all pairs ≥ 4.5:1), font subsetting confirmation.
 9. /context-save
 
@@ -445,7 +445,7 @@ Verification gate: all 29 pages exist, all `npm test` pass, all pass inline desi
 All copy verbatim from super-prompt appendices:
 1. Footer disclaimer: Appendix A.1 (every page)
 2. Product disclaimer: Appendix A.2 (every product)
-3. Hero copy: Appendix N (Vialchems Labs replaces {{BRAND_NAME}})
+3. Hero copy: Appendix N (vialchemlabs replaces {{BRAND_NAME}})
 4. About page: Appendix N (hero + thesis + ops + compliance sections)
 5. FAQ: Appendix M (20 Q+A)
 6. Blog seed: 5 posts from Appendix J outlines, each 1500-2400 words, ≥5 PubMed citations. Dispatch 5 parallel subagents (constitution-pinned) writing one post each.
@@ -515,12 +515,12 @@ Verification gate: newsletter end-to-end, account flows, search/filter, ToS/Priv
 
 Generate `docs/operator-runbook.md` from Appendix I + sub_3_acquisition.md findings:
 
-**DAY 1 (Vialchems Labs Day-1 specifics):**
+**DAY 1 (vialchemlabs Day-1 specifics):**
 1. Google Organic SEO: 30-50 PDPs at 1500-2400 words each (Phase 6 already produces 5 blog posts; expansion is operator post-launch)
 2. Email capture: footer + dedicated `/newsletter` with credibility-artifact lead magnet
 3. Vendor blog: 5 foundational posts (Phase 6) + ongoing cadence (operator)
 4. Affiliate listicle setup: outreach script + emails for Outliyr, Muscle+Brawn, PepPal, Brainflow
-5. Defensive social registration: @vialchems on IG/TikTok/X (block squatters, no active posting)
+5. Defensive social registration: @vialchemlabs on IG/TikTok/X (block squatters, no active posting)
 6. **Tier S clinical-credentialed creator outreach**: 5-10 micro-creators (RN/PA-C/MD/DC) at $300-$1K + 20% commission/90-day cookie. Outreach template included.
 
 **WEEKS 2-4:**
@@ -567,7 +567,7 @@ Verification gate: /review + /cso + /codex review pass, no critical findings out
 2. **Operator action**: review PR on GitHub
 3. /land-and-deploy — merge PR to main, wait for CI, Vercel auto-deploys to production, canary health check
 4. Verify production URL `/api/health` returns 200
-5. Verify production URL renders home page correctly with Vialchems Labs brand
+5. Verify production URL renders home page correctly with vialchemlabs brand
 6. Smoke test catalog → product → checkout flow on production
 
 Verification gate: production deploys, /api/health 200, home page renders, no console errors, smoke test passes on production.
@@ -593,7 +593,7 @@ Verification gate: /canary 2-hour pass, Sentry catches no critical, operator run
 | R5 | Lighthouse Perf < 90 on home (vial scenes too heavy) | CSS-only Vial Day-1; R3F deferred to Phase 2; image lazy-loading; bundle-size budget | 4, 12 |
 | R6 | Slice 3 PLACEHOLDER blocks runbook completion | Mark sections explicitly; operator fires B1; runbook regenerates on demand | 11 |
 | R7 | LLC formation deferred = ToS placeholder | `[Wyoming/TBD]` in ToS until operator confirms; legal review post-formation | 6, 10 |
-| R8 | Domain `vialchems.labs` not registered = wrong canonical URL on Day 1 | Build uses `NEXT_PUBLIC_SITE_URL=https://vialchems.labs`; operator registers; if .labs unavailable, fallback `vialchems.com` and SITE_URL swap | 0, 14 |
+| R8 | Domain `vialchemlabs.com` not registered = wrong canonical URL on Day 1 | Build uses `NEXT_PUBLIC_SITE_URL=https://vialchemlabs.com`; operator registers; if .labs unavailable, fallback `vialchemlabs.com` and SITE_URL swap | 0, 14 |
 | R9 | Source supplier terms not confirmed = inaccurate fulfillment promises | Use Bible-aligned placeholder fulfillment ("ships within 2 business days, before 3pm Mon-Fri"); operator confirms post-build | 6, 10 |
 | R10 | All credentials stubbed = first real deploy has zero working integrations | Operator runbook Phase 11 + post-deploy operator checklist explicitly lists every env var to swap; stub adapters fail loud (don't silent-pass in prod) | 11, 14, 15 |
 | R11 | Pre-commit hook blocks legitimate Mogtrix-attribution comments | Test fixture covers approved attribution format; `// Pattern adapted from mogtrix-website/` is whitelisted | 3 |
@@ -624,7 +624,7 @@ Verification gate: /canary 2-hour pass, Sentry catches no critical, operator run
 
 **Visual hierarchy**: 9/10. Posture A token system + IBM Plex pairing + teal accent gives clear hierarchy. Hero (Newsreader Italic for pull-quote moment) → headline (Plex Sans 600) → body (Plex Sans 400) → metadata (Plex Mono 400).
 
-**Brand consistency**: 10/10. Vialchems Labs wordmark, color palette, voice register all derived from LOCKED DECISIONS. Anti-pattern enforcement in design-review.
+**Brand consistency**: 10/10. vialchemlabs wordmark, color palette, voice register all derived from LOCKED DECISIONS. Anti-pattern enforcement in design-review.
 
 **Accessibility**: 9/10. WCAG AA contrast verified for all token pairs. Focus rings 2px solid accent + 2px offset. Reduced motion fallback. Status pills always include text. Skip-to-content link in header. Form labels.
 
@@ -646,4 +646,4 @@ Verification gate: /canary 2-hour pass, Sentry catches no critical, operator run
 
 ## 11. Closing
 
-This plan is the locked architecture for Vialchems Labs Day-1 build. Iron Laws 2.1-2.17 govern execution. Subagent Constitution pinned to every dispatch. Begin Phase 3 (backend bootstrap) immediately.
+This plan is the locked architecture for vialchemlabs Day-1 build. Iron Laws 2.1-2.17 govern execution. Subagent Constitution pinned to every dispatch. Begin Phase 3 (backend bootstrap) immediately.

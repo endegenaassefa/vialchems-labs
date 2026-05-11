@@ -1,0 +1,29 @@
+# Iron Law 2.22 — never include real credentials in any artifact, including
+# repomix-packaged context files. The .env.example template is allowed (only
+# stub values per .env.example convention); .env / .env.local / .env.* with
+# real values must be excluded from any cross-cutting context bundle.
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Keep Phase 0 audit + handoff inputs out of the context bundle (already at
+# repo root; would otherwise dominate the bundle).
+SUPER_PROMPT_v*.md
+RESEARCH_PLAN.md
+CODEBASE_UNDERSTANDING.md
+
+# Standard noise.
+node_modules/
+.next/
+.vercel/
+.gstack/
+coverage/
+dist/
+build/
+tsconfig.tsbuildinfo
+package-lock.json
+public/coa/*.pdf
+tests/e2e/__screenshots__/
+docs/checkpoints/v4_phase_0_*.md

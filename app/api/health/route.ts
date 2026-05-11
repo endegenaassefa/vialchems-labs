@@ -11,7 +11,7 @@ export const dynamic = 'force-dynamic';
 export async function GET() {
   return NextResponse.json({
     status: 'ok',
-    service: 'vialchems-labs',
+    service: 'vialchemlabs',
     time: new Date().toISOString(),
   });
 }

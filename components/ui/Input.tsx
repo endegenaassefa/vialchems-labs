@@ -48,8 +48,11 @@ export function Input({
           'rounded-[10px]',
           'h-10 px-3',
           'text-[16px]',
-          'transition-colors duration-200 ease-[cubic-bezier(0.16,1,0.3,1)]',
+          'transition-[colors,box-shadow] duration-200 ease-[cubic-bezier(0.16,1,0.3,1)]',
           'hover:border-[var(--border-strong)]',
+          // Phase 2 v4 — inset shadow on focus for depth perception
+          // (complements global *:focus-visible 2px outline; Apple Dev Docs feel).
+          'focus:shadow-[inset_0_2px_4px_0_rgba(0,0,0,0.32)]',
           'disabled:opacity-50 disabled:cursor-not-allowed',
           error
             ? 'border-[var(--pill-error)] hover:border-[var(--pill-error)]'

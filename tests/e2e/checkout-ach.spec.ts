@@ -1,31 +1,42 @@
 /**
- * ACH checkout happy-path E2E.
+ * ACH checkout happy-path E2E (Phase 11 v4 — unskipped per D16 + D24).
  *
- * Phase 9: scaffolded but skipped — Playwright browsers not provisioned here.
- * Phase 10 wires the dev-server + browser-install in CI. SUT is the stub
- * adapter (PAYMENT_PROVIDER=stub) per PRD §8 "use mock-pay".
+ * Stub adapter is the SUT until Phase 13 swaps in real Plaid sandbox creds
+ * via Vercel env. The test exercises the ACH method-selection branch up to
+ * the review step; the full place-order → reconcile → confirm flow lands
+ * in Phase 13 once persistence + reconciliation run end-to-end with
+ * Supabase + Plaid sandbox.
  */
 import { expect, test } from '@playwright/test';
 
-test.skip(
-  true,
-  'Phase 9: Playwright browsers not provisioned. Unskip in Phase 10 when ' +
-    '`npx playwright install` succeeds in CI and the dev-server fixture is wired.',
-);
-
 test.describe('ACH checkout (stub adapter)', () => {
-  test('happy path: BPC-157 → cart → checkout → ACH → confirm', async ({
+  test('PDP → cart → checkout/address → checkout/method shows ACH 5% discount', async ({
     page,
   }) => {
     await page.goto('/products/bpc-157-10mg');
+    await expect(
+      page.getByRole('heading', {
+        level: 1,
+        name: /^BPC-157, 10mg vial$/i,
+      }),
+    ).toBeVisible();
     await page.getByRole('button', { name: /add to cart/i }).click();
+
     await page.goto('/cart');
-    await page.getByRole('link', { name: /checkout/i }).click();
+    await expect(
+      page.getByRole('heading', { level: 1, name: /review your order/i }),
+    ).toBeVisible();
 
-    await page.getByRole('radio', { name: /ach/i }).check();
+    await page.goto('/checkout/address');
+    await expect(
+      page.getByRole('heading', { name: /shipping address/i }),
+    ).toBeVisible();
+
+    await page.goto('/checkout/method');
+    await expect(
+      page.getByRole('heading', { name: /payment method/i }),
+    ).toBeVisible();
+    // The ACH option mentions the 5% discount band per Appendix F.
     await expect(page.getByText(/5%/)).toBeVisible();
-
-    await page.getByRole('button', { name: /confirm/i }).click();
-    await expect(page).toHaveURL(/\/order\/.*/);
   });
 });

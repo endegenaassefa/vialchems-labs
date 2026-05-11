@@ -18,7 +18,9 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { Pill } from '@/components/ui/Pill';
 import { Specs } from '@/components/ui/Specs';
-import { Vial } from '@/components/ui/Vial';
+import { ProductStudioVisual } from '@/components/ui/ProductStudioVisual';
+import { Card } from '@/components/ui/Card';
+import { buttonClassNames } from '@/components/ui/Button';
 import { coaRecords } from '@/lib/content/coa';
 import {
   formatPerMg,
@@ -149,7 +151,7 @@ function CoaPanel({ product }: { product: Product }) {
         </p>
         <Link
           href={record.pdfPath}
-          className="inline-flex items-center gap-2 px-5 h-11 rounded-[var(--radius-md)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[14px] transition-colors"
+          className={buttonClassNames('outline', 'md')}
         >
           Download COA PDF
           <span aria-hidden="true">↓</span>
@@ -159,6 +161,7 @@ function CoaPanel({ product }: { product: Product }) {
         </p>
       </div>
       <Specs
+        dense
         items={[
           { term: 'Batch', value: record.batch },
           { term: 'Test date', value: record.testDate },
@@ -189,28 +192,36 @@ function RelatedPanel({ product }: { product: Product }) {
       className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
     >
       {related.map((p) => (
-        <Link
-          key={p.slug}
-          href={`/products/${p.slug}`}
-          className="group border border-[var(--border)] rounded-[var(--radius-lg)] p-5 bg-[var(--surface)] hover:border-[var(--accent)] transition-colors"
-        >
-          <div className="flex items-start gap-4 mb-3">
-            <Vial size="sm" aria-hidden="true" />
-            <div>
-              <h4 className="text-[15px] font-medium text-[var(--text)] group-hover:text-[var(--accent-soft)] transition-colors">
-                {p.shortName}
-              </h4>
-              <p className="font-mono text-[11px] text-[var(--text-subtle)]">
-                {p.dose} · {p.sku}
-              </p>
+        <Link key={p.slug} href={`/products/${p.slug}`} className="group block">
+          <Card variant="interactive" className="p-5 h-full">
+            <div className="flex items-start gap-4 mb-3">
+              <div
+                className="relative h-16 w-16 flex-none overflow-hidden rounded-[4px] border border-white/10"
+                style={{ background: '#02070b' }}
+                aria-hidden="true"
+              >
+                <ProductStudioVisual
+                  product={p}
+                  className="absolute inset-0"
+                  fallbackClassName="scale-[0.78]"
+                />
+              </div>
+              <div>
+                <h4 className="text-[15px] font-medium text-[var(--text)] group-hover:text-[var(--accent-soft)] transition-colors">
+                  {p.shortName}
+                </h4>
+                <p className="font-mono text-[11px] text-[var(--text-subtle)]">
+                  {p.dose} · {p.sku}
+                </p>
+              </div>
             </div>
-          </div>
-          <p className="text-[13px] text-[var(--text-muted)] leading-[1.55] mb-3">
-            {p.shortDescription}
-          </p>
-          <p className="font-mono tabular text-[14px] text-[var(--text)]">
-            {formatPrice(p.listPriceCents)}
-          </p>
+            <p className="text-[13px] text-[var(--text-muted)] leading-[1.55] mb-3">
+              {p.shortDescription}
+            </p>
+            <p className="font-mono tabular text-[14px] text-[var(--text)]">
+              {formatPrice(p.listPriceCents)}
+            </p>
+          </Card>
         </Link>
       ))}
     </div>

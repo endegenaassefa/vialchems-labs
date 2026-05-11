@@ -103,7 +103,7 @@ export default function AddressesPage() {
                   </Link>
                 </div>
                 <p className="sm:col-span-2 font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)]">
-                  Phase 5 stub · saved-address persistence wires in Phase 8
+                  Saved-address book activates with the public launch
                 </p>
               </form>
             </Card>

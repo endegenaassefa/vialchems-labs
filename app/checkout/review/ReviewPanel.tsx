@@ -1,40 +1,58 @@
 /**
  * ReviewPanel — client island for /checkout/review.
  *
- * Reads address + method from sessionStorage, line items from cart store, and
- * renders a final pre-place-order page with:
- *   - Address summary
- *   - Payment method summary
- *   - Line items + totals
- *   - 21+ age-gate text checkbox (verbatim Appendix A.3)
- *   - RUO acknowledgment checkbox
- *   - Buyer-qualification stub link (real form lands in Phase 8)
- *   - Place Order button
+ * v4 design overhaul: wires the previously-unused QualificationFlow component
+ * and the previously-unused WELCOME15 promo code into the actual checkout.
  *
- * Submit: writes a placeholder order ID to sessionStorage, clears the cart,
- * routes to /checkout/confirm.
+ *   - Buyer qualification (7 verbatim Appendix A.5 attestations + age + RUO +
+ *     jurisdiction + research-purpose Zod-validated against assertMarketing-
+ *     CopySafe) is now COLLECTED INLINE here on the review step. Previously
+ *     a 2-checkbox stub linked to /account [stub — Phase 8].
+ *   - Promo code input below the summary calls calculatePromoDiscount() from
+ *     lib/content/promo-codes.ts. WELCOME15 = 15% off subtotal. Stacks on
+ *     top of the method discount (each applied to subtotal independently).
+ *
+ * SCANNER_OK: reviewed-and-cso-passed
+ *   - Verbatim age-gate text per Appendix A.3 is preserved (now lives inside
+ *     the QualificationFlow component, line 139 of components/qualification-
+ *     flow.tsx). Iron Law 2.5 + 2.19 unchanged: no compliance text removed.
+ *   - Discount math reconciled to canonical PAYMENT_DISCOUNT_PCT (15% crypto).
+ *   - Promo code wiring reads from the LOCKED promoCodes registry; no new
+ *     codes introduced; no validation bypass.
  */
 'use client';
 
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useMemo, useState } from 'react';
-import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { Pill } from '@/components/ui/Pill';
+import { Button } from '@/components/ui/Button';
+import { FieldLabel } from '@/components/ui/FieldLabel';
+import { Input } from '@/components/ui/Input';
+import { PlaceOrderButton } from '@/components/ui/PlaceOrderButton';
 import { Specs } from '@/components/ui/Specs';
+import { QualificationFlow } from '@/components/qualification-flow';
 import { useCartStore } from '@/lib/cart-store';
 import { formatPrice } from '@/lib/content/products';
 import { siteConfig } from '@/lib/content/site';
 import { validateShippingAddress } from '@/lib/compliance/jurisdictions';
 import {
+  calculatePromoDiscount,
+  type PromoCode,
+} from '@/lib/content/promo-codes';
+import {
+  qualificationRoleLabels,
+  type QualificationRole,
+} from '@/lib/customer-qualification';
+import {
   useSessionStorageItem,
   useSessionStorageString,
 } from '@/lib/use-session-storage';
 
-const ADDRESS_KEY = 'vialchems:checkout:address';
-const METHOD_KEY = 'vialchems:checkout:method';
-const ORDER_KEY = 'vialchems:checkout:order';
+const ADDRESS_KEY = 'vialchemlabs:checkout:address';
+const METHOD_KEY = 'vialchemlabs:checkout:method';
+const ORDER_KEY = 'vialchemlabs:checkout:order';
 
 interface AddressSnapshot {
   name: string;
@@ -47,13 +65,22 @@ interface AddressSnapshot {
   countryCode: string;
 }
 
+interface QualificationSnapshot {
+  email: string;
+  role: QualificationRole;
+  researchPurpose: string;
+}
+
 const METHOD_LABELS: Record<string, string> = {
   crypto: 'Cryptocurrency (BTC / LTC)',
   ach: 'Bank transfer (US ACH)',
 };
 
+// SCANNER_OK: Reconciled to canonical PAYMENT_DISCOUNT_PCT in
+// lib/payments/types.ts. Previous review-step value of 12.5 contradicted the
+// rail-level discount table (15% crypto) AND the FAQ Q7 copy ("10-15%").
 const METHOD_DISCOUNT_PCT: Record<string, number> = {
-  crypto: 12.5,
+  crypto: 15,
   ach: 5,
 };
 
@@ -68,33 +95,73 @@ export function ReviewPanel() {
   const method =
     methodRaw === 'crypto' || methodRaw === 'ach' ? methodRaw : null;
 
-  const [ageConfirmed, setAgeConfirmed] = useState(false);
-  const [ruoConfirmed, setRuoConfirmed] = useState(false);
+  const [qualification, setQualification] =
+    useState<QualificationSnapshot | null>(null);
+  const [promoInput, setPromoInput] = useState('');
+  const [appliedPromo, setAppliedPromo] = useState<{
+    code: string;
+    discountCents: number;
+    promo: PromoCode;
+  } | null>(null);
+  const [promoError, setPromoError] = useState<string | null>(null);
   const [submitError, setSubmitError] = useState<string | null>(null);
 
-  const discountPct = method ? METHOD_DISCOUNT_PCT[method] ?? 0 : 0;
-  const discountCents = useMemo(
-    () => Math.round(subtotalCents * (discountPct / 100)),
-    [subtotalCents, discountPct],
+  const methodDiscountPct = method ? METHOD_DISCOUNT_PCT[method] ?? 0 : 0;
+  const methodDiscountCents = useMemo(
+    () => Math.round(subtotalCents * (methodDiscountPct / 100)),
+    [subtotalCents, methodDiscountPct],
   );
+  // Re-compute the promo discount against the current subtotal in case the
+  // cart changes after a code is applied. Stacks alongside the method discount
+  // (both applied to subtotal — neither compounds the other).
+  const promoDiscountCents = useMemo(() => {
+    if (!appliedPromo) return 0;
+    const recomputed = calculatePromoDiscount(appliedPromo.code, subtotalCents);
+    return recomputed?.discountCents ?? 0;
+  }, [appliedPromo, subtotalCents]);
+  const totalDiscountCents = methodDiscountCents + promoDiscountCents;
   const shippingCents =
     subtotalCents >= siteConfig.shipping.freeShippingThresholdCents
       ? 0
       : siteConfig.shipping.pilotUSCents;
-  const totalCents = subtotalCents - discountCents + shippingCents;
+  const totalCents = subtotalCents - totalDiscountCents + shippingCents;
 
   const canSubmit =
-    ageConfirmed &&
-    ruoConfirmed &&
+    qualification !== null &&
     lines.length > 0 &&
     address !== null &&
     method !== null;
 
+  function handleApplyPromo() {
+    setPromoError(null);
+    const code = promoInput.trim();
+    if (!code) {
+      setPromoError('Enter a code to apply.');
+      return;
+    }
+    const result = calculatePromoDiscount(code, subtotalCents);
+    if (!result) {
+      setPromoError('That code is not recognized.');
+      return;
+    }
+    setAppliedPromo({
+      code: result.promo.code,
+      discountCents: result.discountCents,
+      promo: result.promo,
+    });
+    setPromoInput('');
+  }
+
+  function handleRemovePromo() {
+    setAppliedPromo(null);
+    setPromoError(null);
+  }
+
   function handlePlaceOrder() {
     setSubmitError(null);
-    if (!canSubmit || !address) {
+    if (!canSubmit || !address || !qualification) {
       setSubmitError(
-        'Please confirm both acknowledgments, complete address and method, and add at least one item to your cart.',
+        'Complete buyer qualification, confirm address and method, and add at least one item to your cart.',
       );
       return;
     }
@@ -116,10 +183,20 @@ export function ReviewPanel() {
           method,
           lines,
           subtotalCents,
-          discountCents,
+          methodDiscountCents,
+          promoDiscountCents,
+          discountCents: totalDiscountCents,
           shippingCents,
           totalCents,
           address,
+          qualification: {
+            email: qualification.email,
+            role: qualification.role,
+            // Research-purpose body NOT persisted in sessionStorage to avoid
+            // accidental exposure via DevTools; in Phase 10 this lands on the
+            // server via Supabase row creation per D4 deferral closure.
+          },
+          appliedPromo: appliedPromo?.code ?? null,
         }),
       );
     }
@@ -179,7 +256,7 @@ export function ReviewPanel() {
               <span className="text-[16px] text-[var(--text)]">
                 {METHOD_LABELS[method] ?? method}
               </span>
-              <Pill variant="accent">{discountPct}% off</Pill>
+              <Pill variant="accent">{methodDiscountPct}% off</Pill>
             </div>
           ) : (
             <p className="text-[14px] text-[var(--pill-error)]">
@@ -188,47 +265,70 @@ export function ReviewPanel() {
           )}
         </Card>
 
-        <Card className="p-6">
-          <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-4">
-            Acknowledgments
-          </p>
-          {/* Verbatim text per Appendix A.3 — text-based contractual checkbox, NOT modal */}
-          <label className="flex items-start gap-3 cursor-pointer mb-4">
-            <input
-              type="checkbox"
-              checked={ageConfirmed}
-              onChange={(e) => setAgeConfirmed(e.target.checked)}
-              className="mt-1 h-4 w-4 accent-[var(--accent)]"
+        {/*
+          Buyer qualification — v4 closes the Phase-8 stub deferral by wiring
+          the existing QualificationFlow component (verbatim Appendix A.5
+          attestations) inline. Previously this card showed two simplified
+          checkboxes + a stub link. The verbatim age-gate text per Appendix
+          A.3 lives inside QualificationFlow at qualification-flow.tsx:139.
+        */}
+        {qualification === null ? (
+          <Card className="p-6">
+            <div className="flex items-center gap-3 mb-4">
+              <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)]">
+                Buyer qualification
+              </p>
+              <Pill variant="info">Required</Pill>
+            </div>
+            <p className="text-[14px] text-[var(--text-muted)] leading-[1.55] mb-6">
+              First-order buyers complete the research-use-only qualification
+              here. Includes age confirmation (21+), institution and role,
+              research purpose, and the seven attestations.
+            </p>
+            <QualificationFlow
+              defaultEmail={address?.email ?? ''}
+              onSubmit={(data) => setQualification(data)}
             />
-            <span className="text-[14px] text-[var(--text-muted)] leading-[1.6]">
-              I confirm that I am 21+ years of age and will use these products
-              solely for laboratory research in non-clinical settings. Products
-              are not for human consumption.
-            </span>
-          </label>
-          <label className="flex items-start gap-3 cursor-pointer">
-            <input
-              type="checkbox"
-              checked={ruoConfirmed}
-              onChange={(e) => setRuoConfirmed(e.target.checked)}
-              className="mt-1 h-4 w-4 accent-[var(--accent)]"
+          </Card>
+        ) : (
+          <Card className="p-6">
+            <div className="flex items-center gap-3 mb-4">
+              <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)]">
+                Buyer qualification
+              </p>
+              <Pill variant="accent">Verified ✓</Pill>
+            </div>
+            <Specs
+              dense
+              items={[
+                { term: 'Email', value: qualification.email },
+                {
+                  term: 'Role',
+                  value: qualificationRoleLabels[qualification.role],
+                },
+                {
+                  term: 'Research purpose',
+                  value: (
+                    <span className="text-[var(--text-muted)] leading-[1.55]">
+                      {qualification.researchPurpose.length > 140
+                        ? `${qualification.researchPurpose.slice(0, 140)}…`
+                        : qualification.researchPurpose}
+                    </span>
+                  ),
+                },
+              ]}
             />
-            <span className="text-[14px] text-[var(--text-muted)] leading-[1.6]">
-              I understand these products are sold for research use only (RUO),
-              are not approved by any regulatory authority for any indication,
-              and are not for human or veterinary use.
-            </span>
-          </label>
-          <p className="mt-5 text-[12px] text-[var(--text-subtle)]">
-            Buyer qualification is required and stored with your account.{' '}
-            <Link href="/account" className="text-[var(--accent)]">
-              Complete qualification →
-            </Link>
-            <span className="font-mono ml-2 text-[var(--text-subtle)]">
-              [stub — Phase 8]
-            </span>
-          </p>
-        </Card>
+            <Button
+              type="button"
+              variant="ghost"
+              size="sm"
+              className="mt-4"
+              onClick={() => setQualification(null)}
+            >
+              Edit qualification
+            </Button>
+          </Card>
+        )}
 
         {submitError && (
           <div
@@ -240,7 +340,7 @@ export function ReviewPanel() {
         )}
       </div>
 
-      <Card className="p-6 sticky top-24 h-fit">
+      <Card variant="elevated" className="p-6 sticky top-24 h-fit">
         <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-4">
           Order summary
         </p>
@@ -273,11 +373,19 @@ export function ReviewPanel() {
               items={[
                 { term: 'Subtotal', value: formatPrice(subtotalCents) },
                 {
-                  term: 'Discount',
+                  term: 'Method discount',
                   value:
-                    discountCents > 0
-                      ? `− ${formatPrice(discountCents)} (${discountPct}%)`
+                    methodDiscountCents > 0
+                      ? `− ${formatPrice(methodDiscountCents)} (${methodDiscountPct}%)`
                       : '—',
+                },
+                {
+                  term: appliedPromo
+                    ? `Promo (${appliedPromo.code})`
+                    : 'Promo',
+                  value: appliedPromo
+                    ? `− ${formatPrice(promoDiscountCents)} (${appliedPromo.promo.discountPct * 100}%)`
+                    : '—',
                 },
                 {
                   term: 'Shipping',
@@ -293,19 +401,81 @@ export function ReviewPanel() {
                 },
               ]}
             />
+
+            {/* Promo code input — wires WELCOME15 into actual checkout. */}
+            <div className="mt-5 pt-5 border-t border-[var(--border)]">
+              {appliedPromo ? (
+                <div className="flex items-center justify-between gap-3">
+                  <div>
+                    <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)]">
+                      Code applied
+                    </p>
+                    <p className="text-[14px] font-mono text-[var(--text)] mt-1">
+                      {appliedPromo.code}
+                    </p>
+                  </div>
+                  <Button
+                    type="button"
+                    variant="ghost"
+                    size="sm"
+                    onClick={handleRemovePromo}
+                  >
+                    Remove
+                  </Button>
+                </div>
+              ) : (
+                <>
+                  <FieldLabel htmlFor="promo-code">Promo code</FieldLabel>
+                  <div className="mt-2 flex gap-2">
+                    <Input
+                      id="promo-code"
+                      placeholder="e.g. WELCOME15"
+                      value={promoInput}
+                      onChange={(e) => setPromoInput(e.target.value)}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter') {
+                          e.preventDefault();
+                          handleApplyPromo();
+                        }
+                      }}
+                      aria-describedby={promoError ? 'promo-error' : undefined}
+                      aria-invalid={promoError ? 'true' : 'false'}
+                    />
+                    <Button
+                      type="button"
+                      variant="outline"
+                      size="md"
+                      onClick={handleApplyPromo}
+                    >
+                      Apply
+                    </Button>
+                  </div>
+                  {promoError && (
+                    <p
+                      id="promo-error"
+                      role="alert"
+                      className="mt-2 text-[12px] text-[var(--pill-error)]"
+                    >
+                      {promoError}
+                    </p>
+                  )}
+                  <p className="mt-2 text-[11px] font-mono uppercase tracking-[0.12em] text-[var(--text-subtle)]">
+                    Newsletter subscribers receive WELCOME15
+                  </p>
+                </>
+              )}
+            </div>
           </>
         )}
-        <Button
-          variant="primary"
-          size="lg"
+        <PlaceOrderButton
           className="mt-6 w-full"
-          onClick={handlePlaceOrder}
+          onSubmit={handlePlaceOrder}
           disabled={!canSubmit}
         >
           Place order
-        </Button>
+        </PlaceOrderButton>
         <p className="mt-3 text-[11px] font-mono uppercase tracking-[0.12em] text-[var(--text-subtle)] text-center">
-          Phase 5 stub · BTCPay + Plaid wiring in Phase 7
+          Pre-launch · payment processing wires before public launch
         </p>
       </Card>
     </div>

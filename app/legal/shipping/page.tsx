@@ -9,7 +9,7 @@ import { siteConfig } from '@/lib/content/site';
 export const metadata: Metadata = {
   title: 'Shipping Policy',
   description:
-    'Vialchems Labs ships within the United States only. Carriers, lead times, free-shipping threshold, and excluded states.',
+    'vialchemlabs ships within the United States only. Carriers, lead times, free-shipping threshold, and excluded states.',
 };
 
 export default function ShippingPage() {
@@ -98,7 +98,7 @@ export default function ShippingPage() {
       <P>
         For packages marked &quot;delivered&quot; that have not arrived, please
         first file a claim with USPS or FedEx using your tracking number, then
-        contact <A href="mailto:research@vialchems.labs">research@vialchems.labs</A>{' '}
+        contact <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A>{' '}
         with the order ID. {brand} will independently investigate from the
         sender side and provide a replacement at our discretion based on
         available evidence. See the <A href="/legal/refunds">Refund Policy</A>{' '}
@@ -109,7 +109,7 @@ export default function ShippingPage() {
       <P>
         Damage discovered on arrival should be photographed before the carton
         is unpacked further. Email the photos plus the order ID to{' '}
-        <A href="mailto:research@vialchems.labs">research@vialchems.labs</A>{' '}
+        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A>{' '}
         within 7 days of delivery to qualify for replacement under the{' '}
         <A href="/legal/refunds">Refund Policy</A>.
       </P>
@@ -134,14 +134,14 @@ export default function ShippingPage() {
       <P>
         We are not currently set up for international shipment. International
         researchers interested in future availability are welcome to write to{' '}
-        <A href="mailto:research@vialchems.labs">research@vialchems.labs</A>;
+        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A>;
         we maintain a notification list as we evaluate customs and routing.
       </P>
 
       <H2>12. Contact</H2>
       <P>
         Shipping questions:{' '}
-        <A href="mailto:research@vialchems.labs">research@vialchems.labs</A> or{' '}
+        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A> or{' '}
         <A href="/contact">contact form</A>.
       </P>
     </LegalShell>

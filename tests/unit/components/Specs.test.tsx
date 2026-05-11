@@ -62,4 +62,33 @@ describe('Specs', () => {
     expect(dl.tagName).toBe('DL');
     expect(dl.children.length).toBe(0);
   });
+
+  // Phase 2 v4 — `dense` prop for tighter rows (used in PDP sidebar per Appendix AD)
+  describe('Phase 2 v4 — dense variant', () => {
+    it('default (non-dense) keeps current py-2 row spacing', () => {
+      render(<Specs items={items} data-testid="specs" />);
+      const dl = screen.getByTestId('specs');
+      const firstRow = dl.querySelector('div');
+      expect(firstRow?.className).toMatch(/py-2/);
+    });
+
+    it('dense=true tightens row spacing to py-1', () => {
+      render(<Specs items={items} dense data-testid="specs" />);
+      const dl = screen.getByTestId('specs');
+      const firstRow = dl.querySelector('div');
+      expect(firstRow?.className).toMatch(/py-1/);
+      // dense rows do NOT keep the looser default
+      expect(firstRow?.className).not.toMatch(/py-2/);
+    });
+
+    it('dense=true drops dt/dd font size by 1 step (12px → 11px / 14px → 13px)', () => {
+      render(<Specs items={items} dense />);
+      const dt = screen.getByText('Sequence');
+      const dd = screen.getByText('15 aa');
+      // dt is 11px in dense mode
+      expect(dt.className).toMatch(/text-\[11px\]/);
+      // dd is 13px in dense mode
+      expect(dd.className).toMatch(/text-\[13px\]/);
+    });
+  });
 });

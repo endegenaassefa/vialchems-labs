@@ -10,10 +10,12 @@
 import Link from 'next/link';
 import { Card } from '@/components/ui/Card';
 import { Pill } from '@/components/ui/Pill';
+import { EmptyState } from '@/components/ui/EmptyState';
+import { buttonClassNames } from '@/components/ui/Button';
 import { formatPrice } from '@/lib/content/products';
 import { useSessionStorageItem } from '@/lib/use-session-storage';
 
-const ORDER_KEY = 'vialchems:checkout:order';
+const ORDER_KEY = 'vialchemlabs:checkout:order';
 
 interface StoredOrder {
   id: string;
@@ -28,21 +30,15 @@ export function OrdersList() {
 
   if (!order) {
     return (
-      <Card className="p-12 text-center">
-        <p className="text-[18px] text-[var(--text-muted)] mb-2">
-          You have not placed an order yet.
-        </p>
-        <p className="text-[14px] text-[var(--text-subtle)] mb-6">
-          Once an order is placed, it will show here with status, tracking, and
-          per-batch COA reference.
-        </p>
-        <Link
-          href="/shop"
-          className="inline-flex items-center gap-2 px-5 h-11 rounded-[var(--radius-full)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[14px] transition-colors"
-        >
-          Browse the catalog →
-        </Link>
-      </Card>
+      <EmptyState
+        title="No orders yet"
+        description="Once an order is placed, it will appear here with status, tracking, and Certificate of Analysis reference."
+        action={
+          <Link href="/shop" className={buttonClassNames('outline', 'md')}>
+            Browse the catalog
+          </Link>
+        }
+      />
     );
   }
 

@@ -9,7 +9,7 @@ import { siteConfig } from '@/lib/content/site';
 export const metadata: Metadata = {
   title: 'Cookie Policy',
   description:
-    'How Vialchems Labs uses cookies and similar technologies, how to manage consent, and the categories of cookies we set.',
+    'How vialchemlabs uses cookies and similar technologies, how to manage consent, and the categories of cookies we set.',
 };
 
 export default function CookiesPage() {
@@ -131,7 +131,7 @@ export default function CookiesPage() {
       <P>
         Questions about cookies or to request a list of cookies set by our
         site:{' '}
-        <A href="mailto:research@vialchems.labs">research@vialchems.labs</A>.
+        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A>.
       </P>
     </LegalShell>
   );

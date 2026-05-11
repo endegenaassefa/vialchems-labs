@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useEffect } from 'react';
+import { Button, buttonClassNames } from '@/components/ui/Button';
 
 export default function GlobalError({
   error,
@@ -37,22 +38,13 @@ export default function GlobalError({
           </p>
         ) : null}
         <div className="flex gap-3 flex-wrap justify-center">
-          <button
-            onClick={() => reset()}
-            className="inline-flex items-center px-5 h-11 rounded-[var(--radius-full)] bg-[var(--accent)] text-[var(--bg)] font-medium text-[14px] hover:bg-[var(--accent-soft)] transition-colors"
-          >
+          <Button variant="primary" size="md" onClick={() => reset()}>
             Try again
-          </button>
-          <Link
-            href="/"
-            className="inline-flex items-center px-5 h-11 rounded-[var(--radius-full)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[14px] transition-colors"
-          >
+          </Button>
+          <Link href="/" className={buttonClassNames('outline', 'md')}>
             Back to home
           </Link>
-          <Link
-            href="/contact"
-            className="inline-flex items-center px-5 h-11 rounded-[var(--radius-full)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[14px] transition-colors"
-          >
+          <Link href="/contact" className={buttonClassNames('outline', 'md')}>
             Contact support
           </Link>
         </div>

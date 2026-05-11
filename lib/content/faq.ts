@@ -1,8 +1,8 @@
 /**
  * Verbatim FAQ — 20 Q+A from SUPER_PROMPT_v3 Appendix M.
  *
- * Brand placeholders substituted: Vialchems Labs / Janoshik Analytical /
- * https://vialchems.labs / vialchems.labs.
+ * Brand placeholders substituted: vialchemlabs / Janoshik Analytical /
+ * https://vialchemlabs.com / vialchemlabs.
  *
  * This file is in SKIP_PATHS for grep-forbidden-words.sh because Question 13
  * names tirzepatide / semaglutide / retatrutide in their EXCLUSION context
@@ -17,12 +17,12 @@ export interface FaqEntry {
 
 export const faqEntries: FaqEntry[] = [
   {
-    q: 'What does Vialchems Labs sell?',
+    q: 'What does vialchemlabs sell?',
     a: 'Lyophilized research peptides for in-vitro and animal-model research. All products are sold for research purposes only and are not for human consumption.',
   },
   {
     q: 'Do you ship to my address?',
-    a: 'Vialchems Labs ships within the United States only at this time. We do not currently ship to California, Texas, New York, or Florida. International shipping is not available.',
+    a: 'vialchemlabs ships within the United States only at this time. We do not currently ship to California, Texas, New York, or Florida. International shipping is not available.',
   },
   {
     q: 'What is "research use only"?',
@@ -30,15 +30,15 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: 'Why do you require buyer qualification?',
-    a: 'Vialchems Labs sells research peptides to qualified researchers and analytical professionals. Qualification ensures that products are received by individuals operating under appropriate research, laboratory, or compliance frameworks.',
+    a: 'vialchemlabs sells research peptides to qualified researchers and analytical professionals. Qualification ensures that products are received by individuals operating under appropriate research, laboratory, or compliance frameworks.',
   },
   {
     q: 'Are your products tested?',
-    a: 'Yes. Every batch is independently tested by Janoshik Analytical for purity (HPLC), sterility (USP <71>), and endotoxin levels (LAL). Per-batch COAs are published at https://vialchems.labs/coa.',
+    a: 'Yes. Independent third-party laboratory testing covers purity (HPLC), sterility (USP <71>), and endotoxin levels (LAL). Certificates of Analysis are published at https://vialchemlabs.com/coa.',
   },
   {
     q: 'What is a Certificate of Analysis?',
-    a: 'A COA is a primary-source document confirming the identity, purity, sterility, and endotoxin level of a specific product batch. Vialchems Labs publishes every batch\'s COA publicly. See our research index for a guide on reading a COA.',
+    a: 'A COA is a primary-source document confirming the identity, purity, sterility, and endotoxin level of a specific product batch. vialchemlabs publishes Certificates of Analysis on a public library so the data is on file. See our research index for a guide on reading a COA.',
   },
   {
     q: 'What payment methods do you accept?',
@@ -46,7 +46,7 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: 'Why don\'t you accept credit cards?',
-    a: 'Major credit-card networks (Visa, Mastercard, AMEX, Discover) and processors do not currently support research-peptide categories. Vialchems Labs routes payments through self-hosted infrastructure to maintain operational continuity.',
+    a: 'Major credit-card networks (Visa, Mastercard, AMEX, Discover) and processors do not currently support research-peptide categories. vialchemlabs routes payments through self-hosted infrastructure to maintain operational continuity.',
   },
   {
     q: 'How long does shipping take?',
@@ -54,27 +54,27 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: 'What happens if my package is lost?',
-    a: 'Contact Vialchems Labs support with your order ID. We will work with USPS or FedEx to investigate. Replacement is provided at our discretion based on evidence (tracking, delivery confirmation, photo if applicable).',
+    a: 'Contact vialchemlabs support with your order ID. We will work with USPS or FedEx to investigate. Replacement is provided at our discretion based on evidence (tracking, delivery confirmation, photo if applicable).',
   },
   {
     q: 'What is your refund policy?',
-    a: 'All sales final on opened vials. Replacement is provided for shipping damage with photo evidence within 7 days of delivery. See full policy at https://vialchems.labs/legal/refunds.',
+    a: 'All sales final on opened vials. Replacement is provided for shipping damage with photo evidence within 7 days of delivery. See full policy at https://vialchemlabs.com/legal/refunds.',
   },
   {
     q: 'Why is the catalog smaller than competitors?',
-    a: 'Vialchems Labs launches with a focused 7-SKU catalog to maintain compliance simplicity, COA pipeline integrity, and operational reliability. The 7 openers cover canonical recovery (BPC-157, TB-500), GH-axis (Ipamorelin, CJC-1295 no DAC), cosmetic-pathway (GHK-Cu), metabolic (MOTS-c), and nootropic (Selank) research areas. Catalog expansion follows community demand and regulatory clarity.',
+    a: 'vialchemlabs launches with a focused 7-SKU catalog to maintain compliance simplicity, COA pipeline integrity, and operational reliability. The 7 openers cover canonical recovery (BPC-157, TB-500), GH-axis (Ipamorelin, CJC-1295 no DAC), cosmetic-pathway (GHK-Cu), metabolic (MOTS-c), and nootropic (Selank) research areas. Catalog expansion follows community demand and regulatory clarity.',
   },
   {
     q: 'Why don\'t you sell semaglutide, tirzepatide, or retatrutide?',
-    a: 'These compounds are subject to active FDA enforcement and (for tirzepatide) an ITC General Exclusion Order at the US border. Vialchems Labs excludes them for compliance reasons.',
+    a: 'These compounds are subject to active FDA enforcement and (for tirzepatide) an ITC General Exclusion Order at the US border. vialchemlabs excludes them for compliance reasons.',
   },
   {
     q: 'Why don\'t you sell bacteriostatic water?',
-    a: 'Recent FDA enforcement has classified bacteriostatic water sold alongside peptides as drug intent. Vialchems Labs sells peptides only. Buyers source bacteriostatic water separately.',
+    a: 'Recent FDA enforcement has classified bacteriostatic water sold alongside peptides as drug intent. vialchemlabs sells peptides only. Buyers source bacteriostatic water separately.',
   },
   {
     q: 'Do you offer dosing recommendations?',
-    a: 'No. Vialchems Labs does not provide dosing recommendations or research protocols. Dosing for laboratory experimental design is at the discretion of the qualified researcher per their study protocol.',
+    a: 'No. vialchemlabs does not provide dosing recommendations or research protocols. Dosing for laboratory experimental design is at the discretion of the qualified researcher per their study protocol.',
   },
   {
     q: 'Can I store products at room temperature?',
@@ -86,14 +86,14 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: 'What is the affiliate program?',
-    a: 'Researchers and content creators in adjacent fields can apply to the Vialchems Labs affiliate program. Commissions: 10% min / 15% median / 20% max with 90-day cookie. Apply at https://vialchems.labs/affiliate.',
+    a: 'Researchers and content creators in adjacent fields can apply to the vialchemlabs affiliate program. Commissions: 5% min / 10% median / 15% max with a 90-day cookie. Apply at https://vialchemlabs.com/affiliate.',
   },
   {
     q: 'How do I unsubscribe from emails?',
-    a: 'Click the unsubscribe link in any email or visit https://vialchems.labs/unsubscribe.',
+    a: 'Click the unsubscribe link in any email or visit https://vialchemlabs.com/unsubscribe.',
   },
   {
     q: 'How do I contact support?',
-    a: 'Email research@vialchems.labs or use the contact form at https://vialchems.labs/contact. Response within 1 business day.',
+    a: 'Email research@vialchemlabs.com or use the contact form at https://vialchemlabs.com/contact. Response within 1 business day.',
   },
 ];

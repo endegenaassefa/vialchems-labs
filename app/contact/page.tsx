@@ -16,6 +16,8 @@ import { SiteFooter } from '@/components/SiteFooter';
 import { FieldLabel } from '@/components/ui/FieldLabel';
 import { Input } from '@/components/ui/Input';
 import { Button } from '@/components/ui/Button';
+import { Card } from '@/components/ui/Card';
+import { Toast } from '@/components/ui/Toast';
 
 type Status = 'idle' | 'submitting' | 'ok' | 'error';
 
@@ -55,26 +57,46 @@ export default function ContactPage() {
     <>
       <SiteHeader />
       <main id="main" className="flex-1">
+        {/* v4 hero — varied. Contact gets an immediate, address-first hero
+            (mono email + response-time stat, akin to akiflow.com's no-fluff
+            CTA section). */}
         <section className="border-b border-[var(--border)]">
-          <div className="mx-auto max-w-3xl px-6 py-20 md:py-24">
-            <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-6">
-              Contact
+          <div className="mx-auto max-w-3xl px-6 py-32 md:py-40">
+            <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-[var(--accent)] mb-10">
+              C O N T A C T
             </p>
-            <h1 className="text-[clamp(40px,5.6vw,72px)] font-light leading-[1.05] tracking-tight text-[var(--text)] mb-6">
-              <span className="block">One</span>
-              <span className="font-serif-italic block text-[var(--accent-soft)]">business day.</span>
+            <h1 className="text-[clamp(36px,4.8vw,60px)] font-light leading-[1.1] tracking-tight text-[var(--text)] mb-10">
+              Reach the team in one business day.
             </h1>
-            <p className="text-[18px] leading-[1.55] text-[var(--text-muted)] max-w-2xl">
-              Operational, order, or COA questions reach the team within one business day.
-              For Certificate of Analysis records, the full library is at{' '}
-              <Link href="/coa" className="text-[var(--accent)] hover:text-[var(--accent-soft)]">/coa</Link>.
+            <div className="grid gap-px bg-[var(--border)] rounded-[var(--radius-lg)] overflow-hidden grid-cols-1 md:grid-cols-2 mb-8">
+              <div className="bg-[var(--surface)] px-6 py-6">
+                <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-[var(--text-subtle)] mb-3">
+                  Email
+                </p>
+                <p className="font-mono text-[16px] text-[var(--accent)]">
+                  research@vialchemlabs.com
+                </p>
+              </div>
+              <div className="bg-[var(--surface)] px-6 py-6">
+                <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-[var(--text-subtle)] mb-3">
+                  Response window
+                </p>
+                <p className="font-mono tabular text-[16px] text-[var(--text)]">
+                  ≤ 1 business day
+                </p>
+              </div>
+            </div>
+            <p className="text-[16px] leading-[1.55] text-[var(--text-muted)] max-w-2xl">
+              For Certificate of Analysis records, the public library is at{' '}
+              <Link href="/coa" className="text-[var(--accent)] hover:text-[var(--accent-soft)]">/coa</Link>{' '}
+              — no contact form needed.
             </p>
           </div>
         </section>
 
         <section>
           <div className="mx-auto max-w-3xl px-6 py-16">
-            <div className="mb-10 rounded-[14px] border border-[var(--border-strong)] bg-[var(--surface)] px-6 py-5 text-[14px] text-[var(--text-muted)] leading-[1.6]">
+            <Card variant="elevated" className="mb-10 px-6 py-5 text-[14px] text-[var(--text-muted)] leading-[1.6]">
               <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-2">
                 Scope
               </p>
@@ -83,7 +105,7 @@ export default function ContactPage() {
                 laboratory experimental design is at the discretion of the qualified
                 researcher per their study protocol.
               </p>
-            </div>
+            </Card>
 
             <form onSubmit={onSubmit} className="space-y-6" noValidate>
               <div className="grid gap-4 md:grid-cols-2">
@@ -160,29 +182,24 @@ export default function ContactPage() {
               </div>
 
               {status === 'ok' ? (
-                <div
-                  role="status"
-                  className="rounded-[14px] border border-[var(--accent)] bg-[var(--surface)] px-6 py-5 text-[15px] text-[var(--text)]"
-                >
-                  Message logged. The team will respond within one business day.
-                </div>
+                <Toast
+                  message="Message logged. The team will respond within one business day."
+                  tone="success"
+                  duration={6000}
+                  onDismiss={() => setStatus('idle')}
+                />
               ) : null}
               {status === 'error' ? (
-                <div
-                  role="alert"
-                  className="rounded-[14px] border border-[var(--pill-error)] bg-[var(--surface)] px-6 py-5 text-[15px] text-[var(--text)]"
-                >
-                  Submission could not be transmitted. Please retry, or email{' '}
-                  <a className="text-[var(--accent)]" href="mailto:research@vialchems.labs">
-                    research@vialchems.labs
-                  </a>
-                  .
-                  {errorMsg ? (
-                    <span className="block font-mono text-[12px] text-[var(--text-subtle)] mt-2">
-                      {errorMsg}
-                    </span>
-                  ) : null}
-                </div>
+                <Toast
+                  message={
+                    errorMsg
+                      ? `Submission could not be transmitted: ${errorMsg}. Please retry, or email research@vialchemlabs.com.`
+                      : 'Submission could not be transmitted. Please retry, or email research@vialchemlabs.com.'
+                  }
+                  tone="error"
+                  duration={0}
+                  onDismiss={() => setStatus('idle')}
+                />
               ) : null}
             </form>
           </div>

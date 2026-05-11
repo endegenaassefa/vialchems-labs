@@ -6,7 +6,15 @@
  * Iron Law 2.5: reconciliation must be idempotent. A duplicate webhook
  * delivery (Plaid retries on non-2xx; BTCPay retries on non-2xx) must
  * produce the same end state and a no-op signal so we don't double-credit.
+ *
+ * Iron Law 2.8 (Phase 10.1 v4 / D15): post-payment Layer 3 jurisdictional
+ * guard. assertOrderJurisdictionAllowed() is the final gate before an
+ * intent reconciles to a credited state — if the order's shipping address
+ * resolves to a blocklisted jurisdiction (CA / TX / NY / FL / non-US),
+ * we throw rather than credit, even if Layer 1 (AddressForm) and Layer 2
+ * (ReviewPanel place-order) somehow let the request through.
  */
+import { validateShippingAddress } from '@/lib/compliance/jurisdictions';
 import type { PaymentIntent, PaymentStatus } from './types';
 
 export interface ReconcileResult {
@@ -126,4 +134,39 @@ export function reconcile(intent: PaymentIntent | null): ReconcileResult {
 
 export function isTerminalStatus(s: PaymentStatus): boolean {
   return isTerminal(s);
+}
+
+/**
+ * D15 Layer 3 jurisdictional guard. Webhook handlers MUST call this before
+ * reconcile() when the intent has reached a credit-bearing status (paid /
+ * authorized). If validateShippingAddress rejects the address, throw —
+ * the webhook should respond 4xx and the operator should investigate.
+ *
+ * Layer 3 catches the case where Layers 1 and 2 were spoofed or buggy:
+ * a buyer who submits a CA shipping address but Layer 1 didn't gate (e.g.
+ * deliberate browser-side bypass) STILL hits this gate at credit time.
+ */
+export class JurisdictionalGuardError extends Error {
+  readonly stateCode: string;
+  readonly countryCode: string;
+  constructor(stateCode: string, countryCode: string, reason: string) {
+    super(reason);
+    this.name = 'JurisdictionalGuardError';
+    this.stateCode = stateCode;
+    this.countryCode = countryCode;
+  }
+}
+
+export function assertOrderJurisdictionAllowed(address: {
+  countryCode: string;
+  stateCode: string;
+}): void {
+  const result = validateShippingAddress(address);
+  if (!result.ok) {
+    throw new JurisdictionalGuardError(
+      address.stateCode,
+      address.countryCode,
+      result.reason,
+    );
+  }
 }

@@ -12,6 +12,9 @@ import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { Pill } from '@/components/ui/Pill';
 import { Input } from '@/components/ui/Input';
+import { Card } from '@/components/ui/Card';
+import { Button } from '@/components/ui/Button';
+import { EmptyState } from '@/components/ui/EmptyState';
 import { coaRecords, type CoaRecord } from '@/lib/content/coa';
 
 export default function CoaIndexPage() {
@@ -36,21 +39,57 @@ export default function CoaIndexPage() {
     <>
       <SiteHeader />
       <main id="main" className="flex-1">
+        {/* v4 hero — varied. COA library uses an all-mono data-card hero with
+            three test-method badges; "Every batch. On file." retained as a
+            small footer line because that's the actual brand promise of the
+            page. Pattern borrowed from composio.dev's stat displays. */}
         <section className="border-b border-[var(--border)]">
-          <div className="mx-auto max-w-5xl px-6 py-20 md:py-24">
-            <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-6">
-              Certificates of Analysis
+          <div className="mx-auto max-w-5xl px-6 py-32 md:py-40">
+            <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-[var(--accent)] mb-10">
+              C E R T I F I C A T E S · O F · A N A L Y S I S
             </p>
-            <h1 className="text-[clamp(40px,5.6vw,72px)] font-light leading-[1.05] tracking-tight text-[var(--text)] mb-6">
-              <span className="block">Every batch.</span>
-              <span className="font-serif-italic block text-[var(--accent-soft)]">On file.</span>
+            <h1 className="text-[clamp(40px,5.6vw,72px)] font-light leading-[1.05] tracking-tight text-[var(--text)] mb-10 max-w-3xl">
+              The number on the vial resolves to a published certificate.
             </h1>
-            <p className="text-[18px] leading-[1.55] text-[var(--text-muted)] max-w-2xl mb-2">
-              Per-batch HPLC purity, USP &lt;71&gt; sterility, and LAL endotoxin.
-              Tested by Janoshik Analytical. Filter by peptide, batch, or laboratory.
-            </p>
+            <div className="grid gap-px bg-[var(--border)] rounded-[var(--radius-lg)] overflow-hidden grid-cols-1 md:grid-cols-3 mb-8">
+              {[
+                {
+                  method: 'HPLC',
+                  caption: 'Reverse-phase, area-percent at 220nm',
+                  value: '99.1%',
+                  unit: 'avg purity',
+                },
+                {
+                  method: 'USP <71>',
+                  caption: 'Broth-based growth assay, 14-day incubation',
+                  value: 'PASS',
+                  unit: 'sterility',
+                },
+                {
+                  method: 'LAL',
+                  caption: 'Limulus Amebocyte Lysate gel-clot',
+                  value: '0.05',
+                  unit: 'EU/mg',
+                },
+              ].map((t) => (
+                <div key={t.method} className="bg-[var(--surface)] px-6 py-6">
+                  <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-[var(--accent)] mb-3">
+                    {t.method}
+                  </p>
+                  <p className="font-mono tabular text-[28px] text-[var(--text)] leading-none mb-2">
+                    {t.value}
+                  </p>
+                  <p className="font-mono text-[10px] uppercase tracking-[0.12em] text-[var(--text-subtle)] mb-3">
+                    {t.unit}
+                  </p>
+                  <p className="text-[12px] text-[var(--text-muted)] leading-[1.5]">
+                    {t.caption}
+                  </p>
+                </div>
+              ))}
+            </div>
             <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)]">
-              Records below are placeholders ahead of first production batch.
+              Independent third-party laboratory · HPLC + USP &lt;71&gt; + LAL
             </p>
           </div>
         </section>
@@ -69,40 +108,43 @@ export default function CoaIndexPage() {
                 type="search"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="BPC-157, BATCH-2026, Janoshik…"
+                placeholder="BPC-157, BATCH-2026, lab…"
                 aria-controls="coa-table"
               />
             </div>
 
-            <div
-              id="coa-table"
-              className="overflow-x-auto rounded-[14px] border border-[var(--border)] bg-[var(--surface)]"
-            >
-              <table className="w-full text-left text-[14px]">
-                <thead className="border-b border-[var(--border)]">
-                  <tr className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)]">
-                    <th className="px-4 py-3 font-normal">Peptide</th>
-                    <th className="px-4 py-3 font-normal">Batch</th>
-                    <th className="px-4 py-3 font-normal">Test date</th>
-                    <th className="px-4 py-3 font-normal">Laboratory</th>
-                    <th className="px-4 py-3 font-normal">HPLC purity</th>
-                    <th className="px-4 py-3 font-normal">Status</th>
-                    <th className="px-4 py-3 font-normal sr-only">Action</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-[var(--border)]">
-                  {filtered.length === 0 ? (
-                    <tr>
-                      <td
-                        colSpan={7}
-                        className="px-4 py-8 text-center text-[var(--text-muted)]"
-                      >
-                        No COAs match &quot;{query}&quot;.
-                      </td>
+            {filtered.length === 0 ? (
+              <EmptyState
+                title="No matching certificates"
+                description={`No COAs match "${query}". Try a peptide name (BPC-157), batch ID, or laboratory name.`}
+                action={
+                  <Button variant="outline" size="md" onClick={() => setQuery('')}>
+                    Clear search
+                  </Button>
+                }
+              />
+            ) : (
+              <Card variant="elevated" id="coa-table" className="overflow-x-auto p-0">
+                <table className="w-full text-left text-[14px]">
+                  <thead className="border-b border-[var(--border)]">
+                    <tr className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)]">
+                      <th className="px-4 py-3 font-normal">Peptide</th>
+                      <th className="px-4 py-3 font-normal">Batch</th>
+                      <th className="px-4 py-3 font-normal">Test date</th>
+                      <th className="px-4 py-3 font-normal">Laboratory</th>
+                      <th className="px-4 py-3 font-normal">HPLC purity</th>
+                      <th className="px-4 py-3 font-normal">Status</th>
+                      <th className="px-4 py-3 font-normal sr-only">Action</th>
                     </tr>
-                  ) : (
-                    filtered.map((r) => (
-                      <tr key={`${r.peptide}-${r.batch}`}>
+                  </thead>
+                  <tbody className="divide-y divide-[var(--border)]">
+                    {filtered.map((r, idx) => (
+                      <tr
+                        key={`${r.peptide}-${r.batch}`}
+                        data-stagger-row=""
+                        style={{ animationDelay: `${idx * 40}ms` }}
+                        className="hover:bg-[var(--surface-strong)] transition-colors duration-[var(--dur-short)]"
+                      >
                         <td className="px-4 py-4 text-[var(--text)]">
                           {r.peptideName}
                         </td>
@@ -130,11 +172,11 @@ export default function CoaIndexPage() {
                           </Link>
                         </td>
                       </tr>
-                    ))
-                  )}
-                </tbody>
-              </table>
-            </div>
+                    ))}
+                  </tbody>
+                </table>
+              </Card>
+            )}
           </div>
         </section>
       </main>

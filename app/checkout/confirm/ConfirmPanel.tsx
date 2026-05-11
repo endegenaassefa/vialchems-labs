@@ -10,10 +10,12 @@ import Link from 'next/link';
 import { Card } from '@/components/ui/Card';
 import { Pill } from '@/components/ui/Pill';
 import { Specs } from '@/components/ui/Specs';
+import { EmptyState } from '@/components/ui/EmptyState';
+import { buttonClassNames } from '@/components/ui/Button';
 import { formatPrice } from '@/lib/content/products';
 import { useSessionStorageItem } from '@/lib/use-session-storage';
 
-const ORDER_KEY = 'vialchems:checkout:order';
+const ORDER_KEY = 'vialchemlabs:checkout:order';
 
 interface StoredOrder {
   id: string;
@@ -51,17 +53,15 @@ export function ConfirmPanel() {
 
   if (!order) {
     return (
-      <Card className="p-12 text-center">
-        <p className="text-[18px] text-[var(--text-muted)] mb-3">
-          No recent order found in this session.
-        </p>
-        <Link
-          href="/shop"
-          className="inline-flex items-center gap-2 px-5 h-11 rounded-[var(--radius-full)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[14px] transition-colors"
-        >
-          Browse the catalog →
-        </Link>
-      </Card>
+      <EmptyState
+        title="No recent order in this session"
+        description="If you completed checkout in another tab, the confirmation appears there. Otherwise, return to the catalog."
+        action={
+          <Link href="/shop" className={buttonClassNames('outline', 'md')}>
+            Browse the catalog
+          </Link>
+        }
+      />
     );
   }
 
@@ -72,7 +72,7 @@ export function ConfirmPanel() {
 
   return (
     <div className="space-y-8">
-      <Card className="p-8">
+      <Card variant="elevated" className="p-8">
         <div className="flex flex-wrap items-start justify-between gap-4 mb-6">
           <div>
             <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-2">
@@ -162,20 +162,17 @@ export function ConfirmPanel() {
       <div className="flex flex-wrap gap-3">
         <Link
           href={`/order/${order.id}`}
-          className="inline-flex items-center gap-2 px-5 h-11 rounded-[var(--radius-md)] bg-[var(--accent)] text-[#0a0e0f] font-medium text-[14px] hover:bg-[var(--accent-soft)] transition-colors"
+          className={buttonClassNames('primary', 'md')}
         >
           View order detail
         </Link>
         <Link
           href="/account/orders"
-          className="inline-flex items-center gap-2 px-5 h-11 rounded-[var(--radius-md)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[14px] transition-colors"
+          className={buttonClassNames('outline', 'md')}
         >
           All orders
         </Link>
-        <Link
-          href="/shop"
-          className="inline-flex items-center gap-2 px-5 h-11 rounded-[var(--radius-md)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[14px] transition-colors"
-        >
+        <Link href="/shop" className={buttonClassNames('outline', 'md')}>
           Continue shopping
         </Link>
       </div>

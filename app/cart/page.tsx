@@ -15,10 +15,12 @@ import Link from 'next/link';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { Card } from '@/components/ui/Card';
-import { Vial } from '@/components/ui/Vial';
+import { ProductStudioVisual } from '@/components/ui/ProductStudioVisual';
 import { Specs } from '@/components/ui/Specs';
+import { EmptyState } from '@/components/ui/EmptyState';
+import { buttonClassNames } from '@/components/ui/Button';
 import { useCartStore } from '@/lib/cart-store';
-import { formatPrice } from '@/lib/content/products';
+import { formatPrice, getProductBySlug } from '@/lib/content/products';
 import { siteConfig } from '@/lib/content/site';
 
 export default function CartPage() {
@@ -50,17 +52,15 @@ export default function CartPage() {
         <section>
           <div className="mx-auto max-w-6xl px-6 py-12">
             {lines.length === 0 ? (
-              <Card className="p-12 text-center">
-                <p className="text-[18px] text-[var(--text-muted)] mb-4">
-                  Your cart is empty.
-                </p>
-                <Link
-                  href="/shop"
-                  className="inline-flex items-center gap-2 px-5 h-11 rounded-[var(--radius-full)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[14px] transition-colors"
-                >
-                  Browse the catalog →
-                </Link>
-              </Card>
+              <EmptyState
+                title="Your cart is empty"
+                description="Add a research peptide to begin checkout. Catalog stays small until each compound clears the verification bar."
+                action={
+                  <Link href="/shop" className={buttonClassNames('outline', 'md')}>
+                    Browse the catalog
+                  </Link>
+                }
+              />
             ) : (
               <div className="grid gap-10 lg:grid-cols-[3fr_2fr]">
                 <ul className="space-y-4">
@@ -69,7 +69,7 @@ export default function CartPage() {
                     return (
                       <li key={line.sku}>
                         <Card className="p-5 flex items-center gap-4">
-                          <Vial size="sm" aria-hidden="true" />
+                          <CartLineThumb slug={line.slug} name={line.name} />
                           <div className="flex-1 min-w-0">
                             <Link
                               href={`/products/${line.slug}`}
@@ -120,7 +120,7 @@ export default function CartPage() {
                 </ul>
 
                 <div>
-                  <Card className="p-6 sticky top-24">
+                  <Card variant="elevated" className="p-6 sticky top-24">
                     <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-4">
                       Order summary
                     </p>
@@ -149,13 +149,13 @@ export default function CartPage() {
                     <div className="mt-6 flex flex-col gap-3">
                       <Link
                         href="/checkout?step=address"
-                        className="inline-flex items-center justify-center gap-2 px-6 h-12 rounded-[var(--radius-md)] bg-[var(--accent)] text-[#0a0e0f] font-medium text-[15px] hover:bg-[var(--accent-soft)] transition-colors"
+                        className={buttonClassNames('primary', 'lg', 'w-full')}
                       >
                         Proceed to checkout
                       </Link>
                       <Link
                         href="/shop"
-                        className="inline-flex items-center justify-center gap-2 px-6 h-12 rounded-[var(--radius-md)] border border-[var(--border-strong)] hover:border-[var(--accent)] text-[14px] transition-colors"
+                        className={buttonClassNames('outline', 'md', 'w-full')}
                       >
                         Continue shopping
                       </Link>
@@ -177,3 +177,26 @@ export default function CartPage() {
   );
 }
 
+function CartLineThumb({ slug, name }: { slug: string; name: string }) {
+  const product = getProductBySlug(slug);
+
+  return (
+    <div
+      className="relative h-16 w-16 flex-none overflow-hidden rounded-[4px] border border-white/10"
+      style={{ background: '#02070b' }}
+    >
+      {product ? (
+        <ProductStudioVisual
+          product={product}
+          sizes="64px"
+          className="absolute inset-0"
+          fallbackClassName="scale-[0.82]"
+        />
+      ) : (
+        <span className="grid h-full w-full place-items-center font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--text-subtle)]">
+          {name.slice(0, 2)}
+        </span>
+      )}
+    </div>
+  );
+}

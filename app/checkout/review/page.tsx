@@ -11,6 +11,7 @@
 import type { Metadata } from 'next';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
+import { CheckoutGuard } from '@/components/CheckoutGuard';
 import { CheckoutSteps } from '../CheckoutSteps';
 import { ReviewPanel } from './ReviewPanel';
 
@@ -37,7 +38,9 @@ export default function CheckoutReviewPage() {
 
         <section>
           <div className="mx-auto max-w-6xl px-6 py-12">
-            <ReviewPanel />
+            <CheckoutGuard>
+              <ReviewPanel />
+            </CheckoutGuard>
           </div>
         </section>
       </main>

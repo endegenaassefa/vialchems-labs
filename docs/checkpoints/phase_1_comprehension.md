@@ -6,7 +6,7 @@ Status: IN_PROGRESS (main-thread reads complete; 6 subagent digests pending)
 
 ## Trial-Run Thesis (from bible_final.md)
 
-Vialchems Labs is a throwaway-brand peptide e-commerce trial run. The single test: build a site, run paid ads, see if a stranger places a paid order within 21 days of ad launch. Success criteria proposed in Bible §4: ≥1 paid order from a stranger sourced through ads (not founder networks), AND CAC under gross margin per unit on at least the top three SKUs. Site live target: 7-14 days. Evaluation window: 21-30 days from ads going live.
+vialchemlabs is a throwaway-brand peptide e-commerce trial run. The single test: build a site, run paid ads, see if a stranger places a paid order within 21 days of ad launch. Success criteria proposed in Bible §4: ≥1 paid order from a stranger sourced through ads (not founder networks), AND CAC under gross margin per unit on at least the top three SKUs. Site live target: 7-14 days. Evaluation window: 21-30 days from ads going live.
 
 The brand exists to firewall the test from the operator's main personal brand. Failure does not contaminate the operator's reputation; success can either feed back into the main operation or stay separate per operator decision.
 
@@ -16,7 +16,7 @@ The brand exists to firewall the test from the operator's main personal brand. F
 
 **Secondary buyers** (overlap, not target): biohacking community (older, technical, has cheaper/longer-tenured sources already; harder for Day-1 entrant to win); broader gym/fitness/SARMs/TRT-adjacent gray-channel pool (largest, least culturally specific).
 
-**Posture decision**: LOCKED to Posture A (clean clinical) per operator override. The bible's framing was Posture B (meme-coded community) for the alpha Gen Z core. Operator's choice of Posture A means Vialchems Labs targets the biohacker/clinical-leaning lane with the looksmaxxing tail accessed via paid search and Tier S micro-creator outreach rather than meme-native organic clip content. INFERRED implications:
+**Posture decision**: LOCKED to Posture A (clean clinical) per operator override. The bible's framing was Posture B (meme-coded community) for the alpha Gen Z core. Operator's choice of Posture A means vialchemlabs targets the biohacker/clinical-leaning lane with the looksmaxxing tail accessed via paid search and Tier S micro-creator outreach rather than meme-native organic clip content. INFERRED implications:
 - Type system: IBM Plex Sans + IBM Plex Mono (clinical, technical-coded)
 - Voice: precise, evidence-first, IUPAC-naming, no personal pronouns describing compounds
 - Color: cool neutral + lab-glass accent (not acid green)
@@ -80,12 +80,12 @@ The brand exists to firewall the test from the operator's main personal brand. F
 4. **Slice 3 (community channels) is dark**. Buyer's primary habitat (Reddit, Meso-Rx, anabolic forums, Telegram, Discord) has not been mapped from primary data. Build will mark Slice 3 sections PLACEHOLDER_AWAITING_SLICE_3.
 5. **Payment processor durability is non-trivial even with BTCPay+Plaid**. Plaid has terminated peptide vendors before; BTCPay self-hosted is most durable but requires Docker provisioning and per-instance maintenance. Phase 9 needs hardening + reconciliation logic + webhook retry.
 
-## Top 5 Differentiators (Vialchems Labs Day-1 wedge)
+## Top 5 Differentiators (vialchemlabs Day-1 wedge)
 
 1. **Per-batch COA accessibility**. Every product page links to a per-batch PDF; `/coa` searchable index with batch-lot transparency. Limitless Life pattern. Higher-trust than median vendor (most vendors hide COAs behind "request via email").
 2. **503A/503B explicit acknowledgment**. Most vendors carry the boilerplate; we lead with it visibly and pair it with the chemical-supplier framing. Reduces FDA "intent" inference probability.
 3. **Crypto-first checkout UX**. Demand-shapes away from card chargeback risk while offering meaningful discount. Most vendors hide crypto behind a tab; we make it the recommended option.
-4. **Vialchems wordmark + clinical register**. Posture A clean clinical with explicit "Labs" suffix matches Tier 1 vendor cluster (Limitless Life, Skye, Polaris, Particle). Differentiates from saturated "[Adjective] Peptides" lane (20.9% of universe).
+4. **vialchemlabs wordmark + clinical register**. Posture A clean clinical with explicit "Labs" suffix matches Tier 1 vendor cluster (Limitless Life, Skye, Polaris, Particle). Differentiates from saturated "[Adjective] Peptides" lane (20.9% of universe).
 5. **Zero on-site reviews on Day 1**. Per Bible §9: "do not fake reviews. Run the trial run with no reviews on the site at launch and let the first ones accumulate organically." Refusal to fake builds long-term forum-review-thread trust where vendors that fake reviews get permanently flagged.
 
 ## Top 10 Verbatim Research Learnings to Leverage
@@ -95,7 +95,7 @@ The brand exists to firewall the test from the operator's main personal brand. F
 3. **503A/503B byte-identical template across 5+ vendors is FDA-mandated boilerplate**, not cross-vendor copy-paste. Coverage report verified by grep on raw artifacts. Use verbatim.
 4. **Per-mg pricing comparison is THE buyer behavior**. Bible §6: "buyers compare per-mg prices across vendors directly." Site must surface per-mg prominently next to list price.
 5. **Recovery Stack (BPC-157 + TB-500) is the most-attested bundle pattern**. 298 of 3,388 rows in pricing_matrix.csv tagged with bundle membership. Recovery-stack labels (BPC-TB-blend, BNDL-LOOKSMAX, wolverine) most frequent.
-6. **Crypto discount band is 10-20%**. Limitless Life 10/5%, SwissChems 20% Bitcoin pre-retraction, Behemoth Labz 11%, Umbrella Labs 5% Plaid ACH. Day-1 Vialchems Labs at 10-15% crypto / 5% ACH lands in the band.
+6. **Crypto discount band is 10-20%**. Limitless Life 10/5%, SwissChems 20% Bitcoin pre-retraction, Behemoth Labz 11%, Umbrella Labs 5% Plaid ACH. Day-1 vialchemlabs at 10-15% crypto / 5% ACH lands in the band.
 7. **Stripe/PayPal/Square explicit category bans**. Verified via vendor-universe observation: zero Tier 1 vendors run direct Stripe/PayPal. Iron Law 2.9 enforces.
 8. **Reddit/Meso-Rx/anabolic forums are THE buyer habitat**. Slice 3 dark = significant primary-data gap. Slice 2 (Search + Owned) and Slice 4 (Creator Tier Map) cover ~60% of the channel surface.
 9. **Tier S (5K-30K follower) creators are the focus band for Day-1 budget**. Per slice_B2_influencer_tier_map.md (sub_3_acquisition.md will distill).
@@ -105,11 +105,11 @@ The brand exists to firewall the test from the operator's main personal brand. F
 
 | Item | Status | Resolution path |
 |---|---|---|
-| brand_pick | LOCKED_OVERRIDE: Vialchems Labs (Posture A, vialchems.labs) | Resolved 2026-05-08 |
+| brand_pick | LOCKED_OVERRIDE: vialchemlabs (Posture A, vialchemlabs.com) | Resolved 2026-05-08 |
 | source_terms | PENDING | Operator confirms with US-based supplier; build uses placeholders |
 | Slice 3 (community channels B1) | PLACEHOLDER | Operator fires B1 at ChatGPT Pro Deep Research; runbook regenerates Slice 3 sections |
 | LLC formation | TBD | Operator files Wyoming/Delaware/Nevada LLC; ToS uses [LLC TBD] until then |
-| Domain registration (vialchems.labs) | TBD | Operator registers via .labs registrar (Donuts/Identity Digital) |
+| Domain registration (vialchemlabs.com) | TBD | Operator registers via .labs registrar (Donuts/Identity Digital) |
 | All credentials (Supabase/Resend/Sentry/Plaid/BTCPay) | STUB | Operator replaces before public launch |
 
 ## Subagent Distillations (COMPLETE)
@@ -129,11 +129,11 @@ All 6 subagent spec adherence audits PASS or PASS-with-note. Constitution acknow
 
 ### From sub_1 (compliance)
 - Total: 18 primary-source FDA letters (audit cited 19; 1-2 indexed-not-retrieved gap is real)
-- **CRITICAL**: Peptide Sciences ran the corpus's most defensive posture and voluntarily shut down 2026-03-06 anyway. Defensive disclaimer language alone does NOT protect; absence of forbidden content does. Implication for Vialchems Labs: do not over-index on disclaimer cleverness; index on absence of forbidden patterns.
+- **CRITICAL**: Peptide Sciences ran the corpus's most defensive posture and voluntarily shut down 2026-03-06 anyway. Defensive disclaimer language alone does NOT protect; absence of forbidden content does. Implication for vialchemlabs: do not over-index on disclaimer cleverness; index on absence of forbidden patterns.
 - 2026-03-31 wave: BAC water + reconstitution kit angle (5+ vendors). Iron Law 2.7 + 2.14 enforced.
 - 503A/503B byte-identical template across 7+ vendors is FDA-mandated boilerplate, not cross-vendor copy-paste. Use verbatim.
 - RUO defense pierced by named-disease language, dosing protocols, social-media personal pronouns, weight-loss press releases. Limitless Biotech "Peptides for Weight Loss" press release is the corpus's strongest crossover example.
-- FDA pulls private/community PDFs into evidence (Synthetix dosing protocol PDF, Mile High Skool Cheat Sheet). Vialchems Labs blog/email/community content must obey same forbidden-pattern rules as on-site copy.
+- FDA pulls private/community PDFs into evidence (Synthetix dosing protocol PDF, Mile High Skool Cheat Sheet). vialchemlabs blog/email/community content must obey same forbidden-pattern rules as on-site copy.
 
 ### From sub_2 (pricing)
 - 78-row distribution table verified; all 78 peptides present.
@@ -164,16 +164,16 @@ All 6 subagent spec adherence audits PASS or PASS-with-note. Constitution acknow
 
 ### From sub_5 (site anatomy)
 - Universe converged on stable site IA: "Shop dropdown + Quality/COA + Affiliate/Wholesale" navigation with mandatory site-wide footer disclaimer.
-- WooCommerce 71% of high-trust market. Vialchems Labs goes Next.js (modern, but per Bible operator pivot — Mogtrix patterns).
+- WooCommerce 71% of high-trust market. vialchemlabs goes Next.js (modern, but per Bible operator pivot — Mogtrix patterns).
 - Cloudflare CDN universal. Omnisend dominant for email (Klaviyo absent — category tolerance signal). GA4 + GTM + Meta Pixel convergent.
-- COA hosting: 8/14 on-site, 3/14 third-party portal (Janoshik dominant), 2/14 none. **Naming the lab partner is done by only ~30% of COA-hosting vendors.** Vialchems Labs WILL name Janoshik prominently as differentiator (zero cost, high trust signal).
+- COA hosting: 8/14 on-site, 3/14 third-party portal (Janoshik dominant), 2/14 none. **Naming the lab partner is done by only ~30% of COA-hosting vendors.** vialchemlabs WILL name Janoshik prominently as differentiator (zero cost, high trust signal).
 - Recovery Stack (BPC-157+TB-500), CJC/Ipa blend, **GLOW (GHK-Cu+TB-500+BPC-157)** universally present. GLOW is bundle-2 candidate.
-- 3 vendors (skye, polaris, mile-high) walled catalogs behind mandatory account registration by 2026 (defensive post-Lilly litigation). Vialchems Labs does NOT gate catalog browsing — preserves 21-day-conversion path.
-- **Biggest market gap to exploit**: sourcing/manufacturing transparency. 0/14 vendors have substantive "where do these come from" page. Possible Vialchems Labs differentiator at `/sourcing` once supplier terms confirm.
+- 3 vendors (skye, polaris, mile-high) walled catalogs behind mandatory account registration by 2026 (defensive post-Lilly litigation). vialchemlabs does NOT gate catalog browsing — preserves 21-day-conversion path.
+- **Biggest market gap to exploit**: sourcing/manufacturing transparency. 0/14 vendors have substantive "where do these come from" page. Possible vialchemlabs differentiator at `/sourcing` once supplier terms confirm.
 - **Conflict resolved**: sub 5 recommended modal age gate; LOCKED compliance_posture mandates text-checkbox at first cart action (NOT modal). Following locked decision.
 
 ### From sub_6 (payments)
-- 4-tier durability ladder: Tier 1 (crypto-only, e.g., domestic-supply.com), Tier 2 (BTCPay + Plaid ACH — Vialchems Labs target), Tier 3 (high-risk cards on top of Tier 2), Tier 4 (mainstream Visa/MC/PayPal — single-point-of-failure exposure).
+- 4-tier durability ladder: Tier 1 (crypto-only, e.g., domestic-supply.com), Tier 2 (BTCPay + Plaid ACH — vialchemlabs target), Tier 3 (high-risk cards on top of Tier 2), Tier 4 (mainstream Visa/MC/PayPal — single-point-of-failure exposure).
 - Umbrella Labs is OBSERVED Tier 2 exemplar: self-hosted BTCPay + Plaid 5%/3-4 day clearance.
 - Stripe/PayPal/Square/Shopify Payments verbatim ban language preserved in digest. SwissChems' own copy explicitly disclaims this.
 - Discount-tier demand-shaping (10-15% crypto, 5% ACH) shifts demand toward irreversible rails.
@@ -214,7 +214,7 @@ These items surfaced during Phase 1 and need to be addressed during build:
 4. **GLOW Stack as Bundle 2** — sub_5 found universal presence; bundle-pricing logic should be designed flexibly to add this once volume signal validates.
 5. **KPV as Day-30 catalog addition** — sub_2 ranked it #1 expansion. Implementation: catalog model supports adding peptide rows without schema changes (Phase 3 schema allows it).
 6. **Posture A SEO traction conflict with 21-day window** — sub_3 surfaced. Phase 11 operator runbook MUST front-load Tier S clinical-credentialed creator outreach + email + affiliate listicle outreach as Day-1 workstreams to produce a paid order in the evaluation window. SEO is parallel but the win is multi-month.
-7. **Defensive social handle registration** — Phase 11 runbook entry: register @vialchems / @vialchemslabs / @vialchems.labs on IG/TikTok/X to block squatters; do NOT actively post.
+7. **Defensive social handle registration** — Phase 11 runbook entry: register @vialchemlabs / @vialchemlabs / @vialchemlabs.com on IG/TikTok/X to block squatters; do NOT actively post.
 8. **Janoshik portal embed vs PDF model** — sub_5 noted 3/14 use third-party portal (Janoshik dominant). Phase 7 builds COA hosting with both models supported (PDF default, portal embed as second tier).
-9. **No catalog gating** — sub_5 noted defensive trend (skye/polaris/mile-high) but this conflicts with 21-day conversion. Vialchems Labs catalog stays public-browsable; account-creation gates only at checkout.
+9. **No catalog gating** — sub_5 noted defensive trend (skye/polaris/mile-high) but this conflicts with 21-day conversion. vialchemlabs catalog stays public-browsable; account-creation gates only at checkout.
 10. **Dual-track FDA letter count** — audit said 19, sub_1 verified 18 primary-source. Use 18 in copy; "and additional letters indexed but not fully retrieved" if surfacing the count.

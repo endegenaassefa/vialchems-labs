@@ -1,4 +1,4 @@
-# Vialchems Labs
+# vialchemlabs
 
 Research peptide e-commerce site. Posture A (clean clinical) per locked brand decision. Day-1 catalog: 7 SKUs + Recovery Stack bundle. Per-batch independent Certificates of Analysis through Janoshik Analytical.
 
@@ -33,7 +33,7 @@ npm run preflight    # typecheck + lint + 3 supply-chain gate scripts
 
 Before deploying to production, complete `docs/operator-runbook.md` Pre-Launch Checklist:
 
-1. Register `vialchems.labs` domain (`.labs` TLD via Donuts/Identity Digital)
+1. Register `vialchemlabs` domain (`.labs` TLD via Donuts/Identity Digital)
 2. USPTO TESS trademark search
 3. Form Wyoming/Delaware/Nevada LLC
 4. Confirm source supplier terms (MOQ, lead time, COA passthrough)
@@ -46,7 +46,7 @@ Before deploying to production, complete `docs/operator-runbook.md` Pre-Launch C
    - `BTCPAY_URL` + `BTCPAY_API_KEY` + `BTCPAY_STORE_ID` + `BTCPAY_WEBHOOK_SECRET`
 7. Replace `public/coa/*.pdf` placeholders with real per-batch COAs from Janoshik
 8. `vercel link` and configure environment variables in Vercel
-9. Point `vialchems.labs` DNS to Vercel
+9. Point `vialchemlabs` DNS to Vercel
 10. Optional: 60-min buyer-conversation assignment per Bible §16
 
 ## Compliance
@@ -67,4 +67,4 @@ Before deploying to production, complete `docs/operator-runbook.md` Pre-Launch C
 
 ## License
 
-Proprietary. © 2026 Vialchems Labs LLC.
+Proprietary. © 2026 vialchemlabs LLC.

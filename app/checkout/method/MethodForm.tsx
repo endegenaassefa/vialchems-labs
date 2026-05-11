@@ -25,7 +25,7 @@ import { useSessionStorageString } from '@/lib/use-session-storage';
 
 type MethodId = 'crypto' | 'ach' | 'card';
 
-const METHOD_STORAGE_KEY = 'vialchems:checkout:method';
+const METHOD_STORAGE_KEY = 'vialchemlabs:checkout:method';
 
 export function MethodForm() {
   const router = useRouter();
@@ -107,7 +107,7 @@ export function MethodForm() {
         </div>
       </div>
 
-      <Card className="p-6 h-fit sticky top-24">
+      <Card variant="elevated" className="p-6 h-fit sticky top-24">
         <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-4">
           Order summary
         </p>

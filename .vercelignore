@@ -1,0 +1,42 @@
+# Phase 12.1 (v4) — files Vercel should NOT upload to deployments.
+# Anything that's reproducible from package.json + source belongs in git
+# but does not belong in the deploy slice.
+
+.git
+.github
+.husky
+node_modules
+.next
+.next/cache
+.vercel
+docs
+docs/checkpoints
+docs/deploy
+docs/research
+docs/superpowers
+playwright-report
+test-results
+tests/e2e/__screenshots__
+tests/e2e/visual-regression.spec.ts-snapshots
+
+# Source-of-truth corpus is operator-side; do not ship to prod runtime.
+RESEARCH_PLAN.md
+CODEBASE_UNDERSTANDING.md
+SUPER_PROMPT_v4_*.md
+SUPER_PROMPT_v3_*.md
+
+# Test artifacts
+coverage
+*.lcov
+
+# Local-only env
+.env
+.env.local
+.env.*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode
+.idea
