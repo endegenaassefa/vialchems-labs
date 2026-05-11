@@ -3,20 +3,21 @@ export interface BundleStudioImage {
   alt: string;
 }
 
-const bundleStudioImages: Partial<Record<string, BundleStudioImage>> = {
-  'recovery-stack': {
-    src: '/bundle-shots/recovery-stack.png',
-    alt: 'vialchemlabs Recovery Stack research bundle',
-  },
-  'gh-pulsatile-stack': {
-    src: '/bundle-shots/gh-pulsatile-stack.png',
-    alt: 'vialchemlabs GH Pulsatile Stack research bundle',
-  },
-  'khavinson-stack': {
-    src: '/bundle-shots/khavinson-stack.png',
-    alt: 'vialchemlabs Khavinson Bioregulator Stack research bundle',
-  },
-};
+const bundleStudioImages = Object.fromEntries(
+  [
+    ['recovery-stack', 'Recovery Stack'],
+    ['glow-stack', 'Glow Stack'],
+    ['wolverine-stack', 'Wolverine Stack'],
+    ['neuro-stack', 'Neuro Stack'],
+    ['longevity-stack', 'Longevity Stack'],
+  ].map(([slug, label]) => [
+    slug,
+    {
+      src: `/bundle-shots/${slug}-single-vial.png`,
+      alt: `vialchemlabs ${label} single-vial research stack`,
+    },
+  ]),
+) as Partial<Record<string, BundleStudioImage>>;
 
 export function getBundleStudioImage(
   slug: string,

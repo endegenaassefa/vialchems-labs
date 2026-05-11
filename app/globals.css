@@ -608,6 +608,12 @@ h2 .font-serif-italic {
   box-shadow: 0 20px 80px rgba(0, 0, 0, 0.36);
 }
 
+.age-gate-info[open] .age-gate-info-body {
+  max-height: min(34dvh, 280px);
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
 .age-gate-primary {
   box-shadow:
     0 0 24px rgba(77, 171, 247, 0.45),
@@ -622,6 +628,17 @@ h2 .font-serif-italic {
   box-shadow:
     0 0 30px rgba(77, 171, 247, 0.58),
     0 0 62px rgba(77, 171, 247, 0.28);
+}
+
+.age-gate-primary:disabled {
+  animation: age-fade-in 650ms var(--ease-premium-out) 1700ms both;
+  box-shadow: none;
+  transform: none;
+}
+
+.age-gate-primary:disabled:hover {
+  box-shadow: none;
+  transform: none;
 }
 
 .age-gate-secondary {

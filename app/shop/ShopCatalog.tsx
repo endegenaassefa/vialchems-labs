@@ -124,7 +124,7 @@ export function ShopCatalog() {
   return (
     <section>
       <div className="mx-auto max-w-6xl px-6 py-12">
-        {/* RECOVERY STACK BUNDLE — separate accent card */}
+        {/* STACK CARDS — single-vial stack products with component labels */}
         {visibleBundles.map((bundle) => (
           <Card
             as="article"
@@ -146,7 +146,7 @@ export function ShopCatalog() {
             </Link>
             <div>
               <Pill variant="accent" className="mb-2">
-                Bundle
+                Stack vial
               </Pill>
               <h2 className="text-[24px] md:text-[28px] font-medium tracking-tight text-[var(--text)] mb-1">
                 {bundle.name}
@@ -168,7 +168,7 @@ export function ShopCatalog() {
                 href={`/products/${bundle.slug}`}
                 className={buttonClassNames('outline', 'md')}
               >
-                View bundle
+                View stack
               </Link>
             </div>
           </Card>

@@ -16,11 +16,16 @@ import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { Card } from '@/components/ui/Card';
 import { ProductStudioVisual } from '@/components/ui/ProductStudioVisual';
+import { BundleStudioVisual } from '@/components/ui/BundleStudioVisual';
 import { Specs } from '@/components/ui/Specs';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { buttonClassNames } from '@/components/ui/Button';
 import { useCartStore } from '@/lib/cart-store';
-import { formatPrice, getProductBySlug } from '@/lib/content/products';
+import {
+  formatPrice,
+  getBundleBySlug,
+  getProductBySlug,
+} from '@/lib/content/products';
 import { siteConfig } from '@/lib/content/site';
 
 export default function CartPage() {
@@ -179,6 +184,7 @@ export default function CartPage() {
 
 function CartLineThumb({ slug, name }: { slug: string; name: string }) {
   const product = getProductBySlug(slug);
+  const bundle = getBundleBySlug(slug);
 
   return (
     <div
@@ -191,6 +197,13 @@ function CartLineThumb({ slug, name }: { slug: string; name: string }) {
           sizes="64px"
           className="absolute inset-0"
           fallbackClassName="scale-[0.82]"
+        />
+      ) : bundle ? (
+        <BundleStudioVisual
+          bundle={bundle}
+          sizes="64px"
+          className="absolute inset-0"
+          imageClassName="scale-[1.08]"
         />
       ) : (
         <span className="grid h-full w-full place-items-center font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--text-subtle)]">

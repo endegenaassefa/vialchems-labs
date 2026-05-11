@@ -13,12 +13,16 @@ import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { breadcrumbJsonLd, serializeJsonLdSafe } from '@/lib/seo/jsonLd';
 import { siteConfig } from '@/lib/content/site';
+import { bundles, products } from '@/lib/content/products';
 import { ShopCatalog } from './ShopCatalog';
+
+const productCount = products.length;
+const stackCount = bundles.length;
+const categoryCount = new Set(products.map((product) => product.category)).size;
 
 export const metadata: Metadata = {
   title: 'Shop',
-  description:
-    'Research peptide catalog. Sixteen SKUs across recovery, GH-axis, cosmetic-pathway, metabolic, nootropic, and immune research areas. Independent third-party Certificate of Analysis published alongside the product.',
+  description: `Research peptide catalog. ${productCount} SKUs across recovery, GH-axis, cosmetic-pathway, metabolic, nootropic, and immune research areas. Independent third-party Certificate of Analysis published alongside the product.`,
 };
 
 export default function ShopPage() {
@@ -49,15 +53,15 @@ export default function ShopPage() {
                   Research peptides with published batch documentation.
                 </h1>
                 <p className="mt-5 max-w-2xl text-[16px] leading-[1.65] text-[var(--text-muted)]">
-                  Sixteen SKUs and three bundles, filtered by research area,
+                  {productCount} SKUs and {stackCount} single-vial stacks, filtered by research area,
                   lot traceability, and Certificate of Analysis availability.
                 </p>
               </div>
               <div className="grid grid-cols-3 overflow-hidden rounded-[10px] border border-[var(--border)] bg-[var(--surface)] shadow-[var(--shadow-sm)]">
                 {[
-                  { n: '16', label: 'SKUs' },
-                  { n: '03', label: 'Bundles' },
-                  { n: '06', label: 'Areas' },
+                  { n: String(productCount).padStart(2, '0'), label: 'SKUs' },
+                  { n: String(stackCount).padStart(2, '0'), label: 'Stacks' },
+                  { n: String(categoryCount).padStart(2, '0'), label: 'Areas' },
                 ].map((stat) => (
                   <div
                     key={stat.label}

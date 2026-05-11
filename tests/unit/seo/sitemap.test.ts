@@ -16,16 +16,18 @@ describe('buildSitemap', () => {
     const productPages = entries.filter((e) =>
       e.url.startsWith(`${BASE}/products/`),
     );
-    // v1.3 catalog expansion: 16 SKU pages + 3 bundles = 19 product detail
-    // pages. Use a >= floor (rather than equality) so future operator catalog
-    // additions don't trip this test — the contract is "at least one entry
-    // per known product/bundle slug".
-    expect(productPages.length).toBeGreaterThanOrEqual(19);
+    // Expanded catalog: current SKU pages + stack bundles. Use a >= floor so
+    // future operator catalog additions don't trip this test; the contract is
+    // at least one entry per known product/bundle slug.
+    expect(productPages.length).toBeGreaterThanOrEqual(42);
     const urls = productPages.map((e) => e.url);
     expect(urls).toContain(`${BASE}/products/bpc-157-10mg`);
     expect(urls).toContain(`${BASE}/products/recovery-stack`);
+    expect(urls).toContain(`${BASE}/products/glow-stack`);
+    expect(urls).toContain(`${BASE}/products/wolverine-stack`);
+    expect(urls).toContain(`${BASE}/products/neuro-stack`);
+    expect(urls).toContain(`${BASE}/products/longevity-stack`);
     expect(urls).toContain(`${BASE}/products/sermorelin-2mg`);
-    expect(urls).toContain(`${BASE}/products/gh-pulsatile-stack`);
   });
 
   it('emits an entry for every blog post slug', () => {
@@ -40,8 +42,8 @@ describe('buildSitemap', () => {
   it('emits an entry for every COA detail page', () => {
     const entries = buildSitemap(BASE);
     const coa = entries.filter((e) => e.url.includes(`${BASE}/coa/`));
-    // v1.3 — one COA placeholder record per SKU; the floor scales with the
-    // catalog (currently 16 SKUs).
+    // COA detail pages scale independently from the product catalog as lot
+    // records are published.
     expect(coa.length).toBeGreaterThanOrEqual(16);
   });
 

@@ -33,10 +33,34 @@ const REQUIREMENTS = [
   'You agree to Terms and Privacy Policy',
 ];
 
+const RESEARCH_DETAILS = [
+  {
+    title: 'Research use only',
+    body:
+      'Products are supplied only for laboratory, analytical, and non-clinical research settings. They are not for human consumption, human dosing, injection, ingestion, or veterinary use.',
+  },
+  {
+    title: 'Qualified access',
+    body:
+      'Buyer qualification requires age confirmation, institutional or research-role identification, a research-purpose statement, jurisdictional acknowledgment, and research-use-only acknowledgment.',
+  },
+  {
+    title: 'Testing posture',
+    body:
+      'Product pages are expected to show batch or lot number, test date, lab name, COA access, and applicable test types including HPLC, Mass Spec, endotoxin, and sterility screens.',
+  },
+  {
+    title: 'Shipping boundaries',
+    body:
+      'vialchemlabs ships within the United States only at this time and does not ship to California, Texas, New York, or Florida. Customers assume jurisdiction-specific compliance responsibility.',
+  },
+];
+
 export function AgeGateClient() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [exiting, setExiting] = useState(false);
+  const [termsAccepted, setTermsAccepted] = useState(false);
 
   const nextPath = useMemo(
     () => normalizeAgeGateNext(searchParams.get('next')),
@@ -50,6 +74,7 @@ export function AgeGateClient() {
   }, [nextPath, router]);
 
   function enterSite() {
+    if (!termsAccepted) return;
     persistAgeVerification();
     setExiting(true);
     window.setTimeout(() => {
@@ -133,6 +158,86 @@ export function AgeGateClient() {
                 </li>
               ))}
             </ul>
+
+            <details className="age-gate-info mt-5 rounded-[14px] border border-[rgba(255,255,255,0.10)] bg-[rgba(0,0,0,0.14)] p-4">
+              <summary className="cursor-pointer rounded-[6px] font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent-hover)] transition-colors hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]">
+                Research access details
+              </summary>
+              <div className="age-gate-info-body mt-4 grid gap-3 sm:grid-cols-2">
+                {RESEARCH_DETAILS.map((detail) => (
+                  <section key={detail.title}>
+                    <h2 className="font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--text-primary)]">
+                      {detail.title}
+                    </h2>
+                    <p className="mt-1 text-[12px] leading-[1.55] text-[var(--text-secondary)]">
+                      {detail.body}
+                    </p>
+                  </section>
+                ))}
+              </div>
+            </details>
+          </div>
+
+          <div className="age-gate-agreement mt-5 w-full max-w-[560px] text-left">
+            <label
+              htmlFor="age-gate-terms"
+              className="group flex min-h-11 cursor-pointer items-start gap-3 rounded-[14px] border border-[rgba(255,255,255,0.12)] bg-[rgba(255,255,255,0.035)] px-4 py-3 text-[13px] leading-[1.55] text-[var(--text-secondary)] transition-colors hover:border-[rgba(77,171,247,0.34)] max-sm:text-[12px]"
+            >
+              <input
+                id="age-gate-terms"
+                type="checkbox"
+                checked={termsAccepted}
+                onChange={(event) => setTermsAccepted(event.currentTarget.checked)}
+                className="peer sr-only"
+              />
+              <span
+                aria-hidden="true"
+                className="mt-[1px] grid h-[22px] w-[22px] flex-none place-items-center rounded-[6px] border border-[rgba(255,255,255,0.22)] bg-[rgba(4,6,13,0.62)] transition-[border-color,background-color,box-shadow] duration-200 peer-checked:border-[var(--accent)] peer-checked:bg-[rgba(77,171,247,0.14)] peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-[var(--accent)]"
+              >
+                <svg
+                  className={`text-[var(--accent-hover)] transition-transform duration-[120ms] ease-out ${
+                    termsAccepted ? 'scale-100' : 'scale-0'
+                  }`}
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                >
+                  <path
+                    d="M3.1 7.8L6.1 10.8L12 4.5"
+                    stroke="currentColor"
+                    strokeWidth="2.2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </span>
+              <span id="age-gate-terms-label">
+                I have read and agree to the{' '}
+                <Link
+                  href="/legal/terms"
+                  target="_blank"
+                  rel="noreferrer"
+                  onClick={(event) => event.stopPropagation()}
+                  className="text-[var(--accent-hover)] underline-offset-2 hover:underline"
+                >
+                  Terms of Service
+                </Link>{' '}
+                and{' '}
+                <Link
+                  href="/legal/privacy"
+                  target="_blank"
+                  rel="noreferrer"
+                  onClick={(event) => event.stopPropagation()}
+                  className="text-[var(--accent-hover)] underline-offset-2 hover:underline"
+                >
+                  Privacy Policy
+                </Link>
+                . I confirm that I am 21+ years of age and will use these
+                products solely for laboratory research in non-clinical
+                settings. Products are not for human consumption.
+              </span>
+            </label>
           </div>
 
           <div className="mt-8 flex w-full flex-col items-center justify-center gap-3 max-sm:mt-5 sm:w-auto sm:flex-row">
@@ -140,9 +245,10 @@ export function AgeGateClient() {
               type="button"
               aria-label="Confirm you are 21 or older and enter the site"
               onClick={enterSite}
-              className="age-gate-primary min-h-11 w-full rounded-full bg-[linear-gradient(135deg,#1971c2,#4dabf7)] px-9 py-4 text-[13px] font-semibold uppercase tracking-[0.08em] text-[var(--text-on-accent)] transition-[transform,box-shadow] duration-200 max-sm:py-3 max-sm:text-[12px] sm:w-auto"
+              disabled={!termsAccepted}
+              className="age-gate-primary min-h-11 w-full rounded-full bg-[linear-gradient(135deg,#1971c2,#4dabf7)] px-9 py-4 text-[13px] font-semibold uppercase tracking-[0.08em] text-[var(--text-on-accent)] transition-[opacity,transform,box-shadow,filter] duration-300 disabled:cursor-not-allowed disabled:opacity-45 disabled:grayscale max-sm:py-3 max-sm:text-[12px] sm:w-auto"
             >
-              I am 21+ — Enter
+              I am 21+ Enter
             </button>
             <button
               type="button"
@@ -150,7 +256,7 @@ export function AgeGateClient() {
               onClick={exitSite}
               className="age-gate-secondary min-h-11 w-full rounded-full border border-[rgba(255,255,255,0.20)] bg-transparent px-9 py-4 text-[13px] font-semibold uppercase tracking-[0.08em] text-[var(--text-secondary)] transition-colors duration-200 hover:border-[rgba(224,49,49,0.60)] hover:text-[var(--text-primary)] max-sm:py-3 max-sm:text-[12px] sm:w-auto"
             >
-              I am under 21 — Exit
+              I am under 21 Exit
             </button>
           </div>
 

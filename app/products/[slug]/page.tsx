@@ -2,7 +2,7 @@
  * Product Detail Page (PDP).
  *
  * Server component. Routes:
- *   /products/[slug]  matches the 16 SKU slugs + the 3 bundle slugs.
+ *   /products/[slug]  matches the catalog SKU slugs + stack slugs.
  *
  * generateStaticParams pre-renders all routes at build time.
  *
@@ -542,6 +542,9 @@ function BundleDetail({ slug }: { slug: string }) {
   const constituents: Product[] = bundle.constituents
     .map((sku) => products.find((p) => p.sku === sku))
     .filter((p): p is Product => Boolean(p));
+  const componentSummary = constituents
+    .map((component) => `${component.shortName} ${component.dose}`)
+    .join(' + ');
 
   const productLd = productJsonLd(
     {
@@ -550,8 +553,8 @@ function BundleDetail({ slug }: { slug: string }) {
       shortName: bundle.name,
       sku: bundle.sku,
       priceCents: bundle.listPriceCents,
-      dose: bundle.constituents.join(' + '),
-      format: 'bundle',
+      dose: componentSummary,
+      format: 'single stack vial',
       inStock: true,
       shortDescription: bundle.description,
       category: 'Recovery bundle',
@@ -563,6 +566,11 @@ function BundleDetail({ slug }: { slug: string }) {
     { name: 'Shop', url: `${siteConfig.url}/shop` },
     { name: bundle.name, url: `${siteConfig.url}/products/${bundle.slug}` },
   ]);
+  const bundleLongDescription = getProductDescription(bundle.sku);
+  const bundleDescriptionParagraphs = bundleLongDescription
+    .split(/\n\s*\n/)
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean);
 
   return (
     <>
@@ -598,7 +606,7 @@ function BundleDetail({ slug }: { slug: string }) {
             />
             <div>
               <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-3">
-                Research bundle <span className="text-[var(--text-subtle)] mx-2">|</span>{' '}
+                Single-vial stack <span className="text-[var(--text-subtle)] mx-2">|</span>{' '}
                 <span className="text-[var(--text-muted)]">
                   {bundle.effectiveDiscountPct}% off à la carte
                 </span>
@@ -611,7 +619,7 @@ function BundleDetail({ slug }: { slug: string }) {
                   {formatPrice(bundle.listPriceCents)}
                 </span>
                 <span className="font-mono text-[14px] text-[var(--text-muted)]">
-                  {bundle.constituents.join(' + ')}
+                  {componentSummary}
                 </span>
               </div>
               <p className="text-[16px] leading-[1.65] text-[var(--text-muted)] max-w-2xl mb-7">
@@ -629,7 +637,7 @@ function BundleDetail({ slug }: { slug: string }) {
                 />
               </div>
               <div className="flex flex-wrap items-center gap-2 pt-5 border-t border-[var(--border)]">
-                <Pill variant="accent">Bundle</Pill>
+                <Pill variant="accent">Stack vial</Pill>
                 <Pill variant="electric">RUO only</Pill>
                 <span className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)]">
                   SKU: {bundle.sku}
@@ -642,41 +650,68 @@ function BundleDetail({ slug }: { slug: string }) {
         <section className="border-t border-[var(--border)]">
           <div className="mx-auto max-w-6xl px-6 py-14">
             <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-2">
-              Bundle contents
+              Stack composition
             </p>
             <h2 className="text-[28px] font-semibold tracking-tight text-[var(--text)] mb-6">
-              What&apos;s in the box
+              What&apos;s on the vial label
             </h2>
-            <ul className="grid gap-6 sm:grid-cols-2">
+            <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {constituents.map((c) => (
                 <li key={c.slug}>
                   <Card className="p-5 h-full">
-                    <div className="flex items-center gap-4 mb-3">
-                      <div className="relative h-16 w-16 flex-none overflow-hidden rounded-[4px] border border-white/10">
-                        <ProductStudioVisual product={c} className="absolute inset-0" sizes="64px" />
-                      </div>
-                      <div>
-                        <h3 className="text-[16px] font-medium text-[var(--text)]">
-                          {c.name}
-                        </h3>
-                        <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-[var(--text-subtle)]">
-                          {c.sku}
-                        </p>
-                      </div>
-                    </div>
-                    <p className="text-[13px] leading-[1.6] text-[var(--text-muted)] mb-3">
-                      {c.shortDescription}
+                    <p className="font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--accent)] mb-2">
+                      Label component
+                    </p>
+                    <h3 className="text-[18px] font-medium text-[var(--text)]">
+                      {c.shortName}
+                    </h3>
+                    <p className="mt-2 font-mono text-[12px] uppercase tracking-[0.12em] text-[var(--text-muted)]">
+                      {c.dose} · {c.sku}
                     </p>
                     <Link
                       href={`/products/${c.slug}`}
-                      className="inline-flex font-mono text-[11px] uppercase tracking-[0.12em] text-[var(--accent)] hover:text-[var(--accent-soft)]"
+                      className="mt-4 inline-flex font-mono text-[11px] uppercase tracking-[0.12em] text-[var(--accent)] hover:text-[var(--accent-soft)]"
                     >
-                      View product →
+                      View reference SKU →
                     </Link>
                   </Card>
                 </li>
               ))}
             </ul>
+          </div>
+        </section>
+
+        <section className="border-t border-[var(--border)]">
+          <div className="mx-auto max-w-6xl px-6 py-14 grid gap-8 lg:grid-cols-[minmax(0,7fr)_minmax(280px,3fr)]">
+            <div>
+              <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-2">
+                Research register
+              </p>
+              <h2 className="text-[28px] font-semibold tracking-tight text-[var(--text)] mb-6">
+                {bundle.name} overview
+              </h2>
+              <div className="space-y-5 text-[15px] leading-[1.8] text-[var(--text-muted)]">
+                {bundleDescriptionParagraphs.map((paragraph) => (
+                  <p key={paragraph}>{paragraph}</p>
+                ))}
+              </div>
+            </div>
+            <Card className="p-6 h-fit">
+              <Specs
+                items={[
+                  { term: 'Format', value: 'Single stack vial' },
+                  { term: 'Stack SKU', value: bundle.sku },
+                  {
+                    term: 'Label',
+                    value: componentSummary,
+                  },
+                  {
+                    term: 'Use',
+                    value: 'Research and analytical workflows only',
+                  },
+                ]}
+              />
+            </Card>
           </div>
         </section>
 

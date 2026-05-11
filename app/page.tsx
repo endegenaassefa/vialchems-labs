@@ -53,6 +53,8 @@ const TRUST_ITEMS = [
   'Same-business-day shipping',
 ];
 
+const productCount = products.length;
+
 const PURITY_ROWS = [
   {
     label: 'COA publication',
@@ -231,14 +233,14 @@ export default function HomePage() {
                   P O P U L A R · P R O D U C T S
                 </p>
                 <h2 className="text-[clamp(28px,3.6vw,44px)] font-semibold leading-[1.1] tracking-tight text-[var(--text)] max-w-2xl">
-                  Sixteen research peptides. Independent third-party verification.
+                  {productCount} research peptides. Independent third-party verification.
                 </h2>
               </div>
               <Link
                 href="/shop"
                 className={buttonClassNames('outline', 'md')}
               >
-                View all 16 SKUs →
+                View all {productCount} SKUs →
               </Link>
             </div>
             <ul className="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
