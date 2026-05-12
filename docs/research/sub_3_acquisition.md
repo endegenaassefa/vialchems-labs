@@ -3,7 +3,7 @@
 **Compiled:** 2026-05-08
 **Sources:** Slice 2 acquisition_channels/ (11 channel files); slice_B2_influencer_tier_map.md (78 creators); acquisition_synthesis_slice2.md (master synthesis).
 **Status of Slice 3 (community channels: Reddit, specialized forums, Telegram, Discord, niche aggregators):** PLACEHOLDER_AWAITING_SLICE_3 — see Section 4.
-**vialchemlabs is locked Posture A:** clean clinical, vialchemlabs.com, no Mogtrix branding, no BAC water, no tirzepatide/semaglutide/retatrutide in catalog.
+**vialchemlabs is locked Posture A:** clean clinical, vialchemlabs.net, no Mogtrix branding, no BAC water, no tirzepatide/semaglutide/retatrutide in catalog.
 
 ---
 
@@ -91,7 +91,7 @@
 
 **Termination risk.** Critical — Meta crawls landing pages and bans accounts even when ad copy is compliant. Halo architecture is observed standard practice, not paranoia.
 
-**Posture A vs B.** DEFER A (clinical posture is hostile to Instagram's attention economy; explainer carousels don't move). PURSUE B with explicit account-loss budget — Behemoth + PureRawz playbook. vialchemlabs Posture A: register defensive handles only (`@vialchemlabs`, `@vialchemlabs.com`, `@vialchemlabs_research`, `@vialchemlabsofficial`) on Day 1, no active posting.
+**Posture A vs B.** DEFER A (clinical posture is hostile to Instagram's attention economy; explainer carousels don't move). PURSUE B with explicit account-loss budget — Behemoth + PureRawz playbook. vialchemlabs Posture A: register defensive handles only (`@vialchemlabs`, `@vialchemlabs.net`, `@vialchemlabs_research`, `@vialchemlabsofficial`) on Day 1, no active posting.
 
 ### 1.8 Vendor-owned TikTok (influencer-proxied only)
 
@@ -105,7 +105,7 @@
 
 **Termination risk.** Critical — "accounts easily get banned" (ChinaTalk reporting). Per-creator codes (the SwissChems pattern) so attribution is unambiguous and codes can be retired when a creator violates policy.
 
-**Posture A vs B.** DO NOT PURSUE A as vendor account — register defensive handles only. PURSUE B as influencer-proxied. vialchemlabs Posture A: defensive registration of @vialchemlabs / @vialchemlabs.com / @vialchemlabs_research; no active brand presence.
+**Posture A vs B.** DO NOT PURSUE A as vendor account — register defensive handles only. PURSUE B as influencer-proxied. vialchemlabs Posture A: defensive registration of @vialchemlabs / @vialchemlabs.net / @vialchemlabs_research; no active brand presence.
 
 ### 1.9 Vendor-owned X (founder-personal cadence)
 
@@ -227,7 +227,7 @@ Subject: vialchemlabs partnership — clinical-grade peptides, 20% commission
 
 Hi [creator handle],
 
-I'm reaching out from vialchemlabs (vialchemlabs.com), a US-domestic
+I'm reaching out from vialchemlabs (vialchemlabs.net), a US-domestic
 research-peptide supplier launching with [X] compounds in our Day-1
 catalog. Each PDP carries third-party HPLC + MS COAs with batch
 numbers, and our blog runs credentialed-author research deep-dives.
@@ -257,7 +257,7 @@ no minimum post requirements — just a partnership offer.
 Best,
 [Founder name]
 vialchemlabs
-[email] | vialchemlabs.com
+[email] | vialchemlabs.net
 ```
 
 ### 2.6 Discount-code matrix (17 vendor-creator relationships observed)
@@ -329,7 +329,7 @@ The vendor-side mortality rate in 2025-2026 has been extraordinarily high. Any c
 
 ### 3.1 Day 1 (active in first week)
 
-1. **Vendor-owned blog** at vialchemlabs.com/research/ or /blog/ — stand up dated archive structure, hire ONE credentialed MD or PhD author with dedicated /author/<name>/ page (table-stakes E-E-A-T). Publish 4-6 posts in month 1, each targeting one Day-1 catalog compound: hero summary → mechanism (8-15 peer-reviewed citations) → research summary → comparison/stack adjacencies → "Buy [compound] - [dose]" CTA back to PDP. Verbatim disclaimer: "Not for human consumption. For research use only. The information provided is for educational purposes only and is not intended to diagnose, treat, cure, or prevent any disease." Add Product+Offer+AggregateRating JSON-LD to every PDP, FAQ schema for AI Overview eligibility (under-used by competitors — gap).
+1. **Vendor-owned blog** at vialchemlabs.net/research/ or /blog/ — stand up dated archive structure, hire ONE credentialed MD or PhD author with dedicated /author/<name>/ page (table-stakes E-E-A-T). Publish 4-6 posts in month 1, each targeting one Day-1 catalog compound: hero summary → mechanism (8-15 peer-reviewed citations) → research summary → comparison/stack adjacencies → "Buy [compound] - [dose]" CTA back to PDP. Verbatim disclaimer: "Not for human consumption. For research use only. The information provided is for educational purposes only and is not intended to diagnose, treat, cure, or prevent any disease." Add Product+Offer+AggregateRating JSON-LD to every PDP, FAQ schema for AI Overview eligibility (under-used by competitors — gap).
 
 2. **Google organic SEO infrastructure** — same site investment as #1. Skip head-term fortress entirely. Target compound-name commercial-intent variants ("BPC-157 vial", "TB-500 5mg buy", "<compound> for sale"). Build per-compound PDPs that ARE the long-form research-deep-dive (PDP and educational content fused on one URL). Target the "Peptide Sciences alternatives" cluster — write a "Looking for a Peptide Sciences alternative?" landing page with comparison table. Submit sitemap to Google Search Console + Bing Webmaster Tools.
 
@@ -339,11 +339,11 @@ The vendor-side mortality rate in 2025-2026 has been extraordinarily high. Any c
 
 5. **Tier S micro-creator outreach (5-10 creators)** — clinical-credential standouts: @doctorambernd, @breezy.wellness, @thebiohackingnurse, @ash.the.pa, @inonaround, @drvincentesposito, @drpaulvin, @rachelvargaofficial, @tanya.schrobilgen. Send outreach script (Section 2.5). Issue per-creator codes (the SwissChems pattern). 20% commission, 90-day cookie. Compliance brief includes FTC-compliant #ad-at-start language and verbatim research-only disclaimer.
 
-6. **Defensive social handle registration** — IG (@vialchemlabs, @vialchemlabs.com, @vialchemlabs_research, @vialchemlabsofficial), TikTok (@vialchemlabs, @vialchemlabs.com, @vialchemlabs_research), X brand handle (@vialchemlabs as defensive stub; founder X is the real load-bearing handle). No active posting on IG/TikTok brand handles — these are namespace defense + reincarnation insurance.
+6. **Defensive social handle registration** — IG (@vialchemlabs, @vialchemlabs.net, @vialchemlabs_research, @vialchemlabsofficial), TikTok (@vialchemlabs, @vialchemlabs.net, @vialchemlabs_research), X brand handle (@vialchemlabs as defensive stub; founder X is the real load-bearing handle). No active posting on IG/TikTok brand handles — these are namespace defense + reincarnation insurance.
 
 7. **Affiliate program infrastructure** — UpPromote (used by Amino Asylum) or Refersion (Apollo Peptide Sciences pattern). Public affiliate landing page with 20% commission + 90-day cookie + FTC-compliance brief.
 
-8. **Brand name verification** — verify "vialchemlabs" against Bing entity disambiguation BEFORE launch (the Pure Rawz / Behemoth Labz failure mode). Search the brand on Bing; confirm vialchemlabs.com surfaces, not a band/movie/insurance.
+8. **Brand name verification** — verify "vialchemlabs" against Bing entity disambiguation BEFORE launch (the Pure Rawz / Behemoth Labz failure mode). Search the brand on Bing; confirm vialchemlabs.net surfaces, not a band/movie/insurance.
 
 ### 3.2 Weeks 2-4 (secondary channels to ramp)
 

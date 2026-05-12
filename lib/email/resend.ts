@@ -76,7 +76,7 @@ export async function sendEmail(
   const from =
     input.from ??
     process.env.ORDER_EMAIL_FROM ??
-    `research@${process.env.BRAND_DOMAIN ?? "vialchemlabs.com"}`;
+    `research@${process.env.BRAND_DOMAIN ?? "vialchemlabs.net"}`;
 
   if (!client) {
     return {

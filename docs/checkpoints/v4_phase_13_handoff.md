@@ -141,20 +141,20 @@ Bundle total:        ~1.9 MB raw / ~400 KB gzipped (.next/static/)
 
 When ready, the operator runs (in order):
 
-1. Register `vialchemlabs.com` per `docs/deploy/dns.md`
+1. Register `vialchemlabs.net` per `docs/deploy/dns.md`
 2. Configure DNS records per `docs/deploy/dns.md` Step 2 + Resend
 3. Fill `/tmp/vialchemlabs_credentials.txt` per Appendix AA
 4. `npx vercel login` + `npx vercel link`
 5. `npx vercel env add` × ~30 keys per `docs/deploy/runbook.md` §2
 6. `npx supabase db push` to apply the 15-table migration
 7. `npx vercel --prod` first deploy
-8. `npx vercel domains add vialchemlabs.com` (auto-issues LE cert)
+8. `npx vercel domains add vialchemlabs.net` (auto-issues LE cert)
 9. `bash scripts/setup-branch-protection.sh`
 10. Provision 5 Sentry alert rules per Phase 10.3 spec
 11. `git push origin v1.1.0`
 12. Run `docs/deploy/first-payment-verification.md` Tests 1-4
 13. Flip `PAYMENT_PROVIDER` env from `stub` to `btcpay` (or `plaid`)
-14. `bash scripts/canary.sh https://vialchemlabs.com` for 2-hour soak
+14. `bash scripts/canary.sh https://vialchemlabs.net` for 2-hour soak
 15. Schedule Week-+1 retrospective
 
 ## Definition of done

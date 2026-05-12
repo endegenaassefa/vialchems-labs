@@ -1,7 +1,7 @@
 # Architecture Plan — vialchemlabs Peptide E-commerce Site
 
 Date: 2026-05-08
-Brand: vialchemlabs (Posture A clean clinical, vialchemlabs.com)
+Brand: vialchemlabs (Posture A clean clinical, vialchemlabs.net)
 Phase coverage: Phase 3 through Phase 15
 Builder: Claude Opus 4.7 (1M context), single-track per SUPER_PROMPT_v3 §4.5
 Reference: `/root/peptide-launch-bundle/corpus/SUPER_PROMPT_v3_2026-05-08.md`
@@ -597,7 +597,7 @@ Verification gate: /canary 2-hour pass, Sentry catches no critical, operator run
 | R5  | Lighthouse Perf < 90 on home (vial scenes too heavy)                      | CSS-only Vial Day-1; R3F deferred to Phase 2; image lazy-loading; bundle-size budget                                                                   | 4, 12      |
 | R6  | Slice 3 PLACEHOLDER blocks runbook completion                             | Mark sections explicitly; operator fires B1; runbook regenerates on demand                                                                             | 11         |
 | R7  | LLC formation deferred = ToS placeholder                                  | `[Wyoming/TBD]` in ToS until operator confirms; legal review post-formation                                                                            | 6, 10      |
-| R8  | Domain `vialchemlabs.com` not registered = wrong canonical URL on Day 1   | Build uses `NEXT_PUBLIC_SITE_URL=https://vialchemlabs.com`; operator registers; if .labs unavailable, fallback `vialchemlabs.com` and SITE_URL swap    | 0, 14      |
+| R8  | Domain `vialchemlabs.net` not registered = wrong canonical URL on Day 1   | Build uses `NEXT_PUBLIC_SITE_URL=https://vialchemlabs.net`; operator registers; if .labs unavailable, fallback `vialchemlabs.net` and SITE_URL swap    | 0, 14      |
 | R9  | Source supplier terms not confirmed = inaccurate fulfillment promises     | Use Bible-aligned placeholder fulfillment ("ships within 2 business days, before 3pm Mon-Fri"); operator confirms post-build                           | 6, 10      |
 | R10 | All credentials stubbed = first real deploy has zero working integrations | Operator runbook Phase 11 + post-deploy operator checklist explicitly lists every env var to swap; stub adapters fail loud (don't silent-pass in prod) | 11, 14, 15 |
 | R11 | Pre-commit hook blocks legitimate Mogtrix-attribution comments            | Test fixture covers approved attribution format; `// Pattern adapted from mogtrix-website/` is whitelisted                                             | 3          |

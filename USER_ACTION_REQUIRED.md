@@ -8,7 +8,7 @@ ready.
 
 - Vercel project connected to this repository and configured to use Node 22.
 - Production domain added to Vercel with SSL active.
-- DNS records for `vialchemlabs.com` and any `www` redirect target.
+- DNS records for `vialchemlabs.net` and any `www` redirect target.
 - GitHub Actions enabled for this repository.
 - GitHub token refreshed with `workflow` scope before adding or updating
   `.github/workflows/*`.

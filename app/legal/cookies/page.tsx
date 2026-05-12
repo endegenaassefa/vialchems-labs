@@ -130,7 +130,7 @@ export default function CookiesPage() {
       <H2>8. Contact</H2>
       <P>
         Questions about cookies or to request a list of cookies set by our site:{" "}
-        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A>
+        <A href="mailto:research@vialchemlabs.net">research@vialchemlabs.net</A>
         .
       </P>
     </LegalShell>

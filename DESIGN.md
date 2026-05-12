@@ -1,6 +1,6 @@
 # DESIGN.md — vialchemlabs
 
-Source-of-truth design system for `vialchemlabs.com` — the artifact that
+Source-of-truth design system for `vialchemlabs.net` — the artifact that
 lets a fresh AI agent or external designer match the brand without
 reading every file in `lib/design/`.
 
@@ -17,7 +17,7 @@ by hand.
 | Tagline     | "Counted, weighed, verified."                  | `lib/content/site.ts:15`    |
 | Posture     | A — Clean Clinical Labs                        | Appendix V.2                |
 | Wordmark    | "vialchemlabs" + "LABS" chip                   | `components/SiteHeader.tsx` |
-| Domain      | `vialchemlabs.com` (literal `.labs` TLD)       | `lib/content/site.ts:12`    |
+| Domain      | `vialchemlabs.net`                             | `lib/content/site.ts:12`    |
 | Lab partner | Janoshik Analytical (default; env-overridable) | `lib/content/site.ts:24`    |
 
 The brand expression is non-negotiable per Iron Law 2.26. Color values,

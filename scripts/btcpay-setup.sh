@@ -12,7 +12,7 @@
 #   3. Create a store named "vialchemlabs"
 #   4. Generate a Greenfield API key with Invoice + Webhook scopes
 #   5. Enable BTC + (optionally) LTC payment methods
-#   6. Add a webhook to https://vialchemlabs.com/api/payments/btcpay/webhook
+#   6. Add a webhook to https://vialchemlabs.net/api/payments/btcpay/webhook
 #      with events: InvoiceCreated, InvoiceProcessing, InvoiceSettled,
 #      InvoiceInvalid, InvoiceExpired
 #   7. Copy the webhook secret + API key + store ID into Vercel env vars

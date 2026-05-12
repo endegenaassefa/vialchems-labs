@@ -267,7 +267,7 @@ export default function TermsPage() {
       <H2>21. Contact</H2>
       <P>
         Questions regarding these Terms may be sent to{" "}
-        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A>{" "}
+        <A href="mailto:research@vialchemlabs.net">research@vialchemlabs.net</A>{" "}
         or via the <A href="/contact">contact form</A>.
       </P>
     </LegalShell>

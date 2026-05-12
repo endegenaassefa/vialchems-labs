@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { buildSitemap } from "@/lib/seo/sitemap";
 
-const BASE = "https://vialchemlabs.com";
+const BASE = "https://vialchemlabs.net";
 
 describe("buildSitemap", () => {
   it("includes the home page", () => {

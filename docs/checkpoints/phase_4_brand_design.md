@@ -7,7 +7,7 @@ Status: COMPLETE
 
 - Name: vialchemlabs
 - Posture: A (clean clinical) per Appendix V.2
-- Domain: vialchemlabs.com (literal .labs TLD)
+- Domain: vialchemlabs.net
 - Wordmark: "vialchemlabs" (Plex Sans 600) + "LABS" chip (Plex Mono 500 uppercase 0.16em tracking, accent border)
 
 ## Tokens (LOCKED)

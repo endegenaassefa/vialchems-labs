@@ -2,7 +2,7 @@
 
 Phase 12.4 (v4) — D18 closure (Vercel production deploy procedure).
 
-This runbook walks the operator from "I have credentials" to "vialchemlabs.com is live and serving production traffic".
+This runbook walks the operator from "I have credentials" to "vialchemlabs.net is live and serving production traffic".
 
 ## 0 — Pre-launch checklist
 
@@ -10,12 +10,12 @@ Before running any of the steps below, verify all of these are true:
 
 - [ ] `npm ci && npm test && npm run build && npm run preflight` all green locally on `main`
 - [ ] `git status` is clean (no uncommitted changes)
-- [ ] `vialchemlabs.com` (or fallback) is registered + DNS records configured per `docs/deploy/dns.md`
+- [ ] `vialchemlabs.net` (or fallback) is registered + DNS records configured per `docs/deploy/dns.md`
 - [ ] Appendix AA Operator Credential Intake form filled at `/tmp/vialchemlabs_credentials.txt`
 - [ ] LLC formation done OR `LLC_NAME` placeholder accepted Day-1 (legal banner says "(TBD)" until updated)
 - [ ] Lab partner contract with Janoshik Analytical signed OR placeholder COA flow accepted
 - [ ] Sentry org + project created
-- [ ] Resend account created + sender domain `vialchemlabs.com` verified
+- [ ] Resend account created + sender domain `vialchemlabs.net` verified
 - [ ] Plaid account in sandbox mode (production access can wait until Phase 13 first transfer)
 - [ ] BTCPay Server self-hosted OR Voltage Cloud instance up at `btcpay.<your-domain>`
 - [ ] Cookie consent provider chosen (`self-hosted` is the Day-1 default)
@@ -58,7 +58,7 @@ vercel env add REQUIRE_SUPABASE production       # value: true
 
 # Resend
 vercel env add RESEND_API_KEY production
-vercel env add ORDER_EMAIL_FROM production       # value: research@vialchemlabs.com
+vercel env add ORDER_EMAIL_FROM production       # value: research@vialchemlabs.net
 vercel env add ORDER_STAFF_EMAILS production
 vercel env add REQUIRE_RESEND production         # value: true
 
@@ -94,7 +94,7 @@ vercel env add PAYMENT_PROVIDER production       # value: stub
 ## 3 — Add the production domain
 
 ```bash
-npx vercel domains add vialchemlabs.com
+npx vercel domains add vialchemlabs.net
 ```
 
 The CLI returns the DNS records to set. If you already configured DNS
@@ -122,7 +122,7 @@ npx vercel --prod
 ```
 
 This builds the production bundle and deploys to `https://vialchemlabs-<hash>.vercel.app`
-THEN promotes to `https://vialchemlabs.com`. Watch the Vercel dashboard
+THEN promotes to `https://vialchemlabs.net`. Watch the Vercel dashboard
 for build progress; ~3-5 min on a clean build.
 
 Expected build output:
@@ -147,19 +147,19 @@ If the build fails, the most common causes:
 
 ```bash
 # Health endpoint
-curl -s https://vialchemlabs.com/api/health
+curl -s https://vialchemlabs.net/api/health
 
 # Sitemap
-curl -sI https://vialchemlabs.com/sitemap.xml | head -5
+curl -sI https://vialchemlabs.net/sitemap.xml | head -5
 
 # robots.txt
-curl -s https://vialchemlabs.com/robots.txt | head -5
+curl -s https://vialchemlabs.net/robots.txt | head -5
 
 # Cookie consent Cookie-only render
-curl -s https://vialchemlabs.com/ | grep -c "vc-consent" || echo "no cookie banner in SSR HTML (expected — client-only)"
+curl -s https://vialchemlabs.net/ | grep -c "vc-consent" || echo "no cookie banner in SSR HTML (expected — client-only)"
 
 # Per Iron Law 2.27 — Lighthouse spot-check
-npx lighthouse https://vialchemlabs.com/ --view
+npx lighthouse https://vialchemlabs.net/ --view
 ```
 
 All four routes should return `200`. Lighthouse scores should clear

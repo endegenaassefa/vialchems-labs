@@ -272,7 +272,7 @@ Per-section handoff:
 | Section        | Day-1 default (no operator action)                           | Production action                                                                                   |
 | -------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
 | Supabase       | `REQUIRE_SUPABASE=false`; clients return null                | Provision project, set URL + anon + service-role keys, run migration                                |
-| Resend         | `REQUIRE_RESEND=false`; sendEmail returns stub ids           | Verify `vialchemlabs.com` sender + DMARC `p=reject`; set `RESEND_API_KEY`                           |
+| Resend         | `REQUIRE_RESEND=false`; sendEmail returns stub ids           | Verify `vialchemlabs.net` sender + DMARC `p=reject`; set `RESEND_API_KEY`                           |
 | Sentry         | DSN empty; init no-op                                        | Create org/project, set DSN + auth token + org/project slugs                                        |
 | Plaid          | `PLAID_VERIFICATION_MODE=hmac`; sandbox-shape URLs           | Sandbox first; flip to production after smoke; install `jose` for ES256                             |
 | BTCPay         | URL placeholder; createIntent throws `btcpay_not_configured` | Self-host via `scripts/btcpay-setup.sh` OR Voltage Cloud; set URL + key + store ID + webhook secret |
@@ -283,7 +283,7 @@ Per-section handoff:
 - **Phase 11 — E2E + Lighthouse CI**: install `jose` for full Plaid JWT
   verification; unskip a11y + checkout E2E suites; wire Lighthouse CI
   gate; capture visual-regression baseline.
-- **Phase 12 — Deploy**: register `vialchemlabs.com`, point DNS, run
+- **Phase 12 — Deploy**: register `vialchemlabs.net`, point DNS, run
   `vercel link` + `vercel env add` for every populated key, deploy,
   enable branch protection.
 - **Phase 13 — Real-money tests**: operator funds the first $1 BTCPay

@@ -279,7 +279,7 @@ All gates default off (`REQUIRE_SUPABASE=false`, `REQUIRE_RESEND=false`, empty D
 - `playwright.config.ts` — dev-server fixture, dark colorScheme, 0.1% pixel-diff threshold
 - `vercel.json` — security headers (HSTS preload, X-Frame-Options DENY, Permissions-Policy), webhook + access route no-store cache, sitemap + COA caching
 - `scripts/setup-branch-protection.sh` — `gh` CLI script wires required checks + reviews + linear history + CODEOWNERS for visual-regression + protected paths
-- `docs/deploy/dns.md` — per-registrar guide for `vialchemlabs.com`
+- `docs/deploy/dns.md` — per-registrar guide for `vialchemlabs.net`
 - `docs/deploy/runbook.md` — pre-launch checklist + `vercel link` + env intake + first deploy + post-deploy verification + rollback
 
 ### Iron Laws
@@ -313,7 +313,7 @@ All gates default off (`REQUIRE_SUPABASE=false`, `REQUIRE_RESEND=false`, empty D
 
 ### Operator pre-launch (Phase 12)
 
-See `docs/deploy/runbook.md`. Sequence: register `vialchemlabs.com` → fill Appendix AA → `vercel link` → `vercel env add` (×30) → Supabase migration push → `vercel --prod` → `vercel domains add vialchemlabs.com` → branch protection script → Sentry alerts → `git tag v1.1.0`.
+See `docs/deploy/runbook.md`. Sequence: register `vialchemlabs.net` → fill Appendix AA → `vercel link` → `vercel env add` (×30) → Supabase migration push → `vercel --prod` → `vercel domains add vialchemlabs.net` → branch protection script → Sentry alerts → `git tag v1.1.0`.
 
 ## [1.0.0] — 2026-05-08
 
@@ -338,7 +338,7 @@ Initial Day-1 release. Built end-to-end per `/root/peptide-launch-bundle/corpus/
 ### Brand
 
 - vialchemlabs (Posture A clean clinical) — LOCKED via DECISIONS/brand_pick.md
-- Domain: vialchemlabs.com (literal .labs TLD)
+- Domain: vialchemlabs.net
 - Wordmark: vialchemlabs + LABS chip
 - Typography: IBM Plex Sans + IBM Plex Mono + Newsreader Italic
 - Color: charcoal #0a0e0f bg + teal #3dd4c8 accent

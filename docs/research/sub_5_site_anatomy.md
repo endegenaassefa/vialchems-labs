@@ -1,6 +1,6 @@
 # Sub-5: Site Anatomy Blueprint
 
-**Constitution acknowledgment:** Read and acknowledged. North star: peptide e-commerce site, FDA-enforcement-survivable, zero-edit-deployable, research-grounded. Brand LOCKED to vialchemlabs (Posture A clean clinical, vialchemlabs.com).
+**Constitution acknowledgment:** Read and acknowledged. North star: peptide e-commerce site, FDA-enforcement-survivable, zero-edit-deployable, research-grounded. Brand LOCKED to vialchemlabs (Posture A clean clinical, vialchemlabs.net).
 
 **Sample composition (n=14 vendor profiles read):**
 
@@ -380,7 +380,7 @@ Industry leans **away from on-site chat** — perceived attack surface for moder
 
 ---
 
-## Section 7 — vialchemlabs Day-1 IA Recommendation (Posture A clean clinical, vialchemlabs.com)
+## Section 7 — vialchemlabs Day-1 IA Recommendation (Posture A clean clinical, vialchemlabs.net)
 
 **Top-level navigation (8 items, lean clinical):**
 

@@ -7,8 +7,8 @@
 # parseable so the operator can pipe to a monitor or grep for alerts.
 #
 # Usage:
-#   bash scripts/canary.sh https://vialchemlabs.com
-#   CANARY_DURATION_MIN=60 bash scripts/canary.sh https://staging.vialchemlabs.com
+#   bash scripts/canary.sh https://vialchemlabs.net
+#   CANARY_DURATION_MIN=60 bash scripts/canary.sh https://staging.vialchemlabs.net
 #
 # Iron Law 2.27: Lighthouse CI gates merges; this canary catches
 # regressions that only manifest under real traffic + real-network
@@ -16,7 +16,7 @@
 
 set -euo pipefail
 
-BASE_URL=${1:-${CANARY_BASE_URL:-https://vialchemlabs.com}}
+BASE_URL=${1:-${CANARY_BASE_URL:-https://vialchemlabs.net}}
 DURATION_MIN=${CANARY_DURATION_MIN:-120}
 INTERVAL_SECONDS=${CANARY_INTERVAL_SECONDS:-60}
 LOG_FILE=${CANARY_LOG_FILE:-/tmp/vialchemlabs-canary-$(date +%Y%m%d-%H%M%S).log}

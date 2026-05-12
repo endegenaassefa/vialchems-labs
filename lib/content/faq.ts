@@ -2,7 +2,7 @@
  * Verbatim FAQ — 20 Q+A from SUPER_PROMPT_v3 Appendix M.
  *
  * Brand placeholders substituted: vialchemlabs / Janoshik Analytical /
- * https://vialchemlabs.com / vialchemlabs.
+ * https://vialchemlabs.net / vialchemlabs.
  *
  * This file is in SKIP_PATHS for grep-forbidden-words.sh because Question 13
  * names tirzepatide / semaglutide / retatrutide in their EXCLUSION context
@@ -34,7 +34,7 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "Are your products tested?",
-    a: "Yes. Independent third-party laboratory testing covers purity (HPLC), sterility (USP <71>), and endotoxin levels (LAL). Certificates of Analysis are published at https://vialchemlabs.com/coa.",
+    a: "Yes. Independent third-party laboratory testing covers purity (HPLC), sterility (USP <71>), and endotoxin levels (LAL). Certificates of Analysis are published at https://vialchemlabs.net/coa.",
   },
   {
     q: "What is a Certificate of Analysis?",
@@ -58,7 +58,7 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "What is your refund policy?",
-    a: "All sales final on opened vials. Replacement is provided for shipping damage with photo evidence within 7 days of delivery. See full policy at https://vialchemlabs.com/legal/refunds.",
+    a: "All sales final on opened vials. Replacement is provided for shipping damage with photo evidence within 7 days of delivery. See full policy at https://vialchemlabs.net/legal/refunds.",
   },
   {
     q: "Why is the catalog smaller than competitors?",
@@ -86,14 +86,14 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "What is the affiliate program?",
-    a: "Researchers and content creators in adjacent fields can apply to the vialchemlabs affiliate program. Commissions: 5% min / 10% median / 15% max with a 90-day cookie. Apply at https://vialchemlabs.com/affiliate.",
+    a: "Researchers and content creators in adjacent fields can apply to the vialchemlabs affiliate program. Commissions: 5% min / 10% median / 15% max with a 90-day cookie. Apply at https://vialchemlabs.net/affiliate.",
   },
   {
     q: "How do I unsubscribe from emails?",
-    a: "Click the unsubscribe link in any email or visit https://vialchemlabs.com/unsubscribe.",
+    a: "Click the unsubscribe link in any email or visit https://vialchemlabs.net/unsubscribe.",
   },
   {
     q: "How do I contact support?",
-    a: "Email research@vialchemlabs.com or use the contact form at https://vialchemlabs.com/contact. Response within 1 business day.",
+    a: "Email research@vialchemlabs.net or use the contact form at https://vialchemlabs.net/contact. Response within 1 business day.",
   },
 ];

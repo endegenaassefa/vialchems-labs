@@ -25,3 +25,4 @@
 - 2026-05-11T23:54:00-04:00 — Started local dev server on `http://localhost:3010`; `/` redirects to `/age-gate`, `/age-gate` returns 200, `/api/health` returns ok, and `/api/health/ready` correctly returns 503 until production secrets are supplied.
 - 2026-05-11T23:57:00-04:00 — Final `npm run preflight` passed after all code and deployment-ignore updates.
 - 2026-05-12T00:02:00-04:00 — Push attempt with `.github/workflows/ci.yml` was rejected because the active GitHub token lacks `workflow` scope. Removed the workflow from this commit so the launch branch can be published; CI workflow remains user-action-required until auth is refreshed.
+- 2026-05-12T00:12:00-04:00 — Operator provided production domain `vialchemlabs.net`; updated canonical URLs, default sender addresses, robots sitemap reference, deployment docs, and local production env template.

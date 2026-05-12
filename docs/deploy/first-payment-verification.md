@@ -11,15 +11,15 @@ shape).
 
 ## Pre-flight (must be true before starting)
 
-- [ ] Production deploy live at `https://vialchemlabs.com/api/health` →
+- [ ] Production deploy live at `https://vialchemlabs.net/api/health` →
       200
 - [ ] `REQUIRE_SUPABASE=true` + Supabase migration applied
-- [ ] `REQUIRE_RESEND=true` + `vialchemlabs.com` sender domain verified
+- [ ] `REQUIRE_RESEND=true` + `vialchemlabs.net` sender domain verified
 - [ ] Sentry DSN active + alerts provisioned per Phase 10.3 spec
 - [ ] BTCPay Server reachable at `BTCPAY_URL` + API key + store ID +
       webhook secret all set
 - [ ] BTCPay webhook endpoint pointed at
-      `https://vialchemlabs.com/api/payments/btcpay/webhook` with events:
+      `https://vialchemlabs.net/api/payments/btcpay/webhook` with events:
       InvoiceCreated, InvoiceProcessing, InvoiceSettled, InvoiceInvalid,
       InvoiceExpired
 - [ ] Plaid sandbox client ID + secret active; `PLAID_VERIFICATION_MODE=jwks`
@@ -31,7 +31,7 @@ shape).
 
 ### Step 1: place a test order
 
-1. Visit `https://vialchemlabs.com/products/bpc-157-10mg`
+1. Visit `https://vialchemlabs.net/products/bpc-157-10mg`
 2. Add to cart
 3. Proceed to checkout — fill the address with a real-looking but
    non-blocked state (e.g., Washington, Oregon, Colorado)
@@ -83,7 +83,7 @@ select event_type, recorded_at
 
 Plus:
 
-- [ ] Inbox: receive order confirmation email from `research@vialchemlabs.com`
+- [ ] Inbox: receive order confirmation email from `research@vialchemlabs.net`
 - [ ] Sentry: zero new errors (sentry.io → Issues → filter "this hour")
 - [ ] BTCPay dashboard: invoice marked Settled
 
@@ -179,7 +179,7 @@ assertions on `JurisdictionalGuardError`.
 
 ## Test 4 — Cookie consent persistence
 
-1. Open `https://vialchemlabs.com/` in a fresh incognito window
+1. Open `https://vialchemlabs.net/` in a fresh incognito window
 2. Banner appears at bottom — confirm Reject all / Customize / Accept
    all visible
 3. Click **Customize** → toggle Functional ON, Analytics OFF, Marketing
@@ -205,7 +205,7 @@ npx vercel env add PAYMENT_PROVIDER production
 npx vercel --prod
 
 # 3. Run the canary loop
-bash scripts/canary.sh https://vialchemlabs.com
+bash scripts/canary.sh https://vialchemlabs.net
 
 # 4. Watch Sentry for 2 hours; if clean, schedule Week +1 retro
 ```

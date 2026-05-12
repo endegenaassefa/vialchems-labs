@@ -9,7 +9,7 @@
 ## Goal
 
 Scaffold every artifact and operator-side instruction needed for the
-production deploy of `vialchemlabs.com`. The actual deploy itself is an
+production deploy of `vialchemlabs.net`. The actual deploy itself is an
 operator action (interactive `vercel login` + credential intake +
 `vercel --prod`); the agent never touches credentials per Iron Law 2.22.
 
@@ -68,7 +68,7 @@ Operator runs after `vercel link` lands: `bash scripts/setup-branch-protection.s
   (Resend dashboard supplies), DMARC (`p=quarantine` opener, tighten
   to `p=reject` after 7-day rua review), CAA (Let's Encrypt + DigiCert)
 - Resend 4-record sender domain verification flow
-- Fallback domains: `vialchemlabs.bio`, `vialchemlabs.com`, `vialchemlabs.co`
+- Fallback domains: `vialchemlabs.bio`, `vialchemlabs.net`, `vialchemlabs.co`
 - `dig` verification commands
 
 ### 12.4 — Deployment runbook (closes D18 procedure)
@@ -78,7 +78,7 @@ Operator runs after `vercel link` lands: `bash scripts/setup-branch-protection.s
 1. Pre-launch checklist (12 boxes)
 2. `vercel link` interactive auth
 3. `vercel env add` for ~30 keys per Appendix AA, in dependency order
-4. `vercel domains add vialchemlabs.com`
+4. `vercel domains add vialchemlabs.net`
 5. Supabase migration push (`supabase db push` against linked project)
 6. First production deploy (`vercel --prod`)
 7. Post-deploy verification (health endpoint + sitemap + robots +
@@ -133,7 +133,7 @@ Phase 12 is the **second operator gate** (Phase 10 was the first). The
 agent has done everything that doesn't need credentials. The operator
 must now:
 
-1. **Register `vialchemlabs.com`** at the chosen registrar (per
+1. **Register `vialchemlabs.net`** at the chosen registrar (per
    `docs/deploy/dns.md`)
 2. **Configure DNS** records (per `docs/deploy/dns.md` Step 2 + 4)
 3. **Fill `/tmp/vialchemlabs_credentials.txt`** per Appendix AA
@@ -142,7 +142,7 @@ must now:
 6. **Run the env-add sequence** from `docs/deploy/runbook.md` §2
 7. **Push the Supabase migration** (`npx supabase db push`)
 8. **Deploy** (`npx vercel --prod`)
-9. **Add the domain** (`npx vercel domains add vialchemlabs.com`)
+9. **Add the domain** (`npx vercel domains add vialchemlabs.net`)
 10. **Apply branch protection** (`bash scripts/setup-branch-protection.sh`)
 11. **Provision Sentry alerts** per Phase 10.3 thresholds table
 12. **Push the tag** (`git push origin v1.1.0`)
@@ -159,7 +159,7 @@ After step 12, Phase 13 (real-payment verification) begins.
     `btcpay` / `plaid` (or leave as `stub` for the first weekend and
     promote based on traffic shape)
 - **Phase 14+ (post-launch)**:
-  - Submit `https://vialchemlabs.com/sitemap.xml` to Google Search
+  - Submit `https://vialchemlabs.net/sitemap.xml` to Google Search
     Console + Bing Webmaster Tools
   - Configure Vercel Analytics
   - Schedule Week-+1 retrospective
@@ -185,7 +185,7 @@ After step 12, Phase 13 (real-payment verification) begins.
 ## Exit criteria
 
 Codebase is deploy-ready. Every artifact, script, and runbook for the
-production deploy of `vialchemlabs.com` is on disk. The operator has a
+production deploy of `vialchemlabs.net` is on disk. The operator has a
 complete, sequential procedure documented. Iron Laws 2.22 + 2.24 +
 2.25 + 2.27 are enforceable as soon as branch protection lands.
 Ready for Phase 13 (real-payment verification — operator-funded).

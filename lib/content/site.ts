@@ -6,7 +6,7 @@
  * shipped with the COA." tagline).
  */
 
-const brandDomain = process.env.BRAND_DOMAIN ?? "vialchemlabs.com";
+const brandDomain = process.env.BRAND_DOMAIN ?? "vialchemlabs.net";
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ??
   process.env.SITE_URL ??

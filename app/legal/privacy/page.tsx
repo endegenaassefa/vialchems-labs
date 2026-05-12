@@ -192,7 +192,7 @@ export default function PrivacyPage() {
         categories of personal information are collected, to opt out of any
         &quot;sale&quot; (we do not sell personal data), and to request
         deletion. To exercise any of these rights, email{" "}
-        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A>
+        <A href="mailto:research@vialchemlabs.net">research@vialchemlabs.net</A>
         . We may verify your identity before responding. We will respond within
         the timeframe required by applicable law (typically 30 days).
       </P>
@@ -225,7 +225,7 @@ export default function PrivacyPage() {
       <P>
         For privacy questions, data-rights requests, or to update your contact
         preferences, email{" "}
-        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A>
+        <A href="mailto:research@vialchemlabs.net">research@vialchemlabs.net</A>
         .
       </P>
 

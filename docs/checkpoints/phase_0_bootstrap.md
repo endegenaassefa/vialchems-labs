@@ -15,7 +15,7 @@ Verify environment, load manifest, detect tooling, establish new project directo
 | -------------------------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Project directory          | LOCKED          | `/root/peptide-site/` (created, git initialized as `main`)                                                                                                                  |
 | Brand pick                 | LOCKED_OVERRIDE | **vialchemlabs** (Posture A clean clinical) — operator override of 34-candidate synthesis. Bundle's `corpus/DECISIONS/brand_pick.md` updated with LOCKED entry.             |
-| Brand domain               | LOCKED          | `vialchemlabs.com` (literal `.labs` TLD; registration TBD by operator)                                                                                                      |
+| Brand domain               | LOCKED          | `vialchemlabs.net` (operator-provided production domain)                                                                                                                    |
 | Source-side terms          | PENDING         | Build uses placeholder fulfillment promises; Janoshik Analytical as default lab partner placeholder                                                                         |
 | Opening SKU set            | LOCKED_DEFAULT  | 7 SKUs + Recovery Stack bundle ($77) + 15% intro promo                                                                                                                      |
 | Compliance posture         | LOCKED_DEFAULT  | RUO + 21+ + CA/TX/NY/FL block + 503A/503B + verbatim disclaimers                                                                                                            |
@@ -28,7 +28,7 @@ Verify environment, load manifest, detect tooling, establish new project directo
 | Provider | Status    | Notes                                                                                  |
 | -------- | --------- | -------------------------------------------------------------------------------------- |
 | Supabase | STUB      | `NEXT_PUBLIC_SUPABASE_URL=https://stub.supabase.co`; `REQUIRE_SUPABASE=false`          |
-| Resend   | STUB      | Order/notification emails log to console; `ORDER_EMAIL_FROM=research@vialchemlabs.com` |
+| Resend   | STUB      | Order/notification emails log to console; `ORDER_EMAIL_FROM=research@vialchemlabs.net` |
 | Sentry   | STUB      | Error logging local only; DSN empty                                                    |
 | Plaid    | STUB      | `PLAID_ENV=sandbox`, all keys stub                                                     |
 | BTCPay   | STUB      | URL stub; payment adapter falls back to deterministic mock (`PAYMENT_PROVIDER=stub`)   |
@@ -110,7 +110,7 @@ Will be pinned verbatim to every Agent dispatch from §3 of SUPER_PROMPT_v3.
 ## Outstanding issues / blockers
 
 1. **Supabase CLI not installed** — non-blocking until Phase 3. Workarounds: `npx supabase init`, or skip CLI and use Supabase JS client with cloud project provisioned via dashboard.
-2. **Brand `vialchemlabs.com` not registered** — operator action; build proceeds with placeholder URL.
+2. **Brand `vialchemlabs.net` not registered** — operator action; build proceeds with placeholder URL.
 3. **Slice 3 (B1) not fired** — operator action; runbook will emit PLACEHOLDER markers.
 4. **Source supplier terms not confirmed** — build uses observed-industry-standard placeholders; operator confirms post-build.
 5. **All real credentials stubbed** — operator replaces before public launch.

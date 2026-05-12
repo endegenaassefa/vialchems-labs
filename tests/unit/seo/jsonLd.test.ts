@@ -15,7 +15,7 @@ import {
  * are byte-stable.
  */
 
-const BASE = "https://vialchemlabs.com";
+const BASE = "https://vialchemlabs.net";
 
 describe("productJsonLd", () => {
   it("emits a schema.org Product with offers (price, currency, availability)", () => {

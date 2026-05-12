@@ -46,7 +46,7 @@ export async function POST(req: NextRequest) {
     await sendEmail({
       to: process.env.ORDER_STAFF_EMAILS?.split(",").map((value) =>
         value.trim(),
-      ) ?? [`ops@${process.env.BRAND_DOMAIN ?? "vialchemlabs.com"}`],
+      ) ?? [`ops@${process.env.BRAND_DOMAIN ?? "vialchemlabs.net"}`],
       from: process.env.ORDER_EMAIL_FROM,
       replyTo: email,
       subject: `Contact form: ${name}`,

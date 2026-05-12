@@ -74,7 +74,7 @@ export default function ContactPage() {
                   Email
                 </p>
                 <p className="font-mono text-[16px] text-[var(--accent)]">
-                  research@vialchemlabs.com
+                  research@vialchemlabs.net
                 </p>
               </div>
               <div className="bg-[var(--surface)] px-6 py-6">
@@ -201,8 +201,8 @@ export default function ContactPage() {
                 <Toast
                   message={
                     errorMsg
-                      ? `Submission could not be transmitted: ${errorMsg}. Please retry, or email research@vialchemlabs.com.`
-                      : "Submission could not be transmitted. Please retry, or email research@vialchemlabs.com."
+                      ? `Submission could not be transmitted: ${errorMsg}. Please retry, or email research@vialchemlabs.net.`
+                      : "Submission could not be transmitted. Please retry, or email research@vialchemlabs.net."
                   }
                   tone="error"
                   duration={0}

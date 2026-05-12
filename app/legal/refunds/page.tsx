@@ -46,8 +46,8 @@ export default function RefundsPage() {
       <UL>
         <LI>
           Contact{" "}
-          <A href="mailto:research@vialchemlabs.com">
-            research@vialchemlabs.com
+          <A href="mailto:research@vialchemlabs.net">
+            research@vialchemlabs.net
           </A>{" "}
           or use the <A href="/contact">contact form</A> within 7 days of
           delivery.
@@ -114,7 +114,7 @@ export default function RefundsPage() {
       <H2>7. Contact</H2>
       <P>
         Refund and replacement requests:{" "}
-        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A>
+        <A href="mailto:research@vialchemlabs.net">research@vialchemlabs.net</A>
         .
       </P>
     </LegalShell>

@@ -110,7 +110,7 @@ Sample `Product` payload (live from build):
   "category": "Recovery",
   "offers": {
     "@type": "Offer",
-    "url": "https://vialchemlabs.com/products/bpc-157-10mg",
+    "url": "https://vialchemlabs.net/products/bpc-157-10mg",
     "priceCurrency": "USD",
     "price": "54.00",
     "availability": "https://schema.org/InStock",
@@ -135,7 +135,7 @@ Manual Google Rich Results validation is a Phase 12-13 verification step.
 
 Served at `/sitemap.xml`. Live smoke against dev server: HTTP 200; XML
 opens with `<?xml version="1.0" encoding="UTF-8"?><urlset
-xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://vialchemlabs.com/</loc>...`.
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://vialchemlabs.net/</loc>...`.
 
 Submit to Google Search Console + Bing Webmaster Tools is a Phase 13
 operator action (post-deploy).
@@ -149,7 +149,7 @@ User-agent: *
 Allow: /
 Disallow: /cart
 Disallow: /checkout/
-Sitemap: https://vialchemlabs.com/sitemap.xml
+Sitemap: https://vialchemlabs.net/sitemap.xml
 ```
 
 Cart and checkout disallow is honest — both require qualification, so
@@ -234,7 +234,7 @@ Total tests: **422 passed (37 files)** — was 409 at HEAD a785153 (+13):
 - **Phase 11**: Lighthouse CI gate enforces Iron Law 2.27. Per-route
   initial JS budget surfaced via `npm run build` route table once the
   Lighthouse workflow is wired.
-- **Phase 12**: submit `https://vialchemlabs.com/sitemap.xml` to Google
+- **Phase 12**: submit `https://vialchemlabs.net/sitemap.xml` to Google
   Search Console + Bing Webmaster Tools post-deploy (operator action;
   documented in operator-runbook v2 in Phase 13).
 - **D26 (DESIGN.md at repo root)**: still optional; Phase 11

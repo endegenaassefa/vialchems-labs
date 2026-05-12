@@ -109,11 +109,11 @@ The brand exists to firewall the test from the operator's main personal brand. F
 
 | Item                                                  | Status                                                      | Resolution path                                                                      |
 | ----------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| brand_pick                                            | LOCKED_OVERRIDE: vialchemlabs (Posture A, vialchemlabs.com) | Resolved 2026-05-08                                                                  |
+| brand_pick                                            | LOCKED_OVERRIDE: vialchemlabs (Posture A, vialchemlabs.net) | Resolved 2026-05-08                                                                  |
 | source_terms                                          | PENDING                                                     | Operator confirms with US-based supplier; build uses placeholders                    |
 | Slice 3 (community channels B1)                       | PLACEHOLDER                                                 | Operator fires B1 at ChatGPT Pro Deep Research; runbook regenerates Slice 3 sections |
 | LLC formation                                         | TBD                                                         | Operator files Wyoming/Delaware/Nevada LLC; ToS uses [LLC TBD] until then            |
-| Domain registration (vialchemlabs.com)                | TBD                                                         | Operator registers via .labs registrar (Donuts/Identity Digital)                     |
+| Domain registration (vialchemlabs.net)                | TBD                                                         | Operator registers via .labs registrar (Donuts/Identity Digital)                     |
 | All credentials (Supabase/Resend/Sentry/Plaid/BTCPay) | STUB                                                        | Operator replaces before public launch                                               |
 
 ## Subagent Distillations (COMPLETE)
@@ -224,7 +224,7 @@ These items surfaced during Phase 1 and need to be addressed during build:
 4. **GLOW Stack as Bundle 2** — sub_5 found universal presence; bundle-pricing logic should be designed flexibly to add this once volume signal validates.
 5. **KPV as Day-30 catalog addition** — sub_2 ranked it #1 expansion. Implementation: catalog model supports adding peptide rows without schema changes (Phase 3 schema allows it).
 6. **Posture A SEO traction conflict with 21-day window** — sub_3 surfaced. Phase 11 operator runbook MUST front-load Tier S clinical-credentialed creator outreach + email + affiliate listicle outreach as Day-1 workstreams to produce a paid order in the evaluation window. SEO is parallel but the win is multi-month.
-7. **Defensive social handle registration** — Phase 11 runbook entry: register @vialchemlabs / @vialchemlabs / @vialchemlabs.com on IG/TikTok/X to block squatters; do NOT actively post.
+7. **Defensive social handle registration** — Phase 11 runbook entry: register @vialchemlabs / @vialchemlabs / @vialchemlabs.net on IG/TikTok/X to block squatters; do NOT actively post.
 8. **Janoshik portal embed vs PDF model** — sub_5 noted 3/14 use third-party portal (Janoshik dominant). Phase 7 builds COA hosting with both models supported (PDF default, portal embed as second tier).
 9. **No catalog gating** — sub_5 noted defensive trend (skye/polaris/mile-high) but this conflicts with 21-day conversion. vialchemlabs catalog stays public-browsable; account-creation gates only at checkout.
 10. **Dual-track FDA letter count** — audit said 19, sub_1 verified 18 primary-source. Use 18 in copy; "and additional letters indexed but not fully retrieved" if surfacing the count.

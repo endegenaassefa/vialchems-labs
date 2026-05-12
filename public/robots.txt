@@ -12,4 +12,4 @@ Disallow: /cart
 Disallow: /checkout/
 Disallow: /coa/
 
-Sitemap: https://vialchemlabs.com/sitemap.xml
+Sitemap: https://vialchemlabs.net/sitemap.xml

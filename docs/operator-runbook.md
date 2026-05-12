@@ -1,7 +1,7 @@
 # vialchemlabs — Operator Runbook (Day-1 through Months 2-3)
 
 Date generated: 2026-05-08 (v1) — updated 2026-05-10 (v2 / Phase 13.3 v4)
-Brand: vialchemlabs (Posture A clean clinical, vialchemlabs.com)
+Brand: vialchemlabs (Posture A clean clinical, vialchemlabs.net)
 Source: SUPER_PROMPT_v3 Appendix I + research digest sub_3_acquisition.md
 
 - v4 deferral closures (Phases 0-12)
@@ -33,9 +33,9 @@ Items marked ✅ are already shipped against placeholders in the
 codebase — operator just needs to drop the credentials. Complete in
 order:
 
-1. ✅ **Domain registration**: register `vialchemlabs.com`. Per-registrar
+1. ✅ **Domain registration**: register `vialchemlabs.net`. Per-registrar
    guide at `docs/deploy/dns.md`. Cloudflare > Gandi > 101domain >
-   Namecheap. Fallback: `vialchemlabs.bio`, `vialchemlabs.com`. **(D19)**
+   Namecheap. Fallback: `vialchemlabs.bio`, `vialchemlabs.net`. **(D19)**
 2. **USPTO TESS trademark search** for "vialchemlabs" and "vialchemlabs".
    Flag conflicts.
 3. ✅ **LLC formation**: file Wyoming (default), Delaware, or Nevada LLC.
@@ -51,7 +51,7 @@ order:
    - BTCPay Server self-hosted URL + API key + store ID + webhook secret
 7. **Replace placeholder COA PDFs**: `public/coa/<slug>-BATCH-2026-PLACEHOLDER.pdf` are stubs marked "EXAMPLE COA — REPLACE BEFORE LAUNCH". Generate real per-batch COAs from Janoshik for first inventory.
 8. **Vercel project link**: `vercel link` in the project directory; environment variables set per `.env.example`.
-9. **Domain DNS**: point `vialchemlabs.com` (or fallback) to Vercel.
+9. **Domain DNS**: point `vialchemlabs.net` (or fallback) to Vercel.
 10. **Buyer-conversation assignment** (Bible §16): 60-minute test with 3 prospective buyers in target audience. Optional but recommended.
 
 ## Day-1 Acquisition Workstreams
@@ -66,7 +66,7 @@ These start the moment the site goes live. Execute in parallel.
 
 **Operator extension**:
 
-- Submit `https://vialchemlabs.com/sitemap.xml` to Google Search Console.
+- Submit `https://vialchemlabs.net/sitemap.xml` to Google Search Console.
 - Add 30-50 PDPs over 90 days (1500-2400 words each, 10+ scientific citations).
 - Internal linking discipline: every blog post links ≥2 PDPs; every PDP links ≥3 related products.
 - Schema markup: Product on PDPs, Article on blog posts, FAQPage on /faq, BreadcrumbList on catalog. (Currently rendered server-side via Next metadata; verify with Google Rich Results Test.)
@@ -87,7 +87,7 @@ These start the moment the site goes live. Execute in parallel.
 **Operator extension**:
 
 - Generate the actual lead-magnet PDF (5 pages, brand-consistent).
-- Configure Resend with verified sender domain (`research@vialchemlabs.com`).
+- Configure Resend with verified sender domain (`research@vialchemlabs.net`).
 - Set up DMARC `p=reject` policy for the sending domain.
 - Optional: dedicated Mailgun IP at $59/month for deliverability if list grows past 500.
 
@@ -103,15 +103,15 @@ These start the moment the site goes live. Execute in parallel.
 >
 > Hi [name],
 >
-> I run [Outliyr / Muscle+Brawn / PepPal / Brainflow]'s peptide vendor coverage. We launched vialchemlabs this month at vialchemlabs.com with seven research peptides and per-batch independent third-party COA testing through Janoshik Analytical.
+> I run [Outliyr / Muscle+Brawn / PepPal / Brainflow]'s peptide vendor coverage. We launched vialchemlabs this month at vialchemlabs.net with seven research peptides and per-batch independent third-party COA testing through Janoshik Analytical.
 >
 > Three things I'd flag for any vendor review:
 >
-> 1. Every batch is HPLC-tested by Janoshik; PDFs are public at vialchemlabs.com/coa.
+> 1. Every batch is HPLC-tested by Janoshik; PDFs are public at vialchemlabs.net/coa.
 > 2. Catalog is intentionally small (BPC-157, TB-500, GHK-Cu, Ipamorelin, CJC-1295 no DAC, MOTS-c, Selank). No GLP-1s.
 > 3. Compliance posture: research-use-only, age 21+ contractual checkbox, no shipping to CA/TX/NY/FL Day 1.
 >
-> Affiliate program: 10% / 15% / 20% commission tiers (90-day cookie) at vialchemlabs.com/affiliate.
+> Affiliate program: 10% / 15% / 20% commission tiers (90-day cookie) at vialchemlabs.net/affiliate.
 >
 > Happy to send a sample for review or answer any questions.
 >
@@ -148,8 +148,8 @@ Source: research digest `docs/research/sub_3_acquisition.md` Tier S band.
 > - Per-creator unique discount code (your audience saves 15%)
 > - Full creative latitude with one constraint: research-use-only framing (no human-use claims, no dosing protocols on-platform). FTC #ad disclosure required.
 >
-> Catalog: vialchemlabs.com/shop
-> Affiliate detail: vialchemlabs.com/affiliate
+> Catalog: vialchemlabs.net/shop
+> Affiliate detail: vialchemlabs.net/affiliate
 >
 > Reply if interested and I'll send a sample for your protocol research.
 >
@@ -162,7 +162,7 @@ Source: research digest `docs/research/sub_3_acquisition.md` Tier S band.
 
 ### 5. Defensive social handle registration
 
-**What**: register `@vialchemlabs`, `@vialchemlabs`, `@vialchemlabs.com` (where allowed) on Instagram, TikTok, X — but **do NOT actively post** Day 1.
+**What**: register `@vialchemlabs`, `@vialchemlabs`, `@vialchemlabs.net` (where allowed) on Instagram, TikTok, X — but **do NOT actively post** Day 1.
 
 **Why**: prevents squatters; keeps platform-policy surface minimal. Posture A doesn't compete on social-native creative; the active social presence is via Tier S creator partnerships, not first-party posting.
 
@@ -174,7 +174,7 @@ Source: research digest `docs/research/sub_3_acquisition.md` Tier S band.
 
 **Cadence**: 1 thread per week. Pattern: "New paper: [study title] — [3-4 sentence summary]. [Link]. #peptide #research."
 
-**Why**: builds technical brand reputation in the community; signals expertise; drives indirect search traffic to vialchemlabs.com.
+**Why**: builds technical brand reputation in the community; signals expertise; drives indirect search traffic to vialchemlabs.net.
 
 ---
 
