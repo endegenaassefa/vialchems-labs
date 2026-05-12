@@ -6,85 +6,85 @@
  *
  * Persistence is local (sessionStorage) for Phase 5; Phase 9 swaps in Supabase.
  */
-'use client';
+"use client";
 
-import { useRouter } from 'next/navigation';
-import { useState } from 'react';
-import { z } from 'zod';
-import { Button } from '@/components/ui/Button';
-import { FieldLabel } from '@/components/ui/FieldLabel';
-import { Input } from '@/components/ui/Input';
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+import { z } from "zod";
+import { Button } from "@/components/ui/Button";
+import { FieldLabel } from "@/components/ui/FieldLabel";
+import { Input } from "@/components/ui/Input";
 import {
   BLOCKED_US_STATES,
   validateShippingAddress,
-} from '@/lib/compliance/jurisdictions';
-import { useSessionStorageItem } from '@/lib/use-session-storage';
+} from "@/lib/compliance/jurisdictions";
+import { useSessionStorageItem } from "@/lib/use-session-storage";
 
 const addressSchema = z.object({
-  name: z.string().trim().min(2, 'Recipient name is required'),
-  email: z.string().trim().email('Valid email required'),
-  street: z.string().trim().min(3, 'Street address is required'),
-  street2: z.string().trim().optional().default(''),
-  city: z.string().trim().min(2, 'City is required'),
-  stateCode: z.string().min(2, 'Select a state'),
+  name: z.string().trim().min(2, "Recipient name is required"),
+  email: z.string().trim().email("Valid email required"),
+  street: z.string().trim().min(3, "Street address is required"),
+  street2: z.string().trim().optional().default(""),
+  city: z.string().trim().min(2, "City is required"),
+  stateCode: z.string().min(2, "Select a state"),
   zip: z
     .string()
     .trim()
-    .regex(/^\d{5}(-\d{4})?$/, 'Enter a 5-digit US zip code'),
-  countryCode: z.literal('US'),
+    .regex(/^\d{5}(-\d{4})?$/, "Enter a 5-digit US zip code"),
+  countryCode: z.literal("US"),
 });
 
 const US_STATES: { code: string; name: string }[] = [
-  { code: 'AL', name: 'Alabama' },
-  { code: 'AK', name: 'Alaska' },
-  { code: 'AZ', name: 'Arizona' },
-  { code: 'AR', name: 'Arkansas' },
-  { code: 'CA', name: 'California' },
-  { code: 'CO', name: 'Colorado' },
-  { code: 'CT', name: 'Connecticut' },
-  { code: 'DE', name: 'Delaware' },
-  { code: 'FL', name: 'Florida' },
-  { code: 'GA', name: 'Georgia' },
-  { code: 'HI', name: 'Hawaii' },
-  { code: 'ID', name: 'Idaho' },
-  { code: 'IL', name: 'Illinois' },
-  { code: 'IN', name: 'Indiana' },
-  { code: 'IA', name: 'Iowa' },
-  { code: 'KS', name: 'Kansas' },
-  { code: 'KY', name: 'Kentucky' },
-  { code: 'LA', name: 'Louisiana' },
-  { code: 'ME', name: 'Maine' },
-  { code: 'MD', name: 'Maryland' },
-  { code: 'MA', name: 'Massachusetts' },
-  { code: 'MI', name: 'Michigan' },
-  { code: 'MN', name: 'Minnesota' },
-  { code: 'MS', name: 'Mississippi' },
-  { code: 'MO', name: 'Missouri' },
-  { code: 'MT', name: 'Montana' },
-  { code: 'NE', name: 'Nebraska' },
-  { code: 'NV', name: 'Nevada' },
-  { code: 'NH', name: 'New Hampshire' },
-  { code: 'NJ', name: 'New Jersey' },
-  { code: 'NM', name: 'New Mexico' },
-  { code: 'NY', name: 'New York' },
-  { code: 'NC', name: 'North Carolina' },
-  { code: 'ND', name: 'North Dakota' },
-  { code: 'OH', name: 'Ohio' },
-  { code: 'OK', name: 'Oklahoma' },
-  { code: 'OR', name: 'Oregon' },
-  { code: 'PA', name: 'Pennsylvania' },
-  { code: 'RI', name: 'Rhode Island' },
-  { code: 'SC', name: 'South Carolina' },
-  { code: 'SD', name: 'South Dakota' },
-  { code: 'TN', name: 'Tennessee' },
-  { code: 'TX', name: 'Texas' },
-  { code: 'UT', name: 'Utah' },
-  { code: 'VT', name: 'Vermont' },
-  { code: 'VA', name: 'Virginia' },
-  { code: 'WA', name: 'Washington' },
-  { code: 'WV', name: 'West Virginia' },
-  { code: 'WI', name: 'Wisconsin' },
-  { code: 'WY', name: 'Wyoming' },
+  { code: "AL", name: "Alabama" },
+  { code: "AK", name: "Alaska" },
+  { code: "AZ", name: "Arizona" },
+  { code: "AR", name: "Arkansas" },
+  { code: "CA", name: "California" },
+  { code: "CO", name: "Colorado" },
+  { code: "CT", name: "Connecticut" },
+  { code: "DE", name: "Delaware" },
+  { code: "FL", name: "Florida" },
+  { code: "GA", name: "Georgia" },
+  { code: "HI", name: "Hawaii" },
+  { code: "ID", name: "Idaho" },
+  { code: "IL", name: "Illinois" },
+  { code: "IN", name: "Indiana" },
+  { code: "IA", name: "Iowa" },
+  { code: "KS", name: "Kansas" },
+  { code: "KY", name: "Kentucky" },
+  { code: "LA", name: "Louisiana" },
+  { code: "ME", name: "Maine" },
+  { code: "MD", name: "Maryland" },
+  { code: "MA", name: "Massachusetts" },
+  { code: "MI", name: "Michigan" },
+  { code: "MN", name: "Minnesota" },
+  { code: "MS", name: "Mississippi" },
+  { code: "MO", name: "Missouri" },
+  { code: "MT", name: "Montana" },
+  { code: "NE", name: "Nebraska" },
+  { code: "NV", name: "Nevada" },
+  { code: "NH", name: "New Hampshire" },
+  { code: "NJ", name: "New Jersey" },
+  { code: "NM", name: "New Mexico" },
+  { code: "NY", name: "New York" },
+  { code: "NC", name: "North Carolina" },
+  { code: "ND", name: "North Dakota" },
+  { code: "OH", name: "Ohio" },
+  { code: "OK", name: "Oklahoma" },
+  { code: "OR", name: "Oregon" },
+  { code: "PA", name: "Pennsylvania" },
+  { code: "RI", name: "Rhode Island" },
+  { code: "SC", name: "South Carolina" },
+  { code: "SD", name: "South Dakota" },
+  { code: "TN", name: "Tennessee" },
+  { code: "TX", name: "Texas" },
+  { code: "UT", name: "Utah" },
+  { code: "VT", name: "Vermont" },
+  { code: "VA", name: "Virginia" },
+  { code: "WA", name: "Washington" },
+  { code: "WV", name: "West Virginia" },
+  { code: "WI", name: "Wisconsin" },
+  { code: "WY", name: "Wyoming" },
 ];
 
 interface AddressFields {
@@ -98,17 +98,17 @@ interface AddressFields {
   countryCode: string;
 }
 
-const STORAGE_KEY = 'vialchemlabs:checkout:address';
+const STORAGE_KEY = "vialchemlabs:checkout:address";
 
 const EMPTY_ADDRESS: AddressFields = {
-  name: '',
-  email: '',
-  street: '',
-  street2: '',
-  city: '',
-  stateCode: '',
-  zip: '',
-  countryCode: 'US',
+  name: "",
+  email: "",
+  street: "",
+  street2: "",
+  city: "",
+  stateCode: "",
+  zip: "",
+  countryCode: "US",
 };
 
 export function AddressForm() {
@@ -120,7 +120,9 @@ export function AddressForm() {
   const [overrides, setOverrides] = useState<Partial<AddressFields>>({});
   const fields: AddressFields = { ...EMPTY_ADDRESS, ...stored, ...overrides };
   const [submitError, setSubmitError] = useState<string | null>(null);
-  const [fieldErrors, setFieldErrors] = useState<Partial<Record<keyof AddressFields, string>>>({});
+  const [fieldErrors, setFieldErrors] = useState<
+    Partial<Record<keyof AddressFields, string>>
+  >({});
 
   const stateValidation = fields.stateCode
     ? validateShippingAddress({
@@ -154,7 +156,7 @@ export function AddressForm() {
         if (!errors[key]) errors[key] = issue.message;
       }
       setFieldErrors(errors);
-      setSubmitError('Fix the highlighted fields and try again.');
+      setSubmitError("Fix the highlighted fields and try again.");
       return;
     }
 
@@ -166,10 +168,10 @@ export function AddressForm() {
       setSubmitError(validation.reason);
       return;
     }
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       window.sessionStorage.setItem(STORAGE_KEY, JSON.stringify(fields));
     }
-    router.push('/checkout/method');
+    router.push("/checkout/method");
   }
 
   return (
@@ -186,7 +188,7 @@ export function AddressForm() {
               autoComplete="name"
               required
               value={fields.name}
-              onChange={(e) => set('name', e.target.value)}
+              onChange={(e) => set("name", e.target.value)}
               error={fieldErrors.name}
             />
           </div>
@@ -204,7 +206,7 @@ export function AddressForm() {
               autoComplete="email"
               required
               value={fields.email}
-              onChange={(e) => set('email', e.target.value)}
+              onChange={(e) => set("email", e.target.value)}
               error={fieldErrors.email}
             />
           </div>
@@ -221,7 +223,7 @@ export function AddressForm() {
               autoComplete="address-line1"
               required
               value={fields.street}
-              onChange={(e) => set('street', e.target.value)}
+              onChange={(e) => set("street", e.target.value)}
               error={fieldErrors.street}
             />
           </div>
@@ -235,7 +237,7 @@ export function AddressForm() {
               name="street2"
               autoComplete="address-line2"
               value={fields.street2}
-              onChange={(e) => set('street2', e.target.value)}
+              onChange={(e) => set("street2", e.target.value)}
             />
           </div>
         </div>
@@ -251,7 +253,7 @@ export function AddressForm() {
               autoComplete="address-level2"
               required
               value={fields.city}
-              onChange={(e) => set('city', e.target.value)}
+              onChange={(e) => set("city", e.target.value)}
               error={fieldErrors.city}
             />
           </div>
@@ -267,8 +269,8 @@ export function AddressForm() {
               name="stateCode"
               required
               value={fields.stateCode}
-              onChange={(e) => set('stateCode', e.target.value)}
-              aria-invalid={showStateWarning ? 'true' : 'false'}
+              onChange={(e) => set("stateCode", e.target.value)}
+              aria-invalid={showStateWarning ? "true" : "false"}
               className="w-full h-10 px-3 rounded-[var(--radius-md)] border border-[var(--border)] bg-[var(--surface-strong)] text-[14px] text-[var(--text)]"
             >
               <option value="">Select state…</option>
@@ -309,7 +311,7 @@ export function AddressForm() {
               autoComplete="postal-code"
               required
               value={fields.zip}
-              onChange={(e) => set('zip', e.target.value)}
+              onChange={(e) => set("zip", e.target.value)}
               error={fieldErrors.zip}
             />
           </div>
@@ -344,7 +346,7 @@ export function AddressForm() {
       )}
 
       <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)]">
-        Blocked states (Day-1): {BLOCKED_US_STATES.join(' · ')}
+        Blocked states (Day-1): {BLOCKED_US_STATES.join(" · ")}
       </p>
 
       <div className="flex justify-end">

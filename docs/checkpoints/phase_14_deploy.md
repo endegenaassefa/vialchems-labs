@@ -14,9 +14,10 @@ Status: GitHub COMPLETE; Vercel deferred to operator action
 ## Vercel deploy — operator action required
 
 The build cannot complete autonomous deploy because:
+
 1. Vercel CLI requires interactive auth flow (`vercel login`) tied to operator's account
 2. Production env vars must be set in Vercel dashboard (operator's choice for project name, region, env-var rotation)
-3. `vialchemlabs.com` domain registration + DNS pointing requires operator's registrar account
+3. `vialchemlabs.net` domain registration + DNS pointing requires operator's registrar account
 
 ### Step-by-step Vercel deploy procedure
 
@@ -38,11 +39,11 @@ vercel link
 
 # 3. Add production env vars (one-time; replace stubs with real values)
 vercel env add NEXT_PUBLIC_SITE_URL production
-# paste: https://vialchemlabs.com (or fallback domain)
+# paste: https://vialchemlabs.net (or fallback domain)
 vercel env add BRAND_NAME production
 # paste: vialchemlabs
 vercel env add BRAND_DOMAIN production
-# paste: vialchemlabs.com
+# paste: vialchemlabs.net
 
 # Supabase (real cloud project required)
 vercel env add NEXT_PUBLIC_SUPABASE_URL production
@@ -52,7 +53,7 @@ vercel env add SUPABASE_SERVICE_ROLE_KEY production
 # Resend (real account + verified domain required)
 vercel env add RESEND_API_KEY production
 vercel env add ORDER_EMAIL_FROM production
-# paste: research@vialchemlabs.com
+# paste: research@vialchemlabs.net
 vercel env add ORDER_STAFF_EMAILS production
 
 # Sentry (real project required for error monitoring)
@@ -85,15 +86,15 @@ vercel env add PAYMENT_PROVIDER production
 vercel --prod
 
 # 5. Configure custom domain
-vercel domains add vialchemlabs.com
+vercel domains add vialchemlabs.net
 # Operator points DNS A or CNAME at Vercel target shown in output
 
 # 6. Verify
-curl https://vialchemlabs.com/api/health
+curl https://vialchemlabs.net/api/health
 # Expected: { "status": "ok", "service": "vialchemlabs", "time": "..." }
 
 # 7. Smoke test
-# Browser: open https://vialchemlabs.com, confirm:
+# Browser: open https://vialchemlabs.net, confirm:
 #   - Hero renders with "Counted, weighed, verified."
 #   - /shop loads with 7 SKUs + Recovery Stack bundle
 #   - /products/bpc-157-10mg renders verbatim 336-345 word description
@@ -105,15 +106,9 @@ curl https://vialchemlabs.com/api/health
 
 ### Domain registration note
 
-`vialchemlabs.com` (`.labs` TLD) is operated by Donuts/Identity Digital. Available registrars include:
-- 101domain (https://www.101domain.com)
-- Gandi (https://www.gandi.net)
-- Possibly Namecheap, Dynadot for some `.labs` TLDs
-
-If `vialchemlabs.com` is unavailable or restricted, fallback options:
-1. `vialchemlabs.com` — check via WHOIS; standard registrars
-2. `vialchemlabs.com`
-3. `vialchemlabs.bio`
+`vialchemlabs.net` is the operator-provided production domain.
+It is currently delegated to Cloudflare nameservers. If registrar or
+DNS hosting changes, repeat the Vercel domain inspection before launch.
 
 Update `NEXT_PUBLIC_SITE_URL` env to match registered domain.
 

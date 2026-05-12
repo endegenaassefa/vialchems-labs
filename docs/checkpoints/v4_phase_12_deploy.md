@@ -9,7 +9,7 @@
 ## Goal
 
 Scaffold every artifact and operator-side instruction needed for the
-production deploy of `vialchemlabs.com`. The actual deploy itself is an
+production deploy of `vialchemlabs.net`. The actual deploy itself is an
 operator action (interactive `vercel login` + credential intake +
 `vercel --prod`); the agent never touches credentials per Iron Law 2.22.
 
@@ -18,6 +18,7 @@ operator action (interactive `vercel login` + credential intake +
 ### 12.1 — Vercel project scaffolding
 
 `vercel.json`:
+
 - `framework: nextjs`, region `iad1`, `npm run build` + `npm ci`
 - Security headers: HSTS preload (63072000), X-Frame-Options DENY,
   X-Content-Type-Options nosniff, strict Referrer-Policy,
@@ -34,6 +35,7 @@ research corpus, and env files out of the deploy slice.
 ### 12.2 — Branch-protection script (closes D24)
 
 `scripts/setup-branch-protection.sh`:
+
 - One-shot bash script using `gh` CLI; idempotent
 - Required CI checks: `e2e / unit-and-preflight`, `e2e / e2e`,
   `lighthouse / lighthouse (desktop)`, `lighthouse / lighthouse (mobile)`
@@ -57,6 +59,7 @@ Operator runs after `vercel link` lands: `bash scripts/setup-branch-protection.s
 ### 12.3 — DNS + registrar guide (closes D19)
 
 `docs/deploy/dns.md`:
+
 - Recommended registrar ranking (Cloudflare > Gandi > 101domain > Namecheap;
   GoDaddy explicitly avoided)
 - Apex + www records (A/CNAME via Vercel's `cname.vercel-dns.com.` or
@@ -65,16 +68,17 @@ Operator runs after `vercel link` lands: `bash scripts/setup-branch-protection.s
   (Resend dashboard supplies), DMARC (`p=quarantine` opener, tighten
   to `p=reject` after 7-day rua review), CAA (Let's Encrypt + DigiCert)
 - Resend 4-record sender domain verification flow
-- Fallback domains: `vialchemlabs.bio`, `vialchemlabs.com`, `vialchemlabs.co`
+- Fallback domains: `vialchemlabs.bio`, `vialchemlabs.net`, `vialchemlabs.co`
 - `dig` verification commands
 
 ### 12.4 — Deployment runbook (closes D18 procedure)
 
 `docs/deploy/runbook.md`: 9-step procedure
+
 1. Pre-launch checklist (12 boxes)
 2. `vercel link` interactive auth
 3. `vercel env add` for ~30 keys per Appendix AA, in dependency order
-4. `vercel domains add vialchemlabs.com`
+4. `vercel domains add vialchemlabs.net`
 5. Supabase migration push (`supabase db push` against linked project)
 6. First production deploy (`vercel --prod`)
 7. Post-deploy verification (health endpoint + sitemap + robots +
@@ -102,26 +106,26 @@ Existing 457 unit + 136 E2E tests still pass.
 
 ## Iron Laws verified
 
-| # | Iron Law | Phase 12 evidence |
-|---|---|---|
-| 2.1 | TDD | Pure scaffolding phase; no production-code changes that need RED→GREEN |
-| 2.2 | Verification before completion | Final `npm test` + `npm run build` + `npm run preflight` re-run |
-| 2.5 / 2.19 | Protected paths | Zero protected files modified; commit-body annotation confirms |
-| 2.16 | Pre-commit supply-chain scanner | Hooks ran on every commit; 0 violations |
-| 2.22 | No real credentials in source | Every credential reference is a placeholder + a runbook step |
-| 2.24 | No `.skip` / `.only` in CI E2E | `setup-branch-protection.sh` makes the CI gate part of branch protection |
-| 2.25 | Visual diffs require operator approval | CODEOWNERS for `tests/e2e/visual-regression.spec.ts*` enforces operator review |
-| 2.27 | Lighthouse CI gate | Required CI check enforced via branch protection |
+| #          | Iron Law                               | Phase 12 evidence                                                              |
+| ---------- | -------------------------------------- | ------------------------------------------------------------------------------ |
+| 2.1        | TDD                                    | Pure scaffolding phase; no production-code changes that need RED→GREEN         |
+| 2.2        | Verification before completion         | Final `npm test` + `npm run build` + `npm run preflight` re-run                |
+| 2.5 / 2.19 | Protected paths                        | Zero protected files modified; commit-body annotation confirms                 |
+| 2.16       | Pre-commit supply-chain scanner        | Hooks ran on every commit; 0 violations                                        |
+| 2.22       | No real credentials in source          | Every credential reference is a placeholder + a runbook step                   |
+| 2.24       | No `.skip` / `.only` in CI E2E         | `setup-branch-protection.sh` makes the CI gate part of branch protection       |
+| 2.25       | Visual diffs require operator approval | CODEOWNERS for `tests/e2e/visual-regression.spec.ts*` enforces operator review |
+| 2.27       | Lighthouse CI gate                     | Required CI check enforced via branch protection                               |
 
 ## Verbatim copy regrep (Iron Law 2.4 / 2.13)
 
-| Pattern | File | Hits | Expected |
-|---|---|---|---|
-| `21+ years of age` | `app/checkout/review/ReviewPanel.tsx` | 1 | 1 |
-| `research use only (RUO)` | `app/checkout/review/ReviewPanel.tsx` | 1 | 1 |
-| `qualified researcher acquiring` | `lib/customer-qualification.ts` | 1 | 1 |
-| `For research use only. Not for human or veterinary use` | `app/products/[slug]/page.tsx` | 2 | 2 |
-| `are not for human consumption` | `components/SiteFooter.tsx` | 1 | 1 |
+| Pattern                                                  | File                                  | Hits | Expected |
+| -------------------------------------------------------- | ------------------------------------- | ---- | -------- |
+| `21+ years of age`                                       | `app/checkout/review/ReviewPanel.tsx` | 1    | 1        |
+| `research use only (RUO)`                                | `app/checkout/review/ReviewPanel.tsx` | 1    | 1        |
+| `qualified researcher acquiring`                         | `lib/customer-qualification.ts`       | 1    | 1        |
+| `For research use only. Not for human or veterinary use` | `app/products/[slug]/page.tsx`        | 2    | 2        |
+| `are not for human consumption`                          | `components/SiteFooter.tsx`           | 1    | 1        |
 
 ## Operator handoff
 
@@ -129,7 +133,7 @@ Phase 12 is the **second operator gate** (Phase 10 was the first). The
 agent has done everything that doesn't need credentials. The operator
 must now:
 
-1. **Register `vialchemlabs.com`** at the chosen registrar (per
+1. **Register `vialchemlabs.net`** at the chosen registrar (per
    `docs/deploy/dns.md`)
 2. **Configure DNS** records (per `docs/deploy/dns.md` Step 2 + 4)
 3. **Fill `/tmp/vialchemlabs_credentials.txt`** per Appendix AA
@@ -138,7 +142,7 @@ must now:
 6. **Run the env-add sequence** from `docs/deploy/runbook.md` §2
 7. **Push the Supabase migration** (`npx supabase db push`)
 8. **Deploy** (`npx vercel --prod`)
-9. **Add the domain** (`npx vercel domains add vialchemlabs.com`)
+9. **Add the domain** (`npx vercel domains add vialchemlabs.net`)
 10. **Apply branch protection** (`bash scripts/setup-branch-protection.sh`)
 11. **Provision Sentry alerts** per Phase 10.3 thresholds table
 12. **Push the tag** (`git push origin v1.1.0`)
@@ -155,7 +159,7 @@ After step 12, Phase 13 (real-payment verification) begins.
     `btcpay` / `plaid` (or leave as `stub` for the first weekend and
     promote based on traffic shape)
 - **Phase 14+ (post-launch)**:
-  - Submit `https://vialchemlabs.com/sitemap.xml` to Google Search
+  - Submit `https://vialchemlabs.net/sitemap.xml` to Google Search
     Console + Bing Webmaster Tools
   - Configure Vercel Analytics
   - Schedule Week-+1 retrospective
@@ -181,7 +185,7 @@ After step 12, Phase 13 (real-payment verification) begins.
 ## Exit criteria
 
 Codebase is deploy-ready. Every artifact, script, and runbook for the
-production deploy of `vialchemlabs.com` is on disk. The operator has a
+production deploy of `vialchemlabs.net` is on disk. The operator has a
 complete, sequential procedure documented. Iron Laws 2.22 + 2.24 +
 2.25 + 2.27 are enforceable as soon as branch protection lands.
 Ready for Phase 13 (real-payment verification — operator-funded).

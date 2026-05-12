@@ -12,7 +12,7 @@
  * (alert spec table). Iron Law 2.5 / 2.19: this file joins the
  * protected paths list — alert thresholds are operational SLOs.
  */
-import * as Sentry from '@sentry/nextjs';
+import * as Sentry from "@sentry/nextjs";
 
 export type SentryEventContext = Record<string, unknown>;
 
@@ -28,7 +28,7 @@ export function captureException(
 /** Capture a structured message (e.g. "payment.reconciled.applied"). */
 export function captureMessage(
   message: string,
-  level: 'info' | 'warning' | 'error' = 'info',
+  level: "info" | "warning" | "error" = "info",
   context?: SentryEventContext,
 ): void {
   if (!process.env.NEXT_PUBLIC_SENTRY_DSN) return;
@@ -49,7 +49,7 @@ export function startWebhookTransaction(name: string): { end: () => void } {
   }
   // Sentry v10 uses the manual span API. Wrap startInactiveSpan so we
   // get an explicit end() handle the caller can release in a finally.
-  const span = Sentry.startInactiveSpan({ name, op: 'webhook' });
+  const span = Sentry.startInactiveSpan({ name, op: "webhook" });
   return {
     end: () => {
       try {

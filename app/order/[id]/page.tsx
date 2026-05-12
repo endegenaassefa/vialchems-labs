@@ -6,11 +6,11 @@
  * recent order from sessionStorage and falls back to a "no order on file"
  * empty state.
  */
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { OrderDetailIsland } from './OrderDetailIsland';
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { OrderDetailIsland } from "./OrderDetailIsland";
 
-export const dynamic = 'force-dynamic';
+export const dynamic = "force-dynamic";
 
 export default async function OrderDetailPage({
   params,

@@ -1,0 +1,28 @@
+# Launch Log
+
+- 2026-05-11T23:24:37-04:00 — Phase 0 source gate started from clean GitHub checkout.
+- 2026-05-11T23:24:37-04:00 — Repository URL: https://github.com/endegenaassefa/vialchems-labs.
+- 2026-05-11T23:24:37-04:00 — Starting branch/ref: main.
+- 2026-05-11T23:24:37-04:00 — Starting commit SHA: 3d339b21ebe3f043c4b4de1befae2ca341340fee.
+- 2026-05-11T23:24:37-04:00 — Initial checkout clean status: clean.
+- 2026-05-11T23:24:37-04:00 — Audit artifact lookup failed for required files in clean checkout audit/, /audit/, and /root/audit.
+- 2026-05-11T23:24:37-04:00 — Found /root/peptide-site/audit with cross-cutting reports and final report, but required MASTER_DEPLOYMENT_READINESS.md, ISSUE_TRACKER.csv, and ROADMAP.md are absent.
+- 2026-05-11T23:24:37-04:00 — Stopping per Phase 0.1: required audit artifacts are missing; no source changes made before user direction changed.
+- 2026-05-11T23:28:00-04:00 — User requested proceeding to make the project deployment-ready despite missing master tracker artifacts.
+- 2026-05-11T23:28:00-04:00 — Created launch branch `launch-prep` from `main` at `3d339b21ebe3f043c4b4de1befae2ca341340fee`.
+- 2026-05-11T23:32:00-04:00 — Using available audit inputs from `/root/peptide-site/audit/*.md` and derived `ISSUE_TRACKER.csv`.
+- 2026-05-11T23:43:00-04:00 — Fixed P0-1 runtime pin: added `.nvmrc`, package engines/packageManager, Node 22 GitHub Actions CI, and expanded `preflight`.
+- 2026-05-11T23:43:00-04:00 — Fixed P0-2 payment fail-closed behavior: production now rejects missing/invalid/stub payment provider unless explicitly overridden.
+- 2026-05-11T23:43:00-04:00 — Fixed P0-7 age-gate cookie integrity: server-signed HttpOnly cookie, verification route, proxy verification, and checkout enforcement.
+- 2026-05-11T23:44:00-04:00 — Fixed P0-3 checkout order creation: added server route for canonical catalog pricing, jurisdiction validation, qualification capture, Supabase persistence, and payment intent creation.
+- 2026-05-11T23:45:00-04:00 — Mitigated P0-6 COA placeholder risk: sample COAs are labeled sample-only, noindex/nofollow, excluded from sitemap, and PDFs are not linked until verified.
+- 2026-05-11T23:46:00-04:00 — Fixed P0-9 silent service no-ops in production: Supabase and Resend are required in production; contact/newsletter return errors instead of false success when production wiring fails.
+- 2026-05-11T23:47:00-04:00 — Fixed P1-1 ACH risk: live checkout disables ACH until Plaid create-intent support is implemented and verified.
+- 2026-05-11T23:48:00-04:00 — Added `/api/health/ready` for production secret readiness and created `USER_ACTION_REQUIRED.md`.
+- 2026-05-11T23:50:00-04:00 — Ran Prettier across the repository to close the formatting gate required by CI/preflight.
+- 2026-05-11T23:52:00-04:00 — Upgraded Vitest to 4.1.6 to clear Vite/esbuild moderate advisories; remaining audit advisory is current Next 16.2.6 transitive PostCSS with no safe non-breaking fix available from the registry.
+- 2026-05-11T23:53:00-04:00 — Verification passed on Node 22.16.0: `npm run typecheck`, `npm run lint` (warnings only), `npm run format:check`, `npm test` (49 files / 551 tests), `npm run build`, and full `npm run preflight`.
+- 2026-05-11T23:54:00-04:00 — Started local dev server on `http://localhost:3010`; `/` redirects to `/age-gate`, `/age-gate` returns 200, `/api/health` returns ok, and `/api/health/ready` correctly returns 503 until production secrets are supplied.
+- 2026-05-11T23:57:00-04:00 — Final `npm run preflight` passed after all code and deployment-ignore updates.
+- 2026-05-12T00:02:00-04:00 — Push attempt with `.github/workflows/ci.yml` was rejected because the active GitHub token lacks `workflow` scope. Removed the workflow from this commit so the launch branch can be published; CI workflow remains user-action-required until auth is refreshed.
+- 2026-05-12T00:12:00-04:00 — Operator provided production domain `vialchemlabs.net`; updated canonical URLs, default sender addresses, robots sitemap reference, deployment docs, and local production env template.

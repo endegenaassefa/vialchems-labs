@@ -1,6 +1,6 @@
-import type { NextConfig } from 'next';
-import bundleAnalyzer from '@next/bundle-analyzer';
-import { withSentryConfig } from '@sentry/nextjs';
+import type { NextConfig } from "next";
+import bundleAnalyzer from "@next/bundle-analyzer";
+import { withSentryConfig } from "@sentry/nextjs";
 
 /**
  * Phase 9 (v4) — bundle analyzer wired behind the ANALYZE env var.
@@ -8,7 +8,7 @@ import { withSentryConfig } from '@sentry/nextjs';
  * NEXT_PUBLIC_SENTRY_DSN / SENTRY_AUTH_TOKEN are empty (Day-1).
  */
 const withBundleAnalyzer = bundleAnalyzer({
-  enabled: process.env.ANALYZE === 'true',
+  enabled: process.env.ANALYZE === "true",
 });
 
 const nextConfig: NextConfig = {

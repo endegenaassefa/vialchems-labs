@@ -18,13 +18,13 @@ Re-read at phase entry: super-prompt §2.18 (no aesthetic regression), §2.21 (a
 
 ### 2.1 Shop catalog (`app/shop/ShopCatalog.tsx`)
 
-| Surface | Before (v3.0) | After (Phase 4 v4) |
-|---|---|---|
-| Recovery Stack bundle "View bundle" link | inline-styled border Link | `buttonClassNames('outline', 'md')` |
-| ProductTile cards | already used Card variant=interactive | unchanged — Phase 2 elevation flowed through automatically (--shadow-sm + hover --shadow-md) |
-| Empty results state | inline `<p>` "No products match the current filters." | `<EmptyState title="No matching peptides" description="..." action={<Button variant="outline">Clear all filters</Button>}>` — also wires the Clear-filters action to a single state-reset click |
-| Filter chips | already styled with active/inactive states | unchanged |
-| Search Input | already used Phase 2 Input primitive (focus inset shadow flowed through automatically) | unchanged |
+| Surface                                  | Before (v3.0)                                                                          | After (Phase 4 v4)                                                                                                                                                                              |
+| ---------------------------------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Recovery Stack bundle "View bundle" link | inline-styled border Link                                                              | `buttonClassNames('outline', 'md')`                                                                                                                                                             |
+| ProductTile cards                        | already used Card variant=interactive                                                  | unchanged — Phase 2 elevation flowed through automatically (--shadow-sm + hover --shadow-md)                                                                                                    |
+| Empty results state                      | inline `<p>` "No products match the current filters."                                  | `<EmptyState title="No matching peptides" description="..." action={<Button variant="outline">Clear all filters</Button>}>` — also wires the Clear-filters action to a single state-reset click |
+| Filter chips                             | already styled with active/inactive states                                             | unchanged                                                                                                                                                                                       |
+| Search Input                             | already used Phase 2 Input primitive (focus inset shadow flowed through automatically) | unchanged                                                                                                                                                                                       |
 
 ### 2.2 PDP — Product hero (`app/products/[slug]/page.tsx`)
 
@@ -61,40 +61,40 @@ Bundle hero now reads as a labeled-bottle pair — what the buyer would see if t
 
 ### 2.4 PDP — Price strip + Stack callout
 
-| Surface | Before (v3.0) | After (Phase 4 v4) |
-|---|---|---|
-| Price strip section | flat `bg-[var(--surface)]` strip with `py-10` | `<Card variant="elevated">` (--surface-elevated bg + --shadow-lg) wrapping price + AddToCartIsland; reads as raised plinth |
-| Stack callout (BPC/TB-500 → Recovery Stack) | flat `bg-[var(--surface-strong)]` strip | `<Card variant="elevated">` wrapping the same flex layout |
-| Stack callout "View bundle" Link | inline-styled border Link | `buttonClassNames('outline', 'md', 'ml-2')` |
-| Disclaimer block (verbatim Appendix A.2) | bordered Card-style div | UNCHANGED — verbatim text + structure preserved (Iron Law 2.5 + locked compliance copy) |
+| Surface                                     | Before (v3.0)                                 | After (Phase 4 v4)                                                                                                         |
+| ------------------------------------------- | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Price strip section                         | flat `bg-[var(--surface)]` strip with `py-10` | `<Card variant="elevated">` (--surface-elevated bg + --shadow-lg) wrapping price + AddToCartIsland; reads as raised plinth |
+| Stack callout (BPC/TB-500 → Recovery Stack) | flat `bg-[var(--surface-strong)]` strip       | `<Card variant="elevated">` wrapping the same flex layout                                                                  |
+| Stack callout "View bundle" Link            | inline-styled border Link                     | `buttonClassNames('outline', 'md', 'ml-2')`                                                                                |
+| Disclaimer block (verbatim Appendix A.2)    | bordered Card-style div                       | UNCHANGED — verbatim text + structure preserved (Iron Law 2.5 + locked compliance copy)                                    |
 
 ### 2.5 AddToCartIsland — Toast integration
 
-| Surface | Before | After |
-|---|---|---|
+| Surface           | Before                                                                              | After                                                                                                                       |
+| ----------------- | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | Cart-add feedback | `{justAdded && <Pill variant="accent">Added</Pill>}` (inline pill, 1.5s setTimeout) | `<Toast message="Added <name> to research order" tone="success" duration={3000} onDismiss={...}>` (Phase 2 Toast primitive) |
-| A11y | none — Pill was just visual | role="alert" + aria-live="polite" so AT announce the cart-add without requiring focus shift |
-| Animation | none | reveal-up CSS keyframe slide-in (honors prefers-reduced-motion globally) |
+| A11y              | none — Pill was just visual                                                         | role="alert" + aria-live="polite" so AT announce the cart-add without requiring focus shift                                 |
+| Animation         | none                                                                                | reveal-up CSS keyframe slide-in (honors prefers-reduced-motion globally)                                                    |
 
 Message copy is compliant — "Added X to research order" frames the cart action in research register, not marketing register.
 
 ### 2.6 ProductTabs — tab polish
 
-| Surface | Before | After |
-|---|---|---|
-| Tab indicator (active tab border-b accent) | already correct | unchanged |
-| COA panel "Download COA PDF" Link | inline-styled border Link | `buttonClassNames('outline', 'md')` |
-| COA panel Specs sidebar | default density (py-2; 12px/14px) | `<Specs dense ...>` — py-1; 11px/13px; matches Appendix AD §5 Metrics & Usage density target |
-| Related-product tiles | inline `<Link>` with custom border + bg + hover styles | `<Link><Card variant="interactive">...</Card></Link>` — inherits Phase 2 hover lift + shadow scale |
+| Surface                                    | Before                                                 | After                                                                                              |
+| ------------------------------------------ | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
+| Tab indicator (active tab border-b accent) | already correct                                        | unchanged                                                                                          |
+| COA panel "Download COA PDF" Link          | inline-styled border Link                              | `buttonClassNames('outline', 'md')`                                                                |
+| COA panel Specs sidebar                    | default density (py-2; 12px/14px)                      | `<Specs dense ...>` — py-1; 11px/13px; matches Appendix AD §5 Metrics & Usage density target       |
+| Related-product tiles                      | inline `<Link>` with custom border + bg + hover styles | `<Link><Card variant="interactive">...</Card></Link>` — inherits Phase 2 hover lift + shadow scale |
 
 ### 2.7 COA library (`app/coa/page.tsx`)
 
-| Surface | Before | After |
-|---|---|---|
-| Search Input | already used Phase 2 Input primitive | unchanged |
-| COA table wrapper | `bg-[var(--surface)]` div with `rounded-[14px]` | `<Card variant="elevated">` (--surface-elevated bg + --shadow-lg) |
-| Table row hover | none | added subtle `hover:bg-[var(--surface-strong)]` transition |
-| Empty results state | inline "No COAs match" tablerow | `<EmptyState title="No matching certificates" description="..." action={<Button>Clear search</Button>}>` |
+| Surface             | Before                                          | After                                                                                                    |
+| ------------------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Search Input        | already used Phase 2 Input primitive            | unchanged                                                                                                |
+| COA table wrapper   | `bg-[var(--surface)]` div with `rounded-[14px]` | `<Card variant="elevated">` (--surface-elevated bg + --shadow-lg)                                        |
+| Table row hover     | none                                            | added subtle `hover:bg-[var(--surface-strong)]` transition                                               |
+| Empty results state | inline "No COAs match" tablerow                 | `<EmptyState title="No matching certificates" description="..." action={<Button>Clear search</Button>}>` |
 
 ### 2.8 COA detail (`app/coa/[peptide]/[batch]/page.tsx`)
 
@@ -116,29 +116,29 @@ STATUS (Verified pill)
 
 This rhythm mirrors the on-vial wrap-label rhythm (PDP `<Vial withLabel />`), so a buyer scanning the physical product label and the digital COA page perceives them as the same object.
 
-| Surface | Before | After |
-|---|---|---|
-| Header | name + batch-line + tested-date | new BRAND eyebrow + name + dose-line + batch + tested + status pill (matching Appendix AD §1) |
-| Specs `<dl>` | bordered div with `divide-y` | `<Card variant="elevated">` + `<dl>` inside; gives the Specs grid a raised plinth |
-| Placeholder notice ("EXAMPLE COA — REPLACE BEFORE LAUNCH") | bordered + bg-tinted accent box | unchanged structure + added `--shadow-sm` for additional prominence |
-| Download PDF link | inline-styled accent CTA | `buttonClassNames('primary', 'lg')` |
-| Verify-at-Janoshik portal link | inline-styled border CTA | `buttonClassNames('outline', 'lg')` |
+| Surface                                                    | Before                          | After                                                                                         |
+| ---------------------------------------------------------- | ------------------------------- | --------------------------------------------------------------------------------------------- |
+| Header                                                     | name + batch-line + tested-date | new BRAND eyebrow + name + dose-line + batch + tested + status pill (matching Appendix AD §1) |
+| Specs `<dl>`                                               | bordered div with `divide-y`    | `<Card variant="elevated">` + `<dl>` inside; gives the Specs grid a raised plinth             |
+| Placeholder notice ("EXAMPLE COA — REPLACE BEFORE LAUNCH") | bordered + bg-tinted accent box | unchanged structure + added `--shadow-sm` for additional prominence                           |
+| Download PDF link                                          | inline-styled accent CTA        | `buttonClassNames('primary', 'lg')`                                                           |
+| Verify-at-Janoshik portal link                             | inline-styled border CTA        | `buttonClassNames('outline', 'lg')`                                                           |
 
 ---
 
 ## 3. Verification Evidence (Phase 4 verification gate)
 
-| Gate | Result |
-|---|---|
-| All catalog/PDP/COA pages elevated; all v3.0 content unchanged | **✓** — every line of v3.0 copy preserved (catalog tile descriptions, PDP product names + descriptions, COA placeholder notice, Janoshik portal link, RUO disclaimer text). Visual lift via primitive elevation only. |
-| `npm test` ≥ baseline | **✓** 385/385 (Phase 3 baseline) — Phase 4 is pure visual-polish consumption per super-prompt §8 PHASE 4 verification gate ("no new tests required for pure visual polish") |
-| `npm run build` clean | **✓** — 50 static + 38 routes; no compile errors |
-| `/impeccable critique` per page returns no critical issues | **PROXY** — see §4 below; native command activates on session restart |
-| `/design-review` per page passes | **PROXY** — see §4 below |
-| axe per page: 0 violations | **DEFERRED** to Phase 8 a11y lift; Phase 4 preserves all v3.0 a11y patterns + adds aria-live via Toast on cart-add |
-| Lighthouse spot-check per page: ≥ 90/95/95/95 | **DEFERRED** to Phase 9 perf lift / Phase 11 CI gate; Phase 4 introduces zero new JS runtime — consumes existing primitives + classNames |
-| Iron Law 2.5: any change to `lib/content/products.ts` or `product-descriptions.ts` ran `/review` + `/cso` first (likely no changes needed; visual lift only) | **✓** — zero edits to either file; `lib/content/products.ts` is the source of truth that the Vial catalog-whitelist consumes |
-| Checkpoint artifact written | **✓** — this file |
+| Gate                                                                                                                                                         | Result                                                                                                                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| All catalog/PDP/COA pages elevated; all v3.0 content unchanged                                                                                               | **✓** — every line of v3.0 copy preserved (catalog tile descriptions, PDP product names + descriptions, COA placeholder notice, Janoshik portal link, RUO disclaimer text). Visual lift via primitive elevation only. |
+| `npm test` ≥ baseline                                                                                                                                        | **✓** 385/385 (Phase 3 baseline) — Phase 4 is pure visual-polish consumption per super-prompt §8 PHASE 4 verification gate ("no new tests required for pure visual polish")                                           |
+| `npm run build` clean                                                                                                                                        | **✓** — 50 static + 38 routes; no compile errors                                                                                                                                                                      |
+| `/impeccable critique` per page returns no critical issues                                                                                                   | **PROXY** — see §4 below; native command activates on session restart                                                                                                                                                 |
+| `/design-review` per page passes                                                                                                                             | **PROXY** — see §4 below                                                                                                                                                                                              |
+| axe per page: 0 violations                                                                                                                                   | **DEFERRED** to Phase 8 a11y lift; Phase 4 preserves all v3.0 a11y patterns + adds aria-live via Toast on cart-add                                                                                                    |
+| Lighthouse spot-check per page: ≥ 90/95/95/95                                                                                                                | **DEFERRED** to Phase 9 perf lift / Phase 11 CI gate; Phase 4 introduces zero new JS runtime — consumes existing primitives + classNames                                                                              |
+| Iron Law 2.5: any change to `lib/content/products.ts` or `product-descriptions.ts` ran `/review` + `/cso` first (likely no changes needed; visual lift only) | **✓** — zero edits to either file; `lib/content/products.ts` is the source of truth that the Vial catalog-whitelist consumes                                                                                          |
+| Checkpoint artifact written                                                                                                                                  | **✓** — this file                                                                                                                                                                                                     |
 
 **Visual-smoke evidence via dev server:**
 
@@ -178,12 +178,14 @@ curl /coa/bpc-157-10mg/BATCH-2026-PLACEHOLDER
 Manual structured review against Appendix AC + Appendix AD + Iron Law 2.26:
 
 ### Anti-slop check
+
 - ✓ No purple/blue gradient overlays added
 - ✓ No glow halos, no neon accents
 - ✓ No new fonts introduced; IBM Plex stack preserved
 - ✓ Vial label uses charcoal `--label-bg` + teal accent stripe; no brand drift
 
 ### Anti-pattern check (Iron Law 2.26 + Phase 4 v3.0 anti-pattern list)
+
 - ✓ No emoji icons added (Toast uses `×` character; ProductTabs Download CTA uses `↓` text-arrow which was already in v3.0)
 - ✓ No before/after photography (vial labels are SVG-rendered; no stock product photos)
 - ✓ No 3-column SaaS feature grid feel — catalog uses Card.interactive in 3-column research-paper rhythm
@@ -191,6 +193,7 @@ Manual structured review against Appendix AC + Appendix AD + Iron Law 2.26:
 - ✓ Iron Law 2.7 enforced: catalog whitelist guarantees no banned-compound name reaches the label
 
 ### Brand-fit check (Posture A LOCKED)
+
 - ✓ `--accent #3dd4c8` teal preserved across Card hover borders, Pill variants, label accent stripe
 - ✓ `--bg #0a0e0f` charcoal preserved as Card.elevated label bg
 - ✓ Plex Sans + Plex Mono + Newsreader Italic stack preserved
@@ -198,6 +201,7 @@ Manual structured review against Appendix AC + Appendix AD + Iron Law 2.26:
 - ✓ "Counted, weighed, verified." italic accent preserved (home; not changed)
 
 ### Surface-fit check (Appendix AC)
+
 - ✓ Stripe.com: PDP price strip restraint matches
 - ✓ Linear.app: COA table elevated plinth matches
 - ✓ Vercel.com: PDP Stack callout elevated card matches
@@ -208,6 +212,7 @@ Manual structured review against Appendix AC + Appendix AD + Iron Law 2.26:
 ### Critical issues — none.
 
 ### Non-blocking refinements for Phase 5+ / 7
+
 1. Vial aspect-ratio refinement to real-product 50:22 (Appendix AD §3) — operator approval gate before viewBox edit; defer to operator preview moment
 2. QR-code real encoder (`qrcode-svg`, ≤10KB gzipped) — Phase 9 swap when /coa URLs are wired into actual labels; current placeholder is visually unmistakable as QR
 3. Stagger reveal animation on catalog tiles — Phase 7 motion layer
@@ -218,17 +223,17 @@ Manual structured review against Appendix AC + Appendix AD + Iron Law 2.26:
 
 ## 5. Iron Law Compliance (Phase 4)
 
-| Iron Law | Compliance evidence |
-|---|---|
-| **2.4 forbidden marketing language** | grep-forbidden-words.sh fired and passed; no copy edits |
-| **2.5 protected paths** | No protected-path edits (`app/products/[slug]/page.tsx`, `app/coa/*`, `app/shop/ShopCatalog.tsx`, etc. are not on the Iron-Law-2.5 list). Verbatim disclaimer + footer compliance text untouched. |
-| **2.7 banned compounds** | Vial.assertCompoundAllowed() validates compound prop against `lib/content/products.ts` whitelist; PDP passes `product.shortName` (always in catalog by construction); BundleDetail passes `constituent.shortName` (also in catalog); banned-compound rendering mathematically impossible |
-| **2.13 claim crossover** | No claim text in any visual lift; Toast message uses research-register language only |
-| **2.18 no aesthetic regression** | All primitive-level tests still pass (Card, Button, Vial, Toast, Pill, Specs, Input — covering existing visual contracts); new surfaces are additive elevations + Toast replaces inline Pill (a11y improvement) |
-| **2.21 additive tokens** | Zero design-token edits; consumes Phase 1 tokens via Phase 2 primitives |
-| **2.22 no real credentials** | No credential-adjacent code |
-| **2.26 brand expression** | All hero copy + Recovery Stack copy + COA placeholder notice + RUO disclaimer + tagline preserved verbatim; new visual rhythm extends Posture A within locked palette |
-| **2.27 performance** | Zero new deps; ~0KB bundle delta; SVG label is hand-rolled (no library); buttonClassNames helper reuses existing className computation |
+| Iron Law                             | Compliance evidence                                                                                                                                                                                                                                                                      |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **2.4 forbidden marketing language** | grep-forbidden-words.sh fired and passed; no copy edits                                                                                                                                                                                                                                  |
+| **2.5 protected paths**              | No protected-path edits (`app/products/[slug]/page.tsx`, `app/coa/*`, `app/shop/ShopCatalog.tsx`, etc. are not on the Iron-Law-2.5 list). Verbatim disclaimer + footer compliance text untouched.                                                                                        |
+| **2.7 banned compounds**             | Vial.assertCompoundAllowed() validates compound prop against `lib/content/products.ts` whitelist; PDP passes `product.shortName` (always in catalog by construction); BundleDetail passes `constituent.shortName` (also in catalog); banned-compound rendering mathematically impossible |
+| **2.13 claim crossover**             | No claim text in any visual lift; Toast message uses research-register language only                                                                                                                                                                                                     |
+| **2.18 no aesthetic regression**     | All primitive-level tests still pass (Card, Button, Vial, Toast, Pill, Specs, Input — covering existing visual contracts); new surfaces are additive elevations + Toast replaces inline Pill (a11y improvement)                                                                          |
+| **2.21 additive tokens**             | Zero design-token edits; consumes Phase 1 tokens via Phase 2 primitives                                                                                                                                                                                                                  |
+| **2.22 no real credentials**         | No credential-adjacent code                                                                                                                                                                                                                                                              |
+| **2.26 brand expression**            | All hero copy + Recovery Stack copy + COA placeholder notice + RUO disclaimer + tagline preserved verbatim; new visual rhythm extends Posture A within locked palette                                                                                                                    |
+| **2.27 performance**                 | Zero new deps; ~0KB bundle delta; SVG label is hand-rolled (no library); buttonClassNames helper reuses existing className computation                                                                                                                                                   |
 
 ---
 
@@ -254,6 +259,7 @@ None. While Phase 4 was a multi-page polish with three logical groups (shop / PD
 Phase 5 (Page Polish — Checkout + Account + Order) is unblocked. Target 90-120 min. North Star reload required: §2.18, §2.21, §2.26, §2.5 (compliance review gate — checkout touches age gate + jurisdictional + qualification; read-only polish, no logic changes), Appendix W.1 visual quality checklist.
 
 **Phase 5 deliverables (per super-prompt §8 PHASE 5):**
+
 - Cart: elevated line-item Cards, EmptyState replacement, refined summary
 - Checkout/address: Phase 2 Input elevation; polished state-block warning; Country select disabled state refined
 - Checkout/method: PaymentOption cards with elevated hover; refined Pills; polished sticky summary

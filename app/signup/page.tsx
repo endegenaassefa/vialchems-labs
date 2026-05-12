@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 /**
  * Signup — v1.3 real-feeling account creation.
@@ -12,32 +12,32 @@
  * API of useAuthStore stays the same so this page won't need to change.
  */
 
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { useState, type FormEvent } from 'react';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { Card } from '@/components/ui/Card';
-import { Pill } from '@/components/ui/Pill';
-import { FieldLabel } from '@/components/ui/FieldLabel';
-import { Input } from '@/components/ui/Input';
-import { Button } from '@/components/ui/Button';
-import { useAuthStore } from '@/lib/auth-store';
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useState, type FormEvent } from "react";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { Card } from "@/components/ui/Card";
+import { Pill } from "@/components/ui/Pill";
+import { FieldLabel } from "@/components/ui/FieldLabel";
+import { Input } from "@/components/ui/Input";
+import { Button } from "@/components/ui/Button";
+import { useAuthStore } from "@/lib/auth-store";
 import {
   QualificationRoles,
   qualificationRoleLabels,
   type QualificationRole,
-} from '@/lib/customer-qualification';
+} from "@/lib/customer-qualification";
 
 export default function SignupPage() {
   const router = useRouter();
   const signup = useAuthStore((s) => s.signup);
 
-  const [email, setEmail] = useState('');
-  const [displayName, setDisplayName] = useState('');
-  const [password, setPassword] = useState('');
-  const [passwordConfirm, setPasswordConfirm] = useState('');
-  const [role, setRole] = useState<QualificationRole>('academic-researcher');
+  const [email, setEmail] = useState("");
+  const [displayName, setDisplayName] = useState("");
+  const [password, setPassword] = useState("");
+  const [passwordConfirm, setPasswordConfirm] = useState("");
+  const [role, setRole] = useState<QualificationRole>("academic-researcher");
   const [newsletterOptIn, setNewsletterOptIn] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -46,15 +46,17 @@ export default function SignupPage() {
     e.preventDefault();
     setError(null);
     if (password !== passwordConfirm) {
-      setError('Passwords do not match.');
+      setError("Passwords do not match.");
       return;
     }
     setSubmitting(true);
     try {
       await signup({ email, password, role, displayName, newsletterOptIn });
-      router.push('/account');
+      router.push("/account");
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Could not create account.');
+      setError(
+        err instanceof Error ? err.message : "Could not create account.",
+      );
       setSubmitting(false);
     }
   }
@@ -75,7 +77,8 @@ export default function SignupPage() {
               </span>
             </h1>
             <p className="text-[15px] leading-[1.6] text-[var(--text-muted)] mb-8">
-              Faster checkout. Persistent qualification. COA download history. Order tracking.
+              Faster checkout. Persistent qualification. COA download history.
+              Order tracking.
             </p>
 
             <Card variant="elevated" className="p-6">
@@ -123,7 +126,9 @@ export default function SignupPage() {
                     name="role"
                     required
                     value={role}
-                    onChange={(e) => setRole(e.target.value as QualificationRole)}
+                    onChange={(e) =>
+                      setRole(e.target.value as QualificationRole)
+                    }
                     className="mt-2 w-full h-11 px-3 rounded-[var(--radius-md)] bg-[var(--surface-strong)] border border-[var(--border)] text-[14px] focus:border-[var(--accent)] focus:outline-none"
                   >
                     {QualificationRoles.map((r) => (
@@ -181,7 +186,8 @@ export default function SignupPage() {
                     className="mt-1 h-4 w-4 accent-[var(--accent)]"
                   />
                   <span>
-                    Send me new-batch announcements + research index updates. Unsubscribe anytime.
+                    Send me new-batch announcements + research index updates.
+                    Unsubscribe anytime.
                   </span>
                 </label>
 
@@ -201,7 +207,7 @@ export default function SignupPage() {
                   className="w-full"
                   disabled={submitting}
                 >
-                  {submitting ? 'Creating account…' : 'Create account'}
+                  {submitting ? "Creating account…" : "Create account"}
                 </Button>
 
                 <div className="flex flex-wrap items-center justify-between gap-2 pt-2">
@@ -214,18 +220,31 @@ export default function SignupPage() {
             </Card>
 
             <p className="mt-6 text-[14px] text-[var(--text-muted)] text-center">
-              Already have an account?{' '}
-              <Link href="/login" className="text-[var(--accent)] hover:text-[var(--accent-soft)]">
+              Already have an account?{" "}
+              <Link
+                href="/login"
+                className="text-[var(--accent)] hover:text-[var(--accent-soft)]"
+              >
                 Sign in →
               </Link>
             </p>
             <p className="mt-6 text-[12px] text-[var(--text-subtle)] leading-[1.55]">
-              By creating an account, you agree to our{' '}
-              <Link href="/legal/terms" className="text-[var(--text-muted)] underline">Terms</Link>{' '}
-              and{' '}
-              <Link href="/legal/privacy" className="text-[var(--text-muted)] underline">Privacy Policy</Link>
-              . You confirm you are 21+ and will use products solely for laboratory research in
-              non-clinical settings.
+              By creating an account, you agree to our{" "}
+              <Link
+                href="/legal/terms"
+                className="text-[var(--text-muted)] underline"
+              >
+                Terms
+              </Link>{" "}
+              and{" "}
+              <Link
+                href="/legal/privacy"
+                className="text-[var(--text-muted)] underline"
+              >
+                Privacy Policy
+              </Link>
+              . You confirm you are 21+ and will use products solely for
+              laboratory research in non-clinical settings.
             </p>
           </div>
         </section>

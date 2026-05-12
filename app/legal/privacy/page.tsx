@@ -2,14 +2,14 @@
  * Privacy Policy — composed per SUPER_PROMPT_v3 Appendix L.2.
  * GDPR + CCPA compliant template, ~1500 words.
  */
-import type { Metadata } from 'next';
-import { LegalShell } from '@/components/LegalShell';
-import { siteConfig } from '@/lib/content/site';
+import type { Metadata } from "next";
+import { LegalShell } from "@/components/LegalShell";
+import { siteConfig } from "@/lib/content/site";
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy',
+  title: "Privacy Policy",
   description:
-    'How vialchemlabs collects, uses, shares, and protects personal information, and your rights under GDPR and CCPA.',
+    "How vialchemlabs collects, uses, shares, and protects personal information, and your rights under GDPR and CCPA.",
 };
 
 export default function PrivacyPage() {
@@ -25,9 +25,9 @@ export default function PrivacyPage() {
       <P>
         {llc} (&quot;{brand},&quot; &quot;we,&quot; &quot;us,&quot; or
         &quot;our&quot;) operates the website at {siteConfig.url}. This Privacy
-        Policy explains what information we collect, how we use it, with whom
-        we share it, and the rights you have over it. By using the site, you
-        agree to the practices described in this policy.
+        Policy explains what information we collect, how we use it, with whom we
+        share it, and the rights you have over it. By using the site, you agree
+        to the practices described in this policy.
       </P>
 
       <H2>1. Information We Collect</H2>
@@ -61,17 +61,33 @@ export default function PrivacyPage() {
       </P>
       <H3>1.5 Cookies</H3>
       <P>
-        See the <A href="/legal/cookies">Cookie Policy</A> for the categories
-        of cookies we set, the purposes, and how to manage consent.
+        See the <A href="/legal/cookies">Cookie Policy</A> for the categories of
+        cookies we set, the purposes, and how to manage consent.
       </P>
 
       <H2>2. How We Use Information</H2>
       <UL>
-        <LI>Order fulfillment: process payments, qualify the buyer, ship products, communicate about orders.</LI>
-        <LI>Account management: authenticate you, maintain order history, respond to support inquiries.</LI>
-        <LI>Marketing: send research updates only where you have opted in. You can opt out at any time via the unsubscribe link in any email.</LI>
-        <LI>Fraud prevention and security: detect and respond to suspicious activity, abuse, or violation of our Terms.</LI>
-        <LI>Legal compliance: respond to lawful requests from authorities, enforce our agreements, exercise legal claims, and comply with regulatory obligations.</LI>
+        <LI>
+          Order fulfillment: process payments, qualify the buyer, ship products,
+          communicate about orders.
+        </LI>
+        <LI>
+          Account management: authenticate you, maintain order history, respond
+          to support inquiries.
+        </LI>
+        <LI>
+          Marketing: send research updates only where you have opted in. You can
+          opt out at any time via the unsubscribe link in any email.
+        </LI>
+        <LI>
+          Fraud prevention and security: detect and respond to suspicious
+          activity, abuse, or violation of our Terms.
+        </LI>
+        <LI>
+          Legal compliance: respond to lawful requests from authorities, enforce
+          our agreements, exercise legal claims, and comply with regulatory
+          obligations.
+        </LI>
       </UL>
 
       <H2>3. Legal Bases (GDPR)</H2>
@@ -80,14 +96,26 @@ export default function PrivacyPage() {
         process personal data on the following legal bases:
       </P>
       <UL>
-        <LI><strong>Contract:</strong> processing necessary to fulfill an order or operate your account.</LI>
-        <LI><strong>Consent:</strong> processing where you have given affirmative opt-in (e.g., marketing emails, non-essential cookies).</LI>
-        <LI><strong>Legitimate interest:</strong> site operation, fraud prevention, aggregated analytics, security.</LI>
-        <LI><strong>Legal obligation:</strong> processing required to comply with applicable law.</LI>
+        <LI>
+          <strong>Contract:</strong> processing necessary to fulfill an order or
+          operate your account.
+        </LI>
+        <LI>
+          <strong>Consent:</strong> processing where you have given affirmative
+          opt-in (e.g., marketing emails, non-essential cookies).
+        </LI>
+        <LI>
+          <strong>Legitimate interest:</strong> site operation, fraud
+          prevention, aggregated analytics, security.
+        </LI>
+        <LI>
+          <strong>Legal obligation:</strong> processing required to comply with
+          applicable law.
+        </LI>
       </UL>
       <P>
-        You may withdraw consent at any time without affecting the lawfulness
-        of processing carried out before withdrawal.
+        You may withdraw consent at any time without affecting the lawfulness of
+        processing carried out before withdrawal.
       </P>
 
       <H2>4. Sharing</H2>
@@ -97,11 +125,25 @@ export default function PrivacyPage() {
         appropriate to the data type:
       </P>
       <UL>
-        <LI><strong>Hosting and database (Supabase):</strong> stores encrypted account, order, and qualification data.</LI>
-        <LI><strong>Payment processors:</strong> self-hosted crypto infrastructure and Plaid for ACH.</LI>
-        <LI><strong>Shipping carriers:</strong> USPS and FedEx, for delivery.</LI>
-        <LI><strong>Transactional email (Resend):</strong> delivers order confirmations, shipping notices, and password resets.</LI>
-        <LI><strong>Error monitoring (Sentry):</strong> captures crash reports for engineering. PII is redacted before transmission where possible.</LI>
+        <LI>
+          <strong>Hosting and database (Supabase):</strong> stores encrypted
+          account, order, and qualification data.
+        </LI>
+        <LI>
+          <strong>Payment processors:</strong> self-hosted crypto infrastructure
+          and Plaid for ACH.
+        </LI>
+        <LI>
+          <strong>Shipping carriers:</strong> USPS and FedEx, for delivery.
+        </LI>
+        <LI>
+          <strong>Transactional email (Resend):</strong> delivers order
+          confirmations, shipping notices, and password resets.
+        </LI>
+        <LI>
+          <strong>Error monitoring (Sentry):</strong> captures crash reports for
+          engineering. PII is redacted before transmission where possible.
+        </LI>
       </UL>
       <P>
         We do not share personal data with third-party advertising networks. We
@@ -120,34 +162,47 @@ export default function PrivacyPage() {
       </P>
 
       <H2>6. Your Rights</H2>
-      <P>
-        Depending on your jurisdiction, you may have rights to:
-      </P>
+      <P>Depending on your jurisdiction, you may have rights to:</P>
       <UL>
-        <LI><strong>Access</strong> the personal data we hold about you.</LI>
-        <LI><strong>Rectify</strong> inaccurate or incomplete data.</LI>
-        <LI><strong>Erase</strong> data, subject to legal-retention exceptions.</LI>
-        <LI><strong>Restrict</strong> processing in defined circumstances.</LI>
-        <LI><strong>Port</strong> data to another controller in a structured format.</LI>
-        <LI><strong>Object</strong> to processing based on legitimate interests.</LI>
-        <LI><strong>Withdraw consent</strong> previously given.</LI>
+        <LI>
+          <strong>Access</strong> the personal data we hold about you.
+        </LI>
+        <LI>
+          <strong>Rectify</strong> inaccurate or incomplete data.
+        </LI>
+        <LI>
+          <strong>Erase</strong> data, subject to legal-retention exceptions.
+        </LI>
+        <LI>
+          <strong>Restrict</strong> processing in defined circumstances.
+        </LI>
+        <LI>
+          <strong>Port</strong> data to another controller in a structured
+          format.
+        </LI>
+        <LI>
+          <strong>Object</strong> to processing based on legitimate interests.
+        </LI>
+        <LI>
+          <strong>Withdraw consent</strong> previously given.
+        </LI>
       </UL>
       <P>
-        California residents have additional rights under the CCPA: to know
-        what categories of personal information are collected, to opt out of
-        any &quot;sale&quot; (we do not sell personal data), and to request
-        deletion. To exercise any of these rights, email{' '}
-        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A>.
-        We may verify your identity before responding. We will respond within
+        California residents have additional rights under the CCPA: to know what
+        categories of personal information are collected, to opt out of any
+        &quot;sale&quot; (we do not sell personal data), and to request
+        deletion. To exercise any of these rights, email{" "}
+        <A href="mailto:research@vialchemlabs.net">research@vialchemlabs.net</A>
+        . We may verify your identity before responding. We will respond within
         the timeframe required by applicable law (typically 30 days).
       </P>
 
       <H2>7. Children</H2>
       <P>
         We do not knowingly collect personal data from anyone under 21 years of
-        age. The site and the products are not directed to or available to
-        users under 21. If we learn that we have collected personal data from a
-        person under 21, we will delete that data.
+        age. The site and the products are not directed to or available to users
+        under 21. If we learn that we have collected personal data from a person
+        under 21, we will delete that data.
       </P>
 
       <H2>8. Security</H2>
@@ -162,23 +217,24 @@ export default function PrivacyPage() {
       <H2>9. International Transfers</H2>
       <P>
         Personal data may be processed in the United States. If you access the
-        site from outside the United States, you understand that your data
-        will be transferred to and processed in the United States.
+        site from outside the United States, you understand that your data will
+        be transferred to and processed in the United States.
       </P>
 
       <H2>10. Contact</H2>
       <P>
         For privacy questions, data-rights requests, or to update your contact
-        preferences, email{' '}
-        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A>.
+        preferences, email{" "}
+        <A href="mailto:research@vialchemlabs.net">research@vialchemlabs.net</A>
+        .
       </P>
 
       <H2>11. Changes</H2>
       <P>
-        We may update this Privacy Policy from time to time. The
-        &quot;Last updated&quot; date at the top reflects the most recent
-        revision. Material changes will be communicated via email or prominent
-        notice on the site.
+        We may update this Privacy Policy from time to time. The &quot;Last
+        updated&quot; date at the top reflects the most recent revision.
+        Material changes will be communicated via email or prominent notice on
+        the site.
       </P>
     </LegalShell>
   );
@@ -216,13 +272,7 @@ function LI({ children }: { children: React.ReactNode }) {
   return <li>{children}</li>;
 }
 
-function A({
-  href,
-  children,
-}: {
-  href: string;
-  children: React.ReactNode;
-}) {
+function A({ href, children }: { href: string; children: React.ReactNode }) {
   return (
     <a
       href={href}

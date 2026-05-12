@@ -8,15 +8,15 @@ Phase goal: verify codebase state matches v3.0 ship; confirm deferral inventory;
 
 ## 1. Codebase Audit (Phase 0 verification gate)
 
-| Check | Result |
-|---|---|
-| `npm test` | **304/304 passing**, 25 test files, 10.99s. Matches v3.0 Phase 12 ledger. |
-| `npm run build` | Clean. 50 static + 38 routes (37 page/route files + `error.tsx` + `not-found.tsx`). Matches v3.0. |
-| `npm run preflight` | Clean after small Iron-Law-2.16-aligned hygiene fix to `scripts/grep-mogtrix.sh` (see §1.1 below). 1 ESLint warning preserved (`ShopCatalog.tsx:111` exhaustive-deps; pre-existing post-v1.0.0). |
-| `git log` | HEAD = `d389ad3`; 7 commits ahead of `v1.0.0` tag (`1be2860`). All 7 are post-v1.0.0 QA fixes (ISSUE-001 through ISSUE-008); none touch protected paths. |
-| `git status` | 5 untracked entries before this checkpoint: `.gstack/`, `CODEBASE_UNDERSTANDING.md`, `RESEARCH_PLAN.md`, `SUPER_PROMPT_v4_2026-05-09_ui-and-finish.md`, `docs/design-references/`. After this checkpoint: also `.repomixignore`, `.mcp.json`, `docs/checkpoints/v4_phase_0_*.md`. |
-| Protected paths diff vs `v1.0.0` | **0 lines**. Verified via `git diff v1.0.0 HEAD -- lib/payments/ lib/compliance.ts lib/customer-qualification.ts lib/attestations.ts app/api/payments/ lib/content/products.ts lib/content/product-descriptions.ts`. |
-| Tracked-source `Mogtrix` mentions | Only `scripts/grep-mogtrix.sh` (the scanner itself; allowlisted by design). All other Mogtrix mentions are in untracked v4 input docs at root. |
+| Check                             | Result                                                                                                                                                                                                                                                                            |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `npm test`                        | **304/304 passing**, 25 test files, 10.99s. Matches v3.0 Phase 12 ledger.                                                                                                                                                                                                         |
+| `npm run build`                   | Clean. 50 static + 38 routes (37 page/route files + `error.tsx` + `not-found.tsx`). Matches v3.0.                                                                                                                                                                                 |
+| `npm run preflight`               | Clean after small Iron-Law-2.16-aligned hygiene fix to `scripts/grep-mogtrix.sh` (see §1.1 below). 1 ESLint warning preserved (`ShopCatalog.tsx:111` exhaustive-deps; pre-existing post-v1.0.0).                                                                                  |
+| `git log`                         | HEAD = `d389ad3`; 7 commits ahead of `v1.0.0` tag (`1be2860`). All 7 are post-v1.0.0 QA fixes (ISSUE-001 through ISSUE-008); none touch protected paths.                                                                                                                          |
+| `git status`                      | 5 untracked entries before this checkpoint: `.gstack/`, `CODEBASE_UNDERSTANDING.md`, `RESEARCH_PLAN.md`, `SUPER_PROMPT_v4_2026-05-09_ui-and-finish.md`, `docs/design-references/`. After this checkpoint: also `.repomixignore`, `.mcp.json`, `docs/checkpoints/v4_phase_0_*.md`. |
+| Protected paths diff vs `v1.0.0`  | **0 lines**. Verified via `git diff v1.0.0 HEAD -- lib/payments/ lib/compliance.ts lib/customer-qualification.ts lib/attestations.ts app/api/payments/ lib/content/products.ts lib/content/product-descriptions.ts`.                                                              |
+| Tracked-source `Mogtrix` mentions | Only `scripts/grep-mogtrix.sh` (the scanner itself; allowlisted by design). All other Mogtrix mentions are in untracked v4 input docs at root.                                                                                                                                    |
 
 ### 1.1 Scanner hygiene — `scripts/grep-mogtrix.sh` allowlist
 
@@ -38,15 +38,15 @@ Iron Law 2.16 spirit preserved: scanner still fires on every commit; no `--no-ve
 
 ### 2.1 Installed (Phase 0)
 
-| # | Tool | Mechanism | Status |
-|---|---|---|---|
-| X.1.1 | anthropics/skills `frontend-design` | `claude plugin install frontend-design` | ✅ installed (claude-plugins-official, user scope) |
-| X.1.2 | pbakaus/impeccable | `claude plugin marketplace add pbakaus/impeccable` → `claude plugin install impeccable@impeccable` | ✅ installed v3.0.7 (user scope) |
-| X.1.8 | forrestchang/andrej-karpathy-skills CLAUDE.md | Read-only absorption per X.1.8 directive (NOT installed as competing CLAUDE.md) | ✅ absorbed; four principles pinned in §2.2 below |
-| X.1.12 | nextlevelbuilder/ui-ux-pro-max-skill | Marketplace add + plugin install (operator-authorized via Phase 0 Gate #2) | ✅ installed v2.5.0 (user scope); supply-chain audit in §3 below |
-| X.1.28 | yamadashy/repomix | `npm install -g repomix` | ✅ installed v1.14.0; `.repomixignore` added (excludes `.env*`, root-level handoff docs, build artifacts) |
-| X.1.29 | ryoppippi/ccusage | `npm install -g ccusage` | ✅ installed v18.0.11; baseline run captured (cumulative project spend $2,040.90 across 2026-05-08+09 to date) |
-| X.1.31 | obra/superpowers | Already installed v5.1.0 | ✅ verified (claude-plugins-official, user scope) |
+| #      | Tool                                          | Mechanism                                                                                          | Status                                                                                                         |
+| ------ | --------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| X.1.1  | anthropics/skills `frontend-design`           | `claude plugin install frontend-design`                                                            | ✅ installed (claude-plugins-official, user scope)                                                             |
+| X.1.2  | pbakaus/impeccable                            | `claude plugin marketplace add pbakaus/impeccable` → `claude plugin install impeccable@impeccable` | ✅ installed v3.0.7 (user scope)                                                                               |
+| X.1.8  | forrestchang/andrej-karpathy-skills CLAUDE.md | Read-only absorption per X.1.8 directive (NOT installed as competing CLAUDE.md)                    | ✅ absorbed; four principles pinned in §2.2 below                                                              |
+| X.1.12 | nextlevelbuilder/ui-ux-pro-max-skill          | Marketplace add + plugin install (operator-authorized via Phase 0 Gate #2)                         | ✅ installed v2.5.0 (user scope); supply-chain audit in §3 below                                               |
+| X.1.28 | yamadashy/repomix                             | `npm install -g repomix`                                                                           | ✅ installed v1.14.0; `.repomixignore` added (excludes `.env*`, root-level handoff docs, build artifacts)      |
+| X.1.29 | ryoppippi/ccusage                             | `npm install -g ccusage`                                                                           | ✅ installed v18.0.11; baseline run captured (cumulative project spend $2,040.90 across 2026-05-08+09 to date) |
+| X.1.31 | obra/superpowers                              | Already installed v5.1.0                                                                           | ✅ verified (claude-plugins-official, user scope)                                                              |
 
 ### 2.2 Karpathy four-principle absorption (X.1.8)
 
@@ -59,12 +59,12 @@ Internalized as mental scaffolding alongside the 27 Iron Laws:
 
 ### 2.3 Deferred / declined
 
-| # | Tool | Status | Why |
-|---|---|---|---|
-| X.1.4 | alchaincyf/huashu-design | **DEFERRED to Phase 1** | Operator confirmed personal/research-use license is free (no payment gate). Auto-mode harness classifier blocked the third-party `npx skills add` install in this Phase 0 session despite operator authorization. impeccable + ui-ux-pro-max already triangulate the design-fidelity discipline (27 anti-pattern rules + 161 industry rules) for Phase 1 token elevation; if huashu-style critique becomes load-bearing in Phase 2 primitive overhaul, retry the install with the operator running the harness permission prompt. Logged here per Phase 0 verification gate; license-attestation file at `v4_phase_0_huashu_license.md`. |
-| X.1.9 | mattpocock/skills (`grill-with-docs`) | **DEFERRED to Phase 10** | Repo doesn't expose a `.claude-plugin/marketplace.json`; spec drilling utility is most useful for Phase 10 service-wiring, not Phase 0/1. Will install via `npx skills add mattpocock/skills --skill grill-with-docs` at Phase 10 entry. |
-| X.1.30 | rtk-ai/rtk | **DEFERRED** | Rust binary; `cargo` not installed in this WSL environment. Bash-output-noise reduction is "nice to have", not load-bearing — RTK's value emerges in heavy `npm test`/Lighthouse runs which start in Phase 9/11. Will install via cargo or pre-built binary at Phase 9 entry. |
-| X.1 P2 references | various awesome-lists, getdesign.md, etc. | **REFERENCE-ONLY** per Appendix X.1 | Not installed; consulted on demand. |
+| #                 | Tool                                      | Status                              | Why                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ----------------- | ----------------------------------------- | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| X.1.4             | alchaincyf/huashu-design                  | **DEFERRED to Phase 1**             | Operator confirmed personal/research-use license is free (no payment gate). Auto-mode harness classifier blocked the third-party `npx skills add` install in this Phase 0 session despite operator authorization. impeccable + ui-ux-pro-max already triangulate the design-fidelity discipline (27 anti-pattern rules + 161 industry rules) for Phase 1 token elevation; if huashu-style critique becomes load-bearing in Phase 2 primitive overhaul, retry the install with the operator running the harness permission prompt. Logged here per Phase 0 verification gate; license-attestation file at `v4_phase_0_huashu_license.md`. |
+| X.1.9             | mattpocock/skills (`grill-with-docs`)     | **DEFERRED to Phase 10**            | Repo doesn't expose a `.claude-plugin/marketplace.json`; spec drilling utility is most useful for Phase 10 service-wiring, not Phase 0/1. Will install via `npx skills add mattpocock/skills --skill grill-with-docs` at Phase 10 entry.                                                                                                                                                                                                                                                                                                                                                                                                 |
+| X.1.30            | rtk-ai/rtk                                | **DEFERRED**                        | Rust binary; `cargo` not installed in this WSL environment. Bash-output-noise reduction is "nice to have", not load-bearing — RTK's value emerges in heavy `npm test`/Lighthouse runs which start in Phase 9/11. Will install via cargo or pre-built binary at Phase 9 entry.                                                                                                                                                                                                                                                                                                                                                            |
+| X.1 P2 references | various awesome-lists, getdesign.md, etc. | **REFERENCE-ONLY** per Appendix X.1 | Not installed; consulted on demand.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
 ### 2.4 MCP servers
 
@@ -115,18 +115,19 @@ Pinned in `v4_phase_0_calibration.md`. Anti-references (per Appendix AC) also pi
 
 **Observed 6-section composition matches Appendix AD specification:**
 
-| § | Section | Observed | Phase impact |
-|---|---|---|---|
-| 1 | Full-Wrap Label Design (50mm × 25mm) | Black/charcoal background; VIALCHEMLABS wordmark top-center; compound name + dose in white; teal accent stripe; QR code on left; batch/lot/manufacture/expiry on right; verbatim "RESEARCH USE ONLY / NOT FOR HUMAN CONSUMPTION" disclaimer | Phase 1 token additions (`--label-bg`, `--label-text-primary`, `--label-text-secondary`, `--label-accent-stripe`); Phase 2 `<Vial withLabel ... />` overlay; Phase 4 PDP hero adopts `<Vial withLabel ... />` |
-| 2 | Front Label Portion | Single-face view confirms hierarchy BRAND → COMPOUND → DOSE → DISCLAIMER → BATCH; type mix Plex Mono for tabular data + Plex Sans for compound name/dose | Phase 4 PDP Specs sidebar adopts same hierarchy; Phase 4 COA detail header adopts BRAND → COMPOUND → DOSE → BATCH → DATES → STATUS sequence |
-| 3 | Vial Size Guide | Physical dimensions 50mm height × 22mm diameter; aspect ratio 50:22 ≈ 2.27:1. Current `Vial.tsx` uses `viewBox="0 0 32 80"` = 2.5:1 (slightly elongated) | Phase 2 may refine to 2.27:1 (Iron Law 2.21 + 2.26: additive within Posture A; operator approves before/after) |
-| 4 | Print Sheet Mockup (4.5" × 11") | Operator-side fulfillment artifact (label printing) | Out of v4 site-code scope; tracked in operator-runbook v2 |
-| 5 | Metrics & Usage | Spec-density display pattern matching existing `components/ui/Specs.tsx` rhythm | Phase 4 PDP COA tab + COA detail layout calibrated against this density |
-| 6 | Packaging Concept | Operator-side outer box / shipping carton | Out of v4 site-code scope |
+| §   | Section                              | Observed                                                                                                                                                                                                                                    | Phase impact                                                                                                                                                                                                  |
+| --- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Full-Wrap Label Design (50mm × 25mm) | Black/charcoal background; VIALCHEMLABS wordmark top-center; compound name + dose in white; teal accent stripe; QR code on left; batch/lot/manufacture/expiry on right; verbatim "RESEARCH USE ONLY / NOT FOR HUMAN CONSUMPTION" disclaimer | Phase 1 token additions (`--label-bg`, `--label-text-primary`, `--label-text-secondary`, `--label-accent-stripe`); Phase 2 `<Vial withLabel ... />` overlay; Phase 4 PDP hero adopts `<Vial withLabel ... />` |
+| 2   | Front Label Portion                  | Single-face view confirms hierarchy BRAND → COMPOUND → DOSE → DISCLAIMER → BATCH; type mix Plex Mono for tabular data + Plex Sans for compound name/dose                                                                                    | Phase 4 PDP Specs sidebar adopts same hierarchy; Phase 4 COA detail header adopts BRAND → COMPOUND → DOSE → BATCH → DATES → STATUS sequence                                                                   |
+| 3   | Vial Size Guide                      | Physical dimensions 50mm height × 22mm diameter; aspect ratio 50:22 ≈ 2.27:1. Current `Vial.tsx` uses `viewBox="0 0 32 80"` = 2.5:1 (slightly elongated)                                                                                    | Phase 2 may refine to 2.27:1 (Iron Law 2.21 + 2.26: additive within Posture A; operator approves before/after)                                                                                                |
+| 4   | Print Sheet Mockup (4.5" × 11")      | Operator-side fulfillment artifact (label printing)                                                                                                                                                                                         | Out of v4 site-code scope; tracked in operator-runbook v2                                                                                                                                                     |
+| 5   | Metrics & Usage                      | Spec-density display pattern matching existing `components/ui/Specs.tsx` rhythm                                                                                                                                                             | Phase 4 PDP COA tab + COA detail layout calibrated against this density                                                                                                                                       |
+| 6   | Packaging Concept                    | Operator-side outer box / shipping carton                                                                                                                                                                                                   | Out of v4 site-code scope                                                                                                                                                                                     |
 
 **Authentic compounds visible in label variations matching the LOCKED 7-SKU catalog:** BPC-157, TB-500, CJC-1295, IPAMORELIN, GHK-Cu (5 of 7). The remaining 2 LOCKED SKUs (MOTS-c, Selank) are not yet in the reference image's label variation set — their labels exist in the design system but were not chosen for the composite. Iron Law 2.7 ban on tirzepatide/retatrutide stays in force; the reference image displays both as **layout placeholders only** for the wrap-label system and **MUST NOT** be added to `lib/content/products.ts` per Appendix AD's explicit warning.
 
 **Banned-compound posture confirmed:**
+
 - TIRZEPATIDE: shown in §1 + §2 of reference image as label-system layout reference only; **PERPETUALLY BANNED** per ITC GEO 337-TA-1377 (Iron Law 2.7).
 - RETATRUTIDE: shown in §4 of reference image's label-variations row as label-system layout reference only; **BANNED for first 90 days** per FDA enforcement carve-out (Iron Law 2.7); operator may revisit only after Day-90 review of FDA enforcement signal.
 
@@ -184,11 +185,13 @@ The `impeccable` plugin shipped at v3.0.7 in this Phase 0 session; its slash com
 In lieu, captured a manual reading-baseline of the home page + design tokens for Phase 1 input:
 
 **`app/page.tsx` (current 111 lines, 3 sections):**
+
 - HERO (border-bottom, max-w-6xl, py-24/32): Plex Mono uppercase 11px label → heroXl headline `clamp(48px,7vw,96px)` with split italic accent (`<span className="font-serif-italic ...">verified.</span>`) → 18px lede paragraph → 2-button CTA row (primary fill + outline). No shadows. Flat surfaces. Border-only dividers.
 - THESIS (3-col grid, py-20, max-w-6xl): three columns with Plex Mono 11px numeric labels (`01 / Tested`, `02 / Compliant`, `03 / Focused`) → 24px medium headline → 15px muted body. No card backgrounds; flat. No motion at column reveal.
 - CTA STRIP (Recovery Stack): bg-[var(--surface)] strip; left = label + 20px medium product name + 14px muted note; right = Plex Mono tabular `$77.00` + line-through `$88.00` + outline View button. No card elevation; no shadow on the surface tint.
 
 **`lib/design/tokens.ts` (current 121 lines, 6 token categories):**
+
 - `colors`: 16 entries (bg, surface, surface-strong, surface-muted, accent, accent-soft, accent-glow, text, text-muted, text-subtle, border, border-strong, electric, 4 status-pill colors). **Missing:** `surfaceElevated`, `accentDeep`, gradient stops, shadow channels.
 - `typography`: 13 type-scale entries (heroXl through labelUppercase) + 2 tracking constants. Type rhythm complete; no rhythm refinement needed unless Phase 1 expands heroXl.
 - `spacing`: 11 entries (2xs through 6xl=128px). **Missing:** 7xl/8xl for hero generosity per prompt §2.21.
@@ -197,6 +200,7 @@ In lieu, captured a manual reading-baseline of the home page + design tokens for
 - `zIndex`: 6 stacking contexts (base through toast). Adequate.
 
 **Phase 1 elevation candidates (per Appendix AC + Iron Law 2.21 additive-only):**
+
 - `shadows`: sm (1px subtle), md (4px definition), lg (12px elevation), xl (24px overlay), 2xl (32px modal)
 - `surfaceElevated` color (between `surface-strong` and a hypothetical `surface-floor` for hover/active states)
 - `accentDeep` color (one step deeper than `accent` for pressed states)

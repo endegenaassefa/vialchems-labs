@@ -1,12 +1,8 @@
-'use client';
+"use client";
 
-import {
-  useState,
-  type ButtonHTMLAttributes,
-  type ReactNode,
-} from 'react';
-import { motion, useReducedMotion } from 'motion/react';
-import { Button, buttonClassNames } from '@/components/ui/Button';
+import { useState, type ButtonHTMLAttributes, type ReactNode } from "react";
+import { motion, useReducedMotion } from "motion/react";
+import { Button, buttonClassNames } from "@/components/ui/Button";
 
 /**
  * Phase 7 (v4) — place-order button.
@@ -21,16 +17,16 @@ import { Button, buttonClassNames } from '@/components/ui/Button';
  */
 
 type PlaceOrderButtonProps = {
-  onSubmit: () => void;
+  onSubmit: () => void | Promise<void>;
   /** Visible label. Default: "Place order" if no children. */
   children?: ReactNode;
   /** Loading delay in ms — feels intentional, not laggy. Default 300. */
   loadingDelay?: number;
-} & Pick<ButtonHTMLAttributes<HTMLButtonElement>, 'disabled' | 'className'>;
+} & Pick<ButtonHTMLAttributes<HTMLButtonElement>, "disabled" | "className">;
 
 export function PlaceOrderButton({
   onSubmit,
-  children = 'Place order',
+  children = "Place order",
   loadingDelay = 300,
   disabled = false,
   className,
@@ -43,8 +39,9 @@ export function PlaceOrderButton({
     if (isDisabled) return;
     setSubmitting(true);
     window.setTimeout(() => {
-      onSubmit();
-      setSubmitting(false);
+      void Promise.resolve(onSubmit()).finally(() => {
+        setSubmitting(false);
+      });
     }, loadingDelay);
   }
 
@@ -67,12 +64,12 @@ export function PlaceOrderButton({
   return (
     <motion.button
       type="button"
-      className={buttonClassNames('primary', 'lg', className)}
+      className={buttonClassNames("primary", "lg", className)}
       onClick={handleClick}
       disabled={isDisabled}
       aria-busy={submitting}
       whileTap={isDisabled ? undefined : { scale: 0.98 }}
-      transition={{ type: 'spring', stiffness: 600, damping: 30 }}
+      transition={{ type: "spring", stiffness: 600, damping: 30 }}
     >
       {submitting ? <Spinner /> : null}
       {children}

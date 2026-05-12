@@ -2,7 +2,9 @@
 
 Phase 12.4 (v4) — D18 closure (Vercel production deploy procedure).
 
-This runbook walks the operator from "I have credentials" to "vialchemlabs.com is live and serving production traffic".
+This runbook walks the operator from "I have credentials" to "vialchemlabs.net is live and serving production traffic".
+For exact account-creation steps and credential collection, start with
+`docs/deploy/live-account-setup.md`.
 
 ## 0 — Pre-launch checklist
 
@@ -10,12 +12,12 @@ Before running any of the steps below, verify all of these are true:
 
 - [ ] `npm ci && npm test && npm run build && npm run preflight` all green locally on `main`
 - [ ] `git status` is clean (no uncommitted changes)
-- [ ] `vialchemlabs.com` (or fallback) is registered + DNS records configured per `docs/deploy/dns.md`
+- [ ] `vialchemlabs.net` (or fallback) is registered + DNS records configured per `docs/deploy/dns.md`
 - [ ] Appendix AA Operator Credential Intake form filled at `/tmp/vialchemlabs_credentials.txt`
 - [ ] LLC formation done OR `LLC_NAME` placeholder accepted Day-1 (legal banner says "(TBD)" until updated)
 - [ ] Lab partner contract with Janoshik Analytical signed OR placeholder COA flow accepted
 - [ ] Sentry org + project created
-- [ ] Resend account created + sender domain `vialchemlabs.com` verified
+- [ ] Resend account created + sender domain `vialchemlabs.net` verified
 - [ ] Plaid account in sandbox mode (production access can wait until Phase 13 first transfer)
 - [ ] BTCPay Server self-hosted OR Voltage Cloud instance up at `btcpay.<your-domain>`
 - [ ] Cookie consent provider chosen (`self-hosted` is the Day-1 default)
@@ -25,7 +27,7 @@ Before running any of the steps below, verify all of these are true:
 One-time interactive auth + project creation.
 
 ```bash
-cd /root/peptide-site
+cd /tmp/vialchems-launch-H3DVlL
 npx vercel login          # opens browser; sign in
 npx vercel link           # interactive: create new project named "vialchemlabs"
 ```
@@ -58,7 +60,7 @@ vercel env add REQUIRE_SUPABASE production       # value: true
 
 # Resend
 vercel env add RESEND_API_KEY production
-vercel env add ORDER_EMAIL_FROM production       # value: research@vialchemlabs.com
+vercel env add ORDER_EMAIL_FROM production       # value: research@vialchemlabs.net
 vercel env add ORDER_STAFF_EMAILS production
 vercel env add REQUIRE_RESEND production         # value: true
 
@@ -94,7 +96,7 @@ vercel env add PAYMENT_PROVIDER production       # value: stub
 ## 3 — Add the production domain
 
 ```bash
-npx vercel domains add vialchemlabs.com
+npx vercel domains add vialchemlabs.net
 ```
 
 The CLI returns the DNS records to set. If you already configured DNS
@@ -122,10 +124,11 @@ npx vercel --prod
 ```
 
 This builds the production bundle and deploys to `https://vialchemlabs-<hash>.vercel.app`
-THEN promotes to `https://vialchemlabs.com`. Watch the Vercel dashboard
+THEN promotes to `https://vialchemlabs.net`. Watch the Vercel dashboard
 for build progress; ~3-5 min on a clean build.
 
 Expected build output:
+
 ```
 ✓ Compiled successfully
 ✓ Generating static pages (50/50)
@@ -137,7 +140,8 @@ Route (app)
 ```
 
 If the build fails, the most common causes:
-- A REQUIRE_* env var is true but the dependent secret is empty → fix the env value
+
+- A REQUIRE\_\* env var is true but the dependent secret is empty → fix the env value
 - Supabase migration not applied → run step 4 first
 - Sentry source-map upload failure → set `SENTRY_AUTH_TOKEN` or remove from env temporarily
 
@@ -145,19 +149,19 @@ If the build fails, the most common causes:
 
 ```bash
 # Health endpoint
-curl -s https://vialchemlabs.com/api/health
+curl -s https://vialchemlabs.net/api/health
 
 # Sitemap
-curl -sI https://vialchemlabs.com/sitemap.xml | head -5
+curl -sI https://vialchemlabs.net/sitemap.xml | head -5
 
 # robots.txt
-curl -s https://vialchemlabs.com/robots.txt | head -5
+curl -s https://vialchemlabs.net/robots.txt | head -5
 
 # Cookie consent Cookie-only render
-curl -s https://vialchemlabs.com/ | grep -c "vc-consent" || echo "no cookie banner in SSR HTML (expected — client-only)"
+curl -s https://vialchemlabs.net/ | grep -c "vc-consent" || echo "no cookie banner in SSR HTML (expected — client-only)"
 
 # Per Iron Law 2.27 — Lighthouse spot-check
-npx lighthouse https://vialchemlabs.com/ --view
+npx lighthouse https://vialchemlabs.net/ --view
 ```
 
 All four routes should return `200`. Lighthouse scores should clear
@@ -183,13 +187,13 @@ the script.
 In the Sentry dashboard, create alert rules per the spec table in
 `docs/checkpoints/v4_phase_10_services.md` §10.3:
 
-| Metric | Threshold | Action |
-|---|---|---|
-| Error rate (any) | > 1% over 5 min | page on-call |
-| Payment-flow errors | > 0.1% over 15 min | page on-call |
-| Webhook signature failure | any in 1 min | warn + investigate |
-| LCP regression | > 4.0 s p75 over 10 min | warn + investigate |
-| 5xx rate | > 0.5% over 5 min | page on-call |
+| Metric                    | Threshold               | Action             |
+| ------------------------- | ----------------------- | ------------------ |
+| Error rate (any)          | > 1% over 5 min         | page on-call       |
+| Payment-flow errors       | > 0.1% over 15 min      | page on-call       |
+| Webhook signature failure | any in 1 min            | warn + investigate |
+| LCP regression            | > 4.0 s p75 over 10 min | warn + investigate |
+| 5xx rate                  | > 0.5% over 5 min       | page on-call       |
 
 Verify alerts fire by triggering a test error from the dashboard's
 "Send test alert" button.
@@ -216,6 +220,7 @@ OR via the Vercel dashboard → Deployments → previous → "Promote to
 Production".
 
 Rollback typically completes in <30s. After rollback:
+
 1. Capture the failure: Sentry → Issues, sorted by `firstSeen`
 2. Open a hotfix branch off `main`
 3. Fix root cause (Iron Law 2.3 — no symptom-fix patches)
@@ -226,6 +231,7 @@ Rollback typically completes in <30s. After rollback:
 ## Maintenance windows
 
 Recommended:
+
 - 02:00-04:00 UTC Tuesdays for Supabase migrations
 - 03:00-05:00 UTC any weekday for non-breaking deploys
 - Avoid Friday afternoon deploys

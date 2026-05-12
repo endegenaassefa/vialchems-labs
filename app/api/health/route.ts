@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server';
+import { NextResponse } from "next/server";
 
 /**
  * Health check endpoint per SUPER_PROMPT_v3 Phase 3 + Phase 14.
@@ -6,12 +6,12 @@ import { NextResponse } from 'next/server';
  * Used by Vercel canary, /api/health monitor, and /land-and-deploy verification.
  * Returns minimal information; does NOT expose internals.
  */
-export const dynamic = 'force-dynamic';
+export const dynamic = "force-dynamic";
 
 export async function GET() {
   return NextResponse.json({
-    status: 'ok',
-    service: 'vialchemlabs',
+    status: "ok",
+    service: "vialchemlabs",
     time: new Date().toISOString(),
   });
 }

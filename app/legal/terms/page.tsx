@@ -5,14 +5,14 @@
  * A.4 (jurisdictional), A.6 (CS vocabulary). Brand placeholders substituted.
  * In SKIP_PATHS for grep-forbidden-words.sh.
  */
-import type { Metadata } from 'next';
-import { LegalShell } from '@/components/LegalShell';
-import { siteConfig } from '@/lib/content/site';
+import type { Metadata } from "next";
+import { LegalShell } from "@/components/LegalShell";
+import { siteConfig } from "@/lib/content/site";
 
 export const metadata: Metadata = {
-  title: 'Terms of Service',
+  title: "Terms of Service",
   description:
-    'Terms of Service for vialchemlabs research-peptide supply, including age gate, jurisdictional restrictions, and dispute resolution.',
+    "Terms of Service for vialchemlabs research-peptide supply, including age gate, jurisdictional restrictions, and dispute resolution.",
 };
 
 export default function TermsPage() {
@@ -30,11 +30,11 @@ export default function TermsPage() {
       <P>
         These Terms of Service (&quot;Terms&quot;) govern your access to and use
         of the website operated by {llc} (&quot;{brand},&quot; &quot;we,&quot;
-        &quot;us,&quot; or &quot;our&quot;) at {siteConfig.url}, and the purchase
-        of any product offered through that website. By accessing the site,
-        creating an account, or placing an order, you agree to be bound by these
-        Terms. If you do not agree, do not access the site and do not place an
-        order.
+        &quot;us,&quot; or &quot;our&quot;) at {siteConfig.url}, and the
+        purchase of any product offered through that website. By accessing the
+        site, creating an account, or placing an order, you agree to be bound by
+        these Terms. If you do not agree, do not access the site and do not
+        place an order.
       </P>
 
       <H2>2. Eligibility</H2>
@@ -70,9 +70,9 @@ export default function TermsPage() {
       </P>
       <UL>
         <LI>
-          Introduce, administer, or otherwise apply any product purchased from{' '}
-          {brand} into a human or animal subject by any route — oral, parenteral,
-          topical, or otherwise.
+          Introduce, administer, or otherwise apply any product purchased from{" "}
+          {brand} into a human or animal subject by any route — oral,
+          parenteral, topical, or otherwise.
         </LI>
         <LI>
           Use any product purchased from {brand} for any clinical, medical,
@@ -98,7 +98,7 @@ export default function TermsPage() {
 
       <H2>5. Intellectual Property</H2>
       <P>
-        The site contents — text, graphics, images, logos, layout, code, and the{' '}
+        The site contents — text, graphics, images, logos, layout, code, and the{" "}
         {brand} name — are owned by {llc} or its licensors and are protected by
         copyright, trademark, and other applicable laws. You receive no license
         to use any of the foregoing except for your personal, non-commercial use
@@ -122,7 +122,7 @@ export default function TermsPage() {
 
       <H2>7. Refund Policy Reference</H2>
       <P>
-        Refunds and replacements are governed by the{' '}
+        Refunds and replacements are governed by the{" "}
         <A href="/legal/refunds">Refund Policy</A>. By placing an order, you
         acknowledge and agree to that policy.
       </P>
@@ -152,7 +152,7 @@ export default function TermsPage() {
 
       <H2>10. Jurisdictional Restrictions</H2>
       <Quote>
-        {brand} ships to addresses within the United States only at this time.{' '}
+        {brand} ships to addresses within the United States only at this time.{" "}
         {brand} does not ship to: California, Texas, New York, Florida. The
         customer assumes all regulatory compliance responsibility for their
         jurisdiction specific to their municipality, state, or country.
@@ -185,17 +185,17 @@ export default function TermsPage() {
       <H2>14. Binding Arbitration and Class-Action Waiver</H2>
       <P>
         Any dispute, claim, or controversy arising out of or relating to these
-        Terms or any product purchased from {brand} shall be resolved by
-        binding individual arbitration administered by the American Arbitration
+        Terms or any product purchased from {brand} shall be resolved by binding
+        individual arbitration administered by the American Arbitration
         Association under its Consumer Arbitration Rules. The arbitrator shall
         have exclusive authority to resolve all threshold questions of
         arbitrability. You and {brand} agree to bring claims only in your or its
         individual capacity, and not as a plaintiff or class member in any
         purported class, collective, or representative proceeding. The
         arbitrator may not consolidate more than one person&apos;s claims and
-        may not preside over any form of class proceeding. If this Section 14
-        is found unenforceable, then the entirety of this Section 14 (but no
-        other section of these Terms) shall be void.
+        may not preside over any form of class proceeding. If this Section 14 is
+        found unenforceable, then the entirety of this Section 14 (but no other
+        section of these Terms) shall be void.
       </P>
 
       <H2>15. Indemnification</H2>
@@ -216,10 +216,10 @@ export default function TermsPage() {
         officers, directors, employees, and agents shall not be liable for any
         indirect, incidental, special, consequential, exemplary, or punitive
         damages, or for any loss of profits, revenue, data, or use, arising out
-        of or in connection with these Terms, the site, or any product
-        purchased from {brand}. The aggregate liability of {llc} arising from or
-        related to these Terms or any product shall not exceed the amount paid
-        by you for the product giving rise to the claim. The limitations in this
+        of or in connection with these Terms, the site, or any product purchased
+        from {brand}. The aggregate liability of {llc} arising from or related
+        to these Terms or any product shall not exceed the amount paid by you
+        for the product giving rise to the claim. The limitations in this
         section apply regardless of the legal theory and even if {brand} has
         been advised of the possibility of such damages.
       </P>
@@ -227,16 +227,16 @@ export default function TermsPage() {
       <H2>17. Warranty Disclaimer</H2>
       <P>
         The site and the products are provided &quot;as is&quot; and &quot;as
-        available,&quot; without warranty of any kind, whether express,
-        implied, statutory, or otherwise, to the maximum extent permitted by
-        law. {brand} disclaims all warranties, including warranties of
-        merchantability, fitness for a particular purpose, title, and
-        non-infringement. {brand} does not warrant that the site or any product
-        will meet your requirements, be error-free, or be available without
-        interruption. Without limiting the foregoing, {brand} makes no
-        representations regarding any therapeutic, medical, veterinary, or
-        clinical application of any product, and the products are not approved
-        by any regulatory authority for any indication.
+        available,&quot; without warranty of any kind, whether express, implied,
+        statutory, or otherwise, to the maximum extent permitted by law. {brand}{" "}
+        disclaims all warranties, including warranties of merchantability,
+        fitness for a particular purpose, title, and non-infringement. {brand}{" "}
+        does not warrant that the site or any product will meet your
+        requirements, be error-free, or be available without interruption.
+        Without limiting the foregoing, {brand} makes no representations
+        regarding any therapeutic, medical, veterinary, or clinical application
+        of any product, and the products are not approved by any regulatory
+        authority for any indication.
       </P>
 
       <H2>18. Modification of Terms</H2>
@@ -251,9 +251,9 @@ export default function TermsPage() {
       <H2>19. Severability</H2>
       <P>
         If any provision of these Terms is held invalid or unenforceable by a
-        court of competent jurisdiction, that provision shall be enforced to
-        the maximum extent permissible, and the remaining provisions shall
-        continue in full force and effect.
+        court of competent jurisdiction, that provision shall be enforced to the
+        maximum extent permissible, and the remaining provisions shall continue
+        in full force and effect.
       </P>
 
       <H2>20. Entire Agreement</H2>
@@ -266,9 +266,9 @@ export default function TermsPage() {
 
       <H2>21. Contact</H2>
       <P>
-        Questions regarding these Terms may be sent to{' '}
-        <A href="mailto:research@vialchemlabs.com">research@vialchemlabs.com</A> or
-        via the <A href="/contact">contact form</A>.
+        Questions regarding these Terms may be sent to{" "}
+        <A href="mailto:research@vialchemlabs.net">research@vialchemlabs.net</A>{" "}
+        or via the <A href="/contact">contact form</A>.
       </P>
     </LegalShell>
   );
@@ -306,13 +306,7 @@ function Quote({ children }: { children: React.ReactNode }) {
   );
 }
 
-function A({
-  href,
-  children,
-}: {
-  href: string;
-  children: React.ReactNode;
-}) {
+function A({ href, children }: { href: string; children: React.ReactNode }) {
   return (
     <a
       href={href}

@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 /**
  * Sign in — v1.3 real localStorage-backed login.
@@ -10,24 +10,24 @@
  * won't need to change because the useAuthStore.login() API stays the same.
  */
 
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { useState, type FormEvent } from 'react';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { Card } from '@/components/ui/Card';
-import { Pill } from '@/components/ui/Pill';
-import { FieldLabel } from '@/components/ui/FieldLabel';
-import { Input } from '@/components/ui/Input';
-import { Button } from '@/components/ui/Button';
-import { useAuthStore } from '@/lib/auth-store';
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useState, type FormEvent } from "react";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { Card } from "@/components/ui/Card";
+import { Pill } from "@/components/ui/Pill";
+import { FieldLabel } from "@/components/ui/FieldLabel";
+import { Input } from "@/components/ui/Input";
+import { Button } from "@/components/ui/Button";
+import { useAuthStore } from "@/lib/auth-store";
 
 export default function LoginPage() {
   const router = useRouter();
   const login = useAuthStore((s) => s.login);
 
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -37,9 +37,9 @@ export default function LoginPage() {
     setSubmitting(true);
     try {
       await login({ email, password });
-      router.push('/account');
+      router.push("/account");
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Could not sign in.');
+      setError(err instanceof Error ? err.message : "Could not sign in.");
       setSubmitting(false);
     }
   }
@@ -60,7 +60,8 @@ export default function LoginPage() {
               </span>
             </h1>
             <p className="text-[15px] leading-[1.6] text-[var(--text-muted)] mb-8">
-              Pick up where you left off — qualification status, saved addresses, and order history.
+              Pick up where you left off — qualification status, saved
+              addresses, and order history.
             </p>
 
             <Card variant="elevated" className="p-6">
@@ -115,7 +116,7 @@ export default function LoginPage() {
                   className="w-full"
                   disabled={submitting}
                 >
-                  {submitting ? 'Signing in…' : 'Sign in'}
+                  {submitting ? "Signing in…" : "Sign in"}
                 </Button>
 
                 <div className="flex flex-wrap items-center justify-between gap-2 pt-2">
@@ -128,13 +129,19 @@ export default function LoginPage() {
             </Card>
 
             <p className="mt-6 text-[14px] text-[var(--text-muted)] text-center">
-              No account yet?{' '}
-              <Link href="/signup" className="text-[var(--accent)] hover:text-[var(--accent-soft)]">
+              No account yet?{" "}
+              <Link
+                href="/signup"
+                className="text-[var(--accent)] hover:text-[var(--accent-soft)]"
+              >
                 Create one →
               </Link>
             </p>
             <p className="mt-2 text-[14px] text-[var(--text-muted)] text-center">
-              <Link href="/contact" className="text-[var(--text-muted)] hover:text-[var(--accent)]">
+              <Link
+                href="/contact"
+                className="text-[var(--text-muted)] hover:text-[var(--accent)]"
+              >
                 Trouble signing in?
               </Link>
             </p>

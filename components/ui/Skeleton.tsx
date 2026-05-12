@@ -14,10 +14,10 @@
  * Reduced-motion fallback: the optional pulse animation honors the
  * global `@media (prefers-reduced-motion: reduce)` rule in globals.css.
  */
-import type { HTMLAttributes, Ref } from 'react';
-import { cn } from '@/lib/utils';
+import type { HTMLAttributes, Ref } from "react";
+import { cn } from "@/lib/utils";
 
-export type SkeletonVariant = 'text' | 'card' | 'tableRow' | 'image';
+export type SkeletonVariant = "text" | "card" | "tableRow" | "image";
 
 export interface SkeletonProps extends HTMLAttributes<HTMLDivElement> {
   variant?: SkeletonVariant;
@@ -25,14 +25,14 @@ export interface SkeletonProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 const variantClasses: Record<SkeletonVariant, string> = {
-  text: 'inline-block h-4 w-32 align-middle',
-  card: 'block h-32 w-full',
-  tableRow: 'block h-10 w-full',
-  image: 'block w-full aspect-square',
+  text: "inline-block h-4 w-32 align-middle",
+  card: "block h-32 w-full",
+  tableRow: "block h-10 w-full",
+  image: "block w-full aspect-square",
 };
 
 export function Skeleton({
-  variant = 'text',
+  variant = "text",
   className,
   ref,
   ...rest
@@ -44,11 +44,11 @@ export function Skeleton({
       aria-busy="true"
       aria-label="Loading"
       className={cn(
-        'bg-[var(--surface-strong)]',
-        'rounded-[var(--radius-sm)]',
+        "bg-[var(--surface-strong)]",
+        "rounded-[var(--radius-sm)]",
         // Subtle pulse keeps the surface from feeling dead. Honors
         // prefers-reduced-motion globally.
-        'animate-pulse',
+        "animate-pulse",
         variantClasses[variant],
         className,
       )}

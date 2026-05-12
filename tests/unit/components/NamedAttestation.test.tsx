@@ -1,9 +1,9 @@
-import { render, screen } from '@testing-library/react';
-import { describe, it, expect } from 'vitest';
-import { NamedAttestation } from '@/components/ui/NamedAttestation';
+import { render, screen } from "@testing-library/react";
+import { describe, it, expect } from "vitest";
+import { NamedAttestation } from "@/components/ui/NamedAttestation";
 
-describe('NamedAttestation', () => {
-  it('renders the placeholder default copy when placeholder=true', () => {
+describe("NamedAttestation", () => {
+  it("renders the placeholder default copy when placeholder=true", () => {
     render(<NamedAttestation placeholder />);
     expect(screen.getByText(/Attestation · pending/i)).toBeInTheDocument();
     expect(
@@ -11,12 +11,12 @@ describe('NamedAttestation', () => {
     ).toBeInTheDocument();
   });
 
-  it('renders a custom placeholder message when provided', () => {
+  it("renders a custom placeholder message when provided", () => {
     render(<NamedAttestation placeholder message="Custom pending text." />);
-    expect(screen.getByText('Custom pending text.')).toBeInTheDocument();
+    expect(screen.getByText("Custom pending text.")).toBeInTheDocument();
   });
 
-  it('renders quote + name + role + organization in real mode', () => {
+  it("renders quote + name + role + organization in real mode", () => {
     render(
       <NamedAttestation
         quote="The COA library is the differentiator."
@@ -26,10 +26,10 @@ describe('NamedAttestation', () => {
       />,
     );
     expect(
-      screen.getByText('The COA library is the differentiator.'),
+      screen.getByText("The COA library is the differentiator."),
     ).toBeInTheDocument();
-    expect(screen.getByText('Dr. Real Researcher')).toBeInTheDocument();
-    expect(screen.getByText('PI · University Lab')).toBeInTheDocument();
+    expect(screen.getByText("Dr. Real Researcher")).toBeInTheDocument();
+    expect(screen.getByText("PI · University Lab")).toBeInTheDocument();
   });
 
   it('renders the "Researcher attestation" eyebrow in real mode', () => {
@@ -41,6 +41,6 @@ describe('NamedAttestation', () => {
         organization="org"
       />,
     );
-    expect(screen.getByText('Researcher attestation')).toBeInTheDocument();
+    expect(screen.getByText("Researcher attestation")).toBeInTheDocument();
   });
 });

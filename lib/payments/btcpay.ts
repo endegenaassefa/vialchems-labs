@@ -11,21 +11,21 @@
  *   InvoiceCreated, InvoiceReceivedPayment, InvoiceProcessing,
  *   InvoiceSettled, InvoiceExpired, InvoiceInvalid.
  */
-import crypto from 'node:crypto';
+import crypto from "node:crypto";
 import type {
   CreateIntentInput,
   PaymentIntent,
   PaymentProvider,
   PaymentStatus,
   WebhookResult,
-} from './types';
+} from "./types";
 
 const STUB_VALUES = new Set([
-  '',
-  'stub_btcpay_api_key',
-  'stub_store_id',
-  'stub_btcpay_webhook_secret',
-  'https://stub-btcpay.example.com',
+  "",
+  "stub_btcpay_api_key",
+  "stub_store_id",
+  "stub_btcpay_webhook_secret",
+  "https://stub-btcpay.example.com",
 ]);
 
 function isStub(value: string | undefined): boolean {
@@ -59,26 +59,26 @@ export function envIsConfigured(env: BtcpayEnv): boolean {
  */
 export function mapBtcpayStatus(s: string): PaymentStatus {
   switch (s) {
-    case 'New':
-    case 'PaidPartial':
-    case 'InvoiceCreated':
-    case 'InvoiceReceivedPayment':
-      return 'pending';
-    case 'Processing':
-    case 'InvoiceProcessing':
-      return 'authorized';
-    case 'Settled':
-    case 'Paid':
-    case 'Confirmed':
-    case 'InvoiceSettled':
-      return 'paid';
-    case 'Expired':
-    case 'Invalid':
-    case 'InvoiceExpired':
-    case 'InvoiceInvalid':
-      return 'failed';
+    case "New":
+    case "PaidPartial":
+    case "InvoiceCreated":
+    case "InvoiceReceivedPayment":
+      return "pending";
+    case "Processing":
+    case "InvoiceProcessing":
+      return "authorized";
+    case "Settled":
+    case "Paid":
+    case "Confirmed":
+    case "InvoiceSettled":
+      return "paid";
+    case "Expired":
+    case "Invalid":
+    case "InvoiceExpired":
+    case "InvoiceInvalid":
+      return "failed";
     default:
-      return 'pending';
+      return "pending";
   }
 }
 
@@ -92,18 +92,18 @@ export function verifyBtcpaySignature(
   secret: string,
 ): boolean {
   if (!signatureHeader || !secret) return false;
-  const provided = signatureHeader.startsWith('sha256=')
-    ? signatureHeader.slice('sha256='.length)
+  const provided = signatureHeader.startsWith("sha256=")
+    ? signatureHeader.slice("sha256=".length)
     : signatureHeader;
   const expected = crypto
-    .createHmac('sha256', secret)
+    .createHmac("sha256", secret)
     .update(rawBody)
-    .digest('hex');
+    .digest("hex");
   if (provided.length !== expected.length) return false;
   try {
     return crypto.timingSafeEqual(
-      Buffer.from(provided, 'hex'),
-      Buffer.from(expected, 'hex'),
+      Buffer.from(provided, "hex"),
+      Buffer.from(expected, "hex"),
     );
   } catch {
     return false;
@@ -128,22 +128,22 @@ export function createBtcpayAdapter(
   };
 
   return {
-    id: 'btcpay',
+    id: "btcpay",
 
     async createIntent(input: CreateIntentInput): Promise<PaymentIntent> {
       if (!envIsConfigured(env)) {
         throw new Error(
-          'btcpay_not_configured: BTCPAY_URL, BTCPAY_API_KEY, BTCPAY_STORE_ID, and BTCPAY_WEBHOOK_SECRET must all be set to non-stub values.',
+          "btcpay_not_configured: BTCPAY_URL, BTCPAY_API_KEY, BTCPAY_STORE_ID, and BTCPAY_WEBHOOK_SECRET must all be set to non-stub values.",
         );
       }
 
       // Phase 10.5 (v4) / D10: real Greenfield invoice POST.
-      const url = `${env.BTCPAY_URL!.replace(/\/$/, '')}/api/v1/stores/${env.BTCPAY_STORE_ID}/invoices`;
+      const url = `${env.BTCPAY_URL!.replace(/\/$/, "")}/api/v1/stores/${env.BTCPAY_STORE_ID}/invoices`;
       const amount = (input.amountCents / 100).toFixed(2);
       const ts = new Date().toISOString();
       const body = JSON.stringify({
         amount,
-        currency: 'USD',
+        currency: "USD",
         metadata: {
           intentId: input.orderId,
           orderId: input.orderId,
@@ -151,19 +151,19 @@ export function createBtcpayAdapter(
           ...(input.metadata ?? {}),
         },
         checkout: {
-          speedPolicy: 'MediumSpeed',
-          paymentMethods: ['BTC', 'LTC'],
-          redirectURL: `${process.env.NEXT_PUBLIC_SITE_URL ?? ''}/checkout/confirm`,
+          speedPolicy: "MediumSpeed",
+          paymentMethods: ["BTC", "LTC"],
+          redirectURL: `${process.env.NEXT_PUBLIC_SITE_URL ?? ""}/checkout/confirm`,
         },
       });
 
       let res: Response;
       try {
         res = await fetch(url, {
-          method: 'POST',
+          method: "POST",
           headers: {
             Authorization: `token ${env.BTCPAY_API_KEY}`,
-            'Content-Type': 'application/json',
+            "Content-Type": "application/json",
           },
           body,
         });
@@ -173,7 +173,7 @@ export function createBtcpayAdapter(
         );
       }
       if (!res.ok) {
-        const text = await res.text().catch(() => '');
+        const text = await res.text().catch(() => "");
         throw new Error(
           `btcpay_invoice_create_failed: HTTP ${res.status} ${text.slice(0, 256)}`,
         );
@@ -186,11 +186,11 @@ export function createBtcpayAdapter(
 
       const intent: PaymentIntent = {
         id: json.id,
-        provider: 'btcpay',
-        method: 'crypto',
+        provider: "btcpay",
+        method: "crypto",
         amountCents: input.amountCents,
-        currency: 'USD',
-        status: mapBtcpayStatus(json.status ?? 'New'),
+        currency: "USD",
+        status: mapBtcpayStatus(json.status ?? "New"),
         metadata: {
           ...(input.metadata ?? {}),
           ...(json.checkoutLink ? { checkoutLink: json.checkoutLink } : {}),
@@ -214,32 +214,30 @@ export function createBtcpayAdapter(
       payload: unknown,
       headers: Record<string, string>,
     ): Promise<WebhookResult> {
-      const secret = env.BTCPAY_WEBHOOK_SECRET ?? '';
+      const secret = env.BTCPAY_WEBHOOK_SECRET ?? "";
       const rawBody =
-        typeof payload === 'string' ? payload : JSON.stringify(payload ?? {});
+        typeof payload === "string" ? payload : JSON.stringify(payload ?? {});
       const sigHeader =
-        headers['btcpay-sig'] ??
-        headers['BTCPay-Sig'] ??
-        headers['btcPay-sig'];
+        headers["btcpay-sig"] ?? headers["BTCPay-Sig"] ?? headers["btcPay-sig"];
 
       const verified = verifyBtcpaySignature(rawBody, sigHeader, secret);
       if (!verified) {
-        return { intent: null, eventType: 'unverified', verified: false };
+        return { intent: null, eventType: "unverified", verified: false };
       }
 
       let parsed: BtcpayWebhookPayload;
       try {
         parsed =
-          typeof payload === 'string'
+          typeof payload === "string"
             ? (JSON.parse(payload) as BtcpayWebhookPayload)
             : ((payload ?? {}) as BtcpayWebhookPayload);
       } catch {
-        return { intent: null, eventType: 'invalid_payload', verified: true };
+        return { intent: null, eventType: "invalid_payload", verified: true };
       }
 
-      const eventType = parsed.type ?? parsed.status ?? 'unknown';
-      const status = mapBtcpayStatus(parsed.status ?? parsed.type ?? '');
-      const intentId = parsed.metadata?.intentId ?? parsed.invoiceId ?? '';
+      const eventType = parsed.type ?? parsed.status ?? "unknown";
+      const status = mapBtcpayStatus(parsed.status ?? parsed.type ?? "");
+      const intentId = parsed.metadata?.intentId ?? parsed.invoiceId ?? "";
 
       if (!intentId) {
         return { intent: null, eventType, verified: true };
@@ -248,10 +246,10 @@ export function createBtcpayAdapter(
       const ts = new Date().toISOString();
       const intent: PaymentIntent = {
         id: intentId,
-        provider: 'btcpay',
-        method: 'crypto',
+        provider: "btcpay",
+        method: "crypto",
         amountCents: 0, // populated by reconciliation against the order row
-        currency: 'USD',
+        currency: "USD",
         status,
         metadata: parsed.metadata ?? {},
         createdAt: ts,

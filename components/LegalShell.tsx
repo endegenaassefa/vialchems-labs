@@ -5,10 +5,10 @@
  * Server component — no client logic. Each /legal/* page imports this and
  * passes its title + body sections.
  */
-import type { ReactNode } from 'react';
-import Link from 'next/link';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
+import type { ReactNode } from "react";
+import Link from "next/link";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
 
 interface LegalShellProps {
   eyebrow: string;
@@ -33,7 +33,7 @@ export function LegalShell({
               <Link href="/" className="hover:text-[var(--accent-soft)]">
                 ← Home
               </Link>
-              {' / '}
+              {" / "}
               {eyebrow}
             </p>
             <h1 className="text-[clamp(36px,5vw,60px)] font-light leading-[1.08] tracking-tight text-[var(--text)] mb-4">

@@ -5,28 +5,28 @@ Status: COMPLETE (delivered across Phases 5, 6, 7)
 
 ## Auxiliary deliverables
 
-| Item | Phase delivered | Status |
-|---|---|---|
-| Newsletter signup form (footer + /newsletter) | Phase 7 | ✓ |
-| Newsletter API (`/api/newsletter/subscribe`) | Phase 7 | ✓ stub; Phase 10b wires Resend |
-| 4-email welcome sequence templates | Phase 6 | ✓ verbatim Appendix K |
-| Lead magnet PDF (Reconstitution Guide) | Operator action | TBD before launch |
-| Account dashboard | Phase 5 | ✓ stub; Phase 8b wires Supabase Auth |
-| Account orders + addresses + settings | Phase 5 | ✓ stubs |
-| Login + signup forms | Phase 5 | ✓ stubs |
-| Catalog search (Fuse.js) | Phase 5 | ✓ |
-| Catalog filters (category, in-stock toggle) | Phase 5 | ✓ |
-| Catalog sort (price asc/desc, name a-z, newest) | Phase 5 | ✓ |
-| Recently-viewed products | Deferred | Phase 2 enhancement |
-| Wishlist | Deferred | Phase 2 enhancement |
-| Order tracking page | Phase 5 | ✓ /order/[id] |
-| Refund request flow | Phase 5 | ✓ form on order detail |
-| Affiliate program signup | Phase 5 | ✓ |
-| Affiliate dashboard | Phase 5 | ✓ stub |
-| Newsletter unsubscribe | Stub | TBD |
-| Cookie consent banner | Deferred | Optional Day-1 since no 3rd-party trackers |
-| ToS / Privacy / Refund / Shipping / Cookies | Phase 5 | ✓ verbatim Appendix L |
-| 404 + 500 brand-consistent | Phase 6 | ✓ |
+| Item                                            | Phase delivered | Status                                     |
+| ----------------------------------------------- | --------------- | ------------------------------------------ |
+| Newsletter signup form (footer + /newsletter)   | Phase 7         | ✓                                          |
+| Newsletter API (`/api/newsletter/subscribe`)    | Phase 7         | ✓ stub; Phase 10b wires Resend             |
+| 4-email welcome sequence templates              | Phase 6         | ✓ verbatim Appendix K                      |
+| Lead magnet PDF (Reconstitution Guide)          | Operator action | TBD before launch                          |
+| Account dashboard                               | Phase 5         | ✓ stub; Phase 8b wires Supabase Auth       |
+| Account orders + addresses + settings           | Phase 5         | ✓ stubs                                    |
+| Login + signup forms                            | Phase 5         | ✓ stubs                                    |
+| Catalog search (Fuse.js)                        | Phase 5         | ✓                                          |
+| Catalog filters (category, in-stock toggle)     | Phase 5         | ✓                                          |
+| Catalog sort (price asc/desc, name a-z, newest) | Phase 5         | ✓                                          |
+| Recently-viewed products                        | Deferred        | Phase 2 enhancement                        |
+| Wishlist                                        | Deferred        | Phase 2 enhancement                        |
+| Order tracking page                             | Phase 5         | ✓ /order/[id]                              |
+| Refund request flow                             | Phase 5         | ✓ form on order detail                     |
+| Affiliate program signup                        | Phase 5         | ✓                                          |
+| Affiliate dashboard                             | Phase 5         | ✓ stub                                     |
+| Newsletter unsubscribe                          | Stub            | TBD                                        |
+| Cookie consent banner                           | Deferred        | Optional Day-1 since no 3rd-party trackers |
+| ToS / Privacy / Refund / Shipping / Cookies     | Phase 5         | ✓ verbatim Appendix L                      |
+| 404 + 500 brand-consistent                      | Phase 6         | ✓                                          |
 
 ## Wiring deferrals
 

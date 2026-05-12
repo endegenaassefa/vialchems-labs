@@ -14,12 +14,15 @@
  * via the qualificationSchema refine. Iron Law 2.5 / 2.19: this file joins
  * the protected paths list. Future edits require // SCANNER_OK annotations.
  */
-import { NextResponse } from 'next/server';
-import { ATTESTATIONS, validateQualification } from '@/lib/customer-qualification';
-import { serviceSupabase } from '@/lib/supabase';
+import { NextResponse } from "next/server";
+import {
+  ATTESTATIONS,
+  validateQualification,
+} from "@/lib/customer-qualification";
+import { serviceSupabase } from "@/lib/supabase";
 
-export const dynamic = 'force-dynamic';
-export const runtime = 'nodejs';
+export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
 
 interface AuditAttestations {
   age_21_plus: boolean;
@@ -30,17 +33,17 @@ interface AuditAttestations {
 
 async function sha256Hex(input: string): Promise<string> {
   const data = new TextEncoder().encode(input);
-  const buf = await crypto.subtle.digest('SHA-256', data);
+  const buf = await crypto.subtle.digest("SHA-256", data);
   return Array.from(new Uint8Array(buf))
-    .map((b) => b.toString(16).padStart(2, '0'))
-    .join('');
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
 }
 
 export async function POST(request: Request): Promise<Response> {
-  const contentType = request.headers.get('content-type') ?? '';
-  if (!contentType.includes('application/json')) {
+  const contentType = request.headers.get("content-type") ?? "";
+  if (!contentType.includes("application/json")) {
     return NextResponse.json(
-      { ok: false, errors: [{ field: '_', message: 'JSON body required' }] },
+      { ok: false, errors: [{ field: "_", message: "JSON body required" }] },
       { status: 400 },
     );
   }
@@ -50,7 +53,7 @@ export async function POST(request: Request): Promise<Response> {
     raw = await request.json();
   } catch {
     return NextResponse.json(
-      { ok: false, errors: [{ field: '_', message: 'Malformed JSON' }] },
+      { ok: false, errors: [{ field: "_", message: "Malformed JSON" }] },
       { status: 400 },
     );
   }
@@ -64,7 +67,7 @@ export async function POST(request: Request): Promise<Response> {
   }
 
   const data = validation.data;
-  const attestationLegalText = ATTESTATIONS.join('\n');
+  const attestationLegalText = ATTESTATIONS.join("\n");
   const attestationHash = await sha256Hex(attestationLegalText);
 
   const audit: AuditAttestations = {
@@ -75,15 +78,15 @@ export async function POST(request: Request): Promise<Response> {
   };
 
   const ipAddress =
-    request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ?? null;
-  const userAgent = request.headers.get('user-agent') ?? null;
+    request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? null;
+  const userAgent = request.headers.get("user-agent") ?? null;
 
   const sb = serviceSupabase();
   let qualificationId = crypto.randomUUID();
 
   if (sb) {
     const { data: inserted, error } = await sb
-      .from('customer_qualifications')
+      .from("customer_qualifications")
       .insert({
         email: data.email,
         payload: data,
@@ -91,7 +94,7 @@ export async function POST(request: Request): Promise<Response> {
         ip_address: ipAddress,
         user_agent: userAgent,
       })
-      .select('id')
+      .select("id")
       .single();
 
     if (error) {
@@ -100,7 +103,7 @@ export async function POST(request: Request): Promise<Response> {
           ok: false,
           errors: [
             {
-              field: '_',
+              field: "_",
               message: `Persistence error: ${error.message}`,
             },
           ],
@@ -111,7 +114,7 @@ export async function POST(request: Request): Promise<Response> {
 
     if (inserted?.id) qualificationId = inserted.id;
 
-    await sb.from('attestations_audit').insert({
+    await sb.from("attestations_audit").insert({
       qualification_id: qualificationId,
       email: data.email,
       attestations: audit,
@@ -120,8 +123,8 @@ export async function POST(request: Request): Promise<Response> {
       user_agent: userAgent,
     });
 
-    await sb.from('audit_log').insert({
-      event_type: 'qualification.submitted',
+    await sb.from("audit_log").insert({
+      event_type: "qualification.submitted",
       details: {
         qualification_id: qualificationId,
         role: data.role,

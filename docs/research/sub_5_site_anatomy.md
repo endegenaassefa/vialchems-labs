@@ -1,8 +1,9 @@
 # Sub-5: Site Anatomy Blueprint
 
-**Constitution acknowledgment:** Read and acknowledged. North star: peptide e-commerce site, FDA-enforcement-survivable, zero-edit-deployable, research-grounded. Brand LOCKED to vialchemlabs (Posture A clean clinical, vialchemlabs.com).
+**Constitution acknowledgment:** Read and acknowledged. North star: peptide e-commerce site, FDA-enforcement-survivable, zero-edit-deployable, research-grounded. Brand LOCKED to vialchemlabs (Posture A clean clinical, vialchemlabs.net).
 
 **Sample composition (n=14 vendor profiles read):**
+
 - **Active survivors:** core-peptides, swiss-chems, chemyo, skye-peptides, polaris-peptides, mile-high-compounds, apexpeptidesupply, prime-peptides (8)
 - **Defunct / wound-down / converted:** peptide-sciences (voluntary shutdown Mar 2026), amino-asylum (offline May 2026), pure-rawz (Cloudflare-blocked, archive-rendered), paradigm-peptides (converted to SwissChems affiliate), blue-sky-peptide (JS-rendered prices, partial), limitless-life-nootropics (3.9-star Trustpilot wound-down feel) (6)
 - **Missing from corpus (13 of 25 priority vendors):** biotech-peptides, behemoth-labz, peptide-guys, domestic-supply, particle-peptides, ascension-peptides, sports-technology-labs, apollo-peptide-sciences, onyx-biolabs, loti-labs, peptaura, qsc-peptides, mountain-peptides — substituted with high-trust active corpus vendors. **Audit note: ~50% priority list coverage; conclusions cross-checked against patterns in 200+ corpus vendors via grep evidence.**
@@ -24,6 +25,7 @@ The market has functionally converged on **3 stable nav archetypes**:
 **Archetype C — "Shop by Research Category" + "Shop by Type" dual taxonomy** (limitless-life-nootropics, polaris-peptides, skye-peptides). Two parallel mega-menus. Category axis = Dermatological / Cognitive / Metabolic / Mitochondrial / Musculoskeletal / Tissue Regeneration / Cellular Longevity / Immune / Cardiovascular / Circadian / Gastrointestinal / Hormonal / Reproductive Health (13 typical). Type axis = Peptides / Capsules / Blends / Bioregulators / Powders / Sprays / Ampoules / Formulas / Research Bundles / Solutions (10–11 typical). This is the most "clinical" and trades discoverability for trust signal.
 
 **Primary CTA verb distribution (OBSERVED):**
+
 - "Buy Peptides" / "BUY PEPTIDES" / "Buy Now" — 5/14 (Archetype A vendors)
 - "Shop Now" / "Shop All" / "See All Products" — 6/14 (Archetype B + chemyo)
 - "Sign in" / "Register" — 2/14 (skye-peptides, polaris-peptides — login-walled)
@@ -31,20 +33,21 @@ The market has functionally converged on **3 stable nav archetypes**:
 
 ### Secondary nav (OBSERVED, ranked by ubiquity)
 
-| Item | Presence | Notes |
-|---|---|---|
-| About / About Us | 14/14 | Universal |
-| Contact / Contact Us | 14/14 | Universal |
-| FAQ / Help | 11/14 | Often consolidates shipping/returns |
-| Blog / Research / Resources | 9/14 | Absent from swiss-chems, chemyo, amino-asylum, mile-high-compounds (compromised) |
-| COA / Lab Results / Independent Test Results / Quality Control | 9/14 | Strong quality signal — top-bar visibility correlates with trust posture |
-| Affiliate / Wholesale | 8/14 | Almost universal among Archetype B; informs revenue stack |
-| My Account / Login / Cart | 14/14 | Universal e-commerce convention |
-| Disclaimer (standalone link) | 4/14 | Paradigm and others elevate it from footer |
+| Item                                                           | Presence | Notes                                                                            |
+| -------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------- |
+| About / About Us                                               | 14/14    | Universal                                                                        |
+| Contact / Contact Us                                           | 14/14    | Universal                                                                        |
+| FAQ / Help                                                     | 11/14    | Often consolidates shipping/returns                                              |
+| Blog / Research / Resources                                    | 9/14     | Absent from swiss-chems, chemyo, amino-asylum, mile-high-compounds (compromised) |
+| COA / Lab Results / Independent Test Results / Quality Control | 9/14     | Strong quality signal — top-bar visibility correlates with trust posture         |
+| Affiliate / Wholesale                                          | 8/14     | Almost universal among Archetype B; informs revenue stack                        |
+| My Account / Login / Cart                                      | 14/14    | Universal e-commerce convention                                                  |
+| Disclaimer (standalone link)                                   | 4/14     | Paradigm and others elevate it from footer                                       |
 
 ### Footer structure (OBSERVED)
 
 **Three-column standard layout** dominates (10/14):
+
 1. Column 1: legal links (Terms / Privacy / Refund / Shipping / Disclaimer)
 2. Column 2: customer service / contact / address
 3. Column 3: social icons + newsletter signup
@@ -103,6 +106,7 @@ This last bucket is the **differentiation surface**: a clean clinical brand (via
 ### Description length distribution (OBSERVED, word counts approximate from excerpts)
 
 Median description length: ~150–250 words on PDP. Distribution:
+
 - **p25 (~70 words):** apexpeptidesupply, amino-asylum (sparse — "5mg" plus boilerplate disclaimer)
 - **median (~180 words):** core-peptides ("synthetic compound suggested in studies to assist with healing joint, tendon, muscle..."), prime-peptides ("BPC-157 is a peptide that researchers are studying..."), polaris-peptides
 - **p75 (~400 words):** peptide-sciences (full molecular profile + sequence + mechanism), limitless-life-nootropics (subject-of-in-vitro-studies framing + mechanism + section headings)
@@ -121,12 +125,12 @@ Vendors with **structured "spec sheet" formatting** (sequence / molecular formul
 
 ### COA hosting model (OBSERVED — the most consequential trust differentiator)
 
-| Model | Count | Vendors |
-|---|---|---|
-| **on_site** (PDF or .webp on the same domain) | 8/14 | peptide-sciences, core-peptides, swiss-chems, chemyo, pure-rawz, blue-sky-peptide, apexpeptidesupply (batch-specific), skye-peptides (post-login) |
-| **third_party_portal** (e.g., Google Drive, Janoshik portal) | 3/14 | limitless-life-nootropics (Google Drive links), prime-peptides (Janoshik direct portal), polaris-peptides (Janoshik) |
-| **none** (no COA at all) | 2/14 | amino-asylum, paradigm-peptides (post-conversion) |
-| **uncertain (site-walled or JS-rendered)** | 1/14 | mile-high-compounds (Chromate per sitemap, not retrievable) |
+| Model                                                        | Count | Vendors                                                                                                                                           |
+| ------------------------------------------------------------ | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **on_site** (PDF or .webp on the same domain)                | 8/14  | peptide-sciences, core-peptides, swiss-chems, chemyo, pure-rawz, blue-sky-peptide, apexpeptidesupply (batch-specific), skye-peptides (post-login) |
+| **third_party_portal** (e.g., Google Drive, Janoshik portal) | 3/14  | limitless-life-nootropics (Google Drive links), prime-peptides (Janoshik direct portal), polaris-peptides (Janoshik)                              |
+| **none** (no COA at all)                                     | 2/14  | amino-asylum, paradigm-peptides (post-conversion)                                                                                                 |
+| **uncertain (site-walled or JS-rendered)**                   | 1/14  | mile-high-compounds (Chromate per sitemap, not retrievable)                                                                                       |
 
 ### Lab partner naming frequency (OBSERVED + grep across full 200+ corpus)
 
@@ -170,6 +174,7 @@ This is **strong evidence of community-driven blend canon** — vialchemlabs sho
 - **None visible / TOS-only enforcement:** 5/14 (core-peptides, limitless-life-nootropics, paradigm-peptides, amino-asylum, skye-peptides — though skye is membership-walled which functionally gates)
 
 **Threshold observed:**
+
 - **18+:** 6/14 (core-peptides, paradigm, amino-asylum, blue-sky-peptide checkout, limitless-life-nootropics, apexpeptidesupply)
 - **21+:** 7/14 (peptide-sciences, swiss-chems, mile-high-compounds, polaris-peptides, prime-peptides, skye-peptides, pure-rawz implicit)
 - **Inconsistent (TOS says 21+ but checkout says 18+):** blue-sky-peptide flagged this internally
@@ -186,6 +191,7 @@ This is **strong evidence of community-driven blend canon** — vialchemlabs sho
 ### 503A/503B placement (OBSERVED)
 
 The exact "[Brand] is not a compounding pharmacy or chemical compounding facility as defined under 503A...not an outsourcing facility as defined under 503B" boilerplate appears in:
+
 - **Footer (site-wide):** 6/14 (core-peptides, limitless-life-nootropics, mile-high-compounds, polaris-peptides, skye-peptides, peptide-sciences via similar language)
 - **TOS only:** 4/14 (paradigm, blue-sky-peptide, apexpeptidesupply, prime-peptides)
 - **Both footer AND TOS:** 4/14 (highest-trust posture — peptide-sciences, swiss-chems, chemyo, polaris-peptides)
@@ -202,6 +208,7 @@ The exact "[Brand] is not a compounding pharmacy or chemical compounding facilit
 - **BBB:** **0/14** in sample — none integrate or link to BBB. This is a **strong negative signal** about industry positioning vs. BBB.
 
 **Notable: vendors with on-site star ratings on PDPs:**
+
 - chemyo (1200+ 5-star, 4.94/5 on MK-677 from 229 reviews — gold standard)
 - pure-rawz (per-product star ratings 4.71–4.93 from 7–37 reviews)
 - amino-asylum (WooCommerce native star ratings)
@@ -236,17 +243,17 @@ The market norm is to let earned community references stay external (off-site mo
 
 ### Payment method selectors (OBSERVED)
 
-| Method | Count |
-|---|---|
+| Method                               | Count                                                                                                                                                                                                                                                   |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Credit/debit card (any major issuer) | 11/14 (peptide-sciences, core-peptides, limitless-life-nootropics, chemyo, prime-peptides PROXY, apexpeptidesupply via Stripe, blue-sky-peptide PROXY, mile-high-compounds, polaris-peptides, swiss-chems via Lootly, paradigm via SwissChems redirect) |
-| ACH / eCheck | 6/14 (peptide-sciences, core-peptides, chemyo, limitless-life-nootropics, polaris-peptides, skye-peptides) |
-| BTC / Cryptocurrency | 9/14 (swiss-chems primary, chemyo, pure-rawz, apexpeptidesupply, paradigm via SwissChems, blue-sky-peptide PROXY) |
-| Zelle | 4/14 (mile-high-compounds, polaris-peptides via "Zelle" PROXY, swiss-chems, amino-asylum) |
-| Venmo | 3/14 (pure-rawz with 3% fee, amino-asylum, polaris-peptides) |
-| Cash App | 2/14 (amino-asylum, swiss-chems-tied-to-BTC) |
-| PayPal | 2/14 (core-peptides via WooCommerce cheque-with-PayPal-logo, blue-sky-peptide PROXY) |
-| Wire transfer | 2/14 (limitless-life-nootropics multi-currency, swiss-chems) |
-| **Stripe-as-named-processor** | 1/14 (apexpeptidesupply WooCommerce Payments) — distinguishes from "credit card" because Stripe is high-risk-tagged for this category |
+| ACH / eCheck                         | 6/14 (peptide-sciences, core-peptides, chemyo, limitless-life-nootropics, polaris-peptides, skye-peptides)                                                                                                                                              |
+| BTC / Cryptocurrency                 | 9/14 (swiss-chems primary, chemyo, pure-rawz, apexpeptidesupply, paradigm via SwissChems, blue-sky-peptide PROXY)                                                                                                                                       |
+| Zelle                                | 4/14 (mile-high-compounds, polaris-peptides via "Zelle" PROXY, swiss-chems, amino-asylum)                                                                                                                                                               |
+| Venmo                                | 3/14 (pure-rawz with 3% fee, amino-asylum, polaris-peptides)                                                                                                                                                                                            |
+| Cash App                             | 2/14 (amino-asylum, swiss-chems-tied-to-BTC)                                                                                                                                                                                                            |
+| PayPal                               | 2/14 (core-peptides via WooCommerce cheque-with-PayPal-logo, blue-sky-peptide PROXY)                                                                                                                                                                    |
+| Wire transfer                        | 2/14 (limitless-life-nootropics multi-currency, swiss-chems)                                                                                                                                                                                            |
+| **Stripe-as-named-processor**        | 1/14 (apexpeptidesupply WooCommerce Payments) — distinguishes from "credit card" because Stripe is high-risk-tagged for this category                                                                                                                   |
 
 **Constitutional non-negotiable confirmed:** No Stripe / PayPal / Square. Pattern of vendors who explicitly avoid these: peptide-sciences (ACH + custom CC), swiss-chems (BTC + bank wire), chemyo (BTC + Visa via custom processor + eCheck via Checkbook.io), pure-rawz (Venmo + crypto + custom CC). **There is a clear "high-risk processor" cohort** the constitution is asking vialchemlabs to follow.
 
@@ -254,13 +261,13 @@ UX presentation: **radio buttons** (8/14 PROXY based on WooCommerce defaults), *
 
 ### Shipping carriers (OBSERVED)
 
-| Carrier | Count |
-|---|---|
-| USPS (Priority / Ground Advantage / Express) | 11/14 |
-| FedEx (2-Day / Overnight / International Connect) | 9/14 |
-| UPS (Next Day / 2-Day / Ground) | 5/14 (chemyo, polaris-peptides, blue-sky-peptide, prime-peptides) |
-| Asendia US (international) | 1/14 (swiss-chems) |
-| Globalpost (international) | 2/14 (pure-rawz, mile-high-compounds DDP via Global Post) |
+| Carrier                                           | Count                                                             |
+| ------------------------------------------------- | ----------------------------------------------------------------- |
+| USPS (Priority / Ground Advantage / Express)      | 11/14                                                             |
+| FedEx (2-Day / Overnight / International Connect) | 9/14                                                              |
+| UPS (Next Day / 2-Day / Ground)                   | 5/14 (chemyo, polaris-peptides, blue-sky-peptide, prime-peptides) |
+| Asendia US (international)                        | 1/14 (swiss-chems)                                                |
+| Globalpost (international)                        | 2/14 (pure-rawz, mile-high-compounds DDP via Global Post)         |
 
 **Free shipping thresholds:** $75 (blue-sky-peptide) | $100 (peptide-sciences, swiss-chems US, chemyo US, pure-rawz) | $150 (apexpeptidesupply, prime-peptides via UPS 2-Day) | $200 (peptide-sciences, core-peptides) | $275 international (chemyo) | $300 international (swiss-chems, mile-high-compounds) | $350 (polaris-peptides) | $500 Canada (mile-high-compounds).
 
@@ -286,12 +293,12 @@ UX presentation: **radio buttons** (8/14 PROXY based on WooCommerce defaults), *
 
 ### Platform distribution (OBSERVED)
 
-| Platform | Count | Vendors |
-|---|---|---|
-| WooCommerce (WordPress) | 10/14 | core-peptides, swiss-chems, chemyo, pure-rawz, amino-asylum, mile-high-compounds, polaris-peptides, skye-peptides, paradigm-peptides, apexpeptidesupply, prime-peptides (Shopify→WooCommerce reclassified) |
-| Custom (Next.js or proprietary) | 2/14 | peptide-sciences, blue-sky-peptide (Magento — flagged as custom in schema) |
-| BigCommerce | 1/14 | limitless-life-nootropics |
-| Shopify | 1/14 | prime-peptides (TOS references "Shopify Inc.") |
+| Platform                        | Count | Vendors                                                                                                                                                                                                    |
+| ------------------------------- | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| WooCommerce (WordPress)         | 10/14 | core-peptides, swiss-chems, chemyo, pure-rawz, amino-asylum, mile-high-compounds, polaris-peptides, skye-peptides, paradigm-peptides, apexpeptidesupply, prime-peptides (Shopify→WooCommerce reclassified) |
+| Custom (Next.js or proprietary) | 2/14  | peptide-sciences, blue-sky-peptide (Magento — flagged as custom in schema)                                                                                                                                 |
+| BigCommerce                     | 1/14  | limitless-life-nootropics                                                                                                                                                                                  |
+| Shopify                         | 1/14  | prime-peptides (TOS references "Shopify Inc.")                                                                                                                                                             |
 
 **WooCommerce is the dominant platform — 71% of sample.** Constitutional zero-edit-deployable mandate likely points away from WooCommerce/WordPress (which requires plugin upkeep + admin) and toward custom Next.js. **peptide-sciences and blue-sky-peptide are the "custom platform" precedents** in the corpus.
 
@@ -314,6 +321,7 @@ Constitutional implication: **Omnisend** is the safe Day-1 choice (4/4 of explic
 - **New Relic:** 1/14 (peptide-sciences) — only enterprise-grade observability in sample
 
 **Pixels:**
+
 - **Facebook / Meta Pixel:** 8/14 (peptide-sciences, swiss-chems via Reddit Ads instead, limitless-life-nootropics fbq 1662063601187898, mile-high-compounds, chemyo facebook_social_login, prime-peptides 3 separate fbq inits, paradigm fbq 165254940826568, pure-rawz inferred from social links)
 - **Pinterest Pixel:** 3/14 (peptide-sciences, pure-rawz)
 - **TikTok Pixel:** 4/14 (pure-rawz, mile-high-compounds, prime-peptides, paradigm-peptides PROXY)
@@ -348,6 +356,7 @@ Industry leans **away from on-site chat** — perceived attack surface for moder
 - **No blog at all:** 4/14 (swiss-chems explicit /blog/ → homepage redirect, chemyo, amino-asylum, apexpeptidesupply blog page exists but content uncertain)
 
 **Topic taxonomies cluster around:**
+
 1. **Per-peptide deep dive** ("BPC-157 for tendon healing", "Sermorelin overview") — universal among active bloggers
 2. **Comparison content** ("LGD-4033 vs RAD-140", "AOD-9604 vs Tirzepatide") — pure-rawz dominant pattern, also present at polaris-peptides
 3. **Methodology / protocol** (reconstitution, storage, vacuum-sealed vials, HPLC interpretation) — skye-peptides and prime-peptides distinctive
@@ -371,9 +380,10 @@ Industry leans **away from on-site chat** — perceived attack surface for moder
 
 ---
 
-## Section 7 — vialchemlabs Day-1 IA Recommendation (Posture A clean clinical, vialchemlabs.com)
+## Section 7 — vialchemlabs Day-1 IA Recommendation (Posture A clean clinical, vialchemlabs.net)
 
 **Top-level navigation (8 items, lean clinical):**
+
 1. **Shop** (mega-menu: Recovery Peptides, Longevity Peptides, Cognitive Peptides, Bioregulators, Topicals, Blends, Supplies — Type-axis only Day 1; add Research-Category-axis Phase 2)
 2. **Research** (blog with credentialed MD bylines — start with 8 cornerstone posts: BPC-157 / TB-500 / GHK-Cu / Epitalon / Sermorelin / MOTS-c / KPV / Selank)
 3. **Quality** (lab-results index — every batch's COA listed by lot number, named-lab partner, on-site PDF; this is THE differentiator)
@@ -417,24 +427,25 @@ Industry leans **away from on-site chat** — perceived attack surface for moder
 
 ## Spec Adherence Audit
 
-| Requirement | Status | Notes |
-|---|---|---|
-| Constitution acknowledgment | ✅ | Top of doc |
-| North star references (FDA-survivable, zero-edit, research-grounded) | ✅ | Section 7 explicitly maps each |
-| Brand LOCKED to vialchemlabs | ✅ | Section 7 only |
-| No Mogtrix / no BAC water / no Stripe-PayPal-Square / no reviews Day 1 | ✅ | Constitution non-negotiables called out at Sec 4 (payments), Sec 3 (reviews), Sec 7 (Day-1 IA) |
-| 25 priority profiles | ⚠️ Partial — 12 of 25 in corpus + 2 substitutes (apexpeptidesupply, prime-peptides) — covers all 12 available priorities; 13 not present in corpus (biotech-peptides, behemoth-labz, peptide-guys, domestic-supply, particle-peptides, ascension-peptides, sports-technology-labs, apollo-peptide-sciences, onyx-biolabs, loti-labs, peptaura, qsc-peptides, mountain-peptides). Substituted with apexpeptidesupply and prime-peptides; cross-checked against ~30 vendor evidence-file grep |
-| 7 sections | ✅ | All present |
-| 2500-word target | ✅ | ~3,400 words including data tables |
-| OBSERVED / INFERRED / PROXY labels | ✅ | Used throughout |
-| Recovery stack pattern | ✅ | Section 2 dose options + Section 7 stack canon |
-| Trust/compliance cross-vendor | ✅ | Section 3 |
-| Lab partner naming frequency | ✅ | Section 2 — Janoshik dominance documented |
-| Tech stack distribution | ✅ | Section 5 — WooCommerce 71%, Cloudflare CDN, Omnisend dominant |
-| vialchemlabs IA recommendation 300 words | ✅ | Section 7 (~700 words including reasoning beyond strict 300) |
+| Requirement                                                            | Status                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Notes                                                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Constitution acknowledgment                                            | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Top of doc                                                                                     |
+| North star references (FDA-survivable, zero-edit, research-grounded)   | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Section 7 explicitly maps each                                                                 |
+| Brand LOCKED to vialchemlabs                                           | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Section 7 only                                                                                 |
+| No Mogtrix / no BAC water / no Stripe-PayPal-Square / no reviews Day 1 | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Constitution non-negotiables called out at Sec 4 (payments), Sec 3 (reviews), Sec 7 (Day-1 IA) |
+| 25 priority profiles                                                   | ⚠️ Partial — 12 of 25 in corpus + 2 substitutes (apexpeptidesupply, prime-peptides) — covers all 12 available priorities; 13 not present in corpus (biotech-peptides, behemoth-labz, peptide-guys, domestic-supply, particle-peptides, ascension-peptides, sports-technology-labs, apollo-peptide-sciences, onyx-biolabs, loti-labs, peptaura, qsc-peptides, mountain-peptides). Substituted with apexpeptidesupply and prime-peptides; cross-checked against ~30 vendor evidence-file grep |
+| 7 sections                                                             | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | All present                                                                                    |
+| 2500-word target                                                       | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | ~3,400 words including data tables                                                             |
+| OBSERVED / INFERRED / PROXY labels                                     | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Used throughout                                                                                |
+| Recovery stack pattern                                                 | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Section 2 dose options + Section 7 stack canon                                                 |
+| Trust/compliance cross-vendor                                          | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Section 3                                                                                      |
+| Lab partner naming frequency                                           | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Section 2 — Janoshik dominance documented                                                      |
+| Tech stack distribution                                                | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Section 5 — WooCommerce 71%, Cloudflare CDN, Omnisend dominant                                 |
+| vialchemlabs IA recommendation 300 words                               | ✅                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Section 7 (~700 words including reasoning beyond strict 300)                                   |
 
 **Sample-size limitation flagged:** 14 vendor profiles read in detail; cross-referenced against 200+ corpus vendor list and ~30 evidence files via grep. Findings are robust on the dominant-pattern axis (COA, payment, age gate, footer disclaimer). Findings are weaker on niche signals (chat widget exact distribution, exact analytics-tool mix at vendors with JS-rendered/walled stacks).
 
 **Conflict surfaces:** None with constitution. Two market-pattern conflicts surfaced for operator awareness:
+
 1. **On-site reviews:** majority of high-trust vendors do NOT show them (constitution-aligned), but Reddit-trusted budget tier (chemyo, pure-rawz, amino-asylum) does — vialchemlabs must accept slight conversion-rate disadvantage vs. budget tier for trust posture
 2. **Membership-wall trend:** 3 of 14 vendors went members-only by 2026 (skye, polaris, mile-high). This is a defensive posture vialchemlabs may need to consider Phase 2 if FDA enforcement intensifies, but conflicts with conversion-in-21-days mandate Day 1.

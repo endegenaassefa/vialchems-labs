@@ -8,15 +8,15 @@
  * uuid in sessionStorage. Real order placement (BTCPay invoice / Plaid token)
  * lands in Phase 7 (payments).
  */
-import type { Metadata } from 'next';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { CheckoutGuard } from '@/components/CheckoutGuard';
-import { CheckoutSteps } from '../CheckoutSteps';
-import { ReviewPanel } from './ReviewPanel';
+import type { Metadata } from "next";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { CheckoutGuard } from "@/components/CheckoutGuard";
+import { CheckoutSteps } from "../CheckoutSteps";
+import { ReviewPanel } from "./ReviewPanel";
 
 export const metadata: Metadata = {
-  title: 'Checkout — Review',
+  title: "Checkout — Review",
 };
 
 export default function CheckoutReviewPage() {

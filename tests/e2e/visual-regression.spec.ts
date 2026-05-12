@@ -15,53 +15,53 @@
  * Snapshots commit to tests/e2e/__screenshots__/. CI runs
  * `--update-snapshots` only on the operator-approved baseline-refresh PR.
  */
-import { test, expect, type Page } from '@playwright/test';
+import { test, expect, type Page } from "@playwright/test";
 
 const ROUTES = [
-  '/',
-  '/shop',
-  '/coa',
-  '/about',
-  '/blog',
-  '/faq',
-  '/contact',
-  '/affiliate',
-  '/test-reports',
-  '/cart',
-  '/login',
-  '/signup',
-  '/newsletter/thanks',
-  '/legal/terms',
-  '/legal/privacy',
-  '/legal/refunds',
-  '/legal/shipping',
-  '/legal/cookies',
-  '/products/bpc-157-10mg',
-  '/products/tb-500-5mg',
-  '/products/ghk-cu-50mg',
-  '/products/ipamorelin-10mg',
-  '/products/cjc-1295-no-dac-5mg',
-  '/products/mots-c-10mg',
-  '/products/selank-10mg',
-  '/products/recovery-stack',
-  '/blog/bpc-157-research',
-  '/blog/tb-500-research',
-  '/blog/ghk-cu-research',
-  '/blog/recovery-stack-synergy',
-  '/blog/reading-a-coa',
-  '/coa/bpc-157-10mg/BATCH-2026-PLACEHOLDER',
-  '/coa/tb-500-5mg/BATCH-2026-PLACEHOLDER',
-  '/coa/ghk-cu-50mg/BATCH-2026-PLACEHOLDER',
-  '/checkout/address',
-  '/checkout/method',
-  '/checkout/review',
-  '/checkout/confirm',
+  "/",
+  "/shop",
+  "/coa",
+  "/about",
+  "/blog",
+  "/faq",
+  "/contact",
+  "/affiliate",
+  "/test-reports",
+  "/cart",
+  "/login",
+  "/signup",
+  "/newsletter/thanks",
+  "/legal/terms",
+  "/legal/privacy",
+  "/legal/refunds",
+  "/legal/shipping",
+  "/legal/cookies",
+  "/products/bpc-157-10mg",
+  "/products/tb-500-5mg",
+  "/products/ghk-cu-50mg",
+  "/products/ipamorelin-10mg",
+  "/products/cjc-1295-no-dac-5mg",
+  "/products/mots-c-10mg",
+  "/products/selank-10mg",
+  "/products/recovery-stack",
+  "/blog/bpc-157-research",
+  "/blog/tb-500-research",
+  "/blog/ghk-cu-research",
+  "/blog/recovery-stack-synergy",
+  "/blog/reading-a-coa",
+  "/coa/bpc-157-10mg/BATCH-2026-PLACEHOLDER",
+  "/coa/tb-500-5mg/BATCH-2026-PLACEHOLDER",
+  "/coa/ghk-cu-50mg/BATCH-2026-PLACEHOLDER",
+  "/checkout/address",
+  "/checkout/method",
+  "/checkout/review",
+  "/checkout/confirm",
 ] as const;
 
 const VIEWPORTS = [
-  { name: 'mobile', width: 375, height: 812 },
-  { name: 'tablet', width: 768, height: 1024 },
-  { name: 'desktop', width: 1440, height: 900 },
+  { name: "mobile", width: 375, height: 812 },
+  { name: "tablet", width: 768, height: 1024 },
+  { name: "desktop", width: 1440, height: 900 },
 ] as const;
 
 async function dismissCookieConsent(page: Page): Promise<void> {
@@ -70,11 +70,11 @@ async function dismissCookieConsent(page: Page): Promise<void> {
   // "rejected-all" state so screenshots are stable across runs.
   await page.context().addCookies([
     {
-      name: 'vc-consent',
+      name: "vc-consent",
       value: encodeURIComponent(
         JSON.stringify({
           version: 1,
-          decidedAt: '2026-01-01T00:00:00.000Z',
+          decidedAt: "2026-01-01T00:00:00.000Z",
           categories: {
             necessary: true,
             functional: false,
@@ -83,26 +83,26 @@ async function dismissCookieConsent(page: Page): Promise<void> {
           },
         }),
       ),
-      url: page.url() === 'about:blank' ? undefined : page.url(),
+      url: page.url() === "about:blank" ? undefined : page.url(),
       domain: new URL(
-        process.env.PLAYWRIGHT_BASE_URL ?? 'http://127.0.0.1:3200',
+        process.env.PLAYWRIGHT_BASE_URL ?? "http://127.0.0.1:3200",
       ).hostname,
-      path: '/',
+      path: "/",
     },
   ]);
 }
 
-test.describe('visual-regression baseline', () => {
+test.describe("visual-regression baseline", () => {
   for (const route of ROUTES) {
     for (const viewport of VIEWPORTS) {
       test(`${route} @ ${viewport.name}`, async ({ page, context }) => {
         await context.addCookies([
           {
-            name: 'vc-consent',
+            name: "vc-consent",
             value: encodeURIComponent(
               JSON.stringify({
                 version: 1,
-                decidedAt: '2026-01-01T00:00:00.000Z',
+                decidedAt: "2026-01-01T00:00:00.000Z",
                 categories: {
                   necessary: true,
                   functional: false,
@@ -112,26 +112,26 @@ test.describe('visual-regression baseline', () => {
               }),
             ),
             domain: new URL(
-              process.env.PLAYWRIGHT_BASE_URL ?? 'http://127.0.0.1:3200',
+              process.env.PLAYWRIGHT_BASE_URL ?? "http://127.0.0.1:3200",
             ).hostname,
-            path: '/',
+            path: "/",
           },
         ]);
         await page.setViewportSize({
           width: viewport.width,
           height: viewport.height,
         });
-        await page.goto(route, { waitUntil: 'networkidle' });
+        await page.goto(route, { waitUntil: "networkidle" });
         // Disable scroll-triggered + sheen animations for snapshot
         // stability — vialchemlabs motion vocabulary is otherwise
         // baseline-stable thanks to the global @media reduced-motion rule.
-        await page.emulateMedia({ reducedMotion: 'reduce' });
+        await page.emulateMedia({ reducedMotion: "reduce" });
         await page.waitForTimeout(200);
         await expect(page).toHaveScreenshot(
-          `${route.replace(/^\//, '').replace(/\//g, '_') || 'home'}-${viewport.name}.png`,
+          `${route.replace(/^\//, "").replace(/\//g, "_") || "home"}-${viewport.name}.png`,
           {
             fullPage: true,
-            animations: 'disabled',
+            animations: "disabled",
           },
         );
         // Reference dismissCookieConsent so the import isn't a dead branch

@@ -8,8 +8,8 @@
  * Heading is <h2> (assumes the page has an h1 already; Phase 8 a11y lift
  * verifies heading hierarchy across pages).
  */
-import type { HTMLAttributes, ReactNode, Ref } from 'react';
-import { cn } from '@/lib/utils';
+import type { HTMLAttributes, ReactNode, Ref } from "react";
+import { cn } from "@/lib/utils";
 
 export interface EmptyStateProps extends HTMLAttributes<HTMLDivElement> {
   title: string;
@@ -32,8 +32,8 @@ export function EmptyState({
     <div
       ref={ref}
       className={cn(
-        'flex flex-col items-center justify-center text-center',
-        'gap-4 py-16 px-6',
+        "flex flex-col items-center justify-center text-center",
+        "gap-4 py-16 px-6",
         className,
       )}
       {...rest}

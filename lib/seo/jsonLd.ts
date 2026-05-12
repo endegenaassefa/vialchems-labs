@@ -9,33 +9,33 @@
  * it. Use serializeJsonLdSafe() if you need </script>-safe output.
  */
 
-export type SchemaContext = 'https://schema.org';
+export type SchemaContext = "https://schema.org";
 
 export interface ProductJsonLd {
-  '@context': SchemaContext;
-  '@type': 'Product';
+  "@context": SchemaContext;
+  "@type": "Product";
   name: string;
   description: string;
   sku: string;
-  brand?: { '@type': 'Brand'; name: string };
+  brand?: { "@type": "Brand"; name: string };
   category?: string;
   offers?: {
-    '@type': 'Offer';
+    "@type": "Offer";
     url: string;
     priceCurrency: string;
     price: string;
     availability:
-      | 'https://schema.org/InStock'
-      | 'https://schema.org/OutOfStock';
-    itemCondition?: 'https://schema.org/NewCondition';
+      | "https://schema.org/InStock"
+      | "https://schema.org/OutOfStock";
+    itemCondition?: "https://schema.org/NewCondition";
   };
 }
 
 export interface BreadcrumbJsonLd {
-  '@context': SchemaContext;
-  '@type': 'BreadcrumbList';
+  "@context": SchemaContext;
+  "@type": "BreadcrumbList";
   itemListElement: Array<{
-    '@type': 'ListItem';
+    "@type": "ListItem";
     position: number;
     name: string;
     item: string;
@@ -43,34 +43,34 @@ export interface BreadcrumbJsonLd {
 }
 
 export interface ArticleJsonLd {
-  '@context': SchemaContext;
-  '@type': 'Article';
+  "@context": SchemaContext;
+  "@type": "Article";
   headline: string;
   description?: string;
   datePublished: string;
-  author?: { '@type': 'Organization'; name: string };
+  author?: { "@type": "Organization"; name: string };
   mainEntityOfPage?: string;
 }
 
 export interface FaqPageJsonLd {
-  '@context': SchemaContext;
-  '@type': 'FAQPage';
+  "@context": SchemaContext;
+  "@type": "FAQPage";
   mainEntity: Array<{
-    '@type': 'Question';
+    "@type": "Question";
     name: string;
-    acceptedAnswer: { '@type': 'Answer'; text: string };
+    acceptedAnswer: { "@type": "Answer"; text: string };
   }>;
 }
 
 export interface OrganizationJsonLd {
-  '@context': SchemaContext;
-  '@type': 'Organization';
+  "@context": SchemaContext;
+  "@type": "Organization";
   name: string;
   url: string;
   logo?: string;
 }
 
-const SCHEMA: SchemaContext = 'https://schema.org';
+const SCHEMA: SchemaContext = "https://schema.org";
 
 interface ProductInput {
   slug: string;
@@ -87,22 +87,22 @@ interface ProductInput {
 
 export function productJsonLd(p: ProductInput, baseUrl: string): ProductJsonLd {
   return {
-    '@context': SCHEMA,
-    '@type': 'Product',
+    "@context": SCHEMA,
+    "@type": "Product",
     name: p.name,
     description: p.shortDescription,
     sku: p.sku,
-    brand: { '@type': 'Brand', name: 'vialchemlabs' },
+    brand: { "@type": "Brand", name: "vialchemlabs" },
     ...(p.category ? { category: p.category } : {}),
     offers: {
-      '@type': 'Offer',
+      "@type": "Offer",
       url: `${baseUrl}/products/${p.slug}`,
-      priceCurrency: 'USD',
+      priceCurrency: "USD",
       price: (p.priceCents / 100).toFixed(2),
       availability: p.inStock
-        ? 'https://schema.org/InStock'
-        : 'https://schema.org/OutOfStock',
-      itemCondition: 'https://schema.org/NewCondition',
+        ? "https://schema.org/InStock"
+        : "https://schema.org/OutOfStock",
+      itemCondition: "https://schema.org/NewCondition",
     },
   };
 }
@@ -111,10 +111,10 @@ export function breadcrumbJsonLd(
   items: Array<{ name: string; url: string }>,
 ): BreadcrumbJsonLd {
   return {
-    '@context': SCHEMA,
-    '@type': 'BreadcrumbList',
+    "@context": SCHEMA,
+    "@type": "BreadcrumbList",
     itemListElement: items.map((item, i) => ({
-      '@type': 'ListItem',
+      "@type": "ListItem",
       position: i + 1,
       name: item.name,
       item: item.url,
@@ -130,19 +130,16 @@ interface ArticleInput {
   author?: string;
 }
 
-export function articleJsonLd(
-  a: ArticleInput,
-  baseUrl: string,
-): ArticleJsonLd {
+export function articleJsonLd(a: ArticleInput, baseUrl: string): ArticleJsonLd {
   return {
-    '@context': SCHEMA,
-    '@type': 'Article',
+    "@context": SCHEMA,
+    "@type": "Article",
     headline: a.title,
     ...(a.summary ? { description: a.summary } : {}),
     datePublished: a.publishedAt,
     author: {
-      '@type': 'Organization',
-      name: a.author ?? 'vialchemlabs',
+      "@type": "Organization",
+      name: a.author ?? "vialchemlabs",
     },
     mainEntityOfPage: `${baseUrl}/blog/${a.slug}`,
   };
@@ -152,12 +149,12 @@ export function faqPageJsonLd(
   faqs: Array<{ q: string; a: string }>,
 ): FaqPageJsonLd {
   return {
-    '@context': SCHEMA,
-    '@type': 'FAQPage',
+    "@context": SCHEMA,
+    "@type": "FAQPage",
     mainEntity: faqs.map((entry) => ({
-      '@type': 'Question',
+      "@type": "Question",
       name: entry.q,
-      acceptedAnswer: { '@type': 'Answer', text: entry.a },
+      acceptedAnswer: { "@type": "Answer", text: entry.a },
     })),
   };
 }
@@ -168,8 +165,8 @@ export function organizationJsonLd(opts: {
   logo?: string;
 }): OrganizationJsonLd {
   return {
-    '@context': SCHEMA,
-    '@type': 'Organization',
+    "@context": SCHEMA,
+    "@type": "Organization",
     name: opts.name,
     url: opts.url,
     ...(opts.logo ? { logo: opts.logo } : {}),
@@ -181,5 +178,5 @@ export function organizationJsonLd(opts: {
  * cannot break out of <script type="application/ld+json"> blocks.
  */
 export function serializeJsonLdSafe(payload: unknown): string {
-  return JSON.stringify(payload).replace(/<\/(script)/gi, '<\\/$1');
+  return JSON.stringify(payload).replace(/<\/(script)/gi, "<\\/$1");
 }

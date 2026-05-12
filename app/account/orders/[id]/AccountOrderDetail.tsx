@@ -18,21 +18,21 @@
  * real Supabase persistence + email notification). The visual state machine
  * here mirrors what the production flow will do.
  */
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { useState } from 'react';
-import { Button, buttonClassNames } from '@/components/ui/Button';
-import { Card } from '@/components/ui/Card';
-import { Pill } from '@/components/ui/Pill';
-import { Specs } from '@/components/ui/Specs';
-import { Dialog } from '@/components/ui/Dialog';
-import { Toast } from '@/components/ui/Toast';
-import { EmptyState } from '@/components/ui/EmptyState';
-import { formatPrice } from '@/lib/content/products';
-import { useSessionStorageItem } from '@/lib/use-session-storage';
+import Link from "next/link";
+import { useState } from "react";
+import { Button, buttonClassNames } from "@/components/ui/Button";
+import { Card } from "@/components/ui/Card";
+import { Pill } from "@/components/ui/Pill";
+import { Specs } from "@/components/ui/Specs";
+import { Dialog } from "@/components/ui/Dialog";
+import { Toast } from "@/components/ui/Toast";
+import { EmptyState } from "@/components/ui/EmptyState";
+import { formatPrice } from "@/lib/content/products";
+import { useSessionStorageItem } from "@/lib/use-session-storage";
 
-const ORDER_KEY = 'vialchemlabs:checkout:order';
+const ORDER_KEY = "vialchemlabs:checkout:order";
 
 interface StoredOrder {
   id: string;
@@ -60,7 +60,7 @@ interface StoredOrder {
   };
 }
 
-type DialogMode = null | 'cancel' | 'refund';
+type DialogMode = null | "cancel" | "refund";
 
 export function AccountOrderDetail({ expectedId }: { expectedId: string }) {
   const stored = useSessionStorageItem<StoredOrder>(ORDER_KEY);
@@ -71,14 +71,14 @@ export function AccountOrderDetail({ expectedId }: { expectedId: string }) {
   function handleCancel() {
     setDialog(null);
     setToast(
-      'Cancel request received. Our team will respond within 1 business day.',
+      "Cancel request received. Our team will respond within 1 business day.",
     );
   }
 
   function handleRefund() {
     setDialog(null);
     setToast(
-      'Refund request submitted. We will respond within 1 business day with next steps.',
+      "Refund request submitted. We will respond within 1 business day with next steps.",
     );
   }
 
@@ -88,7 +88,10 @@ export function AccountOrderDetail({ expectedId }: { expectedId: string }) {
         title="No matching order in your current session"
         description="Order history will appear here once Supabase persistence is wired in (pre-launch). For now, only orders placed in the current browser session are visible."
         action={
-          <Link href="/account/orders" className={buttonClassNames('outline', 'md')}>
+          <Link
+            href="/account/orders"
+            className={buttonClassNames("outline", "md")}
+          >
             All orders
           </Link>
         }
@@ -100,7 +103,7 @@ export function AccountOrderDetail({ expectedId }: { expectedId: string }) {
     <div className="space-y-8">
       <div className="flex flex-wrap items-center gap-2">
         <Pill variant="accent">
-          {order.method === 'crypto' ? 'Crypto pending' : 'ACH pending'}
+          {order.method === "crypto" ? "Crypto pending" : "ACH pending"}
         </Pill>
         <Pill variant="info">RUO</Pill>
       </div>
@@ -111,26 +114,29 @@ export function AccountOrderDetail({ expectedId }: { expectedId: string }) {
         </p>
         <Specs
           items={[
-            { term: 'Order ID', value: order.id },
+            { term: "Order ID", value: order.id },
             {
-              term: 'Placed',
+              term: "Placed",
               value: new Date(order.placedAt).toLocaleString(),
             },
-            { term: 'Method', value: order.method },
-            { term: 'Subtotal', value: formatPrice(order.subtotalCents) },
+            { term: "Method", value: order.method },
+            { term: "Subtotal", value: formatPrice(order.subtotalCents) },
             {
-              term: 'Discount',
+              term: "Discount",
               value:
                 order.discountCents > 0
                   ? `− ${formatPrice(order.discountCents)}`
-                  : '—',
+                  : "—",
             },
             {
-              term: 'Shipping',
-              value: order.shippingCents === 0 ? 'Free' : formatPrice(order.shippingCents),
+              term: "Shipping",
+              value:
+                order.shippingCents === 0
+                  ? "Free"
+                  : formatPrice(order.shippingCents),
             },
             {
-              term: 'Total',
+              term: "Total",
               value: (
                 <span className="text-[18px] font-semibold">
                   {formatPrice(order.totalCents)}
@@ -155,7 +161,7 @@ export function AccountOrderDetail({ expectedId }: { expectedId: string }) {
                 href={`/products/${l.slug}`}
                 className="text-[14px] text-[var(--text)] hover:text-[var(--accent-soft)]"
               >
-                {l.name}{' '}
+                {l.name}{" "}
                 <span className="font-mono text-[12px] text-[var(--text-subtle)]">
                   × {l.qty}
                 </span>
@@ -176,18 +182,18 @@ export function AccountOrderDetail({ expectedId }: { expectedId: string }) {
           <Button
             variant="outline"
             size="md"
-            onClick={() => setDialog('cancel')}
+            onClick={() => setDialog("cancel")}
           >
             Cancel order
           </Button>
           <Button
             variant="outline"
             size="md"
-            onClick={() => setDialog('refund')}
+            onClick={() => setDialog("refund")}
           >
             Request refund
           </Button>
-          <Link href="/contact" className={buttonClassNames('outline', 'md')}>
+          <Link href="/contact" className={buttonClassNames("outline", "md")}>
             Contact support
           </Link>
         </div>
@@ -195,7 +201,7 @@ export function AccountOrderDetail({ expectedId }: { expectedId: string }) {
 
       {/* Phase 5 v4 marquee — Dialog primitive replaces inline actionMessage */}
       <Dialog
-        open={dialog === 'cancel'}
+        open={dialog === "cancel"}
         onClose={() => setDialog(null)}
         title="Cancel this order?"
       >
@@ -205,11 +211,7 @@ export function AccountOrderDetail({ expectedId }: { expectedId: string }) {
           refund policy. Pending crypto invoices auto-expire if not paid.
         </p>
         <div className="flex flex-wrap gap-3 justify-end">
-          <Button
-            variant="outline"
-            size="md"
-            onClick={() => setDialog(null)}
-          >
+          <Button variant="outline" size="md" onClick={() => setDialog(null)}>
             Keep order
           </Button>
           <Button variant="danger" size="md" onClick={handleCancel}>
@@ -219,7 +221,7 @@ export function AccountOrderDetail({ expectedId }: { expectedId: string }) {
       </Dialog>
 
       <Dialog
-        open={dialog === 'refund'}
+        open={dialog === "refund"}
         onClose={() => setDialog(null)}
         title="Request a refund?"
       >
@@ -229,11 +231,7 @@ export function AccountOrderDetail({ expectedId }: { expectedId: string }) {
           refunds are routine). Our team will respond within 1 business day.
         </p>
         <div className="flex flex-wrap gap-3 justify-end">
-          <Button
-            variant="outline"
-            size="md"
-            onClick={() => setDialog(null)}
-          >
+          <Button variant="outline" size="md" onClick={() => setDialog(null)}>
             Cancel
           </Button>
           <Button variant="primary" size="md" onClick={handleRefund}>

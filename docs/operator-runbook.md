@@ -1,9 +1,10 @@
 # vialchemlabs — Operator Runbook (Day-1 through Months 2-3)
 
 Date generated: 2026-05-08 (v1) — updated 2026-05-10 (v2 / Phase 13.3 v4)
-Brand: vialchemlabs (Posture A clean clinical, vialchemlabs.com)
+Brand: vialchemlabs (Posture A clean clinical, vialchemlabs.net)
 Source: SUPER_PROMPT_v3 Appendix I + research digest sub_3_acquisition.md
-+ v4 deferral closures (Phases 0-12)
+
+- v4 deferral closures (Phases 0-12)
 
 ---
 
@@ -32,9 +33,9 @@ Items marked ✅ are already shipped against placeholders in the
 codebase — operator just needs to drop the credentials. Complete in
 order:
 
-1. ✅ **Domain registration**: register `vialchemlabs.com`. Per-registrar
+1. ✅ **Domain registration**: register `vialchemlabs.net`. Per-registrar
    guide at `docs/deploy/dns.md`. Cloudflare > Gandi > 101domain >
-   Namecheap. Fallback: `vialchemlabs.bio`, `vialchemlabs.com`. **(D19)**
+   Namecheap. Fallback: `vialchemlabs.bio`, `vialchemlabs.net`. **(D19)**
 2. **USPTO TESS trademark search** for "vialchemlabs" and "vialchemlabs".
    Flag conflicts.
 3. ✅ **LLC formation**: file Wyoming (default), Delaware, or Nevada LLC.
@@ -50,7 +51,7 @@ order:
    - BTCPay Server self-hosted URL + API key + store ID + webhook secret
 7. **Replace placeholder COA PDFs**: `public/coa/<slug>-BATCH-2026-PLACEHOLDER.pdf` are stubs marked "EXAMPLE COA — REPLACE BEFORE LAUNCH". Generate real per-batch COAs from Janoshik for first inventory.
 8. **Vercel project link**: `vercel link` in the project directory; environment variables set per `.env.example`.
-9. **Domain DNS**: point `vialchemlabs.com` (or fallback) to Vercel.
+9. **Domain DNS**: point `vialchemlabs.net` (or fallback) to Vercel.
 10. **Buyer-conversation assignment** (Bible §16): 60-minute test with 3 prospective buyers in target audience. Optional but recommended.
 
 ## Day-1 Acquisition Workstreams
@@ -64,7 +65,8 @@ These start the moment the site goes live. Execute in parallel.
 **Day-1 baseline**: 5 blog posts already shipped (BPC-157 mechanism, COA reading guide, GHK-Cu overview, TB-500 mechanism, Recovery Stack synergy). Each at 1500-2400 words with 6 PubMed citations.
 
 **Operator extension**:
-- Submit `https://vialchemlabs.com/sitemap.xml` to Google Search Console.
+
+- Submit `https://vialchemlabs.net/sitemap.xml` to Google Search Console.
 - Add 30-50 PDPs over 90 days (1500-2400 words each, 10+ scientific citations).
 - Internal linking discipline: every blog post links ≥2 PDPs; every PDP links ≥3 related products.
 - Schema markup: Product on PDPs, Article on blog posts, FAQPage on /faq, BreadcrumbList on catalog. (Currently rendered server-side via Next metadata; verify with Google Rich Results Test.)
@@ -76,14 +78,16 @@ These start the moment the site goes live. Execute in parallel.
 **What**: footer + dedicated `/newsletter` form. Lead magnet: Reconstitution and Storage Guide PDF (5 pages, neutral research content).
 
 **Day-1 baseline**: form wired in `/api/newsletter/subscribe` (currently stubs; Phase 10 wires Resend send). 4-email sequence drafted in `lib/content/email-templates.ts`:
+
 - Email 1 (signup): lead-magnet delivery
 - Email 2 (day +3): reading-a-COA explainer
 - Email 3 (day +7): BPC-157 research applications
 - Email 4 (day +14): WELCOME15 15% off first-order discount code
 
 **Operator extension**:
+
 - Generate the actual lead-magnet PDF (5 pages, brand-consistent).
-- Configure Resend with verified sender domain (`research@vialchemlabs.com`).
+- Configure Resend with verified sender domain (`research@vialchemlabs.net`).
 - Set up DMARC `p=reject` policy for the sending domain.
 - Optional: dedicated Mailgun IP at $59/month for deliverability if list grows past 500.
 
@@ -99,15 +103,15 @@ These start the moment the site goes live. Execute in parallel.
 >
 > Hi [name],
 >
-> I run [Outliyr / Muscle+Brawn / PepPal / Brainflow]'s peptide vendor coverage. We launched vialchemlabs this month at vialchemlabs.com with seven research peptides and per-batch independent third-party COA testing through Janoshik Analytical.
+> I run [Outliyr / Muscle+Brawn / PepPal / Brainflow]'s peptide vendor coverage. We launched vialchemlabs this month at vialchemlabs.net with seven research peptides and per-batch independent third-party COA testing through Janoshik Analytical.
 >
 > Three things I'd flag for any vendor review:
 >
-> 1. Every batch is HPLC-tested by Janoshik; PDFs are public at vialchemlabs.com/coa.
+> 1. Every batch is HPLC-tested by Janoshik; PDFs are public at vialchemlabs.net/coa.
 > 2. Catalog is intentionally small (BPC-157, TB-500, GHK-Cu, Ipamorelin, CJC-1295 no DAC, MOTS-c, Selank). No GLP-1s.
 > 3. Compliance posture: research-use-only, age 21+ contractual checkbox, no shipping to CA/TX/NY/FL Day 1.
 >
-> Affiliate program: 10% / 15% / 20% commission tiers (90-day cookie) at vialchemlabs.com/affiliate.
+> Affiliate program: 10% / 15% / 20% commission tiers (90-day cookie) at vialchemlabs.net/affiliate.
 >
 > Happy to send a sample for review or answer any questions.
 >
@@ -126,6 +130,7 @@ These start the moment the site goes live. Execute in parallel.
 Source: research digest `docs/research/sub_3_acquisition.md` Tier S band.
 
 **Compensation structure**:
+
 - Per-post fee: $300-$1,000 (depending on follower count + engagement)
 - Affiliate commission: 20% with 90-day cookie (matches top-of-market; undercuts the 10% floor)
 - Discount code: per-creator unique code (placeholder pattern: `CREATOR_NAME15`)
@@ -143,8 +148,8 @@ Source: research digest `docs/research/sub_3_acquisition.md` Tier S band.
 > - Per-creator unique discount code (your audience saves 15%)
 > - Full creative latitude with one constraint: research-use-only framing (no human-use claims, no dosing protocols on-platform). FTC #ad disclosure required.
 >
-> Catalog: vialchemlabs.com/shop
-> Affiliate detail: vialchemlabs.com/affiliate
+> Catalog: vialchemlabs.net/shop
+> Affiliate detail: vialchemlabs.net/affiliate
 >
 > Reply if interested and I'll send a sample for your protocol research.
 >
@@ -157,7 +162,7 @@ Source: research digest `docs/research/sub_3_acquisition.md` Tier S band.
 
 ### 5. Defensive social handle registration
 
-**What**: register `@vialchemlabs`, `@vialchemlabs`, `@vialchemlabs.com` (where allowed) on Instagram, TikTok, X — but **do NOT actively post** Day 1.
+**What**: register `@vialchemlabs`, `@vialchemlabs`, `@vialchemlabs.net` (where allowed) on Instagram, TikTok, X — but **do NOT actively post** Day 1.
 
 **Why**: prevents squatters; keeps platform-policy surface minimal. Posture A doesn't compete on social-native creative; the active social presence is via Tier S creator partnerships, not first-party posting.
 
@@ -169,7 +174,7 @@ Source: research digest `docs/research/sub_3_acquisition.md` Tier S band.
 
 **Cadence**: 1 thread per week. Pattern: "New paper: [study title] — [3-4 sentence summary]. [Link]. #peptide #research."
 
-**Why**: builds technical brand reputation in the community; signals expertise; drives indirect search traffic to vialchemlabs.com.
+**Why**: builds technical brand reputation in the community; signals expertise; drives indirect search traffic to vialchemlabs.net.
 
 ---
 
@@ -200,6 +205,7 @@ Email 4 of welcome sequence sends 15% off code. Track redemptions in Supabase `e
 Per `docs/research/sub_2_pricing.md` ranking, KPV is the #1 expansion candidate (clean enforcement record + structural recovery-stack pairing + sweet-spot $5/mg median).
 
 To add KPV:
+
 1. Confirm source supply + COA passthrough
 2. Add KPV row to `lib/content/products.ts`
 3. Add verbatim Appendix-style description (336-345 words, research register)
@@ -262,25 +268,30 @@ The community-channel acquisition surface (Reddit, Meso-Rx, anabolic forums, Tel
 Evaluation window: 21-30 days from ads going live (Tier S creator codes count as ads).
 
 **Strong go** (commit to bigger plan):
+
 - ≥30 paid orders from strangers
 - Repeat-buyer rate ≥15%
 - Blended CAC <50% of gross margin per order
 - ≥3 organic forum mentions
 
 **Weak go** (continue, restructure):
+
 - 5-29 paid orders from strangers
 - Any positive signal in any channel
 - Blended CAC <100% of gross margin per order
 
 **Pivot** (brand or channel mix wrong):
+
 - 0 paid orders + meaningful traffic/engagement signal
 - Try other posture OR other channel mix
 
 **No-go** (stop):
+
 - 0 paid orders + no traffic/engagement signal
 - Salvage LLC, return capital, regroup
 
 Track via:
+
 - Vercel Analytics (page views, conversion funnel)
 - Sentry (error rate, payment-flow failures)
 - Supabase `orders` table (paid orders, repeat buyers, CAC math)
@@ -292,6 +303,7 @@ Track via:
 ## Post-Launch First Week Operator Checklist
 
 Day 1 (launch day):
+
 - [ ] Smoke-test full purchase flow (browse → add → cart → checkout → place order). Confirm order email lands.
 - [ ] Verify `/api/health` returns 200.
 - [ ] Verify Sentry receives a manual test error.
@@ -299,18 +311,21 @@ Day 1 (launch day):
 - [ ] Defensive social handle registration on IG/TikTok/X.
 
 Day 2-3:
+
 - [ ] Send Tier S creator outreach emails (target: 10 emails on Day 2, 10 on Day 3).
 - [ ] Send affiliate listicle outreach emails (Outliyr, Muscle+Brawn, PepPal, Brainflow + 5 long-tail).
 - [ ] Founder-personal X account: post first weekly research-citation thread.
 - [ ] Verify newsletter signup → email 1 delivers (manual smoke test with operator email).
 
 Day 4-7:
+
 - [ ] Respond to inbound creator/affiliate replies within 24h.
 - [ ] First batch of order processing (if any). Test the fulfillment loop end-to-end.
 - [ ] Monitor Sentry for any production errors. Fix or page operator.
 - [ ] Search Console: check for first impressions on long-tail terms.
 
 Week 2 retro:
+
 - [ ] How many orders? From strangers vs. network?
 - [ ] CAC math: cost per order across channels?
 - [ ] What surprised? What broke?

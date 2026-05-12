@@ -11,7 +11,7 @@
  * gated buyer base, swap content; layout stays. Honest "Pending real
  * attestations" placeholder is borrowed from klokki.com's open-letter pattern.
  */
-import { cn } from '@/lib/utils';
+import { cn } from "@/lib/utils";
 
 interface NamedAttestationRealProps {
   placeholder?: false;
@@ -35,15 +35,15 @@ export type NamedAttestationProps = (
 };
 
 const DEFAULT_PLACEHOLDER =
-  'Pending real research-buyer attestations. We launch with no testimonials and let the first ones accumulate organically through the qualification-gated buyer base.';
+  "Pending real research-buyer attestations. We launch with no testimonials and let the first ones accumulate organically through the qualification-gated buyer base.";
 
 export function NamedAttestation(props: NamedAttestationProps) {
   if (props.placeholder) {
     return (
       <article
         className={cn(
-          'rounded-[var(--radius-lg)] border border-dashed border-[var(--border-strong)]',
-          'bg-[color:color-mix(in_srgb,var(--surface)_60%,transparent)] p-6',
+          "rounded-[var(--radius-lg)] border border-dashed border-[var(--border-strong)]",
+          "bg-[color:color-mix(in_srgb,var(--surface)_60%,transparent)] p-6",
           props.className,
         )}
       >
@@ -59,8 +59,8 @@ export function NamedAttestation(props: NamedAttestationProps) {
   return (
     <article
       className={cn(
-        'rounded-[var(--radius-lg)] border border-[var(--border)] bg-[var(--surface)] p-6',
-        'flex flex-col gap-5',
+        "rounded-[var(--radius-lg)] border border-[var(--border)] bg-[var(--surface)] p-6",
+        "flex flex-col gap-5",
         props.className,
       )}
     >

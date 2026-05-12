@@ -15,7 +15,8 @@
  * Iron Law 2.22: service-role key is read from process.env.SUPABASE_SERVICE_ROLE_KEY
  * which is server-side only. The .env.local file is gitignored.
  */
-import { createClient, type SupabaseClient } from '@supabase/supabase-js';
+import { createClient, type SupabaseClient } from "@supabase/supabase-js";
+import { envFlag, isProductionRuntime } from "@/lib/runtime-env";
 
 let cachedBrowser: SupabaseClient | null | undefined;
 let cachedService: SupabaseClient | null | undefined;
@@ -30,7 +31,10 @@ function require(value: string | undefined, name: string): string {
 }
 
 function isRequired(): boolean {
-  return process.env.REQUIRE_SUPABASE === 'true';
+  if (isProductionRuntime()) {
+    return !envFlag("ALLOW_SUPABASE_OPTIONAL_IN_PRODUCTION");
+  }
+  return process.env.REQUIRE_SUPABASE === "true";
 }
 
 /**
@@ -44,11 +48,10 @@ export function browserSupabase(): SupabaseClient | null {
     cachedBrowser = null;
     return null;
   }
-  const url = require(process.env.NEXT_PUBLIC_SUPABASE_URL, 'NEXT_PUBLIC_SUPABASE_URL');
-  const anon = require(
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
-    'NEXT_PUBLIC_SUPABASE_ANON_KEY',
-  );
+  const url = require(process.env
+    .NEXT_PUBLIC_SUPABASE_URL, "NEXT_PUBLIC_SUPABASE_URL");
+  const anon = require(process.env
+    .NEXT_PUBLIC_SUPABASE_ANON_KEY, "NEXT_PUBLIC_SUPABASE_ANON_KEY");
   cachedBrowser = createClient(url, anon, {
     auth: {
       persistSession: true,
@@ -70,17 +73,16 @@ export function serviceSupabase(): SupabaseClient | null {
     cachedService = null;
     return null;
   }
-  const url = require(process.env.NEXT_PUBLIC_SUPABASE_URL, 'NEXT_PUBLIC_SUPABASE_URL');
-  const service = require(
-    process.env.SUPABASE_SERVICE_ROLE_KEY,
-    'SUPABASE_SERVICE_ROLE_KEY',
-  );
+  const url = require(process.env
+    .NEXT_PUBLIC_SUPABASE_URL, "NEXT_PUBLIC_SUPABASE_URL");
+  const service = require(process.env
+    .SUPABASE_SERVICE_ROLE_KEY, "SUPABASE_SERVICE_ROLE_KEY");
   cachedService = createClient(url, service, {
     auth: {
       persistSession: false,
       autoRefreshToken: false,
     },
-    db: { schema: 'public' },
+    db: { schema: "public" },
   });
   return cachedService;
 }

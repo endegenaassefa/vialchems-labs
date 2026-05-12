@@ -1,88 +1,81 @@
-import { describe, expect, it } from 'vitest';
-import { render, screen } from '@testing-library/react';
-import { Input } from '@/components/ui/Input';
+import { describe, expect, it } from "vitest";
+import { render, screen } from "@testing-library/react";
+import { Input } from "@/components/ui/Input";
 
-describe('Input', () => {
-  it('renders an input element', () => {
+describe("Input", () => {
+  it("renders an input element", () => {
     render(<Input placeholder="enter email" />);
-    expect(screen.getByPlaceholderText('enter email')).toBeInTheDocument();
+    expect(screen.getByPlaceholderText("enter email")).toBeInTheDocument();
   });
 
-  it('uses surface-strong bg with 10px radius', () => {
+  it("uses surface-strong bg with 10px radius", () => {
     render(<Input placeholder="x" />);
-    const input = screen.getByPlaceholderText('x');
+    const input = screen.getByPlaceholderText("x");
     expect(input.className).toMatch(/bg-\[var\(--surface-strong\)\]/);
     expect(input.className).toMatch(/rounded-\[10px\]/);
   });
 
-  it('passes id through for label association', () => {
+  it("passes id through for label association", () => {
     render(<Input id="email" placeholder="x" />);
-    expect(screen.getByPlaceholderText('x').id).toBe('email');
+    expect(screen.getByPlaceholderText("x").id).toBe("email");
   });
 
-  it('does NOT show error state by default', () => {
+  it("does NOT show error state by default", () => {
     render(<Input placeholder="x" />);
-    expect(screen.queryByRole('alert')).not.toBeInTheDocument();
-    const input = screen.getByPlaceholderText('x');
-    expect(input.getAttribute('aria-invalid')).toBe('false');
+    expect(screen.queryByRole("alert")).not.toBeInTheDocument();
+    const input = screen.getByPlaceholderText("x");
+    expect(input.getAttribute("aria-invalid")).toBe("false");
   });
 
   it('renders error message with role="alert" when error prop is set', () => {
     render(<Input placeholder="x" error="Required field" />);
-    const alert = screen.getByRole('alert');
+    const alert = screen.getByRole("alert");
     expect(alert).toBeInTheDocument();
-    expect(alert.textContent).toBe('Required field');
+    expect(alert.textContent).toBe("Required field");
   });
 
-  it('toggles aria-invalid=true when error is present', () => {
+  it("toggles aria-invalid=true when error is present", () => {
     render(<Input placeholder="x" error="bad input" />);
-    expect(screen.getByPlaceholderText('x').getAttribute('aria-invalid')).toBe(
-      'true',
+    expect(screen.getByPlaceholderText("x").getAttribute("aria-invalid")).toBe(
+      "true",
     );
   });
 
-  it('associates input with error message via aria-describedby', () => {
+  it("associates input with error message via aria-describedby", () => {
     render(<Input id="email" placeholder="x" error="Required" />);
-    const input = screen.getByPlaceholderText('x');
-    const describedBy = input.getAttribute('aria-describedby');
+    const input = screen.getByPlaceholderText("x");
+    const describedBy = input.getAttribute("aria-describedby");
     expect(describedBy).toBeTruthy();
     const errorEl = document.getElementById(describedBy as string);
-    expect(errorEl?.textContent).toBe('Required');
+    expect(errorEl?.textContent).toBe("Required");
   });
 
-  it('forwards arbitrary native props (type, name, value, onChange)', () => {
+  it("forwards arbitrary native props (type, name, value, onChange)", () => {
     render(
-      <Input
-        type="email"
-        name="email"
-        defaultValue="a@b.co"
-        placeholder="x"
-      />,
+      <Input type="email" name="email" defaultValue="a@b.co" placeholder="x" />,
     );
-    const input = screen.getByPlaceholderText('x') as HTMLInputElement;
-    expect(input.type).toBe('email');
-    expect(input.name).toBe('email');
-    expect(input.value).toBe('a@b.co');
+    const input = screen.getByPlaceholderText("x") as HTMLInputElement;
+    expect(input.type).toBe("email");
+    expect(input.name).toBe("email");
+    expect(input.value).toBe("a@b.co");
   });
 
-  it('forwards ref', () => {
+  it("forwards ref", () => {
     const ref = { current: null as HTMLInputElement | null };
     render(<Input ref={ref} placeholder="x" />);
     expect(ref.current).toBeInstanceOf(HTMLInputElement);
   });
 
-  it('merges external className', () => {
+  it("merges external className", () => {
     render(<Input className="custom-input" placeholder="x" />);
-    expect(screen.getByPlaceholderText('x').className).toMatch(
-      /custom-input/,
-    );
+    expect(screen.getByPlaceholderText("x").className).toMatch(/custom-input/);
   });
 
   // Phase 2 v4 — focus-state inset shadow for depth (per Phase 1 token system)
-  describe('Phase 2 v4 — elevated visuals', () => {
-    it('applies inset shadow on focus state for depth perception', () => {
+  describe("Phase 2 v4 — elevated visuals", () => {
+    it("applies inset shadow on focus state for depth perception", () => {
       render(<Input placeholder="x" />);
-      const input = screen.getByPlaceholderText('x');
+      const input = screen.getByPlaceholderText("x");
       // Inset shadow on focus complements the global *:focus-visible 2px outline
       // (which is unchanged per Iron Law). Provides Apple Dev Docs-style depth.
       expect(input.className).toMatch(/focus:shadow-\[inset_/);

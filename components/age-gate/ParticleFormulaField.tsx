@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from "react";
 
 type Particle = {
   x: number;
@@ -23,11 +23,19 @@ type Formula = {
   mono: boolean;
 };
 
-const FORMULAS = ['NH₂', 'OH', '—COOH', 'H₂N—', 'C₅H₁₁NO₂S', 'C₁₆H₂₈N₄O₆', 'CO—NH'];
+const FORMULAS = [
+  "NH₂",
+  "OH",
+  "—COOH",
+  "H₂N—",
+  "C₅H₁₁NO₂S",
+  "C₁₆H₂₈N₄O₆",
+  "CO—NH",
+];
 
 function prefersReducedMotion() {
-  if (typeof window === 'undefined') return true;
-  return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (typeof window === "undefined") return true;
+  return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 }
 
 function randomBetween(min: number, max: number) {
@@ -41,7 +49,7 @@ export function ParticleFormulaField() {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    const context = canvas.getContext('2d', { alpha: true });
+    const context = canvas.getContext("2d", { alpha: true });
     if (!context) return;
     const ctx = context;
     const surface = canvas;
@@ -70,7 +78,7 @@ export function ParticleFormulaField() {
 
     function makeFormula(initial = false): Formula {
       return {
-        text: FORMULAS[Math.floor(Math.random() * FORMULAS.length)] ?? 'NH₂',
+        text: FORMULAS[Math.floor(Math.random() * FORMULAS.length)] ?? "NH₂",
         x: randomBetween(-40, width + 40),
         y: initial ? randomBetween(0, height) : height + randomBetween(20, 120),
         size: randomBetween(12, width < 640 ? 26 : 40),
@@ -117,7 +125,7 @@ export function ParticleFormulaField() {
         const radius = particle.size * particle.z;
         const glow = ctx.createRadialGradient(x, y, 0, x, y, radius * 4);
         glow.addColorStop(0, `rgba(116, 192, 252, ${particle.opacity})`);
-        glow.addColorStop(1, 'rgba(116, 192, 252, 0)');
+        glow.addColorStop(1, "rgba(116, 192, 252, 0)");
         ctx.fillStyle = glow;
         ctx.beginPath();
         ctx.arc(x, y, radius * 4, 0, Math.PI * 2);
@@ -132,11 +140,11 @@ export function ParticleFormulaField() {
 
         ctx.save();
         ctx.globalAlpha = formula.opacity;
-        ctx.fillStyle = '#74c0fc';
+        ctx.fillStyle = "#74c0fc";
         ctx.font = `${formula.size}px ${
           formula.mono
-            ? 'var(--font-mono), ui-monospace, monospace'
-            : 'var(--font-sans), ui-sans-serif, system-ui'
+            ? "var(--font-mono), ui-monospace, monospace"
+            : "var(--font-sans), ui-sans-serif, system-ui"
         }`;
         ctx.translate(
           formula.x + parallaxX * 0.42,
@@ -158,14 +166,14 @@ export function ParticleFormulaField() {
     }
 
     resize();
-    window.addEventListener('resize', resize);
-    window.addEventListener('pointermove', onPointerMove, { passive: true });
+    window.addEventListener("resize", resize);
+    window.addEventListener("pointermove", onPointerMove, { passive: true });
     frame = window.requestAnimationFrame(draw);
 
     return () => {
       window.cancelAnimationFrame(frame);
-      window.removeEventListener('resize', resize);
-      window.removeEventListener('pointermove', onPointerMove);
+      window.removeEventListener("resize", resize);
+      window.removeEventListener("pointermove", onPointerMove);
     };
   }, []);
 

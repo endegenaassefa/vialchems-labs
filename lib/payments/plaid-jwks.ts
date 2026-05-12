@@ -14,15 +14,15 @@
  * Iron Law 2.5 / 2.19: this file is on the protected paths list as
  * payment-rail-adjacent code.
  */
-import crypto from 'node:crypto';
-import { importJWK, jwtVerify } from 'jose';
+import crypto from "node:crypto";
+import { importJWK, jwtVerify } from "jose";
 
-export type VerificationMode = 'hmac' | 'jwks';
+export type VerificationMode = "hmac" | "jwks";
 
 export function pickVerificationMode(env: {
   PLAID_VERIFICATION_MODE?: string;
 }): VerificationMode {
-  return env.PLAID_VERIFICATION_MODE === 'jwks' ? 'jwks' : 'hmac';
+  return env.PLAID_VERIFICATION_MODE === "jwks" ? "jwks" : "hmac";
 }
 
 export interface PlaidJwksKey {
@@ -53,14 +53,14 @@ export type PlaidJwtVerifyResult =
   | {
       verified: false;
       reason:
-        | 'missing_jwt'
-        | 'malformed_jwt'
-        | 'missing_kid'
-        | 'jwks_fetch_failed'
-        | 'body_hash_mismatch'
-        | 'expired'
-        | 'signature_invalid'
-        | 'verification_unsupported';
+        | "missing_jwt"
+        | "malformed_jwt"
+        | "missing_kid"
+        | "jwks_fetch_failed"
+        | "body_hash_mismatch"
+        | "expired"
+        | "signature_invalid"
+        | "verification_unsupported";
     };
 
 interface JwtParts {
@@ -75,15 +75,15 @@ interface JwtParts {
 }
 
 function decodeJwt(token: string): JwtParts | null {
-  const parts = token.split('.');
+  const parts = token.split(".");
   if (parts.length !== 3) return null;
   const [headerB64, payloadB64, signatureB64] = parts;
   try {
     const header = JSON.parse(
-      Buffer.from(headerB64, 'base64url').toString('utf8'),
+      Buffer.from(headerB64, "base64url").toString("utf8"),
     );
     const payload = JSON.parse(
-      Buffer.from(payloadB64, 'base64url').toString('utf8'),
+      Buffer.from(payloadB64, "base64url").toString("utf8"),
     );
     return { headerB64, payloadB64, signatureB64, header, payload };
   } catch {
@@ -92,7 +92,7 @@ function decodeJwt(token: string): JwtParts | null {
 }
 
 function sha256(input: string): string {
-  return crypto.createHash('sha256').update(input).digest('hex');
+  return crypto.createHash("sha256").update(input).digest("hex");
 }
 
 const MAX_AGE_SECONDS = 5 * 60;
@@ -101,24 +101,24 @@ export async function verifyPlaidJwt(
   input: PlaidJwtVerifyInput,
 ): Promise<PlaidJwtVerifyResult> {
   if (!input.jwtHeader) {
-    return { verified: false, reason: 'missing_jwt' };
+    return { verified: false, reason: "missing_jwt" };
   }
   const decoded = decodeJwt(input.jwtHeader);
   if (!decoded) {
-    return { verified: false, reason: 'malformed_jwt' };
+    return { verified: false, reason: "malformed_jwt" };
   }
   if (!decoded.header.kid) {
-    return { verified: false, reason: 'missing_kid' };
+    return { verified: false, reason: "missing_kid" };
   }
 
   const key = await input.jwksFetcher(decoded.header.kid);
   if (!key) {
-    return { verified: false, reason: 'jwks_fetch_failed' };
+    return { verified: false, reason: "jwks_fetch_failed" };
   }
 
   const expectedHash = sha256(input.rawBody);
   if (decoded.payload.request_body_sha256 !== expectedHash) {
-    return { verified: false, reason: 'body_hash_mismatch' };
+    return { verified: false, reason: "body_hash_mismatch" };
   }
 
   const nowSeconds = Math.floor((input.nowMs ?? Date.now()) / 1000);
@@ -126,7 +126,7 @@ export async function verifyPlaidJwt(
     decoded.payload.iat !== undefined &&
     nowSeconds - decoded.payload.iat > MAX_AGE_SECONDS
   ) {
-    return { verified: false, reason: 'expired' };
+    return { verified: false, reason: "expired" };
   }
 
   // Phase 11.1: full ES256 signature verification via `jose`.
@@ -137,19 +137,19 @@ export async function verifyPlaidJwt(
         crv: key.crv,
         x: key.x,
         y: key.y,
-        alg: key.alg ?? 'ES256',
-        use: key.use ?? 'sig',
+        alg: key.alg ?? "ES256",
+        use: key.use ?? "sig",
       },
-      key.alg ?? 'ES256',
+      key.alg ?? "ES256",
     );
     await jwtVerify(input.jwtHeader, cryptoKey, {
-      algorithms: ['ES256'],
+      algorithms: ["ES256"],
       // Plaid does not currently set iss/aud claims on webhook tokens
       // per their docs; if they later do, we'll plumb the expected
       // values through the input shape.
     });
   } catch {
-    return { verified: false, reason: 'signature_invalid' };
+    return { verified: false, reason: "signature_invalid" };
   }
 
   return { verified: true };

@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 /**
  * VialShowcase — Vial + control panel.
@@ -13,11 +13,11 @@
  * but the animations don't run.
  */
 
-import { useState } from 'react';
-import { Vial, type VialSize } from '@/components/ui/Vial';
-import { cn } from '@/lib/utils';
+import { useState } from "react";
+import { Vial, type VialSize } from "@/components/ui/Vial";
+import { cn } from "@/lib/utils";
 
-type Mode = 'sway' | 'spin' | 'bob' | 'pause';
+type Mode = "sway" | "spin" | "bob" | "pause";
 
 export interface VialShowcaseProps {
   size?: VialSize;
@@ -33,19 +33,19 @@ export interface VialShowcaseProps {
 }
 
 const MODES: { id: Mode; label: string }[] = [
-  { id: 'sway', label: 'Sway' },
-  { id: 'spin', label: 'Spin' },
-  { id: 'bob', label: 'Bob' },
-  { id: 'pause', label: 'Pause' },
+  { id: "sway", label: "Sway" },
+  { id: "spin", label: "Spin" },
+  { id: "bob", label: "Bob" },
+  { id: "pause", label: "Pause" },
 ];
 
 export function VialShowcase({
-  size = '2xl',
+  size = "2xl",
   withLabel = true,
-  compound = 'BPC-157',
-  dose = '10mg',
-  batch = '2026-05',
-  defaultMode = 'sway',
+  compound = "BPC-157",
+  dose = "10mg",
+  batch = "2026-05",
+  defaultMode = "sway",
   defaultInteractive = true,
   className,
 }: VialShowcaseProps) {
@@ -54,18 +54,16 @@ export function VialShowcase({
   const [manualRotation, setManualRotation] = useState(0);
 
   return (
-    <div
-      className={cn(
-        'flex flex-col items-center gap-8',
-        className,
-      )}
-    >
+    <div className={cn("flex flex-col items-center gap-8", className)}>
       {/* Vial display area — generous breathing room */}
       <div
         className="flex items-center justify-center min-h-[280px]"
         style={
           manualRotation !== 0
-            ? { transform: `rotate(${manualRotation}deg)`, transition: 'transform 200ms cubic-bezier(0.16,1,0.3,1)' }
+            ? {
+                transform: `rotate(${manualRotation}deg)`,
+                transition: "transform 200ms cubic-bezier(0.16,1,0.3,1)",
+              }
             : undefined
         }
       >
@@ -75,11 +73,13 @@ export function VialShowcase({
           compound={compound}
           dose={dose}
           batch={batch}
-          sway={mode === 'sway'}
-          spin={mode === 'spin'}
-          bob={mode === 'bob'}
+          sway={mode === "sway"}
+          spin={mode === "spin"}
+          bob={mode === "bob"}
           interactive={interactive}
-          aria-label={withLabel ? `vialchemlabs ${compound} ${dose} vial` : undefined}
+          aria-label={
+            withLabel ? `vialchemlabs ${compound} ${dose} vial` : undefined
+          }
         />
       </div>
 
@@ -101,10 +101,10 @@ export function VialShowcase({
                 aria-checked={isActive}
                 onClick={() => setMode(m.id)}
                 className={cn(
-                  'px-3 h-8 font-mono text-[10px] uppercase tracking-[0.16em] rounded-[calc(var(--radius-md)-1px)] transition-colors duration-[var(--dur-short)]',
+                  "px-3 h-8 font-mono text-[10px] uppercase tracking-[0.16em] rounded-[calc(var(--radius-md)-1px)] transition-colors duration-[var(--dur-short)]",
                   isActive
-                    ? 'bg-[var(--surface-elevated)] text-[var(--accent)]'
-                    : 'bg-[var(--surface)] text-[var(--text-subtle)] hover:text-[var(--text-muted)]',
+                    ? "bg-[var(--surface-elevated)] text-[var(--accent)]"
+                    : "bg-[var(--surface)] text-[var(--text-subtle)] hover:text-[var(--text-muted)]",
                 )}
               >
                 {m.label}
@@ -120,7 +120,9 @@ export function VialShowcase({
             className="flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.16em] text-[var(--text-subtle)] mb-2"
           >
             <span>Manual rotate</span>
-            <span className="tabular text-[var(--text-muted)]">{manualRotation}°</span>
+            <span className="tabular text-[var(--text-muted)]">
+              {manualRotation}°
+            </span>
           </label>
           <input
             id="vial-rotate"

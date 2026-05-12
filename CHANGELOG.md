@@ -118,7 +118,7 @@ denser BioCollex-inspired UI.
 - Visual-regression baseline (Iron Law 2.25) WILL DIFF substantially
   again — new vial visual + new home hero + 4-col catalog + featured
   products row are intentional. Run `npx playwright test
-  tests/e2e/visual-regression.spec.ts --update-snapshots` to refresh.
+tests/e2e/visual-regression.spec.ts --update-snapshots` to refresh.
 - Catalog expansion was deliberately compliance-safe; if operator wants
   GLP-1 class compounds added (Tirzepatide / Semaglutide / Retatrutide /
   Tesamorelin), Iron Law 2.7 LOCKED_OVERRIDE protocol applies — see
@@ -139,7 +139,7 @@ titanintake.com). Full plan at `docs/v4-design-overhaul-plan.md`. Iron Law
 
 - Buyer qualification flow wired into checkout review (closes Phase-8 D2
   spirit; protected-path commit per Iron Law 2.5/2.19, `// SCANNER_OK:
-  reviewed-and-cso-passed`). The previously-built `QualificationFlow`
+reviewed-and-cso-passed`). The previously-built `QualificationFlow`
   component (verbatim Appendix A.5 attestations + verbatim Appendix A.3 age
   gate at `qualification-flow.tsx:139`) now renders inline in
   `app/checkout/review/ReviewPanel.tsx`; the simplified 2-checkbox stub +
@@ -159,7 +159,7 @@ titanintake.com). Full plan at `docs/v4-design-overhaul-plan.md`. Iron Law
   honest /login surface.
 - Header nav collapsed 7 → 5 items (Shop / COA / About / FAQ / Contact).
   /test-reports + /blog still accessible as routes (linked from body copy
-  + footer); just removed from primary nav.
+  - footer); just removed from primary nav.
 
 ### Tier 2 — New trust primitives + apply across pages
 
@@ -187,11 +187,11 @@ titanintake.com). Full plan at `docs/v4-design-overhaul-plan.md`. Iron Law
 - Home (`app/page.tsx`) full redesign: typography-only AI Design OS hero
   (no imagery, Plex Sans + Newsreader Italic carry everything) +
   spaced-uppercase BioCollex eyebrow + Plex Mono "latest batch" data tag
-  + TrustTicker + BioCollex-inspired "Purity Standard / Third-party
-  verified / Every single batch" full-width section + ComparativeTable
-  + ProcessFlow ("What every batch goes through") + Recovery Stack CTA
-  + LabPartnerStrip + NamedAttestation placeholder. Section padding
-  py-32/40 throughout.
+  - TrustTicker + BioCollex-inspired "Purity Standard / Third-party
+    verified / Every single batch" full-width section + ComparativeTable
+  - ProcessFlow ("What every batch goes through") + Recovery Stack CTA
+  - LabPartnerStrip + NamedAttestation placeholder. Section padding
+    py-32/40 throughout.
 - 9 page heroes varied from the formulaic italic-two-line pattern:
   - `/shop` — large monospace "07 SKUs" stat hero + 5-cell category
     breakdown
@@ -202,9 +202,9 @@ titanintake.com). Full plan at `docs/v4-design-overhaul-plan.md`. Iron Law
   - `/blog` — editorial register: large body type AS the hero
   - `/affiliate` — tier-emphasis "10 / 15 / 20%" mega-numbers
   - `/test-reports` — full rewrite: technical-stat hero + ComparativeTable
-    + ProcessFlow + LabPartnerStrip + transparency + portal sections
-    (verbatim copy preserved). Previous 3-column SaaS feature grid
-    (DESIGN.md anti-pattern) gone.
+    - ProcessFlow + LabPartnerStrip + transparency + portal sections
+      (verbatim copy preserved). Previous 3-column SaaS feature grid
+      (DESIGN.md anti-pattern) gone.
 - `/about` — additive ProcessFlow + NamedAttestation placeholder.
   **Verbatim Appendix N prose unchanged** (`git diff` shows zero prose
   additions or removals).
@@ -225,13 +225,13 @@ titanintake.com). Full plan at `docs/v4-design-overhaul-plan.md`. Iron Law
 - `npm run build` clean; 50 static + 38 routes generating.
 - `npm run typecheck` clean.
 - All protected-path commits annotated `// SCANNER_OK:
-  reviewed-and-cso-passed` per Iron Law 2.5/2.19.
+reviewed-and-cso-passed` per Iron Law 2.5/2.19.
 - Verbatim Appendix A.3 age gate, Appendix A.5 attestations, Appendix N
   About prose, Appendix M FAQ — all unchanged.
 - Visual-regression baseline (114 snapshots) WILL DIFF substantially —
   the redesigns are intentional. Operator approval required per Iron Law
   2.25 before merge: `npx playwright test tests/e2e/visual-regression
-  .spec.ts --update-snapshots` then commit new baseline.
+.spec.ts --update-snapshots` then commit new baseline.
 
 ## [1.1.0] — 2026-05-10
 
@@ -279,12 +279,13 @@ All gates default off (`REQUIRE_SUPABASE=false`, `REQUIRE_RESEND=false`, empty D
 - `playwright.config.ts` — dev-server fixture, dark colorScheme, 0.1% pixel-diff threshold
 - `vercel.json` — security headers (HSTS preload, X-Frame-Options DENY, Permissions-Policy), webhook + access route no-store cache, sitemap + COA caching
 - `scripts/setup-branch-protection.sh` — `gh` CLI script wires required checks + reviews + linear history + CODEOWNERS for visual-regression + protected paths
-- `docs/deploy/dns.md` — per-registrar guide for `vialchemlabs.com`
+- `docs/deploy/dns.md` — per-registrar guide for `vialchemlabs.net`
 - `docs/deploy/runbook.md` — pre-launch checklist + `vercel link` + env intake + first deploy + post-deploy verification + rollback
 
 ### Iron Laws
 
 10 new laws extend the constitution from v3.0:
+
 - **2.18** No aesthetic regression (visual-regression baseline + Lighthouse ≥ baseline)
 - **2.19** Protected-file modification requires SCANNER_OK annotation
 - **2.20** PaymentProviderId frozen — no fourth rail in v4
@@ -312,7 +313,7 @@ All gates default off (`REQUIRE_SUPABASE=false`, `REQUIRE_RESEND=false`, empty D
 
 ### Operator pre-launch (Phase 12)
 
-See `docs/deploy/runbook.md`. Sequence: register `vialchemlabs.com` → fill Appendix AA → `vercel link` → `vercel env add` (×30) → Supabase migration push → `vercel --prod` → `vercel domains add vialchemlabs.com` → branch protection script → Sentry alerts → `git tag v1.1.0`.
+See `docs/deploy/runbook.md`. Sequence: register `vialchemlabs.net` → fill Appendix AA → `vercel link` → `vercel env add` (×30) → Supabase migration push → `vercel --prod` → `vercel domains add vialchemlabs.net` → branch protection script → Sentry alerts → `git tag v1.1.0`.
 
 ## [1.0.0] — 2026-05-08
 
@@ -337,7 +338,7 @@ Initial Day-1 release. Built end-to-end per `/root/peptide-launch-bundle/corpus/
 ### Brand
 
 - vialchemlabs (Posture A clean clinical) — LOCKED via DECISIONS/brand_pick.md
-- Domain: vialchemlabs.com (literal .labs TLD)
+- Domain: vialchemlabs.net
 - Wordmark: vialchemlabs + LABS chip
 - Typography: IBM Plex Sans + IBM Plex Mono + Newsreader Italic
 - Color: charcoal #0a0e0f bg + teal #3dd4c8 accent

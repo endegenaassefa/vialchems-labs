@@ -2,18 +2,18 @@
  * Blog index — Phase 5 lists 5 placeholder posts. Phase 6 will replace
  * each with a ≥1500-word article + ≥5 scientific citations.
  */
-import type { Metadata } from 'next';
-import Link from 'next/link';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { Card } from '@/components/ui/Card';
-import { StaggerReveal } from '@/components/ui/StaggerReveal';
-import { blogPosts } from '@/lib/content/blog';
+import type { Metadata } from "next";
+import Link from "next/link";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { Card } from "@/components/ui/Card";
+import { StaggerReveal } from "@/components/ui/StaggerReveal";
+import { blogPosts } from "@/lib/content/blog";
 
 export const metadata: Metadata = {
-  title: 'Research Index',
+  title: "Research Index",
   description:
-    'Plain-language reference on Certificates of Analysis, lyophilized peptide storage, reconstitution workflows, and HPLC purity.',
+    "Plain-language reference on Certificates of Analysis, lyophilized peptide storage, reconstitution workflows, and HPLC purity.",
 };
 
 export default function BlogIndexPage() {
@@ -32,14 +32,15 @@ export default function BlogIndexPage() {
             <h1 className="text-[clamp(28px,3.2vw,40px)] font-light leading-[1.35] tracking-tight text-[var(--text)] max-w-3xl">
               Plain-language explainers for laboratory workflows. Reading a
               Certificate of Analysis. Storage and reconstitution conditions.
-              HPLC purity. The difference between a vendor self-attestation
-              and an independent-laboratory report.{' '}
+              HPLC purity. The difference between a vendor self-attestation and
+              an independent-laboratory report.{" "}
               <span className="font-serif-italic text-[var(--accent-soft)]">
                 Reference, not advice.
               </span>
             </h1>
             <p className="mt-10 font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)]">
-              {blogPosts.length} articles · No outcome claims · Citations on every reference
+              {blogPosts.length} articles · No outcome claims · Citations on
+              every reference
             </p>
           </div>
         </section>
@@ -55,7 +56,9 @@ export default function BlogIndexPage() {
                 >
                   <Card as="article" variant="interactive" className="p-7">
                     <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)] mb-2">
-                      <time dateTime={post.publishedAt}>{post.publishedAt}</time>
+                      <time dateTime={post.publishedAt}>
+                        {post.publishedAt}
+                      </time>
                     </p>
                     <h2 className="text-[24px] md:text-[28px] font-medium leading-tight tracking-tight text-[var(--text)] mb-3 group-hover:text-[var(--accent-soft)] transition-colors duration-[var(--dur-short)]">
                       {post.title}

@@ -1,9 +1,9 @@
-import { describe, expect, it, beforeEach } from 'vitest';
+import { describe, expect, it, beforeEach } from "vitest";
 import {
   assertOrderJurisdictionAllowed,
   JurisdictionalGuardError,
   resetReconciliationLedger,
-} from '@/lib/payments/reconciliation';
+} from "@/lib/payments/reconciliation";
 
 /**
  * Phase 10.1 (v4) — D15 Layer 3 jurisdictional guard.
@@ -16,56 +16,56 @@ import {
  * order does not happen at all.
  */
 
-describe('assertOrderJurisdictionAllowed (D15 Layer 3)', () => {
+describe("assertOrderJurisdictionAllowed (D15 Layer 3)", () => {
   beforeEach(() => {
     resetReconciliationLedger();
   });
 
-  it('passes for a US address in an allowed state', () => {
+  it("passes for a US address in an allowed state", () => {
     expect(() =>
       assertOrderJurisdictionAllowed({
-        countryCode: 'US',
-        stateCode: 'WA',
+        countryCode: "US",
+        stateCode: "WA",
       }),
     ).not.toThrow();
   });
 
-  it('throws JurisdictionalGuardError for blocklisted CA', () => {
+  it("throws JurisdictionalGuardError for blocklisted CA", () => {
     expect(() =>
       assertOrderJurisdictionAllowed({
-        countryCode: 'US',
-        stateCode: 'CA',
+        countryCode: "US",
+        stateCode: "CA",
       }),
     ).toThrow(JurisdictionalGuardError);
   });
 
-  it('throws for TX, NY, FL', () => {
-    for (const stateCode of ['TX', 'NY', 'FL']) {
+  it("throws for TX, NY, FL", () => {
+    for (const stateCode of ["TX", "NY", "FL"]) {
       expect(() =>
         assertOrderJurisdictionAllowed({
-          countryCode: 'US',
+          countryCode: "US",
           stateCode,
         }),
       ).toThrow(JurisdictionalGuardError);
     }
   });
 
-  it('throws for non-US country codes (US-only Day-1)', () => {
+  it("throws for non-US country codes (US-only Day-1)", () => {
     expect(() =>
       assertOrderJurisdictionAllowed({
-        countryCode: 'CA',
-        stateCode: 'ON',
+        countryCode: "CA",
+        stateCode: "ON",
       }),
     ).toThrow(JurisdictionalGuardError);
   });
 
-  it('error includes the rejection reason from validateShippingAddress', () => {
+  it("error includes the rejection reason from validateShippingAddress", () => {
     try {
       assertOrderJurisdictionAllowed({
-        countryCode: 'US',
-        stateCode: 'CA',
+        countryCode: "US",
+        stateCode: "CA",
       });
-      throw new Error('should have thrown');
+      throw new Error("should have thrown");
     } catch (err) {
       expect(err).toBeInstanceOf(JurisdictionalGuardError);
       expect((err as Error).message).toMatch(/CA/);

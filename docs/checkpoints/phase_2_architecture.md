@@ -24,18 +24,18 @@ The plan itself is durable and reviewable — operator can re-run the interactiv
 
 ## Key Architectural Decisions
 
-| Decision | Choice | Rationale |
-|---|---|---|
-| Project type | NEW Next.js project, NOT Mogtrix fork | Iron Law 2.12 |
-| Framework | Next.js 16 App Router | Mogtrix-proven; SSR + RSC |
-| DB | Supabase Postgres 17 | Mogtrix-proven |
-| Payment | Custom adapter pattern (BTCPay + Plaid + stub) | Iron Law 2.9; LOCKED via DECISIONS |
-| Email | Resend | Mogtrix-proven; Omnisend deferred to Phase 2+ |
-| Hosting | Vercel | Mogtrix-proven |
-| Analytics | Vercel Analytics ONLY (no GA, no Meta Pixel, no GTM) | Compliance posture: don't load 3rd-party trackers that signal commercial-marketing intent to ad-platform classifiers |
-| Search | Fuse.js (client-side fuzzy) | Sufficient for 7-SKU + 15-expansion catalog |
-| 3D | CSS-only Vial Day-1; R3F deferred | Performance budget (Lighthouse Perf ≥ 90) |
-| Cookie consent | Self-hosted banner | No 3rd-party tracker dependency |
+| Decision       | Choice                                               | Rationale                                                                                                            |
+| -------------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Project type   | NEW Next.js project, NOT Mogtrix fork                | Iron Law 2.12                                                                                                        |
+| Framework      | Next.js 16 App Router                                | Mogtrix-proven; SSR + RSC                                                                                            |
+| DB             | Supabase Postgres 17                                 | Mogtrix-proven                                                                                                       |
+| Payment        | Custom adapter pattern (BTCPay + Plaid + stub)       | Iron Law 2.9; LOCKED via DECISIONS                                                                                   |
+| Email          | Resend                                               | Mogtrix-proven; Omnisend deferred to Phase 2+                                                                        |
+| Hosting        | Vercel                                               | Mogtrix-proven                                                                                                       |
+| Analytics      | Vercel Analytics ONLY (no GA, no Meta Pixel, no GTM) | Compliance posture: don't load 3rd-party trackers that signal commercial-marketing intent to ad-platform classifiers |
+| Search         | Fuse.js (client-side fuzzy)                          | Sufficient for 7-SKU + 15-expansion catalog                                                                          |
+| 3D             | CSS-only Vial Day-1; R3F deferred                    | Performance budget (Lighthouse Perf ≥ 90)                                                                            |
+| Cookie consent | Self-hosted banner                                   | No 3rd-party tracker dependency                                                                                      |
 
 ## Eng-Review Score (self-applied)
 
@@ -64,6 +64,7 @@ The plan itself is durable and reviewable — operator can re-run the interactiv
 ## Risk Register
 
 13 risks captured in plan §8 with mitigations and owning phase. Top concerns:
+
 - R10: All credentials stubbed = first real deploy needs operator env-var rotation. Phase 11 runbook + Phase 14 deploy checklist explicit about this.
 - R12: Supabase CLI install denied by harness. Workaround: `npx supabase` or JS client + dashboard.
 
@@ -80,7 +81,8 @@ The plan itself is durable and reviewable — operator can re-run the interactiv
 Phase 3 (Backend Bootstrap) can begin immediately. No blockers.
 
 Operator-action items deferred to operator-runbook (Phase 11):
-- Register vialchemlabs.com domain
+
+- Register vialchemlabs.net domain
 - Form Wyoming LLC
 - Confirm source supplier terms
 - Replace all stub credentials

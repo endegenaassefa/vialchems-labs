@@ -1,5 +1,6 @@
-import { NextResponse } from 'next/server';
-import { z } from 'zod';
+import { NextResponse } from "next/server";
+import { z } from "zod";
+import { isProductionRuntime } from "@/lib/runtime-env";
 
 /**
  * Newsletter subscribe stub.
@@ -17,41 +18,47 @@ const subscribeSchema = z.object({
   email: z.string().email(),
 });
 
-export const dynamic = 'force-dynamic';
+export const dynamic = "force-dynamic";
 
 export async function POST(request: Request) {
-  const contentType = request.headers.get('content-type') ?? '';
+  const contentType = request.headers.get("content-type") ?? "";
 
   let email: string | null = null;
-  if (contentType.includes('application/json')) {
+  if (contentType.includes("application/json")) {
     try {
       const json = await request.json();
       const parsed = subscribeSchema.safeParse(json);
       if (!parsed.success) {
         return NextResponse.json(
-          { ok: false, error: 'invalid_email' },
+          { ok: false, error: "invalid_email" },
           { status: 400 },
         );
       }
       email = parsed.data.email;
     } catch {
       return NextResponse.json(
-        { ok: false, error: 'invalid_body' },
+        { ok: false, error: "invalid_body" },
         { status: 400 },
       );
     }
   } else {
     const form = await request.formData();
-    const candidate = form.get('email');
+    const candidate = form.get("email");
     const parsed = subscribeSchema.safeParse({ email: candidate });
     if (!parsed.success) {
-      return NextResponse.redirect(new URL('/newsletter?error=invalid_email', request.url), 303);
+      return NextResponse.redirect(
+        new URL("/newsletter?error=invalid_email", request.url),
+        303,
+      );
     }
     email = parsed.data.email;
   }
 
   if (!email) {
-    return NextResponse.json({ ok: false, error: 'missing_email' }, { status: 400 });
+    return NextResponse.json(
+      { ok: false, error: "missing_email" },
+      { status: 400 },
+    );
   }
 
   // Phase 10.2 wiring: persist + dispatch welcome sequence. When
@@ -60,37 +67,48 @@ export async function POST(request: Request) {
   // and the redirect lands.
   let subscriptionId: string | undefined;
   try {
-    const sb = (await import('@/lib/supabase')).serviceSupabase();
+    const sb = (await import("@/lib/supabase")).serviceSupabase();
     if (sb && email) {
       const { data: existing } = await sb
-        .from('email_subscriptions')
-        .select('id')
-        .eq('email', email)
+        .from("email_subscriptions")
+        .select("id")
+        .eq("email", email)
         .maybeSingle();
       if (existing?.id) {
         subscriptionId = existing.id;
       } else {
         const { data: inserted, error } = await sb
-          .from('email_subscriptions')
-          .insert({ email, promo_code: 'WELCOME15' })
-          .select('id')
+          .from("email_subscriptions")
+          .insert({ email, promo_code: "WELCOME15" })
+          .select("id")
           .single();
         if (!error && inserted?.id) subscriptionId = inserted.id;
       }
     }
-    const dispatcher = await import('@/lib/email/welcome-sequence');
+    const dispatcher = await import("@/lib/email/welcome-sequence");
     if (email) {
       await dispatcher.dispatchWelcomeSequence({ email, subscriptionId });
     }
-  } catch {
-    // Persistence / send failure should not 500 the user; the audit log
-    // captures the gap once Phase 10.3 Sentry alerts are wired.
+  } catch (error) {
+    if (isProductionRuntime()) {
+      return NextResponse.json(
+        {
+          ok: false,
+          error: "newsletter_dispatch_failed",
+          message: (error as Error).message,
+        },
+        { status: 502 },
+      );
+    }
   }
 
   // Form submissions redirect for non-JS clients.
-  if (!contentType.includes('application/json')) {
-    return NextResponse.redirect(new URL('/newsletter/thanks', request.url), 303);
+  if (!contentType.includes("application/json")) {
+    return NextResponse.redirect(
+      new URL("/newsletter/thanks", request.url),
+      303,
+    );
   }
 
-  return NextResponse.json({ ok: true, promoCode: 'WELCOME15' });
+  return NextResponse.json({ ok: true, promoCode: "WELCOME15" });
 }

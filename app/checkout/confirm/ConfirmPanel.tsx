@@ -4,23 +4,23 @@
  * Reads the placeholder order from sessionStorage. Phase 5 stub — production
  * order persistence (Supabase + payment-status webhooks) lands in Phase 7+8.
  */
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { Card } from '@/components/ui/Card';
-import { Pill } from '@/components/ui/Pill';
-import { Specs } from '@/components/ui/Specs';
-import { EmptyState } from '@/components/ui/EmptyState';
-import { buttonClassNames } from '@/components/ui/Button';
-import { formatPrice } from '@/lib/content/products';
-import { useSessionStorageItem } from '@/lib/use-session-storage';
+import Link from "next/link";
+import { Card } from "@/components/ui/Card";
+import { Pill } from "@/components/ui/Pill";
+import { Specs } from "@/components/ui/Specs";
+import { EmptyState } from "@/components/ui/EmptyState";
+import { buttonClassNames } from "@/components/ui/Button";
+import { formatPrice } from "@/lib/content/products";
+import { useSessionStorageItem } from "@/lib/use-session-storage";
 
-const ORDER_KEY = 'vialchemlabs:checkout:order';
+const ORDER_KEY = "vialchemlabs:checkout:order";
 
 interface StoredOrder {
   id: string;
   placedAt: string;
-  method: 'crypto' | 'ach';
+  method: "crypto" | "ach";
   lines: {
     sku: string;
     slug: string;
@@ -44,8 +44,8 @@ interface StoredOrder {
 }
 
 const METHOD_LABELS: Record<string, string> = {
-  crypto: 'Cryptocurrency (BTC / LTC)',
-  ach: 'Bank transfer (US ACH)',
+  crypto: "Cryptocurrency (BTC / LTC)",
+  ach: "Bank transfer (US ACH)",
 };
 
 export function ConfirmPanel() {
@@ -57,7 +57,7 @@ export function ConfirmPanel() {
         title="No recent order in this session"
         description="If you completed checkout in another tab, the confirmation appears there. Otherwise, return to the catalog."
         action={
-          <Link href="/shop" className={buttonClassNames('outline', 'md')}>
+          <Link href="/shop" className={buttonClassNames("outline", "md")}>
             Browse the catalog
           </Link>
         }
@@ -83,12 +83,14 @@ export function ConfirmPanel() {
             </p>
           </div>
           <Pill variant="accent">
-            {order.method === 'crypto' ? 'Awaiting BTC confirmation' : 'Awaiting ACH clearance'}
+            {order.method === "crypto"
+              ? "Awaiting BTC confirmation"
+              : "Awaiting ACH clearance"}
           </Pill>
         </div>
 
         <p className="text-[16px] leading-[1.6] text-[var(--text-muted)] max-w-2xl">
-          Thank you for your order. A confirmation email is on its way to{' '}
+          Thank you for your order. A confirmation email is on its way to{" "}
           <span className="text-[var(--text)]">your address on file</span>. Your
           Certificate of Analysis will be emailed once a batch is allocated, and
           will also be visible on the product page.
@@ -97,30 +99,36 @@ export function ConfirmPanel() {
         <div className="mt-6 grid gap-3 sm:grid-cols-2">
           <Specs
             items={[
-              { term: 'Placed', value: placedAt.toLocaleString() },
-              { term: 'Method', value: METHOD_LABELS[order.method] ?? order.method },
+              { term: "Placed", value: placedAt.toLocaleString() },
               {
-                term: 'Expected ship',
+                term: "Method",
+                value: METHOD_LABELS[order.method] ?? order.method,
+              },
+              {
+                term: "Expected ship",
                 value: expectedShip.toLocaleDateString(),
               },
             ]}
           />
           <Specs
             items={[
-              { term: 'Subtotal', value: formatPrice(order.subtotalCents) },
+              { term: "Subtotal", value: formatPrice(order.subtotalCents) },
               {
-                term: 'Discount',
+                term: "Discount",
                 value:
                   order.discountCents > 0
                     ? `− ${formatPrice(order.discountCents)}`
-                    : '—',
+                    : "—",
               },
               {
-                term: 'Shipping',
-                value: order.shippingCents === 0 ? 'Free' : formatPrice(order.shippingCents),
+                term: "Shipping",
+                value:
+                  order.shippingCents === 0
+                    ? "Free"
+                    : formatPrice(order.shippingCents),
               },
               {
-                term: 'Total',
+                term: "Total",
                 value: (
                   <span className="text-[18px] font-semibold">
                     {formatPrice(order.totalCents)}
@@ -146,7 +154,7 @@ export function ConfirmPanel() {
                 href={`/products/${l.slug}`}
                 className="text-[14px] text-[var(--text)] hover:text-[var(--accent-soft)]"
               >
-                {l.name}{' '}
+                {l.name}{" "}
                 <span className="font-mono text-[12px] text-[var(--text-subtle)]">
                   × {l.qty}
                 </span>
@@ -162,17 +170,17 @@ export function ConfirmPanel() {
       <div className="flex flex-wrap gap-3">
         <Link
           href={`/order/${order.id}`}
-          className={buttonClassNames('primary', 'md')}
+          className={buttonClassNames("primary", "md")}
         >
           View order detail
         </Link>
         <Link
           href="/account/orders"
-          className={buttonClassNames('outline', 'md')}
+          className={buttonClassNames("outline", "md")}
         >
           All orders
         </Link>
-        <Link href="/shop" className={buttonClassNames('outline', 'md')}>
+        <Link href="/shop" className={buttonClassNames("outline", "md")}>
           Continue shopping
         </Link>
       </div>

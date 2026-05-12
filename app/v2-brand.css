@@ -1,0 +1,139 @@
+/* ============================================================
+   BRAND LAYER — vailchem.labs
+   Swap this file to re-brand. Layout never references hex values
+   directly, only these tokens.
+   ============================================================ */
+
+:root {
+  /* Foreground / background */
+  --bg: #fafaf7;
+  --bg-elevated: #ffffff;
+  --bg-sunken: #f4f4f0;
+  --bg-inverse: #0a0e14;
+
+  --fg: #0a0e14;
+  --fg-muted: #5a6470;
+  --fg-subtle: #8b95a1;
+  --fg-inverse: #fafaf7;
+
+  /* Hairlines */
+  --line: #e6e4dc;
+  --line-strong: #c9c6bb;
+  --line-faint: #efede6;
+
+  /* Accent — cyan / navy pairing */
+  --accent: #0f3a5f; /* deep navy */
+  --accent-hi: #06b6d4; /* cyan highlight */
+  --accent-soft: #e8f7fb; /* cyan tint bg */
+  --accent-fg: #ffffff; /* on accent */
+
+  /* Status */
+  --ok: #1f8a5b;
+  --ok-soft: #e7f4ed;
+  --warn: #b08400;
+  --warn-soft: #fbf4dd;
+  --danger: #b3261e;
+  --danger-soft: #fbe9e7;
+
+  /* Type */
+  --font-sans:
+    var(--font-geist), ui-sans-serif, system-ui, -apple-system,
+    "Helvetica Neue", sans-serif;
+  --font-mono:
+    var(--font-geist-mono), ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* Radii */
+  --r-xs: 2px;
+  --r-sm: 4px;
+  --r-md: 6px;
+  --r-lg: 10px;
+  --r-pill: 999px;
+
+  /* Shadow — extremely restrained */
+  --shadow-sm: 0 1px 0 rgba(10, 14, 20, 0.04);
+  --shadow-md:
+    0 4px 16px -8px rgba(10, 14, 20, 0.1), 0 1px 0 rgba(10, 14, 20, 0.04);
+  --shadow-lg:
+    0 24px 48px -24px rgba(10, 14, 20, 0.18), 0 1px 0 rgba(10, 14, 20, 0.04);
+
+  /* Motion */
+  --ease: cubic-bezier(0.2, 0.6, 0.2, 1);
+  --dur-fast: 160ms;
+  --dur: 280ms;
+  --dur-slow: 600ms;
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  --bg: #0a0e14;
+  --bg-elevated: #11161e;
+  --bg-sunken: #060a0f;
+  --bg-inverse: #fafaf7;
+
+  --fg: #f0f1ee;
+  --fg-muted: #8b95a1;
+  --fg-subtle: #5a6470;
+  --fg-inverse: #0a0e14;
+
+  --line: #1f2630;
+  --line-strong: #2c3540;
+  --line-faint: #161c25;
+
+  --accent-soft: #0a2535;
+
+  --ok-soft: #0d2419;
+  --warn-soft: #2a2210;
+  --danger-soft: #2a1413;
+
+  --shadow-sm: 0 1px 0 rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 16px -8px rgba(0, 0, 0, 0.6), 0 1px 0 rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 24px 48px -24px rgba(0, 0, 0, 0.8), 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* Accent variants */
+[data-accent="cyan-navy"] {
+  --accent: #0f3a5f;
+  --accent-hi: #06b6d4;
+  --accent-soft: #e8f7fb;
+}
+[data-theme="dark"][data-accent="cyan-navy"] {
+  --accent-soft: #0a2535;
+}
+
+[data-accent="cyan"] {
+  --accent: #0891b2;
+  --accent-hi: #22d3ee;
+  --accent-soft: #ecfeff;
+}
+[data-theme="dark"][data-accent="cyan"] {
+  --accent-soft: #082b33;
+}
+
+[data-accent="cobalt"] {
+  --accent: #0b5fff;
+  --accent-hi: #4d8bff;
+  --accent-soft: #eaf1ff;
+}
+[data-theme="dark"][data-accent="cobalt"] {
+  --accent-soft: #0a1a36;
+}
+
+[data-accent="forest"] {
+  --accent: #0f5132;
+  --accent-hi: #1f8a5b;
+  --accent-soft: #e7f4ed;
+}
+[data-theme="dark"][data-accent="forest"] {
+  --accent-soft: #0a2419;
+}
+
+[data-accent="graphite"] {
+  --accent: #111111;
+  --accent-hi: #444444;
+  --accent-soft: #f0efea;
+}
+[data-theme="dark"][data-accent="graphite"] {
+  --accent: #f0f1ee;
+  --accent-hi: #c9c6bb;
+  --accent-soft: #1a1a1a;
+}

@@ -1,7 +1,7 @@
 # Architecture Plan — vialchemlabs Peptide E-commerce Site
 
 Date: 2026-05-08
-Brand: vialchemlabs (Posture A clean clinical, vialchemlabs.com)
+Brand: vialchemlabs (Posture A clean clinical, vialchemlabs.net)
 Phase coverage: Phase 3 through Phase 15
 Builder: Claude Opus 4.7 (1M context), single-track per SUPER_PROMPT_v3 §4.5
 Reference: `/root/peptide-launch-bundle/corpus/SUPER_PROMPT_v3_2026-05-08.md`
@@ -21,25 +21,25 @@ These do not get re-litigated downstream:
 
 ## 2. Stack Selection
 
-| Layer | Choice | Rationale |
-|---|---|---|
-| Framework | Next.js 16+ (App Router) | Per super-prompt §1.6; SSR + edge for SEO; RSC for performance |
-| Runtime | React 19, TypeScript 5.x | Latest stable per Mogtrix reference |
-| Styling | Tailwind CSS v4 + globals.css design tokens | Per super-prompt; tokens in `lib/design/tokens.ts` |
-| DB / Auth | Supabase Postgres 17 + Supabase Auth | Per Mogtrix pattern (Iron Law 2.5 reads) |
-| State | Zustand 5 + Tanstack Query | Mogtrix-proven pattern |
-| Validation | Zod 4 | Mogtrix-proven; type-safe schemas |
-| Email | Resend | Mogtrix-proven; sub_5 confirms Omnisend dominant in market but Resend acceptable for this build |
-| Monitoring | Sentry 10 | Per super-prompt; alert thresholds: error rate > 1% → email, payment-flow error rate > 0.1% → page |
-| Payment | Custom adapter pattern (`PaymentProvider` interface) | Per Mogtrix pattern + DECISIONS/payment_stack.md |
-| Testing | Vitest (unit) + Playwright (E2E) | Per Mogtrix pattern |
-| Linting | ESLint + Prettier + Tailwind plugin | Standard |
-| Hosting | Vercel (iad1, auto-deploy on main) | Per Mogtrix; staging via preview deployments |
-| CDN | Vercel Edge Network | Default |
-| Analytics | Vercel Analytics + Sentry (no GA, no GTM, no Meta Pixel) | Privacy-first; sub_5 noted GA4+GTM+Meta Pixel is industry convergent but vialchemlabs differentiates by NOT loading 3rd-party trackers (zero cookies needed beyond strict-necessary) |
-| Cookie consent | Self-hosted banner (no Osano/OneTrust dependency) | GDPR/CCPA compliant; minimal because we don't load third-party trackers |
-| Search | Fuse.js (client-side fuzzy) for catalog | Sufficient for 7-SKU + 15-expansion catalog; revisit at 50+ SKUs |
-| 3D / illustration | CSS-only Vial primitive (no R3F Day 1) | Mogtrix uses @react-three/fiber 9.4; we keep it pluggable but Phase 4 builds CSS-only Vial.tsx for performance budget. R3F is Phase-2 enhancement candidate. |
+| Layer             | Choice                                                   | Rationale                                                                                                                                                                            |
+| ----------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Framework         | Next.js 16+ (App Router)                                 | Per super-prompt §1.6; SSR + edge for SEO; RSC for performance                                                                                                                       |
+| Runtime           | React 19, TypeScript 5.x                                 | Latest stable per Mogtrix reference                                                                                                                                                  |
+| Styling           | Tailwind CSS v4 + globals.css design tokens              | Per super-prompt; tokens in `lib/design/tokens.ts`                                                                                                                                   |
+| DB / Auth         | Supabase Postgres 17 + Supabase Auth                     | Per Mogtrix pattern (Iron Law 2.5 reads)                                                                                                                                             |
+| State             | Zustand 5 + Tanstack Query                               | Mogtrix-proven pattern                                                                                                                                                               |
+| Validation        | Zod 4                                                    | Mogtrix-proven; type-safe schemas                                                                                                                                                    |
+| Email             | Resend                                                   | Mogtrix-proven; sub_5 confirms Omnisend dominant in market but Resend acceptable for this build                                                                                      |
+| Monitoring        | Sentry 10                                                | Per super-prompt; alert thresholds: error rate > 1% → email, payment-flow error rate > 0.1% → page                                                                                   |
+| Payment           | Custom adapter pattern (`PaymentProvider` interface)     | Per Mogtrix pattern + DECISIONS/payment_stack.md                                                                                                                                     |
+| Testing           | Vitest (unit) + Playwright (E2E)                         | Per Mogtrix pattern                                                                                                                                                                  |
+| Linting           | ESLint + Prettier + Tailwind plugin                      | Standard                                                                                                                                                                             |
+| Hosting           | Vercel (iad1, auto-deploy on main)                       | Per Mogtrix; staging via preview deployments                                                                                                                                         |
+| CDN               | Vercel Edge Network                                      | Default                                                                                                                                                                              |
+| Analytics         | Vercel Analytics + Sentry (no GA, no GTM, no Meta Pixel) | Privacy-first; sub_5 noted GA4+GTM+Meta Pixel is industry convergent but vialchemlabs differentiates by NOT loading 3rd-party trackers (zero cookies needed beyond strict-necessary) |
+| Cookie consent    | Self-hosted banner (no Osano/OneTrust dependency)        | GDPR/CCPA compliant; minimal because we don't load third-party trackers                                                                                                              |
+| Search            | Fuse.js (client-side fuzzy) for catalog                  | Sufficient for 7-SKU + 15-expansion catalog; revisit at 50+ SKUs                                                                                                                     |
+| 3D / illustration | CSS-only Vial primitive (no R3F Day 1)                   | Mogtrix uses @react-three/fiber 9.4; we keep it pluggable but Phase 4 builds CSS-only Vial.tsx for performance budget. R3F is Phase-2 enhancement candidate.                         |
 
 ### Stack tradeoffs (eng-review self-applied)
 
@@ -240,6 +240,7 @@ Tables (per super-prompt §8 Phase 3):
 ```
 
 RLS (Row-Level Security) on every customer-touching table:
+
 - customer_profiles: user can read/update own row only
 - orders: user can read own orders only; ops role can read all
 - payments: user can read own payments only; ops role can read all
@@ -277,6 +278,7 @@ Webhook reconciliation:
 ```
 
 Discount logic (lib/cart-store.ts + checkout):
+
 ```
 selected_method = "crypto"  → apply discount 0.15 (10-15% range, default 15)
 selected_method = "ach"      → apply discount 0.05
@@ -290,11 +292,13 @@ Phase 2 (Day 90+) cards: $1,000 cap, "UNBLOCK" statement descriptor, MESH or MAX
 Three layers (defense-in-depth):
 
 ### Layer 1: Static analysis (pre-commit hook)
+
 - `scripts/grep-mogtrix.sh` — fails build on any "Mogtrix" or "MOGTRIX" not in attribution comment
 - `scripts/grep-forbidden-words.sh` — runs full Appendix P forbidden-word list against `**/*.{ts,tsx,md,html,json}` outside `node_modules`/`tests/fixtures`
 - Supply-chain scanner (Iron Law 2.16): hidden unicode (ZWSP, ZWNJ, ZWJ, WJ, BOM, bidi overrides), curl|bash, `--no-verify` in scripts, `enableAllProjectMcpServers`, `ANTHROPIC_BASE_URL`, base64 blobs >200 chars, `<!--` near `[A-Z]{4,}`, `data:text/html`
 
 ### Layer 2: Runtime assertion (lib/compliance.ts)
+
 - `assertMarketingCopySafe(text: string)` — runs same pattern set; throws on violation
 - Called automatically in:
   - Product description rendering (catches catalog editorial regressions)
@@ -303,16 +307,19 @@ Three layers (defense-in-depth):
   - Newsletter signup body (catches operator-error in email templates)
 
 ### Layer 3: Editorial gate (gstack /review + /cso before commit)
+
 - Iron Law 2.5: any commit touching `lib/payments/`, `lib/compliance.ts`, `lib/content/legal.ts`, `lib/attestations.ts`, `lib/customer-qualification.ts`, `app/api/payments/`, `app/api/access/`, or any product catalog file MUST run /review then /cso before push.
 
 ### Jurisdictional restriction (lib/compliance/jurisdictions.ts)
+
 ```typescript
-export const BLOCKED_STATES = ['CA', 'TX', 'NY', 'FL'] as const;
+export const BLOCKED_STATES = ["CA", "TX", "NY", "FL"] as const;
 // Operator may strengthen (add states); never weaken.
 // Validated at: address entry, checkout review, post-payment confirmation (defense-in-depth).
 ```
 
 ### Age gate (Appendix A.3 verbatim)
+
 - Pattern: text-based contractual checkbox at first cart action
 - 21+ threshold
 - LOCKED via DECISIONS/compliance_posture.md
@@ -320,6 +327,7 @@ export const BLOCKED_STATES = ['CA', 'TX', 'NY', 'FL'] as const;
 - (Sub 5 conflict: market trends toward modal — we follow LOCKED checkbox decision)
 
 ### Buyer qualification (Appendix A.5 verbatim)
+
 - 7-attestation block at first checkout
 - Fields: email (verified), institution/role, research purpose (assertMarketingCopySafe filtered), age 21+, RUO ack, jurisdictional ack
 - Mogtrix pattern at `site/lib/customer-qualification.ts` ported with peptide-context attestation language
@@ -329,6 +337,7 @@ export const BLOCKED_STATES = ['CA', 'TX', 'NY', 'FL'] as const;
 ### Phase 3: Backend Bootstrap (target 90-120 min)
 
 Sequence:
+
 1. `cd /root/peptide-site && npx create-next-app@latest . --typescript --tailwind --app --eslint --src-dir=false --import-alias="@/*"` (with auto-confirm flags; existing .git, .env preserved)
 2. Initial scaffold commit `chore(phase-3): initial Next.js scaffold`
 3. Install core deps: `@supabase/supabase-js @supabase/ssr zod zustand @tanstack/react-query @sentry/nextjs lucide-react clsx tailwind-merge`
@@ -397,6 +406,7 @@ Verification gate: brand assets present, design tokens defined, accessibility co
 ### Phase 5: Site IA + 29 Page Templates (target 120-180 min)
 
 29 pages enumerated in §3 above. Per-page workflow:
+
 1. Plan in `docs/superpowers/plans/<date>-page-<slug>.md` (1-paragraph + test cases + copy source per Appendix G)
 2. TDD per component
 3. Integrate
@@ -406,6 +416,7 @@ Verification gate: brand assets present, design tokens defined, accessibility co
 Heavy parallelization candidate: legal pages (terms/privacy/refunds/shipping/cookies) + content pages (about/faq/contact) are truly orthogonal. Use worktree cascade method per §4.4 if context budget allows; otherwise sequential subagent dispatch.
 
 Product Page Anatomy (13 components, ordered):
+
 1. Hero image (1 vial image, white bg, optional carousel for 2-3 angles)
 2. Title + SKU code (mono font for SKU)
 3. Price (list, per-mg, sale strikethrough if applicable)
@@ -421,6 +432,7 @@ Product Page Anatomy (13 components, ordered):
 13. Stack suggestion (Recovery Stack on relevant pages)
 
 Catalog page features:
+
 - Filters: category (Recovery, GH-Stack, Cosmetic-Pathway, Metabolic, Nootropic), dose options, format, in-stock only
 - Sort: price low-to-high, price high-to-low, name A-Z, newest
 - Pagination: 12 per page (irrelevant Day-1 with 7 SKUs)
@@ -428,6 +440,7 @@ Catalog page features:
 - Recently viewed (last 5 in this session)
 
 Checkout features:
+
 - Multi-step: shipping address → payment method → review → confirm
 - Jurisdictional check at address (block CA/TX/NY/FL)
 - Age gate checkbox at first cart action (NOT modal); 21+ + RUO ack + jurisdictional ack
@@ -443,6 +456,7 @@ Verification gate: all 29 pages exist, all `npm test` pass, all pass inline desi
 ### Phase 6: Content + Copy (target 90-120 min)
 
 All copy verbatim from super-prompt appendices:
+
 1. Footer disclaimer: Appendix A.1 (every page)
 2. Product disclaimer: Appendix A.2 (every product)
 3. Hero copy: Appendix N (vialchemlabs replaces {{BRAND_NAME}})
@@ -516,6 +530,7 @@ Verification gate: newsletter end-to-end, account flows, search/filter, ToS/Priv
 Generate `docs/operator-runbook.md` from Appendix I + sub_3_acquisition.md findings:
 
 **DAY 1 (vialchemlabs Day-1 specifics):**
+
 1. Google Organic SEO: 30-50 PDPs at 1500-2400 words each (Phase 6 already produces 5 blog posts; expansion is operator post-launch)
 2. Email capture: footer + dedicated `/newsletter` with credibility-artifact lead magnet
 3. Vendor blog: 5 foundational posts (Phase 6) + ongoing cadence (operator)
@@ -523,22 +538,11 @@ Generate `docs/operator-runbook.md` from Appendix I + sub_3_acquisition.md findi
 5. Defensive social registration: @vialchemlabs on IG/TikTok/X (block squatters, no active posting)
 6. **Tier S clinical-credentialed creator outreach**: 5-10 micro-creators (RN/PA-C/MD/DC) at $300-$1K + 20% commission/90-day cookie. Outreach template included.
 
-**WEEKS 2-4:**
-7. Affiliate listicle inclusions (response-driven from Day-1 outreach)
-8. Mid-tier biohacking podcast host-reads ($1.5K-$4.5K/insertion)
-9. Bing Webmaster Tools + sitemap submission
-10. X/Twitter founder-personal weekly cadence
+**WEEKS 2-4:** 7. Affiliate listicle inclusions (response-driven from Day-1 outreach) 8. Mid-tier biohacking podcast host-reads ($1.5K-$4.5K/insertion) 9. Bing Webmaster Tools + sitemap submission 10. X/Twitter founder-personal weekly cadence
 
-**MONTHS 2-3:**
-11. SEO traction landing (3-6 month horizon for Posture A)
-12. Catalog expansion: KPV as #1 candidate (Phase 7 schema supports it)
+**MONTHS 2-3:** 11. SEO traction landing (3-6 month horizon for Posture A) 12. Catalog expansion: KPV as #1 candidate (Phase 7 schema supports it)
 
-**PERMANENT AVOID:**
-13. Google Ads, Bing/DDG paid (closed by category bans)
-14. SMS marketing (CTIA + TCPA exposure)
-15. Vendor YouTube (channel termination ceiling)
-16. Active vendor IG/TikTok brand presence
-17. Trustpilot review counts
+**PERMANENT AVOID:** 13. Google Ads, Bing/DDG paid (closed by category bans) 14. SMS marketing (CTIA + TCPA exposure) 15. Vendor YouTube (channel termination ceiling) 16. Active vendor IG/TikTok brand presence 17. Trustpilot review counts
 
 **PLACEHOLDER AWAITING SLICE 3 FIRE:**
 18-22. Reddit + forums + Telegram + Discord + niche aggregator strategies (B1 prompt path)
@@ -584,21 +588,21 @@ Verification gate: /canary 2-hour pass, Sentry catches no critical, operator run
 
 ## 8. Risk Register
 
-| ID | Risk | Mitigation | Phase |
-|---|---|---|---|
-| R1 | Mogtrix attribution comments leak brand into source | Pre-commit grep test (Iron Law 2.12) blocks any "Mogtrix" outside `// Pattern adapted from mogtrix-` comment | 3, 8 |
-| R2 | RUO defense pierced by hedge-language in product descriptions | assertMarketingCopySafe grep + manual editorial review on Appendix E descriptions | 6, 7 |
-| R3 | Stub credentials accidentally committed in real | .gitignore covers `.env*`; `.env.example` is separate template; supply-chain scanner enforces | 0, 8 |
-| R4 | Payment webhook idempotency violation causes double-charge | Idempotency-keys in payments table; reconciliation.ts checks existing intent before update | 9 |
-| R5 | Lighthouse Perf < 90 on home (vial scenes too heavy) | CSS-only Vial Day-1; R3F deferred to Phase 2; image lazy-loading; bundle-size budget | 4, 12 |
-| R6 | Slice 3 PLACEHOLDER blocks runbook completion | Mark sections explicitly; operator fires B1; runbook regenerates on demand | 11 |
-| R7 | LLC formation deferred = ToS placeholder | `[Wyoming/TBD]` in ToS until operator confirms; legal review post-formation | 6, 10 |
-| R8 | Domain `vialchemlabs.com` not registered = wrong canonical URL on Day 1 | Build uses `NEXT_PUBLIC_SITE_URL=https://vialchemlabs.com`; operator registers; if .labs unavailable, fallback `vialchemlabs.com` and SITE_URL swap | 0, 14 |
-| R9 | Source supplier terms not confirmed = inaccurate fulfillment promises | Use Bible-aligned placeholder fulfillment ("ships within 2 business days, before 3pm Mon-Fri"); operator confirms post-build | 6, 10 |
+| ID  | Risk                                                                      | Mitigation                                                                                                                                             | Phase      |
+| --- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
+| R1  | Mogtrix attribution comments leak brand into source                       | Pre-commit grep test (Iron Law 2.12) blocks any "Mogtrix" outside `// Pattern adapted from mogtrix-` comment                                           | 3, 8       |
+| R2  | RUO defense pierced by hedge-language in product descriptions             | assertMarketingCopySafe grep + manual editorial review on Appendix E descriptions                                                                      | 6, 7       |
+| R3  | Stub credentials accidentally committed in real                           | .gitignore covers `.env*`; `.env.example` is separate template; supply-chain scanner enforces                                                          | 0, 8       |
+| R4  | Payment webhook idempotency violation causes double-charge                | Idempotency-keys in payments table; reconciliation.ts checks existing intent before update                                                             | 9          |
+| R5  | Lighthouse Perf < 90 on home (vial scenes too heavy)                      | CSS-only Vial Day-1; R3F deferred to Phase 2; image lazy-loading; bundle-size budget                                                                   | 4, 12      |
+| R6  | Slice 3 PLACEHOLDER blocks runbook completion                             | Mark sections explicitly; operator fires B1; runbook regenerates on demand                                                                             | 11         |
+| R7  | LLC formation deferred = ToS placeholder                                  | `[Wyoming/TBD]` in ToS until operator confirms; legal review post-formation                                                                            | 6, 10      |
+| R8  | Domain `vialchemlabs.net` not registered = wrong canonical URL on Day 1   | Build uses `NEXT_PUBLIC_SITE_URL=https://vialchemlabs.net`; operator registers; if .labs unavailable, fallback `vialchemlabs.net` and SITE_URL swap    | 0, 14      |
+| R9  | Source supplier terms not confirmed = inaccurate fulfillment promises     | Use Bible-aligned placeholder fulfillment ("ships within 2 business days, before 3pm Mon-Fri"); operator confirms post-build                           | 6, 10      |
 | R10 | All credentials stubbed = first real deploy has zero working integrations | Operator runbook Phase 11 + post-deploy operator checklist explicitly lists every env var to swap; stub adapters fail loud (don't silent-pass in prod) | 11, 14, 15 |
-| R11 | Pre-commit hook blocks legitimate Mogtrix-attribution comments | Test fixture covers approved attribution format; `// Pattern adapted from mogtrix-website/` is whitelisted | 3 |
-| R12 | Supabase CLI install denied by harness, blocks DB migration | `npx supabase` for one-off; or use Supabase JS client + dashboard migration; or revisit user authorization at Phase 3 | 3 |
-| R13 | Phase 1 corpus digest references files not present in evidence corpus | sub_5 substituted apexpeptidesupply for missing 13 priority profiles; downstream phases handle gracefully | 5, 11 |
+| R11 | Pre-commit hook blocks legitimate Mogtrix-attribution comments            | Test fixture covers approved attribution format; `// Pattern adapted from mogtrix-website/` is whitelisted                                             | 3          |
+| R12 | Supabase CLI install denied by harness, blocks DB migration               | `npx supabase` for one-off; or use Supabase JS client + dashboard migration; or revisit user authorization at Phase 3                                  | 3          |
+| R13 | Phase 1 corpus digest references files not present in evidence corpus     | sub_5 substituted apexpeptidesupply for missing 13 priority profiles; downstream phases handle gracefully                                              | 5, 11      |
 
 ## 9. Eng-Review Self-Applied (would-be /plan-eng-review)
 

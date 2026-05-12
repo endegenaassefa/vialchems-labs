@@ -1,4 +1,4 @@
-import { describe, expect, it, beforeEach, afterEach, vi } from 'vitest';
+import { describe, expect, it, beforeEach, afterEach, vi } from "vitest";
 import {
   CONSENT_COOKIE,
   STRICTLY_NECESSARY_CATEGORIES,
@@ -9,7 +9,7 @@ import {
   detectGPC,
   applyGPCDefaults,
   type ConsentState,
-} from '@/lib/consent-store';
+} from "@/lib/consent-store";
 
 /**
  * Phase 10.6 (v4) — D14 cookie consent banner.
@@ -22,9 +22,9 @@ import {
  *   - accept-all / customize / reject-all options
  */
 
-const FIXED_TS = '2026-05-10T00:00:00.000Z';
+const FIXED_TS = "2026-05-10T00:00:00.000Z";
 
-describe('consent-store', () => {
+describe("consent-store", () => {
   beforeEach(() => {
     vi.useFakeTimers();
     vi.setSystemTime(new Date(FIXED_TS));
@@ -33,8 +33,8 @@ describe('consent-store', () => {
     vi.useRealTimers();
   });
 
-  describe('defaultConsent', () => {
-    it('enables strictly-necessary categories and disables every other category', () => {
+  describe("defaultConsent", () => {
+    it("enables strictly-necessary categories and disables every other category", () => {
       const c = defaultConsent();
       expect(c.categories.necessary).toBe(true);
       expect(c.categories.functional).toBe(false);
@@ -45,12 +45,12 @@ describe('consent-store', () => {
     });
 
     it('marks "necessary" as a STRICTLY_NECESSARY_CATEGORY', () => {
-      expect(STRICTLY_NECESSARY_CATEGORIES).toContain('necessary');
+      expect(STRICTLY_NECESSARY_CATEGORIES).toContain("necessary");
     });
   });
 
-  describe('serialize / parse round-trip', () => {
-    it('round-trips a customized state', () => {
+  describe("serialize / parse round-trip", () => {
+    it("round-trips a customized state", () => {
       const original: ConsentState = {
         version: 1,
         decidedAt: FIXED_TS,
@@ -66,19 +66,19 @@ describe('consent-store', () => {
       expect(parsed).toEqual(original);
     });
 
-    it('returns defaultConsent() when the cookie value is malformed', () => {
-      const fallback = parseConsent('not-json');
+    it("returns defaultConsent() when the cookie value is malformed", () => {
+      const fallback = parseConsent("not-json");
       expect(fallback.decidedAt).toBeNull();
       expect(fallback.categories.necessary).toBe(true);
       expect(fallback.categories.analytics).toBe(false);
     });
 
-    it('returns defaultConsent() for null / empty cookie', () => {
+    it("returns defaultConsent() for null / empty cookie", () => {
       expect(parseConsent(null).decidedAt).toBeNull();
-      expect(parseConsent('').decidedAt).toBeNull();
+      expect(parseConsent("").decidedAt).toBeNull();
     });
 
-    it('forces necessary=true even if a tampered cookie disables it', () => {
+    it("forces necessary=true even if a tampered cookie disables it", () => {
       const tampered = JSON.stringify({
         version: 1,
         decidedAt: FIXED_TS,
@@ -94,18 +94,18 @@ describe('consent-store', () => {
     });
   });
 
-  describe('consentEnabled', () => {
-    it('returns true for necessary regardless of state', () => {
+  describe("consentEnabled", () => {
+    it("returns true for necessary regardless of state", () => {
       const c = defaultConsent();
-      expect(consentEnabled(c, 'necessary')).toBe(true);
+      expect(consentEnabled(c, "necessary")).toBe(true);
     });
 
-    it('returns false for opt-in categories until decidedAt is set', () => {
+    it("returns false for opt-in categories until decidedAt is set", () => {
       const c = defaultConsent();
-      expect(consentEnabled(c, 'analytics')).toBe(false);
+      expect(consentEnabled(c, "analytics")).toBe(false);
     });
 
-    it('returns true for analytics once explicitly enabled', () => {
+    it("returns true for analytics once explicitly enabled", () => {
       const c: ConsentState = {
         version: 1,
         decidedAt: FIXED_TS,
@@ -116,25 +116,25 @@ describe('consent-store', () => {
           marketing: false,
         },
       };
-      expect(consentEnabled(c, 'analytics')).toBe(true);
-      expect(consentEnabled(c, 'marketing')).toBe(false);
+      expect(consentEnabled(c, "analytics")).toBe(true);
+      expect(consentEnabled(c, "marketing")).toBe(false);
     });
   });
 
-  describe('GPC signal', () => {
-    it('detectGPC returns true when navigator.globalPrivacyControl is true', () => {
+  describe("GPC signal", () => {
+    it("detectGPC returns true when navigator.globalPrivacyControl is true", () => {
       const fakeNavigator = {
         globalPrivacyControl: true,
       } as unknown as Navigator;
       expect(detectGPC(fakeNavigator)).toBe(true);
     });
 
-    it('detectGPC returns false otherwise', () => {
+    it("detectGPC returns false otherwise", () => {
       const fakeNavigator = {} as unknown as Navigator;
       expect(detectGPC(fakeNavigator)).toBe(false);
     });
 
-    it('applyGPCDefaults forces marketing/analytics off and stamps decidedAt', () => {
+    it("applyGPCDefaults forces marketing/analytics off and stamps decidedAt", () => {
       const c = defaultConsent();
       const after = applyGPCDefaults(c);
       expect(after.categories.necessary).toBe(true);
@@ -145,9 +145,9 @@ describe('consent-store', () => {
     });
   });
 
-  describe('cookie name', () => {
+  describe("cookie name", () => {
     it('exports CONSENT_COOKIE = "vc-consent"', () => {
-      expect(CONSENT_COOKIE).toBe('vc-consent');
+      expect(CONSENT_COOKIE).toBe("vc-consent");
     });
   });
 });

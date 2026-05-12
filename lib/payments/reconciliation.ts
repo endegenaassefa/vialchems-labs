@@ -14,20 +14,20 @@
  * we throw rather than credit, even if Layer 1 (AddressForm) and Layer 2
  * (ReviewPanel place-order) somehow let the request through.
  */
-import { validateShippingAddress } from '@/lib/compliance/jurisdictions';
-import type { PaymentIntent, PaymentStatus } from './types';
+import { validateShippingAddress } from "@/lib/compliance/jurisdictions";
+import type { PaymentIntent, PaymentStatus } from "./types";
 
 export interface ReconcileResult {
   applied: boolean;
   reason?:
-    | 'no_intent'
-    | 'already_at_status'
-    | 'invalid_transition'
-    | 'applied_paid'
-    | 'applied_failed'
-    | 'applied_authorized'
-    | 'applied_pending'
-    | 'applied_refunded';
+    | "no_intent"
+    | "already_at_status"
+    | "invalid_transition"
+    | "applied_paid"
+    | "applied_failed"
+    | "applied_authorized"
+    | "applied_pending"
+    | "applied_refunded";
   fromStatus?: PaymentStatus;
   toStatus?: PaymentStatus;
 }
@@ -52,18 +52,18 @@ export function getReconciliationLedger(): ReadonlyMap<string, LedgerEntry> {
   return ledger;
 }
 
-const TERMINAL: PaymentStatus[] = ['paid', 'failed', 'refunded'];
+const TERMINAL: PaymentStatus[] = ["paid", "failed", "refunded"];
 
 function isTerminal(s: PaymentStatus): boolean {
   return TERMINAL.includes(s);
 }
 
 const VALID_TRANSITIONS: Record<PaymentStatus, PaymentStatus[]> = {
-  pending: ['pending', 'authorized', 'paid', 'failed'],
-  authorized: ['authorized', 'paid', 'failed'],
-  paid: ['paid', 'refunded'],
-  failed: ['failed'],
-  refunded: ['refunded'],
+  pending: ["pending", "authorized", "paid", "failed"],
+  authorized: ["authorized", "paid", "failed"],
+  paid: ["paid", "refunded"],
+  failed: ["failed"],
+  refunded: ["refunded"],
 };
 
 function canTransition(from: PaymentStatus, to: PaymentStatus): boolean {
@@ -81,7 +81,7 @@ function canTransition(from: PaymentStatus, to: PaymentStatus): boolean {
  */
 export function reconcile(intent: PaymentIntent | null): ReconcileResult {
   if (!intent) {
-    return { applied: false, reason: 'no_intent' };
+    return { applied: false, reason: "no_intent" };
   }
 
   const existing = ledger.get(intent.id);
@@ -94,7 +94,7 @@ export function reconcile(intent: PaymentIntent | null): ReconcileResult {
     });
     return {
       applied: true,
-      reason: `applied_${intent.status}` as ReconcileResult['reason'],
+      reason: `applied_${intent.status}` as ReconcileResult["reason"],
       toStatus: intent.status,
     };
   }
@@ -102,7 +102,7 @@ export function reconcile(intent: PaymentIntent | null): ReconcileResult {
   if (existing.status === intent.status) {
     return {
       applied: false,
-      reason: 'already_at_status',
+      reason: "already_at_status",
       fromStatus: existing.status,
       toStatus: intent.status,
     };
@@ -111,7 +111,7 @@ export function reconcile(intent: PaymentIntent | null): ReconcileResult {
   if (!canTransition(existing.status, intent.status)) {
     return {
       applied: false,
-      reason: 'invalid_transition',
+      reason: "invalid_transition",
       fromStatus: existing.status,
       toStatus: intent.status,
     };
@@ -126,7 +126,7 @@ export function reconcile(intent: PaymentIntent | null): ReconcileResult {
   });
   return {
     applied: true,
-    reason: `applied_${intent.status}` as ReconcileResult['reason'],
+    reason: `applied_${intent.status}` as ReconcileResult["reason"],
     fromStatus: existing.status,
     toStatus: intent.status,
   };
@@ -151,7 +151,7 @@ export class JurisdictionalGuardError extends Error {
   readonly countryCode: string;
   constructor(stateCode: string, countryCode: string, reason: string) {
     super(reason);
-    this.name = 'JurisdictionalGuardError';
+    this.name = "JurisdictionalGuardError";
     this.stateCode = stateCode;
     this.countryCode = countryCode;
   }

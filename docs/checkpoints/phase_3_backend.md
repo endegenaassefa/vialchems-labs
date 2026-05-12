@@ -10,23 +10,23 @@ Initialize NEW Next.js project. NOT a Mogtrix fork. Port specific Mogtrix patter
 
 ## Deliverables
 
-| Item | Status |
-|---|---|
-| Next.js 16.2.6 + React 19.2.4 + TS scaffold | ✓ |
-| Tailwind v4 + PostCSS | ✓ |
-| Husky 9 pre-commit hook (.husky/pre-commit) | ✓ |
-| scripts/grep-mogtrix.sh (Iron Law 2.12) | ✓ |
-| scripts/grep-forbidden-words.sh (Iron Law 2.4) | ✓ |
-| scripts/supply-chain-scan.sh (Iron Law 2.16) | ✓ |
-| lib/compliance.ts (ported, extended Appendix P, 50 tests pass) | ✓ |
-| lib/compliance/jurisdictions.ts (CA/TX/NY/FL block list, Iron Law 2.8) | ✓ |
-| lib/content/site.ts (vialchemlabs brand config) | ✓ |
-| app/api/health/route.ts (canary endpoint) | ✓ |
-| .env.example (full env template) | ✓ |
-| Vitest config + tests/setup.ts | ✓ |
-| Initial test suite (50/50 passing) | ✓ |
-| `npm run build` passes | ✓ |
-| Pre-commit hook fires on commit | ✓ (verified by initial commit) |
+| Item                                                                   | Status                         |
+| ---------------------------------------------------------------------- | ------------------------------ |
+| Next.js 16.2.6 + React 19.2.4 + TS scaffold                            | ✓                              |
+| Tailwind v4 + PostCSS                                                  | ✓                              |
+| Husky 9 pre-commit hook (.husky/pre-commit)                            | ✓                              |
+| scripts/grep-mogtrix.sh (Iron Law 2.12)                                | ✓                              |
+| scripts/grep-forbidden-words.sh (Iron Law 2.4)                         | ✓                              |
+| scripts/supply-chain-scan.sh (Iron Law 2.16)                           | ✓                              |
+| lib/compliance.ts (ported, extended Appendix P, 50 tests pass)         | ✓                              |
+| lib/compliance/jurisdictions.ts (CA/TX/NY/FL block list, Iron Law 2.8) | ✓                              |
+| lib/content/site.ts (vialchemlabs brand config)                        | ✓                              |
+| app/api/health/route.ts (canary endpoint)                              | ✓                              |
+| .env.example (full env template)                                       | ✓                              |
+| Vitest config + tests/setup.ts                                         | ✓                              |
+| Initial test suite (50/50 passing)                                     | ✓                              |
+| `npm run build` passes                                                 | ✓                              |
+| Pre-commit hook fires on commit                                        | ✓ (verified by initial commit) |
 
 ## Iron Law Verification
 
@@ -38,13 +38,13 @@ Initialize NEW Next.js project. NOT a Mogtrix fork. Port specific Mogtrix patter
 
 ## Deferred (per architecture plan §7 + context-budget pragmatism)
 
-| Item | Deferred to | Reason |
-|---|---|---|
-| Supabase client port (lib/supabase/*) | Phase 5/8 (when first feature needs it) | Day-1 stub mode means no real DB calls; defer to feature need |
-| Auth flow (lib/auth/*, app/auth/*) | Phase 8 | Customer qualification + age gate are Phase 8; auth couples to those |
-| Payment adapter implementations | Phase 9 | Iron Law 2.5 mandates /review + /cso before commit; do as one focused phase |
-| Sentry instrumentation activation | When SENTRY_AUTH_TOKEN provided | Stub DSN means errors local-only |
-| Vercel staging deploy + /api/health 200 verification | Phase 14 | Requires Vercel link + token; defer to ship phase |
+| Item                                                 | Deferred to                             | Reason                                                                      |
+| ---------------------------------------------------- | --------------------------------------- | --------------------------------------------------------------------------- |
+| Supabase client port (lib/supabase/\*)               | Phase 5/8 (when first feature needs it) | Day-1 stub mode means no real DB calls; defer to feature need               |
+| Auth flow (lib/auth/_, app/auth/_)                   | Phase 8                                 | Customer qualification + age gate are Phase 8; auth couples to those        |
+| Payment adapter implementations                      | Phase 9                                 | Iron Law 2.5 mandates /review + /cso before commit; do as one focused phase |
+| Sentry instrumentation activation                    | When SENTRY_AUTH_TOKEN provided         | Stub DSN means errors local-only                                            |
+| Vercel staging deploy + /api/health 200 verification | Phase 14                                | Requires Vercel link + token; defer to ship phase                           |
 
 ## Verification Gate
 

@@ -20,10 +20,10 @@ infrastructure that the score depends on.
 
 ## Commits (Iron Law 2.15 protocol)
 
-| Commit | Type | Scope |
-|---|---|---|
-| c4ca91a | chore | install @next/bundle-analyzer |
-| 70c6ecb | test (RED) | jsonLd helpers + sitemap builder |
+| Commit  | Type         | Scope                                                             |
+| ------- | ------------ | ----------------------------------------------------------------- |
+| c4ca91a | chore        | install @next/bundle-analyzer                                     |
+| 70c6ecb | test (RED)   | jsonLd helpers + sitemap builder                                  |
 | 801dab1 | feat (GREEN) | Phase 9 SEO lift — structured data, sitemap, robots, OG, analyzer |
 
 ## Deliverables
@@ -63,6 +63,7 @@ output by default; Phase 11 Lighthouse CI per-page run will assert the
 Iron Law 2.10: zero photographs on the site Day-1.
 Programmatic: `grep -rE "<img " app/ components/ --include='*.tsx'` returned **0** raw `<img>` tags.
 The only graphics are:
+
 - Vial SVG (rendered by `components/ui/Vial.tsx`, ~3KB)
 - COA placeholder PDFs in `public/coa/` (operator replaces pre-launch)
 - 5 default Next.js scaffold SVGs in `public/` (file/globe/next/vercel/window — unused, ~1KB each, kept for now)
@@ -72,6 +73,7 @@ CLS prevention is intrinsic — no image dimension-discovery is needed.
 ### 4. Font audit
 
 `app/layout.tsx` loads fonts via `next/font/google`:
+
 - IBM Plex Sans (300/400/500/600/700)
 - IBM Plex Mono (300/400/500/600)
 - Newsreader Italic (400)
@@ -81,14 +83,14 @@ font fetches at runtime. Confirmed.
 
 ### 5. Structured data per §7.5
 
-| Page | JSON-LD types | File |
-|---|---|---|
-| `/products/[slug]` (SKU PDP) | `Product` + `BreadcrumbList` | `app/products/[slug]/page.tsx` (lines 99-131) |
+| Page                                    | JSON-LD types                                    | File                                                   |
+| --------------------------------------- | ------------------------------------------------ | ------------------------------------------------------ |
+| `/products/[slug]` (SKU PDP)            | `Product` + `BreadcrumbList`                     | `app/products/[slug]/page.tsx` (lines 99-131)          |
 | `/products/recovery-stack` (bundle PDP) | `Product` (bundle as Product) + `BreadcrumbList` | `app/products/[slug]/page.tsx` `BundleDetail` function |
-| `/shop` | `BreadcrumbList` | `app/shop/page.tsx` |
-| `/coa/[peptide]/[batch]` | `BreadcrumbList` | `app/coa/[peptide]/[batch]/page.tsx` |
-| `/blog/[slug]` | `Article` + `BreadcrumbList` | `app/blog/[slug]/page.tsx` |
-| `/faq` | `FAQPage` (all 20 verbatim Q+A) | `app/faq/page.tsx` |
+| `/shop`                                 | `BreadcrumbList`                                 | `app/shop/page.tsx`                                    |
+| `/coa/[peptide]/[batch]`                | `BreadcrumbList`                                 | `app/coa/[peptide]/[batch]/page.tsx`                   |
+| `/blog/[slug]`                          | `Article` + `BreadcrumbList`                     | `app/blog/[slug]/page.tsx`                             |
+| `/faq`                                  | `FAQPage` (all 20 verbatim Q+A)                  | `app/faq/page.tsx`                                     |
 
 Helpers: `lib/seo/jsonLd.ts` (155 lines, fully typed). All payloads pass
 through `serializeJsonLdSafe()` which escapes `</script>` so embedded
@@ -108,7 +110,7 @@ Sample `Product` payload (live from build):
   "category": "Recovery",
   "offers": {
     "@type": "Offer",
-    "url": "https://vialchemlabs.com/products/bpc-157-10mg",
+    "url": "https://vialchemlabs.net/products/bpc-157-10mg",
     "priceCurrency": "USD",
     "price": "54.00",
     "availability": "https://schema.org/InStock",
@@ -133,7 +135,7 @@ Manual Google Rich Results validation is a Phase 12-13 verification step.
 
 Served at `/sitemap.xml`. Live smoke against dev server: HTTP 200; XML
 opens with `<?xml version="1.0" encoding="UTF-8"?><urlset
-xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://vialchemlabs.com/</loc>...`.
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://vialchemlabs.net/</loc>...`.
 
 Submit to Google Search Console + Bing Webmaster Tools is a Phase 13
 operator action (post-deploy).
@@ -147,7 +149,7 @@ User-agent: *
 Allow: /
 Disallow: /cart
 Disallow: /checkout/
-Sitemap: https://vialchemlabs.com/sitemap.xml
+Sitemap: https://vialchemlabs.net/sitemap.xml
 ```
 
 Cart and checkout disallow is honest — both require qualification, so
@@ -155,10 +157,10 @@ crawl budget there is wasted. Live smoke: HTTP 200.
 
 ### 8. OpenGraph images via next/og
 
-| Route | File | Status |
-|---|---|---|
-| `/opengraph-image` (default site OG) | `app/opengraph-image.tsx` | ○ static |
-| `/products/[slug]/opengraph-image` | `app/products/[slug]/opengraph-image.tsx` | ƒ dynamic (cached per-slug) |
+| Route                                | File                                      | Status                      |
+| ------------------------------------ | ----------------------------------------- | --------------------------- |
+| `/opengraph-image` (default site OG) | `app/opengraph-image.tsx`                 | ○ static                    |
+| `/products/[slug]/opengraph-image`   | `app/products/[slug]/opengraph-image.tsx` | ƒ dynamic (cached per-slug) |
 
 Default OG: 1200×630, charcoal `#0a0e0f` bg, teal accent rule, "Counted,
 weighed, verified." italic in `#5eebdf`, mono uppercase metadata strip.
@@ -170,15 +172,17 @@ is the textual content (compound name, dose italic accent, SKU mono,
 metadata strip).
 
 Iron Law 2.7 enforcement: the per-product OG calls `getProductBySlug`
-+ `getBundleBySlug`; both return `undefined` for any slug not in the
-LOCKED catalog, so the carve-out compounds named in Iron Law 2.7
-cannot ever be passed as `compound`/`name` text in the OG image.
+
+- `getBundleBySlug`; both return `undefined` for any slug not in the
+  LOCKED catalog, so the carve-out compounds named in Iron Law 2.7
+  cannot ever be passed as `compound`/`name` text in the OG image.
 
 ### 9. Lighthouse spot-check
 
 Manual Lighthouse runs require a local Chrome / Vercel deploy URL and
 are deferred to the Phase 11 CI gate. Phase 11 wires `lighthouse-ci`
 with PR-blocking thresholds:
+
 - Performance ≥ 90 desktop AND mobile
 - Accessibility ≥ 95
 - SEO ≥ 95
@@ -195,31 +199,32 @@ this phase so the SEO score on first measurement is baseline-clean.
 ## Test coverage
 
 Total tests: **422 passed (37 files)** — was 409 at HEAD a785153 (+13):
+
 - `tests/unit/seo/jsonLd.test.ts`: 6 tests
 - `tests/unit/seo/sitemap.test.ts`: 7 tests
 
 ## Iron Laws verified
 
-| # | Iron Law | Phase 9 evidence |
-|---|---|---|
-| 2.1 | TDD | RED→GREEN cycle for jsonLd + sitemap helpers (commits 70c6ecb / 801dab1) |
-| 2.2 | Verification before completion | 422/422 + npm build clean + preflight 0 violations re-run; sitemap + robots HTTP 200 smoked |
-| 2.5 | Protected files unchanged | `git diff v1.0.0..HEAD -- lib/payments/ lib/compliance.ts ...` = **0 lines** |
-| 2.7 | Banned compounds excluded | Per-product OG resolves slugs only via `getProductBySlug` + `getBundleBySlug`; carve-out compounds cannot appear |
-| 2.15 | TDD checkpoint commits | RED commit body carries verbatim FAIL snippet; GREEN carries verbatim PASS |
-| 2.16 | Pre-commit supply-chain scanner | One scanner hit caught a banned-compound name in a code comment; comment reworded; final commit clean |
-| 2.21 | Tokens additive only | No token changes |
-| 2.27 | Bundle / Lighthouse budget | Largest gzipped chunk: 70.9KB (motion-bearing 49.5KB carries forward); per-route ≤ 250KB target asserted in Phase 11 CI gate |
+| #    | Iron Law                        | Phase 9 evidence                                                                                                             |
+| ---- | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| 2.1  | TDD                             | RED→GREEN cycle for jsonLd + sitemap helpers (commits 70c6ecb / 801dab1)                                                     |
+| 2.2  | Verification before completion  | 422/422 + npm build clean + preflight 0 violations re-run; sitemap + robots HTTP 200 smoked                                  |
+| 2.5  | Protected files unchanged       | `git diff v1.0.0..HEAD -- lib/payments/ lib/compliance.ts ...` = **0 lines**                                                 |
+| 2.7  | Banned compounds excluded       | Per-product OG resolves slugs only via `getProductBySlug` + `getBundleBySlug`; carve-out compounds cannot appear             |
+| 2.15 | TDD checkpoint commits          | RED commit body carries verbatim FAIL snippet; GREEN carries verbatim PASS                                                   |
+| 2.16 | Pre-commit supply-chain scanner | One scanner hit caught a banned-compound name in a code comment; comment reworded; final commit clean                        |
+| 2.21 | Tokens additive only            | No token changes                                                                                                             |
+| 2.27 | Bundle / Lighthouse budget      | Largest gzipped chunk: 70.9KB (motion-bearing 49.5KB carries forward); per-route ≤ 250KB target asserted in Phase 11 CI gate |
 
 ## Verbatim copy regrep (Iron Law 2.4 / 2.13)
 
-| Pattern | File | Hits | Expected |
-|---|---|---|---|
-| `21+ years of age` | `app/checkout/review/ReviewPanel.tsx` | 1 | 1 |
-| `research use only (RUO)` | `app/checkout/review/ReviewPanel.tsx` | 1 | 1 |
-| `qualified researcher acquiring` | `lib/customer-qualification.ts` | 1 | 1 |
-| `For research use only. Not for human or veterinary use` | `app/products/[slug]/page.tsx` | 2 | 2 |
-| `are not for human consumption` | `components/SiteFooter.tsx` | 1 | 1 |
+| Pattern                                                  | File                                  | Hits | Expected |
+| -------------------------------------------------------- | ------------------------------------- | ---- | -------- |
+| `21+ years of age`                                       | `app/checkout/review/ReviewPanel.tsx` | 1    | 1        |
+| `research use only (RUO)`                                | `app/checkout/review/ReviewPanel.tsx` | 1    | 1        |
+| `qualified researcher acquiring`                         | `lib/customer-qualification.ts`       | 1    | 1        |
+| `For research use only. Not for human or veterinary use` | `app/products/[slug]/page.tsx`        | 2    | 2        |
+| `are not for human consumption`                          | `components/SiteFooter.tsx`           | 1    | 1        |
 
 ## Open notes for downstream phases
 
@@ -229,7 +234,7 @@ Total tests: **422 passed (37 files)** — was 409 at HEAD a785153 (+13):
 - **Phase 11**: Lighthouse CI gate enforces Iron Law 2.27. Per-route
   initial JS budget surfaced via `npm run build` route table once the
   Lighthouse workflow is wired.
-- **Phase 12**: submit `https://vialchemlabs.com/sitemap.xml` to Google
+- **Phase 12**: submit `https://vialchemlabs.net/sitemap.xml` to Google
   Search Console + Bing Webmaster Tools post-deploy (operator action;
   documented in operator-runbook v2 in Phase 13).
 - **D26 (DESIGN.md at repo root)**: still optional; Phase 11

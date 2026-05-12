@@ -11,43 +11,43 @@ Verify environment, load manifest, detect tooling, establish new project directo
 
 ## Decisions locked
 
-| Decision | Status | Value |
-|---|---|---|
-| Project directory | LOCKED | `/root/peptide-site/` (created, git initialized as `main`) |
-| Brand pick | LOCKED_OVERRIDE | **vialchemlabs** (Posture A clean clinical) — operator override of 34-candidate synthesis. Bundle's `corpus/DECISIONS/brand_pick.md` updated with LOCKED entry. |
-| Brand domain | LOCKED | `vialchemlabs.com` (literal `.labs` TLD; registration TBD by operator) |
-| Source-side terms | PENDING | Build uses placeholder fulfillment promises; Janoshik Analytical as default lab partner placeholder |
-| Opening SKU set | LOCKED_DEFAULT | 7 SKUs + Recovery Stack bundle ($77) + 15% intro promo |
-| Compliance posture | LOCKED_DEFAULT | RUO + 21+ + CA/TX/NY/FL block + 503A/503B + verbatim disclaimers |
-| Payment stack | LOCKED_DEFAULT | BTCPay self-hosted (BTC/LTC) + Plaid ACH; cards Phase 2 only |
-| Slice 3 community channels | PLACEHOLDER | B1 prompt at `/mnt/c/Users/endeg/Downloads/slice_B1_reddit_and_forum_ecosystem_map.md` not fired; runbook will mark sections PLACEHOLDER_AWAITING_SLICE_3 |
-| GLP-1 carve-out | LOCKED | Tirzepatide (perpetual ITC GEO 337-TA-1377), Semaglutide + Retatrutide (90-day FDA enforcement carve-out), bacteriostatic water (perpetual exclusion per Iron Law 2.7+2.14) |
+| Decision                   | Status          | Value                                                                                                                                                                       |
+| -------------------------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Project directory          | LOCKED          | `/root/peptide-site/` (created, git initialized as `main`)                                                                                                                  |
+| Brand pick                 | LOCKED_OVERRIDE | **vialchemlabs** (Posture A clean clinical) — operator override of 34-candidate synthesis. Bundle's `corpus/DECISIONS/brand_pick.md` updated with LOCKED entry.             |
+| Brand domain               | LOCKED          | `vialchemlabs.net` (operator-provided production domain)                                                                                                                    |
+| Source-side terms          | PENDING         | Build uses placeholder fulfillment promises; Janoshik Analytical as default lab partner placeholder                                                                         |
+| Opening SKU set            | LOCKED_DEFAULT  | 7 SKUs + Recovery Stack bundle ($77) + 15% intro promo                                                                                                                      |
+| Compliance posture         | LOCKED_DEFAULT  | RUO + 21+ + CA/TX/NY/FL block + 503A/503B + verbatim disclaimers                                                                                                            |
+| Payment stack              | LOCKED_DEFAULT  | BTCPay self-hosted (BTC/LTC) + Plaid ACH; cards Phase 2 only                                                                                                                |
+| Slice 3 community channels | PLACEHOLDER     | B1 prompt at `/mnt/c/Users/endeg/Downloads/slice_B1_reddit_and_forum_ecosystem_map.md` not fired; runbook will mark sections PLACEHOLDER_AWAITING_SLICE_3                   |
+| GLP-1 carve-out            | LOCKED          | Tirzepatide (perpetual ITC GEO 337-TA-1377), Semaglutide + Retatrutide (90-day FDA enforcement carve-out), bacteriostatic water (perpetual exclusion per Iron Law 2.7+2.14) |
 
 ## Credentials (all STUB for dev mode)
 
-| Provider | Status | Notes |
-|---|---|---|
-| Supabase | STUB | `NEXT_PUBLIC_SUPABASE_URL=https://stub.supabase.co`; `REQUIRE_SUPABASE=false` |
-| Resend | STUB | Order/notification emails log to console; `ORDER_EMAIL_FROM=research@vialchemlabs.com` |
-| Sentry | STUB | Error logging local only; DSN empty |
-| Plaid | STUB | `PLAID_ENV=sandbox`, all keys stub |
-| BTCPay | STUB | URL stub; payment adapter falls back to deterministic mock (`PAYMENT_PROVIDER=stub`) |
-| LLC | TBD | `LLC_NAME=vialchemlabs LLC (TBD)`, `LLC_JURISDICTION=Wyoming` (default) |
-| GitHub | LIVE | Authenticated as `endegenaassefa` (gh 2.90.0) |
-| Vercel | INSTALLED | CLI 53.2.0 (linking deferred to Phase 14) |
+| Provider | Status    | Notes                                                                                  |
+| -------- | --------- | -------------------------------------------------------------------------------------- |
+| Supabase | STUB      | `NEXT_PUBLIC_SUPABASE_URL=https://stub.supabase.co`; `REQUIRE_SUPABASE=false`          |
+| Resend   | STUB      | Order/notification emails log to console; `ORDER_EMAIL_FROM=research@vialchemlabs.net` |
+| Sentry   | STUB      | Error logging local only; DSN empty                                                    |
+| Plaid    | STUB      | `PLAID_ENV=sandbox`, all keys stub                                                     |
+| BTCPay   | STUB      | URL stub; payment adapter falls back to deterministic mock (`PAYMENT_PROVIDER=stub`)   |
+| LLC      | TBD       | `LLC_NAME=vialchemlabs LLC (TBD)`, `LLC_JURISDICTION=Wyoming` (default)                |
+| GitHub   | LIVE      | Authenticated as `endegenaassefa` (gh 2.90.0)                                          |
+| Vercel   | INSTALLED | CLI 53.2.0 (linking deferred to Phase 14)                                              |
 
 Operator action required before public launch: replace every stub with real credentials. See `docs/operator-runbook.md` (generated in Phase 11).
 
 ## Tooling detected
 
-| Tool | Version | Status |
-|---|---|---|
-| node | 22.16.0 | OK |
-| npm | 10.9.2 | OK |
-| git | 2.34.1 | OK |
-| gh | 2.90.0 | OK (authenticated) |
-| docker | 28.0.4 | OK |
-| vercel CLI | 53.2.0 | Installed in this session |
+| Tool         | Version       | Status                                                                                                                                                                                         |
+| ------------ | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| node         | 22.16.0       | OK                                                                                                                                                                                             |
+| npm          | 10.9.2        | OK                                                                                                                                                                                             |
+| git          | 2.34.1        | OK                                                                                                                                                                                             |
+| gh           | 2.90.0        | OK (authenticated)                                                                                                                                                                             |
+| docker       | 28.0.4        | OK                                                                                                                                                                                             |
+| vercel CLI   | 53.2.0        | Installed in this session                                                                                                                                                                      |
 | supabase CLI | NOT INSTALLED | Harness denied global npm install. Workaround: use `npx supabase` for one-off commands, or use Supabase JS client + dashboard (no CLI required for build). Will revisit at Phase 3 (DB phase). |
 
 ## Inputs verified
@@ -110,7 +110,7 @@ Will be pinned verbatim to every Agent dispatch from §3 of SUPER_PROMPT_v3.
 ## Outstanding issues / blockers
 
 1. **Supabase CLI not installed** — non-blocking until Phase 3. Workarounds: `npx supabase init`, or skip CLI and use Supabase JS client with cloud project provisioned via dashboard.
-2. **Brand `vialchemlabs.com` not registered** — operator action; build proceeds with placeholder URL.
+2. **Brand `vialchemlabs.net` not registered** — operator action; build proceeds with placeholder URL.
 3. **Slice 3 (B1) not fired** — operator action; runbook will emit PLACEHOLDER markers.
 4. **Source supplier terms not confirmed** — build uses observed-industry-standard placeholders; operator confirms post-build.
 5. **All real credentials stubbed** — operator replaces before public launch.
@@ -118,6 +118,7 @@ Will be pinned verbatim to every Agent dispatch from §3 of SUPER_PROMPT_v3.
 ## Next phase entry conditions
 
 Phase 1 (Comprehension — Full Corpus Read) can begin immediately:
+
 - All Phase 0 inputs verified ✓
 - Project directory ready for plans + checkpoints ✓
 - Tooling sufficient for Phase 1 (read-only work) ✓

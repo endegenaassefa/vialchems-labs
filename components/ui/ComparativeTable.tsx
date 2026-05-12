@@ -8,7 +8,7 @@
  *
  * Pure presentational. No TDD-blocking logic; verified by snapshot test.
  */
-import { cn } from '@/lib/utils';
+import { cn } from "@/lib/utils";
 
 export interface ComparativeRow {
   label: string;
@@ -34,13 +34,13 @@ export interface ComparativeTableProps {
 export function ComparativeTable({
   eyebrow,
   caption,
-  industryHeader = 'Industry typical',
-  vialchemlabsHeader = 'vialchemlabs',
+  industryHeader = "Industry typical",
+  vialchemlabsHeader = "vialchemlabs",
   rows,
   className,
 }: ComparativeTableProps) {
   return (
-    <section className={cn('w-full', className)}>
+    <section className={cn("w-full", className)}>
       {eyebrow ? (
         <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-4">
           {eyebrow}
@@ -76,7 +76,7 @@ export function ComparativeTable({
               <tr
                 key={row.label}
                 className={cn(
-                  i !== rows.length - 1 && 'border-b border-[var(--border)]',
+                  i !== rows.length - 1 && "border-b border-[var(--border)]",
                 )}
               >
                 <th

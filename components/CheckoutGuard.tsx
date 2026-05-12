@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 /**
  * CheckoutGuard — wraps checkout step content (address, method, review). After
@@ -13,9 +13,9 @@
  * with an empty cart. The order-summary side panel showed "Your cart is
  * empty" but the form/submit flow stayed enabled.
  */
-import { useRouter } from 'next/navigation';
-import { useEffect, type ReactNode } from 'react';
-import { useCartHydrated, useCartStore } from '@/lib/cart-store';
+import { useRouter } from "next/navigation";
+import { useEffect, type ReactNode } from "react";
+import { useCartHydrated, useCartStore } from "@/lib/cart-store";
 
 interface CheckoutGuardProps {
   children: ReactNode;
@@ -28,7 +28,7 @@ export function CheckoutGuard({ children }: CheckoutGuardProps) {
 
   useEffect(() => {
     if (hydrated && lineCount === 0) {
-      router.replace('/cart');
+      router.replace("/cart");
     }
   }, [hydrated, lineCount, router]);
 
@@ -46,7 +46,9 @@ export function CheckoutGuard({ children }: CheckoutGuardProps) {
   if (lineCount === 0) {
     return (
       <div className="border border-[var(--border)] bg-[var(--surface)] rounded-[var(--radius-lg)] p-8 text-center">
-        <p className="text-[18px] text-[var(--text)] mb-2">Your cart is empty.</p>
+        <p className="text-[18px] text-[var(--text)] mb-2">
+          Your cart is empty.
+        </p>
         <p className="text-[14px] text-[var(--text-muted)] mb-4">
           Add a research peptide to start checkout.
         </p>

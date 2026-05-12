@@ -1,36 +1,33 @@
-'use client';
+"use client";
 
 // Pattern adapted from mogtrix-website/site/components/qualification-flow.tsx
 // Adapted with peptide-context attestation language per Appendix A.5.
 
-import { useState, type FormEvent } from 'react';
-import { Button } from '@/components/ui/Button';
-import { FieldLabel } from '@/components/ui/FieldLabel';
-import { Input } from '@/components/ui/Input';
+import { useState, type FormEvent } from "react";
+import { Button } from "@/components/ui/Button";
+import { FieldLabel } from "@/components/ui/FieldLabel";
+import { Input } from "@/components/ui/Input";
 import {
   ATTESTATIONS,
   QualificationRoles,
   qualificationRoleLabels,
   validateQualification,
+  type QualificationInput,
   type QualificationRole,
-} from '@/lib/customer-qualification';
+} from "@/lib/customer-qualification";
 
 interface QualificationFlowProps {
-  onSubmit: (data: {
-    email: string;
-    role: QualificationRole;
-    researchPurpose: string;
-  }) => void;
+  onSubmit: (data: QualificationInput) => void;
   defaultEmail?: string;
 }
 
 export function QualificationFlow({
   onSubmit,
-  defaultEmail = '',
+  defaultEmail = "",
 }: QualificationFlowProps) {
   const [email, setEmail] = useState(defaultEmail);
-  const [role, setRole] = useState<QualificationRole>('academic-researcher');
-  const [researchPurpose, setResearchPurpose] = useState('');
+  const [role, setRole] = useState<QualificationRole>("academic-researcher");
+  const [researchPurpose, setResearchPurpose] = useState("");
   const [ageAck, setAgeAck] = useState(false);
   const [ruoAck, setRuoAck] = useState(false);
   const [jurisdictionAck, setJurisdictionAck] = useState(false);
@@ -57,11 +54,7 @@ export function QualificationFlow({
       return;
     }
     setErrors({});
-    onSubmit({
-      email: result.data.email,
-      role: result.data.role,
-      researchPurpose: result.data.researchPurpose,
-    });
+    onSubmit(result.data);
   }
 
   return (
@@ -115,11 +108,17 @@ export function QualificationFlow({
           value={researchPurpose}
           onChange={(e) => setResearchPurpose(e.target.value)}
           className="w-full px-3 py-2 rounded-[var(--radius-md)] bg-[var(--surface-strong)] border border-[var(--border)] text-[14px] focus:border-[var(--accent)] focus:outline-none"
-          aria-describedby={errors.researchPurpose ? 'qual-purpose-error' : undefined}
-          aria-invalid={errors.researchPurpose ? 'true' : 'false'}
+          aria-describedby={
+            errors.researchPurpose ? "qual-purpose-error" : undefined
+          }
+          aria-invalid={errors.researchPurpose ? "true" : "false"}
         />
         {errors.researchPurpose ? (
-          <p id="qual-purpose-error" role="alert" className="mt-2 text-[12px] text-[var(--pill-error)]">
+          <p
+            id="qual-purpose-error"
+            role="alert"
+            className="mt-2 text-[12px] text-[var(--pill-error)]"
+          >
             {errors.researchPurpose}
           </p>
         ) : null}
@@ -136,10 +135,15 @@ export function QualificationFlow({
             onChange={(e) => setAgeAck(e.target.checked)}
             className="mt-1 accent-[var(--accent)]"
           />
-          <span>I confirm that I am 21+ years of age and will use these products solely for laboratory research in non-clinical settings.</span>
+          <span>
+            I confirm that I am 21+ years of age and will use these products
+            solely for laboratory research in non-clinical settings.
+          </span>
         </label>
         {errors.ageAcknowledgment ? (
-          <p role="alert" className="ml-6 text-[12px] text-[var(--pill-error)]">{errors.ageAcknowledgment}</p>
+          <p role="alert" className="ml-6 text-[12px] text-[var(--pill-error)]">
+            {errors.ageAcknowledgment}
+          </p>
         ) : null}
 
         <label className="flex gap-3 text-[14px] text-[var(--text-muted)] leading-[1.5]">
@@ -149,7 +153,10 @@ export function QualificationFlow({
             onChange={(e) => setRuoAck(e.target.checked)}
             className="mt-1 accent-[var(--accent)]"
           />
-          <span>I acknowledge research-use-only framing. Products are not for human consumption.</span>
+          <span>
+            I acknowledge research-use-only framing. Products are not for human
+            consumption.
+          </span>
         </label>
 
         <label className="flex gap-3 text-[14px] text-[var(--text-muted)] leading-[1.5]">
@@ -159,7 +166,10 @@ export function QualificationFlow({
             onChange={(e) => setJurisdictionAck(e.target.checked)}
             className="mt-1 accent-[var(--accent)]"
           />
-          <span>I assume all regulatory compliance responsibility for my jurisdiction.</span>
+          <span>
+            I assume all regulatory compliance responsibility for my
+            jurisdiction.
+          </span>
         </label>
       </fieldset>
 

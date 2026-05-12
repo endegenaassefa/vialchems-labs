@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 /**
  * Account dashboard — v1.3 real account view.
@@ -11,17 +11,21 @@
  * (avoid SSR/CSR redirect mismatch). Hydration-safe via useAuthHydrated().
  */
 
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { useState } from 'react';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { Card } from '@/components/ui/Card';
-import { Pill } from '@/components/ui/Pill';
-import { Button, buttonClassNames } from '@/components/ui/Button';
-import { Specs } from '@/components/ui/Specs';
-import { useAuthHydrated, useAuthStore, useCurrentUser } from '@/lib/auth-store';
-import { qualificationRoleLabels } from '@/lib/customer-qualification';
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { Card } from "@/components/ui/Card";
+import { Pill } from "@/components/ui/Pill";
+import { Button, buttonClassNames } from "@/components/ui/Button";
+import { Specs } from "@/components/ui/Specs";
+import {
+  useAuthHydrated,
+  useAuthStore,
+  useCurrentUser,
+} from "@/lib/auth-store";
+import { qualificationRoleLabels } from "@/lib/customer-qualification";
 
 interface RecentOrder {
   id: string;
@@ -31,9 +35,9 @@ interface RecentOrder {
 }
 
 function readRecentOrder(): RecentOrder | null {
-  if (typeof window === 'undefined') return null;
+  if (typeof window === "undefined") return null;
   try {
-    const raw = window.sessionStorage.getItem('vialchemlabs:checkout:order');
+    const raw = window.sessionStorage.getItem("vialchemlabs:checkout:order");
     return raw ? (JSON.parse(raw) as RecentOrder) : null;
   } catch {
     return null;
@@ -49,7 +53,7 @@ export default function AccountPage() {
 
   function handleLogout() {
     logout();
-    router.push('/');
+    router.push("/");
   }
 
   if (!hydrated) {
@@ -85,13 +89,20 @@ export default function AccountPage() {
                 </span>
               </h1>
               <p className="text-[15px] leading-[1.6] text-[var(--text-muted)] mb-8">
-                No account on this device. Create one or sign in to view your dashboard.
+                No account on this device. Create one or sign in to view your
+                dashboard.
               </p>
               <div className="flex gap-3 flex-wrap">
-                <Link href="/signup" className={buttonClassNames('primary', 'lg')}>
+                <Link
+                  href="/signup"
+                  className={buttonClassNames("primary", "lg")}
+                >
                   Create account
                 </Link>
-                <Link href="/login" className={buttonClassNames('outline', 'lg')}>
+                <Link
+                  href="/login"
+                  className={buttonClassNames("outline", "lg")}
+                >
                   Sign in
                 </Link>
               </div>
@@ -125,7 +136,8 @@ export default function AccountPage() {
                 <Pill variant="info">Qualification pending</Pill>
               )}
               <span className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)]">
-                {qualificationRoleLabels[user.role]} · Member since {user.createdAt.slice(0, 10)}
+                {qualificationRoleLabels[user.role]} · Member since{" "}
+                {user.createdAt.slice(0, 10)}
               </span>
             </div>
           </div>
@@ -139,12 +151,12 @@ export default function AccountPage() {
               </p>
               <Specs
                 items={[
-                  { term: 'Email', value: user.email },
-                  { term: 'Display name', value: user.displayName },
-                  { term: 'Role', value: qualificationRoleLabels[user.role] },
+                  { term: "Email", value: user.email },
+                  { term: "Display name", value: user.displayName },
+                  { term: "Role", value: qualificationRoleLabels[user.role] },
                   {
-                    term: 'Newsletter',
-                    value: user.newsletterOptIn ? 'Subscribed' : 'Unsubscribed',
+                    term: "Newsletter",
+                    value: user.newsletterOptIn ? "Subscribed" : "Unsubscribed",
                   },
                 ]}
               />
@@ -156,21 +168,24 @@ export default function AccountPage() {
               </p>
               {user.qualified ? (
                 <div>
-                  <Pill variant="accent" className="mb-3">Verified ✓</Pill>
+                  <Pill variant="accent" className="mb-3">
+                    Verified ✓
+                  </Pill>
                   <p className="text-[14px] text-[var(--text-muted)] leading-[1.55]">
-                    Qualified on {user.qualifiedAt?.slice(0, 10)}. Buyer qualification
-                    persists across orders; you will not be re-asked at checkout.
+                    Qualified on {user.qualifiedAt?.slice(0, 10)}. Buyer
+                    qualification persists across orders; you will not be
+                    re-asked at checkout.
                   </p>
                 </div>
               ) : (
                 <div>
                   <p className="text-[14px] text-[var(--text-muted)] leading-[1.55] mb-4">
-                    Buyer qualification (verbatim Appendix A.5 attestations) is collected
-                    inline at checkout review on your first order.
+                    Buyer qualification (verbatim Appendix A.5 attestations) is
+                    collected inline at checkout review on your first order.
                   </p>
                   <Link
                     href="/shop"
-                    className={buttonClassNames('outline', 'sm')}
+                    className={buttonClassNames("outline", "sm")}
                   >
                     Browse the catalog →
                   </Link>
@@ -185,11 +200,19 @@ export default function AccountPage() {
               {recentOrder ? (
                 <Specs
                   items={[
-                    { term: 'Order ID', value: <span className="font-mono">{recentOrder.id}</span> },
-                    { term: 'Placed', value: recentOrder.placedAt.slice(0, 10) },
-                    { term: 'Method', value: recentOrder.method },
                     {
-                      term: 'Total',
+                      term: "Order ID",
+                      value: (
+                        <span className="font-mono">{recentOrder.id}</span>
+                      ),
+                    },
+                    {
+                      term: "Placed",
+                      value: recentOrder.placedAt.slice(0, 10),
+                    },
+                    { term: "Method", value: recentOrder.method },
+                    {
+                      term: "Total",
                       value: (
                         <span className="font-mono tabular">
                           ${(recentOrder.totalCents / 100).toFixed(2)}
@@ -200,7 +223,8 @@ export default function AccountPage() {
                 />
               ) : (
                 <p className="text-[14px] text-[var(--text-muted)] leading-[1.55]">
-                  No recent orders on this device. Your order history will populate here.
+                  No recent orders on this device. Your order history will
+                  populate here.
                 </p>
               )}
             </Card>
@@ -211,17 +235,19 @@ export default function AccountPage() {
               </p>
               {user.addresses.length === 0 ? (
                 <p className="text-[14px] text-[var(--text-muted)] leading-[1.55]">
-                  No addresses saved yet. The address you enter at checkout is saved
-                  automatically once your first order completes.
+                  No addresses saved yet. The address you enter at checkout is
+                  saved automatically once your first order completes.
                 </p>
               ) : (
                 <ul className="space-y-3 text-[14px] text-[var(--text-muted)]">
                   {user.addresses.map((addr) => (
                     <li key={addr.id}>
-                      <p className="text-[var(--text)] font-medium">{addr.label}</p>
+                      <p className="text-[var(--text)] font-medium">
+                        {addr.label}
+                      </p>
                       <p>
                         {addr.street}
-                        {addr.street2 ? `, ${addr.street2}` : ''}
+                        {addr.street2 ? `, ${addr.street2}` : ""}
                       </p>
                       <p>
                         {addr.city}, {addr.stateCode} {addr.zip}
@@ -236,7 +262,12 @@ export default function AccountPage() {
 
         <section>
           <div className="mx-auto max-w-md px-6 py-20 text-center">
-            <Button type="button" variant="outline" size="md" onClick={handleLogout}>
+            <Button
+              type="button"
+              variant="outline"
+              size="md"
+              onClick={handleLogout}
+            >
               Sign out
             </Button>
             <p className="mt-6 font-mono text-[10px] uppercase tracking-[0.16em] text-[var(--text-subtle)]">

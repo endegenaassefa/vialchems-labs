@@ -1,50 +1,48 @@
 /**
  * MethodForm — client island for /checkout/method.
  *
- * Three radio options:
- *  - crypto (recommended, "Save 10-15%")
- *  - ach (Save 5%, 3-4 day clearance)
- *  - card (disabled, Coming soon)
+ * Payment method selection. Production checkout currently allows only crypto,
+ * because the Plaid ACH adapter has verification scaffolding but no live
+ * create-intent implementation.
  *
  * Side panel: live order summary from useCartStore. Submit persists to
  * sessionStorage and routes to /checkout/review.
  */
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { useState } from 'react';
-import { Button } from '@/components/ui/Button';
-import { Card } from '@/components/ui/Card';
-import { Pill } from '@/components/ui/Pill';
-import { Specs } from '@/components/ui/Specs';
-import { useCartStore } from '@/lib/cart-store';
-import { formatPrice } from '@/lib/content/products';
-import { siteConfig } from '@/lib/content/site';
-import { useSessionStorageString } from '@/lib/use-session-storage';
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+import { Button } from "@/components/ui/Button";
+import { Card } from "@/components/ui/Card";
+import { Pill } from "@/components/ui/Pill";
+import { Specs } from "@/components/ui/Specs";
+import { useCartStore } from "@/lib/cart-store";
+import { formatPrice } from "@/lib/content/products";
+import { siteConfig } from "@/lib/content/site";
+import { useSessionStorageString } from "@/lib/use-session-storage";
 
-type MethodId = 'crypto' | 'ach' | 'card';
+type MethodId = "crypto" | "ach" | "card";
 
-const METHOD_STORAGE_KEY = 'vialchemlabs:checkout:method';
+const METHOD_STORAGE_KEY = "vialchemlabs:checkout:method";
 
 export function MethodForm() {
   const router = useRouter();
   const lines = useCartStore((s) => s.lines);
   const subtotalCents = useCartStore((s) => s.subtotalCents)();
   const stored = useSessionStorageString(METHOD_STORAGE_KEY);
-  const initialMethod: MethodId =
-    stored === 'crypto' || stored === 'ach' ? stored : 'crypto';
+  const initialMethod: MethodId = stored === "crypto" ? stored : "crypto";
   const [override, setOverride] = useState<MethodId | null>(null);
   const method: MethodId = override ?? initialMethod;
   const setMethod = (m: MethodId) => setOverride(m);
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    if (method === 'card') return;
-    if (typeof window !== 'undefined') {
+    if (method === "card" || method === "ach") return;
+    if (typeof window !== "undefined") {
       window.sessionStorage.setItem(METHOD_STORAGE_KEY, method);
     }
-    router.push('/checkout/review');
+    router.push("/checkout/review");
   }
 
   const shippingCents =
@@ -54,15 +52,18 @@ export function MethodForm() {
   const totalCents = subtotalCents + shippingCents;
 
   return (
-    <form onSubmit={handleSubmit} className="grid gap-10 lg:grid-cols-[3fr_2fr]">
+    <form
+      onSubmit={handleSubmit}
+      className="grid gap-10 lg:grid-cols-[3fr_2fr]"
+    >
       <div className="space-y-3">
         <fieldset className="space-y-3">
           <legend className="sr-only">Choose payment method</legend>
 
           <PaymentOption
             id="method-crypto"
-            checked={method === 'crypto'}
-            onChange={() => setMethod('crypto')}
+            checked={method === "crypto"}
+            onChange={() => setMethod("crypto")}
             title="Cryptocurrency"
             subtitle="BTC · LTC (optional ETH) via self-hosted BTCPay Server"
             badge="Save 10–15%"
@@ -71,11 +72,12 @@ export function MethodForm() {
 
           <PaymentOption
             id="method-ach"
-            checked={method === 'ach'}
-            onChange={() => setMethod('ach')}
+            checked={false}
+            onChange={() => {}}
             title="Bank transfer (US ACH)"
-            subtitle="Plaid-verified · 3–4 business days for clearance"
-            badge="Save 5%"
+            subtitle="Plaid verification is not enabled for live checkout yet"
+            badge="Coming soon"
+            disabled
           />
 
           <PaymentOption
@@ -101,7 +103,12 @@ export function MethodForm() {
           >
             ← Back to address
           </Link>
-          <Button type="submit" variant="primary" size="lg" disabled={method === 'card'}>
+          <Button
+            type="submit"
+            variant="primary"
+            size="lg"
+            disabled={method === "card" || method === "ach"}
+          >
             Continue to review
           </Button>
         </div>
@@ -113,7 +120,7 @@ export function MethodForm() {
         </p>
         {lines.length === 0 ? (
           <p className="text-[14px] text-[var(--text-muted)]">
-            Your cart is empty.{' '}
+            Your cart is empty.{" "}
             <Link href="/shop" className="text-[var(--accent)]">
               Add a product →
             </Link>
@@ -137,14 +144,15 @@ export function MethodForm() {
             </ul>
             <Specs
               items={[
-                { term: 'Subtotal', value: formatPrice(subtotalCents) },
+                { term: "Subtotal", value: formatPrice(subtotalCents) },
                 {
-                  term: 'Shipping',
-                  value: shippingCents === 0 ? 'Free' : formatPrice(shippingCents),
+                  term: "Shipping",
+                  value:
+                    shippingCents === 0 ? "Free" : formatPrice(shippingCents),
                 },
-                { term: 'Discount', value: '— at review' },
+                { term: "Discount", value: "— at review" },
                 {
-                  term: 'Total',
+                  term: "Total",
                   value: (
                     <span className="text-[18px] font-semibold">
                       {formatPrice(totalCents)}
@@ -185,14 +193,14 @@ function PaymentOption({
     <label
       htmlFor={id}
       className={[
-        'block border rounded-[var(--radius-lg)] p-4 cursor-pointer',
-        'transition-colors duration-200 ease-[cubic-bezier(0.16,1,0.3,1)]',
+        "block border rounded-[var(--radius-lg)] p-4 cursor-pointer",
+        "transition-colors duration-200 ease-[cubic-bezier(0.16,1,0.3,1)]",
         disabled
-          ? 'opacity-60 cursor-not-allowed border-[var(--border)] bg-[var(--surface)]'
+          ? "opacity-60 cursor-not-allowed border-[var(--border)] bg-[var(--surface)]"
           : checked
-            ? 'border-[var(--accent)] bg-[color:color-mix(in_srgb,var(--accent)_8%,transparent)]'
-            : 'border-[var(--border)] bg-[var(--surface)] hover:border-[var(--border-strong)]',
-      ].join(' ')}
+            ? "border-[var(--accent)] bg-[color:color-mix(in_srgb,var(--accent)_8%,transparent)]"
+            : "border-[var(--border)] bg-[var(--surface)] hover:border-[var(--border-strong)]",
+      ].join(" ")}
     >
       <div className="flex items-start gap-3">
         <input
@@ -209,7 +217,9 @@ function PaymentOption({
             <span className="text-[16px] font-medium text-[var(--text)]">
               {title}
             </span>
-            <Pill variant={disabled ? 'info' : recommended ? 'accent' : 'electric'}>
+            <Pill
+              variant={disabled ? "info" : recommended ? "accent" : "electric"}
+            >
               {badge}
             </Pill>
             {recommended && !disabled && (

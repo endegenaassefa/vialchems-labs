@@ -5,14 +5,14 @@
  * renders order ID, expected ship date, payment status, line items, and links
  * to /order/[id] + /account/orders.
  */
-import type { Metadata } from 'next';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { CheckoutSteps } from '../CheckoutSteps';
-import { ConfirmPanel } from './ConfirmPanel';
+import type { Metadata } from "next";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { CheckoutSteps } from "../CheckoutSteps";
+import { ConfirmPanel } from "./ConfirmPanel";
 
 export const metadata: Metadata = {
-  title: 'Checkout — Confirmation',
+  title: "Checkout — Confirmation",
 };
 
 export default function CheckoutConfirmPage() {

@@ -12,11 +12,11 @@
  * positioning ("pre-launch · server auth wires before public launch") stays
  * surfaced in the UI so users know.
  */
-'use client';
+"use client";
 
-import { create } from 'zustand';
-import { persist, createJSONStorage } from 'zustand/middleware';
-import type { QualificationRole } from '@/lib/customer-qualification';
+import { create } from "zustand";
+import { persist, createJSONStorage } from "zustand/middleware";
+import type { QualificationRole } from "@/lib/customer-qualification";
 
 export interface SavedAddress {
   id: string;
@@ -76,7 +76,7 @@ interface AuthState {
   markQualified: () => void;
 
   /** Adds a saved address to the current user. */
-  addAddress: (address: Omit<SavedAddress, 'id'>) => SavedAddress;
+  addAddress: (address: Omit<SavedAddress, "id">) => SavedAddress;
 
   /** Updates newsletter opt-in for the current user. */
   setNewsletterOptIn: (v: boolean) => void;
@@ -86,28 +86,34 @@ interface AuthState {
 }
 
 function uuid(): string {
-  if (typeof crypto !== 'undefined' && 'randomUUID' in crypto) {
+  if (typeof crypto !== "undefined" && "randomUUID" in crypto) {
     return (crypto as { randomUUID: () => string }).randomUUID();
   }
-  return Math.random().toString(36).slice(2, 10) + Math.random().toString(36).slice(2, 10);
+  return (
+    Math.random().toString(36).slice(2, 10) +
+    Math.random().toString(36).slice(2, 10)
+  );
 }
 
 function genSalt(): string {
   const arr = new Uint8Array(16);
-  if (typeof crypto !== 'undefined' && 'getRandomValues' in crypto) {
+  if (typeof crypto !== "undefined" && "getRandomValues" in crypto) {
     crypto.getRandomValues(arr);
   } else {
-    for (let i = 0; i < arr.length; i++) arr[i] = Math.floor(Math.random() * 256);
+    for (let i = 0; i < arr.length; i++)
+      arr[i] = Math.floor(Math.random() * 256);
   }
-  return Array.from(arr).map((b) => b.toString(16).padStart(2, '0')).join('');
+  return Array.from(arr)
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
 }
 
 async function hashPassword(password: string, salt: string): Promise<string> {
   const data = new TextEncoder().encode(password + salt);
-  const buf = await crypto.subtle.digest('SHA-256', data);
+  const buf = await crypto.subtle.digest("SHA-256", data);
   return Array.from(new Uint8Array(buf))
-    .map((b) => b.toString(16).padStart(2, '0'))
-    .join('');
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
 }
 
 function normalizeEmail(email: string): string {
@@ -122,13 +128,21 @@ export const useAuthStore = create<AuthState>()(
       _hasHydrated: false,
       setHydrated: (v) => set({ _hasHydrated: v }),
 
-      signup: async ({ email, password, role, displayName, newsletterOptIn = true }) => {
+      signup: async ({
+        email,
+        password,
+        role,
+        displayName,
+        newsletterOptIn = true,
+      }) => {
         const key = normalizeEmail(email);
         if (get().users[key]) {
-          throw new Error('An account already exists for this email. Sign in instead.');
+          throw new Error(
+            "An account already exists for this email. Sign in instead.",
+          );
         }
         if (password.length < 8) {
-          throw new Error('Password must be at least 8 characters.');
+          throw new Error("Password must be at least 8 characters.");
         }
         const salt = genSalt();
         const passwordHash = await hashPassword(password, salt);
@@ -136,7 +150,7 @@ export const useAuthStore = create<AuthState>()(
           id: uuid(),
           email: key,
           role,
-          displayName: displayName.trim() || key.split('@')[0],
+          displayName: displayName.trim() || key.split("@")[0],
           passwordHash,
           salt,
           createdAt: new Date().toISOString(),
@@ -156,11 +170,11 @@ export const useAuthStore = create<AuthState>()(
         const key = normalizeEmail(email);
         const user = get().users[key];
         if (!user) {
-          throw new Error('No account found for that email. Create one first.');
+          throw new Error("No account found for that email. Create one first.");
         }
         const expected = await hashPassword(password, user.salt);
         if (expected !== user.passwordHash) {
-          throw new Error('Wrong password. Try again or reset.');
+          throw new Error("Wrong password. Try again or reset.");
         }
         set({ currentEmail: key });
         return user;
@@ -212,9 +226,12 @@ export const useAuthStore = create<AuthState>()(
       },
     }),
     {
-      name: 'vialchemlabs:auth',
+      name: "vialchemlabs:auth",
       storage: createJSONStorage(() => localStorage),
-      partialize: (state) => ({ users: state.users, currentEmail: state.currentEmail }),
+      partialize: (state) => ({
+        users: state.users,
+        currentEmail: state.currentEmail,
+      }),
       onRehydrateStorage: () => (state) => {
         state?.setHydrated(true);
       },
@@ -224,4 +241,6 @@ export const useAuthStore = create<AuthState>()(
 
 export const useAuthHydrated = () => useAuthStore((s) => s._hasHydrated);
 export const useCurrentUser = () =>
-  useAuthStore((s) => (s.currentEmail ? s.users[s.currentEmail] ?? null : null));
+  useAuthStore((s) =>
+    s.currentEmail ? (s.users[s.currentEmail] ?? null) : null,
+  );

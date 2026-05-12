@@ -15,15 +15,15 @@ Reduced-motion fallback non-negotiable per Iron Law 2.18.
 
 ## Commits (Iron Law 2.15 protocol)
 
-| Commit | Type | Scope |
-|---|---|---|
-| 10a167f | chore | install motion 12.38.0 |
-| 6202ea9 | test (RED) | StaggerReveal wrapper honors useReducedMotion |
+| Commit  | Type         | Scope                                                     |
+| ------- | ------------ | --------------------------------------------------------- |
+| 10a167f | chore        | install motion 12.38.0                                    |
+| 6202ea9 | test (RED)   | StaggerReveal wrapper honors useReducedMotion             |
 | d4062dc | feat (GREEN) | StaggerReveal primitive + jsdom IntersectionObserver stub |
-| d3e10c5 | test (RED) | StaggerReveal needs itemAs for valid HTML inside ul/tbody |
-| fd4d695 | feat (GREEN) | StaggerReveal itemAs prop |
-| c845f41 | test (RED) | RecoveryStackSheen + PlaceOrderButton + NewsletterForm |
-| e03d868 | feat (GREEN) | Phase 7 stagger + sheen + place-order + newsletter |
+| d3e10c5 | test (RED)   | StaggerReveal needs itemAs for valid HTML inside ul/tbody |
+| fd4d695 | feat (GREEN) | StaggerReveal itemAs prop                                 |
+| c845f41 | test (RED)   | RecoveryStackSheen + PlaceOrderButton + NewsletterForm    |
+| e03d868 | feat (GREEN) | Phase 7 stagger + sheen + place-order + newsletter        |
 
 ## Deliverables (per §8 PHASE 7)
 
@@ -42,12 +42,12 @@ table). Re-evaluate when stagger reveal is operator-approved.
 
 ### 3. Stagger reveal — applied to 4 surfaces
 
-| Surface | Element | Implementation | Stagger | Duration |
-|---|---|---|---|---|
-| `/shop` SKU tiles | `<StaggerReveal as="ul" itemAs="li">` | motion library | 70ms | 320ms |
-| `/blog` post list | `<StaggerReveal as="ul" itemAs="li">` | motion library | 70ms | 320ms |
-| `/faq` disclosure list | `<StaggerReveal as="ol" itemAs="li">` | motion library | 70ms | 320ms |
-| `/coa` table rows | `<tbody>` with `data-stagger-row` per `<tr>` | pure CSS | 40ms | --dur-medium |
+| Surface                | Element                                      | Implementation | Stagger | Duration     |
+| ---------------------- | -------------------------------------------- | -------------- | ------- | ------------ |
+| `/shop` SKU tiles      | `<StaggerReveal as="ul" itemAs="li">`        | motion library | 70ms    | 320ms        |
+| `/blog` post list      | `<StaggerReveal as="ul" itemAs="li">`        | motion library | 70ms    | 320ms        |
+| `/faq` disclosure list | `<StaggerReveal as="ol" itemAs="li">`        | motion library | 70ms    | 320ms        |
+| `/coa` table rows      | `<tbody>` with `data-stagger-row` per `<tr>` | pure CSS       | 40ms    | --dur-medium |
 
 The CSS-only path for `/coa` keeps the markup semantically valid (no
 `<motion.div>` between `<tbody>` and `<tr>`) while still satisfying the
@@ -57,16 +57,19 @@ hard-disables the animation globally; both paths honor it.
 ### 4. Hover unfurl — verified consistent
 
 `Card variant="interactive"` already implements hover lift:
+
 ```
 hover:-translate-y-px hover:shadow-[var(--shadow-md)]
 transition duration-200 ease-[cubic-bezier(0.16,1,0.3,1)]
 ```
+
 No change needed in Phase 7. Recovery Stack `elevated` variant is intentionally
 non-hovering (per Phase 2 v4 comment in `Card.tsx:46-48`).
 
 ### 5. Sheen sweep on Recovery Stack CTA
 
 `<RecoveryStackSheen />` renders an absolutely-positioned overlay inside both:
+
 - Home page Recovery CTA card (`app/page.tsx`)
 - /shop bundle accent card (`app/shop/ShopCatalog.tsx`)
 
@@ -90,22 +93,24 @@ Self-removes after 1400ms via cleared timeout.
 
 ### 7. Reduced-motion verification
 
-| Component | Reduced-motion path | Verification |
-|---|---|---|
-| StaggerReveal | wraps children in plain `itemAs` (no motion props) | `tests/unit/components/StaggerReveal.test.tsx:73-94` |
-| RecoveryStackSheen | renders `null` | `tests/unit/components/RecoveryStackSheen.test.tsx:53-58` |
-| PlaceOrderButton | falls back to plain `<Button>` (no whileTap) | inline branch in `PlaceOrderButton.tsx:54-71` |
-| NewsletterForm | `collapseDuration = 0`, `fadeDuration = 0` | branch in `NewsletterForm.tsx:69-70` |
-| `[data-stagger-row]` (CSS) | global `@media (prefers-reduced-motion: reduce) { animation: none !important }` rule | `app/globals.css:235-242` |
+| Component                  | Reduced-motion path                                                                  | Verification                                              |
+| -------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------- |
+| StaggerReveal              | wraps children in plain `itemAs` (no motion props)                                   | `tests/unit/components/StaggerReveal.test.tsx:73-94`      |
+| RecoveryStackSheen         | renders `null`                                                                       | `tests/unit/components/RecoveryStackSheen.test.tsx:53-58` |
+| PlaceOrderButton           | falls back to plain `<Button>` (no whileTap)                                         | inline branch in `PlaceOrderButton.tsx:54-71`             |
+| NewsletterForm             | `collapseDuration = 0`, `fadeDuration = 0`                                           | branch in `NewsletterForm.tsx:69-70`                      |
+| `[data-stagger-row]` (CSS) | global `@media (prefers-reduced-motion: reduce) { animation: none !important }` rule | `app/globals.css:235-242`                                 |
 
 ### 8. Bundle audit (Iron Law 2.27)
 
 Baseline (HEAD 164b7f0, pre-motion install):
+
 - `.next/static`: 1.9MB
 - Top 4 chunks (raw): 290KB / 228KB / 150KB / 113KB
 - No motion library in bundle
 
 Post-Phase-7 (HEAD e03d868):
+
 - `.next/static`: 1.9MB (no measurable growth — motion replaces some
   smaller chunks via reshuffling)
 - Top 5 chunks (gzipped): 70.9KB, 66.2KB, **49.5KB (motion-bearing chunk)**, 40.5KB, 39.5KB
@@ -120,6 +125,7 @@ switch to `motion/react/lazy`.
 ### 9. Test coverage
 
 Total tests: **407 passed (35 files)** — was 385 at HEAD 164b7f0 (+22 in Phase 7):
+
 - `StaggerReveal.test.tsx`: 8 tests
 - `RecoveryStackSheen.test.tsx`: 6 tests
 - `PlaceOrderButton.test.tsx`: 4 tests
@@ -127,26 +133,26 @@ Total tests: **407 passed (35 files)** — was 385 at HEAD 164b7f0 (+22 in Phase
 
 ## Iron Laws verified
 
-| # | Iron Law | Phase 7 evidence |
-|---|---|---|
-| 2.1 | TDD | RED→GREEN cycle for every new component (commits 6202ea9/d4062dc, d3e10c5/fd4d695, c845f41/e03d868) |
-| 2.2 | Verification before completion | 407/407 tests + npm build clean + preflight 0 violations re-run in this session |
-| 2.5 | Protected files unchanged | `git diff v1.0.0..HEAD -- lib/payments/ lib/compliance.ts lib/customer-qualification.ts lib/attestations.ts app/api/payments/ lib/content/products.ts lib/content/product-descriptions.ts` = **0 lines** |
-| 2.15 | TDD checkpoint commits | Each commit body carries `Validated by:` + verbatim FAIL/PASS snippet |
-| 2.16 | Pre-commit supply-chain scanner | All 3 hooks ran on every commit; 0 violations |
-| 2.18 | Reduced-motion non-negotiable | Every new animation gated by `useReducedMotion()` OR the global `@media (prefers-reduced-motion: reduce)` rule. Tests assert reduced-motion paths render plain. |
-| 2.21 | Tokens additive only | Phase 7 added `@keyframes recovery-sheen` + `[data-stagger-row]` rule. Existing token names + values unchanged; `tests/unit/design/tokens.test.ts` regression block passes. |
-| 2.27 | Lighthouse / bundle budgets | Motion-bearing chunk: 49.5KB gzipped, within ≤50KB. Lighthouse CI gate is Phase 11 deliverable. |
+| #    | Iron Law                        | Phase 7 evidence                                                                                                                                                                                         |
+| ---- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2.1  | TDD                             | RED→GREEN cycle for every new component (commits 6202ea9/d4062dc, d3e10c5/fd4d695, c845f41/e03d868)                                                                                                      |
+| 2.2  | Verification before completion  | 407/407 tests + npm build clean + preflight 0 violations re-run in this session                                                                                                                          |
+| 2.5  | Protected files unchanged       | `git diff v1.0.0..HEAD -- lib/payments/ lib/compliance.ts lib/customer-qualification.ts lib/attestations.ts app/api/payments/ lib/content/products.ts lib/content/product-descriptions.ts` = **0 lines** |
+| 2.15 | TDD checkpoint commits          | Each commit body carries `Validated by:` + verbatim FAIL/PASS snippet                                                                                                                                    |
+| 2.16 | Pre-commit supply-chain scanner | All 3 hooks ran on every commit; 0 violations                                                                                                                                                            |
+| 2.18 | Reduced-motion non-negotiable   | Every new animation gated by `useReducedMotion()` OR the global `@media (prefers-reduced-motion: reduce)` rule. Tests assert reduced-motion paths render plain.                                          |
+| 2.21 | Tokens additive only            | Phase 7 added `@keyframes recovery-sheen` + `[data-stagger-row]` rule. Existing token names + values unchanged; `tests/unit/design/tokens.test.ts` regression block passes.                              |
+| 2.27 | Lighthouse / bundle budgets     | Motion-bearing chunk: 49.5KB gzipped, within ≤50KB. Lighthouse CI gate is Phase 11 deliverable.                                                                                                          |
 
 ## Verbatim copy regrep (Iron Law 2.4 / 2.13)
 
-| Pattern | File | Hits | Expected |
-|---|---|---|---|
-| `21+ years of age` | `app/checkout/review/ReviewPanel.tsx` | 1 | 1 |
-| `research use only (RUO)` | `app/checkout/review/ReviewPanel.tsx` | 1 | 1 |
-| `qualified researcher acquiring` | `lib/customer-qualification.ts` | 1 | 1 |
-| `For research use only. Not for human or veterinary use` | `app/products/[slug]/page.tsx` | 2 | 2 (PDP + bundle) |
-| `are not for human consumption` | `components/SiteFooter.tsx` | 1 | 1 |
+| Pattern                                                  | File                                  | Hits | Expected         |
+| -------------------------------------------------------- | ------------------------------------- | ---- | ---------------- |
+| `21+ years of age`                                       | `app/checkout/review/ReviewPanel.tsx` | 1    | 1                |
+| `research use only (RUO)`                                | `app/checkout/review/ReviewPanel.tsx` | 1    | 1                |
+| `qualified researcher acquiring`                         | `lib/customer-qualification.ts`       | 1    | 1                |
+| `For research use only. Not for human or veterinary use` | `app/products/[slug]/page.tsx`        | 2    | 2 (PDP + bundle) |
+| `are not for human consumption`                          | `components/SiteFooter.tsx`           | 1    | 1                |
 
 ## Open notes for downstream phases
 

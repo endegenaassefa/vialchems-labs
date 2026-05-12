@@ -12,22 +12,22 @@
  * Re-introduce when product.inStock is wired to real data; until then, do not
  * render UI for state we cannot honor. Iron Law spirit: do not fake controls.
  */
-'use client';
+"use client";
 
-import Link from 'next/link';
-import Fuse from 'fuse.js';
-import { useMemo, useState } from 'react';
-import { Card } from '@/components/ui/Card';
-import { Pill } from '@/components/ui/Pill';
-import { Button, buttonClassNames } from '@/components/ui/Button';
-import { Input } from '@/components/ui/Input';
-import { FieldLabel } from '@/components/ui/FieldLabel';
-import { ProductStudioVisual } from '@/components/ui/ProductStudioVisual';
-import { BundleStudioVisual } from '@/components/ui/BundleStudioVisual';
-import { EmptyState } from '@/components/ui/EmptyState';
-import { StaggerReveal } from '@/components/ui/StaggerReveal';
-import { RecoveryStackSheen } from '@/components/ui/RecoveryStackSheen';
-import { useCartStore } from '@/lib/cart-store';
+import Link from "next/link";
+import Fuse from "fuse.js";
+import { useMemo, useState } from "react";
+import { Card } from "@/components/ui/Card";
+import { Pill } from "@/components/ui/Pill";
+import { Button, buttonClassNames } from "@/components/ui/Button";
+import { Input } from "@/components/ui/Input";
+import { FieldLabel } from "@/components/ui/FieldLabel";
+import { ProductStudioVisual } from "@/components/ui/ProductStudioVisual";
+import { BundleStudioVisual } from "@/components/ui/BundleStudioVisual";
+import { EmptyState } from "@/components/ui/EmptyState";
+import { StaggerReveal } from "@/components/ui/StaggerReveal";
+import { RecoveryStackSheen } from "@/components/ui/RecoveryStackSheen";
+import { useCartStore } from "@/lib/cart-store";
 import {
   bundles,
   formatPerMg,
@@ -36,28 +36,28 @@ import {
   products,
   type Product,
   type ProductCategory,
-} from '@/lib/content/products';
+} from "@/lib/content/products";
 
-type SortKey = 'price-asc' | 'price-desc' | 'name-asc' | 'newest';
+type SortKey = "price-asc" | "price-desc" | "name-asc" | "newest";
 
 const SORT_OPTIONS: { value: SortKey; label: string }[] = [
-  { value: 'newest', label: 'Newest' },
-  { value: 'price-asc', label: 'Price: low → high' },
-  { value: 'price-desc', label: 'Price: high → low' },
-  { value: 'name-asc', label: 'Name: A → Z' },
+  { value: "newest", label: "Newest" },
+  { value: "price-asc", label: "Price: low → high" },
+  { value: "price-desc", label: "Price: high → low" },
+  { value: "name-asc", label: "Name: A → Z" },
 ];
 
 export function ShopCatalog() {
-  const [query, setQuery] = useState('');
-  const [activeCategories, setActiveCategories] = useState<Set<ProductCategory>>(
-    new Set(),
-  );
-  const [sortKey, setSortKey] = useState<SortKey>('newest');
+  const [query, setQuery] = useState("");
+  const [activeCategories, setActiveCategories] = useState<
+    Set<ProductCategory>
+  >(new Set());
+  const [sortKey, setSortKey] = useState<SortKey>("newest");
 
   const fuse = useMemo(
     () =>
       new Fuse(products, {
-        keys: ['name', 'sku', 'category', 'shortName'],
+        keys: ["name", "sku", "category", "shortName"],
         threshold: 0.4,
         ignoreLocation: true,
       }),
@@ -76,16 +76,16 @@ export function ShopCatalog() {
     // v4: in-stock filter removed (was placebo; inventory not yet wired)
 
     switch (sortKey) {
-      case 'price-asc':
+      case "price-asc":
         list = [...list].sort((a, b) => a.listPriceCents - b.listPriceCents);
         break;
-      case 'price-desc':
+      case "price-desc":
         list = [...list].sort((a, b) => b.listPriceCents - a.listPriceCents);
         break;
-      case 'name-asc':
+      case "name-asc":
         list = [...list].sort((a, b) => a.shortName.localeCompare(b.shortName));
         break;
-      case 'newest':
+      case "newest":
       default:
         // Keep insertion order from the catalog seed.
         break;
@@ -97,14 +97,15 @@ export function ShopCatalog() {
   // doesn't match its name OR any of its constituent SKUs. Without this the
   // empty-results state still rendered the bundle on top.
   const visibleBundles = useMemo(() => {
-    const filtersActive =
-      query.trim().length > 0 || activeCategories.size > 0;
+    const filtersActive = query.trim().length > 0 || activeCategories.size > 0;
     if (!filtersActive) return bundles;
     const visibleSkus = new Set(visible.map((p) => p.sku));
     const q = query.trim().toLowerCase();
     return bundles.filter((b) => {
       const nameMatch = q.length > 0 && b.name.toLowerCase().includes(q);
-      const constituentMatch = b.constituents.some((sku) => visibleSkus.has(sku));
+      const constituentMatch = b.constituents.some((sku) =>
+        visibleSkus.has(sku),
+      );
       // When ONLY the category filter is active (no text query), keep the
       // bundle if any constituent is in the visible list.
       if (q.length === 0) return constituentMatch;
@@ -124,7 +125,7 @@ export function ShopCatalog() {
   return (
     <section>
       <div className="mx-auto max-w-6xl px-6 py-12">
-        {/* RECOVERY STACK BUNDLE — separate accent card */}
+        {/* STACK CARDS — single-vial stack products with component labels */}
         {visibleBundles.map((bundle) => (
           <Card
             as="article"
@@ -146,7 +147,7 @@ export function ShopCatalog() {
             </Link>
             <div>
               <Pill variant="accent" className="mb-2">
-                Bundle
+                Stack vial
               </Pill>
               <h2 className="text-[24px] md:text-[28px] font-medium tracking-tight text-[var(--text)] mb-1">
                 {bundle.name}
@@ -166,9 +167,9 @@ export function ShopCatalog() {
               </div>
               <Link
                 href={`/products/${bundle.slug}`}
-                className={buttonClassNames('outline', 'md')}
+                className={buttonClassNames("outline", "md")}
               >
-                View bundle
+                View stack
               </Link>
             </div>
           </Card>
@@ -201,13 +202,13 @@ export function ShopCatalog() {
                       onClick={() => toggleCategory(cat.id)}
                       aria-pressed={active}
                       className={[
-                        'inline-flex items-center h-8 px-3 rounded-[var(--radius-full)]',
-                        'font-mono uppercase tracking-[0.12em] text-[11px]',
-                        'transition-colors duration-200 ease-[cubic-bezier(0.16,1,0.3,1)]',
+                        "inline-flex items-center h-8 px-3 rounded-[var(--radius-full)]",
+                        "font-mono uppercase tracking-[0.12em] text-[11px]",
+                        "transition-colors duration-200 ease-[cubic-bezier(0.16,1,0.3,1)]",
                         active
-                          ? 'bg-[color:color-mix(in_srgb,var(--accent)_18%,transparent)] text-[var(--accent)] border border-[var(--accent)]'
-                          : 'bg-[var(--surface-strong)] text-[var(--text-muted)] border border-[var(--border)] hover:border-[var(--border-strong)]',
-                      ].join(' ')}
+                          ? "bg-[color:color-mix(in_srgb,var(--accent)_18%,transparent)] text-[var(--accent)] border border-[var(--accent)]"
+                          : "bg-[var(--surface-strong)] text-[var(--text-muted)] border border-[var(--border)] hover:border-[var(--border-strong)]",
+                      ].join(" ")}
                     >
                       {cat.label}
                     </button>
@@ -253,7 +254,7 @@ export function ShopCatalog() {
                 variant="outline"
                 size="md"
                 onClick={() => {
-                  setQuery('');
+                  setQuery("");
                   setActiveCategories(new Set());
                 }}
               >
@@ -280,7 +281,8 @@ export function ShopCatalog() {
 function ProductTile({ product }: { product: Product }) {
   const addLine = useCartStore((s) => s.addLine);
   const categoryLabel =
-    productCategories.find((c) => c.id === product.category)?.label ?? product.category;
+    productCategories.find((c) => c.id === product.category)?.label ??
+    product.category;
 
   return (
     <Card

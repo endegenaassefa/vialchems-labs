@@ -6,8 +6,9 @@ Status: PROCEDURE DOCUMENTED (executes after Vercel deploy completes)
 ## Pre-conditions
 
 Phase 15 begins after operator completes:
+
 1. Vercel deploy via `vercel --prod` (Phase 14)
-2. Custom domain `vialchemlabs.com` (or fallback) pointed at Vercel
+2. Custom domain `vialchemlabs.net` (or fallback) pointed at Vercel
 3. Real env vars rotated in Vercel (Supabase, Resend, Sentry, Plaid, BTCPay)
 
 ## Phase 15.1 — Canary monitoring (2-hour window post-deploy)
@@ -16,11 +17,11 @@ Run after `vercel --prod` completes successfully:
 
 ```bash
 # 1. Health check (immediate)
-curl https://vialchemlabs.com/api/health
+curl https://vialchemlabs.net/api/health
 # Expected: HTTP 200, JSON { "status": "ok", "service": "vialchemlabs", "time": "..." }
 
 # 2. Browser smoke test (immediate, manual)
-# Open https://vialchemlabs.com in 3 browsers:
+# Open https://vialchemlabs.net in 3 browsers:
 #   - Chrome (desktop)
 #   - Safari (iOS)
 #   - Firefox (desktop)
@@ -36,10 +37,10 @@ curl https://vialchemlabs.com/api/health
 
 # 3. Performance baseline (Lighthouse CI)
 # Run via Chrome DevTools or:
-npx lighthouse https://vialchemlabs.com --output=json --quiet > /tmp/lh-home.json
-npx lighthouse https://vialchemlabs.com/shop --output=json --quiet > /tmp/lh-shop.json
-npx lighthouse https://vialchemlabs.com/products/bpc-157-10mg --output=json --quiet > /tmp/lh-pdp.json
-npx lighthouse https://vialchemlabs.com/checkout/review --output=json --quiet > /tmp/lh-checkout.json
+npx lighthouse https://vialchemlabs.net --output=json --quiet > /tmp/lh-home.json
+npx lighthouse https://vialchemlabs.net/shop --output=json --quiet > /tmp/lh-shop.json
+npx lighthouse https://vialchemlabs.net/products/bpc-157-10mg --output=json --quiet > /tmp/lh-pdp.json
+npx lighthouse https://vialchemlabs.net/checkout/review --output=json --quiet > /tmp/lh-checkout.json
 # Hard-fail thresholds per SUPER_PROMPT_v3 §7.1:
 #   Performance ≥ 90, Accessibility ≥ 95, SEO ≥ 95, Best Practices ≥ 95
 #   LCP < 2.5s, CLS < 0.1, INP < 200ms
@@ -52,13 +53,13 @@ npx lighthouse https://vialchemlabs.com/checkout/review --output=json --quiet > 
 #   - Payment-flow error rate < 0.1% (page threshold)
 
 # 5. Trigger test error to verify Sentry catches
-# Visit https://vialchemlabs.com/api/contact with malformed POST
+# Visit https://vialchemlabs.net/api/contact with malformed POST
 # Confirm Sentry receives the error within 2 minutes
 
 # 6. Continuous canary (2 hours)
 # Run every 10 minutes for 2 hours:
 while true; do
-  curl -s -o /dev/null -w "%{http_code} %{time_total}s\n" https://vialchemlabs.com/api/health
+  curl -s -o /dev/null -w "%{http_code} %{time_total}s\n" https://vialchemlabs.net/api/health
   sleep 600
 done
 # Watch for any non-200 or > 2.0s response — investigate immediately
@@ -67,6 +68,7 @@ done
 ### Canary fail conditions (auto-rollback triggers)
 
 If any of these fire in the 2-hour window:
+
 - /api/health returns non-200 for >1 consecutive minute → rollback (`vercel rollback`)
 - Lighthouse Performance < 80 on home → investigate; if regression vs preview, rollback
 - Sentry error rate > 5% for >5 minutes → investigate
@@ -80,12 +82,12 @@ cd /root/peptide-site
 
 # 1. Update CHANGELOG.md with deploy date + production URL
 # Already covers v1.0.0; add deploy date once live:
-#   ## [1.0.0] — 2026-05-08 (deployed YYYY-MM-DD to https://vialchemlabs.com)
+#   ## [1.0.0] — 2026-05-08 (deployed YYYY-MM-DD to https://vialchemlabs.net)
 
 # 2. Update README.md with production URL
 # Add:
 #   ## Live
-#   https://vialchemlabs.com
+#   https://vialchemlabs.net
 
 # 3. Optional: write ARCHITECTURE.md (Phase 2 lock has all the content)
 # cp docs/superpowers/plans/2026-05-08-architecture.md ARCHITECTURE.md
@@ -99,7 +101,8 @@ git push
 ## Phase 15.3 — Sentry alert configuration
 
 In Sentry dashboard:
-1. **Alert: Error rate > 1%** → email operator + ops@vialchemlabs.com
+
+1. **Alert: Error rate > 1%** → email operator + ops@vialchemlabs.net
 2. **Alert: Payment-flow error rate > 0.1%** → page operator (PagerDuty or SMS)
 3. **Alert: Webhook signature verification failure** → page operator immediately
 4. **Alert: New error type detected (no occurrences in last 24h)** → email
@@ -110,6 +113,7 @@ In Sentry dashboard:
 Operator runbook lives at `docs/operator-runbook.md` (Phase 11 deliverable).
 
 Day-1 operator workstreams (front-loaded):
+
 1. Tier S clinical-credentialed creator outreach (5-10 micro-creators)
 2. Affiliate listicle outreach (Outliyr, Muscle+Brawn, PepPal, Brainflow)
 3. Newsletter signups → 4-email welcome sequence (will activate when Resend wired)
@@ -120,6 +124,7 @@ Day-1 operator workstreams (front-loaded):
 ## Phase 15.5 — Schedule retro for 1 week after launch
 
 Set calendar reminder: 1 week after deploy date, run `/retro` against the production-launch week. Retro covers:
+
 - What landed cleanly?
 - What surprised? (e.g., Sentry errors, Lighthouse regressions, Tier S creator response rates)
 - What was wrong about Phase 1-14 plan? (Iron Law 2.17 introspection territory)

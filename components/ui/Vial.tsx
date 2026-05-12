@@ -31,18 +31,13 @@
  *   - 2.27 — SVG-only (no raster, no QR library Day-1); zero JS bundle cost
  *     beyond the existing component code.
  */
-'use client';
+"use client";
 
-import {
-  useCallback,
-  useState,
-  type HTMLAttributes,
-  type Ref,
-} from 'react';
-import { cn } from '@/lib/utils';
-import { products, bundles } from '@/lib/content/products';
+import { useCallback, useState, type HTMLAttributes, type Ref } from "react";
+import { cn } from "@/lib/utils";
+import { products, bundles } from "@/lib/content/products";
 
-export type VialSize = 'sm' | 'md' | 'lg' | 'xl' | '2xl';
+export type VialSize = "sm" | "md" | "lg" | "xl" | "2xl";
 
 export interface VialProps extends HTMLAttributes<HTMLDivElement> {
   size?: VialSize;
@@ -76,11 +71,11 @@ export interface VialProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 const sizeClasses: Record<VialSize, string> = {
-  sm: 'w-7 h-16',
-  md: 'w-10 h-24',
-  lg: 'w-14 h-32',
-  xl: 'w-20 h-44',
-  '2xl': 'w-28 h-64',
+  sm: "w-7 h-16",
+  md: "w-10 h-24",
+  lg: "w-14 h-32",
+  xl: "w-20 h-44",
+  "2xl": "w-28 h-64",
 };
 
 // Iron Law 2.7 enforcement via catalog whitelist.
@@ -129,7 +124,12 @@ function QrPlaceholder({ x, y, size }: { x: number; y: number; size: number }) {
         </g>
       ))}
       {[
-        [3, 4], [5, 3], [4, 5], [3, 6], [4, 4], [5, 5],
+        [3, 4],
+        [5, 3],
+        [4, 5],
+        [3, 6],
+        [4, 4],
+        [5, 5],
       ].map(([gx, gy], i) => (
         <rect
           key={`d${i}`}
@@ -145,7 +145,7 @@ function QrPlaceholder({ x, y, size }: { x: number; y: number; size: number }) {
 }
 
 export function Vial({
-  size = 'md',
+  size = "md",
   sway = false,
   spin = false,
   bob = false,
@@ -153,7 +153,7 @@ export function Vial({
   withLabel = false,
   compound,
   dose,
-  batch = '2026-01',
+  batch = "2026-01",
   className,
   ref,
   style,
@@ -181,30 +181,31 @@ export function Vial({
   // because they're mutually-exclusive transforms applied to the same
   // element.
   const animationClass = sway
-    ? 'motion-safe:[animation:vial-sway_6.4s_ease-in-out_infinite]'
+    ? "motion-safe:[animation:vial-sway_6.4s_ease-in-out_infinite]"
     : spin
-      ? 'motion-safe:[animation:vial-spin_18s_linear_infinite]'
+      ? "motion-safe:[animation:vial-spin_18s_linear_infinite]"
       : bob
-        ? 'motion-safe:[animation:vial-bob_5.2s_ease-in-out_infinite]'
-        : '';
+        ? "motion-safe:[animation:vial-bob_5.2s_ease-in-out_infinite]"
+        : "";
 
   const interactiveClass = interactive
-    ? 'cursor-pointer transition-transform duration-[var(--dur-medium)] ease-[var(--ease-premium-out)] hover:scale-[1.05] motion-safe:will-change-transform'
-    : '';
+    ? "cursor-pointer transition-transform duration-[var(--dur-medium)] ease-[var(--ease-premium-out)] hover:scale-[1.05] motion-safe:will-change-transform"
+    : "";
 
   // When the user clicks, apply a one-shot 360° rotation via inline transform
   // that overrides the continuous animation for that gesture.
-  const clickStyle = interactive && clickRotation > 0
-    ? { transform: `rotate(${clickRotation}deg)` }
-    : undefined;
+  const clickStyle =
+    interactive && clickRotation > 0
+      ? { transform: `rotate(${clickRotation}deg)` }
+      : undefined;
 
   return (
     <div
       ref={ref}
       onClick={handleClick}
       className={cn(
-        'inline-block origin-bottom',
-        'drop-shadow-[var(--shadow-md)]',
+        "inline-block origin-bottom",
+        "drop-shadow-[var(--shadow-md)]",
         sizeClasses[size],
         animationClass,
         interactiveClass,
@@ -252,10 +253,24 @@ export function Vial({
         {/* Cap (silvery, slightly wider than body — pharmaceutical crimp) */}
         <rect x="6" y="2" width="16" height="6" rx="0.8" fill="url(#vc-cap)" />
         {/* Cap top highlight */}
-        <rect x="7" y="2.5" width="14" height="1.4" rx="0.4" fill="rgba(255,255,255,0.32)" />
+        <rect
+          x="7"
+          y="2.5"
+          width="14"
+          height="1.4"
+          rx="0.4"
+          fill="rgba(255,255,255,0.32)"
+        />
 
         {/* Crimp ring (darker band where cap meets glass) */}
-        <rect x="6" y="7.4" width="16" height="2" rx="0.4" fill="url(#vc-crimp)" />
+        <rect
+          x="6"
+          y="7.4"
+          width="16"
+          height="2"
+          rx="0.4"
+          fill="url(#vc-crimp)"
+        />
 
         {/* Glass body (narrower than cap, clear with subtle teal tint) */}
         <rect
@@ -325,12 +340,7 @@ export function Vial({
             />
 
             {/* VIALCHEMLABS wordmark with accent dot — top-left */}
-            <circle
-              cx="9.4"
-              cy="13.4"
-              r="0.45"
-              fill="var(--accent, #3dd4c8)"
-            />
+            <circle cx="9.4" cy="13.4" r="0.45" fill="var(--accent, #3dd4c8)" />
             <text
               x="10.2"
               y="13.85"

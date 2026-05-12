@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useCartHydrated, useCartStore } from '@/lib/cart-store';
+import { useCartHydrated, useCartStore } from "@/lib/cart-store";
 
 /**
  * CartCount — client island that subscribes to the cart store and renders the
@@ -14,9 +14,7 @@ import { useCartHydrated, useCartStore } from '@/lib/cart-store';
  */
 export function CartCount() {
   const hydrated = useCartHydrated();
-  const count = useCartStore((s) =>
-    s.lines.reduce((sum, l) => sum + l.qty, 0),
-  );
+  const count = useCartStore((s) => s.lines.reduce((sum, l) => sum + l.qty, 0));
   const display = hydrated ? count : 0;
   return (
     <span

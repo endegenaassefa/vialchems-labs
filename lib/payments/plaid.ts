@@ -15,20 +15,20 @@
  *   TRANSFER posted / settled / completed    → paid
  *   TRANSFER returned / failed / canceled    → failed
  */
-import crypto from 'node:crypto';
+import crypto from "node:crypto";
 import type {
   CreateIntentInput,
   PaymentIntent,
   PaymentProvider,
   PaymentStatus,
   WebhookResult,
-} from './types';
+} from "./types";
 
 const STUB_VALUES = new Set([
-  '',
-  'stub_plaid_client_id',
-  'stub_plaid_secret',
-  'stub_plaid_webhook_verification_key',
+  "",
+  "stub_plaid_client_id",
+  "stub_plaid_secret",
+  "stub_plaid_webhook_verification_key",
 ]);
 
 function isStub(value: string | undefined): boolean {
@@ -62,31 +62,31 @@ export function envIsConfigured(env: PlaidEnv): boolean {
 export function mapPlaidStatus(eventCode: string): PaymentStatus {
   const normalized = eventCode.toUpperCase();
   if (
-    normalized.includes('POSTED') ||
-    normalized.includes('SETTLED') ||
-    normalized.includes('COMPLETED') ||
-    normalized.includes('SUCCESS')
+    normalized.includes("POSTED") ||
+    normalized.includes("SETTLED") ||
+    normalized.includes("COMPLETED") ||
+    normalized.includes("SUCCESS")
   ) {
-    return 'paid';
+    return "paid";
   }
   if (
-    normalized.includes('RETURNED') ||
-    normalized.includes('FAILED') ||
-    normalized.includes('CANCELED') ||
-    normalized.includes('CANCELLED') ||
-    normalized.includes('REJECTED')
+    normalized.includes("RETURNED") ||
+    normalized.includes("FAILED") ||
+    normalized.includes("CANCELED") ||
+    normalized.includes("CANCELLED") ||
+    normalized.includes("REJECTED")
   ) {
-    return 'failed';
+    return "failed";
   }
   if (
-    normalized.includes('AUTH') ||
-    normalized.includes('VERIFIED') ||
-    normalized.includes('READY') ||
-    normalized.includes('PENDING_ADMIN_APPROVAL')
+    normalized.includes("AUTH") ||
+    normalized.includes("VERIFIED") ||
+    normalized.includes("READY") ||
+    normalized.includes("PENDING_ADMIN_APPROVAL")
   ) {
-    return 'authorized';
+    return "authorized";
   }
-  return 'pending';
+  return "pending";
 }
 
 export function verifyPlaidSignature(
@@ -95,18 +95,18 @@ export function verifyPlaidSignature(
   key: string,
 ): boolean {
   if (!signatureHeader || !key) return false;
-  const provided = signatureHeader.startsWith('sha256=')
-    ? signatureHeader.slice('sha256='.length)
+  const provided = signatureHeader.startsWith("sha256=")
+    ? signatureHeader.slice("sha256=".length)
     : signatureHeader;
   const expected = crypto
-    .createHmac('sha256', key)
+    .createHmac("sha256", key)
     .update(rawBody)
-    .digest('hex');
+    .digest("hex");
   if (provided.length !== expected.length) return false;
   try {
     return crypto.timingSafeEqual(
-      Buffer.from(provided, 'hex'),
-      Buffer.from(expected, 'hex'),
+      Buffer.from(provided, "hex"),
+      Buffer.from(expected, "hex"),
     );
   } catch {
     return false;
@@ -128,24 +128,23 @@ export function createPlaidAdapter(
     PLAID_CLIENT_ID: process.env.PLAID_CLIENT_ID,
     PLAID_SECRET: process.env.PLAID_SECRET,
     PLAID_ENV: process.env.PLAID_ENV,
-    PLAID_WEBHOOK_VERIFICATION_KEY:
-      process.env.PLAID_WEBHOOK_VERIFICATION_KEY,
+    PLAID_WEBHOOK_VERIFICATION_KEY: process.env.PLAID_WEBHOOK_VERIFICATION_KEY,
   };
 
   return {
-    id: 'plaid',
+    id: "plaid",
 
     async createIntent(input: CreateIntentInput): Promise<PaymentIntent> {
       void input; // Phase 10 wires Plaid Link + Transfer; signature pinned by PaymentProvider.
       if (!envIsConfigured(env)) {
         throw new Error(
-          'plaid_not_configured: PLAID_CLIENT_ID and PLAID_SECRET must be set to non-stub values.',
+          "plaid_not_configured: PLAID_CLIENT_ID and PLAID_SECRET must be set to non-stub values.",
         );
       }
       // Phase 9 scaffold: real Plaid Link token + Transfer flow lands when
       // ops wires the dashboard credentials.
       throw new Error(
-        'plaid_create_intent_not_implemented: scaffolded for Phase 10 wiring.',
+        "plaid_create_intent_not_implemented: scaffolded for Phase 10 wiring.",
       );
     },
 
@@ -160,38 +159,35 @@ export function createPlaidAdapter(
       payload: unknown,
       headers: Record<string, string>,
     ): Promise<WebhookResult> {
-      const key = env.PLAID_WEBHOOK_VERIFICATION_KEY ?? '';
+      const key = env.PLAID_WEBHOOK_VERIFICATION_KEY ?? "";
       const rawBody =
-        typeof payload === 'string' ? payload : JSON.stringify(payload ?? {});
+        typeof payload === "string" ? payload : JSON.stringify(payload ?? {});
       const sigHeader =
-        headers['plaid-verification'] ??
-        headers['Plaid-Verification'] ??
-        headers['x-plaid-signature'];
+        headers["plaid-verification"] ??
+        headers["Plaid-Verification"] ??
+        headers["x-plaid-signature"];
 
       const verified = verifyPlaidSignature(rawBody, sigHeader, key);
       if (!verified) {
-        return { intent: null, eventType: 'unverified', verified: false };
+        return { intent: null, eventType: "unverified", verified: false };
       }
 
       let parsed: PlaidWebhookPayload;
       try {
         parsed =
-          typeof payload === 'string'
+          typeof payload === "string"
             ? (JSON.parse(payload) as PlaidWebhookPayload)
             : ((payload ?? {}) as PlaidWebhookPayload);
       } catch {
-        return { intent: null, eventType: 'invalid_payload', verified: true };
+        return { intent: null, eventType: "invalid_payload", verified: true };
       }
 
-      const code = parsed.webhook_code ?? '';
-      const type = parsed.webhook_type ?? '';
-      const eventType = type ? `${type}:${code}` : code || 'unknown';
+      const code = parsed.webhook_code ?? "";
+      const type = parsed.webhook_type ?? "";
+      const eventType = type ? `${type}:${code}` : code || "unknown";
       const status = mapPlaidStatus(`${type}_${code}`);
       const intentId =
-        parsed.metadata?.intentId ??
-        parsed.transfer_id ??
-        parsed.item_id ??
-        '';
+        parsed.metadata?.intentId ?? parsed.transfer_id ?? parsed.item_id ?? "";
 
       if (!intentId) {
         return { intent: null, eventType, verified: true };
@@ -200,10 +196,10 @@ export function createPlaidAdapter(
       const ts = new Date().toISOString();
       const intent: PaymentIntent = {
         id: intentId,
-        provider: 'plaid',
-        method: 'ach',
+        provider: "plaid",
+        method: "ach",
         amountCents: 0, // populated by reconciliation against the order row
-        currency: 'USD',
+        currency: "USD",
         status,
         metadata: parsed.metadata ?? {},
         createdAt: ts,

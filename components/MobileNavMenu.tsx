@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 /**
  * MobileNavMenu — disclosure-style nav for narrow viewports.
@@ -11,10 +11,10 @@
  * no replacement, so mobile users had no way to reach Shop / Quality / COA /
  * Research / About / FAQ / Contact except via the footer.
  */
-import Link from 'next/link';
-import { useEffect, useState, useSyncExternalStore } from 'react';
-import { createPortal } from 'react-dom';
-import { Menu, X } from 'lucide-react';
+import Link from "next/link";
+import { useEffect, useState, useSyncExternalStore } from "react";
+import { createPortal } from "react-dom";
+import { Menu, X } from "lucide-react";
 
 interface MobileNavMenuProps {
   items: { href: string; label: string }[];
@@ -31,13 +31,13 @@ export function MobileNavMenu({ items }: MobileNavMenuProps) {
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') setOpen(false);
+      if (e.key === "Escape") setOpen(false);
     };
-    document.addEventListener('keydown', onKey);
-    document.body.style.overflow = 'hidden';
+    document.addEventListener("keydown", onKey);
+    document.body.style.overflow = "hidden";
     return () => {
-      document.removeEventListener('keydown', onKey);
-      document.body.style.overflow = '';
+      document.removeEventListener("keydown", onKey);
+      document.body.style.overflow = "";
     };
   }, [open]);
 
@@ -54,7 +54,8 @@ export function MobileNavMenu({ items }: MobileNavMenuProps) {
         <Menu size={18} aria-hidden="true" />
       </button>
 
-      {open && mounted &&
+      {open &&
+        mounted &&
         createPortal(
           <div
             id="mobile-nav-drawer"
@@ -80,7 +81,10 @@ export function MobileNavMenu({ items }: MobileNavMenuProps) {
                   <X size={18} aria-hidden="true" />
                 </button>
               </div>
-              <nav className="flex-1 overflow-y-auto px-6 py-4" aria-label="Mobile navigation">
+              <nav
+                className="flex-1 overflow-y-auto px-6 py-4"
+                aria-label="Mobile navigation"
+              >
                 <ul className="space-y-1">
                   {items.map((item) => (
                     <li key={item.href}>

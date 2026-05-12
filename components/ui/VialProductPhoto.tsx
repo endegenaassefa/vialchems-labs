@@ -6,9 +6,9 @@
  * visible lyophilized powder, black label, and floor reflection. The label is
  * original vialchemlabs artwork; no competitor raster asset is used.
  */
-import type { CSSProperties, HTMLAttributes } from 'react';
-import { cn } from '@/lib/utils';
-import { bundles, products } from '@/lib/content/products';
+import type { CSSProperties, HTMLAttributes } from "react";
+import { cn } from "@/lib/utils";
+import { bundles, products } from "@/lib/content/products";
 
 export interface VialProductPhotoProps extends HTMLAttributes<HTMLDivElement> {
   compound: string;
@@ -71,8 +71,8 @@ function MoleculeMark() {
 export function VialProductPhoto({
   compound,
   dose,
-  batch = '2026-01',
-  purityLabel = '99%+ PURITY',
+  batch = "2026-01",
+  purityLabel = "99%+ PURITY",
   className,
   style,
   ...rest
@@ -83,15 +83,15 @@ export function VialProductPhoto({
   return (
     <div
       className={cn(
-        'relative isolate flex min-h-[520px] w-full items-center justify-center overflow-hidden bg-[#030303]',
+        "relative isolate flex min-h-[520px] w-full items-center justify-center overflow-hidden bg-[#030303]",
         className,
       )}
       aria-label={`vialchemlabs ${compound} ${dose} batch ${batch} vial product photo`}
       {...rest}
       style={
         {
-          '--vial-photo-text-primary': '#f5f5f0',
-          '--vial-photo-text-secondary': '#e9e9e3',
+          "--vial-photo-text-primary": "#f5f5f0",
+          "--vial-photo-text-secondary": "#e9e9e3",
           ...style,
         } as CSSProperties
       }
@@ -140,10 +140,10 @@ export function VialProductPhoto({
               <div className="text-left">
                 <p
                   className={cn(
-                    'mb-[9%] font-semibold tracking-[0] text-[var(--vial-photo-text-primary)]',
+                    "mb-[9%] font-semibold tracking-[0] text-[var(--vial-photo-text-primary)]",
                     compactCompound
-                      ? 'text-[clamp(10px,1.08vw,15px)] leading-[1.04]'
-                      : 'whitespace-nowrap text-[clamp(14px,1.48vw,20px)] leading-none',
+                      ? "text-[clamp(10px,1.08vw,15px)] leading-[1.04]"
+                      : "whitespace-nowrap text-[clamp(14px,1.48vw,20px)] leading-none",
                   )}
                 >
                   {compound}

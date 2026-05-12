@@ -12,24 +12,25 @@ Take vialchemlabs from "structurally complete + compliance-mature, but commercia
 
 ## Tiers shipped
 
-| Tier | Title | Status |
-|---|---|---|
-| 3.1 | Hide Potemkin features from public nav (login/signup/account honest rewrites; Account → subtle "Sign in"; nav 7 → 5 items) | ✅ shipped |
-| 3.2 | Wire qualification flow into checkout review (PROTECTED PATH; SCANNER_OK) | ✅ shipped |
-| 3.3 | Wire WELCOME15 promo code at checkout (PROTECTED PATH; SCANNER_OK) | ✅ shipped |
-| 3.4 | Fix in-stock toggle placebo + reconcile discount math (15% canonical) | ✅ shipped |
-| 2.1 | Build trust primitives (ComparativeTable, ProcessFlow, NamedAttestation, LabPartnerStrip, TrustTicker) | ✅ shipped |
-| 2.2 | Apply primitives to home + test-reports + about | ✅ shipped |
-| 1.1 | New typography-only home hero (AI Design OS / BioCollex hybrid) | ✅ shipped |
-| 1.2 | Add full-width COA emphasis section ("Purity Standard / Third-party verified / Every single batch") | ✅ shipped |
-| 1.3 | Vary heroes on shop / coa / faq / contact / blog / affiliate / test-reports | ✅ shipped (7 of 9) |
-| 1.4 | Increase section padding sitewide (py-32/40) on hero sections | ✅ shipped |
-| 5.1 | Collapse 7-item nav to 5 + remove placeholder DOIs from blog citations | ✅ shipped |
-| 4.x | Strategic / corpus reconciliation (brand_pick.md, source_terms.md, Slice 3 B1, real COA PDFs) | ⏸ operator side, out of v4 site-code scope |
+| Tier | Title                                                                                                                      | Status                                     |
+| ---- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| 3.1  | Hide Potemkin features from public nav (login/signup/account honest rewrites; Account → subtle "Sign in"; nav 7 → 5 items) | ✅ shipped                                 |
+| 3.2  | Wire qualification flow into checkout review (PROTECTED PATH; SCANNER_OK)                                                  | ✅ shipped                                 |
+| 3.3  | Wire WELCOME15 promo code at checkout (PROTECTED PATH; SCANNER_OK)                                                         | ✅ shipped                                 |
+| 3.4  | Fix in-stock toggle placebo + reconcile discount math (15% canonical)                                                      | ✅ shipped                                 |
+| 2.1  | Build trust primitives (ComparativeTable, ProcessFlow, NamedAttestation, LabPartnerStrip, TrustTicker)                     | ✅ shipped                                 |
+| 2.2  | Apply primitives to home + test-reports + about                                                                            | ✅ shipped                                 |
+| 1.1  | New typography-only home hero (AI Design OS / BioCollex hybrid)                                                            | ✅ shipped                                 |
+| 1.2  | Add full-width COA emphasis section ("Purity Standard / Third-party verified / Every single batch")                        | ✅ shipped                                 |
+| 1.3  | Vary heroes on shop / coa / faq / contact / blog / affiliate / test-reports                                                | ✅ shipped (7 of 9)                        |
+| 1.4  | Increase section padding sitewide (py-32/40) on hero sections                                                              | ✅ shipped                                 |
+| 5.1  | Collapse 7-item nav to 5 + remove placeholder DOIs from blog citations                                                     | ✅ shipped                                 |
+| 4.x  | Strategic / corpus reconciliation (brand_pick.md, source_terms.md, Slice 3 B1, real COA PDFs)                              | ⏸ operator side, out of v4 site-code scope |
 
 ## Files touched (28 total)
 
 **New components (5):**
+
 - `components/ui/ComparativeTable.tsx`
 - `components/ui/ProcessFlow.tsx`
 - `components/ui/NamedAttestation.tsx`
@@ -37,6 +38,7 @@ Take vialchemlabs from "structurally complete + compliance-mature, but commercia
 - `components/ui/TrustTicker.tsx`
 
 **New tests (5):**
+
 - `tests/unit/components/ComparativeTable.test.tsx` (5 tests)
 - `tests/unit/components/ProcessFlow.test.tsx` (5 tests)
 - `tests/unit/components/NamedAttestation.test.tsx` (4 tests)
@@ -44,9 +46,11 @@ Take vialchemlabs from "structurally complete + compliance-mature, but commercia
 - `tests/unit/components/TrustTicker.test.tsx` (4 tests)
 
 **Layout / nav:**
+
 - `components/SiteHeader.tsx` (nav 7 → 5; Account → Sign in)
 
 **Marketing pages rewritten / heroes varied (10):**
+
 - `app/page.tsx` (full home redesign)
 - `app/test-reports/page.tsx` (full rewrite — replaces 3-col SaaS grid anti-pattern with ComparativeTable + ProcessFlow + LabPartnerStrip)
 - `app/shop/page.tsx` (hero: stat-display)
@@ -59,20 +63,25 @@ Take vialchemlabs from "structurally complete + compliance-mature, but commercia
 - `app/shop/ShopCatalog.tsx` (placebo in-stock toggle removed)
 
 **Pre-launch honesty (3):**
+
 - `app/login/page.tsx` (fake form → notify-me)
 - `app/signup/page.tsx` (fake form → notify-me)
 - `app/account/page.tsx` (welcome-back stub → honest pre-launch + 3 public-link tiles + notify-me)
 
 **Protected path commits (1; SCANNER_OK):**
+
 - `app/checkout/review/ReviewPanel.tsx` (qualification flow wired inline + WELCOME15 promo wired + discount math reconciled to 15%)
 
 **Tokens / CSS:**
+
 - `app/globals.css` (added `@keyframes trust-ticker` + `.animate-trust-ticker` + `.py-hero` / `.py-grand` utilities)
 
 **Content cleanup:**
+
 - `lib/content/blog.ts` (placeholder DOI strings stripped via sed; 30+ citations cleaned)
 
 **Versioning:**
+
 - `package.json` (1.1.0 → 1.2.0)
 - `CHANGELOG.md` ([1.2.0] entry)
 

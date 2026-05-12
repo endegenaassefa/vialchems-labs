@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 /**
  * Contact form. Posts to /api/contact (stub route — JSON ok).
@@ -9,47 +9,47 @@
  * Form submission is intentionally minimal — we render an in-page success
  * message rather than navigating away. No user-facing PII is logged client-side.
  */
-import Link from 'next/link';
-import { useState, type FormEvent } from 'react';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { FieldLabel } from '@/components/ui/FieldLabel';
-import { Input } from '@/components/ui/Input';
-import { Button } from '@/components/ui/Button';
-import { Card } from '@/components/ui/Card';
-import { Toast } from '@/components/ui/Toast';
+import Link from "next/link";
+import { useState, type FormEvent } from "react";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { FieldLabel } from "@/components/ui/FieldLabel";
+import { Input } from "@/components/ui/Input";
+import { Button } from "@/components/ui/Button";
+import { Card } from "@/components/ui/Card";
+import { Toast } from "@/components/ui/Toast";
 
-type Status = 'idle' | 'submitting' | 'ok' | 'error';
+type Status = "idle" | "submitting" | "ok" | "error";
 
 export default function ContactPage() {
-  const [status, setStatus] = useState<Status>('idle');
+  const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setStatus('submitting');
+    setStatus("submitting");
     setErrorMsg(null);
     const form = e.currentTarget;
     const data = new FormData(form);
     const payload = {
-      name: String(data.get('name') ?? ''),
-      email: String(data.get('email') ?? ''),
-      message: String(data.get('message') ?? ''),
+      name: String(data.get("name") ?? ""),
+      email: String(data.get("email") ?? ""),
+      message: String(data.get("message") ?? ""),
     };
     try {
-      const res = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
       if (!res.ok) {
         throw new Error(`Request failed (${res.status})`);
       }
       form.reset();
-      setStatus('ok');
+      setStatus("ok");
     } catch (err) {
-      setStatus('error');
-      setErrorMsg(err instanceof Error ? err.message : 'Unknown error');
+      setStatus("error");
+      setErrorMsg(err instanceof Error ? err.message : "Unknown error");
     }
   }
 
@@ -74,7 +74,7 @@ export default function ContactPage() {
                   Email
                 </p>
                 <p className="font-mono text-[16px] text-[var(--accent)]">
-                  research@vialchemlabs.com
+                  research@vialchemlabs.net
                 </p>
               </div>
               <div className="bg-[var(--surface)] px-6 py-6">
@@ -87,8 +87,13 @@ export default function ContactPage() {
               </div>
             </div>
             <p className="text-[16px] leading-[1.55] text-[var(--text-muted)] max-w-2xl">
-              For Certificate of Analysis records, the public library is at{' '}
-              <Link href="/coa" className="text-[var(--accent)] hover:text-[var(--accent-soft)]">/coa</Link>{' '}
+              For Certificate of Analysis records, the public library is at{" "}
+              <Link
+                href="/coa"
+                className="text-[var(--accent)] hover:text-[var(--accent-soft)]"
+              >
+                /coa
+              </Link>{" "}
               — no contact form needed.
             </p>
           </div>
@@ -96,14 +101,17 @@ export default function ContactPage() {
 
         <section>
           <div className="mx-auto max-w-3xl px-6 py-16">
-            <Card variant="elevated" className="mb-10 px-6 py-5 text-[14px] text-[var(--text-muted)] leading-[1.6]">
+            <Card
+              variant="elevated"
+              className="mb-10 px-6 py-5 text-[14px] text-[var(--text-muted)] leading-[1.6]"
+            >
               <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-2">
                 Scope
               </p>
               <p>
-                We do not respond to dosing questions per Iron Law 2.4. Dosing for
-                laboratory experimental design is at the discretion of the qualified
-                researcher per their study protocol.
+                We do not respond to dosing questions per Iron Law 2.4. Dosing
+                for laboratory experimental design is at the discretion of the
+                qualified researcher per their study protocol.
               </p>
             </Card>
 
@@ -175,30 +183,30 @@ export default function ContactPage() {
                   type="submit"
                   variant="primary"
                   size="lg"
-                  disabled={status === 'submitting'}
+                  disabled={status === "submitting"}
                 >
-                  {status === 'submitting' ? 'Sending…' : 'Send message'}
+                  {status === "submitting" ? "Sending…" : "Send message"}
                 </Button>
               </div>
 
-              {status === 'ok' ? (
+              {status === "ok" ? (
                 <Toast
                   message="Message logged. The team will respond within one business day."
                   tone="success"
                   duration={6000}
-                  onDismiss={() => setStatus('idle')}
+                  onDismiss={() => setStatus("idle")}
                 />
               ) : null}
-              {status === 'error' ? (
+              {status === "error" ? (
                 <Toast
                   message={
                     errorMsg
-                      ? `Submission could not be transmitted: ${errorMsg}. Please retry, or email research@vialchemlabs.com.`
-                      : 'Submission could not be transmitted. Please retry, or email research@vialchemlabs.com.'
+                      ? `Submission could not be transmitted: ${errorMsg}. Please retry, or email research@vialchemlabs.net.`
+                      : "Submission could not be transmitted. Please retry, or email research@vialchemlabs.net."
                   }
                   tone="error"
                   duration={0}
-                  onDismiss={() => setStatus('idle')}
+                  onDismiss={() => setStatus("idle")}
                 />
               ) : null}
             </form>

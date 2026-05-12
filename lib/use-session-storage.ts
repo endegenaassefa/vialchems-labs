@@ -10,17 +10,17 @@
  *
  * Phase 9 will replace this with Supabase-backed reads.
  */
-'use client';
+"use client";
 
-import { useSyncExternalStore } from 'react';
+import { useSyncExternalStore } from "react";
 
 function subscribe(callback: () => void): () => void {
-  if (typeof window === 'undefined') {
+  if (typeof window === "undefined") {
     return () => undefined;
   }
   const handler = () => callback();
-  window.addEventListener('storage', handler);
-  return () => window.removeEventListener('storage', handler);
+  window.addEventListener("storage", handler);
+  return () => window.removeEventListener("storage", handler);
 }
 
 function getServerSnapshot(): string | null {
@@ -28,7 +28,7 @@ function getServerSnapshot(): string | null {
 }
 
 function readKey(key: string): string | null {
-  if (typeof window === 'undefined') return null;
+  if (typeof window === "undefined") return null;
   try {
     return window.sessionStorage.getItem(key);
   } catch {
@@ -55,9 +55,5 @@ export function useSessionStorageItem<T>(key: string): T | null {
  * Use for primitive string flags such as the payment-method radio choice.
  */
 export function useSessionStorageString(key: string): string | null {
-  return useSyncExternalStore(
-    subscribe,
-    () => readKey(key),
-    getServerSnapshot,
-  );
+  return useSyncExternalStore(subscribe, () => readKey(key), getServerSnapshot);
 }

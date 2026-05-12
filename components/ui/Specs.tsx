@@ -10,8 +10,8 @@
  * The `term` is mono and muted; the `value` is mono and full-text. Values may
  * be arbitrary ReactNodes (e.g., a COA <a> link).
  */
-import type { HTMLAttributes, ReactNode, Ref } from 'react';
-import { cn } from '@/lib/utils';
+import type { HTMLAttributes, ReactNode, Ref } from "react";
+import { cn } from "@/lib/utils";
 
 export interface SpecsItem {
   term: string;
@@ -37,34 +37,30 @@ export function Specs({
   ...rest
 }: SpecsProps) {
   return (
-    <dl
-      ref={ref}
-      className={cn('w-full', className)}
-      {...rest}
-    >
+    <dl ref={ref} className={cn("w-full", className)} {...rest}>
       {items.map((item, index) => (
         <div
           key={`${item.term}-${index}`}
           className={cn(
-            'flex items-baseline justify-between gap-4',
-            dense ? 'py-1' : 'py-2',
-            'border-b border-dotted border-[var(--border)]',
+            "flex items-baseline justify-between gap-4",
+            dense ? "py-1" : "py-2",
+            "border-b border-dotted border-[var(--border)]",
             // last row drops the divider so the list does not look unfinished
-            'last:border-b-0',
+            "last:border-b-0",
           )}
         >
           <dt
             className={cn(
-              'font-mono uppercase tracking-[0.12em] text-[var(--text-muted)]',
-              dense ? 'text-[11px]' : 'text-[12px]',
+              "font-mono uppercase tracking-[0.12em] text-[var(--text-muted)]",
+              dense ? "text-[11px]" : "text-[12px]",
             )}
           >
             {item.term}
           </dt>
           <dd
             className={cn(
-              'font-mono text-[var(--text)] tabular-nums text-right',
-              dense ? 'text-[13px]' : 'text-[14px]',
+              "font-mono text-[var(--text)] tabular-nums text-right",
+              dense ? "text-[13px]" : "text-[14px]",
             )}
           >
             {item.value}

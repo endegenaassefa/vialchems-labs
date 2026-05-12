@@ -6,26 +6,28 @@
  * shipped with the COA." tagline).
  */
 
-const brandDomain = process.env.BRAND_DOMAIN ?? 'vialchemlabs.com';
+const brandDomain = process.env.BRAND_DOMAIN ?? "vialchemlabs.net";
 const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? process.env.SITE_URL ?? `https://${brandDomain}`;
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  process.env.SITE_URL ??
+  `https://${brandDomain}`;
 
 export const siteConfig = {
-  name: 'vialchemlabs',
-  brandStem: 'vialchemlabs',
+  name: "vialchemlabs",
+  brandStem: "vialchemlabs",
   domain: brandDomain,
   url: siteUrl,
   description:
-    'vialchemlabs ships research-grade peptides with the Certificate of Analysis for every vial. For verified laboratories and qualified research organizations only.',
-  tagline: 'Research-grade peptides, shipped with the COA.',
-  posture: 'A' as const,
+    "vialchemlabs ships research-grade peptides with the Certificate of Analysis for every vial. For verified laboratories and qualified research organizations only.",
+  tagline: "Research-grade peptides, shipped with the COA.",
+  posture: "A" as const,
   // Public legal identity appears in client-rendered pages, so these must use
   // public env keys to keep SSR and hydration output identical.
-  llcName: process.env.NEXT_PUBLIC_LLC_NAME ?? 'vialchemlabs LLC',
-  llcJurisdiction: process.env.NEXT_PUBLIC_LLC_JURISDICTION ?? 'Wyoming',
+  llcName: process.env.NEXT_PUBLIC_LLC_NAME ?? "vialchemlabs LLC",
+  llcJurisdiction: process.env.NEXT_PUBLIC_LLC_JURISDICTION ?? "Wyoming",
   email: {
     from: process.env.ORDER_EMAIL_FROM ?? `research@${brandDomain}`,
-    staff: (process.env.ORDER_STAFF_EMAILS ?? `ops@${brandDomain}`).split(','),
+    staff: (process.env.ORDER_STAFF_EMAILS ?? `ops@${brandDomain}`).split(","),
   },
   /* v1.3 — operator override per Iron Law 2.26: previously defaulted to a
    * specific named partner ("Janoshik Analytical"). Operator chose to remove
@@ -35,9 +37,10 @@ export const siteConfig = {
    * partner is operator-side / private. To re-enable a named partner in the
    * future, set LAB_PARTNER_NAME + LAB_PARTNER_PORTAL_URL env vars. */
   labPartner: {
-    name: process.env.LAB_PARTNER_NAME ?? 'an independent third-party laboratory',
+    name:
+      process.env.LAB_PARTNER_NAME ?? "an independent third-party laboratory",
     /** Short form for inline references where the long phrase is awkward. */
-    shortName: process.env.LAB_PARTNER_SHORT_NAME ?? 'Independent Lab',
+    shortName: process.env.LAB_PARTNER_SHORT_NAME ?? "Independent Lab",
     portalUrl: process.env.LAB_PARTNER_PORTAL_URL ?? null,
   },
   shipping: {

@@ -8,11 +8,10 @@
  *    on the input itself is the source of truth for assistive tech.
  *  - Pair with an Input that has a matching `id`.
  */
-import type { LabelHTMLAttributes, ReactNode, Ref } from 'react';
-import { cn } from '@/lib/utils';
+import type { LabelHTMLAttributes, ReactNode, Ref } from "react";
+import { cn } from "@/lib/utils";
 
-export interface FieldLabelProps
-  extends LabelHTMLAttributes<HTMLLabelElement> {
+export interface FieldLabelProps extends LabelHTMLAttributes<HTMLLabelElement> {
   required?: boolean;
   children: ReactNode;
   ref?: Ref<HTMLLabelElement>;
@@ -29,10 +28,10 @@ export function FieldLabel({
     <label
       ref={ref}
       className={cn(
-        'inline-flex items-center gap-1',
-        'font-mono uppercase',
-        'text-[11px] tracking-[0.12em]',
-        'text-[var(--text-muted)]',
+        "inline-flex items-center gap-1",
+        "font-mono uppercase",
+        "text-[11px] tracking-[0.12em]",
+        "text-[var(--text-muted)]",
         className,
       )}
       {...rest}

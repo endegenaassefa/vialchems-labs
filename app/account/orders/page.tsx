@@ -4,13 +4,13 @@
  * Phase 5 stub. Currently renders empty-state copy unless a recent stub order
  * is visible in sessionStorage (handled client-side).
  */
-import type { Metadata } from 'next';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { OrdersList } from './OrdersList';
+import type { Metadata } from "next";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { OrdersList } from "./OrdersList";
 
 export const metadata: Metadata = {
-  title: 'Account — Orders',
+  title: "Account — Orders",
 };
 
 export default function AccountOrdersPage() {

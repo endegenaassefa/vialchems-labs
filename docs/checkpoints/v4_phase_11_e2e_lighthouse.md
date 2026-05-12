@@ -16,12 +16,12 @@ production deploy.
 
 ## Commits (Iron Law 2.15 protocol)
 
-| Commit | Type | Scope |
-|---|---|---|
-| c521801 | chore | install jose for ES256 verification |
+| Commit  | Type       | Scope                                                       |
+| ------- | ---------- | ----------------------------------------------------------- |
+| c521801 | chore      | install jose for ES256 verification                         |
 | 6f97aa3 | test (RED) | ES256 success/tamper paths + textSubtle alpha-bump baseline |
-| (GREEN) | feat | E2E unskip + ES256 + visual baseline + CI gates |
-| (this) | docs | Phase 11 checkpoint |
+| (GREEN) | feat       | E2E unskip + ES256 + visual baseline + CI gates             |
+| (this)  | docs       | Phase 11 checkpoint                                         |
 
 ## Subphase ledger
 
@@ -33,6 +33,7 @@ signature verification via `jose`'s `importJWK` + `jwtVerify`. The
 truly authoritative.
 
 The verification chain (in order):
+
 1. Header + payload + signature segment parse
 2. Header `kid` extraction
 3. JWKS lookup via injected `jwksFetcher(kid)`
@@ -42,6 +43,7 @@ The verification chain (in order):
    allowlist (no algorithm-confusion vector)
 
 10 unit tests cover the chain. Two new ones added in this phase:
+
 - success: real ES256-signed JWT verifies green
 - tamper: signature byte-flip flips `signature_invalid`
 
@@ -51,6 +53,7 @@ posture confirmed by self-cso.
 ### 11.2 — Playwright unskip (closes D16 + D24)
 
 Three E2E specs unskipped:
+
 - `tests/e2e/a11y.spec.ts` (axe-core × 18 static routes + reduced-motion + keyboard tab) → 20 passed
 - `tests/e2e/checkout-ach.spec.ts` (PDP → cart → /checkout/address → /checkout/method ACH 5%) → 1 passed
 - `tests/e2e/checkout-crypto.spec.ts` (PDP → /checkout/method crypto 15%) → 1 passed
@@ -76,6 +79,7 @@ surfaces, which scores **4.06:1** on `--surface` (#141a1c) and
 WCAG AA body-text floor.
 
 Fix: bump alpha to **0.55**.
+
 - 0.55 over `--bg #0a0e0f` → ≈ #8a8e90 → 4.97:1 ✓
 - 0.55 over `--surface #141a1c` → ≈ #93969a → 5.04:1 ✓
 - 0.55 over `--surface-elevated #202a2e` → ≈ #989a9d → 4.59:1 ✓
@@ -95,6 +99,7 @@ After the fix, all 18 axe-on-route tests pass; 20/20 total a11y E2E.
 `tests/e2e/visual-regression.spec.ts-snapshots/`.
 
 Routes covered (38):
+
 - 14 static (home + shop + coa + about + blog + faq + contact +
   affiliate + test-reports + cart + login + signup + newsletter/thanks +
   5 legal)
@@ -111,6 +116,7 @@ note about "capture both for future-proof" is deferred to a Phase 12+
 expansion if a light-mode toggle is ever opened.
 
 Stability tweaks:
+
 - Cookie consent cookie pre-set per-test so the banner doesn't render
 - `reduced-motion: reduce` emulated so animations are disabled
 - `waitUntil: 'networkidle'` to settle dynamic OG image generation
@@ -122,17 +128,17 @@ since git LFS isn't yet provisioned; can migrate later).
 
 `lighthouserc.cjs` sets the assertion thresholds per Iron Law 2.27:
 
-| Category / metric | Threshold |
-|---|---|
-| Performance | ≥ 0.90 |
-| Accessibility | ≥ 0.95 |
-| Best Practices | ≥ 0.95 |
-| SEO | ≥ 0.95 |
-| FCP | < 1800 ms |
-| LCP | < 2500 ms |
-| CLS | < 0.1 |
-| TBT (proxy for INP) | < 200 ms |
-| TTFB | < 800 ms |
+| Category / metric   | Threshold |
+| ------------------- | --------- |
+| Performance         | ≥ 0.90    |
+| Accessibility       | ≥ 0.95    |
+| Best Practices      | ≥ 0.95    |
+| SEO                 | ≥ 0.95    |
+| FCP                 | < 1800 ms |
+| LCP                 | < 2500 ms |
+| CLS                 | < 0.1     |
+| TBT (proxy for INP) | < 200 ms  |
+| TTFB                | < 800 ms  |
 
 Coverage: 10 representative URLs (home, shop, PDP, bundle PDP, COA,
 blog, blog post, FAQ, about, cart). Phase 12+ can expand.
@@ -153,6 +159,7 @@ breaks.
 via `npx playwright install --with-deps chromium`, builds production,
 and runs the full `npx playwright test` (a11y + checkouts + visual
 regression). On failure, uploads:
+
 - `playwright-report` HTML report (7-day retention)
 - `visual-regression-diffs` artifact with `*-diff.png` /
   `*-actual.png` / `*-expected.png` (30-day retention)
@@ -174,6 +181,7 @@ Total Vitest unit tests: **457 passed (42 files)** — was 455 (+2 for
 ES256 success/tamper).
 
 Total Playwright E2E test cases: **136**:
+
 - a11y: 20 (18 axe routes + keyboard + reduced-motion)
 - checkout-ach: 1
 - checkout-crypto: 1
@@ -183,29 +191,29 @@ Snapshot files committed: **114**.
 
 ## Iron Laws verified
 
-| # | Iron Law | Phase 11 evidence |
-|---|---|---|
-| 2.1 | TDD | RED→GREEN cycle for ES256 + textSubtle bump |
-| 2.2 | Verification before completion | 457/457 unit + 136 E2E + npm build + preflight all re-run |
-| 2.5 / 2.19 | Protected paths review + cso | SCANNER_OK on the GREEN commit body lists every protected file touched + records self-review + self-cso |
-| 2.7 | Catalog whitelist | products.ts untouched |
-| 2.16 | Pre-commit supply-chain scanner | Hooks ran on every commit; 0 violations |
-| 2.18 | Reduced-motion non-negotiable + visual baseline | E2E asserts the @media rule via getComputedStyle; baseline captured under reduced-motion |
-| 2.21 | Tokens additive (interpretation note) | textSubtle alpha bump is value-tightening for a11y, not a rename. Regression test updated alongside. |
-| 2.24 | No `.skip(true) / .only(` in CI E2E | CI grep guard fails the build on any hit |
-| 2.25 | Visual diffs require operator approval | PR-comment-on-failure + artifact upload wired |
-| 2.26 | Brand expression LOCKED | --bg / --accent / typography stack untouched; textSubtle bump is a refinement, not an override |
-| 2.27 | Lighthouse CI gate | `.github/workflows/lighthouse.yml` PR-blocking with 90/95/95/95 + Core Web Vitals thresholds |
+| #          | Iron Law                                        | Phase 11 evidence                                                                                       |
+| ---------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| 2.1        | TDD                                             | RED→GREEN cycle for ES256 + textSubtle bump                                                             |
+| 2.2        | Verification before completion                  | 457/457 unit + 136 E2E + npm build + preflight all re-run                                               |
+| 2.5 / 2.19 | Protected paths review + cso                    | SCANNER_OK on the GREEN commit body lists every protected file touched + records self-review + self-cso |
+| 2.7        | Catalog whitelist                               | products.ts untouched                                                                                   |
+| 2.16       | Pre-commit supply-chain scanner                 | Hooks ran on every commit; 0 violations                                                                 |
+| 2.18       | Reduced-motion non-negotiable + visual baseline | E2E asserts the @media rule via getComputedStyle; baseline captured under reduced-motion                |
+| 2.21       | Tokens additive (interpretation note)           | textSubtle alpha bump is value-tightening for a11y, not a rename. Regression test updated alongside.    |
+| 2.24       | No `.skip(true) / .only(` in CI E2E             | CI grep guard fails the build on any hit                                                                |
+| 2.25       | Visual diffs require operator approval          | PR-comment-on-failure + artifact upload wired                                                           |
+| 2.26       | Brand expression LOCKED                         | --bg / --accent / typography stack untouched; textSubtle bump is a refinement, not an override          |
+| 2.27       | Lighthouse CI gate                              | `.github/workflows/lighthouse.yml` PR-blocking with 90/95/95/95 + Core Web Vitals thresholds            |
 
 ## Verbatim copy regrep (Iron Law 2.4 / 2.13)
 
-| Pattern | File | Hits | Expected |
-|---|---|---|---|
-| `21+ years of age` | `app/checkout/review/ReviewPanel.tsx` | 1 | 1 |
-| `research use only (RUO)` | `app/checkout/review/ReviewPanel.tsx` | 1 | 1 |
-| `qualified researcher acquiring` | `lib/customer-qualification.ts` | 1 | 1 |
-| `For research use only. Not for human or veterinary use` | `app/products/[slug]/page.tsx` | 2 | 2 |
-| `are not for human consumption` | `components/SiteFooter.tsx` | 1 | 1 |
+| Pattern                                                  | File                                  | Hits | Expected |
+| -------------------------------------------------------- | ------------------------------------- | ---- | -------- |
+| `21+ years of age`                                       | `app/checkout/review/ReviewPanel.tsx` | 1    | 1        |
+| `research use only (RUO)`                                | `app/checkout/review/ReviewPanel.tsx` | 1    | 1        |
+| `qualified researcher acquiring`                         | `lib/customer-qualification.ts`       | 1    | 1        |
+| `For research use only. Not for human or veterinary use` | `app/products/[slug]/page.tsx`        | 2    | 2        |
+| `are not for human consumption`                          | `components/SiteFooter.tsx`           | 1    | 1        |
 
 ## Open notes for downstream phases
 

@@ -48,90 +48,90 @@ flagged as common knowledge.
 
 ### 2.1 Design-language / -discipline skills (Claude Code)
 
-| Name | Category | Link | Status | One-line purpose |
-|---|---|---|---|---|
-| **impeccable** | Design skill (slash commands) | github.com/pbakaus/impeccable | Active · 26.7k★ · Apache 2.0 · v3.0.7 (2026-05-04) | 23 slash commands (`/audit`, `/polish`, `/bolder`, etc.) that teach Claude design vocabulary and 27 anti-pattern rules. |
-| **anthropics/skills · frontend-design** | Design skill | github.com/anthropics/skills | Active · official | "Create distinctive, production-grade frontend interfaces with high design quality." 10 principles from design thinking through motion. |
-| **manalkaff/opendesign** | Claude Design CLI port | github.com/manalkaff/opendesign | Active · 38★ · MIT · v0.3.1 | 10 commands (`/opendesign`, `/wireframe`, `/interactive-prototype`, `/make-a-deck`, `/make-tweakable`). Outputs HTML, runs local preview on :8289. |
-| **alchaincyf/huashu-design** | Claude Design extraction | github.com/alchaincyf/huashu-design | Active · 13k★ · paid commercial | Generates prototypes / decks / MP4 animations / radar critiques. **Commercial use requires ~$1,800/yr or $3,500 perpetual.** Personal-only otherwise. |
-| **nextlevelbuilder/ui-ux-pro-max-skill** | UI/UX skill | github.com/nextlevelbuilder/ui-ux-pro-max-skill | Active · claimed 76.4k★ · MIT · v2.5.0 | 67 styles, 161 palettes, 57 font pairings, 99 UX guidelines, 25 chart types. Heavy. |
-| **typeui.sh** | Design skill registry + CLI | typeui.sh | Active · freemium ($30/mo pro) | 67 design skills + 85 UI prompts. CLI: `npx typeui.sh pull <theme>`. |
-| **ryanthedev/design-for-ai** | Design skill (book-based) | github.com/ryanthedev/design-for-ai | Active · 156★ · MIT | Based on *Design for Hackers* (Kadavy). CHECKER (audits) + APPLIER (phased builds). |
-| **davila7/claude-code-templates** | Skills/agent registry | github.com/davila7/claude-code-templates · aitmpl.com | Active · 27.1k★ · MIT | Broad collection. No `senior-frontend` agent visible in the agents folder despite Reddit mention. |
-| **Anthropic Claude Design (web)** | Hosted | claude.ai/design | Active · web-only | The original; opendesign + huashu are CLI ports. |
+| Name                                     | Category                      | Link                                                  | Status                                             | One-line purpose                                                                                                                                      |
+| ---------------------------------------- | ----------------------------- | ----------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **impeccable**                           | Design skill (slash commands) | github.com/pbakaus/impeccable                         | Active · 26.7k★ · Apache 2.0 · v3.0.7 (2026-05-04) | 23 slash commands (`/audit`, `/polish`, `/bolder`, etc.) that teach Claude design vocabulary and 27 anti-pattern rules.                               |
+| **anthropics/skills · frontend-design**  | Design skill                  | github.com/anthropics/skills                          | Active · official                                  | "Create distinctive, production-grade frontend interfaces with high design quality." 10 principles from design thinking through motion.               |
+| **manalkaff/opendesign**                 | Claude Design CLI port        | github.com/manalkaff/opendesign                       | Active · 38★ · MIT · v0.3.1                        | 10 commands (`/opendesign`, `/wireframe`, `/interactive-prototype`, `/make-a-deck`, `/make-tweakable`). Outputs HTML, runs local preview on :8289.    |
+| **alchaincyf/huashu-design**             | Claude Design extraction      | github.com/alchaincyf/huashu-design                   | Active · 13k★ · paid commercial                    | Generates prototypes / decks / MP4 animations / radar critiques. **Commercial use requires ~$1,800/yr or $3,500 perpetual.** Personal-only otherwise. |
+| **nextlevelbuilder/ui-ux-pro-max-skill** | UI/UX skill                   | github.com/nextlevelbuilder/ui-ux-pro-max-skill       | Active · claimed 76.4k★ · MIT · v2.5.0             | 67 styles, 161 palettes, 57 font pairings, 99 UX guidelines, 25 chart types. Heavy.                                                                   |
+| **typeui.sh**                            | Design skill registry + CLI   | typeui.sh                                             | Active · freemium ($30/mo pro)                     | 67 design skills + 85 UI prompts. CLI: `npx typeui.sh pull <theme>`.                                                                                  |
+| **ryanthedev/design-for-ai**             | Design skill (book-based)     | github.com/ryanthedev/design-for-ai                   | Active · 156★ · MIT                                | Based on _Design for Hackers_ (Kadavy). CHECKER (audits) + APPLIER (phased builds).                                                                   |
+| **davila7/claude-code-templates**        | Skills/agent registry         | github.com/davila7/claude-code-templates · aitmpl.com | Active · 27.1k★ · MIT                              | Broad collection. No `senior-frontend` agent visible in the agents folder despite Reddit mention.                                                     |
+| **Anthropic Claude Design (web)**        | Hosted                        | claude.ai/design                                      | Active · web-only                                  | The original; opendesign + huashu are CLI ports.                                                                                                      |
 
 ### 2.2 DESIGN.md scaffolding (drop-in brand systems)
 
-| Name | Brands | Link | Status | Notes |
-|---|---|---|---|---|
-| **Khalidabdi1/design-ai** | 116 brands incl. Stripe, Linear, Vercel, Apple, Notion, Anthropic | github.com/Khalidabdi1/design-ai | Active · 126★ · MIT | Drop a `DESIGN.md` into project root; Claude builds UI that matches the target system. |
-| **VoltAgent/awesome-claude-design** | 68 brands incl. Cursor, Vercel, Warp, Linear, Anthropic, ElevenLabs | github.com/VoltAgent/awesome-claude-design | Active · MIT | Curated; pairs with Claude Design web. Tagline: "Keep token, rule, and rationale in the same file." |
-| **"Awesome Design MD" (synthesis paragraph)** | 50+ brands | — | Ambiguous (likely refers to VoltAgent or design-ai above) | Operator-pasted summary; no unique repo confirmed. |
+| Name                                          | Brands                                                              | Link                                       | Status                                                    | Notes                                                                                               |
+| --------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------ | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **Khalidabdi1/design-ai**                     | 116 brands incl. Stripe, Linear, Vercel, Apple, Notion, Anthropic   | github.com/Khalidabdi1/design-ai           | Active · 126★ · MIT                                       | Drop a `DESIGN.md` into project root; Claude builds UI that matches the target system.              |
+| **VoltAgent/awesome-claude-design**           | 68 brands incl. Cursor, Vercel, Warp, Linear, Anthropic, ElevenLabs | github.com/VoltAgent/awesome-claude-design | Active · MIT                                              | Curated; pairs with Claude Design web. Tagline: "Keep token, rule, and rationale in the same file." |
+| **"Awesome Design MD" (synthesis paragraph)** | 50+ brands                                                          | —                                          | Ambiguous (likely refers to VoltAgent or design-ai above) | Operator-pasted summary; no unique repo confirmed.                                                  |
 
 ### 2.3 UI generation / mockup tools (external)
 
-| Name | Output | Link | Pricing | Notes |
-|---|---|---|---|---|
-| **Google Stitch** | Design mockups (DESIGN.md + screenshots) | stitch.withgoogle.com | Free preview | Most-mentioned in pasted material. Page content too light to verify export formats. |
-| **v0 by Vercel** | React + Tailwind components | v0.app | Freemium | Production-ready React output. Pairs with shadcn. |
-| **Figma Make** | Figma frames | figma.com/make | Figma plan-gated | UI generation inside Figma. |
-| **Magic Patterns** | Component-level code | magicpatterns.com | Freemium | "Actual component-level output you can ship." |
-| **Mowgli AI** | High-fidelity UI + React/Tailwind export + AI bundle for Claude/Cursor | mowgli.ai | Freemium | "AI design canvas that deeply understands your product." Spec-driven. |
-| **Lovable / Bolt / Base44 / Tweakcn / Durable / Gamma** | Full-app builders | — | Various | App-builder tier, not just mockups. |
-| **Uizard / Relume / Moonchild.ai** | Mockups + wireframes | — | Various | Wireframe-first workflow. |
-| **Cursor visual editor** | In-IDE UI nudges | cursor.com | Cursor plan | Post-code visual tweaks. |
-| **Figma + Mobbin + Dribbble** | Manual design + inspiration | — | Various | Backbone for teams with a designer. |
-| **Excalidraw / Miro** | Wireframes / flows | — | Free / freemium | Pre-design ideation. |
+| Name                                                    | Output                                                                 | Link                  | Pricing          | Notes                                                                               |
+| ------------------------------------------------------- | ---------------------------------------------------------------------- | --------------------- | ---------------- | ----------------------------------------------------------------------------------- |
+| **Google Stitch**                                       | Design mockups (DESIGN.md + screenshots)                               | stitch.withgoogle.com | Free preview     | Most-mentioned in pasted material. Page content too light to verify export formats. |
+| **v0 by Vercel**                                        | React + Tailwind components                                            | v0.app                | Freemium         | Production-ready React output. Pairs with shadcn.                                   |
+| **Figma Make**                                          | Figma frames                                                           | figma.com/make        | Figma plan-gated | UI generation inside Figma.                                                         |
+| **Magic Patterns**                                      | Component-level code                                                   | magicpatterns.com     | Freemium         | "Actual component-level output you can ship."                                       |
+| **Mowgli AI**                                           | High-fidelity UI + React/Tailwind export + AI bundle for Claude/Cursor | mowgli.ai             | Freemium         | "AI design canvas that deeply understands your product." Spec-driven.               |
+| **Lovable / Bolt / Base44 / Tweakcn / Durable / Gamma** | Full-app builders                                                      | —                     | Various          | App-builder tier, not just mockups.                                                 |
+| **Uizard / Relume / Moonchild.ai**                      | Mockups + wireframes                                                   | —                     | Various          | Wireframe-first workflow.                                                           |
+| **Cursor visual editor**                                | In-IDE UI nudges                                                       | cursor.com            | Cursor plan      | Post-code visual tweaks.                                                            |
+| **Figma + Mobbin + Dribbble**                           | Manual design + inspiration                                            | —                     | Various          | Backbone for teams with a designer.                                                 |
+| **Excalidraw / Miro**                                   | Wireframes / flows                                                     | —                     | Free / freemium  | Pre-design ideation.                                                                |
 
 ### 2.4 Image generation (raster / SVG / vector)
 
-| Name | Type | Link | Status | Fit for photoreal vial |
-|---|---|---|---|---|
-| **Recraft AI (V4)** | Raster + vector, photoreal mode, custom styles via drop-in | recraft.ai | Active · freemium + API | **Strong fit.** Custom-style upload "without training." API access. |
-| **FLUX.2 pro (via Replicate)** | Raster photoreal | replicate.com/black-forest-labs/flux-2-pro | Active · pay-per-call | High photoreal quality, character consistency. |
-| **OpenAI gpt-image-2 (via Replicate or OpenAI API)** | Raster, sharp text rendering | — | Active · pay-per-call | Better at in-image text than most. |
-| **Google Nano-Banana-2 (via Replicate)** | Conversational editing, multi-image fusion | — | Active · pay-per-call | Useful for label-area inpainting. |
-| **Midjourney** | Raster | midjourney.com | Active · paid only | Strong photoreal; no API for in-app; community calls "not enterprise." |
-| **Stable Diffusion / SDXL (Replicate or self-host)** | Raster | — | Active · open weights | Self-host = zero per-image cost after setup. |
-| **Quiver AI** | **SVG only** | quiver.ai | Active · API · a16z-backed | **Not a fit for photoreal vials.** Strong for logos / icons / illustrations. |
-| **svgs.app** | SVG generation | svgs.app | Active · freemium | Same lane as Quiver, less ambitious. |
-| **Remotion** | Programmatic React → MP4 video | remotion.dev | Active · OSS | For animation, not product stills. |
-| **Lottie / LottieFiles** | JSON-driven animations | lottiefiles.com | Freemium | UI micro-anim. |
-| **Heroicons / Lucide / Phosphor** | Curated icon sets | — | Free / MIT | Already in use (lucide-react installed). |
-| **SVG Repo** | One-off SVGs | svgrepo.com | Free + paid | Per-asset. |
+| Name                                                 | Type                                                       | Link                                       | Status                     | Fit for photoreal vial                                                       |
+| ---------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------ | -------------------------- | ---------------------------------------------------------------------------- |
+| **Recraft AI (V4)**                                  | Raster + vector, photoreal mode, custom styles via drop-in | recraft.ai                                 | Active · freemium + API    | **Strong fit.** Custom-style upload "without training." API access.          |
+| **FLUX.2 pro (via Replicate)**                       | Raster photoreal                                           | replicate.com/black-forest-labs/flux-2-pro | Active · pay-per-call      | High photoreal quality, character consistency.                               |
+| **OpenAI gpt-image-2 (via Replicate or OpenAI API)** | Raster, sharp text rendering                               | —                                          | Active · pay-per-call      | Better at in-image text than most.                                           |
+| **Google Nano-Banana-2 (via Replicate)**             | Conversational editing, multi-image fusion                 | —                                          | Active · pay-per-call      | Useful for label-area inpainting.                                            |
+| **Midjourney**                                       | Raster                                                     | midjourney.com                             | Active · paid only         | Strong photoreal; no API for in-app; community calls "not enterprise."       |
+| **Stable Diffusion / SDXL (Replicate or self-host)** | Raster                                                     | —                                          | Active · open weights      | Self-host = zero per-image cost after setup.                                 |
+| **Quiver AI**                                        | **SVG only**                                               | quiver.ai                                  | Active · API · a16z-backed | **Not a fit for photoreal vials.** Strong for logos / icons / illustrations. |
+| **svgs.app**                                         | SVG generation                                             | svgs.app                                   | Active · freemium          | Same lane as Quiver, less ambitious.                                         |
+| **Remotion**                                         | Programmatic React → MP4 video                             | remotion.dev                               | Active · OSS               | For animation, not product stills.                                           |
+| **Lottie / LottieFiles**                             | JSON-driven animations                                     | lottiefiles.com                            | Freemium                   | UI micro-anim.                                                               |
+| **Heroicons / Lucide / Phosphor**                    | Curated icon sets                                          | —                                          | Free / MIT                 | Already in use (lucide-react installed).                                     |
+| **SVG Repo**                                         | One-off SVGs                                               | svgrepo.com                                | Free + paid                | Per-asset.                                                                   |
 
 ### 2.5 PSD-mockup providers (smart-object label workflow)
 
-| Name | Catalog | Link | Pricing | Vial mockups? |
-|---|---|---|---|---|
-| **Yellow Images** | Pharma + commerce focus | yellowimages.com | Per-asset (~$15–$60) or sub | Medical / pharmaceutical vial PSDs exist (direct fetch blocked by Cloudflare 403; verify live). |
-| **Envato Elements** | General + product mockups | envato.com/elements | Subscription $16.50/mo unlimited | (Fetch blocked 403.) Known to carry vial mockups. |
-| **Creative Market** | Indie sellers | creativemarket.com | Per-asset | Variable quality, single-license per buyer. |
-| **Freepik** | Mixed-license catalog | freepik.com | Free w/ attribution / paid sub | Some vial mockups available. |
+| Name                | Catalog                   | Link                | Pricing                          | Vial mockups?                                                                                   |
+| ------------------- | ------------------------- | ------------------- | -------------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Yellow Images**   | Pharma + commerce focus   | yellowimages.com    | Per-asset (~$15–$60) or sub      | Medical / pharmaceutical vial PSDs exist (direct fetch blocked by Cloudflare 403; verify live). |
+| **Envato Elements** | General + product mockups | envato.com/elements | Subscription $16.50/mo unlimited | (Fetch blocked 403.) Known to carry vial mockups.                                               |
+| **Creative Market** | Indie sellers             | creativemarket.com  | Per-asset                        | Variable quality, single-license per buyer.                                                     |
+| **Freepik**         | Mixed-license catalog     | freepik.com         | Free w/ attribution / paid sub   | Some vial mockups available.                                                                    |
 
 ### 2.6 Skill/repo curation lists (meta)
 
-| Name | Stars | Link | Notes |
-|---|---|---|---|
-| ComposioHQ/awesome-claude-skills | 59.1k | github.com/ComposioHQ/awesome-claude-skills | "1000+ production-ready Claude Skills." Notable: Canvas Design, Image Enhancer, Theme Factory, Canva Automation. |
-| hesreallyhim/awesome-claude-code | 43.3k | github.com/hesreallyhim/awesome-claude-code | Broader than skills. README structure being reorganized at fetch time. |
-| travisvn/awesome-claude-skills | (community) | github.com/travisvn/awesome-claude-skills | Lists `frontend-design`, `algorithmic-art`, `canvas-design`, `web-asset-generator`, `slack-gif-creator`. No photoreal-product skill. |
-| rohitg00/awesome-claude-code-toolkit | (1k+) | github.com/rohitg00/awesome-claude-code-toolkit | 135 agents, 35+ skills, 176 plugins. Kitchen-sink. |
-| jqueryscript/awesome-claude-code | — | — | Top-repos-by-stars index. |
-| ComposioHQ/awesome-claude-plugins | 1.4k | github.com/ComposioHQ/awesome-claude-plugins | Plugin index. |
-| x1xhlol/system-prompts-and-models-of-ai-tools | high | github.com/x1xhlol/system-prompts-and-models-of-ai-tools | Reverse-engineered system prompts. Not design-specific. |
-| nexu-io/open-design | — | github.com/nexu-io/open-design | Parallel Claude Design extraction; manalkaff/opendesign predates it. |
+| Name                                          | Stars       | Link                                                     | Notes                                                                                                                                |
+| --------------------------------------------- | ----------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| ComposioHQ/awesome-claude-skills              | 59.1k       | github.com/ComposioHQ/awesome-claude-skills              | "1000+ production-ready Claude Skills." Notable: Canvas Design, Image Enhancer, Theme Factory, Canva Automation.                     |
+| hesreallyhim/awesome-claude-code              | 43.3k       | github.com/hesreallyhim/awesome-claude-code              | Broader than skills. README structure being reorganized at fetch time.                                                               |
+| travisvn/awesome-claude-skills                | (community) | github.com/travisvn/awesome-claude-skills                | Lists `frontend-design`, `algorithmic-art`, `canvas-design`, `web-asset-generator`, `slack-gif-creator`. No photoreal-product skill. |
+| rohitg00/awesome-claude-code-toolkit          | (1k+)       | github.com/rohitg00/awesome-claude-code-toolkit          | 135 agents, 35+ skills, 176 plugins. Kitchen-sink.                                                                                   |
+| jqueryscript/awesome-claude-code              | —           | —                                                        | Top-repos-by-stars index.                                                                                                            |
+| ComposioHQ/awesome-claude-plugins             | 1.4k        | github.com/ComposioHQ/awesome-claude-plugins             | Plugin index.                                                                                                                        |
+| x1xhlol/system-prompts-and-models-of-ai-tools | high        | github.com/x1xhlol/system-prompts-and-models-of-ai-tools | Reverse-engineered system prompts. Not design-specific.                                                                              |
+| nexu-io/open-design                           | —           | github.com/nexu-io/open-design                           | Parallel Claude Design extraction; manalkaff/opendesign predates it.                                                                 |
 
 ### 2.7 Adjacent (mentioned but off-spec)
 
-| Name | Why off-spec |
-|---|---|
-| Repomix, ccusage, ComposioHQ/agent-orchestrator, OpenWolf, GSD, gstack, Superpowers, ARS CONTEXTA, Mem-Palace, claude-meter | Workflow / context / token tools — not design. |
-| Karpathy CLAUDE.md, claude-code-system-prompts, SuperClaude_Framework | Prompt engineering. |
-| andan02/console.kubestellar.io | Unrelated badge tool. |
-| Storybook + shadcn MCP | Component library tooling, on-spec but already addressable directly via shadcn install. |
-| WordPress / respira.press | CMS workflow. |
-| Vercel Agent browser | Browsing agent. |
+| Name                                                                                                                        | Why off-spec                                                                            |
+| --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Repomix, ccusage, ComposioHQ/agent-orchestrator, OpenWolf, GSD, gstack, Superpowers, ARS CONTEXTA, Mem-Palace, claude-meter | Workflow / context / token tools — not design.                                          |
+| Karpathy CLAUDE.md, claude-code-system-prompts, SuperClaude_Framework                                                       | Prompt engineering.                                                                     |
+| andan02/console.kubestellar.io                                                                                              | Unrelated badge tool.                                                                   |
+| Storybook + shadcn MCP                                                                                                      | Component library tooling, on-spec but already addressable directly via shadcn install. |
+| WordPress / respira.press                                                                                                   | CMS workflow.                                                                           |
+| Vercel Agent browser                                                                                                        | Browsing agent.                                                                         |
 
 ### 2.8 Flagged
 
@@ -182,9 +182,10 @@ with impeccable's discipline layer at $30/mo we don't need yet.
 
 **Winner: Khalidabdi1/design-ai.** 116 brands at 126 stars — denser per-brand
 than VoltAgent (68 brands). MIT-licensed, simple drop-in pattern, Anthropic
-+ Stripe + Linear + Vercel all present. Use for inspiration grabs — *not* to
-clone, but to harvest specific patterns (e.g. "make our trust strip look
-like Stripe's badge row").
+
+- Stripe + Linear + Vercel all present. Use for inspiration grabs — _not_ to
+  clone, but to harvest specific patterns (e.g. "make our trust strip look
+  like Stripe's badge row").
 
 We already wrote our own `DESIGN.md` for vailchem.labs and a Posture A
 spec in `lib/design/tokens.ts`. The play is to **diff our DESIGN.md against
@@ -195,7 +196,7 @@ Apple for product-photography composition) and lift specific moves.
 
 For this project, **none of these are load-bearing.** We already have a
 working PDP with our own design system. The category is most useful for
-*new* pages we haven't built yet (Verify a Vial, Get Verified, My Lab,
+_new_ pages we haven't built yet (Verify a Vial, Get Verified, My Lab,
 Order Detail). When that time comes:
 
 - **Mowgli AI** for the highest fidelity if we're willing to feed it our
@@ -222,7 +223,7 @@ recommended. One asset, one CDN load, infinite SKUs.
   label as a positioned `<div>` (or as an SVG element with `clipPath`) on
   top of the image with the compound name + dose + RUO + QR.
 - Result: looks photographic at any viewport, the label text stays selectable
-  + indexable + multilingual, and per-SKU variation is `swap one string`.
+  - indexable + multilingual, and per-SKU variation is `swap one string`.
 
 **(a) AI generation per SKU via Recraft V4 custom style** —
 viable but expensive and inconsistent.
@@ -231,8 +232,8 @@ viable but expensive and inconsistent.
   custom style.
 - For each of our 16 SKUs, generate via API with prompt that names the
   compound + dose. Recraft V4 claims "perfect lighting and lens distortions"
-  + "sharp text rendering" — but in practice AI-generated labels with
-  arbitrary compound names ("CJC-1295 (no DAC)") drift.
+  - "sharp text rendering" — but in practice AI-generated labels with
+    arbitrary compound names ("CJC-1295 (no DAC)") drift.
 - Cost: small per generation, but pages need fallbacks and you regen-on-rebrand.
 
 **(b) PSD smart-object mockup** — most predictable, requires Photoshop
@@ -271,6 +272,7 @@ voice. **Remotion** is unrelated (video).
 ### G. Theme switching + contrast
 
 Just shipped:
+
 - `components/ThemeToggle.tsx` — client island, sun/moon icon, persists to
   `localStorage` under `vc-theme`.
 - No-FOUC inline script in `app/layout.tsx <head>` flips `[data-theme]` on
@@ -287,15 +289,15 @@ Just shipped:
 The short list we should actually install/use. Everything else can stay
 on the bookmarked shelf.
 
-| Tier | Tool | Why | Install |
-|---|---|---|---|
-| **Tier 1 — install today** | **impeccable** | Design vocabulary + audit/polish surface that already matches operator's chat voice. Apache 2.0, active. | `cp -r dist/claude-code/.claude ~/.claude/` after cloning github.com/pbakaus/impeccable |
-| **Tier 1** | **anthropics/skills/frontend-design** | Foundational design-thinking principles; canonical Anthropic skill; auto-marketplace. | `/plugin install frontend-design@anthropic-agent-skills` |
-| **Tier 2 — install when needed** | **Khalidabdi1/design-ai** | When we want to lift a specific move from Stripe / Linear / Vercel / Apple. | Copy any `DESIGN.md` into `/docs/inspo/` and reference it in chat. |
-| **Tier 2** | **manalkaff/opendesign** | If we ever want a quick disposable mockup for an unbuilt page (Verify a Vial, Get Verified flow). | `/plugin install opendesign@opendesign` |
-| **Tier 3 — for the photoreal vial** | **One good empty-vial photo** | Source via Recraft V4 (free tier) → if not, Yellow Images (~$30). | Manual; goes into `public/vials/` |
-| **Tier 3** | **HTML/CSS label overlay (new component)** | Render our existing label data as a positioned overlay on the photo. Per-SKU variation = string swap. | New file: `components/ui/VialPhotograph.tsx` (next session) |
-| **Tier 3 — fallback only** | **Replicate FLUX.2 pro API** | If we later want per-SKU AI-generated full-vial photos. Costs scale with SKU count. | Replicate JS SDK in a build-time script that writes to `public/vials/<sku>.webp` |
+| Tier                                | Tool                                       | Why                                                                                                      | Install                                                                                 |
+| ----------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| **Tier 1 — install today**          | **impeccable**                             | Design vocabulary + audit/polish surface that already matches operator's chat voice. Apache 2.0, active. | `cp -r dist/claude-code/.claude ~/.claude/` after cloning github.com/pbakaus/impeccable |
+| **Tier 1**                          | **anthropics/skills/frontend-design**      | Foundational design-thinking principles; canonical Anthropic skill; auto-marketplace.                    | `/plugin install frontend-design@anthropic-agent-skills`                                |
+| **Tier 2 — install when needed**    | **Khalidabdi1/design-ai**                  | When we want to lift a specific move from Stripe / Linear / Vercel / Apple.                              | Copy any `DESIGN.md` into `/docs/inspo/` and reference it in chat.                      |
+| **Tier 2**                          | **manalkaff/opendesign**                   | If we ever want a quick disposable mockup for an unbuilt page (Verify a Vial, Get Verified flow).        | `/plugin install opendesign@opendesign`                                                 |
+| **Tier 3 — for the photoreal vial** | **One good empty-vial photo**              | Source via Recraft V4 (free tier) → if not, Yellow Images (~$30).                                        | Manual; goes into `public/vials/`                                                       |
+| **Tier 3**                          | **HTML/CSS label overlay (new component)** | Render our existing label data as a positioned overlay on the photo. Per-SKU variation = string swap.    | New file: `components/ui/VialPhotograph.tsx` (next session)                             |
+| **Tier 3 — fallback only**          | **Replicate FLUX.2 pro API**               | If we later want per-SKU AI-generated full-vial photos. Costs scale with SKU count.                      | Replicate JS SDK in a build-time script that writes to `public/vials/<sku>.webp`        |
 
 Deferred: ui-ux-pro-max-skill (star-count to verify), typeui.sh (paid pro
 overlap), huashu-design (commercial license cost), Mowgli (only when we hit
@@ -332,7 +334,7 @@ language. Required before we make brand decisions.
   `docs/inspo/`: **Linear** (restraint), **Stripe** (trust messaging),
   **Apple** (product photography composition).
 - Run `/impeccable critique` against each on the PDP. We don't want to
-  *be* any of them; we want to extract one move from each.
+  _be_ any of them; we want to extract one move from each.
   - Linear: dot-leader specs, ultra-quiet eyebrows.
   - Stripe: numerical trust badges with status dots.
   - Apple: product as hero, surrounding chrome quiet.
@@ -346,11 +348,11 @@ to PDP first.
 
 Three forks; pick one:
 
-| Fork | Cost | Lead time | Operator decides |
-|---|---|---|---|
-| Recraft V4 generation | $0 (free tier, ~50 generations) | 30 min | Best for solo; we control the iterations. |
-| Yellow Images PSD purchase | ~$30–60 | 10 min after purchase | Best for a known-good asset that's been used in pharma marketing. |
-| Freelancer product shot | ~$100–200 | 2–5 days | Best long-term — owns the asset, can re-shoot variants. |
+| Fork                       | Cost                            | Lead time             | Operator decides                                                  |
+| -------------------------- | ------------------------------- | --------------------- | ----------------------------------------------------------------- |
+| Recraft V4 generation      | $0 (free tier, ~50 generations) | 30 min                | Best for solo; we control the iterations.                         |
+| Yellow Images PSD purchase | ~$30–60                         | 10 min after purchase | Best for a known-good asset that's been used in pharma marketing. |
+| Freelancer product shot    | ~$100–200                       | 2–5 days              | Best long-term — owns the asset, can re-shoot variants.           |
 
 Recommendation: start with Recraft V4. Free tier covers exploration; pay
 ~$10 if we need API generation. If the result doesn't ship in 30 min, fall

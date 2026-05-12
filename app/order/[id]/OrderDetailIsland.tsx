@@ -5,23 +5,23 @@
  * one-time token in Phase 9. Phase 5 reads the most-recent order written to
  * sessionStorage by ReviewPanel.
  */
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { Card } from '@/components/ui/Card';
-import { Pill } from '@/components/ui/Pill';
-import { Specs } from '@/components/ui/Specs';
-import { EmptyState } from '@/components/ui/EmptyState';
-import { buttonClassNames } from '@/components/ui/Button';
-import { formatPrice } from '@/lib/content/products';
-import { useSessionStorageItem } from '@/lib/use-session-storage';
+import Link from "next/link";
+import { Card } from "@/components/ui/Card";
+import { Pill } from "@/components/ui/Pill";
+import { Specs } from "@/components/ui/Specs";
+import { EmptyState } from "@/components/ui/EmptyState";
+import { buttonClassNames } from "@/components/ui/Button";
+import { formatPrice } from "@/lib/content/products";
+import { useSessionStorageItem } from "@/lib/use-session-storage";
 
-const ORDER_KEY = 'vialchemlabs:checkout:order';
+const ORDER_KEY = "vialchemlabs:checkout:order";
 
 interface StoredOrder {
   id: string;
   placedAt: string;
-  method: 'crypto' | 'ach';
+  method: "crypto" | "ach";
   lines: {
     sku: string;
     slug: string;
@@ -45,8 +45,8 @@ interface StoredOrder {
 }
 
 const METHOD_LABELS: Record<string, string> = {
-  crypto: 'Cryptocurrency (BTC / LTC)',
-  ach: 'Bank transfer (US ACH)',
+  crypto: "Cryptocurrency (BTC / LTC)",
+  ach: "Bank transfer (US ACH)",
 };
 
 export function OrderDetailIsland({ expectedId }: { expectedId: string }) {
@@ -59,7 +59,10 @@ export function OrderDetailIsland({ expectedId }: { expectedId: string }) {
         title="Order detail not available in this session"
         description="Token-gated order pages activate pre-launch. Until then, only the originating browser tab can render this view."
         action={
-          <Link href="/account/orders" className={buttonClassNames('outline', 'md')}>
+          <Link
+            href="/account/orders"
+            className={buttonClassNames("outline", "md")}
+          >
             Sign in to view order
           </Link>
         }
@@ -71,9 +74,9 @@ export function OrderDetailIsland({ expectedId }: { expectedId: string }) {
     <div className="space-y-8">
       <div className="flex flex-wrap items-center gap-2">
         <Pill variant="accent">
-          {order.method === 'crypto'
-            ? 'Awaiting BTC confirmation'
-            : 'Awaiting ACH clearance'}
+          {order.method === "crypto"
+            ? "Awaiting BTC confirmation"
+            : "Awaiting ACH clearance"}
         </Pill>
         <Pill variant="info">RUO</Pill>
         <Pill variant="electric">Tracking pending</Pill>
@@ -86,31 +89,36 @@ export function OrderDetailIsland({ expectedId }: { expectedId: string }) {
         <div className="grid gap-3 sm:grid-cols-2">
           <Specs
             items={[
-              { term: 'Order ID', value: order.id },
+              { term: "Order ID", value: order.id },
               {
-                term: 'Placed',
+                term: "Placed",
                 value: new Date(order.placedAt).toLocaleString(),
               },
-              { term: 'Method', value: METHOD_LABELS[order.method] ?? order.method },
+              {
+                term: "Method",
+                value: METHOD_LABELS[order.method] ?? order.method,
+              },
             ]}
           />
           <Specs
             items={[
-              { term: 'Subtotal', value: formatPrice(order.subtotalCents) },
+              { term: "Subtotal", value: formatPrice(order.subtotalCents) },
               {
-                term: 'Discount',
+                term: "Discount",
                 value:
                   order.discountCents > 0
                     ? `− ${formatPrice(order.discountCents)}`
-                    : '—',
+                    : "—",
               },
               {
-                term: 'Shipping',
+                term: "Shipping",
                 value:
-                  order.shippingCents === 0 ? 'Free' : formatPrice(order.shippingCents),
+                  order.shippingCents === 0
+                    ? "Free"
+                    : formatPrice(order.shippingCents),
               },
               {
-                term: 'Total',
+                term: "Total",
                 value: (
                   <span className="text-[18px] font-semibold">
                     {formatPrice(order.totalCents)}
@@ -130,7 +138,7 @@ export function OrderDetailIsland({ expectedId }: { expectedId: string }) {
           <p className="text-[var(--text)] font-medium">{order.address.name}</p>
           <p>
             {order.address.street}
-            {order.address.street2 ? `, ${order.address.street2}` : ''}
+            {order.address.street2 ? `, ${order.address.street2}` : ""}
           </p>
           <p>
             {order.address.city}, {order.address.stateCode} {order.address.zip}
@@ -153,7 +161,7 @@ export function OrderDetailIsland({ expectedId }: { expectedId: string }) {
                 href={`/products/${l.slug}`}
                 className="text-[14px] text-[var(--text)] hover:text-[var(--accent-soft)]"
               >
-                {l.name}{' '}
+                {l.name}{" "}
                 <span className="font-mono text-[12px] text-[var(--text-subtle)]">
                   × {l.qty}
                 </span>

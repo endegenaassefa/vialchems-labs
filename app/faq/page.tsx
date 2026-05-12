@@ -6,17 +6,17 @@
  * No client-side state needed: <details> is native browser-controlled
  * disclosure. Server component.
  */
-import type { Metadata } from 'next';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { StaggerReveal } from '@/components/ui/StaggerReveal';
-import { faqEntries } from '@/lib/content/faq';
-import { faqPageJsonLd, serializeJsonLdSafe } from '@/lib/seo/jsonLd';
+import type { Metadata } from "next";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { StaggerReveal } from "@/components/ui/StaggerReveal";
+import { faqEntries } from "@/lib/content/faq";
+import { faqPageJsonLd, serializeJsonLdSafe } from "@/lib/seo/jsonLd";
 
 export const metadata: Metadata = {
-  title: 'FAQ',
+  title: "FAQ",
   description:
-    'Twenty answers on vialchemlabs research peptides, Certificates of Analysis, payment, shipping, refunds, and the affiliate program.',
+    "Twenty answers on vialchemlabs research peptides, Certificates of Analysis, payment, shipping, refunds, and the affiliate program.",
 };
 
 export default function FaqPage() {
@@ -49,11 +49,14 @@ export default function FaqPage() {
               </div>
             </div>
             <p className="text-[18px] leading-[1.55] text-[var(--text-muted)] max-w-2xl">
-              Operational and compliance questions. If yours is not here,
-              reach the team via{' '}
-              <a href="/contact" className="text-[var(--accent)] hover:text-[var(--accent-soft)]">
+              Operational and compliance questions. If yours is not here, reach
+              the team via{" "}
+              <a
+                href="/contact"
+                className="text-[var(--accent)] hover:text-[var(--accent-soft)]"
+              >
                 the contact form
-              </a>{' '}
+              </a>{" "}
               — response within one business day.
             </p>
           </div>
@@ -67,8 +70,8 @@ export default function FaqPage() {
                   key={idx}
                   className="group rounded-[14px] border border-[var(--border)] bg-[var(--surface)] shadow-[var(--shadow-sm)] open:border-[var(--border-strong)] open:bg-[var(--surface-elevated)] open:shadow-[var(--shadow-md)] transition-[background-color,border-color,box-shadow] duration-[var(--dur-short)]"
                 >
-                    <summary
-                      className="
+                  <summary
+                    className="
                         flex cursor-pointer items-baseline gap-4 px-6 py-5
                         text-[16px] font-medium text-[var(--text)]
                         list-none
@@ -77,18 +80,18 @@ export default function FaqPage() {
                         hover:text-[var(--accent-soft)]
                         transition-colors duration-[var(--dur-short)]
                       "
+                  >
+                    <span className="font-mono text-[12px] tabular text-[var(--text-subtle)] shrink-0">
+                      {String(idx + 1).padStart(2, "0")}
+                    </span>
+                    <span className="flex-1">{entry.q}</span>
+                    <span
+                      aria-hidden="true"
+                      className="font-mono text-[14px] text-[var(--text-muted)] group-open:rotate-45 transition-transform duration-[var(--dur-short)]"
                     >
-                      <span className="font-mono text-[12px] tabular text-[var(--text-subtle)] shrink-0">
-                        {String(idx + 1).padStart(2, '0')}
-                      </span>
-                      <span className="flex-1">{entry.q}</span>
-                      <span
-                        aria-hidden="true"
-                        className="font-mono text-[14px] text-[var(--text-muted)] group-open:rotate-45 transition-transform duration-[var(--dur-short)]"
-                      >
-                        +
-                      </span>
-                    </summary>
+                      +
+                    </span>
+                  </summary>
                   <div className="px-6 pb-6 pl-[calc(1.5rem+2rem)] text-[15px] leading-[1.65] text-[var(--text-muted)]">
                     {entry.a}
                   </div>

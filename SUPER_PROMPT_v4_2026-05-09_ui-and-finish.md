@@ -67,21 +67,21 @@ You are NOT building a generic e-commerce upgrade. You are taking ONE specific, 
 
 ### 1.3 LOCKED state from v3.0 (do NOT re-litigate)
 
-| LOCKED item | Value | Source |
-|---|---|---|
-| Brand | Vialchems Labs (Posture A clean clinical) | Phase 0 LOCKED_OVERRIDE; `lib/content/site.ts:9` |
-| Domain | `vialchems.labs` (literal `.labs` TLD) | Phase 0 + README |
-| Tagline | "Counted, weighed, verified." | `lib/content/site.ts:15` |
-| Color palette | `--bg #0a0e0f`, `--accent #3dd4c8`, full Posture A token map | `lib/design/tokens.ts` + `app/globals.css` |
-| Typography | IBM Plex Sans (300-700) + IBM Plex Mono (300-600) + Newsreader Italic 400i | `app/layout.tsx` |
-| Catalog | 7 SKUs at locked prices + Recovery Stack bundle ($77, 12.5% off) + WELCOME15 promo | `lib/content/products.ts`, `lib/content/promo-codes.ts` |
-| Payment rails | BTCPay (crypto, 15% off) + Plaid ACH (5% off); cards Phase-2 only | `lib/payments/types.ts`, `lib/payments/config.ts` |
-| Substance carve-out | NO BAC water, NO tirzepatide, NO semaglutide/retatrutide, NO GLP-1 obfuscation | `lib/compliance.ts:47-52` |
-| Jurisdictional block | CA / TX / NY / FL (US-only Day-1) | `lib/compliance/jurisdictions.ts:15` |
-| Age threshold | 21+ text-checkbox at first cart action | `app/checkout/review/ReviewPanel.tsx:196-208` |
-| 7 attestations | Verbatim Appendix A.5 | `lib/customer-qualification.ts:41-49` |
-| Footer disclaimer | Verbatim Appendix A.1 (3 paragraphs: RUO, FDA-not-evaluated, 503A/503B) | `components/SiteFooter.tsx:103-118` |
-| Lab partner | Janoshik Analytical (default; env-overridable) | `lib/content/site.ts:24` |
+| LOCKED item          | Value                                                                              | Source                                                  |
+| -------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| Brand                | Vialchems Labs (Posture A clean clinical)                                          | Phase 0 LOCKED_OVERRIDE; `lib/content/site.ts:9`        |
+| Domain               | `vialchems.labs` (literal `.labs` TLD)                                             | Phase 0 + README                                        |
+| Tagline              | "Counted, weighed, verified."                                                      | `lib/content/site.ts:15`                                |
+| Color palette        | `--bg #0a0e0f`, `--accent #3dd4c8`, full Posture A token map                       | `lib/design/tokens.ts` + `app/globals.css`              |
+| Typography           | IBM Plex Sans (300-700) + IBM Plex Mono (300-600) + Newsreader Italic 400i         | `app/layout.tsx`                                        |
+| Catalog              | 7 SKUs at locked prices + Recovery Stack bundle ($77, 12.5% off) + WELCOME15 promo | `lib/content/products.ts`, `lib/content/promo-codes.ts` |
+| Payment rails        | BTCPay (crypto, 15% off) + Plaid ACH (5% off); cards Phase-2 only                  | `lib/payments/types.ts`, `lib/payments/config.ts`       |
+| Substance carve-out  | NO BAC water, NO tirzepatide, NO semaglutide/retatrutide, NO GLP-1 obfuscation     | `lib/compliance.ts:47-52`                               |
+| Jurisdictional block | CA / TX / NY / FL (US-only Day-1)                                                  | `lib/compliance/jurisdictions.ts:15`                    |
+| Age threshold        | 21+ text-checkbox at first cart action                                             | `app/checkout/review/ReviewPanel.tsx:196-208`           |
+| 7 attestations       | Verbatim Appendix A.5                                                              | `lib/customer-qualification.ts:41-49`                   |
+| Footer disclaimer    | Verbatim Appendix A.1 (3 paragraphs: RUO, FDA-not-evaluated, 503A/503B)            | `components/SiteFooter.tsx:103-118`                     |
+| Lab partner          | Janoshik Analytical (default; env-overridable)                                     | `lib/content/site.ts:24`                                |
 
 ### 1.4 Required tooling environment
 
@@ -96,19 +96,19 @@ You are NOT building a generic e-commerce upgrade. You are taking ONE specific, 
 
 ### 1.5 Required operator-side prerequisites (close in Phase 10 via Appendix AA)
 
-| Item | Why needed | When asked |
-|---|---|---|
-| Domain registration of `vialchems.labs` | Production URL | Phase 12 |
-| LLC formation (Wyoming default) | Legal entity for ToS, choice-of-law, indemnification | Phase 10 (env vars only); operator action async |
-| Supabase project (URL + anon + service-role keys) | Auth, RLS, orders/qualifications/email_subscriptions persistence | Phase 10 |
-| Resend account + verified `vialchems.labs` sender domain | 4-email welcome sequence + order confirmation emails | Phase 10 |
-| Sentry org + project + DSN + auth token | Error monitoring + alerts | Phase 10 |
-| Plaid client ID + secret + production env approval | ACH rail | Phase 10 |
-| BTCPay Server URL + API key + store ID + webhook secret (self-host OR Voltage Cloud) | Crypto rail | Phase 10 |
-| Janoshik Analytical lab-partner contract | Real per-batch COA pipeline | Operator pre-launch (Phase 12 dep) |
-| First-batch real COA PDFs | Replace 7 placeholder PDFs in `public/coa/` | Operator pre-launch (Phase 12 dep) |
-| Cookie consent provider choice (self-hosted vs Osano vs Cookiebot) | Phase 10 banner integration | Phase 10 PENDING decision |
-| First-buyer test dollar (operator funds the first real BTCPay invoice + Plaid ACH transfer) | Phase 13 verification | Phase 13 |
+| Item                                                                                        | Why needed                                                       | When asked                                      |
+| ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------- |
+| Domain registration of `vialchems.labs`                                                     | Production URL                                                   | Phase 12                                        |
+| LLC formation (Wyoming default)                                                             | Legal entity for ToS, choice-of-law, indemnification             | Phase 10 (env vars only); operator action async |
+| Supabase project (URL + anon + service-role keys)                                           | Auth, RLS, orders/qualifications/email_subscriptions persistence | Phase 10                                        |
+| Resend account + verified `vialchems.labs` sender domain                                    | 4-email welcome sequence + order confirmation emails             | Phase 10                                        |
+| Sentry org + project + DSN + auth token                                                     | Error monitoring + alerts                                        | Phase 10                                        |
+| Plaid client ID + secret + production env approval                                          | ACH rail                                                         | Phase 10                                        |
+| BTCPay Server URL + API key + store ID + webhook secret (self-host OR Voltage Cloud)        | Crypto rail                                                      | Phase 10                                        |
+| Janoshik Analytical lab-partner contract                                                    | Real per-batch COA pipeline                                      | Operator pre-launch (Phase 12 dep)              |
+| First-batch real COA PDFs                                                                   | Replace 7 placeholder PDFs in `public/coa/`                      | Operator pre-launch (Phase 12 dep)              |
+| Cookie consent provider choice (self-hosted vs Osano vs Cookiebot)                          | Phase 10 banner integration                                      | Phase 10 PENDING decision                       |
+| First-buyer test dollar (operator funds the first real BTCPay invoice + Plaid ACH transfer) | Phase 13 verification                                            | Phase 13                                        |
 
 ### 1.6 Out-of-scope for v4.0
 
@@ -137,6 +137,7 @@ These are non-negotiable. ZERO exceptions without explicit operator override in 
 **2.6 NO MERGE TO MAIN WITHOUT DESIGN-APPROVAL AND PLAN-APPROVAL ARTIFACTS ON DISK.** Each phase produces a checkpoint artifact at `docs/checkpoints/v4_phase_<N>_<name>.md`. Each phase that affects user-facing surfaces requires a `/plan-design-review` pass. Each phase that affects architecture requires a `/plan-eng-review` pass. Artifacts must exist on disk and pass review before merging.
 
 **2.7 NO BAC WATER, NO TIRZEPATIDE, NO SEMAGLUTIDE/RETATRUTIDE IN OPENING CATALOG.** Per Bible §15.4 and `compliance_disclaimers/enforcement_events.md`:
+
 - Bacteriostatic water: ABSOLUTELY EXCLUDED from this site, on any rail, at any tier. (5 vendors in March 2026 wave were cited for BAC water + peptides = drug intent.)
 - Tirzepatide: ITC General Exclusion Order 337-TA-1377 (May 2025). CBP blocks all infringing imports at border. Excluded perpetually.
 - Semaglutide / Retatrutide: highest-enforcement-priority FDA targets. Excluded for first 90 days. Operator may override after Day 90 review of FDA enforcement signal.
@@ -156,14 +157,16 @@ These are non-negotiable. ZERO exceptions without explicit operator override in 
 **2.14 NO RECONSTITUTION KIT BUNDLING.** FDA treats "vial + bacteriostatic water + syringe" packaging as drug intent (March 2026 wave: Pink Pony, Mile High, PekCura, Prime Sciences, Gram Peptides). The peptide site sells lyophilized peptide vials only; no syringes, no BAC water, no reconstitution kits, no "Reconstitution Kit" SKU.
 
 **2.15 TDD CHECKPOINT COMMITS AS PROTOCOL EVIDENCE.** Iron Law 2.1 mandates TDD; Iron Law 2.15 mandates that the TDD cycle leaves unforgeable git-history evidence. For every feature/bugfix:
+
 - Commit 1 (RED): test added, message format `test(<scope>): RED — <description>` with body containing `Validated by: <test command>` and the verbatim FAIL output snippet.
 - Commit 2 (GREEN): minimum implementation, message format `feat(<scope>): GREEN — <description>` with body containing `Validated by: <test command>` and the verbatim PASS output snippet.
 - Commit 3 (REFACTOR, optional): refactor, message format `refactor(<scope>): <description>` with body confirming tests remain green.
-Do not squash or rewrite these checkpoint commits during the build phase. They are evidence the workflow happened. Phase verification gates can grep `git log --grep="RED —"` and `git log --grep="GREEN —"` to confirm.
+  Do not squash or rewrite these checkpoint commits during the build phase. They are evidence the workflow happened. Phase verification gates can grep `git log --grep="RED —"` and `git log --grep="GREEN —"` to confirm.
 
 **2.16 PRE-COMMIT SUPPLY-CHAIN SCANNER MANDATORY.** The pre-commit hook (already shipped in v3.0 at `.husky/pre-commit` + `scripts/grep-mogtrix.sh` + `scripts/grep-forbidden-words.sh` + `scripts/supply-chain-scan.sh`) MUST continue to fire on every commit. Do not disable, do not bypass with `--no-verify`. v4.0 EXTENDS the supply-chain scanner with two new categories (per Iron Law 2.22 below): `.env*` files committed to git (already enforced), and `process.env.<X>` references in `lib/content/` files (operator-secret leak risk). See Appendix U for the threat model.
 
 **2.17 AGENT-INTROSPECTION-DEBUGGING ON 3+ FAILED FIXES.** Iron Law 2.3 mandates root-cause investigation. Iron Law 2.17 hardens the failure-recovery side: if three consecutive fix attempts fail (test still red, bug still reproducing, or new symptom emerges from the fix), STOP. Do not attempt fix #4. Instead, invoke explicit introspection per the protocol below. This protocol comes from `affaan-m/everything-claude-code/skills/agent-introspection-debugging`:
+
 1. Capture failure state: what was attempted, what observed evidence shows the failure, what error messages or test output point at
 2. Classify the failure pattern: (a) implementation bug in the new code, (b) spec misunderstanding, (c) tool/environment limitation, (d) shared-state coupling problem, (e) architectural mismatch
 3. Apply the smallest contained recovery action for the classification: (a) revert the fix, simplify, retry; (b) re-read the spec section, surface the gap to operator; (c) document the tool limitation, propose workaround; (d) trace the shared state, identify the coupling site, propose decoupling; (e) STOP and discuss architecture with operator
@@ -173,11 +176,12 @@ Do not squash or rewrite these checkpoint commits during the build phase. They a
 **2.18 NO AESTHETIC REGRESSION.** v4 ships visual-regression baselines (Playwright `toHaveScreenshot()` snapshots) for every page in Phase 11. After the baseline is captured and operator-approved (Appendix Y), every subsequent PR that touches user-facing surfaces MUST run the visual-regression suite as a CI gate. Any pixel diff >0.1% requires explicit operator approval before merge. Lighthouse scores per page MUST not drop below the Phase 11 baseline (Performance ≥ 90, A11y ≥ 95, SEO ≥ 95, Best Practices ≥ 95). A score regression blocks the PR.
 
 **2.19 NO PROTECTED-FILE MODIFICATION WITHOUT REVIEW + CSO GATES (RE-PINNED FOR EMPHASIS).** Iron Law 2.5 already names the protected paths. v4 adds:
+
 - `app/api/access/route.ts` (when implemented in Phase 10) — joins the protected list immediately upon creation.
 - Any Supabase migration file under `supabase/migrations/` — joins the protected list (RLS policy errors are catastrophic).
 - The cookie consent provider integration code (Phase 10) — joins the protected list (consent storage is a regulatory artifact).
 - `lib/sentry.ts` (when introduced) — joins the protected list (alert thresholds are operational SLOs).
-The pre-commit hook in v4 is extended (Iron Law 2.16 above) to flag commits touching these paths and require an explicit `// SCANNER_OK: reviewed-and-cso-passed` annotation in the commit body. Do NOT use this annotation lightly; it is auditable evidence.
+  The pre-commit hook in v4 is extended (Iron Law 2.16 above) to flag commits touching these paths and require an explicit `// SCANNER_OK: reviewed-and-cso-passed` annotation in the commit body. Do NOT use this annotation lightly; it is auditable evidence.
 
 **2.20 NO NEW PAYMENT RAIL BEYOND `{stub, btcpay, plaid}`.** Iron Law 2.9 forbids Stripe/PayPal/Square/Shopify-Payments. Iron Law 2.20 makes the universe explicit: the `PaymentProviderId` type in `lib/payments/types.ts:16` (`'stub' | 'btcpay' | 'plaid'`) is FROZEN for v4. Do NOT add a fourth rail in v4 — even MAX/MESH/Rocketfuel cards belong to Phase 2 (Day 90+) per `DECISIONS/payment_stack.md`. The `resolvePaymentProviderId` fallback to `'stub'` for any garbage value (proven in `tests/unit/payments/config.test.ts:23-28`) is contractual and tested; do not weaken it.
 
@@ -194,6 +198,7 @@ The pre-commit hook in v4 is extended (Iron Law 2.16 above) to flag commits touc
 **2.26 BRAND EXPRESSION LOCKED UNTIL EXPLICIT OPERATOR OVERRIDE.** The brand decision is LOCKED per §1.3. Iron Law 2.26 hardens: do NOT change the brand name, the tagline ("Counted, weighed, verified."), the core color values (`--bg #0a0e0f`, `--accent #3dd4c8`), the type stack (IBM Plex Sans/Mono + Newsreader Italic), the wordmark composition ("Vialchems" + "LABS" chip), or the Posture A label without an explicit operator instruction in chat. UI elevation may add accent variations, deepen accents, add gradient layers, refine type rhythm, refine spacing rhythm, but the BASE values are inviolable. The lab-partner attribution (Janoshik Analytical) is also locked unless operator confirms an alternative via `LAB_PARTNER_NAME` env override.
 
 **2.27 LIGHTHOUSE CI MUST RUN ON EVERY PR; MERGES BLOCKED BELOW 90/95/95/95.** v3.0 deferred Lighthouse CI metrics. v4 Phase 11 wires Lighthouse CI as a PR-blocking GitHub Actions check across the full route table. Per Appendix W.7 (Pre-Delivery Checklist) and the original §7.1 spec:
+
 - Performance ≥ 90 on desktop AND mobile, every page
 - Accessibility ≥ 95, every page
 - SEO ≥ 95, every page
@@ -201,7 +206,7 @@ The pre-commit hook in v4 is extended (Iron Law 2.16 above) to flag commits touc
 - LCP < 2.5s on 4G mobile, every page
 - CLS < 0.1, every page
 - INP < 200ms, every page
-A score below threshold on any page blocks the PR. The Lighthouse-CI config (`.lighthouseci.json` or `lighthouserc.cjs`) lives at repo root; the GitHub Actions workflow (`.github/workflows/lighthouse.yml`) is a Phase 11 deliverable. Branch protection requires this check (Phase 12).
+  A score below threshold on any page blocks the PR. The Lighthouse-CI config (`.lighthouseci.json` or `lighthouserc.cjs`) lives at repo root; the GitHub Actions workflow (`.github/workflows/lighthouse.yml`) is a Phase 11 deliverable. Branch protection requires this check (Phase 12).
 
 ---
 
@@ -307,33 +312,36 @@ The constitution gets pinned to every Agent tool dispatch. Period. No exceptions
 
 Invoke at the points indicated:
 
-| Skill | When |
-|---|---|
-| `superpowers:writing-plans` | Start of each phase (1-13); output to `docs/superpowers/plans/v4_<date>-phase-<N>.md` |
-| `superpowers:subagent-driven-development` | Any phase with 3+ independent modules (Phases 4-6 page polish; Phase 10 services wiring) |
-| `superpowers:dispatching-parallel-agents` | Parallel page polish (after Phase 1-2 design system locks); parallel test runs |
-| `superpowers:test-driven-development` | Every code-writing task; v4 keeps the v3.0 RED→GREEN commit format (Iron Law 2.15) |
-| `superpowers:systematic-debugging` | Whenever a bug, test failure, or unexpected behavior appears |
-| `superpowers:verification-before-completion` | Before every claim of "done" |
-| `superpowers:requesting-code-review` | After every task in subagent-driven mode |
-| `superpowers:receiving-code-review` | When reviewing subagent or operator feedback |
-| `superpowers:finishing-a-development-branch` | After each phase completes |
-| `superpowers:using-git-worktrees` | When starting a phase that needs branch isolation (Phases 4-6 page-polish parallel work; Phase 10 services-wiring parallel work) |
+| Skill                                        | When                                                                                                                             |
+| -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `superpowers:writing-plans`                  | Start of each phase (1-13); output to `docs/superpowers/plans/v4_<date>-phase-<N>.md`                                            |
+| `superpowers:subagent-driven-development`    | Any phase with 3+ independent modules (Phases 4-6 page polish; Phase 10 services wiring)                                         |
+| `superpowers:dispatching-parallel-agents`    | Parallel page polish (after Phase 1-2 design system locks); parallel test runs                                                   |
+| `superpowers:test-driven-development`        | Every code-writing task; v4 keeps the v3.0 RED→GREEN commit format (Iron Law 2.15)                                               |
+| `superpowers:systematic-debugging`           | Whenever a bug, test failure, or unexpected behavior appears                                                                     |
+| `superpowers:verification-before-completion` | Before every claim of "done"                                                                                                     |
+| `superpowers:requesting-code-review`         | After every task in subagent-driven mode                                                                                         |
+| `superpowers:receiving-code-review`          | When reviewing subagent or operator feedback                                                                                     |
+| `superpowers:finishing-a-development-branch` | After each phase completes                                                                                                       |
+| `superpowers:using-git-worktrees`            | When starting a phase that needs branch isolation (Phases 4-6 page-polish parallel work; Phase 10 services-wiring parallel work) |
 
 ### 4.2 gstack contract
 
 Pre-planning (Phase 0):
+
 - `/plan-eng-review` (mandatory after Phase 0 audit; verify deferral inventory)
 - `/plan-design-review` (mandatory before Phase 1 design-token elevation; calibrate against Appendix AC reference set)
 - `/autoplan` (run all reviews in sequence after Phase 0 audit)
 
 Implementation:
+
 - `/design-review` after any user-facing component or page lands (Phases 1-7)
 - `/investigate` whenever a bug surfaces
 - `/codex review` on payment integration code (Phase 10 mandatory; second-opinion on JWKS migration)
 - `/codex challenge` on the cookie consent integration (Phase 10) — adversarial review
 
 Pre-ship gates:
+
 - `/qa` for end-to-end testing on the live site (Phase 11)
 - `/review` for diff analysis (mandatory before any commit touching protected paths per Iron Laws 2.5 + 2.19)
 - `/cso` for infrastructure security audit (mandatory before Phase 12 deploy)
@@ -341,18 +349,21 @@ Pre-ship gates:
 - `/total-security-audit` mandatory before Phase 12 deploy (operator's first-buyer dollar will hit this build)
 
 Ship + deploy:
+
 - `/ship` to bump VERSION to 1.1.0 (or higher per SemVer of changes), write CHANGELOG, merge base, run tests, create PR (Phase 12)
 - `/land-and-deploy` to merge PR, wait for CI, deploy to Vercel production, canary verify (Phase 12)
 - `/canary` for post-deploy 2-hour monitoring loop (Phase 13)
 - `/document-release` to update README/ARCHITECTURE/CHANGELOG (Phase 13)
 
 Safety:
+
 - `/careful` ALWAYS engaged when touching payment integration, compliance code, age gate, jurisdictional restrictions, or supabase migrations
 - `/freeze` to scope edits to `lib/payments/` during Phase 10 payment-credential-wiring
 - `/freeze` to scope edits to `supabase/migrations/` during Phase 10 schema-application
 - `/guard` (combined careful+freeze) for the most sensitive surfaces (real Plaid + real BTCPay wiring)
 
 Session management:
+
 - `/context-save` after every major phase completes
 - `/context-restore` only used if session is interrupted and resumed
 
@@ -403,6 +414,7 @@ This applies to: main thread, all subagent dispatches, all gstack skill invocati
 ### 5.1 Per-phase North Star reload
 
 At the start of every phase, the agent re-reads:
+
 - This super-prompt's §0 (mission), §1.3 (LOCKED state), §2 (Iron Laws all 27), §3 (Constitution)
 - `RESEARCH_PLAN.md` Section 4 (Recommended Toolkit)
 - `CODEBASE_UNDERSTANDING.md` §3 (Iron Laws + Code Footprint table) and §4 (Phase Ledger) and §11 (Reading Inventory)
@@ -414,6 +426,7 @@ This re-read forces alignment even if conversational context has accumulated dri
 ### 5.2 Per-phase checkpoint artifacts
 
 Every phase ends with `docs/checkpoints/v4_phase_<N>_<name>.md` containing:
+
 - Phase goal (one line)
 - Deferrals closed in this phase (list with cite back to Appendix AB)
 - Decisions locked
@@ -462,15 +475,15 @@ Same as v3.0 §5.9. Every hook writes a structured JSON line to `~/.claude/sessi
 
 The v4.0 prompt has SEVEN PENDING decisions that the operator confirms via Appendix AA (Operator Credential Intake Form) at Phase 10:
 
-| Decision | When asked | Default if unspecified |
-|---|---|---|
-| Cookie consent provider | Phase 10 | Self-hosted (no third-party tracker; minimal surface) |
-| Plaid environment | Phase 10 | `sandbox` for first deploy; operator confirms `production` flip after smoke test |
-| BTCPay hosting | Phase 10 | Operator chooses self-host (Docker) OR Voltage Cloud ($/mo). No default — operator MUST decide. |
-| Sentry org/project name | Phase 10 | `vialchems-labs` org, `vialchems-labs-prod` project |
-| Resend sender domain verification | Phase 10 | `vialchems.labs` (subdomain `mail.vialchems.labs` if root is reserved for site) |
-| Domain registrar | Phase 12 | 101domain or Gandi for `.labs` TLD; fallback `vialchems.com` |
-| LLC formation jurisdiction | Phase 10 (env vars only) | Wyoming (default per `LLC_JURISDICTION` env) |
+| Decision                          | When asked               | Default if unspecified                                                                          |
+| --------------------------------- | ------------------------ | ----------------------------------------------------------------------------------------------- |
+| Cookie consent provider           | Phase 10                 | Self-hosted (no third-party tracker; minimal surface)                                           |
+| Plaid environment                 | Phase 10                 | `sandbox` for first deploy; operator confirms `production` flip after smoke test                |
+| BTCPay hosting                    | Phase 10                 | Operator chooses self-host (Docker) OR Voltage Cloud ($/mo). No default — operator MUST decide. |
+| Sentry org/project name           | Phase 10                 | `vialchems-labs` org, `vialchems-labs-prod` project                                             |
+| Resend sender domain verification | Phase 10                 | `vialchems.labs` (subdomain `mail.vialchems.labs` if root is reserved for site)                 |
+| Domain registrar                  | Phase 12                 | 101domain or Gandi for `.labs` TLD; fallback `vialchems.com`                                    |
+| LLC formation jurisdiction        | Phase 10 (env vars only) | Wyoming (default per `LLC_JURISDICTION` env)                                                    |
 
 The agent surfaces each PENDING decision once at the start of the phase that needs it (Appendix AA pre-fills the form with defaults). If operator does not interject within auto-mode timeout, agent proceeds with the default.
 
@@ -481,6 +494,7 @@ All v3.0 LOCKED decisions remain LOCKED. See §1.3 for the full list. Brand, cat
 ### 6.3 LOCKED_OVERRIDE protocol
 
 If the operator wants to weaken a LOCKED decision, they must:
+
 1. Edit the relevant `DECISIONS/<file>.md` in `/root/peptide-launch-bundle/corpus/DECISIONS/` with `LOCKED_OVERRIDE:` and a rationale
 2. Notify the agent in chat
 3. Agent updates the affected files + writes a `docs/checkpoints/v4_locked_override_<date>.md` artifact
@@ -514,6 +528,7 @@ Verification: Lighthouse CI runs on every PR via `.github/workflows/lighthouse.y
 ### 7.2 Accessibility (WCAG 2.1 AA minimum) — NOW axe-CLEAN ENFORCED
 
 Same baseline as v3.0 §7.2. v4 ADDS:
+
 - `axe-core` runs on every page in Phase 8 + as part of Lighthouse CI
 - 0 critical or serious axe violations on any page
 - Keyboard navigation tested on every interactive surface (catalog filters, checkout forms, COA search, qualification flow, mobile nav)
@@ -523,6 +538,7 @@ Same baseline as v3.0 §7.2. v4 ADDS:
 ### 7.3 Interaction design
 
 Same as v3.0 §7.3. v4 ADDS:
+
 - Toast surface for transient feedback (cart-add, qualification submit, error states) — `components/ui/Toast.tsx` is a Phase 2 deliverable
 - Sheet/drawer surface for mobile checkout step transitions (optional; default keeps current page-per-step pattern)
 - Dialog surface for cancel-order + refund-request flows in account (replace inline `actionMessage` pattern in `AccountOrderDetail.tsx`)
@@ -531,6 +547,7 @@ Same as v3.0 §7.3. v4 ADDS:
 ### 7.4 Motion vocabulary
 
 Same as v3.0 §7.4. v4 ADDS:
+
 - View Transitions API for page-to-page transitions (where stable; fallback to instant)
 - Stagger reveal applied consistently to catalog tiles + COA table rows + blog post list (Phase 7)
 - Hover unfurl on Card variant=interactive (already implemented; verify consistency)
@@ -539,6 +556,7 @@ Same as v3.0 §7.4. v4 ADDS:
 ### 7.5 SEO — NOW STRUCTURED-DATA ENFORCED
 
 Same as v3.0 §7.5. v4 ADDS:
+
 - JSON-LD `Product` schema on every PDP (Phase 9)
 - JSON-LD `BreadcrumbList` on every catalog/PDP/COA detail page (Phase 9)
 - JSON-LD `Article` on every blog post (Phase 9)
@@ -550,6 +568,7 @@ Same as v3.0 §7.5. v4 ADDS:
 ### 7.6 Page weight + bundle size
 
 Same as v3.0 §7.6. v4 ADDS:
+
 - Bundle audit per route via `@next/bundle-analyzer` in Phase 9
 - Image audit: every `<img>` uses `next/image` with `loading="lazy"` (where below the fold) and explicit `width` + `height` (CLS prevention)
 - Font subsetting confirmation (Phase 1 already loads via `next/font/google` which subsets automatically; verify)
@@ -579,6 +598,7 @@ Failing visual-regression diffs block merge (Iron Law 2.25). Operator approval =
 **Goal:** Verify codebase state matches CODEBASE_UNDERSTANDING.md. Confirm deferral inventory unchanged. Install + configure every Claude Code agentic toolkit item in Appendix X.1.
 
 **Inputs:**
+
 - `/root/peptide-site/CODEBASE_UNDERSTANDING.md` (full read)
 - `/root/peptide-site/RESEARCH_PLAN.md` (full read of Section 4 + Appendix X.1)
 - `docs/checkpoints/phase_*.md` (12 v3.0 checkpoints)
@@ -621,6 +641,7 @@ Failing visual-regression diffs block merge (Iron Law 2.25). Operator approval =
 9. `/context-save`
 
 **Verification gate:**
+
 - [ ] `npm test` returns ≥ 304/304 passing (or v3.0-evolved count, no regressions)
 - [ ] `npm run build` clean
 - [ ] `npm run preflight` clean
@@ -643,6 +664,7 @@ Failing visual-regression diffs block merge (Iron Law 2.25). Operator approval =
 **North Star reload:** Re-read §1.3, §2.21, §2.26, §7.4, Appendix AC.
 
 **Inputs:**
+
 - `lib/design/tokens.ts` (current 121 lines)
 - `app/globals.css` (current 205 lines)
 - Appendix AC (UI Elevation Reference Set) — operator-calibrated visual targets
@@ -671,6 +693,7 @@ Failing visual-regression diffs block merge (Iron Law 2.25). Operator approval =
 6. `/context-save`
 
 **Verification gate:**
+
 - [ ] All new tokens added; zero existing tokens renamed
 - [ ] CSS custom properties + Tailwind theme mirror in sync
 - [ ] Token tests pass (TDD discipline; commit-message format `test(tokens): RED — ...` and `feat(tokens): GREEN — ...`)
@@ -689,6 +712,7 @@ Failing visual-regression diffs block merge (Iron Law 2.25). Operator approval =
 **North Star reload:** Re-read §2.18 (no aesthetic regression), §2.21 (additive tokens), §2.26 (brand locked), §7.2 (a11y), §7.3 (interaction design), Appendix W.1 (visual quality checklist).
 
 **Inputs:**
+
 - All `components/ui/*.tsx` (8 existing primitives)
 - Phase 1 token deliverables
 - Appendix AC visual targets
@@ -748,6 +772,7 @@ Save `docs/checkpoints/v4_phase_2_ui_primitives.md` with: per-primitive diff sum
 `/context-save`
 
 **Verification gate:**
+
 - [ ] All 8 existing primitives elevated visually; all existing tests still pass
 - [ ] 6 new primitives shipped (Dialog, Sheet, Toast, Skeleton variants, EmptyState, Badge or extended Pill)
 - [ ] Per-primitive RED→GREEN commits in git history
@@ -767,6 +792,7 @@ Save `docs/checkpoints/v4_phase_2_ui_primitives.md` with: per-primitive diff sum
 **North Star reload:** §2.18 (no regression), §2.26 (brand locked), §7 specs, Appendix AC.
 
 **Inputs:**
+
 - `app/page.tsx` (current)
 - `components/SiteHeader.tsx`, `components/SiteFooter.tsx` (re-rendered on every page; review for elevation candidates)
 - Phase 1 + Phase 2 deliverables
@@ -789,6 +815,7 @@ Save `docs/checkpoints/v4_phase_2_ui_primitives.md` with: per-primitive diff sum
 9. `/context-save`
 
 **Verification gate:**
+
 - [ ] Home renders with elevated visuals; all v3.0 content unchanged
 - [ ] `npm test` clean (no new tests required for pure visual polish; if tests exist, still pass)
 - [ ] `npm run build` clean
@@ -839,6 +866,7 @@ Save `docs/checkpoints/v4_phase_4_shop_pdp_coa.md` with: per-page before/after, 
 `/context-save`
 
 **Verification gate:**
+
 - [ ] All catalog/PDP/COA pages elevated; all v3.0 content unchanged
 - [ ] `npm test` ≥ baseline (new tests for Toast integration in AddToCartIsland)
 - [ ] `npm run build` clean
@@ -880,6 +908,7 @@ Save `docs/checkpoints/v4_phase_5_checkout_account_order.md`.
 `/context-save`
 
 **Verification gate:**
+
 - [ ] All checkout/account/order pages elevated; verbatim compliance copy unchanged
 - [ ] `npm test` ≥ baseline (new tests for Dialog integration)
 - [ ] `npm run build` clean
@@ -924,6 +953,7 @@ Save `docs/checkpoints/v4_phase_6_legal_content_aux.md`.
 `/context-save`
 
 **Verification gate:**
+
 - [ ] All content/legal/aux pages elevated; verbatim text unchanged
 - [ ] Verbatim text unchanged check: `git diff HEAD~N -- app/legal/ app/about/page.tsx app/faq/page.tsx | grep -E "^[+-][^+-]"` shows only formatting/className changes, no prose changes
 - [ ] `npm test` ≥ baseline
@@ -943,6 +973,7 @@ Save `docs/checkpoints/v4_phase_6_legal_content_aux.md`.
 **North Star reload:** §7.4, Iron Law 2.18.
 
 **Inputs:**
+
 - All Phases 3-6 deliverables
 - Existing CSS keyframes in `app/globals.css` (`vial-sway`, `vial-float`, `vial-sheen`, `reveal-up`)
 
@@ -971,6 +1002,7 @@ Save `docs/checkpoints/v4_phase_6_legal_content_aux.md`.
 `/context-save`
 
 **Verification gate:**
+
 - [ ] `motion` installed and used only where CSS is insufficient
 - [ ] Bundle increase ≤ 50KB initial JS gzipped
 - [ ] Reduced-motion fallback verified for every new animation
@@ -1012,6 +1044,7 @@ Save `docs/checkpoints/v4_phase_6_legal_content_aux.md`.
 `/context-save`
 
 **Verification gate:**
+
 - [ ] axe per page: 0 critical, 0 serious violations
 - [ ] Manual audit per page complete
 - [ ] `npm test` ≥ baseline (new a11y test file in tests/e2e/, currently test.skip until Phase 11)
@@ -1052,6 +1085,7 @@ Save `docs/checkpoints/v4_phase_6_legal_content_aux.md`.
 `/context-save`
 
 **Verification gate:**
+
 - [ ] Per-route initial JS ≤ 250KB gzipped
 - [ ] Per-route initial CSS ≤ 80KB gzipped
 - [ ] Structured data validates via Google Rich Results Test (manual)
@@ -1146,6 +1180,7 @@ Save `docs/checkpoints/v4_phase_10_services_wiring.md` with: per-service wiring 
 `/context-save`
 
 **Verification gate:**
+
 - [ ] All 6 services wired with real credentials in `.env.local` (NEVER committed per Iron Law 2.22)
 - [ ] Vercel env vars set for production (operator runs `vercel env add` per Appendix AA)
 - [ ] Supabase migrations applied; RLS policies active; `app/api/access/route.ts` live
@@ -1204,6 +1239,7 @@ Save `docs/checkpoints/v4_phase_10_services_wiring.md` with: per-service wiring 
 `/context-save`
 
 **Verification gate:**
+
 - [ ] Playwright browsers installed locally
 - [ ] E2E tests unskipped; both `checkout-{ach,crypto}` pass against dev server with stub adapter
 - [ ] No `test.skip(true)` or `test.only(...)` in `tests/e2e/`
@@ -1250,6 +1286,7 @@ Save `docs/checkpoints/v4_phase_10_services_wiring.md` with: per-service wiring 
 `/context-save`
 
 **Verification gate:**
+
 - [ ] `vialchems.labs` (or fallback) registered and DNS-pointed at Vercel
 - [ ] Production deploy succeeds; `/api/health` returns 200
 - [ ] Smoke test of full user journey on production passes (home → shop → PDP → cart → checkout → review → confirm)
@@ -1296,6 +1333,7 @@ Save `docs/checkpoints/v4_phase_10_services_wiring.md` with: per-service wiring 
 `/context-save`
 
 **Verification gate:**
+
 - [ ] Real BTCPay $1 test order: invoice created → paid → webhook applied → order confirmed
 - [ ] Real Plaid ACH $1 test order: transfer initiated → webhook applied → order confirmed (note: ACH clears in 3-4 days; verify webhook applies on initial events, then settle confirmation later)
 - [ ] Sentry receives test error within 2 minutes; alert email delivered to operator
@@ -1310,22 +1348,22 @@ Save `docs/checkpoints/v4_phase_10_services_wiring.md` with: per-service wiring 
 
 ## 9. VERIFICATION GATES (summary table)
 
-| Phase | Gate |
-|---|---|
-| 0 | Codebase audit clean, agentic toolkit installed (Appendix X.1 P0+P1), deferral inventory matches operator-runbook |
-| 1 | Tokens additively extended; existing tokens unchanged; `/impeccable critique` clean |
-| 2 | UI primitives elevated; new primitives shipped; per-primitive RED→GREEN commits; axe smoke clean |
-| 3 | Home polished; `/design-review` passes; Lighthouse spot-check ≥ 90/95/95/95 |
-| 4 | Catalog/PDP/COA polished; `/design-review` per page passes; Lighthouse spot-check ≥ 90/95/95/95 |
-| 5 | Checkout/account/order polished; protected-path commits passed `/review` + `/cso`; verbatim compliance copy unchanged |
-| 6 | Legal/about/FAQ/blog/aux polished; verbatim text unchanged (`git diff` audited) |
-| 7 | Motion vocabulary applied; reduced-motion verified; bundle ≤ 250KB initial JS gzipped |
-| 8 | A11y per page: 0 critical/serious axe; manual audit complete; Lighthouse a11y ≥ 95 |
-| 9 | Bundle audited; structured data validates; sitemap + robots.txt + OG image ready; Lighthouse perf ≥ 90 |
-| 10 | All 6 services wired; protected-paths reviewed (`// SCANNER_OK`); no real creds in source |
-| 11 | E2E unskipped; visual-regression baseline captured + operator-approved; Lighthouse CI active; all 4 GitHub Actions workflows committed |
-| 12 | Production deploy live; DNS pointed; branch protection active; v1.1.0 tagged |
-| 13 | Real-payment tests succeed; canary 2-hour clean; docs updated; retro scheduled |
+| Phase | Gate                                                                                                                                   |
+| ----- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 0     | Codebase audit clean, agentic toolkit installed (Appendix X.1 P0+P1), deferral inventory matches operator-runbook                      |
+| 1     | Tokens additively extended; existing tokens unchanged; `/impeccable critique` clean                                                    |
+| 2     | UI primitives elevated; new primitives shipped; per-primitive RED→GREEN commits; axe smoke clean                                       |
+| 3     | Home polished; `/design-review` passes; Lighthouse spot-check ≥ 90/95/95/95                                                            |
+| 4     | Catalog/PDP/COA polished; `/design-review` per page passes; Lighthouse spot-check ≥ 90/95/95/95                                        |
+| 5     | Checkout/account/order polished; protected-path commits passed `/review` + `/cso`; verbatim compliance copy unchanged                  |
+| 6     | Legal/about/FAQ/blog/aux polished; verbatim text unchanged (`git diff` audited)                                                        |
+| 7     | Motion vocabulary applied; reduced-motion verified; bundle ≤ 250KB initial JS gzipped                                                  |
+| 8     | A11y per page: 0 critical/serious axe; manual audit complete; Lighthouse a11y ≥ 95                                                     |
+| 9     | Bundle audited; structured data validates; sitemap + robots.txt + OG image ready; Lighthouse perf ≥ 90                                 |
+| 10    | All 6 services wired; protected-paths reviewed (`// SCANNER_OK`); no real creds in source                                              |
+| 11    | E2E unskipped; visual-regression baseline captured + operator-approved; Lighthouse CI active; all 4 GitHub Actions workflows committed |
+| 12    | Production deploy live; DNS pointed; branch protection active; v1.1.0 tagged                                                           |
+| 13    | Real-payment tests succeed; canary 2-hour clean; docs updated; retro scheduled                                                         |
 
 ---
 
@@ -1367,6 +1405,7 @@ Save `docs/checkpoints/v4_phase_10_services_wiring.md` with: per-service wiring 
 ### Appendix A — Verbatim Compliance Contract (REFERENCE LOCK)
 
 The compliance contract is LOCKED in code:
+
 - Footer disclaimer (every page): `components/SiteFooter.tsx:103-118` — verbatim from v3.0 Appendix A.1
 - Product page disclaimer (every PDP): `app/products/[slug]/page.tsx:188-201` — verbatim from v3.0 Appendix A.2
 - Age gate text-checkbox at first cart action: `app/checkout/review/ReviewPanel.tsx:196-208` — verbatim from v3.0 Appendix A.3
@@ -1382,6 +1421,7 @@ DO NOT modify any of the above without operator-issued LOCKED_OVERRIDE per §6.3
 Reference v3.0 Appendix B in `/root/peptide-launch-bundle/corpus/SUPER_PROMPT_v3_2026-05-08.md` lines 1116-1155. The 22-event aggregate of FDA + DOJ + ITC enforcement events. v4 carries forward unchanged.
 
 Key prohibitions enforced in code via `lib/compliance.ts` patterns:
+
 - No disease names, no therapeutic-action verbs, no dosing protocols, no approved-pharmaceutical comparisons
 - No "helps in" / "reduces" unhedged claims
 - No before/after imagery (vendor-side; affiliate creators are separate liability layer)
@@ -1395,12 +1435,14 @@ Reference v3.0 Appendix C lines 1156-1209. 19 FDA warning letters + 3 DOJ guilty
 ### Appendix D — Brand (LOCKED — Vialchems Labs Posture A)
 
 LOCKED per Iron Law 2.26. Source-of-truth files:
+
 - `lib/content/site.ts` — siteConfig (name, brandStem, domain, url, description, tagline, posture)
 - `lib/design/tokens.ts` — color/typography/spacing/radius/motion/zIndex tokens
 - `app/globals.css` — CSS custom properties mirror
 - `app/layout.tsx` — IBM Plex Sans/Mono + Newsreader Italic font loading
 
 Brand attributes (do NOT change without operator LOCKED_OVERRIDE):
+
 - Name: Vialchems Labs
 - Posture: A (clean clinical) per v3.0 Appendix V.2
 - Domain: vialchems.labs (literal `.labs` TLD; fallback vialchems.com)
@@ -1414,15 +1456,15 @@ Brand attributes (do NOT change without operator LOCKED_OVERRIDE):
 
 LOCKED per `STAGE6_MANIFEST.yaml:53-76` (`opening_sku_set: LOCKED_DEFAULT`). Source-of-truth: `lib/content/products.ts` (catalog metadata) + `lib/content/product-descriptions.ts` (verbatim 336-345 word descriptions per v3.0 Appendix E.1).
 
-| # | SKU | Format | List | Per-mg | Position | Role |
-|---|---|---|---|---|---|---|
-| 1 | BPC-157 10mg | vial | $54.00 | $5.40 | 10% below median | loss-leader |
-| 2 | TB-500 5mg | vial | $34.00 | $6.80 | 5% below median | loss-leader |
-| 3 | GHK-Cu 50mg | vial | $34.00 | $0.68 | 9% below median | loss-leader |
-| 4 | Ipamorelin 10mg | vial | $50.00 | $5.00 | just below p25 | volume driver |
-| 5 | CJC-1295 (no DAC) 5mg | vial | $25.00 | $5.00 | just below p25 | volume driver |
-| 6 | MOTS-c 10mg | vial | $48.00 | $4.80 | median | catalog filler |
-| 7 | Selank 10mg | vial | $48.00 | $4.80 | just below median | catalog filler |
+| #   | SKU                   | Format | List   | Per-mg | Position          | Role           |
+| --- | --------------------- | ------ | ------ | ------ | ----------------- | -------------- |
+| 1   | BPC-157 10mg          | vial   | $54.00 | $5.40  | 10% below median  | loss-leader    |
+| 2   | TB-500 5mg            | vial   | $34.00 | $6.80  | 5% below median   | loss-leader    |
+| 3   | GHK-Cu 50mg           | vial   | $34.00 | $0.68  | 9% below median   | loss-leader    |
+| 4   | Ipamorelin 10mg       | vial   | $50.00 | $5.00  | just below p25    | volume driver  |
+| 5   | CJC-1295 (no DAC) 5mg | vial   | $25.00 | $5.00  | just below p25    | volume driver  |
+| 6   | MOTS-c 10mg           | vial   | $48.00 | $4.80  | median            | catalog filler |
+| 7   | Selank 10mg           | vial   | $48.00 | $4.80  | just below median | catalog filler |
 
 Bundle: Recovery Stack (BPC-157 10mg + TB-500 5mg) at $77.00 (12.5% effective discount).
 Intro promo: WELCOME15 (15% off first order via newsletter signup, gated by RUO ack + age gate).
@@ -1436,6 +1478,7 @@ Iron Law 2.7 + 2.14 enforcement: NO BAC water, NO tirzepatide, NO semaglutide, N
 LOCKED per `STAGE6_MANIFEST.yaml:113-142` (`payment_stack: LOCKED_DEFAULT`). Source-of-truth: `lib/payments/types.ts` (`PaymentProviderId = 'stub' | 'btcpay' | 'plaid'` — FROZEN per Iron Law 2.20) + `lib/payments/config.ts` (registry with Stripe/PayPal/Square/Shopify fallback to `'stub'` proven in tests).
 
 Day-1 (v3.0 + v4 production):
+
 - Tier 1 crypto: BTCPay Server self-hosted OR Voltage Cloud (BTC, LTC; optional ETH); 15% discount; v4 Phase 10 wires real
 - Tier 2 bank: Plaid ACH; 5% discount; 3-4 day clearance; v4 Phase 10 wires real (HMAC→JWKS migration)
 
@@ -1518,6 +1561,7 @@ FDA decodes these in enforcement letters. v4 catalog already excludes GLP-1 enti
 ### Appendix T — Skill Adaptation Policy (REFERENCE)
 
 Reference v3.0 Appendix T. When porting a pattern from any reference repo (Mogtrix, `affaan-m/everything-claude-code`, etc.):
+
 1. Copy the underlying idea, not the external product identity
 2. Rename when the v4.0 surface changes substantially
 3. Prefer v4.0-native rules/skills/scripts over new third-party defaults
@@ -1531,6 +1575,7 @@ Reference v3.0 Appendix T. When porting a pattern from any reference repo (Mogtr
 Reference v3.0 Appendix U. v4 EXTENDS:
 
 **U.1 — CVE threat surface (carry forward + new):**
+
 - CVE-2025-59536 (Claude Code remote-fetch pre-trust): mitigated by Iron Law 2.16 supply-chain scanner
 - CVE-2026-21852 (`ANTHROPIC_BASE_URL` hijacking): mitigated by scanner
 - Snyk ToxicSkills 2025 (36% prompt-injection in public skills): every v4 toolkit install (Appendix X.1) audited per Appendix T.7
@@ -1544,6 +1589,7 @@ Reference v3.0 Appendix U. v4 EXTENDS:
 **U.5 — Compliance + LLC isolation posture:** Same as v3.0. Operator pre-launch action.
 
 **U.6 — Active monitoring posture (v4 LIVE — per Phase 10 Sentry wiring):**
+
 - Sentry alerts active per Phase 10.3 thresholds
 - gstack `/canary` 2-hour post-deploy in Phase 13
 - Weekly `/retro` (operator cadence post-launch)
@@ -1553,6 +1599,7 @@ Reference v3.0 Appendix U. v4 EXTENDS:
 ### Appendix V — Vendor-Archetype Design Reasoning Rules (REFERENCE — Posture A locked)
 
 Reference v3.0 Appendix V.2 (Posture A row). LOCKED per Iron Law 2.26. v4 design elevation operates within Posture A constraints:
+
 - Recommended pattern: grid-disciplined catalog + asymmetric vial-dominant home + dense COA tables + research-paper-tone blog
 - Color: charcoal `--bg #0a0e0f`, surface `--surface #141a1c`, accent `--accent #3dd4c8` teal, electric `--electric #67e8f9` (atmospheric secondary)
 - Typography: IBM Plex Sans + IBM Plex Mono + Newsreader Italic (hero pull-quotes only)
@@ -1564,12 +1611,14 @@ Reference v3.0 Appendix V.2 (Posture A row). LOCKED per Iron Law 2.26. v4 design
 Reference v3.0 Appendix W (W.1 Visual Quality through W.7 Performance). v4 EXTENDS each section:
 
 **W.1 Visual Quality (extended):**
+
 - All v3.0 items, plus:
 - [ ] Visual-regression diff vs Phase 11 baseline ≤ 0.1% pixel difference (Iron Law 2.18)
 - [ ] No new shadow values outside the Phase 1 token scale
 - [ ] Brand wordmark unchanged; tagline "Counted, weighed, verified." present in footer
 
 **W.2 Interaction (extended):**
+
 - All v3.0 items, plus:
 - [ ] Toast surface for transient feedback (replaces inline message states)
 - [ ] Dialog surface for destructive actions (cancel order, refund request)
@@ -1578,10 +1627,12 @@ Reference v3.0 Appendix W (W.1 Visual Quality through W.7 Performance). v4 EXTEN
 **W.3 Light/Dark Mode:** Vialchems is dark-only Day-1; light mode out of scope for v4. (Visual-regression baseline captures both for future-proof.)
 
 **W.4 Layout + Responsive (extended):**
+
 - All v3.0 items, plus:
 - [ ] Verified at 375px / 768px / 1024px / 1440px viewport widths (visual regression captures 3 viewports)
 
 **W.5 Accessibility + Motion (extended):**
+
 - All v3.0 items, plus:
 - [ ] axe-core: 0 critical, 0 serious violations per page (Phase 8)
 - [ ] Lighthouse a11y ≥ 95 per page (Iron Law 2.27)
@@ -1589,12 +1640,14 @@ Reference v3.0 Appendix W (W.1 Visual Quality through W.7 Performance). v4 EXTEN
 - [ ] All `motion` library animations honor `useReducedMotion()` hook
 
 **W.6 Compliance + Brand (extended):**
+
 - All v3.0 items, plus:
 - [ ] No real credentials in committed source (Iron Law 2.22 — `grep -rE 'sk_(live|test)|production_secret' lib/ app/ components/` returns 0 hits)
 - [ ] Cookie consent banner active and operator-approved (Iron Law 2.23)
 - [ ] All protected-path commits annotated `// SCANNER_OK: reviewed-and-cso-passed` (Iron Law 2.19)
 
 **W.7 Performance (extended):**
+
 - All v3.0 items, plus:
 - [ ] Lighthouse CI runs on every PR; merges blocked below 90/95/95/95 (Iron Law 2.27)
 - [ ] Visual-regression diffs require operator approval if above threshold (Iron Law 2.25)
@@ -1603,6 +1656,7 @@ Reference v3.0 Appendix W (W.1 Visual Quality through W.7 Performance). v4 EXTEN
 ### Appendix X — Research Toolkit Application Matrix
 
 Per Hard Rule 10 of the meta-prompt that produced this document. Every tool listed in `RESEARCH_PLAN.md` (99 distinct entries) appears below. Format per entry:
+
 - **Link:** URL
 - **Category:** Claude Code agentic tool (skill / MCP / CLI / pattern / reference) — for X.1; OR site-side tool (library / framework / service / asset / inspiration) — for X.2
 - **What it does:** one sentence
@@ -1615,6 +1669,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 #### Appendix X.1 — Claude Code Agentic Toolkit (61 entries — install/configure in Phase 0)
 
 ##### X.1.1 — anthropics/skills (`frontend-design`)
+
 - **Link:** https://github.com/anthropics/skills
 - **Category:** Official Claude Code skill (frontend-design)
 - **What it does:** Anthropic's foundational design discipline; teaches Claude to think about purpose, audience, BOLD aesthetic direction, anti-patterns, and aesthetic execution before generating frontend code.
@@ -1624,6 +1679,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P0**
 
 ##### X.1.2 — pbakaus/impeccable
+
 - **Link:** https://github.com/pbakaus/impeccable
 - **Category:** Claude Code skill (23 slash commands + 27 anti-pattern rules + standalone CLI)
 - **What it does:** Anti-slop design discipline with `/audit`, `/critique`, `/polish`, `/bolder`, `/quieter`, `/typeset`, `/colorize`, `/animate`, `/layout`, `/document`, `/extract`, `/craft`, `/live`, etc.
@@ -1633,6 +1689,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P0**
 
 ##### X.1.3 — nexu-io/open-design
+
 - **Link:** https://github.com/nexu-io/open-design
 - **Category:** Full app + 31 skills + 72 brand design systems + Desktop app + MCP server
 - **What it does:** Local-first Claude Design clone; complete environment.
@@ -1642,6 +1699,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — redundant with X.1.1 + X.1.2 for the v4 use case (elevating existing Posture A brand-locked codebase, not greenfield design exploration).
 
 ##### X.1.4 — alchaincyf/huashu-design
+
 - **Link:** https://github.com/alchaincyf/huashu-design
 - **Category:** Claude Code skill (12.8k★; bilingual EN/ZH; 9 design demos; 5-step Core Asset Protocol — logo → product shots → UI screenshots → color extraction → spec documentation; 20 design-philosophies anti-slop vocabulary; HTML→MP4 + HTML→PPTX exporters)
 - **What it does:** Procedurally rigorous design generator with the strongest brand-fidelity protocol of any skill in this matrix; the README claims 5x output-variance reduction vs baseline when fed brand context; outputs include interactive prototypes, motion graphics, slide decks. Operator override of the v3.0-evaluation rejection: the skill is in scope.
@@ -1655,6 +1713,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P1** (operator-license-gated install; high leverage once paid; output discipline enforced by Iron Law 2.26)
 
 ##### X.1.5 — manalkaff/opendesign
+
 - **Link:** https://github.com/manalkaff/opendesign
 - **Category:** Claude Code skill plugin (10 skills: opendesign, setup-opendesign, run-opendesign, create-design-system, frontend-design, wireframe, interactive-prototype, make-a-deck, make-tweakable, handoff-to-claude-code)
 - **What it does:** MIT-licensed alternative to nexu-io/open-design; smaller audience (36★) but legally clean.
@@ -1664,6 +1723,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — same redundancy reasoning as X.1.3; the codebase is brand-locked Posture A and `frontend-design` + `impeccable` cover the elevation needs.
 
 ##### X.1.6 — bergside/typeui (typeui.sh)
+
 - **Link:** https://github.com/bergside/typeui + https://typeui.sh
 - **Category:** CLI to pull design "style" SKILL.md files from registry
 - **What it does:** `npx typeui.sh pull <style>` writes a SKILL.md (e.g., Glassmorphism, Brutalism, Paper, Editorial) into `.claude/skills/`.
@@ -1673,6 +1733,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED for v4** — brand is locked; aesthetic exploration is out of scope.
 
 ##### X.1.7 — bergside/awesome-design-skills
+
 - **Link:** https://github.com/bergside/awesome-design-skills
 - **Category:** Registry of 67 SKILL.md/DESIGN.md style files for AI agents (the source registry behind typeui.sh)
 - **What it does:** Curated catalog of aesthetic styles.
@@ -1682,6 +1743,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED for v4** — brand locked.
 
 ##### X.1.8 — forrestchang/andrej-karpathy-skills
+
 - **Link:** https://github.com/forrestchang/andrej-karpathy-skills
 - **Category:** Single CLAUDE.md with 4 LLM-coding pitfall principles (Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution)
 - **What it does:** Internalize the four principles as mental scaffolding.
@@ -1691,6 +1753,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P1**
 
 ##### X.1.9 — mattpocock/skills
+
 - **Link:** https://github.com/mattpocock/skills
 - **Category:** Author's skill collection (`tdd`, `grill-with-docs`, `to-prd`, `prototype`, `zoom-out`, `improve-codebase-architecture`, `diagnose`, `triage`, `caveman`, `migrate-to-shoehorn`, `setup-pre-commit`, etc.)
 - **What it does:** Battle-tested individual skills; reference-quality SKILL.md format.
@@ -1700,6 +1763,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P1** (selective install)
 
 ##### X.1.10 — davila7/claude-code-templates
+
 - **Link:** https://github.com/davila7/claude-code-templates
 - **Category:** Template aggregator (100+ agents/commands/MCPs/hooks; `frontend-developer.md`, `ui-ux-designer.md` under `agents/development-team/`)
 - **What it does:** Catalog of agent templates and prompts.
@@ -1709,6 +1773,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (reference)
 
 ##### X.1.11 — ryanthedev/design-for-ai
+
 - **Link:** https://github.com/ryanthedev/design-for-ai
 - **Category:** Single Claude Code plugin teaching design from "Design for Hackers" (CHECKER + APPLIER modes)
 - **What it does:** CHECKER audits visual hierarchy + typography + spacing; APPLIER builds against the principles.
@@ -1718,6 +1783,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — redundant with X.1.2.
 
 ##### X.1.12 — nextlevelbuilder/ui-ux-pro-max-skill
+
 - **Link:** https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
 - **Category:** Claude Code skill plugin (76k★; 67 UI styles + 161 industry-rule sets + 161 color palettes + 57 font pairings + 15 tech stacks + Python search engine + CLI; v2.5.0)
 - **What it does:** Comprehensive industry-rules engine with cross-stack pattern reference. Operator override of the v3.0-evaluation rejection: the skill is in scope despite the trust-signal flag noted below.
@@ -1732,6 +1798,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P1** (audit-gated install; 161 industry rules are the highest-quantity rule engine in this matrix; pairs well with `pbakaus/impeccable`'s 27 anti-pattern rules and `huashu-design`'s 20 design philosophies for triangulated validation)
 
 ##### X.1.13 — ceorkm/claude-design-system
+
 - **Link:** https://github.com/ceorkm/claude-design-system
 - **Category:** Claude Code skill plugin (`/extract-it`, `/expand-it`, `/merge-it`, `/design-it`)
 - **What it does:** Transform amateur UIs into professional designs from inspiration images.
@@ -1741,6 +1808,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — 7★ at evaluation; too small audience to recommend; `frontend-design` + `impeccable` cover the workflow.
 
 ##### X.1.14 — Mathews-Tom/armory
+
 - **Link:** https://github.com/Mathews-Tom/armory
 - **Category:** Skills aggregator (125-package collection: 11 agents, 57 skills, 4 rules, 5 commands, 7 hooks, 3 utilities, 5 presets)
 - **What it does:** Carefully-curated kit; `team-lead` orchestrator, code review, security audit.
@@ -1750,6 +1818,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (selective)
 
 ##### X.1.15 — Khalidabdi1/design-ai
+
 - **Link:** https://github.com/Khalidabdi1/design-ai
 - **Category:** DESIGN.md library (116 brand-derived files for 66+ brands in 9-section format)
 - **What it does:** Templates of DESIGN.md from observable patterns of major brands.
@@ -1759,6 +1828,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P1** (template source for optional `DESIGN.md`)
 
 ##### X.1.16 — VoltAgent/awesome-claude-design
+
 - **Link:** https://github.com/VoltAgent/awesome-claude-design
 - **Category:** DESIGN.md library (68 ready-to-use files in 11 brand categories)
 - **What it does:** Smaller curated set of DESIGN.md files.
@@ -1768,6 +1838,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (reference)
 
 ##### X.1.17 — VoltAgent/awesome-design-md
+
 - **Link:** https://github.com/VoltAgent/awesome-design-md
 - **Category:** DESIGN.md library (74.1k★, the biggest brand-derived DESIGN.md collection)
 - **What it does:** Largest catalog of DESIGN.md files extracted from real websites.
@@ -1777,6 +1848,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (reference)
 
 ##### X.1.18 — getdesign.md
+
 - **Link:** https://getdesign.md
 - **Category:** Curated DESIGN.md catalog (71 brand-inspired files; web-browsable)
 - **What it does:** Browsable directory of DESIGN.md files.
@@ -1786,6 +1858,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (reference)
 
 ##### X.1.19 — ComposioHQ/awesome-claude-skills
+
 - **Link:** https://github.com/ComposioHQ/awesome-claude-skills
 - **Category:** Awesome list / aggregator (58.9k★; vendor-tinted toward Composio's paid integration platform)
 - **What it does:** Curated list of skills.
@@ -1795,6 +1868,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (reference, with skepticism)
 
 ##### X.1.20 — hesreallyhim/awesome-claude-code
+
 - **Link:** https://github.com/hesreallyhim/awesome-claude-code
 - **Category:** Awesome list (43.1k★; honest community curation; mid-reorganization at evaluation)
 - **What it does:** Neutral curated list.
@@ -1804,6 +1878,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (reference)
 
 ##### X.1.21 — travisvn/awesome-claude-skills
+
 - **Link:** https://github.com/travisvn/awesome-claude-skills
 - **Category:** Awesome list (12.3k★; honest, narrower than Composio's; flags Anthropic skills + Superpowers prominently)
 - **What it does:** Narrower curated list.
@@ -1813,6 +1888,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (reference)
 
 ##### X.1.22 — rohitg00/awesome-claude-code-toolkit
+
 - **Link:** https://github.com/rohitg00/awesome-claude-code-toolkit
 - **Category:** Awesome list / kitchen-sink dump
 - **What it does:** Maximalist inventory; claims "400,000+ skills" via SkillKit marketplace (implausible).
@@ -1822,6 +1898,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — `RESEARCH_PLAN.md` §7 flagged "kitchen-sink dump with implausible '400k skills' framing — discount the framing."
 
 ##### X.1.23 — ComposioHQ/awesome-claude-plugins
+
 - **Link:** https://github.com/ComposioHQ/awesome-claude-plugins
 - **Category:** Awesome list (1.6k★; same vendor angle as X.1.19)
 - **What it does:** Plugin curation.
@@ -1831,6 +1908,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (reference, with skepticism)
 
 ##### X.1.24 — jqueryscript/awesome-claude-code
+
 - **Link:** https://github.com/jqueryscript/awesome-claude-code
 - **Category:** Awesome list (351★; niche but neutral)
 - **What it does:** Small honest catalog.
@@ -1840,6 +1918,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (reference)
 
 ##### X.1.25 — alirezarezvani/claude-skills
+
 - **Link:** https://github.com/alirezarezvani/claude-skills
 - **Category:** Skills aggregator (claims 235 skills; actually 227; scope inflation includes C-suite + Marketing skills inside coding repo)
 - **What it does:** Massive scope; some engineering-relevant skills.
@@ -1849,6 +1928,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — scope inflation flagged in `RESEARCH_PLAN.md` §7; engineering-core skills duplicate Superpowers + mattpocock; C-suite/marketing skills are out of scope.
 
 ##### X.1.26 — x1xhlol/system-prompts-and-models-of-ai-tools
+
 - **Link:** https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools
 - **Category:** Reverse-engineered system prompts archive (137k★; Cursor, Devin, Claude Code, Replit, Lovable, Manus, v0, GitHub Copilot, Windsurf, Warp.dev, Trae, Junie, Augment, Kiro, Same.dev, Perplexity, NotionAI, Dia, Z.ai Code, Xcode, VSCode Agent, Comet, etc.)
 - **What it does:** Reading material for prompt-engineering reference.
@@ -1858,6 +1938,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (reference)
 
 ##### X.1.27 — anthropics/claude-code-skills
+
 - **Link:** Does not exist (404)
 - **Category:** Misnamed — canonical official is X.1.1 (`anthropics/skills`)
 - **What it does:** n/a
@@ -1867,6 +1948,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — repository does not exist; misnaming flagged in `RESEARCH_PLAN.md` §7.
 
 ##### X.1.28 — yamadashy/repomix
+
 - **Link:** https://github.com/yamadashy/repomix
 - **Category:** CLI (24.5k★; packs entire repo into single AI-readable file)
 - **What it does:** Compresses repo state for cross-cutting context.
@@ -1876,6 +1958,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P0**
 
 ##### X.1.29 — ryoppippi/ccusage
+
 - **Link:** https://github.com/ryoppippi/ccusage
 - **Category:** CLI (14k★; token-spend telemetry per session/day/month)
 - **What it does:** Reads `~/.claude/projects/*.jsonl` and reports token spend.
@@ -1885,6 +1968,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P0**
 
 ##### X.1.30 — rtk-ai/rtk
+
 - **Link:** https://github.com/rtk-ai/rtk
 - **Category:** CLI / Bash output compressor (Rust binary, MIT)
 - **What it does:** Installs PreToolUse hook on Bash; rewrites verbose commands (`cargo test`, `git status`, `npm`, `tsc`, `prettier`, `playwright`, `pytest`) to compress output 60-90%.
@@ -1894,6 +1978,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P0**
 
 ##### X.1.31 — obra/superpowers
+
 - **Link:** https://github.com/obra/superpowers
 - **Category:** Skill plugin framework (184k★; foundational skill stack — TDD, brainstorming, writing-plans, dispatching-parallel-agents, systematic-debugging, verification-before-completion, requesting-code-review, receiving-code-review, finishing-a-development-branch, using-git-worktrees, using-superpowers)
 - **What it does:** The base skill stack this project depends on.
@@ -1903,6 +1988,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P0** (already installed)
 
 ##### X.1.32 — EveryInc/compound-engineering-plugin
+
 - **Link:** https://github.com/EveryInc/compound-engineering-plugin
 - **Category:** Plugin (16.4k★; 37 skills + 51 agents)
 - **What it does:** Brainstorming, planning, code review, debugging, docs.
@@ -1912,6 +1998,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — high quality but heavy overlap with Superpowers (X.1.31). Multiple planning frameworks in one project causes skill conflicts (per `RESEARCH_PLAN.md` §4 "What NOT to install").
 
 ##### X.1.33 — SuperClaude_Framework
+
 - **Link:** https://github.com/SuperClaude-Org/SuperClaude_Framework
 - **Category:** Plugin framework (22.6k★; 30+ commands, cognitive personas, /sc:research, Tavily MCP integration)
 - **What it does:** Heavy planning + research framework.
@@ -1921,6 +2008,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — same redundancy reasoning as X.1.32. Pick one of {Superpowers, compound-engineering, SuperClaude} per `RESEARCH_PLAN.md` §3.10.
 
 ##### X.1.34 — ComposioHQ/agent-orchestrator
+
 - **Link:** https://github.com/ComposioHQ/agent-orchestrator
 - **Category:** Plugin (6.9k★; spawns parallel Claude Code instances in git worktrees, autonomous CI/PR/conflict handling)
 - **What it does:** Multi-agent orchestration for teams.
@@ -1930,6 +2018,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — overkill for single-operator v4 work. `superpowers:dispatching-parallel-agents` + `superpowers:using-git-worktrees` cover the worktree cascade need (§4.4) sufficiently.
 
 ##### X.1.35 — safishamsi/graphify
+
 - **Link:** https://github.com/safishamsi/graphify
 - **Category:** Knowledge graph builder (tree-sitter for code, faster-whisper for AV; PreToolUse hook)
 - **What it does:** Builds local knowledge graph; Claude consults graph before Glob/Grep. Reports ~71x token reduction.
@@ -1939,6 +2028,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** — overkill for typical Next.js project; consider only if Phase 10 service-wiring runs into context limits.
 
 ##### X.1.36 — mksglu/context-mode
+
 - **Link:** https://github.com/mksglu/context-mode
 - **Category:** MCP server (intercepts tool calls, indexes raw output to local SQLite, returns compact references)
 - **What it does:** Claims 65-75% (sometimes 98%) output token reduction.
@@ -1948,6 +2038,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** — overlaps RTK (X.1.30) conceptually; pick one based on usage pattern.
 
 ##### X.1.37 — Piebald-AI/claude-code-system-prompts
+
 - **Link:** https://github.com/Piebald-AI/claude-code-system-prompts
 - **Category:** Reference archive (reverse-engineered system prompts updated within minutes of each Claude Code release)
 - **What it does:** Reading material for understanding Claude Code's runtime context.
@@ -1957,6 +2048,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (reference)
 
 ##### X.1.38 — cytostack/openwolf
+
 - **Link:** https://github.com/cytostack/openwolf
 - **Category:** Plugin (1.5k★, AGPL-3.0; 6 hooks producing anatomy.md / cerebrum.md / token-ledger.json)
 - **What it does:** Claims ~80% token reduction.
@@ -1966,6 +2058,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — AGPL incompatible with Vialchems Labs commercial venture per `RESEARCH_PLAN.md` §7.
 
 ##### X.1.39 — Maciek-roboblog/Claude-Code-Usage-Monitor
+
 - **Link:** https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor
 - **Category:** Real-time terminal monitor with ML-based predictions
 - **What it does:** Live monitor (vs ccusage retrospective).
@@ -1975,6 +2068,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — `ryoppippi/ccusage` (X.1.29) covers the use case at lower install friction.
 
 ##### X.1.40 — nyldn/claude-octopus
+
 - **Link:** https://github.com/nyldn/claude-octopus
 - **Category:** Multi-model orchestrator (Claude + Codex + Gemini + Copilot + Qwen + Ollama + Perplexity + OpenRouter)
 - **What it does:** 4-phase Discover/Define/Develop/Deliver across multiple models.
@@ -1984,6 +2078,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — conflicts with execution discipline §4.5 (single-track Opus for all v4 work).
 
 ##### X.1.41 — mercurialsolo/claudectl
+
 - **Link:** https://github.com/mercurialsolo/claudectl
 - **Category:** CLI / hive-mind orchestrator (148★; local LLM auto-pilot)
 - **What it does:** Cross-instance knowledge sharing.
@@ -1993,6 +2088,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — too small audience + complex to evaluate within v4 scope.
 
 ##### X.1.42 — Nodewarrior/spine
+
 - **Link:** https://github.com/Nodewarrior/spine
 - **Category:** Plugin (15★; auto-doc capture into Obsidian vault from commits)
 - **What it does:** Documentation automation.
@@ -2002,6 +2098,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — too low traction; gstack `/document-release` covers v4 documentation needs.
 
 ##### X.1.43 — InfinriDev/Phaselock
+
 - **Link:** https://github.com/infinri/Phaselock (404 / abandoned)
 - **Category:** Plugin (claimed 80 enforceable rules + pre/post hooks for AI code enforcement)
 - **What it does:** n/a (abandoned).
@@ -2011,6 +2108,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — repository 404 / abandoned per `RESEARCH_PLAN.md` §7.
 
 ##### X.1.44 — KhazP/vibe-coding-prompt-template
+
 - **Link:** https://github.com/KhazP/vibe-coding-prompt-template
 - **Category:** Static prompt templates (2.4k★; research → PRD → tech design → implementation)
 - **What it does:** MVP workflow templates.
@@ -2020,6 +2118,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — redundant with Superpowers `brainstorming` + `writing-plans` + `to-prd` skills.
 
 ##### X.1.45 — AIOSAI/AIPass
+
 - **Link:** https://github.com/AIOSAI/AIPass
 - **Category:** Multi-agent framework (99★; uses `--permission-mode bypassPermissions`)
 - **What it does:** Local multi-agent.
@@ -2029,6 +2128,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — security smell per `RESEARCH_PLAN.md` §7; conflicts with Iron Law 2.16.
 
 ##### X.1.46 — claude-meter.com
+
 - **Link:** https://claude-meter.com
 - **Category:** macOS menu bar app ($5/mo Pro; reads claude.ai/settings/usage server-side)
 - **What it does:** Live usage tracker.
@@ -2038,6 +2138,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — Linux/WSL environment (per CODEBASE_UNDERSTANDING.md system info); macOS-only tool incompatible. Free `ccusage` (X.1.29) covers the need.
 
 ##### X.1.47 — sharedcontext.ai
+
 - **Link:** https://sharedcontext.ai
 - **Category:** Marketplace/sync platform for AI skills as markdown files
 - **What it does:** Cross-IDE skill sync.
@@ -2047,6 +2148,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — too early to evaluate per `RESEARCH_PLAN.md` §7; watch but don't depend on it.
 
 ##### X.1.48 — finds.dev
+
 - **Link:** https://finds.dev
 - **Category:** Newsletter (weekly GitHub-repo discovery; 3-5 repos/week)
 - **What it does:** Discovery feed.
@@ -2056,6 +2158,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — wrong category (newsletter, not a CC tool).
 
 ##### X.1.49 — respira.press
+
 - **Link:** https://respira.press
 - **Category:** WordPress AI infrastructure plugin (234 tools across 12 page builders)
 - **What it does:** WP-only AI infrastructure.
@@ -2065,6 +2168,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — WordPress-only; Vialchems Labs is Next.js/React per stack.
 
 ##### X.1.50 — ARS CONTEXTA
+
 - **Link:** https://www.arscontexta.org/
 - **Category:** Knowledge-system generator (personalized markdown vault, Obsidian-style wiki links)
 - **What it does:** Personal knowledge management.
@@ -2074,6 +2178,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — wrong category per `RESEARCH_PLAN.md` §7.
 
 ##### X.1.51 — Mem-Palace
+
 - **Link:** https://www.mempalace.tech/
 - **Category:** AI memory system (96.6% raw / 100% hybrid on LongMemEval; celebrity-backed)
 - **What it does:** General AI memory, not Claude Code-specific.
@@ -2083,6 +2188,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — wrong category per `RESEARCH_PLAN.md` §7.
 
 ##### X.1.52 — Traycer
+
 - **Link:** https://traycer.ai
 - **Category:** Spec-driven dev orchestrator (passes context to Cursor/Claude Code/etc.)
 - **What it does:** Orchestrates code changes based on specs.
@@ -2092,6 +2198,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — competes with Superpowers `writing-plans` + `executing-plans`; pick one stack.
 
 ##### X.1.53 — GSD ("Get Shit Done")
+
 - **Link:** https://github.com/gsd-build/get-shit-done
 - **Category:** Spec-driven dev framework (six-command loop: questions → research → requirements → roadmap)
 - **What it does:** Planning framework.
@@ -2101,6 +2208,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — same redundancy reasoning as X.1.32.
 
 ##### X.1.54 — DESIGN.md pattern (workflow methodology)
+
 - **Link:** https://www.mindstudio.ai/blog/google-stitch-design-md-claude-code-consistent-ui (originator: Google Stitch)
 - **Category:** Workflow methodology
 - **What it does:** Single markdown file at repo root with structured tokens (color, typography, spacing, motion) + prose rationale; Claude reads automatically.
@@ -2110,6 +2218,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P1** (optional Phase 1 deliverable)
 
 ##### X.1.55 — Two-document approach (workflow methodology)
+
 - **Link:** Anthropic Claude Design + community
 - **Category:** Workflow methodology (`design-philosophy.md` "why" + `design-system.md` "what")
 - **What it does:** Separates judgment/evaluation (philosophy) from specs/tokens (system) so Claude can both follow rules AND judge edge cases.
@@ -2122,6 +2231,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (optional)
 
 ##### X.1.56 — Design tokens 3-tier hierarchy (workflow methodology)
+
 - **Link:** UXPin / Contentful / standard practice
 - **Category:** Workflow methodology (Primitive → Semantic → Component layers)
 - **What it does:** Three-tier token hierarchy for AI-correctness.
@@ -2131,6 +2241,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P1** (Phase 1 deliverable)
 
 ##### X.1.57 — Screenshot → design_guidelines JSON (workflow methodology)
+
 - **Link:** Reddit (VividBrush9973 pattern)
 - **Category:** Workflow methodology (extract tokens from reference screenshot into JSON, treat as constraint)
 - **What it does:** Reverse-engineer a visual into JSON tokens.
@@ -2140,6 +2251,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side)
 
 ##### X.1.58 — HTML prototype share workflow (workflow methodology)
+
 - **Link:** Reddit (gvoider pattern)
 - **Category:** Workflow methodology (generate HTML mockups, host on shared container, comment, iterate)
 - **What it does:** Lightweight design-share alternative to Figma.
@@ -2149,6 +2261,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side)
 
 ##### X.1.59 — Single Loop architecture (workflow methodology)
+
 - **Link:** Reddit (fs2d pattern)
 - **Category:** Workflow methodology (slim ~60-line system prompt + on-demand skills, vs multi-agent loops)
 - **What it does:** Keeps active context window clean; prevents drift.
@@ -2158,6 +2271,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P1** (architectural reference)
 
 ##### X.1.60 — Cursor's visual editor
+
 - **Link:** Cursor IDE feature
 - **Category:** Cross-IDE feature (not portable to Claude Code)
 - **What it does:** Visual editor inside Cursor for nudging code without describing in words.
@@ -2167,6 +2281,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — not portable to Claude Code per `RESEARCH_PLAN.md` Misc table.
 
 ##### X.1.61 — Vercel Agent
+
 - **Link:** https://vercel.com (browser-scanning agent)
 - **Category:** Vercel-platform feature
 - **What it does:** Vercel's browser-scanning agent for site testing.
@@ -2178,6 +2293,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 #### Appendix X.2 — Site-Side Toolkit (38 entries — integrated in their relevant phases)
 
 ##### X.2.1 — Google Stitch
+
 - **Link:** https://stitch.withgoogle.com
 - **Category:** AI mockup/builder SaaS (free, 350 gen/mo; Gemini-backed; Figma + MCP export)
 - **What it does:** Prompt-to-UI design tool with multi-screen flow generation.
@@ -2187,6 +2303,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side; not Day-1 v4)
 
 ##### X.2.2 — v0 (Vercel)
+
 - **Link:** https://v0.app
 - **Category:** AI app/site builder SaaS ($5 free → $20/mo); React + Tailwind + shadcn/ui output
 - **What it does:** Generate full React+shadcn components from prompt; deploy to Vercel.
@@ -2196,6 +2313,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED for v4** — adaptation overhead > benefit for an existing brand-locked codebase.
 
 ##### X.2.3 — Lovable
+
 - **Link:** https://lovable.dev
 - **Category:** AI full-stack app builder SaaS (Free 30/mo → $25/mo)
 - **What it does:** "Vibe-coding" app builder.
@@ -2205,6 +2323,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED for v4** — same adaptation overhead as X.2.2.
 
 ##### X.2.4 — Bolt.new
+
 - **Link:** https://bolt.new
 - **Category:** AI app builder SaaS (1M free tokens → $25/mo); MCP support; in-browser WebContainer
 - **What it does:** Full-stack app builder with MCP Connectors (Notion, Linear, GitHub, Miro, Sentry, Jira).
@@ -2214,6 +2333,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side post-launch)
 
 ##### X.2.5 — Base44
+
 - **Link:** https://base44.com (acquired by Wix Jun 2025)
 - **Category:** AI all-in-one app builder SaaS (Free 25 cred → $16/mo)
 - **What it does:** Web app + auth + DB + integrations.
@@ -2223,6 +2343,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED for v4** — wrong category (full-stack platform; Vialchems is custom-coded Next.js).
 
 ##### X.2.6 — tweakcn
+
 - **Link:** https://tweakcn.com (https://github.com/jnsahaj/tweakcn)
 - **Category:** Visual no-code theme editor for shadcn/ui (free, OSS)
 - **What it does:** Generate Tailwind v4 CSS variables visually.
@@ -2232,6 +2353,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED for v4** — brand locked.
 
 ##### X.2.7 — Figma Make
+
 - **Link:** https://www.figma.com/make
 - **Category:** AI prompt-to-prototype inside Figma (Free 500 cred → $16/seat)
 - **What it does:** Generate Figma frames from prompt.
@@ -2241,6 +2363,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side post-launch)
 
 ##### X.2.8 — Magic Patterns
+
 - **Link:** https://magicpatterns.com
 - **Category:** AI design tool SaaS (Free → $20/seat → $100/seat); first-class Cursor/CC MCP, Claude.ai connector; SOC 2
 - **What it does:** Design + ship to existing product stack via MCP.
@@ -2250,6 +2373,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side post-launch)
 
 ##### X.2.9 — Mowgli
+
 - **Link:** https://mowgli.ai
 - **Category:** AI design canvas SaaS (free + paid; whole-product mapping)
 - **What it does:** Maps entire product (flows, journeys, screens); exports curated AI bundle for CC/Cursor/Codex.
@@ -2259,6 +2383,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side post-launch)
 
 ##### X.2.10 — Moonchild AI
+
 - **Link:** https://moonchild.ai
 - **Category:** AI design SaaS (Pro $12.75/mo → Max $46/mo); Moonchild MCP
 - **What it does:** Designs INSIDE existing design system from PRD; MCP-native.
@@ -2268,6 +2393,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side post-launch)
 
 ##### X.2.11 — Durable
+
 - **Link:** https://durable.com
 - **Category:** AI business builder SaaS (Free → $22/mo)
 - **What it does:** Site + CRM + invoicing + booking.
@@ -2277,6 +2403,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — wrong category (no code export; Vialchems is custom-coded).
 
 ##### X.2.12 — Gamma
+
 - **Link:** https://gamma.app
 - **Category:** AI presentation/document/website builder (Free 400 cred → $8/mo)
 - **What it does:** Slides + docs + marketing sites.
@@ -2286,6 +2413,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — wrong category (slides/marketing; not app UI).
 
 ##### X.2.13 — Uizard
+
 - **Link:** https://uizard.io (acquired by Miro Jun 2024)
 - **Category:** AI sketch/screenshot → mockup SaaS (Free 3/mo → $12/mo)
 - **What it does:** Hand-drawn-wireframe-to-mockup capture.
@@ -2295,6 +2423,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — wrong workflow (no sketch input for v4); post-acquisition uncertainty per `RESEARCH_PLAN.md` §3.3 Tier 3.
 
 ##### X.2.14 — Relume
+
 - **Link:** https://relume.io
 - **Category:** AI sitemap → wireframe → component library for Webflow/Figma/React (Free → $26/seat)
 - **What it does:** 1,000+ components for marketing sites.
@@ -2304,6 +2433,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — Webflow/marketing-site oriented; Vialchems is custom React/Next.js for app UI.
 
 ##### X.2.15 — UXMagic.ai
+
 - **Link:** https://uxmagic.ai
 - **Category:** AI URL/text/sketch → Figma SaaS (Free 30 once → ~$25/mo)
 - **What it does:** Multi-input → Figma; can clone existing sites.
@@ -2313,6 +2443,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — no need for Figma output; designer not in loop Day-1.
 
 ##### X.2.16 — Quiver AI
+
 - **Link:** https://quiver.ai
 - **Category:** AI native vector model ($8.3M seed; Free 10 → paid; API only)
 - **What it does:** Clean SVG icons/logos/typography generation.
@@ -2322,6 +2453,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side post-launch for new vector assets)
 
 ##### X.2.17 — Recraft AI
+
 - **Link:** https://recraft.ai
 - **Category:** AI vector + raster design SaaS (Free 30/day → $25/mo); SVG + PNG + Lottie + CMYK
 - **What it does:** Mature AI image + vector design.
@@ -2331,6 +2463,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side post-launch)
 
 ##### X.2.18 — svgs.app
+
 - **Link:** https://svgs.app
 - **Category:** Unclear (thin landing; minimal docs/team/pricing)
 - **What it does:** Possibly free AI SVG generator + library.
@@ -2340,6 +2473,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — `RESEARCH_PLAN.md` §7 flagged "no signal — likely thin SEO landing or barely-launched side project; use Recraft or QuiverAI for real SVG work."
 
 ##### X.2.19 — Remotion
+
 - **Link:** https://remotion.dev
 - **Category:** Programmatic video as React components (45k★; Free ≤3 / $25/mo)
 - **What it does:** Compose MP4/etc videos in React.
@@ -2349,6 +2483,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side post-launch)
 
 ##### X.2.20 — Midjourney
+
 - **Link:** https://midjourney.com
 - **Category:** AI image generation (subscription; raster only)
 - **What it does:** Inspiration / mood-boards.
@@ -2358,6 +2493,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — inspiration only per `RESEARCH_PLAN.md` §3.3 Tier 3; not a UI design tool; not a Day-1 asset source.
 
 ##### X.2.21 — dotless.co
+
 - **Link:** https://dotless.co
 - **Category:** Lead-generation SaaS for finding businesses without websites (waitlist; Free 10 → $9/mo)
 - **What it does:** B2B lead-gen for web designers.
@@ -2367,6 +2503,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — wrong category (lead-gen for designers; not a Vialchems tool).
 
 ##### X.2.22 — shadcn/ui
+
 - **Link:** https://ui.shadcn.com
 - **Category:** Copy-paste React component system on Radix + Tailwind (114k★, MIT); official MCP
 - **What it does:** Components you own (CLI copies source into repo).
@@ -2376,6 +2513,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (MCP for reference only; do NOT install components)
 
 ##### X.2.23 — 21st.dev
+
 - **Link:** https://21st.dev
 - **Category:** shadcn-compatible component marketplace + AI generation (Magic MCP via @21st-dev/magic-mcp)
 - **What it does:** Marketplace + AI-generated shadcn-compat components.
@@ -2385,6 +2523,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side post-launch if shadcn adoption considered)
 
 ##### X.2.24 — Storybook
+
 - **Link:** https://storybook.js.org
 - **Category:** Component workshop / documentation / visual testing (89.8k★, MIT); official MCP in v10.3 (React-only currently)
 - **What it does:** Build/document/test UI components in isolation.
@@ -2394,6 +2533,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side post-launch)
 
 ##### X.2.25 — Lucide
+
 - **Link:** https://lucide.dev
 - **Category:** Icon set (~1,700 line icons, ISC, ~22.5k★)
 - **What it does:** Default React icon library.
@@ -2403,6 +2543,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P0** (already installed)
 
 ##### X.2.26 — Heroicons
+
 - **Link:** https://heroicons.com
 - **Category:** Icon set (316 icons by Tailwind Labs, MIT, 4 sizes)
 - **What it does:** Pixel-perfect small-size icons.
@@ -2412,6 +2553,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — Lucide is the locked icon system.
 
 ##### X.2.27 — Phosphor Icons
+
 - **Link:** https://phosphoricons.com
 - **Category:** Icon set (1,248+ icons in 6 weights — Thin/Light/Regular/Bold/Fill/Duotone, MIT)
 - **What it does:** Multi-weight icons.
@@ -2421,6 +2563,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — Lucide is the locked icon system.
 
 ##### X.2.28 — SVG Repo
+
 - **Link:** https://www.svgrepo.com
 - **Category:** SVG marketplace / aggregator (500k+ free SVGs, mixed licenses)
 - **What it does:** One-off SVG asset source.
@@ -2430,6 +2573,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side post-launch)
 
 ##### X.2.29 — Motion (formerly Framer Motion)
+
 - **Link:** https://motion.dev
 - **Category:** Animation library (MIT OSS core; Motion+ is paid premium upsell)
 - **What it does:** Declarative animation for React/JS/Vue.
@@ -2439,6 +2583,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P0** (Phase 7)
 
 ##### X.2.30 — Lottie / LottieFiles
+
 - **Link:** https://lottiefiles.com
 - **Category:** JSON-based vector animation format + ecosystem (MIT player; freemium platform)
 - **What it does:** Tiny vector animations playable in any framework.
@@ -2448,6 +2593,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side post-launch)
 
 ##### X.2.31 — Figma
+
 - **Link:** https://figma.com
 - **Category:** Design + collaboration platform (proprietary SaaS; official MCP server in Dev Mode)
 - **What it does:** Industry-standard design tool.
@@ -2457,6 +2603,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side post-launch)
 
 ##### X.2.32 — Excalidraw
+
 - **Link:** https://excalidraw.com
 - **Category:** Hand-drawn whiteboard / diagramming (MIT OSS)
 - **What it does:** Quick architecture sketches.
@@ -2466,6 +2613,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side workshop)
 
 ##### X.2.33 — Penpot
+
 - **Link:** https://penpot.app
 - **Category:** Open-source Figma alternative (MPL 2.0)
 - **What it does:** Self-hostable design tool with SVG-native output; recently shipped Penpot MCP.
@@ -2475,6 +2623,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side post-launch alternative)
 
 ##### X.2.34 — Adobe XD
+
 - **Link:** https://adobe.com/products/xd
 - **Category:** Legacy design tool (END OF LIFE since 2022)
 - **What it does:** Historical UI design.
@@ -2484,6 +2633,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **REJECTED** — End of life since 2022; removed from sale Jun 2023; no roadmap per `RESEARCH_PLAN.md` §7. Do NOT start any work in XD.
 
 ##### X.2.35 — Miro
+
 - **Link:** https://miro.com
 - **Category:** Infinite-canvas collaboration / whiteboard (proprietary SaaS)
 - **What it does:** Workshops, ideation.
@@ -2493,6 +2643,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (operator-side workshop)
 
 ##### X.2.36 — Mobbin
+
 - **Link:** https://mobbin.com
 - **Category:** Mobile + web UI/UX inspiration library (SaaS; Pro ~$10/mo)
 - **What it does:** 600,000+ real-app screenshots organized by flow.
@@ -2502,6 +2653,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P1** (operator-side reference for Phase 3-6 calibration)
 
 ##### X.2.37 — Dribbble
+
 - **Link:** https://dribbble.com
 - **Category:** Designer portfolio / inspiration (free browse + Pro tier)
 - **What it does:** Mood-board.
@@ -2511,6 +2663,7 @@ Per Hard Rule 10 of the meta-prompt that produced this document. Every tool list
 - **Priority:** **P2** (reference)
 
 ##### X.2.38 — Framer (the site builder, NOT framer-motion)
+
 - **Link:** https://framer.com
 - **Category:** AI-augmented no-code site builder (proprietary SaaS)
 - **What it does:** Designer-first site builder competing with Webflow/Wix/WordPress.
@@ -2536,6 +2689,7 @@ Per Iron Laws 2.18 + 2.25.
 **Tool choice:** Playwright `toHaveScreenshot()` (built-in; zero extra dependency beyond `@playwright/test` already in `package.json` devDependencies).
 
 **Coverage:**
+
 - All 38 routes (per CODEBASE_UNDERSTANDING.md §4 route table)
 - 3 viewports: 375px (mobile), 768px (tablet), 1440px (desktop)
 - 2 color schemes: system default + dark (Vialchems is dark-only Day-1; capture both for future-proof)
@@ -2555,21 +2709,25 @@ Per Iron Laws 2.18 + 2.25.
 5. Commit baseline + approval artifact
 
 **Snapshot storage:**
+
 - Snapshots committed to `tests/e2e/__screenshots__/` directly
 - If total size > 50MB, switch to git LFS: `git lfs track "tests/e2e/__screenshots__/**/*.png"` and re-commit
 - `.gitignore` exception: `tests/e2e/__screenshots__/` is committed (do NOT gitignore)
 
 **Diff threshold:**
+
 - Default per `playwright.config.ts`: `expect.toHaveScreenshot.maxDiffPixelRatio: 0.001` (0.1%)
 - Per-page override possible via `expect(page).toHaveScreenshot({ maxDiffPixelRatio: 0.005 })` for pages with intentional dynamic content (e.g., year in footer copyright); document each override in `tests/e2e/visual.spec.ts` inline comments
 
 **CI integration (Phase 12):**
+
 - `.github/workflows/visual.yml` runs `npx playwright test tests/e2e/visual.spec.ts` on every PR
 - On diff: workflow uploads diff images as PR artifact + posts a PR comment with thumbnails
 - PR cannot merge unless: (a) no diffs above threshold, OR (b) operator explicitly approves the PR after reviewing the diff (Iron Law 2.25)
 - Branch protection rule (Phase 12 deliverable) requires the visual-regression status check + operator review
 
 **Diff approval flow:**
+
 1. PR author runs locally: `npx playwright test tests/e2e/visual.spec.ts` to see diffs
 2. If intentional change: PR author runs `npx playwright test tests/e2e/visual.spec.ts --update-snapshots` and commits new baseline
 3. Operator reviews PR; if visual change is desired, operator approves PR explicitly
@@ -2736,37 +2894,38 @@ After agent applies these values:
 
 Every open deferral from `docs/operator-runbook.md` and `CODEBASE_UNDERSTANDING.md` §8 mapped to its v4 closing phase. Phase 12 verification gate confirms all are ✓.
 
-| # | Deferral (from v3.0) | Source | Closes in v4 phase |
-|---|---|---|---|
-| D1 | Real Resend wire (4-email welcome sequence + lead magnet PDF generation) | runbook §1.2 | Phase 10.2 |
-| D2 | Real Supabase Auth + email-link tokens, 1h expiry, single-use | Phase 10 v3.0 + Phase 13 codex review | Phase 10.1 |
-| D3 | Order persistence to Supabase (`orders`, `order_items`, `order_status_history`, `payments`) + RLS | Phase 13 codex review | Phase 10.1 |
-| D4 | Customer qualification submission persistence (`customer_qualifications` table) | Phase 13 codex review | Phase 10.1 |
-| D5 | Email subscriptions persistence (`email_subscriptions` table linked to `orders.promo_code`) | Phase 13 codex review | Phase 10.1 |
-| D6 | Audit log persistence (`audit_log` table) | architecture plan §4 | Phase 10.1 |
-| D7 | `app/api/access/route.ts` (qualification persistence endpoint) | CODEBASE_UNDERSTANDING.md §3 (protected paths note) | Phase 10.1 |
-| D8 | Real Plaid `createIntent` (Plaid Link + Transfer flow) | Phase 13 codex review (lib/payments/plaid.ts) | Phase 10.4 |
-| D9 | Plaid HMAC → JWT/JWKS migration | Phase 13 codex review explicit deferral | Phase 10.4 |
-| D10 | Real BTCPay `createIntent` (Greenfield POST `/api/v1/stores/{storeId}/invoices`) | Phase 13 codex review (lib/payments/btcpay.ts) | Phase 10.5 |
-| D11 | BTCPay Server provisioning (Docker self-host OR Voltage Cloud) | runbook §6 + Phase 14 procedure | Phase 10.5 (operator side) |
-| D12 | Sentry instrumentation activation in `next.config.ts` | architecture plan §2 + CODEBASE_UNDERSTANDING.md §8 | Phase 10.3 |
-| D13 | Sentry alerts (error rate >1%, payment-flow >0.1%, webhook signature failure, performance LCP >4s) | Phase 15 v3.0 + architecture plan | Phase 10.3 |
-| D14 | Cookie consent banner (operator decision deferred) | Phase 10 v3.0 + Phase 13 review | Phase 10.6 |
-| D15 | Layer 3 jurisdictional check in `lib/payments/reconciliation.ts` (post-payment confirmation) | CODEBASE_UNDERSTANDING.md §3 (Iron Law 2.8 enforcement) | Phase 10.1 (with order persistence) |
-| D16 | E2E Playwright unskip + browser provisioning | tests/e2e/checkout-{ach,crypto}.spec.ts test.skip(true) | Phase 11 |
-| D17 | Lighthouse CI gate activation | Phase 12 v3.0 deferred + Iron Law 2.27 | Phase 11 |
-| D18 | Vercel production deploy (interactive auth required from operator) | Phase 14 v3.0 deferred | Phase 12 |
-| D19 | Domain registration + DNS pointing | Phase 14 v3.0 + runbook §1.1 | Phase 12 (operator side + agent integration) |
-| D20 | LLC formation + EIN | runbook §1.3 | Operator side; Phase 10 env-var update only |
-| D21 | Lab partner contract sign with Janoshik Analytical | runbook §1.5 | Operator side; Phase 12 verification |
-| D22 | First-batch real COA PDFs | runbook §1.7 | Operator side; Phase 12 verification |
-| D23 | First-buyer test dollar (real BTCPay invoice + real Plaid ACH) | Phase 15 v3.0 procedure + CODEBASE_UNDERSTANDING.md §8 | Phase 13 (operator-funded) |
-| D24 | Branch protection on `main` (require PR + CI checks + operator review for visual diffs) | Iron Law 2.25 | Phase 12 |
-| D25 | Visual-regression baseline + diff CI | Iron Law 2.18 + 2.25 | Phase 11 |
-| D26 | DESIGN.md at repo root (optional; portability for external agents) | CODEBASE_UNDERSTANDING.md §8 Tier 1 #1 | Phase 1 |
-| D27 | Component-level CSS variables (third tier of design tokens) | CODEBASE_UNDERSTANDING.md §8 Tier 1 #4 | Phase 1 |
+| #   | Deferral (from v3.0)                                                                               | Source                                                  | Closes in v4 phase                           |
+| --- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------- |
+| D1  | Real Resend wire (4-email welcome sequence + lead magnet PDF generation)                           | runbook §1.2                                            | Phase 10.2                                   |
+| D2  | Real Supabase Auth + email-link tokens, 1h expiry, single-use                                      | Phase 10 v3.0 + Phase 13 codex review                   | Phase 10.1                                   |
+| D3  | Order persistence to Supabase (`orders`, `order_items`, `order_status_history`, `payments`) + RLS  | Phase 13 codex review                                   | Phase 10.1                                   |
+| D4  | Customer qualification submission persistence (`customer_qualifications` table)                    | Phase 13 codex review                                   | Phase 10.1                                   |
+| D5  | Email subscriptions persistence (`email_subscriptions` table linked to `orders.promo_code`)        | Phase 13 codex review                                   | Phase 10.1                                   |
+| D6  | Audit log persistence (`audit_log` table)                                                          | architecture plan §4                                    | Phase 10.1                                   |
+| D7  | `app/api/access/route.ts` (qualification persistence endpoint)                                     | CODEBASE_UNDERSTANDING.md §3 (protected paths note)     | Phase 10.1                                   |
+| D8  | Real Plaid `createIntent` (Plaid Link + Transfer flow)                                             | Phase 13 codex review (lib/payments/plaid.ts)           | Phase 10.4                                   |
+| D9  | Plaid HMAC → JWT/JWKS migration                                                                    | Phase 13 codex review explicit deferral                 | Phase 10.4                                   |
+| D10 | Real BTCPay `createIntent` (Greenfield POST `/api/v1/stores/{storeId}/invoices`)                   | Phase 13 codex review (lib/payments/btcpay.ts)          | Phase 10.5                                   |
+| D11 | BTCPay Server provisioning (Docker self-host OR Voltage Cloud)                                     | runbook §6 + Phase 14 procedure                         | Phase 10.5 (operator side)                   |
+| D12 | Sentry instrumentation activation in `next.config.ts`                                              | architecture plan §2 + CODEBASE_UNDERSTANDING.md §8     | Phase 10.3                                   |
+| D13 | Sentry alerts (error rate >1%, payment-flow >0.1%, webhook signature failure, performance LCP >4s) | Phase 15 v3.0 + architecture plan                       | Phase 10.3                                   |
+| D14 | Cookie consent banner (operator decision deferred)                                                 | Phase 10 v3.0 + Phase 13 review                         | Phase 10.6                                   |
+| D15 | Layer 3 jurisdictional check in `lib/payments/reconciliation.ts` (post-payment confirmation)       | CODEBASE_UNDERSTANDING.md §3 (Iron Law 2.8 enforcement) | Phase 10.1 (with order persistence)          |
+| D16 | E2E Playwright unskip + browser provisioning                                                       | tests/e2e/checkout-{ach,crypto}.spec.ts test.skip(true) | Phase 11                                     |
+| D17 | Lighthouse CI gate activation                                                                      | Phase 12 v3.0 deferred + Iron Law 2.27                  | Phase 11                                     |
+| D18 | Vercel production deploy (interactive auth required from operator)                                 | Phase 14 v3.0 deferred                                  | Phase 12                                     |
+| D19 | Domain registration + DNS pointing                                                                 | Phase 14 v3.0 + runbook §1.1                            | Phase 12 (operator side + agent integration) |
+| D20 | LLC formation + EIN                                                                                | runbook §1.3                                            | Operator side; Phase 10 env-var update only  |
+| D21 | Lab partner contract sign with Janoshik Analytical                                                 | runbook §1.5                                            | Operator side; Phase 12 verification         |
+| D22 | First-batch real COA PDFs                                                                          | runbook §1.7                                            | Operator side; Phase 12 verification         |
+| D23 | First-buyer test dollar (real BTCPay invoice + real Plaid ACH)                                     | Phase 15 v3.0 procedure + CODEBASE_UNDERSTANDING.md §8  | Phase 13 (operator-funded)                   |
+| D24 | Branch protection on `main` (require PR + CI checks + operator review for visual diffs)            | Iron Law 2.25                                           | Phase 12                                     |
+| D25 | Visual-regression baseline + diff CI                                                               | Iron Law 2.18 + 2.25                                    | Phase 11                                     |
+| D26 | DESIGN.md at repo root (optional; portability for external agents)                                 | CODEBASE_UNDERSTANDING.md §8 Tier 1 #1                  | Phase 1                                      |
+| D27 | Component-level CSS variables (third tier of design tokens)                                        | CODEBASE_UNDERSTANDING.md §8 Tier 1 #4                  | Phase 1                                      |
 
 **Out of v4 scope (operator-side post-launch):**
+
 - D-OPS-1: Slice 3 community-channel research (Reddit + Meso-Rx + forums + Telegram + Discord) — operator fires B1 prompt at ChatGPT Pro Deep Research
 - D-OPS-2: KPV catalog expansion (Day-30 candidate per runbook §11)
 - D-OPS-3: Cards Phase-2 rail (MAX/MESH/Rocketfuel) — Day-90+ after first revenue signal
@@ -2832,6 +2991,7 @@ You do not bypass the pre-commit hook (Iron Law 2.16) or branch protection (Phas
 You report at the end of each phase with a one-screen status update: what landed, what's next, any operator-side actions needed (especially around Appendix AA credential intake and Appendix Z pre-launch checklist).
 
 When all 14 phases (0-13) complete and Phase 13 verification gate is ✓, the operator has a production-launched site at `https://vialchems.labs` (or fallback) with:
+
 - Real credentials in Vercel env vars; zero stub values
 - Real BTCPay invoice flow tested with operator's $1 first-buyer dollar
 - Real Plaid ACH flow tested with operator's $1 first-buyer dollar
@@ -2884,12 +3044,14 @@ The reference image displays TIRZEPATIDE and RETATRUTIDE as label placeholders. 
 **Integration plan — phase-by-phase:**
 
 **Phase 1 (Tokens — additive only):**
+
 - Add `--vial-glass` CSS variable for the realistic glass tint observed (subtle teal hint, ~rgba(61,212,200,0.06))
 - Add `--vial-cap-metallic` gradient stops matching the metal-cap appearance (mid-grey gradient: `#3a4045` → `#5a6065` → `#2a2f33` — already in `Vial.tsx:60-63`; promote to token)
 - Add `--vial-powder-cream` (existing — `#f4ecd8` → `#d9cfb3`) AND `--vial-powder-dark` alternative (matching the darker fill observed in some reference vials, e.g., `#3a3530` → `#1f1d1a`) so PDP can choose per compound visual mood. Default stays cream (existing v3.0 implementation); operator selects dark variant per SKU only after explicit operator approval per Iron Law 2.26.
 - Add `--label-bg`, `--label-text-primary`, `--label-text-secondary`, `--label-accent-stripe` tokens for the wrap-label color system (mirrors existing site tokens; consolidates label-specific naming for clarity).
 
 **Phase 2 (`Vial.tsx` overhaul):**
+
 - Refine SVG aspect ratio toward 50:22 (real product proportions) within Iron Law 2.21 + 2.26 constraints. Current 80:32 is 2.5:1; target 2.27:1. Operator approves the visual change after seeing before/after.
 - Add optional `withLabel` prop (default `false` to preserve existing usages) that renders an SVG-composited wrap-label overlay with VIALCHEMS LABS wordmark + compound name (passed via prop) + dose (passed via prop) + RUO disclaimer (verbatim Appendix A.2). Used by Phase 4 PDP hero.
 - Add optional `compound` prop and `dose` prop so callers can pass per-SKU label content
@@ -2897,19 +3059,23 @@ The reference image displays TIRZEPATIDE and RETATRUTIDE as label placeholders. 
 - Tests (TDD per Iron Law 2.1 / 2.15): verify `withLabel` prop renders wordmark + compound + dose + disclaimer; verify aspect ratio change does not break existing usages; verify reduced-motion fallback still works.
 
 **Phase 4 (PDP hero polish):**
+
 - Replace the current generic Vial hero with `<Vial withLabel compound={product.shortName} dose={product.dose} size="lg" sway />` so each PDP shows a vial labeled with its own SKU
 - Add a QR code rendering near the labeled vial (or in the Specs sidebar) that links to `/coa/${product.slug}/${currentBatch}` — implements the QR-batch-traceability workflow visible in the reference label
 - Reuse the wrap-label visual hierarchy in the PDP Specs sidebar: brand attribution → compound name → dose → batch info, matching the label's information density
 
 **Phase 4 (COA detail page polish):**
+
 - Adopt the label's hierarchy for the COA detail header: BRAND → COMPOUND → DOSE → BATCH → DATES → STATUS
 - Add a printable-label preview component (optional Phase 4 deliverable) so operators can preview the label that would print for a given batch directly from the COA detail page
 
 **Phase 9 (SEO + structured data):**
+
 - Use the labeled-Vial design for OG image generation in `app/opengraph-image.tsx`. Per-product OG images (one per SKU + one for the bundle) showing the labeled vial provide richer social-share previews than a generic brand card.
 - This generates 8 OG images at build time (7 SKUs + 1 bundle); per-page OG image referenced in `generateMetadata` for `/products/[slug]`.
 
 **Operator pre-launch (out of v4 site-code scope; tracked in operator-runbook v2):**
+
 - Print sheets (Section 4 of reference image) — operator's fulfillment infrastructure; physical printing workflow
 - Packaging concept (Section 6 of reference image) — operator's shipping carton design
 - The receiving chat does NOT build print-fulfillment workflows in v4; it builds the labeled-vial digital representation for the site UI only.

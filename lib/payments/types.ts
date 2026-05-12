@@ -13,23 +13,23 @@
  * "UNBLOCK" descriptor; gated behind ENABLE_CARDS_PHASE_2 env.
  */
 
-export type PaymentProviderId = 'stub' | 'btcpay' | 'plaid';
+export type PaymentProviderId = "stub" | "btcpay" | "plaid";
 
-export type PaymentMethod = 'crypto' | 'ach' | 'card';
+export type PaymentMethod = "crypto" | "ach" | "card";
 
 export type PaymentStatus =
-  | 'pending'
-  | 'authorized'
-  | 'paid'
-  | 'failed'
-  | 'refunded';
+  | "pending"
+  | "authorized"
+  | "paid"
+  | "failed"
+  | "refunded";
 
 export interface PaymentIntent {
   id: string;
   provider: PaymentProviderId;
   method: PaymentMethod;
   amountCents: number;
-  currency: 'USD';
+  currency: "USD";
   status: PaymentStatus;
   metadata: Record<string, string>;
   createdAt: string; // ISO
