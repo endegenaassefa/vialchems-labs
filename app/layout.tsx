@@ -1,23 +1,16 @@
 import type { Metadata } from "next";
-import { Geist_Mono, Inter_Tight, Space_Grotesk } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import { siteConfig } from "@/lib/content/site";
 import { CookieConsent } from "@/components/CookieConsent";
 import "./globals.css";
+import "./v2-brand.css";
+import "./v2-layout.css";
 
-// Storefront typography: Space Grotesk gives the large type a more physical
-// product-brand feel than Geist's AI/SaaS default; Inter Tight keeps body copy
-// compact without fighting the display face.
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-space-grotesk",
+const geist = Geist({
+  variable: "--font-geist",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
-
-const interTight = Inter_Tight({
-  variable: "--font-inter-tight",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["300", "400", "500", "600"],
 });
 
 const geistMono = Geist_Mono({
@@ -60,15 +53,13 @@ export default function RootLayout({
     <html
       lang="en"
       data-theme="dark"
-      className={`${spaceGrotesk.variable} ${interTight.variable} ${geistMono.variable} h-full antialiased`}
+      data-accent="cyan-navy"
+      className={`${geist.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      {/* No-FOUC theme script: applies stored theme before React mounts so
-          the page never flashes the wrong palette during hydration. Dark is
-          the default because product pages lead with black studio imagery. */}
       <head>
         <Script id="vc-theme-init" strategy="beforeInteractive">
-          {`(function(){try{var t=localStorage.getItem('vc-theme');document.documentElement.dataset.theme=(t==='dark'||t==='light')?t:'dark'}catch(e){document.documentElement.dataset.theme='dark'}})();`}
+          {`(function(){try{var t=localStorage.getItem('vc.theme')||'dark';var a=localStorage.getItem('vc.accent')||'cyan-navy';document.documentElement.dataset.theme=(t==='dark'||t==='light')?t:'dark';document.documentElement.dataset.accent=a;}catch(e){document.documentElement.dataset.theme='dark';document.documentElement.dataset.accent='cyan-navy';}})();`}
         </Script>
       </head>
       <body className="min-h-full flex flex-col">

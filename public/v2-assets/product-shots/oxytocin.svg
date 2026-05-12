@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187 245" role="img" aria-label="OXYTOCIN vial">
+  <image href="epitalon.png" x="0" y="0" width="187" height="245" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="48" y="106" width="91" height="80" rx="4" fill="#f7fbfb" opacity="0.98"/>
+  <rect x="55" y="116" width="76" height="3" rx="1.5" fill="#0ea5c4"/>
+  <text x="93.5" y="141" text-anchor="middle" font-family="Arial Narrow, Arial, sans-serif" font-size="18" font-weight="800" fill="#0a0e14" letter-spacing="0.4">OXYTOCIN</text>
+  <rect x="74" y="150" width="39" height="14" rx="2" fill="#e8f7fb" stroke="#54b9d1" stroke-width="1"/>
+  <text x="93.5" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="700" fill="#0b7fa0">2 MG</text>
+  <text x="93.5" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="5.8" font-weight="700" fill="#286174">RESEARCH USE ONLY</text>
+  <text x="93.5" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="5.2" fill="#286174">NOT FOR HUMAN CONSUMPTION</text>
+</svg>
