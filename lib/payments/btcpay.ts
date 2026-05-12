@@ -174,6 +174,11 @@ export function createBtcpayAdapter(
       }
       if (!res.ok) {
         const text = await res.text().catch(() => "");
+        if (res.status === 401 || /invalid api key/i.test(text)) {
+          throw new Error(
+            "btcpay_invoice_create_failed: Invalid BTCPay Greenfield API key. Use Account > API Keys and grant invoice create/view permissions for the store.",
+          );
+        }
         throw new Error(
           `btcpay_invoice_create_failed: HTTP ${res.status} ${text.slice(0, 256)}`,
         );

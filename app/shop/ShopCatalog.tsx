@@ -147,7 +147,7 @@ export function ShopCatalog() {
             </Link>
             <div>
               <Pill variant="accent" className="mb-2">
-                Stack vial
+                Set vial
               </Pill>
               <h2 className="text-[24px] md:text-[28px] font-medium tracking-tight text-[var(--text)] mb-1">
                 {bundle.name}

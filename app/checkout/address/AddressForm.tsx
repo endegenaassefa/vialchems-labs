@@ -1,8 +1,8 @@
 /**
  * AddressForm — client island for /checkout/address.
  *
- * Live validation for state-blocking via validateShippingAddress. Submit blocks
- * if blocked-state selected. On valid submit: navigate to /checkout/method.
+ * Live validation for shipping eligibility via validateShippingAddress. On
+ * valid submit: navigate to /checkout/method.
  *
  * Persistence is local (sessionStorage) for Phase 5; Phase 9 swaps in Supabase.
  */
@@ -14,10 +14,7 @@ import { z } from "zod";
 import { Button } from "@/components/ui/Button";
 import { FieldLabel } from "@/components/ui/FieldLabel";
 import { Input } from "@/components/ui/Input";
-import {
-  BLOCKED_US_STATES,
-  validateShippingAddress,
-} from "@/lib/compliance/jurisdictions";
+import { validateShippingAddress } from "@/lib/compliance/jurisdictions";
 import { useSessionStorageItem } from "@/lib/use-session-storage";
 
 const addressSchema = z.object({
@@ -346,7 +343,8 @@ export function AddressForm() {
       )}
 
       <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)]">
-        Blocked states (Day-1): {BLOCKED_US_STATES.join(" · ")}
+        US shipping only · jurisdictional compliance remains buyer
+        responsibility.
       </p>
 
       <div className="flex justify-end">

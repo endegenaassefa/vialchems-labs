@@ -9,7 +9,7 @@ import { Icon } from "./icons";
 const navItems = [
   { href: "/shop", label: "Shop Peptides", key: "catalog" },
   { href: "/coa", label: "Verify a Vial", key: "coa" },
-  { href: "/verify", label: "Get Verified", key: "verify" },
+  { href: "/affiliate", label: "Affiliate Program", key: "affiliate" },
   { href: "/account", label: "My Lab", key: "account" },
 ];
 
@@ -95,8 +95,8 @@ export function V2Header() {
               </span>
             )}
           </Link>
-          <Link className="btn btn-primary btn-sm v2-nav-cta" href="/verify">
-            Get Verified <Icon.arrow size={14} strokeWidth={1.5} />
+          <Link className="btn btn-primary btn-sm v2-nav-cta" href="/affiliate">
+            Affiliate <Icon.arrow size={14} strokeWidth={1.5} />
           </Link>
         </div>
       </div>
@@ -137,7 +137,6 @@ export function V2Footer() {
             links={[
               ["/shop", "Peptide Catalog"],
               ["/coa", "Verify a Vial"],
-              ["/verify", "Get Verified"],
               ["/account", "My Lab"],
             ]}
           />

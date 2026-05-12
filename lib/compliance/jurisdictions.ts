@@ -1,10 +1,10 @@
 /**
  * Jurisdictional restrictions per DECISIONS/compliance_posture.md and Iron Law 2.8.
  *
- * Default block list: California, Texas, New York, Florida.
- * Default international: US-only for first 90 days.
+ * Default domestic coverage: all US states.
+ * Default international: US-only for launch.
  *
- * Operator may strengthen (add states/countries). Operator may NOT weaken.
+ * Operators can tighten this list if counsel requires it.
  *
  * Validated at three points (defense in depth):
  *   1. Address entry (lib/validation/access.ts via Zod refinement)
@@ -12,8 +12,8 @@
  *   3. Post-payment confirmation (lib/payments/reconciliation.ts)
  */
 
-export const BLOCKED_US_STATES = ["CA", "TX", "NY", "FL"] as const;
-export type BlockedState = (typeof BLOCKED_US_STATES)[number];
+export const BLOCKED_US_STATES = [] as const;
+export type BlockedState = never;
 
 export const ALLOWED_COUNTRIES = ["US"] as const;
 export type AllowedCountry = (typeof ALLOWED_COUNTRIES)[number];
@@ -41,7 +41,7 @@ export function validateShippingAddress(address: {
   if (address.stateCode && isBlockedState(address.stateCode)) {
     return {
       ok: false,
-      reason: `vialchemlabs does not ship to ${address.stateCode}. The customer assumes all regulatory compliance responsibility for their jurisdiction.`,
+      reason: `vialchemlabs is not currently accepting orders to ${address.stateCode}. The customer assumes all regulatory compliance responsibility for their jurisdiction.`,
     };
   }
   return { ok: true };

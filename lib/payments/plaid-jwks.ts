@@ -15,7 +15,6 @@
  * payment-rail-adjacent code.
  */
 import crypto from "node:crypto";
-import { importJWK, jwtVerify } from "jose";
 
 export type VerificationMode = "hmac" | "jwks";
 
@@ -129,10 +128,13 @@ export async function verifyPlaidJwt(
     return { verified: false, reason: "expired" };
   }
 
-  // Phase 11.1: full ES256 signature verification via `jose`.
+  // Phase 11.1: full ES256 signature verification.
   try {
-    const cryptoKey = await importJWK(
-      {
+    if (decoded.header.alg !== "ES256" || (key.alg && key.alg !== "ES256")) {
+      return { verified: false, reason: "verification_unsupported" };
+    }
+    const publicKey = crypto.createPublicKey({
+      key: {
         kty: key.kty,
         crv: key.crv,
         x: key.x,
@@ -140,14 +142,15 @@ export async function verifyPlaidJwt(
         alg: key.alg ?? "ES256",
         use: key.use ?? "sig",
       },
-      key.alg ?? "ES256",
-    );
-    await jwtVerify(input.jwtHeader, cryptoKey, {
-      algorithms: ["ES256"],
-      // Plaid does not currently set iss/aud claims on webhook tokens
-      // per their docs; if they later do, we'll plumb the expected
-      // values through the input shape.
+      format: "jwk",
     });
+    const ok = crypto.verify(
+      "SHA256",
+      Buffer.from(`${decoded.headerB64}.${decoded.payloadB64}`),
+      { key: publicKey, dsaEncoding: "ieee-p1363" },
+      Buffer.from(decoded.signatureB64, "base64url"),
+    );
+    if (!ok) return { verified: false, reason: "signature_invalid" };
   } catch {
     return { verified: false, reason: "signature_invalid" };
   }

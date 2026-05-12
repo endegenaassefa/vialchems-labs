@@ -379,6 +379,24 @@ function ProductCard({ item }: { item: (typeof catalogItems)[number] }) {
       <div className="product-code-line">
         {skuCode(item.sku)} · {item.dose} · {item.family}
       </div>
+      <p className="product-card-desc">{item.description}</p>
+      <div
+        className="product-card-details"
+        aria-label={`${item.shortName} details`}
+      >
+        <span>
+          <strong>Class</strong>
+          {item.family}
+        </span>
+        <span>
+          <strong>Mass</strong>
+          {item.dose}
+        </span>
+        <span>
+          <strong>Docs</strong>
+          COA
+        </span>
+      </div>
       <div className="card-action">
         <span
           style={{ color: item.stock > 0 ? "var(--ok)" : "var(--fg-muted)" }}

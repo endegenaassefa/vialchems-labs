@@ -22,7 +22,7 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "Do you ship to my address?",
-    a: "vialchemlabs ships within the United States only at this time. We do not currently ship to California, Texas, New York, or Florida. International shipping is not available.",
+    a: "vialchemlabs ships within the United States only at this time. International shipping is not available, and buyers remain responsible for jurisdiction-specific compliance.",
   },
   {
     q: 'What is "research use only"?',
@@ -62,7 +62,7 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "Why is the catalog smaller than competitors?",
-    a: "vialchemlabs launches with a focused 7-SKU catalog to maintain compliance simplicity, COA pipeline integrity, and operational reliability. The 7 openers cover canonical recovery (BPC-157, TB-500), GH-axis (Ipamorelin, CJC-1295 no DAC), cosmetic-pathway (GHK-Cu), metabolic (MOTS-c), and nootropic (Selank) research areas. Catalog expansion follows community demand and regulatory clarity.",
+    a: "vialchemlabs launches with a focused 7-SKU catalog to maintain compliance simplicity, COA pipeline integrity, and operational reliability. The 7 openers cover structural models (BPC-157, TB-500), endocrine models (Ipamorelin, CJC-1295 no DAC), copper systems (GHK-Cu), mitochondrial systems (MOTS-c), and neuropeptide systems (Selank). Catalog expansion follows community demand and regulatory clarity.",
   },
   {
     q: "Why don't you sell semaglutide, tirzepatide, or retatrutide?",
@@ -82,7 +82,7 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "Do you offer bulk discounts?",
-    a: "Volume discounts are not currently offered. Bundle pricing is available on the Recovery Stack (BPC-157 10mg + TB-500 5mg) at $77 (12.5% effective discount).",
+    a: "Volume discounts are not currently offered. Bundle pricing is available on the BPC/TB Reference Set at $77 (12.5% effective discount).",
   },
   {
     q: "What is the affiliate program?",

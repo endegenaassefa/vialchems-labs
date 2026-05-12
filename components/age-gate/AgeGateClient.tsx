@@ -48,7 +48,7 @@ const RESEARCH_DETAILS = [
   },
   {
     title: "Shipping boundaries",
-    body: "vialchemlabs ships within the United States only at this time and does not ship to California, Texas, New York, or Florida. Customers assume jurisdiction-specific compliance responsibility.",
+    body: "vialchemlabs ships within the United States only at this time. Customers assume jurisdiction-specific compliance responsibility for their organization and destination.",
   },
 ];
 

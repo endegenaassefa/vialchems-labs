@@ -94,7 +94,7 @@ ${FOOTER}`,
 Discount code: WELCOME15
 Valid for 30 days from this email.
 Applies to: any single first-order purchase.
-Restrictions: research-use-only acknowledgment + age verification at checkout. US shipping addresses only (excluding California, Texas, New York, Florida).
+Restrictions: research-use-only acknowledgment + age verification at checkout. US shipping addresses only; buyer is responsible for jurisdiction-specific compliance.
 
 Browse our research peptide catalog at ${siteConfig.url}/shop.
 
@@ -103,7 +103,7 @@ Each product page includes:
   - Research-context description with animal-model and in-vitro citations
   - Storage and reconstitution guidance
 
-If your research focus is recovery-pathway studies, our Recovery Stack (BPC-157 10mg + TB-500 5mg) is bundled at $77 (12.5% effective discount).
+If your research focus is structural-model materials, our BPC-157 10mg + TB-500 5mg research set is bundled at $77 (12.5% effective discount).
 
 ${siteConfig.name} Team
 ${FOOTER}`,
