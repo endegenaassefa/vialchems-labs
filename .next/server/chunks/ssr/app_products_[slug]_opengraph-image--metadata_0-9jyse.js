@@ -1,0 +1,5 @@
+;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="5213a0a2-68f5-c108-1705-b15aa7c802cf")}catch(e){}}();
+module.exports=[47226,a=>{"use strict";a.i(7997),a.i(99475),a.i(71609);var b=a.i(52425);let c={alt:"vialchemlabs research peptide",contentType:"image/png",size:{width:1200,height:630}};async function d(a){let{__metadata_id__:d,...e}=await a.params,f=(0,b.fillMetadataSegment)("/products/[slug]",e,"opengraph-image",!1);return[function(a){let b={alt:a.alt,type:a.contentType||"image/png",url:f+"?a666e82827fb6f7e"},{size:c}=a;return c&&(b.width=c.width,b.height=c.height),b}(c)]}a.s(["default",0,d],47226)},33325,a=>{a.n(a.i(47226))}];
+
+//# debugId=5213a0a2-68f5-c108-1705-b15aa7c802cf
+//# sourceMappingURL=app_products_%5Bslug%5D_opengraph-image--metadata_0-9jyse.js.map

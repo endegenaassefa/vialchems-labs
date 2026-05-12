@@ -1,0 +1,3 @@
+{
+  "/api/payments/plaid/webhook/route": "app/api/payments/plaid/webhook/route.js"
+}

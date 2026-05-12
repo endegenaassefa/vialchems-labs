@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/newsletter/layout,_N_T_/newsletter/thanks/layout,_N_T_/newsletter/thanks/page,_N_T_/newsletter/thanks"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/newsletter/thanks/__PAGE__",
+    "/newsletter/thanks",
+    "/newsletter",
+    "/_index",
+    "/_head"
+  ]
+}
