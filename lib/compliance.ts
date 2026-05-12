@@ -95,7 +95,7 @@ export const unsafeMarketingPatterns: readonly RegExp[] = [
  * @throws Error with the matched pattern in the message for debug visibility.
  */
 export function assertMarketingCopySafe(copy: string): void {
-  if (typeof copy !== 'string' || copy.length === 0) {
+  if (typeof copy !== "string" || copy.length === 0) {
     return;
   }
   const match = unsafeMarketingPatterns.find((pattern) => pattern.test(copy));
@@ -112,7 +112,7 @@ export function assertMarketingCopySafe(copy: string): void {
  * Returns the matched pattern source if violation, null otherwise.
  */
 export function findMarketingCopyViolation(copy: string): string | null {
-  if (typeof copy !== 'string' || copy.length === 0) {
+  if (typeof copy !== "string" || copy.length === 0) {
     return null;
   }
   const match = unsafeMarketingPatterns.find((pattern) => pattern.test(copy));

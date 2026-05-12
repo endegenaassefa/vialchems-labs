@@ -6,6 +6,7 @@ Status: PROCEDURE DOCUMENTED (executes after Vercel deploy completes)
 ## Pre-conditions
 
 Phase 15 begins after operator completes:
+
 1. Vercel deploy via `vercel --prod` (Phase 14)
 2. Custom domain `vialchemlabs.com` (or fallback) pointed at Vercel
 3. Real env vars rotated in Vercel (Supabase, Resend, Sentry, Plaid, BTCPay)
@@ -67,6 +68,7 @@ done
 ### Canary fail conditions (auto-rollback triggers)
 
 If any of these fire in the 2-hour window:
+
 - /api/health returns non-200 for >1 consecutive minute → rollback (`vercel rollback`)
 - Lighthouse Performance < 80 on home → investigate; if regression vs preview, rollback
 - Sentry error rate > 5% for >5 minutes → investigate
@@ -99,6 +101,7 @@ git push
 ## Phase 15.3 — Sentry alert configuration
 
 In Sentry dashboard:
+
 1. **Alert: Error rate > 1%** → email operator + ops@vialchemlabs.com
 2. **Alert: Payment-flow error rate > 0.1%** → page operator (PagerDuty or SMS)
 3. **Alert: Webhook signature verification failure** → page operator immediately
@@ -110,6 +113,7 @@ In Sentry dashboard:
 Operator runbook lives at `docs/operator-runbook.md` (Phase 11 deliverable).
 
 Day-1 operator workstreams (front-loaded):
+
 1. Tier S clinical-credentialed creator outreach (5-10 micro-creators)
 2. Affiliate listicle outreach (Outliyr, Muscle+Brawn, PepPal, Brainflow)
 3. Newsletter signups → 4-email welcome sequence (will activate when Resend wired)
@@ -120,6 +124,7 @@ Day-1 operator workstreams (front-loaded):
 ## Phase 15.5 — Schedule retro for 1 week after launch
 
 Set calendar reminder: 1 week after deploy date, run `/retro` against the production-launch week. Retro covers:
+
 - What landed cleanly?
 - What surprised? (e.g., Sentry errors, Lighthouse regressions, Tier S creator response rates)
 - What was wrong about Phase 1-14 plan? (Iron Law 2.17 introspection territory)

@@ -1,6 +1,6 @@
-import type { MetadataRoute } from 'next';
-import { siteConfig } from '@/lib/content/site';
-import { buildSitemap } from '@/lib/seo/sitemap';
+import type { MetadataRoute } from "next";
+import { siteConfig } from "@/lib/content/site";
+import { buildSitemap } from "@/lib/seo/sitemap";
 
 /**
  * Phase 9 (v4) — sitemap.xml served at /sitemap.xml.

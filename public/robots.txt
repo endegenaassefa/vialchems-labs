@@ -10,5 +10,6 @@ Allow: /
 # crawl budgets is honest.
 Disallow: /cart
 Disallow: /checkout/
+Disallow: /coa/
 
 Sitemap: https://vialchemlabs.com/sitemap.xml

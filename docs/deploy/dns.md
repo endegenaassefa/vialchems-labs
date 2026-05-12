@@ -15,12 +15,12 @@ $30-60/year. Confirmed availability at multiple registrars as of
 
 ## Recommended registrars (ranked)
 
-| Registrar | Notes |
-|---|---|
+| Registrar      | Notes                                                                              |
+| -------------- | ---------------------------------------------------------------------------------- |
 | **Cloudflare** | Cheapest renewal, zero-cost DNS, built-in DDoS + WAF. Requires Cloudflare account. |
-| **Gandi** | Strong privacy posture (free WHOIS privacy), no upsells, EU-based. |
-| **101domain** | Carries every TLD; slightly higher renewal than Cloudflare. |
-| **Namecheap** | Cheap intro year; renewal pricing creeps. WHOIS privacy free. |
+| **Gandi**      | Strong privacy posture (free WHOIS privacy), no upsells, EU-based.                 |
+| **101domain**  | Carries every TLD; slightly higher renewal than Cloudflare.                        |
+| **Namecheap**  | Cheap intro year; renewal pricing creeps. WHOIS privacy free.                      |
 
 The agent does NOT recommend GoDaddy (upsell-heavy + history of
 parking domains during transfer disputes).
@@ -47,9 +47,9 @@ one of:
 Most registrars support apex CNAME these days, but if yours doesn't,
 this is the fallback:
 
-| Type | Name | Value | TTL |
-|---|---|---|---|
-| A | `@` | `76.76.21.21` | Auto / 3600 |
+| Type  | Name  | Value                   | TTL         |
+| ----- | ----- | ----------------------- | ----------- |
+| A     | `@`   | `76.76.21.21`           | Auto / 3600 |
 | CNAME | `www` | `cname.vercel-dns.com.` | Auto / 3600 |
 
 (Vercel's apex IP can change — always confirm with `vercel domains
@@ -60,21 +60,21 @@ inspect vialchemlabs.com` before saving.)
 Cloudflare's "CNAME flattening" + Gandi's "ALIAS" record both let you
 CNAME the apex:
 
-| Type | Name | Value | TTL |
-|---|---|---|---|
-| CNAME / ALIAS | `@` | `cname.vercel-dns.com.` | Auto / 3600 |
-| CNAME | `www` | `cname.vercel-dns.com.` | Auto / 3600 |
+| Type          | Name  | Value                   | TTL         |
+| ------------- | ----- | ----------------------- | ----------- |
+| CNAME / ALIAS | `@`   | `cname.vercel-dns.com.` | Auto / 3600 |
+| CNAME         | `www` | `cname.vercel-dns.com.` | Auto / 3600 |
 
 ### Required + recommended additional records
 
-| Type | Name | Value | Purpose |
-|---|---|---|---|
-| MX | `@` | (none Day-1) | No inbound mail; outbound via Resend |
-| TXT | `@` | `v=spf1 include:_spf.resend.com ~all` | SPF for Resend (Phase 10.2) |
-| TXT | `_dmarc` | `v=DMARC1; p=quarantine; rua=mailto:dmarc@vialchemlabs.com` | DMARC opens at quarantine; tighten to `p=reject` after 7-day review |
-| TXT | `resend._domainkey` | (Resend supplies after `vercel domains add` + Resend domain verification) | DKIM |
-| CAA | `@` | `0 issue "letsencrypt.org"` | Limits cert issuance to LE; Vercel uses LE |
-| CAA | `@` | `0 issue "digicert.com"` | Vercel may also use DigiCert as backup |
+| Type | Name                | Value                                                                     | Purpose                                                             |
+| ---- | ------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| MX   | `@`                 | (none Day-1)                                                              | No inbound mail; outbound via Resend                                |
+| TXT  | `@`                 | `v=spf1 include:_spf.resend.com ~all`                                     | SPF for Resend (Phase 10.2)                                         |
+| TXT  | `_dmarc`            | `v=DMARC1; p=quarantine; rua=mailto:dmarc@vialchemlabs.com`               | DMARC opens at quarantine; tighten to `p=reject` after 7-day review |
+| TXT  | `resend._domainkey` | (Resend supplies after `vercel domains add` + Resend domain verification) | DKIM                                                                |
+| CAA  | `@`                 | `0 issue "letsencrypt.org"`                                               | Limits cert issuance to LE; Vercel uses LE                          |
+| CAA  | `@`                 | `0 issue "digicert.com"`                                                  | Vercel may also use DigiCert as backup                              |
 
 ### Sender domain (Resend)
 
@@ -92,6 +92,7 @@ in Vercel env per Appendix AA Section 3.
 ## Step 3 — wait for propagation
 
 DNS propagation timeline:
+
 - Cloudflare / Gandi: 1-5 minutes
 - Most others: 15-60 minutes
 - Worst case: 24 hours
@@ -113,6 +114,7 @@ This usually completes in <60 seconds. Watch in `vercel domains inspect
 vialchemlabs.com` — the status should show `Valid Configuration`.
 
 If cert issuance fails:
+
 - Check CAA records aren't blocking LE
 - Re-run `vercel domains add vialchemlabs.com --force`
 - If still failing: contact Vercel support with the failure log
@@ -127,6 +129,7 @@ brand-pick research:
 3. `vialchemlabs.co`
 
 If the fallback is used, update:
+
 - `lib/content/site.ts:url`
 - `lib/content/site.ts:brandDomain` (when introduced)
 - `NEXT_PUBLIC_SITE_URL` in Vercel env

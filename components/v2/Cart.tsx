@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { useCartStore } from '@/lib/cart-store';
-import { siteConfig } from '@/lib/content/site';
-import { catalogItems, displayPrice, getCatalogItem } from './data';
-import { Icon } from './icons';
-import { V2Footer, V2Header } from './Shell';
-import { ProductVisual } from './Visuals';
+import Link from "next/link";
+import { useCartStore } from "@/lib/cart-store";
+import { siteConfig } from "@/lib/content/site";
+import { catalogItems, displayPrice, getCatalogItem } from "./data";
+import { Icon } from "./icons";
+import { V2Footer, V2Header } from "./Shell";
+import { ProductVisual } from "./Visuals";
 
 export function V2Cart() {
   const lines = useCartStore((s) => s.lines);
@@ -14,7 +14,8 @@ export function V2Cart() {
   const setQty = useCartStore((s) => s.setQty);
   const removeLine = useCartStore((s) => s.removeLine);
   const shippingCents = lines.length ? siteConfig.shipping.pilotUSCents : 0;
-  const freeShip = subtotalCents >= siteConfig.shipping.freeShippingThresholdCents;
+  const freeShip =
+    subtotalCents >= siteConfig.shipping.freeShippingThresholdCents;
   const totalCents = subtotalCents + (freeShip ? 0 : shippingCents);
 
   return (
@@ -23,66 +24,198 @@ export function V2Cart() {
       <main id="main">
         <div className="catalog-hero">
           <div className="container">
-            <div className="eyebrow" style={{ marginBottom: 8 }}>· Cart</div>
+            <div className="eyebrow" style={{ marginBottom: 8 }}>
+              · Cart
+            </div>
             <h1 style={{ fontSize: 42, marginBottom: 8 }}>Review your order</h1>
-            <p style={{ color: 'var(--fg-muted)' }}>Research-use terms and buyer qualification are checked before dispatch.</p>
+            <p style={{ color: "var(--fg-muted)" }}>
+              Research-use terms and buyer qualification are checked before
+              dispatch.
+            </p>
           </div>
         </div>
 
         <section className="section">
           <div className="container">
             {lines.length === 0 ? (
-              <div className="card" style={{ padding: 40, textAlign: 'center' }}>
-                <div className="eyebrow" style={{ marginBottom: 12 }}>Empty cart</div>
-                <h2 style={{ marginBottom: 12 }}>No research materials selected.</h2>
-                <p style={{ color: 'var(--fg-muted)', marginBottom: 24 }}>Add a vial or stack from the catalog to begin checkout.</p>
-                <Link href="/shop" className="btn btn-accent">Browse catalog</Link>
+              <div
+                className="card"
+                style={{ padding: 40, textAlign: "center" }}
+              >
+                <div className="eyebrow" style={{ marginBottom: 12 }}>
+                  Empty cart
+                </div>
+                <h2 style={{ marginBottom: 12 }}>
+                  No research materials selected.
+                </h2>
+                <p style={{ color: "var(--fg-muted)", marginBottom: 24 }}>
+                  Add a vial or stack from the catalog to begin checkout.
+                </p>
+                <Link href="/shop" className="btn btn-accent">
+                  Browse catalog
+                </Link>
               </div>
             ) : (
-              <div style={{ display: 'grid', gridTemplateColumns: '1.4fr 420px', gap: 32, alignItems: 'start' }}>
-                <div style={{ display: 'grid', gap: 12 }}>
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "1.4fr 420px",
+                  gap: 32,
+                  alignItems: "start",
+                }}
+              >
+                <div style={{ display: "grid", gap: 12 }}>
                   {lines.map((line) => {
                     const item = getCatalogItem(line.slug) ?? catalogItems[0];
                     return (
-                      <div key={line.sku} className="card" style={{ padding: 14, display: 'grid', gridTemplateColumns: '74px 1fr auto auto', gap: 16, alignItems: 'center' }}>
-                        <Link href={`/products/${line.slug}`} className="product-media" style={{ height: 88, marginBottom: 0 }}>
+                      <div
+                        key={line.sku}
+                        className="card"
+                        style={{
+                          padding: 14,
+                          display: "grid",
+                          gridTemplateColumns: "74px 1fr auto auto",
+                          gap: 16,
+                          alignItems: "center",
+                        }}
+                      >
+                        <Link
+                          href={`/products/${line.slug}`}
+                          className="product-media"
+                          style={{ height: 88, marginBottom: 0 }}
+                        >
                           <ProductVisual item={item} small />
                         </Link>
                         <div>
-                          <Link href={`/products/${line.slug}`} style={{ fontWeight: 500 }}>{line.name}</Link>
-                          <div className="mono" style={{ fontSize: 10, color: 'var(--fg-muted)', marginTop: 4 }}>{line.sku}</div>
-                          <button type="button" className="btn btn-link" style={{ marginTop: 8 }} onClick={() => removeLine(line.sku)}>Remove</button>
+                          <Link
+                            href={`/products/${line.slug}`}
+                            style={{ fontWeight: 500 }}
+                          >
+                            {line.name}
+                          </Link>
+                          <div
+                            className="mono"
+                            style={{
+                              fontSize: 10,
+                              color: "var(--fg-muted)",
+                              marginTop: 4,
+                            }}
+                          >
+                            {line.sku}
+                          </div>
+                          <button
+                            type="button"
+                            className="btn btn-link"
+                            style={{ marginTop: 8 }}
+                            onClick={() => removeLine(line.sku)}
+                          >
+                            Remove
+                          </button>
                         </div>
-                        <div style={{ display: 'flex', alignItems: 'center', border: '1px solid var(--line)', borderRadius: 'var(--r-sm)', overflow: 'hidden' }}>
-                          <button type="button" className="icon-btn" style={{ border: 0, borderRadius: 0 }} onClick={() => setQty(line.sku, line.qty - 1)} aria-label={`Decrease ${line.name}`}>
+                        <div
+                          style={{
+                            display: "flex",
+                            alignItems: "center",
+                            border: "1px solid var(--line)",
+                            borderRadius: "var(--r-sm)",
+                            overflow: "hidden",
+                          }}
+                        >
+                          <button
+                            type="button"
+                            className="icon-btn"
+                            style={{ border: 0, borderRadius: 0 }}
+                            onClick={() => setQty(line.sku, line.qty - 1)}
+                            aria-label={`Decrease ${line.name}`}
+                          >
                             <Icon.minus size={14} strokeWidth={1.5} />
                           </button>
-                          <span className="mono" style={{ width: 34, textAlign: 'center' }}>{line.qty}</span>
-                          <button type="button" className="icon-btn" style={{ border: 0, borderRadius: 0 }} onClick={() => setQty(line.sku, line.qty + 1)} aria-label={`Increase ${line.name}`}>
+                          <span
+                            className="mono"
+                            style={{ width: 34, textAlign: "center" }}
+                          >
+                            {line.qty}
+                          </span>
+                          <button
+                            type="button"
+                            className="icon-btn"
+                            style={{ border: 0, borderRadius: 0 }}
+                            onClick={() => setQty(line.sku, line.qty + 1)}
+                            aria-label={`Increase ${line.name}`}
+                          >
                             <Icon.plus size={14} strokeWidth={1.5} />
                           </button>
                         </div>
-                        <div className="mono" style={{ fontSize: 15, fontWeight: 500 }}>{displayPrice(line.unitPriceCents * line.qty)}</div>
+                        <div
+                          className="mono"
+                          style={{ fontSize: 15, fontWeight: 500 }}
+                        >
+                          {displayPrice(line.unitPriceCents * line.qty)}
+                        </div>
                       </div>
                     );
                   })}
                 </div>
-                <aside className="card" style={{ padding: 22, position: 'sticky', top: 86 }}>
-                  <div className="eyebrow" style={{ marginBottom: 18 }}>Order summary</div>
+                <aside
+                  className="card"
+                  style={{ padding: 22, position: "sticky", top: 86 }}
+                >
+                  <div className="eyebrow" style={{ marginBottom: 18 }}>
+                    Order summary
+                  </div>
                   <table className="spec-table">
                     <tbody>
-                      <tr><td>Subtotal</td><td>{displayPrice(subtotalCents)}</td></tr>
-                      <tr><td>Shipping</td><td>{freeShip ? 'Free' : displayPrice(shippingCents)}</td></tr>
-                      <tr><td>Discount</td><td>—</td></tr>
-                      <tr><td>Total</td><td style={{ fontSize: 18 }}>{displayPrice(totalCents)}</td></tr>
+                      <tr>
+                        <td>Subtotal</td>
+                        <td>{displayPrice(subtotalCents)}</td>
+                      </tr>
+                      <tr>
+                        <td>Shipping</td>
+                        <td>
+                          {freeShip ? "Free" : displayPrice(shippingCents)}
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Discount</td>
+                        <td>—</td>
+                      </tr>
+                      <tr>
+                        <td>Total</td>
+                        <td style={{ fontSize: 18 }}>
+                          {displayPrice(totalCents)}
+                        </td>
+                      </tr>
                     </tbody>
                   </table>
-                  <div style={{ display: 'grid', gap: 10, marginTop: 22 }}>
-                    <Link href="/checkout?step=address" className="btn btn-accent btn-lg" style={{ justifyContent: 'center' }}>Proceed to checkout</Link>
-                    <Link href="/shop" className="btn btn-ghost" style={{ justifyContent: 'center' }}>Continue shopping</Link>
+                  <div style={{ display: "grid", gap: 10, marginTop: 22 }}>
+                    <Link
+                      href="/checkout?step=address"
+                      className="btn btn-accent btn-lg"
+                      style={{ justifyContent: "center" }}
+                    >
+                      Proceed to checkout
+                    </Link>
+                    <Link
+                      href="/shop"
+                      className="btn btn-ghost"
+                      style={{ justifyContent: "center" }}
+                    >
+                      Continue shopping
+                    </Link>
                   </div>
-                  <p style={{ marginTop: 16, fontSize: 12, color: 'var(--fg-muted)', lineHeight: 1.5 }}>
-                    Free shipping on orders over {displayPrice(siteConfig.shipping.freeShippingThresholdCents)}. US shipping only at this time.
+                  <p
+                    style={{
+                      marginTop: 16,
+                      fontSize: 12,
+                      color: "var(--fg-muted)",
+                      lineHeight: 1.5,
+                    }}
+                  >
+                    Free shipping on orders over{" "}
+                    {displayPrice(
+                      siteConfig.shipping.freeShippingThresholdCents,
+                    )}
+                    . US shipping only at this time.
                   </p>
                 </aside>
               </div>

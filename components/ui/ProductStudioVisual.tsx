@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import type { Product } from '@/lib/content/products';
-import { getProductStudioImage } from '@/lib/content/product-images';
-import { cn } from '@/lib/utils';
-import { VialProductPhoto } from './VialProductPhoto';
+import Image from "next/image";
+import type { Product } from "@/lib/content/products";
+import { getProductStudioImage } from "@/lib/content/product-images";
+import { cn } from "@/lib/utils";
+import { VialProductPhoto } from "./VialProductPhoto";
 
 export interface ProductStudioVisualProps {
   product: Product;
@@ -23,9 +23,9 @@ export interface ProductStudioVisualProps {
  */
 export function ProductStudioVisual({
   product,
-  batch = '2026-01',
+  batch = "2026-01",
   priority = false,
-  sizes = '(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw',
+  sizes = "(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw",
   className,
   imageClassName,
   fallbackClassName,
@@ -35,8 +35,8 @@ export function ProductStudioVisual({
   return (
     <div
       className={cn(
-        'relative isolate overflow-hidden bg-black',
-        'before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_50%_42%,rgba(34,211,238,0.14),transparent_46%)]',
+        "relative isolate overflow-hidden bg-black",
+        "before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_50%_42%,rgba(34,211,238,0.14),transparent_46%)]",
         className,
       )}
     >
@@ -48,8 +48,8 @@ export function ProductStudioVisual({
           priority={priority}
           sizes={sizes}
           className={cn(
-            'relative z-10 object-cover transition-[transform,filter] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)]',
-            'group-hover/product:scale-[1.035] group-hover/product:-translate-y-0.5 group-hover/product:saturate-[1.08] group-hover/product:contrast-[1.06]',
+            "relative z-10 object-cover transition-[transform,filter] duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)]",
+            "group-hover/product:scale-[1.035] group-hover/product:-translate-y-0.5 group-hover/product:saturate-[1.08] group-hover/product:contrast-[1.06]",
             imageClassName,
           )}
         />
@@ -59,7 +59,7 @@ export function ProductStudioVisual({
           dose={product.dose}
           batch={batch}
           className={cn(
-            'absolute inset-0 z-10 h-full min-h-0',
+            "absolute inset-0 z-10 h-full min-h-0",
             fallbackClassName,
           )}
         />

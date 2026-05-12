@@ -8,15 +8,15 @@
  *
  * vialchemlabs theme: dark surface, teal accent, mono prices, tabular numerals.
  */
-'use client';
+"use client";
 
-import { useMemo, useState } from 'react';
-import { Plus } from 'lucide-react';
-import { Button } from '@/components/ui/Button';
-import { Toast } from '@/components/ui/Toast';
-import { ProductStudioVisual } from '@/components/ui/ProductStudioVisual';
-import { useCartStore } from '@/lib/cart-store';
-import { formatPrice, type Product } from '@/lib/content/products';
+import { useMemo, useState } from "react";
+import { Plus } from "lucide-react";
+import { Button } from "@/components/ui/Button";
+import { Toast } from "@/components/ui/Toast";
+import { ProductStudioVisual } from "@/components/ui/ProductStudioVisual";
+import { useCartStore } from "@/lib/cart-store";
+import { formatPrice, type Product } from "@/lib/content/products";
 
 interface FrequentlyTogetherIslandProps {
   anchor: Product;
@@ -62,7 +62,9 @@ export function FrequentlyTogetherIsland({
         qty: 1,
       });
     });
-    setToast(`Added ${selected.length} item${selected.length === 1 ? '' : 's'} to research order`);
+    setToast(
+      `Added ${selected.length} item${selected.length === 1 ? "" : "s"} to research order`,
+    );
   }
 
   return (
@@ -89,14 +91,16 @@ export function FrequentlyTogetherIsland({
                 <li key={item.sku} className="contents">
                   <label
                     className={[
-                      'group relative flex-1 flex items-center gap-4 p-4',
-                      'border rounded-[14px] transition-colors duration-200',
-                      'bg-[var(--surface)]',
+                      "group relative flex-1 flex items-center gap-4 p-4",
+                      "border rounded-[14px] transition-colors duration-200",
+                      "bg-[var(--surface)]",
                       item.checked
-                        ? 'border-[var(--border-strong)]'
-                        : 'border-[var(--border)] opacity-60',
-                      locked ? 'cursor-default' : 'cursor-pointer hover:border-[var(--accent)]',
-                    ].join(' ')}
+                        ? "border-[var(--border-strong)]"
+                        : "border-[var(--border)] opacity-60",
+                      locked
+                        ? "cursor-default"
+                        : "cursor-pointer hover:border-[var(--accent)]",
+                    ].join(" ")}
                   >
                     <input
                       type="checkbox"
@@ -109,14 +113,19 @@ export function FrequentlyTogetherIsland({
                     <span
                       aria-hidden="true"
                       className={[
-                        'flex-none h-5 w-5 rounded-[6px] border-2 grid place-items-center transition-colors',
+                        "flex-none h-5 w-5 rounded-[6px] border-2 grid place-items-center transition-colors",
                         item.checked
-                          ? 'border-[var(--accent)] bg-[var(--accent)]'
-                          : 'border-[var(--border-strong)]',
-                      ].join(' ')}
+                          ? "border-[var(--accent)] bg-[var(--accent)]"
+                          : "border-[var(--border-strong)]",
+                      ].join(" ")}
                     >
                       {item.checked && (
-                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                        <svg
+                          width="12"
+                          height="12"
+                          viewBox="0 0 12 12"
+                          fill="none"
+                        >
                           <path
                             d="M2.5 6.2L4.8 8.5L9.5 3.8"
                             stroke="#0a0e0f"
@@ -129,7 +138,7 @@ export function FrequentlyTogetherIsland({
                     </span>
                     <div
                       className="relative h-14 w-14 flex-none overflow-hidden rounded-[4px] border border-white/10"
-                      style={{ background: '#02070b' }}
+                      style={{ background: "#02070b" }}
                       aria-hidden="true"
                     >
                       <ProductStudioVisual
@@ -178,7 +187,7 @@ export function FrequentlyTogetherIsland({
               {formatPrice(total)}
             </p>
             <p className="font-mono text-[11px] text-[var(--text-subtle)]">
-              {selected.length} item{selected.length === 1 ? '' : 's'} selected
+              {selected.length} item{selected.length === 1 ? "" : "s"} selected
             </p>
             <Button
               variant="primary"

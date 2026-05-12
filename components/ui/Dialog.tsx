@@ -18,7 +18,7 @@
  *     overkill for the v4 scope, but Phase 8 a11y lift will revisit if axe
  *     flags it
  */
-'use client';
+"use client";
 
 import {
   useCallback,
@@ -28,9 +28,9 @@ import {
   type HTMLAttributes,
   type ReactNode,
   type Ref,
-} from 'react';
-import { createPortal } from 'react-dom';
-import { cn } from '@/lib/utils';
+} from "react";
+import { createPortal } from "react-dom";
+import { cn } from "@/lib/utils";
 
 export interface DialogProps extends HTMLAttributes<HTMLDivElement> {
   open: boolean;
@@ -55,7 +55,7 @@ export function Dialog({
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
-      if (e.key === 'Escape') {
+      if (e.key === "Escape") {
         onClose();
       }
     },
@@ -64,8 +64,8 @@ export function Dialog({
 
   useEffect(() => {
     if (!open) return;
-    document.addEventListener('keydown', handleKeyDown);
-    return () => document.removeEventListener('keydown', handleKeyDown);
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
   }, [open, handleKeyDown]);
 
   // Focus the panel when opened so Tab cycles inside it
@@ -78,17 +78,17 @@ export function Dialog({
   if (!open) return null;
 
   // Portal mounts to document.body
-  if (typeof document === 'undefined') return null;
+  if (typeof document === "undefined") return null;
 
   return createPortal(
     <div
       data-testid="dialog-backdrop"
       onClick={onClose}
       className={cn(
-        'fixed inset-0 z-[var(--z-modal)]',
-        'flex items-center justify-center',
-        'bg-black/60 backdrop-blur-[2px]',
-        'p-4',
+        "fixed inset-0 z-[var(--z-modal)]",
+        "flex items-center justify-center",
+        "bg-black/60 backdrop-blur-[2px]",
+        "p-4",
       )}
       style={{ zIndex: 40 }}
     >
@@ -96,7 +96,7 @@ export function Dialog({
         ref={(node) => {
           panelRef.current = node;
           if (ref) {
-            if (typeof ref === 'function') {
+            if (typeof ref === "function") {
               ref(node);
             } else {
               (ref as React.MutableRefObject<HTMLDivElement | null>).current =
@@ -110,13 +110,13 @@ export function Dialog({
         tabIndex={-1}
         onClick={(e) => e.stopPropagation()}
         className={cn(
-          'w-full max-w-md',
-          'bg-[var(--surface-elevated)]',
-          'border border-[var(--border-strong)]',
-          'rounded-[var(--radius-lg)]',
-          'shadow-[var(--shadow-2xl)]',
-          'p-6',
-          'focus:outline-none',
+          "w-full max-w-md",
+          "bg-[var(--surface-elevated)]",
+          "border border-[var(--border-strong)]",
+          "rounded-[var(--radius-lg)]",
+          "shadow-[var(--shadow-2xl)]",
+          "p-6",
+          "focus:outline-none",
           className,
         )}
         {...rest}

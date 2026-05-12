@@ -16,7 +16,7 @@ import {
   ShoppingCart,
   Sun,
   User,
-} from 'lucide-react';
+} from "lucide-react";
 
 export const Icon = {
   arrow: ArrowRight,

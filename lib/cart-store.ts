@@ -14,10 +14,10 @@
  * Phase 9 will swap the localStorage source for Supabase rows once Auth is
  * online; the public API stays the same.
  */
-'use client';
+"use client";
 
-import { create } from 'zustand';
-import { persist, createJSONStorage } from 'zustand/middleware';
+import { create } from "zustand";
+import { persist, createJSONStorage } from "zustand/middleware";
 
 export interface CartLine {
   sku: string;
@@ -30,7 +30,7 @@ export interface CartLine {
 interface CartState {
   lines: CartLine[];
   _hasHydrated: boolean;
-  addLine: (line: Omit<CartLine, 'qty'> & { qty?: number }) => void;
+  addLine: (line: Omit<CartLine, "qty"> & { qty?: number }) => void;
   removeLine: (sku: string) => void;
   setQty: (sku: string, qty: number) => void;
   clear: () => void;
@@ -79,7 +79,7 @@ export const useCartStore = create<CartState>()(
       setHydrated: (v) => set({ _hasHydrated: v }),
     }),
     {
-      name: 'vialchemlabs:cart',
+      name: "vialchemlabs:cart",
       storage: createJSONStorage(() => localStorage),
       partialize: (state) => ({ lines: state.lines }),
       onRehydrateStorage: () => (state) => {

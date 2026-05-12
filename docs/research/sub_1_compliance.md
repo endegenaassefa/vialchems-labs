@@ -12,7 +12,7 @@
 
 - **2021-05-18 — Umbrella Labs** (MARCS-CMS 612037). [URL](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/umbrella-612037-05182021) Compounds: GW-501516, MK-2866, MK-677, RAD-140, S-4, kratom, tianeptine, NACET (marketed for COVID-19), Alpha Male Plus (lab-confirmed undeclared tadalafil). §§505(a), 301(d), 502, 301(a). **OBSERVED**.
 - **2023-06-12 — Warrior Labz SARMS** (655280). [URL](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/warrior-labz-sarms-655280-06122023) Compounds: RAD-140, MK-677, MK-2866, LGD-4033, 19-Nor Andro, 4-Andro, BPC-157 (injectable + nasal spray), TB-500, Viagra-Max Sildenafil, Cialis-Max Tadalafil. §§505(a), 301(d). FDA flagged Zelle/CashApp/Venmo/Apple Pay/PayPal F&F as the firm's payment rails. **OBSERVED**.
-- **2024-02-07 — US Chem Labs** (669074). [URL](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/us-chem-labs-669074-02072024) Compounds: Semaglutide, Tirzepatide, Thymalin (marketed for adults *and children, including post-chemotherapy immunosuppression*). §§505(a), 301(d), 502(f)(1), 301(a). **OBSERVED**.
+- **2024-02-07 — US Chem Labs** (669074). [URL](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/us-chem-labs-669074-02072024) Compounds: Semaglutide, Tirzepatide, Thymalin (marketed for adults _and children, including post-chemotherapy immunosuppression_). §§505(a), 301(d), 502(f)(1), 301(a). **OBSERVED**.
 - **2024-02-07 — Synthetix Inc. dba Helix Chemical Supply** (668918). [URL](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/synthetix-inc-dba-helix-chemical-supply-668918-02072024) Semaglutide, Tirzepatide. Letter cites a "Standard Dose Protocol for Tirzepatide Research" document referencing Mounjaro as evidence of human-use intent. **OBSERVED**.
 - **2024-12-10 — Summit Research Peptides** (695607). [URL](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/summit-research-peptides-695607-12102024) Sema, Reta, Cagrilintide, Tirz, Mazdutide. Facebook content cited. **OBSERVED**.
 - **2024-12-10 — Xcel Research LLC (Xcel Peptides)** (694608). [URL](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/xcel-research-llc-694608-12102024) Recipient: Andrew Pierce. Reta, Cagrilintide+Sema, Cagrilintide, Mazdutide, Sema, Survodutide, Sermorelin. **OBSERVED**.
@@ -45,7 +45,7 @@ This wave specifically targets **GLP-1/2/3 cryptic naming conventions + bacterio
 
 - Federal Register notice 2025-01-28 (90 FR 8299); GEO + Limited Exclusion Orders + Cease & Desist issued **2025-04-15**. §337 of the Tariff Act of 1930, 19 U.S.C. §1337.
 - **Compound:** tirzepatide (and "Products Purporting To Contain Tirzepatide").
-- **Scope:** GEO applies to *anyone* importing infringing tirzepatide product; CBP has standing instructions to block at the border. *De facto* supply-chain seizure for any non-Lilly tirzepatide.
+- **Scope:** GEO applies to _anyone_ importing infringing tirzepatide product; CBP has standing instructions to block at the border. _De facto_ supply-chain seizure for any non-Lilly tirzepatide.
 - **Effective:** Border-level enforcement live since 2025-04-15.
 - **Respondents named:** Arctic Peptides LLC, Audrey Beauty Co., Biolabshop Limited, Mew Mews Company Ltd, Strate Labs LLC, Steroide Kaufen, Super Human Store / SHS, Supopeptide, Triggered Supplements LLC, Unewlife, Xiamen Austronext Trading dba AustroPeptide. Amended-in: **Fibonacci Sequence LLC dba GenX Peptides**, **Paradigm Peptides**, Total Compounding Pharmaceuticals (Australia). **OBSERVED**.
 
@@ -55,17 +55,17 @@ This wave specifically targets **GLP-1/2/3 cryptic naming conventions + bacterio
 
 > Each pattern below is a marketing artifact directly observed at a vendor URL that was, or is highly likely to be, citable as FDA "intended use" evidence under §201(g)(1) of the FDCA.
 
-- **Named-disease therapeutic claims.** *Biotech Peptides PDP — biotechpeptides.com/product/bpc-157/*: "enhance the function of the digestive tract and prevent against irritable bowel syndrome (IBS), gastrointestinal cramps, and Crohn's disease." **OBSERVED**. Cross-reference: every 2024-12-10 + 2026-03-31 letter cites named-disease language as the basis for the §201(g)(1) intended-use determination.
-- **"Therapeutic effects" hedge language.** *Swiss Chems PDP — swisschems.is/product/bpc-157/*: "currently being studied for its potential therapeutic effects on a variety of conditions, including gastrointestinal disorders, musculoskeletal injuries, and other inflammatory conditions." **OBSERVED**. Swiss Chems received an FDA warning letter 2024-12-10 — the "potential therapeutic effects" hedge did not protect.
-- **Unhedged outcome language.** *Pure Rawz BPC-157 Arg PDP — purerawz.co/product/bpc-157-arg/*: "It also helps in inflammation and joint pain reduction." **OBSERVED** (SERP-indexed; live page Cloudflare-blocked).
-- **Direct-to-consumer weight-loss positioning.** *Limitless Biotech paid press release — fintechfutures.com / Yahoo / GlobeNewswire 2024-12-16*: title "Peptides for Weight Loss: Limitless Biotech's Best Solution for Effective Weight Management"; body "Peptides like Retatrutide have been shown to work by targeting multiple biological pathways to promote fat loss and regulate appetite"; "Recent clinical studies have also shown that peptides such as CJC 1295 & Ipamorelin can lead to significant reductions in body fat." **OBSERVED — strongest crossover in corpus**. Cross-reference: Prime Peptides 2024-12-10 letter cited a YouTube video titled "Top 5 Peptides for Weight Loss" as evidence of human-use intent.
-- **Comparative pharma claim.** *Behemoth Labz blog — behemothlabz.com/is-retatrutide-the-same-as-ozempic-a-detailed-comparison/*. **OBSERVED** (SERP-indexed). Cross-reference: ybycmeds 2025-09-09 letter cited "similar to Mounjaro and Zepbound" as cause.
-- **Personal pronouns + influencer-vendor hybrid.** *@thepeptideguyy IG bio*: "THE PEPTIDE GUY — Helping you heal & live longer with peptides. DM 'HEAL' to begin. Peptides & 30min Consultations." **OBSERVED**. Cross-reference: every 2024-12-10 letter cited social-media content with personal-pronoun usage.
-- **Cryptic GLP naming conventions** (GLP-1-S, GLP-2-T, GLP-3-R, Cag/Tirz, etc.). *Apollo Peptide Sciences product line*; *Pink Pony Peptides, Mile High Compounds, PekCura, Prime Sciences, Gram* (all cited in 2026-03-31 wave). **OBSERVED**. Cross-reference: the 2026-03-31 wave establishes that cryptic letter-codes do not break the §201(g)(1) intended-use chain when paired with BAC water.
-- **Bacteriostatic water + Reconstitution Kit pairings.** *Pink Pony, Mile High, PekCura, Prime Sciences, Gram* — all sold BAC water alongside peptides. **OBSERVED**. Cross-reference: Prime Sciences 2026-03-31 letter — "BAC-water 'Reconstitution Kit' (water + syringe) demonstrates intended use as a drug."
+- **Named-disease therapeutic claims.** _Biotech Peptides PDP — biotechpeptides.com/product/bpc-157/_: "enhance the function of the digestive tract and prevent against irritable bowel syndrome (IBS), gastrointestinal cramps, and Crohn's disease." **OBSERVED**. Cross-reference: every 2024-12-10 + 2026-03-31 letter cites named-disease language as the basis for the §201(g)(1) intended-use determination.
+- **"Therapeutic effects" hedge language.** _Swiss Chems PDP — swisschems.is/product/bpc-157/_: "currently being studied for its potential therapeutic effects on a variety of conditions, including gastrointestinal disorders, musculoskeletal injuries, and other inflammatory conditions." **OBSERVED**. Swiss Chems received an FDA warning letter 2024-12-10 — the "potential therapeutic effects" hedge did not protect.
+- **Unhedged outcome language.** _Pure Rawz BPC-157 Arg PDP — purerawz.co/product/bpc-157-arg/_: "It also helps in inflammation and joint pain reduction." **OBSERVED** (SERP-indexed; live page Cloudflare-blocked).
+- **Direct-to-consumer weight-loss positioning.** _Limitless Biotech paid press release — fintechfutures.com / Yahoo / GlobeNewswire 2024-12-16_: title "Peptides for Weight Loss: Limitless Biotech's Best Solution for Effective Weight Management"; body "Peptides like Retatrutide have been shown to work by targeting multiple biological pathways to promote fat loss and regulate appetite"; "Recent clinical studies have also shown that peptides such as CJC 1295 & Ipamorelin can lead to significant reductions in body fat." **OBSERVED — strongest crossover in corpus**. Cross-reference: Prime Peptides 2024-12-10 letter cited a YouTube video titled "Top 5 Peptides for Weight Loss" as evidence of human-use intent.
+- **Comparative pharma claim.** _Behemoth Labz blog — behemothlabz.com/is-retatrutide-the-same-as-ozempic-a-detailed-comparison/_. **OBSERVED** (SERP-indexed). Cross-reference: ybycmeds 2025-09-09 letter cited "similar to Mounjaro and Zepbound" as cause.
+- **Personal pronouns + influencer-vendor hybrid.** _@thepeptideguyy IG bio_: "THE PEPTIDE GUY — Helping you heal & live longer with peptides. DM 'HEAL' to begin. Peptides & 30min Consultations." **OBSERVED**. Cross-reference: every 2024-12-10 letter cited social-media content with personal-pronoun usage.
+- **Cryptic GLP naming conventions** (GLP-1-S, GLP-2-T, GLP-3-R, Cag/Tirz, etc.). _Apollo Peptide Sciences product line_; _Pink Pony Peptides, Mile High Compounds, PekCura, Prime Sciences, Gram_ (all cited in 2026-03-31 wave). **OBSERVED**. Cross-reference: the 2026-03-31 wave establishes that cryptic letter-codes do not break the §201(g)(1) intended-use chain when paired with BAC water.
+- **Bacteriostatic water + Reconstitution Kit pairings.** _Pink Pony, Mile High, PekCura, Prime Sciences, Gram_ — all sold BAC water alongside peptides. **OBSERVED**. Cross-reference: Prime Sciences 2026-03-31 letter — "BAC-water 'Reconstitution Kit' (water + syringe) demonstrates intended use as a drug."
 - **Forbidden specific words in copy.** Drawn cross-corpus: "treats X," "cures Y," "for Z disease," "FDA approved," "therapeutic," "diagnose," "clinical use," "for athletes," "for patients," "biohacker" (in PDP bodies), "longevity / anti-aging" (vendor-side), "weight loss" (vendor-side), "glucose / blood sugar," "GLP-1" written out as a marketing claim.
-- **Dosing protocols / cheat sheets / educational packets.** *Mile High Compounds Skool community* (2026-03-31 letter cited the "Ultimate Mile High Compounds Peptide Cheat Sheet"); *Synthetix/Helix* (2024-02-07 letter cited a "Standard Dose Protocol for Tirzepatide Research"). **OBSERVED**. Operational rule: no human dosing tables, no protocol PDFs, no mg/kg tables in any retrievable surface — even gated.
-- **Reviews framed as health outcomes.** *Limitless Life "25% off coupon for honest reviews on Trustpilot and SiteJabber"* (Trustpilot terms violation; aggregator-reported but consistent with FTC disclosed-incentive guidance). **PROXY**.
+- **Dosing protocols / cheat sheets / educational packets.** _Mile High Compounds Skool community_ (2026-03-31 letter cited the "Ultimate Mile High Compounds Peptide Cheat Sheet"); _Synthetix/Helix_ (2024-02-07 letter cited a "Standard Dose Protocol for Tirzepatide Research"). **OBSERVED**. Operational rule: no human dosing tables, no protocol PDFs, no mg/kg tables in any retrievable surface — even gated.
+- **Reviews framed as health outcomes.** _Limitless Life "25% off coupon for honest reviews on Trustpilot and SiteJabber"_ (Trustpilot terms violation; aggregator-reported but consistent with FTC disclosed-incentive guidance). **PROXY**.
 
 ### The "RUO defense pierced" pattern
 
@@ -101,7 +101,7 @@ The single most defensive boilerplate observed. Vendors using verbatim or near-v
 
 > "All articles and product information provided on the website are for informational and educational purposes only. The products offered are furnished for in-vitro studies only. These products are not medicines or drugs and have not been approved by the FDA to prevent, treat or cure any medical condition, ailment or disease. Bodily introduction of any kind into humans or animals is strictly forbidden by law."
 
-Used on every video description on YouTube channel; every product page; ToS modal. *Note*: even this maximally-defensive posture did not prevent voluntary shutdown 2026-03-06.
+Used on every video description on YouTube channel; every product page; ToS modal. _Note_: even this maximally-defensive posture did not prevent voluntary shutdown 2026-03-06.
 
 ### Skye Peptides — equally strong, currently live
 
@@ -113,7 +113,7 @@ Used on every video description on YouTube channel; every product page; ToS moda
 - "Purchasers are affiliated with a laboratory, institution, university or other research-based facility, which justifies the purchase and use of products sold for research purposes only."
 - "Anyone purchasing without such affiliations would be committing a fraudulent act for which they could be held liable."
 
-These three clauses *invert* liability onto the buyer and pre-empt customer-service screenshot evidence. The company was indicted anyway in 2021 — **clauses do not protect against documented dosing protocols on-site**.
+These three clauses _invert_ liability onto the buyer and pre-empt customer-service screenshot evidence. The company was indicted anyway in 2021 — **clauses do not protect against documented dosing protocols on-site**.
 
 ### Per-vendor disclaimer corpus (32+ vendors)
 
@@ -133,18 +133,18 @@ Full per-vendor footer/PDP/ToS verbatim text is preserved across the four batch 
 
 ### Dialect inventory (cross-vendor research-frame vocabulary, verbatim)
 
-| Pattern | Substitutes | Vendors using |
-|---|---|---|
-| `"may"` | (the universal hedge) | every anchor vendor |
-| `"studies have suggested"` / `"research has suggested"` | for "X does Y" | Biotech, Core, Limitless |
-| `"in vitro"` / `"in-vitro studies"` | for "in humans" | Peptide Sciences (every page), Biotech (every blog), Limitless |
-| `"animal studies"` / `"murine models"` | for "people" | Biotech, Core, Behemoth blogs |
-| `"preclinical models"` | for "patients" | Pure Rawz, Behemoth |
-| `"research subjects"` / `"research models"` | for "users" / "patients" | Pure Rawz, Limitless |
-| `"experimental models"` | for "subjects" | Peptide Sciences (every page) |
-| `"appears to"` / `"appeared to exhibit"` | for "does" | Core, Pure Rawz |
-| `"investigational formulation"` | for "product" | Biotech blogs |
-| `"molecular probe to investigate"` | for "drug to study" | Peptide Sciences (vendor-leading hedge) |
+| Pattern                                                 | Substitutes              | Vendors using                                                  |
+| ------------------------------------------------------- | ------------------------ | -------------------------------------------------------------- |
+| `"may"`                                                 | (the universal hedge)    | every anchor vendor                                            |
+| `"studies have suggested"` / `"research has suggested"` | for "X does Y"           | Biotech, Core, Limitless                                       |
+| `"in vitro"` / `"in-vitro studies"`                     | for "in humans"          | Peptide Sciences (every page), Biotech (every blog), Limitless |
+| `"animal studies"` / `"murine models"`                  | for "people"             | Biotech, Core, Behemoth blogs                                  |
+| `"preclinical models"`                                  | for "patients"           | Pure Rawz, Behemoth                                            |
+| `"research subjects"` / `"research models"`             | for "users" / "patients" | Pure Rawz, Limitless                                           |
+| `"experimental models"`                                 | for "subjects"           | Peptide Sciences (every page)                                  |
+| `"appears to"` / `"appeared to exhibit"`                | for "does"               | Core, Pure Rawz                                                |
+| `"investigational formulation"`                         | for "product"            | Biotech blogs                                                  |
+| `"molecular probe to investigate"`                      | for "drug to study"      | Peptide Sciences (vendor-leading hedge)                        |
 
 Caption-level word substitutions documented across vendor IG: `"research"` replaces `"use"`, `"compound"` replaces `"drug"`, `"study"` replaces `"cycle"`, `"researchers"` replaces `"customers"`.
 
@@ -173,7 +173,7 @@ Caption-level word substitutions documented across vendor IG: `"research"` repla
 6. **Never use personal pronouns in vendor-authorized speech (PDP, blog, vendor IG, vendor X, vendor email, vendor video description).** Affiliate creators may; vendor account may not. Influencer-vendor hybrid (@thepeptideguyy "Helping you heal & live longer") is a structural risk vector. **High signal.**
 7. **Never accept Stripe / PayPal / Square / Apple Pay direct.** Stripe Restricted-Businesses Policy explicitly excludes research peptides. Warrior Labz 2023-06-12 letter quoted vendor's own social post: "Payment via: Zelle, Cash App, Venmo, Apple Pay and Pay Pal - Friends and Family." Vendors that accept mainstream rails are operating without category permission and will be terminated; build on crypto + ACH + e-check (Umbrella Labs BTCPay+Plaid model; Chemyo BTC 10%+e-check 5%; Swiss Chems explicit "we don't offer Paypal. Amazon pay or Stripe"). **High signal.**
 8. **Always disclaim 503A/503B status in footer.** Verbatim template: "[Brand] is a chemical supplier. [Brand] is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. [Brand] is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic act." Used by 7+ vendors. GLP-1 Solution 2025-09-09 letter explicitly cited 503A/503B condition non-compliance. **High signal — defensive but works as a baseline prop.**
-9. **Always 21+ self-attestation, not 18+.** Pink Pony / Mile High / PekCura / Prime Sciences / Gram all received letters; FDA never specifically cited age-gate weakness, but pattern across non-cited vendors (Peptide Sciences 21+, Swiss Chems 21+, Polaris 21+, Felix Chem 21+, Apollo 21+, Skye 21+) shows 21+ is the defensible posture; 18+ is rare among vendors that *also* maintain other defenses. The rule reduces "minor" attack surface for any later litigation. **Medium signal.**
+9. **Always 21+ self-attestation, not 18+.** Pink Pony / Mile High / PekCura / Prime Sciences / Gram all received letters; FDA never specifically cited age-gate weakness, but pattern across non-cited vendors (Peptide Sciences 21+, Swiss Chems 21+, Polaris 21+, Felix Chem 21+, Apollo 21+, Skye 21+) shows 21+ is the defensible posture; 18+ is rare among vendors that _also_ maintain other defenses. The rule reduces "minor" attack surface for any later litigation. **Medium signal.**
 10. **Always lock geography to USA-only domestic shipping; no international.** ITC GEO 337-TA-1377 means tirzepatide-similar compounds are border-blocked anyway; international shipping creates customs-seizure liability and surfaces FDA evidence (Pink Pony, Lovega, et al. all sold to US customers via online ordering — that surface is what FDA cited). Ascension, Umbrella, Apollo, Science.bio (defunct) all chose USA-only; LVLUP's 15-country blocklist is the alternative. **Medium signal.**
 
 ---

@@ -9,11 +9,9 @@
  * module's filename + the .ts extension and its consumers' route.ts callsite
  * keep it server-side. Phase 10 adds `server-only` to the deps vector.
  */
-import {
-  envIsConfigured as btcpayEnvConfigured,
-} from './btcpay';
-import { envIsConfigured as plaidEnvConfigured } from './plaid';
-import type { PaymentProviderId } from './types';
+import { envIsConfigured as btcpayEnvConfigured } from "./btcpay";
+import { envIsConfigured as plaidEnvConfigured } from "./plaid";
+import type { PaymentProviderId } from "./types";
 
 export interface ProviderEnvStatus {
   provider: PaymentProviderId;
@@ -32,22 +30,21 @@ export function getProviderEnvStatus(): ProviderEnvStatus[] {
     PLAID_CLIENT_ID: process.env.PLAID_CLIENT_ID,
     PLAID_SECRET: process.env.PLAID_SECRET,
     PLAID_ENV: process.env.PLAID_ENV,
-    PLAID_WEBHOOK_VERIFICATION_KEY:
-      process.env.PLAID_WEBHOOK_VERIFICATION_KEY,
+    PLAID_WEBHOOK_VERIFICATION_KEY: process.env.PLAID_WEBHOOK_VERIFICATION_KEY,
   });
   return [
-    { provider: 'stub', configured: true, reason: 'always-on for dev' },
+    { provider: "stub", configured: true, reason: "always-on for dev" },
     {
-      provider: 'btcpay',
+      provider: "btcpay",
       configured: btcpay,
       reason: btcpay
         ? undefined
-        : 'BTCPAY_URL/API_KEY/STORE_ID/WEBHOOK_SECRET stubbed',
+        : "BTCPAY_URL/API_KEY/STORE_ID/WEBHOOK_SECRET stubbed",
     },
     {
-      provider: 'plaid',
+      provider: "plaid",
       configured: plaid,
-      reason: plaid ? undefined : 'PLAID_CLIENT_ID/SECRET stubbed',
+      reason: plaid ? undefined : "PLAID_CLIENT_ID/SECRET stubbed",
     },
   ];
 }

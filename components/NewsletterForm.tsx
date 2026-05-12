@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { useState, type FormEvent } from 'react';
-import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
-import { Button } from '@/components/ui/Button';
+import { useState, type FormEvent } from "react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { Button } from "@/components/ui/Button";
 
 /**
  * Phase 7 (v4) — Newsletter form micro-interaction.
@@ -19,40 +19,40 @@ import { Button } from '@/components/ui/Button';
  * the form re-enables.
  */
 
-type State = 'idle' | 'submitting' | 'success' | 'error';
+type State = "idle" | "submitting" | "success" | "error";
 
 export function NewsletterForm() {
   const reduced = useReducedMotion();
-  const [state, setState] = useState<State>('idle');
+  const [state, setState] = useState<State>("idle");
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    if (state === 'submitting' || state === 'success') return;
+    if (state === "submitting" || state === "success") return;
     const form = e.currentTarget;
     const data = new FormData(form);
-    const email = String(data.get('email') ?? '').trim();
+    const email = String(data.get("email") ?? "").trim();
     if (!email) return;
 
-    setState('submitting');
+    setState("submitting");
     setErrorMsg(null);
     try {
-      const res = await fetch('/api/newsletter/subscribe', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+      const res = await fetch("/api/newsletter/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email }),
       });
       if (res.ok || res.status === 303 || res.status === 0) {
-        setState('success');
+        setState("success");
       } else {
-        setState('error');
+        setState("error");
         setErrorMsg(
-          'We could not subscribe that email. Please check the address and try again.',
+          "We could not subscribe that email. Please check the address and try again.",
         );
       }
     } catch {
-      setState('error');
-      setErrorMsg('Network error. Please try again.');
+      setState("error");
+      setErrorMsg("Network error. Please try again.");
     }
   }
 
@@ -63,7 +63,7 @@ export function NewsletterForm() {
   return (
     <div>
       <AnimatePresence initial={false} mode="wait">
-        {state !== 'success' ? (
+        {state !== "success" ? (
           <motion.form
             key="form"
             action="/api/newsletter/subscribe"
@@ -76,7 +76,7 @@ export function NewsletterForm() {
               height: 0,
               transition: { duration: collapseDuration },
             }}
-            style={{ overflow: 'hidden' }}
+            style={{ overflow: "hidden" }}
           >
             <input
               type="email"
@@ -84,16 +84,16 @@ export function NewsletterForm() {
               required
               aria-label="Email address for newsletter"
               placeholder="research@example.com"
-              disabled={state === 'submitting'}
+              disabled={state === "submitting"}
               className="flex-1 h-10 px-3 rounded-[var(--radius-md)] bg-[var(--surface-strong)] border border-[var(--border)] text-[14px] focus:border-[var(--accent)] focus:outline-none"
             />
             <Button
               type="submit"
               variant="primary"
               size="md"
-              disabled={state === 'submitting'}
+              disabled={state === "submitting"}
             >
-              {state === 'submitting' ? 'Subscribing…' : 'Subscribe'}
+              {state === "submitting" ? "Subscribing…" : "Subscribe"}
             </Button>
           </motion.form>
         ) : (
@@ -106,8 +106,8 @@ export function NewsletterForm() {
             transition={{ duration: fadeDuration }}
             className="font-mono text-[13px] text-[var(--accent)] py-2"
           >
-            Subscribed. Check your inbox for the welcome email and 15% off
-            promo code.
+            Subscribed. Check your inbox for the welcome email and 15% off promo
+            code.
           </motion.p>
         )}
       </AnimatePresence>

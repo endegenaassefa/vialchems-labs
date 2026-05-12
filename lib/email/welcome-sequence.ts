@@ -11,9 +11,9 @@
  * provider holds them. If Resend ever drops scheduled delivery, the
  * persisted sent-timestamps let a cron job retry-with-idempotency.
  */
-import { emailWelcomeSequence } from '@/lib/content/email-templates';
-import { sendEmail } from './resend';
-import { serviceSupabase } from '@/lib/supabase';
+import { emailWelcomeSequence } from "@/lib/content/email-templates";
+import { sendEmail } from "./resend";
+import { serviceSupabase } from "@/lib/supabase";
 
 export interface WelcomeDispatchOptions {
   email: string;
@@ -29,10 +29,10 @@ export interface WelcomeDispatchResult {
 }
 
 const SENT_AT_COLUMNS = [
-  'welcome_email_1_sent_at',
-  'welcome_email_2_sent_at',
-  'welcome_email_3_sent_at',
-  'welcome_email_4_sent_at',
+  "welcome_email_1_sent_at",
+  "welcome_email_2_sent_at",
+  "welcome_email_3_sent_at",
+  "welcome_email_4_sent_at",
 ] as const;
 
 export async function dispatchWelcomeSequence(
@@ -42,7 +42,7 @@ export async function dispatchWelcomeSequence(
   const sb = serviceSupabase();
   const now = new Date();
 
-  const TAGS = ['welcome-1', 'welcome-2', 'welcome-3', 'welcome-4'] as const;
+  const TAGS = ["welcome-1", "welcome-2", "welcome-3", "welcome-4"] as const;
 
   for (let i = 0; i < emailWelcomeSequence.length; i++) {
     const tpl = emailWelcomeSequence[i];
@@ -60,9 +60,9 @@ export async function dispatchWelcomeSequence(
 
       if (sb && opts.subscriptionId) {
         await sb
-          .from('email_subscriptions')
+          .from("email_subscriptions")
           .update({ [SENT_AT_COLUMNS[i]]: now.toISOString() })
-          .eq('id', opts.subscriptionId);
+          .eq("id", opts.subscriptionId);
       }
     } else {
       // Emails 2/3/4 — Phase 10.2 scaffolds the scheduling. Real

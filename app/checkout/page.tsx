@@ -7,8 +7,8 @@
  *   /checkout/review
  *   /checkout/confirm
  */
-import { redirect } from 'next/navigation';
+import { redirect } from "next/navigation";
 
 export default function CheckoutIndexPage() {
-  redirect('/checkout/address');
+  redirect("/checkout/address");
 }

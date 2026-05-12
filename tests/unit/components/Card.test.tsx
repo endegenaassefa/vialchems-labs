@@ -1,20 +1,20 @@
-import { describe, expect, it } from 'vitest';
-import { render, screen } from '@testing-library/react';
-import { Card } from '@/components/ui/Card';
+import { describe, expect, it } from "vitest";
+import { render, screen } from "@testing-library/react";
+import { Card } from "@/components/ui/Card";
 
-describe('Card', () => {
-  it('renders children', () => {
+describe("Card", () => {
+  it("renders children", () => {
     render(
       <Card>
         <span data-testid="inner">contents</span>
       </Card>,
     );
-    expect(screen.getByTestId('inner')).toBeInTheDocument();
+    expect(screen.getByTestId("inner")).toBeInTheDocument();
   });
 
-  it('defaults to <div>', () => {
+  it("defaults to <div>", () => {
     render(<Card data-testid="card">x</Card>);
-    expect(screen.getByTestId('card').tagName).toBe('DIV');
+    expect(screen.getByTestId("card").tagName).toBe("DIV");
   });
 
   it('renders <article> when as="article"', () => {
@@ -23,7 +23,7 @@ describe('Card', () => {
         x
       </Card>,
     );
-    expect(screen.getByTestId('card').tagName).toBe('ARTICLE');
+    expect(screen.getByTestId("card").tagName).toBe("ARTICLE");
   });
 
   it('renders <section> when as="section"', () => {
@@ -32,44 +32,44 @@ describe('Card', () => {
         x
       </Card>,
     );
-    expect(screen.getByTestId('card').tagName).toBe('SECTION');
+    expect(screen.getByTestId("card").tagName).toBe("SECTION");
   });
 
-  it('applies surface bg, border, and 14px radius by default', () => {
+  it("applies surface bg, border, and 14px radius by default", () => {
     render(<Card data-testid="card">x</Card>);
-    const el = screen.getByTestId('card');
+    const el = screen.getByTestId("card");
     expect(el.className).toMatch(/bg-\[var\(--surface\)\]/);
     expect(el.className).toMatch(/border/);
     expect(el.className).toMatch(/rounded-\[14px\]/);
   });
 
-  it('default variant does NOT include hover lift', () => {
+  it("default variant does NOT include hover lift", () => {
     render(<Card data-testid="card">x</Card>);
-    const el = screen.getByTestId('card');
+    const el = screen.getByTestId("card");
     expect(el.className).not.toMatch(/hover:-translate-y/);
   });
 
-  it('interactive variant adds hover accent border + lift', () => {
+  it("interactive variant adds hover accent border + lift", () => {
     render(
       <Card variant="interactive" data-testid="card">
         x
       </Card>,
     );
-    const el = screen.getByTestId('card');
+    const el = screen.getByTestId("card");
     expect(el.className).toMatch(/hover:border-\[var\(--accent\)\]/);
     expect(el.className).toMatch(/hover:-translate-y/);
   });
 
-  it('forwards arbitrary className', () => {
+  it("forwards arbitrary className", () => {
     render(
       <Card className="custom-card" data-testid="card">
         x
       </Card>,
     );
-    expect(screen.getByTestId('card').className).toMatch(/custom-card/);
+    expect(screen.getByTestId("card").className).toMatch(/custom-card/);
   });
 
-  it('forwards ref to underlying element', () => {
+  it("forwards ref to underlying element", () => {
     const ref = { current: null as HTMLDivElement | null };
     render(
       <Card ref={ref} data-testid="card">
@@ -80,20 +80,20 @@ describe('Card', () => {
   });
 
   // Phase 2 v4 — additive elevation per Phase 1 shadow + surfaceElevated tokens
-  describe('Phase 2 v4 — elevated visuals', () => {
-    it('default variant carries --shadow-sm for subtle separation from bg', () => {
+  describe("Phase 2 v4 — elevated visuals", () => {
+    it("default variant carries --shadow-sm for subtle separation from bg", () => {
       render(<Card data-testid="card">x</Card>);
-      const el = screen.getByTestId('card');
+      const el = screen.getByTestId("card");
       expect(el.className).toMatch(/shadow-\[var\(--shadow-sm\)\]/);
     });
 
-    it('interactive variant lifts shadow to --shadow-md on hover', () => {
+    it("interactive variant lifts shadow to --shadow-md on hover", () => {
       render(
         <Card variant="interactive" data-testid="card">
           x
         </Card>,
       );
-      const el = screen.getByTestId('card');
+      const el = screen.getByTestId("card");
       expect(el.className).toMatch(/hover:shadow-\[var\(--shadow-md\)\]/);
     });
 
@@ -103,19 +103,19 @@ describe('Card', () => {
           x
         </Card>,
       );
-      const el = screen.getByTestId('card');
+      const el = screen.getByTestId("card");
       expect(el.className).toMatch(/bg-\[var\(--surface-elevated\)\]/);
       expect(el.className).toMatch(/shadow-\[var\(--shadow-lg\)\]/);
     });
 
-    it('elevated variant does not regress hover-translate (no aesthetic regression per Iron Law 2.18)', () => {
+    it("elevated variant does not regress hover-translate (no aesthetic regression per Iron Law 2.18)", () => {
       // Elevated is a static raised surface; it does not also lift on hover (would be visually busy).
       render(
         <Card variant="elevated" data-testid="card">
           x
         </Card>,
       );
-      const el = screen.getByTestId('card');
+      const el = screen.getByTestId("card");
       expect(el.className).not.toMatch(/hover:-translate-y/);
     });
   });

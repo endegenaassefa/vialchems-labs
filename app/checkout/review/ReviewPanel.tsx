@@ -20,39 +20,40 @@
  *   - Promo code wiring reads from the LOCKED promoCodes registry; no new
  *     codes introduced; no validation bypass.
  */
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { useMemo, useState } from 'react';
-import { Card } from '@/components/ui/Card';
-import { Pill } from '@/components/ui/Pill';
-import { Button } from '@/components/ui/Button';
-import { FieldLabel } from '@/components/ui/FieldLabel';
-import { Input } from '@/components/ui/Input';
-import { PlaceOrderButton } from '@/components/ui/PlaceOrderButton';
-import { Specs } from '@/components/ui/Specs';
-import { QualificationFlow } from '@/components/qualification-flow';
-import { useCartStore } from '@/lib/cart-store';
-import { formatPrice } from '@/lib/content/products';
-import { siteConfig } from '@/lib/content/site';
-import { validateShippingAddress } from '@/lib/compliance/jurisdictions';
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useMemo, useState } from "react";
+import { Card } from "@/components/ui/Card";
+import { Pill } from "@/components/ui/Pill";
+import { Button } from "@/components/ui/Button";
+import { FieldLabel } from "@/components/ui/FieldLabel";
+import { Input } from "@/components/ui/Input";
+import { PlaceOrderButton } from "@/components/ui/PlaceOrderButton";
+import { Specs } from "@/components/ui/Specs";
+import { QualificationFlow } from "@/components/qualification-flow";
+import { useCartStore } from "@/lib/cart-store";
+import { formatPrice } from "@/lib/content/products";
+import { siteConfig } from "@/lib/content/site";
+import { validateShippingAddress } from "@/lib/compliance/jurisdictions";
 import {
   calculatePromoDiscount,
   type PromoCode,
-} from '@/lib/content/promo-codes';
+} from "@/lib/content/promo-codes";
 import {
   qualificationRoleLabels,
+  type QualificationInput,
   type QualificationRole,
-} from '@/lib/customer-qualification';
+} from "@/lib/customer-qualification";
 import {
   useSessionStorageItem,
   useSessionStorageString,
-} from '@/lib/use-session-storage';
+} from "@/lib/use-session-storage";
 
-const ADDRESS_KEY = 'vialchemlabs:checkout:address';
-const METHOD_KEY = 'vialchemlabs:checkout:method';
-const ORDER_KEY = 'vialchemlabs:checkout:order';
+const ADDRESS_KEY = "vialchemlabs:checkout:address";
+const METHOD_KEY = "vialchemlabs:checkout:method";
+const ORDER_KEY = "vialchemlabs:checkout:order";
 
 interface AddressSnapshot {
   name: string;
@@ -69,11 +70,15 @@ interface QualificationSnapshot {
   email: string;
   role: QualificationRole;
   researchPurpose: string;
+  ageAcknowledgment: true;
+  ruoAcknowledgment: true;
+  jurisdictionAcknowledgment: true;
+  attestationsAcknowledged: true;
 }
 
 const METHOD_LABELS: Record<string, string> = {
-  crypto: 'Cryptocurrency (BTC / LTC)',
-  ach: 'Bank transfer (US ACH)',
+  crypto: "Cryptocurrency (BTC / LTC)",
+  ach: "Bank transfer (US ACH)",
 };
 
 // SCANNER_OK: Reconciled to canonical PAYMENT_DISCOUNT_PCT in
@@ -92,12 +97,11 @@ export function ReviewPanel() {
 
   const address = useSessionStorageItem<AddressSnapshot>(ADDRESS_KEY);
   const methodRaw = useSessionStorageString(METHOD_KEY);
-  const method =
-    methodRaw === 'crypto' || methodRaw === 'ach' ? methodRaw : null;
+  const method = methodRaw === "crypto" ? methodRaw : null;
 
   const [qualification, setQualification] =
     useState<QualificationSnapshot | null>(null);
-  const [promoInput, setPromoInput] = useState('');
+  const [promoInput, setPromoInput] = useState("");
   const [appliedPromo, setAppliedPromo] = useState<{
     code: string;
     discountCents: number;
@@ -106,7 +110,7 @@ export function ReviewPanel() {
   const [promoError, setPromoError] = useState<string | null>(null);
   const [submitError, setSubmitError] = useState<string | null>(null);
 
-  const methodDiscountPct = method ? METHOD_DISCOUNT_PCT[method] ?? 0 : 0;
+  const methodDiscountPct = method ? (METHOD_DISCOUNT_PCT[method] ?? 0) : 0;
   const methodDiscountCents = useMemo(
     () => Math.round(subtotalCents * (methodDiscountPct / 100)),
     [subtotalCents, methodDiscountPct],
@@ -136,12 +140,12 @@ export function ReviewPanel() {
     setPromoError(null);
     const code = promoInput.trim();
     if (!code) {
-      setPromoError('Enter a code to apply.');
+      setPromoError("Enter a code to apply.");
       return;
     }
     const result = calculatePromoDiscount(code, subtotalCents);
     if (!result) {
-      setPromoError('That code is not recognized.');
+      setPromoError("That code is not recognized.");
       return;
     }
     setAppliedPromo({
@@ -149,7 +153,7 @@ export function ReviewPanel() {
       discountCents: result.discountCents,
       promo: result.promo,
     });
-    setPromoInput('');
+    setPromoInput("");
   }
 
   function handleRemovePromo() {
@@ -157,11 +161,11 @@ export function ReviewPanel() {
     setPromoError(null);
   }
 
-  function handlePlaceOrder() {
+  async function handlePlaceOrder() {
     setSubmitError(null);
     if (!canSubmit || !address || !qualification) {
       setSubmitError(
-        'Complete buyer qualification, confirm address and method, and add at least one item to your cart.',
+        "Complete buyer qualification, confirm address and method, and add at least one item to your cart.",
       );
       return;
     }
@@ -173,35 +177,60 @@ export function ReviewPanel() {
       setSubmitError(validation.reason);
       return;
     }
-    const orderId = generateOrderId();
-    if (typeof window !== 'undefined') {
-      window.sessionStorage.setItem(
-        ORDER_KEY,
-        JSON.stringify({
-          id: orderId,
-          placedAt: new Date().toISOString(),
-          method,
-          lines,
-          subtotalCents,
-          methodDiscountCents,
-          promoDiscountCents,
-          discountCents: totalDiscountCents,
-          shippingCents,
-          totalCents,
+
+    let response: Response;
+    try {
+      response = await fetch("/api/checkout/orders", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
           address,
-          qualification: {
-            email: qualification.email,
-            role: qualification.role,
-            // Research-purpose body NOT persisted in sessionStorage to avoid
-            // accidental exposure via DevTools; in Phase 10 this lands on the
-            // server via Supabase row creation per D4 deferral closure.
-          },
-          appliedPromo: appliedPromo?.code ?? null,
+          method,
+          lines: lines.map((line) => ({
+            sku: line.sku,
+            slug: line.slug,
+            qty: line.qty,
+          })),
+          qualification,
+          promoCode: appliedPromo?.code ?? null,
         }),
+      });
+    } catch {
+      setSubmitError("Unable to reach checkout. Please try again.");
+      return;
+    }
+
+    const body = (await response.json().catch(() => null)) as {
+      ok?: boolean;
+      message?: string;
+      error?: string;
+      order?: unknown;
+      paymentIntent?: {
+        provider?: string;
+        redirectUrl?: string;
+      };
+    } | null;
+
+    if (!response.ok || !body?.ok || !body.order) {
+      setSubmitError(
+        body?.message ??
+          "Checkout could not create a verified order. Please review your details and try again.",
       );
+      return;
+    }
+
+    if (typeof window !== "undefined") {
+      window.sessionStorage.setItem(ORDER_KEY, JSON.stringify(body.order));
     }
     clear();
-    router.push('/checkout/confirm');
+
+    const redirectUrl = body.paymentIntent?.redirectUrl;
+    if (redirectUrl && body.paymentIntent?.provider !== "stub") {
+      window.location.assign(redirectUrl);
+      return;
+    }
+
+    router.push("/checkout/confirm");
   }
 
   return (
@@ -225,7 +254,7 @@ export function ReviewPanel() {
               <p>{address.email}</p>
               <p>
                 {address.street}
-                {address.street2 ? `, ${address.street2}` : ''}
+                {address.street2 ? `, ${address.street2}` : ""}
               </p>
               <p>
                 {address.city}, {address.stateCode} {address.zip}
@@ -286,8 +315,8 @@ export function ReviewPanel() {
               research purpose, and the seven attestations.
             </p>
             <QualificationFlow
-              defaultEmail={address?.email ?? ''}
-              onSubmit={(data) => setQualification(data)}
+              defaultEmail={address?.email ?? ""}
+              onSubmit={(data: QualificationInput) => setQualification(data)}
             />
           </Card>
         ) : (
@@ -301,13 +330,13 @@ export function ReviewPanel() {
             <Specs
               dense
               items={[
-                { term: 'Email', value: qualification.email },
+                { term: "Email", value: qualification.email },
                 {
-                  term: 'Role',
+                  term: "Role",
                   value: qualificationRoleLabels[qualification.role],
                 },
                 {
-                  term: 'Research purpose',
+                  term: "Research purpose",
                   value: (
                     <span className="text-[var(--text-muted)] leading-[1.55]">
                       {qualification.researchPurpose.length > 140
@@ -346,7 +375,7 @@ export function ReviewPanel() {
         </p>
         {lines.length === 0 ? (
           <p className="text-[14px] text-[var(--pill-error)]">
-            Cart is empty. Return to{' '}
+            Cart is empty. Return to{" "}
             <Link href="/shop" className="text-[var(--accent)]">
               the catalog
             </Link>
@@ -371,28 +400,27 @@ export function ReviewPanel() {
             </ul>
             <Specs
               items={[
-                { term: 'Subtotal', value: formatPrice(subtotalCents) },
+                { term: "Subtotal", value: formatPrice(subtotalCents) },
                 {
-                  term: 'Method discount',
+                  term: "Method discount",
                   value:
                     methodDiscountCents > 0
                       ? `− ${formatPrice(methodDiscountCents)} (${methodDiscountPct}%)`
-                      : '—',
+                      : "—",
                 },
                 {
-                  term: appliedPromo
-                    ? `Promo (${appliedPromo.code})`
-                    : 'Promo',
+                  term: appliedPromo ? `Promo (${appliedPromo.code})` : "Promo",
                   value: appliedPromo
                     ? `− ${formatPrice(promoDiscountCents)} (${appliedPromo.promo.discountPct * 100}%)`
-                    : '—',
+                    : "—",
                 },
                 {
-                  term: 'Shipping',
-                  value: shippingCents === 0 ? 'Free' : formatPrice(shippingCents),
+                  term: "Shipping",
+                  value:
+                    shippingCents === 0 ? "Free" : formatPrice(shippingCents),
                 },
                 {
-                  term: 'Total',
+                  term: "Total",
                   value: (
                     <span className="text-[18px] font-semibold">
                       {formatPrice(totalCents)}
@@ -433,13 +461,13 @@ export function ReviewPanel() {
                       value={promoInput}
                       onChange={(e) => setPromoInput(e.target.value)}
                       onKeyDown={(e) => {
-                        if (e.key === 'Enter') {
+                        if (e.key === "Enter") {
                           e.preventDefault();
                           handleApplyPromo();
                         }
                       }}
-                      aria-describedby={promoError ? 'promo-error' : undefined}
-                      aria-invalid={promoError ? 'true' : 'false'}
+                      aria-describedby={promoError ? "promo-error" : undefined}
+                      aria-invalid={promoError ? "true" : "false"}
                     />
                     <Button
                       type="button"
@@ -480,11 +508,4 @@ export function ReviewPanel() {
       </Card>
     </div>
   );
-}
-
-function generateOrderId(): string {
-  if (typeof crypto !== 'undefined' && 'randomUUID' in crypto) {
-    return `VC-${(crypto as { randomUUID: () => string }).randomUUID().slice(0, 8).toUpperCase()}`;
-  }
-  return `VC-${Math.random().toString(36).slice(2, 10).toUpperCase()}`;
 }

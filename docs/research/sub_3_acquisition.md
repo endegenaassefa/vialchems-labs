@@ -81,9 +81,9 @@
 
 ### 1.7 Vendor-owned Instagram (three-handle minimum, halo accounts)
 
-**Mechanics.** Lowest tolerance and highest enforcement penalty among major US-reachable surfaces. Three operating modes observed: (a) clinical-posture vendors (Peptide Sciences, Biotech, Core, Limitless) treat IG as low-volume explainer or non-channel; (b) bro-aesthetic vendors (Behemoth, PureRawz, SwissChems, Amino Asylum) run halo architecture — primary handle plus 4-5 satellite handles ("_research", "_official", "_backup", "Upgraded", "New") as account-loss insurance; (c) influencer-vendor hybrids (The Peptide Guy @thepeptideguyy 40K) drop research-only fig leaf entirely with "DM 'HEAL' to begin" consultation funnels. Researchem (@researchem.is) preserves 52K followers with zero posts and "Soon... ⤵️" bio — canonical post-enforcement audience-preservation playbook.
+**Mechanics.** Lowest tolerance and highest enforcement penalty among major US-reachable surfaces. Three operating modes observed: (a) clinical-posture vendors (Peptide Sciences, Biotech, Core, Limitless) treat IG as low-volume explainer or non-channel; (b) bro-aesthetic vendors (Behemoth, PureRawz, SwissChems, Amino Asylum) run halo architecture — primary handle plus 4-5 satellite handles ("\_research", "\_official", "\_backup", "Upgraded", "New") as account-loss insurance; (c) influencer-vendor hybrids (The Peptide Guy @thepeptideguyy 40K) drop research-only fig leaf entirely with "DM 'HEAL' to begin" consultation funnels. Researchem (@researchem.is) preserves 52K followers with zero posts and "Soon... ⤵️" bio — canonical post-enforcement audience-preservation playbook.
 
-**Exemplars.** Behemoth Labz halo (@behemothlabs main + _research 1,292 followers / 33 posts + _official 92/89 + _ 344/2); Pure Rawz halo (@official_purerawz, @purerawzrevolution 11K/274 posts, @purerawz.active 887, @purerawz_supplements 177); Swiss Chems halo (@swisschemsofficial 430 + @swisschemsupgraded + @SwissChemsNew on X for reincarnation staging).
+**Exemplars.** Behemoth Labz halo (@behemothlabs main + _research 1,292 followers / 33 posts + \_official 92/89 + _ 344/2); Pure Rawz halo (@official_purerawz, @purerawzrevolution 11K/274 posts, @purerawz.active 887, @purerawz_supplements 177); Swiss Chems halo (@swisschemsofficial 430 + @swisschemsupgraded + @SwissChemsNew on X for reincarnation staging).
 
 **Cost band.** $0-$300 setup. $0-$2K/mo recurring (creative + influencer/affiliate code partnerships). Per-influencer-shoutout $50-$2.5K micro-to-mid. 2-10 hrs/week vendor-account time.
 
@@ -126,6 +126,7 @@
 **Mechanics.** The one paid-acquisition channel that scales without platform-policy attrition. Once an address is captured and consented, the vendor owns the contact and is not subject to Meta/Google ad-policy enforcement. Two ESP families dominate: **Omnisend on WooCommerce** (Swiss Chems brand_id 6819c3c6b7f0a3dba063b570; Behemoth 67dd435022cb9bfb8c05b6a2; Biotech 673262f6cb381463d976b9da; Core 671bba7942f3e1630792d287) and **Brevo on Magento** (Peptide Sciences). Outliers: BigCommerce native form + SendGrid (Limitless Life Nootropics); custom Elementor PDF eBook on /prz-library/ + Mailgun (Pure Rawz). Mailchimp is absent across the entire anchor set — historical suspension risk for peptide accounts. Mailgun is the dominant SMTP transport (Pure Rawz, Behemoth, Biotech, Core, Swiss Chems, Amino Asylum). Deliverability posture is structurally weak: only Peptide Sciences enforces strict DMARC `p=reject; adkim=s; aspf=s; sp=reject`; three publish `p=quarantine`; four publish trivial `p=none`. Trustpilot evidence corroborates that competitor emails go to spam.
 
 **4-email welcome sequence template (Omnisend default + category observations):**
+
 1. Welcome + lead magnet delivery (credibility artifact PDF for Posture A — "Cold-chain handling for lyophilized peptides" or reconstitution-volume calculator gated by email — NOT a discount code, which cheapens the clinical brand).
 2. Research-context follow-up (compound-of-the-month explainer adapted from vendor blog).
 3. Soft product CTA (catalog tour, top compound PDPs).
@@ -197,7 +198,7 @@ Macro creators with documented peptide proximity. **Owner-operator economics dom
 
 - **@melanieavalon** (86K IG, 1.3% engagement) — IF-podcast crossover.
 - **@jzayner / Josiah Zayner** (49K TikTok) — biotech entrepreneur, public-DIY-biology figure.
-- **@derekjohnsonnutrition** (89K IG), **@drewshealthshop** (139K IG), **@biohacking** (50.3K TikTok), **@timbiohacker** (45.3K UK), **@n_metelitsa** (40.2K Russian), **@coachtaragarrison** (68K IG), **@wildlyprimal** (68K IG), **@hana_devore** (69K IG, IFBB Pro), **@higherself.academy** (31K IG), **@drvincentesposito** (70K IG, 1.8% engagement, chiropractic), **@distilledscience / Avisha** (391K IG, 11.8% engagement, est-sales $19K — highest in surveyed set), **@natalianaila** (367K IG, 6.3% engagement), **@vanessa_santiillana** (31K IG, 8.0% engagement), **@projectcameron247365** (36K IG, extreme protocol), **@lillie_kane_** (38K IG, 3.8% engagement, metabolism), **@the.health.goat** (141K IG, 6.8% engagement, est-sales $7.9K), **@gobiohack** (102K IG, 0.4%), **@celinabelizan** (34K IG, 2.7%), **@biohackerblondie / Jenny Jones** (31K IG). Plus **FACEandLMS** (~44.8K YouTube, looksmaxxing blackpill data-driven analysis, activity uncertain).
+- **@derekjohnsonnutrition** (89K IG), **@drewshealthshop** (139K IG), **@biohacking** (50.3K TikTok), **@timbiohacker** (45.3K UK), **@n_metelitsa** (40.2K Russian), **@coachtaragarrison** (68K IG), **@wildlyprimal** (68K IG), **@hana_devore** (69K IG, IFBB Pro), **@higherself.academy** (31K IG), **@drvincentesposito** (70K IG, 1.8% engagement, chiropractic), **@distilledscience / Avisha** (391K IG, 11.8% engagement, est-sales $19K — highest in surveyed set), **@natalianaila** (367K IG, 6.3% engagement), **@vanessa_santiillana** (31K IG, 8.0% engagement), **@projectcameron247365** (36K IG, extreme protocol), **@lillie*kane*** (38K IG, 3.8% engagement, metabolism), **@the.health.goat** (141K IG, 6.8% engagement, est-sales $7.9K), **@gobiohack** (102K IG, 0.4%), **@celinabelizan** (34K IG, 2.7%), **@biohackerblondie / Jenny Jones** (31K IG). Plus **FACEandLMS** (~44.8K YouTube, looksmaxxing blackpill data-driven analysis, activity uncertain).
 
 **Tier M commission.** Mid-tier rates $1K-$5K per branded post (industry-analysis); peptide vertical premium 25-50%.
 
@@ -261,35 +262,36 @@ vialchemlabs
 
 ### 2.6 Discount-code matrix (17 vendor-creator relationships observed)
 
-| Vendor | Creator | Code | URL / Source |
-|---|---|---|---|
-| Limitless Life Nootropics | Ben Greenfield | "BEN" 15% off, lifetime affiliate | https://bengreenfieldlife.com/podcast/jay-campbell-limitlesslife/, https://limitlesslifenootropics.com/ben-greenfield/ |
-| Limitless Life Nootropics | Jay Campbell | "JAY15" 15% off | https://jaycampbell.com/jay-recommends/, https://limitlesslifenootropics.com/jayc |
-| Limitless Life Nootropics | unnamed | DRKATIE, TAYLOR15, JESSICA30, KM15, REGENERATION 25% | https://limitlesslifenootropics.valuecom.com/, https://simplycodes.com/store/limitlesslifenootropics.com |
-| Swiss Chems | unnamed | INSIDE15 15% off (commission-stripped per coupon-website ban) | https://insidebodybuilding.com/sports-technology-labs-review/, https://swisschems.is/affiliate-program/ |
-| Core Peptides | unnamed | "cp10" 10% off | https://simplycodes.com/store/corepeptides.com |
-| Amino Asylum | various | ANABOLIC20 20%, "mass," "Logan20" | https://muscleandbrawn.com/sarms/amino-asylum-review/, https://www.youtube.com/watch?v=Mcx0d-hw6iM |
-| Chemyo | unnamed | "alpha10" 10%, "JACKEDCHEMIST10", lifetime cookie | https://www.chemyo.com/affiliate-area/ |
-| Sports Technology Labs | unnamed | "INSIDE15" 15% off | https://insidebodybuilding.com/sports-technology-labs-review/ |
-| Apollo Peptide Sciences | system | 20% base, 90-day cookie, AOV $150+ | https://apollopeptides.refersion.com/affiliate/registration |
-| Royal Peptides | system | 10%, no cap, monthly $100 minimum | https://royal-peptides.com/affiliates/ |
-| Particle Peptides | system | 10%, EUR-only, monthly invoicing | https://particlepeptides.com/en/content/41-affiliate-program-terms |
-| Onyx Biolabs | system | 10% per referral | https://onyxbiolabs.com/affiliates/ |
-| Loti Labs | system | 15% first sale + 7.5% recurring 90 days, scaling to 20% | https://www.newswire.com/news/earn-rewards-with-loti-labs-new-loyalty-and-affiliate-programs-21078410 |
-| Peptidology | unnamed | "PROBIO15" 15% | https://www.projectbiohacking.com/resources/vendor/peptidology |
-| Ascension Peptides | unnamed | "PROBIO20" 20%; 10% lifetime + 5/3/2/1% MLM 4-tier | https://ascensionpeptides.com/partner-program/ |
-| Peptaura | Obie Fernandez | "OBIE" 10% off | https://x.com/obie/status/2008684963793621260 |
-| Mile High Compound | various | "rickie", "MADISONVERDE", "BLOOM," "VDGLP" 20%, "HeatherM," "MARMAR" 10%, "Oilfield" | TikTok aggregator pages |
-| Halfnattys | Jon Kluth | "code Jon" (account removed) | https://pharmaceutical-journal.com/article/feature/weight-loss-drugs-is-social-media-promotion-to-teenagers-still-a-problem |
-| Halfnattys | "Patty" / @_pattycakes_ | "PATTY" | https://www.tiktok.com/@_pattycakes_/video/7490325981849292062 |
-| QSC Peptides | Clavicular | Clavicular Ascension Stack at clavicularpeptides.com / clavicularstack.com | https://qsc-usa.com/clavicular-peptides-retatrutide-melanotan-ii-looksmaxxing-regimen-revealed/ |
-| Modern Aminos / Amino Club | unnamed | "DPRO" 10-15%, "RAIN20", "30CODE" 30% | https://www.aminoclub.com/us/affiliate |
-| Transcend Company | Greg Doucette | transcendcompany.com/coachgreg URL slug attribution | https://www.tiktok.com/@transcend.hrt/video/7459520383016766762 |
-| Transcend Company | Alex Eubank | shared coachgreg slug (unusual) | aggregated by EssentiallySports 2024 |
+| Vendor                     | Creator                 | Code                                                                                 | URL / Source                                                                                                                |
+| -------------------------- | ----------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| Limitless Life Nootropics  | Ben Greenfield          | "BEN" 15% off, lifetime affiliate                                                    | https://bengreenfieldlife.com/podcast/jay-campbell-limitlesslife/, https://limitlesslifenootropics.com/ben-greenfield/      |
+| Limitless Life Nootropics  | Jay Campbell            | "JAY15" 15% off                                                                      | https://jaycampbell.com/jay-recommends/, https://limitlesslifenootropics.com/jayc                                           |
+| Limitless Life Nootropics  | unnamed                 | DRKATIE, TAYLOR15, JESSICA30, KM15, REGENERATION 25%                                 | https://limitlesslifenootropics.valuecom.com/, https://simplycodes.com/store/limitlesslifenootropics.com                    |
+| Swiss Chems                | unnamed                 | INSIDE15 15% off (commission-stripped per coupon-website ban)                        | https://insidebodybuilding.com/sports-technology-labs-review/, https://swisschems.is/affiliate-program/                     |
+| Core Peptides              | unnamed                 | "cp10" 10% off                                                                       | https://simplycodes.com/store/corepeptides.com                                                                              |
+| Amino Asylum               | various                 | ANABOLIC20 20%, "mass," "Logan20"                                                    | https://muscleandbrawn.com/sarms/amino-asylum-review/, https://www.youtube.com/watch?v=Mcx0d-hw6iM                          |
+| Chemyo                     | unnamed                 | "alpha10" 10%, "JACKEDCHEMIST10", lifetime cookie                                    | https://www.chemyo.com/affiliate-area/                                                                                      |
+| Sports Technology Labs     | unnamed                 | "INSIDE15" 15% off                                                                   | https://insidebodybuilding.com/sports-technology-labs-review/                                                               |
+| Apollo Peptide Sciences    | system                  | 20% base, 90-day cookie, AOV $150+                                                   | https://apollopeptides.refersion.com/affiliate/registration                                                                 |
+| Royal Peptides             | system                  | 10%, no cap, monthly $100 minimum                                                    | https://royal-peptides.com/affiliates/                                                                                      |
+| Particle Peptides          | system                  | 10%, EUR-only, monthly invoicing                                                     | https://particlepeptides.com/en/content/41-affiliate-program-terms                                                          |
+| Onyx Biolabs               | system                  | 10% per referral                                                                     | https://onyxbiolabs.com/affiliates/                                                                                         |
+| Loti Labs                  | system                  | 15% first sale + 7.5% recurring 90 days, scaling to 20%                              | https://www.newswire.com/news/earn-rewards-with-loti-labs-new-loyalty-and-affiliate-programs-21078410                       |
+| Peptidology                | unnamed                 | "PROBIO15" 15%                                                                       | https://www.projectbiohacking.com/resources/vendor/peptidology                                                              |
+| Ascension Peptides         | unnamed                 | "PROBIO20" 20%; 10% lifetime + 5/3/2/1% MLM 4-tier                                   | https://ascensionpeptides.com/partner-program/                                                                              |
+| Peptaura                   | Obie Fernandez          | "OBIE" 10% off                                                                       | https://x.com/obie/status/2008684963793621260                                                                               |
+| Mile High Compound         | various                 | "rickie", "MADISONVERDE", "BLOOM," "VDGLP" 20%, "HeatherM," "MARMAR" 10%, "Oilfield" | TikTok aggregator pages                                                                                                     |
+| Halfnattys                 | Jon Kluth               | "code Jon" (account removed)                                                         | https://pharmaceutical-journal.com/article/feature/weight-loss-drugs-is-social-media-promotion-to-teenagers-still-a-problem |
+| Halfnattys                 | "Patty" / @_pattycakes_ | "PATTY"                                                                              | https://www.tiktok.com/@_pattycakes_/video/7490325981849292062                                                              |
+| QSC Peptides               | Clavicular              | Clavicular Ascension Stack at clavicularpeptides.com / clavicularstack.com           | https://qsc-usa.com/clavicular-peptides-retatrutide-melanotan-ii-looksmaxxing-regimen-revealed/                             |
+| Modern Aminos / Amino Club | unnamed                 | "DPRO" 10-15%, "RAIN20", "30CODE" 30%                                                | https://www.aminoclub.com/us/affiliate                                                                                      |
+| Transcend Company          | Greg Doucette           | transcendcompany.com/coachgreg URL slug attribution                                  | https://www.tiktok.com/@transcend.hrt/video/7459520383016766762                                                             |
+| Transcend Company          | Alex Eubank             | shared coachgreg slug (unusual)                                                      | aggregated by EssentiallySports 2024                                                                                        |
 
 ### 2.7 FTC disclosure compliance vs evasion case studies
 
 **Compliant disclosure (named):**
+
 - **Jay Campbell** — explicit affiliate-codes catalog at jaycampbell.com/jay-recommends/ with disclosure language and JAY15 code visible.
 - **Ben Greenfield** — host-read podcast ad-read with "BEN" 15% off code and explicit affiliate-disclosure framing in episode transcript ("explosive growth, seven to eight times more revenue per month").
 - **Andrew Huberman** — host-read disclosures naming sponsor at top of ad reads (FTC-compliant podcast format); video disclosures vary.
@@ -298,6 +300,7 @@ vialchemlabs
 - **Kareem Shami** — clear #ad on sponsored posts (mainstream-press-driven FTC posture; LADbible 2026-02-26 Godfather of Looksmaxxing interview enforces compliance).
 
 **Evasion / non-compliant (named):**
+
 - **Jon Kluth TikTok** — "code Jon"-Halfnattys retatrutide promotion did not feature #ad disclosure visible in archived clips; framed as unmarked promotion in Pharmaceutical Journal coverage. **Account removed.**
 - **Clavicular** — livestream-format makes formal FTC compliance difficult; bone-smashing and meth-disclosure uncommented; QSC peptide-protocol marketing reproduced under his name across multiple QSC-controlled landing pages without per-post #ad tags. Compliance gap is feature of Kick-livestream economic model.
 - **Sam Sulek** — launched own peptide vendor (3 March 2026 YouTube videos dissect the launch) without per-post FTC tags. 2023 FTC Endorsement Guides revision requires disclosure of owner-operator relationship.
@@ -346,7 +349,7 @@ The vendor-side mortality rate in 2025-2026 has been extraordinarily high. Any c
 
 - **Outreach to FTC-compliant affiliate listicles** — Outliyr, Muscle+Brawn, PepPal, Brainflow, Project Biohacking, BestBPC157Reviews. Pitch placement on "Peptide Sciences alternatives" listicles. Avoid Wild West Peptides (refuses affiliates by policy) and undisclosed-shill sites (PeptideDeck, davidsoftmicro Substack, AminoVault, Cernum) — partnership with non-FTC-compliant sites takes vialchemlabs brand reputational hit when partners get cited.
 - **Podcast outreach** — Jay Campbell Podcast (host-read with vanity-code, JAY15 model), Vigorous Steve (peptide-content core), Outliyr/Nick Urban (Top 13 Legit Peptide Companies Review article ecosystem), DDT Method Podcast, Boomer Anderson Smarter Not Harder, The Dr. Tyna Show, Better Health Guy, Sleep is a Skill, Wellness Mama. Single host-read mid-roll on 50K-100K download mid-tier biohacking show: $1.5K-$4.5K (industry-analysis).
-- **Tier M micro-creator expansion (5-10 more)** — @thebiohackingnurse ramp, @drvincentesposito (clinical chiropractor), @lillie_kane_, @celinabelizan, @melanieavalon (IF-podcast crossover).
+- **Tier M micro-creator expansion (5-10 more)** — @thebiohackingnurse ramp, @drvincentesposito (clinical chiropractor), @lillie*kane*, @celinabelizan, @melanieavalon (IF-podcast crossover).
 - **Continue blog cadence** — 4-6 more compound deep-dives, building toward ~30-50 PDPs with research-article fusion.
 - **Bing/DDG verification** — confirm rankings start arriving for free; submit structured data; beyond that no incremental investment.
 
@@ -360,16 +363,16 @@ The vendor-side mortality rate in 2025-2026 has been extraordinarily high. Any c
 
 ### 3.4 Avoid for vialchemlabs Posture A (with reason)
 
-| Channel | Reason |
-|---|---|
-| **Google Ads** | Policy + reviewer judgment closes channel; only LegitScript-certified compounding pharmacies clear; April 2026 FDA letters explicitly piercing RUO disclaimer. Posture A buyer reads "Sponsored" as sketchy-vendor signal. |
-| **Bing/DDG paid (Microsoft Ads)** | Same pharma policy as Google; LegitScript prereq. Brave/Yandex/Kagi all non-channels. |
-| **Vendor YouTube** | Sports Technology Labs precedent: clinical posture did not protect against termination. Demand engine is third-party creator content, not vendor channels. |
-| **Vendor IG active brand presence** | Clinical-posture vendors (Biotech, Core) demonstrate channel-absence as posture. Explainer carousels don't move on the algorithm. Defensive registration only. |
-| **Vendor TikTok active brand presence** | TikTok Shop excludes peptides categorically; vendor accounts get banned. Defensive registration only; influencer-proxied is the only model. |
-| **SMS marketing** | CTIA + TCPA + carrier vetting close the channel; $500-$1,500 per message TCPA exposure; vertical-specific peptide marketing agency doesn't even offer SMS. |
-| **Posture B "meme-coded" creator partnerships** | Looksmaxxing/mogging audience does not buy from clinical-posture brands. Clavicular-tier sponsorship wrong audience for vialchemlabs clean-clinical positioning. Tier XL macro-influencer fees structurally unaffordable AND wrong demographic. |
-| **Reviews / testimonials / before-after on Day 1** | Compliance contract — strengthen never weaken. AggregateRating schema is permitted (Biotech "4.93/5 from 67 ratings" template) but explicit testimonials and before/after photographic evidence are forbidden Day 1. |
+| Channel                                            | Reason                                                                                                                                                                                                                                          |
+| -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Google Ads**                                     | Policy + reviewer judgment closes channel; only LegitScript-certified compounding pharmacies clear; April 2026 FDA letters explicitly piercing RUO disclaimer. Posture A buyer reads "Sponsored" as sketchy-vendor signal.                      |
+| **Bing/DDG paid (Microsoft Ads)**                  | Same pharma policy as Google; LegitScript prereq. Brave/Yandex/Kagi all non-channels.                                                                                                                                                           |
+| **Vendor YouTube**                                 | Sports Technology Labs precedent: clinical posture did not protect against termination. Demand engine is third-party creator content, not vendor channels.                                                                                      |
+| **Vendor IG active brand presence**                | Clinical-posture vendors (Biotech, Core) demonstrate channel-absence as posture. Explainer carousels don't move on the algorithm. Defensive registration only.                                                                                  |
+| **Vendor TikTok active brand presence**            | TikTok Shop excludes peptides categorically; vendor accounts get banned. Defensive registration only; influencer-proxied is the only model.                                                                                                     |
+| **SMS marketing**                                  | CTIA + TCPA + carrier vetting close the channel; $500-$1,500 per message TCPA exposure; vertical-specific peptide marketing agency doesn't even offer SMS.                                                                                      |
+| **Posture B "meme-coded" creator partnerships**    | Looksmaxxing/mogging audience does not buy from clinical-posture brands. Clavicular-tier sponsorship wrong audience for vialchemlabs clean-clinical positioning. Tier XL macro-influencer fees structurally unaffordable AND wrong demographic. |
+| **Reviews / testimonials / before-after on Day 1** | Compliance contract — strengthen never weaken. AggregateRating schema is permitted (Biotech "4.93/5 from 67 ratings" template) but explicit testimonials and before/after photographic evidence are forbidden Day 1.                            |
 
 ---
 

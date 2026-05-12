@@ -12,41 +12,41 @@
  * Related Products tab picks 3 SKUs from the same category, falling back to
  * adjacent categories if fewer than 3 in-category siblings exist.
  */
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { useState } from 'react';
-import { Pill } from '@/components/ui/Pill';
-import { Specs } from '@/components/ui/Specs';
-import { ProductStudioVisual } from '@/components/ui/ProductStudioVisual';
-import { Card } from '@/components/ui/Card';
-import { buttonClassNames } from '@/components/ui/Button';
-import { coaRecords } from '@/lib/content/coa';
+import Link from "next/link";
+import { useState } from "react";
+import { Pill } from "@/components/ui/Pill";
+import { Specs } from "@/components/ui/Specs";
+import { ProductStudioVisual } from "@/components/ui/ProductStudioVisual";
+import { Card } from "@/components/ui/Card";
+import { buttonClassNames } from "@/components/ui/Button";
+import { coaRecords } from "@/lib/content/coa";
 import {
   formatPerMg,
   formatPrice,
   getProductBySlug,
   products,
   type Product,
-} from '@/lib/content/products';
-import { getProductDescription } from '@/lib/content/product-descriptions';
-import { siteConfig } from '@/lib/content/site';
+} from "@/lib/content/products";
+import { getProductDescription } from "@/lib/content/product-descriptions";
+import { siteConfig } from "@/lib/content/site";
 
-type TabKey = 'description' | 'coa' | 'related';
+type TabKey = "description" | "coa" | "related";
 
 interface ProductTabsProps {
   slug: string;
 }
 
 const TABS: { key: TabKey; label: string }[] = [
-  { key: 'description', label: 'Description' },
-  { key: 'coa', label: 'Certificate of Analysis' },
-  { key: 'related', label: 'Related products' },
+  { key: "description", label: "Description" },
+  { key: "coa", label: "Certificate of Analysis" },
+  { key: "related", label: "Related products" },
 ];
 
 export function ProductTabs({ slug }: ProductTabsProps) {
   const product = getProductBySlug(slug);
-  const [active, setActive] = useState<TabKey>('description');
+  const [active, setActive] = useState<TabKey>("description");
 
   if (!product) {
     return null;
@@ -71,12 +71,12 @@ export function ProductTabs({ slug }: ProductTabsProps) {
               type="button"
               onClick={() => setActive(tab.key)}
               className={[
-                'px-4 h-11 text-[14px] font-medium whitespace-nowrap',
-                'border-b-2 -mb-px transition-colors',
+                "px-4 h-11 text-[14px] font-medium whitespace-nowrap",
+                "border-b-2 -mb-px transition-colors",
                 isActive
-                  ? 'border-[var(--accent)] text-[var(--text)]'
-                  : 'border-transparent text-[var(--text-muted)] hover:text-[var(--text)]',
-              ].join(' ')}
+                  ? "border-[var(--accent)] text-[var(--text)]"
+                  : "border-transparent text-[var(--text-muted)] hover:text-[var(--text)]",
+              ].join(" ")}
             >
               {tab.label}
             </button>
@@ -84,16 +84,18 @@ export function ProductTabs({ slug }: ProductTabsProps) {
         })}
       </div>
 
-      {active === 'description' && <DescriptionPanel product={product} />}
-      {active === 'coa' && <CoaPanel product={product} />}
-      {active === 'related' && <RelatedPanel product={product} />}
+      {active === "description" && <DescriptionPanel product={product} />}
+      {active === "coa" && <CoaPanel product={product} />}
+      {active === "related" && <RelatedPanel product={product} />}
     </div>
   );
 }
 
 function DescriptionPanel({ product }: { product: Product }) {
   const fullDescription = getProductDescription(product.sku);
-  const paragraphs = fullDescription.split('\n\n').filter((p) => p.trim().length > 0);
+  const paragraphs = fullDescription
+    .split("\n\n")
+    .filter((p) => p.trim().length > 0);
   return (
     <div
       role="tabpanel"
@@ -103,19 +105,19 @@ function DescriptionPanel({ product }: { product: Product }) {
     >
       <div className="space-y-4 text-[16px] leading-[1.65] text-[var(--text-muted)]">
         {paragraphs.map((para, i) => (
-          <p key={i} className={i === 0 ? 'text-[var(--text)]' : undefined}>
+          <p key={i} className={i === 0 ? "text-[var(--text)]" : undefined}>
             {para}
           </p>
         ))}
       </div>
       <Specs
         items={[
-          { term: 'SKU', value: product.sku },
-          { term: 'Format', value: 'Lyophilized vial' },
-          { term: 'Dose', value: product.dose },
-          { term: 'Storage', value: '2-8 °C, sealed' },
-          { term: 'List price', value: formatPrice(product.listPriceCents) },
-          { term: 'Per mg', value: formatPerMg(product.perMgCents) },
+          { term: "SKU", value: product.sku },
+          { term: "Format", value: "Lyophilized vial" },
+          { term: "Dose", value: product.dose },
+          { term: "Storage", value: "2-8 °C, sealed" },
+          { term: "List price", value: formatPrice(product.listPriceCents) },
+          { term: "Per mg", value: formatPerMg(product.perMgCents) },
         ]}
       />
     </div>
@@ -127,7 +129,9 @@ function CoaPanel({ product }: { product: Product }) {
   if (!record) {
     return (
       <div role="tabpanel" id="tab-panel-coa" aria-labelledby="tab-coa">
-        <p className="text-[var(--text-muted)]">No Certificate of Analysis on file.</p>
+        <p className="text-[var(--text-muted)]">
+          No Certificate of Analysis on file.
+        </p>
       </div>
     );
   }
@@ -144,14 +148,14 @@ function CoaPanel({ product }: { product: Product }) {
           <Pill variant="info">Independent lab</Pill>
         </div>
         <p className="text-[15px] leading-[1.6] text-[var(--text-muted)]">
-          Each batch of {product.shortName} is independently tested by{' '}
+          Each batch of {product.shortName} is independently tested by{" "}
           <span className="text-[var(--text)]">{record.lab}</span> for purity by
-          reverse-phase HPLC, sterility under USP &lt;71&gt;, and endotoxin level by
-          LAL. The full report is available below.
+          reverse-phase HPLC, sterility under USP &lt;71&gt;, and endotoxin
+          level by LAL. The full report is available below.
         </p>
         <Link
           href={record.pdfPath}
-          className={buttonClassNames('outline', 'md')}
+          className={buttonClassNames("outline", "md")}
         >
           Download COA PDF
           <span aria-hidden="true">↓</span>
@@ -163,12 +167,12 @@ function CoaPanel({ product }: { product: Product }) {
       <Specs
         dense
         items={[
-          { term: 'Batch', value: record.batch },
-          { term: 'Test date', value: record.testDate },
-          { term: 'Lab', value: record.lab },
-          { term: 'Purity (HPLC)', value: `${record.hplcPurityPct}%` },
-          { term: 'Sterility (USP <71>)', value: record.sterilityResult },
-          { term: 'Endotoxin (LAL)', value: record.endotoxinEU_per_mg },
+          { term: "Batch", value: record.batch },
+          { term: "Test date", value: record.testDate },
+          { term: "Lab", value: record.lab },
+          { term: "Purity (HPLC)", value: `${record.hplcPurityPct}%` },
+          { term: "Sterility (USP <71>)", value: record.sterilityResult },
+          { term: "Endotoxin (LAL)", value: record.endotoxinEU_per_mg },
         ]}
       />
     </div>
@@ -197,7 +201,7 @@ function RelatedPanel({ product }: { product: Product }) {
             <div className="flex items-start gap-4 mb-3">
               <div
                 className="relative h-16 w-16 flex-none overflow-hidden rounded-[4px] border border-white/10"
-                style={{ background: '#02070b' }}
+                style={{ background: "#02070b" }}
                 aria-hidden="true"
               >
                 <ProductStudioVisual

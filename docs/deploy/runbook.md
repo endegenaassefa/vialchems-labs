@@ -126,6 +126,7 @@ THEN promotes to `https://vialchemlabs.com`. Watch the Vercel dashboard
 for build progress; ~3-5 min on a clean build.
 
 Expected build output:
+
 ```
 ✓ Compiled successfully
 ✓ Generating static pages (50/50)
@@ -137,7 +138,8 @@ Route (app)
 ```
 
 If the build fails, the most common causes:
-- A REQUIRE_* env var is true but the dependent secret is empty → fix the env value
+
+- A REQUIRE\_\* env var is true but the dependent secret is empty → fix the env value
 - Supabase migration not applied → run step 4 first
 - Sentry source-map upload failure → set `SENTRY_AUTH_TOKEN` or remove from env temporarily
 
@@ -183,13 +185,13 @@ the script.
 In the Sentry dashboard, create alert rules per the spec table in
 `docs/checkpoints/v4_phase_10_services.md` §10.3:
 
-| Metric | Threshold | Action |
-|---|---|---|
-| Error rate (any) | > 1% over 5 min | page on-call |
-| Payment-flow errors | > 0.1% over 15 min | page on-call |
-| Webhook signature failure | any in 1 min | warn + investigate |
-| LCP regression | > 4.0 s p75 over 10 min | warn + investigate |
-| 5xx rate | > 0.5% over 5 min | page on-call |
+| Metric                    | Threshold               | Action             |
+| ------------------------- | ----------------------- | ------------------ |
+| Error rate (any)          | > 1% over 5 min         | page on-call       |
+| Payment-flow errors       | > 0.1% over 15 min      | page on-call       |
+| Webhook signature failure | any in 1 min            | warn + investigate |
+| LCP regression            | > 4.0 s p75 over 10 min | warn + investigate |
+| 5xx rate                  | > 0.5% over 5 min       | page on-call       |
 
 Verify alerts fire by triggering a test error from the dashboard's
 "Send test alert" button.
@@ -216,6 +218,7 @@ OR via the Vercel dashboard → Deployments → previous → "Promote to
 Production".
 
 Rollback typically completes in <30s. After rollback:
+
 1. Capture the failure: Sentry → Issues, sorted by `firstSeen`
 2. Open a hotfix branch off `main`
 3. Fix root cause (Iron Law 2.3 — no symptom-fix patches)
@@ -226,6 +229,7 @@ Rollback typically completes in <30s. After rollback:
 ## Maintenance windows
 
 Recommended:
+
 - 02:00-04:00 UTC Tuesdays for Supabase migrations
 - 03:00-05:00 UTC any weekday for non-breaking deploys
 - Avoid Friday afternoon deploys

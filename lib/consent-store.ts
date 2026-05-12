@@ -12,17 +12,17 @@
  * regulatory-artifact storage.
  */
 
-export const CONSENT_COOKIE = 'vc-consent' as const;
+export const CONSENT_COOKIE = "vc-consent" as const;
 
 export const CONSENT_CATEGORIES = [
-  'necessary',
-  'functional',
-  'analytics',
-  'marketing',
+  "necessary",
+  "functional",
+  "analytics",
+  "marketing",
 ] as const;
 export type ConsentCategory = (typeof CONSENT_CATEGORIES)[number];
 
-export const STRICTLY_NECESSARY_CATEGORIES: ConsentCategory[] = ['necessary'];
+export const STRICTLY_NECESSARY_CATEGORIES: ConsentCategory[] = ["necessary"];
 
 export interface ConsentState {
   version: number;
@@ -66,8 +66,9 @@ export function parseConsent(raw: string | null): ConsentState {
       marketing: Boolean(parsed.categories?.marketing),
     };
     return {
-      version: typeof parsed.version === 'number' ? parsed.version : fallback.version,
-      decidedAt: typeof parsed.decidedAt === 'string' ? parsed.decidedAt : null,
+      version:
+        typeof parsed.version === "number" ? parsed.version : fallback.version,
+      decidedAt: typeof parsed.decidedAt === "string" ? parsed.decidedAt : null,
       categories,
     };
   } catch {
@@ -85,7 +86,10 @@ export function consentEnabled(
 
 export function detectGPC(nav: Navigator | undefined): boolean {
   if (!nav) return false;
-  return Boolean((nav as Navigator & { globalPrivacyControl?: boolean }).globalPrivacyControl);
+  return Boolean(
+    (nav as Navigator & { globalPrivacyControl?: boolean })
+      .globalPrivacyControl,
+  );
 }
 
 /**
@@ -134,7 +138,9 @@ export function rejectAll(): ConsentState {
 /**
  * Customize: caller passes per-category booleans; necessary is forced true.
  */
-export function customize(input: Partial<Record<ConsentCategory, boolean>>): ConsentState {
+export function customize(
+  input: Partial<Record<ConsentCategory, boolean>>,
+): ConsentState {
   return {
     version: CURRENT_VERSION,
     decidedAt: new Date().toISOString(),

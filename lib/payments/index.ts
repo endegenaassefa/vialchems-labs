@@ -11,12 +11,9 @@ export type {
   PaymentProviderId,
   PaymentStatus,
   WebhookResult,
-} from './types';
+} from "./types";
 
-export {
-  applyPaymentMethodDiscount,
-  PAYMENT_DISCOUNT_PCT,
-} from './types';
+export { applyPaymentMethodDiscount, PAYMENT_DISCOUNT_PCT } from "./types";
 
 export {
   getPaymentProvider,
@@ -24,7 +21,7 @@ export {
   getPaymentRegistry,
   resetPaymentRegistry,
   resolvePaymentProviderId,
-} from './config';
+} from "./config";
 
 export {
   reconcile,
@@ -32,14 +29,14 @@ export {
   resetReconciliationLedger,
   getReconciliationLedger,
   type ReconcileResult,
-} from './reconciliation';
+} from "./reconciliation";
 
 import type {
   CreateIntentInput,
   PaymentIntent,
   PaymentProviderId,
-} from './types';
-import { getPaymentProvider } from './config';
+} from "./types";
+import { getPaymentProvider } from "./config";
 
 /**
  * Convenience wrapper: create an intent on the active provider (or override).

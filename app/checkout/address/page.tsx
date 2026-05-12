@@ -8,15 +8,15 @@
  * On submit: navigates to /checkout/method. Real address persistence lives in
  * Phase 9 (Supabase orders row).
  */
-import type { Metadata } from 'next';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { CheckoutGuard } from '@/components/CheckoutGuard';
-import { CheckoutSteps } from '../CheckoutSteps';
-import { AddressForm } from './AddressForm';
+import type { Metadata } from "next";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { CheckoutGuard } from "@/components/CheckoutGuard";
+import { CheckoutSteps } from "../CheckoutSteps";
+import { AddressForm } from "./AddressForm";
 
 export const metadata: Metadata = {
-  title: 'Checkout — Address',
+  title: "Checkout — Address",
 };
 
 export default function CheckoutAddressPage() {

@@ -4,35 +4,35 @@
  * Renders email preferences (new-batch, research-index) + sign-out stub. Real
  * preference storage lands in Phase 8.
  */
-import type { Metadata } from 'next';
-import Link from 'next/link';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { Card } from '@/components/ui/Card';
-import { Button } from '@/components/ui/Button';
-import { Pill } from '@/components/ui/Pill';
+import type { Metadata } from "next";
+import Link from "next/link";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { Card } from "@/components/ui/Card";
+import { Button } from "@/components/ui/Button";
+import { Pill } from "@/components/ui/Pill";
 
 export const metadata: Metadata = {
-  title: 'Account — Settings',
+  title: "Account — Settings",
 };
 
 const PREFERENCES = [
   {
-    id: 'new-batch',
-    label: 'New-batch alerts',
-    body: 'Email when a new batch of a product you have ordered before becomes available.',
+    id: "new-batch",
+    label: "New-batch alerts",
+    body: "Email when a new batch of a product you have ordered before becomes available.",
     defaultChecked: true,
   },
   {
-    id: 'research-index',
-    label: 'Research index',
-    body: 'Plain-language explainers when new pieces are published.',
+    id: "research-index",
+    label: "Research index",
+    body: "Plain-language explainers when new pieces are published.",
     defaultChecked: true,
   },
   {
-    id: 'order-status',
-    label: 'Order status',
-    body: 'Transactional only. Cannot be turned off while a pending order exists.',
+    id: "order-status",
+    label: "Order status",
+    body: "Transactional only. Cannot be turned off while a pending order exists.",
     defaultChecked: true,
   },
 ];
@@ -67,7 +67,7 @@ export default function SettingsPage() {
                       type="checkbox"
                       id={`pref-${pref.id}`}
                       defaultChecked={pref.defaultChecked}
-                      disabled={pref.id === 'order-status'}
+                      disabled={pref.id === "order-status"}
                       className="mt-1 h-4 w-4 accent-[var(--accent)]"
                     />
                     <label

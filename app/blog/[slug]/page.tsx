@@ -5,19 +5,19 @@
  * footnote block. No markdown parser is used; the data is already structured
  * in lib/content/blog.ts so the renderer can stay declarative and audited.
  */
-import type { Metadata } from 'next';
-import Link from 'next/link';
-import { notFound } from 'next/navigation';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { Card } from '@/components/ui/Card';
-import { blogPosts, getBlogPostBySlug } from '@/lib/content/blog';
-import { siteConfig } from '@/lib/content/site';
+import type { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { Card } from "@/components/ui/Card";
+import { blogPosts, getBlogPostBySlug } from "@/lib/content/blog";
+import { siteConfig } from "@/lib/content/site";
 import {
   articleJsonLd,
   breadcrumbJsonLd,
   serializeJsonLdSafe,
-} from '@/lib/seo/jsonLd';
+} from "@/lib/seo/jsonLd";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -32,7 +32,7 @@ export async function generateMetadata({
 }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const post = getBlogPostBySlug(slug);
-  if (!post) return { title: 'Article not found' };
+  if (!post) return { title: "Article not found" };
   return {
     title: post.title,
     description: post.excerpt,
@@ -57,8 +57,8 @@ export default async function BlogPostPage({ params }: PageProps) {
     siteConfig.url,
   );
   const breadcrumbLd = breadcrumbJsonLd([
-    { name: 'Home', url: `${siteConfig.url}/` },
-    { name: 'Research Index', url: `${siteConfig.url}/blog` },
+    { name: "Home", url: `${siteConfig.url}/` },
+    { name: "Research Index", url: `${siteConfig.url}/blog` },
     { name: post.title, url: `${siteConfig.url}/blog/${post.slug}` },
   ]);
 
@@ -129,12 +129,16 @@ export default async function BlogPostPage({ params }: PageProps) {
                 Research-only positioning
               </p>
               <p className="text-[14px] leading-[1.6] text-[var(--text)]">
-                This article is a research register for in-vitro and animal-model
-                contexts. {siteConfig.name} supplies research reference materials
-                with independent third-party Certificates of Analysis. See{' '}
-                <Link href="/coa" className="text-[var(--accent)] hover:text-[var(--accent-soft)]">
+                This article is a research register for in-vitro and
+                animal-model contexts. {siteConfig.name} supplies research
+                reference materials with independent third-party Certificates of
+                Analysis. See{" "}
+                <Link
+                  href="/coa"
+                  className="text-[var(--accent)] hover:text-[var(--accent-soft)]"
+                >
                   /coa
-                </Link>{' '}
+                </Link>{" "}
                 for the COA index.
               </p>
             </Card>

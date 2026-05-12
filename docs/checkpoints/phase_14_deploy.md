@@ -14,6 +14,7 @@ Status: GitHub COMPLETE; Vercel deferred to operator action
 ## Vercel deploy — operator action required
 
 The build cannot complete autonomous deploy because:
+
 1. Vercel CLI requires interactive auth flow (`vercel login`) tied to operator's account
 2. Production env vars must be set in Vercel dashboard (operator's choice for project name, region, env-var rotation)
 3. `vialchemlabs.com` domain registration + DNS pointing requires operator's registrar account
@@ -106,11 +107,13 @@ curl https://vialchemlabs.com/api/health
 ### Domain registration note
 
 `vialchemlabs.com` (`.labs` TLD) is operated by Donuts/Identity Digital. Available registrars include:
+
 - 101domain (https://www.101domain.com)
 - Gandi (https://www.gandi.net)
 - Possibly Namecheap, Dynadot for some `.labs` TLDs
 
 If `vialchemlabs.com` is unavailable or restricted, fallback options:
+
 1. `vialchemlabs.com` — check via WHOIS; standard registrars
 2. `vialchemlabs.com`
 3. `vialchemlabs.bio`

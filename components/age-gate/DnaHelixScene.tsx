@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from "react";
 
 function prefersReducedMotion() {
-  if (typeof window === 'undefined') return true;
-  return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (typeof window === "undefined") return true;
+  return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 }
 
 export function DnaHelixScene() {
@@ -19,7 +19,7 @@ export function DnaHelixScene() {
       const host = hostRef.current;
       if (!host) return;
 
-      const THREE = await import('three');
+      const THREE = await import("three");
       if (disposed || !hostRef.current) return;
 
       const scene = new THREE.Scene();
@@ -29,7 +29,7 @@ export function DnaHelixScene() {
       const renderer = new THREE.WebGLRenderer({
         alpha: true,
         antialias: true,
-        powerPreference: 'low-power',
+        powerPreference: "low-power",
       });
       renderer.setClearColor(0x000000, 0);
       renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.75));
@@ -65,7 +65,7 @@ export function DnaHelixScene() {
 
       const pointGeometry = new THREE.BufferGeometry();
       pointGeometry.setAttribute(
-        'position',
+        "position",
         new THREE.Float32BufferAttribute([...strandA, ...strandB], 3),
       );
 
@@ -90,7 +90,7 @@ export function DnaHelixScene() {
       const makeLine = (points: number[]) => {
         const geometry = new THREE.BufferGeometry();
         geometry.setAttribute(
-          'position',
+          "position",
           new THREE.Float32BufferAttribute(points, 3),
         );
         return new THREE.Line(geometry, lineMaterial);
@@ -101,7 +101,7 @@ export function DnaHelixScene() {
 
       const barsGeometry = new THREE.BufferGeometry();
       barsGeometry.setAttribute(
-        'position',
+        "position",
         new THREE.Float32BufferAttribute(barSegments, 3),
       );
       group.add(new THREE.LineSegments(barsGeometry, lineMaterial));
@@ -115,7 +115,7 @@ export function DnaHelixScene() {
       }
 
       resize();
-      window.addEventListener('resize', resize);
+      window.addEventListener("resize", resize);
 
       const reduceMotion = prefersReducedMotion();
       let previous = performance.now();
@@ -138,7 +138,7 @@ export function DnaHelixScene() {
 
       cleanup = () => {
         window.cancelAnimationFrame(frame);
-        window.removeEventListener('resize', resize);
+        window.removeEventListener("resize", resize);
         pointGeometry.dispose();
         pointMaterial.dispose();
         lineMaterial.dispose();

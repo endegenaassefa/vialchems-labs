@@ -4,11 +4,11 @@
  * Same data shape as /order/[id] but in the account context: includes
  * cancel + refund-request stubs (Phase 9).
  */
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { AccountOrderDetail } from './AccountOrderDetail';
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { AccountOrderDetail } from "./AccountOrderDetail";
 
-export const dynamic = 'force-dynamic';
+export const dynamic = "force-dynamic";
 
 export default async function AccountOrderDetailPage({
   params,

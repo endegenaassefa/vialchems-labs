@@ -11,14 +11,14 @@ by hand.
 
 ## Brand identity (LOCKED — Iron Law 2.26)
 
-| Attribute | Value | Source |
-|---|---|---|
-| Brand name | vialchemlabs | `lib/content/site.ts:9` |
-| Tagline | "Counted, weighed, verified." | `lib/content/site.ts:15` |
-| Posture | A — Clean Clinical Labs | Appendix V.2 |
-| Wordmark | "vialchemlabs" + "LABS" chip | `components/SiteHeader.tsx` |
-| Domain | `vialchemlabs.com` (literal `.labs` TLD) | `lib/content/site.ts:12` |
-| Lab partner | Janoshik Analytical (default; env-overridable) | `lib/content/site.ts:24` |
+| Attribute   | Value                                          | Source                      |
+| ----------- | ---------------------------------------------- | --------------------------- |
+| Brand name  | vialchemlabs                                   | `lib/content/site.ts:9`     |
+| Tagline     | "Counted, weighed, verified."                  | `lib/content/site.ts:15`    |
+| Posture     | A — Clean Clinical Labs                        | Appendix V.2                |
+| Wordmark    | "vialchemlabs" + "LABS" chip                   | `components/SiteHeader.tsx` |
+| Domain      | `vialchemlabs.com` (literal `.labs` TLD)       | `lib/content/site.ts:12`    |
+| Lab partner | Janoshik Analytical (default; env-overridable) | `lib/content/site.ts:24`    |
 
 The brand expression is non-negotiable per Iron Law 2.26. Color values,
 type stack, wordmark composition, and Posture A label do NOT change
@@ -28,116 +28,116 @@ without explicit operator instruction in chat.
 
 Surface scale (dark only — no light mode):
 
-| Token | Value | Use |
-|---|---|---|
-| `--bg` | `#0a0e0f` | Page background |
-| `--surface` | `#141a1c` | Card surfaces, footer |
-| `--surface-strong` | `#1a2226` | Header on scroll, pressed states |
-| `--surface-elevated` | `#202a2e` | Elevated cards (Recovery CTA, PDP price strip) |
-| `--surface-muted` | `rgba(20, 26, 28, 0.6)` | Overlays |
+| Token                | Value                   | Use                                            |
+| -------------------- | ----------------------- | ---------------------------------------------- |
+| `--bg`               | `#0a0e0f`               | Page background                                |
+| `--surface`          | `#141a1c`               | Card surfaces, footer                          |
+| `--surface-strong`   | `#1a2226`               | Header on scroll, pressed states               |
+| `--surface-elevated` | `#202a2e`               | Elevated cards (Recovery CTA, PDP price strip) |
+| `--surface-muted`    | `rgba(20, 26, 28, 0.6)` | Overlays                                       |
 
 Accent + electric scale:
 
-| Token | Value | Use |
-|---|---|---|
-| `--accent` | `#3dd4c8` | Primary CTAs, links, eyebrow text |
-| `--accent-soft` | `#5eebdf` | Hover state, italic accents |
-| `--accent-glow` | `#7ff1e8` | Glow effects (subtle) |
-| `--accent-deep` | `#2cb5aa` | Pressed state |
-| `--electric` | `#67e8f9` | Atmospheric secondary, RUO pills |
+| Token           | Value     | Use                               |
+| --------------- | --------- | --------------------------------- |
+| `--accent`      | `#3dd4c8` | Primary CTAs, links, eyebrow text |
+| `--accent-soft` | `#5eebdf` | Hover state, italic accents       |
+| `--accent-glow` | `#7ff1e8` | Glow effects (subtle)             |
+| `--accent-deep` | `#2cb5aa` | Pressed state                     |
+| `--electric`    | `#67e8f9` | Atmospheric secondary, RUO pills  |
 
 Text scale:
 
-| Token | Value | Contrast | Use |
-|---|---|---|---|
-| `--text` | `rgba(255, 255, 255, 0.92)` | 17.4:1 on `--bg` | Body, headings |
-| `--text-muted` | `rgba(255, 255, 255, 0.62)` | 9.4:1 on `--bg` | Secondary text, descriptions |
+| Token           | Value                       | Contrast             | Use                                                                            |
+| --------------- | --------------------------- | -------------------- | ------------------------------------------------------------------------------ |
+| `--text`        | `rgba(255, 255, 255, 0.92)` | 17.4:1 on `--bg`     | Body, headings                                                                 |
+| `--text-muted`  | `rgba(255, 255, 255, 0.62)` | 9.4:1 on `--bg`      | Secondary text, descriptions                                                   |
 | `--text-subtle` | `rgba(255, 255, 255, 0.55)` | 5.0:1 on `--surface` | Captions, eyebrow text — bumped from 0.42 in Phase 11.2 to clear WCAG AA 4.5:1 |
 
 Border:
 
-| Token | Value | Use |
-|---|---|---|
-| `--border` | `#1f2a2e` | Default 1px borders |
+| Token             | Value     | Use                    |
+| ----------------- | --------- | ---------------------- |
+| `--border`        | `#1f2a2e` | Default 1px borders    |
 | `--border-strong` | `#2a3a40` | Active / hover borders |
 
 Status pills (always paired with text label per Iron Law 2.27 a11y):
 
-| Token | Value | Use |
-|---|---|---|
-| `--pill-accent` | `#3dd4c8` | "In stock", "Verified" |
-| `--pill-info` | `#5eebdf` | Category labels |
-| `--pill-electric` | `#67e8f9` | "RUO only" |
-| `--pill-error` | `#f87171` | Error states |
+| Token             | Value     | Use                    |
+| ----------------- | --------- | ---------------------- |
+| `--pill-accent`   | `#3dd4c8` | "In stock", "Verified" |
+| `--pill-info`     | `#5eebdf` | Category labels        |
+| `--pill-electric` | `#67e8f9` | "RUO only"             |
+| `--pill-error`    | `#f87171` | Error states           |
 
 ## Typography stack
 
-| Token | Family | Weights | Use |
-|---|---|---|---|
-| `--font-plex-sans` | IBM Plex Sans | 300 / 400 / 500 / 600 / 700 | Body + headings |
-| `--font-plex-mono` | IBM Plex Mono | 300 / 400 / 500 / 600 | SKUs, batch numbers, data |
-| `--font-newsreader` | Newsreader | 400 italic | Hero pull-quotes, italic accents |
+| Token               | Family        | Weights                     | Use                              |
+| ------------------- | ------------- | --------------------------- | -------------------------------- |
+| `--font-plex-sans`  | IBM Plex Sans | 300 / 400 / 500 / 600 / 700 | Body + headings                  |
+| `--font-plex-mono`  | IBM Plex Mono | 300 / 400 / 500 / 600       | SKUs, batch numbers, data        |
+| `--font-newsreader` | Newsreader    | 400 italic                  | Hero pull-quotes, italic accents |
 
 Loaded via `next/font/google` in `app/layout.tsx` (auto-subset, self-hosted).
 
 Type scale (responsive where indicated):
 
-| Token | Value | Use |
-|---|---|---|
-| `heroXl` | `clamp(48px, 7vw, 96px)` | Home hero |
-| `heroLg` | `60px` | PDP h1 |
-| `headlineLg` | `32px` | Section h2 |
-| `bodyLg` | `18px` | Hero subtext, lead paragraphs |
-| `bodyMd` | `16px` | Default body |
-| `bodySm` | `14px` | Secondary text |
-| `monoSm` | `12px` | Tabular data |
-| `labelUppercase` | `11px` | Eyebrow labels (with `0.16em` tracking) |
+| Token            | Value                    | Use                                     |
+| ---------------- | ------------------------ | --------------------------------------- |
+| `heroXl`         | `clamp(48px, 7vw, 96px)` | Home hero                               |
+| `heroLg`         | `60px`                   | PDP h1                                  |
+| `headlineLg`     | `32px`                   | Section h2                              |
+| `bodyLg`         | `18px`                   | Hero subtext, lead paragraphs           |
+| `bodyMd`         | `16px`                   | Default body                            |
+| `bodySm`         | `14px`                   | Secondary text                          |
+| `monoSm`         | `12px`                   | Tabular data                            |
+| `labelUppercase` | `11px`                   | Eyebrow labels (with `0.16em` tracking) |
 
 Tabular numerals (`font-feature-settings: "tnum"`) on every numeric
 display: prices, batch numbers, dates, dose strengths.
 
 ## Spacing scale (4px base)
 
-| Token | Value | Use |
-|---|---|---|
-| `--sp-2xs` | `2px` | Hairline gaps |
-| `--sp-xs` | `4px` | Tight gaps |
-| `--sp-sm` | `8px` | Inline gaps, pill padding |
-| `--sp-md` | `12px` | Card-internal, FieldLabel-to-Input |
-| `--sp-lg` | `16px` | Standard gap |
-| `--sp-xl` | `24px` | Card padding, section padding |
-| `--sp-2xl` | `32px` | Larger card padding |
-| `--sp-3xl` | `48px` | Hero internal |
-| `--sp-4xl` | `64px` | Section spacing |
-| `--sp-5xl` | `96px` | Page hero spacing |
-| `--sp-6xl` | `128px` | Major section breaks |
-| `--sp-7xl` | `192px` | Hero-to-section gaps |
-| `--sp-8xl` | `256px` | Page-edge hero |
+| Token      | Value   | Use                                |
+| ---------- | ------- | ---------------------------------- |
+| `--sp-2xs` | `2px`   | Hairline gaps                      |
+| `--sp-xs`  | `4px`   | Tight gaps                         |
+| `--sp-sm`  | `8px`   | Inline gaps, pill padding          |
+| `--sp-md`  | `12px`  | Card-internal, FieldLabel-to-Input |
+| `--sp-lg`  | `16px`  | Standard gap                       |
+| `--sp-xl`  | `24px`  | Card padding, section padding      |
+| `--sp-2xl` | `32px`  | Larger card padding                |
+| `--sp-3xl` | `48px`  | Hero internal                      |
+| `--sp-4xl` | `64px`  | Section spacing                    |
+| `--sp-5xl` | `96px`  | Page hero spacing                  |
+| `--sp-6xl` | `128px` | Major section breaks               |
+| `--sp-7xl` | `192px` | Hero-to-section gaps               |
+| `--sp-8xl` | `256px` | Page-edge hero                     |
 
 7xl + 8xl added in Phase 1 v4 for elevated hero compositions.
 
 ## Radius
 
-| Token | Value | Use |
-|---|---|---|
-| `--radius-sm` | `4px` | Pills |
-| `--radius-md` | `8px` | Inputs |
-| `--radius-lg` | `12px` | Buttons |
-| `--radius-xl` | `14px` | Cards |
-| `--radius-2xl` | `20px` | Large surface containers |
-| `--radius-pill` | `9999px` | Status pills |
+| Token           | Value    | Use                      |
+| --------------- | -------- | ------------------------ |
+| `--radius-sm`   | `4px`    | Pills                    |
+| `--radius-md`   | `8px`    | Inputs                   |
+| `--radius-lg`   | `12px`   | Buttons                  |
+| `--radius-xl`   | `14px`   | Cards                    |
+| `--radius-2xl`  | `20px`   | Large surface containers |
+| `--radius-pill` | `9999px` | Status pills             |
 
 ## Shadows
 
 Added in Phase 1 v4 for additive depth (Iron Law 2.21):
 
-| Token | Value | Use |
-|---|---|---|
-| `--shadow-sm` | `0 1px 2px 0 rgba(0,0,0,0.32)` | Default Card |
-| `--shadow-md` | `0 4px 12px -2px rgba(0,0,0,0.42)` | Card hover lift |
-| `--shadow-lg` | `0 12px 32px -4px rgba(0,0,0,0.5)` | Elevated surfaces (Recovery CTA, PDP price strip) |
-| `--shadow-xl` | `0 24px 64px -12px rgba(0,0,0,0.6)` | Modals, sheets |
-| `--shadow-2xl` | `0 32px 96px -16px rgba(0,0,0,0.7)` | Dialog backdrops |
+| Token          | Value                               | Use                                               |
+| -------------- | ----------------------------------- | ------------------------------------------------- |
+| `--shadow-sm`  | `0 1px 2px 0 rgba(0,0,0,0.32)`      | Default Card                                      |
+| `--shadow-md`  | `0 4px 12px -2px rgba(0,0,0,0.42)`  | Card hover lift                                   |
+| `--shadow-lg`  | `0 12px 32px -4px rgba(0,0,0,0.5)`  | Elevated surfaces (Recovery CTA, PDP price strip) |
+| `--shadow-xl`  | `0 24px 64px -12px rgba(0,0,0,0.6)` | Modals, sheets                                    |
+| `--shadow-2xl` | `0 32px 96px -16px rgba(0,0,0,0.7)` | Dialog backdrops                                  |
 
 ## Gradients
 
@@ -150,15 +150,18 @@ Added in Phase 1 v4 (additive):
 ## Motion vocabulary
 
 Easings (`--ease-*`):
+
 - `--ease-premium-out`: `cubic-bezier(0.16, 1, 0.3, 1)` — primary
 - `--ease-spring`: spring physics (motion library; for whileTap)
 
 Durations (`--dur-*`):
+
 - `--dur-short`: 150ms — color transitions, hover state
 - `--dur-medium`: 320ms — reveal-up, sheen, scale
 - `--dur-long`: 540ms — page transitions
 
 Animation keyframes (in `app/globals.css`):
+
 - `vial-sway` — Posture A signature: -12° → +12° / 6.4s ease-in-out infinite
 - `vial-float` — subtle floor-to-ceiling translate
 - `vial-sheen` — slow shimmer across vial body
@@ -168,6 +171,7 @@ Animation keyframes (in `app/globals.css`):
   on Recovery Stack CTA (Phase 7)
 
 Reduced-motion contract (Iron Law 2.18 NON-NEGOTIABLE):
+
 - `@media (prefers-reduced-motion: reduce)` rule in `app/globals.css:235-242`
   hard-disables all CSS animations + transitions
 - `motion` library `useReducedMotion()` hook gates every JS-driven
@@ -184,10 +188,10 @@ Built around `lib/design/tokens.ts`:
   sizes; `buttonClassNames()` helper for non-`<button>` consumers
 - `Card` — default / interactive (hover lift) / elevated (raised plinth)
 - `Input` — paired with `FieldLabel` via `htmlFor`/`id`; `aria-invalid`
-  + `role="alert"` error region
+  - `role="alert"` error region
 - `FieldLabel` — uppercase mono label + required marker
 - `Pill` — accent / info / electric / error variants; `kind: 'status'
-  | 'category' | 'tag'` for semantic surface
+| 'category' | 'tag'` for semantic surface
 - `Specs` — term/value table for dense numeric data
 - `Vial` — Posture A SVG signature; `withLabel` prop renders the
   Appendix AD wrap-label overlay
@@ -234,19 +238,19 @@ Even though vialchemlabs is Posture A, watch for accidental drift:
 
 Per-page targets enforced by `.github/workflows/lighthouse.yml`:
 
-| Metric | Threshold |
-|---|---|
-| Lighthouse Performance | ≥ 90 (mobile + desktop) |
-| Lighthouse Accessibility | ≥ 95 |
-| Lighthouse SEO | ≥ 95 |
-| Lighthouse Best Practices | ≥ 95 |
-| LCP | < 2.5s on 4G mobile |
-| CLS | < 0.1 |
-| TBT (proxy for INP) | < 200ms |
-| FCP | < 1.8s |
-| TTFB | < 800ms |
-| Per-route initial JS | ≤ 250KB gzipped |
-| Per-route initial CSS | ≤ 80KB gzipped |
+| Metric                    | Threshold               |
+| ------------------------- | ----------------------- |
+| Lighthouse Performance    | ≥ 90 (mobile + desktop) |
+| Lighthouse Accessibility  | ≥ 95                    |
+| Lighthouse SEO            | ≥ 95                    |
+| Lighthouse Best Practices | ≥ 95                    |
+| LCP                       | < 2.5s on 4G mobile     |
+| CLS                       | < 0.1                   |
+| TBT (proxy for INP)       | < 200ms                 |
+| FCP                       | < 1.8s                  |
+| TTFB                      | < 800ms                 |
+| Per-route initial JS      | ≤ 250KB gzipped         |
+| Per-route initial CSS     | ≤ 80KB gzipped          |
 
 A single threshold breach blocks PR merge.
 
@@ -261,6 +265,7 @@ tests/e2e/visual-regression.spec.ts --update-snapshots`.
 ## Re-derivation
 
 This file is derived from:
+
 - `lib/design/tokens.ts` (typed token export)
 - `app/globals.css` (CSS-variable mirror + keyframes + reduced-motion rule)
 - Appendix V.2 in `SUPER_PROMPT_v3_2026-05-08.md` (Posture A row)

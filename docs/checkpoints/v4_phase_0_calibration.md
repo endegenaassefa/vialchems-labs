@@ -9,14 +9,14 @@ Source: super-prompt v4 §10 Appendix AC.
 
 ## Confirmed reference set (calibration target for Phases 3-6)
 
-| # | Site | Why this site | vialchemlabs target surface |
-|---|---|---|---|
-| 1 | **Stripe.com** | Clean clinical typography rhythm, generous whitespace, restrained color, semantic hierarchy | Hero + thesis section density |
-| 2 | **Linear.app** | Atmospheric backgrounds, monospace data accents, dark surface elevation, motion vocabulary | Vial + COA tables surface treatment |
-| 3 | **Vercel.com** | Component composition, asymmetric hero patterns, subtle gradient overlays | Shop catalog tile lift rhythm |
-| 4 | **Anthropic.com** | Editorial typography, italic accents, dark-first design language with restrained color | Blog post + about page voice |
-| 5 | **Cursor.so** | Premium-out easing, subtle hover lifts, refined Card elevations | Phase 2 primitive overhaul micro-interaction quality |
-| 6 | **Apple.com (developer documentation)** | Dense Specs grids, monospace tabular numerals, bordered separators | PDP sidebar + COA detail density |
+| #   | Site                                    | Why this site                                                                               | vialchemlabs target surface                          |
+| --- | --------------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| 1   | **Stripe.com**                          | Clean clinical typography rhythm, generous whitespace, restrained color, semantic hierarchy | Hero + thesis section density                        |
+| 2   | **Linear.app**                          | Atmospheric backgrounds, monospace data accents, dark surface elevation, motion vocabulary  | Vial + COA tables surface treatment                  |
+| 3   | **Vercel.com**                          | Component composition, asymmetric hero patterns, subtle gradient overlays                   | Shop catalog tile lift rhythm                        |
+| 4   | **Anthropic.com**                       | Editorial typography, italic accents, dark-first design language with restrained color      | Blog post + about page voice                         |
+| 5   | **Cursor.so**                           | Premium-out easing, subtle hover lifts, refined Card elevations                             | Phase 2 primitive overhaul micro-interaction quality |
+| 6   | **Apple.com (developer documentation)** | Dense Specs grids, monospace tabular numerals, bordered separators                          | PDP sidebar + COA detail density                     |
 
 ## Anti-references (per Appendix AC)
 

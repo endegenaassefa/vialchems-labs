@@ -5,11 +5,11 @@ export interface BundleStudioImage {
 
 const bundleStudioImages = Object.fromEntries(
   [
-    ['recovery-stack', 'Recovery Stack'],
-    ['glow-stack', 'Glow Stack'],
-    ['wolverine-stack', 'Wolverine Stack'],
-    ['neuro-stack', 'Neuro Stack'],
-    ['longevity-stack', 'Longevity Stack'],
+    ["recovery-stack", "Recovery Stack"],
+    ["glow-stack", "Glow Stack"],
+    ["wolverine-stack", "Wolverine Stack"],
+    ["neuro-stack", "Neuro Stack"],
+    ["longevity-stack", "Longevity Stack"],
   ].map(([slug, label]) => [
     slug,
     {

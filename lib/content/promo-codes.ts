@@ -20,10 +20,10 @@ export interface PromoCode {
 
 export const promoCodes: Record<string, PromoCode> = {
   WELCOME15: {
-    code: 'WELCOME15',
+    code: "WELCOME15",
     discountPct: 0.15,
     description:
-      '15% off first order via newsletter signup, gated behind RUO acknowledgment and 21+ age verification.',
+      "15% off first order via newsletter signup, gated behind RUO acknowledgment and 21+ age verification.",
     firstOrderOnly: true,
     requiresNewsletterSignup: true,
     requiresAgeGate: true,

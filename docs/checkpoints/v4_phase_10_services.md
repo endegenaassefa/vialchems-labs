@@ -18,12 +18,12 @@ end-to-end without any operator action.
 
 ## Commits (Iron Law 2.15 protocol)
 
-| Commit | Type | Scope |
-|---|---|---|
-| b70598e | chore | install resend SDK |
-| (RED) | test | D7 / D9 / D10 / D14 / D15 unit suites |
-| (GREEN) | feat | Phase 10 services wiring against placeholders |
-| (this) | docs | Phase 10 checkpoint |
+| Commit  | Type  | Scope                                         |
+| ------- | ----- | --------------------------------------------- |
+| b70598e | chore | install resend SDK                            |
+| (RED)   | test  | D7 / D9 / D10 / D14 / D15 unit suites         |
+| (GREEN) | feat  | Phase 10 services wiring against placeholders |
+| (this)  | docs  | Phase 10 checkpoint                           |
 
 ## Subphase ledger
 
@@ -31,14 +31,14 @@ end-to-end without any operator action.
 
 Closes deferrals **D2 / D3 / D4 / D5 / D6 / D7 / D15**.
 
-| Deferral | Closure |
-|---|---|
-| D2 — magic-link auth | `magic_links` table + RLS + `lib/supabase.ts` anon client |
-| D3 — order persistence | `orders` + `order_items` + `order_status_history` + `payments` tables |
-| D4 — qualification persistence | `customer_qualifications` + `attestations_audit` + `app/api/access/route.ts` |
-| D5 — email subscriptions | `email_subscriptions` table linked to `promo_codes` |
-| D6 — audit log | `audit_log` table (service-role only — no RLS policy) |
-| D7 — `/api/access` route | `app/api/access/route.ts` POST handler |
+| Deferral                           | Closure                                                                                             |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------- |
+| D2 — magic-link auth               | `magic_links` table + RLS + `lib/supabase.ts` anon client                                           |
+| D3 — order persistence             | `orders` + `order_items` + `order_status_history` + `payments` tables                               |
+| D4 — qualification persistence     | `customer_qualifications` + `attestations_audit` + `app/api/access/route.ts`                        |
+| D5 — email subscriptions           | `email_subscriptions` table linked to `promo_codes`                                                 |
+| D6 — audit log                     | `audit_log` table (service-role only — no RLS policy)                                               |
+| D7 — `/api/access` route           | `app/api/access/route.ts` POST handler                                                              |
 | D15 — Layer 3 jurisdictional guard | `assertOrderJurisdictionAllowed()` + `JurisdictionalGuardError` in `lib/payments/reconciliation.ts` |
 
 `supabase/migrations/20260510000001_init.sql` ships 15 tables, RLS
@@ -93,9 +93,10 @@ cron job can dispatch with idempotency. The sent-timestamp columns on
 persistence is wired.
 
 `app/api/newsletter/subscribe/route.ts` now persists the subscription
-+ dispatches the sequence on success. Failure to persist or dispatch
-no longer 500s the user — Phase 10.3 Sentry alerts will surface the
-gap once DSN is wired.
+
+- dispatches the sequence on success. Failure to persist or dispatch
+  no longer 500s the user — Phase 10.3 Sentry alerts will surface the
+  gap once DSN is wired.
 
 ### 10.3 — Sentry
 
@@ -121,19 +122,20 @@ token" warnings during Day-1 local runs.
 
 **Alert thresholds (operator provisions in Sentry dashboard, Phase 13):**
 
-| Metric | Threshold | Action |
-|---|---|---|
-| Error rate (any) | > 1% over 5 min | page on-call |
-| Payment-flow errors | > 0.1% over 15 min | page on-call |
-| Webhook signature failure | any in 1 min | warn + investigate |
-| LCP regression | > 4.0 s p75 over 10 min | warn + investigate |
-| 5xx rate | > 0.5% over 5 min | page on-call |
+| Metric                    | Threshold               | Action             |
+| ------------------------- | ----------------------- | ------------------ |
+| Error rate (any)          | > 1% over 5 min         | page on-call       |
+| Payment-flow errors       | > 0.1% over 15 min      | page on-call       |
+| Webhook signature failure | any in 1 min            | warn + investigate |
+| LCP regression            | > 4.0 s p75 over 10 min | warn + investigate |
+| 5xx rate                  | > 0.5% over 5 min       | page on-call       |
 
 ### 10.4 — Plaid Link + JWKS migration
 
 Closes **D8** scaffold + **D9** structural readiness.
 
 `lib/payments/plaid-jwks.ts` ships:
+
 - `pickVerificationMode(env)` — returns `'hmac'` (Day-1) or `'jwks'`
   (production) based on `PLAID_VERIFICATION_MODE`
 - `verifyPlaidJwt({ rawBody, jwtHeader, jwksFetcher, nowMs })` — JWT
@@ -183,6 +185,7 @@ moved the rail from stub to wired.
 Closes **D14**.
 
 `lib/consent-store.ts`:
+
 - `CONSENT_COOKIE = 'vc-consent'` first-party cookie
 - `defaultConsent()` — necessary on, all else off, decidedAt null
 - `parseConsent(raw)` — JSON parse with mandatory `necessary: true`
@@ -197,6 +200,7 @@ Closes **D14**.
   state builders
 
 `components/CookieConsent.tsx`:
+
 - Mounts client-only (no SSR — cookie + navigator unavailable on
   server during streaming render)
 - Auto-applies GPC defaults silently when navigator signals
@@ -205,7 +209,7 @@ Closes **D14**.
 - Customize panel exposes per-category toggles for functional /
   analytics / marketing; necessary checkbox is locked-on
 - Persists via `vc-consent` cookie with `Max-Age=365d; SameSite=Lax;
-  Secure` (when over HTTPS)
+Secure` (when over HTTPS)
 
 `app/layout.tsx` integrates `<CookieConsent />` after `{children}` so
 the banner overlays content but does not block initial paint.
@@ -228,50 +232,51 @@ Phase 10.5 wiring replaced one assertion in-place.
 
 ## Iron Laws verified
 
-| # | Iron Law | Phase 10 evidence |
-|---|---|---|
-| 2.1 | TDD | Five RED→GREEN cycles per subphase (10.1 D15+access, 10.4, 10.5, 10.6) |
-| 2.2 | Verification before completion | 455/455 + npm build clean + preflight 0 violations re-run |
-| 2.5 / 2.19 | Protected paths review + cso | SCANNER_OK annotation on the GREEN commit body lists every protected file touched + records self-applied review + cso |
-| 2.7 | Catalog whitelist | `lib/content/products.ts` untouched; per-product OG (Phase 9) and PDP (Phase 4) gates remain in force |
-| 2.8 | Jurisdictional defense | Layer 3 added; full chain now AddressForm → ReviewPanel → reconcile() |
-| 2.9 / 2.20 | Payment rails frozen | Type union still `'stub' \| 'btcpay' \| 'plaid'`; no fourth rail |
-| 2.15 | TDD checkpoint commits | RED commit body carries verbatim FAIL snippets; GREEN carries verbatim PASS |
-| 2.16 | Pre-commit supply-chain scanner | All 3 hooks ran on every commit; 0 violations |
-| 2.18 | Reduced-motion non-negotiable | Cookie consent banner has no animation; existing rules cover the page |
-| 2.21 | Tokens additive only | No token changes |
-| 2.22 | No real credentials in source | `.env.example` carries placeholders only; every adapter has REQUIRE_* gate that returns null/stub when env missing |
-| 2.23 | Cookie consent contract | necessary always on; opt-in by default; GPC honored; first-party persistence; accept-all / customize / reject-all surfaced |
-| 2.27 | Bundle / Lighthouse budget | Cookie consent component ≈ 4KB gzipped; no other shipped client code grew significantly |
+| #          | Iron Law                        | Phase 10 evidence                                                                                                          |
+| ---------- | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| 2.1        | TDD                             | Five RED→GREEN cycles per subphase (10.1 D15+access, 10.4, 10.5, 10.6)                                                     |
+| 2.2        | Verification before completion  | 455/455 + npm build clean + preflight 0 violations re-run                                                                  |
+| 2.5 / 2.19 | Protected paths review + cso    | SCANNER_OK annotation on the GREEN commit body lists every protected file touched + records self-applied review + cso      |
+| 2.7        | Catalog whitelist               | `lib/content/products.ts` untouched; per-product OG (Phase 9) and PDP (Phase 4) gates remain in force                      |
+| 2.8        | Jurisdictional defense          | Layer 3 added; full chain now AddressForm → ReviewPanel → reconcile()                                                      |
+| 2.9 / 2.20 | Payment rails frozen            | Type union still `'stub' \| 'btcpay' \| 'plaid'`; no fourth rail                                                           |
+| 2.15       | TDD checkpoint commits          | RED commit body carries verbatim FAIL snippets; GREEN carries verbatim PASS                                                |
+| 2.16       | Pre-commit supply-chain scanner | All 3 hooks ran on every commit; 0 violations                                                                              |
+| 2.18       | Reduced-motion non-negotiable   | Cookie consent banner has no animation; existing rules cover the page                                                      |
+| 2.21       | Tokens additive only            | No token changes                                                                                                           |
+| 2.22       | No real credentials in source   | `.env.example` carries placeholders only; every adapter has REQUIRE\_\* gate that returns null/stub when env missing       |
+| 2.23       | Cookie consent contract         | necessary always on; opt-in by default; GPC honored; first-party persistence; accept-all / customize / reject-all surfaced |
+| 2.27       | Bundle / Lighthouse budget      | Cookie consent component ≈ 4KB gzipped; no other shipped client code grew significantly                                    |
 
 ## Verbatim copy regrep (Iron Law 2.4 / 2.13)
 
-| Pattern | File | Hits | Expected |
-|---|---|---|---|
-| `21+ years of age` | `app/checkout/review/ReviewPanel.tsx` | 1 | 1 |
-| `research use only (RUO)` | `app/checkout/review/ReviewPanel.tsx` | 1 | 1 |
-| `qualified researcher acquiring` | `lib/customer-qualification.ts` | 1 | 1 |
-| `For research use only. Not for human or veterinary use` | `app/products/[slug]/page.tsx` | 2 | 2 |
-| `are not for human consumption` | `components/SiteFooter.tsx` | 1 | 1 |
+| Pattern                                                  | File                                  | Hits | Expected |
+| -------------------------------------------------------- | ------------------------------------- | ---- | -------- |
+| `21+ years of age`                                       | `app/checkout/review/ReviewPanel.tsx` | 1    | 1        |
+| `research use only (RUO)`                                | `app/checkout/review/ReviewPanel.tsx` | 1    | 1        |
+| `qualified researcher acquiring`                         | `lib/customer-qualification.ts`       | 1    | 1        |
+| `For research use only. Not for human or veterinary use` | `app/products/[slug]/page.tsx`        | 2    | 2        |
+| `are not for human consumption`                          | `components/SiteFooter.tsx`           | 1    | 1        |
 
 ## Operator handoff (Appendix AA)
 
 Phase 10 ships ready-to-fill placeholders. The operator action is to fill
 the credentials section of `/tmp/vialchemlabs_credentials.txt` per Appendix AA
 and then ping the agent. The agent reads ONCE, applies to `.env.local`
-+ Vercel env, and deletes the file. Iron Law 2.22 verified — no real
-keys ever in repo, in commit history, or in this checkpoint.
+
+- Vercel env, and deletes the file. Iron Law 2.22 verified — no real
+  keys ever in repo, in commit history, or in this checkpoint.
 
 Per-section handoff:
 
-| Section | Day-1 default (no operator action) | Production action |
-|---|---|---|
-| Supabase | `REQUIRE_SUPABASE=false`; clients return null | Provision project, set URL + anon + service-role keys, run migration |
-| Resend | `REQUIRE_RESEND=false`; sendEmail returns stub ids | Verify `vialchemlabs.com` sender + DMARC `p=reject`; set `RESEND_API_KEY` |
-| Sentry | DSN empty; init no-op | Create org/project, set DSN + auth token + org/project slugs |
-| Plaid | `PLAID_VERIFICATION_MODE=hmac`; sandbox-shape URLs | Sandbox first; flip to production after smoke; install `jose` for ES256 |
-| BTCPay | URL placeholder; createIntent throws `btcpay_not_configured` | Self-host via `scripts/btcpay-setup.sh` OR Voltage Cloud; set URL + key + store ID + webhook secret |
-| Cookie consent | `COOKIE_CONSENT_PROVIDER=self-hosted` | Optionally swap to Osano / Cookiebot / OneTrust |
+| Section        | Day-1 default (no operator action)                           | Production action                                                                                   |
+| -------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| Supabase       | `REQUIRE_SUPABASE=false`; clients return null                | Provision project, set URL + anon + service-role keys, run migration                                |
+| Resend         | `REQUIRE_RESEND=false`; sendEmail returns stub ids           | Verify `vialchemlabs.com` sender + DMARC `p=reject`; set `RESEND_API_KEY`                           |
+| Sentry         | DSN empty; init no-op                                        | Create org/project, set DSN + auth token + org/project slugs                                        |
+| Plaid          | `PLAID_VERIFICATION_MODE=hmac`; sandbox-shape URLs           | Sandbox first; flip to production after smoke; install `jose` for ES256                             |
+| BTCPay         | URL placeholder; createIntent throws `btcpay_not_configured` | Self-host via `scripts/btcpay-setup.sh` OR Voltage Cloud; set URL + key + store ID + webhook secret |
+| Cookie consent | `COOKIE_CONSENT_PROVIDER=self-hosted`                        | Optionally swap to Osano / Cookiebot / OneTrust                                                     |
 
 ## Open notes for downstream phases
 

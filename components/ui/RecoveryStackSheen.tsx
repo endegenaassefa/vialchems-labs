@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import { useReducedMotion } from 'motion/react';
+import { useEffect, useState } from "react";
+import { useReducedMotion } from "motion/react";
 
 /**
  * Phase 7 (v4) — sheen sweep on Recovery Stack CTA.
@@ -19,7 +19,7 @@ import { useReducedMotion } from 'motion/react';
  * nothing.
  */
 
-const SESSION_KEY = 'vc-recovery-sheen-played';
+const SESSION_KEY = "vc-recovery-sheen-played";
 const DURATION_MS = 1400;
 
 export function RecoveryStackSheen() {
@@ -28,10 +28,10 @@ export function RecoveryStackSheen() {
 
   useEffect(() => {
     if (reduced) return;
-    if (typeof window === 'undefined') return;
+    if (typeof window === "undefined") return;
     try {
-      if (sessionStorage.getItem(SESSION_KEY) === '1') return;
-      sessionStorage.setItem(SESSION_KEY, '1');
+      if (sessionStorage.getItem(SESSION_KEY) === "1") return;
+      sessionStorage.setItem(SESSION_KEY, "1");
     } catch {
       // sessionStorage may throw in private mode; degrade silently
       return;
@@ -60,7 +60,7 @@ export function RecoveryStackSheen() {
         className="absolute top-0 left-0 h-full w-[40%] [animation:recovery-sheen_1400ms_var(--ease-premium-out)_both]"
         style={{
           background:
-            'linear-gradient(115deg, transparent 0%, rgba(125,241,232,0) 30%, rgba(125,241,232,0.18) 50%, rgba(125,241,232,0) 70%, transparent 100%)',
+            "linear-gradient(115deg, transparent 0%, rgba(125,241,232,0) 30%, rgba(125,241,232,0.18) 50%, rgba(125,241,232,0) 70%, transparent 100%)",
         }}
       />
     </span>

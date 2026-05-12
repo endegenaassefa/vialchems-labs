@@ -1,25 +1,25 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { useRouter, useSearchParams } from 'next/navigation';
-import { useEffect, useMemo, useState } from 'react';
-import { FlaskConical } from 'lucide-react';
+import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
+import { useEffect, useMemo, useState } from "react";
+import { FlaskConical } from "lucide-react";
 import {
   AGE_GATE_GOODBYE_URL,
   normalizeAgeGateNext,
-} from '@/lib/age-verification';
-import { DnaHelixScene } from '@/components/age-gate/DnaHelixScene';
-import { ParticleFormulaField } from '@/components/age-gate/ParticleFormulaField';
+} from "@/lib/age-verification";
+import { DnaHelixScene } from "@/components/age-gate/DnaHelixScene";
+import { ParticleFormulaField } from "@/components/age-gate/ParticleFormulaField";
 import {
   clearAgeVerification,
   hasCurrentAgeVerification,
   persistAgeVerification,
-} from '@/components/age-gate/useAgeVerification';
+} from "@/components/age-gate/useAgeVerification";
 
-const HEADLINE = 'RESEARCH-GRADE PEPTIDES';
+const HEADLINE = "RESEARCH-GRADE PEPTIDES";
 const HEADLINE_WORDS = (() => {
   let start = 0;
-  return HEADLINE.split(' ').map((word) => {
+  return HEADLINE.split(" ").map((word) => {
     const value = { word, start };
     start += word.length + 1;
     return value;
@@ -27,32 +27,28 @@ const HEADLINE_WORDS = (() => {
 })();
 
 const REQUIREMENTS = [
-  'You are 21 years of age or older',
-  'For research purposes only',
-  'Not for human consumption',
-  'You agree to Terms and Privacy Policy',
+  "You are 21 years of age or older",
+  "For research purposes only",
+  "Not for human consumption",
+  "You agree to Terms and Privacy Policy",
 ];
 
 const RESEARCH_DETAILS = [
   {
-    title: 'Research use only',
-    body:
-      'Products are supplied only for laboratory, analytical, and non-clinical research settings. They are not for human consumption, human dosing, injection, ingestion, or veterinary use.',
+    title: "Research use only",
+    body: "Products are supplied only for laboratory, analytical, and non-clinical research settings. They are not for human consumption, human dosing, injection, ingestion, or veterinary use.",
   },
   {
-    title: 'Qualified access',
-    body:
-      'Buyer qualification requires age confirmation, institutional or research-role identification, a research-purpose statement, jurisdictional acknowledgment, and research-use-only acknowledgment.',
+    title: "Qualified access",
+    body: "Buyer qualification requires age confirmation, institutional or research-role identification, a research-purpose statement, jurisdictional acknowledgment, and research-use-only acknowledgment.",
   },
   {
-    title: 'Testing posture',
-    body:
-      'Product pages are expected to show batch or lot number, test date, lab name, COA access, and applicable test types including HPLC, Mass Spec, endotoxin, and sterility screens.',
+    title: "Testing posture",
+    body: "Product pages are expected to show batch or lot number, test date, lab name, COA access, and applicable test types including HPLC, Mass Spec, endotoxin, and sterility screens.",
   },
   {
-    title: 'Shipping boundaries',
-    body:
-      'vialchemlabs ships within the United States only at this time and does not ship to California, Texas, New York, or Florida. Customers assume jurisdiction-specific compliance responsibility.',
+    title: "Shipping boundaries",
+    body: "vialchemlabs ships within the United States only at this time and does not ship to California, Texas, New York, or Florida. Customers assume jurisdiction-specific compliance responsibility.",
   },
 ];
 
@@ -63,39 +59,42 @@ export function AgeGateClient() {
   const [termsAccepted, setTermsAccepted] = useState(false);
 
   const nextPath = useMemo(
-    () => normalizeAgeGateNext(searchParams.get('next')),
+    () => normalizeAgeGateNext(searchParams.get("next")),
     [searchParams],
   );
 
   useEffect(() => {
     if (!hasCurrentAgeVerification()) return;
-    persistAgeVerification();
-    router.replace(nextPath);
+    void persistAgeVerification().then(() => router.replace(nextPath));
   }, [nextPath, router]);
 
-  function enterSite() {
+  async function enterSite() {
     if (!termsAccepted) return;
-    persistAgeVerification();
-    setExiting(true);
-    window.setTimeout(() => {
-      router.replace(nextPath);
-    }, 600);
+    try {
+      await persistAgeVerification();
+      setExiting(true);
+      window.setTimeout(() => {
+        router.replace(nextPath);
+      }, 600);
+    } catch {
+      setExiting(false);
+    }
   }
 
-  function exitSite() {
+  async function exitSite() {
     const confirmed = window.confirm(
-      'You will be redirected away from this site.',
+      "You will be redirected away from this site.",
     );
     if (!confirmed) return;
 
-    clearAgeVerification();
+    await clearAgeVerification();
     window.location.replace(AGE_GATE_GOODBYE_URL);
   }
 
   return (
     <main
       id="main"
-      className={`age-gate-root ${exiting ? 'age-gate-exiting' : ''}`}
+      className={`age-gate-root ${exiting ? "age-gate-exiting" : ""}`}
     >
       <DnaHelixScene />
       <ParticleFormulaField />
@@ -123,16 +122,18 @@ export function AgeGateClient() {
           >
             {HEADLINE_WORDS.map(({ word, start }, wordIndex) => (
               <span key={word} className="inline-block whitespace-nowrap">
-                {word.split('').map((letter, index) => (
+                {word.split("").map((letter, index) => (
                   <span
                     key={`${word}-${index}`}
                     className="age-gate-letter"
-                    style={{ animationDelay: `${700 + (start + index) * 30}ms` }}
+                    style={{
+                      animationDelay: `${700 + (start + index) * 30}ms`,
+                    }}
                   >
                     {letter}
                   </span>
                 ))}
-                {wordIndex < HEADLINE_WORDS.length - 1 ? '\u00A0' : null}
+                {wordIndex < HEADLINE_WORDS.length - 1 ? "\u00A0" : null}
               </span>
             ))}
           </h1>
@@ -187,7 +188,9 @@ export function AgeGateClient() {
                 id="age-gate-terms"
                 type="checkbox"
                 checked={termsAccepted}
-                onChange={(event) => setTermsAccepted(event.currentTarget.checked)}
+                onChange={(event) =>
+                  setTermsAccepted(event.currentTarget.checked)
+                }
                 className="peer sr-only"
               />
               <span
@@ -196,7 +199,7 @@ export function AgeGateClient() {
               >
                 <svg
                   className={`text-[var(--accent-hover)] transition-transform duration-[120ms] ease-out ${
-                    termsAccepted ? 'scale-100' : 'scale-0'
+                    termsAccepted ? "scale-100" : "scale-0"
                   }`}
                   width="15"
                   height="15"
@@ -213,7 +216,7 @@ export function AgeGateClient() {
                 </svg>
               </span>
               <span id="age-gate-terms-label">
-                I have read and agree to the{' '}
+                I have read and agree to the{" "}
                 <Link
                   href="/legal/terms"
                   target="_blank"
@@ -222,8 +225,8 @@ export function AgeGateClient() {
                   className="text-[var(--accent-hover)] underline-offset-2 hover:underline"
                 >
                   Terms of Service
-                </Link>{' '}
-                and{' '}
+                </Link>{" "}
+                and{" "}
                 <Link
                   href="/legal/privacy"
                   target="_blank"
@@ -263,11 +266,17 @@ export function AgeGateClient() {
           <footer className="age-gate-footer mt-7 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-[12px] text-[var(--text-muted)] max-sm:mt-4 max-sm:text-[11px]">
             <span>© {new Date().getFullYear()} vialchemlabs</span>
             <span aria-hidden="true">·</span>
-            <Link href="/legal/terms" className="hover:text-[var(--accent-hover)]">
+            <Link
+              href="/legal/terms"
+              className="hover:text-[var(--accent-hover)]"
+            >
               Terms
             </Link>
             <span aria-hidden="true">·</span>
-            <Link href="/legal/privacy" className="hover:text-[var(--accent-hover)]">
+            <Link
+              href="/legal/privacy"
+              className="hover:text-[var(--accent-hover)]"
+            >
               Privacy
             </Link>
           </footer>

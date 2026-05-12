@@ -8,7 +8,7 @@
  * Phase 5 considered using Sheet for mobile checkout step transitions;
  * default keeps the page-per-step pattern and Sheet stays as opt-in.
  */
-'use client';
+"use client";
 
 import {
   useCallback,
@@ -18,9 +18,9 @@ import {
   type HTMLAttributes,
   type ReactNode,
   type Ref,
-} from 'react';
-import { createPortal } from 'react-dom';
-import { cn } from '@/lib/utils';
+} from "react";
+import { createPortal } from "react-dom";
+import { cn } from "@/lib/utils";
 
 export interface SheetProps extends HTMLAttributes<HTMLDivElement> {
   open: boolean;
@@ -45,15 +45,15 @@ export function Sheet({
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose();
+      if (e.key === "Escape") onClose();
     },
     [onClose],
   );
 
   useEffect(() => {
     if (!open) return;
-    document.addEventListener('keydown', handleKeyDown);
-    return () => document.removeEventListener('keydown', handleKeyDown);
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
   }, [open, handleKeyDown]);
 
   useEffect(() => {
@@ -61,16 +61,16 @@ export function Sheet({
   }, [open]);
 
   if (!open) return null;
-  if (typeof document === 'undefined') return null;
+  if (typeof document === "undefined") return null;
 
   return createPortal(
     <div
       data-testid="sheet-backdrop"
       onClick={onClose}
       className={cn(
-        'fixed inset-0',
-        'flex items-end justify-center',
-        'bg-black/60 backdrop-blur-[2px]',
+        "fixed inset-0",
+        "flex items-end justify-center",
+        "bg-black/60 backdrop-blur-[2px]",
       )}
       style={{ zIndex: 40 }}
     >
@@ -78,7 +78,7 @@ export function Sheet({
         ref={(node) => {
           panelRef.current = node;
           if (ref) {
-            if (typeof ref === 'function') {
+            if (typeof ref === "function") {
               ref(node);
             } else {
               (ref as React.MutableRefObject<HTMLDivElement | null>).current =
@@ -92,16 +92,16 @@ export function Sheet({
         tabIndex={-1}
         onClick={(e) => e.stopPropagation()}
         className={cn(
-          'fixed bottom-0 left-0 right-0',
-          'mx-auto max-w-2xl',
-          'bg-[var(--surface-elevated)]',
-          'border-t border-[var(--border-strong)]',
-          'rounded-t-[var(--radius-lg)]',
-          'shadow-[var(--shadow-2xl)]',
-          'p-6',
-          'focus:outline-none',
+          "fixed bottom-0 left-0 right-0",
+          "mx-auto max-w-2xl",
+          "bg-[var(--surface-elevated)]",
+          "border-t border-[var(--border-strong)]",
+          "rounded-t-[var(--radius-lg)]",
+          "shadow-[var(--shadow-2xl)]",
+          "p-6",
+          "focus:outline-none",
           // Slide-from-bottom; reduced-motion fallback global
-          '[animation:reveal-up_var(--dur-medium)_var(--ease-premium-out)_both]',
+          "[animation:reveal-up_var(--dur-medium)_var(--ease-premium-out)_both]",
           className,
         )}
         {...rest}

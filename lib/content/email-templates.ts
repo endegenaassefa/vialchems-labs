@@ -8,7 +8,7 @@
  * static template data for that wiring.
  */
 
-import { siteConfig } from './site';
+import { siteConfig } from "./site";
 
 const FOOTER = `
 ---
@@ -26,7 +26,7 @@ export interface EmailTemplate {
 
 export const emailWelcomeSequence: EmailTemplate[] = [
   {
-    id: 'welcome-lead-magnet',
+    id: "welcome-lead-magnet",
     delayDays: 0,
     subject: `Your Reconstitution and Storage Guide is ready`,
     body: `Thank you for joining the ${siteConfig.name} research community.
@@ -46,7 +46,7 @@ ${siteConfig.name} Team
 ${FOOTER}`,
   },
   {
-    id: 'reading-coa',
+    id: "reading-coa",
     delayDays: 3,
     subject: `How to read a Certificate of Analysis`,
     body: `A Certificate of Analysis (COA) is the primary document confirming what you ordered.
@@ -69,7 +69,7 @@ ${siteConfig.name} Team
 ${FOOTER}`,
   },
   {
-    id: 'bpc-157-research',
+    id: "bpc-157-research",
     delayDays: 7,
     subject: `BPC-157 research applications: 2024-2025 literature`,
     body: `The peer-reviewed research on BPC-157 has expanded substantially in 2024-2025. Three studies worth bookmarking:
@@ -86,7 +86,7 @@ ${siteConfig.name} Team
 ${FOOTER}`,
   },
   {
-    id: 'welcome-discount',
+    id: "welcome-discount",
     delayDays: 14,
     subject: `15% off your first ${siteConfig.name} research order`,
     body: `You have been part of the ${siteConfig.name} research community for two weeks. As a thank-you for joining us, here is a 15% discount on your first order.
@@ -119,7 +119,9 @@ For Certificate of Analysis information or product specifications, please refere
 
 Best regards,
 ${siteConfig.name} Support`,
-  lostPackage: (orderId: string) => `Thank you for contacting ${siteConfig.name}.
+  lostPackage: (
+    orderId: string,
+  ) => `Thank you for contacting ${siteConfig.name}.
 
 We have logged your inquiry regarding order ${orderId}. Our shipping team will investigate and respond within 1 business day. Please retain your tracking number and any photos of the delivery location for our review.
 

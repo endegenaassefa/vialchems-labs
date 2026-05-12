@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 /**
  * Phase 10.6 (v4) — D14 cookie consent banner.
@@ -20,8 +20,8 @@
  * as regulatory artifact.
  */
 
-import { usePathname } from 'next/navigation';
-import { useEffect, useState, type Dispatch, type SetStateAction } from 'react';
+import { usePathname } from "next/navigation";
+import { useEffect, useState, type Dispatch, type SetStateAction } from "react";
 import {
   CONSENT_COOKIE,
   acceptAll,
@@ -33,14 +33,14 @@ import {
   rejectAll,
   serializeConsent,
   type ConsentState,
-} from '@/lib/consent-store';
+} from "@/lib/consent-store";
 
 const COOKIE_MAX_AGE_DAYS = 365;
 
 function readCookie(name: string): string | null {
-  if (typeof document === 'undefined') return null;
+  if (typeof document === "undefined") return null;
   const target = `${name}=`;
-  for (const part of document.cookie.split(';')) {
+  for (const part of document.cookie.split(";")) {
     const trimmed = part.trim();
     if (trimmed.startsWith(target)) {
       return decodeURIComponent(trimmed.slice(target.length));
@@ -50,12 +50,12 @@ function readCookie(name: string): string | null {
 }
 
 function writeCookie(name: string, value: string): void {
-  if (typeof document === 'undefined') return;
+  if (typeof document === "undefined") return;
   const maxAge = COOKIE_MAX_AGE_DAYS * 24 * 60 * 60;
   const secure =
-    typeof location !== 'undefined' && location.protocol === 'https:'
-      ? '; Secure'
-      : '';
+    typeof location !== "undefined" && location.protocol === "https:"
+      ? "; Secure"
+      : "";
   document.cookie = `${name}=${encodeURIComponent(value)}; Max-Age=${maxAge}; Path=/; SameSite=Lax${secure}`;
 }
 
@@ -90,7 +90,7 @@ export function CookieConsent() {
   }
 
   if (!mounted) return null;
-  if (pathname === '/age-gate') return null;
+  if (pathname === "/age-gate") return null;
   if (state.decidedAt) return null;
 
   return (
@@ -103,7 +103,7 @@ export function CookieConsent() {
         <div className="text-[14px] leading-[1.55] text-[var(--text-muted)] max-w-3xl">
           We use strictly-necessary cookies for cart, checkout, and security.
           Optional categories (analytics, functional, marketing) are off by
-          default and only enabled if you accept. See our{' '}
+          default and only enabled if you accept. See our{" "}
           <a
             href="/legal/cookies"
             className="text-[var(--accent)] hover:text-[var(--accent-soft)] underline underline-offset-2"
@@ -143,11 +143,7 @@ export function CookieConsent() {
   );
 }
 
-function CustomizePanel({
-  onCommit,
-}: {
-  onCommit: (s: ConsentState) => void;
-}) {
+function CustomizePanel({ onCommit }: { onCommit: (s: ConsentState) => void }) {
   const [functional, setFunctional] = useState(false);
   const [analytics, setAnalytics] = useState(false);
   const [marketing, setMarketing] = useState(false);

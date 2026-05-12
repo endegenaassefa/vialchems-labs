@@ -7,7 +7,7 @@
  * marks). Janoshik Analytical is the v3.0 default lab partner per
  * lib/content/site.ts, with optional alternates listed in Appendix R.
  */
-import { cn } from '@/lib/utils';
+import { cn } from "@/lib/utils";
 
 export interface LabPartner {
   name: string;
@@ -25,12 +25,12 @@ export interface LabPartnerStripProps {
 }
 
 export function LabPartnerStrip({
-  eyebrow = 'Independent verification',
+  eyebrow = "Independent verification",
   partners,
   className,
 }: LabPartnerStripProps) {
   return (
-    <section className={cn('w-full', className)}>
+    <section className={cn("w-full", className)}>
       {eyebrow ? (
         <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)] mb-5">
           {eyebrow}
@@ -41,16 +41,14 @@ export function LabPartnerStrip({
           <li
             key={partner.name}
             className={cn(
-              'bg-[var(--surface)] px-5 py-6 flex flex-col gap-1',
-              partner.primary && 'bg-[var(--surface-strong)]',
+              "bg-[var(--surface)] px-5 py-6 flex flex-col gap-1",
+              partner.primary && "bg-[var(--surface-strong)]",
             )}
           >
             <span
               className={cn(
-                'font-mono text-[12px] uppercase tracking-[0.12em] leading-tight',
-                partner.primary
-                  ? 'text-[var(--accent)]'
-                  : 'text-[var(--text)]',
+                "font-mono text-[12px] uppercase tracking-[0.12em] leading-tight",
+                partner.primary ? "text-[var(--accent)]" : "text-[var(--text)]",
               )}
             >
               {partner.name}

@@ -17,6 +17,7 @@ The brand exists to firewall the test from the operator's main personal brand. F
 **Secondary buyers** (overlap, not target): biohacking community (older, technical, has cheaper/longer-tenured sources already; harder for Day-1 entrant to win); broader gym/fitness/SARMs/TRT-adjacent gray-channel pool (largest, least culturally specific).
 
 **Posture decision**: LOCKED to Posture A (clean clinical) per operator override. The bible's framing was Posture B (meme-coded community) for the alpha Gen Z core. Operator's choice of Posture A means vialchemlabs targets the biohacker/clinical-leaning lane with the looksmaxxing tail accessed via paid search and Tier S micro-creator outreach rather than meme-native organic clip content. INFERRED implications:
+
 - Type system: IBM Plex Sans + IBM Plex Mono (clinical, technical-coded)
 - Voice: precise, evidence-first, IUPAC-naming, no personal pronouns describing compounds
 - Color: cool neutral + lab-glass accent (not acid green)
@@ -28,6 +29,7 @@ The brand exists to firewall the test from the operator's main personal brand. F
 **The Two-Goal Tension** (combined_context §1.4): the site must NOT draw platform-policy / payment-processor / regulatory attention, AND the buyer must still be able to find the site. These pull in opposite directions. The corridor where both succeed is narrow and is what the entire research corpus maps.
 
 **Verbatim disclaimers** (Appendix A from SUPER_PROMPT_v3):
+
 - Footer (every page): RUO + FDA-not-evaluated + 503A/503B clauses
 - Product page (every product): RUO + not for human/veterinary use + bodily introduction strictly forbidden
 - Age gate: 21+ checkbox at first cart action (text-based contractual, NOT modal)
@@ -36,6 +38,7 @@ The brand exists to firewall the test from the operator's main personal brand. F
 **Forbidden marketing patterns** (Iron Law 2.4 + 2.13): weight loss, blood sugar, GLP-1, semaglutide/tirzepatide/retatrutide in consumer context, insulin, diabetes, diagnose/treat/cure/prevent, human use/dosing/consumption, FDA approved (false claim), pharmaceutical grade, prescription strength, therapy/therapeutic, medical advice, personal pronouns describing compound effects.
 
 **Catalog exclusions** (Iron Law 2.7 + 2.14):
+
 - Bacteriostatic water: PERPETUAL exclusion (5 vendors in 2026-03-31 wave cited for BAC water + peptides = drug intent)
 - Tirzepatide: PERPETUAL exclusion (ITC GEO 337-TA-1377 May 2025; CBP blocks all infringing imports)
 - Semaglutide / Retatrutide: 90-day exclusion (highest-enforcement-priority FDA targets); operator may override after Day-90 review
@@ -45,15 +48,15 @@ The brand exists to firewall the test from the operator's main personal brand. F
 
 ## Catalog (LOCKED_DEFAULT from opening_sku_recommendation.md + DECISIONS/opening_sku_set.md)
 
-| # | SKU | Format | List | Per-mg | Position | Role |
-|---|---|---|---|---|---|---|
-| 1 | BPC-157 10mg | vial | $54.00 | $5.4000 | 10% below median ($5.9995) | loss-leader |
-| 2 | TB-500 5mg | vial | $34.00 | $6.8000 | 5% below median ($7.20) | loss-leader |
-| 3 | GHK-Cu 50mg | vial | $34.00 | $0.6800 | 9% below median ($0.75) | loss-leader |
-| 4 | Ipamorelin 10mg | vial | $50.00 | $5.0000 | just below p25 ($5.0625) | volume driver |
-| 5 | CJC-1295 (no DAC) 5mg | vial | $25.00 | $5.0000 | just below p25 ($5.5750) | volume driver |
-| 6 | MOTS-c 10mg | vial | $48.00 | $4.8000 | median ($4.80) | catalog filler |
-| 7 | Selank 10mg | vial | $48.00 | $4.8000 | just below median ($4.90) | catalog filler |
+| #   | SKU                   | Format | List   | Per-mg  | Position                   | Role           |
+| --- | --------------------- | ------ | ------ | ------- | -------------------------- | -------------- |
+| 1   | BPC-157 10mg          | vial   | $54.00 | $5.4000 | 10% below median ($5.9995) | loss-leader    |
+| 2   | TB-500 5mg            | vial   | $34.00 | $6.8000 | 5% below median ($7.20)    | loss-leader    |
+| 3   | GHK-Cu 50mg           | vial   | $34.00 | $0.6800 | 9% below median ($0.75)    | loss-leader    |
+| 4   | Ipamorelin 10mg       | vial   | $50.00 | $5.0000 | just below p25 ($5.0625)   | volume driver  |
+| 5   | CJC-1295 (no DAC) 5mg | vial   | $25.00 | $5.0000 | just below p25 ($5.5750)   | volume driver  |
+| 6   | MOTS-c 10mg           | vial   | $48.00 | $4.8000 | median ($4.80)             | catalog filler |
+| 7   | Selank 10mg           | vial   | $48.00 | $4.8000 | just below median ($4.90)  | catalog filler |
 
 **Bundle**: Recovery Stack = BPC-157 10mg + TB-500 5mg = $77.00 (12.5% effective discount vs $88 a la carte). Most-attested bundle pattern in `pricing_matrix.csv` `bundle_membership` column.
 
@@ -64,6 +67,7 @@ The brand exists to firewall the test from the operator's main personal brand. F
 ## Payment Stack (LOCKED_DEFAULT from DECISIONS/payment_stack.md)
 
 **Day-1 (Phase 1)**:
+
 - Tier 1 crypto: BTCPay Server self-hosted (BTC, LTC; optional ETH); 10-15% discount; highest durability
 - Tier 2 bank: Plaid ACH; 5% discount; 3-4 day clearance
 - UX hierarchy at checkout: crypto first (recommended), bank second, cards "coming soon"
@@ -103,31 +107,32 @@ The brand exists to firewall the test from the operator's main personal brand. F
 
 ## PENDING / PLACEHOLDER Status
 
-| Item | Status | Resolution path |
-|---|---|---|
-| brand_pick | LOCKED_OVERRIDE: vialchemlabs (Posture A, vialchemlabs.com) | Resolved 2026-05-08 |
-| source_terms | PENDING | Operator confirms with US-based supplier; build uses placeholders |
-| Slice 3 (community channels B1) | PLACEHOLDER | Operator fires B1 at ChatGPT Pro Deep Research; runbook regenerates Slice 3 sections |
-| LLC formation | TBD | Operator files Wyoming/Delaware/Nevada LLC; ToS uses [LLC TBD] until then |
-| Domain registration (vialchemlabs.com) | TBD | Operator registers via .labs registrar (Donuts/Identity Digital) |
-| All credentials (Supabase/Resend/Sentry/Plaid/BTCPay) | STUB | Operator replaces before public launch |
+| Item                                                  | Status                                                      | Resolution path                                                                      |
+| ----------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| brand_pick                                            | LOCKED_OVERRIDE: vialchemlabs (Posture A, vialchemlabs.com) | Resolved 2026-05-08                                                                  |
+| source_terms                                          | PENDING                                                     | Operator confirms with US-based supplier; build uses placeholders                    |
+| Slice 3 (community channels B1)                       | PLACEHOLDER                                                 | Operator fires B1 at ChatGPT Pro Deep Research; runbook regenerates Slice 3 sections |
+| LLC formation                                         | TBD                                                         | Operator files Wyoming/Delaware/Nevada LLC; ToS uses [LLC TBD] until then            |
+| Domain registration (vialchemlabs.com)                | TBD                                                         | Operator registers via .labs registrar (Donuts/Identity Digital)                     |
+| All credentials (Supabase/Resend/Sentry/Plaid/BTCPay) | STUB                                                        | Operator replaces before public launch                                               |
 
 ## Subagent Distillations (COMPLETE)
 
-| Subagent | Topic | Output path | Words | Status |
-|---|---|---|---|---|
-| 1 | Compliance corpus | `docs/research/sub_1_compliance.md` | 4110 | ✓ |
-| 2 | Pricing intelligence | `docs/research/sub_2_pricing.md` | ~5200 | ✓ |
-| 3 | Acquisition channels | `docs/research/sub_3_acquisition.md` | 6610 | ✓ |
-| 4 | Industry & discovery | `docs/research/sub_4_industry.md` | 2354 | ✓ |
-| 5 | Site anatomy blueprint | `docs/research/sub_5_site_anatomy.md` | 4602 | ✓ |
-| 6 | Payment processor posture | `docs/research/sub_6_payments.md` | 2370 | ✓ |
+| Subagent | Topic                     | Output path                           | Words | Status |
+| -------- | ------------------------- | ------------------------------------- | ----- | ------ |
+| 1        | Compliance corpus         | `docs/research/sub_1_compliance.md`   | 4110  | ✓      |
+| 2        | Pricing intelligence      | `docs/research/sub_2_pricing.md`      | ~5200 | ✓      |
+| 3        | Acquisition channels      | `docs/research/sub_3_acquisition.md`  | 6610  | ✓      |
+| 4        | Industry & discovery      | `docs/research/sub_4_industry.md`     | 2354  | ✓      |
+| 5        | Site anatomy blueprint    | `docs/research/sub_5_site_anatomy.md` | 4602  | ✓      |
+| 6        | Payment processor posture | `docs/research/sub_6_payments.md`     | 2370  | ✓      |
 
 All 6 subagent spec adherence audits PASS or PASS-with-note. Constitution acknowledged in each.
 
 ## Subagent Findings — Top Implications for Build
 
 ### From sub_1 (compliance)
+
 - Total: 18 primary-source FDA letters (audit cited 19; 1-2 indexed-not-retrieved gap is real)
 - **CRITICAL**: Peptide Sciences ran the corpus's most defensive posture and voluntarily shut down 2026-03-06 anyway. Defensive disclaimer language alone does NOT protect; absence of forbidden content does. Implication for vialchemlabs: do not over-index on disclaimer cleverness; index on absence of forbidden patterns.
 - 2026-03-31 wave: BAC water + reconstitution kit angle (5+ vendors). Iron Law 2.7 + 2.14 enforced.
@@ -136,6 +141,7 @@ All 6 subagent spec adherence audits PASS or PASS-with-note. Constitution acknow
 - FDA pulls private/community PDFs into evidence (Synthetix dosing protocol PDF, Mile High Skool Cheat Sheet). vialchemlabs blog/email/community content must obey same forbidden-pattern rules as on-site copy.
 
 ### From sub_2 (pricing)
+
 - 78-row distribution table verified; all 78 peptides present.
 - 0 peptides hit CV<0.10 at 5+ vendor threshold (no cartel coordination signal — pricing is genuinely competitive).
 - Top 15 expansion candidates post-launch: **KPV (#1)**, PT-141, AOD-9604, Thymosin Alpha-1, Semax, SS-31, Epithalon, GHRP-6, Tesamorelin, GHRP-2, Pinealon, IGF-1 LR3, Fragment 176-191, Hexarelin, 5-Amino-1MQ.
@@ -145,6 +151,7 @@ All 6 subagent spec adherence audits PASS or PASS-with-note. Constitution acknow
 - Recovery Stack 12.5% effective discount lands at middle of observed 8-15% bundle convention. Hold as published.
 
 ### From sub_3 (acquisition)
+
 - **CRITICAL CONFLICT**: 21-day evaluation window (Bible §15) conflicts with realistic Posture A SEO traction (3-6 months). Day-1 channel mix MUST lean on Tier S micro-creator outreach + email + affiliate listicles to produce paid orders in window.
 - Closed channels (Day 1 forbidden): Google Ads (Pharma Manufacturers sub-policy + crawler enforcement), Bing/DDG paid (Microsoft Ads same stack), SMS (CTIA §3.5.1 + 10DLC TCR + TCPA $500-$1,500/msg).
 - Day-1 viable channels for Posture A: vendor-owned blog (clinical research-engine, credentialed MD/PhD byline, 4-6 long-form posts month 1, $200-$800/post); Google organic compound-name SEO (transient arbitrage window from Peptide Sciences March 2026 shutdown vacating top-3 positions); Omnisend email lifecycle with **credibility-artifact lead magnet (NOT discount)**, strict DMARC `p=reject`, Mailgun dedicated IP $59/mo; founder-personal X with research-citation hashtag-thread cadence (~95 followers/mo organic); 5-10 Tier S micro-creators with clinical credentials (RN, PA-C, MD, DC) at $300-$1K per post + 20% commission/90-day cookie.
@@ -153,6 +160,7 @@ All 6 subagent spec adherence audits PASS or PASS-with-note. Constitution acknow
 - Defensive social handle registration on IG/TikTok/X (block squatters) but NOT active brand-presence on those platforms.
 
 ### From sub_4 (industry)
+
 - 1,506 deduplicated vendors, 8 discovery passes, net-new yield 43% → 0.84%, convergence at Pass 7-8.
 - **Tier 1 confusion noted**: discovery universe says 34 Tier 1; deep-profile sub-run says 12 Tier 1. Use discovery numbers as primary frame.
 - Active Tier 1 survivors: Limitless Life Nootropics, Pure Rawz, Core Peptides, Biotech Peptides, Particle Peptides, Polaris Peptides, Skye Peptides, Ascension Peptides, Chemyo, Apollo Peptide Sciences, Onyx Biolabs, Loti Labs.
@@ -163,6 +171,7 @@ All 6 subagent spec adherence audits PASS or PASS-with-note. Constitution acknow
 - Limitless Life = Limitless Life Nootropics = Limitless Biotech (same entity, dual brand umbrella).
 
 ### From sub_5 (site anatomy)
+
 - Universe converged on stable site IA: "Shop dropdown + Quality/COA + Affiliate/Wholesale" navigation with mandatory site-wide footer disclaimer.
 - WooCommerce 71% of high-trust market. vialchemlabs goes Next.js (modern, but per Bible operator pivot — Mogtrix patterns).
 - Cloudflare CDN universal. Omnisend dominant for email (Klaviyo absent — category tolerance signal). GA4 + GTM + Meta Pixel convergent.
@@ -173,6 +182,7 @@ All 6 subagent spec adherence audits PASS or PASS-with-note. Constitution acknow
 - **Conflict resolved**: sub 5 recommended modal age gate; LOCKED compliance_posture mandates text-checkbox at first cart action (NOT modal). Following locked decision.
 
 ### From sub_6 (payments)
+
 - 4-tier durability ladder: Tier 1 (crypto-only, e.g., domestic-supply.com), Tier 2 (BTCPay + Plaid ACH — vialchemlabs target), Tier 3 (high-risk cards on top of Tier 2), Tier 4 (mainstream Visa/MC/PayPal — single-point-of-failure exposure).
 - Umbrella Labs is OBSERVED Tier 2 exemplar: self-hosted BTCPay + Plaid 5%/3-4 day clearance.
 - Stripe/PayPal/Square/Shopify Payments verbatim ban language preserved in digest. SwissChems' own copy explicitly disclaims this.
@@ -181,12 +191,12 @@ All 6 subagent spec adherence audits PASS or PASS-with-note. Constitution acknow
 
 ## Cross-Reference Against Manifest pipeline_state Ratios
 
-| Pillar | Manifest ratio | Subagent confirmation |
-|---|---|---|
-| Pillar A (vendor universe + site anatomy) | 0.95 | sub_4 confirms 1,506 vendor universe; sub_5 confirms IA convergence across 14-of-25 sampled. Gap: 13 priority vendors not present in evidence corpus (sub 5 substituted apexpeptidesupply + prime-peptides). |
-| Pillar B (acquisition) | 0.40 | sub_3 confirms Slice 2 + Slice 4 covered; Slice 3 PLACEHOLDER acknowledged. |
-| Pillar C (pricing) | 0.65 | sub_2 confirms 78-row distribution + 15 expansion candidates; cross-vendor OOS-simultaneity, stack_bundle_catalog, CV analysis silent — confirmed gaps. |
-| Compliance | 0.95 | sub_1 confirms 18 of 19 letters (audit count off by 1; 1-2 indexed-not-retrieved is real). |
+| Pillar                                    | Manifest ratio | Subagent confirmation                                                                                                                                                                                        |
+| ----------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Pillar A (vendor universe + site anatomy) | 0.95           | sub_4 confirms 1,506 vendor universe; sub_5 confirms IA convergence across 14-of-25 sampled. Gap: 13 priority vendors not present in evidence corpus (sub 5 substituted apexpeptidesupply + prime-peptides). |
+| Pillar B (acquisition)                    | 0.40           | sub_3 confirms Slice 2 + Slice 4 covered; Slice 3 PLACEHOLDER acknowledged.                                                                                                                                  |
+| Pillar C (pricing)                        | 0.65           | sub_2 confirms 78-row distribution + 15 expansion candidates; cross-vendor OOS-simultaneity, stack_bundle_catalog, CV analysis silent — confirmed gaps.                                                      |
+| Compliance                                | 0.95           | sub_1 confirms 18 of 19 letters (audit count off by 1; 1-2 indexed-not-retrieved is real).                                                                                                                   |
 
 ## Verification Gate (per SUPER_PROMPT_v3 §1.4 Phase 1)
 

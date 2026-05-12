@@ -7,12 +7,12 @@
  * announce the cart-add without requiring focus shift; auto-dismisses after
  * 3000ms (faster than default 4000ms — cart adds are quick interactions).
  */
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { Button } from '@/components/ui/Button';
-import { Toast } from '@/components/ui/Toast';
-import { useCartStore } from '@/lib/cart-store';
+import { useState } from "react";
+import { Button } from "@/components/ui/Button";
+import { Toast } from "@/components/ui/Toast";
+import { useCartStore } from "@/lib/cart-store";
 
 interface AddToCartIslandProps {
   sku: string;

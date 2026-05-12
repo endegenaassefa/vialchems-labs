@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
-import type { CatalogItem } from './data';
+import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import type { CatalogItem } from "./data";
 
 export function MoleculeBg() {
   const { nodes, edges } = useMemo(() => {
@@ -28,7 +28,12 @@ export function MoleculeBg() {
   }, []);
 
   return (
-    <svg className="molecule-bg" viewBox="0 0 1400 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <svg
+      className="molecule-bg"
+      viewBox="0 0 1400 700"
+      preserveAspectRatio="xMidYMid slice"
+      aria-hidden="true"
+    >
       <defs>
         <radialGradient id="v2-fade" cx="50%" cy="50%" r="60%">
           <stop offset="0%" stopColor="var(--fg)" stopOpacity="0.10" />
@@ -49,15 +54,35 @@ export function MoleculeBg() {
         />
       ))}
       {nodes.map((node, i) => (
-        <circle key={i} cx={node.x} cy={node.y} r={node.r} fill="var(--accent-hi)" opacity="0.6">
-          <animate attributeName="opacity" values="0.3;0.8;0.3" dur={`${3 + (i % 4)}s`} repeatCount="indefinite" />
+        <circle
+          key={i}
+          cx={node.x}
+          cy={node.y}
+          r={node.r}
+          fill="var(--accent-hi)"
+          opacity="0.6"
+        >
+          <animate
+            attributeName="opacity"
+            values="0.3;0.8;0.3"
+            dur={`${3 + (i % 4)}s`}
+            repeatCount="indefinite"
+          />
         </circle>
       ))}
     </svg>
   );
 }
 
-export function Reveal({ children, delay = 0, className = '' }: { children: ReactNode; delay?: number; className?: string }) {
+export function Reveal({
+  children,
+  delay = 0,
+  className = "",
+}: {
+  children: ReactNode;
+  delay?: number;
+  className?: string;
+}) {
   const ref = useRef<HTMLDivElement | null>(null);
   const [shown, setShown] = useState(false);
 
@@ -80,31 +105,63 @@ export function Reveal({ children, delay = 0, className = '' }: { children: Reac
   }, [delay]);
 
   return (
-    <div ref={ref} className={`reveal${shown ? ' in' : ''}${className ? ` ${className}` : ''}`}>
+    <div
+      ref={ref}
+      className={`reveal${shown ? " in" : ""}${className ? ` ${className}` : ""}`}
+    >
       {children}
     </div>
   );
 }
 
-export function ProductVisual({ item, small = false }: { item: Pick<CatalogItem, 'image' | 'shortName'>; small?: boolean }) {
+export function ProductVisual({
+  item,
+  small = false,
+}: {
+  item: Pick<CatalogItem, "image" | "shortName">;
+  small?: boolean;
+}) {
   return (
-    <div className={`product-shot${small ? ' product-shot-sm' : ''}`}>
+    <div className={`product-shot${small ? " product-shot-sm" : ""}`}>
       <img src={item.image} alt={`${item.shortName} vial`} loading="lazy" />
     </div>
   );
 }
 
-export function Stat({ label, value, highlight = false }: { label: string; value: string; highlight?: boolean }) {
+export function Stat({
+  label,
+  value,
+  highlight = false,
+}: {
+  label: string;
+  value: string;
+  highlight?: boolean;
+}) {
   return (
-    <div style={{ padding: '8px 10px', background: 'var(--bg-sunken)', borderRadius: 'var(--r-sm)' }}>
-      <div style={{ fontFamily: 'var(--font-mono)', fontSize: 9, color: 'var(--fg-subtle)', marginBottom: 2 }}>{label}</div>
+    <div
+      style={{
+        padding: "8px 10px",
+        background: "var(--bg-sunken)",
+        borderRadius: "var(--r-sm)",
+      }}
+    >
       <div
         style={{
-          fontFamily: 'var(--font-mono)',
+          fontFamily: "var(--font-mono)",
+          fontSize: 9,
+          color: "var(--fg-subtle)",
+          marginBottom: 2,
+        }}
+      >
+        {label}
+      </div>
+      <div
+        style={{
+          fontFamily: "var(--font-mono)",
           fontSize: 14,
           fontWeight: 500,
-          color: highlight ? 'var(--ok)' : 'var(--fg)',
-          transition: 'color 400ms var(--ease)',
+          color: highlight ? "var(--ok)" : "var(--fg)",
+          transition: "color 400ms var(--ease)",
         }}
       >
         {value}

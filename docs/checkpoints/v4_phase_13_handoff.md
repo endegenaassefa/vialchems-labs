@@ -13,22 +13,22 @@ further agent help.
 
 ## What shipped (Phases 0-13)
 
-| Phase | Subject | Delta vs v1.0.0 |
-|---|---|---|
-| 0 | Preflight + agentic toolkit | (already shipped before v4 build started) |
-| 1 | Design tokens additive | shadows / gradients / sp-7xl/8xl / surface-elevated / accent-deep / component-tier |
-| 2 | UI primitive overhaul | Toast / Dialog / Sheet / Skeleton / EmptyState / Pill kind extension; Button buttonClassNames helper |
-| 3 | Home polish | Card variant=elevated on Recovery CTA; buttonClassNames for hero |
-| 4 | Shop + PDP + COA polish | Vial withLabel + Iron Law 2.7 catalog whitelist; PDP price strip elevated; COA detail BRAND→COMPOUND→DOSE→BATCH hierarchy |
-| 5 | Checkout + account + order polish | Dialog + Toast on AccountOrderDetail; checkout step transitions |
-| 6 | Legal + content + aux polish | FAQ details elevation; Toast on Contact + Affiliate forms |
-| 7 | Motion & interaction | motion 12.38.0 dep; StaggerReveal × 4 surfaces; RecoveryStackSheen; PlaceOrderButton; NewsletterForm; reduced-motion contract |
-| 8 | A11y lift | @axe-core/playwright; CheckoutSteps aria-current + role=status live region |
-| 9 | Perf + SEO | @next/bundle-analyzer; JSON-LD Product/Breadcrumb/Article/FAQPage; sitemap; robots; default + per-product OG via next/og |
-| 10 | Services wiring | Supabase 15-table schema + RLS + access route; Resend; Sentry; Plaid JWKS structural pre-flight; BTCPay Greenfield POST; CookieConsent |
-| 11 | E2E + Lighthouse + visual baseline | jose ES256 verify; Playwright unskip; 114-snapshot dark baseline; lighthouserc; e2e + lighthouse CI workflows |
-| 12 | Deploy scaffolding | vercel.json security headers; .vercelignore; setup-branch-protection.sh; DNS guide; runbook; v1.1.0 tag |
-| 13 | Documentation + canary | DESIGN.md (D26); canary script; operator-runbook v2; first-payment-verification spec |
+| Phase | Subject                            | Delta vs v1.0.0                                                                                                                        |
+| ----- | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 0     | Preflight + agentic toolkit        | (already shipped before v4 build started)                                                                                              |
+| 1     | Design tokens additive             | shadows / gradients / sp-7xl/8xl / surface-elevated / accent-deep / component-tier                                                     |
+| 2     | UI primitive overhaul              | Toast / Dialog / Sheet / Skeleton / EmptyState / Pill kind extension; Button buttonClassNames helper                                   |
+| 3     | Home polish                        | Card variant=elevated on Recovery CTA; buttonClassNames for hero                                                                       |
+| 4     | Shop + PDP + COA polish            | Vial withLabel + Iron Law 2.7 catalog whitelist; PDP price strip elevated; COA detail BRAND→COMPOUND→DOSE→BATCH hierarchy              |
+| 5     | Checkout + account + order polish  | Dialog + Toast on AccountOrderDetail; checkout step transitions                                                                        |
+| 6     | Legal + content + aux polish       | FAQ details elevation; Toast on Contact + Affiliate forms                                                                              |
+| 7     | Motion & interaction               | motion 12.38.0 dep; StaggerReveal × 4 surfaces; RecoveryStackSheen; PlaceOrderButton; NewsletterForm; reduced-motion contract          |
+| 8     | A11y lift                          | @axe-core/playwright; CheckoutSteps aria-current + role=status live region                                                             |
+| 9     | Perf + SEO                         | @next/bundle-analyzer; JSON-LD Product/Breadcrumb/Article/FAQPage; sitemap; robots; default + per-product OG via next/og               |
+| 10    | Services wiring                    | Supabase 15-table schema + RLS + access route; Resend; Sentry; Plaid JWKS structural pre-flight; BTCPay Greenfield POST; CookieConsent |
+| 11    | E2E + Lighthouse + visual baseline | jose ES256 verify; Playwright unskip; 114-snapshot dark baseline; lighthouserc; e2e + lighthouse CI workflows                          |
+| 12    | Deploy scaffolding                 | vercel.json security headers; .vercelignore; setup-branch-protection.sh; DNS guide; runbook; v1.1.0 tag                                |
+| 13    | Documentation + canary             | DESIGN.md (D26); canary script; operator-runbook v2; first-payment-verification spec                                                   |
 
 ## Deferral ledger — final state
 
@@ -75,43 +75,43 @@ test, lab contract, COA PDFs, LLC formation).
 
 ## Iron Laws — comprehensive verification
 
-| # | Iron Law | Status | Evidence |
-|---|---|---|---|
-| 2.1 | TDD | ✓ | RED→GREEN cycles for every new lib/component this round; 457 unit tests |
-| 2.2 | Verification before completion | ✓ | Every checkpoint records fresh `npm test` + `npm run build` + `npm run preflight` output |
-| 2.3 | Root cause investigation | ✓ | Phase 11 contrast fix traced to actual axe-core finding; not symptom-suppress |
-| 2.4 | No human-consumption / therapeutic copy | ✓ | grep-forbidden-words.sh 0 hits; verbatim regrep all-match |
-| 2.5 / 2.19 | Protected paths review + cso | ✓ | SCANNER_OK on 4 protected-path commits; protected-files diff vs v1.0.0 = 0 lines on catalog/compliance/qualification/attestation |
-| 2.6 | Design + plan review per phase | ✓ | 13 checkpoint artifacts on disk |
-| 2.7 | Carve-out compounds excluded | ✓ | Catalog whitelist sourced from products.ts; Vial assertCompoundAllowed |
-| 2.8 | Block list + Layer 3 guard | ✓ | jurisdictions.ts + reconciliation.ts assertOrderJurisdictionAllowed |
-| 2.9 / 2.20 | No Stripe/PayPal/Square; PaymentProviderId frozen | ✓ | type union frozen; 3-rail universe |
-| 2.10 | No reviews / testimonials | ✓ | No Review component; About narrative is third-person evidence-first |
-| 2.11 | No GLP-1 obfuscated SKU naming | ✓ | All 7 canonical names |
-| 2.12 | No Mogtrix branding | ✓ | grep-mogtrix.sh 0 non-attribution hits |
-| 2.13 | No claim-crossover hedging | ✓ | compliance.ts therapeutic-verb regex |
-| 2.14 | No reconstitution kit bundling | ✓ | format='vial' only; bundle is Recovery Stack vials only |
-| 2.15 | TDD checkpoint commits | ✓ | RED + GREEN commit messages with verbatim FAIL/PASS snippets |
-| 2.16 | Pre-commit supply-chain scanner | ✓ | All 3 hooks pass on every commit |
-| 2.17 | Agent-introspection on 3+ failed fixes | ✓ N/A | No fix loops triggered this round |
-| 2.18 | No aesthetic regression | ✓ | 114-snapshot baseline + Lighthouse CI gate |
-| 2.21 | Tokens additive (interpretation: no renames) | ✓ | textSubtle alpha bump for a11y is value-tightening, not rename |
-| 2.22 | No real credentials in source | ✓ | All gates default OFF; .env.example placeholders only |
-| 2.23 | Cookie consent contract | ✓ | necessary always on; opt-in default; GPC honored; first-party persist |
-| 2.24 | No .skip / .only on E2E | ✓ | CI grep guard fails build on hits |
-| 2.25 | Visual diffs require operator approval | ✓ | CODEOWNERS for snapshots dir + PR-comment artifact upload |
-| 2.26 | Brand expression LOCKED | ✓ | --bg / --accent / typography stack untouched |
-| 2.27 | Lighthouse CI ≥ 90/95/95/95 | ✓ | lighthouserc.cjs + lighthouse.yml workflow PR-blocking |
+| #          | Iron Law                                          | Status | Evidence                                                                                                                         |
+| ---------- | ------------------------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| 2.1        | TDD                                               | ✓      | RED→GREEN cycles for every new lib/component this round; 457 unit tests                                                          |
+| 2.2        | Verification before completion                    | ✓      | Every checkpoint records fresh `npm test` + `npm run build` + `npm run preflight` output                                         |
+| 2.3        | Root cause investigation                          | ✓      | Phase 11 contrast fix traced to actual axe-core finding; not symptom-suppress                                                    |
+| 2.4        | No human-consumption / therapeutic copy           | ✓      | grep-forbidden-words.sh 0 hits; verbatim regrep all-match                                                                        |
+| 2.5 / 2.19 | Protected paths review + cso                      | ✓      | SCANNER_OK on 4 protected-path commits; protected-files diff vs v1.0.0 = 0 lines on catalog/compliance/qualification/attestation |
+| 2.6        | Design + plan review per phase                    | ✓      | 13 checkpoint artifacts on disk                                                                                                  |
+| 2.7        | Carve-out compounds excluded                      | ✓      | Catalog whitelist sourced from products.ts; Vial assertCompoundAllowed                                                           |
+| 2.8        | Block list + Layer 3 guard                        | ✓      | jurisdictions.ts + reconciliation.ts assertOrderJurisdictionAllowed                                                              |
+| 2.9 / 2.20 | No Stripe/PayPal/Square; PaymentProviderId frozen | ✓      | type union frozen; 3-rail universe                                                                                               |
+| 2.10       | No reviews / testimonials                         | ✓      | No Review component; About narrative is third-person evidence-first                                                              |
+| 2.11       | No GLP-1 obfuscated SKU naming                    | ✓      | All 7 canonical names                                                                                                            |
+| 2.12       | No Mogtrix branding                               | ✓      | grep-mogtrix.sh 0 non-attribution hits                                                                                           |
+| 2.13       | No claim-crossover hedging                        | ✓      | compliance.ts therapeutic-verb regex                                                                                             |
+| 2.14       | No reconstitution kit bundling                    | ✓      | format='vial' only; bundle is Recovery Stack vials only                                                                          |
+| 2.15       | TDD checkpoint commits                            | ✓      | RED + GREEN commit messages with verbatim FAIL/PASS snippets                                                                     |
+| 2.16       | Pre-commit supply-chain scanner                   | ✓      | All 3 hooks pass on every commit                                                                                                 |
+| 2.17       | Agent-introspection on 3+ failed fixes            | ✓ N/A  | No fix loops triggered this round                                                                                                |
+| 2.18       | No aesthetic regression                           | ✓      | 114-snapshot baseline + Lighthouse CI gate                                                                                       |
+| 2.21       | Tokens additive (interpretation: no renames)      | ✓      | textSubtle alpha bump for a11y is value-tightening, not rename                                                                   |
+| 2.22       | No real credentials in source                     | ✓      | All gates default OFF; .env.example placeholders only                                                                            |
+| 2.23       | Cookie consent contract                           | ✓      | necessary always on; opt-in default; GPC honored; first-party persist                                                            |
+| 2.24       | No .skip / .only on E2E                           | ✓      | CI grep guard fails build on hits                                                                                                |
+| 2.25       | Visual diffs require operator approval            | ✓      | CODEOWNERS for snapshots dir + PR-comment artifact upload                                                                        |
+| 2.26       | Brand expression LOCKED                           | ✓      | --bg / --accent / typography stack untouched                                                                                     |
+| 2.27       | Lighthouse CI ≥ 90/95/95/95                       | ✓      | lighthouserc.cjs + lighthouse.yml workflow PR-blocking                                                                           |
 
 ## Verbatim copy regrep (final)
 
-| Pattern | File | Hits | Expected |
-|---|---|---|---|
-| `21+ years of age` | `app/checkout/review/ReviewPanel.tsx` | 1 | 1 |
-| `research use only (RUO)` | `app/checkout/review/ReviewPanel.tsx` | 1 | 1 |
-| `qualified researcher acquiring` | `lib/customer-qualification.ts` | 1 | 1 |
-| `For research use only. Not for human or veterinary use` | `app/products/[slug]/page.tsx` | 2 | 2 |
-| `are not for human consumption` | `components/SiteFooter.tsx` | 1 | 1 |
+| Pattern                                                  | File                                  | Hits | Expected |
+| -------------------------------------------------------- | ------------------------------------- | ---- | -------- |
+| `21+ years of age`                                       | `app/checkout/review/ReviewPanel.tsx` | 1    | 1        |
+| `research use only (RUO)`                                | `app/checkout/review/ReviewPanel.tsx` | 1    | 1        |
+| `qualified researcher acquiring`                         | `lib/customer-qualification.ts`       | 1    | 1        |
+| `For research use only. Not for human or veterinary use` | `app/products/[slug]/page.tsx`        | 2    | 2        |
+| `are not for human consumption`                          | `components/SiteFooter.tsx`           | 1    | 1        |
 
 `git diff v1.0.0..HEAD` on the verbatim source files
 (`lib/compliance.ts`, `lib/customer-qualification.ts`,
@@ -183,6 +183,7 @@ for 2 hours, v4 closes.
 ## Retrospective scheduling
 
 Recommended retro cadence (post-launch):
+
 - **Week +1**: 60 min — what shipped, what surprised, what to fix in
   v4.1. Use gstack `/retro` skill.
 - **Week +2**: 30 min — first 14-day metrics review (orders, errors,

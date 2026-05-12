@@ -7,81 +7,81 @@
  * contractual partner is operator-side / private. Iron Law 2.26 — operator
  * authorized.
  */
-import type { Metadata } from 'next';
-import Link from 'next/link';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { buttonClassNames } from '@/components/ui/Button';
-import { ComparativeTable } from '@/components/ui/ComparativeTable';
-import { ProcessFlow } from '@/components/ui/ProcessFlow';
+import type { Metadata } from "next";
+import Link from "next/link";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { buttonClassNames } from "@/components/ui/Button";
+import { ComparativeTable } from "@/components/ui/ComparativeTable";
+import { ProcessFlow } from "@/components/ui/ProcessFlow";
 
 export const metadata: Metadata = {
-  title: 'Independently tested · Testing standard',
+  title: "Independently tested · Testing standard",
   description:
-    'HPLC purity, USP <71> sterility, and LAL endotoxin testing through an independent third-party laboratory. Batch-lot transparency and the vialchemlabs testing standard.',
+    "HPLC purity, USP <71> sterility, and LAL endotoxin testing through an independent third-party laboratory. Batch-lot transparency and the vialchemlabs testing standard.",
 };
 
 const STANDARD_ROWS = [
   {
-    label: 'Identity & purity',
+    label: "Identity & purity",
     industry:
-      'In-house HPLC where reported, methodology often unstated, sometimes self-attested without independent verification.',
+      "In-house HPLC where reported, methodology often unstated, sometimes self-attested without independent verification.",
     vialchemlabs:
-      'Reverse-phase HPLC area-percent at 220nm through an independent third-party laboratory. Mass spectrometry available on request.',
+      "Reverse-phase HPLC area-percent at 220nm through an independent third-party laboratory. Mass spectrometry available on request.",
   },
   {
-    label: 'Sterility',
+    label: "Sterility",
     industry:
-      'Rarely reported on research-grade peptides; when reported, often as a single PASS/FAIL with no methodology cited.',
+      "Rarely reported on research-grade peptides; when reported, often as a single PASS/FAIL with no methodology cited.",
     vialchemlabs:
-      'USP <71> broth-based growth assay (Fluid Thioglycollate + Soybean-Casein Digest). 14-day incubation. PASS/FAIL reporting.',
+      "USP <71> broth-based growth assay (Fluid Thioglycollate + Soybean-Casein Digest). 14-day incubation. PASS/FAIL reporting.",
   },
   {
-    label: 'Endotoxin',
+    label: "Endotoxin",
     industry:
-      'Almost never reported; when reported, often a single threshold number without methodology.',
+      "Almost never reported; when reported, often a single threshold number without methodology.",
     vialchemlabs:
-      'Limulus Amebocyte Lysate gel-clot in EU/mg, with assay sensitivity limit so values are comparable.',
+      "Limulus Amebocyte Lysate gel-clot in EU/mg, with assay sensitivity limit so values are comparable.",
   },
   {
-    label: 'Batch traceability',
+    label: "Batch traceability",
     industry:
-      'Mixed; aggregated lot reports common; the number on the vial sometimes does not resolve to a specific COA.',
+      "Mixed; aggregated lot reports common; the number on the vial sometimes does not resolve to a specific COA.",
     vialchemlabs:
-      'The number on the vial resolves to a published COA, the order confirmation, and the shipping manifest.',
+      "The number on the vial resolves to a published COA, the order confirmation, and the shipping manifest.",
   },
 ];
 
 const TESTING_STEPS = [
   {
     n: 1,
-    title: 'Sample drawn',
+    title: "Sample drawn",
     description:
-      'Sample drawn under chain-of-custody at the warehouse and shipped to the independent third-party lab.',
+      "Sample drawn under chain-of-custody at the warehouse and shipped to the independent third-party lab.",
   },
   {
     n: 2,
-    title: 'Identity + purity',
+    title: "Identity + purity",
     description:
-      'Reverse-phase HPLC area-percent purity at 220nm. Industry-standard primary identity confirmation.',
+      "Reverse-phase HPLC area-percent purity at 220nm. Industry-standard primary identity confirmation.",
   },
   {
     n: 3,
-    title: 'Sterility',
+    title: "Sterility",
     description:
-      'USP <71> broth-based growth assay. Test articles inoculated, incubated 14 days, evaluated for turbidity.',
+      "USP <71> broth-based growth assay. Test articles inoculated, incubated 14 days, evaluated for turbidity.",
   },
   {
     n: 4,
-    title: 'Endotoxin',
+    title: "Endotoxin",
     description:
-      'LAL gel-clot quantifying bacterial endotoxin in EU/mg. Numeric concentration with assay sensitivity limit.',
+      "LAL gel-clot quantifying bacterial endotoxin in EU/mg. Numeric concentration with assay sensitivity limit.",
   },
   {
     n: 5,
-    title: 'COA published',
+    title: "COA published",
     description:
-      'Certificate of Analysis posted to /coa with batch number, test date, and methodology so the data is on file.',
+      "Certificate of Analysis posted to /coa with batch number, test date, and methodology so the data is on file.",
   },
 ];
 
@@ -104,23 +104,27 @@ export default function TestReportsPage() {
             </h1>
             <div className="grid gap-10 md:grid-cols-[2fr_1fr] items-end">
               <p className="text-[clamp(18px,2vw,22px)] leading-[1.55] text-[var(--text-muted)] max-w-2xl">
-                vialchemlabs runs an independent third-party testing
-                program — HPLC purity, USP &lt;71&gt; sterility, and LAL
-                endotoxin — and publishes the Certificate of Analysis
-                alongside the product so the data is on the table.
+                vialchemlabs runs an independent third-party testing program —
+                HPLC purity, USP &lt;71&gt; sterility, and LAL endotoxin — and
+                publishes the Certificate of Analysis alongside the product so
+                the data is on the table.
               </p>
               <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)] leading-relaxed border-l border-[var(--border-strong)] pl-5">
                 <p className="text-[var(--accent)] mb-1">Industry context</p>
-                <p className="text-[var(--text)]">Independent third-party COAs</p>
+                <p className="text-[var(--text)]">
+                  Independent third-party COAs
+                </p>
                 <p className="mt-1">≈ 11% of vendors publish them</p>
-                <p className="text-[var(--text-subtle)]">(per 1,500-vendor research)</p>
+                <p className="text-[var(--text-subtle)]">
+                  (per 1,500-vendor research)
+                </p>
               </div>
             </div>
             <div className="mt-14 flex flex-wrap gap-3">
-              <Link href="/coa" className={buttonClassNames('primary', 'lg')}>
+              <Link href="/coa" className={buttonClassNames("primary", "lg")}>
                 Browse COAs
               </Link>
-              <Link href="/about" className={buttonClassNames('outline', 'lg')}>
+              <Link href="/about" className={buttonClassNames("outline", "lg")}>
                 About the standard
               </Link>
             </div>
@@ -166,16 +170,15 @@ export default function TestReportsPage() {
                 Each vial carries a batch number that resolves to a published
                 Certificate of Analysis. The same number appears on the order
                 confirmation and on the shipping manifest. No two-tier system —
-                no &quot;test articles&quot; that differ from sale articles,
-                no aggregated lot reports that combine multiple production
-                runs.
+                no &quot;test articles&quot; that differ from sale articles, no
+                aggregated lot reports that combine multiple production runs.
               </p>
               <p>
                 Approximately 11% of the 1,500+ vendor universe publishes
-                independent third-party COAs at all. vialchemlabs operates
-                an independent third-party testing program with the COA
-                published alongside the product so the data is on the table —
-                not behind a sales call.
+                independent third-party COAs at all. vialchemlabs operates an
+                independent third-party testing program with the COA published
+                alongside the product so the data is on the table — not behind a
+                sales call.
               </p>
               <p>
                 <Link

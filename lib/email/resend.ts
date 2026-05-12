@@ -12,12 +12,16 @@
  *
  * Closes deferral D1 (real Resend wire + 4-email welcome sequence).
  */
-import { Resend } from 'resend';
+import { Resend } from "resend";
+import { envFlag, isProductionRuntime } from "@/lib/runtime-env";
 
 let cachedClient: Resend | null | undefined;
 
 function isRequired(): boolean {
-  return process.env.REQUIRE_RESEND === 'true';
+  if (isProductionRuntime()) {
+    return !envFlag("ALLOW_RESEND_OPTIONAL_IN_PRODUCTION");
+  }
+  return process.env.REQUIRE_RESEND === "true";
 }
 
 function getClient(): Resend | null {
@@ -29,7 +33,7 @@ function getClient(): Resend | null {
   const key = process.env.RESEND_API_KEY;
   if (!key) {
     throw new Error(
-      'Phase 10.2: REQUIRE_RESEND=true but RESEND_API_KEY is empty. Provide a real value in .env.local before deploying.',
+      "Phase 10.2: REQUIRE_RESEND=true but RESEND_API_KEY is empty. Provide a real value in .env.local before deploying.",
     );
   }
   cachedClient = new Resend(key);
@@ -37,7 +41,7 @@ function getClient(): Resend | null {
 }
 
 export interface SendEmailInput {
-  to: string;
+  to: string | string[];
   subject: string;
   text: string;
   html?: string;
@@ -47,16 +51,16 @@ export interface SendEmailInput {
   replyTo?: string;
   /** Tag the email so Resend dashboard groups deliverability metrics. */
   tag?:
-    | 'welcome-1'
-    | 'welcome-2'
-    | 'welcome-3'
-    | 'welcome-4'
-    | 'order-confirmation'
-    | 'order-shipped'
-    | 'cancel-confirmation'
-    | 'refund-confirmation'
-    | 'qualification-receipt'
-    | 'magic-link';
+    | "welcome-1"
+    | "welcome-2"
+    | "welcome-3"
+    | "welcome-4"
+    | "order-confirmation"
+    | "order-shipped"
+    | "cancel-confirmation"
+    | "refund-confirmation"
+    | "qualification-receipt"
+    | "magic-link";
 }
 
 export interface SendEmailResult {
@@ -72,12 +76,12 @@ export async function sendEmail(
   const from =
     input.from ??
     process.env.ORDER_EMAIL_FROM ??
-    `research@${process.env.BRAND_DOMAIN ?? 'vialchemlabs.com'}`;
+    `research@${process.env.BRAND_DOMAIN ?? "vialchemlabs.com"}`;
 
   if (!client) {
     return {
       ok: true,
-      id: `stub:${input.tag ?? 'untagged'}:${Date.now()}`,
+      id: `stub:${input.tag ?? "untagged"}:${Date.now()}`,
       stub: true,
     };
   }
@@ -89,13 +93,13 @@ export async function sendEmail(
     text: input.text,
     html: input.html,
     replyTo: input.replyTo,
-    tags: input.tag ? [{ name: 'category', value: input.tag }] : undefined,
+    tags: input.tag ? [{ name: "category", value: input.tag }] : undefined,
   });
 
   if (result.error) {
     throw new Error(`Resend send failed: ${result.error.message}`);
   }
-  return { ok: true, id: result.data?.id ?? 'unknown' };
+  return { ok: true, id: result.data?.id ?? "unknown" };
 }
 
 /** Test-only — clear the cached client between cases. */

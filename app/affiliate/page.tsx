@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 /**
  * Affiliate Program signup. Client component for form interactivity.
@@ -9,28 +9,28 @@
  * Commission table: 5% min / 10% median / 15% max. 90-day cookie. FTC
  * compliance reminder is rendered prominently.
  */
-import { useState, type FormEvent } from 'react';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { FieldLabel } from '@/components/ui/FieldLabel';
-import { Input } from '@/components/ui/Input';
-import { Button } from '@/components/ui/Button';
-import { Pill } from '@/components/ui/Pill';
-import { Card } from '@/components/ui/Card';
-import { Toast } from '@/components/ui/Toast';
+import { useState, type FormEvent } from "react";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { FieldLabel } from "@/components/ui/FieldLabel";
+import { Input } from "@/components/ui/Input";
+import { Button } from "@/components/ui/Button";
+import { Pill } from "@/components/ui/Pill";
+import { Card } from "@/components/ui/Card";
+import { Toast } from "@/components/ui/Toast";
 
-type Status = 'idle' | 'submitting' | 'ok';
+type Status = "idle" | "submitting" | "ok";
 
 export default function AffiliatePage() {
-  const [status, setStatus] = useState<Status>('idle');
+  const [status, setStatus] = useState<Status>("idle");
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setStatus('submitting');
+    setStatus("submitting");
     // Phase 5: client-only ack. Phase 7 will POST to /api/affiliate.
     await new Promise((r) => setTimeout(r, 250));
     e.currentTarget.reset();
-    setStatus('ok');
+    setStatus("ok");
   }
 
   return (
@@ -66,12 +66,12 @@ export default function AffiliatePage() {
               </p>
             </div>
             <h1 className="text-[clamp(28px,3.2vw,40px)] font-light leading-[1.2] tracking-tight text-[var(--text)] max-w-2xl mb-8">
-              Three commission tiers for content creators with audiences
-              aligned to research-use-only laboratory content.
+              Three commission tiers for content creators with audiences aligned
+              to research-use-only laboratory content.
             </h1>
             <p className="text-[16px] leading-[1.55] text-[var(--text-muted)] max-w-2xl">
-              90-day cookie window · Paid monthly via ACH or crypto ·
-              disclosure required on every link and video. Detail below.
+              90-day cookie window · Paid monthly via ACH or crypto · disclosure
+              required on every link and video. Detail below.
             </p>
           </div>
         </section>
@@ -82,7 +82,10 @@ export default function AffiliatePage() {
             <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-4">
               Commission tiers
             </p>
-            <Card variant="elevated" className="p-0 divide-y divide-[var(--border)]">
+            <Card
+              variant="elevated"
+              className="p-0 divide-y divide-[var(--border)]"
+            >
               <Tier
                 tier="Tier 1 / Entry"
                 rate="5%"
@@ -159,10 +162,10 @@ export default function AffiliatePage() {
                 </p>
               </div>
               <p className="text-[14px] text-[var(--text)] leading-[1.6]">
-                Affiliates and sample recipients must disclose the relationship clearly and
-                conspicuously in any post, video, or page that includes a
-                vialchemlabs link, per the FTC Endorsement Guides (16 CFR
-                Part 255). Affiliates may not make outcome, performance, or
+                Affiliates and sample recipients must disclose the relationship
+                clearly and conspicuously in any post, video, or page that
+                includes a vialchemlabs link, per the FTC Endorsement Guides (16
+                CFR Part 255). Affiliates may not make outcome, performance, or
                 clinical-application claims about any product. Linking to
                 product or COA pages is permitted; producing standalone
                 editorial that describes a product is permitted only when
@@ -190,7 +193,12 @@ export default function AffiliatePage() {
                     Name
                   </FieldLabel>
                   <div className="mt-2">
-                    <Input id="aff-name" name="name" required autoComplete="name" />
+                    <Input
+                      id="aff-name"
+                      name="name"
+                      required
+                      autoComplete="name"
+                    />
                   </div>
                 </div>
                 <div>
@@ -288,18 +296,18 @@ export default function AffiliatePage() {
                   type="submit"
                   variant="primary"
                   size="lg"
-                  disabled={status === 'submitting'}
+                  disabled={status === "submitting"}
                 >
-                  {status === 'submitting' ? 'Sending…' : 'Apply'}
+                  {status === "submitting" ? "Sending…" : "Apply"}
                 </Button>
               </div>
 
-              {status === 'ok' ? (
+              {status === "ok" ? (
                 <Toast
                   message="Application logged. The team will review and respond within five business days."
                   tone="success"
                   duration={6000}
-                  onDismiss={() => setStatus('idle')}
+                  onDismiss={() => setStatus("idle")}
                 />
               ) : null}
             </form>
@@ -326,7 +334,9 @@ function Tier({
         <span className="font-mono tabular text-[24px] font-semibold text-[var(--accent)]">
           {rate}
         </span>
-        <span className="text-[15px] font-medium text-[var(--text)]">{tier}</span>
+        <span className="text-[15px] font-medium text-[var(--text)]">
+          {tier}
+        </span>
       </div>
       <p className="text-[14px] text-[var(--text-muted)] md:max-w-md">
         {criteria}

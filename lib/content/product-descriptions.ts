@@ -24,7 +24,7 @@
  */
 
 export const productDescriptions: Record<string, string> = {
-  'BPC-157-10MG': `BPC-157 is maintained as a 10mg lyophilized research vial and remains the existing anchor SKU for the site's recovery-category architecture. The repo already depends on this slug in product pages, COA examples, checkout tests, email templates, and deployment checks, so the route should stay stable while the copy is kept within the newer RUO standard.
+  "BPC-157-10MG": `BPC-157 is maintained as a 10mg lyophilized research vial and remains the existing anchor SKU for the site's recovery-category architecture. The repo already depends on this slug in product pages, COA examples, checkout tests, email templates, and deployment checks, so the route should stay stable while the copy is kept within the newer RUO standard.
 
 The safest public foundation is compound identity, vial strength, analytical posture, and batch-led documentation. Corpus pages support BPC-157 as a 15-amino-acid peptide associated with Body Protection Compound nomenclature and exact 10mg marketplace listings, but customer-facing copy should not translate that research register into practical outcome promises.
 
@@ -36,7 +36,7 @@ This SKU's public copy should also avoid preparation, route, exposure amount, pr
 
 The compliant page is concise and document-led: canonical name, 10mg vial size, lyophilized format when verified, price, batch traceability, and research-only restrictions. It should also keep any related-stack language secondary to the single-SKU identity so the standalone product remains clear. It is not a drug, dietary supplement, cosmetic, or compounding article, and it is not for human or veterinary use, clinical administration, diagnostic use, therapeutic application, ingestion, injection, or bodily introduction of any kind.`,
 
-  'TB-500-5MG': `TB-500 is positioned as a research-use-only peptide reference in a 5mg lyophilized vial, aligned with the naming seen across the corpus for TB-500, thymosin beta-4, and TB4. The corpus consistently frames the SKU as a core peptide catalog item, while individual vendors vary in how much structural detail they publish.
+  "TB-500-5MG": `TB-500 is positioned as a research-use-only peptide reference in a 5mg lyophilized vial, aligned with the naming seen across the corpus for TB-500, thymosin beta-4, and TB4. The corpus consistently frames the SKU as a core peptide catalog item, while individual vendors vary in how much structural detail they publish.
 
 For product-page use, the safest public framing is material identity, format, analytical posture, and research context. Several consulted pages connect TB-500 with thymosin beta-4 nomenclature and place it alongside actin-binding, cell-migration, and cellular-organization research themes. That support is enough for a restrained description, but not for outcome-led copy. This restraint also fits the site's RUO disclaimer system and batch-led merchandising model.
 
@@ -48,7 +48,7 @@ At $69, TB-500 5mg is not a launch loss-leader under the locked opening-SKU memo
 
 In catalog architecture, TB-500 belongs in recovery because the corpus repeatedly pairs it with BPC-157 in recovery-stack and blend contexts. The category label should function as navigation shorthand for research-area clustering, not as a biological or customer outcome promise. The strongest compliant page is a clean research-commerce page: name, strength, vial format, price, test status, and conservative research-context copy.`,
 
-  'TB-500-10MG': `TB-500 10mg is proposed as a lyophilized research vial for laboratories that need a standalone TB-500 strength aligned with BPC-157 10mg stack architecture. The raw corpus repeatedly connects TB-500 with thymosin beta-4, TB4, and actin-binding nomenclature, while exact product pages confirm a 10mg vial presentation across multiple vendors. This is enough support for a clean catalog entry, but not for broad biological promises.
+  "TB-500-10MG": `TB-500 10mg is proposed as a lyophilized research vial for laboratories that need a standalone TB-500 strength aligned with BPC-157 10mg stack architecture. The raw corpus repeatedly connects TB-500 with thymosin beta-4, TB4, and actin-binding nomenclature, while exact product pages confirm a 10mg vial presentation across multiple vendors. This is enough support for a clean catalog entry, but not for broad biological promises.
 
 The safest public framing is compound identity, vial strength, analytical posture, and controlled research context. Source pages commonly present TB-500 as a thymosin beta-4-related peptide and list quality signals such as HPLC, mass spectrometry, COA access, lot visibility, and lyophilized powder format. Those terms should remain batch-led in implementation: the storefront should show only the test types, lab names, dates, and release values that match the operator's actual inventory. This preserves future lot flexibility and avoids overclaiming.
 
@@ -58,7 +58,7 @@ For catalog architecture, the 10mg variant belongs in recovery because the locke
 
 The final product page should stay sparse: canonical name, 10mg vial strength, lyophilized presentation when verified, price, batch identifier, test date, lab name, COA link, HPLC field, mass-spec field, and concise research-use-only restrictions. Avoid preparation guidance, protocol language, route terms, exposure amounts, customer outcome language, clinical translation, and unsupported manufacturing or quality claims.`,
 
-  'GHK-CU-50MG': `GHK-Cu is a copper-complexed form of the tripeptide Gly-His-Lys, supplied as a 50mg lyophilized vial for qualified laboratory research. The corpus consistently identifies this material by CAS 89030-95-5 and by the synonym Copper Tripeptide-1, with product-page taxonomies placing it in dermal, cosmetic-pathway, and broader cellular-signaling research categories.
+  "GHK-CU-50MG": `GHK-Cu is a copper-complexed form of the tripeptide Gly-His-Lys, supplied as a 50mg lyophilized vial for qualified laboratory research. The corpus consistently identifies this material by CAS 89030-95-5 and by the synonym Copper Tripeptide-1, with product-page taxonomies placing it in dermal, cosmetic-pathway, and broader cellular-signaling research categories.
 
 In vitro research framing centers on fibroblast and keratinocyte assay systems. Supported mechanism language includes extracellular-matrix protein expression, collagen-related metabolism, matrix metalloproteinase and TIMP balance, decorin expression, and copper-dependent signaling models. These terms keep the description in laboratory pathway language without converting cell-model observations into outcomes.
 
@@ -72,7 +72,7 @@ Because source-side terms remain pending, avoid unverified claims about manufact
 
 This material is for in vitro, laboratory, and analytical research use only. It is not for human or veterinary use, and the page should provide no preparation, dosing, administration, or application guidance. Keep language focused on compound identity, assay context, storage expectations, and compliance posture rather than outcomes.`,
 
-  'IPAMORELIN-10MG': `Ipamorelin is a pentapeptide growth-hormone-releasing peptide (GHRP) agonist studied in animal-model research for selective stimulation of growth-hormone secretion from anterior pituitary cells. Its specificity lies in GH-axis activation without the ACTH co-stimulation observed with other GHRP classes, making it a research tool of choice for investigating GH-pathway isolation.
+  "IPAMORELIN-10MG": `Ipamorelin is a pentapeptide growth-hormone-releasing peptide (GHRP) agonist studied in animal-model research for selective stimulation of growth-hormone secretion from anterior pituitary cells. Its specificity lies in GH-axis activation without the ACTH co-stimulation observed with other GHRP classes, making it a research tool of choice for investigating GH-pathway isolation.
 
 In vitro studies employ primary pituitary cell cultures and pituitary cell lines to document ipamorelin dose-dependent GH secretion. Patch-clamp electrophysiology and calcium-imaging experiments map the mechanism of GH-cell activation, exploring ipamorelin interaction with putative somatotroph-surface receptors. Cell-culture work demonstrates that ipamorelin-induced GH release is suppressed by somatostatin co-application, confirming pituitary-directed mechanism.
 
@@ -84,7 +84,7 @@ Research attention to ipamorelin specificity focuses on its selective GH-axis ac
 
 Ipamorelin is supplied as a lyophilized pharmaceutical-grade research reference formulated for analytical use and animal-model research. The 10mg vial is reconstituted in sterile bacteriostatic saline or distilled water per research protocol. Storage is maintained at 2-8 degrees Celsius in sealed vials. This material is for research, cell-culture, and animal-model investigation only. No therapeutic claims, human administration, or medical use are made. Not approved by any regulatory authority for any indication.`,
 
-  'IPAMORELIN-5MG': `Ipamorelin is a synthetic pentapeptide used as a research reference for growth-hormone-secretagogue receptor pathway studies. The corpus consistently frames the compound as a selective GHSR-1a or ghrelin-receptor agonist, with interest centered on GH-axis signaling rather than broad pituitary activation. The proposed 5mg vial gives the catalog a smaller-format Ipamorelin option while preserving the existing GH-axis taxonomy.
+  "IPAMORELIN-5MG": `Ipamorelin is a synthetic pentapeptide used as a research reference for growth-hormone-secretagogue receptor pathway studies. The corpus consistently frames the compound as a selective GHSR-1a or ghrelin-receptor agonist, with interest centered on GH-axis signaling rather than broad pituitary activation. The proposed 5mg vial gives the catalog a smaller-format Ipamorelin option while preserving the existing GH-axis taxonomy.
 
 In cell-culture and controlled laboratory models, Ipamorelin is used to examine receptor-mediated somatotroph response, intracellular calcium signaling, and growth-hormone secretion kinetics. The usable claim is narrow: the peptide is studied as a tool for isolating GH-axis pathway behavior, especially where researchers want to compare selective secretagogue activity against earlier GHRP-class compounds.
 
@@ -96,7 +96,7 @@ Ipamorelin also fits naturally beside CJC-1295 No DAC in the catalog architectur
 
 This material should be described strictly for controlled in vitro, analytical, and animal-model research contexts where permitted by institutional protocol. It is not a drug, dietary supplement, cosmetic, or compounding product, and it is not for human or veterinary use, clinical administration, diagnostic use, or therapeutic application.`,
 
-  'CJC-1295-NO-DAC-5MG': `CJC-1295 No DAC is a synthetic GHRH analog identified across the corpus as Modified GRF 1-29, Mod GRF 1-29, tetrasubstituted GRF 1-29, and CJC-1295 without Drug Affinity Complex. The no-DAC designation matters: consulted product pages distinguish this reference material from DAC-modified CJC-1295 by the absence of the albumin-affinity extension used for longer exposure.
+  "CJC-1295-NO-DAC-5MG": `CJC-1295 No DAC is a synthetic GHRH analog identified across the corpus as Modified GRF 1-29, Mod GRF 1-29, tetrasubstituted GRF 1-29, and CJC-1295 without Drug Affinity Complex. The no-DAC designation matters: consulted product pages distinguish this reference material from DAC-modified CJC-1295 by the absence of the albumin-affinity extension used for longer exposure.
 
 For catalog placement, the molecule belongs in the GH-axis group rather than recovery, nootropic, metabolic, cosmetic-pathway, or immune categories. Vendor pages describe it as a lyophilized peptide supplied for in vitro or laboratory research contexts, with the central research frame focused on GHRH receptor signaling, anterior-pituitary pathway models, and GH/IGF-1 axis observation.
 
@@ -108,7 +108,7 @@ The 5mg vial format is directly attested in the consulted raw corpus. Raw Amino,
 
 This proposed listing should therefore use precise RUO language: a Modified GRF 1-29 research reference for short-acting GHRH analog studies, supplied as a lyophilized 5mg vial, without claims about administration, outcomes, body composition, sleep, muscle, or other non-catalog endpoints. Qualification, COA display, and batch identity should carry the trust signal instead of unsupported biological promises.`,
 
-  'CJC-1295-DAC-2MG': `CJC-1295 DAC is proposed as a 2mg lyophilized research vial for controlled laboratory and analytical workflows. The clearest identity frame is CJC-1295 with Drug Affinity Complex: a DAC-modified GHRH analog, not the CJC-1295 No DAC / Modified GRF 1-29 SKU already represented in the catalog.
+  "CJC-1295-DAC-2MG": `CJC-1295 DAC is proposed as a 2mg lyophilized research vial for controlled laboratory and analytical workflows. The clearest identity frame is CJC-1295 with Drug Affinity Complex: a DAC-modified GHRH analog, not the CJC-1295 No DAC / Modified GRF 1-29 SKU already represented in the catalog.
 
 The DAC distinction should remain visible anywhere Modified GRF language appears. Vendor pages use overlapping terms such as CJC-1295 with DAC, CJC-1295 W/DAC, Modified GRF 1-29 with DAC, and Drug Affinity Complex. Because plain Modified GRF 1-29 can point to the No DAC form, this listing should not shorten the name in a way that collapses the two identities.
 
@@ -120,7 +120,7 @@ At $59.00, this SKU prices at $29.50 per mg. That sits above the broad CJC-1295 
 
 Final public language should be sparse: canonical name, 2mg vial format, lyophilized presentation when verified, batch/lot number, test date, lab name, COA link, HPLC, mass confirmation, endotoxin, and sterility fields where applicable. Avoid preparation, route, schedule, protocol, human or animal use, treatment, performance, and other application language.`,
 
-  'CJC-1295-IPAMORELIN-10MG': `CJC-1295 + Ipamorelin Blend 10mg is a combined-vial research material for GH-axis catalog work, identity confirmation, and comparative component analysis. The proposed format places CJC-1295 No DAC and Ipamorelin in a single lyophilized vial at a 5mg/5mg composition, matching the most common 10mg blend structure found in the corpus.
+  "CJC-1295-IPAMORELIN-10MG": `CJC-1295 + Ipamorelin Blend 10mg is a combined-vial research material for GH-axis catalog work, identity confirmation, and comparative component analysis. The proposed format places CJC-1295 No DAC and Ipamorelin in a single lyophilized vial at a 5mg/5mg composition, matching the most common 10mg blend structure found in the corpus.
 
 CJC-1295 No DAC supplies the GHRH-analog side of the blend. In the existing catalog and raw source set, this material is tied to Modified GRF 1-29 nomenclature and separated from DAC-containing CJC-1295 by the absence of the albumin-affinity extension. That distinction is central to clean product taxonomy.
 
@@ -132,7 +132,7 @@ Because this is a blend, the strongest quality copy focuses on dual-component ve
 
 At $99.00, the listing is best treated as a premium catalog-completion SKU. It supports GH-axis component-class comparison in a single reference material without adding preparation instructions, route language, timing guidance, physiological outcomes, clinical interpretation, or broader wellness claims. The compliant page posture is RUO identity, defined blend composition, pathway taxonomy, and document-backed analytical transparency.`,
 
-  'MOTS-C-10MG': `MOTS-c is a mitochondrial-derived, 16-amino-acid peptide encoded within the mitochondrial 12S rRNA region. The launch corpus places it in the metabolic research lane because MOTS-c is discussed as a mitochondrial-signaling reagent rather than a recovery, GH-axis, cosmetic-pathway, nootropic, or immune-category peptide. It fits best as a technical catalog item for mitochondrial-pathway research.
+  "MOTS-C-10MG": `MOTS-c is a mitochondrial-derived, 16-amino-acid peptide encoded within the mitochondrial 12S rRNA region. The launch corpus places it in the metabolic research lane because MOTS-c is discussed as a mitochondrial-signaling reagent rather than a recovery, GH-axis, cosmetic-pathway, nootropic, or immune-category peptide. It fits best as a technical catalog item for mitochondrial-pathway research.
 
 This 10mg vial is proposed as a lyophilized research material for qualified laboratory workflows examining mitochondrial-derived peptide signaling, mitochondrial-nuclear communication, and stress-responsive gene-expression models. Competitor pages consistently identify MOTS-c with the sequence MRWQEMGYIFYPRKRR and molecular weight near 2174 Da; final identity, purity, counterion, and analytical details should defer to batch-specific documentation rather than static marketing copy.
 
@@ -144,7 +144,7 @@ The 10mg presentation gives the catalog a recognizable metabolic-pathway SKU wit
 
 MOTS-c 10mg should be presented with age-gated access, research-use-only acknowledgments, and source-confirmed batch/lot traceability once supplier terms are locked. No administration language, clinical framing, consumer-use directions, or implied suitability outside controlled research should appear on the page. The safest commerce posture is concise, technical, and limited to research, laboratory, and analytical use.`,
 
-  'NAD-500MG': `NAD+ is nicotinamide adenine dinucleotide, an oxidized dinucleotide coenzyme found in living cells. The selected raw corpus supports a 500mg vial presentation and labels the material as a coenzyme or non-peptide small molecule rather than a peptide. For this catalog, it should read as a lyophilized research reference for metabolic-pathway work, not as a consumer wellness SKU.
+  "NAD-500MG": `NAD+ is nicotinamide adenine dinucleotide, an oxidized dinucleotide coenzyme found in living cells. The selected raw corpus supports a 500mg vial presentation and labels the material as a coenzyme or non-peptide small molecule rather than a peptide. For this catalog, it should read as a lyophilized research reference for metabolic-pathway work, not as a consumer wellness SKU.
 
 The core research context is redox chemistry and cellular-energy model systems. Vendor pages consistently describe NAD+ as an electron carrier in redox reactions and as a reference for mitochondrial bioenergetics, oxidative phosphorylation, and ATP-pathway assays. That supports mechanism-level language only; it should not become claims about energy, vitality, performance, or human outcomes.
 
@@ -156,7 +156,7 @@ At $79, the requested price equals $0.158/mg. That is near the aggregate NAD+ me
 
 Public copy should stay clinical-commerce and RUO-specific: compound identity, vial size, research category, qualified-researcher access controls, and batch-level analytical traceability only. Avoid reconstitution, dosing, administration, longevity, disease, supplement, or human-use language. This material should be framed only for controlled laboratory, analytical, and in vitro research workflows, with no veterinary, diagnostic, clinical, or therapeutic positioning.`,
 
-  'SELANK-10MG': `Selank is a synthetic heptapeptide (Thr-Lys-Pro-Arg-Pro-Gly-Pro) derived from tuftsin, a naturally occurring immunoactive tetrapeptide fragment. Selank is studied in cell-culture and animal-model research for effects on immune-cell activation, neuroprotection, and behavioral markers in laboratory paradigms exploring anxiety-related phenotypes.
+  "SELANK-10MG": `Selank is a synthetic heptapeptide (Thr-Lys-Pro-Arg-Pro-Gly-Pro) derived from tuftsin, a naturally occurring immunoactive tetrapeptide fragment. Selank is studied in cell-culture and animal-model research for effects on immune-cell activation, neuroprotection, and behavioral markers in laboratory paradigms exploring anxiety-related phenotypes.
 
 In vitro immunology research employs Selank in primary T-cell, B-cell, and macrophage cultures to examine proliferation rates, cytokine secretion profiles, activation-marker expression (CD69, CD25, HLA-DR), and differentiation patterns. Cell-culture assays document dose-dependent modulation of IL-2, TNF-alpha, IL-10, and IFN-gamma production. Mechanistic studies explore Selank interaction with putative cell-surface receptors, calcium signaling, and intracellular kinase cascades (MAP-kinase, JAK-STAT pathways) underlying immune-cell activation.
 
@@ -172,7 +172,7 @@ Selank is supplied as a lyophilized pharmaceutical-grade research reference form
 
   /* ===== v1.3 catalog expansion (compact research register) ===== */
 
-  'SERMORELIN-2MG': `Sermorelin is a synthetic 29-amino-acid peptide corresponding to residues 1-29 of human growth-hormone-releasing hormone (GHRH 1-29). The 1-29 fragment retains the full receptor-binding and somatotroph-activating activity of full-length GHRH, making it the canonical research analog for investigating GHRH-receptor pathway signaling in the absence of full-length-GHRH proteolytic complications.
+  "SERMORELIN-2MG": `Sermorelin is a synthetic 29-amino-acid peptide corresponding to residues 1-29 of human growth-hormone-releasing hormone (GHRH 1-29). The 1-29 fragment retains the full receptor-binding and somatotroph-activating activity of full-length GHRH, making it the canonical research analog for investigating GHRH-receptor pathway signaling in the absence of full-length-GHRH proteolytic complications.
 
 In vitro studies employ pituitary cell cultures and recombinant GHRH-receptor expression systems to characterize Sermorelin binding affinity, receptor-coupled adenylyl cyclase activation, and downstream cAMP-PKA signaling. Patch-clamp electrophysiology and calcium-imaging experiments document somatotroph-membrane responses to Sermorelin exposure across a range of concentrations.
 
@@ -180,7 +180,7 @@ Animal-model research, primarily in rodents and larger mammals, employs intraven
 
 Sermorelin is supplied as a lyophilized pharmaceutical-grade research reference formulated for cell-culture and animal-model research. The 2mg vial is reconstituted in sterile bacteriostatic saline or distilled water per protocol. Storage is maintained at 2-8 degrees Celsius in sealed vials. This material is for in-vitro research, cell-culture, and animal-model investigation only. No human administration, no medical claims, no therapeutic indication. Not approved by any regulatory authority for any indication.`,
 
-  'SERMORELIN-5MG': `Sermorelin is a synthetic 29-amino-acid peptide corresponding to GHRH (1-29), also captured in the corpus as GRF 1-29. This proposed 5mg vial should be presented as a lyophilized research reference for compound identity, receptor-family taxonomy, and analytical workflows rather than as an outcome-oriented endocrine product.
+  "SERMORELIN-5MG": `Sermorelin is a synthetic 29-amino-acid peptide corresponding to GHRH (1-29), also captured in the corpus as GRF 1-29. This proposed 5mg vial should be presented as a lyophilized research reference for compound identity, receptor-family taxonomy, and analytical workflows rather than as an outcome-oriented endocrine product.
 
 The strongest static identity anchors are the canonical name, GHRH 1-29 / GRF 1-29 synonym support, 29-amino-acid N-terminal fragment language, formula C149H246N44O42S, molecular weight near 3358 Da, and CAS 86168-78-7. Final salt form, counterion, purity, fill verification, and release specifications should defer to operator batch documentation.
 
@@ -194,7 +194,7 @@ At $59.00, this SKU prices at $11.80 per mg. The captured Sermorelin distributio
 
 The final listing should remain sparse: canonical name, 5mg vial size, lyophilized format, search-supported synonyms, batch-visible analytical fields, and strict research-only context. Search metadata can carry alternate naming without expanding the public claim surface. If this SKU appears beside Ipamorelin or CJC-1295 in merchandising, that relationship should stay navigational and should not imply protocol structure or combined effects. Avoid preparation guidance, route language, exposure amounts, subject outcomes, medical framing, age-related language, and pathway-to-benefit translation.`,
 
-  'SERMORELIN-IPAMORELIN-10MG': `Sermorelin + Ipamorelin Blend 10mg is positioned as a GH-axis research vial pairing two established catalog identities: Sermorelin, a synthetic GHRH 1-29 analog, and Ipamorelin, a selective pentapeptide growth-hormone-secretagogue receptor reference. The strongest exact corpus hit is a 5mg + 5mg, 10mg blend page, with adjacent blend listings also appearing on Sermorelin product pages. Both standalone components already sit naturally in the GH-axis category, so the blend extends an existing catalog lane rather than creating a new one.
+  "SERMORELIN-IPAMORELIN-10MG": `Sermorelin + Ipamorelin Blend 10mg is positioned as a GH-axis research vial pairing two established catalog identities: Sermorelin, a synthetic GHRH 1-29 analog, and Ipamorelin, a selective pentapeptide growth-hormone-secretagogue receptor reference. The strongest exact corpus hit is a 5mg + 5mg, 10mg blend page, with adjacent blend listings also appearing on Sermorelin product pages. Both standalone components already sit naturally in the GH-axis category, so the blend extends an existing catalog lane rather than creating a new one.
 
 Sermorelin provides the GHRH-receptor side of the blend. Brand and raw corpus pages consistently describe it as GRF 1-29 or the first 29 amino acids of human growth-hormone-releasing hormone, with a 3357.9 g/mol molecular weight. For catalog copy, that supports framing Sermorelin around receptor-pathway, pituitary-cell, and identity-confirmation workflows.
 
@@ -206,7 +206,7 @@ Quality copy should stay batch-document driven. The exact OROS blend page shows 
 
 At $89, the product is premium relative to the exact $59.99 comparator and slightly above related blend signals around $80-$87. The price can be defended as an operator-selected catalog-completion SKU for researchers who want both component identities in one 10mg vial, not as a discount or performance-led offer.`,
 
-  'TESAMORELIN-5MG': `Tesamorelin is a synthetic analog of growth-hormone-releasing hormone (GHRH), also identified in the corpus by the synonym TH9507. This proposed 5mg vial should be presented as a lyophilized research reference for controlled laboratory and analytical workflows, not as a therapeutic, wellness, or compounding product.
+  "TESAMORELIN-5MG": `Tesamorelin is a synthetic analog of growth-hormone-releasing hormone (GHRH), also identified in the corpus by the synonym TH9507. This proposed 5mg vial should be presented as a lyophilized research reference for controlled laboratory and analytical workflows, not as a therapeutic, wellness, or compounding product.
 
 The strongest compliant framing is compound identity and GH-axis taxonomy. Raw product pages connect Tesamorelin with GHRH-analog classification and place it near Sermorelin, CJC-1295, and Ipamorelin in catalog structures. Those relationships support GH-axis navigation, but they should not be converted into stack instructions or outcome-oriented copy for researchers.
 
@@ -218,7 +218,7 @@ At $69.00, this SKU prices at $13.80 per mg, above the captured Tesamorelin 75th
 
 This material should be described strictly for controlled laboratory, in vitro, and analytical research use by qualified purchasers in non-clinical settings. It is not a drug, dietary supplement, cosmetic, or compounding article, and it is not for human or veterinary use, clinical administration, diagnostic use, therapeutic application, ingestion, injection, or bodily introduction of any kind.`,
 
-  'IGF-1-LR3-1MG': `IGF-1 LR3 is proposed as a 1mg lyophilized research vial for qualified laboratory and analytical workflows. Corpus product pages identify the material as a synthetic IGF-1 class analog with 83 amino acids, an N-terminal extension, and an arginine substitution at position 3 within the IGF-1 sequence framework.
+  "IGF-1-LR3-1MG": `IGF-1 LR3 is proposed as a 1mg lyophilized research vial for qualified laboratory and analytical workflows. Corpus product pages identify the material as a synthetic IGF-1 class analog with 83 amino acids, an N-terminal extension, and an arginine substitution at position 3 within the IGF-1 sequence framework.
 
 The safest product-page foundation is compound identity, vial format, and IGF-axis taxonomy. Direct raw pages support 1mg listings, lyophilized powder presentation, COA-oriented quality language, HPLC purity assessment, mass-spectrometry identity checks, and batch or lot visibility. Static copy should not state purity, sterility, manufacture location, salt form, or shelf timing unless the operator has matching lot documentation.
 
@@ -232,7 +232,7 @@ At $99.00, this SKU prices at $99.00 per mg. sku_distributions.md reports a capt
 
 The page should remain sparse: canonical name, 1mg vial size, lyophilized format, price, lot identifier, test date, lab name, COA link, HPLC, and mass-spec fields when available. Avoid stack framing, preparation guidance, route language, exposure amounts, subject outcomes, or customer benefit copy. The compliant posture is RUO identity, analytical traceability, and IGF-axis research taxonomy only.`,
 
-  'GHRP-2-5MG': `GHRP-2 is proposed as a 5mg lyophilized research vial in the GH-axis catalog group. Source pages identify the material as Growth Hormone Releasing Peptide-2, a synthetic hexapeptide with the sequence D-Ala-D-2-Nal-Ala-Trp-D-Phe-Lys-NH2. The Pralmorelin synonym appears in Raw Amino and Alpha Carbon Labs pages, but public naming should remain canonical.
+  "GHRP-2-5MG": `GHRP-2 is proposed as a 5mg lyophilized research vial in the GH-axis catalog group. Source pages identify the material as Growth Hormone Releasing Peptide-2, a synthetic hexapeptide with the sequence D-Ala-D-2-Nal-Ala-Trp-D-Phe-Lys-NH2. The Pralmorelin synonym appears in Raw Amino and Alpha Carbon Labs pages, but public naming should remain canonical.
 
 The strongest static identity anchors are peptide class, vial strength, lyophilized format, formula C45H55N9O6, CAS 158861-67-7, and molecular mass near 817 Da. Those identifiers are repeated across exact or near-exact GHRP-2 product pages, though final salt form, purity, fill, and release data should defer to operator batch records.
 
@@ -244,7 +244,7 @@ At the requested $39 list price, the SKU prices at $7.80 per mg. sku_distributio
 
 The final product page should be narrow and documentation-led: canonical name, 5mg vial size, lyophilized presentation, price, lot identifier, test date, lab name, COA link, HPLC, and mass-spec fields when available. Avoid preparation instructions, routes, exposure amounts, stack instructions, study-subject outcomes, diagnostic references, appetite, sleep, immune, cardiovascular, muscle, protein, or body-composition language.`,
 
-  'GHRP-6-5MG': `GHRP-6 is a synthetic growth-hormone-releasing hexapeptide proposed here as a 5mg lyophilized research vial. The strongest static identity anchor is the sequence His-D-Trp-Ala-Trp-D-Phe-Lys-NH2, with source pages also listing molecular formula C46H56N12O6, molecular mass near 873 Da, and CAS 87616-84-0.
+  "GHRP-6-5MG": `GHRP-6 is a synthetic growth-hormone-releasing hexapeptide proposed here as a 5mg lyophilized research vial. The strongest static identity anchor is the sequence His-D-Trp-Ala-Trp-D-Phe-Lys-NH2, with source pages also listing molecular formula C46H56N12O6, molecular mass near 873 Da, and CAS 87616-84-0.
 
 Product-page copy should treat those identifiers as reference-material metadata, not as a basis for broader biological promises. Growth Hormone Releasing Peptide-6 can appear as a synonym for search and identification, while final salt form, purity, water content, fill accuracy, and chromatographic release values should remain tied to the operator's batch documentation.
 
@@ -258,7 +258,7 @@ At $39.00, the proposed listing equals $7.80 per mg. That places the SKU above t
 
 The final page should read as a controlled GH-axis research-commerce listing: canonical name, 5mg vial strength, lyophilized format, batch/lot identifier, test date, lab name, COA link, HPLC, mass-spec confirmation, and concise RUO restrictions. It should not include preparation guidance, route language, exposure amounts, stack instructions, subject outcomes, disease terms, or approved-product comparisons.`,
 
-  'HEXARELIN-2MG': `Hexarelin is proposed as a 2mg lyophilized research vial in the GH-axis group. It is a synthetic six-amino-acid growth-hormone-releasing peptide, commonly placed in the GHRP family beside GHRP-2 and GHRP-6. For public copy, that relationship should serve as taxonomy and identity context only, giving researchers a clear label without implying practical use.
+  "HEXARELIN-2MG": `Hexarelin is proposed as a 2mg lyophilized research vial in the GH-axis group. It is a synthetic six-amino-acid growth-hormone-releasing peptide, commonly placed in the GHRP family beside GHRP-2 and GHRP-6. For public copy, that relationship should serve as taxonomy and identity context only, giving researchers a clear label without implying practical use.
 
 The safest product-page foundation is material identity, vial format, and batch traceability. Exact 2mg support appears in Alpha Carbon Labs, Extreme Peptides, NuScience, and Paradigm corpus captures, while Raw Amino provides adjacent 5mg context for lyophilized powder presentation and GHRP-class navigation.
 
@@ -272,7 +272,7 @@ At $35.00, this SKU prices at $17.50 per mg. That is above the captured Hexareli
 
 The page should remain sparse: canonical name, 2mg vial size, lyophilized format, price, lot identifier, test date, laboratory name, COA link, HPLC field, and mass-spec field when available. Keep the description limited to research inventory, analytical documentation, and GHRP-class taxonomy. No practical-use guidance or outcome-led copy belongs on this listing.`,
 
-  'PEG-MGF-2MG': `PEG-MGF is proposed as a 2mg lyophilized research vial for controlled laboratory and analytical workflows. The most stable identity frame in the corpus is PEGylated mechano growth factor: a polyethylene-glycol-modified material associated with the IGF-1 Ec splice-variant / MGF fragment rather than a full-length IGF-1 analog.
+  "PEG-MGF-2MG": `PEG-MGF is proposed as a 2mg lyophilized research vial for controlled laboratory and analytical workflows. The most stable identity frame in the corpus is PEGylated mechano growth factor: a polyethylene-glycol-modified material associated with the IGF-1 Ec splice-variant / MGF fragment rather than a full-length IGF-1 analog.
 
 The PEG designation should do most of the explanatory work. Consulted pages consistently describe pegylation as a conjugation strategy that changes molecular size, stability, degradation behavior, solubility characteristics, and chromatographic handling. Because PEG chain details can vary by supplier, molecular weight, formula, salt form, and conjugation chemistry should defer to batch documentation. That batch-led approach also avoids locking static catalog copy to a single vendor's PEG length or analytical convention before supplier terms and COA format are confirmed.
 
@@ -284,7 +284,7 @@ At $59.00, this SKU prices at $29.50 per mg. That is above the captured PEG-MGF 
 
 Final public language should be sparse: canonical name, 2mg vial format, lyophilized presentation when verified, batch/lot number, test date, lab name, COA link, HPLC, and mass confirmation. This material should be presented only for qualified non-clinical laboratory, in vitro, and analytical research contexts, with no preparation, route, exposure, protocol, or application guidance.`,
 
-  'IGF-1-DES-1MG': `IGF-1 DES is proposed as a 1mg research vial for qualified laboratory and analytical workflows. The corpus supports the SKU name through exact or near-exact catalog listings under IGF-1 DES, IGF DES, and IGF-1 DES 1,3, with direct 1mg support from Extreme Peptides, Paradigm Peptides, SwissChems COA index, and Peptide Gurus.
+  "IGF-1-DES-1MG": `IGF-1 DES is proposed as a 1mg research vial for qualified laboratory and analytical workflows. The corpus supports the SKU name through exact or near-exact catalog listings under IGF-1 DES, IGF DES, and IGF-1 DES 1,3, with direct 1mg support from Extreme Peptides, Paradigm Peptides, SwissChems COA index, and Peptide Gurus.
 
 The safest product-page foundation is identity and format. Static copy should say the material is an IGF-class peptide reference supplied as a 1mg vial, while leaving sequence, counterion, salt form, purity, sterility, and release-test values to operator batch records. Existing raw pages do not provide enough consistent detail for permanent identifier claims. That restraint also keeps the listing aligned with the site's batch-led catalog model and current source-terms uncertainty.
 
@@ -296,7 +296,7 @@ At $69.00, the proposed listing equals $69.00 per mg. That is below the direct E
 
 The public page should be sparse: canonical name, 1mg vial size, format, price, batch traceability fields, and research-only constraints. It should not borrow outcome language from broader vendor education pages or adjacent IGF-class products. The compliant posture is identity, analytical traceability, and IGF-axis taxonomy, not experiment design or end-user interpretation.`,
 
-  'SEMAX-30MG': `Semax is a synthetic heptapeptide (Met-Glu-His-Phe-Pro-Gly-Pro) corresponding to residues 4-10 of adrenocorticotropic hormone (ACTH 4-10) with a Pro-Gly-Pro C-terminal extension that confers metabolic stability. The compound is the subject of a substantial Russian-published research literature on neuropeptide signaling in cell-culture and animal-model paradigms relevant to cognitive and neuroprotective research questions.
+  "SEMAX-30MG": `Semax is a synthetic heptapeptide (Met-Glu-His-Phe-Pro-Gly-Pro) corresponding to residues 4-10 of adrenocorticotropic hormone (ACTH 4-10) with a Pro-Gly-Pro C-terminal extension that confers metabolic stability. The compound is the subject of a substantial Russian-published research literature on neuropeptide signaling in cell-culture and animal-model paradigms relevant to cognitive and neuroprotective research questions.
 
 In vitro studies employ neuronal cell cultures and brain-slice preparations to characterize Semax effects on neurotrophic-factor expression (BDNF, NGF), synaptic-plasticity markers, and neuronal-survival pathways under oxidative-stress and excitotoxic-stress conditions. Cell-culture work documents Semax modulation of cAMP-response-element binding protein (CREB) signaling and immediate-early gene expression in cultured neurons.
 
@@ -304,7 +304,7 @@ Animal-model research employs intranasal and intraperitoneal Semax administratio
 
 Semax is supplied as a lyophilized pharmaceutical-grade research reference. The 30mg vial is reconstituted in sterile bacteriostatic saline or distilled water per protocol. Storage at 2-8 degrees Celsius in sealed vials. For in-vitro research, cell-culture, and animal-model investigation only. No human administration. Not approved by any regulatory authority for any indication.`,
 
-  'SEMAX-10MG': `Semax is a synthetic heptapeptide with sequence Met-Glu-His-Phe-Pro-Gly-Pro, commonly described as an ACTH (4-10)-derived neuropeptide with a Pro-Gly-Pro extension. This 10mg vial is positioned as a lyophilized research reference for non-clinical laboratories evaluating Semax identity, handling characteristics, and pathway-context literature.
+  "SEMAX-10MG": `Semax is a synthetic heptapeptide with sequence Met-Glu-His-Phe-Pro-Gly-Pro, commonly described as an ACTH (4-10)-derived neuropeptide with a Pro-Gly-Pro extension. This 10mg vial is positioned as a lyophilized research reference for non-clinical laboratories evaluating Semax identity, handling characteristics, and pathway-context literature.
 
 Within the corpus, Semax appears across vial and nasal SKU formats, with direct 10mg product pages documenting lyophilized powder presentation, sequence, molecular formula, and COA or third-party testing postures. The catalog should use those concrete attributes as its copy base: peptide identity, vial quantity, format, analytical documentation, and research-use-only limitations.
 
@@ -316,7 +316,7 @@ Analytical copy can mention quality posture only where the storefront has matchi
 
 This material should be described strictly for laboratory research, analytical comparison, and non-clinical peptide handling. Do not include route language, reconstitution instructions, study exposure amounts, disease terms, cognition or mood promises, or clinical translation language. Final commerce copy should stay concise and verifiable: synthetic heptapeptide, ACTH-fragment derivation, 10mg lyophilized vial, relevant research pathways, COA-oriented quality posture when available, and RUO-only restrictions.`,
 
-  'PT-141-10MG': `PT-141 (Bremelanotide) is a synthetic cyclic heptapeptide used as a melanocortin-receptor research reference. This proposed 10mg vial should be presented more narrowly than ordinary catalog peptides because the Bremelanotide synonym appears in regulated human-use contexts and the corpus shows frequent medicalized vendor copy around this compound.
+  "PT-141-10MG": `PT-141 (Bremelanotide) is a synthetic cyclic heptapeptide used as a melanocortin-receptor research reference. This proposed 10mg vial should be presented more narrowly than ordinary catalog peptides because the Bremelanotide synonym appears in regulated human-use contexts and the corpus shows frequent medicalized vendor copy around this compound.
 
 The safest product-page foundation is material identity: PT-141, cyclic peptide architecture, melanocortin-receptor class, and lyophilized vial format. Several exact product pages support the sequence Ac-Nle-cyclo[Asp-His-D-Phe-Arg-Trp-Lys]-OH, the molecular formula C50H68N14O10, and molecular weight near 1025.2 Da, but final identity, salt form, purity, and lot attributes should defer to batch documentation.
 
@@ -328,7 +328,7 @@ The requested $59 list price equals $5.90 per mg. That sits above the captured P
 
 PT-141 10mg should be listed only as a research material for qualified laboratory, in vitro, and analytical workflows. The page should provide no preparation instructions, route discussion, study exposure amounts, clinical interpretation, or human/veterinary suitability language. The compliant commerce posture is sparse: compound name, synonym, vial size, analytical traceability, storage handled by source documentation, and research-use-only restrictions.`,
 
-  'MELANOTAN-II-10MG': `Melanotan II is a synthetic cyclic heptapeptide analog of alpha-melanocyte-stimulating hormone, commonly abbreviated MT-II or MT2 in the raw corpus. The proposed 10mg vial should be presented first as a melanocortin-receptor reference material, not as a user-facing product category or practical-use article.
+  "MELANOTAN-II-10MG": `Melanotan II is a synthetic cyclic heptapeptide analog of alpha-melanocyte-stimulating hormone, commonly abbreviated MT-II or MT2 in the raw corpus. The proposed 10mg vial should be presented first as a melanocortin-receptor reference material, not as a user-facing product category or practical-use article.
 
 The strongest source-backed identity frame is narrow and technical: cyclic lactam peptide architecture, sequence Ac-Nle-cyclo[Asp-His-D-Phe-Arg-Trp-Lys]-NH2, molecular formula C50H69N15O9, and molecular weight near 1024.2 Da. Final sequence, salt form, fill mass, purity, and counterion should defer to the operator's own lot documentation.
 
@@ -342,7 +342,7 @@ At $59.00, this SKU prices at $5.90 per mg. The captured Melanotan II distributi
 
 The final listing should remain sparse: canonical name, 10mg vial size, lyophilized format, receptor-class taxonomy, analytical traceability, and strict RUO restrictions. It should provide no preparation guidance, route language, protocol cues, study-subject interpretation, pathway-to-use translation, practical application language, or suitability language outside controlled laboratory workflows.`,
 
-  'KISSPEPTIN-10-10MG': `Kisspeptin-10 is a ten-amino-acid RF-amide peptide reference, also identified in vendor corpora as Metastin, KP-10, or a KISS1-derived fragment. The supported primary structure is Tyr-Asn-Trp-Asn-Ser-Phe-Gly-Leu-Arg-Phe-NH2, a C-terminally amidated decapeptide that gives product copy a concrete identity anchor without moving into application outcomes.
+  "KISSPEPTIN-10-10MG": `Kisspeptin-10 is a ten-amino-acid RF-amide peptide reference, also identified in vendor corpora as Metastin, KP-10, or a KISS1-derived fragment. The supported primary structure is Tyr-Asn-Trp-Asn-Ser-Phe-Gly-Leu-Arg-Phe-NH2, a C-terminally amidated decapeptide that gives product copy a concrete identity anchor without moving into application outcomes.
 
 Multiple source pages support the same core analytical profile: lyophilized vial format, formula C63H83N17O14, and molecular weight near 1302.4 g/mol. CAS reporting is inconsistent across vendors, so the catalog entry should avoid treating any single CAS value as definitive unless it is repeated on the operator's own lot documentation.
 
@@ -354,7 +354,7 @@ Quality language should remain batch-specific. The compliant pattern is to prese
 
 The safest listing posture is narrow and technical: a 10mg lyophilized Kisspeptin-10 research vial for identity, comparison, and assay-development work. The copy should avoid preparation instructions, route language, exposure amounts, study-subject discussion, and pathway-to-outcome translation. This keeps the page aligned with RUO compliance while still giving researchers enough structure to understand what the material is and how it can be specified in analytical workflows.`,
 
-  'EPITALON-50MG': `Epitalon is a synthetic tetrapeptide (Ala-Glu-Asp-Gly) of the Khavinson bioregulator class. The compound was developed as a research analog of pineal-derived peptide signaling and has been the subject of cell-culture and animal-model research on telomere-length-related cellular signaling, gene-expression modulation, and longevity-paradigm investigation.
+  "EPITALON-50MG": `Epitalon is a synthetic tetrapeptide (Ala-Glu-Asp-Gly) of the Khavinson bioregulator class. The compound was developed as a research analog of pineal-derived peptide signaling and has been the subject of cell-culture and animal-model research on telomere-length-related cellular signaling, gene-expression modulation, and longevity-paradigm investigation.
 
 In vitro studies in cultured human and animal cells document Epitalon effects on telomerase-related gene-expression markers, telomere-length kinetics in serial-passage cell-culture paradigms, and chromatin-organization markers. Cell-culture research has explored Epitalon binding to chromatin domains and the resulting transcriptional-regulation effects across panels of senescence-associated and longevity-associated genes.
 
@@ -362,7 +362,7 @@ Animal-model research, primarily in rodent longevity-paradigm studies, has chara
 
 Epitalon is supplied as a lyophilized pharmaceutical-grade research reference. The 50mg vial is reconstituted in sterile bacteriostatic saline or distilled water per protocol. Storage at 2-8 degrees Celsius in sealed vials. For in-vitro research, cell-culture, and animal-model investigation only. No human administration. Not approved by any regulatory authority for any indication.`,
 
-  'EPITALON-10MG': `Epitalon is a synthetic tetrapeptide commonly identified by the sequence Ala-Glu-Asp-Gly, or AEDG. The 10mg vial should be framed as a lyophilized research reference in the same Khavinson bioregulator lane already used for the existing Epitalon 50mg catalog entry.
+  "EPITALON-10MG": `Epitalon is a synthetic tetrapeptide commonly identified by the sequence Ala-Glu-Asp-Gly, or AEDG. The 10mg vial should be framed as a lyophilized research reference in the same Khavinson bioregulator lane already used for the existing Epitalon 50mg catalog entry.
 
 Corpus sources support Epitalon and Epithalon as interchangeable retail spellings. Direct 10mg product pages document vial-format listings, lyophilized powder presentation, sequence or molecular-weight details, COA-oriented quality language, and repeated research-use-only limitations. Those concrete attributes are the safest basis for product-page copy.
 
@@ -376,7 +376,7 @@ Public copy should avoid vendor-page language around longevity outcomes, anti-ag
 
 This material should be described only for controlled laboratory, analytical, in-vitro, and permitted animal-model research contexts. The page should not include preparation guidance, dosing amounts, administration routes, clinical translation, consumer wellness language, or any claim that implies suitability for human or veterinary use.`,
 
-  'THYMOSIN-ALPHA-1-5MG': `Thymosin Alpha-1 is a synthetic 28-amino-acid peptide identical in sequence to the naturally occurring thymic peptide of the same name. The compound is the subject of an extensive cell-culture and animal-model research literature on T-lymphocyte differentiation, dendritic-cell maturation, and broader immune-cell-signaling pathways.
+  "THYMOSIN-ALPHA-1-5MG": `Thymosin Alpha-1 is a synthetic 28-amino-acid peptide identical in sequence to the naturally occurring thymic peptide of the same name. The compound is the subject of an extensive cell-culture and animal-model research literature on T-lymphocyte differentiation, dendritic-cell maturation, and broader immune-cell-signaling pathways.
 
 In vitro studies in primary T-cell cultures and lymphocyte cell lines document Thymosin Alpha-1 effects on T-cell proliferation, cytokine-secretion profiles, activation-marker expression (CD69, CD25), and differentiation-pathway markers. Cell-culture research also documents effects on dendritic-cell maturation, antigen-presentation markers, and Toll-like-receptor pathway signaling. Mechanistic work explores Thymosin Alpha-1 interaction with TLR9 and the resulting downstream signaling cascade in immune-cell research.
 
@@ -384,7 +384,7 @@ Animal-model research employs subcutaneous Thymosin Alpha-1 administration in ro
 
 Thymosin Alpha-1 is supplied as a lyophilized pharmaceutical-grade research reference. The 5mg vial is reconstituted in sterile bacteriostatic saline or distilled water per protocol. Storage at 2-8 degrees Celsius in sealed vials. For in-vitro research, cell-culture, and animal-model investigation only. No human administration. Not approved by any regulatory authority for any indication.`,
 
-  'THYMOSIN-ALPHA-1-10MG': `Thymosin Alpha-1 is a synthetic 28-amino-acid thymic peptide proposed here as a 10mg lyophilized research vial. Public copy should treat the material first as an identity-controlled peptide reference: canonical name, vial strength, lyophilized format, and batch-specific analytical documentation, without borrowing outcome-oriented language from vendor pages.
+  "THYMOSIN-ALPHA-1-10MG": `Thymosin Alpha-1 is a synthetic 28-amino-acid thymic peptide proposed here as a 10mg lyophilized research vial. Public copy should treat the material first as an identity-controlled peptide reference: canonical name, vial strength, lyophilized format, and batch-specific analytical documentation, without borrowing outcome-oriented language from vendor pages.
 
 The raw corpus supports core identity markers across multiple exact or near-exact product pages: 28-amino-acid sequence, CAS 62304-98-7, molecular formula C129H215N33O55, and molecular weight near 3108 Da. Final sequence, salt form, counterion, fill, purity, and mass confirmation should defer to the operator's actual lot documentation.
 
@@ -398,7 +398,7 @@ Static product copy should not repeat competitor quality claims unless the store
 
 This SKU should read as a controlled research-commerce page: compound identity, 10mg vial format, analytical traceability, and restrained pathway taxonomy. Avoid synonym-led copy, and keep alternate spellings to search support or metadata where needed. The page should provide no preparation, route, exposure, protocol, or study-interpretation language.`,
 
-  'LL-37-5MG': `LL-37 is a 37-amino-acid cathelicidin-derived peptide proposed here as a 5mg lyophilized research vial. The strongest source-backed identity frame is the defined linear sequence LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES and a molecular weight near 4493 Da. CAS number and formula renderings vary across raw pages, so final static identifiers should defer to batch documentation.
+  "LL-37-5MG": `LL-37 is a 37-amino-acid cathelicidin-derived peptide proposed here as a 5mg lyophilized research vial. The strongest source-backed identity frame is the defined linear sequence LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES and a molecular weight near 4493 Da. CAS number and formula renderings vary across raw pages, so final static identifiers should defer to batch documentation.
 
 For product-page use, LL-37 should be presented as a controlled laboratory reference, not as an outcome-oriented material. Appropriate research context includes cathelicidin-class sequence comparison, amphipathic peptide structure profiling, peptide-membrane interaction modeling, and method development for long-chain cationic peptides. These are assay contexts, not purchaser-facing effect claims. The page can name hCAP18/cathelicidin lineage as nomenclature when supported by supplier documentation, while avoiding any statement that the vial performs a biological defense function.
 
@@ -410,7 +410,7 @@ At the requested $79.00 list price, LL-37 5mg prices at $15.80 per mg. The parse
 
 This material should be described only for qualified laboratory, analytical, in vitro, and permitted non-clinical research workflows. The page should provide no preparation instructions, route language, exposure amounts, diagnostic framing, clinical translation, human or veterinary suitability language, or therapeutic positioning.`,
 
-  'FOLLISTATIN-344-1MG': `Follistatin-344 is a recombinant human follistatin isoform, commonly abbreviated FST-344, supplied as a 1mg lyophilized research vial. This listing is intended for qualified laboratory teams that need a protein reference for identity confirmation, ligand-binding models, and analytical workflows rather than application-oriented or consumer contexts. The page should frame the material as a cataloged research reagent, with pathway terminology serving as taxonomy rather than an objective.
+  "FOLLISTATIN-344-1MG": `Follistatin-344 is a recombinant human follistatin isoform, commonly abbreviated FST-344, supplied as a 1mg lyophilized research vial. This listing is intended for qualified laboratory teams that need a protein reference for identity confirmation, ligand-binding models, and analytical workflows rather than application-oriented or consumer contexts. The page should frame the material as a cataloged research reagent, with pathway terminology serving as taxonomy rather than an objective.
 
 The identity frame should stay precise and batch-led. Available corpus material identifies FST344 with UniProt P19883 and describes a 344-amino-acid precursor, a mature core near 315 amino acids, and an unglycosylated monomer near 37.8 kDa. Final page metadata should defer to the operator's lot record and COA for purity, counterion, and exact analytical release details. Because protein specifications can vary by supplier record, identity language should remain conservative until reconciled with the live batch.
 
@@ -422,7 +422,7 @@ The requested $149 price equals $149 per mg. Captured market rows place the SKU 
 
 Follistatin-344 should remain in a research-use-only register focused on material identity, pathway nomenclature, and analytical traceability. Product copy should avoid experimental setup instructions, workflow directions, translational extrapolation, and non-laboratory applications. The strongest page is short, technical, and anchored to batch-specific verification rather than broad scientific narratives from competitor pages.`,
 
-  'DSIP-5MG': `DSIP (Delta Sleep-Inducing Peptide) is a naturally occurring nine-amino-acid neuropeptide supplied as a 5mg lyophilized research vial. Supported identity markers include the sequence Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu, CAS 62568-57-4, molecular formula C35H48N10O15, and molecular weight near 848.8 g/mol.
+  "DSIP-5MG": `DSIP (Delta Sleep-Inducing Peptide) is a naturally occurring nine-amino-acid neuropeptide supplied as a 5mg lyophilized research vial. Supported identity markers include the sequence Trp-Ala-Gly-Gly-Asp-Ala-Ser-Gly-Glu, CAS 62568-57-4, molecular formula C35H48N10O15, and molecular weight near 848.8 g/mol.
 
 The compound name reflects historical nomenclature and is presented as identity language, not as an outcome statement. This listing is framed for non-clinical laboratories evaluating central-nervous-system signaling, hypothalamic pathway models, neurotransmitter-system assays, and circadian-rhythm research designs.
 
@@ -436,7 +436,7 @@ For catalog architecture, DSIP fits the neuropeptide side of the nootropic resea
 
 This material is supplied for laboratory research, analytical comparison, and non-clinical pathway investigation only. It is not a drug, dietary supplement, food, cosmetic, or compounding product, and it is not for human or veterinary use, diagnostic use, clinical administration, or therapeutic application.`,
 
-  'KPV-5MG': `KPV is a synthetic tripeptide (Lys-Pro-Val) corresponding to the C-terminal three amino acids of alpha-melanocyte-stimulating hormone (alpha-MSH). The compound has been the subject of cell-culture and animal-model research on inflammatory-pathway signaling, with published research literature exploring KPV anti-inflammatory effects in cellular and tissue-model paradigms.
+  "KPV-5MG": `KPV is a synthetic tripeptide (Lys-Pro-Val) corresponding to the C-terminal three amino acids of alpha-melanocyte-stimulating hormone (alpha-MSH). The compound has been the subject of cell-culture and animal-model research on inflammatory-pathway signaling, with published research literature exploring KPV anti-inflammatory effects in cellular and tissue-model paradigms.
 
 In vitro studies in cultured macrophages, T-lymphocytes, and epithelial cells document KPV effects on pro-inflammatory cytokine secretion (TNF-alpha, IL-6, IL-1beta), NF-kappaB pathway signaling, and downstream inflammatory-marker expression. Cell-culture research has explored KPV intracellular delivery and the resulting modulation of inflammatory-pathway gene expression in cultured colonic epithelial cells in inflammation-paradigm research.
 
@@ -444,7 +444,7 @@ Animal-model research employs oral, topical, and parenteral KPV administration i
 
 KPV is supplied as a lyophilized pharmaceutical-grade research reference. The 5mg vial is reconstituted in sterile bacteriostatic saline or distilled water per protocol. Storage at 2-8 degrees Celsius in sealed vials. For in-vitro research, cell-culture, and animal-model investigation only. No human administration. Not approved by any regulatory authority for any indication.`,
 
-  'KPV-10MG': `KPV is a synthetic tripeptide, Lys-Pro-Val, corresponding to the C-terminal sequence of alpha-MSH. The 10mg vial extends the existing KPV catalog lane from the current 5mg presentation while keeping the same research-use-only posture, compound identity, and recovery-category navigation already used in the site catalog.
+  "KPV-10MG": `KPV is a synthetic tripeptide, Lys-Pro-Val, corresponding to the C-terminal sequence of alpha-MSH. The 10mg vial extends the existing KPV catalog lane from the current 5mg presentation while keeping the same research-use-only posture, compound identity, and recovery-category navigation already used in the site catalog.
 
 The corpus supports a concise identity frame: KPV appears as a three-amino-acid material with molecular weight around 342 Da, sequence Lys-Pro-Val or H-Lys-Pro-Val-OH, and direct 10mg lyophilized powder listings. Those facts are sufficient for a clear product page without importing outcome language from vendor copy.
 
@@ -458,7 +458,7 @@ Quality language should defer to the operator's own batch records. Competitor pa
 
 Final copy should preserve the storefront's clinical-commerce tone: precise name, dose, vial format, price, batch traceability, and RUO limits. Avoid disease terms, anti-inflammatory promises, gut, skin, wound, immune, dosing, route, reconstitution, or customer-use guidance.`,
 
-  'AOD-9604-5MG': `AOD-9604 is a synthetic growth-hormone-derived peptide fragment supplied here as a proposed 5mg lyophilized research vial. The most stable identity language in the corpus describes it as a modified C-terminal hGH fragment, often mapped to Tyr-hGH 177-191, with a disulfide-constrained sequence and CAS 221231-10-3.
+  "AOD-9604-5MG": `AOD-9604 is a synthetic growth-hormone-derived peptide fragment supplied here as a proposed 5mg lyophilized research vial. The most stable identity language in the corpus describes it as a modified C-terminal hGH fragment, often mapped to Tyr-hGH 177-191, with a disulfide-constrained sequence and CAS 221231-10-3.
 
 Product copy should stay close to that reference-material profile. Supported static details include AOD-9604 nomenclature, 5mg vial format, lyophilized powder presentation, molecular formula C78H123N23O23S2, molecular weight near 1815.1 g/mol, sequence-level identity, and batch-specific chromatographic or mass-spectrometry documentation when the operator has actual lot records.
 
@@ -470,7 +470,7 @@ At $59.00, the proposed listing equals $11.80 per mg. The aggregate AOD-9604 dis
 
 Final product-page language should identify AOD-9604 as a RUO peptide reference for qualified laboratory, in vitro, and analytical workflows only. It should avoid preparation instructions, subject outcomes, body-composition language, personal-use cues, disease terms, approved-product comparisons, or any suggestion that the material is suitable outside controlled research handling.`,
 
-  'BUNDLE-GLOW-STACK': `Glow Stack is a single-vial research stack labeled with GHK-Cu 50mg, TB-500 10mg, and BPC-157 10mg. The name is used as a market-recognized catalog label for this grouping, not as a promise of a visual, cosmetic, biological, or subject-level effect. Each named component remains individually visible on the stack label for batch documentation, receipt review, and inventory control.
+  "BUNDLE-GLOW-STACK": `Glow Stack is a single-vial research stack labeled with GHK-Cu 50mg, TB-500 10mg, and BPC-157 10mg. The name is used as a market-recognized catalog label for this grouping, not as a promise of a visual, cosmetic, biological, or subject-level effect. Each named component remains individually visible on the stack label for batch documentation, receipt review, and inventory control.
 
 The corpus supports the Glow label through multiple competitor pages that present GHK-Cu, TB-500, and BPC-157 together in a 50mg/10mg/10mg composition. The public presentation now follows the operator-confirmed single-vial stack format while keeping component wording restrained. Static copy should not infer sequence, assay, purity, or release specifications beyond what the applicable lot documentation confirms.
 
@@ -482,7 +482,7 @@ BPC-157 10mg completes the stack as the Body Protection Compound 157 catalog com
 
 For product-page use, the stack should emphasize single-vial stack labeling, component-level identity, and analytical documentation. The preferred tone is restrained: suitable for qualified laboratory, analytical, and in vitro research contexts only. Copy may mention HPLC, MS, COA, lot, test date, and component identity when supported by actual records. Batch-specific details should come from released documentation, not inherited competitor wording. It should avoid preparation directions, route language, exposure amounts, subject anecdotes, clinical translation, and any claim that the three components produce a combined effect.`,
 
-  'BUNDLE-WOLVERINE-STACK': `Wolverine Stack is a single-vial research stack labeled with BPC-157 10mg and TB-500 10mg. The name is supported as marketplace shorthand for the BPC-157/TB-500 pairing, but the public page should treat it as search vocabulary rather than as a scientific claim. The stack belongs in the recovery-category navigation because the locked opening decision identifies BPC/TB labels as the most-attested stack pattern in the corpus for qualified laboratory context.
+  "BUNDLE-WOLVERINE-STACK": `Wolverine Stack is a single-vial research stack labeled with BPC-157 10mg and TB-500 10mg. The name is supported as marketplace shorthand for the BPC-157/TB-500 pairing, but the public page should treat it as search vocabulary rather than as a scientific claim. The stack belongs in the recovery-category navigation because the locked opening decision identifies BPC/TB labels as the most-attested stack pattern in the corpus for qualified laboratory context.
 
 BPC-157 supplies the first component identity. Existing catalog copy and raw product pages support BPC-157 as a 15-amino-acid peptide associated with Body Protection Compound nomenclature and 10mg vial listings. In this stack, BPC-157 should remain a named label component with batch record, vial strength, COA link, test date, and analytical fields tied to the stack lot.
 
@@ -494,7 +494,7 @@ Quality language should be batch-led. Suitable page fields include the two const
 
 At $99.00, the stack is an operator-requested price against the current $133.00 a la carte total for BPC-157 10mg plus TB-500 10mg. The page should present the discount plainly and avoid outcome-led language, preparation guidance, route terms, exposure amounts, subject translation, and broad claims copied from raw vendor pages. The final posture is a restrained RUO catalog stack: one labeled vial, two named components, one recognizable marketplace label, and document-backed traceability.`,
 
-  'BUNDLE-NEURO-STACK': `Neuro Stack is a single-vial research stack labeled with Semax 10mg and Selank 10mg. The current catalog already has both standalone component SKUs in the nootropic group, so this stack can continue to use the existing constituent data fields while the storefront presents one labeled stack vial.
+  "BUNDLE-NEURO-STACK": `Neuro Stack is a single-vial research stack labeled with Semax 10mg and Selank 10mg. The current catalog already has both standalone component SKUs in the nootropic group, so this stack can continue to use the existing constituent data fields while the storefront presents one labeled stack vial.
 
 Semax provides the ACTH-fragment side of the bundle. The existing product record and opened raw pages identify it as a synthetic heptapeptide associated with ACTH (4-10) / ACTH-fragment nomenclature, with the sequence Met-Glu-His-Phe-Pro-Gly-Pro appearing in multiple product-page captures. For bundle copy, that supports identity, peptide-family taxonomy, and analytical-documentation language only.
 
@@ -506,7 +506,7 @@ Quality copy should be batch-led. A compliant implementation should point the st
 
 At the requested $69.00 price, the stack is materially below the current $97.00 a la carte catalog total for Semax 10mg and Selank 10mg. The resulting 28.9% effective discount is steeper than existing bundle discounts in products.ts, so this should be treated as an operator-requested promotional stack rather than a benchmarked market-standard discount. Because the discount is calculated against two already-listed components, future implementation should preserve the component references and avoid representing the price as evidence for a market-standard blend format.`,
 
-  'BUNDLE-LONGEVITY-STACK': `Longevity Stack is a single-vial research stack labeled with MOTS-c 10mg, Epitalon 10mg, and NAD+ 500mg. The name should be treated as an operator-selected catalog label, not as a statement about expected biological outcomes. The compliant public frame is metabolic-pathway, mitochondrial-signaling, redox-coenzyme, and Khavinson-bioregulator research taxonomy for qualified laboratory purchasers. That boundary should be visible anywhere the stack name appears.
+  "BUNDLE-LONGEVITY-STACK": `Longevity Stack is a single-vial research stack labeled with MOTS-c 10mg, Epitalon 10mg, and NAD+ 500mg. The name should be treated as an operator-selected catalog label, not as a statement about expected biological outcomes. The compliant public frame is metabolic-pathway, mitochondrial-signaling, redox-coenzyme, and Khavinson-bioregulator research taxonomy for qualified laboratory purchasers. That boundary should be visible anywhere the stack name appears.
 
 MOTS-c supplies the mitochondrial-derived peptide side of the bundle. Existing catalog copy and component research identify MOTS-c as a 16-amino-acid peptide encoded within the mitochondrial 12S rRNA region. Suitable pathway language stays at the level of mitochondrial-derived peptide classification, mitochondrial-nuclear communication models, AMPK-pathway investigation, folate-methionine cycle mapping, and stress-responsive gene-expression research.
 
@@ -518,7 +518,7 @@ As a stack, the relationship among the three components should be presented as c
 
 Quality language should remain batch-specific. Suitable fields include lot number, test date, laboratory name, COA link, HPLC field, mass-oriented identity confirmation, and applicable endotoxin, microbial, heavy-metal, or sterility fields only when supported by the operator's own inventory records. The page should include strict research-use-only restrictions and no preparation, route, exposure amount, diagnostic, clinical, human-use, veterinary-use, or practical application guidance.`,
 
-  'BUNDLE-RECOVERY-STACK': `Recovery Stack is a single-vial research stack labeled with BPC-157 10mg, TB-500 10mg, and KPV 10mg. The current Bundle data model still references constituent SKUs for catalog linking and pricing, while the storefront presentation is one labeled stack vial. The recovery label is category shorthand for catalog navigation and should not be expanded into biological or practical-use claims.
+  "BUNDLE-RECOVERY-STACK": `Recovery Stack is a single-vial research stack labeled with BPC-157 10mg, TB-500 10mg, and KPV 10mg. The current Bundle data model still references constituent SKUs for catalog linking and pricing, while the storefront presentation is one labeled stack vial. The recovery label is category shorthand for catalog navigation and should not be expanded into biological or practical-use claims.
 
 BPC-157 supplies the established catalog anchor. The repo already carries BPC-157-10MG, and corpus material supports exact 10mg listings, Body Protection Compound nomenclature, and repeated placement beside TB-500 in stack and blend contexts. Public copy should keep BPC-157 as one identity-controlled peptide reference, with quality statements limited to the operator's own lot records. That also preserves continuity with prior research reports and existing product-page dependencies.
 
@@ -534,6 +534,6 @@ The final storefront description should stay document-led: component SKUs, vial 
 export function getProductDescription(sku: string): string {
   return (
     productDescriptions[sku] ??
-    'Product description pending Phase 6 verification.'
+    "Product description pending Phase 6 verification."
   );
 }

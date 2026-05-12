@@ -1,0 +1,11 @@
+id,severity,status,summary,primary_files,verification
+P0-1,P0,partial,Pin production runtime to Node 22 and add preflight gates; GitHub Actions workflow requires repo token with workflow scope,".nvmrc; package.json; package-lock.json","npm run typecheck; npm run build"
+P0-2,P0,fixed,Fail closed when production payment provider is missing invalid or stubbed,"lib/payments/config.ts; lib/payments/stub.ts; tests/unit/payments/config.test.ts; tests/unit/payments/stub.test.ts","npm test -- tests/unit/payments/config.test.ts tests/unit/payments/stub.test.ts"
+P0-3,P0,fixed,Create checkout orders server-side with canonical totals and payment intent creation,"app/api/checkout/orders/route.ts; app/checkout/review/ReviewPanel.tsx; components/ui/PlaceOrderButton.tsx","npm run typecheck; npm test"
+P0-6,P0,mitigated,Prevent placeholder COAs from being presented or indexed as verified,"lib/content/coa.ts; app/coa/page.tsx; app/coa/[peptide]/[batch]/page.tsx; components/v2/Coa.tsx; lib/seo/sitemap.ts; vercel.json; public/robots.txt","npm test -- tests/unit/content/coa.test.ts tests/unit/seo/sitemap.test.ts"
+P0-7,P0,fixed,Replace browser-writable age gate cookie with server-signed HttpOnly cookie and enforce it at checkout,"lib/age-verification.ts; app/api/age-gate/verify/route.ts; proxy.ts; components/age-gate/useAgeVerification.ts; components/age-gate/AgeGateClient.tsx; app/api/checkout/orders/route.ts","npm run typecheck"
+P0-9,P0,fixed,Fail closed for Supabase and Resend in production instead of silently no-oping,"lib/supabase.ts; lib/email/resend.ts; app/api/newsletter/subscribe/route.ts; app/api/contact/route.ts","npm run typecheck; npm test"
+P1-1,P1,fixed,Disable ACH checkout until Plaid create-intent path is production-ready,"app/checkout/method/MethodForm.tsx; app/api/checkout/orders/route.ts","npm run typecheck"
+P1-2,P1,fixed,Add production readiness health endpoint,"app/api/health/ready/route.ts","GET /api/health/ready"
+P2-1,P2,mitigated,Reduce audit surface by upgrading Vitest/Vite dev chain; remaining advisories are current Next transitive PostCSS with no safe non-breaking fix,"package.json; package-lock.json","npm audit --audit-level=high"
+EXT-1,P0,user_action_required,External credentials DNS legal payment underwriting Resend Supabase and real COAs are required before production launch,USER_ACTION_REQUIRED.md,Manual completion

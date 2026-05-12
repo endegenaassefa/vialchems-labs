@@ -1,7 +1,7 @@
-import type { Metadata } from 'next';
-import { notFound } from 'next/navigation';
-import { V2ProductPage } from '@/components/v2/ProductPage';
-import { getCatalogItem } from '@/components/v2/data';
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { V2ProductPage } from "@/components/v2/ProductPage";
+import { getCatalogItem } from "@/components/v2/data";
 
 export function generateStaticParams() {
   return [];

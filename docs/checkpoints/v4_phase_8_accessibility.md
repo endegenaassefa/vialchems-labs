@@ -17,10 +17,10 @@ v4 §7.3 specifies.
 
 ## Commits (Iron Law 2.15 protocol)
 
-| Commit | Type | Scope |
-|---|---|---|
-| cc8e923 | test (RED) | CheckoutSteps needs aria-current + polite live region |
-| c439d8a | feat (GREEN) | axe E2E suite + CheckoutSteps live region |
+| Commit  | Type         | Scope                                                 |
+| ------- | ------------ | ----------------------------------------------------- |
+| cc8e923 | test (RED)   | CheckoutSteps needs aria-current + polite live region |
+| c439d8a | feat (GREEN) | axe E2E suite + CheckoutSteps live region             |
 
 ## Deliverables
 
@@ -54,17 +54,17 @@ HTML without waiting for hydration.
 
 ### 4. Manual audit (programmatic)
 
-| Checkpoint | Audited at | Status |
-|---|---|---|
-| Heading hierarchy sequential | greps over `app/**/page.tsx` | Clean — every page starts h1; only h2 deeper. No h3 → h2 inversion. |
-| Skip-to-content link | `app/layout.tsx:61-62` | Existing (Phase 5) |
-| Cart count aria-live="polite" | `components/CartCount.tsx:24` | Existing (Phase 5) |
-| Toast role="alert" + aria-live | `components/ui/Toast.tsx:55-56` | Existing (Phase 2 v4) |
-| Form label / input pairing | `<FieldLabel htmlFor> ↔ <Input id>` | 8 confirmed pairs in `/checkout/address`; pattern repeats site-wide |
-| Error messages reference field | `Input.tsx:60-66` `errorId` association | Existing (Phase 2 v4) |
-| Status pills carry text label | grep over `<Pill ...>` usages | All 8 sampled usages render text children (no color-only) |
-| Color contrast ≥ 4.5:1 body | Posture A token system | Locked Phase 4 v3.0; not re-auditable without Lighthouse |
-| Focus rings (`*:focus-visible`) | `app/globals.css:218-225` (existing global rule) | Existing |
+| Checkpoint                      | Audited at                                       | Status                                                              |
+| ------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------- |
+| Heading hierarchy sequential    | greps over `app/**/page.tsx`                     | Clean — every page starts h1; only h2 deeper. No h3 → h2 inversion. |
+| Skip-to-content link            | `app/layout.tsx:61-62`                           | Existing (Phase 5)                                                  |
+| Cart count aria-live="polite"   | `components/CartCount.tsx:24`                    | Existing (Phase 5)                                                  |
+| Toast role="alert" + aria-live  | `components/ui/Toast.tsx:55-56`                  | Existing (Phase 2 v4)                                               |
+| Form label / input pairing      | `<FieldLabel htmlFor> ↔ <Input id>`              | 8 confirmed pairs in `/checkout/address`; pattern repeats site-wide |
+| Error messages reference field  | `Input.tsx:60-66` `errorId` association          | Existing (Phase 2 v4)                                               |
+| Status pills carry text label   | grep over `<Pill ...>` usages                    | All 8 sampled usages render text children (no color-only)           |
+| Color contrast ≥ 4.5:1 body     | Posture A token system                           | Locked Phase 4 v3.0; not re-auditable without Lighthouse            |
+| Focus rings (`*:focus-visible`) | `app/globals.css:218-225` (existing global rule) | Existing                                                            |
 
 ### 5. Reduced-motion + reduced-data verification
 
@@ -80,13 +80,13 @@ autoplay video. Vial SVG is ~3KB; Plex fonts are subset by `next/font`.
 
 ### 6. aria-live polite regions
 
-| Surface | Region | Source |
-|---|---|---|
-| Cart count | `aria-live="polite"` on number node | `CartCount.tsx:24` (existing Phase 5) |
+| Surface                  | Region                                                 | Source                                               |
+| ------------------------ | ------------------------------------------------------ | ---------------------------------------------------- |
+| Cart count               | `aria-live="polite"` on number node                    | `CartCount.tsx:24` (existing Phase 5)                |
 | Checkout step transition | `<p role="status" aria-live="polite" class="sr-only">` | `app/checkout/CheckoutSteps.tsx:23-25` (NEW Phase 8) |
-| Toast notifications | `role="alert"` + `aria-live="polite"` | `Toast.tsx:55-56` (existing Phase 2 v4) |
-| Newsletter success | `<motion.p role="status" aria-live="polite">` | `NewsletterForm.tsx:97-100` (Phase 7) |
-| Form errors | `role="alert"` on Input error region | `Input.tsx:62-68` (existing) |
+| Toast notifications      | `role="alert"` + `aria-live="polite"`                  | `Toast.tsx:55-56` (existing Phase 2 v4)              |
+| Newsletter success       | `<motion.p role="status" aria-live="polite">`          | `NewsletterForm.tsx:97-100` (Phase 7)                |
+| Form errors              | `role="alert"` on Input error region                   | `Input.tsx:62-68` (existing)                         |
 
 ### 7. Test coverage
 
@@ -94,32 +94,33 @@ Total tests: **409 passed (35 files)** — was 407 at HEAD e8b6504 (+2 for
 the CheckoutSteps a11y additions).
 
 E2E (skipped, ready for Phase 11):
+
 - `tests/e2e/a11y.spec.ts` — 18 routes × axe analyze + 2 contract checks
 - `tests/e2e/checkout-{ach,crypto}.spec.ts` — happy-path checkout (existing)
 
 ## Iron Laws verified
 
-| # | Iron Law | Phase 8 evidence |
-|---|---|---|
-| 2.1 | TDD | RED→GREEN cycle for CheckoutSteps a11y additions (commits cc8e923 / c439d8a) |
-| 2.2 | Verification before completion | 409/409 + npm build + preflight all re-run in this session |
-| 2.5 | Protected files unchanged | `git diff v1.0.0..HEAD -- lib/payments/ lib/compliance.ts ...` = 0 lines |
-| 2.15 | TDD checkpoint commits | RED commit body carries verbatim FAIL snippet; GREEN carries verbatim PASS |
-| 2.16 | Pre-commit supply-chain scanner | Hooks ran on every commit; 0 violations |
-| 2.18 | Reduced-motion non-negotiable | E2E test asserts the contract via `emulateMedia({ reducedMotion: 'reduce' })` |
-| 2.21 | Tokens additive only | No token changes this phase |
-| 2.24 | No `.skip` on E2E tests in CI gate | Suite ships skipped; Phase 11 unskips per spec |
-| 2.27 | Lighthouse a11y ≥ 95 | Phase 11 CI gate enforces; manual audit + axe E2E suite ready |
+| #    | Iron Law                           | Phase 8 evidence                                                              |
+| ---- | ---------------------------------- | ----------------------------------------------------------------------------- |
+| 2.1  | TDD                                | RED→GREEN cycle for CheckoutSteps a11y additions (commits cc8e923 / c439d8a)  |
+| 2.2  | Verification before completion     | 409/409 + npm build + preflight all re-run in this session                    |
+| 2.5  | Protected files unchanged          | `git diff v1.0.0..HEAD -- lib/payments/ lib/compliance.ts ...` = 0 lines      |
+| 2.15 | TDD checkpoint commits             | RED commit body carries verbatim FAIL snippet; GREEN carries verbatim PASS    |
+| 2.16 | Pre-commit supply-chain scanner    | Hooks ran on every commit; 0 violations                                       |
+| 2.18 | Reduced-motion non-negotiable      | E2E test asserts the contract via `emulateMedia({ reducedMotion: 'reduce' })` |
+| 2.21 | Tokens additive only               | No token changes this phase                                                   |
+| 2.24 | No `.skip` on E2E tests in CI gate | Suite ships skipped; Phase 11 unskips per spec                                |
+| 2.27 | Lighthouse a11y ≥ 95               | Phase 11 CI gate enforces; manual audit + axe E2E suite ready                 |
 
 ## Verbatim copy regrep (Iron Law 2.4 / 2.13)
 
-| Pattern | File | Hits | Expected |
-|---|---|---|---|
-| `21+ years of age` | `app/checkout/review/ReviewPanel.tsx` | 1 | 1 |
-| `research use only (RUO)` | `app/checkout/review/ReviewPanel.tsx` | 1 | 1 |
-| `qualified researcher acquiring` | `lib/customer-qualification.ts` | 1 | 1 |
-| `For research use only. Not for human or veterinary use` | `app/products/[slug]/page.tsx` | 2 | 2 (PDP + bundle) |
-| `are not for human consumption` | `components/SiteFooter.tsx` | 1 | 1 |
+| Pattern                                                  | File                                  | Hits | Expected         |
+| -------------------------------------------------------- | ------------------------------------- | ---- | ---------------- |
+| `21+ years of age`                                       | `app/checkout/review/ReviewPanel.tsx` | 1    | 1                |
+| `research use only (RUO)`                                | `app/checkout/review/ReviewPanel.tsx` | 1    | 1                |
+| `qualified researcher acquiring`                         | `lib/customer-qualification.ts`       | 1    | 1                |
+| `For research use only. Not for human or veterinary use` | `app/products/[slug]/page.tsx`        | 2    | 2 (PDP + bundle) |
+| `are not for human consumption`                          | `components/SiteFooter.tsx`           | 1    | 1                |
 
 ## Open notes for downstream phases
 

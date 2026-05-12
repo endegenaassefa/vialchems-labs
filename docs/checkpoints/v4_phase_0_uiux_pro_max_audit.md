@@ -8,31 +8,34 @@ Audit scope: README.md + project metadata fetched via WebFetch.
 ## Audit findings
 
 ### File layout
+
 - `src/ui-ux-pro-max/` (source)
 - `cli/assets/` (distribution)
 - Platform-specific folders (`.claude/`, `.factory/`) for local dev
 
 ### Install steps documented
+
 - `npm install -g uipro-cli` (standard package manager)
 - `uipro init --ai <platform>` (CLI-driven setup)
 - Python 3.x verification via `python3 --version`
 
 ### Iron-Law-2.16 categories scanned
 
-| Category | Result |
-|---|---|
-| Hidden Unicode (ZWSP/ZWNJ/ZWJ/WJ/BOM/bidi) | **CLEAN** — none detected |
-| `--no-verify` / `--dangerously-skip-permissions` | **CLEAN** — none detected |
-| `ANTHROPIC_BASE_URL` hijacking / MCP server overrides | **CLEAN** — none detected |
-| `curl|bash` patterns / direct executable downloads | **CLEAN** — standard npm + git only |
-| Base64 blobs > 200 chars | **CLEAN** — none detected |
-| Prompt-injection HTML comments | **CLEAN** — no executable code outside markdown |
-| `enableAllProjectMcpServers` flag | **CLEAN** — not present |
-| Credential file leak risk | **CLEAN** — no `.env*`/credential references |
+| Category                                              | Result                                          |
+| ----------------------------------------------------- | ----------------------------------------------- | ----------------------------------- |
+| Hidden Unicode (ZWSP/ZWNJ/ZWJ/WJ/BOM/bidi)            | **CLEAN** — none detected                       |
+| `--no-verify` / `--dangerously-skip-permissions`      | **CLEAN** — none detected                       |
+| `ANTHROPIC_BASE_URL` hijacking / MCP server overrides | **CLEAN** — none detected                       |
+| `curl                                                 | bash` patterns / direct executable downloads    | **CLEAN** — standard npm + git only |
+| Base64 blobs > 200 chars                              | **CLEAN** — none detected                       |
+| Prompt-injection HTML comments                        | **CLEAN** — no executable code outside markdown |
+| `enableAllProjectMcpServers` flag                     | **CLEAN** — not present                         |
+| Credential file leak risk                             | **CLEAN** — no `.env*`/credential references    |
 
 **Verdict: CLEAN — zero Iron-Law-2.16 violations.**
 
 ### Minor observation
+
 The skill's CLI-first install pattern (`uipro-cli` → `uipro init --ai claude-code`) is good supply-chain hygiene because templates regenerate dynamically from the latest CLI version, avoiding stale cache issues.
 
 ## Operator response

@@ -4,18 +4,18 @@
  * Renders the Add-Address form layout. Persistence to a real account row
  * lands in Phase 8 once Supabase auth is online.
  */
-import type { Metadata } from 'next';
-import Link from 'next/link';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { Card } from '@/components/ui/Card';
-import { FieldLabel } from '@/components/ui/FieldLabel';
-import { Input } from '@/components/ui/Input';
-import { Button } from '@/components/ui/Button';
-import { Pill } from '@/components/ui/Pill';
+import type { Metadata } from "next";
+import Link from "next/link";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { Card } from "@/components/ui/Card";
+import { FieldLabel } from "@/components/ui/FieldLabel";
+import { Input } from "@/components/ui/Input";
+import { Button } from "@/components/ui/Button";
+import { Pill } from "@/components/ui/Pill";
 
 export const metadata: Metadata = {
-  title: 'Account — Addresses',
+  title: "Account — Addresses",
 };
 
 export default function AddressesPage() {
@@ -72,7 +72,11 @@ export default function AddressesPage() {
                     Street
                   </FieldLabel>
                   <div className="mt-2">
-                    <Input id="addr-street1" autoComplete="address-line1" required />
+                    <Input
+                      id="addr-street1"
+                      autoComplete="address-line1"
+                      required
+                    />
                   </div>
                 </div>
                 <div>
@@ -80,7 +84,11 @@ export default function AddressesPage() {
                     City
                   </FieldLabel>
                   <div className="mt-2">
-                    <Input id="addr-city" autoComplete="address-level2" required />
+                    <Input
+                      id="addr-city"
+                      autoComplete="address-level2"
+                      required
+                    />
                   </div>
                 </div>
                 <div>
@@ -88,7 +96,11 @@ export default function AddressesPage() {
                     Zip
                   </FieldLabel>
                   <div className="mt-2">
-                    <Input id="addr-postal" autoComplete="postal-code" required />
+                    <Input
+                      id="addr-postal"
+                      autoComplete="postal-code"
+                      required
+                    />
                   </div>
                 </div>
                 <div className="sm:col-span-2 flex flex-wrap gap-3">

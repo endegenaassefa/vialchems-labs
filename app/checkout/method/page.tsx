@@ -8,15 +8,15 @@
  *
  * Side panel shows live order summary from the cart store.
  */
-import type { Metadata } from 'next';
-import { SiteHeader } from '@/components/SiteHeader';
-import { SiteFooter } from '@/components/SiteFooter';
-import { CheckoutGuard } from '@/components/CheckoutGuard';
-import { CheckoutSteps } from '../CheckoutSteps';
-import { MethodForm } from './MethodForm';
+import type { Metadata } from "next";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
+import { CheckoutGuard } from "@/components/CheckoutGuard";
+import { CheckoutSteps } from "../CheckoutSteps";
+import { MethodForm } from "./MethodForm";
 
 export const metadata: Metadata = {
-  title: 'Checkout — Payment',
+  title: "Checkout — Payment",
 };
 
 export default function CheckoutMethodPage() {

@@ -13,7 +13,8 @@ import type {
   PaymentIntent,
   PaymentProvider,
   WebhookResult,
-} from './types';
+} from "./types";
+import { envFlag, isProductionRuntime } from "@/lib/runtime-env";
 
 export interface StubAdapterOptions {
   /** Override the clock (ISO timestamps). Defaults to `() => new Date()`. */
@@ -49,16 +50,16 @@ export function createStubAdapter(
   const autoConfirmDelayMs = options.autoConfirmDelayMs ?? 2000;
   // Default to true except in tests, where determinism matters.
   const isTest =
-    typeof process !== 'undefined' && process.env?.NODE_ENV === 'test';
+    typeof process !== "undefined" && process.env?.NODE_ENV === "test";
   const autoConfirm = options.autoConfirm ?? !isTest;
 
   function markPaid(intentId: string): PaymentIntent | null {
     const existing = intents.get(intentId);
     if (!existing) return null;
-    if (existing.status === 'paid') return existing;
+    if (existing.status === "paid") return existing;
     const updated: PaymentIntent = {
       ...existing,
-      status: 'paid',
+      status: "paid",
       updatedAt: now().toISOString(),
     };
     intents.set(intentId, updated);
@@ -66,17 +67,26 @@ export function createStubAdapter(
   }
 
   return {
-    id: 'stub',
+    id: "stub",
     async createIntent(input: CreateIntentInput): Promise<PaymentIntent> {
+      if (
+        isProductionRuntime() &&
+        !envFlag("ALLOW_STUB_PAYMENTS_IN_PRODUCTION")
+      ) {
+        throw new Error(
+          "stub_payments_forbidden: stub payment intents cannot be created in production.",
+        );
+      }
+
       const id = randomId();
       const ts = now().toISOString();
       const intent: PaymentIntent = {
         id,
-        provider: 'stub',
+        provider: "stub",
         method: input.method,
         amountCents: input.amountCents,
-        currency: 'USD',
-        status: 'pending',
+        currency: "USD",
+        status: "pending",
         metadata: {
           orderId: input.orderId,
           customerEmail: input.customerEmail,
@@ -106,7 +116,7 @@ export function createStubAdapter(
     async handleWebhook(): Promise<WebhookResult> {
       // Stub never receives real webhooks. Returns a no-op result so the
       // generic webhook router can short-circuit safely if mis-routed.
-      return { intent: null, eventType: 'noop', verified: false };
+      return { intent: null, eventType: "noop", verified: false };
     },
 
     markPaid,

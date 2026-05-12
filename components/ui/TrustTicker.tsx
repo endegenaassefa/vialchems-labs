@@ -12,7 +12,7 @@
  * md+ viewports. Honors prefers-reduced-motion via global @media kill switch
  * in app/globals.css.
  */
-import { cn } from '@/lib/utils';
+import { cn } from "@/lib/utils";
 
 export interface TrustTickerProps {
   items: string[];
@@ -27,8 +27,8 @@ export function TrustTicker({ items, className }: TrustTickerProps) {
     <section
       aria-label="Trust signals"
       className={cn(
-        'w-full overflow-hidden',
-        'border-y border-[var(--border)] bg-[var(--surface)]',
+        "w-full overflow-hidden",
+        "border-y border-[var(--border)] bg-[var(--surface)]",
         className,
       )}
     >
@@ -51,8 +51,8 @@ export function TrustTicker({ items, className }: TrustTickerProps) {
       <div className="hidden md:block">
         <ul
           className={cn(
-            'flex gap-12 whitespace-nowrap py-4 px-6',
-            'animate-trust-ticker',
+            "flex gap-12 whitespace-nowrap py-4 px-6",
+            "animate-trust-ticker",
           )}
           aria-hidden="true"
         >
@@ -69,7 +69,7 @@ export function TrustTicker({ items, className }: TrustTickerProps) {
           ))}
         </ul>
         {/* SR-friendly: original list as static text */}
-        <p className="sr-only">{items.join(', ')}</p>
+        <p className="sr-only">{items.join(", ")}</p>
       </div>
     </section>
   );

@@ -12,10 +12,10 @@
  *   3. Post-payment confirmation (lib/payments/reconciliation.ts)
  */
 
-export const BLOCKED_US_STATES = ['CA', 'TX', 'NY', 'FL'] as const;
+export const BLOCKED_US_STATES = ["CA", "TX", "NY", "FL"] as const;
 export type BlockedState = (typeof BLOCKED_US_STATES)[number];
 
-export const ALLOWED_COUNTRIES = ['US'] as const;
+export const ALLOWED_COUNTRIES = ["US"] as const;
 export type AllowedCountry = (typeof ALLOWED_COUNTRIES)[number];
 
 export function isBlockedState(stateCode: string): boolean {

@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import {
   Children,
@@ -7,8 +7,8 @@ import {
   type ComponentType,
   type ElementType,
   type ReactNode,
-} from 'react';
-import { motion, useReducedMotion, type Variants } from 'motion/react';
+} from "react";
+import { motion, useReducedMotion, type Variants } from "motion/react";
 
 /**
  * Phase 7 (v4) — Motion & Interaction Layer.
@@ -41,14 +41,14 @@ type StaggerRevealProps = {
   /** Vertical translate offset (px) for the entrance. */
   initialY?: number;
   /** Optional test hook. */
-  'data-testid'?: string;
+  "data-testid"?: string;
 };
 
 type DynamicTagProps = {
   children?: ReactNode;
   className?: string;
-  'data-stagger-reveal'?: string;
-  'data-testid'?: string;
+  "data-stagger-reveal"?: string;
+  "data-testid"?: string;
 };
 
 const containerVariants = (stagger: number): Variants => ({
@@ -78,40 +78,40 @@ const getServerHydrationSnapshot = () => false;
 // proxy. Limited to the tag set vialchemlabs actually uses for stagger lists
 // — ul, ol, li, div, span, tbody, tr — which lets the linter confirm at
 // type-check time that no dynamic motion.create() is happening per render.
-type AllowedStaggerTag = 'div' | 'span' | 'ul' | 'ol' | 'li' | 'tbody' | 'tr';
+type AllowedStaggerTag = "div" | "span" | "ul" | "ol" | "li" | "tbody" | "tr";
 
 type MotionTagProps = Record<string, unknown> & { children?: ReactNode };
 
 function resolveMotionTag(tag: ElementType): ComponentType<MotionTagProps> {
-  const t = (typeof tag === 'string' ? tag : 'div') as AllowedStaggerTag;
+  const t = (typeof tag === "string" ? tag : "div") as AllowedStaggerTag;
   switch (t) {
-    case 'span':
+    case "span":
       return motion.span as unknown as ComponentType<Record<string, unknown>>;
-    case 'ul':
+    case "ul":
       return motion.ul as unknown as ComponentType<Record<string, unknown>>;
-    case 'ol':
+    case "ol":
       return motion.ol as unknown as ComponentType<Record<string, unknown>>;
-    case 'li':
+    case "li":
       return motion.li as unknown as ComponentType<Record<string, unknown>>;
-    case 'tbody':
+    case "tbody":
       return motion.tbody as unknown as ComponentType<Record<string, unknown>>;
-    case 'tr':
+    case "tr":
       return motion.tr as unknown as ComponentType<Record<string, unknown>>;
-    case 'div':
+    case "div":
     default:
       return motion.div as unknown as ComponentType<Record<string, unknown>>;
   }
 }
 
 export function StaggerReveal({
-  as = 'div',
-  itemAs = 'div',
+  as = "div",
+  itemAs = "div",
   children,
   className,
   stagger = 0.07,
   duration = 0.32,
   initialY = 8,
-  'data-testid': testId,
+  "data-testid": testId,
 }: StaggerRevealProps) {
   const reduced = useReducedMotion();
   const hydrated = useSyncExternalStore(
@@ -124,11 +124,7 @@ export function StaggerReveal({
 
   if (!hydrated || reduced) {
     return (
-      <Tag
-        className={className}
-        data-stagger-reveal=""
-        data-testid={testId}
-      >
+      <Tag className={className} data-stagger-reveal="" data-testid={testId}>
         {Children.map(children, (child, index) => (
           <ItemTag key={getKey(child, index)}>{child}</ItemTag>
         ))}
@@ -151,7 +147,7 @@ export function StaggerReveal({
       variants={containerVariants(stagger)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, amount: 'some' }}
+      viewport={{ once: true, amount: "some" }}
     >
       {Children.map(children, (child, index) => (
         <MotionItem

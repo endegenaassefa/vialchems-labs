@@ -115,6 +115,7 @@ sandbox; 3-4 days in production).
 
 Same SQL queries as Test 1 with `payment_provider = 'plaid'`. Audit
 sequence should be:
+
 ```
 order.placed → payment.reconciled (status=authorized)
              → payment.reconciled (status=paid)
