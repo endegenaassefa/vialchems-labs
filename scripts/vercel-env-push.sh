@@ -28,21 +28,42 @@ for key in "${local_required[@]}"; do
   fi
 done
 
-if [ ! -f ".vercel/project.json" ]; then
+if [ ! -f ".vercel/project.json" ] && [ ! -f ".vercel/repo.json" ]; then
   echo "Project is not linked. Run: npx vercel@latest link"
   exit 1
 fi
 
-linked_org_id=$(node -e "console.log(require('./.vercel/project.json').orgId || '')")
-linked_project_id=$(node -e "console.log(require('./.vercel/project.json').projectId || '')")
+linked_org_id=$(node -e "
+const fs = require('fs');
+let project = {};
+if (fs.existsSync('./.vercel/project.json')) {
+  project = require('./.vercel/project.json');
+} else {
+  const repo = require('./.vercel/repo.json');
+  project = (repo.projects || []).find((entry) => entry.directory === '.') || (repo.projects || [])[0] || {};
+}
+console.log(project.orgId || '');
+")
+
+linked_project_id=$(node -e "
+const fs = require('fs');
+let project = {};
+if (fs.existsSync('./.vercel/project.json')) {
+  project = require('./.vercel/project.json');
+} else {
+  const repo = require('./.vercel/repo.json');
+  project = (repo.projects || []).find((entry) => entry.directory === '.') || (repo.projects || [])[0] || {};
+}
+console.log(project.projectId || project.id || '');
+")
 
 if [ "$linked_org_id" != "$VERCEL_ORG_ID" ]; then
-  echo "VERCEL_ORG_ID does not match .vercel/project.json."
+  echo "VERCEL_ORG_ID does not match the linked Vercel project."
   exit 1
 fi
 
 if [ "$linked_project_id" != "$VERCEL_PROJECT_ID" ]; then
-  echo "VERCEL_PROJECT_ID does not match .vercel/project.json."
+  echo "VERCEL_PROJECT_ID does not match the linked Vercel project."
   exit 1
 fi
 

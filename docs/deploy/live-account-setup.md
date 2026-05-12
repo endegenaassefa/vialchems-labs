@@ -52,14 +52,14 @@ created it.
 5. Read the IDs from the file Vercel created:
 
 ```bash
-cat .vercel/project.json
+cat .vercel/project.json 2>/dev/null || cat .vercel/repo.json
 ```
 
 Copy:
 
 ```dotenv
-VERCEL_ORG_ID=<orgId from .vercel/project.json>
-VERCEL_PROJECT_ID=<projectId from .vercel/project.json>
+VERCEL_ORG_ID=<orgId from .vercel/project.json or .vercel/repo.json>
+VERCEL_PROJECT_ID=<projectId from .vercel/project.json, or id from .vercel/repo.json>
 ```
 
 6. Create the token:
@@ -283,7 +283,7 @@ The script must print `set:` for every required value and exit successfully.
 Make sure the project is linked:
 
 ```bash
-test -f .vercel/project.json && cat .vercel/project.json
+cat .vercel/project.json 2>/dev/null || cat .vercel/repo.json
 ```
 
 Then push the production env:
@@ -293,8 +293,8 @@ bash scripts/vercel-env-push.sh .env.production.local production
 ```
 
 This script refuses to run if `VERCEL_ORG_ID` or `VERCEL_PROJECT_ID` do not
-match `.vercel/project.json`. It pushes app runtime secrets to Vercel but does
-not push `SUPABASE_DB_URL`, `VERCEL_TOKEN`, `VERCEL_ORG_ID`, or
+match the linked Vercel project. It pushes app runtime secrets to Vercel but
+does not push `SUPABASE_DB_URL`, `VERCEL_TOKEN`, `VERCEL_ORG_ID`, or
 `VERCEL_PROJECT_ID`.
 
 ## 7. Deploy and verify
