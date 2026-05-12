@@ -1,0 +1,1141 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T16:57:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/homepage.md
+[LINE_RANGE] 99-103
+[QUOTE]
+"Uncompromising quality, unbeatable value
+
+## AMINO AMIGOS
+
+Amino Amigos offers the most rigorously tested research peptides at unbeatable prices, with ultra-fast shipping and unmatched dedication to customer satisfaction."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T16:57:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/homepage.md
+[LINE_RANGE] 99-128
+[QUOTE]
+"Uncompromising quality, unbeatable value
+
+## AMINO AMIGOS
+
+Amino Amigos offers the most rigorously tested research peptides at unbeatable prices, with ultra-fast shipping and unmatched dedication to customer satisfaction.
+
+[ Shop Now ](/shop)
+
+###  Certificate of Analysis
+
+We ensure uncompromised quality with rigorous testing and display certificates prominently on every product."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T16:57:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/homepage.md
+[LINE_RANGE] 105-105
+[QUOTE]
+"[ Shop Now ](/shop)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T16:57:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/homepage.md
+[LINE_RANGE] 24-27
+[QUOTE]
+"  * [Home](https://aminoamigos.com/)
+  * [Products](https://aminoamigos.com/shop/)
+  * [About Us](https://aminoamigos.com/about-us/)
+  * [Contact Us ](https://aminoamigos.com/contact-us/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T16:57:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/homepage.md
+[LINE_RANGE] 257-258
+[QUOTE]
+"All products on this site are for Research, Development use only. Products are Not for Human use of any kind. The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. Amino Amigos is a chemical supplier. Amino Amigos is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic Act. Amino Amigos is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic Act."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T16:57:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/homepage.md
+[LINE_RANGE] 225-225
+[QUOTE]
+"  * 1209 MOUNTAIN ROAD PL NE, STE H, ALBUQUERQUE, NM 87110"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://aminoamigos.com/about-us/
+[FETCHED_AT] 2026-05-07T17:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/about.md
+[LINE_RANGE] 103-103
+[QUOTE]
+"Amino Amigos is dedicated to our customers by providing them with high-quality peptides at affordable prices. Our goal is to source certified manufacturers and offer peptides that meet the rigorous standards of quality and efficacy set by WHO/GMP and ISO 9001:2008, in North America but at a significantly lower cost."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://aminoamigos.com/terms-of-services/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/tos.md
+[LINE_RANGE] 137-137
+[QUOTE]
+"This site is international and has international visitors. Amino Amigos relies on each client to know the requirements of their own region and purchase accordingly. This includes but is not limited to Vat or import taxes, import certifications, licenses, registrations or anything else which, if not obtained, would take them out of compliance with the regulations of their own country."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2023
+[REASONING]
+The homepage footer shows "Copyright ©2026 Amino Amigos" which indicates current operation. The earliest batch-lot COA linked in the certificate of analysis page is dated 2023-05-15 (COA_BPC-157_2023-05-15) and 2023-10-16 (COA_Retatrutide_10mg_lot-823RET_2023-10-16), making 2023 the earliest evidence of operations. The about page makes no explicit founding year claim.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://aminoamigos.com/certificate-of-analysis/
+[FETCHED_AT] 2026-05-07T17:07:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/coa_1.md
+[LINE_RANGE] 147-147
+[Certificate of Analysis for BPC-157](https://aminoamigos.com/wp-content/uploads/2023/05/COA_BPC-157_2023-05-15-1.pdf)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://aminoamigos.com/certificate-of-analysis/
+[FETCHED_AT] 2026-05-07T17:07:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/coa_1.md
+[LINE_RANGE] 140-140
+[COA_Retatrutide_10mg_lot-823RET_2023-10-16](https://aminoamigos.com/wp-content/uploads/2023/10/COA_Retatrutide_10mg_lot-823RET_2023-10-16.pdf)
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 99-307
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/amino-amigos/product_*.md:
+31 saved artifacts (filenames listed below).
+[FILES]
+product_01__semaglutide.md
+product_02__tirzepatide.md
+product_03__retagpl3rt.md
+product_04__glp2tzglp3rt.md
+product_05__10mgglp2tz-1mgcagri.md
+product_06__5mgglp1sg-5mgcagri.md
+product_07__bpc.md
+product_08__glow.md
+product_09__glp2tzglp1smcagri.md
+product_10__blend-bpc157-10mg-tb500-5mg.md
+product_11__nad.md
+product_12__cagri.md
+product_13__ghk-cu-100mg.md
+product_14__blend-cjc-5mg-ipa-5mg.md
+product_15__tb500-2.md
+product_16__cjc-1295-dac-5mg-2.md
+product_17__aod-9604-2mg.md
+product_18__dsip-4mg.md
+product_19__epithalon.md
+product_20__ipamorelin.md
+product_21__melanotan-two-10mg.md
+product_22__motsc.md
+product_23__kpv.md
+product_24__pt.md
+product_25__snap8.md
+product_26__selank.md
+product_27__sermorelin.md
+product_28__ss-31-10mg.md
+product_29__tesa-10mg.md
+product_30__teso.md
+product_31__thymosinalpha1.md
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T16:57:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/homepage.md
+[LINE_RANGE] 130-136
+[QUOTE]
+"  * All
+  * GLP-1
+  * Skincare
+  * Blend
+  * Releasing
+  * Regeneration
+  * Aminos/Vitamins"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 103-111
+[QUOTE]
+"Default sorting Sort by popularity Sort by latest Sort by price: low to high Sort by price: high to low
+
+View as:
+
+[Grid](https://aminoamigos.com/shop/?view_mode=grid)
+
+[List](https://aminoamigos.com/shop/?view_mode=list)
+
+ShowProducts per page122436All"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 195-215
+[QUOTE]
+"##  [BLEND GLP2TZ 15mg/GLP3RT 10mg](https://aminoamigos.com/product/glp2tzglp3rt/)
+
+$185.00
+
+1971 in stock
+
+[ ](https://aminoamigos.com/product/10mgglp2tz-1mgcagri/)
+
+##  [BLEND GLP2TZ 10mg/Cagri 1mg](https://aminoamigos.com/product/10mgglp2tz-1mgcagri/)
+
+$130.00
+
+62 in stock
+
+[ ](https://aminoamigos.com/product/5mgglp1sg-5mgcagri/)
+
+##  [BLEND GLP1SG 5mg/Cagri 5mg](https://aminoamigos.com/product/5mgglp1sg-5mgcagri/)
+
+$105.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://aminoamigos.com/product/bpc/
+[FETCHED_AT] 2026-05-07T17:07:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_07__bpc.md
+[LINE_RANGE] 101-101
+[QUOTE]
+"# BPC 157"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://aminoamigos.com/product/bpc/
+[FETCHED_AT] 2026-05-07T17:07:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_07__bpc.md
+[LINE_RANGE] 107-112
+[QUOTE]
+"BPC157 |  Choose an option10mg800mg Capsules
+
+  * 10mg
+  * 800mg Capsules
+
+Clear"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://aminoamigos.com/product/bpc/
+[FETCHED_AT] 2026-05-07T17:07:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_07__bpc.md
+[LINE_RANGE] 118-127
+[QUOTE]
+"Quantity
+
+Price
+
+<1
+
+$45.00
+
+1 - 4
+
+$45.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://aminoamigos.com/product/bpc/
+[FETCHED_AT] 2026-05-07T17:07:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_07__bpc.md
+[LINE_RANGE] 153-153
+[QUOTE]
+"BPC-157, short for Body Protection Compound-157, is a peptide that occurs naturally in the human body. It is composed of 15 amino acids and is derived from a protein called the gastric juice protein."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T16:57:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/homepage.md
+[LINE_RANGE] 10-11
+[QUOTE]
+"ATTENTION: LEGAL DISCLAIMER
+By entering this website, you certify under penalty of perjury that you are at least 21 years of age. All products are intended strictly for laboratory research purposes only."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://aminoamigos.com/product/bpc/
+[FETCHED_AT] 2026-05-07T17:07:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_07__bpc.md
+[LINE_RANGE] 169-171
+[QUOTE]
+"## Lab Report
+
+[10mg](/wp-content/uploads/2024/09/COA-BPC157.A24B-10mg.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://aminoamigos.com/certificate-of-analysis/
+[FETCHED_AT] 2026-05-07T17:07:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/coa_1.md
+[LINE_RANGE] 97-132
+[QUOTE]
+"## Certificate of Analysis
+
+TIRZEPATIDE
+
+
+[COA_Tirzepatide_10mg_lot-TIRZ10.B24H3_2024-02-12](https://aminoamigos.com/wp-content/uploads/2024/03/COA_Tirzepatide_10mg_lot-TIRZ10.B24H3_2024-02-12.pdf)
+[COA_Tirzepatide_lot_T10H1223-2_2023-11-17-1](https://aminoamigos.com/wp-content/uploads/2024/01/COA_Tirzepatide_lot_T10H1223-2_2023-11-17-1.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://aminoamigos.com/certificate-of-analysis/
+[FETCHED_AT] 2026-05-07T17:07:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/coa_1.md
+[LINE_RANGE] 106-107
+[QUOTE]
+"[COA_Tirzepatide_10mg_lot-TIRZ10.B24H3_2024-02-12](https://aminoamigos.com/wp-content/uploads/2024/03/COA_Tirzepatide_10mg_lot-TIRZ10.B24H3_2024-02-12.pdf)
+[COA_Tirzepatide_lot_T10H1223-2_2023-11-17-1](https://aminoamigos.com/wp-content/uploads/2024/01/COA_Tirzepatide_lot_T10H1223-2_2023-11-17-1.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://aminoamigos.com/product/bpc/
+[FETCHED_AT] 2026-05-07T17:07:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_07__bpc.md
+[LINE_RANGE] 149-300
+[QUOTE]
+"BPC 157 quantity
+
+Add to cart
+
+Description
+
+Lab Report
+
+BPC-157, short for Body Protection Compound-157, is a peptide that occurs naturally in the human body."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://aminoamigos.com/product/bpc/
+[FETCHED_AT] 2026-05-07T17:07:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_07__bpc.md
+[LINE_RANGE] 173-179
+[QUOTE]
+"## Related products
+
+158 in stock
+
+[ ](https://aminoamigos.com/product/glow/)
+
+##  [BLEND GLOW 80mg GHK-Cu/15mg TB500/15mg BPC157](https://aminoamigos.com/product/glow/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T16:57:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/homepage.md
+[LINE_RANGE] 10-11
+[QUOTE]
+"ATTENTION: LEGAL DISCLAIMER
+By entering this website, you certify under penalty of perjury that you are at least 21 years of age. All products are intended strictly for laboratory research purposes only."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T16:57:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/homepage.md
+[LINE_RANGE] 8-13
+[QUOTE]
+"## Before you enter
+
+ATTENTION: LEGAL DISCLAIMER
+By entering this website, you certify under penalty of perjury that you are at least 21 years of age. All products are intended strictly for laboratory research purposes only.
+
+Yes agreed No i do not agree"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://aminoamigos.com/terms-of-services/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/tos.md
+[LINE_RANGE] 137-137
+[QUOTE]
+"This site is international and has international visitors. Amino Amigos relies on each client to know the requirements of their own region and purchase accordingly. This includes but is not limited to Vat or import taxes, import certifications, licenses, registrations or anything else which, if not obtained, would take them out of compliance with the regulations of their own country."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://aminoamigos.com/terms-of-services/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/tos.md
+[LINE_RANGE] 97-97
+[QUOTE]
+"## Terms of Services"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://aminoamigos.com/terms-of-services/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/tos.md
+[LINE_RANGE] 103-115
+[QUOTE]
+"Our products are intended solely for laboratory research purposes. When purchasing our items, customers acknowledge the inherent risks associated with handling and distributing these products. These chemicals are not intended to be used as food additives, drugs, cosmetics, household chemicals or for other inappropriate applications."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://aminoamigos.com/refund-and-shipping/
+[FETCHED_AT] 2026-05-07T17:07:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/refund.md
+[LINE_RANGE] 103-109
+[QUOTE]
+"We proudly offer a 30-day return policy for our products. If for any reason you are not completely satisfied with your purchase, you have 30 days from the date of receipt to initiate a return. Simply contact our customer support team, and they will guide you through the return process.
+
+Please ensure that the product is in its original condition, unused, and with all original packaging and tags. Once we receive the returned item and verify its condition, we will issue a refund to the original payment method used for the purchase."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://aminoamigos.com/refund-and-shipping/
+[FETCHED_AT] 2026-05-07T17:07:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/refund.md
+[LINE_RANGE] 113-115
+[QUOTE]
+"We ship our products from Monday to Friday using USPS. Orders placed after 10:00 am EST on business days will be shipped on the following business day. Once your order is shipped, we will provide a tracking number, but please allow for some time for it to enter the mail system before checking."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://aminoamigos.com/checkout/
+[FETCHED_AT] 2026-05-07T17:09:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/checkout_step_1.md
+[LINE_RANGE] 79-87
+[QUOTE]
+"# Cart
+
+[ Shopping cart](https://aminoamigos.com/cart/) [ Checkout](https://aminoamigos.com/checkout/) Order status
+
+# YOUR SHOPPING CART IS EMPTY
+
+We invite you to get acquainted with an assortment of our shop. Surely you can find something for yourself!
+
+[Return To Shop](https://aminoamigos.com/shop/)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T16:57:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/homepage.md
+[LINE_RANGE] 36-42
+[QUOTE]
+"Login  Register
+
+Username or email  *
+
+Password *
+
+[Lost password?](https://aminoamigos.com/my-account/lost-password/)
+
+Remember Me"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://aminoamigos.com/refund-and-shipping/
+[FETCHED_AT] 2026-05-07T17:07:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/refund.md
+[LINE_RANGE] 113-113
+[QUOTE]
+"We ship our products from Monday to Friday using USPS."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T16:57:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/homepage.md
+[LINE_RANGE] 113-115
+[QUOTE]
+"###  Free Shipping
+
+Enjoy free shipping on all products, with fast 2-3 day delivery straight to your door."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://aminoamigos.com/terms-of-services/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/tos.md
+[LINE_RANGE] 137-137
+[QUOTE]
+"This site is international and has international visitors. Amino Amigos relies on each client to know the requirements of their own region and purchase accordingly."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T17:08:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/source_homepage.md
+[LINE_RANGE] 17-19
+[QUOTE]
+"## Platform Signals
+- WordPress: YES (wp-json, wp-includes, wp-content paths)
+- WooCommerce: YES (/plugins/woocommerce/)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T17:08:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/source_homepage.md
+[LINE_RANGE] 13-14
+[QUOTE]
+"## HTTP Response Headers
+- Server: nginx"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T17:08:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/source_homepage.md
+[LINE_RANGE] 21-24
+[QUOTE]
+"## Analytics
+- Google Analytics GA4: NOT found
+- Google Tag Manager: NOT found
+- Tawk.to chat: YES (ID: 647a2f967957702c744b7295)"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T17:08:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/source_homepage.md
+[LINE_RANGE] 8-9
+[QUOTE]
+"GTM: []
+GA4: []"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://aminoamigos.com/
+[FETCHED_AT] 2026-05-07T17:08:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/source_homepage.md
+[LINE_RANGE] 24-25
+[QUOTE]
+"- Tawk.to chat: YES (ID: 647a2f967957702c744b7295)
+- Facebook Pixel: NOT detected"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://aminoamigos.com/blog/
+[FETCHED_AT] 2026-05-07T17:09:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/blog_1.md
+[LINE_RANGE] 100-114
+[QUOTE]
+"# Blog
+
+Search
+
+Search
+
+## Recent Posts
+
+
+
+
+## Recent Comments
+
+No comments to show."
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://aminoamigos.com/blog/
+[FETCHED_AT] 2026-05-07T17:09:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/blog_1.md
+[LINE_RANGE] 100-101
+[QUOTE]
+"# Blog
+
+Search"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://aminoamigos.com/product/bpc/
+[FETCHED_AT] 2026-05-07T17:07:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_07__bpc.md
+[LINE_RANGE] 149-300
+[QUOTE]
+"BPC 157 quantity
+
+Add to cart
+
+Description
+
+Lab Report"
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd (semaglutide range)
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 127-129
+[QUOTE]
+"##  [GLP1 SG SEMA](https://aminoamigos.com/product/semaglutide/)
+
+$65.00 – $170.00Price range: $65.00 through $170.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-sema-5mg (semaglutide product page with dose options)
+[URL] https://aminoamigos.com/product/semaglutide/
+[FETCHED_AT] 2026-05-07T17:07:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_01__semaglutide.md
+[LINE_RANGE] 109-115
+[QUOTE]
+"Sema |
+
+  * 20mg
+  * 5mg
+  * 10mg
+
+Choose an option20mg5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] claim-sku-tirz-10mg (tirzepatide range and options)
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 135-148
+[QUOTE]
+"##  [GLP2 TZ TIRZ](https://aminoamigos.com/product/tirzepatide/)
+
+$99.00 – $1,200.00Price range: $99.00 through $1,200.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-tirz-options
+[URL] https://aminoamigos.com/product/tirzepatide/
+[FETCHED_AT] 2026-05-07T17:07:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_02__tirzepatide.md
+[LINE_RANGE] 109-117
+[QUOTE]
+"Tirz |
+
+  * 40mg x 10 vials
+  * 65mg
+  * 10mg
+  * 20mg
+
+Choose an option40mg x 10 vials65mg10mg20mgClear"
+[/QUOTE]
+
+[CLAIM] claim-sku-reta-10mg (retatrutide range)
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 152-156
+[QUOTE]
+"##  [GPL3 RT RETA](https://aminoamigos.com/product/retagpl3rt/)
+
+$126.00 – $385.00Price range: $126.00 through $385.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-reta-options
+[URL] https://aminoamigos.com/product/retagpl3rt/
+[FETCHED_AT] 2026-05-07T17:07:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_03__retagpl3rt.md
+[LINE_RANGE] 105-112
+[QUOTE]
+"Reta |  Choose an option10mg65mg
+
+  * 10mg
+  * 65mg
+
+Clear"
+[/QUOTE]
+
+[CLAIM] claim-sku-blend-tirz-reta
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 159-163
+[QUOTE]
+"##  [BLEND GLP2TZ 15mg/GLP3RT 10mg](https://aminoamigos.com/product/glp2tzglp3rt/)
+
+$185.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-blend-tirz10-cagri1
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 165-169
+[QUOTE]
+"##  [BLEND GLP2TZ 10mg/Cagri 1mg](https://aminoamigos.com/product/10mgglp2tz-1mgcagri/)
+
+$130.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-blend-sema-cagri
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 171-175
+[QUOTE]
+"##  [BLEND GLP1SG 5mg/Cagri 5mg](https://aminoamigos.com/product/5mgglp1sg-5mgcagri/)
+
+$105.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-bpc157-10mg
+[URL] https://aminoamigos.com/product/bpc/
+[FETCHED_AT] 2026-05-07T17:07:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_07__bpc.md
+[LINE_RANGE] 118-127
+[QUOTE]
+"Quantity
+
+Price
+
+<1
+
+$45.00
+
+1 - 4
+
+$45.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-blend-glow
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 193-198
+[QUOTE]
+"##  [BLEND GLOW 80mg GHK-Cu/15mg TB500/15mg BPC157](https://aminoamigos.com/product/glow/)
+
+$120.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-blend-triple-glp
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 200-205
+[QUOTE]
+"##  [BLEND GLP2TZ 10mg/GLP2SG 2mg/Cagri 2mg](https://aminoamigos.com/product/glp2tzglp1smcagri/)
+
+$145.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-blend-bpc-tb
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 207-212
+[QUOTE]
+"##  [BLEND 10mgBPC/5mgTB](https://aminoamigos.com/product/blend-bpc157-10mg-tb500-5mg/)
+
+$70.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-nad
+[URL] https://aminoamigos.com/product/nad/
+[FETCHED_AT] 2026-05-07T17:07:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_11__nad.md
+[LINE_RANGE] 99-111
+[QUOTE]
+"# NAD+ 500mg
+
+Upon receipt, you will receive an airtight vial of lyophilized powder."
+[/QUOTE]
+
+[CLAIM] claim-sku-nad (price)
+[URL] https://aminoamigos.com/product/nad/
+[FETCHED_AT] 2026-05-07T17:07:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_11__nad.md
+[LINE_RANGE] 109-112
+[QUOTE]
+"<1
+
+$85.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-cagri
+[URL] https://aminoamigos.com/product/cagri/
+[FETCHED_AT] 2026-05-07T17:07:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_12__cagri.md
+[LINE_RANGE] 99-112
+[QUOTE]
+"# Cagri 5mg
+
+Upon receipt, you will receive an airtight vial of lyophilized powder."
+[/QUOTE]
+
+[CLAIM] claim-sku-cagri (price)
+[URL] https://aminoamigos.com/product/cagri/
+[FETCHED_AT] 2026-05-07T17:07:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_12__cagri.md
+[LINE_RANGE] 109-112
+[QUOTE]
+"<1
+
+$80.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-ghkcu
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 233-240
+[QUOTE]
+"##  [GHK-Cu 100mg](https://aminoamigos.com/product/ghk-cu-100mg/)
+
+~~$ 70.00~~ Original price was: $70.00.$45.00Current price is: $45.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-blend-cjc-ipa
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 243-247
+[QUOTE]
+"##  [BLEND CJC 5mg/ IPA 5mg](https://aminoamigos.com/product/blend-cjc-5mg-ipa-5mg/)
+
+$60.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-tb500
+[URL] https://aminoamigos.com/product/tb500-2/
+[FETCHED_AT] 2026-05-07T17:07:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_15__tb500-2.md
+[LINE_RANGE] 109-113
+[QUOTE]
+"<1
+
+$35.00
+
+1 - 4
+
+$35.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-tb500 (original price showing sale)
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 254-258
+[QUOTE]
+"##  [TB 500 5mg](https://aminoamigos.com/product/tb500-2/)
+
+~~$ 39.00~~ Original price was: $39.00.$35.00Current price is: $35.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-cjc-dac
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 261-265
+[QUOTE]
+"##  [CJC W/DAC 5mg](https://aminoamigos.com/product/cjc-1295-dac-5mg-2/)
+
+$40.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-aod9604
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 267-271
+[QUOTE]
+"##  [AOD-9604 2mg](https://aminoamigos.com/product/aod-9604-2mg/)
+
+$38.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-dsip
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 277-281
+[QUOTE]
+"##  [DSIP 4mg](https://aminoamigos.com/product/dsip-4mg/)
+
+$35.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-epithalon
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 283-291
+[QUOTE]
+"##  [Epithalon 10mg](https://aminoamigos.com/product/epithalon/)
+
+~~$ 40.00~~ Original price was: $40.00.$35.00Current price is: $35.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-ipamorelin
+[URL] https://aminoamigos.com/shop/
+[FETCHED_AT] 2026-05-07T16:58:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_1.md
+[LINE_RANGE] 296-302
+[QUOTE]
+"##  [Ipa 10mg](https://aminoamigos.com/product/ipamorelin/)
+
+~~$ 55.00~~ Original price was: $55.00.$50.00Current price is: $50.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-melanotan2
+[URL] https://aminoamigos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T16:58:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_2.md
+[LINE_RANGE] 113-119
+[QUOTE]
+"##  [Melanotan Two 10mg](https://aminoamigos.com/product/melanotan-two-10mg/)
+
+$40.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-motsc
+[URL] https://aminoamigos.com/product/motsc/
+[FETCHED_AT] 2026-05-07T17:07:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_22__motsc.md
+[LINE_RANGE] 108-112
+[QUOTE]
+"<1
+
+$65.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-kpv
+[URL] https://aminoamigos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T16:58:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_2.md
+[LINE_RANGE] 129-134
+[QUOTE]
+"##  [KPV 10mg](https://aminoamigos.com/product/kpv/)
+
+$55.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-pt141
+[URL] https://aminoamigos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T16:58:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_2.md
+[LINE_RANGE] 138-143
+[QUOTE]
+"##  [PT 141](https://aminoamigos.com/product/pt/)
+
+$38.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-snap8
+[URL] https://aminoamigos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T16:58:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_2.md
+[LINE_RANGE] 146-150
+[QUOTE]
+"##  [SNAP8 10mg](https://aminoamigos.com/product/snap8/)
+
+$40.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-selank
+[URL] https://aminoamigos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T16:58:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_2.md
+[LINE_RANGE] 153-159
+[QUOTE]
+"##  [Selank 2mg](https://aminoamigos.com/product/selank/)
+
+$30.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-sermorelin
+[URL] https://aminoamigos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T16:58:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_2.md
+[LINE_RANGE] 162-166
+[QUOTE]
+"##  [Sermorelin 10mg](https://aminoamigos.com/product/sermorelin/)
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-ss31
+[URL] https://aminoamigos.com/product/ss-31-10mg/
+[FETCHED_AT] 2026-05-07T17:07:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_28__ss-31-10mg.md
+[LINE_RANGE] 108-112
+[QUOTE]
+"<1
+
+$30.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-ss31 (on-sale marker)
+[URL] https://aminoamigos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T16:58:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_2.md
+[LINE_RANGE] 171-177
+[QUOTE]
+"##  [SS-31 15mg](https://aminoamigos.com/product/ss-31-10mg/)
+
+~~$ 35.00~~ Original price was: $35.00.$30.00Current price is: $30.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-tesa
+[URL] https://aminoamigos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T16:58:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_2.md
+[LINE_RANGE] 180-185
+[QUOTE]
+"##  [Tesa 10mg](https://aminoamigos.com/product/tesa-10mg/)
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-tesofensine
+[URL] https://aminoamigos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T16:58:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_2.md
+[LINE_RANGE] 186-191
+[QUOTE]
+"Out of stock
+
+[ ](https://aminoamigos.com/product/teso/)
+
+##  [Tesofensine 300mcg capsule 60ct](https://aminoamigos.com/product/teso/)
+
+$95.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-thymosin-alpha1
+[URL] https://aminoamigos.com/product/thymosinalpha1/
+[FETCHED_AT] 2026-05-07T17:07:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_31__thymosinalpha1.md
+[LINE_RANGE] 108-112
+[QUOTE]
+"<1
+
+$75.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-thymosin-alpha1 (original price showing sale)
+[URL] https://aminoamigos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T16:58:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/catalog_2.md
+[LINE_RANGE] 197-203
+[QUOTE]
+"##  [Thymosin Alpha One 10mg](https://aminoamigos.com/product/thymosinalpha1/)
+
+~~$ 80.00~~ Original price was: $80.00.$75.00Current price is: $75.00."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://aminoamigos.com/product/bpc/
+[FETCHED_AT] 2026-05-07T17:07:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_07__bpc.md
+[LINE_RANGE] 99-99
+[QUOTE]
+"[](https://aminoamigos.com/wp-content/uploads/2024/09/BPC-157-10.jpg)"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://aminoamigos.com/product/bpc/
+[FETCHED_AT] 2026-05-07T17:07:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-amigos/product_07__bpc.md
+[LINE_RANGE] 149-173
+[QUOTE]
+"BPC 157 quantity
+
+Add to cart
+
+Description
+
+Lab Report
+
+BPC-157, short for Body Protection Compound-157, is a peptide that occurs naturally in the human body."
+[/QUOTE]

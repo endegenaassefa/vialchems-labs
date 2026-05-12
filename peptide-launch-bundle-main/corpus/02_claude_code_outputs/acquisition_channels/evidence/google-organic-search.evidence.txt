@@ -1,0 +1,405 @@
+================================================================================
+EVIDENCE FILE — channel: google-organic-search
+captured: 2026-05-06
+================================================================================
+
+[CLAIM] How channel works / SERP composition for "buy research peptides online vendor"
+[URL] https://www.google.com/search?q=buy+research+peptides+online+vendor
+[FETCHED_AT] 2026-05-06T15:00:00Z
+[FETCH_METHOD] websearch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/serp-buy-research-peptides-online-vendor.md
+[LINE_RANGE] 1-20
+[QUOTE]
+"Biotech Peptides ... Buy Peptides Online - CREDIT CARDS ACCEPTED (USA Made) - Biotech / rPeptide ... Buy Research Peptides Online USA / Phoenix Pharmaceuticals ... Research Peptides for Sale / Limitless Biotech ... Buy Peptides Online - USA Made for Research / Direct Peptides ... Buy Research Peptides Online / MyBioSource ... Buy Research Peptides | Custom Peptide Synthesis Services / Core Peptides ... Peptides and Blends for Sale Online - USA Made / Peptide Pros ... Buy Peptides for Sale Online | Chemicals and SARMS / NuScience Peptides | 99% Pure Research Peptides For Sale / Aapptec Peptides"
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] SERP composition for head term "buy peptides" — vendor PDP/category dominance + biohacker-vendor absence
+[URL] https://www.google.com/search?q=buy+peptides
+[FETCHED_AT] 2026-05-06T15:25:00Z
+[FETCH_METHOD] websearch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/serp-buy-peptides.md
+[LINE_RANGE] 1-22
+[QUOTE]
+"Phoenix Pharmaceuticals ... B2B peptide wholesaler serving scientific researchers, academic labs, and biotech/pharma companies / Biotech Peptides ... synthesized and lyophilized in the USA / rPeptide ... high-quality research peptides online with custom and catalog peptides for Alzheimer's and neurodegenerative research / Aapptec Peptides ... peptide accessories, amino acids and more / Biosynth ... combines expertise from vivitide, Pepscan, Cambridge Research Biochemicals (CRB), and Pepceuticals / MyBioSource ... custom peptide synthesis services / JPT Peptide Technologies ... more than 2,000 off-the-shelf peptides / Peptide Pros / Pure Health Peptides / Direct Peptides"
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] SERP composition for compound-name commercial term "BPC-157 buy research peptide"
+[URL] https://www.google.com/search?q=BPC-157+buy+research+peptide
+[FETCHED_AT] 2026-05-06T15:05:00Z
+[FETCH_METHOD] websearch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/serp-bpc-157.md
+[LINE_RANGE] 1-22
+[QUOTE]
+"Buy BPC-157 (5mg) - Biotech Peptides / Buy BPC-157 Peptides (10MG) - 99% Pure RUO Peptides ... verifiedpeptides.com / BPC-157: Experimental Peptide Creates Risk for Athletes ... usada.org/spirit-of-sport / Buy BPC-157 | 99% Purity (USA Made) | Peptide Sciences / Buy BPC-157 Peptide 10mg ... limitlesslifenootropics.com / BPC 157 for Sale ... purehealthpeptides.com / Buy BPC-157 (10mg) ... biolongevitylabs.com / Emerging Use of BPC-157 in Orthopaedic Sports Medicine ... pmc.ncbi.nlm.nih.gov / BPC-157 PURE | ... compoundingrxusa.com / BPC-157 Peptide ... ProSpec ... prospecbio.com"
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] SERP composition for review/comparison term "best peptide vendor 2026 review" — listicle/affiliate dominance, no Reddit
+[URL] https://www.google.com/search?q=best+peptide+vendor+2026+review
+[FETCHED_AT] 2026-05-06T15:10:00Z
+[FETCH_METHOD] websearch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/serp-best-peptide-vendor.md
+[LINE_RANGE] 1-22
+[QUOTE]
+"Best Peptide Sources 2026: The Ultimate Comparison ... cernumbiosciences.com / The Only 13 Legit Top Peptide Companies Review 2026 ... outliyr.com / Top 10 Peptide Companies in the USA: Best Ranked Vendors (2026 Guide) ... protidehealth.com / Peptide Vendors: 7 Tested, Only 3 Worth Buying (2026) ... thepeptidecatalog.com / Best Peptide Vendors in 2026: Testing & Transparency Review ... subqprotocol.com / Top 5 Trusted Peptide Vendors Online 2026 Guide ... healthletic.io / Peptides Vendor Ratings - Finnrick Analytics ... finnrick.com / Best Peptide Vendors 2026: Legit Sources & Scam Red Flags | PeptideDeck / Best companies in Biochemical Supplier on Trustpilot / Particle Peptides Review 2026 ... eupeptideguide.com"
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Schema markup observation — Limitless Biotech BPC-157 PDP uses Product schema (JSON-LD) with full Offer
+[URL] https://limitlesslifenootropics.com/product/bpc-157/
+[FETCHED_AT] 2026-05-06T15:30:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/limitlesslifenootropics-bpc157-pdp.md
+[LINE_RANGE] 8-15
+[QUOTE]
+"Schema Markup: Product schema is embedded in JSON-LD format, including: Product name, description, image, and URL; Offer details with price ($99.99 USD), availability (InStock), and condition (NewCondition); Price validity through 2027-05-06."
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Schema markup observation — Biotech Peptides BPC-157 PDP uses Product + Review schema
+[URL] https://biotechpeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-06T15:32:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/biotechpeptides-bpc157-pdp.md
+[LINE_RANGE] 16-22
+[QUOTE]
+"Schema Markup Hints: Product schema indicated by pricing, availability, and product details. Review schema evident: 'Rated 4.93 out of 5 based on 67 customer ratings'."
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Content depth on ranking PDP — Core Peptides GHK-Cu page carries 15 academic references and Product schema
+[URL] https://www.corepeptides.com/peptides/ghk-cu-50mg-copper/
+[FETCHED_AT] 2026-05-06T15:34:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/corepeptides-ghkcu-pdp.md
+[LINE_RANGE] 18-26
+[QUOTE]
+"The page contains Product schema markup with pricing and availability information. No Review or FAQ schema is explicitly visible in the provided content. Content Depth: Extensive research documentation included, covering tissue repair, wound healing, metastasis studies, ulcer treatment, behavioral effects, antioxidative properties, and anti-inflammatory mechanisms. Fifteen academic references are cited."
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Behemoth Labz uses AggregateRating star markup on PDPs (visible in title "Lab-Tested | USA-Made" + "Rated 4.85 out of 5")
+[URL] https://behemothlabz.com/
+[FETCHED_AT] 2026-05-06T15:38:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/behemothlabz-homepage.md
+[LINE_RANGE] 22-26
+[QUOTE]
+"Notable Schema/Structured Data Hints: Pricing displayed with 'Price range' notation and rating stars ('Rated 4.85 out of 5')"
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Google Ads ban makes organic search the de-facto primary channel for peptide vendors
+[URL] https://www.lanternsol.com/blogs/seo-peptide-brand-growth-channel
+[FETCHED_AT] 2026-05-06T15:45:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/lanternsol-seo-peptide-channel.md
+[LINE_RANGE] 5-10
+[QUOTE]
+"Google Ads bans or severely restricts campaigns for unapproved pharmaceuticals and many supplement categories, especially compounds like semaglutide, tirzepatide, or peptides marketed around weight management, longevity, or performance-related claims."
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Cross-vendor agency confirmation that paid platforms are unviable for peptides; SEO is the answer
+[URL] https://www.nexamed.us/post/how-to-market-peptides-in-2026
+[FETCHED_AT] 2026-05-06T15:48:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/nexamed-peptide-seo.md
+[LINE_RANGE] 5-12
+[QUOTE]
+"Meta and Google don't want anything to do with peptides. ... if the DEA comes out three years from now and says millions of kids are addicted to nicotine, and Meta was the channel that let companies promote it — that's an existential problem. ... The answer is SEO. ... Nothing prevents you from creating a page on your website and working to rank it on Google for terms like 'GHK-Cu peptide buy online.'"
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Time-to-rank for peptide SEO — agencies converge on 2-6 months
+[URL] https://theseoclinic.com/peptide-seo/
+[FETCHED_AT] 2026-05-06T15:46:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/theseoclinic-peptide-seo.md
+[LINE_RANGE] 17-23
+[QUOTE]
+"Pricing Structure: Fixed $3,000 monthly fee with no long-term contracts (3-month minimum commitment). Timeline: Ranking typically achieves results in 2-4 months depending on site age. Key Claims: Clients 'typically see a $10k+ increase in organic monthly revenue within 3-6 months'."
+[/QUOTE]
+
+[CLAIM] Triangulation — Lantern Sol agrees on the 3-6 month band
+[URL] https://www.lanternsol.com/blogs/seo-peptide-brand-growth-channel
+[FETCHED_AT] 2026-05-06T15:45:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/lanternsol-seo-peptide-channel.md
+[LINE_RANGE] 18-19
+[QUOTE]
+"Typically 3–6 months for traction, with growth building from there."
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Schema markup recommendation — Product, FAQ, Article schemas + per-compound page architecture
+[URL] https://www.lanternsol.com/blogs/seo-for-peptides
+[FETCHED_AT] 2026-05-06T15:50:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/lanternsol-seo-for-peptides.md
+[LINE_RANGE] 6-13
+[QUOTE]
+"Schema markup (product, FAQ, article) ... Mobile-first structure ... Site speed optimization ... Crawlable architecture ... Focus on compound names (BPC-157, CJC-1295, Ipamorelin) and intent-based queries ... Build dedicated pages for each compound and intent cluster instead of grouping multiple peptides onto one generic page."
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] YMYL classification + E-E-A-T pressure on peptide pages
+[URL] https://theseoclinic.com/peptide-seo/
+[FETCHED_AT] 2026-05-06T15:46:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/theseoclinic-peptide-seo.md
+[LINE_RANGE] 7-9
+[QUOTE]
+"Medical-Grade Content: Google's YMYL algorithms demand expert review. We produce PubMed-backed content that establishes E-E-A-T without triggering regulatory red flags."
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Search volume — US peptide-related queries reached ~10.1M/mo by Jan 2026
+[URL] https://www.lanternsol.com/blogs/seo-for-peptides
+[FETCHED_AT] 2026-05-06T15:50:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/lanternsol-seo-for-peptides.md
+[LINE_RANGE] 4-5
+[QUOTE]
+"US peptide-related searches hit 10.1 million by January 2026."
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Vendor closure — Peptide Sciences shutdown March 6, 2026 — major SERP gap created
+[URL] https://muscleandbrawn.com/blog/peptide-sciences-shut-down/
+[FETCHED_AT] 2026-05-06T15:55:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/peptide-sciences-shutdown.md
+[LINE_RANGE] 6-8
+[QUOTE]
+"Peptide Sciences permanently closed operations with minimal announcement. The company's homepage stated: 'After careful consideration, Peptide Sciences has made the decision to voluntarily shut down operations.'"
+[/QUOTE]
+
+[CLAIM] Triangulation — peptidedossier confirms shutdown date and revenue scale
+[URL] https://peptidedossier.com/guides/peptide-sciences-shutdown/
+[FETCHED_AT] 2026-05-06T15:55:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/peptide-sciences-shutdown.md
+[LINE_RANGE] 9-12
+[QUOTE]
+"Peptide Sciences shut down on 'March 6, 2026' without advance warning. ... generating approximately '$7.4 million in monthly online sales' as of late 2025."
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] FDA enforcement context — 50+ warning letters single month + earlier 4-vendor letters
+[URL] https://peptidedossier.com/guides/peptide-sciences-shutdown/
+[FETCHED_AT] 2026-05-06T15:55:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/peptide-sciences-shutdown.md
+[LINE_RANGE] 12-16
+[QUOTE]
+"escalating FDA enforcement, including warning letters (December 2024), facility raids (June 2025), and 'over 50 warning letters' issued in a single month (September 2025)."
+[/QUOTE]
+
+[CLAIM] Triangulation — Wilson Sonsini confirms 50+ FDA letters Sept 2025 to GLP-1 compounders
+[URL] https://www.wsgr.com/en/insights/fda-sends-warning-letters-to-more-than-50-glp-1-compounders-and-manufacturers.html
+[FETCHED_AT] 2026-05-06T15:58:00Z
+[FETCH_METHOD] websearch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/peptide-sciences-shutdown.md
+[LINE_RANGE] N/A
+[QUOTE]
+"FDA Sends Warning Letters to More Than 50 GLP-1 Compounders and Manufacturers"
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Pricing benchmark — Limitless Biotech BPC-157 = $99.99; Biotech Peptides BPC-157 = $52-$92; Core Peptides GHK-Cu 50mg = $58
+[URL] https://limitlesslifenootropics.com/product/bpc-157/
+[FETCHED_AT] 2026-05-06T15:30:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/limitlesslifenootropics-bpc157-pdp.md
+[LINE_RANGE] 5-7
+[QUOTE]
+"Price: $99.99 (USD, including tax). COA Presence: Yes, extensive documentation available. The page provides multiple Certificates of Analysis across different batch numbers (#1305, #1217, #1347, #1330, #1333), each covering purity, sterility, and endotoxin testing."
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Vendor product taxonomy strategies differ — Limitless uses research-application taxonomy, Core Peptides uses compound-name PDPs
+[URL] https://limitlesslifenootropics.com/
+[FETCHED_AT] 2026-05-06T15:22:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/limitlesslifenootropics-homepage.md
+[LINE_RANGE] 8-13
+[QUOTE]
+"Cognitive Health Research / Immune Health Research / Metabolic Research / Mitochondrial Research / Gastrointestinal Research / Musculoskeletal Research / Cardiovascular Research / Circadian Research / Dermatological Research / Cellular Longevity Research / Reproductive Health Research / Tissue Regeneration Research / Hormonal Research"
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Listicle dominance — outliyr lists 13 vendors with affiliate framing; ranks Limitless Biotech #1
+[URL] https://outliyr.com/best-online-peptide-companies-websites-sources
+[FETCHED_AT] 2026-05-06T15:14:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] (described in main file)
+[LINE_RANGE] N/A
+[QUOTE]
+"Limitless Biotech is described as 'BEST OVERALL,' offering 'the widest selection of research peptides with batch-specific COA testing.' ... The article emphasizes third-party testing verification, discount codes, and affiliate commission disclosures."
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Listicle dominance #2 — protidehealth ranks itself #1 in "Top 10 Peptide Companies in the USA"
+[URL] https://protidehealth.com/top-10-peptide-companies-usa/
+[FETCHED_AT] 2026-05-06T15:16:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] (described in main file)
+[LINE_RANGE] N/A
+[QUOTE]
+"Rank 1: Protide Health ... Protide Health's stated advantage: 'USA Manufactured, Expert Support' with 'Overall Best Quality & Service' designation."
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Listicle dominance #3 — peptidedeck blog promotes single vendor (Ascension Peptides) via affiliate framing
+[URL] https://www.peptidedeck.com/blog/best-peptide-source-2026
+[FETCHED_AT] 2026-05-06T16:05:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] (described in main file)
+[LINE_RANGE] N/A
+[QUOTE]
+"Only one vendor receives explicit recommendation: Ascension Peptides. The article positions it as 'the only peptide source we recommend' and provides affiliate links throughout."
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Independent rating site Finnrick — 7,164 samples / 205 vendors tested; A-F + X grading; Paradigm Peptide A 8.9 / 16 products
+[URL] https://www.finnrick.com/vendors
+[FETCHED_AT] 2026-05-06T15:25:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] (described in main file)
+[LINE_RANGE] N/A
+[QUOTE]
+"Finnrick has procured a total of 7,164 samples from 205 vendors ... Sample Size ... rating scale uses letter grades (A through F, plus X) ... Paradigm Peptide holds an A rating with 'avg 8.9' across 16 products tested."
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Pure Rawz / Behemoth Labz likely common ownership — concentration risk in grey-market cluster
+[URL] https://nanotechproject.org/buy-sarms-for-sale/
+[FETCHED_AT] 2026-05-06T16:00:00Z
+[FETCH_METHOD] websearch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/similarweb-swisschems-competitors.md
+[LINE_RANGE] 23-25
+[QUOTE]
+"There are some claims stating PureRawz and Behemoth Labz are the same company, and after doing a bit of digging, this is very likely to be the truth."
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Similarweb traffic ranks for the grey-market peptide cluster (April 2026)
+[URL] https://www.similarweb.com/website/swisschems.is/competitors/
+[FETCHED_AT] 2026-05-06T16:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/similarweb-swisschems-competitors.md
+[LINE_RANGE] 5-21
+[QUOTE]
+"swisschems.is — Global Rank: #97,158 ; US Country Rank: #26,399 ; Pages per Visit: 5.53 ; Avg Visit Duration: 00:02:39 ... Top 5 Competitors: 1. umbrellalabs.is (100%) #159,637 ; 2. science.bio (97%) #950,172 ; 3. peptidesciences.com (93%) #473,906 ; 4. kimerachems.co (91%) #258,349 ; 5. behemothlabz.com (89%) #540,163"
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Reddit IS NOT directly ranking on the head/compound terms — but Reddit-aggregator content ("Reddit guide" articles) is
+[URL] https://www.google.com/search?q=site%3Areddit.com+peptide+vendor+source+list+2026
+[FETCHED_AT] 2026-05-06T15:42:00Z
+[FETCH_METHOD] websearch
+[RAW_ARTIFACT] (no results returned)
+[LINE_RANGE] N/A
+[QUOTE]
+"No links found. ... 1. Reddit posts with that exact combination of terms may not exist or may not be indexed"
+[/QUOTE]
+
+[INFERENCE] Reddit threads have low organic visibility on commercial peptide queries despite frequent community recommendation; 3rd-party "Reddit-source-list" articles capture that traffic instead.
+[REASONING] Across all SERPs captured (buy peptides, BPC-157, best peptide vendor 2026), zero Reddit URLs appeared in top 10. But search results consistently surfaced *articles about* Reddit ("Top 5 Peptide Injections Reddit Guide", "Best Place in USA to Buy Peptides Reddit"), confirming users seek Reddit-style validation but Google instead serves vendor-affiliated content.
+[SUPPORT_QUOTE] (Lantern Sol) "Focus on compound names (BPC-157, CJC-1295, Ipamorelin) and intent-based queries"; (search returns) "Top 5 Peptide Injections Reddit Guide ... swcofusa.com"
+
+================================================================================
+
+[CLAIM] BPC-157 USADA classification creates E-A-T tension — anti-doping authority outranks several vendor PDPs on athlete-coded terms
+[URL] https://www.usada.org/spirit-of-sport/bpc-157-peptide-prohibited/
+[FETCHED_AT] 2026-05-06T15:05:00Z
+[FETCH_METHOD] websearch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/serp-bpc-157.md
+[LINE_RANGE] 8-9
+[QUOTE]
+"BPC-157: Experimental Peptide Creates Risk for Athletes ... usada.org/spirit-of-sport/bpc-157-peptide-prohibited/"
+[/QUOTE]
+
+================================================================================
+
+[CLAIM] Disclaimer text consistent across vendors — "research only / not for human consumption" — required E-A-T hedge
+[URL] https://www.corepeptides.com/
+[FETCHED_AT] 2026-05-06T15:18:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/corepeptides-homepage.md
+[LINE_RANGE] 17-19
+[QUOTE]
+"All products are sold for research, laboratory, or analytical purposes only, and are not for human consumption. Human/Animal Consumption Prohibited. Laboratory/In-Vitro Experimental Use Only"
+[/QUOTE]
+
+[CLAIM] Triangulation — Biotech Peptides uses identical disclaimer formula
+[URL] https://biotechpeptides.com/
+[FETCHED_AT] 2026-05-06T15:20:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/biotechpeptides-homepage.md
+[LINE_RANGE] 18-19
+[QUOTE]
+"All products are sold for research, laboratory, or analytical purposes only, and are not for human consumption."
+[/QUOTE]
+
+================================================================================
+
+[INFERENCE] Listicle/affiliate ecosystem owns the "best vendor" SERP; new entrants must either pay for placement, build their own listicle on a brand-adjacent domain, or aim narrower (compound-specific PDP).
+[REASONING] Of 10 SERP results for "best peptide vendor 2026 review", at least 6 are vendor-owned blogs (cernumbiosciences/blogs, protidehealth/top-10, peptidedeck/blog, healthletic, subqprotocol, eupeptideguide) presenting themselves as independent reviews while ranking themselves or their affiliated brands at #1. Only 2 are arguably independent (Finnrick, Trustpilot).
+[SUPPORT_QUOTE] (peptidedeck) "Only one vendor receives explicit recommendation: Ascension Peptides. The article positions it as 'the only peptide source we recommend' and provides affiliate links throughout."
+[SUPPORT_QUOTE] (protidehealth) "Rank 1: Protide Health" ... ranking itself #1 on its own listicle.
+
+================================================================================
+
+[INFERENCE] Vendors that sell unambiguous brand-name pharma analogs (Tirzepatide/Semaglutide/Retatrutide) are at higher Google deindex risk than vendors selling compound-name only (BPC-157/GHK-Cu) — FDA warning letters concentrate on GLP-1 compounders.
+[REASONING] FDA warning-letter waves of Sept 2025 (50+ letters) and Dec 2024 (4 vendors) targeted GLP-1 specifically, citing claims that compounds were "generic versions" of FDA-approved Ozempic/Mounjaro. Vendors that sell GLP-1s and use brand-name-adjacent positioning face additional Google manual-action risk because YMYL signals pile up: medical claims + brand confusion + pharma-conflict.
+[SUPPORT_QUOTE] (Wilson Sonsini) "FDA Sends Warning Letters to More Than 50 GLP-1 Compounders and Manufacturers"
+[SUPPORT_QUOTE] (peptide-sciences shutdown context) "warning letters issued to four peptide vendors: Prime Peptides, Xcel Peptides, SwissChems, and Summit Research"
+[SUPPORT_QUOTE] (FDA Gram Peptides letter referenced) "FDA reviewed Gram Peptides' website ... offers 'Retatrutide' and 'Tirzepatide' products for sale"
+
+================================================================================
+
+[CLAIM] Vendor product page word counts ARE long-form — typical ranking PDP carries 800-2000 words, multiple peer-reviewed citations
+[URL] https://biotechpeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-06T15:32:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/google-organic-search/biotechpeptides-bpc157-pdp.md
+[LINE_RANGE] 18-22
+[QUOTE]
+"Content Depth: Extensive research-backed content including sections on wound healing, vascular growth, tendon healing, antioxidant characteristics, CNS effects, and 10 peer-reviewed references."
+[/QUOTE]
+
+================================================================================
+
+[INFERENCE] Reviews show market is far from frictionless — orders cancelled, refunds disputed — which produces a constant churn of "Vendor X is dead, here are alternatives" content that itself becomes a 2nd-order ranking opportunity for new entrants.
+[REASONING] Peptide Sciences shutdown spawned multiple ranking articles within weeks — peptidedossier, NorthPeptide, biostrataresearch, peptidesexplorer, lumalexlaw, peptidelaws, pureuspeptide, adaptpeptides, thepeptidecatalog. The "Vendor X shut down — alternatives" template is a recurring SEO opportunity.
+[SUPPORT_QUOTE] (peptidedossier) "the closure represents the end of an era for unregulated peptide supply"
+[SUPPORT_QUOTE] (muscleandbrawn) "The article recommends SwissChems as a replacement supplier, citing its broad catalog, third-party testing documentation"
+================================================================================

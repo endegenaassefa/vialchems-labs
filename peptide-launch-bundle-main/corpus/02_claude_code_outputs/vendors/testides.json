@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "testides",
+  "brand_name": "Testides",
+  "primary_domain": "https://testides.com/",
+
+  "fetched_url": "https://testides.com/",
+  "fetched_at": "2026-05-07T02:20:08Z",
+  "fetch_status": "partial",
+
+  "tier": "1",
+  "tier_rationale": "as-assigned (Tier 1 'Legitimate analytical testing lab' per seed). Testides is a Canadian analytical testing lab providing HPLC purity, mass spectrometry, endotoxin (LAL), microbial, heavy metals, and residual solvents testing services for peptides, small molecules, nootropics, and dietary supplement ingredients sent in by third-party customers. The retail-product schema fields (per_mg_price, dose, list_price_usd, sale_price_usd, out_of_stock, age_gate, on_site_reviews, etc.) are categorically uncertain because Testides does not sell peptides — they test peptides for paying customers (research vendors, pharmaceutical companies, individual buyers verifying purity). The lab's catalog (85 testable compounds via /api/peptides/public), service categories (HPLC purity, MS, microbial, endotoxin, heavy metals, residual solvents, custom analysis), turnaround times (24-48 hours fast option, 5-10 business days standard), payment methods (Stripe credit/debit, Interac e-Transfer, Wise), CAD pricing currency, ISO 17025 alignment, Toronto ON location, Canada+USA shipping coverage, and React/Vite/Cloudflare tech stack ARE captured. Field completion ratio computed at 0.6379 (37/58 leaf fields non-uncertain) → 'partial' per Rule 17. Tier remains 1 per seed: this is real category infrastructure (the testing lab serious researchers use to verify vendor claims), not a downgradeable position.",
+  "field_completion_ratio": 0.6379,
+
+  "country_of_operation": "Canada",
+  "fulfillment_country": "Canada",
+  "ship_to_scope": "us_intl",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "Welcome to Testides | Peptide Testing Platform | Analytical Testing for [Peptides] | Trusted by leading pharmaceutical companies and research institutions for critical testing",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Request Peptide Testing",
+    "navigation_pattern": "Client-Portal SPA with Login/Register entry; authenticated nav: Dashboard, Test Requests, Orders, Invoices, Reports, Tickets, Campaigns, Credits, Pricing, Account; public-facing tabs: Our Services / Our Testing Portfolio / Our Testing Services / Tested Compounds / Why Choose Testides? / Service Agreement / Terms of Service / Privacy Policy / Look Up Test Report",
+    "footer_disclaimers": "Testides | Toronto, ON | Canada & USA coverage | Visit us at [Toronto, ON address] | Service Agreement [Testides-Service-Agreement-Signed.pdf]"
+  },
+
+  "catalog": {
+    "sku_count": 0,
+    "category_taxonomy": ["HPLC (Purity)", "Mass Spectrometry", "Endotoxin Testing", "Microbial Quality Testing", "Heavy Metals Report", "Residual Solvents", "Custom Peptide Analysis"],
+    "search_filter_capabilities": "Search by name or code (e.g., Semaglutide, SEMA) over 85 testable peptides/compounds returned by /api/peptides/public (84 active + 1 'TBD' admin placeholder)",
+    "stack_bundle_pages_present": "false"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "https://testides.com/api/peptides/public",
+    "sample_product_name": "HPLC (Purity) test for BPC-157 (representative testing-service line item, not a peptide product)",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "Advanced UV detection for precise separation and identification of peptide compounds with exceptional resolution. | Bacterial endotoxin testing for peptide safety validation, ensuring compliance with pharmaceutical standards. | Comprehensive microbial testing to assess product safety and quality with validated enumeration and pathogen detection methods. | Specialized analytical methods designed for your unique peptide testing requirements and research objectives.",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "true",
+    "coa_hosting": "on_site",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "true",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "We test a range of research and nutraceutical materials, including peptides, small molecules, nootropic ingredients, and dietary supplement ingredients, subject to method fit.",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "Canada & USA coverage | Serving North America | Serving pharmaceutical companies and research institutions across North America",
+    "tos_url": "https://testides.com/terms-of-service",
+    "tos_highlights": "Service Agreement is a downloadable PDF (Testides-Service-Agreement-Signed.pdf) requiring authenticated client access via /api/client/service-agreement/download (HTTP 401 without session). Public-facing acceptance flow at /service-agreement/accept and /service-agreement/active routes. Terms link present in checkout flow ('I have read and accepted the terms and conditions as outlined in the [Service Agreement]'). Full TOS body not retrievable without account creation, which §11 forbids.",
+    "refund_policy": "Cancellation possible during campaign group-test phase ('Cancel this campaign? | Yes, cancel and refund'). Full refund policy text behind authenticated Service Agreement PDF.",
+    "shipping_policy": "Customer ships samples TO the lab (inverse of retail shipping). Vial labeling requirements: 'Each vial must be labeled with: [peptide name, amount, appearance, batch/lot]'. Shipping Instructions and Inside the Package guidance provided. 'Packages that are clearly labeled and contain this information can be processed faster and with fewer follow-up questions.' 'Samples received without an associated test request will not be processed.'"
+  },
+
+  "checkout_flow": {
+    "account_required": "true",
+    "guest_checkout_available": "false",
+    "fields_collected": ["Email", "Password", "Company/Organization", "Billing address (street, city, province/state, postal/ZIP)", "Peptide name (e.g. BPC-157)", "Mass/amount per vial (e.g. 10mg)", "Appearance (e.g. White Lyophilized Powder, Blue Powder, White Powder)", "Vendor Name on Report", "Notes (optional)", "Watermark image (optional)", "Promo code", "Referral code"],
+    "id_verification_present": "false",
+    "payment_methods_accepted": ["credit_card_via_Stripe", "Interac_E-Transfer (Preferred — Canada only, via Wise)", "Wise_Transfer", "account_credit_balance"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "Customer-paid inbound shipping to lab; no outbound product shipping. Processing Fee charged on orders. Volume Pricing applies when ordering specified quantity or more. Default 13% HST applied to Ontario orders; location-based tax rates determined from billing address.",
+    "international_policy": "Canada & USA coverage. Province/State dropdown includes all 10 Canadian provinces, 3 territories (Alberta, British Columbia, Newfoundland and Labrador, Northwest Territories, Prince Edward Island, etc.) and all US states (California, Texas, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming, etc.) plus District of Columbia. Postal-code validators present for both Canadian (e.g. A1B 2C3) and US (e.g. 12345 or 12345-6789) formats."
+  },
+
+  "tech_stack": {
+    "platform_signal": "custom",
+    "cdn": "Cloudflare (server: cloudflare; cf-ray: 9f7cbe6728a70c23-EWR; cf-cache-status: DYNAMIC; HTTP/2 with h3=:443 alt-svc; cf-nel reporting endpoint)",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": ["uncertain"],
+    "testimonial_usage": "Generic claim 'Trusted by leading pharmaceutical companies and research institutions for critical testing' — no named clients, named testimonials, named case studies, or named scientists/PhDs visible in the JS bundle string constants. Bulletin Board feature ('Failed to load bulletins | Check back later for news and announcements.') is a content slot but its rendered content is auth-gated and not retrievable without account creation (§11 forbidden).",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "Testidestestides,Testidestestides.com,Canada,Canada,US+Intl,Uncertain,Active,Institutional,Peptide Testing,Institutional,Y (Reddit),Mar 2026,Tier 1: Legitimate analytical testing lab."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/testides/",
+  "evidence_file": "evidence/testides.txt",
+  "uncertainty_notes": "fetch_status='partial' per Rule 17 (computed field_completion_ratio 37/58 = 0.6379, in 0.40-0.69 partial band). REASON FOR PARTIAL: Testides is a Canadian analytical testing lab — it sells testing services, not peptides. The Pillar A schema is built around peptide-vendor retail commerce (SKUs, dose, per-mg pricing, list_price, sale_price, on-site reviews, age-gate, COA-hosting-as-product-trust-signal); applying it to a service-only B2B/B2C testing lab leaves many retail-shaped fields as legitimately 'uncertain' rather than fabricated. Computed ratio 37/58 = 0.6379 (just under the 0.70 threshold for 'ok', firmly within the 0.40-0.69 'partial' band). ARTIFACTS: 5 saved in 03_raw_fetches/testides/ — homepage.md (composite of HTML shell + JS-bundle string constants extracted via grep -oE; the React SPA renders empty <div id=root> from curl, so the user-visible content lives client-side in the /assets/index-C7iQRKk4.js bundle and was extracted there per Rule 6 — quotes still grep-match because the bundle strings ARE the rendered text), catalog_peptides.md (full JSON response from public /api/peptides/public listing 85 testable compounds), source_homepage.md (the JS-bundle string-constant extract used for tech-stack inferences), response_headers.md (Cloudflare-server response headers from /, /api/peptides/public, and /api/client/service-agreement/download), tos.md (terms-of-service route — returns SPA shell only; full TOS body auth-gated). FIELD-LEVEL UNCERTAIN REASONS: (1) skus[] is empty array — Testides has no products-for-sale; the 85 entries in /api/peptides/public are testable-compound line items (testing-service catalog), not peptide SKUs. Those would be re-pasted SKU rows that would create false equivalence with retail vendors and fail Rule 1. (2) product_page_anatomy.dose_options/list_price/per_mg_cost/photographic_treatment/exact_disclaimer_language/lab_partner_named/related_product_modules_present uncertain — no peptide-product pages exist; the closest analog is a per-test pricing line, which is itself behind authenticated /api/orders/price-quote. (3) trust_compliance.age_gate_present uncertain — login/register flow is the gate, no separate age verification observed in JS strings; full TOS body behind auth wall (§11 forbids account creation). (4) checkout_flow.shipping_carriers uncertain — no specific carrier names visible (UPS/FedEx/USPS/Canada Post) in the JS bundle strings, only generic 'Shipping Instructions'. (5) tech_stack.analytics_tools_loaded uncertain — JS bundle search for 'gtag|googletagmanager|UA-|G-[A-Z0-9]+|fbq|hotjar|amplitude|klaviyo|fullstory|mixpanel' surfaced only the literal token 'amplitude' (sub-string of larger words like 'Limulus Amebocyte Lysate' / 'amplitude' not in product/script context), no GA, GTM, FB pixel, TikTok pixel, Hotjar, Klaviyo evidence in client-side code; cannot positively assert no analytics without a network-tab check, and §9 Rule 9 forbids running headless Chromium-bypass workarounds. (6) tech_stack.marketing_pixels_present uncertain for the same reason as analytics. (7) content_footprint all uncertain — no public /blog or /education or /insights route surfaced from React Router route extraction; bulletin board exists but is auth-gated. (8) social_proof.off_site_aggregators uncertain — Reddit/Trustpilot mining attempts blocked at the SERP layer (Google returned anti-bot redirect; Reddit JSON returned non-JSON challenge; cannot bypass per Rule 9). (9) year_established uncertain — no copyright year, no 'since YYYY' phrasing, no 'founded' phrasing in JS strings; database timestamps show oldest peptide records dated 2025-12-05 which is platform-launch-not-company-founding inference. (10) social_proof.visible_influencer_endorsements uncertain — no influencer/endorsement copy visible in JS strings. INFERRED FIELDS (per Rule 19, 2 use [INFERENCE] in evidence file with ≥2 SUPPORT_QUOTE blocks each): hero_imagery_style='clinical' (supported by ISO-17025 / pharmaceutical-companies / institutional posture quotes), platform_signal='custom' (supported by Vite/React/TanStack QueryClient construction + bespoke /api/* backend not matching Shopify/Woo/BigCommerce/Wix signatures), product_page_anatomy.coa_present='true' and coa_hosting='on_site' (supported by 'Download HPLC COA' / 'Certificate Of Analysis' / 'Tamper-Evident Reporting' / 'Digitally verifiable results' strings — COAs are the entire deliverable for this business), batch_lot_transparency='true' (supported by 'Batch Number' field, 'Lot numbers must be unique' validation, vial-labeling protocol). BOUNDS ENCOUNTERED: §11 — no account creation attempted (Service Agreement PDF, full TOS, full pricing, /api/client/* require authenticated session). §11 — no checkout walk past Login wall. Rule 9 — no anti-bot bypass attempted on Google SERP or Reddit JSON challenge; both documented and unverified. Rule 9 — gstack:browse failed to launch (Chromium sandboxing as root in WSL2 is blocked per known environment limitation noted in subagent brief; documented and not worked around). RECOMMENDATION FOR OPERATOR: Testides is a service vendor, not a product vendor. They are infrastructure for the peptide-research category — the lab buyers use to verify a retail vendor's purity claims. They should be tracked as a category-trust signal (i.e., 'which retail vendors publish Testides COAs?' is itself a Pillar A signal across other vendor profiles), not benchmarked against retail competitors. Pricing intelligence (Pillar C) cannot be generated from this profile because there are no SKUs. Customer-acquisition channel intelligence (Pillar B) is light because the JS bundle exposes no blog, no testimonials, no influencer relationships, no off-site social signals — they appear to acquire via direct word-of-mouth in pharma/research institutional networks plus the Reddit-citation channel noted in the seed CSV ('Y (Reddit)'). For the Mogtrix throwaway-brand thesis, Testides represents the 'verifiable third-party purity proof' link in the category trust chain; a new entrant publishing Testides-issued COAs would inherit some of Testides' reputation."
+}

@@ -1,0 +1,899 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://everydaypeptides.ltd
+[FETCHED_AT] 2026-05-07T19:50:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/homepage.md
+[LINE_RANGE] 68-74
+[QUOTE]
+"Research-Grade Peptides (RUO)
+
+Everyday Peptides supplies research-grade peptides (RUO) with clear labeling, traceable lot information, and consistent presentation.
+
+Research Use Only (RUO). Not for human or veterinary use.
+
+[ Shop Now ](https://everydaypeptides.ltd/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://everydaypeptides.ltd
+[FETCHED_AT] 2026-05-07T19:50:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/homepage.md
+[LINE_RANGE] 74-74
+[QUOTE]
+"[ Shop Now ](https://everydaypeptides.ltd/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://everydaypeptides.ltd
+[FETCHED_AT] 2026-05-07T19:50:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/homepage.md
+[LINE_RANGE] 14-31
+[QUOTE]
+"  * [Home](https://everydaypeptides.ltd/)
+  * [Shop](https://everydaypeptides.ltd/shop/)
+    * [Singe Vials](https://everydaypeptides.ltd/singe-vials/)
+    * [Kits](https://everydaypeptides.ltd/kits/)
+    * [Aminos](https://everydaypeptides.ltd/aminos/)
+    * [Capsules](https://everydaypeptides.ltd/capsules/)
+    * [Liquids](https://everydaypeptides.ltd/liquids/)
+    * [Creams](https://everydaypeptides.ltd/creams/)
+    * [Sprays](https://everydaypeptides.ltd/sprays/)
+    * [Misc](https://everydaypeptides.ltd/misc/)
+  * [Pep Calc](https://everydaypeptides.ltd/peptide-calculator/)
+  * [About](https://everydaypeptides.ltd/about-us/)
+  * [Contact Us](https://everydaypeptides.ltd/contact-us/)
+  * [My Account](https://everydaypeptides.ltd/my-account/)
+    * [Register](https://everydaypeptides.ltd/register/)
+    * [Lost Passward](https://everydaypeptides.ltd/lost-passward/)
+    * [Exclusive Discounts](https://everydaypeptides.ltd/exclusive-discounts/)
+    * [Rewards](https://everydaypeptides.ltd/loyalty-rewards-hub/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://everydaypeptides.ltd
+[FETCHED_AT] 2026-05-07T19:50:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/homepage.md
+[LINE_RANGE] 241-243
+[QUOTE]
+"All products on this site are for research and development use only. Products are not for human consumption of any kind. The statements made on this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure, or prevent any disease. Everyday Peptides is a chemical supplier. Everyday Peptides is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic Act. Everyday Peptides is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic Act. All products are sold for research, laboratory, or analytical purposes only, and are not for human consumption."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage features no consumer lifestyle imagery; instead it presents product listings with a neutral/white background and clinical-sounding headline copy ("Research-Grade Peptides (RUO)", "clear labeling, traceable lot information"). The about page further describes the customer as "Academic labs, biotech groups, CRO coordinators, method-development researchers."
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://everydaypeptides.ltd
+[FETCHED_AT] 2026-05-07T19:50:49Z
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/homepage.md
+[LINE_RANGE] 68-70
+"## Research-Grade Peptides (RUO)
+
+Everyday Peptides supplies research-grade peptides (RUO) with clear labeling, traceable lot information, and consistent presentation."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://everydaypeptides.ltd/about-us/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/about.md
+[LINE_RANGE] 84-86
+"  * **Who we serve:** Academic labs, biotech groups, CRO coordinators, method-development researchers, and compliance-minded teams."
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] United States
+[REASONING]
+The TOS names "Commonwealth of Pennsylvania" as governing law and lists a Pennsylvania-based arbitration venue. The shipping policy states "within the United States only." The contact phone number uses a US area code (267 = Philadelphia, PA).
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://everydaypeptides.ltd/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/tos.md
+[LINE_RANGE] 224-224
+"These Terms are governed by the laws of the Commonwealth of Pennsylvania, without regard to conflict-of-law rules."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://everydaypeptides.ltd/shipping-policy/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/shipping.md
+[LINE_RANGE] 87-87
+"We currently ship **within the United States only.**"
+[/SUPPORT_QUOTE]
+
+[CLAIM] fulfillment_country
+[INFERENCE] United States
+[REASONING]
+The shipping policy explicitly states domestic-only shipping and references US carriers with domestic delivery estimates. The TOS cites Pennsylvania as governing jurisdiction, consistent with US-based warehousing.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://everydaypeptides.ltd/shipping-policy/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/shipping.md
+[LINE_RANGE] 87-87
+"We currently ship **within the United States only.**"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://everydaypeptides.ltd/shipping-policy/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/shipping.md
+[LINE_RANGE] 112-112
+"● We **only ship within the United States** at this time. **● International shipping is not available.**"
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://everydaypeptides.ltd/shipping-policy/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/shipping.md
+[LINE_RANGE] 112-112
+[QUOTE]
+"● We **only ship within the United States** at this time. **● International shipping is not available.**"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 75-649
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/everydaypeptides/catalog_1.md:
+60 product listings enumerated from the shop page spanning lines 75 through 649.
+[FILES]
+catalog_1.md (single catalog page listing all products)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 16-24
+[QUOTE]
+"    * [Singe Vials](https://everydaypeptides.ltd/singe-vials/)
+    * [Kits](https://everydaypeptides.ltd/kits/)
+    * [Aminos](https://everydaypeptides.ltd/aminos/)
+    * [Capsules](https://everydaypeptides.ltd/capsules/)
+    * [Liquids](https://everydaypeptides.ltd/liquids/)
+    * [Creams](https://everydaypeptides.ltd/creams/)
+    * [Sprays](https://everydaypeptides.ltd/sprays/)
+    * [Misc](https://everydaypeptides.ltd/misc/)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"Products search"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 115-121
+[QUOTE]
+"  * Sale![](https://everydaypeptides.ltd/product/klow-blend/)
+
+## KLOW Blend (GHK-CU/BPC-157/TB-500/KPV) 80mg
+
+$105.00 – $750.00Price range: $105.00 through $750.00
+
+[Select options](https://everydaypeptides.ltd/product/klow-blend/) This product has multiple variants. The options may be chosen on the product page"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://everydaypeptides.ltd/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 81-83
+[QUOTE]
+"# BPC-157 10mg
+
+$45.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://everydaypeptides.ltd/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 81-81
+[QUOTE]
+"# BPC-157 10mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://everydaypeptides.ltd/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 83-85
+[QUOTE]
+"$45.00
+
+Availability: 57 in stock (can be backordered)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://everydaypeptides.ltd/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 81-83
+[QUOTE]
+"# BPC-157 10mg
+
+$45.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://everydaypeptides.ltd/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 104-104
+[QUOTE]
+"**BPC-157 10MG** is a high-purity peptide that comes from natural gastric proteins. The compound arrives as a stable lyophilized powder that researchers mix with sterile water before experiments. For research use only. Not for human consumption."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://everydaypeptides.ltd/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 164-172
+[QUOTE]
+"All Everyday Peptides products labeled as **Research Use Only (RUO)** are intended strictly for **laboratory, investigational, and scientific research purposes**. These materials are **not approved by the FDA** and are **not intended for human or veterinary use** , clinical applications, diagnostic procedures, or therapeutic treatment of any kind."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://everydaypeptides.ltd/about-us/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/about.md
+[LINE_RANGE] 162-164
+[QUOTE]
+"Do your products include a COA?
+
+Lot documentation is available on request depending on material and lot availability."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://everydaypeptides.ltd/about-us/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/about.md
+[LINE_RANGE] 83-83
+[QUOTE]
+"  * **What we do:** Research-grade peptides with lot tracking; documentation on request (e.g., COA, handling notes)."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 77-79
+[QUOTE]
+"## Bacteriostatic Water - Hospira 30mL
+
+~~$ 35.00~~ Original price was: $35.00.$28.00Current price is: $28.00."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://everydaypeptides.ltd/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 109-110
+[QUOTE]
+"## Related Products
+
+## Related products"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://everydaypeptides.ltd
+[FETCHED_AT] 2026-05-07T19:50:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/homepage.md
+[LINE_RANGE] 72-72
+[QUOTE]
+"Research Use Only (RUO). Not for human or veterinary use."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://everydaypeptides.ltd
+[FETCHED_AT] 2026-05-07T19:50:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/homepage.md
+[LINE_RANGE] 329-336
+[QUOTE]
+"Disclaimer! All products are sold in powder (lyophilized) form and require reconstitution with a suitable diluent for research purposes only. Research supplies (e.g., syringes, bacteriostatic water) are not included. No dosing instructions are provided. We adhere to all local and state laws around Research Only Chemical sales. We are not a pharmacy, nor do we promote or provide any advice for human or animal consumption. Please review our terms and conditions carefully before making a purchase on our website.
+
+By entering this site, you confirm that you are a qualified researcher, at least 21 years old, and you agree to adhere to all local and federal laws regarding Research Use Only materials.
+
+**You must be 21+ to proceed.**
+
+I Agree [I Disagree](https://google.com)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://everydaypeptides.ltd
+[FETCHED_AT] 2026-05-07T19:50:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/homepage.md
+[LINE_RANGE] 330-330
+[QUOTE]
+"Disclaimer! All products are sold in powder (lyophilized) form and require reconstitution with a suitable diluent for research purposes only. Research supplies (e.g., syringes, bacteriostatic water) are not included. No dosing instructions are provided. We adhere to all local and state laws around Research Only Chemical sales."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://everydaypeptides.ltd
+[FETCHED_AT] 2026-05-07T19:50:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/homepage.md
+[LINE_RANGE] 289-289
+[QUOTE]
+"  * [ Terms and Conditions ](https://everydaypeptides.ltd/terms-and-conditions/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://everydaypeptides.ltd/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/tos.md
+[LINE_RANGE] 77-104
+[QUOTE]
+"Last Updated: 11/10/2025
+Company: **Everyday Peptides LLC**
+
+Please read these Terms and Conditions carefully before using this website or purchasing any products offered by Everyday Peptides LLC ("Company," "we," "our," or "us").
+
+By accessing this website or purchasing any products from Everyday Peptides LLC, you acknowledge that you have read, understood, and agree to be bound by these Terms.
+
+## 1\. Acceptance of Terms
+
+By accessing the Everyday Peptides LLC website (the "Website") or purchasing products ("Products") from us, you agree to comply with and be bound by these Terms and Conditions. If you do not agree, you must discontinue use of the Website and refrain from purchasing any Products.
+
+Everyday Peptides LLC reserves the right to modify, update, or amend these Terms at any time. Your continued use of the Website after any changes constitutes acceptance of the revised Terms.
+
+## 2\. Intended Users & Eligibility
+
+Everyday Peptides LLC sells laboratory research-use-only materials, including peptides, amino acids, and biochemical reagents.
+
+To use this Website or purchase Products, you must:
+
+Be 21 years of age or older"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://everydaypeptides.ltd/refund_returns/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/refund.md
+[LINE_RANGE] 77-106
+[QUOTE]
+"We strive to ensure every customer is satisfied with their purchase. However, returns are only accepted under the following condition:
+
+  * **Damaged or defective items only**
+If your order arrives damaged or defective, please contact our customer service team within **30 days of delivery** to initiate a return.
+
+**Return Conditions:**
+
+  * Items must be **unused**
+
+  * Items must be returned in their **original condition** and **packaging**
+
+  * Proof of damage or defect may be required
+
+## Money-Back Guarantee
+
+We offer a **30-day money-back guarantee** from the date of delivery on products that do not meet your expectations.
+Please note:
+
+  * **Shipping insurance is required** to claim this guarantee
+
+  * The product must not show signs of use or tampering
+
+  * Claims submitted beyond 30 days will not be eligible"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://everydaypeptides.ltd/shipping-policy/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/shipping.md
+[LINE_RANGE] 79-112
+[QUOTE]
+"Everyday Peptides LLC – Fast, Reliable, and Discreet Delivery Across the U.S. At Everyday Peptides LLC ("Everyday Peptides," "we," "our," or "us"), we work to ensure your order is processed quickly and delivered safely in discreet packaging. Please review the policy below for details on how we handle shipping and orders.
+
+## Order Processing Time
+
+● Orders are processed **within 1–2 business days** (Monday–Friday, excluding holidays). ● Orders placed **after business hours, on weekends, or on holidays** will be processed on the**next business day.** ● Once your order ships, you'll receive a **shipping confirmation email with tracking information.** Processing times are separate from the shipping transit times listed below.
+
+## Shipping Methods, Rates & Delivery Estimates
+
+We currently ship **within the United States only.** **Flat-Rate Shipping Options (USD):** **● Standard Shipping:** $10.00
+
+○ Estimated delivery: 2–5 business days after shipment
+**● Second Day Air:** $17.95
+
+○ Estimated delivery: 2 business days after shipment
+**● Next Day Shipping:** $45.00
+
+○ Estimated delivery: **1 business day** after shipment"
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://everydaypeptides.ltd
+[FETCHED_AT] 2026-05-07T19:50:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/homepage.md
+[LINE_RANGE] 329-334
+[QUOTE]
+"By entering this site, you confirm that you are a qualified researcher, at least 21 years old, and you agree to adhere to all local and federal laws regarding Research Use Only materials.
+
+**You must be 21+ to proceed.**
+
+I Agree [I Disagree](https://google.com)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://everydaypeptides.ltd/shipping-policy/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/shipping.md
+[LINE_RANGE] 87-96
+[QUOTE]
+"We currently ship **within the United States only.** **Flat-Rate Shipping Options (USD):** **● Standard Shipping:** $10.00
+
+○ Estimated delivery: 2–5 business days after shipment
+**● Second Day Air:** $17.95
+
+○ Estimated delivery: 2 business days after shipment
+**● Next Day Shipping:** $45.00
+
+○ Estimated delivery: **1 business day** after shipment
+Delivery estimates are provided by the carrier and are not guaranteed."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://everydaypeptides.ltd/shipping-policy/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/shipping.md
+[LINE_RANGE] 112-112
+[QUOTE]
+"● We **only ship within the United States** at this time. **● International shipping is not available.**"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The catalog page URLs include WooCommerce-style path patterns (/product/, /product-category/), the cart uses ?add-to-cart= query parameter (WooCommerce standard), and the My Account page at /my-account/ matches WooCommerce's default structure. The site also shows "Rated 0 out of 5" star ratings, which is a WooCommerce built-in review module.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 81-81
+"[Add to cart](/shop/?add-to-cart=2767)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://everydaypeptides.ltd/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 81-81
+"# BPC-157 10mg"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[INFERENCE] false
+[REASONING]
+The homepage navigation contains: Home, Shop (with sub-categories), Pep Calc, About, Contact Us, My Account. No Blog or News link is present. Footer quick links also list no blog. The footer contains no blog link either.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://everydaypeptides.ltd
+[FETCHED_AT] 2026-05-07T19:50:49Z
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/homepage.md
+[LINE_RANGE] 14-31
+"  * [Home](https://everydaypeptides.ltd/)
+  * [Shop](https://everydaypeptides.ltd/shop/)
+    * [Singe Vials](https://everydaypeptides.ltd/singe-vials/)
+    * [Kits](https://everydaypeptides.ltd/kits/)
+    * [Aminos](https://everydaypeptides.ltd/aminos/)
+    * [Capsules](https://everydaypeptides.ltd/capsules/)
+    * [Liquids](https://everydaypeptides.ltd/liquids/)
+    * [Creams](https://everydaypeptides.ltd/creams/)
+    * [Sprays](https://everydaypeptides.ltd/sprays/)
+    * [Misc](https://everydaypeptides.ltd/misc/)
+  * [Pep Calc](https://everydaypeptides.ltd/peptide-calculator/)
+  * [About](https://everydaypeptides.ltd/about-us/)
+  * [Contact Us](https://everydaypeptides.ltd/contact-us/)
+  * [My Account](https://everydaypeptides.ltd/my-account/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://everydaypeptides.ltd
+[FETCHED_AT] 2026-05-07T19:50:49Z
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/homepage.md
+[LINE_RANGE] 261-266
+"## Quick Links
+
+  * [ Home ](https://everydaypeptides.ltd)
+  * [ Shop ](https://everydaypeptides.ltd/shop/)
+  * [ Rewards ](https://everydaypeptides.ltd/loyalty-rewards-hub/)
+  * [ About ](https://everydaypeptides.ltd/about-us/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[INFERENCE] false
+[REASONING]
+No blog is present on the site (as established above), so no author bylines can exist. The About page does not name any individual authors or team members.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://everydaypeptides.ltd/about-us/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/about.md
+[LINE_RANGE] 76-78
+"Everyday Peptides supplies research-grade peptides (RUO) with clear labeling, traceable lot information, and consistent presentation. Our focus is reliability: clean packaging, stable stock rotation, and responsive support designed for labs, project leads, and method-development teams."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://everydaypeptides.ltd
+[FETCHED_AT] 2026-05-07T19:50:49Z
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/homepage.md
+[LINE_RANGE] 14-31
+"  * [Home](https://everydaypeptides.ltd/)
+  * [Shop](https://everydaypeptides.ltd/shop/)
+    * [Singe Vials](https://everydaypeptides.ltd/singe-vials/)
+    * [Kits](https://everydaypeptides.ltd/kits/)
+    * [Aminos](https://everydaypeptides.ltd/aminos/)
+    * [Capsules](https://everydaypeptides.ltd/capsules/)
+    * [Liquids](https://everydaypeptides.ltd/liquids/)
+    * [Creams](https://everydaypeptides.ltd/creams/)
+    * [Sprays](https://everydaypeptides.ltd/sprays/)
+    * [Misc](https://everydaypeptides.ltd/misc/)
+  * [Pep Calc](https://everydaypeptides.ltd/peptide-calculator/)
+  * [About](https://everydaypeptides.ltd/about-us/)
+  * [Contact Us](https://everydaypeptides.ltd/contact-us/)
+  * [My Account](https://everydaypeptides.ltd/my-account/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 77-80
+[QUOTE]
+"## Bacteriostatic Water - Hospira 30mL
+
+~~$ 35.00~~ Original price was: $35.00.$28.00Current price is: $28.00.
+
+[Add to cart](/shop/?add-to-cart=2767)"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 77-80
+[QUOTE]
+"## Bacteriostatic Water - Hospira 30mL
+
+~~$ 35.00~~ Original price was: $35.00.$28.00Current price is: $28.00.
+
+[Add to cart](/shop/?add-to-cart=2767)"
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[INFERENCE] none observed
+[REASONING]
+The homepage, catalog, and about pages contain no mentions of influencer endorsements, ambassador programs, or sponsored content. The affiliate program link exists in the footer but no named endorsers are visible.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://everydaypeptides.ltd
+[FETCHED_AT] 2026-05-07T19:50:49Z
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/homepage.md
+[LINE_RANGE] 284-292
+"## Copyright © 2025. All Rights Reserved. Everyday Peptides.
+
+  * [ Privacy Policy ](https://everydaypeptides.ltd/privacy-policy/)
+  * [ Refund and Returns Policy ](https://everydaypeptides.ltd/refund_returns/)
+  * [ Shipping Policy ](https://everydaypeptides.ltd/shipping-policy/)
+  * [ Terms and Conditions ](https://everydaypeptides.ltd/terms-and-conditions/)
+  * [ Affiliate Account ](https://everydaypeptides.ltd/affiliate-account/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://everydaypeptides.ltd/about-us/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/about.md
+[LINE_RANGE] 76-97
+"Everyday Peptides supplies research-grade peptides (RUO) with clear labeling, traceable lot information, and consistent presentation. Our focus is reliability: clean packaging, stable stock rotation, and responsive support designed for labs, project leads, and method-development teams. We provide dependable, well-documented materials so your work stays reproducible and audit-ready.
+
+**Research Use Only (RUO). Not for human or veterinary use.**"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[0].list_price_usd (BPC-157 10mg)
+[URL] https://everydaypeptides.ltd/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:51:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 83-83
+[QUOTE]
+"$45.00"
+[/QUOTE]
+
+[CLAIM] skus[1].list_price_usd (TB-500 10mg)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 236-241
+[QUOTE]
+"## TB-500 10mg
+
+$50.00 – $95.00Price range: $50.00 through $95.00
+
+[Select options](https://everydaypeptides.ltd/product/tb-500/) This product has multiple variants. The options may be chosen on the product page"
+[/QUOTE]
+
+[CLAIM] skus[2].list_price_usd (GHK-CU)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 195-201
+[QUOTE]
+"## GHK-CU
+
+$35.00 – $60.00Price range: $35.00 through $60.00
+
+[Select options](https://everydaypeptides.ltd/product/ghk-cu/) This product has multiple variants. The options may be chosen on the product page"
+[/QUOTE]
+
+[CLAIM] skus[3].list_price_usd (GLP-3R)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 91-97
+[QUOTE]
+"## GLP-3R
+
+$75.00 – $1,225.00Price range: $75.00 through $1,225.00
+
+[Select options](https://everydaypeptides.ltd/product/glp-3r/) This product has multiple variants. The options may be chosen on the product page"
+[/QUOTE]
+
+[CLAIM] skus[4].list_price_usd (Tesamorelin 10mg)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 163-169
+[QUOTE]
+"## Tesamorelin 10mg
+
+$60.00 – $525.00Price range: $60.00 through $525.00
+
+[Select options](https://everydaypeptides.ltd/product/tesamorelin/) This product has multiple variants. The options may be chosen on the product page"
+[/QUOTE]
+
+[CLAIM] skus[5].list_price_usd (KLOW Blend 80mg)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 115-121
+[QUOTE]
+"## KLOW Blend (GHK-CU/BPC-157/TB-500/KPV) 80mg
+
+$105.00 – $750.00Price range: $105.00 through $750.00
+
+[Select options](https://everydaypeptides.ltd/product/klow-blend/) This product has multiple variants. The options may be chosen on the product page"
+[/QUOTE]
+
+[CLAIM] skus[6].list_price_usd + skus[6].sale_price_usd (Glow Blend 70mg)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 123-129
+[QUOTE]
+"## Glow Blend (GHK-CU/BPC-157/TB-500) 70mg
+
+~~$ 145.00~~ Original price was: $145.00.$95.00Current price is: $95.00.
+
+[Add to cart](/shop/?add-to-cart=544)"
+[/QUOTE]
+
+[CLAIM] skus[7].list_price_usd (Mots-C)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 147-153
+[QUOTE]
+"## Mots-C
+
+$50.00 – $395.00Price range: $50.00 through $395.00
+
+[Select options](https://everydaypeptides.ltd/product/mots-c/) This product has multiple variants. The options may be chosen on the product page"
+[/QUOTE]
+
+[CLAIM] skus[8].list_price_usd + skus[8].sale_price_usd (Epitalon 10mg)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 244-249
+[QUOTE]
+"## Epitalon 10mg
+
+~~$ 55.00~~ Original price was: $55.00.$40.00Current price is: $40.00.
+
+[Add to cart](/shop/?add-to-cart=538)"
+[/QUOTE]
+
+[CLAIM] skus[9].list_price_usd + skus[9].sale_price_usd (PT-141 10mg)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 323-329
+[QUOTE]
+"## PT-141 10mg
+
+~~$ 55.00~~ Original price was: $55.00.$45.00Current price is: $45.00.
+
+[Add to cart](/shop/?add-to-cart=547)"
+[/QUOTE]
+
+[CLAIM] skus[10].list_price_usd + skus[10].sale_price_usd (NA-Selank 10mg)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 275-281
+[QUOTE]
+"## NA-Selank 10mg
+
+~~$ 55.00~~ Original price was: $55.00.$45.00Current price is: $45.00.
+
+[Add to cart](/shop/?add-to-cart=525)"
+[/QUOTE]
+
+[CLAIM] skus[11].list_price_usd + skus[11].sale_price_usd (NA-Semax 10mg)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 283-289
+[QUOTE]
+"## NA-Semax 10mg
+
+~~$ 50.00~~ Original price was: $50.00.$40.00Current price is: $40.00.
+
+[Add to cart](/shop/?add-to-cart=122)"
+[/QUOTE]
+
+[CLAIM] skus[12].list_price_usd (Ipamorelin 10mg)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 259-265
+[QUOTE]
+"## Ipamorelin 10mg
+
+$60.00
+
+[Add to cart](/shop/?add-to-cart=522)"
+[/QUOTE]
+
+[CLAIM] skus[13].list_price_usd + skus[13].sale_price_usd (AOD-9604 2mg)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 211-217
+[QUOTE]
+"## AOD-9604 2mg
+
+~~$ 55.00~~ Original price was: $55.00.$35.00Current price is: $35.00.
+
+[Add to cart](/shop/?add-to-cart=519)"
+[/QUOTE]
+
+[CLAIM] skus[14].list_price_usd (DSIP 10mg)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 227-233
+[QUOTE]
+"## DSIP 10mg
+
+$55.00
+
+[Add to cart](/shop/?add-to-cart=2192)"
+[/QUOTE]
+
+[CLAIM] skus[15].list_price_usd (Thymosin Alpha-1)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 387-393
+[QUOTE]
+"## Thymosin Alpha-1
+
+$80.00
+
+[Add to cart](/shop/?add-to-cart=3351)"
+[/QUOTE]
+
+[CLAIM] skus[16].list_price_usd + skus[16].sale_price_usd (5-Amino-1MQ 50mg)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 355-361
+[QUOTE]
+"## 5-Amino-1MQ 50mg
+
+~~$ 165.00~~ Original price was: $165.00.$110.00Current price is: $110.00.
+
+[Add to cart](/shop/?add-to-cart=478)"
+[/QUOTE]
+
+[CLAIM] skus[17].list_price_usd (CJC No Dac/Ipamorelin Blend 5mg/5mg)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 171-177
+[QUOTE]
+"## CJC No Dac/Ipamorelin Blend 5mg/5mg
+
+$65.00 – $500.00Price range: $65.00 through $500.00
+
+[Select options](https://everydaypeptides.ltd/product/cjc-1295-no-dac-5mg-ipamorelin-5mg/) This product has multiple variants. The options may be chosen on the product page"
+[/QUOTE]
+
+[CLAIM] skus[18].list_price_usd + skus[18].sale_price_usd (Buffered NAD+ 500mg)
+[URL] https://everydaypeptides.ltd/shop/
+[FETCHED_AT] 2026-05-07T19:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/catalog_1.md
+[LINE_RANGE] 139-145
+[QUOTE]
+"## Buffered NAD+ 500mg
+
+~~$ 75.00~~ Original price was: $75.00.$60.00Current price is: $60.00.
+
+[Add to cart](/shop/?add-to-cart=557)"
+[/QUOTE]
+
+[CLAIM] discovery_provenance.discovery_source_quote
+[URL] https://everydaypeptides.ltd
+[FETCHED_AT] 2026-05-07T19:50:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/everydaypeptides/homepage.md
+[LINE_RANGE] 68-70
+[QUOTE]
+"## Research-Grade Peptides (RUO)
+
+Everyday Peptides supplies research-grade peptides (RUO) with clear labeling, traceable lot information, and consistent presentation."
+[/QUOTE]

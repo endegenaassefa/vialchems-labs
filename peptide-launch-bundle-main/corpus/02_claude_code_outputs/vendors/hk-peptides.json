@@ -1,0 +1,131 @@
+{
+  "vendor_slug": "hk-peptides",
+  "brand_name": "HK Peptides Worldwide",
+  "primary_domain": "https://hkpeptidesworldwide.com",
+
+  "fetched_url": "https://hkpeptidesworldwide.com/",
+  "fetched_at": "2026-05-07T23:13:52Z",
+  "fetch_status": "partial",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed). Original seed domain hkpeptides.com returned DNS NXDOMAIN on all attempts (curl exit 6, nslookup: No answer). Profiling pivoted to hkpeptidesworldwide.com, the accessible HK Peptides entity confirmed by Finnrick Analytics listing (vendor slug 'hk-peptides'), SeekPeptides vendor guide, and GLP-1 Forum community references. Tier 3 BASELINE scope maintained: brand, domain, country, fulfillment, ship-to, year_established, lab posture, headline SKUs+prices, review presence, last-activity.",
+  "field_completion_ratio": 0.60,
+
+  "country_of_operation": "Hong Kong",
+  "fulfillment_country": "United States (USA distribution center established 2025); original sourcing from Hong Kong",
+  "ship_to_scope": "us_intl",
+  "year_established": "2020",
+
+  "homepage": {
+    "hero_copy_excerpt": "Discover the Power of Precision: HK Peptides Worldwide — Unlock Your Potential with Premium Peptides",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "shop premium peptides",
+    "navigation_pattern": "top nav: Home, Buy Premium Peptides, About, How To Buy, Contact, Blog; cart icon top-right",
+    "footer_disclaimers": "Copyright 2026 © HK PEPTIDES WORLDWIDE | BUY RESEARCH GRADE PEPTIDES"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain (shop has at least 4 paginated pages; 12 products visible page 1, further products on pages 2-4)",
+    "category_taxonomy": ["Research Grade Peptide"],
+    "search_filter_capabilities": "sort by popularity, average rating, latest, price low-to-high, price high-to-low",
+    "stack_bundle_pages_present": "true"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "https://hkpeptidesworldwide.com/product/bpc-157-5-mg-body-protection-research-peptide-usa/",
+    "sample_product_name": "BPC-157 5 mg Body Protection Research Peptide USA",
+    "dose_options": ["5 mg"],
+    "list_price": "$56.00 (original); $48.00 (current sale price; listed as 'Price for 10 vials')",
+    "per_mg_cost": "$9.60/mg (sale price $48.00 / 5 mg; note: listing says 'Price for 10 vials' suggesting $4.80/vial per vial if 10-pack, or $48/5mg if single vial — ambiguous)",
+    "photographic_treatment": "product vial image on white background",
+    "description_copy_excerpt": "BPC-157 is not intended for human or veterinary use and is provided strictly for in-vitro and laboratory research only.",
+    "exact_disclaimer_language": "BPC-157 is not intended for human or veterinary use and is provided strictly for in-vitro and laboratory research only.",
+    "coa_present": "uncertain (site claims COA shipped with every order; COA page exists at hkpep.cc/coas/ for related entity; no direct COA download verified on hkpeptidesworldwide.com product pages)",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain (homepage claims 'third-party tested in ISO/IEC 17025-accredited laboratories'; no named lab partner found on fetched pages)",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "true (Reviews (0) tab present on product page)",
+    "related_product_modules_present": "true"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "BPC-157 is not intended for human or veterinary use and is provided strictly for in-vitro and laboratory research only.",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "uncertain (no explicit jurisdictional restriction page found)",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "USA Distribution Center for faster delivery; express shipping ~7-10 days (per community reports); standard 3-4 weeks"
+  },
+
+  "checkout_flow": {
+    "account_required": "false",
+    "guest_checkout_available": "uncertain (How To Buy page directs customers to 'Contact Our Sales Team' and receive an invoice before payment — order process is representative-mediated, not full self-serve checkout)",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "false",
+    "payment_methods_accepted": ["Chime", "Bank Transfer", "BTC (Bitcoin)", "Apple Pay", "Ripple"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "uncertain (not explicitly stated on fetched pages)",
+    "international_policy": "Ships to over 80 countries per homepage claim"
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "true (homepage states 'Live Chat (bottom-right corner, available 24/7)')"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://hkpeptidesworldwide.com/blog/",
+    "content_cadence": "uncertain (blog not fetched in this baseline pass)",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "true (on-site testimonial section present on homepage; 0 verified product reviews on product page)",
+    "off_site_aggregators": ["Finnrick Analytics (https://www.finnrick.com/vendors/hk-peptides): 4.7/5 overall satisfaction, 86 reports, 397 samples tested across 12 products; last test 28 Apr 2026"],
+    "testimonial_usage": "Homepage carousel with named testimonials (Brooklyn Simmons, Jerome Bell, Kathryn Murphy, Guy Hawkins, Dianne Russell, Ronald Richards); not independently verified",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [
+    {
+      "sku_id": "hk-peptides:bpc-157-5mg",
+      "name": "BPC-157 5 mg Body Protection Research Peptide USA",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "acetate",
+      "dose_value": 5,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "5 mg vial",
+      "list_price_usd": 56.00,
+      "sale_price_usd": 48.00,
+      "sale_observed_at": "2026-05-07T23:13:52Z",
+      "per_mg_price_usd": 9.60,
+      "volume_tier_label": "uncertain (note on page: 'Price for 10 vials' — may be 10-pack at $48)",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://hkpeptidesworldwide.com/product/bpc-157-5-mg-body-protection-research-peptide-usa/",
+      "raw_artifact": "03_raw_fetches/hk-peptides/product_1__bpc-157-5mg.md",
+      "evidence_entry_id": "claim-5"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "hk-peptides,HK Peptides,hkpeptides.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list classified as Tier 3: Chinese re-shipper with mixed purity results.,3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/hk-peptides/",
+  "evidence_file": "evidence/hk-peptides.txt",
+  "uncertainty_notes": "1. primary_domain: seed domain hkpeptides.com returns DNS NXDOMAIN (curl exit 6; nslookup No answer). Profile uses hkpeptidesworldwide.com, confirmed as the accessible HK Peptides entity by Finnrick Analytics (vendor slug 'hk-peptides'), SeekPeptides guide, and GLP-1 Forum references. 2. catalog.sku_count: shop paginated 4+ pages; only page 1 and partial page 2 fetched in baseline pass; full SKU count uncertain. 3. product_page_anatomy.coa_present/coa_hosting/lab_partner_named/batch_lot_transparency: homepage and product page claim ISO/IEC 17025 third-party testing and COA with every order, but no COA document was directly accessible on hkpeptidesworldwide.com product pages; lab partner not named. 4. trust_compliance.tos_url/tos_highlights/refund_policy: no TOS, refund, or privacy policy links found on hkpeptidesworldwide.com fetched pages; footer has no legal links. 5. checkout_flow.guest_checkout_available/fields_collected/shipping_carriers/shipping_cost_structure: How To Buy page describes a representative-mediated manual order process (contact team, receive invoice, pay); no self-serve checkout walk completed. 6. tech_stack.cdn/analytics/pixels: source HTML not independently fetched in this baseline pass. 7. content_footprint.content_cadence/topic_taxonomy/author_bylines: blog not fetched in baseline. 8. social_proof.visible_influencer_endorsements: not investigated in baseline. 9. per_mg_cost field for BPC-157: product page shows '$48.00 Current price' and separately states 'Price for 10 vials' — it is ambiguous whether $48.00 is per single 5mg vial or a 10-pack of 5mg vials. per_mg_price_usd computed as $48/5mg = $9.60/mg assuming single vial; if 10-pack then $0.96/mg. Marked uncertain in volume_tier_label. 10. ship_to_scope: set to us_intl based on homepage claim '80 countries'. 11. hkpep.cc entity: a distinct but closely related entity (HKPEP, address: Chater House, 8 Connaught Road Central, Hong Kong; ©2012-2025; 16+ years claimed) also operates under the HK Peptides brand at hkpep.cc. This entity has Trustpilot presence at trustpilot.com/review/hkpep.cc and Facebook at facebook.com/profile.php?id=61577634931973. The two entities (hkpeptidesworldwide.com and hkpep.cc) share the HK Peptides brand identity and appear to be related operations, possibly the same underlying source with different storefronts. Finnrick Analytics vendor profile 'hk-peptides' covers both."
+}

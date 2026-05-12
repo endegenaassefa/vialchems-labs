@@ -1,0 +1,311 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Explore Peptide-Sources ®Group IntroductionWe strive to bring precious medicine health products to everyone,every family and every community,and popularize the healthy life of the public."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Home  All Products  About Us  Contact Us"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Home  All Products  About Us  Contact Us"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 11-11
+[QUOTE]
+"Copyright 2025 © Peptide-Sources"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Our Factory EnvironmentOur Qualifications"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/catalog_1.md
+[LINE_RANGE] 1-1
+[QUOTE]
+[ENUMERATION] Counted from getCategoryProduct API response captured in 03_raw_fetches/lilipeptide/catalog_1.md:
+11 products listed: Make up the difference®, Retatrutide ™, Tirzepatide ™, BA3 Benzyl Alcoh 0.9%™, GHK-CU ™, Survodutide ®, WA3 phosphate buffered saline ®, NAD+ ™, Semaglutide ™, Ipamorelin ™, CJC-1295 without DAC 5mg + IPA5mg ™, LL37 ™
+[/QUOTE]
+
+[CLAIM] skus[0].list_price_usd (Retatrutide ™ 10mg*10vials)
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/catalog_1.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"name":"Retatrutide ™","origin_price":100,"price":"74.00","price_format":"$74.00","origin_price_format":"$100.00"
+[/QUOTE]
+
+[CLAIM] skus[1].list_price_usd (Tirzepatide ™ 5mg*10vials)
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Tirzepatide ™  $47.00 $70.00"
+[/QUOTE]
+
+[CLAIM] skus[2].list_price_usd (Semaglutide ™ 2mg*10vials)
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Semaglutide ™  $42.00 $60.00"
+[/QUOTE]
+
+[CLAIM] skus[3].list_price_usd (GHK-CU ™ 50mg*10vials)
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"GHK-CU ™  $47.00 $66.00"
+[/QUOTE]
+
+[CLAIM] skus[4].list_price_usd (Ipamorelin ™ 5mg*10vials)
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Ipamorelin ™  $52.00 $65.00"
+[/QUOTE]
+
+[CLAIM] skus[5].list_price_usd (LL37 ™ 5mg*10vials)
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"LL37 ™  $110.00 $130.00"
+[/QUOTE]
+
+[CLAIM] skus[6].list_price_usd (NAD+ ™ 100mg*10vials)
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"NAD+ ™  $53.00 $42.00"
+[/QUOTE]
+
+[CLAIM] skus[7].list_price_usd (Survodutide ® 10mg*10vials)
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Survodutide ®  $420.00 $450.00"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 10-10
+[QUOTE]
+"We are double clear to door express packages, you can use DHL, UPS, Fedex, TNT, EMS.
+The validity period is 10-12 days."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 11-11
+[QUOTE]
+"We support online orders, Bitcoin, paypal, cryptocurrencies, bank transfers, Alibaba (need to contact us)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 10-10
+[QUOTE]
+"you can use DHL, UPS, Fedex, TNT, EMS."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Q 4 : How do you verify your products?Every peptide batch we receive gets sent to an independent third party testing lab to be analyzed and tested for identity of the peptides, purity, and concentration.All peptides are labeled with their corresponding batch number."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"All peptides are labeled with their corresponding batch number."
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"What Customers Have SaidAlways very easy and quick communication if any issues with order/payment. Order delivery is quick and smooth. Geoffrey"Great product and fast shipping. I had my orders fast and packaged so there was zero damage.Recommended!"Virgilia"Loving the new look to the website, great improvement. Very happy customer, keep up the good work!"Jeron JonesThe effect is surprising and it is effective for enhancing immunity and improving sleep. The experience is very good.Alex"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators (Finnrick)
+[URL] https://www.finnrick.com/vendors/lilipeptide
+[FETCHED_AT] 2026-05-08T00:08:00Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/social_2.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"Finnrick has tested 236 samples from LiliPeptide across 8 products."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+Domain registration date is 2025-04-28 per Scamadviser WHOIS data (confirmed via WebFetch of scamadviser.com). The site's own copyright says "2025" confirming the same year. No earlier establishment evidence found.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 11-11
+"Copyright 2025 © Peptide-Sources"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.finnrick.com/vendors/lilipeptide
+[FETCHED_AT] 2026-05-08T00:08:00Z
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/social_2.md
+[LINE_RANGE] 1-1
+"First4 Aug 2025"
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] China
+[REASONING]
+Site backend uses shop910.net, a Chinese e-commerce SaaS platform (admin panel at shop910.com shows Chinese text identifying it as a Chinese SaaS for "special goods" independent stores). Site offers Simplified Chinese as the first language option. The shop910.com admin text confirms Chinese origin of the platform operator.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+"Select LanguageChinese (Simplified)EnglishGermanItalianKoreanPortuguese (Portugal)Spanish"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+"Powered by Translate"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] custom (Vue.js SPA on shop910.net Chinese e-commerce SaaS)
+[REASONING]
+HTML source shows Vue.js SPA (empty body div#app). Network requests to shop910.net backend for images and getCategoryProduct API endpoint. Admin at shop910.com is a Chinese SaaS platform. Both tech signals together confirm Chinese-hosted custom e-commerce SaaS.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+"Select LanguageChinese (Simplified)EnglishGermanItalianKoreanPortuguese (Portugal)Spanish"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 11-11
+"Copyright 2025 © Peptide-Sources"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://www.scamadviser.com/check-website/lilipeptide.com
+[FETCHED_AT] 2026-05-08T00:06:00Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/social_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Performance and Security by Cloudflare"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators (Finnrick rating detail)
+[URL] https://www.finnrick.com/vendors/lilipeptide
+[FETCHED_AT] 2026-05-08T00:08:00Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/social_2.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"4.5Based on 74 overall satisfaction reportsEase of Purchase4.5(74)Payment Methods4.2(74)Delivery Speed4.2(74)Packaging Quality4.4(74)Customer Service4.5(70)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Home  All Products  About Us  Contact Us The website is currently under maintenance. To place an order, please contact our sales team."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://lilipeptide.com/
+[FETCHED_AT] 2026-05-08T00:02:02Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/lilipeptide/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"What Customers Have Said"
+[/QUOTE]

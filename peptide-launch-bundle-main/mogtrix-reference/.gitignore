@@ -1,0 +1,77 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*.xcuserstate
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+# Local tooling state — must never be tracked
+.gstack/
+.gstack/**
+**/.gstack/
+.vercel/
+.claude/worktrees/
+Research folder/
+
+# IntelliJ / editor files
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+**/xcuserdata/
+
+# Node / web tooling
+node_modules/
+.next/
+coverage/
+playwright-report/
+test-results/
+dist/
+
+# Site app local state
+site/.env
+site/.env.local
+site/.env.*.local
+site/.next/
+site/next-env.d.ts
+site/node_modules/
+site/test-results/
+site/tsconfig.tsbuildinfo
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Generated Prisma client for Flutter assets/backend bridge
+/lib/generated/prisma

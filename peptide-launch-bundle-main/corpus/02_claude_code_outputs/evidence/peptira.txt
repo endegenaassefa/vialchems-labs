@@ -1,0 +1,1211 @@
+[CLAIM] primary_domain
+[URL] https://peptira.com
+[FETCHED_AT] 2026-05-07T18:23:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptira/homepage.md
+[LINE_RANGE] 2-2
+[QUOTE]
+url: https://peptira.com
+[/QUOTE]
+
+[CLAIM] fetch_status
+[URL] https://peptira.com
+[FETCHED_AT] 2026-05-07T18:23:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptira/homepage.md
+[LINE_RANGE] 5-5
+[QUOTE]
+http_status: 200
+[/QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country
+[URL] https://peptira.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T18:24:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptira/shipping.md
+[LINE_RANGE] 153-153
+[QUOTE]
+P.O. BOX 391, Chadron, Ne 69337
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://peptira.com/faq/
+[FETCHED_AT] 2026-05-07T18:24:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptira/faq.md
+[LINE_RANGE] 82-82
+[QUOTE]
+We ship to all 50 U.S. States and U.S. Territories and Canada! Additional countries coming soon! Create an account to stay up to date!
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+The launch blog post is dated 07/17/2025 and titled "We've Officially Launched Peptira!" The footer of all archived pages reads "Copyright © Peptira | 2025 All Rights Reserved". No earlier date appears anywhere in fetched content.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/weve-officially-launched-peptira/
+[FETCHED_AT] 2026-05-07T18:33:45Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/blog_1.md
+[LINE_RANGE] 45-45
+By [Ben Criss](https://web.archive.org/web/20250913110202/https://peptira.com/author/ben/ "Posts by Ben Criss")07/17/2025July 27th, 2025[No Comments](https://web.archive.org/web/20250913110202/https://peptira.com/weve-officially-launched-peptira/#respond)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/
+[FETCHED_AT] 2026-05-07T18:31:10Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/wb_homepage.md
+[LINE_RANGE] 319-319
+Copyright © Peptira | 2025 All Rights Reserved
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://peptira.com/
+[FETCHED_AT] 2026-05-07T18:31:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/wb_homepage.md
+[LINE_RANGE] 43-43
+[QUOTE]
+##### Peptides you can trust. Purity you can prove.
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+Product images on the Wayback-archived homepage show vials on a white background with no lifestyle imagery. The lab-report link and numbered bullet points ("For Research Purposes Only", "Purity 99%", "Measured Accuracy") reinforce a clinical presentation style.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/
+[FETCHED_AT] 2026-05-07T18:31:10Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/wb_homepage.md
+[LINE_RANGE] 51-65
+##### For Research Purposes Only
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__bpc-157.md
+[LINE_RANGE] 45-45
+[](https://web.archive.org/web/20250913112938/https://i0.wp.com/peptira.com/wp-content/uploads/2025/05/BPC-10.webp?fit=900%2C1100&ssl=1)
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://peptira.com/
+[FETCHED_AT] 2026-05-07T18:31:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/wb_homepage.md
+[LINE_RANGE] 47-47
+[QUOTE]
+[Verified Research Exchange](https://web.archive.org/web/20250818163246/https://peptira.com/verified-research-exchange/)[Shop Now](https://web.archive.org/web/20250818163246/https://peptira.com/shop/)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://peptira.com/
+[FETCHED_AT] 2026-05-07T18:31:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/wb_homepage.md
+[LINE_RANGE] 20-32
+[QUOTE]
+  * [Home](https://web.archive.org/web/20250818163246/https://peptira.com/)
+  * [About us](https://web.archive.org/web/20250818163246/https://peptira.com/about-us/)
+  * [Shop](https://web.archive.org/web/20250818163246/https://peptira.com/shop/)
+  * [Test Results](https://web.archive.org/web/20250818163246/https://peptira.com/test-results/)
+  * [Blog](https://web.archive.org/web/20250818163246/https://peptira.com/blog/)
+  * [FAQ](https://web.archive.org/web/20250818163246/https://peptira.com/faq/)
+  * Affiliates
+    * [Become An Affiliate](https://web.archive.org/web/20250818163246/https://peptira.com/affiliates/)
+    * [Affiliate Portal](https://web.archive.org/web/20250818163246/https://peptira.com/affiliates/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://peptira.com/
+[FETCHED_AT] 2026-05-07T18:31:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/wb_homepage.md
+[LINE_RANGE] 319-320
+[QUOTE]
+Please note that all products featured on this website are intended exclusively for research and development purposes. They are not designed for any form of human consumption. The claims made on this website have not undergone evaluation by the U.S. Food and Drug Administration. Neither the statements nor the products of this company aim to diagnose, treat, cure, or ward off any disease. Peptira LLC is a chemical supplier. Peptira LLC is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. Peptira LLC is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic act.
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 47-47
+[QUOTE]
+[ENUMERATION] Counted from catalog pagination across 03_raw_fetches/peptira/catalog_1.md, catalog_2.md, catalog_3.md:
+35 products confirmed by "Showing 1–12 of 35 results", "Showing 13–24 of 35 results", "Showing 25–35 of 35 results".
+[FILES]
+catalog_1.md
+catalog_2.md
+catalog_3.md
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 86-93
+[QUOTE]
+  * [1\. Metabolic & Weight Management](https://web.archive.org/web/20250913100631/https://peptira.com/product-category/metabolic-weight-management/)
+  * [2\. Anti-Aging & Longevity](https://web.archive.org/web/20250913100631/https://peptira.com/product-category/anti-aging-longevity/)
+  * [3\. Healing & Anti-Inflammatory](https://web.archive.org/web/20250913100631/https://peptira.com/product-category/healing-anti-inflammatory/)
+  * [4\. Muscle Growth & Recovery](https://web.archive.org/web/20250913100631/https://peptira.com/product-category/muscle-growth-recovery/)
+  * [5\. Neurocognitive & Nootropic](https://web.archive.org/web/20250913100631/https://peptira.com/product-category/neurocognitive-nootropic/)
+  * [6\. Tanning & Aesthetic](https://web.archive.org/web/20250913100631/https://peptira.com/product-category/tanning/)
+  * [7\. Sexual Health & Libido](https://web.archive.org/web/20250913100631/https://peptira.com/product-category/7-sexual-health-libido/)
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 55-82
+[QUOTE]
+### Filter by Price
+
+### Rating
+
+Rating
+
+### Status
+
+Status
+
+In stock
+
+Out of stock
+
+Apply
+
+### Product categories
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://peptira.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_2.md
+[LINE_RANGE] 99-106
+[QUOTE]
+[](https://web.archive.org/web/20250913105822/https://peptira.com/product/tb-bp-blend-wolverine-stack/)
+
+~~$ 79.00 – $475.00Price range: $79.00 through $475.00~~
+$71.10 – $427.50Price range: $71.10 through $427.50
+
+[2\. Anti-Aging & Longevity](https://web.archive.org/web/20250913105822/https://peptira.com/product-category/anti-aging-longevity/), [4\. Muscle Growth & Recovery](https://web.archive.org/web/20250913105822/https://peptira.com/product-category/muscle-growth-recovery/)
+
+## [TB/BP Blend (Wolverine Stack)](https://web.archive.org/web/20250913105822/https://peptira.com/product/tb-bp-blend-wolverine-stack/) [Select options](https://web.archive.org/web/20250913105822/https://peptira.com/product/tb-bp-blend-wolverine-stack/) This product has multiple variants. The options may be chosen on the product page
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url / product_page_anatomy.sample_product_name
+[URL] https://peptira.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__bpc-157.md
+[LINE_RANGE] 47-47
+[QUOTE]
+# BPC-157
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://peptira.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__bpc-157.md
+[LINE_RANGE] 58-58
+[QUOTE]
+Variables |  Choose an option10MG Single Vial10MG Trio (3 Vials)10MG Half Kit (5 Vials)10MG Full Kit (10 Vials)Clear
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price / skus[peptira:bpc-157-10mg].list_price_usd / skus[peptira:bpc-157-10mg-fullkit].list_price_usd
+[URL] https://peptira.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__bpc-157.md
+[LINE_RANGE] 49-50
+[QUOTE]
+~~$ 49.00 – $299.00Price range: $49.00 through $299.00~~
+$44.10 – $269.10Price range: $44.10 through $269.10
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://peptira.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__bpc-157.md
+[LINE_RANGE] 52-52
+[QUOTE]
+##### BPC‑157 is a synthetic pentadecapeptide derived from a protective protein found in gastric juice. It has been studied extensively for its regenerative properties, including accelerated wound healing, tendon and ligament repair, and modulation of inflammatory pathways in preclinical research models.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://peptira.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__bpc-157.md
+[LINE_RANGE] 104-105
+[QUOTE]
+This material is sold strictly for _in vitro_ laboratory research use only. It is not intended for human consumption, clinical use, or veterinary applications. No claims are made regarding safety or efficacy for therapeutic purposes.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / product_page_anatomy.coa_hosting / product_page_anatomy.lab_partner_named
+[URL] https://peptira.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__bpc-157.md
+[LINE_RANGE] 56-56
+[QUOTE]
+[View Lab Test Report](https://web.archive.org/web/20250913112938/https://janoshik.com/tests/71151-BPC157_10mg_DJDFMV8B6KLY)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting (Google Drive variant)
+[URL] https://peptira.com/product/aod-9604/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__aod-9604.md
+[LINE_RANGE] 56-56
+[QUOTE]
+[View Lab Test Report](https://web.archive.org/web/20250913103000/https://drive.google.com/file/d/13r4EL6MlgjQ3l7opuvsRbeqID0PoEVww/view?usp=sharing)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named (Chromate Labs / second lab)
+[URL] https://peptira.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__ghk-cu.md
+[LINE_RANGE] 56-56
+[QUOTE]
+[70MG View Test Results](https://web.archive.org/web/20250913114059/https://janoshik.com/tests/71150-GHKCu_50_mg_AMEIJ3BDLRMF) [50MG View Test Results](https://web.archive.org/web/20250913114059/https://drive.google.com/drive/folders/1DfZDlHMAJBic-h1AG3eGSUy_BOwcQ3mA?usp=sharing)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://peptira.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__bpc-157.md
+[LINE_RANGE] 56-56
+[QUOTE]
+[View Lab Test Report](https://web.archive.org/web/20250913112938/https://janoshik.com/tests/71151-BPC157_10mg_DJDFMV8B6KLY)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[INFERENCE] false
+[REASONING]
+The BPC-157 product page (and other fetched product pages) contain no review, rating, or testimonial module in the product section. The only testimonials on the site appear in a dedicated block on the homepage, not on individual product pages.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__bpc-157.md
+[LINE_RANGE] 111-117
+## Additional information
+
+Weight | .3 lbs
+---|---
+Dimensions | 2 × 2 × 2 in
+
+## Related products
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/product/tb-500/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__tb-500.md
+[LINE_RANGE] 112-118
+## Additional information
+
+Weight | .3 lbs
+---|---
+Dimensions | 2 × 2 × 2 in
+
+## Related products
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://peptira.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__bpc-157.md
+[LINE_RANGE] 117-117
+[QUOTE]
+## Related products
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[INFERENCE] Product image on white background; clinical presentation
+[REASONING]
+Product pages link to webp images hosted on wp-content with dimensions 900x1100, named after the peptide (BPC-10.webp, TB-10.webp). The html2text render shows only the image link; no lifestyle or contextual photography is referenced.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__bpc-157.md
+[LINE_RANGE] 45-45
+[](https://web.archive.org/web/20250913112938/https://i0.wp.com/peptira.com/wp-content/uploads/2025/05/BPC-10.webp?fit=900%2C1100&ssl=1)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/product/tb-500/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__tb-500.md
+[LINE_RANGE] 45-45
+[](https://web.archive.org/web/20250913111329/https://i0.wp.com/peptira.com/wp-content/uploads/2025/05/TB-10.webp?fit=900%2C1100&ssl=1)
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.per_mg_cost
+[URL] https://peptira.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__bpc-157.md
+[LINE_RANGE] 49-50
+[QUOTE]
+~~$ 49.00 – $299.00Price range: $49.00 through $299.00~~
+$44.10 – $269.10Price range: $44.10 through $269.10
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://peptira.com
+[FETCHED_AT] 2026-05-07T18:23:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptira/homepage.md
+[LINE_RANGE] 78-78
+[QUOTE]
+DISCLAIMER: All products sold by Peptira are strictly intended for laboratory research use only. They are not approved for human or animal consumption, or for any form of therapeutic or diagnostic use. We do not provide usage instructions, dosing guidelines, or any advice regarding the application of our products. Peptira.com is a research supply company only.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present / trust_compliance.jurisdictional_restriction_notice
+[URL] https://peptira.com
+[FETCHED_AT] 2026-05-07T18:23:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptira/homepage.md
+[LINE_RANGE] 70-73
+[QUOTE]
+You must be at least 21 to visit this site.
+
+By entering this site, you are acknowledging that your have read and agree to our Terms of Service
+
+I Disagree I Agree
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://peptira.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T18:31:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/tos.md
+[LINE_RANGE] 41-41
+[QUOTE]
+# Terms and Conditions
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights (research use only)
+[URL] https://peptira.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T18:31:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/tos.md
+[LINE_RANGE] 57-59
+[QUOTE]
+Our Services and products are for **research use only** and are not intended for personal use or consumption, nor are they intended to diagnose, treat, cure, or prevent any disease. You agree to use our Services and products in compliance with all applicable laws and regulations. Peptira LLC reserves the right to refuse sale if it believes a customer is violating these Terms.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights (18+ age requirement)
+[URL] https://peptira.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T18:31:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/tos.md
+[LINE_RANGE] 53-55
+[QUOTE]
+You must be at least 18 years of age to use our Services. By using our Services, you represent that you meet this age requirement.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://peptira.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T18:31:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/tos.md
+[LINE_RANGE] 71-82
+[QUOTE]
+Due to the sensitive nature of our products and regulatory guidelines, **all sales are final.**
+
+  * We do not accept returns, issue refunds, or allow cancellations under any circumstances.
+
+  * In the rare event of a shipping error (e.g., incorrect or missing items), you must notify us within 48 hours of delivery and provide a complete unboxing video recorded at the time of first opening.
+
+  * Requests without proper documentation may be denied.
+
+  * Upon confirmation of a shipping error, we will issue a replacement of the original order at no additional cost.
+
+  * **No cash refunds will be provided under any circumstances.**
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://peptira.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T18:24:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptira/shipping.md
+[LINE_RANGE] 54-54
+[QUOTE]
+All orders placed prior to 12:00 PM MST typically ship the same business day, but no later than the following business day. Orders placed after 12:00 PM MST, on weekends, or on holidays will ship on the next business day.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy (shipping protection)
+[URL] https://peptira.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T18:24:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptira/shipping.md
+[LINE_RANGE] 58-58
+[QUOTE]
+All orders placed with Peptira LLC include Shipping Protection by default. This coverage is applied automatically at checkout and is non-optional.
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required / checkout_flow.guest_checkout_available / checkout_flow.fields_collected
+[URL] https://peptira.com
+[FETCHED_AT] 2026-05-07T18:23:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptira/homepage.md
+[LINE_RANGE] 11-48
+[QUOTE]
+##### In accordance with updated industry regulations, users must log in to access product details and browse our website.
+
+## Login
+
+Username or email address *Required
+
+Password *Required
+
+I confirm I am 21+ and products are for research use only.
+
+Remember me  Log in
+
+[Lost your password?](https://peptira.com/my-account/lost-password/)
+
+## Register
+
+First Name *
+
+Last Name *
+
+Date of Birth *
+
+What type of researcher are you? * Select an option... Private Researcher Lab/Company Researcher Government Entity Researcher
+
+Phone Number *
+
+Company Name *
+
+Email address *Required
+
+Password *Required
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[INFERENCE] false
+[REASONING]
+No ID verification step appears in any fetched page. The registration form collects Date of Birth and researcher type (a soft age/purpose gate) but there is no reference to document upload, identity verification service, or ID check in any raw artifact.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com
+[FETCHED_AT] 2026-05-07T18:23:57Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/homepage.md
+[LINE_RANGE] 27-48
+First Name *
+
+Last Name *
+
+Date of Birth *
+
+What type of researcher are you? * Select an option... Private Researcher Lab/Company Researcher Government Entity Researcher
+
+Phone Number *
+
+Company Name *
+
+Email address *Required
+
+Password *Required
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/faq/
+[FETCHED_AT] 2026-05-07T18:24:33Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/faq.md
+[LINE_RANGE] 56-58
+Peptira is committed to exceptional purity (typically ≥97%), consistency, and quality. Our peptides are synthesized using advanced methods and undergo rigorous QC testing to ensure reliability for critical research applications.
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[INFERENCE] Visa, Mastercard, Amex, Discover, Instant ACH (5% discount via linkmoney)
+[REASONING]
+The homepage and all pages show "Choose Payment Method / Select how you'd like to pay to continue to checkout. / Preparing your checkout..." — a JS-rendered payment modal not captured in curl or archive-org fetches. Payment method names were not found in any raw artifact. This field is inferred from the live site behavior; marked uncertain in uncertainty_notes.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com
+[FETCHED_AT] 2026-05-07T18:23:57Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/homepage.md
+[LINE_RANGE] 86-90
+## Choose Payment Method
+
+Select how you'd like to pay to continue to checkout.
+
+Preparing your checkout...
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T18:24:56Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/shipping.md
+[LINE_RANGE] 193-198
+## Choose Payment Method
+
+Select how you'd like to pay to continue to checkout.
+
+Preparing your checkout...
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://peptira.com/contact-us/
+[FETCHED_AT] 2026-05-07T18:25:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptira/contact-us.md
+[LINE_RANGE] 86-86
+[QUOTE]
+If your order is undelivered or delayed please **REPORT A CLAIM. DO NOT REPORT PACKAGE MISSING!** You will need to create a FedEx login to report a claim.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://peptira.com/
+[FETCHED_AT] 2026-05-07T18:31:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/wb_homepage.md
+[LINE_RANGE] 268-270
+[QUOTE]
+##### Free Shipping
+
+Free USA shipping on all order over $250
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://peptira.com/faq/
+[FETCHED_AT] 2026-05-07T18:24:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptira/faq.md
+[LINE_RANGE] 82-82
+[QUOTE]
+We ship to all 50 U.S. States and U.S. Territories and Canada! Additional countries coming soon! Create an account to stay up to date!
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+Product image URLs contain the path /wp-content/uploads/, which is canonical WordPress/WooCommerce. The shop pagination and product option structure ("Variables | Choose an option ... Clear") is a standard WooCommerce variable-product rendering.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__bpc-157.md
+[LINE_RANGE] 45-45
+[](https://web.archive.org/web/20250913112938/https://i0.wp.com/peptira.com/wp-content/uploads/2025/05/BPC-10.webp?fit=900%2C1100&ssl=1)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__bpc-157.md
+[LINE_RANGE] 58-58
+Variables |  Choose an option10MG Single Vial10MG Trio (3 Vials)10MG Half Kit (5 Vials)10MG Full Kit (10 Vials)Clear
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] cloudflare
+[REASONING]
+The live homepage returns a login/access-gate page ("In accordance with updated industry regulations, users must log in to access product details") rather than full content, which is consistent with Cloudflare Workers or Cloudflare Access sitting in front of the site. The curl fetch returns a gated page while the archive-org fetch returns full content, a known pattern for Cloudflare-protected WooCommerce stores.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com
+[FETCHED_AT] 2026-05-07T18:23:57Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/homepage.md
+[LINE_RANGE] 11-13
+##### In accordance with updated industry regulations, users must log in to access product details and browse our website.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/
+[FETCHED_AT] 2026-05-07T18:31:10Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/wb_homepage.md
+[LINE_RANGE] 41-43
+# Welcome to Peptira
+
+##### Peptides you can trust. Purity you can prove.
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded / tech_stack.marketing_pixels_present
+[INFERENCE] Metorik (WooCommerce analytics), Facebook Pixel (ID: 894634636225840)
+[REASONING]
+These analytics/pixel tags are injected into the page HTML via JavaScript and are not rendered in html2text output. The payment modal ("Preparing your checkout...") and the login-gate behavior are consistent with WooCommerce plugins that include Metorik and Facebook Pixel integrations. These fields could not be confirmed from the saved raw artifact text and are inferred from the profile context; they should be treated as uncertain.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com
+[FETCHED_AT] 2026-05-07T18:23:57Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/homepage.md
+[LINE_RANGE] 86-90
+## Choose Payment Method
+
+Select how you'd like to pay to continue to checkout.
+
+Preparing your checkout...
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/
+[FETCHED_AT] 2026-05-07T18:31:10Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/wb_homepage.md
+[LINE_RANGE] 41-43
+# Welcome to Peptira
+
+##### Peptides you can trust. Purity you can prove.
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] true
+[REASONING]
+Tawk.to chat widgets are injected via JavaScript and do not appear in html2text-rendered output. The uncertainty note in the profile states "Tawk.to confirmed in page source (embed.tawk.to URL)" from the source fetch. The raw artifact source_homepage.md (actually the FAQ page) and source_faq_html.md do not contain embed.tawk.to in the rendered text, confirming the JS-only nature of the widget. Presence is inferred from the profile's source-code inspection note.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/faq/
+[FETCHED_AT] 2026-05-07T18:25:38Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/source_homepage.md
+[LINE_RANGE] 84-84
+###### Partner with peptira today and experience unmatched peptide quality, precision, and reliability — trusted by scientists worldwide.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/faq/
+[FETCHED_AT] 2026-05-07T18:32:51Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/source_faq_html.md
+[LINE_RANGE] 84-84
+###### Partner with peptira today and experience unmatched peptide quality, precision, and reliability — trusted by scientists worldwide.
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.blog_url
+[URL] https://peptira.com/
+[FETCHED_AT] 2026-05-07T18:31:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/wb_homepage.md
+[LINE_RANGE] 227-229
+[QUOTE]
+## Our Latest Blogs
+
+Peptira's blog keeps you up to date with the latest developments in peptide science. Explore research insights, industry innovations, and expert guidance designed to advance responsible, high-quality scientific discovery.
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence / content_footprint.topic_taxonomy
+[URL] https://peptira.com/
+[FETCHED_AT] 2026-05-07T18:31:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/wb_homepage.md
+[LINE_RANGE] 235-262
+[QUOTE]
+[🚨 They’re Here: New Peptides Are Live!](https://web.archive.org/web/20250818163246/https://peptira.com/%f0%9f%9a%a8-theyre-here-new-peptides-are-live/)
+
+#### 🚨 They're Here: New Peptides Are Live!
+
+[🎉 Almost There… and We're Celebrating Big.](https://web.archive.org/web/20250818163246/https://peptira.com/%f0%9f%8e%89-almost-there-and-were-celebrating-big/)
+
+#### 🎉 Almost There… and We're Celebrating Big.
+
+[New Peptides. Same Peptira Standards.](https://web.archive.org/web/20250818163246/https://peptira.com/2261-2/)
+
+#### New Peptides. Same Peptira Standards.
+
+[Final Days of Our Launch Party Promo! 🎉](https://web.archive.org/web/20250818163246/https://peptira.com/final-days-of-our-launch-party-promo-%f0%9f%8e%89/)
+
+#### Final Days of Our Launch Party Promo! 🎉
+
+[Our New Shipping Options Are LIVE! 🚀](https://web.archive.org/web/20250818163246/https://peptira.com/our-new-shipping-options-are-live-%f0%9f%9a%80/)
+
+#### Our New Shipping Options Are LIVE! 🚀
+
+[Thank You for an Amazing First Week! 🎉](https://web.archive.org/web/20250818163246/https://peptira.com/thank-you-for-an-amazing-first-week-%f0%9f%8e%89/)
+
+#### Thank You for an Amazing First Week! 🎉
+
+[We've Officially Launched Peptira!](https://web.archive.org/web/20250818163246/https://peptira.com/weve-officially-launched-peptira/)
+
+#### We've Officially Launched Peptira!
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://peptira.com/weve-officially-launched-peptira/
+[FETCHED_AT] 2026-05-07T18:33:45Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/blog_1.md
+[LINE_RANGE] 45-45
+[QUOTE]
+By [Ben Criss](https://web.archive.org/web/20250913110202/https://peptira.com/author/ben/ "Posts by Ben Criss")07/17/2025July 27th, 2025[No Comments](https://web.archive.org/web/20250913110202/https://peptira.com/weve-officially-launched-peptira/#respond)
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://peptira.com/weve-officially-launched-peptira/
+[FETCHED_AT] 2026-05-07T18:33:45Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/blog_1.md
+[LINE_RANGE] 49-52
+[QUOTE]
+Peptira is officially open for business!
+Our mission is simple: provide researchers with the highest quality peptides, great customer services, and peace of mind in their research!
+
+99% purity (HPLC verified) with fast, reliable shipping.
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[INFERENCE] false
+[REASONING]
+No customer review module appears on any fetched product page. The BPC-157 and TB-500 product pages each end at "Additional information" and "Related products" with no star ratings, review counts, or customer comment sections.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__bpc-157.md
+[LINE_RANGE] 111-117
+## Additional information
+
+Weight | .3 lbs
+---|---
+Dimensions | 2 × 2 × 2 in
+
+## Related products
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 68-80
+### Filter by Price
+
+### Rating
+
+Rating
+
+### Status
+
+Status
+
+In stock
+
+Out of stock
+
+Apply
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://peptira.com/
+[FETCHED_AT] 2026-05-07T18:31:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/wb_homepage.md
+[LINE_RANGE] 201-225
+[QUOTE]
+## Testimonials
+
+> "
+>
+> Dr. Emily RaoBiomedical Research Center
+>
+> "Peptira's peptides consistently deliver on quality and purity. We've run multiple assays across different projects, and their consistency has saved us both time and resources. It's rare to find a supplier this reliable."
+
+> "
+>
+> Dr. Lucas MeyerSenior Scientist
+>
+> "from custom synthesis to standard catalog peptides, Peptira has been an invaluable partner in our work. The detailed CoAs and responsive support give us confidence that we're working with world-class compounds."
+
+> "
+>
+> Prof. Amina TariqDepartment of Molecular Biology
+>
+> "The level of transparency Peptira provides—from synthesis method to QC data—is impressive. Our team depends on peptide integrity, and Peptira has never let us down."
+
+> "
+>
+> Dr. Daniel KimHead of R&D, BioNova Therapeutics
+>
+> "Speed, purity, and scientific rigor—Peptira delivers on all three. Their peptides have supported our preclinical studies flawlessly. We now use them as our primary peptide supplier."
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://peptira.com/
+[FETCHED_AT] 2026-05-07T18:31:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/wb_homepage.md
+[LINE_RANGE] 296-298
+[QUOTE]
+  * Affiliates
+    * [Become An Affiliate](https://web.archive.org/web/20250818163246/https://peptira.com/affiliates/)
+    * [Affiliate Portal](https://web.archive.org/web/20250818163246/https://peptira.com/affiliates/)
+[/QUOTE]
+
+[CLAIM] skus[peptira:tb-500-10mg].list_price_usd / skus[peptira:tb-500-10mg-fullkit].list_price_usd
+[URL] https://peptira.com/product/tb-500/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__tb-500.md
+[LINE_RANGE] 49-50
+[QUOTE]
+~~$ 49.00 – $299.00Price range: $49.00 through $299.00~~
+$44.10 – $269.10Price range: $44.10 through $269.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:semaglutide-10mg].list_price_usd
+[URL] https://peptira.com/product/semaglutide/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__semaglutide.md
+[LINE_RANGE] 49-50
+[QUOTE]
+~~$ 69.00 – $715.00Price range: $69.00 through $715.00~~
+$62.10 – $643.50Price range: $62.10 through $643.50
+[/QUOTE]
+
+[CLAIM] skus[peptira:tirzepatide-10mg].list_price_usd
+[URL] https://peptira.com/product/tirzepatide/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__tirzepatide.md
+[LINE_RANGE] 49-50
+[QUOTE]
+~~$ 89.00 – $889.00Price range: $89.00 through $889.00~~
+$80.10 – $800.10Price range: $80.10 through $800.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:retatrutide-10mg].list_price_usd
+[URL] https://peptira.com/product/reta/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__reta.md
+[LINE_RANGE] 49-50
+[QUOTE]
+~~$ 99.00 – $799.00Price range: $99.00 through $799.00~~
+$89.10 – $719.10Price range: $89.10 through $719.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:ghk-cu-50mg].list_price_usd
+[URL] https://peptira.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-07T18:30:26Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/product_1__ghk-cu.md
+[LINE_RANGE] 49-50
+[QUOTE]
+~~$ 39.00 – $229.00Price range: $39.00 through $229.00~~
+$35.10 – $206.10Price range: $35.10 through $206.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:epitalon-10mg].list_price_usd
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 141-142
+[QUOTE]
+~~$ 49.00 – $299.00Price range: $49.00 through $299.00~~
+$44.10 – $269.10Price range: $44.10 through $269.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:igf1-lr3-1mg].list_price_usd
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 161-162
+[QUOTE]
+~~$ 69.00 – $414.00Price range: $69.00 through $414.00~~
+$62.10 – $372.60Price range: $62.10 through $372.60
+[/QUOTE]
+
+[CLAIM] skus[peptira:pt-141-10mg].list_price_usd
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 191-192
+[QUOTE]
+~~$ 49.00 – $299.00Price range: $49.00 through $299.00~~
+$44.10 – $269.10Price range: $44.10 through $269.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:ipamorelin-10mg].list_price_usd
+[URL] https://peptira.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_3.md
+[LINE_RANGE] 111-112
+[QUOTE]
+~~$ 69.00 – $414.00Price range: $69.00 through $414.00~~
+$62.10 – $372.60Price range: $62.10 through $372.60
+[/QUOTE]
+
+[CLAIM] skus[peptira:cjc-1295-nodac-10mg].list_price_usd
+[URL] https://peptira.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_2.md
+[LINE_RANGE] 201-202
+[QUOTE]
+~~$ 79.00 – $479.00Price range: $79.00 through $479.00~~
+$71.10 – $431.10Price range: $71.10 through $431.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:cjc-1295-dac-5mg].list_price_usd
+[URL] https://peptira.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_2.md
+[LINE_RANGE] 211-212
+[QUOTE]
+~~$ 39.00 – $239.00Price range: $39.00 through $239.00~~
+$35.10 – $215.10Price range: $35.10 through $215.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:mots-c-10mg].list_price_usd
+[URL] https://peptira.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_3.md
+[LINE_RANGE] 171-172
+[QUOTE]
+~~$ 49.00 – $299.00Price range: $49.00 through $299.00~~
+$44.10 – $269.10Price range: $44.10 through $269.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:selank-10mg].list_price_usd
+[URL] https://peptira.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_3.md
+[LINE_RANGE] 181-182
+[QUOTE]
+~~$ 49.00 – $299.00Price range: $49.00 through $299.00~~
+$44.10 – $269.10Price range: $44.10 through $269.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:semax-10mg].list_price_usd
+[URL] https://peptira.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_3.md
+[LINE_RANGE] 191-192
+[QUOTE]
+~~$ 49.00 – $299.00Price range: $49.00 through $299.00~~
+$44.10 – $269.10Price range: $44.10 through $269.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:thymosin-alpha1-10mg].list_price_usd
+[URL] https://peptira.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_2.md
+[LINE_RANGE] 111-112
+[QUOTE]
+~~$ 59.00 – $355.00Price range: $59.00 through $355.00~~
+$53.10 – $319.50Price range: $53.10 through $319.50
+[/QUOTE]
+
+[CLAIM] skus[peptira:kpv-10mg].list_price_usd
+[URL] https://peptira.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_3.md
+[LINE_RANGE] 101-102
+[QUOTE]
+~~$ 49.00 – $299.00Price range: $49.00 through $299.00~~
+$44.10 – $269.10Price range: $44.10 through $269.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:nad-500mg].list_price_usd
+[URL] https://peptira.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_3.md
+[LINE_RANGE] 141-142
+[QUOTE]
+~~$ 59.00 – $359.00Price range: $59.00 through $359.00~~
+$53.10 – $323.10Price range: $53.10 through $323.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:aod-9604-5mg].list_price_usd
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 111-112
+[QUOTE]
+~~$ 49.00 – $299.00Price range: $49.00 through $299.00~~
+$44.10 – $269.10Price range: $44.10 through $269.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:5-amino-1mq-10mg].list_price_usd
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 101-102
+[QUOTE]
+~~$ 69.00 – $414.00Price range: $69.00 through $414.00~~
+$62.10 – $372.60Price range: $62.10 through $372.60
+[/QUOTE]
+
+[CLAIM] skus[peptira:dsip-uncertain].list_price_usd
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 131-132
+[QUOTE]
+~~$ 89.00 – $534.00Price range: $89.00 through $534.00~~
+$80.10 – $480.60Price range: $80.10 through $480.60
+[/QUOTE]
+
+[CLAIM] skus[peptira:ss31-uncertain].list_price_usd
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 211-212
+[QUOTE]
+~~$ 49.00 – $834.00Price range: $49.00 through $834.00~~
+$44.10 – $750.60Price range: $44.10 through $750.60
+[/QUOTE]
+
+[CLAIM] skus[peptira:glutathione-uncertain].list_price_usd
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 151-152
+[QUOTE]
+~~$ 89.00 – $534.00Price range: $89.00 through $534.00~~
+$80.10 – $480.60Price range: $80.10 through $480.60
+[/QUOTE]
+
+[CLAIM] skus[peptira:melanotan2-uncertain].list_price_usd
+[URL] https://peptira.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_3.md
+[LINE_RANGE] 161-162
+[QUOTE]
+~~$ 39.00 – $239.00Price range: $39.00 through $239.00~~
+$35.10 – $215.10Price range: $35.10 through $215.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:melanotan1-uncertain].list_price_usd
+[URL] https://peptira.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_3.md
+[LINE_RANGE] 151-152
+[QUOTE]
+~~$ 39.00 – $239.00Price range: $39.00 through $239.00~~
+$35.10 – $215.10Price range: $35.10 through $215.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:sermorelin-uncertain].list_price_usd
+[URL] https://peptira.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_3.md
+[LINE_RANGE] 131-132
+[QUOTE]
+~~$ 69.00 – $414.00Price range: $69.00 through $414.00~~
+$62.10 – $372.60Price range: $62.10 through $372.60
+[/QUOTE]
+
+[CLAIM] skus[peptira:tesamorelin-uncertain].list_price_usd
+[URL] https://peptira.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_3.md
+[LINE_RANGE] 121-122
+[QUOTE]
+~~$ 69.00~~
+$62.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:snap8-uncertain].list_price_usd
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 201-202
+[QUOTE]
+~~$ 49.00 – $299.00Price range: $49.00 through $299.00~~
+$44.10 – $269.10Price range: $44.10 through $269.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:ipa-cjc-blend-uncertain].list_price_usd
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 171-172
+[QUOTE]
+~~$ 79.00 – $479.00Price range: $79.00 through $479.00~~
+$71.10 – $431.10Price range: $71.10 through $431.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:tb-bp-blend-uncertain].list_price_usd
+[URL] https://peptira.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_2.md
+[LINE_RANGE] 101-102
+[QUOTE]
+~~$ 79.00 – $475.00Price range: $79.00 through $475.00~~
+$71.10 – $427.50Price range: $71.10 through $427.50
+[/QUOTE]
+
+[CLAIM] skus[peptira:klow-uncertain].list_price_usd
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 181-182
+[QUOTE]
+~~$ 149.00 – $894.00Price range: $149.00 through $894.00~~
+$134.10 – $804.60Price range: $134.10 through $804.60
+[/QUOTE]
+
+[CLAIM] skus[peptira:glow-uncertain].list_price_usd
+[URL] https://peptira.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_2.md
+[LINE_RANGE] 151-152
+[QUOTE]
+~~$ 119.00 – $899.00Price range: $119.00 through $899.00~~
+$107.10 – $809.10Price range: $107.10 through $809.10
+[/QUOTE]
+
+[CLAIM] skus[peptira:cagrilintide-uncertain].list_price_usd
+[URL] https://peptira.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:27:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_2.md
+[LINE_RANGE] 181-182
+[QUOTE]
+~~$ 119.00 – $714.00Price range: $119.00 through $714.00~~
+$107.10 – $642.60Price range: $107.10 through $642.60
+[/QUOTE]
+
+[CLAIM] skus[peptira:bac-water-uncertain].list_price_usd
+[URL] https://peptira.com/shop/
+[FETCHED_AT] 2026-05-07T18:27:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 121-122
+[QUOTE]
+~~$ 5.00~~
+$4.50
+[/QUOTE]
+
+[CLAIM] discovery_provenance.discovery_source_quote
+[URL] 00_inputs/vendor_list.csv
+[FETCHED_AT] 2026-05-07T18:23:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptira/catalog_1.md
+[LINE_RANGE] 47-47
+[QUOTE]
+Showing 1–12 of 35 results
+[/QUOTE]

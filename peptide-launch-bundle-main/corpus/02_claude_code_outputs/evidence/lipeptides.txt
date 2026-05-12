@@ -1,0 +1,149 @@
+[CLAIM] social_proof.off_site_aggregators (Retatrutide: A Great rating, 11 samples, avg 8.5)
+[URL] https://finnrick.com/vendors/lipeptides
+[FETCHED_AT] 2026-05-07T23:52:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/lipeptides/finnrick_vendor.md
+[LINE_RANGE] 51-52
+[QUOTE]
+"[Retatrutide](/products/retatrutide/lipeptides)| A Great| 11| 8.5| 6.6| 10.0| 6 Dec 2025| 27 Apr 2026"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators (Tirzepatide: C Okay rating, 8 samples, avg 7.3)
+[URL] https://finnrick.com/vendors/lipeptides
+[FETCHED_AT] 2026-05-07T23:52:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/lipeptides/finnrick_vendor.md
+[LINE_RANGE] 51-52
+[QUOTE]
+"[Tirzepatide](/products/tirzepatide/lipeptides)| C Okay| 8| 7.3| 4.6| 9.8| 6 Oct 2025| 25 Mar 2026"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators (Finnrick vendor overview: 20 total samples, 2 products, last test 27 Apr 2026)
+[URL] https://finnrick.com/vendors/lipeptides
+[FETCHED_AT] 2026-05-07T23:52:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/lipeptides/finnrick_vendor.md
+[LINE_RANGE] 32-36
+[QUOTE]
+"20 total samples tested"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators (Finnrick customer satisfaction: 4.8/5 from 11 reports)
+[URL] https://finnrick.com/vendors/lipeptides
+[FETCHED_AT] 2026-05-07T23:52:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/lipeptides/finnrick_vendor.md
+[LINE_RANGE] 60-84
+[QUOTE]
+"Based on 11 overall satisfaction reports"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators (Finnrick delivery speed: 5.0/5 from 11 reports)
+[URL] https://finnrick.com/vendors/lipeptides
+[FETCHED_AT] 2026-05-07T23:52:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/lipeptides/finnrick_vendor.md
+[LINE_RANGE] 72-74
+[QUOTE]
+"People who submitted test requests to Finnrick gave Lipeptides an average satisfaction rating of 4.8 out of 5 across 11 reports associated with samples received and tested by Finnrick."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options (Retatrutide: 5mg, 10mg, 15mg, 20mg confirmed by Finnrick test labels)
+[INFERENCE] ["5mg", "10mg", "15mg", "20mg"] for Retatrutide
+[REASONING]
+Dose sizes (5mg, 10mg, 15mg, 20mg) appear as the label-declared quantities in the Finnrick test table for Lipeptides Retatrutide. Finnrick records the stated label amount per vial for each submitted sample; therefore these represent the actual dose sizes sold by Lipeptides.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://finnrick.com/products/retatrutide/lipeptides
+[FETCHED_AT] 2026-05-07T23:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/lipeptides/finnrick_retatrutide.md
+[LINE_RANGE] 55-80
+"27 Apr 2026| [View](/testing-certificate/retatrutide/lipeptides/20260427-g-mtrz29p)| 9.8| 20mg| 19.5mg| -2.5%| 99.80%| n/a| March 2, 2026| No Label / Silver Crimp / Violet Cap| Lab G| Public"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://finnrick.com/products/retatrutide/lipeptides
+[FETCHED_AT] 2026-05-07T23:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/lipeptides/finnrick_retatrutide.md
+[LINE_RANGE] 57-80
+"25 Mar 2026| [View](/testing-certificate/retatrutide/lipeptides/20260325-g-d9xt3a9)| 10.0| 10mg| 10.3mg| +3.0%| 99.90%| n/a| 1/30/2026| No Label / Silver Crimp / Blue Cap| Lab G| Public"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options (Tirzepatide: 5mg, 10mg, 20mg, 30mg confirmed by Finnrick test labels)
+[INFERENCE] ["5mg", "10mg", "20mg", "30mg"] for Tirzepatide
+[REASONING]
+Dose sizes (5mg, 10mg, 20mg, 30mg) appear as the label-declared quantities in the Finnrick test table for Lipeptides Tirzepatide. Finnrick records the stated label amount per vial for each submitted sample.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://finnrick.com/vendors/lipeptides
+[FETCHED_AT] 2026-05-07T23:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/lipeptides/finnrick_vendor.md
+[LINE_RANGE] 113-120
+"25 Mar 2026| Tirzepatide| [View](/testing-certificate/tirzepatide/lipeptides/20260325-g-fwz6pt8)| 7.5| 10mg| 11.1mg| +11.0%| 99.60%| n/a| February 2, 2026| No Label / Silver Crimp / Clear Green Cap| Lab G| Public"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://finnrick.com/vendors/lipeptides
+[FETCHED_AT] 2026-05-07T23:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/lipeptides/finnrick_vendor.md
+[LINE_RANGE] 119-122
+"3 Mar 2026| Tirzepatide| [View](/testing-certificate/tirzepatide/lipeptides/20260303-e-x32h3vt)| 6.9| 30mg| 38.2mg| +27.3%| 99.90%| n/a| Jan 4, 2026| No Label / Silver Crimp / Green Cap| Lab E| Public"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency (true — batch IDs on vials per Finnrick test records)
+[INFERENCE] true
+[REASONING]
+Finnrick test records for Lipeptides consistently show Batch ID values for multiple samples (e.g., "March 2, 2026", "Jan 4, 2026", "1/30/2026", "12/6", "February 1, 2026"), demonstrating that Lipeptides labels at least some vials with batch dates. This constitutes batch/lot transparency at the product level.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://finnrick.com/products/retatrutide/lipeptides
+[FETCHED_AT] 2026-05-07T23:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/lipeptides/finnrick_retatrutide.md
+[LINE_RANGE] 55-57
+"27 Apr 2026| [View](/testing-certificate/retatrutide/lipeptides/20260427-g-mtrz29p)| 9.8| 20mg| 19.5mg| -2.5%| 99.80%| n/a| March 2, 2026| No Label / Silver Crimp / Violet Cap| Lab G| Public"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://finnrick.com/products/retatrutide/lipeptides
+[FETCHED_AT] 2026-05-07T23:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/lipeptides/finnrick_retatrutide.md
+[LINE_RANGE] 59-60
+"3 Mar 2026| [View](/testing-certificate/retatrutide/lipeptides/20260303-e-8qzyxna)| 9.0| 10mg| 10.8mg| +8.0%| 99.90%| n/a| Jan 4, 2026| No Label / Silver Crimp / Clear Blue Cap| Lab E| Public"
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation and fulfillment_country (China)
+[INFERENCE] China
+[REASONING]
+The operator-supplied vendor_list.csv seed row identifies country=China, fulfillment=China. The vendor name and product offering (wholesale GLP-1 peptides supplied without a branded storefront) is consistent with a Chinese API supplier. The Finnrick vial descriptions show "No Label / Silver Crimp" containers typical of Chinese peptide API suppliers. No contradicting evidence was found.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://finnrick.com/products/retatrutide/lipeptides
+[FETCHED_AT] 2026-05-07T23:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/lipeptides/finnrick_retatrutide.md
+[LINE_RANGE] 55-66
+"27 Apr 2026| [View](/testing-certificate/retatrutide/lipeptides/20260427-g-mtrz29p)| 9.8| 20mg| 19.5mg| -2.5%| 99.80%| n/a| March 2, 2026| No Label / Silver Crimp / Violet Cap| Lab G| Public"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://finnrick.com/products/retatrutide/lipeptides
+[FETCHED_AT] 2026-05-07T23:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/lipeptides/finnrick_retatrutide.md
+[LINE_RANGE] 14-15
+"Finnrick tested 11 samples of Retatrutide (GLP-1, GIP, and GCGR agonist) from [Lipeptides](/vendors/lipeptides) between 6 Dec 2025 and 27 Apr 2026. Test scores average over 7, no score below 6, and at least 6 tests warrant a confident Finnrick Rating of A (Great)."
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope (us_intl — US and international)
+[INFERENCE] us_intl
+[REASONING]
+Operator seed CSV specifies "US+Intl" for Lipeptides. Finnrick testing is US-based (mail-in service) yet tests from Lipeptides appear, confirming US accessibility. No storefront is available to directly confirm shipping policy, so this remains an inference from the seed data.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://finnrick.com/vendors/lipeptides
+[FETCHED_AT] 2026-05-07T23:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/lipeptides/finnrick_vendor.md
+[LINE_RANGE] 32-36
+"20 total samples tested"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://finnrick.com/products/retatrutide/lipeptides
+[FETCHED_AT] 2026-05-07T23:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/lipeptides/finnrick_retatrutide.md
+[LINE_RANGE] 40-41
+"Tested 11 Samples"
+[/SUPPORT_QUOTE]

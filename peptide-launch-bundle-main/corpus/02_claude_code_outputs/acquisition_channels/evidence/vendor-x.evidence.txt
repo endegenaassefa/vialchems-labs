@@ -1,0 +1,397 @@
+channel_slug: vendor-x
+captured_at: 2026-05-06
+captured_by: claude-code-subagent
+
+# Evidence entries
+# Format follows research_directive.md §6 (relaxed for channel-level use):
+#   [CLAIM] <claim path>
+#   [URL] <full URL>
+#   [FETCHED_AT] <ISO 8601>
+#   [FETCH_METHOD] <webfetch | websearch-snippet | site-footer-extraction>
+#   [RAW_ARTIFACT] 03_raw_fetches/vendor-x/<file>
+#   [LINE_RANGE] <approx>
+#   [QUOTE] "verbatim ≤500 chars" [/QUOTE]
+#
+# Note on fetch method: x.com profile pages return HTTP 402 to Claude Code's
+# WebFetch (anti-bot). Profile-data evidence below relies on Google search
+# snippet capture (websearch-snippet) when direct fetch was blocked. This is
+# called out per Rule 6 (no anti-bot bypass; partial data normal; mark
+# uncertain).
+
+# ============================================================================
+# CLAIMS ABOUT X PLATFORM POLICY (cross-vendor context)
+# ============================================================================
+
+[CLAIM] x_ads_policy.health_pharmaceutical.default_rule
+[URL] https://business.x.com/en/help/ads-policies/ads-content-policies/healthcare
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/x-ads-policy__healthcare.md
+[LINE_RANGE] 11-13
+[QUOTE]
+"Unless listed below, the promotion of health and pharmaceutical products and services is prohibited"
+[/QUOTE]
+[URL] https://www.accelerateddigitalmedia.com/insights/guide-to-social-media-health-ad-restrictions-2026/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/x-ads-policy__healthcare.md
+[LINE_RANGE] 11-13
+[QUOTE]
+"Unless listed below, the promotion of health and pharmaceutical products and services is prohibited" — verbatim reproduction of X policy on third-party 2026 social-media-health-ad guide.
+[/QUOTE]
+
+[CLAIM] x_ads_policy.health_pharmaceutical.permitted_exceptions
+[URL] https://www.accelerateddigitalmedia.com/insights/guide-to-social-media-health-ad-restrictions-2026/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/x-ads-policy__healthcare.md
+[LINE_RANGE] 17-22
+[QUOTE]
+X permits advertising for: Telemedicine services (with state compliance and prior authorization from X); Brick-and-mortar pharmacies (excluding online pharmaceutical sales promotion); FDA-approved medical devices; NABP-accredited online pharmacies. Research peptides do not fit any of the four exception buckets.
+[/QUOTE]
+
+[CLAIM] x_ads_policy.drugs_paraphernalia.access_blocked
+[URL] https://business.x.com/en/help/ads-policies/ads-content-policies/drugs-and-drug-paraphernalia
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/x-ads-policy__healthcare.md
+[LINE_RANGE] 31-34
+[QUOTE]
+Direct fetch returned HTTP 402 (X.com anti-bot block to Claude Code WebFetch). Per general X policy summaries: "X prohibits the promotion of drugs and drug paraphernalia." Verbatim text could not be captured.
+[/QUOTE]
+
+# ============================================================================
+# CLAIMS ABOUT @PeptideScience (singular) - PEPTIDE SCIENCES
+# ============================================================================
+
+[CLAIM] vendor.peptide-sciences.x_handle_singular.profile_meta
+[URL] https://x.com/PeptideScience
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/peptide-sciences__x-search-summary.md
+[LINE_RANGE] 12-19
+[QUOTE]
+Google search snippet (verbatim aggregation): "Peptide Sciences (@PeptideScience) joined Twitter in February 2020 and has 74 Following and 6,979 Followers." Bio: "Peptide Sciences specializes in the synthesis of highly purified peptides, proteins and amino acid derivatives for scientific research and development."
+[/QUOTE]
+
+[CLAIM] vendor.peptide-sciences.x_handle_singular.content_taxonomy
+[URL] https://x.com/PeptideScience/status/1747372814372683982
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/peptide-sciences__x-search-summary.md
+[LINE_RANGE] 22-25
+[QUOTE]
+"#Epitalon #Peptide Stimulates Gene Expression & Protein Synthesis during #Neurogenesis: #Epigenetic Mechanism ... can #epigenetically regulate #neuronal differentiation #gene expression & #protein synthesis in human #stem cells."
+[/QUOTE]
+[URL] https://x.com/PeptideScience/status/1730670289762349140
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/peptide-sciences__x-search-summary.md
+[LINE_RANGE] 23-25
+[QUOTE]
+"Dive into 'Ageless' The Art and Science of Aging with Peptide Sciences(TM). Discover the 14 fundamental hallmarks of aging and research strategies to slow it down. Our eBook offers a comprehensive view on aging biology. Download for profound insights."
+[/QUOTE]
+
+[CLAIM] vendor.peptide-sciences.x_handle_plural.profile_meta
+[URL] https://x.com/peptidesciences
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/peptide-sciences__x-search-summary.md
+[LINE_RANGE] 33-39
+[QUOTE]
+Google search snippet (verbatim aggregation): "Peptide Sciences (@PeptideSciences) has 111 followers on X (formerly Twitter). The account was joined in September 2013 and is following 10 accounts." Bio: "USA Made Peptide Supplier, GHRP-2, GHRP-6, Melanotan 2, PT-141, Hexarelin, Sermorelin Acetate, IGF-1 Long R3, AOD9604, Buy Peptides, Peptide Labs"
+[/QUOTE]
+
+[CLAIM] vendor.peptide-sciences.parent_business_status
+[URL] https://allaboutpeptides.com/peptide-sciences-shuts-down/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/peptide-sciences__x-search-summary.md
+[LINE_RANGE] 50-52
+[QUOTE]
+"After careful consideration, Peptide Sciences has made the decision to voluntarily shut down operations and discontinue the sale of our research products. We are deeply grateful for your trust and support."
+[/QUOTE]
+[URL] https://thepeptidelist.substack.com/p/peptide-sciences-is-dead-inside-the
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/peptide-sciences__x-search-summary.md
+[LINE_RANGE] 51-55
+[QUOTE]
+The article emphasizes Peptide Sciences' silence on social media—they made no X announcement themselves. The shutdown was discovered by the community discovering a three-sentence notice on their website.
+[/QUOTE]
+
+[CLAIM] vendor.peptide-sciences.x_community_reaction
+[URL] https://thepeptidelist.substack.com/p/peptide-sciences-is-dead-inside-the
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/peptide-sciences__x-search-summary.md
+[LINE_RANGE] 53-57
+[QUOTE]
+Andrew Huberman's X reply (March 6, 2026, ~224k views): "Assuming this is real it may have something to do with their 'must pay by Venmo to the following name' (at least that's how it used to be). FDA is easing up on some aspects of peptides but gray market is about to get CRUSHED."
+[/QUOTE]
+[URL] https://x.com/himshouse/status/2030019740505080137
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/peptide-sciences__x-search-summary.md
+[LINE_RANGE] 56-58
+[QUOTE]
+"BREAKING: PEPTIDE SCIENCES HAS SHUT DOWN - Peptide Sciences was a leading vendor of peptides like BPC-157, TB-500, and retatrutide - Website announcement says the decision has been made 'voluntarily' $HIMS $LLY $NVO"
+[/QUOTE]
+
+# ============================================================================
+# CLAIMS ABOUT @SwissChemsNew - SWISS CHEMS
+# ============================================================================
+
+[CLAIM] vendor.swiss-chems.x_handle.bio
+[URL] https://x.com/SwissChemsNew
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/swiss-chems__x-search-summary.md
+[LINE_RANGE] 12-19
+[QUOTE]
+Google search snippet: '@SwissChemsNew describes itself as "The largest research chemical catalogue online!" The X (formerly Twitter) account bio indicates they promote exclusive discounts and product announcements related to research chemicals.'
+[/QUOTE]
+
+[CLAIM] vendor.swiss-chems.x_handle.cadence
+[URL] https://x.com/SwissChemsNew
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/swiss-chems__x-search-summary.md
+[LINE_RANGE] 17-21
+[QUOTE]
+WebSearch result narration (2026-05-06): "SwissChems ran giveaways on their @SwissChemsNew Twitter account offering $100 vouchers, requiring participants to like posts, follow on multiple social platforms, and tag three friends." Promo cadence corroborated by 44+ verified discount codes catalogued at simplycodes.com / Knoji / DealDrop across 2024-2026.
+[/QUOTE]
+
+[CLAIM] vendor.swiss-chems.x_handle_secondary
+[URL] https://x.com/swisschemsis
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/swiss-chems__x-search-summary.md
+[LINE_RANGE] 25-29
+[QUOTE]
+"Swiss Chems (@swisschemsis)" listed on X as "Science & Technology" based in Sheridan, Wyoming. Treated as secondary/dormant relative to @SwissChemsNew which is the live promo channel.
+[/QUOTE]
+
+# ============================================================================
+# CLAIMS ABOUT @PureRawzsome - PURE RAWZ
+# ============================================================================
+
+[CLAIM] vendor.pure-rawz.x_handle_primary.bio
+[URL] https://x.com/PureRawzsome
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/pure-rawz__x-search-summary.md
+[LINE_RANGE] 12-18
+[QUOTE]
+Google snippet: 'The @PureRawzsome Twitter account describes itself as "The World's #1 SARMs Research Compound Supplier PURE | RAW | AWESOME" with 361 followers and 98 accounts being followed.'
+[/QUOTE]
+
+[CLAIM] vendor.pure-rawz.x_handle_primary.account_status_suspended
+[URL] https://x.com/PureRawzsome
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/pure-rawz__x-search-summary.md
+[LINE_RANGE] 19-22
+[QUOTE]
+WebSearch result narration (2026-05-06): "the @PureRawzsome account on X (formerly Twitter) has been suspended, with X suspending the account for violating X Rules." MARKED UNCERTAIN: could not verify suspension via direct fetch (402); search-result language indicates suspension; URL still indexed.
+[/QUOTE]
+
+[CLAIM] vendor.pure-rawz.x_handle_alternates
+[URL] https://x.com/purerawz
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/pure-rawz__x-search-summary.md
+[LINE_RANGE] 24-37
+[QUOTE]
+At least four PureRawz-orbit handles indexed: @PureRawzsome (claimed primary, possibly suspended); @PureRawz (status unverified); @pure_rawz ("supplier of nootropic cognitive enhancing supplements"); @PureRawzSuppz (joined October 2018, Knoxville TN). Pattern is consistent with throwaway/backup-handle discipline common to gray-market vendors.
+[/QUOTE]
+
+# ============================================================================
+# CLAIMS ABOUT @BHLabzOfficial - BEHEMOTH LABZ
+# ============================================================================
+
+[CLAIM] vendor.behemoth-labz.x_handle.canonical_disclosure
+[URL] https://behemothlabz.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/behemoth-labz__website-and-x-summary.md
+[LINE_RANGE] 12-18
+[QUOTE]
+behemothlabz.com footer surfaces social link: "X / Twitter: https://x.com/BHLabzOfficial" (alongside Facebook/Instagram/TikTok/Discord). This is the canonical owned-X-handle disclosure for Behemoth Labz.
+[/QUOTE]
+
+[CLAIM] vendor.behemoth-labz.x_handle.indexing_void
+[URL] https://x.com/BHLabzOfficial
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/behemoth-labz__website-and-x-summary.md
+[LINE_RANGE] 22-27
+[QUOTE]
+WebSearch '"@BHLabzOfficial" OR "BHLabzOfficial" twitter X joined sarms' (2026-05-06): "No links found." Handle exists per official-site disclosure but is essentially un-indexed by Google. Suggests very low public activity, recent creation, or aggressive search isolation.
+[/QUOTE]
+
+[CLAIM] vendor.behemoth-labz.adjacent_social_proxies
+[URL] https://www.instagram.com/behemoth_labz_official/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/behemoth-labz__website-and-x-summary.md
+[LINE_RANGE] 30-37
+[QUOTE]
+Adjacent metrics: IG @behemoth_labz_official 92 followers; IG @behemothlabz_research 1,292 followers; FB 118 followers. Brand IG bio (verbatim): "Elite research-grade formulas. Engineered for power, precision & progress" - implies low overall social footprint and likewise small X presence by extrapolation.
+[/QUOTE]
+
+# ============================================================================
+# CLAIMS ABOUT @aminoasylums / @aminoasylum - AMINO ASYLUM
+# ============================================================================
+
+[CLAIM] vendor.amino-asylum.x_handles.dual_account
+[URL] https://x.com/aminoasylums
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/amino-asylum__x-search-summary.md
+[LINE_RANGE] 11-25
+[QUOTE]
+Two handles: @aminoasylums (claimed primary; joined June 2024; bio claims "premium research") and @aminoasylum (display name "Discount Code Amino Asylum"; joined January 2022; per snippet "the account hasn't posted any content yet"). Pattern: brand-name + discount-code mirror handle on X.
+[/QUOTE]
+
+[CLAIM] vendor.amino-asylum.parent_business_raid
+[URL] https://www.professionalmuscle.com/forums/index.php?threads/amino-asylum-raided.186790/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/amino-asylum__x-search-summary.md
+[LINE_RANGE] 29-35
+[QUOTE]
+Forum thread (June 18-19, 2025): "web site is down as well!!!!" and "Right now the rumor is the FDA shut them down."
+[/QUOTE]
+[URL] https://muscleandbrawn.com/reviews/amino-asylum-raided-in-2025/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/amino-asylum__x-search-summary.md
+[LINE_RANGE] 33-39
+[QUOTE]
+"federal authorities raided Amino Asylum"; "Their website is down, showing server errors and no communication."; "Multiple posts from trusted community members report law enforcement at the warehouse."; "Users are reporting orders frozen, payment pages removed and all communication channels dead."; "This wasn't a server crash. This was a takedown."
+[/QUOTE]
+
+# ============================================================================
+# CLAIMS ABOUT @LimitlesBiotech - LIMITLESS LIFE NOOTROPICS / BIOTECH
+# ============================================================================
+
+[CLAIM] vendor.limitless-biotech.x_handle.exists_low_activity
+[URL] https://twitter.com/LimitlesBiotech/status/1903251604012257387
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/limitless-biotech__x-search-summary.md
+[LINE_RANGE] 11-19
+[QUOTE]
+@LimitlesBiotech (note misspelled handle - single 's' in "Limitles") confirmed active via tweet URL "Certain peptides..." (snippet truncated). Bio/follower count NOT VISIBLE; X anti-bot blocked direct fetch. Misspelled handle suggests namespace-collision rotation pattern.
+[/QUOTE]
+[URL] https://www.instagram.com/limitless_biotech/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/limitless-biotech__x-search-summary.md
+[LINE_RANGE] 23-26
+[QUOTE]
+Adjacent IG @limitless_biotech: 7,922 followers, 68 following, 186 posts. IG presence is dominant brand channel; X comparatively unused.
+[/QUOTE]
+
+# ============================================================================
+# CLAIMS ABOUT @PeptidePros - PEPTIDE PROS (POSTURE-REFERENCE)
+# ============================================================================
+
+[CLAIM] vendor.peptide-pros.x_handle.canonical_disclosure
+[URL] https://www.peptidepros.net/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/peptide-pros__website-x-summary.md
+[LINE_RANGE] 11-17
+[QUOTE]
+peptidepros.net footer (verbatim links): Twitter/X = https://twitter.com/PeptidePros; Facebook = facebook.com/thepeptidepros; Instagram = instagram.com/thepeptidepros; Vimeo = vimeo.com/user25489991/videos.
+[/QUOTE]
+
+[CLAIM] vendor.peptide-pros.x_handle.payment_announcement_2021
+[URL] https://x.com/PeptidePros/status/1402034953093718018
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/peptide-pros__website-x-summary.md
+[LINE_RANGE] 21-23
+[QUOTE]
+"Peptide Pros Now Accepts Bitcoin Payments for the Purchase of Peptides and SARMs ... via @influencive" - June 2021 post, exemplifies payment-method-announcement content type unique to gray-market vendors on X.
+[/QUOTE]
+
+# ============================================================================
+# CLAIMS ABOUT BIOTECH PEPTIDES & CORE PEPTIDES - X ABSENCE
+# ============================================================================
+
+[CLAIM] vendor.biotech-peptides.no_x_handle_observable
+[URL] https://biotechpeptides.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/biotech-peptides__no-x-handle.md
+[LINE_RANGE] 12-22
+[QUOTE]
+biotechpeptides.com footer surfaces only "Useful links (Knowledge Center, About, Shipping, Privacy Policy, etc.), Copyright information, Contact email address." No social media icons or links surfaced. WebSearch confirmation: no @biotechpeptides X handle returned. Vendor appears to deliberately abstain from public X presence.
+[/QUOTE]
+
+[CLAIM] vendor.core-peptides.no_clear_x_handle
+[URL] https://www.corepeptides.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/core-peptides__no-clear-x-handle.md
+[LINE_RANGE] 12-26
+[QUOTE]
+corepeptides.com footer: placeholder SVG icons but no resolvable X handle URL. Mirror corepeptidesbuyusa.com lists "X (Twitter)" as a category but does NOT publish a URL/handle. The named external community channel is Telegram (https://t.me/peptides_for_research_purposes), not X.
+[/QUOTE]
+
+# ============================================================================
+# CLAIMS ABOUT FOUNDER-PERSONAL ACCOUNTS / X ECOSYSTEM CONTEXT
+# ============================================================================
+
+[CLAIM] x_ecosystem.founder_personal_accounts.dominance_pattern
+[URL] https://globalcommunityweekly.substack.com/p/chinese-peptides-are-the-latest-biohacking
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/peptide-sciences__x-search-summary.md
+[LINE_RANGE] 50-60
+[QUOTE]
+Most-cited X-tied actor in vendor space is NOT a vendor account but a personal account: Jayden Clark "@creatine_cycle" - "Something i have learned over this long weekend in SF is that the elites all have a chinese peptide dealer." OpenAI researcher post: oxytocin "Ozempic for autism." RFK Jr. October 2024 X post pledging to end "aggressive suppression" of peptides. Pattern: founder/influencer-personal X accounts drive narrative, vendor accounts mostly silent.
+[/QUOTE]
+
+[CLAIM] x_ecosystem.x_spaces_usage.absence_finding
+[URL] WebSearch '"peptide" twitter X "spaces" host vendor researcher biohackers' (2026-05-06)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] N/A (search-derived absence finding)
+[LINE_RANGE] N/A
+[QUOTE]
+Multiple search rounds for vendor-hosted X Spaces returned no documented vendor-hosted X Spaces in the peptide vendor space. Community organizing happens on Telegram (Peptide Lounge), Reddit (r/peptides ~70k weekly visitors, r/biohackers >600k), and Discord (Behemoth Labz hosts a Discord). X Spaces appears NOT to be a deployed channel by anchor vendors.
+[/QUOTE]
+
+[CLAIM] x_ecosystem.no_observed_promoted_tweets_by_vendors
+[URL] https://www.nexamed.us/post/how-to-market-peptides-in-2026
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch-snippet
+[RAW_ARTIFACT] N/A (cited via search-result narration)
+[LINE_RANGE] N/A
+[QUOTE]
+Industry consultancy quote (verbatim): "Meta and Google don't want anything to do with peptides." "This is what makes traditional paid advertising for peptides nearly impossible." Industry sources do not document peptide vendors using X promoted-posts (the X Ads Healthcare prohibition explains why despite X's looser content posture relative to Meta).
+[/QUOTE]
+
+[CLAIM] x_ecosystem.x_more_permissive_for_organic_not_paid
+[URL] https://www.statnews.com/2025/05/08/peptide-craze-social-media-wellness-influencers-hype-carries-risks/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] N/A (cited via WebFetch summary)
+[LINE_RANGE] N/A
+[QUOTE]
+STAT News (May 2025): "a constellation of social media wellness influencers, YouTubers, and podcasters have been extolling the health benefits of peptides" - article mentions cross-platform organic discussion but does NOT document vendor X-Ads activity. Pattern: X tolerates organic peptide discussion (vendor bios, hashtag posts, founder banter) but Ads policy still prohibits paid promotion.
+[/QUOTE]
+
+[CLAIM] x_ecosystem.silence_on_corporate_x_during_crisis
+[URL] https://thepeptidelist.substack.com/p/peptide-sciences-is-dead-inside-the
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-x/peptide-sciences__x-search-summary.md
+[LINE_RANGE] 51-58
+[QUOTE]
+"Within hours of the announcement, the peptide internet erupted." However Peptide Sciences itself made no statement on its X accounts. The community discovered the shutdown via website notice; Hims House (@himshouse), Andrew Huberman, Tom Howard, and Rory (@rorynotsorry) drove discussion - all third-party voices, no vendor self-statement.
+[/QUOTE]

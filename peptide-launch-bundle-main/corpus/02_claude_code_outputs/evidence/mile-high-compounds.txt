@@ -1,0 +1,708 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 41-45
+[QUOTE]
+# Mile High Quality, USA Made.
+
+#### Every Batch Tested. Every Result Trusted.
+
+###### For research and laboratory use only
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 47-47
+[QUOTE]
+[View Test Reports](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/coas/)[Shop Peptides](/web/20251225194943/https://milehighcompounds.is/shop/)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 19-27
+[QUOTE]
+  * [Peptides](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/shop/)
+  * [Peptide Blends](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/peptide-blend/)
+  * [Bioregulators](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/bioregulators/)
+  * [Capsules](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/peptide-capsules/)
+  * [Certificates](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/coas/)
+  * [About](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/about/)
+    * [Blog](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/blog/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 243-248
+[QUOTE]
+These statements have not been evaluated by the Food and Drug Administration.
+
+This product is not intended to diagnose, treat, cure, or prevent any disease.
+
+Mile High Compounds is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act.
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The archived homepage headline is "Mile High Quality, USA Made. Every Batch Tested. Every Result Trusted. For research and laboratory use only" with sub-sections referencing cGMP-certified facilities, FDA-audited manufacturing, and third-party lab testing. The navigation emphasizes Certificates (COAs) and the About page describes "state-of-the-art, cGMP-certified, FDA-audited facilities." No meme coding, lifestyle photography, or casual imagery language appears in any captured page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 49-83
+Mile High Compounds is a trusted supplier of premium research-use compounds, dedicated to unmatched quality, safety, and transparency.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251225195348/https://milehighcompounds.is/about/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/about.md
+[LINE_RANGE] 59-65
+What sets us apart is our unwavering commitment to transparency and trust. Every compound is independently verified, and Certificates of Analysis (COAs) are available for complete visibility — no hidden data, no guesswork.
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://milehighcompounds.is/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/tos.md
+[LINE_RANGE] 232-233
+[QUOTE]
+215 S Wadsworth Blvd Unit 400 #613, Lakewood, CO 80226
+CO 80226
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://web.archive.org/web/20251225195206/https://milehighcompounds.is/faq/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/faq.md
+[LINE_RANGE] 56-58
+[QUOTE]
+### __Why does my tracking number come from California and not Colorado?
+
+Our company is based out of Colorado, but we ship directly from our fulfillment center in California.
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 232-234
+[QUOTE]
+### __Do you ship worldwide?
+
+Yes! We do ship worldwide to select countries via FedEx International Connect Plus.
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/20251225195511/https://milehighcompounds.is/product-sitemap.xml
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/catalog_1.md
+[LINE_RANGE] 1-1
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/mile-high-compounds/catalog_1.md:
+56 unique product URLs extracted from archived product sitemap (2025-12-25).
+[FILES]
+milehighcompounds.is/product/5-amino-1mq
+milehighcompounds.is/product/5-amino-1mq-tablets
+milehighcompounds.is/product/acetic-acid-coming-soon
+milehighcompounds.is/product/aod-9604
+milehighcompounds.is/product/ara-290
+milehighcompounds.is/product/bac-water-30ml
+milehighcompounds.is/product/bpc-157
+milehighcompounds.is/product/bpc-157-tablets
+milehighcompounds.is/product/bpc-157-tb-500-blend
+milehighcompounds.is/product/cagri-10
+milehighcompounds.is/product/cardiogen
+milehighcompounds.is/product/cartalax
+milehighcompounds.is/product/cjc-1295-w-dac
+milehighcompounds.is/product/cjc-1295-w-o-dac-ipamorelin
+milehighcompounds.is/product/dsip
+milehighcompounds.is/product/epithalon
+milehighcompounds.is/product/follistatin-344
+milehighcompounds.is/product/ghk-cu
+milehighcompounds.is/product/glow-70-research-blend
+milehighcompounds.is/product/glp-1-sm
+milehighcompounds.is/product/glp-2-trz
+milehighcompounds.is/product/glp-3-rt
+milehighcompounds.is/product/glutathione
+milehighcompounds.is/product/igf-1-lr3
+milehighcompounds.is/product/ipamorelin
+milehighcompounds.is/product/kisspeptin-10
+milehighcompounds.is/product/klow-80-blend
+milehighcompounds.is/product/kpv
+milehighcompounds.is/product/lipo-c
+milehighcompounds.is/product/ll-37
+milehighcompounds.is/product/methylene-blue
+milehighcompounds.is/product/mots-c
+milehighcompounds.is/product/mt-1
+milehighcompounds.is/product/mt-2
+milehighcompounds.is/product/nad500mg
+milehighcompounds.is/product/ovagen
+milehighcompounds.is/product/pe-22-28
+milehighcompounds.is/product/prostamax
+milehighcompounds.is/product/pt-141
+milehighcompounds.is/product/selank
+milehighcompounds.is/product/semax
+milehighcompounds.is/product/semax-selank-blend-cognition-research
+milehighcompounds.is/product/sermorelin
+milehighcompounds.is/product/slu-pp-332
+milehighcompounds.is/product/snap-8
+milehighcompounds.is/product/ss-31
+milehighcompounds.is/product/tb-500
+milehighcompounds.is/product/tesamorlin
+milehighcompounds.is/product/tesofensine
+milehighcompounds.is/product/testagen
+milehighcompounds.is/product/thymagen
+milehighcompounds.is/product/thymalin-ta1-blend
+milehighcompounds.is/product/thymosin-alpha-1
+milehighcompounds.is/product/vip
+milehighcompounds.is/product/vitamin-b12
+milehighcompounds.is/product/wolverine-2-0-blend
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 19-22
+[QUOTE]
+  * [Peptides](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/shop/)
+  * [Peptide Blends](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/peptide-blend/)
+  * [Bioregulators](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/bioregulators/)
+  * [Capsules](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/peptide-capsules/)
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 107-116
+[QUOTE]
+## [GLP-2 TRZ](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/glp-2-trz/) [Select options](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/glp-2-trz/) This product has multiple variants. The options may be chosen on the product page
+  * Sale!
+
+[](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/glp-1-sm/)
+
+~~$ 89.99~~ Original price was: $89.99.$69.99Current price is: $69.99.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 282-288
+[QUOTE]
+All products are sold in powder (lyophilized) form and require reconstitution a suitable dilutant for research purposes only. Research supplies (e.g., syringes, bacteriostatic water) are not included. No dosing instructions are provided. We adhere to all local and state laws around Research Only Chemical sales. We are not a pharmacy, nor do we promote or provide any advice for human or animal consumption.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / product_page_anatomy.lab_partner_named
+[URL] https://web.archive.org/web/20251225195206/https://milehighcompounds.is/faq/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/faq.md
+[LINE_RANGE] 48-52
+[QUOTE]
+### __Are your compounds third-party tested?
+
+Yes. All of our products undergo rigorous independent third-party testing for purity, identity, net quantity, heavy metals, endotoxins, and sterility. There are QR codes to scan on the labels for batch traceability.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 206-210
+[QUOTE]
+#### Tested By Leading American 3rd Party Labs
+
+Every compound batch is independently verified by industry-leading third-party lab Chromate; ensuring purity, consistency, and confidence in your research.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://milehighcompounds.is/research-access/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/homepage.md
+[LINE_RANGE] 14-16
+[QUOTE]
+**Every Batch 7x Tested** QR codes, publicly viewable COAs, and batch traceability with every product
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url / product_page_anatomy.list_price
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 149-158
+[QUOTE]
+[](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/bpc-157/)
+
+~~$ 59.99~~ Original price was: $59.99.$49.99Current price is: $49.99.
+
+[Uncategorized](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/uncategorized/)
+
+## [BPC-157](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/bpc-157/) [Add to cart](/web/20251225194943/https://milehighcompounds.is/?add-to-cart=579)
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://milehighcompounds.is/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/tos.md
+[LINE_RANGE] 91-100
+[QUOTE]
+_**Research Use Only Notice – **_Mile High Compounds operates under a **Research Use Only (RSO)** designation.
+We supply chemical materials intended strictly for **laboratory and scientific research purposes**.
+Our products are **for in vitro research only** and are **not approved for human or animal consumption** , medical use, or therapeutic applications.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://milehighcompounds.is/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/tos.md
+[LINE_RANGE] 83-86
+[QUOTE]
+## 1\. **Eligibility**
+
+  * You must be at least **21 years of age** to purchase from this website.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / trust_compliance.tos_highlights
+[URL] https://milehighcompounds.is/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/tos.md
+[LINE_RANGE] 83-128
+[QUOTE]
+## 1\. **Eligibility**
+
+  * You must be at least **21 years of age** to purchase from this website.
+
+  * _**Research Use Only Notice – **_Mile High Compounds operates under a **Research Use Only (RSO)** designation.
+We supply chemical materials intended strictly for **laboratory and scientific research purposes**.
+Our products are **for in vitro research only** and are **not approved for human or animal consumption** , medical use, or therapeutic applications.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://web.archive.org/web/20251225195344/https://milehighcompounds.is/refund-policy/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/refund.md
+[LINE_RANGE] 44-46
+[QUOTE]
+## Refund Policy
+
+We accept unused, unopened product returns less than 60 days after the original purchase date. You will be issued a full refund, minus the cost of shipping & the fulfillment fee once we receive the item.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 67-70
+[QUOTE]
+##### Same-Day Shipping
+
+Orders placed before 3PM PST ship the same business day directly from our fulfillment center in California.
+[/QUOTE]
+
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 212-214
+[QUOTE]
+#### Free Shipping For Orders Over $300
+
+We offer free FedEx Expedited Shipping for orders over $300 within the US, and Canadian Orders over $500.
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/homepage.md
+[LINE_RANGE] 3-10
+[QUOTE]
+Create your _free account_
+
+🔒 Sign up to see products & pricing
+
+SKMRJLEW
+
+20,000+ researchers joined — takes 10 seconds
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20251225195206/https://milehighcompounds.is/faq/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/faq.md
+[LINE_RANGE] 74-76
+[QUOTE]
+### __What payment methods do you accept?
+
+We accept all Major Credit Cards and Zelle for your convenience.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 232-234
+[QUOTE]
+### __Do you ship worldwide?
+
+Yes! We do ship worldwide to select countries via FedEx International Connect Plus. Delivery time on average is 5-12 business days.
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://milehighcompounds.is/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/tos.md
+[LINE_RANGE] 301-304
+[QUOTE]
+**International Order — Duties & Taxes Included**
+Your order ships **DDP (Delivered Duty Paid)** via Global Post. Duties and import taxes are calculated and collected at checkout — **no surprise charges or customs holds at delivery.**
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The TOS page source HTML contains multiple references to WooCommerce CSS files (woocommerce-layout.css, woocommerce-smallscreen.css, woocommerce.css, version 10.7.0), WooCommerce plugin paths (/wp-content/plugins/woocommerce/), and WordPress-specific routing patterns. The HTTP response header includes "x-redirect-by: WordPress". This unambiguously identifies the platform as WordPress + WooCommerce.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://milehighcompounds.is/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/source_tech_stack.md
+[LINE_RANGE] 3-3
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://milehighcompounds.is/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=10.7.0' type='text/css' media='all' />
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://milehighcompounds.is/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/source_tech_stack.md
+[LINE_RANGE] 2-2
+<link rel='stylesheet' id='omnisend-woocommerce-checkout-block-checkout-newsletter-subscription-block-css' href='https://milehighcompounds.is/wp-content/plugins/omnisend-connect/includes/blocks/build/omnisend-checkout-block.css?ver=0.1.1' type='text/css' media='all' />
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] cloudflare
+[REASONING]
+Live HTTP response from milehighcompounds.is contains "server: cloudflare" header and Cloudflare-specific response headers (cf-ray, cf-cache-status, nel endpoint at a.nel.cloudflare.com). The set-cookie header from the 302 redirect includes the _fbp Cloudflare-managed cookie. Additionally, the source_tech_stack.md artifact shows the WordPress/WooCommerce stack which typically uses Cloudflare as CDN layer. The "permissions-policy" header references challenges.cloudflare.com, confirming Cloudflare integration.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://milehighcompounds.is/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/source_tech_stack.md
+[LINE_RANGE] 3-3
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://milehighcompounds.is/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=10.7.0' type='text/css' media='all' />
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://milehighcompounds.is/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/tos.md
+[LINE_RANGE] 1-6
+url: https://milehighcompounds.is/terms-conditions/
+fetched_at: 2026-05-07T17:57:26Z
+fetch_method: curl
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] Google Tag Manager (GTM-PJGLB6V3), Google Ads (AW-17641993573), Omnisend, Rank Math SEO, Metorik
+[REASONING]
+HTML source of milehighcompounds.is/terms-conditions/ (same platform as all other pages, identical script loading) contains GTM-PJGLB6V3 and AW-17641993573 identifiers, omnisend-woocommerce plugin CSS, rank-math-schema JSON-LD blocks, and metorik-helper plugin CSS. These were extracted from the raw HTML before html2text conversion and saved to source_tech_stack.md.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://milehighcompounds.is/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/source_tech_stack.md
+[LINE_RANGE] 2-2
+<link rel='stylesheet' id='omnisend-woocommerce-checkout-block-checkout-newsletter-subscription-block-css' href='https://milehighcompounds.is/wp-content/plugins/omnisend-connect/includes/blocks/build/omnisend-checkout-block.css?ver=0.1.1' type='text/css' media='all' />
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://milehighcompounds.is/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/source_tech_stack.md
+[LINE_RANGE] 3-3
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://milehighcompounds.is/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=10.7.0' type='text/css' media='all' />
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE] Facebook Pixel, TikTok Pixel, Twitter/X Ads, Google Ads
+[REASONING]
+HTML source of milehighcompounds.is/terms-conditions/ contains facebook.net/fbevents.js (Facebook Pixel), one reference to "tiktok" (TikTok pixel), "twitter" (X Ads), and Google Ads conversion tag AW-17641993573. Extracted from raw HTML before html2text conversion, saved to source_tech_stack.md.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://milehighcompounds.is/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/source_tech_stack.md
+[LINE_RANGE] 1-1
+	document,'script','https://connect.facebook.net/en_US/fbevents.js' );
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://milehighcompounds.is/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/source_tech_stack.md
+[LINE_RANGE] 3-3
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://milehighcompounds.is/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=10.7.0' type='text/css' media='all' />
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.blog_url
+[URL] https://web.archive.org/web/20251226051243/https://milehighcompounds.is/blog/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/blog_1.md
+[LINE_RANGE] 44-50
+[QUOTE]
+# Blog
+
+[Home](/web/20251226051243/https://milehighcompounds.is/home) / Blog
+
+## Our Latest Blogs
+
+Stay informed with the latest updates, insights, and research news from Mile High Compounds.
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://web.archive.org/web/20251226051243/https://milehighcompounds.is/blog/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/blog_1.md
+[LINE_RANGE] 71-75
+[QUOTE]
+### [ Essential Understanding Tower Rush: Feature Overview](https://web.archive.org/web/20251226051243/https://milehighcompounds.is/essential-understanding-tower-rush-feature-overview/)
+
+When inspecting the gaming industry, Tower Rush clearly reveals its strengths with immersive gaming atmosphere.…
+
+[ __Colin](https://web.archive.org/web/20251226051243/https://milehighcompounds.is/author/peptidemarketing/)
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://milehighcompounds.is/research-access/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/homepage.md
+[LINE_RANGE] 25-26
+[QUOTE]
+**20,000+ Researchers** have already joined · free to access
+[/QUOTE]
+
+[CLAIM] skus (claim-15) - GLP-3 RT price
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 91-97
+[QUOTE]
+[](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/glp-3-rt/)
+
+$99.99 – $279.99Price range: $99.99 through $279.99
+
+[Uncategorized](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/uncategorized/)
+
+## [GLP-3 RT](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/glp-3-rt/)
+[/QUOTE]
+
+[CLAIM] skus (claim-16) - GLP-2 TRZ price
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 100-106
+[QUOTE]
+[](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/glp-2-trz/)
+
+$89.99 – $249.99Price range: $89.99 through $249.99
+
+[Uncategorized](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/uncategorized/)
+
+## [GLP-2 TRZ](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/glp-2-trz/)
+[/QUOTE]
+
+[CLAIM] skus (claim-17) - GLP-1 SM price
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 109-115
+[QUOTE]
+[](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/glp-1-sm/)
+
+~~$ 89.99~~ Original price was: $89.99.$69.99Current price is: $69.99.
+
+[Uncategorized](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/uncategorized/)
+
+## [GLP-1 SM](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/glp-1-sm/)
+[/QUOTE]
+
+[CLAIM] skus (claim-18) - BAC Water price
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 116-122
+[QUOTE]
+  * [](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/bac-water-30ml/)
+
+$29.99
+
+[Uncategorized](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/uncategorized/)
+
+## [BAC Water 30ml](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/bac-water-30ml/)
+[/QUOTE]
+
+[CLAIM] skus (claim-19) - Tesamorlin price
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 132-138
+[QUOTE]
+[](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/tesamorlin/)
+
+~~$ 89.99~~ Original price was: $89.99.$79.99Current price is: $79.99.
+
+[Uncategorized](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/uncategorized/)
+
+## [Tesamorlin](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/tesamorlin/)
+[/QUOTE]
+
+[CLAIM] skus (claim-20) - BPC-157 price
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 149-157
+[QUOTE]
+[](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/bpc-157/)
+
+~~$ 59.99~~ Original price was: $59.99.$49.99Current price is: $49.99.
+
+[Uncategorized](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/uncategorized/)
+
+## [BPC-157](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/bpc-157/)
+[/QUOTE]
+
+[CLAIM] skus (claim-21) - BPC-157 Tablets present in catalog
+[URL] https://web.archive.org/web/20251225195511/https://milehighcompounds.is/product-sitemap.xml
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/catalog_1.md
+[LINE_RANGE] 1-1
+[QUOTE]
+https://milehighcompounds.is/product/bpc-157-tablets/ 2025-12-24T17:48:51+00:00
+[/QUOTE]
+
+[CLAIM] skus (claim-22) - TB-500 price
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 164-172
+[QUOTE]
+[](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/tb-500/)
+
+~~$ 69.99~~ Original price was: $69.99.$59.99Current price is: $59.99.
+
+[Uncategorized](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/uncategorized/)
+
+## [TB-500](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/tb-500/)
+[/QUOTE]
+
+[CLAIM] skus (claim-23) - BPC/TB Blend (Wolverine) price
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 173-181
+[QUOTE]
+[](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/bpc-157-tb-500-blend/)
+
+~~$ 129.99~~ Original price was: $129.99.$119.99Current price is: $119.99.
+
+[Peptide Blend](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/peptide-blend/), [Uncategorized](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/uncategorized/)
+
+## [BPC/TB Blend (Wolverine)](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/bpc-157-tb-500-blend/)
+[/QUOTE]
+
+[CLAIM] skus (claim-24) - KLOW-80 Blend price
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 182-190
+[QUOTE]
+[](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/klow-80-blend/)
+
+~~$ 189.99~~ Original price was: $189.99.$169.99Current price is: $169.99.
+
+[Peptide Blend](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/peptide-blend/), [Uncategorized](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/uncategorized/)
+
+## [KLOW-80 Blend](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/klow-80-blend/)
+[/QUOTE]
+
+[CLAIM] skus (claim-25) - GLOW-70 Blend price
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 191-199
+[QUOTE]
+[](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/glow-70-research-blend/)
+
+~~$ 159.99~~ Original price was: $159.99.$139.99Current price is: $139.99.
+
+[Peptide Blend](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/peptide-blend/), [Uncategorized](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/uncategorized/)
+
+## [GLOW-70 Blend](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/glow-70-research-blend/)
+[/QUOTE]
+
+[CLAIM] skus (claim-26) - NAD+ price
+[URL] https://web.archive.org/web/20251225194943/https://milehighcompounds.is/
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/archive_homepage.md
+[LINE_RANGE] 200-208
+[QUOTE]
+[](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/nad500mg/)
+
+~~$ 69.99~~ Original price was: $69.99.$59.99Current price is: $59.99.
+
+[Uncategorized](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product-category/uncategorized/)
+
+## [NAD+](https://web.archive.org/web/20251225194943/https://milehighcompounds.is/product/nad500mg/)
+[/QUOTE]
+
+[CLAIM] skus (claim-27) - catalog-only SKU presence
+[URL] https://web.archive.org/web/20251225195511/https://milehighcompounds.is/product-sitemap.xml
+[FETCHED_AT] 2026-05-07T17:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mile-high-compounds/catalog_1.md
+[LINE_RANGE] 1-1
+[QUOTE]
+https://milehighcompounds.is/product/igf-1-lr3/ 2025-12-24T21:53:05+00:00 https://milehighcompounds.is/wp-content/uploads/2025/05/Chromate_Job_28807.png
+[/QUOTE]

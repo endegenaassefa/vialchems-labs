@@ -1,0 +1,35 @@
+[CLAIM] skus[0].name / skus[0].dose_value / skus[1].name / skus[1].dose_value / skus[2].name / skus[2].dose_value (Tirzepatide SKU dose sizes derived from Finnrick test records)
+[URL] https://www.finnrick.com/vendors/p3-labz
+[FETCHED_AT] 2026-05-08T05:48:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/p3-labz/finnrick_vendor.md
+[LINE_RANGE] 21-27
+[QUOTE]
+"Date | Score | Label Dose | Actual Content | Variance | Purity | Batch ID | Container | Lab
+29 Jan 2026 | 10.0 | 30mg | 29.7mg | -1.0% | 99.90% | 30-1023UT | Silver Label/Black Crimp/Clear Blue Cap | Lab E
+29 Jan 2026 | 9.8 | 30mg | 31.7mg | +5.7% | 99.90% | ZE30-1005 | Silver Label/Black Crimp/Yellow Cap | Lab E
+29 Jan 2026 | 10.0 | 45mg | 46.9mg | +4.2% | 99.90% | ZE45-1113 | Silver Label/Black Crimp/White Cap | Lab E
+29 Jan 2026 | 9.4 | 60mg | 64.1mg | +6.8% | 99.90% | ZE60-1123 | Silver Label/Gold Crimp/Clear Red Cap | Lab E
+29 Jan 2026 | 8.2 | 30mg | 26.6mg | -11.3% | 99.90% | M3POS01-100 | Silver Label/Silver Crimp/Pink Cap | Lab E
+6 Oct 2025 | 5.6 | 30mg | 37mg | +23.3% | 99.30% | 6-2205-1 | Silver Label/Silver Crimp/Violet Cap | Lab G"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators (Finnrick lists P3 Labz as a rated vendor)
+[URL] https://www.finnrick.com/products/tirzepatide
+[FETCHED_AT] 2026-05-08T05:48:10Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/p3-labz/finnrick_tirzepatide.md
+[LINE_RANGE] 18-18
+[QUOTE]
+"P3 Labz | B | Good | 6 | 8.8 | 5.6 | 10.0"
+[/QUOTE]
+
+[CLAIM] skus[0].peptide_canonical / skus[1].peptide_canonical / skus[2].peptide_canonical (Tirzepatide confirmed as sole tested peptide)
+[URL] https://www.finnrick.com/vendors/p3-labz
+[FETCHED_AT] 2026-05-08T05:48:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/p3-labz/finnrick_vendor.md
+[LINE_RANGE] 18-18
+[QUOTE]
+"Products Tested: Tirzepatide — Rating: B (Good)"
+[/QUOTE]

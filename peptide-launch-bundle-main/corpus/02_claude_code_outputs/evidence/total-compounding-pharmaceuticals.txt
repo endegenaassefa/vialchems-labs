@@ -1,0 +1,283 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20240312105849/https://www.totalcompoundingpharmaceuticals.com/
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/homepage.md
+[LINE_RANGE] 33-33
+[QUOTE]
+"pioneered the way patients receive quality healthcare. Offering easily accessible and advanced custom treatment plans all from the comfort of your own home."
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20240312105849/https://www.totalcompoundingpharmaceuticals.com/
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/homepage.md
+[LINE_RANGE] 12-29
+[QUOTE]
+"[Quality Production]"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20240312105849/https://www.totalcompoundingpharmaceuticals.com/
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/homepage.md
+[LINE_RANGE] 95-95
+[QUOTE]
+"2023 by TOTAL COMPOUNDING PHARMACEUTICALS"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] Australia (actual); Wyoming, USA (claimed)
+[REASONING]
+The privacy policy explicitly references the Australian Privacy Principles (Privacy Act 1988 Cth) and cites carolshealthcare.com.au as the site URL, indicating Australian operation. Multiple customer complaints on ScamPulse confirm product shipments arriving from Australia Post despite the Sheridan, WY address listed on the site being a registered agent location.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240312105909/https://www.totalcompoundingpharmaceuticals.com/privacy-policy
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/privacy_policy.md
+[LINE_RANGE] 39-39
+"We have adopted the Australian Privacy Principles (APPs) contained in the Privacy Act 1988 (Cth) (the Privacy Act)."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.scampulse.com/total-compounding-pharmaceuticals-reviews
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/social_1.md
+[LINE_RANGE] 93-93
+"They list an address on their website making it look like their company is in Wyoming, United States, but it is NOT. The address they have listed is just for a US Post Office location. They are really located in Australia and when you look at the Privacy Policy on their website, it confirms this, saying they follow the Australian Privacy Principles."
+[/SUPPORT_QUOTE]
+
+[CLAIM] fulfillment_country
+[INFERENCE] Australia
+[REASONING]
+Two independent ScamPulse reports confirm product shipped from Australia Post. The how-to-order page lists an Australian fax number (+61 7 56766730) alongside USA, Canada, UK, and NZ numbers, consistent with an Australian base of operations.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.scampulse.com/total-compounding-pharmaceuticals-reviews
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/social_1.md
+[LINE_RANGE] 151-151
+"US-based MD sent RX to what was believed to be US-based compound pharmacy, www.totalcompoundingpharmaceuticals.com. Realized something was amiss when I began to receive shipping notifications from Australia Post."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240312105911/https://www.totalcompoundingpharmaceuticals.com/how-to-order
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/how_to_order.md
+[LINE_RANGE] 57-57
+"AUSTRALIA: +61 7 56766730 ,"
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://web.archive.org/web/20240312105911/https://www.totalcompoundingpharmaceuticals.com/how-to-order
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/how_to_order.md
+[LINE_RANGE] 51-59
+[QUOTE]
+"USA:+1 972 584 6133 ,"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/20240312105857/https://www.totalcompoundingpharmaceuticals.com/products-list
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/catalog_1.md
+[LINE_RANGE] 37-401
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/total-compounding-pharmaceuticals/catalog_1.md:
+Sterile Injections (12): Semaglutide 2.64mg/ml, Tirzepatide 15mg/ml, Vitamin D3 600kIU/ml, NAD+ 100mg/ml, Folic Acid+B12, Biotin B7, Methylcobalamin 1000mcg/ml, Niacinamide B3, Thiamine B1, B-Complex Inj, Ultra Lipotropic Inj, Lipolysis Inj.
+Creams/Ointments/Lotions (10): 5-Fluorouracil 5%+Salicylic Acid 17%, Imiquimod+5-FU+Salicylic+Tretinoin, Retinoic Acid 0.4%, Tofacitinib 2%, 5-ALA 20%, Minoxidil 10%, Minoxidil 10%+Tofacitinib 2%, Lignocaine 23%+Tetracaine 7%, NAD+ 10% cream, Acne Cream, Bleach/Whitening Cream, Anti Itch Cream.
+Capsules (5): Tadalafil 20mg+Avanafil 50mg, Tadalafil 20mg+Sildenafil 100mg, Tadalafil 20mg+Dapoxetine 30mg, Tadalafil+Avanafil+Dapoxetine, Minoxidil+Finasteride+Biotin, Melatonin MR 5mg, Melatonin MR 10mg.
+Total: approximately 22 SKUs.
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/20240312105857/https://www.totalcompoundingpharmaceuticals.com/products-list
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/catalog_1.md
+[LINE_RANGE] 37-39
+[QUOTE]
+"## STERILE INJECTIONS"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://web.archive.org/web/20240312105856/https://www.totalcompoundingpharmaceuticals.com/semaglutide-for-weight-loss
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/product_1__semaglutide-injection.md
+[LINE_RANGE] 35-35
+[QUOTE]
+"## Semaglutide for Weight Loss"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://web.archive.org/web/20240312105856/https://www.totalcompoundingpharmaceuticals.com/semaglutide-for-weight-loss
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/product_1__semaglutide-injection.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"works by mimicking a hormone called glucagonlike peptide-1 (GLP-1) that targets areas of the brain that regulate appetite and food intake; it is a powerful appetite suppressant."
+[/QUOTE]
+
+[CLAIM] skus[0].list_price_usd
+[URL] https://web.archive.org/web/20240312105856/https://www.totalcompoundingpharmaceuticals.com/semaglutide-for-weight-loss
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/product_1__semaglutide-injection.md
+[LINE_RANGE] 39-41
+[QUOTE]
+"Injection Compounded"
+[/QUOTE]
+
+[CLAIM] skus[1].list_price_usd
+[URL] https://web.archive.org/web/20240312105902/https://www.totalcompoundingpharmaceuticals.com/tirzepatide-for-weight-loss
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/product_2__tirzepatide-injection.md
+[LINE_RANGE] 39-41
+[QUOTE]
+"Injection Compounded"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://web.archive.org/web/20250120174405/https://www.totalcompoundingpharmaceuticals.com/terms-conditions
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/tos.md
+[LINE_RANGE] 14-42
+[QUOTE]
+"## Customer Care"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://web.archive.org/web/20250120174405/https://www.totalcompoundingpharmaceuticals.com/terms-conditions
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/tos.md
+[LINE_RANGE] 38-42
+[QUOTE]
+"## Payment Methods"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20250120174405/https://www.totalcompoundingpharmaceuticals.com/terms-conditions
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/tos.md
+[LINE_RANGE] 40-42
+[QUOTE]
+"- PAYPAL"
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://web.archive.org/web/20240312105911/https://www.totalcompoundingpharmaceuticals.com/how-to-order
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/how_to_order.md
+[LINE_RANGE] 35-59
+[QUOTE]
+"Email or FAX us a script with"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.scampulse.com/total-compounding-pharmaceuticals-reviews
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/social_1.md
+[LINE_RANGE] 151-151
+[QUOTE]
+"Realized something was amiss when I began to receive shipping notifications from Australia Post."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] wix
+[REASONING]
+The Terms & Conditions page contains Wix default boilerplate template text found in all unedited Wix templates, specifically the "Customer Care" section with the phrase "Click here to add your own text and edit me." The footer copyright pattern "©2023 by TOTAL COMPOUNDING PHARMACEUTICALS" is the standard Wix site footer format. Live HTTP headers (observed at time of fetch, returning 404) show "server: Pepyaka" which is the Wix CDN identifier.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250120174405/https://www.totalcompoundingpharmaceuticals.com/terms-conditions
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/tos.md
+[LINE_RANGE] 14-16
+"## Customer Care"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240312105849/https://www.totalcompoundingpharmaceuticals.com/
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/homepage.md
+[LINE_RANGE] 95-95
+"©2023 by TOTAL COMPOUNDING PHARMACEUTICALS"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] Fastly (server: Pepyaka — Wix CDN)
+[REASONING]
+Live HTTP headers from totalcompoundingpharmaceuticals.com at time of fetch returned "server: Pepyaka" and "x-served-by: cache-iad-kcgs7200136-IAD" indicating a Fastly CDN node. Pepyaka is Wix's proprietary CDN platform built on Fastly infrastructure. The Wix platform signal (see tech_stack.platform_signal inference) corroborates this, as Wix exclusively uses Pepyaka/Fastly for all hosted sites.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240312105849/https://www.totalcompoundingpharmaceuticals.com/
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/homepage.md
+[LINE_RANGE] 95-95
+"©2023 by TOTAL COMPOUNDING PHARMACEUTICALS"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250120174405/https://www.totalcompoundingpharmaceuticals.com/terms-conditions
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/tos.md
+[LINE_RANGE] 38-38
+"## Payment Methods"
+[/SUPPORT_QUOTE]
+
+[CLAIM] quality_production_claims
+[URL] https://web.archive.org/web/20240312105908/https://www.totalcompoundingpharmaceuticals.com/quality-production
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/quality_production.md
+[LINE_RANGE] 40-56
+[QUOTE]
+"Our facilities are members of PCCA, a professional body with more than 3,900 independent community pharmacists in the United States, Canada, Australia, and other countries around the world."
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.scampulse.com/total-compounding-pharmaceuticals-reviews
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/social_1.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"## Total Compounding Pharmaceuticals Reports & Reviews (7)"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.scampulse.com/total-compounding-pharmaceuticals-reviews
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/social_1.md
+[LINE_RANGE] 149-151
+[QUOTE]
+"believe this is an elaborate scheme to defraud consumers."
+[/QUOTE]
+
+[CLAIM] privacy_policy_australian_jurisdiction_signal
+[URL] https://web.archive.org/web/20240312105909/https://www.totalcompoundingpharmaceuticals.com/privacy-policy
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/privacy_policy.md
+[LINE_RANGE] 49-49
+[QUOTE]
+"This Personal Information is obtained in many ways including [interviews, correspondence, by telephone and facsimile, by email, via our website [www.carolshealthcare.com.au]"
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://web.archive.org/web/20240312105911/https://www.totalcompoundingpharmaceuticals.com/how-to-order
+[FETCHED_AT] 2026-05-08T08:33:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/total-compounding-pharmaceuticals/how_to_order.md
+[LINE_RANGE] 35-59
+[QUOTE]
+"Email or FAX us a script with"
+[/QUOTE]

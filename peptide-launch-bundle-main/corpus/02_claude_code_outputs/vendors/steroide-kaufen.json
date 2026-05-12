@@ -1,0 +1,275 @@
+{
+  "vendor_slug": "steroide-kaufen",
+  "brand_name": "Steroide Kaufen",
+  "primary_domain": "https://steroidekaufen.com",
+
+  "fetched_url": "https://steroidekaufen.com/",
+  "fetched_at": "2026-05-08T07:45:30Z",
+  "fetch_status": "partial",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.54,
+
+  "country_of_operation": "Deutschland",
+  "fulfillment_country": "Deutschland",
+  "ship_to_scope": "intl_excl_us",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "Steroide kaufen online - Anabolika bestellen Deutschland Steroide kaufen ohne Rezept online im Online Steroide Shop steroidekaufen.com. Kaufen Sie anabole Steroide in Deutschland zu einem erschwinglichen Preis. Gute Qualität!",
+    "hero_imagery_style": "other",
+    "primary_cta": "In den Warenkorb",
+    "navigation_pattern": "horizontal mega-menu with categories: Shop, Steroide, Peptide, SARM, HGH, PCT, Fatburner, Sex, Labs, FAQ, Blog",
+    "footer_disclaimers": "uncertain"
+  },
+
+  "catalog": {
+    "sku_count": 40,
+    "category_taxonomy": [
+      "Orale Steroiden",
+      "Testosteron",
+      "Injizierbare Steroide",
+      "Peptide",
+      "SARM's",
+      "Wachstumshormone (HGH)",
+      "PCT",
+      "Fatburner",
+      "Libido/Sex",
+      "Zubehör"
+    ],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "false"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "https://web.archive.org/web/20230320165722/https://steroidekaufen.com/de/48-bpc-157",
+    "sample_product_name": "BPC-157 Endogenic",
+    "dose_options": ["uncertain"],
+    "list_price": "46,00 €",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "BPC-157 ist ein steriles, weißes, lyophilisiertes Pulver, das nach dem Auflösen in bakteriostatischem Wasser zur subkutanen oder intramuskulären Injektion bestimmt ist.",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "false",
+    "coa_hosting": "none",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "false",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "Wir versenden Bestellungen in alle Länder der Europäischen Union.",
+    "tos_url": "https://web.archive.org/web/20230320151042/https://steroidekaufen.com/de/content/3-nutzungsbedingungen",
+    "tos_highlights": "Users defined as 'volljährige natürliche Person' (adult natural person); guest checkout available; orders cancelled if not paid within 24 hours; data deleted 10 days after delivery",
+    "refund_policy": "Wir garantieren, dass jede Bestellung erfolgreich an den Empfänger geliefert wird. Andernfalls erhalten Sie eine 100% Rückerstattung.",
+    "shipping_policy": "Versandkosten betragen 17 Euro; Lieferzeit in Deutschland bis zu 2 Werktage; Carrier: DPD; EU-only; tracking number provided day 2 after dispatch"
+  },
+
+  "checkout_flow": {
+    "account_required": "false",
+    "guest_checkout_available": "true",
+    "fields_collected": [
+      "Vorname",
+      "Nachname",
+      "Straße",
+      "Hausnummer",
+      "Postleitzahl",
+      "Ort",
+      "E-Mail-Adresse",
+      "Telefonnummer"
+    ],
+    "id_verification_present": "false",
+    "payment_methods_accepted": [
+      "Banküberweisung",
+      "Bitcoin"
+    ],
+    "shipping_carriers": ["DPD"],
+    "shipping_cost_structure": "Flat 17 Euro per order",
+    "international_policy": "EU-only; no US shipping; Germany 2 business days; Austria 3 days; other EU 5 days"
+  },
+
+  "tech_stack": {
+    "platform_signal": "custom",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://steroidekaufen.com/de/blog",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": [
+      "Abnehmen",
+      "Muskelmasse",
+      "Fettabbau",
+      "Steroide kaufen",
+      "Bitcoin kaufen"
+    ],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["uncertain"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [
+    {
+      "sku_id": "steroide-kaufen:bpc-157-endogenic",
+      "name": "BPC-157 Endogenic",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "acetate",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://web.archive.org/web/20230320165722/https://steroidekaufen.com/de/bpc-157/118-bpc-157-endogenic.html",
+      "raw_artifact": "03_raw_fetches/steroide-kaufen/product_1__bpc-157.md",
+      "evidence_entry_id": "claim-5"
+    },
+    {
+      "sku_id": "steroide-kaufen:bpc-157-plain",
+      "name": "BPC 157",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "acetate",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://web.archive.org/web/20230320165722/https://steroidekaufen.com/de/bpc-157/46-bpc-157.html",
+      "raw_artifact": "03_raw_fetches/steroide-kaufen/product_1__bpc-157.md",
+      "evidence_entry_id": "claim-5"
+    },
+    {
+      "sku_id": "steroide-kaufen:bpc-157-kapseln-endogenic",
+      "name": "BPC-157 Kapseln Endogenic",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "empty",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "capsule",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://web.archive.org/web/20230206090649/https://steroidekaufen.com/de/bpc-157/217-bpc-157-kapseln-endogenic.html",
+      "raw_artifact": "03_raw_fetches/steroide-kaufen/catalog_1.md",
+      "evidence_entry_id": "claim-6"
+    },
+    {
+      "sku_id": "steroide-kaufen:arg-bpc-157-nasenspray-endogenic",
+      "name": "Endogenic ARG BPC-157 Nasenspray",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "arginine_salt",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "nasal",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://web.archive.org/web/20230206090649/https://steroidekaufen.com/de/arg-bpc-157/216-endogenic-arg-bpc-157-nasenspray.html",
+      "raw_artifact": "03_raw_fetches/steroide-kaufen/catalog_1.md",
+      "evidence_entry_id": "claim-6"
+    },
+    {
+      "sku_id": "steroide-kaufen:semaglutid-bioamino-labs",
+      "name": "Semaglutid Bioamino Labs",
+      "peptide_canonical": "Semaglutide",
+      "peptide_variant": "empty",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://web.archive.org/web/20230326150753/https://steroidekaufen.com/de/fatburner/292-semaglutid-bioamino-labs.html",
+      "raw_artifact": "03_raw_fetches/steroide-kaufen/homepage_wayback.md",
+      "evidence_entry_id": "claim-7"
+    },
+    {
+      "sku_id": "steroide-kaufen:tirzepatide-ozempic",
+      "name": "Tirzepatide (Ozempic)",
+      "peptide_canonical": "Tirzepatide",
+      "peptide_variant": "empty",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "other",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://web.archive.org/web/20230326150753/https://steroidekaufen.com/de/fatburner/283-tirzepatide-ozempic.html",
+      "raw_artifact": "03_raw_fetches/steroide-kaufen/homepage_wayback.md",
+      "evidence_entry_id": "claim-7"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "steroide-kaufen,Steroide Kaufen,steroidekaufen.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/steroide-kaufen/",
+  "evidence_file": "evidence/steroide-kaufen.txt",
+  "uncertainty_notes": "SITE STATUS: steroidekaufen.com is currently parked ('coming soon' placeholder as of 2026-05-08). All substantive content sourced from Wayback Machine archive dated 2023-03-26. PLATFORM: URL patterns /de/content/ and /de/34-peptide strongly indicate PrestaShop; not confirmed from page source because page source was not independently fetched. SHIP_TO_SCOPE: Shipping page explicitly states 'alle Länder der Europäischen Union' only - no US or non-EU shipping observed; set to intl_excl_us. YEAR_ESTABLISHED: uncertain - no founding date found in archived pages. HOMEPAGE.FOOTER_DISCLAIMERS: no research-use-only or legal disclaimer text visible in footer of archived pages - vendor sells actual AAS, no 'for research only' framing used. PRODUCT PRICES IN EUR: list_price_usd marked uncertain because prices are in EUR and no USD conversion rate can be verified from the raw artifacts; EUR prices observed: BPC-157 Endogenic 46,00 EUR; BPC 157 45,00 EUR; BPC-157 Kapseln Endogenic 70,00 EUR; ARG BPC-157 Nasenspray 55,00 EUR; Semaglutid 99,00 EUR. DOSE_VALUE: individual product subpages redirect to parked domain - dose not determinable from category listing alone. COA_PRESENT: no COA, third-party testing, or lab documentation mentioned anywhere in fetched pages. RESEARCH_USE_ONLY_PHRASING: none - site presents products as consumer goods for direct use, not research chemicals. AGE_GATE: no age gate observed. TECH_STACK: platform inferred as PrestaShop from URL patterns; CDN, analytics, pixels not determinable from rendered HTML alone. CATALOG_PAGE_2+: pagination beyond page 1 redirects to parked domain - 40 total peptide SKUs stated on page 1 listing but only 12 loaded."
+}

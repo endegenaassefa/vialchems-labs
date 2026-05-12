@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "clinical-peptide",
+  "brand_name": "Clinical Peptide",
+  "primary_domain": "http://clinicalpeptide.com/",
+
+  "fetched_url": "http://clinicalpeptide.com/",
+  "fetched_at": "2026-05-07T01:19:57Z",
+  "fetch_status": "failed",
+
+  "tier": "1",
+  "tier_rationale": "Seed assignment was Tier 1 (\"Trusted medical supplier for clinics\"). Tier-1 schema is unfillable because no peptide vendor business exists at the seed-supplied domain. Live HTTP returns a Hostinger DNS-parked-domain placeholder; HTTPS fails with a TLS handshake error (curl exit 35, 'tlsv1 alert internal error'); Wayback Machine snapshots from 2017-02 through 2018-11 show the domain was parked-for-sale on Undeveloped.com via 'Metarev LLC'; no Wayback snapshots between 2018-11 and 2025-07; the 2025-07 snapshot already shows the current Hostinger parked-page state. There is no peptide vendor presence at this URL at any point captured in the public record. Profile is reduced to baseline identity + parked-page tech-stack observations + historical context per directive Rule 7 (no silent omission) and §8.1/§8.4 failure-reporting protocol. Tier label retained per seed (the tier-downgrade construct in Rule 20 assumes a real vendor exists at lower depth — here the underlying vendor is not present at all, which is operationally captured by fetch_status='failed' rather than tier downgrade).",
+  "field_completion_ratio": 0.2000,
+
+  "country_of_operation": "uncertain",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "Registered at / If this is your domain, you can manage it in your Hostinger account.",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "Get Web hosting (Hostinger upsell)",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "Look professional with email / Create a business email that matches your domain. Build your brand with a professional email address like info@example.com."
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": ["uncertain"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": ["uncertain"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "custom",
+    "cdn": "Hostinger CDN (Server: hcdn; alt-svc: h3=\":443\"; x-hcdn-request-id header)",
+    "analytics_tools_loaded": ["Google Analytics Universal Analytics (gtag.js, property UA-26575989-44 — Hostinger-owned parked-domain template, not the registrant's)"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["uncertain"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "Clinical,Peptideclinicalpeptide.com,USA,USA,Institutional,Uncertain,Active,Institutional Review,Medical Grade Peptides,Premium,N,May 2026,Tier 1: Trusted medical supplier for clinics."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/clinical-peptide/",
+  "evidence_file": "evidence/clinical-peptide.txt",
+  "uncertainty_notes": "fetch_status='failed' baseline-only profile per directive §8.1, §8.4, and Rule 17 (computed field_completion_ratio 0.18 < 0.40 → failed). REASON: no peptide vendor business exists at the seed-supplied domain (computed 13/65 ≈ 0.200 < 0.40 → failed). EVIDENCE TIMELINE: (a) live HTTPS clinicalpeptide.com fails with curl exit 35 'tlsv1 alert internal error 0A000438' (2026-05-07T01:19Z); (b) live HTTP returns 200 with a Hostinger DNS-parked-domain page — title 'Parked Domain name on Hostinger DNS system', meta robots 'noindex, nofollow, noarchive, nosnippet', body content is exclusively Hostinger upsell copy ('Get Web hosting', 'Get Horizons', 'Get VPS hosting', 'Create email') with no peptide / clinical / medical content of any kind (homepage.md L8-46); (c) Wayback Machine CDX API shows 30+ snapshots between 2017-02-04 and 2018-11-27, every one of which is a domain-for-sale listing on Undeveloped.com with seller 'Metarev LLC' (archive_2017_homepage.md L12-20, archive_2018_homepage.md L10-18); (d) no Wayback snapshots are indexed between 2018-11-27 and 2025-07-10; (e) the 2025-07-10 snapshot is the same Hostinger parked page that is live today (archive_2025_homepage.md L8). The seed CSV row's claim 'Tier 1: Trusted medical supplier for clinics' is not corroborated by any public-internet evidence reachable from this domain. ALMOST EVERY VENDOR-SPECIFIC FIELD IS UNCERTAIN because there is no vendor to characterize. The fields that ARE captured non-uncertain: (1) homepage.hero_copy_excerpt, primary_cta, footer_disclaimers — captured verbatim from the parked-page placeholder (which is what literally renders at the URL); (2) tech_stack.platform_signal='custom', cdn (Hostinger 'hcdn'), analytics_tools_loaded (Hostinger's GA UA-26575989-44 baked into the parked-page template) — these describe the parked-page template, not the vendor. All other fields (including homepage.hero_imagery_style, homepage.navigation_pattern, tech_stack.chat_widget_present, content_footprint.blog_present and content_footprint.blog_url, all product_page_anatomy / trust_compliance / checkout_flow / social_proof booleans and strings) are 'uncertain' on the principle that the parked page provides no information about a hypothetical vendor's branding, policies, products, checkout, content, or social proof — the absence of those features at this URL is an absence on a parked-domain template, not evidence of vendor posture. Field completion ratio 13/65 ≈ 0.200 < 0.40 → fetch_status='failed' per Rule 17. [INFERENCE] block in evidence file (claim fetch_status.failed_no_vendor_present) carries the multi-source reasoning and three SUPPORT_QUOTE blocks (live homepage, archive 2017, archive 2018). BOUNDS ENCOUNTERED: §11 — no checkout walk attempted (no checkout exists at this URL); §3 Rule 9 — no anti-bot bypass attempted (HTTPS TLS handshake failure documented but not worked around; HTTP 200 path was sufficient to characterize the parked-page state); no WHOIS query attempted (the `whois` CLI is not installed in the WSL2 environment; this is documented but not fixed because additional WHOIS data would not change the operational conclusion that no vendor exists at this URL). RECOMMENDATION FOR OPERATOR: re-investigate manually whether the seed-list classification was based on a different domain (sister-brand at a different TLD or a clinic-portal subdomain), or was speculative. The seed CSV row appears mangled — the exported text reads 'Clinical,Peptideclinicalpeptide.com' suggesting the original vendor name and domain were concatenated without a comma separator (a clean parse would be 'brand_name=Clinical Peptide, primary_domain=clinicalpeptide.com'). If a sister-brand exists at a different domain, add it under a corrected slug. Otherwise, document this entry as 'no vendor present at supplied domain, seed-list claim unverified' in coverage_report.md § Failed Fetches."
+}

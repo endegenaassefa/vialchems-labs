@@ -1,0 +1,578 @@
+[CLAIM] fetch_status
+[URL] https://peptidology.co
+[FETCHED_AT] 2026-05-08T06:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/homepage.md
+[LINE_RANGE] 1-51
+[QUOTE]
+"An account is now required to browse the catalog."
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20250418095815/https://peptidology.co/
+[FETCHED_AT] 2026-05-08T06:39:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/wayback_homepage_apr18.md
+[LINE_RANGE] 25-25
+[QUOTE]
+"Empowering researchers with pure, sterile, endotoxin free, pharmaceutical-grade peptides engineered for reproducibility."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://web.archive.org/web/20250418095815/https://peptidology.co/
+[FETCHED_AT] 2026-05-08T06:39:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/wayback_homepage_apr18.md
+[LINE_RANGE] 29-43
+[QUOTE]
+"## Shop by **Category**
+
+### [Peptides ](https://web.archive.org/web/20250418095815/https://peptidology.co/product-category/peptides/)
+
+### [Blends ](https://web.archive.org/web/20250418095815/https://peptidology.co/product-category/blends/)
+
+### [Bioregulators ](https://web.archive.org/web/20250418095815/https://peptidology.co/product-category/bioregulators/)"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20250418095815/https://peptidology.co/
+[FETCHED_AT] 2026-05-08T06:39:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/wayback_homepage_apr18.md
+[LINE_RANGE] 27-28
+[QUOTE]
+"[Shop now](https://web.archive.org/web/20250418095815/https://peptidology.co/products/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20250418095815/https://peptidology.co/
+[FETCHED_AT] 2026-05-08T06:39:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/wayback_homepage_apr18.md
+[LINE_RANGE] 7-21
+[QUOTE]
+"  * [Tests & FAQ](https://web.archive.org/web/20250418095815/https://help.peptidology.co/)
+  * [Buy Peptides](https://web.archive.org/web/20250418095815/https://peptidology.co/products/)
+  * [Peptide Research](https://web.archive.org/web/20250418095815/https://peptidology.co/peptide-research/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20250418095815/https://peptidology.co/
+[FETCHED_AT] 2026-05-08T06:39:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/wayback_homepage_apr18.md
+[LINE_RANGE] 184-184
+[QUOTE]
+"Disclaimer: All products on this site are for Research, Development use only. Products are Not for Human use of any kind. The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://peptidology.co/product-sitemap.xml
+[FETCHED_AT] 2026-05-08T06:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/source_homepage.md
+[LINE_RANGE] 1-1
+[QUOTE]
+[ENUMERATION] Counted from product-sitemap.xml: 62 product URL entries under https://peptidology.co/p/ pattern.
+[FILES]
+product-sitemap.xml (raw text saved in source_homepage.md front matter notes; sitemap was a direct curl fetch)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/20250418095815/https://peptidology.co/
+[FETCHED_AT] 2026-05-08T06:39:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/wayback_homepage_apr18.md
+[LINE_RANGE] 29-35
+[QUOTE]
+"## Shop by **Category**
+
+### [Peptides ](https://web.archive.org/web/20250418095815/https://peptidology.co/product-category/peptides/)
+
+### [Blends ](https://web.archive.org/web/20250418095815/https://peptidology.co/product-category/blends/)
+
+### [Bioregulators ](https://web.archive.org/web/20250418095815/https://peptidology.co/product-category/bioregulators/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://web.archive.org/web/20250531061538/https://peptidology.co/products/
+[FETCHED_AT] 2026-05-08T06:40:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/catalog_1.md
+[LINE_RANGE] 56-60
+[QUOTE]
+"[ Sale! BPC-157, TB-500 (Blend) 10mg-each-20mg-total ](https://web.archive.org/web/20250531061538/https://peptidology.co/product/bpc-157-tb-500-blend/)
+
+[Learn More](https://web.archive.org/web/20250531061538/https://peptidology.co/product/bpc-157-tb-500-blend/)[Add to Cart - ~~$ 119.00~~ Original price was: $119.00.$95.00Current price is: $95.00.]"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://web.archive.org/web/20250504130015/https://peptidology.co/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:41:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/product_1__bpc-157.md
+[LINE_RANGE] 14-19
+[QUOTE]
+"# BPC-157
+
+~~$ 120.00~~ Original price was: $120.00.$53.00Current price is: $53.00.
+
+Read why Peptidology’s market leading testing elevates safety in the [**Certificate of Analysis.**](https://web.archive.org/web/20250504130015/https://peptidology.co/wp-content/uploads/2025/04/BPC-157-10mg-February-2025-Final.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://web.archive.org/web/20250504130015/https://peptidology.co/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:41:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/product_1__bpc-157.md
+[LINE_RANGE] 36-39
+[QUOTE]
+"Size |  Choose an option10mg
+
+  * 10mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://web.archive.org/web/20250504130015/https://peptidology.co/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:41:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/product_1__bpc-157.md
+[LINE_RANGE] 16-16
+[QUOTE]
+"~~$ 120.00~~ Original price was: $120.00.$53.00Current price is: $53.00."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://web.archive.org/web/20250504130015/https://peptidology.co/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:41:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/product_1__bpc-157.md
+[LINE_RANGE] 43-47
+[QUOTE]
+"**BPC-157** is a synthetic pentadecapeptide composed of 15 amino acids.
+
+This peptide may potentially influence cellular regeneration pathways and has shown possible effects on tissue repair mechanisms at the molecular level."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20250504130015/https://peptidology.co/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:41:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/product_1__bpc-157.md
+[LINE_RANGE] 78-80
+[QUOTE]
+"**Disclaimer:**  _This product is intended solely for laboratory research purposes. It is not suitable for consumption by humans, nor for medical, veterinary, or household purposes. Researchers should handle BPC-157 with care and adhere to strict safety guidelines during experiments. Kindly review our_[ _Terms & Conditions_](https://web.archive.org/web/20250504130015/https://peptidology.co/policies/terms-of-service) _before making a purchase._ *"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://web.archive.org/web/20250504130015/https://peptidology.co/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:41:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/product_1__bpc-157.md
+[LINE_RANGE] 26-26
+[QUOTE]
+"Read why Peptidology’s market leading testing elevates safety in the [**Certificate of Analysis.**](https://web.archive.org/web/20250504130015/https://peptidology.co/wp-content/uploads/2025/04/BPC-157-10mg-February-2025-Final.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://web.archive.org/web/20250906132953/https://peptidology.co/our-company/
+[FETCHED_AT] 2026-05-08T06:42:17Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/about_company.md
+[LINE_RANGE] 24-26
+[QUOTE]
+"At the key manufacturing steps, product is tested by Vanguard Laboratories, a US-based, federally audited, ISO certified analytical lab in Olympia Washington."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://web.archive.org/web/20250906123343/https://peptidology.co/product/tb-500/
+[FETCHED_AT] 2026-05-08T06:41:50Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/product_tb500.md
+[LINE_RANGE] 1-50
+[QUOTE]
+"**[Batch 1356– TB-500 99.80% 10.16mg](https://web.archive.org/web/20250906123343/https://peptidology.co/wp-content/uploads/2025/03/Batch-1356-TB-500-99.80-10.16mg.pdf)**"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://web.archive.org/web/20250504130015/https://peptidology.co/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:41:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/product_1__bpc-157.md
+[LINE_RANGE] 140-145
+[QUOTE]
+"## **Products** you may like
+
+### [MT1 5mg ](https://web.archive.org/web/20250504130015/https://peptidology.co/product/mt1/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://web.archive.org/web/20250906134856/https://peptidology.co/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:42:06Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/tos.md
+[LINE_RANGE] 20-25
+[QUOTE]
+"**Research Use Only:** All products sold by Peptidology are intended **solely for laboratory research and development purposes**. They are sold with the understanding that they will be used **only** in a controlled lab or research setting."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://peptidology.co/registration/
+[FETCHED_AT] 2026-05-08T06:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/homepage.md
+[LINE_RANGE] 42-43
+[QUOTE]
+"By signing in, you confirm that you are at least 21 years old and that any items you purchase will be used solely for research purposes."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://web.archive.org/web/20250906134856/https://peptidology.co/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:42:06Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/tos.md
+[LINE_RANGE] 14-16
+[QUOTE]
+"**U.S. Sales Only:** Peptidology **only sells and ships products within the United States**. Orders for delivery outside the U.S. will not be accepted. By purchasing, you confirm that your shipping address is located in the United States. We do not support international sales or shipments."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://web.archive.org/web/20250906134856/https://peptidology.co/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:42:06Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/tos.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"# Terms of Service"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://web.archive.org/web/20250906134856/https://peptidology.co/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:42:06Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/tos.md
+[LINE_RANGE] 10-13
+[QUOTE]
+"**Minimum Age Requirement:** You must be **at least 18 years old** to purchase products from Peptidology. By placing an order, you represent and warrant that you are 18 or older."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://web.archive.org/web/20250906124743/https://peptidology.co/return-policy/
+[FETCHED_AT] 2026-05-08T06:42:12Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/refund.md
+[LINE_RANGE] 8-11
+[QUOTE]
+"**Return Eligibility:** Peptidology will accept returns of products **only if the item is returned unopened, unused, and in its original condition** (with all factory seals, if any, intact). To be eligible for a refund, you must initiate the return and ship the product back to us within **fourteen (14) days** of the date you received the product."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/20250906134930/https://peptidology.co/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:42:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/shipping.md
+[LINE_RANGE] 8-11
+[QUOTE]
+"**Shipping Methods:** Peptidology ships orders via reputable carriers (such as USPS, UPS, FedEx, or other courier services) to addresses within the United States."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://peptidology.co
+[FETCHED_AT] 2026-05-08T06:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/homepage.md
+[LINE_RANGE] 19-19
+[QUOTE]
+"**An account is now required to browse the catalog.**"
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://web.archive.org/web/20250906134856/https://peptidology.co/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:42:06Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/tos.md
+[LINE_RANGE] 14-15
+[QUOTE]
+"We reserve the right to verify your payment details and any information you provide **before** processing your order. This verification may include confirming your identity, age, billing and shipping information"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20250906134856/https://peptidology.co/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:42:06Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/tos.md
+[LINE_RANGE] 1-50
+[QUOTE]
+"**Cryptocurrency Payments:** If you choose to pay with cryptocurrency, the exact amount and payment instructions will be provided at checkout."
+[/QUOTE]
+
+[URL] https://web.archive.org/web/20250906134856/https://peptidology.co/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:42:06Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/tos.md
+[LINE_RANGE] 1-50
+[QUOTE]
+"**Zelle and Bank Transfers:** If paying via **bank transfer or Zelle** , instructions will be provided."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://web.archive.org/web/20250906134930/https://peptidology.co/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:42:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/shipping.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"**Shipping Methods:** Peptidology ships orders via reputable carriers (such as USPS, UPS, FedEx, or other courier services) to addresses within the United States."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://web.archive.org/web/20250418095815/https://peptidology.co/
+[FETCHED_AT] 2026-05-08T06:39:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/wayback_homepage_apr18.md
+[LINE_RANGE] 55-57
+[QUOTE]
+"  * Endotoxin-free and sterile product
+  * Same day shipping or local delivery"
+[/QUOTE]
+
+[URL] https://web.archive.org/web/20250906134930/https://peptidology.co/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:42:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/shipping.md
+[LINE_RANGE] 14-16
+[QUOTE]
+"**Shipping Guarantee:** We guarantee that any order which has completed payment and verification will be shipped out from our facility within 1 business day."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://web.archive.org/web/20250906134856/https://peptidology.co/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:42:06Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/tos.md
+[LINE_RANGE] 14-15
+[QUOTE]
+"**U.S. Sales Only:** Peptidology **only sells and ships products within the United States**. Orders for delivery outside the U.S. will not be accepted."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://web.archive.org/web/20250906133336/https://peptidology.co/
+[FETCHED_AT] 2026-05-08T06:43:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/source_homepage.md
+[LINE_RANGE] 1-10
+[QUOTE]
+"--woocommerce:#720eec;--wc-green:#7ad03a;--wc-red:#a00;--wc-orange:#ffba00;--wc-blue:#2ea2cc;--wc-primary:#720eec"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://peptidology.co
+[FETCHED_AT] 2026-05-08T06:42:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/http_headers.md
+[LINE_RANGE] 6-6
+[QUOTE]
+"server: cloudflare"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://web.archive.org/web/20250906133336/https://peptidology.co/
+[FETCHED_AT] 2026-05-08T06:43:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/source_homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"var gtm4wp_datalayer_name = "dataLayer";"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://web.archive.org/web/20250906133336/https://peptidology.co/
+[FETCHED_AT] 2026-05-08T06:43:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/source_homepage.md
+[LINE_RANGE] 1-10
+[QUOTE]
+"AW-16826347497"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://web.archive.org/web/20250906132953/https://peptidology.co/our-company/
+[FETCHED_AT] 2026-05-08T06:42:37Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/about_company.md
+[LINE_RANGE] 36-36
+[QUOTE]
+"Our dedicated team is always ready to assist with inquiries, provide product information, and offer guidance, ensuring a smooth and satisfactory experience for all our clients. Need us? Just click on the smiley face in the bottom right of the screen."
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://web.archive.org/web/20250418095815/https://peptidology.co/
+[FETCHED_AT] 2026-05-08T06:39:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/wayback_homepage_apr18.md
+[LINE_RANGE] 86-100
+[QUOTE]
+"## Peptide **Research**
+
+### [NA-931 Peptide: A Quadruple-Agonist Breakthrough in Obesity Research](https://web.archive.org/web/20250418095815/https://peptidology.co/na-931-peptide-a-quadruple-agonist-breakthrough-in-obesity-research/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://web.archive.org/web/20250418095815/https://peptidology.co/
+[FETCHED_AT] 2026-05-08T06:39:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/wayback_homepage_apr18.md
+[LINE_RANGE] 160-162
+[QUOTE]
+"Quick Menu
+
+  * [Home](https://web.archive.org/web/20250418095815/https://peptidology.co/)
+  * [Peptide Research](https://web.archive.org/web/20250418095815/https://peptidology.co/peptide-research/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://web.archive.org/web/20250418095815/https://peptidology.co/
+[FETCHED_AT] 2026-05-08T06:39:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/wayback_homepage_apr18.md
+[LINE_RANGE] 103-107
+[QUOTE]
+"Apr 4th
+
+  * Peptidology Research Faculty"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://peptidology.co
+[FETCHED_AT] 2026-05-08T06:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/homepage.md
+[LINE_RANGE] 28-29
+[QUOTE]
+"Trusted by 9,200+ researchers — Join now!
+**New researchers get 15% off their first order.**"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://web.archive.org/web/20250418095815/https://peptidology.co/
+[FETCHED_AT] 2026-05-08T06:39:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/wayback_homepage_apr18.md
+[LINE_RANGE] 178-178
+[QUOTE]
+"Peptidology  11111 North Scottsdale Rd  Suite 205  Scottsdale, AZ 85254 USA"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://web.archive.org/web/20250906134856/https://peptidology.co/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:42:06Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/tos.md
+[LINE_RANGE] 14-15
+[QUOTE]
+"**U.S. Sales Only:** Peptidology **only sells and ships products within the United States**. Orders for delivery outside the U.S. will not be accepted."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+The first Wayback Machine snapshot of peptidology.co showing any content is dated 2025-02-09, displaying "Soft launch coming February 15th!" This indicates the site launched in February 2025. The product sitemap uses 2025 timestamps for product images and COA documents (e.g., "BPC-157-10mg-February-2025-Final.pdf"). The About page (Sep 2025 snapshot) does not state a founding year explicitly.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250209182047/https://peptidology.co/
+[FETCHED_AT] 2026-05-08T06:34:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/wayback_homepage.md
+[LINE_RANGE] 2-11
+"Soft launch coming February 15th!
+
+Soft launch coming February 15th!"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250504130015/https://peptidology.co/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:41:24Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/product_1__bpc-157.md
+[LINE_RANGE] 16-17
+"Read why Peptidology’s market leading testing elevates safety in the [**Certificate of Analysis.**](https://web.archive.org/web/20250504130015/https://peptidology.co/wp-content/uploads/2025/04/BPC-157-10mg-February-2025-Final.pdf)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[0].list_price_usd
+[URL] https://web.archive.org/web/20250504130015/https://peptidology.co/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:41:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/product_1__bpc-157.md
+[LINE_RANGE] 16-16
+[QUOTE]
+"~~$ 120.00~~ Original price was: $120.00.$53.00Current price is: $53.00."
+[/QUOTE]
+
+[CLAIM] skus[1].list_price_usd
+[URL] https://web.archive.org/web/20250906123343/https://peptidology.co/product/tb-500/
+[FETCHED_AT] 2026-05-08T06:41:50Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/product_tb500.md
+[LINE_RANGE] 14-15
+[QUOTE]
+"# TB-500 (Thymosin Beta-4)
+
+$76.00"
+[/QUOTE]
+
+[CLAIM] skus[2].list_price_usd
+[URL] https://web.archive.org/web/20250531061607/https://peptidology.co/product/ghk-cu-copper-peptide/
+[FETCHED_AT] 2026-05-08T06:41:50Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/product_ghkcu.md
+[LINE_RANGE] 14-16
+[QUOTE]
+"# GHK-Cu Copper Peptide
+
+~~$ 65.00~~ Original price was: $65.00.$47.00Current price is: $47.00."
+[/QUOTE]
+
+[CLAIM] skus[3].list_price_usd
+[URL] https://web.archive.org/web/20250906131831/https://peptidology.co/product/selank/
+[FETCHED_AT] 2026-05-08T06:41:50Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/product_selank.md
+[LINE_RANGE] 14-15
+[QUOTE]
+"# Selank
+
+$41.00"
+[/QUOTE]
+
+[CLAIM] skus[4].list_price_usd
+[URL] https://web.archive.org/web/20250906131302/https://peptidology.co/product/semax/
+[FETCHED_AT] 2026-05-08T06:41:50Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/product_semax.md
+[LINE_RANGE] 14-15
+[QUOTE]
+"# Semax
+
+$38.00"
+[/QUOTE]
+
+[CLAIM] skus[5].list_price_usd
+[URL] https://web.archive.org/web/20250531061508/https://peptidology.co/product/ipamorelin/
+[FETCHED_AT] 2026-05-08T06:41:50Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/product_ipamorelin.md
+[LINE_RANGE] 14-15
+[QUOTE]
+"# Ipamorelin
+
+$43.00"
+[/QUOTE]
+
+[CLAIM] skus[6].list_price_usd
+[URL] https://web.archive.org/web/20250531061538/https://peptidology.co/products/
+[FETCHED_AT] 2026-05-08T06:40:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidology/catalog_1.md
+[LINE_RANGE] 56-60
+[QUOTE]
+"[ Sale! BPC-157, TB-500 (Blend) 10mg-each-20mg-total ](https://web.archive.org/web/20250531061538/https://peptidology.co/product/bpc-157-tb-500-blend/)
+
+[Learn More](https://web.archive.org/web/20250531061538/https://peptidology.co/product/bpc-157-tb-500-blend/)[Add to Cart - ~~$ 119.00~~ Original price was: $119.00.$95.00Current price is: $95.00.]"
+[/QUOTE]

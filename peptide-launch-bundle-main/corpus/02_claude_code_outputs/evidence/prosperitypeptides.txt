@@ -1,0 +1,720 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/homepage.md
+[LINE_RANGE] 63-65
+[QUOTE]
+"### Premium Peptides
+USA Owned and Operated
+
+**3rd Party Lab Tested & >99% Verified Purity**"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/homepage.md
+[LINE_RANGE] 70-70
+[QUOTE]
+"[ Explore all peptides  ](/shop-2/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/homepage.md
+[LINE_RANGE] 18-24
+[QUOTE]
+"  * [Home](https://prosperitypeptides.com/)
+  * [Shop](https://prosperitypeptides.com/shop-2/)
+  * [About Us](https://prosperitypeptides.com/about-us/)
+  * [COA](https://prosperitypeptides.com/coas/)
+  * [Contact us](https://prosperitypeptides.com/contact-us/)
+  * [Affiliate Portal](https://prosperitypeptides.com/affiliates-2/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/homepage.md
+[LINE_RANGE] 350-350
+[QUOTE]
+"_All products offered by Prosperity Peptides are intended strictly for research and development purposes only. These products are not intended for human or veterinary consumption, diagnostic use, or therapeutic application. The statements and claims presented on this website have not been evaluated by the U.S. Food and Drug Administration (FDA). The products sold by Prosperity Peptides are not intended to diagnose, treat, cure, or prevent any disease or medical condition. Prosperity Peptides operates solely as a chemical and research material supplier. We are not a compounding pharmacy or chemical compounding facility as defined under Section 503A of the Federal Food, Drug, and Cosmetic Act, nor are we an outsourcing facility as defined under Section 503B of the same Act. All purchasers acknowledge and agree that products are used at their own discretion and risk, strictly within lawful research settings._"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/homepage.md
+[LINE_RANGE] 63-70
+[QUOTE]
+"### Premium Peptides
+USA Owned and Operated
+
+**3rd Party Lab Tested & >99% Verified Purity**
+
+All products sold on this website are intended strictly for laboratory research and analytical purposes only. These products are not intended for human consumption, veterinary use, clinical application, or diagnostic purposes."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://prosperitypeptides.com/about-us/
+[FETCHED_AT] 2026-05-08T06:53:14Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/about.md
+[LINE_RANGE] 73-73
+[QUOTE]
+"All of our research peptides are sourced, synthesized, and tested within the United States under strict quality standards."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://prosperitypeptides.com/about-us/
+[FETCHED_AT] 2026-05-08T06:53:14Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/about.md
+[LINE_RANGE] 77-77
+[QUOTE]
+"We are committed to uncompromising quality standards, U.S.-based sourcing and testing, and clear 3rd party testing that supports accuracy, consistency, and integrity in every product."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2026
+[REASONING]
+First product upload images in source HTML show filenames with 2026-01-28 and 2026-01-31 dates. Footer copyright reads "© 2026 All Rights Reserved." The About page mission statement includes "Live a healthy life, prosper and become your best self in 2026." All evidence points to 2026 as the founding/launch year.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:47Z
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/homepage.md
+[LINE_RANGE] 357-357
+"© 2026 All Rights Reserved."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://prosperitypeptides.com/about-us/
+[FETCHED_AT] 2026-05-08T06:53:14Z
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/about.md
+[LINE_RANGE] 77-77
+"Live a healthy life, prosper and become your best self in 2026."
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://prosperitypeptides.com/shop-2/
+[FETCHED_AT] 2026-05-08T06:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/catalog_1.md
+[LINE_RANGE] 77-231
+[QUOTE]
+[ENUMERATION] Counted from catalog_1.md and catalog_2.md: 18 products total. Page 1 (12 items): Bacteriostatic Water, BPC-157 (12mg), BPC-157 + TB-500 Blend (Wolverine), CJC-1295 (No DAC) + Ipamorelin Blend, GHK-Cu (60mg), Glow, GLP2-T (40mg), GLP3-R (12mg), GLP3-R (38mg), Ipamorelin (8mg), Klow, KPV (14mg). Page 2 (6 items): MOTS-c (52mg), MT-2 (Melanotan 2), NAD+, Selank (14mg), Semax (12mg), Tesamorelin (14mg).
+[FILES]
+catalog_1.md
+catalog_2.md
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://prosperitypeptides.com/shop-2/
+[FETCHED_AT] 2026-05-08T06:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/catalog_1.md
+[LINE_RANGE] 62-67
+[QUOTE]
+"Show  [ 9  ](?per_page=9&shortcode=1) [ 12  ](?per_page=12&shortcode=1) [ 18  ](?per_page=18&shortcode=1) [ 24  ](?per_page=24&shortcode=1)
+
+Default sorting Sort by popularity Sort by average rating Sort by latest Sort by price: low to high Sort by price: high to low"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://prosperitypeptides.com/shop-2/
+[FETCHED_AT] 2026-05-08T06:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/catalog_1.md
+[LINE_RANGE] 105-115
+[QUOTE]
+"### [BPC-157 + TB-500 Blend (Wolverine)](https://prosperitypeptides.com/product/bpc-157-tb-500-combo/)
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://prosperitypeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_1__bpc-157.md
+[LINE_RANGE] 85-86
+[QUOTE]
+"#  BPC-157 (12mg)
+
+$40.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://prosperitypeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_1__bpc-157.md
+[LINE_RANGE] 91-91
+[QUOTE]
+"size |  Choose an option10mgClear"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://prosperitypeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_1__bpc-157.md
+[LINE_RANGE] 85-87
+[QUOTE]
+"#  BPC-157 (12mg)
+
+$40.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://prosperitypeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_1__bpc-157.md
+[LINE_RANGE] 120-124
+[QUOTE]
+"This material is sold strictly for  _in vitro_ laboratory research use only. It is not intended for human consumption, clinical use, or veterinary applications. No claims are made regarding safety or efficacy for therapeutic purposes."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://prosperitypeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_1__bpc-157.md
+[LINE_RANGE] 89-89
+[QUOTE]
+"Supplied strictly for laboratory research use only. Not for human or veterinary use."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://prosperitypeptides.com/coas/
+[FETCHED_AT] 2026-05-08T06:53:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/coa_1.md
+[LINE_RANGE] 56-71
+[QUOTE]
+"[](https://prosperitypeptides.com/wp-content/uploads/2026/02/Screenshot-2026-02-24-021458.png)
+[](https://prosperitypeptides.com/wp-content/uploads/2026/02/Screenshot-2026-02-24-021627.png)
+[](https://prosperitypeptides.com/wp-content/uploads/2026/02/Screenshot-2026-02-24-021652.png)
+[](https://prosperitypeptides.com/wp-content/uploads/2026/02/Screenshot-2026-02-24-021722.png)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://prosperitypeptides.com/product/retatrutide-2/
+[FETCHED_AT] 2026-05-08T06:52:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_3__retatrutide.md
+[LINE_RANGE] 116-116
+[QUOTE]
+"Net content: GLP3-R 10mg tested at 12.42mg (batch # RT10-001) and GLP3-R 30mg tested at 38.27mg (batch RT30-001)."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://prosperitypeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_1__bpc-157.md
+[LINE_RANGE] 141-145
+[QUOTE]
+"##  Reviews
+
+There are no reviews yet.
+
+Be the first to review "BPC-157 (12mg)""
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://prosperitypeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_1__bpc-157.md
+[LINE_RANGE] 155-160
+[QUOTE]
+"## Related products
+
+[ ](https://prosperitypeptides.com/product/cjc-1295-no-dac-ipamorelin-blend/)
+
+[ Add to compare ]()
+
+### [CJC-1295 (No DAC) + Ipamorelin Blend](https://prosperitypeptides.com/product/cjc-1295-no-dac-ipamorelin-blend/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://prosperitypeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_1__bpc-157.md
+[LINE_RANGE] 56-58
+[QUOTE]
+"[](https://prosperitypeptides.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-31-at-14.47.14-1.jpeg)
+
+[ ](https://prosperitypeptides.com/wp-content/uploads/2026/04/Screenshot-2026-04-08-012505.png)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/homepage.md
+[LINE_RANGE] 68-68
+[QUOTE]
+"All products sold on this website are intended strictly for laboratory research and analytical purposes only. These products are not intended for human consumption, veterinary use, clinical application, or diagnostic purposes."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/homepage.md
+[LINE_RANGE] 373-380
+[QUOTE]
+"##  Are you 21 or Older
+
+Our products are crafted for research and for investigative purposes and are not suitable for direct human consumption or consumers, nor are they intended for clinical or therapeutic use. The statements and products listed on this website are not intended to diagnose, treat, cure, or prevent any disease
+
+Are you over 21 years of age?
+
+No Yes"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://prosperitypeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T06:52:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/tos.md
+[LINE_RANGE] 56-60
+[QUOTE]
+"## Terms and Conditions
+
+Welcome to **Prosperity Peptides**. Please read these Terms and Conditions ("Terms") carefully, as they govern your access to and use of the Prosperity Peptides website and related services (collectively, the "Services")."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://prosperitypeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T06:52:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/tos.md
+[LINE_RANGE] 77-77
+[QUOTE]
+"You must be at least **18 years of age** to access or use our Services. By using our Services, you represent and warrant that you meet this age requirement."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://prosperitypeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T06:52:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/tos.md
+[LINE_RANGE] 103-104
+[QUOTE]
+"Due to the sensitive nature of research materials and applicable regulatory considerations, **all sales are final**.
+
+Prosperity Peptides does **not** accept returns, issue refunds, or allow order cancellations once an order has been placed, regardless of delivery status."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://prosperitypeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:52:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/shipping.md
+[LINE_RANGE] 79-80
+[QUOTE]
+"All shipping-related issues **excluding theft after delivery** must be reported within **seven (7) calendar days** of the carrier's delivery or attempted delivery date.
+This reporting window is strictly enforced. Claims submitted outside this timeframe will be declined without exception."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/homepage.md
+[LINE_RANGE] 78-84
+[QUOTE]
+"### Express Delivery
+
+2-3 day Domestic shipping available
+
+### ≥ 99% Purity
+
+All Peptides are Third Party Lab tested
+
+### Free Shipping
+
+Free shipping over $200 purchase"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The homepage HTML source contains 145 occurrences of "woocommerce", "WooCommerce", or "wc-" class strings. The site also uses the WoodMart theme (woodmart-child) and is hosted on WP Engine, both of which are consistent with a WordPress + WooCommerce stack.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:53:40Z
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/source_tech_notes.md
+[LINE_RANGE] 4-4
+"Platform: WordPress + WooCommerce (145 occurrences of woocommerce/WooCommerce/wc- in source)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:53:40Z
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/source_tech_notes.md
+[LINE_RANGE] 5-5
+"Theme: woodmart-child (custom child theme of WoodMart)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] cloudflare
+[REASONING]
+HTTP response headers showed "server: cloudflare" on the homepage response. This is the primary CDN/WAF signal.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:53:40Z
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/source_tech_notes.md
+[LINE_RANGE] 7-7
+"CDN/WAF: Cloudflare (server: cloudflare in response headers)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:53:40Z
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/source_tech_notes.md
+[LINE_RANGE] 6-6
+"WP Engine: confirmed (X-Powered-By: WP Engine in response headers)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] Google Tag Manager (GTM-55MM9ZGQ)
+[REASONING]
+The string "GTM-55MM9ZGQ" appeared twice in the homepage HTML source, indicating Google Tag Manager with container ID GTM-55MM9ZGQ. The source notes also confirm "Google Tag Manager for WordPress by gtm4wp.com" comment tags.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:53:40Z
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/source_tech_notes.md
+[LINE_RANGE] 10-10
+"Analytics loaded:"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:53:40Z
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/source_tech_notes.md
+[LINE_RANGE] 11-11
+"- Google Tag Manager: GTM-55MM9ZGQ (found in HTML source)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE] Klaviyo
+[REASONING]
+The homepage HTML source contains a DNS prefetch for "static.klaviyo.com" and the string "klaviyo" appears multiple times, indicating Klaviyo email/SMS marketing integration.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:53:40Z
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/source_tech_notes.md
+[LINE_RANGE] 14-14
+"- Klaviyo: static.klaviyo.com referenced in HTML source"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:53:40Z
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/source_tech_notes.md
+[LINE_RANGE] 17-17
+"Chat widget:"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] true
+[REASONING]
+The string "crisp" appeared in the homepage HTML source in a context consistent with Crisp chat widget integration. The source notes confirm "Crisp chat: found in HTML source."
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:53:40Z
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/source_tech_notes.md
+[LINE_RANGE] 18-18
+"- Crisp chat: found in HTML source"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://prosperitypeptides.com/
+[FETCHED_AT] 2026-05-08T06:53:40Z
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/source_tech_notes.md
+[LINE_RANGE] 4-4
+"Platform: WordPress + WooCommerce (145 occurrences of woocommerce/WooCommerce/wc- in source)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://prosperitypeptides.com/blog/
+[FETCHED_AT] 2026-05-08T06:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/homepage.md
+[LINE_RANGE] 18-24
+[QUOTE]
+"  * [Home](https://prosperitypeptides.com/)
+  * [Shop](https://prosperitypeptides.com/shop-2/)
+  * [About Us](https://prosperitypeptides.com/about-us/)
+  * [COA](https://prosperitypeptides.com/coas/)
+  * [Contact us](https://prosperitypeptides.com/contact-us/)
+  * [Affiliate Portal](https://prosperitypeptides.com/affiliates-2/)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://prosperitypeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_1__bpc-157.md
+[LINE_RANGE] 141-145
+[QUOTE]
+"##  Reviews
+
+There are no reviews yet.
+
+Be the first to review "BPC-157 (12mg)""
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:bpc-157-10mg]
+[URL] https://prosperitypeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_1__bpc-157.md
+[LINE_RANGE] 85-92
+[QUOTE]
+"#  BPC-157 (12mg)
+
+$40.00
+
+Supplied strictly for laboratory research use only. Not for human or veterinary use.
+
+size |  Choose an option10mgClear"
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:ghk-cu-50mg]
+[URL] https://prosperitypeptides.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T06:52:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_2__ghk-cu.md
+[LINE_RANGE] 78-82
+[QUOTE]
+"#  GHK-Cu (60mg)
+
+$30.00
+
+size |  Choose an option50mgClear"
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:retatrutide-10mg]
+[URL] https://prosperitypeptides.com/product/retatrutide-2/
+[FETCHED_AT] 2026-05-08T06:52:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_3__retatrutide.md
+[LINE_RANGE] 85-93
+[QUOTE]
+"#  GLP3-R (12mg)
+
+$70.00
+
+Supplied strictly for laboratory research use only. Not for human or veterinary use.
+
+In stock"
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:retatrutide-30mg]
+[URL] https://prosperitypeptides.com/shop-2/
+[FETCHED_AT] 2026-05-08T06:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/catalog_1.md
+[LINE_RANGE] 189-192
+[QUOTE]
+"### [GLP3-R (38mg)](https://prosperitypeptides.com/product/glp3-r-30mg/)
+
+$125.00"
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:tirzepatide-30mg]
+[URL] https://prosperitypeptides.com/product/tirzepatide-2/
+[FETCHED_AT] 2026-05-08T06:52:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_4__tirzepatide.md
+[LINE_RANGE] 85-92
+[QUOTE]
+"#  GLP2-T (40mg)
+
+$100.00
+
+Supplied strictly for laboratory research use only. Not for human or veterinary use.
+
+size |  Choose an option30mgClear"
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:selank-10mg]
+[URL] https://prosperitypeptides.com/product/selank/
+[FETCHED_AT] 2026-05-08T06:52:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_5__selank.md
+[LINE_RANGE] 85-89
+[QUOTE]
+"#  Selank (14mg)
+
+$40.00
+
+Supplied strictly for laboratory research use only. Not for human or veterinary use."
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:mots-c-10mg]
+[URL] https://prosperitypeptides.com/product/mots-c/
+[FETCHED_AT] 2026-05-08T06:52:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_6__mots-c.md
+[LINE_RANGE] 85-92
+[QUOTE]
+"#  MOTS-c (52mg)
+
+$120.00
+
+Supplied strictly for laboratory research use only. Not for human or veterinary use.
+
+size |  Choose an option40mgClear"
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:semax-10mg]
+[URL] https://prosperitypeptides.com/product/semax/
+[FETCHED_AT] 2026-05-08T06:52:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_7__semax.md
+[LINE_RANGE] 85-90
+[QUOTE]
+"#  Semax (12mg)
+
+$40.00
+
+Supplied strictly for laboratory research use only. Not for human or veterinary use.
+
+In stock"
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:5-amino-1mq]
+[URL] https://prosperitypeptides.com/product/5-amino-1mq/
+[FETCHED_AT] 2026-05-08T06:54:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/product_8__5-amino-1mq.md
+[LINE_RANGE] 85-89
+[QUOTE]
+"#  5-amino-1mq
+
+$85.00
+
+Supplied strictly for laboratory research use only. Not for human or veterinary use."
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:bpc157-tb500-blend]
+[URL] https://prosperitypeptides.com/shop-2/
+[FETCHED_AT] 2026-05-08T06:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/catalog_1.md
+[LINE_RANGE] 105-109
+[QUOTE]
+"### [BPC-157 + TB-500 Blend (Wolverine)](https://prosperitypeptides.com/product/bpc-157-tb-500-combo/)
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:cjc1295-ipamorelin-blend]
+[URL] https://prosperitypeptides.com/shop-2/
+[FETCHED_AT] 2026-05-08T06:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/catalog_1.md
+[LINE_RANGE] 119-123
+[QUOTE]
+"### [CJC-1295 (No DAC) + Ipamorelin Blend](https://prosperitypeptides.com/product/cjc-1295-no-dac-ipamorelin-blend/)
+
+$70.00"
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:glow-blend]
+[URL] https://prosperitypeptides.com/shop-2/
+[FETCHED_AT] 2026-05-08T06:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/catalog_1.md
+[LINE_RANGE] 147-150
+[QUOTE]
+"### [Glow](https://prosperitypeptides.com/product/glow-bpc-157-blend/)
+
+$80.00"
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:ipamorelin-8mg]
+[URL] https://prosperitypeptides.com/shop-2/
+[FETCHED_AT] 2026-05-08T06:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/catalog_1.md
+[LINE_RANGE] 203-207
+[QUOTE]
+"### [Ipamorelin (8mg)](https://prosperitypeptides.com/product/ipamorelin/)
+
+$35.00"
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:klow-blend]
+[URL] https://prosperitypeptides.com/shop-2/
+[FETCHED_AT] 2026-05-08T06:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/catalog_1.md
+[LINE_RANGE] 217-221
+[QUOTE]
+"### [Klow](https://prosperitypeptides.com/product/klow-cu50tb10bc10kpv10/)
+
+$85.00"
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:kpv-14mg]
+[URL] https://prosperitypeptides.com/shop-2/
+[FETCHED_AT] 2026-05-08T06:51:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/catalog_1.md
+[LINE_RANGE] 231-235
+[QUOTE]
+"### [KPV (14mg)](https://prosperitypeptides.com/product/kpv-lysine-proline-valine/)
+
+$40.00"
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:mt2-melanotan]
+[URL] https://prosperitypeptides.com/shop-2/?product-page=2
+[FETCHED_AT] 2026-05-08T06:51:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/catalog_2.md
+[LINE_RANGE] 77-81
+[QUOTE]
+"### [MT-2 (Melanotan 2)](https://prosperitypeptides.com/product/mt-2-melanotan-2-acetate/)
+
+$35.00"
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:nad-plus]
+[URL] https://prosperitypeptides.com/shop-2/?product-page=2
+[FETCHED_AT] 2026-05-08T06:51:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/catalog_2.md
+[LINE_RANGE] 91-95
+[QUOTE]
+"### [NAD+](https://prosperitypeptides.com/product/nad/)
+
+$60.00"
+[/QUOTE]
+
+[CLAIM] skus[prosperitypeptides:tesamorelin-14mg]
+[URL] https://prosperitypeptides.com/shop-2/?product-page=2
+[FETCHED_AT] 2026-05-08T06:51:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prosperitypeptides/catalog_2.md
+[LINE_RANGE] 119-123
+[QUOTE]
+"### [Tesamorelin (14mg)](https://prosperitypeptides.com/product/tesamorelin/)
+
+$70.00"
+[/QUOTE]

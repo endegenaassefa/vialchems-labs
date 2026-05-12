@@ -1,0 +1,365 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.celebritypeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:39Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/homepage.md
+[LINE_RANGE] 38-40
+[QUOTE]
+# Research._Quietly built._
+
+Most peptide suppliers give you a number. We give you the chromatogram. Independently HPLC-verified, endotoxin-screened, lot-matched — and documented before your shipment leaves the facility.
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.celebritypeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:39Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/homepage.md
+[LINE_RANGE] 42-42
+[QUOTE]
+[Browse Catalog →](/web/20260507194821/https://www.celebritypeptides.com/shop)[View COA Library](/web/20260507194821/https://www.celebritypeptides.com/coa)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.celebritypeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:39Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/homepage.md
+[LINE_RANGE] 16-21
+[QUOTE]
+  * [01Home→](/web/20260507194821/https://www.celebritypeptides.com/)
+  * [02Shop→](/web/20260507194821/https://www.celebritypeptides.com/shop)
+  * [03Research→](/web/20260507194821/https://www.celebritypeptides.com/research/metabolic-peptides)
+  * [04COA Library→](/web/20260507194821/https://www.celebritypeptides.com/coa)
+  * [05Contact→](/web/20260507194821/https://www.celebritypeptides.com/contact)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.celebritypeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:39Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/homepage.md
+[LINE_RANGE] 280-287
+[QUOTE]
+Required Compliance Disclosures
+
+All products on this site are for research and development use only. Products are not for human consumption of any kind.
+
+The statements made on this website have not been evaluated by the U.S. Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure, or prevent any disease.
+
+Celebrity Peptides is a research compound supplier. Celebrity Peptides is not a compounding pharmacy or chemical compounding facility as defined under Section 503A of the Federal Food, Drug, and Cosmetic Act. Celebrity Peptides is not an outsourcing facility as defined under Section 503B of the Federal Food, Drug, and Cosmetic Act. All products are sold for research, laboratory, or analytical purposes only and are not for human consumption.
+[/QUOTE]
+
+[CLAIM] ship_to_scope (us_only)
+[URL] https://www.celebritypeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:39Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/homepage.md
+[LINE_RANGE] 152-153
+[QUOTE]
+### Dispatch
+
+Orders before 14:00 PST ship same day, cold-packed with chain-of-custody seal. Tracked door-to-door across the lower 48.
+[/QUOTE]
+
+[CLAIM] country_of_operation (United States) / fulfillment_country
+[URL] https://www.celebritypeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:39Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/homepage.md
+[LINE_RANGE] 68-68
+[QUOTE]
+◆ INDEPENDENT HPLC TESTING◆ ENDOTOXIN <0.5 EU/mg◆ 99.4% MEAN HPLC PURITY◆ SAME-DAY SHIPPING◆ COA WITH EVERY BATCH◆ U.S. LABS◆ CHAIN OF CUSTODY◆ INDEPENDENT HPLC — NOT IN-HOUSE SELF-TESTING◆ RESEARCH USE ONLY
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://www.celebritypeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:39Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/homepage.md
+[LINE_RANGE] 287-287
+[QUOTE]
+© 2026 Celebrity Peptides, Inc. · All rights reserved.Research Use Only
+[/QUOTE]
+
+[CLAIM] catalog.sku_count / catalog.category_taxonomy
+[URL] https://www.celebritypeptides.com/coa
+[FETCHED_AT] 2026-05-07T19:50:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/coa_1.md
+[LINE_RANGE] 37-59
+[QUOTE]
+Archive · Q2 2026● LIVE
+
+26
+
+Active SKUs
+
+18
+
+Purity reports
+
+18
+
+Endotoxin reports
+
+99.30%
+
+Mean purity
+
+Method · USP <1057>Lab · ISO 17025
+
+§02Document Index
+
+## Browse the _archive._
+
+AllMetabolic Pathway ResearchStress-Response ResearchBlend ResearchCognition ResearchGrowth Factor ResearchPigmentation Research
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.celebritypeptides.com/coa
+[FETCHED_AT] 2026-05-07T19:50:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/coa_1.md
+[LINE_RANGE] 169-209
+[QUOTE]
+### Blend Research
+
+3 records
+
+CompoundLot · CodePurityPurity reportEndotoxin
+
+[WolverineCP-0001783](/web/20260507195010/https://www.celebritypeptides.com/product/wolverine)
+
+CP-9562504
+
+Issued · 15 MAR 2026
+
+99.21%
+
+[HPLC.pdf↗](/web/20260507195010/https://www.celebritypeptides.com/coa/wolverine-purity.pdf)
+
+[LAL.pdf↗](/web/20260507195010/https://www.celebritypeptides.com/coa/wolverine-endo.pdf)
+
+[KLOWCP-0001487](/web/20260507195010/https://www.celebritypeptides.com/product/klow)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.celebritypeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:39Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/homepage.md
+[LINE_RANGE] 219-221
+[QUOTE]
+04What are the intended research applications?+
+
+All compounds are supplied strictly for in-vitro research, laboratory, and analytical use. They are not intended or authorized for human or veterinary administration, diagnostic use, or any purpose involving living subjects.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / coa_hosting / batch_lot_transparency
+[URL] https://www.celebritypeptides.com/coa
+[FETCHED_AT] 2026-05-07T19:50:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/coa_1.md
+[LINE_RANGE] 62-66
+[QUOTE]
+### Metabolic Pathway Research
+
+5 records
+
+CompoundLot · CodePurityPurity reportEndotoxin
+
+[RetaCP-0001801](/web/20260507195010/https://www.celebritypeptides.com/product/glp-3-rt)
+
+CP-2138549
+
+Issued · 12 JAN 2026
+
+99.42%
+
+[HPLC.pdf↗](/web/20260507195010/https://www.celebritypeptides.com/coa/reta-purity.pdf)
+
+[LAL.pdf↗](/web/20260507195010/https://www.celebritypeptides.com/coa/reta-endo.pdf)
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.celebritypeptides.com/terms
+[FETCHED_AT] 2026-05-07T19:51:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/tos.md
+[LINE_RANGE] 81-87
+[QUOTE]
+All products supplied by Celebrity Peptides are sold strictly for laboratory research use by qualified investigators. They are not drugs, dietary supplements, food, or cosmetics. They are not approved by the U.S. Food and Drug Administration for human or veterinary use.
+
+Acknowledgement
+
+By placing an order, you affirm that you are a qualified researcher or institutional buyer, that you will use the product solely for in-vitro investigation, and that you will not administer it to humans or animals.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://www.celebritypeptides.com/terms
+[FETCHED_AT] 2026-05-07T19:51:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/tos.md
+[LINE_RANGE] 93-93
+[QUOTE]
+You must be at least twenty-one (21) years of age and legally competent to form a binding contract in your jurisdiction. We may at any time request documentation of institutional affiliation, professional credentials, or governmental research authority. We may decline any order without stating cause.
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.celebritypeptides.com/terms
+[FETCHED_AT] 2026-05-07T19:51:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/tos.md
+[LINE_RANGE] 107-109
+[QUOTE]
+International shipments are accepted only where we have confirmed eligibility in writing. The buyer is the importer of record and is responsible for duties, taxes, and import compliance.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / tos_highlights
+[URL] https://www.celebritypeptides.com/terms
+[FETCHED_AT] 2026-05-07T19:51:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/tos.md
+[LINE_RANGE] 37-43
+[QUOTE]
+Document · CP-LGL-TOS● ACTIVE
+
+EffectiveJanuary 1, 2026
+
+Last revisedJanuary 1, 2026
+
+Revisionrev.2026.01
+
+JurisdictionDelaware, USA
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.celebritypeptides.com/refund_returns
+[FETCHED_AT] 2026-05-07T19:52:12Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/refund.md
+[LINE_RANGE] 76-87
+[QUOTE]
+We will replace, credit, or refund product in the following circumstances:
+
+  * Defect of manufacture: visible particulate, broken seal, mass deviation outside the spec on the Certificate of Analysis, or any failure to meet a published specification at the time of receipt.
+  * Damage in transit: vial breakage, crushed packaging, evidence that cold-chain was broken (where ordered with cold-chain shipping).
+  * Wrong item shipped: lot label, item, dose, or quantity does not match the order confirmation.
+  * Non-delivery: a parcel marked delivered by the carrier that did not in fact arrive, after a reasonable carrier investigation.
+
+
+
+Outside these cases
+
+Change of mind, after-the-fact research-plan changes, ordering errors by the buyer, and conditions developed after acceptance of the parcel are not eligible.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.celebritypeptides.com/terms
+[FETCHED_AT] 2026-05-07T19:51:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/tos.md
+[LINE_RANGE] 105-109
+[QUOTE]
+Domestic orders ship within two (2) business days of payment via the carrier displayed at checkout. Title and risk of loss pass to you upon delivery to the carrier. Tracking is provided in the shipment email. We are not responsible for delays caused by carriers, weather, customs, or force majeure.
+
+International shipments are accepted only where we have confirmed eligibility in writing. The buyer is the importer of record and is responsible for duties, taxes, and import compliance.
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.celebritypeptides.com/terms
+[FETCHED_AT] 2026-05-07T19:51:24Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/tos.md
+[LINE_RANGE] 108-109
+[QUOTE]
+International shipments are accepted only where we have confirmed eligibility in writing. The buyer is the importer of record and is responsible for duties, taxes, and import compliance.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.celebritypeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:39Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/homepage.md
+[LINE_RANGE] 107-111
+[QUOTE]
+### Same-day dispatch
+
+Orders placed before 2pm Pacific ship the same business day. Free 1–3 day shipping over $200. Tracked at every transit checkpoint.
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present / blog_url / topic_taxonomy
+[URL] https://www.celebritypeptides.com/research/metabolic-peptides
+[FETCHED_AT] 2026-05-07T19:54:05Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/research_1.md
+[LINE_RANGE] 28-36
+[QUOTE]
+§01Research Hub · Metabolic
+
+# Metabolic
+ _Research_
+Peptides.
+
+GLP-1 analogs, dual agonists, and triple agonist peptides for in-vitro and laboratory metabolic research. US lab synthesized. Third-party HPLC purity verified. Endotoxin cleared per batch. COA per lot.
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://www.celebritypeptides.com/research/metabolic-peptides
+[FETCHED_AT] 2026-05-07T19:54:05Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/research_1.md
+[LINE_RANGE] 55-157
+[QUOTE]
+Research Overview
+
+## The incretin
+research
+landscape.
+
+The past decade has produced a rapid expansion in peptide-based metabolic research — driven by the structural diversity of incretin hormone analogs and the mechanistic depth available through receptor-selective study designs.
+
+All compounds on this page are supplied for in-vitro and laboratory research use only. They are not drugs, supplements, or therapeutics.
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews / testimonial_usage
+[URL] https://www.celebritypeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:39Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/homepage.md
+[LINE_RANGE] 174-196
+[QUOTE]
+> The COA was in our inbox before the package cleared receiving. The documentation discipline is consistent across every shipment we have logged.
+
+ACCOUNT · 4471-AVERIFIED
+
+Procurement notes · independent research account
+[/QUOTE]
+
+[CLAIM] skus[] — headline SKU set from COA library
+[URL] https://www.celebritypeptides.com/coa
+[FETCHED_AT] 2026-05-07T19:50:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/celebritypeptides/coa_1.md
+[LINE_RANGE] 62-311
+[QUOTE]
+[RetaCP-0001801](/web/20260507195010/https://www.celebritypeptides.com/product/glp-3-rt)
+[SemaCP-0001797](/web/20260507195010/https://www.celebritypeptides.com/product/glp-1-sm)
+[TirzCP-0001789](/web/20260507195010/https://www.celebritypeptides.com/product/glp-2-tz)
+[MOTS-CCP-0001516](/web/20260507195010/https://www.celebritypeptides.com/product/mots-c-research-peptide)
+[AOD-9604CP-0001501](/web/20260507195010/https://www.celebritypeptides.com/product/aod-9604-research-peptide)
+[BPC-157CP-0001794](/web/20260507195010/https://www.celebritypeptides.com/product/bpc-157)
+[TB-500CP-0001786](/web/20260507195010/https://www.celebritypeptides.com/product/tb-500)
+[NAD+CP-0001780](/web/20260507195010/https://www.celebritypeptides.com/product/nad-plus-research-compound)
+[WolverineCP-0001783](/web/20260507195010/https://www.celebritypeptides.com/product/wolverine)
+[KLOWCP-0001487](/web/20260507195010/https://www.celebritypeptides.com/product/klow)
+[GLOWCP-0001473](/web/20260507195010/https://www.celebritypeptides.com/product/glow)
+[SelankCP-0001532](/web/20260507195010/https://www.celebritypeptides.com/product/selank)
+[SemaxCP-0001529](/web/20260507195010/https://www.celebritypeptides.com/product/semax)
+[SermorelinCP-0001513](/web/20260507195010/https://www.celebritypeptides.com/product/sermorelin)
+[TesamorelinCP-0001493](/web/20260507195010/https://www.celebritypeptides.com/product/tesamorelin)
+[CJC/IpamorelinCP-0001490](/web/20260507195010/https://www.celebritypeptides.com/product/cjc-1295-ipamorelin-research-blend)
+[IpamorelinCP-0001484](/web/20260507195010/https://www.celebritypeptides.com/product/ipamorelin)
+[GHK-CuCP-0001470](/web/20260507195010/https://www.celebritypeptides.com/product/ghk-cu)
+[/QUOTE]

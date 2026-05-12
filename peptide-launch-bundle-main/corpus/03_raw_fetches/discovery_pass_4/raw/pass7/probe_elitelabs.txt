@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elite Labs - Premier Clinical Laboratory in Houston, Texas | Diagnostic Testing Services</title>
+    <meta name="description" content="Elite Labs offers comprehensive clinical laboratory services in Houston, Texas. Expert diagnostic testing, blood work, pathology services, and advanced medical testing with fast, accurate results for patients and healthcare providers.">
+    <meta name="keywords" content="clinical laboratory Houston, medical testing Texas, blood work Houston, diagnostic lab services, pathology lab Houston, laboratory testing, medical diagnostics, Elite Labs, clinical testing Houston, lab results, medical laboratory Houston">
+    <meta name="author" content="Elite Labs Clinical Laboratory" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="theme-color" content="#1e40af" />
+    <link rel="canonical" href="https://elitelabs.com/" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Preload hero image for instant loading -->
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1709990742347-07f67cc136cf?q=85&auto=format,compress&fit=crop&w=1920&h=1080&fm=webp" type="image/webp">
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1709990742347-07f67cc136cf?q=85&auto=format,compress&fit=crop&w=1920&h=1080" type="image/jpeg">
+
+    <!-- Local SEO and Geo-location Meta Tags -->
+    <meta name="geo.region" content="US-TX" />
+    <meta name="geo.placename" content="Houston, Texas" />
+    <meta name="geo.position" content="29.7604;-95.3698" />
+    <meta name="ICBM" content="29.7604, -95.3698" />
+    <meta name="geo.region" content="US-TX" />
+    <meta name="geo.placename" content="Houston" />
+    <meta name="location" content="Houston, Texas, United States" />
+    <meta name="coverage" content="Houston, Texas, Harris County, Greater Houston Area" />
+    <meta name="distribution" content="local" />
+
+    <!-- Business and Medical Specific Meta Tags -->
+    <meta name="rating" content="general" />
+    <meta name="target" content="patients, healthcare providers, physicians, medical professionals" />
+    <meta name="subject" content="Clinical Laboratory Services, Medical Testing, Diagnostic Services" />
+    <meta name="category" content="Healthcare, Medical Services, Clinical Laboratory" />
+    <meta name="classification" content="Medical Laboratory, Diagnostic Testing Center" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Elite Labs - Premier Clinical Laboratory in Houston, Texas" />
+    <meta property="og:description" content="Elite Labs offers comprehensive clinical laboratory services in Houston, Texas. Expert diagnostic testing, blood work, pathology services, and advanced medical testing with fast, accurate results." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://elitelabs.com/" />
+    <meta property="og:image" content="https://elitelabs.com/elite-labs-social.jpg" />
+    <meta property="og:image:alt" content="Elite Labs Clinical Laboratory - Houston, Texas" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Elite Labs Clinical Laboratory" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="business:contact_data:street_address" content="Houston, Texas" />
+    <meta property="business:contact_data:locality" content="Houston" />
+    <meta property="business:contact_data:region" content="Texas" />
+    <meta property="business:contact_data:postal_code" content="77001" />
+    <meta property="business:contact_data:country_name" content="United States" />
+
+
+    <!-- JSON-LD Structured Data for Medical Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["MedicalBusiness", "MedicalClinic", "DiagnosticLab"],
+      "@id": "https://elitelabs.com",
+      "name": "Elite Labs Clinical Laboratory",
+      "alternateName": "Elite Labs",
+      "description": "Premier clinical laboratory services in Houston, Texas, offering comprehensive diagnostic testing, blood work, pathology services, and advanced medical testing with fast, accurate results.",
+      "url": "https://elitelabs.com",
+      "telephone": "+1-713-XXX-XXXX",
+      "email": "info@elitelabs.com",
+      "logo": "https://elitelabs.com/elc-white-logo.png",
+      "image": "https://elitelabs.com/elite-labs-social.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Houston Medical Center",
+        "addressLocality": "Houston",
+        "addressRegion": "TX",
+        "postalCode": "77001",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 29.7604,
+        "longitude": -95.3698
+      },
+      "openingHours": [
+        "Mo-Fr 07:00-18:00",
+        "Sa 08:00-14:00"
+      ],
+      "priceRange": "$$",
+      "areaServed": {
+        "@type": "Place",
+        "name": "Houston, Texas and surrounding areas"
+      },
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 29.7604,
+          "longitude": -95.3698
+        },
+        "geoRadius": "50 miles"
+      },
+      "medicalSpecialty": [
+        "Clinical Laboratory Services",
+        "Diagnostic Testing",
+        "Pathology",
+        "Blood Testing",
+        "Medical Diagnostics"
+      ],
+      "availableService": [
+        {
+          "@type": "MedicalTest",
+          "name": "Blood Testing",
+          "description": "Comprehensive blood analysis and testing services"
+        },
+        {
+          "@type": "MedicalTest",
+          "name": "Diagnostic Testing",
+          "description": "Advanced diagnostic testing and analysis"
+        },
+        {
+          "@type": "MedicalTest",
+          "name": "Pathology Services",
+          "description": "Expert pathology analysis and reporting"
+        }
+      ],
+      "hasCredential": "CLIA Certified Laboratory"
+    }
+    </script>
+
+    <!-- Additional Medical Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://elitelabs.com/#website",
+      "url": "https://elitelabs.com",
+      "name": "Elite Labs Clinical Laboratory",
+      "description": "Premier clinical laboratory services in Houston, Texas",
+      "publisher": {
+        "@type": "MedicalBusiness",
+        "name": "Elite Labs Clinical Laboratory",
+        "@id": "https://elitelabs.com"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://elitelabs.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/index-DQue-oPL.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-VHwL_sdg.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-ui-DImcyT28.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-3d-C8z6rc2T.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-utils-D884hYHU.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-misc-Bx6C4Z6f.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-animation-DVV-tpNm.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-JqZro1It.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

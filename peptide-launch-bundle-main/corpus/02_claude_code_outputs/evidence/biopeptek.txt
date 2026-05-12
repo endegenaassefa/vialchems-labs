@@ -1,0 +1,544 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.biopeptek.com/
+[FETCHED_AT] 2026-05-07T00:48:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/homepage.md
+[LINE_RANGE] 42-45
+[QUOTE]
+One-stop Peptide CDMO
+Partners to Support your
+cGMP API Manufacturing and
+CMC Drug Developments
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.biopeptek.com/
+[FETCHED_AT] 2026-05-07T00:48:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/homepage.md
+[LINE_RANGE] 47-47
+[QUOTE]
+[ Contact Us](/contact#form)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.biopeptek.com/
+[FETCHED_AT] 2026-05-07T00:48:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/homepage.md
+[LINE_RANGE] 14-26
+[QUOTE]
+  * [Custom Peptide Synthesis](/peptide-modification/)
+  * [Peptide CMC](/peptide-cmc-api/)
+  * [Catalog Peptides](/therapeutic-peptides/)
+  * [cGMP Peptide APIs Manufacturing](/cgmp-peptide-apis-manufacturing-overview/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.biopeptek.com/
+[FETCHED_AT] 2026-05-07T00:48:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/homepage.md
+[LINE_RANGE] 188-190
+[QUOTE]
+Copyright © 2023
+Biopeptek Pharmaceuticals LLC.
+All rights reserved
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage's hero text and surrounding copy frame the company as a contract pharmaceutical manufacturer for cGMP API/drug-product clients (CDMO), with no consumer-retail imagery cues, lifestyle photography, or meme-coded styling visible in the rendered text. Adjacent on-page copy emphasizes patient outcomes and scientific rigor, indicating clinical/institutional visual posture rather than e-commerce or community-driven aesthetics.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.biopeptek.com/
+[FETCHED_AT] 2026-05-07T00:48:51Z
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/homepage.md
+[LINE_RANGE] 42-45
+"One-stop Peptide CDMO
+Partners to Support your
+cGMP API Manufacturing and
+CMC Drug Developments "
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.biopeptek.com/
+[FETCHED_AT] 2026-05-07T00:48:51Z
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/homepage.md
+[LINE_RANGE] 49-52
+"Science First.
+Patient First.
+
+Our Innovation is Patient-driven."
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.biopeptek.com/therapeutic-peptides/
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/catalog_peptides.md
+[LINE_RANGE] 55-63
+[QUOTE]
+Catalog Peptides ____
+
+[Therapeutic Peptides](/therapeutic-peptides/)
+
+[Cosmetic Peptides](/cosmetic-peptides/)
+
+cGMP Peptide APIs Manufacturing ____
+
+[Overview](/cgmp-peptide-apis-manufacturing-overview/)
+[/QUOTE]
+
+[CLAIM] catalog.therapeutic_peptide_list
+[URL] https://www.biopeptek.com/therapeutic-peptides/
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/catalog_peptides.md
+[LINE_RANGE] 65-79
+[QUOTE]
+Therapeutic Peptides
+
+Liraglutide
+
+Teriparatide
+
+Teduglutide
+
+Exenatide
+
+Bremelanotide
+
+Sermorelin
+
+Gonadorelin
+[/QUOTE]
+
+[CLAIM] catalog.cosmetic_peptides_quote_gated
+[URL] https://www.biopeptek.com/cosmetic-peptides/
+[FETCHED_AT] 2026-05-07T00:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/catalog_cosmetic.md
+[LINE_RANGE] 65-67
+[QUOTE]
+Cosmetic Peptides
+
+Request A Quote
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present_signal
+[URL] https://www.biopeptek.com/therapeutic-peptides/
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/catalog_peptides.md
+[LINE_RANGE] 65-79
+[QUOTE]
+Therapeutic Peptides
+
+Liraglutide
+
+Teriparatide
+
+Teduglutide
+
+Exenatide
+
+Bremelanotide
+
+Sermorelin
+
+Gonadorelin
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://www.biopeptek.com/therapeutic-peptides/
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/catalog_peptides.md
+[LINE_RANGE] 65-79
+[QUOTE]
+Therapeutic Peptides
+
+Liraglutide
+
+Teriparatide
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://www.biopeptek.com/therapeutic-peptides/
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/catalog_peptides.md
+[LINE_RANGE] 75-75
+[QUOTE]
+Bremelanotide
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.biopeptek.com/peptide-modification/
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/custom_synthesis.md
+[LINE_RANGE] 67-67
+[QUOTE]
+Every peptide (including crude) is shipped with an analytical data package that consists of (1) a certificate of analysis, (2) RP-HPLC (reverse-phase high-performance liquid chromatography), and (3) a solubility test data.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://www.biopeptek.com/peptide-modification/
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/custom_synthesis.md
+[LINE_RANGE] 67-67
+[QUOTE]
+Every peptide (including crude) is shipped with an analytical data package that consists of (1) a certificate of analysis, (2) RP-HPLC (reverse-phase high-performance liquid chromatography), and (3) a solubility test data.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[INFERENCE] none
+[REASONING]
+COAs are described as physical documents shipped with each peptide order ("Every peptide (including crude) is shipped with an analytical data package that consists of (1) a certificate of analysis"), not posted publicly on-site or hosted on a third-party portal. The site has no public COA index, no batch-lot lookup tool, and no third-party verification portal linkage in the navigation or any page fetched.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.biopeptek.com/peptide-modification/
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/custom_synthesis.md
+[LINE_RANGE] 67-67
+"Every peptide (including crude) is shipped with an analytical data package that consists of (1) a certificate of analysis, (2) RP-HPLC (reverse-phase high-performance liquid chromatography), and (3) a solubility test data."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.biopeptek.com/
+[FETCHED_AT] 2026-05-07T00:48:51Z
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/homepage.md
+[LINE_RANGE] 14-17
+"  * [Custom Peptide Synthesis](/peptide-modification/)
+  * [Peptide CMC](/peptide-cmc-api/)
+  * [Catalog Peptides](/therapeutic-peptides/)
+  * [cGMP Peptide APIs Manufacturing](/cgmp-peptide-apis-manufacturing-overview/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.biopeptek.com/cgmp-peptide-apis-manufacturing-overview/
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/cgmp_overview.md
+[LINE_RANGE] 95-99
+[QUOTE]
+Biopeptek cGMP quality program strictly follows FDA cGMP guidance
+
+Code of Federal Regulations Part 210/211 (21 CFR 210/211)
+
+ICH Q7
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.biopeptek.com/about
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/about.md
+[LINE_RANGE] 50-50
+[QUOTE]
+Biopeptek offers competitively priced custom peptides to life scientists and researchers worldwide.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.biopeptek.com/about
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/about.md
+[LINE_RANGE] 66-66
+[QUOTE]
+High-throughput orders are processed within 24 hours. Products with < 30 residues are generally shipped within 2 weeks, whenever feasible.
+[/QUOTE]
+
+[CLAIM] trust_compliance.scientific_team_capacity
+[URL] https://www.biopeptek.com/analytical/
+[FETCHED_AT] 2026-05-07T00:50:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/analytical.md
+[LINE_RANGE] 69-69
+[QUOTE]
+Biopeptek has a dedicated peptide analytical team of 70+ scientists with extensive experience and expertise to support all peptide analysis at all development phases.
+[/QUOTE]
+
+[CLAIM] trust_compliance.history_and_experience
+[URL] https://www.biopeptek.com/about
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/about.md
+[LINE_RANGE] 46-46
+[QUOTE]
+Biopeptek Pharmaceuticals LLC was founded with the vision of improving human life through a dedication to high-quality peptides in research, discovery, and clinical innovation, made possible through cutting-edge science and technology.
+[/QUOTE]
+
+[CLAIM] trust_compliance.gmp_testing_panel
+[URL] https://www.biopeptek.com/
+[FETCHED_AT] 2026-05-07T00:48:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/homepage.md
+[LINE_RANGE] 137-149
+[QUOTE]
+  * Appearance
+  * Solubility
+  * Peptide purity (HPLC)
+  * Related substances (HPLC)
+  * Molecular weight (MS)
+  * Peptide content
+  * Amino Acid Analysis
+  * Counterion content
+  * Moisture content (Karl Fisher)
+  * Residual Trifluoroacetic acid
+  * Residual organic solvents
+  * Bioburden
+  * Endotoxin
+[/QUOTE]
+
+[CLAIM] checkout_flow.contact_form_fields
+[URL] https://www.biopeptek.com/contact
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/contact.md
+[LINE_RANGE] 61-75
+[QUOTE]
+First Name*
+
+Last Name*
+
+Company Name*
+
+Job Title
+
+Email*
+
+Phone
+
+Comments*
+
+Submit
+[/QUOTE]
+
+[CLAIM] checkout_flow.no_public_ecommerce
+[URL] https://www.biopeptek.com/cosmetic-peptides/
+[FETCHED_AT] 2026-05-07T00:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/catalog_cosmetic.md
+[LINE_RANGE] 65-67
+[QUOTE]
+Cosmetic Peptides
+
+Request A Quote
+[/QUOTE]
+[URL] https://www.biopeptek.com/cgmp-peptide-apis-manufacturing-overview/
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/cgmp_overview.md
+[LINE_RANGE] 101-101
+[QUOTE]
+Request A Quote
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://www.biopeptek.com/
+[FETCHED_AT] 2026-05-07T00:50:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/source_homepage.md
+[LINE_RANGE] 14-15
+[QUOTE]
+server: cloudflare
+via: 1.1 heroku-router
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://www.biopeptek.com/
+[FETCHED_AT] 2026-05-07T00:50:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/source_homepage.md
+[LINE_RANGE] 39-46
+[QUOTE]
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-ENVXCRQJEJ"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-ENVXCRQJEJ');
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://www.biopeptek.com/
+[FETCHED_AT] 2026-05-07T00:50:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/source_homepage.md
+[LINE_RANGE] 23-29
+[QUOTE]
+	<meta charset="UTF-8" />	<title>Unlocking Innovation: Your Go-To Peptide Synthesis Company – Biotech Peptides Legit &amp; Online!</title>
+	<link rel="stylesheet" href="/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/css/pep.css" />
+	<link rel="stylesheet" href="/css/font-awesome.css" />
+
+
+	<script src="/js/jquery-3.1.1.min.js"></script>	<script src="/js/bootstrap.min.js"></script>
+[/QUOTE]
+
+[CLAIM] tech_stack.hubspot_signup_endpoint
+[URL] https://www.biopeptek.com/
+[FETCHED_AT] 2026-05-07T00:50:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/source_homepage.md
+[LINE_RANGE] 488-488
+[QUOTE]
+            url: 'https://www.mainlinebiosciences.com/api/business/signup_hubspot',
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://www.biopeptek.com/peptide-resources/
+[FETCHED_AT] 2026-05-07T00:50:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/resources.md
+[LINE_RANGE] 39-55
+[QUOTE]
+Peptide Resources
+
+  * Peptide Handling
+  * Peptide Modifications
+  * Amino Acids
+  * Peptide Antigen Design
+  * Fluorophore Properties
+
+
+
+  * Dissolving Charged Peptides
+  * Dissolving Peptides
+  * Dissolving Uncharged Peptides
+  * Lyophilized Peptides Storage
+  * Peptide Solubility
+  * Peptide Stability and Degradation
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present_signal
+[URL] https://www.biopeptek.com/peptide-resources/
+[FETCHED_AT] 2026-05-07T00:50:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/resources.md
+[LINE_RANGE] 39-55
+[QUOTE]
+Peptide Resources
+
+  * Peptide Handling
+  * Peptide Modifications
+  * Amino Acids
+  * Peptide Antigen Design
+  * Fluorophore Properties
+
+
+
+  * Dissolving Charged Peptides
+  * Dissolving Peptides
+  * Dissolving Uncharged Peptides
+  * Lyophilized Peptides Storage
+  * Peptide Solubility
+  * Peptide Stability and Degradation
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://www.biopeptek.com/
+[FETCHED_AT] 2026-05-07T00:48:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/homepage.md
+[LINE_RANGE] 186-186
+[QUOTE]
+[](https://www.linkedin.com/company/biopeptekpharmaceuticals/)
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://www.linkedin.com/company/biopeptekpharmaceuticals/
+[FETCHED_AT] 2026-05-07T00:55:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/linkedin_company.md
+[LINE_RANGE] 60-62
+[QUOTE]
+Founded
+     2010
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.biopeptek.com/contact
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/contact.md
+[LINE_RANGE] 41-43
+[QUOTE]
+Office
+
+5 Great Valley Pkwy STE 100, Malvern, PA 19355
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.biopeptek.com/about
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/about.md
+[LINE_RANGE] 50-50
+[QUOTE]
+Biopeptek offers competitively priced custom peptides to life scientists and researchers worldwide.
+[/QUOTE]
+[URL] https://www.biopeptek.com/about
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/about.md
+[LINE_RANGE] 50-50
+[QUOTE]
+Applying over 40 years of peptide and research expertis, as well as multiple production sites in the US and abroad, we can take your project from research scale to bulk cGMP Active Pharmaceutical Ingredient (API), effectively and efficiently, supporting you in the research process every step of the way.
+[/QUOTE]
+
+[CLAIM] jurisdiction.country_of_operation
+[URL] https://www.biopeptek.com/contact
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/contact.md
+[LINE_RANGE] 41-47
+[QUOTE]
+Office
+
+5 Great Valley Pkwy STE 100, Malvern, PA 19355
+
+Telephone
+
+(610)643-4881
+[/QUOTE]
+
+[CLAIM] jurisdiction.global_footprint
+[URL] https://www.biopeptek.com/about
+[FETCHED_AT] 2026-05-07T00:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/about.md
+[LINE_RANGE] 50-50
+[QUOTE]
+Applying over 40 years of peptide and research expertis, as well as multiple production sites in the US and abroad, we can take your project from research scale to bulk cGMP Active Pharmaceutical Ingredient (API), effectively and efficiently, supporting you in the research process every step of the way.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency_signal
+[URL] https://www.biopeptek.com/cmc-filing/
+[FETCHED_AT] 2026-05-07T00:50:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biopeptek/cmc_filing.md
+[LINE_RANGE] 65-81
+[QUOTE]
+CMC filing
+
+Service overview:
+
+Biopeptek’s regulatory team offers documentation support for IND and NDA applications globally. Our team has experience preparing Module 2 and Module 3 of your regulatory dossier.
+
+  * Batch record review
+  * Document management and control
+  * Deviations/Investigations
+  * CAPA follow-up and tracking
+  * Complaint management
+  * Product release
+  * Phase appropriate control systems consulting
+  * CMC compilation
+  * DMF compilation and submission
+  * Annual product reviews
+[/QUOTE]

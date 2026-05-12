@@ -1,0 +1,246 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 58-58
+[QUOTE]
+"TIRZ-PEPTIDE is a manufacturer of peptides, have our own research lab, and production line."
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 12-19
+[QUOTE]
+"* [ Home ](/web/20250410133957/https://www.maipeptide.com/)
+
+  * Catalog
+
+[ Peptide ](/web/20250410133957/https://www.maipeptide.com/collections/peptide) [ Oil ](/web/20250410133957/https://www.maipeptide.com/collections/oil) [ Tablets ](/web/20250410133957/https://www.maipeptide.com/collections/tablets)
+  * [ COAS ](/web/20250410133957/https://www.maipeptide.com/pages/coas)
+
+  * [ Contact Us ](/web/20250410133957/https://www.maipeptide.com/pages/contact)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 216-216
+[QUOTE]
+"© 2025 Tirz-peptide"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 44-46
+[QUOTE]
+"[ Peptide ](/web/20250410133957/https://www.maipeptide.com/collections/peptide)
+    * [ Oil ](/web/20250410133957/https://www.maipeptide.com/collections/oil)
+    * [ Tablets ](/web/20250410133957/https://www.maipeptide.com/collections/tablets)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / product_page_anatomy.coa_hosting
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 17-17
+[QUOTE]
+"[ COAS ](/web/20250410133957/https://www.maipeptide.com/pages/coas)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 213-213
+[QUOTE]
+"[ Terms of service ](/web/20250410133957/https://www.maipeptide.com/pages/terms-of-service)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 182-183
+[QUOTE]
+"3.What are your payment terms?
+
+A: We can accept various payment methods, Western Union, T/T, BTC (Bitcoin),Paypal etc."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 188-190
+[QUOTE]
+"5.How about the delivery time?
+
+A: The delivery time is about 7-15 days after confirming the payment. Delivery times vary from country to country,and the airline,we ship by express special line, door to door, including custom clearance.If parcel lost, we guarantee do reship."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] shopify
+[REASONING]
+The archived URLs contain Shopify-style product URL patterns (e.g., /products/semaglutide-17245142, /collections/peptide) and account paths (/account/login, /account/register) consistent with Shopify's routing conventions. The footer also uses standard Shopify page URL structure (/pages/terms-of-service, /pages/privacy-policy).
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 88-88
+"/web/20250410133957/https://www.maipeptide.com/products/semaglutide-17245142"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 29-29
+"[Log in](/web/20250410133957/https://www.maipeptide.com/account/login)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 199-213
+[QUOTE]
+"COMPANY INFORMATION
+
+  * [ FAQ ](/web/20250410133957/https://www.maipeptide.com/pages/faq)
+  * [ COAS ](/web/20250410133957/https://www.maipeptide.com/pages/coas)
+  * [ About Us ](/web/20250410133957/https://www.maipeptide.com/pages/about-us)
+  * [ Contact ](/web/20250410133957/https://www.maipeptide.com/pages/contact)
+
+
+
+POLICY INFORMATION
+
+  * [ Privacy Policy ](/web/20250410133957/https://www.maipeptide.com/pages/privacy-policy)
+  * [ Refund Policy ](/web/20250410133957/https://www.maipeptide.com/pages/refund-policy)
+  * [ Shipping & Delivery ](/web/20250410133957/https://www.maipeptide.com/pages/shipping-delivery)
+  * [ Terms of service ](/web/20250410133957/https://www.maipeptide.com/pages/terms-of-service)"
+[/QUOTE]
+
+[CLAIM] skus[0].list_price_usd (Semaglutide from $60)
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 90-92
+[QUOTE]
+"###  [33](/web/20250410133957/https://www.maipeptide.com/products/semaglutide-17245142)
+
+[ from $60.00 ](/web/20250410133957/https://www.maipeptide.com/products/semaglutide-17245142)"
+[/QUOTE]
+
+[CLAIM] skus[1].list_price_usd (TIRZ/Tirzepatide from $85, sale from $90)
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 94-98
+[QUOTE]
+"  * [ ](/web/20250410133957/https://www.maipeptide.com/products/tirz-17245205) [ SALE ](/web/20250410133957/https://www.maipeptide.com/products/tirz-17245205)
+
+###  [42](/web/20250410133957/https://www.maipeptide.com/products/tirz-17245205)
+
+[ from $85.00 ~~$90.00~~ Save $5.00 ](/web/20250410133957/https://www.maipeptide.com/products/tirz-17245205)"
+[/QUOTE]
+
+[CLAIM] skus[2].list_price_usd (Retatrutide from $126)
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 100-104
+[QUOTE]
+"  * [ ](/web/20250410133957/https://www.maipeptide.com/products/retatrutide-17245143)
+
+###  [40](/web/20250410133957/https://www.maipeptide.com/products/retatrutide-17245143)
+
+[ from $126.00 ](/web/20250410133957/https://www.maipeptide.com/products/retatrutide-17245143)"
+[/QUOTE]
+
+[CLAIM] skus[3].list_price_usd (Cagrilintide from $200)
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 106-110
+[QUOTE]
+"  * [ ](/web/20250410133957/https://www.maipeptide.com/products/cagrilintide-17245206)
+
+###  [56](/web/20250410133957/https://www.maipeptide.com/products/cagrilintide-17245206)
+
+[ from $200.00 ](/web/20250410133957/https://www.maipeptide.com/products/cagrilintide-17245206)"
+[/QUOTE]
+
+[CLAIM] skus[4].list_price_usd (AOD9604 $99, sale was $100)
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 112-116
+[QUOTE]
+"  * [ ](/web/20250410133957/https://www.maipeptide.com/products/aod9604-17245255) [ SALE ](/web/20250410133957/https://www.maipeptide.com/products/aod9604-17245255)
+
+###  [NO.50](/web/20250410133957/https://www.maipeptide.com/products/aod9604-17245255)
+
+[ $99.00 ~~$100.00~~ Save $1.00 ](/web/20250410133957/https://www.maipeptide.com/products/aod9604-17245255)"
+[/QUOTE]
+
+[CLAIM] skus[5].list_price_usd / skus[5].dose_value (Tesamorelin 10mg from $120)
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 118-122
+[QUOTE]
+"  * [ ](/web/20250410133957/https://www.maipeptide.com/products/tesamorelin-10mg-17245252)
+
+###  [44](/web/20250410133957/https://www.maipeptide.com/products/tesamorelin-10mg-17245252)
+
+[ from $120.00 ](/web/20250410133957/https://www.maipeptide.com/products/tesamorelin-10mg-17245252)"
+[/QUOTE]
+
+[CLAIM] skus[6].list_price_usd (TB-500 from $85)
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 124-128
+[QUOTE]
+"  * [ ](/web/20250410133957/https://www.maipeptide.com/products/tb-500-17245253)
+
+###  [36](/web/20250410133957/https://www.maipeptide.com/products/tb-500-17245253)
+
+[ from $85.00 ](/web/20250410133957/https://www.maipeptide.com/products/tb-500-17245253)"
+[/QUOTE]
+
+[CLAIM] skus[7].list_price_usd (BPC-157 from $60)
+[URL] https://www.maipeptide.com/
+[FETCHED_AT] 2026-05-08T00:10:21Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/mai-peptide/homepage.md
+[LINE_RANGE] 130-134
+[QUOTE]
+"  * [ ](/web/20250410133957/https://www.maipeptide.com/products/bpc-157-17245204)
+
+###  [47](/web/20250410133957/https://www.maipeptide.com/products/bpc-157-17245204)
+
+[ from $60.00 ](/web/20250410133957/https://www.maipeptide.com/products/bpc-157-17245204)"
+[/QUOTE]

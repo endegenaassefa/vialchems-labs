@@ -1,0 +1,482 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://sigmacompounds.com/
+[FETCHED_AT] 2026-05-08T07:26:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/homepage.md
+[LINE_RANGE] 38-40
+[QUOTE]
+"# Sigma Compounds
+
+## The Premium Peptide Experience"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://sigmacompounds.com/
+[FETCHED_AT] 2026-05-08T07:26:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/homepage.md
+[LINE_RANGE] 42
+[QUOTE]
+"[ Shop Now ](https://sigmacompounds.com/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://sigmacompounds.com/
+[FETCHED_AT] 2026-05-08T07:26:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/homepage.md
+[LINE_RANGE] 831-835
+[QUOTE]
+"At Sigma Compounds, our products are intended solely for research and development purposes and are not for human consumption.
+
+The information on this website has not been reviewed by the U.S. Food and Drug Administration (FDA) and is not intended to diagnose, treat, cure, or prevent any disease.
+
+Sigma Compounds is a chemical supplier and is not a compounding pharmacy or facility under Section 503A of the Federal Food, Drug, and Cosmetic Act, nor an outsourcing facility under Section 503B."
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://sigmacompounds.com/
+[FETCHED_AT] 2026-05-08T07:26:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/homepage.md
+[LINE_RANGE] 9-14
+[QUOTE]
+"  * [Home](https://sigmacompounds.com/)
+  * [About Us](https://sigmacompounds.com/about-us/)
+  * [Contact Us](https://sigmacompounds.com/contact-us/)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://sigmacompounds.com/shop/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/catalog_1.md
+[LINE_RANGE] 1-904
+[QUOTE]
+[ENUMERATION] Counted unique product URLs from 03_raw_fetches/sigma-compounds/catalog_1.md: 68 unique product URLs extracted via grep of https://sigmacompounds.com/products/* pattern.
+[FILES]
+catalog_1.md
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://sigmacompounds.com/shop/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/catalog_1.md
+[LINE_RANGE] 22-75
+[QUOTE]
+"## Peptides
+
+## Single
+
+## Double
+
+## Triple
+
+## Quadruple
+
+## Nasal Sprays
+
+## Single
+
+## Double
+
+## Triple
+
+## Quadruple
+
+## Orals"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://sigmacompounds.com/shop/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/catalog_1.md
+[LINE_RANGE] 84-100
+[QUOTE]
+"[BPC-157/TB-500 (10/10 MG)](https://sigmacompounds.com/products/bpc-157-tb-500-10-10-mg/)
+
+[CJC-1295/Ipamorelin (5/5 MG)](https://sigmacompounds.com/products/cjc-1295-ipamorelin-5-5-mg/)
+
+[TB-500 + BPC-157 (5/5 MG)](https://sigmacompounds.com/products/tb-500-bpc-157-5-5-mg/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://sigmacompounds.com/products/bpc-157/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/product_1__bpc157_5mg.md
+[LINE_RANGE] 47
+[QUOTE]
+"$49.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://sigmacompounds.com/products/bpc-157/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/product_1__bpc157_5mg.md
+[LINE_RANGE] 45-51
+[QUOTE]
+"# BPC-157 (5 MG)
+
+$49.00
+
+3 in stock"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://sigmacompounds.com/products/bpc-157/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/product_1__bpc157_5mg.md
+[LINE_RANGE] 240-248
+[QUOTE]
+"  * Freeze dried powder inside of a sterile 3ml vial.
+  * Butyl rubber stopper for multiple penetrations while maintaining a secure seal.
+  * RTF vials are Depyrogenated, and ETO Sterilized.
+  * Tamper evident aluminum flip top."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://sigmacompounds.com/products/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/product_1__ghkcu50.md
+[LINE_RANGE] 252-254
+[QUOTE]
+"Products are furnished for LABORATORY RESEARCH USE ONLY. This product should only be handled by qualified, and licensed professionals. The product may not be used as a drug, agricultural or pesticidal product, food additive or household chemical – and may not be misbranded as such. All information on this website is available for educational purposes only. Bodily introduction of any kind into humans and/or animals is strictly forbidden by law."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://sigmacompounds.com/products/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/product_1__ghkcu50.md
+[LINE_RANGE] 43
+[QUOTE]
+"[](https://sigmacompounds.com/wp-content/uploads/2025/02/COA_GHK-Cu_50mg_2025-04-02_page-0001-scaled.jpg)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://sigmacompounds.com/products/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/product_1__ghkcu50.md
+[LINE_RANGE] 256-266
+[QUOTE]
+"## Related products
+
+  * ## [Selank (10 MG) $59.00 ](https://sigmacompounds.com/products/selank-10-mg-2/)
+
+  * ## [NAD+ (1000 MG) $139.00 ](https://sigmacompounds.com/products/nad-1000-mg/)
+
+  * ## [Thymosin Alpha-1 (10 MG) $109.00 ](https://sigmacompounds.com/products/thymosin-alpha-110mg/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://sigmacompounds.com/
+[FETCHED_AT] 2026-05-08T07:26:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/homepage.md
+[LINE_RANGE] 1023
+[QUOTE]
+"## Compounds offered on sigmacompounds.com are for research purposes only."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://sigmacompounds.com/
+[FETCHED_AT] 2026-05-08T07:26:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/homepage.md
+[LINE_RANGE] 1016-1031
+[QUOTE]
+"You are not old enough to view this website
+
+You must be 21+ to view our website.
+
+__ Products
+
+## Compounds offered on sigmacompounds.com are for research purposes only.
+
+Are you 21+ years of age & a qualified professional?
+
+Yes
+
+No
+
+By proceeding, you affirm that you are at least 21 years old and possess the qualifications of a trained professional."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://sigmacompounds.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T07:32:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/tos.md
+[LINE_RANGE] 1
+[QUOTE]
+"# Terms of Service"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://sigmacompounds.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T07:32:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/tos.md
+[LINE_RANGE] 4-16
+[QUOTE]
+"## Products for Research and Laboratory Use Only
+
+  1. All products listed on our website or promoted through any of our social media platforms are for research and laboratory purposes only. They are not for drug, household, or other unauthorised purposes. Using these products is unauthorised by the FDA and may lead to harmful consequences.
+  2. All products listed on our website or promoted on our social media channels are strictly for research and laboratory use. They are not intended for drug, human consumption or any other unauthorised purposes. Using these products is unauthorised by the FDA and may lead to adverse effects."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://sigmacompounds.com/refund_returns/
+[FETCHED_AT] 2026-05-08T07:32:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/refund.md
+[LINE_RANGE] 36
+[QUOTE]
+"# Refund and Returns Policy
+
+www.sigmacompounds.com does not accept returns and all sales on this website are final."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://sigmacompounds.com/about-us/
+[FETCHED_AT] 2026-05-08T07:31:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/about.md
+[LINE_RANGE] 73-77
+[QUOTE]
+"####  Shipping
+
+Mon - Fri except holidays
+
+Orders placed and paid after 12PM PST are shipped the following business day."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://sigmacompounds.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T07:32:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/tos.md
+[LINE_RANGE] 68-76
+[QUOTE]
+"## Payment Methods
+
+Sigma Compounds accepts a variety of payment methods for the convenience of our users, including but not limited to:
+
+  * Credit and Debit Cards (Visa, MasterCard, American Express)
+  * Bank Transfer
+  * Online Wallets (where applicable)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://sigmacompounds.com/products/bpc-157/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/product_1__bpc157_5mg.md
+[LINE_RANGE] 53-55
+[QUOTE]
+"###  100% Satisfaction Guaranteed
+
+###  Free Shipping"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://sigmacompounds.com/
+[FETCHED_AT] 2026-05-08T07:30:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/tech_stack_signals.md
+[LINE_RANGE] 14-15
+[QUOTE]
+"Platform: woocommerce (meta name="generator" content="WooCommerce 10.5.3")
+Platform: wordpress (meta name="generator" content="WordPress 6.9.1")"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://sigmacompounds.com/
+[FETCHED_AT] 2026-05-08T07:30:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/tech_stack_signals.md
+[LINE_RANGE] 9-10
+[QUOTE]
+"x-litespeed-cache: hit
+server: LiteSpeed"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://sigmacompounds.com/
+[FETCHED_AT] 2026-05-08T07:30:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/tech_stack_signals.md
+[LINE_RANGE] 16-17
+[QUOTE]
+"Analytics: GTM-PM3KH77H (Google Tag Manager ID)
+Analytics: G-1000, G-295 (Google Analytics IDs)"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://sigmacompounds.com/
+[FETCHED_AT] 2026-05-08T07:30:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/tech_stack_signals.md
+[LINE_RANGE] 18-20
+[QUOTE]
+"Pixel: PixelYourSite Free version 11.2.0.4 (Facebook pixel manager)
+Pixel: facebook.net (connect.facebook.net DNS prefetch)
+Email: omnisend (meta name="omnisend-site-verification" content="6893c3f1cfa3b70cffc6665a")"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://sigmacompounds.com/
+[FETCHED_AT] 2026-05-08T07:30:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/tech_stack_signals.md
+[LINE_RANGE] 21
+[QUOTE]
+"Chat: Tidio (link rel="preconnect" href="//code.tidio.co")"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://sigmacompounds.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T07:32:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/tos.md
+[LINE_RANGE] 159
+[QUOTE]
+"The exclusive jurisdiction and venue of any legal action or proceeding with respect to the subject matter of this Terms of Service Bundle or any clause or provision herein shall be to the applicable laws of the State of Kansas and under the Courts of the State of Kansas"
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2023
+[REASONING]
+The homepage JSON-LD schema block contains datePublished: 2023-08-24T17:51:55+00:00 indicating the site was first published in August 2023. Additionally, the site logo and favicon were uploaded under /2023/08/ and /2023/11/ paths respectively, consistent with a 2023 launch date.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://sigmacompounds.com/
+[FETCHED_AT] 2026-05-08T07:30:16Z
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/source_homepage.md
+[LINE_RANGE] 12
+"[ ![](https://sigmacompounds.com/wp-content/uploads/2023/08/Logo-png-1.png)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://sigmacompounds.com/
+[FETCHED_AT] 2026-05-08T07:30:16Z
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/source_homepage.md
+[LINE_RANGE] 241
+"content/uploads/2023/09/BPC-157-Front-2-scaled-1000x1102.jpg)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[0].list_price_usd (BPC-157 5 MG)
+[URL] https://sigmacompounds.com/products/bpc-157/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/product_1__bpc157_5mg.md
+[LINE_RANGE] 45-51
+[QUOTE]
+"# BPC-157 (5 MG)
+
+$49.00
+
+3 in stock"
+[/QUOTE]
+
+[CLAIM] skus[1].list_price_usd (BPC-157 10 MG)
+[URL] https://sigmacompounds.com/products/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/product_1__bpc157_10mg.md
+[LINE_RANGE] 43-50
+[QUOTE]
+"# BPC-157 (10 MG)
+
+$79.00"
+[/QUOTE]
+
+[CLAIM] skus[2].list_price_usd (TB-500 10 MG)
+[URL] https://sigmacompounds.com/products/tb-500-10-mg-2/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/product_1__tb500.md
+[LINE_RANGE] 37-43
+[QUOTE]
+"# TB-500 (10 MG)
+
+$119.00
+
+Out of stock"
+[/QUOTE]
+
+[CLAIM] skus[3].list_price_usd (GHK-Cu 50 MG)
+[URL] https://sigmacompounds.com/products/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/product_1__ghkcu50.md
+[LINE_RANGE] 45-51
+[QUOTE]
+"# GHK-Cu (50 MG)
+
+$69.00
+
+18 in stock"
+[/QUOTE]
+
+[CLAIM] skus[4].list_price_usd (MOTS-C 10 MG)
+[URL] https://sigmacompounds.com/products/mots-c/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/product_2__motsc.md
+[LINE_RANGE] 45-51
+[QUOTE]
+"# MOTS-C (10 MG)
+
+$89.00
+
+39 in stock"
+[/QUOTE]
+
+[CLAIM] skus[5].list_price_usd (Epithalon 10 MG)
+[URL] https://sigmacompounds.com/products/epithalon-10-mg/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/product_2__epithalon.md
+[LINE_RANGE] 43-49
+[QUOTE]
+"# Epithalon (10 MG)
+
+$76.50
+
+4 in stock"
+[/QUOTE]
+
+[CLAIM] skus[6].list_price_usd (Selank 10 MG)
+[URL] https://sigmacompounds.com/products/selank-10-mg-2/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/product_2__selank.md
+[LINE_RANGE] 37-43
+[QUOTE]
+"# Selank (10 MG)
+
+$59.00
+
+9 in stock"
+[/QUOTE]
+
+[CLAIM] skus[7].list_price_usd (Semax 10 MG)
+[URL] https://sigmacompounds.com/products/semax-vial-10mg/
+[FETCHED_AT] 2026-05-08T07:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/sigma-compounds/product_2__semax.md
+[LINE_RANGE] 43-49
+[QUOTE]
+"# Semax (10 MG)
+
+$59.00
+
+Out of stock"
+[/QUOTE]

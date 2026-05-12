@@ -1,0 +1,59 @@
+[CLAIM] country_of_operation
+[URL] https://www.govinfo.gov/content/pkg/FR-2023-10-25/html/2023-23584.htm
+[FETCHED_AT] 2026-05-08T08:17:19Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/super-human-store/federal_register_itc_2023.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"    Poland; Super Human Store of Spain; Supopeptide of Cedar Grove, NJ; "
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.govinfo.gov/content/pkg/FR-2024-05-28/html/2024-11534.htm
+[FETCHED_AT] 2026-05-08T08:18:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/super-human-store/federal_register_itc_2024_amendment.md
+[LINE_RANGE] 69-70
+[QUOTE]
+"    Steroide Kaufen of Bialystok, Poland; Super Human Store of Barcelona, "
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.govinfo.gov/content/pkg/FR-2023-10-25/html/2023-23584.htm
+[FETCHED_AT] 2026-05-08T08:17:19Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/super-human-store/federal_register_itc_2023.md
+[LINE_RANGE] 54-55
+[QUOTE]
+"    the Tariff Act of 1930 (19 U.S.C. 1337) in the importation into the "
+[/QUOTE]
+
+[CLAIM] fetch_status (homepage expired — site dead)
+[URL] https://superhumanstore.com
+[FETCHED_AT] 2026-05-08T08:14:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/super-human-store/homepage_expired.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"This domain is expired. If you are the owner and you want to renew it [please contact your registrar](http://expired.topdns.com)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators (reviews.io confirmed present, 1.0/5 rating, 4 reviews)
+[URL] https://www.reviews.io/company-reviews/store/superhumanstore-com
+[FETCHED_AT] 2026-05-08T08:19:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/super-human-store/reviews_io.md
+[LINE_RANGE] 30-30
+[QUOTE]
+"**1.0** Rating  **4** Reviews "
+[/QUOTE]
+
+[CLAIM] tier_rationale (defunct — ITC default finding)
+[URL] https://www.govinfo.gov/content/pkg/FR-2024-05-28/html/2024-11534.htm
+[FETCHED_AT] 2026-05-08T08:18:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/super-human-store/federal_register_itc_2024_amendment.md
+[LINE_RANGE] 82-85
+[QUOTE]
+"    Limited; Mew Mews Co. Ltd.; Strate Labs LLC; Super Human Store; "
+[/QUOTE]

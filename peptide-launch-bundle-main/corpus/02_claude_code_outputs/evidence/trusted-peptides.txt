@@ -1,0 +1,342 @@
+[CLAIM] fetch_status / fetched_url / fetched_at
+[URL] https://trustedpeptides.store
+[FETCHED_AT] 2026-05-08T08:27:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/homepage.md
+[LINE_RANGE] 1-7
+[QUOTE]
+"url: https://trustedpeptides.store
+fetched_at: 2026-05-08T08:27:51Z
+fetch_method: curl
+http_status: 200"
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://trustedpeptides.store
+[FETCHED_AT] 2026-05-08T08:27:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/homepage.md
+[LINE_RANGE] 59-60
+[QUOTE]
+"High-quality research compound for laboratory use. Reliable, precise, and tested for purity. Ideal for experimental purposes."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://trustedpeptides.store
+[FETCHED_AT] 2026-05-08T08:27:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/homepage.md
+[LINE_RANGE] 62
+[QUOTE]
+"[SHOP NOW](/collections/peptides)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://trustedpeptides.store
+[FETCHED_AT] 2026-05-08T08:27:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/homepage.md
+[LINE_RANGE] 10-13
+[QUOTE]
+"[ Home ](/)
+  * [ Shop ](/collections)
+  * [ Contact ](/pages/contact)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://trustedpeptides.store
+[FETCHED_AT] 2026-05-08T08:27:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/homepage.md
+[LINE_RANGE] 317-319
+[QUOTE]
+"© 2026,
+
+[Trusted Peptides ](/). "
+[/QUOTE]
+
+[CLAIM] catalog.sku_count / catalog.category_taxonomy / catalog.search_filter_capabilities
+[URL] https://www.trustedpeptides.store/collections/all
+[FETCHED_AT] 2026-05-08T08:29:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/catalog_3.md
+[LINE_RANGE] 69-76
+[QUOTE]
+"In stock (39)  In stock (39 products)
+  * Out of stock (6)  Out of stock (6 products)
+##  42 products "
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.trustedpeptides.store/collections
+[FETCHED_AT] 2026-05-08T08:28:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/catalog_1.md
+[LINE_RANGE] 63-65
+[QUOTE]
+"###  [Peptide Blends ](/collections/peptide-blends)
+
+###  [Peptide Blends ](/collections/peptide-blends)"
+[/QUOTE]
+
+[CLAIM] skus[] — catalog prices BPC-157, TB-500, GHK-Cu, Ipamorelin, PT-141, Selank, MOTS-C, IGF-LR3, AOD-9604, SS-31, CJC-1295/Ipamorelin
+[URL] https://www.trustedpeptides.store/collections/all
+[FETCHED_AT] 2026-05-08T08:29:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/catalog_3.md
+[LINE_RANGE] 79-120
+[QUOTE]
+"[ AOD-9604 (5MG) ](/products/aod-9604-5mg)
+Regular price $50.00 USD
+[ BPC-157 (10mg) ](/products/bpc-157-10mg)
+Regular price $60.00 USD
+[ BPC-157 (5mg) ](/products/bpc-157-5mg)
+Regular price $35.00 USD
+[ GHK-CU (50mg) ](/products/ghk-cu-50mg)
+[ MOTS-C (10mg) ](/products/mots-c-10mg)
+Regular price $50.00 USD
+[ Ipamorelin (5mg) ](/products/ipamorelin-5mg)
+Regular price $40.00 USD
+[ PT-141 (10mg) ](/products/pt-141-10mg)
+Regular price $40.00 USD
+[ IGF-LR3 (1mg) ](/products/igf-lr3-1mg)
+Regular price $80.00 USD
+[ SS-31 ](/products/ss-31-10mg)
+[ Selank (10mg) ](/products/selank-10mg-1)
+Regular price $35.00 USD"
+[/QUOTE]
+
+[CLAIM] skus[] — BPC-157 500mcg capsules price
+[URL] https://trustedpeptides.store
+[FETCHED_AT] 2026-05-08T08:27:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/homepage.md
+[LINE_RANGE] 151-158
+[QUOTE]
+"###  [ BPC-157 500mcg Capsules (Arginine salt) ](/products/bpc-157-500mcg-capsules-arginine-salt)
+
+###  [ BPC-157 500mcg Capsules (Arginine salt) ](/products/bpc-157-500mcg-capsules-arginine-salt)
+
+Regular price $99.00 USD "
+[/QUOTE]
+
+[CLAIM] skus[] — homepage best sellers prices (TB-500/BPC-157 blend, CJC/Ipamorelin, NAD+, GHK-CU)
+[URL] https://trustedpeptides.store
+[FETCHED_AT] 2026-05-08T08:27:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/homepage.md
+[LINE_RANGE] 83-130
+[QUOTE]
+"[ TB-500/BPC-157 (5mg/5mg) ](/products/tb-500-bpc-157-5mg-5mg-1)
+Regular price $65.00 USD
+[ CJC-1295/Ipamorelin ](/products/cjc-1295-ipamorelin-5mg-5mg)
+Regular price From $70.00 USD
+[ NAD+ (500mg) ](/products/nad-500mg)
+Regular price $60.00 USD
+[ GHK-CU (50mg) ](/products/ghk-cu-50mg)
+Regular price From $40.00 USD"
+[/QUOTE]
+
+[CLAIM] skus[] — nasal sprays: Semax, GLOW blend, GLP-1(R), GLP-1(T), GLP-1(S)
+[URL] https://trustedpeptides.store
+[FETCHED_AT] 2026-05-08T08:27:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/homepage.md
+[LINE_RANGE] 182-230
+[QUOTE]
+"[ Sermorelin (10mg) ](/products/sermorelin-10mg)
+Regular price $70.00 USD
+[ PT-141/Oxytocin (10/5mg) ](/products/pt-141-oxytocin-10-5mg)
+Regular price $95.00 USD
+[ Semax (10mg) ](/products/semax-10mg)
+Regular price $55.00 USD
+[ NAD+ (1000mg) ](/products/nad-1000mg)
+Regular price $99.99 USD"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://trustedpeptides.store
+[FETCHED_AT] 2026-05-08T08:27:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/homepage.md
+[LINE_RANGE] 134-136
+[QUOTE]
+"### **FREE SHIPPING**
+
+Orders over $150 receive free shipping."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://trustedpeptides.store
+[FETCHED_AT] 2026-05-08T08:27:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/homepage.md
+[LINE_RANGE] 268-269
+[QUOTE]
+"Currently we offer shipping services only for US and CANADA."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.trustedpeptides.store/policies/terms-of-service
+[FETCHED_AT] 2026-05-08T08:28:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/tos.md
+[LINE_RANGE] 98-103
+[QUOTE]
+"#### Payment Methods
+
+  * Invoice (pay by card)
+
+
+
+All transactions are **secured and encrypted** to protect your financial information."
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing / product_page_anatomy.exact_disclaimer_language
+[URL] https://www.trustedpeptides.store/policies/terms-of-service
+[FETCHED_AT] 2026-05-08T08:28:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/tos.md
+[LINE_RANGE] 67-72
+[QUOTE]
+"All products listed on our website or promoted through any of our social media platforms are **strictly for research and laboratory use only**. They are **not** intended for drug, human consumption, household, or other unauthorized purposes. Use of these products for unapproved applications is unauthorized by the **FDA** and may lead to harmful consequences."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://www.trustedpeptides.store/policies/terms-of-service
+[FETCHED_AT] 2026-05-08T08:28:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/tos.md
+[LINE_RANGE] 81-85
+[QUOTE]
+"#### Eligibility and Age Restrictions
+
+  * Only individuals who are **at least 21 years old** or the **age of majority** in their jurisdiction, whichever is greater, can make a purchase."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / trust_compliance.tos_highlights
+[URL] https://www.trustedpeptides.store/policies/terms-of-service
+[FETCHED_AT] 2026-05-08T08:28:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/tos.md
+[LINE_RANGE] 59-65
+[QUOTE]
+"**In addition, you agree to our Messaging Terms (https://terms.pscr.pt/legal/shop/ardcbz-pm/terms_of_service) and Messaging Privacy Policy (https://terms.pscr.pt/legal/shop/ardcbz-pm/privacy_policy).
+
+Introduction** This Terms of Service governs the use of **Trusted Peptides** website (**www.trustedpeptides.store**), products, and all its relevant social media platforms."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.trustedpeptides.store/policies/refund-policy
+[FETCHED_AT] 2026-05-08T08:29:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/refund.md
+[LINE_RANGE] 68-73
+[QUOTE]
+"Due to the **sensitive nature** of our products for research and lab use, all purchases are **final** and **non-refundable**.
+  * **No returns or refunds** are permitted unless the product received differs from what was ordered.
+  * If an item is received **damaged or incorrect** , contact **customer service at[info@trustedpeptides.store](mailto:info@trustedpeptides.store)** **immediately** for assistance."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://www.trustedpeptides.store/
+[FETCHED_AT] 2026-05-08T08:29:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/source_homepage.md
+[LINE_RANGE] 5-8
+[QUOTE]
+"Platform: Shopify (confirmed by multiple signals)
+- Shopify.shop = "ardcbz-pm.myshopify.com"
+- Shopify.theme = {"name":"Dawn","id":140328239171,"schema_name":"Dawn","schema_version":"15.4.1","theme_store_id":887}
+- powered-by: Shopify (response header)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://www.trustedpeptides.store/
+[FETCHED_AT] 2026-05-08T08:29:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/source_homepage.md
+[LINE_RANGE] 9-12
+[QUOTE]
+"CDN: Cloudflare + Shopify CDN
+- cf-ray header: 9f8718e468a3efe7-IAD
+- cdn.shopify.com for assets"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded / tech_stack.marketing_pixels_present
+[URL] https://www.trustedpeptides.store/
+[FETCHED_AT] 2026-05-08T08:29:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/source_homepage.md
+[LINE_RANGE] 13-22
+[QUOTE]
+"Analytics/Marketing Apps loaded:
+- GoAffPro (affiliate program): api.goaffpro.com/loader.js?shop=ardcbz-pm.myshopify.com
+- Postscript SMS: sdk.postscript.io/sdk-script-loader.bundle.js?shopId=872835
+- Mega SEO by GoMega: cdn.gomega.ai/scripts/optimizer.min.js
+- Google Site Verification: ptnMLduJu26Q9eyhZcoiZvpdZqRX6DmWsgu8SlcrVLw"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://www.trustedpeptides.store/
+[FETCHED_AT] 2026-05-08T08:29:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/source_homepage.md
+[LINE_RANGE] 23-27
+[QUOTE]
+"No chat widget detected (no Intercom, Tawk, Crisp, Drift, Gorgias)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.blog_url / content_footprint.content_cadence / content_footprint.topic_taxonomy / content_footprint.author_bylines_present
+[URL] https://www.trustedpeptides.store/blogs/news
+[FETCHED_AT] 2026-05-08T08:30:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/blog_1.md
+[LINE_RANGE] 59-133
+[QUOTE]
+"###  [ A Researcher's Guide to Buy Semax for Laborator... ](/blogs/news/buy-semax-for-laboratory-use)
+
+May 7, 2026
+
+Find out how to buy Semax for laboratory use with confidence.
+
+###  [ Buy BPC-157 for Research: A 7-Point Checklist ](/blogs/news/buy-bpc-157-for-research)
+
+May 7, 2026
+
+###  [ The Buyer's Guide to Research Grade PT-141 Spray ](/blogs/news/buy-pt141-spray-guide)
+
+May 7, 2026
+
+###  [ The Essential Guide to BPC-157 500mcg Capsules ](/blogs/news/bpc-157-500mcg-capsules-guide)
+
+May 4, 2026
+
+  * 1
+  * [2](/blogs/news?page=2)
+  * [3](/blogs/news?page=3)
+  * …
+  * [8](/blogs/news?page=8)"
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2024
+[REASONING]
+The current Shopify site shows "© 2026" in the footer, but the Wayback Machine snapshot from April 2025 (fetched_at 20250403045103) shows a WooCommerce-based version of the site with footer text "© 2024 Trustedpeptides . All rights reserved", confirming the brand was live by 2024. No earlier archive snapshot was found.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/2025/https://trustedpeptides.store
+[FETCHED_AT] 2026-05-08T08:30:30Z
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/wayback_2025.md
+[LINE_RANGE] 374
+"© 2024 Trustedpeptides . All rights reserved"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://trustedpeptides.store
+[FETCHED_AT] 2026-05-08T08:27:51Z
+[RAW_ARTIFACT] 03_raw_fetches/trusted-peptides/homepage.md
+[LINE_RANGE] 317-319
+"© 2026,
+
+[Trusted Peptides ](/). "
+[/SUPPORT_QUOTE]

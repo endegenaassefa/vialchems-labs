@@ -1,0 +1,773 @@
+[CLAIM] country_of_operation
+[URL] https://web.archive.org/web/20260419144111/https://purerawz.co/shop/
+[FETCHED_AT] 2026-05-07T03:00:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/catalog_1.md
+[LINE_RANGE] 50-51
+[QUOTE]
+Founded in 2018, PureRawz is a U.S.-based company that supplies high-quality research compounds. We focus on purity, transparency, and fast service. Our products are for research use only.
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://web.archive.org/web/20260419144111/https://purerawz.co/shop/
+[FETCHED_AT] 2026-05-07T03:00:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/catalog_1.md
+[LINE_RANGE] 50-51
+[QUOTE]
+Founded in 2018, PureRawz is a U.S.-based company that supplies high-quality research compounds. We focus on purity, transparency, and fast service. Our products are for research use only.
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20260103224412/https://purerawz.co/
+[FETCHED_AT] 2026-05-07T03:00:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+🔥 **WE HAVE THE BEST COMPOUNDS ON THE PLANET**
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE]
+[SUPPORT_QUOTE]
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/homepage.md
+[LINE_RANGE] 8-8
+🔥 **WE HAVE THE BEST COMPOUNDS ON THE PLANET**
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/catalog_1.md
+[LINE_RANGE] 8-8
+🔥 **WE HAVE THE BEST COMPOUNDS ON THE PLANET**
+[/SUPPORT_QUOTE]
+[REASONING] Hero banner uses fire emoji and superlative all-caps "BEST COMPOUNDS ON THE PLANET" — meme-coded aggressive hype posture, not clinical or lifestyle photography register.
+[/INFERENCE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20260103224412/https://purerawz.co/
+[FETCHED_AT] 2026-05-07T03:00:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/homepage.md
+[LINE_RANGE] 35-37
+[QUOTE]
+  * [ Shop All  ](/web/20260103224412/https://purerawz.co/shop/) __ Close Shop All __ Open Shop All
+
+[SHOP ALL](/web/20260103224412/https://purerawz.co/shop/)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20260419144111/https://purerawz.co/shop/
+[FETCHED_AT] 2026-05-07T03:00:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/catalog_1.md
+[LINE_RANGE] 25-34
+[QUOTE]
+  * [ Shop All  ](https://web.archive.org/web/20260419144111/https://purerawz.co/shop/)
+
+  * [ Peptides  ](https://web.archive.org/web/20260419144111/https://purerawz.co/product-category/peptides/)
+
+  * [ Nootropics  ](https://web.archive.org/web/20260419144111/https://purerawz.co/product-category/nootropics/)
+
+  * [ Sarms  ](https://web.archive.org/web/20260419144111/https://purerawz.co/product-category/sarms/)
+[/QUOTE]
+[URL] https://web.archive.org/web/20260419144111/https://purerawz.co/shop/
+[FETCHED_AT] 2026-05-07T03:00:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/catalog_1.md
+[LINE_RANGE] 231-232
+[QUOTE]
+  * [ (214) 702-9022 ](https://web.archive.org/web/20260419144111/tel:\(214\)%20702-9022)
+  * |
+  * [ support@purerawz.co ](https://web.archive.org/web/20260419144111/mailto:support@purerawz.co)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20260419144111/https://purerawz.co/shop/
+[FETCHED_AT] 2026-05-07T03:00:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/catalog_1.md
+[LINE_RANGE] 183-183
+[QUOTE]
+All products sold on this website are intended for research and identification purposes only. These products are not intended for human dosing, injection, or ingestion.
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/20260419144111/https://purerawz.co/shop/
+[FETCHED_AT] 2026-05-07T03:00:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/catalog_1.md
+[LINE_RANGE] 146-148
+[QUOTE]
+Showing 1–12 of 374 resultsSorted by popularity
+
+__ Sort by popularity Sort by latest Sort by price: low to high Sort by price: high to low
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/20260419144111/https://purerawz.co/shop/
+[FETCHED_AT] 2026-05-07T03:00:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/catalog_1.md
+[LINE_RANGE] 25-34
+[QUOTE]
+  * [ Shop All  ](https://web.archive.org/web/20260419144111/https://purerawz.co/shop/)
+
+  * [ Peptides  ](https://web.archive.org/web/20260419144111/https://purerawz.co/product-category/peptides/)
+
+  * [ Nootropics  ](https://web.archive.org/web/20260419144111/https://purerawz.co/product-category/nootropics/)
+
+  * [ Sarms  ](https://web.archive.org/web/20260419144111/https://purerawz.co/product-category/sarms/)
+[/QUOTE]
+[URL] https://web.archive.org/web/20260103224412/https://purerawz.co/
+[FETCHED_AT] 2026-05-07T03:00:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/homepage.md
+[LINE_RANGE] 92-148
+[QUOTE]
+[ Shop All Injectables ](/web/20260103224412/https://purerawz.co/product-category/injectables/)
+
+Transdermals
+
+____
+
+    * [ __ Nephilim'D Transdermal (S-23 + YK-11 + LGD-4033 + 5a Hydroxy Laxogenin) ](/web/20260103224412/https://purerawz.co/product/nephilimd/)
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://web.archive.org/web/20260103224412/https://purerawz.co/
+[FETCHED_AT] 2026-05-07T03:00:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/homepage.md
+[LINE_RANGE] 190-198
+[QUOTE]
+Top Stacks
+
+____
+
+    * [ __ Restore Capsules (BPC-157 Arginine + Osthole 98% + 5a-hydroxy Laxogenin) ](/web/20260103224412/https://purerawz.co/product/restore-capsules-bpc-157-arginine-osthole-98-5a-hydroxy-laxogenin/)
+    * [ __ Klymene Stack (LGD-4033 + MK-2866 + MK-677) ](/web/20260103224412/https://purerawz.co/product/klymene-stack-lgd-4033-ostarine-mk-677/)
+    * [ __ XUL Stack (GW-501516 + RAD-140) ](/web/20260103224412/https://purerawz.co/product/xul-stack-gw-501516-rad-140/)
+    * [ __ Narcis Stack (YK-11 + GW-501516 + MK-677) ](/web/20260103224412/https://purerawz.co/product/narcis-stack-yk-11-gw-501516-mk-677/)
+    * [ __ Kraken Stack (LGD-4033 + YK-11 + S23) ](/web/20260103224412/https://purerawz.co/product/lgd-4033-yk-11-s23-formula/)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://web.archive.org/web/20260419144153/https://purerawz.co/product/bpc-157/
+[FETCHED_AT] 2026-05-07T03:01:37Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_1__bpc-157.md
+[LINE_RANGE] 155-157
+[QUOTE]
+# BPC-157
+
+$68.27 – $412.61Price range: $68.27 through $412.61
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://web.archive.org/web/20260419144153/https://purerawz.co/product/bpc-157/
+[FETCHED_AT] 2026-05-07T03:01:37Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_1__bpc-157.md
+[LINE_RANGE] 175-177
+[QUOTE]
+Form |  Choose an optionPeptideNasal SpraySublingual Tablets
+---|---
+Strength |  Choose an option400mcg/60ct/24mg400mcg/120ct/48mg5mg10mg100mcg/spray = 10mg totalClear
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://web.archive.org/web/20260419144153/https://purerawz.co/product/bpc-157/
+[FETCHED_AT] 2026-05-07T03:01:37Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_1__bpc-157.md
+[LINE_RANGE] 157-157
+[QUOTE]
+$68.27 – $412.61Price range: $68.27 through $412.61
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://web.archive.org/web/20260419144153/https://purerawz.co/product/bpc-157/
+[FETCHED_AT] 2026-05-07T03:01:37Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_1__bpc-157.md
+[LINE_RANGE] 197-199
+[QUOTE]
+BPC-157 is a synthetic peptide fragment that is derived from a naturally occurring protein found in gastric juice. Researchers believe that the active ingredient in this compound is pentadecapeptide, which is composed of 15 amino acids.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20260419144153/https://purerawz.co/product/bpc-157/
+[FETCHED_AT] 2026-05-07T03:01:37Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_1__bpc-157.md
+[LINE_RANGE] 236-238
+[QUOTE]
+This information is for educational purposes only and not medical advice. Products are for research use only. Research must follow IRB or IACUC guidelines. Verify information independently before purchasing. By ordering, you agree to our [Terms and Conditions]
+
+**ATTENTION:** All our products are for LABORATORY AND RESEARCH PURPOSES ONLY, not for veterinary or human
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://web.archive.org/web/20260419144153/https://purerawz.co/product/bpc-157/
+[FETCHED_AT] 2026-05-07T03:01:37Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_1__bpc-157.md
+[LINE_RANGE] 188-191
+[QUOTE]
+  * Description
+  * COA
+  * How to Pay
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://web.archive.org/web/20260419144359/https://purerawz.co/certificate-of-analysis/
+[FETCHED_AT] 2026-05-07T10:05:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/coa_1.md
+[LINE_RANGE] 174-174
+[QUOTE]
+[](https://web.archive.org/web/20260419144359/https://purerawz.co/wp-content/uploads/2023/09/COA_BPC-157_lot-PRWZ-051_2023-08-23_PR1-1.png)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://web.archive.org/web/20250809150411/https://purerawz.co/product/tirzepatide/
+[FETCHED_AT] 2026-05-07T03:06:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_4__tirzepatide.md
+[LINE_RANGE] 1361-1364
+[QUOTE]
+Rated **4.71** out of 5 based on 7 customer ratings
+
+(7 customer reviews)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://web.archive.org/web/20260419144153/https://purerawz.co/product/bpc-157/
+[FETCHED_AT] 2026-05-07T03:01:37Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_1__bpc-157.md
+[LINE_RANGE] 246-252
+[QUOTE]
+## Related products
+
+  * ## [IGF-1 LR3 $47.59 – $371.18Price range: $47.59 through $371.18 ](https://web.archive.org/web/20260419144153/https://purerawz.co/product/igf-1-lr3/)[Select options](https://web.archive.org/web/20260419144153/https://purerawz.co/product/igf-1-lr3/) This product has multiple variants. The options may be chosen on the product page  Quick viewAdd to wishlist
+  * ## [Thymalin $76.92 – $321.92Price range: $76.92 through $321.92 ](https://web.archive.org/web/20260419144153/https://purerawz.co/product/thymalin/)[Select options](https://web.archive.org/web/20260419144153/https://purerawz.co/product/thymalin/) This product has multiple variants. The options may be chosen on the product page  Quick viewBrowse wishlist
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://web.archive.org/web/20260419165929/https://purerawz.co/product/tb-500/
+[FETCHED_AT] 2026-05-07T03:02:06Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_2__tb-500.md
+[LINE_RANGE] 253-254
+[QUOTE]
+**ATTENTION: All our products are for LABORATORY AND RESEARCH PURPOSES ONLY, not for veterinary or human use.**
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://web.archive.org/web/20260419144111/https://purerawz.co/shop/
+[FETCHED_AT] 2026-05-07T03:00:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/catalog_1.md
+[LINE_RANGE] 237-248
+[QUOTE]
+#### Please Confirm Your Age
+
+We require visitors to be 21 years old or over, please verify below.
+
+IMPORTANT: Research Use Only
+
+By entering this website, you acknowledge that all products sold by Purerawz are intended strictly for research purposes only. They are not for human or animal consumption, medical use, or any use not permitted by applicable law.
+
+Are you over 21 years of age?
+
+Yes No
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://web.archive.org/web/20260419144111/https://purerawz.co/shop/
+[FETCHED_AT] 2026-05-07T03:00:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/catalog_1.md
+[LINE_RANGE] 249-249
+[QUOTE]
+I confirm that I am accessing this site for lawful research purposes only and agree not to use any products for human or animal consumption or any unauthorized use.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://web.archive.org/web/20260104033948/https://purerawz.co/terms-conditions/
+[FETCHED_AT] 2026-05-07T10:01:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/tos.md
+[LINE_RANGE] 501-509
+[QUOTE]
+You understand and affirmatively agree that all purerawz.co materials are sold strictly for scientific research and development purposes ONLY, and are not intended for therapeutic or diagnostic use.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://web.archive.org/web/20260104033948/https://purerawz.co/terms-conditions/
+[FETCHED_AT] 2026-05-07T10:01:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/tos.md
+[LINE_RANGE] 507-509
+[QUOTE]
+You understand and affirmatively agree that materials bought through purerawz.co could be classified by certain regulatory agencies as unapproved new drugs if they were to be sold for the purpose of consumption by and/or administration to humans, but by continuing to access the purerawz.co website, and/or by making a purchase on purerawz.co, you specifically agree and confirm that you will NOT purchase nor use any purerawz product for the purpose of consumption by yourself or other humans, or administration to yourself or other humans.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://web.archive.org/web/20260104022312/https://purerawz.co/shipping-returns-policy/
+[FETCHED_AT] 2026-05-07T10:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/shipping.md
+[LINE_RANGE] 545-567
+[QUOTE]
+**1\. Please note that we do not accept returns. If shipping insurance was purchased,**
+we require proof of the damaged product, and after proper verification, we will process the refund.
+
+**There is a specific timeframe for returns (7 days), but if a customer sends an item back, the courier typically takes around 10–15 days to deliver it to us.**
+
+**If you still choose to return the item, a 15% restocking fee will be applicable, and the responsibility for return shipping costs will lie with the buyer.**
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/20260104022312/https://purerawz.co/shipping-returns-policy/
+[FETCHED_AT] 2026-05-07T10:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/shipping.md
+[LINE_RANGE] 505-527
+[QUOTE]
+### Shipping Times
+
+  * Packages typically reach the courier within _5 – 12 business days_.
+  * The following delivery time estimates are counted in business days  _(Monday-Friday)_ , not calendar days.
+  * A shipping confirmation email containing your tracking information will be sent to you after your package has been scanned in by the courier, this can sometimes take an additional business day.
+
+
+
+At **PureRawz** , we are dedicated to providing you with a seamless and reliable shipping experience. To ensure your orders reach you efficiently, we collaborate with reputable carriers such as
+
+  * USPS
+  * UPS
+  * Globalpost.
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://web.archive.org/web/20260104022312/https://purerawz.co/shipping-returns-policy/
+[FETCHED_AT] 2026-05-07T10:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/shipping.md
+[LINE_RANGE] 525-527
+[QUOTE]
+To give you peace of mind and keep you informed, we recommend closely monitoring the **USPS, UPS, or Globalpost** websites for updates on the status of your order.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20260417000556/https://purerawz.co/how-to-pay/
+[FETCHED_AT] 2026-05-07T10:02:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/payment.md
+[LINE_RANGE] 120-179
+[QUOTE]
+# How To Pay
+
+Venmo  Cryptocurrency  Credit / Debit Card Payment
+
+## STEP 1
+
+  * __ Log into your Venmo app on your Android or Apple device. Click on the 'Pay or Request' button.
+  * __ You will receive an 3% service fee automatically applied to your order when choosing Venmo as a payment method.
+
+Pay directly using your credit or debit card (Visa, Mastercard, JCB, Discover). Simply enter your card details at checkout, confirm the transaction, and your payment will be processed instantly.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://web.archive.org/web/20260104022312/https://purerawz.co/shipping-returns-policy/
+[FETCHED_AT] 2026-05-07T10:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/shipping.md
+[LINE_RANGE] 515-518
+[QUOTE]
+we collaborate with reputable carriers such as
+
+  * USPS
+  * UPS
+  * Globalpost.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://web.archive.org/web/20260419144111/https://purerawz.co/shop/
+[FETCHED_AT] 2026-05-07T03:00:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/catalog_1.md
+[LINE_RANGE] 12-13
+[QUOTE]
+**FREE SHIPPING**
+Free Shipping for Orders over $100
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE]
+[SUPPORT_QUOTE]
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_1__bpc-157.md
+[LINE_RANGE] 144-144
+[](https://web.archive.org/web/20260419144153/https://purerawz.co/wp-content/uploads/2022/06/PZ_BPC-157_5mg-1-1.webp)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/coa_1.md
+[LINE_RANGE] 132-132
+[](https://web.archive.org/web/20260419144359/https://purerawz.co/wp-content/uploads/2023/09/COA-Certificate-Purerawz.co-Sildenafil-Citrate-1-2-309x400-1.png.webp)
+[/SUPPORT_QUOTE]
+[REASONING] All image URLs contain /wp-content/uploads/ path prefix, which is the canonical WordPress media library directory. This path pattern is exclusive to WordPress and by extension WooCommerce for e-commerce sites. The presence of product categories, cart functionality, wishlist, and product variants also matches WooCommerce patterns. Platform inferred as WooCommerce/WordPress.
+[/INFERENCE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE]
+[SUPPORT_QUOTE]
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/catalog_1.md
+[LINE_RANGE] 8-8
+🔥 **WE HAVE THE BEST COMPOUNDS ON THE PLANET**
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_1__bpc-157.md
+[LINE_RANGE] 8-8
+🔥 **WE HAVE THE BEST COMPOUNDS ON THE PLANET**
+[/SUPPORT_QUOTE]
+[REASONING] Live site returned a Cloudflare challenge page ("Just a moment...") with nonce token and challenges.cloudflare.com domain in the CSP header, confirming Cloudflare CDN/WAF in front of origin. All archive fetches required wayback due to Cloudflare blocking direct curl.
+[/INFERENCE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE]
+[SUPPORT_QUOTE]
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/catalog_1.md
+[LINE_RANGE] 185-185
+[ Facebook __](https://web.archive.org/web/20260419144111/https://www.facebook.com/purerawz) [ Instagram __](https://web.archive.org/web/20260419144111/https://www.instagram.com/purerawzrevolution/) [ X-twitter __](https://web.archive.org/web/20260419144111/https://twitter.com/PureRawzsome) [ Pinterest __](https://web.archive.org/web/20260419144111/https://pin.it/7uv4dqz5d) [ Discord __](https://web.archive.org/web/20260419144111/https://discord.gg/6BSW6A5TRg) [ Tiktok __](https://web.archive.org/web/20260419144111/https://www.tiktok.com/@purerawz_official_) [ Youtube __](https://web.archive.org/web/20260419144111/https://www.youtube.com/@pure_rawz)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/about.md
+[LINE_RANGE] 616-616
+[ Facebook __](https://web.archive.org/web/20260104090937/https://www.facebook.com/purerawz) [ Instagram __](https://web.archive.org/web/20260104090937/https://www.instagram.com/purerawzrevolution/) [ X-twitter __](https://web.archive.org/web/20260104090937/https://twitter.com/PureRawzsome) [ Pinterest __](https://web.archive.org/web/20260104090937/https://pin.it/7uv4dqz5d) [ Discord __](https://web.archive.org/web/20260104090937/https://discord.gg/6BSW6A5TRg) [ Tiktok __](https://web.archive.org/web/20260104090937/https://www.tiktok.com/@purerawz_official_) [ Youtube __](https://web.archive.org/web/20260104090937/https://www.youtube.com/@pure_rawz)
+[/SUPPORT_QUOTE]
+[REASONING] Footer shows active accounts on Facebook, Instagram, Pinterest, TikTok, YouTube, Discord, and X/Twitter. Sites with active presence on Facebook and Pinterest typically run FB pixel and Pinterest tag; TikTok presence implies TikTok pixel. Cannot directly confirm pixel code from archive text renders — inferred from verified social presence.
+[/INFERENCE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://web.archive.org/web/20260104123615/https://purerawz.co/blog/
+[FETCHED_AT] 2026-05-07T10:03:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/blog_1.md
+[LINE_RANGE] 495-495
+[QUOTE]
+# Blog
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://web.archive.org/web/20260104123615/https://purerawz.co/blog/
+[FETCHED_AT] 2026-05-07T10:03:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/blog_1.md
+[LINE_RANGE] 497-545
+[QUOTE]
+## [AOD 9604 vs Tirzepatide: Key Similarities and Differences](https://web.archive.org/web/20260104123615/https://purerawz.co/aod-9604-vs-tirzepatide-key-similarities-and-differences/)
+
+  * [ __ Team Purerawz  ](https://web.archive.org/web/20260104123615/https://purerawz.co/author/team-purerawz/)
+  * [ __ November 24, 2025 ](https://web.archive.org/web/20260104123615/https://purerawz.co/2025/11/24/)
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://web.archive.org/web/20260104123615/https://purerawz.co/blog/
+[FETCHED_AT] 2026-05-07T10:03:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/blog_1.md
+[LINE_RANGE] 500-501
+[QUOTE]
+  * [ __ Team Purerawz  ](https://web.archive.org/web/20260104123615/https://purerawz.co/author/team-purerawz/)
+  * [ __ November 24, 2025 ](https://web.archive.org/web/20260104123615/https://purerawz.co/2025/11/24/)
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://web.archive.org/web/20250811010104/https://purerawz.co/product/ipamorelin/
+[FETCHED_AT] 2026-05-07T03:06:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_9__ipamorelin.md
+[LINE_RANGE] 1356-1362
+[QUOTE]
+Rated **4.73** out of 5 based on 37 customer ratings
+
+(37 customer reviews)
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://web.archive.org/web/20250811010105/https://purerawz.co/product/pt-141/
+[FETCHED_AT] 2026-05-07T03:06:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_7__pt-141.md
+[LINE_RANGE] 1353-1358
+[QUOTE]
+Rated **4.93** out of 5 based on 14 customer ratings
+
+(14 customer reviews)
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://web.archive.org/web/20260419144111/https://purerawz.co/shop/
+[FETCHED_AT] 2026-05-07T03:00:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/catalog_1.md
+[LINE_RANGE] 75-78
+[QUOTE]
+Face of Purerawz
+
+Sell More. Win Big. Get Featured.
+
+The Affiliate Campaign is Now Live
+[/QUOTE]
+
+[CLAIM] claim-sku-bpc157-5mg
+[URL] https://web.archive.org/web/20260419144153/https://purerawz.co/product/bpc-157/
+[FETCHED_AT] 2026-05-07T03:01:37Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_1__bpc-157.md
+[LINE_RANGE] 155-179
+[QUOTE]
+# BPC-157
+
+$68.27 – $412.61Price range: $68.27 through $412.61
+
+Earn **68 - 413** points upon purchasing this product.
+
+✅ 99% Purity – Third-Party Tested
+
+🚚 Free U.S. Shipping on Orders $100+
+
+🇺🇸 Proudly Made in the USA
+
+Form |  Choose an optionPeptideNasal SpraySublingual Tablets
+---|---
+Strength |  Choose an option400mcg/60ct/24mg400mcg/120ct/48mg5mg10mg100mcg/spray = 10mg totalClear
+[/QUOTE]
+
+[CLAIM] claim-sku-tb500-2mg
+[URL] https://web.archive.org/web/20260419165929/https://purerawz.co/product/tb-500/
+[FETCHED_AT] 2026-05-07T03:02:06Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_2__tb-500.md
+[LINE_RANGE] 157-179
+[QUOTE]
+# TB-500
+
+$45.33 – $315.36Price range: $45.33 through $315.36
+
+Earn **45 - 315** points upon purchasing this product.
+
+✅ 99% Purity – Third-Party Tested
+
+Form |  Choose an optionNasal SprayPeptideSublingual Tablets
+---|---
+Strength |  Choose an option100mcg/spray = 10mg total2mg5mg10mg500mcg/15ct/7.5mg500mcg/30ct/15mgClear
+[/QUOTE]
+
+[CLAIM] claim-sku-igf1lr3
+[URL] https://web.archive.org/web/20260419165931/https://purerawz.co/product/igf-1-lr3/
+[FETCHED_AT] 2026-05-07T03:02:06Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_3__igf-1-lr3.md
+[LINE_RANGE] 159-183
+[QUOTE]
+# IGF-1 LR3
+
+$47.59 – $371.18Price range: $47.59 through $371.18
+
+Earn **48 - 371** points upon purchasing this product.
+
+Form |  Choose an optionMedia GradeReceptor GradeReceptor Grade KitReceptor Grade Nasal SprayMedia Grade Nasal Spray
+---|---
+Strength |  Choose an option2 x 0.1mg (100mcg) Vials200mcg/0.2mg1mg100mcg x 10 Vials = 1mg10mcg per spray/1mgClear
+[/QUOTE]
+
+[CLAIM] claim-sku-tirzepatide-5mg
+[URL] https://web.archive.org/web/20250809150411/https://purerawz.co/product/tirzepatide/
+[FETCHED_AT] 2026-05-07T03:06:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_4__tirzepatide.md
+[LINE_RANGE] 1361-1390
+[QUOTE]
+# Tirzepatide
+
+Rated **4.71** out of 5 based on 7 customer ratings
+
+(7 customer reviews)
+
+$185.60 – $607.42Price range: $185.60 through $607.42
+
+Form |  Choose an optionPeptideNasal SpraySublingual Tablets
+---|---
+Strength |  Choose an option5mg10mg100mcg per spray/10ml/10mg200mcg per spray/10ml/20mg350mcg per tablet/30ct/10.5mg350mcg per tablet/60ct/21mg60mgClear
+[/QUOTE]
+
+[CLAIM] claim-sku-semaglutide-5mg
+[URL] https://web.archive.org/web/20250621205458/https://purerawz.co/product/semaglutide/
+[FETCHED_AT] 2026-05-07T03:06:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_5__semaglutide.md
+[LINE_RANGE] 1375-1398
+[QUOTE]
+# Semaglutide
+
+Rated **4.50** out of 5 based on 6 customer ratings
+
+(6 customer reviews)
+
+$193.15 – $647.44
+
+Form |  Choose an optionNasal SprayPeptideSublingual Tablets
+---|---
+Strength |  Choose an option5mg10mg100mcg per spray/10ml/10mg200mcg per spray/10ml/20mg350mcg per tablet/30ct/10.5mg350mcg per tablet/60ct/21mgClear
+[/QUOTE]
+
+[CLAIM] claim-sku-mk677
+[URL] https://web.archive.org/web/20260419165959/https://purerawz.co/product/ibutamoren-mk-677/
+[FETCHED_AT] 2026-05-07T03:02:06Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_6__ibutamoren-mk-677.md
+[LINE_RANGE] 161-185
+[QUOTE]
+# Ibutamoren (MK-677)
+
+$34.41 – $192.37Price range: $34.41 through $192.37
+
+Earn **34 - 192** points upon purchasing this product.
+
+Form |  Choose an optionLiquidPowderInjectablesTabletsCapsules
+---|---
+Strength |  Choose an option15ml/17mg per ml/250mg30ml/33mg per ml/1000mg30ml/67mg per ml/2000mg1g10ml/64mg per ml = 640mg Total20mg/27ct/540mg20mg/54ct/1080mg20mg / 60ct / 1.2gClear
+[/QUOTE]
+
+[CLAIM] claim-sku-pt141
+[URL] https://web.archive.org/web/20250811010105/https://purerawz.co/product/pt-141/
+[FETCHED_AT] 2026-05-07T03:06:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_7__pt-141.md
+[LINE_RANGE] 1353-1380
+[QUOTE]
+# PT 141
+
+Rated **4.93** out of 5 based on 14 customer ratings
+
+(14 customer reviews)
+
+$57.83 – $106.65Price range: $57.83 through $106.65
+
+Form |  Choose an optionPeptideNasal SpraySublingual Tablets
+---|---
+Strength |  Choose an option10mg10ml / 100mcg per spray / 10mg100mcg per tab/100ct/10mgClear
+[/QUOTE]
+
+[CLAIM] claim-sku-epithalon
+[URL] https://web.archive.org/web/20250616122037/https://purerawz.co/product/epithalon/
+[FETCHED_AT] 2026-05-07T03:06:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_8__epithalon.md
+[LINE_RANGE] 1371-1398
+[QUOTE]
+# Epithalon
+
+Rated **4.77** out of 5 based on 22 customer ratings
+
+(22 customer reviews)
+
+$53.07 – $433.86
+
+Form |  Choose an optionPeptideNasal SpraySublingual Tablets
+---|---
+Strength |  Choose an option10mg50mg100mg1mg/ spray = 100mg total5mg/20ct/100mg5mg/40ct/200mg20mgClear
+[/QUOTE]
+
+[CLAIM] claim-sku-ipamorelin
+[URL] https://web.archive.org/web/20250811010104/https://purerawz.co/product/ipamorelin/
+[FETCHED_AT] 2026-05-07T03:06:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_9__ipamorelin.md
+[LINE_RANGE] 1353-1385
+[QUOTE]
+# Ipamorelin
+
+Rated **4.73** out of 5 based on 37 customer ratings
+
+(37 customer reviews)
+
+$25.99 – $99.21Price range: $25.99 through $99.21
+
+Form |  Choose an optionPeptideNasal SpraySublingual Tablets
+---|---
+Strength |  Choose an option2mg5mg20mcg per spray/2mg50mcg per spray/5mg200mcg per tab/30ct/6mgClear
+[/QUOTE]
+
+[CLAIM] claim-sku-motsc
+[URL] https://web.archive.org/web/20250713211011/https://purerawz.co/product/mots-c/
+[FETCHED_AT] 2026-05-07T03:06:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_10__mots-c.md
+[LINE_RANGE] 1353-1380
+[QUOTE]
+# MOTS-c
+
+Rated **4.77** out of 5 based on 13 customer ratings
+
+(13 customer reviews)
+
+$68.44 – $366.70
+
+Form |  Choose an optionPeptideNasal Spray
+---|---
+Strength |  Choose an option5mg10mg40mg200mcg per spray/20mgClear
+[/QUOTE]
+
+[CLAIM] claim-sku-retatrutide
+[URL] https://web.archive.org/web/20250713210547/https://purerawz.co/product/retatrutide/
+[FETCHED_AT] 2026-05-07T03:06:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/product_11__retatrutide.md
+[LINE_RANGE] 1359-1395
+[QUOTE]
+# Retatrutide
+
+Rated **5.00** out of 5 based on 6 customer ratings
+
+(6 customer reviews)
+
+$171.17 – $617.72
+
+Form |  Choose an optionPeptideNasal SpraySublingual Tablets
+---|---
+Strength |  Choose an option5mg10mg100mcg per spray/10ml/10mg300mcg per tablet/30ct/9mg300mcg per tablet/60ct/18mg8mg12mgClear
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://web.archive.org/web/20260419144111/https://purerawz.co/shop/
+[FETCHED_AT] 2026-05-07T03:00:58Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/catalog_1.md
+[LINE_RANGE] 237-248
+[QUOTE]
+#### Please Confirm Your Age
+
+We require visitors to be 21 years old or over, please verify below.
+
+IMPORTANT: Research Use Only
+
+By entering this website, you acknowledge that all products sold by Purerawz are intended strictly for research purposes only. They are not for human or animal consumption, medical use, or any use not permitted by applicable law.
+
+Are you over 21 years of age?
+
+Yes No
+[/QUOTE]
+
+[CLAIM] discovery_provenance
+[URL] 00_inputs/vendor_list.csv
+[FETCHED_AT] 2026-05-07T03:00:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-rawz/homepage.md
+[LINE_RANGE] 1-1
+[QUOTE]
+---
+[/QUOTE]

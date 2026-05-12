@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "chem-center",
+  "brand_name": "Chem Center",
+  "primary_domain": "https://chemcenter.bio",
+
+  "fetched_url": "https://web.archive.org/web/20260118200914/https://chemcenter.bio/",
+  "fetched_at": "2026-05-07T19:54:41Z",
+  "fetch_status": "partial",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.58,
+
+  "country_of_operation": "US",
+  "fulfillment_country": "US",
+  "ship_to_scope": "us_intl",
+  "year_established": "uncertain — copyright footer reads 2024 on Oct-2024 archive and 2025 on Jan-2026 archive; no explicit founding year stated",
+
+  "homepage": {
+    "hero_copy_excerpt": "Vitamin Supplements - Your Ultimate Source for Health",
+    "hero_imagery_style": "other",
+    "primary_cta": "All Products",
+    "navigation_pattern": "Home | Products | FAQ | About us | Terms | Educational Videos",
+    "footer_disclaimers": "Copyright © 2025 Chem Center - All Rights Reserved."
+  },
+
+  "catalog": {
+    "sku_count": "uncertain — product listings are JS-rendered; did not appear in curl or archive fetch text",
+    "category_taxonomy": ["uncertain"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "The chemicals/materials for sale here are intended for laboratory and research use only, unless otherwise explicitly stated. They are not intended for human ingestion or for use in products that may be ingested.",
+    "coa_present": "true",
+    "coa_hosting": "none",
+    "lab_partner_named": "uncertain — third-party labs referenced generically; no named partner",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "The chemicals/materials for sale here are intended for laboratory and research use only, unless otherwise explicitly stated. They are not intended for human ingestion or for use in products that may be ingested.",
+    "age_gate_present": "true",
+    "jurisdictional_restriction_notice": "none",
+    "tos_url": "https://chemcenter.bio/terms-and-conditions",
+    "tos_highlights": "21+ age requirement; research-use-only; no returns except shipping damage within 5 business days with photo evidence; no cancellations after shipment; California (San Luis Obispo) dispute venue; GDPR compliance notice for EU/UK",
+    "refund_policy": "No returns except verifiable shipping damage within 5 business days of delivery with photographic evidence. All sales final.",
+    "shipping_policy": "3-5 days domestic USA; 10-30 days international. Same business day processing. Free shipping on orders over $99 USD."
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "false",
+    "payment_methods_accepted": ["credit_card_visa", "credit_card_mastercard"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "Calculated at checkout; free on orders over $99 USD",
+    "international_policy": "Ships internationally; 10-30 day transit; cost calculated at checkout"
+  },
+
+  "tech_stack": {
+    "platform_signal": "custom",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "false",
+    "blog_url": "none",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": ["eBay", "Facebook", "Trustpilot"],
+    "testimonial_usage": "Homepage states: 5 stars on eBay, 4.8 stars on Facebook and 4 stars on Trust Pilot",
+    "visible_influencer_endorsements": "none"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "chem-center,Chem Center,chemcenter.bio,USA,USA,US-only,Uncertain,Active,Uncertain,Biochemicals,Uncertain,Y (Trustpilot),May 2026,3,Tier 3: Long-tail Trustpilot supplier."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/chem-center/",
+  "evidence_file": "evidence/chem-center.txt",
+  "uncertainty_notes": "year_established: no explicit founding year stated; copyright footer alone is not a reliable founding date. catalog.sku_count, category_taxonomy, search_filter_capabilities, stack_bundle_pages_present: product catalog is JavaScript-rendered on GoDaddy Website Builder; archive.org and curl both returned blank product sections. product_page_anatomy.*: no product page text was recoverable; all fields except exact_disclaimer_language, coa_present, coa_hosting marked uncertain. checkout_flow.account_required, guest_checkout_available, fields_collected, shipping_carriers: checkout was not walked; §11 bounds prohibit account creation. tech_stack.cdn, analytics_tools_loaded, marketing_pixels_present: source HTML not retrieved. content_footprint.*: no blog or editorial section visible in any fetch; site nav shows Educational Videos but that URL was not fetched. skus[]: empty because product listing pages did not render product card text in any of the three fetch attempts (curl×1, archive×2)."
+}

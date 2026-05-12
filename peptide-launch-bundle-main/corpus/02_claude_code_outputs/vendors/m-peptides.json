@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "m-peptides",
+  "brand_name": "M-Peptides",
+  "primary_domain": "https://m-peptides.com",
+
+  "fetched_url": "https://m-peptides.com/",
+  "fetched_at": "2026-05-07T19:52:00Z",
+  "fetch_status": "failed",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.05,
+
+  "country_of_operation": "uncertain",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "uncertain",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "uncertain"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": [],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": [],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": [],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": [],
+    "shipping_carriers": [],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "uncertain",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": [],
+    "marketing_pixels_present": [],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": [],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": [],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "m-peptides,M-Peptides,m-peptides.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list, classified as Tier 3: Small retail supplier.,3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/m-peptides/",
+  "evidence_file": "evidence/m-peptides.txt",
+  "uncertainty_notes": "ALL fields uncertain. Three fetch attempts exhausted: (1) curl_fetch.py returned HTTP 436 with empty body; (2) gstack:browse confirmed domain m-peptides.com is parked at resultearchnow.com DNS parking service with no vendor content; (3) archive.org Wayback Machine CDX API shows only 7 snapshots total: 2018 snapshot shows Polish web hosting provider home.pl placeholder page (Opcje dostepne dla administratora), 2019 redirect/error, 2021 404, 2024 403/406, 2025 redirect to unrelated lilipeptide.com. No snapshot ever captured actual peptide vendor content. Domain appears to have been registered in Poland (home.pl hosting) but never activated as a peptide vendor. The domain is now parked. field_completion_ratio=0.05 reflecting only vendor_slug, brand_name, primary_domain, fetched_url, fetched_at, and tier are determinable from the seed CSV row; all content fields are uncertain."
+}

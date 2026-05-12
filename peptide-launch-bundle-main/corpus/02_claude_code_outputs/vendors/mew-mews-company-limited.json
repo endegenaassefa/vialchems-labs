@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "mew-mews-company-limited",
+  "brand_name": "Mew Mews",
+  "primary_domain": "https://mewmews.com",
+
+  "fetched_url": "https://mewmews.com/",
+  "fetched_at": "2026-05-08T00:10:20Z",
+  "fetch_status": "failed",
+
+  "tier": "3",
+  "tier_rationale": "Vendor assigned Tier 3 baseline per operator seed list. Profile is fetch_status failed because mewmews.com is a women's fashion and clothing retailer, not a peptide vendor. No peptide products, no research-chemical framing, no lab posture, no relevant SKUs. All peptide-research schema fields are uncertain because the domain has zero relevance to the research-peptide category.",
+  "field_completion_ratio": 0.18,
+
+  "country_of_operation": "uncertain",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "FREE SHIPPING OVER $100",
+    "hero_imagery_style": "lifestyle",
+    "primary_cta": "BEST SELLERS",
+    "navigation_pattern": "Top nav: AFTERGLOW, WHAT'S NEW, BEST SELLERS, DRESSES, CLOTHING, OCCASION, ACCESSORIES, SWIMWEAR, CAMPAIGNS, SALE, INFLUENCER'S PICKS",
+    "footer_disclaimers": "uncertain"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": ["DRESSES", "CLOTHING", "ACCESSORIES", "SWIMWEAR", "SALE"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "false"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": [],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "We ship worldwide! All our shipping prices are in US Dollars (USD). We offer free standard shipping for all orders above $100 USD!"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": [],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": ["uncertain"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "Free shipping over $100 USD. Ships worldwide.",
+    "international_policy": "Ships worldwide; customs duties payable by recipient."
+  },
+
+  "tech_stack": {
+    "platform_signal": "shopify",
+    "cdn": "Cloudflare",
+    "analytics_tools_loaded": ["Google Ads AW-10939620123", "GTM-57Q4VZH", "Klaviyo"],
+    "marketing_pixels_present": ["Snapchat (81e45a3e-6c2b-4c36-ab91-bb0fe317b832)", "Facebook domain verification"],
+    "chat_widget_present": "true"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["uncertain"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "INFLUENCER'S PICKS collection present in navigation"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "mew-mews-company-limited,Mew Mews Company Limited,mewmews.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/mew-mews-company-limited/",
+  "evidence_file": "evidence/mew-mews-company-limited.txt",
+  "uncertainty_notes": "CRITICAL FINDING: mewmews.com is a women's fashion and clothing e-commerce retailer (dresses, swimwear, accessories), not a peptide vendor. The about page states: 'At Mew Mews, we're inspired by the beauty and individuality of women everywhere. Our brand was founded by a group of women who saw a need in the fashion industry for clothing that not only looked great.' There is zero peptide, research-chemical, laboratory, or life-science content anywhere on the site. Vendor was likely mis-classified in the operator seed list (possibly confused with a different company or a domain squatter/rebrand). All peptide-research schema fields (product_page_anatomy, trust_compliance.research_use_only_phrasing, trust_compliance.age_gate_present, trust_compliance.tos_url, checkout_flow.payment_methods_accepted, etc.) are marked uncertain because they are irrelevant: the site sells fashion, not research peptides. Tech stack confirmed as Shopify (myshopify handle: mew-mews-us.myshopify.com), CDN Cloudflare, analytics GTM + Google Ads + Klaviyo + Snapchat pixel. Shipping policy confirms worldwide shipping of fashion goods. country_of_operation uncertain because no company registration address is displayed on site; fulfillment_country uncertain for same reason; year_established uncertain as no founding date is disclosed on the fetched pages. field_completion_ratio 0.18 reflects only the identity, tech_stack, and partial homepage/shipping fields that could be populated from actual fetched content; fetch_status is failed per Rule 17 (<0.40 ratio) and because the vendor does not operate in the research-peptide space at all."
+}

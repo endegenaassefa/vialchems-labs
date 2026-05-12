@@ -1,0 +1,783 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 43-43
+[QUOTE]
+# A Non-Profit Peptide Research Clinic Focused on Safety, Oversight, and Real Education
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 30-30
+[QUOTE]
+[Explore Our Research Programs](/all-programs)[Safety & Regulatory Standards](/support/safety-regulatory)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 13-22
+[QUOTE]
+[](/)[Home](/)[About](/about)[Blogs](/blog)
+
+Content
+
+[Blog](/blog)[Press & Media](/press-media)[Education](/eduation)
+
+At-Home Programs
+
+[Wolverine Recovery](/protocol/bpc-157-tb-500/study)[Metabolic Health](/protocol/retatrutide/study)[Performance](/protocol/performance/study)[Hair & Skin](/protocol/hair-skin-program/study)[Glow](/protocol/glow/study)[Cellular Energy](/protocol/cellular-energy/study)[Gut Health](/protocol/gut-health-program/study)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 397-397
+[QUOTE]
+ _*Nuri programs are university backed research programs. They are not FDA approved, and are not intended to diagnose, treat, cure, or prevent any disease._
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The site explicitly positions itself as an FDA-HHS-approved IRB-supervised non-profit peptide research clinic with clinician oversight, copy cues consistent with a clinical / medical aesthetic rather than lifestyle, meme-coded, or anonymous styles defined in the schema enumeration. The rendered text does not describe the on-page imagery directly (curl + html2text output, no image analysis), so the value is recorded as an inference per Rule 19 with two grep-matchable support quotes from the homepage.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 45-45
+"Nuri Clinic operates under an FDA–HHS–approved Institutional Review Board (IRB) to offer research-based, medically supervised programs for adults already exploring peptide based options and want a safer, more transparent path."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 28-28
+"Guided, peptide research programs with clinician oversight and clear protocols."
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 395-395
+[QUOTE]
+Pima, AZ**
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 395-395
+[QUOTE]
+Pima, AZ**
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[INFERENCE] us_only
+[REASONING]
+No fetched page mentions international shipping or names international destination policy. The brand operates from a US-only physical address (Pima, AZ), uses US-only payment partners (Stripe, Affirm, Klarna, Afterpay), publishes a US-format SMS support number (+1 928 = Arizona area code), and the public TOS describes shipping cold-chain via standard couriers without international policy. Recorded as inference per Rule 19 with two grep-matchable support quotes — the absence of an explicit international policy plus the US-physical-presence cue is sufficient to record us_only as the inferred ship-to scope rather than mark uncertain on this load-bearing field.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 395-395
+"Pima, AZ**"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 42-42
+"By clicking Yes, you agree to receive SMS notifications from Nuri Clinic. Message frequency varies. Message and data rates may apply. Text HELP to +1 (928)-770-5220 for assistance. You can reply STOP to unsubscribe anytime."
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.nuriclinic.com/all-programs
+[FETCHED_AT] 2026-05-07T02:19:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/catalog_all_programs.md
+[LINE_RANGE] 20-20
+[QUOTE]
+##### [Wolverine Recovery ProgramBPC-157 & TB-500Start](/protocol/bpc-157-tb-500/study)##### [Metabolic Health ProgramRetatrutideStart](/protocol/retatrutide/study)##### [Performance ProgramCJC-1295 & IpamorelinStart](/protocol/performance/study)##### [Hair & Skin ProgramGHK-CUStart](/protocol/performance/study)##### [Glow ProgramGlowStart](/protocol/performance/study)##### [Cellular EnergyNAD+Start](/protocol/performance/study)##### [Gut HealthOral BPC-157Start](/protocol/performance/study)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.nuriclinic.com/all-programs
+[FETCHED_AT] 2026-05-07T02:19:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/catalog_all_programs.md
+[LINE_RANGE] 20-20
+[QUOTE]
+##### [Wolverine Recovery ProgramBPC-157 & TB-500Start](/protocol/bpc-157-tb-500/study)##### [Metabolic Health ProgramRetatrutideStart](/protocol/retatrutide/study)##### [Performance ProgramCJC-1295 & IpamorelinStart](/protocol/performance/study)##### [Hair & Skin ProgramGHK-CUStart](/protocol/performance/study)##### [Glow ProgramGlowStart](/protocol/performance/study)##### [Cellular EnergyNAD+Start](/protocol/performance/study)##### [Gut HealthOral BPC-157Start](/protocol/performance/study)
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.nuriclinic.com/protocol/glow/study
+[FETCHED_AT] 2026-05-07T02:20:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_5__glow.md
+[LINE_RANGE] 99-99
+[QUOTE]
+By combining BPC-157, TB-500, and GHK-Cu, this program takes a more comprehensive approach, supporting mobility, tissue function, skin appearance, and your body’s response to physical stress within a structured 12-week system.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://www.nuriclinic.com/protocol/bpc-157-tb-500/study
+[FETCHED_AT] 2026-05-07T02:19:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_1__wolverine-bpc157-tb500.md
+[LINE_RANGE] 25-25
+[QUOTE]
+# Wolverine Recovery Program **BPC-157 & TB-500**
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://www.nuriclinic.com/protocol/bpc-157-tb-500/study
+[FETCHED_AT] 2026-05-07T02:19:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_1__wolverine-bpc157-tb500.md
+[LINE_RANGE] 50-50
+[QUOTE]
+  * **12 week peptide supply** — BPC-157 + TB-500 (5 vials - 10/10mg each)
+[/QUOTE]
+
+[URL] https://www.nuriclinic.com/protocol/bpc-157-tb-500/study
+[FETCHED_AT] 2026-05-07T02:19:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_1__wolverine-bpc157-tb500.md
+[LINE_RANGE] 304-304
+[QUOTE]
+Within the Wolverine Recovery Program, BPC-157 and TB-500 are administered via subcutaneous injection as part of the investigational protocol.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://www.nuriclinic.com/protocol/bpc-157-tb-500/study
+[FETCHED_AT] 2026-05-07T02:19:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_1__wolverine-bpc157-tb500.md
+[LINE_RANGE] 60-61
+[QUOTE]
+Total Program Cost: $1499
+**$249/Month**(Most popular plan)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.per_mg_cost
+[URL] https://www.nuriclinic.com/protocol/bpc-157-tb-500/study
+[FETCHED_AT] 2026-05-07T02:19:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_1__wolverine-bpc157-tb500.md
+[LINE_RANGE] 50-61
+[QUOTE]
+  * **12 week peptide supply** — BPC-157 + TB-500 (5 vials - 10/10mg each)
+  * **Complete dosing kit** — alcohol wipes, needles, bacteriostatic water
+  * **Step-by-step** booklet and video guides explaining how the protocol works and what to watch for
+  * **Schedule free calls** with licensed clinicians during your program
+  * **Daily** **supplement packs** to help manage inflammation and discomfort
+
+
+
+‍
+
+Total Program Cost: $1499
+**$249/Month**(Most popular plan)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.nuriclinic.com/protocol/bpc-157-tb-500/study
+[FETCHED_AT] 2026-05-07T02:19:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_1__wolverine-bpc157-tb500.md
+[LINE_RANGE] 162-166
+[QUOTE]
+Most people dealing with ongoing discomfort **have already tried** the usual approaches like _rest, stretching, supplements_... and still feel like they’re not fully back to where they want to be. The Wolverine Program was designed for exactly that gap.
+
+‍
+
+BPC-157 and TB-500 are two peptides being actively studied for their role in supporting **mobility, tissue function, and the body’s response to physical stress** — now delivered through a structured 12-week program designed for consistency and ease.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.nuriclinic.com/protocol/bpc-157-tb-500/study
+[FETCHED_AT] 2026-05-07T02:19:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_1__wolverine-bpc157-tb500.md
+[LINE_RANGE] 310-310
+[QUOTE]
+BPC-157, TB-500, and related compounds used in the Wolverine Recovery Program are experimental and not approved by the FDA to diagnose, treat, cure, or prevent any disease.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://www.nuriclinic.com/protocol/bpc-157-tb-500/study
+[FETCHED_AT] 2026-05-07T02:19:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_1__wolverine-bpc157-tb500.md
+[LINE_RANGE] 254-254
+[QUOTE]
+All of the compounds in our peptide studies are meticulously vetted for purity, efficacy, and safety. We use a neutral third party lab to test all of our products on a routine basis and offer published results, for quality you can trust.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://www.nuriclinic.com/support/safety-regulatory
+[FETCHED_AT] 2026-05-07T02:19:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/safety_regulatory.md
+[LINE_RANGE] 155-159
+[QUOTE]
+  * Work with carefully vetted domestic partners
+
+  * Maintain sourcing and handling records internally
+
+  * Use cold-chain shipping where appropriate
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://www.nuriclinic.com/support/safety-regulatory
+[FETCHED_AT] 2026-05-07T02:19:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/safety_regulatory.md
+[LINE_RANGE] 155-164
+[QUOTE]
+  * Work with carefully vetted domestic partners
+
+  * Maintain sourcing and handling records internally
+
+  * Use cold-chain shipping where appropriate
+
+
+
+
+No system is perfect, but quality and traceability are treated seriously.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://www.nuriclinic.com/protocol/bpc-157-tb-500/study
+[FETCHED_AT] 2026-05-07T02:19:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_1__wolverine-bpc157-tb500.md
+[LINE_RANGE] 90-94
+[QUOTE]
+## Reviews
+
+###### Pain free & back to lifting like I used to
+
+I had a shoulder injury for over 2 years and followed nutrient, nutrition and rehab perfectly to no avail... I started the BPC-157 / TB-500 protocol and by the 2nd month I was pain free and lifting like I did years previously.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://www.nuriclinic.com/protocol/bpc-157-tb-500/study
+[FETCHED_AT] 2026-05-07T02:19:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_1__wolverine-bpc157-tb500.md
+[LINE_RANGE] 16-16
+[QUOTE]
+[Wolverine Recovery](/protocol/bpc-157-tb-500/study)[Metabolic Health](/protocol/retatrutide/study)[Performance](/protocol/performance/study)[Hair & Skin](/protocol/hair-skin-program/study)[Glow](/protocol/glow/study)[Cellular Energy](/protocol/cellular-energy/study)[Gut Health](/protocol/gut-health-program/study)
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 45-45
+[QUOTE]
+Nuri Clinic operates under an FDA–HHS–approved Institutional Review Board (IRB) to offer research-based, medically supervised programs for adults already exploring peptide based options and want a safer, more transparent path.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 8-12
+[QUOTE]
+## Welcome to Nuri Clinic
+
+Are you 18+ and agree to and agree to our [Terms of Service](/support/terms-of-service)
+
+Yes, I am 18+[No, Sorry](/support/so-sorry)
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.nuriclinic.com/support/terms-of-service
+[FETCHED_AT] 2026-05-07T02:19:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/tos.md
+[LINE_RANGE] 10-12
+[QUOTE]
+# Terms of Services
+
+These Terms of Service (“Terms”) govern your access to and use of the Nuri Clinic website, communications, programs, and related services. By accessing our website, submitting information, or purchasing or participating in a Nuri program, you agree to be bound by these Terms.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.nuriclinic.com/support/terms-of-service
+[FETCHED_AT] 2026-05-07T02:19:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/tos.md
+[LINE_RANGE] 26-30
+[QUOTE]
+Nuri Clinic offers structured wellness research programs designed to support general wellness exploration. Programs and products offered through Nuri Clinic are **not FDA approved** and are **not intended to diagnose, treat, cure, or prevent any disease**.
+
+Information provided through our website, communications, calls, or materials is **educational and informational only** and does not constitute medical advice, diagnosis, or treatment. Participation in a Nuri program does not create a doctor–patient relationship.
+
+You should consult a licensed healthcare professional before beginning any new wellness program, supplement, or peptide-related activity, especially if you have existing medical conditions or are taking medications.
+[/QUOTE]
+
+[URL] https://www.nuriclinic.com/about
+[FETCHED_AT] 2026-05-07T02:19:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/about.md
+[LINE_RANGE] 53-61
+[QUOTE]
+Participants who wish to move forward can purchase a program or product directly through our secure checkout.
+
+We use Stripe for payments and offer interest-free payment options through:
+
+  * Affirm
+
+  * Klarna
+
+  * Afterpay
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.nuriclinic.com/support/terms-of-service
+[FETCHED_AT] 2026-05-07T02:19:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/tos.md
+[LINE_RANGE] 60-65
+[QUOTE]
+  * **All program sales are final once intake is completed and shipment is approved
+**
+  * If eligibility intake is not completed or approval is denied prior to shipment, a full refund will be issued
+
+  * Once shipped, programs are non-refundable
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 366-366
+[QUOTE]
+To help maintain product quality and integrity, approved program kits are **cold-shipped overnight**. Shipments go out **Mondays and Thursdays** , and tracking information is provided once your kit is on the way.
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://www.nuriclinic.com/about
+[FETCHED_AT] 2026-05-07T02:19:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/about.md
+[LINE_RANGE] 45-72
+[QUOTE]
+### 2\. Eligibility-Based Participation
+
+Nuri programs are not one-size-fits-all.
+
+Participants complete a short intake to help determine whether a program is appropriate for them within our research framework. This helps create a more consistent and responsible experience for everyone involved.
+
+### 3\. Program Access & Checkout
+
+Participants who wish to move forward can purchase a program or product directly through our secure checkout.
+
+We use Stripe for payments and offer interest-free payment options through:
+
+  * Affirm
+
+  * Klarna
+
+  * Afterpay
+
+
+
+
+Purchasing a program does **not** mean you are receiving a prescription or medical treatment.
+
+### 4\. Intake Review & Final Approval
+
+After checkout, participants complete a more detailed intake so we can confirm eligibility.
+
+This step exists to ensure programs are delivered responsibly and consistently. If someone is not approved, they are not shipped a program and are refunded.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.nuriclinic.com/about
+[FETCHED_AT] 2026-05-07T02:19:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/about.md
+[LINE_RANGE] 53-61
+[QUOTE]
+Participants who wish to move forward can purchase a program or product directly through our secure checkout.
+
+We use Stripe for payments and offer interest-free payment options through:
+
+  * Affirm
+
+  * Klarna
+
+  * Afterpay
+[/QUOTE]
+
+[URL] https://www.nuriclinic.com/protocol/glow/study
+[FETCHED_AT] 2026-05-07T02:20:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_5__glow.md
+[LINE_RANGE] 191-191
+[QUOTE]
+No. As an experimental research wellness program, the Glow Program is not covered by insurance. The total program cost is $1,599, with flexible payment plans available through Afterpay, Affirm, and Klarna.
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:21:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/source_homepage.md
+[LINE_RANGE] 22-31
+[QUOTE]
+=== Tech Stack Signals (grep extracts from raw HTML body, 208585 bytes) ===
+
+--- Platform / hosting ---
+Webflow: matched 12+ times in body and via meta tags (data-wf-domain attribute, webflow.com CDN reference, x-wf-region: us-east-1 in headers)
+x-wf-region: us-east-1 (Webflow region header)
+x-lambda-id: 1dded72e-1ae0-42ed-869a-7cfe177ae15c (Webflow Lambda)
+server: cloudflare
+cf-ray: 9f7cbff1f95cd6c3-IAD
+cf-cache-status: HIT
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:21:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/source_homepage.md
+[LINE_RANGE] 14-16
+[QUOTE]
+cf-ray: 9f7cbff1f95cd6c3-IAD
+cf-cache-status: HIT
+age: 137492
+[/QUOTE]
+
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:21:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/source_homepage.md
+[LINE_RANGE] 17-17
+[QUOTE]
+server: cloudflare
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:21:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/source_homepage.md
+[LINE_RANGE] 33-35
+[QUOTE]
+--- Analytics ---
+Google Analytics (gtag.js, GA4): G-TLZFENB3HB
+googletagmanager.com referenced
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:21:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/source_homepage.md
+[LINE_RANGE] 37-39
+[QUOTE]
+--- Marketing pixels ---
+Facebook Pixel: fbq('init', '397942256386652'); fbq('track', 'PageView');
+facebook.net referenced (twice)
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:21:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/source_homepage.md
+[LINE_RANGE] 47-52
+[QUOTE]
+--- No detected ---
+TikTok pixel (ttq): not found
+Pinterest tag (pintrk): not found
+Twitter pixel (twq): not found
+Klaviyo: not found
+Intercom / Drift / Tawk / Crisp / chat widget: not found in static body
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.nuriclinic.com/blog
+[FETCHED_AT] 2026-05-07T02:21:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/blog_index.md
+[LINE_RANGE] 18-19
+[QUOTE]
+# Peptide Education & Resources
+
+Filter:
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://www.nuriclinic.com/blog
+[FETCHED_AT] 2026-05-07T02:21:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/blog_index.md
+[LINE_RANGE] 8-8
+[QUOTE]
+[](/)[Home](/)[About](/about)[Blogs](/blog)
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://www.nuriclinic.com/blog
+[FETCHED_AT] 2026-05-07T02:21:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/blog_index.md
+[LINE_RANGE] 22-30
+[QUOTE]
+All
+
+Hormonal Balance
+
+Peptides
+
+Recovery
+
+BPC-157 & TB-500
+
+Weight Loss
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://www.nuriclinic.com/post/sourcing-bpc-157-and-other-peptides-why-it-mattters-what-to-look-for
+[FETCHED_AT] 2026-05-07T02:22:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/blog_1__sourcing-bpc-157.md
+[LINE_RANGE] 16-16
+[QUOTE]
+[Wolverine Recovery](/protocol/bpc-157-tb-500/study)[Metabolic Health](/protocol/retatrutide/study)[Performance](/protocol/performance/study)[Hair & Skin](/protocol/hair-skin-program/study)[Glow](/protocol/glow/study)[Cellular Energy](/protocol/cellular-energy/study)[Gut Health](/protocol/gut-health-program/study)
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 107-114
+[QUOTE]
+## Reviews
+
+###### Worth every penny for this level of support.
+
+I was hesitant to try another protocol, but the science behind adding GHK-Cu made sense. I'm glad I did it. My joints feel more supported, and my overall sense of well-being has improved. The clinical support from Nuri was fantastic, as always. This is the most comprehensive recovery support I've found.
+
+###### M. Jones
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 409-409
+[QUOTE]
+[ ](https://www.facebook.com/profile.php?id=61558001170976)[ ](https://www.instagram.com/nuriclinic/)
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 263-265
+[QUOTE]
+###### T. Lankering, Health Professional from Colorado
+
+Individual participant experiences. Not typical. Not guaranteed.
+[/QUOTE]
+
+[URL] https://www.nuriclinic.com/press-media
+[FETCHED_AT] 2026-05-07T02:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/press_media.md
+[LINE_RANGE] 26-42
+[QUOTE]
+## Hidden Gems: Meet Joshua Dixon of Nuri Clinic
+
+I have always had an business spirit, with a medicine-loving mind. I had numerous sales jobs as a teen and young adult before I decided to go to nursing school. Having this business-oriented background I always knew that I wouldn’t take the traditional route of bedside nursing.
+
+[Read Full Article](https://voyagephoenix.com/interview/hidden-gems-meet-joshua-dixon-of-nuri-clinic)
+
+## Inspiring Conversations with Marley Grant of Nuri Clinic
+
+Hi Marley, thanks for joining us today. We’d love for you to start by introducing yourself. I first got introduced to peptides out of pure necessity. I had a shoulder injury from high school that never fully healed, even after years of doing everything “right.” I was eating clean, training smart, taking the right supplements, doing physical therapy
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://www.nuriclinic.com/
+[FETCHED_AT] 2026-05-07T02:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/homepage.md
+[LINE_RANGE] 409-409
+[QUOTE]
+[ ](https://www.facebook.com/profile.php?id=61558001170976)[ ](https://www.instagram.com/nuriclinic/)
+[/QUOTE]
+
+[CLAIM] claim-sku-1
+[URL] https://www.nuriclinic.com/protocol/bpc-157-tb-500/study
+[FETCHED_AT] 2026-05-07T02:19:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_1__wolverine-bpc157-tb500.md
+[LINE_RANGE] 50-61
+[QUOTE]
+  * **12 week peptide supply** — BPC-157 + TB-500 (5 vials - 10/10mg each)
+  * **Complete dosing kit** — alcohol wipes, needles, bacteriostatic water
+  * **Step-by-step** booklet and video guides explaining how the protocol works and what to watch for
+  * **Schedule free calls** with licensed clinicians during your program
+  * **Daily** **supplement packs** to help manage inflammation and discomfort
+
+
+
+‍
+
+Total Program Cost: $1499
+**$249/Month**(Most popular plan)
+[/QUOTE]
+
+[CLAIM] claim-sku-2
+[URL] https://www.nuriclinic.com/protocol/retatrutide/study
+[FETCHED_AT] 2026-05-07T02:19:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_2__metabolic-retatrutide.md
+[LINE_RANGE] 47-58
+[QUOTE]
+  * **14 week protocol** using Retatrutide (5 vials - 10mg each)
+  * **Complete dosing kit** — alcohol wipes, needles, bacteriostatic water
+  * **Step-by-step booklet and video guides** explaining how the protocol works and what to watch for
+  * Ability to **schedule free calls with licensed clinicians** during your program
+  * **Daily, natural supplement packs** to help manage indigestion and gut discomfort
+
+
+
+‍
+
+Total Program Cost: $1,499
+Flexible payment plans starting at**$249/Month**
+[/QUOTE]
+
+[CLAIM] claim-sku-3
+[URL] https://www.nuriclinic.com/protocol/performance/study
+[FETCHED_AT] 2026-05-07T02:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_3__performance.md
+[LINE_RANGE] 47-58
+[QUOTE]
+  * **12 week protocol** using CJC-1295 & Ipamorelin (6 vials - 5/5mg each)
+  * **Complete dosing kit** for confident at-home administration
+  * **Step-by-step booklet and video guides** explaining how the protocol works and what to watch for
+  * Ability to **schedule free calls with licensed clinicians** during your program
+  * **90 day supply of Muscle RX****™** , a patented supplement formulated to support muscle building & retention as part of your overall routine
+
+
+
+‍
+
+Total Program Cost: $1,199
+Flexible payment options from**$199/Month**
+[/QUOTE]
+
+[CLAIM] claim-sku-4
+[URL] https://www.nuriclinic.com/protocol/hair-skin-program/study
+[FETCHED_AT] 2026-05-07T02:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_4__hair-skin.md
+[LINE_RANGE] 114-114
+[QUOTE]
+Topical copper peptide serums work on the surface layers of the skin. The Hair & Skin Program delivers GHK-Cu via subcutaneous administration at a concentrated 50mg dose, which allows it to enter systemic circulation and support skin and hair health from the inside out — reaching tissues and follicles that topical products cannot access as effectively.
+[/QUOTE]
+
+[URL] https://www.nuriclinic.com/protocol/hair-skin-program/study
+[FETCHED_AT] 2026-05-07T02:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_4__hair-skin.md
+[LINE_RANGE] 142-142
+[QUOTE]
+No. As an experimental research wellness program, the Hair & Skin Program is not covered by insurance. The total program cost is $399, with flexible payment options available.
+[/QUOTE]
+
+[CLAIM] claim-sku-5
+[URL] https://www.nuriclinic.com/protocol/glow/study
+[FETCHED_AT] 2026-05-07T02:20:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_5__glow.md
+[LINE_RANGE] 99-99
+[QUOTE]
+By combining BPC-157, TB-500, and GHK-Cu, this program takes a more comprehensive approach, supporting mobility, tissue function, skin appearance, and your body’s response to physical stress within a structured 12-week system.
+[/QUOTE]
+
+[URL] https://www.nuriclinic.com/protocol/glow/study
+[FETCHED_AT] 2026-05-07T02:20:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_5__glow.md
+[LINE_RANGE] 191-191
+[QUOTE]
+No. As an experimental research wellness program, the Glow Program is not covered by insurance. The total program cost is $1,599, with flexible payment plans available through Afterpay, Affirm, and Klarna.
+[/QUOTE]
+
+[CLAIM] claim-sku-6
+[URL] https://www.nuriclinic.com/protocol/cellular-energy/study
+[FETCHED_AT] 2026-05-07T02:20:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_6__cellular-energy.md
+[LINE_RANGE] 56-68
+[QUOTE]
+  * **Full 4 week supply** — 1 vail NAD+ 1000mg
+
+
+  * **Complete dosing kit** — alcohol wipes, needles, bacteriostatic water
+  * **Step-by-step** booklet and video guides explaining how the protocol works and what to watch for
+  * **Schedule free calls** with licensed clinicians during your program
+
+
+
+‍
+
+Total Program Cost: $399
+Get started for a little as**$66/m**
+[/QUOTE]
+
+[CLAIM] claim-sku-7
+[URL] https://www.nuriclinic.com/protocol/gut-health-program/study
+[FETCHED_AT] 2026-05-07T02:20:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nuri-clinics/product_7__gut-health.md
+[LINE_RANGE] 50-57
+[QUOTE]
+## Here's **What You Get:**
+
+  * 30-day supply of oral tablets
+  * Simple daily protocol guide
+  * What to track (comfort, regularity, triggers, consistency)
+  * Clinician support if questions come up
+
+
+
+‍
+
+#### **Price:** $149
+[/QUOTE]

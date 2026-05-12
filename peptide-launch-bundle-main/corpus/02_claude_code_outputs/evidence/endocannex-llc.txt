@@ -1,0 +1,360 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 70-72
+BROWSE OUR HEMP-DERIVED COGNITIVE BLENDS
+High-quality, sustainably sourced nootropic products designed to restore balance, nurture vitality, and promote holistic well-being.​
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 74-74
+[BROWSE THE SHOP](https://www.endocannex.com/shop/)
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 299-304
+None of the statements on the site have been evaluated by the Food and Drug Administration.
+Endocannex products or information on the website are not intended to diagnose, treat, cure or prevent any diseases.
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 14-35
+## [SHOP
+TINCTURES & Capsules ](https://www.endocannex.com/hemp-tinctures-and-capsules/) ## [SHOP
+CARTS, VAPES & EXTRACTS ](https://www.endocannex.com/hemp-derived-carts-vapes-and-extracts/) ## [SHOP
+NEUROLEAF TEA ](https://www.endocannex.com/neuroleaf-herbal-cognition-tea/) ## [SHOP
+TERPENES ](https://www.endocannex.com/terpenes/) ## [SHOP
+ALL ](https://www.endocannex.com/shop/)
+
+[CLAIM] ship_to_scope
+[URL] https://www.endocannex.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T19:51:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/shipping.md
+[LINE_RANGE] 93-95
+We currently ship domestically within the United States. International shipping may be available in the future, but for now, we are unable to fulfill orders outside the U.S.
+
+[CLAIM] year_established
+[INFERENCE] 2024
+[REASONING]
+Refund policy bears effective date 21Aug2024, the earliest dated document on the site. Copyright footers read "2026 Endocannex LLC" (current year, not founding year). No explicit founding year stated anywhere. 2024 is the earliest dateable evidence of the business operating.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.endocannex.com/refund_returns/
+[FETCHED_AT] 2026-05-07T19:51:49Z
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/refund.md
+[LINE_RANGE] 74-74
+Effective Date: 21Aug2024
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 336-336
+© 2026 Endocannex LLC
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] US
+[REASONING]
+Shipping policy states US domestic only. Phone number area code 661 is Bakersfield/Kern County, California. Farm Bill compliance language confirms US regulatory context. No foreign address or registration mentioned.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.endocannex.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T19:51:41Z
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/shipping.md
+[LINE_RANGE] 93-95
+We currently ship domestically within the United States. International shipping may be available in the future, but for now, we are unable to fulfill orders outside the U.S.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.endocannex.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T19:51:41Z
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/shipping.md
+[LINE_RANGE] 123-123
+  * **Phone** : ‪(661) 360-6959‬
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.endocannex.com/shop/
+[FETCHED_AT] 2026-05-07T19:51:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/catalog_1.md
+[LINE_RANGE] 67-150
+[ENUMERATION] Counted visible product listings on shop page:
+TetrAlchemy Vape Cart – Immunity Blend (CBC + CDT)
+TetrAlchemy Vape Cart – Focus Blend (THCv + CBDv)
+TetrAlchemy Vape Cart – Sleep Blend (CBN)
+TetrAlchemy Vape Cart – Relaxation Blend (CBG)
+NeuroLeaf: Calming Sleep Tea Blend (Evening)
+NeuroLeaf: Mood Lift Tea Blend (Mid-Day)
+NeuroLeaf: Anti-Inflammation Tea Blend (Morning)
+NeuroLeaf: Sumac Tea Leaves (Immunity & Anti-Oxidizing)
+NeuroLeaf: Passionflower Tea Leaves (Brain Balance & Focus)
+NeuroLeaf: Whitebrush Tea Leaves (Antidepressant & Anxiety Relief)
+Raw Terps – CDT
+Raw Terps – BDT
+Focus Pocus Herbal Tincture: Anti-Anxiety & Focus Blend (THCv+CBC)
+TetrAlchemy Vape Cart – 4pcs Multi-pack (CBG, CBN, CBC, CBDv, THCv, CBT)
+Tincture Samples (Try 1 or All 4 Blends)
+Mood Mastery Herbal Tincture: Emotional Balance Blend (CBG+CBC)
+Red Eye Herbal Tincture: Motivation & Cognition Blend (THCv+CBG+CBC)
+Focus Pocus Herbal Capsules: Anti-Anxiety & Focus Blend (THCv+CBC)
+Hamilton Devices: Go Stik Vape Battery (510 Compatible)
+Hamilton Devices – The Cube Vape Battery (510 Compatible)
+Zen Mastery Herbal Tincture: Mindful Blend (CBDv+CBG+CBC)
+Count: 21 products visible.
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.endocannex.com/shop/
+[FETCHED_AT] 2026-05-07T19:51:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/catalog_1.md
+[LINE_RANGE] 55-65
+High-quality, sustainably sourced nootropic products designed to restore balance, nurture vitality, and promote holistic well-being.
+CARTS, VAPES & Extracts ](https://www.endocannex.com/hemp-derived-carts-vapes-and-extracts/)
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://www.endocannex.com/shop/
+[FETCHED_AT] 2026-05-07T19:51:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/catalog_1.md
+[LINE_RANGE] 67-69
+Sort by popularity Sort by average rating Sort by latest Sort by price: low to high Sort by price: high to low
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://www.endocannex.com/shop/
+[FETCHED_AT] 2026-05-07T19:51:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/catalog_1.md
+[LINE_RANGE] 73-73
+## [Zen Mastery Herbal Tincture: Mindful Blend (CBDv+CBG+CBC)](https://www.endocannex.com/product/zen-mastery-herbal-tincture-for-creativity/) ~~$ 44.99~~ Original price was: $44.99.$29.99Current price is: $29.99.
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 299-305
+None of the statements on the site have been evaluated by the Food and Drug Administration.
+Endocannex products or information on the website are not intended to diagnose, treat, cure or prevent any diseases.
+
+None of the statements on the site have been evaluated by the Food and Drug Administration.
+
+Endocannex products sold or information on the website are not intended to diagnose, treat, cure or prevent any disease.
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://www.endocannex.com/lab-tests-and-certifications/
+[FETCHED_AT] 2026-05-07T19:52:19Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/coa_1.md
+[LINE_RANGE] 70-85
+## [Tinctures](https://www.endocannex.com/tinctures/)
+
+  * [ Focus Pocus ](https://drive.google.com/file/d/1gYc-K4-u3BKpJVEzfmyRrTmKZuRFbZgL/view?usp=sharing)
+  * [ Red Eye ](https://drive.google.com/file/d/1WEyYyH4DvVcp8NfYTFd_FNryB-gBPERa/view?usp=drive_link)
+  * [ Mood Mastery ](https://drive.google.com/file/d/1zHoadKuDdZ4aet5mq3wAaXDSXCduxgFP/view?usp=drive_link)
+  * [ Zen Alchemy ](https://drive.google.com/file/d/1z7LQ1hPKA0Gzsf56ZdmjJ912z3ZS8FDq/view?usp=drive_link)
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://www.endocannex.com/lab-tests-and-certifications/
+[FETCHED_AT] 2026-05-07T19:52:19Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/coa_1.md
+[LINE_RANGE] 72-72
+  * [ Focus Pocus ](https://drive.google.com/file/d/1gYc-K4-u3BKpJVEzfmyRrTmKZuRFbZgL/view?usp=sharing)
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 179-192
+Focus Pocus helps me be more productive on those busy days at work without feeling like I'm going to vibrate out of my seat. Customer service is also top notch.
+
+Austin
+
+Overall great experience and amazing customer service, great products, I tried the cartridges and THCV tincture, both are amazing and I am going to place another order soon.
+
+Kyle
+
+Great products, prices, service, communications, and timing. Highly recommended.
+
+Jo
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 342-345
+Are you atleast 21 years of age?
+
+Yes No
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.endocannex.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T19:51:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/shipping.md
+[LINE_RANGE] 112-114
+Due to legal regulations, certain products may not be eligible for shipping to specific states or regions. You will be notified at checkout if there are restrictions related to your order.
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 323-323
+  * [ Terms & Conditions ](https://www.endocannex.com/terms-and-conditions/)
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.endocannex.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T19:51:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/tos.md
+[LINE_RANGE] 71-100
+Endocannex LLC (D.B.A. Mystic Smoke) is only offering the sale of legal products only. The use of these products is for personal use only and is not intended for the treatment or cure of any medical condition.
+
+User Eligibility:
+
+The use of this website and its products is restricted to adults aged 18 years and older.
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.endocannex.com/refund_returns/
+[FETCHED_AT] 2026-05-07T19:51:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/refund.md
+[LINE_RANGE] 73-90
+30-Day Return – Money-Back Guarantee Policy
+
+Effective Date: 21Aug2024
+
+Our Commitment
+
+AtEndocannex, we are committed to providing our customers with high-quality products and excellent service. We want you to be completely satisfied with your purchase. If, for any reason, you are not entirely happy with your purchase, we offer a 30-day money-back guarantee, subject to the terms and conditions outlined below.
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.endocannex.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T19:51:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/shipping.md
+[LINE_RANGE] 77-95
+**Processing Time:**
+
+  * All orders are processed within 1-3 business days. Orders placed on weekends or holidays will begin processing the next business day.
+
+**Shipping Rates & Delivery Estimates:**
+
+  * Shipping charges for your order will be calculated and displayed at checkout based on your selected shipping method and destination.
+  * Standard shipping usually takes 3-7 business days after processing
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.endocannex.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T19:51:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/tos.md
+[LINE_RANGE] 108-110
+We accept payment through Square which accepts all major credit cards. We also offer invoicing which can be paid through square or other methods per negotiation with Endocannex LLC.
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 10-10
+FREE SHIPPING FOR ORDERS ≥ $40!
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.endocannex.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T19:51:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/shipping.md
+[LINE_RANGE] 93-95
+We currently ship domestically within the United States. International shipping may be available in the future, but for now, we are unable to fulfill orders outside the U.S.
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+Cart URLs use WooCommerce pattern (?add-to-cart=ID) consistently across all shop pages. Footer copyright and site structure match WooCommerce/WordPress. No Shopify/my.shopify.com domain patterns present.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.endocannex.com/shop/
+[FETCHED_AT] 2026-05-07T19:51:59Z
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/catalog_1.md
+[LINE_RANGE] 71-71
+## [TetrAlchemy Vape Cart – Immunity Blend (CBC + CDT)](https://www.endocannex.com/product/cbc-cdt-vape-cart-immunity-blend/) ~~$ 29.99~~ Original price was: $29.99.$24.99Current price is: $24.99. [Add to cart](/shop/?add-to-cart=1504)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 131-131
+## [Zen Mastery Herbal Tincture: Mindful Blend (CBDv+CBG+CBC)](https://www.endocannex.com/product/zen-mastery-herbal-tincture-for-creativity/) ~~$ 44.99~~ Original price was: $44.99.$29.99Current price is: $29.99. [Add to cart](/?add-to-cart=36)
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 307-309
+  * [ Our Blog ](https://www.endocannex.com/elementor-410/)
+
+[CLAIM] content_footprint.blog_url
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 307-307
+  * [ Our Blog ](https://www.endocannex.com/elementor-410/)
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 179-192
+Focus Pocus helps me be more productive on those busy days at work without feeling like I'm going to vibrate out of my seat. Customer service is also top notch.
+
+Austin
+
+Overall great experience and amazing customer service, great products, I tried the cartridges and THCV tincture, both are amazing and I am going to place another order soon.
+
+Kyle
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 338-338
+[ ](https://www.trustpilot.com/review/endocannex.com)
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.endocannex.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/endocannex-llc/homepage.md
+[LINE_RANGE] 179-192
+Focus Pocus helps me be more productive on those busy days at work without feeling like I'm going to vibrate out of my seat. Customer service is also top notch.
+
+Austin
+
+Overall great experience and amazing customer service, great products, I tried the cartridges and THCV tincture, both are amazing and I am going to place another order soon.
+
+Kyle
+
+Great products, prices, service, communications, and timing. Highly recommended.
+
+Jo

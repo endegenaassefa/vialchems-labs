@@ -1,0 +1,655 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.nurevpeptides.com/
+[FETCHED_AT] 2026-05-08T01:42:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/homepage.md
+[LINE_RANGE] 74-77
+[QUOTE]
+"PRECISION RESEARCH PEPTIDES
+
+Lab-grade compounds produced to exacting standards and verified with > 99% purity testing."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.nurevpeptides.com/
+[FETCHED_AT] 2026-05-08T01:42:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/homepage.md
+[LINE_RANGE] 83
+[QUOTE]
+"[ SHOP RESEARCH PEPTIDES ](https://www.nurevpeptides.com/my-account/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.nurevpeptides.com/
+[FETCHED_AT] 2026-05-08T01:42:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/homepage.md
+[LINE_RANGE] 38-48
+[QUOTE]
+"  * [Shop](/shop)
+  * [Peptide Research](https://www.nurevpeptides.com/peptide-research/)
+  * [COA's](https://www.nurevpeptides.com/certificates-of-analysis/)
+  * [About Us](https://www.nurevpeptides.com/about-us/)
+  * [Contact](https://www.nurevpeptides.com/contact/)
+  * [__Login or Create Account](https://www.nurevpeptides.com/my-account/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.nurevpeptides.com/
+[FETCHED_AT] 2026-05-08T01:42:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/homepage.md
+[LINE_RANGE] 360
+[QUOTE]
+"Disclaimer: All information and product descriptions on this website are for educational and informational purposes only. The products offered are for in-vitro research use only, meaning studies performed outside the body, such as in test tubes or petri dishes. These products are not medicines or drugs, have not been approved by the FDA, and are not intended to diagnose, treat, cure, or prevent any disease. Introducing them into humans or animals is strictly prohibited by law. NuRev Peptides is not a pharmacy and does not provide medical advice, prescriptions or consultations. NuRev Peptides is a chemical supplier. NuRev Peptides is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. NuRev Peptides is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic act."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://www.nurevpeptides.com/
+[FETCHED_AT] 2026-05-08T01:42:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/homepage.md
+[LINE_RANGE] 87-90
+[QUOTE]
+"#### Lyophilized Excellence
+
+Stability you can trust.
+Made in-house in the USA."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.nurevpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T01:43:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/catalog_1.md
+[LINE_RANGE] 74
+[QUOTE]
+"Showing 1–16 of 42 results"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.nurevpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T01:43:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/catalog_1.md
+[LINE_RANGE] 94-95
+[QUOTE]
+"  * ## [GLOW 70MG (BPC-157 + GHK-Cu + TB-500) $134.99 ](https://www.nurevpeptides.com/product/glow-70mg/)[Add to cart](/shop/?add-to-cart=151)"
+[/QUOTE]
+
+[LINE_RANGE] 118-119
+[QUOTE]
+"  * ## [BPC-157 / TB-500 BLEND 10MG / 10 MG – Wolverine Stack $59.00 – $110.00Price range: $59.00 through $110.00 ](https://www.nurevpeptides.com/product/bpc-157-tb-500-blend-10mg-10-mg-wolverine-stack/)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://www.nurevpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T01:43:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/catalog_1.md
+[LINE_RANGE] 76
+[QUOTE]
+"Default sorting Sort by popularity Sort by average rating Sort by latest Sort by price: low to high Sort by price: high to low"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://www.nurevpeptides.com/product/retatrutide-10mg-research-compound-ly-3437943-triple-agonist/
+[FETCHED_AT] 2026-05-08T01:44:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/product_1__retatrutide-10mg.md
+[LINE_RANGE] 83-87
+[QUOTE]
+"# Retatrutide 10MG
+
+$99.00 – $289.00Price range: $99.00 through $289.00
+
+Size |  Choose an option10mg20mg30mgClear"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.nurevpeptides.com/product/retatrutide-10mg-research-compound-ly-3437943-triple-agonist/
+[FETCHED_AT] 2026-05-08T01:44:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/product_1__retatrutide-10mg.md
+[LINE_RANGE] 99
+[QUOTE]
+"For Research Use Only — Not for Human Consumption."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.nurevpeptides.com/product/retatrutide-10mg-research-compound-ly-3437943-triple-agonist/
+[FETCHED_AT] 2026-05-08T01:44:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/product_1__retatrutide-10mg.md
+[LINE_RANGE] 143-145
+[QUOTE]
+"Retatrutide 10MG is a research compound referenced in scientific literature and also identified as LY-3437943. This Retatrutide 10MG product page is intended to provide educational, research-only information focused on compound classification, scientific context, and non-clinical investigation."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://www.nurevpeptides.com/product/retatrutide-10mg-research-compound-ly-3437943-triple-agonist/
+[FETCHED_AT] 2026-05-08T01:44:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/product_1__retatrutide-10mg.md
+[LINE_RANGE] 105-107
+[QUOTE]
+"Verified purity ≥99% (COA available)
+
+Independent third-party COA for every batch"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://www.nurevpeptides.com/product/retatrutide-10mg-research-compound-ly-3437943-triple-agonist/
+[FETCHED_AT] 2026-05-08T01:44:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/product_1__retatrutide-10mg.md
+[LINE_RANGE] 223-235
+[QUOTE]
+"### Customer Reviews
+
+What truly sets NuRev Peptides apart isn't just the high-quality peptides. It's the people behind the company. Mike goes above and beyond to educate, guide, and make sure you feel confident in what you're using.
+
+Vince Rabiola
+
+When I first started my peptide journey, I came across NuRev Peptides. Mike provides incredibly informative guidance, and I truly trust his products.
+
+Alan Nanas
+
+Highest quality products on the market, always in stock, incredible transparency and the owner is a wealth of knowledge and always available if you have a question.
+
+Brandon Yearout"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.nurevpeptides.com/
+[FETCHED_AT] 2026-05-08T01:42:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/homepage.md
+[LINE_RANGE] 72
+[QUOTE]
+"**Research Use Only** : These products are sold for research use only, and are prohibited by law for human or animal consumption."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://www.nurevpeptides.com/
+[FETCHED_AT] 2026-05-08T01:42:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/homepage.md
+[LINE_RANGE] 364-374
+[QUOTE]
+"# NuRev Peptides
+
+##  Research Use Only
+
+Are you over 21 years of age?
+
+Yes No
+
+Remember me
+
+By entering this website, you confirm that you are at least 21 years of age and understand: that all products are sold strictly for research use only, for in vitro laboratory use. These products are not approved by the FDA for human or animal consumption, administration, or any form of bodily introduction, as prohibited by law."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.nurevpeptides.com/
+[FETCHED_AT] 2026-05-08T01:42:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/homepage.md
+[LINE_RANGE] 228-230
+[QUOTE]
+"DO YOU SHIP WORLDWIDE?
+
+AT THIS TIME WE ONLY SHIP IN THE UNITED STATES."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.nurevpeptides.com/terms/
+[FETCHED_AT] 2026-05-08T01:44:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/tos.md
+[LINE_RANGE] 72-97
+[QUOTE]
+"## Terms & Conditions
+
+Last updated: September 10, 2025
+
+## 1) Overview
+
+Welcome to NuGen Peptides ("we," "us," "our"). By accessing or using this website (the "Site") and purchasing our products, you agree to these Terms & Conditions ("Terms"). You represent that you are 21+ and legally able to enter binding agreements. If you do not agree, please do not use the Site."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.nurevpeptides.com/terms/
+[FETCHED_AT] 2026-05-08T01:44:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/tos.md
+[LINE_RANGE] 89-97
+[QUOTE]
+"## 3) Research-Use Only (Critical)
+
+  * All products are for research and laboratory use only, unless explicitly stated otherwise in writing.
+
+  * Products are not for human or animal consumption, drug use, diagnostic use, clinical use, or incorporation into food, cosmetics, or medical devices.
+
+  * You are responsible for appropriate handling, storage, and disposal; following MSDS/COA guidance; and complying with all applicable laws, safety standards, and institutional policies.
+
+  * Statements on the Site are not evaluated by the FDA or any regulatory authority."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.nurevpeptides.com/refund-return-policy/
+[FETCHED_AT] 2026-05-08T01:44:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/refund.md
+[LINE_RANGE] 88-94
+[QUOTE]
+"We accept returns of **unused, unopened, and unaltered products** within **30 days of the original purchase date**.
+
+Approved returns are eligible for a refund **minus shipping costs and a 10% processing fee** , which covers non-refundable payment processing fees charged to us. Refunds are issued only after the returned product is received and inspected.
+
+Returned items that have been opened, used, tampered with, or damaged after delivery are **not eligible for a refund**."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.nurevpeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T01:45:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/shipping.md
+[LINE_RANGE] 83-89
+[QUOTE]
+"### Carriers & Rates
+
+  * USPS Priority Mail — flat rate $15 for every order.
+
+  * Typical USPS Priority transit: 2–4 business days (carrier estimate)."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.nurevpeptides.com/
+[FETCHED_AT] 2026-05-08T01:42:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/homepage.md
+[LINE_RANGE] 248-250
+[QUOTE]
+"we have added **additional shipping options at checkout** , including **priority and premium fast shipping through FedEx** , for those who prefer a faster and more reliable delivery option.
+
+If you need your order sooner, we recommend selecting one of the **expedited shipping options available during checkout.**"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.nurevpeptides.com/product/retatrutide-10mg-research-compound-ly-3437943-triple-agonist/
+[FETCHED_AT] 2026-05-08T01:44:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/product_1__retatrutide-10mg.md
+[LINE_RANGE] 87-93
+[QUOTE]
+"💡 **_Save 2.6% when paying via Zelle/Venmo or ACH at checkout_**
+
+**❤️ 1% of every order supports Children's Hospital & Disabled American Veterans.**
+
+🔒 Secure checkout • Discreet billing • Fast U.S. Based Shipping
+📦 Orders ship within 1–2 business days after payment clears • Tracking provided
+⚡Zelle/Venmo orders process next business day"
+[/QUOTE]
+
+[URL] https://www.nurevpeptides.com/
+[FETCHED_AT] 2026-05-08T01:42:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/homepage.md
+[LINE_RANGE] 236-238
+[QUOTE]
+"HOW LONG DOES IT TAKE TO SHIP?
+
+If using Zelle or Venmo we ship next business day. If using a credit card, it generally takes the payment processor 3-4 business days to release funds before we can ship."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.nurevpeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T01:45:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/shipping.md
+[LINE_RANGE] 134-140
+[QUOTE]
+"### U.S. Shipping Only
+
+  * We currently ship to U.S. addresses only.
+
+  * No international shipping, forwarding services, or reshippers.
+
+  * Orders placed with non-US destinations will be cancelled and refunded."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.nurevpeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T01:45:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/shipping.md
+[LINE_RANGE] 85-89
+[QUOTE]
+"  * USPS Priority Mail — flat rate $15 for every order.
+
+  * Typical USPS Priority transit: 2–4 business days (carrier estimate)."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://www.nurevpeptides.com/
+[FETCHED_AT] 2026-05-08T01:45:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/source_homepage.md
+[LINE_RANGE] 7-9
+[QUOTE]
+"Platform: WooCommerce (wp-content, woocommerce references in source)
+CMS: WordPress + Elementor Cloud (x-powered-by: Elementor Cloud header)
+CDN: Cloudflare (server: cloudflare, cf-ray header, __cf_bm cookie)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://www.nurevpeptides.com/
+[FETCHED_AT] 2026-05-08T01:45:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/source_homepage.md
+[LINE_RANGE] 9
+[QUOTE]
+"CDN: Cloudflare (server: cloudflare, cf-ray header, __cf_bm cookie)"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://www.nurevpeptides.com/
+[FETCHED_AT] 2026-05-08T01:45:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/source_homepage.md
+[LINE_RANGE] 10
+[QUOTE]
+"Analytics: Facebook pixel (facebook.net reference)"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://www.nurevpeptides.com/
+[FETCHED_AT] 2026-05-08T01:45:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/source_homepage.md
+[LINE_RANGE] 11
+[QUOTE]
+"Chat: Crisp (crisp reference in source)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.nurevpeptides.com/peptide-research/
+[FETCHED_AT] 2026-05-08T01:46:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/blog_1.md
+[LINE_RANGE] 65-83
+[QUOTE]
+"###  [ SLU-PP-332 Peptide: Uses, Research, and Where to Buy in the USA ]
+
+###  [ Peptides for Muscle Growth – Benefits, Safety, and Research-Backed Results ]
+
+###  [ NAD+ Injection: A Complete Guide to Benefits, Safety, and Clinical Use ]
+
+###  [ Peptide Weight Loss: Science-Backed Tools to Burn Fat and Protect Muscle ]
+
+###  [ Buy Peptides Online for Research | Tested, High-Purity USA Shipping ]"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.nurevpeptides.com/product/retatrutide-10mg-research-compound-ly-3437943-triple-agonist/
+[FETCHED_AT] 2026-05-08T01:44:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/product_1__retatrutide-10mg.md
+[LINE_RANGE] 95-97
+[QUOTE]
+"[ ](https://www.trustpilot.com/review/nurevpeptides.com?_gl=1*161utqg*_gcl_au*MTk2MjY5MDk1My4xNzY3MTU4MjY3LjE2NTgzMTY5NDYuMTc2ODM0MDM1MS4xNzY4MzQwMzUw*_ga*MjA1NjUwNzY4MS4xNzY3MTU4MjY3*_ga_11HBWMC274*czE3NjgzNDAyODgkbzYkZzEkdDE3NjgzNDA1NjUkajYwJGwwJGgw)
+
+⭐ Read customer reviews on Trustpilot"
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://www.nurevpeptides.com/about-us/
+[FETCHED_AT] 2026-05-08T01:46:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/about.md
+[LINE_RANGE] 78-82
+[QUOTE]
+"## NuRev Peptides Expansion Plans
+
+NuRev Peptides is expanding its platform to include physician-led care, in collaboration with Chuck Liddell, by partnering with U.S.-based, state-licensed pharmacies. This expansion will provide access to compounded GLP-1 and GIP medications, including tirzepatide and semaglutide, formulated to support weight management, metabolic health, and overall wellness."
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.nurevpeptides.com/product/retatrutide-10mg-research-compound-ly-3437943-triple-agonist/
+[FETCHED_AT] 2026-05-08T01:44:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/product_1__retatrutide-10mg.md
+[LINE_RANGE] 225-235
+[QUOTE]
+"What truly sets NuRev Peptides apart isn’t just the high-quality peptides. It’s the people behind the company. Mike goes above and beyond to educate, guide, and make sure you feel confident in what you’re using.
+
+Vince Rabiola
+
+When I first started my peptide journey, I came across NuRev Peptides. Mike provides incredibly informative guidance, and I truly trust his products.
+
+Alan Nanas
+
+Highest quality products on the market, always in stock, incredible transparency and the owner is a wealth of knowledge and always available if you have a question.
+
+Brandon Yearout"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.nurevpeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T01:45:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/shipping.md
+[LINE_RANGE] 134-140
+[QUOTE]
+"### U.S. Shipping Only
+
+  * We currently ship to U.S. addresses only.
+
+  * No international shipping, forwarding services, or reshippers."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.nurevpeptides.com/
+[FETCHED_AT] 2026-05-08T01:42:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/homepage.md
+[LINE_RANGE] 30
+[QUOTE]
+"2655 First Street Suite 250 Simi Valley, CA 93065"
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://www.nurevpeptides.com/terms/
+[FETCHED_AT] 2026-05-08T01:44:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/tos.md
+[LINE_RANGE] 80-84
+[QUOTE]
+"## 2) Eligibility & Accounts
+
+  * You represent that you are 21+ and legally able to enter binding agreements.
+
+  * You agree to provide accurate information and keep your account secure. We may refuse or cancel orders, or suspend accounts for suspected fraud, misuse, or non-compliance."
+[/QUOTE]
+
+[CLAIM] skus[retatrutide-10mg].list_price_usd
+[URL] https://www.nurevpeptides.com/product/retatrutide-10mg-research-compound-ly-3437943-triple-agonist/
+[FETCHED_AT] 2026-05-08T01:44:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/product_1__retatrutide-10mg.md
+[LINE_RANGE] 84-86
+[QUOTE]
+"$99.00 – $289.00Price range: $99.00 through $289.00
+
+Size |  Choose an option10mg20mg30mgClear"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-10mg].list_price_usd
+[URL] https://www.nurevpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T01:44:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/product_2__bpc-157-10mg.md
+[LINE_RANGE] 83-85
+[QUOTE]
+"# BPC-157 10MG
+
+~~$ 64.00~~ Original price was: $64.00.$54.00Current price is: $54.00."
+[/QUOTE]
+
+[CLAIM] skus[tb-500-10mg].list_price_usd
+[URL] https://www.nurevpeptides.com/product/tb-500-10mg/
+[FETCHED_AT] 2026-05-08T01:44:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/product_3__tb-500-10mg.md
+[LINE_RANGE] 83-85
+[QUOTE]
+"# TB-500 10MG – Thymosin Beta-4
+
+$75.00"
+[/QUOTE]
+
+[CLAIM] skus[tirzepatide-10mg].list_price_usd
+[URL] https://www.nurevpeptides.com/product/tirzepatide-10mg/
+[FETCHED_AT] 2026-05-08T01:44:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/product_4__tirzepatide-10mg.md
+[LINE_RANGE] 83-87
+[QUOTE]
+"# Tirzepatide 10MG
+
+$99.00 – $297.00Price range: $99.00 through $297.00
+
+Size |  Choose an option10mg15mg20mg30mgClear"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg].list_price_usd
+[URL] https://www.nurevpeptides.com/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T01:44:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/product_5__ghk-cu-50mg.md
+[LINE_RANGE] 83-85
+[QUOTE]
+"# GHK-Cu 50MG – Research Copper Peptide
+
+$45.00"
+[/QUOTE]
+
+[CLAIM] skus[mots-c-10mg].list_price_usd
+[URL] https://www.nurevpeptides.com/product/mots-c-10mg/
+[FETCHED_AT] 2026-05-08T01:44:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/product_6__mots-c-10mg.md
+[LINE_RANGE] 83-87
+[QUOTE]
+"# MOTS-C 10MG
+
+$39.00 – $149.00Price range: $39.00 through $149.00
+
+Size |  Choose an option10mg40mgClear"
+[/QUOTE]
+
+[CLAIM] skus[semaglutide-10mg].list_price_usd
+[URL] https://www.nurevpeptides.com/product/semaglutide-10mg/
+[FETCHED_AT] 2026-05-08T01:44:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/product_7__semaglutide-10mg.md
+[LINE_RANGE] 83-85
+[QUOTE]
+"# Semaglutide 10mg
+
+~~$ 109.00~~ Original price was: $109.00.$104.00Current price is: $104.00."
+[/QUOTE]
+
+[CLAIM] skus[retatrutide-20mg].list_price_usd
+[URL] https://www.nurevpeptides.com/shop/?product-page=2
+[FETCHED_AT] 2026-05-08T01:43:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/catalog_2.md
+[LINE_RANGE] 100-101
+[QUOTE]
+"  * [ Sale! Retatrutide 20MG ~~$ 218.00~~ Original price was: $218.00.$199.00Current price is: $199.00. ](https://www.nurevpeptides.com/product/retatrutide-20mg/)"
+[/QUOTE]
+
+[CLAIM] skus[retatrutide-30mg].list_price_usd
+[URL] https://www.nurevpeptides.com/shop/?product-page=2
+[FETCHED_AT] 2026-05-08T01:43:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/catalog_2.md
+[LINE_RANGE] 84-85
+[QUOTE]
+"  * [ Sale! GLP-3 RT 30 MG (Retatrutride) ~~$ 327.00~~ Original price was: $327.00.$279.00Current price is: $279.00. ](https://www.nurevpeptides.com/product/glp-3-rt-30mg-retatrutride/)"
+[/QUOTE]
+
+[CLAIM] skus[selank-10mg].list_price_usd
+[URL] https://www.nurevpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T01:43:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/catalog_1.md
+[LINE_RANGE] 124-125
+[QUOTE]
+"  * ## [Selank 10MG $40.00 ](https://www.nurevpeptides.com/product/selank-11mg/)"
+[/QUOTE]
+
+[CLAIM] skus[epitalon-10mg].list_price_usd
+[URL] https://www.nurevpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T01:43:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/catalog_1.md
+[LINE_RANGE] 126-127
+[QUOTE]
+"  * [ Sale! Epitalon 10MG ~~$ 35.00~~ Original price was: $35.00.$30.00Current price is: $30.00. ](https://www.nurevpeptides.com/product/epitalon-10mg/)"
+[/QUOTE]
+
+[CLAIM] skus[nad-500mg].list_price_usd
+[URL] https://www.nurevpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T01:43:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/catalog_1.md
+[LINE_RANGE] 104-105
+[QUOTE]
+"  * ## [NAD+ 500MG $90.00 ](https://www.nurevpeptides.com/product/nad-500mg/)"
+[/QUOTE]
+
+[CLAIM] skus[glow-70mg-stack].list_price_usd
+[URL] https://www.nurevpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T01:43:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/catalog_1.md
+[LINE_RANGE] 94
+[QUOTE]
+"  * ## [GLOW 70MG (BPC-157 + GHK-Cu + TB-500) $134.99 ](https://www.nurevpeptides.com/product/glow-70mg/)"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-100mg].list_price_usd
+[URL] https://www.nurevpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T01:43:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/catalog_1.md
+[LINE_RANGE] 128-129
+[QUOTE]
+"  * [ Sale! GHK-Cu 100MG ~~$ 69.99~~ Original price was: $69.99.$58.99Current price is: $58.99. ](https://www.nurevpeptides.com/product/ghk-cu-100mg/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://www.nurevpeptides.com/terms/
+[FETCHED_AT] 2026-05-08T01:44:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/tos.md
+[LINE_RANGE] 115-117
+[QUOTE]
+"  * Lot-to-lot variations within normal analytical tolerance may occur. COAs/contaminant reports are provided per lot and reflect measured values for that lot."
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://www.nurevpeptides.com/peptide-research/
+[FETCHED_AT] 2026-05-08T01:46:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nurev-peptides/blog_1.md
+[LINE_RANGE] 65-83
+[QUOTE]
+"###  [ SLU-PP-332 Peptide: Uses, Research, and Where to Buy in the USA ](https://www.nurevpeptides.com/slu-pp-332-peptide-uses-research-and-where-to-buy-in-the-usa/)
+
+###  [ Peptides for Muscle Growth – Benefits, Safety, and Research-Backed Results ](https://www.nurevpeptides.com/peptides-for-muscle-growth-benefits-safety-and-research-backed-results/)"
+[/QUOTE]

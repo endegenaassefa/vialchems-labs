@@ -1,0 +1,383 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://midwaygrays.com
+[FETCHED_AT] 2026-05-08T00:10:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/homepage.md
+[LINE_RANGE] 8-12
+[QUOTE]
+"Research-Grade Peptides
+
+## Where Research Meets Precision
+
+Batch-produced, independently tested, and shipped from the U.S.A."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://coffeeandpeppers.com/
+[FETCHED_AT] 2026-05-08T00:55:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_homepage.md
+[LINE_RANGE] 107-107
+[QUOTE]
+"[ SHOP NOW  ](/web/20260208165721/https://coffeeandpeppers.com/shop)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://coffeeandpeppers.com/
+[FETCHED_AT] 2026-05-08T00:55:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_homepage.md
+[LINE_RANGE] 329-336
+[QUOTE]
+"  * [HOME](https://web.archive.org/web/20260208165721/https://coffeeandpeppers.com/)
+  * [Shop](https://web.archive.org/web/20260208165721/https://coffeeandpeppers.com/shop/)
+  * [COA](https://web.archive.org/web/20260208165721/https://coffeeandpeppers.com/coa/)
+  * [About Us](https://web.archive.org/web/20260208165721/https://coffeeandpeppers.com/about-us/)
+  * [FAQs](https://web.archive.org/web/20260208165721/https://coffeeandpeppers.com/faq/)
+  * [Order Lookup](https://web.archive.org/web/20260208165721/https://coffeeandpeppers.com/order-lookup/)
+  * [Contact](https://web.archive.org/web/20260208165721/https://coffeeandpeppers.com/contact/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://coffeeandpeppers.com/shop/
+[FETCHED_AT] 2026-05-08T00:56:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_catalog_1.md
+[LINE_RANGE] 1148-1148
+[QUOTE]
+"Peptides are intended for laboratory research use only and are not approved for human consumption, medical, or veterinary use. Sold solely for research and development purposes by qualified professionals. No international shipping."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://coffeeandpeppers.com/shop/
+[FETCHED_AT] 2026-05-08T00:56:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_catalog_1.md
+[LINE_RANGE] 1076-1083
+[QUOTE]
+"  * [Singles57](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop-singles/)
+  * [Kits39](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop-kits/)
+  * [Sprays4](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop-sprays/)
+  * [Capsules6](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop-capsules/)
+  * [Aminos8](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop-aminos/)
+  * [Liquids2](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop-liquids/)"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://coffeeandpeppers.com/shop/
+[FETCHED_AT] 2026-05-08T00:56:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_catalog_1.md
+[LINE_RANGE] 20-27
+[QUOTE]
+"[Shop](/web/20260508005602/https://coffeeandpeppers.com/shop/)
+    * [ All Products](/web/20260508005602/https://coffeeandpeppers.com/shop/)
+    * [Singles](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop-singles/)
+    * [Kits](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop-kits/)
+    * [Sprays](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop-sprays/)
+    * [Capsules](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop-capsules/)
+    * [Aminos](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop-aminos/)
+    * [Liquids](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop-liquids/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://coffeeandpeppers.com/shop/
+[FETCHED_AT] 2026-05-08T00:56:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_catalog_1.md
+[LINE_RANGE] 470-477
+[QUOTE]
+"[TB-500 & BPC-157 5MG/5MG](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop/singles/tb-500-bpc-157-10mg-3/)
+
+[TB-500 & BPC-157 5MG/5MG](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop/singles/tb-500-bpc-157-10mg-3/)
+
+$65.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://coffeeandpeppers.com/
+[FETCHED_AT] 2026-05-08T00:55:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_homepage.md
+[LINE_RANGE] 275-275
+[QUOTE]
+"All items sold by Coffee&Peppers are strictly for laboratory research use only. They are not for human or animal consumption, not for therapeutic use, and not cleared for incorporation into food, cosmetics, medical devices, or drugs. By purchasing, you confirm you are a qualified professional or organization capable of safely and lawfully handling these materials."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://coffeeandpeppers.com/
+[FETCHED_AT] 2026-05-08T00:55:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_homepage.md
+[LINE_RANGE] 277-279
+[QUOTE]
+"2\. Do you provide Certificates of Analysis (COAs)?
+
+Yes. Certificates of Analysis are available for most products upon request. These third-party lab reports verify the purity and composition of the materials."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://www.finnrick.com/vendors/coffee-and-peppers
+[FETCHED_AT] 2026-05-08T00:58:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/social_1_finnrick.md
+[LINE_RANGE] 57-60
+[QUOTE]
+"29 Mar 2026| GHK-Cu| [View](/testing-certificate/ghk-cu/coffee-and-peppers/20260329-g-9bacq8e)| 9.5| 50mg| 48.8mg| -2.4%| 99.70%| CPGHK5026020601| Silver Label / Silver Crimp / Clear Cap| Lab G| Vendor
+29 Mar 2026| Retatrutide| [View](/testing-certificate/retatrutide/coffee-and-peppers/20260329-g-967uj74)| 9.8| 30mg| 31.2mg| +4.0%| 99.80%| CPR3026021401| Silver Label / Silver Crimp / Purple Cap| Lab G| Vendor"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://coffeeandpeppers.com/shop/
+[FETCHED_AT] 2026-05-08T00:56:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_catalog_1.md
+[LINE_RANGE] 73-78
+[QUOTE]
+"[BPC-157 10MG](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop/singles/bpc-157-3/)
+
+[BPC-157 10MG](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop/singles/bpc-157-3/)
+
+$45.00"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://coffeeandpeppers.com/
+[FETCHED_AT] 2026-05-08T00:55:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_homepage.md
+[LINE_RANGE] 129-131
+[QUOTE]
+"### Research Use Only
+
+Labeled for research and laboratory use only."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://midwaygrays.com
+[FETCHED_AT] 2026-05-08T00:10:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/homepage.md
+[LINE_RANGE] 38-44
+[QUOTE]
+"## Age Verification Required
+
+You must be **21 years of age or older** and a research professional or licensed business representative to access this site. By entering you confirm both.
+
+I am 21 or older [I am not](https://www.google.com)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://coffeeandpeppers.com/shop/
+[FETCHED_AT] 2026-05-08T00:56:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_catalog_1.md
+[LINE_RANGE] 1148-1148
+[QUOTE]
+"Peptides are intended for laboratory research use only and are not approved for human consumption, medical, or veterinary use. Sold solely for research and development purposes by qualified professionals. No international shipping."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://midwaygrays.com
+[FETCHED_AT] 2026-05-08T00:10:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/homepage.md
+[LINE_RANGE] 34-34
+[QUOTE]
+[Terms](https://coffeeandpeppers.com/terms-and-conditions/)
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://coffeeandpeppers.com/
+[FETCHED_AT] 2026-05-08T00:55:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_homepage.md
+[LINE_RANGE] 282-283
+[QUOTE]
+"3\. How long does it take to receive my order?
+
+Orders are typically processed within 3-5 business days. Delivery time varies depending on the carrier and shipping destination. Once a package has left our facility, Coffee&Peppers cannot control courier delays, customs processing times, or issues caused by inaccurate shipping information."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://midwaygrays.com
+[FETCHED_AT] 2026-05-08T00:10:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/homepage.md
+[LINE_RANGE] 14-32
+[QUOTE]
+"# Welcome
+
+Sign In Create Account
+
+Email
+
+Password
+
+Sign In
+
+Email
+
+Password
+
+Confirm Password
+
+I'm 21 or older and understand all products are sold strictly for laboratory research only — not for human or animal consumption. (Full FDA disclaimer below.)
+
+Create Account"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://coffeeandpeppers.com/shop/
+[FETCHED_AT] 2026-05-08T00:56:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_catalog_1.md
+[LINE_RANGE] 1146-1146
+[QUOTE]
+"Visa Mastercard Amex"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://coffeeandpeppers.com/shop/
+[FETCHED_AT] 2026-05-08T00:56:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_catalog_1.md
+[LINE_RANGE] 1070-1070
+[QUOTE]
+"**FREE** shipping over $350 · 3rd-party tested"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://coffeeandpeppers.com/shop/
+[FETCHED_AT] 2026-05-08T00:56:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_catalog_1.md
+[LINE_RANGE] 1148-1148
+[QUOTE]
+"Peptides are intended for laboratory research use only and are not approved for human consumption, medical, or veterinary use. Sold solely for research and development purposes by qualified professionals. No international shipping."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The shop navigation pattern uses /shop/, /my-account/, /cart/, /checkout/ URL structures standard to WooCommerce. The footer copyright reads "Copyright © 2025 RisingBamboo. All Rights Reserved." which is a WooCommerce theme builder. The presence of add-to-cart parameter (?add-to-cart=218) in product URLs is a WooCommerce-specific URL pattern.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://coffeeandpeppers.com/shop/
+[FETCHED_AT] 2026-05-08T00:56:34Z
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_catalog_1.md
+[LINE_RANGE] 1052-1052
+"Copyright © 2025 [RisingBamboo. ](https://web.archive.org/web/20260508005602/https://risingbamboo.com/) All Rights Reserved."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://coffeeandpeppers.com/
+[FETCHED_AT] 2026-05-08T00:55:54Z
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_homepage.md
+[LINE_RANGE] 165-165
+[Add to cart](/web/20260208165721/https://coffeeandpeppers.com/?add-to-cart=218)
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] Cloudflare
+[REASONING]
+The coffeeandpeppers.com domain uses Cloudflare email obfuscation (cdn-cgi/l/email-protection pattern), which is a Cloudflare-specific feature present on every page fetched. This is a definitive signal for Cloudflare CDN/proxy.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://coffeeandpeppers.com/shop/
+[FETCHED_AT] 2026-05-08T00:56:34Z
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_catalog_1.md
+[LINE_RANGE] 41-41
+"[[email protected]](/web/20260508005602/https://coffeeandpeppers.com/cdn-cgi/l/email-protection)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://coffeeandpeppers.com/shop/
+[FETCHED_AT] 2026-05-08T00:56:34Z
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_catalog_1.md
+[LINE_RANGE] 1030-1030
+"[[email protected]](/web/20260508005602/https://coffeeandpeppers.com/cdn-cgi/l/email-protection)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.finnrick.com/vendors/coffee-and-peppers
+[FETCHED_AT] 2026-05-08T00:58:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/social_1_finnrick.md
+[LINE_RANGE] 3-8
+[QUOTE]
+"# Coffee and Peppers
+
+Premium
+
+Finnrick has tested 30 samples from Coffee and Peppers across 4 products.
+
+[coffeeandpeppers.com](https://www.coffeeandpeppers.com)Finnrick verified this link on 10 Apr 2026"
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://coffeeandpeppers.com/
+[FETCHED_AT] 2026-05-08T00:55:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_homepage.md
+[LINE_RANGE] 321-323
+[QUOTE]
+"@coffeepeppers
+
+[ Discord ](https://web.archive.org/web/20260208165721/https://discord.gg/K6rEQv3Ab3) [ Telegram-plane ](https://web.archive.org/web/20260208165721/https://t.me/+9Zc24tVSluk4YjEx)"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://midwaygrays.com
+[FETCHED_AT] 2026-05-08T00:10:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/homepage.md
+[LINE_RANGE] 48-48
+[QUOTE]
+"Coffee & Peppers · 1525 S Higley Rd. Ste 104 PMB 1021, Gilbert, AZ, 85298"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://coffeeandpeppers.com/
+[FETCHED_AT] 2026-05-08T00:55:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_homepage.md
+[LINE_RANGE] 104-105
+[QUOTE]
+"Orders are processed quickly and come
+with tracking numbers. Orders are shipped from the USA to you within 3-5 business days from the day you receive your tracking info."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://coffeeandpeppers.com/shop/
+[FETCHED_AT] 2026-05-08T00:56:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_catalog_1.md
+[LINE_RANGE] 1148-1148
+[QUOTE]
+"Peptides are intended for laboratory research use only and are not approved for human consumption, medical, or veterinary use. Sold solely for research and development purposes by qualified professionals. No international shipping."
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd (headline SKUs)
+[URL] https://coffeeandpeppers.com/shop/
+[FETCHED_AT] 2026-05-08T00:56:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_catalog_1.md
+[LINE_RANGE] 75-80
+[QUOTE]
+[BPC-157 10MG](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop/singles/bpc-157-3/)
+
+[BPC-157 10MG](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop/singles/bpc-157-3/)
+
+$45.00
+[/QUOTE]
+[URL] https://coffeeandpeppers.com/shop/
+[FETCHED_AT] 2026-05-08T00:56:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/midway-gray/cpp_catalog_1.md
+[LINE_RANGE] 471-476
+[QUOTE]
+[TB-500 & BPC-157 5MG/5MG](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop/singles/tb-500-bpc-157-10mg-3/)
+
+[TB-500 & BPC-157 5MG/5MG](https://web.archive.org/web/20260508005602/https://coffeeandpeppers.com/shop/singles/tb-500-bpc-157-10mg-3/)
+
+$65.00
+[/QUOTE]

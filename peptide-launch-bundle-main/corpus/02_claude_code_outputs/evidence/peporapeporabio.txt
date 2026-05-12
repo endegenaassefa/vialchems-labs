@@ -1,0 +1,628 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://peporabio.com/
+[FETCHED_AT] 2026-05-08T05:56:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/homepage.md
+[LINE_RANGE] 42-44
+[QUOTE]
+"Built for Precision. Trusted by Hundreds of Researchers."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://peporabio.com/
+[FETCHED_AT] 2026-05-08T05:56:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/homepage.md
+[LINE_RANGE] 59-59
+[QUOTE]
+"[View products →](https://peporabio.com/products/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://peporabio.com/
+[FETCHED_AT] 2026-05-08T05:56:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/homepage.md
+[LINE_RANGE] 218-220
+[QUOTE]
+"All products are sold for research use only and are not for human consumption or medical use. These statements have not been evaluated by the FDA, and the products are not intended to diagnose, treat, cure, or prevent any disease."
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://peporabio.com/
+[FETCHED_AT] 2026-05-08T05:56:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/homepage.md
+[LINE_RANGE] 12-14
+[QUOTE]
+"  * [Home](https://peporabio.com/)
+  * [Products](https://peporabio.com/products/)
+  * [About Us](https://peporabio.com/about-us/)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://peporabio.com/products/
+[FETCHED_AT] 2026-05-08T05:57:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/catalog_1.md
+[LINE_RANGE] 1-1
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/peporapeporabio/product_*.md:
+12 saved artifacts (filenames listed below).
+[FILES]
+product_1__bpc-157.md
+product_2__glp-3-rt.md
+product_3__tesamorelin.md
+product_4__thymosin-beta-4.md
+product_5__ghk-cu.md
+product_6__glow-blend.md
+product_7__ara-290.md
+product_8__bacteriostatic-water.md
+product_9__epitalon.md
+product_10__klow.md
+product_11__thymosin-alpha-1.md
+product_12__wolverine.md
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://peporabio.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_1__bpc-157.md
+[LINE_RANGE] 52-52
+[QUOTE]
+"**BPC-157** is a synthetic research peptide supplied exclusively for laboratory and analytical research purposes and intended for use in controlled, non-clinical research environments."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://peporabio.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_1__bpc-157.md
+[LINE_RANGE] 72-79
+[QUOTE]
+"**Intended Use**
+
+This product is supplied exclusively for laboratory and in vitro research purposes. It is not designed or approved for use in humans or animals and must not be used for therapeutic, cosmetic, dietary, or diagnostic applications.
+
+**Regulatory Disclaimer**
+
+This material has not been reviewed or approved by the U.S. Food and Drug Administration (FDA). Information provided is for scientific and educational reference only and is not intended to diagnose, treat, cure, or prevent any disease. Use of this product is limited to qualified professionals operating within applicable legal, regulatory, and ethical research standards."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://peporabio.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_1__bpc-157.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"[📄View Certificate of Analysis (PDF)](https://drive.google.com/file/d/1p7XKQvbfANU5TCuZ51JCITLfslq67ag-/view)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://peporabio.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_1__bpc-157.md
+[LINE_RANGE] 48-48
+[QUOTE]
+"~~$ 74.99~~ Original price was: $74.99.$49.99Current price is: $49.99."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://peporabio.com/about-us/
+[FETCHED_AT] 2026-05-08T06:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/about.md
+[LINE_RANGE] 132-136
+[QUOTE]
+"Third-Party Batch Testing
+
+Each batch is independently reviewed by an accredited laboratory to verify purity and compound identity before release."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://peporabio.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_1__bpc-157.md
+[LINE_RANGE] 66-69
+[QUOTE]
+"Specification | •Quantity: 10 mg per vial
+•Purity: ≥99%
+•Form: Lyophilized powder
+•Storage: Store sealed in a cool, dry environment"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=peporapeporabio:bpc-157-10mg]
+[URL] https://peporabio.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_1__bpc-157.md
+[LINE_RANGE] 44-48
+[QUOTE]
+"# BPC – 157
+
+10mg
+
+~~$ 74.99~~ Original price was: $74.99.$49.99Current price is: $49.99."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=peporapeporabio:glp-3-rt-15mg]
+[URL] https://peporabio.com/product/glp-3-rt/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_2__glp-3-rt.md
+[LINE_RANGE] 44-48
+[QUOTE]
+"# GLP-3 RT
+
+15mg
+
+~~$ 119.99~~ Original price was: $119.99.$89.99Current price is: $89.99."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=peporapeporabio:tesamorelin-10mg]
+[URL] https://peporabio.com/product/tesamorelin/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_3__tesamorelin.md
+[LINE_RANGE] 44-48
+[QUOTE]
+"# TESAMORELIN
+
+10mg
+
+~~$ 99.99~~ Original price was: $99.99.$69.99Current price is: $69.99."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=peporapeporabio:tb-500-10mg]
+[URL] https://peporabio.com/product/thymosin-beta-4/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_4__thymosin-beta-4.md
+[LINE_RANGE] 44-48
+[QUOTE]
+"# TB-500 (TB4)
+
+10mg
+
+~~$ 79.99~~ Original price was: $79.99.$64.99Current price is: $64.99."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=peporapeporabio:ghk-cu-10mg]
+[URL] https://peporabio.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_5__ghk-cu.md
+[LINE_RANGE] 44-48
+[QUOTE]
+"# GHK – CU
+
+50mg
+
+~~$ 59.99~~ Original price was: $59.99.$39.99Current price is: $39.99."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=peporapeporabio:glow-blend-70mg]
+[URL] https://peporabio.com/product/glow-blend/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_6__glow-blend.md
+[LINE_RANGE] 44-48
+[QUOTE]
+"# GLOW BLEND
+
+70mg
+
+$114.99"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=peporapeporabio:ara-290-10mg]
+[URL] https://peporabio.com/product/ara-290/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_7__ara-290.md
+[LINE_RANGE] 44-48
+[QUOTE]
+"# ARA – 290
+
+10mg
+
+$49.99"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=peporapeporabio:bacteriostatic-water-3ml].out_of_stock
+[URL] https://peporabio.com/product/bacteriostatic-water/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_8__bacteriostatic-water.md
+[LINE_RANGE] 83-84
+[QUOTE]
+"Out of stock
+
+Out of Stock"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=peporapeporabio:epitalon-10mg]
+[URL] https://peporabio.com/product/epitalon/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_9__epitalon.md
+[LINE_RANGE] 44-48
+[QUOTE]
+"# EPITALON
+
+10mg
+
+~~$ 79.99~~ Original price was: $79.99.$59.99Current price is: $59.99."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=peporapeporabio:klow-80mg]
+[URL] https://peporabio.com/product/klow/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_10__klow.md
+[LINE_RANGE] 44-48
+[QUOTE]
+"# KLOW
+
+80mg
+
+$119.99"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=peporapeporabio:thymosin-alpha-1-10mg]
+[URL] https://peporabio.com/product/thymosin-alpha-1/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_11__thymosin-alpha-1.md
+[LINE_RANGE] 44-48
+[QUOTE]
+"# THYMOSIN ALPHA-1
+
+10mg
+
+$64.99"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=peporapeporabio:wolverine-10mg]
+[URL] https://peporabio.com/product/wolverine/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_12__wolverine.md
+[LINE_RANGE] 44-48
+[QUOTE]
+"# WOLVERINE
+
+10mg
+
+$69.99"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://peporabio.com/
+[FETCHED_AT] 2026-05-08T05:56:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/homepage.md
+[LINE_RANGE] 218-220
+[QUOTE]
+"All products are sold for research use only and are not for human consumption or medical use. These statements have not been evaluated by the FDA, and the products are not intended to diagnose, treat, cure, or prevent any disease."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://peporabio.com/
+[FETCHED_AT] 2026-05-08T05:56:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/homepage.md
+[LINE_RANGE] 177-179
+[QUOTE]
+"These compounds are offered for lawful laboratory research purposes where permitted. Buyers are responsible for complying with all applicable local and state regulations. Not for human use."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] true
+[REASONING]
+The site's HTML source contains a complete age gate plugin template with question "Are you over 21 years of age?" and confirmation text stating "I confirm that I am at least 21 years old." This was confirmed from two independent signals in the HTML source: the age-gate template element and the age-gate-css stylesheet reference, both loaded on all pages.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peporabio.com/
+[FETCHED_AT] 2026-05-08T05:56:06Z
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/homepage.md
+[LINE_RANGE] 185-185
+"We supply research compounds to qualified researchers, laboratories, and institutions. Orders intended for personal or recreational use are not accepted. You must be 18+ to place an order."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peporabio.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T06:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/tos.md
+[LINE_RANGE] 57-58
+"ELIGIBILITY
+You must be at least 18 years of age and have the legal capacity to enter into binding agreements to use the Website or purchase products."
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://peporabio.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T06:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/tos.md
+[LINE_RANGE] 45-48
+[QUOTE]
+"TERMS AND CONDITIONS
+Effective Date: January 29, 2026
+
+These Terms and Conditions ("Terms") govern your access to and use of peporabio.com"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://peporabio.com/refunds-returns-policy/
+[FETCHED_AT] 2026-05-08T06:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/refund.md
+[LINE_RANGE] 49-53
+[QUOTE]
+"**ALL SALES FINAL – NO RETURNS – NO REFUNDS**
+
+Due to the specialized, non-consumer nature of our products and strict quality control procedures,
+
+all sales are final. Pepora does not accept returns or offer refunds once an order has been placed."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://peporabio.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/shipping.md
+[LINE_RANGE] 49-57
+[QUOTE]
+"1. SHIPPING AVAILABILITY
+We currently ship within the United States only.
+
+2. SHIPPING METHODS AND COSTS
+Available shipping options may include standard and expedited services provided by reputable carriers such as USPS and FedEx. Shipping methods and costs are displayed at checkout.
+
+3. FREE SHIPPING
+Free shipping is available on orders with a merchandise total of $150 USD or more."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://peporabio.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/shipping.md
+[LINE_RANGE] 49-50
+[QUOTE]
+"1. SHIPPING AVAILABILITY
+We currently ship within the United States only."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://peporabio.com/checkout/
+[FETCHED_AT] 2026-05-08T06:05:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/checkout_step_1.md
+[LINE_RANGE] 42-50
+[QUOTE]
+"## My Account
+
+## Login
+
+Username or email address *Required
+
+Password *Required
+
+Remember me Log in"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[INFERENCE] ["Bitcoin (BTC) — 7.5% discount", "USDT (TRC20) — 7.5% discount", "credit_card_via_undercore.store"]
+[REASONING]
+The payment gateway JavaScript data embedded in the site HTML explicitly names Bitcoin and USDT-TRC20 with 7.5% discounts each. The undercore.store preconnect link indicates a credit card payment processor is integrated. The footer shows a "Payment" heading with a payment icons image. The shipping policy also references "payment methods displayed at checkout."
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peporabio.com/
+[FETCHED_AT] 2026-05-08T05:56:06Z
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/homepage.md
+[LINE_RANGE] 8-8
+"**FREE 2-DAY SHIPPING ON ORDERS OVER $250**"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peporabio.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/shipping.md
+[LINE_RANGE] 92-93
+"9. PAYMENTS, PRICING, AND PROMOTIONS
+We accept payment methods displayed at checkout."
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://peporabio.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/shipping.md
+[LINE_RANGE] 53-53
+[QUOTE]
+"Available shipping options may include standard and expedited services provided by reputable carriers such as USPS and FedEx."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://peporabio.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/shipping.md
+[LINE_RANGE] 49-50
+[QUOTE]
+"1. SHIPPING AVAILABILITY
+We currently ship within the United States only."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://peporabio.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/shipping.md
+[LINE_RANGE] 55-57
+[QUOTE]
+"3. FREE SHIPPING
+Free shipping is available on orders with a merchandise total of $150 USD or more. This threshold may change at any time without prior notice."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+Multiple WooCommerce indicators present in page source: woocommerce-layout.css, woocommerce.css, and woocommerce JavaScript files loaded from wp-content/plugins/woocommerce/. WordPress version 6.9.4 confirmed from wcSettings JSON. Yoast SEO WordPress plugin also present.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peporabio.com/
+[FETCHED_AT] 2026-05-08T05:56:06Z
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/homepage.md
+[LINE_RANGE] 1-6
+"---
+url: https://peporabio.com/
+fetched_at: 2026-05-08T05:56:06Z
+fetch_method: curl
+http_status: 200
+sha256: d1cc4dc80d5a22a5d08e5b6b7d7f56d3dc44833cf5b7b218953d9a19acc1cf73"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peporabio.com/products/
+[FETCHED_AT] 2026-05-08T05:57:05Z
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/catalog_1.md
+[LINE_RANGE] 1-6
+"---
+url: https://peporabio.com/products/
+fetched_at: 2026-05-08T05:57:05Z
+fetch_method: curl
+http_status: 200
+sha256: 8e0e5a6dffe6e0234ef97b20c2e7e26f1eb9b7e7af56b2d5e5fdbf2f62fcaf1c"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] ["Google Analytics (GT-TNGQL3LR via gtag.js)", "Google Site Kit 1.177.0", "Yoast SEO v27.5"]
+[REASONING]
+Google tag (gtag.js) snippet with ID GT-TNGQL3LR explicitly present in page source as added by Site Kit. Yoast SEO v27.5 generator meta tag present. Site Kit meta generator also present.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peporabio.com/
+[FETCHED_AT] 2026-05-08T05:56:06Z
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/homepage.md
+[LINE_RANGE] 42-44
+"Built for Precision. Trusted by Hundreds of Researchers."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peporabio.com/
+[FETCHED_AT] 2026-05-08T05:56:06Z
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/homepage.md
+[LINE_RANGE] 218-220
+"All products are sold for research use only and are not for human consumption or medical use. These statements have not been evaluated by the FDA, and the products are not intended to diagnose, treat, cure, or prevent any disease."
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE] ["Meta Pixel (ID: 948341854717576)"]
+[REASONING]
+Meta Pixel code with ID 948341854717576 explicitly present in page source with fbq('init', '948341854717576') and fbq('track', 'PageView') calls. DNS-prefetch for connect.facebook.net also present.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peporabio.com/
+[FETCHED_AT] 2026-05-08T05:56:06Z
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/homepage.md
+[LINE_RANGE] 61-63
+"### +99% Purity
+
+Verified purity for research use."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peporabio.com/
+[FETCHED_AT] 2026-05-08T05:56:06Z
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/homepage.md
+[LINE_RANGE] 65-67
+"### Same-day fulfilment
+
+Order before 4 PM PST for same-day shipping."
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://peporabio.com/blog/
+[FETCHED_AT] 2026-05-08T06:10:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/blog_1.md
+[LINE_RANGE] 43-44
+[QUOTE]
+"# Blog
+
+It seems we can't find what you're looking for."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2026
+[REASONING]
+TOS states 'Effective Date: January 29, 2026'. Copyright notice reads 'Copyright © 2026 Pepora, All Rights Reserved.' Google Drive COA file path includes '2026/01'. All evidence points to 2026 launch.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peporabio.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T06:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/tos.md
+[LINE_RANGE] 45-46
+"TERMS AND CONDITIONS
+Effective Date: January 29, 2026"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peporabio.com/
+[FETCHED_AT] 2026-05-08T05:56:06Z
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/homepage.md
+[LINE_RANGE] 216-216
+"Copyright © 2026 Pepora, All Rights Reserved."
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://peporabio.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_1__bpc-157.md
+[LINE_RANGE] 50-50
+[QUOTE]
+"Descriptions  COA's  Additional information  Disclaimer"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://peporabio.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_1__bpc-157.md
+[LINE_RANGE] 106-120
+[QUOTE]
+"[ ](https://peporabio.com/product/bacteriostatic-water/)
+
+## [BACTERIOSTATIC WATER](https://peporabio.com/product/bacteriostatic-water/)
+
+3ml
+
+$14.99
+
+[Out of stock](https://peporabio.com/product/bacteriostatic-water/)
+
+[ ](https://peporabio.com/product/epitalon/)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://peporabio.com/products/
+[FETCHED_AT] 2026-05-08T05:57:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/catalog_1.md
+[LINE_RANGE] 44-46
+[QUOTE]
+"# All Products
+
+Lab-tested research compounds. Built for precision."
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://peporabio.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peporapeporabio/product_1__bpc-157.md
+[LINE_RANGE] 50-50
+[QUOTE]
+"Descriptions  COA's  Additional information  Disclaimer"
+[/QUOTE]

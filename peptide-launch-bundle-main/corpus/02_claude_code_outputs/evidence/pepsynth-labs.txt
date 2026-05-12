@@ -1,0 +1,870 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:20:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/homepage.md
+[LINE_RANGE] 39
+[QUOTE]
+"**researchers nationwide** for purity, transparency, and scientific integrity"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:20:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/homepage.md
+[LINE_RANGE] 296-300
+[QUOTE]
+"Pepsynth is a chemical supplier. Pepsynth is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. Pepsynth is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic act.
+
+The statements made within this website have not been evaluated by the US Food and Drug Administration. The products we offer are not intended to diagnose, treat, cure or prevent any disease.
+
+Human/Animal Consumption Prohibited. Laboratory/In-Vitro Experimental Use Only."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:20:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/homepage.md
+[LINE_RANGE] 41
+[QUOTE]
+"[ Buy Peptides ](https://pepsynthlabs.com/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:20:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/homepage.md
+[LINE_RANGE] 36-41
+[QUOTE]
+"# Highest Quality
+Peptides  For Sale
+
+Trusted by **researchers nationwide** for purity, transparency, and scientific integrity, our**  research peptides** meet the highest **standards in the industry.**"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:20:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/homepage.md
+[LINE_RANGE] 22-32
+[QUOTE]
+"  * [Home](https://pepsynthlabs.com/)
+  * [Shop](https://pepsynthlabs.com/shop/)
+  * [About Us](https://pepsynthlabs.com/about-us/)
+  * [Blog](https://pepsynthlabs.com/blog/)
+  * [Contact](https://pepsynthlabs.com/contact/)"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://pepsynthlabs.com/refund_returns/
+[FETCHED_AT] 2026-05-08T06:21:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/refund.md
+[LINE_RANGE] 119-122
+[QUOTE]
+"  * We currently **ship to U.S. addresses only**.
+
+  * All orders are shipped using reliable carriers such as **USPS or FedEx**."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:20:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/homepage.md
+[LINE_RANGE] 202
+[QUOTE]
+"Every batch is manufactured in the USA and verified through independent third-party testing to confirm >99%+ purity and potency. Each vial comes with a Certificate of Analysis (COA) for full transparency."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:20:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/homepage.md
+[LINE_RANGE] 202
+[QUOTE]
+"Every batch is manufactured in the USA and verified through independent third-party testing to confirm >99%+ purity and potency. Each vial comes with a Certificate of Analysis (COA) for full transparency."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://pepsynthlabs.com/shop/
+[FETCHED_AT] 2026-05-08T06:21:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/catalog_1.md
+[LINE_RANGE] 48-75
+[QUOTE]
+[ENUMERATION] Counted distinct product links in catalog_1.md: 5-amino-1mq-5mg, aod-9604-10mg, bam15-research-compound-capsules, bpc-157-10mg, bpc-157-tb-500-10mg-each, bpc-157-500mcg-research-compound-capsules, bpc-157tb500-research-compound-capsules, cjc-1295-10mg, cjc-1295-without-dac-5mg, dihexa-research-compound-capsules, epithalon-10mg, ghk-cu-50mg, ipamorelin-5mg-10mg, klow, kpv-500mcg-research-compound-capsules, mots-c-10mg, nad-500mg, selank-10mg, semax-10mg, slupp-322-250mcg-research-compound-capsules, ss31-50mg, tb-500-500mcg-research-compound-capsules, tb500-5mg = 23 distinct products.
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://pepsynthlabs.com/shop/
+[FETCHED_AT] 2026-05-08T06:21:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/catalog_1.md
+[LINE_RANGE] 46-80
+[QUOTE]
+"## Shop Lab-Grade Research Peptides with Free Shipping[Purchase Peptides](https://pepsynthlabs.com/shop/)
+
+## [5 amino 1mq – 5mg](https://pepsynthlabs.com/product/5-amino-1mq-5mg/)
+...
+## [Peptide Capsules](https://pepsynthlabs.com/product-category/peptide-capsules/)
+
+## [BAM15 – 50mg (Research Compound Capsules)](https://pepsynthlabs.com/product/bam15-research-compound-capsules/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://pepsynthlabs.com/shop/
+[FETCHED_AT] 2026-05-08T06:21:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/catalog_1.md
+[LINE_RANGE] 56
+[QUOTE]
+"## [BPC-157 + TB-500 (10mg each)](https://pepsynthlabs.com/product/bpc-157-tb-500-10mg-each/)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://pepsynthlabs.com/shop/
+[FETCHED_AT] 2026-05-08T06:21:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/catalog_1.md
+[LINE_RANGE] 40-44
+[QUOTE]
+"##### Filter by Price
+
+Min price Max price Filter
+
+Price:  — "
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://pepsynthlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:21:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 40
+[QUOTE]
+"## BPC-157 10mg Lyophilized Peptide – Pricing & Bulk Discounts"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://pepsynthlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:21:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 42-55
+[QUOTE]
+"$95.00
+
+Size: 10mg
+Contents: BPC-157
+Form: Lyophilized powder
+Purity: >99%
+
+**FREE Shipping on $200+ orders**
+
+In stock
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $95.00
+5 - 10  |  5 % |  $90.25
+11+  |  10 % |  $85.50"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://pepsynthlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:21:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 75-77
+[QUOTE]
+"The BPC-157 peptide, also known as Pentadecapeptide BPC 157 or Body Protection Compound 157, is a synthetic compound that has been suggested in various studies to assist with healing joint, tendon, and muscle tissue, as well as nerve tissue."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://pepsynthlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:21:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 198-200
+[QUOTE]
+"### Compliance Notice
+
+Supplied exclusively to qualified professionals for controlled laboratory applications. No dosage or administration guidance is provided. Buyer assumes responsibility for safe handling and regulatory adherence."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://pepsynthlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:21:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 171-175
+[QUOTE]
+"## Certificate of Analysis
+
+
+    Certificate of Analysis (COA) available upon request.
+
+    Please contact us for batch-specific documentation."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://pepsynthlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:21:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 171-175
+[QUOTE]
+"## Certificate of Analysis
+
+
+    Certificate of Analysis (COA) available upon request.
+
+    Please contact us for batch-specific documentation."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://pepsynthlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:21:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 177-181
+[QUOTE]
+"##  Reviews
+
+There are no reviews yet.
+
+Be the first to review \"Bpc 157 10mg\""
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://pepsynthlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:21:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 203-208
+[QUOTE]
+"## Related Products
+
+[](https://pepsynthlabs.com/product/5-amino-1mq-5mg/)
+
+[ ](https://pepsynthlabs.com/product/5-amino-1mq-5mg/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://pepsynthlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:21:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 171-175
+[QUOTE]
+"Certificate of Analysis (COA) available upon request.
+
+    Please contact us for batch-specific documentation."
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:20:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/homepage.md
+[LINE_RANGE] 194
+[QUOTE]
+"We do not provide instructions on reconstitution or usage, as our products are sold strictly for research purposes only."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:20:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/homepage.md
+[LINE_RANGE] 330-334
+[QUOTE]
+"## IMPORTANT LEGAL NOTICE – PLEASE READ
+
+The products on this website are for legitimate research use only. They are not intended to prevent, treat, or cure any illness or disease and are not intended for human consumption. By accessing this site, you acknowledge that you are at least 21 years of age, understand these terms, and have a legitimate research basis for buying these products
+
+ I acknowledge that I am a valid researcher over 21 years of age"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:20:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/homepage.md
+[LINE_RANGE] 296-300
+[QUOTE]
+"Pepsynth is a chemical supplier. Pepsynth is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://pepsynthlabs.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T06:21:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/tos.md
+[LINE_RANGE] 38-56
+[QUOTE]
+"## Pepsynth Labs Research Materials Purchase Terms & Conditions
+
+### **PURCHASE AGREEMENT**
+
+The client (\"Buyer\") agrees to purchase peptides and other research materials from https://pepsynthlabs.com (\"Pepsynth Labs\"). The purpose of this Agreement is to outline the terms, conditions, and restrictions that govern the sale and purchase of such materials (\"MATERIAL\"), which includes peptides for **research use only**."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://pepsynthlabs.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T06:21:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/tos.md
+[LINE_RANGE] 52-74
+[QUOTE]
+"  * All products sold through this website are for **laboratory research and development use only**.
+
+  * Products are **not intended for human consumption** of any kind.
+
+  * The statements made on this website have **not been evaluated by the U.S. Food and Drug Administration (FDA)**.
+
+  * Products are **not intended to diagnose, treat, cure, or prevent any disease**.
+
+  * Pepsynth is a **research chemical supplier** , not a compounding pharmacy or an outsourcing facility as defined under Sections 503A or 503B of the Federal Food, Drug, and Cosmetic Act."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://pepsynthlabs.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T06:21:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/tos.md
+[LINE_RANGE] 163-165
+[QUOTE]
+"This Agreement shall be governed by and construed under the **laws of the State of Wyoming, USA** , without regard to its conflict of law provisions."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://pepsynthlabs.com/refund_returns/
+[FETCHED_AT] 2026-05-08T06:21:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/refund.md
+[LINE_RANGE] 44-54
+[QUOTE]
+"### **30-Day Money-Back Guarantee (Defective Vials)**
+
+If you receive a **defective vial** , you are eligible for a **full refund or replacement** within 30 days of your purchase.
+
+Defects may include:
+
+  * Broken or cracked vials
+
+  * Leakage or improper sealing
+
+  * Compromised sterility or contamination"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://pepsynthlabs.com/refund_returns/
+[FETCHED_AT] 2026-05-08T06:21:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/refund.md
+[LINE_RANGE] 113-122
+[QUOTE]
+"### **Shipping Policy**
+
+  * We currently **ship to U.S. addresses only**.
+
+  * All orders are shipped using reliable carriers such as **USPS or FedEx**."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://pepsynthlabs.com/buy-peptides-with-crypto/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/crypto_page.md
+[LINE_RANGE] 97
+[QUOTE]
+"We currently accept major cryptocurrencies including Bitcoin ( BTC ), Ethereum ( ETH ), Solana ( SOL ), Dogecoin ( DOGE ) and USD Stablecoins ( USDC )."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://pepsynthlabs.com/refund_returns/
+[FETCHED_AT] 2026-05-08T06:21:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/refund.md
+[LINE_RANGE] 120-122
+[QUOTE]
+"  * All orders are shipped using reliable carriers such as **USPS or FedEx**."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:20:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/homepage.md
+[LINE_RANGE] 8
+[QUOTE]
+"Free U.S. Shipping on Orders Over $200  30-Day Money-Back Guarantee 3 Day Shipping if Ordered before 4pm PST FOR BULK SALES AND SPECIAL ORDERS - CALL - (707) 969-0777"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://pepsynthlabs.com/refund_returns/
+[FETCHED_AT] 2026-05-08T06:21:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/refund.md
+[LINE_RANGE] 117-119
+[QUOTE]
+"### **Shipping Policy**
+
+  * We currently **ship to U.S. addresses only**."
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://pepsynthlabs.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T06:21:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/tos.md
+[LINE_RANGE] 68-70
+[QUOTE]
+"  * Buyer must be **at least 21 years of age** to purchase MATERIAL."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:21:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/source_homepage.md
+[LINE_RANGE] 6-8
+[QUOTE]
+"<link rel='stylesheet' id='woocommerce-layout-css' href='https://pepsynthlabs.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=10.7.0'
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://pepsynthlabs.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=10.7.0'
+<link rel='stylesheet' id='woocommerce-general-css' href='https://pepsynthlabs.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=10.7.0'"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:21:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/source_homepage.md
+[LINE_RANGE] 8
+[QUOTE]
+"type=wordpress; enabled=true; version=2.6.6"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:22:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/pixel_signals.md
+[LINE_RANGE] 8-13
+[QUOTE]
+"fbq('init', '2096542381094766');
+fbq('track', 'PageView');
+facebook.com/tr?id=2096542381094766&amp;ev=PageView&amp;noscript=1
+ttq.load('D6KI0PBC77U32J3OQP0G');"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:21:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/source_homepage.md
+[LINE_RANGE] 27-30
+[QUOTE]
+"googletagmanager.com/gtag/js"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:21:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/source_homepage.md
+[LINE_RANGE] 13
+[QUOTE]
+"woocommerce-layout-css"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://pepsynthlabs.com/blog/
+[FETCHED_AT] 2026-05-08T06:21:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/blog_1.md
+[LINE_RANGE] 36-68
+[QUOTE]
+"## Blog
+3 May 2026
+## [Semax Research Protocols and Handling](https://pepsynthlabs.com/semax-research-protocols-and-handling/)
+3 May 2026
+## [Research Peptide Supplier: USA-Based Trusted Vendor](https://pepsynthlabs.com/research-peptide-supplier-usa-based-trusted-vendor/)
+30 Apr 2026
+## [6 Peptides Everyone Is Talking About Right Now](https://pepsynthlabs.com/6-peptides-everyone-is-talking-about-right-now/)
+24 Apr 2026
+## [KPV Research Guide and Laboratory Notes](https://pepsynthlabs.com/kpv-research-guide-and-laboratory-notes/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://pepsynthlabs.com/blog/
+[FETCHED_AT] 2026-05-08T06:21:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/blog_1.md
+[LINE_RANGE] 36-72
+[QUOTE]
+"3 May 2026
+3 May 2026
+30 Apr 2026
+24 Apr 2026
+23 Apr 2026
+10 Apr 2026"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://pepsynthlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:21:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 190-196
+[QUOTE]
+"### Dr. Marinov
+
+Dr. Marinov (MD, Ph.D.) is a researcher and chief assistant professor in Preventative Medicine & Public Health. Prior to his professorship, Dr. Marinov practiced preventative, evidence-based medicine with an emphasis on Nutrition and Dietetics."
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://pepsynthlabs.com/blog/
+[FETCHED_AT] 2026-05-08T06:21:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/blog_1.md
+[LINE_RANGE] 78-82
+[QUOTE]
+"Want a closer look at our scientific foundation? Learn more [about us](https://pepsynthlabs.com/about-us/?utm_source=chatgpt.com) and our laboratory approach."
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://pepsynthlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:21:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 177-181
+[QUOTE]
+"##  Reviews
+
+There are no reviews yet.
+
+Be the first to review \"Bpc 157 10mg\""
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://pepsynthlabs.com/
+[FETCHED_AT] 2026-05-08T06:20:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/homepage.md
+[LINE_RANGE] 225-235
+[QUOTE]
+"## %
+
+###  Of Our Customers
+
+When asked, said that they prefer our research peptides over other brands they've tried. We surveyed over 800 out of our 5000+ customers."
+[/QUOTE]
+
+[CLAIM] skus[pepsynth-labs:bpc-157-10mg].list_price_usd
+[URL] https://pepsynthlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:21:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 42-55
+[QUOTE]
+"$95.00
+
+Size: 10mg
+Contents: BPC-157
+Form: Lyophilized powder
+Purity: >99%
+
+**FREE Shipping on $200+ orders**
+
+In stock
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $95.00
+5 - 10  |  5 % |  $90.25
+11+  |  10 % |  $85.50"
+[/QUOTE]
+
+[CLAIM] skus[pepsynth-labs:tb500-5mg].list_price_usd
+[URL] https://pepsynthlabs.com/product/tb500-5mg/
+[FETCHED_AT] 2026-05-08T06:21:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_2__tb500-5mg.md
+[LINE_RANGE] 42-55
+[QUOTE]
+"$135.00
+
+Size: 5 mg
+Contents: TB-500
+Form: Lyophilized powder
+Purity: >99%
+
+**FREE Shipping on $200+ orders**
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $135.00
+5 - 10  |  5 % |  $128.25
+11+  |  10 % |  $121.50"
+[/QUOTE]
+
+[CLAIM] skus[pepsynth-labs:ghk-cu-50mg].list_price_usd
+[URL] https://pepsynthlabs.com/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T06:21:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_3__ghk-cu-50mg.md
+[LINE_RANGE] 42-55
+[QUOTE]
+"Size: 50mg
+Contents: GHK-Cu
+Form: Lyophilized powder
+Purity: >99%
+SKU: P-GHK-CU
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $95.00
+5 - 10  |  5 % |  $90.25
+11+  |  10 % |  $85.50"
+[/QUOTE]
+
+[CLAIM] skus[pepsynth-labs:semax-10mg].list_price_usd
+[URL] https://pepsynthlabs.com/product/semax-10mg/
+[FETCHED_AT] 2026-05-08T06:21:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_4__semax-10mg.md
+[LINE_RANGE] 44-55
+[QUOTE]
+"Size: 10mg
+Contents: Semax (25mg)
+Form: Lyophilized powder
+Purity: >99%
+SKU: P-SEMAX-25
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $45.00
+5 - 10  |  5 % |  $42.75
+11+  |  10 % |  $40.50"
+[/QUOTE]
+
+[CLAIM] skus[pepsynth-labs:ipamorelin-5mg].list_price_usd
+[URL] https://pepsynthlabs.com/product/ipamorelin-5mg-10mg/
+[FETCHED_AT] 2026-05-08T06:21:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_5__ipamorelin-5mg-10mg.md
+[LINE_RANGE] 44-65
+[QUOTE]
+"Size: 5mg / 10mg
+Contents: Ipamorelin (5mg)/ (10mg)
+Form: Lyophilized powder
+Purity: >99%
+SKU: P-IPAMORELIN-5
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $58.00
+5 - 10  |  5 % |  $55.10
+11+  |  10 % |  $52.20
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $81.00
+5 - 10  |  5 % |  $76.95
+11+  |  10 % |  $72.90"
+[/QUOTE]
+
+[CLAIM] skus[pepsynth-labs:mots-c-10mg].list_price_usd
+[URL] https://pepsynthlabs.com/product/mots-c-10mg/
+[FETCHED_AT] 2026-05-08T06:21:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_6__mots-c-10mg.md
+[LINE_RANGE] 44-70
+[QUOTE]
+"Size: 10mg
+Contents: MOTS-C
+Form: Lyophilized powder
+Purity: >99%
+
+**FREE Shipping on $200+ orders**
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $112.00
+5 - 10  |  5 % |  $106.40
+11+  |  10 % |  $100.80
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $205.00
+5 - 10  |  5 % |  $194.75
+11+  |  10 % |  $184.50
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $350.00
+5 - 10  |  5 % |  $332.50
+11+  |  10 % |  $315.00"
+[/QUOTE]
+
+[CLAIM] skus[pepsynth-labs:bpc157-tb500-bundle-10mg-each].list_price_usd
+[URL] https://pepsynthlabs.com/product/bpc-157-tb-500-10mg-each/
+[FETCHED_AT] 2026-05-08T06:21:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_7__bpc157-tb500-bundle.md
+[LINE_RANGE] 42-55
+[QUOTE]
+"Size: 10mg each
+Contents: BPC-157 + TB-500
+Form: Lyophilized powder
+Purity: >99%
+
+**FREE Shipping on $200+ orders**
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $164.99
+5 - 10  |  5 % |  $156.74
+11+  |  10 % |  $148.49"
+[/QUOTE]
+
+[CLAIM] skus[pepsynth-labs:epithalon-10mg].list_price_usd
+[URL] https://pepsynthlabs.com/product/epithalon-10mg/
+[FETCHED_AT] 2026-05-08T06:21:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_8__epithalon-10mg.md
+[LINE_RANGE] 42-55
+[QUOTE]
+"Size: 10mg
+Contents: Epitalon (10mg)
+Form: Lyophilized powder
+Purity: >99%
+SKU: P-EPITALON-25
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $70.00
+5 - 10  |  5 % |  $66.50
+11+  |  10 % |  $63.00"
+[/QUOTE]
+
+[CLAIM] skus[pepsynth-labs:selank-10mg].list_price_usd
+[URL] https://pepsynthlabs.com/product/selank-10mg/
+[FETCHED_AT] 2026-05-08T06:21:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_9__selank-10mg.md
+[LINE_RANGE] 42-55
+[QUOTE]
+"Size: 10mg
+Contents: Selank (10mg)
+Form: Lyophilized powder
+Purity: >99%
+
+**FREE Shipping on $200+ orders**
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $48.00
+5 - 10  |  5 % |  $45.60
+11+  |  10 % |  $43.20"
+[/QUOTE]
+
+[CLAIM] skus[pepsynth-labs:aod-9604-10mg].list_price_usd
+[URL] https://pepsynthlabs.com/product/aod-9604-10mg/
+[FETCHED_AT] 2026-05-08T06:21:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_10__aod-9604-10mg.md
+[LINE_RANGE] 42-55
+[QUOTE]
+"Size: 10mg
+Contents: AOD 9604 (5mg)
+Form: Lyophilized powder
+Purity: >99%
+SKU: P-AOD9604-5
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $80.00
+5 - 10  |  5 % |  $76.00
+11+  |  10 % |  $72.00"
+[/QUOTE]
+
+[CLAIM] skus[pepsynth-labs:nad-500mg].list_price_usd
+[URL] https://pepsynthlabs.com/product/nad-500mg/
+[FETCHED_AT] 2026-05-08T06:21:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_11__nad-500mg.md
+[LINE_RANGE] 42-55
+[QUOTE]
+"Size: 500mg
+Contents: NAD+
+Form: Lyophilized powder
+Purity: >99%
+SKU: P-NADPLUS-100-750
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $225.00
+5 - 10  |  5 % |  $213.75
+11+  |  10 % |  $202.50"
+[/QUOTE]
+
+[CLAIM] skus[pepsynth-labs:ss31-50mg].list_price_usd
+[URL] https://pepsynthlabs.com/product/ss31-50mg/
+[FETCHED_AT] 2026-05-08T06:21:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_12__ss31-50mg.md
+[LINE_RANGE] 42-55
+[QUOTE]
+"Size: 50mg
+Contents: SS-31
+Form: Lyophilized powder
+Purity: >99%
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $255.00
+5 - 10  |  5 % |  $242.25
+11+  |  10 % |  $229.50"
+[/QUOTE]
+
+[CLAIM] skus[pepsynth-labs:cjc-1295-without-dac-5mg].list_price_usd
+[URL] https://pepsynthlabs.com/product/cjc-1295-without-dac-5mg/
+[FETCHED_AT] 2026-05-08T06:21:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_13__cjc-1295-without-dac-5mg.md
+[LINE_RANGE] 42-55
+[QUOTE]
+"Size: 5mg
+Contents: CJC-1295 without DAC (5mg)
+Form: Lyophilized powder
+Purity: >99%
+
+Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $60.00
+5 - 10  |  5 % |  $57.00
+11+  |  10 % |  $54.00"
+[/QUOTE]
+
+[CLAIM] skus[pepsynth-labs:5-amino-1mq-5mg].list_price_usd
+[URL] https://pepsynthlabs.com/product/5-amino-1mq-5mg/
+[FETCHED_AT] 2026-05-08T06:21:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pepsynth-labs/product_14__5-amino-1mq-5mg.md
+[LINE_RANGE] 50-58
+[QUOTE]
+"Quantity  |  Discount (%)  |  Price
+---|---|---
+1 - 4  |  — |  $235.00
+5 - 10  |  5 % |  $223.25
+11+  |  10 % |  $211.50"
+[/QUOTE]

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Vial Preview</title>
+<style>
+  :root {
+    --bg: #05080c;
+    --fg: #f0f8fb;
+    --muted: #89a0aa;
+    --line: rgba(34, 211, 238, 0.24);
+    --panel: linear-gradient(180deg, rgba(12, 20, 31, 0.98), rgba(3, 7, 12, 0.98));
+    --control: rgba(12, 20, 31, 0.92);
+    --track: rgba(34, 211, 238, 0.18);
+  }
+
+  body[data-theme="light"] {
+    --bg: #fafaf7;
+    --fg: #0a0e14;
+    --muted: #5a6470;
+    --line: rgba(15, 58, 95, 0.22);
+    --panel: linear-gradient(180deg, #ffffff, #f4f4f0);
+    --control: rgba(255, 255, 255, 0.92);
+    --track: rgba(15, 58, 95, 0.12);
+  }
+
+  html,
+  body {
+    min-height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    display: grid;
+    place-items: center;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    transition: background 220ms cubic-bezier(0.2, 0.6, 0.2, 1), color 220ms cubic-bezier(0.2, 0.6, 0.2, 1);
+  }
+
+  .theme-switch {
+    position: fixed;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px 8px 12px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--control);
+    color: var(--fg);
+    font: inherit;
+    font-size: 13px;
+    cursor: pointer;
+    box-shadow: 0 18px 40px -28px rgba(0, 0, 0, 0.75);
+  }
+
+  .theme-switch span {
+    color: var(--muted);
+    min-width: 34px;
+    text-align: right;
+  }
+
+  .track {
+    width: 42px;
+    height: 22px;
+    border-radius: 999px;
+    background: var(--track);
+    position: relative;
+  }
+
+  .thumb {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #22d3ee;
+    transition: transform 220ms cubic-bezier(0.2, 0.6, 0.2, 1);
+  }
+
+  body[data-theme="light"] .thumb {
+    transform: translateX(20px);
+    background: #0f3a5f;
+  }
+
+  .preview-shell {
+    padding: 18px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--panel);
+    box-shadow: 0 34px 80px -42px rgba(0, 0, 0, 0.9);
+  }
+
+  img {
+    width: min(520px, calc(100vw - 32px));
+    height: auto;
+    display: block;
+  }
+</style>
+</head>
+<body data-theme="dark">
+<button class="theme-switch" type="button" aria-pressed="false">
+  <span id="themeLabel">Dark</span>
+  <span class="track" aria-hidden="true"><span class="thumb"></span></span>
+</button>
+<main class="preview-shell">
+  <img src="vial-in-dialog.png" alt="Vial preview"/>
+</main>
+<script>
+  const button = document.querySelector('.theme-switch');
+  const label = document.getElementById('themeLabel');
+  const savedTheme = localStorage.getItem('vial.preview.theme') || 'dark';
+
+  function setTheme(theme) {
+    document.body.dataset.theme = theme;
+    label.textContent = theme === 'dark' ? 'Dark' : 'Light';
+    button.setAttribute('aria-pressed', theme === 'light');
+    localStorage.setItem('vial.preview.theme', theme);
+  }
+
+  setTheme(savedTheme);
+
+  button.addEventListener('click', () => {
+    setTheme(document.body.dataset.theme === 'dark' ? 'light' : 'dark');
+  });
+</script>
+</body>
+</html>

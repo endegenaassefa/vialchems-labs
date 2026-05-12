@@ -1,0 +1,320 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://atomiklabz.com
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/homepage.md
+[LINE_RANGE] 49-51
+[QUOTE]
+"#  T-Research
+
+Atomik Labz believes in selling our customers high-quality peptides and research products that are pure, potent, stable, and safe, with their identity confirmed through analytical methods"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://atomiklabz.com
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/homepage.md
+[LINE_RANGE] 53-53
+[QUOTE]
+"[ SHOP NOW ](/web/20241229144010/https://atomiklabz.com/shop)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://atomiklabz.com
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/homepage.md
+[LINE_RANGE] 3-10
+[QUOTE]
+"  * [Shop](https://web.archive.org/web/20241229144010/https://atomiklabz.com/shop/)
+  * [Tirz](/web/20241229144010/https://atomiklabz.com/product-category/tirz/)
+  * [Peptides & Packs](/web/20241229144010/https://atomiklabz.com/product-category/peptides-and-packs/)
+  * [Research Gear](/web/20241229144010/https://atomiklabz.com/product-category/research-gear/)
+  * [Aminos/Vitamins](/web/20241229144010/https://atomiklabz.com/product-category/aminos-vitamins/)
+  * [Capsules](/web/20241229144010/https://atomiklabz.com/product-category/capsules/)
+  * [FAQ](https://web.archive.org/web/20241229144010/https://atomiklabz.com/faq/)
+  * [Contact Us](https://web.archive.org/web/20241229144010/https://atomiklabz.com/contact-us/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://atomiklabz.com
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/homepage.md
+[LINE_RANGE] 121-121
+[QUOTE]
+"All products on this site are for research and development use only. Products are not for human consumption of any kind The statements made on this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure, or prevent any disease."
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://atomiklabz.com
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/homepage.md
+[LINE_RANGE] 3-10
+[QUOTE]
+"  * [Shop](https://web.archive.org/web/20241229144010/https://atomiklabz.com/shop/)
+  * [Tirz](/web/20241229144010/https://atomiklabz.com/product-category/tirz/)
+  * [Peptides & Packs](/web/20241229144010/https://atomiklabz.com/product-category/peptides-and-packs/)
+  * [Research Gear](/web/20241229144010/https://atomiklabz.com/product-category/research-gear/)
+  * [Aminos/Vitamins](/web/20241229144010/https://atomiklabz.com/product-category/aminos-vitamins/)
+  * [Capsules](/web/20241229144010/https://atomiklabz.com/product-category/capsules/)"
+[/QUOTE]
+
+[CLAIM] skus[0].name / skus[0].list_price_usd (T-5mg)
+[URL] https://atomiklabz.com
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/homepage.md
+[LINE_RANGE] 60-60
+[QUOTE]
+"  * ## [T-5mg $65.00 ](https://web.archive.org/web/20241229144010/https://atomiklabz.com/product/t-5mg/)[Add to cart](?add-to-cart=120)"
+[/QUOTE]
+
+[CLAIM] skus[1].name / skus[1].list_price_usd / skus[1].sale_price_usd (T-10mg)
+[URL] https://atomiklabz.com/product/t-10mg/
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/product_1__t-10mg.md
+[LINE_RANGE] 57-61
+[QUOTE]
+"#  T-10mg
+
+~~$ 89.00~~ Original price was: $89.00.$69.99Current price is: $69.99.
+
+This product is prepared for LABORATORY RESEARCH USE ONLY and may not be used for other purposes."
+[/QUOTE]
+
+[CLAIM] skus[2].name / skus[2].list_price_usd / skus[2].sale_price_usd (T-15mg)
+[URL] https://atomiklabz.com
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/homepage.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"  * [ Sale! T-15mg ~~$ 125.00~~ Original price was: $125.00.$104.99Current price is: $104.99. ](https://web.archive.org/web/20241229144010/https://atomiklabz.com/product/t-15mg/)[Add to cart](?add-to-cart=122)"
+[/QUOTE]
+
+[CLAIM] skus[3].name / skus[3].list_price_usd / skus[3].sale_price_usd (T-30mg)
+[URL] https://atomiklabz.com
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/homepage.md
+[LINE_RANGE] 61-61
+[QUOTE]
+"  * [ Sale! T-30mg ~~$ 239.00~~ Original price was: $239.00.$209.99Current price is: $209.99. ](https://web.archive.org/web/20241229144010/https://atomiklabz.com/product/t-30mg/)[Add to cart](?add-to-cart=121)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://atomiklabz.com/product/t-10mg/
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/product_1__t-10mg.md
+[LINE_RANGE] 61-61
+[QUOTE]
+"This product is prepared for LABORATORY RESEARCH USE ONLY and may not be used for other purposes."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://atomiklabz.com/product/t-10mg/
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/product_1__t-10mg.md
+[LINE_RANGE] 55-55
+[QUOTE]
+"[](https://web.archive.org/web/20241208131237/https://atomiklabz.com/wp-content/uploads/2024/07/Test-Report-45913.png)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://atomiklabz.com/product/t-10mg/
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/product_1__t-10mg.md
+[LINE_RANGE] 86-91
+[QUOTE]
+"## Related products
+
+  * ## [30ML Bac Water Reconstitution Solution $7.99 ](https://web.archive.org/web/20241208131237/https://atomiklabz.com/product/30ml-bacteriostatic-water-reconstitution-solution/)[Add to cart](?add-to-cart=200)
+  * [ Sale! T-30mg ~~$ 239.00~~ Original price was: $239.00.$209.99Current price is: $209.99. ](https://web.archive.org/web/20241208131237/https://atomiklabz.com/product/t-30mg/)[Add to cart](?add-to-cart=121)
+  * [ Sale! T – 15mg ~~$ 125.00~~ Original price was: $125.00.$104.99Current price is: $104.99. ](https://web.archive.org/web/20241208131237/https://atomiklabz.com/product/t-15mg/)[Add to cart](?add-to-cart=122)
+  * ## [T-5mg $65.00 ](https://web.archive.org/web/20241208131237/https://atomiklabz.com/product/t-5mg/)[Add to cart](?add-to-cart=120)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://atomiklabz.com
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/homepage.md
+[LINE_RANGE] 86-86
+[QUOTE]
+"Any peptides on our website are sold for research and laboratory use. The products should not be used in form of cosmetic, food additive, chemical, drugs, or other applications not classified in this document. The listing of a material on this site does not constitute a license to its use in infringement of any patent. All customers represent and warrant that through their own review and study that they are fully aware and knowledgeable about the following: Government regulations regarding the use of and exposure to all products. The health and safety hazards associated with the handling of the products they purchase. The necessity of adequately warning of the health and safety hazards associated with any products. The company holds its right to cancel any purchase done if there is any proof or the company sees that you are buying for use other than it is sold for."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+The archived homepage loads directly to the hero section and navigation without any interstitial age-verification modal. The page transitions immediately from header to hero copy and product listings. No age-gate element is present in the rendered text.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://atomiklabz.com
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/homepage.md
+[LINE_RANGE] 3-5
+"  * [Shop](https://web.archive.org/web/20241229144010/https://atomiklabz.com/shop/)
+  * [Tirz](/web/20241229144010/https://atomiklabz.com/product-category/tirz/)
+  * [Peptides & Packs](/web/20241229144010/https://atomiklabz.com/product-category/peptides-and-packs/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://atomiklabz.com
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/homepage.md
+[LINE_RANGE] 49-51
+"#  T-Research
+
+Atomik Labz believes in selling our customers high-quality peptides and research products that are pure, potent, stable, and safe, with their identity confirmed through analytical methods"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://atomiklabz.com
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/homepage.md
+[LINE_RANGE] 116-116
+[QUOTE]
+"  * [ Terms & Conditions ](/web/20241229144010/https://atomiklabz.com/terms-conditions/)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://atomiklabz.com/product/t-10mg/
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/product_1__t-10mg.md
+[LINE_RANGE] 65-74
+[QUOTE]
+"FAST SHIPPING
+
+EXCELLENT CUSTOMER SERVICE
+
+QUALITY PRODUCTS
+
+FREE SHIPPING OVER $399"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+URL patterns in archived HTML indicate WooCommerce on WordPress: product pages at /product/<slug>/, categories at /product-category/<name>/, add-to-cart via query param (?add-to-cart=NNN), and media at /wp-content/uploads/. These are canonical WooCommerce URL structures.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://atomiklabz.com
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/homepage.md
+[LINE_RANGE] 59-60
+"  * [ Sale! T-10mg ~~$ 89.00~~ Original price was: $89.00.$69.99Current price is: $69.99. ](https://web.archive.org/web/20241229144010/https://atomiklabz.com/product/t-10mg/)[Add to cart](?add-to-cart=119)
+  * ## [T-5mg $65.00 ](https://web.archive.org/web/20241229144010/https://atomiklabz.com/product/t-5mg/)[Add to cart](?add-to-cart=120)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://atomiklabz.com/product/t-10mg/
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/product_1__t-10mg.md
+[LINE_RANGE] 55-55
+"[](https://web.archive.org/web/20241208131237/https://atomiklabz.com/wp-content/uploads/2024/07/vial-atomiklabz-Tirz-10mg-2.png)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://atomiklabz.com
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/homepage.md
+[LINE_RANGE] 3-10
+[QUOTE]
+"  * [Shop](https://web.archive.org/web/20241229144010/https://atomiklabz.com/shop/)
+  * [Tirz](/web/20241229144010/https://atomiklabz.com/product-category/tirz/)
+  * [Peptides & Packs](/web/20241229144010/https://atomiklabz.com/product-category/peptides-and-packs/)
+  * [Research Gear](/web/20241229144010/https://atomiklabz.com/product-category/research-gear/)
+  * [Aminos/Vitamins](/web/20241229144010/https://atomiklabz.com/product-category/aminos-vitamins/)
+  * [Capsules](/web/20241229144010/https://atomiklabz.com/product-category/capsules/)
+  * [FAQ](https://web.archive.org/web/20241229144010/https://atomiklabz.com/faq/)
+  * [Contact Us](https://web.archive.org/web/20241229144010/https://atomiklabz.com/contact-us/)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://atomiklabz.com/product/t-10mg/
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/product_1__t-10mg.md
+[LINE_RANGE] 77-91
+[QUOTE]
+"  * Additional information
+
+
+
+## Additional information
+
+Weight | 65620059 oz
+---|---
+
+## Related products"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[INFERENCE] none visible on homepage or product page
+[REASONING]
+The archived homepage content shows only navigation, hero, featured products, newsletter CTA, trust-badge claims (same day shipping, outstanding customer support, 99% pure peptides), and compliance notices. No testimonial block, quote carousel, or influencer endorsement element is present in the rendered text.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://atomiklabz.com
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/homepage.md
+[LINE_RANGE] 72-82
+"### Same day shipping
+
+Orders placed before 2pm M-F, are shipped same day
+
+### Outstanding customer support
+
+Atomik Labz is devoted to delivering top-notch service to it's customers
+
+### 99% Pure peptides
+
+99% purity. The best quality in the research industry."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://atomiklabz.com/product/t-10mg/
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/product_1__t-10mg.md
+[LINE_RANGE] 77-86
+"  * Additional information
+
+
+
+## Additional information
+
+Weight | 65620059 oz
+---|---
+
+## Related products"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url / product_page_anatomy.sample_product_name
+[URL] https://atomiklabz.com/product/t-10mg/
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/product_1__t-10mg.md
+[LINE_RANGE] 49-49
+[QUOTE]
+"#  T-10mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://atomiklabz.com/product/t-10mg/
+[FETCHED_AT] 2026-05-07T15:40:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/atomik-labz/product_1__t-10mg.md
+[LINE_RANGE] 53-55
+[QUOTE]
+"[](https://web.archive.org/web/20241208131237/https://atomiklabz.com/wp-content/uploads/2024/07/vial-atomiklabz-Tirz-10mg-2.png)
+
+[](https://web.archive.org/web/20241208131237/https://atomiklabz.com/wp-content/uploads/2024/07/Test-Report-45913.png)"
+[/QUOTE]

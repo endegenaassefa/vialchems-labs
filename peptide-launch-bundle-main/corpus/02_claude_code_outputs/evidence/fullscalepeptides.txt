@@ -1,0 +1,501 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://fullscalepeptides.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/homepage.md
+[LINE_RANGE] 39-41
+[QUOTE]
+"# Research Peptides You Can Trust.
+
+## Every product is verified at 99%+ purity with batch specific COAs available for review."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://fullscalepeptides.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/homepage.md
+[LINE_RANGE] 37-39
+[QUOTE]
+"First Responder Owned & Operated
+
+# Research Peptides You Can Trust."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://fullscalepeptides.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/homepage.md
+[LINE_RANGE] 43-43
+[QUOTE]
+"[ SHOP ALL ](https://fullscalepeptides.com/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://fullscalepeptides.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/homepage.md
+[LINE_RANGE] 8-14
+[QUOTE]
+"  * [Home](https://fullscalepeptides.com/)
+  * [Shop](https://fullscalepeptides.com/shop/)
+  * [COA](https://fullscalepeptides.com/coa/)
+  * [About us](https://fullscalepeptides.com/about-us/)
+  * [Contact us](https://fullscalepeptides.com/contact-us/)
+  * [Affiliate Signup](https://fullscalepeptides.com/affiliate-signup/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://fullscalepeptides.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/homepage.md
+[LINE_RANGE] 204-208
+[QUOTE]
+"Products sold on this website are intended solely for laboratory research and development purposes. Not for human or veterinary use. These products are not intended to diagnose, treat, cure, or prevent any disease. The statements made on this website have not been evaluated by the U.S. Food and Drug Administration (FDA). The products offered are not approved for human consumption and are sold strictly for research purposes only."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] United States
+[REASONING]
+The TOS states governing law is the State of Florida, United States. The shipping policy explicitly states "We currently ship to U.S. addresses only" and references USPS and FedEx. The about page states "Founded by a U.S. first responder." These three facts together establish US operation and US-only fulfillment.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://fullscalepeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/tos.md
+[LINE_RANGE] 157-157
+"This Agreement shall be governed by and construed in accordance with the laws of the **State of Florida, United States** , without regard to conflict-of-law principles."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://fullscalepeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/shipping.md
+[LINE_RANGE] 105-105
+"###  We currently ship to **U.S. addresses only**."
+[/SUPPORT_QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://fullscalepeptides.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/homepage.md
+[LINE_RANGE] 65-69
+[QUOTE]
+"● USA FULFILLED
+
+### Quick, Reliable Shipping
+
+Orders placed before 4 PM EST ship the same day via USPS or FedEx 2-Day Air."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://fullscalepeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/shipping.md
+[LINE_RANGE] 105-107
+[QUOTE]
+"###  We currently ship to **U.S. addresses only**.
+
+### Orders are shipped via USPS or FedEx, depending on location and service availability."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2026
+[REASONING]
+The copyright footer on all pages reads "Copyright © 2026 Full Scale Peptides." COA lot numbers reference dates of February 2026 (e.g., FSP-NAD500-0126-A dated Feb 17, 2026). No prior-year Wayback snapshot was found. These facts together indicate the site launched in or around early 2026.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://fullscalepeptides.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/homepage.md
+[LINE_RANGE] 240-240
+"Copyright © 2026 Full Scale Peptides | Powered by Full Scale Peptides"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://fullscalepeptides.com/coa/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/coa_1.md
+[LINE_RANGE] 100-101
+"Lot: FSP-NAD500-0126-A Feb 17, 2026
+
+Accession #2602150266"
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://fullscalepeptides.com/shop/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/catalog_1.md
+[LINE_RANGE] 47-299
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/fullscalepeptides/catalog_1.md:
+19 products listed on shop page (lines 47-299).
+[FILES]
+GLP-3R 10MG (line 47), Bacteriostatic Water 10ML (line 59), Tesamorelin 10MG (line 71), NAD+ 500MG (line 83), GHK-CU 50MG (line 95), BPC-157 10mg (line 107), BPC-157 / TB-500 Blend 10mg (line 119), GLP-2T (line 133), GLOW 70mg Blend (line 145), KPV 10MG (line 159), Semax 10MG (line 173), CJC 1295 NO DAC 10MG (line 187), Melanotan 2 10MG (line 201), SNAP-8 10MG (line 215), VIP 10MG (line 229), Atomizer 15ML (line 243), DSIP 5MG (line 255), MOTS-C 10MG (line 269), Selank 10MG (line 283), Kisspeptin-10 10MG (line 297).
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://fullscalepeptides.com/shop/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/catalog_1.md
+[LINE_RANGE] 119-121
+[QUOTE]
+"### [BPC-157 / TB-500 Blend 10mg (5mg / 5mg)](https://fullscalepeptides.com/product/bpc-157-tb-500-blend/)
+
+$80.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://fullscalepeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 39-41
+[QUOTE]
+"# BPC-157 10mg
+
+$55.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://fullscalepeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 41-41
+[QUOTE]
+"$55.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://fullscalepeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 39-45
+[QUOTE]
+"# BPC-157 10mg
+
+$55.00
+
+BPC-157 10mg is a synthetic research peptide studied in laboratory environments investigating peptide signaling pathways and molecular communication mechanisms.
+
+  * Batch-specific COAs available"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://fullscalepeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 43-43
+[QUOTE]
+"BPC-157 10mg is a synthetic research peptide studied in laboratory environments investigating peptide signaling pathways and molecular communication mechanisms."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://fullscalepeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 176-180
+[QUOTE]
+"### Research Use Notice
+
+All compounds supplied by Full Scale Peptides are intended strictly for laboratory research use only. These materials are not intended for human consumption, medical use, or diagnostic purposes. Products are supplied exclusively to qualified professionals, institutions, and laboratories engaged in scientific research."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://fullscalepeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 45-45
+[QUOTE]
+"  * Batch-specific COAs available"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://fullscalepeptides.com/coa/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/coa_1.md
+[LINE_RANGE] 87-89
+[QUOTE]
+"✓ FreedomDiagnosticsTesting.com
+
+NAD+"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://fullscalepeptides.com/coa/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/coa_1.md
+[LINE_RANGE] 98-103
+[QUOTE]
+"Lot: FSP-NAD500-0126-A Feb 17, 2026
+
+Accession #2602150266
+
+[ Download Full COA PDF ](https://fullscalepeptides.com/wp-content/uploads/2026/04/Full2602150266.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://fullscalepeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 258-266
+[QUOTE]
+"5
+
+Rated **5** out of 5
+
+0%
+
+4
+
+Rated **4** out of 5
+
+0%"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://fullscalepeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 229-234
+[QUOTE]
+"## Related products
+
+[ ](https://fullscalepeptides.com/product/ghk-cu-peptide-50mg/)
+
+Quick view
+
+[Add to cart](/product/bpc-157-10mg/?add-to-cart=23923)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://fullscalepeptides.com/ruo/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/ruo.md
+[LINE_RANGE] 42-42
+[QUOTE]
+"All products sold by **Full Scale Peptides** are intended **strictly for laboratory research use only (RUO)**. By purchasing from this website, you acknowledge, understand, and agree to the following terms and conditions."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://fullscalepeptides.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/homepage.md
+[LINE_RANGE] 37-39
+[QUOTE]
+[ENUMERATION] No age gate overlay or interstitial observed on homepage. Site loads directly to hero section. No modal challenge for age confirmation. TOS (tos.md line 82) requires buyers to be 21+ but no front-end gate is implemented. First visible content below nav is "First Responder Owned & Operated" followed by product content.
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://fullscalepeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/shipping.md
+[LINE_RANGE] 105-107
+[QUOTE]
+"###  We currently ship to **U.S. addresses only**.
+
+### Orders are shipped via USPS or FedEx, depending on location and service availability."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://fullscalepeptides.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/homepage.md
+[LINE_RANGE] 224-224
+[QUOTE]
+"  * [ Terms & Conditions ](https://fullscalepeptides.com/terms-conditions/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://fullscalepeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/tos.md
+[LINE_RANGE] 80-84
+[QUOTE]
+"Buyer must be **21 years of age or older** to purchase MATERIAL"
+[/QUOTE]
+
+[URL] https://fullscalepeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/tos.md
+[LINE_RANGE] 157-157
+[QUOTE]
+"This Agreement shall be governed by and construed in accordance with the laws of the **State of Florida, United States** , without regard to conflict-of-law principles."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://fullscalepeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/shipping.md
+[LINE_RANGE] 41-55
+[QUOTE]
+"### **30-Day Money-Back Guarantee (Defective Vials Only)**
+
+If you receive a **defective vial** , you may be eligible for a **replacement or full refund** within **30 days** of purchase.
+
+**Defects may include:**
+
+Broken or cracked vials
+
+Leakage during transit
+
+Improper sealing
+
+Compromised sterility"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://fullscalepeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/shipping.md
+[LINE_RANGE] 103-109
+[QUOTE]
+"### **Shipping Policy**
+
+###  We currently ship to **U.S. addresses only**.
+
+### Orders are shipped via USPS or FedEx, depending on location and service availability."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://fullscalepeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/shipping.md
+[LINE_RANGE] 105-107
+[QUOTE]
+"###  We currently ship to **U.S. addresses only**.
+
+### Orders are shipped via USPS or FedEx, depending on location and service availability."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://fullscalepeptides.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/homepage.md
+[LINE_RANGE] 33-33
+[QUOTE]
+"## ⚡ BUY MORE. PAY LESS. — BULK PRICING BUILT IN | FREE SHIPPING ON ORDERS $200+"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://fullscalepeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/shipping.md
+[LINE_RANGE] 105-105
+[QUOTE]
+"###  We currently ship to **U.S. addresses only**."
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://fullscalepeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/tos.md
+[LINE_RANGE] 80-84
+[QUOTE]
+"Buyer must be **21 years of age or older** to purchase MATERIAL"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The site URLs use /product-category/ (WooCommerce taxonomy), /my-account-2/ (WooCommerce account), and add-to-cart URL parameter pattern (?add-to-cart=NNNNN) which is standard WooCommerce. Copyright footer says "Powered by Full Scale Peptides" not referencing Shopify. COA PDFs are hosted on /wp-content/uploads/ confirming WordPress/WooCommerce.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://fullscalepeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 39-39
+# BPC-157 10mg
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://fullscalepeptides.com/coa/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/coa_1.md
+[LINE_RANGE] 103-103
+"[ Download Full COA PDF ](https://fullscalepeptides.com/wp-content/uploads/2026/04/Full2602150266.pdf)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://fullscalepeptides.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/homepage.md
+[LINE_RANGE] 8-14
+[QUOTE]
+[ENUMERATION] No blog link in navigation or footer. Navigation links observed: Home, Shop, COA, About us, Contact us, Affiliate Signup. Footer quick links: Home, About Us, Shop, Contact us. No blog, news, or educational section link present in any navigation element.
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://fullscalepeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 258-262
+[QUOTE]
+"5
+
+Rated **5** out of 5
+
+0%"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.trustpilot.com/review/fullscalepeptides.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/homepage.md
+[LINE_RANGE] 8-14
+[QUOTE]
+[ENUMERATION] Trustpilot listing confirmed via web search result returning "Fullscalepeptides Reviews | Read Customer Service Reviews of fullscalepeptides.com" at https://www.trustpilot.com/review/fullscalepeptides.com. Trustpilot link is not present on the fetched homepage — discovered through external web search only.
+[/QUOTE]
+
+[CLAIM] skus
+[URL] https://fullscalepeptides.com/shop/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/catalog_1.md
+[LINE_RANGE] 47-299
+[QUOTE]
+"### [GLP-3R 10MG](https://fullscalepeptides.com/product/glp-3r-10mg/)
+
+$110.00"
+[/QUOTE]
+
+[CLAIM] claim-bpc157-price
+[URL] https://fullscalepeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fullscalepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 52-55
+[QUOTE]
+"Vials| Quantity| Discount
+---|---|---
+Most Popular| 3 - 5|  10% $49.50
+Max Savings| 6 +|  15% $46.75"
+[/QUOTE]

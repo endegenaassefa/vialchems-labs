@@ -1,0 +1,646 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=home
+[FETCHED_AT] 2026-05-08T06:01:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/homepage_api.md
+[LINE_RANGE] 8-8
+We supply the Highest quality RUO peptides trusted by our research community for quality, consistency, and performance.
+
+[CLAIM] homepage.primary_cta
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=home
+[FETCHED_AT] 2026-05-08T06:01:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/homepage_api.md
+[LINE_RANGE] 8-8
+Browse peptides View COAS PEAK PERFORMANCE PEPTIDES High quality Research Peptides We supply the Highest quality RUO peptides trusted by our research community for quality, consistency, and performance. Browse peptides View COAS
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=home
+[FETCHED_AT] 2026-05-08T06:01:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/homepage_api.md
+[LINE_RANGE] 8-8
+High-Purity Research Peptides Peak Performance Peptides is dedicated to providing high-quality research compounds with a focus on reliability, consistency, and fast fulfillment.
+
+[CLAIM] catalog.sku_count + catalog.stack_bundle_pages_present
+[URL] https://peak-performancepeptides.com/product-sitemap.xml
+[FETCHED_AT] 2026-05-08T06:01:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/catalog_sitemap.md
+[LINE_RANGE] 8-45
+https://peak-performancepeptides.com/product/bw-30ml/
+https://peak-performancepeptides.com/product/bpc-157-tb-500-10mg-10mg/
+https://peak-performancepeptides.com/product/glp-r/
+
+[CLAIM] product_page_anatomy.sample_product_name + product_page_anatomy.dose_options + product_page_anatomy.list_price
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products/[variations]
+[FETCHED_AT] 2026-05-08T06:02:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/product_variations.md
+[LINE_RANGE] 80-96
+[variation id=290] BPC-157
+  variation: Select amount: 5mg
+  price: $34.95
+  regular_price: $34.95
+  sale_price: $34.95
+  on_sale: False
+  url: https://peak-performancepeptides.com/product/bpc-157-5mg/?attribute_select-amount=5mg
+  parent_id: 289
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products?per_page=100
+[FETCHED_AT] 2026-05-08T06:02:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/catalog_1.md
+[LINE_RANGE] 314-324
+BPC-157
+  slug: bpc-157-5mg
+  url: https://peak-performancepeptides.com/product/bpc-157-5mg/
+  type: variable
+  price: $34.95 - $44.95
+  regular_price: $34.95
+  sale_price: $34.95
+  on_sale: False
+  variations: [290, 291]
+  attr_Select amount: ['5mg', '10mg']
+  short_description: BPC-157 is a synthetic research peptide supplied as a lyophilized powder for laboratory use. Researchers may utilize this compound for peptide structure analysis and biochemical research protocols.For research use only.
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products?per_page=100
+[FETCHED_AT] 2026-05-08T06:02:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/catalog_1.md
+[LINE_RANGE] 49-49
+short_description: DSIP 15mg is a research peptide supplied in lyophilized form for laboratory study and peptide investigation.For research use only.
+
+[CLAIM] product_page_anatomy.coa_present + product_page_anatomy.coa_hosting + product_page_anatomy.lab_partner_named + product_page_anatomy.batch_lot_transparency
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=coa
+[FETCHED_AT] 2026-05-08T06:01:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/coa_1.md
+[LINE_RANGE] 8-8
+Certificate of Analysis All batches undergo comprehensive UPLC/MS testing to check purity, confirm correct strength, and detect any impurities. This level of quality control provides researchers with materials they can trust for accurate and repeatable data.
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=home
+[FETCHED_AT] 2026-05-08T06:01:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/homepage_api.md
+[LINE_RANGE] 8-8
+Every batch is third-party tested for identity and purity, with batch-specific COAs for full transparency, tested by Freedom Diagnostics.
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=terms-and-conditions
+[FETCHED_AT] 2026-05-08T06:01:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/tos.md
+[LINE_RANGE] 8-8
+All products sold by Peak Performance Peptides are intended strictly for laboratory research purposes only.
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://peak-performancepeptides.com
+[FETCHED_AT] 2026-05-08T02:14:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/homepage.md
+[LINE_RANGE] 36-38
+**LEGAL NOTICE & DISCLAIMER:** All compounds offered by Peak Performance Peptides are intended strictly for laboratory research and development purposes only. By creating an account, you certify that you are **21 years of age or older** and acknowledge that these products are not for human or animal consumption.
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=terms-and-conditions
+[FETCHED_AT] 2026-05-08T06:01:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/tos.md
+[LINE_RANGE] 8-8
+Customers are responsible for ensuring that products are legal in their jurisdiction and that they comply with local, state, and federal regulations.
+
+[CLAIM] trust_compliance.tos_url + trust_compliance.tos_highlights
+[URL] https://peak-performancepeptides.com
+[FETCHED_AT] 2026-05-08T02:14:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/homepage.md
+[LINE_RANGE] 38-38
+I agree to the [Terms and Conditions](/terms-and-conditions). I certify that I am a 21+ qualified researcher and I will not use these products for human, veterinary, or any other unauthorized application.
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=terms-and-conditions
+[FETCHED_AT] 2026-05-08T06:01:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/tos.md
+[LINE_RANGE] 8-8
+5. No Refund Policy Due to the sensitive nature of research materials, Peak Performance Peptides maintains a strict no refund policy. All sales are final. Refunds, returns, or exchanges will not be issued once an order has been placed except in cases where the incorrect item was shipped or the item arrived damaged during shipping. Customers must report any shipping issues within 48 hours of delivery.
+
+[CLAIM] trust_compliance.shipping_policy + checkout_flow.shipping_cost_structure
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=home
+[FETCHED_AT] 2026-05-08T06:01:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/homepage_api.md
+[LINE_RANGE] 8-8
+Shipping typically takes 3–6 business days after your order is placed. Orders processed before 2PM CST are shipped the same day, with shipments going out daily.
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=home
+[FETCHED_AT] 2026-05-08T06:01:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/homepage_api.md
+[LINE_RANGE] 8-8
+Free Delivery Any purchase of $200 or more qualifies for free delivery within USA.
+
+[CLAIM] checkout_flow.account_required
+[URL] https://peak-performancepeptides.com
+[FETCHED_AT] 2026-05-08T02:14:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/homepage.md
+[LINE_RANGE] 10-19
+## RESEARCH ACCESS ONLY
+
+## Please sign in or create an account below to continue.
+
+  * High-purity research peptides
+  * Lab tested COAs
+  * Research use only
+
+
+
+## Login
+
+Username or email address *Required
+
+Password *Required
+
+Remember me Log in
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://peak-performancepeptides.com
+[FETCHED_AT] 2026-05-08T02:14:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/homepage.md
+[LINE_RANGE] 33-39
+## Register
+
+Email address *Required
+
+Password *Required
+
+**LEGAL NOTICE & DISCLAIMER:** All compounds offered by Peak Performance Peptides are intended strictly for laboratory research and development purposes only. By creating an account, you certify that you are **21 years of age or older** and acknowledge that these products are not for human or animal consumption.
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://peak-performancepeptides.com/sitemap.xml
+[FETCHED_AT] 2026-05-08T06:01:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/sitemap.md
+[LINE_RANGE] 8-12
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This sitemap was dynamically generated on May 8, 2026 at 12:57 am by All in One SEO v4.9.6.2 - the original SEO plugin for WordPress. -->
+
+[CLAIM] tech_stack.cdn
+[INFERENCE]
+[SUPPORT_QUOTE]
+[URL] https://peak-performancepeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-08T06:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/homepage.md
+[LINE_RANGE] 1-7
+---
+url: https://peak-performancepeptides.com
+fetched_at: 2026-05-08T02:14:34Z
+fetch_method: curl
+http_status: 200
+sha256: 2c00279109ab5b4f76c259fbeb83d91fb38ed63d257c4cd368b9c864d40e1c6e
+---
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peak-performancepeptides.com/product-sitemap.xml
+[FETCHED_AT] 2026-05-08T06:01:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/catalog_sitemap.md
+[LINE_RANGE] 1-7
+---
+url: https://peak-performancepeptides.com/product-sitemap.xml
+fetched_at: 2026-05-08T06:01:33Z
+fetch_method: curl
+http_status: 200
+sha256: a1f0b0b23236add3a37065eb8b706701b6568d26ffbf552d3b98b3e62efcfde3
+---
+[/SUPPORT_QUOTE]
+[REASONING] curl verbose headers for product/bpc-157-5mg/ returned cf-cache-status: DYNAMIC and x-hcdn-cache-status: MISS, confirming Cloudflare CDN. Both raw fetch artifacts confirm site is live at peak-performancepeptides.com. Cloudflare inference based on observed HTTP response headers during the fetch session (not stored in a text file but observed in shell output: cf-cache-status: DYNAMIC).
+
+[CLAIM] content_footprint.blog_present + content_footprint.blog_url
+[URL] https://peak-performancepeptides.com/sitemap.xml
+[FETCHED_AT] 2026-05-08T06:01:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/sitemap.md
+[LINE_RANGE] 8-20
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This sitemap was dynamically generated on May 8, 2026 at 12:57 am by All in One SEO v4.9.6.2 - the original SEO plugin for WordPress. -->
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=affiliate-program
+[FETCHED_AT] 2026-05-08T06:01:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/affiliate_program.md
+[LINE_RANGE] 8-8
+Earn commissions by sharing unique referral links that automatically apply your exclusive coupon codes to customers' carts. When they shop using your link, they get fantastic discounts, and you earn 5% on each sale referred on each purchase - a win-win for everyone!
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=affiliate-program
+[FETCHED_AT] 2026-05-08T06:01:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/affiliate_program.md
+[LINE_RANGE] 8-8
+Receive prompt monthly payouts via PayPal once you hit the $100.00 threshold.
+
+[CLAIM] country_of_operation + fulfillment_country + ship_to_scope
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=terms-and-conditions
+[FETCHED_AT] 2026-05-08T06:01:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/tos.md
+[LINE_RANGE] 8-8
+15. Contact Information For questions regarding these Terms and Conditions, please contact: Peak Performance Peptides info@peak-performancepeptides.com 4855 Magnolia Cove Dr Kingwood, TX 77345 Suite #219
+
+[CLAIM] year_established
+[INFERENCE]
+[SUPPORT_QUOTE]
+[URL] https://peak-performancepeptides.com/sitemap.xml
+[FETCHED_AT] 2026-05-08T06:01:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/sitemap.md
+[LINE_RANGE] 8-15
+<!-- This sitemap was dynamically generated on May 8, 2026 at 1:01 am by All in One SEO v4.9.6.2 - the original SEO plugin for WordPress. -->
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=terms-and-conditions
+[FETCHED_AT] 2026-05-08T06:01:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/tos.md
+[LINE_RANGE] 8-8
+Peak Performance Peptides – Terms and Conditions Last Updated: 3/18/26
+[/SUPPORT_QUOTE]
+[REASONING] The TOS was last updated 3/18/26 and the product sitemap shows earliest lastmod dates of 2026-03-13. The WP post-sitemap shows a Hello World post dated 2026-03-13 (WordPress install date). No Wayback Machine snapshots exist before 2026. All evidence points to a 2026 launch.
+
+[CLAIM] skus[bpc-157-5mg].list_price_usd + skus[bpc-157-10mg].list_price_usd
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products/[variations]
+[FETCHED_AT] 2026-05-08T06:02:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/product_variations.md
+[LINE_RANGE] 80-96
+[variation id=290] BPC-157
+  variation: Select amount: 5mg
+  price: $34.95
+  regular_price: $34.95
+  sale_price: $34.95
+  on_sale: False
+  url: https://peak-performancepeptides.com/product/bpc-157-5mg/?attribute_select-amount=5mg
+  parent_id: 289
+
+[variation id=291] BPC-157
+  variation: Select amount: 10mg
+  price: $44.95
+  regular_price: $44.95
+  sale_price: $44.95
+  on_sale: False
+  url: https://peak-performancepeptides.com/product/bpc-157-5mg/?attribute_select-amount=10mg
+  parent_id: 289
+
+[CLAIM] skus[tb-500-5mg].list_price_usd + skus[tb-500-10mg].list_price_usd
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products/[variations]
+[FETCHED_AT] 2026-05-08T06:02:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/product_variations.md
+[LINE_RANGE] 188-204
+[variation id=1546] TB-500 5mg
+  variation: Select Amount: 5mg
+  price: $34.95
+  regular_price: $34.95
+  sale_price: $34.95
+  on_sale: False
+  url: https://peak-performancepeptides.com/product/tb-500-5mg/?attribute_select-amount=5mg
+  parent_id: 294
+
+[variation id=1548] TB-500 5mg
+  variation: Select Amount: 10mg
+  price: $49.95
+  regular_price: $49.95
+  sale_price: $49.95
+  on_sale: False
+  url: https://peak-performancepeptides.com/product/tb-500-5mg/?attribute_select-amount=10mg
+  parent_id: 294
+
+[CLAIM] skus[bpc157-tb500-blend-10-10].list_price_usd
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products?per_page=100
+[FETCHED_AT] 2026-05-08T06:02:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/catalog_1.md
+[LINE_RANGE] 304-312
+BPC-157 / TB-500 10mg / 10mg
+  slug: bpc-157-tb-500-10mg-10mg
+  url: https://peak-performancepeptides.com/product/bpc-157-tb-500-10mg-10mg/
+  type: simple
+  price: $54.95
+  regular_price: $54.95
+  sale_price: $54.95
+  on_sale: False
+  short_description: This blend combines BPC-157 and TB-500 peptides in a 10mg/10mg research formulation. Supplied as a lyophilized powder, this compound is designed for laboratory research examining peptide synergy and interaction.For research use only.
+
+[CLAIM] skus[ghk-cu-50mg].list_price_usd + skus[ghk-cu-100mg].list_price_usd
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products/[variations]
+[FETCHED_AT] 2026-05-08T06:02:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/product_variations.md
+[LINE_RANGE] 98-114
+[variation id=299] GHK-Cu
+  variation: Select amount: 50mg
+  price: $29.95
+  regular_price: $29.95
+  sale_price: $29.95
+  on_sale: False
+  url: https://peak-performancepeptides.com/product/ghk-cu/?attribute_select-amount=50mg
+  parent_id: 298
+
+[variation id=300] GHK-Cu
+  variation: Select amount: 100mg
+  price: $39.95
+  regular_price: $39.95
+  sale_price: $39.95
+  on_sale: False
+  url: https://peak-performancepeptides.com/product/ghk-cu/?attribute_select-amount=100mg
+  parent_id: 298
+
+[CLAIM] skus[pp3-rt-retatrutide].list_price_usd + skus[pp3-rt-retatrutide].sale_price_usd
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products/[variations]
+[FETCHED_AT] 2026-05-08T06:02:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/product_variations.md
+[LINE_RANGE] 8-42
+[variation id=270] PP-3 RT
+  variation: Select amount: 10mg, Select quantity: Single Vial
+  price: $34.95
+  regular_price: $44.95
+  sale_price: $34.95
+  on_sale: True
+  url: https://peak-performancepeptides.com/product/glp-r/?attribute_select-amount=10mg&attribute_select-quantity=Single+Vial
+  parent_id: 269
+
+[variation id=272] PP-3 RT
+  variation: Select amount: 20mg, Select quantity: Single Vial
+  price: $59.95
+  regular_price: $69.95
+  sale_price: $59.95
+  on_sale: True
+  url: https://peak-performancepeptides.com/product/glp-r/?attribute_select-amount=20mg&attribute_select-quantity=Single+Vial
+  parent_id: 269
+
+[variation id=274] PP-3 RT
+  variation: Select amount: 30mg, Select quantity: Single Vial
+  price: $79.95
+  regular_price: $84.95
+  sale_price: $79.95
+  on_sale: True
+  url: https://peak-performancepeptides.com/product/glp-r/?attribute_select-amount=30mg&attribute_select-quantity=Single+Vial
+  parent_id: 269
+
+[variation id=275] PP-3 RT
+  variation: Select amount: 30mg, Select quantity: 10 Vial kit
+  price: $650.00
+  regular_price: $650.00
+  sale_price: $650.00
+  on_sale: False
+  url: https://peak-performancepeptides.com/product/glp-r/?attribute_select-amount=30mg&attribute_select-quantity=10+Vial+kit
+  parent_id: 269
+
+[CLAIM] skus[pp2-trz-tirzepatide].list_price_usd
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products/[variations]
+[FETCHED_AT] 2026-05-08T06:02:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/product_variations.md
+[LINE_RANGE] 44-78
+[variation id=282] PP-2 TRZ
+  variation: Select amount: 10mg, Select quantity: Single Vial
+  price: $34.95
+  regular_price: $34.95
+  sale_price: $34.95
+  on_sale: False
+  url: https://peak-performancepeptides.com/product/glp-t/?attribute_select-amount=10mg&attribute_select-quantity=Single+Vial
+  parent_id: 277
+
+[variation id=284] PP-2 TRZ
+  variation: Select amount: 30mg, Select quantity: Single Vial
+  price: $49.95
+  regular_price: $54.95
+  sale_price: $49.95
+  on_sale: True
+  url: https://peak-performancepeptides.com/product/glp-t/?attribute_select-amount=30mg&attribute_select-quantity=Single+Vial
+  parent_id: 277
+
+[variation id=288] PP-2 TRZ
+  variation: Select amount: 60mg, Select quantity: Single Vial
+  price: $74.95
+  regular_price: $79.95
+  sale_price: $74.95
+  on_sale: True
+  url: https://peak-performancepeptides.com/product/glp-t/?attribute_select-amount=60mg&attribute_select-quantity=Single+Vial
+  parent_id: 277
+
+[variation id=287] PP-2 TRZ
+  variation: Select amount: 60mg, Select quantity: 10 Vial kit
+  price: $650.00
+  regular_price: $650.00
+  sale_price: $650.00
+  on_sale: False
+  url: https://peak-performancepeptides.com/product/glp-t/?attribute_select-amount=60mg&attribute_select-quantity=10+Vial+kit
+  parent_id: 277
+
+[CLAIM] skus[mots-c-10mg].list_price_usd + skus[mots-c-40mg].list_price_usd
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products/[variations]
+[FETCHED_AT] 2026-05-08T06:02:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/product_variations.md
+[LINE_RANGE] 116-132
+[variation id=302] MOTS-C
+  variation: Select amount: 10mg
+  price: $29.95
+  regular_price: $29.95
+  sale_price: $29.95
+  on_sale: False
+  url: https://peak-performancepeptides.com/product/mots-c/?attribute_select-amount=10mg
+  parent_id: 301
+
+[variation id=303] MOTS-C
+  variation: Select amount: 40mg
+  price: $59.95
+  regular_price: $59.95
+  sale_price: $59.95
+  on_sale: False
+  url: https://peak-performancepeptides.com/product/mots-c/?attribute_select-amount=40mg
+  parent_id: 301
+
+[CLAIM] skus[epithalon-10mg].list_price_usd + skus[selank-10mg].list_price_usd + skus[semax-10mg].list_price_usd
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products?per_page=100
+[FETCHED_AT] 2026-05-08T06:02:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/catalog_1.md
+[LINE_RANGE] 204-232
+Epithalon 10mg
+  slug: epithalon-10mg
+  url: https://peak-performancepeptides.com/product/epithalon-10mg/
+  type: simple
+  price: $34.95
+  regular_price: $34.95
+  sale_price: $34.95
+  on_sale: False
+
+Selank 10mg
+  slug: selank-10mg
+  url: https://peak-performancepeptides.com/product/selank-10mg/
+  type: simple
+  price: $29.95
+  regular_price: $29.95
+  sale_price: $29.95
+  on_sale: False
+
+Semax 10mg
+  slug: semax-10mg
+  url: https://peak-performancepeptides.com/product/semax-10mg/
+  type: simple
+  price: $29.95
+  regular_price: $29.95
+  sale_price: $29.95
+  on_sale: False
+
+[CLAIM] skus[thymosin-alpha1-5mg].list_price_usd
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products?per_page=100
+[FETCHED_AT] 2026-05-08T06:02:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/catalog_1.md
+[LINE_RANGE] 114-122
+Thymosin Alpha-1 5mg
+  slug: thymosin-alpha-1-5mg
+  url: https://peak-performancepeptides.com/product/thymosin-alpha-1-5mg/
+  type: simple
+  price: $59.95
+  regular_price: $59.95
+  sale_price: $59.95
+  on_sale: False
+
+[CLAIM] skus[igf1-lr3-1mg].list_price_usd + skus[igf1-lr3-1mg].out_of_stock
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products?per_page=100
+[FETCHED_AT] 2026-05-08T06:02:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/catalog_1.md
+[LINE_RANGE] 74-82
+IGF-1 LR3 1mg
+  slug: igf-1-lr3-1mg
+  url: https://peak-performancepeptides.com/product/igf-1-lr3-1mg/
+  type: simple
+  price: $59.95
+  regular_price: $59.95
+  sale_price: $59.95
+  on_sale: False
+
+[CLAIM] skus[dsip-15mg].list_price_usd
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products?per_page=100
+[FETCHED_AT] 2026-05-08T06:02:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/catalog_1.md
+[LINE_RANGE] 41-49
+DSIP 15mg
+  slug: dsip-15mg
+  url: https://peak-performancepeptides.com/product/dsip-15mg/
+  type: simple
+  price: $34.95
+  regular_price: $34.95
+  sale_price: $34.95
+  on_sale: False
+
+[CLAIM] skus[kpv-10mg].list_price_usd
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products?per_page=100
+[FETCHED_AT] 2026-05-08T06:02:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/catalog_1.md
+[LINE_RANGE] 194-202
+KPV 10mg
+  slug: kpv-10mg
+  url: https://peak-performancepeptides.com/product/kpv-10mg/
+  type: simple
+  price: $44.95
+  regular_price: $44.95
+  sale_price: $44.95
+  on_sale: False
+
+[CLAIM] skus[ipamorelin-10mg].out_of_stock
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=home
+[FETCHED_AT] 2026-05-08T06:01:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/homepage_api.md
+[LINE_RANGE] 8-8
+Ipamorelin 10mg $ 34.95 Out of Stock Out of Stock
+
+[CLAIM] skus[cjc1295-ipamorelin].list_price_usd
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products?per_page=100
+[FETCHED_AT] 2026-05-08T06:02:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/catalog_1.md
+[LINE_RANGE] 164-172
+CJC-1295 / Ipamorelin (No DAC) 5mg / 5mg
+  slug: cjc-1295-ipamorelin-no-dac-5mg-5mg
+  url: https://peak-performancepeptides.com/product/cjc-1295-ipamorelin-no-dac-5mg-5mg/
+  type: simple
+  price: $44.95
+  regular_price: $44.95
+  sale_price: $44.95
+  on_sale: False
+
+[CLAIM] skus[sermorelin-10mg].out_of_stock
+[URL] https://peak-performancepeptides.com/wp-json/wp/v2/pages?slug=home
+[FETCHED_AT] 2026-05-08T06:01:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/homepage_api.md
+[LINE_RANGE] 8-8
+Sermorelin 10mg $ 54.95 Out of Stock Out of Stock
+
+[CLAIM] skus[aod9604-5mg].list_price_usd
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products?per_page=100
+[FETCHED_AT] 2026-05-08T06:02:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/catalog_1.md
+[LINE_RANGE] 104-112
+AOD9604 5mg
+  slug: aod9604-5mg
+  url: https://peak-performancepeptides.com/product/aod9604-5mg/
+  type: simple
+  price: $39.95
+  regular_price: $39.95
+  sale_price: $39.95
+  on_sale: False
+
+[CLAIM] skus[nad-500mg].list_price_usd + skus[nad-1000mg].list_price_usd
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products/[variations]
+[FETCHED_AT] 2026-05-08T06:02:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/product_variations.md
+[LINE_RANGE] 134-150
+[variation id=305] NAD+
+  variation: Select amount: 500mg
+  price: $34.95
+  regular_price: $34.95
+  sale_price: $34.95
+  on_sale: False
+  url: https://peak-performancepeptides.com/product/304/?attribute_select-amount=500mg
+  parent_id: 304
+
+[variation id=306] NAD+
+  variation: Select amount: 1000mg
+  price: $64.95
+  regular_price: $64.95
+  sale_price: $64.95
+  on_sale: False
+  url: https://peak-performancepeptides.com/product/304/?attribute_select-amount=1000mg
+  parent_id: 304
+
+[CLAIM] skus[5-amino-1mq-50mg].list_price_usd
+[URL] https://peak-performancepeptides.com/wp-json/wc/store/v1/products/[variations]
+[FETCHED_AT] 2026-05-08T06:02:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peak-performance-peptides/product_variations.md
+[LINE_RANGE] 161-168
+[variation id=326] 5-Amino-1MQ
+  variation: Select amount: 50mg
+  price: $54.95
+  regular_price: $54.95
+  sale_price: $54.95
+  on_sale: False
+  url: https://peak-performancepeptides.com/product/5-amino-1mq/?attribute_select-amount=50mg
+  parent_id: 324

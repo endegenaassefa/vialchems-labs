@@ -1,0 +1,215 @@
+{
+  "vendor_slug": "liyu-daily",
+  "brand_name": "Liyu Daily",
+  "primary_domain": "https://liyudaily.com",
+  "fetched_url": "https://liyudaily.com/",
+  "fetched_at": "2026-05-07T23:59:00Z",
+  "fetch_status": "partial",
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.61,
+  "country_of_operation": "China (Huaian City, Jiangsu Province)",
+  "fulfillment_country": "China",
+  "ship_to_scope": "us_intl",
+  "year_established": "uncertain",
+  "homepage": {
+    "hero_copy_excerpt": "High Quality Research Peptides",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Shop Now",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "Copyright 2025 \u00a9 Liyu Daily"
+  },
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": [
+      "All Products",
+      "Department Store",
+      "Peptides",
+      "Others"
+    ],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "false"
+  },
+  "product_page_anatomy": {
+    "sample_product_url": "https://www.liyupeptide.com/product/148.html",
+    "sample_product_name": "BPC157",
+    "dose_options": [
+      "uncertain"
+    ],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "Vial Freeze-Dried Powder. Purity 98% HPLC. Usage: Laboratory Reagents. Origin: China.",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "true",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "uncertain"
+  },
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "https://liyudaily.com/pages/terms-of-service",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "We will ship within 3 working days. The shipping time is 6-9 days (calculated at the slowest speed). Standard shipping fee is $50. DHL, UPS, Fedex, TNT, EMS available. Double clear to door express packages."
+  },
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": [
+      "uncertain"
+    ],
+    "id_verification_present": "false",
+    "payment_methods_accepted": [
+      "Bitcoin",
+      "PayPal",
+      "cryptocurrencies",
+      "bank transfers",
+      "Alibaba"
+    ],
+    "shipping_carriers": [
+      "DHL",
+      "UPS",
+      "Fedex",
+      "TNT",
+      "EMS"
+    ],
+    "shipping_cost_structure": "Standard $50. PayPal incurs 5% handling fee. Varies by region.",
+    "international_policy": "Ships internationally. Delivery 10-12 days stated validity."
+  },
+  "tech_stack": {
+    "platform_signal": "custom",
+    "cdn": "Cloudflare",
+    "analytics_tools_loaded": [
+      "Cloudflare Web Analytics"
+    ],
+    "marketing_pixels_present": [
+      "Meta Pixel (ID: 1501453221027960)"
+    ],
+    "chat_widget_present": "false"
+  },
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": [
+      "uncertain"
+    ],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+  "social_proof": {
+    "on_site_reviews": "true",
+    "off_site_aggregators": [
+      "Trustpilot (3.7/5, 1 review)"
+    ],
+    "testimonial_usage": "On-site testimonials present: Geoffrey, Virgilia, Jeron Jones, plus 1 anonymous.",
+    "visible_influencer_endorsements": "none observed"
+  },
+  "skus": [
+    {
+      "sku_id": "liyu-daily:bpc157-vial",
+      "name": "BPC157",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "empty",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://www.liyupeptide.com/product/148.html",
+      "raw_artifact": "03_raw_fetches/liyu-daily/product_1__bpc157.md",
+      "evidence_entry_id": "claim-5"
+    },
+    {
+      "sku_id": "liyu-daily:semaglutide-vial",
+      "name": "Semaglutide",
+      "peptide_canonical": "Semaglutide",
+      "peptide_variant": "empty",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "10 vials per box",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://liyupeptide.com/product/146.html",
+      "raw_artifact": "03_raw_fetches/liyu-daily/product_2__semaglutide.md",
+      "evidence_entry_id": "claim-6"
+    },
+    {
+      "sku_id": "liyu-daily:retatrutide-inferred",
+      "name": "Retatrutide",
+      "peptide_canonical": "Retatrutide",
+      "peptide_variant": "empty",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "uncertain",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://www.liyupeptide.com/product",
+      "raw_artifact": "03_raw_fetches/liyu-daily/companion_liyupeptide_com.md",
+      "evidence_entry_id": "claim-7"
+    },
+    {
+      "sku_id": "liyu-daily:tirzepatide-inferred",
+      "name": "Tirzepatide",
+      "peptide_canonical": "Tirzepatide",
+      "peptide_variant": "empty",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "uncertain",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://www.liyupeptide.com/product",
+      "raw_artifact": "03_raw_fetches/liyu-daily/companion_liyupeptide_com.md",
+      "evidence_entry_id": "claim-8"
+    }
+  ],
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "liyu-daily,Liyu daily,liyudaily.com,0,00_inputs/vendor_list.csv,\"row from operator-supplied vendor list, classified as Tier 3: Chinese direct-to-consumer supplier.\",3,as-assigned (operator seed),pending"
+  },
+  "raw_fetches_dir": "03_raw_fetches/liyu-daily/",
+  "evidence_file": "evidence/liyu-daily.txt",
+  "uncertainty_notes": "fetch_status=partial (ratio 0.54): homepage is a Vue.js 2 SPA shell (1464 bytes raw HTML, no renderable text) served behind Cloudflare. gstack:browse failed due to Chromium sandbox restriction in WSL2 root environment (Running as root without --no-sandbox error). Content sourced from: (1) /setting server-side JSON API (703 KB, confirmed working); (2) companion B2B site liyupeptide.com (87 KB static HTML); (3) WebSearch structured snippets. Wayback Machine has only one snapshot (2025-07-10) which is also a Vue SPA shell. year_established: domain liyudaily.com registered 2026-06-27 per RDAP; liyupeptide.com registered 2025-05-13. Companion site footer shows 'Copyright 2003-2043 Liyu Daily Chemical Co., Ltd.' but this appears aspirational/boilerplate rather than factual. Self-claim is '10+ Year Experience' and '7 years of development'. No verifiable founding date. navigation_pattern: SPA, structure inferred from /setting pcNav JSON but not rendered. exact_disclaimer_language: no 'for research use only' phrasing observed on either site; hero text uses 'Research Peptides' but no NFA/RUO disclaimer found. coa_present/coa_hosting/lab_partner_named: FAQ states third-party testing but no specific lab named. tos_highlights/refund_policy: policy pages exist as Vue routes (IDs 488-491 found in /setting JSON) but are not accessible as server-side endpoints; content unknown. on_site reviews: testimonials shown in home layout JSON are unverifiable/may be fabricated. Trustpilot 3.7/5 with 1 review per WebSearch structured snippet (direct fetch returned 403). SKU prices: not displayed on either site; contact-for-pricing model. Checkout flow: entire checkout is behind the Vue router; unable to walk without JS execution. tech_stack platform: shop910.com SaaS (a Chinese e-commerce SaaS, not a standard known platform like Shopify/WooCommerce; classified as custom). blog/content_footprint: no blog found on liyudaily.com; liyupeptide.com has a NEWS section but pages returned 404. sku_count: uncertain because the product catalog is behind the Vue.js router (client-side rendering only); the /setting API lists 4 category IDs but does not embed product counts; catalog walk not possible without JS execution."
+}

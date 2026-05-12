@@ -1,0 +1,770 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://thepeptidelabs.ca/
+[FETCHED_AT] 2026-05-08T08:27:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/homepage.md
+[LINE_RANGE] 179-193
+[QUOTE]
+"##  Canadian Peptide Labs
+
+The Benchmarkof Purity inPeptide Research"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://thepeptidelabs.ca/
+[FETCHED_AT] 2026-05-08T08:27:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/homepage.md
+[LINE_RANGE] 479-479
+[QUOTE]
+"All products sold by The Peptide Labs are intended strictly for **laboratory research purposes only**. These compounds are **not for human consumption, medical use, or veterinary use**. Products are sold exclusively to qualified researchers and laboratories."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://thepeptidelabs.ca/
+[FETCHED_AT] 2026-05-08T08:27:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/homepage.md
+[LINE_RANGE] 181-182
+[QUOTE]
+"[ SHOP NOW __](https://thepeptidelabs.ca/shop)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://thepeptidelabs.ca/
+[FETCHED_AT] 2026-05-08T08:27:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/homepage.md
+[LINE_RANGE] 68-115
+[QUOTE]
+"  * [Home](https://thepeptidelabs.ca/)
+  * [Shop](/shop)
+    * [Anti-Aging](https://thepeptidelabs.ca/product-category/anti-aging/)
+    * [Ancillaries](https://thepeptidelabs.ca/product-category/ancillaries/)
+    * [Muscle Growth](https://thepeptidelabs.ca/product-category/muscle-growth/)
+    * [Recovery](https://thepeptidelabs.ca/product-category/recovery/)
+    * [Peptide Blend](https://thepeptidelabs.ca/product-category/peptide-blend/)
+    * [Fat Loss](https://thepeptidelabs.ca/product-category/fat-loss/)
+  * [About Us](https://thepeptidelabs.ca/about-us/)
+  * [FAQ](https://thepeptidelabs.ca/faq/)
+  * [Dosage Calculator](https://thepeptidelabs.ca/dosage-calculator/)
+  * [Learn](https://thepeptidelabs.ca/blog/)
+  * [Contact Us](https://thepeptidelabs.ca/contact-us/)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://thepeptidelabs.ca/shop/
+[FETCHED_AT] 2026-05-08T08:28:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/catalog_1.md
+[LINE_RANGE] 181-201
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/thepeptidelabs/product_*.md:
+20 saved artifacts; catalog page category item counts sum to 41 (Ancillaries 3 + Anti-Aging 12 + Fat Loss 10 + Muscle Growth 6 + Peptide Blend 2 + Recovery 8).
+[FILES]
+catalog_1.md
+product_1__bpc-157-10mg.md
+product_2__tb-500-10mg.md
+product_3__retatrutide-10mg.md
+product_4__semaglutide-10mg.md
+product_5__tirzepatide-10mg.md
+product_6__ghk-cu-50mg.md
+product_7__mots-c-10mg.md
+product_8__epitalon-10mg.md
+product_9__selank-10mg.md
+product_10__semax-10mg.md
+product_11__dsip-10mg.md
+product_12__kpv-10mg.md
+product_13__ipamorelin-10mg.md
+product_14__cjc-1295-10mg.md
+product_15__aod-9604-5mg.md
+product_16__ss-31-50mg.md
+product_17__nad-500mg.md
+product_18__ghk-cu-100mg.md
+product_19__bpc-157-tb-500-bundle.md
+product_20__glow-blend.md
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://thepeptidelabs.ca/shop/
+[FETCHED_AT] 2026-05-08T08:28:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/catalog_1.md
+[LINE_RANGE] 181-201
+[QUOTE]
+"[Ancillaries](https://thepeptidelabs.ca/product-category/ancillaries/) 3 items
+[Anti-Aging](https://thepeptidelabs.ca/product-category/anti-aging/) 12 items
+[Fat Loss](https://thepeptidelabs.ca/product-category/fat-loss/) 10 items
+[Muscle Growth](https://thepeptidelabs.ca/product-category/muscle-growth/) 6 items
+[Peptide Blend](https://thepeptidelabs.ca/product-category/peptide-blend/) 2 items
+[Recovery](https://thepeptidelabs.ca/product-category/recovery/) 8 items"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://thepeptidelabs.ca/
+[FETCHED_AT] 2026-05-08T08:27:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/homepage.md
+[LINE_RANGE] 372-384
+[QUOTE]
+"Bundle & Save 25% OFF
+
+[Ultimate Muscle Growth Bundle](https://thepeptidelabs.ca/product/bpc-157tb-500-10mg10mg/)
+
+$130.00 $150.00
+
+[ See Details __](https://thepeptidelabs.ca/product/bpc-157tb-500-10mg10mg/)
+
+[ ](https://thepeptidelabs.ca/product/glow-blend-bpc-157-10mgghk-cu-50mgtb-500-10mg/)
+
+Bundle & Save 25% OFF
+
+[Weight Loss Program Bundle](https://thepeptidelabs.ca/product/glow-blend-bpc-157-10mgghk-cu-50mgtb-500-10mg/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://thepeptidelabs.ca/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T08:28:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 180-184
+[QUOTE]
+"##### BPC-157 10MG
+
+$ 65.00
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://thepeptidelabs.ca/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T08:28:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 201-203
+[QUOTE]
+"BPC-157 10mg is a well-known **research peptide** derived from a protective gastric protein, widely studied for its role in **cellular repair, tissue regeneration, and recovery pathways**. In laboratory research settings, BPC-157 has been explored for its interactions with **angiogenesis, growth factor signaling, and inflammatory response modulation**. Its stability and broad research interest make it a staple compound in regenerative and peptide-based studies.
+
+_For laboratory research use only. Not intended for human consumption or therapeutic use._"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://thepeptidelabs.ca/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T08:28:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 289-289
+[QUOTE]
+"**Disclaimer:** **BPC-157** (10mg) is provided strictly for laboratory research use only. It is not intended for human or animal consumption, medical treatment, or diagnostic purposes. All handling must comply with local safety regulations."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://thepeptidelabs.ca/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T08:28:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 217-227
+[QUOTE]
+"### Lab Reports
+
+Testides
+
+BPC-157-10MG
+
+Avg Purity| Avg Mass| Result Date
+---|---|---
+98.81%| 10.49 mg| 2026-01-27
+
+[Full Report](https://thepeptidelabs.ca/wp-content/uploads/2026/01/bpc-157-10mg.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://thepeptidelabs.ca/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T08:28:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 219-219
+[QUOTE]
+"Testides"
+[/QUOTE]
+
+[URL] https://thepeptidelabs.ca/product/retatrutide-10mg/
+[FETCHED_AT] 2026-05-08T08:28:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_3__retatrutide-10mg.md
+[LINE_RANGE] 223-231
+[QUOTE]
+"Testides
+
+RETATRUTIDE 10MG - Purity Report
+
+Avg Purity| Avg Mass| Result Date
+---|---|---
+99.73%| 10.17mg| 2026-03-10
+
+[Full Report](https://thepeptidelabs.ca/wp-content/uploads/2026/01/TestReport_TL-RETA-10-030226.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://thepeptidelabs.ca/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T08:28:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 284-288
+[QUOTE]
+"#### Customer review
+
+There are no reviews yet.
+
+Be the first to review "BPC-157 10MG""
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://thepeptidelabs.ca/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T08:28:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 322-335
+[QUOTE]
+"#### People Also Bought
+
+[ ](https://thepeptidelabs.ca/product/bpc-157-tb-500-10mg/)
+
+Tissue Repair
+
+[ BPC-157 + TB-500 (10MG+10MG)](https://thepeptidelabs.ca/product/bpc-157-tb-500-10mg/)
+
+$ 120.00"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://thepeptidelabs.ca/terms-conditions/
+[FETCHED_AT] 2026-05-08T08:28:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/tos.md
+[LINE_RANGE] 313-315
+[QUOTE]
+"All products sold by The Peptide Labs are intended strictly for **laboratory research purposes only**. These compounds are **not for human consumption, medical use, or veterinary use**. Products are sold exclusively to qualified researchers and laboratories."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://thepeptidelabs.ca/terms-conditions/
+[FETCHED_AT] 2026-05-08T08:28:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/tos.md
+[LINE_RANGE] 213-252
+[QUOTE]
+"All products offered for sale on **[https://thepeptidelabs.ca](https://thepeptidelabs.ca/)** are intended **exclusively for laboratory research purposes** and are **not for human or animal consumption**."
+[/QUOTE]
+
+[URL] https://thepeptidelabs.ca/terms-conditions/
+[FETCHED_AT] 2026-05-08T08:28:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/tos.md
+[LINE_RANGE] 223-223
+[QUOTE]
+"**<https://thepeptidelabs.ca>** does not accept returns. **All sales are final** once an order is placed on this website."
+[/QUOTE]
+
+[URL] https://thepeptidelabs.ca/terms-conditions/
+[FETCHED_AT] 2026-05-08T08:28:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/tos.md
+[LINE_RANGE] 252-252
+[QUOTE]
+"**THESE PRODUCTS ARE NOT FOR HUMAN OR ANIMAL CONSUMPTION UNDER ANY CIRCUMSTANCES, IN ANY FORM, OR UNDER ANY CONDITIONS.**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://thepeptidelabs.ca/returns-refunds/
+[FETCHED_AT] 2026-05-08T08:28:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/refund.md
+[LINE_RANGE] 179-192
+[QUOTE]
+"We want you to be completely satisfied with your purchase. If for any reason you are not satisfied, you may return the item(s) within 30 days of receiving your order for a refund or exchange. To be eligible for a return, the item must be unused, in its original packaging, and in the same condition as you received it."
+[/QUOTE]
+
+[URL] https://thepeptidelabs.ca/faq/
+[FETCHED_AT] 2026-05-08T08:28:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/faq.md
+[LINE_RANGE] 249-249
+[QUOTE]
+"Due to the sensitive nature of research peptides and the risk of degradation once they leave our controlled environment, all sales are final. We cannot accept returns or exchanges. However, if there is an error with your order or a product arrives damaged, please contact our support team immediately so we can make it right."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://thepeptidelabs.ca/faq/
+[FETCHED_AT] 2026-05-08T08:28:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/faq.md
+[LINE_RANGE] 191-207
+[QUOTE]
+"Orders paid**Monday to Friday before 1:00 PM PST** are eligible for **same-day shipping**.
+
+Orders paid **after 1:00 PM PST** , on weekends, or on holidays will ship on the **next business day**.
+
+We typically ship via Canada Post Xpresspost. Most orders are processed within 24 business hours. Once shipped, delivery estimates are:
+
+  * **British Columbia, Alberta, and Manitoba:** 1-3 business days
+  * **Eastern Provinces (Ontario, Quebec, Atlantic, etc.):** 2-5 business days"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://thepeptidelabs.ca/faq/
+[FETCHED_AT] 2026-05-08T08:28:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/faq.md
+[LINE_RANGE] 242-242
+[QUOTE]
+"We accept secure Interac e-Transfer. Instructions for payment are provided at checkout."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://thepeptidelabs.ca/faq/
+[FETCHED_AT] 2026-05-08T08:28:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/faq.md
+[LINE_RANGE] 205-205
+[QUOTE]
+"We typically ship via Canada Post Xpresspost. Most orders are processed within 24 business hours."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://thepeptidelabs.ca/faq/
+[FETCHED_AT] 2026-05-08T08:28:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/faq.md
+[LINE_RANGE] 195-195
+[QUOTE]
+"No. We only ship to**Canadian addresses** , unless otherwise stated."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+Homepage source HTML contains WooCommerce template tags (woocommerce-product-gallery, woocommerce-variation-price), WordPress generator meta tag (WordPress 6.9.4), and wp-content paths, confirming WordPress + WooCommerce stack. Elementor 4.0.2 is the page builder.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://thepeptidelabs.ca/
+[FETCHED_AT] 2026-05-08T08:28:52Z
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/homepage.md
+[LINE_RANGE] 68-68
+"[ ](https://thepeptidelabs.ca/ "The Peptide Labs")"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://thepeptidelabs.ca/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T08:28:20Z
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 200-200
+"Add to cart "
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] ["Google Tag Manager (GT-KTB4NPXV)", "Google Site Kit"]
+[REASONING]
+Homepage HTML source includes GTM script tag with container ID GT-KTB4NPXV from googletagmanager.com, and the meta generator tag 'Site Kit by Google 1.178.0'. LiteSpeed Cache CDN layer also confirmed via x-litespeed-cache response header.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://thepeptidelabs.ca/
+[FETCHED_AT] 2026-05-08T08:28:52Z
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/homepage.md
+[LINE_RANGE] 68-70
+"[ ](https://thepeptidelabs.ca/ "The Peptide Labs")"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://thepeptidelabs.ca/
+[FETCHED_AT] 2026-05-08T08:28:52Z
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/homepage.md
+[LINE_RANGE] 207-209
+"######  Rigorous Quality Control
+
+Liquid chromatography and mass spectrometry ensure purity >99%"
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://thepeptidelabs.ca/about-us/
+[FETCHED_AT] 2026-05-08T08:28:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/about.md
+[LINE_RANGE] 195-195
+[QUOTE]
+"We are based in Canada and ship exclusively from within Canada."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://thepeptidelabs.ca/faq/
+[FETCHED_AT] 2026-05-08T08:28:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/faq.md
+[LINE_RANGE] 195-195
+[QUOTE]
+"No. We only ship to**Canadian addresses** , unless otherwise stated."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+Homepage copyright footer shows 2026 but that reflects current year, not founding year. The structured data in the page source shows datePublished 2025-05-23T07:56:12-07:00, indicating the site was first published in May 2025. No explicit founding year stated on About page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://thepeptidelabs.ca/
+[FETCHED_AT] 2026-05-08T08:27:52Z
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/homepage.md
+[LINE_RANGE] 520-520
+"Copyright © 2026 by The Peptide Labs Inc.. All Rights Reserved."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://thepeptidelabs.ca/about-us/
+[FETCHED_AT] 2026-05-08T08:28:45Z
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/about.md
+[LINE_RANGE] 174-174
+"Welcome to **The Peptide Labs**. We are a proudly Canadian company dedicated to supplying the highest quality research peptides to the scientific community, academic institutions, and independent researchers across Canada."
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://thepeptidelabs.ca/
+[FETCHED_AT] 2026-05-08T08:27:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/homepage.md
+[LINE_RANGE] 396-460
+[QUOTE]
+"Emil T.
+
+__
+
+Noticeable Results & Great Quality
+
+__________
+
+"I've been using peptides consistently for a few weeks now, and the results have been impressive. My recovery time has improved, energy levels are up, and overall I just feel better. The quality is clearly high, and everything arrived well-packaged and fresh.""
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://thepeptidelabs.ca/blog/
+[FETCHED_AT] 2026-05-08T08:28:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/blog_1.md
+[LINE_RANGE] 170-216
+[QUOTE]
+"[Unlock Amazing Rewards: The Ultimate Guide to The Peptide Labs Referral Program $15](https://thepeptidelabs.ca/the-peptide-labs-referral-program/)
+
+[Retatrutide: The Ultimate Guide to the Revolutionary Triple-Agonist Peptide](https://thepeptidelabs.ca/retatrutide-triple-agonist-peptide-guide/)
+
+[7 Incredible BPC-157 Benefits: The Ultimate Guide to Fast Healing](https://thepeptidelabs.ca/7-incredible-bpc-157-benefits-healing/)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://thepeptidelabs.ca/
+[FETCHED_AT] 2026-05-08T08:27:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/homepage.md
+[LINE_RANGE] 207-215
+[QUOTE]
+"######  Rigorous Quality Control
+
+Liquid chromatography and mass spectrometry ensure purity >99%
+
+__
+
+###### Secure Payment Methods
+
+E-transfer and cryptocurrency are the most secure ways to pay for your order."
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:bpc-157-10mg]
+[URL] https://thepeptidelabs.ca/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T08:28:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 180-207
+[QUOTE]
+"##### BPC-157 10MG
+
+$ 65.00
+
+In Stock
+
+624 sold in last 30 days"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:tb-500-10mg]
+[URL] https://thepeptidelabs.ca/product/tb-500-10mg/
+[FETCHED_AT] 2026-05-08T08:28:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_2__tb-500-10mg.md
+[LINE_RANGE] 180-186
+[QUOTE]
+"##### TB-500 10MG
+
+$ 65.00
+
+In Stock
+
+689 sold in last 30 days"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:retatrutide-10mg]
+[URL] https://thepeptidelabs.ca/product/retatrutide-10mg/
+[FETCHED_AT] 2026-05-08T08:28:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_3__retatrutide-10mg.md
+[LINE_RANGE] 180-188
+[QUOTE]
+"##### RETATRUTIDE 10MG
+
+$ 75.00
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:semaglutide-10mg]
+[URL] https://thepeptidelabs.ca/product/semaglutide-10mg/
+[FETCHED_AT] 2026-05-08T08:28:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_4__semaglutide-10mg.md
+[LINE_RANGE] 180-184
+[QUOTE]
+"##### SEMAGLUTIDE 10MG
+
+$ 75.00
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:tirzepatide-10mg]
+[URL] https://thepeptidelabs.ca/product/tirzepatide-10mg/
+[FETCHED_AT] 2026-05-08T08:28:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_5__tirzepatide-10mg.md
+[LINE_RANGE] 178-182
+[QUOTE]
+"##### TIRZEPATIDE 10MG
+
+$ 60.00
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:ghk-cu-50mg]
+[URL] https://thepeptidelabs.ca/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T08:28:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_6__ghk-cu-50mg.md
+[LINE_RANGE] 180-188
+[QUOTE]
+"##### GHK-CU 50MG
+
+$ 40.00
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:mots-c-10mg]
+[URL] https://thepeptidelabs.ca/product/mots-c-10mg/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_7__mots-c-10mg.md
+[LINE_RANGE] 180-184
+[QUOTE]
+"##### MOTS-C 10MG
+
+$ 50.00
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:epitalon-10mg]
+[URL] https://thepeptidelabs.ca/product/epitalon-10mg/
+[FETCHED_AT] 2026-05-08T08:28:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_8__epitalon-10mg.md
+[LINE_RANGE] 178-184
+[QUOTE]
+"##### EPITALON 10MG
+
+$ 40.00
+
+Out of Stock
+
+135 sold in last 30 days"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:selank-10mg]
+[URL] https://thepeptidelabs.ca/product/selank-10mg/
+[FETCHED_AT] 2026-05-08T08:28:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_9__selank-10mg.md
+[LINE_RANGE] 180-184
+[QUOTE]
+"##### SELANK 10MG
+
+$ 65.00
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:semax-10mg]
+[URL] https://thepeptidelabs.ca/product/semax-10mg/
+[FETCHED_AT] 2026-05-08T08:28:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_10__semax-10mg.md
+[LINE_RANGE] 180-184
+[QUOTE]
+"##### SEMAX 10MG
+
+$ 50.00
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:dsip-10mg]
+[URL] https://thepeptidelabs.ca/product/dsip-10mg/
+[FETCHED_AT] 2026-05-08T08:28:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_11__dsip-10mg.md
+[LINE_RANGE] 178-184
+[QUOTE]
+"##### DSIP 10MG
+
+$ 50.00
+
+Out of Stock
+
+150 sold in last 30 days"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:kpv-10mg]
+[URL] https://thepeptidelabs.ca/product/kpv-10mg/
+[FETCHED_AT] 2026-05-08T08:28:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_12__kpv-10mg.md
+[LINE_RANGE] 178-184
+[QUOTE]
+"##### KPV 10MG
+
+$ 45.00
+
+Out of Stock
+
+176 sold in last 30 days"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:ipamorelin-10mg]
+[URL] https://thepeptidelabs.ca/product/ipamorelin-10mg/
+[FETCHED_AT] 2026-05-08T08:28:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_13__ipamorelin-10mg.md
+[LINE_RANGE] 180-184
+[QUOTE]
+"##### IPAMORELIN 10MG
+
+$ 65.00
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:cjc-1295-10mg]
+[URL] https://thepeptidelabs.ca/product/cjc-1295-10mg/
+[FETCHED_AT] 2026-05-08T08:28:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_14__cjc-1295-10mg.md
+[LINE_RANGE] 180-184
+[QUOTE]
+"##### CJC-1295 10MG
+
+$ 70.00
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:aod-9604-5mg]
+[URL] https://thepeptidelabs.ca/product/aod-9604-5mg/
+[FETCHED_AT] 2026-05-08T08:28:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_15__aod-9604-5mg.md
+[LINE_RANGE] 178-184
+[QUOTE]
+"##### AOD-9604 5MG
+
+$ 60.00
+
+Out of Stock
+
+181 sold in last 30 days"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:ss-31-50mg]
+[URL] https://thepeptidelabs.ca/product/ss-31-50mg/
+[FETCHED_AT] 2026-05-08T08:28:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_16__ss-31-50mg.md
+[LINE_RANGE] 178-184
+[QUOTE]
+"##### SS-31 50MG
+
+$ 140.00
+
+Out of Stock
+
+155 sold in last 30 days"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:nad-500mg]
+[URL] https://thepeptidelabs.ca/product/nad-500mg/
+[FETCHED_AT] 2026-05-08T08:28:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_17__nad-500mg.md
+[LINE_RANGE] 180-188
+[QUOTE]
+"##### NAD+ 500MG
+
+$ 45.00
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:ghk-cu-100mg]
+[URL] https://thepeptidelabs.ca/product/ghk-cu-100mg/
+[FETCHED_AT] 2026-05-08T08:28:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_18__ghk-cu-100mg.md
+[LINE_RANGE] 178-184
+[QUOTE]
+"##### GHK-CU 100MG
+
+$ 75.00
+
+Out of Stock
+
+162 sold in last 30 days"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:bpc-157-tb-500-bundle]
+[URL] https://thepeptidelabs.ca/product/bpc-157tb-500-10mg10mg/
+[FETCHED_AT] 2026-05-08T08:28:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_19__bpc-157-tb-500-bundle.md
+[LINE_RANGE] 180-186
+[QUOTE]
+"##### BPC-157 + TB-500 (10MG+10MG)
+
+$ 120.00
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] skus[thepeptidelabs:glow-blend]
+[URL] https://thepeptidelabs.ca/product/glow-blend-bpc-157-10mgghk-cu-50mgtb-500-10mg/
+[FETCHED_AT] 2026-05-08T08:28:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thepeptidelabs/product_20__glow-blend.md
+[LINE_RANGE] 180-184
+[QUOTE]
+"##### GLOW BLEND ( BPC-157-10MG + GHK-CU-50MG + TB-500-10MG )
+
+$ 115.00
+
+In Stock"
+[/QUOTE]

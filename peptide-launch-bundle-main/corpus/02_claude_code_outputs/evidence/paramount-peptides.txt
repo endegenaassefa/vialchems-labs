@@ -1,0 +1,652 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.paramountpeptides.com/
+[FETCHED_AT] 2026-05-07T18:12:19Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/homepage.md
+[LINE_RANGE] 49-51
+[QUOTE]
+"Precision peptide chemistry for controlled research applications."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.paramountpeptides.com/
+[FETCHED_AT] 2026-05-07T18:12:19Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/homepage.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"[Browse Research Catalog](https://paramountpeptides.com/all-peptide/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.paramountpeptides.com/
+[FETCHED_AT] 2026-05-07T18:12:19Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/homepage.md
+[LINE_RANGE] 26-41
+[QUOTE]
+"* Research Catalog
+    * [Browse All Products](https://paramountpeptides.com/products/)
+    * [Peptide Vials](https://paramountpeptides.com/product-category/peptide-vials)
+    * [Oral Research Formulations](https://paramountpeptides.com/product-category/oral-research-formulations)
+    * [Topical Research Formulations](https://paramountpeptides.com/product-category/topical-research-formulations)
+    * [Peptide Blends](https://paramountpeptides.com/product-category/peptide-blends)
+  * Collections"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.paramountpeptides.com/
+[FETCHED_AT] 2026-05-07T18:12:19Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/homepage.md
+[LINE_RANGE] 234-234
+[QUOTE]
+"ALL ARTICLES AND PRODUCT INFORMATION PROVIDED ON THIS WEBSITE ARE FOR INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY. The products offered on this website are furnished for in-vitro studies only. In-vitro studies (Latin: in glass) are performed outside of the body. These products are not medicines or drugs and have not been approved by the FDA to prevent, treat or cure any medical condition, ailment or disease. Bodily introduction of any kind into humans or animals is strictly forbidden by law."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://paramountpeptides.com/products/
+[FETCHED_AT] 2026-05-07T18:12:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/catalog_1.md
+[LINE_RANGE] 87-87
+[QUOTE]
+"Showing 1–16 of 98 results"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://paramountpeptides.com/products/
+[FETCHED_AT] 2026-05-07T18:12:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/catalog_1.md
+[LINE_RANGE] 53-81
+[QUOTE]
+"* [Peptide Vials](https://paramountpeptides.com/product-category/peptide-vials/)6464 products
+  * [Oral Research Formulations](https://paramountpeptides.com/product-category/oral-research-formulations/)1616 products
+  * [Topical Research Formulations](https://paramountpeptides.com/product-category/topical-research-formulations/)33 products
+  * [Peptide Blends](https://paramountpeptides.com/product-category/peptide-blends/)1818 products
+  * [Small Molecule](https://paramountpeptides.com/product-category/small-molecule/)1313 products
+  * [Single Compound Peptides](https://paramountpeptides.com/product-category/single-compound/)6565 products"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.paramountpeptides.com/
+[FETCHED_AT] 2026-05-07T18:12:19Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/homepage.md
+[LINE_RANGE] 99-129
+[QUOTE]
+"## [2X Blend CJC-1295 No DAC (5mg) / Ipamorelin (5mg) Research Bundle](https://paramountpeptides.com/product/2x-blend-cjc-1295-no-dac-5mg-ipamorelin-5mg/)
+$80.00
+...
+## [Wolverine Blend – BPC-157 (10mg) / TB500 (10mg)](https://paramountpeptides.com/product/wolverine-blend-10mg-tb500-10mg/)
+$116.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://paramountpeptides.com/product/thymosin-beta-4-tb500/
+[FETCHED_AT] 2026-05-07T18:13:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_4__tb-500-10mg.md
+[LINE_RANGE] 55-58
+[QUOTE]
+"# Thymosin Beta 4 (TB500) (10mg)
+
+$80.00
+
+[Shipping](https://paramountpeptides.com/shipping-policy/) calculated at checkout."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://paramountpeptides.com/product/thymosin-beta-4-tb500/
+[FETCHED_AT] 2026-05-07T18:13:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_4__tb-500-10mg.md
+[LINE_RANGE] 83-83
+[QUOTE]
+"Thymosin Beta 4 (TB500) (10mg) Product Specifications CAS Number 77591-33-4 Molecular Formula C212H350N56O78S Molecular Weight (g/mol) 4963.44 Amino Acid Count 43 Amino Acid Sequence Ac-Ser-Asp-Lys-Pro-Asp-Met-Ala-Glu-Ile-Glu-Lys-Phe-Asp-Lys-Ser-Lys-Leu-Lys-Lys-Thr-Glu-Thr-Gln-Glu-Lys-Asn-Pro-Leu-Pro-Ser-Lys-Glu-Thr-Ile-Glu-Gln-Glu-Lys-Gln-Ala-Gly-Glu-Ser-OH (43 aa, N-acetylated) Purity ≥99% by HPLC | COA available Physical Form Lyophilized powder"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://paramountpeptides.com/product/thymosin-beta-4-tb500/
+[FETCHED_AT] 2026-05-07T18:13:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_4__tb-500-10mg.md
+[LINE_RANGE] 99-99
+[QUOTE]
+"ALL ARTICLES AND PRODUCT INFORMATION PROVIDED ON THIS WEBSITE ARE FOR INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY. The products offered on this website are furnished for in-vitro studies only. In-vitro studies (Latin: in glass) are performed outside of the body. These products are not medicines or drugs and have not been approved by the FDA to prevent, treat or cure any medical condition, ailment or disease. Bodily introduction of any kind into humans or animals is strictly forbidden by law."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://paramountpeptides.com/product/thymosin-beta-4-tb500/
+[FETCHED_AT] 2026-05-07T18:13:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_4__tb-500-10mg.md
+[LINE_RANGE] 61-76
+[QUOTE]
+"###  Quality Documents
+
+**Analyzed:** June 29, 2025
+
+**Batch/Lot:** TB410N062025
+
+View Latest COA
+
+View COA History (2) ▾
+
+June 29, 2025 Lot: TB410N062025
+
+View
+
+June 8, 2025 Lot: TB410N053025
+
+View"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://paramountpeptides.com/coa/
+[FETCHED_AT] 2026-05-07T18:15:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/coa_1.md
+[LINE_RANGE] 49-55
+[QUOTE]
+"## Certificate of Analysis Lookup
+
+Search by product name or lot number.
+
+Search
+
+Please enter a product name or lot number to find Certificates of Analysis."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://paramountpeptides.com/product/thymosin-beta-4-tb500/
+[FETCHED_AT] 2026-05-07T18:13:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_4__tb-500-10mg.md
+[LINE_RANGE] 63-65
+[QUOTE]
+"**Analyzed:** June 29, 2025
+
+**Batch/Lot:** TB410N062025"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://paramountpeptides.com/product/thymosin-beta-4-tb500/
+[FETCHED_AT] 2026-05-07T18:13:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_4__tb-500-10mg.md
+[LINE_RANGE] 51-53
+[QUOTE]
+"Rated **5.00** out of 5 based on 4 customer ratings
+
+(4 customer reviews)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://paramountpeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T18:14:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/tos.md
+[LINE_RANGE] 68-69
+[QUOTE]
+"**2.1 Exclusive Research Purpose.** ALL products sold by Paramount Peptides are intended EXCLUSIVELY for IN-VITRO LABORATORY RESEARCH PURPOSES ONLY. Products are NOT for human or animal use, consumption, injection, ingestion, inhalation, or application of any kind."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://paramountpeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T18:14:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/tos.md
+[LINE_RANGE] 93-93
+[QUOTE]
+"**3.1 Age Requirement.** You MUST be at least twenty-one (21) years of age to access this website or purchase any products. By placing an order, you legally certify that you are aged 21 or older on the date of purchase. We reserve the right to verify age and to cancel any order where age cannot be verified."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://paramountpeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T18:14:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/tos.md
+[LINE_RANGE] 237-237
+[QUOTE]
+"**9.5 Jurisdictional Compliance.** You access this website at your own risk and remain solely responsible for complying with all laws of the jurisdiction in which you are located."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://paramountpeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T18:14:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/tos.md
+[LINE_RANGE] 87-88
+[QUOTE]
+"**2.4 Not a Compounding Pharmacy.** Paramount Peptides is NOT a compounding pharmacy or compounding facility as defined under Section 503A of the Federal Food, Drug, and Cosmetic Act. Paramount Peptides is NOT an outsourcing facility as defined under Section 503B of the Federal Food, Drug, and Cosmetic Act."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://paramountpeptides.com/return-refund-policy/
+[FETCHED_AT] 2026-05-07T18:15:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/refund.md
+[LINE_RANGE] 59-61
+[QUOTE]
+"## ******ALL SALES ARE FINAL******
+
+Due to the nature of research chemicals and the impossibility of verifying product integrity after delivery, **Paramount Peptides does not accept returns of any products once shipped.**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://paramountpeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T18:15:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/shipping.md
+[LINE_RANGE] 51-59
+[QUOTE]
+"We offer FREE standard delivery within the USA on all orders over $300.
+
+## **Domestic shipments:**
+
+Expect 48 hours for order processing and 7 days (or more) for delivery depending on the shipping method you choose at check out. We reserve the right to select the best carrier and shipping method to deliver your package safely and securely.
+
+## **International Shipments:**
+
+We do not ship internationally."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://paramountpeptides.com/checkout/
+[FETCHED_AT] 2026-05-07T18:16:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/checkout_step_1.md
+[LINE_RANGE] 49-62
+[QUOTE]
+"## Login
+
+Username or email address *Required
+
+Password *Required
+
+Remember me Log in
+
+[Lost your password?](https://paramountpeptides.com/my-account/lost-password/)
+
+## Register
+
+Email address *Required"
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://paramountpeptides.com/checkout/
+[FETCHED_AT] 2026-05-07T18:16:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/checkout_step_1.md
+[LINE_RANGE] 70-77
+[QUOTE]
+"Name  *
+
+Phone  *
+
+Date of Birth  *
+
+Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://paramountpeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T18:15:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/shipping.md
+[LINE_RANGE] 57-59
+[QUOTE]
+"## **International Shipments:**
+
+We do not ship internationally."
+[/QUOTE]
+
+
+[CLAIM] country_of_operation
+[URL] https://paramountpeptides.com/about-us/
+[FETCHED_AT] 2026-05-07T18:15:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/about.md
+[LINE_RANGE] 53-53
+[QUOTE]
+"**Paramount Peptides** is an **American-owned and operated research peptide manufacturer** based in **Southern California**."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.paramountpeptides.com/
+[FETCHED_AT] 2026-05-07T18:12:19Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/homepage.md
+[LINE_RANGE] 53-53
+[QUOTE]
+"99%+ pure peptides, in-house & third-party tested, made in the USA."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://paramountpeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T18:15:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/shipping.md
+[LINE_RANGE] 57-59
+[QUOTE]
+"## **International Shipments:**
+
+We do not ship internationally."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2013
+[REASONING]
+The about page states "For more than 12 years" in 2026, implying founding year approximately 2013-2014. Conservative estimate 2013 used.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://paramountpeptides.com/about-us/
+[FETCHED_AT] 2026-05-07T18:15:01Z
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/about.md
+[LINE_RANGE] 53-53
+"**Paramount Peptides** is an **American-owned and operated research peptide manufacturer** based in **Southern California**. For more than 12 years, we have specialized in the **synthesis, purification, and quality testing of peptides** for research, development, and analytical applications."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://paramountpeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T18:14:59Z
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/tos.md
+[LINE_RANGE] 53-53
+"_Updated: December 19, 2025_"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://paramountpeptides.com/product/mots-c/
+[FETCHED_AT] 2026-05-07T18:14:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_9__mots-c-10mg.md
+[LINE_RANGE] 51-53
+[QUOTE]
+"Rated **5.00** out of 5 based on 5 customer ratings
+
+(5 customer reviews)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage hero section leads with scientific messaging ("Precision peptide chemistry for controlled research applications"), lists HPLC testing, Certificate of Analysis, and "100% MADE IN USA" credentials. The imagery style is professional/clinical with product vials on white backgrounds. No lifestyle or meme-coded imagery observed in the rendered text.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.paramountpeptides.com/
+[FETCHED_AT] 2026-05-07T18:12:19Z
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/homepage.md
+[LINE_RANGE] 49-55
+"# Precision peptide chemistry for controlled research applications.
+
+Paramount supplies characterized research peptides to qualified laboratories and independent research programs. Every lot is tested by HPLC, documented, and shipped with a lot-linked Certificate of Analysis.
+
+99%+ pure peptides, in-house & third-party tested, made in the USA."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.paramountpeptides.com/
+[FETCHED_AT] 2026-05-07T18:12:19Z
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/homepage.md
+[LINE_RANGE] 79-83
+"## **Order Research-Use Only Peptides**
+
+At Paramount Peptides, we provide a curated range of high-purity research peptides for laboratory investigation and analytical applications. Each compound is synthesized to exceed 99% purity and validated through advanced testing methods, including HPLC and mass spectrometry."
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://paramountpeptides.com/products/
+[FETCHED_AT] 2026-05-07T18:12:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/catalog_1.md
+[LINE_RANGE] 52-93
+[QUOTE]
+"Filter:
+
+  * [5-Amino-1MQ Collection](https://paramountpeptides.com/product-category/5-amino-1mq-collection/)22 products
+...
+Default sortingSort by popularitySort by average ratingSort by latestSort by price: low to highSort by price: high to low"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://paramountpeptides.com/product/tesamorelin-10mg/
+[FETCHED_AT] 2026-05-07T18:13:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_16__tesamorelin-10mg.md
+[LINE_RANGE] 49-53
+[QUOTE]
+"[](https://paramountpeptides.com/wp-content/uploads/2025/11/PP-SC-TESAMOR-10-1-scaled.png)
+
+[](https://paramountpeptides.com/wp-content/uploads/2025/11/PP-SC-TESAMOR-10-HPLC-1-scaled.webp)
+
+[](https://paramountpeptides.com/wp-content/uploads/2025/11/PP-SC-TESAMOR-10-COA-1-scaled.webp)"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-5mg].list_price_usd
+[URL] https://paramountpeptides.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T18:13:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 55-57
+[QUOTE]
+"# Pentadecapeptide (5mg)
+
+$55.00"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-10mg].list_price_usd
+[URL] https://paramountpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:13:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_2__bpc-157-10mg.md
+[LINE_RANGE] 55-57
+[QUOTE]
+"# Pentadecapeptide (10mg)
+
+$75.00"
+[/QUOTE]
+
+[CLAIM] skus[tb-500-10mg].list_price_usd
+[URL] https://paramountpeptides.com/product/thymosin-beta-4-tb500/
+[FETCHED_AT] 2026-05-07T18:13:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_4__tb-500-10mg.md
+[LINE_RANGE] 55-57
+[QUOTE]
+"# Thymosin Beta 4 (TB500) (10mg)
+
+$80.00"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg].list_price_usd
+[URL] https://paramountpeptides.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-07T18:13:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_7__ghk-cu-50mg.md
+[LINE_RANGE] 55-57
+[QUOTE]
+"# GHK-Cu (50mg)
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] skus[mots-c-10mg].list_price_usd
+[URL] https://paramountpeptides.com/product/mots-c/
+[FETCHED_AT] 2026-05-07T18:14:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_9__mots-c-10mg.md
+[LINE_RANGE] 55-57
+[QUOTE]
+"# MOTS-c (10mg)
+
+$65.00"
+[/QUOTE]
+
+[CLAIM] skus[ipamorelin-10mg].list_price_usd
+[URL] https://paramountpeptides.com/product/ipamorelin/
+[FETCHED_AT] 2026-05-07T18:13:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_10__ipamorelin-5mg.md
+[LINE_RANGE] 55-57
+[QUOTE]
+"# Ipamorelin (10mg)
+
+$80.00"
+[/QUOTE]
+
+[CLAIM] skus[pt-141-10mg].list_price_usd
+[URL] https://paramountpeptides.com/product/pt-141-10mg/
+[FETCHED_AT] 2026-05-07T18:13:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_11__pt-141-10mg.md
+[LINE_RANGE] 55-57
+[QUOTE]
+"# PT-141 (10mg)
+
+$57.00"
+[/QUOTE]
+
+[CLAIM] skus[epithalon-10mg].list_price_usd
+[URL] https://paramountpeptides.com/product/epithalon-10mg/
+[FETCHED_AT] 2026-05-07T18:13:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_12__epithalon-10mg.md
+[LINE_RANGE] 51-53
+[QUOTE]
+"# Epithalon (10mg)
+
+$45.00"
+[/QUOTE]
+
+[CLAIM] skus[semax-30mg].list_price_usd
+[URL] https://paramountpeptides.com/product/semax/
+[FETCHED_AT] 2026-05-07T18:13:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_13__semax-10mg.md
+[LINE_RANGE] 51-57
+[QUOTE]
+"# Semax (30mg)
+
+$60.00"
+[/QUOTE]
+
+[CLAIM] skus[tesamorelin-10mg].list_price_usd
+[URL] https://paramountpeptides.com/product/tesamorelin-10mg/
+[FETCHED_AT] 2026-05-07T18:13:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_16__tesamorelin-10mg.md
+[LINE_RANGE] 59-61
+[QUOTE]
+"# Tesamorelin (10mg)
+
+$76.00"
+[/QUOTE]
+
+[CLAIM] skus[igf1lr3-1mg].list_price_usd
+[URL] https://paramountpeptides.com/product/igf-1lr3/
+[FETCHED_AT] 2026-05-07T18:13:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_17__igf1lr3-1mg.md
+[LINE_RANGE] 51-53
+[QUOTE]
+"# IGF-1 LR3 (1mg)
+
+$80.00"
+[/QUOTE]
+
+[CLAIM] skus[peg-mgf-5mg].list_price_usd
+[URL] https://paramountpeptides.com/product/peg-mgf-5mg/
+[FETCHED_AT] 2026-05-07T18:13:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_18__peg-mgf-5mg.md
+[LINE_RANGE] 51-57
+[QUOTE]
+"# PEG-MGF (5mg)
+
+$89.00"
+[/QUOTE]
+
+[CLAIM] skus[ll37-10mg].list_price_usd
+[URL] https://paramountpeptides.com/product/ll-37-10mg/
+[FETCHED_AT] 2026-05-07T18:13:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_19__ll37-10mg.md
+[LINE_RANGE] 51-57
+[QUOTE]
+"# LL-37 (10mg)
+
+$100.00"
+[/QUOTE]
+
+[CLAIM] skus[aod9604-6mg].list_price_usd
+[URL] https://paramountpeptides.com/product/aod-9604-6mg/
+[FETCHED_AT] 2026-05-07T18:13:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_20__aod9604-6mg.md
+[LINE_RANGE] 51-53
+[QUOTE]
+"# AOD 9604 (6mg)
+
+$75.00"
+[/QUOTE]
+
+[CLAIM] skus[thymosin-alpha1-10mg].list_price_usd
+[URL] https://paramountpeptides.com/product/thymosin-alpha-1-ta1-10mg/
+[FETCHED_AT] 2026-05-07T18:14:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_21__thymosin-alpha1-10mg.md
+[LINE_RANGE] 51-57
+[QUOTE]
+"# Thymosin Alpha 1 (TA1) (10mg)
+
+$115.00"
+[/QUOTE]
+
+[CLAIM] skus[follistatin344-1mg].out_of_stock
+[URL] https://paramountpeptides.com/products/page/3/
+[FETCHED_AT] 2026-05-07T18:12:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/catalog_3.md
+[LINE_RANGE] 118-124
+[QUOTE]
+"## [Follistatin 344 (1mg)](https://paramountpeptides.com/product/follistatin-344-95/)
+
+$155.00
+
+Notify Me When Available"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://paramountpeptides.com/product/mots-c/
+[FETCHED_AT] 2026-05-07T18:14:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_9__mots-c-10mg.md
+[LINE_RANGE] 51-53
+[QUOTE]
+"Rated **5.00** out of 5 based on 5 customer ratings
+
+(5 customer reviews)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://paramountpeptides.com/product/thymosin-beta-4-tb500-5mg/
+[FETCHED_AT] 2026-05-07T18:13:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_6__tb-500-5mg.md
+[LINE_RANGE] 55-57
+[QUOTE]
+"# Thymosin Beta 4 (TB500) (5mg)
+
+$60.00"
+[/QUOTE]
+
+[URL] https://paramountpeptides.com/product/thymosin-beta-4-tb500-20mg/
+[FETCHED_AT] 2026-05-07T18:13:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/paramount-peptides/product_5__tb-500-20mg.md
+[LINE_RANGE] 55-57
+[QUOTE]
+"# Thymosin Beta 4 (TB500) (20mg)
+
+$120.00"
+[/QUOTE]

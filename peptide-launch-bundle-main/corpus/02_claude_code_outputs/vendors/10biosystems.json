@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "10biosystems",
+  "brand_name": "10BioSystems",
+  "primary_domain": "https://10biosystems.com",
+
+  "fetched_url": "https://10biosystems.com",
+  "fetched_at": "2026-05-07T00:00:00Z",
+  "fetch_status": "failed",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed, Tier 3: Legacy defunct biotechnology company). Seed assignment is accurate: the company was a real entity (research informatics software, not a peptide vendor), domain DNS now non-resolving (curl exit 6 'Could not resolve host'), Wayback Machine returns 404 from 2024-03-28 onward. No peptide products were ever sold at this domain. The 10BioSystems entity was a B2B research informatics and LIMS consulting firm based in New York City — categorically not in the research-peptide retail space. Profile is therefore a baseline-only failed entry.",
+  "field_completion_ratio": 0.18,
+
+  "country_of_operation": "USA",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "uncertain",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "uncertain"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": ["uncertain"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": ["uncertain"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "uncertain",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["uncertain"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "10biosystems,10BioSystems,10biosystems.com,USA,USA,US-only,Uncertain,Defunct (Website Gone),Uncertain,Research Peptides,Uncertain,N,Apr 2016,3,Tier 3: Legacy defunct biotechnology company."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/10biosystems/",
+  "evidence_file": "evidence/10biosystems.txt",
+  "uncertainty_notes": "fetch_status='failed' baseline-only profile per directive §8.1 and Rule 17 (computed field_completion_ratio 0.18 < 0.40 → failed). PRIMARY REASON: 10BioSystems is NOT a peptide vendor. It was a research informatics and LIMS (laboratory information management system) software consulting company based in New York City, NY, USA. Its products and services were B2B software tools (LabCentral LIMS, bioinformatics/cheminformatics consulting) for universities and pharmaceutical firms — no peptide products, no consumer e-commerce, no SKUs of any kind. DOMAIN STATUS: live fetch of https://10biosystems.com returns curl exit code 6 'Could not resolve host' — DNS non-resolving as of 2026-05-07. Wayback CDX API shows the domain last returned HTTP 200 on 2023-06-09 (that snapshot shows an Italian food blog 'Savorscoop' — domain repurposed by a third party). The last 200 snapshot clearly showing 10BioSystems brand content is 2022-05-24. All Wayback snapshots from 2024-03-28 onward return 404. FIELDS THAT ARE NON-UNCERTAIN: (1) country_of_operation='USA' — confirmed by Wayback 2022 homepage ('10BioSystems is a research informatics company based in New York City') and About page ('Office: New York, NY, USA'). All other vendor-specific fields (catalog, product_page_anatomy, trust_compliance, checkout_flow, tech_stack, content_footprint, social_proof, hero copy, nav, footer disclaimers) are 'uncertain' because: (a) no peptide business ever existed at this domain, (b) the domain is now DNS-dead, and (c) the archived content confirms a software/informatics company only. MISCLASSIFICATION NOTE: The seed CSV classifies this vendor as 'Research Peptides' in the SKU category column — this is incorrect. 10BioSystems was a bioinformatics/LIMS software company. The 'Research Peptides' classification appears to be an error in the operator's input data. No peptide products, no peptide-related content, and no peptide commerce of any kind is present in any archived snapshot. Field completion ratio: country_of_operation confirmed (1 field) + vendor_slug, brand_name, primary_domain, fetched_url, fetched_at, fetch_status, tier, tier_rationale, field_completion_ratio, discovery_provenance (trivial identity fields per schema) = 12 confirmed non-uncertain out of ~65 required leaf fields ≈ 0.18 → fetch_status='failed'."
+}

@@ -1,0 +1,781 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://polarispeptides.com
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/homepage.md
+[LINE_RANGE] 12-14
+[QUOTE]
+"Dear Researchers, Polaris Peptides is now members only.
+
+Please sign in to your account or sign up for a new account to enter the site."
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://polarispeptides.com
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/homepage.md
+[LINE_RANGE] 107-110
+[QUOTE]
+"At Polaris Peptides, we are dedicated to supporting the scientific community by supplying high-quality peptides designed exclusively for research and development endeavors of professionals. Our chemicals are crafted for research and/or investigative purposes and are not suitable for direct human consumption or consumers, nor are they intended for clinical or therapeutic use. The statements and chemicals listed on this website are not intended to diagnose, treat, cure, or prevent any disease.
+
+Polaris Peptides is a chemical supplier. Polaris Peptides is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. Polaris Peptides is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic act."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://polarispeptides.com
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/homepage.md
+[LINE_RANGE] 19-21
+[QUOTE]
+"Sign in"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] anonymous
+[REASONING]
+The homepage redirects to a members-only login gate with no hero imagery visible. Accessible content shows only a sign-in form, no lifestyle or clinical imagery.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://polarispeptides.com
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/homepage.md
+[LINE_RANGE] 12-14
+"Dear Researchers, Polaris Peptides is now members only.
+
+Please sign in to your account or sign up for a new account to enter the site."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://polarispeptides.com
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/homepage.md
+[LINE_RANGE] 239-247
+"## Main Menu
+
+Search
+
+  * [All Chemicals](https://polarispeptides.com/shop/)
+  * [About](https://polarispeptides.com/about/)
+  * [Contact](https://polarispeptides.com/contact/)
+  * [My Account](https://polarispeptides.com/my-account/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://polarispeptides.com
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/homepage.md
+[LINE_RANGE] 112-137
+[QUOTE]
+"Products
+
+  * [GLP-1 & GIP Analogues](https://polarispeptides.com/product-category/glp-1-gip-analogues/)
+  * [Topical Peptides](https://polarispeptides.com/product-category/topical-peptides/)
+  * [All Products](https://polarispeptides.com/shop/)
+
+
+
+Legal
+
+  * [Payment & Shipping](https://polarispeptides.com/payment-shipping/)
+  * [Refunds & Returns](https://polarispeptides.com/refunds-returns/)
+  * [Terms & Conditions](https://polarispeptides.com/terms-conditions/)
+  * [Privacy Policy](https://polarispeptides.com/privacy-policy/)
+
+
+
+Customer Service
+
+  * [My Account / Orders](https://polarispeptides.com/my-account/)
+  * [Contact](https://polarispeptides.com/contact/)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/2025/https://polarispeptides.com/shop/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/catalog_1.md
+[LINE_RANGE] 143-741
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/polaris-peptides/catalog_1.md:
+62 public (non-Private) product listings found via grep "^### " excluding "Private:".
+[FILES]
+catalog_1.md (lines 143-741)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/2025/https://polarispeptides.com/shop/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/catalog_1.md
+[LINE_RANGE] 19-25
+[QUOTE]
+"Categories
+
+_ _ GLP-1 & GIP Analogues
+
+_ _ Other Peptides
+
+_ _ Research Supplies
+
+_ _ Topical Peptides"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://web.archive.org/web/2025/https://polarispeptides.com/shop/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/catalog_1.md
+[LINE_RANGE] 10-12
+[QUOTE]
+"Sort Alphabetically, A-Z Alphabetically, Z-A Price, low to high Price, high to low"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://web.archive.org/web/2025/https://polarispeptides.com/shop/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/catalog_1.md
+[LINE_RANGE] 325-332
+[QUOTE]
+"### GLOW: GHK-cu 50mg, TB-500 10mg, BPC-157 5mg Blend"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 82-84
+[QUOTE]
+"# BPC-157 5mg
+
+$35.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 86-90
+[QUOTE]
+"**Weight/Mass** : 5mg |
+
+  * 5mg
+  * [10mg](https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-10mg/ "BPC-157 10mg")"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 84-84
+[QUOTE]
+"$35.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 106-106
+[QUOTE]
+"BPC-157, a synthetic peptide, is derived from a protective protein found in the stomach. It has garnered significant interest within the scientific community for its remarkable potential in accelerating the healing process of various tissues, including muscle, tendon, and even nervous system tissues."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 100-100
+[QUOTE]
+"Only the lyophilized product is provided. All researchers are assumed to have all necessary supplies to conduct their research, such as reconstitution solution and disinfecting aids to maintain Sterility."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 118-138
+[QUOTE]
+"## Latest Lab Results
+
+[](https://web.archive.org/web/20250428100355/https://polarispeptides.com/acd-cgi/img/v1/wp-content/uploads/2024/02/Test-Report-39242.png?metadata=none&width=1600&height=1080)
+
+Janoshik
+
+February 29, 2024
+
+Lab Results:
+
+Avg. Purity: 99.555%
+
+Avg. Mass: 5.39mg
+
+Batch:
+
+POL-BPC5-1
+
+[Full Report](https://web.archive.org/web/20250428100355/https://janoshik.com/tests/39242-BPC157_5mg_CM5VKRYWNG7G)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 124-124
+[QUOTE]
+"Janoshik"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 133-135
+[QUOTE]
+"Batch:
+
+POL-BPC5-1"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 140-140
+[QUOTE]
+"## Related Products"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[INFERENCE] false
+[REASONING]
+No customer review module (star ratings, review count, "Leave a review" sections) was observed in the rendered text of any fetched product page. WooCommerce review_rating_required is set to "yes" in the JS params but no review section renders in text output.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 140-145
+"## Related Products
+
+### DSIP 5mg (Delta Sleep-Inducing Peptide)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250428090147/https://polarispeptides.com/product/semaglutide-10mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product__semaglutide-10mg.md
+[LINE_RANGE] 49-53
+"# Semaglutide 10mg
+
+$115.00
+
+## Latest batch tested 11.63mg @ 99.88% Purity"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://polarispeptides.com
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/homepage.md
+[LINE_RANGE] 107-107
+[QUOTE]
+"Our chemicals are crafted for research and/or investigative purposes and are not suitable for direct human consumption or consumers, nor are they intended for clinical or therapeutic use."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://polarispeptides.com
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/homepage.md
+[LINE_RANGE] 267-275
+[QUOTE]
+"## Are you 21 or older?
+
+You must be 21 years old or older in order to access our website. Please verify your age.
+
+Our products are crafted for research and/or investigative purposes and are not suitable for direct human consumption or consumers, nor are they intended for clinical or therapeutic use. The statements and products listed on this website are not intended to diagnose, treat, cure, or prevent any disease.
+
+I acknowledge I am over 21 and have read the disclaimer
+
+[ I am under 21 ](https://www.google.com/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://web.archive.org/web/20260112173025/https://polarispeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/terms-conditions.md
+[LINE_RANGE] 35-36
+[QUOTE]
+"The information provided when using the Services is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://polarispeptides.com
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/homepage.md
+[LINE_RANGE] 129-129
+[QUOTE]
+"  * [Terms & Conditions](https://polarispeptides.com/terms-conditions/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://web.archive.org/web/20260112173025/https://polarispeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/terms-conditions.md
+[LINE_RANGE] 13-29
+[QUOTE]
+"****Last updated**** ****March 01, 2024****
+
+****AGREEMENT TO OUR LEGAL TERMS****
+
+We are Polaris Peptides (“****Company**** ,” “****we**** ,” “****us**** ,” “****our**** “), a company registered in Nevada, United States at 302 S Jones Blvd, Suite 3020, Las Vegas, NV 89107.
+
+...
+
+The Services are intended for users who are at least 21 years old. Persons under the age of 21 are not permitted to use or register for the Services.
+
+You must be at least 21 (twenty one) years of age to purchase MATERIAL on this website."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://web.archive.org/web/20260112170853/https://polarispeptides.com/refunds-returns/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/refunds-returns.md
+[LINE_RANGE] 11-28
+[QUOTE]
+"We maintain a 45 day return policy, one that we think is one of the best in the industry. If you are unhappy with what you purchased for any reason at all, you can contact us for a full refund or exchange of your product.
+
+### Products Eligible for Refunds:
+
+All unopened products
+One unopened product, no questions asked. Additional product returns available for return with pre-approval, generally without issue.
+
+Returned products must first contact us for a Return Merchandise Authorization (RMA) and then be returned to:
+Polaris Bioactives LLC
+304 S Jones Blvd Suite 3020
+Las Vegas, NV 89107"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/20260112190142/https://polarispeptides.com/payment-shipping/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/payment-shipping.md
+[LINE_RANGE] 21-37
+[QUOTE]
+"Orders are typically shipped very quickly, same day or next business day. But may take up to 2 full business days once payment is confirmed. Once your order has been packaged, you will receive an email with a tracking number.
+
+We ship orders via FedEx Ground or 2-Day Air or UPS Next Day Air depending on the options you choose at checkout.
+
+We offer international deliveries to most countries with a 1-3 week time frame. Vials arrive via local mail.
+
+Minimum quantity per peptide: 10 vials."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://polarispeptides.com
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/homepage.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"Dear Researchers, Polaris Peptides is now members only."
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://polarispeptides.com
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/homepage.md
+[LINE_RANGE] 58-66
+[QUOTE]
+"First Name
+
+Last Name
+
+Company Name/Institution
+
+Business Type
+
+Select Business TypeResearch Lab/InstitutionUniversityMedical FacilityOther
+
+Email
+
+Password"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20260112190142/https://polarispeptides.com/payment-shipping/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/payment-shipping.md
+[LINE_RANGE] 11-18
+[QUOTE]
+"Please see below for a list of all accepted payment methods, and additional details.
+Bank Transfer
+Credit/Debit Card
+ACH transfer/eCheck
+CashApp
+
+
+Please note that Zelle is no longer accepted."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://polarispeptides.com
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/homepage.md
+[LINE_RANGE] 173-177
+[QUOTE]
+"  * American Express
+  * Discover
+  * Mastercard
+  * Venmo
+  * Visa"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://web.archive.org/web/20260112190142/https://polarispeptides.com/payment-shipping/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/payment-shipping.md
+[LINE_RANGE] 25-25
+[QUOTE]
+"We ship orders via FedEx Ground or 2-Day Air or UPS Next Day Air depending on the options you choose at checkout."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 34-34
+[QUOTE]
+"🎁 Code: '500freebie' - Spend $500, add an item from Other Peptides, get it for free (exclusions apply)  🚚 Free Shipping when you spend $350 or more "
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://web.archive.org/web/20260112190142/https://polarispeptides.com/payment-shipping/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/payment-shipping.md
+[LINE_RANGE] 33-37
+[QUOTE]
+"We offer international deliveries to most countries with a 1-3 week time frame. Vials arrive via local mail.
+
+Minimum quantity per peptide: 10 vials.
+
+Highly discounted rates are available for these orders. Please reach out to us via our Contact Form if you are interested in ordering from outside the USA."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+Raw HTML of the product page contains woocommerce_ JS variable namespacing and wp-content/ path references, and add-to-cart URL parameter pattern (?add-to-cart=16803) consistent with WooCommerce/WordPress.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 122-122
+"[](https://web.archive.org/web/20250428100355/https://polarispeptides.com/acd-cgi/img/v1/wp-content/uploads/2024/02/Test-Report-39242.png?metadata=none&width=1600&height=1080)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 150-152
+"[Buy DSIP](?add-to-cart=16803)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] cloudflare
+[REASONING]
+HTTP response headers for polarispeptides.com include cf-ray and server: cloudflare, confirming Cloudflare CDN/proxy.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://polarispeptides.com
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/homepage.md
+[LINE_RANGE] 1-6
+"---
+url: https://polarispeptides.com
+fetched_at: 2026-05-07T18:28:09Z
+fetch_method: curl
+http_status: 200"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://polarispeptides.com
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/homepage.md
+[LINE_RANGE] 171-171
+"© 2026 Polaris Peptides. All Rights Reserved."
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] ["Google Tag Manager", "Google Analytics (gtag)", "Hotjar"]
+[REASONING]
+Raw HTML source of the product page contains googletagmanager.com script references, gtag JS calls, and hotjar script references. No other analytics platforms (Mixpanel, Plausible, Amplitude) found.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/source_homepage.md
+[LINE_RANGE] 1-5
+"Platform signals extracted from raw HTML of https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/source_homepage.md
+[LINE_RANGE] 7-13
+"Platform: WooCommerce (WordPress)
+- Evidence: wp-content/ paths, woocommerce_ JS variables, ?add-to-cart= URL params
+
+CDN: Cloudflare
+- Evidence: cf-ray header, server: cloudflare in HTTP response headers
+
+Analytics:
+- Google Tag Manager (googletagmanager.com)
+- Google Analytics / gtag"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] true
+[REASONING]
+Raw HTML of the product page contains Intercom widget script with APP_ID "bv2zc9iy" loaded from widget.intercom.io. The widget.intercom.io/widget/ src attribute is present in the rendered page source.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/source_homepage.md
+[LINE_RANGE] 19-22
+"Chat Widget:
+- Intercom (intercom keyword found)
+- Hotjar (hotjar found in scripts)
+- Crisp (crisp found - may be an additional chat widget or false positive)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 100-100
+"Only the lyophilized product is provided. All researchers are assumed to have all necessary supplies to conduct their research, such as reconstitution solution and disinfecting aids to maintain Sterility."
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 44-47
+[QUOTE]
+"  * [Research Centre](https://web.archive.org/web/20250428100355/https://polarispeptides.com/research-centre/)
+    * [Combinations](https://web.archive.org/web/20250428100355/https://polarispeptides.com/research-centre/combinations-2/)
+    * [Peptide Synthesis](https://web.archive.org/web/20250428100355/https://polarispeptides.com/research-centre/combinations/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://web.archive.org/web/20250428092507/https://polarispeptides.com/research-centre/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/blog_1.md
+[LINE_RANGE] 1-30
+[QUOTE]
+"###  [ Selank vs. Semax: Understanding Their Differences and Uses ]
+
+###  [ Retatrutide vs. Other GLP-1s: A Scientific Comparison in Metabolic Health ]
+
+###  [ CJC-1295 and Ipamorelin: The Ultimate Peptide Combination for Growth and Recovery ]
+
+###  [ Angiogenic Potential of Peptides: Mechanistic Insights into BPC-157 ]
+
+###  [ Molecular Signaling Pathways of GHK-Cu in Cellular Processes and Aging ]
+
+###  [ Emerging Trends in Peptide Research: A Review of Key Focus Areas in 2025 and Beyond ]"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://web.archive.org/web/20260112173025/https://polarispeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/terms-conditions.md
+[LINE_RANGE] 17-17
+[QUOTE]
+"We are Polaris Peptides (“****Company**** ,” “****we**** ,” “****us**** ,” “****our**** “), a company registered in Nevada, United States at 302 S Jones Blvd, Suite 3020, Las Vegas, NV 89107."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://web.archive.org/web/20260112170853/https://polarispeptides.com/refunds-returns/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/refunds-returns.md
+[LINE_RANGE] 26-28
+[QUOTE]
+"Returned products must first contact us for a Return Merchandise Authorization (RMA) and then be returned to:
+Polaris Bioactives LLC
+304 S Jones Blvd Suite 3020
+Las Vegas, NV 89107"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://web.archive.org/web/20260112190142/https://polarispeptides.com/payment-shipping/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/payment-shipping.md
+[LINE_RANGE] 33-37
+[QUOTE]
+"We offer international deliveries to most countries with a 1-3 week time frame."
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-5mg].list_price_usd
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 84-84
+[QUOTE]
+"$35.00"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-10mg].list_price_usd
+[URL] https://web.archive.org/web/20250428092232/https://polarispeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product__bpc-157-10mg.md
+[LINE_RANGE] 51-51
+[QUOTE]
+"$60.00"
+[/QUOTE]
+
+[CLAIM] skus[tb-500-10mg].list_price_usd
+[URL] https://web.archive.org/web/20250428093609/https://polarispeptides.com/product/tb-500-10mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product__tb-500-10mg.md
+[LINE_RANGE] 51-51
+[QUOTE]
+"~~$ 80.00~~ Original price was: $80.00.$70.00Current price is: $70.00."
+[/QUOTE]
+
+[CLAIM] skus[semaglutide-5mg].list_price_usd
+[URL] https://web.archive.org/web/20250428100036/https://polarispeptides.com/product/semaglutide-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product__semaglutide-5mg.md
+[LINE_RANGE] 51-51
+[QUOTE]
+"$70.00"
+[/QUOTE]
+
+[CLAIM] skus[semaglutide-10mg].list_price_usd
+[URL] https://web.archive.org/web/20250428090147/https://polarispeptides.com/product/semaglutide-10mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product__semaglutide-10mg.md
+[LINE_RANGE] 51-51
+[QUOTE]
+"$115.00"
+[/QUOTE]
+
+[CLAIM] skus[tirzepatide-5mg].list_price_usd
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/tirzepatide-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product__tirzepatide-5mg.md
+[LINE_RANGE] 51-51
+[QUOTE]
+"$55.00"
+[/QUOTE]
+
+[CLAIM] skus[tirzepatide-10mg].list_price_usd
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/tirzepatide-10mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product__tirzepatide-10mg.md
+[LINE_RANGE] 51-51
+[QUOTE]
+"$99.00"
+[/QUOTE]
+
+[CLAIM] skus[tirzepatide-30mg].list_price_usd
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/tirzepatide-30mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product__tirzepatide-30mg.md
+[LINE_RANGE] 51-51
+[QUOTE]
+"$115.00"
+[/QUOTE]
+
+[CLAIM] skus[retatrutide-10mg].list_price_usd
+[URL] https://web.archive.org/web/20260112180118/https://polarispeptides.com/product/retatrutide-10mg-2/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product__retatrutide-10mg.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"$120.00"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg].list_price_usd
+[URL] https://web.archive.org/web/20250428080048/https://polarispeptides.com/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product__ghk-cu-50mg.md
+[LINE_RANGE] 51-51
+[QUOTE]
+"~~$ 50.00~~ Original price was: $50.00.$35.00Current price is: $35.00."
+[/QUOTE]
+
+[CLAIM] skus[epithalon-10mg].list_price_usd
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/epithalon-10mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product__epithalon-10mg.md
+[LINE_RANGE] 51-51
+[QUOTE]
+"$45.00"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[INFERENCE] false
+[REASONING]
+No customer review section, star rating display, or "X reviews" text appears in any fetched product page. The site's WooCommerce configuration requires reviews but no reviews are rendered visibly.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250428100355/https://polarispeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 118-140
+"## Latest Lab Results
+
+Janoshik"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250428090147/https://polarispeptides.com/product/semaglutide-10mg/
+[FETCHED_AT] 2026-05-07T18:28:09Z
+[RAW_ARTIFACT] 03_raw_fetches/polaris-peptides/product__semaglutide-10mg.md
+[LINE_RANGE] 49-53
+"# Semaglutide 10mg
+
+$115.00
+
+## Latest batch tested 11.63mg @ 99.88% Purity"
+[/SUPPORT_QUOTE]

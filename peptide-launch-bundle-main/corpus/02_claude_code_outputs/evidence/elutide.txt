@@ -1,0 +1,307 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://elutide.com
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/homepage.md
+[LINE_RANGE] 10-10
+[QUOTE]
+"Research-grade. Independently verified.
+Transparently sourced."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://elutide.com
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/homepage.md
+[LINE_RANGE] 49-49
+[QUOTE]
+"Enter Site →"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 327-327
+[QUOTE]
+"**For Research Use Only. Not Intended for Human Consumption.** All Elutide products are intended for research purposes only. These products are not intended for human consumption, medical use, or as dietary supplements. They are not approved by the FDA and are not recommended for any application in humans or animals. Users assume all responsibility for proper handling, storage, and use of these research materials."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://elutide.com
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/homepage.md
+[LINE_RANGE] 43-51
+[QUOTE]
+"Before You Enter
+
+Our products are intended for qualified researchers and professionals. Please confirm the following to continue.
+
+**I am 18 years of age or older** and legally permitted to purchase research compounds in my jurisdiction.
+
+**I understand these products are for research use only** and are not intended for human consumption, medical use, or veterinary use.
+
+Enter Site →"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 41-56
+[QUOTE]
+"All products sold by Elutide are intended exclusively for in-vitro research and laboratory use. They are not intended for human consumption, animal consumption, therapeutic use, diagnostic use, or as dietary supplements. Our products have not been evaluated or approved by the U.S. Food and Drug Administration (FDA)."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 36-36
+[QUOTE]
+"**Effective Date:** March 28, 2026  |  **Last Updated:** March 28, 2026"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights (age minimum 21)
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 63-68
+[QUOTE]
+"To use elutide.com and purchase products, you must:
+
+  * Be at least **21 years of age**.
+  * Provide accurate, complete, and current registration information.
+  * Agree to these Terms of Service and our [Research Use Agreement](/research-use-agreement/).
+  * Maintain the security of your account credentials."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 114-124
+[QUOTE]
+"Due to the nature of our products and the quality controls required to maintain research-grade integrity:
+
+  * **Unopened products** in original condition may be returned within 30 days of delivery for a full refund.
+  * **Opened products** cannot be returned. Once a seal is broken, we cannot verify the integrity of the product and cannot accept it back.
+  * **Damaged or incorrect items** must be reported within 48 hours of delivery with photographic documentation."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 103-111
+[QUOTE]
+"We ship to all 50 U.S. states via UPS. We do not currently offer international shipping. A physical street address is required for all deliveries — we cannot ship to P.O. boxes.
+
+Orders placed before 3:00 PM EST, Monday through Friday, ship the same business day.
+
+  * UPS Ground: $10 flat rate (3-5 business days)
+  * UPS 2nd Day Air: $15 flat rate
+  * Free 2nd Day Air on orders over $150"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 231-241
+[QUOTE]
+"You are solely responsible for ensuring that your purchase, possession, and use of Elutide products complies with all applicable federal, state, and local laws and regulations in your jurisdiction."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 103-103
+[QUOTE]
+"We ship to all 50 U.S. states via UPS."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 103-103
+[QUOTE]
+"We do not currently offer international shipping."
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 75-80
+[QUOTE]
+"We reserve the right to refuse, cancel, or limit any order at our sole discretion, for any reason, including but not limited to:
+
+  * Suspected misuse or resale for non-research purposes.
+  * Failure to complete age or identity verification."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 41-50
+[QUOTE]
+"All products sold by Elutide are intended exclusively for in-vitro research and laboratory use. They are not intended for human consumption, animal consumption, therapeutic use, diagnostic use, or as dietary supplements. Our products have not been evaluated or approved by the U.S. Food and Drug Administration (FDA)."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present + product_page_anatomy.coa_hosting + product_page_anatomy.batch_lot_transparency
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 135-137
+[QUOTE]
+"We independently test every batch at a US-accredited, ISO 17025-certified laboratory. Testing includes HPLC purity analysis, mass spectrometry for identity verification, and LAL endotoxin testing. A Certificate of Analysis (COA) ships with every order and is available through your account dashboard."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal (WooCommerce/WordPress)
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/source_tos.md
+[LINE_RANGE] 15-17
+[QUOTE]
+"WooCommerce: 99 mentions
+WordPress: 67 mentions"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn (Cloudflare)
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/source_tos.md
+[LINE_RANGE] 22-22
+[QUOTE]
+"Cloudflare: 1 mentions"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present (Tidio)
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/source_tos.md
+[LINE_RANGE] 19-19
+[QUOTE]
+"Tidio: 19 mentions"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present (Facebook/Meta)
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/source_tos.md
+[LINE_RANGE] 20-20
+[QUOTE]
+"Facebook Pixel: 11 mentions"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators (Trustpilot)
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 318-318
+[QUOTE]
+"See what our research community says
+
+[Trustpilot](https://www.trustpilot.com/review/elutide.com)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present + content_footprint.blog_url
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"  * [Research](/blog/)
+    * [Purity Guide](/research/purity-guide/)
+    * [Endotoxin Testing Guide](/research/endotoxin-testing-guide/)
+    * [How to Read a COA](https://elutide.com/how-to-read-a-coa/)
+    * [Peptide Calculator](/research/peptide-calculator/)
+  * [COAs](/coa/)"
+[/QUOTE]
+
+[CLAIM] country_of_operation + fulfillment_country (Auburn Hills, Michigan)
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/source_tos.md
+[LINE_RANGE] 10-10
+[QUOTE]
+"description":"Elutide is a research peptide company built on one idea -- if you can't verify the purity, it doesn't belong in your lab. Every batch is independently tested at a US-accredited laboratory, and every order ships with a full Certificate of Analysis. Based in Auburn Hills, Michigan."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 103-103
+[QUOTE]
+"We ship to all 50 U.S. states via UPS. We do not currently offer international shipping."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2026
+[REASONING]
+The TOS Effective Date is March 28, 2026 and the JSON-LD datePublished for the TOS page is 2026-03-26. The copyright notices read "© 2026 Elutide LLC." No content or evidence predating 2026 was found on accessible pages. This indicates the site launched in early 2026.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[RAW_ARTIFACT] 03_raw_fetches/elutide/tos.md
+[LINE_RANGE] 36-36
+"**Effective Date:** March 28, 2026  |  **Last Updated:** March 28, 2026"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://elutide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[RAW_ARTIFACT] 03_raw_fetches/elutide/source_tos.md
+[LINE_RANGE] 10-10
+"datePublished":"2026-03-26T11:28:55-04:00"
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://elutide.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/privacy_policy.md
+[LINE_RANGE] 83-83
+[QUOTE]
+"**Payment processing:** Square processes your credit and debit card payments. They receive your billing information and card details."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style (clinical)
+[URL] https://elutide.com
+[FETCHED_AT] 2026-05-07T19:49:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/elutide/homepage.md
+[LINE_RANGE] 8-30
+[QUOTE]
+"Research-grade. Independently verified.
+Transparently sourced.
+
+Elutide exists because you shouldn't have to guess what's in a vial. Every batch is tested by an independent US-accredited lab. Every Certificate of Analysis ships in your box."
+[/QUOTE]

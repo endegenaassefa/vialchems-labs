@@ -1,0 +1,703 @@
+[CLAIM] primary_domain
+[URL] https://peptidegiants.com
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/homepage.md
+[LINE_RANGE] 69-71
+[QUOTE]
+"Peptide Giants provides high-purity research peptides produced with advanced synthesis methods and verified by HPLC and Mass Spectrometry. Each batch is quality-tested to ensure consistency and reliability. Products are offered for Research Use Only."
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://peptidegiants.com
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/homepage.md
+[LINE_RANGE] 77-77
+[QUOTE]
+"# LAB-TESTED PEPTIDES FOR RESEARCH USE"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://peptidegiants.com
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/homepage.md
+[LINE_RANGE] 83-90
+[QUOTE]
+"##  JANOSHIK TESTED
+
+Every product is third-party tested by Janoshik for purity, quality, and transparency."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://peptidegiants.com
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/homepage.md
+[LINE_RANGE] 73-75
+[QUOTE]
+"[ Single Vials ](https://peptidegiants.com/product-category/single-vials/)
+
+[ Kits ](https://peptidegiants.com/product-category/kits)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://peptidegiants.com
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/homepage.md
+[LINE_RANGE] 18-36
+[QUOTE]
+"  * [Home](https://peptidegiants.com/)
+  * [Shop](https://peptidegiants.com/shop/)
+  * [Single Vials](https://peptidegiants.com/product-category/single-vials/)
+  * [Kits](https://peptidegiants.com/product-category/kits/)
+  * [Lab Reports](https://peptidegiants.com/lab-reports/)
+  * [About us](https://peptidegiants.com/about-us/)
+  * [Customer Service](https://peptidegiants.com/customer-service/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://peptidegiants.com/shop/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/catalog_1.md
+[LINE_RANGE] 237-241
+[QUOTE]
+"All products on this site are for research and development use only. Products are not for human consumption of any kind. The statements made on this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure, or prevent any disease.
+
+Peptide Giants is a chemical supplier. Peptide Giants is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic Act. Peptide Giants is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic Act."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://peptidegiants.com/about-us/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/about.md
+[LINE_RANGE] 91-95
+[QUOTE]
+"5005 W Laurel St
+Suite 100 #2106
+Tampa, FL 33607
+United States"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://peptidegiants.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/shipping.md
+[LINE_RANGE] 79-83
+[QUOTE]
+"We ship to all valid addresses within the United States.
+
+Some research compounds may have shipping restrictions based on carrier policies or delivery location."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://peptidegiants.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/shipping.md
+[LINE_RANGE] 81-81
+[QUOTE]
+"We ship to all valid addresses within the United States."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2026
+[REASONING]
+Footer and legal pages both reference "2026 Peptide Giants" and "Last Updated: 28-02-2026", indicating a very recent launch in early 2026.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidegiants.com/shop/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/catalog_1.md
+[LINE_RANGE] 235-235
+"© 2026 Peptide Giants. Operated by Plainview Commerce LLC."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidegiants.com/refund_returns/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/refund.md
+[LINE_RANGE] 72-72
+"**Last Updated: 28-02-2026**"
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://peptidegiants.com/shop/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/catalog_1.md
+[LINE_RANGE] 157-161
+[QUOTE]
+[ENUMERATION] Counted from catalog_1.md through catalog_5.md (5 pages of shop):
+51 unique product URLs identified.
+[FILES]
+catalog_1.md catalog_2.md catalog_3.md catalog_4.md catalog_5.md
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://peptidegiants.com/shop/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/catalog_1.md
+[LINE_RANGE] 83-84
+[QUOTE]
+"  * [Kits](https://peptidegiants.com/product-category/kits/)
+  * [Single Vials](https://peptidegiants.com/product-category/single-vials/)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://peptidegiants.com/shop/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/catalog_1.md
+[LINE_RANGE] 68-78
+[QUOTE]
+"Show  [ 9  ](https://peptidegiants.com/shop/?per_page=9) [ 12  ](https://peptidegiants.com/shop/?per_page=12) [ 18  ](https://peptidegiants.com/shop/?per_page=18) [ 24  ](https://peptidegiants.com/shop/?per_page=24)
+
+Default sorting Sort by popularity Sort by latest Sort by price: low to high Sort by price: high to low
+
+##### Filter by price
+
+Min price Max price Filter
+
+Price: $0 — $3,000"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://peptidegiants.com/shop/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/catalog_1.md
+[LINE_RANGE] 125-130
+[QUOTE]
+"### [CJC1295 NO DAC 5mg+Ipamorelin 5mg](https://peptidegiants.com/product/cjc1295-no-dac-5mgipamorelin-5mg/)
+
+~~$ 109.99~~ Original price was: $109.99.$54.99Current price is: $54.99."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://peptidegiants.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_1__bpc-157.md
+[LINE_RANGE] 83-83
+[QUOTE]
+"#  BPC-157 "
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://peptidegiants.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_1__bpc-157.md
+[LINE_RANGE] 88-88
+[QUOTE]
+"Size |  Choose an option5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://peptidegiants.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_1__bpc-157.md
+[LINE_RANGE] 84-84
+[QUOTE]
+"$23.00 – $39.99Price range: $23.00 through $39.99"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://peptidegiants.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_1__bpc-157.md
+[LINE_RANGE] 85-86
+[QUOTE]
+"BPC-157 is for research use only.
+Each batch includes a certificate of analysis provided by Janoshik laboratory based in the US"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://peptidegiants.com/lab-reports/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/coa_1.md
+[LINE_RANGE] 75-101
+[QUOTE]
+"## [View GLP-3R 10mg COA](https://janoshik.com/tests/100982-GLP3_R_Retatrutide_10mg_W3IBEP2KWXTD)
+
+## [View BPC-157+TB-500 10mg/10mg COA](https://janoshik.com/tests/100961-BPC157_TB500_10mg_10mg_BCA5LF54GUZW)
+
+## [View BPC 157 10mg COA](https://janoshik.com/tests/100961-BPC157_TB500_10mg_10mg_BCA5LF54GUZW)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://peptidegiants.com/lab-reports/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/coa_1.md
+[LINE_RANGE] 77-77
+[QUOTE]
+"## [View GLP-3R 10mg COA](https://janoshik.com/tests/100982-GLP3_R_Retatrutide_10mg_W3IBEP2KWXTD)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://peptidegiants.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_1__bpc-157.md
+[LINE_RANGE] 86-86
+[QUOTE]
+"Each batch includes a certificate of analysis provided by Janoshik laboratory based in the US"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://peptidegiants.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_1__bpc-157.md
+[LINE_RANGE] 91-93
+[QUOTE]
+"## Best Selling Products
+
+[ -50% ](https://peptidegiants.com/product/reconstitution-water/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://peptidegiants.com/shop/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/catalog_1.md
+[LINE_RANGE] 241-241
+[QUOTE]
+"All products are sold for research, laboratory, or analytical purposes only, and are not for human consumption."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://peptidegiants.com/shop/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/catalog_1.md
+[LINE_RANGE] 277-285
+[QUOTE]
+"##  Age Verification Required
+
+This website is restricted. To continue, please confirm you meet the minimum age requirement and accept the agreement below.
+
+I confirm I am 21+ years of age or older."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://peptidegiants.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/shipping.md
+[LINE_RANGE] 79-83
+[QUOTE]
+"We ship to all valid addresses within the United States.
+
+Some research compounds may have shipping restrictions based on carrier policies or delivery location. If we are unable to ship your order due to these restrictions, we will notify you as soon as possible."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://peptidegiants.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/tos.md
+[LINE_RANGE] 78-82
+[QUOTE]
+"We specialize in supplying **research-use-only peptides and laboratory reagents** , intended exclusively for scientific, laboratory, and non-clinical research applications.
+
+This Terms of Service document outlines the rules and conditions governing your use of our Site."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://peptidegiants.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/tos.md
+[LINE_RANGE] 160-164
+[QUOTE]
+"This Site is intended for users **21 years of age or older**.
+
+By using the Site, you confirm that you meet this age requirement."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://peptidegiants.com/refund_returns/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/refund.md
+[LINE_RANGE] 112-116
+[QUOTE]
+"  * **Return Window:** Within 30 days from the delivery date
+
+  * **Refund Processing:** Within 7 business days after inspection
+
+  * **Return Shipping Costs:** Customer responsibility unless the item is defective or incorrect"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://peptidegiants.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/shipping.md
+[LINE_RANGE] 134-142
+[QUOTE]
+"We use FedEx 2nd Day Shipping.
+
+  * Flat Rate: $13 for all U.S. locations
+
+  * Orders are processed Monday through Saturday
+
+  * Daily Cut-Off Time: 6:00 PM PST"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://peptidegiants.com/payment-options/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/payment_options.md
+[LINE_RANGE] 113-116
+[QUOTE]
+"  * Visa
+  * Mastercard
+  * American Express
+  * Discover"
+[/QUOTE]
+[URL] https://peptidegiants.com/payment-options/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/payment_options.md
+[LINE_RANGE] 132-152
+[QUOTE]
+"# **2\. CashApp**
+
+CashApp allows fast, hassle-free mobile payments."
+[/QUOTE]
+[URL] https://peptidegiants.com/payment-options/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/payment_options.md
+[LINE_RANGE] 150-154
+[QUOTE]
+"## **3\. Bitcoin (NOWPayments)**
+
+**Secure & Decentralized Cryptocurrency Payment**
+
+We accept Bitcoin payments via **NOWPayments** , a trusted crypto payment gateway"
+[/QUOTE]
+[URL] https://peptidegiants.com/payment-options/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/payment_options.md
+[LINE_RANGE] 176-180
+[QUOTE]
+"### **4\. Bank Transfer (via Plaid)**
+
+**Secure & Instant Bank Verification**
+
+Bank Transfer via Plaid allows customers to pay directly from their U.S. bank account"
+[/QUOTE]
+[URL] https://peptidegiants.com/payment-options/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/payment_options.md
+[LINE_RANGE] 198-202
+[QUOTE]
+"## 5\. **Zelle**
+
+**Fast & Secure Bank-to-Bank Payment**
+
+Zelle allows quick, direct bank transfers without additional fees"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://peptidegiants.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/shipping.md
+[LINE_RANGE] 134-136
+[QUOTE]
+"We use FedEx 2nd Day Shipping.
+
+  * Flat Rate: $13 for all U.S. locations"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://peptidegiants.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/shipping.md
+[LINE_RANGE] 126-132
+[QUOTE]
+"### Free Shipping
+
+Orders over $200 qualify for free shipping.
+
+### Standard Shipping
+
+We use FedEx 2nd Day Shipping.
+
+  * Flat Rate: $13 for all U.S. locations"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://peptidegiants.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/shipping.md
+[LINE_RANGE] 79-81
+[QUOTE]
+"We ship to all valid addresses within the United States."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+Response headers show WooCommerce session cookie confirming WordPress + WooCommerce platform. The /wp-json/ API link also confirms WordPress.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidegiants.com
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/source_homepage.md
+[LINE_RANGE] 19-19
+"set-cookie: wp_woocommerce_session_5f585b5d8d9ee1f6f19a7908b88af5be=t_3d31ceec9180100fbd8ea95ee3bf3a; path=/; secure; HttpOnly"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidegiants.com
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/source_homepage.md
+[LINE_RANGE] 20-20
+link: <https://peptidegiants.com/wp-json/>; rel="https://api.w.org/"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] LiteSpeed on Hostinger
+[REASONING]
+HTTP response headers explicitly show server: LiteSpeed and platform: hostinger header values captured in source_homepage.md.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidegiants.com
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/source_homepage.md
+[LINE_RANGE] 21-21
+"server: LiteSpeed"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidegiants.com
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/source_homepage.md
+[LINE_RANGE] 22-22
+"platform: hostinger"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] GTM-TDDWW85K (Google Tag Manager)
+[REASONING]
+Homepage HTML source contains explicit GTM container ID GTM-TDDWW85K in gtm4wp_datalayer_name initialization code, captured in source_homepage.md.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidegiants.com
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/source_homepage.md
+[LINE_RANGE] 27-27
+var gtm4wp_datalayer_name="gtmDataLayer";var gtmDataLayer=gtmDataLayer||[];
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidegiants.com
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/source_homepage.md
+[LINE_RANGE] 28-28
+"GTM-TDDWW85K"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE] Facebook Pixel ID 2055066102100456; TikTok Pixel ID D7P223JC77U1UDE5FLU0
+[REASONING]
+Homepage HTML source contains fbq init for Facebook and ttq.load for TikTok, both captured in source_homepage.md.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidegiants.com
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/source_homepage.md
+[LINE_RANGE] 30-30
+"fbq('init','2055066102100456');fbq('track','PageView');"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidegiants.com
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/source_homepage.md
+[LINE_RANGE] 31-31
+"ttq.load('D7P223JC77U1UDE5FLU0');ttq.page();"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://peptidegiants.com/blog/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/blog_1.md
+[LINE_RANGE] 77-97
+[QUOTE]
+"###  [Common Challenges in Peptide Synthesis](https://peptidegiants.com/common-challenges-in-peptide-synthesis/)
+
+###  [Understanding Peptide Purity Testing: HPLC and Mass Spectrometry Explained](https://peptidegiants.com/understanding-peptide-purity-testing/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://peptidegiants.com/blog/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/blog_1.md
+[LINE_RANGE] 77-117
+[QUOTE]
+"###  [Common Challenges in Peptide Synthesis](https://peptidegiants.com/common-challenges-in-peptide-synthesis/)
+
+###  [Understanding Peptide Purity Testing: HPLC and Mass Spectrometry Explained](https://peptidegiants.com/understanding-peptide-purity-testing/)
+
+###  [What Are Research Peptides and Why Purity Matters in Scientific Studies](https://peptidegiants.com/research-peptides-purity/)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://peptidegiants.com
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/homepage.md
+[LINE_RANGE] 69-69
+[QUOTE]
+"[Trustpilot](https://www.trustpilot.com/review/peptidegiants.com)"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://peptidegiants.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_1__bpc-157.md
+[LINE_RANGE] 81-81
+[QUOTE]
+"[Trustpilot](https://www.trustpilot.com/review/peptidegiants.com)"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-5mg].list_price_usd and sale_price_usd
+[URL] https://peptidegiants.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_1__bpc-157.md
+[LINE_RANGE] 84-88
+[QUOTE]
+"$23.00 – $39.99Price range: $23.00 through $39.99
+
+BPC-157 is for research use only.
+Each batch includes a certificate of analysis provided by Janoshik laboratory based in the US
+
+Size |  Choose an option5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] skus[tb-500-5mg and tb-500-10mg].list_price_usd and sale_price_usd
+[URL] https://peptidegiants.com/product/tb-500-thymosin-b4-acetate/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_1__tb-500-thymosin-b4-acetate.md
+[LINE_RANGE] 83-88
+[QUOTE]
+"$29.99 – $45.00Price range: $29.99 through $45.00
+
+Size |  Choose an option5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg and ghk-cu-100mg].list_price_usd and sale_price_usd
+[URL] https://peptidegiants.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_1__ghk-cu.md
+[LINE_RANGE] 83-88
+[QUOTE]
+"$37.99 – $49.99Price range: $37.99 through $49.99
+
+Size |  Choose an option50mg100mgClear"
+[/QUOTE]
+
+[CLAIM] skus[mots-c-10mg].list_price_usd and sale_price_usd
+[URL] https://peptidegiants.com/product/mots-c/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_1__mots-c.md
+[LINE_RANGE] 83-88
+[QUOTE]
+"$44.99 – $124.99Price range: $44.99 through $124.99
+
+Size |  Choose an option10mg20mg40mgClear"
+[/QUOTE]
+
+[CLAIM] skus[glp-3r-5mg].list_price_usd and sale_price_usd
+[URL] https://peptidegiants.com/product/glp-3r/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_1__glp-3r.md
+[LINE_RANGE] 83-88
+[QUOTE]
+"$59.99 – $274.99Price range: $59.99 through $274.99
+
+Size |  Choose an option5mg10mg30mg40mg60mgClear"
+[/QUOTE]
+
+[CLAIM] skus[semax-5mg and semax-10mg].list_price_usd and sale_price_usd
+[URL] https://peptidegiants.com/product/semax/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_2__semax.md
+[LINE_RANGE] 83-88
+[QUOTE]
+"$25.00 – $35.00Price range: $25.00 through $35.00
+
+Size |  Choose an option5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] skus[epithalon-10mg and epithalon-50mg].list_price_usd and sale_price_usd
+[URL] https://peptidegiants.com/product/epithalon/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_2__epithalon.md
+[LINE_RANGE] 83-88
+[QUOTE]
+"$29.99 – $74.99Price range: $29.99 through $74.99
+
+Size |  Choose an option10mg50mgClear"
+[/QUOTE]
+
+[CLAIM] skus[igf-1-lr3-1mg].list_price_usd and sale_price_usd
+[URL] https://peptidegiants.com/product/igf-1-lr3-1mg/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_2__igf-1-lr3-1mg.md
+[LINE_RANGE] 83-83
+[QUOTE]
+"~~$ 119.99~~ Original price was: $119.99.$59.99Current price is: $59.99."
+[/QUOTE]
+
+[CLAIM] skus[ipamorelin-5mg].list_price_usd and sale_price_usd
+[URL] https://peptidegiants.com/product/ipamorelin/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/product_2__ipamorelin.md
+[LINE_RANGE] 83-88
+[QUOTE]
+"$29.99 – $45.00Price range: $29.99 through $45.00
+
+Size |  Choose an option5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-10mg-kit].list_price_usd
+[URL] https://peptidegiants.com/shop/
+[FETCHED_AT] 2026-05-08T06:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidegiants/catalog_1.md
+[LINE_RANGE] 146-150
+[QUOTE]
+"### [BPC-157 10mg – (10 Vials/kit)](https://peptidegiants.com/product/bpc-157-10mg-10-vials-kit/)
+
+$499.99"
+[/QUOTE]

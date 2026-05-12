@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en" data-base="." data-page="/faq.html">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- DEMO BUILD - no analytics, no tracking, no real payments. -->
+  <title>FAQ | VECTOR BIO SUPPLY CO.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="gate-pending ">
+  
+    <div id="storage-warning" class="storage-warning" hidden>This browser blocked persistent storage. Demo state will reset when you navigate.</div>
+    <div id="cookie-banner" class="cookie-banner" hidden>
+      <p>This demo uses localStorage to remember cookie choice, age confirmation, cart, account state, and consent actions. No analytics or tracking pixels are installed.</p>
+      <div><button class="button button-primary" data-cookie-choice="all" type="button">Accept All</button><button class="button button-secondary" data-cookie-choice="essential" type="button">Essential Only</button></div>
+    </div>
+    <div id="age-gate" class="modal-backdrop" hidden>
+      <section class="modal" role="dialog" aria-modal="true" aria-labelledby="age-gate-title">
+        <p class="eyebrow">Access disclaimer</p>
+        <h2 id="age-gate-title">Researcher access gate</h2>
+        <label class="check-row"><input id="age-confirm-age" type="checkbox"> <span>Are you 21 years of age or older?</span></label>
+        <label class="check-row"><input id="age-confirm-researcher" type="checkbox"> <span>Are you a qualified researcher operating in a controlled laboratory environment?</span></label>
+        <div class="button-row"><button class="button button-primary" id="age-confirm" type="button">Confirm access</button><button class="button button-secondary" id="age-deny" type="button">No</button></div>
+      </section>
+    </div>
+    <div id="soft-block" class="modal-backdrop" hidden>
+      <section class="modal" role="dialog" aria-modal="true"><h2>Access not permitted</h2><p>Access to this Website is not permitted without your acceptance to these Terms.</p></section>
+    </div>
+  <div class="page-shell">
+    
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="VECTOR BIO SUPPLY CO. home">
+        <img src="assets/logo.svg" alt="VECTOR BIO SUPPLY CO." width="120" height="32">
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="coa.html">COA Library</a><a href="testing.html">Testing</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="blog/index.html">Blog</a><a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" data-cart-toggle type="button" aria-label="Open cart">
+          <span aria-hidden="true">Cart</span><span class="cart-count" data-cart-count>0</span>
+        </button>
+        <a class="account-link" data-account-link href="login.html">Login</a>
+      </div>
+    </header>
+    <main><section class="page-hero"><div class="container narrow"><p class="eyebrow">VECTOR BIO SUPPLY CO.</p><h1>FAQ.</h1><p>Research-use boundary, shipping, verification, and account policy.</p></div></section><section class="section"><div class="container legal-document"><details  class="faq-item"><summary>Are these products FDA approved?</summary><p>No. The products are not FDA approved drugs. They are research-use-only materials supplied to qualified researchers.</p></details><details  class="faq-item"><summary>Do you ship internationally?</summary><p>No. Continental United States only.</p></details><details id="dosing-question" class="faq-item"><summary>Do you provide dosing instructions?</summary><p>No. We do not provide guidelines or suggestions regarding the use of any product. Requests for usage guidance may be considered evidence of lack of qualification and may result in account termination.</p></details><details  class="faq-item"><summary>What if my package arrives damaged?</summary><p>Inspect shipments immediately upon receipt. Report issues in writing to support@vectorbiosupply.co within seven calendar days, with photographic evidence. See our Shipping & Returns Policy for full details.</p></details><details  class="faq-item"><summary>Can I cancel my order?</summary><p>Orders are non-cancellable once payment is processed. All sales are final.</p></details><details  class="faq-item"><summary>Why do you require a signed Material Transfer Agreement?</summary><p>The MTA documents the chain of custody and the customer's qualified-researcher representations. It protects both parties.</p></details><details  class="faq-item"><summary>What payment methods do you accept?</summary><p>Major credit cards, ACH/wire transfers, and cryptocurrency (BTC, ETH, USDT) through compliant providers.</p></details><details  class="faq-item"><summary>Why must I be 21 or older?</summary><p>Our terms restrict access to qualified adult researchers. Age verification is part of our compliance program.</p></details><details  class="faq-item"><summary>How are COAs verified?</summary><p>All COAs are issued by Janoshik Analytical, a third-party laboratory. We do not produce our own COAs.</p></details><details  class="faq-item"><summary>Are you a pharmacy?</summary><p>No. We are a chemical supplier.</p></details><details  class="faq-item"><summary>Do you sell to individuals?</summary><p>We sell to qualified researchers operating within controlled laboratory environments. The Customer is responsible for verifying their compliance with applicable laws.</p></details><details  class="faq-item"><summary>What if I dispute a charge?</summary><p>Customers must contact support@vectorbiosupply.co in writing and allow thirty business days for good-faith resolution before initiating a chargeback. Chargebacks initiated outside this process may result in account termination, collections proceedings, and a $2,500 liquidated damages fee.</p></details><details  class="faq-item"><summary>Where can I read your terms?</summary><p>Terms of Service, Privacy Policy, Shipping & Returns Policy, Refund Policy, and Material Transfer Agreement are linked in the footer of every page.</p></details><details  class="faq-item"><summary>How do I delete my account?</summary><p>Email privacy@vectorbiosupply.co. We will respond within 30-45 days as required by applicable law.</p></details><details  class="faq-item"><summary>Can I get a refund?</summary><p>All sales are final. Verified manufacturing defects may be eligible for replacement or store credit at our discretion. Cash refunds are not available except as required by applicable law.</p></details></div></section></main>
+    
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <section>
+          <img src="assets/logo.svg" alt="VECTOR BIO SUPPLY CO." width="120" height="32">
+          <p>Research-grade peptides. Verified. Qualified. Compliant.</p>
+          <p>Vector Bio Supply LLC, 30 N Gould St Ste R, Sheridan, WY 82801<br>support@vectorbiosupply.co<br>(307) 555-0194</p>
+        </section>
+        <section><h2>Shop</h2><ul><li><a href="products/semaglutide-5mg.html">Semaglutide 5mg</a></li><li><a href="products/tirzepatide-10mg.html">Tirzepatide 10mg</a></li><li><a href="products/retatrutide-10mg.html">Retatrutide 10mg</a></li><li><a href="products/bpc-157-5mg.html">BPC-157 5mg</a></li><li><a href="products/cagrilintide-5mg.html">Cagrilintide 5mg</a></li><li><a href="products/bacteriostatic-water-30ml.html">Bacteriostatic Water</a></li></ul></section>
+        <section><h2>Company</h2><ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="testing.html">Testing</a></li>
+          <li><a href="coa.html">COA Library</a></li>
+          <li><a href="blog/index.html">Blog</a></li>
+          <li><a href="affiliate.html">Affiliate Program</a></li>
+        </ul></section>
+        <section><h2>Legal</h2><ul><li><a href="terms.html">Terms of Service</a></li><li><a href="privacy.html">Privacy Policy</a></li><li><a href="shipping-and-returns.html">Shipping & Returns</a></li><li><a href="refund-policy.html">Refund Policy</a></li><li><a href="mta.html">Material Transfer Agreement</a></li></ul></section>
+      </div>
+      <div class="footer-bottom">
+        <p>Products listed on this Website are intended for laboratory research purposes only, and are not for human or animal consumption. The products are not intended to diagnose, treat, cure, or prevent any disease. Products should not be used as a food, drug, cosmetic, or for other household use.</p>
+        <p>© 2026 VECTOR BIO SUPPLY CO. By using this site you agree to our <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a>.</p>
+      </div>
+    </footer>
+  </div>
+  
+    <aside id="cart-drawer" class="cart-drawer" aria-hidden="true">
+      <div class="drawer-head">
+        <h2>Cart</h2>
+        <button class="icon-button" data-cart-close type="button" aria-label="Close cart">×</button>
+      </div>
+      <div data-cart-drawer-items></div>
+      <div class="progress-stack">
+        <div><span data-free-shipping-text>Free shipping at $250</span><div class="progress"><span data-free-shipping-bar></span></div></div>
+        <div><span data-free-gift-text>Free Bac Water at $300</span><div class="progress"><span data-free-gift-bar></span></div></div>
+      </div>
+      <div class="drawer-actions">
+        <a class="button button-secondary" href="cart.html">View Cart</a>
+        <a class="button button-primary" href="checkout.html">Checkout</a>
+      </div>
+    </aside>
+  <script src="js/storage.js"></script>
+  <script src="js/catalog-data.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/consent-log.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+# Evidence file: uther
+# Vendor: Uther (uther.com)
+# Generated: 2026-05-08T04:44:00Z
+# fetch_status: failed
+# All schema fields are uncertain — no live site and no useful archived content reachable.
+
+[CLAIM] fetch_status
+[URL] https://uther.com
+[FETCHED_AT] 2026-05-08T04:44:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/uther/homepage.md
+[LINE_RANGE] 1-7
+[QUOTE]
+(fetch failed - DNS resolution failure: curl exit code 6, no A record for uther.com)
+[/QUOTE]
+
+[CLAIM] fetch_status (attempt 2 — gstack:browse)
+[URL] https://uther.com
+[FETCHED_AT] 2026-05-08T04:44:00Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/uther/homepage_attempt2_browse.md
+[LINE_RANGE] 1-7
+[QUOTE]
+(fetch failed - gstack:browse unavailable in this environment: Chromium sandboxing failed, running as root without --no-sandbox)
+[/QUOTE]
+
+[CLAIM] fetch_status (attempt 3 — archive.org)
+[URL] https://web.archive.org/web/20091014191418/http://www.uther.com/
+[FETCHED_AT] 2026-05-08T04:44:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/uther/homepage_attempt3_archive.md
+[LINE_RANGE] 1-5
+[QUOTE]
+uther.com
+[/QUOTE]
+
+[CLAIM] primary_domain — confirmed domain is registered with Cloudflare NS, no A record, ProtonMail MX
+[URL] https://uther.com
+[FETCHED_AT] 2026-05-08T04:44:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/uther/homepage.md
+[LINE_RANGE] 1-7
+[QUOTE]
+(fetch failed - DNS resolution failure: curl exit code 6, no A record for uther.com)
+[/QUOTE]
+
+[CLAIM] discovery_provenance.discovery_source_quote
+[URL] 00_inputs/vendor_list.csv
+[FETCHED_AT] 2026-05-08T04:44:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/uther/homepage.md
+[LINE_RANGE] 1-7
+[QUOTE]
+(fetch failed - DNS resolution failure: curl exit code 6, no A record for uther.com)
+[/QUOTE]

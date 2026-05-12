@@ -1,0 +1,339 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://fitaminos.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/homepage.md
+[LINE_RANGE] 34-38
+[QUOTE]
+"# Third-Party Lab-Verified
+
+## Purity. Precision. Performance.
+
+## At Fit Aminos, we know what matters most when sourcing peptides: purity, consistency, and trust."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://fitaminos.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/homepage.md
+[LINE_RANGE] 40
+[QUOTE]
+"[ Shop All ](/shop)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://fitaminos.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/homepage.md
+[LINE_RANGE] 163
+[QUOTE]
+"FitAminos.com is a trusted supplier of high-quality biochemical research materials, specializing in small-molecule peptides for laboratory use. We are committed to providing premium reagents at competitive prices to support scientific research worldwide."
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://fitaminos.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/homepage.md
+[LINE_RANGE] 16-26
+[QUOTE]
+"  * [HOME](https://fitaminos.com/)
+  * [ABOUT US](https://fitaminos.com/about-us/)
+  * [CONTACT US](https://fitaminos.com/contact-us/)
+  * [SHOP __](https://fitaminos.com/shop/)
+    * [All Products](https://fitaminos.com/shop/)
+    * [Blends](https://fitaminos.com/?product_cat=blends)
+  * [BECOME AN AFFILIATE TODAY!](https://fitaminos.com/affiliate-program/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://fitaminos.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/homepage.md
+[LINE_RANGE] 216-218
+[QUOTE]
+"### Please verify your age to enter.
+
+Sorry, you must be 21 or over to enter this website."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[CLAIM] product_page_anatomy.dose_options
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://fitaminos.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T00:03:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/product_1__bpc-157.md
+[LINE_RANGE] 36-38
+[QUOTE]
+"## BPC-157 (10mg-20mg)
+
+$69.99 – $109.99Price range: $69.99 through $109.99"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://fitaminos.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T00:03:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/product_1__bpc-157.md
+[LINE_RANGE] 184
+[QUOTE]
+"This product is **for research use only**. Not for human or veterinary consumption. Not intended to diagnose, treat, cure, or prevent any disease."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://fitaminos.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T00:03:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/product_1__bpc-157.md
+[LINE_RANGE] 91-92
+[QUOTE]
+"BPC-157 is a synthetic pentadecapeptide composed of 15 amino acids and derived from a partial sequence of a naturally occurring gastric peptide. It has been widely studied in laboratory environments for its involvement in tissue signaling pathways, angiogenesis-related mechanisms, and extracellular matrix regulation models."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://fitaminos.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T00:03:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/product_1__bpc-157.md
+[LINE_RANGE] 177-186
+[QUOTE]
+"##  2 reviews for BPC-157 (10mg-20mg)
+
+  1. Rated **5** out of 5
+
+**Edwin Mendez** _(verified owner)_ – August 21, 2025
+
+BPC-157-10GM
+
+  2. Rated **5** out of 5
+
+**Hannah** _(verified owner)_ – September 5, 2025
+
+Great, reliable and trustworthy quality"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://fitaminos.com/product/tirzepatide/
+[FETCHED_AT] 2026-05-07T00:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/product_2__tirzepatide.md
+[LINE_RANGE] 65
+[QUOTE]
+"[](https://fitaminos.com/wp-content/uploads/2025/04/Tizepatide-10mg_COA_4.26-1.jpg)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[CLAIM] catalog.category_taxonomy
+[URL] https://fitaminos.com/shop/
+[FETCHED_AT] 2026-05-07T00:01:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/catalog_1.md
+[LINE_RANGE] 239-241
+[QUOTE]
+"  * [2](https://fitaminos.com/shop/page/2/)
+  * [__](https://fitaminos.com/shop/page/2/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://fitaminos.com/shop/
+[FETCHED_AT] 2026-05-07T00:01:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/catalog_1.md
+[LINE_RANGE] 92-100
+[QUOTE]
+"## [BPC-157 (10mg) + TB500 (10mg)](https://fitaminos.com/product/bpc-157-with-tb500/)
+
+    * ~~$ 199.99~~ Original price was: $199.99.$120.00Current price is: $120.00."
+[/QUOTE]
+
+[CLAIM] trust_compliance.ship_to_scope
+[CLAIM] checkout_flow.international_policy
+[URL] https://fitaminos.com/?page_id=97
+[FETCHED_AT] 2026-05-07T00:07:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/shipping.md
+[LINE_RANGE] 63-64
+[QUOTE]
+"Currently, we ship to addresses within the **United States only**. We do not offer international shipping at this time."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://fitaminos.com/?page_id=97
+[FETCHED_AT] 2026-05-07T00:07:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/shipping.md
+[LINE_RANGE] 52-57
+[QUOTE]
+"Standard Shipping| 3-5 Business Days| $7 per order
+Expedited Shipping| 2-3 Business Days| $15 per order
+Overnight Shipping| 1 Business Day| $30 per order
+
+  * **Free Shipping:** We may offer free shipping on certain promotions or orders over a specified amount."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://fitaminos.com/?page_id=100
+[FETCHED_AT] 2026-05-07T00:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/refund.md
+[LINE_RANGE] 38-46
+[QUOTE]
+"To be eligible for a return, refund, or exchange:
+
+  * The item must be **unused** , **sealed** , and in its **original packaging**.
+  * The request must be made within **14 days** of the delivery date.
+  * Opened, used, or tampered products **cannot** be returned for safety reasons."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[CLAIM] country_of_operation
+[URL] https://fitaminos.com/?page_id=102
+[FETCHED_AT] 2026-05-07T00:09:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/tos.md
+[LINE_RANGE] 56-60
+[QUOTE]
+"You must be at least **18 years of age** to access or use our Services or purchase from us."
+[/QUOTE]
+[URL] https://fitaminos.com/?page_id=102
+[FETCHED_AT] 2026-05-07T00:09:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/tos.md
+[LINE_RANGE] 258-260
+[QUOTE]
+"These Terms and any dispute arising out of or relating to these Terms, the Services, or products sold by Fit Aminos shall be governed by and construed in accordance with the laws of the **State of Wyoming** , without regard to its conflict of law principles."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://fitaminos.com/?page_id=102
+[FETCHED_AT] 2026-05-07T00:09:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/tos.md
+[LINE_RANGE] 34
+[QUOTE]
+"Fit Aminos LLC"
+[/QUOTE]
+
+[CLAIM] skus[tirzepatide].list_price_usd
+[URL] https://fitaminos.com/product/tirzepatide/
+[FETCHED_AT] 2026-05-07T00:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/product_2__tirzepatide.md
+[LINE_RANGE] 36-38
+[QUOTE]
+"## GLP-2T (10mg-30mg)
+
+$119.99 – $249.99Price range: $119.99 through $249.99"
+[/QUOTE]
+
+[CLAIM] skus[semaglutide].list_price_usd
+[URL] https://fitaminos.com/product/semaglutide/
+[FETCHED_AT] 2026-05-07T00:05:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/product_3__semaglutide.md
+[LINE_RANGE] 36-38
+[QUOTE]
+"## GLP-1S (5mg-10mg)
+
+$99.99 – $149.99Price range: $99.99 through $149.99"
+[/QUOTE]
+
+[CLAIM] skus[retatrutide].list_price_usd
+[URL] https://fitaminos.com/product/retatrutide/
+[FETCHED_AT] 2026-05-07T00:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/product_4__retatrutide.md
+[LINE_RANGE] 36-38
+[QUOTE]
+"## GLP-3R (10mg-20mg)
+
+$119.99 – $179.99Price range: $119.99 through $179.99"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+WordPress/WooCommerce platform inferred from two independent signals: (1) product image URLs use the /wp-content/uploads/ path pattern characteristic of WordPress; (2) cart URL pattern (?add-to-cart=NNN) and product-category taxonomy URLs are canonical WooCommerce patterns.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://fitaminos.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T00:03:00Z
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/product_1__bpc-157.md
+[LINE_RANGE] 55-57
+"[](https://fitaminos.com/wp-content/uploads/2026/04/BPC-157-10mg-scaled.jpg)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://fitaminos.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/homepage.md
+[LINE_RANGE] 75
+"[Add to cart](/?add-to-cart=322)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+No explicit founding year stated on the about page or anywhere on the site. Earliest wp-content image upload paths show /2025/04/ dates; TOS copyright says "2026 Fit Aminos LLC" and was last updated April 3 2026. Customer reviews date to August-September 2025. Inferred 2025 as the launch year based on these signals.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://fitaminos.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T00:03:00Z
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/product_1__bpc-157.md
+[LINE_RANGE] 56-57
+"[](https://fitaminos.com/wp-content/uploads/2025/04/BPC.jpg)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://fitaminos.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T00:03:00Z
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/product_1__bpc-157.md
+[LINE_RANGE] 178-180
+"**Edwin Mendez** _(verified owner)_ – August 21, 2025
+
+BPC-157-10GM"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://fitaminos.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/homepage.md
+[LINE_RANGE] 122-138
+[QUOTE]
+"super happy with this product and tracking results..
+
+**Ruby**
+
+  *   *   *   *   *
+
+
+Good thank you so much.
+
+**Felipe De souza**
+
+  *   *   *   *   *
+
+
+Good product and fast delivery.
+
+**Edwin Mendez**"
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://fitaminos.com/cart/
+[FETCHED_AT] 2026-05-07T00:11:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/fit-aminos/cart.md
+[LINE_RANGE] 30-35
+[QUOTE]
+"Go to checkout  View cart
+Create account icon
+Create an account
+Already have an account? Sign in"
+[/QUOTE]

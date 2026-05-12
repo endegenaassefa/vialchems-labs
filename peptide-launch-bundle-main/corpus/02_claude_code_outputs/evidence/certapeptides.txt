@@ -1,0 +1,562 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 36-36
+[QUOTE]
+"# 99.3% Purity. Independently Verified."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 40-40
+[QUOTE]
+"[Browse Peptides ](/shop)[ Learn More](/about)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 373-381
+[QUOTE]
+"CERTALAB S.R.L. — CUI 54169956 — J2026014773006
+Intrarea Gheorghe Simionescu, Nr. 19, Ap. B26, Sector 1, Bucuresti, Romania, EU
+support@certapeptides.com • +40 750 437 038
+Accepted Payment Methods
+PayGooglePaySEPA
+© 2026 CertaPeptides. All rights reserved.
+All products are for laboratory research use only."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 373-375
+[QUOTE]
+"CERTALAB S.R.L. — CUI 54169956 — J2026014773006
+Intrarea Gheorghe Simionescu, Nr. 19, Ap. B26, Sector 1, Bucuresti, Romania, EU"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 42-42
+[QUOTE]
+"Romania → EU30 countries · 3–7 days"
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://certapeptides.com/about
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/about.md
+[LINE_RANGE] 34-34
+[QUOTE]
+"Founded in Romania in 2024, CertaPeptides provides high-purity research peptides backed by third-party verification to customers across the EU."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 316-316
+[QUOTE]
+"Fast EU ShippingShipping from €4.99 across 30 countries — EU, UK, Switzerland, and Norway."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://certapeptides.com/shop
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/catalog_1.md
+[LINE_RANGE] 438-438
+[QUOTE]
+"Showing 1–32 of 108 products"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://certapeptides.com/shop
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/catalog_1.md
+[LINE_RANGE] 429-436
+[QUOTE]
+"[All](/shop)[Bioregulators1](/shop?category=bioregulators)[Bundles1](/shop?category=bundles)[Capsules and Oral Research9](/shop?category=capsules-oral-research)[Copper and Mitochondrial Research Peptides7](/shop?category=copper-mitochondrial-research)[Cosmetic and Skin Research2](/shop?category=cosmetic-skin-research)[Cyclic and Neuropeptide Research Compounds11](/shop?category=cyclic-neuropeptide-research)[GLP-1 and Incretin Research Peptides4](/shop?category=glp-1-incretin-research)[Gonadotropic Research Peptides4](/shop?category=gonadotropic-research)[Growth Factors8](/shop?category=growth-factors)[Healing and Regeneration Research6](/shop?category=healing-regeneration-research)[Hormones11](/shop?category=hormones)[Laboratory Consumables5](/shop?category=laboratory-consumables)[Melanocortin and Pigment Research Peptides3](/shop?category=melanocortin-pigment-research)[Metabolic and Longevity Research7](/shop?category=metabolic-longevity-research)[SARMs10](/shop?category=sarms)[Thymic Research Peptides2](/shop?category=thymic-research)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://certapeptides.com/shop
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/catalog_1.md
+[LINE_RANGE] 96-100
+[QUOTE]
+"Bundles
+### [Semaglutide Research Starter Kit](/shop/semaglutide-starter-kit)
+Semaglutide 10mg + Bacteriostatic Water 5ml + syringe + storage vial + alcohol pads."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://certapeptides.com/shop/bpc-157
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/product_1__bpc-157.md
+[LINE_RANGE] 120-122
+[QUOTE]
+"Healing and Regeneration ResearchSKU: CP-BPC
+# BPC-157
+≥99% PurityHPLC & MS verified"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://certapeptides.com/shop/bpc-157
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/product_1__bpc-157.md
+[LINE_RANGE] 148-148
+[QUOTE]
+"2mg€22.995mg€41.9910mg€64.9920mg€102.99"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://certapeptides.com/shop/bpc-157
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/product_1__bpc-157.md
+[LINE_RANGE] 141-144
+[QUOTE]
+"1 unit| €22.99| €22.99| \--"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://certapeptides.com/shop/bpc-157
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/product_1__bpc-157.md
+[LINE_RANGE] 135-135
+[QUOTE]
+"BPC-157 (Body Protection Compound 157) is a stable 15-amino-acid pentadecapeptide fragment derived from a gastric juice protein, supplied by CertaPeptides as a lyophilized laboratory research compound (99.3% avg HPLC purity, CAS 137525-51-0)."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://certapeptides.com/shop/bpc-157
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/product_1__bpc-157.md
+[LINE_RANGE] 162-164
+[QUOTE]
+"Important Notice
+This product is intended for laboratory and research use only. Not for human or veterinary use. By purchasing, you confirm this product will be used exclusively for in-vitro research purposes."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://certapeptides.com/shop/bpc-157
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/product_1__bpc-157.md
+[LINE_RANGE] 124-126
+[QUOTE]
+"[Janoshik Verified99.04% HPLCReport #136728](https://verify.janoshik.com/tests/136728-BPC157_5mg_JGERIBLDY5ZW)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://certapeptides.com/shop/bpc-157
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/product_1__bpc-157.md
+[LINE_RANGE] 124-126
+[QUOTE]
+"[Janoshik Verified99.04% HPLCReport #136728](https://verify.janoshik.com/tests/136728-BPC157_5mg_JGERIBLDY5ZW)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 38-38
+[QUOTE]
+"99.3% average HPLC purity across all batches. Verified by Janoshik Analytical and Eurofins — independent labs with no commercial relationship to our supply chain. Every COA published. Including the ones we'd rather not."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://certapeptides.com/shop/bpc-157
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/product_1__bpc-157.md
+[LINE_RANGE] 124-126
+[QUOTE]
+"[Janoshik Verified99.04% HPLCReport #136728](https://verify.janoshik.com/tests/136728-BPC157_5mg_JGERIBLDY5ZW)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://certapeptides.com/shop/bpc-157
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/product_1__bpc-157.md
+[LINE_RANGE] 341-341
+[QUOTE]
+"Based on category & popularity
+## Researchers Also Studied"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://certapeptides.com/shop/bpc-157
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/product_1__bpc-157.md
+[LINE_RANGE] 341-341
+[QUOTE]
+"## Researchers Also Studied
+[View all ](/shop)
+[80mgSAME FIELDHealing and Regeneration ResearchKlow Blend (BPC-157 + GHK-Cu + TB-500 + KPV) 80mg"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 32-32
+[QUOTE]
+"Research-grade compound. Laboratory use only. Not intended for human or animal use, ingestion, or injection. No medical claims are made or implied."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+No age-gate interstitial or modal appeared on homepage load. The homepage artifact contains no age-verification text before browsing. TOS §2.4 states the buyer must be 18+, but this is a purchase-time confirmation, not an entry gate.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 32-32
+"Research-grade compound. Laboratory use only. Not intended for human or animal use, ingestion, or injection. No medical claims are made or implied."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://certapeptides.com/terms
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/tos.md
+[LINE_RANGE] 46-46
+"2.4You must be at least 18 years of age to purchase products from CertaPeptides."
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://certapeptides.com/terms
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/tos.md
+[LINE_RANGE] 25-26
+[QUOTE]
+"# Terms of Use
+Please read these terms carefully before using the CertaPeptides website or placing an order."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://certapeptides.com/terms
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/tos.md
+[LINE_RANGE] 43-55
+[QUOTE]
+"3.1All products sold by CertaPeptides are intended strictly for research and laboratory use only.
+3.2Products are NOT intended for human consumption, veterinary use, or any therapeutic application.
+3.3By purchasing, you confirm that you understand and accept the intended use of these products.
+2.4You must be at least 18 years of age to purchase products from CertaPeptides."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://certapeptides.com/shipping
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/shipping.md
+[LINE_RANGE] 211-211
+[QUOTE]
+"Unopened products in original packaging may be returned within 14 days of delivery in accordance with EU consumer rights (Directive 2011/83/EU). Return shipping costs are the customer's responsibility."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://certapeptides.com/shipping
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/shipping.md
+[LINE_RANGE] 14-20
+[QUOTE]
+"Fast, reliable delivery across 27 EU countries via Sameday, FAN Courier, and TCE Worldwide. Secure packaging to preserve compound integrity."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://certapeptides.com/terms
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/tos.md
+[LINE_RANGE] 60-62
+[QUOTE]
+"4.2We currently accept payment via BANKpay+ (SEPA instant bank transfer) and other available payment methods as listed at checkout."
+[/QUOTE]
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 379-381
+[QUOTE]
+"Accepted Payment Methods
+PayGooglePaySEPA"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://certapeptides.com/shipping
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/shipping.md
+[LINE_RANGE] 55-65
+[QUOTE]
+"Same-Day Cutoff| 2:00 PM CET, Mon–Fri
+Coverage| All 27 EU member states
+Carriers| Sameday (RO/HU/BG), FAN Courier (Central/Eastern EU), TCE Worldwide (Western EU)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://certapeptides.com/shipping
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/shipping.md
+[LINE_RANGE] 14-15
+[QUOTE]
+"## Shipping Rates by Zone
+All orders placed before 2:00 PM CET on business days are dispatched same-day. Rates shown are per shipment."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 316-316
+[QUOTE]
+"Fast EU ShippingShipping from €4.99 across 30 countries — EU, UK, Switzerland, and Norway."
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 10-10
+[QUOTE]
+"Free shipping over EUR 200·COA included·[support@certapeptides.com](mailto:support@certapeptides.com)·[Live Chat(opens in new tab)](https://chat.certapeptides.com)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 268-280
+[QUOTE]
+"## Top Research
+Essential guides for peptide researchers
+[All articles](/blog)
+[Most PopularAre Peptides Safe? An Evidence-Based Research Guide (2026)
+Where to Buy Research Peptides in Europe: 2026 Supplier Guide
+Bacteriostatic Water: A Research Guide to Peptide Reconstitution Solvents"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 22-22
+[QUOTE]
+"[Research Blog](/blog)"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 268-290
+[QUOTE]
+"Are Peptides Safe? An Evidence-Based Research Guide (2026)
+Where to Buy Research Peptides in Europe: 2026 Supplier Guide
+Bacteriostatic Water: A Research Guide to Peptide Reconstitution Solvents
+Epitalon Mechanism: How a Tetrapeptide Activates Telomerase"
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://certapeptides.com/shop/bpc-157
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/product_1__bpc-157.md
+[LINE_RANGE] 240-244
+[QUOTE]
+"## Related Research Articles
+[Ultimate Guide BPC-157 Research5 min read](/blog/ultimate-guide-bpc-157-research)[TB-500 vs BPC-157 Comparison5 min read](/blog/tb-500-vs-bpc-157-comparison)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[INFERENCE] false
+[REASONING]
+No review/rating widget, star-rating section, or customer testimonial block appeared on the BPC-157 product page. The product page ends with a "Researchers Also Studied" module and related research articles, but no customer reviews or star ratings are displayed.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://certapeptides.com/shop/bpc-157
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/product_1__bpc-157.md
+[LINE_RANGE] 335-337
+"Based on category & popularity
+## Researchers Also Studied"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://certapeptides.com/shop/bpc-157
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/product_1__bpc-157.md
+[LINE_RANGE] 198-198
+"Last reviewed: 2026-05-06"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[INFERENCE] none observed on homepage or product page
+[REASONING]
+No testimonial quotes, customer case studies, or named customer references appear in the homepage artifact. Social proof on the site is evidence-based (Janoshik HPLC reports), not customer-testimonial-based.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 72-72
+"## Independently Verified by Janoshik Analytical"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 38-38
+"99.3% average HPLC purity across all batches. Verified by Janoshik Analytical and Eurofins — independent labs with no commercial relationship to our supply chain. Every COA published. Including the ones we'd rather not."
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[certapeptides:bpc-157-2mg].list_price_eur
+[URL] https://certapeptides.com/shop/bpc-157
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/product_1__bpc-157.md
+[LINE_RANGE] 148-148
+[QUOTE]
+"2mg€22.995mg€41.9910mg€64.9920mg€102.99"
+[/QUOTE]
+
+[CLAIM] skus[certapeptides:tb-500].list_price_eur
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 182-182
+[QUOTE]
+"From€36.99"
+[/QUOTE]
+
+[CLAIM] skus[certapeptides:ghk-cu].list_price_eur
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 196-196
+[QUOTE]
+"From€49.99"
+[/QUOTE]
+
+[CLAIM] skus[certapeptides:retatrutide].list_price_eur
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 126-126
+[QUOTE]
+"From€36.99"
+[/QUOTE]
+
+[CLAIM] skus[certapeptides:semaglutide].list_price_eur
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 98-98
+[QUOTE]
+"From€15.99"
+[/QUOTE]
+
+[CLAIM] skus[certapeptides:tirzepatide].list_price_eur
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 112-112
+[QUOTE]
+"From€25.99"
+[/QUOTE]
+
+[CLAIM] skus[certapeptides:selank].list_price_eur
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 224-224
+[QUOTE]
+"From€24.99"
+[/QUOTE]
+
+[CLAIM] skus[certapeptides:semax].list_price_eur
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 238-238
+[QUOTE]
+"From€26.99"
+[/QUOTE]
+
+[CLAIM] skus[certapeptides:ipamorelin].list_price_eur
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 244-244
+[QUOTE]
+"From€19.99"
+[/QUOTE]
+
+[CLAIM] skus[certapeptides:mots-c].list_price_eur
+[URL] https://certapeptides.com/shop
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/catalog_1.md
+[LINE_RANGE] 298-302
+[QUOTE]
+"### [MOTS-c](/shop/mots-c)
+Research-grade MOTS-c. 99.3% avg purity, HPLC & MS verified. Lyophilized powder in sealed glass vial. For laboratory research use only. Not for human consumption.
+From€34.99"
+[/QUOTE]
+
+[CLAIM] skus[certapeptides:epitalon-50mg].list_price_eur
+[URL] https://certapeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/certapeptides/homepage.md
+[LINE_RANGE] 210-210
+[QUOTE]
+"From€53.99"
+[/QUOTE]

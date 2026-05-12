@@ -1,0 +1,545 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://rivnpeptides.com/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/homepage.md
+[LINE_RANGE] 42-55
+[QUOTE]
+"# Premium Research
+Peptides
+
+## High Purity You Can Verify
+
+✓ FREE Same Day Shipping
+
+✓ 99% Purity
+
+✓ 3rd Party USA Lab tested
+
+✓  NASHVILLE, TN"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://rivnpeptides.com/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/homepage.md
+[LINE_RANGE] 55-55
+[QUOTE]
+"[ Shop Now ](/shop)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://rivnpeptides.com/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/homepage.md
+[LINE_RANGE] 16-20
+[QUOTE]
+"  * [Home](/)
+  * [Shop](/shop)
+  * [COA's](/testing)
+  * [Contact](/contact)
+  * [About](/about)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://rivnpeptides.com/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/homepage.md
+[LINE_RANGE] 211-211
+[QUOTE]
+"All products sold by Rivn Research LLC are strictly intended for laboratory research use only.The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. These materials are not for human consumption and are not intended for medical, veterinary, diagnostic, or household use of any kind. Rivn Research LLC operates solely as a research chemical supplier. We are not a compounding pharmacy and do not operate as a compounding facility as defined under Section 503A of the Federal Food, Drug, and Cosmetic Act. Additionally, Rivn Research LLC is not registered as an outsourcing facility under Section 503B of the Act. By purchasing from our site, you agree to use our products exclusively for lawful laboratory research purposes. Any misuse of our products in violation of applicable laws or regulations is strictly prohibited. Please review our Terms of Service in full before placing an order."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://rivnpeptides.com/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/homepage.md
+[LINE_RANGE] 42-57
+[QUOTE]
+"# Premium Research
+Peptides
+
+## High Purity You Can Verify
+
+✓ FREE Same Day Shipping
+
+✓ 99% Purity
+
+✓ 3rd Party USA Lab tested
+
+✓  NASHVILLE, TN
+
+[ Shop Now ](/shop)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://rivnpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/catalog_1.md
+[LINE_RANGE] 83-83
+[QUOTE]
+"Showing 1–12 of 32 results"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://rivnpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/catalog_1.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"Research Compounds"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://rivnpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/catalog_1.md
+[LINE_RANGE] 53-85
+[QUOTE]
+"Search Product
+
+Search
+
+Rating Reset
+
+Price Range
+
+-
+
+Category
+
+Research Compounds
+
+size
+
+60 MG 20 MG 5 MG 10 MG 30 MG
+
+Authors
+
+Test Test
+
+Stock Status
+
+In Stock Out of Stock
+
+Sale Status
+
+On Sale Not on Sale"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://rivnpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/catalog_1.md
+[LINE_RANGE] 149-150
+[QUOTE]
+"## [KLOW 80MG – (TB-500 10mg + BPC-157 10mg + KPV 10mg + GHK-Cu 50mg)](https://rivnpeptides.com/product/klow-80mg/) Research Compounds  ~~$ 199.99~~ Original price was: $199.99.$129.99Current price is: $129.99."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://rivnpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 48-48
+[QUOTE]
+"# BPC 157 10MG"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://rivnpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"~~$ 60.00~~ Original price was: $60.00.$44.99Current price is: $44.99."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://rivnpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 103-109
+[QUOTE]
+"_Pentadecapeptide | Body Protection Compound | Lyophilized | ≥99% purity_
+
+BPC-157 (Body Protection Compound 157) is a synthetic pentadecapeptide (GEPPPGKPADDAGLV) derived from a partial sequence of human gastric juice protein. It is resistant to enzymatic degradation in vitro due to its sequence architecture, making it a stable model compound for proteolytic stability studies."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://rivnpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 91-92
+[QUOTE]
+"## ⚠️ RESEARCH USE ONLY
+
+## This product is for R&D purposes only and is not approved for human or veterinary use."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://rivnpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 67-67
+[QUOTE]
+"**99%+ Purity Guaranteed** 3rd party USA lab tested — COA included"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://rivnpeptides.com/testing/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/coa_1.md
+[LINE_RANGE] 45-45
+[QUOTE]
+"Each batch is tested right here, in Nashville,TN by Freedom diagnostics, a leading 3rd party so/iec 17025 accredited lab."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://rivnpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 109-109
+[QUOTE]
+"Each vial contains 10mg of lyophilized BPC-157, manufactured in ISO 9001 certified, GMP-compliant facilities. Purity independently confirmed at ≥99% by HPLC via ISO/IEC 17025 accredited laboratory. COA available on the testing page."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://rivnpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"**4.9** (1,247 reviews)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://rivnpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 115-118
+[QUOTE]
+"##  Related  Products
+
+  * [](https://rivnpeptides.com/product/reta/)Sale![ Select options  ](https://rivnpeptides.com/product/reta/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://rivnpeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T07:27:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/tos.md
+[LINE_RANGE] 64-64
+[QUOTE]
+"All products sold by RIVN PEPTIDES LLC are **STRICTLY FOR IN-VITRO LABORATORY RESEARCH PURPOSES ONLY**."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://rivnpeptides.com/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/homepage.md
+[LINE_RANGE] 215-224
+[QUOTE]
+"###### Age Verification!
+
+Age 21+
+
+I confirm I am **21+** years of age or older.
+
+Research Consent
+
+I acknowledge that products are for research use only, not for human/animal use, diagnosis, or treatment. I agree to comply with applicable laws and accept the [Terms and Conditions](https://rivnpeptides.com/terms-conditions) and [Privacy Policy](https://rivnpeptides.com/privacy-policy)."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://rivnpeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T07:27:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/tos.md
+[LINE_RANGE] 48-50
+[QUOTE]
+"# Terms of Service & Research Use Agreement
+
+Welcome to **RIVN PEPTIDES LLC** ("Company," "we," "us," or "our"). By accessing, browsing, or purchasing from **www.RIVNPeptides.com** (the "Site"), you agree to be legally bound by the following Terms of Service ("Terms")."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://rivnpeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T07:27:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/tos.md
+[LINE_RANGE] 54-54
+[QUOTE]
+"  * You must be at least **21 years** of age to access or purchase from this Site."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://rivnpeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T07:27:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/tos.md
+[LINE_RANGE] 136-137
+[QUOTE]
+"  * All sales are final
+  * Returns or refunds are only considered in cases of a verified quality defect, at the sole discretion of RIVN PEPTIDES LLC"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://rivnpeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T07:27:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/shipping.md
+[LINE_RANGE] 47-48
+[QUOTE]
+"# Shipping Policy
+
+This Shipping Policy explains general shipping, delivery, and tracking practices for orders placed on this website."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://rivnpeptides.com/my-account/
+[FETCHED_AT] 2026-05-08T07:28:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/my_account.md
+[LINE_RANGE] 42-45
+[QUOTE]
+"## Login
+Username or email address *Required
+## Register
+Email address *Required"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://rivnpeptides.com/
+[FETCHED_AT] 2026-05-08T07:28:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/source_html_extract.md
+[LINE_RANGE] 21-23
+[QUOTE]
+"NOWPAYMENTS CRYPTO PLUGIN:
+Evidence snippet: t/plugins/nowpayments-for-woocommerce-premium/assets/css/now-payment.css?ver=1777876785' media='all' />"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://rivnpeptides.com/
+[FETCHED_AT] 2026-05-08T07:28:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/source_html_extract.md
+[LINE_RANGE] 10-11
+[QUOTE]
+"PLATFORM: WooCommerce/WordPress detected
+Evidence snippet: rel='stylesheet' id='omnisend-woocommerce-checkout-block-checkout-newsletter-subscription-"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://rivnpeptides.com/
+[FETCHED_AT] 2026-05-08T07:28:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/source_html_extract.md
+[LINE_RANGE] 25-27
+[QUOTE]
+"CDN/SERVER: hcdn (Hostinger CDN)
+Evidence: HTTP response header 'server: hcdn' observed in curl -I output
+Additional headers: platform: hostinger, panel: hpanel"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://rivnpeptides.com/
+[FETCHED_AT] 2026-05-08T07:28:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/source_html_extract.md
+[LINE_RANGE] 13-16
+[QUOTE]
+"GOOGLE TAG MANAGER: GTM-THRJ327W
+Evidence snippet: )(window,document,'script','dataLayer','GTM-THRJ327W');
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.co"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://rivnpeptides.com/about/
+[FETCHED_AT] 2026-05-08T07:27:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/about.md
+[LINE_RANGE] 128-128
+[QUOTE]
+"  * [ 305 Seaboard lane #322b, Franklin, TN, USA ](tel:11223344)"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://rivnpeptides.com/about/
+[FETCHED_AT] 2026-05-08T07:27:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/about.md
+[LINE_RANGE] 84-89
+[QUOTE]
+"## 4\. USA-Based Sourcing & Fulfillment
+
+  * Faster processing and delivery
+  * Full traceability from synthesis to shipment
+  * Easy access to documentation and customer support
+  * Peace of mind knowing products are handled in controlled environments"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://rivnpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"**4.9** (1,247 reviews)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://rivnpeptides.com/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/homepage.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"[ ](https://www.trustpilot.com/review/rivnpeptides.com)"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=rivn-peptides:bpc-157-10mg].list_price_usd
+[URL] https://rivnpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"~~$ 60.00~~ Original price was: $60.00.$44.99Current price is: $44.99."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=rivn-peptides:tb-500-10mg].list_price_usd
+[URL] https://rivnpeptides.com/product/dsip-5mg/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_2__tb-500-10mg.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"~~$ 59.99~~ Original price was: $59.99.$49.99Current price is: $49.99."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=rivn-peptides:ghk-cu-100mg].list_price_usd
+[URL] https://rivnpeptides.com/product/ghk-cu-100mg/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_3__ghk-cu-100mg.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"$54.99"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=rivn-peptides:reta-10mg].list_price_usd
+[URL] https://rivnpeptides.com/product/reta/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_4__reta-retatrutide.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"$99.99 – $249.99Price range: $99.99 through $249.99"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=rivn-peptides:tirz-10mg].list_price_usd
+[URL] https://rivnpeptides.com/product/triz-10mg/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_5__triz-tirzepatide.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"$74.99 – $149.99Price range: $74.99 through $149.99"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=rivn-peptides:sema-5mg].list_price_usd
+[URL] https://rivnpeptides.com/product/sema-10mg/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_6__sema-10mg.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"$49.99 – $99.99Price range: $49.99 through $99.99"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=rivn-peptides:mots-c-10mg].list_price_usd
+[URL] https://rivnpeptides.com/product/mots-c-10mg/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/product_7__mots-c-10mg.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"~~$ 59.99~~ Original price was: $59.99.$39.99Current price is: $39.99."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=rivn-peptides:klow-80mg-blend].list_price_usd
+[URL] https://rivnpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/catalog_1.md
+[LINE_RANGE] 149-150
+[QUOTE]
+"## [KLOW 80MG – (TB-500 10mg + BPC-157 10mg + KPV 10mg + GHK-Cu 50mg)](https://rivnpeptides.com/product/klow-80mg/) Research Compounds  ~~$ 199.99~~ Original price was: $199.99.$129.99Current price is: $129.99."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=rivn-peptides:glow-70mg-blend].list_price_usd
+[URL] https://rivnpeptides.com/shop/page/2/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/catalog_2.md
+[LINE_RANGE] 115-115
+[QUOTE]
+"## [GLOW 70MG – (GHK-Cu 50mg + TB-500 10mg + BPC-157 10mg) 70mg Blend](https://rivnpeptides.com/product/glwo-70mg/) Research Compounds  ~~$ 150.00~~ Original price was: $150.00.$99.99Current price is: $99.99."
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://rivnpeptides.com/blog/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/homepage.md
+[LINE_RANGE] 16-20
+[QUOTE]
+"  * [Home](/)
+  * [Shop](/shop)
+  * [COA's](/testing)
+  * [Contact](/contact)
+  * [About](/about)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://rivnpeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T07:27:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/tos.md
+[LINE_RANGE] 192-196
+[QUOTE]
+"## 17\. Governing Law & Venue (Tennessee)
+
+These Terms shall be governed by and interpreted in accordance with the laws of the State of Tennessee, without regard to conflict-of-law principles."
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://rivnpeptides.com/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/rivn-peptides/source_homepage.md
+[LINE_RANGE] 1-222
+[QUOTE]
+"help@RivnPeptides.com"
+[/QUOTE]

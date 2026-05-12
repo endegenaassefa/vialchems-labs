@@ -1,0 +1,411 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://apexpeptidesupply.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/homepage.md
+[LINE_RANGE] 54-56
+[QUOTE]
+"# Fuel the Future of Scientific Discovery
+
+Nationwide Shipping for Research Peptide Products"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://apexpeptidesupply.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/homepage.md
+[LINE_RANGE] 106-106
+[QUOTE]
+"All products on this site are for research and development use only. These products are not for human consumption of any kind."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://apexpeptidesupply.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/homepage.md
+[LINE_RANGE] 58-58
+[QUOTE]
+"[ Order ](/products/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://apexpeptidesupply.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/homepage.md
+[LINE_RANGE] 16-37
+[QUOTE]
+"* [Home](https://apexpeptidesupply.com/)
+  * [Products](https://apexpeptidesupply.com/products/)
+  * [Peptide Research](https://apexpeptidesupply.com/peptide-research/)
+  * [Contact Us](https://apexpeptidesupply.com/contact-us/)
+  * Terms & Policies
+    * [Terms of Service](https://apexpeptidesupply.com/terms-of-service/)
+    * [Research Use Disclaimer](https://apexpeptidesupply.com/research-use-disclaimer/)
+    * [Shipping Policy](https://apexpeptidesupply.com/shipping-policy/)
+    * [Refund and Returns Policy](https://apexpeptidesupply.com/refund-and-returns-policy/)
+  * [Blog](https://apexpeptidesupply.com/blog/)
+  * [View Third-Party Testing](https://apexpeptidesupply.com/coa/)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://apexpeptidesupply.com/products/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/catalog_1.md
+[LINE_RANGE] 63-135
+[QUOTE]
+[ENUMERATION] Counted from catalog_1.md product listings: 19 products listed — AOD-9604, BPC-157, CJC-1295 NO DAC, DSIP, Epithalon, GHK-CU, Glutathione, Ipamorelin, KPV, LL-37, MOTS-C, NAD+, Pinealon, SELANK, SEMAX, Sermorelin, SNAP-8, TB-500, THYMOSIN ALPHA-1.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://apexpeptidesupply.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/product_1__bpc-157.md
+[LINE_RANGE] 54-70
+[QUOTE]
+"#  BPC-157
+
+[Home](https://apexpeptidesupply.com) / [Peptides](https://apexpeptidesupply.com/product-category/peptides/) / BPC-157
+
+$39.99 – $68.99Price range: $39.99 through $68.99
+
+**BPC-157 – ≥98% Purity | (HPLC – Verified; See Batch Specific COA Below)**
+
+**Form: Synthetic Peptide Powder**"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://apexpeptidesupply.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/product_1__bpc-157.md
+[LINE_RANGE] 67-68
+[QUOTE]
+"[5mg](https://apexpeptidesupply.com/wp-content/uploads/2026/03/APS26-0110-BPC-1575MG.pdf)
+[10mg](https://apexpeptidesupply.com/wp-content/uploads/2026/03/APS26-0109-BPC-15710MG.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://apexpeptidesupply.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/product_1__bpc-157.md
+[LINE_RANGE] 94-94
+[QUOTE]
+"This product is intended strictly for laboratory research use only. It is not for human consumption, medical, diagnostic, or veterinary use. All research must be conducted in accordance with applicable institutional, local, and federal regulations by qualified professionals."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://apexpeptidesupply.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/product_1__bpc-157.md
+[LINE_RANGE] 102-102
+[QUOTE]
+"[Download COA – 6 pages](https://apexpeptidesupply.com/wp-content/uploads/2025/10/APS25-71_70-BPC-157_10_5MG-Combined.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://apexpeptidesupply.com/coa/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/coa_1.md
+[LINE_RANGE] 56-66
+[QUOTE]
+"Every batch is third-party HPLC-tested for purity and potency. Click any batch number below to view or download its Certificate of Analysis.
+
+**Batch-Specific COA's** — All Apex Peptide Supply products are verified by independent third-party laboratories. Select a product below and click the batch number button to open its Certificate of Analysis PDF.
+
+####  BPC-157
+
+8 Batches"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://apexpeptidesupply.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/product_1__bpc-157.md
+[LINE_RANGE] 104-109
+[QUOTE]
+"## Related products
+
+  * ## [THYMOSIN ALPHA-1 $89.99 ](https://apexpeptidesupply.com/product/thymosin-alpha-1-2/)
+  * ## [Glutathione $68.99 ](https://apexpeptidesupply.com/product/glutathione/)
+  * ## [GHK-CU $39.99 – $69.99Price range: $39.99 through $69.99 ](https://apexpeptidesupply.com/product/ghk-cu/)
+  * ## [KPV $69.99 ](https://apexpeptidesupply.com/product/kpv-peptide-10mg/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://apexpeptidesupply.com/research-use-disclaimer/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/research_use_disclaimer.md
+[LINE_RANGE] 54-56
+[QUOTE]
+"All products sold by **Apex Peptide** Supply are intended for **laboratory research purposes only** and are **not intended for human or animal consumption, medical use, or diagnostic applications** of any kind."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://apexpeptidesupply.com/research-use-disclaimer/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/research_use_disclaimer.md
+[LINE_RANGE] 91-91
+[QUOTE]
+"We ship only within the United States."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://apexpeptidesupply.com/research-use-disclaimer/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/research_use_disclaimer.md
+[LINE_RANGE] 77-100
+[QUOTE]
+"You must be **18 years or older** to access this site. All products sold by Apex Peptide Supply are **for research and laboratory use** only and are **not intended for human or veterinary consumption**.
+
+All payments are processed securely through **WooCommerce Payments**. We reserve the right to cancel or refuse any order at our discretion, including orders that appear fraudulent or violate these terms.
+
+We ship only within the United States. Due to the sensitive nature of the products, **all sales are final**. No returns or exchanges are accepted unless a product is defective upon arrival.
+
+These Terms shall be governed by the laws of the State of **New Mexico** , without regard to its conflict of laws provisions."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://apexpeptidesupply.com/refund-and-returns-policy/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/refund.md
+[LINE_RANGE] 89-97
+[QUOTE]
+"All sales are final.
+
+We do not accept returns of any product once it has:
+
+  * Shipped
+
+  * Been delivered
+
+  * Been opened
+
+  * Been stored outside controlled conditions"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://apexpeptidesupply.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/shipping.md
+[LINE_RANGE] 64-68
+[QUOTE]
+"All orders are **processed and shipped within 24 hours** of purchase.
+
+We process and ship orders **7 days per week** , including most holidays.
+
+Orders placed late in the day may ship the following morning but will still fall within the 24-hour processing window."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://apexpeptidesupply.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/homepage.md
+[LINE_RANGE] 10-11
+[QUOTE]
+"🔬 **Quality Assurance Event: 15% Off Sitewide** – Use Code: **PURITY15**
+Free Shipping on Orders Over $150 • ISO-Aligned Lab Standards"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://apexpeptidesupply.com/research-use-disclaimer/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/research_use_disclaimer.md
+[LINE_RANGE] 91-91
+[QUOTE]
+"We ship only within the United States."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://apexpeptidesupply.com/research-use-disclaimer/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/research_use_disclaimer.md
+[LINE_RANGE] 88-88
+[QUOTE]
+"All payments are processed securely through **WooCommerce Payments**."
+[/QUOTE]
+[URL] https://apexpeptidesupply.com/refund-and-returns-policy/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/refund.md
+[LINE_RANGE] 254-258
+[QUOTE]
+"## 9\. Cryptocurrency Payments
+
+Cryptocurrency payments are final and irreversible.
+
+If a refund is approved for a crypto transaction:
+
+  * Refunds may be issued in USD equivalent at the time of approval"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://apexpeptidesupply.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/source_homepage.md
+[LINE_RANGE] 7-10
+[QUOTE]
+"Platform: WordPress + WooCommerce (wc-10.7.0)
+Analytics: GA4 G-L10KG1N9GD, GTM (googletagmanager.com dns-prefetch)
+Pixels: No Facebook pixel found; Trustpilot widget js loaded
+Page Builder: Beaver Builder (bb-plugin/fonts/fontawesome)"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://apexpeptidesupply.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/source_homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"Analytics: GA4 G-L10KG1N9GD, GTM (googletagmanager.com dns-prefetch)"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://apexpeptidesupply.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/source_homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Pixels: No Facebook pixel found; Trustpilot widget js loaded"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://apexpeptidesupply.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/homepage.md
+[LINE_RANGE] 24-24
+[QUOTE]
+"* [Blog](https://apexpeptidesupply.com/blog/)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://apexpeptidesupply.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/source_homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Pixels: No Facebook pixel found; Trustpilot widget js loaded"
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+The WordPress JSON-LD schema on the homepage records datePublished as 2025-09-10T13:23:49+00:00. The Terms of Use and Privacy Policy both carry an effective date of July 11, 2025. The earliest batch numbers on the COA page are APS25-xxxx series (e.g., APS25-0056 from October 2025 per upload URL). Taken together, the site launched in mid-2025 and began selling in late 2025.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://apexpeptidesupply.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/source_homepage.md
+[LINE_RANGE] 7-7
+"Platform: WordPress + WooCommerce (wc-10.7.0)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://apexpeptidesupply.com/research-use-disclaimer/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/research_use_disclaimer.md
+[LINE_RANGE] 72-72
+"**Effective Date:** July 11, 2025"
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://apexpeptidesupply.com/research-use-disclaimer/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/research_use_disclaimer.md
+[LINE_RANGE] 100-100
+[QUOTE]
+"These Terms shall be governed by the laws of the State of **New Mexico** , without regard to its conflict of laws provisions. Any disputes shall be handled in the appropriate courts located in New Mexico."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://apexpeptidesupply.com/research-use-disclaimer/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/research_use_disclaimer.md
+[LINE_RANGE] 91-91
+[QUOTE]
+"We ship only within the United States."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+No age-gate interstitial was encountered when fetching the homepage or any product page via curl. The Terms of Use state an 18+ requirement but this is presented as a checkbox/acknowledgment on product pages ("Yes, I have read the Regulatory Disclaimer"), not as a pop-up age gate requiring birth date entry before site access.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://apexpeptidesupply.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/homepage.md
+[LINE_RANGE] 54-56
+"# Fuel the Future of Scientific Discovery
+
+Nationwide Shipping for Research Peptide Products"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://apexpeptidesupply.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/product_1__bpc-157.md
+[LINE_RANGE] 73-73
+"Yes, I have read the Regulatory Disclaimer _*_"
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://apexpeptidesupply.com/products/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/catalog_1.md
+[LINE_RANGE] 54-59
+[QUOTE]
+"# Precision. Purity. Possibility.
+
+**Trusted Research Peptides — Verified Purity, Transparent Sourcing.**
+Every Apex Peptide Supply compound is third-party lab-tested and COA-verified to ensure unmatched purity and accuracy. Our selection supports reliable, reproducible in-vitro research under controlled laboratory conditions.
+
+Explore our collection below — each peptide includes full batch details, purity verification, and same-day USA shipping."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://apexpeptidesupply.com/coa/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/coa_1.md
+[LINE_RANGE] 60-60
+[QUOTE]
+"**Batch-Specific COA's** — All Apex Peptide Supply products are verified by independent third-party laboratories. Select a product below and click the batch number button to open its Certificate of Analysis PDF."
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://apexpeptidesupply.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/apexpeptidesupply/product_1__bpc-157.md
+[LINE_RANGE] 88-109
+[QUOTE]
+"  * Product Details
+  * Intended Use
+  * Storage & Handling
+  * COA
+
+Available in 5 mg or 10 mg vials"
+[/QUOTE]

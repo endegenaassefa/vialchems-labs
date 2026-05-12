@@ -1,0 +1,1415 @@
+<!DOCTYPE html><!-- Last Published: Tue Mar 17 2026 18:35:46 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.purebio.com" data-wf-page="66dbc36f8e6e09e9b2f668db" data-wf-site="66dbc36f8e6e09e9b2f668d5" lang="en"><head><meta charset="utf-8"/><link href="https://cdn.prod.website-files.com" rel="preconnect" crossorigin="anonymous"/><title>PURE Bioscience | Elevate Your Food Hygiene Standards</title><meta content="Revolutionary antimicrobial solutions to safeguard food operations and beyond." name="description"/><meta content="PURE Bioscience | Elevate Your Food Hygiene Standards" property="og:title"/><meta content="Revolutionary antimicrobial solutions to safeguard food operations and beyond." property="og:description"/><meta content="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/678059918737c48c9bcf2c50_iStock-2148628629.webp" property="og:image"/><meta content="PURE Bioscience | Elevate Your Food Hygiene Standards" property="twitter:title"/><meta content="Revolutionary antimicrobial solutions to safeguard food operations and beyond." property="twitter:description"/><meta content="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/678059918737c48c9bcf2c50_iStock-2148628629.webp" property="twitter:image"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="G-LJQ7N3WYMD" name="google-site-verification"/><link href="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/css/pure-bioscience.shared.ce159bd1a.min.css" rel="stylesheet" type="text/css" integrity="sha384-zhWb0aNq7Jnwyi6lkuC2z2zTXY4Fi46YfQg3tNTpMeT8beFfijOUDFdoYzzA0vnO" crossorigin="anonymous"/><style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="3d5266a0-75fa-89f4-29ae-c47204650061"] {color:rgb(12,50,70);}html.w-mod-js:not(.w-mod-ix) [data-w-id="3d5266a0-75fa-89f4-29ae-c47204650060"] {opacity:0;}}</style><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/6758b7ba4c34e7ef0cae68ac_P32.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/6758b7bd8e1e486b96c59c1c_P256.png" rel="apple-touch-icon"/><script>
+  // Define dataLayer and the gtag function
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  // Set default consent to 'denied' as a placeholder
+  if(localStorage.getItem('consentMode') === null){
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'analytics_storage': 'denied',
+      'personalization_storage': 'denied',
+      'security_storage': 'denied',
+      'functionality_storage': 'denied',
+    });
+    // To further redact your ads data when ad_storage is denied, set ads_data_redaction to true
+    gtag('set', 'ads_data_redaction', false);
+  } else {
+    gtag('consent', 'default', JSON.parse(localStorage.getItem('consentMode')));
+  }
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5FNGF4SP');</script>
+<!-- End Google Tag Manager -->
+<script id="vtag-ai-js" async src="https://r2.leadsy.ai/tag.js" data-pid="1rs70vaG5dpDuWQwt" data-version="062024"></script><link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<style>
+.mask-circle {
+	display: block;
+}
+/*.no-scroll-lightbox {
+overflow: hidden;*/
+
+.no-results {
+		height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    color: var(--text-color--text-primary);
+    font-style: italic;
+    text-align: center;
+}
+.search-suggestions{
+position: absolute;
+    display: block;
+}
+</style>
+<!-- [Attributes by Finsweet] Custom Form Select -->
+<script defer src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-selectcustom@1/selectcustom.js"></script></head><body><div class="page-wrapper"><div class="hide w-embed"><style>
+/* Make text look crisper and more legible in all browsers */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  /*Reset selects*/
+.w-select{
+color: inherit;
+font-size: inherit;
+}
+/*Apply "..." after 3 lines of text */
+.text-style-3lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+/* Apply "..." at 100% width */
+.truncate-width { 
+		width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+/* Removes native scrollbar */
+.no-scrollbar {
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none; // Safari and Chrome
+}
+  /* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+  /* Make sure container never lose their center alignment */
+  .container {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  /* Focus state style for keyboard navigation for the focusable elements */
+  *[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid var(--base-color-system--focus-state);
+   outline-offset: 0.125rem;
+}
+   /* Get rid of top margin on first element in any rich text element */
+  .w-richtext > :not(div):first-child,
+  .w-richtext > div:first-child > :first-child {
+    margin-top: 0 !important;
+  }
+  /* Get rid of bottom margin on last element in any rich text element */
+  .w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+    margin-bottom: 0;
+  }
+  /* Show broken links in designer 
+html.wf-design-mode [href="#"] {
+	outline: 3px solid yellow;
+}*/
+section{
+	border-radius: 50px;
+  position:relative;
+}
+  @media screen and (max-width: 767px) {
+    section{
+	border-radius: 20px;
+}}
+a {
+	color: inherit;
+  text-decoration:none;
+}
+html.wf-design-mode .webflow-hide{
+	display:none;
+}
+html.wf-design-mode .webflow-show{
+	display:block;
+}
+
+
+@media (max-width: 79.9375rem) {
+	.navbar.is-desktop { display: none; }
+	.navbar.is-mobile { display: block; }
+  .dropdown-list_wrapper.is-desktop { display: none; }
+  .dropdown-list_wrapper.is-mobile { display: block; }
+}
+</style></div><div class="nav_wrapper"><div class="search-wrapper"><div class="search-field_wrap"><input placeholder="Search..." type="text" class="search-input"/><div class="search-suggestions radius-primary"><div class="suggestion-item hide"><div>Search item</div></div></div><div class="search-input_icon w-embed"><svg width="100%" height="100%" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="14.1421" cy="14.1426" r="9.25" transform="rotate(-45 14.1421 14.1426)" stroke="currentColor" stroke-width="1.5"/>
+<path d="M21.7432 20.6836L29.8749 28.8153" stroke="currentColor" stroke-width="1.5"/>
+</svg></div></div><a data-w-id="b1fe0ad3-84f7-cf42-900a-f2169d22261d" href="#" class="search-close button w-button">close</a><div class="hide w-embed"><style>
+input.search-input::placeholder {
+    color: var(--text-color--text-primary);
+</style></div></div><div data-animation="default" data-collapse="none" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar is-desktop w-nav"><div class="container"><div class="navbar-wrapper"><a href="/" aria-current="page" class="nav_logo-wrap w-nav-brand w--current"><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/67237194e677b55705c905be_L_Pure_sRGB_navy%202.avif" loading="eager" width="180" height="Auto" alt="Pure logo" class="nav-logo"/></a><nav role="navigation" class="nav-menu hide-explore w-nav-menu is-desktop"><div class="nav-links_wrapper is-desktop"><div class="nav-links_wrapper-column is-desktop"><a href="#about" class="nav-link w-inline-block"><div>About</div></a><a href="https://bonsaiclean.com/collections/pure-sanitizers/products/pure-bioscience-sanitizers-disinfectants" target="_blank" class="nav-link w-inline-block"><div>Consumer Purchases</div></a></div><div class="nav-links_wrapper-column is-desktop"><a href="#contact" class="nav-link w-inline-block"><div>Choose your Distributor</div></a><a href="/explore-more" target="_blank" class="nav-link explore-more w-inline-block"><div class="hide-explore">Explore More</div></a></div></div><div class="nav_button-wrap is-desktop"><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/672395303370b3ee0b3e9c5f_Vector.svg" loading="eager" width="340" alt="" class="nav_button-shape"/><div data-hover="true" data-delay="120" data-w-id="c9df8290-416d-2a67-f73d-41dadec445da" class="navbar-dropdown w-dropdown"><div class="button nav-dropdown w-dropdown-toggle"><div>Industries</div><div class="arrow w-embed"><svg width="100%" height="100%" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L14 14L27 1" stroke="#F6F8F9" stroke-width="1.5"/>
+</svg></div><div class="hide w-icon-dropdown-toggle"></div></div><nav class="dropdown-list w-dropdown-list"><div class="dropdown-list_wrapper is-desktop is-desktop"><div class="dropdown-list_wrap"><div class="dropdown_heading">Food Processing/<br/>Manufacturing Plants</div><div class="dropdown_links-wrap"><div class="dropdown_link"><div>Protein Processing/Protein RTE</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Produce Processing</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Harvest Equipment</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Potato Processing</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Dairy Processing</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Ready to Eat (RTE)</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Bakery/Snack</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Dry &amp; Wet Petfood</div><div class="dropdown_link-line"></div></div></div><a data-w-id="256ef385-0c2d-2b49-48fc-8aa147421232" href="#contact" class="dropdown-button button is-light-blue w-button is-desktop">contact us</a></div><div class="dropdown-list_wrap"><div class="dropdown_heading">Food Distribution/<br/>Warehousing</div><div class="dropdown_links-wrap"><div class="dropdown_link"><div>Transportation</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Warehousing</div><div class="dropdown_link-line"></div></div></div><div class="dropdown_heading">Restaurants</div><div class="dropdown_links-wrap"><div class="dropdown_link"><div>QSR (fast food)</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Casual: Fast &amp; Contemporary</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Fine Dinning</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Pop-up/Ghost Restaurants/Food Trucks</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Cafes/Coffee Shops/Specialty Drinks</div><div class="dropdown_link-line"></div></div></div></div><div class="dropdown-list_gradient top w-embed"><style>
+.dropdown-list_gradient{ background: linear-gradient(0deg, rgba(10, 51, 69, 0) 0%, rgba(10, 51, 69, 0.250025) 0%, rgba(10, 51, 69, 0) 0.01%, rgba(10, 51, 69, 0.74) 16.25%, #0A3345 61.45%);
+}
+</style></div><div class="dropdown-list_gradient top bottom w-embed"><style>
+.dropdown-list_gradient.bottom{ background: linear-gradient(180deg, rgba(10, 51, 69, 0) 0%, rgba(10, 51, 69, 0.250025) 0%, rgba(10, 51, 69, 0) 0.01%, rgba(10, 51, 69, 0.74) 16.25%, #0A3345 61.45%);
+}
+</style></div><div class="hide w-embed"><style>
+/*For WebKit browsers (Chrome, Safari, Edge) */ 
+.dropdown-list_wrapper::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+}
+
+.dropdown-list_wrapper::-webkit-scrollbar-track {
+    background: var(--background-color--background-transparent); /* Track color */ 
+    border-radius: 50px; /* Track border radius */
+}
+
+.dropdown-list_wrapper::-webkit-scrollbar-thumb {
+    background: var(--base-color-neutral--neutral-dark); /* Scrollbar color */
+    border-radius: 50px; /* Thumb border radius */
+}
+
+.dropdown-list_wrapper::-webkit-scrollbar-thumb:hover {
+    background: ; /* Thumb color on hover */
+}
+</style></div></div></nav></div><div class="button-spacer"><div class="button-spacer_circle top"></div><div class="button-spacer_circle bottom"></div></div><a href="#" class="button nav-search w-inline-block"><div class="icon-search w-embed"><svg width="100%" height="100%" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="14.1421" cy="14.1426" r="9.25" transform="rotate(-45 14.1421 14.1426)" stroke="#F6F8F9" stroke-width="1.5"/>
+<path d="M21.7432 20.6836L29.8749 28.8153" stroke="#F6F8F9" stroke-width="1.5"/>
+</svg></div></a></div><div class="dropdown-list_wrapper is-desktop is-mobile"><div class="dropdown-list_wrap"><div class="dropdown_heading">Food Processing/<br/>Manufacturing Plants</div><div class="dropdown_links-wrap"><div class="dropdown_link"><div>Protein Processing/Protein RTE</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Produce Processing</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Harvest Equipment</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Potato Processing</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Dairy Processing</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Ready to Eat (RTE)</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Bakery/Snack</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Dry &amp; Wet Petfood</div><div class="dropdown_link-line"></div></div></div><a data-w-id="256ef385-0c2d-2b49-48fc-8aa147421232" href="#contact" class="dropdown-button button is-light-blue w-button is-mobile">contact us</a></div><div class="dropdown-list_wrap"><div class="dropdown_heading">Food Distribution/<br/>Warehousing</div><div class="dropdown_links-wrap"><div class="dropdown_link"><div>Transportation</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Warehousing</div><div class="dropdown_link-line"></div></div></div><div class="dropdown_heading">Restaurants</div><div class="dropdown_links-wrap"><div class="dropdown_link"><div>QSR (fast food)</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Casual: Fast &amp; Contemporary</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Fine Dinning</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Pop-up/Ghost Restaurants/Food Trucks</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Cafes/Coffee Shops/Specialty Drinks</div><div class="dropdown_link-line"></div></div></div></div><div class="dropdown-list_gradient top w-embed"><style>
+.dropdown-list_gradient{ background: linear-gradient(0deg, rgba(10, 51, 69, 0) 0%, rgba(10, 51, 69, 0.250025) 0%, rgba(10, 51, 69, 0) 0.01%, rgba(10, 51, 69, 0.74) 16.25%, #0A3345 61.45%);
+}
+</style></div><div class="dropdown-list_gradient top bottom w-embed"><style>
+.dropdown-list_gradient.bottom{ background: linear-gradient(180deg, rgba(10, 51, 69, 0) 0%, rgba(10, 51, 69, 0.250025) 0%, rgba(10, 51, 69, 0) 0.01%, rgba(10, 51, 69, 0.74) 16.25%, #0A3345 61.45%);
+}
+</style></div><div class="hide w-embed"><style>
+/*For WebKit browsers (Chrome, Safari, Edge) */ 
+.dropdown-list_wrapper::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+}
+
+.dropdown-list_wrapper::-webkit-scrollbar-track {
+    background: var(--background-color--background-transparent); /* Track color */ 
+    border-radius: 50px; /* Track border radius */
+}
+
+.dropdown-list_wrapper::-webkit-scrollbar-thumb {
+    background: var(--base-color-neutral--neutral-dark); /* Scrollbar color */
+    border-radius: 50px; /* Thumb border radius */
+}
+
+.dropdown-list_wrapper::-webkit-scrollbar-thumb:hover {
+    background: ; /* Thumb color on hover */
+}
+</style></div></div></nav><div class="w-nav-button"><div class="w-icon-nav-menu"></div></div></div></div></div><div data-animation="default" data-collapse="all" data-duration="0" data-easing="ease" data-easing2="ease" role="banner" class="navbar is-mobile w-nav"><div class="container"><div class="navbar-wrapper"><a href="/" aria-current="page" class="nav_logo-wrap w-nav-brand w--current"><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/67237194e677b55705c905be_L_Pure_sRGB_navy%202.avif" loading="eager" width="180" height="Auto" alt="Pure logo" class="nav-logo"/></a><nav role="navigation" class="nav-menu hide-explore w-nav-menu is-mobile"><div class="nav-links_wrapper is-mobile"><div class="nav-links_wrapper-column is-mobile"><a href="#about" class="nav-link w-inline-block"><div>About</div></a><a href="https://bonsaiclean.com/collections/pure-sanitizers/products/pure-bioscience-sanitizers-disinfectants" target="_blank" class="nav-link w-inline-block"><div>Consumer Purchases</div></a></div><div class="nav-links_wrapper-column is-mobile"><a href="#contact" class="nav-link w-inline-block"><div>Choose your Distributor</div></a><a href="/explore-more" target="_blank" class="nav-link explore-more w-inline-block"><div class="hide-explore">Explore More</div></a></div></div><div class="nav_button-wrap is-mobile"><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/672395303370b3ee0b3e9c5f_Vector.svg" loading="eager" width="340" alt="" class="nav_button-shape"/><div data-hover="true" data-delay="120" data-w-id="c9df8290-416d-2a67-f73d-41dadec445da" class="navbar-dropdown w-dropdown"><div class="button nav-dropdown w-dropdown-toggle"><div>Industries</div><div class="arrow w-embed"><svg width="100%" height="100%" viewBox="0 0 28 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L14 14L27 1" stroke="#F6F8F9" stroke-width="1.5"/>
+</svg></div><div class="hide w-icon-dropdown-toggle"></div></div><nav class="dropdown-list w-dropdown-list"><div class="dropdown-list_wrapper is-desktop is-desktop"><div class="dropdown-list_wrap"><div class="dropdown_heading">Food Processing/<br/>Manufacturing Plants</div><div class="dropdown_links-wrap"><div class="dropdown_link"><div>Protein Processing/Protein RTE</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Produce Processing</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Harvest Equipment</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Potato Processing</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Dairy Processing</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Ready to Eat (RTE)</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Bakery/Snack</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Dry &amp; Wet Petfood</div><div class="dropdown_link-line"></div></div></div><a data-w-id="256ef385-0c2d-2b49-48fc-8aa147421232" href="#contact" class="dropdown-button button is-light-blue w-button is-desktop">contact us</a></div><div class="dropdown-list_wrap"><div class="dropdown_heading">Food Distribution/<br/>Warehousing</div><div class="dropdown_links-wrap"><div class="dropdown_link"><div>Transportation</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Warehousing</div><div class="dropdown_link-line"></div></div></div><div class="dropdown_heading">Restaurants</div><div class="dropdown_links-wrap"><div class="dropdown_link"><div>QSR (fast food)</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Casual: Fast &amp; Contemporary</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Fine Dinning</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Pop-up/Ghost Restaurants/Food Trucks</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Cafes/Coffee Shops/Specialty Drinks</div><div class="dropdown_link-line"></div></div></div></div><div class="dropdown-list_gradient top w-embed"><style>
+.dropdown-list_gradient{ background: linear-gradient(0deg, rgba(10, 51, 69, 0) 0%, rgba(10, 51, 69, 0.250025) 0%, rgba(10, 51, 69, 0) 0.01%, rgba(10, 51, 69, 0.74) 16.25%, #0A3345 61.45%);
+}
+</style></div><div class="dropdown-list_gradient top bottom w-embed"><style>
+.dropdown-list_gradient.bottom{ background: linear-gradient(180deg, rgba(10, 51, 69, 0) 0%, rgba(10, 51, 69, 0.250025) 0%, rgba(10, 51, 69, 0) 0.01%, rgba(10, 51, 69, 0.74) 16.25%, #0A3345 61.45%);
+}
+</style></div><div class="hide w-embed"><style>
+/*For WebKit browsers (Chrome, Safari, Edge) */ 
+.dropdown-list_wrapper::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+}
+
+.dropdown-list_wrapper::-webkit-scrollbar-track {
+    background: var(--background-color--background-transparent); /* Track color */ 
+    border-radius: 50px; /* Track border radius */
+}
+
+.dropdown-list_wrapper::-webkit-scrollbar-thumb {
+    background: var(--base-color-neutral--neutral-dark); /* Scrollbar color */
+    border-radius: 50px; /* Thumb border radius */
+}
+
+.dropdown-list_wrapper::-webkit-scrollbar-thumb:hover {
+    background: ; /* Thumb color on hover */
+}
+</style></div></div></nav></div><div class="button-spacer"><div class="button-spacer_circle top"></div><div class="button-spacer_circle bottom"></div></div><a href="#" class="button nav-search w-inline-block"><div class="icon-search w-embed"><svg width="100%" height="100%" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="14.1421" cy="14.1426" r="9.25" transform="rotate(-45 14.1421 14.1426)" stroke="#F6F8F9" stroke-width="1.5"/>
+<path d="M21.7432 20.6836L29.8749 28.8153" stroke="#F6F8F9" stroke-width="1.5"/>
+</svg></div></a></div><div class="dropdown-list_wrapper is-desktop is-mobile"><div class="dropdown-list_wrap"><div class="dropdown_heading">Food Processing/<br/>Manufacturing Plants</div><div class="dropdown_links-wrap"><div class="dropdown_link"><div>Protein Processing/Protein RTE</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Produce Processing</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Harvest Equipment</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Potato Processing</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Dairy Processing</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Ready to Eat (RTE)</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Bakery/Snack</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Dry &amp; Wet Petfood</div><div class="dropdown_link-line"></div></div></div><a data-w-id="256ef385-0c2d-2b49-48fc-8aa147421232" href="#contact" class="dropdown-button button is-light-blue w-button is-mobile">contact us</a></div><div class="dropdown-list_wrap"><div class="dropdown_heading">Food Distribution/<br/>Warehousing</div><div class="dropdown_links-wrap"><div class="dropdown_link"><div>Transportation</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Warehousing</div><div class="dropdown_link-line"></div></div></div><div class="dropdown_heading">Restaurants</div><div class="dropdown_links-wrap"><div class="dropdown_link"><div>QSR (fast food)</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Casual: Fast &amp; Contemporary</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Fine Dinning</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Pop-up/Ghost Restaurants/Food Trucks</div><div class="dropdown_link-line"></div></div><div class="dropdown_link"><div>Cafes/Coffee Shops/Specialty Drinks</div><div class="dropdown_link-line"></div></div></div></div><div class="dropdown-list_gradient top w-embed"><style>
+.dropdown-list_gradient{ background: linear-gradient(0deg, rgba(10, 51, 69, 0) 0%, rgba(10, 51, 69, 0.250025) 0%, rgba(10, 51, 69, 0) 0.01%, rgba(10, 51, 69, 0.74) 16.25%, #0A3345 61.45%);
+}
+</style></div><div class="dropdown-list_gradient top bottom w-embed"><style>
+.dropdown-list_gradient.bottom{ background: linear-gradient(180deg, rgba(10, 51, 69, 0) 0%, rgba(10, 51, 69, 0.250025) 0%, rgba(10, 51, 69, 0) 0.01%, rgba(10, 51, 69, 0.74) 16.25%, #0A3345 61.45%);
+}
+</style></div><div class="hide w-embed"><style>
+/*For WebKit browsers (Chrome, Safari, Edge) */ 
+.dropdown-list_wrapper::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+}
+
+.dropdown-list_wrapper::-webkit-scrollbar-track {
+    background: var(--background-color--background-transparent); /* Track color */ 
+    border-radius: 50px; /* Track border radius */
+}
+
+.dropdown-list_wrapper::-webkit-scrollbar-thumb {
+    background: var(--base-color-neutral--neutral-dark); /* Scrollbar color */
+    border-radius: 50px; /* Thumb border radius */
+}
+
+.dropdown-list_wrapper::-webkit-scrollbar-thumb:hover {
+    background: ; /* Thumb color on hover */
+}
+</style></div></div></nav><div class="nav_button-wrap mobile"><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/674903ecff494dc77b0d9be3_Vector.svg" loading="eager" width="340" alt="" class="nav_button-shape mobile"/><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/67490eeb3daf84420c07ec78_Vector%20(2).svg" loading="eager" width="340" alt="" class="nav_button-shape mobile close"/><div data-w-id="3bcb32d8-bda1-6dd5-0c21-e07d6cea67b3" class="menu-button w-nav-button"><div class="menu-button_text">Industries</div><div class="menu-button_text close">Close</div><div class="hide w-icon-nav-menu"></div></div><div class="button-spacer"><div class="button-spacer_circle top"></div><div class="button-spacer_circle bottom"></div></div><a href="#" class="button nav-search mobile w-inline-block"><div class="icon-search w-embed"><svg width="100%" height="100%" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="14.1421" cy="14.1426" r="9.25" transform="rotate(-45 14.1421 14.1426)" stroke="currentColor" stroke-width="1.5"/>
+<path d="M21.7432 20.6836L29.8749 28.8153" stroke="currentColor" stroke-width="1.5"/>
+</svg></div></a></div><div class="nav_button-wrap-second mobile"><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/674903ecff494dc77b0d9be3_Vector.svg" loading="eager" width="340" alt="" class="nav_button-shape mobile"/><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/67490eeb3daf84420c07ec78_Vector%20(2).svg" loading="eager" width="340" alt="" class="nav_button-shape mobile close"/><div data-w-id="99ca88b1-1646-7ddc-bb7f-370370e944b5" class="menu-button open-menu w-nav-button"><div class="menu-button_text">Menu</div><div class="menu-button_text close">Close</div><div class="hide w-icon-nav-menu"></div></div><div class="button-spacer"><div class="button-spacer_circle top"></div><div class="button-spacer_circle bottom"></div></div><a data-w-id="99ca88b1-1646-7ddc-bb7f-370370e944be" href="#" class="button nav-search mobile open-menu w-inline-block"><div class="icon-search open-menu w-embed"><svg width="100%" height="100%" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="14.1421" cy="14.1426" r="9.25" transform="rotate(-45 14.1421 14.1426)" stroke="currentColor" stroke-width="1.5"/>
+<path d="M21.7432 20.6836L29.8749 28.8153" stroke="currentColor" stroke-width="1.5"/>
+</svg></div></a></div></div></div></div><div class="nav-mobile_overlay"></div></div><main class="main-wrapper"><section class="section-hero section"><div class="container"><div class="hero-component"><div class="hero_video-wrap"><div data-poster-url="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5%2F6723aa7fb1bd1d6552b48256_Hero_Molecules_v1-poster-00001.jpg" data-video-urls="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5%2F6723aa7fb1bd1d6552b48256_Hero_Molecules_v1-transcode.mp4,https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5%2F6723aa7fb1bd1d6552b48256_Hero_Molecules_v1-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="hero-background-video radius-primary w-background-video w-background-video-atom"><video id="3d5266a0-75fa-89f4-29ae-c4720465004c-video" autoplay="" loop="" style="background-image:url(&quot;https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5%2F6723aa7fb1bd1d6552b48256_Hero_Molecules_v1-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5%2F6723aa7fb1bd1d6552b48256_Hero_Molecules_v1-transcode.mp4" data-wf-ignore="true"/><source src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5%2F6723aa7fb1bd1d6552b48256_Hero_Molecules_v1-transcode.webm" data-wf-ignore="true"/></video></div><div class="hero_video-overlay radius-primary"></div></div><div class="hero_highlight-wrap mobile"><div class="hero-highlight_text-wrap"><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/67293c2fe1cdb1036cca806c_Group%2079.svg" loading="eager" alt="" class="hero-highlight_shape"/><div class="hero-highlight_text text-highlight">silver dihydrogen<br/>citrate (SDC)</div></div><div class="hero_highlight-line"><div class="hero_highlight-dot"></div></div><div class="hero_highlight-line _2"></div></div><div class="hero-content"><h1 class="hero-heading big-headline"><span class="heading-span">Elevate </span><span class="heading-span">Food Hygiene</span><span class="heading-span"> Standards </span><span class="heading-span hero">with PURE</span><span class="heading-span"> Bioscience</span></h1><div data-w-id="3d5266a0-75fa-89f4-29ae-c4720465005e" class="hero_button-wrap"><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/6723af63ea2b83b62162a0da_Vector%20(1).svg" loading="eager" width="340" alt="" class="hero-button-shape"/><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/6723b1e97c69d84a0ab45652_Vector%20(2).svg" loading="eager" width="340" data-w-id="3d5266a0-75fa-89f4-29ae-c47204650060" alt="" class="hero-button-shape hover"/><a data-w-id="3d5266a0-75fa-89f4-29ae-c47204650061" href="#contact" class="hero-button button is-small w-inline-block"><div>REQUEST A CONSULtaTION</div></a></div><div class="hero_highlight-wrap desktop"><div class="hero-highlight_text-wrap"><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/67293c2fe1cdb1036cca806c_Group%2079.svg" loading="eager" alt="" class="hero-highlight_shape"/><div class="hero-highlight_text text-highlight">silver dihydrogen<br/>citrate (SDC)</div></div><div class="hero_highlight-line"><div class="hero_highlight-dot"></div></div></div></div><a aria-label="Scroll down to the next section" href="#scroll" class="hero_arrow w-inline-block"><div class="w-embed"><svg width="100%" height="100%" viewBox="0 0 168 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_191_1654)">
+<path opacity="0.66" d="M166.993 83.9964C166.993 129.834 129.834 166.993 83.9964 166.993C38.1587 166.993 1 129.834 1 83.9964C1 38.1587 38.1587 1 83.9964 1C129.834 1 166.993 38.1587 166.993 83.9964Z" stroke="#C3F5FF" stroke-width="2"/>
+<path d="M83.9961 45.5117V132.339" stroke="#C3F5FF" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M130.801 88.1924L83.9966 134.997L37.1924 88.1924" stroke="#C3F5FF" stroke-width="2" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_191_1654">
+<rect width="100%" height="100%" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></a></div></div></section><section data-w-id="9e6a3c4d-89b1-1281-9f1f-6b7cba771833" class="section-lottie"><div id="scroll" class="anchor"></div><div class="container"><div class="lottie_scroll-section"><div class="lottie-component section"><div class="lottie-wrapper radius-primary"><div class="lottie-icon w-embed"><svg width="75" height="96" viewBox="0 0 75 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_191_1659)">
+<path d="M74.3346 52.018C74.3627 51.918 74.3845 51.8148 74.4095 51.7148C74.4408 51.593 74.472 51.4679 74.497 51.3461C74.5251 51.2179 74.55 51.0867 74.575 50.9586C74.5938 50.8586 74.6156 50.7586 74.6312 50.6586C74.6562 50.518 74.675 50.3773 74.6968 50.2336C74.7093 50.1398 74.7249 50.0492 74.7343 49.9555C74.753 49.8148 74.7655 49.6742 74.778 49.5304C74.7874 49.4336 74.7968 49.3367 74.803 49.2398C74.8124 49.1055 74.8186 48.9742 74.8249 48.8398C74.8311 48.7336 74.8342 48.6242 74.8374 48.5179C74.8374 48.3961 74.8374 48.2773 74.8374 48.1555C74.8374 48.0336 74.8374 47.9148 74.8374 47.7929C74.8374 47.6867 74.828 47.5773 74.8249 47.4711C74.8186 47.3367 74.8124 47.2055 74.803 47.0711C74.7968 46.9742 74.7874 46.8773 74.778 46.7804C74.7655 46.6398 74.7499 46.4961 74.7343 46.3554C74.7218 46.2617 74.7093 46.1711 74.6968 46.0773C74.6781 45.9367 74.6562 45.7929 74.6312 45.6523C74.6156 45.5523 74.5938 45.4523 74.575 45.3523C74.55 45.2242 74.5251 45.0929 74.497 44.9648C74.4689 44.8398 74.4376 44.718 74.4095 44.5961C74.3845 44.4961 74.3596 44.393 74.3346 44.293C74.2877 44.1211 74.2378 43.9523 74.1847 43.7836C74.1691 43.7336 74.1566 43.6867 74.1409 43.6367C73.1916 40.6617 71.2991 37.9648 68.5478 36.0367C64.5349 33.2242 59.61 32.6898 55.3035 34.1586C50.8502 35.6773 45.9379 34.993 42.0842 32.2929C37.9744 29.4148 35.5542 24.6367 35.8165 19.6211C36.1288 13.6773 33.4649 7.70857 28.2309 4.04295C20.1613 -1.61018 9.03435 0.352323 3.38499 8.43045C-2.26749 16.5054 -0.306295 27.6398 7.76645 33.2929C13.0005 36.9586 19.5149 37.4242 24.9893 35.0961C29.6081 33.1336 34.9233 33.7742 39.0331 36.6554C42.8087 39.3023 45.1134 43.5617 45.2977 48.1586C45.1134 52.7555 42.8087 57.0148 39.0331 59.6617C34.9233 62.5398 29.6081 63.1836 24.9893 61.2211C19.5149 58.893 12.9973 59.3586 7.76645 63.0242C-0.306295 68.6773 -2.26749 79.8117 3.38499 87.8867C9.03748 95.9648 20.1613 97.9273 28.2341 92.2711C33.4681 88.6055 36.1319 82.6367 35.8196 76.6929C35.5573 71.6805 37.9776 66.9023 42.0873 64.0211C45.941 61.3211 50.8534 60.6336 55.3066 62.1554C59.6131 63.6242 64.538 63.0898 68.5509 60.2773C71.3022 58.3492 73.1947 55.6492 74.1441 52.6773C74.1597 52.6273 74.1722 52.5805 74.1878 52.5305C74.2409 52.3617 74.2908 52.1898 74.3377 52.0211L74.3346 52.018Z" fill="#0C3246"/>
+<path d="M58.7111 23.2525C64.9012 23.2525 69.9192 18.2311 69.9192 12.0369C69.9192 5.8427 64.9012 0.821289 58.7111 0.821289C52.521 0.821289 47.5029 5.8427 47.5029 12.0369C47.5029 18.2311 52.521 23.2525 58.7111 23.2525Z" fill="#0C3246"/>
+</g>
+<defs>
+<clipPath id="clip0_191_1659">
+<rect width="75" height="95" fill="white" transform="translate(0 0.658691)"/>
+</clipPath>
+</defs>
+</svg></div><div class="lottie_heading-wrap"><h2 class="lottie-heading big-headline"><span class="heading-span">Revolutionary</span> <span class="heading-span">Antimicrobial</span> <span class="heading-span">Solutions </span><span class="heading-span lottie">to Safeguard</span> <span class="heading-span">Food Operations</span></h2><div class="lottie_highlight-wrap top"><div class="lottie_highlight-text text-highlight">30-120 second<br/>disinfectant<br/>kill time</div></div></div><div class="lottie_highlight-wrap"><div class="lottie_highlight-text text-highlight">No Rinse<br/>disinfectant</div></div></div></div><div class="lottie_lotties-wrap"><div data-is-ix2-target="1" class="lottie-bottle" data-w-id="47fae6a9-29e5-6c3a-88ff-7f9f1e860b90" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/677c1a8dbd472890398b3cac_Bottle_v2.lottie" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="0" data-duration="5" data-loading="eager"></div><div data-is-ix2-target="1" class="lottie_watter-drops middle" data-w-id="79234a65-bfb9-0f7c-dde9-041a28d82f7d" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/672a3afe0e30337c33c6cf1b_Water-Drops.lottie" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="0" data-duration="3.1666666666666665" data-loading="eager"></div></div></div></div></section><section class="section-mask section"><div class="container"><div class="mask-component radius-primary"><div class="mask_heading-wrap"><h2 class="mask-heading big-headline">At pure bioscience we are revolutionizing what it means to be clean and safe.</h2><div class="mask_highlight-wrap"><div class="mask_highlight-text text-highlight">silver dihydrogen<br/>citrate (SDC)</div></div></div><div scroll-based="true" block-reveal-component="" class="mask radius-primary"><div class="mask_circle-wrap"><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div></div><div class="mask_circle-wrap _2"><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div><div class="mask-circle"></div></div></div></div></div></section><section class="section-video"><div id="about" class="nav-anchor"></div><div class="container"><div class="video-component section"><div class="video_list-wrapper w-dyn-list"><div role="list" class="video_list w-dyn-items"><div css-radius-respect="" js-vimeo-element="component" role="listitem" class="video_item w-dyn-item"><div class="video_lightbox"><div class="vimeo_video w-embed w-iframe w-script"><!-- VIDEO LIGHTBOX -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const videoLightbox = document.querySelector('.video_lightbox');
+    const iframe = document.querySelector('.portfolio-video-frame');
+    
+    if (videoLightbox) {
+        const observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'style') {
+                    const style = window.getComputedStyle(videoLightbox);
+                    if (style.display === 'flex') {
+                        document.body.classList.add('no-scroll-lightbox');
+                    } else {
+                        document.body.classList.remove('no-scroll-lightbox');
+                    }
+                }
+            });
+        });
+
+        observer.observe(videoLightbox, {
+            attributes: true,
+            attributeFilter: ['style']
+        });
+    }
+
+    // Handle grid item click
+    const gridItems = document.querySelectorAll('.video_item .video_button');
+    gridItems.forEach(item => {
+        item.addEventListener('click', function() {
+            const videoUrlElement = item.querySelector('.vimeo_id');
+            if (videoUrlElement) {
+                const videoId = videoUrlElement.textContent.trim();
+                if (videoId) {
+                    iframe.src = `https://player.vimeo.com/video/${videoId}?dnt=1&autoplay=1`;
+                    videoLightbox.style.display = 'flex'; // Assuming this is how you show the lightbox
+                }
+            }
+        });
+    });
+});
+
+</script>
+<!-- VIDEO LIGHTBOX END -->
+
+<!-- Video Frame -->
+<iframe class="portfolio-video-frame" 
+        src="" 
+        frameborder="0" 
+        allow="autoplay; fullscreen; picture-in-picture" 
+        title="Main Reel">
+</iframe>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const lightbox = document.querySelector('.video_lightbox');
+    const iframe = document.querySelector('.portfolio-video-frame');
+    
+    function checkLightboxDisplay() {
+        if (getComputedStyle(lightbox).display === 'flex') {
+            // iframe.src is set dynamically when .grid-item is clicked
+        } else {
+            iframe.removeAttribute('src');
+        }
+    }
+
+    // Initial check on page load
+    checkLightboxDisplay();
+    
+    // Observe changes to the display property
+    const observer = new MutationObserver(checkLightboxDisplay);
+    observer.observe(lightbox, { attributes: true, attributeFilter: ['style', 'class'] });
+});
+</script>
+<style>
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.portfolio-video-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio-video-frame {
+        width: 100% !important;
+        height: 50vh !important;
+        position: relative;
+        top: 0 ; 
+    }
+}
+</style></div><div data-w-id="6ab53540-e063-1ca6-272a-1ffb07a7b345" class="video_lightbox-overlay"></div><a data-w-id="efcc1c38-402d-c5c7-86b6-7e0242c0a3c4" href="#" class="video_lightbox-button is-small w-button">Close</a></div><div class="video_cover"><div class="video_content-top"><div data-w-id="c9644125-1a79-7056-b432-cd560e86dbf8" class="video_button radius-primary"><div class="vimeo_id">1051370550</div><div class="video_button-icon w-embed"><svg width="100%" height="100%" viewBox="0 0 37 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M36.2461 21L0.207586 41.7846L0.207588 0.21539L36.2461 21Z" fill="currentColor"/>
+</svg></div></div><h2 class="video-heading big-headline">Our<br/>commitment</h2></div><p class="video-paragraph text-size-large">We are committed to advancing food hygiene with our patented Silver Dihydrogen Citrate (SDC) technology. Our formula offers effective microbial control without the harsh chemicals found in traditional sanitizers, helping food and beverage manufacturers meet high hygiene standards, reduce contamination risks, and improve operational efficiency</p><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f56b0f469634c50091a48_AdobeStock_580112186.webp" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f56b0f469634c50091a48_AdobeStock_580112186-p-500.webp 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f56b0f469634c50091a48_AdobeStock_580112186-p-800.webp 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f56b0f469634c50091a48_AdobeStock_580112186-p-1080.webp 1080w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f56b0f469634c50091a48_AdobeStock_580112186.webp 1200w" class="video_thumbnail-image radius-primary"/><div class="video_overlay radius-primary"></div></div></div></div></div></div></div></section><section id="technology" class="section-slider"><div class="container"><h3 class="slider_heading small-headline mobile">Mode<br/>of action</h3><div class="slider-component"><div class="swiper_buttons-wrap"><a aria-label="previous-slide" href="#" class="swiper-button swiper-btn-prev hide w-inline-block"><div class="swiper_button-icon left w-embed"><svg width="100%" height="100%" viewBox="0 0 92 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.511719 48.0037L87.3394 48.0037" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M43.1924 1.19946L89.9966 48.0037L43.1924 94.8079" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"/>
+</svg></div></a><a aria-label="next-slide" href="#" class="swiper-button swiper-btn-next w-inline-block"><div class="swiper_button-icon w-embed"><svg width="100%" height="100%" viewBox="0 0 92 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.511719 48.0037L87.3394 48.0037" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M43.1924 1.19946L89.9966 48.0037L43.1924 94.8079" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"/>
+</svg></div></a></div><div class="swiper is-slider w-dyn-list"><div role="list" class="swiper-wrapper is-slider w-dyn-items"><div role="listitem" class="swiper-slide is-slider w-dyn-item"><div class="slider_image-wrap"><div class="slider_slide-image-wrap"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6759b1947d844f67cbc580bd_67585eddc606ef5a02146334_1%201%20(1).webp" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6759b1947d844f67cbc580bd_67585eddc606ef5a02146334_1%201%20(1)-p-500.webp 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6759b1947d844f67cbc580bd_67585eddc606ef5a02146334_1%201%20(1)-p-800.webp 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6759b1947d844f67cbc580bd_67585eddc606ef5a02146334_1%201%20(1)-p-1080.webp 1080w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6759b1947d844f67cbc580bd_67585eddc606ef5a02146334_1%201%20(1).webp 1203w" class="slider_slide-image"/></div><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20.webp" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px, 100vw" srcset="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-500.webp 500w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-800.webp 800w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-1080.webp 1080w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20.webp 1200w" alt="" class="slider_background-image radius-primary"/></div><div class="slider_content-wrap"><div class="slider_pagination-wrap desktop"><div class="slider_pagination-line"></div><div class="swiper-pagination_custom swiper-pagination-custom swiper-pagination-horizontal text-highlight"><div>1</div></div></div><h2 class="slider_heading small-headline">Mode<br/>of action</h2><p class="text-size-large slider-text">Silver dihydrogen citrate&#x27;s rapid and broad-spectrum efficacy is largely attributed to its dual mechanisms of action and unique characteristics. These two mechanisms, alone or in combination, make Silver Dihydrogen Citrate (SDC) a powerful antimicrobial while mitigating microbial resistance.</p><a href="/silver-dihydrogen-citrate-sdc" target="_blank" class="button is-big w-button">find out more</a></div></div><div role="listitem" class="swiper-slide is-slider w-dyn-item"><div class="slider_image-wrap"><div class="slider_slide-image-wrap"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6759b17c807dd5e0164bf650_67585f1e819023920c74f4ba_2%201%20(1).webp" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6759b17c807dd5e0164bf650_67585f1e819023920c74f4ba_2%201%20(1)-p-500.webp 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6759b17c807dd5e0164bf650_67585f1e819023920c74f4ba_2%201%20(1)-p-800.webp 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6759b17c807dd5e0164bf650_67585f1e819023920c74f4ba_2%201%20(1)-p-1080.webp 1080w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6759b17c807dd5e0164bf650_67585f1e819023920c74f4ba_2%201%20(1).webp 1203w" class="slider_slide-image"/></div><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20.webp" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px, 100vw" srcset="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-500.webp 500w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-800.webp 800w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-1080.webp 1080w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20.webp 1200w" alt="" class="slider_background-image radius-primary"/></div><div class="slider_content-wrap"><div class="slider_pagination-wrap desktop"><div class="slider_pagination-line"></div><div class="swiper-pagination_custom swiper-pagination-custom swiper-pagination-horizontal text-highlight"><div>2</div></div></div><h2 class="slider_heading small-headline">Mode<br/>of action</h2><p class="text-size-large slider-text">Unlike traditional antimicrobials, bacteria are actually attracted to Silver Dihydrogen Citrate (SDC) because they recognize citric acid as a food source.</p><a href="/silver-dihydrogen-citrate-sdc" target="_blank" class="button is-big w-button">find out more</a></div></div><div role="listitem" class="swiper-slide is-slider w-dyn-item"><div class="slider_image-wrap"><div class="slider_slide-image-wrap"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674dbd22912400fb2c46e9c4_Group%20(1).webp" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674dbd22912400fb2c46e9c4_Group%20(1)-p-500.webp 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674dbd22912400fb2c46e9c4_Group%20(1)-p-800.webp 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674dbd22912400fb2c46e9c4_Group%20(1)-p-1080.webp 1080w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674dbd22912400fb2c46e9c4_Group%20(1).webp 1194w" class="slider_slide-image"/></div><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20.webp" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px, 100vw" srcset="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-500.webp 500w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-800.webp 800w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-1080.webp 1080w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20.webp 1200w" alt="" class="slider_background-image radius-primary"/></div><div class="slider_content-wrap"><div class="slider_pagination-wrap desktop"><div class="slider_pagination-line"></div><div class="swiper-pagination_custom swiper-pagination-custom swiper-pagination-horizontal text-highlight"><div>3</div></div></div><h2 class="slider_heading small-headline">Mode<br/>of action</h2><p class="text-size-large slider-text">This Trojan horse attack allows Silver Dihydrogen Citrate (SDC) to easily enter the microorganism through membrane transport proteins.</p><a href="/silver-dihydrogen-citrate-sdc" target="_blank" class="button is-big w-button">find out more</a></div></div><div role="listitem" class="swiper-slide is-slider w-dyn-item"><div class="slider_image-wrap"><div class="slider_slide-image-wrap"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674dbd3d17c5b4b7ffac290d_pure_modeofaction-04%201%20(1)%20(1).webp" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674dbd3d17c5b4b7ffac290d_pure_modeofaction-04%201%20(1)%20(1)-p-500.webp 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674dbd3d17c5b4b7ffac290d_pure_modeofaction-04%201%20(1)%20(1)-p-800.webp 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674dbd3d17c5b4b7ffac290d_pure_modeofaction-04%201%20(1)%20(1)-p-1080.webp 1080w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674dbd3d17c5b4b7ffac290d_pure_modeofaction-04%201%20(1)%20(1).webp 1209w" class="slider_slide-image"/></div><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20.webp" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px, 100vw" srcset="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-500.webp 500w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-800.webp 800w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-1080.webp 1080w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20.webp 1200w" alt="" class="slider_background-image radius-primary"/></div><div class="slider_content-wrap"><div class="slider_pagination-wrap desktop"><div class="slider_pagination-line"></div><div class="swiper-pagination_custom swiper-pagination-custom swiper-pagination-horizontal text-highlight"><div>4</div></div></div><h2 class="slider_heading small-headline">Mode<br/>of action</h2><p class="text-size-large slider-text">Once inside the organism, Silver Dihydrogen Citrate (SDC) binds to DNA and intracellular proteins, causing irreversible damage to the DNA and protein structure. Metabolic and reproductive functions halt, and the organism dies.</p><a href="/silver-dihydrogen-citrate-sdc" target="_blank" class="button is-big w-button">find out more</a></div></div><div role="listitem" class="swiper-slide is-slider w-dyn-item"><div class="slider_image-wrap"><div class="slider_slide-image-wrap"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674dbd646cc0f538dc48286b_pure_modeofaction-05%201%20(1)%20(1).webp" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674dbd646cc0f538dc48286b_pure_modeofaction-05%201%20(1)%20(1)-p-500.webp 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674dbd646cc0f538dc48286b_pure_modeofaction-05%201%20(1)%20(1)-p-800.webp 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674dbd646cc0f538dc48286b_pure_modeofaction-05%201%20(1)%20(1)-p-1080.webp 1080w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674dbd646cc0f538dc48286b_pure_modeofaction-05%201%20(1)%20(1).webp 1209w" class="slider_slide-image"/></div><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20.webp" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px, 100vw" srcset="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-500.webp 500w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-800.webp 800w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-1080.webp 1080w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20.webp 1200w" alt="" class="slider_background-image radius-primary"/></div><div class="slider_content-wrap"><div class="slider_pagination-wrap desktop"><div class="slider_pagination-line"></div><div class="swiper-pagination_custom swiper-pagination-custom swiper-pagination-horizontal text-highlight"><div>5</div></div></div><h2 class="slider_heading small-headline">Mode<br/>of action</h2><p class="text-size-large slider-text">Silver Dihydrogen Citrate (SDC) acts on an organism&#x27;s outer membrane by targeting sulfur-containing thiol groups in key metabolic and structural proteins bound to the membrane surface. Silver ions in SDC are strongly attracted to these proteins, destroying their structure. This disruption of the membrane&#x27;s function and integrity leads to the organism&#x27;s death.</p><a href="/silver-dihydrogen-citrate-sdc" target="_blank" class="button is-big w-button">find out more</a></div></div><div role="listitem" class="swiper-slide is-slider w-dyn-item"><div class="slider_image-wrap"><div class="slider_slide-image-wrap"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674b2f87be02a7c9cc9bf0e5_pure_modeofaction-06%201%20(1)%20(1).webp" loading="lazy" alt="" class="slider_slide-image"/></div><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20.webp" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px, 100vw" srcset="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-500.webp 500w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-800.webp 800w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20-p-1080.webp 1080w, https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/675073a783d77565a2c38b1f_%20.webp 1200w" alt="" class="slider_background-image radius-primary"/></div><div class="slider_content-wrap"><div class="slider_pagination-wrap desktop"><div class="slider_pagination-line"></div><div class="swiper-pagination_custom swiper-pagination-custom swiper-pagination-horizontal text-highlight"><div>6</div></div></div><h2 class="slider_heading small-headline">Mode<br/>of action</h2><p class="text-size-large slider-text">Regardless of the type of kill mechanism, surplus Silver Dihydrogen Citrate (SDC) provides reliable protection.</p><a href="/silver-dihydrogen-citrate-sdc" target="_blank" class="button is-big w-button">find out more</a></div></div></div></div></div></div></section><section class="section-products"><div id="products" class="nav-anchor"></div><div class="container"><div class="products-component"><h2 class="products-heading big-headline">Discover<br/>our products</h2><div class="products_tab-wrapper"><div class="hide w-embed"><style>
+  @media (min-width: 768px) {
+    .products_tabs-item.vertical-text.w-dyn-item.cc-selected:nth-of-type(1) {
+      background-color: #C7D8D7 !important;
+      border: 2px solid #C7D8D7;
+    }
+    .products_tabs-item.vertical-text.w-dyn-item.cc-selected:nth-of-type(2) {
+      background-color: #B9E1D2 !important;
+      border: 2px solid #B9E1D2;
+    }
+    .products_tabs-item.vertical-text.w-dyn-item.cc-selected:nth-of-type(3) {
+      background-color: #59C7E1 !important; 
+      border: 2px solid #59C7E1;
+    }
+    .products_tabs-item.vertical-text.w-dyn-item.cc-selected:nth-of-type(4) {
+      background-color: #8CA0D7 !important; 
+      border: 2px solid #8CA0D7;
+    }
+    .products_tabs-item.vertical-text.w-dyn-item.cc-selected:nth-of-type(5) {
+      background-color: #7ecdff !important; 
+      border: 2px solid #7ecdff;
+    }
+[custom-style="product-image"] .products_left-image{
+    width: 44vw !important;
+}
+    
+  }
+
+  @media (max-width: 991px) {
+    .products_tabs-item.vertical-text.w-dyn-item:nth-of-type(1) {
+      background-color: #C7D8D7 !important;
+      border: 2px solid #C7D8D7;
+    }
+    .products_tabs-item.vertical-text.w-dyn-item:nth-of-type(2) {
+      background-color: #B9E1D2 !important;
+      border: 2px solid #B9E1D2;
+    }
+    .products_tabs-item.vertical-text.w-dyn-item:nth-of-type(3) {
+      background-color: #59C7E1 !important; 
+      border: 2px solid #59C7E1;
+    }
+    .products_tabs-item.vertical-text.w-dyn-item:nth-of-type(4) {
+      background-color: #8CA0D7 !important; 
+      border: 2px solid #8CA0D7;
+    }
+    .products_tabs-item.vertical-text.w-dyn-item:nth-of-type(5) {
+      background-color: #7ecdff !important; 
+      border: 2px solid #7ecdff;
+    }
+  }
+  
+  
+.products_tabs-list {
+  scrollbar-width: thin;
+  scrollbar-color: var(--base-color-brand--blue-dark) var(--base-color-neutral--white);
+}
+.products_tabs-list::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+</style></div><div class="w-dyn-list"><div r-tabs-interaction="click" r-cms-tabs="list" role="list" class="products_tabs-list w-dyn-items"><div role="listitem" class="products_tabs-item vertical-text w-dyn-item"><div class="product_tabs-block"><div>PURE</div><div>Hard Surface</div></div></div><div role="listitem" class="products_tabs-item vertical-text w-dyn-item"><div class="product_tabs-block"><div>PURE</div><div>Control</div></div></div><div role="listitem" class="products_tabs-item vertical-text w-dyn-item"><div class="product_tabs-block"><div>PURE</div><div>Multi-Purpose Hi-Foam Cleaner</div></div></div><div role="listitem" class="products_tabs-item vertical-text w-dyn-item"><div class="product_tabs-block"><div>PURE</div><div>Multi-Purpose Cleaner</div></div></div><div role="listitem" class="products_tabs-item vertical-text w-dyn-item"><div class="product_tabs-block"><div>PURE</div><div>Clean</div></div></div></div></div><div class="webflow-show w-dyn-list"><div role="list" class="products_content-list w-dyn-items"><div custom-style="product-image" role="listitem" class="products_content-item w-dyn-item"><div class="products_content-item-wrap"><div class="products_content-left radius-primary"><div class="products_content-heading-wrap"><div class="products_content-heading small-headline w-embed">PURE<br>Hard Surface</div><a href="/pure-bioscience-products/pure-hard-surface" class="button is-light-blue w-button">learn more</a></div><div class="products_left-image-wrap"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f19cc4acf6f58670df298_pure_hard-surface.webp" loading="eager" width="Auto" height="400" alt="Hard Surface" class="products_left-image"/></div></div><div class="products_content-right"><div class="products_right-top"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f57b99994674faf3df7f4_AdobeStock_235446780.webp" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f57b99994674faf3df7f4_AdobeStock_235446780-p-500.webp 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f57b99994674faf3df7f4_AdobeStock_235446780-p-800.webp 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f57b99994674faf3df7f4_AdobeStock_235446780-p-1080.webp 1080w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f57b99994674faf3df7f4_AdobeStock_235446780.webp 1200w" class="products_right-image radius-primary"/></div><div class="products_right-bottom radius-primary"><div class="products_description text-size-large">A powerful disinfectant designed for comprehensive environmental sanitation. This advanced antimicrobial solution simplifies sanitation and enhances system performance. When membrane flow rates decline, quality deteriorates, and operational costs increase, PURE Hard Surface provides a proven, no-compromise solution. In a single treatment, it removes organic fouling, restores optimal flow, and eliminates bacteria without the need for harsh chemicals or complicated procedures.</div><div class="rich-text_bullet-points w-richtext"><ul role="list"><li>EPA food-contact surface registered</li><li>Lowest EPA toxicity rating</li><li>No rinsing required</li><li>Fast kill time</li><li>Minimal downtime</li><li>Complete membrane penetration</li><li>Zero membrane damage</li><li>Delay membrane replacement</li><li>Wastewater safe</li><li>No PPE required</li></ul></div></div></div></div></div></div></div><div class="webflow-hide w-dyn-list"><div r-cms-tabs="content" role="list" class="products_content-list w-dyn-items"><div custom-style="product-image" role="listitem" class="products_content-item w-dyn-item"><div class="products_content-item-wrap"><div class="products_content-left radius-primary"><div class="products_content-heading-wrap"><div class="products_content-heading small-headline w-embed">PURE<br>Hard Surface</div><a href="/pure-bioscience-products/pure-hard-surface" class="button is-light-blue w-button">learn more</a></div><div class="products_left-image-wrap"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f19cc4acf6f58670df298_pure_hard-surface.webp" loading="lazy" alt="" class="products_left-image"/></div></div><div class="products_content-right"><div class="products_right-top"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f57b99994674faf3df7f4_AdobeStock_235446780.webp" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f57b99994674faf3df7f4_AdobeStock_235446780-p-500.webp 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f57b99994674faf3df7f4_AdobeStock_235446780-p-800.webp 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f57b99994674faf3df7f4_AdobeStock_235446780-p-1080.webp 1080w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f57b99994674faf3df7f4_AdobeStock_235446780.webp 1200w" class="products_right-image radius-primary"/></div><div class="products_right-bottom radius-primary"><div class="products_description text-size-large">A powerful disinfectant designed for comprehensive environmental sanitation. This advanced antimicrobial solution simplifies sanitation and enhances system performance. When membrane flow rates decline, quality deteriorates, and operational costs increase, PURE Hard Surface provides a proven, no-compromise solution. In a single treatment, it removes organic fouling, restores optimal flow, and eliminates bacteria without the need for harsh chemicals or complicated procedures.</div><div class="rich-text_bullet-points w-richtext"><ul role="list"><li>EPA food-contact surface registered</li><li>Lowest EPA toxicity rating</li><li>No rinsing required</li><li>Fast kill time</li><li>Minimal downtime</li><li>Complete membrane penetration</li><li>Zero membrane damage</li><li>Delay membrane replacement</li><li>Wastewater safe</li><li>No PPE required</li></ul></div></div></div></div></div><div custom-style="product-image" role="listitem" class="products_content-item w-dyn-item"><div class="products_content-item-wrap"><div class="products_content-left radius-primary"><div class="products_content-heading-wrap"><div class="products_content-heading small-headline w-embed">PURE<br>Control</div><a href="/pure-bioscience-products/pure-control" class="button is-light-blue w-button">learn more</a></div><div class="products_left-image-wrap"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f19af13b5cc423eae23b2_pure_control.webp" loading="lazy" alt="" sizes="(max-width: 767px) 100vw, 44vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f19af13b5cc423eae23b2_pure_control-p-500.webp 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f19af13b5cc423eae23b2_pure_control.webp 717w" class="products_left-image"/></div></div><div class="products_content-right"><div class="products_right-top"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f41e1f1e9da17de4d1d77_AdobeStock_1055243545.webp" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f41e1f1e9da17de4d1d77_AdobeStock_1055243545-p-500.webp 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f41e1f1e9da17de4d1d77_AdobeStock_1055243545-p-800.webp 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f41e1f1e9da17de4d1d77_AdobeStock_1055243545-p-1080.webp 1080w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f41e1f1e9da17de4d1d77_AdobeStock_1055243545.webp 1200w" class="products_right-image radius-primary"/></div><div class="products_right-bottom radius-primary"><div class="products_description text-size-large">An FDA-approved food processing aid specifically designed for use in poultry and produce processing. It effectively enhances food safety by reducing pathogens, ensuring that your products meet the highest standards of quality and sanitation.</div><div class="rich-text_bullet-points w-richtext"><ul role="list"><li>Reduces pathogens on treated produce, including<em> Salmonella</em>, <em>Listeria</em> and <em>E. coli</em></li><li>Lowers cross-contamination risk</li><li>Odorless and non-toxic, enhancing worker safety</li><li>No impact on texture, taste, or color</li><li>No label declaration needed</li></ul></div></div></div></div></div><div custom-style="product-image" role="listitem" class="products_content-item w-dyn-item"><div class="products_content-item-wrap"><div class="products_content-left radius-primary"><div class="products_content-heading-wrap"><div class="products_content-heading small-headline w-embed">PURE<br>Multi-Purpose Hi-Foam Cleaner</div><a href="/pure-bioscience-products/pure-hi-foam" class="button is-light-blue w-button">learn more</a></div><div class="products_left-image-wrap"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f19d6c2c22a750e93c8e8_pure_hi-foam.webp" loading="lazy" alt="" class="products_left-image"/></div></div><div class="products_content-right"><div class="products_right-top"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/67607e2065dab99af75da9d8_Hi-Foam.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/67607e2065dab99af75da9d8_Hi-Foam-p-500.jpg 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/67607e2065dab99af75da9d8_Hi-Foam.jpg 602w" class="products_right-image radius-primary"/></div><div class="products_right-bottom radius-primary"><div class="products_description text-size-large">A high-foaming cleaner specifically designed for large areas that require intensive sanitation. Its rich foam effectively cleans and sanitizes expansive surfaces, making it ideal for deep cleaning tasks in environments demanding thorough cleanliness.</div><div class="rich-text_bullet-points w-richtext"><ul role="list"><li>Long-lasting foam</li><li>Reaches difficult areas</li><li>Reduces labor effort</li><li>Non-corrosive to equipment</li><li>Suitable for use on all food and non-food contact surfaces</li><li>Ideal for food facilities</li></ul></div></div></div></div></div><div custom-style="product-image" role="listitem" class="products_content-item w-dyn-item"><div class="products_content-item-wrap"><div class="products_content-left radius-primary"><div class="products_content-heading-wrap"><div class="products_content-heading small-headline w-embed">PURE<br>Multi-Purpose Cleaner</div><a href="/pure-bioscience-products/pure-multi-purpose" class="button is-light-blue w-button">learn more</a></div><div class="products_left-image-wrap"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f19e51a2acc4b75beacfe_pure_multi-purpose.webp" loading="lazy" alt="" class="products_left-image"/></div></div><div class="products_content-right"><div class="products_right-top"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f46dd2efd018f19e050a8_AdobeStock_458139140.webp" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f46dd2efd018f19e050a8_AdobeStock_458139140-p-500.webp 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f46dd2efd018f19e050a8_AdobeStock_458139140-p-800.webp 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f46dd2efd018f19e050a8_AdobeStock_458139140-p-1080.webp 1080w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f46dd2efd018f19e050a8_AdobeStock_458139140.webp 1200w" class="products_right-image radius-primary"/></div><div class="products_right-bottom radius-primary"><div class="products_description text-size-large">A versatile cleaner designed for both general maintenance and deep cleaning tasks. It effectively tackles a wide range of cleaning needs, making it ideal for maintaining cleanliness across various surfaces and environments.</div><div class="rich-text_bullet-points w-richtext"><ul role="list"><li>Multi-surface use</li><li>Reduces inventory needs</li><li>No strong odors</li><li>Non-corrosive</li><li>Minimal residue</li><li>Easy application</li></ul></div></div></div></div></div><div custom-style="product-image" role="listitem" class="products_content-item w-dyn-item"><div class="products_content-item-wrap"><div class="products_content-left radius-primary"><div class="products_content-heading-wrap"><div class="products_content-heading small-headline w-embed">PURE<br>Clean</div><a href="#" class="button is-light-blue w-condition-invisible w-button">learn more</a></div><div class="products_left-image-wrap"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/683899c9c9d7b8c1bab5bc5c_CLEAN%2520Sell%2520Sheet%2520Final-2%201.png" loading="lazy" alt="" class="products_left-image"/></div></div><div class="products_content-right"><div class="products_right-top"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f46dd2efd018f19e050a8_AdobeStock_458139140.webp" loading="lazy" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f46dd2efd018f19e050a8_AdobeStock_458139140-p-500.webp 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f46dd2efd018f19e050a8_AdobeStock_458139140-p-800.webp 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f46dd2efd018f19e050a8_AdobeStock_458139140-p-1080.webp 1080w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/674f46dd2efd018f19e050a8_AdobeStock_458139140.webp 1200w" class="products_right-image radius-primary"/></div><div class="products_right-bottom radius-primary"><div class="products_description text-size-large">PURE Clean is an eco-friendly foaming cleaner for high-traffic food and beverage areas. Pairs with PURE® HARD SURFACE DISINFECTANT for full sanitation.</div><div class="rich-text_bullet-points w-richtext"><ul role="list"><li>Boosts Efficiency with a system-first cleaning approach</li><li>Strong Foam Coverage reaches vertical and tough spots</li><li>No Residue reduces contamination and buildup risk</li><li>Reduces Downtime with quick-rinse formula</li><li>Supports Disinfection by enhancing PURE’s SDC-based products</li><li>Lifts Tough Soils for deeper, more reliable cleaning</li></ul></div></div></div></div></div></div></div></div></div></div></section><section class="section-partner section-padding-large"><div id="partners" class="nav-anchor partners"></div><div class="container"><div class="partner-component"><h2 class="partner-heading small-headline">Trusted by<br/>industry leaders</h2><div class="hide w-embed"><!--<style>
+@media (min-width: 768px) {
+.partner-item:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.partner-item:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.partner-item:nth-child(3) {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.partner-item:nth-child(4) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.partner-item:nth-child(5) {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.partner-item:nth-child(6) {
+  grid-column: 4;
+  grid-row: 2;
+}
+}
+</style> -->
+<style>
+@media (min-width: 768px) {
+
+  .partner-item:nth-child(6n+1) {
+    grid-column: 1;
+    grid-row: span 1;
+  }
+
+  .partner-item:nth-child(6n+2) {
+    grid-column: 2;
+    grid-row: span 1;
+  }
+
+  .partner-item:nth-child(6n+3) {
+    grid-column: 3;
+    grid-row: span 1;
+  }
+
+  .partner-item:nth-child(6n+4) {
+    grid-column: 2;
+    grid-row: span 1;
+  }
+
+  .partner-item:nth-child(6n+5) {
+    grid-column: 3;
+    grid-row: span 1;
+  }
+
+  .partner-item:nth-child(6n+6) {
+    grid-column: 4;
+    grid-row: span 1;
+  }
+}
+</style></div><div class="w-dyn-list"><div role="list" class="partner-list w-dyn-items"><div role="listitem" class="partner-item radius-primary w-dyn-item"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/67656400ff91e4b55c649b2d_Zee%20Company%202024%20Full%20Color.png" loading="lazy" alt="Zee Company" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/67656400ff91e4b55c649b2d_Zee%20Company%202024%20Full%20Color-p-500.png 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/67656400ff91e4b55c649b2d_Zee%20Company%202024%20Full%20Color-p-800.png 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/67656400ff91e4b55c649b2d_Zee%20Company%202024%20Full%20Color-p-1080.png 1080w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/67656400ff91e4b55c649b2d_Zee%20Company%202024%20Full%20Color-p-1600.png 1600w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/67656400ff91e4b55c649b2d_Zee%20Company%202024%20Full%20Color-p-2000.png 2000w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/67656400ff91e4b55c649b2d_Zee%20Company%202024%20Full%20Color.png 2983w" class="partner-logo"/></div><div role="listitem" class="partner-item radius-primary w-dyn-item"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6739297e674374d3201c07c4_Taylor_Farms_Logo-1%201%20(2).webp" loading="lazy" alt="Taylor Farms" class="partner-logo"/></div><div role="listitem" class="partner-item radius-primary w-dyn-item"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/692746a79f063fd80d73d593_Bonsai_Logo_Text_Bluse_Upscaled_PNG.webp" loading="lazy" alt="Safe Foods Chemical Innovations" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/692746a79f063fd80d73d593_Bonsai_Logo_Text_Bluse_Upscaled_PNG-p-500.webp 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/692746a79f063fd80d73d593_Bonsai_Logo_Text_Bluse_Upscaled_PNG-p-800.webp 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/692746a79f063fd80d73d593_Bonsai_Logo_Text_Bluse_Upscaled_PNG-p-1080.webp 1080w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/692746a79f063fd80d73d593_Bonsai_Logo_Text_Bluse_Upscaled_PNG-p-1600.webp 1600w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/692746a79f063fd80d73d593_Bonsai_Logo_Text_Bluse_Upscaled_PNG-p-2000.webp 2000w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/692746a79f063fd80d73d593_Bonsai_Logo_Text_Bluse_Upscaled_PNG-p-2600.webp 2600w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/692746a79f063fd80d73d593_Bonsai_Logo_Text_Bluse_Upscaled_PNG.webp 3187w" class="partner-logo"/></div><div role="listitem" class="partner-item radius-primary w-dyn-item"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6741f78dda544c0f4ead3f31_Chipotle%20(3).webp" loading="lazy" alt="Chipotle" class="partner-logo"/></div><div role="listitem" class="partner-item radius-primary w-dyn-item"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6739296b674374d3201bfea7_Hydrite%20(2).webp" loading="lazy" alt="Hydrite" class="partner-logo"/></div><div role="listitem" class="partner-item radius-primary w-dyn-item"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/673929647434df4803234532_Afco%201%20(2).png" loading="lazy" alt="AFCO" class="partner-logo"/></div><div role="listitem" class="partner-item radius-primary w-dyn-item"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f5eac9f3262e20be488f_Color-Horizontal-300dpi.png" loading="lazy" alt="Chemstation" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f5eac9f3262e20be488f_Color-Horizontal-300dpi-p-500.png 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f5eac9f3262e20be488f_Color-Horizontal-300dpi-p-800.png 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f5eac9f3262e20be488f_Color-Horizontal-300dpi-p-1080.png 1080w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f5eac9f3262e20be488f_Color-Horizontal-300dpi-p-1600.png 1600w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f5eac9f3262e20be488f_Color-Horizontal-300dpi-p-2000.png 2000w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f5eac9f3262e20be488f_Color-Horizontal-300dpi.png 2886w" class="partner-logo"/></div><div role="listitem" class="partner-item radius-primary w-dyn-item"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f621fc6d52e2fd0cb9e1_Madison%20Chemical.png" loading="lazy" alt="Madison Chemical" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f621fc6d52e2fd0cb9e1_Madison%20Chemical-p-500.png 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f621fc6d52e2fd0cb9e1_Madison%20Chemical-p-800.png 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f621fc6d52e2fd0cb9e1_Madison%20Chemical.png 874w" class="partner-logo"/></div><div role="listitem" class="partner-item radius-primary w-dyn-item"><img src="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f813ca973bc679638252_Quip%20Labs.png" loading="lazy" alt="Quip Labs" sizes="100vw" srcset="https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f813ca973bc679638252_Quip%20Labs-p-500.png 500w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f813ca973bc679638252_Quip%20Labs-p-800.png 800w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f813ca973bc679638252_Quip%20Labs-p-1080.png 1080w, https://cdn.prod.website-files.com/6735f5aaf2245590b74d6d71/6773f813ca973bc679638252_Quip%20Labs.png 1144w" class="partner-logo"/></div></div></div></div></div></section><section class="section-cs"><div id="studies" class="nav-anchor"></div><div style="display:none" class="cs_lightbox-overlay"></div><div class="container overflow-hidden"><div class="cs-component"><h2 class="cs-heading big-headline">Case studies</h2><div class="lightbox-wrapper section"><div class="swiper is-cs radius-primary w-dyn-list"><div role="list" class="swiper-wrapper is-cs w-dyn-items"><div custom-style="case-study" style="background-color:#c7d8d7" role="listitem" class="swiper-slide is--cms-item w-dyn-item"><div class="hide w-embed"><style>
+.swiper-slide.is--cms-item:nth-child(1) { 
+.cs_lightbox-gradient.top {background: linear-gradient(0deg, #c7d8d700 0%, #c7d8d7BD 24%, #c7d8d7 91%);}
+.cs_lightbox-gradient.bottom {background: linear-gradient(180deg, #c7d8d700 0%, #c7d8d7BD 24%, #c7d8d7 91%);}
+}
+
+.swiper-slide.is--cms-item:nth-child(2) {
+
+.cs_lightbox-gradient.top {background: linear-gradient(0deg, #9fb5c300 0%, #9fb5c3BD 24%, #9fb5c3 91%);}
+.cs_lightbox-gradient.bottom {background: linear-gradient(180deg, #9fb5c300 0%, #9fb5c3BD 24%, #9fb5c3 91%);}
+}
+
+.swiper-slide.is--cms-item:nth-child(3) {
+.cs_lightbox-gradient.top {background: linear-gradient(0deg, #b9e1d200 0%, #b9e1d2BD 24%, #b9e1d2 91%);}
+.cs_lightbox-gradient.bottom {background: linear-gradient(180deg, #b9e1d200 0%, #b9e1d2BD 24%, #b9e1d2 91%);}
+}
+</style>
+<!--<style>
+[custom-style="case-study"] .cs_lightbox-gradient.top{
+    background-color: #c7d8d7;
+}
+</style>--></div><div class="cs_slider-subheading text-highlight">Chipotle Adopts PURE® Hard Surface Disinfectant to Enhance Food Safety</div><div class="swiper_slide-wrap"><h3 class="cs_slider-heading small-headline">Chipotle</h3><h3 class="cs_slider-heading small-headline _2">PURE Hard Surface</h3><div class="cs_slider-text text-highlight">A short description. Overview:</div><div class="cs_slider-body text-size-medium w-richtext"><p>After Norovirus and other pathogen outbreaks harmed its reputation and customer trust, Chipotle Mexican Grill sought a user-friendly solution to eliminate pathogens and prevent future contamination in its 2,100+ restaurants.</p></div><a data-w-id="ec0bba0d-eec1-4f77-fcfc-d3b9551bd7b3" href="#" class="cs_slider-button button w-button">read more</a></div><div style="display:none" class="cs_lightbox"><div class="cs_lightbox-component section"><div style="background-color:#c7d8d7" class="cs_lightbox-content-wrap radius-primary"><div class="cs_lightbox-gradient top radius-primary w-embed"><!--<style>
+.cs_lightbox-gradient.top{background-image: linear-gradient(0deg, #c7d8d700 0%, #c7d8d7BD 24%, #c7d8d7 91%);
+
+</style>--></div><div class="cs_lightbox-content"><div class="cs_lightbox-heading big-headline">Chipotle</div><div class="cs_lightbox-heading big-headline">PURE Hard Surface</div><div class="cs_lightbox-subheading text-highlight">Chipotle Adopts PURE® Hard Surface Disinfectant to Enhance Food Safety</div><div class="cs_lightbox-body w-richtext"><p><strong>Problem</strong><br/><br/>Chipotle Mexican Grill faced significant food safety challenges after outbreaks of Norovirus and other pathogens, which impacted the company’s reputation and customer trust. Chipotle needed an effective, user-friendly solution to eliminate pathogens and prevent future contamination in its 2,100+ restaurant locations.</p><p><strong>Solution</strong><br/><br/>In 2016, Chipotle implemented PURE® Hard Surface disinfectant, an SDC-based (Silver Dihydrogen Citrate) antimicrobial solution, as part of its enhanced restaurant procedures. This disinfectant was chosen to eliminate and prevent Norovirus, <em>E. coli</em>, <em>Salmonella</em>, and <em>Listeria</em>. </p><p><strong>Result</strong><br/><br/>Chipotle’s adoption of PURE® Hard Surface disinfectant became a critical component of its eight-step food safety program. This move helped Chipotle reinforce its commitment to industry-leading food safety standards. The SDC-based technology, recognized for its efficacy and user-friendly nature, played a vital role in restoring consumer confidence and protecting the brand from future contamination risks. Under the leadership of Dr. James L. Marsden, Chipotle established state-of-the-art sanitation procedures that safeguard both the supply chain and restaurant operations, ensuring a safer dining experience for customers.</p></div><div class="w-embed"><style>
+@media (min-width: 768px) {
+/* For WebKit browsers (Chrome, Safari, Edge) */
+.cs_lightbox-content::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    z-index:3;
+}
+}
+
+@media (max-width: 767px) {
+.cs_lightbox-content::-webkit-scrollbar {
+    width: 5px;
+}}
+
+.cs_lightbox-content::-webkit-scrollbar-track {
+    background: var(--background-color--background-transparent); /* Track color */
+    border-radius: 50px; /* Track border radius */
+}
+
+.cs_lightbox-content::-webkit-scrollbar-thumb {
+    background: var(--base-color-neutral--white); /* Scrollbar color */
+    border-radius: 50px; /* Thumb border radius */
+}
+
+.cs_lightbox-content::-webkit-scrollbar-thumb:hover {
+    background: ; /* Thumb color on hover */
+}
+</style></div><a data-w-id="3caee48c-a791-9c67-3afc-9585ca774250" href="#" class="lightbox_x button w-button">close</a></div><div class="cs_lightbox-gradient bottom radius-primary w-embed"><!--<style>
+.cs_lightbox-gradient.bottom{ background: linear-gradient(180deg, #c7d8d700 0%, #c7d8d7BD 24%, #c7d8d7 91%);}
+</style>--></div></div></div></div></div><div custom-style="case-study" style="background-color:#9fb5c3" role="listitem" class="swiper-slide is--cms-item w-dyn-item"><div class="hide w-embed"><style>
+.swiper-slide.is--cms-item:nth-child(1) { 
+.cs_lightbox-gradient.top {background: linear-gradient(0deg, #c7d8d700 0%, #c7d8d7BD 24%, #c7d8d7 91%);}
+.cs_lightbox-gradient.bottom {background: linear-gradient(180deg, #c7d8d700 0%, #c7d8d7BD 24%, #c7d8d7 91%);}
+}
+
+.swiper-slide.is--cms-item:nth-child(2) {
+
+.cs_lightbox-gradient.top {background: linear-gradient(0deg, #9fb5c300 0%, #9fb5c3BD 24%, #9fb5c3 91%);}
+.cs_lightbox-gradient.bottom {background: linear-gradient(180deg, #9fb5c300 0%, #9fb5c3BD 24%, #9fb5c3 91%);}
+}
+
+.swiper-slide.is--cms-item:nth-child(3) {
+.cs_lightbox-gradient.top {background: linear-gradient(0deg, #b9e1d200 0%, #b9e1d2BD 24%, #b9e1d2 91%);}
+.cs_lightbox-gradient.bottom {background: linear-gradient(180deg, #b9e1d200 0%, #b9e1d2BD 24%, #b9e1d2 91%);}
+}
+</style>
+<!--<style>
+[custom-style="case-study"] .cs_lightbox-gradient.top{
+    background-color: #9fb5c3;
+}
+</style>--></div><div class="cs_slider-subheading text-highlight">Enhancing Pathogen Control on Strawberries with PURE Control</div><div class="swiper_slide-wrap"><h3 class="cs_slider-heading small-headline">Strawberry Processor</h3><h3 class="cs_slider-heading small-headline _2">PURE Control</h3><div class="cs_slider-text text-highlight">A short description. Overview:</div><div class="cs_slider-body text-size-medium w-richtext"><p>A major strawberry processor (would like to remain anonymous) struggled to control surface pathogens like <em>Salmonella</em> spp. and <em>Listeria monocytogenes</em>. Traditional sanitation methods failed to achieve the required log reductions, raising concerns about food safety and product quality.</p></div><a data-w-id="ec0bba0d-eec1-4f77-fcfc-d3b9551bd7b3" href="#" class="cs_slider-button button w-button">read more</a></div><div style="display:none" class="cs_lightbox"><div class="cs_lightbox-component section"><div style="background-color:#9fb5c3" class="cs_lightbox-content-wrap radius-primary"><div class="cs_lightbox-gradient top radius-primary w-embed"><!--<style>
+.cs_lightbox-gradient.top{background-image: linear-gradient(0deg, #9fb5c300 0%, #9fb5c3BD 24%, #9fb5c3 91%);
+
+</style>--></div><div class="cs_lightbox-content"><div class="cs_lightbox-heading big-headline">Strawberry Processor</div><div class="cs_lightbox-heading big-headline">PURE Control</div><div class="cs_lightbox-subheading text-highlight">Enhancing Pathogen Control on Strawberries with PURE Control</div><div class="cs_lightbox-body w-richtext"><p><strong>Problem</strong>‍</p><p>A major strawberry processor faced challenges in controlling pathogens, specifically <em>Salmonella spp.</em> and <em>Listeria monocytogenes</em>, on the surface of their produce. Traditional sanitation methods were insufficient for achieving the required log reductions, leading to concerns about food safety and product quality.</p><p><strong>Solution</strong>‍</p><p>The processor implemented PURE Bioscience’s PURE Control, a produce wash solution containing Silver Dihydrogen Citrate (SDC). The wash was applied using an innovative misting system at a low concentration of 15 ppm, ensuring effective coverage with minimal chemical use. Strawberries were treated for 15 and 30 seconds, and pathogen levels were monitored post-treatment to assess the efficacy of PURE Control in reducing contamination.</p><p><strong>Result</strong>‍</p><p>The treatment achieved significant reductions in pathogens. For samples inoculated with <em>Salmonella spp.</em>, reductions of 2.71 log10 CFU/sample after 15 seconds and 3.00 log10 CFU/sample after 30 seconds were observed. <em>Listeria monocytogenes</em> reductions were even higher, with 3.33 log10 CFU/sample after 15 seconds and 3.78 log10 CFU/sample after 30 seconds. These results exceeded the industry-standard minimum log reduction of 2.0, demonstrating PURE Control’s superior effectiveness in pathogen control. By using PURE’s low-ppm, cost-effective solution, the processor not only ensured food safety but also optimized operational efficiency.</p></div><div class="w-embed"><style>
+@media (min-width: 768px) {
+/* For WebKit browsers (Chrome, Safari, Edge) */
+.cs_lightbox-content::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    z-index:3;
+}
+}
+
+@media (max-width: 767px) {
+.cs_lightbox-content::-webkit-scrollbar {
+    width: 5px;
+}}
+
+.cs_lightbox-content::-webkit-scrollbar-track {
+    background: var(--background-color--background-transparent); /* Track color */
+    border-radius: 50px; /* Track border radius */
+}
+
+.cs_lightbox-content::-webkit-scrollbar-thumb {
+    background: var(--base-color-neutral--white); /* Scrollbar color */
+    border-radius: 50px; /* Thumb border radius */
+}
+
+.cs_lightbox-content::-webkit-scrollbar-thumb:hover {
+    background: ; /* Thumb color on hover */
+}
+</style></div><a data-w-id="3caee48c-a791-9c67-3afc-9585ca774250" href="#" class="lightbox_x button w-button">close</a></div><div class="cs_lightbox-gradient bottom radius-primary w-embed"><!--<style>
+.cs_lightbox-gradient.bottom{ background: linear-gradient(180deg, #9fb5c300 0%, #9fb5c3BD 24%, #9fb5c3 91%);}
+</style>--></div></div></div></div></div><div custom-style="case-study" style="background-color:#b9e1d2" role="listitem" class="swiper-slide is--cms-item w-dyn-item"><div class="hide w-embed"><style>
+.swiper-slide.is--cms-item:nth-child(1) { 
+.cs_lightbox-gradient.top {background: linear-gradient(0deg, #c7d8d700 0%, #c7d8d7BD 24%, #c7d8d7 91%);}
+.cs_lightbox-gradient.bottom {background: linear-gradient(180deg, #c7d8d700 0%, #c7d8d7BD 24%, #c7d8d7 91%);}
+}
+
+.swiper-slide.is--cms-item:nth-child(2) {
+
+.cs_lightbox-gradient.top {background: linear-gradient(0deg, #9fb5c300 0%, #9fb5c3BD 24%, #9fb5c3 91%);}
+.cs_lightbox-gradient.bottom {background: linear-gradient(180deg, #9fb5c300 0%, #9fb5c3BD 24%, #9fb5c3 91%);}
+}
+
+.swiper-slide.is--cms-item:nth-child(3) {
+.cs_lightbox-gradient.top {background: linear-gradient(0deg, #b9e1d200 0%, #b9e1d2BD 24%, #b9e1d2 91%);}
+.cs_lightbox-gradient.bottom {background: linear-gradient(180deg, #b9e1d200 0%, #b9e1d2BD 24%, #b9e1d2 91%);}
+}
+</style>
+<!--<style>
+[custom-style="case-study"] .cs_lightbox-gradient.top{
+    background-color: #b9e1d2;
+}
+</style>--></div><div class="cs_slider-subheading text-highlight">Eliminates Environmental Contamination with PURE Hard Surface</div><div class="swiper_slide-wrap"><h3 class="cs_slider-heading small-headline">Dairy Plant </h3><h3 class="cs_slider-heading small-headline _2">PURE Hard Surface</h3><div class="cs_slider-text text-highlight">A short description. Overview:</div><div class="cs_slider-body text-size-medium w-richtext"><p>A dairy processing plant faced ongoing bacterial contamination in a processing room and sought a user-friendly, more efficient, and cost-effective alternative to Chlorine Dioxide Gas for remediation.</p></div><a data-w-id="ec0bba0d-eec1-4f77-fcfc-d3b9551bd7b3" href="#" class="cs_slider-button button w-button">read more</a></div><div style="display:none" class="cs_lightbox"><div class="cs_lightbox-component section"><div style="background-color:#b9e1d2" class="cs_lightbox-content-wrap radius-primary"><div class="cs_lightbox-gradient top radius-primary w-embed"><!--<style>
+.cs_lightbox-gradient.top{background-image: linear-gradient(0deg, #b9e1d200 0%, #b9e1d2BD 24%, #b9e1d2 91%);
+
+</style>--></div><div class="cs_lightbox-content"><div class="cs_lightbox-heading big-headline">Dairy Plant </div><div class="cs_lightbox-heading big-headline">PURE Hard Surface</div><div class="cs_lightbox-subheading text-highlight">Eliminates Environmental Contamination with PURE Hard Surface</div><div class="cs_lightbox-body w-richtext"><p><strong>Problem</strong>‍</p><p>A dairy processing plant faced persistent environmental contamination in one of its processing rooms, leading to repeated bacterial hits. The plant initially considered using Chlorine Dioxide Gas for remediation, but sought an alternative solution that was equally effective, more efficient, and cost-effective without the health concerns of Chlorine Dioxide.</p><p><strong>Solution</strong>‍</p><p>PURE Bioscience’s expert team was consulted to evaluate the situation. After assessing the plant’s findings and previous remediation efforts, PURE Bioscience recommended misting PURE Hard Surface disinfectant to eliminate the bacterial contamination. PURE Bioscience provided the treatment service at no cost to the plant, demonstrating their commitment to customer support.</p><p><strong>Result</strong>‍</p><p>PURE Hard Surface treatment was completed in just two hours, minimizing downtime. Due to the nature of PURE Hard Surface, no additional downtime was required for quarantining, airing out, or re-cleaning the facility—steps that would have been mandatory with Chlorine Dioxide Gas for equipment and human safety. The total cost of treatment with PURE Hard Surface was under $200, compared to the $18,000 to $36,000 quoted for Chlorine Dioxide treatment. By using PURE Hard Surface, the dairy plant successfully eliminated its contamination issues, improved safety, avoided unnecessary downtime, and saved thousands of dollars in labor and treatment costs.</p></div><div class="w-embed"><style>
+@media (min-width: 768px) {
+/* For WebKit browsers (Chrome, Safari, Edge) */
+.cs_lightbox-content::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    z-index:3;
+}
+}
+
+@media (max-width: 767px) {
+.cs_lightbox-content::-webkit-scrollbar {
+    width: 5px;
+}}
+
+.cs_lightbox-content::-webkit-scrollbar-track {
+    background: var(--background-color--background-transparent); /* Track color */
+    border-radius: 50px; /* Track border radius */
+}
+
+.cs_lightbox-content::-webkit-scrollbar-thumb {
+    background: var(--base-color-neutral--white); /* Scrollbar color */
+    border-radius: 50px; /* Thumb border radius */
+}
+
+.cs_lightbox-content::-webkit-scrollbar-thumb:hover {
+    background: ; /* Thumb color on hover */
+}
+</style></div><a data-w-id="3caee48c-a791-9c67-3afc-9585ca774250" href="#" class="lightbox_x button w-button">close</a></div><div class="cs_lightbox-gradient bottom radius-primary w-embed"><!--<style>
+.cs_lightbox-gradient.bottom{ background: linear-gradient(180deg, #b9e1d200 0%, #b9e1d2BD 24%, #b9e1d2 91%);}
+</style>--></div></div></div></div></div></div></div><a aria-label="previous-slide" href="#" class="swiper-button swiper-cs-prev w-inline-block"><div class="swiper_button-icon left w-embed"><svg width="100%" height="100%" viewBox="0 0 92 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.511719 48.0037L87.3394 48.0037" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M43.1924 1.19946L89.9966 48.0037L43.1924 94.8079" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"/>
+</svg></div></a><a aria-label="next-slide" href="#" class="swiper-button swiper-cs-next w-inline-block"><div class="swiper_button-icon w-embed"><svg width="100%" height="100%" viewBox="0 0 92 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.511719 48.0037L87.3394 48.0037" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M43.1924 1.19946L89.9966 48.0037L43.1924 94.8079" stroke="currentColor" stroke-width="2" stroke-miterlimit="10"/>
+</svg></div></a></div></div></div></section><section class="section-pure vertical-padding-large"><div class="container"><div class="pure-component"><div id="w-node-_4bca9acb-7aff-7688-6606-f5b5a7ccaf25-b2f668db" class="pure_image-wrap"><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/674f5707c5068ecf19dee2af_AdobeStock_346056282.webp" loading="lazy" alt="" class="pure-image radius-primary"/></div><div class="pure_content-wrap"><div class="pure_heading-wrap"><div class="pure-icon w-embed"><svg width="100%" height="100%" viewBox="0 0 110 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M109.259 75.4192C109.301 75.2719 109.333 75.12 109.37 74.9727C109.416 74.7932 109.462 74.609 109.499 74.4295C109.54 74.2408 109.577 74.0475 109.614 73.8588C109.641 73.7115 109.673 73.5642 109.696 73.4169C109.733 73.2097 109.761 73.0026 109.793 72.7909C109.811 72.6528 109.834 72.5193 109.848 72.3812C109.876 72.1741 109.894 71.967 109.913 71.7552C109.926 71.6125 109.94 71.4699 109.949 71.3272C109.963 71.1292 109.972 70.9359 109.982 70.738C109.991 70.5815 109.995 70.4204 110 70.2639C110 70.0844 110 69.9095 110 69.73C110 69.5504 110 69.3755 110 69.196C110 69.0395 109.986 68.8784 109.982 68.7219C109.972 68.524 109.963 68.3307 109.949 68.1328C109.94 67.9901 109.926 67.8474 109.913 67.7047C109.894 67.4975 109.871 67.2858 109.848 67.0787C109.83 66.9406 109.811 66.8071 109.793 66.669C109.765 66.4619 109.733 66.2502 109.696 66.043C109.673 65.8957 109.641 65.7484 109.614 65.6012C109.577 65.4124 109.54 65.2191 109.499 65.0304C109.457 64.8463 109.411 64.6668 109.37 64.4873C109.333 64.34 109.296 64.1881 109.259 64.0408C109.19 63.7876 109.117 63.539 109.039 63.2905C109.016 63.2168 108.997 63.1478 108.974 63.0742C107.576 58.6922 104.788 54.7199 100.736 51.8799C94.8251 47.7373 87.5712 46.9502 81.228 49.1135C74.6686 51.3506 67.4331 50.3425 61.7569 46.3656C55.7035 42.1263 52.1386 35.0885 52.525 27.7008C52.985 18.9461 49.0614 10.1546 41.352 4.75535C29.466 -3.57131 13.0768 -0.680685 4.75571 11.2178C-3.56999 23.1117 -0.681296 39.5119 11.2093 47.8385C18.9186 53.2377 28.5139 53.9236 36.5774 50.4944C43.3805 47.6038 51.2095 48.5474 57.2629 52.7913C62.8241 56.6899 66.2187 62.9637 66.4901 69.7346C66.2187 76.5054 62.8241 82.7792 57.2629 86.6778C51.2095 90.9171 43.3805 91.8653 36.5774 88.9747C28.5139 85.5455 18.914 86.2314 11.2093 91.6306C-0.681296 99.9572 -3.56999 116.357 4.75571 128.251C13.0814 140.15 29.466 143.04 41.3566 134.709C49.066 129.31 52.9896 120.518 52.5296 111.764C52.1432 104.381 55.7081 97.3428 61.7615 93.0989C67.4377 89.122 74.6732 88.1094 81.2326 90.351C87.5758 92.5143 94.8297 91.7272 100.741 87.5846C104.793 84.7446 107.58 80.7677 108.979 76.3904C109.002 76.3167 109.02 76.2477 109.043 76.174C109.121 75.9255 109.195 75.6723 109.264 75.4238L109.259 75.4192Z" fill="currentColor"/>
+<path d="M86.2461 33.0484C95.3637 33.0484 102.755 25.6523 102.755 16.5286C102.755 7.40497 95.3637 0.00878906 86.2461 0.00878906C77.1286 0.00878906 69.7373 7.40497 69.7373 16.5286C69.7373 25.6523 77.1286 33.0484 86.2461 33.0484Z" fill="currentColor"/>
+</svg></div><h2 class="pure-heading big-headline">Why switch<br/>to pure?</h2></div><p class="pure-description text-size-large">Switching to PURE provides long-term value in food manufacturing and processing. While cheaper options may lower upfront costs, they lack PURE’s proven effectiveness, leading to more frequent applications, downtime, and higher labor costs. PURE’s EPA-registered, non-corrosive formula protects equipment, reduces contamination risks, and ensures compliance with food safety regulations, avoiding recalls and quality issues.</p><a href="/explore-more" class="button is-big w-button">find out more</a></div></div></div></section><section id="contact" class="section-contact"><div class="container"><div class="contact-component radius-primary"><h2 class="contact-heading big-headline">Contact us</h2><div class="contact_content-wrapper"><p class="contact-description text-size-large">If you’re looking for more info or have any questions, just fill out the form below, and we’ll make sure the right person from PURE Bioscience or one of our distributors gets in touch. We’re here to help you find the right antimicrobial solution for your needs—<br/>let us know how we can assist!</p><div class="contact_form-wrapper"><div class="hide w-embed w-script"><style>
+  .checkbox-field.checkbox-1.is-active {
+    background-color: #B9E1D2 !important;
+    border: 2px solid #B9E1D2;
+  }
+  .checkbox-field.checkbox-2.is-active {
+    background-color: #C7D8D7 !important;
+		border: 2px solid #C7D8D7;
+  }
+  .checkbox-field.checkbox-3.is-active {
+    background-color: #59C7E1 !important;	
+    border: 2px solid #59C7E1;
+  }
+  .checkbox-field.checkbox-4.is-active {
+    background-color: #8CA0D7 !important;	
+    border: 2px solid #8CA0D7;
+  }
+  .checkbox-field.checkbox-5.is-active {
+    background-color: var(--base-color-brand--green-light) !important;	
+    border: 2px solid var(--base-color-brand--green-light);
+  }
+
+.select-list::-webkit-scrollbar-track {
+    background: var(--background-color--background-transparent); /* Track color */ 
+    border-radius: 50px; /* Track border radius */
+}
+
+.select-list::-webkit-scrollbar-thumb {
+    background: var(--background-color--background-brand); /* Scrollbar color */
+    border-radius: 50px; /* Thumb border radius */
+}
+
+.select-list::-webkit-scrollbar-thumb:hover {
+    background: ; /* Thumb color on hover */
+}
+
+
+
+
+@media (min-width: 768px) {
+
+ /*For WebKit browsers (Chrome, Safari, Edge) */ 
+.select-list::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+}
+
+@media (max-width: 767px) {
+
+ /*For WebKit browsers (Chrome, Safari, Edge) */ 
+.select-list::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+}
+}
+
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const dropdown = document.querySelector('select[name="Distributor"]');
+    const otherInput = document.querySelector('input[name="Other-distributor"]');
+
+    function toggleRequired() {
+      if (dropdown.value === "Other") {
+        otherInput.required = true;
+      } else {
+        otherInput.required = false;
+      }
+    }
+
+    toggleRequired();
+
+    dropdown.addEventListener("change", toggleRequired);
+  });
+</script>
+
+
+
+<script>
+/**
+ * HONEYPOT ANTI-BOT FORM PROTECTION
+ * 
+ * This script implements a honeypot field to prevent bot submissions on a Webflow contact form.
+ * A honeypot is a hidden input field that humans can't see but bots will fill out.
+ * If the honeypot gets filled, we know it's a bot and block the submission.
+ * 
+ * Detection methods:
+ * 1. Honeypot field has any value (bot filled it)
+ * 2. Field was ever filled then cleared (suspicious behavior)
+ * 3. Field was filled and cleared within 300ms (automated pasting detection)
+ */
+
+document.addEventListener("DOMContentLoaded", function () {
+  // --- DOM Element References ---
+  // Get references to all the form elements we need to monitor and control
+  const checkBtn = document.querySelector(".honeypot-check-button"); // Optional: custom check button to prevent native Webflow submission
+  const sendBtn  = document.querySelector(".contact-us-form .contact_form-button"); // The actual submit button that users click
+  const honeypot = document.querySelector(".contact-us-form .honeypot-input"); // The hidden honeypot field (should be invisible to humans via CSS)
+  const form     = document.querySelector(".contact-us-form"); // The form container element
+
+  // Safety check: if critical elements don't exist, exit early to prevent errors
+  if (!sendBtn || !honeypot) return;
+
+  // --- State Variables ---
+  // Track honeypot interaction to identify bot behavior
+  let hpEverFilled = false; // Flag: once the honeypot is filled, it stays marked (even if cleared later)
+  let lastFill = 0, lastClear = 0; // Timestamps to detect suspiciously fast fill-then-clear actions (bot trying to be sneaky)
+  const now = () => Date.now(); // Helper function to get current timestamp in milliseconds
+
+  // --- Helper Functions ---
+  
+  /**
+   * hardDisable() - Permanently disable the submit button
+   * Used when bot behavior is detected to prevent form submission
+   * Sets both the disabled attribute and pointer-events to ensure complete blocking
+   */
+  const hardDisable = () => {
+    sendBtn.setAttribute("disabled", "true"); // Disable the button via HTML attribute
+    sendBtn.style.pointerEvents = "none"; // Prevent any mouse interaction with the button
+  };
+
+  /**
+   * softEnable() - Conditionally re-enable the submit button
+   * Only enables if the honeypot has NEVER been filled and is currently empty
+   * This prevents bots from re-enabling after being detected
+   */
+  const softEnable = () => {
+    if (!hpEverFilled && honeypot.value.trim() === "") {
+      sendBtn.removeAttribute("disabled"); // Remove the disabled attribute
+      sendBtn.style.pointerEvents = ""; // Restore mouse interaction
+    }
+  };
+  
+  /**
+   * isBot() - Main bot detection logic
+   * Returns true if any bot-like behavior is detected:
+   * 1. Honeypot currently has a value (bot filled the hidden field)
+   * 2. Honeypot was ever filled (even if cleared now - suspicious)
+   * 3. Honeypot was filled and cleared within 300ms (automated paste/clear detection)
+   */
+  const isBot = () => {
+    if (honeypot.value.trim() !== "") return true; // Current value check
+    if (hpEverFilled) return true; // Historical check - once a bot, always a bot
+    if (lastFill && lastClear && (lastClear - lastFill) < 300) return true; // Speed check - too fast = automated
+    return false; // Passed all checks, likely human
+  };
+
+  // --- Initial State Check ---
+  // Check if honeypot is already filled on page load (pre-filled by bot or browser autofill)
+  if (honeypot.value.trim() !== "") { 
+    hpEverFilled = true; // Mark as bot activity
+    hardDisable(); // Disable submit button immediately
+  }
+
+  // --- Event Listeners: Monitor Honeypot Field ---
+  
+  /**
+   * INPUT Event - Monitors any changes to the honeypot field
+   * Triggers when user types or field value changes
+   */
+  honeypot.addEventListener("input", () => {
+    const v = honeypot.value.trim();
+    if (v !== "") {
+      // Honeypot was filled - this is bot behavior (humans shouldn't see this field)
+      hpEverFilled = true; // Mark permanently as bot
+      lastFill = now(); // Record timestamp for speed detection
+      hardDisable(); // Block submission
+    } else {
+      // Honeypot was cleared - record timestamp but stay vigilant
+      lastClear = now(); // Record when it was cleared
+      softEnable(); // Try to re-enable (only works if never filled before)
+    }
+  }, { passive: true }); // Passive: improves scroll performance, we don't preventDefault here
+  
+  /**
+   * PASTE Event - Detects paste actions into honeypot
+   * Bots often use paste to fill forms quickly
+   */
+  honeypot.addEventListener("paste", () => { 
+    hpEverFilled = true; // Any paste into honeypot = bot behavior
+    lastFill = now(); // Record timestamp
+    hardDisable(); // Block submission
+  }, { passive: true });
+
+  // --- Submit Prevention: Multiple Layers of Protection ---
+  
+  /**
+   * CLICK Event Interception (Capture Phase)
+   * Intercepts clicks on the submit button BEFORE Webflow processes them
+   * Uses capture phase (true) to run before other handlers
+   */
+  document.addEventListener("click", (e) => {
+    if (e.target === sendBtn && isBot()) {
+      e.preventDefault(); // Stop the default click action
+      e.stopPropagation(); // Prevent event from bubbling to other handlers
+      hardDisable(); // Ensure button stays disabled
+      return false; // Extra safety return
+    }
+  }, true); // Capture phase = runs before bubble phase
+
+  /**
+   * ENTER Key Interception
+   * Prevents form submission via Enter key if bot detected
+   * Excludes textareas (where Enter should create new lines)
+   */
+  (form || document).addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && e.target.tagName !== "TEXTAREA" && isBot()) {
+      e.preventDefault(); // Stop Enter from submitting
+      e.stopPropagation(); // Stop event propagation
+      hardDisable(); // Ensure button stays disabled
+      return false; // Extra safety return
+    }
+  }, true); // Capture phase
+
+  /**
+   * OVERRIDE: HTMLFormElement.requestSubmit()
+   * Webflow often uses requestSubmit() to submit forms programmatically
+   * We override the native method to intercept these calls
+   */
+  const nativeRequestSubmit = HTMLFormElement.prototype.requestSubmit; // Save original method
+  if (nativeRequestSubmit) {
+    HTMLFormElement.prototype.requestSubmit = function () {
+      // Check if this form contains our honeypot and if bot detected
+      if (this.contains(honeypot) && isBot()) { 
+        hardDisable(); // Block submission
+        return; // Exit without calling original method
+      }
+      // If not a bot, call the original requestSubmit method
+      return nativeRequestSubmit.apply(this, arguments);
+    };
+  }
+
+  /**
+   * OVERRIDE: HTMLFormElement.submit()
+   * Some code might call form.submit() directly to bypass requestSubmit
+   * Override this method too for complete protection
+   */
+  const nativeSubmit = HTMLFormElement.prototype.submit; // Save original method
+  HTMLFormElement.prototype.submit = function () {
+    // Check if this form contains our honeypot and if bot detected
+    if (this.contains(honeypot) && isBot()) { 
+      hardDisable(); // Block submission
+      return; // Exit without calling original method
+    }
+    // If not a bot, call the original submit method
+    return nativeSubmit.apply(this, arguments);
+  };
+
+  /**
+   * OPTIONAL: Custom Check Button Handler
+   * If a custom "honeypot-check-button" exists, handle its click
+   * This allows manual control of submission flow instead of native Webflow behavior
+   */
+  if (checkBtn) {
+    checkBtn.addEventListener("click", function (e) {
+      e.preventDefault(); // Prevent default button action
+      if (isBot()) { 
+        hardDisable(); // Block if bot detected
+        return; // Exit early
+      }
+      // If human, proceed with form submission
+      if (form && form.requestSubmit) form.requestSubmit(); // Prefer requestSubmit (modern)
+      else sendBtn.click(); // Fallback: simulate click on submit button
+    });
+  }
+});
+</script></div><h3 class="contact_form-heading small-headline">Let’s talk!</h3><div class="w-form"><form id="wf-form-Contact-Form---Home" name="wf-form-Contact-Form---Home" data-name="Contact Form - Home" method="get" class="form contact-us-form" data-wf-page-id="66dbc36f8e6e09e9b2f668db" data-wf-element-id="9ae62b2e-44f5-69a5-0e43-b94341ec32f0" data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e"><div class="form_fields-wrapper"><div class="form-field honeypot-field"><label for="Honeypot-First-Name">First name &amp; Last name</label><input class="text-field text-size-large honeypot-input w-input" maxlength="256" name="Honeypot-First-Name" data-name="Honeypot First Name" placeholder="Type here" type="text" id="Honeypot-First-Name" tabindex="-1"/></div><div class="form-field"><label for="name">First name &amp; Last name</label><input class="text-field text-size-large w-input" maxlength="256" name="name" data-name="Name" placeholder="Type here" type="text" id="name" required=""/></div><div class="form-field"><label for="Company-name">Company name</label><input class="text-field text-size-large w-input" maxlength="256" name="Company-name" data-name="Company name" placeholder="Type here" type="text" id="Company-name" required=""/></div></div><div class="form_fields-wrapper"><div class="form-field"><label for="Email">Email</label><input class="text-field text-size-large w-input" maxlength="256" name="Email" data-name="Email" placeholder="Type here" type="email" id="Email" required=""/></div><div class="form-field"><label for="Phone-Number">Phone Number</label><input class="text-field text-size-large w-input" maxlength="256" name="Phone-Number" data-name="Phone Number" placeholder="Type here" type="tel" id="Phone-Number" required=""/></div></div><div class="form_fields-wrapper"><div class="form-field"><label for="Industry">Industry</label><div data-delay="0" data-hover="false" fs-selectcustom-hideinitial="true" fs-selectcustom-element="dropdown" class="form-select w-dropdown"><div class="select-toggle text-field text-size-large w-dropdown-toggle"><div class="select-text">Choose</div><div class="select_icon-wrap"><img loading="lazy" src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/673fe80722ee34bf22213418_Group%2021.svg" alt="Downward arrow" class="select_icon"/></div></div><nav class="select_dropdown-list w-dropdown-list"><div class="select-list"><select id="Industry" name="Industry" data-name="Industry" required="" class="select-field w-select"><option value="">Choose</option><option value="Food and Beverage">Food and Beverage</option><option value="Food Service and Hospitality">Food Service and Hospitality</option><option value="Healthcare">Healthcare</option><option value="Facility Care">Facility Care</option><option value="Transportation">Transportation</option><option value="Personal Care">Personal Care</option><option value="Distributors">Distributors</option><option value="Other">Other</option></select><a aria-label="reset options" fs-selectcustom-element="option-reset" href="#" class="select_link-reset w-inline-block"></a><a href="#" class="select-link text-size-large text-field w-dropdown-link">select link</a></div></nav></div></div><div class="form-field"><label for="Location-of-use">Location of use</label><input class="text-field text-size-large w-input" maxlength="256" name="Location-of-use" data-name="Location of use" placeholder="Type here" type="text" id="Location-of-use" required=""/></div></div><div class="form-field"><label for="Email-2">Choose your product(s)</label><div class="checkbox_wrapper"><label class="w-checkbox checkbox-field checkbox-1"><div class="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></div><input type="checkbox" name="PURE-Control" id="PURE-Control" data-name="PURE Control" style="opacity:0;position:absolute;z-index:-1"/><span class="w-form-label" for="PURE-Control">PURE Control</span></label><label class="w-checkbox checkbox-field checkbox-2"><div class="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></div><input type="checkbox" name="PURE-Hard-Surface" id="PURE-Hard-Surface" data-name="PURE Hard Surface" style="opacity:0;position:absolute;z-index:-1"/><span class="w-form-label" for="PURE-Hard-Surface">PURE Hard Surface</span></label><label class="w-checkbox checkbox-field checkbox-2"><div class="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></div><input type="checkbox" name="PURE-Clean" id="PURE-Clean" data-name="PURE Clean" style="opacity:0;position:absolute;z-index:-1"/><span class="w-form-label" for="PURE-Clean">PURE Clean</span></label><label class="w-checkbox checkbox-field checkbox-3"><div class="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></div><input type="checkbox" name="PURE-Hi-foam" id="PURE-Hi-foam" data-name="PURE Hi-foam" style="opacity:0;position:absolute;z-index:-1"/><span class="checkbox-label w-form-label" for="PURE-Hi-foam">PURE Multi-Purpose Hi-Foam Cleaner</span></label><label class="w-checkbox checkbox-field checkbox-4"><div class="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></div><input type="checkbox" name="PURE-Multi-Purpose" id="PURE-Multi-Purpose" data-name="PURE Multi Purpose" style="opacity:0;position:absolute;z-index:-1"/><span class="w-form-label" for="PURE-Multi-Purpose">PURE Multi Purpose Cleaner</span></label><label class="w-checkbox checkbox-field checkbox-5"><div class="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></div><input type="checkbox" name="Not-sure" id="Not-sure" data-name="Not sure" style="opacity:0;position:absolute;z-index:-1"/><span class="w-form-label" for="Not-sure">Not sure</span></label></div><div class="checkbox-error-message"><div>You need to choose an option before submitting.</div></div></div><div class="form_fields-wrapper hidden-field"><div class="form-field"><label for="distributor">Choose your distributor</label><div data-delay="0" data-hover="false" fs-selectcustom-hideinitial="true" fs-selectcustom-element="dropdown" class="form-select w-dropdown"><div class="select-toggle text-field text-size-large w-dropdown-toggle"><div class="select-text">Choose</div><div class="select_icon-wrap"><img loading="lazy" src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/673fe80722ee34bf22213418_Group%2021.svg" alt="Downward arrow" class="select_icon"/></div></div><nav class="select_dropdown-list distributor w-dropdown-list"><div class="select-list choose-distributor"><select id="distributor" name="Distributor" data-name="Distributor" required="" class="select-field w-select"><option value="">Choose</option><option value="AFCO / ZEP">AFCO / ZEP</option><option value="Agrovet">Agrovet</option><option value="Bonsai">Bonsai</option><option value="ChemStation">ChemStation</option><option value="Guard Products">Guard Products</option><option value="Hydrite">Hydrite</option><option value="Madison Chemical Company">Madison Chemical Company</option><option value="Marathon Group LLC">Marathon Group LLC</option><option value="Quip Laboratories">Quip Laboratories</option><option value="SaniMarc">SaniMarc</option><option value="Unisan">Unisan</option><option value="Wesmar Company">Wesmar Company</option><option value="ZEE Company">ZEE Company</option><option value="Other">Other</option></select><a aria-label="reset option" fs-selectcustom-element="option-reset" href="#" class="select_link-reset w-inline-block"></a><a href="/" aria-current="page" class="select-link text-size-large text-field w-dropdown-link w--current">select link</a></div></nav></div></div><input class="text-field text-size-large form_hidden-field w-input" maxlength="256" name="Other-distributor" data-name="Other distributor" placeholder="Type here" type="text" id="other-distributor"/></div><input type="submit" data-wait="Please wait..." id="w-node-_9ae62b2e-44f5-69a5-0e43-b94341ec32f7-b2f668db" class="contact_form-button button w-button" value="Submit"/></form><div class="success-message radius-primary w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="error-message radius-primary w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div></div></div></div></section><section id="chart" class="section-chart vertical-padding-large"><div class="container"><h2 class="chart-heading small-headline">Material Compatibility Chart</h2><div class="chart_info-wrapper text-size-large"><div class="chart_info-item"><div class="chart_list-dot"></div><div>Compatible</div></div><div class="chart_info-item"><div class="chart_list-dot outline"></div><div>Semi-Compatible</div></div><div class="chart_info-item"><div class="chart_list-dot red"></div><div>Incompatible</div></div></div><div class="chart-component"><div class="chart_column"><div class="chart_heading-wrap text-highlight material"><div>Material</div></div><div class="chart_list text-size-large first"><div>304 Stainless</div><div>316 Stainless</div><div>Acryllic Plastic</div><div>Aluminum</div><div>Brass</div><div>Bronze</div><div>Copper</div><div>EDPM</div><div>Galvanized</div><div>HDPE</div><div>LDPE</div><div>PET</div><div>Polycarbonate</div><div>Polypropylene</div><div>Polysolfoneplastic</div><div>Polyurethane</div><div>PVC</div><div>PVDF</div><div>Rubber</div><div>Tedlar</div><div>Viton</div></div></div><div class="chart_column"><div class="chart_heading-wrap text-highlight hard-surface mobile-vertical-text"><div>PURE Hard Surface</div></div><div class="chart_list text-size-large align-center"><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot outline"></div><div class="chart_list-dot outline"></div><div class="chart_list-dot outline"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div></div></div><div class="chart_column"><div class="chart_heading-wrap text-highlight control"><div>PURE Control (RTU)</div></div><div class="chart_list text-size-large align-center"><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot outline"></div><div class="chart_list-dot outline"></div><div class="chart_list-dot outline"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div></div></div><div class="chart_column"><div class="chart_heading-wrap text-highlight hi-foam"><div>PURE Hi-Foam</div></div><div class="chart_list text-size-large align-center"><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div></div></div><div class="chart_column"><div class="chart_heading-wrap text-highlight multi-purpose"><div>PURE Multi Purpose</div></div><div class="chart_list text-size-large align-center last"><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div><div class="chart_list-dot"></div></div></div><div class="chart_hover-wrapper"><div class="chart_hover-state mobile-transparent"></div><div class="chart_hover-state"></div><div class="chart_hover-state mobile-transparent"></div><div class="chart_hover-state"></div><div class="chart_hover-state mobile-transparent"></div><div class="chart_hover-state"></div><div class="chart_hover-state mobile-transparent"></div><div class="chart_hover-state"></div><div class="chart_hover-state mobile-transparent"></div><div class="chart_hover-state"></div><div class="chart_hover-state mobile-transparent"></div><div class="chart_hover-state"></div><div class="chart_hover-state mobile-transparent"></div><div class="chart_hover-state"></div><div class="chart_hover-state mobile-transparent"></div><div class="chart_hover-state"></div><div class="chart_hover-state mobile-transparent"></div><div class="chart_hover-state"></div><div class="chart_hover-state mobile-transparent"></div><div class="chart_hover-state"></div><div class="chart_hover-state mobile-transparent"></div></div></div></div></section></main><footer class="footer section"><div class="container"><div class="footer-component radius-primary"><div class="footer_column-left"><a href="/" aria-current="page" class="footer_logo-wrapper w-inline-block w--current"><div class="footer-logo w-embed"><svg width="100%" height="100%" viewBox="0 0 110 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M109.259 75.4192C109.301 75.2719 109.333 75.12 109.37 74.9727C109.416 74.7932 109.462 74.609 109.499 74.4295C109.54 74.2408 109.577 74.0475 109.614 73.8588C109.641 73.7115 109.673 73.5642 109.696 73.4169C109.733 73.2097 109.761 73.0026 109.793 72.7909C109.811 72.6528 109.834 72.5193 109.848 72.3812C109.876 72.1741 109.894 71.967 109.913 71.7552C109.926 71.6125 109.94 71.4699 109.949 71.3272C109.963 71.1292 109.972 70.9359 109.982 70.738C109.991 70.5815 109.995 70.4204 110 70.2639C110 70.0844 110 69.9095 110 69.73C110 69.5504 110 69.3755 110 69.196C110 69.0395 109.986 68.8784 109.982 68.7219C109.972 68.524 109.963 68.3307 109.949 68.1328C109.94 67.9901 109.926 67.8474 109.913 67.7047C109.894 67.4975 109.871 67.2858 109.848 67.0787C109.83 66.9406 109.811 66.8071 109.793 66.669C109.765 66.4619 109.733 66.2502 109.696 66.043C109.673 65.8957 109.641 65.7484 109.614 65.6012C109.577 65.4124 109.54 65.2191 109.499 65.0304C109.457 64.8463 109.411 64.6668 109.37 64.4873C109.333 64.34 109.296 64.1881 109.259 64.0408C109.19 63.7876 109.117 63.539 109.039 63.2905C109.016 63.2168 108.997 63.1478 108.974 63.0742C107.576 58.6922 104.788 54.7199 100.736 51.8799C94.8251 47.7373 87.5712 46.9502 81.228 49.1135C74.6686 51.3506 67.4331 50.3425 61.7569 46.3656C55.7035 42.1263 52.1386 35.0885 52.525 27.7008C52.985 18.9461 49.0614 10.1546 41.352 4.75535C29.466 -3.57131 13.0768 -0.680685 4.75571 11.2178C-3.56999 23.1117 -0.681296 39.5119 11.2093 47.8385C18.9186 53.2377 28.5139 53.9236 36.5774 50.4944C43.3805 47.6038 51.2095 48.5474 57.2629 52.7913C62.8241 56.6899 66.2187 62.9637 66.4901 69.7346C66.2187 76.5054 62.8241 82.7792 57.2629 86.6778C51.2095 90.9171 43.3805 91.8653 36.5774 88.9747C28.5139 85.5455 18.914 86.2314 11.2093 91.6306C-0.681296 99.9572 -3.56999 116.357 4.75571 128.251C13.0814 140.15 29.466 143.04 41.3566 134.709C49.066 129.31 52.9896 120.518 52.5296 111.764C52.1432 104.381 55.7081 97.3428 61.7615 93.0989C67.4377 89.122 74.6732 88.1094 81.2326 90.351C87.5758 92.5143 94.8297 91.7272 100.741 87.5846C104.793 84.7446 107.58 80.7677 108.979 76.3904C109.002 76.3167 109.02 76.2477 109.043 76.174C109.121 75.9255 109.195 75.6723 109.264 75.4238L109.259 75.4192Z" fill="currentColor"/>
+<path d="M86.2461 33.0484C95.3637 33.0484 102.755 25.6523 102.755 16.5286C102.755 7.40497 95.3637 0.00878906 86.2461 0.00878906C77.1286 0.00878906 69.7373 7.40497 69.7373 16.5286C69.7373 25.6523 77.1286 33.0484 86.2461 33.0484Z" fill="currentColor"/>
+</svg></div></a></div><div class="footer_column-right"><div class="footer_social-links text-highlight"><div>Social:</div><a href="https://www.instagram.com/purebioscienceinc/" target="_blank" class="footer_social-link w-inline-block"><div>Instagram</div></a><div>|</div><a href="https://www.facebook.com/purebioscienceinc" target="_blank" class="footer_social-link w-inline-block"><div>Facebook</div></a><div>|</div><a href="https://www.linkedin.com/company/pure-bioscience/" target="_blank" class="footer_social-link w-inline-block"><div>LinkedIn</div></a></div><h2 class="footer-heading small-headline">Keep your business safe and clean</h2><a href="/explore-more" class="footer-heading small-headline light explore-more">Explore More</a><div class="footer_rights"><div class="footer_rights-text">PURE | <span date-element="year">2024</span> © All rights reserved</div><a href="https://www.brandedbygreenville.com/" target="_blank" class="footer_bbg w-inline-block"><img src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/674b9269c8205c6675bb357b_bbG_icon_day%201.avif" loading="lazy" alt="bbG logo"/></a></div></div></div></div></footer><div class="cw-cookies"><div id="cw-cookie-banner" class="cw-cookie_banner"><div class="cw-cookie_content"><h3 class="cookie_heading">Cookies</h3><p class="cookie_paragraph">We use cookies to improve your experience, analyze traffic, and connect with you through personalized ads. By continuing, you agree to our use of cookies as described in our Privacy Policy.</p><div class="cw-cookie_buttons"><button id="cw-btn-reject-all" class="cw-button_secondary hide"><div>Reject all</div></button><a href="/privacy-policy" class="cw-button_secondary w-inline-block"><div>Learn More</div></a><button data-w-id="b553bde9-ef65-23f2-3060-5724e896a047" class="cw-button_secondary hide"><div>I want to choose</div></button><button id="cw-btn-accept-all" class="cw-button_primary"><div>Accept &amp; Continue</div></button></div><div id="cw-cookie-options" class="cw-cookie_selection hide"><div class="w-form"><form id="email-form" name="email-form" data-name="Email Form" method="get" class="cw-cookie_options" data-wf-page-id="66dbc36f8e6e09e9b2f668db" data-wf-element-id="b553bde9-ef65-23f2-3060-5724e896a04f" data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e"><label class="w-checkbox cw-cookie_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom cw-cookie_checkbox-check w--redirected-checked"></div><input type="checkbox" name="Necessary" id="consent-necessary" data-name="Necessary" style="opacity:0;position:absolute;z-index:-1" checked=""/><span class="w-form-label" for="Necessary">Functionality</span></label><label class="w-checkbox cw-cookie_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom cw-cookie_checkbox-check w--redirected-checked"></div><input type="checkbox" name="Analytics" id="consent-analytics" data-name="Analytics" style="opacity:0;position:absolute;z-index:-1" checked=""/><span class="w-form-label" for="Analytics">Analytics Storage</span></label><label class="w-checkbox cw-cookie_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom cw-cookie_checkbox-check w--redirected-checked"></div><input type="checkbox" name="Marketing" id="consent-ad-marketing" data-name="Marketing" style="opacity:0;position:absolute;z-index:-1" checked=""/><span class="w-form-label" for="Marketing">Ad Storage</span></label><label class="w-checkbox cw-cookie_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom cw-cookie_checkbox-check w--redirected-checked"></div><input type="checkbox" name="Preferences" id="consent-ad-user" data-name="Preferences" style="opacity:0;position:absolute;z-index:-1" checked=""/><span class="w-form-label" for="Preferences">Ad User Data</span></label><label class="w-checkbox cw-cookie_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom cw-cookie_checkbox-check w--redirected-checked"></div><input type="checkbox" name="Preferences" id="consent-ad-personalization" data-name="Preferences" style="opacity:0;position:absolute;z-index:-1" checked=""/><span class="w-form-label" for="Preferences">Ad Personalisation</span></label><label class="w-checkbox cw-cookie_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom cw-cookie_checkbox-check w--redirected-checked"></div><input type="checkbox" name="Preferences" id="consent-personalization" data-name="Preferences" style="opacity:0;position:absolute;z-index:-1" checked=""/><span class="w-form-label" for="Preferences">Personalization Storage</span></label><label class="w-checkbox cw-cookie_checkbox"><div class="w-checkbox-input w-checkbox-input--inputType-custom cw-cookie_checkbox-check w--redirected-checked"></div><input type="checkbox" name="Preferences" id="consent-security" data-name="Preferences" style="opacity:0;position:absolute;z-index:-1" checked=""/><span class="w-form-label" for="Preferences">Security Storage</span></label></form><div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div><button id="cw-btn-accept-some" class="cw-button_secondary"><div>Accept selection</div></button></div></div></div><div id="cw-cookie-icon" class="cw-cookie_icon"><div class="cw-cookie_icon-img w-embed"><svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 22.0001C10.6167 22.0001 9.31667 21.7374 8.1 21.2121C6.88333 20.6868 5.825 19.9744 4.925 19.0751C4.025 18.1751 3.31267 17.1168 2.788 15.9001C2.26333 14.6834 2.00067 13.3834 2 12.0001C2 10.7501 2.24167 9.5251 2.725 8.3251C3.20833 7.1251 3.88333 6.0541 4.75 5.1121C5.61667 4.17077 6.65833 3.41243 7.875 2.8371C9.09167 2.26177 10.425 1.97443 11.875 1.9751C12.225 1.9751 12.5833 1.99177 12.95 2.0251C13.3167 2.05843 13.6917 2.11677 14.075 2.2001C13.925 2.9501 13.975 3.65843 14.225 4.3251C14.475 4.99177 14.85 5.54577 15.35 5.9871C15.85 6.4291 16.446 6.73343 17.138 6.9001C17.83 7.06677 18.5423 7.0251 19.275 6.7751C18.8417 7.75843 18.9043 8.7001 19.463 9.6001C20.0217 10.5001 20.8507 10.9668 21.95 11.0001C21.9667 11.1834 21.9793 11.3541 21.988 11.5121C21.9967 11.6701 22.0007 11.8411 22 12.0251C22 13.3918 21.7373 14.6791 21.212 15.8871C20.6867 17.0951 19.9743 18.1534 19.075 19.0621C18.175 19.9708 17.1167 20.6874 15.9 21.2121C14.6833 21.7368 13.3833 21.9994 12 22.0001ZM10.5 10.0001C10.9167 10.0001 11.271 9.8541 11.563 9.5621C11.855 9.2701 12.0007 8.9161 12 8.5001C12 8.08343 11.854 7.7291 11.562 7.4371C11.27 7.1451 10.916 6.99943 10.5 7.0001C10.0833 7.0001 9.729 7.1461 9.437 7.4381C9.145 7.7301 8.99933 8.0841 9 8.5001C9 8.91677 9.146 9.2711 9.438 9.5631C9.73 9.8551 10.084 10.0008 10.5 10.0001ZM8.5 15.0001C8.91667 15.0001 9.271 14.8541 9.563 14.5621C9.855 14.2701 10.0007 13.9161 10 13.5001C10 13.0834 9.854 12.7291 9.562 12.4371C9.27 12.1451 8.916 11.9994 8.5 12.0001C8.08333 12.0001 7.729 12.1461 7.437 12.4381C7.145 12.7301 6.99933 13.0841 7 13.5001C7 13.9168 7.146 14.2711 7.438 14.5631C7.73 14.8551 8.084 15.0008 8.5 15.0001ZM15 16.0001C15.2833 16.0001 15.521 15.9041 15.713 15.7121C15.905 15.5201 16.0007 15.2828 16 15.0001C16 14.7168 15.904 14.4791 15.712 14.2871C15.52 14.0951 15.2827 13.9994 15 14.0001C14.7167 14.0001 14.479 14.0961 14.287 14.2881C14.095 14.4801 13.9993 14.7174 14 15.0001C14 15.2834 14.096 15.5211 14.288 15.7131C14.48 15.9051 14.7173 16.0008 15 16.0001ZM12 20.0001C14.0333 20.0001 15.8377 19.3001 17.413 17.9001C18.9883 16.5001 19.8507 14.7168 20 12.5501C19.1667 12.1834 18.5123 11.6834 18.037 11.0501C17.5617 10.4168 17.241 9.70843 17.075 8.9251C15.7917 8.74177 14.6917 8.19177 13.775 7.2751C12.8583 6.35843 12.2917 5.25843 12.075 3.9751C10.7417 3.94177 9.57067 4.18343 8.562 4.7001C7.55333 5.21677 6.712 5.87943 6.038 6.6881C5.362 7.4961 4.853 8.3751 4.511 9.3251C4.169 10.2751 3.99867 11.1668 4 12.0001C4 14.2168 4.779 16.1044 6.337 17.6631C7.895 19.2218 9.78267 20.0008 12 20.0001Z" fill="currentColor"/>
+</svg></div></div><div class="cw-cookie_script w-embed w-script"><!-- Cookie Consent Mode by Code & Wander -->
+<script>
+	// Check selection
+  document.getElementById('cw-cookie-icon').addEventListener('click', function() {
+  	setConsentCheckboxes();
+    hideOptions();
+  	document.getElementById('cw-cookie-banner').style.display = 'block';
+  })
+  
+  // Hide Cookie Banner
+  function hideBanner() {
+    document.getElementById('cw-cookie-banner').style.display = 'none';
+  }
+  
+  // Hide more options
+  function hideOptions() {
+  	document.getElementById('cw-cookie-options').style.height = '0px';
+  }
+	
+  // If consentMode has not been set, show Cookie Banner
+  if(localStorage.getItem('consentMode') === null) {
+  	document.getElementById('cw-cookie-banner').style.display = 'block';
+  }
+  
+  //Logic to populate the preferences
+  function setConsentCheckboxes() {
+  	uncheckAllConsentCheckboxes();
+  	
+    const consentModeString = localStorage.getItem('consentMode');
+
+  	if (consentModeString) {
+    	const consentMode = JSON.parse(consentModeString);
+      
+        const consentMapping = {
+          'functionality_storage': 'consent-necessary',
+          'ad_storage': 'consent-ad-marketing',
+          'analytics_storage': 'consent-analytics',
+          'ad_user_data': 'consent-ad-user',
+          'ad_personalization': 'consent-ad-personalization',
+          'personalization_storage': 'consent-personalization',
+          'security_storage': 'consent-security',
+        };
+
+        Object.entries(consentMapping).forEach(([storageKey, checkboxId]) => {
+          const checkbox = document.getElementById(checkboxId);
+
+         if (checkbox) {
+            const isChecked = consentMode[storageKey] === 'granted';
+            checkbox.checked = isChecked;
+
+            const checkboxDiv = checkbox.previousElementSibling;
+            if (checkboxDiv) {
+              if (isChecked) {
+                checkboxDiv.classList.add('w--redirected-checked');
+              } else {
+                checkboxDiv.classList.remove('w--redirected-checked');
+              }
+            }
+          }
+    	});
+  	}
+	}
+  
+  //Logic to uncheck all checkboxes
+  function uncheckAllConsentCheckboxes() {
+  	['consent-analytics', 'consent-ad-personalization', 'consent-ad-marketing', 'consent-ad-user', 'consent-personalization', 'consent-security'].forEach(checkboxId => {
+    	const checkbox = document.getElementById(checkboxId);
+    	if (checkbox) {
+      checkbox.checked = false;
+      
+        const checkboxDiv = checkbox.previousElementSibling;
+        if (checkboxDiv && checkboxDiv.classList.contains('w--redirected-checked')) {
+          checkboxDiv.classList.remove('w--redirected-checked');
+        }
+    	}	
+  	});
+	}
+
+  // Logic to update the preferences
+  document.getElementById('cw-btn-accept-all').addEventListener('click', function() {
+    setConsent({
+      necessary: true,
+      analytics: true,
+      adpersonalized: true,
+      admarketing: true,
+      aduser: true,
+      personalized: true,
+      security: true,
+    });
+    hideBanner();
+  });
+
+  document.getElementById('cw-btn-accept-some').addEventListener('click', function() {
+    setConsent({
+      necessary: true,
+      analytics: document.getElementById('consent-analytics').checked,
+      adpersonalized: document.getElementById('consent-ad-personalization').checked,
+      admarketing: document.getElementById('consent-ad-marketing').checked,
+      aduser: document.getElementById('consent-ad-user').checked,
+      personalized: document.getElementById('consent-personalization').checked,
+      security: document.getElementById('consent-security').checked,
+    });
+    hideBanner();
+  });
+
+  document.getElementById('cw-btn-reject-all').addEventListener('click', function() {
+    setConsent({
+      necessary: true,
+      analytics: false,
+      adpersonalized: false,
+      admarketing: false,
+      aduser: false,
+      personalized: false,
+      security: false
+    });
+    hideBanner();
+  }); 
+  
+  // Map the preferences to Google Consent Mode 
+  function setConsent(consent) {
+    const consentMode = {
+      'functionality_storage': consent.necessary ? 'granted' : 'denied',
+      'ad_user_data': consent.aduser ? 'granted' : 'denied',
+      'ad_storage': consent.admarketing ? 'granted' : 'denied',
+      'analytics_storage': consent.analytics ? 'granted' : 'denied',
+      'ad_personalization': consent.adpersonalized ? 'granted' : 'denied',
+      'personalization_storage': consent.personalized ? 'granted' : 'denied',
+      'security_storage': consent.security ? 'granted' : 'denied',
+    };
+    gtag('consent', 'update', consentMode);  
+    localStorage.setItem('consentMode', JSON.stringify(consentMode));
+  }
+  
+</script></div></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66dbc36f8e6e09e9b2f668d5" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/js/pure-bioscience.schunk.36b8fb49256177c8.js" type="text/javascript" integrity="sha384-4abIlA5/v7XaW1HMXKBgnUuhnjBYJ/Z9C1OSg4OhmVw9O3QeHJ/qJqFBERCDPv7G" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/js/pure-bioscience.schunk.8208d3e53b97e3c7.js" type="text/javascript" integrity="sha384-9xvGwEC4koTEApHZvbdIKXkNvNgqp7+4eQZ+/iUkKstGjbbCAhAfePKaCJKPjB3X" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/js/pure-bioscience.schunk.82d457d866954e36.js" type="text/javascript" integrity="sha384-z+mhSNVzubAzYefQsQRAL1MRWIXNO5OB5tn1jhGxoQiTZe5p36fwELQt2UFb5yLM" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/66dbc36f8e6e09e9b2f668d5/js/pure-bioscience.ed0485e1.b7444a2d4fde228c.js" type="text/javascript" integrity="sha384-cJQLXZqlfD8hWNuSEEMsZcURguMUQHcU8HKYoBO2mKXE8JvPymtyIkwgNgloxEP/" crossorigin="anonymous"></script><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FNGF4SP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script>
+  // Wait for the DOM to be fully loaded
+  document.addEventListener("DOMContentLoaded", function() {
+    // Find the form element by its ID
+    const form = document.getElementById("wf-form-Contact-Form");
+
+    // Attach a submit event listener to the form
+    form.addEventListener("submit", function(event) {
+      // Get all the checkbox input elements within the form
+      const checkboxes = form.querySelectorAll('input[type="checkbox"]');
+
+      // Iterate through the checkboxes and remove empty/unchecked ones
+      checkboxes.forEach(function(checkbox) {
+        if (!checkbox.checked) {
+          // If the checkbox is not checked, remove it from the form
+          checkbox.parentNode.removeChild(checkbox);
+        }
+      });
+    });
+  });
+</script>
+<script>
+// Show Current Year
+document.addEventListener('DOMContentLoaded', function () {
+    const yearSpan = document.querySelector('[date-element="year"]');
+    if (yearSpan) {
+        yearSpan.innerText = new Date().getFullYear();
+    }
+});
+</script><script src="https://tools.refokus.com/cms-tabs/bundle.v1.0.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+const Slider = new Swiper(".swiper.is-slider", {
+  // Parameters
+  effect: 'fade',
+  loop: true,
+  crossFade:true,
+  slidesPerView: 1,
+
+  // Pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'custom',  
+    renderCustom: function (swiper, current, total) {
+      return current;  
+    }
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-btn-next",
+    //prevEl: ".swiper-btn-prev"
+  },
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 1
+    }
+  }
+});
+const csSlider = new Swiper(".swiper.is-cs", {
+  // Parameters
+  loop: false,
+  slidesPerView: 'auto',
+  allowTouchMove:true,
+	//effect:"fade",
+  //crossFade:true,
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 768px
+    768: {
+    // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-cs-next",
+    prevEl: ".swiper-cs-prev",
+  },
+      slidesPerView: 1,    
+  allowTouchMove:false,
+    }
+  }
+});
+</script>
+<script>
+function attr(defaultVal, attrVal) {
+  const defaultValType = typeof defaultVal;
+  if (typeof attrVal !== "string" || attrVal.trim() === "") return defaultVal;
+  if (attrVal === "true" && defaultValType === "boolean") return true;
+  if (attrVal === "false" && defaultValType === "boolean") return false;
+  if (isNaN(attrVal) && defaultValType === "string") return attrVal;
+  if (!isNaN(attrVal) && defaultValType === "number") return +attrVal;
+  return defaultVal;
+}
+
+$("[block-reveal-component]").each(function () {
+  let component = $(this);
+  let blocks = component.find(".mask-circle");
+  let scrollBased = attr(false, component.attr("scroll-based"));
+  let blockTl = gsap.timeline({
+    scrollTrigger: scrollBased ? {
+      trigger: component,
+      start: "top 65%",
+      end: "bottom 102%",
+      scrub: 1
+    } : undefined
+  });
+
+  blockTl.to(blocks, {
+    opacity: 0,
+    duration: 0.01,
+    delay: 0.5,
+    stagger: {
+      amount: 1,
+      from: "random"
+    }
+  });
+});
+
+</script>
+<script>
+    document.querySelectorAll('.cs_slider-button').forEach(function(button) {
+        button.addEventListener('click', function() {
+            const lightbox = document.querySelector('.lightbox-wrapper');
+            lightbox.classList.add('container');
+            if (window.innerWidth <= 767) {
+                document.querySelectorAll('.swiper-slide.is--cms-item').forEach(function(slide) {
+                    slide.classList.add('opened');
+                });
+            }
+        });
+    });
+
+    document.querySelectorAll('.lightbox_x').forEach(function(button) {
+        button.addEventListener('click', function() {
+            const lightbox = document.querySelector('.lightbox-wrapper');
+            lightbox.classList.remove('container');
+            if (window.innerWidth <= 767) {
+                document.querySelectorAll('.swiper-slide.is--cms-item').forEach(function(slide) {
+                    slide.classList.remove('opened');
+                });
+            }
+        });
+    });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+
+    const radioButtons = document.querySelectorAll('input[type="radio"][name="I-currently-have-a-distributor"]');
+    
+    radioButtons.forEach(radio => {
+      radio.addEventListener("change", function() {
+
+        radioButtons.forEach(btn => btn.closest('.radio-button-field').classList.remove("is-active"));
+
+        if (this.checked) {
+          this.closest('.radio-button-field').classList.add("is-active");
+        }
+      });
+    });
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+
+    checkboxes.forEach(checkbox => {
+      checkbox.addEventListener("change", function () {
+        const parentDiv = this.closest('.w-checkbox.checkbox-field');
+        if (this.checked) {
+          parentDiv.classList.add("is-active");
+        } else {
+          parentDiv.classList.remove("is-active");
+        }
+      });
+    });
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    
+    const selectList = document.getElementById("distributor");
+    const otherField = document.getElementById("other-distributor");
+
+    
+    selectList.addEventListener("change", function () {
+      
+      if (this.value === "Other") {
+        
+        otherField.style.display = "block";
+      } else {
+        
+        otherField.style.display = "none";
+      }
+    });
+  });
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.querySelector(".search-input");
+    const suggestionsWrapper = document.querySelector(".search-suggestions");
+    const searchWrapper = document.querySelector(".search-wrapper");
+    const data = [
+        { name: "About", id: "about" },
+        { name: "Technology", id: "technology" },
+        { name: "Products", id: "products" },  
+        { name: "Partners", id: "partners" },
+        { name: "Choose your Distributor", id: "contact" },
+        { name: "Request a Consultation", id: "contact" },
+        { name: "Material Compatibility Chart", id: "chart" },
+        { name: "Contact", id: "contact" },
+        { name: "Case Studies", id: "studies" }
+    ];
+
+    searchInput.addEventListener("input", function () {
+        const query = searchInput.value.toLowerCase();
+        suggestionsWrapper.innerHTML = "";
+        suggestionsWrapper.style.display = "none";
+
+        if (query) {
+            const filteredData = data.filter(item =>
+                item.name.toLowerCase().includes(query)
+            );
+
+            if (filteredData.length > 0) {
+                filteredData.forEach(item => {
+                    const suggestionItem = document.createElement("div");
+                    suggestionItem.classList.add("suggestion-item");
+                    suggestionItem.textContent = item.name;
+
+                    suggestionItem.addEventListener("click", () => {
+                        const targetSection = document.getElementById(item.id);
+                        if (targetSection) {
+                            targetSection.scrollIntoView({ behavior: "smooth" });
+                        }
+                        searchInput.value = ""; 
+                        suggestionsWrapper.innerHTML = "";
+                        suggestionsWrapper.style.display = "none";
+                        searchWrapper.style.display = "none";
+                    });
+
+                    suggestionsWrapper.appendChild(suggestionItem);
+                });
+                suggestionsWrapper.style.display = "block";
+            } else {
+                const noResultsItem = document.createElement("div");
+                noResultsItem.classList.add("no-results");
+                noResultsItem.textContent = "No results found.";
+                suggestionsWrapper.appendChild(noResultsItem);
+                suggestionsWrapper.style.display = "block";
+            }
+        }
+    });
+
+    document.addEventListener("click", function (e) {
+        if (
+            !searchInput.contains(e.target) &&
+            !suggestionsWrapper.contains(e.target)
+        ) {
+            suggestionsWrapper.style.display = "none";
+        }
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+	//Check if checkbox is checked
+	$(".contact_form-button").click(function(){
+		var isChecked = false,
+		checkboxContainer = $(".checkbox_wrapper");
+
+		checkboxContainer.find("input").each(function(){
+			if($(this).prop("checked") == true){
+				isChecked = true;
+			}
+		});
+		if(!isChecked){
+			//this error message uses flexbox. If you want to display 'block', 'inline', or 'inline-block', then swap out 'flex' for your preferred display method
+			$(".checkbox-error-message").css('display', 'flex')
+			return false;
+		}
+	});
+	//Hide error message if checkbox is checked
+	$(".checkbox_wrapper").find("input").click(function(){
+		if( $(".checkbox-error-message").is(":visible") && $(this).prop("checked") == true){
+			$(".checkbox-error-message").css('display', 'none');
+		}
+	});
+});
+</script></body></html>

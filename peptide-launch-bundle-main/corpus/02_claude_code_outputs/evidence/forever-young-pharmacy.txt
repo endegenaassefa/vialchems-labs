@@ -1,0 +1,334 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://foreveryoungpharmacy.com/
+[FETCHED_AT] 2026-05-07T23:02:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/homepage.md
+[LINE_RANGE] 26-27
+[QUOTE]
+"## Forever Young Pharmacy
+
+### The Science of Staying Young"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://foreveryoungpharmacy.com/
+[FETCHED_AT] 2026-05-07T23:02:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/homepage.md
+[LINE_RANGE] 82-83
+[QUOTE]
+"Copyright © 2025 Forever Young Pharmacy, All Rights Reserved"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://foreveryoungpharmacy.com/
+[FETCHED_AT] 2026-05-07T23:02:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/homepage.md
+[LINE_RANGE] 75-80
+[QUOTE]
+"6351 Corte Del Abeto
+Suite 111
+Carlsbad, CA 92011
+P) 619.837.3348
+F) 619.415.8112"
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2023
+[REASONING]
+The archived homepage footer states "Copyright © 2023 - 2024 Forever Young Pharmacy, All Rights Reserved" indicating the brand was established and the site launched in 2023. The "2023" is the starting copyright year, standard practice for US web properties.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250119085341/https://foreveryoungpharmacy.com/
+[FETCHED_AT] 2026-05-07T23:10:00Z
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/wayback_homepage.md
+[LINE_RANGE] 209-209
+"Copyright © 2023 - 2024 Forever Young Pharmacy, All Rights Reserved"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://foreveryoungpharmacy.com/our-story/
+[FETCHED_AT] 2026-05-07T23:03:00Z
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/our-story.md
+[LINE_RANGE] 39-40
+"Dane Fredericksen graduated from the University of Southern California (USC) with a Doctorate of Pharmacy in 2012. His experience spans various pharmacy settings, including retail, managed care, and hospitals. After over 15 years as a pharmacist, Dane recognized the glaring disparities in healthcare."
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://foreveryoungpharmacy.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T23:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/tos.md
+[LINE_RANGE] 43-43
+[QUOTE]
+"All products sold on this website are for research purposes only. They are not classified as medicines or drugs approved by the FDA (for customers in the United States) to prevent, treat, diagnose, mitigate, or cure any medical condition or disease. They should not be labeled as drugs, food, cosmetics, or medicinal products."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://foreveryoungpharmacy.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T23:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/tos.md
+[LINE_RANGE] 47-47
+[QUOTE]
+"You must be 21 years or older to use this website."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://foreveryoungpharmacy.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T23:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/tos.md
+[LINE_RANGE] 73-75
+[QUOTE]
+"By agreeing to these terms and conditions, you confirm that you will check the laws and regulations of your country regarding the delivery and use of our products prior to purchase.
+
+Forever Young Pharmacy will not accept responsibility for any loss caused by non-compliance with the laws of the destination country, including customs regulations, hold-ups, or seizure of goods."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://foreveryoungpharmacy.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T23:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/tos.md
+[LINE_RANGE] 1-8
+[QUOTE]
+"# Terms and Conditions
+
+Please read these Terms of Use ("Terms", "Terms of Use") carefully before using the https://foreveryoungpharmacy.com website (the "Service") operated by ("us", "we", or "our")."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://foreveryoungpharmacy.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T23:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/tos.md
+[LINE_RANGE] 66-70
+[QUOTE]
+"Customers must be associated with a relevant body qualified to conduct laboratory research, such as a research-based facility. Forever Young Pharmacy reserves the right to assess customer eligibility and suitability for purchasing its products and may refuse a sale if these conditions are not met."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://web.archive.org/web/20241209230146/https://foreveryoungpharmacy.com/refunds-and-returns/
+[FETCHED_AT] 2026-05-07T23:14:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/refund.md
+[LINE_RANGE] 29-31
+[QUOTE]
+"Due to our rigorous quality control standards and the fragile nature of our products, we cannot accept returns. In the rare occasion that your order arrives with missing, incorrect or damaged items, please contact us at support@foreveryoungpharmacy.com for assistance."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/20250119101806/https://foreveryoungpharmacy.com/payments-and-shipping/
+[FETCHED_AT] 2026-05-07T23:13:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/shipping.md
+[LINE_RANGE] 29-31
+[QUOTE]
+"We offer a variety of shipping options, including FREE shipping on orders over $150 (Grand Total). For orders less than $150 (Grand Total), there is a $9.99 flat rate free. All orders use USPS Priority Mail with an included tracking number that will be provided to you to track your package."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://web.archive.org/web/20250119101806/https://foreveryoungpharmacy.com/payments-and-shipping/
+[FETCHED_AT] 2026-05-07T23:13:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/shipping.md
+[LINE_RANGE] 47-49
+[QUOTE]
+"During checkout, you have the option to register or check out as a guest. Registration is optional but recommended, as it allows you to check order status, update your account information, and access past orders by logging into our website."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20250119101806/https://foreveryoungpharmacy.com/payments-and-shipping/
+[FETCHED_AT] 2026-05-07T23:13:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/shipping.md
+[LINE_RANGE] 43-44
+[QUOTE]
+"We accept all major credit cards. We offer both individual pricing and wholesale bulk pricing. Please refer to our product pages for quantity discounts. For large bulk discounts, please contact us via email."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://web.archive.org/web/20250119101806/https://foreveryoungpharmacy.com/payments-and-shipping/
+[FETCHED_AT] 2026-05-07T23:13:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/shipping.md
+[LINE_RANGE] 29-32
+[QUOTE]
+"All orders use USPS Priority Mail with an included tracking number that will be provided to you to track your package. Delivery for orders placed on Fridays before noon PST."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://web.archive.org/web/20250119101806/https://foreveryoungpharmacy.com/payments-and-shipping/
+[FETCHED_AT] 2026-05-07T23:13:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/shipping.md
+[LINE_RANGE] 29-30
+[QUOTE]
+"We offer a variety of shipping options, including FREE shipping on orders over $150 (Grand Total). For orders less than $150 (Grand Total), there is a $9.99 flat rate free."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://web.archive.org/web/20250119101806/https://foreveryoungpharmacy.com/payments-and-shipping/
+[FETCHED_AT] 2026-05-07T23:13:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/shipping.md
+[LINE_RANGE] 29-32
+[QUOTE]
+"Your online order is protected by 256 Bit SSL (Secure Socket Layer) encryption technology on our secure server."
+[/QUOTE]
+[URL] https://foreveryoungpharmacy.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T23:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/tos.md
+[LINE_RANGE] 73-74
+[QUOTE]
+"By agreeing to these terms and conditions, you confirm that you will check the laws and regulations of your country regarding the delivery and use of our products prior to purchase.
+
+Forever Young Pharmacy will not accept responsibility for any loss caused by non-compliance with the laws of the destination country, including customs regulations, hold-ups, or seizure of goods."
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://foreveryoungpharmacy.com/blog/
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/blog.md
+[LINE_RANGE] 29-31
+[QUOTE]
+"## [Mislabeled Peptide Vials – Month of January 2025](https://foreveryoungpharmacy.com/mislabeled-peptide-vials-month-of-january/)
+
+[Leave a Comment](https://foreveryoungpharmacy.com/mislabeled-peptide-vials-month-of-january/#respond) / [Peptide Purity Testing](https://foreveryoungpharmacy.com/category/peptide-purity-testing/), [Peptides](https://foreveryoungpharmacy.com/category/peptide-purity-testing/peptides/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://foreveryoungpharmacy.com/blog/
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/blog.md
+[LINE_RANGE] 29-100
+[QUOTE]
+"## Filter posts by category
+
+  * [ All ](https://foreveryoungpharmacy.com/blog/)
+  * [ Peptide Purity Testing ](https://foreveryoungpharmacy.com/category/peptide-purity-testing/)
+  * [ Peptides ](https://foreveryoungpharmacy.com/category/peptides-2/)
+  * [ Peptides ](https://foreveryoungpharmacy.com/category/peptide-purity-testing/peptides/)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.finnrick.com/vendors/forever-young-pharmacy
+[FETCHED_AT] 2026-05-07T23:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/social_1_finnrick.md
+[LINE_RANGE] 12-55
+[QUOTE]
+"Finnrick has tested 26 samples from Forever Young Pharmacy across 5 products."
+[/QUOTE]
+[URL] https://www.finnrick.com/vendors/forever-young-pharmacy
+[FETCHED_AT] 2026-05-07T23:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/social_1_finnrick.md
+[LINE_RANGE] 51-56
+[QUOTE]
+"[Semaglutide](/products/semaglutide/forever-young-pharmacy)| A Great| 5| 7.4| 6.3| 8.5| 17 Dec 2024| 19 Feb 2025
+[BPC-157](/products/bpc-157/forever-young-pharmacy)| B Good| 5| 7.2| 5.6| 9.5| 17 Dec 2024| 19 Feb 2025
+[Tirzepatide](/products/tirzepatide/forever-young-pharmacy)| B Good| 3| 6.9| 5.8| 8.0| 2 Apr 2025| 2 Apr 2025
+[CJC-1295](/products/cjc-1295/forever-young-pharmacy)| C Okay| 5| 6.9| 5.0| 8.9| 17 Dec 2024| 21 Feb 2025
+[Retatrutide](/products/retatrutide/forever-young-pharmacy)| E Bad| 8| 2.9| 1.5| 7.1| 17 Dec 2024| 31 Mar 2025"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://foreveryoungpharmacy.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/catalog_1.md
+[LINE_RANGE] 29-53
+[QUOTE]
+"  * [Peptide Specific Lab Testing](https://foreveryoungpharmacy.com/product-category/peptide-specific-lab-testing/)2424 products
+    * [Bioregulators Lab Panels](https://foreveryoungpharmacy.com/product-category/peptide-specific-lab-testing/bioregulators-lab-panels/)11 product
+    * [Energy Production Lab Panels](https://foreveryoungpharmacy.com/product-category/peptide-specific-lab-testing/energy-production-panels/)22 products
+    * [GLP-1 and Weight Loss Lab Panels](https://foreveryoungpharmacy.com/product-category/peptide-specific-lab-testing/weight-loss-labs/)11 product
+    * [Healing and Inflammation Lab Panels](https://foreveryoungpharmacy.com/product-category/peptide-specific-lab-testing/healing-and-inflammation-labs/)22 products
+    * [Muscle Growth Lab Panels](https://foreveryoungpharmacy.com/product-category/peptide-specific-lab-testing/muscle-growth-panels/)22 products
+    * [Sexual Health Lab Panels](https://foreveryoungpharmacy.com/product-category/peptide-specific-lab-testing/sexual-health-labs/)11 product
+    * [Sleep Lab Panels](https://foreveryoungpharmacy.com/product-category/peptide-specific-lab-testing/sleep-lab-panels/)11 product
+    * [Supplemental Lab Panels](https://foreveryoungpharmacy.com/product-category/peptide-specific-lab-testing/supplemental-lab-panels/)1313 products"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://foreveryoungpharmacy.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T23:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/tos.md
+[LINE_RANGE] 43-53
+[QUOTE]
+"All products sold on this website are for research purposes only. They are not classified as medicines or drugs approved by the FDA (for customers in the United States) to prevent, treat, diagnose, mitigate, or cure any medical condition or disease. They should not be labeled as drugs, food, cosmetics, or medicinal products.
+
+### Disclaimer
+
+  * You must be 21 years or older to use this website.
+  * Products are intended for research purposes only and not for human or animal consumption.
+  * Products are not intended to be used as drugs, food additives, or for any other purposes.
+  * The listing of our products does not constitute a license for their use.
+  * Products should only be handled and used by qualified and trained research professionals.
+  * We cannot accept returns of products due to their nature, to ensure the integrity and quality of the products."
+[/QUOTE]
+
+[CLAIM] skus[0] (Semax 10mg list_price, sale_price, per_mg_price)
+[URL] https://web.archive.org/web/20250206181658/https://foreveryoungpharmacy.com/product/semax-10mg/
+[FETCHED_AT] 2026-05-07T23:16:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/product_1__semax-10mg.md
+[LINE_RANGE] 47-52
+[QUOTE]
+"# Semax 10mg
+
+~~$ 39.99~~ Original price was: $39.99.$29.99Current price is: $29.99."
+[/QUOTE]
+
+[CLAIM] skus[1] (Semaglutide 20mg list_price, sale_price)
+[URL] https://web.archive.org/web/20250206181658/https://foreveryoungpharmacy.com/product/semax-10mg/
+[FETCHED_AT] 2026-05-07T23:16:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/product_1__semax-10mg.md
+[LINE_RANGE] 149-152
+[QUOTE]
+"Sale! [](https://web.archive.org/web/20250206181658/https://foreveryoungpharmacy.com/product/semaglutide-20mg/)Sale![ Add to cart  ](?add-to-cart=1763) Quick View
+
+Weight Loss  ## [Semaglutide 20mg](https://web.archive.org/web/20250206181658/https://foreveryoungpharmacy.com/product/semaglutide-20mg/) ~~$ 169.99~~ Original price was: $169.99.$149.99Current price is: $149.99."
+[/QUOTE]
+
+[CLAIM] skus[2] (AOD-9604 5mg list_price, sale_price)
+[URL] https://web.archive.org/web/20250206181658/https://foreveryoungpharmacy.com/product/semax-10mg/
+[FETCHED_AT] 2026-05-07T23:16:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/product_1__semax-10mg.md
+[LINE_RANGE] 153-156
+[QUOTE]
+"Sale! [](https://web.archive.org/web/20250206181658/https://foreveryoungpharmacy.com/product/aod-9604-5mg/)Sale![ Add to cart  ](?add-to-cart=2402) Quick View
+
+Weight Loss  ## [AOD-9604 5mg](https://web.archive.org/web/20250206181658/https://foreveryoungpharmacy.com/product/aod-9604-5mg/) ~~$ 29.99~~ Original price was: $29.99.$24.99Current price is: $24.99."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal (woocommerce)
+[INFERENCE] woocommerce
+[REASONING]
+The URL patterns in both the live site and archived pages show WooCommerce-standard URL structures: /product-category/, /product/, and add-to-cart query parameters (?add-to-cart=NNNN) which are canonical WooCommerce signatures.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://foreveryoungpharmacy.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/catalog_1.md
+[LINE_RANGE] 29-30
+"  * [Peptide Specific Lab Testing](https://foreveryoungpharmacy.com/product-category/peptide-specific-lab-testing/)2424 products"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250119085341/https://foreveryoungpharmacy.com/
+[FETCHED_AT] 2026-05-07T23:10:00Z
+[RAW_ARTIFACT] 03_raw_fetches/forever-young-pharmacy/wayback_homepage.md
+[LINE_RANGE] 60-63
+"Sale![ Add to cart  ](?add-to-cart=1192) Quick View
+
+Sundry
+## [Bacteriostatic Water 10mL](https://web.archive.org/web/20250119085341/https://foreveryoungpharmacy.com/product/bacteriostatic-water-10ml/)"
+[/SUPPORT_QUOTE]

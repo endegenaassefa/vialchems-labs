@@ -1,0 +1,492 @@
+[CLAIM] fetch_status (site closure / current live state)
+[URL] https://science.bio/
+[FETCHED_AT] 2026-05-07T04:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/science/homepage.md
+[LINE_RANGE] 10-17
+[QUOTE]
+"After careful consideration, Science.bio has made the decision to permanently close and discontinue the sale of research products. We are deeply grateful for your ongoing support and advocacy. We are humbled and wishing you the very best. Any website, entity, or individuals claiming to be Science.bio, a successor to Science.bio, or falsely claiming to sell our products are fraudulent, unauthorized, and have absolutely no affiliation with our company."
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20240601214535/https://science.bio/
+[FETCHED_AT] 2026-05-07T13:57:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/homepage_archive.md
+[LINE_RANGE] 165-165
+[QUOTE]
+"Our mission is to drive innovative research in cognitive, metabolic and longevity science."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://web.archive.org/web/20240601214535/https://science.bio/
+[FETCHED_AT] 2026-05-07T13:57:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/homepage_archive.md
+[LINE_RANGE] 185-189
+[QUOTE]
+"Quality & Transparency Purchase with confidence. Our products are tested to meet the highest standard of quality by independent third party laboratories. Our purity and concentration lab reports are publicly visible on every product page and tied directly to batch and lot numbers on every product you purchase."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20240601214535/https://science.bio/
+[FETCHED_AT] 2026-05-07T13:57:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/homepage_archive.md
+[LINE_RANGE] 163-163
+[QUOTE]
+"__SEARCH CATALOG"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20240601214535/https://science.bio/
+[FETCHED_AT] 2026-05-07T13:57:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/homepage_archive.md
+[LINE_RANGE] 13-55
+[QUOTE]
+"Category
+    * [Longevity](https://web.archive.org/web/20240601214535/https://science.bio/longevity/)
+    * [Metabolics](https://web.archive.org/web/20240601214535/https://science.bio/metabolics/)
+    * [Natural](https://web.archive.org/web/20240601214535/https://science.bio/natural/)
+    * [Nootropics](https://web.archive.org/web/20240601214535/https://science.bio/nootropics/)
+    * [Supplies](https://web.archive.org/web/20240601214535/https://science.bio/supplies/)
+Type
+    * [Afinils](https://web.archive.org/web/20240601214535/https://science.bio/afinils/)
+    * [Peptides](https://web.archive.org/web/20240601214535/https://science.bio/peptides/)
+    * [SARMs](https://web.archive.org/web/20240601214535/https://science.bio/sarms/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20240601214535/https://science.bio/
+[FETCHED_AT] 2026-05-07T13:57:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/homepage_archive.md
+[LINE_RANGE] 982-984
+[QUOTE]
+"### Get 10% Off Your Order!
+
+Hear about new products, promotions and updates when you join our newsletter!"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/20240601214535/https://science.bio/
+[FETCHED_AT] 2026-05-07T13:57:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/homepage_archive.md
+[LINE_RANGE] 821-821
+[QUOTE]
+"Showing 1–12 of 466 results"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/20240418172629/https://science.bio/peptides/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/catalog_1.md
+[LINE_RANGE] 239-239
+[QUOTE]
+"Showing 1–21 of 46 results"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://web.archive.org/web/20240418172629/https://science.bio/peptides/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/catalog_1.md
+[LINE_RANGE] 24-24
+[QUOTE]
+"    * [Bundles](/web/20240418172629/https://science.bio/catalog/?filter=bundle)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name / product_page_anatomy.list_price
+[URL] https://web.archive.org/web/20240523093214/https://science.bio/product/bpc-157-spray-50mg/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/product_1__bpc-157-spray-50mg.md
+[LINE_RANGE] 169-171
+[QUOTE]
+"# BPC-157 Acetate – Spray, 50mg (500mcg/spray)
+
+###  $149.99"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt / product_page_anatomy.batch_lot_transparency
+[URL] https://web.archive.org/web/20240523093214/https://science.bio/product/bpc-157-spray-50mg/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/product_1__bpc-157-spray-50mg.md
+[LINE_RANGE] 173-180
+[QUOTE]
+"  * Batch and lot coded with publicly visible lab reports to ensure quality and transparency.
+  * Less than 10% variance in concentration, guaranteeing consistency.
+  * Formulated and packaged to prevent evaporation in storage.
+  * Includes spray pump for precise output of 0.1mL to 0.13mL.
+  * Glass bottle with UV resistance to minimize degradation.
+  * Tamper-proof seal to ensure safety in transit."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20240523093214/https://science.bio/product/bpc-157-spray-50mg/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/product_1__bpc-157-spray-50mg.md
+[LINE_RANGE] 285-285
+[QUOTE]
+"Terms |  **This material is sold for laboratory research use only. Terms of sale apply. Not for human consumption, nor medical, veterinary, or household uses. Please familiarize yourself with our[Terms & Conditions](https://web.archive.org/web/20240523093214/https://science.bio/terms-and-conditions/) prior to ordering.**"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / product_page_anatomy.coa_hosting
+[URL] https://web.archive.org/web/20240523093214/https://science.bio/product/bpc-157-spray-50mg/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/product_1__bpc-157-spray-50mg.md
+[LINE_RANGE] 289-289
+[QUOTE]
+"## [Batch Purity](https://web.archive.org/web/20240523093214/https://www.dropbox.com/sh/xp5ryu2t2s5a0nw/AAC2AbKyr1gKL0HVEMMkI7t2a?dl=0), [Potency Analysis](https://web.archive.org/web/20240523093214/https://www.dropbox.com/sh/ee39z76xxd8mz2u/AABslgipDnRpkKDzG_alR15ma?dl=0)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.per_mg_cost (bulk pricing tiers)
+[URL] https://web.archive.org/web/20240523093214/https://science.bio/product/bpc-157-spray-50mg/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/product_1__bpc-157-spray-50mg.md
+[LINE_RANGE] 187-193
+[QUOTE]
+"Bulk Pricing
+
+1  |  2-4  |  5-9  |  10-19  |  20-49  |  50-99  |  100-199  |  200-499  |  500+
+---|---|---|---|---|---|---|---|---
+$149.99 |  $134.99 |  $119.99 |  $104.99 |  $89.99 |  $82.49 |  $75.00 |  $67.50 |  $60.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://web.archive.org/web/20240523093214/https://science.bio/product/bpc-157-spray-50mg/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/product_1__bpc-157-spray-50mg.md
+[LINE_RANGE] 291-295
+[QUOTE]
+"###  Purchased together
+
+  * [ $149.99 ](https://web.archive.org/web/20240523093214/https://science.bio/product/tb500-spray/)
+
+[__Add to cart](?add-to-cart=2646726)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing / trust_compliance.age_gate_present
+[URL] https://web.archive.org/web/20240601215327/https://science.bio/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T13:59:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/tos.md
+[LINE_RANGE] 169-169
+[QUOTE]
+"The chemicals/materials for sale here are intended for laboratory and research use only, unless otherwise explicitly stated. They are not intended for human ingestion or for use in products that may be ingested. You must be at least 21 (twenty one) years of age to purchase goods on this website. The listing of a material on this website does not constitute a license to, or a recommendation for its use in infringement of any patent whatsoever. It is understood that all of the products purchased here will be handled only by qualified and trained individuals."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights (research purposes only / no recreational use)
+[URL] https://web.archive.org/web/20240601215327/https://science.bio/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T13:59:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/tos.md
+[LINE_RANGE] 191-193
+[QUOTE]
+"# All products and services offered are for laboratory and research activities exclusively.
+
+By placing orders with this Supplier it is understood by the Buyer that under no circumstances should any of these chemicals/materials be used in an inappropriate manner. No products here are to be used for recreational purposes nor human consumption. All Buyers are assumed and expected to be qualified researchers."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://web.archive.org/web/20240523093214/https://science.bio/product/bpc-157-spray-50mg/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/product_1__bpc-157-spray-50mg.md
+[LINE_RANGE] 263-263
+[QUOTE]
+"Return or exchange your unopened product within 30 days no questions asked. If you are unsatisfied with your product we will issue a full refund. If you need to make a return the process is simple, straightforward and tracked. Our checkout is SSL encrypted and completely secure. Order today and we will ship the very same day, every business day.  Our products are verified by independent third party laboratories to meet quality standards. All product batches and lots are assigned unique identifiers and tied to publicly posted lab reports."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy / checkout_flow.shipping_cost_structure
+[URL] https://web.archive.org/web/20240523093924/https://science.bio/shipping-returns/
+[FETCHED_AT] 2026-05-07T13:59:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/shipping.md
+[LINE_RANGE] 75-79
+[QUOTE]
+"[__**FREE Shipping** on domestic orders over $150.](/web/20240523093924/https://science.bio/faq/#do-you-offer-free-shipping)
+
+[__**FREE Shipping** on domestic orders over $150.](/web/20240523093924/https://science.bio/faq/#do-you-offer-free-shipping)
+
+[__**FREE Shipping** on international orders over $400.](/web/20240523093924/https://science.bio/faq/#do-you-offer-free-shipping)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://web.archive.org/web/20240523093924/https://science.bio/shipping-returns/
+[FETCHED_AT] 2026-05-07T13:59:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/shipping.md
+[LINE_RANGE] 219-219
+[QUOTE]
+"There may be shipping restrictions on some products, and some products may not be shipped to some destinations. We post USA shipping restrictions on product listings. If you are outside the USA there may be additional importation restrictions, procedures, and fees. It is your responsibility to research and comply with local laws."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://web.archive.org/web/20240523093924/https://science.bio/shipping-returns/
+[FETCHED_AT] 2026-05-07T13:59:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/shipping.md
+[LINE_RANGE] 181-213
+[QUOTE]
+"### USPS First Class
+
+### USPS Priority Mail
+
+### USPS Priority Express Mail
+
+### UPS Ground & FedEx Ground
+
+### USPS First Class International
+
+### USPS Priority International
+
+### UPS Standard & FedEx Economy
+
+### UPS Expedited & FedEx Priority & DHL Express"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20240601215242/https://science.bio/faq-page/
+[FETCHED_AT] 2026-05-07T14:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/faq.md
+[LINE_RANGE] 687-687
+[QUOTE]
+"We support payment with credit card, eCheck, bank transfer (ACH, international wire), cryptocurrency (bitcoin, altcoins), and more."
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://web.archive.org/web/20240601215242/https://science.bio/faq-page/
+[FETCHED_AT] 2026-05-07T14:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/faq.md
+[LINE_RANGE] 569-569
+[QUOTE]
+"If the system doesn’t recognize your login email it’s possible you used another email, incorrectly entered your email or checked out as a guest and never created an account."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+Media URLs in the product page reference the path wp-content/uploads/ which is the canonical WordPress upload path. The CDN subdomain en4t8gyqt6w.exactdn.com is ExactDN, a CDN service designed specifically for WordPress/WooCommerce sites. No Shopify, BigCommerce, or other platform signals were observed.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240523093214/https://science.bio/product/bpc-157-spray-50mg/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[RAW_ARTIFACT] 03_raw_fetches/science/product_1__bpc-157-spray-50mg.md
+[LINE_RANGE] 163-165
+"[](https://web.archive.org/web/20240523093214/https://en4t8gyqt6w.exactdn.com/wp-content/uploads/2021/07/bpc-157-spray-50mg-render.png?strip=all&lossy=1&ssl=1)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240523093214/https://science.bio/product/bpc-157-spray-50mg/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[RAW_ARTIFACT] 03_raw_fetches/science/product_1__bpc-157-spray-50mg.md
+[LINE_RANGE] 165-165
+"[](https://web.archive.org/web/20240523093214/https://en4t8gyqt6w.exactdn.com/wp-content/uploads/2021/09/bpc-157-spray-50mg.png?strip=all&lossy=1&ssl=1)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] ExactDN (exactdn.com subdomain)
+[REASONING]
+Both product page image URLs serve from the en4t8gyqt6w.exactdn.com subdomain, which is the ExactDN CDN service (WordPress-optimized image CDN by EasyIO). This pattern appears consistently across sampled pages.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240523093214/https://science.bio/product/bpc-157-spray-50mg/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[RAW_ARTIFACT] 03_raw_fetches/science/product_1__bpc-157-spray-50mg.md
+[LINE_RANGE] 163-163
+"[](https://web.archive.org/web/20240523093214/https://en4t8gyqt6w.exactdn.com/wp-content/uploads/2021/07/bpc-157-spray-50mg-render.png?strip=all&lossy=1&ssl=1)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240601214535/https://science.bio/
+[FETCHED_AT] 2026-05-07T13:57:00Z
+[RAW_ARTIFACT] 03_raw_fetches/science/homepage_archive.md
+[LINE_RANGE] 991-991
+"](https://web.archive.org/web/20240601214535/https://sarms.io/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://web.archive.org/web/20240418172629/https://science.bio/peptides/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/catalog_1.md
+[LINE_RANGE] 246-258
+[QUOTE]
+"Showing 1–21 of 46 results
+
+Sort by Newest Arrivals
+
+Sort by Newest Arrivals
+
+Sort by Oldest Arrivals
+
+Sort by Name: A-Z
+
+Sort by Name: Z-A
+
+Sort by Price: Low to High
+
+Sort by Price: High to Low"
+[/QUOTE]
+
+[CLAIM] country_of_operation / ship_to_scope
+[URL] https://web.archive.org/web/20240523093924/https://science.bio/shipping-returns/
+[FETCHED_AT] 2026-05-07T13:59:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/shipping.md
+[LINE_RANGE] 75-79
+[QUOTE]
+"[__**FREE Shipping** on domestic orders over $150.](/web/20240523093924/https://science.bio/faq/#do-you-offer-free-shipping)
+
+[__**FREE Shipping** on international orders over $400.](/web/20240523093924/https://science.bio/faq/#do-you-offer-free-shipping)
+
+[__** USA-Domestic Delivery** and same-day shipping.](/web/20240523093924/https://science.bio/shipping-returns/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://web.archive.org/web/20240601215327/https://science.bio/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T13:59:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/tos.md
+[LINE_RANGE] 169-169
+[QUOTE]
+"The chemicals/materials for sale here are intended for laboratory and research use only, unless otherwise explicitly stated."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting (COA on third-party Dropbox) / batch_lot_transparency
+[URL] https://web.archive.org/web/20240620175243/https://science.bio/quality-control/
+[FETCHED_AT] 2026-05-07T14:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/coa_1.md
+[LINE_RANGE] 187-187
+[QUOTE]
+"Every LOT number is tied to a Certificate of Analysis (COA) from an independent third party laboratory. Each finished product's LOT # is visible on the product label. You can find the COAs and lab reports for your product on the product listing, [**under the section titled Third Party Analysis**](/web/20240620175243/https://science.bio/faq/#do-you-have-third-party-lab-reports-for-all-products--1). _Batch Purity_ reports refer to batches of raw materials which must be correctly identified and quantitated. _Potency Audits_ refer to the concentration of liquid products which will not vary more than ±10% from the posted concentration."
+[/QUOTE]
+
+[CLAIM] skus[] (catalog enumeration — catalog pages 1-3)
+[URL] https://web.archive.org/web/20240418172629/https://science.bio/peptides/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/catalog_1.md
+[LINE_RANGE] 239-239
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/science/catalog_1.md, catalog_2.md, catalog_3.md:
+46 total peptide SKUs listed across 3 catalog pages (21 on page 1, 21 on page 2, 4 on page 3).
+[FILES]
+catalog_1.md
+catalog_2.md
+catalog_3.md
+[/QUOTE]
+
+[CLAIM] skus[TB-500 spray / BPC-157 spray on catalog page 1]
+[URL] https://web.archive.org/web/20240418172629/https://science.bio/peptides/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/catalog_1.md
+[LINE_RANGE] 396-403
+[QUOTE]
+"## [TB-500 (Thymosin Beta 4 Fragment 17-23) Acetate – Spray, 50mg (500mcg/spray)](https://web.archive.org/web/20240418172629/https://science.bio/product/tb500-spray/)
+
+Longevity, Metabolics  $149.99
+
+  * [ $149.99 ](https://web.archive.org/web/20240418172629/https://science.bio/product/bpc-157-spray-50mg/)
+
+## [BPC-157 Acetate – Spray, 50mg (500mcg/spray)](https://web.archive.org/web/20240418172629/https://science.bio/product/bpc-157-spray-50mg/)
+
+Longevity, Metabolics  $149.99"
+[/QUOTE]
+
+[CLAIM] skus[catalog_2 peptide SKUs with prices]
+[URL] https://web.archive.org/web/20240529062454/https://science.bio/peptides/page/2/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/catalog_2.md
+[LINE_RANGE] 263-450
+[QUOTE]
+"## [Delta Sleep-Inducing Peptide (DSIP) Acetate – Aliquot, 5mg](https://web.archive.org/web/20240529062454/https://science.bio/product/dsip-aliquot-5mg/)
+
+Nootropics  $44.99
+
+## [KPV Acetate – Aliquot, 5mg](https://web.archive.org/web/20240529062454/https://science.bio/product/kpv-acetate-aliquot-5mg/)
+
+Longevity  $49.99
+
+## [Epitalon Acetate – Aliquot, 100mg](https://web.archive.org/web/20240529062454/https://science.bio/product/epitalon-aliquot-100mg/)
+
+Longevity  $119.99
+
+## [Thymosin Alpha 1 Acetate – Aliquot, 5mg](https://web.archive.org/web/20240529062454/https://science.bio/product/thymosin-a1-aliquot-5mg/)
+
+Longevity  $79.99
+
+## [LL-37 Acetate – Aliquot, 6mg](https://web.archive.org/web/20240529062454/https://science.bio/product/ll-37-6mg-aliquot/)
+
+Aliquots  $99.99
+
+## [GHK-Cu Acetate – Aliquot, 200mg](https://web.archive.org/web/20240529062454/https://science.bio/product/ghkcu-aliquot-200mg/)
+
+Longevity  $69.99
+
+## [TB-500 (Thymosin Beta 4 Fragment 17-23) Acetate – Aliquot](https://web.archive.org/web/20240529062454/https://science.bio/product/tb500-aliquot/)
+
+Longevity, Metabolics  $59.99 – $69.99
+
+## [Semax Acetate – Aliquot, 50mg](https://web.archive.org/web/20240529062454/https://science.bio/product/semax-acetate-aliquot-50mg/)
+
+Nootropics  $74.99"
+[/QUOTE]
+
+[CLAIM] skus[catalog_3 remaining peptide SKUs]
+[URL] https://web.archive.org/web/20240529050244/https://science.bio/peptides/page/3/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/catalog_3.md
+[LINE_RANGE] 246-295
+[QUOTE]
+"## [ARA-290 Acetate – Aliquot, 5mg](https://web.archive.org/web/20240529050244/https://science.bio/product/ara290-aliquot-5mg/)
+
+Longevity  $39.99
+
+## [BPC-157 Acetate – Aliquot](https://web.archive.org/web/20240529050244/https://science.bio/product/bpc-157-aliquot/)
+
+Longevity, Metabolics  $59.99"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://web.archive.org/web/20240523093214/https://science.bio/product/bpc-157-spray-50mg/
+[FETCHED_AT] 2026-05-07T13:58:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/product_1__bpc-157-spray-50mg.md
+[LINE_RANGE] 261-261
+[QUOTE]
+"__1 person recently viewed this product and 0 people have it in their cart."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy (customs / replacement)
+[URL] https://web.archive.org/web/20240523093924/https://science.bio/shipping-returns/
+[FETCHED_AT] 2026-05-07T13:59:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/shipping.md
+[LINE_RANGE] 231-235
+[QUOTE]
+"In case customs seizes your package we will offer to ship a free replacement using a different courier and/or declaration. If this replacement is seized we will issue a refund or store credit, less the cost of shipping."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy (declared as Certified Reference Material)
+[URL] https://web.archive.org/web/20240523093924/https://science.bio/shipping-returns/
+[FETCHED_AT] 2026-05-07T13:59:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/science/shipping.md
+[LINE_RANGE] 225-225
+[QUOTE]
+"Please note, our item values are declared in full and items are coded as **Certified Reference Material** using the **[HS Tariff Code 3822.00.60](https://web.archive.org/web/20240523093924/http://www.faqs.org/rulings/tariffs/38220060.html)**. We cannot illegally declare a lower item value or misdeclare item codes."
+[/QUOTE]

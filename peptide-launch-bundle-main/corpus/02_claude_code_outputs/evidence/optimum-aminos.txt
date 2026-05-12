@@ -1,0 +1,386 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://optimumaminos.com/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/homepage.md
+[LINE_RANGE] 64-69
+[QUOTE]
+"FOR RESEARCHERS. DEFINED BY PRECISION."
+[/QUOTE]
+[URL] https://optimumaminos.com/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/homepage.md
+[LINE_RANGE] 68-69
+[QUOTE]
+"At Optimum Aminos, we don’t just provide peptides. We deliver a refined, research focused experience grounded in innovation, transparency, and true affordability."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://optimumaminos.com/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/homepage.md
+[LINE_RANGE] 71
+[QUOTE]
+"[ Shop Now ](https://optimumaminos.com/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://optimumaminos.com/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/homepage.md
+[LINE_RANGE] 18-26
+[QUOTE]
+"  * [THE LAB](https://optimumaminos.com/)
+  * [SHOP](https://optimumaminos.com/shop/)
+  * [THE FORMULA](https://optimumaminos.com/the-formula/)
+  * [TEST RESULTS & CVC®](https://optimumaminos.com/coa/)
+  * [RESEARCH LIBRARY](https://optimumaminos.com/resources/)
+  * [FAQ](https://optimumaminos.com/faq/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://optimumaminos.com/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/homepage.md
+[LINE_RANGE] 146
+[QUOTE]
+"All items offered on this site are strictly intended for laboratory, analytical or research applications. These products are not approved for human use or consumption. None of the statements found on this site have been reviewed or verified by the U.S. Food and Drug Administration (FDA), and nothing herein is intended to diagnose, treat, prevent or cure any disease or medical condition. Optimum Aminos is not a compounding pharmacy or chemical compounding facility as defined under Section 503A of the Federal Food, Drug, and Cosmetic Act, and is not an outsourcing facility as defined under Section 503B. All products are supplied solely for research or analytical purposes. Optimum Aminos peptide materials are not FDA-approved for therapeutic or clinical use, and must never be administered, ingested or used outside of compliant research settings. By purchasing or using our products, you acknowledge that they will be handled only in accordance with applicable laws and regulations and that you accept full responsibility for their use, storage and compliance."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://optimumaminos.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/product_1__ghk-cu-100mg-mini.md
+[LINE_RANGE] 72
+[QUOTE]
+"# GHK-CU 100MG MINI"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price / product_page_anatomy.per_mg_cost
+[URL] https://optimumaminos.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/product_1__ghk-cu-100mg-mini.md
+[LINE_RANGE] 89
+[QUOTE]
+"~~$ 55.00~~ Original price was: $55.00.$45.00Current price is: $45.00."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://optimumaminos.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/product_1__ghk-cu-100mg-mini.md
+[LINE_RANGE] 76
+[QUOTE]
+"For investigators examining tissue wellness and cosmetic biology, this copper based tripeptide is used in controlled research to observe cellular repair, skin vitality, and structural protein expression."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://optimumaminos.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/product_1__ghk-cu-100mg-mini.md
+[LINE_RANGE] 96
+[QUOTE]
+"  * For Research Purposes Only – Not For Human Consumption"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / product_page_anatomy.coa_hosting
+[URL] https://optimumaminos.com/coa/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/coa_1.md
+[LINE_RANGE] 66-70
+[QUOTE]
+"CVC® Cap-Verified Certificate of Analysis
+
+# ADVANCING TRANSPARENCY AND TRUST IN PEPTIDE RESEARCH
+
+A founder-driven verification initiative by Optimum Aminos, designed to reduce ambiguity between analytical results and the physical sample evaluated by the laboratory"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://optimumaminos.com/faq/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/faq.md
+[LINE_RANGE] 80
+[QUOTE]
+"Every peptide we offer undergoes third-party HPLC and mass spectrometry testing to verify purity, identity, and integrity. Certificates of Analysis (COAs) are accessible through scan-ready QR codes found on our kit packaging, vial labels, and directly on our website."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://optimumaminos.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/product_1__ghk-cu-100mg-mini.md
+[LINE_RANGE] 99-100
+[QUOTE]
+"## MORE PEPTIDES"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://optimumaminos.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/product_1__ghk-cu-100mg-mini.md
+[LINE_RANGE] 87
+[QUOTE]
+"Not for human consumption."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://optimumaminos.com/faq/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/faq.md
+[LINE_RANGE] 101
+[QUOTE]
+"Not at this time. We currently ship within the United States only, but international availability is planned for the near future."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / trust_compliance.tos_highlights
+[URL] https://optimumaminos.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/tos.md
+[LINE_RANGE] 74
+[QUOTE]
+"All materials provided by Optimum Aminos are classified strictly as research compounds."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://optimumaminos.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/tos.md
+[LINE_RANGE] 99
+[QUOTE]
+"Because these compounds are sensitive research materials, **all sales are final** and **returns are not accepted**."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://optimumaminos.com/shipping-returns/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/shipping.md
+[LINE_RANGE] 70-74
+[QUOTE]
+"Orders are processed Monday through Friday. Currently we require a 24-72Hr processing hold until we can ship any order due to our PLAID verification system. We must ensure funds are fully processed prior to any shipments. Thanks for your understanding. We ship using FedEx Express, with delivery typically ranging from 1 to 3 business days."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://optimumaminos.com/faq/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/faq.md
+[LINE_RANGE] 113
+[QUOTE]
+"We currently only accept electronic checks via PLAID payment. Until we onboard our new payment processor this is our only method available at checkout."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://optimumaminos.com/shipping-returns/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/shipping.md
+[LINE_RANGE] 74
+[QUOTE]
+"We ship using FedEx Express, with delivery typically ranging from 1 to 3 business days."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://optimumaminos.com/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/homepage.md
+[LINE_RANGE] 136
+[QUOTE]
+"Free 2-day FedEx USA express shipping on all orders over $250"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://optimumaminos.com/faq/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/faq.md
+[LINE_RANGE] 101
+[QUOTE]
+"Not at this time. We currently ship within the United States only, but international availability is planned for the near future."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://optimumaminos.com/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/source_homepage.md
+[LINE_RANGE] 14-15
+[QUOTE]
+"  * [ Affiliate Sign Up ](https://optimumaminos.goaffpro.com/create-account)
+  * [ Affiliate Login ](https://optimumaminos.goaffpro.com/login)"
+[/QUOTE]
+[INFERENCE] WordPress/WooCommerce confirmed via raw HTML source: woocommerce stylesheet at c0.wp.com, woocommerce JS at p/woocommerce/10.7.0, server header "host-header: WordPress.com", x-hacker header "Want root? Visit join.a8c.com" (Automattic). WP Rocket cache plugin present (data-rocket-prefetch, data-rocket-preload).
+[REASONING]
+Raw HTML source grep shows: woocommerce-layout-css at c0.wp.com/p/woocommerce/10.7.0, server: nginx + host-header: WordPress.com (Automattic atomic hosting). Platform classification woocommerce is directly evidenced by these source signals.
+[/INFERENCE]
+
+[CLAIM] tech_stack.analytics_tools_loaded / tech_stack.marketing_pixels_present
+[URL] https://optimumaminos.com/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/source_homepage.md
+[LINE_RANGE] 14
+[QUOTE]
+"  * [ Affiliate Sign Up ](https://optimumaminos.goaffpro.com/create-account)"
+[/QUOTE]
+[INFERENCE] Trustpilot widget loaded (invitejs.trustpilot.com, widget.trustpilot.com dns-prefetch visible in raw HTML source). Jetpack/WordPress.com stats loaded (stats.wp.com dns-prefetch). btcpay.optimumaminos.com domain prefetched suggesting self-hosted BTCPay server. No Facebook pixel, TikTok pixel, or GA4 gtag identified in source grep.
+[REASONING]
+Raw HTML source contains: link data-rocket-prefetch href=https://invitejs.trustpilot.com, link data-rocket-prefetch href=https://widget.trustpilot.com, link rel='dns-prefetch' href='//btcpay.optimumaminos.com', link data-rocket-prefetch href=https://stats.wp.com. These confirm Trustpilot and Jetpack stats. BTCPay is payment infrastructure, not analytics.
+[/INFERENCE]
+
+[CLAIM] catalog.sku_count / catalog.category_taxonomy
+[URL] https://optimumaminos.com/shop/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/catalog_1.md
+[LINE_RANGE] 126-163
+[QUOTE]
+[ENUMERATION] Counted from catalog_1.md and catalog_2.md: 38 products visible across two pages. Products include: GLP-3 RT 15MG FULL, GLP-3 RT 30MG MINI, GLP-3 RT 30MG 5 MINI KIT BUNDLE, GHK-CU 100MG MINI, GHK-CU 100MG FULL, TESAMORELIN 10MG MINI, TESAMORELIN 10MG FULL, CAGRILINTIDE 10MG MINI, CAGRILINTIDE 10MG FULL, CJC + IPA (NO DAC) 10MG MINI, CJC + IPA (NO DAC) 10MG FULL, SELANK 10MG MINI, SELANK 10MG FULL, SEMAX 10MG MINI, SEMAX 10MG FULL, VIP 10MG MINI, VIP 10MG FULL, PT-141 10MG MINI, PT-141 10MG FULL, KISSPEPTIN 10MG MINI, KISSPEPTIN 10MG FULL, KPV 10MG MINI, KPV 10MG FULL, EPITALON 10MG MINI, EPITALON 10MG FULL, KLOW 80MG MINI, KLOW 80MG FULL, MOTS-C 10MG MINI, MOTS-C 10MG FULL, NAD+ 500MG, GLUTATHIONE 1500MG, MT-2 10MG MINI, MT-2 10MG FULL, GLP-2 TR 30MG MINI, GLP-2 TR 30MG 5 MINI KIT BUNDLE, LEAN GLOW STACK, NEURO BALANCE STACK, SUMMERTIME FINE STACK, HOSPIRA 30ML BACTERIOSTATIC WATER, OPTIMUM ARMOR.
+[FILES]
+03_raw_fetches/optimum-aminos/catalog_1.md
+03_raw_fetches/optimum-aminos/catalog_2.md
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://optimumaminos.com/shop/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/catalog_1.md
+[LINE_RANGE] 163-166
+[QUOTE]
+"  * [ Sale! LEAN GLOW STACK ~~$ 200.00~~ Original price was: $200.00.$155.00Current price is: $155.00. ](https://optimumaminos.com/product/lean-glow-stack/)
+  * [ Sale! NEURO BALANCE STACK ~~$ 100.00~~ Original price was: $100.00.$85.00Current price is: $85.00. ](https://optimumaminos.com/product/neuro-balance-stack/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.topic_taxonomy
+[URL] https://optimumaminos.com/resources/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/blog_1.md
+[LINE_RANGE] 64-68
+[QUOTE]
+"# Hypothesis Tool
+
+Hypothetical Compound Modeling Tool: For theoretical research modling purposes only.
+
+**NOT for human or animal use!**"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://optimumaminos.com/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/source_homepage.md
+[LINE_RANGE] 14
+[QUOTE]
+"  * [ Affiliate Sign Up ](https://optimumaminos.goaffpro.com/create-account)"
+[/QUOTE]
+[INFERENCE] Trustpilot widget loaded (invitejs.trustpilot.com and widget.trustpilot.com dns-prefetch in raw HTML source). No review count or rating visible in curl-rendered text; widget is JS-rendered.
+[REASONING]
+Raw HTML source contains trustpilot_settings var with key and WidgetScriptUrl pointing to widget.trustpilot.com. This confirms Trustpilot integration. The rendered text does not expose the actual review count or score since these are loaded via JavaScript.
+[/INFERENCE]
+
+[CLAIM] country_of_operation / fulfillment_country / ship_to_scope
+[URL] https://optimumaminos.com/faq/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/faq.md
+[LINE_RANGE] 101
+[QUOTE]
+"Not at this time. We currently ship within the United States only, but international availability is planned for the near future."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://optimumaminos.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/tos.md
+[LINE_RANGE] 89
+[QUOTE]
+"• You are at least 18 years of age."
+[/QUOTE]
+
+[CLAIM] skus[optimum-aminos:glp-3-rt-15mg-full].list_price_usd / sale_price_usd
+[URL] https://optimumaminos.com/product/rt15/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/product_2__glp-3-rt-15mg-full.md
+[LINE_RANGE] 69
+[QUOTE]
+"~~$ 125.00~~ Original price was: $125.00.$75.00Current price is: $75.00."
+[/QUOTE]
+
+[CLAIM] skus[optimum-aminos:ghk-cu-100mg-mini].list_price_usd / sale_price_usd
+[URL] https://optimumaminos.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/product_1__ghk-cu-100mg-mini.md
+[LINE_RANGE] 89
+[QUOTE]
+"~~$ 55.00~~ Original price was: $55.00.$45.00Current price is: $45.00."
+[/QUOTE]
+
+[CLAIM] skus catalog prices (GHK-CU FULL, GLP-3 RT SKUs, Selank, Semax, PT-141, KPV, Epitalon, MOTS-C, NAD+, Tesamorelin, Cagrilintide, CJC+IPA, VIP, Kisspeptin, KLOW, MT-2, Glutathione, GLP-2 TR, stacks, ancillaries)
+[URL] https://optimumaminos.com/shop/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/catalog_1.md
+[LINE_RANGE] 126-163
+[QUOTE]
+"  * [ Sale! GHK-CU 100MG FULL ~~$ 65.00~~ Original price was: $65.00.$55.00Current price is: $55.00. ](https://optimumaminos.com/product/ghk-cu-100mg-full/)
+  * [ Sale! GLP-3 RT 30MG MINI ~~$ 175.00~~ Original price was: $175.00.$125.00Current price is: $125.00. ](https://optimumaminos.com/product/glp-3rt-30mg/)
+  * [ Sale! GLP-3 RT 30MG 5 MINI KIT BUNDLE ~~$ 900.00~~ Original price was: $900.00.$475.00Current price is: $475.00. ](https://optimumaminos.com/product/glp-3rt-30mg-5-kit-bundle/)
+  * [ Sale! SELANK 10MG MINI ~~$ 60.00~~ Original price was: $60.00.$40.00Current price is: $40.00. ](https://optimumaminos.com/product/selank-10mg-mini/)
+  * [ Sale! SELANK 10MG FULL ~~$ 70.00~~ Original price was: $70.00.$50.00Current price is: $50.00. ](https://optimumaminos.com/product/selank-10mg-full/)
+  * [ Sale! SEMAX 10MG MINI ~~$ 60.00~~ Original price was: $60.00.$40.00Current price is: $40.00. ](https://optimumaminos.com/product/semax-10mg-mini/)
+  * [ Sale! SEMAX 10MG FULL ~~$ 70.00~~ Original price was: $70.00.$50.00Current price is: $50.00. ](https://optimumaminos.com/product/semax-10mg-full/)
+  * [ Sale! PT-141 10MG MINI ~~$ 55.00~~ Original price was: $55.00.$35.00Current price is: $35.00. ](https://optimumaminos.com/product/pt-141-10mg-mini/)
+  * [ Sale! PT-141 10MG FULL ~~$ 65.00~~ Original price was: $65.00.$45.00Current price is: $45.00. ](https://optimumaminos.com/product/pt-141-10mg-full/)
+  * [ Sale! KPV 10MG MINI ~~$ 50.00~~ Original price was: $50.00.$40.00Current price is: $40.00. ](https://optimumaminos.com/product/kpv-10mg-mini/)
+  * [ Sale! KPV 10MG FULL ~~$ 60.00~~ Original price was: $60.00.$50.00Current price is: $50.00. ](https://optimumaminos.com/product/kpv-10mg-full/)
+  * [ Sale! EPITALON 10MG MINI ~~$ 50.00~~ Original price was: $50.00.$25.00Current price is: $25.00. ](https://optimumaminos.com/product/epitalon-10mg-mini/)
+  * [ Sale! EPITALON 10MG FULL ~~$ 60.00~~ Original price was: $60.00.$35.00Current price is: $35.00. ](https://optimumaminos.com/product/epitalon-10mg-full/)
+  * [ Sale! MOTS-C 10MG MINI ~~$ 70.00~~ Original price was: $70.00.$45.00Current price is: $45.00. ](https://optimumaminos.com/product/coming-soon-4/)
+  * [ Sale! NAD+ 500MG \+ FREE BAC-H2O ~~$ 75.00~~ Original price was: $75.00.$50.00Current price is: $50.00. ](https://optimumaminos.com/product/coming-soon-5/)"
+[/QUOTE]
+
+[CLAIM] skus catalog prices page 2 (MOTS-C FULL, GHK-CU FULL, MT-2 FULL, KLOW FULL, GLP-3 RT bundles, Tesamorelin MINI, CJC+IPA MINI, NAD+, MOTS-C MINI, Glutathione, MT-2 MINI, KLOW MINI, GHK-CU MINI, GLP-3 RT 30MG MINI, GLP-3 RT 15MG FULL)
+[URL] https://optimumaminos.com/shop/page/2/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/catalog_2.md
+[LINE_RANGE] 64-170
+[QUOTE]
+"[ ](https://optimumaminos.com/product/mots-c-10mg-full/)
+
+## M0TS-C 10MG FULL
+
+## ~~$ 80.00~~ Original price was: $80.00.$55.00Current price is: $55.00."
+[/QUOTE]
+
+[CLAIM] skus catalog GLP-2 TR prices
+[URL] https://optimumaminos.com/shop/
+[FETCHED_AT] 2026-05-08T01:44:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/optimum-aminos/catalog_1.md
+[LINE_RANGE] 130-131
+[QUOTE]
+"  * [ Sale! GLP-2 TR 30MG MINI ~~$ 150.00~~ Original price was: $150.00.$100.00Current price is: $100.00. ](https://optimumaminos.com/product/glp-2-tr-30mg-mini/)
+  * [ Sale! GLP-2 TR 30MG 5 MINI KIT BUNDLE ~~$ 500.00~~ Original price was: $500.00.$425.00Current price is: $425.00. ](https://optimumaminos.com/product/glp-2-tr-30mg-5-mini-kit-bundle/)"
+[/QUOTE]

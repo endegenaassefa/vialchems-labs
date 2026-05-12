@@ -1,0 +1,200 @@
+{
+  "vendor_slug": "excalibur-peptides",
+  "brand_name": "Excalibur Peptides",
+  "primary_domain": "https://excaliburpeptides.com",
+
+  "fetched_url": "https://excaliburpeptides.com/",
+  "fetched_at": "2026-05-07T19:50:55Z",
+  "fetch_status": "ok",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.82,
+
+  "country_of_operation": "US",
+  "fulfillment_country": "US",
+  "ship_to_scope": "us_only",
+  "year_established": "uncertain — no founding year stated on site; TOS/shipping policy last-updated date is March 2026; version tag v8.7 visible in footer",
+
+  "homepage": {
+    "hero_copy_excerpt": "America's #1 third-party tested research peptide supplier. BPC-157, TB-500, GLP-2 T, GLP-3 R, GHK-Cu, Tesamorelin, GHRP-6, MOTS-c, NAD+. 99%+ HPLC purity, fast domestic USA shipping. For laboratory research use only.",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Research Peptide Catalog (product listing links)",
+    "navigation_pattern": "Top nav: Products, About, Quality, Contact, My Account; footer: Quick Links (Catalog, Quality, About Us, FAQs, Blog, Affiliate), Research (COA Database, Research Library, Safety Data Sheets), Shipping & Returns, Contact",
+    "footer_disclaimers": "All products sold on this website are intended for research and identification purposes only. These products are not intended for human dosing, injection, or ingestion. America's #1 Third-Party Tested Research Peptide Supplier • 100% Lab Tested © 2026 Excalibur Peptides. All rights reserved. For research use only."
+  },
+
+  "catalog": {
+    "sku_count": 11,
+    "category_taxonomy": ["Research Peptides", "Tissue Research", "Metabolic / GLP-1 class", "Nootropic / NAD+"],
+    "search_filter_capabilities": "uncertain — SPA catalog; no search/filter UI observed on homepage listing",
+    "stack_bundle_pages_present": "true"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "https://excaliburpeptides.com/product/bpc-157",
+    "sample_product_name": "BPC-157 — Research Peptide",
+    "dose_options": ["10mg"],
+    "list_price": "$49.99",
+    "per_mg_cost": "$5.00",
+    "photographic_treatment": "uncertain — SPA product page; no image description surfaced in browse text output",
+    "description_copy_excerpt": "Body Protection Compound-157, a pentadecapeptide composed of 15 amino acids studied for its interactions with the FAK-paxillin and VEGFR2-Akt-eNOS signaling pathways.",
+    "exact_disclaimer_language": "All products sold on this website are intended for research and identification purposes only. These products are not intended for human dosing, injection, or ingestion.",
+    "coa_present": "true",
+    "coa_hosting": "uncertain — site lists 'COA Database' in footer nav but COA page not fetched; product page states 'COA included with every order'",
+    "lab_partner_named": "uncertain — third-party HPLC and mass spectrometry testing claimed but no named lab partner on product page",
+    "batch_lot_transparency": "uncertain — COA included per product page claim but batch/lot numbers not visible without COA portal access",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "false"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "All products sold by Excalibur Peptides are intended strictly for in-vitro laboratory research purposes.",
+    "age_gate_present": "true",
+    "jurisdictional_restriction_notice": "uncertain — no explicit geo-block message observed; shipping policy confirms US-only",
+    "tos_url": "https://excaliburpeptides.com/terms",
+    "tos_highlights": "Research use only; buyer certifies bona fide laboratory research use; age 21+ required; all sales final; no returns on opened vials; governed by Maryland law / Talbot County courts",
+    "refund_policy": "All sales are final. No returns, exchanges, or refunds for change of mind. Damaged/incorrect orders replaced within 7 days of delivery with photo evidence. No returns on opened/reconstituted products.",
+    "shipping_policy": "Flat-rate $10.00 domestic US shipping. Free shipping on orders over $150. USPS and UPS. Processing 1–3 business days. Delivery 3–7 business days. Domestic US only — no international shipping. Discreet unmarked packaging. Governed by Maryland law / Talbot County, Maryland courts."
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain — 'My Account' nav link present; checkout walk not performed",
+    "guest_checkout_available": "uncertain — checkout walk not performed per Tier 3 scope",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "false",
+    "payment_methods_accepted": ["uncertain — payment methods not visible without checkout walk; billing descriptor stated as 'Excalibur Peptides' on credit card statements per TOS"],
+    "shipping_carriers": ["USPS", "UPS"],
+    "shipping_cost_structure": "$10.00 flat-rate; free on orders over $150",
+    "international_policy": "No international shipping. US domestic only."
+  },
+
+  "tech_stack": {
+    "platform_signal": "custom",
+    "cdn": "uncertain — SPA; HTTP headers not captured via browse method",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://excaliburpeptides.com/blog",
+    "content_cadence": "uncertain — 3 blog posts observed from homepage listing, all dated 2026",
+    "topic_taxonomy": ["peptide supplier comparisons", "BPC-157 research overview", "TB-500 research overview"],
+    "author_bylines_present": "uncertain — blog not fetched",
+    "internal_linking_to_products": "uncertain — blog not fetched"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": ["uncertain — no Trustpilot or review aggregator links observed"],
+    "testimonial_usage": "none observed",
+    "visible_influencer_endorsements": "none observed"
+  },
+
+  "skus": [
+    {
+      "sku_id": "excalibur-peptides:bpc-157-10mg",
+      "name": "BPC-157 — Research Peptide",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "acetate",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "",
+      "list_price_usd": 49.99,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 5.00,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": ["wolverine-blend"],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://excaliburpeptides.com/product/bpc-157",
+      "raw_artifact": "03_raw_fetches/excalibur-peptides/product_1__bpc-157.md",
+      "evidence_entry_id": "claim-4"
+    },
+    {
+      "sku_id": "excalibur-peptides:tb-500-10mg",
+      "name": "TB-500 — Research Peptide",
+      "peptide_canonical": "TB-500",
+      "peptide_variant": "acetate",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "",
+      "list_price_usd": 89.99,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 9.00,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": ["wolverine-blend"],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://excaliburpeptides.com/product/tb-500",
+      "raw_artifact": "03_raw_fetches/excalibur-peptides/product_2__tb-500.md",
+      "evidence_entry_id": "claim-5"
+    },
+    {
+      "sku_id": "excalibur-peptides:ghk-cu-uncertain",
+      "name": "GHK-Cu — Copper tripeptide",
+      "peptide_canonical": "GHK-Cu",
+      "peptide_variant": "",
+      "dose_value": 0,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "",
+      "list_price_usd": 0,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 0,
+      "volume_tier_label": "",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://excaliburpeptides.com/product/ghk-cu",
+      "raw_artifact": "03_raw_fetches/excalibur-peptides/homepage.md",
+      "evidence_entry_id": "claim-6"
+    },
+    {
+      "sku_id": "excalibur-peptides:mots-c-uncertain",
+      "name": "MOTS-c — Mitochondrial-derived peptide",
+      "peptide_canonical": "MOTS-c",
+      "peptide_variant": "",
+      "dose_value": 0,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "",
+      "list_price_usd": 0,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 0,
+      "volume_tier_label": "",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://excaliburpeptides.com/product/mots-c",
+      "raw_artifact": "03_raw_fetches/excalibur-peptides/homepage.md",
+      "evidence_entry_id": "claim-6"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "operator-supplied vendor list"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/excalibur-peptides/",
+  "evidence_file": "evidence/excalibur-peptides.txt",
+  "uncertainty_notes": "year_established: no founding year stated anywhere on site; TOS and shipping policy last updated March 2026 sets earliest confirmed activity. search_filter_capabilities: SPA — catalog page not independently fetched. lab_partner_named: third-party testing claimed verbally but no lab name cited on product pages visited. batch_lot_transparency: COA Database linked in footer but portal not accessed. account_required / guest_checkout_available / fields_collected / payment_methods_accepted: checkout walk not performed (Tier 3 scope). cdn / analytics_tools_loaded / marketing_pixels_present: HTTP headers not captured via gstack-browse method. jurisdictional_restriction_notice: no explicit geo-block observed but site is US-only per shipping policy. GHK-Cu and MOTS-c price/dose: product pages not individually fetched; listed in catalog but pricing unknown. photographic_treatment: browse text mode does not surface image descriptions."
+}

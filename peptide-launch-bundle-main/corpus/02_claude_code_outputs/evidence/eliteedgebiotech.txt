@@ -1,0 +1,341 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://eliteedgebiotech.com/
+[FETCHED_AT] 2026-05-07T19:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/homepage.md
+[LINE_RANGE] 54-56
+[QUOTE]
+"# High-Purity Peptides for Research Use
+
+Each peptide is lab-tested, COA-verified, and precision-crafted to ensure unmatched reliability for research."
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://eliteedgebiotech.com/
+[FETCHED_AT] 2026-05-07T19:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/homepage.md
+[LINE_RANGE] 295-303
+[QUOTE]
+"All technical and descriptive information on this website is provided for research, educational, and informational purposes only. The products and any statements made about them have not been evaluated by the U.S. Food and Drug Administration. The products are not intended to diagnose, treat, cure, or prevent any disease or medical condition.
+
+Elite Edge Biotech is a chemical supplier. Elite Edge Biotech is not a compounding pharmacy or chemical compounding facility as defined under section 503A of the Federal Food, Drug, and Cosmetic Act and is not an outsourcing facility as defined under section 503B of the same Act.
+
+By purchasing from Elite Edge Biotech, you agree that all products will be used in accordance with applicable laws and regulations, and that you assume full responsibility for their use in appropriate research settings only."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://eliteedgebiotech.com/
+[FETCHED_AT] 2026-05-07T19:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/homepage.md
+[LINE_RANGE] 256-258
+[QUOTE]
+"1350 Freeport Blvd 104
+Sparks, NV 89431
+United States"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://eliteedgebiotech.com/
+[FETCHED_AT] 2026-05-07T19:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/homepage.md
+[LINE_RANGE] 256-258
+[QUOTE]
+"1350 Freeport Blvd 104
+Sparks, NV 89431
+United States"
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2024
+[REASONING]
+The state tax number "E41824982024-6" contains "2024" embedded, indicating registration in 2024. The copyright notice reads "Copyright © 2025 - Elite Edge Biotech" suggesting public launch/branding in 2025. The combination of "2024" in state tax ID and © 2025 supports a 2024 founding with 2025 public launch.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://eliteedgebiotech.com/
+[FETCHED_AT] 2026-05-07T19:49:27Z
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/homepage.md
+[LINE_RANGE] 287-291
+"Company EIN: 99-3968965
+
+State Tax Number: E41824982024-6
+
+Copyright © 2025 - Elite Edge Biotech"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.trustpilot.com/review/eliteedgebiotech.com
+[FETCHED_AT] 2026-05-07T19:50:25Z
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/social_trustpilot.md
+[LINE_RANGE] 41-45
+"# Eliteedgebiotech Reviews 19
+
+•
+
+4.4"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://eliteedgebiotech.com/
+[FETCHED_AT] 2026-05-07T19:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/homepage.md
+[LINE_RANGE] 58-59
+[QUOTE]
+"[ Shop Now ](/web/20260406173500/https://eliteedgebiotech.com/shop)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://eliteedgebiotech.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:51:49Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/tos.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"We specialize in supplying **research-use-only peptides and laboratory reagents** , intended exclusively for scientific, laboratory, and non-clinical research applications."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://eliteedgebiotech.com/
+[FETCHED_AT] 2026-05-07T19:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/homepage.md
+[LINE_RANGE] 326-336
+[QUOTE]
+"##  Age Verification Required
+
+This website is restricted. To continue, please confirm you meet the minimum age requirement and accept the agreement below.
+
+I confirm I am 21+ years of age or older.
+
+I agree that products and information on this website are provided for laboratory research use only and are not intended for use in or on humans or animals. I will not use any products or information from this website for diagnosis, treatment, cure, or prevention of any condition. I agree to follow applicable laws and regulations, and I agree to the Terms of Service and Privacy Policy."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://eliteedgebiotech.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:51:49Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/tos.md
+[LINE_RANGE] 146-146
+[QUOTE]
+"This Site is intended for users **21 years of age or older**."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://eliteedgebiotech.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:51:49Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/tos.md
+[LINE_RANGE] 193-203
+[QUOTE]
+"If you are not satisfied with your purchase, please contact us within **30 days** of receiving your order at **info@eliteedgebiotech.com**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://eliteedgebiotech.com/
+[FETCHED_AT] 2026-05-07T19:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/homepage.md
+[LINE_RANGE] 63-64
+[QUOTE]
+"Free Delivery
+
+Free shipping over $200 (after discount) in the USA."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://eliteedgebiotech.com/payment-options/
+[FETCHED_AT] 2026-05-07T19:50:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/payment.md
+[LINE_RANGE] 83-180
+[QUOTE]
+"# **1\. Credit & Debit Cards**
+
+# **2\. CashApp**
+
+## **3\. Bitcoin (NOWPayments)**
+
+We accept Bitcoin payments via **NOWPayments** , a trusted crypto payment gateway that enables fast, secure, and privacy-focused transactions.
+
+### **4\. Link Money ACH Payment**
+
+**Save 10% automatically** when paying with Link Money ACH
+
+## 5\. **Zelle**"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://eliteedgebiotech.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/catalog_1.md
+[LINE_RANGE] 60-63
+[QUOTE]
+"Show  [ 9  ](https://web.archive.org/web/20260406173511/https://eliteedgebiotech.com/shop/?per_page=9) [ 12  ](https://web.archive.org/web/20260406173511/https://eliteedgebiotech.com/shop/?per_page=12) [ 18  ](https://web.archive.org/web/20260406173511/https://eliteedgebiotech.com/shop/?per_page=18) [ 24  ](https://web.archive.org/web/20260406173511/https://eliteedgebiotech.com/shop/?per_page=24)
+
+[](https://web.archive.org/web/20260406173511/https://eliteedgebiotech.com/shop/?shop_view=grid&per_row=2)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.trustpilot.com/review/eliteedgebiotech.com
+[FETCHED_AT] 2026-05-07T19:50:25Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/social_trustpilot.md
+[LINE_RANGE] 41-45
+[QUOTE]
+"# Eliteedgebiotech Reviews 19
+
+•
+
+4.4"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.trustpilot.com/review/eliteedgebiotech.com
+[FETCHED_AT] 2026-05-07T19:50:25Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/social_trustpilot.md
+[LINE_RANGE] 133-137
+[QUOTE]
+"5-star
+
+90%"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://eliteedgebiotech.com/peptides/bpc-157/
+[FETCHED_AT] 2026-05-07T19:50:16Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/product_1__bpc-157.md
+[LINE_RANGE] 68-69
+[QUOTE]
+"_“BPC 157 is for research use only.
+Each batch includes a certificate of analysis provided by an independent third party laboratory based in the US.”_"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://eliteedgebiotech.com/peptides/bpc-157/
+[FETCHED_AT] 2026-05-07T19:50:16Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/product_1__bpc-157.md
+[LINE_RANGE] 68-69
+[QUOTE]
+"Each batch includes a certificate of analysis provided by an independent third party laboratory based in the US."
+[/QUOTE]
+
+[CLAIM] skus[0].list_price / skus[1].list_price (BPC-157 5mg and 10mg)
+[URL] https://eliteedgebiotech.com/peptides/bpc-157/
+[FETCHED_AT] 2026-05-07T19:50:16Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/product_1__bpc-157.md
+[LINE_RANGE] 64-71
+[QUOTE]
+"-50% Sold out
+
+#  BPC-157
+
+$23.00 – $38.00Price range: $23.00 through $38.00
+
+_"BPC 157 is for research use only.
+Each batch includes a certificate of analysis provided by an independent third party laboratory based in the US."_
+
+Size |  Choose an option5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] skus[2] (GHK-Cu range)
+[URL] https://eliteedgebiotech.com/
+[FETCHED_AT] 2026-05-07T19:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/homepage.md
+[LINE_RANGE] 148-154
+[QUOTE]
+"[ -50% ](https://web.archive.org/web/20260406173500/https://eliteedgebiotech.com/peptides/ghk-cu/)
+
+### [GHK-Cu](https://web.archive.org/web/20260406173500/https://eliteedgebiotech.com/peptides/ghk-cu/)
+
+$30.00 – $48.00Price range: $30.00 through $48.00"
+[/QUOTE]
+
+[CLAIM] skus[3] (MOTS-c range)
+[URL] https://eliteedgebiotech.com/
+[FETCHED_AT] 2026-05-07T19:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/homepage.md
+[LINE_RANGE] 134-141
+[QUOTE]
+"### [MOTS-c](https://web.archive.org/web/20260406173500/https://eliteedgebiotech.com/peptides/mots-c/)
+
+$49.99 – $125.00Price range: $49.99 through $125.00"
+[/QUOTE]
+
+[CLAIM] skus[4] (Tesamorelin 10mg)
+[URL] https://eliteedgebiotech.com/
+[FETCHED_AT] 2026-05-07T19:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/homepage.md
+[LINE_RANGE] 98-105
+[QUOTE]
+"### [Tesamorelin 10mg](https://web.archive.org/web/20260406173500/https://eliteedgebiotech.com/peptides/tesamorelin/)
+
+~~$ 84.99~~ Original price was: $84.99.$43.00Current price is: $43.00."
+[/QUOTE]
+
+[CLAIM] skus[5] (Epithalon 10mg)
+[URL] https://eliteedgebiotech.com/peptides/bpc-157/
+[FETCHED_AT] 2026-05-07T19:50:16Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/product_1__bpc-157.md
+[LINE_RANGE] 141-144
+[QUOTE]
+"### [Epithalon 10mg](https://web.archive.org/web/20260406173511/https://eliteedgebiotech.com/peptides/epithalon/)
+
+~~$ 59.99~~ Original price was: $59.99.$30.00Current price is: $30.00."
+[/QUOTE]
+
+[CLAIM] skus[6] (DSIP 5mg)
+[URL] https://eliteedgebiotech.com/peptides/bpc-157/
+[FETCHED_AT] 2026-05-07T19:50:16Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/product_1__bpc-157.md
+[LINE_RANGE] 106-109
+[QUOTE]
+"### [DSIP 5mg](https://web.archive.org/web/20260406173511/https://eliteedgebiotech.com/peptides/dsip-5mg/)
+
+~~$ 39.99~~ Original price was: $39.99.$20.00Current price is: $20.00."
+[/QUOTE]
+
+[CLAIM] skus[7] (CJC-1295 No DAC 5mg)
+[URL] https://eliteedgebiotech.com/peptides/bpc-157/
+[FETCHED_AT] 2026-05-07T19:50:16Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/product_1__bpc-157.md
+[LINE_RANGE] 110-113
+[QUOTE]
+"### [CJC-1295 (No DAC) 5mg](https://web.archive.org/web/20260406173511/https://eliteedgebiotech.com/peptides/cjc-1295-no-dac/)
+
+~~$ 89.99~~ Original price was: $89.99.$45.00Current price is: $45.00."
+[/QUOTE]
+
+[CLAIM] skus[8] (IGF-1 LR3 1mg)
+[URL] https://eliteedgebiotech.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/catalog_1.md
+[LINE_RANGE] 165-168
+[QUOTE]
+"### [IGF-1 LR3 1mg](https://web.archive.org/web/20260406173511/https://eliteedgebiotech.com/peptides/igf-1-lr3/)
+
+~~$ 65.00~~ Original price was: $65.00.$32.50Current price is: $32.50."
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://eliteedgebiotech.com/
+[FETCHED_AT] 2026-05-07T19:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eliteedgebiotech/homepage.md
+[LINE_RANGE] 270-270
+[QUOTE]
+"[ Blogs ](/web/20260406173500/https://eliteedgebiotech.com/blog)"
+[/QUOTE]

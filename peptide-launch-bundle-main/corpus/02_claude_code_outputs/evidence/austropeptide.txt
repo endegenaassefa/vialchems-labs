@@ -1,0 +1,309 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20230922150540/https://austropeptide.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/homepage_wayback_2023.md
+[LINE_RANGE] 19-19
+[QUOTE]
+###  Manufacturer of [peptides ](https://web.archive.org/web/20230922150540/http://austropeptide.com/product-category/peptides-catalog-peptide/) \- [Amino Acids](https://web.archive.org/web/20230922150540/http://austropeptide.com/product-category/other-aminopeptides/)-[SARMS](https://web.archive.org/web/20230922150540/https://austropeptide.com/product-category/sarms/) -[NOOTROPICS](https://web.archive.org/web/20230922150540/http://austropeptide.com/product-category/nootropics/) ,[ DROPPPERS](https://web.archive.org/web/20230922150540/http://austropeptide.com/product-category/droppers), [NASAL SPRAY](https://web.archive.org/web/20230922150540/http://austropeptide.com/product-category/nasal-spray),[CAPSULES](https://web.archive.org/web/20230922150540/http://austropeptide.com/product-category/capsules/).
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20230922150540/https://austropeptide.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/homepage_wayback_2023.md
+[LINE_RANGE] 25-25
+[QUOTE]
+      * [ __ PEPTIDES A-F  ](https://web.archive.org/web/20230922150540/https://austropeptide.com/product-category/peptides-catalog-peptide/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20230922150540/https://austropeptide.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/homepage_wayback_2023.md
+[LINE_RANGE] 681-681
+[QUOTE]
+"Copyright © 2004-2022 -AUSTROPEPTIDE.com"
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://web.archive.org/web/20241214141258/http://www.austropeptide.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/homepage_wayback.md
+[LINE_RANGE] 28-28
+[QUOTE]
+"Copyright © 2004-2023 -AUSTROPEPTIDE.com - Y&P Group"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://web.archive.org/web/20231020121930/http://austropeptide.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/tos.md
+[LINE_RANGE] 576-576
+[QUOTE]
+"The USA, EUROPE, AUSTRALIA, SOUTH KOREA, Malaysia, Singapore, Thailand, Vietnam orders will be sent domestically."
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/20230922150540/https://austropeptide.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/homepage_wayback_2023.md
+[LINE_RANGE] 192-192
+[QUOTE]
+"Select a category Chemical Powders Research OILS peptides HOT SALE PACKS Wholesale peptides Blend Peptides Beauty peptide NASAL SPRAY Vitamin PEPTIDES SARMS Nootropics Other Amino&peptides CAPSULES Droppers Custom Peptides Supplement VITAMIN POWDERS Skin Care pharmaceutical machines Lab Supplies Packing materials Application"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://web.archive.org/web/20230922150540/https://austropeptide.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/homepage_wayback_2023.md
+[LINE_RANGE] 192-192
+[QUOTE]
+"HOT SALE PACKS"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name / product_page_anatomy.list_price / product_page_anatomy.per_mg_cost
+[URL] https://web.archive.org/web/20200805074056/http://www.austropeptide.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 132-142
+[QUOTE]
+"BPC 157 10 mg
+
+~~$ 13.00~~ $9.00
+
+price is base on per vial"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://web.archive.org/web/20200805074056/http://www.austropeptide.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 168-170
+[QUOTE]
+"BPC 157 10 mg
+
+~~$ 13.00~~ $9.00
+
+## **BPC-157 10mg**
+
+Molecular formula: C62H98N16O22 Molar Mass: 1419.53552 g/mol CAS: 137525-51-0"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20200805074056/http://www.austropeptide.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 144-144
+[QUOTE]
+"Important Notification: All of our products and services listed in this website are for research or production use only, not for direct human use."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://web.archive.org/web/20200805074056/http://www.austropeptide.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 284-284
+[QUOTE]
+Be the first to review
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://web.archive.org/web/20230922150540/https://austropeptide.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/homepage_wayback_2023.md
+[LINE_RANGE] 630-630
+[QUOTE]
+"Important Notification: These PRODUCTS ARE INTENDED AS A RESEARCH CHEMICAL ONLY. This designation allows the use of research chemicals strictly for in vitro testing and laboratory experimentation only. All product information available on this website is for educational purposes only. Bodily introduction of any kind into humans or animals is strictly forbidden by law. This product should only be handled by licensed, qualified professionals. This product is not a drug, food, or cosmetic and may not be misbranded, misused or mislabled as a drug, food or cosmetic."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://web.archive.org/web/20231020121930/http://austropeptide.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/tos.md
+[LINE_RANGE] 207-207
+[QUOTE]
+"You must be at least 18 (eighteen) years of age to purchase goods from AP."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / trust_compliance.tos_highlights
+[URL] https://web.archive.org/web/20231020121930/http://austropeptide.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/tos.md
+[LINE_RANGE] 205-209
+[QUOTE]
+"The products we offer are intended for laboratory/ hobbyist research use or production use only, not for human use directly. In purchasing any of these items, the customer acknowledges that there are risks involved with the consumption or distribution of these products. These chemicals are NOT intended to use as food additives, drugs, cosmetics, household chemicals or other inappropriate applications."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://web.archive.org/web/20231020121930/http://austropeptide.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/tos.md
+[LINE_RANGE] 209-209
+[QUOTE]
+"We are not refunding or accepting for returning our products after we have been shipped successfully. If you would have any issues regarding your researching, please contact us as soon as possible. We will try to resolve your case."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/20231002013920/http://austropeptide.com/shipping-and-handling/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/shipping.md
+[LINE_RANGE] 215-215
+[QUOTE]
+"We ship Monday through Friday. All orders are shipped via Express for Hong Kong, Taiwan, and China. if international, it will be shipped via TNT, FEDEX, EMS, Hong Kong post, Hong Kong EMS, ARAMEX, and DHL, etc."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://web.archive.org/web/20231002013920/http://austropeptide.com/shipping-and-handling/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/shipping.md
+[LINE_RANGE] 215-215
+[QUOTE]
+"We ship Monday through Friday. All orders are shipped via Express for Hong Kong, Taiwan, and China. if international, it will be shipped via TNT, FEDEX, EMS, Hong Kong post, Hong Kong EMS, ARAMEX, and DHL, etc."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://web.archive.org/web/20231020121930/http://austropeptide.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/tos.md
+[LINE_RANGE] 587-587
+[QUOTE]
+**Free shipping Coupon over USD 350 : (FOR USA, Europe, South Asia) , The rest world will have our free shipping for over USD 550, what they will appear automatically in their cart (Powders haven't free shipping , only for peptides)
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://web.archive.org/web/20231002013920/http://austropeptide.com/shipping-and-handling/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/shipping.md
+[LINE_RANGE] 222-230
+[QUOTE]
+"We at AP peptides are not responsible for knowing the customs procedures for each country. If you are interested in ordering from AP peptide, you must research your own country's laws and regulations regarding our research chemicals and peptides before ordering from AP PEPTIDE. Once you have placed an order with us, you automatically take responsibility for your country's regulations."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20230922155842/http://austropeptide.com/payment/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/payment.md
+[LINE_RANGE] 198-208
+[QUOTE]
+"Once you will place an order, you will receive an email included order details and order number, then Please Contact us via email :sales[at]austronext.com for receiving payment information (incl. your order number only) ... Wire transfers are a type of electronic funds transfer ... For more payment options , please contact our sales department"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+URL structure uses /product/ and /product-category/ paths which are canonical WooCommerce patterns. Cart URL is /cart/, account URL is /my-account/, wishlist URL is /wishlist/ — all standard WooCommerce endpoint slugs. Product comments use WooCommerce comment ID pattern (#comment-NNNNN). No other platform observed.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230922150540/https://austropeptide.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/homepage_wayback_2023.md
+[LINE_RANGE] 185-185
+  * Cart 0
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20200805074056/http://www.austropeptide.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 284-284
+Be the first to review
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://web.archive.org/web/20230922155332/https://austropeptide.com/product-category/austropeptide-products-base-on-name/tb500/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/catalog_tb500.md
+[LINE_RANGE] 688-688
+[QUOTE]
+    * [ Adrafinil dropper 30ML-300MG/ML ](https://web.archive.org/web/20230922155332/https://austropeptide.com/product/adrafinil-dropper-30ml-300mg-ml/#comment-56075) Rated **5** out of 5 by Doug
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://web.archive.org/web/20230922150540/https://austropeptide.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/homepage_wayback_2023.md
+[LINE_RANGE] 676-681
+[QUOTE]
+"[Testimonials](https://web.archive.org/web/20230922150540/https://austropeptide.com/testimonials/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.blog_url
+[URL] https://web.archive.org/web/20230922150540/https://austropeptide.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/homepage_wayback_2023.md
+[LINE_RANGE] 673-673
+[QUOTE]
+"[Blog](https://web.archive.org/web/20230922150540/https://austropeptide.com/blog/)"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=austropeptide:bpc-157-10mg].list_price_usd / sale_price_usd
+[URL] https://web.archive.org/web/20200805074056/http://www.austropeptide.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 134-134
+[QUOTE]
+"~~$ 13.00~~ $9.00"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=austropeptide:bpc-157-10mg-10vial].list_price_usd / sale_price_usd
+[URL] https://web.archive.org/web/20231003205843/https://austropeptide.com/product-category/austropeptide-products-base-on-name/bpc157/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/catalog_bpc157.md
+[LINE_RANGE] 248-248
+[QUOTE]
+  * [ [ -62% ](https://web.archive.org/web/20231003205843/https://austropeptide.com/product/bpc-157-10-mg-10-vial/) __[BPC 157 10 mg -10 vial](https://web.archive.org/web/20231003205843/https://austropeptide.com/product/bpc-157-10-mg-10-vial/) ~~$ 190.00~~ $72.00 [Show more](https://web.archive.org/web/20231003205843/https://austropeptide.com/product/bpc-157-10-mg-10-vial/)
+[/QUOTE]
+
+[CLAIM] skus[sku_id=austropeptide:tb-500-10mg].list_price_usd / sale_price_usd
+[URL] https://web.archive.org/web/20230922155332/https://austropeptide.com/product-category/austropeptide-products-base-on-name/tb500/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/catalog_tb500.md
+[LINE_RANGE] 295-295
+[QUOTE]
+  * [ [ -53% ](https://web.archive.org/web/20230922155332/https://austropeptide.com/product/tb-500-10mg/) __[TB-500 10mg](https://web.archive.org/web/20230922155332/https://austropeptide.com/product/tb-500-10mg/) ~~$ 18.00~~ $8.50 [Show more](https://web.archive.org/web/20230922155332/https://austropeptide.com/product/tb-500-10mg/)
+[/QUOTE]
+
+[CLAIM] skus[sku_id=austropeptide:tirzepatide-10mg].list_price_usd / sale_price_usd
+[URL] https://web.archive.org/web/20231020141907/http://austropeptide.com/product-category/other-aminopeptides/tirzepatide/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/catalog_tirzepatide.md
+[LINE_RANGE] 275-275
+[QUOTE]
+  * [ [ -97% ](https://web.archive.org/web/20231020141907/http://austropeptide.com/product/tirzepatide-10mg/) __[Tirzepatide 10mg](https://web.archive.org/web/20231020141907/http://austropeptide.com/product/tirzepatide-10mg/) ~~$ 1,500.00~~ $47.00 [Show more](https://web.archive.org/web/20231020141907/http://austropeptide.com/product/tirzepatide-10mg/)
+[/QUOTE]
+
+[CLAIM] fulfillment_country (partial)
+[URL] https://web.archive.org/web/20231002013920/http://austropeptide.com/shipping-and-handling/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/austropeptide/shipping.md
+[LINE_RANGE] 657-657
+[QUOTE]
+"Our R&D is in Austria, Our manufacturing plants are in Asia and the EU (they depend on the products)"
+[/QUOTE]

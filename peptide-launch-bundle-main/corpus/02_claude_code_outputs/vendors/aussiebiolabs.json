@@ -1,0 +1,246 @@
+{
+  "vendor_slug": "aussiebiolabs",
+  "brand_name": "AussieBio Labs",
+  "primary_domain": "https://www.aussiebiolabs.com.au",
+
+  "fetched_url": "https://aussiebiolabs.com.au",
+  "fetched_at": "2026-05-07T19:42:30Z",
+  "fetch_status": "ok",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.79,
+
+  "country_of_operation": "Australia",
+  "fulfillment_country": "Australia",
+  "ship_to_scope": "intl_excl_us",
+  "year_established": "2025",
+
+  "homepage": {
+    "hero_copy_excerpt": "AussieBio Labs",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Shop Now",
+    "navigation_pattern": "Home, Blog, About, Contact, Reconstitution Calculator, Compliance & Safety",
+    "footer_disclaimers": "All products sold on this website are intended for research purposes only. They are not intended for human consumption, medical use, or veterinary use. By purchasing from this site, you agree to use these products in compliance with all applicable laws and regulations. AussieBio Labs is not liable for any misuse of our products. Always consult with a qualified professional for guidance on proper use."
+  },
+
+  "catalog": {
+    "sku_count": 81,
+    "category_taxonomy": ["GH secretagogues & Healing peptides", "Immune & Inflammation", "Skin, Hair & Repair", "Shop All"],
+    "search_filter_capabilities": "Sort by popularity, average rating, latest, price low-to-high, price high-to-low",
+    "stack_bundle_pages_present": "false"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "https://aussiebio.com.au/product/bpc-157-5mg/",
+    "sample_product_name": "BPC-157 5mg",
+    "dose_options": ["5mg"],
+    "list_price": "A$89.99",
+    "per_mg_cost": "A$17.998",
+    "photographic_treatment": "clinical",
+    "description_copy_excerpt": "Tissue Regeneration Support: BPC-157 is widely studied for its regenerative capabilities, particularly in promoting tendon, ligament, and muscle healing across a range of injury models.",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "false",
+    "coa_hosting": "none",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "false",
+    "customer_review_module_present": "true",
+    "related_product_modules_present": "true"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "All products sold by AussieBio Labs are intended strictly for laboratory research use. They are: Not for human consumption, Not for animal use, Not for medical or therapeutic use, Not for diagnostic or clinical application, For in-vitro, assay development, analytical, and educational research only",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "We do not ship outside of Australia.",
+    "tos_url": "https://www.aussiebiolabs.com.au/terms-of-use",
+    "tos_highlights": "Research use only; eligibility requires age 21+; qualified researcher attestation; governing law is Queensland, Australia; no returns once shipped; Australian Consumer Law applies",
+    "refund_policy": "No returns once shipped due to nature of product; damage in transit honoured; no returns once item is shipped",
+    "shipping_policy": "Domestic Australia only via express post; dispatch within 24hrs of payment; orders before 12pm AEST ship same day; no international shipping"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": ["uncertain"],
+    "shipping_carriers": ["Australia Post express"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "No international shipping. We do not ship outside of Australia."
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://www.aussiebiolabs.com.au/blog",
+    "content_cadence": "sparse; 2 posts observed, both dated September 2025",
+    "topic_taxonomy": ["peptide recovery stacks", "peptide education (external link to Dr Sophia Khalique)"],
+    "author_bylines_present": "true",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "true",
+    "off_site_aggregators": ["uncertain"],
+    "testimonial_usage": "Reviews tab present on product pages; 0 reviews observed on BPC-157 5mg page",
+    "visible_influencer_endorsements": "none observed"
+  },
+
+  "skus": [
+    {
+      "sku_id": "aussiebiolabs:bpc-157-5mg",
+      "name": "BPC-157 5mg",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "uncertain",
+      "dose_value": 5,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://aussiebio.com.au/product/bpc-157-5mg/",
+      "raw_artifact": "03_raw_fetches/aussiebiolabs/product_1__bpc-157-5mg.md",
+      "evidence_entry_id": "claim-8"
+    },
+    {
+      "sku_id": "aussiebiolabs:bpc157-10mg",
+      "name": "BPC157 10mg",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "uncertain",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://aussiebio.com.au/product/bpc157-10mg/",
+      "raw_artifact": "03_raw_fetches/aussiebiolabs/catalog_1.md",
+      "evidence_entry_id": "claim-9"
+    },
+    {
+      "sku_id": "aussiebiolabs:tb500",
+      "name": "TB500",
+      "peptide_canonical": "TB-500",
+      "peptide_variant": "uncertain",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://aussiebio.com.au/aussiebio-labs/shop/",
+      "raw_artifact": "03_raw_fetches/aussiebiolabs/catalog_1.md",
+      "evidence_entry_id": "claim-9"
+    },
+    {
+      "sku_id": "aussiebiolabs:ghrp-6-5mg",
+      "name": "GHRP-6 5mg",
+      "peptide_canonical": "GHRP-6",
+      "peptide_variant": "uncertain",
+      "dose_value": 5,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://aussiebio.com.au/aussiebio-labs/shop/",
+      "raw_artifact": "03_raw_fetches/aussiebiolabs/homepage.md",
+      "evidence_entry_id": "claim-9"
+    },
+    {
+      "sku_id": "aussiebiolabs:cjc-1295-no-dac-5mg",
+      "name": "CJC-1295 (No DAC) – 5mg",
+      "peptide_canonical": "CJC-1295",
+      "peptide_variant": "no_dac",
+      "dose_value": 5,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://aussiebio.com.au/product/cjc-1295-no-dac-5mg/",
+      "raw_artifact": "03_raw_fetches/aussiebiolabs/catalog_1.md",
+      "evidence_entry_id": "claim-9"
+    },
+    {
+      "sku_id": "aussiebiolabs:aod-9604-10mg",
+      "name": "AOD-9604 (10 mg)",
+      "peptide_canonical": "AOD-9604",
+      "peptide_variant": "uncertain",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": "uncertain",
+      "sale_observed_at": "2026-05-07T19:43:05Z",
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://aussiebio.com.au/product/aod-9604-10-mg/",
+      "raw_artifact": "03_raw_fetches/aussiebiolabs/catalog_1.md",
+      "evidence_entry_id": "claim-9"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "aussiebiolabs,Aussiebiolabs,aussiebiolabs.com.au,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list, classified as Tier 3: International vendor shipping to US (Australia).,3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/aussiebiolabs/",
+  "evidence_file": "evidence/aussiebiolabs.txt",
+  "uncertainty_notes": "checkout_flow.account_required: checkout requires visiting aussiebio.com.au shop (different domain from aussiebiolabs.com.au); checkout walk not completed per §11 bounds — no account created; checkout_flow.guest_checkout_available: same reason; checkout_flow.fields_collected: not observed; checkout_flow.id_verification_present: compliance page states 'All customers must provide their Research Institution / Laboratory Name and Research Accreditation Number / ID during checkout' — this indicates institutional verification is required but field-level checkout walk not completed; checkout_flow.payment_methods_accepted: not fetched; checkout_flow.shipping_cost_structure: domestic Australia only, carrier is express post, cost structure not visible without checkout; tech_stack.cdn: response headers not captured in curl_fetch text output; tech_stack.analytics_tools_loaded: source code not read for this profile (Tier 3 baseline); tech_stack.marketing_pixels_present: same reason; product_page_anatomy.exact_disclaimer_language: product page at aussiebio.com.au/product/bpc-157-5mg/ showed no standalone disclaimer text beyond description — WooCommerce platform does not render footer disclaimer on product pages in the same way as the aussiebiolabs.com.au Squarespace site; product_page_anatomy.lab_partner_named: no COA, no named lab partner found on product page; skus[*].list_price_usd: all prices on site are in AUD (Australian dollars); USD equivalent not calculable without exchange rate; per_mg_price_usd: same reason — AUD prices captured but USD conversion not performed; [INFERENCE] year_established: TOS states 'Effective date: 3 September 2025' and blog posts dated September 2025; copyright on shop says '2026 AussieBio LLC'; about page copy is present with established business language; inferred launch year is 2025 — supported by two SUPPORT_QUOTE entries in evidence; off_site_aggregators: not searched for Trustpilot or forum presence as part of this Tier 3 baseline; social_proof.testimonial_usage: review module present but 0 reviews visible on sampled product"
+}

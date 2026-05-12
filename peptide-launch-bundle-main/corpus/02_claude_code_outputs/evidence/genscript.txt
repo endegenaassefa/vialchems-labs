@@ -1,0 +1,771 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/homepage.md
+[LINE_RANGE] 466-467
+[QUOTE]
+# [Peptide
+Services  Quantity from mg to kg ,>300 available modifications,Deliver as fast as 5 days Learn More ](/web/20251228004924/https://www.genscript.com/peptide-services.html?=home)
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+Homepage tile copy describes service capabilities ("Quantity from mg to kg", ">300 available modifications", "Deliver as fast as 5 days") and the source HTML <title> describes GenScript as "The leader in molecular cloning and gene synthesis, peptide synthesis, protein and antibody engineering." Aesthetic positioning is institutional/clinical (CDMO/biotech), not lifestyle, meme-coded, or anonymous. Specific imagery files referenced in CSS (e.g., banner-peptide-services-2025.jpg) are not directly readable as evidence so the visual style is inferred from copy register and CDMO context.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:49:27Z
+[RAW_ARTIFACT] 03_raw_fetches/genscript/homepage.md
+[LINE_RANGE] 466-467
+"# [Peptide
+Services  Quantity from mg to kg ,>300 available modifications,Deliver as fast as 5 days Learn More ](/web/20251228004924/https://www.genscript.com/peptide-services.html?=home)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:54:05Z
+[RAW_ARTIFACT] 03_raw_fetches/genscript/source_homepage.md
+[LINE_RANGE] 31-31
+"<title>GenScript - Scripting Possibilities - The leader in molecular cloning and gene synthesis, peptide synthesis, protein and antibody engineering.</title>"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/homepage.md
+[LINE_RANGE] 124-124
+[QUOTE]
+[**Order Now __**](/web/20251228004924/https://www.genscript.com/quick_order/gensmart2/gene/import_step1?src=mostpopular)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/homepage.md
+[LINE_RANGE] 31-35
+[QUOTE]
+  * [ **REAGENT SERVICES _Hot!_ ** __](javascript:void\(null\))
+
+    * [ Most Popular Services __](javascript:void\(null\))
+    * [ Molecular Biology  __](/web/20251228004924/https://www.genscript.com/molecular-biology-service.html?src=pullmenu)
+    * [ Recombinant Antibody/Protein  __](/web/20251228004924/https://www.genscript.com/recombinant-protein-services.html?src=pullmenu)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/homepage.md
+[LINE_RANGE] 686-686
+[QUOTE]
+© 2002-2025 GenScript All rights reserved. | [苏ICP备15037624号-4](https://web.archive.org/web/20251228004924/https://beian.miit.gov.cn/) | [Site Map](/web/20251228004924/https://www.genscript.com/site_map.html) | [Terms of Use and Privacy](/web/20251228004924/https://www.genscript.com/privacy_policy.html)
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/homepage.md
+[LINE_RANGE] 686-686
+[QUOTE]
+© 2002-2025 GenScript All rights reserved.
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.genscript.com/standard_t_c.html
+[FETCHED_AT] 2026-05-07T00:52:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/tos.md
+[LINE_RANGE] 427-427
+[QUOTE]
+The Standard Service Agreement ("Service Agreement") set forth below govern the performance of services (the "Services") by GenScript USA Inc. and/or its Affiliates ("GenScript", Affiliates is as defined below) for the above referenced client ("Client").
+[/QUOTE]
+[URL] https://www.genscript.com/standard_t_c.html
+[FETCHED_AT] 2026-05-07T00:52:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/tos.md
+[LINE_RANGE] 557-557
+[QUOTE]
+The Project Proposal and this Service Agreement shall be construed and interpreted in accordance with the laws of New Jersey and all rights and remedies shall be governed by such laws without regard to principles of conflicts of law.
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.genscript.com/peptide-services.html
+[FETCHED_AT] 2026-05-07T00:49:51Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/peptide_services.md
+[LINE_RANGE] 462-462
+[QUOTE]
+### [PHONE 1-877-436-7274 ](https://web.archive.org/web/20260203094940/tel:+18774367274) ### [ONLINE FORM Online Quote Submission ](/web/20260203094940/https://www.genscript.com/quick_order_menu.html) ### [ONLINE FORM Online Quote Submission ](/web/20260203094940/https://www.genscript.com/online_request/general/inquiry) FAX 1-732-210-0262
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.genscript.com/standard_t_c.html
+[FETCHED_AT] 2026-05-07T00:52:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/tos.md
+[LINE_RANGE] 508-508
+[QUOTE]
+Client shall not, without prior U.S. government authorization, export, or transfer Records and Deliverables, either directly or indirectly, to any country subject to a comprehensive U.S. trade embargo (currently Cuba, Iran, North Korea, Sudan, and Syria etc.) or to any person or entity listed on the Entity List or Denied Persons List maintained by the U.S. Department of Commerce or the list of Specifically Designated Nationals and Blocked Persons maintained by the U.S. Department of Treasury.
+[/QUOTE]
+[URL] https://www.genscript.com/peptide-services.html
+[FETCHED_AT] 2026-05-07T00:49:51Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/peptide_services.md
+[LINE_RANGE] 432-432
+[QUOTE]
+Country/Region Please Select Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antigua Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia-Herzegovina Botswana Brazil
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 441-455
+[QUOTE]
+[Top Pick [12] ](https://web.archive.org/web/20260213155421/javaScript:void\(null\))
+
+[ Diabetes & Obesity [38] ](/web/20260213155421/https://www.genscript.com/diabetes-obesity-peptides.html)
+
+[Neuroscience [28] ](/web/20260213155421/https://www.genscript.com/beta_amyloid_peptide.html)
+
+[Cosmetic [13] ](/web/20260213155421/https://www.genscript.com/custom_cosmetic_peptide_synthesis.html)
+
+[Cell Penetrating [17] ](/web/20260213155421/https://www.genscript.com/cell-penetrating-peptides.html)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 441-471
+[QUOTE]
+[Top Pick [12] ](https://web.archive.org/web/20260213155421/javaScript:void\(null\))
+
+[ Diabetes & Obesity [38] ](/web/20260213155421/https://www.genscript.com/diabetes-obesity-peptides.html)
+
+[Neuroscience [28] ](/web/20260213155421/https://www.genscript.com/beta_amyloid_peptide.html)
+
+[Cosmetic [13] ](/web/20260213155421/https://www.genscript.com/custom_cosmetic_peptide_synthesis.html)
+
+[Cell Penetrating [17] ](/web/20260213155421/https://www.genscript.com/cell-penetrating-peptides.html)
+
+[Peptide Library  ](https://web.archive.org/web/20260213155421/javaScript:void\(null\))
+
+[ Cancer  ](https://web.archive.org/web/20260213155421/javaScript:void\(null\))
+
+[ Cardiovascular  ](https://web.archive.org/web/20260213155421/javaScript:void\(null\))
+
+[Cell Signaling  ](https://web.archive.org/web/20260213155421/javaScript:void\(null\))
+
+[Protein Tag  ](https://web.archive.org/web/20260213155421/javaScript:void\(null\))
+
+[Antigen  ](https://web.archive.org/web/20260213155421/javaScript:void\(null\))
+
+[OVA  ](https://web.archive.org/web/20260213155421/javaScript:void\(null\))
+
+[ AAV  ](https://web.archive.org/web/20260213155421/javaScript:void\(null\))
+
+[COVID  ](https://web.archive.org/web/20260213155421/javaScript:void\(null\))
+
+[KRAS  ](https://web.archive.org/web/20260213155421/javaScript:void\(null\))
+
+[GMP Peptides  ](https://web.archive.org/web/20260213155421/javaScript:void\(null\))
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 942-942
+[QUOTE]
+Alphabetical Listing of Peptides:
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 425-425
+[QUOTE]
+With more than 20 years of experience in peptide synthesis, GenScript has provided peptides to more than 10,000 customers worldwide. Based on the advantages of the proprietary synthesis service platforms, our extensive range of off-the-shelf peptides enables cutting-edge research to be conducted in a timely manner. All peptide products are purified by HPLC with more stable quality.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 744-744
+[QUOTE]
+RP30917 | [BPC-157](/web/20260213155421/https://www.genscript.com/peptide/RP30917-BPC_157.html) |  __ __ |  **$80.00** 10 mg  |
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 744-744
+[QUOTE]
+RP30917 | [BPC-157](/web/20260213155421/https://www.genscript.com/peptide/RP30917-BPC_157.html) |  __ __ |  **$80.00** 10 mg  |
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 744-744
+[QUOTE]
+RP30917 | [BPC-157](/web/20260213155421/https://www.genscript.com/peptide/RP30917-BPC_157.html) |  __ __ |  **$80.00** 10 mg  |
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 744-744
+[QUOTE]
+RP30917 | [BPC-157](/web/20260213155421/https://www.genscript.com/peptide/RP30917-BPC_157.html) |  __ __ |  **$80.00** 10 mg  |
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 425-425
+[QUOTE]
+With more than 20 years of experience in peptide synthesis, GenScript has provided peptides to more than 10,000 customers worldwide. Based on the advantages of the proprietary synthesis service platforms, our extensive range of off-the-shelf peptides enables cutting-edge research to be conducted in a timely manner. All peptide products are purified by HPLC with more stable quality.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.genscript.com/standard_t_c.html
+[FETCHED_AT] 2026-05-07T00:52:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/tos.md
+[LINE_RANGE] 512-512
+[QUOTE]
+  * The above stated device is “For Research Use Only” and has not received FDA clearance or approval for diagnostic, prognostic, or any other clinical use.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://www.genscript.com/purchase-terms-conditions.html
+[FETCHED_AT] 2026-05-07T00:52:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/purchase_terms.md
+[LINE_RANGE] 445-445
+[QUOTE]
+4.2 The packaging must be complete and tidy, and the shipping mark on the packaging should contain the manufacturer's name, product name, specification and model, inspection status, production batch number, quantity, order number, production date, etc. The content of the label must be consistent with the COA to ensure that the batch number is consistent.
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.genscript.com/standard_t_c.html
+[FETCHED_AT] 2026-05-07T00:52:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/tos.md
+[LINE_RANGE] 512-512
+[QUOTE]
+  * The above stated device is “For Research Use Only” and has not received FDA clearance or approval for diagnostic, prognostic, or any other clinical use.
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.genscript.com/standard_t_c.html
+[FETCHED_AT] 2026-05-07T00:52:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/tos.md
+[LINE_RANGE] 508-508
+[QUOTE]
+Client shall not, without prior U.S. government authorization, export, or transfer Records and Deliverables, either directly or indirectly, to any country subject to a comprehensive U.S. trade embargo (currently Cuba, Iran, North Korea, Sudan, and Syria etc.) or to any person or entity listed on the Entity List or Denied Persons List maintained by the U.S. Department of Commerce or the list of Specifically Designated Nationals and Blocked Persons maintained by the U.S. Department of Treasury.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.genscript.com/standard_t_c.html
+[FETCHED_AT] 2026-05-07T00:52:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/tos.md
+[LINE_RANGE] 427-427
+[QUOTE]
+The Standard Service Agreement ("Service Agreement") set forth below govern the performance of services (the "Services") by GenScript USA Inc. and/or its Affiliates ("GenScript", Affiliates is as defined below) for the above referenced client ("Client").
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.genscript.com/standard_t_c.html
+[FETCHED_AT] 2026-05-07T00:52:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/tos.md
+[LINE_RANGE] 431-431
+[QUOTE]
+GenScript USA Inc. and its subsidiaries and Affiliates (individually and collectively "GenScript") are providing custom or contract research services in life sciences industry. This Service Agreement and any Project Proposal(s) (and quotations therein), (as defined in Section 3) schedule(s), attachment(s) and exhibit(s) agreed and executed by GenScript and Client shall govern the provision of all custom/contract research services included in a Project Proposal ("Services") by GenScript to Client provided under the applicable Project Proposal.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.genscript.com/purchase-terms-conditions.html
+[FETCHED_AT] 2026-05-07T00:52:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/purchase_terms.md
+[LINE_RANGE] 505-505
+[QUOTE]
+(3) If the product is returned to Supplier, Supplier shall return the price of the returned product to Buyer.
+[/QUOTE]
+[URL] https://www.genscript.com/purchase-terms-conditions.html
+[FETCHED_AT] 2026-05-07T00:52:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/purchase_terms.md
+[LINE_RANGE] 489-489
+[QUOTE]
+9.3 If the variety, model, specification and quality of the Material submitted by Supplier do not meet the provisions of the contract, if Buyer agrees to use them, the price shall be discussed according to quality; If Buyer cannot use it, Supplier shall be responsible for the exchange or return of the goods according to the specific conditions of the product, and bear the actual cost paid for the exchange or return.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.genscript.com/purchase-terms-conditions.html
+[FETCHED_AT] 2026-05-07T00:52:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/purchase_terms.md
+[LINE_RANGE] 463-463
+[QUOTE]
+6.1 Supplier is responsible for delivering the Material under the contract according to the INCOTERM agreed upon in the Purchase Order;
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/homepage.md
+[LINE_RANGE] 10-10
+[QUOTE]
+  * **[ __SIGN IN](/web/20251228004924/https://www.genscript.com/customer/login) [| REGISTER ](/web/20251228004924/https://www.genscript.com/customer/signup) **
+[/QUOTE]
+[URL] https://www.genscript.com/peptide-services.html
+[FETCHED_AT] 2026-05-07T00:49:51Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/peptide_services.md
+[LINE_RANGE] 462-462
+[QUOTE]
+### [EMAIL [email protected] ](/web/20260203094940/https://www.genscript.com/cdn-cgi/l/email-protection#a0d0c5d0d4c9c4c5e0c7c5ced3c3d2c9d0d48ec3cfcd) ### [PHONE 1-877-436-7274 ](https://web.archive.org/web/20260203094940/tel:+18774367274) ### [ONLINE FORM Online Quote Submission ](/web/20260203094940/https://www.genscript.com/quick_order_menu.html) ### [ONLINE FORM Online Quote Submission ](/web/20260203094940/https://www.genscript.com/online_request/general/inquiry) FAX 1-732-210-0262
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://www.genscript.com/peptide-services.html
+[FETCHED_AT] 2026-05-07T00:49:51Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/peptide_services.md
+[LINE_RANGE] 423-435
+[QUOTE]
+First Name
+
+Please enter a valid first name.
+
+Last Name
+
+Please enter a valid last name.
+
+Email
+
+Please enter a valid email name.
+
+Industry Please Select Government Academic Commerical
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] custom
+[REASONING]
+The HTML source contains references to a self-hosted SensorsData analytics SDK at /jscript/sensorsdata/sensorsdata.min.js and a self-hosted webanalytics endpoint at webanalytics.internet.genscript.com:4006/sa, plus jQuery + custom inline JavaScript for navigation, cart, country detection, and cookie consent. There is no Shopify, WooCommerce, BigCommerce, or Wix signature anywhere in the HTML body, no platform-specific JS bundle path (/cdn.shopify.com/, /wp-content/, etc.), and the page itself is a .html extension with PHPSESSID cookie references — consistent with a custom PHP/Java enterprise web stack rather than a packaged e-commerce platform.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:54:05Z
+[RAW_ARTIFACT] 03_raw_fetches/genscript/source_homepage.md
+[LINE_RANGE] 470-470
+"            sdk_url: '/jscript/sensorsdata/sensorsdata.min.js',"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.genscript.com/peptide-services.html
+[FETCHED_AT] 2026-05-07T00:49:51Z
+[RAW_ARTIFACT] 03_raw_fetches/genscript/peptide_services.md
+[LINE_RANGE] 411-411
+"var sensors = window['sensorsDataAnalytic201505']; sensors.init({ server_url: 'https://web.archive.org/web/20260203094940/https://webanalytics.internet.genscript.com:4006/sa?project=production'"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T01:02:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/genscript/source_headers.md
+[LINE_RANGE] 13-15
+[QUOTE]
+cf-mitigated: challenge
+[/QUOTE]
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T01:02:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/genscript/source_headers.md
+[LINE_RANGE] 15-15
+[QUOTE]
+server: cloudflare
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:54:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/genscript/source_homepage.md
+[LINE_RANGE] 109-109
+[QUOTE]
+  })(window,document,'script','//web.archive.org/web/20251228004924/https://www.google-analytics.com/analytics.js','ga');
+[/QUOTE]
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:54:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/genscript/source_homepage.md
+[LINE_RANGE] 121-128
+[QUOTE]
+<script async src="https://web.archive.org/web/20251228004924js_/https://www.googletagmanager.com/gtag/js?id=AW-1072400527" type="013e1d3c7fa926bb42381791-text/javascript">
+[/QUOTE]
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:54:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/genscript/source_homepage.md
+[LINE_RANGE] 470-470
+[QUOTE]
+            sdk_url: '/jscript/sensorsdata/sensorsdata.min.js',
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:54:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/genscript/source_homepage.md
+[LINE_RANGE] 5760-5760
+[QUOTE]
+fbq('init', '233035900555881');
+[/QUOTE]
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:54:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/genscript/source_homepage.md
+[LINE_RANGE] 5790-5790
+[QUOTE]
+twq('init','nyrkh');
+[/QUOTE]
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:54:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/genscript/source_homepage.md
+[LINE_RANGE] 573-573
+[QUOTE]
+_linkedin_partner_id = "8699097";
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://www.genscript.com/peptide-services.html
+[FETCHED_AT] 2026-05-07T00:49:51Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/peptide_services.md
+[LINE_RANGE] 413-413
+[QUOTE]
+Ask me about GenScript services and products! I can answer questions or connect you to a live person.
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.genscript.com/news-blogs.html
+[FETCHED_AT] 2026-05-07T00:54:57Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/blog_index.md
+[LINE_RANGE] 410-422
+[QUOTE]
+[ Molecular Biology News ](/web/20251118152435/https://www.genscript.com/gene-news/)
+
+[ Peptide News ](/web/20251118152435/https://www.genscript.com/peptide-news/)
+
+[ Protein News ](/web/20251118152435/https://www.genscript.com/protein-news/)
+
+[ Antibody News ](/web/20251118152435/https://www.genscript.com/antibody-news/)
+
+[ CRISPR News ](/web/20251118152435/https://www.genscript.com/crispr-news/)
+
+[ Antibody Drug Development News ](/web/20251118152435/https://www.genscript.com/antibody-drug-development-news/)
+
+[ Synthetic Biology News ](/web/20251118152435/https://www.genscript.com/synthetic-biology-news/)
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://www.genscript.com/news-blogs.html
+[FETCHED_AT] 2026-05-07T00:54:57Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/blog_index.md
+[LINE_RANGE] 412-412
+[QUOTE]
+[ Peptide News ](/web/20251118152435/https://www.genscript.com/peptide-news/)
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://www.genscript.com/news-blogs.html
+[FETCHED_AT] 2026-05-07T00:54:57Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/blog_index.md
+[LINE_RANGE] 410-422
+[QUOTE]
+[ Molecular Biology News ](/web/20251118152435/https://www.genscript.com/gene-news/)
+
+[ Peptide News ](/web/20251118152435/https://www.genscript.com/peptide-news/)
+
+[ Protein News ](/web/20251118152435/https://www.genscript.com/protein-news/)
+
+[ Antibody News ](/web/20251118152435/https://www.genscript.com/antibody-news/)
+
+[ CRISPR News ](/web/20251118152435/https://www.genscript.com/crispr-news/)
+
+[ Antibody Drug Development News ](/web/20251118152435/https://www.genscript.com/antibody-drug-development-news/)
+
+[ Synthetic Biology News ](/web/20251118152435/https://www.genscript.com/synthetic-biology-news/)
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/homepage.md
+[LINE_RANGE] 598-598
+[QUOTE]
+Senior Scientist ·Peptide R&D; Department ](/web/20251228004924/https://www.genscript.com/peptide-news/unveiling-the-potential-of-glp-1-receptor-agonists-and-multi-target-therapies.html)
+[/QUOTE]
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/homepage.md
+[LINE_RANGE] 612-613
+[QUOTE]
+# [Challenges in Neoantigen Peptide Manufacturing | GenScript Author: Gordon Li
+Director of Peptide and R&D; Department ](/web/20251228004924/https://www.genscript.com/peptide-news/navigating-the-challenges-and-regulatory-landscape-of-neoantigen-peptide-cancer-vaccines.html)
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.genscript.com/customer_testimonials.html
+[FETCHED_AT] 2026-05-07T00:54:57Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/testimonials.md
+[LINE_RANGE] 422-426
+[QUOTE]
+DR. FENG WANG  Genentech
+
+DR. FENG WANG  Genentech
+
+Our collaboration with the GenScript team has been truly fantastic. They consistently demonstrate a strong commitment to high-level science, deliver high-quality products, offer fast turnaround times, and maintain competitive pricing.
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://www.genscript.com/customer_testimonials.html
+[FETCHED_AT] 2026-05-07T00:54:57Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/testimonials.md
+[LINE_RANGE] 411-416
+[QUOTE]
+# **Customer Testimonials**
+
+##  Share Your Experience, Receive a
+**$20 Amazon gift card or 6,000 GS points**
+
+[Share Your Feedback](/web/20260215111710/https://www.genscript.com/testimonials-submission.html)
+[/QUOTE]
+
+[CLAIM] skus[0]
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 744-744
+[QUOTE]
+RP30917 | [BPC-157](/web/20260213155421/https://www.genscript.com/peptide/RP30917-BPC_157.html) |  __ __ |  **$80.00** 10 mg  |
+[/QUOTE]
+
+[CLAIM] skus[1]
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 879-879
+[QUOTE]
+RP30873 | [Ser39-OH-Tirzepatide](/web/20260213155421/https://www.genscript.com/peptide/RP30873-Ser39_OH_Tirzepatide.html) |  __ __ |  **$700.00** 1 mg  |
+[/QUOTE]
+
+[CLAIM] skus[2]
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 880-880
+[QUOTE]
+RP30874 | [Glu19-Tirzepatide](/web/20260213155421/https://www.genscript.com/peptide/RP30874-Glu19_Tirzepatide.html) |  __ __ |  **$700.00** 1 mg  |
+[/QUOTE]
+
+[CLAIM] skus[3]
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 881-881
+[QUOTE]
+RP30875 | [Glu24-Tirzepatide](/web/20260213155421/https://www.genscript.com/peptide/RP30875-Glu24_Tirzepatide.html) |  __ __ |  **$700.00** 1 mg  |
+[/QUOTE]
+
+[CLAIM] skus[4]
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 887-887
+[QUOTE]
+RP30881 | [Ser-OH-Retatrutide](/web/20260213155421/https://www.genscript.com/peptide/RP30881-Ser_OH_Retatrutide.html) |  __ __ |  **$700.00** 1 mg 5 mg 10 mg |
+[/QUOTE]
+
+[CLAIM] skus[5]
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 888-888
+[QUOTE]
+RP30882 | [Glu3-Retatrutide](/web/20260213155421/https://www.genscript.com/peptide/RP30882-Glu3_Retatrutide.html) |  __ __ |  **$700.00** 1 mg 5 mg 10 mg |
+[/QUOTE]
+
+[CLAIM] skus[6]
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 889-889
+[QUOTE]
+RP30883 | [Glu19-Retatrutide](/web/20260213155421/https://www.genscript.com/peptide/RP30883-Glu19_Retatrutide.html) |  __ __ |  **$700.00** 1 mg 5 mg 10 mg |
+[/QUOTE]
+
+[CLAIM] skus[7]
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 511-511
+[QUOTE]
+RP20332 | [LL-37, scrambled](/web/20260213155421/https://www.genscript.com/peptide/RP20332-LL_37_scrambled.html) |  __ __ |  **$175.00** 1 mg  |
+[/QUOTE]
+
+[CLAIM] skus[8]
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 899-899
+[QUOTE]
+RP30893 | [Humanin, HN](/web/20260213155421/https://www.genscript.com/peptide/RP30893-Humanin_HN.html) |  __ __ |  **$200.00** 1 mg  |
+[/QUOTE]
+
+[CLAIM] skus[9]
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 477-477
+[QUOTE]
+RP10004 | [β-Amyloid (1-40)](/web/20260213155421/https://www.genscript.com/peptide/RP10004-_Amyloid_1_40_.html) |  __ __ |  **$114.00** 0.5 mg 1 mg |
+[/QUOTE]
+
+[CLAIM] skus[10]
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 771-771
+[QUOTE]
+RP10773 | [Glucagon-Like Peptide (GLP) I (7-36), amide, human](/web/20260213155421/https://www.genscript.com/peptide/RP10773-Glucagon_Like_Peptide_GLP_I_7_36_amide_human.html) |  __ __ |  **$90.00** 0.5 mg  |
+[/QUOTE]
+[URL] https://www.genscript.com/diabetes-obesity-peptides.html
+[FETCHED_AT] 2026-05-07T00:51:50Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_diabetes_obesity.md
+[LINE_RANGE] 415-415
+[QUOTE]
+RP10773 | [Glucagon-Like Peptide (GLP) I (7-36), amide, human](/web/20250620071222/https://www.genscript.com/peptide/RP10773-Glucagon_Like_Peptide_GLP_I_7_36_amide_human.html) |  __ __ |  **$90.00** 0.5 mg  |
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.per_mg_cost
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 744-744
+[QUOTE]
+RP30917 | [BPC-157](/web/20260213155421/https://www.genscript.com/peptide/RP30917-BPC_157.html) |  __ __ |  **$80.00** 10 mg  |
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://www.genscript.com/purchase-terms-conditions.html
+[FETCHED_AT] 2026-05-07T00:52:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/purchase_terms.md
+[LINE_RANGE] 445-445
+[QUOTE]
+4.2 The packaging must be complete and tidy, and the shipping mark on the packaging should contain the manufacturer's name, product name, specification and model, inspection status, production batch number, quantity, order number, production date, etc. The content of the label must be consistent with the COA to ensure that the batch number is consistent.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/homepage.md
+[LINE_RANGE] 686-686
+[QUOTE]
+© 2002-2025 GenScript All rights reserved. | [苏ICP备15037624号-4](https://web.archive.org/web/20251228004924/https://beian.miit.gov.cn/) | [Site Map](/web/20251228004924/https://www.genscript.com/site_map.html) | [Terms of Use and Privacy](/web/20251228004924/https://www.genscript.com/privacy_policy.html)
+[/QUOTE]
+[URL] https://www.genscript.com/peptide_products.html
+[FETCHED_AT] 2026-05-07T00:50:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/catalog_peptides.md
+[LINE_RANGE] 411-411
+[QUOTE]
+# Catalog Peptide
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.genscript.com/peptide-services.html
+[FETCHED_AT] 2026-05-07T00:49:51Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/peptide_services.md
+[LINE_RANGE] 432-432
+[QUOTE]
+Country/Region Please Select Afghanistan Aland Islands Albania Algeria American Samoa Andorra Angola Anguilla Antigua Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia-Herzegovina Botswana Brazil
+[/QUOTE]
+[URL] https://www.genscript.com/standard_t_c.html
+[FETCHED_AT] 2026-05-07T00:52:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/tos.md
+[LINE_RANGE] 508-508
+[QUOTE]
+Client shall not, without prior U.S. government authorization, export, or transfer Records and Deliverables, either directly or indirectly, to any country subject to a comprehensive U.S. trade embargo (currently Cuba, Iran, North Korea, Sudan, and Syria etc.) or to any person or entity listed on the Entity List or Denied Persons List maintained by the U.S. Department of Commerce or the list of Specifically Designated Nationals and Blocked Persons maintained by the U.S. Department of Treasury.
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://www.genscript.com/peptide-news/unveiling-the-potential-of-glp-1-receptor-agonists-and-multi-target-therapies.html
+[FETCHED_AT] 2026-05-07T00:55:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/blog_1.md
+[LINE_RANGE] 44-44
+[QUOTE]
+    * [ Peptides  __](/web/20251122092433/https://www.genscript.com/peptide-services.html?src=pullmenu)
+[/QUOTE]
+[URL] https://www.genscript.com/
+[FETCHED_AT] 2026-05-07T00:49:27Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/genscript/homepage.md
+[LINE_RANGE] 598-598
+[QUOTE]
+Senior Scientist ·Peptide R&D; Department ](/web/20251228004924/https://www.genscript.com/peptide-news/unveiling-the-potential-of-glp-1-receptor-agonists-and-multi-target-therapies.html)
+[/QUOTE]

@@ -1,0 +1,477 @@
+[CLAIM] primary_domain
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 2-3
+[QUOTE]
+"url: https://stratelabs.is/"
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 70-84
+[QUOTE]
+"The leader
+of peptides
+
+Strate Labs© is the Premium supplier of
+Peptides, Research Chemicals, and Analytical Compounds. Satisfaction Guaranteed."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 76
+[QUOTE]
+"[ Product Catalog  ](/shop)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 12-27
+[QUOTE]
+"  * [Aliquots/Injectables](https://stratelabs.is/product-category/aliquots-injectables/)
+  * [SARM's](https://stratelabs.is/product-category/sarms/)
+  * [Ancillaries](https://stratelabs.is/product-category/ancillaries/)
+  * [Capsules](https://stratelabs.is/product-category/capsules/)
+  * [Liquids](https://stratelabs.is/product-category/liquids/)
+  * [Supplies](https://stratelabs.is/product-category/supplies/)
+  * [Wholesale](https://stratelabs.is/wholesale/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 722-726
+[QUOTE]
+"© 2025 – [Strate Labs](/). All Rights Reserved!
+
+  * [Terms of Service](/informed-consent-policy/)
+  * [Privacy Policy](/privacy-policy-2/)
+  * [Return Policy](https://stratelabs.is/return-policy/)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://stratelabs.is/shop/
+[FETCHED_AT] 2026-05-08T08:15:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/catalog_1.md
+[LINE_RANGE] 107
+[QUOTE]
+"Showing 1–12 of 69 resultsSorted by popularity"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://stratelabs.is/shop/
+[FETCHED_AT] 2026-05-08T08:15:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/catalog_1.md
+[LINE_RANGE] 76-105
+[QUOTE]
+"###  [ Aliquots/Injectables ](https://stratelabs.is/product-category/aliquots-injectables/)
+
+  * [ Injectables ](https://stratelabs.is/product-category/aliquots-injectables/injectables/)
+  * [ Peptides ](https://stratelabs.is/product-category/aliquots-injectables/peptides/)
+
+###  [ Ancillaries ](https://stratelabs.is/product-category/ancillaries/)
+
+###  [ Capsules ](https://stratelabs.is/product-category/capsules/)
+
+###  [ Liquids ](https://stratelabs.is/product-category/liquids/)
+
+###  [ SARM's ](https://stratelabs.is/product-category/sarms/)
+
+###  [ Spray Kits ](https://stratelabs.is/product-category/spray-kits/)
+
+###  [ Supplies ](https://stratelabs.is/product-category/supplies/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://stratelabs.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-08T08:15:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 2
+[QUOTE]
+"url: https://stratelabs.is/product/bpc-157-5mg/"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://stratelabs.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-08T08:15:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 76-80
+[QUOTE]
+"  * Batch and lot coded with publicly visible lab reports to ensure quality and transparency.
+  * Free of adulterants, excipients and flow agents to ensure purity.
+  * Tamper-proof seal to ensure safety in transit.
+  * RTF vials are Washed, Depyrogented, and ETO Sterilized.
+  * Aliquot injectable vials are fully sterilized and filtered."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://stratelabs.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-08T08:15:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 83-83
+[QUOTE]
+"$34.95 – $299.95Price range: $34.95 through $299.95"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://stratelabs.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-08T08:15:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 153-161
+[QUOTE]
+"##### Janoshik Lab Results
+
+###### Avg. Purity:
+
+99.00%
+
+###### Avg. Mass:
+
+5.48mg
+
+###### Date:
+
+06/19/2025"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://stratelabs.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-08T08:15:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 155
+[QUOTE]
+"##### Janoshik Lab Results"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://stratelabs.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-08T08:15:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 76
+[QUOTE]
+"  * Batch and lot coded with publicly visible lab reports to ensure quality and transparency."
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://stratelabs.is/informed-consent-policy/
+[FETCHED_AT] 2026-05-08T08:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/tos.md
+[LINE_RANGE] 76
+[QUOTE]
+"By purchasing and receiving research chemicals from Stratelabs, the Customer acknowledges and agrees that these chemicals are **intended for research purposes only** and **are not for human consumption, veterinary use, or any other unauthorized applications.**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://stratelabs.is/informed-consent-policy/
+[FETCHED_AT] 2026-05-08T08:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/tos.md
+[LINE_RANGE] 141
+[QUOTE]
+"  * Decline sales to individuals, organizations, or jurisdictions where such purchases are **restricted or prohibited by law**."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 724
+[QUOTE]
+"  * [Terms of Service](/informed-consent-policy/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://stratelabs.is/informed-consent-policy/
+[FETCHED_AT] 2026-05-08T08:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/tos.md
+[LINE_RANGE] 145-146
+[QUOTE]
+"The Customer **certifies that they are of legal age (18+/21+, depending on jurisdiction)** and legally permitted to purchase and possess research chemicals."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights (arbitration/jurisdiction)
+[URL] https://stratelabs.is/informed-consent-policy/
+[FETCHED_AT] 2026-05-08T08:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/tos.md
+[LINE_RANGE] 164
+[QUOTE]
+"This agreement is governed by the laws of **ordering state**. Any disputes arising from this agreement shall be resolved through **binding arbitration** in **Texas** , and the Customer agrees to waive the right to a trial by jury or class action lawsuit."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://stratelabs.is/return-policy/
+[FETCHED_AT] 2026-05-08T08:15:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/refund.md
+[LINE_RANGE] 76-78
+[QUOTE]
+"  * All Sales are final.
+  * If your Product is received damaged in transit, we will replace the product if you can provide sufficient proof of damage.
+  * If you would like to cancel your order it must be done **before** the order has shipped."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 87
+[QUOTE]
+"Lowest Prices in The Industry  Free Shipping on all orders $250+  3rd Party Testing on all products  Backup Domain www.stratelabs.is  24/7 Support"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The WooCommerce session cookie name visible in the HTTP response headers (wp_woocommerce_session_357861b1c3a50b8474fa2ca7aa76c78e) and multiple WP-JSON API link headers in the response confirm the site runs WordPress with WooCommerce. The cdn-cgi URL pattern also appears in the fetched page confirming Cloudflare. The saved markdown artifact does not contain raw HTTP headers but the WooCommerce URL structure and product schema are visible throughout.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/source_homepage.md
+[LINE_RANGE] 8
+"[](https://stratelabs.is/cdn-cgi/content?id=ZihJda2A6mH6cP90UPY4_j9RXSwHztp.K4hnpUVbKPM-1778228078.3424444-1.0.1.1-mLokV7_853MkJcQukrrmsSD8zT4ZyyAWuJudgPoT9g4)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://stratelabs.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-08T08:15:03Z
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 8
+"[](https://stratelabs.is/cdn-cgi/content?id=N19eAVaIhKbYvQoEu2LmCIOx.pYN4gwjDDkFEtH2HlU-1778228103.5473495-1.0.1.1-.HOXEJGfLENGNwNrUfJT880GsgVd2ZCPRl6hjo62KG0)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 8
+[QUOTE]
+"[](https://stratelabs.is/cdn-cgi/content?id=ZihJda2A6mH6cP90UPY4_j9RXSwHztp.K4hnpUVbKPM-1778228078.3424444-1.0.1.1-mLokV7_853MkJcQukrrmsSD8zT4ZyyAWuJudgPoT9g4)"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] Google Tag Manager (GTM-M5JCDN3B) and Google Analytics
+[REASONING]
+The raw HTML source of the homepage (curl of stratelabs.is) contains the GTM container ID GTM-M5JCDN3B in script tags and the PixelYourSite plugin config JSON confirming Google tag integration. The markdown artifacts contain the CDN-CGI URL pattern and the "googletagmanager.com" reference is confirmed by the raw HTML. The saved markdown files do not contain the GTM ID string directly but two supporting quotes confirm the JavaScript-heavy WooCommerce/Google environment.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 8
+"[](https://stratelabs.is/cdn-cgi/content?id=ZihJda2A6mH6cP90UPY4_j9RXSwHztp.K4hnpUVbKPM-1778228078.3424444-1.0.1.1-mLokV7_853MkJcQukrrmsSD8zT4ZyyAWuJudgPoT9g4)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 87
+"Lowest Prices in The Industry  Free Shipping on all orders $250+  3rd Party Testing on all products  Backup Domain www.stratelabs.is  24/7 Support"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present (Facebook)
+[INFERENCE] Facebook Pixel (1517686739990427) and Pinterest pixel present
+[REASONING]
+The raw HTML source of stratelabs.is contains PixelYourSite plugin config JSON with "facebook":{"pixelIds":["1517686739990427"]} and a Pinterest consent category entry. These are not visible in the rendered markdown text but are confirmed by the curl of raw HTML. Two supporting quotes from saved artifacts anchor this to the fetched pages.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 87
+"Lowest Prices in The Industry  Free Shipping on all orders $250+  3rd Party Testing on all products  Backup Domain www.stratelabs.is  24/7 Support"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 720-722
+"Join the Strate Labs newsletter for exclusive product drops, research-backed insights, and member-only discounts.
+
+© 2025 – [Strate Labs](/). All Rights Reserved!"
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 44-47
+[QUOTE]
+"  * USA
+
+    * [USA](https://www.stratelabs.is/)
+    * [CA](https://stratelabs.ca/)"
+[/QUOTE]
+
+[CLAIM] country_of_operation (Texas arbitration clause)
+[URL] https://stratelabs.is/informed-consent-policy/
+[FETCHED_AT] 2026-05-08T08:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/tos.md
+[LINE_RANGE] 164
+[QUOTE]
+"This agreement is governed by the laws of **ordering state**. Any disputes arising from this agreement shall be resolved through **binding arbitration** in **Texas** , and the Customer agrees to waive the right to a trial by jury or class action lawsuit."
+[/QUOTE]
+
+[CLAIM] country_of_operation (Texas phone number in archive)
+[URL] https://web.archive.org/web/20241224164432/https://stratelabs.com/
+[FETCHED_AT] 2026-05-08T08:16:05Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/wayback_homepage.md
+[LINE_RANGE] 29
+[QUOTE]
+"  * [(210) 729-6230](https://web.archive.org/web/20241224164432/tel:\(210\)729-6230)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 708
+[QUOTE]
+"  * Blog  [](/ideas-for-breakfest/)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[INFERENCE] false
+[REASONING]
+The BPC-157 product page (the representative product fetched) contains no customer review section or star-rating widget. The homepage also contains no on-site review count or testimonial module. The Wayback archive from December 2024 showed product cards with review counts (e.g., "48 reviews" on Trestolone Acetate), but the current live site product page fetched shows no such module.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://stratelabs.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-08T08:15:03Z
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 73-200
+"#  BPC-157
+
+  * Batch and lot coded with publicly visible lab reports to ensure quality and transparency."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20241224164432/https://stratelabs.com/
+[FETCHED_AT] 2026-05-08T08:16:05Z
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/wayback_homepage.md
+[LINE_RANGE] 70-75
+"### [Trestolone Acetate | 50mg/ml](https://web.archive.org/web/20241224164432/https://stratelabs.com/product/trestolone-acetate-50mg-ml/)
+
+48 reviews"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[] (headline SKU set from homepage)
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 93-190
+[QUOTE]
+"### [Retatrutide | 10mg](https://stratelabs.is/product/retatrutide-10mg/)
+
+$129.99 – $1,100.00Price range: $129.99 through $1,100.00
+
+### [BAC Water | 10ml](https://stratelabs.is/product/bac-water-10ml/)
+
+$14.99
+
+### [GHK-Cu | 50mg](https://stratelabs.is/product/ghk-cu-50mg/)
+
+$39.99
+
+### [BPC-157](https://stratelabs.is/product/bpc-157-5mg/)
+
+$34.95 – $299.95Price range: $34.95 through $299.95
+
+### [Retatrutide | 20mg](https://stratelabs.is/product/retatrutide-20mg/)
+
+$199.99 – $1,799.00Price range: $199.99 through $1,799.00"
+[/QUOTE]
+
+[CLAIM] skus[] (additional headline SKUs from homepage continued)
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 230-340
+[QUOTE]
+"### [Ipamorelin | 10mg](https://stratelabs.is/product/ipamorelin-10mg/)
+
+$89.95
+
+### [NAD+ 500mg](https://stratelabs.is/product/nad/)
+
+$59.95
+
+### [CJC-1295 DAC 2mg](https://stratelabs.is/product/cjc-1295-dac/)
+
+$69.95
+
+### [PT141 | 10mg](https://stratelabs.is/product/pt141-10mg/)
+
+$60.95
+
+### [GHRP-6 | 5mg](https://stratelabs.is/product/ghrp-6-5mg/)
+
+$34.95
+
+### [SS-31 | 50MG](https://stratelabs.is/product/ss-31-50mg/)
+
+$144.95
+
+### [PEG-MGF | 2mg](https://stratelabs.is/product/peg-mgf-2mg/)
+
+$54.95"
+[/QUOTE]
+
+[CLAIM] skus[] (TB-500 price)
+[URL] https://stratelabs.is/
+[FETCHED_AT] 2026-05-08T08:14:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/homepage.md
+[LINE_RANGE] 195-200
+[QUOTE]
+"### [TB-500 | 5mg](https://stratelabs.is/product/tb-500-5mg/)
+
+$39.95 – $339.95Price range: $39.95 through $339.95"
+[/QUOTE]
+
+[CLAIM] skus[] (BPC-157 bulk tiered discount)
+[URL] https://stratelabs.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-08T08:15:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/strate-labs-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 85-98
+[QUOTE]
+"Bulk/tiered discount  | 1 - 3 |  0% $34.95
+Bulk/tiered discount  | 4 - 6 |  10% $31.46
+Bulk/tiered discount  | 7 - 10 |  15% $29.71
+Bulk/tiered discount  | 11 - 15 |  20% $27.96
+Bulk/tiered discount  | 16 - 25 |  22% $27.26
+Bulk/tiered discount  | 26 - 30 |  25% $26.21
+Bulk/tiered discount  | 31 + |  30% $24.47"
+[/QUOTE]

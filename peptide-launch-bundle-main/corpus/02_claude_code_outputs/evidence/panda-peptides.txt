@@ -1,0 +1,460 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://pandapeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/homepage.md
+[LINE_RANGE] 44-45
+[QUOTE]
+# Batch-Tested Research Peptides.
+Independently verified.
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://pandapeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/homepage.md
+[LINE_RANGE] 47
+[QUOTE]
+Shop Bestsellers → [View Lab Reports](/coa/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://pandapeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/homepage.md
+[LINE_RANGE] 148-154
+[QUOTE]
+FOR RESEARCH USE ONLY. NOT FOR HUMAN USE.
+
+FDA Disclaimer: The content and products mentioned on this website have not been evaluated by the U.S. Food and Drug Administration (FDA). These products are not intended to diagnose, treat, cure, or prevent any disease. All products are sold exclusively for research, laboratory, or analytical purposes and are intended for controlled laboratory research use. The information provided is strictly for informational purposes only.
+
+All products are sold for research, laboratory, or analytical purposes only, and are intended for controlled laboratory research use.
+
+Xylo Research Systems LLC, dba Panda Peptides, is a chemical supplier. Xylo Research Systems LLC, dba Panda Peptides, is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. Xylo Research Systems LLC, dba Panda Peptides, is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic act. The statements made within this website have not been evaluated by the US Food and Drug Administration. The products we offer are not intended to diagnose, treat, cure or prevent any disease. Laboratory in-vitro experimental use only.
+[/QUOTE]
+
+[CLAIM] country_of_operation | fulfillment_country
+[URL] https://pandapeptides.com/about/
+[FETCHED_AT] 2026-05-07T22:54:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/about.md
+[LINE_RANGE] 32-36
+[QUOTE]
+  * **Legal entity:** Xylo Research Systems LLC, dba Panda Peptides
+  * **Location:** California, USA
+  * **Independent testing:** Janoshik Analytical — independent, with no financial relationship to Panda Peptides
+  * **Listing standard:** published batch reports are tied to the products they cover and collected in our Lab Reports directory
+  * **Fulfillment:** US-based order processing in 1–2 business days
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://pandapeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T22:54:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/shipping.md
+[LINE_RANGE] 55-57
+[QUOTE]
+### Domestic Shipping Only
+
+We currently only ship within the United States. International orders are not available at this time.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name | product_page_anatomy.dose_options | product_page_anatomy.list_price | product_page_anatomy.per_mg_cost (claim-5)
+[URL] https://pandapeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T22:54:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/product_1__bpc-157.md
+[LINE_RANGE] 48-64
+[QUOTE]
+# BPC-157
+
+Synthetic pentadecapeptide · High-purity lyophilized powder · Janoshik verified · Laboratory research use only
+
+[Lab reports](https://pandapeptides.com/coa/) · [Quality & testing](https://pandapeptides.com/quality-and-testing/) · [Research framework](https://pandapeptides.com/research-framework/) · [About Panda](https://pandapeptides.com/about/) · [Published research](https://pandapeptides.com/research/bpc-157/)
+
+$24.99 – $44.99Price range: $24.99 through $44.99
+
+-26%
+
+Add to Cart
+
+BPC-157
+
+$24.99 – $44.99Price range: $24.99 through $44.99
+
+**Amount** : No selection |  Choose an option5mgClear
+---|---
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://pandapeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T22:54:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/product_1__bpc-157.md
+[LINE_RANGE] 83-85
+[QUOTE]
+**Laboratory Research Use Only.** Not for use in diagnostic procedures. This product is solely intended for controlled in vitro laboratory research as a chemical reference compound. Product information is provided for educational and documentation purposes. It should only be handled by qualified laboratory professionals and must not be misrepresented, misused, or mislabeled as a drug, food, cosmetic, or medical device. By purchasing from Panda Peptides, you acknowledge that you are acquiring a research chemical.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present | product_page_anatomy.coa_hosting | product_page_anatomy.lab_partner_named | product_page_anatomy.batch_lot_transparency
+[URL] https://pandapeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T22:54:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/product_1__bpc-157.md
+[LINE_RANGE] 76-82
+[QUOTE]
+VERIFIED BATCH ACCESS
+
+### See the independent lab report before you buy.
+
+Every listing links to its current Certificate of Analysis from Janoshik Analytical, an independent third-party lab. Review the documented purity and identity/composition data for this batch.
+
+[View Lab Report →](https://verify.janoshik.com/tests/98338-BPC157_5mg_7QTVB2MVS8RJ)
+[/QUOTE]
+
+[CLAIM] skus[tb-500] (claim-6)
+[URL] https://pandapeptides.com/product/tb-500/
+[FETCHED_AT] 2026-05-07T22:54:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/product_2__tb-500.md
+[LINE_RANGE] 38-45
+[QUOTE]
+$24.99 – $44.99Price range: $24.99 through $44.99 Add to cart
+
+[ NAD+ 500mg ~~$ 49.99~~ Original price was: $49.99.$44.99Current price is: $44.99. ](https://pandapeptides.com/product/nad/)
+
+Sale!
+
+# TB-500
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu].out_of_stock (claim-7)
+[URL] https://pandapeptides.com/shop/
+[FETCHED_AT] 2026-05-07T22:53:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/catalog_1.md
+[LINE_RANGE] 68-72
+[QUOTE]
+  * [-22% _Out of stock_ ](https://pandapeptides.com/product/ghk-cu/ "GHK-Cu")
+
+[GLP Receptor Agonists](https://pandapeptides.com/product-category/glp-receptor-agonists/)
+
+[GHK-Cu](https://pandapeptides.com/product/ghk-cu/)
+
+$24.99 – $47.64Price range: $24.99 through $47.64
+
+[Get notified](https://pandapeptides.com/product/ghk-cu/) This product has multiple variants. The options may be chosen on the product page
+[/QUOTE]
+
+[CLAIM] skus[mots-c] (claim-8)
+[URL] https://pandapeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/homepage.md
+[LINE_RANGE] 116-120
+[QUOTE]
+  * [-15% ](https://pandapeptides.com/product/mots-c/ "MOTS-c")
+
+[Research Peptides](https://pandapeptides.com/product-category/research-peptides/)
+
+[MOTS-c](https://pandapeptides.com/product/mots-c/)
+
+$38.39 – $114.99Price range: $38.39 through $114.99
+[/QUOTE]
+
+[CLAIM] skus[nad-500mg] (claim-9)
+[URL] https://pandapeptides.com/shop/
+[FETCHED_AT] 2026-05-07T22:53:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/catalog_1.md
+[LINE_RANGE] 50-56
+[QUOTE]
+  * [-10% ](https://pandapeptides.com/product/nad/ "NAD+ 500mg")
+
+[Research Peptides](https://pandapeptides.com/product-category/research-peptides/)
+
+[NAD+ 500mg](https://pandapeptides.com/product/nad/)
+
+~~$ 49.99~~ Original price was: $49.99.$44.99Current price is: $44.99.
+[/QUOTE]
+
+[CLAIM] skus[glp-2] (claim-10)
+[URL] https://pandapeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/homepage.md
+[LINE_RANGE] 92-98
+[QUOTE]
+  * [-41% ](https://pandapeptides.com/product/glp-2/ "GLP-2")
+
+[GLP Receptor Agonists](https://pandapeptides.com/product-category/glp-receptor-agonists/)
+
+[GLP-2](https://pandapeptides.com/product/glp-2/)
+
+$23.99 – $139.99Price range: $23.99 through $139.99
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-tb-500-bundle] (claim-11)
+[URL] https://pandapeptides.com/shop/
+[FETCHED_AT] 2026-05-07T22:53:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/catalog_1.md
+[LINE_RANGE] 63-68
+[QUOTE]
+  * [-17% ](https://pandapeptides.com/product/bpc-157-tb-500/ "BPC-157 + TB-500")
+
+[Peptide Bundles](https://pandapeptides.com/product-category/peptide-bundles/)
+
+[BPC-157 + TB-500](https://pandapeptides.com/product/bpc-157-tb-500/)
+
+$49.99 – $87.49Price range: $49.99 through $87.49
+[/QUOTE]
+
+[CLAIM] catalog.sku_count | catalog.category_taxonomy
+[URL] https://pandapeptides.com/shop/
+[FETCHED_AT] 2026-05-07T22:53:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/catalog_1.md
+[LINE_RANGE] 30-32
+[QUOTE]
+Showing 1–12 of 36 results
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://pandapeptides.com/shop/
+[FETCHED_AT] 2026-05-07T22:53:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/catalog_1.md
+[LINE_RANGE] 63-67
+[QUOTE]
+[Peptide Bundles](https://pandapeptides.com/product-category/peptide-bundles/)
+
+[BPC-157 + TB-500](https://pandapeptides.com/product/bpc-157-tb-500/)
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://pandapeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/homepage.md
+[LINE_RANGE] 9
+[QUOTE]
+LABORATORY RESEARCH USE ONLY. NOT INTENDED FOR CONSUMPTION.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present | trust_compliance.jurisdictional_restriction_notice
+[URL] https://pandapeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/homepage.md
+[LINE_RANGE] 160-162
+[QUOTE]
+### This site requires visitors to be 21+
+
+You can learn more about peptide research on [Wikipedia](https://en.wikipedia.org/wiki/Peptide).
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url | trust_compliance.tos_highlights
+[URL] https://pandapeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T22:54:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/tos.md
+[LINE_RANGE] 39-42
+[QUOTE]
+## DISCLAIMER
+
+**YOU MUST BE AT LEAST 21 YEARS OLD TO USE THIS WEBSITE. BY PLACING AN ORDER, YOU REPRESENT AND WARRANT THAT YOU ARE AT LEAST 21 YEARS OF AGE. WE RESERVE THE RIGHT TO CANCEL ANY ORDER AND REFUSE SERVICE TO ANYONE WHO CANNOT VERIFY THEY MEET THIS AGE REQUIREMENT.**
+
+The products we offer are intended for IN-VITRO LABORATORY RESEARCH USE ONLY. The products are NOT FOR HUMAN or ANIMAL USE OR CONSUMPTION OF ANY KIND.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://pandapeptides.com/return-policy/
+[FETCHED_AT] 2026-05-07T22:54:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/refund.md
+[LINE_RANGE] 34-38
+[QUOTE]
+## No General Returns
+
+Because the products we supply are high-purity research materials that cannot be re-stocked or re-certified once they leave our chain of custody, we do not accept general returns. **This policy does not affect any rights you may have under applicable law regarding defective or misdescribed products.**
+
+Panda Peptides does provide a **30-day quality guarantee** covering damaged, incorrect, lost, or verified out-of-spec orders as described below. This quality guarantee is not a general return window.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy | checkout_flow.shipping_cost_structure | checkout_flow.international_policy | checkout_flow.shipping_carriers
+[URL] https://pandapeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T22:54:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/shipping.md
+[LINE_RANGE] 42-57
+[QUOTE]
+### Shipping Methods
+
+We currently ship domestic (US) orders via USPS Priority Mail.
+
+  * **USPS Priority Mail:** $10 flat rate
+  * **Free USPS Priority Mail:** orders $50+
+
+
+
+### Estimated Delivery Window
+
+After dispatch, USPS Priority Mail typically arrives in 1-3 business days. Most orders arrive within 2-5 business days total, including processing time.
+
+### Carriers
+
+Orders normally ship via USPS Priority Mail. We may substitute an equivalent service only when necessary to complete delivery.
+
+### Domestic Shipping Only
+
+We currently only ship within the United States. International orders are not available at this time.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://pandapeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T22:54:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/product_1__bpc-157.md
+[LINE_RANGE] 72
+[QUOTE]
+ACH Bank Transfer  Cash App Debit
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://pandapeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/homepage.md
+[LINE_RANGE] 1-10
+[QUOTE]
+Xylo Research Systems LLC, dba Panda Peptides, is a chemical supplier.
+[/QUOTE]
+
+[INFERENCE] tech_stack.platform_signal = woocommerce
+[SUPPORT_QUOTE] artifact=03_raw_fetches/panda-peptides/homepage.md lines=1-5
+wp-content/uploads/2026/02/panda-og-image.png
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE] artifact=live_source_curl lines=1-5
+body ul.products li.product.cgkit-swatch-loading .woocommerce-image__wrapper
+[/SUPPORT_QUOTE]
+[REASONING] Both wp-content path in homepage raw fetch and explicit woocommerce CSS class in live source confirm WordPress + WooCommerce platform. CDN is Cloudflare per server header cf-ray in live HTTP response.
+[/INFERENCE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://pandapeptides.com/
+[FETCHED_AT] 2026-05-07T22:54:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/homepage.md
+[LINE_RANGE] 1-5
+[QUOTE]
+Xylo Research Systems LLC, dba Panda Peptides, is a chemical supplier.
+[/QUOTE]
+
+[INFERENCE] tech_stack.cdn = cloudflare
+[SUPPORT_QUOTE] artifact=live_HTTP_header
+cf-ray: 9f83cf4668b5cb8c-IAD
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE] artifact=live_HTTP_header
+server: cloudflare
+[/SUPPORT_QUOTE]
+[REASONING] HTTP response headers from live curl request to pandapeptides.com include cf-ray and server: cloudflare, confirming Cloudflare CDN/proxy.
+[/INFERENCE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://pandapeptides.com/
+[FETCHED_AT] 2026-05-07T22:53:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/catalog_1.md
+[LINE_RANGE] 1-10
+[QUOTE]
+Orders $50+ ship free. Join Panda Reserve →
+[/QUOTE]
+
+[INFERENCE] tech_stack.analytics_tools_loaded = ["Google Tag Manager (GTM-M5XPGWBD)", "Google Analytics"]
+[SUPPORT_QUOTE] artifact=live_source_curl
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+	var gtm4wp_datalayer_name = "dataLayer";
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE] artifact=live_source_curl
+})(window,document,'script','dataLayer','GTM-M5XPGWBD');
+[/SUPPORT_QUOTE]
+[REASONING] Live page source includes Google Tag Manager plugin code with container ID GTM-M5XPGWBD and link preconnect to google-analytics.com, confirming GTM and GA loaded.
+[/INFERENCE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://pandapeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/homepage.md
+[LINE_RANGE] 130
+[QUOTE]
+[Trustpilot](https://www.trustpilot.com/review/pandapeptides.com)
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present | content_footprint.blog_url | content_footprint.topic_taxonomy
+[URL] https://pandapeptides.com/research/
+[FETCHED_AT] 2026-05-07T22:54:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/research.md
+[LINE_RANGE] 31-42
+[QUOTE]
+## Find published literature by compound family
+
+This library is organized for documentation review: published research context, compound identity details, and links back to batch-specific COAs where available. Panda Peptides products are sold strictly for laboratory research use only; these pages do not provide consumer-use, application, clinical-use, or non-research-use guidance.
+
+**GLP receptor research** GLP-1S, GLP-1T, GLP-2, GLP-3, GLP-1C, and related receptor-targeting compounds.
+
+**GH-axis research** CJC-1295, Ipamorelin, Sermorelin, Tesamorelin, IGF-1 LR3, HCG, HMG, and HGH 191AA.
+
+**Peptide combinations** BPC-157 + TB-500, GLOW, KLOW, and composition-focused literature references.
+
+**Identity and verification** Use [Lab Reports](/coa/), [Quality & Testing](/quality-and-testing/), and the [research evaluation guide](/research-framework/) alongside the literature.
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://pandapeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/homepage.md
+[LINE_RANGE] 155
+[QUOTE]
+Copyright © 2026 Xylo Research Systems LLC, dba Panda Peptides
+[/QUOTE]
+
+[INFERENCE] year_established = 2026
+[SUPPORT_QUOTE] artifact=03_raw_fetches/panda-peptides/homepage.md
+Copyright © 2026 Xylo Research Systems LLC, dba Panda Peptides
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE] artifact=live_source_curl
+wp-content/uploads/2026/01
+[/SUPPORT_QUOTE]
+[REASONING] Copyright notice shows 2026. Earliest wp-content upload path found in live source is 2026/01, indicating site was created in early 2026. No Wayback Machine snapshots exist for 2025 or earlier. Inference: founded/launched 2026.
+[/INFERENCE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://pandapeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/homepage.md
+[LINE_RANGE] 17-24
+[QUOTE]
+  * [Products](/shop/)
+  * [About](/about/)
+  * [Lab Reports (COAs)](/coa/)
+  * [FAQ](/faq/)
+  * [Contact](/contact-us/)
+  * [Login / Sign Up](https://pandapeptides.com/my-account/)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://pandapeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T22:54:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/panda-peptides/product_1__bpc-157.md
+[LINE_RANGE] 87-89
+[QUOTE]
+**BPC-157** is a synthetic pentadecapeptide with the sequence Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val. CAS 137525-51-0. Molecular weight approximately 1419.53 Da. Supplied as a high-purity lyophilized powder for controlled in vitro laboratory research use only.
+[/QUOTE]

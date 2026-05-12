@@ -1,0 +1,342 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://accelaminos.com/
+[FETCHED_AT] 2026-05-07T19:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/homepage.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"Research-Grade Peptides Accelerating Research with uncompromised quality."
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://accelaminos.com/
+[FETCHED_AT] 2026-05-07T19:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/homepage.md
+[LINE_RANGE] 356-356
+[QUOTE]
+"Accel Aminos is a chemical supplier. Accel Aminos is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic Act. Accel Aminos is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic Act. The statements made within this website have not been evaluated by the US Food and Drug Administration. The products we offer are not intended to diagnose, treat, cure, or prevent any disease. Human/Animal Consumption Prohibited. Laboratory/In-Vitro Experimental Use Only."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://accelaminos.com/
+[FETCHED_AT] 2026-05-07T19:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/homepage.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"Research-Grade Peptides Accelerating Research with uncompromised quality.  [View Certificates of Analysis](https://accelaminos.com/coa-library/) [Browse Products](https://accelaminos.com/shop/) __Third-Party Tested __99%+ Purity __Same/Next Day Shipping"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://accelaminos.com/
+[FETCHED_AT] 2026-05-07T19:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/homepage.md
+[LINE_RANGE] 177-181
+[QUOTE]
+"Accel Aminos supplies high-purity peptides and amino compounds developed exclusively for laboratory and scientific research. All products are carefully sourced and third party tested. Our products are manufactured with a strong focus on consistency, quality control, and reliable formulation to support research protocols and analytical studies. Built on testing, proven with results."
+[/QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country
+[URL] https://accelaminos.com/
+[FETCHED_AT] 2026-05-07T19:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/homepage.md
+[LINE_RANGE] 343-343
+[QUOTE]
+"2501 Chatham Rd #6079 Springfield, IL 62704"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name / product_page_anatomy.list_price / product_page_anatomy.description_copy_excerpt / product_page_anatomy.exact_disclaimer_language
+[URL] https://accelaminos.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T19:28:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/product_1__bpc-157-10mg.md
+[LINE_RANGE] 87-101
+[QUOTE]
+"#  BPC-157 10mg
+
+$46.00
+
+_***Important Product Information**_
+
+BPC-157 is supplied as a **lyophilized (freeze-dried) powder** and requires **reconstitution with bacteriostatic water,** which is **NOT included**. Bacteriostatic water must be purchased separately.
+
+_**🧪 Body Protective Compound – Research Peptide**_
+
+BPC-157 is a synthetic peptide composed of 15 amino acids and is commonly referenced in preclinical and laboratory research settings. It is derived from a naturally occurring protein fragment and has been widely studied for its structural properties and stability in experimental models."
+[/QUOTE]
+[URL] https://accelaminos.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T19:28:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/product_1__bpc-157-10mg.md
+[LINE_RANGE] 101-101
+[QUOTE]
+"Strictly For Research Use Only"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / product_page_anatomy.coa_hosting / product_page_anatomy.lab_partner_named / product_page_anatomy.batch_lot_transparency
+[URL] https://accelaminos.com/
+[FETCHED_AT] 2026-05-07T19:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/homepage.md
+[LINE_RANGE] 179-181
+[QUOTE]
+"####  99+% Purity Guaranteed
+
+Third Party Verified by Freedom Diagnostics"
+[/QUOTE]
+[URL] https://accelaminos.com/
+[FETCHED_AT] 2026-05-07T19:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/homepage.md
+[LINE_RANGE] 317-317
+[QUOTE]
+"Yes. All of our products have an attached batch number that goes along with the every different product. Those products are then independently tested by American third-party labs and backed with a Certificate of Analysis. Our number one focus is delivering a quality research use product you can trust."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count / catalog.category_taxonomy
+[URL] https://accelaminos.com/shop/
+[FETCHED_AT] 2026-05-07T19:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/catalog_1.md
+[LINE_RANGE] 219-219
+[QUOTE]
+"All products are sold for research, laboratory, or analytical purposes only, and are not for human or animal consumption."
+[/QUOTE]
+[URL] https://accelaminos.com/shop/
+[FETCHED_AT] 2026-05-07T19:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/catalog_1.md
+[LINE_RANGE] 57-60
+[QUOTE]
+"##### Product categories
+
+  * [Peptides](https://accelaminos.com/product-category/peptides/)"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-10mg].list_price_usd / skus[bpc-157-10mg].out_of_stock
+[URL] https://accelaminos.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T19:28:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/product_1__bpc-157-10mg.md
+[LINE_RANGE] 89-89
+[QUOTE]
+"$46.00"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-100mg].list_price_usd / skus[mots-c-10mg].list_price_usd / skus[nad-500mg].list_price_usd / skus[tesamorelin-10mg].list_price_usd / skus[na-semax-10mg].list_price_usd
+[URL] https://accelaminos.com/shop/
+[FETCHED_AT] 2026-05-07T19:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/catalog_1.md
+[LINE_RANGE] 96-184
+[QUOTE]
+"### [Tesamorelin 10mg](https://accelaminos.com/product/tesamorelin-10mg/)
+
+[Peptides](https://accelaminos.com/product-category/peptides/)
+
+$65.00
+
+[Add to cart](/shop/?add-to-cart=16149)
+
+[ ](https://accelaminos.com/product/bpc-157-10mg/)
+
+### [BPC-157 10mg](https://accelaminos.com/product/bpc-157-10mg/)
+
+[Peptides](https://accelaminos.com/product-category/peptides/)
+
+$46.00"
+[/QUOTE]
+
+[CLAIM] skus[glp2-tz].list_price_usd / skus[glp2-tz].name / product_page_anatomy for GLP2-TZ
+[URL] https://accelaminos.com/product/glp2-tz/
+[FETCHED_AT] 2026-05-07T19:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/product_2__glp2-tz.md
+[LINE_RANGE] 66-76
+[QUOTE]
+"#  GLP2-TZ
+Rated **4.67** out of 5 based on 3 customer ratings
+(3 customer reviews)
+GLP2-TZ is supplied as a **lyophilized (freeze-dried) powder** and requires **reconstitution with bacteriostatic water,** which is **NOT included**. Bacteriostatic water must be purchased separately.
+
+_**🧪 Dual-Agonist — Research Peptide**_
+
+GLP2-TZ is a dual GIP and GLP receptor agonist peptide that has been widely referenced in metabolic and endocrine-focused research models."
+[/QUOTE]
+
+[CLAIM] skus[glp3-rt].list_price_usd / skus[glp3-rt].name / product_page_anatomy for GLP3-RT
+[URL] https://accelaminos.com/product/glp3-rt/
+[FETCHED_AT] 2026-05-07T19:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/product_3__glp3-rt.md
+[LINE_RANGE] 66-80
+[QUOTE]
+"#  GLP3-RT
+Rated **5.00** out of 5 based on 1 customer rating
+(1 customer review)
+GLP3-RT is supplied as a **lyophilized (freeze-dried) powder** and requires **reconstitution with bacteriostatic water,** which is **NOT included**. Bacteriostatic water must be purchased separately.
+
+_**🧪 Triple-Agonist – Research Peptide**_
+
+GLP3-RT is a GLP, GIP, and Glucagon receptor agonist peptide that has been referenced in metabolic and endocrine-focused research models."
+[/QUOTE]
+
+[CLAIM] skus[kpv-10mg].list_price_usd / skus[cjc-ipamorelin].list_price_usd
+[URL] https://accelaminos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T19:27:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/catalog_2.md
+[LINE_RANGE] 57-78
+[QUOTE]
+"### [CJC/Ipamorelin 5/5mg](https://accelaminos.com/product/cjc-ipamorelin-5-5mg/)
+
+[Peptides](https://accelaminos.com/product-category/peptides/)
+
+$49.00
+
+[Add to cart](/shop/page/2/?add-to-cart=17500)
+
+[ ](https://accelaminos.com/product/kpv-10mg/)
+
+### [KPV 10mg](https://accelaminos.com/product/kpv-10mg/)
+
+[Peptides](https://accelaminos.com/product-category/peptides/)
+
+$46.00"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://accelaminos.com/
+[FETCHED_AT] 2026-05-07T19:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/homepage.md
+[LINE_RANGE] 319-319
+[QUOTE]
+"All products are sold for research, laboratory, or analytical purposes only, and are not for human or animal consumption."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present / trust_compliance.jurisdictional_restriction_notice
+[URL] https://accelaminos.com/
+[FETCHED_AT] 2026-05-07T19:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/homepage.md
+[LINE_RANGE] 376-380
+[QUOTE]
+"According to the FDA guidelines this website requires you to be atleast 21 years of age and a licensed research professional to proceed. Please confirm before entering. Are you over 21 years of age and part of the science/research industry?
+
+Are you over 21 years of age?
+
+No Yes"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / trust_compliance.tos_highlights
+[URL] https://accelaminos.com/terms-condition/
+[FETCHED_AT] 2026-05-07T19:32:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/tos.md
+[LINE_RANGE] 69-75
+[QUOTE]
+"You represent and warrant that you are at least **twenty-one (21) years of age** and possess the legal capacity to enter into this agreement.
+## **2\. Research Use Only (RUO) Notice**
+Accel Aminos operates exclusively under a **Research Use Only (RUO)** designation, in compliance with **21 C.F.R. § 809.10(c)(2)(i)** and related FDA guidance.
+All products supplied by Accel Aminos are intended **solely for laboratory and scientific research purposes** and are designated for **in-vitro research use only**."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://accelaminos.com/refund_returns
+[FETCHED_AT] 2026-05-07T19:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/refund.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"Returns are accepted only for unused, unopened products submitted **within 14 days** of the original purchase date. Any indication of tampering or opened packaging shall render the product ineligible for return. To initiate a return, please email **support@accelaminos.com**."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://accelaminos.com/terms-condition/
+[FETCHED_AT] 2026-05-07T19:32:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/tos.md
+[LINE_RANGE] 115-115
+[QUOTE]
+"Orders are generally processed and shipped within **one (1) to two (2) business days** following payment confirmation."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://accelaminos.com/
+[FETCHED_AT] 2026-05-07T19:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/homepage.md
+[LINE_RANGE] 58-58
+[QUOTE]
+"Free Shipping Over $250"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://accelaminos.com/
+[FETCHED_AT] 2026-05-07T19:35:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/source_homepage.md
+[LINE_RANGE] 18-20
+[QUOTE]
+"<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+/*# sourceURL=woocommerce-inline-inline-css */"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present / tech_stack.analytics_tools_loaded
+[URL] https://accelaminos.com/
+[FETCHED_AT] 2026-05-07T19:35:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/source_homepage.md
+[LINE_RANGE] 53-55
+[QUOTE]
+"fbq('init', '915699020815303', {}, {
+    "agent": "woocommerce_0-10.7.0-3.6.3"
+});"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews / social_proof.testimonial_usage
+[URL] https://accelaminos.com/product/glp2-tz/
+[FETCHED_AT] 2026-05-07T19:30:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/product_2__glp2-tz.md
+[LINE_RANGE] 66-68
+[QUOTE]
+"#  GLP2-TZ
+Rated **4.67** out of 5 based on 3 customer ratings
+(3 customer reviews)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://accelaminos.com/
+[FETCHED_AT] 2026-05-07T19:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/homepage.md
+[LINE_RANGE] 354-354
+[QUOTE]
+"[Trustpilot](https://www.trustpilot.com/review/accelaminos.com)"
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+Copyright footer reads "Copyright 2025, Accel Aminos. All Rights Reserved." and earliest product image upload paths reference /2025/12/ (December 2025), suggesting the site launched in late 2025. No earlier date found anywhere on the site.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://accelaminos.com/
+[FETCHED_AT] 2026-05-07T19:25:00Z
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/homepage.md
+[LINE_RANGE] 352-352
+"Copyright 2025, Accel Aminos. All Rights Reserved."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://accelaminos.com/
+[FETCHED_AT] 2026-05-07T19:35:32Z
+[RAW_ARTIFACT] 03_raw_fetches/accelaminos/source_homepage.md
+[LINE_RANGE] 8-8
+"<link rel="preload" href="https://accelaminos.com/wp-content/uploads/2025/12/logo-black-text@2x-100-e1767085575424.jpg" as="image" />"
+[/SUPPORT_QUOTE]

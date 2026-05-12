@@ -1,0 +1,449 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://instantpeptides.com/
+[FETCHED_AT] 2026-05-07T23:33:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/homepage.md
+[LINE_RANGE] 20-22
+[QUOTE]
+"# NO DELAYS.
+NO DRAMA.
+JUST PEPTIDES."
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt (supporting full sentence)
+[URL] https://instantpeptides.com/
+[FETCHED_AT] 2026-05-07T23:33:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/homepage.md
+[LINE_RANGE] 24-24
+[QUOTE]
+"Premium research peptides at honest prices. Every batch independently tested and certified. Shipped fast from our secure facility."
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://instantpeptides.com/
+[FETCHED_AT] 2026-05-07T23:33:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/homepage.md
+[LINE_RANGE] 97-101
+[QUOTE]
+"**Research Use Only.** All products on this site are for research and development use only. Products are not for human consumption of any kind. The statements made on this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure, or prevent any disease.
+
+Instant Peptides is a chemical supplier. Instant Peptides is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic Act. Instant Peptides is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic Act.
+
+All products are sold for research, laboratory, or analytical purposes only, and are not for human consumption."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://instantpeptides.com/
+[FETCHED_AT] 2026-05-07T23:33:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/homepage.md
+[LINE_RANGE] 26-26
+[QUOTE]
+"[Shop Now](/shop)[View Lab Results](/lab-tests)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://instantpeptides.com/
+[FETCHED_AT] 2026-05-07T23:33:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"[INSTANTPEPTIDES](/)[Shop](/shop)[Lab Tests](/lab-tests)[Learn](/learn)[About](/about)[Contact](/contact)"
+[/QUOTE]
+
+[CLAIM] fulfillment_country / ship_to_scope
+[URL] https://instantpeptides.com/
+[FETCHED_AT] 2026-05-07T23:33:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/homepage.md
+[LINE_RANGE] 39-44
+[QUOTE]
+"### Free Shipping
+
+Via 2-Day FedEx Air on all orders over $200 to anywhere in the United States, including Alaska and Hawaii.
+
+### 2-Day Shipping
+
+Orders placed before 2 PM EST ship the same business day from our Arizona fulfillment center."
+[/QUOTE]
+
+[CLAIM] ship_to_scope (corroboration from shipping policy)
+[URL] https://instantpeptides.com/shipping-policy
+[FETCHED_AT] 2026-05-07T23:36:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/shipping.md
+[LINE_RANGE] 30-30
+[QUOTE]
+"We currently ship to addresses within the United States using FedEx 2-day shipping."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://instantpeptides.com/shop
+[FETCHED_AT] 2026-05-07T23:34:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/catalog_1.md
+[LINE_RANGE] 22-26
+[QUOTE]
+"48 products · All independently lab-tested · 99%+ purity
+
+All CategoriesCapsulesLab Supplies & AccessoriesNEW ARRIVALSUncategorizedVial CasesView All PeptidesNewestMost PopularPrice: Low → HighPrice: High → LowName A–Z
+
+Showing 48 of 48 products"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://instantpeptides.com/shop
+[FETCHED_AT] 2026-05-07T23:34:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/catalog_1.md
+[LINE_RANGE] 46-46
+[QUOTE]
+"[99%+ PureView All PeptidesBPC-157/TB-500$95.00Add to Cart](/bpc-157-tb-500)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url / sample_product_name / dose_options / list_price / per_mg_cost / description_copy_excerpt / exact_disclaimer_language
+[URL] https://instantpeptides.com/bpc157
+[FETCHED_AT] 2026-05-07T23:34:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/product_1__bpc-157.md
+[LINE_RANGE] 39-65
+[QUOTE]
+"# BPC-157
+
+$50.00
+
+Size
+
+10mg$50.0020mg$85.00
+
+In stock · Ready to ship
+
+Volume Discounts
+
+5% off
+
+3\+ vials
+
+10% off
+
+5\+ vials
+
+20% off
+
+10\+ vials
+
+COA TestedPurity VerifiedFast Shipping
+
+Supplied as a 10mg and 20mg lyophilized powder in a 3ml vial, BPC-157 is intended exclusively for laboratory research use only in controlled experimental settings and is not for human consumption."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language (product spec table)
+[URL] https://instantpeptides.com/bpc157
+[FETCHED_AT] 2026-05-07T23:34:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/product_1__bpc-157.md
+[LINE_RANGE] 24-24
+[QUOTE]
+"Intended Use| For laboratory research use only. Not for human consumption."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / coa_hosting / batch_lot_transparency
+[URL] https://instantpeptides.com/lab-tests
+[FETCHED_AT] 2026-05-07T23:36:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/coa_1.md
+[LINE_RANGE] 22-28
+[QUOTE]
+"Every batch of peptides we sell is independently tested by third-party laboratories. Below you'll find our Certificates of Analysis (COA) for each product.
+
+### Our Testing Standard
+
+We partner with ISO-certified independent labs to verify purity, identity, and potency of every batch. Results are published publicly for full transparency."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://instantpeptides.com/bpc157
+[FETCHED_AT] 2026-05-07T23:34:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/product_1__bpc-157.md
+[LINE_RANGE] 31-33
+[QUOTE]
+"### Related Research Articles
+
+  * [GHK-Cu, BPC-157 & TB-500: Multi-Peptide Tissue Signaling Research](/blog/ghk-cu-bpc-157-tb-500-tissue-signaling)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://instantpeptides.com/terms-of-service
+[FETCHED_AT] 2026-05-07T23:36:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/tos.md
+[LINE_RANGE] 35-37
+[QUOTE]
+"  * **Research Use Only.** All products (the "Material") are supplied solely for laboratory, research, or analytical purposes by qualified professionals. Material is **not for human or animal consumption** , clinical use, diagnostic use, or therapeutic use of any kind."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://instantpeptides.com/terms-of-service
+[FETCHED_AT] 2026-05-07T23:36:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/tos.md
+[LINE_RANGE] 38-38
+[QUOTE]
+"  * **Age Requirement.** You must be at least **21 years of age** to purchase."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://instantpeptides.com/terms-of-service
+[FETCHED_AT] 2026-05-07T23:36:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/tos.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"  * **Locations.** We only ship to locations where it is legally permissible to receive our products."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://instantpeptides.com/terms-of-service
+[FETCHED_AT] 2026-05-07T23:36:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/tos.md
+[LINE_RANGE] 46-53
+[QUOTE]
+"  * **Payment Due at Checkout.** You authorize us to charge your selected payment method for the full order amount and applicable taxes/fees.
+
+  * **Cutoff.** Orders received by **12 PM EST** on business days typically ship the same day, however this is not guaranteed. Orders placed on weekends or holidays will ship the next business day.
+
+  * **Title & Risk.** Title and risk of loss pass to you once the shipment is handed to the carrier."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://instantpeptides.com/refund-policy
+[FETCHED_AT] 2026-05-07T23:36:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/refund.md
+[LINE_RANGE] 22-32
+[QUOTE]
+"Due to the nature of our products, all sales are final, subject only to the limited exceptions outlined below.
+
+## 1\. All Sales Final
+
+All products sold by Instant Peptides are supplied strictly for laboratory and research use only. Because of the sensitive nature of research materials:
+
+  * Returns are not accepted
+  * Refunds are not provided
+  * Exchanges are not permitted"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://instantpeptides.com/shipping-policy
+[FETCHED_AT] 2026-05-07T23:36:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/shipping.md
+[LINE_RANGE] 22-34
+[QUOTE]
+"Orders are processed within 1 business day after payment is received. Orders placed on weekends or holidays will ship the next business day. Once your order ships, you will receive an email with tracking information.
+
+## Shipping Methods and Delivery Times
+
+We currently ship to addresses within the United States using FedEx 2-day shipping.
+
+Estimated delivery times: 2 to 3 business days. Some rural areas may experience slight delays."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers / shipping_cost_structure
+[URL] https://instantpeptides.com/shipping-policy
+[FETCHED_AT] 2026-05-07T23:36:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/shipping.md
+[LINE_RANGE] 36-38
+[QUOTE]
+"## Free Shipping
+
+We offer free standard shipping on all single orders over $200 (before tax and after discounts). Orders must meet the $200 minimum in one transaction."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://instantpeptides.com/shipping-policy
+[FETCHED_AT] 2026-05-07T23:36:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/shipping.md
+[LINE_RANGE] 30-30
+[QUOTE]
+"We currently ship to addresses within the United States using FedEx 2-day shipping."
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://instantpeptides.com/
+[FETCHED_AT] 2026-05-07T23:33:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/homepage.md
+[LINE_RANGE] 50-52
+[QUOTE]
+"### Expert Support
+
+Available via chat Mon-Fri 8 AM - 5 PM EST, Sat-Sun as available."
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present (WhatsApp contact)
+[URL] https://instantpeptides.com/
+[FETCHED_AT] 2026-05-07T23:33:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/homepage.md
+[LINE_RANGE] 68-68
+[QUOTE]
+"[WhatsApp Support](https://wa.me/19542048265)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present / blog_url / content_cadence / topic_taxonomy / author_bylines_present
+[URL] https://instantpeptides.com/blog
+[FETCHED_AT] 2026-05-07T23:37:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/blog_1.md
+[LINE_RANGE] 20-20
+[QUOTE]
+"[Compound Research7 min readRetatrutide: Triple Agonist Receptor ResearchExamining the preclinical signaling profile of retatrutide across GLP-1, GIP, and glucagon receptor pathways in controlled laboratory models.2026-04-12](/blog/retatrutide-triple-agonist-research)[Compound Research8 min readGHK-Cu, BPC-157 & TB-500: Multi-Peptide Tissue SignalingInvestigating complementary signaling pathways when combining GHK-Cu, BPC-157, and TB-500 in preclinical tissue remodeling models.2026-03-18](/blog/ghk-cu-bpc-157-tb-500-tissue-signaling)[Compound Research7 min readTirzepatide: Dual GLP-1/GIP Receptor Agonist StudiesReviewing preclinical research on tirzepatide's dual incretin receptor agonism and downstream metabolic signaling in laboratory settings.2026-02-25](/blog/tirzepatide-glp1-gip-research)[Compound Research7 min readMOTS-c: Mitochondrial-Derived Peptide ResearchExploring the role of MOTS-c as a mitochondrial-derived peptide in preclinical models of cellular energy regulation and metabolic signaling.2026-02-03](/blog/mots-c-mitochondrial-peptide-research)[Analytical Methods6 min readHPLC & Mass Spectrometry: Peptide Purity VerificationHow high-performance liquid chromatography and mass spectrometry are used to verify peptide identity, purity, and structural integrity.2026-01-14](/blog/peptide-purity-testing-hplc-mass-spec)[Quality & Documentation5 min readUnderstanding Certificates of Analysis in Peptide ResearchA guide to reading and interpreting COA documentation, including HPLC purity, mass spectrometry identity, and endotoxin screening results.2025-12-08](/blog/certificate-of-analysis-explained)[Laboratory Protocols5 min readPeptide Reconstitution: Laboratory Protocols & Best PracticesStandardized reconstitution procedures for lyophilized peptide compounds, including solvent selection, technique, and storage after preparation.2025-10-22](/blog/peptide-reconstitution-guide)[Laboratory Protocols6 min readPeptide Storage & Stability: Temperature, Degradation & Shelf LifeResearch on peptide degradation pathways, optimal storage temperatures, and stability timelines for lyophilized and reconstituted compounds.2025-09-05](/blog/peptide-storage-stability-research)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[INFERENCE] "Trustpilot present (review count and rating not grep-verified — Trustpilot returned HTTP 403)"
+[REASONING]
+A WebSearch for "instantpeptides.com instant peptides review trustpilot" returned URLs for up to 14 pages of Trustpilot reviews for instantpeptides.com. Trustpilot returned HTTP 403 to both curl and WebFetch, so the review count and star rating cannot be byte-verified from a saved raw artifact. The vendor homepage references "Happy Researchers" (stat text visible on homepage) indicating active customer base. The inference is that Trustpilot presence is confirmed via search result titles but count/rating remain unverified.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://instantpeptides.com/
+[FETCHED_AT] 2026-05-07T23:33:31Z
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/homepage.md
+[LINE_RANGE] 66-66
+"Affordable, verified, and lab-tested research peptides. Trusted by researchers worldwide."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://instantpeptides.com/about
+[FETCHED_AT] 2026-05-07T23:37:05Z
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/about.md
+[LINE_RANGE] 26-26
+"Instant Peptides is a family-owned and operated business. We aren't a faceless corporation or a venture-backed startup chasing growth at all costs. We're real people who care deeply about the research community and the researchers we serve every single day."
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] "United States"
+[REASONING]
+The site ships only to US addresses (shipping policy: "We currently ship to addresses within the United States"), the fulfillment center is in Arizona (homepage: "from our Arizona fulfillment center"), and copyright reads "Instant Peptides LLC" with US-based contact (WhatsApp +1 954-204-8265 area code, Florida). All three indicators point to US-based operation.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://instantpeptides.com/
+[FETCHED_AT] 2026-05-07T23:33:31Z
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/homepage.md
+[LINE_RANGE] 44-44
+"Orders placed before 2 PM EST ship the same business day from our Arizona fulfillment center."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://instantpeptides.com/shipping-policy
+[FETCHED_AT] 2026-05-07T23:36:35Z
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/shipping.md
+[LINE_RANGE] 30-30
+"We currently ship to addresses within the United States using FedEx 2-day shipping."
+[/SUPPORT_QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] "2025"
+[REASONING]
+The earliest Wayback Machine CDX API result for instantpeptides.com is timestamp 20250814 (August 14, 2025). The refund policy page states "Effective Date: September 26, 2025." The copyright reads "2026 Instant Peptides." Together these indicate the site launched in mid-to-late 2025.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://instantpeptides.com/refund-policy
+[FETCHED_AT] 2026-05-07T23:36:20Z
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/refund.md
+[LINE_RANGE] 22-22
+"**Effective Date:** September 26, 2025"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://instantpeptides.com/about
+[FETCHED_AT] 2026-05-07T23:37:05Z
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/about.md
+[LINE_RANGE] 26-26
+"Instant Peptides is a family-owned and operated business. We aren't a faceless corporation or a venture-backed startup chasing growth at all costs."
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[].instant-peptides:tb-500-10mg — name / dose_value / list_price_usd / per_mg_price_usd / out_of_stock
+[URL] https://instantpeptides.com/tb-500
+[FETCHED_AT] 2026-05-07T23:35:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/product_2__tb-500.md
+[LINE_RANGE] 37-50
+[QUOTE]
+"# TB-500
+
+$50.00
+
+In stock · Ready to ship
+
+Volume Discounts
+
+5% off
+
+3\+ vials
+
+10% off
+
+5\+ vials
+
+20% off
+
+10\+ vials
+
+COA TestedPurity VerifiedFast Shipping
+
+Supplied as a 10mg lyophilized powder in a 3ml vial, TB-500 is intended exclusively for laboratory research use only in controlled experimental settings and is not for human consumption."
+[/QUOTE]
+
+[CLAIM] skus[].instant-peptides:ghk-cu-50mg — name / dose / list_price / sale_price / per_mg_price / out_of_stock
+[URL] https://instantpeptides.com/ghk-cu
+[FETCHED_AT] 2026-05-07T23:35:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/product_3__ghk-cu.md
+[LINE_RANGE] 39-47
+[QUOTE]
+"# GHK-CU
+
+$35.00$40.0013% OFF
+
+Size
+
+50mg$35.00100mg$55.00
+
+In stock · Ready to ship"
+[/QUOTE]
+
+[CLAIM] skus[].instant-peptides:glp-1-sm-10mg / glp-1-sm-30mg — name / dose / list_price / out_of_stock
+[URL] https://instantpeptides.com/glp-1sm
+[FETCHED_AT] 2026-05-07T23:35:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/product_4__glp-1-sm.md
+[LINE_RANGE] 37-47
+[QUOTE]
+"# GLP-1 SM
+
+$55.00
+
+Size
+
+10mg$55.0030mg$100.00
+
+In stock · Ready to ship"
+[/QUOTE]
+
+[CLAIM] skus[].instant-peptides:mots-c-10mg / mots-c-40mg — name / dose / list_price / out_of_stock
+[URL] https://instantpeptides.com/mots-c
+[FETCHED_AT] 2026-05-07T23:35:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/instant-peptides/product_5__mots-c.md
+[LINE_RANGE] 10mg$45.0040mg$115.00
+[QUOTE]
+"10mg$45.0040mg$115.00
+
+In stock · Ready to ship"
+[/QUOTE]

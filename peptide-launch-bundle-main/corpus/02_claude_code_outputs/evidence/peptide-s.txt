@@ -1,0 +1,69 @@
+[CLAIM] fetch_status / homepage fetch failure
+[URL] https://peptide-s.com
+[FETCHED_AT] 2026-05-08T06:23:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-s/homepage_attempt1_parking.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"(fetch failed)"
+[/QUOTE]
+[URL] https://peptide-s.com/lander
+[FETCHED_AT] 2026-05-08T06:23:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-s/homepage_lander_parking.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"window.LANDER_SYSTEM="PW""
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.finnrick.com/vendors/peptide-s
+[FETCHED_AT] 2026-05-08T06:23:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-s/finnrick_vendor_profile.md
+[LINE_RANGE] 10-12
+[QUOTE]
+"Finnrick has tested 128 samples from Peptide-S across 11 products."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count (inferred minimum — no direct vendor catalog available)
+[INFERENCE] at least 11 products confirmed by Finnrick third-party testing
+[REASONING]
+Finnrick's vendor profile lists 11 distinct peptide products tested from Peptide-S between Jun 2025 and Mar 2026. No vendor storefront was accessible to enumerate the full catalog independently. The count of 11 is a confirmed lower bound from third-party testing data, not a verified catalog count.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.finnrick.com/vendors/peptide-s
+[FETCHED_AT] 2026-05-08T06:23:22Z
+[RAW_ARTIFACT] 03_raw_fetches/peptide-s/finnrick_vendor_profile.md
+[LINE_RANGE] 33-35
+"Tracking 11 products
+
+128 total samples tested"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.finnrick.com/vendors/peptide-s
+[FETCHED_AT] 2026-05-08T06:23:22Z
+[RAW_ARTIFACT] 03_raw_fetches/peptide-s/finnrick_vendor_profile.md
+[LINE_RANGE] 52-62
+"[Mazdutide](/products/mazdutide/peptide-s)| A Great| 4| 7.9| 7.1| 9.2| 16 Jul 2025| 25 Nov 2025
+[Survodutide](/products/survodutide/peptide-s)| A Great| 4| 7.5| 6.5| 9.0| 16 Jul 2025| 25 Nov 2025
+[Ipamorelin](/products/ipamorelin/peptide-s)| B Good| 4| 7.5| 5.8| 9.9| 5 Aug 2025| 20 Feb 2026
+[Semaglutide](/products/semaglutide/peptide-s)| B Good| 5| 7.2| 5.6| 9.0| 16 Jul 2025| 15 Jan 2026
+[Cagrilintide](/products/cagrilintide/peptide-s)| C Okay| 4| 6.1| 4.7| 6.9| 14 Jun 2025| 25 Nov 2025
+[GHK-Cu](/products/ghk-cu/peptide-s)| C Okay| 8| 7.8| 5.0| 10.0| 16 Jul 2025| 22 Feb 2026
+[Sermorelin](/products/sermorelin/peptide-s)| C Okay| 3| 5.4| 4.4| 6.6| 24 Jul 2025| 20 Feb 2026
+[Tesamorelin](/products/tesamorelin/peptide-s)| D Poor| 7| 5.4| 3.5| 8.0| 13 Jun 2025| 15 Jan 2026
+[Tirzepatide](/products/tirzepatide/peptide-s)| D Poor| 39| 7.9| 3.4| 10.0| 9 Jun 2025| 4 Mar 2026
+[BPC-157](/products/bpc-157/peptide-s)| E Bad| 5| 6.4| 0.0| 9.7| 16 Jul 2025| 18 Sep 2025
+[Retatrutide](/products/retatrutide/peptide-s)| E Bad| 41| 7.0| 0.0| 10.0| 11 Jun 2025| 10 Mar 2026"
+[/SUPPORT_QUOTE]
+
+[CLAIM] discovery_provenance.discovery_source_quote / vendor active state
+[URL] https://www.finnrick.com/vendors
+[FETCHED_AT] 2026-05-08T06:23:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-s/finnrick_vendors_list.md
+[LINE_RANGE] 81-81
+[QUOTE]
+"[Peptide-S](/vendors/peptide-s)| toAE| 11| 128| 7.2| 0.0| 10.0| 9 Jun 2025| 10 Mar 2026"
+[/QUOTE]

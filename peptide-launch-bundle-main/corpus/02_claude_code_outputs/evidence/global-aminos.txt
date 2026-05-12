@@ -1,0 +1,783 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 92-94
+[QUOTE]
+"## FUELING HEALTH. EMPOWERING LIFE.
+
+Premium research peptides and amino compounds. Third-party tested. Fast shipping. Quality guaranteed"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 92-94
+[QUOTE]
+"## FUELING HEALTH. EMPOWERING LIFE.
+
+Premium research peptides and amino compounds. Third-party tested. Fast shipping. Quality guaranteed"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 96
+[QUOTE]
+"[ SHOP NOW ](/shop)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 20-26
+[QUOTE]
+"  * [HOME](https://globalaminos.com/)
+  * [SHOP](https://globalaminos.com/shop/)
+  * [COA](https://globalaminos.com/coa/)
+  * [FAQ](https://globalaminos.com/faq/)
+  * [ABOUT US](https://globalaminos.com/about-us/)
+  * [CONTACT](https://globalaminos.com/contact/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 180
+[QUOTE]
+"**For Research Use Only** – Products are intended solely for research and laboratory purposes, not human consumption. All batches are third-party tested with results available on product pages."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://globalaminos.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T23:07:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/product_1__bpc157-10mg.md
+[LINE_RANGE] 97-107
+[QUOTE]
+"# BPC157 10mg
+
+$64.99
+
+**Contents:** 10mg Lyophilized Powder in 3ml vial
+
+**Product Details:**
+
+
+
+Requires reconstitution solution [**(Sold Here)**](https://globalaminos.com/product/bac/)
+Concentration: **≥99%**
+**Rigorous Third-Party Testing. Check our[COA](https://globalaminos.com/coa/) page.**"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://globalaminos.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T23:07:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/product_1__bpc157-10mg.md
+[LINE_RANGE] 101
+[QUOTE]
+"$64.99"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://globalaminos.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T23:07:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/product_1__bpc157-10mg.md
+[LINE_RANGE] 103-107
+[QUOTE]
+"**Contents:** 10mg Lyophilized Powder in 3ml vial
+
+**Product Details:**
+
+
+
+Requires reconstitution solution [**(Sold Here)**](https://globalaminos.com/product/bac/)
+Concentration: **≥99%**
+**Rigorous Third-Party Testing. Check our[COA](https://globalaminos.com/coa/) page.**"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://globalaminos.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T23:07:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/product_1__bpc157-10mg.md
+[LINE_RANGE] 120-124
+[QUOTE]
+"**Disclaimer:** This product is intended exclusively for laboratory IN-VITRO RESEARCH PURPOSES ONLY and is explicitly NOT INTENDED for HUMAN or ANIMAL USE, or CONSUMPTION in any form. Products should not be used as cosmetics, food additives, chemicals, drugs, medical devices, in vitro diagnostic purposes, or for other applications not classified for research use. ALL PRODUCT INFORMATION PROVIDED IS FOR INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://globalaminos.com/coa/
+[FETCHED_AT] 2026-05-07T23:09:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/coa.md
+[LINE_RANGE] 96-138
+[QUOTE]
+"# COA
+
+## COA
+
+## GLP-T (2)
+
+10 MG
+
+[ ](https://globalaminos.com/wp-content/uploads/2025/06/glob2506100007_page-0001.jpg)
+
+## glob2506100007
+
+## CJC-1295 NO DAC
+
+5 MG
+
+[ ](https://globalaminos.com/wp-content/uploads/2025/06/glob2506100008_page-0001.jpg)
+
+## glob2506100008
+
+## TB-500
+
+10 MG
+
+[ ](https://globalaminos.com/wp-content/uploads/2025/06/glob2506100009_page-0001.jpg)
+
+## glob2506100009"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://globalaminos.com/coa/
+[FETCHED_AT] 2026-05-07T23:09:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/coa.md
+[LINE_RANGE] 104-114
+[QUOTE]
+"[ ](https://globalaminos.com/wp-content/uploads/2025/06/glob2506100007_page-0001.jpg)
+
+## glob2506100007
+
+## CJC-1295 NO DAC
+
+5 MG
+
+[ ](https://globalaminos.com/wp-content/uploads/2025/06/glob2506100008_page-0001.jpg)
+
+## glob2506100008"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://globalaminos.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T23:07:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/product_1__bpc157-10mg.md
+[LINE_RANGE] 97-190
+[QUOTE]
+"# BPC157 10mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://globalaminos.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T23:07:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/product_1__bpc157-10mg.md
+[LINE_RANGE] 155-165
+[QUOTE]
+"## Related products
+
+21 in stock
+
+[ 15%
+OFF ](https://globalaminos.com/product/tesamorelin-10mg/)
+
+##  [Tesamorelin 10mg](https://globalaminos.com/product/tesamorelin-10mg/)
+
+$75.99 [Add to cart](/product/bpc157/?add-to-cart=1262)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 8
+[QUOTE]
+"**All products on this site are for Research and Development only. Products are not intended for human consumption.**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://globalaminos.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/tos.md
+[LINE_RANGE] 116
+[QUOTE]
+"All customers MUST be at least 21 years of age to purchase our products."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://globalaminos.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/tos.md
+[LINE_RANGE] 202-204
+[QUOTE]
+"## International Notice
+
+This site is international and has international visitors, and what may be legal in one country may not be legal in another; however, any information garnered from this site does not imply or suggest any use by humans. Any replies via email or posting regarding your/my animal and using I/me/my/mine and you or yours refers to tissue samples and test subjects! My replies DO NOT imply human use, and of course, do not do anything illegal with anything on this website."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://globalaminos.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/tos.md
+[LINE_RANGE] 96-98
+[QUOTE]
+"# Terms & Conditions
+
+## Global Aminos Terms & Conditions"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://globalaminos.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/tos.md
+[LINE_RANGE] 116-170
+[QUOTE]
+"All customers MUST be at least 21 years of age to purchase our products."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://globalaminos.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/tos.md
+[LINE_RANGE] 168
+[QUOTE]
+"Due to the nature of these products, all returns must be approved and must be initiated within 14 days of delivery. Beyond 14 days, we cannot ofer and refund or exchanges."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 98-100
+[QUOTE]
+"### Free delivery
+
+Free standard delivery on all orders over $100 throughout the USA."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://globalaminos.com/checkout/
+[FETCHED_AT] 2026-05-07T23:09:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/checkout_step_1.md
+[LINE_RANGE] 78
+[QUOTE]
+"## Save an Additional 3% when you pay with Zelle... AT CHECK OUT!"
+[/QUOTE]
+
+[URL] https://globalaminos.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/tos.md
+[LINE_RANGE] 178
+[QUOTE]
+"I authorize Global Aminos to initiate a single ACH/electronic debit to my account or process payment via credit card or any of the other alternative payment methods offered at checkout in the amount of my order."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 98-100
+[QUOTE]
+"### Free delivery
+
+Free standard delivery on all orders over $100 throughout the USA."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+Raw HTML of the homepage contains references to wp-content paths and woocommerce scripts, confirming a WordPress/WooCommerce installation. The page HTML was retrieved via direct curl.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 131
+"##  [BPC157 10mg](https://globalaminos.com/product/bpc157/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://globalaminos.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T23:07:00Z
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/product_1__bpc157-10mg.md
+[LINE_RANGE] 90
+"[](https://globalaminos.com/wp-content/uploads/2025/08/BPC10mg.png)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] cloudflare
+[REASONING]
+HTTP response headers for https://globalaminos.com returned server: cloudflare and cf-ray, cf-cache-status headers, confirming Cloudflare CDN.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 1-6
+"---
+url: https://globalaminos.com
+fetched_at: 2026-05-07T23:05:00Z
+fetch_method: curl
+http_status: 200
+---"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:07:00Z
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/product_1__bpc157-10mg.md
+[LINE_RANGE] 1-6
+"---
+url: https://globalaminos.com/product/bpc157/
+fetched_at: 2026-05-07T23:07:00Z
+fetch_method: curl
+http_status: 200
+---"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] ["Google Analytics/GTM"]
+[REASONING]
+Raw HTML of homepage contained gtag and googletagmanager strings, indicating Google Analytics/GTM is loaded.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 92-94
+"## FUELING HEALTH. EMPOWERING LIFE."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://globalaminos.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T23:07:00Z
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/product_1__bpc157-10mg.md
+[LINE_RANGE] 97
+"# BPC157 10mg"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE] ["Facebook/Meta Pixel", "TikTok Pixel", "Pinterest Pixel"]
+[REASONING]
+Raw HTML of homepage contained fbq (Facebook pixel), ttq/tiktok (TikTok pixel), and pintrk/pinterest strings in script tags.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 220-226
+"[ Tiktok ](https://www.tiktok.com/@globalaminos) [ X-twitter ](https://x.com/globalaminos) [ Instagram ](https://www.instagram.com/global.aminos/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 220-226
+"[ Tiktok ](https://www.tiktok.com/@globalaminos) [ X-twitter ](https://x.com/globalaminos) [ Instagram ](https://www.instagram.com/global.aminos/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] true
+[REASONING]
+Raw HTML of homepage contained crisp string, indicating the Crisp chat widget is loaded.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 92-94
+"## FUELING HEALTH. EMPOWERING LIFE."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://globalaminos.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T23:07:00Z
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/product_1__bpc157-10mg.md
+[LINE_RANGE] 97
+"# BPC157 10mg"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 182-228
+[QUOTE]
+"Quick Links
+
+  * [ HOME ](https://globalaminos.com)
+  * [ SHOP ](/shop)
+  * [ COA ](/coa)
+  * [ ABOUT US ](/about-us)
+
+
+
+Help & Support
+
+  * [ CONTACT US ](/contact)
+  * [ FAQ ](/faq)
+  * [ TERMS & CONDITIONS ](/terms-conditions)
+  * [ PRIVACY POLICY ](/privacy-policy)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://globalaminos.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T23:07:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/product_1__bpc157-10mg.md
+[LINE_RANGE] 97-200
+[QUOTE]
+"# BPC157 10mg"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.trustpilot.com/review/globalaminos.com
+[FETCHED_AT] 2026-05-07T23:15:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 220-226
+[QUOTE]
+"[ Tiktok ](https://www.tiktok.com/@globalaminos) [ X-twitter ](https://x.com/globalaminos) [ Instagram ](https://www.instagram.com/global.aminos/)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://globalaminos.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 131-246
+[QUOTE]
+[ENUMERATION] Counted from catalog_1.md and catalog_2.md: 18 products total across two pages.
+[FILES]
+catalog_1.md: BAC 10ml, BAC 3ml, BPC157 10mg, CJC1295 5mg, GHK-Cu 50mg, Glow Blend 70mg, GLP-R (3) 30mg, GLP-S (1) 10mg, GLP-T (2) 10mg, GLP-T (2) 30mg, GLP-T (2) 60mg, Ipamorelin 5mg
+catalog_2.md: Kisspeptin-10 10mg, L-Carnitine 500mg, MOTS-C 10mg, NAD+ 500mg, TB500 10mg, Tesamorelin 10mg
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://globalaminos.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 237-243
+[QUOTE]
+"#### Categories
+
+  * [Aminos](https://globalaminos.com/product-category/aminos/)
+  * [Blends](https://globalaminos.com/product-category/blends/)
+  * [Peptides](https://globalaminos.com/product-category/peptides/)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://globalaminos.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 122-128
+[QUOTE]
+"Default sorting Sort by popularity Sort by latest Sort by price: low to high Sort by price: high to low
+
+View as:
+
+[Grid](https://globalaminos.com/shop/?view_mode=grid)
+
+[List](https://globalaminos.com/shop/?view_mode=list)
+
+ShowProducts per page122436All"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://globalaminos.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 237-243
+[QUOTE]
+"#### Categories
+
+  * [Aminos](https://globalaminos.com/product-category/aminos/)
+  * [Blends](https://globalaminos.com/product-category/blends/)
+  * [Peptides](https://globalaminos.com/product-category/peptides/)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:bpc157-10mg].list_price_usd
+[URL] https://globalaminos.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T23:07:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/product_1__bpc157-10mg.md
+[LINE_RANGE] 101
+[QUOTE]
+"$64.99"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:tb500-10mg].list_price_usd
+[URL] https://globalaminos.com/product/tb500/
+[FETCHED_AT] 2026-05-07T23:07:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/product_2__tb500-10mg.md
+[LINE_RANGE] 96-101
+[QUOTE]
+"# TB500 10mg
+
+$75.99
+
+**Contents:** 10mg Lyophilized Powder in 3ml vial"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:cjc1295-5mg].list_price_usd
+[URL] https://globalaminos.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 148-152
+[QUOTE]
+"##  [CJC1295 5mg](https://globalaminos.com/product/cjc1295/)
+
+$54.99 [Add to cart](/shop/?add-to-cart=715)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:ghk-cu-50mg].list_price_usd
+[URL] https://globalaminos.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 154-158
+[QUOTE]
+"##  [GHK-Cu 50mg](https://globalaminos.com/product/ghk-cu-50mg/)
+
+$45.99 [Add to cart](/shop/?add-to-cart=2100)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:ipamorelin-5mg].list_price_usd
+[URL] https://globalaminos.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 192-196
+[QUOTE]
+"##  [Ipamorelin 5mg](https://globalaminos.com/product/ipamorelin-5mg/)
+
+$45.99 [Add to cart](/shop/?add-to-cart=1277)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:mots-c-10mg].list_price_usd
+[URL] https://globalaminos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T23:06:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_2.md
+[LINE_RANGE] 130-136
+[QUOTE]
+"##  [MOTS-C 10mg](https://globalaminos.com/product/mots-c-10mg/)
+
+$54.99 [Add to cart](/shop/page/2/?add-to-cart=1269)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:tesamorelin-10mg].list_price_usd
+[URL] https://globalaminos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T23:06:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_2.md
+[LINE_RANGE] 148-152
+[QUOTE]
+"##  [Tesamorelin 10mg](https://globalaminos.com/product/tesamorelin-10mg/)
+
+$75.99 [Add to cart](/shop/page/2/?add-to-cart=1262)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:glp-s-10mg].list_price_usd
+[URL] https://globalaminos.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 174-178
+[QUOTE]
+"##  [GLP-S (1) 10 mg](https://globalaminos.com/product/glp-s/)
+
+$99.99 [Add to cart](/shop/?add-to-cart=719)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:glp-t-10mg].list_price_usd
+[URL] https://globalaminos.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 180-184
+[QUOTE]
+"##  [GLP-T (2) 10mg](https://globalaminos.com/product/glp-t/)
+
+$109.99 [Add to cart](/shop/?add-to-cart=721)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:glp-t-30mg].list_price_usd
+[URL] https://globalaminos.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 186-190
+[QUOTE]
+"##  [GLP-T (2) 30mg](https://globalaminos.com/product/glp-t-30mg/)
+
+$169.99 [Add to cart](/shop/?add-to-cart=2306)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:glp-t-60mg].list_price_usd
+[URL] https://globalaminos.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 130-134
+[QUOTE]
+"##  [GLP-T (2) 60mg](https://globalaminos.com/product/glp-t-60mg/)
+
+$275.99 [Add to cart](/shop/?add-to-cart=2308)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:glp-r-30mg].list_price_usd
+[URL] https://globalaminos.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 160-164
+[QUOTE]
+"##  [GLP-R (3) 30mg](https://globalaminos.com/product/glp-r-30mg/)
+
+$224.99 [Add to cart](/shop/?add-to-cart=1279)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:nad-500mg].list_price_usd
+[URL] https://globalaminos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T23:06:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_2.md
+[LINE_RANGE] 136-140
+[QUOTE]
+"##  [NAD+ 500mg](https://globalaminos.com/product/nad-500mg/)
+
+$65.99 [Add to cart](/shop/page/2/?add-to-cart=1267)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:kisspeptin10-10mg].list_price_usd
+[URL] https://globalaminos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T23:06:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_2.md
+[LINE_RANGE] 124-128
+[QUOTE]
+"##  [Kisspeptin-10 10mg](https://globalaminos.com/product/kisspeptin10-10mg/)
+
+$62.99 [Add to cart](/shop/page/2/?add-to-cart=1275)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:l-carnitine-500mg].list_price_usd
+[URL] https://globalaminos.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T23:06:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_2.md
+[LINE_RANGE] 130-134
+[QUOTE]
+"##  [L-Carnitine 500mg](https://globalaminos.com/product/l-carnitine-500mg/)
+
+$64.99 [Add to cart](/shop/page/2/?add-to-cart=1271)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:glow-70mg].list_price_usd
+[URL] https://globalaminos.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 160-164
+[QUOTE]
+"##  [Glow Blend 70mg](https://globalaminos.com/product/glow-70mg/)
+
+$119.99 [Add to cart](/shop/?add-to-cart=2103)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:bac-10ml].list_price_usd
+[URL] https://globalaminos.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 126-130
+[QUOTE]
+"##  [BAC 10ml](https://globalaminos.com/product/bac/)
+
+$11.00 [Add to cart](/shop/?add-to-cart=711)"
+[/QUOTE]
+
+[CLAIM] skus[global-aminos:bac-3ml].list_price_usd
+[URL] https://globalaminos.com/shop/
+[FETCHED_AT] 2026-05-07T23:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/catalog_1.md
+[LINE_RANGE] 131-135
+[QUOTE]
+"##  [BAC 3ml](https://globalaminos.com/product/bac-3ml/)
+
+$6.50 [Add to cart](/shop/?add-to-cart=2332)"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] uncertain
+[REASONING]
+TOS states "governed by California law" suggesting US-based operation. Vendor list CSV lists USA. However, no explicit country or address appears on the fetched pages themselves, so the field is marked uncertain with supporting inference evidence.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://globalaminos.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/tos.md
+[LINE_RANGE] 194-196
+"## Governing Law
+
+This agreement will be governed by and construed under California law without giving effect to any principles of conflicts of laws."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 100
+"Free standard delivery on all orders over $100 throughout the USA."
+[/SUPPORT_QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] uncertain
+[REASONING]
+Copyright footer reads "Copyright © 2025 Global Aminos." COA page batch IDs start with glob2506 (June 2025) and glob2508 (August 2025), consistent with a 2025 launch. No explicit founding year is stated on the site.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://globalaminos.com
+[FETCHED_AT] 2026-05-07T23:05:00Z
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/homepage.md
+[LINE_RANGE] 202
+"Copyright © 2025 Global Aminos. All rights reserved."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://globalaminos.com/coa/
+[FETCHED_AT] 2026-05-07T23:09:00Z
+[RAW_ARTIFACT] 03_raw_fetches/global-aminos/coa.md
+[LINE_RANGE] 104-106
+"[ ](https://globalaminos.com/wp-content/uploads/2025/06/glob2506100007_page-0001.jpg)
+
+## glob2506100007"
+[/SUPPORT_QUOTE]

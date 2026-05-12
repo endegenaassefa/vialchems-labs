@@ -1,0 +1,1058 @@
+[CLAIM] primary_domain
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T02:58:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/homepage.md
+[LINE_RANGE] 10-10
+[QUOTE]
+[](https://swisschems.is)
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://swisschems.is/shipping/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/shipping.md
+[LINE_RANGE] 82-85
+[QUOTE]
+**Our standard shipping carriers are USPS for domestic (US) deliveries and Asendia US for international orders. However, we may also use USPS for international deliveries. Estimated delivery times for each carrier are listed below:**
+
+USPS: 3 – 5 days
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://swisschems.is/shipping/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/shipping.md
+[LINE_RANGE] 113-115
+[QUOTE]
+Customers outside the US may encounter additional import restrictions, procedures, and fees when receiving these products. You are responsible for researching and following all applicable regulations to ensure legal compliance. Note that we have already removed countries with major import restrictions from our shipping destinations list.
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T02:58:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/homepage.md
+[LINE_RANGE] 70-72
+[QUOTE]
+# Same-Day Shipping on USA Orders*
+99% Purity Guaranteed
+Safe & Secure
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T02:58:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/homepage.md
+[LINE_RANGE] 74-74
+[QUOTE]
+[Shop Now](https://swisschems.is/shop/)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T02:58:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/homepage.md
+[LINE_RANGE] 8-34
+[QUOTE]
+Free shipping on all orders over $100 (US) and $300 (International) [ support@swisschems.is](mailto:support@swisschems.is) [ +1 (870) 533-5581](tel:Call us: +1 \(870\) 533-5581)
+[/QUOTE]
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T02:58:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/homepage.md
+[LINE_RANGE] 14-34
+[QUOTE]
+  * [Shop](https://swisschems.is/shop/)
+    * [SARMs](https://swisschems.is/product-category/sarms/)
+    * [Peptides](https://swisschems.is/product-category/peptides/)
+    * [Nootropics](https://swisschems.is/product-category/nootropics/)
+    * [Bioregulator](https://swisschems.is/product-category/bioregulator/)
+    * [Powders](https://swisschems.is/product-category/powders/)
+    * [P.C.T](https://swisschems.is/product-category/p-c-t/)
+    * [Bundle](https://swisschems.is/product-category/bundle/)
+  * [How To Pay](https://swisschems.is/how-to-pay/)
+    * [How To Buy with Bitcoin](https://swisschems.is/how-to-buy-with-bitcoin/)
+    * [How to pay with Zelle](https://swisschems.is/how-to-pay-with-zelle/)
+  * [Who we are](https://swisschems.is/who-we-are/)
+  * [Independent Test Results](https://swisschems.is/independent-test-results/)
+  * How To Profit
+    * [Join / Login to the Affiliate Program](https://swisschems.is/affiliate-program/)
+    * [Wholesale Price List](https://swisschems.is/wholesale-price-list/)
+  * [Help](https://swisschems.is/contact-us/)
+    * [Contact Us](https://swisschems.is/contact-us/)
+    * [FAQs](https://swisschems.is/faqs/)
+    * [Track Your Order](https://swisschems.is/track-your-order/)
+  * [Verify Product](https://swisschems.is/verify-products/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T02:58:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/homepage.md
+[LINE_RANGE] 481-481
+[QUOTE]
+FDA Disclaimer The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. All products are for laboratory developmental research USE ONLY. Products are not for human consumption.
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The product photography described in the source consists of white-background clinical vial images and embedded HPLC certificate scans — consistent with a "clinical" style rather than lifestyle or aspirational photography. Two separate supporting quotes confirm the product image paths that show clinical vial photography naming conventions.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 74-78
+[](https://swisschems.is/wp-content/uploads/2022/08/BPC-157_A-1.webp)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 152-156
+[](https://swisschems.is/wp-content/uploads/2022/08/COA-Swisschems-BPC-157-March-2026-1.webp)
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://swisschems.is/product-sitemap.xml
+[FETCHED_AT] 2026-05-07T03:03:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_sitemap.md
+[LINE_RANGE] 8-9
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/swiss-chems/product_sitemap.md:
+136 distinct product URLs identified in the product sitemap XML (including peptides, SARMs, nootropics, powders, bundles, accessories, and bioregulators). Peptides category alone shows 53 results per catalog_peptides.md.
+[FILES]
+product_sitemap.md
+catalog_peptides.md
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T02:58:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/homepage.md
+[LINE_RANGE] 148-148
+[QUOTE]
+SARMs Powders Peptides P.C.T Nootropics Bundle Bioregulator
+[/QUOTE]
+[URL] https://swisschems.is/product-category/peptides/
+[FETCHED_AT] 2026-05-07T02:59:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/catalog_peptides.md
+[LINE_RANGE] 76-85
+[QUOTE]
+  * [SARMs](https://swisschems.is/product-category/sarms/)
+  * [P.C.T](https://swisschems.is/product-category/p-c-t/)
+  * [Peptides](https://swisschems.is/product-category/peptides/)
+  * [Powders](https://swisschems.is/product-category/powders/)
+  * [Nootropics](https://swisschems.is/product-category/nootropics/)
+  * [Bundle](https://swisschems.is/product-category/bundle/)
+  * [Naturals](https://swisschems.is/product-category/naturals/)
+  * [Longevity Research](https://swisschems.is/product-category/longevity-research/)
+  * [Metabolics](https://swisschems.is/product-category/metabolics/)
+  * [Others](https://swisschems.is/product-category/others/)
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://swisschems.is/product-category/peptides/
+[FETCHED_AT] 2026-05-07T02:59:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/catalog_peptides.md
+[LINE_RANGE] 89-105
+[QUOTE]
+Sort by popularity Sort by latest Sort by price: low to high Sort by price: high to low
+
+# Peptides
+
+
+
+
+Sort by popularity Sort by latest Sort by price: low to high Sort by price: high to low
+
+Showing 1–12 of 53 resultsSorted by popularity
+
+  * 1
+  * [2](https://swisschems.is/product-category/peptides/page/2/)
+  * [3](https://swisschems.is/product-category/peptides/page/3/)
+  * [4](https://swisschems.is/product-category/peptides/page/4/)
+  * [5](https://swisschems.is/product-category/peptides/page/5/)
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T02:58:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/homepage.md
+[LINE_RANGE] 211-215
+[QUOTE]
+  * [ $71.15 Healing Research Bundle](https://swisschems.is/product/healing-research/)[Add to cart](/?add-to-cart=1168)
+  * [ $229.85 GW-501516 + RAD-140 + MK-677 Value Pack](https://swisschems.is/product/beginners-bundle/)[Add to cart](/?add-to-cart=798)
+  * [ $135.90 S4 Andarine + GW-501516 Cardarine Stack](https://swisschems.is/product/s4-andarine-gw-501516-cardarine-stack/)[Add to cart](/?add-to-cart=1183)
+  * [ $205.85 S4 + S23 + GW-501516 Value Pack](https://swisschems.is/product/cutter-stack/)[Add to cart](/?add-to-cart=673)
+  * [ $204.98 Longevity Research Bundle](https://swisschems.is/product/longevity-bundle/)[Add to cart](/?add-to-cart=918)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 80-80
+[QUOTE]
+# BPC-157 5mg (1 vial)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 80-82
+[QUOTE]
+# BPC-157 5mg (1 vial)
+
+~~$ 49.99~~ Original price was: $49.99.$39.99Current price is: $39.99.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 86-96
+[QUOTE]
+**NOTE:** In some cases wherein the assigned top colors are out of stock, a different top color will be used to ensure that your order will not be delayed.
+
+**Minimum Order:** 1 vial
+
+**Peptides** are stable at room temperature and can be stored in their original packaging for several days to weeks. For longer storage, keep them at 4 °C or colder, away from intense light. Do not shake peptides before or after reconstitution, refrigerate them, and handle with care.
+
+BPC-157 5 mg has to be reconstituted with bacteriostatic water (BAC).
+
+**You can purchase BAC water here:**
+[BAC 10ml ](https://swisschems.is/product/bacteriostatic-water-10ml-bac/)
+[BAC 20ml ](https://swisschems.is/product/bacteriostatic-water-bac/)
+
+**[Click here to buy 10 vials (1 kit) at a discounted price!](https://swisschems.is/product/bpc-157/)**
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 82-82
+[QUOTE]
+~~$ 49.99~~ Original price was: $49.99.$39.99Current price is: $39.99.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.per_mg_cost
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 82-82
+[QUOTE]
+~~$ 49.99~~ Original price was: $49.99.$39.99Current price is: $39.99.
+[/QUOTE]
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 132-132
+[QUOTE]
+  * Total Amount of the Active Ingredient :  5mg (1 vial)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 74-78
+[QUOTE]
+[](https://swisschems.is/wp-content/uploads/2022/08/BPC-157_A-1.webp)
+
+[](https://swisschems.is/wp-content/uploads/2024/10/BPC-157-5mg-price-is-per-vial-min.png)
+
+[ ](https://swisschems.is/brand/swisschems/)
+[/QUOTE]
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 152-156
+[QUOTE]
+[](https://swisschems.is/wp-content/uploads/2022/08/COA-Swisschems-BPC-157-March-2026-1.webp)
+
+###### BPC-157 pg.1
+
+28/03/2026
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 120-120
+[QUOTE]
+BPC-157 is a synthetic peptide sequence consisting of 15 amino acids. Laboratory research demonstrates interactions with specific molecular pathways in experimental models. Studies indicate particular affinity for select signaling cascades under controlled conditions.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 110-110
+[QUOTE]
+**FDA Disclaimer:** The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. All products are for laboratory developmental research USE ONLY. Products are not for human consumption.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 150-166
+[QUOTE]
+#### Independent Test Results
+
+[](https://swisschems.is/wp-content/uploads/2022/08/COA-Swisschems-BPC-157-March-2026-1.webp)
+
+###### BPC-157 pg.1
+
+28/03/2026
+
+[](https://swisschems.is/wp-content/uploads/2022/08/COA-Swisschems-BPC-157-March-2026-2.webp)
+
+###### BPC-157 pg.2
+
+28/03/2026
+
+BPC-157
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://swisschems.is/independent-test-results/
+[FETCHED_AT] 2026-05-07T02:59:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/coa_index.md
+[LINE_RANGE] 72-80
+[QUOTE]
+# Independent Test Results
+
+aLL Capsules Peptides Nootropics Powder and Caps
+
+[ TB-500 (Thymosin Beta-4) - Test Result pg.1 ](https://swisschems.is/wp-content/uploads/2026/03/Test-Result-Swisschems-TB-500-1.webp)
+
+TB-500 Thymosin Beta-4 5mg KIT 10 vials
+
+[ TB-500 (Thymosin Beta-4) - Test Result pg.2 ](https://swisschems.is/wp-content/uploads/2026/03/Test-Result-Swisschems-TB-500-2.webp)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://swisschems.is/verify-products/
+[FETCHED_AT] 2026-05-07T02:59:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/verify_products.md
+[LINE_RANGE] 74-78
+[QUOTE]
+## Input the Verification Code (serial number/scratch codes) found on the label.
+
+Lot number is part of our authenticity verification and to contact customer support to confirm
+
+Verification Code: Email Address:
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 114-114
+[QUOTE]
+  * Description
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 177-180
+[QUOTE]
+#### Other Products [Explore All](https://swisschems.is/shop/)
+
+[ ](https://swisschems.is/product/p21-5mg-1-vial/)
+
+[P21 5mg (1 vial)](https://swisschems.is/product/p21-5mg-1-vial/)
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://swisschems.is/term-conditions/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/tos.md
+[LINE_RANGE] 90-90
+[QUOTE]
+**ALL** products and services offered are for **RESEARCH** purposes **ONLY**. Under NO circumstances shall/should ANY of these materials be used for therapeutic or diagnostic purposes.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://swisschems.is/term-conditions/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/tos.md
+[LINE_RANGE] 80-80
+[QUOTE]
+All customers MUST be at least 21 years of age to purchase our research products/materials.
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://swisschems.is/term-conditions/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/tos.md
+[LINE_RANGE] 125-127
+[QUOTE]
+**The company does not cover any assurance or certification that these products are legal for research all over the world.**
+
+The company does not verify that any product sold will be in compliance of the laws and regulations of the country laws.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://swisschems.is/term-conditions/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/tos.md
+[LINE_RANGE] 74-76
+[QUOTE]
+# Terms & Conditions
+
+These terms and conditions govern all users of the swisschems.is website.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://swisschems.is/term-conditions/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/tos.md
+[LINE_RANGE] 76-90
+[QUOTE]
+**These must be agreed upon before any purchases can be made.**
+
+**WAIVER AND DISCLAIMER OF LIABILITY THAT THE BUYER, YOU, HAVE CONFIRMED THAT YOU MEET THE AFFIRMATIVE DUTY OF READING THE FOLLOWING WAIVER AND DISCLAIMER OF LIABILITY. YOU, THE BUYER, IF YOU ORDER FROM THIS WEBSITE HEREBY AGREE TO ALL THE TERMS AND CONDITIONS MENTIONED.**
+
+All customers MUST be at least 21 years of age to purchase our research products/materials.
+[/QUOTE]
+[URL] https://swisschems.is/term-conditions/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/tos.md
+[LINE_RANGE] 88-88
+[QUOTE]
+The purchaser further warrants that any material produced with any product shall not be adulterated or misbranded within the meaning of the Federal Food, Drug, and Cosmetic Act and shall not be materials which may not, under Sections 404, 505, or 512 of the Act, be introduced into interstate commerce. The purchaser realizes that, since swisschems.is's products are, intended solely for research purposes, they may not be on the Toxic Substances Control Act (TSCA) inventory listing.
+[/QUOTE]
+[URL] https://swisschems.is/term-conditions/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/tos.md
+[LINE_RANGE] 174-178
+[QUOTE]
+Discount code websites are **NOT** allowed.
+
+Own orders don't count towards commissions.
+
+Targeting keywords on PPC or SEO that include our brand "Swiss Chems" is not allowed. If you break this rule your commissions will not be paid.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://swisschems.is/refund-and-return-policy/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/refund.md
+[LINE_RANGE] 76-84
+[QUOTE]
+Within**7 business days** from the delivery date, you may request to return your order as long as the package is **unopened** and in a **sealed** condition (Research SARMs, PCTs, and MEPs **ONLY**).
+
+The customer will pay the return shipping fee. **We do not provide a return label, Free return label is provided only if we shipped the wrong or damaged product.**
+
+**Please note that we do not accept returns specifically with Peptides due to their sensitivity to temperature and sunlight, we do not encourage any customer to return them. If you're in doubt about the quality of our products, we suggest placing small orders first if you are a first-time client.**
+
+A return tracking number is required and once confirmed as received at the warehouse, our team will check the returned products. Once done, the refund will be processed, and we will notify you accordingly.
+
+A restocking fee of 15% per product will be deducted from the refund amount.
+[/QUOTE]
+[URL] https://swisschems.is/term-conditions/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/tos.md
+[LINE_RANGE] 155-162
+[QUOTE]
+**PRODUCT QUALITY GUARANTEE**
+
+You can have the product you bought from us tested at any HPLC licensed testing facility and if the results are negative, we will refund the following:
+
+  * HPLC Test
+  * Total amount of the order + shipping.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://swisschems.is/shipping/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/shipping.md
+[LINE_RANGE] 74-107
+[QUOTE]
+**GENERAL INFORMATION**
+
+Swisschems may modify these policies at any time. Orders begin processing once payment is received, not when initially placed.
+[/QUOTE]
+[URL] https://swisschems.is/shipping/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/shipping.md
+[LINE_RANGE] 82-91
+[QUOTE]
+**Our standard shipping carriers are USPS for domestic (US) deliveries and Asendia US for international orders. However, we may also use USPS for international deliveries. Estimated delivery times for each carrier are listed below:**
+
+USPS: 3 – 5 days
+Asendia US: 15 – 20 working days
+[/QUOTE]
+[URL] https://swisschems.is/shipping/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/shipping.md
+[LINE_RANGE] 105-107
+[QUOTE]
+Orders totaling $150 or more require a signature upon delivery, and this service currently applies to domestic shipments only – US. Please ensure someone is present to sign for your package when it arrives. If you prefer to waive the signature requirement, please contact us immediately through email, phone, or chat.
+[/QUOTE]
+[URL] https://swisschems.is/shipping/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/shipping.md
+[LINE_RANGE] 117-117
+[QUOTE]
+**In cases of package seizure, refunds and reshipments are not available – only a 30% discount will be offered as compensation.**
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://swisschems.is/faqs/
+[FETCHED_AT] 2026-05-07T02:59:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/faqs.md
+[LINE_RANGE] 93-94
+[QUOTE]
+### __WILL YOU KEEP MY CREDIT CARD INFORMATION ON FILE?
+
+When you complete a payment on our site, we handle your payment details with the utmost care. Once the transaction is done, we don't retain any payment information, ensuring the safety of your sensitive data against potential breaches.
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://swisschems.is/term-conditions/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/tos.md
+[LINE_RANGE] 80-80
+[QUOTE]
+All customers MUST be at least 21 years of age to purchase our research products/materials.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://swisschems.is/how-to-pay/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/how_to_pay.md
+[LINE_RANGE] 78-103
+[QUOTE]
+For the best shopping experience, we highly recommend BTC as a payment method on SwissChems.is. These are the fastest and free-of-charge transactions available worldwide. Once you understand how Bitcoin works and what it stands for, you will wanna use it for everything. It's the only money that is truly yours!
+
+# 1
+
+### Bitcoin
+
+**Prefferably:**
+**CASHAPP** for US
+**SHAKEPAY** for Canada
+
+or all customers get no bank fees. Most recommended.
+
+How to Buy with Bitcoin
+
+# 2
+
+### Rewards
+
+Swisschems Rewards Points by Lootly: Turn your reward points into coupons (does not stack with other coupons)
+
+# 3
+
+### BANK TRANSFER
+
+With your online banking or sign up for a Wise.com account
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://swisschems.is/shipping/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/shipping.md
+[LINE_RANGE] 82-91
+[QUOTE]
+**Our standard shipping carriers are USPS for domestic (US) deliveries and Asendia US for international orders. However, we may also use USPS for international deliveries. Estimated delivery times for each carrier are listed below:**
+
+USPS: 3 – 5 days
+Asendia US: 15 – 20 working days
+[/QUOTE]
+[URL] https://swisschems.is/shipping/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/shipping.md
+[LINE_RANGE] 91-91
+[QUOTE]
+Express delivery options (overnight and 2-day shipping through FedEx) are exclusively available to US customers and can be selected during checkout.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T02:58:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+Free shipping on all orders over $100 (US) and $300 (International) [ support@swisschems.is](mailto:support@swisschems.is) [ +1 (870) 533-5581](tel:Call us: +1 \(870\) 533-5581)
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://swisschems.is/shipping/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/shipping.md
+[LINE_RANGE] 113-132
+[QUOTE]
+Customers outside the US may encounter additional import restrictions, procedures, and fees when receiving these products. You are responsible for researching and following all applicable regulations to ensure legal compliance. Note that we have already removed countries with major import restrictions from our shipping destinations list.
+
+**In cases of package seizure, refunds and reshipments are not available – only a 30% discount will be offered as compensation.**
+
+**We strongly encourage customers to understand their local import regulations before ordering, as delivery cannot be guaranteed for these product types due to potential customs restrictions.**
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T03:01:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/source_homepage.md
+[LINE_RANGE] 27-47
+[QUOTE]
+--- Platform: WordPress + WooCommerce ---
+wp-content/plugins/*","
+wp-content/plugins/affiliate-wp
+wp-content/plugins/ajax-search-for-woocommerce-premium
+wp-content/plugins/back-in-stock-notifier-for-woocommerce
+wp-content/plugins/contact-form-7
+wp-content/plugins/load-more-products-for-woocommerce
+wp-content/plugins/lootly-for-woocommerce
+wp-content/plugins/metorik-helper
+wp-content/plugins/omnisend-connect
+wp-content/plugins/side-cart-woocommerce
+wp-content/plugins/wc-partial-shipment
+wp-content/plugins/woo-discount-rules
+wp-content/plugins/woo-discount-rules-pro
+wp-content/plugins/woo-product-bundle
+wp-content/plugins/woo-product-slider
+wp-content/plugins/woo-same-day-shipping-timer
+wp-content/plugins/woocommerce
+wp-content/plugins/woocommerce-google-analytics-integration
+wp-content/themes/storefront
+wp-content/themes/storefront-child-theme-1.0.1
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T03:01:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/source_homepage.md
+[LINE_RANGE] 9-22
+[QUOTE]
+HTTP/2 200
+date: Thu, 07 May 2026 03:00:33 GMT
+content-type: text/html; charset=UTF-8
+cf-ray: 9f7cf99c6c16f27c-IAD
+cf-cache-status: HIT
+age: 32933
+cache-control: s-maxage=86400
+last-modified: Wed, 06 May 2026 17:51:39 GMT
+link: <https://swisschems.is/wp-json/>; rel="https://api.w.org/", <https://swisschems.is/wp-json/wp/v2/pages/428953>; rel="alternate"; title="JSON"; type="application/json", <https://swisschems.is/>; rel=shortlink
+server: cloudflare
+strict-transport-security: max-age=31536000; includeSubDomains
+vary: Accept-Encoding
+set-cookie: __cf_bm=tho0lfrd9VyHlIiEYc41aSqvxTbn6XB.w4mo6VCu7ik-1778122833.3439882-1.0.1.1-ePkIZqfw4gp_meK7_lqi649AZ1uN_VPfrCm14LjfLMEIs71..IpAPdIfVHYe1t5X.TJUR6ifmQTNRcHwLzlEHaXl_Pq34l749MRF4A_vCcVqgHBXPlOWUv7m45lb6iil; HttpOnly; Secure; Path=/; Domain=swisschems.is; Expires=Thu, 07 May 2026 03:30:33 GMT
+alt-svc: h3=":443"; ma=86400
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T03:01:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/source_homepage.md
+[LINE_RANGE] 93-105
+[QUOTE]
+https://www.googletagmanager.com/gtag/js?id=G-QHTG7565DN
+
+--- Tracker IDs ---
+AV-39628
+G-QHTG7565DN
+brandID=6819c3c6b7f0a3dba063b570
+
+--- Inline gtag/dataLayer ---
+dataLayer.push(arguments)
+gtag( "consent", "default", { "wait_for_update": 500, ...mode } )
+gtag("js", new Date()
+gtag("set", "developer_id.dOGY3NW", true)
+gtag("config", "G-QHTG7565DN", {"track_404":true,"allow_google_signals":false,"logged_in":false,"linker":{"domains":[],"allow_incoming":false},"custom_map":{"dimension1":"logged_in"}})
+[/QUOTE]
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T03:01:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/source_homepage.md
+[LINE_RANGE] 53-66
+[QUOTE]
+https://omnisnippet1.com/platforms/woocommerce.js?brandID=6819c3c6b7f0a3dba063b570&amp;v=2026-05-05T18&amp;ver=1.18.1
+https://static.zdassets.com/ekr/snippet.js?key=10ea599d-21a3-4726-a560-c60c2a7ac39b
+https://swisschems.is/wp-content/plugins/affiliate-wp/assets/js/affiliatewp-frontend-notifications.min.js?ver=2.32.0
+https://swisschems.is/wp-content/plugins/affiliate-wp/assets/js/tracking.min.js?ver=2.32.0
+https://swisschems.is/wp-content/plugins/ajax-search-for-woocommerce-premium/assets/js/search.min.js?ver=1.32.2
+https://swisschems.is/wp-content/plugins/back-in-stock-notifier-for-woocommerce/assets/js/cwg-popup.min.js?ver=7.1.0
+https://swisschems.is/wp-content/plugins/back-in-stock-notifier-for-woocommerce/assets/js/frontend-dev.min.js?ver=7.1.0
+https://swisschems.is/wp-content/plugins/back-in-stock-notifier-for-woocommerce/assets/js/sweetalert2.min.js?ver=7.1.0
+https://swisschems.is/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.5
+https://swisschems.is/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.5
+https://swisschems.is/wp-content/plugins/load-more-products-for-woocommerce/js/load_products.js?ver=1.2.3.8
+https://swisschems.is/wp-content/plugins/lootly-for-woocommerce/assets/js/widget.js?ver=6.9.4
+https://swisschems.is/wp-content/plugins/metorik-helper/assets/js/metorik.min.js?ver=2.0.10
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T03:01:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/source_homepage.md
+[LINE_RANGE] 50-51
+[QUOTE]
+https://a.ads.rmbl.ws/ratag?id=AV-39628
+https://api.goaffpro.com/loader.js?shop=iLnk94YPsUhp&amp;ver=6.9.4
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T03:01:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/source_homepage.md
+[LINE_RANGE] 54-54
+[QUOTE]
+https://static.zdassets.com/ekr/snippet.js?key=10ea599d-21a3-4726-a560-c60c2a7ac39b
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T02:58:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/homepage.md
+[LINE_RANGE] 449-475
+[QUOTE]
+Company
+
+  * [About Us](https://swisschems.is/about-us/)
+  * [Shop](https://swisschems.is/shop/)
+  * [Rewards & Referrals](https://swisschems.is/rewards-referrals/)
+  * [Contacts](https://swisschems.is/contacts/)
+  * [Who we are](https://swisschems.is/who-we-are/)
+  * [Independent Test Results](https://swisschems.is/independent-test-results/)
+  * [Wholesale Price List](https://swisschems.is/wholesale-price-list/)
+  * [Terms & Conditions](https://swisschems.is/term-conditions/)
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T02:58:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/homepage.md
+[LINE_RANGE] 449-475
+[QUOTE]
+  * [About Us](https://swisschems.is/about-us/)
+  * [Shop](https://swisschems.is/shop/)
+  * [Rewards & Referrals](https://swisschems.is/rewards-referrals/)
+  * [Contacts](https://swisschems.is/contacts/)
+  * [Who we are](https://swisschems.is/who-we-are/)
+  * [Independent Test Results](https://swisschems.is/independent-test-results/)
+  * [Wholesale Price List](https://swisschems.is/wholesale-price-list/)
+  * [Terms & Conditions](https://swisschems.is/term-conditions/)
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://swisschems.is/who-we-are/
+[FETCHED_AT] 2026-05-07T02:59:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/who_we_are.md
+[LINE_RANGE] 76-89
+[QUOTE]
+## Have you ever wondered why you see products on our website first and a few months later you see them on other websites?
+
+It's because we invest most of our resources and time into research and development of new products. Along with, improvement of our existing formulas to increase potency and decrease or completely nullify side effects. And we spend very little time on marketing or advertising. We let our products speak for themselves.
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://swisschems.is/faqs/
+[FETCHED_AT] 2026-05-07T02:59:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/faqs.md
+[LINE_RANGE] 76-100
+[QUOTE]
+## Orders and Shipping
+
+### __HOW LONG DOES IT TAKE FOR ME TO RECEIVE MY ORDER?
+
+All orders are processed once the payment is received, not when the order was placed. Orders take 1 to 3 business days to process, excluding weekends and holidays. In case of delays due to product unavailability, we will email you with the expected shipping date. US orders typically arrive in 2-5 business days, while international shipping times vary. Refer to the shipping page for details.
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 114-114
+[QUOTE]
+  * Description
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://swisschems.is/affiliate-program/
+[FETCHED_AT] 2026-05-07T02:59:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/affiliate_program.md
+[LINE_RANGE] 76-110
+[QUOTE]
+Welcome to SwissChems Affiliate program – **We offer 20% commission and 10% coupon code that you can share with your audience.** We have no contract nor grace period when you can start generating sales.
+[/QUOTE]
+[URL] https://swisschems.is/affiliate-program/
+[FETCHED_AT] 2026-05-07T02:59:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/affiliate_program.md
+[LINE_RANGE] 101-110
+[QUOTE]
+**How to Market us?**
+
+  * • Always be clear when sharing results based on your knowledge and experience. Never mention about human consumption as all our products are for research purposes only.
+  * • Content Marketing. Always keep our brand visible, mention your code and keep your link on all your posts.
+  * • Create informative content like blogs, videos, and infographics about fitness, nutrition, and supplement benefits.
+  * • Share success stories and testimonials from you or satisfied customers.
+  * • Leveraging Social Media: Keep your social media active, we provide images and banners that you can use for posting.
+  * • Use platforms like Instagram, TikTok, X, Facebook, and YouTube.
+  * • Post engaging content, workout tips, product demos, and user reviews.
+  * • Collaborate with fitness influencers and trainers for endorsements.
+[/QUOTE]
+
+[CLAIM] skus[0].name
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 80-82
+[QUOTE]
+# BPC-157 5mg (1 vial)
+
+~~$ 49.99~~ Original price was: $49.99.$39.99Current price is: $39.99.
+[/QUOTE]
+
+[CLAIM] skus[1].name
+[URL] https://swisschems.is/product/tb-500-thymosin-beta-4-healing-bundle/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_tb-500-5mg.md
+[LINE_RANGE] 78-80
+[QUOTE]
+# TB-500 (Thymosin Beta-4) 5mg (1 vial)
+
+$38.95
+[/QUOTE]
+
+[CLAIM] skus[2].name
+[URL] https://swisschems.is/product/ghk-cu-copper-peptide/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_ghk-cu.md
+[LINE_RANGE] 76-78
+[QUOTE]
+# GHK-Cu Copper Peptide
+
+$68.95 – $246.95Price range: $68.95 through $246.95
+[/QUOTE]
+
+[CLAIM] skus[3].name
+[URL] https://swisschems.is/product/ipamorelin-2mg-price-is-per-vial/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_ipamorelin-2mg.md
+[LINE_RANGE] 84-86
+[QUOTE]
+# Ipamorelin 2 mg
+
+~~$ 21.95~~ Original price was: $21.95.$17.95Current price is: $17.95.
+[/QUOTE]
+
+[CLAIM] skus[4].name
+[URL] https://swisschems.is/product/tesamorelin-2mg-price-is-per-vial/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_tesamorelin-2mg.md
+[LINE_RANGE] 78-80
+[QUOTE]
+# Tesamorelin, 2mg
+
+$27.95 – $255.95Price range: $27.95 through $255.95
+[/QUOTE]
+
+[CLAIM] skus[5].name
+[URL] https://swisschems.is/product/sermorelin-2mg-price-is-per-vial/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_sermorelin-2mg.md
+[LINE_RANGE] 78-80
+[QUOTE]
+# Sermorelin, 2mg
+
+$25.95 – $233.95Price range: $25.95 through $233.95
+[/QUOTE]
+
+[CLAIM] skus[6].name
+[URL] https://swisschems.is/product/hcg-5000-iu-price-is-per-vial/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_hcg-5000iu.md
+[LINE_RANGE] 92-94
+[QUOTE]
+# HCG 5000 IU
+
+$28.99 – $260.91Price range: $28.99 through $260.91
+[/QUOTE]
+
+[CLAIM] skus[7].name
+[URL] https://swisschems.is/product/cjc-1295-with-dac-2mg-price-is-per-vial/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_cjc1295dac.md
+[LINE_RANGE] 70-70
+[QUOTE]
+[Home](https://swisschems.is) / [Peptides](https://swisschems.is/product-category/peptides/) / CJC-1295 with DAC, 2mg
+[/QUOTE]
+
+[CLAIM] skus[8].name
+[URL] https://swisschems.is/product/mk-677-ibutamoren-380mg-10mg-60-caps/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_mk677.md
+[LINE_RANGE] 80-82
+[QUOTE]
+# MK-677 (Ibutamoren), (10mg/capsule) 60 Capsules
+
+~~$ 89.95~~ Original price was: $89.95.$69.95Current price is: $69.95.
+[/QUOTE]
+
+[CLAIM] skus[9].name
+[URL] https://swisschems.is/product/epitalon-10mg-price-is-per-vial/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_epitalon.md
+[LINE_RANGE] 84-86
+[QUOTE]
+# Epitalon 10 mg
+
+$23.16 – $208.76Price range: $23.16 through $208.76
+[/QUOTE]
+
+[CLAIM] skus[10].name
+[URL] https://swisschems.is/product/pt-141-10mg-price-is-per-vial/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_pt141.md
+[LINE_RANGE] 82-84
+[QUOTE]
+# PT-141 (Bremenalotide), 10mg
+
+$49.99
+[/QUOTE]
+
+[CLAIM] skus[11].name
+[URL] https://swisschems.is/product/mots-c-10mg-price-is-per-vial/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_mots-c.md
+[LINE_RANGE] 80-82
+[QUOTE]
+# MOTS-C 10mg
+
+$69.95 – $544.95Price range: $69.95 through $544.95
+[/QUOTE]
+
+[CLAIM] tier_rationale
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T02:58:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/homepage.md
+[LINE_RANGE] 70-84
+[QUOTE]
+# Same-Day Shipping on USA Orders*
+99% Purity Guaranteed
+Safe & Secure
+
+[Shop Now](https://swisschems.is/shop/)
+
+Free Shipping Orders Over $100
+
+24/7 Chat And Phone Support
+
+Independent Quality Testing
+
+100% Secure Checkout
+[/QUOTE]
+
+[CLAIM] fetch_status
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-07T02:58:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/homepage.md
+[LINE_RANGE] 1-7
+[QUOTE]
+---
+url: https://swisschems.is/
+fetched_at: 2026-05-07T02:58:59Z
+fetch_method: curl
+http_status: 200
+sha256: 715d2dca8ae0f820c24fa2cacec83fe23d7047b44cc834a978811023addb3495
+---
+[/QUOTE]
+
+[CLAIM] field_completion_ratio
+[URL] https://swisschems.is/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T02:59:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/swiss-chems/product_bpc-157-5mg.md
+[LINE_RANGE] 128-134
+[QUOTE]
+  * Chemical Formula :  C62H98N16O22
+  * Synonyms :  Bpc 15; Bpc 157; Booly protection compound 15; Bpc-157; BPC-15; UNII-8ED8NXK95P
+  * Molar Mass :  1419.556 g/mol
+  * PubChem :  108101
+  * Total Amount of the Active Ingredient :  5mg (1 vial)
+  * Shelf Life :  36 months
+[/QUOTE]

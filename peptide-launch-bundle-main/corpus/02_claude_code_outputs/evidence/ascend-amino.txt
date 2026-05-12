@@ -1,0 +1,364 @@
+[CLAIM] primary_domain
+[URL] https://ascendamino.net/
+[FETCHED_AT] 2026-05-07T19:40:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/homepage.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"https://ascendamino.net"
+[/QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country
+[URL] https://ascendamino.net/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:42:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/tos.md
+[LINE_RANGE] 153-168
+[QUOTE]
+"These Terms are governed by the laws of the State of California, without regard to conflict of law principles. Any disputes shall be resolved exclusively in the state or federal courts of California."
+[/QUOTE]
+[URL] https://ascendamino.net/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:42:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/tos.md
+[LINE_RANGE] 166-168
+[QUOTE]
+"2108 N ST STE N
+Sacramento, CA 95816"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[INFERENCE] us_only
+[REASONING]
+The site address is Sacramento CA; operational hours are listed in PST; the TOS governing law is California; no international shipping policy page or international options found on any fetched page. The FAQ shipping section describes only domestic delivery timeframes with no mention of international destinations.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://ascendamino.net/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:42:18Z
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/tos.md
+[LINE_RANGE] 153-155
+"These Terms are governed by the laws of the State of California, without regard to conflict of law principles."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://ascendamino.net/
+[FETCHED_AT] 2026-05-07T19:40:21Z
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/homepage.md
+[LINE_RANGE] 54-56
+"Same Day Shipping to USA registered labs. (Orders Placed Before 3pm PST)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://ascendamino.net/
+[FETCHED_AT] 2026-05-07T19:40:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/homepage.md
+[LINE_RANGE] 34-36
+[QUOTE]
+"# Premium Aminos for Laboratory Research
+
+High-quality, lab-tested aminos strictly for scientific research. Not for human or animal consumption."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://ascendamino.net/
+[FETCHED_AT] 2026-05-07T19:40:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/homepage.md
+[LINE_RANGE] 38-38
+[QUOTE]
+"[__Explore catalog](https://ascendamino.net/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://ascendamino.net/
+[FETCHED_AT] 2026-05-07T19:40:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/homepage.md
+[LINE_RANGE] 3-8
+[QUOTE]
+"  * [Home __](https://ascendamino.net/)
+  * [ Shop __](https://ascendamino.net/shop/)
+  * [ FAQ __](https://ascendamino.net/faq/)
+  * [ COA's __](https://ascendamino.net/coas/)
+  * [ Contact __](https://ascendamino.net/contact/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://ascendamino.net/
+[FETCHED_AT] 2026-05-07T19:40:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/homepage.md
+[LINE_RANGE] 190-191
+[QUOTE]
+"**FDA Disclaimer** : The statements on this website have not been evaluated by the U.S. Food and Drug Administration (FDA). Products are not intended to diagnose, treat, cure, or prevent any disease and are not intended for human or animal consumption or use. Ascend Amino operates solely as a chemical supplier and is not a compounding pharmacy or outsourcing facility as defined under Sections 503A or 503B of the Federal Food, Drug, and Cosmetic Act. All products are sold strictly for laboratory research, analytical testing, and educational purposes only. Purchasers are responsible for compliance with all applicable laws and regulations."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://ascendamino.net/shop/
+[FETCHED_AT] 2026-05-07T19:41:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/catalog_1.md
+[LINE_RANGE] 38-38
+[QUOTE]
+"Showing all 34 results"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://ascendamino.net/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:42:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/product_1__bpc-157.md
+[LINE_RANGE] 48-48
+[QUOTE]
+"Category: [Peptides](https://ascendamino.net/product-category/peptides/)SKU: BP10"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://ascendamino.net/shop/
+[FETCHED_AT] 2026-05-07T19:41:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/catalog_1.md
+[LINE_RANGE] 38-52
+[QUOTE]
+"Showing all 34 results
+
+Show:
+
+  * 20
+  * 40
+  * 80
+  * 120
+
+
+
+  *   *   *   *
+
+
+Default sorting Sort by popularity Sort by newness Sort by title Sort by price: low to high Sort by price: high to low Random"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://ascendamino.net/shop/
+[FETCHED_AT] 2026-05-07T19:41:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/catalog_1.md
+[LINE_RANGE] 116-116
+[QUOTE]
+"## [BPC-157 10 mg + TB-500 10 mg 10 mL Liquid Spray](https://ascendamino.net/product/bpc-tb/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name / product_page_anatomy.list_price / product_page_anatomy.dose_options
+[URL] https://ascendamino.net/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:42:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/product_1__bpc-157.md
+[LINE_RANGE] 46-58
+[QUOTE]
+"## BPC-157 10 mg
+
+Category: [Peptides](https://ascendamino.net/product-category/peptides/)SKU: BP10
+
+BPC-157 is commonly referenced in in-vitro research and educational investigation focused on peptide characterization, molecular structure analysis, and controlled experimental modeling.
+
+In laboratory settings, researchers examine BPC-157 to better understand peptide stability, handling, and analytical behavior under controlled experimental conditions. This reference-grade material is intended for qualified professionals engaged in scientific research workflows.
+
+CAS Number: 137525-51-0
+
+$40.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://ascendamino.net/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:42:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/product_1__bpc-157.md
+[LINE_RANGE] 64-68
+[QUOTE]
+"This product is sold strictly for laboratory research purposes only. It is not for human or animal use, and not for therapeutic or diagnostic applications.
+
+By purchasing, you confirm that you are a qualified individual using this product in accordance with all applicable laws and research regulations.
+
+All content on this website is provided for educational and informational purposes only and should not be relied upon as medical, legal, or professional advice. Nothing on this website is intended to diagnose, treat, cure, or prevent any condition."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / product_page_anatomy.coa_hosting
+[URL] https://ascendamino.net/coas/
+[FETCHED_AT] 2026-05-07T19:43:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/coa_1.md
+[LINE_RANGE] 36-36
+[QUOTE]
+"All of our research use peptides undergoes rigorous USA third-party laboratory testing to ensure the highest purity, potency, and safety standards."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://ascendamino.net/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:42:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/product_1__bpc-157.md
+[LINE_RANGE] 34-42
+[QUOTE]
+"[](https://ascendamino.net/wp-content/uploads/2026/01/bpc157_product.png)
+
+[](https://ascendamino.net/wp-content/uploads/2026/04/BPC-157-3-COA.png)
+
+[](https://ascendamino.net/wp-content/uploads/2026/01/BPC157-3-Coa.png)
+
+[](https://ascendamino.net/wp-content/uploads/2026/01/BPC-157-CoA-scaled.jpg)
+
+[](https://ascendamino.net/wp-content/uploads/2026/01/BPC-157-11.18.2025-CoA-1.jpg)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://ascendamino.net/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:42:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/tos.md
+[LINE_RANGE] 47-47
+[QUOTE]
+"All peptides and related products sold by Ascend Amino are intended strictly for laboratory research purposes only and are not for human consumption, medical, veterinary, diagnostic, therapeutic, household, or cosmetic use."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present / trust_compliance.jurisdictional_restriction_notice
+[URL] https://ascendamino.net/shop/
+[FETCHED_AT] 2026-05-07T19:41:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/catalog_1.md
+[LINE_RANGE] 636-638
+[QUOTE]
+"Are you over 21 years of age?
+
+To enter you must be at least 21 years old and a licensed research professional to proceed. Do you confirm that you meet these requirements?"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / trust_compliance.tos_highlights
+[URL] https://ascendamino.net/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:42:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/tos.md
+[LINE_RANGE] 40-67
+[QUOTE]
+"All peptides and related products sold by Ascend Amino are intended strictly for laboratory research purposes only and are not for human consumption, medical, veterinary, diagnostic, therapeutic, household, or cosmetic use."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://ascendamino.net/faq/
+[FETCHED_AT] 2026-05-07T19:42:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/faq_shipping.md
+[LINE_RANGE] 40-46
+[QUOTE]
+"1 ____Do you accept returns?
+
+Because of our product nature, returns are not accepted. We will, however, quickly address any order issues.
+
+2 ____Do you issue refunds?
+
+Refunds are processed individually, on a case-by-case basis, by our customer service team. When requesting a refund, please provide: Order number Description of the issue (with photos)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://ascendamino.net/faq/
+[FETCHED_AT] 2026-05-07T19:42:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/faq_shipping.md
+[LINE_RANGE] 70-74
+[QUOTE]
+"Order placed before 3 PM PST ship the same day (Monday-Friday), 12 PM PST Saturdays, and orders placed on Sunday will be shipped out Monday. Delivery typically takes 2-5 business days depending on your location.
+
+We offer multiple shipping options to accommodate different delivery needs. Priority Shipping typically delivers within 2–5 business days, while Express Shipping typically delivers within 1–5 business days, depending on the carrier and destination."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required / checkout_flow.guest_checkout_available
+[URL] https://ascendamino.net/shop/
+[FETCHED_AT] 2026-05-07T19:41:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/catalog_1.md
+[LINE_RANGE] 646-654
+[QUOTE]
+"We require account creation to protect your personal information, prevent unauthorized activity, and ensure accurate order tracking and support. This helps maintain a secure and compliant purchasing experience for all customers."
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://ascendamino.net/shop/
+[FETCHED_AT] 2026-05-07T19:41:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/catalog_1.md
+[LINE_RANGE] 652-654
+[QUOTE]
+"Research Entity University / College Academic Research Laboratory Independent Analytical-Testing Laboratory Laboratory Research Law Enforcement / Government Cell & Molecular Biology (In-Vitro) Materials & Physical-Testing Facility
+
+Research Protocol Non-Clinical Study (21 CFR Part 58) IBC Biosafety Protocol - NIH Guideline (Apr 2024) SOP-Driven In-Vitro / Cell-based Assay Method Development / Analytical Validation Stability / Shelf-life Testing Exploratory Proof-of-Concept R&D; Government Use Other Research Use"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The site uses /product/ and /product-category/ URL paths, /shop/ URL for the catalog, and wp-content/uploads path for media — all canonical WordPress + WooCommerce patterns. No Shopify or other platform signals found.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://ascendamino.net/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:42:05Z
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/product_1__bpc-157.md
+[LINE_RANGE] 34-35
+"[](https://ascendamino.net/wp-content/uploads/2026/01/bpc157_product.png)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://ascendamino.net/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:42:05Z
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/product_1__bpc-157.md
+[LINE_RANGE] 48-48
+"Category: [Peptides](https://ascendamino.net/product-category/peptides/)SKU: BP10"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[bpc-157-10mg].list_price_usd / skus[bpc-157-10mg].dose_value
+[URL] https://ascendamino.net/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:42:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/product_1__bpc-157.md
+[LINE_RANGE] 46-58
+[QUOTE]
+"## BPC-157 10 mg"
+[/QUOTE]
+
+[CLAIM] skus[tb-500-10mg].list_price_usd / skus[bpc-tb-spray].list_price_usd / skus[mots-c-10mg].list_price_usd
+[URL] https://ascendamino.net/shop/
+[FETCHED_AT] 2026-05-07T19:41:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/catalog_1.md
+[LINE_RANGE] 488-508
+[QUOTE]
+"## [TB-500 10 mg](https://ascendamino.net/product/tb-500-10-mg/)
+
+$55.00"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg].list_price_usd / skus[ghk-cu-100mg].list_price_usd
+[URL] https://ascendamino.net/product/ghk-cu/
+[FETCHED_AT] 2026-05-07T19:43:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/product_3__ghk-cu.md
+[LINE_RANGE] 1-999
+[QUOTE]
+"$38.00 – $55.00Price range: $38.00 through $55.00"
+[/QUOTE]
+
+[CLAIM] skus[aa-3rt-10mg].list_price_usd / skus[aa-3rt].peptide_canonical
+[INFERENCE] Retatrutide (CAS 2381089-83-2)
+[REASONING]
+The product AA-3RT lists CAS Number 2381089-83-2 and is described as a "triple-agonist" labeled G3-RT. CAS 2381089-83-2 is the registered CAS number for Retatrutide (LY3437943, a GIP/GLP-1/glucagon triple-receptor agonist developed by Eli Lilly). The kit pricing ($80 for 10 mg, $650 for 10-vial kit) is consistent with Retatrutide pricing observed at other vendors.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://ascendamino.net/product/aa-3rt/
+[FETCHED_AT] 2026-05-07T19:43:40Z
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/product_2__aa-3rt.md
+[LINE_RANGE] 52-52
+"**CAS Number:** **2381089-83-2**"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://ascendamino.net/product/aa-3rt/
+[FETCHED_AT] 2026-05-07T19:43:40Z
+[RAW_ARTIFACT] 03_raw_fetches/ascend-amino/product_2__aa-3rt.md
+[LINE_RANGE] 50-50
+"AA – G3-RT is triple-agonist laboratory research chemical supplied by Ascend Amino for controlled, non-clinical research environments."
+[/SUPPORT_QUOTE]

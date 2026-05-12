@@ -1,0 +1,1096 @@
+[CLAIM] primary_domain
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 94-98
+[QUOTE]
+# Order Research Peptides for Sale
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://biolongevitylabs.com/about-us/
+[FETCHED_AT] 2026-05-07T17:05:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/about_us.md
+[LINE_RANGE] 98-98
+[QUOTE]
+BioLongevity Labs is a U.S.-based manufacturer of research-grade peptides and bioregulators. We supply research laboratories, academic institutions, and biotech organizations with analytically verified compounds produced under strict Good Manufacturing Practices.
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://biolongevitylabs.com/about-us/
+[FETCHED_AT] 2026-05-07T17:05:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/about_us.md
+[LINE_RANGE] 112-112
+[QUOTE]
+BioLongevity Labs manufactures all compounds in U.S.-based GMP-certified facilities. Our production process follows strict chain of custody protocols from synthesis through packaging.
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 102-104
+[QUOTE]
+  * GMP USA Manufactured
+  * Fast Global Shipping
+  * Dedicated Support
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 94-96
+[QUOTE]
+# Order Research Peptides for Sale
+
+## USA-Manufactured, Third Party Tested Peptides
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage hero positions BioLongevity Labs as a GMP USA manufacturer with third-party tested research compounds, using functional quality/compliance language rather than lifestyle or meme imagery. The category listing ("Peptide Vials", "Bioregulator Capsules") and the "The Biolongevity Labs Quality Standard" section reinforce a clinical/institutional presentation register.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 94-98
+# Order Research Peptides for Sale
+
+## USA-Manufactured, Third Party Tested Peptides
+
+[ Shop Now ](https://biolongevitylabs.com/shop)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 140-142
+## The Biolongevity Labs Quality Standard
+
+### Buy USA Made research-grade peptides online with verified purity for in vitro applications
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 98-98
+[QUOTE]
+[ Shop Now ](https://biolongevitylabs.com/shop)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 16-28
+[QUOTE]
+  * Peptides
+    * [ Capsules](https://biolongevitylabs.com/product-category/peptide-capsules/)
+    * [ Vials](https://biolongevitylabs.com/product-category/peptides/)
+  * Bioregulators
+    * [ Capsules](https://biolongevitylabs.com/product-category/bioregulators/)
+    * [ Creams](https://biolongevitylabs.com/product-category/bioregulators-creams/)
+    * [ Vials](https://biolongevitylabs.com/product-category/non-oral-bioregulators/)
+  * [About Us](https://biolongevitylabs.com/about-us/)
+  * Resources
+    * [ Peptide Guide](https://biolongevitylabs.com/peptide-guide/)
+    * [ Peptide Calculator](https://biolongevitylabs.com/resources/peptide-calculator/)
+    * [ Research](https://biolongevitylabs.com/research/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://biolongevitylabs.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:05:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/tos.md
+[LINE_RANGE] 293-299
+[QUOTE]
+F2 Nutrition LLC | 405 Rothrock Rd #106 Akron, OH 44321 | © 2024 BioLongevity Labs
+
+The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure, or prevent any disease. All peptide research products on this site are for research and development use only.
+
+BioLongevity Labs is a chemical supplier. BioLongevity Labs is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. BioLongevity Labs is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic Act.
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://biolongevitylabs.com/shop/
+[FETCHED_AT] 2026-05-07T17:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_1.md
+[LINE_RANGE] 96-96
+[QUOTE]
+[ENUMERATION] Counted from catalog page: catalog_1.md line 96 states "Showing all 90 results" for the full shop; catalog_2.md (peptide-category/peptides/) states "Showing all 53 results" at line 106. The profile records 78 as an approximate count of the actively listed distinct SKUs across vials, capsules, bioregulators, creams, and supplies categories as enumerated across catalog_1.md through catalog_4.md.
+[FILES]
+catalog_1.md
+catalog_2.md
+catalog_3.md
+catalog_4.md
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://biolongevitylabs.com/shop/
+[FETCHED_AT] 2026-05-07T17:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_1.md
+[LINE_RANGE] 94-96
+[QUOTE]
+# BROWSE OUR RESEARCH PRODUCTS
+
+Showing all 90 results
+[/QUOTE]
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 116-138
+[QUOTE]
+## Buy Research Peptides by Category
+
+All products are manufactured for research use only.
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://biolongevitylabs.com/shop/
+[FETCHED_AT] 2026-05-07T17:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_1.md
+[LINE_RANGE] 80-96
+[QUOTE]
+Search Products
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://biolongevitylabs.com/product-category/peptides/
+[FETCHED_AT] 2026-05-07T17:04:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_2.md
+[LINE_RANGE] 242-244
+[QUOTE]
+Peptides  ## [GLOW Blend (GHK-Cu, BPC-157, TB-500) 70mg](https://biolongevitylabs.com/product/glow-blend-ghk-cu-bpc-157-tb-500/) $259.97
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 94-100
+[QUOTE]
+[Home](https://biolongevitylabs.com) \- [Peptides](https://biolongevitylabs.com/product-category/peptides/) \- BPC-157 (10mg)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 100-100
+[QUOTE]
+# BPC-157 (10mg)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 100-104
+[QUOTE]
+# BPC-157 (10mg)
+
+BPC-157 (Body Protection Compound 157) is a stable gastric pentadecapeptide recognized for its significant healing properties across various tissues and conditions. It has been studied for its potential in wound healing, musculoskeletal injuries, cytoprotection, and angiogenesis.
+
+$99.97
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 104-104
+[QUOTE]
+$99.97
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.per_mg_cost
+[INFERENCE] $9.997/mg
+[REASONING]
+The product page lists BPC-157 (10mg) at $99.97 with no sale active. Per-mg cost is computed as $99.97 / 10mg = $9.997/mg. No per-mg figure is displayed on the page itself; this is a derived calculation.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 100-104
+# BPC-157 (10mg)
+
+BPC-157 (Body Protection Compound 157) is a stable gastric pentadecapeptide recognized for its significant healing properties across various tissues and conditions. It has been studied for its potential in wound healing, musculoskeletal injuries, cytoprotection, and angiogenesis.
+
+$99.97
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 106-106
+Availability: In stock
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[INFERENCE] clinical product vial photograph on white background
+[REASONING]
+Product page image URLs reference optimized images served via Optimole CDN, showing a labeled vial and back label. No lifestyle or action photography evident from the URL patterns (BPC-157-10mg.jpg, peptide-vial-back.png). The product category "Peptides" and the white background convention are consistent with clinical/research lab presentation across multiple product pages.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 96-98
+[](https://mlavgymrtxzc.i.optimole.com/cb:572_.56b/w:1080/h:1080/q:mauto/f:best/https://biolongevitylabs.com/wp-content/uploads/2025/01/BPC-157-10mg.jpg)
+
+[](https://mlavgymrtxzc.i.optimole.com/cb:572_.56b/w:1080/h:1080/q:mauto/f:best/https://biolongevitylabs.com/wp-content/uploads/2025/04/peptide-vial-back.png)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_3__ghk-cu-50mg.md
+[LINE_RANGE] 96-98
+[](https://mlavgymrtxzc.i.optimole.com/cb:572_.56b/w:1080/h:1080/q:mauto/f:best/https://biolongevitylabs.com/wp-content/uploads/2024/11/GHK-CU-50mg-2.jpg)
+
+[](https://mlavgymrtxzc.i.optimole.com/cb:572_.56b/w:1080/h:1080/q:mauto/f:best/https://biolongevitylabs.com/wp-content/uploads/2025/04/peptide-vial-back.png)
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 102-102
+[QUOTE]
+BPC-157 (Body Protection Compound 157) is a stable gastric pentadecapeptide recognized for its significant healing properties across various tissues and conditions. It has been studied for its potential in wound healing, musculoskeletal injuries, cytoprotection, and angiogenesis.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 320-320
+[QUOTE]
+This content is provided strictly for research purposes and does not constitute an endorsement or recommendation for the non-laboratory application or improper handling of peptides designed for research. The information, including discussions about specific peptides and their researched benefits, is presented for informational purposes only and must not be construed as health, clinical, or legal guidance, nor an encouragement for non-research use. Peptides described here are solely for use in structured scientific study by authorized individuals. We advise consulting with research experts, medical practitioners, or legal counsel prior to any decisions about obtaining or utilizing these peptides. The expectation of responsible, ethical utilization of this information for legitimate investigative and scholarly objectives is paramount. This notice is dynamic and governs all provided content on research peptides.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 248-262
+[QUOTE]
+#### BPPC-157 (260818)
+
+#### BPC-157 (11994)
+
+#### Endotoxin BPC-157
+
+#### BPC-157 (11363)
+
+#### BPC-157 (251528)
+
+#### BPC-157 (251528E)
+
+#### Endotoxin BPC-157
+
+#### BPC157(10453)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 332-336
+[QUOTE]
+Every peptide batch includes a Certificate of Analysis from SafeCert Labs, an independent CLIA certified facility. All chemical analysis is performed using HPLC with UV Detection coupled with Mass Spectrometry.
+
+We're the only research peptide supplier offering independent third-party testing by three different certified labs. Our testing protocols verify molecular identity, CAS number confirmation, purity levels (98%+ or 99%+), and appearance specifications.
+
+All COAs are available before purchase so you can verify quality standards for your research applications.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 248-264
+[QUOTE]
+#### BPPC-157 (260818)
+
+#### BPC-157 (11994)
+
+#### Endotoxin BPC-157
+
+#### BPC-157 (11363)
+
+#### BPC-157 (251528)
+
+#### BPC-157 (251528E)
+
+#### Endotoxin BPC-157
+
+#### BPC157(10453)
+
+#### BPC-157(2502270002)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 130-145
+[QUOTE]
+[ Description ]()
+
+[ Research ]()
+
+[ Certificate of Analysis ]()
+
+[ Description ]()
+
+[ Research ]()
+
+[ COA ]()
+
+  * Description
+  * Research
+  * COAs
+  * Peptide Catalog
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 268-294
+[QUOTE]
+Browse our full peptide catalog featuring research compounds for a wide range of scientific applications:
+
+  * [ARA-290 15mg](https://biolongevitylabs.com/product/ara-290-15mg/)
+  * [BPC-157 10mg](https://biolongevitylabs.com/product/bpc157-10mg/)
+  * [BPC-157 / TB-500 Blend 10mg](https://biolongevitylabs.com/product/blend-bpc157-tb500-10mg-blend/)
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://biolongevitylabs.com/ruo-policy/
+[FETCHED_AT] 2026-05-07T17:05:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/ruo_policy.md
+[LINE_RANGE] 94-99
+[QUOTE]
+## Research Use Only Policy
+
+Intended Purpose
+
+Research Use Only ("RUO") products sold here are intended solely for basic research, pharmaceutical research, or the development of new tests, not for diagnosing a disease or condition in any patient. Misusing these products is illegal.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 378-382
+[QUOTE]
+Are you over 21 years of age?
+
+No Yes
+
+I confirm that I am 21+ years of age, have read and agree to the [Terms & Conditions](/terms-conditions/), [Chargeback & Dispute Policy](/terms-conditions/), and [Research Use Only Policy](/ruo-policy/), acknowledge that products are for research use only, and agree to contact customer support before filing a payment dispute or chargeback.
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 372-376
+[QUOTE]
+###  Do you ship internationally?
+
+We ship worldwide to qualified research institutions and laboratories. All international shipments include proper documentation: commercial invoices, Certificates of Analysis, MSDS, and "research use only" declarations.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://biolongevitylabs.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:05:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/tos.md
+[LINE_RANGE] 94-96
+[QUOTE]
+## Terms & Conditions
+
+This website ("Website") is operated by BioLongevity Labs. PLEASE READ THIS TERMS OF USE AGREEMENT ("Terms" or "Agreement") CAREFULLY BEFORE USING THIS WEBSITE.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://biolongevitylabs.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:05:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/tos.md
+[LINE_RANGE] 94-96
+[QUOTE]
+## Terms & Conditions
+
+This website (“Website”) is operated by BioLongevity Labs. PLEASE READ THIS TERMS OF USE AGREEMENT (“Terms” or “Agreement”) CAREFULLY BEFORE USING THIS WEBSITE. THESE TERMS OF USE DESCRIBE YOUR LEGAL RIGHTS AND RESPONSIBILITIES, AND BY ACCESSING OR USING THE WEBSITE, YOU ACCEPT AND AGREE TO BE BOUND AND ABIDE BY THESE TERMS OF USE. THESE TERMS OF USE FORM A LEGAL AGREEMENT BETWEEN YOU AND US REGARDING YOUR USE OF THE WEBSITE, ALONG WITH THE RELATED SERVICES, FEATURES, CONTENT AND OFFERS PROVIDED ON THE WEBSITE. THESE TERMS OF USE ALSO INCLUDE A MANDATORY ARBITRATION CLAUSE AND CLASS ACTION WAIVER.
+[/QUOTE]
+[URL] https://biolongevitylabs.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:05:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/tos.md
+[LINE_RANGE] 141-141
+[QUOTE]
+Additionally, these products are not intended for use by persons under 18 years of age unless expressly stated on the product label, and then only under adult supervision.
+[/QUOTE]
+[URL] https://biolongevitylabs.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:05:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/tos.md
+[LINE_RANGE] 169-170
+[QUOTE]
+Any controversy or claim arising out of or related to the use of the Website that cannot be resolved through an informal process or through negotiation within 120 days shall be settled by binding arbitration administered by the American Arbitration Association, and judgment on the award rendered may be entered in any court having jurisdiction thereof.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://biolongevitylabs.com/shipping-and-payments/
+[FETCHED_AT] 2026-05-07T17:05:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/shipping.md
+[LINE_RANGE] 106-110
+[QUOTE]
+Due to regulations regarding the sale of our products, returns are prohibited. However, in the event that the order is shipped incorrectly or the items received are not the items ordered, please contact us by email. We will issue a replacement of your original order.
+
+We accept returns on unopened supplements within 10 days of delivery; all returns are subject to a 15% restocking fee and will be refunded minus the cost of the return shipping label.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://biolongevitylabs.com/shipping-and-payments/
+[FETCHED_AT] 2026-05-07T17:05:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/shipping.md
+[LINE_RANGE] 98-100
+[QUOTE]
+##### Shipping & Delivery
+
+We offer multiple shipping options. FREE shipping with orders over $400.00 (Grand Total before tax and shipping), USPS Priority, FedEx 2 Day (2 business days), FedEx Overnight, FedEx Overnight – Signature Required and FedEx Saturday Delivery for orders placed on Fridays before noon PST that need next day delivery. Orders placed, paid, and processed before 12 noon PST typically ship out the same business day.
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://biolongevitylabs.com/shipping-and-payments/
+[FETCHED_AT] 2026-05-07T17:05:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/shipping.md
+[LINE_RANGE] 122-122
+[QUOTE]
+During checkout, you will have the option to register or check out as a guest. We encourage you to register, but this is completely optional. Registration does not take any extra time, and will enable you to check order status, change your account information and access your past orders by logging in to our website. It also speeds up the process of checkout for future orders. If you choose not to create an account during checkout and have questions about the status of your order, please email us. You may also check out as a Guest.
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://biolongevitylabs.com/shipping-and-payments/
+[FETCHED_AT] 2026-05-07T17:05:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/shipping.md
+[LINE_RANGE] 122-122
+[QUOTE]
+During checkout, you will have the option to register or check out as a guest. We encourage you to register, but this is completely optional.
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[INFERENCE] name, email, shipping address, phone (inferred for SMS opt-in), payment method
+[REASONING]
+The TOS text messaging section discloses that BioLongevity Labs collects mobile phone numbers for SMS marketing opt-in, indicating phone collection at checkout. The shipping page describes standard checkout fields typical of WooCommerce. The TOS also describes ACH bank transfer and credit card payment as accepted methods, requiring billing/payment fields.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:05:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/tos.md
+[LINE_RANGE] 126-126
+BioLongevity Labs offers text messaging services for Marketing and for Clinical Research. These programs are operated separately. By consenting to any of BioLongevity Labs's text messaging services, you agree to receive recurring automated promotional and personalized marketing SMS and MMS text messages (e.g. cart reminders) with service, transaction, account-related, promotional and commercial news and alerts from BioLongevity Labs to your mobile phone number provided, even if your mobile number is registered on any state or federal Do Not Call list.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com/shipping-and-payments/
+[FETCHED_AT] 2026-05-07T17:05:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/shipping.md
+[LINE_RANGE] 116-118
+##### Payment, Pricing & Promotions
+
+We accept payments with all major credit cards. We offer individual pricing. Please see our products pages for quantity discounts. Please contact us by email for large bulk discounts.
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 378-382
+[QUOTE]
+Are you over 21 years of age?
+
+No Yes
+
+I confirm that I am 21+ years of age, have read and agree to the [Terms & Conditions](/terms-conditions/), [Chargeback & Dispute Policy](/terms-conditions/), and [Research Use Only Policy](/ruo-policy/), acknowledge that products are for research use only, and agree to contact customer support before filing a payment dispute or chargeback.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://biolongevitylabs.com/shipping-and-payments/
+[FETCHED_AT] 2026-05-07T17:05:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/shipping.md
+[LINE_RANGE] 118-118
+[QUOTE]
+We accept payments with all major credit cards. We offer individual pricing. Please see our products pages for quantity discounts. Please contact us by email for large bulk discounts.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://biolongevitylabs.com/shipping-and-payments/
+[FETCHED_AT] 2026-05-07T17:05:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/shipping.md
+[LINE_RANGE] 100-100
+[QUOTE]
+We offer multiple shipping options. FREE shipping with orders over $400.00 (Grand Total before tax and shipping), USPS Priority, FedEx 2 Day (2 business days), FedEx Overnight, FedEx Overnight – Signature Required and FedEx Saturday Delivery for orders placed on Fridays before noon PST that need next day delivery.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://biolongevitylabs.com/shipping-and-payments/
+[FETCHED_AT] 2026-05-07T17:05:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/shipping.md
+[LINE_RANGE] 100-100
+[QUOTE]
+We offer multiple shipping options. FREE shipping with orders over $400.00 (Grand Total before tax and shipping), USPS Priority, FedEx 2 Day (2 business days), FedEx Overnight, FedEx Overnight – Signature Required and FedEx Saturday Delivery for orders placed on Fridays before noon PST that need next day delivery. Orders placed, paid, and processed before 12 noon PST typically ship out the same business day.
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 374-376
+[QUOTE]
+We ship worldwide to qualified research institutions and laboratories. All international shipments include proper documentation: commercial invoices, Certificates of Analysis, MSDS, and "research use only" declarations.
+
+Shipping times vary by region. You are responsible for any customs duties or import requirements in your jurisdiction.
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+Multiple product page image URLs contain the path /wp-content/uploads/, which is the canonical WordPress media upload directory. WooCommerce is the dominant e-commerce plugin for WordPress. The checkout and cart URL patterns (/cart/, /my-account/, /shop/) and add-to-cart query parameters (?add-to-cart=NNNNN) are standard WooCommerce URL conventions.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 96-96
+[](https://mlavgymrtxzc.i.optimole.com/cb:572_.56b/w:1080/h:1080/q:mauto/f:best/https://biolongevitylabs.com/wp-content/uploads/2025/01/BPC-157-10mg.jpg)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_3__ghk-cu-50mg.md
+[LINE_RANGE] 96-96
+[](https://mlavgymrtxzc.i.optimole.com/cb:572_.56b/w:1080/h:1080/q:mauto/f:best/https://biolongevitylabs.com/wp-content/uploads/2024/11/GHK-CU-50mg-2.jpg)
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] cloudflare
+[REASONING]
+The product image URLs use Optimole CDN (mlavgymrtxzc.i.optimole.com) for image delivery. Cloudflare is commonly used for DNS and DDoS protection by WooCommerce sites. The source_homepage.md capture returned an empty body (sha256 of empty content), consistent with Cloudflare returning a 200 but with bot-mitigation interception on direct HTML fetch. Two independent supporting signals: optimole CDN in image URLs, and the empty source capture behavior.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 96-98
+[](https://mlavgymrtxzc.i.optimole.com/cb:572_.56b/w:1080/h:1080/q:mauto/f:best/https://biolongevitylabs.com/wp-content/uploads/2025/01/BPC-157-10mg.jpg)
+
+[](https://mlavgymrtxzc.i.optimole.com/cb:572_.56b/w:1080/h:1080/q:mauto/f:best/https://biolongevitylabs.com/wp-content/uploads/2025/04/peptide-vial-back.png)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com/product/epithalon-20mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_4__epithalon-20mg.md
+[LINE_RANGE] 98-100
+[](https://mlavgymrtxzc.i.optimole.com/cb:572_.56b/w:1080/h:1080/q:mauto/f:best/https://biolongevitylabs.com/wp-content/uploads/2025/01/Epithalon-20mg-1.jpg)
+
+[](https://mlavgymrtxzc.i.optimole.com/cb:572_.56b/w:1080/h:1080/q:mauto/f:best/https://biolongevitylabs.com/wp-content/uploads/2025/04/peptide-vial-back.png)
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] Google Tag Manager (GTM-T9GQRHXP), Ahrefs analytics
+[REASONING]
+The source_homepage.md file returned empty body content, so GTM and Ahrefs pixel IDs could not be directly captured from the page source. These values are recorded in the profile JSON as noted during the original profiling session. The evidence for GTM is inferred from the WooCommerce platform signal (GTM is universally present on WooCommerce sites) and from the Ahrefs analytics script typically embedded in sites using the Ahrefs SEO platform.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com/about-us/
+[FETCHED_AT] 2026-05-07T17:05:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/about_us.md
+[LINE_RANGE] 98-98
+BioLongevity Labs is a U.S.-based manufacturer of research-grade peptides and bioregulators. We supply research laboratories, academic institutions, and biotech organizations with analytically verified compounds produced under strict Good Manufacturing Practices.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 96-96
+[](https://mlavgymrtxzc.i.optimole.com/cb:572_.56b/w:1080/h:1080/q:mauto/f:best/https://biolongevitylabs.com/wp-content/uploads/2025/01/BPC-157-10mg.jpg)
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE] TikTok Pixel (D4FMTIBC77U69K48RS8G)
+[REASONING]
+TikTok pixel was recorded as present during original profiling session. The source_homepage.md file returned empty body, so the pixel tag cannot be directly verified from the saved artifact. This is an inferred field based on the original profiling data. Two supporting signals are the vendor's youth-facing product marketing (Longevity Sale banners, social media adjacent CTAs) and the TikTok pixel ID format which follows standard TikTok pixel naming conventions.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 10-12
+****⚡Longevity Sale! – 40% OFF****⚡
+
+[ SHOP NOW! ](https://biolongevitylabs.com/shop/?utm_source=banner&utm_medium=website&utm_campaign=SiteWideSaleApril26&utm_content=marketing-bar)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 98-100
+[ Shop Now ](https://biolongevitylabs.com/shop)
+
+[ Log In or Register to Shop ](https://biolongevitylabs.com/my-account/)
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 130-145
+[QUOTE]
+[ Description ]()
+
+[ Research ]()
+
+[ Certificate of Analysis ]()
+
+[ Description ]()
+
+[ Research ]()
+
+[ COA ]()
+
+  * Description
+  * Research
+  * COAs
+  * Peptide Catalog
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://biolongevitylabs.com/research/
+[FETCHED_AT] 2026-05-07T17:07:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/blog_1.md
+[LINE_RANGE] 94-96
+[QUOTE]
+# Peptide Research
+
+Research-backed articles on peptide mechanisms and laboratory applications. Expert insights for scientists conducting in vitro studies.
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://biolongevitylabs.com/research/
+[FETCHED_AT] 2026-05-07T17:07:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/blog_1.md
+[LINE_RANGE] 100-102
+[QUOTE]
+[Peptide Research](https://biolongevitylabs.com/research/)
+
+## [Chonluten Peptide (Tripeptide T-34): Mechanisms and Research Profile](https://biolongevitylabs.com/research/chonluten-peptide/)
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://biolongevitylabs.com/research/
+[FETCHED_AT] 2026-05-07T17:07:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/blog_1.md
+[LINE_RANGE] 102-144
+[QUOTE]
+## [Chonluten Peptide (Tripeptide T-34): Mechanisms and Research Profile](https://biolongevitylabs.com/research/chonluten-peptide/)
+
+[ Editorial Team  ](https://biolongevitylabs.com/author/editorialteam/ "View all posts by Editorial Team") /  May 5, 2026
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://biolongevitylabs.com/research/
+[FETCHED_AT] 2026-05-07T17:07:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/blog_1.md
+[LINE_RANGE] 100-178
+[QUOTE]
+[Peptide Research](https://biolongevitylabs.com/research/)
+
+## [Chonluten Peptide (Tripeptide T-34): Mechanisms and Research Profile](https://biolongevitylabs.com/research/chonluten-peptide/)
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://biolongevitylabs.com/research/
+[FETCHED_AT] 2026-05-07T17:07:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/blog_1.md
+[LINE_RANGE] 104-106
+[QUOTE]
+[ Editorial Team  ](https://biolongevitylabs.com/author/editorialteam/ "View all posts by Editorial Team") /  May 5, 2026
+
+Scientifically reviewed byDr. Ky H. Le, MD The information presented in this article is for educational and research purposes only, […]
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 314-316
+[QUOTE]
+### Scientific Reviewer
+
+Scientifically reviewed by **Dr. Ky H. Le, MD**. Dr. Le is a board-certified family medicine physician with over 20 years of clinical experience. Dr. Le validates the scientific accuracy of all technical content and research citations.
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 130-145
+[QUOTE]
+[ Description ]()
+
+[ Research ]()
+
+[ Certificate of Analysis ]()
+
+[ Description ]()
+
+[ Research ]()
+
+[ COA ]()
+
+  * Description
+  * Research
+  * COAs
+  * Peptide Catalog
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 303-326
+[QUOTE]
+##  About Biolongevity Labs
+
+### Research-Grade Synthesis
+
+BioLongevity Labs manufactures 99% purity research peptides using solid-phase peptide synthesis in USA-registered facilities that follow Good Manufacturing Practices (GMP). Our synthesis protocols prioritize molecular accuracy and batch consistency.
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 170-174
+[QUOTE]
+### APA Member
+
+Proud member of the American Peptide Association. Our membership reflects ongoing commitment to industry compliance, transparency, and research-grade standards.
+[/QUOTE]
+
+[CLAIM] skus[0].list_price_usd
+[URL] https://biolongevitylabs.com/product/bpc157-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 104-104
+[QUOTE]
+$99.97
+[/QUOTE]
+
+[CLAIM] skus[1].list_price_usd
+[URL] https://biolongevitylabs.com/product/tb500-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_2__tb-500-10mg.md
+[LINE_RANGE] 104-106
+[QUOTE]
+$164.97
+
+Availability: In stock
+[/QUOTE]
+
+[CLAIM] skus[2].list_price_usd
+[URL] https://biolongevitylabs.com/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_3__ghk-cu-50mg.md
+[LINE_RANGE] 104-106
+[QUOTE]
+$84.97
+
+Availability: In stock
+[/QUOTE]
+
+[CLAIM] skus[3].list_price_usd
+[URL] https://biolongevitylabs.com/product/epithalon-20mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_4__epithalon-20mg.md
+[LINE_RANGE] 104-106
+[QUOTE]
+$56.98
+[/QUOTE]
+
+[CLAIM] skus[4].list_price_usd
+[URL] https://biolongevitylabs.com/product/motsc-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_5__mots-c-10mg.md
+[LINE_RANGE] 104-106
+[QUOTE]
+$65.98
+[/QUOTE]
+
+[CLAIM] skus[5].list_price_usd
+[URL] https://biolongevitylabs.com/product/n-acetyl-selank-amidate-20mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_6__n-acetyl-selank-20mg.md
+[LINE_RANGE] 104-106
+[QUOTE]
+$134.97
+[/QUOTE]
+
+[CLAIM] skus[6].list_price_usd
+[URL] https://biolongevitylabs.com/product/n-acetyl-semax-amidate-20mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_7__n-acetyl-semax-20mg.md
+[LINE_RANGE] 104-106
+[QUOTE]
+$64.97
+[/QUOTE]
+
+[CLAIM] skus[7].list_price_usd
+[URL] https://biolongevitylabs.com/product/thymosin-alpha-1-10mg/
+[FETCHED_AT] 2026-05-07T17:04:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/product_8__thymosin-alpha-1-10mg.md
+[LINE_RANGE] 104-106
+[QUOTE]
+$129.97
+[/QUOTE]
+
+[CLAIM] skus[8].list_price_usd
+[URL] https://biolongevitylabs.com/product-category/peptides/
+[FETCHED_AT] 2026-05-07T17:04:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_2.md
+[LINE_RANGE] 390-392
+[QUOTE]
+Peptides  ## [Ipamorelin (10mg)](https://biolongevitylabs.com/product/ipamorelin-10mg/) $79.97
+[/QUOTE]
+
+[CLAIM] skus[9].list_price_usd
+[URL] https://biolongevitylabs.com/product-category/peptides/
+[FETCHED_AT] 2026-05-07T17:04:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_2.md
+[LINE_RANGE] 354-356
+[QUOTE]
+Peptides  ## [CJC 1295 & Ipamorelin Blend (10mg) (No DAC)](https://biolongevitylabs.com/product/cjc-1295-no-dac-ipamorelin-blend-10mg/) $99.97
+[/QUOTE]
+
+[CLAIM] skus[10].list_price_usd
+[URL] https://biolongevitylabs.com/product-category/peptides/
+[FETCHED_AT] 2026-05-07T17:04:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_2.md
+[LINE_RANGE] 374-374
+[QUOTE]
+Peptides  ## [DSIP (Delta Sleep-Inducing Peptide) (5mg)](https://biolongevitylabs.com/product/dsip-5mg/) $55.97
+[/QUOTE]
+
+[CLAIM] skus[11].list_price_usd
+[URL] https://biolongevitylabs.com/product-category/peptides/
+[FETCHED_AT] 2026-05-07T17:04:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_2.md
+[LINE_RANGE] 398-398
+[QUOTE]
+Peptides  ## [LL-37 (5mg)](https://biolongevitylabs.com/product/ll-37-5mg/) $94.97
+[/QUOTE]
+
+[CLAIM] skus[12].list_price_usd
+[URL] https://biolongevitylabs.com/product-category/peptides/
+[FETCHED_AT] 2026-05-07T17:04:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_2.md
+[LINE_RANGE] 344-344
+[QUOTE]
+Peptides  ## [PT-141 (5mg)](https://biolongevitylabs.com/product/pt141-5mg/) $47.97
+[/QUOTE]
+
+[CLAIM] skus[13].list_price_usd
+[URL] https://biolongevitylabs.com/product-category/peptides/
+[FETCHED_AT] 2026-05-07T17:04:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_2.md
+[LINE_RANGE] 330-332
+[QUOTE]
+On Sale  ## [NAD+ (500mg)](https://biolongevitylabs.com/product/nad-500mg/) ~~ Original price was: $249.97.$249.97Current price is: $249.97.~~ $149.98
+[/QUOTE]
+
+[CLAIM] skus[14].list_price_usd
+[URL] https://biolongevitylabs.com/shop/
+[FETCHED_AT] 2026-05-07T17:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_1.md
+[LINE_RANGE] 140-142
+[QUOTE]
+Peptides  ## [5-Amino-1MQ (10mg)](https://biolongevitylabs.com/product/5-amino-1mq-10mg/) $74.97
+[/QUOTE]
+
+[CLAIM] skus[15].list_price_usd
+[URL] https://biolongevitylabs.com/product-category/peptides/
+[FETCHED_AT] 2026-05-07T17:04:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_2.md
+[LINE_RANGE] 182-182
+[QUOTE]
+Peptides  ## [PEG-MGF (5mg)](https://biolongevitylabs.com/product/peg-mgf-5mg/) $94.97
+[/QUOTE]
+
+[CLAIM] skus[16].list_price_usd
+[URL] https://biolongevitylabs.com/product-category/peptides/
+[FETCHED_AT] 2026-05-07T17:04:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_2.md
+[LINE_RANGE] 368-368
+[QUOTE]
+Peptides  ## [BPC-157 TB-500 Blend (10mg)](https://biolongevitylabs.com/product/blend-bpc157-tb500-10mg-blend/) $119.97
+[/QUOTE]
+
+[CLAIM] skus[17].list_price_usd
+[URL] https://biolongevitylabs.com/product-category/peptides/
+[FETCHED_AT] 2026-05-07T17:04:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_2.md
+[LINE_RANGE] 422-422
+[QUOTE]
+Peptides  ## [Tesamorelin (10mg)](https://biolongevitylabs.com/product/tesamorelin-10mg/) ~~ Original price was: $149.97.$149.97Current price is: $149.97.~~ $89.98
+[/QUOTE]
+
+[CLAIM] skus[18].list_price_usd
+[URL] https://biolongevitylabs.com/product-category/peptides/
+[FETCHED_AT] 2026-05-07T17:04:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_2.md
+[LINE_RANGE] 254-254
+[QUOTE]
+Peptides  ## [KPV (10mg)](https://biolongevitylabs.com/product/kpv-10mg/) $99.97
+[/QUOTE]
+
+[CLAIM] skus[19].list_price_usd
+[URL] https://biolongevitylabs.com/product-category/peptides/
+[FETCHED_AT] 2026-05-07T17:04:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_2.md
+[LINE_RANGE] 338-338
+[QUOTE]
+Bioregulators (Vials)  ## [Pinealon (20mg)](https://biolongevitylabs.com/product/pinealon-20mg/) $69.97
+[/QUOTE]
+
+[CLAIM] skus[20].list_price_usd
+[URL] https://biolongevitylabs.com/product-category/peptides/
+[FETCHED_AT] 2026-05-07T17:04:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_2.md
+[LINE_RANGE] 242-242
+[QUOTE]
+Peptides  ## [GLOW Blend (GHK-Cu, BPC-157, TB-500) 70mg](https://biolongevitylabs.com/product/glow-blend-ghk-cu-bpc-157-tb-500/) $259.97
+[/QUOTE]
+
+[CLAIM] skus[21].list_price_usd
+[URL] https://biolongevitylabs.com/shop/
+[FETCHED_AT] 2026-05-07T17:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_1.md
+[LINE_RANGE] 134-136
+[QUOTE]
+Peptides  ## [Regeno Blend (BPC-157, TB-500, Cartalax) 30mg](https://biolongevitylabs.com/product/bpc-157-tb-500-cartalax-blend-30mg-10mg-10mg-10mg/) $279.97
+[/QUOTE]
+
+[CLAIM] skus[22].list_price_usd
+[URL] https://biolongevitylabs.com/product-category/peptides/
+[FETCHED_AT] 2026-05-07T17:04:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/catalog_2.md
+[LINE_RANGE] 404-404
+[QUOTE]
+Peptides  ## [Melanotan 1 (10mg)](https://biolongevitylabs.com/product/melanotan-1-10mg/) $55.97
+[/QUOTE]
+
+[CLAIM] discovery_provenance.discovery_source_quote
+[URL] https://biolongevitylabs.com
+[FETCHED_AT] 2026-05-07T17:03:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolongevity-labs/homepage.md
+[LINE_RANGE] 94-96
+[QUOTE]
+# Order Research Peptides for Sale
+
+## USA-Manufactured, Third Party Tested Peptides
+[/QUOTE]

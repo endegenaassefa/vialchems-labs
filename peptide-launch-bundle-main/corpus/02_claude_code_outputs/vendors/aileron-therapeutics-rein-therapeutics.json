@@ -1,0 +1,111 @@
+{
+  "vendor_slug": "aileron-therapeutics-rein-therapeutics",
+  "brand_name": "Aileron Therapeutics (Rein Therapeutics)",
+  "primary_domain": "https://www.reintx.com/",
+
+  "fetched_url": "https://www.reintx.com/",
+  "fetched_at": "2026-05-07T01:19:58Z",
+  "fetch_status": "partial",
+
+  "tier": "1",
+  "tier_rationale": "as-assigned (operator seed: Tier 1 publicly traded biotech, recently rebranded from Aileron Therapeutics to Rein Therapeutics). Rein is a NASDAQ-listed clinical-stage biopharmaceutical company (NASDAQ: RNTX) developing pulmonary peptide drug candidates (LTI-03, LTI-01, LTI-05) — there is NO consumer commerce, NO research-peptide retail, NO public catalog or SKU pricing. Field-completion ratio at 0.50 with 'partial' fetch_status accurately reflects the public-corporate-website posture: full schema attempt was made, retail-shaped fields (catalog SKU enumeration, per-mg price, age-gate, on-site reviews, checkout fields, payment methods, crypto discounts, subscription pricing) are legitimately uncertain because they do not exist for this drug-development pipeline company, not because of fetch failures. Identity, jurisdiction, leadership, pipeline assets, SEC filings posture, news cadence, and tech stack are all captured.",
+  "field_completion_ratio": 0.63,
+
+  "country_of_operation": "United States",
+  "fulfillment_country": "United States",
+  "ship_to_scope": "us_only",
+  "year_established": "2013",
+
+  "homepage": {
+    "hero_copy_excerpt": "Harnessing fibrosis, unleashing life — Introducing multi-pathway treatments for fibrosis",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Explore Science",
+    "navigation_pattern": "Five-item top nav: Home / Science / Pipeline / Company / Investors & Media (Investors & Media links to ir.reintx.com subdomain). Footer Menu duplicates: Science / Pipeline / Company / Investors & Media. Legal Menu has only Privacy Policy. No e-commerce, shop, products, account, or checkout entries anywhere in the navigation.",
+    "footer_disclaimers": "Rein Therapeutics 1234 Austin Rd. Austin, TX 73301 (placeholder address visible in site footer ACF data); footer Legal Menu links only to Privacy Policy; corporate identity Rein Therapeutics™ 2025/2026 displayed on IR subdomain."
+  },
+
+  "catalog": {
+    "sku_count": 0,
+    "category_taxonomy": [
+      "Pipeline Asset: LTI-03 (idiopathic pulmonary fibrosis)",
+      "Pipeline Asset: LTI-01 (loculated pleural effusion)",
+      "Pipeline Asset: LTI-05 (cystic fibrosis)"
+    ],
+    "search_filter_capabilities": "n/a — no product catalog exists; the site has no /shop, /products, /search, or filterable catalog endpoint",
+    "stack_bundle_pages_present": "false"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "https://www.reintx.com/pipeline/",
+    "sample_product_name": "LTI-03 (inhaled peptide for idiopathic pulmonary fibrosis)",
+    "dose_options": ["n/a — clinical-stage pipeline asset, not a commercial product with consumer dosing"],
+    "list_price": "n/a — pre-commercial drug candidate, no list price; revenue / pricing strategy will be determined post-FDA approval",
+    "per_mg_cost": "n/a — no commercial sale price exists for clinical-stage drug candidate",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "LTI-03 is a first-in-class peptide derived from Caveolin-1, a protein essential for lung homeostasis. It plays a critical role in regulating lung repair and cellular movement by restoring pathways that both promote epithelial health and halt fibrosis.",
+    "exact_disclaimer_language": "n/a — no commercial product disclaimer; closest analog is the SEC press-release boilerplate Forward-Looking Statements language under the Private Securities Litigation Reform Act of 1995",
+    "coa_present": "false",
+    "coa_hosting": "none",
+    "lab_partner_named": "n/a — no third-party lab partnership for COA-style commercial-grade product certification because there are no commercial products; clinical CMC and bioanalytical work performed under FDA IND submission framework, not COA portal",
+    "batch_lot_transparency": "false",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "false"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "none — no research-use-only retail framing because Rein has no research-peptide product line; the site's only legal disclaimer is the SEC Forward-Looking Statements language attached to press releases",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "The Personal and Other Information we collect through or in connection with the Site is transferred to and processed in the United States",
+    "tos_url": "none — no Terms of Service / Terms of Use page exists; the site's footer Legal Menu contains only Privacy Policy",
+    "tos_highlights": "n/a — no TOS exists; SEC governance documents (charters, committee composition, Insider Trading Policy) are hosted at ir.reintx.com/governance/documents-charters and serve a regulatory-compliance role rather than commercial TOS",
+    "refund_policy": "n/a — no commerce, no refunds; Rein operates as a clinical-stage drug developer, not a commercial product seller",
+    "shipping_policy": "n/a — no commerce, no shipping; the site sells nothing to ship"
+  },
+
+  "checkout_flow": {
+    "account_required": "false",
+    "guest_checkout_available": "false",
+    "fields_collected": ["First and last name", "Email address", "Phone number", "Company affiliation", "Other information you choose to provide to us in your email or through a free text field on the form"],
+    "id_verification_present": "false",
+    "payment_methods_accepted": ["none"],
+    "shipping_carriers": ["none"],
+    "shipping_cost_structure": "n/a — no e-commerce checkout exists; corporate site has no cart or product purchase flow",
+    "international_policy": "n/a — no commerce; investor relations and media disclosures only"
+  },
+
+  "tech_stack": {
+    "platform_signal": "wordpress",
+    "cdn": "Cloudflare (server: cloudflare; cf-ray: 9f7c6dec083b20b1-IAD; __cf_bm cookie set on www.reintx.com)",
+    "analytics_tools_loaded": ["none observed"],
+    "marketing_pixels_present": ["none observed"],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://web.archive.org/web/20251211215502/https://ir.reintx.com/press-releases",
+    "content_cadence": "approximately monthly press release cadence with quarterly financial-results posts; six post slugs visible in the marketing-site Vue route table all bear the 'Aileron Therapeutics' (pre-rebrand) name covering Q1/Q2/Q3 2024 financial results plus Cohort 2 LTI-03 Phase 1b topline; archived IR site shows three press releases in November 2025 alone (Nov 6, Nov 3, Oct 9) about LTI-03 publication, FDA clearance to resume Phase 2, and European regulatory approval to initiate Phase 2",
+    "topic_taxonomy": ["Clinical-trial milestones (LTI-03, Phase 1b, Phase 2)", "Quarterly financial results", "Regulatory clearances (FDA, European)", "Investor presentations and conference appearances", "Scientific publications"],
+    "author_bylines_present": "false",
+    "internal_linking_to_products": "n/a — no product purchase pages exist on the corporate site; press releases (hosted on the IR subdomain) cross-link only to other press releases and SEC filings, not to any product pages"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": ["none observed — clinical-stage biotech with institutional posture; analyst coverage available through the IR subdomain (ir.reintx.com/stock-info/analyst-coverage) but no Trustpilot, Yelp, BBB, niche peptide-aggregator presence relevant to consumer-style review aggregation"],
+    "testimonial_usage": "Founder/CEO institutional quotes only (e.g., Dr. Brian Windsor's quote in FDA-clearance press release: 'This is a major milestone for us. The FDA's decision clears the path for us to resume enrollment and continue advancing LTI-03 through our global Phase 2 program.') — no customer testimonials, no patient testimonials.",
+    "visible_influencer_endorsements": "none — institutional B2B / investor-facing posture only; corporate social presence on LinkedIn (linkedin.com/company/rein-therapeutics) and X (x.com/Rein_Tx)"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "Aileron Therapeutics (Rein Therapeutics),reintx.com,USA,USA,Institutional,Uncertain,Active,None,Orphan pulmonary peptides,Institutional,N,Jan 2025,Tier 1: Publicly traded biotech, rebranded."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/aileron-therapeutics-rein-therapeutics/",
+  "evidence_file": "evidence/aileron-therapeutics-rein-therapeutics.txt",
+  "uncertainty_notes": "STRUCTURAL UNCERTAINTY (vendor is a clinical-stage NASDAQ-listed biotech, not a research-peptide retailer): catalog.sku_count, catalog.search_filter_capabilities — Rein has no public catalog of SKUs available for purchase; LTI-03, LTI-01, LTI-05 are pipeline assets in clinical development, not commercial products. product_page_anatomy.dose_options, list_price, per_mg_cost, photographic_treatment, exact_disclaimer_language, lab_partner_named — pipeline pages describe drug candidates and mechanisms of action, not commercial product specifications, prices, or research-use-only retail disclaimers. trust_compliance.research_use_only_phrasing, tos_url, tos_highlights, refund_policy, shipping_policy — Rein's corporate site has only a Privacy Policy in the footer Legal Menu (no Terms of Service / refund / shipping pages, because no commerce exists); SEC-filing-grade legal posture lives on the IR subdomain (Form 8937, S-1, 10-K, 10-K/A, 8-K filings observed in the SEC filings index). product_page_anatomy.coa_present='false' and batch_lot_transparency='false' and coa_hosting='none' reflect that there are no commercial peptide SKUs to issue COAs for; clinical drug development quality data is in confidential FDA submissions, not public-facing COA portals. checkout_flow.account_required, guest_checkout_available, id_verification_present — all 'false' because there is no checkout; the site's only data-collection touchpoint is the privacy-policy-stated email/contact form. tech_stack.analytics_tools_loaded='none observed' and marketing_pixels_present='none observed' — verified by reviewing the source_homepage.md (HEAD response headers + first 12KB of HTML body): no GTM, GA4 (gtag.js), Facebook Pixel (fbq), TikTok Pixel, Pinterest, Twitter pixel, Klaviyo, Segment, Mixpanel, Heap, or chat-widget tags are present in the rendered HTML; the only third-party JavaScript loaded is the Cloudflare bot-management iframe (cdn-cgi/challenge-platform/scripts/jsd/main.js). The privacy policy explicitly mentions cookies and pixel tags as third-party possibilities but the live homepage does not load any. social_proof.on_site_reviews='false' and visible_influencer_endorsements='none' — clinical-stage biotech with institutional posture; no customer testimonials, no influencer / KOL endorsements visible on the corporate marketing site (KOLs may appear in investor presentations on ir.reintx.com but are not surfaced on the marketing site). skus=[] empty array — no SKU pricing data exists for this vendor; LTI-03, LTI-01, LTI-05 are drug-development pipeline assets without commercial price points. content_footprint.blog_url points to ir.reintx.com/press-releases (the IR press-release index served as the closest analog to a corporate blog cadence; the marketing site does not host post bodies — it shows post slugs only and the WP REST API returns empty content.rendered for all post slugs). content_footprint.author_bylines_present='false' — press releases are issued by 'Rein Therapeutics' as a corporate entity via Globe Newswire (e.g., 'AUSTIN, Texas, Nov. 03, 2025 (GLOBE NEWSWIRE) -- Rein Therapeutics ...'), not bylined to individual authors. ADDRESS DISCREPANCY: marketing-site footer ACF data shows 'Rein Therapeutics 1234 Austin Rd. Austin, TX 73301' (placeholder TX state-capital ZIP code, evidently unreplaced template content), while the privacy policy lists the real corporate address as 'Rein Therapeutics, Inc. 12407 N. Mopac Expy. Suite 250 #390 Austin, TX 78758'. The privacy-policy address is treated as authoritative. FETCH OBSTACLE: ir.reintx.com (live IR subdomain hosting press releases, SEC filings, governance docs) refused HTTP/2 (curl error 92 INTERNAL_ERROR) and timed out on HTTP/1.1 from the WSL2 egress IP; archive.org Wayback Machine snapshots dated 2025-12-11 and 2026-05-07 were used per directive §8.1 (three-attempt rule: live failed twice, archive succeeded). All IR-subdomain claims cite archive-org snapshots; Rule 9 (no anti-bot bypass) was honored. INFERRED FIELDS (per Rule 19): hero_imagery_style='clinical' inferred from hero video filename 'Rein_BGHeroVideo_v4.mp4' + clinical-stage biopharma framing + 'Lone Star grit' Texas-corporate styling + leadership team photos labeled '241204_Rein_Candids_HiRes-4003' (corporate candids); year_established='2013' inferred from 'Lung Therapeutics was founded with a focus on orphan pulmonary diseases' on the company timeline (timeline_year:2013) plus Dr. Brian Windsor 'served as President, Chief Executive Officer and a director of Lung since July 2013' — Rein's predecessor entity Lung Therapeutics was founded in 2013, then acquired by Aileron in October 2023, then renamed to Rein in 2025; the operator's seed CSV's 'Jan 2025' is consistent as the rebrand-timing reference rather than the founding date. ship_to_scope='us_only' inferred from privacy policy: 'The Personal and Other Information we collect through or in connection with the Site is transferred to and processed in the United States' and the Phase 2 RENEW trial site geography (clinical trial sites in 15 US states plus UK/Germany/Poland/Australia) — the corporate operations are US-based. tech_stack.platform_signal='wordpress' inferred from x-powered-by: WP Engine response header + Yoast SEO plugin v27.1.1 comment + wp-content/wp-includes/wp-json paths in the source — the public marketing site is WordPress 6.9.4 with a custom Vue.js 'reintx' theme. content_footprint.content_cadence inferred from the six visible post slugs in the Vue route table (Q1, Q2, Q3 2024 financial results plus three LTI-03 press releases) and three additional press releases visible in the November 2025 archive snapshot (Nov 6, Nov 3, Oct 9 2025) — multi-month gaps between sets, dominated by quarterly financial cadence and milestone-driven LTI-03 announcements. All inference fields have ≥2 grep-matching support quotes in the evidence file. PILELINE / SKU FINDING: Although skus=[] is empty for retail purposes, the pipeline assets and their development stages were captured for Pillar A intelligence: LTI-03 (Phase 2 RENEW trial, ~120 patients planned across 50 sites in US/UK/Germany/Poland/Australia, dual-mechanism inhaled peptide derived from Caveolin-1 Scaffolding Domain (CSD) seven-amino-acid peptide for IPF; Orphan Drug Designation in U.S.); LTI-01 (Phase 1b/2a complete, proenzyme/zymogen for loculated pleural effusion (LPE); Orphan Drug Designation in U.S. and E.U. and Fast Track Designation in U.S.); LTI-05 (cystic fibrosis, earlier stage). NASDAQ ticker RNTX confirmed via FDA-clearance press release."
+}

@@ -1,0 +1,177 @@
+{
+  "vendor_slug": "marvel-peptide",
+  "brand_name": "Marvel Peptide",
+  "primary_domain": "https://marvel-peptide.com",
+
+  "fetched_url": "https://marvel-peptide.com/",
+  "fetched_at": "2026-05-08T00:55:18Z",
+  "fetch_status": "partial",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.55,
+
+  "country_of_operation": "China",
+  "fulfillment_country": "China / United States",
+  "ship_to_scope": "us_intl",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "Premium Peptide Manufacturing Solutions — We provide high-quality peptides for laboratories, distributors, and research partners worldwide, supported by controlled production and verified quality documentation.",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Contact Us (WhatsApp / email form)",
+    "navigation_pattern": "Single-page anchored nav: Products, About Us, COA, Team, Reviews, FAQ",
+    "footer_disclaimers": "All rights reserved"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": ["custom peptides", "research-grade peptides", "cosmetic peptides", "peptide lyophilized powders", "raw materials"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "In the United States, only licensed pharmacies can compound peptides and resell them for human use. Peptides in powder form can still be sold, however, they must be marked \"Research Use Only,\" for legal and liability reasons.",
+    "coa_present": "true",
+    "coa_hosting": "on_site",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "true",
+    "customer_review_module_present": "true",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "Peptides in powder form can still be sold, however, they must be marked \"Research Use Only,\" for legal and liability reasons.",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "In the United States, only licensed pharmacies can compound peptides and resell them for human use.",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "We have two warehouses, one in Hong Kong and one in the United States. We match orders according to their destinations and then ship them to various parts of the world for delivery. If a package is lost or detained by customs, we will resend it once free of charge."
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": ["uncertain"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "In some countries, we have the capability to ship directly without going through customs. Furthermore, if a package is lost or detained by customs, we will resend it once free of charge."
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "true"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://marvel-peptide.com/category/blog/",
+    "content_cadence": "nascent — WordPress default 'Hello world!' post only; site launched March 2026",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "false",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "true",
+    "off_site_aggregators": ["https://www.finnrick.com/vendors/marvel-peptide"],
+    "testimonial_usage": "Customer feedback screenshots displayed on homepage (image-based, not text-extractable)",
+    "visible_influencer_endorsements": "none observed"
+  },
+
+  "skus": [
+    {
+      "sku_id": "marvel-peptide:retatrutide-10mg",
+      "name": "Retatrutide 10mg",
+      "peptide_canonical": "Retatrutide",
+      "peptide_variant": "other",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://marvel-peptide.com/",
+      "raw_artifact": "03_raw_fetches/marvel-peptide/social_finnrick_retatrutide.md",
+      "evidence_entry_id": "claim-7"
+    },
+    {
+      "sku_id": "marvel-peptide:retatrutide-20mg",
+      "name": "Retatrutide 20mg",
+      "peptide_canonical": "Retatrutide",
+      "peptide_variant": "other",
+      "dose_value": 20,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://marvel-peptide.com/",
+      "raw_artifact": "03_raw_fetches/marvel-peptide/social_finnrick_retatrutide.md",
+      "evidence_entry_id": "claim-7"
+    },
+    {
+      "sku_id": "marvel-peptide:retatrutide-30mg",
+      "name": "Retatrutide 30mg",
+      "peptide_canonical": "Retatrutide",
+      "peptide_variant": "other",
+      "dose_value": 30,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://marvel-peptide.com/",
+      "raw_artifact": "03_raw_fetches/marvel-peptide/social_finnrick_retatrutide.md",
+      "evidence_entry_id": "claim-7"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "marvel-peptide,Marvel Peptide,marvelpeptide.com,3"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/marvel-peptide/",
+  "evidence_file": "evidence/marvel-peptide.txt",
+  "uncertainty_notes": "1. year_established: Site's WordPress posts dated March 2026; Finnrick first-test date is 16 Dec 2025. The homepage claims 'over 7 years of production experience' and 'over ten years of industry expertise' — contradictory; no founding year stated explicitly. Cannot determine company incorporation date. 2. catalog.sku_count: The homepage has a Products section but no individual product pages were discoverable (sitemap shows only homepage + thank-you + hello-world posts). Products are shown as image thumbnails without extractable text. 3. catalog.search_filter_capabilities: No public product listing page found. 4. catalog.stack_bundle_pages_present: No public product listing page found. 5. product_page_anatomy.sample_product_url through product_page_anatomy.description_copy_excerpt: No individual product pages accessible. 6. product_page_anatomy.lab_partner_named: Homepage states 'third-party testing support' but does not name a specific lab. 7. checkout_flow: All checkout fields uncertain — no cart/shop page found on the site. Site appears to operate as a B2B inquiry/contact vendor rather than a B2C e-commerce store. Contact via WhatsApp/email. 8. tech_stack.cdn through tech_stack.marketing_pixels_present: Source HTML not checked (would require view-source); platform inferred as WordPress/WooCommerce from /wp-content/ URLs in image paths. 9. content_footprint.topic_taxonomy: Blog posts are WordPress defaults only, no real content. 10. trust_compliance.tos_url and trust_compliance.tos_highlights and trust_compliance.refund_policy: No TOS or refund policy page found on the site. 11. sku list prices: Finnrick test data confirms 10mg, 20mg, 30mg Retatrutide vials exist but no public pricing found on the vendor site. 12. primary_domain: Operator-supplied slug uses marvelpeptide.com (no hyphen) but that domain times out; marvel-peptide.com (with hyphen) is the live, responsive domain confirmed HTTP 200."
+}

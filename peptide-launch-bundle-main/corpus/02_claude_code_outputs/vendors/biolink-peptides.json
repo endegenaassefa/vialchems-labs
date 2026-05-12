@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "biolink-peptides",
+  "brand_name": "Biolink Peptides",
+  "primary_domain": "https://biolinkpeptides.com/",
+
+  "fetched_url": "https://biolinkpeptides.com/",
+  "fetched_at": "2026-05-07T19:53:31Z",
+  "fetch_status": "partial",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.42,
+
+  "country_of_operation": "uncertain",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "BIOLINKPEPTIDES",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "Powered by WordPress (WooCommerce)"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": [],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": [],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": [],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": ["PayPal"],
+    "shipping_carriers": [],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": [],
+    "marketing_pixels_present": [],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": [],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": [],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "biolink-peptides,Biolink Peptides,biolinkpeptides.com,USA,USA,US-only,Uncertain,Active,Uncertain,Research Peptides,Uncertain,Y (Trustpilot),May 2026,3,Tier 3: Florida-based retail vendor."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/biolink-peptides/",
+  "evidence_file": "evidence/biolink-peptides.txt",
+  "uncertainty_notes": "Site was in 'Coming Soon' mode on Dec 26, 2024 (only Wayback Machine snapshot with site content). Site transitioned to GoDaddy parking lander by March 16, 2025 and remains parked as of May 7, 2026. No product pages, catalog, checkout, COA, policy pages, or SKUs were ever publicly accessible in any archived snapshot. country_of_operation: site locale was zh_CN (Chinese Simplified) but currency was USD and registrant country is US (via RDAP, privacy-protected). Cannot confirm Florida or any specific US state from fetched artifacts. fulfillment_country: cannot confirm from fetched pages. ship_to_scope: cannot confirm; no shipping policy was accessible. year_established: domain registered 2022-08-25 per RDAP but no 'About' or founding date visible. lab_posture: no COA, no lab content ever archived. hero_imagery_style: site only showed 'Coming Soon' text, no imagery visible. primary_cta/navigation_pattern: not applicable — site was locked behind Coming Soon page. product_page_anatomy: site never launched publicly with products. trust_compliance: no policy pages accessible. checkout_flow: PayPal (pymntpl-paypal-woocommerce plugin) loaded in production environment in archived snapshot, but checkout was never publicly accessible. social_proof: vendor_list.csv input notes Trustpilot presence but Trustpilot returned 403 for all fetch attempts; no Reddit or forum mentions found. CDN/analytics/pixels: not detectable from Coming Soon page (no third-party analytics scripts observed in Dec 2024 snapshot). blog: no blog content archived. Last activity: site parked since ~March 2025. lab_partner_named: no COA, no lab content, and no products were ever publicly visible in any archived snapshot; cannot identify any lab partner."
+}

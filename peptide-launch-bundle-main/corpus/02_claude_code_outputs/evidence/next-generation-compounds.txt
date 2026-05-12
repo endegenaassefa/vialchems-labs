@@ -1,0 +1,410 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://nextgencompounds.com/
+[FETCHED_AT] 2026-05-08T01:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/homepage.md
+[LINE_RANGE] 7-7
+[QUOTE]
+"High-quality research peptides, third-party tested, cGMP certified. For laboratory and research use only."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+Site meta description uses cGMP certification language and "laboratory and research use only" framing. No meme, lifestyle, or anonymous framing found in any accessible content. Trustpilot SERP snippet describes vendor as serving "laboratories, academic institutions, and independent researchers." Both signals indicate clinical posture.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://nextgencompounds.com/
+[FETCHED_AT] 2026-05-08T01:22:00Z
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/homepage.md
+[LINE_RANGE] 7-7
+"Meta Description: High-quality research peptides, third-party tested, cGMP certified. For laboratory and research use only."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://nextgencompounds.com/api/products
+[FETCHED_AT] 2026-05-08T01:22:00Z
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/catalog_1.md
+[LINE_RANGE] 19-19
+"  longDescription: GLP-3 RT is a research-grade triple agonist that simultaneously activates the GLP-1, GIP, and glucagon receptors. 10mg preparation. For Laboratory In Vitro Research Use Only. Not for human or veterinary application."
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://nextgencompounds.com/api/products
+[FETCHED_AT] 2026-05-08T01:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/catalog_1.md
+[LINE_RANGE] 8-9
+[QUOTE]
+"Next Gen Compounds - Product Catalog via /api/products endpoint
+Total products: 30"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://nextgencompounds.com/api/products
+[FETCHED_AT] 2026-05-08T01:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/catalog_1.md
+[LINE_RANGE] 11-19
+[QUOTE]
+"Product: GLP-3RT
+  slug: glp-3rt
+  dosage: 10mg
+  price: $153.99
+  oldPrice: $192.49 (sale: True)
+  stock: 169
+  collections: ['metabolic-weight']"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://nextgencompounds.com/api/products
+[FETCHED_AT] 2026-05-08T01:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/catalog_1.md
+[LINE_RANGE] 128-137
+[QUOTE]
+"Product: Wolverine Blend
+  slug: wolverine-blend-10mg
+  dosage: 10mg
+  price: $98.99
+  oldPrice: $123.74 (sale: True)
+  stock: 150
+  collections: ['research-applications']
+  description: BPC-157 and TB-500 combined for synergistic research"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://nextgencompounds.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_1__bpc-157.md
+[LINE_RANGE] 2-2
+[QUOTE]
+"url: https://nextgencompounds.com/products/bpc-157"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://nextgencompounds.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_1__bpc-157.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"Name: BPC-157"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://nextgencompounds.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_1__bpc-157.md
+[LINE_RANGE] 13-13
+[QUOTE]
+"Dosage: 5mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://nextgencompounds.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_1__bpc-157.md
+[LINE_RANGE] 14-14
+[QUOTE]
+"Price: $49.49"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.per_mg_cost
+[INFERENCE] $9.898/mg
+[REASONING]
+Computed from list price $49.49 divided by dosage 5mg: 49.49 / 5 = 9.898. Dosage and price are both directly from the /api/products JSON endpoint. No per-mg price is displayed on-page; computation is derived from two sourced figures.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://nextgencompounds.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_1__bpc-157.md
+[LINE_RANGE] 14-14
+"Price: $49.49"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://nextgencompounds.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_1__bpc-157.md
+[LINE_RANGE] 13-13
+"Dosage: 5mg"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://nextgencompounds.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_1__bpc-157.md
+[LINE_RANGE] 22-22
+[QUOTE]
+"Long Description: BPC-157 (Body Protection Compound-157) is a synthetic penta-deca-peptide derived from a partial sequence of body protection compound found in human gastric juice. This 15-amino-acid peptide (molecular weight ~1.4 kDa) has been widely studied in preclinical models for its effects on tissue repair, angiogenesis, and inflammatory modulation. Key research applications include gastric mucosal healing mechanisms, tendon, ligament and muscle repair pathways, intestinal epithelial barrier function, and anti-inflammatory signaling cascades. For Laboratory In Vitro Research Use Only."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://nextgencompounds.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_1__bpc-157.md
+[LINE_RANGE] 22-22
+[QUOTE]
+"For Laboratory In Vitro Research Use Only."
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://nextgencompounds.com/api/products
+[FETCHED_AT] 2026-05-08T01:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/catalog_1.md
+[LINE_RANGE] 19-19
+[QUOTE]
+"longDescription: GLP-3 RT is a research-grade triple agonist that simultaneously activates the GLP-1, GIP, and glucagon receptors. 10mg preparation. For Laboratory In Vitro Research Use Only. Not for human or veterinary application."
+[/QUOTE]
+[URL] https://nextgencompounds.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_1__bpc-157.md
+[LINE_RANGE] 22-22
+[QUOTE]
+"For Laboratory In Vitro Research Use Only."
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://nextgencompounds.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_1__bpc-157.md
+[LINE_RANGE] 24-24
+[INFERENCE] 2026
+[REASONING]
+Product images are hosted at checkout.nextgencompounds.com/wp-content/uploads/2026/02/ and 2026/04/, indicating the WordPress media uploads began in early 2026. Multiple products have 2026/02/ and 2026/04/ upload dates. This is the earliest upload directory date visible, suggesting site launch in early 2026.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://nextgencompounds.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_1__bpc-157.md
+[LINE_RANGE] 24-24
+"Image: https://checkout.nextgencompounds.com/wp-content/uploads/2026/02/Bpc157_5mg_9x16-1.png"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://nextgencompounds.com/api/products
+[FETCHED_AT] 2026-05-08T01:22:00Z
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/catalog_1.md
+[LINE_RANGE] 18-19
+"  description: Triple agonist research peptide (GLP-1 GIP Glucagon) - 10mg"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://nextgencompounds.com/
+[FETCHED_AT] 2026-05-08T01:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/source_homepage.md
+[LINE_RANGE] 13-15
+[QUOTE]
+"Framework: Next.js (confirmed by _next/ static chunks, x-nextjs-prerender: 1, x-nextjs-stale-time: 300 headers)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://nextgencompounds.com/
+[FETCHED_AT] 2026-05-08T01:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/source_homepage.md
+[LINE_RANGE] 14-14
+[QUOTE]
+"CDN: Vercel Edge Network (x-vercel-cache: HIT, x-vercel-id: iad1::...)"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://nextgencompounds.com/_next/static/chunks/1421gc9h82e50.js
+[FETCHED_AT] 2026-05-08T01:28:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/source_homepage.md
+[LINE_RANGE] 14-17
+[QUOTE]
+"Facebook Pixel: Present via fbq() in JS bundle 1421gc9h82e50.js
+  * Code: fbq('init', '${i.META_PIXEL_ID}'); fbq('track', 'PageView');
+  * Pixel ID injected from environment variable META_PIXEL_ID (not hardcoded)"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://nextgencompounds.com/_next/static/chunks/1421gc9h82e50.js
+[FETCHED_AT] 2026-05-08T01:28:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/source_homepage.md
+[LINE_RANGE] 14-17
+[QUOTE]
+"Facebook Pixel: Present via fbq() in JS bundle 1421gc9h82e50.js
+  * Code: fbq('init', '${i.META_PIXEL_ID}'); fbq('track', 'PageView');"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://nextgencompounds.com/_next/static/chunks/1421gc9h82e50.js
+[FETCHED_AT] 2026-05-08T01:28:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/source_homepage.md
+[LINE_RANGE] 19-22
+[QUOTE]
+"Intercom: NOT detected
+Tawk: NOT detected"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://checkout.nextgencompounds.com/checkout/
+[FETCHED_AT] 2026-05-08T01:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/checkout_step_1.md
+[LINE_RANGE] 8-13
+[QUOTE]
+"WP Plugins detected from page source:
+- woocommerce (core)
+- woocommerce-payments (Stripe/card processing via WooCommerce Payments)
+- mycred (loyalty points / rewards system; has gateway addon suggesting crypto)
+- woocommerce-paypal-payments
+- nowpayments (crypto payment gateway)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://nextgencompounds.com/
+[FETCHED_AT] 2026-05-08T01:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/homepage.md
+[LINE_RANGE] 1-15
+[QUOTE]
+"Tech Stack: Next.js (confirmed), Vercel CDN"
+[/QUOTE]
+[INFERENCE] false
+[REASONING]
+URL path /blog returned HTTP 404. No blog links were found in product API data or accessible page sources. No content_cadence indicators were found in any artifact.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://nextgencompounds.com/blog
+[FETCHED_AT] 2026-05-08T01:25:00Z
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/homepage.md
+[LINE_RANGE] 1-5
+"Meta Description: High-quality research peptides, third-party tested, cGMP certified. For laboratory and research use only."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://nextgencompounds.com/api/products
+[FETCHED_AT] 2026-05-08T01:22:00Z
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/catalog_1.md
+[LINE_RANGE] 8-9
+"Next Gen Compounds - Product Catalog via /api/products endpoint
+Total products: 30"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.trustpilot.com/review/nextgencompounds.com
+[FETCHED_AT] 2026-05-08T01:30:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/social_1.md
+[LINE_RANGE] 14-15
+[QUOTE]
+"- Trustpilot page exists for nextgencompounds.com
+- Title: \"Next Generation Compounds Reviews | Read Customer Service Reviews of nextgencompounds.com\""
+[/QUOTE]
+
+[CLAIM] skus[0] (GLP-3RT 10mg)
+[URL] https://nextgencompounds.com/api/products/glp-3rt
+[FETCHED_AT] 2026-05-08T01:22:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_6__glp-3rt.md
+[LINE_RANGE] 7-14
+[QUOTE]
+"Name: GLP-3RT
+Dosage: 10mg
+Price: $153.99
+Old Price: 192.49 (on_sale: True)
+Stock: 169
+Collections: metabolic-weight"
+[/QUOTE]
+
+[CLAIM] skus[14] (BPC-157 5mg)
+[URL] https://nextgencompounds.com/api/products/bpc-157
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_1__bpc-157.md
+[LINE_RANGE] 12-17
+[QUOTE]
+"Name: BPC-157
+Dosage: 5mg
+Price: $49.49
+Old Price: 61.86 (on_sale: True)
+Stock: 77
+Collections: regenerative-gut, research-applications"
+[/QUOTE]
+
+[CLAIM] skus[15] (TB-500 5mg)
+[URL] https://nextgencompounds.com/api/products/tb-500
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_2__tb-500.md
+[LINE_RANGE] 12-17
+[QUOTE]
+"Name: TB-500
+Dosage: 5mg
+Price: $54.99
+Old Price: 68.74 (on_sale: True)
+Stock: 53
+Collections: research-applications"
+[/QUOTE]
+
+[CLAIM] skus[7] (GHK-CU 50mg)
+[URL] https://nextgencompounds.com/api/products/ghk-cu
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_3__ghk-cu.md
+[LINE_RANGE] 12-17
+[QUOTE]
+"Name: GHK-CU
+Dosage: 50mg
+Price: $60.49
+Old Price: 75.61 (on_sale: True)
+Stock: 126
+Collections: longevity-cellular"
+[/QUOTE]
+
+[CLAIM] skus (MOTS-C 10mg)
+[URL] https://nextgencompounds.com/api/products/mots-c
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_7__mots-c.md
+[LINE_RANGE] 12-17
+[QUOTE]
+"Name: MOTS-C
+Dosage: 10mg
+Price: $65.99
+Old Price: 82.49 (on_sale: True)
+Stock: 93
+Collections: longevity-cellular, metabolic-weight"
+[/QUOTE]
+
+[CLAIM] skus (GLP-1SM / Semaglutide 10mg)
+[URL] https://nextgencompounds.com/api/products/glp-1sm
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_4__glp-1sm.md
+[LINE_RANGE] 12-17
+[QUOTE]
+"Name: GLP-1SM
+Dosage: 10mg
+Price: $98.99
+Old Price: 123.74 (on_sale: True)
+Stock: 16
+Collections: metabolic-weight"
+[/QUOTE]
+
+[CLAIM] skus (GLP-2TRZ / Tirzepatide 10mg)
+[URL] https://nextgencompounds.com/api/products/glp-2trz
+[FETCHED_AT] 2026-05-08T01:27:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-generation-compounds/product_5__glp-2trz.md
+[LINE_RANGE] 12-17
+[QUOTE]
+"Name: GLP-2TRZ
+Dosage: 10mg
+Price: $126.49
+Old Price: 158.11 (on_sale: True)
+Stock: 137
+Collections: metabolic-weight"
+[/QUOTE]

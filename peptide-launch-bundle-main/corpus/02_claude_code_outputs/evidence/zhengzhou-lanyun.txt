@@ -1,0 +1,534 @@
+[CLAIM] primary_domain
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/homepage.md
+[LINE_RANGE] 589-589
+[QUOTE]
+"[+86 155 3319 9997 Copyright © [Zhengzhou Lanyun Daily Chemicals Commercial Firm](admin/index.asp),All Rights Reserved."
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/homepage.md
+[LINE_RANGE] 55-59
+[QUOTE]
+"##### With outstanding quality, it makes its way around the globe
+
+## High-quality
+Polypeptide"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/homepage.md
+[LINE_RANGE] 55-73
+[QUOTE]
+"##### With outstanding quality, it makes its way around the globe
+
+## High-quality
+Polypeptide
+
+[ black-arrow View more ](allpro.asp)
+
+##### Superior quality and excellent craftsmanship
+
+## Professional
+quality
+
+[ black-arrow View more ](allpro.asp)
+
+##### Service and quality go hand in hand.
+
+## Serve with heart"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/homepage.md
+[LINE_RANGE] 53-53
+[QUOTE]
+"[ black-arrow Get Quote ](contact-us.asp)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/homepage.md
+[LINE_RANGE] 33-51
+[QUOTE]
+"  * [Home](index.asp)
+  * [About us](about-us.asp)
+    * [Company profile](about-us.asp)
+    * [Factory Tour](danye.asp?id=12)
+    * [Videos](danye.asp?id=13)
+  * [Products](allpro.asp)
+    * [Polypeptide lyophilized powder](allpro.asp?proclass=Polypeptide lyophilized powder)
+    * [Oil-based agents](allpro.asp?proclass=Oil based agents)
+    * [Tablets](allpro.asp?proclass=Tablets)
+  * [News __](class.asp?id=24)
+    * [Company News](class.asp?id=24)
+    * [Industrial News](class.asp?id=64)
+  * [FAQ](danye.asp?id=9)
+  * [Contact us](contact-us.asp)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/homepage.md
+[LINE_RANGE] 589-589
+[QUOTE]
+"[+86 155 3319 9997 Copyright © [Zhengzhou Lanyun Daily Chemicals Commercial Firm](admin/index.asp),All Rights Reserved."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://zhengzhoulanyun.com/allpro.asp
+[FETCHED_AT] 2026-05-08T08:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/catalog_1.md
+[LINE_RANGE] 212-212
+[QUOTE]
+"Total:4 page, with 39 products"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://zhengzhoulanyun.com/allpro.asp
+[FETCHED_AT] 2026-05-08T08:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/catalog_1.md
+[LINE_RANGE] 63-65
+[QUOTE]
+"  * [Polypeptide lyophilized powder](allpro.asp?proclass=Polypeptide lyophilized powder) >
+  * [Oil-based agents](allpro.asp?proclass=Oil based agents) >
+  * [Tablets](allpro.asp?proclass=Tablets) >"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://zhengzhoulanyun.com/allpro.asp?proclass=&page=3
+[FETCHED_AT] 2026-05-08T08:52:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/catalog_3.md
+[LINE_RANGE] 1-300
+[QUOTE]
+"[](pro.asp?id=31)
+
+###  [ BPC 10mg + TB 10mg ](pro.asp?id=31)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://zhengzhoulanyun.com/allpro.asp
+[FETCHED_AT] 2026-05-08T08:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/catalog_1.md
+[LINE_RANGE] 63-65
+[QUOTE]
+"  * [Polypeptide lyophilized powder](allpro.asp?proclass=Polypeptide lyophilized powder) >
+  * [Oil-based agents](allpro.asp?proclass=Oil based agents) >
+  * [Tablets](allpro.asp?proclass=Tablets) >"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://zhengzhoulanyun.com/pro.asp?id=55
+[FETCHED_AT] 2026-05-08T08:50:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/product_1__ipamorelin.md
+[LINE_RANGE] 53-53
+[QUOTE]
+"#  Ipamorelin"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://zhengzhoulanyun.com/pro.asp?id=55
+[FETCHED_AT] 2026-05-08T08:50:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/product_1__ipamorelin.md
+[LINE_RANGE] 74-78
+[QUOTE]
+"2mg*10vials
+
+5mg*10vials
+
+10mg*10vials"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://zhengzhoulanyun.com/pro.asp?id=55
+[FETCHED_AT] 2026-05-08T08:50:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/product_1__ipamorelin.md
+[LINE_RANGE] 84-86
+[QUOTE]
+"Ipamorelin is a synthetic pentapeptide belonging to the growth hormone-releasing peptide (GHRP) family. It works by stimulating the pituitary gland to release growth hormone (GH), promoting muscle growth, fat metabolism, and overall health."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://zhengzhoulanyun.com/pro.asp?id=55
+[FETCHED_AT] 2026-05-08T08:50:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/product_1__ipamorelin.md
+[LINE_RANGE] 130-160
+[QUOTE]
+"[HGH 191AA(Somatropin)](pro.asp?id=20) [ HGH 191AA, also known as Somatropin"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[INFERENCE] false
+[REASONING]
+No COA link or COA section is present on any fetched product page. The FAQ page states "we have 100% test before delivery" but provides no link to test certificates or COA documents anywhere on the site.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://zhengzhoulanyun.com/danye.asp?id=9
+[FETCHED_AT] 2026-05-08T08:49:24Z
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/faq.md
+[LINE_RANGE] 74-74
+"Yes, we have 100% test before delivery"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://zhengzhoulanyun.com/pro.asp?id=55
+[FETCHED_AT] 2026-05-08T08:50:15Z
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/product_1__ipamorelin.md
+[LINE_RANGE] 73-130
+"[Inquire Now](Contact-us.asp) Order"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://zhengzhoulanyun.com/pro.asp?id=55
+[FETCHED_AT] 2026-05-08T08:50:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/product_1__ipamorelin.md
+[LINE_RANGE] 110-115
+[QUOTE]
+"### Leave A Message
+
+If you are interested in our products and want to know more details,please leave a message here,we will reply you as soon as we can."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://zhengzhoulanyun.com/danye.asp?id=9
+[FETCHED_AT] 2026-05-08T08:49:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/faq.md
+[LINE_RANGE] 65-71
+[QUOTE]
+"We accept FOB/CIF/EXW/CNF as trade term."
+[/QUOTE]
+[URL] https://zhengzhoulanyun.com/danye.asp?id=9
+[FETCHED_AT] 2026-05-08T08:49:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/faq.md
+[LINE_RANGE] 71-71
+[QUOTE]
+"Generally it is 7-14days, if we have stock. lf not, maybe need 15-20 daysto arrange the shipping."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://zhengzhoulanyun.com/danye.asp?id=9
+[FETCHED_AT] 2026-05-08T08:49:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/faq.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"We'd like to use T/T, visa, Paypal as the terms of payment About LC, DIA,D/P terms can communicate."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/homepage.md
+[LINE_RANGE] 277-277
+[QUOTE]
+"our products enjoy good reputation both at home and abroad.Our trade partners are around the world, mainly in America,Europe,Australia,South East Asia ,Middle East and South Africa."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:51:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/source_homepage.md
+[LINE_RANGE] 8-9
+[QUOTE]
+"Platform: Custom ASP (Classic ASP/.NET) on Microsoft-IIS/10.0
+Server: Microsoft-IIS/10.0 (from HTTP headers)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:51:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/source_homepage.md
+[LINE_RANGE] 10-10
+[QUOTE]
+"CDN: None detected (direct IIS host)"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:51:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/source_homepage.md
+[LINE_RANGE] 14-14
+[QUOTE]
+"Chat: None detected"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/homepage.md
+[LINE_RANGE] 484-490
+[QUOTE]
+"Jan 12, 2024
+
+###  [ HOW TIRZEPATIDE WORKS IN YOUR BODY ](news.asp?id=6)
+
+[ What is Tirzepatide​ Tirzepatide & ...](news.asp?id=6) / [Read more](news.asp?id=6)
+
+Jan 12, 2024
+
+###  [ IS TIRZEPATIDE BETTER THAN SEMAGLUTIDE? ](news.asp?id=5)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/homepage.md
+[LINE_RANGE] 484-499
+[QUOTE]
+"Jan 12, 2024
+
+###  [ HOW TIRZEPATIDE WORKS IN YOUR BODY ](news.asp?id=6)"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/homepage.md
+[LINE_RANGE] 484-507
+[QUOTE]
+"Jan 12, 2024
+
+###  [ HOW TIRZEPATIDE WORKS IN YOUR BODY ](news.asp?id=6)"
+[/QUOTE]
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/homepage.md
+[LINE_RANGE] 500-507
+[QUOTE]
+"Naov 12, 2022
+
+###  [ Smeaglutide---an Amazing Peptide For Losin.. ](news.asp?id=3)"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://zhengzhoulanyun.com/news.asp?id=6
+[FETCHED_AT] 2026-05-08T08:51:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/blog_1.md
+[LINE_RANGE] 55-55
+[QUOTE]
+"#  HOW TIRZEPATIDE WORKS IN YOUR BODY"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://zhengzhoulanyun.com/news.asp?id=6
+[FETCHED_AT] 2026-05-08T08:51:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/blog_1.md
+[LINE_RANGE] 55-63
+[QUOTE]
+"Tirzepatide effectively lowers blood sugar levels, improves insulin sensitivity, promotes satiety, and promotes weight loss."
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://zhengzhoulanyun.com/news.asp?id=6
+[FETCHED_AT] 2026-05-08T08:51:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/blog_1.md
+[LINE_RANGE] 63-65
+[QUOTE]
+"Tirzepatide effectively lowers blood sugar levels, improves insulin sensitivity, promotes satiety, and promotes weight loss. Originally developed as a treatment for type 2 diabetes, Tirzepatide has also demonstrated its ability to protect the cardiovascular system."
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/homepage.md
+[LINE_RANGE] 374-393
+[QUOTE]
+"> We cooperate from last year and many thanks for his trust. We'll provide high quality products for our business.
+
+###  Rio / Spain
+
+Satisfied Client
+
+> During visiting, customer shows their interesting in our products and start business with us. They help us to analyze their market demand so we could meet the market requirement. We appreciate it very much.
+
+###  Mark / USA
+
+Customer
+
+> Some customers are our friends. They shows hospitality during our visiting in their country and help us to solve many problems. It makes us feel warm aboard.
+
+### Mustafa / Turkey
+
+Satisfied Client"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.finnrick.com/vendors/zhengzhou-lanyun
+[FETCHED_AT] 2026-05-08T08:51:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/social_1.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"Finnrick has tested 13 samples from Zhengzhou Lanyun across 2 products."
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/homepage.md
+[LINE_RANGE] 374-393
+[QUOTE]
+"> We cooperate from last year and many thanks for his trust. We'll provide high quality products for our business.
+
+###  Rio / Spain
+
+Satisfied Client"
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/homepage.md
+[LINE_RANGE] 374-400
+[QUOTE]
+"###  Rio / Spain
+
+Satisfied Client
+
+> During visiting, customer shows their interesting in our products and start business with us."
+[/QUOTE]
+
+[CLAIM] skus[ipamorelin].dose_options
+[URL] https://zhengzhoulanyun.com/pro.asp?id=55
+[FETCHED_AT] 2026-05-08T08:50:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/product_1__ipamorelin.md
+[LINE_RANGE] 74-78
+[QUOTE]
+"2mg*10vials
+
+5mg*10vials
+
+10mg*10vials"
+[/QUOTE]
+
+[CLAIM] skus[tb500].dose_options
+[URL] https://zhengzhoulanyun.com/pro.asp?id=44
+[FETCHED_AT] 2026-05-08T08:51:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/product_2__tb500.md
+[LINE_RANGE] 74-78
+[QUOTE]
+"2mg*10vials
+
+5mg*10vials
+
+10mg*10vials"
+[/QUOTE]
+
+[CLAIM] skus[tirzepatide].dose_options
+[URL] https://zhengzhoulanyun.com/pro.asp?id=38
+[FETCHED_AT] 2026-05-08T08:52:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/product_3__tirzepatide.md
+[LINE_RANGE] 76-90
+[QUOTE]
+"5mg*10vials
+
+10mg*10vials
+
+15mg*10vials
+
+20mg*10vials
+
+30mg*10vials
+
+40mg*10vials
+
+60mg*10vials"
+[/QUOTE]
+
+[CLAIM] skus[ss31].dose_options
+[URL] https://zhengzhoulanyun.com/pro.asp?id=37
+[FETCHED_AT] 2026-05-08T08:52:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/product_4__ss31.md
+[LINE_RANGE] 74-76
+[QUOTE]
+"10mg*10vials
+
+50mg*10vials"
+[/QUOTE]
+
+[CLAIM] skus[bpc157].dose_options
+[URL] https://zhengzhoulanyun.com/pro.asp?id=29
+[FETCHED_AT] 2026-05-08T08:52:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/product_5__bpc157.md
+[LINE_RANGE] 74-78
+[QUOTE]
+"2mg*10vials
+
+5mg*10vials
+
+10mg*10vials"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://zhengzhoulanyun.com/contact-us.asp
+[FETCHED_AT] 2026-05-08T08:49:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/contact.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"1606, Building A, Provincial Hui Center, Zhengqi Street, Jinshui District, Zhengzhou"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://zhengzhoulanyun.com/contact-us.asp
+[FETCHED_AT] 2026-05-08T08:49:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/contact.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"1606, Building A, Provincial Hui Center, Zhengqi Street, Jinshui District, Zhengzhou"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://zhengzhoulanyun.com
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhengzhou-lanyun/homepage.md
+[LINE_RANGE] 277-277
+[QUOTE]
+"our products enjoy good reputation both at home and abroad.Our trade partners are around the world, mainly in America,Europe,Australia,South East Asia ,Middle East and South Africa."
+[/QUOTE]

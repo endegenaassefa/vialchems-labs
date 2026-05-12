@@ -1,0 +1,286 @@
+[CLAIM] primary_domain (note: seed domain hkpeptides.com is dead; primary_domain is hkpeptidesworldwide.com)
+[URL] https://www.finnrick.com/vendors/hk-peptides
+[FETCHED_AT] 2026-05-07T23:18:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/social_1.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"Finnrick has tested 397 samples from HK Peptides across 12 products."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://hkpeptidesworldwide.com/
+[FETCHED_AT] 2026-05-07T23:13:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/homepage.md
+[LINE_RANGE] 90-90
+[QUOTE]
+"Founded in Hong Kong, the global hub of advanced biotechnology and precision manufacturing, HK Peptides Worldwide has quickly become a trusted name in research-grade peptides since 2020."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://hkpeptidesworldwide.com/about/
+[FETCHED_AT] 2026-05-07T23:14:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/about.md
+[LINE_RANGE] 74-74
+[QUOTE]
+"HK Peptides Worldwide is proud to introduce our **USA Distribution Center** , established in 2025 to expand our global footprint and strengthen our ability to serve customers with faster, more reliable, and more transparent delivery services."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://hkpeptidesworldwide.com/
+[FETCHED_AT] 2026-05-07T23:13:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/homepage.md
+[LINE_RANGE] 95-95
+[QUOTE]
+"Our mission is simple: deliver the world’s cleanest, most reliable peptides with unmatched speed and discretion to researchers, clinics, biohackers, and elite athletes in over 80 countries."
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://hkpeptidesworldwide.com/
+[FETCHED_AT] 2026-05-07T23:13:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/homepage.md
+[LINE_RANGE] 90-90
+[QUOTE]
+"Founded in Hong Kong, the global hub of advanced biotechnology and precision manufacturing, HK Peptides Worldwide has quickly become a trusted name in research-grade peptides since 2020."
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://hkpeptidesworldwide.com/
+[FETCHED_AT] 2026-05-07T23:13:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/homepage.md
+[LINE_RANGE] 72-79
+[QUOTE]
+"# Discover the Power of Precision: HK Peptides Worldwide
+
+### **Unlock Your Potential with Premium Peptides**
+
+**At[HK Peptides Worldwide,](https://hkpeptidesworldwide.com/) we're your trusted global partner in cutting-edge peptide innovation. Sourced from the heart of Hong Kong's biotech excellence, our high-purity peptides empower researchers, athletes, and wellness pioneers to push boundaries in performance, recovery, and longevity.**"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://hkpeptidesworldwide.com/
+[FETCHED_AT] 2026-05-07T23:13:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/homepage.md
+[LINE_RANGE] 80-80
+[QUOTE]
+"[ shop premium peptides ](https://hkpeptidesworldwide.com/shop/) [ learn more about us ](https://hkpeptidesworldwide.com/about/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://hkpeptidesworldwide.com/
+[FETCHED_AT] 2026-05-07T23:13:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/homepage.md
+[LINE_RANGE] 537-537
+[QUOTE]
+"Copyright 2026 © **HK PEPTIDES WORLDWIDE | BUY RESEARCH GRADE PEPTIDES**"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://hkpeptidesworldwide.com/product/bpc-157-5-mg-body-protection-research-peptide-usa/
+[FETCHED_AT] 2026-05-07T23:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 133-133
+[QUOTE]
+"Category: [Research Grade Peptide](https://hkpeptidesworldwide.com/product-category/research-grade-peptide/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://hkpeptidesworldwide.com/shop/
+[FETCHED_AT] 2026-05-07T23:14:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/catalog_1.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"[BPC-157 + TB-500 10 mg Research Peptide Combination USA](https://hkpeptidesworldwide.com/product/bpc-157-tb-500-10-mg-research-peptide-combination-usa/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url / product_page_anatomy.list_price / product_page_anatomy.sample_product_name
+[URL] https://hkpeptidesworldwide.com/product/bpc-157-5-mg-body-protection-research-peptide-usa/
+[FETCHED_AT] 2026-05-07T23:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 103-107
+[QUOTE]
+"~~$ 56.00~~ Original price was: $56.00.$48.00Current price is: $48.00.
+
+Price for 10 vials
+
+BPC-157 5 mg, BPC 157 research peptide USA"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language / trust_compliance.research_use_only_phrasing
+[URL] https://hkpeptidesworldwide.com/product/bpc-157-5-mg-body-protection-research-peptide-usa/
+[FETCHED_AT] 2026-05-07T23:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 113-115
+[QUOTE]
+"BPC-157 is not intended for human or veterinary use and is provided strictly for in-vitro and laboratory research only."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://hkpeptidesworldwide.com/product/bpc-157-5-mg-body-protection-research-peptide-usa/
+[FETCHED_AT] 2026-05-07T23:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 187-187
+[QUOTE]
+"* Description
+  * Reviews (0)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://hkpeptidesworldwide.com/how-to-buy/
+[FETCHED_AT] 2026-05-07T23:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/how-to-buy.md
+[LINE_RANGE] 68-76
+[QUOTE]
+"For approved customers, we currently accept the following payment options:
+
+  * **Chime**
+
+  * **Bank Transfer**
+
+  * **Crypto (BTC recommended)**"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://hkpeptidesworldwide.com/
+[FETCHED_AT] 2026-05-07T23:13:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/homepage.md
+[LINE_RANGE] 95-95
+[QUOTE]
+"Our mission is simple: deliver the world’s cleanest, most reliable peptides with unmatched speed and discretion to researchers, clinics, biohackers, and elite athletes in over 80 countries."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The hkpeptidesworldwide.com site uses WooCommerce-pattern URLs (/product/, /product-category/, /cart/, /checkout/, /my-account/, /shop/) and the shop sidebar references WordPress Appearance > Widgets — both are canonical WooCommerce/WordPress markers.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://hkpeptidesworldwide.com/shop/
+[FETCHED_AT] 2026-05-07T23:14:43Z
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/catalog_1.md
+[LINE_RANGE] 45-45
+"You need to assign Widgets to **"Shop Sidebar"** in [Appearance > Widgets](https://hkpeptidesworldwide.com/wp-admin/widgets.php) to show anything here"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://hkpeptidesworldwide.com/product/bpc-157-5-mg-body-protection-research-peptide-usa/
+[FETCHED_AT] 2026-05-07T23:19:52Z
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 133-133
+"Category: [Research Grade Peptide](https://hkpeptidesworldwide.com/product-category/research-grade-peptide/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://hkpeptidesworldwide.com/
+[FETCHED_AT] 2026-05-07T23:13:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/homepage.md
+[LINE_RANGE] 519-519
+[QUOTE]
+"Reach us anytime via Live Chat (bottom-right corner, available 24/7) or send an email to support@hkpeptidesworldwide.com"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.blog_url
+[URL] https://hkpeptidesworldwide.com/
+[FETCHED_AT] 2026-05-07T23:13:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/homepage.md
+[LINE_RANGE] 38-38
+[QUOTE]
+"[Blog](https://hkpeptidesworldwide.com/blog/)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.finnrick.com/vendors/hk-peptides
+[FETCHED_AT] 2026-05-07T23:18:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/social_1.md
+[LINE_RANGE] 68-94
+[QUOTE]
+"4.7
+
+Based on 86 overall satisfaction reports
+
+Ease of Purchase
+
+4.6(81)
+
+Payment Methods
+
+4.2(82)
+
+Delivery Speed
+
+4.4(82)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews (testimonial section)
+[URL] https://hkpep.cc/
+[FETCHED_AT] 2026-05-07T23:22:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/hkpep-homepage.md
+[LINE_RANGE] 129-131
+[QUOTE]
+"I’ve sourced peptides from multiple places, but **HKPEP** consistently delivers unmatched purity. Every batch is reliable, and exactly what I need.
+
+Brooklyn Simmons"
+[/QUOTE]
+
+[CLAIM] skus[0].list_price_usd / skus[0].sale_price_usd / skus[0].name / skus[0].dose_value
+[URL] https://hkpeptidesworldwide.com/product/bpc-157-5-mg-body-protection-research-peptide-usa/
+[FETCHED_AT] 2026-05-07T23:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 103-107
+[QUOTE]
+"~~$ 56.00~~ Original price was: $56.00.$48.00Current price is: $48.00.
+
+Price for 10 vials"
+[/QUOTE]
+
+[CLAIM] hkpep.cc related entity — address and year founded (supporting uncertainty_notes)
+[URL] https://hkpep.cc/about-us/
+[FETCHED_AT] 2026-05-07T23:20:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/hkpep-about.md
+[LINE_RANGE] 85-106
+[QUOTE]
+"CHATER HOUSE, 8 CONNAUGHT ROAD CENTRAL, HONG KONG
+
+stevenfly668@gmail.com
+
+©2012-2025 HKPEP™. All Rights Reserved."
+[/QUOTE]
+
+[CLAIM] hkpep.cc related entity — research use disclaimer (supporting trust_compliance)
+[URL] https://hkpep.cc/about-us/
+[FETCHED_AT] 2026-05-07T23:20:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/hkpep-about.md
+[LINE_RANGE] 90-92
+[QUOTE]
+"HKPEP™ products are for research purposes only. Not for human consumption or clinical use. The buyer is responsible for adhering to all local laws and regulations. HKPEP™ is not a pharmacy and does not provide medical advice, prescriptions, or consultations."
+[/QUOTE]
+
+[CLAIM] hkpep.cc related entity — headline SKU list (supporting catalog view)
+[URL] https://hkpep.cc/coas/
+[FETCHED_AT] 2026-05-07T23:21:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hk-peptides/coa_1.md
+[LINE_RANGE] 33-60
+[QUOTE]
+"####  Retatrutide"
+[/QUOTE]

@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "abacus-diagnostica",
+  "brand_name": "Abacus Diagnostica",
+  "primary_domain": "https://abacusdiagnostica.com",
+
+  "fetched_url": "https://web.archive.org/web/2024/https://abacusdiagnostica.com",
+  "fetched_at": "2026-05-07T19:31:45Z",
+  "fetch_status": "failed",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed). NOTE: Abacus Diagnostica is not a research-peptide vendor. It is a Finnish molecular diagnostics company (PCR testing instruments and assay kits under the GenomEra CDX platform) that merged into Uniogen Oy in 2022. The entity has no documented connection to the research-peptide market. All peptide-specific schema fields are uncertain by structural impossibility, not by fetch failure. Live domain timed out; Wayback Machine snapshots confirm nature of business. fetch_status set to failed per Rule 17 (<0.40 non-uncertain fields) because no peptide-relevant data exists to fill the schema.",
+  "field_completion_ratio": 0.12,
+
+  "country_of_operation": "Finland",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "Enabling Molecular Diagnostics — Rapid molecular testing for clinical diagnostics",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "uncertain"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": ["uncertain"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": ["uncertain"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "uncertain",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["uncertain"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "abacus-diagnostica,Abacus Diagnostica,abacusdiagnostica.com,0,00_inputs/vendor_list.csv,\"row from operator-supplied vendor list, classified as Tier 3: Defunct, integrated into Uniogen.\",3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/abacus-diagnostica/",
+  "evidence_file": "evidence/abacus-diagnostica.txt",
+  "uncertainty_notes": "STRUCTURAL OUT-OF-SCOPE: Abacus Diagnostica Oy is a Finnish clinical molecular diagnostics company — maker of the GenomEra CDX PCR testing platform. It is not and has never been a research-peptide vendor. All peptide-specific schema fields (catalog, product_page_anatomy, trust_compliance, checkout_flow, tech_stack, content_footprint, social_proof, skus) are uncertain because the entity has no products or operations in the research-peptide space. The company merged with Kaivogen and Labrox in 2022 to form Uniogen Oy, headquartered in Turku, Southwest Finland. The live domain (abacusdiagnostica.com) timed out (curl exit 28); Wayback Machine 2024 snapshot redirected to uniogen.com/abacus-diagnostica-is-now-part-of-uniogen/. Wayback Machine 2022 snapshot confirms company identity: molecular diagnostics, not peptides. country_of_operation=Finland is confirmed from footer of 2022 archive (Abacus Diagnostica Oy, Tykistokatu 4D, 20520 Turku, FINLAND). year_established is uncertain — no founding date found in fetched pages. field_completion_ratio=0.12 (only vendor_slug, brand_name, primary_domain, fetched_url, fetched_at, tier, country_of_operation, homepage.hero_copy_excerpt confirmed non-uncertain out of ~67 leaf schema fields). fetch_status=failed per Rule 17 (<0.40). hero_imagery_style uncertain because image content not rendered by html2text. footer_disclaimers uncertain because archived redirect page had no footer disclaimer text captured."
+}

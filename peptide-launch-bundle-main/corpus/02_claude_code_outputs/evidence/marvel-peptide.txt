@@ -1,0 +1,405 @@
+[CLAIM] primary_domain
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 2-2
+[QUOTE]
+"url: https://marvel-peptide.com/"
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 17-21
+[QUOTE]
+"## Peptide Manufacturing
+
+#### Premium Peptide Manufacturing Solutions
+
+We provide high-quality peptides for laboratories, distributors, and research partners worldwide, supported by controlled production and verified quality documentation."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 39-41
+[QUOTE]
+"## We are a direct manufacturer backed by strong in-house technical expertise and production capabilities.
+
+Marvel Peptide is an experienced peptide manufacturer with over ten years of industry expertise, supplying high-quality products to distributors, laboratories, and research partners worldwide."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 127-131
+[QUOTE]
+"###### Contact Us
+
+E-MAIL : tina@marvelpeptide.cn
+
+WhatsApp:853-65273251"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 8-13
+[QUOTE]
+"  * Products
+  * About Us
+  * COA
+  * Team
+  * Reviews
+  * FAQ"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://marvel-peptide.com/hello-world/
+[FETCHED_AT] 2026-05-08T01:02:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/blog_hello_world.md
+[LINE_RANGE] 45-46
+[QUOTE]
+"All rights reserved
+
+WhatsApp us"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 55-55
+[QUOTE]
+"With dual warehouses in **China and the United States** , we ensure fast and reliable global delivery."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 123-125
+[QUOTE]
+"__ __ Where are you shipping from?
+
+We have two warehouses, one in Hong Kong and one in the United States. We match orders according to their destinations and then ship them to various parts of the world for delivery."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 31-31
+[QUOTE]
+"__ Fast Global Delivery  Multiple warehouses in Hong Kong and the U.S. enable efficient shipping to over 30 countries worldwide."
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 101-103
+[QUOTE]
+"We specialize in a variety of high-purity peptides, including custom peptides, research-grade peptides, cosmetic peptides, and peptide lyophilized powders and raw materials for pharmaceutical applications."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 105-113
+[QUOTE]
+__ __ Why do your products say: “Research Use Only”?
+
+In the United States, only licensed pharmacies can compound peptides and resell them for human use.
+
+Peptides in powder form can still be sold, however, they must be marked “Research Use Only,” for legal and liability reasons.
+
+PLEASE be aware that self administering “research” peptides could be dangerous! There’s a reason certain compounds are available ONLY under the careful supervision of a doctor. We do not want to see anyone harmed by misusing our products.
+
+Furthermore, we cannot provide medical advice of any kind. Please be safe.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 61-63
+[QUOTE]
+"###### COA
+
+Every batch includes a **Certificate of Analysis (COA)** to verify product quality, with **third-party testing support**."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 8-10
+[QUOTE]
+"  * Products
+  * About Us
+  * COA"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://www.finnrick.com/products/retatrutide/marvel-peptide
+[FETCHED_AT] 2026-05-08T00:55:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/social_finnrick_retatrutide.md
+[LINE_RANGE] 83-93
+[QUOTE]
+"Test Date| Certificate| Test Score| Label| Tested| Difference| Purity| Endotoxins| Batch ID| Container| Tested At| Sent By
+2 Apr 2026| [View](/testing-certificate/retatrutide/marvel-peptide/20260402-g-ms5svtj)| 9.3| 20mg| 20.4mg| +2.0%| 99.60%| n/a|  feb 5, 2026| Gray Label / Copper Crimp / Clear Cap| Lab G| Public
+7 Mar 2026| [View](/testing-certificate/retatrutide/marvel-peptide/20260307-g-qjj3ugg)| 8.6| 20mg| 21.7mg| +8.5%| 99.80%| n/a| 021526| No Label / Silver Crimp / Clear Green Cap| Lab G| Public
+11 Feb 2026| [View](/testing-certificate/retatrutide/marvel-peptide/20260211-e-eph3gks)| 9.7| 10mg| 10.6mg| +6.0%| 99.90%| n/a| Marv2510220131| No Label / Silver Crimp / Yellow Cap| Lab E| Public"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 89-97
+[QUOTE]
+"###### Customer Feedback
+
+[](https://marvel-peptide.com/wp-content/uploads/2026/03/191d0413e92e6ecb166ce9256c8d510e.png)
+
+[](https://marvel-peptide.com/wp-content/uploads/2026/03/e21d1a788dab5496f2a166daa2d141e0.png)
+
+[](https://marvel-peptide.com/wp-content/uploads/2026/03/e704389c1974dc3b74d41e6f4872a5eb.png)
+
+[](https://marvel-peptide.com/wp-content/uploads/2026/03/561d2c00a30bc95aedfbc81c57688408.png)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 107-107
+[QUOTE]
+In the United States, only licensed pharmacies can compound peptides and resell them for human use.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://marvel-peptide.com/hello-world/
+[FETCHED_AT] 2026-05-08T01:02:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/blog_hello_world.md
+[LINE_RANGE] 45-46
+[QUOTE]
+All rights reserved
+
+WhatsApp us
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 107-107
+[QUOTE]
+"In the United States, only licensed pharmacies can compound peptides and resell them for human use."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 115-117
+[QUOTE]
+"__ __ What should I do if my package is lost or detained by customs?
+
+In some countries, we have the capability to ship directly without going through customs. Furthermore, if a package is lost or detained by customs, we will resend it once free of charge."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 115-117
+[QUOTE]
+"In some countries, we have the capability to ship directly without going through customs. Furthermore, if a package is lost or detained by customs, we will resend it once free of charge."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 65-71
+[QUOTE]
+"[](https://marvel-peptide.com/wp-content/uploads/2026/03/5c7915aa70a4a2d89383f1f27d4f95eb.jpg)
+
+[](https://marvel-peptide.com/wp-content/uploads/2026/03/7aa5aad41db5d1bed9cb14fc48ff1fd0.jpg)
+
+[](https://marvel-peptide.com/wp-content/uploads/2026/03/a74e39739319ee9c6acb4746016767df.jpg)
+
+[](https://marvel-peptide.com/wp-content/uploads/2026/03/f6ac5d3b25e263e9e46fac645a8fbc0b.jpg)"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 133-133
+[QUOTE]
+WhatsApp:853-65273251
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://marvel-peptide.com/category/blog/
+[FETCHED_AT] 2026-05-08T01:10:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/blog_category.md
+[LINE_RANGE] 2-2
+[QUOTE]
+url: https://marvel-peptide.com/category/blog/
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://marvel-peptide.com/category/blog/
+[FETCHED_AT] 2026-05-08T01:10:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/blog_category.md
+[LINE_RANGE] 2-2
+[QUOTE]
+url: https://marvel-peptide.com/category/blog/
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://marvel-peptide.com/hello-world/
+[FETCHED_AT] 2026-05-08T01:02:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/blog_hello_world.md
+[LINE_RANGE] 7-9
+[QUOTE]
+"# Hello world!
+
+Welcome to WordPress. This is your first post. Edit or delete it, then start writing!"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 75-87
+[QUOTE]
+"## Professional Service Team
+
+Amy
+
+Anna
+
+Chloe
+
+Kitty
+
+Luna
+
+Mia"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 89-97
+[QUOTE]
+"###### Customer Feedback
+
+[](https://marvel-peptide.com/wp-content/uploads/2026/03/191d0413e92e6ecb166ce9256c8d510e.png)
+
+[](https://marvel-peptide.com/wp-content/uploads/2026/03/e21d1a788dab5496f2a166daa2d141e0.png)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.finnrick.com/vendors/marvel-peptide
+[FETCHED_AT] 2026-05-08T00:55:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/social_finnrick_vendor.md
+[LINE_RANGE] 10-12
+[QUOTE]
+"# Marvel Peptide
+
+Finnrick has tested 9 samples from Marvel Peptide across 1 product."
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://marvel-peptide.com/
+[FETCHED_AT] 2026-05-08T00:55:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/homepage.md
+[LINE_RANGE] 89-97
+[QUOTE]
+"###### Customer Feedback
+
+[](https://marvel-peptide.com/wp-content/uploads/2026/03/191d0413e92e6ecb166ce9256c8d510e.png)
+
+[](https://marvel-peptide.com/wp-content/uploads/2026/03/e21d1a788dab5496f2a166daa2d141e0.png)
+
+[](https://marvel-peptide.com/wp-content/uploads/2026/03/e704389c1974dc3b74d41e6f4872a5eb.png)
+
+[](https://marvel-peptide.com/wp-content/uploads/2026/03/561d2c00a30bc95aedfbc81c57688408.png)"
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://marvel-peptide.com/hello-world/
+[FETCHED_AT] 2026-05-08T01:02:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/blog_hello_world.md
+[LINE_RANGE] 45-45
+[QUOTE]
+All rights reserved
+[/QUOTE]
+
+[CLAIM] skus[0].name / skus[1].name / skus[2].name (Retatrutide 10mg, 20mg, 30mg confirmed by third-party test data)
+[INFERENCE] Retatrutide available in 10mg, 20mg, and 30mg vial formats
+[REASONING]
+Finnrick test records show multiple purchases of Marvel Peptide Retatrutide in 10mg, 20mg, and 30mg vials submitted by the public between December 2025 and April 2026. While the vendor site does not expose a public product listing page, these SKU sizes are confirmed by independent third-party test submissions.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.finnrick.com/products/retatrutide/marvel-peptide
+[FETCHED_AT] 2026-05-08T00:55:29Z
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/social_finnrick_retatrutide.md
+[LINE_RANGE] 84-92
+"2 Apr 2026| [View](/testing-certificate/retatrutide/marvel-peptide/20260402-g-ms5svtj)| 9.3| 20mg| 20.4mg| +2.0%| 99.60%| n/a|  feb 5, 2026| Gray Label / Copper Crimp / Clear Cap| Lab G| Public
+7 Mar 2026| [View](/testing-certificate/retatrutide/marvel-peptide/20260307-g-qjj3ugg)| 8.6| 20mg| 21.7mg| +8.5%| 99.80%| n/a| 021526| No Label / Silver Crimp / Clear Green Cap| Lab G| Public
+18 Feb 2026| [View](/testing-certificate/retatrutide/marvel-peptide/20260218-e-d99scpe)| 6.0| 20mg| 17.6mg| -12.0%| 99.90%| n/a| (no batch ID)| No Label / Gold Crimp / Clear Cap| Lab E| Public
+11 Feb 2026| [View](/testing-certificate/retatrutide/marvel-peptide/20260211-e-eph3gks)| 9.7| 10mg| 10.6mg| +6.0%| 99.90%| n/a| Marv2510220131| No Label / Silver Crimp / Yellow Cap| Lab E| Public
+4 Feb 2026| [View](/testing-certificate/retatrutide/marvel-peptide/20260204-g-ccsjjp6)| 9.5| 20mg| 20.2mg| +1.0%| 99.70%| n/a| Tr20-111| No Label / Copper Crimp / Clear Cap| Lab G| Public"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.finnrick.com/vendors/marvel-peptide
+[FETCHED_AT] 2026-05-08T00:55:25Z
+[RAW_ARTIFACT] 03_raw_fetches/marvel-peptide/social_finnrick_vendor.md
+[LINE_RANGE] 107-114
+"2 Apr 2026| Retatrutide| [View](/testing-certificate/retatrutide/marvel-peptide/20260402-g-ms5svtj)| 9.3| 20mg| 20.4mg| +2.0%| 99.60%|  feb 5, 2026| Gray Label / Copper Crimp / Clear Cap| Lab G| Public
+7 Mar 2026| Retatrutide| [View](/testing-certificate/retatrutide/marvel-peptide/20260307-g-qjj3ugg)| 8.6| 20mg| 21.7mg| +8.5%| 99.80%| 021526| No Label / Silver Crimp / Clear Green Cap| Lab G| Public
+26 Jan 2026| Retatrutide| [View](/testing-certificate/retatrutide/marvel-peptide/20260126-g-8fb98tt)| 7.2| 30mg| 28mg| -6.7%| 99.80%| (no batch ID)| No Label / Silver Crimp / Clear Blue Cap| Lab G| Public"
+[/SUPPORT_QUOTE]

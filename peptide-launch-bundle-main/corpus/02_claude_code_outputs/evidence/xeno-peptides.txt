@@ -1,0 +1,681 @@
+[CLAIM] primary_domain
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/homepage.md
+[LINE_RANGE] 1-8
+[QUOTE]
+"url: https://xenopeptides.com/"
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/homepage.md
+[LINE_RANGE] 58-65
+[QUOTE]
+"TRUSTED BY RESEARCHERS NATIONWIDE
+
+# Research Grade Peptides.
+No Compromises.
+
+### Every batch USA lab-verified with a Certificate of Analysis.
+
+[ Shop Peptides → ](https://xenopeptides.com/shop/peptides/)"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/homepage.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"[ Shop Peptides → ](https://xenopeptides.com/shop/peptides/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/homepage.md
+[LINE_RANGE] 10-28
+[QUOTE]
+"  * [Home](https://xenopeptides.com/)
+  * [Peptides ](https://xenopeptides.com/shop/peptides/)Menu Toggle
+    * [ GLP Research](https://xenopeptides.com/product-category/glp-research/)
+    * [ Healing & Recovery Research](https://xenopeptides.com/product-category/healing-recovery-research/)
+    * [ Appearance & Skin Research](https://xenopeptides.com/product-category/appearance-skin-research/)
+    * [ Nootropic Peptides](https://xenopeptides.com/product-category/nootropic-research/)
+    * [ Research Essentials](https://xenopeptides.com/product-category/research-essentials/)
+  * [Lab Tests/COA](https://xenopeptides.com/labtests/)
+  * [Blog](https://xenopeptides.com/blog/)
+  * [FAQ](https://xenopeptides.com/faq/)
+  * [About](https://xenopeptides.com/about/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/homepage.md
+[LINE_RANGE] 200-214
+[QUOTE]
+"### Xeno Research LLC
+5900 Balcones Drive STE 100
+Austin, TX 78731
+Phone: (832) 868-6954
+
+  * [Privacy Policy](https://xenopeptides.com/privacy-policy-2/)
+  * [Shipping Policy](https://xenopeptides.com/shipping-policy/)
+  * [Terms of Service](https://xenopeptides.com/terms-of-service/)
+  * [Refund Policy](https://xenopeptides.com/refund-policy/)
+
+© 2026 Xeno Peptides. Powered by Xeno Peptides."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] US
+[REASONING]
+The business address listed in the footer on every page is "5900 Balcones Drive STE 100, Austin, TX 78731" — a US address. The shipping policy explicitly states "We currently ship within the United States only."
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/homepage.md
+[LINE_RANGE] 200-203
+"### Xeno Research LLC
+5900 Balcones Drive STE 100
+Austin, TX 78731
+Phone: (832) 868-6954"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://xenopeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T08:48:30Z
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/shipping_policy.md
+[LINE_RANGE] 72-72
+"We currently ship within the United States only."
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://xenopeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T08:48:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/shipping_policy.md
+[LINE_RANGE] 72-72
+[QUOTE]
+"We currently ship within the United States only."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+No explicit founding date is stated on the About page. The WordPress page schema in the site HTML source shows datePublished="2025-07-21T08:46:44-06:00", which is the earliest evidence of the site existing publicly. The logo file path also includes "Jul-18-2025" in its filename, consistent with a July 2025 launch.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/source_homepage.md
+[LINE_RANGE] 1-1
+"datePublished":"2025-07-21T08:46:44-06:00"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/source_homepage.md
+[LINE_RANGE] 1-1
+"Jul-18-2025-02_13_58-AM-120x37.png"
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://xenopeptides.com/shop/peptides/
+[FETCHED_AT] 2026-05-08T08:47:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/catalog_1.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"Showing all 11 resultsSorted by popularity"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://xenopeptides.com/shop/peptides/
+[FETCHED_AT] 2026-05-08T08:47:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/catalog_1.md
+[LINE_RANGE] 10-21
+[QUOTE]
+"  * [Peptides ](https://xenopeptides.com/shop/peptides/)Menu Toggle
+    * [ GLP Research](https://xenopeptides.com/product-category/glp-research/)
+    * [ Healing & Recovery Research](https://xenopeptides.com/product-category/healing-recovery-research/)
+    * [ Appearance & Skin Research](https://xenopeptides.com/product-category/appearance-skin-research/)
+    * [ Nootropic Peptides](https://xenopeptides.com/product-category/nootropic-research/)
+    * [ Research Essentials](https://xenopeptides.com/product-category/research-essentials/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://xenopeptides.com/shop/peptides/
+[FETCHED_AT] 2026-05-08T08:47:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/catalog_1.md
+[LINE_RANGE] 108-110
+[QUOTE]
+"## [GLOW (GHK-CU, TB-500, BPC-157)](https://xenopeptides.com/product/glow/) ~~$ 135.99~~ Original price was: $135.99.$115.99Current price is: $115.99."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://xenopeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T08:47:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/product_1__bpc-157.md
+[LINE_RANGE] 1-2
+[QUOTE]
+"url: https://xenopeptides.com/product/bpc-157/"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://xenopeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T08:47:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/product_1__bpc-157.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"~~$ 69.99~~ Original price was: $69.99.$44.99Current price is: $44.99."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://xenopeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T08:47:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/product_1__bpc-157.md
+[LINE_RANGE] 82-84
+[QUOTE]
+"## BPC-157 – Research Peptide
+
+**BPC-157** is a synthetic research peptide provided strictly for laboratory research and analytical study. This product is not intended for human or veterinary use."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://xenopeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T08:47:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/product_1__bpc-157.md
+[LINE_RANGE] 110-114
+[QUOTE]
+"  * _**This product is sold for scientific research purposes only.**_
+  * This designation allows the use of research chemicals strictly for in vitro testing and laboratory experimentation only. All product information available on this website is for educational purposes only. Bodily introduction of any kind into humans or animals is strictly forbidden by law. This product should only be handled by licensed, qualified professionals. This product is not a drug, food, or cosmetic and may not be misbranded, misused or mislabeled as a drug, food or cosmetic."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://xenopeptides.com/labtests/
+[FETCHED_AT] 2026-05-08T08:48:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/coa_1.md
+[LINE_RANGE] 58-66
+[QUOTE]
+"# Third-Party Lab Testing & Certificates of Analysis
+
+### Every batch tested by Chromate Labs. Verify authenticity instantly.
+
+All Xeno Peptides products undergo rigorous third-party testing by Chromate Labs, an accredited analytical testing laboratory. Each Certificate of Analysis (CoA) includes HPLC chromatography results, purity percentage, and a unique verification code you can check independently.
+
+[ Click here For BPC-157 COA ](https://xenopeptides.com/wp-content/uploads/2026/02/Chromate_BPC_v1.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://xenopeptides.com/labtests/
+[FETCHED_AT] 2026-05-08T08:48:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/coa_1.md
+[LINE_RANGE] 60-62
+[QUOTE]
+"### Every batch tested by Chromate Labs. Verify authenticity instantly.
+
+All Xeno Peptides products undergo rigorous third-party testing by Chromate Labs, an accredited analytical testing laboratory."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://xenopeptides.com/labtests/
+[FETCHED_AT] 2026-05-08T08:48:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/coa_1.md
+[LINE_RANGE] 62-66
+[QUOTE]
+"Each Certificate of Analysis (CoA) includes HPLC chromatography results, purity percentage, and a unique verification code you can check independently."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://xenopeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T08:47:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/product_1__bpc-157.md
+[LINE_RANGE] 143-155
+[QUOTE]
+"## Related products
+
+  * Sale! [](https://xenopeptides.com/product/ghkcu/)
+
+## [GHK-Cu](https://xenopeptides.com/product/ghkcu/) $46.99 – $180.99Price range: $46.99 through $180.99"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://xenopeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T08:47:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/product_1__bpc-157.md
+[LINE_RANGE] 110-110
+[QUOTE]
+"  * _**This product is sold for scientific research purposes only.**_"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://xenopeptides.com/shop/peptides/
+[FETCHED_AT] 2026-05-08T08:47:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/catalog_1.md
+[LINE_RANGE] 184-192
+[QUOTE]
+"## Welcome to Xeno Peptides
+
+This site contains products intended strictly for **scientific research purposes.**
+
+By entering, you confirm you are **21 years of age or older** and that all products are for laboratory and research use only — not for human consumption or clinical application.
+
+__For Research Use Only"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://xenopeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/terms_of_service.md
+[LINE_RANGE] 58-66
+[QUOTE]
+"# Terms of Service
+
+Last updated: April 2026
+
+By accessing xenopeptides.com you agree to the following terms.
+
+Research Use Only All products sold by Xeno Research LLC are intended strictly for laboratory and research purposes only. They are not intended for human or animal consumption, medical use, or any other purpose outside of scientific research. By purchasing from us you confirm you are a qualified researcher and will use products accordingly.
+
+Eligibility You must be 21 years or older to purchase from this site."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://xenopeptides.com/refund-policy/
+[FETCHED_AT] 2026-05-08T08:48:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/refund_policy.md
+[LINE_RANGE] 62-72
+[QUOTE]
+"We want you to be satisfied with your purchase. If you are not happy with your order please contact us within 30 days of delivery.
+
+Eligibility Refund requests must be submitted within 30 days of the delivery date. Products must be unused and in original condition to be eligible for a refund.
+
+How to Request a Refund Email support@xenopeptides.com with your order number and reason for the refund request. We will respond within 2 business days.
+
+Processing Approved refunds will be processed back to the original payment method within 5-7 business days.
+
+Non-Refundable Items Opened or used products are not eligible for a refund. Shipping costs are non-refundable."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://xenopeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T08:48:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/shipping_policy.md
+[LINE_RANGE] 60-72
+[QUOTE]
+"# Shipping Policy
+
+Last updated: April 2026
+
+Processing Time All orders are processed within 1-2 business days after payment is confirmed.
+
+Shipping Time Standard shipping takes 2-3 business days after the order has been processed. Total delivery time is typically 3-5 business days from the date of purchase.
+
+Shipping Carriers We ship via USPS and UPS depending on your location and order size.
+
+Shipping Rates Flat rate shipping: $10 Expedited shipping: $20
+
+We currently ship within the United States only."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://xenopeptides.com/faq/
+[FETCHED_AT] 2026-05-08T08:48:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/faq.md
+[LINE_RANGE] 151-158
+[QUOTE]
+"__What payment methods do you accept?
+We currently accept:
+  * Zelle
+  * Cryptocurrency (Bitcoin, Ethereum)
+  * Cash App
+  * Credit Card"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://xenopeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T08:48:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/shipping_policy.md
+[LINE_RANGE] 66-66
+[QUOTE]
+"Shipping Carriers We ship via USPS and UPS depending on your location and order size."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://xenopeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T08:48:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/shipping_policy.md
+[LINE_RANGE] 70-70
+[QUOTE]
+"Shipping Rates Flat rate shipping: $10 Expedited shipping: $20"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://xenopeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T08:48:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/shipping_policy.md
+[LINE_RANGE] 72-72
+[QUOTE]
+"We currently ship within the United States only."
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://xenopeptides.com/faq/
+[FETCHED_AT] 2026-05-08T08:48:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/faq.md
+[LINE_RANGE] 131-140
+[QUOTE]
+"__Who can purchase these products?
+Our products are intended for purchase by:
+  * Licensed researchers
+  * Scientific institutions
+  * Qualified laboratory professionals
+  * Individuals conducting legitimate in vitro research
+By purchasing, you certify that you are 21+ years of age and that products will be used solely for research purposes."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/source_homepage.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"woocommerce"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/source_homepage.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"siteground-optimizer-combined-css-89f113f224f04a430066b0673275ccc7"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/source_homepage.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"<!-- Google tag (gtag.js) snippet added by Site Kit --> <!-- Google Analytics snippet added by Site Kit --> <!-- Google Ads snippet added by Site Kit --> <script defer src=\"https://www.googletagmanager.com/gtag/js?id=GT-MRM4BDMH\""
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/source_homepage.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"facebook_sdk"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/source_homepage.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"crisp"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://xenopeptides.com/blog/
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/blog_1.md
+[LINE_RANGE] 60-66
+[QUOTE]
+"## [GHK-Cu Research: Copper Peptide Studies and Tissue Remodeling Applications](https://xenopeptides.com/ghk-cu-research/)
+
+[Leave a Comment](https://xenopeptides.com/ghk-cu-research/#respond) / [Uncategorized](https://xenopeptides.com/category/uncategorized/) /  [ Xeno Peptides  ](https://xenopeptides.com/author/dluzardo/ \"View all posts by Xeno Peptides\")"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://xenopeptides.com/blog/
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/blog_1.md
+[LINE_RANGE] 60-152
+[QUOTE]
+"## [GHK-Cu Research: Copper Peptide Studies and Tissue Remodeling Applications](https://xenopeptides.com/ghk-cu-research/)
+## [Retatrutide Research: Triple Agonist Mechanism and Clinical Studies](https://xenopeptides.com/retatrutide-research/)
+## [Tirzepatide Research: Comprehensive Review of Studies and Mechanisms](https://xenopeptides.com/tirzepatide-research/)
+## [Best Research Peptides 2026: Top Laboratory Compounds for Scientific Studies](https://xenopeptides.com/best-research-peptides-2026/)
+## [GLP-1 Agonists Comparison: Semaglutide vs Tirzepatide vs Retatrutide](https://xenopeptides.com/glp-1-agonists-comparison/)
+## [Research Peptides vs Pharmaceutical Peptides: Key Differences Explained](https://xenopeptides.com/research-peptides-vs-pharmaceutical-peptides/)
+## [PEPTIDE SHIPPING AND HANDLING](https://xenopeptides.com/peptide-shipping-handling/)
+## [Peptide Side Effects in Research Models: Safety Profiles and Adverse Events](https://xenopeptides.com/peptide-side-effects-research/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://xenopeptides.com/blog/
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/blog_1.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"[Leave a Comment](https://xenopeptides.com/ghk-cu-research/#respond) / [Uncategorized](https://xenopeptides.com/category/uncategorized/) /  [ Xeno Peptides  ](https://xenopeptides.com/author/dluzardo/ \"View all posts by Xeno Peptides\")"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/homepage.md
+[LINE_RANGE] 138-155
+[QUOTE]
+"Trustpilot
+
+**5.0** · **3 reviews**
+
+Shipped fast, great products
+
+Shipped fast asf ngl. I'm happy with my purchase and its a very high quality product too.
+
+JH
+
+Joey H
+
+March 5, 2026
+
+Verified"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/homepage.md
+[LINE_RANGE] 178-178
+[QUOTE]
+"[ See all reviews on Trustpilot → ](https://www.trustpilot.com/review/xenopeptides.com)"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://xenopeptides.com/
+[FETCHED_AT] 2026-05-08T08:46:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/homepage.md
+[LINE_RANGE] 136-180
+[QUOTE]
+"### Trusted by Researchers Nationwide
+
+Trustpilot
+
+**5.0** · **3 reviews**
+
+Shipped fast, great products
+
+Shipped fast asf ngl. I'm happy with my purchase and its a very high quality product too.
+
+JH
+
+Joey H
+
+March 5, 2026
+
+Verified
+
+Wonderful customer experience
+
+Wonderful customer experience and extremely fast shipping! Xeno Peptides gave me assurance that I was being delivered an extremely well made product and is my go-to shop for my peptide needs.
+
+VR
+
+Venkata Ravila
+
+March 5, 2026
+
+Verified
+
+Fast shipping and easy order process
+
+Fast shipping and easy order process. Paid through Zelle and they confirmed shortly after and same day order shipped. Products were high quality and they included free BAC water.
+
+WT
+
+Will Thompson
+
+Jan 29, 2026
+
+Verified"
+[/QUOTE]
+
+[CLAIM] skus[glp-3-rt-10mg].list_price_usd
+[URL] https://xenopeptides.com/product/glp-3-rt/
+[FETCHED_AT] 2026-05-08T08:47:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/product_1__glp-3-rt.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"$68.99 – $210.00Price range: $68.99 through $210.00"
+[/QUOTE]
+
+[CLAIM] skus[glp-2-t-10mg].list_price_usd
+[URL] https://xenopeptides.com/product/glp-2-t/
+[FETCHED_AT] 2026-05-08T08:47:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/product_1__glp-2-t.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"$75.99 – $288.99Price range: $75.99 through $288.99"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-10mg].list_price_usd
+[URL] https://xenopeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T08:47:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/product_1__bpc-157.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"~~$ 69.99~~ Original price was: $69.99.$44.99Current price is: $44.99."
+[/QUOTE]
+
+[CLAIM] skus[glow-70mg].list_price_usd
+[URL] https://xenopeptides.com/product/glow/
+[FETCHED_AT] 2026-05-08T08:47:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/product_1__glow.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"~~$ 135.99~~ Original price was: $135.99.$115.99Current price is: $115.99."
+[/QUOTE]
+
+[CLAIM] skus[bpc157-tb500-5mg5mg].list_price_usd
+[URL] https://xenopeptides.com/product/bpc-157-tb-500-blend/
+[FETCHED_AT] 2026-05-08T08:47:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/product_1__bpc-157-tb-500-blend.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"$68.99 – $300.00Price range: $68.99 through $300.00"
+[/QUOTE]
+
+[CLAIM] skus[semax-5mg-nasal-spray].list_price_usd
+[URL] https://xenopeptides.com/product/semax-nasal-spray/
+[FETCHED_AT] 2026-05-08T08:47:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/product_1__semax-nasal-spray.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"$45.00 – $75.99Price range: $45.00 through $75.99"
+[/QUOTE]
+
+[CLAIM] skus[selank-5mg-nasal-spray].list_price_usd
+[URL] https://xenopeptides.com/product/selank-nasal-spray/
+[FETCHED_AT] 2026-05-08T08:47:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/product_1__selank-nasal-spray.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"$55.99 – $89.99Price range: $55.99 through $89.99"
+[/QUOTE]
+
+[CLAIM] skus[ghkcu-50mg].list_price_usd
+[URL] https://xenopeptides.com/product/ghkcu/
+[FETCHED_AT] 2026-05-08T08:47:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/product_1__ghkcu.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"$46.99 – $180.99Price range: $46.99 through $180.99"
+[/QUOTE]
+
+[CLAIM] skus[mt2-10mg].list_price_usd
+[URL] https://xenopeptides.com/product/mt-2/
+[FETCHED_AT] 2026-05-08T08:47:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/product_1__mt-2.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"$37.99 – $129.00Price range: $37.99 through $129.00"
+[/QUOTE]
+
+[CLAIM] skus[bac-water-10ml].out_of_stock
+[URL] https://xenopeptides.com/shop/peptides/
+[FETCHED_AT] 2026-05-08T08:47:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xeno-peptides/catalog_1.md
+[LINE_RANGE] 68-72
+[QUOTE]
+"  * [ Out of stock ](https://xenopeptides.com/product/bac-water-10ml/)
+
+## [BAC Water 10mL](https://xenopeptides.com/product/bac-water-10ml/) $10.00
+
+Choose an optionSOLD OUTSOLD OUTClear"
+[/QUOTE]

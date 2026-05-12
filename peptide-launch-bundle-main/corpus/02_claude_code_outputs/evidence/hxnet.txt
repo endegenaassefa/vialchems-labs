@@ -1,0 +1,121 @@
+[CLAIM] primary_domain / fetch_status (homepage parked domain — no vendor site)
+[URL] https://hxnet.com
+[FETCHED_AT] 2026-05-07T23:35:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hxnet/homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"(fetch failed)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators / overall vendor test count / headline SKU set
+[URL] https://www.finnrick.com/vendors/hxnet
+[FETCHED_AT] 2026-05-07T23:37:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hxnet/finnrick_vendor_profile.md
+[LINE_RANGE] 8-10
+[QUOTE]
+"Finnrick has tested 114 samples from HXNet across 6 products."
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators / product ratings table (BPC-157, GHK-Cu, Tesamorelin, Cagrilintide, Retatrutide, Tirzepatide)
+[URL] https://www.finnrick.com/vendors/hxnet
+[FETCHED_AT] 2026-05-07T23:37:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hxnet/finnrick_vendor_profile.md
+[LINE_RANGE] 50-56
+[QUOTE]
+"Product| Rating| Count| Avg| Min| Max| Oldest| Most Recent
+[BPC-157](/products/bpc-157/hxnet)| C Okay| 7| 6.7| 4.4| 9.5| 29 Dec 2025| 10 Mar 2026
+[GHK-Cu](/products/ghk-cu/hxnet)| C Okay| 11| 6.9| 4.7| 10.0| 17 Nov 2025| 10 Mar 2026
+[Tesamorelin](/products/tesamorelin/hxnet)| D Poor| 11| 6.3| 3.5| 8.0| 24 Jul 2025| 4 Mar 2026
+[Cagrilintide](/products/cagrilintide/hxnet)| E Bad| 13| 6.7| 2.8| 10.0| 17 Nov 2025| 29 Mar 2026
+[Retatrutide](/products/retatrutide/hxnet)| E Bad| 38| 6.8| 0.0| 10.0| 11 Aug 2025| 28 Apr 2026
+[Tirzepatide](/products/tirzepatide/hxnet)| E Bad| 34| 6.8| 2.3| 10.0| 9 Jun 2025| 28 Apr 2026"
+[/QUOTE]
+
+[CLAIM] social_proof (customer satisfaction rating from Finnrick)
+[URL] https://www.finnrick.com/vendors/hxnet
+[FETCHED_AT] 2026-05-07T23:37:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hxnet/finnrick_vendor_profile.md
+[LINE_RANGE] 62-88
+[QUOTE]
+"People who submitted test requests to Finnrick gave HXNet an average satisfaction rating of 4.1 out of 5 across 28 reports associated with samples received and tested by Finnrick."
+[/QUOTE]
+
+[CLAIM] skus[retatrutide] / product_page_anatomy.batch_lot_transparency (absent batch IDs) / lab posture (Finnrick rating E Bad, sample containing no Retatrutide)
+[URL] https://www.finnrick.com/products/retatrutide/hxnet
+[FETCHED_AT] 2026-05-07T23:38:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hxnet/finnrick_retatrutide.md
+[LINE_RANGE] 14-14
+[QUOTE]
+"Finnrick tested 38 samples of Retatrutide (GLP-1, GIP, and GCGR agonist) from [HXNet](/vendors/hxnet) between 11 Aug 2025 and 28 Apr 2026. Test scores average below 4 or some scores below 3, and at least 6 tests, warrant a confident Finnrick Rating of E (Bad)."
+[/QUOTE]
+[URL] https://www.finnrick.com/products/retatrutide/hxnet
+[FETCHED_AT] 2026-05-07T23:38:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hxnet/finnrick_retatrutide.md
+[LINE_RANGE] 98-98
+[QUOTE]
+"22 Feb 2026| [View](/testing-certificate/retatrutide/hxnet/20260222-e-uetmjsd)| 0.0| 20mg| ⚠️ Sample does not contain Retatrutide ?| n/a| (no batch ID)| No Label / Silver Crimp / Red Cap| Lab E| Public"
+[/QUOTE]
+
+[CLAIM] skus[tirzepatide] / lab posture (Finnrick rating E Bad, headline SKU confirmed active)
+[URL] https://www.finnrick.com/vendors/hxnet
+[FETCHED_AT] 2026-05-07T23:37:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hxnet/finnrick_vendor_profile.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"[Tirzepatide](/products/tirzepatide/hxnet)| E Bad| 34| 6.8| 2.3| 10.0| 9 Jun 2025| 28 Apr 2026"
+[/QUOTE]
+
+[CLAIM] skus[tesamorelin] / lab posture (Finnrick rating D Poor)
+[URL] https://www.finnrick.com/products/tesamorelin/hxnet
+[FETCHED_AT] 2026-05-07T23:38:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hxnet/finnrick_tesamorelin.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"Finnrick tested 11 samples of Tesamorelin from [HXNet](/vendors/hxnet) between 24 Jul 2025 and 4 Mar 2026. Test scores average over 4, no score below 3, and at least 6 tests warrant a confident Finnrick Rating of D (Poor)."
+[/QUOTE]
+
+[CLAIM] country_of_operation (inference — likely Chinese reseller based on forum context)
+[INFERENCE] Chinese wholesale reseller (likely China-sourced); country_of_operation marked uncertain; no verbatim self-identification by HXNet
+[REASONING]
+Forum post on peptidesource.net identifies HXNet as likely buying from a "China rep / company" and groups HXNet with HYT and TGY as likely sharing the same Chinese source. No direct claim by HXNet itself found. Field remains uncertain per Rule 1.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidesource.net/forum/index.php?threads/no-peptide-found-in-products-buyer-beware.105/
+[FETCHED_AT] 2026-05-07T23:38:45Z
+[RAW_ARTIFACT] 03_raw_fetches/hxnet/forum_peptidesource_buyer_beware.md
+[LINE_RANGE] 105-105
+"HXNET (following three companies HXNET, HYT , TGY likely have the same source)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidesource.net/forum/index.php?threads/no-peptide-found-in-products-buyer-beware.105/
+[FETCHED_AT] 2026-05-07T23:38:45Z
+[RAW_ARTIFACT] 03_raw_fetches/hxnet/forum_peptidesource_buyer_beware.md
+[LINE_RANGE] 105-105
+"Note the the client listed of NTX Peptides (Bucky's is one of his use names) is an individual seller who buys from a China rep / company and resells on several platforms."
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency (false — no batch IDs on most vials) / review_presence (forum negative quality signal — semaglutide with no peptide detected)
+[URL] https://peptidesource.net/forum/index.php?threads/testing-results-hxnet-no-peptide-in-vial.106/
+[FETCHED_AT] 2026-05-07T23:38:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hxnet/forum_peptidesource_testing.md
+[LINE_RANGE] 84-84
+[QUOTE]
+"# Testing Results - HXNET No Peptide In Vial"
+[/QUOTE]
+[URL] https://peptidesource.net/forum/index.php?threads/testing-results-hxnet-no-peptide-in-vial.106/
+[FETCHED_AT] 2026-05-07T23:38:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hxnet/forum_peptidesource_testing.md
+[LINE_RANGE] 144-144
+[QUOTE]
+"You can see in the attached chromatogram a red arrow showing where the semaglutide peak should be- it is a flat line."
+[/QUOTE]

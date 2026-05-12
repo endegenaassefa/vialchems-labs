@@ -1,0 +1,263 @@
+{
+  "vendor_slug": "phoenix-pharmaceuticals",
+  "brand_name": "Phoenix Pharmaceuticals",
+  "primary_domain": "https://www.phoenixpeptide.com/",
+
+  "fetched_url": "https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/",
+  "fetched_at": "2026-05-07T00:49:13Z",
+  "fetch_status": "ok",
+
+  "tier": "1",
+  "tier_rationale": "as-assigned (Tier 1: Legitimate biotechnology manufacturer per operator vendor_list.csv). Field-completion ratio 0.83 verified-only (10 inference fields + 18 uncertain fields out of 169 leaf fields counted across vendor-level schema and 5 representative SKUs) clears the Rule 17 ≥0.70 threshold. Several consumer-retail schema fields (on-site customer reviews, off-site Trustpilot aggregator presence, crypto discount, subscription pricing, age-gate) legitimately do not apply to this institutional B2B manufacturer and are recorded as 'false'/'none_observed' or 'uncertain' with reason rather than fabricated values.",
+  "field_completion_ratio": 0.83,
+
+  "country_of_operation": "USA",
+  "fulfillment_country": "USA",
+  "ship_to_scope": "us_intl",
+  "year_established": "1976",
+
+  "homepage": {
+    "hero_copy_excerpt": "Buy Research Peptides — We manufacture Research Peptides, Antibodies, and Assay Kits. Made in the USA.",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Learn More (linking to product-categories index)",
+    "navigation_pattern": "Top-bar category mega-menu: Home / Products (Peptides, Labeled Peptides, Polyclonal Antibodies, ELISA-Assay-RIA Kits, Peptide Libraries, Magnetic Beads, Assay Kit Supplies) / Topics (Obesity, Cancer, Alzheimer's, Cardiovascular, Diabetes, Anti-Microbial, Neuropeptide) / Services / Technical Support / Contact Us; right-side cart icon links to checkout.phoenixpeptide.com/cart.",
+    "footer_disclaimers": "Experts in Peptide Research for over 30 years. Copyright © 2025 Phoenix Pharmaceuticals, Inc. | Website by ina+tee. ISO certificate badge and CE Mark certification badge present in footer."
+  },
+
+  "catalog": {
+    "sku_count": "3000+",
+    "category_taxonomy": [
+      "Peptides",
+      "Labeled Peptides",
+      "Polyclonal Antibodies",
+      "Labeled Antibodies",
+      "ELISA Kits – Assay Kits – RIA Kits",
+      "Peptide Libraries",
+      "Magnetic Beads",
+      "Assay Kit Supplies"
+    ],
+    "search_filter_capabilities": "Free-text search bar; Select-a-Category dropdown (Antibodies, Assay Kit Supplies, ELISA-Assay-RIA Kits, Labeled Antibodies, Labeled Peptides, Magnetic Beads, Peptide Libraries, Peptides, Polyclonal Antibodies); Select-a-Topic dropdown (Alzheimer's, Anti-Microbial, Cancer, Cardiovascular, Diabetes, Neuropeptide, Obesity); USD/EUR currency toggle.",
+    "stack_bundle_pages_present": "false"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "https://www.phoenixpeptide.com/products/amyloid-%CE%B2-a4-protein-693-704/",
+    "sample_product_name": "Amyloid β A4 Protein (693-704)",
+    "dose_options": [
+      "100 µg (Catalog #066-09, $120)"
+    ],
+    "list_price": "$120",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "A-Chain: Glu-Asp-Val-Gly-Ser-Asn-Lys-Gly-Ala-Ile-Ile-Gly | EDVGSNKGAIIG | Molecular Weight: 1158.6 | Purity: ≥97% | Validation: Exhibits correct molecular weight | Solubility: Soluble in water | Storage: Store peptide in DRY form at 0-5°C. | Appearance: White powder | Contents: Each vial contains 100 µg of NET peptide.",
+    "exact_disclaimer_language": "All products from Seller are for research use only and are not intended for human consumption. Seller does not search for existing patents on its products. Buyer is responsible for determining the existence of such patents and whether their use of the product may constitute an infringement of these patents.",
+    "coa_present": "false",
+    "coa_hosting": "none",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "false",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "true"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "All products from Seller are for research use only and are not intended for human consumption. Seller does not search for existing patents on its products. Buyer is responsible for determining the existence of such patents and whether their use of the product may constitute an infringement of these patents.",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "Online ordering may not be fully available in your country. Please proceed to the checkout section, select \"Pay by Purchase Order\" option under \"Payment Method\", and enter the destination country. A member of our support team will then contact you as soon as possible to confirm and complete your order.",
+    "tos_url": "https://www.phoenixpeptide.com/terms-of-use/",
+    "tos_highlights": "Net-30 invoice payment for institutional buyers; 20% restocking fee for products ordered in error; 1.5%/month late fee on past-due invoices; California law / San Mateo County jurisdiction; Section 13 Disclaimer states research-use-only and not-for-human-consumption; Buyer bears risk of loss except for Seller's active negligence; Seller may refuse return on radioactive, custom-made, or temperature-sensitive products. PDF version of T&Cs (TNCOrder.pdf) hosted on-site.",
+    "refund_policy": "RMA-required returns. Customer must email customer service before any return to receive a Return Merchandise Authorization (RMA) number; items returned without RMA not accepted. 20% restocking fee may apply for products ordered in error. Returns refused for radioactive products, custom-made products, or temperature-sensitive assay kits. Protocol modifications do not qualify for refunds, discounts, or replacements.",
+    "shipping_policy": "All orders shipped via FedEx unless otherwise instructed. Phoenix reserves the right to ship temperature-sensitive items on dry ice (which may increase shipping cost). Separate ordering pages exist for Europe (order_information_europe) and China (order_information_china). International orders may require a Pay-by-Purchase-Order workflow plus support-team confirmation."
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": [
+      "uncertain"
+    ],
+    "id_verification_present": "false",
+    "payment_methods_accepted": [
+      "credit_card_visa",
+      "credit_card_mastercard",
+      "credit_card_amex",
+      "credit_card_discover",
+      "company_check",
+      "cashier_check",
+      "bank_transfer",
+      "direct_deposit",
+      "purchase_order_with_credit_application"
+    ],
+    "shipping_carriers": [
+      "FedEx"
+    ],
+    "shipping_cost_structure": "FedEx default; dry-ice surcharge for temperature-sensitive items (cost not publicly itemized on archived cart page); separate Europe/China ordering workflows.",
+    "international_policy": "Headquarters in Burlingame, CA (USA). Listed sales offices: Phoenix Europe GmbH (Karlsruhe, Germany) and Phoenix France S.A.S (Strasbourg, France) for European customers. Phoenix Biotech (Beijing) Co., Ltd in China. Distributor relationships in Japan (Funakoshi Co., Ltd. and SCETI K.K.). Cart screen warns 'Online ordering may not be fully available in your country' and routes non-supported destinations to Pay-by-Purchase-Order with manual support-team confirmation."
+  },
+
+  "tech_stack": {
+    "platform_signal": "wordpress + woocommerce + elementor",
+    "cdn": "cloudflare",
+    "analytics_tools_loaded": [
+      "Google Site Kit 1.162.1",
+      "Google Tag Manager / gtag.js (id=GT-W6N2324P)"
+    ],
+    "marketing_pixels_present": [
+      "none_observed"
+    ],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://www.phoenixpeptide.com/latest-news/",
+    "content_cadence": "roughly monthly with multi-month gaps; ~50 posts span Sept 2019 – Aug 2025",
+    "topic_taxonomy": [
+      "Obesity",
+      "Cancer",
+      "Alzheimer’s",
+      "Cardiovascular",
+      "Diabetes",
+      "Anti-Microbial",
+      "Neuropeptide"
+    ],
+    "author_bylines_present": "false",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": [
+      "uncertain"
+    ],
+    "testimonial_usage": "Founder quote on homepage from Co-Founder Dr. Jaw-Kang Chang: \"I am old faithful. I will continue making peptides until I die.\" No third-party customer testimonials, star ratings, or buyer-quote modules surface in the rendered text.",
+    "visible_influencer_endorsements": "none_observed"
+  },
+
+  "skus": [
+    {
+      "sku_id": "phoenix-pharmaceuticals:066-09",
+      "name": "Amyloid β A4 Protein (693-704)",
+      "peptide_canonical": "other",
+      "peptide_variant": "research_fragment",
+      "dose_value": 100,
+      "dose_unit": "mcg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "100 µg lyophilized vial",
+      "list_price_usd": 120.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 1200.0000,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://www.phoenixpeptide.com/products/amyloid-%CE%B2-a4-protein-693-704/",
+      "raw_artifact": "03_raw_fetches/phoenix-pharmaceuticals/product_1__amyloid-beta-a4-693-704.md",
+      "evidence_entry_id": "sku_001"
+    },
+    {
+      "sku_id": "phoenix-pharmaceuticals:071-60",
+      "name": "2019-nCov Spike Protein (1040-1091)",
+      "peptide_canonical": "other",
+      "peptide_variant": "research_fragment",
+      "dose_value": 100,
+      "dose_unit": "mcg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "100 ug lyophilized vial",
+      "list_price_usd": 498.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 4980.0000,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://www.phoenixpeptide.com/products/2019-ncov-spike-protein-1040-1091/",
+      "raw_artifact": "03_raw_fetches/phoenix-pharmaceuticals/product_2__2019-ncov-spike-1040-1091.md",
+      "evidence_entry_id": "sku_002"
+    },
+    {
+      "sku_id": "phoenix-pharmaceuticals:023-88",
+      "name": "(Cys(ACM)3,6) PROK2 / PK2 Isoform 2 (28-78)-Amide (Human)",
+      "peptide_canonical": "other",
+      "peptide_variant": "research_fragment",
+      "dose_value": 100,
+      "dose_unit": "mcg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "100 µg lyophilized vial",
+      "list_price_usd": 417.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 4170.0000,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://www.phoenixpeptide.com/products/cysacm36-prok2-pk2-isoform-2-28-78-amide-human/",
+      "raw_artifact": "03_raw_fetches/phoenix-pharmaceuticals/catalog_2_peptides.md",
+      "evidence_entry_id": "sku_003"
+    },
+    {
+      "sku_id": "phoenix-pharmaceuticals:080-62A",
+      "name": "20-hydroxycholesterol",
+      "peptide_canonical": "other",
+      "peptide_variant": "small_molecule_metabolite",
+      "dose_value": 5,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "5 mg vial",
+      "list_price_usd": 320.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 64.0000,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://www.phoenixpeptide.com/products/20-hydroxycholesterol/",
+      "raw_artifact": "03_raw_fetches/phoenix-pharmaceuticals/catalog_2_peptides.md",
+      "evidence_entry_id": "sku_004"
+    },
+    {
+      "sku_id": "phoenix-pharmaceuticals:080-61A",
+      "name": "25-hydroxycholesterol",
+      "peptide_canonical": "other",
+      "peptide_variant": "small_molecule_metabolite",
+      "dose_value": 5,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "5 mg vial",
+      "list_price_usd": 61.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 12.2000,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://www.phoenixpeptide.com/products/25-hydroxycholesterol/",
+      "raw_artifact": "03_raw_fetches/phoenix-pharmaceuticals/catalog_2_peptides.md",
+      "evidence_entry_id": "sku_005"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "Phoenix,Pharmaceuticalsphoenixpeptide.com,USA,USA,US+Intl,1976,Active,Institutional,Assay Kits Custom Peptides,Institutional,N,May 2026,Tier 1: Legitimate biotechnology manufacturer."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/phoenix-pharmaceuticals/",
+  "evidence_file": "evidence/phoenix-pharmaceuticals.txt",
+  "uncertainty_notes": "Fetch obstacle: live phoenixpeptide.com returns Cloudflare-mitigated 403 (header 'cf-mitigated: challenge') to curl; gstack:browse failed in this environment due to Chromium sandboxing-as-root constraint. Per Rule 9 (no anti-bot bypass) and the brief's §11 bounds (do NOT bypass anti-bot), all public-page evidence is captured from archive.org Wayback snapshots dated between Aug 2024 and Nov 2025. Specific uncertain fields and reasons: (1) product_page_anatomy.per_mg_cost — Phoenix prices catalog peptides per fixed micro/milligram quantities (e.g. 100 µg for $120) without dose-per-mg framing; per-mg is computed in skus[] (e.g. $1,200/mg for 066-09) but the headline product-page list_price is the catalog price, not a per-mg figure, so the schema field is not directly applicable. (2) product_page_anatomy.photographic_treatment — saved html2text rendering does not preserve product imagery; product pages reference structure diagrams ('Structure: No results found.') but image style cannot be characterized from text alone. (3) product_page_anatomy.lab_partner_named — no third-party lab partner is named on the public product or about pages; vendor manufactures and tests in-house, but the schema field is therefore not populable with a verbatim partner name. (4) checkout_flow.account_required, guest_checkout_available, fields_collected — the live checkout subdomain (checkout.phoenixpeptide.com) is JS-required ('Our checkout process requires javascript') and the archived cart page captured did not progress past the cart stage; per §11 bounds we did not create an account or submit fake payment info. (5) social_proof.off_site_aggregators — no Trustpilot, no on-site reviews; a wider off-site discovery pass is out of scope for a single-vendor profile. (6) content_footprint.internal_linking_to_products — individual blog posts not fully walked; the news-index page does not show product-link density alone. (7) skus[*].out_of_stock — Phoenix's product pages display Catalog #, Size, and Price but do not surface explicit in-stock/out-of-stock status; the 'Buy Now' / Qty controls suggest direct ordering for catalog peptides but no inventory indicator is rendered. Marked 'uncertain' rather than guessing 'false'. (8) skus catalog has 3000+ items per FAQ; only 5 SKUs captured here as a representative sample to feed Pillar C; full enumeration would require recursive paginated walking which the public catalog UI does not expose via simple URL increments. (9) Tech-stack 'cdn' marked as 'cloudflare' on the basis of the 403 response header 'server: cloudflare' captured during the live curl HEAD attempt (saved in source_homepage.md context); the archive-org snapshot of HTML naturally does not retain origin headers. (10) Inferred fields use [INFERENCE] block per Rule 19: hero_imagery_style (clinical), catalog.sku_count (3000+), catalog.stack_bundle_pages_present (false), product_page_anatomy.coa_present (false), batch_lot_transparency (false), customer_review_module_present (false), tech_stack.marketing_pixels_present (none_observed), tech_stack.chat_widget_present (false), content_footprint.content_cadence, content_footprint.author_bylines_present (false). All inference blocks have ≥2 supporting quotes that grep-match their raw artifacts."
+}

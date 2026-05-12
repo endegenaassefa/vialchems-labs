@@ -1,0 +1,241 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20260118200914/https://chemcenter.bio/
+[FETCHED_AT] 2026-05-07T19:54:41Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/homepage_2026.md
+[LINE_RANGE] 93-93
+[QUOTE]
+# Vitamin Supplements - Your Ultimate Source for Health
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20241011115528/https://chemcenter.bio/
+[FETCHED_AT] 2026-05-07T19:54:41Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/homepage.md
+[LINE_RANGE] 89-89
+[QUOTE]
+[All Products](/web/20241011115528/https://chemcenter.bio/all-products-1)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20260118200914/https://chemcenter.bio/
+[FETCHED_AT] 2026-05-07T19:54:41Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/homepage_2026.md
+[LINE_RANGE] 37-49
+[QUOTE]
+  * [Home](/web/20260118200914/https://chemcenter.bio/)
+  * [Products](/web/20260118200914/https://chemcenter.bio/products)
+  * [FAQ](/web/20260118200914/https://chemcenter.bio/faq)
+  * [About us](/web/20260118200914/https://chemcenter.bio/about-us)
+  * [Terms](/web/20260118200914/https://chemcenter.bio/terms)
+  * [Educational Videos](/web/20260118200914/https://chemcenter.bio/educational-videos)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20260118200914/https://chemcenter.bio/
+[FETCHED_AT] 2026-05-07T19:54:41Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/homepage_2026.md
+[LINE_RANGE] 154-154
+[QUOTE]
+Copyright © 2025 Chem Center - All Rights Reserved.
+[/QUOTE]
+
+[CLAIM] country_of_operation + fulfillment_country
+[URL] https://web.archive.org/web/20241011115528/https://chemcenter.bio/
+[FETCHED_AT] 2026-05-07T19:54:41Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/homepage.md
+[LINE_RANGE] 80-85
+[QUOTE]
+  * USA-Based
+  * 24-Hour Processing
+  * 4 Day Shipping
+  * Credit Cards Accepted
+  * Certificate of Analysis
+  * Free Shipping over $99
+[/QUOTE]
+
+[CLAIM] country_of_operation (corroboration — physical address)
+[URL] https://web.archive.org/web/20241011115528/https://chemcenter.bio/
+[FETCHED_AT] 2026-05-07T19:54:41Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/homepage.md
+[LINE_RANGE] 145-145
+[QUOTE]
+Massachusetts, United States
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://web.archive.org/web/20241011115528/https://chemcenter.bio/
+[FETCHED_AT] 2026-05-07T19:54:41Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/homepage.md
+[LINE_RANGE] 99-99
+[QUOTE]
+  * **Fast Shipping:** 3-4 day shipping within the USA, 7-30 days internationally.
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://web.archive.org/web/20241011120951/https://chemcenter.bio/terms-and-conditions
+[FETCHED_AT] 2026-05-07T19:54:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/tos.md
+[LINE_RANGE] 87-87
+[QUOTE]
+The chemicals/materials for sale here are intended for laboratory and research use only, unless otherwise explicitly stated. They are not intended for human ingestion or for use in products that may be ingested.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://web.archive.org/web/20241011120951/https://chemcenter.bio/terms-and-conditions
+[FETCHED_AT] 2026-05-07T19:54:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/tos.md
+[LINE_RANGE] 87-87
+[QUOTE]
+You must be at least 21 (twenty one) years of age to purchase goods on this website.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url + tos_highlights
+[URL] https://web.archive.org/web/20241011120951/https://chemcenter.bio/terms-and-conditions
+[FETCHED_AT] 2026-05-07T19:54:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/tos.md
+[LINE_RANGE] 146-146
+[QUOTE]
+Buyer agrees that any court filings must be filed and heard in San Luis Obispo county in California.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://web.archive.org/web/20241011120951/https://chemcenter.bio/terms-and-conditions
+[FETCHED_AT] 2026-05-07T19:54:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/tos.md
+[LINE_RANGE] 248-254
+[QUOTE]
+We stand behind the quality of our products, but due to the nature of the materials, we are unable to accept returns or issue refunds except in cases where there is clear evidence of damage during shipping. If you receive a damaged product, please contact us within 5 business days of delivery with photographic evidence, and we will work with you to resolve the issue. We do not accept returns for any other reason. All sales are final.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/20260118190627/https://chemcenter.bio/faq
+[FETCHED_AT] 2026-05-07T19:54:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/faq.md
+[LINE_RANGE] 97-97
+[QUOTE]
+Shipping takes 3-5 days within the mainland USA. Shipping takes 10-30 days internationally. All orders ship out on the same business day.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy (free shipping threshold)
+[URL] https://web.archive.org/web/20241011115528/https://chemcenter.bio/
+[FETCHED_AT] 2026-05-07T19:54:41Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/homepage.md
+[LINE_RANGE] 101-101
+[QUOTE]
+  * **Free Shipping:** On orders over $99 USD.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20260118190627/https://chemcenter.bio/faq
+[FETCHED_AT] 2026-05-07T19:54:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/faq.md
+[LINE_RANGE] 138-139
+[QUOTE]
+We accept major credit cards (Visa, Mastercard, etc.) and other common payment methods.
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://web.archive.org/web/20241011120951/https://chemcenter.bio/terms-and-conditions
+[FETCHED_AT] 2026-05-07T19:54:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/tos.md
+[LINE_RANGE] 87-92
+[QUOTE]
+You must be at least 21 (twenty one) years of age to purchase goods on this website. The listing of a material on this website does not constitute a license to, or a recommendation for its use in infringement of any patent whatsoever. It is understood that all of the products purchased here will be handled only by qualified and trained individuals.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://web.archive.org/web/20260118190627/https://chemcenter.bio/faq
+[FETCHED_AT] 2026-05-07T19:54:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/faq.md
+[LINE_RANGE] 103-103
+[QUOTE]
+Shipping cost is calculated at checkout and is typically low.
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20260118200914/https://chemcenter.bio/
+[FETCHED_AT] 2026-05-07T19:54:41Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/homepage_2026.md
+[LINE_RANGE] 158-158
+Powered by
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20260118200914/https://chemcenter.bio/
+[FETCHED_AT] 2026-05-07T19:54:41Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/homepage_2026.md
+[LINE_RANGE] 158-158
+[](https://web.archive.org/web/20260118200914/https://www.godaddy.com/websites/website-builder?isc=pwugc&utm_source=wsb&utm_medium=applications&utm_campaign=en-us_corp_applications_base)
+[/SUPPORT_QUOTE]
+[REASONING] Both the "Powered by" attribution and the GoDaddy website-builder URL in the footer confirm the site runs on GoDaddy Website Builder, which uses proprietary hosting (not Shopify/WooCommerce/BigCommerce). Classified as "custom" per schema (no standard e-commerce platform tag).
+[/INFERENCE]
+
+[CLAIM] social_proof.off_site_aggregators + testimonial_usage
+[URL] https://web.archive.org/web/20260118200914/https://chemcenter.bio/
+[FETCHED_AT] 2026-05-07T19:54:41Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/homepage_2026.md
+[LINE_RANGE] 95-95
+[QUOTE]
+We have 5 stars on [eBay](https://web.archive.org/web/20260118200914/https://ebay.us/m/Q1B29n), 4.8 stars on [Facebook](https://web.archive.org/web/20260118200914/https://www.facebook.com/share/17jFuCfAQX/) and 4 stars on [Trust Pilot](https://web.archive.org/web/20260118200914/https://www.trustpilot.com/review/chemcenter.bio).
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://web.archive.org/web/20260118190627/https://chemcenter.bio/faq
+[FETCHED_AT] 2026-05-07T19:54:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/faq.md
+[LINE_RANGE] 132-133
+[QUOTE]
+Yes, a Certificate of Analysis (COA) is generated for every batch, confirming the compound passed all quality and purity checks. We can provide documentation to authorized entities upon request.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20241011120951/https://chemcenter.bio/terms-and-conditions
+[FETCHED_AT] 2026-05-07T19:54:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/tos.md
+[LINE_RANGE] 87-87
+[QUOTE]
+The chemicals/materials for sale here are intended for laboratory and research use only, unless otherwise explicitly stated. They are not intended for human ingestion or for use in products that may be ingested.
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[INFERENCE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20260118200914/https://chemcenter.bio/
+[FETCHED_AT] 2026-05-07T19:54:41Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/homepage_2026.md
+[LINE_RANGE] 37-49
+  * [Home](/web/20260118200914/https://chemcenter.bio/)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20260118200914/https://chemcenter.bio/
+[FETCHED_AT] 2026-05-07T19:54:41Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/chem-center/homepage_2026.md
+[LINE_RANGE] 160-164
+  * [Products](/web/20260118200914/https://chemcenter.bio/products)
+[/SUPPORT_QUOTE]
+[REASONING] The Jan-2026 homepage nav contains exactly 6 links: Home, Products, FAQ, About us, Terms, Educational Videos. No "Blog," "News," or "Articles" link appears in either the header or footer navigation across any of the 6 fetched pages. Inferred: blog_present = false.
+[/INFERENCE]

@@ -1,0 +1,651 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/homepage.md
+[LINE_RANGE] 75-77
+[QUOTE]
+"# Red Leaf Research Labs
+
+Peptides for Sale in Canada"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/homepage.md
+[LINE_RANGE] 79
+[QUOTE]
+"[ Shop Now ](https://redleafpeptides.com/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/homepage.md
+[LINE_RANGE] 53-56
+[QUOTE]
+"  * [Home](/)
+  * [Shop All](https://redleafpeptides.com/shop/)
+  * [Contact Us](https://redleafpeptides.com/contact/)
+  * [Legal Terms](https://redleafpeptides.com/refund_returns-2/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/homepage.md
+[LINE_RANGE] 167-169
+[QUOTE]
+"THESE MATERIALS ARE NOT APPROVED BY HEALTH CANADA FOR COSMETIC APPLICATION ON CLIENTS, THERAPEUTIC TREATMENT, INJECTION, INGESTION, OR ANY FORM OF HUMAN OR ANIMAL USE.
+
+NO CLAIMS ARE MADE REGARDING CLINICAL OUTCOMES, SAFETY, OR EFFICACY. ANY PRODUCT DESCRIPTIONS OR TECHNICAL INFORMATION PROVIDED ON THIS SITE ARE FOR RESEARCH REFERENCE ONLY."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The site presents product vials and purity-report document images (JPG thumbnails of COA PDFs) on product pages with no lifestyle imagery, brand mascots, or meme-coded visuals observed across fetched pages. Navigation and homepage copy are research-lab framing throughout.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://redleafpeptides.com/product/retatrutide/
+[FETCHED_AT] 2026-05-08T07:06:20Z
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_1__retatrutide.md
+[LINE_RANGE] 75
+"[](https://redleafpeptides.com/wp-content/uploads/2026/04/Retatrutide-pdf.jpg)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://redleafpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T07:06:25Z
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_2__bpc-157-10mg.md
+[LINE_RANGE] 73-75
+"[](https://redleafpeptides.com/wp-content/uploads/2025/12/BPC-157.webp)
+
+[](https://redleafpeptides.com/wp-content/uploads/2026/04/BPC-157-10mg-pdf.jpg)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] Canada
+[REASONING]
+TOS states governing law is Province of Ontario, Canada. Refund page Health Canada disclaimer names entity as "Red Leaf Research" under Canadian law. Wayback snapshot confirms prior statement "Shipping domestically in Canada only." Contact email domain Info@PeptideFactoryCanada.com and timezone America/Toronto in page source further confirm Canadian operation.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://redleafpeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T07:06:52Z
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/tos.md
+[LINE_RANGE] 114-116
+"### Governing Law
+
+These Terms & Conditions shall be governed by and construed in accordance with the laws of the Province of Ontario and the federal laws of Canada applicable therein."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://redleafpeptides.com/refund_returns-2/
+[FETCHED_AT] 2026-05-08T07:06:54Z
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/refund.md
+[LINE_RANGE] 182
+"RED LEAF RESEARCH PROVIDES LABORATORY-CRAFTED RESEARCH PEPTIDES INTENDED EXCLUSIVELY FOR QUALIFIED RESEARCH ESTHETICIANS, COSMETOLOGY PRACTICES, AND OTHER PROFESSIONAL RESEARCH ENVIRONMENTS. ALL PRODUCTS ARE SUPPLIED FOR TOPICAL FORMULATION RESEARCH, INVESTIGATIVE STUDY, AND EDUCATIONAL LABORATORY USE ONLY."
+[/SUPPORT_QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+The JSON-LD structured data embedded in the homepage contains "datePublished":"2025-08-24T17:44:44-04:00" for the website entity. The Wayback Machine earliest available snapshot is also from September 2025, consistent with a 2025 launch.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/2025/https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:07:15Z
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/wayback_homepage_2025.md
+[LINE_RANGE] 10
+"Shipping domestically in Canada only at this time. E-transfer is the only payment method until the end of the week. Email: RedLeafPeptides@gmail.com for any inquiries"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:06:08Z
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/source_homepage.md
+[LINE_RANGE] 13-14
+"<!-- This site uses the Google Analytics by MonsterInsights plugin v10.1.3 - Using Analytics tracking - https://www.monsterinsights.com/ -->"
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://redleafpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T07:05:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/catalog_1.md
+[LINE_RANGE] 77-117
+[QUOTE]
+[ENUMERATION] Counted from catalog pages 1-5 (10 products per page, 5 pages = ~47 products including partial last page):
+catalog_1.md: Acetic Acid 10ml, RT 10mg, KPV 10mg, RT 20mg, HCG 10000iu, VIP 10mg, 5-AMINO-1MQ 50mg, ARA-290 10mg, CJC-1295 NO DAC 5mg/Ipamorelin 5mg, Tirzepatide 20mg (10 products)
+catalog_2.md: Ipamorelin 5mg/Tesamorelin 5mg, NAD 500mg, AOD-9604 10mg, PNC-27 10mg, HCG 5000iu, Celine GH 100iu, Pfizer Bacteriostatic Water 30ml, Valentina GHK-Cu 100mg, Epitalon 50mg, Pinealon 10mg (10 products)
+catalog_3.md: LL-37 10mg, IGF-1 LR3, BPC/TB 20mg, SS-31 50mg, Snap 8 10mg, Cerebrolysin 60mg, PT-141 10mg, Tesamorelin 10mg, Secrets 20mg, Melanotan II 10mg (10 products)
+catalog_4.md: Selank 10mg, Ipamorelin 10mg, Glutathione 1500mg, Bacteriostatic Water, Retatrutide, GH 100iu, Eve KLOW 80mg, DSIP 15mg, TB-500 10mg, Kisspeptin 10mg (10 products)
+catalog_5.md: Thymosin Alpha-1 10mg, Semax 10mg, BPC-157 10mg, CJC-1295 w DAC 5mg, CJC-1295 NO DAC 10mg, Tirzepatide 10mg, GHK-CU 100mg, MOTS-c 40mg, SLU-PP-332 (9 products)
+Total: ~49 SKU listings across 5 pages
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://redleafpeptides.com/shop/page/3/
+[FETCHED_AT] 2026-05-08T07:06:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/catalog_3.md
+[LINE_RANGE] 83-85
+[QUOTE]
+"### [BPC/TB 20mg BPC-157 10mg + TB-500 10mg in one vial totalling 20mg ~~$ 150.00~~ Original price was: $150.00.$110.00Current price is: $110.00. ](https://redleafpeptides.com/product/project-x-20mg/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://redleafpeptides.com/product/retatrutide/
+[FETCHED_AT] 2026-05-08T07:06:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_1__retatrutide.md
+[LINE_RANGE] 79-81
+[QUOTE]
+"# Retatrutide
+
+$79.00 – $169.00Price range: $79.00 through $169.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://redleafpeptides.com/product/retatrutide/
+[FETCHED_AT] 2026-05-08T07:06:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_1__retatrutide.md
+[LINE_RANGE] 83
+[QUOTE]
+"Size |  Choose an option10mg20mg30mgClear"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://redleafpeptides.com/product/retatrutide/
+[FETCHED_AT] 2026-05-08T07:06:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_1__retatrutide.md
+[LINE_RANGE] 108-110
+[QUOTE]
+"This product is supplied in a lyophilized powder form to preserve its stability, purity, and potency.
+
+For laboratory research purposes only. Not intended for human consumption."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://redleafpeptides.com/product/retatrutide/
+[FETCHED_AT] 2026-05-08T07:06:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_1__retatrutide.md
+[LINE_RANGE] 110
+[QUOTE]
+"For laboratory research purposes only. Not intended for human consumption."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://redleafpeptides.com/product/retatrutide/
+[FETCHED_AT] 2026-05-08T07:06:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_1__retatrutide.md
+[LINE_RANGE] 93-97
+[QUOTE]
+"###  Lab Verified
+
+Third-party tested purity
+
+###  99%+ Research Grade
+
+Ultra high synthesis purity"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://redleafpeptides.com/product/retatrutide/
+[FETCHED_AT] 2026-05-08T07:06:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_1__retatrutide.md
+[LINE_RANGE] 113-115
+[QUOTE]
+"## Related Products
+
+### [Glutathione 1500mg C10H17N3O6S"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[INFERENCE] false
+[REASONING]
+No review module, rating stars, or review counts appear in any fetched product page rendered text. Site banner references Yotpo reviews but review widget is not rendered in the fetched text output, and Yotpo reviews appear to have been migrated off-site.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:30Z
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/homepage.md
+[LINE_RANGE] 30
+"Reviews transferred over to Yotpo (over 140 reviews)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://redleafpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T07:06:25Z
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_2__bpc-157-10mg.md
+[LINE_RANGE] 93-97
+"###  Lab Verified
+
+Third-party tested purity
+
+###  99%+ Research Grade"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/homepage.md
+[LINE_RANGE] 177
+[QUOTE]
+"All products are sold in powder (lyophilized) form and require reconstitution with a suitable diluent for research purposes only. No dosing instructions are provided. We adhere to all provincial and federal laws in Canada around Research Only Chemical sales. We are not a pharmacy and/or compounding facility, nor do we promote or provide any advice for human or animal consumption."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/homepage.md
+[LINE_RANGE] 175-179
+[QUOTE]
+"You must be 18 or 19 years of age depending on the age of majority in your province and a licensed research professional
+
+All products are sold in powder (lyophilized) form and require reconstitution with a suitable diluent for research purposes only. No dosing instructions are provided. We adhere to all provincial and federal laws in Canada around Research Only Chemical sales. We are not a pharmacy and/or compounding facility, nor do we promote or provide any advice for human or animal consumption.
+
+By clicking "I Agree" you confirm that you have read and accepted the Terms and Conditions stated above"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://web.archive.org/web/2025/https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:07:15Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/wayback_homepage_2025.md
+[LINE_RANGE] 9
+[QUOTE]
+"Shipping domestically in Canada only at this time. E-transfer is the only payment method until the end of the week."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/homepage.md
+[LINE_RANGE] 155
+[QUOTE]
+"  * [Terms and Conditions](https://redleafpeptides.com/terms-and-conditions/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://redleafpeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T07:06:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/tos.md
+[LINE_RANGE] 75-116
+[QUOTE]
+"### Research Use Only
+
+All products sold on this website are intended for laboratory research purposes only. They are not intended for human or animal consumption, medical use, diagnostic use, therapeutic use, or any other non-research purpose.
+
+### Regulatory Status
+
+Products sold are not approved by Health Canada, the U.S. FDA, or any other regulatory body for medical, veterinary, or food use. The buyer acknowledges that these products are unregulated research chemicals and agrees to use them strictly in compliance with applicable laws."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://redleafpeptides.com/refund_returns-2/
+[FETCHED_AT] 2026-05-08T07:06:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/refund.md
+[LINE_RANGE] 142-145
+[QUOTE]
+"All products sold on this website are intended strictly for laboratory research purposes only and are not for human or animal use. Due to the nature of these products, all sales are final.
+
+### 2\. No Returns or Refunds
+
+We do not accept returns or issue refunds once an order has been shipped. This policy is in place to maintain product integrity, safety, and compliance."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/homepage.md
+[LINE_RANGE] 27
+[QUOTE]
+"FREE CANADA-WIDE EXPRESS SHIPPING ON ORDERS OVER $350"
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://redleafpeptides.com/my-account/
+[FETCHED_AT] 2026-05-08T07:07:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/checkout_step_2_myaccount.md
+[LINE_RANGE] 73-79
+[QUOTE]
+"# My account
+
+## Login
+
+Username or email address *Required
+
+Password *Required"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/homepage.md
+[LINE_RANGE] 11
+[QUOTE]
+"PAYMENT BY INTERAC ONLY, Pay by CC soon"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://redleafpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T07:05:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/catalog_1.md
+[LINE_RANGE] 77
+[QUOTE]
+"[ Add to cart ](/shop/?add-to-cart=4753)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:06:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/source_homepage.md
+[LINE_RANGE] 13-14
+[QUOTE]
+"<!-- This site uses the Google Analytics by MonsterInsights plugin v10.1.3 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src=\"//www.googletagmanager.com/gtag/js?id=G-EESPR1KC6V\"  data-cfasync=\"false\" data-wpfc-render=\"false\" async></script>"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:06:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/source_homepage.md
+[LINE_RANGE] 13-14
+[QUOTE]
+"<!-- This site uses the Google Analytics by MonsterInsights plugin v10.1.3 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src=\"//www.googletagmanager.com/gtag/js?id=G-EESPR1KC6V\"  data-cfasync=\"false\" data-wpfc-render=\"false\" async></script>"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:06:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/source_homepage.md
+[LINE_RANGE] 37-38
+[QUOTE]
+"			'nonInteraction': 'non_interaction',
+
+									window.gtag = __gtagTracker;"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/homepage.md
+[LINE_RANGE] 30
+[QUOTE]
+"Reviews transferred over to Yotpo (over 140 reviews)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[INFERENCE] false
+[REASONING]
+No blog, education, or article section was found in the site navigation (Home / Shop All / Contact Us / Legal Terms) or footer links (Home / Shop / My account / Legal Disclaimer / Terms and Conditions) across all fetched pages. No blog URL pattern was observed in any anchor text.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:30Z
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/homepage.md
+[LINE_RANGE] 53-56
+"  * [Home](/)
+  * [Shop All](https://redleafpeptides.com/shop/)
+  * [Contact Us](https://redleafpeptides.com/contact/)
+  * [Legal Terms](https://redleafpeptides.com/refund_returns-2/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:30Z
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/homepage.md
+[LINE_RANGE] 152-155
+"  * [Home](/)
+  * [Shop](https://redleafpeptides.com/shop/)
+  * [My account](https://redleafpeptides.com/my-account/)
+  * [Legal Disclaimer](https://redleafpeptides.com/legal-disclaimer/)
+  * [Terms and Conditions](https://redleafpeptides.com/terms-and-conditions/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[retatrutide-10mg].list_price_usd
+[URL] https://redleafpeptides.com/product/retatrutide/
+[FETCHED_AT] 2026-05-08T07:06:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_1__retatrutide.md
+[LINE_RANGE] 81
+[QUOTE]
+"$79.00 – $169.00Price range: $79.00 through $169.00"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-10mg].list_price_usd
+[URL] https://redleafpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T07:06:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_2__bpc-157-10mg.md
+[LINE_RANGE] 79-87
+[QUOTE]
+"# BPC-157 (10mg)
+
+$75.00
+
+**C 62H98N16O22**
+
+**CAS 137525-51-0**
+
+In stock"
+[/QUOTE]
+
+[CLAIM] skus[tb-500-10mg].list_price_usd
+[URL] https://redleafpeptides.com/product/tb-500-10mg/
+[FETCHED_AT] 2026-05-08T07:06:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_3__tb-500-10mg.md
+[LINE_RANGE] 77-79
+[QUOTE]
+"# TB-500 (10mg)
+
+~~$ 110.00~~ Original price was: $110.00.$84.99Current price is: $84.99."
+[/QUOTE]
+
+[CLAIM] skus[mots-c-40mg].list_price_usd
+[URL] https://redleafpeptides.com/product/mots-c-40mg/
+[FETCHED_AT] 2026-05-08T07:06:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_4__mots-c-40mg.md
+[LINE_RANGE] 79-81
+[QUOTE]
+"# MOTS-c 40mg
+
+~~$ 169.99~~ Original price was: $169.99.$119.00Current price is: $119.00."
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-100mg].list_price_usd
+[URL] https://redleafpeptides.com/product/ghk-cu-100mg-vial/
+[FETCHED_AT] 2026-05-08T07:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_5__ghk-cu-100mg.md
+[LINE_RANGE] 79-83
+[QUOTE]
+"# GHK-CU 100mg
+
+~~$ 99.00~~ Original price was: $99.00.$85.00Current price is: $85.00.
+
+Out of stock"
+[/QUOTE]
+
+[CLAIM] skus[semax-10mg].list_price_usd
+[URL] https://redleafpeptides.com/product/semax-10mg/
+[FETCHED_AT] 2026-05-08T07:06:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_6__semax-10mg.md
+[LINE_RANGE] 79-83
+[QUOTE]
+"# Semax 10mg
+
+~~$ 70.00~~ Original price was: $70.00.$49.00Current price is: $49.00.
+
+In stock"
+[/QUOTE]
+
+[CLAIM] skus[selank-10mg].list_price_usd
+[URL] https://redleafpeptides.com/product/selank-10mg/
+[FETCHED_AT] 2026-05-08T07:06:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_7__selank-10mg.md
+[LINE_RANGE] 79-83
+[QUOTE]
+"# Selank 10mg
+
+~~$ 70.00~~ Original price was: $70.00.$49.00Current price is: $49.00.
+
+In stock"
+[/QUOTE]
+
+[CLAIM] skus[ipamorelin-10mg].list_price_usd
+[URL] https://redleafpeptides.com/product/ipamorelin-10mg/
+[FETCHED_AT] 2026-05-08T07:06:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/product_8__ipamorelin-10mg.md
+[LINE_RANGE] 79-83
+[QUOTE]
+"# Ipamorelin 10mg
+
+~~$ 99.99~~ Original price was: $99.99.$69.99Current price is: $69.99.
+
+In stock"
+[/QUOTE]
+
+[CLAIM] skus[bpc-tb-20mg].list_price_usd
+[URL] https://redleafpeptides.com/shop/page/3/
+[FETCHED_AT] 2026-05-08T07:06:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/catalog_3.md
+[LINE_RANGE] 83-85
+[QUOTE]
+"### [BPC/TB 20mg BPC-157 10mg + TB-500 10mg in one vial totalling 20mg ~~$ 150.00~~ Original price was: $150.00.$110.00Current price is: $110.00. ](https://redleafpeptides.com/product/project-x-20mg/)"
+[/QUOTE]
+
+[CLAIM] skus[tirzepatide-10mg].list_price_usd
+[URL] https://redleafpeptides.com/shop/page/5/
+[FETCHED_AT] 2026-05-08T07:06:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/catalog_5.md
+[LINE_RANGE] 103-105
+[QUOTE]
+"### [Tirzepatide 10mg C225H348N48O68 CAS: 2023788-19-2  ~~$ 115.00~~ Original price was: $115.00.$89.99Current price is: $89.99. Out of Stock ](https://redleafpeptides.com/product/tirzepatide-10mg/)"
+[/QUOTE]
+
+[CLAIM] skus[epitalon-50mg].list_price_usd
+[URL] https://redleafpeptides.com/shop/page/2/
+[FETCHED_AT] 2026-05-08T07:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/catalog_2.md
+[LINE_RANGE] 109-111
+[QUOTE]
+"### [Epitalon 50mg C14H22N4O9  ~~$ 100.00~~ Original price was: $100.00.$84.00Current price is: $84.00. ](https://redleafpeptides.com/product/epitalon-50mg/)"
+[/QUOTE]
+
+[CLAIM] skus[pt-141-10mg].list_price_usd
+[URL] https://redleafpeptides.com/shop/page/3/
+[FETCHED_AT] 2026-05-08T07:06:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/catalog_3.md
+[LINE_RANGE] 91-93
+[QUOTE]
+"### [PT-141 10mg C50H68N14O10 189691-06-3  $75.00 ](https://redleafpeptides.com/product/pt-141/)"
+[/QUOTE]
+
+[CLAIM] skus[ss-31-50mg].list_price_usd
+[URL] https://redleafpeptides.com/shop/page/3/
+[FETCHED_AT] 2026-05-08T07:06:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/catalog_3.md
+[LINE_RANGE] 85-87
+[QUOTE]
+"### [SS-31 50mg C32H49N9O5 CAS: 736992-21-5  ~~$ 300.00~~ Original price was: $300.00.$150.00Current price is: $150.00. ](https://redleafpeptides.com/product/ss-31-50mg/)"
+[/QUOTE]
+
+[CLAIM] skus[thymosin-alpha-1-10mg].list_price_usd
+[URL] https://redleafpeptides.com/shop/page/5/
+[FETCHED_AT] 2026-05-08T07:06:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/catalog_5.md
+[LINE_RANGE] 77-79
+[QUOTE]
+"### [Thymosin Alpha-1 (10mg) C129H215N33O5 ? 62304-98-7  ~~$ 109.99~~ Original price was: $109.99.$88.00Current price is: $88.00. ](https://redleafpeptides.com/product/thymosin-alpha-1-5mg/)"
+[/QUOTE]
+
+[CLAIM] skus[ll-37-10mg].list_price_usd
+[URL] https://redleafpeptides.com/shop/page/3/
+[FETCHED_AT] 2026-05-08T07:06:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/catalog_3.md
+[LINE_RANGE] 77-79
+[QUOTE]
+"### [LL-37 10mg C205H340N60O53  ~~$ 78.00~~ Original price was: $78.00.$55.00Current price is: $55.00. ](https://redleafpeptides.com/product/ll-37-10mg/)"
+[/QUOTE]
+
+[CLAIM] skus[igf-1-lr3].list_price_usd
+[URL] https://redleafpeptides.com/shop/page/3/
+[FETCHED_AT] 2026-05-08T07:06:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/catalog_3.md
+[LINE_RANGE] 79-81
+[QUOTE]
+"### [IGF-1 LR3 C400H625N111O115S9 CAS: 946870-92-4  $70.00 ](https://redleafpeptides.com/product/igf-1-lr3-4/)"
+[/QUOTE]
+
+[CLAIM] skus[dsip-15mg].list_price_usd
+[URL] https://redleafpeptides.com/shop/page/4/
+[FETCHED_AT] 2026-05-08T07:06:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/catalog_4.md
+[LINE_RANGE] 101-103
+[QUOTE]
+"### [DSIP 15mg DSIP 15mg available in Canada for in-vitro research only C35H48N10O15 CAS: 62568-57-4 ~~$ 120.00~~ Original price was: $120.00.$89.99Current price is: $89.99. ](https://redleafpeptides.com/product/dsip-c35h48n10o15-15mg/)"
+[/QUOTE]
+
+[CLAIM] skus[cjc-1295-nodac-10mg].list_price_usd
+[URL] https://redleafpeptides.com/shop/page/5/
+[FETCHED_AT] 2026-05-08T07:06:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/catalog_5.md
+[LINE_RANGE] 89-91
+[QUOTE]
+"### [CJC-1295 NO DAC 10mg C152H252N44O42 This product requires advanced reconstitution techniques and will not be replaced in the event that it is not done properly.  ~~$ 99.99~~ Original price was: $99.99.$59.00Current price is: $59.00. ](https://redleafpeptides.com/product/cjc-1295-no-dac-10mg/)"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[INFERENCE] Canada
+[REASONING]
+Refund page states "RED LEAF RESEARCH PROVIDES LABORATORY-CRAFTED RESEARCH PEPTIDES INTENDED EXCLUSIVELY FOR QUALIFIED RESEARCH ESTHETICIANS, COSMETOLOGY PRACTICES." TOS states Ontario governing law. Wayback snapshot confirms "Shipping domestically in Canada only." All content references Health Canada and Canadian provincial law, confirming Canada as fulfillment country.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://redleafpeptides.com/refund_returns-2/
+[FETCHED_AT] 2026-05-08T07:06:54Z
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/refund.md
+[LINE_RANGE] 182
+"RED LEAF RESEARCH PROVIDES LABORATORY-CRAFTED RESEARCH PEPTIDES INTENDED EXCLUSIVELY FOR QUALIFIED RESEARCH ESTHETICIANS, COSMETOLOGY PRACTICES, AND OTHER PROFESSIONAL RESEARCH ENVIRONMENTS. ALL PRODUCTS ARE SUPPLIED FOR TOPICAL FORMULATION RESEARCH, INVESTIGATIVE STUDY, AND EDUCATIONAL LABORATORY USE ONLY."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/2025/https://redleafpeptides.com/
+[FETCHED_AT] 2026-05-08T07:07:15Z
+[RAW_ARTIFACT] 03_raw_fetches/redleafpeptides/wayback_homepage_2025.md
+[LINE_RANGE] 9
+"Shipping domestically in Canada only at this time. E-transfer is the only payment method until the end of the week."
+[/SUPPORT_QUOTE]

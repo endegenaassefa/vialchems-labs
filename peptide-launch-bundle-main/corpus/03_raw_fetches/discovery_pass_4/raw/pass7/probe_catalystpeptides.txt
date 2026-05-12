@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalyst Peptides | Your Potential. Our Passion.</title>
+    <meta name="description" content="Catalyst Peptides empowers individuals to take ownership of their health through research-backed peptide education and access. Explore by wellness goal.">
+    <meta name="author" content="Catalyst Peptides" />
+
+    
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/uTPUv3FDD4WmkOdLR1vVYYBAUvC3/social-images/social-1773502280352-Screenshot_2026-03-14_at_8.30.36_AM.webp">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Catalyst" />
+    <meta name="twitter:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/uTPUv3FDD4WmkOdLR1vVYYBAUvC3/social-images/social-1773502280352-Screenshot_2026-03-14_at_8.30.36_AM.webp">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta property="og:title" content="Catalyst Peptides | Your Potential. Our Passion.">
+  <meta name="twitter:title" content="Catalyst Peptides | Your Potential. Our Passion.">
+  <meta property="og:description" content="Catalyst Peptides empowers individuals to take ownership of their health through research-backed peptide education and access. Explore by wellness goal.">
+  <meta name="twitter:description" content="Catalyst Peptides empowers individuals to take ownership of their health through research-backed peptide education and access. Explore by wellness goal.">
+  <script type="module" crossorigin src="/assets/index-CAkub6Fn.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BWg6JGYl.css">
+<script defer src="/~flock.js" data-proxy-url="/~api/analytics"></script></head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

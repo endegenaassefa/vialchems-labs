@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "13therapeutics",
+  "brand_name": "13therapeutics, Inc.",
+  "primary_domain": "http://www.13therapeutics.com/",
+
+  "fetched_url": "http://www.13therapeutics.com/",
+  "fetched_at": "2026-05-07T01:20:00Z",
+  "fetch_status": "partial",
+
+  "tier": "1",
+  "tier_rationale": "as-assigned (Tier 1 institutional R&D drug development per seed). 13therapeutics is a small, privately-held preclinical drug-development company spun out of Oregon Health and Science University (OHSU); it does not sell research peptides, has no e-commerce, no published SKUs, no checkout, no TOS/refund/shipping policies, no blog, no social-proof aggregators, and no medicinal-product pricing. The full schema attempt is preserved per the brief, but a large fraction of consumer-retail fields are legitimately 'uncertain' because the business model (preclinical drug-development with NIH SBIR funding) does not expose those fields. This is a partial profile, not a downgrade — the vendor is faithfully Tier 1 by classification (institutional R&D), and the missing fields are absences in the world rather than gaps in the fetch.",
+  "field_completion_ratio": 0.6418,
+
+  "country_of_operation": "United States",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "13therapeutics, Inc is a research and drug development company identifying, characterizing, and optimizing novel anti-inflammatory peptide therapeutics for unmet medical needs",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "Top-bar nav: Home / Company / Science / Peptide Therapeutics (with Products, P13, P7 sub-items) / Inflammatory Diseases (with Systemic Inflammation, Hearing Loss, Otitis Media, Noise-Induced Hearing Loss sub-items) / People (with Management, Board of Directors, Scientific Advisory Board sub-items) / Contact",
+    "footer_disclaimers": "Copyright 13therapeutics, Inc. All rights reserved."
+  },
+
+  "catalog": {
+    "sku_count": 0,
+    "category_taxonomy": ["Peptide Therapeutics", "Inflammatory Diseases"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "false"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "http://www.13therapeutics.com/products.html",
+    "sample_product_name": "P13 (and P13 derivative peptides)",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "Peptide P13, and P13 derivative peptides, are inhibitors of multiple TLRs (TLR2, TLR4, and TLR9) and inhibit MyD88-Dependent TLR signaling",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "false",
+    "coa_hosting": "none",
+    "lab_partner_named": "Oregon Health and Science University (OHSU)",
+    "batch_lot_transparency": "false",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "false"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "none",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "false",
+    "guest_checkout_available": "false",
+    "fields_collected": ["Name", "Email", "Subject", "Message"],
+    "id_verification_present": "false",
+    "payment_methods_accepted": ["uncertain"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "custom",
+    "cdn": "GoDaddy DPS (server: DPS/2.0.0-beta+sha-8e846f6); static assets via wsimg.com / nebula.wsimg.com",
+    "analytics_tools_loaded": ["GoDaddy TCCL traffic-tracking (tccl.min.js loaded from img1.wsimg.com/traffic-assets/js/tccl.min.js, with _trfd push and dps_site_id cookie)"],
+    "marketing_pixels_present": ["none observed in homepage source (no Facebook/Meta, TikTok, Pinterest, X/Twitter, Google Ads, or LinkedIn pixels detected)"],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "false",
+    "blog_url": "none",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["Peptide Therapeutics (P13, P7)", "Inflammatory Diseases (Systemic Inflammation, Hearing Loss, Otitis Media, Noise-Induced Hearing Loss)", "Toll-Like Receptor (TLR) signaling biology"],
+    "author_bylines_present": "false",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": ["uncertain"],
+    "testimonial_usage": "none observed on fetched pages",
+    "visible_influencer_endorsements": "none observed on fetched pages"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "13therapeutics13therapeutics,13therapeutics13therapeutics.com,USA,USA,US-only,Uncertain,Active,None,Anti-inflammatory peptides,Institutional,N,May 2026,Tier 1: Institutional R&D drug development."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/13therapeutics/",
+  "evidence_file": "evidence/13therapeutics.txt",
+  "uncertainty_notes": "13therapeutics, Inc. is a privately-held preclinical drug-development biotech spun out of Oregon Health and Science University (OHSU), not a research-peptide retail vendor. The site is a small GoDaddy Website Builder property (server: DPS/2.0.0-beta), no e-commerce surface, no SKUs, no compliance pages, no blog. SSL is misconfigured: HTTPS presents a *.secureserversites.net cert that does not match the domain (verified by openssl s_client during approach selection); the canonical site responds on HTTP at www.13therapeutics.com (verified curl 200). Per Rule 9, no anti-bot bypass was used; we used the HTTP response the site itself serves. Field-by-field uncertainty: (a) fulfillment_country / ship_to_scope — the site does not state any product-shipping policy because the company does not sell research peptides; both fields are 'uncertain' rather than 'United States' to avoid inferring a posture the site does not assert; (b) year_established — not stated anywhere on the fetched pages; the site references OHSU spin-out status and SBIR Phase I/II grant history (company.md L31) but no founding year; not inferred per Rule 19 (insufficient verbatim support to pin a year); (c) homepage.hero_imagery_style — the rendered text from html2text does not preserve image content, only references; the homepage source HTML shows one decorative image (//nebula.wsimg.com/2c2a7fe7afe4842215fc204b88b458b7) but the imagery style cannot be characterized from text alone without a screenshot, so 'uncertain'; (d) homepage.primary_cta — the homepage has NO call-to-action button or link in the rendered text; the only navigation is the global top-bar menu and a 'Contact' link in that menu, but there is no hero CTA, no 'Request a Quote', no 'Contact Us', no 'Investor Relations' button — accordingly 'uncertain' rather than fabricating one; (e) catalog.sku_count = 0 — the site has 'Products' and 'Peptide Therapeutics' pages but no commercial product SKUs; the 'products' page lists two preclinical drug candidates (P13 family, P7 family) which are pipeline assets, not catalog products; sku_count=0 is the correct value for a preclinical biotech with no commercial inventory; (f) catalog.search_filter_capabilities — there is no catalog UI; the products page is a static description of two pipeline candidates; 'uncertain' is the truthful value (the question is not meaningfully applicable, but the schema requires a value); (g) product_page_anatomy.dose_options / list_price / per_mg_cost / photographic_treatment / exact_disclaimer_language — the products.html page has no dose information, no price, no images (decorative only), and no disclaimer text; the P13 and P7 sub-pages are EMPTY of body content (only navigation + footer). The 'sample_product_url' is products.html and 'sample_product_name' is the most-described pipeline asset (P13); all numeric / pricing / disclaimer fields are 'uncertain' because the company is preclinical and these fields would be fabrication; (h) product_page_anatomy.coa_present = false — no COA system because this is a preclinical biotech, not a peptide vendor; coa_hosting = 'none' is verified by absence (the navigation has no COA / certificate / quality / batch link, and no on-site references to COAs were observed across all 16 fetched pages); (i) product_page_anatomy.lab_partner_named = 'Oregon Health and Science University (OHSU)' — verified by company.md L31, which states the company is an OHSU spin-out and 'subcontracts with OHSU and other academic instututions for animal model testing' (typo 'instututions' is verbatim from the page); (j) product_page_anatomy.batch_lot_transparency = false — no commercial product, no batches; (k) trust_compliance.research_use_only_phrasing — the fetched pages do not contain any 'For Research Use Only' / 'Not for human consumption' / similar phrasing, because this is a drug-development company preparing peptides for clinical use, not a research-supply vendor selling RUO product; 'uncertain' is honest; (l) trust_compliance.tos_url / tos_highlights / refund_policy / shipping_policy — explicitly probed at /privacy.html, /privacy-policy.html, /terms.html, /terms-of-service.html, /tos.html, /shipping.html, /refund.html — all returned HTTP 404 (curl probes 2026-05-07T01:20Z); the site has no published TOS, privacy policy, or refund/shipping policy at standard URL patterns. This itself is a notable finding for a Tier 1 institutional vendor; (m) checkout_flow.payment_methods_accepted / shipping_carriers / shipping_cost_structure / international_policy — there is no checkout; the contact form (contact-1.html) only collects Name/Email/Subject/Message; per §11 boundary, the form was NOT submitted; (n) tech_stack.platform_signal = 'custom' captures the GoDaddy Website Builder origin; the source HTML <meta name=\"generator\" content=\"Starfield Technologies; Go Daddy Website Builder 7.0.5350\"> identifies the platform exactly (source_homepage.md L23); the 'custom' enum is the closest fit because the schema enums (shopify, woocommerce, bigcommerce, wix, custom, headless, unknown) do not include 'godaddy_wsb'; the cdn field carries the more-specific identifier; (o) tech_stack.cdn — the response header 'server: DPS/2.0.0-beta+sha-8e846f6' (source_homepage.md L16) identifies GoDaddy's Domain Property Server, and static assets load from wsimg.com / nebula.wsimg.com; this is GoDaddy's own delivery infrastructure rather than a generic CDN like Cloudflare/Fastly; (p) content_footprint.blog_present = false — there is no /blog or /news or /insights URL on the navigation, and no posts were observed across all 16 fetched pages; (q) content_footprint.content_cadence / internal_linking_to_products — uncertain because there is no content cadence to measure; (r) social_proof.off_site_aggregators — no on-site links to LinkedIn / Twitter / Crunchbase / aggregators were observed, and the brief does not authorize cross-domain discovery for a Tier 1 vendor; 'uncertain' is honest; (s) discovery_provenance.first_seen_pass = 0 — this vendor was added directly from 00_inputs/vendor_list.csv (the seed list), not from a discovery pass; per the schema's note that integer pass numbers come from discovery_pass_log.md, '0' denotes pre-pass seed entry. Bounds encountered: §11 — quote/contact form was NOT submitted (would require entering identity information); §11 — no anti-bot bypass attempted (the SSL cert misconfig was worked around by using HTTP, which is the protocol the site itself responds on, not by injecting headers or solving challenges); checkout walk (Step 7) was N/A because there is no checkout. skus[] array is empty by design — 13therapeutics is a preclinical drug-development biotech with two pipeline assets (P13 and P7 derivative peptide families) targeting inflammatory diseases (systemic inflammation, otitis media, noise-induced hearing loss); these are NOT commercial SKUs and have no public pricing, dose, or fulfillment data because they are not for sale. Field completion ratio computed as 43 non-uncertain leaf fields / 67 total schema leaf fields = 0.6418 → fetch_status 'partial' per Rule 17 (between 0.40 and 0.69 threshold). Notable additional findings (recorded here, not as separate inferred fields): (1) the company received over $10M in NIH peer-reviewed grants including multiple Phase I and Phase II SBIR grants (company.md L31); (2) leadership traces directly to OHSU — Steven Hefeneider (CEO/founder, OHSU Ph.D., Portland VA Medical Center, co-inventor P13 peptide) per management.md L37, Sharon McCoy (VP Product Development, co-inventor P13) per management.md L31, Denis Burger (BoD, former Chairman/CEO of AVI BioPharma now Sarepta SRPT) per board_of_directors.md L51, Tom Bruggere (BoD, founder of Mentor Graphics) per board_of_directors.md L24, Dennis Trune (SAB, OHSU Otolaryngology professor) and Carol MacArthur (SAB, OHSU Otolaryngology) and Jeff Gold (SAB, OHSU Pulmonary Critical Care) per scientific_advisory_board.md L1-22; (3) the site is hosted on GoDaddy Website Builder 7.0.5350 (an aging 2020-era WSB version per the asset path WSB7_J_20200414_0954); (4) HTTPS is broken — the cert presents *.secureserversites.net rather than 13therapeutics.com (verified via openssl s_client connect 13therapeutics.com:443); the site responds on HTTP only; this is a notable trust-signal finding (a Tier 1 R&D drug-development firm's website does not present a valid SSL cert); (5) contact.contact-1.html exposes an email steve@13THERAPEUTICS.COM (verbatim casing from the page) and a Portland-area phone number 503-784-1400 (per contact_1.md L8-10), suggesting the CEO's direct line as the company's primary contact channel — consistent with a small, founder-led preclinical biotech. These findings are documented in evidence and uncertainty_notes for the operator's coverage report rather than fabricated into schema fields the source does not actually support."
+}

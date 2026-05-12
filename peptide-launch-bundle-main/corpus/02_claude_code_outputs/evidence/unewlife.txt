@@ -1,0 +1,449 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 141-152
+[QUOTE]
+"**99%** Pure-Premium"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 193-193
+[QUOTE]
+"Disclaimer: All items and content provided here are intended for research purposes only. Unewlife does not encourage or promote the use of any of these products in a personal capacity nor intended to be used as a drug, stimulant or for use in any food products."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 82-82
+[QUOTE]
+"[ Coupon code: USD5OFF Signup/Login HERE  ](https://web.archive.org/web/20240301133244/https://www.unewlife.com/my-account/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 44-67
+[QUOTE]
+"  * [Sign/Login](https://web.archive.org/web/20240301133244/https://www.unewlife.com/my-account/)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 84-84
+[QUOTE]
+"Showing 1–40 of 77 results"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 72-76
+[QUOTE]
+"  * ## [ Peptides (63) ](https://web.archive.org/web/20240301133244/https://www.unewlife.com/product-category/hgh-and-peptides/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 99-99
+[QUOTE]
+"[Combo Peptide: BPC157 50MG + TB500 50MGRated **4.33** out of 5](https://web.archive.org/web/20240301133244/https://www.unewlife.com/product/combo-peptide-bpc157-50mg-tb500-50mg/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://web.archive.org/web/20240301150750/https://www.unewlife.com/product/tirzepatide-55mg/
+[FETCHED_AT] 2026-05-08T00:04:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/product_2__tirzepatide-55mg.md
+[LINE_RANGE] 84-84
+[QUOTE]
+"# Tirzepatide: 55mg (5.5mg*10vials/box)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20240301150750/https://www.unewlife.com/product/tirzepatide-55mg/
+[FETCHED_AT] 2026-05-08T00:04:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/product_2__tirzepatide-55mg.md
+[LINE_RANGE] 125-125
+[QUOTE]
+"**Usage:** _All products on this site are for In-Vitro Research, Development use only. Products are Not for Human consumption of any kind._"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://web.archive.org/web/20240301150750/https://www.unewlife.com/product/tirzepatide-55mg/
+[FETCHED_AT] 2026-05-08T00:04:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/product_2__tirzepatide-55mg.md
+[LINE_RANGE] 125-125
+[QUOTE]
+"**Usage:** _All products on this site are for In-Vitro Research, Development use only. Products are Not for Human consumption of any kind._"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 88-93
+[QUOTE]
+"  * ## [Tirzepatide: 55mg (5.5mg*10vials/box)Rated **5.00** out of 5](https://web.archive.org/web/20240301133244/https://www.unewlife.com/product/tirzepatide-55mg/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://web.archive.org/web/20240301150750/https://www.unewlife.com/product/tirzepatide-55mg/
+[FETCHED_AT] 2026-05-08T00:04:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/product_2__tirzepatide-55mg.md
+[LINE_RANGE] 82-84
+[QUOTE]
+"Rated **5.00** out of 5 based on 6 customer ratings"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://web.archive.org/web/20240301150750/https://www.unewlife.com/product/tirzepatide-55mg/
+[FETCHED_AT] 2026-05-08T00:04:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/product_2__tirzepatide-55mg.md
+[LINE_RANGE] 262-278
+[QUOTE]
+"## You may also like…"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[INFERENCE] false
+[REASONING]
+Product pages list "Test Reports: MS/COA/HPLC" and "Test method: HPLC/MS/COA" as specification attributes, but no actual COA document links or third-party lab portal links appear on the fetched product pages. The product page for Tirzepatide 55mg shows test method claimed but no downloadable COA or external lab link. The FAQ does not mention COA hosting.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240301150750/https://www.unewlife.com/product/tirzepatide-55mg/
+[FETCHED_AT] 2026-05-08T00:04:00Z
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/product_2__tirzepatide-55mg.md
+[LINE_RANGE] 165-165
+"**Test Reports:** MS/COA/HPLC"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240301150750/https://www.unewlife.com/product/tirzepatide-55mg/
+[FETCHED_AT] 2026-05-08T00:04:00Z
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/product_2__tirzepatide-55mg.md
+[LINE_RANGE] 215-215
+"Test method | HPLC/MS/COA"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://web.archive.org/web/20240301150750/https://www.unewlife.com/product/tirzepatide-55mg/
+[FETCHED_AT] 2026-05-08T00:04:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/product_2__tirzepatide-55mg.md
+[LINE_RANGE] 125-125
+[QUOTE]
+"All products on this site are for In-Vitro Research, Development use only. Products are Not for Human consumption of any kind."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://web.archive.org/web/20240301142631/https://www.unewlife.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T00:02:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/tos.md
+[LINE_RANGE] 72-72
+[QUOTE]
+"# Welcome to UNEWLIFE!"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://web.archive.org/web/20240301142631/https://www.unewlife.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T00:02:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/tos.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client's needs in respect of provision of the Company's stated services, in accordance with and subject to, prevailing law of Netherlands."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://web.archive.org/web/20240302100431/https://www.unewlife.com/faq/
+[FETCHED_AT] 2026-05-08T00:06:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/faq.md
+[LINE_RANGE] 201-203
+[QUOTE]
+"If you wish to request a refund, please contact us within 24 hours after completing your payment. We do not offer refunds once your parcel has been sent out, is on its way, or a tracking number has been provided."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/20240302100431/https://www.unewlife.com/faq/
+[FETCHED_AT] 2026-05-08T00:06:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/faq.md
+[LINE_RANGE] 257-265
+[QUOTE]
+"To ensure the best quality and safe delivery, we ship from several locations according to the best method for you. Our shipping locations include directly from the factory and from regional supply warehouses."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://web.archive.org/web/20240302100431/https://www.unewlife.com/faq/
+[FETCHED_AT] 2026-05-08T00:06:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/faq.md
+[LINE_RANGE] 102-106
+[QUOTE]
+"Simply [register an account](https://web.archive.org/web/20240302100431/https://www.unewlife.com/my-account/) on our website, and you can buy our products directly. ... Once you've registered an account, you'll be able to view our complete pricing information."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20240302100431/https://www.unewlife.com/faq/
+[FETCHED_AT] 2026-05-08T00:06:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/faq.md
+[LINE_RANGE] 153-157
+[QUOTE]
+"We accept a wide range of payment methods, including Bitcoin, PayPal, Western Union, Moneygram, wire transfer, credit cards, and debit cards. We recommend using cryptocurrencies such as BTC, ETH, and USDT for direct and time-saving payments. **[Update]** We would like to inform our valued customers that moving forward, now we exclusively accept payments in cryptocurrency."
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://web.archive.org/web/20240302100431/https://www.unewlife.com/faq/
+[FETCHED_AT] 2026-05-08T00:06:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/faq.md
+[LINE_RANGE] 225-225
+[QUOTE]
+"Please provide your full name, city, state, postal code, and country."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://web.archive.org/web/20240302100431/https://www.unewlife.com/faq/
+[FETCHED_AT] 2026-05-08T00:06:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/faq.md
+[LINE_RANGE] 261-261
+[QUOTE]
+"We work with various carriers, including FedEx, DHL, UPS, USPS, Royal Mail, ePacket, and special airlines. We choose the most suitable method for your order."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://web.archive.org/web/20240302100431/https://www.unewlife.com/faq/
+[FETCHED_AT] 2026-05-08T00:06:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/faq.md
+[LINE_RANGE] 257-261
+[QUOTE]
+"To ensure the best quality and safe delivery, we ship from several locations according to the best method for you. Our shipping locations include directly from the factory and from regional supply warehouses."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:09:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/source_homepage.md
+[LINE_RANGE] 9-10
+[QUOTE]
+"<meta name="generator" content="WordPress 6.4.3""
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:09:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/source_homepage.md
+[LINE_RANGE] 13-13
+[QUOTE]
+"<meta name="generator" content="NitroPack""
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:09:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/source_homepage.md
+[LINE_RANGE] 11-11
+[QUOTE]
+"<meta name="generator" content="Site Kit by Google 1.120.0""
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 21-21
+[QUOTE]
+"[Blog](https://web.archive.org/web/20240301133244/https://www.unewlife.com/blog/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://web.archive.org/web/20240305061743/https://www.unewlife.com/product/semaglutide-25mg-one-box/
+[FETCHED_AT] 2026-05-08T00:03:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/product_1__semaglutide-25mg.md
+[LINE_RANGE] 124-124
+[QUOTE]
+"[Read more: The Complete Semaglutide (GLP-1) Guidebook](https://web.archive.org/web/20240305061743/https://www.unewlife.com/the-complete-semaglutide-glp-1-guidebook-from-a-to-z/)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://web.archive.org/web/20240301150750/https://www.unewlife.com/product/tirzepatide-55mg/
+[FETCHED_AT] 2026-05-08T00:04:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/product_2__tirzepatide-55mg.md
+[LINE_RANGE] 82-84
+[QUOTE]
+"Rated **5.00** out of 5 based on 6 customer ratings"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://web.archive.org/web/20240221190815/https://www.unewlife.com/feedback/
+[FETCHED_AT] 2026-05-08T00:07:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/feedback.md
+[LINE_RANGE] 72-72
+[QUOTE]
+"###  Quality  Never Compromised"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.federalregister.gov/documents/2024/05/28/2024-11534/certain-products-containing-tirzepatide-and-products-purporting-to-contain-tirzepatide-notice-of-a
+[FETCHED_AT] 2026-05-08T00:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/social_1_itc_federal_register.md
+[LINE_RANGE] 294-296
+[QUOTE]
+"The Commission's notice of investigation named as respondents Arctic Peptides LLC of Akeny, Iowa; Audrey Beauty Co. of Hong Kong, China; Biolabshop Limited of Lancaster, United Kingdom; Mew Mews Company Limited of Hong Kong, China; Strate Labs LLC of Spring, Texas; Steroide Kaufen of Bialystok, Poland; Super Human Store of Barcelona, Spain; Supopeptide of Cedar Grove, New Jersey; Triggered Supplements LLC of Clearwater, Florida; Unewlife of Cedar Grove, New Jersey; and Xiamen Austronext Trading Co., Ltd. of Fujian, China. ... Respondents Unewlife, Supopeptide, and Steroide Kaufen were terminated pursuant to withdrawal of the complaint. _See_ Order No. 8 (Mar. 7, 2024), _unreviewed by_ Comm'n Notice (Mar. 21, 2024)."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.federalregister.gov/documents/2024/05/28/2024-11534/certain-products-containing-tirzepatide-and-products-purporting-to-contain-tirzepatide-notice-of-a
+[FETCHED_AT] 2026-05-08T00:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/social_1_itc_federal_register.md
+[LINE_RANGE] 294-294
+[QUOTE]
+"Unewlife of Cedar Grove, New Jersey"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[INFERENCE] us_intl
+[REASONING]
+The FAQ explicitly states "Global Shipping Available" and "We ship from several locations according to the best method for you." The homepage footer repeats "100% Secure Delivery Global Shipping Available." FedEx, DHL, UPS, USPS, Royal Mail, and ePacket carriers listed support domestic and international shipping.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240302100431/https://www.unewlife.com/faq/
+[FETCHED_AT] 2026-05-08T00:06:00Z
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/faq.md
+[LINE_RANGE] 257-261
+"To ensure the best quality and safe delivery, we ship from several locations according to the best method for you. Our shipping locations include directly from the factory and from regional supply warehouses."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 149-151
+"**100%** Secure Delivery"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[0].name
+[URL] https://web.archive.org/web/20240305061743/https://www.unewlife.com/product/semaglutide-25mg-one-box/
+[FETCHED_AT] 2026-05-08T00:03:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/product_1__semaglutide-25mg.md
+[LINE_RANGE] 94-94
+[QUOTE]
+"Semaglutide: 2.5mg*10vials/box, 25mg/box"
+[/QUOTE]
+
+[CLAIM] skus[1].name
+[URL] https://web.archive.org/web/20240301150750/https://www.unewlife.com/product/tirzepatide-55mg/
+[FETCHED_AT] 2026-05-08T00:04:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/product_2__tirzepatide-55mg.md
+[LINE_RANGE] 84-84
+[QUOTE]
+"# Tirzepatide: 55mg (5.5mg*10vials/box)"
+[/QUOTE]
+
+[CLAIM] skus[2].name
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 93-93
+[QUOTE]
+"[Retatrutide LY-3437943: 50mg (5mg*10vials/box)Rated **5.00** out of 5](https://web.archive.org/web/20240301133244/https://www.unewlife.com/product/retatrutide-ly-3437943-5mg10vials-box/)"
+[/QUOTE]
+
+[CLAIM] skus[3].name
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 100-100
+[QUOTE]
+"[BPC157: 5mg*50vials (250mg)Rated **4.67** out of 5](https://web.archive.org/web/20240301133244/https://www.unewlife.com/product/bpc157-5mg-50vials/)"
+[/QUOTE]
+
+[CLAIM] skus[4].name
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 115-115
+[QUOTE]
+"[TB500: 50mg (5mg*10vials/box) TB-500Rated **4.50** out of 5](https://web.archive.org/web/20240301133244/https://www.unewlife.com/product/tb500-5mg10vials-kit/)"
+[/QUOTE]
+
+[CLAIM] skus[5].name
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 102-102
+[QUOTE]
+"[Ipamorelin: 250mg (5mg*50vials)Rated **4.80** out of 5](https://web.archive.org/web/20240301133244/https://www.unewlife.com/product/ipamorelin-5mg-50vials/)"
+[/QUOTE]
+
+[CLAIM] skus[6].name
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 117-117
+[QUOTE]
+"[Epithalon: 500mg (10mg*50vials)Rated **5.00** out of 5](https://web.archive.org/web/20240301133244/https://www.unewlife.com/product/epithalon-10mg-50vials/)"
+[/QUOTE]
+
+[CLAIM] skus[7].name
+[URL] https://web.archive.org/web/20240301143847/https://www.unewlife.com/page/2/
+[FETCHED_AT] 2026-05-08T00:01:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/catalog_1.md
+[LINE_RANGE] 98-98
+[QUOTE]
+"[MOTS-C: 50mg (5mg*10vials/box)](https://web.archive.org/web/20240301143847/https://www.unewlife.com/product/mots-c-5mg-10vials-box/)"
+[/QUOTE]
+
+[CLAIM] skus[8].name
+[URL] https://web.archive.org/web/20240301133244/https://www.unewlife.com/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/unewlife/homepage.md
+[LINE_RANGE] 99-99
+[QUOTE]
+"[Combo Peptide: BPC157 50MG + TB500 50MGRated **4.33** out of 5](https://web.archive.org/web/20240301133244/https://www.unewlife.com/product/combo-peptide-bpc157-50mg-tb500-50mg/)"
+[/QUOTE]

@@ -1,0 +1,286 @@
+[CLAIM] primary_domain
+[URL] https://astrapeptides.com/
+[FETCHED_AT] 2026-05-07T19:40:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/homepage.md
+[LINE_RANGE] 10-10
+[QUOTE]
+"# [Astra Peptides](https://astrapeptides.com/)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://astrapeptides.com/
+[FETCHED_AT] 2026-05-07T19:40:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/homepage.md
+[LINE_RANGE] 26-29
+[QUOTE]
+"## Trusted, Verified.
+
+## Research-Grade
+Peptides, To Your Door"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://astrapeptides.com/
+[FETCHED_AT] 2026-05-07T19:40:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/homepage.md
+[LINE_RANGE] 31-31
+[QUOTE]
+"[ Shop Now ](https://astrapeptides.com/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://astrapeptides.com/
+[FETCHED_AT] 2026-05-07T19:40:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/homepage.md
+[LINE_RANGE] 12-16
+[QUOTE]
+"  * [Home](https://astrapeptides.com/)
+  * [Shop](https://astrapeptides.com/shop/)
+  * [Contact Us](https://astrapeptides.com/contact-us/)
+  * [Affiliated](https://astrapeptides.com/affiliate-area/)
+  * [Cart](https://astrapeptides.com/shop-cart/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://astrapeptides.com/
+[FETCHED_AT] 2026-05-07T19:40:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/homepage.md
+[LINE_RANGE] 221-221
+[QUOTE]
+"© 2026 ASTRA"
+[/QUOTE]
+
+[CLAIM] fulfillment_country / ship_to_scope / shipping_policy
+[URL] https://astrapeptides.com/
+[FETCHED_AT] 2026-05-07T19:40:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/homepage.md
+[LINE_RANGE] 175-177
+[QUOTE]
+"Delivery typically takes 3-5 business days. We ship from right here in the USA to all US addresses.
+
+Every package comes with professional packaging, tracking updates via email, and does not require a signature upon delivery."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name / product_page_anatomy.list_price / product_page_anatomy.dose_options
+[URL] https://astrapeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:41:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/product_1__bpc-157.md
+[LINE_RANGE] 44-48
+[QUOTE]
+"# BPC-157 10MG
+
+991 in stock
+
+~~$ 43.99~~ Original price was: $43.99.$35.99Current price is: $35.99.18% OFF"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count / skus (catalog page 1)
+[URL] https://astrapeptides.com/shop/
+[FETCHED_AT] 2026-05-07T19:40:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/catalog_1.md
+[LINE_RANGE] 23-23
+[QUOTE]
+"31Products Found"
+[/QUOTE]
+
+[CLAIM] skus (catalog page 2 — Melanotan 2, MOTS-C, PT-141, RETATRUTIDE, SELANK, SEMAX, TB-500, TESAMORELIN, Thymosin Alpha 1)
+[URL] https://astrapeptides.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T19:40:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/catalog_2.md
+[LINE_RANGE] 35-187
+[QUOTE]
+"## [Melanotan 2 10MG](https://astrapeptides.com/product/melanotan-2/)
+
+~~$ 47.99~~ Original price was: $47.99.$39.99Current price is: $39.99."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://astrapeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:41:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/product_1__bpc-157.md
+[LINE_RANGE] 103-103
+[QUOTE]
+"BPC-157 is a peptide derived from a protein found in gastric juice, noted for its strong regenerative properties across tissues including muscles, tendons, and ligaments. It has also been studied for its role in supporting digestive function and reducing pain, positioning it as a promising compound for promoting tissue repair and gastrointestinal health."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language / trust_compliance.research_use_only_phrasing
+[URL] https://astrapeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:41:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/product_1__bpc-157.md
+[LINE_RANGE] 105-107
+[QUOTE]
+"**RESEARCH USE ONLY**
+
+These materials are strictly intended for laboratory research and in vitro testing only. They are not approved for human consumption, medical treatment, or veterinary use. We are not associated with any pharmaceutical companies or their products. By purchasing, you confirm that these compounds will be handled solely by licensed and qualified professionals, and never introduced into humans or animals. These products are not drugs, foods, or cosmetics and must not be misrepresented, mislabeled, or used as such."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named / product_page_anatomy.coa_present / product_page_anatomy.batch_lot_transparency
+[URL] https://astrapeptides.com/
+[FETCHED_AT] 2026-05-07T19:40:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/homepage.md
+[LINE_RANGE] 150-152
+[QUOTE]
+"### Lab-Verified
+
+Every batch undergoes third-party testing by Janoshik Analytical (an independent lab). We provide Certificates of Analysis because you deserve to know what's in your products. No fake reports (unlike some competitors)."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://astrapeptides.com/
+[FETCHED_AT] 2026-05-07T19:40:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/homepage.md
+[LINE_RANGE] 223-227
+[QUOTE]
+"##  Are You 21 or Older?
+
+This website contains content intended for individuals 21 years of age or older. Please confirm your age to continue.
+
+Yes No"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / trust_compliance.tos_highlights
+[URL] https://astrapeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:41:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/tos.md
+[LINE_RANGE] 38-54
+[QUOTE]
+"All e-Check/ACH payments are payable to Astra LLC. By submitting an order, you authorize Astra LLC to initiate a one-time electronic debit from the bank account provided at checkout."
+[/QUOTE]
+[URL] https://astrapeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:41:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/tos.md
+[LINE_RANGE] 50-50
+[QUOTE]
+"You must be at least **21 years of age** to access www.astrapeptides.com or purchase products from Astra LLC. We reserve the right to deny service to anyone, at our sole discretion."
+[/QUOTE]
+[URL] https://astrapeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:41:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/tos.md
+[LINE_RANGE] 54-54
+[QUOTE]
+"All products are sold strictly for **IN-VITRO LABORATORY RESEARCH PURPOSES ONLY** and are **NOT FOR HUMAN OR ANIMAL USE OR CONSUMPTION**. By purchasing, you acknowledge the risks of misuse and agree to handle all materials responsibly and in accordance with applicable laws and regulations. Due to the nature of our products, **all sales are final and non-returnable**."
+[/QUOTE]
+[URL] https://astrapeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:41:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/tos.md
+[LINE_RANGE] 86-86
+[QUOTE]
+"These Terms and your use of www.astrapeptides.com will be governed by the laws of **Nevis** , without regard to conflict of law principles."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://astrapeptides.com/returns-refunds/
+[FETCHED_AT] 2026-05-07T19:41:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/refund.md
+[LINE_RANGE] 26-38
+[QUOTE]
+"Due to our rigorous quality control standards and the fragile nature of our products, we cannot accept returns. However, if your order arrives with missing, incorrect, or damaged items, we are here to help. Please email **info@astrapeptides.com**  for assistance."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://astrapeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:41:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/tos.md
+[LINE_RANGE] 38-38
+[QUOTE]
+"All e-Check/ACH payments are payable to Astra LLC."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] uncertain — TOS governing law is Nevis; site presents as US-based (ships from USA per homepage FAQ)
+[REASONING]
+The TOS names Nevis as governing law, which commonly indicates an offshore LLC incorporation. However, the homepage FAQ states "We ship from right here in the USA to all US addresses," indicating US-based fulfillment operations. Cannot confirm actual country of incorporation from public-facing pages alone.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://astrapeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:41:48Z
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/tos.md
+[LINE_RANGE] 86-86
+"These Terms and your use of www.astrapeptides.com will be governed by the laws of **Nevis** , without regard to conflict of law principles."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://astrapeptides.com/
+[FETCHED_AT] 2026-05-07T19:40:01Z
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/homepage.md
+[LINE_RANGE] 175-175
+"Delivery typically takes 3-5 business days. We ship from right here in the USA to all US addresses."
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The URL structure (/product/, /product-category/, /shop/, /shop-cart/, /shop-checkout/, /my-account/, /wp-content/) is consistent with WordPress + WooCommerce. The /wp-content/uploads/ path in product image URLs is a WordPress-specific artifact.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://astrapeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:41:03Z
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/product_1__bpc-157.md
+[LINE_RANGE] 30-30
+"[](https://astrapeptides.com/wp-content/uploads/2025/08/img_7635.jpeg)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://astrapeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:41:03Z
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/product_1__bpc-157.md
+[LINE_RANGE] 56-56
+"[Buy Now](https://astrapeptides.com/shop-checkout/?add-to-cart=6788)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://astrapeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:41:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/product_1__bpc-157.md
+[LINE_RANGE] 60-60
+[QUOTE]
+"SKU:  BPC10  Category: [Peptides](https://astrapeptides.com/product-category/peptides/) Tag: [RECOVERY](https://astrapeptides.com/product-tag/recovery/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://astrapeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:41:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/product_1__bpc-157.md
+[LINE_RANGE] 109-109
+[QUOTE]
+"## Related products"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://astrapeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:41:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/product_1__bpc-157.md
+[LINE_RANGE] 43-43
+[QUOTE]
+"(0)"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://astrapeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:41:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astra-peptides/product_1__bpc-157.md
+[LINE_RANGE] 26-26
+[QUOTE]
+"[Home](https://astrapeptides.com)[Peptides](https://astrapeptides.com/product-category/peptides/)BPC-157 10MG"
+[/QUOTE]

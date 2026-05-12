@@ -1,0 +1,991 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://arcanepeptides.com/
+[FETCHED_AT] 2026-05-07T17:02:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/homepage.md
+[LINE_RANGE] 32-33
+[QUOTE]
+"# Arcane Peptides
+
+Discover specialized peptides advancing the edge of scientific research. Arcane by design."
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://arcanepeptides.com/
+[FETCHED_AT] 2026-05-07T17:02:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/homepage.md
+[LINE_RANGE] 199-199
+[QUOTE]
+"Disclaimer: These products are intended for laboratory research purposes only, and are not for human or animal consumption. The products are not intended to diagnose, treat, cure, or prevent any disease. The products should not be used as a food, drug, cosmetic, or other household use. By accessing this website or purchasing from this website, you agree that that it is your sole responsibility to ensure compliance with applicable laws and regulations within your jurisdiction; and you understand and acknowledge that no information on this website should be construed as medical advice. You also acknowledge and agree that you have read the [Terms of Service] available on this website and agree that your rights and responsibilities are governed by the [Terms of Service] on this website. Arcane Peptides is a chemical supplier and is not a compounding pharmacy or chemical compounding facility as defined under Section 503A of the Federal Food, Drug, and Cosmetic Act. Additionally, Arcane Peptides is not an outsourcing facility as defined under Section 503B of the same Act."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://arcanepeptides.com/
+[FETCHED_AT] 2026-05-07T17:02:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/homepage.md
+[LINE_RANGE] 35-35
+[QUOTE]
+"[ Search Catalog ](/shop)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://arcanepeptides.com/
+[FETCHED_AT] 2026-05-07T17:02:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/homepage.md
+[LINE_RANGE] 12-23
+[QUOTE]
+"  * [Home](/)
+  * [Shop __](https://arcanepeptides.com/shop/)
+    * Categories __
+      * [Peptides](https://arcanepeptides.com/shop/?product-cato=66)
+      * [Liquids](https://arcanepeptides.com/shop/?product-cato=68)
+      * [Powders](https://arcanepeptides.com/shop/?product-cato=96)
+    * [Top Products](https://arcanepeptides.com/shop/?orderby=popularity)
+    * [New Arrivals](https://arcanepeptides.com/shop/?orderby=date)
+  * [FAQs](https://arcanepeptides.com/faqs/)
+  * [COA Library](https://arcanepeptides.com/lab-results/)
+  * [Order Tracking](https://arcanepeptides.com/order-tracking/)
+  * [Contact Us](https://arcanepeptides.com/contact-us/)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://arcanepeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:03:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/catalog_1.md
+[LINE_RANGE] 51-51
+[QUOTE]
+"Showing all 30 results"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://arcanepeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:03:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/catalog_1.md
+[LINE_RANGE] 42-46
+[QUOTE]
+"#### Categories
+
+  * [liquids](javascript:void\(0\))(2)
+  * [Peptides](javascript:void\(0\))(25)
+  * [Powders](javascript:void\(0\))(3)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://arcanepeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:03:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/catalog_1.md
+[LINE_RANGE] 96-99
+[QUOTE]
+"### [BPC-157 + TB-500 5MG/5MG](https://arcanepeptides.com/product/tbpc/)
+
+$60.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://arcanepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_1__bpc-157.md
+[LINE_RANGE] 35-39
+[QUOTE]
+"# BPC-157 5MG
+
+In Stock
+
+~~$ 35.00~~ Original price was: $35.00.$30.00Current price is: $30.00."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://arcanepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_1__bpc-157.md
+[LINE_RANGE] 47-47
+[QUOTE]
+"These products are intended for laboratory research purposes only, and are not for human or animal consumption. The products are not intended to diagnose, treat, cure, or prevent any disease. The products should not be used as a food, drug, cosmetic, or other household use."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://arcanepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_1__bpc-157.md
+[LINE_RANGE] 69-78
+[QUOTE]
+"CAS Number | 137525-51-0
+Synonyms | Body Protection Compound 157, Bepecin, Pentadecapeptide BPC 157, PL 14736
+Content | 5mg
+Physical Appearance | Fine White Lyophilized Powder
+Sequence | GEPPPGKPADDAGLV
+Molecular Formula | C62H98N16O22
+Molecular Weight | 1419.5"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://arcanepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_1__bpc-157.md
+[LINE_RANGE] 52-65
+[QUOTE]
+"### Certificates of Analysis
+
+[ ](https://arcanepeptides.com/wp-content/uploads/2026/03/Chromate_Job_33552-scaled.png)
+
+Analysis Date:
+
+Lot Number:
+
+March 19, 2026
+
+BPC002
+
+[ Full report ](https://arcanepeptides.com/wp-content/uploads/2026/03/Chromate_Job_33552-scaled.png) [View Historical](https://arcanepeptides.com/certificate/bpc-157/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://arcanepeptides.com/lab-results/
+[FETCHED_AT] 2026-05-07T17:05:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/coa_1.md
+[LINE_RANGE] 84-88
+[QUOTE]
+"[ BPC002 Current ](https://arcanepeptides.com/wp-content/uploads/2026/03/Chromate_Job_33552-scaled.png)"
+[/QUOTE]
+
+[URL] https://arcanepeptides.com/lab-results/
+[FETCHED_AT] 2026-05-07T17:05:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/coa_1.md
+[LINE_RANGE] 147-147
+[QUOTE]
+"[ HCG002 (Vanguard) Current ](https://arcanepeptides.com/wp-content/uploads/2026/03/36abfda3-9256-4ace-a926-7569634a65ef.pdf) [ HCG002 (Chromate) Current ](https://arcanepeptides.com/wp-content/uploads/2026/03/Chromate_Job_33588-scaled.png)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://arcanepeptides.com/lab-results/
+[FETCHED_AT] 2026-05-07T17:05:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/coa_1.md
+[LINE_RANGE] 43-47
+[QUOTE]
+"Current Lots
+
+[ RT1002 Current ](https://arcanepeptides.com/wp-content/uploads/2026/03/5b4af71c-5108-48d9-8128-8cea784fba82.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://arcanepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_1__bpc-157.md
+[LINE_RANGE] 84-88
+[QUOTE]
+"## Related Products
+
+  * [](https://arcanepeptides.com/product/cjcipam/)
+
+[Add to cart](/product/bpc-157/?add-to-cart=21488)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://arcanepeptides.com/
+[FETCHED_AT] 2026-05-07T17:02:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/homepage.md
+[LINE_RANGE] 230-234
+[QUOTE]
+"**All products on this website are to be used strictly only for research purposes.**
+The products on this website must not be used for: **(1)** human or animal consumption; or **(2)** diagnosing, treating, curing, or preventing any disease.
+
+**By clicking Agree, you confirm:**
+**(1)** you are at least 18 years of age; **(2)** you are a qualified researcher; **(3)** you will not use these products for human or animal consumption; **(4)** you accept full responsibility for compliance; and **(5)** if you buy any products from the website, you will comply with [Terms of Service]"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://arcanepeptides.com/
+[FETCHED_AT] 2026-05-07T17:02:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/homepage.md
+[LINE_RANGE] 232-238
+[QUOTE]
+"**By clicking Agree, you confirm:**
+**(1)** you are at least 18 years of age; **(2)** you are a qualified researcher; **(3)** you will not use these products for human or animal consumption; **(4)** you accept full responsibility for compliance; and **(5)** if you buy any products from the website, you will comply with [Terms of Service](https://arcanepeptides.com/terms-of-service/) that is available on the homepage of the website.
+
+You are not permitted to access this website due to insufficient qualifications.
+
+I Agree I Disagree"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://arcanepeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:05:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/tos.md
+[LINE_RANGE] 171-172
+[QUOTE]
+"  * Shipping is limited to the continental United States only"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://arcanepeptides.com/
+[FETCHED_AT] 2026-05-07T17:02:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/homepage.md
+[LINE_RANGE] 190-192
+[QUOTE]
+"### Company
+
+  * [ Terms of Service ](/terms-of-service)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://arcanepeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:05:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/tos.md
+[LINE_RANGE] 138-151
+[QUOTE]
+"We accept:
+
+  * Major credit cards (Visa, Mastercard, American Express, Discover)
+  * ACH/wire transfers
+  * Cryptocurrency (BTC, ETH, USDT) through compliant providers"
+[/QUOTE]
+
+[URL] https://arcanepeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:05:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/tos.md
+[LINE_RANGE] 148-150
+[QUOTE]
+"  * **ALL SALES ARE FINAL**
+  * Orders are non-cancellable once payment is processed
+  * We do not accept refunds, except on products with verified manufacturing defects"
+[/QUOTE]
+
+[URL] https://arcanepeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:05:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/tos.md
+[LINE_RANGE] 344-345
+[QUOTE]
+"These Terms are governed by and construed in accordance with the laws of the State of Wyoming, without regard to its conflict of law principles."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://arcanepeptides.com/shipping-refunds-returns-policy/
+[FETCHED_AT] 2026-05-07T17:05:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/refund.md
+[LINE_RANGE] 36-55
+[QUOTE]
+"We do not accept returns of products due to possible degradation and the nature of our industry. We will accept limited returns only if we accidentally ship wrong or additional items. In such cases, we will do our best to remedy the situation.
+
+____ Refund Policy
+
+RUO.Bio maintains a strict all-sales-are-final policy, with limited exceptions granted at our sole discretion.
+
+**Refund Methods**
+When refunds are authorized, they will be issued exclusively as:
+– Store credit
+– Rebates
+– Discount codes
+– Other comparable remedies
+
+**Restocking Fee**
+Authorized refunds are subject to a 15% restocking fee, which will be deducted from the store credit amount."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://arcanepeptides.com/faqs/
+[FETCHED_AT] 2026-05-07T17:08:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/faqs.md
+[LINE_RANGE] 137-165
+[QUOTE]
+"We currently ship to the United States and all US territories._International shipping is planned for future expansion but is not yet available._"
+[/QUOTE]
+
+[URL] https://arcanepeptides.com/faqs/
+[FETCHED_AT] 2026-05-07T17:08:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/faqs.md
+[LINE_RANGE] 147-155
+[QUOTE]
+"**Shipping times vary based on selected shipping speed:**
+Standard Shipping: **3-6 business days**
+Express Shipping: **2-4 business days**
+Free Shipping: **2-4 business days**"
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://arcanepeptides.com/checkout/
+[FETCHED_AT] 2026-05-07T17:08:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/checkout_step_1.md
+[LINE_RANGE] 31-35
+[QUOTE]
+"## Cart
+
+Your cart is currently empty.
+
+[ Return to shop ](https://arcanepeptides.com/shop/)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://arcanepeptides.com/faqs/
+[FETCHED_AT] 2026-05-07T17:08:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/faqs.md
+[LINE_RANGE] 267-287
+[QUOTE]
+"____ Credit/Debit Cards
+
+Due to frequently changing regulations in the research industry, we may not always accept credit or debit card payments. Availability of these payment methods may vary.
+
+____ Zelle
+
+We accept Zelle payments year-round and offer incentives for using this method.
+
+____ Cryptocurrency
+
+We accept various cryptocurrencies and offer incentives for using this payment method."
+[/QUOTE]
+
+[URL] https://arcanepeptides.com/faqs/
+[FETCHED_AT] 2026-05-07T17:08:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/faqs.md
+[LINE_RANGE] 283-287
+[QUOTE]
+"____ Same-Day Bank Payment
+
+Same-day bank transfers are typically completed within 24 hours but may take up to 72 hours, excluding weekends."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://arcanepeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:05:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/tos.md
+[LINE_RANGE] 173-173
+[QUOTE]
+"  * We use UPS and FedEx exclusively"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://arcanepeptides.com/faqs/
+[FETCHED_AT] 2026-05-07T17:08:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/faqs.md
+[LINE_RANGE] 165-165
+[QUOTE]
+"We currently ship to the United States and all US territories._International shipping is planned for future expansion but is not yet available._"
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[INFERENCE] true
+[REASONING]
+The TOS privacy section (tos.md lines 281-285) states "Arcane Peptides may require you to create an account to verify that you are an authorized user" using "may require" language, indicating account creation is not mandatory. The FAQs (faqs.md lines 229-231) state "Order history is only available for registered users. Guest orders become visible once you create an account using the same email used at checkout," directly confirming guest checkout as an available option.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://arcanepeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:05:26Z
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/tos.md
+[LINE_RANGE] 282-282
+"  * **Contact Details:** Arcane Peptides may require you to create an account to verify that you are an authorized user of the Website. The information that you may be required to submit to create an account includes your first name, last name, and email address."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://arcanepeptides.com/faqs/
+[FETCHED_AT] 2026-05-07T17:08:53Z
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/faqs.md
+[LINE_RANGE] 229-231
+"Order history is only available for registered users. Guest orders become visible once you create an account using the same email used at checkout."
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://arcanepeptides.com/
+[FETCHED_AT] 2026-05-07T17:06:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/source_homepage.md
+[LINE_RANGE] 30-33
+[QUOTE]
+"## Key signals detected:
+- Platform: WooCommerce (WordPress)
+- Theme: naturya (wp-content/themes/naturya)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://arcanepeptides.com/
+[FETCHED_AT] 2026-05-07T17:06:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/source_homepage.md
+[LINE_RANGE] 14-26
+[QUOTE]
+"HTTP/2 200
+date: Thu, 07 May 2026 17:05:33 GMT
+content-type: text/html; charset=utf-8
+server: cloudflare
+vary: Accept-Encoding
+last-modified: Thu, 07 May 2026 15:27:06 GMT
+cache-provider: CLOUDWAYS-CACHE-DE"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://arcanepeptides.com/
+[FETCHED_AT] 2026-05-07T17:06:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/source_homepage.md
+[LINE_RANGE] 34-35
+[QUOTE]
+"- Reddit Pixel ID: a2_htwqgelz6cwf"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://arcanepeptides.com/
+[FETCHED_AT] 2026-05-07T17:06:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/source_homepage.md
+[LINE_RANGE] 36-36
+[QUOTE]
+"- Chat widget: No dedicated chat widget detected"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://arcanepeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:05:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/tos.md
+[LINE_RANGE] 344-344
+[QUOTE]
+"These Terms are governed by and construed in accordance with the laws of the State of Wyoming, without regard to its conflict of law principles."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://arcanepeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:05:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/tos.md
+[LINE_RANGE] 171-173
+[QUOTE]
+"  * Shipping is limited to the continental United States only
+  * We use UPS and FedEx exclusively
+  * We may refuse high-risk addresses"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://arcanepeptides.com/faqs/
+[FETCHED_AT] 2026-05-07T17:08:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/faqs.md
+[LINE_RANGE] 165-165
+[QUOTE]
+"We currently ship to the United States and all US territories._International shipping is planned for future expansion but is not yet available._"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage leads with a search catalog CTA, structured navigation, and product grid showing studio-shot vial product images against clean white/neutral backgrounds. No lifestyle, meme-coded, or anonymous imagery was observed on any of the 38 fetched pages. Product image URLs in source (e.g., bpc.png, tb500.png, ghk50-1.png) are clean studio renders consistent with a clinical/professional aesthetic.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://arcanepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_1__bpc-157.md
+[LINE_RANGE] 33-33
+"[](https://arcanepeptides.com/wp-content/uploads/2025/09/bpc.png)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://arcanepeptides.com/
+[FETCHED_AT] 2026-05-07T17:02:51Z
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/homepage.md
+[LINE_RANGE] 104-108
+"## Where New Discoveries Launch First
+
+Arcane's discovery team actively monitors emerging peptide structures, conformations, and published findings, enabling us to bring new offerings to market ahead of broader industry adoption."
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[bpc-157-5mg].list_price
+[URL] https://arcanepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_1__bpc-157.md
+[LINE_RANGE] 39-39
+[QUOTE]
+"~~$ 35.00~~ Original price was: $35.00.$30.00Current price is: $30.00."
+[/QUOTE]
+
+[CLAIM] skus[tb-500-5mg].list_price
+[URL] https://arcanepeptides.com/product/tb-500/
+[FETCHED_AT] 2026-05-07T17:03:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_2__tb-500.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"$45.00"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg].list_price
+[URL] https://arcanepeptides.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-07T17:03:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_3__ghk-cu.md
+[LINE_RANGE] 37-43
+[QUOTE]
+"$35.00 – $50.00Price range: $35.00 through $50.00
+
+Content |  Choose an option50mg100mg
+
+  * 50mg
+  * 100mg"
+[/QUOTE]
+
+[CLAIM] skus[cjc-1295-dac-5mg].list_price
+[URL] https://arcanepeptides.com/product/cjc-1295/
+[FETCHED_AT] 2026-05-07T17:04:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_4__cjc-1295.md
+[LINE_RANGE] 37-43
+[QUOTE]
+"$40.00 – $60.00Price range: $40.00 through $60.00
+
+Content |  Choose an option5mg (DAC)5mg (No Dac)
+
+  * 5mg (DAC)
+  * 5mg (No Dac)"
+[/QUOTE]
+
+[CLAIM] skus[ipamorelin-5mg].list_price
+[URL] https://arcanepeptides.com/product/ipamorelin-5mg/
+[FETCHED_AT] 2026-05-07T17:04:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_5__ipamorelin.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"$30.00"
+[/QUOTE]
+
+[CLAIM] skus[igf-1-lr3-1mg].list_price
+[URL] https://arcanepeptides.com/product/igf-1-lr3/
+[FETCHED_AT] 2026-05-07T17:04:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_6__igf-1-lr3.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"$85.00"
+[/QUOTE]
+
+[CLAIM] skus[mots-c-10mg].list_price
+[URL] https://arcanepeptides.com/product/mots-c/
+[FETCHED_AT] 2026-05-07T17:04:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_7__mots-c.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"$45.00"
+[/QUOTE]
+
+[CLAIM] skus[mt-2-10mg].list_price
+[URL] https://arcanepeptides.com/product/melanotan-ii-mt-2-10mg/
+[FETCHED_AT] 2026-05-07T17:04:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_8__mt2.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"$35.00"
+[/QUOTE]
+
+[CLAIM] skus[nad-500mg].list_price
+[URL] https://arcanepeptides.com/product/nad-500mg/
+[FETCHED_AT] 2026-05-07T17:04:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_9__nad.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"$60.00"
+[/QUOTE]
+
+[CLAIM] skus[dsip-5mg].list_price
+[URL] https://arcanepeptides.com/product/dsip/
+[FETCHED_AT] 2026-05-07T17:04:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_10__dsip.md
+[LINE_RANGE] 33-37
+[QUOTE]
+"# DSIP 5mg
+
+In Stock
+
+$30.00"
+[/QUOTE]
+
+[CLAIM] skus[selank-5mg].list_price
+[URL] https://arcanepeptides.com/product/selank-5mg/
+[FETCHED_AT] 2026-05-07T17:04:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_11__selank.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"$30.00"
+[/QUOTE]
+
+[CLAIM] skus[semax-5mg].list_price
+[URL] https://arcanepeptides.com/product/semax/
+[FETCHED_AT] 2026-05-07T17:04:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_12__semax.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"$30.00"
+[/QUOTE]
+
+[CLAIM] skus[aod-9604-5mg].list_price
+[URL] https://arcanepeptides.com/product/aod-9604/
+[FETCHED_AT] 2026-05-07T17:04:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_13__aod-9604.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"$40.00"
+[/QUOTE]
+
+[CLAIM] skus[hcg-5000iu].list_price
+[URL] https://arcanepeptides.com/product/hcg-5000iu/
+[FETCHED_AT] 2026-05-07T17:04:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_14__hcg.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"$45.00"
+[/QUOTE]
+
+[CLAIM] skus[bpc-tb-stack].list_price
+[URL] https://arcanepeptides.com/product/tbpc/
+[FETCHED_AT] 2026-05-07T17:04:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_15__bpc-tb-stack.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"$60.00"
+[/QUOTE]
+
+[CLAIM] skus[cjc-ipam-stack].list_price
+[URL] https://arcanepeptides.com/product/cjcipam/
+[FETCHED_AT] 2026-05-07T17:04:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_16__cjc-ipam-stack.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"$70.00"
+[/QUOTE]
+
+[CLAIM] skus[mt-1-10mg].list_price
+[URL] https://arcanepeptides.com/product/melanotan-i-mt-1-10mg/
+[FETCHED_AT] 2026-05-07T17:04:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_17__mt1.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"$35.00"
+[/QUOTE]
+
+[CLAIM] skus[snap-8-10mg].list_price
+[URL] https://arcanepeptides.com/product/snap8/
+[FETCHED_AT] 2026-05-07T17:04:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_18__snap8.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"$35.00"
+[/QUOTE]
+
+[CLAIM] skus[3-glp].list_price
+[URL] https://arcanepeptides.com/product/2381089-83-2/
+[FETCHED_AT] 2026-05-07T17:04:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_19__3glp.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"$95.00"
+[/QUOTE]
+
+[CLAIM] skus[klow-80mg].list_price
+[URL] https://arcanepeptides.com/product/klow/
+[FETCHED_AT] 2026-05-07T17:04:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_20__klow.md
+[LINE_RANGE] 37-39
+[QUOTE]
+"$120.00
+
+GHK-Cu (50mg) + BPC-157 (10mg) + TB-500 (10mg) + KPV (10mg)"
+[/QUOTE]
+
+[CLAIM] skus[glow-70mg].list_price
+[URL] https://arcanepeptides.com/product/glow/
+[FETCHED_AT] 2026-05-07T17:04:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_21__glow.md
+[LINE_RANGE] 35-39
+[QUOTE]
+"Out of Stock
+
+$90.00
+
+GHK-Cu (50mg) + BPC-157 (10mg) + TB-500 (10mg)"
+[/QUOTE]
+
+[CLAIM] skus[ru-58841-30ml].list_price
+[URL] https://arcanepeptides.com/product/ru58841/
+[FETCHED_AT] 2026-05-07T17:04:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_22__ru58841.md
+[LINE_RANGE] 33-37
+[QUOTE]
+"# RU-58841 5% w/v – (30mL)
+
+In Stock
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] skus[teriparatide-10mg].list_price
+[URL] https://arcanepeptides.com/product/teriparatide/
+[FETCHED_AT] 2026-05-07T17:04:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_23__teriparatide.md
+[LINE_RANGE] 37-39
+[QUOTE]
+"~~$ 60.00~~ Original price was: $60.00.$30.00Current price is: $30.00."
+[/QUOTE]
+
+[CLAIM] skus[tesamorelin-5mg].list_price
+[URL] https://arcanepeptides.com/product/tesamorelin/
+[FETCHED_AT] 2026-05-07T17:04:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_24__tesamorelin.md
+[LINE_RANGE] 35-39
+[QUOTE]
+"Out of Stock
+
+$50.00
+
+Out of stock"
+[/QUOTE]
+
+[CLAIM] skus[pp405-30ml].list_price
+[URL] https://arcanepeptides.com/product/pp405/
+[FETCHED_AT] 2026-05-07T17:05:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_25__pp405.md
+[LINE_RANGE] 33-37
+[QUOTE]
+"# PP405 (JXL-069) 0.05% w/v- 30mL
+
+Out of Stock
+
+$85.00"
+[/QUOTE]
+
+[CLAIM] skus[l-glutathione-1500mg].list_price
+[URL] https://arcanepeptides.com/product/l-glutathione/
+[FETCHED_AT] 2026-05-07T17:05:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_26__l-glutathione.md
+[LINE_RANGE] 33-37
+[QUOTE]
+"# L-Glutathione 1,500MG
+
+Out of Stock
+
+$65.00"
+[/QUOTE]
+
+[CLAIM] skus[bact-water-20ml].list_price
+[URL] https://arcanepeptides.com/product/bacteriostatic-water/
+[FETCHED_AT] 2026-05-07T17:05:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_27__bact-water.md
+[LINE_RANGE] 33-37
+[QUOTE]
+"# Bacteriostatic Water – 20mL
+
+In Stock
+
+$20.00"
+[/QUOTE]
+
+[CLAIM] skus[dapoxetine-20mg-60u].list_price
+[URL] https://arcanepeptides.com/product/dapoxetine/
+[FETCHED_AT] 2026-05-07T17:05:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_28__dapoxetine.md
+[LINE_RANGE] 33-37
+[QUOTE]
+"# Dapoxetine HCl 20mg – 60 units
+
+In Stock
+
+$35.00"
+[/QUOTE]
+
+[CLAIM] skus[emoxypine-125mg-60u].list_price
+[URL] https://arcanepeptides.com/product/emoxypine-succinate-125mg-60-units/
+[FETCHED_AT] 2026-05-07T17:05:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_29__emoxypine.md
+[LINE_RANGE] 33-37
+[QUOTE]
+"# Emoxypine Succinate 125mg – 60 units
+
+In Stock
+
+$30.00"
+[/QUOTE]
+
+[CLAIM] skus[phenibut-40g].list_price
+[URL] https://arcanepeptides.com/product/phenibut/
+[FETCHED_AT] 2026-05-07T17:05:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_30__phenibut.md
+[LINE_RANGE] 33-37
+[QUOTE]
+"# Phenibut HCl – 40G
+
+In Stock
+
+$45.00"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[INFERENCE] false
+[REASONING]
+No customer review modules, star ratings, or testimonial sections were found on any of the 38 fetched pages. The product_1__bpc-157.md page shows the full product page layout including Description, Certificates of Analysis, Properties, and Related Products sections, with no review module present. The catalog page (catalog_1.md) lists all 30 products with no aggregate ratings or review counts displayed.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://arcanepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_1__bpc-157.md
+[LINE_RANGE] 48-83
+"## Description
+
+[ ](https://arcanepeptides.com/wp-content/uploads/2026/03/Chromate_Job_33552-scaled.png)
+
+### Certificates of Analysis"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://arcanepeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:03:09Z
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/catalog_1.md
+[LINE_RANGE] 63-70
+"  * [](https://arcanepeptides.com/product/2381089-83-2/)
+
+[Add to cart](/shop/?add-to-cart=4736)
+
+[ ](https://arcanepeptides.com/product/2381089-83-2/)
+
+### [3-GLP](https://arcanepeptides.com/product/2381089-83-2/)
+
+$95.00"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[INFERENCE] false
+[REASONING]
+The homepage navigation (homepage.md lines 12-23) shows no blog, education, or research section in the top nav. The footer (homepage.md lines 182-194) links only to COA Library, Order Tracking, FAQs, Contact Us, Terms of Service, and Refunds & Returns. No blog URLs appeared in any of the 38 fetched pages.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://arcanepeptides.com/
+[FETCHED_AT] 2026-05-07T17:02:51Z
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/homepage.md
+[LINE_RANGE] 182-194
+"### Support
+
+  * [ COA Library  ](/lab-results/)
+  * [ Order Tracking ](/order-tracking/)
+  * [ FAQs ](https://arcanepeptides.com/faqs/)
+  * [ Contact Us ](/contact-us/)
+
+
+
+### Company
+
+  * [ Terms of Service ](/terms-of-service)
+  * [ Refunds & Returns ](/shipping-refunds-returns-policy/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://arcanepeptides.com/
+[FETCHED_AT] 2026-05-07T17:02:51Z
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/homepage.md
+[LINE_RANGE] 12-23
+"  * [Home](/)
+  * [Shop __](https://arcanepeptides.com/shop/)
+    * Categories __
+      * [Peptides](https://arcanepeptides.com/shop/?product-cato=66)
+      * [Liquids](https://arcanepeptides.com/shop/?product-cato=68)
+      * [Powders](https://arcanepeptides.com/shop/?product-cato=96)
+    * [Top Products](https://arcanepeptides.com/shop/?orderby=popularity)
+    * [New Arrivals](https://arcanepeptides.com/shop/?orderby=date)
+  * [FAQs](https://arcanepeptides.com/faqs/)
+  * [COA Library](https://arcanepeptides.com/lab-results/)
+  * [Order Tracking](https://arcanepeptides.com/order-tracking/)
+  * [Contact Us](https://arcanepeptides.com/contact-us/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://arcanepeptides.com/lab-results/
+[FETCHED_AT] 2026-05-07T17:05:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/coa_1.md
+[LINE_RANGE] 39-88
+[QUOTE]
+"##  [ 3-GLP ](https://arcanepeptides.com/product/2381089-83-2/)
+
+[View COA History](https://arcanepeptides.com/certificate/3-glp-10mg/)
+
+Current Lots
+
+[ RT1002 Current ](https://arcanepeptides.com/wp-content/uploads/2026/03/5b4af71c-5108-48d9-8128-8cea784fba82.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://arcanepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/product_1__bpc-157.md
+[LINE_RANGE] 33-33
+[QUOTE]
+"[](https://arcanepeptides.com/wp-content/uploads/2025/09/bpc.png)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://arcanepeptides.com/faqs/
+[FETCHED_AT] 2026-05-07T17:08:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/faqs.md
+[LINE_RANGE] 199-210
+[QUOTE]
+"**Stolen Packages:** Arcane Peptides is not responsible for stolen packages. For full coverage, purchase **shipping insurance**.
+
+**Lost Packages (Stuck in Transit):** Arcane Peptides is not responsible for packages lost by carriers. Contact the carrier directly to locate your package. For full coverage, purchase **shipping insurance**."
+[/QUOTE]
+
+[CLAIM] faqs.product_testing_methodology
+[URL] https://arcanepeptides.com/faqs/
+[FETCHED_AT] 2026-05-07T17:08:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/arcane-peptides/faqs.md
+[LINE_RANGE] 48-54
+[QUOTE]
+"We verify every batch of every product through accredited, independent third-party laboratories. Since each product requires unique analytical methods and equipment, we collaborate with specialized laboratories and PhDs in analytical and organic chemistry to design our testing protocols.
+
+Analytical techniques we utilize include: **NMR, FTIR, HPLC, LC-MS, GC-MS, TLC, ICP-MS, Gravimetry, UV-Vis, Titration, Melting Point, and Organoleptics.**
+We primarily test for **purity, content, sterility, and endotoxins (LPS).**"
+[/QUOTE]

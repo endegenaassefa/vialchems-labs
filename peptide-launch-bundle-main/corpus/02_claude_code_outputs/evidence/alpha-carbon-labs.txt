@@ -1,0 +1,1377 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://alphacarbonlabs.com/
+[FETCHED_AT] 2026-05-07T04:25:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/homepage.md
+[LINE_RANGE] 41-45
+[QUOTE]
+"Buy PremiumResearch Peptides
+
+Access laboratory-grade peptides with verified purity standards. Every compound is rigorously tested and documented for scientific excellence."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://alphacarbonlabs.com/
+[FETCHED_AT] 2026-05-07T04:25:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/homepage.md
+[LINE_RANGE] 45-46
+[QUOTE]
+"[Explore Catalog](/all-peptides)[Research Articles](/blog)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://alphacarbonlabs.com/
+[FETCHED_AT] 2026-05-07T04:25:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/homepage.md
+[LINE_RANGE] 528
+[QUOTE]
+"© 2026 Alpha Carbon Labs™. All rights reserved. Products are for research use only."
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://alphacarbonlabs.com/
+[FETCHED_AT] 2026-05-07T04:25:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/homepage.md
+[LINE_RANGE] 13-33
+[QUOTE]
+"≥99% Purity Verified by Third-Party Labs
+
+Free Shipping on Orders Over $100
+
+HPLC & Mass Spec 2X Tested
+
+Same Day Shipping on Orders Before 2PM EST"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://alphacarbonlabs.com/
+[FETCHED_AT] 2026-05-07T04:25:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/homepage.md
+[LINE_RANGE] 36-50
+[QUOTE]
+"Premium Research Peptides
+
+Lab-Tested & Third Party Verified
+
+# Buy PremiumResearch Peptides
+
+Access laboratory-grade peptides with verified purity standards. Every compound is rigorously tested and documented for scientific excellence."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://alphacarbonlabs.com/return-policy
+[FETCHED_AT] 2026-05-07T16:59:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/refund.md
+[LINE_RANGE] 86-91
+[QUOTE]
+"Alpha Carbon Labs
+1221 Brickell Center
+Suite 900
+Miami, FL 33131"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://alphacarbonlabs.com/shipping-info
+[FETCHED_AT] 2026-05-07T16:59:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/shipping.md
+[LINE_RANGE] 44-52
+[QUOTE]
+"### Domestic Shipping (USA)
+
+  * **Standard Shipping:** 5-7 business days - $9.99
+  * **Express Shipping:** 2-3 business days - $24.99
+  * **Overnight Shipping:** 1 business day - $39.99"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://alphacarbonlabs.com/shipping-info
+[FETCHED_AT] 2026-05-07T16:59:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/shipping.md
+[LINE_RANGE] 40-41
+[QUOTE]
+"Fast, secure, and reliable shipping for your research peptides worldwide."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 47
+[QUOTE]
+"57 productsAll Products"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 43
+[QUOTE]
+"AllAnti-AgingAnti-InflammatoryAntioxidantsCosmeticGHRH AnalogsGHRPGLP-1 AgonistsGrowth FactorsGrowth HormoneGuidesHealingImmune SystemMelanotropinsMetabolicMetabolismMitochondrialMuscle GrowthNeurologicalNootropicsRecoveryReproductiveResearch CompoundsSleep RegulationTissue Protection"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 127-161
+[QUOTE]
+"### [BPC-157 + TB-500 + GHK-Cu + KPV-10 KLOW ](/product/bpc-157-tb-500-ghk-cu-kpv-10-klow-blend)
+
+$149
+
+80⁠mg10⁠mg/10⁠mg/50⁠mg/10⁠mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://alphacarbonlabs.com/product/semaglutide
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_3__semaglutide.md
+[LINE_RANGE] 41-77
+[QUOTE]
+"Rated 4.6/5 by 36 verified customers
+
+New
+
+Popular
+
+Select Size
+
+10mg30mg
+
+### 10mg
+
+$60
+
+In Stock
+
+Add to Cart"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://alphacarbonlabs.com/product/semaglutide
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_3__semaglutide.md
+[LINE_RANGE] 51-67
+[QUOTE]
+"### 10mg
+
+$60
+
+In Stock
+
+Add to Cart
+
+Ships Today if ordered within 8 hrs 27 min.
+
+Bulk Discounts
+
+Buy 3+ for $57.00 each and save 5%
+
+Buy 5+ for $54.00 each and save 10%
+
+Buy 10+ for $51.00 each and save 15%"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://alphacarbonlabs.com/product/semaglutide
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_3__semaglutide.md
+[LINE_RANGE] 97-103
+[QUOTE]
+"Semaglutide is a glucagon-like peptide-1 (GLP-1) receptor agonist that represents a breakthrough in metabolic medicine. As a synthetic peptide analog of human GLP-1, it mimics the action of this naturally occurring incretin hormone but with significantly enhanced stability and duration of action."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://alphacarbonlabs.com/product/semaglutide
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_3__semaglutide.md
+[LINE_RANGE] 543-545
+[QUOTE]
+"This product is intended for research purposes only and is not for human consumption, therapeutic use, or diagnostic applications. Please ensure compliance with all applicable regulations and institutional guidelines."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://alphacarbonlabs.com/product/semaglutide
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_3__semaglutide.md
+[LINE_RANGE] 69-72
+[QUOTE]
+"Certificate of Analysis
+
+Third-party verified • 99.466% purity
+
+View COA"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://alphacarbonlabs.com/coa-documents
+[FETCHED_AT] 2026-05-07T16:59:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/coa_1.md
+[LINE_RANGE] 41-42
+[QUOTE]
+"Third-party verified test reports for our peptide products. Janoshik tests can be verified at [janoshik.com/verify](https://www.janoshik.com/verify/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://alphacarbonlabs.com/coa-documents
+[FETCHED_AT] 2026-05-07T16:59:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/coa_1.md
+[LINE_RANGE] 94-98
+[QUOTE]
+"All Alpha Carbon Labs peptides undergo rigorous third-party testing by Janoshik Analytical, an independent laboratory specializing in peptide analysis. Each COA includes HPLC purity testing and mass spectrometry verification. You can verify any test report using the unique verification key at janoshik.com/verify."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://alphacarbonlabs.com/coa-documents
+[FETCHED_AT] 2026-05-07T16:59:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/coa_1.md
+[LINE_RANGE] 44-93
+[QUOTE]
+"### BPC-157 5mg
+
+Purity: 99.023% • Janoshik • ID: CRG1TWDBLS2B
+
+### NAD+ 100mg
+
+Blend - See report for details • Janoshik • ID: B98AEP3CLYTP"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://alphacarbonlabs.com/product/semaglutide
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_3__semaglutide.md
+[LINE_RANGE] 229-254
+[QUOTE]
+"### Customer Reviews
+
+4.6
+
+Based on 36 reviews
+
+5 star
+
+23
+
+4 star
+
+10
+
+3 star
+
+3"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://alphacarbonlabs.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T16:59:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_1__bpc-157.md
+[LINE_RANGE] 53-56
+[QUOTE]
+"Available alternatives in stock:
+
+[BPC-157 + TB-500](/product/bpc-157-tb-500-blend)[BPC-157 + TB-500 + GHK-Cu GLOW](/product/bpc-157-tb-500-ghk-cu-glow-blend)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://alphacarbonlabs.com/terms-of-service
+[FETCHED_AT] 2026-05-07T06:31:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/tos.md
+[LINE_RANGE] 47-58
+[QUOTE]
+"All peptides and related products sold by Alpha Carbon Labs are intended strictly for laboratory research purposes only. Our products are NOT intended for:
+
+  * Human consumption or administration
+  * Veterinary use
+  * Clinical trials without proper authorization
+  * Any diagnostic or therapeutic purposes
+  * Food or drug manufacturing"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://alphacarbonlabs.com/terms-of-service
+[FETCHED_AT] 2026-05-07T06:31:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/tos.md
+[LINE_RANGE] 63-70
+[QUOTE]
+"To purchase from Alpha Carbon Labs, you must:
+
+  * Be at least 18 years of age
+  * Be affiliated with a recognized research institution, laboratory, or organization"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://alphacarbonlabs.com/shipping-info
+[FETCHED_AT] 2026-05-07T16:59:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/shipping.md
+[LINE_RANGE] 88-91
+[QUOTE]
+"Due to regulatory requirements, we are unable to ship to certain locations. Please verify your location's regulations regarding research peptides before placing an order."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://alphacarbonlabs.com/
+[FETCHED_AT] 2026-05-07T04:25:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/homepage.md
+[LINE_RANGE] 521
+[QUOTE]
+"[Terms of Service](/terms-of-service)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://alphacarbonlabs.com/terms-of-service
+[FETCHED_AT] 2026-05-07T06:31:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/tos.md
+[LINE_RANGE] 93-100
+[QUOTE]
+"Due to the specialized nature of our research products and strict quality control requirements:
+
+  * Returns are only accepted for unopened, unused products within 30 days of delivery
+  * Products must be returned in original packaging with intact seals
+  * Damaged or defective products must be reported within 48 hours of receipt
+  * Refunds will be processed to the original payment method within 10 business days
+  * Return shipping costs are the responsibility of the customer unless the return is due to our error"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://alphacarbonlabs.com/return-policy
+[FETCHED_AT] 2026-05-07T16:59:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/refund.md
+[LINE_RANGE] 44-68
+[QUOTE]
+"We accept returns and exchanges within **15 days** of the date you receive your order."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://alphacarbonlabs.com/shipping-info
+[FETCHED_AT] 2026-05-07T16:59:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/shipping.md
+[LINE_RANGE] 44-87
+[QUOTE]
+"### Domestic Shipping (USA)
+
+  * **Standard Shipping:** 5-7 business days - $9.99
+  * **Express Shipping:** 2-3 business days - $24.99
+  * **Overnight Shipping:** 1 business day - $39.99"
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://alphacarbonlabs.com/checkout
+[FETCHED_AT] 2026-05-07T17:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/checkout_step_1.md
+[LINE_RANGE] 20-24
+[QUOTE]
+"# Your cart is empty
+
+Add some products to continue with checkout"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://alphacarbonlabs.com/shipping-info
+[FETCHED_AT] 2026-05-07T16:59:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/shipping.md
+[LINE_RANGE] 83-87
+[QUOTE]
+"Enjoy **free standard domestic shipping** on all orders over $100 within the United States."
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://alphacarbonlabs.com/terms-of-service
+[FETCHED_AT] 2026-05-07T06:31:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/tos.md
+[LINE_RANGE] 63-75
+[QUOTE]
+"To purchase from Alpha Carbon Labs, you must:
+
+  * Be at least 18 years of age
+  * Be affiliated with a recognized research institution, laboratory, or organization
+  * Provide accurate and complete registration information
+  * Maintain the security of your account credentials
+  * Comply with all applicable local, state, and federal regulations"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://alphacarbonlabs.com/shipping-info
+[FETCHED_AT] 2026-05-07T16:59:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/shipping.md
+[LINE_RANGE] 39-41
+[QUOTE]
+"Fast, secure, and reliable shipping for your research peptides worldwide."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://alphacarbonlabs.com/
+[FETCHED_AT] 2026-05-07T16:58:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/source_homepage.md
+[LINE_RANGE] 13-17
+[QUOTE]
+"x-lovablehtml-render-cache: hit
+x-lovablehtml-snapshot-key: v1/alphacarbonlabs.lovable.app/root_cb383e93b10b688a_2026-05-07T093146899Z.html"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://alphacarbonlabs.com/
+[FETCHED_AT] 2026-05-07T16:58:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/source_homepage.md
+[LINE_RANGE] 8
+[QUOTE]
+"cf-ray: 9f81c507de1038b3-IAD"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://alphacarbonlabs.com/
+[FETCHED_AT] 2026-05-07T16:58:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/source_homepage.md
+[LINE_RANGE] 25-27
+[QUOTE]
+"<script defer src=/~flock.js></script>
+flock.js uses Tinybird for analytics (window.Tinybird={trackEvent:v})"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://alphacarbonlabs.com/
+[FETCHED_AT] 2026-05-07T16:58:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/source_homepage.md
+[LINE_RANGE] 28
+[QUOTE]
+"No Google Analytics / GTM / Facebook Pixel / TikTok Pixel found in source"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://alphacarbonlabs.com/
+[FETCHED_AT] 2026-05-07T04:25:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/homepage.md
+[LINE_RANGE] 11
+[QUOTE]
+"Message us"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://alphacarbonlabs.com/
+[FETCHED_AT] 2026-05-07T04:25:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/homepage.md
+[LINE_RANGE] 33
+[QUOTE]
+"[All Peptides](/all-peptides)[Peptide Research](/blog)[Peptide Synthesis Services](/peptide-synthesis)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://alphacarbonlabs.com/blog
+[FETCHED_AT] 2026-05-07T16:59:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/blog_1.md
+[LINE_RANGE] 1-7
+[QUOTE]
+"---
+url: https://alphacarbonlabs.com/blog
+fetched_at: 2026-05-07T16:59:22Z
+fetch_method: curl
+http_status: 200"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://alphacarbonlabs.com/blog
+[FETCHED_AT] 2026-05-07T16:59:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/blog_1.md
+[LINE_RANGE] 47
+[QUOTE]
+"217 Posts"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://alphacarbonlabs.com/blog/the-physics-of-solubility-mastering-ph-adjustments-and-solvent-gradients-in-research-peptide-reconstitution
+[FETCHED_AT] 2026-05-07T17:01:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/blog_2.md
+[LINE_RANGE] 54
+[QUOTE]
+"Alpha Carbon Labs Research Team"
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://alphacarbonlabs.com/blog/the-physics-of-solubility-mastering-ph-adjustments-and-solvent-gradients-in-research-peptide-reconstitution
+[FETCHED_AT] 2026-05-07T17:01:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/blog_2.md
+[LINE_RANGE] 76-78
+[QUOTE]
+"While favorites like [BPC-157](/product/bpc-157) and [Semaglutide](/product/semaglutide) are famous for dissolving instantly"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://alphacarbonlabs.com/product/semaglutide
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_3__semaglutide.md
+[LINE_RANGE] 255-262
+[QUOTE]
+"Christina L.Verified Purchase
+
+4 days ago
+
+#### Great value and quick shipping
+
+The price is honestly unbeatable and it got to my door in just two days."
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://alphacarbonlabs.com/product/retatrutide
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_4__retatrutide.md
+[LINE_RANGE] 41
+[QUOTE]
+"Rated 4.8/5 by 77 verified customers"
+[/QUOTE]
+
+[CLAIM] skus.bpc-157-5mg.list_price_usd
+[URL] https://alphacarbonlabs.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T16:59:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_1__bpc-157.md
+[LINE_RANGE] 45-51
+[QUOTE]
+"### 5MG
+
+$45
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-tb500-price
+[URL] https://alphacarbonlabs.com/product/tb-500
+[FETCHED_AT] 2026-05-07T16:59:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_2__tb-500.md
+[LINE_RANGE] 43-59
+[QUOTE]
+"### 10MG
+
+$115
+
+In Stock
+
+Only 2 left
+
+Add to Cart"
+[/QUOTE]
+
+[CLAIM] claim-semaglutide-price
+[URL] https://alphacarbonlabs.com/product/semaglutide
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_3__semaglutide.md
+[LINE_RANGE] 51-55
+[QUOTE]
+"### 10mg
+
+$60
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-retatrutide-price
+[URL] https://alphacarbonlabs.com/product/retatrutide
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_4__retatrutide.md
+[LINE_RANGE] 51-55
+[QUOTE]
+"### 20mg
+
+$160
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-tirzepatide-price
+[URL] https://alphacarbonlabs.com/product/tirzepatide
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_5__tirzepatide.md
+[LINE_RANGE] 45-51
+[QUOTE]
+"### 5MG
+
+$55
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-ghkcu-price
+[URL] https://alphacarbonlabs.com/product/ghk-cu
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_6__ghk-cu.md
+[LINE_RANGE] 49-53
+[QUOTE]
+"### 50MG
+
+$50
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-ipamorelin-price
+[URL] https://alphacarbonlabs.com/product/ipamorelin
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_7__ipamorelin.md
+[LINE_RANGE] 45-51
+[QUOTE]
+"### 5MG
+
+$40
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-cjc1295-price
+[URL] https://alphacarbonlabs.com/product/cjc-1295
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_8__cjc-1295.md
+[LINE_RANGE] 45-51
+[QUOTE]
+"### 2MG
+
+$40
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-epithalon-price
+[URL] https://alphacarbonlabs.com/product/epithalon
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_9__epithalon.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 10MG
+
+$50
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-selank-price
+[URL] https://alphacarbonlabs.com/product/selank
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_10__selank.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 5MG
+
+$44
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-semax-price
+[URL] https://alphacarbonlabs.com/product/semax
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_11__semax.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 5MG
+
+$48
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-pt141-price
+[URL] https://alphacarbonlabs.com/product/pt-141
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_12__pt-141.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 10MG
+
+$60
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-motsc-price
+[URL] https://alphacarbonlabs.com/product/mots-c
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_13__mots-c.md
+[LINE_RANGE] 45-51
+[QUOTE]
+"### 10MG
+
+$60
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-nad-price
+[URL] https://alphacarbonlabs.com/product/nad
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_14__nad.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 500MG
+
+$115
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-bpctb500-price
+[URL] https://alphacarbonlabs.com/product/bpc-157-tb-500-blend
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_15__bpc-157-tb-500-blend.md
+[LINE_RANGE] 47-57
+[QUOTE]
+"$89.99
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-melanotan2-price
+[URL] https://alphacarbonlabs.com/product/melanotan-ii
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_16__melanotan-ii.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 10MG
+
+$50
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-kpv-price
+[URL] https://alphacarbonlabs.com/product/kpv
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_17__kpv.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 5MG
+
+$55
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-thymosinA1-price
+[URL] https://alphacarbonlabs.com/product/thymosin-alpha-1
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_18__thymosin-alpha-1.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 10MG
+
+$135
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-cerebrolysin-price
+[URL] https://alphacarbonlabs.com/product/cerebrolysin
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_19__cerebrolysin.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 60MG
+
+$110
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-ss31-price
+[URL] https://alphacarbonlabs.com/product/ss-31
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_20__ss-31.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 10MG
+
+$80
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-aicar-price
+[URL] https://alphacarbonlabs.com/product/aicar
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_21__aicar.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 50MG
+
+$55
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-dsip-price
+[URL] https://alphacarbonlabs.com/product/dsip
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_22__dsip.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 5MG
+
+$50
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-oxytocin-price
+[URL] https://alphacarbonlabs.com/product/oxytocin
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_23__oxytocin.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 2MG
+
+$30
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-sermorelin-price
+[URL] https://alphacarbonlabs.com/product/sermorelin
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_24__sermorelin.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 5MG
+
+$45
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-slupppp332-price
+[URL] https://alphacarbonlabs.com/product/slu-pp-332
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_25__slu-pp-332.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 5mg
+
+$89
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-5amino1mq-price
+[URL] https://alphacarbonlabs.com/product/5-amino-1mq
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_26__5-amino-1mq.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 5MG
+
+$40
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-glowblend-price
+[URL] https://alphacarbonlabs.com/product/bpc-157-tb-500-ghk-cu-glow-blend
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_27__bpc-157-tb-500-ghk-cu-glow-blend.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"$129
+
+In Stock"
+[/QUOTE]
+
+[CLAIM] claim-klowblend-price
+[URL] https://alphacarbonlabs.com/product/bpc-157-tb-500-ghk-cu-kpv-10-klow-blend
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_28__bpc-157-tb-500-ghk-cu-kpv-10-klow-blend.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"$149
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-ll37-price
+[URL] https://alphacarbonlabs.com/product/ll-37
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_29__ll-37.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 5MG
+
+$75
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-igf1lr3-price
+[URL] https://alphacarbonlabs.com/product/igf-1lr3
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_30__igf-1lr3.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 1MG
+
+$135
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-ghrp2-price
+[URL] https://alphacarbonlabs.com/product/ghrp-2
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_31__ghrp-2.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 5MG
+
+$50
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-ghrp6-price
+[URL] https://alphacarbonlabs.com/product/ghrp-6
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_32__ghrp-6.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 5MG
+
+$50
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-aod9604-price
+[URL] https://alphacarbonlabs.com/product/aod9604
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_33__aod9604.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 5MG
+
+$80
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-dihexa-price
+[URL] https://alphacarbonlabs.com/product/dihexa
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_34__dihexa.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 5mg
+
+$40
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-mk677-price
+[URL] https://alphacarbonlabs.com/product/mk-677-ibutamoren
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_35__mk-677-ibutamoren.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 10MG
+
+$50
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-mgf-price
+[URL] https://alphacarbonlabs.com/product/mgf
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_36__mgf.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 2MG
+
+$39
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-pegmgf-price
+[URL] https://alphacarbonlabs.com/product/peg-mgf
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_37__peg-mgf.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 2MG
+
+$66
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-cagrilintide-price
+[URL] https://alphacarbonlabs.com/product/cagrilintide
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_38__cagrilintide.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 5MG
+
+$90
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-mazdutide-price
+[URL] https://alphacarbonlabs.com/product/mazdutide
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_39__mazdutide.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 5MG
+
+$90
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-survodutide-price
+[URL] https://alphacarbonlabs.com/product/survodutide
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_40__survodutide.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 2MG
+
+$90
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-hexarelin-price
+[URL] https://alphacarbonlabs.com/product/hexarelin
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_41__hexarelin.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 2MG
+
+$50
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-hghfragment-price
+[URL] https://alphacarbonlabs.com/product/hgh-fragment-176-191
+[FETCHED_AT] 2026-05-07T16:59:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_42__hgh-fragment-176-191.md
+[LINE_RANGE] 45-55
+[QUOTE]
+"### 2MG
+
+$49
+
+Sold Out"
+[/QUOTE]
+
+[CLAIM] claim-glutathione-price
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 215-224
+[QUOTE]
+"### [Glutathione ](/product/glutathione)
+
+$80
+
+1500⁠MG"
+[/QUOTE]
+
+[CLAIM] claim-ace031-price
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 387-396
+[QUOTE]
+"### [ACE-031 ](/product/ace-031)
+
+$175
+
+1⁠MG"
+[/QUOTE]
+
+[CLAIM] claim-adipotide-price
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 398-407
+[QUOTE]
+"### [Adipotide ](/product/adipotide)
+
+$70
+
+2⁠MG"
+[/QUOTE]
+
+[CLAIM] claim-ara290-price
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 418-427
+[QUOTE]
+"### [ARA-290 ](/product/ara-290)
+
+$59
+
+10⁠MG"
+[/QUOTE]
+
+[CLAIM] claim-botulinum-price
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 428-437
+[QUOTE]
+"### [Botulinum Toxin ](/product/botulinum-toxin)
+
+$110
+
+100⁠IU"
+[/QUOTE]
+
+[CLAIM] claim-gonadorelin-price
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 485-494
+[QUOTE]
+"### [Gonadorelin ](/product/gonadorelin)
+
+$50
+
+2⁠mg"
+[/QUOTE]
+
+[CLAIM] claim-hcg-price
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 495-504
+[QUOTE]
+"### [HCG ](/product/hcg)
+
+$50
+
+2000⁠IU"
+[/QUOTE]
+
+[CLAIM] claim-hmg-price
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 525-534
+[QUOTE]
+"### [HMG ](/product/hmg)
+
+$55
+
+75⁠IU"
+[/QUOTE]
+
+[CLAIM] claim-igfdes-price
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 545-554
+[QUOTE]
+"### [IGF-DES ](/product/igf-des)
+
+$50
+
+2⁠MG"
+[/QUOTE]
+
+[CLAIM] claim-kisspeptin-price
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 555-564
+[QUOTE]
+"### [KissPeptin-10 ](/product/kisspeptin-10)
+
+$55
+
+5⁠MG"
+[/QUOTE]
+
+[CLAIM] claim-melatonin-price
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 585-594
+[QUOTE]
+"### [Melatonin ](/product/melatonin)
+
+$52
+
+10⁠MG"
+[/QUOTE]
+
+[CLAIM] claim-mt1-price
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 615-624
+[QUOTE]
+"### [MT-1 ](/product/mt-1)
+
+$60
+
+10⁠MG"
+[/QUOTE]
+
+[CLAIM] claim-snap8-price
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 639-648
+[QUOTE]
+"### [Snap-8 ](/product/snap-8)
+
+$49
+
+10⁠MG"
+[/QUOTE]
+
+[CLAIM] claim-thymalin-price
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 663-672
+[QUOTE]
+"### [Thymalin ](/product/thymalin)
+
+$55
+
+10⁠MG"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://alphacarbonlabs.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T16:59:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/product_1__bpc-157.md
+[LINE_RANGE] 65-76
+[QUOTE]
+"This product is for research purposes only. Not for human consumption.
+
+Purity: ≥99% (HPLC verified)
+
+Formulation: Lyophilized powder
+
+Molecular Formula: C62H98N16O22
+
+Molecular Weight: 1419.5 g/mol
+
+CAS Number: 137525-51-0
+
+PubChem CID: 9941957"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://alphacarbonlabs.com/all-peptides
+[FETCHED_AT] 2026-05-07T06:31:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/alpha-carbon-labs/catalog_1.md
+[LINE_RANGE] 43
+[QUOTE]
+"AllAnti-AgingAnti-InflammatoryAntioxidantsCosmeticGHRH AnalogsGHRPGLP-1 AgonistsGrowth FactorsGrowth HormoneGuidesHealingImmune SystemMelanotropinsMetabolicMetabolismMitochondrialMuscle GrowthNeurologicalNootropicsRecoveryReproductiveResearch CompoundsSleep RegulationTissue Protection"
+[/QUOTE]

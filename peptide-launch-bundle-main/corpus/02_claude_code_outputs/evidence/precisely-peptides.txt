@@ -1,0 +1,402 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://preciselypeptides.com
+[FETCHED_AT] 2026-05-08T06:33:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/homepage.md
+[LINE_RANGE] 46-49
+[QUOTE]
+"Relentless Precision.
+Intelligent Value.
+
+Our everyday price is ~50% less than their sale price"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://preciselypeptides.com
+[FETCHED_AT] 2026-05-08T06:33:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/homepage.md
+[LINE_RANGE] 63-65
+[QUOTE]
+"Create Account Sign In"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://preciselypeptides.com
+[FETCHED_AT] 2026-05-08T06:33:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/homepage.md
+[LINE_RANGE] 18-24
+[QUOTE]
+"* [Home](https://www.preciselypeptides.com/)
+  * [Shop](https://www.preciselypeptides.com/shop/)
+  * [FAQ](https://www.preciselypeptides.com/faq/)
+  * [Contact Us](https://www.preciselypeptides.com/contact/)
+  * SEARCH
+
+  * [My account](https://www.preciselypeptides.com/my-account/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://preciselypeptides.com
+[FETCHED_AT] 2026-05-08T06:33:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/homepage.md
+[LINE_RANGE] 96-99
+[QUOTE]
+"All products are intended exclusively for **in-vitro laboratory research**. Not for human consumption, veterinary use, or therapeutic application. Not evaluated by the FDA.
+
+© 2026 Precisely Peptides. All rights reserved. All products are for research use only. Not for human consumption."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage hero text emphasizes "Precision," "COA Verified Every Batch," "High Purity Verified," and "Independent third-party lab testing." The registration form describes purchasers as "qualified researcher[s]." No lifestyle, meme-coded, or anonymous imagery language is present. The tone is clinical and research-focused.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://preciselypeptides.com
+[FETCHED_AT] 2026-05-08T06:33:38Z
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/homepage.md
+[LINE_RANGE] 51-60
+"WHY RESEARCHERS CHOOSE US
+
+**COA Verified Every Batch** Independent third-party lab testing with publicly viewable certificates of analysis
+
+**Ships Within 24 Hours** Fast domestic fulfillment with tracking on every order
+
+**High Purity Verified** High Purity Verified and tested with Certificate of Analysis documenting purity
+
+**Dedicated Support** Expert team available 7 days a week"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://preciselypeptides.com
+[FETCHED_AT] 2026-05-08T06:33:38Z
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/homepage.md
+[LINE_RANGE] 83-86
+"I confirm I am at least 18 years of age and a qualified researcher. All products are strictly for legitimate in-vitro research purposes only and are not for human consumption. I have read and agree to the [Research Use Agreement](/research-use-disclaimer/)."
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://preciselypeptides.com
+[FETCHED_AT] 2026-05-08T06:33:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/homepage.md
+[LINE_RANGE] 136
+[QUOTE]
+"**1667 South 1800 West Suite 2, Woods Cross, 84087 UT**"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.preciselypeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:36:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/tos.md
+[LINE_RANGE] 76
+[QUOTE]
+"We ship within the United States only."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.preciselypeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:36:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/tos.md
+[LINE_RANGE] 76
+[QUOTE]
+"We ship within the United States only."
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.preciselypeptides.com/research-use-disclaimer/
+[FETCHED_AT] 2026-05-08T06:36:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/research_use_disclaimer.md
+[LINE_RANGE] 62-63
+[QUOTE]
+"All products sold by Precisely Peptides are strictly for legitimate in-vitro laboratory research purposes only. Products are not intended for human consumption, veterinary use, therapeutic application, or any clinical or diagnostic purpose."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://preciselypeptides.com
+[FETCHED_AT] 2026-05-08T06:33:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/homepage.md
+[LINE_RANGE] 83-86
+[QUOTE]
+"I confirm I am at least 18 years of age and a qualified researcher. All products are strictly for legitimate in-vitro research purposes only and are not for human consumption. I have read and agree to the [Research Use Agreement](/research-use-disclaimer/)."
+[/QUOTE]
+
+[URL] https://www.preciselypeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:36:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/tos.md
+[LINE_RANGE] 64
+[QUOTE]
+"You must be at least 18 years of age to access this website, create an account, or purchase products."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.preciselypeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:36:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/tos.md
+[LINE_RANGE] 104
+[QUOTE]
+These Terms shall be governed by and construed in accordance with the laws of the State of Wyoming, without regard to its conflict of law provisions. Any dispute arising out of or in connection with these Terms shall be resolved exclusively in the state or federal courts located in Wyoming.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://preciselypeptides.com
+[FETCHED_AT] 2026-05-08T06:33:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/homepage.md
+[LINE_RANGE] 121
+[QUOTE]
+"[Terms of Service](https://www.preciselypeptides.com/terms-of-service/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.preciselypeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:36:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/tos.md
+[LINE_RANGE] 54-68
+[QUOTE]
+"**CRITICAL NOTICE:** Products sold by Precisely Peptides are NOT intended for human consumption, veterinary use, therapeutic application, diagnostic use, or any clinical purpose. Products are not drugs, dietary supplements, food additives, or cosmetics. Products have not been evaluated, approved, or cleared by the U.S. Food and Drug Administration (FDA) or any other regulatory agency for safety or efficacy."
+[/QUOTE]
+
+[URL] https://www.preciselypeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:36:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/tos.md
+[LINE_RANGE] 104
+[QUOTE]
+"These Terms shall be governed by and construed in accordance with the laws of the State of Wyoming, without regard to its conflict of law provisions."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.preciselypeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:36:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/tos.md
+[LINE_RANGE] 76
+[QUOTE]
+"We ship within the United States only. Orders are typically processed and shipped within 48 hours of payment confirmation."
+[/QUOTE]
+
+[URL] https://www.preciselypeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:36:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/tos.md
+[LINE_RANGE] 122
+[QUOTE]
+"**Free shipping** on orders $300+"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.preciselypeptides.com/research-use-disclaimer/
+[FETCHED_AT] 2026-05-08T06:36:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/research_use_disclaimer.md
+[LINE_RANGE] 52-58
+[QUOTE]
+"All products sold by Precisely Peptides are intended exclusively for legitimate in-vitro scientific research purposes by qualified researchers aged 18 and older.
+
+These products are NOT intended for:
+• Human consumption or ingestion
+• Veterinary use or animal testing without appropriate approvals
+• Therapeutic, diagnostic, or medicinal application
+• Any use other than qualified laboratory research"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://preciselypeptides.com
+[FETCHED_AT] 2026-05-08T06:33:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/homepage.md
+[LINE_RANGE] 53
+[QUOTE]
+"**COA Verified Every Batch** Independent third-party lab testing with publicly viewable certificates of analysis"
+[/QUOTE]
+
+[URL] https://www.preciselypeptides.com/research-use-disclaimer/
+[FETCHED_AT] 2026-05-08T06:36:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/research_use_disclaimer.md
+[LINE_RANGE] 88
+[QUOTE]
+"All products sold by Precisely Peptides are accompanied by a Certificate of Analysis (COA) documenting identity, purity, and quality testing results for each production lot. COAs are generated by independent third-party analytical laboratories using accepted methods such as HPLC (High-Performance Liquid Chromatography) and Mass Spectrometry (MS)."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://preciselypeptides.com
+[FETCHED_AT] 2026-05-08T06:33:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/homepage.md
+[LINE_RANGE] 63-65
+[QUOTE]
+"Already have an account? Use the Sign In tab.
+
+Create Account Sign In"
+[/QUOTE]
+
+[URL] https://www.preciselypeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:36:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/tos.md
+[LINE_RANGE] 68
+[QUOTE]
+"To purchase products, you must create an account and agree to the Research Agreement presented during registration."
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://preciselypeptides.com
+[FETCHED_AT] 2026-05-08T06:33:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/homepage.md
+[LINE_RANGE] 63-65
+[QUOTE]
+"Already have an account? Use the Sign In tab.
+
+Create Account Sign In"
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://preciselypeptides.com
+[FETCHED_AT] 2026-05-08T06:33:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/homepage.md
+[LINE_RANGE] 83-86
+[QUOTE]
+By creating an account you agree to our [Terms & Conditions](/terms-of-service) and [Privacy Policy](/privacy-policy). For laboratory research use only.
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://www.preciselypeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:36:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/tos.md
+[LINE_RANGE] 64-65
+[QUOTE]
+"You must be at least 18 years of age to access this website, create an account, or purchase products. By using this website, you represent and warrant that you are at least 18 years old and have the legal capacity to enter into a binding agreement. You further represent that you are a qualified researcher affiliated with or conducting legitimate scientific research. We reserve the right to request verification of age, identity, or institutional affiliation at any time."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.preciselypeptides.com/
+[FETCHED_AT] 2026-05-08T06:36:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/source_homepage.md
+[LINE_RANGE] 1211
+[QUOTE]
+var card2cryptogatewayData = [{"id":"card2crypto-instant-payment-gateway-stripe","label":"Pay Securely with Credit CardComplete your payment"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.preciselypeptides.com/loyalty/
+[FETCHED_AT] 2026-05-08T06:38:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/loyalty.md
+[LINE_RANGE] 79-127
+[QUOTE]
+"### Member
+
+Starting tier
+
+1×earning rate
+
+  * Free shipping$300+ cart
+
+### Researcher
+
+250+ lifetime points
+
+1.25×earning rate
+
+  * Free shipping$150+ cart
+
+### Senior Researcher
+
+1,500+ lifetime points
+
+1.50×earning rate
+
+  * Free shipping$100+ cart
+
+### Principal Investigator
+
+7,500+ lifetime points
+
+2×earning rate
+
+  * Free shippingAlways free"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.preciselypeptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:36:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/tos.md
+[LINE_RANGE] 76
+[QUOTE]
+"We ship within the United States only."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://www.preciselypeptides.com/
+[FETCHED_AT] 2026-05-08T06:36:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/source_homepage.md
+[LINE_RANGE] 557
+[QUOTE]
+<body class="wp-singular page-template-default page page-id-14 wp-custom-logo wp-embed-responsive wp-theme-generatepress wp-child-theme-preciselypeptides-theme theme-generatepress slideout-enabled slideout-mobile sticky-menu-fade mobile-header mobile-header-logo mobile-header-sticky pp-gate-active woocommerce-account woocommerce-page woocommerce-no-js
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://www.preciselypeptides.com/
+[FETCHED_AT] 2026-05-08T06:36:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/source_homepage.md
+[LINE_RANGE] 950
+[QUOTE]
+cloudflare-static/email-decode.min.js
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://www.preciselypeptides.com/
+[FETCHED_AT] 2026-05-08T06:36:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/source_homepage.md
+[LINE_RANGE] 189
+[QUOTE]
+<meta name="generator" content="Site Kit by Google 1.178.0" />
+[/QUOTE]
+
+[URL] https://www.preciselypeptides.com/
+[FETCHED_AT] 2026-05-08T06:36:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/source_homepage.md
+[LINE_RANGE] 1216
+[QUOTE]
+var omnisend_snippet_vars = {"brand_id":"69d057ccae91bb1165aec706","plugin_version":"1.19.0","home_url":"https://www.preciselypeptides.com"};
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] true
+[REASONING]
+The homepage HTML body class includes pp-crisp-offset-v2, a custom CSS class for positioning the Crisp chat widget. An omnisend front-end script is also loaded referencing crisp.chat. Both signals together confirm Crisp chat is deployed on the site.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.preciselypeptides.com/
+[FETCHED_AT] 2026-05-08T06:36:42Z
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/source_homepage.md
+[LINE_RANGE] 557
+pp-crisp-offset-v2
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.preciselypeptides.com/
+[FETCHED_AT] 2026-05-08T06:36:42Z
+[RAW_ARTIFACT] 03_raw_fetches/precisely-peptides/source_homepage.md
+[LINE_RANGE] 1216
+var omnisend_snippet_vars = {"brand_id":"69d057ccae91bb1165aec706","plugin_version":"1.19.0","home_url":"https://www.preciselypeptides.com"};
+[/SUPPORT_QUOTE]

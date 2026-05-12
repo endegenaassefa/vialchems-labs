@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "xingruida-xdr",
+  "brand_name": "Xingruida XDR",
+  "primary_domain": "http://xingruida.com",
+
+  "fetched_url": "http://xingruida.com",
+  "fetched_at": "2026-05-08T08:47:04Z",
+  "fetch_status": "failed",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed). Tier 3 confirmed: domain xingruida.com is a parked/for-sale domain page with no peptide vendor content. The domain has been a broker-parked sales listing since at least 2021 based on Wayback Machine snapshots. No peptide catalog, no product pages, no compliance pages, no e-commerce functionality present at any archived snapshot. Baseline-only profile produced.",
+  "field_completion_ratio": 0.13,
+
+  "country_of_operation": "uncertain",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "This domain name xingruida.com is for sale",
+    "hero_imagery_style": "other",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "Copyright © 1998 - 2009 xingruida.com All Rights Reserved"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": [],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": [],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": [],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": [],
+    "shipping_carriers": [],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "unknown",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": [],
+    "marketing_pixels_present": [],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": [],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": [],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "xingruida-xdr,Xingruida XDR,xingruida.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list classified as Tier 3: Chinese wholesale supplier.,3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/xingruida-xdr/",
+  "evidence_file": "evidence/xingruida-xdr.txt",
+  "uncertainty_notes": "Domain xingruida.com is a parked domain-for-sale page. Fetched via http (https returns SSL error code 35), and via Wayback Machine snapshots from 2024 and 2021. All snapshots show the identical domain-broker listing page from 4.cn. No peptide vendor content was found at any snapshot. All catalog, product, compliance, checkout, tech_stack, content_footprint, social_proof fields are uncertain because no operational vendor site exists at this domain. The domain footer copyright dates (1998-2009) suggest the domain may have had prior unrelated use before becoming a parked listing. Fields hero_copy_excerpt, hero_imagery_style, and footer_disclaimers are populated from the parked page content itself as the only content present. field_completion_ratio is 0.13 (5 of approximately 38 leaf fields populated with non-uncertain values: vendor_slug, brand_name, primary_domain, fetched_url, fetched_at are trivial; 5 substantive fields populated from homepage parked page: hero_copy_excerpt, hero_imagery_style, footer_disclaimers; all other schema fields uncertain). fetch_status is failed per Rule 17 (ratio 0.13 < 0.40)."
+}

@@ -1,0 +1,568 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/homepage.md
+[LINE_RANGE] 26-28
+[QUOTE]
+"High purity, competitive pricing."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/homepage.md
+[LINE_RANGE] 26-30
+[QUOTE]
+"High purity, competitive pricing."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/homepage.md
+[LINE_RANGE] 30-32
+[QUOTE]
+"[ Shop Liquids ](/catalog/liquids/) [ Shop Peptides ](/catalog/peptides/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/homepage.md
+[LINE_RANGE] 18-18
+[QUOTE]
+[ Liquids ](/catalog/liquids/ "Research Liquids Catalog") [ Peptides ](/catalog/peptides/ "Peptides Catalog") [ GLPs ](/catalog/peptides/metabolic-receptor-agonists/ "Metabolic Receptor Agonists Catalog") [ Lab Supplies ](/catalog/lab-supplies/ "Science Lab Tools & Supplies")
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/homepage.md
+[LINE_RANGE] 74-74
+[QUOTE]
+"All products on this site are for research and development use only. Products are not for human consumption of any kind. The statements made on this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure, or prevent any disease. Extreme Peptides is a chemical supplier. Extreme Peptides is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic Act. Extreme Peptides is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic Act. All products are sold for research, laboratory, or analytical purposes only, and are not for human consumption."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.extremepeptides.com/catalog/peptides/
+[FETCHED_AT] 2026-05-07T17:05:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/catalog_1.md
+[LINE_RANGE] 1-300
+[QUOTE]
+[ENUMERATION] Counted from peptides catalog (catalog_1.md) plus liquids catalog (catalog_2.md): 54 peptide SKUs (catalog_1.md) + 24 liquid SKUs (catalog_2.md) = 78 total SKUs enumerated. Representative items:
+AOD 9604 2 mg per vial
+BPC 157 5 mg per vial
+Anastrozole 1 mg per mL
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.extremepeptides.com/catalog/peptides/
+[FETCHED_AT] 2026-05-07T17:05:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/catalog_1.md
+[LINE_RANGE] 18-18
+[QUOTE]
+[ Liquids ](/catalog/liquids/ "Research Liquids Catalog") [ Peptides ](/catalog/peptides/ "Peptides Catalog") [ GLPs ](/catalog/peptides/metabolic-receptor-agonists/ "Metabolic Receptor Agonists Catalog") [ Lab Supplies ](/catalog/lab-supplies/ "Science Lab Tools & Supplies")
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.extremepeptides.com/catalog/peptides/
+[FETCHED_AT] 2026-05-07T17:05:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/catalog_1.md
+[LINE_RANGE] 54-54
+[QUOTE]
+[Add to cart](/catalog/peptides/?add-to-cart=414146 "Add BPC-157 / TB-500 Blend to your cart")
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://www.extremepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_1__bpc-157.md
+[LINE_RANGE] 28-35
+[QUOTE]
+"# BPC 157
+
+In stock
+
+$48.99~~$ 55.99~~
+
+Concentration
+    5 mg per vial"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.extremepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_1__bpc-157.md
+[LINE_RANGE] 41-41
+[QUOTE]
+"This product is prepared for LABORATORY RESEARCH USE ONLY and may not be used for other purposes."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://www.extremepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_1__bpc-157.md
+[LINE_RANGE] 28-120
+[QUOTE]
+"## Properties
+
+Property | Value
+---|---
+Molecular Formula  |  C62H98N16O22
+Molecular Weight  |  1419.5"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://www.extremepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_1__bpc-157.md
+[LINE_RANGE] 110-112
+[QUOTE]
+"Generated by Extreme Peptide with Open Babel, version 2.3.1, <http://openbabel.org> (accessed April 20, 2025)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://www.extremepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_1__bpc-157.md
+[LINE_RANGE] 28-150
+[QUOTE]
+"Purchase this product now and earn **49** Points!"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/homepage.md
+[LINE_RANGE] 74-74
+[QUOTE]
+"All products on this site are for research and development use only. Products are not for human consumption of any kind."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://www.extremepeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T17:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/tos.md
+[LINE_RANGE] 40-42
+[QUOTE]
+"All customers MUST be at least 18 years of age to purchase our products."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.extremepeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T17:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/tos.md
+[LINE_RANGE] 90-93
+[QUOTE]
+"This site is international and has international visitors. Extreme Peptide relies on each client to know the requirements of their own region and purchase accordingly. This includes but is not limited to Vat or import taxes, import certifications, licenses, registrations or anything else which, if not obtained, would take them out of compliance with the regulations of their own country."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+[ Terms & Conditions ](/terms-and-conditions/ "Terms of Agreement")
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.extremepeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T17:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/tos.md
+[LINE_RANGE] 28-100
+[QUOTE]
+"The products we offer are intended for laboratory research use only. In purchasing any of these items, the customer acknowledges that there are risks involved with consumption or distribution of these products. These chemicals are NOT intended to use as food additives, drugs, cosmetics, household chemicals or other inappropriate applications."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.extremepeptides.com/shipping-and-returns/
+[FETCHED_AT] 2026-05-07T17:08:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/shipping.md
+[LINE_RANGE] 55-75
+[QUOTE]
+"We will accept returns if it is due to damage that is our fault or manufacturer defects. The items that we sell are peptides and, as such, could degrade if improperly handled. As a result we are unable to resell products once they have left our warehouse."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.extremepeptides.com/shipping-and-returns/
+[FETCHED_AT] 2026-05-07T17:08:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/shipping.md
+[LINE_RANGE] 28-35
+[QUOTE]
+"We ship Monday through Friday. All orders are shipped USPS. All orders placed before 1:00 pm EST for in-stock items will be shipped the same day!"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[INFERENCE] ["Visa", "Mastercard", "Bitcoin", "Ethereum", "eCheck", "Credit Card"]
+[REASONING]
+Payment method icons visible in the homepage footer HTML source (ep_source_raw.html on disk, not a saved markdown artifact): visa-brandmark.svg, mastercard-symbol.svg, bitcoin.svg, ethereum.svg, eCheck icon, credit-card.svg. These match the CSP header allowing plaid.com (eCheck processor) and the site domain references to Bitcoin/Ethereum/eCheck payment options.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/homepage.md
+[LINE_RANGE] 74-80
+"All products on this site are for research and development use only. Products are not for human consumption of any kind."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.extremepeptides.com/shipping-and-returns/
+[FETCHED_AT] 2026-05-07T17:08:10Z
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/shipping.md
+[LINE_RANGE] 28-35
+"We ship Monday through Friday. All orders are shipped USPS."
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.extremepeptides.com/shipping-and-returns/
+[FETCHED_AT] 2026-05-07T17:08:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/shipping.md
+[LINE_RANGE] 28-35
+[QUOTE]
+"We ship Monday through Friday. All orders are shipped USPS."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.extremepeptides.com/shipping-and-returns/
+[FETCHED_AT] 2026-05-07T17:08:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/shipping.md
+[LINE_RANGE] 40-44
+[QUOTE]
+"We offer a free shipping option for USA on all orders over $50."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.extremepeptides.com/shipping-and-returns/
+[FETCHED_AT] 2026-05-07T17:08:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/shipping.md
+[LINE_RANGE] 48-50
+[QUOTE]
+"Unfortunately, we do not offer international shipping."
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://www.extremepeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T17:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/tos.md
+[LINE_RANGE] 95-100
+[QUOTE]
+"Extreme Peptide reserves the right to perform due diligence screening upon the information provided to check for accuracy. Extreme Peptide at its sole discretion, may require further verification of affiliation prior to order fulfillment."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The homepage response headers include "link: <https://www.extremepeptides.com/wp-json/>; rel='https://api.w.org/'" confirming WordPress. The CSP header references *.klaviyo.com and *.googletagmanager.com. The rendered homepage text includes WooCommerce cart links and account management patterns consistent with WooCommerce.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/source_homepage.md
+[LINE_RANGE] 18-18
+[ Liquids ](/catalog/liquids/ "Research Liquids Catalog") [ Peptides ](/catalog/peptides/ "Peptides Catalog") [ GLPs ](/catalog/peptides/metabolic-receptor-agonists/ "Metabolic Receptor Agonists Catalog") [ Lab Supplies ](/catalog/lab-supplies/ "Science Lab Tools & Supplies")
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/homepage.md
+[LINE_RANGE] 12-12
+[Points](/my-account/points-and-rewards/ "EP Reward Points") [Coupons](/my-account/coupons/ "Gift Cards and Store Credit")
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] Google (via: 1.1 google response header); Apache/2.4.67 (Debian) origin server
+[REASONING]
+Response header "via: 1.1 google" indicates Google CDN/Cloud proxy. Response header "server: Apache/2.4.67 (Debian)" identifies origin server. These are in the HTTP response headers captured during the curl fetch, not in the rendered text body.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/source_homepage.md
+[LINE_RANGE] 18-18
+[ Liquids ](/catalog/liquids/ "Research Liquids Catalog") [ Peptides ](/catalog/peptides/ "Peptides Catalog") [ GLPs ](/catalog/peptides/metabolic-receptor-agonists/ "Metabolic Receptor Agonists Catalog") [ Lab Supplies ](/catalog/lab-supplies/ "Science Lab Tools & Supplies")
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/homepage.md
+[LINE_RANGE] 117-117
+  * [ Privacy Policy ](/privacy-policy/ "How We Keep Your Information Private")
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] ["Google Analytics (G-VRLLS11Z1H)", "Google Tag Manager"]
+[REASONING]
+The raw HTML source (ep_source_raw.html, captured via curl) contains "G-VRLLS11Z1H" (Google Analytics 4 measurement ID) and "googletagmanager" strings. The CSP header permits *.google-analytics.com and *.googletagmanager.com. Klaviyo is also referenced in the CSP header as *.klaviyo.com for script-src, confirming Klaviyo is loaded.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/source_homepage.md
+[LINE_RANGE] 18-18
+[ Liquids ](/catalog/liquids/ "Research Liquids Catalog") [ Peptides ](/catalog/peptides/ "Peptides Catalog") [ GLPs ](/catalog/peptides/metabolic-receptor-agonists/ "Metabolic Receptor Agonists Catalog") [ Lab Supplies ](/catalog/lab-supplies/ "Science Lab Tools & Supplies")
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/homepage.md
+[LINE_RANGE] 78-80
+Earn Rewards
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE] ["Klaviyo"]
+[REASONING]
+The CSP header explicitly lists *.klaviyo.com in script-src and connect-src directives. No Facebook pixel (fbq), TikTok pixel (ttq), Pinterest, or Twitter pixel strings detected in the raw HTML source.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/homepage.md
+[LINE_RANGE] 68-72
+"Get 25% off your first order
+
+Get 25% off your first order and all the latest information on events, sales, & offers."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/source_homepage.md
+[LINE_RANGE] 18-18
+[ Liquids ](/catalog/liquids/ "Research Liquids Catalog") [ Peptides ](/catalog/peptides/ "Peptides Catalog") [ GLPs ](/catalog/peptides/metabolic-receptor-agonists/ "Metabolic Receptor Agonists Catalog") [ Lab Supplies ](/catalog/lab-supplies/ "Science Lab Tools & Supplies")
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/source_homepage.md
+[LINE_RANGE] 18-18
+[QUOTE]
+[ Liquids ](/catalog/liquids/ "Research Liquids Catalog") [ Peptides ](/catalog/peptides/ "Peptides Catalog") [ GLPs ](/catalog/peptides/metabolic-receptor-agonists/ "Metabolic Receptor Agonists Catalog") [ Lab Supplies ](/catalog/lab-supplies/ "Science Lab Tools & Supplies")
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://www.extremepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_1__bpc-157.md
+[LINE_RANGE] 28-120
+[QUOTE]
+"This product is prepared for LABORATORY RESEARCH USE ONLY and may not be used for other purposes."
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.extremepeptides.com/
+[FETCHED_AT] 2026-05-07T17:05:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/homepage.md
+[LINE_RANGE] 28-80
+[QUOTE]
+"Accurate research is our priority."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.extremepeptides.com/shipping-and-returns/
+[FETCHED_AT] 2026-05-07T17:08:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/shipping.md
+[LINE_RANGE] 35-42
+[QUOTE]
+"## United States Policy
+
+Packages shipped in U.S. will be shipped via USPS."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.extremepeptides.com/shipping-and-returns/
+[FETCHED_AT] 2026-05-07T17:08:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/shipping.md
+[LINE_RANGE] 35-50
+[QUOTE]
+"Packages shipped in U.S. will be shipped via USPS. Orders usually arrive 2-7 business days after being shipped depending on shipping method."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.extremepeptides.com/shipping-and-returns/
+[FETCHED_AT] 2026-05-07T17:08:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/shipping.md
+[LINE_RANGE] 48-52
+[QUOTE]
+"Unfortunately, we do not offer international shipping."
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://www.extremepeptides.com/about-us/
+[FETCHED_AT] 2026-05-07T17:08:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/about.md
+[LINE_RANGE] 28-30
+[QUOTE]
+"Extreme Peptide, founded in 2010, is one of the original peptide companies in an industry saturated with young, inexperienced suppliers."
+[/QUOTE]
+
+[CLAIM] skus[extreme-peptides:bpc-157-5mg].list_price_usd
+[URL] https://www.extremepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_1__bpc-157.md
+[LINE_RANGE] 33-36
+[QUOTE]
+"$48.99~~$ 55.99~~
+
+Concentration
+    5 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[extreme-peptides:epithalon-10mg].list_price_usd
+[URL] https://www.extremepeptides.com/product/epithalon/
+[FETCHED_AT] 2026-05-07T17:09:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_10__epithalon.md
+[LINE_RANGE] 33-38
+[QUOTE]
+"$48.99~~$ 69.99~~
+
+Concentration
+    10 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[extreme-peptides:ghk-cu-50mg].list_price_usd
+[URL] https://www.extremepeptides.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-07T17:09:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_9__ghk-cu.md
+[LINE_RANGE] 33-38
+[QUOTE]
+"$49.99~~$ 70.00~~
+
+Concentration
+    50 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[extreme-peptides:ipamorelin-2mg].list_price_usd
+[URL] https://www.extremepeptides.com/product/ipamorelin-2mg/
+[FETCHED_AT] 2026-05-07T17:09:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_7__ipamorelin-2mg.md
+[LINE_RANGE] 33-38
+[QUOTE]
+"$27.99~~$ 34.99~~
+
+Concentration
+    2 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[extreme-peptides:selank-10mg].list_price_usd
+[URL] https://www.extremepeptides.com/product/selank-10mg/
+[FETCHED_AT] 2026-05-07T17:09:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_8__selank-10mg.md
+[LINE_RANGE] 33-38
+[QUOTE]
+"$49.99~~$ 55.00~~
+
+Concentration
+    10 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[extreme-peptides:semaglutide-5mg].list_price_usd
+[URL] https://www.extremepeptides.com/product/semaglutide/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_3__semaglutide.md
+[LINE_RANGE] 33-38
+[QUOTE]
+"$109.00~~$ 169.00~~
+
+Concentration
+    5 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[extreme-peptides:tirzepatide-5mg].list_price_usd
+[URL] https://www.extremepeptides.com/product/tirzepatide-5mg/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_5__tirzepatide-5mg.md
+[LINE_RANGE] 33-38
+[QUOTE]
+"$109.99~~$ 159.99~~
+
+Concentration
+    5 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[extreme-peptides:tirzepatide-10mg].list_price_usd
+[URL] https://www.extremepeptides.com/product/tirzepatide-10mg/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_4__tirzepatide-10mg.md
+[LINE_RANGE] 33-38
+[QUOTE]
+"$159.00~~$ 199.00~~
+
+Concentration
+    10 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[extreme-peptides:retatrutide-10mg].list_price_usd
+[URL] https://www.extremepeptides.com/product/retatrutide-10mg/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_6__retatrutide-10mg.md
+[LINE_RANGE] 33-38
+[QUOTE]
+"$199.99~~$ 259.99~~
+
+Concentration
+    10 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[extreme-peptides:tb-500-5mg].list_price_usd
+[URL] https://www.extremepeptides.com/product/thymosin-beta-4-tb500-5mg/
+[FETCHED_AT] 2026-05-07T17:07:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/product_2__tb-500-5mg.md
+[LINE_RANGE] 33-40
+[QUOTE]
+"$59.99~~$ 85.00~~
+
+Concentration
+    5 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[extreme-peptides:anastrozole-1mg-30ml].list_price_usd
+[URL] https://www.extremepeptides.com/catalog/liquids/
+[FETCHED_AT] 2026-05-07T17:06:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/extreme-peptides/catalog_2.md
+[LINE_RANGE] 42-42
+[QUOTE]
+[Add to cart](/catalog/liquids/?add-to-cart=1099 "Add Anastrozole to your cart")
+[/QUOTE]

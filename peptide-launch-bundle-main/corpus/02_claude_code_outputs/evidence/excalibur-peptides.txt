@@ -1,0 +1,235 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://excaliburpeptides.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/homepage.md
+[LINE_RANGE] 8-10
+[QUOTE]
+America's #1 third-party tested research peptide supplier. BPC-157, TB-500, GLP-2 T, GLP-3 R, GHK-Cu, Tesamorelin, GHRP-6, MOTS-c, NAD+. 99%+ HPLC purity, fast domestic USA shipping. For laboratory research use only.
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://excaliburpeptides.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T22:57:32Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/product_1__bpc-157.md
+[LINE_RANGE] 1-1
+[QUOTE]
+America's #1 Third-Party Tested Research Peptide Supplier • 100% Lab Tested© 2026 Excalibur Peptides. All rights reserved. For research use only.
+[/QUOTE]
+
+[CLAIM] catalog.sku_count / catalog.category_taxonomy / catalog.stack_bundle_pages_present
+[URL] https://excaliburpeptides.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/homepage.md
+[LINE_RANGE] 14-28
+[QUOTE]
+* [BPC-157 — Pentadecapeptide research compound](/product/bpc-157)
+  * [TB-500 — Thymosin Beta-4 fragment](/product/tb-500)
+  * [Wolverine Blend — BPC-157 + TB-500](/product/wolverine-blend)
+  * [KLOW Blend — Multi-peptide complex](/product/klow-blend)
+  * [GHK-Cu — Copper tripeptide](/product/ghk-cu)
+  * [Tesamorelin — GHRH analog](/product/tesamorelin)
+  * [GHRP-6 — Growth hormone releasing hexapeptide](/product/ghrp-6)
+  * [GLP-2 T — Dual GIP/GLP-1 receptor agonist](/product/glp-2-t)
+  * [GLP-3 R — Triple receptor agonist](/product/glp-3-r)
+  * [MOTS-c — Mitochondrial-derived peptide](/product/mots-c)
+  * [NAD+ — Nicotinamide adenine dinucleotide](/product/nad-plus)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name / product_page_anatomy.list_price / product_page_anatomy.dose_options / product_page_anatomy.per_mg_cost
+[URL] https://excaliburpeptides.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T22:57:32Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/product_1__bpc-157.md
+[LINE_RANGE] 1-1
+[QUOTE]
+BPC-157 — Research PeptideBody Protection Compound-157, a pentadecapeptide composed of 15 amino acids studied for its interactions with the FAK-paxillin and VEGFR2-Akt-eNOS signaling pathways.$49.9910mgAdd to Cart
+[/QUOTE]
+
+[CLAIM] skus[excalibur-peptides:tb-500-10mg].list_price / skus[excalibur-peptides:tb-500-10mg].dose_options
+[URL] https://excaliburpeptides.com/product/tb-500
+[FETCHED_AT] 2026-05-07T22:57:32Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/product_2__tb-500.md
+[LINE_RANGE] 1-1
+[QUOTE]
+TB-500 — Research PeptideThymosin Beta-4 fragment studied for its role in cell migration via G-actin sequestration and actin polymerization in preclinical models.$89.9910mgAdd to Cart
+[/QUOTE]
+
+[CLAIM] catalog.sku_count (headline SKUs observed on homepage — GHK-Cu, MOTS-c presence)
+[URL] https://excaliburpeptides.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/homepage.md
+[LINE_RANGE] 24-26
+[QUOTE]
+* [GHK-Cu — Copper tripeptide](/product/ghk-cu)
+  * [MOTS-c — Mitochondrial-derived peptide](/product/mots-c)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://excaliburpeptides.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T22:57:32Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/product_1__bpc-157.md
+[LINE_RANGE] 1-1
+[QUOTE]
+Body Protection Compound-157, a pentadecapeptide composed of 15 amino acids studied for its interactions with the FAK-paxillin and VEGFR2-Akt-eNOS signaling pathways.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://excaliburpeptides.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T22:57:32Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/product_1__bpc-157.md
+[LINE_RANGE] 1-1
+[QUOTE]
+All products sold on this website are intended for research and identification purposes only. These products are not intended for human dosing, injection, or ingestion.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://excaliburpeptides.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T22:57:32Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/product_1__bpc-157.md
+[LINE_RANGE] 1-1
+[QUOTE]
+COA included with every order
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://excaliburpeptides.com/terms
+[FETCHED_AT] 2026-05-07T22:57:33Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/tos.md
+[LINE_RANGE] 1-1
+[QUOTE]
+All products sold by Excalibur Peptides are intended strictly for in-vitro laboratory research purposes. By purchasing from us, you confirm that you will not use any products for human consumption, veterinary purposes, or any therapeutic application.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://excaliburpeptides.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T22:57:32Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/product_1__bpc-157.md
+[LINE_RANGE] 1-1
+[QUOTE]
+Are You Over 21?This website contains products intended for research and laboratory use only. You must be 21 years of age or older to enter.Yes, I am legal ageNo, I'm notRemember me
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / trust_compliance.tos_highlights
+[URL] https://excaliburpeptides.com/terms
+[FETCHED_AT] 2026-05-07T22:57:33Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/tos.md
+[LINE_RANGE] 1-1
+[QUOTE]
+Buyer certifies that all products are purchased for bona fide laboratory research purposes only and will not be used for human consumption, injection, or any therapeutic purpose. No refunds on opened or reconstituted vials. Age 21+ required. U.S. federal law governs all sales.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://excaliburpeptides.com/refunds
+[FETCHED_AT] 2026-05-07T22:57:33Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/refund.md
+[LINE_RANGE] 1-1
+[QUOTE]
+Due to the nature of our research-grade products, all sales are final. We do not accept returns, exchanges, or issue refunds for change of mind, incorrect ordering, or buyer's remorse. Once a product has shipped, the sale is considered complete.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy / checkout_flow.shipping_carriers / checkout_flow.shipping_cost_structure / checkout_flow.international_policy
+[URL] https://excaliburpeptides.com/shipping
+[FETCHED_AT] 2026-05-07T22:57:33Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/shipping.md
+[LINE_RANGE] 1-1
+[QUOTE]
+We offer a flat-rate shipping fee of $10.00 on all domestic orders within the United States, regardless of order size or weight.
+[/QUOTE]
+[URL] https://excaliburpeptides.com/shipping
+[FETCHED_AT] 2026-05-07T22:57:33Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/shipping.md
+[LINE_RANGE] 1-1
+[QUOTE]
+We ship via USPS and UPS. The carrier is selected based on destination and package requirements.
+[/QUOTE]
+[URL] https://excaliburpeptides.com/shipping
+[FETCHED_AT] 2026-05-07T22:57:33Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/shipping.md
+[LINE_RANGE] 1-1
+[QUOTE]
+At this time, Excalibur Peptides ships exclusively within the United States. We do not offer international shipping.
+[/QUOTE]
+
+[CLAIM] ship_to_scope (us_only) — corroborating governing law clause
+[URL] https://excaliburpeptides.com/shipping
+[FETCHED_AT] 2026-05-07T22:57:33Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/shipping.md
+[LINE_RANGE] 1-1
+[QUOTE]
+This shipping policy is governed by applicable U.S. federal law and the laws of the State of Maryland. Any disputes arising from shipping or delivery shall be resolved in the courts of Talbot County, Maryland.
+[/QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country (US — Maryland governing law as corroborating signal)
+[INFERENCE]
+[SUPPORT_QUOTE_1]
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/shipping.md
+[LINE_RANGE] 1-1
+This shipping policy is governed by applicable U.S. federal law and the laws of the State of Maryland. Any disputes arising from shipping or delivery shall be resolved in the courts of Talbot County, Maryland.
+[/SUPPORT_QUOTE_1]
+[SUPPORT_QUOTE_2]
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/tos.md
+[LINE_RANGE] 1-1
+These terms are governed by applicable U.S. federal law and the laws of the State of Maryland. Any disputes shall be resolved in the courts of Talbot County, Maryland.
+[/SUPPORT_QUOTE_2]
+[REASONING]
+Both the shipping policy and TOS reference Maryland state law and Talbot County courts as governing jurisdiction, indicating US operation and likely Maryland incorporation or primary business location. No contradicting foreign jurisdiction indicators found.
+[/REASONING]
+[/INFERENCE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.blog_url / content_footprint.topic_taxonomy
+[URL] https://excaliburpeptides.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/homepage.md
+[LINE_RANGE] 32-35
+[QUOTE]
+* [How to Choose a Research Peptide Supplier in 2026 (Peptide Sciences Alternative)](/blog/best-peptide-supplier-2026-peptide-sciences-alternative)
+  * [BPC-157: The Research Peptide Athletes and Biohackers Are Talking About in 2026](/blog/bpc-157-research-peptide-2026)
+  * [TB-500 (Thymosin Beta-4): What Researchers Need to Know in 2026](/blog/tb-500-thymosin-beta-4-research-2026)
+[/QUOTE]
+
+[CLAIM] about page — lab posture / quality claims
+[URL] https://excaliburpeptides.com/about
+[FETCHED_AT] 2026-05-07T22:57:33Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/about.md
+[LINE_RANGE] 1-1
+[QUOTE]
+Every batch undergoes independent third-party HPLC and mass spectrometry analysis, ensuring ≥99% purity across our entire catalog.
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present (false)
+[URL] https://excaliburpeptides.com/terms
+[FETCHED_AT] 2026-05-07T22:57:33Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/tos.md
+[LINE_RANGE] 1-1
+[QUOTE]
+All purchasers must confirm they are 21 years of age or older. This verification is required at site entry and may be required again at checkout. Falsifying age verification is a violation of these Terms.
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://excaliburpeptides.com/
+[FETCHED_AT] 2026-05-07T19:50:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/excalibur-peptides/homepage.md
+[LINE_RANGE] 12-12
+[QUOTE]
+[Home](/) | [About](/about) | [FAQs](/faqs) | [Research Library](/research) | [Safety Data Sheets](/safety-data-sheets) | [Shipping](/shipping) | [Refunds](/refunds) | [Privacy](/privacy) | [Terms](/terms) | [Disclaimer](/disclaimer) | [Blog](/blog)
+[/QUOTE]

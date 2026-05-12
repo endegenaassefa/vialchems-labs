@@ -1,0 +1,93 @@
+{
+  "vendor_slug": "elutide",
+  "brand_name": "Elutide",
+  "primary_domain": "https://elutide.com",
+  "fetched_url": "https://elutide.com",
+  "fetched_at": "2026-05-07T19:49:12Z",
+  "fetch_status": "partial",
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.55,
+  "country_of_operation": "United States",
+  "fulfillment_country": "United States",
+  "ship_to_scope": "us_only",
+  "year_established": "2026",
+  "homepage": {
+    "hero_copy_excerpt": "Research-grade. Independently verified. Transparently sourced.",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Enter Site →",
+    "navigation_pattern": "uncertain: homepage redirects to age-gate (/enter); nav visible on TOS page: The Collection, About, Research (with sub-nav: Purity Guide, Endotoxin Testing Guide, How to Read a COA, Peptide Calculator), COAs, Contact",
+    "footer_disclaimers": "For Research Use Only. Not Intended for Human Consumption. All Elutide products are intended for research purposes only. These products are not intended for human consumption, medical use, or as dietary supplements. They are not approved by the FDA and are not recommended for any application in humans or animals. Users assume all responsibility for proper handling, storage, and use of these research materials."
+  },
+  "catalog": {
+    "sku_count": "uncertain: shop page blocked by age-gate; shop URL visible at /shop/",
+    "category_taxonomy": ["uncertain"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "All products sold by Elutide are intended exclusively for in-vitro research and laboratory use. They are not intended for human consumption, animal consumption, therapeutic use, diagnostic use, or as dietary supplements. Our products have not been evaluated or approved by the U.S. Food and Drug Administration (FDA).",
+    "coa_present": "true",
+    "coa_hosting": "on_site",
+    "lab_partner_named": "uncertain: TOS states US-accredited ISO 17025-certified laboratory; lab name not found on accessible pages",
+    "batch_lot_transparency": "true",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+  "trust_compliance": {
+    "research_use_only_phrasing": "All products sold by Elutide are intended exclusively for in-vitro research and laboratory use. They are not intended for human consumption, animal consumption, therapeutic use, diagnostic use, or as dietary supplements. Our products have not been evaluated or approved by the U.S. Food and Drug Administration (FDA).",
+    "age_gate_present": "true",
+    "jurisdictional_restriction_notice": "You are solely responsible for ensuring that your purchase, possession, and use of Elutide products complies with all applicable federal, state, and local laws and regulations in your jurisdiction.",
+    "tos_url": "https://elutide.com/terms-of-service/",
+    "tos_highlights": "Research use only exclusively for in-vitro use; age minimum 21 years (TOS) vs 18 years (age-gate page — inconsistency noted); Wyoming LLC; ships to all 50 US states via UPS only; no international shipping; 30-day return on unopened products; binding arbitration in Wyoming",
+    "refund_policy": "Unopened products in original condition may be returned within 30 days of delivery for a full refund. Opened products cannot be returned. Damaged or incorrect items must be reported within 48 hours of delivery with photographic documentation.",
+    "shipping_policy": "Ships to all 50 U.S. states via UPS. No international shipping. UPS Ground $10 flat rate (3-5 business days); UPS 2nd Day Air $15 flat rate; Free 2nd Day Air on orders over $150. Same-day shipping on orders placed before 3:00 PM EST Monday through Friday."
+  },
+  "checkout_flow": {
+    "account_required": "uncertain: TOS requires account creation and age verification; checkout URL observed as /checkouts/elutide-checkout/ suggesting WooCommerce",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "true",
+    "payment_methods_accepted": ["credit_card", "paypal", "venmo", "square"],
+    "shipping_carriers": ["UPS"],
+    "shipping_cost_structure": "UPS Ground $10 flat; UPS 2nd Day Air $15 flat; Free 2nd Day Air over $150",
+    "international_policy": "We do not currently offer international shipping."
+  },
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "Cloudflare",
+    "analytics_tools_loaded": ["Google Analytics 4", "Google Tag Manager"],
+    "marketing_pixels_present": ["Facebook/Meta Pixel"],
+    "chat_widget_present": "true"
+  },
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://elutide.com/blog",
+    "content_cadence": "uncertain: blog accessible via nav; site launched March 2026",
+    "topic_taxonomy": ["Purity Guide", "Endotoxin Testing Guide", "How to Read a COA", "Peptide Calculator"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+  "social_proof": {
+    "on_site_reviews": "uncertain: Trustpilot widget referenced in footer but product-page review module uncertain",
+    "off_site_aggregators": ["Trustpilot (https://www.trustpilot.com/review/elutide.com — linked from footer)"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+  "skus": [],
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "elutide,Elutide,elutide.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list, classified as Tier 3: Auburn Hills-based vendor.,3,as-assigned (operator seed),pending"
+  },
+  "raw_fetches_dir": "03_raw_fetches/elutide/",
+  "evidence_file": "evidence/elutide.txt",
+  "uncertainty_notes": "Tier 3 BASELINE profile. Shop, product pages, about page, COA library, and most content pages blocked by age-gate (/enter redirect) that could not be bypassed via curl. gstack:browse failed due to Chromium sandbox issue (running as root in WSL2). archive.org was unreachable (connection refused). Three-attempt rule exhausted for all gated pages. Fields uncertain due to gate: catalog.sku_count, catalog.category_taxonomy, catalog.search_filter_capabilities, catalog.stack_bundle_pages_present, product_page_anatomy fields (except exact_disclaimer_language and coa_present/coa_hosting/batch_lot_transparency derived from TOS), checkout_flow.account_required, checkout_flow.guest_checkout_available, checkout_flow.fields_collected, content_footprint.content_cadence, content_footprint.author_bylines_present, content_footprint.internal_linking_to_products, social_proof.on_site_reviews, social_proof.testimonial_usage, social_proof.visible_influencer_endorsements. Age inconsistency: homepage age-gate says 18 years; TOS §2 says 21 years. SKUs array empty: product pages inaccessible; SKU codes ELU-GLP1, ELU-GLP2, ELU-GLP3 observed in TOS trademark section indicating GLP-1 class peptides. Checkout URL /checkouts/elutide-checkout/ observed in source, consistent with WooCommerce. company location: Auburn Hills, Michigan per JSON-LD schema. Incorporated as Wyoming LLC per TOS. year_established inferred as 2026 from TOS Effective Date March 28, 2026 and page datePublished 2026-03-26 — no earlier evidence found. lab_partner_named uncertain: TOS states US-accredited ISO 17025-certified lab but does not name the lab on accessible pages. Payment methods: Stripe observed in CSP headers but not in visible payment method mentions; Square, PayPal, Venmo seen in source."
+}

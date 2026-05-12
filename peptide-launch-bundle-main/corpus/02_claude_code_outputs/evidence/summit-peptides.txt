@@ -1,0 +1,370 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 63-64
+[QUOTE]
+"Your Trusted Source
+for Peptide Research"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 66
+[QUOTE]
+"[Shop Now](/web/20240328201229/https://summitpeptides.com/collections/full-catalog)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 37-42
+[QUOTE]
+"  * [Home](/web/20240328201229/https://summitpeptides.com/)
+  * [Shop ](/web/20240328201229/https://summitpeptides.com/collections/full-catalog)
+  * [About Us ](/web/20240328201229/https://summitpeptides.com/pages/about-us)
+  * [Contact Us ](/web/20240328201229/https://summitpeptides.com/pages/contact)
+  * [Track Order ](https://web.archive.org/web/20240328201229/https://summitpeptides.com/apps/tracking)
+  * [Resources ](/web/20240328201229/https://summitpeptides.com/pages/resources-page)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 279
+[QUOTE]
+"Important Notice: These products are designated for research purposes only and are NOT approved for human or animal use of any kind. They should be handled by qualified professionals, strictly for in vitro research and educational purposes. If you purchase peptides online from us, you understand that we assume no risk. They are not a drug, food, or cosmetics and should not be treated as such."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 70-228
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/summit-peptides/homepage.md homepage product listings:
+9 unique product slugs observed: reta, tb-500-bpc-157, bpc-157, cjc-1295-ipamorelin, cjc-1295_no_dac, ipamorelin, mazdutide, tb-500, tirz
+[FILES]
+homepage.md (single source — catalog page not archived)
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 86-96
+[QUOTE]
+"[TB-500 / BPC-157](/web/20240328201229/https://summitpeptides.com/collections/feature-products/products/tb-500-bpc-157)
+
+Regular price~~$112.00~~ $100.00"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 70-102
+[QUOTE]
+"### Feature Products
+
+[...]
+
+### Full Catalog"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 112-114
+[QUOTE]
+"[BPC-157](/web/20240328201229/https://summitpeptides.com/collections/full-catalog/products/bpc-157)
+
+Regular price~~$50.00~~ $40.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 114
+[QUOTE]
+"Regular price~~$50.00~~ $40.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 240
+[QUOTE]
+"BPC-157, a synthetic peptide with a sequence derived from a protein found in the human stomach, is at the forefront of research in regenerative medicine and healing therapies. Engineered for optimal stability and efficacy, BPC-157 offers a promising avenue for studies focused on tissue repair, injury recovery, and overall health enhancement."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 279
+[QUOTE]
+"Important Notice: These products are designated for research purposes only and are NOT approved for human or animal use of any kind. They should be handled by qualified professionals, strictly for in vitro research and educational purposes. If you purchase peptides online from us, you understand that we assume no risk. They are not a drug, food, or cosmetics and should not be treated as such."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 14-15
+[QUOTE]
+"[Lab Tests](https://web.archive.org/web/20240328201229/https://summitpeptides.com/pages/lab-tests)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 92
+[QUOTE]
+"No reviews"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 279
+[QUOTE]
+"These products are designated for research purposes only and are NOT approved for human or animal use of any kind."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 264
+[QUOTE]
+"[Terms of Service](/web/20240328201229/https://summitpeptides.com/policies/terms-of-service)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 10
+[QUOTE]
+"Free Shipping on Orders over $200"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/source_homepage.md
+[LINE_RANGE] 12-16
+[QUOTE]
+"Shopify platform detected: site hosted on myshopify.com (shop: 914553-4.myshopify.com)
+
+=== RELEVANT SCRIPT TAGS ===
+cdn.shopify.com CDN confirmed
+klaviyo.js loaded: static.klaviyo.com/onsite/js/klaviyo.js?company_id=SrWHxb"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/source_homepage.md
+[LINE_RANGE] 15
+[QUOTE]
+"klaviyo.js loaded: static.klaviyo.com/onsite/js/klaviyo.js?company_id=SrWHxb"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/source_homepage.md
+[LINE_RANGE] 21-22
+[QUOTE]
+"=== FACEBOOK DOMAIN VERIFICATION ===
+<meta name=\"facebook-domain-verification\" content=\"3wyg5nn2wwnxv41moq6q57qkz9bp9z\"/>"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/source_homepage.md
+[LINE_RANGE] 17
+[QUOTE]
+"Chat widget: NONE detected (no Intercom, Drift, Crisp, Tawk, Zendesk)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 92
+[QUOTE]
+"No reviews"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=summit-peptides:reta].list_price_usd
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 78-80
+[QUOTE]
+"[Reta](/web/20240328201229/https://summitpeptides.com/collections/feature-products/products/reta)
+
+Regular price~~$145.00~~ $100.00"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=summit-peptides:tb-500-bpc-157].list_price_usd
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 94-96
+[QUOTE]
+"[TB-500 / BPC-157](/web/20240328201229/https://summitpeptides.com/collections/feature-products/products/tb-500-bpc-157)
+
+Regular price~~$112.00~~ $100.00"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=summit-peptides:bpc-157].list_price_usd
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 112-114
+[QUOTE]
+"[BPC-157](/web/20240328201229/https://summitpeptides.com/collections/full-catalog/products/bpc-157)
+
+Regular price~~$50.00~~ $40.00"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=summit-peptides:cjc-1295-ipamorelin].list_price_usd
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 128-130
+[QUOTE]
+"[CJC-1295 / Ipamorelin](/web/20240328201229/https://summitpeptides.com/collections/full-catalog/products/cjc-1295-ipamorelin)
+
+Regular price~~$97.00~~ $78.00"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=summit-peptides:cjc-1295-no-dac].list_price_usd
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 144-146
+[QUOTE]
+"[CJC-1295 NO DAC](/web/20240328201229/https://summitpeptides.com/collections/full-catalog/products/cjc-1295_no_dac)
+
+Regular price~~$55.00~~ $39.00"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=summit-peptides:ipamorelin].list_price_usd
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 160-162
+[QUOTE]
+"[Ipamorelin](/web/20240328201229/https://summitpeptides.com/collections/full-catalog/products/ipamorelin)
+
+Regular price~~$31.00~~ $25.00"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=summit-peptides:mazdutide].list_price_usd
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 170-178
+[QUOTE]
+"Sale!Sold out
+
+[ __Add to Wishlist](/web/20240328201229/https://summitpeptides.com/pages/wishlist)
+
+No reviews
+
+[Mazdutide](/web/20240328201229/https://summitpeptides.com/collections/full-catalog/products/mazdutide)
+
+Regular price~~$160.00~~ $120.00"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=summit-peptides:tb-500].list_price_usd
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 206-208
+[QUOTE]
+"[TB-500 (Thymosin β4)](/web/20240328201229/https://summitpeptides.com/collections/full-catalog/products/tb-500)
+
+Regular price~~$55.00~~ $44.00"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=summit-peptides:tirz].url
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 230-234
+[QUOTE]
+"### Research Grade GLP-1 Synthetic Derivative
+
+Tirzepatide is a cutting-edge synthetic derivative of the Glucagon-Like Peptide-1 (GLP-1), designed specifically for the scientific community to advance research in metabolic disorders and diabetes management. With its unique structure and mode of action, Tirzepatide represents a promising frontier for investigating new therapeutic strategies.
+
+[ ](/web/20240328201229/https://summitpeptides.com/products/tirz)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage banner text reads "Your Trusted Source for Peptide Research" combined with purity and testing claims ("99% Purity Guarantee", "3rd Party Tested", "Fast Shipping", "Exceptional Service"). Navigation includes "Lab Tests" as a primary nav item. No meme-coded language, no lifestyle imagery mentions in text. Footer uses formal "Important Notice" legal language. Combined signals indicate a clinical/professional franding posture, not lifestyle or meme-coded.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 242-245
+"  * 99% Purity Guarantee
+  * Fast Shipping
+  * 3rd Party Tested
+  * Exceptional Service"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240328201229/https://summitpeptides.com/
+[FETCHED_AT] 2026-05-08T08:20:29Z
+[RAW_ARTIFACT] 03_raw_fetches/summit-peptides/homepage.md
+[LINE_RANGE] 14
+"[Lab Tests](https://web.archive.org/web/20240328201229/https://summitpeptides.com/pages/lab-tests)"
+[/SUPPORT_QUOTE]

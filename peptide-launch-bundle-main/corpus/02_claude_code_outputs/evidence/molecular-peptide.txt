@@ -1,0 +1,191 @@
+[CLAIM] country_of_operation
+[URL] https://onpoint.to
+[FETCHED_AT] 2026-05-07T17:50:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/homepage.md
+[LINE_RANGE] 298-298
+[QUOTE]
+"© onPoint Studio OÜ. [Sepapaja tn 6, 15551 Tallinn, Estonia](https://maps.app.goo.gl/WYbdYq7FNTgo5E1q6)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://onpoint.to
+[FETCHED_AT] 2026-05-07T17:50:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/homepage.md
+[LINE_RANGE] 39-43
+[QUOTE]
+"# We are the onPoint team
+to help your business grow
+
+Web design and development team who cares not only about code,
+but transforms technology and design into solutions"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] other
+[REASONING]
+The site presents as a B2B web design agency portfolio with client testimonials from HR tech, dental, and corporate sectors. There are no peptide-related hero images, no clinical or lifestyle peptide imagery, no meme-coded content. The site is definitively a corporate web agency homepage, not any recognized peptide storefront archetype.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://onpoint.to
+[FETCHED_AT] 2026-05-07T17:50:28Z
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/homepage.md
+[LINE_RANGE] 39-43
+"# We are the onPoint team
+to help your business grow
+
+Web design and development team who cares not only about code,
+but transforms technology and design into solutions"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://onpoint.to
+[FETCHED_AT] 2026-05-07T17:50:28Z
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/homepage.md
+[LINE_RANGE] 16-16
+"    * [Peptide Store Design](https://onpoint.to/services/peptide-store-design/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://onpoint.to
+[FETCHED_AT] 2026-05-07T17:50:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/homepage.md
+[LINE_RANGE] 47-47
+[QUOTE]
+"[ Get Started ](https://calendly.com/alex-onpoint/introduction)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://onpoint.to
+[FETCHED_AT] 2026-05-07T17:50:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/homepage.md
+[LINE_RANGE] 12-35
+[QUOTE]
+"  * [Clients](/#clients)
+  * [Cases](/#cases)
+  * Services __
+    * [WordPress AI Publishing Engine](https://onpoint.to/services/ai-publishing-engine/)
+    * [Peptide Store Design](https://onpoint.to/services/peptide-store-design/)
+    * [WooCommerce Сonversion Rate Optimization](https://onpoint.to/services/cro/)
+    * [WordPress Page Speed Optimization](https://onpoint.to/services/page-speed-optimization/)
+    * [WordPress DevOps](https://onpoint.to/wordpress-devops/)
+    * [WooCommerce UTM Tracking](https://onpoint.to/services/woocommerce-utm-tracking/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://onpoint.to
+[FETCHED_AT] 2026-05-07T17:50:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/homepage.md
+[LINE_RANGE] 298-298
+[QUOTE]
+"© onPoint Studio OÜ. [Sepapaja tn 6, 15551 Tallinn, Estonia](https://maps.app.goo.gl/WYbdYq7FNTgo5E1q6)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[INFERENCE] 0
+[REASONING]
+The fetched homepage and peptide store design service page confirm that onpoint.to is a web development agency, not a peptide retailer. No product catalog, no shop page, no add-to-cart functionality, and no peptide SKUs exist anywhere on the site. The site sells web development services (starting at $1,900 for the Starter package), not peptide products. SKU count is therefore 0.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://onpoint.to
+[FETCHED_AT] 2026-05-07T17:50:28Z
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/homepage.md
+[LINE_RANGE] 39-43
+"# We are the onPoint team
+to help your business grow
+
+Web design and development team who cares not only about code,
+but transforms technology and design into solutions"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://onpoint.to/services/peptide-store-design/
+[FETCHED_AT] 2026-05-07T17:50:45Z
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/peptide_store_service.md
+[LINE_RANGE] 39-42
+"# Peptide Store Design Built to Sell
+From Day One
+
+FDA-aligned, payment-resilient, high-converting WooCommerce — complete control from launch."
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[INFERENCE] false
+[REASONING]
+No peptide products exist at onpoint.to. The site is a web agency that builds peptide stores for clients but does not operate one itself. Therefore no stack/bundle pages can exist.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://onpoint.to
+[FETCHED_AT] 2026-05-07T17:50:28Z
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/homepage.md
+[LINE_RANGE] 298-298
+"© onPoint Studio OÜ. [Sepapaja tn 6, 15551 Tallinn, Estonia](https://maps.app.goo.gl/WYbdYq7FNTgo5E1q6)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://onpoint.to/services/peptide-store-design/
+[FETCHED_AT] 2026-05-07T17:50:45Z
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/peptide_store_service.md
+[LINE_RANGE] 100-100
+"Every store below was built from scratch for the research peptide market — FDA-aligned product pages, high-risk payment setup, and conversion-optimized design."
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://onpoint.to
+[FETCHED_AT] 2026-05-07T17:50:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/homepage.md
+[LINE_RANGE] 26-26
+[QUOTE]
+"    * [WooCommerce for Peptide Stores](https://onpoint.to/category/peptide-stores/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://onpoint.to
+[FETCHED_AT] 2026-05-07T17:50:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/homepage.md
+[LINE_RANGE] 25-25
+[QUOTE]
+"  * [Resources __](/blog)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://onpoint.to
+[FETCHED_AT] 2026-05-07T17:50:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/homepage.md
+[LINE_RANGE] 53-53
+[QUOTE]
+"## What our clients say about us"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://onpoint.to
+[FETCHED_AT] 2026-05-07T17:50:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/homepage.md
+[LINE_RANGE] 55-61
+[QUOTE]
+"#### onPoint team is dedicated and focused on driving maximum results for your investment. There aren't many people who will stay up at night focused on how to grow someone else's business. But the onPoint team does. If you're looking for someone to support your digital and developmental growth - a true partner to help you achieve your vision - this is it. Will come back time and time again.
+
+##### Sarah Kersting-Herbert
+
+SVP at
+
+HR for Health"
+[/QUOTE]
+
+[CLAIM] tier_rationale (identity mismatch documentation)
+[URL] https://onpoint.to/services/peptide-store-design/
+[FETCHED_AT] 2026-05-07T17:50:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/molecular-peptide/peptide_store_service.md
+[LINE_RANGE] 39-42
+[QUOTE]
+"# Peptide Store Design Built to Sell
+From Day One
+
+FDA-aligned, payment-resilient, high-converting WooCommerce — complete control from launch."
+[/QUOTE]

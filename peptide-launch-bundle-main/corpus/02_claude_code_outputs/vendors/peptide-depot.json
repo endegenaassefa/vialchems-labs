@@ -1,0 +1,93 @@
+{
+  "vendor_slug": "peptide-depot",
+  "brand_name": "Peptide Depot",
+  "primary_domain": "onpoint.to",
+  "fetched_url": "https://onpoint.to",
+  "fetched_at": "2026-05-07T17:50:28Z",
+  "fetch_status": "failed",
+  "tier": 2,
+  "tier_rationale": "as-assigned (operator seed: Tier 2). However, the assigned primary_domain onpoint.to is not a peptide vendor — it is onPoint Studio OÜ, an Estonian web-design agency that builds WooCommerce peptide storefronts for clients but sells no peptides itself. Both molecular-peptide and peptide-depot seed rows resolve to the same onpoint.to domain. See vendors/molecular-peptide.json for the full per-page analysis; this profile shares the same raw fetches at 03_raw_fetches/molecular-peptide/. fetch_status: failed because no peptide-vendor schema fields can be populated from a web-agency homepage.",
+  "field_completion_ratio": 0.16,
+  "country_of_operation": "Estonia",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+  "homepage": {
+    "hero_copy_excerpt": "We are the onPoint team  \nto help your business grow\n\nWeb design and development team who cares not only about code,   \nbut transforms technology and design into solutions",
+    "hero_imagery_style": "other",
+    "primary_cta": "Get Started",
+    "navigation_pattern": "Top nav with: Clients, Cases, Services (dropdown: WordPress AI Publishing Engine, Peptide Store Design, WooCommerce Conversion Rate Optimization, WordPress Page Speed Optimization, WordPress DevOps, WooCommerce UTM Tracking, Dental Website Redesign, Website for Dental Practice, Online Education Platform), Team, Resources (dropdown: WooCommerce for Peptide Stores, WordPress for Dental Practices, Page Speed Optimization, WordPress AI, WordPress DevOps, WordPress WCAG)",
+    "footer_disclaimers": "© onPoint Studio OÜ. Sepapaja tn 6, 15551 Tallinn, Estonia"
+  },
+  "catalog": {
+    "sku_count": 0,
+    "category_taxonomy": "uncertain",
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "false"
+  },
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": "uncertain",
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": "uncertain",
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": "uncertain",
+    "shipping_carriers": "uncertain",
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+  "tech_stack": {
+    "platform_signal": "uncertain",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": "uncertain",
+    "marketing_pixels_present": "uncertain",
+    "chat_widget_present": "uncertain"
+  },
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://onpoint.to/blog",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": "uncertain",
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+  "social_proof": {
+    "on_site_reviews": "true",
+    "off_site_aggregators": "uncertain",
+    "testimonial_usage": "Client testimonials from HR for Health (Sarah Kersting-Herbert, SVP), CriticalAsset (Stewart Padveen, CEO), eAssist Dental Solutions (Penny Reed, CGO) — all for web development services, not peptide products",
+    "visible_influencer_endorsements": "uncertain"
+  },
+  "skus": [],
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "Peptide Depot, onpoint.to (uncertain) — seed row from operator-supplied vendor list, classified as Tier 2; domain shared with Molecular Peptide Store seed row."
+  },
+  "raw_fetches_dir": "03_raw_fetches/molecular-peptide/",
+  "evidence_file": "evidence/peptide-depot.txt",
+  "uncertainty_notes": "See vendors/molecular-peptide.json — same domain (onpoint.to) is a web-design agency, not a peptide vendor. Forty-five of 57 required leaf fields are uncertain because the homepage exposes none of them. fetch_status: failed (ratio 0.16 < 0.40). Recommend manual operator investigation: did the Peptide Depot brand exist at a different domain that the seed CSV mis-recorded as onpoint.to?"
+}

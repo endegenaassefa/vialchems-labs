@@ -1,0 +1,463 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.peptidesystems.com
+[FETCHED_AT] 2026-05-07T18:17:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/homepage.md
+[LINE_RANGE] 47-49
+[QUOTE]
+"# Purity
+Precision
+Peptide Systems"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.peptidesystems.com
+[FETCHED_AT] 2026-05-07T18:17:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/homepage.md
+[LINE_RANGE] 51-51
+[QUOTE]
+"[Buy Now ](https://www.peptidesystems.com/products)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.peptidesystems.com
+[FETCHED_AT] 2026-05-07T18:17:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/homepage.md
+[LINE_RANGE] 12-14
+[QUOTE]
+"  * [Home](https://www.peptidesystems.com)
+  * [Products](https://www.peptidesystems.com/products)
+  * [Contact](https://www.peptidesystems.com/contact-5)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.peptidesystems.com
+[FETCHED_AT] 2026-05-07T18:17:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/homepage.md
+[LINE_RANGE] 69-73
+[QUOTE]
+"All products on this site are strictly for Research Use Only (RUO). They are not intended for human or animal consumption, nor for use as a drug, food additive, cosmetic, or medical device.
+
+These products have not been evaluated by the U.S. Food and Drug Administration (FDA) and are not intended to diagnose, treat, cure, or prevent any disease. Any reference to biological mechanisms is for educational and informational purposes only."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.peptidesystems.com/contact-5
+[FETCHED_AT] 2026-05-07T18:20:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/contact.md
+[LINE_RANGE] 49-51
+[QUOTE]
+"50 Iron Point Circle, Suite 140
+
+Folsom, CA 95630"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.peptidesystems.com/store-products-sitemap.xml
+[FETCHED_AT] 2026-05-07T18:18:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/catalog_1.md
+[LINE_RANGE] 8-8
+[QUOTE]
+[ENUMERATION] Counted from store-products-sitemap.xml: 1 live product URL found.
+[FILES]
+product_1__nad.md (https://www.peptidesystems.com/product-page/nad - active in sitemap 2026-01-26)
+Additional 4 products found via Wayback CDX (404 on live site as of 2026-05-07):
+product_2__bpc-157-tb-500.md
+product_3__ipamorelin-cjc-1295.md
+product_4__selank.md
+product_5__semax.md
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://www.peptidesystems.com/product-page/nad
+[FETCHED_AT] 2026-05-07T18:19:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_1__nad.md
+[LINE_RANGE] 215-217
+[QUOTE]
+"SKU: PS-NAD+-500mg-RUO
+
+$100.00Price"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://www.peptidesystems.com/product-page/nad
+[FETCHED_AT] 2026-05-07T18:19:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_1__nad.md
+[LINE_RANGE] 78-79
+[QUOTE]
+"    ---|---|---
+    1 vial| $100| —"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://www.peptidesystems.com/product-page/nad
+[FETCHED_AT] 2026-05-07T18:19:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_1__nad.md
+[LINE_RANGE] 217-217
+[QUOTE]
+"$100.00Price"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.peptidesystems.com/product-page/nad
+[FETCHED_AT] 2026-05-07T18:19:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_1__nad.md
+[LINE_RANGE] 91-91
+[QUOTE]
+"**NAD+ (Nicotinamide Adenine Dinucleotide)** is a ubiquitous **coenzyme** present in cells and represents the biologically active form of vit B3 (niacin). It serves as an essential electron carrier in metabolic redox reactions and as a substrate for key enzyme families involved in epigenetic regulation and cellular responses."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.peptidesystems.com/product-page/nad
+[FETCHED_AT] 2026-05-07T18:19:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_1__nad.md
+[LINE_RANGE] 293-293
+[QUOTE]
+"This product is sold as a pure compound for research purposes only."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://www.peptidesystems.com/product-page/nad
+[FETCHED_AT] 2026-05-07T18:19:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_1__nad.md
+[LINE_RANGE] 353-357
+[QUOTE]
+"Batch-level Certificates of Analysis for our research peptides, tested by ISO 17025:2017-accredited labs (downloadable PDFs):
+
+[COA NAD+ 241219V1ND Sterility and Endotoxin (LPS)](https://57d32705-1433-4b23-9a35-cac10ad87c4b.usrfiles.com/ugd/57d327_91c20a52d52643d890d24f0bbf06fb95.pdf)
+[COA NAD+ 241219V1ND Purity](https://57d32705-1433-4b23-9a35-cac10ad87c4b.usrfiles.com/ugd/57d327_4b0042a09afa486ab516d6b32951016f.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://www.peptidesystems.com/product-page/nad
+[FETCHED_AT] 2026-05-07T18:19:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_1__nad.md
+[LINE_RANGE] 229-229
+[QUOTE]
+"3rd party, US registered labs with ISO"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://www.peptidesystems.com/product-page/nad
+[FETCHED_AT] 2026-05-07T18:19:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_1__nad.md
+[LINE_RANGE] 353-355
+[QUOTE]
+"[COA NAD+ 241219V1ND Sterility and Endotoxin (LPS)](https://57d32705-1433-4b23-9a35-cac10ad87c4b.usrfiles.com/ugd/57d327_91c20a52d52643d890d24f0bbf06fb95.pdf)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.peptidesystems.com/product-page/nad
+[FETCHED_AT] 2026-05-07T18:19:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_1__nad.md
+[LINE_RANGE] 319-327
+[QUOTE]
+"All products on this site are for Research, Development use only. Products are Not for Human consumption of any kind. The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. Peptide Systems is a chemical supplier. Peptide Systems is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. Peptide Systems is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic Act."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+No age-gate page was observed on homepage fetch or product page fetch. The pages sitemap lists no age-gate URL. The homepage renders directly to product/hero content without any age-verification interstitial.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.peptidesystems.com
+[FETCHED_AT] 2026-05-07T18:17:16Z
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/homepage.md
+[LINE_RANGE] 47-51
+"# Purity
+Precision
+Peptide Systems
+
+[Buy Now ](https://www.peptidesystems.com/products)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.peptidesystems.com/pages-sitemap.xml
+[FETCHED_AT] 2026-05-07T18:18:35Z
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/pages_sitemap.md
+[LINE_RANGE] 7-7
+"https://www.peptidesystems.com/terms-of-service 2026-05-03 https://www.peptidesystems.com/privacy-policy 2026-05-03 https://www.peptidesystems.com/learn 2026-05-03 https://www.peptidesystems.com/ach2 2026-05-03 https://www.peptidesystems.com/achcheckout 2026-05-03 https://www.peptidesystems.com https://www.peptidesystems.com/contact-5 2026-05-03 https://www.peptidesystems.com/refund-and-returns-policy 2026-05-03 https://www.peptidesystems.com/shipping-policy 2026-05-03 https://www.peptidesystems.com/debitcheckout 2026-05-03"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.peptidesystems.com
+[FETCHED_AT] 2026-05-07T18:17:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/homepage.md
+[LINE_RANGE] 53-53
+[QUOTE]
+"[Terms of Service](https://www.peptidesystems.com/terms-of-service)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.peptidesystems.com/terms-of-service
+[FETCHED_AT] 2026-05-07T18:19:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/tos.md
+[LINE_RANGE] 53-53
+[QUOTE]
+"1.1 Conditional Offer of Sale (Merchant Status): This Agreement constitutes a legally binding contract between Peptide Systems, LLC (\"Company\") and the Purchaser. Company is a specialized chemical supplier that operates exclusively in a Business-to-Business (B2B) capacity. Company's offer to sell is strictly conditional upon Purchaser's status as a professional research entity."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.peptidesystems.com/refund-and-returns-policy
+[FETCHED_AT] 2026-05-07T18:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/refund.md
+[LINE_RANGE] 54-57
+[QUOTE]
+"All Sales Are Final: Because we cannot verify the storage conditions or chain of custody of a product once it is delivered, we cannot accept returned items for resale."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.peptidesystems.com/shipping-policy
+[FETCHED_AT] 2026-05-07T18:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/shipping.md
+[LINE_RANGE] 66-68
+[QUOTE]
+"Free Shipping: We are pleased to offer Free Shipping on all orders, regardless of size or value.
+
+Transit Time: Once your order has been processed and handed over to the carrier, delivery typically takes 4-5 days."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://www.peptidesystems.com/product-page/nad
+[FETCHED_AT] 2026-05-07T18:19:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_1__nad.md
+[LINE_RANGE] 268-268
+[QUOTE]
+"During checkout, you will have the option to register or check out as a guest. We encourage you to register, but this is completely optional."
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://www.peptidesystems.com/achcheckout
+[FETCHED_AT] 2026-05-07T18:20:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/checkout_step_1.md
+[LINE_RANGE] 49-65
+[QUOTE]
+"Full Name
+
+Email
+
+Phone
+
+Street Address
+
+City
+
+State
+
+Zip
+
+Routing #
+
+Account Number"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.peptidesystems.com/product-page/nad
+[FETCHED_AT] 2026-05-07T18:19:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_1__nad.md
+[LINE_RANGE] 261-261
+[QUOTE]
+"We accept payments with all major credit cards."
+[/QUOTE]
+[URL] https://www.peptidesystems.com/achcheckout
+[FETCHED_AT] 2026-05-07T18:20:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/checkout_step_1.md
+[LINE_RANGE] 63-65
+[QUOTE]
+"Routing #
+
+Account Number"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.peptidesystems.com/shipping-policy
+[FETCHED_AT] 2026-05-07T18:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/shipping.md
+[LINE_RANGE] 82-82
+[QUOTE]
+"Carrier Verification: When a delivery issue is reported, we first verify the official status provided by the shipping carrier (e.g., USPS, UPS)."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.peptidesystems.com/shipping-policy
+[FETCHED_AT] 2026-05-07T18:19:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/shipping.md
+[LINE_RANGE] 66-66
+[QUOTE]
+"Free Shipping: We are pleased to offer Free Shipping on all orders, regardless of size or value."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://www.peptidesystems.com
+[FETCHED_AT] 2026-05-07T18:20:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/source_homepage.md
+[LINE_RANGE] 15-15
+[QUOTE]
+"Wix.com Website Builder"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://www.peptidesystems.com
+[FETCHED_AT] 2026-05-07T18:20:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/source_homepage.md
+[LINE_RANGE] 17-17
+[QUOTE]
+"static.wixstatic.com/media/57d327_c56bfffd954f4b70a6c79b25e1f7235e"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://www.peptidesystems.com
+[FETCHED_AT] 2026-05-07T18:20:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/source_homepage.md
+[LINE_RANGE] 140-140
+[QUOTE]
+"analytics.ahrefs.com/analytics.js"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://www.peptidesystems.com
+[FETCHED_AT] 2026-05-07T18:20:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/source_homepage.md
+[LINE_RANGE] 135-135
+[QUOTE]
+"ef798a519ad8355ddd21539db2fa6fed"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.peptidesystems.com/learn
+[FETCHED_AT] 2026-05-07T18:19:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/blog_1.md
+[LINE_RANGE] 48-50
+[QUOTE]
+"  * [Industry Intelligence](https://www.peptidesystems.com/learn/categories/industry-intelligence)
+  * [Peptide Science](https://www.peptidesystems.com/learn/categories/peptide-science)
+  * [Lab Protocols](https://www.peptidesystems.com/learn/categories/lab-protocols)"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://www.peptidesystems.com/learn
+[FETCHED_AT] 2026-05-07T18:19:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/blog_1.md
+[LINE_RANGE] 54-54
+[QUOTE]
+"Check back soon"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[INFERENCE] false
+[REASONING]
+No review widget, star rating, or testimonial block was found on either the homepage or NAD product page during curl fetch. The product page HTML shows no review section; the Wix platform's review module is not referenced anywhere in the rendered text.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.peptidesystems.com/product-page/nad
+[FETCHED_AT] 2026-05-07T18:19:23Z
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_1__nad.md
+[LINE_RANGE] 215-220
+"SKU: PS-NAD+-500mg-RUO
+
+$100.00Price
+
+Free shipping
+
+Quantity*"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.peptidesystems.com
+[FETCHED_AT] 2026-05-07T18:17:16Z
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/homepage.md
+[LINE_RANGE] 47-51
+"# Purity
+Precision
+Peptide Systems
+
+[Buy Now ](https://www.peptidesystems.com/products)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[0].name (NAD+ 500mg)
+[URL] https://www.peptidesystems.com/product-page/nad
+[FETCHED_AT] 2026-05-07T18:19:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_1__nad.md
+[LINE_RANGE] 215-217
+[QUOTE]
+"SKU: PS-NAD+-500mg-RUO
+
+$100.00Price"
+[/QUOTE]
+
+[CLAIM] skus[1].name (BPC-157 + TB-500 10mg)
+[URL] https://www.peptidesystems.com/product-page/bpc-157-tb-500
+[FETCHED_AT] 2026-05-07T18:23:14Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_2__bpc-157-tb-500.md
+[LINE_RANGE] 88-92
+[QUOTE]
+"    1 vial| $99| —
+    2 vials| $95| Save 4 %
+    3 vials| $91| Save 8 %
+    4 vials| $87| Save 12 %
+    5 vials| $85| Save 16 %"
+[/QUOTE]
+
+[CLAIM] skus[2].name (Ipamorelin + CJC-1295 5mg)
+[URL] https://www.peptidesystems.com/product-page/ipamorelin-cjc-1295
+[FETCHED_AT] 2026-05-07T18:23:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_3__ipamorelin-cjc-1295.md
+[LINE_RANGE] 143-145
+[QUOTE]
+"SKU: IPA-CJC-5MG
+$103.00Price"
+[/QUOTE]
+
+[CLAIM] skus[3].name (Selank 5mg)
+[URL] https://www.peptidesystems.com/product-page/selank
+[FETCHED_AT] 2026-05-07T18:23:51Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_4__selank.md
+[LINE_RANGE] 130-132
+[QUOTE]
+"SKU: PSY-SELANK-5MG-1V
+$65.00Price"
+[/QUOTE]
+
+[CLAIM] skus[4].name (Semax 10mg)
+[URL] https://www.peptidesystems.com/product-page/semax
+[FETCHED_AT] 2026-05-07T18:24:17Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-systems/product_5__semax.md
+[LINE_RANGE] 112-114
+[QUOTE]
+"SKU: PSY-SEMAX-10MG-1V
+$65.00Price"
+[/QUOTE]

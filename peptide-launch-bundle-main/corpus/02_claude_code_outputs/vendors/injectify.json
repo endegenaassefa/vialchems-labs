@@ -1,0 +1,223 @@
+{
+  "vendor_slug": "injectify",
+  "brand_name": "Injectify",
+  "primary_domain": "https://injectify.is",
+
+  "fetched_url": "https://us.injectify.is/",
+  "fetched_at": "2026-05-07T23:36:28Z",
+  "fetch_status": "partial",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.55,
+
+  "country_of_operation": "United States (legal entity: INJ BIO LABS LLC, New York, NY)",
+  "fulfillment_country": "United States (US store ships from US fulfillment center); Canada (Canadian store ships from Canadian fulfillment center, Ottawa, ON)",
+  "ship_to_scope": "us_intl",
+  "year_established": "2025",
+
+  "homepage": {
+    "hero_copy_excerpt": "Certified purity, research standards",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Explore more",
+    "navigation_pattern": "Top nav: Home, Shop, FAQ, Testing, Contact. Footer: My account, Contact, Shipping policy, Refund policy, Terms of service, Privacy policy.",
+    "footer_disclaimers": "For research use only.\nIndependently verified, every result documented.\nCopyright © 2025 Injectify, a trading name of INJ BIO LABS LLC. All Rights Reserved."
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": ["Peptides", "Blends", "L-Carnitine", "Bulk", "Capsules"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "true"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "This product is sold strictly for laboratory research purposes only. It is not for human or animal use, and not for therapeutic or diagnostic applications.\n\nBy purchasing, you confirm that you are a qualified individual using this product in accordance with all applicable laws and research regulations.",
+    "coa_present": "true",
+    "coa_hosting": "third_party_portal",
+    "lab_partner_named": "Janoshik",
+    "batch_lot_transparency": "true",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "All Products sold by Injectify.is are strictly for laboratory research purposes. They have not been approved for human or veterinary use, nor for diagnosis or treatment.",
+    "age_gate_present": "true",
+    "jurisdictional_restriction_notice": "IMPORTANT: Some US states may have specific regulations regarding supplement shipments. It is the buyer’s responsibility to verify compliance with their state’s regulations before placing an order.",
+    "tos_url": "https://us.injectify.is/terms-of-service/",
+    "tos_highlights": "INJ BIO LABS LLC, New York LLC, operations in Ottawa ON Canada. Research use only. Age 21+. Prohibited conduct includes fraudulent registration. Governing law: New York State. No warranty. Liability cap: USD/CAD amount paid in 6 months or CAD 500.",
+    "refund_policy": "Strict no-return policy. All sales final. Store credit only (never expires). No refunds to original payment method. Damaged/defective: contact within 48 hours with photos for replacement or store credit at discretion.",
+    "shipping_policy": "Ships to 47 US states (excludes Hawaii, Alaska, Puerto Rico). Free shipping on orders over $150 USD. Standard shipping only; estimated delivery shown at checkout. Processing 1-2 business days. International orders via ca.injectify.is only."
+  },
+
+  "checkout_flow": {
+    "account_required": "true",
+    "guest_checkout_available": "false",
+    "fields_collected": ["Business Type (Research Labs/Institutions, Universities, Medical Facilities, Businesses)", "email", "password", "agreement to Terms & Conditions"],
+    "id_verification_present": "true",
+    "payment_methods_accepted": ["BTCPay (Bitcoin)", "e-Transfer (Canada only)"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "Free on orders over $150 USD; calculated at checkout below threshold",
+    "international_policy": "US store ships to 47 states only. International orders via ca.injectify.is."
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "false",
+    "blog_url": "none",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["Finnrick (29 samples, 6 products; overall rating A; testing period April 22 2025 to September 5 2025)"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [
+    {
+      "sku_id": "injectify:igf-1-des",
+      "name": "IGF-1 DES",
+      "peptide_canonical": "other",
+      "peptide_variant": "empty",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": 70.00,
+      "sale_price_usd": 44.99,
+      "sale_observed_at": "2026-05-07T23:36:28Z",
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://us.injectify.is/product/igf-1-des/",
+      "raw_artifact": "03_raw_fetches/injectify/homepage.md",
+      "evidence_entry_id": "claim-skus-igf1des"
+    },
+    {
+      "sku_id": "injectify:kisspeptin",
+      "name": "Kisspeptin",
+      "peptide_canonical": "other",
+      "peptide_variant": "empty",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": 90.00,
+      "sale_price_usd": 48.99,
+      "sale_observed_at": "2026-05-07T23:36:28Z",
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://us.injectify.is/product/kisspeptin/",
+      "raw_artifact": "03_raw_fetches/injectify/homepage.md",
+      "evidence_entry_id": "claim-skus-kisspeptin"
+    },
+    {
+      "sku_id": "injectify:bpc-157-tb500-10x-bundle",
+      "name": "5 x BPC-157 + 5 x TB500 – Bulk 10 Vials Bundle",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "empty",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "10 vials",
+      "list_price_usd": 800.00,
+      "sale_price_usd": 449.99,
+      "sale_observed_at": "2026-05-07T23:36:28Z",
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "10-pack",
+      "bundle_membership": ["bpc157-tb500-bundle"],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://us.injectify.is/product/bpc-157-tb500-10x-bundle/",
+      "raw_artifact": "03_raw_fetches/injectify/homepage.md",
+      "evidence_entry_id": "claim-skus-bpc-tb-bundle"
+    },
+    {
+      "sku_id": "injectify:thymosin-alpha-1",
+      "name": "Thymosin Alpha-1",
+      "peptide_canonical": "Thymosin Alpha-1",
+      "peptide_variant": "empty",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": 135.00,
+      "sale_price_usd": 81.99,
+      "sale_observed_at": "2026-05-07T23:36:28Z",
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://us.injectify.is/product/thymosin-alpha-1/",
+      "raw_artifact": "03_raw_fetches/injectify/homepage.md",
+      "evidence_entry_id": "claim-skus-thymosin-alpha1"
+    },
+    {
+      "sku_id": "injectify:cjc-1295-without-dac",
+      "name": "CJC-1295 without DAC",
+      "peptide_canonical": "CJC-1295 (without DAC)",
+      "peptide_variant": "empty",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": 98.00,
+      "sale_price_usd": 61.99,
+      "sale_observed_at": "2026-05-07T23:36:28Z",
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://us.injectify.is/product/cjc-1295-without-dac/",
+      "raw_artifact": "03_raw_fetches/injectify/homepage.md",
+      "evidence_entry_id": "claim-skus-cjc1295"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "injectify,Injectify,injectify.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list, classified as Tier 3: Small retail supplier."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/injectify/",
+  "evidence_file": "evidence/injectify.txt",
+  "uncertainty_notes": "catalog.sku_count: uncertain — shop page at us.injectify.is/shop/ redirects to registration wall; product catalog not accessible without account (§11 bounds, no account creation). product_page_anatomy.sample_product_url: uncertain — product pages redirect to /register/ without account. product_page_anatomy.dose_options, list_price, per_mg_cost, photographic_treatment, description_copy_excerpt: uncertain — product detail pages inaccessible without account. product_page_anatomy.customer_review_module_present, related_product_modules_present: uncertain — product pages inaccessible. tech_stack.cdn, analytics_tools_loaded, marketing_pixels_present, chat_widget_present: uncertain — no source HTML fetched (JS-rendered headless approach not used; WooCommerce platform confirmed via wp-content URL paths in testing.md). content_footprint.blog_present: inferred false — no blog link visible in homepage navigation (Home, Shop, FAQ, Testing, Contact) or footer; no blog URL found in any fetched page. social_proof.on_site_reviews: uncertain — review module visibility not confirmed without product page access. social_proof.testimonial_usage, visible_influencer_endorsements: uncertain — not visible on homepage. skus: dose_value, concentration, bottle_size, per_mg_price_usd uncertain for all SKUs — only name and list/sale prices captured from homepage best-sellers widget; product pages gated behind registration. year_established: inferred 2025 — copyright notice says 2025; Finnrick testing data begins April 22 2025; wp-content image paths contain /2025/10/ (October 2025), all consistent with 2025 launch. No earlier data found in Wayback Machine or other sources. checkout_flow.shipping_carriers: uncertain — checkout page not reached without account creation."
+}

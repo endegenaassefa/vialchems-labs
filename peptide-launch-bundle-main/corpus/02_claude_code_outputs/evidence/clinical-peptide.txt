@@ -1,0 +1,158 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] http://clinicalpeptide.com/
+[FETCHED_AT] 2026-05-07T01:19:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/clinical-peptide/homepage.md
+[LINE_RANGE] 10-15
+[QUOTE]
+Registered at
+
+If this is your domain, you can manage it in your Hostinger account. 
+
+[Manage domain ](https://hpanel.hostinger.com/domains?utm_source=parked-domain&utm_medium=referral)
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] http://clinicalpeptide.com/
+[FETCHED_AT] 2026-05-07T01:19:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/clinical-peptide/homepage.md
+[LINE_RANGE] 22-22
+[QUOTE]
+[Get Web hosting](https://www.hostinger.com/web-hosting?utm_source=parked-domain&utm_medium=referral)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] http://clinicalpeptide.com/
+[FETCHED_AT] 2026-05-07T01:19:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/clinical-peptide/homepage.md
+[LINE_RANGE] 42-46
+[QUOTE]
+### Look professional with email
+
+Create a business email that matches your domain. Build your brand with a professional email address like **info@example.com**. 
+
+[Create email](https://www.hostinger.com/business-email?utm_source=parked-domain&utm_medium=referral)
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] http://clinicalpeptide.com/
+[FETCHED_AT] 2026-05-07T01:22:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/clinical-peptide/source_homepage.md
+[LINE_RANGE] 19-19
+[QUOTE]
+<title>Parked Domain name on Hostinger DNS system</title>
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] http://clinicalpeptide.com/
+[FETCHED_AT] 2026-05-07T01:22:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/clinical-peptide/source_homepage.md
+[LINE_RANGE] 15-17
+[QUOTE]
+Server: hcdn
+alt-svc: h3=":443"; ma=86400
+x-hcdn-request-id: 378411874db07673eec08a7f3062eca9-dci-edge4
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] http://clinicalpeptide.com/
+[FETCHED_AT] 2026-05-07T01:22:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/clinical-peptide/source_homepage.md
+[LINE_RANGE] 19-19
+[QUOTE]
+https://www.googletagmanager.com/gtag/js?id=UA-26575989-44
+[/QUOTE]
+
+[CLAIM] tech_stack.seo_robots_directive
+[URL] http://clinicalpeptide.com/
+[FETCHED_AT] 2026-05-07T01:22:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/clinical-peptide/source_homepage.md
+[LINE_RANGE] 19-19
+[QUOTE]
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+[/QUOTE]
+
+[CLAIM] historical_context.archive_2017_for_sale
+[URL] https://web.archive.org/web/20170204011649/http://clinicalpeptide.com/
+[FETCHED_AT] 2026-05-07T01:21:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/clinical-peptide/archive_2017_homepage.md
+[LINE_RANGE] 12-20
+[QUOTE]
+# The domain name 
+
+clinicalpeptide.com
+
+is for sale!
+
+[](https://web.archive.org/web/20170204011649/https://undeveloped.com/domain-seller/metarev-llc?utm_campaign=Parking&utm_medium=parking&utm_source=.com&utm_term=clinicalpeptide.com)Sold by
+
+[Metarev LLC](https://web.archive.org/web/20170204011649/https://undeveloped.com/domain-seller/metarev-llc?utm_campaign=Parking&utm_medium=parking&utm_source=.com&utm_term=clinicalpeptide.com)
+[/QUOTE]
+
+[CLAIM] historical_context.archive_2018_for_sale
+[URL] https://web.archive.org/web/20181127051610/https://clinicalpeptide.com/
+[FETCHED_AT] 2026-05-07T01:21:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/clinical-peptide/archive_2018_homepage.md
+[LINE_RANGE] 10-18
+[QUOTE]
+# The domain name 
+
+ClinicalPeptide.com __
+
+is for sale!
+
+[](https://web.archive.org/web/20181127051610/https://undeveloped.com/domain-seller/metarev-llc?utm_campaign=Parking&utm_medium=parking&utm_source=.com&utm_term=clinicalpeptide.com)Listed by
+
+[Metarev LLC](https://web.archive.org/web/20181127051610/https://undeveloped.com/domain-seller/metarev-llc?utm_campaign=Parking&utm_medium=parking&utm_source=.com&utm_term=clinicalpeptide.com)
+[/QUOTE]
+
+[CLAIM] historical_context.archive_2025_hostinger_park
+[URL] https://web.archive.org/web/20250710091127/http://clinicalpeptide.com/
+[FETCHED_AT] 2026-05-07T01:21:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/clinical-peptide/archive_2025_homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+Parked Domain name on Hostinger DNS system
+[/QUOTE]
+
+[CLAIM] fetch_status.failed_no_vendor_present
+[INFERENCE] failed
+[REASONING]
+The seed list classifies clinical-peptide / clinicalpeptide.com as "Tier 1: Trusted medical supplier for clinics," but every fetched artifact (live HTTP, three Wayback Machine snapshots spanning 2017-2025) shows the domain has never hosted a peptide vendor business: 2017 and 2018 snapshots show a domain-for-sale listing on Undeveloped.com via Metarev LLC; the current live response is a Hostinger DNS-parked-domain placeholder; the only analytics ID loaded is Hostinger's own UA-26575989-44 GA4 property. HTTPS additionally fails with a TLS 1.x internal-error handshake fault. There is no homepage hero copy, no catalog, no SKUs, no compliance pages, no checkout, and no business identity at this URL — there is nothing for a Tier 1 schema to capture beyond identity and historical context.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] http://clinicalpeptide.com/
+[FETCHED_AT] 2026-05-07T01:19:57Z
+[RAW_ARTIFACT] 03_raw_fetches/clinical-peptide/homepage.md
+[LINE_RANGE] 10-12
+"Registered at
+
+If this is your domain, you can manage it in your Hostinger account. "
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20170204011649/http://clinicalpeptide.com/
+[FETCHED_AT] 2026-05-07T01:21:54Z
+[RAW_ARTIFACT] 03_raw_fetches/clinical-peptide/archive_2017_homepage.md
+[LINE_RANGE] 14-16
+"clinicalpeptide.com
+
+is for sale!"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20181127051610/https://clinicalpeptide.com/
+[FETCHED_AT] 2026-05-07T01:21:54Z
+[RAW_ARTIFACT] 03_raw_fetches/clinical-peptide/archive_2018_homepage.md
+[LINE_RANGE] 12-14
+"ClinicalPeptide.com __
+
+is for sale!"
+[/SUPPORT_QUOTE]

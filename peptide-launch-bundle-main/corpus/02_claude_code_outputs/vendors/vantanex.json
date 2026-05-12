@@ -1,0 +1,210 @@
+{
+  "vendor_slug": "vantanex",
+  "brand_name": "Vantanex",
+  "primary_domain": "https://www.vantanex.com",
+  "fetched_url": "https://www.vantanex.com",
+  "fetched_at": "2026-05-08T08:43:06Z",
+  "fetch_status": "ok",
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed). Note: Vantanex is NOT a peptide vendor. It sells RU-58841 (a non-steroidal antiandrogen / androgen receptor antagonist used for hair loss research), not any peptides from the Pillar C required list. Many schema fields related to peptide catalog, checkout payment methods, checkout flow (requires account/log-in to proceed past cart), blog, social proof, and COA third-party hosting are inaccessible or not applicable. Field completion ratio reflects this scope mismatch.",
+  "field_completion_ratio": 0.96,
+  "country_of_operation": "Canada",
+  "fulfillment_country": "Canada",
+  "ship_to_scope": "us_intl",
+  "year_established": "uncertain",
+  "homepage": {
+    "hero_copy_excerpt": "Welcome to Vantanex Corp, where we offer a wide range of high-quality compounds for academic and scientific research purposes.",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Head to our shop and get started right away.",
+    "navigation_pattern": "Top nav: Home, RU-58841 (dropdown: RU-58841 5%, RU-58841 Minoxidil, Shop Canada, Shop USA), Our Approach, Quality, Support (dropdown: FAQ, Shipping, Privacy Policy, Terms and Conditions). Footer mirrors nav.",
+    "footer_disclaimers": "Shopping in CANADA? www.vantanex.com"
+  },
+  "catalog": {
+    "sku_count": 4,
+    "category_taxonomy": [
+      "RU-58841 topical solutions",
+      "Hair Loss research compounds"
+    ],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "false"
+  },
+  "product_page_anatomy": {
+    "sample_product_url": "https://www.vantanex.com/product-page/buy-ru-58841-canada",
+    "sample_product_name": "RU-58841",
+    "dose_options": [
+      "50 mg/mL (5% solution)"
+    ],
+    "list_price": "$45.99",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "RU-58841 - 5% Solution (50 mg/mL) Research-grade Androgen Receptor Antagonist CAS #154992-24-2 Application: Specific Androgen Receptor Antagonist Molar Mass: 369.34 g/mol Formula: C17H18F3N3O3",
+    "exact_disclaimer_language": "This material is sold for laboratory research use only. Terms of sale apply. Not for human consumption, nor medical, veterinary, or household uses. Please refer to our Terms & Conditions prior to ordering.",
+    "coa_present": "false",
+    "coa_hosting": "none",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "false",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "false"
+  },
+  "trust_compliance": {
+    "research_use_only_phrasing": "The chemicals and products sold on Vantanex.com are intended strictly for laboratory and research purpose only. Any product offered on www.vantanex.com are not for human or veterinary use.",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "It is your responsibility as a customer for knowing the laws in your country before ordering.",
+    "tos_url": "https://www.vantanex.com/terms-and-conditions",
+    "tos_highlights": "Age 19+ required; chemicals for lab/research only; not for human/veterinary use; no returns; buyer assumes all risk; jurisdiction is Calgary, Alberta Canada; no resale of compounds.",
+    "refund_policy": "Due to the nature of the product, returns are not accepted.",
+    "shipping_policy": "Canada Post will be used for both domestic and global shipping. Shipments will follow Canada Post Delivery Standards depending on location. Global shipping can take 1-6 weeks for delivery."
+  },
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": [
+      "uncertain"
+    ],
+    "id_verification_present": "false",
+    "payment_methods_accepted": [
+      "uncertain"
+    ],
+    "shipping_carriers": [
+      "Canada Post",
+      "FedEx",
+      "UPS",
+      "DHL",
+      "Purolator"
+    ],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "Global shipping available. Buyer responsible for customs fees and import duties. Vantanex declares full item values (HS Tariff Code 3822.00.60 for RU-58841 with Minoxidil; HS Tariff Code 2933.29.35.00 for all other products). Not responsible for custom seizures in countries where product is prohibited."
+  },
+  "tech_stack": {
+    "platform_signal": "wix",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": [
+      "uncertain"
+    ],
+    "marketing_pixels_present": [
+      "uncertain"
+    ],
+    "chat_widget_present": "false"
+  },
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "http://www.vantanexcorp.com/blog",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": [
+      "RU-58841 mechanism of action",
+      "hair loss research"
+    ],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": [
+      "uncertain"
+    ],
+    "testimonial_usage": "none observed on fetched pages",
+    "visible_influencer_endorsements": "none observed on fetched pages"
+  },
+  "skus": [
+    {
+      "sku_id": "vantanex:ru-58841-5pct",
+      "name": "RU-58841 5% Solution",
+      "peptide_canonical": "other",
+      "peptide_variant": "RU-58841 topical solution 50mg/mL in PG/ethanol",
+      "dose_value": 50,
+      "dose_unit": "mg",
+      "format": "other",
+      "concentration": "50 mg/mL",
+      "bottle_size": "uncertain",
+      "list_price_usd": 45.99,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://www.vantanex.com/product-page/buy-ru-58841-canada",
+      "raw_artifact": "03_raw_fetches/vantanex/product_1__ru-58841-5pct.md",
+      "evidence_entry_id": "claim-5"
+    },
+    {
+      "sku_id": "vantanex:ru-58841-minoxidil",
+      "name": "RU-58841 with Minoxidil",
+      "peptide_canonical": "other",
+      "peptide_variant": "RU-58841 + Minoxidil combo topical",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "other",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": 69.99,
+      "sale_price_usd": 64.99,
+      "sale_observed_at": "2026-05-08T08:43:06Z",
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://www.vantanex.com/product-page/ru-58841-with-minoxidil",
+      "raw_artifact": "03_raw_fetches/vantanex/catalog_1.md",
+      "evidence_entry_id": "claim-6"
+    },
+    {
+      "sku_id": "vantanex:ru-58841-plus",
+      "name": "RU-58841 (PLUS)",
+      "peptide_canonical": "other",
+      "peptide_variant": "RU-58841 PLUS formulation",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "other",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": 62.99,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://www.vantanex.com/product-page/ru-58841-plus-ships-from-usa",
+      "raw_artifact": "03_raw_fetches/vantanex/catalog_1.md",
+      "evidence_entry_id": "claim-7"
+    },
+    {
+      "sku_id": "vantanex:ru-58841-8pct",
+      "name": "RU-58841 (8%)",
+      "peptide_canonical": "other",
+      "peptide_variant": "RU-58841 8% topical solution",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "other",
+      "concentration": "8% (80 mg/mL implied)",
+      "bottle_size": "uncertain",
+      "list_price_usd": 69.99,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://www.vantanex.com/product-page/ru-58841-8-ships-from-usa",
+      "raw_artifact": "03_raw_fetches/vantanex/catalog_1.md",
+      "evidence_entry_id": "claim-8"
+    }
+  ],
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "vantanex,Vantanex,vantanex.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list classified as Tier 3: Small retail supplier.,3,as-assigned (operator seed),pending"
+  },
+  "raw_fetches_dir": "03_raw_fetches/vantanex/",
+  "evidence_file": "evidence/vantanex.txt",
+  "uncertainty_notes": "1. checkout_flow.account_required, guest_checkout_available, fields_collected, payment_methods_accepted, shipping_cost_structure: The checkout flow requires a Wix account login (Log In button visible in nav); proceeding past Add-to-Cart to payment method selection was not possible without account creation per §11 bounds. Fields and payment methods remain uncertain. 2. product_page_anatomy.per_mg_cost: bottle volume not stated on fetched product page; cannot compute per-mg without confirmed volume (mL). Marked uncertain. 3. product_page_anatomy.photographic_treatment: images are CDN-hosted Wix media; markdown render shows no alt-text; treatment uncertain. 4. product_page_anatomy.coa_present / coa_hosting / lab_partner_named: no COA links or third-party testing lab named on any fetched page; HPLC >98% claim is made on homepage (line 101) but no downloadable COA or named lab partner found. 5. catalog.search_filter_capabilities: Wix-rendered JS SPA; filter UI not rendered in curl text. 6. tech_stack.analytics_tools_loaded / marketing_pixels_present: Wix Thunderbolt bundles load dynamically via JS; no GA/GTM/pixel script tags present in initial HTML response. Uncertain. 7. content_footprint: blog URL on homepage points to vantanexcorp.com/blog (alternate domain); blog fetch was not performed (not in Tier 3 baseline scope per directive §2.1). 8. social_proof.off_site_aggregators: no Trustpilot or review aggregator links observed on fetched pages. 9. year_established: not stated on any fetched page. 10. SCOPE NOTE: Vantanex sells RU-58841 (a non-steroidal androgen receptor antagonist for hair loss research), NOT peptides. None of the 34 peptides required by Pillar C (BPC-157, TB-500, etc.) are sold here. The vendor is Tier 3 baseline only. 11. sku dose_value for ru-58841-minoxidil, ru-58841-plus, ru-58841-8pct: concentration/volume per vial not stated in catalog listing; would require individual product page fetches (not in Tier 3 baseline scope). | tech_stack.cdn: marked uncertain because Pepyaka/Fastly server header was not byte-matchable in saved source_homepage.md (header section not preserved in html2text output)."
+}

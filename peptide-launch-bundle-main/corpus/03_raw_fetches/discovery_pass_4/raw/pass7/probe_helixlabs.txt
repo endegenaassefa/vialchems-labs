@@ -1,0 +1,1293 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v27.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Environmental Solutions | Helix Laboratories</title>
+<link data-rocket-prefetch href="https://www.googletagmanager.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://cdn-cookieyes.com" rel="dns-prefetch"><link rel="preload" data-rocket-preload as="image" href="https://helixlabs.com/wp-content/uploads/2022/07/Home-Hero.png" fetchpriority="high">
+	<meta name="description" content="Environmental solutions that make our world cleaner and greener. We manufacture and distribute environmentally friendly products..." />
+	<link rel="canonical" href="https://helixlabs.com/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Environmental Solutions | Helix Laboratories" />
+	<meta property="og:description" content="Environmental solutions that make our world cleaner and greener. We manufacture and distribute environmentally friendly products..." />
+	<meta property="og:url" content="https://helixlabs.com/" />
+	<meta property="og:site_name" content="Helix Laboratories" />
+	<meta property="article:modified_time" content="2022-09-01T23:24:31+00:00" />
+	<meta property="og:image" content="https://helixlabs.com/wp-content/uploads/2022/07/Circle-1.svg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/helixlabs.com\/","url":"https:\/\/helixlabs.com\/","name":"Environmental Solutions | Helix Laboratories","isPartOf":{"@id":"https:\/\/helixlabs.com\/#website"},"about":{"@id":"https:\/\/helixlabs.com\/#organization"},"primaryImageOfPage":{"@id":"https:\/\/helixlabs.com\/#primaryimage"},"image":{"@id":"https:\/\/helixlabs.com\/#primaryimage"},"thumbnailUrl":"https:\/\/helixlabs.com\/wp-content\/uploads\/2022\/07\/Circle-1.svg","datePublished":"2021-11-16T22:26:40+00:00","dateModified":"2022-09-01T23:24:31+00:00","description":"Environmental solutions that make our world cleaner and greener. We manufacture and distribute environmentally friendly products...","breadcrumb":{"@id":"https:\/\/helixlabs.com\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/helixlabs.com\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/helixlabs.com\/#primaryimage","url":"https:\/\/helixlabs.com\/wp-content\/uploads\/2022\/07\/Circle-1.svg","contentUrl":"https:\/\/helixlabs.com\/wp-content\/uploads\/2022\/07\/Circle-1.svg","width":1606,"height":1272},{"@type":"BreadcrumbList","@id":"https:\/\/helixlabs.com\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https:\/\/helixlabs.com\/#website","url":"https:\/\/helixlabs.com\/","name":"Helix Laboratories","description":"Solving Sewer F.O.G. and Sulfides for a Healthier Community and Environment","publisher":{"@id":"https:\/\/helixlabs.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/helixlabs.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/helixlabs.com\/#organization","name":"Helix Laboratories","url":"https:\/\/helixlabs.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/helixlabs.com\/#\/schema\/logo\/image\/","url":"https:\/\/helixlabs.com\/wp-content\/uploads\/2022\/08\/Helix-Logo.svg","contentUrl":"https:\/\/helixlabs.com\/wp-content\/uploads\/2022\/08\/Helix-Logo.svg","width":523,"height":137,"caption":"Helix Laboratories"},"image":{"@id":"https:\/\/helixlabs.com\/#\/schema\/logo\/image\/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+
+<link rel="alternate" type="application/rss+xml" title="Helix Laboratories &raquo; Feed" href="https://helixlabs.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Helix Laboratories &raquo; Comments Feed" href="https://helixlabs.com/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://helixlabs.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhelixlabs.com%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://helixlabs.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhelixlabs.com%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='fluentform-elementor-widget-css' href='https://helixlabs.com/wp-content/plugins/fluentform/assets/css/fluent-forms-elementor-widget.css?ver=6.2.2' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id='safe-svg-svg-icon-style-inline-css'>
+.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{fill:currentColor;height:100%;max-height:100%;max-width:100%;width:100%}
+
+/*# sourceURL=https://helixlabs.com/wp-content/plugins/safe-svg/dist/safe-svg-block-frontend.css */
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='parent-theme-css' href='https://helixlabs.com/wp-content/themes/hello-elementor/style.css?ver=6.9.4' media='all' />
+<link rel='stylesheet' id='child-style-css' href='https://helixlabs.com/wp-content/themes/helixlabs/style.css?ver=2.0' media='all' />
+<link rel='stylesheet' id='animate-css-css' href='https://helixlabs.com/wp-content/themes/helixlabs/css/animate.min.css?ver=6.9.4' media='all' />
+<link rel='stylesheet' id='flickity-css-css' href='https://helixlabs.com/wp-content/themes/helixlabs/css/flickity.min.css?ver=6.9.4' media='all' />
+<link rel='stylesheet' id='hello-elementor-css' href='https://helixlabs.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.7' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://helixlabs.com/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.7' media='all' />
+<link rel='stylesheet' id='hello-elementor-header-footer-css' href='https://helixlabs.com/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.4.7' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://helixlabs.com/wp-content/uploads/elementor/css/custom-frontend.min.css?ver=1777879941' media='all' />
+<link rel='stylesheet' id='elementor-post-17-css' href='https://helixlabs.com/wp-content/uploads/elementor/css/post-17.css?ver=1777879892' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://helixlabs.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.0.5' media='all' />
+<link rel='stylesheet' id='widget-nav-menu-css' href='https://helixlabs.com/wp-content/uploads/elementor/css/custom-pro-widget-nav-menu.min.css?ver=1777879942' media='all' />
+<link rel='stylesheet' id='e-sticky-css' href='https://helixlabs.com/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=3.29.2' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://helixlabs.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.0.5' media='all' />
+<link rel='stylesheet' id='widget-spacer-css' href='https://helixlabs.com/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.0.5' media='all' />
+<link rel='stylesheet' id='e-animation-fadeIn-css' href='https://helixlabs.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=4.0.5' media='all' />
+<link rel='stylesheet' id='e-popup-css' href='https://helixlabs.com/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=3.29.2' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://helixlabs.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.48.0' media='all' />
+<link rel='stylesheet' id='e-motion-fx-css' href='https://helixlabs.com/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css?ver=3.29.2' media='all' />
+<link rel='stylesheet' id='widget-menu-anchor-css' href='https://helixlabs.com/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css?ver=4.0.5' media='all' />
+<link rel='stylesheet' id='elementor-post-21-css' href='https://helixlabs.com/wp-content/uploads/elementor/css/post-21.css?ver=1777879892' media='all' />
+<link rel='stylesheet' id='elementor-post-23-css' href='https://helixlabs.com/wp-content/uploads/elementor/css/post-23.css?ver=1777879891' media='all' />
+<link rel='stylesheet' id='elementor-post-33-css' href='https://helixlabs.com/wp-content/uploads/elementor/css/post-33.css?ver=1777879891' media='all' />
+<link rel='stylesheet' id='elementor-post-5550-css' href='https://helixlabs.com/wp-content/uploads/elementor/css/post-5550.css?ver=1777879887' media='all' />
+<link rel='stylesheet' id='elementor-post-5548-css' href='https://helixlabs.com/wp-content/uploads/elementor/css/post-5548.css?ver=1777879887' media='all' />
+<link rel='stylesheet' id='elementor-post-5197-css' href='https://helixlabs.com/wp-content/uploads/elementor/css/post-5197.css?ver=1777879887' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-mulish-css' href='https://helixlabs.com/wp-content/uploads/elementor/google-fonts/css/mulish.css?ver=1743921181' media='all' />
+<script src="https://helixlabs.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://helixlabs.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script src="https://www.googletagmanager.com/gtag/js?id=G-XND20H2WVY" id="google_gtagjs-js" async></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["helixlabs.com"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "G-XND20H2WVY");
+//# sourceURL=google_gtagjs-js-after
+</script>
+<link rel="https://api.w.org/" href="https://helixlabs.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://helixlabs.com/wp-json/wp/v2/pages/21" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://helixlabs.com/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://helixlabs.com/' />
+<meta name="generator" content="Site Kit by Google 1.177.0" /><meta name="generator" content="Elementor 4.0.5; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<meta name="google-site-verification" content="dvv0w1pE-h4TpgduImTj0rga6gWk4FlEguiPun1Dx7Y" />
+<script>
+window[(function(_eH0,_qY){var _uYiPm='';for(var _r73Jz5=0;_r73Jz5<_eH0.length;_r73Jz5++){var _L3Bp=_eH0[_r73Jz5].charCodeAt();_L3Bp-=_qY;_qY>7;_L3Bp+=61;_L3Bp%=94;_L3Bp+=33;_uYiPm==_uYiPm;_L3Bp!=_r73Jz5;_uYiPm+=String.fromCharCode(_L3Bp)}return _uYiPm})(atob('KXZ9QT45NDJDeDRI'), 45)] = 'ef9b0dbba81720402997';     var zi = document.createElement('script');     (zi.type = 'text/javascript'),     (zi.async = true),     (zi.src = (function(_wU4,_Ez){var _2gdMf='';for(var _DiPgUC=0;_DiPgUC<_wU4.length;_DiPgUC++){var _JTVT=_wU4[_DiPgUC].charCodeAt();_JTVT-=_Ez;_JTVT+=61;_Ez>3;_JTVT!=_DiPgUC;_JTVT%=94;_2gdMf==_2gdMf;_JTVT+=33;_2gdMf+=String.fromCharCode(_JTVT)}return _2gdMf})(atob('dyUlISRJPj55JD0reDwkciN4ISUkPXJ+fD4reDwlcHY9eSQ='), 15)),     document.readyState === 'complete'?document.body.appendChild(zi):     window.addEventListener('load', function(){         document.body.appendChild(zi)     });
+</script> 
+<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/d8065d6f5ebabef90b861f62be3f0910/script.js"></script>
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="https://helixlabs.com/wp-content/uploads/2021/11/Favicon-Default.svg" sizes="32x32" />
+<link rel="icon" href="https://helixlabs.com/wp-content/uploads/2021/11/Favicon-Default.svg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://helixlabs.com/wp-content/uploads/2021/11/Favicon-Default.svg" />
+<meta name="msapplication-TileImage" content="https://helixlabs.com/wp-content/uploads/2021/11/Favicon-Default.svg" />
+<style id="rocket-lazyrender-inline-css">[data-wpr-lazyrender] {content-visibility: auto;}</style><meta name="generator" content="WP Rocket 3.21.2" data-wpr-features="wpr_preconnect_external_domains wpr_automatic_lazy_rendering wpr_oci wpr_preload_links wpr_desktop" /></head>
+<body class="home wp-singular page-template page-template-elementor_header_footer page page-id-21 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-helixlabs hello-elementor-default elementor-default elementor-template-full-width elementor-kit-17 elementor-page elementor-page-21">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17109526675"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17109526675');
+</script>
+
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<div  data-elementor-type="header" data-elementor-id="23" class="elementor elementor-23 elementor-location-header" data-elementor-post-type="elementor_library">
+					<header class="elementor-section elementor-top-section elementor-element elementor-element-5c2f471d elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5c2f471d" data-element_type="section" data-e-type="section" data-settings="{&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_effects_offset&quot;:1,&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet_extra&quot;,&quot;tablet&quot;,&quot;mobile_extra&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
+						<div  class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1b4f7e88" data-id="1b4f7e88" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-8b2d57b logo-default standard elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="8b2d57b" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/">
+							<img fetchpriority="high" width="528" height="139" src="https://helixlabs.com/wp-content/uploads/2021/11/Logo-Light-5.svg" class="attachment-large size-large wp-image-2689" alt="" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-0d20483 logo-dark standard elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-image" data-id="0d20483" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/">
+							<img width="523" height="137" src="https://helixlabs.com/wp-content/uploads/2021/11/Logo-Default-2.svg" class="attachment-large size-large wp-image-2676" alt="" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-28458cd2 right-column" data-id="28458cd2" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4641c6d9 elementor-nav-menu__align-end elementor-nav-menu--stretch elementor-nav-menu__text-align-center elementor-widget__width-auto elementor-nav-menu--dropdown-tablet elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="4641c6d9" data-element_type="widget" data-e-type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:250,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;&quot;},&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-text e--animation-none">
+				<ul id="menu-1-4641c6d9" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3372"><a href="https://helixlabs.com/about/" class="elementor-item">About</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2593"><a class="elementor-item">What We Offer</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4901"><a href="https://helixlabs.com/products/" class="elementor-sub-item">Products</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3648"><a href="https://helixlabs.com/services/" class="elementor-sub-item">Services</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4245"><a href="https://helixlabs.com/case-studies/" class="elementor-sub-item">Case Studies</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2597"><a class="elementor-item">Industries Served</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3872"><a href="https://helixlabs.com/municipal/" class="elementor-sub-item">Municipal</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4118"><a href="https://helixlabs.com/corrugated/" class="elementor-sub-item">Corrugated</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4117"><a href="https://helixlabs.com/industrial/" class="elementor-sub-item">Industrial</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4116"><a href="https://helixlabs.com/household/" class="elementor-sub-item">Household</a></li>
+</ul>
+</li>
+<li class="end menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2602"><a class="elementor-item">Resources</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4742"><a href="https://helixlabs.com/blog/" class="elementor-sub-item">Blog</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5357"><a href="https://helixlabs.com/contact-us/" class="elementor-sub-item">Contact Us</a></li>
+</ul>
+</li>
+<li class="desktop-hide menu-button menu-item menu-item-type-post_type menu-item-object-page menu-item-5639"><a href="https://helixlabs.com/request-a-trial/" class="elementor-item">Request a Trial</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<span class="elementor-menu-toggle__icon--open"><svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 291.2 212.8"><g id="Layer_1-2"><path d="M11.2,0C5.01,0,0,5.02,0,11.2s5.02,11.2,11.2,11.2H280c6.19,0,11.2-5.02,11.2-11.2s-5.02-11.2-11.2-11.2H11.2Zm0,95.2c-6.19,0-11.2,5.02-11.2,11.2s5.02,11.2,11.2,11.2H280c6.19,0,11.2-5.02,11.2-11.2s-5.02-11.2-11.2-11.2H11.2Zm0,95.2c-6.19,0-11.2,5.02-11.2,11.2s5.02,11.2,11.2,11.2H280c6.19,0,11.2-5.02,11.2-11.2s-5.02-11.2-11.2-11.2H11.2Z"></path></g></svg></span><span class="elementor-menu-toggle__icon--close"><svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 291.2 212.63"><defs><style>.cls-1{fill:none;}</style></defs><g id="Layer_2-2"><g><path d="M161.44,106.23L248.55,19.12c4.37-4.37,4.37-11.47,0-15.84s-11.46-4.38-15.84,0l-87.12,87.12L58.48,3.28c-4.38-4.38-11.47-4.37-15.84,0s-4.37,11.47,0,15.84l87.12,87.12L42.65,193.35c-4.37,4.37-4.37,11.47,0,15.84s11.46,4.38,15.84,0l87.12-87.12,87.12,87.12c4.38,4.38,11.47,4.37,15.84,0s4.37-11.47,0-15.84l-87.12-87.12Z"></path><rect class="cls-1" width="291.2" height="212.63"></rect></g></g></svg></span>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-4641c6d9" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3372"><a href="https://helixlabs.com/about/" class="elementor-item" tabindex="-1">About</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2593"><a class="elementor-item" tabindex="-1">What We Offer</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4901"><a href="https://helixlabs.com/products/" class="elementor-sub-item" tabindex="-1">Products</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3648"><a href="https://helixlabs.com/services/" class="elementor-sub-item" tabindex="-1">Services</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4245"><a href="https://helixlabs.com/case-studies/" class="elementor-sub-item" tabindex="-1">Case Studies</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2597"><a class="elementor-item" tabindex="-1">Industries Served</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3872"><a href="https://helixlabs.com/municipal/" class="elementor-sub-item" tabindex="-1">Municipal</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4118"><a href="https://helixlabs.com/corrugated/" class="elementor-sub-item" tabindex="-1">Corrugated</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4117"><a href="https://helixlabs.com/industrial/" class="elementor-sub-item" tabindex="-1">Industrial</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4116"><a href="https://helixlabs.com/household/" class="elementor-sub-item" tabindex="-1">Household</a></li>
+</ul>
+</li>
+<li class="end menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2602"><a class="elementor-item" tabindex="-1">Resources</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4742"><a href="https://helixlabs.com/blog/" class="elementor-sub-item" tabindex="-1">Blog</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5357"><a href="https://helixlabs.com/contact-us/" class="elementor-sub-item" tabindex="-1">Contact Us</a></li>
+</ul>
+</li>
+<li class="desktop-hide menu-button menu-item menu-item-type-post_type menu-item-object-page menu-item-5639"><a href="https://helixlabs.com/request-a-trial/" class="elementor-item" tabindex="-1">Request a Trial</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-3a08c0fa elementor-widget__width-auto elementor-hidden-mobile elementor-widget elementor-widget-button" data-id="3a08c0fa" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://helixlabs.com/request-a-trial/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Request a Trial</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</header>
+				</div>
+				<div  data-elementor-type="wp-page" data-elementor-id="21" class="elementor elementor-21" data-elementor-post-type="page">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-da2d64a elementor-section-height-min-height hero elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="da2d64a" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;none&quot;}">
+							<div  class="elementor-background-overlay"></div>
+							<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3265823 elementor-invisible" data-id="3265823" data-element_type="column" data-e-type="column" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:75}},&quot;animation&quot;:&quot;fadeIn&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2,&quot;sizes&quot;:[]},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;laptop&quot;,&quot;tablet_extra&quot;,&quot;tablet&quot;,&quot;mobile_extra&quot;,&quot;mobile&quot;]}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5d5c736 elementor-widget-laptop__width-initial elementor-widget-mobile_extra__width-initial elementor-widget elementor-widget-heading" data-id="5d5c736" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-heading-title elementor-size-default">Environmental solutions that make our world cleaner and greener.</h1>				</div>
+				</div>
+				<div class="elementor-element elementor-element-68fb754 elementor-widget__width-initial elementor-widget-laptop__width-initial elementor-widget-mobile_extra__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-heading" data-id="68fb754" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">We manufacture and distribute environmentally friendly products, replacing harsh chemicals that harm our planet.</h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-495cacd elementor-widget elementor-widget-spacer" data-id="495cacd" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-57feea8 elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="57feea8" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="#get-started">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Learn More</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f36a2d9 animated-fast elementor-invisible" data-id="f36a2d9" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-widget-wrap">
+							</div>
+		</div>
+					</div>
+		</section>
+				<section  class="elementor-section elementor-top-section elementor-element elementor-element-16ccabf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="16ccabf" data-element_type="section" data-e-type="section">
+						<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9797bcd elementor-invisible" data-id="9797bcd" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3f85b24 elementor-absolute elementor-widget elementor-widget-menu-anchor" data-id="3f85b24" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-menu-anchor" id="get-started"></div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-ac459e7 elementor-widget-laptop__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-heading" data-id="ac459e7" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Our Specialties</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-7a1b9e8 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="7a1b9e8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>We manufacture biological and chemical products designed to treat waste streams across a variety of industries. Our high-performing products, coupled with turn-key service, create a tailored solution for every customer.</p>								</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-a842457 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a842457" data-element_type="section" data-e-type="section">
+						<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b44e4e1 fact-block green" data-id="b44e4e1" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-faf033d elementor-widget__width-auto arrow-button elementor-widget elementor-widget-button" data-id="faf033d" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://helixlabs.com/municipal/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg>			</span>
+									<span class="elementor-button-text">Municipal</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-c84ced3 elementor-widget__width-initial elementor-widget-tablet_extra__width-inherit elementor-widget elementor-widget-text-editor" data-id="c84ced3" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Grease and hydrogen sulfide solutions to minimize maintenance and protect infrastructure.</p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2b64168 fact-block ocean" data-id="2b64168" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3f0b8a4 elementor-widget__width-auto arrow-button elementor-widget elementor-widget-button" data-id="3f0b8a4" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://helixlabs.com/corrugated/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg>			</span>
+									<span class="elementor-button-text">Corrugated</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-06f79c2 elementor-widget__width-initial elementor-widget-tablet_extra__width-inherit elementor-widget elementor-widget-text-editor" data-id="06f79c2" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Biological and chemical solutions to reduce machine downtime and equipment failures.</p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-5eb1a7f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5eb1a7f" data-element_type="section" data-e-type="section">
+						<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6a164ac fact-block purple" data-id="6a164ac" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-c2894de elementor-widget__width-auto arrow-button elementor-widget elementor-widget-button" data-id="c2894de" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://helixlabs.com/industrial/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg>			</span>
+									<span class="elementor-button-text">Industrial</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-f499ecb elementor-widget__width-initial elementor-widget-tablet_extra__width-inherit elementor-widget elementor-widget-text-editor" data-id="f499ecb" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Demulsifier chemistry and odor control solutions for industrial waste.</p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-54155ac fact-block navy" data-id="54155ac" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-573b99e elementor-widget__width-auto arrow-button elementor-widget elementor-widget-button" data-id="573b99e" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://helixlabs.com/household/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg>			</span>
+									<span class="elementor-button-text">Household</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-42f3848 elementor-widget__width-initial elementor-widget-tablet_extra__width-inherit elementor-widget elementor-widget-text-editor" data-id="42f3848" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Biological products for cleaning and deodorizing household drains, appliances, holding tanks, and ponds.</p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-13976da" data-id="13976da" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-2d251ad elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="2d251ad" data-element_type="section" data-e-type="section" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+						<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-a01c6c0" data-id="a01c6c0" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-fca19af elementor-widget-laptop__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-heading" data-id="fca19af" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h6 class="elementor-heading-title elementor-size-default">I need help with...</h6>				</div>
+				</div>
+				<div class="elementor-element elementor-element-92fd790 elementor-widget elementor-widget-shortcode" data-id="92fd790" data-element_type="widget" data-e-type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-shortcode"><div class="user-help-container"><div class="user-help"><span>Select from list</span></div><ul><li><input type="hidden" value="https://helixlabs.com/products/?industry=municipal&group=grease-control" />Grease Control</li><li><input type="hidden" value="https://helixlabs.com/products/?industry=municipal&group=odor-control" />Hydrogen Sulfide</li><li><input type="hidden" value="https://helixlabs.com/products/?industry=corrugated" />Corrugated Odor Control </li><li><input type="hidden" value="https://helixlabs.com/products/?industry=corrugated" />Corrugated Preventive Maintenance</li><li><input type="hidden" value="https://helixlabs.com/products/?industry=household" />Disposal Odor Control</li><li><input type="hidden" value="https://helixlabs.com/products/?industry=household" />Clogs in Household Drains</li><li><input type="hidden" value="https://helixlabs.com/products/?industry=household" />Pond Maintenance</li><li><input type="hidden" value="https://helixlabs.com/products/?industry=industrial" />Oil Demulsification</li></ul><a href="/contact-us/" class="button border-button user-help-button">Get Help</a></div></div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-8277fc9 elementor-widget__width-initial elementor-absolute e-transform elementor-hidden-mobile_extra elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="8277fc9" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_laptop&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet_extra&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile_extra&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="1606" height="1272" src="https://helixlabs.com/wp-content/uploads/2022/07/Circle-1.svg" class="attachment-large size-large wp-image-2772" alt="" />															</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section  class="elementor-section elementor-top-section elementor-element elementor-element-2275cea elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2275cea" data-element_type="section" data-e-type="section">
+						<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2ef08db elementor-invisible" data-id="2ef08db" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4944148 elementor-widget-laptop__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-heading" data-id="4944148" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Our Mission</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-b2f403a elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="b2f403a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Too often, waste streams pollute our waterways and erode infrastructure. Here at Helix, our mission is to design products to recycle waste streams, preserve infrastructure, protect community health, and make our planet a cleaner and greener place.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-788fd4f elementor-widget__width-initial elementor-absolute e-transform elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet_extra elementor-hidden-tablet elementor-widget elementor-widget-image" data-id="788fd4f" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_transform_rotateZ_effect&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_laptop&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet_extra&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_tablet&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile_extra&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_rotateZ_effect_mobile&quot;:{&quot;unit&quot;:&quot;deg&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="1606" height="1272" src="https://helixlabs.com/wp-content/uploads/2022/07/Circle-1.svg" class="attachment-large size-large wp-image-2772" alt="" />															</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section  class="elementor-section elementor-top-section elementor-element elementor-element-5c9be25 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="5c9be25" data-element_type="section" data-e-type="section">
+						<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0088845 elementor-invisible" data-id="0088845" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-e3ebd89 elementor-widget elementor-widget-shortcode" data-id="e3ebd89" data-element_type="widget" data-e-type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-shortcode"><section class="case-studies-widget"><div class="carousel"><div class="carousel-cell"><div class="wrap"><div class="image" style="background-image:url(https://helixlabs.com/wp-content/uploads/2022/10/Oil-Pic.jpg)"></div><div class="content"><div class="info"><h3><a href="https://helixlabs.com/case-study/recycled-oil-high-ash-content/">Recycled Oil High Ash Content</a></h3><p>A major used oil recycling company was experiencing high ash content in their recycled oil.</p></div><a href="https://helixlabs.com/case-study/recycled-oil-high-ash-content/" class="button-link" role="button"><span class="button-text">Read More</span><span class="button-icon"><svg id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg></span></a></div></div></div><div class="carousel-cell"><div class="wrap"><div class="image" style="background-image:url(https://helixlabs.com/wp-content/uploads/2022/10/Commander-Pic.jpg)"></div><div class="content"><div class="info"><h3><a href="https://helixlabs.com/case-study/downstream-community-odor-complaints/">Downstream Community Odor Complaints</a></h3><p>A Georgia Municipality received odor complaints from a community downstream from a wastewater pump station.</p></div><a href="https://helixlabs.com/case-study/downstream-community-odor-complaints/" class="button-link" role="button"><span class="button-text">Read More</span><span class="button-icon"><svg id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg></span></a></div></div></div><div class="carousel-cell"><div class="wrap"><div class="image" style="background-image:url(https://helixlabs.com/wp-content/uploads/2022/09/Hi-MAG-pic.jpg)"></div><div class="content"><div class="info"><h3><a href="https://helixlabs.com/case-study/hi-mag-ph-reduces-hydrogen-sulfide-spikes/">Hi-MAG Ph Reduces Hydrogen Sulfide Spikes</a></h3><p>A Texas municipality was experiencing excessively high levels of H2S resulting in numerous odor complaints.</p></div><a href="https://helixlabs.com/case-study/hi-mag-ph-reduces-hydrogen-sulfide-spikes/" class="button-link" role="button"><span class="button-text">Read More</span><span class="button-icon"><svg id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg></span></a></div></div></div><div class="carousel-cell"><div class="wrap"><div class="image" style="background-image:url(https://helixlabs.com/wp-content/uploads/2022/07/FOG.jpg)"></div><div class="content"><div class="info"><h3><a href="https://helixlabs.com/case-study/city-choked-with-fog-trials-helix/">City Choked with FOG</a></h3><p>A major west coast city operates and maintains various wastewater collection systems in and near the city.</p></div><a href="https://helixlabs.com/case-study/city-choked-with-fog-trials-helix/" class="button-link" role="button"><span class="button-text">Read More</span><span class="button-icon"><svg id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg></span></a></div></div></div><div class="carousel-cell"><div class="wrap"><div class="image" style="background-image:url(https://helixlabs.com/wp-content/uploads/2022/02/Lift-Station-2.jpg)"></div><div class="content"><div class="info"><h3><a href="https://helixlabs.com/case-study/excessive-grease-in-sewer/">Excessive Grease in Sewer</a></h3><p>A West Coast city was experiencing excessive maintenance costs and risk of SSOs due to local restaurants emitting grease into the sewer line.</p></div><a href="https://helixlabs.com/case-study/excessive-grease-in-sewer/" class="button-link" role="button"><span class="button-text">Read More</span><span class="button-icon"><svg id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg></span></a></div></div></div><div class="carousel-cell"><div class="wrap"><div class="image" style="background-image:url(https://helixlabs.com/wp-content/uploads/2022/05/Suburb.jpg)"></div><div class="content"><div class="info"><h3><a href="https://helixlabs.com/case-study/low-flow-odor-control/">Low Flow Odor Control</a></h3><p>A municipal water district in the Southwest U.S. maintains lift station no. 7, which pumps sewage from an upscale housing development.</p></div><a href="https://helixlabs.com/case-study/low-flow-odor-control/" class="button-link" role="button"><span class="button-text">Read More</span><span class="button-icon"><svg id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg></span></a></div></div></div><div class="carousel-cell"><div class="wrap"><div class="image" style="background-image:url(https://helixlabs.com/wp-content/uploads/2022/03/Manhole.png)"></div><div class="content"><div class="info"><h3><a href="https://helixlabs.com/case-study/grease-trap-pilot/">Grease Trap Pilot</a></h3><p>A gambling and entertainment establishment has seven restaurants feeding to a 10,000-gallon grease trap.</p></div><a href="https://helixlabs.com/case-study/grease-trap-pilot/" class="button-link" role="button"><span class="button-text">Read More</span><span class="button-icon"><svg id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg></span></a></div></div></div><div class="carousel-cell"><div class="wrap"><div class="image" style="background-image:url(https://helixlabs.com/wp-content/uploads/2022/02/Lift-Station-2.jpg)"></div><div class="content"><div class="info"><h3><a href="https://helixlabs.com/case-study/lift-station-choked/">Lift Station Choked</a></h3><p>A gambling and entertainment establishment has seven restaurants feeding to a 10,000-gallon grease trap.</p></div><a href="https://helixlabs.com/case-study/lift-station-choked/" class="button-link" role="button"><span class="button-text">Read More</span><span class="button-icon"><svg id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg></span></a></div></div></div><div class="carousel-cell"><div class="wrap"><div class="image" style="background-image:url(https://helixlabs.com/wp-content/uploads/2022/07/Street-768x1024.jpg)"></div><div class="content"><div class="info"><h3><a href="https://helixlabs.com/case-study/neighborhood-h2s/">Neighborhood Hydrogen Sulfide</a></h3><p>A western city was experiencing odor complaints in a residential neighborhood and needed a cost-effective solution.</p></div><a href="https://helixlabs.com/case-study/neighborhood-h2s/" class="button-link" role="button"><span class="button-text">Read More</span><span class="button-icon"><svg id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg></span></a></div></div></div></div></section></div>
+						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-456ef31 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="456ef31" data-element_type="section" data-e-type="section">
+						<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-6e01f39" data-id="6e01f39" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-adeaeb0 elementor-widget__width-auto elementor-mobile-align-justify elementor-widget-mobile__width-inherit button-wide elementor-widget elementor-widget-button" data-id="adeaeb0" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://helixlabs.com/about/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">About Us</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-3a1d01f elementor-widget__width-auto elementor-mobile-align-justify elementor-widget-mobile__width-inherit button-wide elementor-widget elementor-widget-button" data-id="3a1d01f" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://helixlabs.com/case-studies/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Case Studies</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section  class="elementor-section elementor-top-section elementor-element elementor-element-315d7ca elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="315d7ca" data-element_type="section" data-e-type="section">
+						<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9d99da1 elementor-invisible" data-id="9d99da1" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-a74a441 elementor-widget-laptop__width-initial elementor-widget__width-initial elementor-widget-mobile_extra__width-inherit elementor-widget-mobile__width-inherit elementor-widget elementor-widget-heading" data-id="a74a441" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Browse Products</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-a031fd3 elementor-widget__width-initial arrow-button elementor-mobile-align-center elementor-widget-mobile_extra__width-auto elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="a031fd3" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://helixlabs.com/products/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg>			</span>
+									<span class="elementor-button-text">View all products</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-20d8224 elementor-invisible" data-id="20d8224" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-2c815c8 elementor-widget__width-initial elementor-widget-laptop__width-initial elementor-widget-tablet__width-inherit elementor-widget-mobile_extra__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="2c815c8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>We offer a variety of solutions through various product lines ranging from commercial to household needs. Our strategic network of warehouses throughout the country ensures prompt availability of product across all industries.</p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-14a5462 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="14a5462" data-element_type="section" data-e-type="section" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+						<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-fdf3578 elementor-invisible" data-id="fdf3578" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-539d957 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="539d957" data-element_type="section" data-e-type="section">
+						<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-701b89b" data-id="701b89b" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-ef25159 product-thumbnail elementor-widget elementor-widget-image" data-id="ef25159" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="800" height="637" src="https://helixlabs.com/wp-content/uploads/2022/08/Municipal_Products_2.png" class="attachment-large size-large wp-image-5571" alt="" srcset="https://helixlabs.com/wp-content/uploads/2022/08/Municipal_Products_2.png 854w, https://helixlabs.com/wp-content/uploads/2022/08/Municipal_Products_2-300x239.png 300w, https://helixlabs.com/wp-content/uploads/2022/08/Municipal_Products_2-768x612.png 768w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-525b159" data-id="525b159" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-fc33088 elementor-widget-laptop__width-initial elementor-widget elementor-widget-heading" data-id="fc33088" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Municipal</h3>				</div>
+				</div>
+				<div class="elementor-element elementor-element-58543fe elementor-widget elementor-widget-text-editor" data-id="58543fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Grease and Hydrogen Sulfide Solutions</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-7d68d3b elementor-widget__width-auto arrow-button elementor-widget elementor-widget-button" data-id="7d68d3b" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://helixlabs.com/products/?industry=municipal">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg>			</span>
+									<span class="elementor-button-text">View all products</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1aca907 elementor-invisible" data-id="1aca907" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-0eb97cd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0eb97cd" data-element_type="section" data-e-type="section">
+						<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5619ce8" data-id="5619ce8" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-b19047d product-thumbnail elementor-widget elementor-widget-image" data-id="b19047d" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="503" height="560" src="https://helixlabs.com/wp-content/uploads/2022/08/Products_Corrugated_2.png" class="attachment-large size-large wp-image-5585" alt="" srcset="https://helixlabs.com/wp-content/uploads/2022/08/Products_Corrugated_2.png 503w, https://helixlabs.com/wp-content/uploads/2022/08/Products_Corrugated_2-269x300.png 269w" sizes="(max-width: 503px) 100vw, 503px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-e920ac1" data-id="e920ac1" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5defb60 elementor-widget-laptop__width-initial elementor-widget elementor-widget-heading" data-id="5defb60" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Corrugated</h3>				</div>
+				</div>
+				<div class="elementor-element elementor-element-8361486 elementor-widget elementor-widget-text-editor" data-id="8361486" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Cleaning and Odor Eliminating Solutions</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-40e0813 elementor-widget__width-auto arrow-button elementor-widget elementor-widget-button" data-id="40e0813" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://helixlabs.com/products/?industry=corrugated">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg>			</span>
+									<span class="elementor-button-text">View all products</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2168970 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2168970" data-element_type="section" data-e-type="section" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+						<div data-wpr-lazyrender="1" class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-195c17b elementor-invisible" data-id="195c17b" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-c3ed13f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c3ed13f" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-08e5efa" data-id="08e5efa" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-98e098a product-thumbnail elementor-widget elementor-widget-image" data-id="98e098a" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="800" height="650" src="https://helixlabs.com/wp-content/uploads/2022/08/Industrial_Products.png" class="attachment-large size-large wp-image-5586" alt="" srcset="https://helixlabs.com/wp-content/uploads/2022/08/Industrial_Products.png 824w, https://helixlabs.com/wp-content/uploads/2022/08/Industrial_Products-300x244.png 300w, https://helixlabs.com/wp-content/uploads/2022/08/Industrial_Products-768x624.png 768w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8993623" data-id="8993623" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-eafb81f elementor-widget-laptop__width-initial elementor-widget elementor-widget-heading" data-id="eafb81f" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Industrial</h3>				</div>
+				</div>
+				<div class="elementor-element elementor-element-725ede2 elementor-widget elementor-widget-text-editor" data-id="725ede2" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Demulsifier and Odor Control Solutions</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-1319111 elementor-widget__width-auto arrow-button elementor-widget elementor-widget-button" data-id="1319111" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://helixlabs.com/products/?industry=industrial">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg>			</span>
+									<span class="elementor-button-text">View all products</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8eda37d elementor-invisible" data-id="8eda37d" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-cdb5a6a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="cdb5a6a" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4b6ebc1" data-id="4b6ebc1" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-73e87fe product-thumbnail elementor-widget elementor-widget-image" data-id="73e87fe" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="619" height="584" src="https://helixlabs.com/wp-content/uploads/2022/08/Household_Products_3.png" class="attachment-large size-large wp-image-5574" alt="" srcset="https://helixlabs.com/wp-content/uploads/2022/08/Household_Products_3.png 619w, https://helixlabs.com/wp-content/uploads/2022/08/Household_Products_3-300x283.png 300w" sizes="(max-width: 619px) 100vw, 619px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-cda493e" data-id="cda493e" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-9d0b4e4 elementor-widget-laptop__width-initial elementor-widget elementor-widget-heading" data-id="9d0b4e4" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Household</h3>				</div>
+				</div>
+				<div class="elementor-element elementor-element-5a811a1 elementor-widget elementor-widget-text-editor" data-id="5a811a1" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Cleaning and Odor Eliminating Solutions</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-c696e60 elementor-widget__width-auto arrow-button elementor-widget elementor-widget-button" data-id="c696e60" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://helixlabs.com/products/?industry=household">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 61 61"><defs><style></style></defs><g id="Layer_1-2"><g id="Layer_1-2"><path d="M30.5,61C13.68,61,0,47.32,0,30.5S13.68,0,30.5,0s30.5,13.68,30.5,30.5-13.68,30.5-30.5,30.5Zm0-55c-13.51,0-24.5,10.99-24.5,24.5s10.99,24.5,24.5,24.5,24.5-10.99,24.5-24.5S44.01,6,30.5,6Z"></path><path d="M24.07,46.86c-.77,0-1.54-.29-2.12-.88-1.17-1.17-1.17-3.07,0-4.24l10.74-10.74-10.74-10.74c-1.17-1.17-1.17-3.07,0-4.24s3.07-1.17,4.24,0l12.86,12.86c1.17,1.17,1.17,3.07,0,4.24l-12.86,12.86c-.59,.59-1.35,.88-2.12,.88Z"></path></g></g></svg>			</span>
+									<span class="elementor-button-text">View all products</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-986b0c5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="986b0c5" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8904765 elementor-invisible" data-id="8904765" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-e09c31e elementor-widget-laptop__width-initial elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading" data-id="e09c31e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Superior Products,
+Turn-key Service.</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-7b8fae2 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="7b8fae2" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>At Helix, we develop environmental solutions that we deliver with our comprehensive service program. <strong>This combination of superior product and turn-key service is our customer promise. </strong></p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-ce7b40d elementor-widget__width-auto elementor-widget elementor-widget-button" data-id="ce7b40d" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://helixlabs.com/services/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">What We Offer</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b4fe2ec" data-id="b4fe2ec" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-40582e4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="40582e4" data-element_type="section" data-e-type="section" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1a84601 elementor-invisible" data-id="1a84601" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-c391285 elementor-widget__width-initial elementor-widget elementor-widget-spacer" data-id="c391285" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-25c1815 elementor-widget-laptop__width-initial elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="25c1815" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">Expert Assessment
++ Consultation</h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-5e4865c elementor-widget-mobile_extra__width-inherit elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="5e4865c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Each customer has their own set of individual needs. At Helix, we take the time to assess each application and provide a tailored solution accordingly.</p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-d63c1bc elementor-invisible" data-id="d63c1bc" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0159eb9 elementor-widget__width-initial elementor-widget elementor-widget-spacer" data-id="0159eb9" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-d4db20e elementor-widget-laptop__width-initial elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="d4db20e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">Turn-key 
+Implementation</h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-0da7ef1 elementor-widget-mobile_extra__width-inherit elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="0da7ef1" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Our hands-on service team works in unison with customers&#8217; needs to execute a seamless implementation.</p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-0b038ff elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0b038ff" data-element_type="section" data-e-type="section" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9b111ea elementor-invisible" data-id="9b111ea" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3768cbc elementor-widget__width-initial elementor-widget elementor-widget-spacer" data-id="3768cbc" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-2595039 elementor-widget-laptop__width-initial elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2595039" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">Ongoing 
+Replenishment</h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-ab34ef1 elementor-widget-mobile_extra__width-inherit elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="ab34ef1" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>We maintain adequate resources and inventory to support the needs of customers. With continued communication, we proactively anticipate and address customers&#8217; requirements.</p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b9c61e5 elementor-invisible" data-id="b9c61e5" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-d7ec1c0 elementor-widget__width-initial elementor-widget elementor-widget-spacer" data-id="d7ec1c0" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-5d085f2 elementor-widget-laptop__width-initial elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="5d085f2" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">Regular Review +
+Recalibration</h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-d85103e elementor-widget-mobile_extra__width-inherit elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="d85103e" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Waste streams are dynamic and ever-changing. As customers&#8217; needs shift, a dedicated Helix representative is there to help respond.</p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section data-wpr-lazyrender="1" class="elementor-section elementor-top-section elementor-element elementor-element-533b3d9 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="533b3d9" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1500b39" data-id="1500b39" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0d3cf48 elementor-widget elementor-widget-image" data-id="0d3cf48" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="1728" height="183" src="https://helixlabs.com/wp-content/uploads/2022/07/Arch.svg" class="attachment-full size-full wp-image-3176" alt="" />															</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-9710d92 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9710d92" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d48832e elementor-invisible" data-id="d48832e" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-18318eb elementor-widget-laptop__width-initial elementor-widget-mobile_extra__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-heading" data-id="18318eb" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Help us make the world cleaner and greener.</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-bb8c6ae elementor-widget__width-initial elementor-widget-laptop__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="bb8c6ae" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>We manufacture eco-friendly products designed to treat waste streams, boosting capacity and preserving infrastructure. Superior products alone are not sufficient in our ever-changing environment. We’re committed to providing unmatched customer service and support.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-cc85a6d elementor-widget elementor-widget-spacer" data-id="cc85a6d" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-eb22413 elementor-widget__width-auto elementor-mobile-align-justify elementor-widget-mobile__width-inherit button-wide elementor-widget elementor-widget-button" data-id="eb22413" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://helixlabs.com/request-a-trial/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Request a Trial</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-35609a2 elementor-widget__width-auto elementor-mobile-align-justify elementor-widget-mobile__width-inherit button-wide elementor-widget elementor-widget-button" data-id="35609a2" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://helixlabs.com/contact-us/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Contact Us</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+				<div data-elementor-type="footer" data-elementor-id="33" class="elementor elementor-33 elementor-location-footer" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-204743d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="204743d" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-db06224" data-id="db06224" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-7772c98 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="7772c98" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="/">
+							<img width="523" height="137" src="https://helixlabs.com/wp-content/uploads/2021/11/Logo-Default-2.svg" class="attachment-large size-large wp-image-2676" alt="" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7e4c7d7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7e4c7d7" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f59d03b" data-id="f59d03b" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-248e33b elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="248e33b" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>5050 Quorum Drive, Suite 700<br>Dallas, TX 75254</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-c4b1a23 elementor-widget-mobile__width-inherit elementor-widget elementor-widget-text-editor" data-id="c4b1a23" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Toll-free: <a style="background-color: #f0f7f7;" href="tel:8774443549">(877) 444-3549</a><br />Local: <a href="tel:3616570536">(361) 657-0536</a><br />Email: <a href="mailto:mail@helixlabs.com">mail@helixlabs.com</a></p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7d30bc0" data-id="7d30bc0" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-7ef7141 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7ef7141" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-d69a5da" data-id="d69a5da" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-cf76dac elementor-widget elementor-widget-heading" data-id="cf76dac" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">Company</h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-dec3cb8 elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="dec3cb8" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:250,&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-text e--animation-none">
+				<ul id="menu-1-dec3cb8" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-21 current_page_item menu-item-5557"><a href="https://helixlabs.com/" aria-current="page" class="elementor-item elementor-item-active">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5558"><a href="https://helixlabs.com/about/" class="elementor-item">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5559"><a href="https://helixlabs.com/blog/" class="elementor-item">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5560"><a href="https://helixlabs.com/contact-us/" class="elementor-item">Contact Us</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-dec3cb8" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-21 current_page_item menu-item-5557"><a href="https://helixlabs.com/" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5558"><a href="https://helixlabs.com/about/" class="elementor-item" tabindex="-1">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5559"><a href="https://helixlabs.com/blog/" class="elementor-item" tabindex="-1">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5560"><a href="https://helixlabs.com/contact-us/" class="elementor-item" tabindex="-1">Contact Us</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-087f9b1" data-id="087f9b1" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-254b32d elementor-widget elementor-widget-heading" data-id="254b32d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">Industries</h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-ed7d138 elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="ed7d138" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:250,&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-text e--animation-none">
+				<ul id="menu-1-ed7d138" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5553"><a href="https://helixlabs.com/municipal/" class="elementor-item">Municipal</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5554"><a href="https://helixlabs.com/corrugated/" class="elementor-item">Corrugated</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5555"><a href="https://helixlabs.com/industrial/" class="elementor-item">Industrial</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5556"><a href="https://helixlabs.com/household/" class="elementor-item">Household</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-ed7d138" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5553"><a href="https://helixlabs.com/municipal/" class="elementor-item" tabindex="-1">Municipal</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5554"><a href="https://helixlabs.com/corrugated/" class="elementor-item" tabindex="-1">Corrugated</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5555"><a href="https://helixlabs.com/industrial/" class="elementor-item" tabindex="-1">Industrial</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5556"><a href="https://helixlabs.com/household/" class="elementor-item" tabindex="-1">Household</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-c9dd578" data-id="c9dd578" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-706658b elementor-widget elementor-widget-heading" data-id="706658b" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">What We Offer</h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-0cb6ff6 elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="0cb6ff6" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:250,&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-text e--animation-none">
+				<ul id="menu-1-0cb6ff6" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5561"><a href="https://helixlabs.com/products/" class="elementor-item">Products</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5562"><a href="https://helixlabs.com/services/" class="elementor-item">Services</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5563"><a href="https://helixlabs.com/case-studies/" class="elementor-item">Case Studies</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5703"><a href="https://helixlabs.com/products/?industry=household" class="elementor-item">Ingredient Disclosure</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-0cb6ff6" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5561"><a href="https://helixlabs.com/products/" class="elementor-item" tabindex="-1">Products</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5562"><a href="https://helixlabs.com/services/" class="elementor-item" tabindex="-1">Services</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5563"><a href="https://helixlabs.com/case-studies/" class="elementor-item" tabindex="-1">Case Studies</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5703"><a href="https://helixlabs.com/products/?industry=household" class="elementor-item" tabindex="-1">Ingredient Disclosure</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-21b6990" data-id="21b6990" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-eef0451 elementor-widget elementor-widget-heading" data-id="eef0451" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">Keep in Touch</h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-9c6e859 elementor-widget elementor-widget-text-editor" data-id="9c6e859" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Subscribe for important news and offers.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-1035581 subscribe-form elementor-widget elementor-widget-shortcode" data-id="1035581" data-element_type="widget" data-e-type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-shortcode"><div class='fluentform ff-default fluentform_wrapper_5 ffs_custom_wrap'><form data-form_id="5" id="fluentform_5" class="frm-fluent-form fluent_form_5 ff-el-form-top ff_form_instance_5_1 ff-form-loading subscribe-form ffs_custom" data-form_instance="ff_form_instance_5_1" method="POST" ><fieldset  style="border: none!important;margin: 0!important;padding: 0!important;background-color: transparent!important;box-shadow: none!important;outline: none!important; min-inline-size: 100%;">
+                    <legend class="ff_screen_reader_title" style="display: block; margin: 0!important;padding: 0!important;height: 0!important;text-indent: -999999px;width: 0!important;overflow:hidden;">Subscribe</legend><input type='hidden' name='__fluent_form_embded_post_id' value='21' /><input type="hidden" id="_fluentform_5_fluentformnonce" name="_fluentform_5_fluentformnonce" value="76ef69f431" /><input type="hidden" name="_wp_http_referer" value="/" /><div class='ff-el-group'><div class="ff-el-input--label ff-el-is-required"><label for='ff_5_email' id='label_ff_5_email' aria-label="Email">Email</label></div><div class='ff-el-input--content'><input type="email" name="email" id="ff_5_email" class="ff-el-form-control" placeholder="Email Address" data-name="email"  aria-invalid="false" aria-required=true></div></div><div class='ff-el-group ff-text-left ff_submit_btn_wrapper'><button type="submit" class="ff-btn ff-btn-submit ff-btn-md icon ff_btn_style"  aria-label="Submit Form">Submit Form</button></div></fieldset></form><div id='fluentform_5_errors' class='ff-errors-in-stack ff_form_instance_5_1 ff-form-loading_errors ff_form_instance_5_1_errors'></div></div>            <script type="text/javascript">
+                window.fluent_form_ff_form_instance_5_1 = {"id":"5","ajaxUrl":"https:\/\/helixlabs.com\/wp-admin\/admin-ajax.php","settings":{"layout":{"labelPlacement":"top","helpMessagePlacement":"with_label","errorMessagePlacement":"inline","asteriskPlacement":""},"restrictions":{"denyEmptySubmission":{"enabled":false}}},"form_instance":"ff_form_instance_5_1","form_id_selector":"fluentform_5","rules":{"email":{"required":{"value":true,"message":"This field is required"},"email":{"value":true,"message":"This field must contain a valid email"}}},"debounce_time":300};
+                            </script>
+            </div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-9952805 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9952805" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c22de07" data-id="c22de07" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-56f8ca1 elementor-widget-mobile__width-inherit elementor-widget elementor-widget-shortcode" data-id="56f8ca1" data-element_type="widget" data-e-type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-shortcode"><p class="copyright">© 2026 Helix Laboratories, Inc. &nbsp; | &nbsp; <a href="/privacy-policy/">Privacy Policy</a> &nbsp; | &nbsp; <a href="https://sproutbox.co/" target="_blank">Digital Marketing Agency Credit</a></p></div>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3ff6a0c" data-id="3ff6a0c" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap">
+							</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/helixlabs/*","/wp-content/themes/hello-elementor/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<div data-elementor-type="popup" data-elementor-id="5550" class="elementor elementor-5550 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeIn&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.5,&quot;sizes&quot;:[]},&quot;open_selector&quot;:&quot;.environmental-health&quot;,&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library">
+					<section  class="elementor-section elementor-top-section elementor-element elementor-element-73c44eec elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="73c44eec" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1614f42e popup-content" data-id="1614f42e" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-24607e21 elementor-widget elementor-widget-heading" data-id="24607e21" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Environmental Health</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-4ada66f2 elementor-widget elementor-widget-text-editor" data-id="4ada66f2" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Waste streams that are not maintained properly can overflow into local waterways harming aquatic life and ecosystems.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-50ff4cac elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="50ff4cac" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="#elementor-action%3Aaction%3Dpopup%3Aclose%26settings%3DeyJkb19ub3Rfc2hvd19hZ2FpbiI6IiJ9">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 550.03 550.03"><defs><style></style></defs><g id="Layer_1-2"><path d="M538.31,11.72c15.62,15.62,15.62,40.94,0,56.57l-206.73,206.73,206.73,206.73c15.62,15.62,15.62,40.95,0,56.57s-40.95,15.62-56.57,0l-206.73-206.73-206.73,206.73c-15.62,15.62-40.94,15.62-56.57,0s-15.62-40.95,0-56.57l206.73-206.73L11.72,68.28C-3.91,52.66-3.91,27.34,11.72,11.72s40.94-15.62,56.57,0l206.73,206.73L481.74,11.72c15.62-15.62,40.95-15.62,56.57,0h0Z"></path></g></svg>			</span>
+									<span class="elementor-button-text">Close</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+				<div class="make-column-clickable-elementor elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d67c6da" style="cursor: pointer;" data-column-clickable="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJ0eXBlIjoidmlkZW8iLCJ2aWRlb1R5cGUiOiJ5b3V0dWJlIiwidXJsIjoiaHR0cHM6XC9cL3d3dy55b3V0dWJlLmNvbVwvZW1iZWRcL21mSWp1bHJYZGJzP2ZlYXR1cmU9b2VtYmVkIn0%3D" data-column-clickable-blank="_self" data-id="d67c6da" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;none&quot;,&quot;animation_laptop&quot;:&quot;none&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-38fac4a3 elementor-widget elementor-widget-spacer" data-id="38fac4a3" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-27c73589 elementor-widget__width-auto elementor-absolute popup-border-mobile elementor-widget-mobile_extra__width-auto elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet_extra elementor-hidden-tablet elementor-hidden-mobile_extra elementor-widget elementor-widget-image" data-id="27c73589" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="701" height="45" src="https://helixlabs.com/wp-content/uploads/2022/07/Wave-Blue.svg" class="attachment-large size-large wp-image-3491" alt="" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-76b6ce03 elementor-widget__width-auto elementor-absolute popup-border elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="76b6ce03" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="45" height="701" src="https://helixlabs.com/wp-content/uploads/2022/07/Wave-Blue-Vertical-1.svg" class="attachment-large size-large wp-image-5210" alt="" />															</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+				<div data-elementor-type="popup" data-elementor-id="5548" class="elementor elementor-5548 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeIn&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.5,&quot;sizes&quot;:[]},&quot;open_selector&quot;:&quot;.infrastructure-health&quot;,&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library">
+					<section  class="elementor-section elementor-top-section elementor-element elementor-element-67375343 elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="67375343" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2f22054 popup-content" data-id="2f22054" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-38e453c elementor-widget elementor-widget-heading" data-id="38e453c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Infastructure Health</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-668dc366 elementor-widget elementor-widget-text-editor" data-id="668dc366" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Regular maintenance protects equipment and infrastructure from corrosion and build-up.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-173c7cf3 elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="173c7cf3" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="#elementor-action%3Aaction%3Dpopup%3Aclose%26settings%3DeyJkb19ub3Rfc2hvd19hZ2FpbiI6IiJ9">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 550.03 550.03"><defs><style></style></defs><g id="Layer_1-2"><path d="M538.31,11.72c15.62,15.62,15.62,40.94,0,56.57l-206.73,206.73,206.73,206.73c15.62,15.62,15.62,40.95,0,56.57s-40.95,15.62-56.57,0l-206.73-206.73-206.73,206.73c-15.62,15.62-40.94,15.62-56.57,0s-15.62-40.95,0-56.57l206.73-206.73L11.72,68.28C-3.91,52.66-3.91,27.34,11.72,11.72s40.94-15.62,56.57,0l206.73,206.73L481.74,11.72c15.62-15.62,40.95-15.62,56.57,0h0Z"></path></g></svg>			</span>
+									<span class="elementor-button-text">Close</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+				<div class="make-column-clickable-elementor elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5668bd19" style="cursor: pointer;" data-column-clickable="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJ0eXBlIjoidmlkZW8iLCJ2aWRlb1R5cGUiOiJ5b3V0dWJlIiwidXJsIjoiaHR0cHM6XC9cL3d3dy55b3V0dWJlLmNvbVwvZW1iZWRcL21mSWp1bHJYZGJzP2ZlYXR1cmU9b2VtYmVkIn0%3D" data-column-clickable-blank="_self" data-id="5668bd19" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;none&quot;,&quot;animation_laptop&quot;:&quot;none&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-366a76d0 elementor-widget elementor-widget-spacer" data-id="366a76d0" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-35a5908d elementor-widget__width-auto elementor-absolute popup-border-mobile elementor-widget-mobile_extra__width-auto elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet_extra elementor-hidden-tablet elementor-hidden-mobile_extra elementor-widget elementor-widget-image" data-id="35a5908d" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="701" height="45" src="https://helixlabs.com/wp-content/uploads/2022/07/Wave-Blue.svg" class="attachment-large size-large wp-image-3491" alt="" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-116489de elementor-widget__width-auto elementor-absolute popup-border elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="116489de" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="45" height="701" src="https://helixlabs.com/wp-content/uploads/2022/07/Wave-Blue-Vertical-1.svg" class="attachment-large size-large wp-image-5210" alt="" />															</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+				<div data-elementor-type="popup" data-elementor-id="5197" class="elementor elementor-5197 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeIn&quot;,&quot;open_selector&quot;:&quot;.community-health&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.5,&quot;sizes&quot;:[]},&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library">
+					<section  class="elementor-section elementor-top-section elementor-element elementor-element-df25fda elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="df25fda" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-769f481 popup-content" data-id="769f481" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0bc8e06 elementor-widget elementor-widget-heading" data-id="0bc8e06" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Community Health</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-36ca2b0 elementor-widget elementor-widget-text-editor" data-id="36ca2b0" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Waste streams can contain harmful pathogens and deadly gasses. At Helix, we develop products to maintain waste stream efficiency to keep the community safe.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-27bd243 elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="27bd243" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="#elementor-action%3Aaction%3Dpopup%3Aclose%26settings%3DeyJkb19ub3Rfc2hvd19hZ2FpbiI6IiJ9">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" viewBox="0 0 550.03 550.03"><defs><style></style></defs><g id="Layer_1-2"><path d="M538.31,11.72c15.62,15.62,15.62,40.94,0,56.57l-206.73,206.73,206.73,206.73c15.62,15.62,15.62,40.95,0,56.57s-40.95,15.62-56.57,0l-206.73-206.73-206.73,206.73c-15.62,15.62-40.94,15.62-56.57,0s-15.62-40.95,0-56.57l206.73-206.73L11.72,68.28C-3.91,52.66-3.91,27.34,11.72,11.72s40.94-15.62,56.57,0l206.73,206.73L481.74,11.72c15.62-15.62,40.95-15.62,56.57,0h0Z"></path></g></svg>			</span>
+									<span class="elementor-button-text">Close</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+				<div class="make-column-clickable-elementor elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e1ed0e7" style="cursor: pointer;" data-column-clickable="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJ0eXBlIjoidmlkZW8iLCJ2aWRlb1R5cGUiOiJ5b3V0dWJlIiwidXJsIjoiaHR0cHM6XC9cL3d3dy55b3V0dWJlLmNvbVwvZW1iZWRcL21mSWp1bHJYZGJzP2ZlYXR1cmU9b2VtYmVkIn0%3D" data-column-clickable-blank="_self" data-id="e1ed0e7" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;none&quot;,&quot;animation_laptop&quot;:&quot;none&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-36cb97e elementor-widget elementor-widget-spacer" data-id="36cb97e" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-76f2391 elementor-widget__width-auto elementor-absolute popup-border-mobile elementor-widget-mobile_extra__width-auto elementor-hidden-desktop elementor-hidden-laptop elementor-hidden-tablet_extra elementor-hidden-tablet elementor-hidden-mobile_extra elementor-widget elementor-widget-image" data-id="76f2391" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="701" height="45" src="https://helixlabs.com/wp-content/uploads/2022/07/Wave-Blue.svg" class="attachment-large size-large wp-image-3491" alt="" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-225792c elementor-widget__width-auto elementor-absolute popup-border elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="225792c" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="45" height="701" src="https://helixlabs.com/wp-content/uploads/2022/07/Wave-Blue-Vertical-1.svg" class="attachment-large size-large wp-image-5210" alt="" />															</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+					<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<style>form.fluent_form_5 .ff-btn-submit:not(.ff_btn_no_style) { background-color: #409EFF; color: #ffffff; }</style><link rel='stylesheet' id='fluent-form-styles-css' href='https://helixlabs.com/wp-content/plugins/fluentform/assets/css/fluent-forms-public.css?ver=6.2.2' media='all' />
+<link rel='stylesheet' id='fluentform-public-default-css' href='https://helixlabs.com/wp-content/plugins/fluentform/assets/css/fluentform-public-default.css?ver=6.2.2' media='all' />
+<script id="fluentform-elementor-js-extra">
+var fluentformElementor = {"adminUrl":"https://helixlabs.com/wp-admin/admin.php"};
+//# sourceURL=fluentform-elementor-js-extra
+</script>
+<script src="https://helixlabs.com/wp-content/plugins/fluentform/assets/js/fluent-forms-elementor-widget.js?ver=6.2.2" id="fluentform-elementor-js"></script>
+<script id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://helixlabs.com","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script src="https://helixlabs.com/wp-content/themes/helixlabs/js/wow.min.js?ver=6.9.4" id="wow-js-js"></script>
+<script src="https://helixlabs.com/wp-content/themes/helixlabs/js/isotope.pkgd.min.js?ver=6.9.4" id="isotope-js-js"></script>
+<script src="https://helixlabs.com/wp-content/themes/helixlabs/js/flickity.pkgd.min.js?version=1&amp;ver=6.9.4" id="flickity-js-js"></script>
+<script src="https://helixlabs.com/wp-content/themes/helixlabs/js/functions.js?version=2.1&amp;ver=6.9.4" id="functions-js-js"></script>
+<script src="https://helixlabs.com/wp-content/themes/hello-elementor/assets/js/hello-frontend.js?ver=3.4.7" id="hello-theme-frontend-js"></script>
+<script src="https://helixlabs.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.0.5" id="elementor-webpack-runtime-js"></script>
+<script src="https://helixlabs.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.0.5" id="elementor-frontend-modules-js"></script>
+<script src="https://helixlabs.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":651,"lg":1101,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":650,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":991,"default_value":880,"direction":"max","is_enabled":true},"tablet":{"label":"Tablet Portrait","value":1100,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1350,"default_value":1200,"direction":"max","is_enabled":true},"laptop":{"label":"Laptop","value":1600,"default_value":1366,"direction":"max","is_enabled":true},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":true},"version":"4.0.5","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_widget_creation":true,"import-export-customization":true},"urls":{"assets":"https:\/\/helixlabs.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/helixlabs.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/helixlabs.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"b7d10ecbba","atomicFormsSendForm":"3c1b4e7cd2"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_mobile_extra","viewport_tablet","viewport_tablet_extra","viewport_laptop"],"viewport_laptop":1600,"viewport_tablet_extra":1350,"viewport_mobile_extra":991,"viewport_tablet":1100,"viewport_mobile":650,"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"logo","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":21,"title":"Environmental%20Solutions%20%7C%20Helix%20Laboratories","excerpt":"","featuredImage":false}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script src="https://helixlabs.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.0.5" id="elementor-frontend-js"></script>
+<script src="https://helixlabs.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js"></script>
+<script src="https://helixlabs.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.29.2" id="e-sticky-js"></script>
+<script id="fluent-form-submission-js-extra">
+var fluentFormVars = {"ajaxUrl":"https://helixlabs.com/wp-admin/admin-ajax.php","forms":[],"step_text":"Step %activeStep% of %totalStep% - %stepTitle%","is_rtl":"","date_i18n":{"previousMonth":"Previous Month","nextMonth":"Next Month","months":{"shorthand":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"longhand":["January","February","March","April","May","June","July","August","September","October","November","December"]},"weekdays":{"longhand":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"shorthand":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"daysInMonth":[31,28,31,30,31,30,31,31,30,31,30,31],"rangeSeparator":" to ","weekAbbreviation":"Wk","scrollTitle":"Scroll to increment","toggleTitle":"Click to toggle","amPM":["AM","PM"],"yearAriaLabel":"Year","firstDayOfWeek":0},"pro_version":"6.2.2","fluentform_version":"6.2.2","force_init":"","stepAnimationDuration":"350","upload_completed_txt":"100% Completed","upload_start_txt":"0% Completed","uploading_txt":"Uploading","choice_js_vars":{"noResultsText":"No results found","loadingText":"Loading...","noChoicesText":"No choices to choose from","itemSelectText":"Press to select","maxItemTextSingular":"Only %%maxItemCount%% option can be added","maxItemTextPlural":"Only %%maxItemCount%% options can be added"},"input_mask_vars":{"clearIfNotMatch":false},"nonce":"11434f416e","file_delete_nonce":"6036bede33","form_id":"5","step_change_focus":"1","has_cleantalk":"","pro_payment_script_compatible":"1"};
+var fluentform_submission_messages_5 = {"file_upload_in_progress":"File upload in progress. Please wait...","javascript_handler_failed":"Javascript handler could not be loaded. Form submission has been failed. Reload the page and try again"};
+var fluentform_payment_messages_5 = {"stock_out_message":"This Item is Stock Out","item_label":"Item","price_label":"Price","qty_label":"Qty","line_total_label":"Line Total","sub_total_label":"Sub Total","discount_label":"Discount","total_label":"Total","signup_fee_label":"Signup Fee","trial_label":"Trial","processing_text":"Processing...","confirming_text":"Confirming..."};
+var fluentform_save_progress_messages_5 = {"copy_button":"Copy","email_button":"Email","email_placeholder":"Your Email Here","copy_success":"Copied"};
+var fluentform_address_messages_5 = {"please_wait":"Please wait ...","location_not_determined":"Could not determine address from location.","address_fetch_failed":"Failed to fetch address from coordinates.","geolocation_failed":"Geolocation failed or was denied.","geolocation_not_supported":"Geolocation is not supported by this browser."};
+var fluentform_gateway_messages_5 = {"request_failed":"Request failed. Please try again","payment_failed":"Payment process failed!","no_method_found":"No method found","processing_text":"Processing..."};
+var fluentform_submission_messages_global = {"javascript_handler_failed":"Javascript handler could not be loaded. Form submission has been failed. Reload the page and try again"};
+var fluentform_address_messages_global = {"please_wait":"Please wait ...","location_not_determined":"Could not determine address from location.","address_fetch_failed":"Failed to fetch address from coordinates.","geolocation_failed":"Geolocation failed or was denied.","geolocation_not_supported":"Geolocation is not supported by this browser."};
+//# sourceURL=fluent-form-submission-js-extra
+</script>
+<script src="https://helixlabs.com/wp-content/plugins/fluentform/assets/js/form-submission.js?ver=6.2.2" id="fluent-form-submission-js"></script>
+<script src="https://helixlabs.com/wp-content/plugins/make-column-clickable-elementor/assets/js/make-column-clickable.js?ver=1.6.2" id="make-column-clickable-elementor-js"></script>
+<script src="https://helixlabs.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.29.2" id="elementor-pro-webpack-runtime-js"></script>
+<script src="https://helixlabs.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script src="https://helixlabs.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/helixlabs.com\/wp-admin\/admin-ajax.php","nonce":"892f7c8ca0","urls":{"assets":"https:\/\/helixlabs.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/helixlabs.com\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":true},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/helixlabs.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+</script>
+<script src="https://helixlabs.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.29.2" id="elementor-pro-frontend-js"></script>
+<script src="https://helixlabs.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.29.2" id="pro-elements-handlers-js"></script>
+                    <style id="fluentform_styler_css_5_ffs_custom" type="text/css">
+                        .fluentform_wrapper_5.ffs_custom_wrap{ margin: px; } .fluentform_wrapper_5.ffs_custom_wrap{ padding: px; } .fluentform_wrapper_5.ffs_custom_wrap .asterisk-right label:after, .fluentform_wrapper_5.ffs_custom_wrap .asterisk-left label:before{ color: rgba(0, 168, 165, 1) !important;; } .fluentform_wrapper_5.ffs_custom_wrap .ff-el-input--content .error , .fluentform_wrapper_5.ffs_custom_wrap .error-text{ color: rgba(0, 168, 165, 1); } .fluentform_wrapper_5.ffs_custom_wrap .ff-errors-in-stack { color: rgba(0, 168, 165, 1); } .fluentform_wrapper_5.ffs_custom_wrap .ff-el-input--label label{ color: rgba(41, 63, 74, 1); } .fluentform_wrapper_5.ffs_custom_wrap .ff-el-input--content input, .fluentform_wrapper_5.ffs_custom_wrap .ff-el-input--content .ff-el-form-control.ff_stripe_card_element, .fluentform_wrapper_5.ffs_custom_wrap .ff-el-input--content textarea, .fluentform_wrapper_5.ffs_custom_wrap .ff-el-input--content select, .fluentform_wrapper_5.ffs_custom_wrap .choices__list--single, .fluentform_wrapper_5.ffs_custom_wrap .choices[data-type*='select-multiple'] { color: rgba(41, 63, 74, 1);border-style: solid;border-color: rgba(255, 255, 255, 0);border-width: 1px;border-radius: 100px; } .fluentform_wrapper_5.ffs_custom_wrap .frm-fluent-form .choices__list--dropdown { border-style: solid;border-color: rgba(255, 255, 255, 0);border-width: 1px;border-radius: 100px; } .fluentform_wrapper_5.ffs_custom_wrap .ff-el-input--content input:focus, .fluentform_wrapper_5.ffs_custom_wrap .ff-el-input--content .ff-el-form-control.ff_stripe_card_element:focus, .fluentform_wrapper_5.ffs_custom_wrap .ff-el-input--content textarea:focus, .fluentform_wrapper_5.ffs_custom_wrap .ff-el-input--content select:focus { border-style: solid;border-color: rgba(0, 168, 165, 1);border-width: 1px;border-radius: px; }.fluentform_wrapper_5.ffs_custom_wrap .ff-el-input--content input::placeholder, .fluentform_wrapper_5.ffs_custom_wrap .ff-el-input--content textarea::placeholder{ color: rgba(41, 63, 74, 0.5); } .fluentform_wrapper_5.ffs_custom_wrap .ff_submit_btn_wrapper .ff-btn-submit:not(.ff_btn_no_style) { background-color: rgba(112, 178, 68, 1);color: rgba(255, 255, 255, 1);padding: px;margin: px; }.fluentform_wrapper_5.ffs_custom_wrap .ff_submit_btn_wrapper .ff-btn-submit:not(.ff_btn_no_style):hover { background-color: rgba(255, 255, 255, 0);color: rgba(112, 178, 68, 1); }            .fluentform_wrapper_5.ffs_custom_wrap .ff-el-form-check {
+            color:  rgba(41, 63, 74, 1)            }                    </style>
+
+                                <script type="text/javascript">
+                
+                window.addEventListener('elementor/popup/show', function (e) {
+                    var ffForms = jQuery('#elementor-popup-modal-' + e.detail.id).find('form.frm-fluent-form');
+
+                    /**
+                     * Support conversation form in elementor popup
+                     * No regular form found, check for conversational form
+                     */
+                    if (!ffForms.length) {
+                        const elements = document.getElementsByClassName('ffc_conv_form');
+                        if (elements.length) {
+                            let jsEvent = new CustomEvent('ff-elm-conv-form-event', {
+                                detail: elements
+                            });
+                            document.dispatchEvent(jsEvent);
+                        }
+                    }
+                    if (ffForms.length) {
+                        jQuery.each(ffForms, function(index, ffForm) {
+                            jQuery(ffForm).trigger('reInitExtras');
+                            jQuery(document).trigger('ff_reinit', [ffForm]);
+                        });
+                    }
+                });
+                            </script>
+            
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f7c35101f981f93',t:'MTc3ODExNDc4Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

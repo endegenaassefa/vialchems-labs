@@ -1,0 +1,1645 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, user-scalable=yes" />
+	<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var ewww_webp_supported=!1;function check_webp_feature(A,e){var w;e=void 0!==e?e:function(){},ewww_webp_supported?e(ewww_webp_supported):((w=new Image).onload=function(){ewww_webp_supported=0<w.width&&0<w.height,e&&e(ewww_webp_supported)},w.onerror=function(){e&&e(!1)},w.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA=="}[A])}check_webp_feature("alpha");</script><script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var Arrive=function(c,w){"use strict";if(c.MutationObserver&&"undefined"!=typeof HTMLElement){var r,a=0,u=(r=HTMLElement.prototype.matches||HTMLElement.prototype.webkitMatchesSelector||HTMLElement.prototype.mozMatchesSelector||HTMLElement.prototype.msMatchesSelector,{matchesSelector:function(e,t){return e instanceof HTMLElement&&r.call(e,t)},addMethod:function(e,t,r){var a=e[t];e[t]=function(){return r.length==arguments.length?r.apply(this,arguments):"function"==typeof a?a.apply(this,arguments):void 0}},callCallbacks:function(e,t){t&&t.options.onceOnly&&1==t.firedElems.length&&(e=[e[0]]);for(var r,a=0;r=e[a];a++)r&&r.callback&&r.callback.call(r.elem,r.elem);t&&t.options.onceOnly&&1==t.firedElems.length&&t.me.unbindEventWithSelectorAndCallback.call(t.target,t.selector,t.callback)},checkChildNodesRecursively:function(e,t,r,a){for(var i,n=0;i=e[n];n++)r(i,t,a)&&a.push({callback:t.callback,elem:i}),0<i.childNodes.length&&u.checkChildNodesRecursively(i.childNodes,t,r,a)},mergeArrays:function(e,t){var r,a={};for(r in e)e.hasOwnProperty(r)&&(a[r]=e[r]);for(r in t)t.hasOwnProperty(r)&&(a[r]=t[r]);return a},toElementsArray:function(e){return e=void 0!==e&&("number"!=typeof e.length||e===c)?[e]:e}}),e=(l.prototype.addEvent=function(e,t,r,a){a={target:e,selector:t,options:r,callback:a,firedElems:[]};return this._beforeAdding&&this._beforeAdding(a),this._eventsBucket.push(a),a},l.prototype.removeEvent=function(e){for(var t,r=this._eventsBucket.length-1;t=this._eventsBucket[r];r--)e(t)&&(this._beforeRemoving&&this._beforeRemoving(t),(t=this._eventsBucket.splice(r,1))&&t.length&&(t[0].callback=null))},l.prototype.beforeAdding=function(e){this._beforeAdding=e},l.prototype.beforeRemoving=function(e){this._beforeRemoving=e},l),t=function(i,n){var o=new e,l=this,s={fireOnAttributesModification:!1};return o.beforeAdding(function(t){var e=t.target;e!==c.document&&e!==c||(e=document.getElementsByTagName("html")[0]);var r=new MutationObserver(function(e){n.call(this,e,t)}),a=i(t.options);r.observe(e,a),t.observer=r,t.me=l}),o.beforeRemoving(function(e){e.observer.disconnect()}),this.bindEvent=function(e,t,r){t=u.mergeArrays(s,t);for(var a=u.toElementsArray(this),i=0;i<a.length;i++)o.addEvent(a[i],e,t,r)},this.unbindEvent=function(){var r=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<r.length;t++)if(this===w||e.target===r[t])return!0;return!1})},this.unbindEventWithSelectorOrCallback=function(r){var a=u.toElementsArray(this),i=r,e="function"==typeof r?function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.callback===i)return!0;return!1}:function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.selector===r)return!0;return!1};o.removeEvent(e)},this.unbindEventWithSelectorAndCallback=function(r,a){var i=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<i.length;t++)if((this===w||e.target===i[t])&&e.selector===r&&e.callback===a)return!0;return!1})},this},i=new function(){var s={fireOnAttributesModification:!1,onceOnly:!1,existing:!1};function n(e,t,r){return!(!u.matchesSelector(e,t.selector)||(e._id===w&&(e._id=a++),-1!=t.firedElems.indexOf(e._id)))&&(t.firedElems.push(e._id),!0)}var c=(i=new t(function(e){var t={attributes:!1,childList:!0,subtree:!0};return e.fireOnAttributesModification&&(t.attributes=!0),t},function(e,i){e.forEach(function(e){var t=e.addedNodes,r=e.target,a=[];null!==t&&0<t.length?u.checkChildNodesRecursively(t,i,n,a):"attributes"===e.type&&n(r,i)&&a.push({callback:i.callback,elem:r}),u.callCallbacks(a,i)})})).bindEvent;return i.bindEvent=function(e,t,r){t=void 0===r?(r=t,s):u.mergeArrays(s,t);var a=u.toElementsArray(this);if(t.existing){for(var i=[],n=0;n<a.length;n++)for(var o=a[n].querySelectorAll(e),l=0;l<o.length;l++)i.push({callback:r,elem:o[l]});if(t.onceOnly&&i.length)return r.call(i[0].elem,i[0].elem);setTimeout(u.callCallbacks,1,i)}c.call(this,e,t,r)},i},o=new function(){var a={};function i(e,t){return u.matchesSelector(e,t.selector)}var n=(o=new t(function(){return{childList:!0,subtree:!0}},function(e,r){e.forEach(function(e){var t=e.removedNodes,e=[];null!==t&&0<t.length&&u.checkChildNodesRecursively(t,r,i,e),u.callCallbacks(e,r)})})).bindEvent;return o.bindEvent=function(e,t,r){t=void 0===r?(r=t,a):u.mergeArrays(a,t),n.call(this,e,t,r)},o};d(HTMLElement.prototype),d(NodeList.prototype),d(HTMLCollection.prototype),d(HTMLDocument.prototype),d(Window.prototype);var n={};return s(i,n,"unbindAllArrive"),s(o,n,"unbindAllLeave"),n}function l(){this._eventsBucket=[],this._beforeAdding=null,this._beforeRemoving=null}function s(e,t,r){u.addMethod(t,r,e.unbindEvent),u.addMethod(t,r,e.unbindEventWithSelectorOrCallback),u.addMethod(t,r,e.unbindEventWithSelectorAndCallback)}function d(e){e.arrive=i.bindEvent,s(i,e,"unbindArrive"),e.leave=o.bindEvent,s(o,e,"unbindLeave")}}(window,void 0),ewww_webp_supported=!1;function check_webp_feature(e,t){var r;ewww_webp_supported?t(ewww_webp_supported):((r=new Image).onload=function(){ewww_webp_supported=0<r.width&&0<r.height,t(ewww_webp_supported)},r.onerror=function(){t(!1)},r.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",animation:"UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"}[e])}function ewwwLoadImages(e){if(e){for(var t=document.querySelectorAll(".batch-image img, .image-wrapper a, .ngg-pro-masonry-item a, .ngg-galleria-offscreen-seo-wrapper a"),r=0,a=t.length;r<a;r++)ewwwAttr(t[r],"data-src",t[r].getAttribute("data-webp")),ewwwAttr(t[r],"data-thumbnail",t[r].getAttribute("data-webp-thumbnail"));for(var i=document.querySelectorAll("div.woocommerce-product-gallery__image"),r=0,a=i.length;r<a;r++)ewwwAttr(i[r],"data-thumb",i[r].getAttribute("data-webp-thumb"))}for(var n=document.querySelectorAll("video"),r=0,a=n.length;r<a;r++)ewwwAttr(n[r],"poster",e?n[r].getAttribute("data-poster-webp"):n[r].getAttribute("data-poster-image"));for(var o,l=document.querySelectorAll("img.ewww_webp_lazy_load"),r=0,a=l.length;r<a;r++)e&&(ewwwAttr(l[r],"data-lazy-srcset",l[r].getAttribute("data-lazy-srcset-webp")),ewwwAttr(l[r],"data-srcset",l[r].getAttribute("data-srcset-webp")),ewwwAttr(l[r],"data-lazy-src",l[r].getAttribute("data-lazy-src-webp")),ewwwAttr(l[r],"data-src",l[r].getAttribute("data-src-webp")),ewwwAttr(l[r],"data-orig-file",l[r].getAttribute("data-webp-orig-file")),ewwwAttr(l[r],"data-medium-file",l[r].getAttribute("data-webp-medium-file")),ewwwAttr(l[r],"data-large-file",l[r].getAttribute("data-webp-large-file")),null!=(o=l[r].getAttribute("srcset"))&&!1!==o&&o.includes("R0lGOD")&&ewwwAttr(l[r],"src",l[r].getAttribute("data-lazy-src-webp"))),l[r].className=l[r].className.replace(/\bewww_webp_lazy_load\b/,"");for(var s=document.querySelectorAll(".ewww_webp"),r=0,a=s.length;r<a;r++)e?(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-webp")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-webp")),ewwwAttr(s[r],"data-orig-file",s[r].getAttribute("data-webp-orig-file")),ewwwAttr(s[r],"data-medium-file",s[r].getAttribute("data-webp-medium-file")),ewwwAttr(s[r],"data-large-file",s[r].getAttribute("data-webp-large-file")),ewwwAttr(s[r],"data-large_image",s[r].getAttribute("data-webp-large_image")),ewwwAttr(s[r],"data-src",s[r].getAttribute("data-webp-src"))):(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-img")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-img"))),s[r].className=s[r].className.replace(/\bewww_webp\b/,"ewww_webp_loaded");window.jQuery&&jQuery.fn.isotope&&jQuery.fn.imagesLoaded&&(jQuery(".fusion-posts-container-infinite").imagesLoaded(function(){jQuery(".fusion-posts-container-infinite").hasClass("isotope")&&jQuery(".fusion-posts-container-infinite").isotope()}),jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").imagesLoaded(function(){jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").isotope()}))}function ewwwWebPInit(e){ewwwLoadImages(e),ewwwNggLoadGalleries(e),document.arrive(".ewww_webp",function(){ewwwLoadImages(e)}),document.arrive(".ewww_webp_lazy_load",function(){ewwwLoadImages(e)}),document.arrive("videos",function(){ewwwLoadImages(e)}),"loading"==document.readyState?document.addEventListener("DOMContentLoaded",ewwwJSONParserInit):("undefined"!=typeof galleries&&ewwwNggParseGalleries(e),ewwwWooParseVariations(e))}function ewwwAttr(e,t,r){null!=r&&!1!==r&&e.setAttribute(t,r)}function ewwwJSONParserInit(){"undefined"!=typeof galleries&&check_webp_feature("alpha",ewwwNggParseGalleries),check_webp_feature("alpha",ewwwWooParseVariations)}function ewwwWooParseVariations(e){if(e)for(var t=document.querySelectorAll("form.variations_form"),r=0,a=t.length;r<a;r++){var i=t[r].getAttribute("data-product_variations"),n=!1;try{for(var o in i=JSON.parse(i))void 0!==i[o]&&void 0!==i[o].image&&(void 0!==i[o].image.src_webp&&(i[o].image.src=i[o].image.src_webp,n=!0),void 0!==i[o].image.srcset_webp&&(i[o].image.srcset=i[o].image.srcset_webp,n=!0),void 0!==i[o].image.full_src_webp&&(i[o].image.full_src=i[o].image.full_src_webp,n=!0),void 0!==i[o].image.gallery_thumbnail_src_webp&&(i[o].image.gallery_thumbnail_src=i[o].image.gallery_thumbnail_src_webp,n=!0),void 0!==i[o].image.thumb_src_webp&&(i[o].image.thumb_src=i[o].image.thumb_src_webp,n=!0));n&&ewwwAttr(t[r],"data-product_variations",JSON.stringify(i))}catch(e){}}}function ewwwNggParseGalleries(e){if(e)for(var t in galleries){var r=galleries[t];galleries[t].images_list=ewwwNggParseImageList(r.images_list)}}function ewwwNggLoadGalleries(e){e&&document.addEventListener("ngg.galleria.themeadded",function(e,t){window.ngg_galleria._create_backup=window.ngg_galleria.create,window.ngg_galleria.create=function(e,t){var r=$(e).data("id");return galleries["gallery_"+r].images_list=ewwwNggParseImageList(galleries["gallery_"+r].images_list),window.ngg_galleria._create_backup(e,t)}})}function ewwwNggParseImageList(e){for(var t in e){var r=e[t];if(void 0!==r["image-webp"]&&(e[t].image=r["image-webp"],delete e[t]["image-webp"]),void 0!==r["thumb-webp"]&&(e[t].thumb=r["thumb-webp"],delete e[t]["thumb-webp"]),void 0!==r.full_image_webp&&(e[t].full_image=r.full_image_webp,delete e[t].full_image_webp),void 0!==r.srcsets)for(var a in r.srcsets)nggSrcset=r.srcsets[a],void 0!==r.srcsets[a+"-webp"]&&(e[t].srcsets[a]=r.srcsets[a+"-webp"],delete e[t].srcsets[a+"-webp"]);if(void 0!==r.full_srcsets)for(var i in r.full_srcsets)nggFSrcset=r.full_srcsets[i],void 0!==r.full_srcsets[i+"-webp"]&&(e[t].full_srcsets[i]=r.full_srcsets[i+"-webp"],delete e[t].full_srcsets[i+"-webp"])}return e}check_webp_feature("alpha",ewwwWebPInit);</script>
+<!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
+<title>Simple Peptide Review 2026: Pricing, Shipping &amp; Quality</title>
+<meta name="description" content="Simple Peptide review covering pricing, shipping speed, product range, transparency, pros, cons, and overall trust factors."/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://www1.magellanrx.com/vendors/simple-peptide/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Simple Peptide Review 2026: Pricing, Shipping &amp; Quality" />
+<meta property="og:description" content="Simple Peptide review covering pricing, shipping speed, product range, transparency, pros, cons, and overall trust factors." />
+<meta property="og:url" content="https://www1.magellanrx.com/vendors/simple-peptide/" />
+<meta property="og:site_name" content="Magellan Pharmacy" />
+<meta property="og:updated_time" content="2026-01-12T09:14:03-05:00" />
+<meta property="og:image" content="https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment.webp" />
+<meta property="og:image:secure_url" content="https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment.webp" />
+<meta property="og:image:width" content="875" />
+<meta property="og:image:height" content="875" />
+<meta property="og:image:alt" content="Company Background &amp; Establishment" />
+<meta property="og:image:type" content="image/webp" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Simple Peptide Review 2026: Pricing, Shipping &amp; Quality" />
+<meta name="twitter:description" content="Simple Peptide review covering pricing, shipping speed, product range, transparency, pros, cons, and overall trust factors." />
+<meta name="twitter:image" content="https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment.webp" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[[{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Company Background &amp; Establishment","url":"https://www1.magellanrx.com/vendors/simple-peptide/#company-background-establishment"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Product Range &amp; Availability","url":"https://www1.magellanrx.com/vendors/simple-peptide/#product-range-availability"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Number of Products","url":"https://www1.magellanrx.com/vendors/simple-peptide/#number-of-products"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Main Product Categories","url":"https://www1.magellanrx.com/vendors/simple-peptide/#main-product-categories"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Ancillary Products","url":"https://www1.magellanrx.com/vendors/simple-peptide/#ancillary-products"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Pricing &amp; Discounts","url":"https://www1.magellanrx.com/vendors/simple-peptide/#pricing-discounts"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Example Pricing","url":"https://www1.magellanrx.com/vendors/simple-peptide/#example-pricing"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Bulk Discount Program","url":"https://www1.magellanrx.com/vendors/simple-peptide/#bulk-discount-program"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Simple Peptide vs LeoLabRX \u2014 Comparison Table","url":"https://www1.magellanrx.com/vendors/simple-peptide/#simple-peptide-vs-leo-lab-rx-comparison-table"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Shipping &amp; Delivery Times","url":"https://www1.magellanrx.com/vendors/simple-peptide/#shipping-delivery-times"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Delivery Fees","url":"https://www1.magellanrx.com/vendors/simple-peptide/#delivery-fees"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Quality Control &amp; Third-Party Testing","url":"https://www1.magellanrx.com/vendors/simple-peptide/#quality-control-third-party-testing"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Third-Party Laboratory","url":"https://www1.magellanrx.com/vendors/simple-peptide/#third-party-laboratory"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Certificates of Analysis (COAs)","url":"https://www1.magellanrx.com/vendors/simple-peptide/#certificates-of-analysis-co-as"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"External Trust Index &amp; Reputation","url":"https://www1.magellanrx.com/vendors/simple-peptide/#external-trust-index-reputation"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Review Platforms","url":"https://www1.magellanrx.com/vendors/simple-peptide/#review-platforms"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Forums &amp; Social Media","url":"https://www1.magellanrx.com/vendors/simple-peptide/#forums-social-media"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Potential Downsides, Limitations &amp; Red Flags","url":"https://www1.magellanrx.com/vendors/simple-peptide/#potential-downsides-limitations-red-flags"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"1. Mandatory Registration Before Viewing Products","url":"https://www1.magellanrx.com/vendors/simple-peptide/#1-mandatory-registration-before-viewing-products"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"2. Additional Supplies Sold Separately","url":"https://www1.magellanrx.com/vendors/simple-peptide/#2-additional-supplies-sold-separately"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"3. Higher Effective Cost Due to Shipping Method","url":"https://www1.magellanrx.com/vendors/simple-peptide/#3-higher-effective-cost-due-to-shipping-method"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"4. Affiliate-Driven Visibility","url":"https://www1.magellanrx.com/vendors/simple-peptide/#4-affiliate-driven-visibility"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"5. Limited Long-Term Track Record","url":"https://www1.magellanrx.com/vendors/simple-peptide/#5-limited-long-term-track-record"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Final Verdict","url":"https://www1.magellanrx.com/vendors/simple-peptide/#final-verdict"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Is Simple Peptide a legitimate vendor?","url":"https://www1.magellanrx.com/vendors/simple-peptide/#faq-question-1768222067649"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Are Simple Peptide products third-party tested?","url":"https://www1.magellanrx.com/vendors/simple-peptide/#faq-question-1768222074117"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"How can I access Certificates of Analysis (COAs)?","url":"https://www1.magellanrx.com/vendors/simple-peptide/#faq-question-1768222080209"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Do I need to create an account to view products?","url":"https://www1.magellanrx.com/vendors/simple-peptide/#faq-question-1768222085522"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Does Simple Peptide offer free shipping?","url":"https://www1.magellanrx.com/vendors/simple-peptide/#faq-question-1768222092810"}],{"@type":["Person","Organization"],"@id":"https://www1.magellanrx.com/#person","name":"Magellan Pharmacy","logo":{"@type":"ImageObject","@id":"https://www1.magellanrx.com/#logo","url":"https://www1.magellanrx.com/wp-content/uploads/2022/11/logo.webp","contentUrl":"https://www1.magellanrx.com/wp-content/uploads/2022/11/logo.webp","caption":"Magellan Pharmacy","inLanguage":"en-US"},"image":{"@type":"ImageObject","@id":"https://www1.magellanrx.com/#logo","url":"https://www1.magellanrx.com/wp-content/uploads/2022/11/logo.webp","contentUrl":"https://www1.magellanrx.com/wp-content/uploads/2022/11/logo.webp","caption":"Magellan Pharmacy","inLanguage":"en-US"}},{"@type":"WebSite","@id":"https://www1.magellanrx.com/#website","url":"https://www1.magellanrx.com","name":"Magellan Pharmacy","publisher":{"@id":"https://www1.magellanrx.com/#person"},"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo.webp","url":"https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo.webp","width":"380","height":"142","caption":"Simple Peptide Logo","inLanguage":"en-US"},{"@type":"FAQPage","@id":"https://www1.magellanrx.com/vendors/simple-peptide/#webpage","url":"https://www1.magellanrx.com/vendors/simple-peptide/","name":"Simple Peptide Review 2026: Pricing, Shipping &amp; Quality","datePublished":"2026-01-12T07:56:30-05:00","dateModified":"2026-01-12T09:14:03-05:00","isPartOf":{"@id":"https://www1.magellanrx.com/#website"},"primaryImageOfPage":{"@id":"https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo.webp"},"inLanguage":"en-US","mainEntity":[{"@type":"Question","url":"https://www1.magellanrx.com/vendors/simple-peptide/#faq-question-1768222067649","name":"Is Simple Peptide a legitimate vendor?","acceptedAnswer":{"@type":"Answer","text":"Based on available public information, Simple Peptide appears to be a legitimate research peptide vendor. The company provides batch-level documentation, ships orders reliably, and maintains a generally positive reputation across review platforms and online communities. However, it is a relatively young brand with a limited long-term track record."}},{"@type":"Question","url":"https://www1.magellanrx.com/vendors/simple-peptide/#faq-question-1768222074117","name":"Are Simple Peptide products third-party tested?","acceptedAnswer":{"@type":"Answer","text":"Simple Peptide states that its products undergo <strong>independent third-party testing</strong> as part of its quality control process. Certificates of Analysis are provided on a per-batch basis to support product transparency."}},{"@type":"Question","url":"https://www1.magellanrx.com/vendors/simple-peptide/#faq-question-1768222080209","name":"How can I access Certificates of Analysis (COAs)?","acceptedAnswer":{"@type":"Answer","text":"COAs are provided per batch, though the method of access may vary depending on the product and order. Documentation typically includes compound identification, testing methodology, and reported purity levels."}},{"@type":"Question","url":"https://www1.magellanrx.com/vendors/simple-peptide/#faq-question-1768222085522","name":"Do I need to create an account to view products?","acceptedAnswer":{"@type":"Answer","text":"Yes. Simple Peptide requires users to <strong>register and log in</strong> before accessing the full product catalog and pricing. This may be a drawback for users who prefer to browse offerings before sharing personal information."}},{"@type":"Question","url":"https://www1.magellanrx.com/vendors/simple-peptide/#faq-question-1768222092810","name":"Does Simple Peptide offer free shipping?","acceptedAnswer":{"@type":"Answer","text":"Yes. <strong>Free shipping is available on orders over $200</strong>. For orders below this threshold, shipping costs generally range from <strong>$15 to $20</strong>, reflecting the use of expedited delivery services."}}]}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Magellan Rx Management &raquo; Feed" href="https://www1.magellanrx.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Magellan Rx Management &raquo; Comments Feed" href="https://www1.magellanrx.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Magellan Rx Management &raquo; Simple Peptide Comments Feed" href="https://www1.magellanrx.com/vendors/simple-peptide/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www1.magellanrx.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww1.magellanrx.com%2Fvendors%2Fsimple-peptide%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www1.magellanrx.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww1.magellanrx.com%2Fvendors%2Fsimple-peptide%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id='wp-block-library-inline-css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id='wp-block-heading-inline-css'>
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://www1.magellanrx.com/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id='wp-block-image-inline-css'>
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:#5a5a5a40;border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:#5a5a5a40;border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .close-button{align-items:center;cursor:pointer;display:flex;justify-content:center;min-height:40px;min-width:40px;padding:0;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .close-button:focus,.wp-lightbox-overlay .close-button:hover,.wp-lightbox-overlay .close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:9999999999}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=https://www1.magellanrx.com/wp-includes/blocks/image/style.min.css */
+</style>
+<style id='wp-block-list-inline-css'>
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://www1.magellanrx.com/wp-includes/blocks/list/style.min.css */
+</style>
+<style id='wp-block-columns-inline-css'>
+.wp-block-columns{box-sizing:border-box;display:flex;flex-wrap:wrap!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns{align-items:normal!important}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;overflow-wrap:break-word;word-break:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-stretch{align-self:stretch}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}
+/*# sourceURL=https://www1.magellanrx.com/wp-includes/blocks/columns/style.min.css */
+</style>
+<style id='wp-block-paragraph-inline-css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://www1.magellanrx.com/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id='wp-block-separator-inline-css'>
+@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
+/*# sourceURL=https://www1.magellanrx.com/wp-includes/blocks/separator/style.min.css */
+</style>
+<style id='wp-block-table-inline-css'>
+.wp-block-table{overflow-x:auto}.wp-block-table table{border-collapse:collapse;width:100%}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{border:1px solid;padding:.5em}.wp-block-table .has-fixed-layout{table-layout:fixed;width:100%}.wp-block-table .has-fixed-layout td,.wp-block-table .has-fixed-layout th{word-break:break-word}.wp-block-table.aligncenter,.wp-block-table.alignleft,.wp-block-table.alignright{display:table;width:auto}.wp-block-table.aligncenter td,.wp-block-table.aligncenter th,.wp-block-table.alignleft td,.wp-block-table.alignleft th,.wp-block-table.alignright td,.wp-block-table.alignright th{word-break:break-word}.wp-block-table .has-subtle-light-gray-background-color{background-color:#f3f4f5}.wp-block-table .has-subtle-pale-green-background-color{background-color:#e9fbe5}.wp-block-table .has-subtle-pale-blue-background-color{background-color:#e7f5fe}.wp-block-table .has-subtle-pale-pink-background-color{background-color:#fcf0ef}.wp-block-table.is-style-stripes{background-color:initial;border-collapse:inherit;border-spacing:0}.wp-block-table.is-style-stripes tbody tr:nth-child(odd){background-color:#f0f0f0}.wp-block-table.is-style-stripes.has-subtle-light-gray-background-color tbody tr:nth-child(odd){background-color:#f3f4f5}.wp-block-table.is-style-stripes.has-subtle-pale-green-background-color tbody tr:nth-child(odd){background-color:#e9fbe5}.wp-block-table.is-style-stripes.has-subtle-pale-blue-background-color tbody tr:nth-child(odd){background-color:#e7f5fe}.wp-block-table.is-style-stripes.has-subtle-pale-pink-background-color tbody tr:nth-child(odd){background-color:#fcf0ef}.wp-block-table.is-style-stripes td,.wp-block-table.is-style-stripes th{border-color:#0000}.wp-block-table.is-style-stripes{border-bottom:1px solid #f0f0f0}.wp-block-table .has-border-color td,.wp-block-table .has-border-color th,.wp-block-table .has-border-color tr,.wp-block-table .has-border-color>*{border-color:inherit}.wp-block-table table[style*=border-top-color] tr:first-child,.wp-block-table table[style*=border-top-color] tr:first-child td,.wp-block-table table[style*=border-top-color] tr:first-child th,.wp-block-table table[style*=border-top-color]>*,.wp-block-table table[style*=border-top-color]>* td,.wp-block-table table[style*=border-top-color]>* th{border-top-color:inherit}.wp-block-table table[style*=border-top-color] tr:not(:first-child){border-top-color:initial}.wp-block-table table[style*=border-right-color] td:last-child,.wp-block-table table[style*=border-right-color] th,.wp-block-table table[style*=border-right-color] tr,.wp-block-table table[style*=border-right-color]>*{border-right-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:last-child,.wp-block-table table[style*=border-bottom-color] tr:last-child td,.wp-block-table table[style*=border-bottom-color] tr:last-child th,.wp-block-table table[style*=border-bottom-color]>*,.wp-block-table table[style*=border-bottom-color]>* td,.wp-block-table table[style*=border-bottom-color]>* th{border-bottom-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:not(:last-child){border-bottom-color:initial}.wp-block-table table[style*=border-left-color] td:first-child,.wp-block-table table[style*=border-left-color] th,.wp-block-table table[style*=border-left-color] tr,.wp-block-table table[style*=border-left-color]>*{border-left-color:inherit}.wp-block-table table[style*=border-style] td,.wp-block-table table[style*=border-style] th,.wp-block-table table[style*=border-style] tr,.wp-block-table table[style*=border-style]>*{border-style:inherit}.wp-block-table table[style*=border-width] td,.wp-block-table table[style*=border-width] th,.wp-block-table table[style*=border-width] tr,.wp-block-table table[style*=border-width]>*{border-style:inherit;border-width:inherit}
+/*# sourceURL=https://www1.magellanrx.com/wp-includes/blocks/table/style.min.css */
+</style>
+
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--mercury-main: #636e72;--wp--preset--color--mercury-second: #d63031;--wp--preset--color--mercury-white: #fff;--wp--preset--color--mercury-gray: #263238;--wp--preset--color--mercury-emerald: #2edd6c;--wp--preset--color--mercury-alizarin: #e74c3c;--wp--preset--color--mercury-wisteria: #8e44ad;--wp--preset--color--mercury-peter-river: #3498db;--wp--preset--color--mercury-clouds: #ecf0f1;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='aces-style-css' href='https://www1.magellanrx.com/wp-content/plugins/aces/css/aces-style.css?ver=3.0.8' media='all' />
+<link rel='stylesheet' id='aces-media-css' href='https://www1.magellanrx.com/wp-content/plugins/aces/css/aces-media.css?ver=3.0.8' media='all' />
+<link rel='stylesheet' id='mercury-googlefonts-css' href='//fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&#038;display=swap' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://www1.magellanrx.com/wp-content/themes/mercury/fontawesome/css/all.min.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='owl-carousel-css' href='https://www1.magellanrx.com/wp-content/themes/mercury/css/owl.carousel.min.css?ver=2.3.4' media='all' />
+<link rel='stylesheet' id='owl-carousel-animate-css' href='https://www1.magellanrx.com/wp-content/themes/mercury/css/animate.css?ver=2.3.4' media='all' />
+<link rel='stylesheet' id='mercury-style-css' href='https://www1.magellanrx.com/wp-content/themes/mercury/style.css?ver=3.9.12' media='all' />
+<style id='mercury-style-inline-css'>
+
+
+/* Main Color */
+
+.has-mercury-main-color,
+.home-page .textwidget a:hover,
+.space-header-2-top-soc a:hover,
+.space-header-menu ul.main-menu li a:hover,
+.space-header-menu ul.main-menu li:hover a,
+.space-header-2-nav ul.main-menu li a:hover,
+.space-header-2-nav ul.main-menu li:hover a,
+.space-page-content a:hover,
+.space-pros-cons ul li a:hover,
+.space-pros-cons ol li a:hover,
+.space-companies-2-archive-item-desc a:hover,
+.space-organizations-3-archive-item-terms-ins a:hover,
+.space-organizations-7-archive-item-terms a:hover,
+.space-organizations-8-archive-item-terms a:hover,
+.space-comments-form-box p.comment-notes span.required,
+form.comment-form p.comment-notes span.required {
+	color: #636e72;
+}
+
+input[type="submit"],
+.has-mercury-main-background-color,
+.space-block-title span:after,
+.space-widget-title span:after,
+.space-companies-archive-item-button a,
+.space-companies-sidebar-item-button a,
+.space-organizations-3-archive-item-count,
+.space-organizations-3-archive-item-count-2,
+.space-units-archive-item-button a,
+.space-units-sidebar-item-button a,
+.space-aces-single-offer-info-button-ins a,
+.space-offers-archive-item-button a,
+.home-page .widget_mc4wp_form_widget .space-widget-title::after,
+.space-content-section .widget_mc4wp_form_widget .space-widget-title::after {
+	background-color: #636e72;
+}
+
+.space-header-menu ul.main-menu li a:hover,
+.space-header-menu ul.main-menu li:hover a,
+.space-header-2-nav ul.main-menu li a:hover,
+.space-header-2-nav ul.main-menu li:hover a {
+	border-bottom: 2px solid #636e72;
+}
+.space-header-2-top-soc a:hover {
+	border: 1px solid #636e72;
+}
+.space-companies-archive-item-button a:hover,
+.space-units-archive-item-button a:hover,
+.space-offers-archive-item-button a:hover,
+.space-aces-single-offer-info-button-ins a:hover {
+    box-shadow: 0px 8px 30px 0px rgba(99,110,114, 0.60) !important;
+}
+
+/* Second Color */
+
+.has-mercury-second-color,
+.space-page-content a,
+.space-pros-cons ul li a,
+.space-pros-cons ol li a,
+.space-page-content ul li:before,
+.home-page .textwidget ul li:before,
+.space-widget ul li a:hover,
+.space-page-content ul.space-mark li:before,
+.home-page .textwidget a,
+#recentcomments li a:hover,
+#recentcomments li span.comment-author-link a:hover,
+h3.comment-reply-title small a,
+.space-shortcode-wrap .space-companies-sidebar-item-title p a,
+.space-companies-sidebar-2-item-desc a,
+.space-companies-sidebar-item-title p a,
+.space-companies-archive-item-short-desc a,
+.space-companies-2-archive-item-desc a,
+.space-organizations-3-archive-item-terms-ins a,
+.space-organizations-7-archive-item-terms a,
+.space-organizations-8-archive-item-terms a,
+.space-organization-content-info a,
+.space-organization-style-2-calltoaction-text-ins a,
+.space-organization-details-item-title span,
+.space-organization-style-2-ratings-all-item-value i,
+.space-organization-style-2-calltoaction-text-ins a,
+.space-organization-content-short-desc a,
+.space-organization-header-short-desc a,
+.space-organization-content-rating-stars i,
+.space-organization-content-rating-overall .star-rating .star,
+.space-companies-archive-item-rating .star-rating .star,
+.space-organization-content-logo-stars i,
+.space-organization-content-logo-stars .star-rating .star,
+.space-companies-2-archive-item-rating .star-rating .star,
+.space-organizations-3-archive-item-rating-box .star-rating .star,
+.space-organizations-4-archive-item-title .star-rating .star,
+.space-companies-sidebar-2-item-rating .star-rating .star,
+.space-comments-list-item-date a.comment-reply-link,
+.space-categories-list-box ul li a,
+.space-news-10-item-category a,
+.small .space-news-11-item-category a,
+#scrolltop,
+.widget_mc4wp_form_widget .mc4wp-response a,
+.space-header-height.dark .space-header-menu ul.main-menu li a:hover,
+.space-header-height.dark .space-header-menu ul.main-menu li:hover a,
+.space-header-2-height.dark .space-header-2-nav ul.main-menu li a:hover,
+.space-header-2-height.dark .space-header-2-nav ul.main-menu li:hover a,
+.space-header-2-height.dark .space-header-2-top-soc a:hover,
+.space-organization-header-logo-rating i,
+.wp-block-latest-comments__comment-meta a {
+	color: #d63031;
+}
+
+.space-title-box-category a,
+.has-mercury-second-background-color,
+.space-organization-details-item-links a:hover,
+.space-news-2-small-item-img-category a,
+.space-news-2-item-big-box-category span,
+.space-block-title span:before,
+.space-widget-title span:before,
+.space-news-4-item.small-news-block .space-news-4-item-img-category a,
+.space-news-4-item.big-news-block .space-news-4-item-top-category span,
+.space-news-6-item-top-category span,
+.space-news-7-item-category span,
+.space-news-3-item-img-category a,
+.space-news-8-item-title-category span,
+.space-news-9-item-info-category span,
+.space-archive-loop-item-img-category a,
+.space-organizations-3-archive-item:first-child .space-organizations-3-archive-item-count,
+.space-organizations-3-archive-item:first-child .space-organizations-3-archive-item-count-2,
+.space-single-offer.space-dark-style .space-aces-single-offer-info-button-ins a,
+.space-offers-archive-item.space-dark-style .space-offers-archive-item-button a,
+nav.pagination a,
+.space-load-more-button,
+nav.comments-pagination a,
+nav.pagination-post a span.page-number,
+.widget_tag_cloud a,
+.space-footer-top-age span.age-limit,
+.space-footer-top-soc a:hover,
+.home-page .widget_mc4wp_form_widget .mc4wp-form-fields .space-subscribe-filds button,
+.space-content-section .widget_mc4wp_form_widget .mc4wp-form-fields .space-subscribe-filds button {
+	background-color: #d63031;
+}
+
+.space-footer-top-soc a:hover,
+.space-header-2-height.dark .space-header-2-top-soc a:hover,
+.space-categories-list-box ul li a {
+	border: 1px solid #d63031;
+}
+
+.space-header-height.dark .space-header-menu ul.main-menu li a:hover,
+.space-header-height.dark .space-header-menu ul.main-menu li:hover a,
+.space-header-2-height.dark .space-header-2-nav ul.main-menu li a:hover,
+.space-header-2-height.dark .space-header-2-nav ul.main-menu li:hover a {
+	border-bottom: 2px solid #d63031;
+}
+
+.space-offers-archive-item.space-dark-style .space-offers-archive-item-button a:hover,
+.space-single-offer.space-dark-style .space-aces-single-offer-info-button-ins a:hover {
+    box-shadow: 0px 8px 30px 0px rgba(214,48,49, 0.60) !important;
+}
+
+.space-text-gradient {
+	background: #636e72;
+	background: -webkit-linear-gradient(to right, #636e72 0%, #d63031 100%);
+	background: -moz-linear-gradient(to right, #636e72 0%, #d63031 100%);
+	background: linear-gradient(to right, #636e72 0%, #d63031 100%);
+}
+
+/* Stars Color */
+
+.star,
+.fa-star {
+	color: #fdcb6e!important;
+}
+
+.space-rating-star-background {
+	background-color: #fdcb6e;
+}
+
+/* Custom header layout colors */
+
+/* --- Header #1 Style --- */
+
+.space-header-height .space-header-wrap {
+	background-color: #ffffff;
+}
+.space-header-height .space-header-top,
+.space-header-height .space-header-logo-ins:after {
+	background-color: #f5f6fa;
+}
+.space-header-height .space-header-top-soc a,
+.space-header-height .space-header-top-menu ul li a {
+	color: #7f8c8d;
+}
+.space-header-height .space-header-top-soc a:hover ,
+.space-header-height .space-header-top-menu ul li a:hover {
+	color: #ffffff;
+}
+.space-header-height .space-header-logo a {
+	color: #2d3436;
+}
+.space-header-height .space-header-logo span {
+	color: #7f8c8d;
+}
+.space-header-height .space-header-menu ul.main-menu li,
+.space-header-height .space-header-menu ul.main-menu li a,
+.space-header-height .space-header-search {
+	color: #151515;
+}
+.space-header-height .space-mobile-menu-icon div {
+	background-color: #151515;
+}
+.space-header-height .space-header-menu ul.main-menu li a:hover,
+.space-header-height .space-header-menu ul.main-menu li:hover a {
+	color: #d63031;
+	border-bottom: 2px solid #d63031;
+}
+
+.space-header-height .space-header-menu ul.main-menu li ul.sub-menu {
+	background-color: #ffffff;
+}
+
+.space-header-height .space-header-menu ul.main-menu li ul.sub-menu li.menu-item-has-children:after,
+.space-header-height .space-header-menu ul.main-menu li ul.sub-menu li a {
+	color: #34495e;
+	border-bottom: 1px solid transparent;
+}
+.space-header-height .space-header-menu ul.main-menu li ul.sub-menu li a:hover {
+	border-bottom: 1px solid transparent;
+	color: #b2bec3;
+	text-decoration: none;
+}
+
+/* --- Header #2 Style --- */
+
+.space-header-2-height .space-header-2-wrap,
+.space-header-2-height .space-header-2-wrap.fixed .space-header-2-nav {
+	background-color: #ffffff;
+}
+.space-header-2-height .space-header-2-top-ins {
+	border-bottom: 1px solid #f5f6fa;
+}
+.space-header-2-height .space-header-2-top-soc a,
+.space-header-2-height .space-header-search {
+	color: #7f8c8d;
+}
+.space-header-2-height .space-header-2-top-soc a {
+	border: 1px solid #7f8c8d;
+}
+.space-header-2-height .space-mobile-menu-icon div {
+	background-color: #7f8c8d;
+}
+.space-header-2-height .space-header-2-top-soc a:hover {
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+.space-header-2-height .space-header-2-top-logo a {
+	color: #2d3436;
+}
+.space-header-2-height .space-header-2-top-logo span {
+	color: #7f8c8d;
+}
+.space-header-2-height .space-header-2-nav ul.main-menu li,
+.space-header-2-height .space-header-2-nav ul.main-menu li a {
+	color: #151515;
+}
+.space-header-2-height .space-header-2-nav ul.main-menu li a:hover,
+.space-header-2-height .space-header-2-nav ul.main-menu li:hover a {
+	color: #d63031;
+	border-bottom: 2px solid #d63031;
+}
+.space-header-2-height .space-header-2-nav ul.main-menu li ul.sub-menu {
+	background-color: #ffffff;
+}
+.space-header-2-height .space-header-2-nav ul.main-menu li ul.sub-menu li a,
+.space-header-2-height .space-header-2-nav ul.main-menu li ul.sub-menu li.menu-item-has-children:after {
+	color: #34495e;
+	border-bottom: 1px solid transparent;
+}
+.space-header-2-height .space-header-2-nav ul.main-menu li ul.sub-menu li a:hover {
+	border-bottom: 1px solid transparent;
+	color: #b2bec3;
+	text-decoration: none;
+}
+
+/* Title box colors */
+
+.space-title-box,
+.space-archive-title-box {
+    background-color: #f1f3f4 !important;
+}
+.space-title-box-h1 h1,
+.space-archive-title-box-h1 h1 {
+    color: #151515;
+}
+.space-title-box .space-page-content-excerpt p,
+.author .space-page-content-excerpt p,
+.space-title-box .space-breadcrumbs,
+.space-title-box .space-breadcrumbs a,
+.space-archive-title-box .space-breadcrumbs,
+.space-archive-title-box .space-breadcrumbs a {
+    color: #7f8c8d !important;
+}
+
+/* --- Mobile Menu Style --- */
+
+.space-mobile-menu .space-mobile-menu-block {
+	background-color: #ffffff;
+}
+.space-mobile-menu .space-mobile-menu-copy {
+	border-top: 1px solid #f5f6fa;
+}
+.space-mobile-menu .space-mobile-menu-copy {
+	color: #7f8c8d;
+}
+.space-mobile-menu .space-mobile-menu-copy a {
+	color: #7f8c8d;
+}
+.space-mobile-menu .space-mobile-menu-copy a:hover {
+	color: #ffffff;
+}
+.space-mobile-menu .space-mobile-menu-header a {
+	color: #2d3436;
+}
+.space-mobile-menu .space-mobile-menu-header span {
+	color: #7f8c8d;
+}
+.space-mobile-menu .space-mobile-menu-list ul li {
+	color: #151515;
+}
+.space-mobile-menu .space-mobile-menu-list ul li a {
+	color: #151515;
+}
+.space-mobile-menu .space-close-icon .to-right,
+.space-mobile-menu .space-close-icon .to-left {
+	background-color: #151515;
+}
+
+/* --- New - Label for the main menu items --- */
+
+ul.main-menu > li.new > a:before,
+.space-mobile-menu-list > ul > li.new:before {
+	content: "New";
+    color: #5b9765;
+    background-color: #e6f5e9;
+}
+
+/* --- Best - Label for the main menu items --- */
+
+ul.main-menu > li.best > a:before,
+.space-mobile-menu-list > ul > li.best:before {
+	content: "Best";
+    color: #636e72;
+    background-color: #dfe6e9;
+}
+
+/* --- Hot - Label for the main menu items --- */
+
+ul.main-menu > li.hot > a:before,
+.space-mobile-menu-list > ul > li.hot:before {
+	content: "Fair";
+    color: #636e72;
+    background-color: #dfe6e9;
+}
+
+/* --- Top - Label for the main menu items --- */
+
+ul.main-menu > li.top > a:before,
+.space-mobile-menu-list > ul > li.top:before {
+	content: "Top";
+    color: #d63031;
+    background-color: #fec3c4;
+}
+
+/* --- Fair - Label for the main menu items --- */
+
+ul.main-menu > li.fair > a:before,
+.space-mobile-menu-list > ul > li.fair:before {
+	content: "Fair";
+    color: #ffffff;
+    background-color: #8c14fc;
+}
+
+/* Play Now - The button color */
+
+.space-organization-content-button a,
+.space-unit-content-button a,
+.space-organizations-3-archive-item-button-ins a,
+.space-organizations-4-archive-item-button-two-ins a,
+.space-shortcode-wrap .space-organizations-3-archive-item-button-ins a,
+.space-shortcode-wrap .space-organizations-4-archive-item-button-two-ins a {
+    color: #ffffff !important;
+    background-color: #d63031 !important;
+}
+
+.space-organization-content-button a:hover,
+.space-unit-content-button a:hover,
+.space-organizations-3-archive-item-button-ins a:hover,
+.space-organizations-4-archive-item-button-two-ins a:hover {
+    box-shadow: 0px 0px 15px 0px rgba(214,48,49, 0.55) !important;
+}
+
+.space-organization-header-button a.space-style-2-button,
+.space-organization-style-2-calltoaction-button-ins a.space-calltoaction-button,
+.space-style-3-organization-header-button a.space-style-3-button,
+.space-organizations-7-archive-item-button-two a,
+.space-organizations-8-archive-item-button-two a,
+.space-organization-float-bar-button-wrap a {
+    color: #ffffff !important;
+    background-color: #d63031 !important;
+    box-shadow: 0px 5px 15px 0px rgba(214,48,49, 0.55) !important;
+}
+.space-organization-header-button a.space-style-2-button:hover,
+.space-organization-style-2-calltoaction-button-ins a.space-calltoaction-button:hover,
+.space-style-3-organization-header-button a.space-style-3-button:hover,
+.space-organizations-7-archive-item-button-two a:hover,
+.space-organizations-8-archive-item-button-two a:hover,
+.space-organization-float-bar-button-wrap a:hover {
+    box-shadow: 0px 5px 15px 0px rgba(214,48,49, 0) !important;
+}
+
+.space-organizations-5-archive-item-button1 a,
+.space-organizations-6-archive-item-button1 a,
+.space-units-2-archive-item-button1 a,
+.space-units-3-archive-item-button1 a {
+    color: #ffffff !important;
+    background-color: #d63031 !important;
+    box-shadow: 0px 10px 15px 0px rgba(214,48,49, 0.5) !important;
+}
+.space-organizations-5-archive-item-button1 a:hover,
+.space-organizations-6-archive-item-button1 a:hover,
+.space-units-2-archive-item-button1 a:hover,
+.space-units-3-archive-item-button1 a:hover {
+    box-shadow: 0px 10px 15px 0px rgba(214,48,49, 0) !important;
+}
+
+/* Read Review - The button color */
+
+.space-organizations-3-archive-item-button-ins a:last-child,
+.space-organizations-4-archive-item-button-one-ins a,
+.space-shortcode-wrap .space-organizations-4-archive-item-button-one-ins a {
+    color: #ffffff !important;
+    background-color: #b2bec3 !important;
+}
+
+.space-organizations-3-archive-item-button-ins a:last-child:hover,
+.space-organizations-4-archive-item-button-one-ins a:hover {
+    box-shadow: 0px 0px 15px 0px rgba(178,190,195, 0.55) !important;
+}
+/*# sourceURL=mercury-style-inline-css */
+</style>
+<link rel='stylesheet' id='mercury-media-css' href='https://www1.magellanrx.com/wp-content/themes/mercury/css/media.css?ver=3.9.12' media='all' />
+<script src="https://www1.magellanrx.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://www1.magellanrx.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://www1.magellanrx.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www1.magellanrx.com/wp-json/wp/v2/organization/625" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www1.magellanrx.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.4" />
+<link rel='shortlink' href='https://www1.magellanrx.com/?p=625' />
+<meta name="theme-color" content="#f5f6fa" />
+<meta name="msapplication-navbutton-color" content="#f5f6fa" /> 
+<meta name="apple-mobile-web-app-status-bar-style" content="#f5f6fa" />
+<noscript><style>.lazyload[data-src]{display:none !important;}</style></noscript><style>.lazyload{background-image:none !important;}.lazyload:before{background-image:none !important;}</style><style>.wp-block-gallery.is-cropped .blocks-gallery-item picture{height:100%;width:100%;}</style><link rel="icon" href="https://www1.magellanrx.com/wp-content/uploads/2025/12/cropped-MAGELAN-LOGO-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www1.magellanrx.com/wp-content/uploads/2025/12/cropped-MAGELAN-LOGO-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www1.magellanrx.com/wp-content/uploads/2025/12/cropped-MAGELAN-LOGO-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www1.magellanrx.com/wp-content/uploads/2025/12/cropped-MAGELAN-LOGO-270x270.png" />
+		<style id="wp-custom-css">
+			.space-header-wrap {box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0);}
+.space-header-wrap.fixed {box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);}		</style>
+		<link rel='stylesheet' id='rank-math-toc-block-css' href='https://www1.magellanrx.com/wp-content/plugins/seo-by-rank-math/includes/modules/schema/blocks/toc/assets/css/toc_list_style.css?ver=1.0.269' media='all' />
+<style id='core-block-supports-inline-css'>
+.wp-container-core-columns-is-layout-9d6595d7{flex-wrap:nowrap;}
+/*# sourceURL=core-block-supports-inline-css */
+</style>
+
+</head>
+<body ontouchstart class="wp-singular organization-template-default single single-organization postid-625 wp-custom-logo wp-embed-responsive wp-theme-mercury">
+
+
+
+<div class="space-box relative">
+
+<!-- Header Start -->
+
+<div class="space-header-height relative ">
+	<div class="space-header-wrap space-header-float relative">
+				<div class="space-header relative">
+			<div class="space-header-ins space-wrapper relative">
+				<div class="space-header-logo box-25 left relative">
+					<div class="space-header-logo-ins relative">
+						<a href="https://www1.magellanrx.com/" title="Magellan Rx Management"><img width="188" height="40" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAAAoAQMAAAB+cAK9AAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABFJREFUKM9jYBgFo2AUDHcAAAPoAAEYIFNZAAAAAElFTkSuQmCC" class="attachment-mercury-custom-logo size-mercury-custom-logo lazyload" alt="Magellan Rx Management" decoding="async"   data-src="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png 188w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-300x64.png 300w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-768x164.png 768w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-150x32.png 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-328x70.png 328w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-375x80.png 375w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-633x135.png 633w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1.png 797w" data-sizes="auto" data-eio-rwidth="188" data-eio-rheight="40" /><noscript><img width="188" height="40" src="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png" class="attachment-mercury-custom-logo size-mercury-custom-logo" alt="Magellan Rx Management" decoding="async" srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png 188w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-300x64.png 300w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-768x164.png 768w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-150x32.png 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-328x70.png 328w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-375x80.png 375w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-633x135.png 633w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1.png 797w" sizes="(max-width: 188px) 100vw, 188px" data-eio="l" /></noscript></a>					</div>
+				</div>
+				<div class="space-header-menu box-75 left relative">
+					<ul id="menu-main-en-us" class="main-menu"><li id="menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-549"><a href="https://www1.magellanrx.com/">Retatrutide</a></li>
+<li id="menu-item-558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-558"><a href="https://www1.magellanrx.com/top-peptides/">Top Peptides</a>
+<ul class="sub-menu">
+	<li id="menu-item-563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-563"><a href="https://www1.magellanrx.com/where-to-buy-bpc-157-peptide-price-and-quality-comparison/">BPC-157 Peptide</a></li>
+	<li id="menu-item-559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-559"><a href="https://www1.magellanrx.com/where-to-buy-ghk-cu-peptide-price-and-quality-comparison/">GHK-Cu Peptide</a></li>
+	<li id="menu-item-560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-560"><a href="https://www1.magellanrx.com/where-to-buy-klow-stack-peptide-price-and-quality-comparison/">Klow Stack Peptide</a></li>
+	<li id="menu-item-561" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-561"><a href="https://www1.magellanrx.com/where-to-buy-glow-peptide-price-and-quality-comparison/">Glow Stack Peptide</a></li>
+	<li id="menu-item-562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-562"><a href="https://www1.magellanrx.com/where-to-buy-ipamorelin-peptide-price-and-quality-comparison/">Ipamorelin Peptide</a></li>
+	<li id="menu-item-684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-684"><a href="https://www1.magellanrx.com/wolverine-stack-peptide/">Wolverine Stack Peptide</a></li>
+	<li id="menu-item-692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-692"><a href="https://www1.magellanrx.com/where-to-buy-kpv-peptide/">KPV Peptide</a></li>
+	<li id="menu-item-716" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716"><a href="https://www1.magellanrx.com/sermorelin-peptide-for-sale/">Sermorelin Peptide</a></li>
+	<li id="menu-item-725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-725"><a href="https://www1.magellanrx.com/best-peptides-for-muscle-growth/">Peptides For Muscle Growth</a></li>
+</ul>
+</li>
+</ul>					<div class="space-header-search absolute">
+						<i class="fas fa-search desktop-search-button"></i>
+					</div>
+					<div class="space-mobile-menu-icon absolute">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="space-header-search-block fixed">
+	<div class="space-header-search-block-ins absolute">
+				<form role="search" method="get" class="space-default-search-form" action="https://www1.magellanrx.com/">
+			<input type="search" value="" name="s" placeholder="Enter keyword...">
+		</form>	</div>
+	<div class="space-close-icon desktop-search-close-button absolute">
+		<div class="to-right absolute"></div>
+		<div class="to-left absolute"></div>
+	</div>
+</div>
+
+<!-- Header End -->
+<div id="post-625" class="post-625 casino type-casino status-publish has-post-thumbnail hentry">
+
+	
+<script type="application/ld+json">
+	{
+		"@context": "http://schema.org/",
+		"@type": "Review",
+		"itemReviewed": {
+		    "@type": "Organization",
+		    "name": "Simple Peptide",
+		    "image": "https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo.webp"
+		},
+		"author": {
+		    "@type": "Person",
+		    "name": "Dr. Richard Vaughn",
+		    "url": "https://www1.magellanrx.com"
+		},
+		"reviewRating": {
+		    "@type": "Rating",
+		    "ratingValue": "7",
+		    "bestRating": "10",
+		    "worstRating": "1"
+		},
+		"datePublished": "January 12, 2026",
+		"reviewBody": "Simple Peptide is an online vendor specializing in research-use-only peptides, positioning itself as a provider of independently tested compounds with an emphasis on fast fulfillment and modern branding. The company has gained visibility through a broad product lineup, aggressive marketing, and a strong social media presence within the research peptide space. This review provides a [&hellip;]"
+	}
+</script>
+
+<div class="space-single-organization space-style-2-organization relative">
+
+	<!-- Organization Header Start -->
+
+	<div class="space-style-2-organization-header box-100 relative">
+		<div class="space-style-2-organization-header-ins space-page-wrapper relative">
+			<div class="space-style-2-organization-header-elements box-100 relative">
+				<div class="space-style-2-organization-header-left box-75 relative">
+					<div class="space-style-2-organization-header-left-ins relative">
+						<div class="space-organization-header-logo-title box-100 relative">
+							<div class="space-organization-header-logo-box relative">
+								<img width="135" height="135" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIcAAACHAQMAAAAGKdhJAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABlJREFUSMftwTEBAAAAwqD1T20LL6AAAPgZCX4AAfaVOjcAAAAASUVORK5CYII=" class="attachment-mercury-135-135 size-mercury-135-135 lazyload" alt="Simple Peptide" decoding="async"   data-src="https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-135x135.webp" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-135x135.webp 135w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-50x50.webp 50w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-100x100.webp 100w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-120x120.webp 120w" data-sizes="auto" data-eio-rwidth="135" data-eio-rheight="135" /><noscript><img width="135" height="135" src="https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-135x135.webp" class="attachment-mercury-135-135 size-mercury-135-135" alt="Simple Peptide" decoding="async" srcset="https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-135x135.webp 135w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-50x50.webp 50w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-100x100.webp 100w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-120x120.webp 120w" sizes="(max-width: 135px) 100vw, 135px" data-eio="l" /></noscript>								<div class="space-organization-header-logo-rating absolute">
+									7.0 <i class="fas fa-star"></i>
+								</div>
+							</div>
+							<div class="space-organization-header-title-box relative">
+								<div class="space-organization-header-title-box-ins box-100 relative">
+
+									<!-- Title Start -->
+
+									<h1>Simple Peptide</h1>
+
+									<!-- Title End -->
+
+									
+									
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="space-style-2-organization-header-right box-25 relative">
+					<div class="space-organization-header-button text-center box-100 relative">
+
+						
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Organization Header End -->
+
+	<!-- Breadcrumbs Start -->
+
+	
+	<!-- Breadcrumbs End -->
+
+		<!-- Single Organization Page Section Start -->
+
+		<div class="space-page-section box-100 relative style-2-without-sidebar">
+			<div class="space-page-section-ins space-page-wrapper relative">
+				<div class="space-content-section box-100 relative">
+
+							<div class="space-page-content-wrap relative">
+
+																
+								
+																
+									<!-- Pros/Cons Start -->
+
+									
+									<!-- Pros/Cons End -->
+
+								
+								<div class="space-page-content-box-wrap relative">
+									<div class="space-page-content box-100 relative">
+										
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+	<div class="space-pros box-100 relative">
+		<div class="space-pros-ins relative">
+			<div class="space-pros-title box-100 relative">
+				Pros			</div>
+			<div class="space-pros-description box-100 relative">
+				
+<ul>
+<li>Fast shipping performance, with same-day fulfillment for orders placed before 3 PM ET</li>
+<li>Reliable US-based delivery, typically arriving within two business days</li>
+<li>Batch-level Certificates of Analysis (COAs) provided to support product transparency</li>
+<li>Broad product selection, including blends and novel formats such as dissolvable research strips</li>
+<li>Bulk discount program that benefits higher-volume orders</li>
+<li>Strong online presence and customer engagement, with active communication channels</li>
+</ul>
+			</div>
+		</div>
+	</div>
+
+	
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+	<div class="space-cons box-100 relative">
+		<div class="space-cons-ins relative">
+			<div class="space-cons-title box-100 relative">
+				Cons			</div>
+			<div class="space-cons-description box-100 relative">
+				
+<ul>
+<li>Mandatory account registration required to view the full product catalog and pricing</li>
+<li>Higher effective cost for small orders, due to FedEx 2Day shipping fees</li>
+<li>Basic research supplies not included (syringes, bacteriostatic water, alcohol wipes sold separately)</li>
+<li>Heavily affiliate-driven marketing, which may affect the objectivity of some online feedback</li>
+<li>Limited long-term track record, as the company was established in late 2023</li>
+</ul>
+			</div>
+		</div>
+	</div>
+
+	
+</div>
+</div>
+
+
+
+<p>Simple Peptide is an online vendor specializing in <strong>research-use-only peptides</strong>, positioning itself as a provider of independently tested compounds with an emphasis on fast fulfillment and modern branding. The company has gained visibility through a broad product lineup, aggressive marketing, and a strong social media presence within the research peptide space.</p>
+
+
+
+	
+	<div class="space-shortcode-wrap space-shortcode-4 relative">
+		<div class="space-shortcode-wrap-ins relative">
+
+			
+			<div class="space-organizations-3-archive-items box-100 relative">
+
+				
+				<div class="space-organizations-3-archive-item box-100 relative">
+					<div class="space-organizations-3-archive-item-ins relative">
+						<div class="space-organizations-3-archive-item-logo box-25 relative">
+							<div class="space-organizations-3-archive-item-logo-ins box-100 text-center relative">
+
+																		<div class="space-organizations-3-logo-title-box box-100 text-left relative">
+											<div class="space-organizations-3-logo-box relative">
+												<a href="https://www1.magellanrx.com/vendors/leolab-rx/" title="Leolab RX">
+													<img decoding="async" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyAQMAAAAk8RryAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAA5JREFUGNNjYBgFgwkAAAGQAAHFm9tJAAAAAElFTkSuQmCC" class="attachment-mercury-50-50 size-mercury-50-50 lazyload" alt="Leolab RX"   data-src="https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-50x50.png" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-50x50.png 50w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-150x150.png 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-40x40.png 40w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-100x100.png 100w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-120x120.png 120w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-135x135.png 135w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-32x32.png 32w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-70x70.png 70w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-80x80.png 80w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1.png 240w" data-sizes="auto" data-eio-rwidth="50" data-eio-rheight="50" /><noscript><img decoding="async" width="50" height="50" src="https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-50x50.png" class="attachment-mercury-50-50 size-mercury-50-50" alt="Leolab RX" srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-50x50.png 50w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-150x150.png 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-40x40.png 40w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-100x100.png 100w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-120x120.png 120w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-135x135.png 135w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-32x32.png 32w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-70x70.png 70w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-80x80.png 80w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1.png 240w" sizes="(max-width: 50px) 100vw, 50px" data-eio="l" /></noscript>												</a>
+												<div class="space-organizations-3-archive-item-count-2 absolute">
+													<span>1</span>
+												</div>
+											</div>
+											<div class="space-organizations-3-title-box relative">
+												<a href="https://www1.magellanrx.com/vendors/leolab-rx/" title="Leolab RX">Leolab RX</a>
+											</div>
+										</div>
+																</div>
+													</div>
+						<div class="space-organizations-3-archive-item-terms box-25 relative">
+							<div class="space-organizations-3-archive-item-terms-ins box-100 text-center relative">
+							Receive<br>								<strong>$20</strong><br>								<span class="small-strong">Discount on Reta</span><br>							* New Clients Only							</div>
+						</div>
+						<div class="space-organizations-3-archive-item-rating box-25 relative">
+							<div class="space-organizations-3-archive-item-rating-ins box-100 text-center relative">
+
+								
+																	<div class="space-organizations-3-archive-item-rating-box relative">
+										<div class="star-rating"><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-half" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div></div>										<span>8.8</span>
+									</div>
+								
+								
+								
+								<div class="space-organizations-archive-item-button-notice relative" style="margin-top: 5px;">
+									*You will be redirected to Leolab RX								</div>
+
+																
+							</div>
+						</div>
+						<div class="space-organizations-3-archive-item-button box-25 relative">
+							<div class="space-organizations-3-archive-item-button-ins box-100 text-center relative">
+								<a href="https://leolabrx.com/peptides/retatrutide/" title="Buy Peptides" target="_blank" rel="nofollow noopener"><i class="fas fa-check-circle"></i> Buy Peptides</a>
+
+								<a href="https://www1.magellanrx.com/vendors/leolab-rx/" title="Read Review"><i class="fas fa-arrow-alt-circle-right"></i> Read Review</a>
+							</div>
+						</div>
+											</div>
+				</div>
+
+				
+				<div class="space-organizations-3-archive-item box-100 relative">
+					<div class="space-organizations-3-archive-item-ins relative">
+						<div class="space-organizations-3-archive-item-logo box-25 relative">
+							<div class="space-organizations-3-archive-item-logo-ins box-100 text-center relative">
+
+																		<div class="space-organizations-3-logo-title-box box-100 text-left relative">
+											<div class="space-organizations-3-logo-box relative">
+												<a href="https://www1.magellanrx.com/vendors/peptide-sciences/" title="Peptide Sciences">
+													<picture><source  sizes='(max-width: 50px) 100vw, 50px' type="image/webp" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-50x50.jpg.webp 50w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-150x150.jpg.webp 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-40x40.jpg.webp 40w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-100x100.jpg.webp 100w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-120x120.jpg.webp 120w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-135x135.jpg.webp 135w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-32x32.jpg.webp 32w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-70x70.jpg.webp 70w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-80x80.jpg.webp 80w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo.jpg.webp 225w"><img decoding="async" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyAQMAAAAk8RryAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAA5JREFUGNNjYBgFgwkAAAGQAAHFm9tJAAAAAElFTkSuQmCC" class="attachment-mercury-50-50 size-mercury-50-50 lazyload" alt="Peptide Sciences"   data-eio="p" data-src="https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-50x50.jpg" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-50x50.jpg 50w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-150x150.jpg 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-40x40.jpg 40w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-100x100.jpg 100w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-120x120.jpg 120w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-135x135.jpg 135w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-32x32.jpg 32w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-70x70.jpg 70w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-80x80.jpg 80w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo.jpg 225w" data-sizes="auto" data-eio-rwidth="50" data-eio-rheight="50" /></picture><noscript><img decoding="async" width="50" height="50" src="https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-50x50.jpg" class="attachment-mercury-50-50 size-mercury-50-50" alt="Peptide Sciences" srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-50x50.jpg 50w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-150x150.jpg 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-40x40.jpg 40w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-100x100.jpg 100w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-120x120.jpg 120w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-135x135.jpg 135w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-32x32.jpg 32w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-70x70.jpg 70w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-80x80.jpg 80w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo.jpg 225w" sizes="(max-width: 50px) 100vw, 50px" data-eio="l" /></noscript>												</a>
+												<div class="space-organizations-3-archive-item-count-2 absolute">
+													<span>2</span>
+												</div>
+											</div>
+											<div class="space-organizations-3-title-box relative">
+												<a href="https://www1.magellanrx.com/vendors/peptide-sciences/" title="Peptide Sciences">Peptide Sciences</a>
+											</div>
+										</div>
+																</div>
+													</div>
+						<div class="space-organizations-3-archive-item-terms box-25 relative">
+							<div class="space-organizations-3-archive-item-terms-ins box-100 text-center relative">
+							Bundle &amp; Save<br>								<strong>15%</strong><br>								<span class="small-strong">On Selected Packages</span><br>							* 20 Vial Peptide Bundles (10+10)							</div>
+						</div>
+						<div class="space-organizations-3-archive-item-rating box-25 relative">
+							<div class="space-organizations-3-archive-item-rating-ins box-100 text-center relative">
+
+								
+																	<div class="space-organizations-3-archive-item-rating-box relative">
+										<div class="star-rating"><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div></div>										<span>7.0</span>
+									</div>
+								
+								
+								
+								<div class="space-organizations-archive-item-button-notice relative" style="margin-top: 5px;">
+									*You will be redirected to Peptide Sciences								</div>
+
+																
+							</div>
+						</div>
+						<div class="space-organizations-3-archive-item-button box-25 relative">
+							<div class="space-organizations-3-archive-item-button-ins box-100 text-center relative">
+								<a href="https://www.peptidesciences.com/all-peptides" title="Buy Peptides" target="_blank" rel="nofollow noopener"><i class="fas fa-check-circle"></i> Buy Peptides</a>
+
+								<a href="https://www1.magellanrx.com/vendors/peptide-sciences/" title="Read Review"><i class="fas fa-arrow-alt-circle-right"></i> Read Review</a>
+							</div>
+						</div>
+													<div class="space-organizations-archive-item-detailed-tc box-100 relative">
+								<div class="space-organizations-archive-item-detailed-tc-ins relative">
+									<span class="mce_SELRES_start">﻿</span>								</div>
+							</div>
+											</div>
+				</div>
+
+				
+			</div>
+					</div>
+	</div>
+
+
+
+
+
+<p>This review provides a comprehensive analysis of Simple Peptide, examining key factors such as <strong>pricing structure, product range, shipping and delivery logistics, third-party testing practices, external trust indicators, and potential limitations</strong>. The goal is to present an objective assessment based on available public information and user-reported experiences.</p>
+
+
+
+<p>Overall, Simple Peptide is positioned as a <strong>mid-to-high-priced research peptide vendor</strong>, combining rapid shipping and third-party testing with a highly promotional, marketing-driven approach.</p>
+
+
+
+<div class="wp-block-rank-math-toc-block" id="rank-math-toc"><h2>Table of Contents</h2><nav><ul><li><a href="#company-background-establishment">Company Background &amp; Establishment</a></li><li><a href="#product-range-availability">Product Range &amp; Availability</a><ul><li><a href="#number-of-products">Number of Products</a></li><li><a href="#main-product-categories">Main Product Categories</a></li><li><a href="#ancillary-products">Ancillary Products</a></li></ul></li><li><a href="#pricing-discounts">Pricing &amp; Discounts</a><ul><li><a href="#example-pricing">Example Pricing</a></li><li><a href="#bulk-discount-program">Bulk Discount Program</a></li></ul></li><li><a href="#simple-peptide-vs-leo-lab-rx-comparison-table">Simple Peptide vs LeoLabRX — Comparison Table</a></li><li><a href="#shipping-delivery-times">Shipping &amp; Delivery Times</a></li><li><a href="#delivery-fees">Delivery Fees</a></li><li><a href="#quality-control-third-party-testing">Quality Control &amp; Third-Party Testing</a><ul><li><a href="#third-party-laboratory">Third-Party Laboratory</a></li><li><a href="#certificates-of-analysis-co-as">Certificates of Analysis (COAs)</a></li></ul></li><li><a href="#external-trust-index-reputation">External Trust Index &amp; Reputation</a><ul><li><a href="#review-platforms">Review Platforms</a></li><li><a href="#forums-social-media">Forums &amp; Social Media</a></li></ul></li><li><a href="#potential-downsides-limitations-red-flags">Potential Downsides, Limitations &amp; Red Flags</a><ul><li><a href="#1-mandatory-registration-before-viewing-products">1. Mandatory Registration Before Viewing Products</a></li><li><a href="#2-additional-supplies-sold-separately">2. Additional Supplies Sold Separately</a></li><li><a href="#3-higher-effective-cost-due-to-shipping-method">3. Higher Effective Cost Due to Shipping Method</a></li><li><a href="#4-affiliate-driven-visibility">4. Affiliate-Driven Visibility</a></li><li><a href="#5-limited-long-term-track-record">5. Limited Long-Term Track Record</a></li></ul></li><li><a href="#final-verdict">Final Verdict</a><ul><li><a href="#faq-question-1768222067649">Is Simple Peptide a legitimate vendor?</a></li><li><a href="#faq-question-1768222074117">Are Simple Peptide products third-party tested?</a></li><li><a href="#faq-question-1768222080209">How can I access Certificates of Analysis (COAs)?</a></li><li><a href="#faq-question-1768222085522">Do I need to create an account to view products?</a></li><li><a href="#faq-question-1768222092810">Does Simple Peptide offer free shipping?</a></li></ul></li></ul></nav></div>
+
+
+
+<h2 class="wp-block-heading" id="company-background-establishment">Company Background &amp; Establishment</h2>
+
+
+
+<p>Simple Peptide was established in <strong>late 2023</strong> as a <strong>family-run business</strong>, founded by <strong>Alex and Melissa Ehrenthal</strong>. The company initially operated as an importer of research peptides before transitioning to work directly with a <strong>US-based manufacturer</strong>, a shift intended to improve quality control and supply chain reliability.</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img fetchpriority="high" decoding="async" width="875" height="875" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA2sAAANrAQMAAADie5LTAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAHVJREFUeNrtwTEBAAAAwqD1T20MH6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgZ7dAABVkw18AAAAABJRU5ErkJggg==" alt="Company Background &amp; Establishment" class="wp-image-627 lazyload" style="width:315px;height:auto"   data-src="https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment.webp" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment.webp 875w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-300x300.webp 300w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-150x150.webp 150w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-768x768.webp 768w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-40x40.webp 40w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-50x50.webp 50w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-100x100.webp 100w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-120x120.webp 120w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-135x135.webp 135w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-270x270.webp 270w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-450x450.webp 450w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-479x479.webp 479w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-570x570.webp 570w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-767x767.webp 767w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-32x32.webp 32w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-70x70.webp 70w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-80x80.webp 80w" data-sizes="auto" data-eio-rwidth="875" data-eio-rheight="875" /><noscript><img fetchpriority="high" decoding="async" width="875" height="875" src="https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment.webp" alt="Company Background &amp; Establishment" class="wp-image-627" style="width:315px;height:auto" srcset="https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment.webp 875w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-300x300.webp 300w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-150x150.webp 150w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-768x768.webp 768w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-40x40.webp 40w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-50x50.webp 50w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-100x100.webp 100w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-120x120.webp 120w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-135x135.webp 135w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-270x270.webp 270w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-450x450.webp 450w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-479x479.webp 479w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-570x570.webp 570w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-767x767.webp 767w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-32x32.webp 32w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-70x70.webp 70w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Company-Background-Establishment-80x80.webp 80w" sizes="(max-width: 875px) 100vw, 875px" data-eio="l" /></noscript></figure>
+
+
+
+<p>The business is based in <strong>Delray Beach, Florida</strong>, and positions itself around key operational values such as <strong>transparency, fast fulfillment, and customer service</strong>. These themes are consistently emphasized across the company’s website and marketing materials.</p>
+
+
+
+<p>As a relatively <strong>early-stage company</strong>, Simple Peptide has experienced rapid growth and increasing visibility within the research peptide market. However, due to its recent establishment, the brand currently lacks a <strong>long-term operational track record</strong>, which may be a consideration for researchers prioritizing vendor longevity and historical consistency.</p>
+
+
+
+<h2 class="wp-block-heading" id="product-range-availability">Product Range &amp; Availability</h2>
+
+
+
+<h3 class="wp-block-heading" id="number-of-products">Number of Products</h3>
+
+
+
+<p>Simple Peptide offers a relatively broad catalog for a vendor of its size, with an estimated <strong>30 to 50 individual SKUs</strong>, depending on product type, dosage, blends, and delivery format. However, <strong>full visibility of the product catalog requires user registration and login</strong>, which limits pre-purchase transparency for first-time visitors.</p>
+
+
+
+<h3 class="wp-block-heading" id="main-product-categories">Main Product Categories</h3>
+
+
+
+<p>The product lineup spans several research-focused categories, including:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>GLP-1 and metabolic research peptides</strong>, such as <strong>Semaglutide (Sema)</strong> and <strong>Retatrutide (Reta)</strong>, which appear to be among the more prominent offerings.</li>
+
+
+
+<li><strong>Multi-compound blends</strong>, including combinations like <strong>GHK-CU / BPC-157 / TB-500</strong>, marketed for advanced research applications.</li>
+
+
+
+<li><strong>Growth factors</strong>, such as <strong>MGF</strong>, targeting specialized research use cases.</li>
+
+
+
+<li><strong>Novel delivery formats</strong>, including <strong>dissolvable research strips</strong> (e.g., NAD+, Sleep, and Energy strips), which differentiate the brand from more traditional peptide vendors.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading" id="ancillary-products">Ancillary Products</h3>
+
+
+
+<p>In addition to peptides, Simple Peptide sells several <strong>ancillary research supplies separately</strong>, including:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Syringes</strong></li>
+
+
+
+<li><strong>Bacteriostatic water</strong></li>
+
+
+
+<li><strong>Alcohol wipes</strong></li>
+</ul>
+
+
+
+<p>Unlike some competitors, these items are <strong>not bundled with peptide purchases</strong>, which may increase the overall cost of an order depending on a researcher’s needs.</p>
+
+
+
+<h2 class="wp-block-heading" id="pricing-discounts">Pricing &amp; Discounts</h2>
+
+
+
+<p>Simple Peptide’s pricing structure places the brand in the <strong>mid-to-high price segment</strong> of the research peptide market. Individual product prices generally start at <strong>approximately $30</strong> for entry-level peptides, while <strong>blends and specialty products frequently exceed $100 per vial</strong>.</p>
+
+
+
+<h3 class="wp-block-heading" id="example-pricing">Example Pricing</h3>
+
+
+
+<ul class="wp-block-list">
+<li><strong>CJC-1295 (no DAC) 5 mg</strong> — approximately <strong>$33</strong></li>
+
+
+
+<li><strong>GHK-CU / BPC-157 / TB-500 GLOW Blend</strong> — approximately <strong>$109</strong></li>
+</ul>
+
+
+
+<h3 class="wp-block-heading" id="bulk-discount-program">Bulk Discount Program</h3>
+
+
+
+<p>To incentivize higher-volume purchases, Simple Peptide offers a tiered bulk discount structure:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>5% discount</strong> on orders of <strong>5–9 vials</strong></li>
+
+
+
+<li><strong>10% discount</strong> on orders of <strong>10 or more vials</strong></li>
+</ul>
+
+
+
+<p>While these discounts can improve value for larger orders, smaller purchases remain relatively expensive when compared to <strong>budget-focused peptide vendors</strong>. Overall, Simple Peptide’s pricing reflects a <strong>premium-leaning position</strong>, supported by fast logistics and third-party testing, but may not appeal to cost-sensitive buyers.</p>
+
+
+
+<h2 class="wp-block-heading" id="simple-peptide-vs-leo-lab-rx-comparison-table">Simple Peptide vs LeoLabRX — Comparison Table</h2>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Feature</th><th>Simple Peptide</th><th>LeoLabRX</th></tr></thead><tbody><tr><td><strong>Vendor Category</strong></td><td>Mid-to-High Priced Vendor</td><td>Premium Peptide Vendor (High-Tier Quality)</td></tr><tr><td><strong>Established</strong></td><td>Late 2023</td><td>Earlier / longer market presence</td></tr><tr><td><strong>Product Catalog Visibility</strong></td><td>❌ Login required to view full catalog</td><td>✅ Fully visible without registration</td></tr><tr><td><strong>Product Range</strong></td><td>Broad (30–50 SKUs, blends, strips)</td><td>More curated, research-focused catalog</td></tr><tr><td><strong>Novel Formats (Strips, Blends)</strong></td><td>✅ Yes (NAD+, Sleep, Energy strips)</td><td> Limited / traditional formats</td></tr><tr><td><strong>Third-Party Testing</strong></td><td>✅ Yes</td><td>✅ Yes</td></tr><tr><td><strong>COA Accessibility</strong></td><td>Available, access method varies</td><td>✅ Clear and consistent COA access</td></tr><tr><td><strong>Shipping Speed</strong></td><td>✅ Very fast (FedEx 2Day Air)</td><td>✅ Fast (US-based shipping)</td></tr><tr><td><strong>Free Shipping Threshold</strong></td><td>$200</td><td>Lower or included depending on order</td></tr><tr><td><strong>Shipping Cost (Small Orders)</strong></td><td>❌ $15–$20</td><td> Usually lower or offset by bundles</td></tr><tr><td><strong>Syringes Included</strong></td><td>❌ Sold separately</td><td>✅ Included with peptide orders</td></tr><tr><td><strong>Bacteriostatic Water Included</strong></td><td>❌ Sold separately</td><td>✅ Included</td></tr><tr><td><strong>Alcohol Wipes Included</strong></td><td>❌ Sold separately</td><td>✅ Included</td></tr><tr><td><strong>Total “Out-of-Box” Cost</strong></td><td>❌ Higher after add-ons</td><td>✅ Lower due to bundled supplies</td></tr><tr><td><strong>Marketing Style</strong></td><td>Heavy affiliate &amp; social media driven</td><td>Low-key, research-oriented</td></tr><tr><td><strong>Transparency for New Buyers</strong></td><td>Medium (login wall)</td><td>✅ High</td></tr><tr><td><strong>Best For</strong></td><td>Speed-focused buyers, bulk orders</td><td>Researchers valuing convenience &amp; clarity</td></tr></tbody></table></figure>
+
+
+
+<h2 class="wp-block-heading" id="shipping-delivery-times">Shipping &amp; Delivery Times</h2>
+
+
+
+<p>Simple Peptide prioritizes fast order fulfillment, offering <strong>same-day shipping for orders placed before 3:00 PM ET</strong>. This policy allows most orders to be dispatched on the day of purchase, which is a notable advantage for time-sensitive research needs.</p>
+
+
+
+<p>The company primarily uses <strong>FedEx 2Day Air</strong> as its standard shipping method. As a result, <strong>typical delivery times within the United States are approximately two business days</strong>, depending on the destination.</p>
+
+
+
+<p>Overall, Simple Peptide’s shipping performance is positioned as a key strength, combining rapid processing with reliable, expedited domestic delivery.</p>
+
+
+
+<h2 class="wp-block-heading" id="delivery-fees">Delivery Fees</h2>
+
+
+
+<p>Simple Peptide offers <strong>free shipping on orders exceeding $200</strong>, which aligns with common thresholds used by research peptide vendors utilizing expedited delivery services.</p>
+
+
+
+<p>For orders below this amount, <strong>shipping costs are estimated to range between $15 and $20</strong>, reflecting the use of <strong>FedEx 2Day Air</strong> as the standard shipping method. While this ensures fast and reliable delivery, it can make smaller orders comparatively more expensive.</p>
+
+
+
+<h2 class="wp-block-heading" id="quality-control-third-party-testing">Quality Control &amp; Third-Party Testing</h2>
+
+
+
+<p>Simple Peptide places a <strong>strong emphasis on independent, third-party testing</strong> as a core component of its quality assurance process. The company states that each batch of research peptides undergoes external analysis prior to release.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="350" height="350" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAAFeAQMAAAD35eVZAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAACZJREFUaN7twTEBAAAAwqD1T+1pCaAAAAAAAAAAAAAAAAAAAAC4AT2GAAGWvJzxAAAAAElFTkSuQmCC" alt="Quality Control &amp; Third-Party Testing 1" class="wp-image-628 lazyload"   data-src="https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1.webp" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1.webp 350w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-300x300.webp 300w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-150x150.webp 150w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-40x40.webp 40w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-50x50.webp 50w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-100x100.webp 100w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-120x120.webp 120w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-135x135.webp 135w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-270x270.webp 270w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-32x32.webp 32w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-70x70.webp 70w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-80x80.webp 80w" data-sizes="auto" data-eio-rwidth="350" data-eio-rheight="350" /><noscript><img decoding="async" width="350" height="350" src="https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1.webp" alt="Quality Control &amp; Third-Party Testing 1" class="wp-image-628" srcset="https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1.webp 350w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-300x300.webp 300w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-150x150.webp 150w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-40x40.webp 40w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-50x50.webp 50w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-100x100.webp 100w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-120x120.webp 120w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-135x135.webp 135w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-270x270.webp 270w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-32x32.webp 32w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-70x70.webp 70w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Quality-Control-Third-Party-Testing-1-80x80.webp 80w" sizes="(max-width: 350px) 100vw, 350px" data-eio="l" /></noscript></figure>
+
+
+
+<h3 class="wp-block-heading" id="third-party-laboratory">Third-Party Laboratory</h3>
+
+
+
+<p>Simple Peptide states that its products undergo <strong>independent third-party testing</strong> as part of its quality control process. While specific laboratory partners are not consistently emphasized in consumer-facing materials, the company highlights the use of external analytical verification to support compound identity and purity. This approach contributes positively to the brand’s perceived credibility, particularly when combined with batch-level documentation and transparent quality claims.</p>
+
+
+
+<h3 class="wp-block-heading" id="certificates-of-analysis-co-as">Certificates of Analysis (COAs)</h3>
+
+
+
+<p>Certificates of Analysis (COAs) are provided on a <strong>per-batch basis</strong>, although the method of access may vary depending on the specific product and order. These documents typically include information related to <strong>compound identity</strong>, <strong>testing methodology</strong>, and <strong>reported purity levels</strong>.</p>
+
+
+
+<p>The availability of batch-level COAs serves as an important trust indicator, supporting Simple Peptide’s quality-focused positioning despite its relatively short operational history.</p>
+
+
+
+<h2 class="wp-block-heading" id="external-trust-index-reputation">External Trust Index &amp; Reputation</h2>
+
+
+
+<h3 class="wp-block-heading" id="review-platforms">Review Platforms</h3>
+
+
+
+<p>Simple Peptide maintains a generally positive presence on third-party review platforms. On <strong>Trustpilot</strong>, the company holds an average rating of approximately <strong>4.7 out of 5 stars</strong>. Customer reviews most frequently highlight:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Fast shipping and order processing</strong></li>
+
+
+
+<li><strong>Professional packaging</strong></li>
+
+
+
+<li><strong>Responsive customer support</strong></li>
+</ul>
+
+
+
+<p>While the overall rating is strong, the total review volume remains moderate, which is typical for a relatively young brand.</p>
+
+
+
+<h3 class="wp-block-heading" id="forums-social-media">Forums &amp; Social Media</h3>
+
+
+
+<p>Discussion of Simple Peptide on forums such as <strong>Reddit</strong> reflects a <strong>generally positive but mixed sentiment</strong>. Many users report satisfactory experiences, particularly with shipping speed and order reliability. However, some discussions raise occasional concerns related to <strong>consistency</strong> and <strong>customer service responsiveness</strong>, suggesting variability in user experience.</p>
+
+
+
+<p>The company also maintains a <strong>heavy presence on social media platforms</strong>, particularly <strong>Instagram and TikTok</strong>, where promotional content and affiliate partnerships are активно used. While this contributes to brand visibility, it may also introduce a degree of <strong>marketing-driven bias</strong> in public sentiment.</p>
+
+
+
+<h2 class="wp-block-heading" id="potential-downsides-limitations-red-flags">Potential Downsides, Limitations &amp; Red Flags</h2>
+
+
+
+<p>While Simple Peptide demonstrates several operational strengths, there are also a number of <strong>limitations and potential concerns</strong> that prospective buyers should consider before placing an order.</p>
+
+
+
+<h3 class="wp-block-heading" id="1-mandatory-registration-before-viewing-products">1. Mandatory Registration Before Viewing Products</h3>
+
+
+
+<p>Simple Peptide requires users to <strong>create an account and provide personal information</strong> before gaining full access to its product catalog and pricing. This registration barrier introduces unnecessary friction and reduces transparency for first-time visitors who may prefer to evaluate product offerings before sharing personal data.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading" id="2-additional-supplies-sold-separately">2. Additional Supplies Sold Separately</h3>
+
+
+
+<p>Unlike some competitors (such as <strong>LeoLabRX</strong>), Simple Peptide does <strong>not include basic research supplies</strong> with peptide purchases. Essential items such as:</p>
+
+
+
+<ul class="wp-block-list">
+<li>syringes</li>
+
+
+
+<li>bacteriostatic water</li>
+
+
+
+<li>alcohol wipes</li>
+</ul>
+
+
+
+<p>are sold separately. This practice can significantly increase the <strong>true total cost per order</strong>, particularly for new or smaller purchases.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading" id="3-higher-effective-cost-due-to-shipping-method">3. Higher Effective Cost Due to Shipping Method</h3>
+
+
+
+<p>Simple Peptide uses <strong>FedEx 2Day Air</strong> as its standard shipping method, ensuring fast and reliable delivery. However, this approach also results in <strong>higher shipping fees</strong> for orders below the $200 free-shipping threshold, making smaller orders comparatively expensive when compared to vendors offering slower but cheaper shipping options.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading" id="4-affiliate-driven-visibility">4. Affiliate-Driven Visibility</h3>
+
+
+
+<p>The brand maintains a strong presence on social media platforms and relies heavily on <strong>affiliate marketing and promotional codes</strong>. While this strategy enhances visibility, it may also <strong>inflate perceived popularity</strong> and introduce bias in online reviews, making it more difficult to distinguish organic customer feedback from incentivized promotion.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading" id="5-limited-long-term-track-record">5. Limited Long-Term Track Record</h3>
+
+
+
+<p>Founded in <strong>late 2023</strong>, Simple Peptide remains a <strong>relatively young vendor</strong>. As a result, it lacks the multi-year operational history of more established competitors, which makes long-term consistency, stability, and performance harder to fully assess at this stage.</p>
+
+
+
+<h2 class="wp-block-heading" id="final-verdict">Final Verdict</h2>
+
+
+
+<p>Simple Peptide demonstrates <strong>strong logistics and generally solid quality positioning</strong>, supported by fast order fulfillment and publicly stated third-party testing practices. The brand places a clear emphasis on speed, modern presentation, and customer-facing operations.</p>
+
+
+
+<p>At the same time, the main drawbacks are related to the <strong>overall cost structure and user experience</strong>. Mandatory account registration limits upfront transparency, while shipping fees and the absence of bundled research supplies can increase the effective cost of smaller orders. These factors make the value proposition less streamlined compared to competitors that offer more inclusive packaging.</p>
+
+
+
+<p>Overall, Simple Peptide is best suited for <strong>buyers prioritizing fast delivery and a broad product selection</strong>, particularly for larger orders. Researchers who value <strong>ease of access, bundled supplies, and lower friction at checkout</strong> may find greater convenience with more established alternatives.</p>
+
+
+<div id="rank-math-faq" class="rank-math-block">
+<div class="rank-math-list ">
+<div id="faq-question-1768222067649" class="rank-math-list-item">
+<h3 class="rank-math-question ">Is Simple Peptide a legitimate vendor?</h3>
+<div class="rank-math-answer ">
+
+<p>Based on available public information, Simple Peptide appears to be a legitimate research peptide vendor. The company provides batch-level documentation, ships orders reliably, and maintains a generally positive reputation across review platforms and online communities. However, it is a relatively young brand with a limited long-term track record.</p>
+
+</div>
+</div>
+<div id="faq-question-1768222074117" class="rank-math-list-item">
+<h3 class="rank-math-question ">Are Simple Peptide products third-party tested?</h3>
+<div class="rank-math-answer ">
+
+<p>Simple Peptide states that its products undergo <strong>independent third-party testing</strong> as part of its quality control process. Certificates of Analysis are provided on a per-batch basis to support product transparency.</p>
+
+</div>
+</div>
+<div id="faq-question-1768222080209" class="rank-math-list-item">
+<h3 class="rank-math-question ">How can I access Certificates of Analysis (COAs)?</h3>
+<div class="rank-math-answer ">
+
+<p>COAs are provided per batch, though the method of access may vary depending on the product and order. Documentation typically includes compound identification, testing methodology, and reported purity levels.</p>
+
+</div>
+</div>
+<div id="faq-question-1768222085522" class="rank-math-list-item">
+<h3 class="rank-math-question ">Do I need to create an account to view products?</h3>
+<div class="rank-math-answer ">
+
+<p>Yes. Simple Peptide requires users to <strong>register and log in</strong> before accessing the full product catalog and pricing. This may be a drawback for users who prefer to browse offerings before sharing personal information.</p>
+
+</div>
+</div>
+<div id="faq-question-1768222092810" class="rank-math-list-item">
+<h3 class="rank-math-question ">Does Simple Peptide offer free shipping?</h3>
+<div class="rank-math-answer ">
+
+<p>Yes. <strong>Free shipping is available on orders over $200</strong>. For orders below this threshold, shipping costs generally range from <strong>$15 to $20</strong>, reflecting the use of expedited delivery services.</p>
+
+</div>
+</div>
+</div>
+</div>									</div>
+								</div>
+
+								
+									
+								
+								
+									<!-- Ratings Block Start -->
+
+									<div class="space-organization-style-2-calltoaction-rating relative">
+										<div class="space-organization-style-2-calltoaction-rating-ins box-100 relative">
+											<div class="space-organization-style-2-calltoaction-block box-100 relative">
+												<div class="space-organization-style-2-calltoaction-text box-66 relative">
+
+													
+													<!-- Terms Start -->
+
+													<div class="space-organization-style-2-calltoaction-text-ins relative">
+														Receive<br>								<strong>$10</strong><br>								<span class="small-strong">Discount on Reta</span><br>							* New Clients Only													</div>
+
+													<!-- Terms End -->
+
+													
+												</div>
+												<div class="space-organization-style-2-calltoaction-button box-33 text-right relative">
+
+													
+												</div>
+											</div>
+											<div class="space-organization-style-2-ratings-block box-100 relative">
+												<div class="space-organization-style-2-ratings-all box-66 relative">
+													<div class="space-organization-style-2-ratings-all-ins box-100 relative">
+
+																												<div class="space-organization-style-2-ratings-all-item box-50 relative">
+															<div class="space-organization-style-2-ratings-all-item-ins relative">
+																<div class="space-organization-style-2-ratings-all-item-value relative">
+																	8.0 <i class="fas fa-star"></i>
+																</div>
+																Reputation &amp; Trust Score															</div>
+														</div>
+														
+																												<div class="space-organization-style-2-ratings-all-item box-50 relative">
+															<div class="space-organization-style-2-ratings-all-item-ins relative">
+																<div class="space-organization-style-2-ratings-all-item-value relative">
+																	6.0 <i class="fas fa-star"></i>
+																</div>
+																Pricing &amp; Value Score															</div>
+														</div>
+														
+																												<div class="space-organization-style-2-ratings-all-item box-50 relative">
+															<div class="space-organization-style-2-ratings-all-item-ins relative">
+																<div class="space-organization-style-2-ratings-all-item-value relative">
+																	7.0 <i class="fas fa-star"></i>
+																</div>
+																Quality &amp; Consistency															</div>
+														</div>
+														
+																												<div class="space-organization-style-2-ratings-all-item box-50 relative">
+															<div class="space-organization-style-2-ratings-all-item-ins relative">
+																<div class="space-organization-style-2-ratings-all-item-value relative">
+																	7.0 <i class="fas fa-star"></i>
+																</div>
+																Customer Support															</div>
+														</div>
+														
+													</div>
+												</div>
+												<div class="space-organization-style-2-rating-overall box-33 relative">
+													<div class="space-organization-style-2-rating-overall-ins text-center relative">
+														7.0														<span>
+															Overall Vendor Rating														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- Ratings Block End -->
+
+								
+																
+							</div>
+
+
+					
+					
+						<!-- Related Units Start -->
+
+						
+						<!-- Related Units End -->
+
+					
+					
+						<!-- Related Offers Start -->
+
+						
+						<!-- Related Offers End -->
+
+					
+					
+					<!-- Comments Start -->
+
+									<div id="comments" class="space-comments box-100 relative">
+					<div class="space-comments-ins case-15 white relative">
+						<div class="space-comments-wrap space-page-content relative">
+
+								<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/vendors/simple-peptide/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://www1.magellanrx.com/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p><p class="comment-form-comment"><textarea id="comment" name="comment" cols="45" rows="8"  aria-required="true" required="required" placeholder="Comment*"></textarea></p><p><div class="captcha_wrap wpdef_captcha_turnstile"><div id="wpdef_turnstile_1849416858" class="wpdef_recaptcha"></div><noscript><div style="padding: 10px; border: 1px solid #cccccc; background-color: #f9f9f9; margin-top: 10px;"><p>Please enable JavaScript to complete the security verification.</p></div></noscript></div></p><p class="comment-form-author"><input id="author" name="author" type="text" value="" size="30" placeholder="Name*" /></p>
+<p class="comment-form-email"><input id="email" name="email" type="email" value="" size="30" aria-describedby="email-notes" placeholder="Email*" /></p>
+<p class="comment-form-url"><input id="url" name="url" type="url" value="" size="30" placeholder="Website" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /><label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='625' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
+							</div>
+					</div>
+				</div>
+					<!-- Comments End -->
+
+					
+				</div>
+			</div>
+		</div>
+
+		<!-- Single Organization Page Section End -->
+
+</div>
+
+
+	<!-- Organization Float Bar Start -->
+
+	<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		'use strict';
+
+			var stickyOffset = $('.space-organization-float-bar-bg').offset().top;
+
+			$(window).scroll(function(){
+				'use strict';
+			  var sticky = $('.space-organization-float-bar-bg'),
+			      scroll = $(window).scrollTop();
+			    
+			  if (scroll >= 400) sticky.addClass('show');
+			  else sticky.removeClass('show');
+			});
+
+	});
+	</script>
+
+	<style type="text/css">
+	.single-organization .space-footer {
+	    padding-bottom: 110px;
+	}
+	@media screen and (max-width: 479px) {
+		.single-organization .space-footer {
+		    padding-bottom: 100px;
+		}
+		.single-organization #scrolltop.show {
+		    opacity: 1;
+		    visibility: visible;
+		    bottom: 120px;
+		}
+	}
+	</style>
+
+	<div class="space-organization-float-bar-bg box-100">
+		<div class="space-organization-float-bar-bg-ins space-page-wrapper relative">
+			<div class="space-organization-float-bar relative">
+				<div class="space-organization-float-bar-data box-75 relative">
+					<div class="space-organization-float-bar-data-ins relative">
+						<div class="space-organization-float-bar-logo relative">
+							<div class="space-organization-float-bar-logo-img relative">
+								<img width="100" height="100" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABRJREFUOMtjYBgFo2AUjIJRQE8AAAV4AAEpcbn8AAAAAElFTkSuQmCC" class="attachment-mercury-100-100 size-mercury-100-100 lazyload" alt="Simple Peptide" decoding="async"   data-src="https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-100x100.webp" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-100x100.webp 100w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-50x50.webp 50w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-120x120.webp 120w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-135x135.webp 135w" data-sizes="auto" data-eio-rwidth="100" data-eio-rheight="100" /><noscript><img width="100" height="100" src="https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-100x100.webp" class="attachment-mercury-100-100 size-mercury-100-100" alt="Simple Peptide" decoding="async" srcset="https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-100x100.webp 100w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-50x50.webp 50w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-120x120.webp 120w, https://www1.magellanrx.com/wp-content/uploads/2026/01/Simple-Peptide-Logo-135x135.webp 135w" sizes="(max-width: 100px) 100vw, 100px" data-eio="l" /></noscript>							</div>
+						</div>
+						<div class="space-organization-float-bar-title box-50 relative">
+							<div class="space-organization-float-bar-title-wrap box-100 relative">
+								Simple Peptide							</div>
+							
+															<div class="space-organization-float-bar-rating box-100 relative">
+									<div class="star-rating"><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div></div>									<span><i class="fas fa-star"></i> 7.0/10</span>
+								</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="space-organization-float-bar-button box-25 relative">
+					<div class="space-organization-float-bar-button-all text-center relative">
+						<div class="space-organization-float-bar-button-ins relative">
+							<div class="space-organization-float-bar-button-wrap relative">
+								<a href="" title="Buy Peptides" >
+									Buy Peptides								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Organization Float Bar End -->
+
+
+</div>
+
+<!-- Footer Start -->
+
+<div class="space-footer box-100 relative">
+		<div class="space-footer-top box-100 relative" >
+		<div class="space-footer-ins relative">
+			<div class="space-footer-top-center box-100 relative">
+				<div id="block-9" class="space-widget space-footer-area relative widget_block"><p>
+	<div class="space-shortcode-wrap space-posts-shortcode-1 relative">
+		<div class="space-shortcode-wrap-ins relative">
+
+						<div class="space-block-title relative">
+				<span>Recent Peptides News</span>
+			</div>
+			
+			<div class="space-news-1-items box-100 relative">
+
+				
+				<div class="space-news-1-item box-25 left relative">
+					<div class="space-news-1-item-ins relative">
+						<div class="space-news-1-item-img left relative">
+															<a href="https://www1.magellanrx.com/did-peptide-sciences-shut-down-best-alternative/" title="Did Peptide Sciences Shut Down? Best Alternative in 2026">
+									<picture><source  sizes='(max-width: 100px) 100vw, 100px' type="image/webp" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-100x100.jpg.webp 100w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-150x150.jpg.webp 150w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-50x50.jpg.webp 50w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-120x120.jpg.webp 120w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-135x135.jpg.webp 135w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-270x270.jpg.webp 270w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-450x450.jpg.webp 450w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-479x479.jpg.webp 479w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-570x570.jpg.webp 570w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-767x767.jpg.webp 767w"><img decoding="async" width="100" height="100" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABRJREFUOMtjYBgFo2AUjIJRQE8AAAV4AAEpcbn8AAAAAElFTkSuQmCC" class="attachment-mercury-100-100 size-mercury-100-100 lazyload" alt="Did Peptide Sciences Shut Down? Best Alternative in 2026"   data-eio="p" data-src="https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-100x100.jpg" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-100x100.jpg 100w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-150x150.jpg 150w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-50x50.jpg 50w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-120x120.jpg 120w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-135x135.jpg 135w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-270x270.jpg 270w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-450x450.jpg 450w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-479x479.jpg 479w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-570x570.jpg 570w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-767x767.jpg 767w" data-sizes="auto" data-eio-rwidth="100" data-eio-rheight="100" /></picture><noscript><img decoding="async" width="100" height="100" src="https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-100x100.jpg" class="attachment-mercury-100-100 size-mercury-100-100" alt="Did Peptide Sciences Shut Down? Best Alternative in 2026" srcset="https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-100x100.jpg 100w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-150x150.jpg 150w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-50x50.jpg 50w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-120x120.jpg 120w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-135x135.jpg 135w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-270x270.jpg 270w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-450x450.jpg 450w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-479x479.jpg 479w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-570x570.jpg 570w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-767x767.jpg 767w" sizes="(max-width: 100px) 100vw, 100px" data-eio="l" /></noscript>								</a>
+													</div>
+						<div class="space-news-1-item-title-box left relative">
+							<div class="space-news-1-item-title-box-ins relative">
+								<div class="space-news-1-item-title relative">
+									<a href="https://www1.magellanrx.com/did-peptide-sciences-shut-down-best-alternative/" title="Did Peptide Sciences Shut Down? Best Alternative in 2026">Did Peptide Sciences Shut Down? Best Alternative in 2026</a>
+								</div>
+
+																
+							</div>
+						</div>
+					</div>
+				</div>
+
+				
+			</div>
+
+		</div>
+	</div>
+
+	</p>
+</div><div id="block-10" class="space-widget space-footer-area relative widget_block">
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+</div><div id="block-13" class="space-widget space-footer-area relative widget_block widget_media_image"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" width="240" height="51" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAAAzAQMAAACT5xfLAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABVJREFUOMtjYBgFo2AUjIJRMAoIAAAGLQAB2ZjtgwAAAABJRU5ErkJggg==" alt="" class="wp-image-548 lazyload" data-src="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-2-e1766764482208.png" data-eio-rwidth="240" data-eio-rheight="51" /><noscript><img decoding="async" width="240" height="51" src="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-2-e1766764482208.png" alt="" class="wp-image-548" data-eio="l" /></noscript></figure>
+</div></div>			</div>
+		</div>
+	</div>
+		<div class="space-footer-copy box-100 relative">
+		<div class="space-footer-ins relative">
+			<div class="space-footer-copy-left box-50 left relative">
+									© Copyright 2026 Magellan Rx Management. All Rights Reserved.							</div>
+			<div class="space-footer-copy-menu box-50 left relative">
+				<ul id="menu-footer-menu" class="space-footer-menu"><li id="menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-550"><a href="https://www1.magellanrx.com/affiliate-disclosure/">Affiliate Disclosure</a></li>
+<li id="menu-item-328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-328"><a href="https://www1.magellanrx.com/terms-and-conditions/">Terms &#038; Conditions</a></li>
+<li id="menu-item-552" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-552"><a rel="privacy-policy" href="https://www1.magellanrx.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-551" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-551"><a href="https://www1.magellanrx.com/about-us/">About Us</a></li>
+<li id="menu-item-649" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-649"><a href="https://www1.magellanrx.com/contact-us/">Contact Us</a></li>
+</ul>			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Footer End -->
+
+</div>
+
+<!-- Mobile Menu Start -->
+
+<div class="space-mobile-menu fixed">
+	<div class="space-mobile-menu-block absolute" >
+		<div class="space-mobile-menu-block-ins relative">
+			<div class="space-mobile-menu-header relative text-center">
+				<a href="https://www1.magellanrx.com/" title="Magellan Rx Management"><img width="188" height="40" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAAAoAQMAAAB+cAK9AAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABFJREFUKM9jYBgFo2AUDHcAAAPoAAEYIFNZAAAAAElFTkSuQmCC" class="attachment-mercury-custom-logo size-mercury-custom-logo lazyload" alt="Magellan Rx Management" decoding="async"   data-src="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png 188w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-300x64.png 300w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-768x164.png 768w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-150x32.png 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-328x70.png 328w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-375x80.png 375w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-633x135.png 633w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1.png 797w" data-sizes="auto" data-eio-rwidth="188" data-eio-rheight="40" /><noscript><img width="188" height="40" src="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png" class="attachment-mercury-custom-logo size-mercury-custom-logo" alt="Magellan Rx Management" decoding="async" srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png 188w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-300x64.png 300w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-768x164.png 768w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-150x32.png 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-328x70.png 328w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-375x80.png 375w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-633x135.png 633w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1.png 797w" sizes="(max-width: 188px) 100vw, 188px" data-eio="l" /></noscript></a>		
+			</div>
+			<div class="space-mobile-menu-list relative">
+				<ul id="menu-main-en-us-1" class="mobile-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-549"><a href="https://www1.magellanrx.com/">Retatrutide</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-558"><a href="https://www1.magellanrx.com/top-peptides/">Top Peptides</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-563"><a href="https://www1.magellanrx.com/where-to-buy-bpc-157-peptide-price-and-quality-comparison/">BPC-157 Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-559"><a href="https://www1.magellanrx.com/where-to-buy-ghk-cu-peptide-price-and-quality-comparison/">GHK-Cu Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-560"><a href="https://www1.magellanrx.com/where-to-buy-klow-stack-peptide-price-and-quality-comparison/">Klow Stack Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-561"><a href="https://www1.magellanrx.com/where-to-buy-glow-peptide-price-and-quality-comparison/">Glow Stack Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-562"><a href="https://www1.magellanrx.com/where-to-buy-ipamorelin-peptide-price-and-quality-comparison/">Ipamorelin Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-684"><a href="https://www1.magellanrx.com/wolverine-stack-peptide/">Wolverine Stack Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-692"><a href="https://www1.magellanrx.com/where-to-buy-kpv-peptide/">KPV Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716"><a href="https://www1.magellanrx.com/sermorelin-peptide-for-sale/">Sermorelin Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-725"><a href="https://www1.magellanrx.com/best-peptides-for-muscle-growth/">Peptides For Muscle Growth</a></li>
+</ul>
+</li>
+</ul>			</div>
+			<div class="space-mobile-menu-copy relative text-center">
+									© Copyright 2026 Magellan Rx Management. All Rights Reserved.							</div>
+			<div class="space-close-icon space-mobile-menu-close-button absolute">
+				<div class="to-right absolute"></div>
+				<div class="to-left absolute"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Mobile Menu End -->
+
+<!-- Back to Top Start -->
+
+<div class="space-to-top">
+	<a href="#" id="scrolltop" title="Back to Top"><i class="far fa-arrow-alt-circle-up"></i></a>
+</div>
+
+<!-- Back to Top End -->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/mercury/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="eio-lazy-load-js-before">
+var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":0,"bg_min_dpr":1.1,"threshold":0,"use_dpr":0};
+//# sourceURL=eio-lazy-load-js-before
+</script>
+<script src="https://www1.magellanrx.com/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js?ver=850" id="eio-lazy-load-js" async data-wp-strategy="async"></script>
+<script src="https://www1.magellanrx.com/wp-content/themes/mercury/js/theia-sticky-sidebar.min.js?ver=1.7.0" id="theia-sticky-sidebar-js"></script>
+<script src="https://www1.magellanrx.com/wp-content/themes/mercury/js/enable-sticky-sidebar.js?ver=3.9.12" id="mercury-enable-sticky-sidebar-js-js"></script>
+<script src="https://www1.magellanrx.com/wp-content/themes/mercury/js/owl.carousel.min.js?ver=2.3.4" id="owl-carousel-js"></script>
+<script src="https://www1.magellanrx.com/wp-content/themes/mercury/js/scripts.js?ver=3.9.12" id="mercury-global-js-js"></script>
+<script src="https://www1.magellanrx.com/wp-includes/js/comment-reply.min.js?ver=6.9.4" id="comment-reply-js" async data-wp-strategy="async" fetchpriority="low"></script>
+<script data-cfasync="false" async="async" defer="defer" src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&amp;onload=wpdefTurnstileCallback" id="wpdef_captcha_api-js"></script>
+<script id="wpdef_turnstile_script-js-extra">
+var WPDEF = {"options":{"sitekey":"0x4AAAAAACJ4Wtp4Buiq7cNQ","theme":"auto","lang":"automatic","size":"normal","error":"\u003Cstrong\u003EWarning:\u003C/strong\u003E&nbsp; More than one Turnstile has been found in the current form. Please remove all unnecessary Turnstile fields to make it work properly.","disable":""},"vars":{"visibility":false}};
+//# sourceURL=wpdef_turnstile_script-js-extra
+</script>
+<script src="https://www1.magellanrx.com/wp-content/plugins/defender-security/assets/js/turnstile.js?ver=5.11.0" id="wpdef_turnstile_script-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www1.magellanrx.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://www1.magellanrx.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f7be7cc2b7b72d1',t:'MTc3ODExMTYxNw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

@@ -1,0 +1,459 @@
+[CLAIM] fetch_status / site_status
+[URL] https://web.archive.org/web/20240520082946/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage_closure_notice.md
+[LINE_RANGE] 8-12
+[QUOTE]
+"We have closed this business and selling this domain name at very attractive price.
+
+For a right buyer, this domain name weighs in GOLD.
+
+Alternatively, You can Contact Us On WhatsApp"
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 182-182
+[QUOTE]
+"PeptidesForSale.com - Since 2002 we have been the premier online partner for high quality, and reasonably priced Amino Chains for your research."
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 22-24
+[QUOTE]
+"## We currently are offering FREE SHIPPING
+on all peptides for sale orders over $100
+
+Good for all peptides for sale online orders
+shipped within the USA"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage text presents scientific/research framing ("99%+ Purity Guaranteed", "Buy Highly Purified Research Peptides", molecular formula and CAS numbers on product pages). No lifestyle, meme, or anonymous-style imagery language appears in the archived text.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 30-31
+"## Buy Highly Purified Research Peptides
+
+99%+ Purity Guaranteed"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230921155059/https://peptidesforsale.com/shop/peptides/bpc-157-5-mg/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/product_1__bpc-157-5mg.md
+[LINE_RANGE] 34-36
+"Molecular Formula:C62H98N16O22
+Molecular Weight:1419.56
+CAS No. 137525-51-0"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 14-14
+[QUOTE]
+"[Buy Peptides](/web/20230921145154/https://peptidesforsale.com/shop/ "Buy Peptides")"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 277-277
+[QUOTE]
+"All customers must be at least 21 (twenty-one) years of age. These products are not for human consumption. All products are intended for laboratory use by a qualified professional. These peptides are NOT FOR HUMAN CONSUMPTION."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/20230921163101/https://peptidesforsale.com/shop/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/catalog_1.md
+[LINE_RANGE] 26-26
+[QUOTE]
+"Showing all 35 results"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name / product_page_anatomy.list_price / product_page_anatomy.per_mg_cost
+[URL] https://web.archive.org/web/20230921155059/https://peptidesforsale.com/shop/peptides/bpc-157-5-mg/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/product_1__bpc-157-5mg.md
+[LINE_RANGE] 24-30
+[QUOTE]
+"# BPC-157 (5 MG)
+
+Rated **5.00** out of 5 based on 14 customer ratings
+
+(14 customer reviews)
+
+$49.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20230921155059/https://peptidesforsale.com/shop/peptides/bpc-157-5-mg/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/product_1__bpc-157-5mg.md
+[LINE_RANGE] 269-269
+[QUOTE]
+"**__Product Usage:__** This **PRODUCT IS INTENDED AS A RESEARCH CHEMICAL ONLY**. This designation allows the use of research chemicals strictly for in vitro testing and laboratory experimentation only. All product information available on this website is for educational purposes only. Bodily introduction of any kind into humans or animals is strictly forbidden by law. This product should only be handled by licensed, qualified professionals. This product is not a drug, food, or cosmetic and may not be misbranded, misused or mislabeled as a drug, food or cosmetic."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://web.archive.org/web/20230921155059/https://peptidesforsale.com/shop/peptides/bpc-157-5-mg/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/product_1__bpc-157-5mg.md
+[LINE_RANGE] 56-58
+[QUOTE]
+"Synthetic BPC 157 peptide, a pentadecane peptide that comprises 15 amino acids confined from the much larger BPC protein, has been observed to retain a number of healing properties of its parent molecule."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://web.archive.org/web/20230921155059/https://peptidesforsale.com/shop/peptides/bpc-157-5-mg/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/product_1__bpc-157-5mg.md
+[LINE_RANGE] 149-153
+[QUOTE]
+"##  14 reviews for BPC-157 (5 MG)
+
+  1. Rated **5** out of 5
+
+**sobalor332** – November 17, 2022"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://web.archive.org/web/20230921155059/https://peptidesforsale.com/shop/peptides/bpc-157-5-mg/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/product_1__bpc-157-5mg.md
+[LINE_RANGE] 144-148
+[QUOTE]
+"## Related products
+
+## [FOXO4 – DRI (10 MG)Rated **5.00** out of 5 $220.00 ]"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 90-90
+[QUOTE]
+"All our peptides for sale are strictly for research purposes in a professional laboratory setting. The products sold on this site are under no circumstances to be administered in humans for any reason. We reserve the right to request additional information from any of our customers at any time shall we feel that the customer is using the products for off label use."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+No age gate page, interstitial, or popup is visible in any of the three archived snapshots fetched (homepage, catalog, product page). The footer states a minimum age of 21 as a text disclaimer but no interactive gate is present.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 277-277
+"All customers must be at least 21 (twenty-one) years of age. These products are not for human consumption."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230921163101/https://peptidesforsale.com/shop/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/catalog_1.md
+[LINE_RANGE] 26-26
+"Showing all 35 results"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[INFERENCE] none
+[REASONING]
+No jurisdictional restriction page, warning, or notice visible in any fetched archived snapshot. The homepage FAQ mentions US domestic shipping as default and international by inquiry only, but no country-specific restriction list is displayed.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 118-118
+"Please contact us directly at [ ](https://web.archive.org/web/20230921145154/mailto:/) for inquires regarding international shipping."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230921155659/https://peptidesforsale.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/tos.md
+[LINE_RANGE] 26-26
+"By purchasing and accepting delivery of any products supplied by [PFS LOUISIANA](https://web.archive.org/web/20230921155659/https://peptidesforsale.com/) ("Products") you agree to be bound by these terms and conditions"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.tos_url / trust_compliance.tos_highlights
+[URL] https://web.archive.org/web/20230921155659/https://peptidesforsale.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/tos.md
+[LINE_RANGE] 24-26
+[QUOTE]
+"# Terms and Conditions
+
+**Acceptance of Terms  **
+
+By purchasing and accepting delivery of any products supplied by [PFS LOUISIANA](https://web.archive.org/web/20230921155659/https://peptidesforsale.com/) ("Products") you agree to be bound by these terms and conditions (the "Terms and Conditions")."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://web.archive.org/web/20230921144555/https://peptidesforsale.com/refund-returns/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/refund.md
+[LINE_RANGE] 52-52
+[QUOTE]
+"Our refund policy is very simple."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 235-235
+[QUOTE]
+"We provide free USPS priority shipping on orders over $100. If your order is less than $100, our shipping is a flat $7.75 for the continental United States."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers / checkout_flow.shipping_cost_structure
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 122-122
+[QUOTE]
+"Under normal circumstances we ship using USPS Priority Shipping which does not require a signature release. However, we do offer alternative shipping methods. If you require a signature release we can arrange to make it a requirement."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"Please contact us directly at [ ](https://web.archive.org/web/20230921145154/mailto:/) for inquires regarding international shipping."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+Three signals confirm WooCommerce: (1) URL pattern /product-category/peptides/ in product breadcrumbs matches WooCommerce taxonomy; (2) ?add-to-cart= query parameter in catalog is WooCommerce's standard add-to-cart mechanism; (3) HTTP response header from Wayback archive shows x-archive-orig-link: <https://peptidesforsale.com/wp-json/> rel="https://api.w.org/" which is the WordPress REST API link header.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230921155059/https://peptidesforsale.com/shop/peptides/bpc-157-5-mg/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/product_1__bpc-157-5mg.md
+[LINE_RANGE] 38-38
+"BPC-157 (5 MG) quantity"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230921163101/https://peptidesforsale.com/shop/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/catalog_1.md
+[LINE_RANGE] 30-30
+"## [ACE-031 (1 MG)Rated **5.00** out of 5 $130.00 ](https://web.archive.org/web/20230921163101/https://peptidesforsale.com/shop/peptides/ace-031/)[Add to cart](?add-to-cart=81)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] nginx
+[REASONING]
+Wayback Machine preserved original HTTP response headers showing x-archive-orig-server: nginx for the September 2023 snapshot.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 22-22
+"We currently are offering FREE SHIPPING
+on all peptides for sale orders over $100"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 30-30
+"## Buy Highly Purified Research Peptides"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] false
+[REASONING]
+WhatsApp contact link appears in header (wa.me link) as an explicit contact method but no third-party chat widget (Intercom, Drift, Tawk, Crisp) is referenced in any archived snapshot text.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 7-7
+"[ __](https://web.archive.org/web/20230921145154/https://wa.me/+15042748284)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230921163101/https://peptidesforsale.com/shop/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/catalog_1.md
+[LINE_RANGE] 7-7
+"[ __](https://web.archive.org/web/20230921163101/https://wa.me/+15042748284)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.blog_url / content_footprint.topic_taxonomy
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 162-180
+[QUOTE]
+"## Peptides Blog
+
+#### Anti-aging peptides for sale in the United States
+
+#### Tirzepatide: A Revolutionary Peptide for Diabetes, Weight Loss, and Heart Health
+
+#### ACE-031: Unveiling the Power of This Revolutionary Peptide
+
+#### The Intriguing World of BPC-157: What You Need to Know
+
+#### The Essential Guide to Safety, Storage, and Handling Of Peptides
+
+#### Unlocking the potential of Bio-active peptides with this comprehensive guide to the science behind peptides
+
+#### Unraveling The Secrets: The Top Peptides For Research
+
+#### The Peptide Pioneers: Unraveling the Mystery of "Who Discovered Peptides?""
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://web.archive.org/web/20230921155059/https://peptidesforsale.com/shop/peptides/bpc-157-5-mg/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/product_1__bpc-157-5mg.md
+[LINE_RANGE] 149-165
+[QUOTE]
+"##  14 reviews for BPC-157 (5 MG)
+
+  1. Rated **5** out of 5
+
+**sobalor332** – November 17, 2022
+
+Amazing product. I must say. Kudos to you guys.
+
+  2. Rated **5** out of 5
+
+**Dale** – February 5, 2023
+
+Fast shipping, Perfect transaction, great customer service, what more could you ask for? Highly recommended."
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements / social_proof.testimonial_usage
+[INFERENCE] none for influencer endorsements; on-site star reviews for testimonial usage
+[REASONING]
+No influencer name, sponsorship disclosure, or affiliate code is mentioned in any of the four archived pages fetched. On-site reviews are present (14 reviews for BPC-157, all 5-star), but these appear to be WooCommerce customer reviews, not curated testimonials or influencer placements.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 247-249
+"  * [__](https://web.archive.org/web/20230921145154/https://www.facebook.com/peptidesforsaleDOTcom/)
+  * [__](https://web.archive.org/web/20230921145154/https://www.instagram.com/thepepsforsale/)
+  * [__](https://web.archive.org/web/20230921145154/https://twitter.com/peps4saledotcom/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230921155059/https://peptidesforsale.com/shop/peptides/bpc-157-5-mg/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/product_1__bpc-157-5mg.md
+[LINE_RANGE] 24-26
+"Rated **5.00** out of 5 based on 14 customer ratings
+
+(14 customer reviews)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://web.archive.org/web/20230921163101/https://peptidesforsale.com/shop/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/catalog_1.md
+[LINE_RANGE] 62-64
+[QUOTE]
+"## [SEMAGLUTIDE (5 MG) (3 Vials)Rated **5.00** out of 5 $475.00 ](https://web.archive.org/web/20230921163101/https://peptidesforsale.com/shop/peptides/semaglutide-5-mg-combo/)[Add to cart](?add-to-cart=532)
+
+## [TIRZEPATIDE (5 MG) (3 Vials)Rated **5.00** out of 5 $450.00 ](https://web.archive.org/web/20230921163101/https://peptidesforsale.com/shop/peptides/tirzepatide-5-mg/)[Add to cart](?add-to-cart=755)"
+[/QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country / ship_to_scope
+[URL] https://web.archive.org/web/20230921145154/https://peptidesforsale.com/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/homepage.md
+[LINE_RANGE] 107-108
+[QUOTE]
+"##  Do you ship from the United States?
+
+Yes, we ship from the United States."
+[/QUOTE]
+
+[CLAIM] skus (all 35 SKUs enumerated from catalog_1.md)
+[URL] https://web.archive.org/web/20230921163101/https://peptidesforsale.com/shop/
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptides-for-sale/catalog_1.md
+[LINE_RANGE] 26-108
+[QUOTE]
+[ENUMERATION] Full SKU listing from catalog_1.md lines 30-108:
+ACE-031 (1 MG) $130.00
+AOD 9604 (5 MG) $72.00
+BPC-157 (10 MG) $91.00
+BPC-157 (5 MG) $49.00
+CJC-1295 & GHRP (10 MG) $65.00
+CJC-1295 DAC (5 MG) $49.00
+DSIP (5 MG) $39.00
+FOLLISTATIN 344 (1 MG) $129.00
+FOXO4-DRI (10 MG) $220.00
+FRAGMENT 176-191 (10 MG) $68.00
+IGF-1 LR3 (RECEPTOR) (1 MG) $89.00
+KISSPEPTIN-10 (5 MG) $59.00
+LIVAGEN (20 MG) $69.00
+LL-37 (5 MG) $84.00
+MELANOTAN 2 (10 MG) $41.00
+MOTS-C (10 MG) $109.00
+N-ACETYL SEMAX (30 MG) $57.00
+NAD+ (750 MG) $230.00
+OXYTOCIN (10 MG) $49.00
+P21 (P021) (5 MG) $109.00
+PINEALON (20 MG) $96.00
+PT-141 (10 MG) $41.00
+SELANK (10 MG) $49.00
+SELANK (5 MG) $49.00
+SEMAGLUTIDE (10 MG) $240.00
+SEMAGLUTIDE (2 MG) $114.00
+SEMAGLUTIDE (5 MG) $172.00
+SEMAGLUTIDE (5 MG) (3 Vials) $475.00
+SEMAX (10 MG) $59.00
+SEMAX (25 MG) $59.00
+TB-500 (10 MG) $99.00
+TB-500 (5 MG) $57.00
+TESAMORELIN (10 MG) $79.00
+TIRZEPATIDE (5 MG) (3 Vials) $450.00
+TRH THYROTROPIN (20 MG) $121.00
+[/QUOTE]

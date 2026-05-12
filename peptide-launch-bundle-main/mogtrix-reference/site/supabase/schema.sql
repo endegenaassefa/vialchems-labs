@@ -1,0 +1,5 @@
+-- Source of truth: files in ./migrations
+-- Baseline backend foundation: ./migrations/20260501194000_backend_foundation.sql
+--
+-- This file remains as a human-readable pointer because the original repo started
+-- with a flat draft schema here. Migrations now own the real database shape.

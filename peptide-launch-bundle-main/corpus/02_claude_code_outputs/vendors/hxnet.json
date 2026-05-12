@@ -1,0 +1,246 @@
+{
+  "vendor_slug": "hxnet",
+  "brand_name": "HXNet",
+  "primary_domain": "https://hxnet.com",
+
+  "fetched_url": "https://hxnet.com",
+  "fetched_at": "2026-05-07T23:35:00Z",
+  "fetch_status": "partial",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned — Tier 3 Chinese wholesale vendor. hxnet.com is a parked/for-sale domain (Afternic/GoDaddy); no public e-commerce storefront found. Vendor operates via direct/Discord channels. Baseline profile only per Tier 3 scope.",
+  "field_completion_ratio": 0.42,
+
+  "country_of_operation": "uncertain",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "uncertain",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "uncertain"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": ["uncertain"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "false",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": ["uncertain"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "unknown",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["finnrick.com"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [
+    {
+      "sku_id": "hxnet:retatrutide-various",
+      "name": "Retatrutide (various doses)",
+      "peptide_canonical": "Retatrutide",
+      "peptide_variant": "other",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "uncertain",
+      "raw_artifact": "03_raw_fetches/hxnet/finnrick_retatrutide.md",
+      "evidence_entry_id": "claim-6"
+    },
+    {
+      "sku_id": "hxnet:tirzepatide-various",
+      "name": "Tirzepatide (various doses)",
+      "peptide_canonical": "Tirzepatide",
+      "peptide_variant": "other",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "uncertain",
+      "raw_artifact": "03_raw_fetches/hxnet/finnrick_vendor_profile.md",
+      "evidence_entry_id": "claim-5"
+    },
+    {
+      "sku_id": "hxnet:tesamorelin-various",
+      "name": "Tesamorelin (various doses)",
+      "peptide_canonical": "Tesamorelin",
+      "peptide_variant": "other",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "uncertain",
+      "raw_artifact": "03_raw_fetches/hxnet/finnrick_tesamorelin.md",
+      "evidence_entry_id": "claim-7"
+    },
+    {
+      "sku_id": "hxnet:bpc-157-various",
+      "name": "BPC-157 (various doses)",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "other",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "uncertain",
+      "raw_artifact": "03_raw_fetches/hxnet/finnrick_vendor_profile.md",
+      "evidence_entry_id": "claim-5"
+    },
+    {
+      "sku_id": "hxnet:ghk-cu-various",
+      "name": "GHK-Cu (various doses)",
+      "peptide_canonical": "GHK-Cu",
+      "peptide_variant": "other",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "uncertain",
+      "raw_artifact": "03_raw_fetches/hxnet/finnrick_vendor_profile.md",
+      "evidence_entry_id": "claim-5"
+    },
+    {
+      "sku_id": "hxnet:cagrilintide-various",
+      "name": "Cagrilintide (various doses)",
+      "peptide_canonical": "other",
+      "peptide_variant": "other",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "uncertain",
+      "raw_artifact": "03_raw_fetches/hxnet/finnrick_vendor_profile.md",
+      "evidence_entry_id": "claim-5"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "https://www.finnrick.com/vendors/hxnet",
+    "discovery_source_quote": "HXNet — Finnrick has tested 114 samples from HXNet across 6 products."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/hxnet/",
+  "evidence_file": "evidence/hxnet.txt",
+  "uncertainty_notes": "PRIMARY DOMAIN ISSUE: hxnet.com is a parked/for-sale domain (Afternic/GoDaddy). The site serves a JS redirect to /lander which is a domain-sale landing page, not a peptide vendor site. Confirmed in live fetch (2026-05-07) and Wayback archive (20240808). No public e-commerce storefront exists. Vendor operates via undisclosed channels (likely Discord per forum community references). ALL homepage, catalog, product_page_anatomy, trust_compliance, checkout_flow, tech_stack, and content_footprint fields are uncertain because no public website was reachable. | country_of_operation: Forum context (peptidesource.net) identifies HXNet as a likely Chinese reseller/rep ('buys from a China rep / company') but no verbatim country claim from HXNet itself found. Marked uncertain. | fulfillment_country: No evidence found. | year_established: No evidence found. | ship_to_scope: No evidence found. | product SKUs: 6 headline SKUs confirmed via Finnrick independent testing (BPC-157, GHK-Cu, Tesamorelin, Cagrilintide, Retatrutide, Tirzepatide). Dose options, pricing, URLs not determinable — no public product pages. | batch_lot_transparency: Marked false — Finnrick test data shows majority of HXNet samples have '(no batch ID)' recorded, indicating absent or unreliable batch/lot traceability. | lab posture: No vendor-claimed lab testing found. Independent Finnrick testing across 114 samples shows highly variable product quality: ratings range from C (Okay) for BPC-157 and GHK-Cu, to D (Poor) for Tesamorelin, to E (Bad) for Cagrilintide, Retatrutide, and Tirzepatide. One Retatrutide sample (22 Feb 2026) contained no detectable Retatrutide. Semaglutide sample (Dec 2024, forum) also contained no detectable peptide. | review_presence: Finnrick customer satisfaction rating 4.1/5 from 28 reports (unverified by Finnrick). No Trustpilot or other aggregator presence found."
+}

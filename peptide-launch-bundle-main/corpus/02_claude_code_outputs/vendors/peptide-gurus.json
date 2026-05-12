@@ -1,0 +1,211 @@
+{
+  "vendor_slug": "peptide-gurus",
+  "brand_name": "Peptide Gurus",
+  "primary_domain": "https://peptidegurus.com",
+
+  "fetched_url": "https://peptidegurus.com",
+  "fetched_at": "2026-05-08T06:18:46Z",
+  "fetch_status": "ok",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.93,
+
+  "country_of_operation": "uncertain",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "us_intl",
+  "year_established": "2024",
+
+  "homepage": {
+    "hero_copy_excerpt": "Excellence. Dedication. Value. PeptideGurus stands as your premier online destination for research peptides of the highest purity, produced within the United States.",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Read More (links to /product/)",
+    "navigation_pattern": "top nav with Products mega-dropdown (Peptide Raw powder, Peptide Finished product sub-categories, Production line pharmaceutical machines), plus About Us, Our Advantage, News, QNA, Contact Us, Video",
+    "footer_disclaimers": "All products on this site are for Research, Development use only. Products are Not for Human consumption of any kind. The statements made within this website have not been evaluated by the US Food and Drug Administration or HEALTH CANADA. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease.\nPeptideGurus is a chemical supplier. PeptideGurus is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. Peptide Sciences is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic act."
+  },
+
+  "catalog": {
+    "sku_count": 210,
+    "category_taxonomy": [
+      "Peptide Finished product",
+      "Peptides and Their Dosages",
+      "Peptide Blends",
+      "IGF-1 Proteins",
+      "Melanotan Peptides",
+      "Peptide Bioregulators",
+      "Peptide Capsules",
+      "Hot Products",
+      "Peptide Raw powder",
+      "Production line pharmaceutical machines"
+    ],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "true"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "https://peptidegurus.com/product/bpc157-20mg/",
+    "sample_product_name": "BPC157 20MG",
+    "dose_options": ["20mg"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "clinical",
+    "description_copy_excerpt": "BPC-157, a stable gastric pentadecapeptide, has garnered attention in scientific circles for its remarkable healing properties across various tissues, including muscles, tendons, and ligaments, as well as its therapeutic effects on inflammatory bowel disorders like ulcers and Crohn's disease.",
+    "exact_disclaimer_language": "BPC-157 is designated strictly for research purposes, intended for in vitro testing and laboratory experimentation only. It is not for human or animal use, and handling must be conducted by licensed, qualified professionals. This compound is not to be misclassified as a drug, food, or cosmetic.",
+    "coa_present": "true",
+    "coa_hosting": "on_site",
+    "lab_partner_named": "Janoshik",
+    "batch_lot_transparency": "true",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "true"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "All products on this site are for Research, Development use only. Products are Not for Human consumption of any kind.",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "none",
+    "tos_url": "https://peptidegurus.com/privacy-policy/",
+    "tos_highlights": "Privacy policy only; no standalone TOS page found. Covers data collection, usage, and cookie policy. Confirms 256-bit SSL encryption. Prohibits returns except for incorrectly shipped orders.",
+    "refund_policy": "Due to regulations regarding the sale of our products, returns are prohibited. However, in the event that the order is shipped incorrectly or the items received are not the items ordered, please contact us by email. We will issue a replacement of your original order.",
+    "shipping_policy": "USA: USPS Priority, FedEx 2 Day (2 business days). UK: Royal Mail. Europe: DHL, DPD, Fedex. Normally within 2 to 3 days after payment confirmed. Ships from warehouses in USA, Europe, Canada, UK, Mexico."
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["name", "email", "whatsapp", "product", "message", "customer category"],
+    "id_verification_present": "false",
+    "payment_methods_accepted": ["Cashapp", "Venmo", "Zelle", "Paypal", "Bitcoin", "Bank Transfer", "Western Union", "Money Gram"],
+    "shipping_carriers": ["USPS Priority", "FedEx 2 Day", "Royal Mail", "DHL", "DPD"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "Ships worldwide. Discreet packing for customs clearance. Warehouses in USA, Europe, Canada, UK, Mexico."
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["Google Analytics 4 (G-9TSNJH53TK)"],
+    "marketing_pixels_present": [],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://peptidegurus.com/category/news/",
+    "content_cadence": "Recent posts dated May 7 2026; content appears SEO-focused with multiple Retatrutide articles published on same day",
+    "topic_taxonomy": ["Retatrutide metabolic research", "peptide mechanisms of action", "weight loss research", "diabetes research"],
+    "author_bylines_present": "false",
+    "internal_linking_to_products": "Moderate — blog category listing links back to product pages via navigation"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": [],
+    "testimonial_usage": "none observed",
+    "visible_influencer_endorsements": "none observed"
+  },
+
+  "skus": [
+    {
+      "sku_id": "peptide-gurus:bpc157-20mg",
+      "name": "BPC157 20MG",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "acetate",
+      "dose_value": 20,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://peptidegurus.com/product/bpc157-20mg/",
+      "raw_artifact": "03_raw_fetches/peptide-gurus/product_1__bpc157-20mg.md",
+      "evidence_entry_id": "claim-4"
+    },
+    {
+      "sku_id": "peptide-gurus:retatrutide-5mg",
+      "name": "Retatrutide 5mg",
+      "peptide_canonical": "Retatrutide",
+      "peptide_variant": "",
+      "dose_value": 5,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://peptidegurus.com/product/retatrutide-10mg-2/",
+      "raw_artifact": "03_raw_fetches/peptide-gurus/product_2__retatrutide-5mg.md",
+      "evidence_entry_id": "claim-5"
+    },
+    {
+      "sku_id": "peptide-gurus:tirzepatide-50mg",
+      "name": "Tirzepatide 50mg",
+      "peptide_canonical": "Tirzepatide",
+      "peptide_variant": "",
+      "dose_value": 50,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://peptidegurus.com/product/tirzepatide-50mg/",
+      "raw_artifact": "03_raw_fetches/peptide-gurus/product_3__tirzepatide-50mg.md",
+      "evidence_entry_id": "claim-6"
+    },
+    {
+      "sku_id": "peptide-gurus:glow-blend",
+      "name": "Glow (bpc 157 10mg, tb500 10mg , ghk-cu 50mg blend)",
+      "peptide_canonical": "other",
+      "peptide_variant": "",
+      "dose_value": 70,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "",
+      "bundle_membership": ["Glow triple-blend"],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://peptidegurus.com/product/ghk-cu-50mg-copper-peptide-3/",
+      "raw_artifact": "03_raw_fetches/peptide-gurus/product_4__glow-blend.md",
+      "evidence_entry_id": "claim-7"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "peptide-gurus,Peptide Gurus,peptidegurus.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list, classified as Tier 3: Retail vendor.,3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/peptide-gurus/",
+  "evidence_file": "evidence/peptide-gurus.txt",
+  "uncertainty_notes": "country_of_operation: QNA page header shows 'China So-and-So Co., Ltd.' but about page and footer cite Glendale AZ USA; WA number is +86 (China). True country of operation is uncertain — likely China-sourced with US warehouse/fulfillment address. fulfillment_country: stated warehouses in USA, Europe, Canada, UK, Mexico; which country fulfills US orders cannot be determined without placing an order. list_price / per_mg_cost for all SKUs: site uses 'Contact To Order' inquiry model with no public pricing on any product page. account_required / guest_checkout_available: no standard WooCommerce checkout flow observed — orders via email/WhatsApp inquiry form only. shipping_cost_structure: no public rate table found. search_filter_capabilities: catalog listing does not show filter sidebar in text render. cdn: no CDN header identifiable from response headers. year_established: footer states copyright 2024; treated as year established. SKU count: estimated from 14 catalog pages × ~15 per page = ~210; exact count uncertain."
+}

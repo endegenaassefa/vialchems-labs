@@ -1,0 +1,1423 @@
+URL: https://regenerativeperformance.com/supplements
+FETCHED_AT: 2026-05-06T19:15:47-04:00
+---
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supplements Gilbert AZ - Regenerative Performance</title>
+  <link rel="canonical" href="https://regenerativeperformance.com/supplements/">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <meta name="description" content="Discover high-quality supplements at Regenerative Performance in Gilbert, AZ, designed to support your health and wellness goals. Explore our range today!">
+  <meta property="og:title" content="Supplements Gilbert AZ - Regenerative Performance">
+  <meta property="og:description" content="Discover high-quality supplements at Regenerative Performance in Gilbert, AZ, designed to support your health and wellness goals. Explore our range today!">
+  <meta property="og:image" content="/images/logos/Fillscript-logo.webp">
+  <meta property="og:type" content="website">
+    <meta property="og:url" content="https://regenerativeperformance.com/supplements/">
+<meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Supplements Gilbert AZ - Regenerative Performance">
+    <meta name="twitter:description" content="Discover high-quality supplements at Regenerative Performance in Gilbert, AZ, designed to support your health and wellness goals. Explore our range today!">
+    <meta name="twitter:image" content="https://regenerativeperformance.com/images/logos/Fillscript-logo.webp">
+  <!--fonts:self-host--><link rel="preload" as="font" type="font/woff2" href="/fonts/outfit-400.woff2" crossorigin><link rel="preload" as="font" type="font/woff2" href="/fonts/outfit-500.woff2" crossorigin><link rel="preload" as="font" type="font/woff2" href="/fonts/outfit-600.woff2" crossorigin><link rel="preload" as="font" type="font/woff2" href="/fonts/outfit-700.woff2" crossorigin><link rel="preload" as="font" type="font/woff2" href="/fonts/cormorant-garamond-400italic.woff2" crossorigin><style>@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/cormorant-garamond-400italic.woff2') format('woff2');}@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/cormorant-garamond-400.woff2') format('woff2');}@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/cormorant-garamond-600.woff2') format('woff2');}@font-face{font-family:'Outfit';font-style:normal;font-weight:300;font-display:swap;src:url('/fonts/outfit-300.woff2') format('woff2');}@font-face{font-family:'Outfit';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/outfit-400.woff2') format('woff2');}@font-face{font-family:'Outfit';font-style:normal;font-weight:500;font-display:swap;src:url('/fonts/outfit-500.woff2') format('woff2');}@font-face{font-family:'Outfit';font-style:normal;font-weight:600;font-display:swap;src:url('/fonts/outfit-600.woff2') format('woff2');}@font-face{font-family:'Outfit';font-style:normal;font-weight:700;font-display:swap;src:url('/fonts/outfit-700.woff2') format('woff2');}@font-face{font-family:'Outfit Fallback';src:local('Arial');size-adjust:108%;ascent-override:86%;descent-override:22%;line-gap-override:0%;}@font-face{font-family:'Cormorant Fallback';src:local('Times New Roman'),local('Georgia');size-adjust:110%;ascent-override:92%;descent-override:24%;line-gap-override:0%;font-style:italic;}details[open]>.faq-answer{max-height:1500px;padding-bottom:var(--space-lg)}</style>
+  <!--logo:preload-->
+  <link rel="preload" as="image" href="/images/logo-color-black-words-optimized-400.webp" imagesrcset="/images/logo-color-black-words-optimized-400.webp 1x, /images/logo-color-black-words-optimized.webp 2x" fetchpriority="high">
+  <!--ds:inlined--><style>:root{--rp-blue:#27475e;--rp-purple:#45234c;--rp-orange:#dc962d;--rp-gray:#4a4a4a;--rp-light:#f7f6f3;--rp-white:#fff;--rp-dark:#1a1a2e;--rp-blue-10:rgba(39,71,94,0.1);--rp-orange-10:rgba(220,150,45,0.1);--rp-purple-text:#7b4e87;--rp-purple-10:rgba(69,35,76,0.1);--rp-white-10:rgba(255,255,255,0.1);--rp-white-15:rgba(255,255,255,0.15);--rp-white-50:rgba(255,255,255,0.5);--rp-white-70:rgba(255,255,255,0.7);--rp-blue-tint-10:#e8ecf0;--rp-blue-tint-25:#c9d3db;--rp-blue-tint-50:#93a3af;--rp-blue-tint-75:#5d7587;--rp-purple-tint-10:#ecdfed;--rp-purple-tint-25:#d0a8d2;--rp-orange-tint-10:#fbf0e0;--rp-orange-tint-25:#f2d8a9;--rp-gray-tint-10:#ededec;--rp-gray-tint-25:#c4c4c4;--rp-success:#2d8a4e;--rp-error:#c53030;--rp-warning:#d69e2e;--rp-info:rgba(39,71,94,0.8);--font-display:'Outfit','Outfit Fallback',sans-serif;--font-body:'Outfit','Outfit Fallback',sans-serif;--font-accent:'Cormorant Garamond','Cormorant Fallback',Georgia,serif;--text-xs:.75rem;--text-sm:.875rem;--text-base:1rem;--text-md:1.125rem;--text-lg:1.25rem;--text-xl:1.5625rem;--text-2xl:1.9375rem;--text-3xl:2.4375rem;--text-4xl:3.0625rem;--text-5xl:3.8125rem;--leading-tight:1.2;--leading-normal:1.6;--leading-relaxed:1.7;--space-xs:.25rem;--space-sm:.5rem;--space-md:1rem;--space-lg:1.5rem;--space-xl:2rem;--space-2xl:2.5rem;--space-3xl:3rem;--space-4xl:5rem;--space-5xl:6rem;--space-0-75:.75rem;--space-1-25:1.25rem;--container-max:1200px;--container-narrow:800px;--container-wide:1400px;--gutter:2rem;--radius-sm:4px;--radius-md:8px;--radius-lg:12px;--radius-xl:16px;--radius-full:9999px;--shadow-sm:0 1px 3px rgba(0,0,0,0.06);--shadow-md:0 4px 12px rgba(0,0,0,0.08);--shadow-lg:0 8px 24px rgba(0,0,0,0.1);--shadow-xl:0 16px 48px rgba(0,0,0,0.12);--ease-default:cubic-bezier(0.25,0.1,0.25,1);--ease-spring:cubic-bezier(0.175,0.885,0.32,1.275);--ease-spring-bouncy:cubic-bezier(0.68,-0.55,0.265,1.55);--duration-fast:150ms;--duration-normal:300ms;--duration-slow:500ms;--z-base:1;--z-dropdown:10;--z-sticky:50;--z-overlay:100;--z-modal:200}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}body{font-family:var(--font-body);font-size:var(--text-base);line-height:var(--leading-normal);color:var(--rp-gray);background:var(--rp-white);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}img,video,svg{max-width:100%;height:auto;display:block}a{color:var(--rp-blue);text-decoration:none;transition:color var(--duration-fast) var(--ease-default)}a:hover{color:var(--rp-orange)}ul,ol{list-style:none}button{font-family:inherit;cursor:pointer;border:0;background:0}input,textarea,select{font-family:inherit;font-size:inherit}h1,h2,h3,h4,h5,h6{color:var(--rp-blue);line-height:var(--leading-tight);font-weight:700}h1{font-family:var(--font-display);font-size:var(--text-4xl);letter-spacing:.02em}h2{font-family:var(--font-display);font-size:var(--text-3xl);letter-spacing:.02em}h3{font-family:var(--font-body);font-size:var(--text-2xl);font-weight:600}.subhead-italic{font-style:italic;font-weight:400;margin-top:var(--space-sm);margin-bottom:var(--space-lg)}
+@media(max-width:768px){h2{margin-bottom:var(--space-md)}.subhead-italic{margin-bottom:var(--space-xl)}}h4{font-family:var(--font-body);font-size:var(--text-xl);font-weight:600}p{margin-bottom:var(--space-md);max-width:72ch}.text-center p,.cta-banner p,.section-cta-centered p,.steps-banner p{margin-left:auto;margin-right:auto}.text-accent{font-family:var(--font-accent);font-style:italic}.text-label{font-family:var(--font-body);font-size:var(--text-xs);font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--rp-orange)}.text-lead{font-size:var(--text-md);line-height:var(--leading-relaxed);color:var(--rp-gray)}.container{width:100%;max-width:var(--container-max);margin:0 auto;padding:0 var(--gutter)}.container-narrow{max-width:var(--container-narrow);margin:0 auto;padding:0 var(--gutter)}.container-wide{max-width:var(--container-wide);margin:0 auto;padding:0 var(--gutter)}.section{padding:var(--space-5xl) 0}.section-sm{padding:var(--space-3xl) 0}.section-alt{background:var(--rp-light)}
+.section-dark{background:var(--rp-blue);color:var(--rp-white)}.section-dark h1,.section-dark h2,.section-dark h3,.section-dark h4{color:var(--rp-white)}.section-dark p,.section-dark li{color:rgba(255,255,255,0.9)}.grid{display:grid;gap:var(--space-xl)}.grid-2{grid-template-columns:repeat(2,1fr)}.grid-3{grid-template-columns:repeat(3,1fr)}.grid-4{grid-template-columns:repeat(4,1fr)}@media(max-width:1024px){.grid-4{grid-template-columns:repeat(2,1fr)}}@media(max-width:768px){.grid-2,.grid-3,.grid-4{grid-template-columns:1fr}}.flex{display:flex}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.items-start{align-items:flex-start}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-xs{gap:var(--space-xs)}.gap-sm{gap:var(--space-sm)}.gap-md{gap:var(--space-md)}.gap-lg{gap:var(--space-lg)}.gap-xl{gap:var(--space-xl)}.gap-2xl{gap:var(--space-2xl)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-sm);padding:.875rem 2rem;font-family:var(--font-body);font-size:var(--text-base);font-weight:600;letter-spacing:.025em;border-radius:var(--radius-md);transition:all var(--duration-normal) var(--ease-default);text-decoration:none;white-space:nowrap;cursor:pointer;border:2px solid transparent}
+.btn:active{transform:scale(0.98)}.btn-primary{background:var(--rp-orange);color:var(--rp-white);border-color:var(--rp-orange);box-shadow:0 2px 4px rgba(220,150,45,0.25),0 4px 12px rgba(220,150,45,0.15)}.btn-primary:hover{background:#e8a94a;border-color:#e8a94a;color:var(--rp-white);transform:translateY(-2px);box-shadow:0 4px 8px rgba(220,150,45,0.35),0 8px 28px rgba(220,150,45,0.25),0 0 30px rgba(232,169,74,0.35),0 0 60px rgba(220,150,45,0.15)}.btn-secondary{background:var(--rp-blue);color:var(--rp-white);border-color:var(--rp-blue);box-shadow:0 2px 4px rgba(39,71,94,0.12),0 4px 12px rgba(39,71,94,0.08)}.btn-secondary:hover{background:#3a5f78;border-color:#3a5f78;color:var(--rp-white);transform:translateY(-2px);box-shadow:0 4px 8px rgba(39,71,94,0.2),0 8px 24px rgba(39,71,94,0.15),0 0 20px rgba(39,71,94,0.1)}.btn-outline{background:transparent;color:var(--rp-blue);border-color:var(--rp-blue)}.btn-outline:hover{background:var(--rp-blue);color:var(--rp-white);transform:translateY(-2px)}.btn-ghost{background:transparent;color:var(--rp-orange);border-color:transparent;padding:.5rem 1.5rem}
+.btn-ghost:hover{background:var(--rp-orange-10)}.btn-sm{padding:.625rem 1.25rem;font-size:var(--text-sm);min-height:44px}.btn-lg{padding:1.125rem 2.5rem;font-size:var(--text-md)}.btn-icon{width:48px;height:48px;padding:0;border-radius:var(--radius-full)}.btn-icon:hover{transform:scale(1.08)}.btn-phone{background:var(--rp-blue);color:var(--rp-white);border-color:var(--rp-blue);font-weight:700;letter-spacing:.03em}.btn-phone:hover{background:#3a5f78;border-color:#3a5f78;color:var(--rp-white);box-shadow:0 4px 8px rgba(39,71,94,0.2),0 8px 24px rgba(39,71,94,0.15),0 0 20px rgba(39,71,94,0.1)}.card{background:var(--rp-white);border-radius:var(--radius-lg);padding:var(--space-xl);box-shadow:var(--shadow-sm);transition:transform var(--duration-normal) var(--ease-default),box-shadow var(--duration-normal) var(--ease-default)}.card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}.card-flat{box-shadow:none;border:1px solid var(--rp-gray-tint-10)}.card-flat:hover{transform:none;box-shadow:none;border-color:var(--rp-blue-tint-25)}
+.key-facts{margin:0;padding:0 0 0 var(--space-xl);border-left:3px solid var(--rp-orange)}
+.key-facts .text-label{display:block;margin-bottom:var(--space-md)}
+.key-facts__list{display:grid;grid-template-columns:max-content 1fr;column-gap:var(--space-xl);row-gap:var(--space-sm);margin:0}
+.key-facts__list dt{font-weight:600;color:var(--rp-blue);font-size:var(--text-sm);white-space:nowrap;align-self:start;padding-top:.15em}
+.key-facts__list dd{margin:0;font-size:var(--text-sm);line-height:var(--leading-normal);color:var(--rp-gray)}
+.key-facts__list dd a{color:var(--rp-blue);text-decoration:underline}
+@media(max-width:640px){.key-facts__list{grid-template-columns:1fr;row-gap:var(--space-md)}.key-facts__list dt{font-size:var(--text-base);margin-bottom:calc(var(--space-xs) * -1)}}.trust-bar{display:flex;justify-content:center;gap:var(--space-2xl);padding:var(--space-lg) 0;flex-wrap:wrap}.trust-bar-item{display:flex;flex-direction:column;align-items:center;gap:var(--space-xs);text-align:center}.trust-bar-number{font-family:var(--font-display);font-size:var(--text-2xl);color:var(--rp-orange);line-height:1}.trust-bar-label{font-size:var(--text-sm);color:rgba(255,255,255,0.8);font-weight:500}.section-alt .trust-bar-label{color:var(--rp-gray)}.social-proof{background:var(--rp-light);padding:var(--space-3xl) 0}
+.social-proof-stats{display:flex;justify-content:center;gap:var(--space-3xl);margin-bottom:var(--space-2xl);flex-wrap:wrap}.social-proof-stat{text-align:center}.social-proof-stat .number{font-family:var(--font-display);font-size:var(--text-3xl);color:var(--rp-blue);line-height:1}.social-proof-stat .label{font-size:var(--text-sm);color:var(--rp-gray);margin-top:var(--space-xs)}.badge-section{text-align:center}.badge-group-label{font-family:var(--font-display);font-size:var(--text-xs);font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--rp-gray);margin-bottom:var(--space-sm);margin-top:var(--space-xl)}.badge-section .badge-group-label:first-child{margin-top:0}.badge-row{display:flex;align-items:center;justify-content:center;gap:var(--space-xl);flex-wrap:wrap;padding:var(--space-sm) 0}.badge-item{display:inline-flex;align-items:center;justify-content:center;padding:var(--space-sm) var(--space-md);border-radius:var(--radius-md);background:transparent;cursor:default;transition:background var(--duration-normal) var(--ease-default)}
+.badge-item:hover{background:rgba(0,0,0,0.04)}.badge-row img{height:48px;width:auto;object-fit:contain;filter:grayscale(20%);opacity:.85;transition:all var(--duration-normal) var(--ease-default)}.badge-row img:hover{filter:grayscale(0);opacity:1}.testimonial{position:relative;padding:var(--space-xl);background:var(--rp-white);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);display:flex;flex-direction:column;transition:transform var(--duration-normal) var(--ease-spring),box-shadow var(--duration-normal) var(--ease-spring)}.testimonial:hover{transform:translateY(-2px) !important;box-shadow:var(--shadow-md) !important;transition-delay:0s}
+.testimonial-text{flex:1;font-size:var(--text-md);line-height:1.7;color:var(--rp-gray);padding-left:var(--space-md);font-style:italic}.testimonial-author{margin-top:var(--space-md);padding-left:var(--space-md);font-size:var(--text-sm);font-weight:600;color:var(--rp-blue)}
+.testimonial-source{font-weight:400;color:var(--rp-orange);transition:text-shadow var(--duration-normal) var(--ease-default)}.testimonial:hover .testimonial-source{text-shadow:0 0 4px rgba(220,150,45,0.3),0 0 8px rgba(220,150,45,0.15)}.faq-section{max-width:var(--container-narrow);margin:0 auto}.faq-item{border-bottom:1px solid var(--rp-gray-tint-10)}.faq-question{width:100%;display:flex;justify-content:space-between;align-items:center;padding:var(--space-lg) 0;font-family:var(--font-body);font-size:var(--text-md);font-weight:600;color:var(--rp-blue);text-align:left;cursor:pointer;background:0;border:0;transition:color var(--duration-fast) var(--ease-default)}.faq-question:hover{color:var(--rp-orange)}.faq-icon{width:24px;height:24px;flex-shrink:0;transition:transform var(--duration-normal) var(--ease-default)}.faq-item.active .faq-icon{transform:rotate(45deg)}.faq-answer{max-height:0;overflow:hidden;transition:max-height var(--duration-normal) var(--ease-default),padding var(--duration-normal) var(--ease-default)}
+.faq-item.active .faq-answer{max-height:500px;padding-bottom:var(--space-lg)}.faq-answer p{color:var(--rp-gray);line-height:1.7}.process-steps{display:grid;gap:var(--space-xl);counter-reset:step}.process-step{display:flex;gap:var(--space-xl);align-items:flex-start;counter-increment:step}.process-step::before{content:counter(step);font-family:var(--font-display);font-size:var(--text-2xl);color:var(--rp-orange);line-height:1;min-width:48px;height:48px;display:flex;align-items:center;justify-content:center;background:var(--rp-orange-10);border-radius:var(--radius-full);flex-shrink:0}.process-step h4{margin-bottom:var(--space-sm)}.process-step p{color:var(--rp-gray)}.diff-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-xl)}.diff-card{text-align:center;padding:var(--space-2xl) var(--space-xl)}.diff-icon{width:64px;height:64px;margin:0 auto var(--space-lg);display:flex;align-items:center;justify-content:center;background:var(--rp-orange-10);border-radius:var(--radius-full);color:var(--rp-orange)}
+.diff-card h3{margin-bottom:var(--space-md);font-size:var(--text-lg)}.diff-card p{margin:0 auto;font-size:var(--text-sm);color:var(--rp-gray)}@media(max-width:768px){.diff-grid{grid-template-columns:1fr}}.cta-block{text-align:center;padding:var(--space-4xl) var(--space-xl)}.cta-block h2{margin-bottom:var(--space-md)}.cta-block p{margin:0 auto var(--space-2xl);max-width:600px;font-size:var(--text-md)}.cta-buttons{display:flex;justify-content:center;gap:var(--space-lg);flex-wrap:wrap}/* Section divider: short orange rule under H2. Symmetric whitespace above + below
+   (don't let it sit flush against the H2). */
+.divider{width:60px;height:3px;background:var(--rp-orange);margin-top:var(--space-xl);margin-bottom:var(--space-xl)}.divider-center{margin-left:auto;margin-right:auto}.hero{position:relative;overflow:hidden;padding:var(--space-5xl) 0 var(--space-4xl);background:linear-gradient(135deg,var(--rp-blue) 0,#1a3a5c 50%,#2a4a6a 100%);color:var(--rp-white)}.hero::before{content:'';position:absolute;top:-40%;right:-20%;width:600px;height:600px;background:radial-gradient(circle,rgba(69,35,76,0.15) 0,transparent 70%);pointer-events:none}
+.hero::after{content:'';position:absolute;bottom:-30%;left:-15%;width:500px;height:500px;background:radial-gradient(circle,rgba(220,150,45,0.1) 0,transparent 70%);pointer-events:none}.hero .container{position:relative;z-index:var(--z-base)}.hero h1{color:var(--rp-white);margin-bottom:var(--space-lg)}.hero p{color:rgba(255,255,255,0.9);font-size:var(--text-md);max-width:640px}.hero-border{height:4px;background:linear-gradient(90deg,var(--rp-orange),var(--rp-purple),var(--rp-blue))}.site-header{position:sticky;top:0;z-index:var(--z-sticky);background:var(--rp-white);border-bottom:1px solid rgba(0,0,0,0.06);box-shadow:var(--shadow-sm)}.header-inner{display:flex;align-items:center;justify-content:space-between;padding:var(--space-md) 0;max-width:var(--container-wide);margin:0 auto;padding-left:var(--gutter);padding-right:var(--gutter)}.header-logo img{height:44px;width:auto}.header-nav{display:flex;align-items:center;gap:var(--space-xl)}.header-nav a{font-size:var(--text-sm);font-weight:500;color:var(--rp-gray);text-decoration:none;letter-spacing:.02em;transition:color var(--duration-fast) var(--ease-default)}
+.header-nav a:hover{color:var(--rp-blue)}.header-actions{display:flex;align-items:center;gap:var(--space-md)}.mobile-header-actions{display:none}.header-phone{display:inline-flex;align-items:center;gap:4px;white-space:nowrap;font-weight:600;color:var(--rp-blue);font-size:var(--text-sm)}.header-phone:hover{color:var(--rp-orange)}.hamburger{display:none;flex-direction:column;gap:5px;width:28px;cursor:pointer;background:0;border:0;padding:4px 0}.hamburger span{display:block;height:2px;background:var(--rp-blue);border-radius:2px;transition:all var(--duration-normal) var(--ease-default)}.nav-dropdown{position:relative}.nav-dropdown-trigger{display:inline-flex;align-items:center;gap:.3rem;background:0;border:0;cursor:pointer;font-family:var(--font-body);font-size:.9375rem;font-weight:500;color:var(--rp-gray);padding:0;transition:color .25s ease}.nav-dropdown-menu{position:absolute;top:100%;left:-1rem;width:max-content;min-width:300px;background:var(--rp-white);border-radius:var(--radius-md);box-shadow:var(--shadow-lg);padding:var(--space-sm) 0;opacity:0;visibility:hidden;transform:translateY(8px);transition:all var(--duration-normal) var(--ease-default);z-index:var(--z-dropdown)}
+.nav-dropdown:hover .nav-dropdown-menu,.nav-dropdown.active .nav-dropdown-menu{opacity:1;visibility:visible;transform:translateY(0)}.nav-dropdown-menu a{display:block;padding:var(--space-sm) var(--space-lg);font-size:var(--text-sm);color:var(--rp-gray)}.nav-dropdown-menu a:hover{background:var(--rp-light);color:var(--rp-blue)}.site-footer{background:var(--rp-dark);color:rgba(255,255,255,0.7);padding:var(--space-4xl) 0 var(--space-xl)}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:var(--space-3xl);margin-bottom:var(--space-3xl)}.footer-brand img{height:40px;margin-bottom:var(--space-lg)}.footer-brand p{font-size:var(--text-sm);line-height:1.7;color:rgba(255,255,255,0.6);max-width:300px}.footer-heading,.footer-col-title{font-family:var(--font-body);font-size:var(--text-sm);font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--rp-white);margin-bottom:var(--space-lg)}.footer-links{display:flex;flex-direction:column;gap:var(--space-sm)}.footer-links a{font-size:var(--text-sm);color:rgba(255,255,255,0.6);white-space:nowrap}
+.footer-links a:hover{color:var(--rp-orange)}.footer-social{display:flex;gap:var(--space-md);margin-top:var(--space-lg)}.footer-social a{width:40px;height:40px;border-radius:var(--radius-full);background:rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;transition:background var(--duration-fast) var(--ease-default)}.footer-social a:hover{background:var(--rp-orange)}.footer-social svg{width:18px;height:18px;fill:var(--rp-white)}.footer-bottom{border-top:1px solid rgba(255,255,255,0.1);padding-top:var(--space-xl);display:flex;justify-content:space-between;align-items:center;font-size:var(--text-xs)}.footer-bottom a{color:rgba(255,255,255,0.5)}.footer-bottom a:hover{color:var(--rp-orange)}@media(max-width:768px){.footer-grid{grid-template-columns:1fr;gap:var(--space-2xl)}.footer-bottom{flex-direction:column;gap:var(--space-md);text-align:center}}.founder-photo img,.provider-photo img{object-position:center 20%}.hero .btn-secondary,.cta-block .btn-secondary{border:2px solid var(--rp-white)}
+.skip-link{position:absolute;top:-40px;left:0;background:var(--rp-orange);color:var(--rp-white);padding:var(--space-sm) var(--space-md);z-index:var(--z-modal);font-weight:600;transition:top var(--duration-fast) var(--ease-default)}.skip-link:focus{top:0;color:var(--rp-white)}@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}.citation{font-size:var(--text-xs);color:var(--rp-blue-tint-50);vertical-align:super;text-decoration:none;font-weight:600}.citation:hover{color:var(--rp-orange)}sup.citation+sup.citation::before{content:", "}.references{margin-top:var(--space-3xl);padding-top:var(--space-xl);border-top:1px solid var(--rp-gray-tint-10)}.references h3{font-size:var(--text-base);margin-bottom:var(--space-md)}.references ol{list-style:decimal;padding-left:var(--space-xl)}.references li{font-size:var(--text-sm);color:var(--rp-gray);margin-bottom:var(--space-sm);line-height:1.6}.reveal{opacity:1;transform:none}[id]{scroll-margin-top:80px}
+.reveal-delay-1{transition-delay:.1s}.reveal-delay-2{transition-delay:.2s}.reveal-delay-3{transition-delay:.3s}.reveal-delay-4{transition-delay:.4s}.section-gradient{background:linear-gradient(180deg,var(--rp-light) 0,var(--rp-white) 100%)}.section-gradient-reverse{background:linear-gradient(180deg,var(--rp-white) 0,var(--rp-light) 100%)}.hero-service{padding:var(--space-5xl) 0 var(--space-4xl);min-height:70vh;display:flex;align-items:center}.hero-service .container{display:flex;align-items:center;gap:var(--space-3xl)}.hero-service .hero-content{max-width:680px;flex:1}.hero-service .hero-image{flex:0 0 475px;max-width:475px}.hero-service .hero-image img{width:100%;height:auto;border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);object-position:center 20%}.hero-service h1{font-size:var(--text-4xl);margin-bottom:var(--space-lg);line-height:1.12}.callout-box{background:var(--rp-orange-tint-10);border-left:4px solid var(--rp-orange);border-radius:0 var(--radius-md) var(--radius-md) 0;padding:var(--space-xl) var(--space-2xl);margin-top:var(--space-2xl);max-width:720px}
+.callout-box h3{color:var(--rp-blue);font-size:var(--text-lg);margin-bottom:var(--space-sm)}.evidence-card{background:var(--rp-white);border-left:4px solid var(--rp-blue);border-radius:0 var(--radius-md) var(--radius-md) 0;padding:var(--space-lg) var(--space-xl);box-shadow:var(--shadow-sm);transition:transform var(--duration-normal) var(--ease-default),box-shadow var(--duration-normal) var(--ease-default)}.evidence-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md)}.evidence-card .study-category{font-size:var(--text-xs);font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--rp-orange);margin-bottom:var(--space-xs)}.evidence-card h3{font-size:var(--text-base);margin-bottom:var(--space-xs)}.evidence-card .study-meta{font-size:var(--text-xs);color:var(--rp-gray-tint-25);font-style:italic;margin-bottom:var(--space-sm)}.evidence-card .key-finding{font-size:var(--text-sm);color:var(--rp-gray);line-height:1.6}.timeline{position:relative;padding-left:var(--space-3xl)}
+.timeline::before{content:'';position:absolute;left:15px;top:0;bottom:0;width:2px;background:var(--rp-orange-tint-25)}.timeline-step{position:relative;padding-bottom:var(--space-2xl)}.timeline-step:last-child{padding-bottom:0}.timeline-step::before{content:'';position:absolute;left:calc(-1 * var(--space-3xl) + 8px);top:4px;width:16px;height:16px;background:var(--rp-orange);border-radius:var(--radius-full);border:3px solid var(--rp-white);box-shadow:0 0 0 2px var(--rp-orange-tint-25)}.timeline-step h4{margin-bottom:var(--space-sm)}.timeline-step p{font-size:var(--text-sm);color:var(--rp-gray)}.cta-strip{text-align:center;padding:var(--space-4xl) var(--space-xl);display:flex;flex-direction:column;align-items:center}.cta-strip h2{margin-bottom:var(--space-md)}.cta-strip>p{margin:0 auto var(--space-xl);max-width:600px;font-size:var(--text-md)}.cta-strip .trust-line{margin-top:var(--space-xl);font-size:var(--text-sm);opacity:.7}
+.outcome-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-lg);margin:var(--space-2xl) 0}.outcome-stat{text-align:center;padding:var(--space-xl);background:var(--rp-white);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);transition:transform var(--duration-normal) var(--ease-spring),box-shadow var(--duration-normal) var(--ease-spring)}.outcome-stat:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}.outcome-stat .number{font-family:var(--font-display);font-size:var(--text-3xl);color:var(--rp-orange);line-height:1}.outcome-stat .label{font-size:var(--text-sm);color:var(--rp-gray);margin-top:var(--space-sm)}.agitation-card{background:var(--rp-white);border-radius:var(--radius-lg);padding:var(--space-2xl);box-shadow:var(--shadow-sm);border-top:3px solid var(--rp-error);transition:transform var(--duration-normal) var(--ease-default),box-shadow var(--duration-normal) var(--ease-default)}.agitation-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+.agitation-card .card-label{font-size:var(--text-xs);font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--rp-error);margin-bottom:var(--space-sm)}.agitation-card h3{font-size:var(--text-lg);margin-bottom:var(--space-md)}.agitation-card .comparison-row{display:flex;flex-direction:column;gap:0;font-size:var(--text-sm);margin-top:var(--space-lg);border-top:1px solid var(--rp-gray-tint-10);padding-top:var(--space-md)}.agitation-card .them,.agitation-card .us{padding:var(--space-sm) 0}.agitation-card .them{color:var(--rp-gray-tint-25)}.agitation-card .us{color:var(--rp-blue);font-weight:600}.condition-tags{display:flex;flex-wrap:wrap;gap:var(--space-sm);margin:var(--space-xl) 0}.condition-tag{display:inline-block;padding:.5rem 1.25rem;background:var(--rp-blue-10,var(--rp-blue-tint-10));color:var(--rp-blue);border-radius:var(--radius-full);font-size:var(--text-sm);font-weight:500;transition:all var(--duration-normal) var(--ease-spring)}.condition-tag:hover{background:var(--rp-orange-10,var(--rp-orange-tint-10));color:var(--rp-orange);text-decoration:none;transform:translateY(-2px)}
+.comparison-table{width:100%;border-collapse:collapse;margin:var(--space-2xl) 0;font-size:var(--text-sm)}.comparison-table th{background:var(--rp-blue);color:var(--rp-white);padding:var(--space-md) var(--space-lg);text-align:left;font-weight:600;white-space:nowrap}.comparison-table th.highlight{background:var(--rp-purple,#45234c);color:var(--rp-white)}.comparison-table td{padding:var(--space-md) var(--space-lg);border-bottom:1px solid var(--rp-gray-tint-10);vertical-align:top}.comparison-table tr:nth-child(even){background:var(--rp-light)}.comparison-table .highlight{background:var(--rp-orange-tint-10);font-weight:600}@media(max-width:1024px){.hero-service .hero-image{flex:0 0 300px;max-width:300px}.outcome-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:768px){.hero-service .container{flex-direction:column}.hero-service .hero-image{flex:none;max-width:100%;order:-1}.outcome-grid{grid-template-columns:repeat(2,1fr)}.comparison-table{font-size:var(--text-xs)}.comparison-table th,.comparison-table td{padding:var(--space-sm)}
+.agitation-card .comparison-row{flex-direction:column}}@media(max-width:480px){.outcome-grid{grid-template-columns:1fr}}@media(max-width:1024px){:root{--text-4xl:2.4375rem;--text-3xl:1.9375rem;--text-2xl:1.5625rem}.section{padding:var(--space-4xl) 0}}@media(max-width:768px){:root{--text-4xl:1.9375rem;--text-3xl:1.5625rem;--text-2xl:1.25rem;--text-xl:1.125rem;--gutter:1.25rem}.section{padding:var(--space-3xl) 0}.hero{padding:var(--space-3xl) 0 var(--space-2xl)}.mobile-header-actions{display:flex;align-items:center;gap:var(--space-sm);margin-left:auto;margin-right:var(--space-sm)}.mobile-header-phone{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:var(--radius-full);background:var(--rp-blue-10);color:var(--rp-blue);border:1px solid var(--rp-blue-tint-25)}.mobile-header-cta{display:inline-flex;align-items:center;padding:.5rem .875rem;background:var(--rp-orange);color:var(--rp-white);font-family:var(--font-body);font-size:var(--text-sm);font-weight:600;border-radius:var(--radius-md);text-decoration:none;white-space:nowrap}
+.header-nav{display:none}.header-nav.active{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:var(--rp-white);padding:var(--space-lg) var(--gutter);border-top:1px solid var(--rp-gray-tint-10);box-shadow:var(--shadow-lg)}.hamburger{display:flex}.trust-bar{gap:var(--space-lg)}.trust-bar-number{font-size:var(--text-xl)}.social-proof-stats{gap:var(--space-xl)}.badge-row img{height:36px}.cta-buttons{flex-direction:column;align-items:center}}@media(max-width:480px){:root{--text-4xl:1.5625rem;--text-3xl:1.25rem;--gutter:1rem}.btn{width:100%}.trust-bar{flex-direction:column;gap:var(--space-md)}}.text-center{text-align:center}.text-left{text-align:left}.text-right{text-align:right}.mx-auto{margin-left:auto;margin-right:auto}.mt-sm{margin-top:var(--space-sm)}.mt-md{margin-top:var(--space-md)}.mt-lg{margin-top:var(--space-lg)}.mt-xl{margin-top:var(--space-xl)}.mt-2xl{margin-top:var(--space-2xl)}.mb-sm{margin-bottom:var(--space-sm)}.mb-md{margin-bottom:var(--space-md)}
+.mb-lg{margin-bottom:var(--space-lg)}.mb-xl{margin-bottom:var(--space-xl)}.mb-2xl{margin-bottom:var(--space-2xl)}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.hidden{display:none}@media(max-width:768px){*,*::before,*::after{max-width:100%}.footer-grid{overflow-x:hidden;max-width:100%}.footer-grid>*{max-width:100%;box-sizing:border-box}.container{max-width:calc(100vw - 2rem)}}.section-cta-centered{text-align:center;padding-top:var(--space-3xl)}.section-cta-centered .hero-subtitle{font-family:var(--font-display);font-size:var(--text-2xl);color:var(--rp-white);margin-bottom:var(--space-md)}.section-cta-centered .hero-body{color:rgba(255,255,255,0.8);font-size:var(--text-md);margin-bottom:var(--space-xl)}.section-cta-centered .hero-disclaimer{font-size:var(--text-sm);color:rgba(255,255,255,0.6);margin-top:var(--space-lg)}.check-list{list-style:none;padding:0;margin:0 0 var(--space-xl) 0;display:flex;flex-direction:column;gap:var(--space-0-75)}
+.check-list li{position:relative;padding-left:1.75rem;line-height:var(--leading-normal);max-width:72ch}.check-list li::before{content:"\2713";position:absolute;left:0;color:var(--rp-orange);font-weight:700}.check-list--2col{display:grid;grid-template-columns:max-content max-content;gap:var(--space-xs) var(--space-4xl)}.check-list--2col li{break-inside:avoid}@media(max-width:768px){.check-list--2col{grid-template-columns:1fr}}.text-center p{margin-left:auto;margin-right:auto}.card h3{min-height:3.2em;font-size:var(--text-lg);line-height:1.35}.card .btn:last-child,.card a:last-child{margin-top:auto}.faq-question::-webkit-details-marker,.faq-question::marker{display:none;content:""}.faq-question::after{content:"";display:inline-block;width:10px;height:10px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);flex-shrink:0;margin-left:var(--space-md);transition:transform var(--duration-normal) var(--ease-default)}
+details[open]>.faq-question::after{transform:rotate(-135deg)}.reveal.visible.card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md)}.callout-box h2,.callout-box h3{color:var(--rp-blue);font-size:var(--text-lg);margin-bottom:var(--space-lg)}.callout-box h2{font-size:var(--text-xl)}.icon-card{display:flex;gap:var(--space-lg);align-items:flex-start;padding:var(--space-xl);background:var(--rp-white);border-radius:var(--radius-md);box-shadow:var(--shadow-sm);transition:transform var(--duration-normal) var(--ease-default),box-shadow var(--duration-normal) var(--ease-default)}.icon-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md)}.icon-card-icon{width:48px;height:48px;min-width:48px;border-radius:50%;background:var(--rp-orange);color:var(--rp-white);display:flex;align-items:center;justify-content:center;font-family:var(--font-body);font-weight:700;font-size:var(--text-md)}.icon-card-content h3{color:var(--rp-blue);font-size:var(--text-md);font-weight:600;margin-bottom:var(--space-xs)}
+.icon-card-content p{color:var(--rp-gray);line-height:1.7;margin:0}.icon-card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-lg)}.nav-sticky{position:sticky;top:0;z-index:1000;display:flex;align-items:center;justify-content:space-between;min-height:72px;padding:0 clamp(1rem,4vw,3rem);background:var(--rp-white);border-bottom:1px solid rgba(0,0,0,0.06);box-shadow:0 2px 12px rgba(0,0,0,0.08);transition:transform 0.3s ease;will-change:transform}.nav-logo img{height:44px;width:auto}.nav-desktop-links{display:flex;align-items:center;gap:var(--space-lg);list-style:none;margin:0;padding:0;flex-wrap:wrap;row-gap:0.5rem}.nav-item{position:relative;list-style:none}.nav-item>a{font-family:var(--font-body);font-size:.9375rem;font-weight:500;color:var(--rp-gray);text-decoration:none;letter-spacing:.02em;transition:color .25s ease}.nav-item>a:hover{color:var(--rp-orange)}.nav-dropdown-trigger:hover{color:var(--rp-orange)}.nav-dropdown-trigger svg{transition:transform .25s ease}.nav-item--has-dropdown .nav-dropdown{position:absolute;top:100%;left:-1rem;width:max-content;min-width:280px;background:var(--rp-white);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,0.1);padding:.5rem 0;opacity:0;visibility:hidden;transform:translateY(8px);transition:all .25s ease;z-index:1001;list-style:none;margin:0}
+.nav-item--has-dropdown:hover .nav-dropdown,.nav-item--has-dropdown.dropdown-open .nav-dropdown{opacity:1;visibility:visible;transform:translateY(0)}.nav-item--has-dropdown:hover .nav-dropdown-trigger svg,.nav-item--has-dropdown.dropdown-open .nav-dropdown-trigger svg{transform:rotate(180deg)}.nav-item--has-dropdown .nav-dropdown a{display:block;padding:.5rem 1.5rem;font-size:var(--text-sm);color:var(--rp-gray);text-decoration:none;white-space:nowrap;transition:background .15s ease,color .15s ease}.nav-item--has-dropdown .nav-dropdown a:hover{background:var(--rp-light);color:var(--rp-blue)}.nav-actions{display:flex;align-items:center;gap:var(--space-md)}.nav-phone{display:inline-flex;align-items:center;gap:.4rem;white-space:nowrap}.nav-hamburger{display:none;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:44px;height:44px;min-width:44px;min-height:44px;cursor:pointer;background:0;border:0;border-radius:6px;padding:0;z-index:1002;transition:background .2s ease}.nav-hamburger__line{display:block;height:2px;width:24px;background:var(--rp-blue);border-radius:2px;transition:all .3s ease}.nav-hamburger.active .nav-hamburger__line:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.nav-hamburger.active .nav-hamburger__line:nth-child(2){opacity:0}.nav-hamburger.active .nav-hamburger__line:nth-child(3){transform:translateY(-7px) rotate(-45deg)}.nav-mobile-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.4);z-index:998;opacity:0;visibility:hidden;transition:all .3s ease}.nav-mobile-overlay.active{opacity:1;visibility:visible}.nav-mobile-menu{position:fixed;top:0;right:-100%;width:300px;max-width:85vw;height:100vh;background:var(--rp-white);z-index:999;padding:1.5rem;display:flex;flex-direction:column;overflow-y:auto;transition:right .3s ease;box-shadow:-4px 0 24px rgba(0,0,0,0.1)}.nav-mobile-menu.active{right:0}.nav-mobile-menu a:not(.btn){display:flex;align-items:center;min-height:44px;padding:.5rem .75rem;font-family:var(--font-body);font-size:var(--text-sm);font-weight:500;color:var(--rp-gray);text-decoration:none;border-bottom:1px solid rgba(0,0,0,0.04);border-radius:6px;transition:background .15s ease,color .15s ease}.nav-mobile-menu a:not(.btn):hover,.nav-mobile-menu a:not(.btn):focus-visible{color:var(--rp-orange);background:var(--rp-blue-10)}.nav-mobile-section-label{font-family:var(--font-body);font-size:var(--text-xs);font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--rp-orange);padding:.75rem 0 .25rem;margin-bottom:0;border-bottom:0}
+.nav-mobile-close{display:flex;align-self:flex-end;margin-bottom:1rem}@media(min-width:1025px){.nav-mobile-menu{display:none}.nav-mobile-overlay{display:none}.nav-hamburger{display:none}}.hero-stat-bar{display:flex;gap:var(--space-2xl);margin-top:var(--space-xl);padding-top:var(--space-lg);border-top:1px solid var(--rp-white-15)}.hero-stat-item{text-align:center}.hero-stat-bar .stat-number{font-family:var(--font-display);font-size:var(--text-2xl);font-weight:700;color:var(--rp-orange);line-height:1}.hero-stat-bar .stat-label{font-size:var(--text-xs);color:var(--rp-white-70);text-transform:uppercase;letter-spacing:.08em;margin-top:var(--space-xs)}.cta-strip p{color:var(--rp-white-70);max-width:600px;margin:0 auto var(--space-xl)}.icon-pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-lg);margin-top:var(--space-2xl)}.icon-pillar{display:flex;flex-direction:column;align-items:center;text-align:center;padding:var(--space-xl) var(--space-lg);background:var(--rp-white);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);cursor:pointer;transition:transform var(--duration-normal) var(--ease-spring),box-shadow var(--duration-normal) var(--ease-spring)}
+.icon-pillar:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}.icon-pillar:active{transform:scale(0.97);transition-duration:var(--duration-fast)}.icon-pillar__icon{width:64px;height:64px;margin-bottom:var(--space-md)}.icon-pillar__icon img{width:100%;height:100%;object-fit:contain}.icon-pillar__label{font-family:var(--font-display);font-size:var(--text-sm);font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--rp-blue)}.service-card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-lg)}.service-card{display:flex;flex-direction:column;align-items:center;text-align:center;padding:var(--space-xl) var(--space-lg);background:var(--rp-white);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);transition:transform var(--duration-normal) var(--ease-spring),box-shadow var(--duration-normal) var(--ease-spring)}.service-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}.service-card__icon{width:56px;height:56px;margin-bottom:var(--space-md)}
+.service-card__icon img{width:100%;height:100%;object-fit:contain}.service-card__title{font-family:var(--font-body);font-size:var(--text-lg);font-weight:700;color:var(--rp-blue);margin-bottom:var(--space-sm)}.service-card__description{font-size:var(--text-sm);color:var(--rp-gray);line-height:var(--leading-normal)}.provider-card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:var(--space-xl)}.provider-card{display:flex;flex-direction:column;align-items:center;text-align:center;padding:var(--space-xl);background:var(--rp-white);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);transition:transform var(--duration-normal) var(--ease-spring),box-shadow var(--duration-normal) var(--ease-spring)}.provider-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}.provider-card__photo{width:180px;height:180px;border-radius:var(--radius-full);overflow:hidden;margin-bottom:var(--space-lg);box-shadow:var(--shadow-md)}.provider-card__photo img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.provider-card__name{font-family:var(--font-display);font-size:var(--text-lg);color:var(--rp-blue);margin-bottom:var(--space-xs)}.provider-card__role{font-size:var(--text-sm);font-weight:600;color:var(--rp-orange);margin-bottom:var(--space-sm)}.provider-card__specialties{font-size:var(--text-sm);color:var(--rp-gray);line-height:var(--leading-normal);margin-bottom:var(--space-lg)}.steps-banner{background:var(--rp-blue);color:var(--rp-white);padding:var(--space-5xl) 0}.steps-banner h2{color:var(--rp-white);text-align:center;margin-bottom:var(--space-3xl)}.steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-2xl);margin-bottom:var(--space-2xl)}.step-item{text-align:center;background:var(--rp-white);border-radius:var(--radius-md);padding:var(--space-2xl) var(--space-xl);box-shadow:var(--shadow-md);transition:transform .2s ease,box-shadow .2s ease}.step-item:hover{transform:translateY(-4px);box-shadow:0 0 20px rgba(255,255,255,0.25),0 8px 24px rgba(0,0,0,0.1)}.step-item__number{font-family:var(--font-display);font-size:var(--text-4xl);font-weight:700;color:var(--rp-orange);line-height:1;margin-bottom:var(--space-md)}
+.step-item__title{font-family:var(--font-body);font-size:var(--text-lg);font-weight:700;color:var(--rp-blue);margin-bottom:var(--space-sm)}.step-item__description{font-size:var(--text-sm);color:var(--rp-gray);line-height:var(--leading-normal);max-width:340px;margin:0 auto}.step-item__description ul{list-style:none;text-align:left;margin-top:var(--space-sm)}.step-item__description li{position:relative;padding-left:var(--space-lg);margin-bottom:var(--space-xs);color:var(--rp-gray)}.step-item__description li::before{content:'';position:absolute;left:0;top:.5em;width:8px;height:8px;background:var(--rp-orange);border-radius:var(--radius-full)}@media(max-width:768px){.steps-banner{padding:var(--space-3xl) 0}.steps-grid{grid-template-columns:1fr}.step-item{padding:var(--space-xl) var(--space-lg)}}.divider-spaced{width:60px;height:3px;background:var(--rp-orange);margin-top:var(--space-xl);margin-bottom:var(--space-xl)}.content-card{display:flex;flex-direction:column;background:var(--rp-white);border-radius:var(--radius-lg);padding:var(--space-xl);box-shadow:var(--shadow-sm);transition:transform var(--duration-normal) var(--ease-spring),box-shadow var(--duration-normal) var(--ease-spring)}
+.content-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}.content-card h3{color:var(--rp-blue);font-size:var(--text-lg);margin-bottom:var(--space-md)}.content-card p{font-size:var(--text-sm);color:var(--rp-gray);line-height:var(--leading-normal)}.treatment-card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--space-lg)}.treatment-card{display:flex;flex-direction:column;align-items:center;text-align:center;padding:var(--space-lg);background:var(--rp-white);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);overflow:hidden;transition:transform var(--duration-normal) var(--ease-spring),box-shadow var(--duration-normal) var(--ease-spring)}.treatment-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}.treatment-card__image{width:100%;aspect-ratio:4 / 3;overflow:hidden;border-radius:var(--radius-md);margin-bottom:var(--space-md)}.treatment-card__image img{width:100%;height:100%;object-fit:cover}.treatment-card__title{font-family:var(--font-body);font-size:var(--text-base);font-weight:700;color:var(--rp-blue)}
+.list-disc{list-style:disc;padding-left:var(--space-xl);display:grid;gap:var(--space-sm);margin-bottom:var(--space-xl)}.hero-provider .grid{align-items:center;gap:var(--space-3xl)}.hero-provider h1{font-size:var(--text-3xl)}.hero-provider .text-accent{font-size:var(--text-xl);color:rgba(255,255,255,0.85);margin-bottom:var(--space-xl)}.hero-provider .cta-buttons{margin-top:var(--space-xl);justify-content:flex-start}.provider-avatar{aspect-ratio:4 / 5;overflow:hidden;border-radius:var(--radius-lg);max-width:85%;margin:0 auto}.provider-avatar img{width:100%;height:100%;object-fit:cover;object-position:center top}.text-sm{font-size:var(--text-sm)}.text-xs{font-size:var(--text-xs)}.legal-content{font-size:var(--text-base);line-height:1.75}.legal-content h2{margin-top:var(--space-3xl);margin-bottom:var(--space-lg)}.legal-content p{margin-bottom:var(--space-md)}.legal-content ul{list-style:disc;padding-left:var(--space-xl);margin-bottom:var(--space-md)}.legal-content ol{list-style:decimal;padding-left:var(--space-xl);margin-bottom:var(--space-md)}
+.legal-content li{margin-bottom:var(--space-sm)}.hero-minimal{padding:var(--space-4xl) 0 var(--space-3xl)}.contact-info-card .icon{flex-shrink:0}.provider-option .specialty{font-size:var(--text-sm);color:var(--rp-gray)}.numbered-list{list-style:none}.numbered-list li{margin-bottom:var(--space-lg);display:flex;gap:var(--space-md)}.numbered-list li:last-child{margin-bottom:0}.numbered-list .num{color:var(--rp-orange);font-weight:700;flex-shrink:0}.numbered-list .title{font-weight:600}.numbered-list .desc{font-size:var(--text-sm);color:var(--rp-gray)}.hero-homepage .hero-image{flex:0 0 480px;max-width:480px}.treatment-icon-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-lg);margin-top:var(--space-2xl)}.treatment-icon-card{display:flex;flex-direction:column;align-items:center;text-align:center;padding:var(--space-xl) var(--space-md);border-radius:var(--radius-md);text-decoration:none;transition:transform var(--duration-normal) var(--ease-default),box-shadow var(--duration-normal) var(--ease-default),background var(--duration-normal) var(--ease-default)}
+.treatment-icon-card:hover{transform:translateY(-4px);background:var(--rp-white);box-shadow:var(--shadow-md)}.treatment-icon-card__icon{width:56px;height:56px;display:flex;align-items:center;justify-content:center;border-radius:var(--radius-full);background:var(--rp-blue-10);color:var(--rp-blue);margin-bottom:var(--space-md);transition:background var(--duration-normal) var(--ease-default),color var(--duration-normal) var(--ease-default)}.treatment-icon-card:hover .treatment-icon-card__icon{background:var(--rp-orange-10);color:var(--rp-orange)}.treatment-icon-card__title{font-size:var(--text-sm);font-weight:600;color:var(--rp-blue);line-height:var(--leading-snug)}@media(max-width:1024px){.treatment-icon-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:768px){.treatment-icon-grid{grid-template-columns:repeat(2,1fr);gap:var(--space-md)}}.cta-banner{background:var(--rp-blue);color:var(--rp-white);padding:var(--space-5xl) 0;text-align:center}.cta-banner__heading{font-family:var(--font-display);font-size:var(--text-3xl);color:var(--rp-white);margin-bottom:var(--space-md);max-width:20ch;margin-left:auto;margin-right:auto}
+.cta-banner__body{font-size:var(--text-md);color:rgba(255,255,255,0.85);max-width:50ch;margin:0 auto var(--space-2xl);line-height:var(--leading-relaxed)}.cta-banner__buttons{display:flex;gap:var(--space-md);justify-content:center;flex-wrap:wrap;margin-bottom:var(--space-lg)}.cta-banner .btn-ghost{color:var(--rp-white);border:2px solid var(--rp-white)}.cta-banner .btn-ghost:hover{background:rgba(255,255,255,0.12);color:var(--rp-white);border-color:var(--rp-white);transform:translateY(-2px);box-shadow:0 0 20px rgba(255,255,255,0.15)}.cta-banner__stat{font-size:var(--text-sm);color:var(--rp-orange);font-weight:600;margin-top:var(--space-md)}.cta-banner__note{font-size:var(--text-sm);color:rgba(255,255,255,0.7);margin-top:var(--space-sm)}@media(max-width:768px){.cta-banner__heading{font-size:var(--text-2xl)}.cta-banner__buttons{flex-direction:column;align-items:center}}.resources-lead{font-size:var(--text-md);color:rgba(255,255,255,0.85);line-height:var(--leading-relaxed);max-width:70ch;margin:0 auto var(--space-2xl);text-align:center}
+.provider-portrait{aspect-ratio:4 / 5;overflow:hidden;border-radius:var(--radius-lg);max-width:85%}.provider-portrait img{width:100%;height:100%;object-fit:cover;object-position:center top}.discovery-card+.discovery-card{margin-top:var(--space-3xl)}.discovery-card h3{margin-bottom:var(--space-xs)}.discovery-card p{margin-bottom:0}.booking-iframe{width:100%;max-width:100%;min-height:650px;border:0;display:block}@media(max-width:768px){.booking-iframe{min-height:900px}}.discovery-card iframe{margin-top:-20px;width:100%;max-width:100%}.supplement-product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-lg)}.supplement-product-grid .treatment-card{padding:var(--space-lg);text-align:center;text-decoration:none;color:inherit}.supplement-product-grid .treatment-card-full-width{grid-column:1 / -1;max-width:66%;margin:0 auto}.supplement-logo{max-height:60px;width:auto;margin:0 auto var(--space-md);display:block;object-fit:contain}.text-center-margin-reset{text-align:center;margin:0;font-size:var(--text-sm)}
+@media(max-width:768px){.supplement-product-grid{grid-template-columns:1fr}.supplement-product-grid .treatment-card-full-width{max-width:100%}}@media print{.site-header,.site-footer,.btn,.hamburger{display:none}.hero{background:0;color:var(--rp-gray);padding:var(--space-xl) 0}.hero h1{color:var(--rp-blue)}.section{padding:var(--space-xl) 0}body{font-size:12pt}}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--rp-orange);outline-offset:2px;border-radius:2px}@media(max-width:768px){.footer-links a{display:inline-flex;align-items:center;min-height:44px;padding:4px 0;white-space:normal}.check-list--2col li a{display:inline-flex;align-items:center;min-height:44px;padding:6px 0}}.heading-uppercase{text-transform:uppercase}.split-row{display:flex;gap:var(--space-2xl);align-items:flex-start;margin-bottom:var(--space-xl)}.split-row--stretch{align-items:stretch}.split-row__text{flex:1;min-width:0;max-width:60ch}
+.split-row__media{flex:0 0 460px}.split-row__media--stretch{align-self:stretch}.split-row__img{border-radius:var(--radius-lg);width:100%;object-fit:cover}.split-row__img--fill{height:100%}.split-row__img--capped{max-height:400px}@media(max-width:768px){.split-row{flex-direction:column}.split-row__media{flex:0 0 auto;width:100%}}.nav-logo{min-height:44px;display:inline-flex;align-items:center}.footer-phone{min-height:44px;display:inline-flex;align-items:center}.footer-links a{min-height:44px;min-width:44px;display:inline-flex;align-items:center}.btn-phone{display:inline-flex;align-items:center;justify-content:center;gap:.5rem}.check-list{row-gap:var(--space-sm)}.check-list li{margin-bottom:0}
+/* blog-references accordion: numbered list + bottom whitespace */
+.blog-references{margin-top:var(--space-4xl);padding:var(--space-3xl) 0 var(--space-4xl);border-top:1px solid var(--rp-gray-tint-10)}
+.blog-references > .container{padding-top:var(--space-md);padding-bottom:var(--space-md)}
+.blog-references summary{cursor:pointer;list-style:none}
+.blog-references summary::-webkit-details-marker{display:none}
+.blog-references summary svg{transition:transform .2s ease}
+.blog-references details[open] summary svg{transform:rotate(180deg)}
+.blog-references ol{list-style:decimal !important;padding-left:var(--space-xl);margin-top:var(--space-md);margin-bottom:0}
+.blog-references ol li{display:list-item}
+.blog-references li{margin-bottom:var(--space-sm);font-size:var(--text-sm);color:var(--rp-gray);line-height:1.6}
+.blog-references li:last-child{margin-bottom:0}
+.blog-references a{color:var(--rp-blue);text-decoration:underline}
+.blog-references a:hover{color:var(--rp-orange)}
+.step-list{list-style:none;padding:0;margin:var(--space-xl) 0 var(--space-2xl) 0}
+.step-list li{position:relative;padding-left:var(--space-xl);padding-bottom:var(--space-lg)}
+.step-list li:last-child{padding-bottom:0}
+.step-list li::before{content:'';position:absolute;left:-6px;top:.5em;width:10px;height:10px;background:var(--rp-orange);border-radius:50%;z-index:1}
+.step-list li::after{content:'';position:absolute;left:-2px;top:calc(.5em + 10px);bottom:-.5em;width:2px;background:var(--rp-orange-tint-25)}
+.step-list li:last-child::after{display:none}
+.step-list li strong{display:block;margin-bottom:var(--space-xs)}
+
+/* === Service-page canonical components (promoted 2026-04-28 from SGB v3) === */
+
+/* Hero subtitle + stat-bar polish */
+.hero .hero-subtitle{font-weight:600;color:var(--rp-white)}
+.hero .hero-stat-bar{justify-content:center}
+.hero .hero-stat-bar .hero-stat-item{flex:1 1 0;min-width:0}
+.hero .hero-stat-bar .stat-number{white-space:nowrap}
+
+/* Ghost button on dark surfaces (white-bordered + glow) */
+.hero .btn-ghost,.section-dark .btn-ghost{color:var(--rp-white);border:2px solid var(--rp-white);background:transparent}
+.hero .btn-ghost:hover,.section-dark .btn-ghost:hover{background:rgba(255,255,255,0.12);color:var(--rp-white);border-color:var(--rp-white);transform:translateY(-2px);box-shadow:0 0 20px rgba(255,255,255,0.15)}
+
+/* Inline links on dark surfaces (.hero, .section-dark): inherit text color + underline; buttons excluded */
+.hero p a:not(.btn),.section-dark p a:not(.btn){color:inherit;text-decoration:underline}
+.hero p a:not(.btn):hover,.section-dark p a:not(.btn):hover{color:var(--rp-orange)}
+
+/* CTA strip max-widths (same-element selector — no space) */
+.section-dark.cta-strip h2{max-width:900px;margin-left:auto;margin-right:auto}
+.section-dark.cta-strip p{max-width:900px}
+.section-dark.cta-strip .cta-buttons ~ p{max-width:600px}
+
+/* Pattern-list family — "Why Nothing Has Worked" PAS Agitation (replaces .agitation-card) */
+.pattern-list{display:grid;gap:0}
+.pattern-row{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-3xl);padding:var(--space-2xl) 0;border-bottom:1px solid rgba(0,0,0,0.08);align-items:center}
+.pattern-row:last-child{border-bottom:none}
+.pattern-row__story .pattern-tag{font-family:var(--font-display);font-size:var(--text-xs);font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--rp-orange);margin:0 0 var(--space-sm)}
+.pattern-row__story h3{color:var(--rp-blue);font-style:italic;margin:0 0 var(--space-md);font-size:var(--text-2xl)}
+.pattern-row__story p{margin:0;line-height:1.7}
+.pattern-row__compare{display:grid;gap:var(--space-md)}
+.compare-line{padding:var(--space-md) var(--space-lg);border-radius:var(--radius-md);font-size:var(--text-sm);line-height:1.5}
+.compare-line--typical{background:rgba(0,0,0,0.04);border-left:3px solid rgba(0,0,0,0.25);color:var(--rp-gray)}
+.compare-line--rp{background:rgba(39,71,94,0.06);border-left:3px solid var(--rp-orange);color:var(--rp-blue);font-weight:600}
+.compare-line .lbl{display:block;font-family:var(--font-display);font-size:var(--text-xs);font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:var(--space-xs);opacity:0.7}
+@media(max-width:768px){.pattern-row{grid-template-columns:1fr;gap:var(--space-lg)}}
+
+/* Merged-grid family — "Outcome + Research" combined (collapses prior §5 + §11) */
+.merged-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-3xl);margin-top:var(--space-3xl);align-items:start}
+.stats-2x2{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-md)}
+.stats-2x2 .stat-card{padding:var(--space-xl);background:var(--rp-white);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);text-align:center;transition:transform var(--duration-normal) var(--ease-spring),box-shadow var(--duration-normal) var(--ease-spring)}
+.stats-2x2 .stat-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
+.stats-2x2 .stat-card__number{font-family:var(--font-display);font-size:var(--text-3xl);color:var(--rp-orange);line-height:1;font-weight:700}
+.stats-2x2 .stat-card__label{font-size:var(--text-sm);color:var(--rp-gray);margin-top:var(--space-sm);line-height:1.4}
+.merged-grid .narrative > p{line-height:1.7;margin:0 0 var(--space-md)}
+.merged-grid .narrative > p:last-child{margin:0}
+.study-list{margin-top:var(--space-3xl);padding-top:var(--space-2xl);border-top:2px solid var(--rp-orange-tint-25,#f0d8ad)}
+.study-list h3{color:var(--rp-blue);margin:0 0 var(--space-lg);font-size:var(--text-lg)}
+.study-row{display:grid;grid-template-columns:200px 1fr;gap:var(--space-2xl);padding:var(--space-md) 0;border-bottom:1px solid rgba(0,0,0,0.06);align-items:baseline}
+.study-row:last-child{border-bottom:none}
+.study-row .study-meta{font-size:var(--text-xs);color:var(--rp-blue);font-weight:600}
+.study-row .study-meta em{display:block;font-style:italic;color:var(--rp-gray-tint-50,#888);margin-top:4px;font-weight:400}
+.study-row .study-finding{font-size:var(--text-sm);line-height:1.6;color:var(--rp-gray)}
+.study-row .study-finding a{color:var(--rp-blue);text-decoration:underline}
+.outcome-disclaimer{font-size:var(--text-xs);color:var(--rp-gray);line-height:1.6;max-width:none;margin:var(--space-2xl) 0 0;padding:var(--space-md) var(--space-lg);border-left:3px solid var(--rp-blue-tint-25,#b3c0cb);background:rgba(0,0,0,0.02);border-radius:0 var(--radius-sm) var(--radius-sm) 0}
+@media(max-width:768px){.merged-grid{grid-template-columns:1fr;gap:var(--space-2xl)}.study-row{grid-template-columns:1fr;gap:var(--space-xs)}}
+
+/* Split-row stretch modifier (image-fill cropping) */
+@media(min-width:769px){.split-row--stretch .split-row__media{position:relative}.split-row--stretch .split-row__img--fill{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}}
+
+/* Vertical timeline family — "What to Expect" journey */
+.vt-timeline{list-style:none;margin:var(--space-2xl) 0 0;padding:0 0 28px;position:relative}
+.vt-timeline::before{content:'';position:absolute;left:19px;top:8px;bottom:18px;width:2px;background:var(--rp-orange-tint-25)}
+.vt-timeline::after{content:'';position:absolute;left:14px;bottom:8px;width:0;height:0;border-left:6px solid transparent;border-right:6px solid transparent;border-top:10px solid var(--rp-orange-tint-25)}
+.vt-step{position:relative;padding-left:64px;padding-bottom:var(--space-2xl)}
+.vt-step:last-child{padding-bottom:0}
+.vt-step__badge{position:absolute;left:0;top:0;width:40px;height:40px;border-radius:50%;background:var(--rp-orange);color:var(--rp-white);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:var(--text-lg);font-weight:700;box-shadow:0 0 0 4px var(--rp-white),0 0 0 6px var(--rp-orange-tint-25);z-index:1}
+.vt-step__title{font-family:var(--font-body);font-size:var(--text-xl);font-weight:700;color:var(--rp-blue);margin:6px 0 var(--space-sm)}
+.vt-step__description{font-size:var(--text-base);color:var(--rp-gray);line-height:1.65;max-width:none;margin:0}
+
+/* Native HTML5 details FAQ — show rule for [open] state */
+details[open]>.faq-answer{max-height:1500px;padding-bottom:var(--space-lg)}
+
+/* Tab nav family with progressive enhancement (crawlers see all panels stacked) */
+.tab-nav{display:none;gap:4px;border-bottom:2px solid var(--rp-gray-tint-10);margin-bottom:var(--space-xl)}
+.tab-btn{background:transparent;border:0;padding:var(--space-md) var(--space-xl);font-family:var(--font-body);font-size:var(--text-md);font-weight:600;color:var(--rp-gray);cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px;transition:all .15s ease}
+.tab-btn.is-active{color:var(--rp-blue);border-bottom-color:var(--rp-orange)}
+.tab-btn:hover:not(.is-active){color:var(--rp-blue)}
+.tab-panel{display:block;margin-bottom:var(--space-2xl)}
+.tab-panel:last-of-type{margin-bottom:0}
+.tab-panel h3{margin-top:0}
+.tabs-js .tab-nav{display:flex}
+.tabs-js .tab-panel{display:none;margin-bottom:0}
+.tabs-js .tab-panel.is-active{display:block}
+
+/* Comparison table Variant A polish — overrides + augments base .comparison-table */
+.comparison-table thead th:first-child{width:22%}
+.comparison-table thead th:nth-child(2){width:36%}
+.comparison-table thead th:nth-child(3){width:42%;background:#1d3a4d}
+.comparison-table tbody td{padding:var(--space-lg);line-height:1.6}
+.comparison-table tbody td:first-child{font-weight:700;color:var(--rp-blue);font-family:var(--font-display);font-size:var(--text-base)}
+.comparison-table tbody td:nth-child(2){color:#6b7280}
+.comparison-table tbody td:nth-child(3){color:var(--rp-gray);background:rgba(232,122,65,.04);border-left:3px solid var(--rp-orange)}
+.comparison-table tbody tr:nth-child(even){background:transparent}
+.comparison-table tbody tr:last-child td{border-bottom:none}
+@media(max-width:768px){.comparison-table tbody td{padding:var(--space-sm)}.comparison-table tbody td:first-child{font-size:var(--text-sm)}}
+
+/* Section--applications modifier — category-accent card-row grid (2, 3, or 9 cards).
+   Canonical card-row alignment pattern: equal-height cards via grid stretch + flex
+   column, body paragraph fills slack with flex-grow + padding-bottom, last paragraph
+   ("Best for:") anchors to the card bottom via margin-top:auto. The hairline divider
+   above the last paragraph reads symmetric (16 px above, 16 px below) regardless of
+   body length, so long as h3 line counts and best-for line counts are uniform within
+   the row (content-discipline rule, see service-page-design-catalog.md). */
+.section--applications .card{display:flex;flex-direction:column;border-top:4px solid var(--rp-orange);transition:transform .2s ease,box-shadow .2s ease}
+.section--applications .grid-2 .card:nth-child(2){border-top-color:var(--rp-blue)}
+.section--applications .card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.07)}
+.section--applications .card .text-label{color:var(--rp-orange)}
+.section--applications .grid-2 .card:nth-child(2) .text-label{color:var(--rp-blue)}
+/* Override the global .card h3 min-height inside applications cards — short titles
+   in 1-2 lines otherwise leave 30-50 px of empty space inside the h3 box. Within
+   a row, content-discipline keeps h3 line counts uniform without needing min-height. */
+.section--applications .card h3{min-height:0;margin-bottom:var(--space-md)}
+/* Body paragraph fills card height; padding-bottom puts 16 px breathing room INSIDE
+   the body box at the bottom — that becomes whitespace ABOVE the in-card divider
+   (border-top on the Best-for paragraph). 16 px below the divider already comes from
+   the Best-for paragraph's own padding-top, so the rule reads symmetric. */
+.section--applications .card p:nth-last-child(2){margin-bottom:0;flex-grow:1;padding-bottom:var(--space-md)}
+/* Best-for paragraph anchored to card bottom via margin-top:auto (overrides the
+   var(--space-md) margin-top below, which is harmless when flex pulls it to bottom). */
+.section--applications .card p:last-child{margin-top:auto;padding-top:var(--space-md);border-top:1px solid var(--rp-gray-tint-25);font-size:var(--text-sm)}
+
+/* Page-references — service-page references variant (no margin-top, no border-top, no section divider) */
+.page-references{padding:var(--space-3xl) 0 var(--space-4xl)}
+.page-references summary{cursor:pointer;list-style:none}
+.page-references summary::-webkit-details-marker{display:none}
+.page-references summary svg{transition:transform .2s ease}
+.page-references details[open] summary svg{transform:rotate(180deg)}
+.page-references ol{list-style:decimal !important;padding-left:var(--space-xl);margin-top:var(--space-md);margin-bottom:0}
+.page-references ol li{display:list-item;margin-bottom:var(--space-sm);font-size:var(--text-sm);color:var(--rp-gray);line-height:1.6}
+.page-references ol li:last-child{margin-bottom:0}
+.page-references a{color:var(--rp-blue);text-decoration:underline}
+.page-references a:hover{color:var(--rp-orange)}
+
+/* Testimonial — canonical Google review card pattern (locked 2026-04-28) */
+/* Pattern: <p .testimonial-text>quote</p><p .testimonial-author>Name <span .testimonial-stars>★★★★★</span></p><p .testimonial-source>Verified Google review</p> */
+.testimonial .testimonial-source{display:block;margin-top:var(--space-xs);padding-left:var(--space-md)}
+.testimonial .testimonial-author{margin-bottom:0}
+.testimonial .testimonial-stars{color:var(--rp-orange);margin-left:.25em}
+
+/* Medical disclaimer — subtle gray legal/compliance pattern (Rule V) */
+.medical-disclaimer{margin:0 0 1.5rem;padding:1rem 1.25rem;border-left:3px solid var(--rp-gray-tint-10,#e0e0e0);font-size:0.85rem;color:#666;line-height:1.5}
+.medical-disclaimer p{margin:0}
+
+/* === Promoted from blog-template.css (CSS consolidation 2026-05-02) === */
+.blog-article :is(h2, h3)[id], .blog-related h2[id], [id="faq"]{scroll-margin-top:100px}
+@keyframes blog-progress{to { transform:scalex(1);}}
+@keyframes blog-img-fade-in{from { opacity:0;} to { opacity:1;}}
+.cta-block .btn-ghost, .blog-cta-inline .btn-ghost{background:transparent;color:var(--rp-white,#ffffff);border:2px solid var(--rp-white,#ffffff);text-decoration:none;font-weight:600;transition:background 0.2s ease,box-shadow 0.2s ease,transform 0.2s ease,border-color 0.2s ease}
+.cta-block .btn-ghost:hover, .cta-block .btn-ghost:focus-visible, .blog-cta-inline .btn-ghost:hover, .blog-cta-inline .btn-ghost:focus-visible{background:rgba(255,255,255,0.12);color:var(--rp-white,#ffffff);border-color:var(--rp-white,#ffffff);transform:translatey(-2px);box-shadow:0 0 20px rgba(255,255,255,0.15)}
+.nav-item--has-dropdown:focus-within .nav-dropdown{opacity:1;visibility:visible;transform:translatey(0)}
+.nav-item--has-dropdown:focus-within .nav-dropdown-trigger svg{transform:rotate(180deg)}
+.nav-hamburger:hover,.nav-hamburger:focus-visible{background:var(--rp-blue-10);outline:0}
+.nav-mobile-actions{display:none;align-items:center;gap:.25rem}
+.nav-mobile-phone{display:flex;align-items:center;justify-content:center;width:44px;height:44px;min-width:44px;min-height:44px;border-radius:6px;color:var(--rp-blue);text-decoration:none;transition:background .2s ease,color .2s ease}
+.nav-mobile-phone:hover,.nav-mobile-phone:focus-visible{background:var(--rp-blue-10);color:var(--rp-orange);outline:0}
+
+/* === Smart-sticky (hide on scroll-down, reveal on scroll-up) === */
+.nav-sticky.nav-hidden{transform:translateY(-100%) !important}
+header[data-component="header"]{display:contents}
+@media(max-width:480px){.mobile-header-actions{display:none !important}}
+
+
+/* === Shared chrome print hide (from blog-template @media print split) === */
+@media print{.nav-sticky,.cta-block{display:none !important}}
+
+/* === Component overrides restored after CSS consolidation 2026-05-02 === */
+/* These rules lived only in per-page <style> snapshots and were lost when
+   the inlined design-system block was full-replaced. Promoted to source. */
+.nav-mobile-menu{display:none}
+.nav-mobile-menu .btn{display:flex!important;width:100%!important;max-width:100%!important;box-sizing:border-box!important;justify-content:center!important;align-items:center!important;gap:0.5rem!important}
+.nav-mobile-menu a:not(.btn){display:block;padding:.6rem 0;font-family:var(--font-body);font-size:var(--text-sm);font-weight:500;color:var(--rp-gray);text-decoration:none;border-bottom:1px solid rgba(0,0,0,0.04)}
+.callout-box{background:var(--rp-orange-tint-10);border-left:4px solid var(--rp-orange);border-radius:0 var(--radius-md) var(--radius-md) 0;padding:var(--space-xl) var(--space-2xl);margin-top:var(--space-2xl);max-width:100%;width:100%}
+.divider{width:60px;height:3px;background:var(--rp-orange);margin-top:var(--space-xl);margin-bottom:var(--space-xl)}
+.testimonial:hover{transform:translateY(-2px) !important;box-shadow:var(--shadow-md) !important}
+.key-facts li strong{color:var(--rp-blue);min-width:100px;flex-shrink:0}
+.check-list li::before{content:"✓";position:absolute;left:0;color:var(--rp-orange);font-weight:700}
+.key-facts{background:var(--rp-light);border-left:4px solid var(--rp-orange);border-radius:0 var(--radius-md) var(--radius-md) 0;padding:var(--space-xl) var(--space-2xl);margin:var(--space-2xl) 0}
+.key-facts h3{font-family:var(--font-display);font-size:var(--text-lg);color:var(--rp-blue);margin-bottom:var(--space-lg)}
+.divider{width:60px;height:3px;background:var(--rp-orange);margin-top:var(--space-xl);margin-bottom:var(--space-xl)}
+.key-facts ul{display:grid;gap:var(--space-md)}
+.key-facts li{display:flex;gap:var(--space-md);align-items:flex-start;line-height:1.6}
+</style>
+  <!--nav:inlined--><style>.nav-sticky{position:sticky;top:0;z-index:1000;display:flex;align-items:center;justify-content:space-between;min-height:72px;padding:0 clamp(1rem,4vw,3rem);background:var(--rp-white);border-bottom:1px solid rgba(0,0,0,0.06);box-shadow:0 2px 12px rgba(0,0,0,0.08)}.nav-logo img{height:44px;width:auto}.nav-desktop-links{display:flex;align-items:center;gap:var(--space-lg);list-style:none;margin:0;padding:0}.nav-item{position:relative;list-style:none}.nav-item>a{font-family:var(--font-body);font-size:.9375rem;font-weight:500;color:var(--rp-gray);text-decoration:none;letter-spacing:.02em;transition:color .25s ease}.nav-item>a:hover{color:var(--rp-orange)}.nav-dropdown-trigger{display:inline-flex;align-items:center;gap:.3rem;background:0;border:0;cursor:pointer;font-family:var(--font-body);font-size:.9375rem;font-weight:500;color:var(--rp-gray);padding:0;transition:color .25s ease}.nav-dropdown-trigger:hover{color:var(--rp-orange)}.nav-dropdown-trigger svg{transition:transform .25s ease}.nav-item--has-dropdown .nav-dropdown{position:absolute;top:100%;left:-1rem;width:max-content;min-width:280px;background:var(--rp-white);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,0.1);padding:.5rem 0;opacity:0;visibility:hidden;transform:translateY(8px);transition:all .25s ease;z-index:1001;list-style:none;margin:0}
+.nav-item--has-dropdown:hover .nav-dropdown,.nav-item--has-dropdown.dropdown-open .nav-dropdown{opacity:1;visibility:visible;transform:translateY(0)}.nav-item--has-dropdown:hover .nav-dropdown-trigger svg,.nav-item--has-dropdown.dropdown-open .nav-dropdown-trigger svg{transform:rotate(180deg)}.nav-item--has-dropdown .nav-dropdown a{display:block;padding:.5rem 1.5rem;font-size:var(--text-sm);color:var(--rp-gray);text-decoration:none;white-space:nowrap;transition:background .15s ease,color .15s ease}.nav-item--has-dropdown .nav-dropdown a:hover{background:var(--rp-light);color:var(--rp-blue)}.nav-actions{display:flex;align-items:center;gap:var(--space-md)}.nav-phone{display:inline-flex;align-items:center;gap:.4rem;white-space:nowrap}.nav-hamburger{display:none;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:44px;height:44px;min-width:44px;min-height:44px;cursor:pointer;background:0;border:0;border-radius:6px;padding:0;z-index:1002;transition:background .2s ease}
+.nav-hamburger:hover,.nav-hamburger:focus-visible{background:var(--rp-blue-10);outline:0}.nav-hamburger__bar-area{width:24px;display:flex;flex-direction:column;gap:5px}.nav-hamburger__line{display:block;height:2px;width:24px;background:var(--rp-blue);border-radius:2px;transition:all .3s ease}.nav-hamburger.active .nav-hamburger__line:nth-child(1){transform:translateY(7px) rotate(45deg)}.nav-hamburger.active .nav-hamburger__line:nth-child(2){opacity:0}.nav-hamburger.active .nav-hamburger__line:nth-child(3){transform:translateY(-7px) rotate(-45deg)}.nav-mobile-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.4);z-index:998;opacity:0;visibility:hidden;transition:all .3s ease}.nav-mobile-overlay.active{opacity:1;visibility:visible}.nav-mobile-menu{position:fixed;top:0;right:-100%;width:300px;max-width:85vw;height:100dvh;min-height:100dvh;background:var(--rp-white);z-index:999;padding:1.5rem 1.5rem max(1.5rem, env(safe-area-inset-bottom)) 1.5rem;box-sizing:border-box;display:flex;flex-direction:column;overflow-y:auto;transition:right .3s ease;box-shadow:-4px 0 24px rgba(0,0,0,0.1)}
+.nav-mobile-menu.active{right:0}.nav-mobile-menu a:not(.btn){display:flex;align-items:center;min-height:44px;padding:.5rem .75rem;font-family:var(--font-body);font-size:var(--text-sm);font-weight:500;color:var(--rp-gray);text-decoration:none;border-bottom:1px solid rgba(0,0,0,0.04);border-radius:6px;transition:background .15s ease,color .15s ease}.nav-mobile-menu a:hover,.nav-mobile-menu a:focus-visible{background:var(--rp-blue-10)}.nav-mobile-menu a:hover{color:var(--rp-orange)}.nav-mobile-section-label{font-family:var(--font-body);font-size:var(--text-xs);font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--rp-orange);padding:.75rem 0 .25rem;margin-bottom:0;border-bottom:0}.nav-mobile-close{display:flex;align-self:flex-end;margin-bottom:1rem}.nav-mobile-actions{display:none;align-items:center;gap:.25rem}.nav-mobile-phone{display:flex;align-items:center;justify-content:center;width:44px;height:44px;min-width:44px;min-height:44px;border-radius:6px;color:var(--rp-blue);text-decoration:none;transition:background .2s ease,color .2s ease}
+.nav-mobile-phone:hover,.nav-mobile-phone:focus-visible{background:var(--rp-blue-10);color:var(--rp-orange);outline:0}@media(max-width:1024px){.nav-desktop-links{display:none}.nav-actions{display:none}.nav-mobile-actions{display:flex}.nav-hamburger{display:flex}.nav-logo img{height:36px}.nav-sticky{padding:0 var(--space-md);min-height:72px}}@media(min-width:1025px){.nav-mobile-menu{display:none}.nav-mobile-overlay{display:none}.nav-hamburger{display:none}.nav-mobile-actions{display:none}}</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Professional-Grade Supplement Protocols",
+  "procedureType": "TherapeuticProcedure",
+  "url": "https://regenerativeperformance.com/supplements/",
+  "availableService": {
+    "@type": "MedicalClinic",
+    "name": "Regenerative Performance",
+    "url": "https://regenerativeperformance.com",
+    "telephone": "+1-480-508-4226",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "726 N Greenfield Rd, STE 101",
+      "addressLocality": "Gilbert",
+      "addressRegion": "AZ",
+      "postalCode": "85234",
+      "addressCountry": "US"
+    }
+  },
+  "performer": [
+    {
+      "@type": "Physician",
+      "@id": "https://regenerativeperformance.com/dr-drew-timmermans/#physician"
+    },
+    {
+      "@type": "Physician",
+      "@id": "https://regenerativeperformance.com/dr-kaitlyn-myers/#physician"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://regenerativeperformance.com/supplements/",
+      "url": "https://regenerativeperformance.com/supplements/",
+      "name": "Supplements Gilbert AZ - Regenerative Performance",
+      "isPartOf": {
+        "@id": "https://regenerativeperformance.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://regenerativeperformance.com/supplements/#primaryimage"
+      },
+      "image": {
+        "@id": "https://regenerativeperformance.com/supplements/#primaryimage"
+      },
+      "thumbnailUrl": "/images/logos/Fillscript-logo.webp",
+      "datePublished": "2024-12-12T16:31:54+00:00",
+      "dateModified": "2026-02-09T22:03:30+00:00",
+      "description": "Discover high-quality supplements at Regenerative Performance in Gilbert, AZ, designed to support your health and wellness goals. Explore our range today!",
+      "breadcrumb": {
+        "@id": "https://regenerativeperformance.com/supplements/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://regenerativeperformance.com/supplements/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://regenerativeperformance.com/supplements/#primaryimage",
+      "url": "/images/logos/Fillscript-logo.webp",
+      "contentUrl": "/images/logos/Fillscript-logo.webp",
+      "width": 359,
+      "height": 122,
+      "caption": "Fillscript logo"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://regenerativeperformance.com/supplements/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://regenerativeperformance.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Supplements"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://regenerativeperformance.com/#website",
+      "url": "https://regenerativeperformance.com/",
+      "name": "Regenerative Performance: Leading Naturopathic &amp; Integrative Health Clinic in Gilbert, AZ",
+      "description": "Treating the Root, Restoring Health - Comprehensive Natural Medicine for Pain, Hormone, and Chronic Illness",
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://regenerativeperformance.com/?s={search_term_string}"
+          },
+          "query-input": {
+            "@type": "PropertyValueSpecification",
+            "valueRequired": true,
+            "valueName": "search_term_string"
+          }
+        }
+      ],
+      "inLanguage": "en-US"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Regenerative Performance",
+  "image": "/images/logos/colorlogoblackwords.png",
+  "url": "https://regenerativeperformance.com/",
+  "telephone": "(480) 508-4226",
+  "priceRange": "$$$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "726 N Greenfield Rd STE 101",
+    "addressLocality": "Gilbert",
+    "addressRegion": "AZ",
+    "postalCode": "85234",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 33.3635555,
+    "longitude": -111.7399297
+  },
+  "sameAs": [
+    "https://www.facebook.com/drkaitlynmyers",
+    "https://www.instagram.com/drkaitlynmyers/",
+    "https://www.linkedin.com/company/regenerative-performance/about/",
+    "https://www.tiktok.com/@drkaitlyn"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "Regenerative Performance",
+  "url": "https://regenerativeperformance.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://regenerativeperformance.com/{search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<!--INLINE:tracking-->
+<!-- Google Analytics 4: G-J8GQHSTFLX -->
+<!-- Analytics: first-interaction gate (loads GA4 + Clarity after first user interaction for LCP/TBT) -->
+<script>
+(function(){
+  var loaded=false;
+  function load(){
+    if(loaded)return; loaded=true;
+    var s=document.createElement('script');
+    s.async=true; s.src='https://www.googletagmanager.com/gtag/js?id=G-J8GQHSTFLX';
+    document.head.appendChild(s);
+    window.dataLayer=window.dataLayer||[];
+    window.gtag=function(){dataLayer.push(arguments);};
+    gtag('js', new Date()); gtag('config','G-J8GQHSTFLX');
+    (function(c,l,a,r,i){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      var t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;
+      var y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window,document,'clarity','script','w1cqgxzhja');
+  }
+  var evts=['pointerdown','keydown','scroll','touchstart'];
+  evts.forEach(function(e){window.addEventListener(e,load,{once:true,passive:true});});
+})();
+</script>
+<!--/INLINE:tracking-->
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header data-component="header">
+<!--INLINE:header-->
+<!-- ============================================================
+     Header Component — Regenerative Performance Phase 1 v2
+     Source: shared-components.json nav_links (21 items)
+     Classes: nav.css (UI kit) + design-system.css tokens
+     Lessons applied:
+       - Dropdown min-width: fit longest item on one line (white-space: nowrap)
+       - Phone icon and number: inline-flex on same line
+     ============================================================ -->
+
+<!-- Mobile overlay (behind slide-out menu) -->
+<div class="nav-mobile-overlay" aria-hidden="true"></div>
+
+<!-- Sticky nav -->
+<nav class="nav-sticky" role="navigation" aria-label="Main">
+
+  <!-- Logo -->
+  <a href="/" class="nav-logo" aria-label="Regenerative Performance — Home">
+    <img
+      src="/images/logo-color-black-words-optimized-400.webp"
+      srcset="/images/logo-color-black-words-optimized-400.webp 1x, /images/logo-color-black-words-optimized.webp 2x"
+      alt="Regenerative Performance"
+      width="200"
+      height="48"
+      loading="eager"
+    />
+  </a>
+
+  <!-- Desktop links -->
+  <ul class="nav-desktop-links" role="list">
+
+    <!-- Services dropdown -->
+    <li class="nav-item nav-item--has-dropdown">
+      <button
+        class="nav-dropdown-trigger"
+        data-dropdown-trigger
+        aria-expanded="false"
+        aria-haspopup="true"
+      >
+        Services
+        <svg width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true">
+          <path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav-dropdown" role="list">
+        <li><a href="/stem-cell-therapy/">Stem Cell Therapy</a></li>
+        <li><a href="/prp-therapy/">Platelet-Rich Plasma (PRP)</a></li>
+        <li><a href="/nerve-hydrodissection/">Nerve Hydrodissection</a></li>
+        <li><a href="/prolotherapy/">Prolotherapy</a></li>
+        <li><a href="/perineural-injection-therapy/">Perineural Injection Therapy</a></li>
+        <li><a href="/chronic-pain-management/">Chronic Pain Management</a></li>
+        <li><a href="/hormone-therapy/">Hormone Therapy</a></li>
+        <li><a href="/iv-therapy/">IV Therapy</a></li>
+        <li><a href="/peptide-therapy/">Peptide Therapy</a></li>
+        <li><a href="/comprehensive-lab-tests/">Comprehensive Lab Tests</a></li>
+        <li><a href="/hyperbaric-oxygen-therapy/">Hyperbaric Oxygen Therapy</a></li>
+        <li><a href="/low-level-light-therapy/">Low Level Light Therapy</a></li>
+        <li><a href="/stellate-ganglion-block/">Stellate Ganglion Block</a></li>
+        <li><a href="/neurofeedback/">Neurofeedback</a></li>
+      </ul>
+    </li>
+
+    <!-- About dropdown -->
+    <li class="nav-item nav-item--has-dropdown">
+      <button
+        class="nav-dropdown-trigger"
+        data-dropdown-trigger
+        aria-expanded="false"
+        aria-haspopup="true"
+      >
+        About
+        <svg width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true">
+          <path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav-dropdown" role="list">
+        <li><a href="/our-clinic/">Our Clinic</a></li>
+        <li><a href="/dr-drew-timmermans/">Dr. Timmermans</a></li>
+        <li><a href="/dr-kaitlyn-myers/">Dr. Myers</a></li>
+        <li><a href="/dr-jack-meister/">Dr. Meister</a></li>
+      </ul>
+    </li>
+
+    <!-- Supplements (standalone link) -->
+    <li class="nav-item">
+      <a href="/supplements/">Supplements</a>
+    </li>
+
+    <!-- Resources dropdown -->
+    <li class="nav-item nav-item--has-dropdown">
+      <button
+        class="nav-dropdown-trigger"
+        data-dropdown-trigger
+        aria-expanded="false"
+        aria-haspopup="true"
+      >
+        Resources
+        <svg width="12" height="8" viewBox="0 0 12 8" fill="none" aria-hidden="true">
+          <path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="nav-dropdown" role="list">
+        <li><a href="https://www.amazon.com/shop/regenerativeperformance" target="_blank" rel="noopener noreferrer">Dr. T's Resources</a></li>
+      </ul>
+    </li>
+
+    <!-- Blog -->
+    <li class="nav-item">
+      <a href="/blog/">Blog</a>
+    </li>
+
+    <!-- Patient Login -->
+    <li class="nav-item">
+      <a href="https://www.power2patient.net/pui/identity/login" target="_blank" rel="noopener noreferrer">
+        Patient Login
+      </a>
+    </li>
+
+  </ul><!-- /.nav-desktop-links -->
+
+  <!-- Phone + CTA (desktop) -->
+  <div class="nav-actions">
+    <a
+      href="tel:+14805084226"
+      class="nav-phone btn btn-phone btn-sm"
+      aria-label="Call us at (480) 508-4226"
+    >
+      <!-- Phone icon -->
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0;">
+        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.79a16 16 0 006.29 6.29l1.16-1.16a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+      </svg>
+      <span>(480) 508-4226</span>
+    </a>
+    <a href="/contact/" class="btn btn-primary btn-sm">WORK WITH US</a>
+  </div>
+
+  <!-- Mobile header actions (Book Now CTA only, visible mobile only) -->
+  <div class="mobile-header-actions">
+    <a href="/contact/" class="mobile-header-cta btn btn-sm">Book Now</a>
+  </div>
+
+  <!-- Mobile actions (phone icon + hamburger) -->
+  <div class="nav-mobile-actions">
+    <a
+      href="tel:+14805084226"
+      class="nav-mobile-phone"
+      aria-label="Call us at (480) 508-4226"
+    >
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.79a16 16 0 006.29 6.29l1.16-1.16a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+      </svg>
+    </a>
+    <button
+      class="nav-hamburger"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      aria-controls="nav-mobile-menu"
+    >
+      <span class="nav-hamburger__line"></span>
+      <span class="nav-hamburger__line"></span>
+      <span class="nav-hamburger__line"></span>
+    </button>
+  </div>
+
+</nav><!-- /.nav-sticky -->
+
+<!-- Mobile slide-out menu -->
+<div
+  id="nav-mobile-menu"
+  class="nav-mobile-menu"
+  role="dialog"
+  aria-label="Mobile navigation"
+  aria-modal="false"
+>
+  <!-- Close button inside menu -->
+  <button class="nav-hamburger nav-hamburger--open nav-mobile-close" aria-label="Close navigation menu" style="align-self:flex-end;margin-bottom:1rem;">
+    <span class="nav-hamburger__line"></span>
+    <span class="nav-hamburger__line"></span>
+    <span class="nav-hamburger__line"></span>
+  </button>
+
+  <!-- Services group -->
+  <p class="nav-mobile-section-label">Services</p>
+  <a href="/stem-cell-therapy/">Stem Cell Therapy</a>
+  <a href="/prp-therapy/">Platelet-Rich Plasma (PRP)</a>
+  <a href="/nerve-hydrodissection/">Nerve Hydrodissection</a>
+  <a href="/prolotherapy/">Prolotherapy</a>
+  <a href="/perineural-injection-therapy/">Perineural Injection Therapy</a>
+  <a href="/chronic-pain-management/">Chronic Pain Management</a>
+  <a href="/hormone-therapy/">Hormone Therapy</a>
+  <a href="/iv-therapy/">IV Therapy</a>
+  <a href="/peptide-therapy/">Peptide Therapy</a>
+  <a href="/comprehensive-lab-tests/">Comprehensive Lab Tests</a>
+  <a href="/hyperbaric-oxygen-therapy/">Hyperbaric Oxygen Therapy</a>
+  <a href="/low-level-light-therapy/">Low Level Light Therapy</a>
+  <a href="/stellate-ganglion-block/">Stellate Ganglion Block</a>
+  <a href="/neurofeedback/">Neurofeedback</a>
+
+  <!-- About group -->
+  <p class="nav-mobile-section-label">About</p>
+  <a href="/our-clinic/">Our Clinic</a>
+  <a href="/dr-drew-timmermans/">Dr. Timmermans</a>
+  <a href="/dr-kaitlyn-myers/">Dr. Myers</a>
+  <a href="/dr-jack-meister/">Dr. Meister</a>
+
+  <!-- Supplements (standalone) -->
+  <p class="nav-mobile-section-label">Supplements</p>
+  <a href="/supplements/">Supplements</a>
+
+  <!-- Blog (standalone) -->
+  <p class="nav-mobile-section-label">Blog</p>
+  <a href="/blog/">Blog</a>
+
+  <!-- Resources group -->
+  <p class="nav-mobile-section-label">Resources</p>
+  <a href="https://www.amazon.com/shop/regenerativeperformance" target="_blank" rel="noopener noreferrer">Dr. T's Resources</a>
+
+  <!-- Utility -->
+  <p class="nav-mobile-section-label">Account</p>
+  <a href="https://www.power2patient.net/pui/identity/login" target="_blank" rel="noopener noreferrer">Patient Login</a>
+
+  <!-- Mobile CTA -->
+  <div style="margin-top:auto;padding-top:1.5rem;display:flex;flex-direction:column;gap:0.75rem;">
+    <a href="tel:+14805084226" class="btn btn-phone" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.79a16 16 0 006.29 6.29l1.16-1.16a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+      </svg>
+      (480) 508-4226
+    </a>
+    <a href="/contact/" class="btn btn-primary">WORK WITH US</a>
+  </div>
+</div><!-- /.nav-mobile-menu -->
+
+<!-- Component styles (scoped additions to nav.css) -->
+<style>
+  /* Dropdown: ensure items never wrap mid-item */
+  .nav-dropdown a {
+    white-space: nowrap;
+  }
+
+  /* Phone button: icon + number always on one line */
+  .nav-phone {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    white-space: nowrap;
+  }
+
+  /* Nav actions layout */
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+  }
+
+  /* Desktop nav item with dropdown: relative for absolute positioning */
+  .nav-item {
+    position: relative;
+    list-style: none;
+  }
+
+  /* Nav desktop links list layout */
+  .nav-desktop-links {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    list-style: none;
+  }
+
+  /* Dropdown trigger: looks like a link */
+  .nav-dropdown-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--rp-gray);
+    transition: color 0.25s ease;
+    padding: 0;
+  }
+
+  .nav-dropdown-trigger:hover {
+    color: var(--rp-orange);
+  }
+
+  /* Mobile section labels */
+  .nav-mobile-section-label {
+    font-family: var(--font-body);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--rp-orange);
+    padding: 0.75rem 0 0.25rem;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+
+  /* Mobile phone icon: 44x44 tap target */
+  .nav-mobile-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
+    border-radius: 6px;
+    color: var(--rp-blue);
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+  .nav-mobile-phone:hover,
+  .nav-mobile-phone:focus-visible {
+    background: var(--rp-blue-10);
+    color: var(--rp-orange);
+    outline: none;
+  }
+
+  /* ---- Mobile responsive: must match design-system.css breakpoint ---- */
+  @media (max-width: 1024px) {
+    .nav-desktop-links {
+      display: none !important;
+    }
+    .nav-actions {
+      display: none !important;
+    }
+    .nav-mobile-actions {
+      display: flex !important;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .nav-mobile-menu {
+      display: none !important;
+    }
+    .nav-mobile-overlay {
+      display: none !important;
+    }
+    .nav-mobile-actions {
+      display: none !important;
+    }
+  }
+</style>
+
+<!-- Nav JS (UI kit) -->
+<script src="/js/nav.js" defer></script>
+<!--/INLINE:header-->
+</header>
+
+  <main id="main-content">
+  <section class="hero hero-service hero-compact" aria-label="Trusted Supplements, Peptides, and Devices hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Trusted Supplements, Peptides, and Devices</h1>
+        <p class="text-lead">Over the past 10+ years, we’ve spent hundreds of hours researching, testing, and clinically validating the supplements, peptides, and therapeutic devices we recommend. These tools have been trusted across thousands of patient cases in our clinic, chosen not because they’re trendy, but because they work.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section reveal">
+    <div class="container">
+      <p class="text-lead">We only offer access to what we’ve personally used, seen results with, and continue to stand behind, ensuring that everything listed here meets our standards for clinical efficacy, safety, and integrity.</p>
+      <p class="text-lead fw-600">Whether you’re looking to:</p>
+      <ul class="check-list check-list--2col">
+        <li>Address chronic pain and inflammation</li>
+        <li>Get to the root of complex chronic disease</li>
+        <li>Support brain and hormone health</li>
+        <li>Optimize recovery and physical performance</li>
+        <li>Improve skin quality and cellular vitality</li>
+      </ul>
+      <p class="text-lead mt-xl">These trusted tools can make a meaningful difference in your long-term outcomes. Get access to these trusted products by clicking the logos below.</p>
+    </div>
+  </section>
+
+  <section class="section section-alt reveal">
+    <div class="container-narrow">
+      <h2>Looking for Personalized Support?</h2>
+      <div class="divider mb-xl"></div>
+      <p>If you’re browsing this page and aren’t yet familiar with who we are or what we do, we invite you to learn more about our clinic and philosophy here .</p>
+      <p>At Regenerative Performance, we combine advanced regenerative therapies, naturopathic medicine, and root-cause investigation to help you heal and perform at your best.</p>
+      <p>If you’re ready to go deeper and want personalized guidance, we’d love to connect with you.</p>
+      <p>Call our clinic today to learn how we can help you create a precision plan that blends these products with in-depth lab testing, personalized protocols, and expert care.</p>
+      <div class="cta-buttons cta-buttons-center mt-2xl text-center">
+        <a href="/contact/" class="btn btn-primary btn-lg">WORK WITH US</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reveal">
+    <div class="container">
+      <h2>Our Trusted Products</h2>
+      <div class="divider mb-xl"></div>
+      <div class="supplement-product-grid">
+
+        <a href="https://us.fullscript.com/welcome/regenerativeperformance" class="treatment-card reveal reveal-delay-1" target="_blank" rel="noopener noreferrer" class="service-card-link">
+          <img width="359" height="122" src="/images/logos/Fillscript-logo.webp" alt="Fullscript logo" loading="lazy" class="supplement-logo">
+          <p class="text-center-margin-reset">Get access to all of our trusted supplements from Fullscript.</p>
+        </a>
+
+        <a href="https://www.stemregen.co/" class="treatment-card reveal reveal-delay-2" target="_blank" rel="noopener noreferrer" class="service-card-link">
+          <img decoding="async" width="400" height="94" src="/images/treatments/stemregen_logo_blk.webp" alt="StemRegen logo" loading="lazy" class="supplement-logo">
+          <p class="text-center-margin-reset">StemRegen, an endogenous stem cell mobilizer. Use code <strong>RP1</strong> for 15% off your first purchase.</p>
+        </a>
+
+        <a href="https://www.infiniwell.com/" class="treatment-card reveal reveal-delay-3" target="_blank" rel="noopener noreferrer" class="service-card-link">
+          <img width="359" height="122" src="/images/logos/infiniwell_logo_150x_2x.webp" alt="Infiniwell logo" loading="lazy" class="supplement-logo">
+          <p class="text-center-margin-reset">Oral BPC-157 (Arginate Salt). Use code <strong>RP20</strong> for 20% off.</p>
+        </a>
+
+        <a href="https://www.coverthere.com/" class="treatment-card reveal reveal-delay-4" target="_blank" rel="noopener noreferrer" class="service-card-link">
+          <img width="359" height="122" src="/images/logos/coverthere-logo.webp" alt="CoverThere logo" loading="lazy" class="supplement-logo">
+          <p class="text-center-margin-reset">Brain Health Supplements.</p>
+        </a>
+
+        <a href="https://www.transparentlabs.com/" class="treatment-card reveal reveal-delay-1" target="_blank" rel="noopener noreferrer" class="service-card-link">
+          <img width="359" height="122" src="/images/logos/Transparent-Labs-logo.webp" alt="Transparent Labs logo" loading="lazy" class="supplement-logo">
+          <p class="text-center-margin-reset">Clean Protein and Supplements</p>
+        </a>
+
+        <a href="https://spermidinlife.com/" class="treatment-card reveal reveal-delay-2" target="_blank" rel="noopener noreferrer" class="service-card-link">
+          <img width="359" height="122" src="/images/logos/spl_logo_registered_trade_mark_neu360.webp" alt="spermidineLIFE logo" loading="lazy" class="supplement-logo">
+          <p class="text-center-margin-reset">Cellular Health Supplement to help support autophagy.</p>
+        </a>
+
+        <a href="https://braintap.com/" class="treatment-card treatment-card-full-width reveal reveal-delay-3" target="_blank" rel="noopener noreferrer">
+          <img width="400" height="114" src="/images/logos/braintap-logo.webp" alt="BrainTap logo" loading="lazy" class="supplement-logo">
+          <p class="text-center-margin-reset">De-stresses the brain and body. Use code <strong>PARTNER50</strong> for $50 off the BrainTap Power Bundle and <strong>BTPARTNER29</strong> for $29 off the first month subscription.</p>
+        </a>
+
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <div data-component="footer">
+<!--INLINE:footer-->
+<!-- ============================================================
+     Footer Component v2 — Regenerative Performance Phase 1 v2
+     Research-backed rebuild per 2026-04-23 footer audit.
+     Adds: CTA band, hours, email, social rows (B+ pattern),
+           Google trust strip, accessibility statement.
+     Preserves: existing design system tokens, all 16 services,
+           FDA disclaimer, legal links.
+     ============================================================ -->
+
+<footer class="site-footer" role="contentinfo">
+
+  <!-- ============================================================
+       MAIN GRID: Contact | About | Patient Resources | Services
+       ============================================================ -->
+  <div class="footer-main">
+    <div class="container">
+
+      <div class="footer-grid footer-grid--main">
+
+        <!-- Contact column: phone, email, address, hours, social -->
+        <div class="footer-col footer-col--contact">
+          <h3 class="footer-heading">Contact</h3>
+          <address class="footer-address">
+            <a href="tel:+14805084226" class="footer-contact-line footer-phone">(480) 508-4226</a>
+            <a href="mailto:office@regenerativeperformance.com" class="footer-contact-line footer-email">office@regenerativeperformance.com</a>
+            <a href="https://maps.google.com/?q=726+N+Greenfield+Rd+STE+101+Gilbert+AZ+85234" target="_blank" rel="noopener noreferrer" class="footer-address-text footer-address-map">
+              726 N Greenfield Rd, STE 101<br>
+              Gilbert, AZ 85234
+            </a>
+          </address>
+
+          <h4 class="footer-subheading">Hours</h4>
+          <ul class="footer-hours" role="list">
+            <li><span class="footer-hours-day">Mon&ndash;Thu</span><span class="footer-hours-time">8:30a &ndash; 5p</span></li>
+            <li><span class="footer-hours-day">Friday</span><span class="footer-hours-time">8:30a &ndash; 1p</span></li>
+            <li><span class="footer-hours-day">Sat&ndash;Sun</span><span class="footer-hours-time">Closed</span></li>
+          </ul>
+
+          <h4 class="footer-subheading">Follow</h4>
+          <div class="footer-social">
+
+            <div class="footer-social-row">
+              <span class="footer-social-label">Practice</span>
+              <div class="footer-social-icons">
+              <a href="https://www.instagram.com/regenerativeperformance/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram — Regenerative Performance">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153.509.5.902 1.105 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 01-1.153 1.772c-.5.508-1.105.902-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 01-1.772-1.153 4.904 4.904 0 01-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 011.153-1.772A4.897 4.897 0 015.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 100 10 5 5 0 000-10zm6.5-.25a1.25 1.25 0 00-2.5 0 1.25 1.25 0 002.5 0zM12 9a3 3 0 110 6 3 3 0 010-6z"/></svg>
+              </a>
+              <a href="https://www.facebook.com/regenerativeperformance/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook — Regenerative Performance">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/company/regenerativeperformance/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn — Regenerative Performance">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+              </div>
+            </div>
+
+            <div class="footer-social-row">
+              <span class="footer-social-label">Dr. Timmermans</span>
+              <div class="footer-social-icons">
+              <a href="https://www.instagram.com/drdrewtimmermans/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram — Dr. Drew Timmermans">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153.509.5.902 1.105 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 01-1.153 1.772c-.5.508-1.105.902-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 01-1.772-1.153 4.904 4.904 0 01-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 011.153-1.772A4.897 4.897 0 015.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 100 10 5 5 0 000-10zm6.5-.25a1.25 1.25 0 00-2.5 0 1.25 1.25 0 002.5 0zM12 9a3 3 0 110 6 3 3 0 010-6z"/></svg>
+              </a>
+              <a href="https://www.facebook.com/drewtimmermansnd/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook — Dr. Drew Timmermans">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+              <a href="https://www.youtube.com/@drewtimmermansnd" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="YouTube — Dr. Drew Timmermans">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </a>
+              </div>
+            </div>
+
+            <div class="footer-social-row">
+              <span class="footer-social-label">Dr. Myers</span>
+              <div class="footer-social-icons">
+              <a href="https://www.instagram.com/drkaitlynmyers/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram — Dr. Kaitlyn Myers">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153.509.5.902 1.105 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 01-1.153 1.772c-.5.508-1.105.902-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 01-1.772-1.153 4.904 4.904 0 01-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 011.153-1.772A4.897 4.897 0 015.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 100 10 5 5 0 000-10zm6.5-.25a1.25 1.25 0 00-2.5 0 1.25 1.25 0 002.5 0zM12 9a3 3 0 110 6 3 3 0 010-6z"/></svg>
+              </a>
+              <a href="https://www.facebook.com/drkaitlynmyers/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook — Dr. Kaitlyn Myers">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- About -->
+        <div class="footer-col">
+          <h3 class="footer-heading">About</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="/our-clinic/">Our Clinic</a></li>
+            <li><a href="/dr-drew-timmermans/">About Dr. Timmermans</a></li>
+            <li><a href="/dr-kaitlyn-myers/">About Dr. Myers</a></li>
+            <li><a href="/dr-jack-meister/">About Dr. Meister</a></li>
+          </ul>
+        </div>
+
+        <!-- Patient Resources -->
+        <div class="footer-col">
+          <h3 class="footer-heading">Patient Resources</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="/contact/#discovery">Find Your Provider</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/supplements/">Supplements</a></li>
+            <li><a href="https://www.power2patient.net/pui/identity/login" target="_blank" rel="noopener noreferrer">Patient Login</a></li>
+          </ul>
+        </div>
+
+        <!-- Services (all 16 preserved) -->
+        <div class="footer-col footer-col--services">
+          <h3 class="footer-heading">Services</h3>
+          <ul class="footer-links footer-links--two-col" role="list">
+            <li><a href="/stem-cell-therapy/">Stem Cell Therapy</a></li>
+            <li><a href="/prp-therapy/">Platelet-Rich Plasma (PRP)</a></li>
+            <li><a href="/nerve-hydrodissection/">Nerve Hydrodissection</a></li>
+            <li><a href="/prolotherapy/">Prolotherapy</a></li>
+            <li><a href="/perineural-injection-therapy/">Perineural Injection Therapy</a></li>
+            <li><a href="/chronic-pain-management/">Chronic Pain Management</a></li>
+            <li><a href="/hormone-therapy/">Hormone Therapy</a></li>
+            <li><a href="/iv-therapy/">IV Therapy</a></li>
+            <li><a href="/peptide-therapy/">Peptide Therapy</a></li>
+            <li><a href="/comprehensive-lab-tests/">Comprehensive Lab Tests</a></li>
+            <li><a href="/hyperbaric-oxygen-therapy/">Hyperbaric Oxygen Therapy</a></li>
+            <li><a href="/low-level-light-therapy/">Low Level Light Therapy</a></li>
+            <li><a href="/stellate-ganglion-block/">Stellate Ganglion Block</a></li>
+            <li><a href="/neurofeedback/">Neurofeedback</a></li>
+            <li><a href="/hair-restoration-microneedling/">Hair Restoration &amp; Microneedling</a></li>
+            <li><a href="/vagus-nerve-hydrodissection/">Vagus Nerve Hydrodissection</a></li>
+          </ul>
+        </div>
+
+      </div><!-- /.footer-grid--main -->
+    </div><!-- /.container -->
+  </div><!-- /.footer-main -->
+
+  <!-- ============================================================
+       TRUST STRIP
+       ============================================================ -->
+  <div class="footer-trust">
+    <div class="container">
+      <a href="https://maps.google.com/?q=726+N+Greenfield+Rd+STE+101+Gilbert+AZ+85234" target="_blank" rel="noopener noreferrer" class="footer-trust-rating">
+        <span class="footer-trust-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="footer-trust-text">4.9 on Google Reviews</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M7 17L17 7M7 7h10v10"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       LEGAL BAR
+       ============================================================ -->
+  <div class="footer-legal">
+    <div class="container">
+      <p class="footer-disclaimer">
+        *These statements have not been evaluated by the Food &amp; Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.
+        The information on this site is not intended or implied to be a substitute for professional medical advice, diagnosis or treatment. All content, including text, graphics, images and information, contained on or available through this web site is for general information purposes only.
+      </p>
+      <div class="footer-bottom-row">
+        <p class="footer-copyright">&copy; 2026 Regenerative Performance, PLLC. All rights reserved. Regenerative Performance&#174; is a registered trademark.</p>
+        <ul class="footer-legal-links" role="list">
+          <li><a href="/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="/notice-of-privacy-practices/">Notice of Privacy Practices</a></li>
+          <li><a href="/terms-and-conditions/">Terms of Service</a></li>
+          <li><a href="/accessibility-statement/">Accessibility Statement</a></li>
+          <li><a href="/sitemap/">Sitemap</a></li>
+          <li><a href="/sitemap.xml">XML Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+  </div><!-- /.footer-legal -->
+
+</footer><!-- /.site-footer -->
+
+<style>
+  /* ============================================================
+     FOOTER V2 STYLES
+     Inherits design-system tokens; layered over existing styles.
+     ============================================================ */
+
+  .site-footer {
+    background: var(--rp-dark);
+    color: var(--rp-white);
+  }
+
+  /* ---- Main grid ---- */
+  .footer-main {
+    padding: var(--space-5xl) 0 var(--space-3xl);
+  }
+
+  .footer-grid {
+    display: grid;
+    gap: var(--space-2xl);
+    align-items: start;
+  }
+
+  /* 4-col layout: Contact (wider) | About | Patient Resources | Services (widest) */
+  .footer-grid--main {
+    grid-template-columns: 1.5fr 1fr 1fr 2fr;
+  }
+
+  /* ---- Headings ---- */
+  .footer-heading {
+    font-family: var(--font-body);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--rp-orange);
+    margin: 0 0 var(--space-md);
+  }
+
+  .footer-subheading {
+    font-family: var(--font-body);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--rp-orange);
+    margin: var(--space-lg) 0 var(--space-sm);
+  }
+
+  /* ---- Contact block ---- */
+  .footer-address { font-style: normal; margin: 0; }
+  address { font-style: normal; }
+
+  .footer-contact-line {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--rp-white);
+    font-weight: 600;
+    font-size: var(--text-sm);
+    margin-bottom: var(--space-sm);
+    transition: color var(--duration-fast) var(--ease-default);
+  }
+
+  .footer-contact-line svg {
+    flex-shrink: 0;
+    opacity: 0.85;
+  }
+
+  .footer-phone {
+    font-size: var(--text-md);
+    white-space: nowrap;
+  }
+
+  .footer-email {
+    word-break: break-all;
+  }
+
+  .footer-contact-line:hover {
+    color: var(--rp-orange);
+  }
+
+  .footer-address-text {
+    display: block;
+    color: rgba(255,255,255,0.75);
+    font-size: var(--text-sm);
+    line-height: var(--leading-relaxed);
+    margin: var(--space-sm) 0 0;
+    max-width: none;
+    text-decoration: none;
+  }
+
+  a.footer-address-map {
+    transition: color var(--duration-fast) var(--ease-default);
+  }
+
+  a.footer-address-map:hover {
+    color: var(--rp-orange);
+  }
+
+  /* ---- Hours ---- */
+  .footer-hours {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .footer-hours li {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-md);
+    font-size: var(--text-sm);
+    color: rgba(255,255,255,0.8);
+  }
+
+  .footer-hours-day {
+    font-weight: 600;
+    color: rgba(255,255,255,0.9);
+  }
+
+  .footer-hours-time {
+    color: rgba(255,255,255,0.7);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---- Social ---- */
+  .footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .footer-social-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+
+  .footer-social-label {
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: rgba(255,255,255,0.9);
+    letter-spacing: 0;
+  }
+
+  .footer-social-icons {
+    display: flex;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+  }
+
+  .footer-social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: var(--radius-sm);
+    color: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.08);
+    transition: color var(--duration-fast) var(--ease-default),
+                background var(--duration-fast) var(--ease-default),
+                transform var(--duration-fast) var(--ease-default);
+  }
+
+  .footer-social-link:hover {
+    color: var(--rp-white);
+    background: var(--rp-orange);
+    transform: translateY(-1px);
+  }
+
+  /* ---- Nav links ---- */
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .footer-links a {
+    color: rgba(255,255,255,0.8);
+    font-size: var(--text-sm);
+    text-decoration: none;
+    transition: color var(--duration-fast) var(--ease-default);
+  }
+
+  .footer-links a:hover {
+    color: var(--rp-orange);
+  }
+
+  .footer-links--two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-sm) var(--space-md);
+  }
+
+  /* ---- Trust strip ---- */
+  .footer-trust {
+    padding: 0 0 var(--space-lg);
+    text-align: center;
+  }
+
+  .footer-trust-rating {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    color: rgba(255,255,255,0.85);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color var(--duration-fast) var(--ease-default);
+  }
+
+  .footer-trust-stars {
+    color: var(--rp-orange);
+    letter-spacing: 0.1em;
+    font-size: var(--text-md);
+  }
+
+  .footer-trust-rating svg {
+    opacity: 0.5;
+    transition: opacity var(--duration-fast) var(--ease-default);
+  }
+
+  .footer-trust-rating:hover {
+    color: var(--rp-white);
+  }
+
+  .footer-trust-rating:hover svg {
+    opacity: 1;
+  }
+
+  /* ---- Legal bar ---- */
+  .footer-legal {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding: var(--space-xl) 0;
+  }
+
+  .footer-disclaimer {
+    font-size: var(--text-xs);
+    color: rgba(255,255,255,0.45);
+    line-height: var(--leading-relaxed);
+    margin-bottom: var(--space-md);
+    max-width: none; /* override global p { max-width: 72ch } so FDA text spans full container width */
+  }
+
+  .footer-bottom-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+  }
+
+  .footer-copyright {
+    font-size: var(--text-xs);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    margin: 0;
+  }
+
+  .footer-legal-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: var(--space-lg);
+    flex-wrap: wrap;
+  }
+
+  .footer-legal-links a {
+    font-size: var(--text-xs);
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    transition: color var(--duration-fast) var(--ease-default);
+  }
+
+  .footer-legal-links a:hover {
+    color: var(--rp-orange);
+  }
+
+  /* ---- Responsive ---- */
+  @media (max-width: 1200px) {
+    .footer-grid--main {
+      grid-template-columns: 1.4fr 1fr 1fr;
+    }
+    .footer-col--services {
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .footer-grid--main {
+      grid-template-columns: 1fr 1fr;
+    }
+    .footer-col--contact {
+      grid-column: 1 / -1;
+    }
+    .footer-col--services {
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .footer-grid--main {
+      grid-template-columns: 1fr;
+    }
+    .footer-links--two-col {
+      grid-template-columns: 1fr 1fr;
+    }
+    .footer-bottom-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>
+
+<!--/INLINE:footer-->
+</div>
+  <script src="../js/main.js" defer></script>
+</body>
+</html>

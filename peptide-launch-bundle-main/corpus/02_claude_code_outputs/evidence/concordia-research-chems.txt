@@ -1,0 +1,897 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:48:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/homepage.md
+[LINE_RANGE] 80-84
+"## Premium Research Chemicals
+
+2-Day Shipping Directly From the U.S.A
+
+[ Shop All ](https://concordiarc.com/shop/)"
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage product images use plain white-background vial photography with no lifestyle elements. The source_homepage.md alt-text on product images reads "BPC-157 10mg lyophilized research peptide vial", "CJC-1295 No DAC 5mg modified GRF research peptide vial", "DSIP 10mg delta sleep inducing peptide research vial" — all purely clinical descriptors with no human models or lifestyle context.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:51:35Z
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/source_homepage.md
+[LINE_RANGE] 93-94
+"[![BPC-157 10mg lyophilized research peptide vial](https://concordiarc.com/wp-content/uploads/2026/01/BPC-157-10mg-300x300.png)](https://concordiarc.com/shop/product/bpc-157-10mg/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:51:35Z
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/source_homepage.md
+[LINE_RANGE] 125-126
+"[![DSIP 10mg delta sleep inducing peptide research vial](https://concordiarc.com/wp-content/uploads/2026/01/DSIP-10mg-300x300.png)](https://concordiarc.com/shop/product/dsip-10mg/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:48:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/homepage.md
+[LINE_RANGE] 84-84
+"[ Shop All ](https://concordiarc.com/shop/)"
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:48:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/homepage.md
+[LINE_RANGE] 12-17
+"  * [Home](https://concordiarc.com/)
+  * [Shop](https://concordiarc.com/shop/)
+  * [Reviews](https://concordiarc.com/reviews/)
+  * [Ambassadors](https://concordiarc.com/ambassadors/)
+  * [About Us](https://concordiarc.com/about-us/)
+  * [FAQ](https://concordiarc.com/faq/)"
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:48:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/homepage.md
+[LINE_RANGE] 177-206
+"The statements made within this website have not been evaluated by the U.S. Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure, or prevent any disease. All products are chemical reagents intended **for research use only** and are **not for human or animal use**. We do not sell products for patient use. **Concordia Research Chems LLC** is a chemical supplier. **Concordia Research Chems LLC** is not a compounding pharmacy or chemical compounding facility as defined under Section 503A of the Federal Food, Drug, and Cosmetic Act. **Concordia Research Chems LLC** is not an outsourcing facility as defined under Section 503B of the Federal Food, Drug, and Cosmetic Act."
+
+[CLAIM] catalog.sku_count
+[URL] https://concordiarc.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_1.md
+[LINE_RANGE] 80-80
+"Showing 1–12 of 22 results"
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://concordiarc.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_1.md
+[LINE_RANGE] 213-228
+"### Category
+
+Category
+
+Peptides
+
+Supplies"
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://concordiarc.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_1.md
+[LINE_RANGE] 199-228
+"Filter products
+
+Close
+
+## Filters
+
+  *
+
+
+Clear filters
+
+### Price
+
+### Category
+
+Category
+
+Peptides
+
+Supplies
+
+### Status
+
+Status
+
+In stock
+
+Out of stock
+
+Apply"
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://concordiarc.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_1.md
+[LINE_RANGE] 12-17
+"  * [Home](https://concordiarc.com/)
+  * [Shop](https://concordiarc.com/shop/)
+  * [Reviews](https://concordiarc.com/reviews/)
+  * [Ambassadors](https://concordiarc.com/ambassadors/)
+  * [About Us](https://concordiarc.com/about-us/)
+  * [FAQ](https://concordiarc.com/faq/)"
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://concordiarc.com/shop/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T19:49:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/product_1__bpc-157-10mg.md
+[LINE_RANGE] 87-89
+"# BPC-157 10mg
+
+$70.00"
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://concordiarc.com/shop/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T19:49:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/product_1__bpc-157-10mg.md
+[LINE_RANGE] 87-93
+"# BPC-157 10mg
+
+$70.00
+
+BPC-157 10mg synthetic pentadecapeptide, ≥99% purity (HPLC verified), lyophilized powder. For in vitro research use only.
+
+In stock"
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://concordiarc.com/shop/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T19:49:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/product_1__bpc-157-10mg.md
+[LINE_RANGE] 87-90
+"# BPC-157 10mg
+
+$70.00"
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://concordiarc.com/shop/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T19:49:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/product_1__bpc-157-10mg.md
+[LINE_RANGE] 91-91
+"BPC-157 10mg synthetic pentadecapeptide, ≥99% purity (HPLC verified), lyophilized powder. For in vitro research use only."
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://concordiarc.com/shop/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T19:49:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/product_1__bpc-157-10mg.md
+[LINE_RANGE] 139-139
+"_This product is furnished strictly for laboratory research purposes only. It is not intended for human consumption, medical applications, veterinary use, or household use. All purchasers must confirm understanding of this policy._"
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://concordiarc.com/shop/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T19:49:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/product_1__bpc-157-10mg.md
+[LINE_RANGE] 127-129
+"## Testing and Quality Assurance
+
+This BPC-157 10mg product is verified via HPLC analysis for purity confirmation. Each lot is individually labeled with a unique lot number for traceability. Concordia Research Chems maintains rigorous quality standards across all research peptides to ensure consistency and reliability for laboratory applications."
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://concordiarc.com/about-us/
+[FETCHED_AT] 2026-05-07T19:50:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/about.md
+[LINE_RANGE] 83-85
+"## Quality Assurance
+
+We partner with Janoshik Analytical for independent third-party testing of our products. Our testing program verifies identity, purity, and composition to ensure every compound meets research-grade standards."
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://concordiarc.com/shop/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T19:49:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/product_1__bpc-157-10mg.md
+[LINE_RANGE] 127-129
+"## Testing and Quality Assurance
+
+This BPC-157 10mg product is verified via HPLC analysis for purity confirmation. Each lot is individually labeled with a unique lot number for traceability. Concordia Research Chems maintains rigorous quality standards across all research peptides to ensure consistency and reliability for laboratory applications."
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://concordiarc.com/shop/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T19:49:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/product_1__bpc-157-10mg.md
+[LINE_RANGE] 82-86
+"🔍
+
+  1.   2.
+
+
+# BPC-157 10mg"
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://concordiarc.com/shop/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T19:49:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/product_1__bpc-157-10mg.md
+[LINE_RANGE] 100-102
+"  * Description
+
+
+
+## BPC-157 10mg Research Peptide"
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://concordiarc.com/shop/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T19:49:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/product_1__bpc-157-10mg.md
+[LINE_RANGE] 141-143
+"## Related products
+
+  * [](https://concordiarc.com/shop/product/dsip-10mg/)"
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:48:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/homepage.md
+[LINE_RANGE] 177-177
+"The statements made within this website have not been evaluated by the U.S. Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure, or prevent any disease. All products are chemical reagents intended **for research use only** and are **not for human or animal use**. We do not sell products for patient use. **Concordia Research Chems LLC** is a chemical supplier. **Concordia Research Chems LLC** is not a compounding pharmacy or chemical compounding facility as defined under Section 503A of the Federal Food, Drug, and Cosmetic Act. **Concordia Research Chems LLC** is not an outsourcing facility as defined under Section 503B of the Federal Food, Drug, and Cosmetic Act."
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://concordiarc.com/faq/
+[FETCHED_AT] 2026-05-07T19:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/faq.md
+[LINE_RANGE] 103-114
+"###  Who is eligible to place an order?
+
+By placing an order, you certify that you are **at least 18 years of age** and that you fall into one of the following categories:
+
+  * A licensed or credentialed researcher
+
+  * A laboratory or research institution
+
+  * An individual with documented qualifications and a legitimate research purpose
+
+
+
+
+We reserve the right to request verification of eligibility and to refuse or cancel orders at our sole discretion."
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://concordiarc.com/faq/
+[FETCHED_AT] 2026-05-07T19:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/faq.md
+[LINE_RANGE] 120-122
+"###  Do you ship internationally?
+
+No. We ship  _**ONLY**_ in the Continental US. Orders placed outside of this zone will be cancelled."
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://concordiarc.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T19:50:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/tos.md
+[LINE_RANGE] 80-83
+"**Privacy Policy******
+
+**Last Updated: January 2026******
+
+This Privacy Policy explains how **Concordia Research Chems LLC** ("we," "our," or "us") collects, uses, and protects information when you visit or make a purchase from our website."
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://concordiarc.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T19:50:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/tos.md
+[LINE_RANGE] 80-99
+"**Privacy Policy******
+
+**Last Updated: January 2026******
+
+This Privacy Policy explains how **Concordia Research Chems LLC** ("we," "our," or "us") collects, uses, and protects information when you visit or make a purchase from our website. By accessing or using our website, you consent to the data practices described in this policy.
+
+### **1\. Information We Collect**
+
+We may collect the following categories of information:
+
+  * **Personal Information:** Name, email address, billing address, shipping address, phone number
+
+  * **Payment Information:** Processed securely by third-party payment providers; we do not store full credit card numbers
+
+  * **Account Details:** Login credentials (encrypted) and purchase history
+
+  * **Technical Data:** IP address, browser type, device type, referring pages, and usage analytics
+
+  * **Cookies & Tracking:** Website preferences, session identifiers, cart activity, and saved login settings"
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://concordiarc.com/refund_returns/
+[FETCHED_AT] 2026-05-07T19:50:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/refund.md
+[LINE_RANGE] 80-97
+"**Refund, Return & Cancellation Policy******
+
+**Last Updated: January 2026******
+
+
+
+
+This Refund, Return, and Cancellation Policy applies to all purchases made through the Concordia Research Chems website. By placing an order, you acknowledge and agree to the terms outlined below.
+
+
+
+
+### **1\. All Sales Are Final**
+
+
+
+
+Due to the nature of research-based products, **all sales are final**. We do not accept returns, exchanges, refunds, or store credit once an order has been processed and shipped."
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://concordiarc.com/faq/
+[FETCHED_AT] 2026-05-07T19:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/faq.md
+[LINE_RANGE] 136-142
+"###  What are your shipping rates?
+
+Domestic orders $0 - $200 are $15 flat rate.
+
+Domestic orders $200+ are $0.
+
+Domestic express: $30"
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://concordiarc.com/faq/
+[FETCHED_AT] 2026-05-07T19:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/faq.md
+[LINE_RANGE] 116-119
+"###  What payment methods are accepted?
+
+We accept major credit cards and secure online payment options processed through trusted third-party payment providers. For security reasons, Concordia Research Chems does **not** store or directly handle sensitive payment information."
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://concordiarc.com/faq/
+[FETCHED_AT] 2026-05-07T19:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/faq.md
+[LINE_RANGE] 103-114
+"###  Who is eligible to place an order?
+
+By placing an order, you certify that you are **at least 18 years of age** and that you fall into one of the following categories:
+
+  * A licensed or credentialed researcher
+
+  * A laboratory or research institution
+
+  * An individual with documented qualifications and a legitimate research purpose
+
+
+
+
+We reserve the right to request verification of eligibility and to refuse or cancel orders at our sole discretion."
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://concordiarc.com/faq/
+[FETCHED_AT] 2026-05-07T19:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/faq.md
+[LINE_RANGE] 136-142
+"###  What are your shipping rates?
+
+Domestic orders $0 - $200 are $15 flat rate.
+
+Domestic orders $200+ are $0.
+
+Domestic express: $30"
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://concordiarc.com/faq/
+[FETCHED_AT] 2026-05-07T19:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/faq.md
+[LINE_RANGE] 120-122
+"###  Do you ship internationally?
+
+No. We ship  _**ONLY**_ in the Continental US. Orders placed outside of this zone will be cancelled."
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The source_homepage.md contains WooCommerce-specific markup patterns: the cart URL path is /cart/, product URLs follow /shop/product/<slug>/ pattern, add-to-cart links use the WooCommerce /?add-to-cart= parameter, and the logo images are stored at /wp-content/uploads/ confirming a WordPress/WooCommerce installation.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:51:35Z
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/source_homepage.md
+[LINE_RANGE] 56-58
+"[![Concordia Research Chems](https://concordiarc.com/wp-
+content/uploads/2026/01/Concordia-Research-Chems-Header-
+Logo.png)](https://concordiarc.com/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:51:35Z
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/source_homepage.md
+[LINE_RANGE] 64-64
+"[ Shopping cart 0 ](https://concordiarc.com/cart/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:51:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/source_homepage.md
+[LINE_RANGE] 1-10
+"---
+url: https://concordiarc.com/
+fetched_at: 2026-05-07T19:51:35Z
+fetch_method: curl
+http_status: 200
+sha256: 1c5894d2bdc5fef734d7a84f5ed976806be3f47453e9cd132cb2882ae64c8239
+---
+![fbpx](https://www.facebook.com/tr?id=1691031595009185&ev=PageView&noscript=1)
+Skip to content"
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:51:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/source_homepage.md
+[LINE_RANGE] 8-8
+"![fbpx](https://www.facebook.com/tr?id=1691031595009185&ev=PageView&noscript=1)"
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:51:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/source_homepage.md
+[LINE_RANGE] 56-260
+"[![Concordia Research Chems](https://concordiarc.com/wp-
+content/uploads/2026/01/Concordia-Research-Chems-Header-
+Logo.png)](https://concordiarc.com/)"
+
+[CLAIM] content_footprint.blog_present
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:48:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/homepage.md
+[LINE_RANGE] 12-17
+"  * [Home](https://concordiarc.com/)
+  * [Shop](https://concordiarc.com/shop/)
+  * [Reviews](https://concordiarc.com/reviews/)
+  * [Ambassadors](https://concordiarc.com/ambassadors/)
+  * [About Us](https://concordiarc.com/about-us/)
+  * [FAQ](https://concordiarc.com/faq/)"
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:48:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/homepage.md
+[LINE_RANGE] 12-17
+"  * [Home](https://concordiarc.com/)
+  * [Shop](https://concordiarc.com/shop/)
+  * [Reviews](https://concordiarc.com/reviews/)
+  * [Ambassadors](https://concordiarc.com/ambassadors/)
+  * [About Us](https://concordiarc.com/about-us/)
+  * [FAQ](https://concordiarc.com/faq/)"
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://concordiarc.com/shop/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T19:49:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/product_1__bpc-157-10mg.md
+[LINE_RANGE] 135-138
+"### Related Research Peptides
+
+Researchers studying tissue repair pathways may also be interested in [TB-500 10mg](/shop/product/tb-500-10mg/) (thymosin beta-4 fragment), [GHK-Cu 100mg](/shop/product/ghk-cu-100mg/) (copper peptide), or [Sermorelin 10mg](/shop/product/sermorelin-10mg/) (growth hormone releasing peptide). Browse our full [research peptide catalog](/shop/) for additional compounds."
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://concordiarc.com/reviews/
+[FETCHED_AT] 2026-05-07T19:51:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/reviews.md
+[LINE_RANGE] 80-95
+"Trustpilot Reviews
+
+# Customer reviews
+
+We're building Concordia around reliability, communication, and a smooth buying experience. Browse verified Trustpilot feedback from real customers and click any card to view the original review on Trustpilot.
+
+[Leave a Review](https://www.trustpilot.com/evaluate/concordiarc.com)
+[View All Reviews on Trustpilot](https://www.trustpilot.com/review/concordiarc.com)
+
+33 reviews from Trustpilot, updated April 20, 2026 at 6:00 AM. Sorted newest to oldest."
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://concordiarc.com/reviews/
+[FETCHED_AT] 2026-05-07T19:51:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/reviews.md
+[LINE_RANGE] 86-89
+"[Leave a Review](https://www.trustpilot.com/evaluate/concordiarc.com)
+[View All Reviews on Trustpilot](https://www.trustpilot.com/review/concordiarc.com)
+
+33 reviews from Trustpilot, updated April 20, 2026 at 6:00 AM. Sorted newest to oldest."
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://concordiarc.com/reviews/
+[FETCHED_AT] 2026-05-07T19:51:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/reviews.md
+[LINE_RANGE] 89-93
+"33 reviews from Trustpilot, updated April 20, 2026 at 6:00 AM. Sorted newest to oldest.
+
+[ ★★★★★ This has been a very good experience This has been a very good experience. From the first conversation with Daymion I felt that he was a friend not just someone trying to sale me something. When I received my order it was missing three items, I immediately brought it to his attention and he remedied the situation promptly. I will definitely be doing business with him longterm. Joseph Robertson
+April 19, 2026 ](https://www.trustpilot.com/reviews/69e59746a9530989eb1142d4)"
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:48:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/homepage.md
+[LINE_RANGE] 15-15
+"  * [Ambassadors](https://concordiarc.com/ambassadors/)"
+
+[CLAIM] country_of_operation
+[URL] https://concordiarc.com/about-us/
+[FETCHED_AT] 2026-05-07T19:50:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/about.md
+[LINE_RANGE] 80-80
+"Concordia Research Chems is a US-based supplier of research-grade peptides and chemical reference materials for laboratory and analytical applications. Based in Chicago, Illinois, we provide the research community with high-purity compounds backed by rigorous quality standards."
+
+[CLAIM] fulfillment_country
+[URL] https://concordiarc.com/about-us/
+[FETCHED_AT] 2026-05-07T19:50:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/about.md
+[LINE_RANGE] 87-89
+"## Shipping and Fulfillment
+
+All orders ship from our US facility via 2nd Day Air, with same-day processing on orders placed before 2:00 PM CST. We ship exclusively within the continental United States. Orders over $200 qualify for free shipping."
+
+[CLAIM] ship_to_scope
+[URL] https://concordiarc.com/faq/
+[FETCHED_AT] 2026-05-07T19:50:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/faq.md
+[LINE_RANGE] 120-122
+"###  Do you ship internationally?
+
+No. We ship  _**ONLY**_ in the Continental US. Orders placed outside of this zone will be cancelled."
+
+[CLAIM] year_established
+[INFERENCE] 2026
+[REASONING]
+No explicit founding year stated on the site. Four corroborating signals all point to 2026: (1) the footer copyright reads "© 2026 Concordia Research Chems LLC - All Rights Reserved"; (2) the privacy policy and refund policy both carry "Last Updated: January 2026"; (3) logo and product image URLs contain /2026/01/ in the upload path; (4) all 33 Trustpilot reviews are dated March–April 2026 with no earlier reviews.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://concordiarc.com/
+[FETCHED_AT] 2026-05-07T19:48:41Z
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/homepage.md
+[LINE_RANGE] 210-210
+"© 2026 Concordia Research Chems LLC - All Rights Reserved."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://concordiarc.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T19:50:34Z
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/tos.md
+[LINE_RANGE] 82-82
+"**Last Updated: January 2026******"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[0].list_price_usd
+[URL] https://concordiarc.com/shop/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T19:49:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/product_1__bpc-157-10mg.md
+[LINE_RANGE] 87-90
+"# BPC-157 10mg
+
+$70.00"
+
+[CLAIM] skus[1].list_price_usd
+[URL] https://concordiarc.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_1.md
+[LINE_RANGE] 93-100
+"## [Cagrilintide](https://concordiarc.com/shop/product/cagrilintide/)
+
+$75.00 – $130.00Price range: $75.00 through $130.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Select options](https://concordiarc.com/shop/product/cagrilintide/) This product has multiple variants. The options may be chosen on the product page"
+
+[CLAIM] skus[2].list_price_usd
+[URL] https://concordiarc.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_1.md
+[LINE_RANGE] 102-109
+"## [CJC1295 – No DAC 5mg](https://concordiarc.com/shop/product/cjc1295-no-dac-5mg/)
+
+$70.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Add to cart](/shop/?add-to-cart=717)"
+
+[CLAIM] skus[3].list_price_usd
+[URL] https://concordiarc.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_1.md
+[LINE_RANGE] 111-118
+"## [DSIP 10mg](https://concordiarc.com/shop/product/dsip-10mg/)
+
+$70.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Add to cart](/shop/?add-to-cart=715)"
+
+[CLAIM] skus[4].out_of_stock
+[URL] https://concordiarc.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_1.md
+[LINE_RANGE] 120-127
+"  * SOLD OUT[](https://concordiarc.com/shop/product/epitalon-10mg/)
+
+## [Epitalon 10mg](https://concordiarc.com/shop/product/epitalon-10mg/)
+
+$50.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Read more](https://concordiarc.com/shop/product/epitalon-10mg/)"
+
+[CLAIM] skus[5].out_of_stock
+[URL] https://concordiarc.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_1.md
+[LINE_RANGE] 129-136
+"  * SOLD OUT[](https://concordiarc.com/shop/product/ghk-cu-100mg/)
+
+## [GHK-CU 100mg](https://concordiarc.com/shop/product/ghk-cu-100mg/)
+
+$95.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Read more](https://concordiarc.com/shop/product/ghk-cu-100mg/)"
+
+[CLAIM] skus[6].sale_observed_at
+[URL] https://concordiarc.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_1.md
+[LINE_RANGE] 138-145
+"  * SALE [](https://concordiarc.com/shop/product/glp-2-t/)
+
+## [GLP-2 T](https://concordiarc.com/shop/product/glp-2-t/)
+
+$90.00 – $1,350.00Price range: $90.00 through $1,350.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Select options](https://concordiarc.com/shop/product/glp-2-t/) This product has multiple variants. The options may be chosen on the product page"
+
+[CLAIM] skus[7].list_price_usd
+[URL] https://concordiarc.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_1.md
+[LINE_RANGE] 147-154
+"  * SALE [](https://concordiarc.com/shop/product/glp-3-r/)
+
+## [GLP-3 R](https://concordiarc.com/shop/product/glp-3-r/)
+
+$100.00 – $1,440.00Price range: $100.00 through $1,440.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Select options](https://concordiarc.com/shop/product/glp-3-r/) This product has multiple variants. The options may be chosen on the product page"
+
+[CLAIM] skus[8].list_price_usd
+[URL] https://concordiarc.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_1.md
+[LINE_RANGE] 156-163
+"## [Glutathione 1500mg](https://concordiarc.com/shop/product/glutathione-1500mg/)
+
+$100.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Add to cart](/shop/?add-to-cart=699)"
+
+[CLAIM] skus[9].list_price_usd
+[URL] https://concordiarc.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_1.md
+[LINE_RANGE] 165-172
+"## [HCG 5000iu](https://concordiarc.com/shop/product/hcg-5000iu/)
+
+$70.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Add to cart](/shop/?add-to-cart=1460)"
+
+[CLAIM] skus[10].list_price_usd
+[URL] https://concordiarc.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_1.md
+[LINE_RANGE] 174-181
+"## [Hospira Bacteriostatic Water 30mL](https://concordiarc.com/shop/product/hospira-bac-water-30ml/)
+
+$30.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/), [Supplies](https://concordiarc.com/product-category/supplies/)
+
+[Add to cart](/shop/?add-to-cart=680)"
+
+[CLAIM] skus[11].list_price_usd
+[URL] https://concordiarc.com/shop/
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_1.md
+[LINE_RANGE] 183-190
+"## [Ipamorelin 10mg](https://concordiarc.com/shop/product/ipamorelin-10mg/)
+
+$80.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Add to cart](/shop/?add-to-cart=713)"
+
+[CLAIM] skus[12].out_of_stock
+[URL] https://concordiarc.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T19:49:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_2.md
+[LINE_RANGE] 84-91
+"  * SOLD OUT[](https://concordiarc.com/shop/product/kpv-10mg/)
+
+## [KPV 10mg](https://concordiarc.com/shop/product/kpv-10mg/)
+
+$55.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Read more](https://concordiarc.com/shop/product/kpv-10mg/)"
+
+[CLAIM] skus[13].list_price_usd
+[URL] https://concordiarc.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T19:49:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_2.md
+[LINE_RANGE] 93-100
+"## [MOTS-c 10mg](https://concordiarc.com/shop/product/mots-c-10mg/)
+
+$65.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Add to cart](/shop/page/2/?add-to-cart=718)"
+
+[CLAIM] skus[14].list_price_usd
+[URL] https://concordiarc.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T19:49:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_2.md
+[LINE_RANGE] 102-109
+"## [MT-2 10mg](https://concordiarc.com/shop/product/mt-2-10mg/)
+
+$45.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Add to cart](/shop/page/2/?add-to-cart=705)"
+
+[CLAIM] skus[15].list_price_usd
+[URL] https://concordiarc.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T19:49:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_2.md
+[LINE_RANGE] 111-118
+"## [NAD+ 1000mg](https://concordiarc.com/shop/product/nad-1000mg/)
+
+$140.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Add to cart](/shop/page/2/?add-to-cart=719)"
+
+[CLAIM] skus[16].out_of_stock
+[URL] https://concordiarc.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T19:49:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_2.md
+[LINE_RANGE] 120-127
+"  * SOLD OUT[](https://concordiarc.com/shop/product/pt-141-10mg/)
+
+## [PT-141 10mg](https://concordiarc.com/shop/product/pt-141-10mg/)
+
+$60.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Read more](https://concordiarc.com/shop/product/pt-141-10mg/)"
+
+[CLAIM] skus[17].list_price_usd
+[URL] https://concordiarc.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T19:49:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_2.md
+[LINE_RANGE] 129-136
+"## [Selank 10mg](https://concordiarc.com/shop/product/selank-10mg/)
+
+$60.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Add to cart](/shop/page/2/?add-to-cart=710)"
+
+[CLAIM] skus[18].list_price_usd
+[URL] https://concordiarc.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T19:49:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_2.md
+[LINE_RANGE] 138-145
+"## [Semax 10mg](https://concordiarc.com/shop/product/semax-10mg/)
+
+$60.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Add to cart](/shop/page/2/?add-to-cart=708)"
+
+[CLAIM] skus[19].list_price_usd
+[URL] https://concordiarc.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T19:49:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_2.md
+[LINE_RANGE] 147-154
+"## [Sermorelin 10mg](https://concordiarc.com/shop/product/sermorelin-10mg/)
+
+$100.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Add to cart](/shop/page/2/?add-to-cart=701)"
+
+[CLAIM] skus[20].list_price_usd
+[URL] https://concordiarc.com/shop/product/tb-500-10mg/
+[FETCHED_AT] 2026-05-07T19:54:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/product_2__tb-500-10mg.md
+[LINE_RANGE] 84-86
+"# TB-500 10mg
+
+$90.00"
+
+[CLAIM] skus[21].list_price_usd
+[URL] https://concordiarc.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T19:49:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/concordia-research-chems/catalog_2.md
+[LINE_RANGE] 165-172
+"## [Tesamorelin 10mg](https://concordiarc.com/shop/product/tesamorelin-10mg/)
+
+$100.00
+    * [Peptides](https://concordiarc.com/product-category/peptides/)
+
+[Add to cart](/shop/page/2/?add-to-cart=703)"

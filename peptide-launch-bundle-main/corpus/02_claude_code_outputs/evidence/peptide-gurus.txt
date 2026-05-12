@@ -1,0 +1,475 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://peptidegurus.com
+[FETCHED_AT] 2026-05-08T06:18:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/homepage.md
+[LINE_RANGE] 74-74
+[QUOTE]
+"Excellence. Dedication. Value. PeptideGurus stands as your premier online destination for research peptides of the highest purity, produced within the United States."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://peptidegurus.com
+[FETCHED_AT] 2026-05-08T06:18:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/homepage.md
+[LINE_RANGE] 106-106
+[QUOTE]
+"[Read More](/product/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://peptidegurus.com
+[FETCHED_AT] 2026-05-08T06:18:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/homepage.md
+[LINE_RANGE] 16-32
+[QUOTE]
+"* [Home](/)
+  * [About Us](https://peptidegurus.com/about-us-2/)
+  * [Our Advantage](https://peptidegurus.com/wwww/)
+  * [Products](https://peptidegurus.com/product/)
+    * [Peptide Raw powder](https://peptidegurus.com/product-category/peptide-raw-powder/)
+    * [Production line pharmaceutical machines](https://peptidegurus.com/product-category/production-line-pharmaceutical-machines/)
+    * [Peptide Finished product](https://peptidegurus.com/product-category/peptide-finished-product/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://peptidegurus.com
+[FETCHED_AT] 2026-05-08T06:18:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/homepage.md
+[LINE_RANGE] 174-177
+[QUOTE]
+"All products on this site are for Research, Development use only. Products are Not for Human consumption of any kind. The statements made within this website have not been evaluated by the US Food and Drug Administration or HEALTH CANADA. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease.
+PeptideGurus is a chemical supplier. PeptideGurus is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. Peptide Sciences is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic act."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://peptidegurus.com/product/
+[FETCHED_AT] 2026-05-08T06:18:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/catalog_1.md
+[LINE_RANGE] 147-147
+[QUOTE]
+"1 [2](https://peptidegurus.com/product/?page=2) [3](https://peptidegurus.com/product/?page=3) [4](https://peptidegurus.com/product/?page=4) [5](https://peptidegurus.com/product/?page=5) [6](https://peptidegurus.com/product/?page=6) [7](https://peptidegurus.com/product/?page=7) [8](https://peptidegurus.com/product/?page=8) [9](https://peptidegurus.com/product/?page=9) [10](https://peptidegurus.com/product/?page=10) [11](https://peptidegurus.com/product/?page=11) [12](https://peptidegurus.com/product/?page=12) [13](https://peptidegurus.com/product/?page=13) [14](https://peptidegurus.com/product/?page=14) [Next»](https://peptidegurus.com/product/?page=2)"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://peptidegurus.com/product/
+[FETCHED_AT] 2026-05-08T06:18:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/catalog_1.md
+[LINE_RANGE] 66-75
+[QUOTE]
+"* [Peptide Raw powder](https://peptidegurus.com/product-category/peptide-raw-powder/ "Peptide Raw powder")
+  * [Peptide Finished product](https://peptidegurus.com/product-category/peptide-finished-product/ "Peptide Finished product")
+    * [Peptides and Their Dosages](https://peptidegurus.com/product-category/peptide-finished-product/peptides-and-their-dosages/ "Peptides and Their Dosages")
+    * [IGF-1 Proteins](https://peptidegurus.com/product-category/peptide-finished-product/igf-1-proteins/ "IGF-1 Proteins")
+    * [Peptide Blends](https://peptidegurus.com/product-category/peptide-finished-product/peptide-blends/ "Peptide Blends")
+    * [Melanotan Peptides](https://peptidegurus.com/product-category/peptide-finished-product/melanotan-peptides/ "Melanotan Peptides")
+    * [Peptide Capsules](https://peptidegurus.com/product-category/peptide-finished-product/peptide-capsules/ "Peptide Capsules")
+    * [Peptide Bioregulators](https://peptidegurus.com/product-category/peptide-finished-product/peptide-bioregulators/ "Peptide Bioregulators")
+    * [Hot Products](https://peptidegurus.com/product-category/peptide-finished-product/hot-products/ "Hot Products")
+  * [Production line pharmaceutical machines](https://peptidegurus.com/product-category/production-line-pharmaceutical-machines/ "Production line pharmaceutical machines")"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://peptidegurus.com/product/
+[FETCHED_AT] 2026-05-08T06:18:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/catalog_1.md
+[LINE_RANGE] 117-117
+[QUOTE]
+"### [Glow (bpc 157 10mg, tb500 10mg , ghk-cu 50mg blend)](https://peptidegurus.com/product/ghk-cu-50mg-copper-peptide-3/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://peptidegurus.com/product/bpc157-20mg/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_1__bpc157-20mg.md
+[LINE_RANGE] 90-90
+[QUOTE]
+"# BPC157 20MG"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://peptidegurus.com/product/bpc157-20mg/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_1__bpc157-20mg.md
+[LINE_RANGE] 102-102
+[QUOTE]
+"BPC-157, a stable gastric pentadecapeptide, has garnered attention in scientific circles for its remarkable healing properties across various tissues, including muscles, tendons, and ligaments, as well as its therapeutic effects on inflammatory bowel disorders like ulcers and Crohn's disease."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://peptidegurus.com/product/bpc157-20mg/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_1__bpc157-20mg.md
+[LINE_RANGE] 102-102
+[QUOTE]
+"BPC-157 is designated strictly for research purposes, intended for in vitro testing and laboratory experimentation only. It is not for human or animal use, and handling must be conducted by licensed, qualified professionals. This compound is not to be misclassified as a drug, food, or cosmetic."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://peptidegurus.com/product/bpc157-20mg/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_1__bpc157-20mg.md
+[LINE_RANGE] 87-87
+[QUOTE]
+"Test Report bpc157 20mg Jan 2026"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://peptidegurus.com/product/retatrutide-10mg-2/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_2__retatrutide-5mg.md
+[LINE_RANGE] 110-110
+[QUOTE]
+"verified by **third-party Janoshik laboratory analysis** to ensure molecular accuracy and purity above 98%"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://peptidegurus.com/product/retatrutide-10mg-2/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_2__retatrutide-5mg.md
+[LINE_RANGE] 167-167
+[QUOTE]
+"Every production batch is accompanied by a **Certificate of Analysis (COA)** detailing HPLC and MS results confirming sequence integrity and purity."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://peptidegurus.com/product/bpc157-20mg/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_1__bpc157-20mg.md
+[LINE_RANGE] 104-118
+[QUOTE]
+"## Related Products
+
+[](https://peptidegurus.com/product/super-mic-b-vitamin/)
+
+Super MIC B Vitamin"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://peptidegurus.com/product/tirzepatide-50mg/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_3__tirzepatide-50mg.md
+[LINE_RANGE] 109-109
+[QUOTE]
+"Product Usage: **This PRODUCT IS INTENDED AS A RESEARCH CHEMICAL ONLY.** This designation allows the use of research chemicals strictly for in vitro testing and laboratory experimentation only. All product information available on this website is for educational purposes only. Bodily introduction of any kind into humans or animals is strictly forbidden by law."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://peptidegurus.com/privacy-policy/
+[FETCHED_AT] 2026-05-08T06:18:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/privacy_policy.md
+[LINE_RANGE] 60-62
+[QUOTE]
+"# Privacy Policy
+
+  * Peptide Gurus and its Affiliated Companies (Peptide Gurus, \"we\", \"us\", \"our\") value our relationship with our business partners and any party which may be interested in Peptide Gurus 's business for any reason"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://peptidegurus.com/customer-service/
+[FETCHED_AT] 2026-05-08T06:18:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/qna.md
+[LINE_RANGE] 101-103
+[QUOTE]
+"Q8: Returns & Replacements
+Due to regulations regarding the sale of our products, returns are prohibited. However, in the event that the order is shipped incorrectly or the items received are not the items ordered, please contact us by email. We will issue a replacement of your original order."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://peptidegurus.com/customer-service/
+[FETCHED_AT] 2026-05-08T06:18:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/qna.md
+[LINE_RANGE] 92-96
+[QUOTE]
+"A: We will use discreet packing and door to door safe delivery method. Depending on which country your in,We offer multiple shipping options.
+USA: USPS Priority, FedEx 2 Day (2 business days)
+UK: Royal Mail
+Europe: DHL, DPD, Fedex
+For other countries, please contact us by email"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://peptidegurus.com/customer-service/
+[FETCHED_AT] 2026-05-08T06:18:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/qna.md
+[LINE_RANGE] 79-80
+[QUOTE]
+"A: You can pay by Cashapp,Venmo,Zelle, Paypal, Bitcoin, Bank Transfer, Western Union, Money Gram.Please contact us by email for large bulk discounts."
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://peptidegurus.com/product/bpc157-20mg/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_1__bpc157-20mg.md
+[LINE_RANGE] 127-138
+[QUOTE]
+"# Request Inquery
+
+Name*
+
+Email*
+
+WhatsApp*
+
+Product*
+
+Message*
+
+Customer Category*Individual / Personal UseWholesaler / ResellerCompany / Corporate Buyer"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://peptidegurus.com/customer-service/
+[FETCHED_AT] 2026-05-08T06:18:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/qna.md
+[LINE_RANGE] 92-96
+[QUOTE]
+"USA: USPS Priority, FedEx 2 Day (2 business days)
+UK: Royal Mail
+Europe: DHL, DPD, Fedex"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://peptidegurus.com/about-us-2/
+[FETCHED_AT] 2026-05-08T06:18:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/about.md
+[LINE_RANGE] 92-93
+[QUOTE]
+"Shipping
+
+We provide swift and secure delivery services all over the world."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://peptidegurus.com
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/source_homepage_html.md
+[LINE_RANGE] 22-22
+[QUOTE]
+"for(var i=document.querySelectorAll("div.woocommerce-product-gallery__image"),r=0,a=i.length;r<a;r++)ewwwAttr(i[r],"data-thumb",i[r].getAttribute("data-webp-thumb"))"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://peptidegurus.com
+[FETCHED_AT] 2026-05-08T06:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/source_homepage_html.md
+[LINE_RANGE] 45-45
+[QUOTE]
+"<script   async src="https://www.googletagmanager.com/gtag/js?id=G-9TSNJH53TK"></script>"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://peptidegurus.com/category/news/
+[FETCHED_AT] 2026-05-08T06:18:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/news.md
+[LINE_RANGE] 83-137
+[QUOTE]
+"# News
+
+[](https://peptidegurus.com/retatrutide-for-metabolic-disorders/)
+
+### [Retatrutide for metabolic disorders](https://peptidegurus.com/retatrutide-for-metabolic-disorders/)
+
+Retatrutide for metabolic disorders represents a promising advancement in the treatment landscape for various metabolic conditions."
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://peptidegurus.com
+[FETCHED_AT] 2026-05-08T06:18:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/homepage.md
+[LINE_RANGE] 115-137
+[QUOTE]
+"Retatrutide for metabolic disorders
+
+May 7, 2026
+
+Retatrutide for metabolic disorders represents a promising advancement in the treatment landscape for various metabolic conditions.
+
+Retatrutide high purity peptide
+
+May 7, 2026
+
+Retatrutide mechanism of action diabetes
+
+May 7, 2026"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://peptidegurus.com/about-us-2/
+[FETCHED_AT] 2026-05-08T06:18:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/about.md
+[LINE_RANGE] 92-93
+[QUOTE]
+"Shipping
+
+We provide swift and secure delivery services all over the world."
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://peptidegurus.com
+[FETCHED_AT] 2026-05-08T06:18:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/homepage.md
+[LINE_RANGE] 174-174
+[QUOTE]
+"© Copyright Peptide Gurus 2024. All rights reserved."
+[/QUOTE]
+
+[CLAIM] skus[0].name (BPC157 20MG)
+[URL] https://peptidegurus.com/product/bpc157-20mg/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_1__bpc157-20mg.md
+[LINE_RANGE] 90-96
+[QUOTE]
+"# BPC157 20MG
+
+Categories: [Hot Products](https://peptidegurus.com/product-category/peptide-finished-product/hot-products/), [Peptides and Their Dosages](https://peptidegurus.com/product-category/peptide-finished-product/peptides-and-their-dosages/)
+
+Contact To Order
+
+**Email us now to place your order with 1-on-1 support. Limited stock! We accept Zelle, CashApp, Venmo, bank transfer, and crypto.**"
+[/QUOTE]
+
+[CLAIM] skus[1].name (Retatrutide 5mg)
+[URL] https://peptidegurus.com/product/retatrutide-10mg-2/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_2__retatrutide-5mg.md
+[LINE_RANGE] 90-96
+[QUOTE]
+"# Retatrutide 5mg
+
+Categories: [Hot Products](https://peptidegurus.com/product-category/peptide-finished-product/hot-products/), [Peptide Finished product](https://peptidegurus.com/product-category/peptide-finished-product/), [Peptides and Their Dosages](https://peptidegurus.com/product-category/peptide-finished-product/peptides-and-their-dosages/)
+
+Contact To Order"
+[/QUOTE]
+
+[CLAIM] skus[2].name (Tirzepatide 50mg)
+[URL] https://peptidegurus.com/product/tirzepatide-50mg/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_3__tirzepatide-50mg.md
+[LINE_RANGE] 90-96
+[QUOTE]
+"# Tirzepatide 50mg
+
+Categories: [Peptide Finished product](https://peptidegurus.com/product-category/peptide-finished-product/), [Peptides and Their Dosages](https://peptidegurus.com/product-category/peptide-finished-product/peptides-and-their-dosages/)
+
+Contact To Order"
+[/QUOTE]
+
+[CLAIM] skus[3].name (Glow blend)
+[URL] https://peptidegurus.com/product/ghk-cu-50mg-copper-peptide-3/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_4__glow-blend.md
+[LINE_RANGE] 90-103
+[QUOTE]
+"# Glow (bpc 157 10mg, tb500 10mg , ghk-cu 50mg blend)
+
+Categories: [Hot Products](https://peptidegurus.com/product-category/peptide-finished-product/hot-products/), [Peptide Finished product](https://peptidegurus.com/product-category/peptide-finished-product/), [Peptides and Their Dosages](https://peptidegurus.com/product-category/peptide-finished-product/peptides-and-their-dosages/)
+
+Contact To Order
+
+**Email us now to place your order with 1-on-1 support. Limited stock! We accept Zelle, CashApp, Venmo, bank transfer, and crypto.**"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[INFERENCE] false
+[REASONING]
+No review module, star ratings, or testimonial sections were observed on any of the four product pages fetched, the homepage, or the catalog. The product pages contain only description content, related products, and an inquiry form.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidegurus.com/product/bpc157-20mg/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_1__bpc157-20mg.md
+[LINE_RANGE] 104-140
+"## Related Products
+
+[](https://peptidegurus.com/product/super-mic-b-vitamin/)
+
+Super MIC B Vitamin"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidegurus.com/product/tirzepatide-50mg/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_3__tirzepatide-50mg.md
+[LINE_RANGE] 94-96
+"Contact To Order
+
+**Email us now to place your order with 1-on-1 support. Limited stock! We accept Zelle, CashApp, Venmo, bank transfer, and crypto.**"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+Homepage fetched at 200 OK with no redirect to an age-verification page. No age-gate HTML elements, modal dialogs, or age-check prompts observed in any of the fetched pages.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidegurus.com
+[FETCHED_AT] 2026-05-08T06:18:46Z
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/homepage.md
+[LINE_RANGE] 10-12
+"English
+
+[English](https://peptidegurus.com/en/ "English")[Русский](https://peptidegurus.com/ru/ "Русский")"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidegurus.com/product/bpc157-20mg/
+[FETCHED_AT] 2026-05-08T06:19:24Z
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/product_1__bpc157-20mg.md
+[LINE_RANGE] 10-12
+"English
+
+[English](https://peptidegurus.com/en/product/bpc157-20mg/ "English")"
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation (INFERENCE)
+[INFERENCE] uncertain — likely China-based with US warehouse
+[REASONING]
+The QNA page shows the company header "China So-and-So Co., Ltd." and the WhatsApp/contact number is +86 19521488211 (Chinese country code). The About page and footer address says "Glendale, AZ, USA." These signals are contradictory and suggest a China-based entity with a US mailing address and US-based warehouse fulfillment.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidegurus.com/customer-service/
+[FETCHED_AT] 2026-05-08T06:18:59Z
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/qna.md
+[LINE_RANGE] 70-71
+"* China So-and-So Co., Ltd.
+[info@peptidegurus.com](mailto:info@peptidegurus.com)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidegurus.com
+[FETCHED_AT] 2026-05-08T06:18:46Z
+[RAW_ARTIFACT] 03_raw_fetches/peptide-gurus/homepage.md
+[LINE_RANGE] 168-170
+"* Peptide Gurus
+[info@peptidegurus.com](mail:info@peptidegurus.com)
+* Glendale, AZ, USA"
+[/SUPPORT_QUOTE]

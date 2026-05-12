@@ -1,0 +1,589 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://zyntra-researchlabs.co/
+[FETCHED_AT] 2026-05-08T08:46:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/homepage.md
+[LINE_RANGE] 35-35
+[QUOTE]
+"#### Best seller products"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://zyntra-researchlabs.co/
+[FETCHED_AT] 2026-05-08T08:46:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/homepage.md
+[LINE_RANGE] 35-55
+[QUOTE]
+"#### Best seller products"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://zyntra-researchlabs.co/
+[FETCHED_AT] 2026-05-08T08:46:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/homepage.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"[Add to cart](/?add-to-cart=29426)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://zyntra-researchlabs.co/
+[FETCHED_AT] 2026-05-08T08:46:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/homepage.md
+[LINE_RANGE] 9-14
+[QUOTE]
+"  * [Home](https://zyntra-researchlabs.co/)
+  * [Our ProductsSALE %](https://zyntra-researchlabs.co/shop/)
+  * [About Us](https://zyntra-researchlabs.co/about-us/)
+  * [Contact Us](https://zyntra-researchlabs.co/contact-us/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://zyntra-researchlabs.co/
+[FETCHED_AT] 2026-05-08T08:46:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/homepage.md
+[LINE_RANGE] 415-415
+[QUOTE]
+"All products offered by Zyntra Research Labs are intended strictly for research and laboratory use only. Products are not for human consumption, veterinary use, medical diagnosis, treatment, or prevention of any disease. The information provided on this website is for educational and research reference purposes only and should not be considered medical or professional advice. By purchasing from Zyntra Research Labs, the buyer acknowledges responsibility for proper handling, storage, usage, and compliance with all applicable laws, regulations, and laboratory safety standards."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://zyntra-researchlabs.co/shop/
+[FETCHED_AT] 2026-05-08T08:47:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/catalog_1.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"Showing 1–12 of 15 results"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://zyntra-researchlabs.co/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T08:47:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_1__ghk-cu-50mg.md
+[LINE_RANGE] 64-64
+[QUOTE]
+"SKU:  006  Category: [Peptides](https://zyntra-researchlabs.co/product-category/peptides/)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://zyntra-researchlabs.co/shop/
+[FETCHED_AT] 2026-05-08T08:47:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/catalog_1.md
+[LINE_RANGE] 39-43
+[QUOTE]
+"Show  [ 9  ](https://zyntra-researchlabs.co/shop/?per_page=9) [ 12  ](https://zyntra-researchlabs.co/shop/?per_page=12) [ 18  ](https://zyntra-researchlabs.co/shop/?per_page=18) [ 24  ](https://zyntra-researchlabs.co/shop/?per_page=24)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://zyntra-researchlabs.co/shop/
+[FETCHED_AT] 2026-05-08T08:47:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/catalog_1.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"Showing 1–12 of 15 results"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://zyntra-researchlabs.co/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T08:47:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_1__ghk-cu-50mg.md
+[LINE_RANGE] 41-47
+[QUOTE]
+"#  GHK-CU – 50mg
+
+~~$ 35.00~~ Original price was: $35.00.$25.00Current price is: $25.00."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://zyntra-researchlabs.co/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T08:47:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_1__ghk-cu-50mg.md
+[LINE_RANGE] 41-41
+[QUOTE]
+"#  GHK-CU – 50mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://zyntra-researchlabs.co/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T08:47:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_1__ghk-cu-50mg.md
+[LINE_RANGE] 47-47
+[QUOTE]
+"~~$ 35.00~~ Original price was: $35.00.$25.00Current price is: $25.00."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://zyntra-researchlabs.co/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T08:47:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_1__ghk-cu-50mg.md
+[LINE_RANGE] 75-85
+[QUOTE]
+"GHK-CU (50mg) — Lyophilized Powder
+
+For Laboratory, Scientific, and In-Vitro Research Only
+
+Not for human consumption. Not for medical, therapeutic, or veterinary use.
+
+Zyntra Research Labs provides high-purity investigational research peptides for qualified professionals, laboratories, and institutions."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://zyntra-researchlabs.co/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T08:47:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_1__ghk-cu-50mg.md
+[LINE_RANGE] 81-83
+[QUOTE]
+"For Laboratory, Scientific, and In-Vitro Research Only
+
+Not for human consumption. Not for medical, therapeutic, or veterinary use."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://zyntra-researchlabs.co/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T08:47:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_1__ghk-cu-50mg.md
+[LINE_RANGE] 41-120
+[QUOTE]
+"#  GHK-CU – 50mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://zyntra-researchlabs.co/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T08:47:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_1__ghk-cu-50mg.md
+[LINE_RANGE] 101-103
+[QUOTE]
+"##  Reviews
+
+There are no reviews yet."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://zyntra-researchlabs.co/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T08:47:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_1__ghk-cu-50mg.md
+[LINE_RANGE] 113-117
+[QUOTE]
+"## Related products
+
+[ ](https://zyntra-researchlabs.co/product/aod-9604-5mg/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://zyntra-researchlabs.co/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T08:47:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_1__ghk-cu-50mg.md
+[LINE_RANGE] 28-33
+[QUOTE]
+"[](https://i0.wp.com/zyntra-researchlabs.co/wp-content/uploads/2026/01/GHK-CU.jpg?fit=1024%2C1536&ssl=1)
+
+[ ](https://i0.wp.com/zyntra-researchlabs.co/wp-content/uploads/2026/01/ghk-cu-50mg-6933028.png?fit=1582%2C2048&ssl=1)
+
+[ ](https://i0.wp.com/zyntra-researchlabs.co/wp-content/uploads/2026/01/ghk-cu-50mg-7730273.png?fit=612%2C792&ssl=1)
+
+Click to enlarge"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://zyntra-researchlabs.co/terms-conditions/
+[FETCHED_AT] 2026-05-08T08:48:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/tos.md
+[LINE_RANGE] 49-50
+[QUOTE]
+"All products provided by Zyntra Research Labs are intended strictly for research purposes and are not for human consumption, veterinary use, or any clinical applications. Users are responsible for ensuring proper handling, storage, and disposal according to laboratory safety standards."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://zyntra-researchlabs.co/
+[FETCHED_AT] 2026-05-08T08:46:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/homepage.md
+[LINE_RANGE] 1-461
+[QUOTE]
+"Skip to navigation  Skip to main content"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://zyntra-researchlabs.co/terms-conditions/
+[FETCHED_AT] 2026-05-08T08:48:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/tos.md
+[LINE_RANGE] 36-67
+[QUOTE]
+"Welcome to Zyntra Research Labs. By accessing or using our website and services, you agree to comply with the following terms and conditions."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://zyntra-researchlabs.co/
+[FETCHED_AT] 2026-05-08T08:46:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/homepage.md
+[LINE_RANGE] 408-408
+[QUOTE]
+"[ terms & conditions ](https://zyntra-researchlabs.co/terms-conditions/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://zyntra-researchlabs.co/terms-conditions/
+[FETCHED_AT] 2026-05-08T08:48:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/tos.md
+[LINE_RANGE] 39-66
+[QUOTE]
+"Zyntra Research Labs provides information, products, and research materials intended strictly for professional research and laboratory purposes. By using our website, you confirm that you are authorized to access, purchase, or use the products for research purposes only."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://zyntra-researchlabs.co/refund_returns/
+[FETCHED_AT] 2026-05-08T08:48:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/refund.md
+[LINE_RANGE] 37-40
+[QUOTE]
+"Due to the nature of our products, returns are generally accepted only in cases of shipping errors, defective items, or damaged products received during transit. Products must be returned in their original packaging and in the condition they were received."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://zyntra-researchlabs.co/shipping-policy/
+[FETCHED_AT] 2026-05-08T08:48:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/shipping.md
+[LINE_RANGE] 38-38
+[QUOTE]
+"All orders are processed after payment confirmation and verification of order details. We make every effort to process and ship orders promptly, typically within 1–3 business days."
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://zyntra-researchlabs.co/cart/
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/checkout_step_1.md
+[LINE_RANGE] 35-35
+[QUOTE]
+"Your cart is currently empty."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://zyntra-researchlabs.co/
+[FETCHED_AT] 2026-05-08T08:46:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/source_homepage.md
+[LINE_RANGE] 8-11
+[QUOTE]
+"Platform: WordPress + WooCommerce (detected via wp-content/plugins/, woocommerce-payments, woodmart theme)
+Theme: Woodmart (ver=8.3.8 detected in CSS paths)
+Payment plugins: airwallex-online-payments-gateway (ver 1.30.2), woocommerce-payments, woo-paypal-payments, woo-payment-plugin-stripe"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://zyntra-researchlabs.co/shipping-policy/
+[FETCHED_AT] 2026-05-08T08:48:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/shipping.md
+[LINE_RANGE] 42-42
+[QUOTE]
+"Shipping fees are calculated based on order weight, destination, and selected delivery method. Any applicable taxes, duties, or customs charges imposed by the destination country are the responsibility of the recipient."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://zyntra-researchlabs.co/shipping-policy/
+[FETCHED_AT] 2026-05-08T08:48:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/shipping.md
+[LINE_RANGE] 48-48
+[QUOTE]
+"For international orders, customs regulations and import laws vary by country. Customers are responsible for compliance with all local regulations, including any duties, taxes, or restrictions applicable to the shipment."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://zyntra-researchlabs.co/
+[FETCHED_AT] 2026-05-08T08:46:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/source_homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"Platform: WordPress + WooCommerce (detected via wp-content/plugins/, woocommerce-payments, woodmart theme)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://zyntra-researchlabs.co/
+[FETCHED_AT] 2026-05-08T08:46:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/source_homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"CDN/Server: nginx (from HTTP headers)"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://zyntra-researchlabs.co/
+[FETCHED_AT] 2026-05-08T08:46:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/source_homepage.md
+[LINE_RANGE] 15-15
+[QUOTE]
+"Chat widget: "crisp" referenced only as CSS variable name in WP block, not as live chat script"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://zyntra-researchlabs.co/
+[FETCHED_AT] 2026-05-08T08:46:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/homepage.md
+[LINE_RANGE] 395-415
+[QUOTE]
+"  * [ Home ](https://zyntra-researchlabs.co/)
+  * [ All Products  ](https://zyntra-researchlabs.co/shop)
+  * [ About Us ](https://zyntra-researchlabs.co/about-us/)
+  * [ Contact Us ](https://zyntra-researchlabs.co/contact-us/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://zyntra-researchlabs.co/about-us/
+[FETCHED_AT] 2026-05-08T08:48:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/about.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"[ SHOP NOW  ](https://zyntra-researchlabs.co/shop/)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://zyntra-researchlabs.co/
+[FETCHED_AT] 2026-05-08T08:46:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/homepage.md
+[LINE_RANGE] 348-375
+[QUOTE]
+"#### what customer say about us?
+
+Zyntra Research Labs delivers consistent quality with every order. The purity and documentation standards give our lab full confidence in their materials.
+
+Michael R.  Verified"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://zyntra-researchlabs.co/
+[FETCHED_AT] 2026-05-08T08:46:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/homepage.md
+[LINE_RANGE] 348-393
+[QUOTE]
+"#### what customer say about us?
+
+Zyntra Research Labs delivers consistent quality with every order. The purity and documentation standards give our lab full confidence in their materials.
+
+Michael R.  Verified
+
+We've been sourcing research materials from Zyntra Research Labs for months now, and the consistency across batches has been excellent. Their attention to quality truly stands out.
+
+Sarah M.  Verified"
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://zyntra-researchlabs.co/
+[FETCHED_AT] 2026-05-08T08:46:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/homepage.md
+[LINE_RANGE] 417-417
+[QUOTE]
+"**ZYNTRA RESEARCH LABS** © 2026. All Rights Reserved."
+[/QUOTE]
+
+[CLAIM] claim-sku-mots-c
+[URL] https://zyntra-researchlabs.co/product/mots-c-10mg/
+[FETCHED_AT] 2026-05-08T08:47:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_2__mots-c-10mg.md
+[LINE_RANGE] 41-43
+[QUOTE]
+"#  MOTS-C – 10mg
+
+$30.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-cjc
+[URL] https://zyntra-researchlabs.co/product/cjc-1295-no-dac-10mg/
+[FETCHED_AT] 2026-05-08T08:47:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_3__cjc-1295-no-dac-10mg.md
+[LINE_RANGE] 41-43
+[QUOTE]
+"#  CJC-1295 No DAC – 10mg
+
+$35.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-ghk-cu
+[URL] https://zyntra-researchlabs.co/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T08:47:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_1__ghk-cu-50mg.md
+[LINE_RANGE] 41-47
+[QUOTE]
+"#  GHK-CU – 50mg
+
+~~$ 35.00~~ Original price was: $35.00.$25.00Current price is: $25.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-sema
+[URL] https://zyntra-researchlabs.co/product/1sg-10mg/
+[FETCHED_AT] 2026-05-08T08:47:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_4__sema-10mg.md
+[LINE_RANGE] 41-43
+[QUOTE]
+"#  SEMA – 10mg
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-reta
+[URL] https://zyntra-researchlabs.co/product/3rt-10mg/
+[FETCHED_AT] 2026-05-08T08:47:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_5__reta-10mg.md
+[LINE_RANGE] 41-43
+[QUOTE]
+"#  RETA – 10mg
+
+$65.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-tirz
+[URL] https://zyntra-researchlabs.co/product/2tz-10mg/
+[FETCHED_AT] 2026-05-08T08:47:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_6__tirz-10mg.md
+[LINE_RANGE] 41-43
+[QUOTE]
+"#  TIRZ – 10mg
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-semax
+[URL] https://zyntra-researchlabs.co/product/semax-5mg/
+[FETCHED_AT] 2026-05-08T08:47:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_7__semax-5mg.md
+[LINE_RANGE] 41-43
+[QUOTE]
+"#  SEMAX – 5mg
+
+$20.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-ipa
+[URL] https://zyntra-researchlabs.co/product/ipa-10mg/
+[FETCHED_AT] 2026-05-08T08:47:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_8__ipa-10mg.md
+[LINE_RANGE] 43-45
+[QUOTE]
+"#  IPA – 10mg
+
+$35.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-mt2
+[URL] https://zyntra-researchlabs.co/product/mt-2-10mg/
+[FETCHED_AT] 2026-05-08T08:47:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_9__mt-2-10mg.md
+[LINE_RANGE] 41-43
+[QUOTE]
+"#  MT-2 – 10mg
+
+$30.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-aod
+[URL] https://zyntra-researchlabs.co/product/aod-9604-5mg/
+[FETCHED_AT] 2026-05-08T08:47:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_10__aod-9604-5mg.md
+[LINE_RANGE] 39-41
+[QUOTE]
+"#  AOD-9604 – 5mg
+
+$25.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-hgh
+[URL] https://zyntra-researchlabs.co/product/hgh-50iu/
+[FETCHED_AT] 2026-05-08T08:48:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_11__hgh-50iu.md
+[LINE_RANGE] 37-43
+[QUOTE]
+"#  HGH – 50IU
+
+$60.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-klow
+[URL] https://zyntra-researchlabs.co/product/klow-80mg/
+[FETCHED_AT] 2026-05-08T08:48:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_12__klow-80mg.md
+[LINE_RANGE] 37-43
+[QUOTE]
+"#  KLOW – 80mg
+
+$70.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-tesa
+[URL] https://zyntra-researchlabs.co/product/tesa-10mg/
+[FETCHED_AT] 2026-05-08T08:48:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_13__tesa-10mg.md
+[LINE_RANGE] 36-38
+[QUOTE]
+"#  TESA – 10MG
+
+~~$ 50.00~~ Original price was: $50.00.$45.00Current price is: $45.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-hospira
+[URL] https://zyntra-researchlabs.co/product/hospira-water-30ml/
+[FETCHED_AT] 2026-05-08T08:48:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_14__hospira-water-30ml.md
+[LINE_RANGE] 37-43
+[QUOTE]
+"#  Hospira BAC Water – 30mL
+
+$20.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-syringes
+[URL] https://zyntra-researchlabs.co/product/insulin-syringes-10ct/
+[FETCHED_AT] 2026-05-08T08:48:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zyntra-research-labs/product_15__insulin-syringes-10ct.md
+[LINE_RANGE] 37-43
+[QUOTE]
+"#  Insulin Syringes – 10ct
+
+$10.00"
+[/QUOTE]

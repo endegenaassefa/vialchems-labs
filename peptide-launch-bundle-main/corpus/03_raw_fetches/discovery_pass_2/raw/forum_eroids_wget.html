@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <link rel="profile" href="https://www.w3.org/1999/xhtml/vocab" />
+  
+  <style type="text/css">@font-face {font-family:Roboto;font-style:normal;font-weight:300;src:url(/cf-fonts/s/roboto/5.0.11/latin/300/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:300;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic-ext/300/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:300;src:url(/cf-fonts/s/roboto/5.0.11/latin-ext/300/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:300;src:url(/cf-fonts/s/roboto/5.0.11/vietnamese/300/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:300;src:url(/cf-fonts/s/roboto/5.0.11/greek/300/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:300;src:url(/cf-fonts/s/roboto/5.0.11/greek-ext/300/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:300;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic/300/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/greek-ext/400/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic/400/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/latin/400/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic-ext/400/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/greek/400/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/latin-ext/400/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/vietnamese/400/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/vietnamese/500/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic/500/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/latin/500/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/greek-ext/500/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic-ext/500/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/greek/500/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/latin-ext/500/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:700;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic/700/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:700;src:url(/cf-fonts/s/roboto/5.0.11/greek-ext/700/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:700;src:url(/cf-fonts/s/roboto/5.0.11/vietnamese/700/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:700;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic-ext/700/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:700;src:url(/cf-fonts/s/roboto/5.0.11/latin/700/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:700;src:url(/cf-fonts/s/roboto/5.0.11/latin-ext/700/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Roboto;font-style:normal;font-weight:700;src:url(/cf-fonts/s/roboto/5.0.11/greek/700/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:300;src:url(/cf-fonts/s/roboto/5.0.11/latin-ext/300/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:300;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic-ext/300/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:300;src:url(/cf-fonts/s/roboto/5.0.11/latin/300/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:300;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic/300/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:300;src:url(/cf-fonts/s/roboto/5.0.11/vietnamese/300/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:300;src:url(/cf-fonts/s/roboto/5.0.11/greek-ext/300/italic.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:300;src:url(/cf-fonts/s/roboto/5.0.11/greek/300/italic.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/latin/400/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/latin-ext/400/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic/400/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/vietnamese/400/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic-ext/400/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/greek-ext/400/italic.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:400;src:url(/cf-fonts/s/roboto/5.0.11/greek/400/italic.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic/500/italic.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/greek-ext/500/italic.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/latin/500/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/latin-ext/500/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/vietnamese/500/italic.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/greek/500/italic.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Roboto;font-style:italic;font-weight:500;src:url(/cf-fonts/s/roboto/5.0.11/cyrillic-ext/500/italic.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://www.eroids.com/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="A place for source owners and steroid users to discuss specific issues." />
+<link rel="canonical" href="https://www.eroids.com/sourcetalk" />
+    <title>Steroid Source Talk - Support & Direct Communication with Your Source</title>
+  
+  <link rel="stylesheet" href="https://www.eroids.com/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link rel="stylesheet" href="https://www.eroids.com/sites/default/files/css/css_wK_6OkTymLeGE8EAA_dnsRvCJEpFx6LktC0tHt1BluE.css" media="screen" />
+<link rel="stylesheet" href="https://www.eroids.com/sites/default/files/css/css_aGuvspqsodmpElkuZaGc6atWzLKufGOzH4PBX-5dopk.css" media="all" />
+<link rel="stylesheet" href="https://www.eroids.com/sites/default/files/css/css_PuOwft760KN4RqR182VyhTTY9I_HMCCwHi09l43BPaY.css" media="all" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" media="all" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.3.1/7.x-3.x/drupal-bootstrap.min.css" media="all" />
+<link rel="stylesheet" href="https://www.eroids.com/sites/default/files/css/css_hM2lAeEJ40BLnP3u_j5glE-iNtBrD5VLaIsriWxoPs4.css" media="all" />
+<link rel="stylesheet" href="https://www.eroids.com/styleswitcher/css/wank?tdc7yx" media="all" id="styleswitcher-css" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script src="https://www.eroids.com/sites/default/files/js/js_6UR8aB1w5-y_vdUUdWDWlX2QhWu_qIXlEGEV48YgV-c.js"></script>
+<script src="https://www.eroids.com/sites/default/files/js/js_lXoMunapcAj6-VjWP2jJ9vKsFkfQIxcks9S9piGjziw.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+<script src="https://www.eroids.com/sites/default/files/js/js_OogS7WXqNwWTZECjhM4QEEkl6m473kyQwc6Nc1D3mXY.js"></script>
+<script src="https://www.eroids.com/sites/default/files/js/js_2BsR4_1wuVYoHSRHeWKrGXAisN0JEumdRqJblpQldSU.js"></script>
+<script src="https://www.eroids.com/sites/default/files/js/js_Y0jYoynBxCBAH9M2X_m9mHrQQvcPaeKllxAc7maDTDs.js"></script>
+<script src="https://www.eroids.com/sites/default/files/js/js_ZA7Xjo9kI_rU0SJp_8u4VbawHwll6JEb3kByQj-gXxk.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"wank","theme_token":"n4hwZNdj9Cg8jkLQooZk2EX1ekXEKGpgGJZbSC6mwa8","jquery_version":"2.1","jquery_version_token":"Krbrb3OmcZU1Ym5BrVSiJXrjgyd2sHlrvx9dAk4M_Pg","css":{"modules\/system\/system.base.css":1,"sites\/all\/libraries\/owl-carousel\/owl.carousel.css":1,"sites\/all\/libraries\/owl-carousel\/owl.theme.css":1,"sites\/all\/libraries\/owl-carousel\/owl.transitions.css":1,"sites\/all\/modules\/comment_notify\/comment_notify.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/ubercart\/uc_order\/uc_order.css":1,"sites\/all\/modules\/ubercart\/uc_product\/uc_product.css":1,"sites\/all\/modules\/ubercart\/uc_store\/uc_store.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/styleswitcher\/styleswitcher.overlay.css":1,"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.4.1\/dist\/css\/bootstrap.min.css":1,"https:\/\/cdn.jsdelivr.net\/npm\/@unicorn-fail\/drupal-bootstrap-styles@0.0.2\/dist\/3.3.1\/7.x-3.x\/drupal-bootstrap.min.css":1,"sites\/all\/themes\/wank\/css\/style.css":1,"https:\/\/www.eroids.com\/styleswitcher\/css\/wank":1},"js":{"sites\/all\/libraries\/owl-carousel\/owl.carousel.min.js":1,"sites\/all\/modules\/owlcarousel\/includes\/js\/owlcarousel.settings.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/2.2\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_browser.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery.form\/4\/jquery.form.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"misc\/form-single-submit.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.4.1\/dist\/js\/bootstrap.min.js":1,"sites\/all\/modules\/entityreference\/js\/entityreference.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/better_exposed_filters\/better_exposed_filters.js":1,"sites\/all\/modules\/ctools\/js\/auto-submit.js":1,"sites\/all\/modules\/styleswitcher\/styleswitcher.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_progress.js":1,"sites\/all\/modules\/views\/js\/base.js":1,"sites\/all\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/themes\/wank\/js\/ajaxscrollfix.js":1,"sites\/all\/themes\/wank\/js\/copyfields.js":1,"sites\/all\/themes\/wank\/js\/scroll-to-comments.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/ajax.js":1,"sites\/all\/themes\/bootstrap\/js\/modules\/views\/js\/ajax_view.js":1}},"googleCSE":{"cx":"003041220577495892042:wtooxmuds1k","resultsWidth":600,"domain":"www.google.com","showWaterMark":0},"better_exposed_filters":{"views":{"discussions":{"displays":{"page":{"filters":[]}}},"recent_reviews":{"displays":{"reviews":{"filters":[]}}},"pagepeek_top_10":{"displays":{"top_10_exposed_block":{"filters":{"taxonomy_vocabulary_31_tid":{"required":false}}}}},"friends_online":{"displays":{"friendsonline":{"filters":[]}}}},"datepicker":false,"slider":false,"settings":[],"autosubmit":false},"urlIsAjaxTrusted":{"https:\/\/www.eroids.com\/sourcetalk":true,"\/views\/ajax":true,"\/sourcetalk\/":true},"owlcarousel":{"owl-carousel-top_10_exposed_block12":{"settings":{"items":10,"itemsDesktop":["1199",10],"itemsDesktopSmall":["979",7],"itemsTablet":["768",5],"itemsTabletSmall":["0",3],"itemsMobile":["479",3],"singleItem":false,"itemsScaleUp":false,"slideSpeed":200,"paginationSpeed":800,"rewindSpeed":1000,"autoPlay":"5000","stopOnHover":false,"navigation":false,"navigationText":["prev","next"],"rewindNav":true,"scrollPerPage":false,"pagination":true,"paginationNumbers":false,"responsive":true,"responsiveRefreshRate":200,"baseClass":"owl-carousel","theme":"owl-theme","lazyLoad":false,"lazyFollow":true,"lazyEffect":"fadeIn","autoHeight":false,"jsonPath":false,"jsonSuccess":false,"dragBeforeAnimFinish":true,"mouseDrag":true,"touchDrag":true,"addClassActive":true,"transitionStyle":false},"views":{"ajax_pagination":0}}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:a002c9ff42403ffc5494f5bcd9c9f8de":{"view_name":"pagepeek_top_10","view_display_id":"top_10_exposed_block","view_args":"","view_path":"sourcetalk","view_base_path":null,"view_dom_id":"a002c9ff42403ffc5494f5bcd9c9f8de","pager_element":0},"views_dom_id:7cc5ead2cd4aa8aa872aa3031f8ca876":{"view_name":"friends_online","view_display_id":"friendsonline","view_args":"0","view_path":"sourcetalk","view_base_path":null,"view_dom_id":"7cc5ead2cd4aa8aa872aa3031f8ca876","pager_element":0}}},"styleSwitcher":{"styles":{"custom\/default":{"label":"light","name":"custom\/default","path":"https:\/\/www.eroids.com\/styleswitcher\/css\/wank","weight":"0","status":true,"is_default":true,"_i":0,"theme":"wank"},"custom\/dark":{"label":"dark","name":"custom\/dark","path":"https:\/\/www.eroids.com\/sites\/all\/themes\/wank\/css\/dark_v20260423.css","weight":"0","status":true,"is_default":false,"_i":1,"theme":"wank"}},"default":"custom\/default","enableOverlay":0,"cookieExpire":31536000,"theme":"wank"},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto top","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+	<script async src="//app.gasads.net/delivery/asyncjs.php"></script>
+  
+</head>
+
+
+<!-- latest barnch -->
+
+  <body class="navbar-is-fixed-top html not-front not-logged-in no-sidebars page-sourcetalk">
+
+
+      <div id='ed-alert-8' class='alert bs-site-alert alert-warning alert-type-tip' role='alert'><a href="/close-alert/25b84c09-c69d-425f-97a7-a3b9dd8f4f4d/nojs" class="use-ajax close" aria-label="Close" title="Close">x</a><p><span class="glyphicon glyphicon-alert"></span> <a href="/rules">Conducting business via Private Messaging is NOT ALLOWED!</a> <span class="glyphicon glyphicon-alert"></span></p>
+</div>    <header id="navbar" role="banner" class="navbar navbar-fixed-top navbar-default">
+  <div class="container">
+
+    <nav>
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+
+          <button type="button" class="hidden-sm hidden-md hidden-lg navbar-toggle collapsed avatar" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                          
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+                    </button>
+
+          <!-- msg count on mobile shown if logged in -->
+                    <!-- end msg count on mobile -->
+          <div class="hidden-sm hidden-md hidden-lg navbar-msg pull-right">
+            <a href="/pulse">
+              <span class="pulse-icon">
+                <span data-toggle="tooltip" title="eroids pulse" data-original-title="eroids pulse" class="glyphicon glyphicon-heart"></span>
+              </span>
+            </a>
+          </div>    
+          <a class="hidden-sm hidden-md hidden-lg navbar-brand" href="/"><img src="/sites/all/themes/wank/logoE.png" alt="eroids.com" /></a>
+          <a class="hidden-xs navbar-brand" href="/"><img src="https://www.eroids.com/sites/all/themes/wank/logo.png" alt="eroids.com" /></a>
+            <div class="region region-searchcse">
+    <section id="block-search-form" class="block block-search clearfix">
+
+      
+  <form class="google-cse form-search content-search" action="/sourcetalk/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div>
+      <h2 class="element-invisible">Search form</h2>
+    <div class="input-group"><input title="Enter the terms you wish to search for." placeholder="Search" class="form-control form-text form-search" type="search" id="edit-search-block-form--2" name="search_block_form" value="" size="" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+</button></span></div><div class="form-actions form-wrapper form-group" id="edit-actions"><button class="element-invisible btn btn-sm btn-primary form-submit" type="submit" id="edit-submit" name="op" value="Search">Search</button>
+</div><input type="hidden" name="form_build_id" value="form-e2AzPjXJB5lZg1l9QRkfFhTovnaGTeYou5jREhXiEPU" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+</section>
+  </div>
+
+
+        </div>
+        <!-- end navbar-header -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-form navbar-right">
+
+            <!-- Split button -->
+            <div class="btn-group">         
+              <div class="hidden-xs navbar-msg pull-left">
+                <a href="/pulse">
+                  <span class="pulse-icon">
+                    <span data-toggle="tooltip" title="eroids pulse" data-original-title="eroids pulse" class="glyphicon glyphicon-heart"></span>
+                  </span>
+                </a>
+              </div>
+              
+              <!-- User MENU -->
+                                  <a type="button" class="hidden-xs btn btn-sm btn-primary" href="/user">Log in</a>                  
+                              
+
+              <!-- desktop user menu ITEMS -->
+              <ul class="dropdown-menu hidden-xs ">
+                <li>
+                  <div class="btn-group center" role="group" aria-label="login">
+                                    
+                    <a type="button" class="btn btn-sm btn-success" href="/user/register">Register</a>
+                    <a type="button" class="btn btn-sm btn-primary" href="/user">Log in</a>
+                                      </div>
+                </li>                        
+                <li role="separator" class="divider"></li>                
+                <li><a href="/rules">User Rules</a></li>
+                <li><a href="/src-rules">Source Rules</a></li>
+                <li role="separator" class="divider"></li>                
+                <li><a href="/node/add">Submit Content</a></li>
+                                                
+              </ul>
+              <!-- end desktop user menu ITEMS -->
+
+              <!-- mobile user menu ITEMS -->
+              <span class="hidden-mobile hidden-sm hidden-md hidden-lg">
+                  <div class="btn-group center" role="group" aria-label="login">
+                                        <a type="button" class="btn btn-sm btn-default" href="/src-rules">SRC Rules</a>
+                    <a type="button" class="btn btn-sm btn-default" href="/rules">User Rules</a>
+                    <a type="button" class="btn btn-sm btn-success" href="/user/register">Register</a>
+                    <a type="button" class="btn btn-sm btn-primary" href="/user">Log in</a>
+                                      </div>
+              </span>
+
+            </div><!-- end Split button group -->
+
+          </ul>
+
+
+          <!-- desktop menu -->
+          <ul class="hidden-xs nav navbar-nav navbar-left">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sources <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/reviews">Reviews</a></li>
+                <li><a href="/sourcetalk">Source Talk</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Steroids <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/steroid-reviews">Reviews</a></li>
+                <li><a href="/steroidtalk">Steroid Talk</a></li>
+              </ul>
+            </li>              
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/forum">Forums</a></li>
+                <li><a href="/pics">Pictures</a></li>
+                <li><a href="/cycles">Cycle Logs</a></li>
+                <li><a href="/group">Groups</a></li>
+                <li><a href="/news">News</a></li>
+                <li><a href="#"><del>EBC</del></a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- end desktop menu -->
+
+          <!-- mobile menu -->
+          <div class="hidden-sm hidden-md hidden-lg nav navbar-nav navbar-left">
+            <span class="pull-righ">  <div class="region region-theme-switch">
+    <section id="block-styleswitcher-styleswitcher" class="block block-styleswitcher clearfix">
+
+        <h2 class="block-title">Style Switcher</h2>
+    
+  <ul><li><a href="/styleswitcher/switch/wank/custom/default?destination=sourcetalk" class="style-switcher custom-style style-default" data-rel="custom/default" rel="nofollow">light</a></li>
+<li><a href="/styleswitcher/switch/wank/custom/dark?destination=sourcetalk" class="style-switcher custom-style style-dark" data-rel="custom/dark" rel="nofollow">dark</a></li>
+</ul>
+</section>
+  </div>
+</span>
+            <span class="mobile-menu">
+              <a href="/reviews">Reviews</a>
+              <a href="/sourcetalk">Source Talk</a>
+              <a href="/steroid-reviews">Steroids </a>
+              <a href="/steroidtalk" class="menu-padding-10">Steroid Talk</a>
+              <a href="/forum">Forums</a>
+              <a href="/pics">Pictures</a>
+              <a href="/cycles">Cycle Logs</a>
+              <a href="/group">Groups</a>
+              <a href="/news">News</a>
+              <a href="#"><del>EBC</del></a>
+              <a class="submit-mobile-menu" href="/node/add">Submit</a>
+                                   
+            </span>
+          </div>
+          <!-- end mobile menu -->
+
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+  </div>
+</header>
+
+
+<div class="main-container container">
+
+  <header role="banner" id="page-header">
+          </header> <!-- /#page-header -->
+
+  <div class="row">
+
+    
+
+    <section class="col-sm-12">
+      
+      <ol class="breadcrumb"><li><a href="/">Home</a></li>
+<li class="active">Source Talk</li>
+</ol>
+                    <h5 class="page-header">Source Talk</h5>
+            
+      <div class="row">
+        <div class="col-sm-12">
+                  </div>
+      </div>
+
+                  
+                    <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <div class="row">
+  <!-- start content -->
+  <div class="col-sm-9">
+    <div class="content_wrapper">
+      
+      <div class="text-center adblock ads">
+        
+    <script type='text/javascript'>
+    document.addEventListener('DOMContentLoaded', function() {
+        var isMobile = window.innerWidth < 768;
+        var adUnits = document.querySelectorAll('.ads');
+        adUnits.forEach(function(adUnit) {
+            if (adUnit.querySelector('ins[data-gasadsnet-zoneid]')) return;
+            var adWidth = adUnit.offsetWidth;
+            var adHeight = adUnit.offsetHeight;
+            var zoneId = null;
+            if (adWidth === 160 && adHeight === 600) {
+                zoneId = 7;
+            } else if (adHeight > 250) {
+                zoneId = 3;
+            } else if (adHeight < 120) {
+                if (adWidth >= 728) zoneId = 6;
+                else if (adWidth >= 468) zoneId = 1;
+                else if (isMobile) zoneId = 5;
+                else zoneId = 2;
+            } else {
+                if (adWidth >= 728) zoneId = 6;
+                else if (adWidth >= 300) zoneId = isMobile ? 5 : 3;
+                else zoneId = isMobile ? 5 : 2;
+            }
+            if (zoneId) {
+                adUnit.innerHTML = "<ins data-gasadsnet-zoneid='" + zoneId + "' data-gasadsnet-id='de96591a0385e3fbe68783d28e8a5e93' style='display:block'></ins>";
+            }
+        });
+        var checkRevive = setInterval(function() {
+            if (typeof reviveAsync !== 'undefined' && reviveAsync.de96591a0385e3fbe68783d28e8a5e93) {
+                clearInterval(checkRevive);
+                reviveAsync.de96591a0385e3fbe68783d28e8a5e93.refresh();
+            }
+        }, 50);
+        setTimeout(function() { clearInterval(checkRevive); }, 5000);
+    });
+    </script>      </div>
+
+<div class="view view-discussions view-id-discussions view-display-id-page view-dom-id-e29326aedfb437af09b57c8136e628d4">
+        
+  
+  
+      <div class="view-content">
+      
+
+<div id="views-bootstrap-list-group-1" class="list-group views-bootstrap-list-group-plugin-style">
+                      <a href="/sourcetalk/Titans.to" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >olivedrabhoodie, 46 min 8 sec ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >35,203</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">Titans.to</span><br>
+  <span class="description pull-left"><span class="author">UncleYoked</span> Aug, 2013</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >olivedrabhoodie, 46 min 8 sec ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >35,203</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/biopharma.la" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >BFranklin, 1 hour 12 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >859</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">biopharma.la</span><br>
+  <span class="description pull-left"><span class="author">Bigshark</span> Jan, 2023</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >BFranklin, 1 hour 12 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >859</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/Basicstero.ws" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >basicstero.ws, 1 hour 13 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >10,389</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">Basicstero.ws</span><br>
+  <span class="description pull-left"><span class="author">basicstero.ws</span> Jul, 2015</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >basicstero.ws, 1 hour 13 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >10,389</span>
+  </div>
+</div>  </a>      
+              <li class="list-group-item text-center well well-sm">
+          <span class="adicon">ad</span><ins data-gasadsnet-zoneid='8' data-gasadsnet-id='de96591a0385e3fbe68783d28e8a5e93'></ins>        </li>      
+                  <a href="/sourcetalk/osgear.to" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Duckjr78, 1 hour 14 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >13,704</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">osgear.to</span><br>
+  <span class="description pull-left"><span class="author">Osgear</span> Sep, 2014</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Duckjr78, 1 hour 14 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >13,704</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/pureanabolics.co" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Tinman79, 1 hour 23 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >23,673</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">pureanabolics.co</span><br>
+  <span class="description pull-left"><span class="author">eighty7</span> Jun, 2019</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Tinman79, 1 hour 23 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >23,673</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/hghroid.co" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Dot, 1 hour 39 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >441</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">hghroid.co</span><br>
+  <span class="description pull-left"><span class="author">HghRoidUSDomestic</span> Jun, 2021</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Dot, 1 hour 39 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >441</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/USROIDS.COM" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Balrog, 2 hours 41 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >22,804</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">USROIDS.COM</span><br>
+  <span class="description pull-left"><span class="author">keytech</span> Mar, 2019</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Balrog, 2 hours 41 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >22,804</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/GoRoids.in" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >LexFanz, 2 hours 57 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >1,917</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">GoRoids.in</span><br>
+  <span class="description pull-left"><span class="author">SteroidHub</span> May, 2016</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >LexFanz, 2 hours 57 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >1,917</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/legalsteroidssale.com" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Roastbeast86, 3 hours 51 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >5,640</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">legalsteroidssale.com</span><br>
+  <span class="description pull-left"><span class="author">GDRoids</span> Jul, 2023</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Roastbeast86, 3 hours 51 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >5,640</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/PRO-SUPPS.COM" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >unseen423, 5 hours 12 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >129</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">PRO-SUPPS.COM</span><br>
+  <span class="description pull-left"><span class="author">PRO SUPPS</span> Jul, 2023</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >unseen423, 5 hours 12 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >129</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/ironlion-lab.is" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Heartattackman, 6 hours 11 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >2,951</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">ironlion-lab.is</span><br>
+  <span class="description pull-left"><span class="author">ironlion</span> Sep, 2014</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Heartattackman, 6 hours 11 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >2,951</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/1776.bz" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >N2F, 6 hours 43 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >6,099</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">1776.bz</span><br>
+  <span class="description pull-left"><span class="author">76</span> Mar, 2022</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >N2F, 6 hours 43 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >6,099</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/nexuspharma.to" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Balrog, 10 hours 22 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >157</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">nexuspharma.to</span><br>
+  <span class="description pull-left"><span class="author">NEXUS PHARMA</span> Mar, 2026</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Balrog, 10 hours 22 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >157</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/zphcstore.com" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Milkshake7272, 11 hours 46 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >568</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">zphcstore.com</span><br>
+  <span class="description pull-left"><span class="author">zphcstore</span> Jul, 2021</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Milkshake7272, 11 hours 46 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >568</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/teamroids.to" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >D-Bol, 16 hours 21 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >4,518</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">teamroids.to</span><br>
+  <span class="description pull-left"><span class="author">teamroids</span> Jun, 2017</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >D-Bol, 16 hours 21 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >4,518</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/DRAGONPHARMASTORE.COM" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Dpstore, 16 hours 53 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >3,734</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">DRAGONPHARMASTORE.COM</span><br>
+  <span class="description pull-left"><span class="author">Dpstore</span> May, 2018</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Dpstore, 16 hours 53 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >3,734</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/Genlabs.to" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Yourmuscleshop, 19 hours 5 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >1,649</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">Genlabs.to</span><br>
+  <span class="description pull-left"><span class="author">Yourmuscleshop</span> Mar, 2022</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Yourmuscleshop, 19 hours 5 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >1,649</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/Mtekgear.to" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >N2F, 19 hours 37 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >8,350</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">Mtekgear.to</span><br>
+  <span class="description pull-left"><span class="author">QUADFATHER1</span> Jul, 2013</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >N2F, 19 hours 37 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >8,350</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/armanianabolics.is" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Double A, 1 day 43 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >4,272</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">armanianabolics.is</span><br>
+  <span class="description pull-left"><span class="author">Double A</span> Dec, 2018</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Double A, 1 day 43 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >4,272</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/UGFREAK.TO" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >liverpool_96, 1 day 53 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >8,857</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">UGFREAK.TO</span><br>
+  <span class="description pull-left"><span class="author">ugfreak</span> Sep, 2015</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >liverpool_96, 1 day 53 min ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >8,857</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/powerpeptides.top" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >used_data, 1 day 2 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >258</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">powerpeptides.top</span><br>
+  <span class="description pull-left"><span class="author">Power Peptides</span> Mar, 2026</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >used_data, 1 day 2 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >258</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/Kits4Less.com" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Tinman79, 1 day 6 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >8,231</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">Kits4Less.com</span><br>
+  <span class="description pull-left"><span class="author">Kits4lessdomestic</span> Jan, 2023</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Tinman79, 1 day 6 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >8,231</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/napsgear.org" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Saint gannett, 1 day 9 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >36,034</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">napsgear.org</span><br>
+  <span class="description pull-left"><span class="author">NapsGear</span> Jul, 2011</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Saint gannett, 1 day 9 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >36,034</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/STEROIDIFY.LTD" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Toadking, 1 day 11 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >12,325</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">STEROIDIFY.LTD</span><br>
+  <span class="description pull-left"><span class="author">Steroidify</span> Jul, 2011</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Toadking, 1 day 11 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >12,325</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/PMROIDS.TO" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >pmroids, 1 day 15 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >3,039</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">PMROIDS.TO</span><br>
+  <span class="description pull-left"><span class="author">pmroids</span> Jul, 2016</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >pmroids, 1 day 15 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >3,039</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/anabolica.me" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >brian_moser5, 1 day 19 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >66</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">anabolica.me</span><br>
+  <span class="description pull-left"><span class="author">anabolica</span> Mar, 2023</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >brian_moser5, 1 day 19 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >66</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/sciroxxonline.to" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >carrera49, 3 days 1 hour ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >10,648</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">sciroxxonline.to</span><br>
+  <span class="description pull-left"><span class="author">Sciroxx</span> Nov, 2012</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >carrera49, 3 days 1 hour ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >10,648</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/Musclerapid.com" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >KevK, 4 days 11 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >3,787</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">Musclerapid.com</span><br>
+  <span class="description pull-left"><span class="author">MuscleRapid</span> Mar, 2014</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >KevK, 4 days 11 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >3,787</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/aasvault.is" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >cspringer10, 5 days 1 hour ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >1,056</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">aasvault.is</span><br>
+  <span class="description pull-left"><span class="author">AASDirect</span> Mar, 2022</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >cspringer10, 5 days 1 hour ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >1,056</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/HunterPharm.net" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Bricehoehn, 5 days 18 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >206</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">HunterPharm.net</span><br>
+  <span class="description pull-left"><span class="author">Hunter-Pharm</span> Aug, 2022</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Bricehoehn, 5 days 18 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >206</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/hghpharma.com" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >DonutMan, 1 week 8 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >2,499</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">hghpharma.com</span><br>
+  <span class="description pull-left"><span class="author">hghpharma</span> Feb, 2015</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >DonutMan, 1 week 8 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >2,499</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/PHARMAQOLABSSTORE.TO" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >righteousrebel777, 1 week 1 day ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >1,839</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">PHARMAQOLABSSTORE.TO</span><br>
+  <span class="description pull-left"><span class="author">Mr.PQR</span> Jan, 2021</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >righteousrebel777, 1 week 1 day ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >1,839</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/buy-as.net" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >MDmuscleGuy, 1 week 4 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >4,155</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">buy-as.net</span><br>
+  <span class="description pull-left"><span class="author">dfs</span> Jan, 2017</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >MDmuscleGuy, 1 week 4 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >4,155</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/godshop.is" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Casper53, 1 week 4 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >11,476</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">godshop.is</span><br>
+  <span class="description pull-left"><span class="author">godtropin</span> Mar, 2015</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Casper53, 1 week 4 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >11,476</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/Ashop.in" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Novalentinehere, 1 week 6 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >28,101</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">Ashop.in</span><br>
+  <span class="description pull-left"><span class="author">ashop</span> Feb, 2012</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Novalentinehere, 1 week 6 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >28,101</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/musclecandy.is" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >agdtgya, 1 week 6 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >20</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">musclecandy.is</span><br>
+  <span class="description pull-left"><span class="author">noreply</span> Jan, 2023</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >agdtgya, 1 week 6 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >20</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/crazydoser.com" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >0newheelup, 2 weeks 7 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >4,711</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">crazydoser.com</span><br>
+  <span class="description pull-left"><span class="author">CRAZY DOSER</span> Mar, 2016</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >0newheelup, 2 weeks 7 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >4,711</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/buygorillaking.to" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Big Tone36, 2 weeks 18 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >15,029</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">buygorillaking.to</span><br>
+  <span class="description pull-left"><span class="author">Gorillakingz</span> May, 2022</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Big Tone36, 2 weeks 18 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >15,029</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/BolderOnline.com" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Phile the ripper28, 2 weeks 1 day ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >952</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">BolderOnline.com</span><br>
+  <span class="description pull-left"><span class="author">DrBolder</span> Mar, 2015</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Phile the ripper28, 2 weeks 1 day ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >952</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/blueskypeptide.com" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Arbiter010, 2 weeks 2 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >345</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">blueskypeptide.com</span><br>
+  <span class="description pull-left"><span class="author">Anonymous</span> Nov, 2013</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Arbiter010, 2 weeks 2 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >345</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/driadashop.to" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >ezpzlmnsqz, 2 weeks 4 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >242</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">driadashop.to</span><br>
+  <span class="description pull-left"><span class="author">DriadaShop</span> Apr, 2022</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >ezpzlmnsqz, 2 weeks 4 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >242</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/roidforsale.to" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >jimbopv123, 2 weeks 5 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >332</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">roidforsale.to</span><br>
+  <span class="description pull-left"><span class="author">roidforsale</span> Jun, 2021</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >jimbopv123, 2 weeks 5 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >332</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/domesticroids.com" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >cyp200la, 2 weeks 5 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >629</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">domesticroids.com</span><br>
+  <span class="description pull-left"><span class="author">DomRoids</span> Jun, 2020</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >cyp200la, 2 weeks 5 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >629</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/dragonpharma.net" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Askari, 2 weeks 5 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >41</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">dragonpharma.net</span><br>
+  <span class="description pull-left"><span class="author">DP NET</span> Jan, 2023</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Askari, 2 weeks 5 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >41</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/nordmass.com" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Big Paul, 2 weeks 5 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >195</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">nordmass.com</span><br>
+  <span class="description pull-left"><span class="author">NordMass.com</span> Sep, 2021</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Big Paul, 2 weeks 5 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >195</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/Apotheka.to" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >pingree24, 3 weeks 11 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >14</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">Apotheka.to</span><br>
+  <span class="description pull-left"><span class="author">Apotheka.to</span> Dec, 2025</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >pingree24, 3 weeks 11 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >14</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/Roidbazaar.to" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Paul Atteberry, 3 weeks 3 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >8,921</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">Roidbazaar.to</span><br>
+  <span class="description pull-left"><span class="author">Roidbazaar</span> Sep, 2014</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >Paul Atteberry, 3 weeks 3 days ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >8,921</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/roidocean.co" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >rckelleyes, 4 weeks 19 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >54</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">roidocean.co</span><br>
+  <span class="description pull-left"><span class="author">roidocean</span> Nov, 2023</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >rckelleyes, 4 weeks 19 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >54</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/BuySteroidsOnline.TO" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >BSOstore, 1 month 15 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >292</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">BuySteroidsOnline.TO</span><br>
+  <span class="description pull-left"><span class="author">BSOstore</span> Sep, 2019</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >BSOstore, 1 month 15 hours ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >292</span>
+  </div>
+</div>  </a>      
+                    <a href="/sourcetalk/BESTGEAR.WS" class="list-group-item">  
+          <div class="meta pull-right hidden-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >BESTGEAR.WS, 1 month 1 day ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >1,685</span>
+</div>
+
+<div class="stuff">
+  <span class="title pull-left">BESTGEAR.WS</span><br>
+  <span class="description pull-left"><span class="author">BESTGEAR.WS</span> Sep, 2019</span>
+  <div class="clearfix visible-xs-block"></div>
+  <div class="meta visible-xs">
+  <span class="label label-success" data-toggle="tooltip" title="New comments"></span>
+  <span class="label label-light" data-toggle="tooltip" title="Last comment" >BESTGEAR.WS, 1 month 1 day ago</span>
+  <span class="label label-info" data-toggle="tooltip" title="Comments" >1,685</span>
+  </div>
+</div>  </a>      
+  </div>    </div>
+  
+      <div class="text-center"><ul class="pagination"><li class="active"><span>1</span></li>
+<li><a title="Go to page 2" href="/sourcetalk?page=1">2</a></li>
+<li><a title="Go to page 3" href="/sourcetalk?page=2">3</a></li>
+<li><a title="Go to page 4" href="/sourcetalk?page=3">4</a></li>
+<li><a title="Go to page 5" href="/sourcetalk?page=4">5</a></li>
+<li><a title="Go to page 6" href="/sourcetalk?page=5">6</a></li>
+<li><a title="Go to page 7" href="/sourcetalk?page=6">7</a></li>
+<li><a title="Go to page 8" href="/sourcetalk?page=7">8</a></li>
+<li><a title="Go to page 9" href="/sourcetalk?page=8">9</a></li>
+<li class="pager-ellipsis disabled"><span>…</span></li>
+<li class="next"><a title="Go to next page" href="/sourcetalk?page=1">next ›</a></li>
+<li class="pager-last"><a title="Go to last page" href="/sourcetalk?page=20">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>
+</div> <!-- end content_wrapper -->
+
+<!-- visible here only on mobile -->
+<div class="sidebarblock visible-xs">
+  POPULAR TOPICS MOBILE
+</div>
+</div><!-- end content -->
+<!-- sidebar -->
+<div class="col-sm-3 blocks">
+  <div data-spy="affix" data-offset-top="64" data-offset-bottom="241">
+    <div class="text-center adblock ads">
+      
+    <script type='text/javascript'>
+    document.addEventListener('DOMContentLoaded', function() {
+        var isMobile = window.innerWidth < 768;
+        var adUnits = document.querySelectorAll('.ads');
+        adUnits.forEach(function(adUnit) {
+            if (adUnit.querySelector('ins[data-gasadsnet-zoneid]')) return;
+            var adWidth = adUnit.offsetWidth;
+            var adHeight = adUnit.offsetHeight;
+            var zoneId = null;
+            if (adWidth === 160 && adHeight === 600) {
+                zoneId = 7;
+            } else if (adHeight > 250) {
+                zoneId = 3;
+            } else if (adHeight < 120) {
+                if (adWidth >= 728) zoneId = 6;
+                else if (adWidth >= 468) zoneId = 1;
+                else if (isMobile) zoneId = 5;
+                else zoneId = 2;
+            } else {
+                if (adWidth >= 728) zoneId = 6;
+                else if (adWidth >= 300) zoneId = isMobile ? 5 : 3;
+                else zoneId = isMobile ? 5 : 2;
+            }
+            if (zoneId) {
+                adUnit.innerHTML = "<ins data-gasadsnet-zoneid='" + zoneId + "' data-gasadsnet-id='de96591a0385e3fbe68783d28e8a5e93' style='display:block'></ins>";
+            }
+        });
+        var checkRevive = setInterval(function() {
+            if (typeof reviveAsync !== 'undefined' && reviveAsync.de96591a0385e3fbe68783d28e8a5e93) {
+                clearInterval(checkRevive);
+                reviveAsync.de96591a0385e3fbe68783d28e8a5e93.refresh();
+            }
+        }, 50);
+        setTimeout(function() { clearInterval(checkRevive); }, 5000);
+    });
+    </script>    </div>
+
+    <div class="sidebarblock">
+      <h5>Recent reviews</h5>
+      <div class="view view-recent-reviews view-id-recent_reviews view-display-id-reviews view-dom-id-0b593e1d8a4dec3f5ca5cb578a33d32b">
+        
+  
+  
+      <div class="view-content">
+        <div>
+      
+  <div>        <span>
+<div class="row-item">
+<a href="/comment/4979453#comment-4979453">
+<span class="label label-default">suppdirect.com</span>
+			<span class="label label-success"><span data-toggle="tooltip" title="Recommended!" data-original-title="Recommended!" class="glyphicon glyphicon-ok"></span></span>
+	
+<span class="label label-primary"><span data-toggle="tooltip" title="Score" data-original-title="Score">5/5</span></span> This is the place where i usually buy stuff from and over many y &#171; <span class="username">EKsen</span>
+</a>
+</div>
+</span>  </div>  </div>
+  <div>
+      
+  <div>        <span>
+<div class="row-item">
+<a href="/comment/4979448#comment-4979448">
+<span class="label label-default">steroidify.ltd</span>
+			<span class="label label-success"><span data-toggle="tooltip" title="Recommended!" data-original-title="Recommended!" class="glyphicon glyphicon-ok"></span></span>
+	
+<span class="label label-primary"><span data-toggle="tooltip" title="Score" data-original-title="Score">5/5</span></span> I purchased pharmacom anavar here and this was my first experien &#171; <span class="username">EKsen</span>
+</a>
+</div>
+</span>  </div>  </div>
+  <div>
+      
+  <div>        <span>
+<div class="row-item">
+<a href="/comment/4979306#comment-4979306">
+<span class="label label-default">godshop.is</span>
+			<span class="label label-success"><span data-toggle="tooltip" title="Recommended!" data-original-title="Recommended!" class="glyphicon glyphicon-ok"></span></span>
+	
+<span class="label label-primary"><span data-toggle="tooltip" title="Score" data-original-title="Score">5/5</span></span> I’ve had long-term experience with this vendor and the consist &#171; <span class="username">haapinessgains</span>
+</a>
+</div>
+</span>  </div>  </div>
+  <div>
+      
+  <div>        <span>
+<div class="row-item">
+<a href="/comment/4979272#comment-4979272">
+<span class="label label-default">teamroids.to</span>
+			<span class="label label-success"><span data-toggle="tooltip" title="Recommended!" data-original-title="Recommended!" class="glyphicon glyphicon-ok"></span></span>
+	
+<span class="label label-primary"><span data-toggle="tooltip" title="Score" data-original-title="Score">5/5</span></span> This vendor provided a very smooth and straightforward buying ex &#171; <span class="username">haapinessgains</span>
+</a>
+</div>
+</span>  </div>  </div>
+  <div>
+      
+  <div>        <span>
+<div class="row-item">
+<a href="/comment/4979091#comment-4979091">
+<span class="label label-default">osgear.to</span>
+			<span class="label label-success"><span data-toggle="tooltip" title="Recommended!" data-original-title="Recommended!" class="glyphicon glyphicon-ok"></span></span>
+	
+<span class="label label-primary"><span data-toggle="tooltip" title="Score" data-original-title="Score">5/5</span></span> This source stays on top and their professionalism is a contribu &#171; <span class="username">PhillyMelvin_Smelvin</span>
+</a>
+</div>
+</span>  </div>  </div>
+  <div>
+      
+  <div>        <span>
+<div class="row-item">
+<a href="/comment/4978861#comment-4978861">
+<span class="label label-default">osgear.to</span>
+			<span class="label label-success"><span data-toggle="tooltip" title="Recommended!" data-original-title="Recommended!" class="glyphicon glyphicon-ok"></span></span>
+	
+<span class="label label-primary"><span data-toggle="tooltip" title="Score" data-original-title="Score">4.8/5</span></span> I have been a long time customer of this source.  Over 5 years!  &#171; <span class="username">BrolicBruce</span>
+</a>
+</div>
+</span>  </div>  </div>
+  <div>
+      
+  <div>        <span>
+<div class="row-item">
+<a href="/comment/4978826#comment-4978826">
+<span class="label label-default">steroidify.ltd</span>
+			<span class="label label-success"><span data-toggle="tooltip" title="Recommended!" data-original-title="Recommended!" class="glyphicon glyphicon-ok"></span></span>
+	
+<span class="label label-primary"><span data-toggle="tooltip" title="Score" data-original-title="Score">5/5</span></span> A great experience with steroidify. &#171; <span class="username">Bolic</span>
+</a>
+</div>
+</span>  </div>  </div>
+  <div>
+      
+  <div>        <span>
+<div class="row-item">
+<a href="/comment/4978738#comment-4978738">
+<span class="label label-default">powerpeptides.top</span>
+			<span class="label label-success"><span data-toggle="tooltip" title="Recommended!" data-original-title="Recommended!" class="glyphicon glyphicon-ok"></span></span>
+	
+<span class="label label-primary"><span data-toggle="tooltip" title="Score" data-original-title="Score">4.2/5</span></span> So far 2 successful orders completed.
+  From donation to delive &#171; <span class="username">JohnnyHardGuy</span>
+</a>
+</div>
+</span>  </div>  </div>
+  <div>
+      
+  <div>        <span>
+<div class="row-item">
+<a href="/comment/4978599#comment-4978599">
+<span class="label label-default">ugfreak.to</span>
+			<span class="label label-success"><span data-toggle="tooltip" title="Recommended!" data-original-title="Recommended!" class="glyphicon glyphicon-ok"></span></span>
+	
+<span class="label label-primary"><span data-toggle="tooltip" title="Score" data-original-title="Score">4.6/5</span></span> As for the quality of the gear and the customer service, I give  &#171; <span class="username">Massa Ron</span>
+</a>
+</div>
+</span>  </div>  </div>
+  <div>
+      
+  <div>        <span>
+<div class="row-item">
+<a href="/comment/4978579#comment-4978579">
+<span class="label label-default">osgear.to</span>
+			<span class="label label-success"><span data-toggle="tooltip" title="Recommended!" data-original-title="Recommended!" class="glyphicon glyphicon-ok"></span></span>
+	
+<span class="label label-primary"><span data-toggle="tooltip" title="Score" data-original-title="Score">5/5</span></span> My overall experience with this vendor has been solid. The order &#171; <span class="username">haapinessgains</span>
+</a>
+</div>
+</span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>
+<!-- end sidebar -->
+</div>
+
+
+
+</section>
+  </div>
+    </section>
+
+    
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-sm-3">
+          <ul>
+            <li class="title">IMPORTANT</li>
+            <li><a href="/rules">General Rules</a></li>
+            <li><a href="/src-rules">SRC Rules</a></li>
+            <li><a href="/tos">Terms</a></li>
+            <li><a href="/privacy">Privacy</a></li>
+            <li><a href="/advertising-on-eroids.com">Advertise</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <ul>
+            <li class="title">CONTENT</li>
+            <li><a href="/reviews">Reviews</a></li>
+            <li><a href="/sourcetalk">Source Talk</a></li>
+            <li><a href="/forum">Forums</a></li>
+            <li><a href="/pics">Pictures</a></li>
+            <li><a href="/cycles">Cycle logs</a></li>
+            <li><a href="/group">Interest Groups</a></li>
+            <li><a href="/news">News</a></li>
+          </ul>
+        </div>        
+        <div class="col-xs-6 col-sm-3">
+          <ul>
+            <li class="title">SUBMIT</li>
+            <li><a href="/node/add/reviews">Website</a></li>
+            <li><a href="/node/add/gaerpics">Pictures</a></li>
+            <li><a href="node/add/forum">Forum Topic</a></li>
+            <li><a href="/node/add/group">A Group</a></li>
+            <li><a href="/node/add/news">News</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <ul>
+            <li class="title">MEDIA</li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="https://www.eroids.com/sites/all/themes/wank/img/logo.pdf">eroids logo (pdf)</a></li>
+            <li><a href="https://twitter.com/eroids">Twitter @eroids</a></li>
+            <li></li>
+          </ul>
+        </div>        
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<div class="navbar-default navbar-fixed-bottom">
+  <div class="container-fluid">
+    <div class="view view-friends-online view-id-friends_online view-display-id-friendsonline view-dom-id-7cc5ead2cd4aa8aa872aa3031f8ca876">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+
+<style>
+  .gsc-adBlock {display:none;}
+</style>
+  <script src="https://www.eroids.com/sites/default/files/js/js__JoTd9Oxwhsenh2V4oPwBopK_5ZERouXB3otHIn_MrM.js"></script>
+<script src="https://www.eroids.com/sites/default/files/js/js_PsUZFECBunCwJ4mX_UxRXM-OtkUIKjLHPU55njOvc2o.js"></script>
+<script src="https://www.eroids.com/sites/default/files/js/js_MRdvkC2u4oGsp5wVxBG1pGV5NrCPW3mssHxIn6G9tGE.js"></script>
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f7bb00c1dd6a0b6',t:'MTc3ODEwOTMzNA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

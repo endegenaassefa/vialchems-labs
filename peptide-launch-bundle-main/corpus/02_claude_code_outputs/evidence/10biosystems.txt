@@ -1,0 +1,64 @@
+[CLAIM] fetch_status.failed_domain_dead_not_peptide_vendor
+[URL] https://10biosystems.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/10biosystems/homepage_live_attempt.md
+[LINE_RANGE] 1-6
+[INFERENCE]
+[SUPPORT_QUOTE]
+[RAW_ARTIFACT] 03_raw_fetches/10biosystems/wayback_2022_homepage.md
+[LINE_RANGE] 29-31
+10BioSystems is a research informatics company based in New York City.
+
+10BioSystems has implemented projects in cancer biology, metagenomics, drug discovery, biofuels, human longevity and healthcare analytics. Our clientele include leading research institutions, biotechnology & pharmaceutical firms in the US.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[RAW_ARTIFACT] 03_raw_fetches/10biosystems/wayback_cdx_index.md
+[LINE_RANGE] 8-8
+20230208042523 200 text/html 20230216113044 - warc/revisit 20230422105427 403 text/html 20230609050655 200 text/html 20230723165939 301 text/html 20231101045529 - warc/revisit 20231228170958 503 text/html 20240328094713 404 text/html 20240328094827 301 text/html 20240630161755 404 text/html 20240630161837 404 text/html 20240827032024 404 text/html 20241225032706 404 text/html 20250223120847 404 text/html
+[/SUPPORT_QUOTE]
+[REASONING] (1) Live DNS does not resolve: curl exits code 6 'Could not resolve host: 10biosystems.com'. (2) The most recent Wayback snapshot with recognizable brand content (2022-05-24) confirms 10BioSystems was a B2B research informatics / LIMS software company in NYC, not a peptide vendor. (3) The Wayback CDX index shows all snapshots from 2024-03-28 onward returning 404, confirming the domain is fully gone. No peptide products, no consumer e-commerce, and no peptide-related content appeared at any point in any archived snapshot. The operator seed CSV row classifying this as 'Research Peptides' is an error — this entity is a software company whose products include a LIMS platform (LabCentral) and bioinformatics consulting services.
+[/INFERENCE]
+
+[CLAIM] country_of_operation
+[URL] https://web.archive.org/web/20220524085226/https://10biosystems.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/10biosystems/wayback_2022_homepage.md
+[LINE_RANGE] 29-29
+[QUOTE]
+**10BioSystems is a research informatics company based in New York City.**
+[/QUOTE]
+
+[CLAIM] country_of_operation.corroboration
+[URL] https://web.archive.org/web/20220524085226/https://10biosystems.com/init/default/about
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/10biosystems/wayback_2022_about.md
+[LINE_RANGE] 42-42
+[QUOTE]
+Office: New York, NY, USA
+[/QUOTE]
+
+[CLAIM] brand_identity.not_a_peptide_vendor
+[URL] https://web.archive.org/web/20220524085226/https://10biosystems.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/10biosystems/wayback_2022_homepage.md
+[LINE_RANGE] 35-38
+[QUOTE]
+  * life science & biomedical research data analysis & management
+  * LIMS, bioinformatics, cheminformatics, synthetic biology, genomics
+  * clinical data & healthcare management
+  * big data and cloud computing
+[/QUOTE]
+
+[CLAIM] last_activity_evidence.copyright_footer
+[URL] https://web.archive.org/web/20220524085226/https://10biosystems.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/10biosystems/wayback_2022_homepage.md
+[LINE_RANGE] 44-44
+[QUOTE]
+Copyright © 10BioSystems, 2022
+[/QUOTE]

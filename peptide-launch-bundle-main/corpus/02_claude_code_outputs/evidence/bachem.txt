@@ -1,0 +1,1010 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.bachem.com/
+[FETCHED_AT] 2026-05-07T00:54:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/homepage.md
+[LINE_RANGE] 165-167
+[QUOTE]
+#  Leading Partner in TIDES
+
+Bachem is a leading, innovation-driven company specializing in the development and manufacture of peptides and oligonucleotides.
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.bachem.com/
+[FETCHED_AT] 2026-05-07T00:54:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/homepage.md
+[LINE_RANGE] 169-169
+[QUOTE]
+[ Contact us  ](https://www.bachem.com/contact/) [ Knowledge Hub  ](https://www.bachem.com/knowledge-center/)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.bachem.com/
+[FETCHED_AT] 2026-05-07T00:54:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/homepage.md
+[LINE_RANGE] 30-44
+[QUOTE]
+  * Peptides
+
+Clinical Development
+    * [Peptide NCE Development](https://www.bachem.com/clinical-development-peptide-nces/)
+
+Research
+    * [Custom Synthesis](https://www.bachem.com/custom-peptide-synthesis-services/)
+    * [Catalog Peptides](https://shop.bachem.com)
+
+Commercial Manufacturing
+    * [Peptide API](https://www.bachem.com/peptide-api-drug-substance-manufacturer/)
+    * [Amino Acid Derivatives](https://www.bachem.com/amino-acid-derivatives/)
+    * [Cosmetic Peptides](https://www.bachem.com/cosmetic-peptides/)
+    * [Peptides for Medical Devices](https://www.bachem.com/peptides-for-diagnostics-and-medical-devices/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.bachem.com/
+[FETCHED_AT] 2026-05-07T00:54:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/homepage.md
+[LINE_RANGE] 271-294
+[QUOTE]
+Development and manufacture of peptides and oligonucleotides for over 50 years.
+[/QUOTE]
+[URL] https://www.bachem.com/
+[FETCHED_AT] 2026-05-07T00:54:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/homepage.md
+[LINE_RANGE] 290-294
+[QUOTE]
+        * [ General Conditions](https://www.bachem.com/general-conditions/)
+        * [ Legal Statement ](https://www.bachem.com/legal-statement/)
+        * [ Privacy Policy ](https://www.bachem.com/privacy-policy-2/)
+        * [ Imprint](https://www.bachem.com/imprint/)
+
+© 2026 Bachem Inc. All rights reserved.
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+Hero copy frames Bachem as 'Leading Partner in TIDES' (institutional shorthand for peptide+oligonucleotide therapies) with a corporate manufacturing/CDMO posture; the news roster reinforces clinical/industrial positioning (executive-committee changes, AGM, financing for production capacity, GMP API manufacturing). No lifestyle, meme, or anonymous styling cues observed; the visual register is enterprise-pharmaceutical.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.bachem.com/
+[FETCHED_AT] 2026-05-07T00:54:36Z
+[RAW_ARTIFACT] 03_raw_fetches/bachem/homepage.md
+[LINE_RANGE] 165-167
+"#  Leading Partner in TIDES
+
+Bachem is a leading, innovation-driven company specializing in the development and manufacture of peptides and oligonucleotides. "
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.bachem.com/
+[FETCHED_AT] 2026-05-07T00:54:36Z
+[RAW_ARTIFACT] 03_raw_fetches/bachem/homepage.md
+[LINE_RANGE] 175-185
+"##  Commercial manufacturing of Peptides
+
+GMP manufacturing of Peptide APIs."
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://shop.bachem.com/
+[FETCHED_AT] 2026-05-07T00:55:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/shop_homepage.md
+[LINE_RANGE] 9-13
+[QUOTE]
+  * [Products](/catalog/all-products)
+    * [Applications](/catalog/all-products/applications/)
+    * [Inhibitors & Substrates](/catalog/all-products/inhibitors-substrates/)
+    * [Amino Acid Derivatives & Reagents](/catalog/all-products/amino-acid-derivatives-reagents/)
+    * [Peptides](/catalog/all-products/peptides/)
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://shop.bachem.com/?s=BPC
+[FETCHED_AT] 2026-05-07T00:55:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/search_bpc.md
+[LINE_RANGE] 81-90
+[QUOTE]
+Salt Form
+
+\-- Select Option -- Acetate Acetate Salt Ammonium Ammonium Acetate Carbonate Citrate Formiate Hydrobromide Hydrochloride Pamoate Sodium Sulfate Trifluoroacetate Trifluoroacetate Salt
+
+Price Range
+
+Number of Amino Acids
+
+Molecular weight
+[/QUOTE]
+[URL] https://shop.bachem.com/
+[FETCHED_AT] 2026-05-07T00:55:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/shop_homepage.md
+[LINE_RANGE] 32-36
+[QUOTE]
+Please use 7 digit product numbers for searches
+(ex. 4014447 and not 4014447.1000).
+
+For older product numbers please use 1 letter dash 4 digits
+(ex. H-1368 and not H-1368.1000).
+[/QUOTE]
+[URL] https://shop.bachem.com/catalog/all-products/peptides/
+[FETCHED_AT] 2026-05-07T00:55:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/catalog_peptides.md
+[LINE_RANGE] 38-38
+[QUOTE]
+Order by:RelevancePrice - Lowest to HighestSynonyms - alphabeticalProduct Name - alphabetical
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://shop.bachem.com/special_offers/
+[FETCHED_AT] 2026-05-07T00:56:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/special_offers.md
+[LINE_RANGE] 28-44
+[QUOTE]
+#### **Bulk discount**
+
+Large quantities are available at discounted prices. The minimum amount required for bulk discount is five fold the largest pack (i.e. if the largest pack is 5mg, quantities of at least 25mg qualify for bulk discount). Please [contact us](https://shop.bachem.com/product-inquiry/) for more details.
+
+
+
+#### **Pack multi-vial discount**
+
+By ordering two or more of the same product and pack size, you will receive the following discount:
+
+  * **2 vials – 5% discount**
+  * **3 to 5 vials – 10% discount**
+  * **6 to 9 vials – 15% discount**
+  * **10 or more, please inquire**
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 26-30
+[QUOTE]
+[Home](https://shop.bachem.com) / [All Products](https://shop.bachem.com/catalog/all-products/) / [Applications](https://shop.bachem.com/catalog/all-products/applications/) / Thymosin β₄ (human, bovine, horse, rat)
+
+# Thymosin β₄ (human, bovine, horse, rat)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 28-28
+[QUOTE]
+# Thymosin β₄ (human, bovine, horse, rat)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 950-955
+[QUOTE]
+Pack size available | 1mg, 5mg
+---|---
+
+##### Please select pack size:
+
+Pack size available |  Choose an option1mg ($ 593.85)5mg ($ 2,376.62)Clear
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 946-946
+[QUOTE]
+$ 593.85 – $ 2,376.62Price range: $ 593.85 through $ 2,376.62
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.per_mg_cost
+[INFERENCE] $593.85/mg at 1mg pack; $475.32/mg at 5mg pack (computed from list_price / dose_value)
+[REASONING]
+Per-mg cost is computed from the list price divided by the dose value for each pack size. The 1mg pack is $593.85 (so $593.85/mg) and the 5mg pack is $2,376.62 (so $475.324/mg). Both pack sizes and prices are read verbatim from the product page; the division is arithmetic, not inference about Bachem's intent.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 946-946
+"$ 593.85 – $ 2,376.62Price range: $ 593.85 through $ 2,376.62"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 950-955
+"Pack size available | 1mg, 5mg"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 968-970
+[QUOTE]
+### Product Description
+
+Thymosin β₄ is a 43 amino acid peptide which is regarded as the main intracellular G-actin sequestering peptide. Extracellular thymosin β₄ may contribute to physiological processes such as angiogenesis, wound healing, and regulation of inflammation. Additionally to its numerous functions thymosin β₄ might also be of therapeutic value in the setting of acute myocardial damage.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 231-231
+[QUOTE]
+7.1 Bachem expressly draws attention to the fact that, unless otherwise labeled, Bachem products are intended exclusively for laboratory and research purposes. Therefore, Bachem supplies such products only for the purposes of public research, experimental and teaching institutes, technical facilities and pertinent industrial enterprises. Any exceptions (e.g. GMP compliant active substances) are labeled accordingly by Bachem.
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4091661/
+[FETCHED_AT] 2026-05-07T00:55:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_2__semaglutide-4091661.md
+[LINE_RANGE] 970-970
+[QUOTE]
+Bachem provides this product solely for uses within the scope of any statute or law providing for an immunity, exemption, or exception to patent infringement (“Exempted Uses”), including but not limited to 35 U.S.C. § 271(e)(1) in the United States, the Bolar type exemption in Europe, and any corresponding exception to patent infringement in any other country.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://shop.bachem.com/
+[FETCHED_AT] 2026-05-07T00:55:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/shop_homepage.md
+[LINE_RANGE] 87-93
+[QUOTE]
+[](https://www.bachem.com/knowledge-center/analytical-data-sheet-ads/)
+
+#### [ADS Lookup](https://www.bachem.com/knowledge-center/analytical-data-sheet-ads/)
+
+[](https://www.bachem.com/knowledge-center/material-safety-data-sheet-msds/)
+
+#### [MSDS Lookup](https://www.bachem.com/knowledge-center/material-safety-data-sheet-msds/)
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 972-988
+[QUOTE]
+  * Additional Information
+  * ADS/MSDS
+  * Materials
+  * Literature
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[INFERENCE] on_site
+[REASONING]
+Bachem hosts its Analytical Data Sheets (ADS — the Bachem-equivalent of a per-batch Certificate of Analysis) on its own subdomain ads-pub.bachem.com (visible in the per-product ACF dump on the Thymosin β₄ page) rather than via a third-party portal like Janoshik Analytical or Express Analytical. The shop.bachem.com homepage links the ADS Lookup directly under bachem.com/knowledge-center, confirming on-domain hosting.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 988-988
+"value| https://ads-pub.bachem.com/QCRFADSPublisher/ADS/StreamADS?key0=4043020.0001&key1=1000011694"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://shop.bachem.com/
+[FETCHED_AT] 2026-05-07T00:55:11Z
+[RAW_ARTIFACT] 03_raw_fetches/bachem/shop_homepage.md
+[LINE_RANGE] 87-93
+"[](https://www.bachem.com/knowledge-center/analytical-data-sheet-ads/)
+
+#### [ADS Lookup](https://www.bachem.com/knowledge-center/analytical-data-sheet-ads/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[INFERENCE] Bachem in-house (no third-party lab partner named; ADS hosted on Bachem's own ads-pub.bachem.com domain)
+[REASONING]
+The ADS link in the product ACF dump points to ads-pub.bachem.com, which is a Bachem-owned subdomain rather than a third-party testing-lab brand. No external lab partner is named on the product page or shop homepage.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 988-988
+"value| https://ads-pub.bachem.com/QCRFADSPublisher/ADS/StreamADS?key0=4043020.0001&key1=1000011694"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 221-221
+"6.1 Bachem warrants that the products comply with the test results with the ones listed on the analytical result document (e.g. in form of an analytical data sheet or a certificate of analysis) of the lot in question."
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[INFERENCE] true
+[REASONING]
+Bachem warrants product conformity 'with the test results listed on the analytical result document of the lot in question' (TOS §6.1) and the per-product ADS URL embeds an explicit lot-batch key parameter (key0=4043020.0001), confirming per-lot reporting is exposed publicly.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 221-221
+"6.1 Bachem warrants that the products comply with the test results with the ones listed on the analytical result document (e.g. in form of an analytical data sheet or a certificate of analysis) of the lot in question. Bachem excludes any warranty for expressed or implied fitness of intended purpose or merchantability of the product, unless expressly agreed in writing."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 988-988
+"value| https://ads-pub.bachem.com/QCRFADSPublisher/ADS/StreamADS?key0=4043020.0001&key1=1000011694"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 972-975
+[QUOTE]
+  * Additional Information
+  * ADS/MSDS
+  * Materials
+  * Literature
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 972-975
+[QUOTE]
+  * Additional Information
+  * ADS/MSDS
+  * Materials
+  * Literature
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 231-231
+[QUOTE]
+7.1 Bachem expressly draws attention to the fact that, unless otherwise labeled, Bachem products are intended exclusively for laboratory and research purposes.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://www.bachem.com/
+[FETCHED_AT] 2026-05-07T00:54:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/homepage.md
+[LINE_RANGE] 6-294
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/bachem/homepage.md and 03_raw_fetches/bachem/shop_homepage.md: zero occurrences of any age-gate modal markup. Searches for 'age', '18', '21', 'confirm', 'over the age', 'are you' returned no age-confirmation prompts. Bachem instead restricts at the institutional layer per TOS §7.2 (private-individual distribution forbidden).
+[FILES]
+homepage.md
+shop_homepage.md
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 233-235
+[QUOTE]
+7.2 Bachem expressly forbids the distribution of dangerous substances to private individuals.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 6-7
+[QUOTE]
+url: https://www.bachem.com/legals/general-conditions/
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 185-185
+[QUOTE]
+2.1 All prices are quoted by Bachem, in Swiss Francs (CHF), US Dollars (USD), or Euros (EUR) exclusive of value-added tax (VAT), sales tax and other tariffs, legal duties or charges in the country of delivery.
+[/QUOTE]
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 249-249
+[QUOTE]
+9.2 The terms of payment depend specifically on the country of delivery. Unless otherwise indicated by Bachem, Bachem’s invoices are payable within 30 days from the invoice date without deduction. Overdue accounts are subject to a 1.25% monthly service charge (15% annual, or the highest possible rate, according to applicable law).
+[/QUOTE]
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 263-263
+[QUOTE]
+10.5 Active pharmaceutical ingredients (APIs) that are sold for the development of patent protected drugs are offered only to the patent holders or solely for uses within the scope of any statute or law providing for an immunity, exemption, or exception to patent infringement (exempted uses), including 35 U.S.C. § 271(e)(1) in the US, and corresponding exceptions to patent infringement in other countries.
+[/QUOTE]
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 285-285
+[QUOTE]
+14.2 For companies within the Bachem Group which have their place of business in Switzerland, Swiss law shall apply excluding the conflict of laws provisions and the Vienna Convention for Sales of Goods. The exclusive venue for any legal disputes shall be the ordinary courts of Basel-Stadt, Switzerland.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 223-227
+[QUOTE]
+6.2 The Buyer must inspect the product immediately for conformity in quality and quantity. Defects or incorrect deliveries must be notified to Bachem in writing within 8 days upon delivery of the product, including proof of non-conformity lot, order and invoice number. Otherwise, the product shall be deemed to be accepted by Buyer
+[/QUOTE]
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 227-227
+[QUOTE]
+6.4 Bachem shall at Bachem’s discretion either (i) replace defective products or (ii) refund product price to Buyer.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 209-213
+[QUOTE]
+4.1 Delivery terms may vary by country. Products are deliverd according to the agreed Incoterms®.
+
+4.2 Subject to mandatory legal provisions, Bachem accepts no liability for damages due to delayed delivery.
+[/QUOTE]
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 189-191
+[QUOTE]
+2.3 Bachem reserves the right to apply surcharges for small quantity deliveries or for special shipment conditions (e.g., on ice or dry ice).
+
+2.4 Transport, freight, data logger, handling charges and similar fees are additionally payable by the Buyer.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 247-247
+[QUOTE]
+9.1 Buyer shall pay the purchase price as stated in the order confirmation only to the bank account named it the order confirmation.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 189-191
+[QUOTE]
+2.3 Bachem reserves the right to apply surcharges for small quantity deliveries or for special shipment conditions (e.g., on ice or dry ice).
+
+2.4 Transport, freight, data logger, handling charges and similar fees are additionally payable by the Buyer.
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://shop.bachem.com/
+[FETCHED_AT] 2026-05-07T00:55:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/shop_homepage.md
+[LINE_RANGE] 200-205
+[QUOTE]
+## CATALOG DISTRIBUTOR LOCATIONS
+
+Bachem provides high-quality products worldwide directly or via reputable and specialized distributors.
+[/QUOTE]
+[URL] https://shop.bachem.com/?s=BPC
+[FETCHED_AT] 2026-05-07T00:55:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/search_bpc.md
+[LINE_RANGE] 54-54
+[QUOTE]
+Argentina  Australia  Austria  Belgium  Brazil  Bulgaria  Canada  Chile  China  Colombia  Croatia  Cyprus  Czech Republic  Denmark  Ecuador  Egypt  Estonia  Finland  France  Germany  Greece  Guadeloupe  Hong Kong  Iceland  India  Indonesia  Iran  Iraq  Ireland  Israel  Italy  Japan  Jordan  Kenya  Kuwait  Latvia  Lebanon  Liechtenstein  Lithuania  Luxembourg  Macao  Malaysia  Mauritius  Mexico  Montenegro  Netherlands  New Zealand  Nigeria  Norway  Pakistan  Papua New Guinea  Peru  Philippines  Poland  Portugal  Puerto Rico  Romania  Russia  Serbia  Singapore  Slovakia  Slovenia  South Africa  South Korea  Spain  Sweden  Switzerland  Taiwan  Thailand  Türkiye  United Arab Emirates  United Kingdom (UK)  United States (US)  Uruguay  Other countries
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://shop.bachem.com/product/4091661/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/source_product.md
+[LINE_RANGE] 36-46
+[QUOTE]
+woocommerce
+wp-content/plugins/complianz-gdpr
+wp-content/plugins/divi-ajax-filter
+wp-content/plugins/divi-machine
+wp-content/plugins/duracelltomi-google-tag-manager
+wp-content/plugins/if-menu
+wp-content/plugins/woocommerce
+wp-content/plugins/woocommerce-price-based-country-pro-addon
+wp-content/plugins/woocommerce-product-price-based-on-countries
+wp-content/plugins/wp-google-maps
+wp-content/plugins/wp-popups-lite
+[/QUOTE]
+[URL] https://www.bachem.com/
+[FETCHED_AT] 2026-05-07T00:54:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/source_homepage.md
+[LINE_RANGE] 23-26
+[QUOTE]
+Plugins detected:
+wp-content/plugins/breeze
+wp-content/plugins/gf-tooltips
+wp-content/plugins/gravityforms
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://shop.bachem.com/product/4091661/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/source_product.md
+[LINE_RANGE] 14-25
+[QUOTE]
+cf-ray: 9f7c44472e38d6b3-IAD
+cf-cache-status: MISS
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4091661/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/source_product.md
+[LINE_RANGE] 17-17
+[QUOTE]
+server: cloudflare
+[/QUOTE]
+[URL] https://www.bachem.com/
+[FETCHED_AT] 2026-05-07T00:54:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/source_homepage.md
+[LINE_RANGE] 11-12
+[QUOTE]
+cache-provider: CLOUDWAYS-CACHE-DC
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://www.bachem.com/
+[FETCHED_AT] 2026-05-07T00:54:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/source_homepage.md
+[LINE_RANGE] 28-30
+[QUOTE]
+Tracking IDs:
+AW-953022748
+GTM-5K9XHXT
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4091661/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/source_product.md
+[LINE_RANGE] 50-50
+[QUOTE]
+GTM-TXZ8ZH6
+[/QUOTE]
+[URL] https://www.bachem.com/
+[FETCHED_AT] 2026-05-07T00:54:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/source_homepage.md
+[LINE_RANGE] 43-43
+[QUOTE]
+<script class="cmplz-script" async src="https://www.googletagmanager.com/gtag/js?id=AW-953022748">
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://www.bachem.com/
+[FETCHED_AT] 2026-05-07T00:54:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/source_homepage.md
+[LINE_RANGE] 43-43
+[QUOTE]
+<script class="cmplz-script" async src="https://www.googletagmanager.com/gtag/js?id=AW-953022748">
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://www.bachem.com/
+[FETCHED_AT] 2026-05-07T00:54:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/source_homepage.md
+[LINE_RANGE] 35-46
+[QUOTE]
+=== RAW HEADER LINES (analytics/tracking script tags) ===
+<script class="cmplz-script" async src="https://www.googletagmanager.com/gtag/js?id=AW-953022748">
+<script type="text/javascript" id="google_gtagjs-js-consent-mode-data-layer">
+<script defer='defer' src="https://www.google.com/recaptcha/api.js?hl=en&amp;ver=6.9.4#038;render=explicit" id="gform_recaptcha-js">
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.bachem.com/news/
+[FETCHED_AT] 2026-05-07T01:00:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/news_index.md
+[LINE_RANGE] 167-225
+[QUOTE]
+#  News
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://www.bachem.com/news/
+[FETCHED_AT] 2026-05-07T01:00:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/news_index.md
+[LINE_RANGE] 6-7
+[QUOTE]
+url: https://www.bachem.com/news/
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://www.bachem.com/news/
+[FETCHED_AT] 2026-05-07T01:00:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/news_index.md
+[LINE_RANGE] 183-237
+[QUOTE]
+## [ Bachem announces changes to the Corporate Executive Committee  ](https://www.bachem.com/articles/news/press-release/bachem-announces-changes-to-the-corporate-executive-committee/)
+[/QUOTE]
+[URL] https://www.bachem.com/news/
+[FETCHED_AT] 2026-05-07T01:00:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/news_index.md
+[LINE_RANGE] 217-217
+[QUOTE]
+## [ Bachem inaugurates Building K in Bubendorf, strengthening large-scale production of modern APIs  ](https://www.bachem.com/articles/news/company-news/bachem-inaugurates-building-k-in-bubendorf-strengthening-large-scale-production-of-modern-apis/)
+[/QUOTE]
+[URL] https://www.bachem.com/news/
+[FETCHED_AT] 2026-05-07T01:00:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/news_index.md
+[LINE_RANGE] 227-227
+[QUOTE]
+## [ Bachem reports strong sales growth and sustained high profitability  ](https://www.bachem.com/articles/news/ad-hoc/bachem-reports-strong-sales-growth-and-sustained-high-profitability/)
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://www.bachem.com/articles/news/company-news/bachem-inaugurates-building-k-in-bubendorf-strengthening-large-scale-production-of-modern-apis/
+[FETCHED_AT] 2026-05-07T01:01:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/blog_2.md
+[LINE_RANGE] 167-220
+[QUOTE]
+With the inauguration of Building K, Bachem marks another significant milestone at its Bubendorf site. The new production facility is specifically designed for industrial-scale manufacturing and enables the company to further respond to the increasing demands of the global pharmaceutical and biotech markets.
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://www.bachem.com/articles/news/company-news/bachem-inaugurates-building-k-in-bubendorf-strengthening-large-scale-production-of-modern-apis/
+[FETCHED_AT] 2026-05-07T01:01:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/blog_2.md
+[LINE_RANGE] 175-179
+[QUOTE]
+Building K is part of Bachem’s comprehensive investment program to expand its global production capacities. In the 2025 financial year alone, Bachem invested CHF 332.6 million, including major projects such as Building K and the modernization and further development of its international site network.
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 970-980
+[QUOTE]
+  * Additional Information
+  * ADS/MSDS
+  * Materials
+  * Literature
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.bachem.com/about-bachem/
+[FETCHED_AT] 2026-05-07T01:00:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/about_bachem.md
+[LINE_RANGE] 167-180
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/bachem/about_bachem.md, homepage.md, shop_homepage.md, and product_3__thymosin-b4-4043020.md: zero customer-quote, testimonial-card, or 'what our customers say' sections. The closest social-proof analog is investor-hub / financial-event / press-release content surfacing AGM 2026 attendance and 2025 financial milestones.
+[FILES]
+about_bachem.md
+homepage.md
+shop_homepage.md
+product_3__thymosin-b4-4043020.md
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://www.bachem.com/
+[FETCHED_AT] 2026-05-07T00:54:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/homepage.md
+[LINE_RANGE] 277-281
+[QUOTE]
+        * [ ](https://www.youtube.com/channel/UCfSYVAMQjY6x2K-t2kYmaPQ)
+        * [ ](https://x.com/BachemGroup)
+        * [ ](https://www.linkedin.com/company/bachem)
+        * [ ](https://www.facebook.com/BachemGroup/)
+        * [ ](https://www.instagram.com/bachem_ag/)
+[/QUOTE]
+
+[CLAIM] sku-1
+[URL] https://shop.bachem.com/product/4142828/
+[FETCHED_AT] 2026-05-07T00:55:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_1__pal-ghk-4142828.md
+[LINE_RANGE] 943-955
+[QUOTE]
+CAS Number: 147732-56-7
+
+$ 102.12 – $ 4,713.95Price range: $ 102.12 through $ 4,713.95
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4142828/
+[FETCHED_AT] 2026-05-07T00:55:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_1__pal-ghk-4142828.md
+[LINE_RANGE] 949-955
+[QUOTE]
+Pack size available | 5mg, 25mg, 1g, 5g, 25g
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4142828/
+[FETCHED_AT] 2026-05-07T00:55:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_1__pal-ghk-4142828.md
+[LINE_RANGE] 955-955
+[QUOTE]
+Pack size available |  Choose an option5mg ($ 102.12)25mg ($ 255.41)1g ($ 383.62)5g ($ 1,212.68)25g ($ 4,713.95)Clear
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4142828/
+[FETCHED_AT] 2026-05-07T00:55:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_1__pal-ghk-4142828.md
+[LINE_RANGE] 970-970
+[QUOTE]
+Pal-GHK or Palmitoyl Tripeptide-1 is a version of GHK peptide (copper-binding peptide) designed for better skin penetration, since it is a messenger peptide for collagen renewal. Therefore Pal-GHK leads to wrinkle reduction, skin firming and skin improvement.
+[/QUOTE]
+
+[CLAIM] sku-2
+[URL] https://shop.bachem.com/product/4091661/
+[FETCHED_AT] 2026-05-07T00:55:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_2__semaglutide-4091661.md
+[LINE_RANGE] 942-955
+[QUOTE]
+CAS Number: 910463-68-2
+
+€ 304.20
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4091661/
+[FETCHED_AT] 2026-05-07T00:55:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_2__semaglutide-4091661.md
+[LINE_RANGE] 949-955
+[QUOTE]
+Pack size available | 1mg
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4091661/
+[FETCHED_AT] 2026-05-07T00:55:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_2__semaglutide-4091661.md
+[LINE_RANGE] 970-970
+[QUOTE]
+Acylated GLP-1 analog with a half-life of 160 h. Semaglutide is under evaluation for the management of diabetes II. Due to its prolonged half-life, the peptide has to be injected only once per week.
+[/QUOTE]
+
+[CLAIM] sku-3
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 943-955
+[QUOTE]
+CAS Number: 77591-33-4
+
+$ 593.85 – $ 2,376.62Price range: $ 593.85 through $ 2,376.62
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 949-955
+[QUOTE]
+Pack size available | 1mg, 5mg
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4043020/
+[FETCHED_AT] 2026-05-07T00:56:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_3__thymosin-b4-4043020.md
+[LINE_RANGE] 955-955
+[QUOTE]
+Pack size available |  Choose an option1mg ($ 593.85)5mg ($ 2,376.62)Clear
+[/QUOTE]
+
+[CLAIM] sku-4
+[URL] https://shop.bachem.com/product/4030692/
+[FETCHED_AT] 2026-05-07T00:56:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_4__d-lys3-ghrp-6-4030692.md
+[LINE_RANGE] 943-955
+[QUOTE]
+CAS Number: 136054-22-3
+
+CHF 78.10 – CHF 314.60Price range: CHF 78.10 through CHF 314.60
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4030692/
+[FETCHED_AT] 2026-05-07T00:56:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_4__d-lys3-ghrp-6-4030692.md
+[LINE_RANGE] 949-955
+[QUOTE]
+Pack size available | 5mg, 25mg
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4030692/
+[FETCHED_AT] 2026-05-07T00:56:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_4__d-lys3-ghrp-6-4030692.md
+[LINE_RANGE] 967-970
+[QUOTE]
+A ghrelin receptor antagonist.
+[/QUOTE]
+
+[CLAIM] sku-5
+[URL] https://shop.bachem.com/product/4109712/
+[FETCHED_AT] 2026-05-07T00:56:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_5__liraglutide-modified-4109712.md
+[LINE_RANGE] 626-655
+[QUOTE]
+€ 495.73 – € 2,949.45Price range: € 495.73 through € 2,949.45
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4109712/
+[FETCHED_AT] 2026-05-07T00:56:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_5__liraglutide-modified-4109712.md
+[LINE_RANGE] 638-655
+[QUOTE]
+Pack size available | 1mg, 5mg, 10mg
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4109712/
+[FETCHED_AT] 2026-05-07T00:56:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_5__liraglutide-modified-4109712.md
+[LINE_RANGE] 643-655
+[QUOTE]
+Pack size available |  Choose an option1mg (€ 495.73)5mg (€ 1,735.11)10mg (€ 2,949.45)Clear
+[/QUOTE]
+
+[CLAIM] sku-6
+[URL] https://shop.bachem.com/product/4007285/
+[FETCHED_AT] 2026-05-07T00:56:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_6__h-his-lys-hbr-4007285.md
+[LINE_RANGE] 935-955
+[QUOTE]
+$ 213.79 – $ 641.36Price range: $ 213.79 through $ 641.36
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4007285/
+[FETCHED_AT] 2026-05-07T00:56:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_6__h-his-lys-hbr-4007285.md
+[LINE_RANGE] 939-955
+[QUOTE]
+Pack size available | 250mg, 1g
+[/QUOTE]
+
+[CLAIM] sku-7
+[URL] https://shop.bachem.com/product/4012005/
+[FETCHED_AT] 2026-05-07T00:56:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_7__h-ala-his-lys-4012005.md
+[LINE_RANGE] 943-955
+[QUOTE]
+$ 403.82 – $ 1,212.68Price range: $ 403.82 through $ 1,212.68
+[/QUOTE]
+[URL] https://shop.bachem.com/product/4012005/
+[FETCHED_AT] 2026-05-07T00:56:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/product_7__h-ala-his-lys-4012005.md
+[LINE_RANGE] 947-955
+[QUOTE]
+Pack size available | 250mg, 1g
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.bachem.com/about-bachem/history/
+[FETCHED_AT] 2026-05-07T01:00:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/history.md
+[LINE_RANGE] 173-181
+[QUOTE]
+Founded by Peter Grogg in Liestal, Switzerland, focusing on peptide synthesis.
+[/QUOTE]
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 285-285
+[QUOTE]
+14.2 For companies within the Bachem Group which have their place of business in Switzerland, Swiss law shall apply
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.bachem.com/legals/general-conditions/
+[FETCHED_AT] 2026-05-07T00:56:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/tos.md
+[LINE_RANGE] 175-175
+[QUOTE]
+1.1 The following sales and delivery terms and conditions apply to all the sales activities of the Bachem Group of companies in the USA and Europe (“Bachem” hereinafter meaning any of the following: Bachem Americas, Inc., and Bachem AG as sellers and their customers (“Buyer”).
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://shop.bachem.com/?s=BPC
+[FETCHED_AT] 2026-05-07T00:55:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/search_bpc.md
+[LINE_RANGE] 54-54
+[QUOTE]
+Argentina  Australia  Austria  Belgium  Brazil  Bulgaria  Canada  Chile  China  Colombia  Croatia  Cyprus  Czech Republic  Denmark  Ecuador  Egypt  Estonia  Finland  France  Germany  Greece  Guadeloupe  Hong Kong  Iceland  India  Indonesia  Iran  Iraq  Ireland  Israel  Italy  Japan  Jordan  Kenya  Kuwait  Latvia  Lebanon  Liechtenstein  Lithuania  Luxembourg  Macao  Malaysia  Mauritius  Mexico  Montenegro  Netherlands  New Zealand  Nigeria  Norway  Pakistan  Papua New Guinea  Peru  Philippines  Poland  Portugal  Puerto Rico  Romania  Russia  Serbia  Singapore  Slovakia  Slovenia  South Africa  South Korea  Spain  Sweden  Switzerland  Taiwan  Thailand  Türkiye  United Arab Emirates  United Kingdom (UK)  United States (US)  Uruguay  Other countries
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://www.bachem.com/about-bachem/history/
+[FETCHED_AT] 2026-05-07T01:00:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/history.md
+[LINE_RANGE] 168-181
+[QUOTE]
+Our journey since 1971
+[/QUOTE]
+[URL] https://www.bachem.com/about-bachem/history/
+[FETCHED_AT] 2026-05-07T01:00:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/history.md
+[LINE_RANGE] 173-181
+[QUOTE]
+Since its founding in 1971, Bachem has evolved from a specialized peptide laboratory into a global partner for peptide and oligonucleotide development and manufacturing.
+[/QUOTE]
+
+[CLAIM] tier_rationale
+[URL] https://shop.bachem.com/
+[FETCHED_AT] 2026-05-07T00:55:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/shop_homepage.md
+[LINE_RANGE] 49-49
+[QUOTE]
+With 50 years of experience and expertise, Bachem provides products for research, clinical development and commercial application to pharmaceutical and biotechnology companies worldwide and offers a comprehensive range of services.
+[/QUOTE]
+[URL] https://www.bachem.com/articles/news/company-news/bachem-inaugurates-building-k-in-bubendorf-strengthening-large-scale-production-of-modern-apis/
+[FETCHED_AT] 2026-05-07T01:01:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bachem/blog_2.md
+[LINE_RANGE] 175-179
+[QUOTE]
+Building K is part of Bachem’s comprehensive investment program to expand its global production capacities. In the 2025 financial year alone, Bachem invested CHF 332.6 million, including major projects such as Building K and the modernization and further development of its international site network.
+[/QUOTE]

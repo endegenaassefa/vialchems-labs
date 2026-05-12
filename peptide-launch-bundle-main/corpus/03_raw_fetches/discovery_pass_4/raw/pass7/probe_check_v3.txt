@@ -1,0 +1,125 @@
+=== apexlabs.com ===
+HTTP/2 200 
+server: nginx
+date: Thu, 07 May 2026 00:55:54 GMT
+<title>Apex Labs &#8211; Clinically Proven Psilocybin Treatments</title>
+usa
+usa
+research
+research
+=== anchorlabs.com ===
+HTTP/2 301 
+date: Thu, 07 May 2026 00:55:55 GMT
+content-type: text/html
+<title>Crypto Bank for Institutions | Anchorage Digital</title>
+USA
+=== vertexbio.com ===
+HTTP/1.1 405 Method Not Allowed
+Date: Thu, 07 May 2026 00:55:56 GMT
+
+=== pinnaclebio.com ===
+HTTP/1.1 405 Method Not Allowed
+Date: Thu, 07 May 2026 00:55:56 GMT
+
+=== arcticbio.com ===
+HTTP/1.1 405 Method Not Allowed
+Date: Thu, 07 May 2026 00:55:56 GMT
+
+=== arcticlabs.com ===
+HTTP/1.1 405 Method Not Allowed
+Date: Thu, 07 May 2026 00:55:56 GMT
+
+=== atlanticlabs.com ===
+HTTP/2 200 
+server: nginx/1.30.0
+date: Thu, 07 May 2026 00:55:57 GMT
+<title>AtlanticLabs.com - Business Domains for Sale - Buy Premium Corporate Domain Names | Domain for Sale. Call 888-694-6735.</title>
+usa
+usa
+usa
+usa
+=== catalystlabs.com ===
+HTTP/2 301 
+age: 405
+date: Thu, 07 May 2026 00:48:29 GMT
+<title>Catalyst Labs</title>
+=== genesispeptide.com ===
+HTTP/1.1 405 Method Not Allowed
+Date: Thu, 07 May 2026 00:55:58 GMT
+
+=== genesislabs.com ===
+HTTP/2 200 
+server: nginx
+date: Thu, 07 May 2026 00:55:59 GMT
+<title>Genesis Labs - Global Leader in Pest Control, Vector Control, and Wildlife Management</title>
+research
+Research
+research
+Research
+=== bedrockpeptides.com ===
+HTTP/1.1 405 Method Not Allowed
+Date: Thu, 07 May 2026 00:55:59 GMT
+
+=== bedrockbio.com ===
+HTTP/1.1 405 Method Not Allowed
+Date: Thu, 07 May 2026 00:55:59 GMT
+
+=== vitalpeptides.com ===
+HTTP/1.1 405 Method Not Allowed
+Date: Thu, 07 May 2026 00:56:00 GMT
+
+=== vitalbio.com ===
+HTTP/2 200 
+server: nginx
+date: Thu, 07 May 2026 00:56:00 GMT
+<title>VitalBio</title>
+=== vitallabs.com ===
+HTTP/2 301 
+date: Thu, 07 May 2026 00:56:01 GMT
+content-type: text/html
+<title>Riva Health</title>
+=== purebio.com ===
+HTTP/2 301 
+date: Thu, 07 May 2026 00:56:02 GMT
+content-type: text/html
+<title>PURE Bioscience | Elevate Your Food Hygiene Standards</title>
+usa
+usa
+=== vanguardbio.com ===
+HTTP/2 404 
+content-type: text/html; charset=utf-8
+date: Thu, 07 May 2026 00:56:02 GMT
+<title>VanguardBio.com is for sale | HugeDomains</title>
+usa
+usa
+=== hisandhers.com ===
+=== crownwell.com ===
+HTTP/1.1 405 Method Not Allowed
+Date: Thu, 07 May 2026 00:56:04 GMT
+
+=== quantumlabs.com ===
+HTTP/2 200 
+cache-control: no-cache, no-store
+pragma: no-cache
+<title>Wholesale Dental &amp; Patient Hygiene Supplies | Quantum Labs</title>
+usa
+USA
+USA
+USA
+=== novapeptides.com ===
+HTTP/1.1 405 Method Not Allowed
+Date: Thu, 07 May 2026 00:56:04 GMT
+
+=== helixpeptide.com ===
+HTTP/1.1 405 Method Not Allowed
+Date: Thu, 07 May 2026 00:56:04 GMT
+
+=== titanpeptide.com ===
+HTTP/2 301 
+date: Thu, 07 May 2026 00:56:06 GMT
+content-type: text/html
+peptide
+<title>TITAN PEPTIDE</title>
+PEPTIDE
+PEPTIDE
+peptide

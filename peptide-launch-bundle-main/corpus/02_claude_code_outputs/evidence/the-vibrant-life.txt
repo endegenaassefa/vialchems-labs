@@ -1,0 +1,646 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 43-43
+[QUOTE]
+"Welcome to our webpage-We believe great service goes beyond providing high-quality products-it’s about building trust, connection, & care. We’re proud of the customer service we provide because our purpose is to help you succeed & see real results with your research journey."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 55-55
+[QUOTE]
+"[](https://primary.jwwb.nl/public/k/q/h/temp-dbnzgamvbbxeyawymcey/img_7320-high.jpg"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 29-29
+[QUOTE]
+"[ Shop Now  ](/shop "Shop Now")"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 17-27
+[QUOTE]
+"[ Home  ](/)
+  * [ Shop 🛍️  ](/shop)
+  * [ Analysis 🧐  ](/analysis)
+  * [ FAQ's  ](/faq-s)
+  * [ Contact  ](/contact)
+  * [ Peptide Calculator  ](/peptide-calculator)
+  * [ TVL Blog  ](/tvl-blog)
+  * [ Account  ](/account "Account")"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 156-156
+[QUOTE]
+"© 2025 The Vibrant Life | Website Design by OSH"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 67-67
+[QUOTE]
+"At The Vibrant Life, we offer same-day or next-business-day shipping anywhere in the U.S.A. Fast FedEx 2 day shipping."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 67-67
+[QUOTE]
+"At The Vibrant Life, we offer same-day or next-business-day shipping anywhere in the U.S.A. Fast FedEx 2 day shipping."
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 74-74
+[QUOTE]
+"All products offered listed and sold by The Vibrant Life on this website are sold strictly for in-vitro research use only and are not for human or animal consumption, clinical use, diagnostic use, or therapeutic use of any kind."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 119-119
+[QUOTE]
+"The products on this website are for **legitimate research use only**. They are **not intended to prevent, treat, or cure any illness or disease** and are **not intended for human consumption**."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 72-72
+[QUOTE]
+"Access to this website is restricted to individuals who are 21 years of age or older, reside in the United States, and are qualified research professionals, institutions, or acting in an independent research capacity."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 86-108
+[QUOTE]
+"Due to the sensitive nature of our products, and in compliance with industry standards and safety regulations, we strictly adhere to the following policy:
+
+All Sales Are Final
+
+We do not offer refunds, returns, or exchanges on any products once an order has been processed and shipped.
+
+Refunds or replacements may only be issued in the rare case of:
+
+-Incorrect item received
+
+-Product damaged in transit
+
+-Missing items in the shipment
+
+To qualify for an exception:
+
+You must notify us within 24 hours of receiving your order.
+
+You must provide photo evidence of the issue.
+
+The product must remain unopened and unused."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.the-vibrant-life.com/faq-s
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/tos.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"We use fast 2 day shipping-all orders over $150 are free shipping. Under $150 is $10 shipping charge."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.the-vibrant-life.com/faq-s
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/tos.md
+[LINE_RANGE] 68-70
+[QUOTE]
+"Disclaimer/Terms and Conditions
+
+All products sold by The Vibrant Life are intended strictly for laboratory research and analytical purposes."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.the-vibrant-life.com/faq-s
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/tos.md
+[LINE_RANGE] 77-77
+[QUOTE]
+"All products sold by The Vibrant Life are intended strictly for **laboratory research and analytical purposes**. These materials are **not intended for human or animal use** , and are not approved for any therapeutic, diagnostic, or medical application. The Vibrant Life does not provide instructions or guidance regarding preparation, reconstitution, administration, or dosage. No product sold is classified as a drug, dietary supplement, or medical device under federal law. All items are labeled **"For Research Use Only – Not for Human or Animal Use"** in accordance with **21 CFR 809.10(c)**. Any misuse or unauthorized application is strictly prohibited and may violate applicable laws. All products listed are for research purposes only. You must be 18 or older to purchase any products."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.the-vibrant-life.com/faq-s
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/tos.md
+[LINE_RANGE] 72-74
+[QUOTE]
+"Frequently asked question - How to Pay?
+
+You will receive an invoice for payment via your email. There you will find options and instructions for payment. Please pay within 24 hours of placing your order."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 67-67
+[QUOTE]
+"At The Vibrant Life, we offer same-day or next-business-day shipping anywhere in the U.S.A. Fast FedEx 2 day shipping."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.the-vibrant-life.com/faq-s
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/tos.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"We use fast 2 day shipping-all orders over $150 are free shipping. Under $150 is $10 shipping charge."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 67-67
+[QUOTE]
+"At The Vibrant Life, we offer same-day or next-business-day shipping anywhere in the U.S.A. Fast FedEx 2 day shipping."
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://www.the-vibrant-life.com/faq-s
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/tos.md
+[LINE_RANGE] 72-74
+[QUOTE]
+"You will receive an invoice for payment via your email. There you will find options and instructions for payment. Please pay within 24 hours of placing your order."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 55-55
+[QUOTE]
+"[](https://primary.jwwb.nl/public/k/q/h/temp-dbnzgamvbbxeyawymcey/img_7320-high.jpg?enable-io=true&fit=bounds&width=1200&height=600"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/source_homepage.md
+[LINE_RANGE] 55-55
+[QUOTE]
+"[](https://primary.jwwb.nl/public/k/q/h/temp-dbnzgamvbbxeyawymcey/img_7320-high.jpg?enable-io=true&fit=bounds&width=1200&height=600"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 1-156
+[QUOTE]
+"© 2025 The Vibrant Life | Website Design by OSH"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.the-vibrant-life.com/tvl-blog
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/blog_1.md
+[LINE_RANGE] 34-36
+[QUOTE]
+"# Password required
+
+Do Not Share"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 23-23
+[QUOTE]
+"[ TVL Blog  ](/tvl-blog)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://www.the-vibrant-life.com/product/21419045/bpc157-5mg-lyophilized-powder
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/product_1__bpc157-5mg-lyophilized-powder.md
+[LINE_RANGE] 1-105
+[QUOTE]
+"#  BPC157 5mg Lyophilized Powder"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 38-38
+[QUOTE]
+"[ Trustpilot 5 Star Reviews ⭐️⭐️⭐️⭐️⭐️ Click here  ](https://www.trustpilot.com/review/www.the-vibrant-life.com)"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 38-38
+[QUOTE]
+"[ Trustpilot 5 Star Reviews ⭐️⭐️⭐️⭐️⭐️ Click here  ](https://www.trustpilot.com/review/www.the-vibrant-life.com)"
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://www.the-vibrant-life.com/
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/homepage.md
+[LINE_RANGE] 57-63
+[QUOTE]
+"[ Facebook __](https://facebook.com/share/1AAmixYYr3/?mibextid=wwXIfr)
+
+
+
+### **Join our Facebook Group  **
+
+### **"[The Vibrant Life with Grace Langford](https://www.facebook.com/profile.php?id=61578265839101)"**"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.the-vibrant-life.com/shop
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/catalog_1.md
+[LINE_RANGE] 44-686
+[QUOTE]
+[ENUMERATION] Counted from grep -oE '/product/[0-9]+/[a-z0-9-]+' on catalog_1.md — 61 unique product URLs found:
+/product/20728071/t20-20mg-lyophylized-powder
+/product/20728083/glow-kpv-klow80-lyophylized-powder
+/product/20728089/b12-10ml-no-refrigeration-needed
+/product/20728091/cagri5-lyophylized-powder
+/product/20728092/epithalon-ept10-lyophylized-powder
+/product/20728093/hydration-glow-ghk-cu-snap8-serum-lotion-topical-1-2-ounce
+/product/20728098/rt3-10mg-lyophylized-powder
+/product/20728103/mots-c-10-lyophylized-powder
+/product/20728106/nad-500mg-buffered-lyophylized-powder
+/product/20728109/peg-mgf-2mg-lyophylized-powder
+/product/20728110/tesamorelin-5mg-lyophylized-powder
+/product/20784985/rt3-20mg-lyophylized-powder
+/product/20785015/bpc157-tb500-10mg-wolverine-lyophylized-powder
+/product/20877102/dsip-5mg-lyophylized-powder
+/product/20879473/bac-water-10ml
+/product/20926989/t30-30mg-lyophylized-powder
+/product/20950030/cjc1295-5mg-ipamorelin-5mg-no-dac-lyophylized-powder
+/product/20986547/lipoc-b12-no-refrigeration-needed
+/product/21311982/semax-5mg-lyophylized-powder
+/product/21311996/2s-31-10mg-lyophylized-powder
+/product/21312091/kisspeptin-5mg-lyophylized-powder
+/product/21312245/pt-141-10mg-lyophilized-powder
+/product/21327372/slu-pp-332-5mg-lyophilized-powder
+/product/21327466/sermorelin-5mg-lyophilized-powder
+/product/21327776/pinealon-10mg-lyophilized-powder
+/product/21398842/kpv-10mg-lyophilized-powder
+/product/21419045/bpc157-5mg-lyophilized-powder
+/product/21425530/t60-60mg-lyophilized-powder
+/product/21443989/hydration-glow-ghk-cu-snap8-serum-lotion-topical-3-ounce
+/product/21469150/super-blend-10ml-liquid
+/product/21469243/super-shred-energy-fat-blaster-10ml-liquid
+/product/21469633/melanotan-i-10mg-lyophilized-powder
+/product/21484093/rt3-30mg-lyophylized-powder
+/product/21543383/rt3-15mg-lyophylized-powder
+/product/21562328/ara-290-10mg
+/product/21562415/thymalin-10mg
+/product/21587775/t40-40mg-lyophylized-powder
+/product/21596310/pe-22-28-10mg
+/product/21699812/hair-system-set-copper-peptide-hair-growth-system-root-serum-shampoo
+/product/21770150/5amino1mq-50mg
+/product/21818718/tb500-10mg
+/product/21834049/bac-water-3ml
+/product/21938533/3-moisturizer-hydra-collagen-ghk-cu-aha-moisturizer
+/product/22018053/advanced-peptide-moisturizer-copper-renewal-cream-for-men-women
+/product/22018067/body-lotion-hyaluronic-intensely-hydrating-body-lotion-10-ounces
+/product/22018084/body-lotion-collagen-peptide-infused-body-lotion-10-ounces
+/product/22057293/glutathione-600mg-lyophylized-powder
+/product/22057335/sema10-lyophylized-powder
+/product/22057426/ghk-cu-50mg-lyophylized-powder
+/product/22491683/hydration-glow-copper-snap8-serum-creme-3-5-ounces
+/product/22540611/sermorelin-10mg-lyophylized
+/product/22540826/t10-10mg-lyophylized-powder
+/product/22541009/gonadorelin-2mg-lyophylized-powder
+/product/22565770/oxytocin-10mg-lyophylized-powder
+/product/22635043/dark-spot-corrector-creme
+/product/22682844/oligo-peptides-eye-cream-night-moisturizer
+/product/22688100/oxytocin-5mg-lyophylized-powder
+/product/22696629/hyaluronic-veil-serum
+/product/22743399/surplus-dark-spot-corrector-serum
+/product/22869718/melanotan-ii-10mg-lyophylized-powder
+/product/22905553/tallow-honey-olive-oil-copper-moisturizer-4-ounces
+/product/22905698/caffeine-eye-cream-1-ounce
+/product/22929963/surplus-gluta-600mg
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.the-vibrant-life.com/shop
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/catalog_1.md
+[LINE_RANGE] 34-34
+[QUOTE]
+"**"Research Use-Not for human or animal consumption"**"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://www.the-vibrant-life.com/shop
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/catalog_1.md
+[LINE_RANGE] 38-38
+[QUOTE]
+"### 🔍To search, click 3 lines in upper left"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.the-vibrant-life.com/shop
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/catalog_1.md
+[LINE_RANGE] 126-128
+[QUOTE]
+"[ BPC157/TB500 10mg (Wolverine) Lyophylized Powder ](/product/20785015/bpc157-tb500-10mg-wolverine-lyophylized-powder) $80.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://www.the-vibrant-life.com/product/21419045/bpc157-5mg-lyophilized-powder
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/product_1__bpc157-5mg-lyophilized-powder.md
+[LINE_RANGE] 34-46
+[QUOTE]
+"#  BPC157 5mg Lyophilized Powder
+
+Repair & Heal 💪"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://www.the-vibrant-life.com/product/21419045/bpc157-5mg-lyophilized-powder
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/product_1__bpc157-5mg-lyophilized-powder.md
+[LINE_RANGE] 46-46
+[QUOTE]
+"$50.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.the-vibrant-life.com/product/21419045/bpc157-5mg-lyophilized-powder
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/product_1__bpc157-5mg-lyophilized-powder.md
+[LINE_RANGE] 52-54
+[QUOTE]
+"Research has shown-healing and repair, especially involving tendons, ligaments, joints, gut, and nerves. Helps with nerve regeneration. Can reduce neuropathic pain, Strengthens the gut lining, Helps with leaky gut, ulcers, gastritis, Reduces GI inflammation, Promotes angiogenesis (new blood vessel formation), Improves blood flow to damaged tissue → faster healing"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.the-vibrant-life.com/product/21419045/bpc157-5mg-lyophilized-powder
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/product_1__bpc157-5mg-lyophilized-powder.md
+[LINE_RANGE] 58-61
+[QUOTE]
+"This product is sold strictly for **laboratory research purposes only**. It is **not for human or animal use** , and not for therapeutic or diagnostic applications.
+By purchasing, you confirm that you are a **qualified individual** using this product in accordance with all applicable laws and research regulations."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://www.the-vibrant-life.com/analysis
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/coa_1.md
+[LINE_RANGE] 34-45
+[QUOTE]
+"## COAs 🧐
+
+Shop The Highest Quality Reference Materials Available For Research:
+
+Third-party Tested for:
+🧪Identity
+🧪Purity
+🧪Concentration
+
+"Not for human or animal consumption"
+
+Find our COAs on prodycts on website"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://www.the-vibrant-life.com/analysis
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/coa_1.md
+[LINE_RANGE] 45-45
+[QUOTE]
+"Find our COAs on prodycts on website"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://www.the-vibrant-life.com/product/21419045/bpc157-5mg-lyophilized-powder
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/product_1__bpc157-5mg-lyophilized-powder.md
+[LINE_RANGE] 1-105
+[QUOTE]
+"#  BPC157 5mg Lyophilized Powder"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://www.the-vibrant-life.com/product/21419045/bpc157-5mg-lyophilized-powder
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/product_1__bpc157-5mg-lyophilized-powder.md
+[LINE_RANGE] 68-76
+[QUOTE]
+"[ SHOP PRODUCTS 🛍️  ](/shop "Shop 🛍️")
+
+## 🚨📣Product Spotlight:
+
+[ ](/product/20728083/glow-kpv-klow80-lyophylized-powder)
+
+Best Seller 🏆
+
+###  [GLOW + KPV (KLOW80) Lyophylized Powder](/product/20728083/glow-kpv-klow80-lyophylized-powder)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://www.the-vibrant-life.com/product/21419045/bpc157-5mg-lyophilized-powder
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/product_1__bpc157-5mg-lyophilized-powder.md
+[LINE_RANGE] 38-44
+[QUOTE]
+"[ ](https://primary.jwwb.nl/public/k/q/h/temp-dbnzgamvbbxeyawymcey/kisspeptin-label-high-wgej2f.jpg)
+
+[ ](https://primary.jwwb.nl/public/k/q/h/temp-dbnzgamvbbxeyawymcey/img_8185-high.jpg)
+
+[ ](https://primary.jwwb.nl/public/k/q/h/temp-dbnzgamvbbxeyawymcey/img_8186-high.jpg)"
+[/QUOTE]
+
+[CLAIM] skus[bpc157-5mg].list_price_usd
+[URL] https://www.the-vibrant-life.com/product/21419045/bpc157-5mg-lyophilized-powder
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/product_1__bpc157-5mg-lyophilized-powder.md
+[LINE_RANGE] 46-46
+[QUOTE]
+"$50.00"
+[/QUOTE]
+
+[CLAIM] skus[tb500-10mg].list_price_usd
+[URL] https://www.the-vibrant-life.com/product/21818718/tb500-10mg
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/product_2__tb500-10mg.md
+[LINE_RANGE] 42-42
+[QUOTE]
+"$65.00"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg].list_price_usd
+[URL] https://www.the-vibrant-life.com/product/22057426/ghk-cu-50mg-lyophylized-powder
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/product_3__ghk-cu-50mg-lyophylized-powder.md
+[LINE_RANGE] 48-48
+[QUOTE]
+"$49.00"
+[/QUOTE]
+
+[CLAIM] skus[sema10].list_price_usd
+[URL] https://www.the-vibrant-life.com/product/22057335/sema10-lyophylized-powder
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/product_4__sema10-lyophylized-powder.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$90.00"
+[/QUOTE]
+
+[CLAIM] skus[mots-c-10mg].list_price_usd
+[URL] https://www.the-vibrant-life.com/product/20728103/mots-c-10-lyophylized-powder
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/product_5__mots-c-10-lyophylized-powder.md
+[LINE_RANGE] 58-58
+[QUOTE]
+"$55.00"
+[/QUOTE]
+
+[CLAIM] skus[catalog-prices].list_price_usd
+[URL] https://www.the-vibrant-life.com/shop
+[FETCHED_AT] 2026-05-08T08:28:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/the-vibrant-life/catalog_1.md
+[LINE_RANGE] 46-640
+[QUOTE]
+"[ Surplus Gluta 600mg ](/product/22929963/surplus-gluta-600mg) $30.00
+[ Surplus-Dark Spot Corrector Serum ](/product/22743399/surplus-dark-spot-corrector-serum) ~~$59.99~~ $15.00
+[ 2S-31 10mg Lyophylized Powder ](/product/21311996/2s-31-10mg-lyophylized-powder) $45.00
+[ 5Amino1MQ 50mg ](/product/21770150/5amino1mq-50mg) $99.00
+[ ARA-290 10mg ](/product/21562328/ara-290-10mg) $55.00
+[ B12 10ml No Refrigeration Needed ](/product/20728089/b12-10ml-no-refrigeration-needed) $35.00
+[ Bac Water 10ml ](/product/20879473/bac-water-10ml) $9.00
+[ Bac Water 3ml ](/product/21834049/bac-water-3ml) $5.00
+[ BPC157 5mg Lyophilized Powder ](/product/21419045/bpc157-5mg-lyophilized-powder) $50.00
+[ BPC157/TB500 10mg (Wolverine) Lyophylized Powder ](/product/20785015/bpc157-tb500-10mg-wolverine-lyophylized-powder) $80.00
+[ CAGRI5 Lyophylized Powder ](/product/20728091/cagri5-lyophylized-powder) $69.00
+[ CJC1295 5mg/IPAMORELIN 5mg (No Dac) Lyophylized Powder ](/product/20950030/cjc1295-5mg-ipamorelin-5mg-no-dac-lyophylized-powder) $65.00
+[ DSIP 5mg Lyophylized Powder ](/product/20877102/dsip-5mg-lyophylized-powder) $35.00
+[ Epithalon EPT10 Lyophylized Powder ](/product/20728092/epithalon-ept10-lyophylized-powder) $45.00
+[ GHK-Cu 50mg Lyophylized Powder ](/product/22057426/ghk-cu-50mg-lyophylized-powder) $49.00
+[ Gonadorelin 2mg Lyophylized powder ](/product/22541009/gonadorelin-2mg-lyophylized-powder) $45.00
+[ GLOW + KPV (KLOW80) Lyophylized Powder ](/product/20728083/glow-kpv-klow80-lyophylized-powder) $99.00
+[ Glutathione 600mg Lyophylized Powder ](/product/22057293/glutathione-600mg-lyophylized-powder) $60.00
+[ KPV 10mg Lyophilized Powder ](/product/21398842/kpv-10mg-lyophilized-powder) $40.00
+[ Kisspeptin 5mg Lyophylized Powder ](/product/21312091/kisspeptin-5mg-lyophylized-powder) $45.00
+[ LipoC+B12 No Refrigeration Needed ](/product/20986547/lipoc-b12-no-refrigeration-needed) $55.00
+[ Melanotan I 10mg Lyophilized Powder ](/product/21469633/melanotan-i-10mg-lyophilized-powder) $45.00
+[ Melanotan II 10mg Lyophylized Powder ](/product/22869718/melanotan-ii-10mg-lyophylized-powder) $45.00
+[ MOTS-C 10 Lyophylized Powder ](/product/20728103/mots-c-10-lyophylized-powder) $55.00
+[ NAD+ 500mg (Buffered) Lyophylized Powder ](/product/20728106/nad-500mg-buffered-lyophylized-powder) $65.00
+[ Oxytocin 5mg Lyophylized Powder ](/product/22688100/oxytocin-5mg-lyophylized-powder) $45.00
+[ Oxytocin 10mg Lyophylized Powder ](/product/22565770/oxytocin-10mg-lyophylized-powder) $65.00
+[ PE-22-28 10mg ](/product/21596310/pe-22-28-10mg) $45.00
+[ PEG MGF 2mg Lyophylized Powder ](/product/20728109/peg-mgf-2mg-lyophylized-powder) $40.00
+[ Pinealon 10mg Lyophilized Powder ](/product/21327776/pinealon-10mg-lyophilized-powder) $49.00
+[ PT-141 10mg Lyophilized Powder ](/product/21312245/pt-141-10mg-lyophilized-powder) $45.00
+[ RT3 10mg Lyophylized Powder ](/product/20728098/rt3-10mg-lyophylized-powder) $99.00
+[ RT3 15mg Lyophylized Powder ](/product/21543383/rt3-15mg-lyophylized-powder) $125.00
+[ RT3 20mg Lyophylized Powder ](/product/20784985/rt3-20mg-lyophylized-powder) $155.00
+[ RT3 30mg Lyophylized Powder ](/product/21484093/rt3-30mg-lyophylized-powder) $199.00
+[ Sema10 Lyophylized Powder ](/product/22057335/sema10-lyophylized-powder) $90.00
+[ Semax 5mg Lyophylized Powder ](/product/21311982/semax-5mg-lyophylized-powder) $40.00
+[ Sermorelin 5mg Lyophilized Powder ](/product/21327466/sermorelin-5mg-lyophilized-powder) $65.00
+[ Sermorelin 10mg Lyophylized ](/product/22540611/sermorelin-10mg-lyophylized) $85.00
+[ SLU-PP-332 5mg Lyophilized Powder ](/product/21327372/slu-pp-332-5mg-lyophilized-powder) $50.00
+[ Super Blend 10ml liquid ](/product/21469150/super-blend-10ml-liquid) ~~$80.00~~ $70.00
+[ Super Shred (Energy/Fat Blaster)⚡️🔥 10ml liquid ](/product/21469243/super-shred-energy-fat-blaster-10ml-liquid) $99.00
+[ T10 10mg Lyophylized Powder ](/product/22540826/t10-10mg-lyophylized-powder) $90.00
+[ T20 20mg Lyophylized Powder ](/product/20728071/t20-20mg-lyophylized-powder) $95.00
+[ T30 30mg Lyophylized Powder ](/product/20926989/t30-30mg-lyophylized-powder) $99.00
+[ T40 40mg Lyophylized Powder ](/product/21587775/t40-40mg-lyophylized-powder) $175.00
+[ T60 60mg Lyophilized Powder ](/product/21425530/t60-60mg-lyophilized-powder) $199.00
+[ TB500 10mg ](/product/21818718/tb500-10mg) $65.00
+[ TESAMORELIN 5mg Lyophylized Powder ](/product/20728110/tesamorelin-5mg-lyophylized-powder) $75.00
+[ Thymalin 10mg ](/product/21562415/thymalin-10mg) $45.00"
+[/QUOTE]

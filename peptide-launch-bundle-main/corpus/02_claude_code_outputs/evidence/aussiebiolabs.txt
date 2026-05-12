@@ -1,0 +1,418 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://aussiebiolabs.com.au
+[FETCHED_AT] 2026-05-07T19:42:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/homepage.md
+[LINE_RANGE] 68-68
+[QUOTE]
+"# AussieBio Labs"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://aussiebiolabs.com.au
+[FETCHED_AT] 2026-05-07T19:42:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/homepage.md
+[LINE_RANGE] 70-70
+[QUOTE]
+"[ Shop Now ](https://aussiebio.com.au/aussiebio-labs/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://aussiebiolabs.com.au
+[FETCHED_AT] 2026-05-07T19:42:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/homepage.md
+[LINE_RANGE] 14-27
+[QUOTE]
+"[ Home ](/)
+
+[ Blog ](/blog)
+
+[ About ](/about)
+
+[ Contact ](/contact)
+
+[ Reconstitution Calculator ](/peptide-reconstitution-calculator)
+
+[ Compliance & Safety ](/compliance-safety-4)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://aussiebiolabs.com.au
+[FETCHED_AT] 2026-05-07T19:42:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"All products sold on this website are intended for research purposes only. They are not intended for human consumption, medical use, or veterinary use. By purchasing from this site, you agree to use these products in compliance with all applicable laws and regulations. AussieBio Labs is not liable for any misuse of our products. Always consult with a qualified professional for guidance on proper use."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.aussiebiolabs.com.au/about
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/about.md
+[LINE_RANGE] 70-70
+[QUOTE]
+"At **AussieBio Labs** , we are an **Australian owned and operated** company dedicated to advancing scientific research and discovery by providing premium-grade research compounds."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.aussiebiolabs.com.au/about
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/about.md
+[LINE_RANGE] 74-74
+[QUOTE]
+"We believe in professionalism, trust, and accountability. That is why all of our compounds are intended strictly for **laboratory research use only** and are **not for human consumption**. To maintain quality assurance, we **ship exclusively within Australia**."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.aussiebiolabs.com.au/shipping-returns
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/shipping.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"We do not ship outside of Australia."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://aussiebio.com.au/aussiebio-labs/shop/
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/catalog_1.md
+[LINE_RANGE] 26-26
+[QUOTE]
+"Showing 1–16 of 81 results"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://aussiebio.com.au/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:43:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/product_1__bpc-157-5mg.md
+[LINE_RANGE] 36-36
+[QUOTE]
+"Category: [GH secretagogues & Healing peptides](https://aussiebio.com.au/product-category/shop-all/gh-secretagogues-healing-peptides/), [Immune & Inflammation](https://aussiebio.com.au/product-category/shop-all/immune-inflammation/), [Shop All](https://aussiebio.com.au/product-category/shop-all/), [Skin, Hair & Repair](https://aussiebio.com.au/product-category/shop-all/skin-hair-repair/)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://aussiebio.com.au/aussiebio-labs/shop/
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/catalog_1.md
+[LINE_RANGE] 28-28
+[QUOTE]
+"Default sorting Sort by popularity Sort by average rating Sort by latest Sort by price: low to high Sort by price: high to low"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://aussiebio.com.au/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:43:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/product_1__bpc-157-5mg.md
+[LINE_RANGE] 22-24
+[QUOTE]
+"# BPC-157 5mg
+
+$89.99"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://aussiebio.com.au/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:43:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/product_1__bpc-157-5mg.md
+[LINE_RANGE] 24-24
+[QUOTE]
+"$89.99"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://aussiebio.com.au/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:43:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/product_1__bpc-157-5mg.md
+[LINE_RANGE] 48-50
+[QUOTE]
+"**Tissue Regeneration Support:** BPC-157 is widely studied for its regenerative capabilities, particularly in promoting tendon, ligament, and muscle healing across a range of injury models."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://aussiebio.com.au/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:43:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/product_1__bpc-157-5mg.md
+[LINE_RANGE] 38-41
+[QUOTE]
+"  * Description
+  * Additional information
+  * Reviews (0)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://aussiebio.com.au/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:43:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/product_1__bpc-157-5mg.md
+[LINE_RANGE] 66-70
+[QUOTE]
+"##  Reviews
+
+There are no reviews yet.
+
+Only logged in customers who have purchased this product may leave a review."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://aussiebio.com.au/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:43:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/product_1__bpc-157-5mg.md
+[LINE_RANGE] 74-76
+[QUOTE]
+"##  Related products
+
+  * [ ](https://aussiebio.com.au/product/20mg-pre-loaded-retapen/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.aussiebiolabs.com.au/compliance-safety-4
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/compliance.md
+[LINE_RANGE] 70-70
+[QUOTE]
+"AussieBio Labs supplies research-use-only laboratory materials intended solely for non-clinical scientific work. Our products are not medicines, supplements, or therapeutic goods, and must not be used as such."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.aussiebiolabs.com.au/shipping-returns
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/shipping.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"We do not ship outside of Australia."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.aussiebiolabs.com.au/terms-of-use
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/tos.md
+[LINE_RANGE] 70-70
+[QUOTE]
+"AussieBio Labs — Terms of Service (Research Use Only) Effective date: 3 September 2025"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.aussiebiolabs.com.au/terms-of-use
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/tos.md
+[LINE_RANGE] 77-79
+[QUOTE]
+"• You must be 21 years or older and legally capable of entering into a binding contract to purchase from us.
+
+• By ordering, you represent that you are a trained, qualified user purchasing for a legitimate research application and not for any prohibited use."
+[/QUOTE]
+
+[URL] https://www.aussiebiolabs.com.au/terms-of-use
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/tos.md
+[LINE_RANGE] 126-126
+[QUOTE]
+"14\. Governing Law These Terms are governed by the laws of Queensland, Australia. You submit to the non exclusive jurisdiction of the courts of Queensland and the Commonwealth of Australia."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.aussiebiolabs.com.au/shipping-returns
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/shipping.md
+[LINE_RANGE] 84-84
+[QUOTE]
+"Make sure you choose the correct research product because given the nature of the product once it is shipped there will be no returns, we will honour any damage via post however our packaging ensures that this is avoided."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.aussiebiolabs.com.au/shipping-returns
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/shipping.md
+[LINE_RANGE] 72-75
+[QUOTE]
+"This is all we do, we ship locally here in Australia via express post, tracking will be provided on request. All orders are shipped within 24hrs from payment. Orders placed before 12pm Aest will be shipped same day."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.aussiebiolabs.com.au/shipping-returns
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/shipping.md
+[LINE_RANGE] 72-74
+[QUOTE]
+"we ship locally here in Australia via express post, tracking will be provided on request."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.aussiebiolabs.com.au/shipping-returns
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/shipping.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"We do not ship outside of Australia."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://aussiebio.com.au/aussiebio-labs/shop/
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/catalog_1.md
+[LINE_RANGE] 169-169
+[QUOTE]
+"Designed with [WordPress](https://wordpress.org)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.aussiebiolabs.com.au/blog
+[FETCHED_AT] 2026-05-07T19:43:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/blog_1.md
+[LINE_RANGE] 70-76
+[QUOTE]
+"#  [ Unlocking Recovery ](/blog/unlocking-recovery)
+
+Wolverine Recovery Stack Peptides
+
+[Read More](/blog/unlocking-recovery)"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://www.aussiebiolabs.com.au/blog
+[FETCHED_AT] 2026-05-07T19:43:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/blog_1.md
+[LINE_RANGE] 70-84
+[QUOTE]
+"Wolverine Stack 9/9/25 Wolverine Stack 9/9/25
+
+#  [ Unlocking Recovery ](/blog/unlocking-recovery)
+
+Wolverine Recovery Stack Peptides
+
+[Read More](/blog/unlocking-recovery)
+
+[ ](/blog/by-dr-sophia-khalique)
+
+Joseph Dunshea 4/9/25 Joseph Dunshea 4/9/25
+
+#  [ By Dr Sophia Khalique ](https://drsophiakhalique.com/its-all-about-peptides-now/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://www.aussiebiolabs.com.au/blog
+[FETCHED_AT] 2026-05-07T19:43:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/blog_1.md
+[LINE_RANGE] 70-80
+[QUOTE]
+"Wolverine Stack 9/9/25 Wolverine Stack 9/9/25"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://aussiebio.com.au/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:43:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/product_1__bpc-157-5mg.md
+[LINE_RANGE] 66-70
+[QUOTE]
+"##  Reviews
+
+There are no reviews yet.
+
+Only logged in customers who have purchased this product may leave a review."
+[/QUOTE]
+
+[CLAIM] skus[0].name
+[URL] https://aussiebio.com.au/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:43:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/product_1__bpc-157-5mg.md
+[LINE_RANGE] 22-24
+[QUOTE]
+"# BPC-157 5mg
+
+$89.99"
+[/QUOTE]
+
+[CLAIM] skus[1-5].names (catalog sample — BPC-157 5mg, BPC157 10mg, CJC-1295 No DAC, AOD-9604 10mg)
+[URL] https://aussiebio.com.au/aussiebio-labs/shop/
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/catalog_1.md
+[LINE_RANGE] 94-156
+[QUOTE]
+"## [BPC-157 5mg](https://aussiebio.com.au/product/bpc-157-5mg/)
+
+$89.99"
+[/QUOTE]
+
+[URL] https://aussiebio.com.au/aussiebio-labs/shop/
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/catalog_1.md
+[LINE_RANGE] 118-124
+[QUOTE]
+"## [BPC157 10mg](https://aussiebio.com.au/product/bpc157-10mg/)
+
+$119.00"
+[/QUOTE]
+
+[URL] https://aussiebio.com.au/aussiebio-labs/shop/
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/catalog_1.md
+[LINE_RANGE] 150-156
+[QUOTE]
+"## [CJC-1295 (No DAC) – 5mg](https://aussiebio.com.au/product/cjc-1295-no-dac-5mg/)
+
+$69.95"
+[/QUOTE]
+
+[CLAIM] skus[3].name (GHRP-6 5mg — headline SKU from homepage)
+[URL] https://aussiebiolabs.com.au
+[FETCHED_AT] 2026-05-07T19:42:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/homepage.md
+[LINE_RANGE] 84-86
+[QUOTE]
+"GHRP-6 5mg
+
+$68.99"
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+The TOS is dated "Effective date: 3 September 2025" and blog posts are dated September 2025, indicating the site launched in 2025. No earlier establishment date is stated anywhere on the site. The copyright year "2026" on the shop reflects the current year, not founding year.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.aussiebiolabs.com.au/terms-of-use
+[FETCHED_AT] 2026-05-07T19:43:05Z
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/tos.md
+[LINE_RANGE] 70-70
+"AussieBio Labs — Terms of Service (Research Use Only) Effective date: 3 September 2025"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.aussiebiolabs.com.au/blog
+[FETCHED_AT] 2026-05-07T19:43:34Z
+[RAW_ARTIFACT] 03_raw_fetches/aussiebiolabs/blog_1.md
+[LINE_RANGE] 70-71
+"Wolverine Stack 9/9/25 Wolverine Stack 9/9/25"
+[/SUPPORT_QUOTE]

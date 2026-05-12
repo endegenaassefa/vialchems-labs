@@ -1,0 +1,353 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/homepage.md
+[LINE_RANGE] 11-12
+[QUOTE]
+"**Astro Peptides**
+
+**Top-Tier Peptides**"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/homepage.md
+[LINE_RANGE] 54-54
+[QUOTE]
+"View All Products"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/homepage.md
+[LINE_RANGE] 5-10
+[QUOTE]
+"  * Home
+  * About
+  * Shop
+  * Blog
+  * Contact"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/homepage.md
+[LINE_RANGE] 74-74
+[QUOTE]
+"Copyright © 2023 | WordPress Theme by [SuperbThemes](http://superbthemes.com/)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/homepage.md
+[LINE_RANGE] 14-35
+[QUOTE]
+"### Free engraving
+
+Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat.
+
+### +250,000 satisfied customers
+
+Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat.
+
+### Free delivery over $250
+
+Etiam placerat velit vitae dui blandit sollicitudin. Vestibulum tincidunt sed dolor sit amet volutpat.
+
+## The perfect gift for anyone special
+
+## 100+ happy Customers
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://astropeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:05:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/catalog_1.md
+[LINE_RANGE] 11-12
+[QUOTE]
+"# Great things are on the horizon
+
+Something big is brewing! Our store is in the works and will be launching soon!"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://astropeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:05:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/catalog_1.md
+[LINE_RANGE] 11-12
+[QUOTE]
+"# Great things are on the horizon
+
+Something big is brewing! Our store is in the works and will be launching soon!"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://astropeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:05:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/catalog_1.md
+[LINE_RANGE] 11-12
+[QUOTE]
+"# Great things are on the horizon
+
+Something big is brewing! Our store is in the works and will be launching soon!"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://astropeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:05:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/catalog_1.md
+[LINE_RANGE] 11-12
+[QUOTE]
+"# Great things are on the horizon
+
+Something big is brewing! Our store is in the works and will be launching soon!"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://astropeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:05:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/catalog_1.md
+[LINE_RANGE] 11-12
+[QUOTE]
+"# Great things are on the horizon
+
+Something big is brewing! Our store is in the works and will be launching soon!"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/homepage.md
+[LINE_RANGE] 62-69
+[QUOTE]
+## Customer Testimonials
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/homepage.md
+[LINE_RANGE] 1-80
+[QUOTE]
+"**Astro Peptides**
+
+**Top-Tier Peptides**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/homepage.md
+[LINE_RANGE] 1-80
+[QUOTE]
+"Copyright © 2023 | WordPress Theme by [SuperbThemes](http://superbthemes.com/)"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:09:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/response_headers.md
+[LINE_RANGE] 11-17
+[QUOTE]
+x-powered-by: PHP/8.2.30
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:09:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/response_headers.md
+[LINE_RANGE] 11-17
+[QUOTE]
+platform: hostinger
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:09:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/response_headers.md
+[LINE_RANGE] 11-17
+[QUOTE]
+x-litespeed-cache: hit
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:09:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/response_headers.md
+[LINE_RANGE] 11-17
+[QUOTE]
+x-litespeed-cache: hit
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:09:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/response_headers.md
+[LINE_RANGE] 11-17
+[QUOTE]
+x-litespeed-cache: hit
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://astropeptides.com/resources/
+[FETCHED_AT] 2026-05-07T17:07:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/resources.md
+[LINE_RANGE] 11-18
+[QUOTE]
+"# Resources
+
+## Research Peptide Insights
+
+  * ## [Your Go-To E-Commerce Platform for Quality Research Peptides](https://astropeptides.com/your-go-to-e-commerce-platform-for-quality-research-peptides/)
+
+Welcome to Our E-Commerce Platform At our e-commerce platform, we are dedicated to providing high-quality research peptides"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://astropeptides.com/your-go-to-e-commerce-platform-for-quality-research-peptides/
+[FETCHED_AT] 2026-05-07T17:06:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/blog_1.md
+[LINE_RANGE] 12-13
+[QUOTE]
+"[hadi.bensouda@gmail.com](https://astropeptides.com/author/hadi-bensoudagmail-com/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://astropeptides.com/your-go-to-e-commerce-platform-for-quality-research-peptides/
+[FETCHED_AT] 2026-05-07T17:06:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/blog_1.md
+[LINE_RANGE] 11-11
+[QUOTE]
+"March 8, 2025"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://astropeptides.com/your-go-to-e-commerce-platform-for-quality-research-peptides/
+[FETCHED_AT] 2026-05-07T17:06:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/blog_1.md
+[LINE_RANGE] 14-22
+[QUOTE]
+"## Welcome to Our E-Commerce Platform
+
+At our e-commerce platform, we are dedicated to providing high-quality research peptides, curated specifically for the scientific community. With a focus similar to mobpeptides.net, we ensure that our products are lab-tested and reliable for any research purposes."
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://astropeptides.com/resources/
+[FETCHED_AT] 2026-05-07T17:07:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/resources.md
+[LINE_RANGE] 24-26
+[QUOTE]
+"## Explore Our Peptides
+
+Discover high-quality, lab-tested research peptides. Enhance your research with our reliable products and exceptional customer support.
+
+Shop"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/homepage.md
+[LINE_RANGE] 36-55
+[QUOTE]
+"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non nisl in velit dignissim mollis.”
+
+## Pauline Gilbert
+
+Founder, Yellow Bird
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non nisl in velit dignissim mollis."
+
+## Sophie Hanson
+
+Blogger, MyThoughts
+
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non nisl in velit dignissim mollis."
+
+## John Doe
+
+Freelance Writer, AdStart"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/homepage.md
+[LINE_RANGE] 36-55
+[QUOTE]
+"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non nisl in velit dignissim mollis.”
+
+## Pauline Gilbert
+
+Founder, Yellow Bird"
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://astropeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/homepage.md
+[LINE_RANGE] 68-74
+[QUOTE]
+"  * [X](https://#)
+  * [YouTube](https://#)
+  * [Instagram](https://instagram.com)
+
+
+
+Copyright © 2023 | WordPress Theme by [SuperbThemes](http://superbthemes.com/)"
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://astropeptides.com/exploring-high-quality-research-peptides-your-trusted-e-commerce-source/
+[FETCHED_AT] 2026-05-07T17:07:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/blog_4.md
+[LINE_RANGE] 11-11
+[QUOTE]
+"March 7, 2025"
+[/QUOTE]
+
+[CLAIM] tier_rationale
+[URL] https://astropeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:05:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/astro-peptides/catalog_1.md
+[LINE_RANGE] 11-12
+[QUOTE]
+"# Great things are on the horizon
+
+Something big is brewing! Our store is in the works and will be launching soon!"
+[/QUOTE]

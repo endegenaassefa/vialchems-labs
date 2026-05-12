@@ -1,0 +1,463 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.bleaugenics.com/
+[FETCHED_AT] 2026-05-07T19:47:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/homepage.md
+[LINE_RANGE] 54-54
+[QUOTE]
+"**Precision Compounds. Research Ready.**"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.bleaugenics.com/
+[FETCHED_AT] 2026-05-07T19:47:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/homepage.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"[See Reviews on Trustpilot](https://www.trustpilot.com/review/bleaugenics.com?utm_medium=trustbox&utm_source=TrustBoxReviewCollector)[Explore All Compounds](/collections/all)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.bleaugenics.com/
+[FETCHED_AT] 2026-05-07T19:47:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/homepage.md
+[LINE_RANGE] 142-142
+[QUOTE]
+"_All products sold on this website are intended for research and identification purposes only. These products are not intended for human dosing, injection, or ingestion._"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.bleaugenics.com/
+[FETCHED_AT] 2026-05-07T19:47:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/homepage.md
+[LINE_RANGE] 34-37
+[QUOTE]
+"* [ Home ](/)
+  * [ All Products ](/collections/all)
+  * [ News ](/blogs/research-peptides)
+  * [ Contact ](/pages/contact)"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://www.bleaugenics.com/
+[FETCHED_AT] 2026-05-07T19:47:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/homepage.md
+[LINE_RANGE] 132-132
+[QUOTE]
+"© 2026, [BleauGenics](/) [Powered by Shopify](https://www.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.bleaugenics.com/
+[FETCHED_AT] 2026-05-07T19:47:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/homepage.md
+[LINE_RANGE] 109-109
+[QUOTE]
+"After checkout, you will receive secure payment instructions. Card payments are handled through a one time invoice sent by email or SMS. Zelle, Venmo, and crypto are also available with direct details provided after checkout."
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.bleaugenics.com/
+[FETCHED_AT] 2026-05-07T19:47:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/homepage.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"[See Reviews on Trustpilot](https://www.trustpilot.com/review/bleaugenics.com?utm_medium=trustbox&utm_source=TrustBoxReviewCollector)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.bleaugenics.com/collections/all
+[FETCHED_AT] 2026-05-07T19:48:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/catalog_1.md
+[LINE_RANGE] 89-89
+[QUOTE]
+"##  24 products"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://www.bleaugenics.com/collections/all
+[FETCHED_AT] 2026-05-07T19:48:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/catalog_1.md
+[LINE_RANGE] 66-67
+[QUOTE]
+"* In stock (23)  In stock (23 products)
+  * Out of stock (3)  Out of stock (3 products)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price / skus[bleaugenics:bpc-157-5mg].list_price_usd
+[URL] https://www.bleaugenics.com/products/bpc-157
+[FETCHED_AT] 2026-05-07T19:48:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_1__bpc-157.md
+[LINE_RANGE] 71-73
+[QUOTE]
+"Regular price $42.00 USD
+
+Regular price ~~~~ Sale price $42.00 USD"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.bleaugenics.com/products/bpc-157
+[FETCHED_AT] 2026-05-07T19:48:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_1__bpc-157.md
+[LINE_RANGE] 97-97
+[QUOTE]
+"**BleauGenics BPC-157** is a high-purity synthetic peptide offered in lyophilized powder form for research applications. With a tested purity of 99%, this compound is of interest to laboratories investigating peptide stability and cellular signaling pathways in controlled environments."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.bleaugenics.com/products/bpc-157
+[FETCHED_AT] 2026-05-07T19:48:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_1__bpc-157.md
+[LINE_RANGE] 113-113
+[QUOTE]
+"This product is sold for **laboratory research use only**. It is not intended for human consumption, nor for therapeutic, diagnostic, veterinary, or household use. The buyer acknowledges that they are a qualified professional or entity equipped to handle and study such materials responsibly and legally."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options / skus[bleaugenics:bpc-157-5mg].dose_value
+[URL] https://www.bleaugenics.com/products/bpc-157
+[FETCHED_AT] 2026-05-07T19:48:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_1__bpc-157.md
+[LINE_RANGE] 101-109
+[QUOTE]
+"**Compound** : BPC-157
+
+**Form** : Lyophilized Powder
+
+**Declared Content** : 5mg
+
+**Purity** : ≥99% (COA Verified)
+
+**Container** : Sterile 3mL glass vial"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present (false — age confirmation is in-page purchase agreement, not a site-level age gate)
+[URL] https://www.bleaugenics.com/products/bpc-157
+[FETCHED_AT] 2026-05-07T19:48:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_1__bpc-157.md
+[LINE_RANGE] 118-126
+[QUOTE]
+"**By purchasing, you agree to the following:**
+
+  * You are at least 18 years of age
+
+  * You will not use the product in or on humans or animals
+
+  * You are aware of all applicable local/state/federal laws regarding this compound
+
+  * You release BleauGenics and its affiliates of all liability associated with misuse, handling, or application of this product"
+[/QUOTE]
+
+[CLAIM] skus[bleaugenics:tb500-5mg].list_price_usd
+[URL] https://www.bleaugenics.com/products/tb500
+[FETCHED_AT] 2026-05-07T19:48:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_2__tb500.md
+[LINE_RANGE] 71-73
+[QUOTE]
+"Regular price $48.00 USD
+
+Regular price ~~~~ Sale price $48.00 USD"
+[/QUOTE]
+
+[CLAIM] skus[bleaugenics:retatrutide-10mg].list_price_usd / dose_options
+[URL] https://www.bleaugenics.com/products/retatrutide
+[FETCHED_AT] 2026-05-07T19:48:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_3__retatrutide.md
+[LINE_RANGE] 71-79
+[QUOTE]
+"Regular price $78.00 USD
+
+Regular price ~~~~ Sale price $78.00 USD
+
+Sale  Sold out
+
+[Shipping](/policies/shipping-policy) calculated at checkout.
+
+mg 10mgVariant sold out or unavailable 20mgVariant sold out or unavailable 50mgVariant sold out or unavailable 60mgVariant sold out or unavailable"
+[/QUOTE]
+
+[CLAIM] skus[bleaugenics:semaglutide-5mg].list_price_usd / name
+[URL] https://www.bleaugenics.com/products/glp-1
+[FETCHED_AT] 2026-05-07T19:49:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_4__glp-1-s-semaglutide.md
+[LINE_RANGE] 71-73
+[QUOTE]
+"Regular price $68.00 USD
+
+Regular price ~~~~ Sale price $68.00 USD"
+[/QUOTE]
+
+[CLAIM] skus[bleaugenics:semaglutide-5mg].name (compound identity)
+[URL] https://www.bleaugenics.com/products/glp-1
+[FETCHED_AT] 2026-05-07T19:49:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_4__glp-1-s-semaglutide.md
+[LINE_RANGE] 97-100
+[QUOTE]
+"**BleauGenics Semaglutide (GLP-1 S)** is a high-purity peptide offered in lyophilized powder form for research applications.
+
+* * *
+
+**Compound** : Semaglutide (GLP-1 S)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / coa_hosting / lab_partner_named
+[URL] https://www.bleaugenics.com/products/glp-2
+[FETCHED_AT] 2026-05-07T19:49:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_5__tirzepatide.md
+[LINE_RANGE] 99-101
+[QUOTE]
+"[**View Certificate of Analysis (COA)**](https://trustpointelims.com/TrustPointe/clients/client-1/SPL-3215/arreport-4023/download_pdf?token=7ee3b56d2332ce654030a75e76fc1f9df15835c666ae505f074cc39de6553922 "View Certificate of Analysis \(COA\)")
+
+**Verification Key:** L8PF7RZS8FWA"
+[/QUOTE]
+
+[CLAIM] skus[bleaugenics:tirzepatide-5mg].list_price_usd / purity
+[URL] https://www.bleaugenics.com/products/glp-2
+[FETCHED_AT] 2026-05-07T19:49:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_5__tirzepatide.md
+[LINE_RANGE] 71-73
+[QUOTE]
+"Regular price $58.00 USD
+
+Regular price ~~~~ Sale price $58.00 USD"
+[/QUOTE]
+
+[CLAIM] skus[bleaugenics:ghk-cu-100mg].dose_value / out_of_stock
+[URL] https://www.bleaugenics.com/products/ghk-cu-99-purity-100mg-lyophilized-peptide
+[FETCHED_AT] 2026-05-07T19:50:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_6__ghk-cu.md
+[LINE_RANGE] 71-80
+[QUOTE]
+"Regular price $42.00 USD
+
+Regular price ~~~~ Sale price $42.00 USD
+
+Sale  Sold out
+
+[Shipping](/policies/shipping-policy) calculated at checkout.
+
+mg 100mgVariant sold out or unavailable"
+[/QUOTE]
+
+[CLAIM] skus[bleaugenics:mots-c-10mg].dose_value / list_price_usd
+[URL] https://www.bleaugenics.com/products/mots-c
+[FETCHED_AT] 2026-05-07T19:50:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_7__mots-c.md
+[LINE_RANGE] 71-81
+[QUOTE]
+"Regular price $48.00 USD
+
+Regular price ~~~~ Sale price $48.00 USD
+
+Sale  Sold out
+
+[Shipping](/policies/shipping-policy) calculated at checkout.
+
+mg 10mgVariant sold out or unavailable 40mgVariant sold out or unavailable
+
+**Compound** : MOTS-c
+
+**Declared Content** : 10mg"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy / checkout_flow.shipping_carriers
+[URL] https://www.bleaugenics.com/policies/shipping-policy
+[FETCHED_AT] 2026-05-07T19:49:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/shipping.md
+[LINE_RANGE] 75-75
+[QUOTE]
+"* We offer standard and expedited shipping options via trusted carriers including USPS, UPS, and FedEx."
+[/QUOTE]
+
+[CLAIM] ship_to_scope (us_only) / checkout_flow.international_policy
+[URL] https://www.bleaugenics.com/policies/shipping-policy
+[FETCHED_AT] 2026-05-07T19:49:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/shipping.md
+[LINE_RANGE] 86-98
+[QUOTE]
+"* Shipping is available to all 50 U.S. states."
+[/QUOTE]
+
+[URL] https://www.bleaugenics.com/policies/shipping-policy
+[FETCHED_AT] 2026-05-07T19:49:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/shipping.md
+[LINE_RANGE] 98-98
+[QUOTE]
+"* At this time, **BleauGenics does not offer international shipping**."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.bleaugenics.com/
+[FETCHED_AT] 2026-05-07T19:47:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/homepage.md
+[LINE_RANGE] 32-32
+[QUOTE]
+"[ Free shipping on orders over $100 ](/collections/all)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.bleaugenics.com/policies/refund-policy
+[FETCHED_AT] 2026-05-07T19:49:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/refund.md
+[LINE_RANGE] 77-77
+[QUOTE]
+"All purchases from BleauGenics are **non-returnable and non-refundable**. Once an order has been placed and shipped, it cannot be canceled, returned, or exchanged under any circumstance."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / country_of_operation (Ohio)
+[URL] https://www.bleaugenics.com/policies/terms-of-service
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/tos.md
+[LINE_RANGE] 113-114
+[QUOTE]
+"**9\. Governing Law**
+These Terms shall be governed by and construed in accordance with the laws of the State of Ohio, without regard to its conflict of law provisions."
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.bleaugenics.com/policies/terms-of-service
+[FETCHED_AT] 2026-05-07T19:49:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/tos.md
+[LINE_RANGE] 65-66
+[QUOTE]
+"**2\. Research Use Only**
+All products sold by BleauGenics are intended strictly for **laboratory research purposes** and are **not for human or animal use, consumption, or application** of any kind. Products are not approved by the FDA or any global regulatory body for medical, clinical, cosmetic, or diagnostic purposes."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.bleaugenics.com/policies/shipping-policy
+[FETCHED_AT] 2026-05-07T19:49:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/shipping.md
+[LINE_RANGE] 107-108
+[QUOTE]
+"* We cannot deliver to regions where the products we offer are restricted or prohibited by law.
+  * It is the customer's responsibility to be aware of and comply with local regulations regarding the receipt of research chemicals."
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present / blog_url / content_cadence / last_activity
+[URL] https://www.bleaugenics.com/blogs/research-peptides
+[FETCHED_AT] 2026-05-07T19:50:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/blog_1.md
+[LINE_RANGE] 56-60
+[QUOTE]
+"###  [ Upcoming Research Compound Launch – September 15th ](/blogs/research-peptides/launch-sept-15-2025)
+
+September 2, 2025
+
+BleauGenics is expanding its peptide catalog with new compounds launching on September 15th, including Retatrutide 10mg, TB-500, BPC-157, and more."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+Earliest Wayback CDX snapshot is dated 20250710 (July 10, 2025). Refund policy carries an Effective Date of 5/10/2025. Both corroborate a 2025 launch year.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/cdx/search/cdx?url=bleaugenics.com&output=text&limit=1&fl=timestamp,statuscode&from=20200101&to=20260101
+[FETCHED_AT] 2026-05-07T19:51:00Z
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/wayback_cdx.md
+[LINE_RANGE] 8-8
+"20250710224808 301"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.bleaugenics.com/policies/refund-policy
+[FETCHED_AT] 2026-05-07T19:49:49Z
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/refund.md
+[LINE_RANGE] 63-63
+"**Effective Date:** 5/10/2025"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[bleaugenics:epitalon-10mg].list_price_usd / dose_value
+[URL] https://www.bleaugenics.com/products/epitalon
+[FETCHED_AT] 2026-05-07T19:51:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_supp__epitalon.md
+[LINE_RANGE] 71-73
+[QUOTE]
+"Regular price $42.00 USD
+
+Regular price ~~~~ Sale price $42.00 USD"
+[/QUOTE]
+
+[CLAIM] skus[bleaugenics:ipamorelin-5mg].list_price_usd / compound / dose_value
+[URL] https://www.bleaugenics.com/products/ipamorelin
+[FETCHED_AT] 2026-05-07T19:51:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_supp__ipamorelin.md
+[LINE_RANGE] 71-73
+[QUOTE]
+"Regular price $42.00 USD
+
+Regular price ~~~~ Sale price $42.00 USD"
+[/QUOTE]
+
+[CLAIM] skus[bleaugenics:selank-10mg].list_price_usd / dose_value
+[URL] https://www.bleaugenics.com/products/selank
+[FETCHED_AT] 2026-05-07T19:51:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_supp__selank.md
+[LINE_RANGE] 71-73
+[QUOTE]
+"Regular price $42.00 USD
+
+Regular price ~~~~ Sale price $42.00 USD"
+[/QUOTE]
+
+[CLAIM] skus[bleaugenics:semax-10mg].list_price_usd / dose_value
+[URL] https://www.bleaugenics.com/products/semax
+[FETCHED_AT] 2026-05-07T19:52:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_supp__semax.md
+[LINE_RANGE] 71-73
+[QUOTE]
+"Regular price $42.00 USD
+
+Regular price ~~~~ Sale price $42.00 USD"
+[/QUOTE]
+
+[CLAIM] skus[bleaugenics:nad-500mg].list_price_usd / dose_options
+[URL] https://www.bleaugenics.com/products/nad-500mg
+[FETCHED_AT] 2026-05-07T19:52:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bleaugenics/product_supp__nad-500mg.md
+[LINE_RANGE] 71-81
+[QUOTE]
+"Regular price $58.00 USD
+
+Regular price ~~~~ Sale price $58.00 USD
+
+Sale  Sold out
+
+[Shipping](/policies/shipping-policy) calculated at checkout.
+
+mg 500mgVariant sold out or unavailable 1000mgVariant sold out or unavailable"
+[/QUOTE]

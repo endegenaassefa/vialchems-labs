@@ -1,0 +1,613 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://silverstonelabsco.com
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/homepage.md
+[LINE_RANGE] 70-74
+[QUOTE]
+"Precision-Verified Research Compounds
+
+Retatrutide, Tirzepatide, and next-generation research compounds.
+Independently tested. Transparently documented. Built for laboratory research."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://silverstonelabsco.com
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/homepage.md
+[LINE_RANGE] 75-75
+[QUOTE]
+"[ Shop All Products ](/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://silverstonelabsco.com
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/homepage.md
+[LINE_RANGE] 196-197
+[QUOTE]
+"All products sold by Silverstone Labs Co. are intended for laboratory research and development purposes only. Products are not intended for human or veterinary use, diagnosis, treatment, or consumption."
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://silverstonelabsco.com
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/homepage.md
+[LINE_RANGE] 18-22
+[QUOTE]
+"  * [Products](https://silverstonelabsco.com/shop/)
+  * [Lab Test Results/ COA](https://silverstonelabsco.com/certificates/)
+  * [Promotions](https://silverstonelabsco.com/promotions/)
+  * [Track My Order](https://silverstonelabsco.com/track-my-order/)
+  * [Support](https://silverstonelabsco.com/contact/)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://silverstonelabsco.com
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/homepage.md
+[LINE_RANGE] 159-176
+[QUOTE]
+"# Why Researchers Choose Silverstone Labs
+
+####  Batch Integrity
+
+Each vial is traceable to its specific production batch.
+
+####  Independent Testing
+
+Verification performed by accredited third-party laboratories.
+
+####  Clear Documentation
+
+No hidden data. No vague summaries. Full reports available."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://silverstonelabsco.com/shop/
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/catalog_1.md
+[LINE_RANGE] 72-72
+[QUOTE]
+"Showing 1–9 of 22 results"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://silverstonelabsco.com/product/glp3-rt10mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__glp3-rt-10mg.md
+[LINE_RANGE] 105-105
+[QUOTE]
+"SKU: RT10-1225 Categories: [GLP](https://silverstonelabsco.com/product-category/glp/), [Limited Time Only](https://silverstonelabsco.com/product-category/limited-time-only/) Tags: [10mg](https://silverstonelabsco.com/product-tag/10mg/)"
+[/QUOTE]
+
+[URL] https://silverstonelabsco.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__bpc-157-5mg.md
+[LINE_RANGE] 97-97
+[QUOTE]
+"SKU: BPC5-0326 Categories: [Other Compounds](https://silverstonelabsco.com/product-category/other-compounds/), [Muscle](https://silverstonelabsco.com/product-category/muscle/) Tags: [157](https://silverstonelabsco.com/product-tag/157/)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://silverstonelabsco.com/shop/
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/catalog_1.md
+[LINE_RANGE] 73-73
+[QUOTE]
+"Default sorting Sort by popularity Sort by latest Sort by price: low to high Sort by price: high to low"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://silverstonelabsco.com/product/glp3-rt10mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__glp3-rt-10mg.md
+[LINE_RANGE] 76-76
+[QUOTE]
+"# GLP3-RT 10mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://silverstonelabsco.com/product/glp3-rt10mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__glp3-rt-10mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 104.00~~ Original price was: $104.00.$59.00Current price is: $59.00."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://silverstonelabsco.com/product/glp3-rt10mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__glp3-rt-10mg.md
+[LINE_RANGE] 86-93
+[QUOTE]
+"RT10 (Retatrutide)
+
+Each vial contains 10mg.
+
+  * **Purity: ≥** 99%
+  * **Form:** Lyophilized powder in 3ml vial
+  * **All products are third-party tested with verifiable COA 's (Certificate of Analysis) **
+  * **Same-day Process & Shipping**"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://silverstonelabsco.com/product/glp3-rt10mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__glp3-rt-10mg.md
+[LINE_RANGE] 97-101
+[QUOTE]
+"**Use Classification:**
+For laboratory research purposes only
+
+**Disclaimer:**
+This product is intended strictly for research purposes and not intended for human or animal use."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://silverstonelabsco.com/certificates/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/coa_1.md
+[LINE_RANGE] 72-74
+[QUOTE]
+"Certificate of Analysis
+
+## Batch COA Library
+
+Third-party verified. Search by compound name or batch number."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://silverstonelabsco.com/product/glp3-rt10mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__glp3-rt-10mg.md
+[LINE_RANGE] 105-105
+[QUOTE]
+"SKU: RT10-1225 Categories: [GLP](https://silverstonelabsco.com/product-category/glp/), [Limited Time Only](https://silverstonelabsco.com/product-category/limited-time-only/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://silverstonelabsco.com/disclaimers
+[FETCHED_AT] 2026-05-08T07:27:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/disclaimers.md
+[LINE_RANGE] 72-73
+[QUOTE]
+"All products sold by Silverstone Labs Co. are designated **For Research Use Only (RUO)**. Products are not intended for human or veterinary use, diagnosis, treatment, clinical application, or consumption. Any use of products outside their intended research-only purpose is strictly prohibited."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://silverstonelabsco.com
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/homepage.md
+[LINE_RANGE] 228-232
+[QUOTE]
+"##  This website is age restricted
+
+Are you over 21 years of age?
+
+No Yes
+
+By confirming your age, you agree that products and information on this website are provided for laboratory research use only and are not intended for use in or on humans or animals."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://silverstonelabsco.com/tos
+[FETCHED_AT] 2026-05-08T07:27:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/tos.md
+[LINE_RANGE] 68-68
+[QUOTE]
+"# Terms & Conditions of Service"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://silverstonelabsco.com/tos
+[FETCHED_AT] 2026-05-08T07:27:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/tos.md
+[LINE_RANGE] 76-83
+[QUOTE]
+"All products sold by Silverstone Labs Co. are intended **for laboratory research and development purposes only** and are _not_ for human or veterinary use, diagnosis, treatment, or consumption. Products are not to be used as food, drugs, cosmetics, or household items.
+By accessing the Website and purchasing products, you confirm that you:
+
+  * are at least 21 years of age;
+  * understand and accept that the products are strictly for research use only;
+  * have the necessary knowledge, training, facilities, and compliance procedures to safely handle and use the products;
+  * will comply with all applicable local, state, federal, and international laws and regulations regarding purchase, possession, and use of research materials."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://silverstonelabsco.com/refunds
+[FETCHED_AT] 2026-05-08T07:27:19Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/refund.md
+[LINE_RANGE] 87-89
+[QUOTE]
+"Due to the nature of our products, **returns are not accepted**. Refund eligibility, if applicable, is on a case-by-case basis based on the circumstances of the order and compliance with this policy. Shipping fees are **non-refundable** , except in cases where an error was made on our part.
+In many cases, our preferred resolution is to offer a one time **replacement or alternative solution** rather than a refund"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://silverstonelabsco.com/shipping
+[FETCHED_AT] 2026-05-08T07:27:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/shipping.md
+[LINE_RANGE] 74-74
+[QUOTE]
+"We offer **flat-rate shipping of $15 per order** within the United States. Orders are shipped using UPS or USPS (United States Postal Service) based on destination, package size, and service availability."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://silverstonelabsco.com/tos
+[FETCHED_AT] 2026-05-08T07:27:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/tos.md
+[LINE_RANGE] 91-91
+[QUOTE]
+"Shipping is limited to the United States only. Orders are shipped via UPS or USPS for a flat rate per order."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://silverstonelabsco.com
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/homepage.md
+[LINE_RANGE] 36-36
+[QUOTE]
+"[ **New Products Just Dropped — Shop Now: Limited Availability** | Free Shipping on Orders Over **$179** ]"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://silverstonelabsco.com/shipping
+[FETCHED_AT] 2026-05-08T07:27:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/shipping.md
+[LINE_RANGE] 95-95
+[QUOTE]
+"At this time, we do not offer international shipping."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://silverstonelabsco.com
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/source_homepage.md
+[LINE_RANGE] 4-4
+[QUOTE]
+"<link rel='stylesheet' id='bf-style-css' href='https://silverstonelabsco.com/wp-content/plugins/bankful/assets/css/bf-style.css?ver=3.0.4' media='all' />"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://silverstonelabsco.com
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/source_homepage.md
+[LINE_RANGE] 6-6
+[QUOTE]
+"<link rel='stylesheet' id='acfwf-wc-cart-block-integration-css' href='https://silverstonelabsco.com/wp-content/plugins/advanced-coupons-for-woocommerce-free/dist/assets/index-467dde24.css?ver=1774330901' media='all' />"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://silverstonelabsco.com
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/source_homepage.md
+[LINE_RANGE] 3-3
+[QUOTE]
+"<link rel='dns-prefetch' href='//challenges.cloudflare.com' />"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[NOTE] Field set to "uncertain". Initial grep for "crisp" in source HTML matched a WordPress core CSS variable name (--wp--preset--shadow--crisp), not the Crisp.chat plugin. No chat widget plugin path was confirmed in saved raw artifacts. Per Rule 4, field marked uncertain.
+
+[CLAIM] country_of_operation
+[URL] https://silverstonelabsco.com/shipping
+[FETCHED_AT] 2026-05-08T07:27:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/shipping.md
+[LINE_RANGE] 74-74
+[QUOTE]
+"We offer **flat-rate shipping of $15 per order** within the United States."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://silverstonelabsco.com/shipping
+[FETCHED_AT] 2026-05-08T07:27:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/shipping.md
+[LINE_RANGE] 95-95
+[QUOTE]
+"At this time, we do not offer international shipping."
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://silverstonelabsco.com
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/homepage.md
+[LINE_RANGE] 224-224
+[INFERENCE] year_established = 2022
+[REASONING]
+The JSON-LD schema embedded in the homepage HTML source shows datePublished: "2022-10-25T13:17:31-06:00" for the site's main WebPage entity, consistent with domain registration date. The copyright line says 2026 (current year) so does not contradict a 2022 founding. Two supporting signals:
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://silverstonelabsco.com
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/source_homepage.md
+[LINE_RANGE] 8-8
+datePublished":"2022-10-25T13:17:31-06:00
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://silverstonelabsco.com
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/homepage.md
+[LINE_RANGE] 224-224
+"Copyright © 2026\. All rights reserved by Silverstone Wellness"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[glp3-rt-10mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/glp3-rt10mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__glp3-rt-10mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 104.00~~ Original price was: $104.00.$59.00Current price is: $59.00."
+[/QUOTE]
+
+[CLAIM] skus[glp3-rt-20mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/glp3-rt-20mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__glp3-rt-20mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 154.00~~ Original price was: $154.00.$94.00Current price is: $94.00."
+[/QUOTE]
+
+[CLAIM] skus[glp3-rt-30mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/glp3-rt-30mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__glp3-rt-30mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 189.00~~ Original price was: $189.00.$119.00Current price is: $119.00."
+[/QUOTE]
+
+[CLAIM] skus[glp2-tz-20mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/glp2-tz-20mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__glp2-tz-20mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 105.00~~ Original price was: $105.00.$56.00Current price is: $56.00."
+[/QUOTE]
+
+[CLAIM] skus[glp2-tz-30mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/glp2-tz-30mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__glp2-tz-30mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 139.00~~ Original price was: $139.00.$74.00Current price is: $74.00."
+[/QUOTE]
+
+[CLAIM] skus[mots-c-10mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/mots-c-10mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__mots-c-10mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 65.00~~ Original price was: $65.00.$35.00Current price is: $35.00."
+[/QUOTE]
+
+[CLAIM] skus[mots-c-20mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/mots-c-20-mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__mots-c-20mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 85.00~~ Original price was: $85.00.$63.00Current price is: $63.00."
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-5mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__bpc-157-5mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 38.00~~ Original price was: $38.00.$29.00Current price is: $29.00."
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg].dose_value
+[URL] https://silverstonelabsco.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__ghk-cu.md
+[LINE_RANGE] 79-79
+[QUOTE]
+"GHK-Cu is a research peptide supplied in a 50 mg quantity for non-clinical laboratory research purposes only. It is supplied as a lyophilized (freeze-dried) powder in a sealed, sterile vial."
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__ghk-cu.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 59.00~~ Original price was: $59.00.$29.00Current price is: $29.00."
+[/QUOTE]
+
+[CLAIM] skus[tesamorelin-10mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/tesamorelin/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__tesamorelin.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 99.00~~ Original price was: $99.00.$53.00Current price is: $53.00."
+[/QUOTE]
+
+[CLAIM] skus[ipamorelin-5mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/ipamorelin-5-mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__ipamorelin-5mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 59.00~~ Original price was: $59.00.$32.00Current price is: $32.00."
+[/QUOTE]
+
+[CLAIM] skus[nad-500mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/nad500/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__nad-500mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 79.00~~ Original price was: $79.00.$49.00Current price is: $49.00."
+[/QUOTE]
+
+[CLAIM] skus[cjc-1295-no-dac-10mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/cjc-1295-no-dac-10-mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__cjc-1295-no-dac-10mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 72.00~~ Original price was: $72.00.$59.00Current price is: $59.00."
+[/QUOTE]
+
+[CLAIM] skus[cjc-ipa-10mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/cjc-ipa-10-mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__cjc-ipa-10mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 84.00~~ Original price was: $84.00.$59.00Current price is: $59.00."
+[/QUOTE]
+
+[CLAIM] skus[mt2-10mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/mt2-10-mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__mt2-10mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 59.00~~ Original price was: $59.00.$34.00Current price is: $34.00."
+[/QUOTE]
+
+[CLAIM] skus[pt-141-10mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/pt-141/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__pt-141.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 58.00~~ Original price was: $58.00.$35.00Current price is: $35.00."
+[/QUOTE]
+
+[CLAIM] skus[pt-141-10mg].dose_value
+[URL] https://silverstonelabsco.com/product/pt-141/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__pt-141.md
+[LINE_RANGE] 82-82
+[QUOTE]
+"Each vial contains a total of 10mg."
+[/QUOTE]
+
+[CLAIM] skus[epitalon-10mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/epitalon-10-mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__epitalon-10mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 62.00~~ Original price was: $62.00.$39.00Current price is: $39.00."
+[/QUOTE]
+
+[CLAIM] skus[wolverine-10mg].peptide_canonical
+[URL] https://silverstonelabsco.com/product/wolverine-10-mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__wolverine-10mg.md
+[LINE_RANGE] 82-82
+[QUOTE]
+"**Wolverine combines BPC-157 and TB-500**"
+[/QUOTE]
+
+[CLAIM] skus[wolverine-10mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/wolverine-10-mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__wolverine-10mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 68.00~~ Original price was: $68.00.$45.00Current price is: $45.00."
+[/QUOTE]
+
+[CLAIM] skus[klow-80mg].list_price_usd
+[URL] https://silverstonelabsco.com/product/klow-80-mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__klow-80mg.md
+[LINE_RANGE] 78-78
+[QUOTE]
+"~~$ 110.00~~ Original price was: $110.00.$72.00Current price is: $72.00."
+[/QUOTE]
+
+[CLAIM] skus[klow-80mg].peptide_canonical
+[URL] https://silverstonelabsco.com/product/klow-80-mg/
+[FETCHED_AT] 2026-05-08T07:27:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/product_1__klow-80mg.md
+[LINE_RANGE] 82-82
+[QUOTE]
+"Each vial contains a total of 80mg of the KLOW peptide blend."
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://silverstonelabsco.com/shop/
+[FETCHED_AT] 2026-05-08T07:26:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/catalog_1.md
+[LINE_RANGE] 72-160
+[QUOTE]
+"Showing 1–9 of 22 results"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://silverstonelabsco.com/tos
+[FETCHED_AT] 2026-05-08T07:27:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/silverstone-labs-co/tos.md
+[LINE_RANGE] 127-127
+[QUOTE]
+"These Terms are governed by and construed in accordance with the laws of the state in which Silverstone Labs Co. operates, without regard to conflict of law principles."
+[/QUOTE]

@@ -1,0 +1,292 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:44:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/homepage.md
+[LINE_RANGE] 12-14
+[QUOTE]
+"Research-grade compounds, independently verified.
+
+Join thousands of researchers accessing our full catalog with batch-specific COAs on every product."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:44:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/homepage.md
+[LINE_RANGE] 20-26
+[QUOTE]
+"### Exclusive Member Access
+
+Browse our full research catalog - Members Only
+
+### Third-Party Tested
+
+Purity, sterility, endotoxins, heavy metals — batch-specific COAs with every product.
+
+### ISO-Certified Lab & Cleanroom
+
+Analytical lab & cleanroom production held to the highest global standards."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:44:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/homepage.md
+[LINE_RANGE] 48-68
+[QUOTE]
+"Sign In
+
+Create Account
+
+Email or Username
+
+Password 👁
+
+Remember me [Forgot password?](/reset-password)
+
+Sign In
+
+Email Address
+
+Create Password 👁
+
+By creating an account you agree to our [Terms](https://solyn.com/terms-conditions/) and [Privacy Policy](https://solyn.com/privacy-policy/). For laboratory research use only.
+
+Create Account"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:44:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/homepage.md
+[LINE_RANGE] 64-64
+[QUOTE]
+"By creating an account you agree to our [Terms](https://solyn.com/terms-conditions/) and [Privacy Policy](https://solyn.com/privacy-policy/). For laboratory research use only."
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:44:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/homepage.md
+[LINE_RANGE] 64-64
+[QUOTE]
+"By creating an account you agree to our [Terms](https://solyn.com/terms-conditions/) and [Privacy Policy](https://solyn.com/privacy-policy/). For laboratory research use only."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:44:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/homepage.md
+[LINE_RANGE] 8-157
+[QUOTE]
+"Skip to main content
+
+Why choose Solyn"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:44:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/homepage.md
+[LINE_RANGE] 64-64
+[QUOTE]
+"By creating an account you agree to our [Terms](https://solyn.com/terms-conditions/) and [Privacy Policy](https://solyn.com/privacy-policy/). For laboratory research use only."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:44:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/homepage.md
+[LINE_RANGE] 16-18
+[QUOTE]
+"### Exclusive Member Access
+
+Browse our full research catalog - Members Only"
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:44:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/homepage.md
+[LINE_RANGE] 16-18
+[QUOTE]
+"### Exclusive Member Access
+
+Browse our full research catalog - Members Only"
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:44:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/homepage.md
+[LINE_RANGE] 54-66
+[QUOTE]
+"Email Address
+
+Create Password 👁
+
+By creating an account you agree to our [Terms](https://solyn.com/terms-conditions/) and [Privacy Policy](https://solyn.com/privacy-policy/). For laboratory research use only.
+
+Create Account
+
+OR
+
+[ Continue with Google ](https://solyn.com/?wc-api=auth&start=google&return=https%3A%2F%2Fsolyn.com%2Fshop%2F)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:44:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/homepage.md
+[LINE_RANGE] 54-72
+[QUOTE]
+"Email Address
+
+Create Password 👁
+
+By creating an account you agree to our [Terms](https://solyn.com/terms-conditions/) and [Privacy Policy](https://solyn.com/privacy-policy/). For laboratory research use only.
+
+Create Account
+
+OR
+
+[ Continue with Google ](https://solyn.com/?wc-api=auth&start=google&return=https%3A%2F%2Fsolyn.com%2Fshop%2F)
+
+🔒 SSL Encrypted 🛡 Data Protected ✓ No spam, ever
+
+Free to join · No spam · Cancel anytime"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:46:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/source_homepage.md
+[LINE_RANGE] 52-54
+[QUOTE]
+"<style id='woocommerce-inline-inline-css'>
+.woocommerce form .form-row .required { visibility: visible; }
+/*# sourceURL=woocommerce-inline-inline-css */"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:46:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/source_homepage.md
+[LINE_RANGE] 62-62
+[QUOTE]
+<link rel='stylesheet' id='bricks-frontend-css' href='https://solyn.com/wp-content/themes/bricks/assets/css/frontend-layer.min.css?ver=1768849541' media='all' />
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:46:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/source_homepage.md
+[LINE_RANGE] 170-170
+[QUOTE]
+t.src="https://www.clarity.ms/tag/"+i;
+[/QUOTE]
+
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:46:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/source_homepage.md
+[LINE_RANGE] 625-625
+[QUOTE]
+<script id="gtm-server-side-js-extra">
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:46:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/source_homepage.md
+[LINE_RANGE] 109-110
+[QUOTE]
+"<script>(function(w, d, t, u, o) {w\[u\] = w\[u\] || \[\], o.ts = (new Date).getTime();var n = d.createElement(t);n.src = \"https://bat.bing.net/bat.js?ti=\" + o.ti + (\"uetq\" != u ? \"&q=\" + u : \"\"),n.async = 1, n.onload = n.onreadystatechange = function() {var s = this.readyState;s && \"loaded\" !== s && \"complete\" !== s ||(o.q = w\[u\], w\[u\] = new UET(o), w\[u\].push(\"pageLoad\"),n.onload = n.onreadystatechange = null)};var i = d.getElementsByTagName(t)\[0\];i.parentNode.insertBefore(n, i);})(window, document, \"script\", \"uetq\", {ti: \"97228882\",enableAutoSpaTracking: true});</script>				<meta name=\"omnisend-site-verification\" content=\"6973ca1c4a2416df5e248340\"/>"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:46:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/source_homepage.md
+[LINE_RANGE] 616-616
+[QUOTE]
+var omnisend_snippet_vars = {"brand_id":"6973ca1c4a2416df5e248340","plugin_version":"1.18.0","home_url":"https://solyn.com"};
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:44:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/homepage.md
+[LINE_RANGE] 20-22
+[QUOTE]
+"### Third-Party Tested
+
+Purity, sterility, endotoxins, heavy metals — batch-specific COAs with every product."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:44:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/solyn/homepage.md
+[LINE_RANGE] 28-42
+[QUOTE]
+"6x
+
+Batch Tested
+
+99%
+
+Purity
+
+100%
+
+Published COAs
+
+SKMRJLEWPK
+
+Trusted by researchers worldwide"
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2026
+[REASONING]
+Logo image upload path in source HTML shows /wp-content/uploads/2026/01/ confirming first site activity in January 2026. Wayback Machine snapshots show solyn.com was a domain-for-sale page in 2022 and 2024, confirming the peptide vendor site is a new 2026 launch. WooCommerce plugin version 10.7.0 and WordPress version 6.9.4 suggest a very recent installation.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://solyn.com
+[FETCHED_AT] 2026-05-08T07:46:27Z
+[RAW_ARTIFACT] 03_raw_fetches/solyn/source_homepage.md
+[LINE_RANGE] 14-15
+"https://solyn.com/wp-content/uploads/2026/01/cropped-Solyn-Labs-RGB-scaled-1-180x180.png"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20231001000000/https://solyn.com/
+[FETCHED_AT] 2026-05-08T07:51:12Z
+[RAW_ARTIFACT] 03_raw_fetches/solyn/wayback_domain_for_sale.md
+[LINE_RANGE] 8-14
+"[ Domain for Sale
+
+](https://web.archive.org/web/20240125053743/https://www.mydomaincontact.com/index.php?domain_name=solyn.com)
+
+# solyn.com
+
+[Imprint](AskMySite.com) | 2023 Copyright. All Rights Reserved."
+[/SUPPORT_QUOTE]

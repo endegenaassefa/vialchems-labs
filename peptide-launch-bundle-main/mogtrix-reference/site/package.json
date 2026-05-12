@@ -1,0 +1,52 @@
+{
+  "name": "mogtrix-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "npm run build && playwright test",
+    "e2e:run": "playwright test",
+    "verify": "npm run test && npm run build && npm run e2e"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.4.0",
+    "@sentry/nextjs": "^10.51.0",
+    "@supabase/ssr": "^0.10.2",
+    "@supabase/supabase-js": "^2.87.1",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.555.0",
+    "motion": "^12.38.0",
+    "next": "^16.0.7",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "stripe": "^22.1.0",
+    "three": "^0.181.2",
+    "zod": "^4.4.2",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@tailwindcss/postcss": "^4.2.4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "jsdom": "^27.2.0",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.14"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "vendor_slug": "abata-therapeutics",
+  "brand_name": "Abata Therapeutics",
+  "primary_domain": "https://abatatherapeutics.com",
+  "fetched_url": "https://web.archive.org/web/20241226192912/https://abatatx.com/",
+  "fetched_at": "2026-05-07T19:32:01Z",
+  "fetch_status": "partial",
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.58,
+  "country_of_operation": "United States",
+  "fulfillment_country": "uncertain — clinical-stage biotech, no consumer product fulfillment; not a research-peptide vendor",
+  "ship_to_scope": "uncertain — clinical-stage biotech, no consumer peptide sales; no shipping operation",
+  "year_established": "2021",
+  "homepage": {
+    "hero_copy_excerpt": "Transformative Therapies for Autoimmune Disease — Translating the biology of regulatory T cells into transformational medicines for patients.",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Learn How",
+    "navigation_pattern": "horizontal top nav: Our Approach, Our Programs, Who We Are, News, Join Us",
+    "footer_disclaimers": "uncertain — no research-use-only, no consumer disclaimers observed; footer contains only Terms of Use, Privacy Policy, and Expanded Access Policy links"
+  },
+  "catalog": {
+    "sku_count": 0,
+    "category_taxonomy": [],
+    "search_filter_capabilities": "uncertain — no catalog or shop; clinical-stage biotech with pipeline drugs ABA-101 and ABA-201, not consumer peptide SKUs",
+    "stack_bundle_pages_present": "false"
+  },
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain — no consumer product pages exist; clinical drug candidates ABA-101 and ABA-201 have program description pages, not purchasable product pages",
+    "sample_product_name": "uncertain",
+    "dose_options": [],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "false",
+    "coa_hosting": "none",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "false",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "false"
+  },
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain — site carries no research-use-only language; it is a clinical-stage biotech pursuing FDA-regulated IND studies, not a research-peptide retail operation",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "none",
+    "tos_url": "uncertain — Terms of Use link present in footer pointing to https://abata.wpengine.com/terms-of-use/ but page not archived and not accessible live; content unknown",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain — no consumer refund policy observed; not an e-commerce operation",
+    "shipping_policy": "uncertain — no shipping policy observed; not an e-commerce operation"
+  },
+  "checkout_flow": {
+    "account_required": "uncertain — no checkout exists",
+    "guest_checkout_available": "uncertain — no checkout exists",
+    "fields_collected": [],
+    "id_verification_present": "uncertain — no checkout exists",
+    "payment_methods_accepted": [],
+    "shipping_carriers": [],
+    "shipping_cost_structure": "uncertain — no checkout exists",
+    "international_policy": "uncertain — no checkout exists"
+  },
+  "tech_stack": {
+    "platform_signal": "unknown",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": [],
+    "marketing_pixels_present": [],
+    "chat_widget_present": "false"
+  },
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://abatatx.com/news-blog/",
+    "content_cadence": "uncertain — last press release September 18 2024; no new content published after that date through at least August 2025",
+    "topic_taxonomy": [
+      "autoimmune disease",
+      "multiple sclerosis",
+      "type 1 diabetes",
+      "Treg cell therapy",
+      "clinical trials",
+      "IND filings",
+      "FDA designations"
+    ],
+    "author_bylines_present": "false",
+    "internal_linking_to_products": "none — no products to link to"
+  },
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": [],
+    "testimonial_usage": "none",
+    "visible_influencer_endorsements": "none"
+  },
+  "skus": [],
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "abata-therapeutics,Abata Therapeutics,abatatherapeutics.com,3,Defunct (Wound Down)"
+  },
+  "raw_fetches_dir": "03_raw_fetches/abata-therapeutics/",
+  "evidence_file": "evidence/abata-therapeutics.txt",
+  "uncertainty_notes": "Abata Therapeutics is a clinical-stage biotechnology company focused on Treg (regulatory T cell) cell therapy for autoimmune diseases (progressive multiple sclerosis via ABA-101 and type 1 diabetes via ABA-201). It is NOT a research-peptide vendor and has no consumer-facing product catalog, checkout flow, or retail pricing. Founded 2021 by Third Rock Ventures, based in Watertown, Massachusetts, USA. Live site at abatatherapeutics.com and abatatx.com both return 404 (WP Engine not configured) as of May 2026. Last known live Wayback snapshot: August 3, 2025 (status 200). Most recent news on archived site: September 18, 2024 press release. The operator-supplied vendor list classifies this entity as 'Defunct (Wound Down).' Because this is a clinical biotech and not a peptide vendor, the following schema fields are legitimately uncertain or inapplicable: fulfillment_country, ship_to_scope, homepage.footer_disclaimers, catalog.search_filter_capabilities, all product_page_anatomy fields, trust_compliance.research_use_only_phrasing / tos_url / tos_highlights / refund_policy / shipping_policy, all checkout_flow fields, tech_stack.platform_signal / cdn / analytics_tools_loaded / marketing_pixels_present, content_footprint.content_cadence, social_proof fields. The field_completion_ratio of 0.58 reflects the Tier 3 baseline fields that can be verified (brand_name, primary_domain, country_of_operation, year_established, homepage.hero_copy_excerpt, homepage.hero_imagery_style, homepage.primary_cta, homepage.navigation_pattern, catalog.sku_count, catalog.stack_bundle_pages_present, product_page_anatomy.coa_present / coa_hosting / batch_lot_transparency / customer_review_module_present / related_product_modules_present, trust_compliance.age_gate_present / jurisdictional_restriction_notice, checkout_flow.payment_methods_accepted / shipping_carriers, content_footprint.blog_present / blog_url / topic_taxonomy / author_bylines_present / internal_linking_to_products, social_proof.on_site_reviews / off_site_aggregators / testimonial_usage / visible_influencer_endorsements) versus those that are inherently uncertain for a defunct clinical biotech."
+}

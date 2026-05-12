@@ -1,0 +1,475 @@
+[CLAIM] country_of_operation
+[URL] https://www.trustpilot.com/review/modifiedaminos.shop
+[FETCHED_AT] 2026-05-08T01:04:57Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_4_trustpilot.md
+[LINE_RANGE] 15-21
+[QUOTE]
+"Modified Aminos is a U.S.-based supplier of research-use-only (RUO) laboratory materials, serving qualified researchers and institutions worldwide."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.trustpilot.com/review/modifiedaminos.shop
+[FETCHED_AT] 2026-05-08T01:04:57Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_4_trustpilot.md
+[LINE_RANGE] 21
+[QUOTE]
+"Contact info: United States, modifiedaminos.shop"
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2026
+[REASONING]
+The earliest dated reference to Modified Aminos found is the Derek Pruski Research Radar Substack article dated Feb 14, 2026 announcing the vendor as newly launched. No earlier web presence, archive snapshot, or mention was found. The article uses present-tense launch language: "Modified Aminos did it right" and "They're now officially live on PeptidePrice.store." Trustpilot first review is dated Feb 18, 2026.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://derekpruski.substack.com/p/new-vendor-alert-modified-aminos
+[FETCHED_AT] 2026-05-08T01:04:28Z
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_1_substack_launch.md
+[LINE_RANGE] 34
+"Modified Aminos did it right."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.trustpilot.com/review/modifiedaminos.shop
+[FETCHED_AT] 2026-05-08T01:04:57Z
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_4_trustpilot.md
+[LINE_RANGE] 37
+"Seth Jordan US •2 reviews Mar 5, 2026"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.trustpilot.com/review/modifiedaminos.shop
+[FETCHED_AT] 2026-05-08T01:04:57Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_4_trustpilot.md
+[LINE_RANGE] 15
+[QUOTE]
+"Modified Aminos is a U.S.-based supplier of research-use-only (RUO) laboratory materials, serving qualified researchers and institutions worldwide."
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://derekpruski.substack.com/p/new-vendor-alert-modified-aminos
+[FETCHED_AT] 2026-05-08T01:04:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_1_substack_launch.md
+[LINE_RANGE] 74
+[QUOTE]
+"Research Use Only. Not For Human Consumption."
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://derekpruski.substack.com/p/new-vendor-alert-modified-aminos
+[FETCHED_AT] 2026-05-08T01:04:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_1_substack_launch.md
+[LINE_RANGE] 50
+[QUOTE]
+"The catalog covers both **capsules and nasal sprays** under one roof, and they’ve got some standout combo products too — things like **Gut Restore (BPC-157 / KPV / GHK-Cu)** and the **BPC-157 / TB-500 blend** that a lot of you have been asking about."
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://derekpruski.substack.com/p/new-vendor-alert-modified-aminos
+[FETCHED_AT] 2026-05-08T01:04:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_1_substack_launch.md
+[LINE_RANGE] 48-50
+[QUOTE]
+"They offer **singles, two-packs, and trios** across the entire lineup, so whether you’re trying something for the first time or stocking up, there’s a price point that works."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 73-81
+[QUOTE]
+"**BPC-157 Spray** — 30mg
+
+  * Single: $139.99
+
+  * Two-Pack: $269.99
+
+  * Trio: $399.99
+
+  * Link: https://modifiedaminos.shop/product/bpc-157-spray-30mg-per-bottle/?ref=derek"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 254
+[QUOTE]
+"All products are for research use only, not for human consumption."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://derekpruski.substack.com/p/new-vendor-alert-modified-aminos
+[FETCHED_AT] 2026-05-08T01:04:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_1_substack_launch.md
+[LINE_RANGE] 46
+[QUOTE]
+"Every single product has **full COAs back from Vanguard**. Every single bottle has a **QR code** you can scan to verify. No guessing, no trust-me-bro — just scan and confirm."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://derekpruski.substack.com/p/new-vendor-alert-modified-aminos
+[FETCHED_AT] 2026-05-08T01:04:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_1_substack_launch.md
+[LINE_RANGE] 46
+[QUOTE]
+"Every single product has **full COAs back from Vanguard**. Every single bottle has a **QR code** you can scan to verify."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://derekpruski.substack.com/p/new-vendor-alert-modified-aminos
+[FETCHED_AT] 2026-05-08T01:04:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_1_substack_launch.md
+[LINE_RANGE] 46
+[QUOTE]
+"Every single product has **full COAs back from Vanguard**."
+[/QUOTE]
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 246-248
+[QUOTE]
+"Flawless was the first vendor I saw use Ethos Analytics, but it looks like more are starting to adopt them. What makes this lab notable for nasal sprays is that they can test for net content in the bottle — not just identity and purity, but actual measured dose."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://www.trustpilot.com/review/modifiedaminos.shop
+[FETCHED_AT] 2026-05-08T01:04:57Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_4_trustpilot.md
+[LINE_RANGE] 17
+[QUOTE]
+"Modified Aminos emphasizes transparency, batch traceability, and quality assurance, with lot-specific Certificates of Analysis (COAs) available via QR code or upon request."
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 254
+[QUOTE]
+"All products are for research use only, not for human consumption."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.trustpilot.com/review/modifiedaminos.shop
+[FETCHED_AT] 2026-05-08T01:04:57Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_4_trustpilot.md
+[LINE_RANGE] 19
+[QUOTE]
+"Orders are fulfilled using validated cold-chain logistics when required, with clear communication, tracking updates, and responsive customer support."
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] Cloudflare
+[REASONING]
+Every fetch attempt to modifiedaminos.shop returned a Cloudflare security verification page with a Ray ID. Both curl and gstack-browse received the Cloudflare challenge, confirming Cloudflare is in use as the CDN/security layer.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://modifiedaminos.shop
+[FETCHED_AT] 2026-05-08T01:02:00Z
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/homepage_failed_attempt1.md
+[LINE_RANGE] 1
+"ERROR: HTTP 403 for https://modifiedaminos.shop"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://modifiedaminos.shop
+[FETCHED_AT] 2026-05-08T01:03:00Z
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/homepage_failed_attempt2_cloudflare.md
+[LINE_RANGE] 7
+"Performing security verificationThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.Verification successful. Waiting for modifiedaminos.shop to respondRay ID: 9f843e385eb3c06cPerformance and Security by CloudflarePrivacy"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.trustpilot.com/review/modifiedaminos.shop
+[FETCHED_AT] 2026-05-08T01:04:57Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_4_trustpilot.md
+[LINE_RANGE] 8
+[QUOTE]
+"Modified Aminos Reviews 3 •4.0"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.trustpilot.com/review/modifiedaminos.shop
+[FETCHED_AT] 2026-05-08T01:04:57Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_4_trustpilot.md
+[LINE_RANGE] 31
+[QUOTE]
+"Very fast shipping, good product quality and presentation. Came with free sticker and nice packaging. Came with QR code to view COA."
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://derekpruski.substack.com/p/new-vendor-alert-modified-aminos
+[FETCHED_AT] 2026-05-08T01:04:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_1_substack_launch.md
+[LINE_RANGE] 58
+[QUOTE]
+"**Code: LAUNCH + Code: DEREK = 30% off your order**"
+[/QUOTE]
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 238
+[QUOTE]
+"**Modified Aminos — Buy One, Get One 50% Off** Sale runs Monday, March 23rd through Monday, March 30th. Use code **DEREK** at checkout for an additional 10% off on top of the BOGO 50%."
+[/QUOTE]
+
+[CLAIM] skus — claim-10 (5-Amino-1MQ Capsules)
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 40-48
+[QUOTE]
+"**5-Amino-1MQ Capsules** — 50mg, 60 caps
+
+  * Single: $129.99
+
+  * Two-Pack: $249.99
+
+  * Trio: $359.99
+
+  * Link: https://modifiedaminos.shop/product/5-amino-1mq-caps/?ref=derek"
+[/QUOTE]
+
+[CLAIM] skus — claim-11 (AOD 9604 Spray)
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 53-57
+[QUOTE]
+"**AOD 9604 Spray** — 5mg
+
+  * Trio: $149.99
+
+  * Link: https://modifiedaminos.shop/product/aod-9604-5mg-spray/?ref=derek"
+[/QUOTE]
+
+[CLAIM] skus — claim-12 (BPC-157 Spray)
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 73-81
+[QUOTE]
+"**BPC-157 Spray** — 30mg
+
+  * Single: $139.99
+
+  * Two-Pack: $269.99
+
+  * Trio: $399.99
+
+  * Link: https://modifiedaminos.shop/product/bpc-157-spray-30mg-per-bottle/?ref=derek"
+[/QUOTE]
+
+[CLAIM] skus — claim-13 (GHK-Cu Spray)
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 86-94
+[QUOTE]
+"**GHK-Cu Spray** — 100mg
+
+  * Single: $59.99
+
+  * Two-Pack: $109.99
+
+  * Trio: $149.99
+
+  * Link: https://modifiedaminos.shop/product/ghk-cu-spray-100mg-per-bottle/?ref=derek"
+[/QUOTE]
+
+[CLAIM] skus — claim-14 (Glow Capsules)
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 99-107
+[QUOTE]
+"**Glow Capsules** — 1mg/250mcg/250mcg, 60 caps
+
+  * Single: $99.99
+
+  * Two-Pack: $189.99
+
+  * Trio: $279.99
+
+  * Link: https://modifiedaminos.shop/product/glow-caps/?ref=derek"
+[/QUOTE]
+
+[CLAIM] skus — claim-15 (KPV Spray)
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 112-120
+[QUOTE]
+"**KPV Spray** — 10mg
+
+  * Single: $63.99
+
+  * Two-Pack: $119.99
+
+  * Trio: $164.99
+
+  * Link: https://modifiedaminos.shop/product/kpv-spray-10mg-per-bottle/?ref=derek"
+[/QUOTE]
+
+[CLAIM] skus — claim-16 (NAD+ Sprays)
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 138-155
+[QUOTE]
+"**NAD+ Spray** — 500mg
+
+  * Single: $59.99
+
+  * Link: https://modifiedaminos.shop/product/nad-spray-500mg-per-bottle/?ref=derek
+
+**NAD+ Spray** — 1500mg (new size)
+
+  * Single: $129.99
+
+  * Two-Pack: $249.99
+
+  * Trio: $399.99
+
+  * Link: https://modifiedaminos.shop/product/nad-1500mg-per-bottle/?ref=derek"
+[/QUOTE]
+
+[CLAIM] skus — claim-17 (Selank Spray)
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 160-168
+[QUOTE]
+"**Selank Spray** — 40mg (new size)
+
+  * Single: $149.99
+
+  * Two-Pack: $279.99
+
+  * Trio: $369.99
+
+  * Link: https://modifiedaminos.shop/product/selank-spray-40mg-per-bottle/?ref=derek"
+[/QUOTE]
+
+[CLAIM] skus — claim-18 (Semax and Semax/Selank Sprays)
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 173-194
+[QUOTE]
+"**Semax Spray** — 40mg (new size)
+
+  * Single: $149.99
+
+  * Two-Pack: $279.99
+
+  * Trio: $369.99
+
+  * Link: https://modifiedaminos.shop/product/semax-spray-40mg-per-bottle/?ref=derek
+
+**Semax/Selank Spray** — 10mg/10mg (new size)
+
+  * Single: $77.99
+
+  * Two-Pack: $149.99
+
+  * Trio: $219.99
+
+  * Link: https://modifiedaminos.shop/product/semax-selank-spray-20/?ref=derek"
+[/QUOTE]
+
+[CLAIM] skus — claim-19 (TB-500 Spray)
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 199-207
+[QUOTE]
+"**TB-500 Spray** — 30mg
+
+  * Single: $138.99
+
+  * Two-Pack: $269.99
+
+  * Trio: $399.99
+
+  * Link: https://modifiedaminos.shop/product/tb-500-spray/?ref=derek"
+[/QUOTE]
+
+[CLAIM] skus — claim-20 (Tesofensine Capsules)
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 212-216
+[QUOTE]
+"**Tesofensine Capsules**
+
+  * Two-Pack: $139.99
+
+  * Link: https://modifiedaminos.shop/product/tesofensine-caps/?ref=derek"
+[/QUOTE]
+
+[CLAIM] skus — claim-21 (VIP Spray)
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 221-229
+[QUOTE]
+"**VIP Spray** — 10mg
+
+  * Single: $89.99
+
+  * Two-Pack: $169.99
+
+  * Trio: $239.99
+
+  * Link: https://modifiedaminos.shop/product/vip-spray-10mg-per-bottle/?ref=derek"
+[/QUOTE]
+
+[CLAIM] skus — claim-22 (L-Carnitine Liquid)
+[URL] https://derekpruski.substack.com/p/modified-aminos-new-products-including
+[FETCHED_AT] 2026-05-08T01:04:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/modified-aminos/social_3_substack_new_products.md
+[LINE_RANGE] 125-133
+[QUOTE]
+"**L-Carnitine Liquid** — 600mg/mL, 20mL
+
+  * Single: $59.99
+
+  * Two-Pack: $109.99
+
+  * Trio: $149.99
+
+  * Link: https://modifiedaminos.shop/product/l-carnitine/?ref=derek"
+[/QUOTE]

@@ -1,0 +1,601 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/homepage.md
+[LINE_RANGE] 65-67
+[QUOTE]
+"# ELEVATE YOUR RESEARCH WITH NEUROTIDE
+
+NeuroTide supplies high-purity peptides strictly for laboratory and research use."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/homepage.md
+[LINE_RANGE] 71-73
+[QUOTE]
+"## FEATURED PRODUCTS
+
+High-purity research peptides for laboratory use only."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/homepage.md
+[LINE_RANGE] 63-69
+[QUOTE]
+"[Shop Now](/shop)
+
+# ELEVATE YOUR RESEARCH WITH NEUROTIDE
+
+NeuroTide supplies high-purity peptides strictly for laboratory and research use.
+
+[Shop Now](/shop)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/homepage.md
+[LINE_RANGE] 22-30
+[QUOTE]
+"  * [Shop](https://neurotideresearch.com/shop/)
+    * [PEPTIDES](https://neurotideresearch.com/product-category/peptides/)
+    * [PEPTIDE BLENDS](https://neurotideresearch.com/product-category/peptide-blends/)
+    * [AMINOS](https://neurotideresearch.com/product-category/aminos/)
+    * [BIOREGULATORS](https://neurotideresearch.com/product-category/bioregulators/)
+  * [FAQ](https://neurotideresearch.com/faq/)
+  * [Research Blog](https://neurotideresearch.com/research-blog/)
+  * [Contact Us](https://neurotideresearch.com/contact-us/)
+  * [My account](https://neurotideresearch.com/my-account/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/homepage.md
+[LINE_RANGE] 103-109
+[QUOTE]
+"NEUROTIDE
+
+Premium research peptides for laboratory use only. Not for human or animal consumption.
+
+[Shop](/shop) [FAQ](/faq) [Contact Us](/contact-us)
+
+[Disclaimer](/disclaimer) [Privacy Policy](/privacy-policy) [Terms & Conditions](/terms-conditions)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://neurotideresearch.com/shop/
+[FETCHED_AT] 2026-05-08T01:19:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/catalog_1.md
+[LINE_RANGE] 54-54
+[QUOTE]
+[ENUMERATION] Counted from catalog pages 1-4 (catalog_1.md through catalog_4.md):
+32 products found across 4 pages (8 per page).
+[FILES]
+catalog_1.md: 5-Amino-1MQ, AOD-9604, ARA-290, BPC-157, Cagrilintide, Cartalax, CJC-1295/Ipamorelin, DSIP
+catalog_2.md: Epitalon, FOXO4-DRI, GHK-Cu, GLOW, GLP1-S (Semaglutide), GLP2-T (Tirzepatide), GLP3-R (Retatrutide), Glutathione
+catalog_3.md: Ipamorelin, Kisspeptin, KLOW, KPV, L-Carnitine, Melanotan 1, Melanotan 2, MOTS-C
+catalog_4.md: NAD+, Oxytocin, Pinealon, Selank, Selank/Semax, Semax, Tesamorelin, Wolverine
+[/ENUMERATION]
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://neurotideresearch.com/shop/
+[FETCHED_AT] 2026-05-08T01:19:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/catalog_1.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"    * [PEPTIDES](https://neurotideresearch.com/product-category/peptides/)
+    * [PEPTIDE BLENDS](https://neurotideresearch.com/product-category/peptide-blends/)
+    * [AMINOS](https://neurotideresearch.com/product-category/aminos/)
+    * [BIOREGULATORS](https://neurotideresearch.com/product-category/bioregulators/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/homepage.md
+[LINE_RANGE] 54-61
+[QUOTE]
+"### LIMITED TIME OFFER
+
+**Buy More, Save More** — discounts automatically applied at checkout.
+
+[Tier 1Buy 2+✓ **Cheapest item 25% off** ](/shop) [Most PopularTier 2Buy 4+ ✓ Cheapest item 25% off
+✓ **2nd cheapest 50% off** Includes Tier 1 discount ](/shop) [Tier 3Buy 6+ ✓ Cheapest item 25% off
+✓ 2nd cheapest 50% off
+✓ **3rd cheapest FREE 🎁** Includes Tier 1 & 2 discounts ](/shop)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://neurotideresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T01:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__bpc-157.md
+[LINE_RANGE] 54-58
+[QUOTE]
+"# BPC-157
+
+$30.00 – $50.00Price range: $30.00 through $50.00
+
+Earn up to 250 points.Strength|  Choose an option5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://neurotideresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T01:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__bpc-157.md
+[LINE_RANGE] 124-126
+[QUOTE]
+"Strength| 5mg, 10mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://neurotideresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T01:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__bpc-157.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"$30.00 – $50.00Price range: $30.00 through $50.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://neurotideresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T01:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__bpc-157.md
+[LINE_RANGE] 91-91
+[QUOTE]
+"BPC-157 is a synthetic pentadecapeptide derived from a naturally occurring protein found in gastric juice, supplied in lyophilized form for controlled laboratory research. It is widely studied for its interactions with angiogenesis, tissue repair, and gastrointestinal protective pathways. Provided as a freeze-dried powder to ensure stability during storage and transport."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://neurotideresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T01:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__bpc-157.md
+[LINE_RANGE] 75-75
+[QUOTE]
+"The products available here are intended strictly for **research and laboratory use only**. They are **not approved for human or animal consumption**. These materials are **not medicines or drugs** and have not been evaluated or approved by the **U.S. Food and Drug Administration (FDA)** for the diagnosis, treatment, cure, or prevention of any disease or medical condition. Any form of bodily administration or ingestion is strictly prohibited by law."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://neurotideresearch.com/faq/
+[FETCHED_AT] 2026-05-08T01:21:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/faq.md
+[LINE_RANGE] 95-97
+[QUOTE]
+"Do you provide Certificates of Analysis (COAs)?▶
+
+Yes. COAs are available in two places on our site. Each product page includes a COA image for the current batch, plus a dedicated COA tab with direct links to lab reports for the current and all previous batches."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://neurotideresearch.com/faq/
+[FETCHED_AT] 2026-05-08T01:21:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/faq.md
+[LINE_RANGE] 95-97
+[QUOTE]
+"Yes. COAs are available in two places on our site. Each product page includes a COA image for the current batch, plus a dedicated COA tab with direct links to lab reports for the current and all previous batches."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://neurotideresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T01:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__bpc-157.md
+[LINE_RANGE] 128-132
+[QUOTE]
+"##  Reviews
+
+There are no reviews yet.
+
+Be the first to review "BPC-157""
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://neurotideresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T01:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__bpc-157.md
+[LINE_RANGE] 146-152
+[QUOTE]
+"## Related products
+
+  * ## [Melanotan 2 $60.00 ](https://neurotideresearch.com/product/melanotan-2/)Earn up to 300 points.[Select options](https://neurotideresearch.com/product/melanotan-2/) This product has multiple variants. The options may be chosen on the product page
+  * ## [Ipamorelin $60.00 ](https://neurotideresearch.com/product/ipamorelin/)Earn up to 300 points.[Select options](https://neurotideresearch.com/product/ipamorelin/) This product has multiple variants. The options may be chosen on the product page
+  * ## [Cartalax $75.00 ](https://neurotideresearch.com/product/cartalax/)Earn up to 300 points.[Select options](https://neurotideresearch.com/product/cartalax/) This product has multiple variants. The options may be chosen on the product page"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://neurotideresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T01:21:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/tos.md
+[LINE_RANGE] 57-61
+[QUOTE]
+"All products sold by Neuro Tide Research are intended strictly for laboratory and in-vitro research purposes only. These products are not intended for human or animal consumption, medical use, or any other purpose outside of controlled research environments."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/homepage.md
+[LINE_RANGE] 123-129
+[QUOTE]
+"##  DISCLAIMER
+
+You must be 21 years of age or older to enter this website and intent to use any products purchased for research purposes only.
+
+Are you over 21 years of age?
+
+I Agree I Disagree"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/homepage.md
+[LINE_RANGE] 109-109
+[QUOTE]
+"[Disclaimer](/disclaimer) [Privacy Policy](/privacy-policy) [Terms & Conditions](/terms-conditions)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://neurotideresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T01:21:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/tos.md
+[LINE_RANGE] 57-93
+[QUOTE]
+"All products sold by Neuro Tide Research are intended strictly for laboratory and in-vitro research purposes only. These products are not intended for human or animal consumption, medical use, or any other purpose outside of controlled research environments.
+
+2\. Age Requirement
+
+You must be 21 years of age or older to purchase from this website. By placing an order you confirm that you meet this requirement.
+
+3\. No Medical Advice
+
+Neuro Tide Research does not provide medical advice, diagnosis, or treatment recommendations. Nothing on this website should be interpreted as medical guidance."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://neurotideresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T01:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__bpc-157.md
+[LINE_RANGE] 116-116
+[QUOTE]
+"Due to the sensitive nature of research peptides, all sales are final. No refunds or replacements are offered once the product has left our facility."
+[/QUOTE]
+
+[URL] https://neurotideresearch.com/faq/
+[FETCHED_AT] 2026-05-08T01:21:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/faq.md
+[LINE_RANGE] 110-112
+[QUOTE]
+"What is your return policy?▶
+
+Due to the nature of our products, all sales are final and we do not accept returns or offer refunds. If your order arrives damaged, incorrect, or incomplete, contact us within 48 hours of delivery with photos and a description — we'll review your case and may arrange a replacement or store credit at our discretion."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/homepage.md
+[LINE_RANGE] 50-50
+[QUOTE]
+"FREE Priority Shipping on Orders $150+"
+[/QUOTE]
+
+[URL] https://neurotideresearch.com/faq/
+[FETCHED_AT] 2026-05-08T01:21:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/faq.md
+[LINE_RANGE] 81-86
+[QUOTE]
+"Where do you ship your products?▶
+
+We ship to addresses across the United States, including Armed Forces APO/FPO locations, as well as select international destinations. **Please note:** international shipments are sent Delivered Duty Unpaid (DDU) — the carrier will contact you before delivery to collect any applicable duties or taxes."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://neurotideresearch.com/checkout/
+[FETCHED_AT] 2026-05-08T01:23:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/checkout_step_2.md
+[LINE_RANGE] 54-70
+[QUOTE]
+"[Home](https://neurotideresearch.com) / My account
+
+# My account
+
+## Login
+
+[ __ Login with Google  ](javascript:void\(0\))
+
+Username or email address *Required
+
+Password *Required
+
+Remember me Log in
+
+[Lost your password?](https://neurotideresearch.com/my-account/lost-password/)
+
+## Register
+
+[ __ Login with Google  ](javascript:void\(0\))
+
+Email address *Required"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://neurotideresearch.com/faq/
+[FETCHED_AT] 2026-05-08T01:21:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/faq.md
+[LINE_RANGE] 81-86
+[QUOTE]
+"We ship to addresses across the United States, including Armed Forces APO/FPO locations, as well as select international destinations. **Please note:** international shipments are sent Delivered Duty Unpaid (DDU) — the carrier will contact you before delivery to collect any applicable duties or taxes."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/homepage.md
+[LINE_RANGE] 50-52
+[QUOTE]
+"FREE Priority Shipping on Orders $150+
+
+◆ Buying in bulk? [Contact us](https://neurotideresearch.com/contact-us/) for special pricing. ◆"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/homepage.md
+[LINE_RANGE] 111-112
+[QUOTE]
+"© NeuroTide 2026
+[Built with WooCommerce](https://woocommerce.com "WooCommerce - The Best eCommerce Platform for WordPress")."
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] SiteGround Optimizer caching
+[REASONING]
+The source HTML loaded all CSS and JS from the siteground-optimizer-assets directory (combined CSS file, combined JS files), indicating SiteGround hosting with SiteGround Optimizer plugin as CDN/caching layer. Also observed affiliate tracking plugin (slicewp) and loyalty launcher optimized through the same SiteGround asset pipeline.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/source_homepage.md
+[LINE_RANGE] 8-8
+"siteground-optimizer-combined-css-d705aceffbe91114387bc9da952b064d"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/source_homepage.md
+[LINE_RANGE] 456-461
+"siteground-optimizer-assets/slicewp-script-tracking.min.js"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/source_homepage.md
+[LINE_RANGE] 1-200
+[QUOTE]
+"<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-0VE9B4TRFS"></script>"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/source_homepage.md
+[LINE_RANGE] 1-50
+[QUOTE]
+"<script type='application/javascript'  id='pys-version-script'>console.log('PixelYourSite Free version 11.2.0.4');</script>"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://neurotideresearch.com/
+[FETCHED_AT] 2026-05-08T01:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/homepage.md
+[LINE_RANGE] 8-131
+[QUOTE]
+[ENUMERATION] Full rendered homepage text searched for: intercom, tawk, crisp, drift, tidio, zendesk, freshchat, hubspot chat, livechat. No matches found. Conclusion: no chat widget present in rendered page.
+[/ENUMERATION]
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://neurotideresearch.com/research-blog/
+[FETCHED_AT] 2026-05-08T01:22:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/blog_1.md
+[LINE_RANGE] 54-54
+[QUOTE]
+"[Home](https://neurotideresearch.com) / Research Blog"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://neurotideresearch.com/research-blog/
+[FETCHED_AT] 2026-05-08T01:22:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/blog_1.md
+[LINE_RANGE] 1-300
+[QUOTE]
+[ENUMERATION] Blog post URLs extracted from blog index: aod-9604-research-overview, bpc-157-research-overview, cjc-1295-research-overview, fda-peptide-reclassification-2026, ghk-cu-copper-peptide-research, ghk-cu-research-overview, how-to-reconstitute-peptides, how-to-store-research-peptides, hplc-testing, ipamorelin-research-overview, ipamorelin-vs-cjc-1295-research, melanotan-2-research-overview, mots-c-research-overview, nad-research-overview, nad-vs-glutathione-research, peptide-storage-guide, semaglutide-research-overview. Topics: peptide research overviews, reconstitution/storage guides, HPLC testing explainers, comparisons, regulatory news.
+[/ENUMERATION]
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://neurotideresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T01:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__bpc-157.md
+[LINE_RANGE] 128-132
+[QUOTE]
+"##  Reviews
+
+There are no reviews yet.
+
+Be the first to review "BPC-157""
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://neurotideresearch.com/faq/
+[FETCHED_AT] 2026-05-08T01:21:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/faq.md
+[LINE_RANGE] 83-83
+[QUOTE]
+"We ship to addresses across the United States, including Armed Forces APO/FPO locations, as well as select international destinations."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://neurotideresearch.com/faq/
+[FETCHED_AT] 2026-05-08T01:21:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/faq.md
+[LINE_RANGE] 83-85
+[QUOTE]
+"We ship to addresses across the United States, including Armed Forces APO/FPO locations, as well as select international destinations. **Please note:** international shipments are sent Delivered Duty Unpaid (DDU)"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-5mg].list_price_usd
+[URL] https://neurotideresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T01:19:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__bpc-157.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"$30.00 – $50.00Price range: $30.00 through $50.00"
+[/QUOTE]
+
+[CLAIM] skus[semax-10mg].list_price_usd
+[URL] https://neurotideresearch.com/product/semax/
+[FETCHED_AT] 2026-05-08T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__semax.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"$40.00"
+[/QUOTE]
+
+[CLAIM] skus[selank-10mg].list_price_usd
+[URL] https://neurotideresearch.com/product/selank/
+[FETCHED_AT] 2026-05-08T01:20:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__selank.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"$40.00"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg, ghk-cu-100mg].list_price_usd
+[URL] https://neurotideresearch.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T01:20:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__ghk-cu.md
+[LINE_RANGE] 56-58
+[QUOTE]
+"$45.00 – $55.00Price range: $45.00 through $55.00
+
+Earn up to 275 points.Strength|  Choose an option50mg100mgClear"
+[/QUOTE]
+
+[CLAIM] skus[semaglutide-5mg, semaglutide-10mg].list_price_usd
+[URL] https://neurotideresearch.com/product/glp1-s-semaglutide/
+[FETCHED_AT] 2026-05-08T01:20:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__glp1-s-semaglutide.md
+[LINE_RANGE] 56-58
+[QUOTE]
+"$50.00 – $70.00Price range: $50.00 through $70.00
+
+Earn up to 350 points.Strength|  Choose an option5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] skus[tirzepatide-15mg, tirzepatide-20mg, tirzepatide-30mg].list_price_usd
+[URL] https://neurotideresearch.com/product/glp2-t-tirzepatide/
+[FETCHED_AT] 2026-05-08T01:20:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__glp2-t-tirzepatide.md
+[LINE_RANGE] 56-58
+[QUOTE]
+"$120.00 – $146.00Price range: $120.00 through $146.00
+
+Earn up to 730 points.Strength|  Choose an option15mg20mg30mgClear"
+[/QUOTE]
+
+[CLAIM] skus[retatrutide-10mg, retatrutide-30mg].list_price_usd
+[URL] https://neurotideresearch.com/product/glp3-r-retatrutide/
+[FETCHED_AT] 2026-05-08T01:20:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__glp3-r-retatrutide.md
+[LINE_RANGE] 56-58
+[QUOTE]
+"$100.00 – $195.00Price range: $100.00 through $195.00
+
+Earn up to 975 points.Strength|  Choose an option10mg15mg20mg30mgClear"
+[/QUOTE]
+
+[CLAIM] skus[ipamorelin-10mg].list_price_usd
+[URL] https://neurotideresearch.com/product/ipamorelin/
+[FETCHED_AT] 2026-05-08T01:20:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__ipamorelin.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"$60.00"
+[/QUOTE]
+
+[CLAIM] skus[mots-c-20mg, mots-c-40mg].list_price_usd
+[URL] https://neurotideresearch.com/product/mots-c/
+[FETCHED_AT] 2026-05-08T01:20:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__mots-c.md
+[LINE_RANGE] 56-58
+[QUOTE]
+"$70.00 – $100.00Price range: $70.00 through $100.00
+
+Earn up to 500 points.Strength|  Choose an option20mg40mgClear"
+[/QUOTE]
+
+[CLAIM] skus[epitalon-10mg, epitalon-50mg].list_price_usd
+[URL] https://neurotideresearch.com/product/epitalon/
+[FETCHED_AT] 2026-05-08T01:20:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/neurotide-research/product_1__epitalon.md
+[LINE_RANGE] 56-58
+[QUOTE]
+"$40.00 – $120.00Price range: $40.00 through $120.00
+
+Earn up to 600 points.Strength|  Choose an option10mg50mgClear"
+[/QUOTE]

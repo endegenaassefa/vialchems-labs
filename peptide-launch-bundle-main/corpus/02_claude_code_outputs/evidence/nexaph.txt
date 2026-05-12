@@ -1,0 +1,429 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 46-46
+[QUOTE]
+"# Revolutionize Science: Embrace the Power of Research Peptides"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 50-50
+[QUOTE]
+"[ SHOP NOW ](https://nexaph.com/product-category/peptides/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 20-26
+[QUOTE]
+"  * [Home](https://nexaph.com/)
+  * [Our Company](https://nexaph.com/about/)
+  * [Buy Peptides](https://nexaph.com/product-category/peptides/)
+  * [Buy Aminos](https://nexaph.com/product-category/aminos/)
+  * [Accessories](https://nexaph.com/product-category/accessories/)
+  * [Wholesale](https://nexaph.order.swiftcs.ai/login)
+  * [Contact Us](https://nexaph.com/contact-us/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 732-732
+[QUOTE]
+"**Disclaimer:** All products on this site are for Research, Development use only. Products are Not for Human consumption of any kind. The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[INFERENCE] us_only
+[REASONING]
+The homepage banner states "Free USA Shipping on Orders of $200+" and the shipping policy only describes USPS and FedEx domestic carriers with no mention of international shipping. No international policy found on homepage or shipping page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 10-10
+"📦 Free USA Shipping on Orders of $200+"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://nexaph.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T01:19:56Z
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/shipping.md
+[LINE_RANGE] 50-50
+"We offer multiple shipping options, including FREE shipping on orders over $200.00 (Grand Total), USPS Priority, FedEx 2 Day (2 business days), FedEx Overnight, FedEx Overnight – Signature Required, and FedEx Saturday Delivery for orders placed on Fridays before noon PST that need next-day delivery."
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://nexaph.com/product-category/peptides/
+[FETCHED_AT] 2026-05-08T01:18:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/catalog_1.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"# Peptides"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 313-313
+[QUOTE]
+"## [CJC-no DAC / Ipamorelin Blend – 5mg/5mg (10 vials/kit)](https://nexaph.com/product/cjc-no-dac-ipamorelin-blend-5mg-5mg-10-vials-kit/) ~~$ 258.00~~ Original price was: $258.00.$198.00Current price is: $198.00."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 271-272
+[QUOTE]
+"## [BPC 157 10mg (10 vials/Kit)](https://nexaph.com/product/bpc-157/) ~~$ 178.00~~ Original price was: $178.00.$152.00Current price is: $152.00."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://nexaph.com/product-category/peptides/
+[FETCHED_AT] 2026-05-08T01:18:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/catalog_1.md
+[LINE_RANGE] 349-354
+[QUOTE]
+"## [PT 141 10mg (10 vials/kit)](https://nexaph.com/product/pt-141-10mg-10-vials-kit/) ~~$ 188.00~~ Original price was: $188.00.$158.00Current price is: $158.00.
+
+Current Janoshik report:
+
+[Janoshik report 10mg](https://janoshik.com/tests/57252-PT_141_10mg_TransparentSilver_486BVLT3DDIP)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://nexaph.com/product-category/peptides/
+[FETCHED_AT] 2026-05-08T01:18:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/catalog_1.md
+[LINE_RANGE] 352-354
+[QUOTE]
+"Current Janoshik report:
+
+[Janoshik report 10mg](https://janoshik.com/tests/57252-PT_141_10mg_TransparentSilver_486BVLT3DDIP)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://nexaph.com/product-category/peptides/
+[FETCHED_AT] 2026-05-08T01:18:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/catalog_1.md
+[LINE_RANGE] 352-354
+[QUOTE]
+"Current Janoshik report:
+
+[Janoshik report 10mg](https://janoshik.com/tests/57252-PT_141_10mg_TransparentSilver_486BVLT3DDIP)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 732-732
+[QUOTE]
+"**Disclaimer:** All products on this site are for Research, Development use only. Products are Not for Human consumption of any kind. The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 736-745
+[QUOTE]
+"##  Age Verification Required
+
+This website is restricted. To continue, please confirm you meet the minimum age requirement and accept the agreement below.
+
+I confirm I am 21+ years of age or older.
+
+agree that products and information on this website are provided for laboratory research use only and are not intended for use in or on humans or animals."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 703-703
+[QUOTE]
+"  * [ Terms & Conditions ](https://nexaph.com/terms-conditions/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://nexaph.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T01:19:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/tos.md
+[LINE_RANGE] 74-76
+[QUOTE]
+"YOU MUST BE OVER 21 YEARS OLD TO USE THIS WEBSITE.
+
+The products we offer are intended for IN-VITRO LABORATORY RESEARCH USE ONLY. The products are NOT FOR HUMAN or ANIMAL USE OR CONSUMPTION OF ANY KIND."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://nexaph.com/refunds-and-returns/
+[FETCHED_AT] 2026-05-08T01:19:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/refund.md
+[LINE_RANGE] 50-52
+[QUOTE]
+"Due to our rigorous quality control standards and the fragile nature of our products, we cannot accept returns. In the rare occasion that your order arrives with missing, incorrect, or damaged items, please email service@nexaph.com for assistance."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://nexaph.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T01:19:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/shipping.md
+[LINE_RANGE] 50-51
+[QUOTE]
+"We offer multiple shipping options, including FREE shipping on orders over $200.00 (Grand Total), USPS Priority, FedEx 2 Day (2 business days), FedEx Overnight, FedEx Overnight – Signature Required, and FedEx Saturday Delivery for orders placed on Fridays before noon PST that need next-day delivery. Orders placed, paid, and processed before 12 noon PST typically ship out the same business day."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://nexaph.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T01:19:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/shipping.md
+[LINE_RANGE] 68-70
+[QUOTE]
+"During checkout, you will have the option to register or check out as a guest. We encourage you to register, but this is completely optional."
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://nexaph.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T01:19:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/shipping.md
+[LINE_RANGE] 68-71
+[QUOTE]
+"During checkout, you will have the option to register or check out as a guest. We encourage you to register, but this is completely optional. Registration does not take any extra time and will enable you to check order status, change your account information, and access your past orders by logging in to our website. It also speeds up the checkout process for future orders. If you choose not to create an account during checkout and have questions about the status of your order, please email us. You may also check out as a Guest."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://nexaph.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T01:19:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/shipping.md
+[LINE_RANGE] 66-66
+[QUOTE]
+"We accept payments with all major credit cards."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://nexaph.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T01:19:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/tos.md
+[LINE_RANGE] 52-54
+[QUOTE]
+"All e-Check/ACH payments will be made payable to Shanghai Nexa Pharma Co.
+
+I authorize Nexaph.com to initiate a single ACH/electronic debit to my account in the amount of my order from the bank account information provided on the date of my order."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://nexaph.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T01:19:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/shipping.md
+[LINE_RANGE] 50-50
+[QUOTE]
+"We offer multiple shipping options, including FREE shipping on orders over $200.00 (Grand Total), USPS Priority, FedEx 2 Day (2 business days), FedEx Overnight, FedEx Overnight – Signature Required, and FedEx Saturday Delivery for orders placed on Fridays before noon PST that need next-day delivery."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://nexaph.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T01:19:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/shipping.md
+[LINE_RANGE] 50-50
+[QUOTE]
+"We offer multiple shipping options, including FREE shipping on orders over $200.00 (Grand Total), USPS Priority, FedEx 2 Day (2 business days), FedEx Overnight, FedEx Overnight – Signature Required, and FedEx Saturday Delivery for orders placed on Fridays before noon PST that need next-day delivery."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+Cart and checkout URLs follow the WooCommerce URL pattern (/cart/, /checkout/, /my-account/, /?add-to-cart=NNNN). The add-to-cart query parameter format and my-account/orders structure are canonical WooCommerce indicators. Source page was not fetched per Tier 3 BASELINE scope, so this is an inference.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 708-713
+"  * [ My Cart ](https://nexaph.com/cart/)
+  * [ Checkout ](https://nexaph.com/checkout/)
+  * [ My Account ](https://nexaph.com/my-account/)
+  * [ Past Orders ](https://nexaph.com/my-account/orders/)
+  * [ Track Order ](https://nexaph.com/track-order/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://nexaph.com/product-category/peptides/
+[FETCHED_AT] 2026-05-08T01:18:47Z
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/catalog_1.md
+[LINE_RANGE] 53-53
+"  * [](https://nexaph.com/product/mots-c-10mg-10-vials-kit/)Sale![ Add to cart  ](/product-category/peptides/?add-to-cart=6541)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[sku_id=nexaph:bpc-157-10mg-kit].list_price_usd
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 271-271
+[QUOTE]
+"## [BPC 157 10mg (10 vials/Kit)](https://nexaph.com/product/bpc-157/) ~~$ 178.00~~ Original price was: $178.00.$152.00Current price is: $152.00."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=nexaph:mots-c-10mg-kit].list_price_usd
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 263-263
+[QUOTE]
+"## [MOTS-C 10mg (10 vials/Kit)](https://nexaph.com/product/mots-c-10mg-10-vials-kit/) ~~$ 248.00~~ Original price was: $248.00.$188.00Current price is: $188.00."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=nexaph:ghk-cu-lyophilized-kit].list_price_usd
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 279-281
+[QUOTE]
+"## [GHK-cu lyophilized (10 vials/kit)](https://nexaph.com/product/ghk-cu-lyophilized-10-vials-kit/) $125.00 – $170.00Price range: $125.00 through $170.00
+
+This product has multiple variants. The options may be chosen on the product page"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=nexaph:tesamorelin-10mg-kit].list_price_usd
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 287-288
+[QUOTE]
+"## [Tesamorelin 10mg (10 vials/Kit)](https://nexaph.com/product/tesamorelin-10mg/) ~~$ 368.00~~ Original price was: $368.00.$288.00Current price is: $288.00."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=nexaph:nad-500mg-kit].list_price_usd
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 154-156
+[QUOTE]
+"## [NAD+ 500mg Buffered (10 vials/kit)](https://nexaph.com/product/nad-500mg-10-vials-kit/) ~~$ 278.00~~ Original price was: $278.00.$228.00Current price is: $228.00."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=nexaph:pt-141-10mg-kit].list_price_usd
+[URL] https://nexaph.com/product-category/peptides/
+[FETCHED_AT] 2026-05-08T01:18:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/catalog_1.md
+[LINE_RANGE] 349-350
+[QUOTE]
+"## [PT 141 10mg (10 vials/kit)](https://nexaph.com/product/pt-141-10mg-10-vials-kit/) ~~$ 188.00~~ Original price was: $188.00.$158.00Current price is: $158.00."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=nexaph:thymosin-alpha1-10mg-kit].list_price_usd
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 132-132
+[QUOTE]
+"## [Thymosin Alpha 1 10mg (10 vials/kit)](https://nexaph.com/product/thymosin-alpha-1-10mg-10-vials-kit/) ~~$ 338.00~~ Original price was: $338.00.$288.00Current price is: $288.00."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=nexaph:tb4-10mg-kit].list_price_usd
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 423-424
+[QUOTE]
+"## [TB4 10mg (10 vials/Kit)](https://nexaph.com/product/thymosin-beta-4/) ~~$ 298.00~~ Original price was: $298.00.$251.00Current price is: $251.00."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=nexaph:n-acetyl-selank-10mg-kit].list_price_usd
+[URL] https://nexaph.com/product-category/peptides/
+[FETCHED_AT] 2026-05-08T01:18:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/catalog_1.md
+[LINE_RANGE] 260-260
+[QUOTE]
+"## [N-Acetyl Selank Amidate 10mg (10 vials/kit)](https://nexaph.com/product/n-acetyl-selank-amidate-10mg-10-vials-kit/) ~~$ 178.00~~ Original price was: $178.00.$152.00Current price is: $152.00."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=nexaph:n-acetyl-semax-10mg-kit].list_price_usd
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 335-337
+[QUOTE]
+"## [N-Acetyl Semax Amidate 10mg (10 vials/kit)](https://nexaph.com/product/n-acetyl-semax-amidate-10mg-10-vials-kit/) ~~$ 178.00~~ Original price was: $178.00.$152.00Current price is: $152.00."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=nexaph:cjc-ipamorelin-blend-kit].list_price_usd
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 311-313
+[QUOTE]
+"## [CJC-no DAC / Ipamorelin Blend – 5mg/5mg (10 vials/kit)](https://nexaph.com/product/cjc-no-dac-ipamorelin-blend-5mg-5mg-10-vials-kit/) ~~$ 258.00~~ Original price was: $258.00.$198.00Current price is: $198.00."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=nexaph:epitalon-10mg-kit].list_price_usd
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 351-353
+[QUOTE]
+"## [Epitalon 10mg (10 vials/kit)](https://nexaph.com/product/epitalon-10mg-10-vials-kit/) ~~$ 168.00~~ Original price was: $168.00.$143.00Current price is: $143.00."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=nexaph:5-amino-1mq-50mg-kit].list_price_usd
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 170-172
+[QUOTE]
+"## [5-Amino-1MQ (Chloride) 50mg (10 Vials/kit)](https://nexaph.com/product/5-amino-1mq-chloride-50mg-10-vials-kit/) ~~$ 238.00~~ Original price was: $238.00.$198.00Current price is: $198.00."
+[/QUOTE]
+
+[CLAIM] skus[sku_id=nexaph:kpv-10mg-kit].list_price_usd
+[URL] https://nexaph.com
+[FETCHED_AT] 2026-05-08T01:18:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nexaph/homepage.md
+[LINE_RANGE] 303-305
+[QUOTE]
+"## [KPV 10mg (10 vials/kit)](https://nexaph.com/product/kpv-10mg-10-vials-kit/) ~~$ 170.00~~ Original price was: $170.00.$143.00Current price is: $143.00."
+[/QUOTE]

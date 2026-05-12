@@ -1,0 +1,256 @@
+{
+  "vendor_slug": "empower-peptides",
+  "brand_name": "Empower Peptides",
+  "primary_domain": "https://empower-peptides.com",
+
+  "fetched_url": "https://empower-peptides.com/",
+  "fetched_at": "2026-05-07T19:49:04Z",
+  "fetch_status": "ok",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.74,
+
+  "country_of_operation": "United States",
+  "fulfillment_country": "United States",
+  "ship_to_scope": "us_only",
+  "year_established": "2025",
+
+  "homepage": {
+    "hero_copy_excerpt": "Peptides for Sale — Science-Driven Formulations. Rapid U.S. Shipping. Verified by Independent Laboratories.",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Shop Now",
+    "navigation_pattern": "Home | Shop (Shop By Categories, Shop All Products) | About Us (About, Rewards Program, Affiliate Program) | COA's | Contact Us (Contact, Age Verification, FAQ, Track Your Order)",
+    "footer_disclaimers": "YOU MUST BE OVER 21 YEARS OLD TO USE THIS WEBSITE\nThe assertions made here have not undergone assessment by the Food and Drug Administration. The products provided by Empower Peptides are not designed to diagnose, treat, cure, or prevent any illness. Our lyophilized peptides are exclusively for in vitro research, analytical, or laboratory purposes and are not for human or animal use. These products must be handled only by individuals with appropriate professional training. Empower Peptides, its owners, and affiliates are not liable for any damages arising from improper use or misrepresentation of our research materials."
+  },
+
+  "catalog": {
+    "sku_count": 41,
+    "category_taxonomy": [
+      "Amino Acids and Lipotropic Compounds",
+      "Antioxidants and Detox Agents",
+      "Cognitive and Longevity Peptides",
+      "Growth and Performance Peptides",
+      "Hormone Balance Research Peptides",
+      "Metabolic Research Peptides",
+      "Reconstitution Solutions For Research Purposes",
+      "Recovery and Repair Peptides",
+      "Skin and Aesthetic Peptides"
+    ],
+    "search_filter_capabilities": "Category filter sidebar; sort by popularity, latest, price low-to-high, price high-to-low",
+    "stack_bundle_pages_present": "true"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "https://empower-peptides.com/products/bpc-157",
+    "sample_product_name": "BPC-157 – Recovery and Repair Peptide",
+    "dose_options": ["5mg", "10mg", "20mg"],
+    "list_price": "$36.00 – $78.00",
+    "per_mg_cost": "$7.20 (5mg @ $36.00)",
+    "photographic_treatment": "product vial images plus COA image thumbnail",
+    "description_copy_excerpt": "BPC-157 is a synthetic research peptide derived from a partial sequence of a naturally occurring gastric protein. In laboratory settings, this compound is studied for its involvement in cellular processes related to tissue environments, structural protein activity, and model systems examining regenerative pathways.",
+    "exact_disclaimer_language": "Disclaimer: For laboratory research use only. Not for human consumption.",
+    "coa_present": "true",
+    "coa_hosting": "third_party_portal",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "true",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "true"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "All Products Are for Laboratory Research Use Only",
+    "age_gate_present": "true",
+    "jurisdictional_restriction_notice": "You are solely responsible for ensuring that research compounds are legal to purchase, possess, and use in your jurisdiction.",
+    "tos_url": "https://empower-peptides.com/pages/terms-conditions",
+    "tos_highlights": "Research use only; 21+ eligibility; AgeChecker.net ID verification required all orders; payment via Cash App, Zelle, eCheck, eDebit/ACH, Cryptocurrency; governing law Florida / Pinellas County; binding arbitration; class-action waiver",
+    "refund_policy": "Return within 3 days of delivery; product must be unused, unopened, original condition; prepaid label provided if approved; no refunds for opened, used, or post-window requests",
+    "shipping_policy": "USPS and UPS; 1-2 business day processing; free standard shipping on orders over $175; US domestic only; no P.O. Boxes; no international shipping; signature required on orders over $300"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "true",
+    "payment_methods_accepted": ["Cash App", "Zelle", "eCheck", "eDebit/ACH Bank Transfer", "Cryptocurrency"],
+    "shipping_carriers": ["USPS", "UPS"],
+    "shipping_cost_structure": "Free standard shipping on orders over $175; standard rates below $175; signature confirmation on orders over $300",
+    "international_policy": "No international shipping"
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://empower-peptides.com/blog",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "present — product pages link to blog posts e.g. BPC-157 product links to blog article"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": ["Google Reviews 4.9/5", "Trustpilot 4.7/5"],
+    "testimonial_usage": "Footer links to Google and Trustpilot; no on-site testimonial blocks observed in curl fetch",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [
+    {
+      "sku_id": "empower-peptides:bpc-157-5mg",
+      "name": "BPC-157 – Recovery and Repair Peptide 5mg",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "empty",
+      "dose_value": 5,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "empty",
+      "bottle_size": "5mg vial",
+      "list_price_usd": 36.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 7.2,
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://empower-peptides.com/products/bpc-157",
+      "raw_artifact": "03_raw_fetches/empower-peptides/product_1__bpc-157.md",
+      "evidence_entry_id": "claim-10"
+    },
+    {
+      "sku_id": "empower-peptides:bpc-157-10mg",
+      "name": "BPC-157 – Recovery and Repair Peptide 10mg",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "empty",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "empty",
+      "bottle_size": "10mg vial",
+      "list_price_usd": 78.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 7.8,
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://empower-peptides.com/products/bpc-157",
+      "raw_artifact": "03_raw_fetches/empower-peptides/product_1__bpc-157.md",
+      "evidence_entry_id": "claim-10"
+    },
+    {
+      "sku_id": "empower-peptides:ghk-cu-low",
+      "name": "GHK-Cu – Recovery and Repair Peptide (low dose)",
+      "peptide_canonical": "GHK-Cu",
+      "peptide_variant": "empty",
+      "dose_value": 0,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "empty",
+      "bottle_size": "uncertain",
+      "list_price_usd": 43.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 0,
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://empower-peptides.com/products/ghk-cu",
+      "raw_artifact": "03_raw_fetches/empower-peptides/catalog_1.md",
+      "evidence_entry_id": "claim-11"
+    },
+    {
+      "sku_id": "empower-peptides:mots-c",
+      "name": "MOTS-c – Cognitive and Longevity Peptide",
+      "peptide_canonical": "MOTS-c",
+      "peptide_variant": "empty",
+      "dose_value": 0,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "empty",
+      "bottle_size": "uncertain",
+      "list_price_usd": 45.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 0,
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://empower-peptides.com/products/mots-c",
+      "raw_artifact": "03_raw_fetches/empower-peptides/homepage.md",
+      "evidence_entry_id": "claim-12"
+    },
+    {
+      "sku_id": "empower-peptides:tb-500-bpc-157-wolverine-stack",
+      "name": "TB-500 + BPC-157 (Wolverine Stack) – Recovery and Repair Peptide",
+      "peptide_canonical": "other",
+      "peptide_variant": "empty",
+      "dose_value": 0,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "empty",
+      "bottle_size": "uncertain",
+      "list_price_usd": 55.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 0,
+      "volume_tier_label": "empty",
+      "bundle_membership": ["wolverine-stack"],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://empower-peptides.com/products/tb-500-bpc-157-wolverine-stack",
+      "raw_artifact": "03_raw_fetches/empower-peptides/homepage.md",
+      "evidence_entry_id": "claim-13"
+    },
+    {
+      "sku_id": "empower-peptides:epithalon-5mg",
+      "name": "Epithalon (Epitalon or Epithalamin) – Cognitive and Longevity Peptide",
+      "peptide_canonical": "Epithalon",
+      "peptide_variant": "empty",
+      "dose_value": 0,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "empty",
+      "bottle_size": "uncertain",
+      "list_price_usd": 44.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 0,
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://empower-peptides.com/products/epithalon-epitalon-or-epithalamin",
+      "raw_artifact": "03_raw_fetches/empower-peptides/catalog_1.md",
+      "evidence_entry_id": "claim-14"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "empower-peptides,Empower Peptides,empower-peptides.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list, classified as Tier 3: Largo-based retail vendor.,3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/empower-peptides/",
+  "evidence_file": "evidence/empower-peptides.txt",
+  "uncertainty_notes": "lab_partner_named: COA page links to Google Drive folder but does not name a specific third-party lab partner by name in the curl-fetched text. coa_hosting: COAs linked via Google Drive (third_party_portal). account_required/guest_checkout_available: site states 'Create an Account to Access all Contents of our Site' and checkout flow requires ID verification; full checkout screen not reached without violating §11 account-creation bounds. platform_signal: woocommerce inferred from URL patterns (?add-to-cart=, /my-account/, /collections/) and NitroCDN CDN URLs in product page image paths (cdn-ilegppk.nitrocdn.com/...wp-content/uploads...) which is consistent with WordPress/WooCommerce; not confirmed via source headers. analytics_tools_loaded and marketing_pixels_present: not determinable from curl text output without viewing source headers. content_cadence/topic_taxonomy/author_bylines_present: blog URL confirmed present but blog pages not fetched in Tier 3 baseline pass. GHK-Cu, MOTS-c, Epithalon, Wolverine Stack per_mg_price_usd: dose_value not surfaced on catalog listing; requires product page fetch to compute. visible_influencer_endorsements: affiliate program present but specific influencer partnerships not named on fetched pages."
+}

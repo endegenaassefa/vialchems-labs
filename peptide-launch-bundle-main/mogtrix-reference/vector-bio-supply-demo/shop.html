@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en" data-base="." data-page="/shop.html">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- DEMO BUILD - no analytics, no tracking, no real payments. -->
+  <title>Catalog | VECTOR BIO SUPPLY CO.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="gate-pending ">
+  
+    <div id="storage-warning" class="storage-warning" hidden>This browser blocked persistent storage. Demo state will reset when you navigate.</div>
+    <div id="cookie-banner" class="cookie-banner" hidden>
+      <p>This demo uses localStorage to remember cookie choice, age confirmation, cart, account state, and consent actions. No analytics or tracking pixels are installed.</p>
+      <div><button class="button button-primary" data-cookie-choice="all" type="button">Accept All</button><button class="button button-secondary" data-cookie-choice="essential" type="button">Essential Only</button></div>
+    </div>
+    <div id="age-gate" class="modal-backdrop" hidden>
+      <section class="modal" role="dialog" aria-modal="true" aria-labelledby="age-gate-title">
+        <p class="eyebrow">Access disclaimer</p>
+        <h2 id="age-gate-title">Researcher access gate</h2>
+        <label class="check-row"><input id="age-confirm-age" type="checkbox"> <span>Are you 21 years of age or older?</span></label>
+        <label class="check-row"><input id="age-confirm-researcher" type="checkbox"> <span>Are you a qualified researcher operating in a controlled laboratory environment?</span></label>
+        <div class="button-row"><button class="button button-primary" id="age-confirm" type="button">Confirm access</button><button class="button button-secondary" id="age-deny" type="button">No</button></div>
+      </section>
+    </div>
+    <div id="soft-block" class="modal-backdrop" hidden>
+      <section class="modal" role="dialog" aria-modal="true"><h2>Access not permitted</h2><p>Access to this Website is not permitted without your acceptance to these Terms.</p></section>
+    </div>
+  <div class="page-shell">
+    
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="VECTOR BIO SUPPLY CO. home">
+        <img src="assets/logo.svg" alt="VECTOR BIO SUPPLY CO." width="120" height="32">
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a><a href="shop.html">Shop</a><a href="coa.html">COA Library</a><a href="testing.html">Testing</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="blog/index.html">Blog</a><a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" data-cart-toggle type="button" aria-label="Open cart">
+          <span aria-hidden="true">Cart</span><span class="cart-count" data-cart-count>0</span>
+        </button>
+        <a class="account-link" data-account-link href="login.html">Login</a>
+      </div>
+    </header>
+    <main><section class="page-hero"><div class="container narrow"><p class="eyebrow">Bulk pricing available</p><h1>Catalog.</h1><p>Volume discounts: 5+ units 10% off, 10+ units 18% off, 25+ units 25% off.</p></div></section>
+    <section class="section"><div class="container catalog-layout"><aside class="filter-panel"><h2>Filters</h2><label class="check-row"><input type="checkbox"> <span>GLP-1 Analogs</span></label><label class="check-row"><input type="checkbox"> <span>Recovery Peptides</span></label><label class="check-row"><input type="checkbox"> <span>Growth Hormone Secretagogues</span></label><label class="check-row"><input type="checkbox"> <span>Reconstitution Supplies</span></label><label>Price ceiling <input type="range" min="15" max="150" value="150"></label><span class="badge">Bulk pricing available</span></aside><div><div class="product-grid"><article class="product-card">
+    <a href="products/semaglutide-5mg.html"><img src="assets/images/semaglutide-5mg.svg" alt="Semaglutide 5mg vial illustration"></a>
+    <div class="product-card-body">
+      <p class="eyebrow">GLP-1 Analogs</p>
+      <h3>Semaglutide 5mg</h3>
+      <p>GLP-1 receptor characterization material with public COA documentation.</p>
+      <p class="price">$59.99 / vial</p>
+      <div class="card-actions">
+        <button class="button button-primary" data-add-to-cart="semaglutide-5mg" type="button">Add to Cart</button>
+        <a class="coa-badge" href="assets/coa/semaglutide-5mg-coa.pdf">View COA →</a>
+      </div>
+    </div>
+  </article><article class="product-card">
+    <a href="products/tirzepatide-10mg.html"><img src="assets/images/tirzepatide-10mg.svg" alt="Tirzepatide 10mg vial illustration"></a>
+    <div class="product-card-body">
+      <p class="eyebrow">GLP-1 Analogs</p>
+      <h3>Tirzepatide 10mg</h3>
+      <p>Dual incretin receptor analog for controlled pathway research.</p>
+      <p class="price">$89.99 / vial</p>
+      <div class="card-actions">
+        <button class="button button-primary" data-add-to-cart="tirzepatide-10mg" type="button">Add to Cart</button>
+        <a class="coa-badge" href="assets/coa/tirzepatide-10mg-coa.pdf">View COA →</a>
+      </div>
+    </div>
+  </article><article class="product-card">
+    <a href="products/retatrutide-10mg.html"><img src="assets/images/retatrutide-10mg.svg" alt="Retatrutide 10mg vial illustration"></a>
+    <div class="product-card-body">
+      <p class="eyebrow">GLP-1 Analogs</p>
+      <h3>Retatrutide 10mg</h3>
+      <p>Triagonist analog for receptor-signaling comparison studies.</p>
+      <p class="price">$129.99 / vial</p>
+      <div class="card-actions">
+        <button class="button button-primary" data-add-to-cart="retatrutide-10mg" type="button">Add to Cart</button>
+        <a class="coa-badge" href="assets/coa/retatrutide-10mg-coa.pdf">View COA →</a>
+      </div>
+    </div>
+  </article><article class="product-card">
+    <a href="products/bpc-157-5mg.html"><img src="assets/images/bpc-157-5mg.svg" alt="BPC-157 5mg vial illustration"></a>
+    <div class="product-card-body">
+      <p class="eyebrow">Recovery Peptides</p>
+      <h3>BPC-157 5mg</h3>
+      <p>Pentadecapeptide reference material for controlled signaling studies.</p>
+      <p class="price">$32.99 / vial</p>
+      <div class="card-actions">
+        <button class="button button-primary" data-add-to-cart="bpc-157-5mg" type="button">Add to Cart</button>
+        <a class="coa-badge" href="assets/coa/bpc-157-5mg-coa.pdf">View COA →</a>
+      </div>
+    </div>
+  </article><article class="product-card">
+    <a href="products/cagrilintide-5mg.html"><img src="assets/images/cagrilintide-5mg.svg" alt="Cagrilintide 5mg vial illustration"></a>
+    <div class="product-card-body">
+      <p class="eyebrow">GLP-1 Analogs</p>
+      <h3>Cagrilintide 5mg</h3>
+      <p>Amylin-family analog for receptor-binding and assay work.</p>
+      <p class="price">$74.99 / vial</p>
+      <div class="card-actions">
+        <button class="button button-primary" data-add-to-cart="cagrilintide-5mg" type="button">Add to Cart</button>
+        <a class="coa-badge" href="assets/coa/cagrilintide-5mg-coa.pdf">View COA →</a>
+      </div>
+    </div>
+  </article><article class="product-card">
+    <a href="products/bacteriostatic-water-30ml.html"><img src="assets/images/bacteriostatic-water-30ml.svg" alt="Bacteriostatic Water 30mL vial illustration"></a>
+    <div class="product-card-body">
+      <p class="eyebrow">Reconstitution Supplies</p>
+      <h3>Bacteriostatic Water 30mL</h3>
+      <p>Laboratory reconstitution supply with lot-coded documentation.</p>
+      <p class="price">$14.99 / bottle</p>
+      <div class="card-actions">
+        <button class="button button-primary" data-add-to-cart="bacteriostatic-water-30ml" type="button">Add to Cart</button>
+        <a class="coa-badge" href="assets/coa/bacteriostatic-water-coa.pdf">View COA →</a>
+      </div>
+    </div>
+  </article></div></div></div></section><section class="section"><div class="container"><aside class="ruo-banner"><strong>Research Use Only.</strong> Products listed on this Website are intended for laboratory research purposes only, and are not for human or animal consumption. The products are not intended to diagnose, treat, cure, or prevent any disease. Products should not be used as a food, drug, cosmetic, or for other household use.</aside></div></section></main>
+    
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <section>
+          <img src="assets/logo.svg" alt="VECTOR BIO SUPPLY CO." width="120" height="32">
+          <p>Research-grade peptides. Verified. Qualified. Compliant.</p>
+          <p>Vector Bio Supply LLC, 30 N Gould St Ste R, Sheridan, WY 82801<br>support@vectorbiosupply.co<br>(307) 555-0194</p>
+        </section>
+        <section><h2>Shop</h2><ul><li><a href="products/semaglutide-5mg.html">Semaglutide 5mg</a></li><li><a href="products/tirzepatide-10mg.html">Tirzepatide 10mg</a></li><li><a href="products/retatrutide-10mg.html">Retatrutide 10mg</a></li><li><a href="products/bpc-157-5mg.html">BPC-157 5mg</a></li><li><a href="products/cagrilintide-5mg.html">Cagrilintide 5mg</a></li><li><a href="products/bacteriostatic-water-30ml.html">Bacteriostatic Water</a></li></ul></section>
+        <section><h2>Company</h2><ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="testing.html">Testing</a></li>
+          <li><a href="coa.html">COA Library</a></li>
+          <li><a href="blog/index.html">Blog</a></li>
+          <li><a href="affiliate.html">Affiliate Program</a></li>
+        </ul></section>
+        <section><h2>Legal</h2><ul><li><a href="terms.html">Terms of Service</a></li><li><a href="privacy.html">Privacy Policy</a></li><li><a href="shipping-and-returns.html">Shipping & Returns</a></li><li><a href="refund-policy.html">Refund Policy</a></li><li><a href="mta.html">Material Transfer Agreement</a></li></ul></section>
+      </div>
+      <div class="footer-bottom">
+        <p>Products listed on this Website are intended for laboratory research purposes only, and are not for human or animal consumption. The products are not intended to diagnose, treat, cure, or prevent any disease. Products should not be used as a food, drug, cosmetic, or for other household use.</p>
+        <p>© 2026 VECTOR BIO SUPPLY CO. By using this site you agree to our <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a>.</p>
+      </div>
+    </footer>
+  </div>
+  
+    <aside id="cart-drawer" class="cart-drawer" aria-hidden="true">
+      <div class="drawer-head">
+        <h2>Cart</h2>
+        <button class="icon-button" data-cart-close type="button" aria-label="Close cart">×</button>
+      </div>
+      <div data-cart-drawer-items></div>
+      <div class="progress-stack">
+        <div><span data-free-shipping-text>Free shipping at $250</span><div class="progress"><span data-free-shipping-bar></span></div></div>
+        <div><span data-free-gift-text>Free Bac Water at $300</span><div class="progress"><span data-free-gift-bar></span></div></div>
+      </div>
+      <div class="drawer-actions">
+        <a class="button button-secondary" href="cart.html">View Cart</a>
+        <a class="button button-primary" href="checkout.html">Checkout</a>
+      </div>
+    </aside>
+  <script src="js/storage.js"></script>
+  <script src="js/catalog-data.js"></script>
+  <script src="js/state.js"></script>
+  <script src="js/consent-log.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>

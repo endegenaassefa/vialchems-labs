@@ -1,0 +1,763 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 41-43
+[QUOTE]
+"# Pure Science
+
+99% Purity Guarantee!"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 45
+[QUOTE]
+"[SHOP NOW](/shop)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 10-15
+[QUOTE]
+"  * [HOME](https://prestigesciences.com/)
+  * [SHOP](https://prestigesciences.com/shop/)
+  * [Become a partner](https://prestigesciences.com/affiliate-registration/)
+  * [COA](https://prestigesciences.com/coa-library/)
+  * [CONTACT US](https://prestigesciences.com/contact-us/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 484-486
+[QUOTE]
+"Prestige Peptides is a leading provider of USA manufactured, research peptides. and are proud to be a trusted resource for the products we provide to the scientific community.
+
+All products on this site are for Research, Development use only. Products are Not for Human use of any kind. The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] United States
+[REASONING]
+The site states "USA manufactured, research peptides" and "Verifiable COAs by licensed U.S. labs." The FAQ states "Ph # 561-861-9586" (Florida area code) and shipping references US-only carriers (USPS, FedEx). The copyright footer links to prestigepeptides.com indicating a US-operated business.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 458-460
+"###  USA Lab Tested
+
+Verifiable COAs by licensed U.S. labs."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://prestigesciences.com/help-faq/
+[FETCHED_AT] 2026-05-08T06:35:08Z
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/faq.md
+[LINE_RANGE] 59-61
+"**Email: Service@prestigesciences.com**
+
+**Ph # 561-861-9586**"
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope
+[INFERENCE] us_only
+[REASONING]
+All shipping references mention USPS and FedEx domestic carriers only. No international shipping option is mentioned on the shipping advisory, FAQ, or homepage. The FAQ states USPS Priority Mail explicitly and makes no reference to international destinations.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://prestigesciences.com/shipping-advisory/
+[FETCHED_AT] 2026-05-08T06:34:37Z
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/shipping.md
+[LINE_RANGE] 47
+"All orders placed Monday through Friday before **1 PM EST** will ship the same day. Orders placed after 1 PM EST on Friday will ship the next business day (Monday). Any orders placed on Saturday or Sunday will also ship the next business day (Monday). We proudly offer FedEx 2-Day Shipping to ensure fast delivery, but please note that overnight and 2-day shipping are not available on weekends, as carriers do not offer this service during that time."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://prestigesciences.com/help-faq/
+[FETCHED_AT] 2026-05-08T06:35:08Z
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/faq.md
+[LINE_RANGE] 71
+"We ship Monday through Friday. All orders are shipped USPS. All orders placed before 1100 am EST for in-stock  items will usually be  shipped the same day(there maybe delays up to 48 hours in some circumstances) the All orders placed after 11am est on business days will ship on the next business day."
+[/SUPPORT_QUOTE]
+
+[CLAIM] year_established
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 508
+[QUOTE]
+"© [Prestige Peptides](https://prestigepeptides.com/). 2023. All Rights Reserved"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 307-325
+[QUOTE]
+"## Our Research Collections
+
+## Research peptides
+
+Peptides for any research requirements
+
+[ View Collection ](/shop)
+
+[ ](/product-category/research-capsules)
+
+## Research Capsules
+
+[ ](/product-category/glp/)
+
+## GLP
+
+[ ](/product-category/bioregulators)
+
+## Bioregulators"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://prestigesciences.com/shop/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/catalog_1.md
+[LINE_RANGE] 43-58
+[QUOTE]
+"Filter Sort by:  Default sorting Sort by popularity Sort by average rating Sort by latest Sort by price: low to high Sort by price: high to low
+
+[](/shop/ "Grid View")[](/shop/?gridcookie=list "List View")"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://prestigesciences.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:34:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 105-109
+[QUOTE]
+"BPC-157/TB-500 5mg/5mg (R&D) ](https://prestigesciences.com/product/bpc-157-tb-500-blend-5mg-5mg/)
+
+**0** out of 5
+
+$99.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 177-179
+[QUOTE]
+"### BPC-157 5MG (R&D)
+
+$48.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 177-179
+[QUOTE]
+"### BPC-157 5MG (R&D)
+
+$48.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 486
+[QUOTE]
+"All products on this site are for Research, Development use only. Products are Not for Human use of any kind. The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://prestigesciences.com/coa-library/
+[FETCHED_AT] 2026-05-08T06:34:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/coa_1.md
+[LINE_RANGE] 45-57
+[QUOTE]
+"## Certificates
+
+Browse and search our certificates below.
+
+Search certificates
+
+Showing 12 of 50 certificates
+
+View Certificate
+
+### Semaglutide 5mg
+
+April 20, 2026"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://prestigesciences.com/coa-library/
+[FETCHED_AT] 2026-05-08T06:34:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/coa_1.md
+[LINE_RANGE] 41-51
+[QUOTE]
+"## COA Library
+
+[Smalls Smalls](https://prestigesciences.com/author/smalls/ "Posts by Smalls Smalls")2026-03-18T23:04:40-04:00
+
+## Certificates
+
+Browse and search our certificates below.
+
+Search certificates
+
+Showing 12 of 50 certificates"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://prestigesciences.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:34:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 41-50
+[QUOTE]
+"## Related products
+
+  * [ ](https://prestigesciences.com/product/tz-10mg-rd/)
+
+[GLP](https://prestigesciences.com/product-category/glp/), [Peptides](https://prestigesciences.com/product-category/peptides/) ### [TIRZEPATIDE (10 MG ) RUO ](https://prestigesciences.com/product/tz-10mg-rd/)
+
+**0** out of 5
+
+$89.00"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://prestigesciences.com/help-faq/
+[FETCHED_AT] 2026-05-08T06:35:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/faq.md
+[LINE_RANGE] 104-106
+[QUOTE]
+"YOU MUST BE OVER 21 YEARS OLD TO USE THIS WEBSITE.
+
+**The products we offer are intended for IN-VITRO LABORATORY RESEARCH USE ONLY. The products are NOT FOR HUMAN or ANIMAL USE OR CONSUMPTION OF ANY KIND.**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://prestigesciences.com/help-faq/
+[FETCHED_AT] 2026-05-08T06:35:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/faq.md
+[LINE_RANGE] 55
+[QUOTE]
+"All customers MUST be at least 18 years of age to purchase our products"
+[/QUOTE]
+[URL] https://prestigesciences.com/help-faq/
+[FETCHED_AT] 2026-05-08T06:35:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/faq.md
+[LINE_RANGE] 104
+[QUOTE]
+"YOU MUST BE OVER 21 YEARS OLD TO USE THIS WEBSITE."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 498
+[QUOTE]
+"  * [Terms and Conditions](/terms-and-conditions/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://prestigesciences.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T06:34:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/tos.md
+[LINE_RANGE] 51-55
+[QUOTE]
+"The products we offer are intended for laboratory research use only. In purchasing any of these items, the customer acknowledges that there are risks involved with consumption or distribution of these products. These chemicals are NOT intended to use as food additives, drugs, cosmetics, household chemicals or other inappropriate applications."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://prestigesciences.com/help-faq/
+[FETCHED_AT] 2026-05-08T06:35:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/faq.md
+[LINE_RANGE] 77-88
+[QUOTE]
+"We do not accept Returns! ALL SALES ARE FINAL!
+
+
+
+If your order has not yet been shipped and you wish to cancel your order then please email us at service@prestigesciences.com and we will do our utmost to accommodate you. We cannot promise that we can intercept a package once it has already been processed.
+
+All Items are shipped safely and in a manner that ensures safe arrival. If for any reason this is not the case then please email us and we will work with you. Each case is handled individually.
+
+If a product is missing from your order then please contact us and once we verify the legitimacy of the claim then we will send the missing item to you. All orders are documented and are photographed prior to shipping to avoid any fraudulent claims.
+
+**Chargebacks will not be tolerated due to our above policy for handling all issues. We will treat chargebacks as fraud and will pursue legal action if a chargeback is initiated to the full extent of the law.**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://prestigesciences.com/shipping-advisory/
+[FETCHED_AT] 2026-05-08T06:34:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/shipping.md
+[LINE_RANGE] 47
+[QUOTE]
+"All orders placed Monday through Friday before **1 PM EST** will ship the same day. Orders placed after 1 PM EST on Friday will ship the next business day (Monday). Any orders placed on Saturday or Sunday will also ship the next business day (Monday). We proudly offer FedEx 2-Day Shipping to ensure fast delivery, but please note that overnight and 2-day shipping are not available on weekends, as carriers do not offer this service during that time."
+[/QUOTE]
+[URL] https://prestigesciences.com/help-faq/
+[FETCHED_AT] 2026-05-08T06:35:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/faq.md
+[LINE_RANGE] 71
+[QUOTE]
+"We ship Monday through Friday. All orders are shipped USPS. All orders placed before 1100 am EST for in-stock  items will usually be  shipped the same day"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/source_homepage.md
+[LINE_RANGE] 64-66
+[QUOTE]
+"cybersource
+facebook.net
+google_gtagjs"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://prestigesciences.com/shipping-advisory/
+[FETCHED_AT] 2026-05-08T06:34:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/shipping.md
+[LINE_RANGE] 47
+[QUOTE]
+"We proudly offer FedEx 2-Day Shipping to ensure fast delivery, but please note that overnight and 2-day shipping are not available on weekends, as carriers do not offer this service during that time."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 49
+[QUOTE]
+"### Free Shipping $250+"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/source_homepage.md
+[LINE_RANGE] 68
+[QUOTE]
+"woocommerce"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/source_homepage.md
+[LINE_RANGE] 5
+[QUOTE]
+"server: nginx"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/source_homepage.md
+[LINE_RANGE] 32-42
+[QUOTE]
+"<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	const gtm4wp_use_sku_instead = 1;
+	const gtm4wp_currency = 'USD';"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/source_homepage.md
+[LINE_RANGE] 53-62
+[QUOTE]
+"<link data-rocket-prefetch href="https://analytics.tiktok.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://capi-automation.s3.us-east-2.amazonaws.com" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://connect.facebook.net" rel="dns-prefetch">
+<link data-rocket-prefetch href="https://www.redditstatic.com" rel="dns-prefetch">"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/source_homepage.md
+[LINE_RANGE] 60
+[QUOTE]
+"crisp"
+[/QUOTE]
+
+[CLAIM] skus[0].list_price_usd (claim-sku-1: BPC-157 5MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 177-179
+[QUOTE]
+"### BPC-157 5MG (R&D)
+
+$48.00"
+[/QUOTE]
+
+[CLAIM] skus[1].list_price_usd (claim-sku-2: TB-500 5MG)
+[URL] https://prestigesciences.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:34:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 82-86
+[QUOTE]
+"### [Thymosin Beta-4 (TB 500) 5MG (R&D) ](https://prestigesciences.com/product/tb-500/)
+
+**0** out of 5
+
+$59.00"
+[/QUOTE]
+
+[CLAIM] skus[2].list_price_usd + skus[2].sale_price_usd (claim-sku-3: SEMAGLUTIDE 10MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 161-165
+[QUOTE]
+"### SEMAGLUTIDE (10MG) R&D
+
+~~$ 129.00~~ Original price was: $129.00.$89.00Current price is: $89.00.
+
+[ View Product ](https://prestigesciences.com/product/glp-1/)"
+[/QUOTE]
+
+[CLAIM] skus[3].list_price_usd (claim-sku-4: SEMAGLUTIDE 5MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 337-343
+[QUOTE]
+"[GLP](https://prestigesciences.com/product-category/glp/), [Peptides](https://prestigesciences.com/product-category/peptides/) ### [SEMAGLUTIDE (5MG) R&D ](https://prestigesciences.com/product/glp-1-s-5mg-rd/)
+
+**0** out of 5
+
+$59.00"
+[/QUOTE]
+
+[CLAIM] skus[4].list_price_usd (claim-sku-5: TIRZEPATIDE 10MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 113-117
+[QUOTE]
+"### TIRZEPATIDE (10 MG ) RUO
+
+$89.00
+
+[ View Product ](https://prestigesciences.com/product/tz-10mg-rd/)"
+[/QUOTE]
+
+[CLAIM] skus[5].list_price_usd (claim-sku-6: TIRZEPATIDE 30MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 385-391
+[QUOTE]
+"[GLP](https://prestigesciences.com/product-category/glp/), [Peptides](https://prestigesciences.com/product-category/peptides/) ### [TIRZEPATIDE ( 30MG ) RUO ](https://prestigesciences.com/product/tz-30mg-rd-copy/)
+
+**0** out of 5
+
+$239.00"
+[/QUOTE]
+
+[CLAIM] skus[6].list_price_usd (claim-sku-7: RETATRUTIDE 10MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 409-415
+[QUOTE]
+"[GLP](https://prestigesciences.com/product-category/glp/), [Peptides](https://prestigesciences.com/product-category/peptides/) ### [RETATRUTIDE (10MG) (RUO) ](https://prestigesciences.com/product/glp-3-reta-10mg-ruo/)
+
+**0** out of 5
+
+$99.00"
+[/QUOTE]
+
+[CLAIM] skus[7].list_price_usd (claim-sku-8: MOTS-C 10MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 81-85
+[QUOTE]
+"### MOTS-C 10MG (R&D)
+
+$99.00
+
+[ View Product ](https://prestigesciences.com/product/mots-c-10mg/)"
+[/QUOTE]
+
+[CLAIM] skus[8].list_price_usd (claim-sku-9: MOTS-C 5MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 89-93
+[QUOTE]
+"### MOTS-C 5MG (R&D)
+
+$55.00
+
+[ View Product ](https://prestigesciences.com/product/mots-c/)"
+[/QUOTE]
+
+[CLAIM] skus[9].list_price_usd (claim-sku-10: PT-141 10MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 73-77
+[QUOTE]
+"### PT-141 10MG (R&D)
+
+$25.00
+
+[ View Product ](https://prestigesciences.com/product/lyophilized-powder/)"
+[/QUOTE]
+
+[CLAIM] skus[10].out_of_stock (claim-sku-11: AOD9604 2MG)
+[URL] https://prestigesciences.com/product/glp-1/
+[FETCHED_AT] 2026-05-08T06:35:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/product_2__semaglutide-10mg.md
+[LINE_RANGE] 65-69
+[QUOTE]
+"[ HotOut of stock ](https://prestigesciences.com/product/aod9604/)
+
+[Peptides](https://prestigesciences.com/product-category/peptides/) ### [AOD9604 2MG (R&D) ](https://prestigesciences.com/product/aod9604/)
+
+**0** out of 5
+
+$55.00"
+[/QUOTE]
+
+[CLAIM] skus[11].list_price_usd (claim-sku-12: SS-31 10MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 97-101
+[QUOTE]
+"### SS-31 10mg RUO
+
+$69.00
+
+[ View Product ](https://prestigesciences.com/product/ss-31-10mg-ruo/)"
+[/QUOTE]
+
+[CLAIM] skus[12].list_price_usd (claim-sku-13: IGF-1 LR3 1MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 129-133
+[QUOTE]
+"### IGF-1 lR3 1MG (R&D)
+
+$89.00
+
+[ View Product ](https://prestigesciences.com/product/igf-1lr3-1mg/)"
+[/QUOTE]
+
+[CLAIM] skus[13].list_price_usd (claim-sku-14: Epitalon 10MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 137-141
+[QUOTE]
+"### Epitalon 10mg RUO
+
+$45.00
+
+[ View Product ](https://prestigesciences.com/product/epitalon-10mg-ruo/)"
+[/QUOTE]
+
+[CLAIM] skus[14].list_price_usd (claim-sku-15: SERMORELIN 2MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 145-149
+[QUOTE]
+"### SERMORELIN 2MG (R&D)
+
+$29.00
+
+[ View Product ](https://prestigesciences.com/product/sermorelin/)"
+[/QUOTE]
+
+[CLAIM] skus[15].list_price_usd (claim-sku-16: MELANOTAN 2 10MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 153-157
+[QUOTE]
+"### MELANOTAN 2 10MG (R&D)
+
+$29.00
+
+[ View Product ](https://prestigesciences.com/product/mt2/)"
+[/QUOTE]
+
+[CLAIM] skus[16].list_price_usd (claim-sku-17: Tesamorelin 5MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 169-173
+[QUOTE]
+"### Tesamorelin 5mg (R&D)
+
+$65.00
+
+[ View Product ](https://prestigesciences.com/product/tesamorelin-5mg-rd/)"
+[/QUOTE]
+
+[CLAIM] skus[17].list_price_usd (claim-sku-18: Cagrilitide/Semaglutide Blend)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 105-109
+[QUOTE]
+"### Cagrilitide / Semaglutide Blend 10MG 5MG/5MG BLEND (RUO)
+
+$110.00
+
+[ View Product ](https://prestigesciences.com/product/cagrisema-10mg/)"
+[/QUOTE]
+
+[CLAIM] skus[18].list_price_usd (claim-sku-19: Fox04-DRI 10MG)
+[URL] https://prestigesciences.com/
+[FETCHED_AT] 2026-05-08T06:33:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/homepage.md
+[LINE_RANGE] 121-125
+[QUOTE]
+"### Fox04-DRI 10mg RUO
+
+$225.00
+
+[ View Product ](https://prestigesciences.com/product/fox04-dri-10mg-ruo/)"
+[/QUOTE]
+
+[CLAIM] skus[19].list_price_usd (claim-sku-20: GHK-CU 50MG)
+[URL] https://prestigesciences.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:34:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 100-104
+[QUOTE]
+"### [GHK-CU 50MG (R&D) ](https://prestigesciences.com/product/ghk-cu-50mg/)
+
+**0** out of 5
+
+$55.00"
+[/QUOTE]
+
+[CLAIM] skus[20].list_price_usd (claim-sku-21: BPC-157/TB-500 Blend)
+[URL] https://prestigesciences.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:34:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/product_1__bpc-157-5mg.md
+[LINE_RANGE] 105-109
+[QUOTE]
+"BPC-157/TB-500 5mg/5mg (R&D) ](https://prestigesciences.com/product/bpc-157-tb-500-blend-5mg-5mg/)
+
+**0** out of 5
+
+$99.00"
+[/QUOTE]
+
+[CLAIM] skus[21].list_price_usd (claim-sku-22: SELANK 5MG)
+[URL] https://prestigesciences.com/product/glp-1/
+[FETCHED_AT] 2026-05-08T06:35:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/product_2__semaglutide-10mg.md
+[LINE_RANGE] 77-81
+[QUOTE]
+"[Peptides](https://prestigesciences.com/product-category/peptides/) ### [SELANK 5MG (R&D) ](https://prestigesciences.com/product/selank/)
+
+**0** out of 5
+
+$28.00"
+[/QUOTE]
+
+[CLAIM] skus[22].list_price_usd (claim-sku-23: IPAMORELIN 2MG)
+[URL] https://prestigesciences.com/product/glp-1/
+[FETCHED_AT] 2026-05-08T06:35:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/product_2__semaglutide-10mg.md
+[LINE_RANGE] 83-87
+[QUOTE]
+"[Peptides](https://prestigesciences.com/product-category/peptides/) ### [IPAMORELIN 2MG (R&D) ](https://prestigesciences.com/product/ipamorelin/)
+
+**0** out of 5
+
+$25.00"
+[/QUOTE]
+
+[CLAIM] skus[23].list_price_usd (claim-sku-24: NAD+ 500MG)
+[URL] https://prestigesciences.com/product/glp-1/
+[FETCHED_AT] 2026-05-08T06:35:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prestige-peptides/product_2__semaglutide-10mg.md
+[LINE_RANGE] 59-63
+[QUOTE]
+"[Peptides](https://prestigesciences.com/product-category/peptides/) ### [NAD+ 500MG (R&D) ](https://prestigesciences.com/product/nad-500mg-rd/)
+
+**0** out of 5
+
+$129.00"
+[/QUOTE]

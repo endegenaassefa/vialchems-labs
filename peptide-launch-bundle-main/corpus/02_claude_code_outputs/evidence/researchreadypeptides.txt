@@ -1,0 +1,429 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/homepage.md
+[LINE_RANGE] 16-17
+[QUOTE]
+**RRP serves the research community only.**
+Our products are not for personal use under any circumstances.RRP's inventory is reserved exclusively for research and laboratory applications.
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/homepage.md
+[LINE_RANGE] 41-43
+[QUOTE]
+"NOT FOR HUMAN CONSUMPTION
+
+ALL PRODUCTS SOLD FOR RESEARCH & STUDY ONLY."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/homepage.md
+[LINE_RANGE] 21-24
+[QUOTE]
+"## Payment LINK or Bankful
+
+[CLICK HERE- SHOP](Shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/homepage.md
+[LINE_RANGE] 7-12
+[QUOTE]
+"* [RRP Home](https://researchreadypeptides.com/)
+  * [Shop](Shop/)
+  * [Contact us](Contact-us/)
+  * [Policies](Policies/)"
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/homepage.md
+[LINE_RANGE] 33
+[QUOTE]
+"Serving the research community since 3/2024"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/homepage.md
+[LINE_RANGE] 24-27
+[QUOTE]
+"**3rd Party Certificates of Analysis**
+
+**Now by:** Dustin Newman, Microbiologist, Chemist
+
+[Vanguard Laboratory ](https://vanguardlaboratory.com/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/homepage.md
+[LINE_RANGE] 109-110
+[QUOTE]
+"All materials are third-party tested for purity and accompanied by Certificates of Analysis. We test before we sell—to honor both your work and our shared responsibility."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://researchreadypeptides.com/Policies/
+[FETCHED_AT] 2026-05-08T07:08:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/tos.md
+[LINE_RANGE] 126-128
+[QUOTE]
+"All products offered are strictly for laboratory research purposes only. They are not intended for human or veterinary use, consumption, or any form of personal application."
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://researchreadypeptides.com/Policies/
+[FETCHED_AT] 2026-05-08T07:08:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/tos.md
+[LINE_RANGE] 126-128
+[QUOTE]
+"All products offered are strictly for laboratory research purposes only. They are not intended for human or veterinary use, consumption, or any form of personal application."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://researchreadypeptides.com/Policies/
+[FETCHED_AT] 2026-05-08T07:08:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/tos.md
+[LINE_RANGE] 45-46
+[QUOTE]
+Welcome to ResearchReadyPeptides.com (“the Site”), operated by Research Ready Peptides (“we,” “us,” or “our”). By accessing or using our Site, purchasing products, or engaging with our services, you agree to be bound by these Terms and Conditions (“Terms”).
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://researchreadypeptides.com/Policies/
+[FETCHED_AT] 2026-05-08T07:08:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/tos.md
+[LINE_RANGE] 134-136
+[QUOTE]
+"You are at least 21 years of age and legally authorized to purchase and use research chemicals.
+You will not use our products as drugs, food additives, cosmetics, or household chemicals."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://researchreadypeptides.com/Policies/
+[FETCHED_AT] 2026-05-08T07:08:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/tos.md
+[LINE_RANGE] 172-183
+[QUOTE]
+"We accept returns within 30 days of purchase, provided the following conditions are met:
+  * Seal must be intact
+  * Packaging unopened
+  * Product not reconstituted or altered in any way
+  * Refunds apply only to the value paid for the peptide(s).
+  * Shipping fees are non-refundable"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://researchreadypeptides.com/Policies/
+[FETCHED_AT] 2026-05-08T07:08:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/tos.md
+[LINE_RANGE] 193-199
+[QUOTE]
+"FLAT RATE SHIPPING Orders are generally shipped within 24-36 hours, United States Postal delivery standard is 2 - 7 days. Flat rate shipping fee of $7.98 applies to orders shipping within the United States.
+We do not ship outside of the United States at this time."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://researchreadypeptides.com/Policies/
+[FETCHED_AT] 2026-05-08T07:08:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/tos.md
+[LINE_RANGE] 195-197
+[QUOTE]
+"Flat rate shipping fee of $7.98 applies to orders shipping within the United States.
+We do not ship outside of the United States at this time."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://researchreadypeptides.com/Policies/
+[FETCHED_AT] 2026-05-08T07:08:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/tos.md
+[LINE_RANGE] 197
+[QUOTE]
+"We do not ship outside of the United States at this time."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/homepage.md
+[LINE_RANGE] 233-234
+[QUOTE]
+"Payment Notice We accept Visa and Mastercard via secure, non-U.S. gateways. All transactions are encrypted and verified."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://researchreadypeptides.com/Policies/
+[FETCHED_AT] 2026-05-08T07:08:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/tos.md
+[LINE_RANGE] 195
+[QUOTE]
+"Flat rate shipping fee of $7.98 applies to orders shipping within the United States."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://researchreadypeptides.com/Policies/
+[FETCHED_AT] 2026-05-08T07:08:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/tos.md
+[LINE_RANGE] 199
+[QUOTE]
+"Transit times vary depending on your location distance from Indiana state - delivery may take 2 to 7 days"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://researchreadypeptides.com/Policies/
+[FETCHED_AT] 2026-05-08T07:08:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/tos.md
+[LINE_RANGE] 197
+[QUOTE]
+"We do not ship outside of the United States at this time."
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:08:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/source_homepage.md
+[LINE_RANGE] 1-8
+[QUOTE]
+url: https://researchreadypeptides.com/
+fetched_at: 2026-05-08T07:08:42Z
+fetch_method: curl
+http_status: 200
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:08:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/source_homepage.md
+[LINE_RANGE] 62
+[QUOTE]
+<body class="site site-lang-en " ><div id="wb_root" class="root wb-layout-vertical">
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:08:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/source_homepage.md
+[LINE_RANGE] 42
+[QUOTE]
+"<script async type='text/javascript' src='https://static.klaviyo.com/onsite/js/RJR2Ks/klaviyo.js?company_id=RJR2Ks'></script>"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/homepage.md
+[LINE_RANGE] 45
+[QUOTE]
+"Trustpilot & Google Verified"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/20240917131429/https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:09:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/catalog_1.md
+[LINE_RANGE] 95-270
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/researchreadypeptides/catalog_1.md:
+11 SKUs listed in catalog:
+AOD9604 10mg Research Peptide
+BPC-157 Research Peptide (Pentadecapeptide BPC-157)
+Cagrilintide Research Peptide (CAG-9) 5mg
+GHK-Cu Research Peptide (Glycyl-L-Histidyl-L-Lysine-Copper)
+PT-141 Research peptide
+Research GLP-1 Single Agonist
+Retatrutide Research Peptide
+Semax Research Peptide
+Sterile Water with additives 10mL
+TB-500 Research Peptide (Thymosin Beta-4 (TB-4))
+Tirzepatide Research Peptide
+[FILES]
+catalog_1.md
+[/QUOTE]
+
+[CLAIM] skus[researchreadypeptides:aod9604-10mg]
+[URL] https://web.archive.org/web/20240917131429/https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:09:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/catalog_1.md
+[LINE_RANGE] 95-107
+[QUOTE]
+"AOD9604 10mg Research Peptide
+Regular price $48.19 USD
+Regular price ~~$63.86 USD~~ Sale price $48.19 USD"
+[/QUOTE]
+
+[CLAIM] skus[researchreadypeptides:bpc-157]
+[URL] https://web.archive.org/web/20240917131429/https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:09:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/catalog_1.md
+[LINE_RANGE] 111-124
+[QUOTE]
+"BPC-157 Research Peptide (Pentadecapeptide BPC-157)
+Regular price From $27.50 USD
+Regular price ~~$31.61 USD~~ Sale price From $27.50 USD"
+[/QUOTE]
+
+[CLAIM] skus[researchreadypeptides:cagrilintide-5mg]
+[URL] https://web.archive.org/web/20240917131429/https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:09:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/catalog_1.md
+[LINE_RANGE] 127-141
+[QUOTE]
+"Cagrilintide Research Peptide (CAG-9) 5mg
+Regular price $115.58 USD
+Regular price ~~$131.35 USD~~ Sale price $115.58 USD"
+[/QUOTE]
+
+[CLAIM] skus[researchreadypeptides:ghk-cu]
+[URL] https://web.archive.org/web/20240917131429/https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:09:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/catalog_1.md
+[LINE_RANGE] 143-157
+[QUOTE]
+"GHK-Cu Research Peptide (Glycyl-L-Histidyl-L-Lysine-Copper)
+Regular price From $39.68 USD
+Regular price ~~$53.09 USD~~ Sale price From $39.68 USD"
+[/QUOTE]
+
+[CLAIM] skus[researchreadypeptides:pt-141]
+[URL] https://web.archive.org/web/20240917131429/https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:09:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/catalog_1.md
+[LINE_RANGE] 159-173
+[QUOTE]
+"PT-141 Research peptide
+Regular price $38.08 USD
+Regular price ~~$47.72 USD~~ Sale price $38.08 USD"
+[/QUOTE]
+
+[CLAIM] skus[researchreadypeptides:glp-1-semaglutide]
+[URL] https://web.archive.org/web/20240917131429/https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:09:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/catalog_1.md
+[LINE_RANGE] 175-189
+[QUOTE]
+"Research GLP-1 Single Agonist
+Regular price From $109.09 USD
+Regular price ~~$124.36 USD~~ Sale price From $109.09 USD"
+[/QUOTE]
+
+[CLAIM] skus[researchreadypeptides:retatrutide]
+[URL] https://web.archive.org/web/20240917131429/https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:09:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/catalog_1.md
+[LINE_RANGE] 191-205
+[QUOTE]
+"Retatrutide Research Peptide
+Regular price From $158.08 USD
+Regular price ~~$178.63 USD~~ Sale price From $158.08 USD"
+[/QUOTE]
+
+[CLAIM] skus[researchreadypeptides:semax]
+[URL] https://web.archive.org/web/20240917131429/https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:09:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/catalog_1.md
+[LINE_RANGE] 207-221
+[QUOTE]
+"Semax Research Peptide
+Regular price $29.88 USD
+Regular price ~~$41.05 USD~~ Sale price $29.88 USD"
+[/QUOTE]
+
+[CLAIM] skus[researchreadypeptides:tb-500]
+[URL] https://web.archive.org/web/20240917131429/https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:09:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/catalog_1.md
+[LINE_RANGE] 239-253
+[QUOTE]
+"TB-500 Research Peptide (Thymosin Beta-4 (TB-4)
+Regular price $27.88 USD
+Regular price ~~$43.81 USD~~ Sale price $27.88 USD"
+[/QUOTE]
+
+[CLAIM] skus[researchreadypeptides:tirzepatide]
+[URL] https://web.archive.org/web/20240917131429/https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:09:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/catalog_1.md
+[LINE_RANGE] 255-270
+[QUOTE]
+"Tirzepatide Research Peptide
+Regular price From $109.09 USD
+Regular price ~~$134.76 USD~~ Sale price From $109.09 USD"
+[/QUOTE]
+
+[CLAIM] skus[researchreadypeptides:sterile-water-10ml]
+[URL] https://web.archive.org/web/20240917131429/https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:09:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/catalog_1.md
+[LINE_RANGE] 223-237
+[QUOTE]
+"Sterile Water with additives 10mL
+Regular price $6.41 USD
+Regular price ~~$9.98 USD~~ Sale price $6.41 USD"
+[/QUOTE]
+
+[CLAIM] skus[researchreadypeptides:glp-1-semaglutide].peptide_canonical
+[INFERENCE] Semaglutide
+[REASONING]
+The product is named "Research GLP-1 Single Agonist." The archived catalog page text contains a dedicated section discussing Semaglutide as "a well-known GLP-1 receptor agonist" alongside Tirzepatide which is described as a "dual GIP and GLP-1 receptor agonist." Tirzepatide has its own separate SKU. Therefore the single GLP-1 agonist product is the Semaglutide analog.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240917131429/https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:09:52Z
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/catalog_1.md
+[LINE_RANGE] 175-179
+"Research GLP-1 Single Agonist
+Regular price From $109.09 USD"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240917131429/https://researchreadypeptides.com/
+[FETCHED_AT] 2026-05-08T07:09:52Z
+[RAW_ARTIFACT] 03_raw_fetches/researchreadypeptides/catalog_1.md
+[LINE_RANGE] 367-371
+"Semaglutide, a well-known GLP-1 receptor agonist, has been extensively studied for its weight loss benefits. It mimics the action of the natural hormone GLP-1, which regulates blood sugar levels and appetite."
+[/SUPPORT_QUOTE]

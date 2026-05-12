@@ -1,0 +1,634 @@
+[CLAIM] country_of_operation
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 211-211
+[QUOTE]
+"Shanghai Baoju New Materials Firm"
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"Shanghai Baoju New Materials Firm is a leading supplier of high-quality research Peptides . We offer a broad range of research Peptides that are of the highest quality and purity. Our top quality products are suitable for laboratory research purposes."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+Homepage header reads "New material manufacturer" and "Shanghai Baoju New Materials Firm" with copy focused on laboratory research, experimental facilities, and testing instruments. No meme-coded, lifestyle, or anonymous styling is present in the fetched text.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 10-10
+"## New material manufacturer"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 26-32
+"#####  Complete experimental facilities
+
+#####  Advanced testing instruments
+
+#####  Complete sales service system
+
+#####  Excellent quality & service "
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 14-14
+[QUOTE]
+"Contact"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[INFERENCE] top nav with Products link; sidebar inquiry button; contact form in footer
+[REASONING]
+The homepage text shows a contact form at the footer ("Get In Touch With Us" with Name/Email/Phone/Message fields), products are linked from the top navigation, and the "Hot Products" section refers to a floating inquiry button in the right sidebar.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 42-45
+"① Use the floating inquiry button (right sidebar) for instant access
+② Submit specifications via bottom inquiry form
+③ Schedule technical consultations through our CRM"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 199-208
+"## Get In Touch With Us
+
+Name
+
+Email
+
+Phone
+
+Message
+
+Submit"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 213-213
+[QUOTE]
+"## Make On Demand Manufacturing Easier, Faster"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.baojuchemical.com/products/
+[FETCHED_AT] 2026-05-07T19:43:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/catalog_1.md
+[LINE_RANGE] 14-14
+[QUOTE]
+"Showing 1–16 of 47 results"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.baojuchemical.com/products/
+[FETCHED_AT] 2026-05-07T19:43:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/catalog_1.md
+[LINE_RANGE] 22-22
+[QUOTE]
+"[Lyophilized Powder](https://www.baojuchemical.com/product-category/lyophilized-powder/)"
+[/QUOTE]
+
+[URL] https://www.baojuchemical.com/products/
+[FETCHED_AT] 2026-05-07T19:43:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/catalog_1.md
+[LINE_RANGE] 30-30
+[QUOTE]
+"[Tablets/Capsules](https://www.baojuchemical.com/product-category/tablets-capsules/)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://www.baojuchemical.com/products/
+[FETCHED_AT] 2026-05-07T19:43:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/catalog_1.md
+[LINE_RANGE] 16-16
+[QUOTE]
+"Default sorting Sort by popularity Sort by latest Sort by price: low to high Sort by price: high to low"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.baojuchemical.com/products/
+[FETCHED_AT] 2026-05-07T19:43:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/catalog_1.md
+[LINE_RANGE] 58-60
+[QUOTE]
+"## [BPC 157 10mg+GHK-CU 50mg+TB500 10mg](https://www.baojuchemical.com/product/bpc-157-10mgghk-cu-50mgtb500-10mg/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://www.baojuchemical.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:44:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_1__bpc-157.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"Skip to content"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://www.baojuchemical.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:44:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_1__bpc-157.md
+[LINE_RANGE] 14-14
+[QUOTE]
+"# BPC 157"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.baojuchemical.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:44:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_1__bpc-157.md
+[LINE_RANGE] 14-18
+[QUOTE]
+"# BPC 157
+
+CAS: 137525-51-0
+
+Category: [Lyophilized Powder](https://www.baojuchemical.com/product-category/lyophilized-powder/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[INFERENCE] false
+[REASONING]
+BPC-157 product page (and all other sampled product pages) contains only product name, CAS number, and category. No COA link, no lab report, no certificate of analysis section is present in any of the 6 sampled product pages.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:44:21Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_1__bpc-157.md
+[LINE_RANGE] 14-18
+"# BPC 157
+
+CAS: 137525-51-0
+
+Category: [Lyophilized Powder](https://www.baojuchemical.com/product-category/lyophilized-powder/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-07T19:46:08Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_5__ghk-cu.md
+[LINE_RANGE] 14-18
+"# GHK-CU
+
+CAS: 89030-95-5
+
+Category: [Lyophilized Powder](https://www.baojuchemical.com/product-category/lyophilized-powder/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[INFERENCE] false
+[REASONING]
+None of the 6 sampled product pages show review widgets, star ratings, or customer comment sections. Product pages contain only name, CAS number, and category.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:44:21Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_1__bpc-157.md
+[LINE_RANGE] 14-22
+"# BPC 157
+
+CAS: 137525-51-0
+
+Category: [Lyophilized Powder](https://www.baojuchemical.com/product-category/lyophilized-powder/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/product/tb500thymosin-b4-acetate%EF%BC%89/
+[FETCHED_AT] 2026-05-07T19:46:08Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_6__tb500.md
+[LINE_RANGE] 14-18
+"# TB500(Thymosin B4 Acetate）
+
+CAS: 77591-33-4
+
+Category: [Lyophilized Powder](https://www.baojuchemical.com/product-category/lyophilized-powder/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[INFERENCE] false
+[REASONING]
+No related product modules, "you may also like" sections, or cross-sell sections appear on any of the 6 sampled product pages.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/product/cagrilintide/
+[FETCHED_AT] 2026-05-07T19:44:48Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_3__cagrilintide.md
+[LINE_RANGE] 14-18
+"# cagrilintide
+
+CAS: 1415456-99-3
+
+Category: [Lyophilized Powder](https://www.baojuchemical.com/product-category/lyophilized-powder/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/product/5-amino-1mq/
+[FETCHED_AT] 2026-05-07T19:44:48Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_4__5-amino-1mq.md
+[LINE_RANGE] 14-16
+"# 5-amino-1mq
+
+CAS: 42464-96-0"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"Our top quality products are suitable for laboratory research purposes."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+No age-gate prompt or age-verification screen appears on the homepage or any product page fetched. No such page appears in the sitemap.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 8-12
+"Skip to content
+
+## New material manufacturer
+
+Shanghai Baoju New Materials Firm is a leading supplier of high-quality research Peptides"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:44:21Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_1__bpc-157.md
+[LINE_RANGE] 8-14
+"Skip to content
+
+[Home](https://www.baojuchemical.com/) [Lyophilized Powder](https://www.baojuchemical.com/product-category/lyophilized-powder/) BPC 157
+
+  1.   2.   3.
+
+
+# BPC 157"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+Raw HTML source of homepage contains WooCommerce-specific stylesheet IDs including "woocommerce-inline-inline-css" and WooCommerce bundled CSS from the Blocksy WordPress theme.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:45:03Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/source_homepage.md
+[LINE_RANGE] 1-7
+"---
+url: https://www.baojuchemical.com/
+fetched_at:"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/products/
+[FETCHED_AT] 2026-05-07T19:43:43Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/catalog_1.md
+[LINE_RANGE] 14-16
+"Showing 1–16 of 47 results
+
+Default sorting Sort by popularity Sort by latest Sort by price: low to high Sort by price: high to low"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] Cloudflare
+[REASONING]
+The naked domain https://baojuchemical.com returns HTTP 526 (Cloudflare SSL handshake error), which is a Cloudflare-specific error code. The site redirects cleanly through Cloudflare to www.baojuchemical.com.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 193-193
+"[ ](/cdn-cgi/l/email-protection#1071747d797e5072717f7a6568737c3e737f7d)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/privacy-policy-2/
+[FETCHED_AT] 2026-05-07T19:45:03Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/privacy_policy.md
+[LINE_RANGE] 1-6
+"---
+url: https://www.baojuchemical.com/privacy-policy-2/
+fetched_at:"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] Google Ads (AW-11520981898)
+[REASONING]
+Raw HTML source of the homepage contains the Google tag (gtag.js) script with Google Ads conversion ID AW-11520981898.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:45:03Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/source_homepage.md
+[LINE_RANGE] 1-7
+"---
+url: https://www.baojuchemical.com/
+fetched_at:"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:45:03Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/source_homepage.md
+[LINE_RANGE] 1-7
+"---
+url: https://www.baojuchemical.com/
+fetched_at:"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE] Google Ads conversion tracking
+[REASONING]
+Same evidence as analytics_tools_loaded: gtag config with AW-11520981898 is a Google Ads conversion tracking ID, not a GA4 measurement ID (which uses G- prefix).
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:45:03Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/source_homepage.md
+[LINE_RANGE] 1-7
+"---
+url: https://www.baojuchemical.com/
+fetched_at:"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 36-47
+"**Specialized Pharmaceutical Solutions Notice**
+To align with international digital advertising standards, our public platform focuses on demonstrating pharmaceutical manufacturing expertise rather than specific compound listings."
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] false
+[REASONING]
+No chat widget script tags (Intercom, Crisp, Tawk, Drift, Zendesk) appear in the raw HTML source. Contact is handled via WhatsApp links and Telegram handles listed in the footer.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 171-191
+"## Contact Info
+
+[ ](https://api.whatsapp.com/send?phone=+447536197466&text=Hello)
+
+###  [ WhatsApp ](https://api.whatsapp.com/send?phone=+447536197466&text=Hello)
+
++44 753 6197466
+
+[ ](https://api.whatsapp.com/send?phone=+447536197465&text=Hello)
+
+###  [ WhatsApp ](https://api.whatsapp.com/send?phone=+447536197465&text=Hello)
+
++44 7536 197465
+
+###  Telegram
+
+Alisapep
+
+###  Telegram
+
+lucypepti "
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 175-177
+"+44 753 6197466 "
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.baojuchemical.com/blog/
+[FETCHED_AT] 2026-05-07T19:45:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/catalog_1.md
+[LINE_RANGE] 1-7
+[QUOTE]
+"---
+url: https://www.baojuchemical.com/products/
+fetched_at:"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[INFERENCE] https://www.baojuchemical.com/blog/
+[REASONING]
+Sitemap posts listing contains blog post URLs at baojuchemical.com, and fetching /blog/ returns a blog index page with posts listed.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 1-6
+"---
+url: https://www.baojuchemical.com/
+fetched_at:"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 1-6
+"---
+url: https://www.baojuchemical.com/
+fetched_at:"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[INFERENCE] inactive (all blog posts dated January 2022; lorem ipsum placeholder content)
+[REASONING]
+The blog sitemap shows 8 posts, all dated January 2022. Fetching one post confirms the body is lorem ipsum placeholder text. The homepage was last modified 2026-01-14 per sitemap, but no new blog posts have been added since 2022.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/suspendisse-faucibus-interdum-posuere/
+[FETCHED_AT] 2026-05-07T19:45:55Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/catalog_2.md
+[LINE_RANGE] 1-6
+"---
+url: https://www.baojuchemical.com/products/page/2/
+fetched_at:"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 1-6
+"---
+url: https://www.baojuchemical.com/
+fetched_at:"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[INFERENCE] true
+[REASONING]
+The blog post fetched shows an author byline "pengsen" linked to /author/pengsen/ with a post date.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 1-6
+"---
+url: https://www.baojuchemical.com/
+fetched_at:"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 1-6
+"---
+url: https://www.baojuchemical.com/
+fetched_at:"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[INFERENCE] false
+[REASONING]
+No review sections, star ratings, or testimonial blocks appear on the homepage or any sampled product page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/
+[FETCHED_AT] 2026-05-07T19:43:06Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/homepage.md
+[LINE_RANGE] 151-169
+"Our advantages
+
+## Why Choose Us
+
+#####  Quality
+
+With state-of-the-art facilities and advanced testing equipment, we guarantee the stability and excellence of our peptide and hormone products. Quality control measures are rigorously implemented at every stage of production to deliver products that meet the highest standards.
+
+#####  Service
+
+Our commitment to customer satisfaction is unwavering. We have a comprehensive sales service system in place to cater to the diverse needs of our clients. From inquiries to after-sales support, we strive to provide prompt and efficient service at every touchpoint.
+
+#####  Integrity
+
+Our company upholds the fundamental value of integrity, ensuring transparency and honesty in all our dealings. We believe in building trust with our clients through ethical practices and reliable communication.
+
+#####  Win-Win
+
+Fostering mutually beneficial relationships is at the core of our business philosophy. By prioritizing collaboration and cooperation, we aim to create value for both our clients and our company. "
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.baojuchemical.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:44:21Z
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_1__bpc-157.md
+[LINE_RANGE] 14-22
+"# BPC 157
+
+CAS: 137525-51-0
+
+Category: [Lyophilized Powder](https://www.baojuchemical.com/product-category/lyophilized-powder/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[0].name (BPC 157)
+[URL] https://www.baojuchemical.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T19:44:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_1__bpc-157.md
+[LINE_RANGE] 14-16
+[QUOTE]
+"# BPC 157
+
+CAS: 137525-51-0"
+[/QUOTE]
+
+[CLAIM] skus[1].name (BPC 157 10mg+GHK-CU 50mg+TB500 10mg)
+[URL] https://www.baojuchemical.com/product/bpc-157-10mgghk-cu-50mgtb500-10mg/
+[FETCHED_AT] 2026-05-07T19:44:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_2__bpc-tb-ghkcu-bundle.md
+[LINE_RANGE] 10-12
+[QUOTE]
+"# BPC 157 10mg+GHK-CU 50mg+TB500 10mg
+
+Category: [Lyophilized Powder](https://www.baojuchemical.com/product-category/lyophilized-powder/)"
+[/QUOTE]
+
+[CLAIM] skus[2].name (GHK-CU)
+[URL] https://www.baojuchemical.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-07T19:46:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_5__ghk-cu.md
+[LINE_RANGE] 14-16
+[QUOTE]
+"# GHK-CU
+
+CAS: 89030-95-5"
+[/QUOTE]
+
+[CLAIM] skus[3].name (TB500)
+[URL] https://www.baojuchemical.com/product/tb500thymosin-b4-acetate%EF%BC%89/
+[FETCHED_AT] 2026-05-07T19:46:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_6__tb500.md
+[LINE_RANGE] 14-16
+[QUOTE]
+"# TB500(Thymosin B4 Acetate）
+
+CAS: 77591-33-4"
+[/QUOTE]
+
+[CLAIM] skus[4].name (cagrilintide)
+[URL] https://www.baojuchemical.com/product/cagrilintide/
+[FETCHED_AT] 2026-05-07T19:44:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_3__cagrilintide.md
+[LINE_RANGE] 14-16
+[QUOTE]
+"# cagrilintide
+
+CAS: 1415456-99-3"
+[/QUOTE]
+
+[CLAIM] skus[5].name (5-amino-1mq)
+[URL] https://www.baojuchemical.com/product/5-amino-1mq/
+[FETCHED_AT] 2026-05-07T19:44:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/baoju-chemical/product_4__5-amino-1mq.md
+[LINE_RANGE] 14-16
+[QUOTE]
+"# 5-amino-1mq
+
+CAS: 42464-96-0"
+[/QUOTE]

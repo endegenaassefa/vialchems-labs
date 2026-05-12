@@ -1,0 +1,508 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 41-42
+[QUOTE]
+"# Certified purity,
+research standards"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 44-50
+[QUOTE]
+"Third-party tested formulations for peptide research protocols and performance studies.
+
+Purity ≥ 99.5%
+
+Tested in ISO
+\- certified labs"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 43-43
+[QUOTE]
+"[ __Explore more](https://us.injectify.is/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 9-16
+[QUOTE]
+"  * [Home __](https://us.injectify.is/)
+  * [ Shop __](https://us.injectify.is/shop/)
+  * [ FAQ __](https://us.injectify.is/faq/)
+  * [ Testing __](https://us.injectify.is/testing/)
+  * [ Contact __](https://us.injectify.is/contact/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 164-165
+[QUOTE]
+"For research use only.
+Independently verified, every result documented."
+[/QUOTE]
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 195-195
+[QUOTE]
+"Copyright © 2025 Injectify, a trading name of INJ BIO LABS LLC. All Rights Reserved."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://us.injectify.is/terms-of-service/
+[FETCHED_AT] 2026-05-07T23:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/tos.md
+[LINE_RANGE] 50-50
+[QUOTE]
+"We are INJ BIO LABS LLC, a New York limited liability company operating under the trading name Injectify ("Injectify," "Injectify.is," "we," "us," or "our"), with operations in Ottawa, ON, Canada."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://injectify.is/
+[FETCHED_AT] 2026-05-07T23:35:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage_root.md
+[LINE_RANGE] 3-4
+[QUOTE]
+"[ 🇺🇸 United States Shipped from our US fulfillment center Continue  ](https://us.injectify.is) [ 🌍 Canada & International Shipped from our Canadian fulfillment center Continue  ](https://ca.injectify.is)"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://us.injectify.is/shipping-policy/
+[FETCHED_AT] 2026-05-07T23:37:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/shipping.md
+[LINE_RANGE] 56-58
+[QUOTE]
+"We currently ship to 47 states in the United States (all states except Hawaii, Alaska, and Puerto Rico).​
+
+**Note:** We do not ship internationally from our US store. For international orders, please visit our Canadian store at [ca.injectify.is](https://ca.injectify.is).​"
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+Multiple corroborating signals all point to 2025 as the launch year: (1) copyright footer on homepage and all pages reads "Copyright © 2025"; (2) Finnrick independent testing database shows first sample tested April 22, 2025, consistent with a newly-launched vendor; (3) image file paths in testing.md contain "/2025/10/" (October 2025), indicating content was uploaded in late 2025. No Wayback Machine snapshots or other evidence of earlier operation found.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 195-195
+"Copyright © 2025 Injectify, a trading name of INJ BIO LABS LLC. All Rights Reserved."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://us.injectify.is/testing/
+[FETCHED_AT] 2026-05-07T23:37:30Z
+[RAW_ARTIFACT] 03_raw_fetches/injectify/testing.md
+[LINE_RANGE] 53-53
+"[](/wp-content/uploads/2025/10/L_Carnitine_500_62518-694x1024-1.webp#388)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 130-156
+[QUOTE]
+"Peptides
+
+Laboratory-grade compounds designed for investigating cellular renewal mechanisms, physiological resilience pathways, and performance optimization in controlled research models. Third-party verified for purity
+
+[](https://us.injectify.is/shop/?filter=peptides)
+
+Blends
+
+Synergistic peptide formulations engineered for multi-pathway research applications exploring muscular recovery mechanisms, stamina biomarkers, and vitality indicators in experimental protocols. COA-certified quality
+
+[](https://us.injectify.is/shop/?filter=blends)
+
+L-Carnitine
+
+Research-grade amino acid derivative for studying metabolic efficiency, mitochondrial energy pathways, and endurance parameters in cellular and physiological research frameworks. Independent laboratory validation
+
+[](https://us.injectify.is/shop/?filter=l-carnitine)
+
+Bulk
+
+High-volume peptides manufactured for large-scale research operations, requiring rigorous analytical testing and unmatched batch-to-batch consistency protocols.
+
+[](https://us.injectify.is/shop/?filter=bulk)
+
+## Oral bioavailability study in capsule form
+
+Verified research-grade peptides in capsule format. Precision dosing for oral bioavailability studies."
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 83-86
+[QUOTE]
+"#### [5 x BPC-157 + 5 x TB500 – Bulk 10 Vials Bundle](https://us.injectify.is/product/bpc-157-tb500-10x-bundle/)
+
+~~$ 800.00~~ Original price was: $800.00.$449.99Current price is: $449.99."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 225-230
+[QUOTE]
+"⚠️ Important Notice:
+This product is sold strictly for laboratory research purposes only. It is not for human or animal use, and not for therapeutic or diagnostic applications.
+
+By purchasing, you confirm that you are a qualified individual using this product in accordance with all applicable laws and research regulations."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://us.injectify.is/testing/
+[FETCHED_AT] 2026-05-07T23:37:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/testing.md
+[LINE_RANGE] 45-45
+[QUOTE]
+"At [Injectify.is](https://injectify.com), our goal is to provide you with trustworthy peptides and L-Carnitine for research use only. We understand the importance of consistency and purity in research materials, which is why we partner with Janoshik—a respected testing service—to verify the authenticity and quality of our products."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://us.injectify.is/testing/
+[FETCHED_AT] 2026-05-07T23:37:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/testing.md
+[LINE_RANGE] 45-45
+[QUOTE]
+"we partner with Janoshik—a respected testing service—to verify the authenticity and quality of our products."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://us.injectify.is/testing/
+[FETCHED_AT] 2026-05-07T23:37:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/testing.md
+[LINE_RANGE] 45-45
+[QUOTE]
+"we partner with Janoshik—a respected testing service—to verify the authenticity and quality of our products."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 126-126
+[QUOTE]
+"Every batch undergoes triple-stage verification of purity, potency, and sterility. We publish our certificates transparently, because trust should be measurable."
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://us.injectify.is/terms-of-service/
+[FETCHED_AT] 2026-05-07T23:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/tos.md
+[LINE_RANGE] 68-68
+[QUOTE]
+"Research Use Only: All Products sold by Injectify.is are strictly for laboratory research purposes. They have not been approved for human or veterinary use, nor for diagnosis or treatment."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://us.injectify.is/terms-of-service/
+[FETCHED_AT] 2026-05-07T23:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/tos.md
+[LINE_RANGE] 60-60
+[QUOTE]
+"Age Requirement: You must be 21 years of age or older (and legally able to form a binding contract) to use our Website and purchase Products."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://us.injectify.is/shipping-policy/
+[FETCHED_AT] 2026-05-07T23:37:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/shipping.md
+[LINE_RANGE] 74-77
+[QUOTE]
+"**IMPORTANT:** Some US states may have specific regulations regarding supplement shipments. It is the buyer's responsibility to verify compliance with their state's regulations before placing an order.​
+
+Injectify is not responsible for delivery delays or issues caused by state-specific restrictions or regulations."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 175-175
+[QUOTE]
+"  * [Terms of service](https://us.injectify.is/terms-of-service/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://us.injectify.is/terms-of-service/
+[FETCHED_AT] 2026-05-07T23:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/tos.md
+[LINE_RANGE] 50-50
+[QUOTE]
+"We are INJ BIO LABS LLC, a New York limited liability company operating under the trading name Injectify ("Injectify," "Injectify.is," "we," "us," or "our"), with operations in Ottawa, ON, Canada."
+[/QUOTE]
+[URL] https://us.injectify.is/terms-of-service/
+[FETCHED_AT] 2026-05-07T23:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/tos.md
+[LINE_RANGE] 139-139
+[QUOTE]
+"These Terms are governed by and construed in accordance with the laws of the State of New York and applicable federal laws of the United States. Any dispute shall be brought exclusively in the courts located in New York, New York, and you consent to the personal jurisdiction of those courts."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://us.injectify.is/refund-policy/
+[FETCHED_AT] 2026-05-07T23:37:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/refund.md
+[LINE_RANGE] 48-67
+[QUOTE]
+"At **INJ BIO LABS LLC** , operating under the trading name **Injectify** , we maintain a strict no-return policy due to the nature of our products. We're committed to ensuring your satisfaction through quality assurance and flexible resolution options.
+
+### No Returns
+
+We do not accept returns of any products once purchased and delivered. All sales are final.
+
+### Refund Options
+
+**Store Credit Only:**
+All approved refunds are issued as store credit to your Injectify account. Store credit never expires and can be applied to future purchases.
+
+**
+No Refunds to Original Payment Method:**
+At this time, we do not offer refunds to your original payment method. This is a temporary policy while we transition payment processors.
+Currently, we accept payments via BTCPay (Bitcoin) and e-Transfer (Canada) only."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://us.injectify.is/shipping-policy/
+[FETCHED_AT] 2026-05-07T23:37:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/shipping.md
+[LINE_RANGE] 56-72
+[QUOTE]
+"We currently ship to 47 states in the United States (all states except Hawaii, Alaska, and Puerto Rico).​
+
+**Note:** We do not ship internationally from our US store. For international orders, please visit our Canadian store at [ca.injectify.is](https://ca.injectify.is).​
+
+### 2\. Processing Time
+
+Orders are processed within 1-2 business days (Monday-Friday, excluding holidays) after your order is placed. You will receive a confirmation email once your order has been processed and shipped.​
+
+### 3\. Shipping Methods and Delivery Times
+
+We provide Standard shipping, with estimated delivery times shown at checkout. Delivery times are estimates and may vary due to factors such as weather or carrier delays.​
+
+### 4\. Shipping Costs
+
+We offer free shipping on orders over $150 USD within the United States."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://us.injectify.is/shop/
+[FETCHED_AT] 2026-05-07T23:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/catalog_1.md
+[LINE_RANGE] 1-10
+[QUOTE]
+"## Create an account
+
+Already have an account? Sign in
+
+Business Type Research Labs/Institutions Universities Medical Facilities Businesses"
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://us.injectify.is/shop/
+[FETCHED_AT] 2026-05-07T23:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/catalog_1.md
+[LINE_RANGE] 42-42
+[QUOTE]
+"For laboratory research use only. Not for human or veterinary use. By logging in/creating an account, you confirm you are 21+ and eligible to purchase research chemicals for lawful laboratory use only."
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://us.injectify.is/shop/
+[FETCHED_AT] 2026-05-07T23:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/catalog_1.md
+[LINE_RANGE] 1-16
+[QUOTE]
+"## Create an account
+
+Already have an account? Sign in
+
+Business Type Research Labs/Institutions Universities Medical Facilities Businesses"
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://us.injectify.is/terms-of-service/
+[FETCHED_AT] 2026-05-07T23:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/tos.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"**Registration** : To purchase from Injectify.is, you or your research facility must complete a form on our Website. We may request documentation to verify your eligibility and intended research use."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://us.injectify.is/refund-policy/
+[FETCHED_AT] 2026-05-07T23:37:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/refund.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"Currently, we accept payments via BTCPay (Bitcoin) and e-Transfer (Canada) only."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://us.injectify.is/shipping-policy/
+[FETCHED_AT] 2026-05-07T23:37:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/shipping.md
+[LINE_RANGE] 70-72
+[QUOTE]
+"We offer free shipping on orders over $150 USD within the United States.
+
+Shipping fees for orders below this threshold will be calculated at checkout.​"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://us.injectify.is/shipping-policy/
+[FETCHED_AT] 2026-05-07T23:37:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/shipping.md
+[LINE_RANGE] 57-59
+[QUOTE]
+"**Note:** We do not ship internationally from our US store. For international orders, please visit our Canadian store at [ca.injectify.is](https://ca.injectify.is).​"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://us.injectify.is/testing/
+[FETCHED_AT] 2026-05-07T23:37:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/testing.md
+[LINE_RANGE] 53-53
+[QUOTE]
+"[](/wp-content/uploads/2025/10/L_Carnitine_500_62518-694x1024-1.webp#388)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 9-16
+[QUOTE]
+"  * [Home __](https://us.injectify.is/)
+  * [ Shop __](https://us.injectify.is/shop/)
+  * [ FAQ __](https://us.injectify.is/faq/)
+  * [ Testing __](https://us.injectify.is/testing/)
+  * [ Contact __](https://us.injectify.is/contact/)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.finnrick.com/vendors/injectify
+[FETCHED_AT] 2026-05-07T23:38:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/injectify/social_1.md
+[LINE_RANGE] 10-25
+[QUOTE]
+"Overall Rating: A (Great)
+
+Testing Overview:
+- 29 total samples tested across 6 products
+- Testing period: April 22, 2025 to September 5, 2025
+- Average score: 7.3 (range: 2.0-10.0)"
+[/QUOTE]
+
+[CLAIM] skus[0].list_price_usd, skus[0].sale_price_usd
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 63-65
+[QUOTE]
+"#### [IGF-1 DES](https://us.injectify.is/product/igf-1-des/)
+
+~~$ 70.00~~ Original price was: $70.00.$44.99Current price is: $44.99."
+[/QUOTE]
+
+[CLAIM] skus[1].list_price_usd, skus[1].sale_price_usd
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 73-75
+[QUOTE]
+"#### [Kisspeptin](https://us.injectify.is/product/kisspeptin/)
+
+~~$ 90.00~~ Original price was: $90.00.$48.99Current price is: $48.99."
+[/QUOTE]
+
+[CLAIM] skus[2].list_price_usd, skus[2].sale_price_usd
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 83-86
+[QUOTE]
+"#### [5 x BPC-157 + 5 x TB500 – Bulk 10 Vials Bundle](https://us.injectify.is/product/bpc-157-tb500-10x-bundle/)
+
+~~$ 800.00~~ Original price was: $800.00.$449.99Current price is: $449.99."
+[/QUOTE]
+
+[CLAIM] skus[3].list_price_usd, skus[3].sale_price_usd
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 93-95
+[QUOTE]
+"#### [Thymosin Alpha-1](https://us.injectify.is/product/thymosin-alpha-1/)
+
+~~$ 135.00~~ Original price was: $135.00.$81.99Current price is: $81.99."
+[/QUOTE]
+
+[CLAIM] skus[4].list_price_usd, skus[4].sale_price_usd
+[URL] https://us.injectify.is/
+[FETCHED_AT] 2026-05-07T23:36:28Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/injectify/homepage.md
+[LINE_RANGE] 103-105
+[QUOTE]
+"#### [CJC-1295 without DAC](https://us.injectify.is/product/cjc-1295-without-dac/)
+
+~~$ 98.00~~ Original price was: $98.00.$61.99Current price is: $61.99."
+[/QUOTE]

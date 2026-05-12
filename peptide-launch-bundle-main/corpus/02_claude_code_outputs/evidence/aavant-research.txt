@@ -1,0 +1,179 @@
+# Evidence File: aavant-research
+# Generated: 2026-05-07T17:03:30Z
+# fetch_status: failed — primary domain aavantresearch.com DNS NXDOMAIN, no archive.org snapshots
+
+[CLAIM] social_proof.off_site_aggregators — Finnrick Analytics vendor rating A (GREAT), 17 samples, 2 products
+[URL] https://www.finnrick.com/vendors/aavant-research
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aavant-research/finnrick_vendor_profile.md
+[LINE_RANGE] 1-40
+[QUOTE]
+"Aavant Research
+
+Finnrick has tested 17 samples from Aavant Research across 2 products."
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators — Finnrick A (GREAT) overall vendor rating, score range
+[URL] https://www.finnrick.com/vendors/aavant-research
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aavant-research/finnrick_vendor_profile.md
+[LINE_RANGE] 50-75
+[QUOTE]
+"A
+
+Aavant Research
+
+Tracking 2 products
+
+17 total samples tested
+
+Last test 28 Apr 2026"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators — Finnrick test score stats for Aavant Research
+[URL] https://www.finnrick.com/vendors/aavant-research
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aavant-research/finnrick_vendor_profile.md
+[LINE_RANGE] 80-100
+[QUOTE]
+"Scores
+
+AVG8.5MIN6.2MAX10.0
+
+First
+
+11 Aug 2025
+
+Last
+
+28 Apr 2026"
+[/QUOTE]
+
+[CLAIM] skus — Tirzepatide product Finnrick A (GREAT) rating, 10 samples
+[URL] https://www.finnrick.com/products/tirzepatide/aavant-research
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aavant-research/finnrick_tirzepatide.md
+[LINE_RANGE] 14-14
+[QUOTE]
+"Finnrick tested 10 samples of Tirzepatide (GLP-1 and GIP agonist) from [Aavant Research](/vendors/aavant-research) between 24 Oct 2025 and 28 Apr 2026. Test scores average over 7, no score below 6, and at least 6 tests warrant a confident Finnrick Rating of A (Great)."
+[/QUOTE]
+
+[CLAIM] skus — Tirzepatide vial sizes observed: 30mg, 15mg, 50mg, 60mg, 25mg (~29.93mg)
+[URL] https://www.finnrick.com/products/tirzepatide/aavant-research
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aavant-research/finnrick_tirzepatide.md
+[LINE_RANGE] 40-80
+[QUOTE]
+"28 Apr 2026| [View](/testing-certificate/tirzepatide/aavant-research/20260428-e-ytznzxb)| 8.3| 30mg| (no batch claim)| 33.2mg| +10.7%| 99.90%| below LOQ| 967284-000012
+25 Mar 2026| [View](/testing-certificate/tirzepatide/aavant-research/20260325-g-dtnhcxe)| 6.8| 15mg| (no batch claim)| 17.7mg| +18.0%| 99.70%
+7 Jan 2026| [View](/testing-certificate/tirzepatide/aavant-research/20260107-g-92s636f)| 9.8| 60mg| (no batch claim)| 61.6mg| +2.7%| 99.80%
+30 Oct 2025| [View](/testing-certificate/tirzepatide/aavant-research/20251030-g-5fwtbfs)| 8.5| 50mg| 53.2mgpackage| 57.02mg| +7.1%| 99.80%"
+[/QUOTE]
+
+[CLAIM] skus — Tirzepatide Finnrick score stats
+[URL] https://www.finnrick.com/products/tirzepatide/aavant-research
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aavant-research/finnrick_tirzepatide.md
+[LINE_RANGE] 30-45
+[QUOTE]
+"Tests Count
+
+10
+
+Scores
+
+AVG8.6MIN6.8MAX10.0
+
+Last
+
+28 Apr 2026
+
+First
+
+24 Oct 2025"
+[/QUOTE]
+
+[CLAIM] skus — Retatrutide product Finnrick A (GREAT) rating, 7 samples
+[URL] https://www.finnrick.com/products/retatrutide/aavant-research
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aavant-research/finnrick_retatrutide.md
+[LINE_RANGE] 14-14
+[QUOTE]
+"Finnrick tested 7 samples of Retatrutide (GLP-1, GIP, and GCGR agonist) from [Aavant Research](/vendors/aavant-research) between 11 Aug 2025 and 3 Mar 2026. Test scores average over 7, no score below 6, and at least 6 tests warrant a confident Finnrick Rating of A (Great)."
+[/QUOTE]
+
+[CLAIM] skus — Retatrutide vial sizes observed: 11mg, 12mg, 24mg
+[URL] https://www.finnrick.com/products/retatrutide/aavant-research
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aavant-research/finnrick_retatrutide.md
+[LINE_RANGE] 40-75
+[QUOTE]
+"3 Mar 2026| [View](/testing-certificate/retatrutide/aavant-research/20260303-e-xjk7bfn)| 9.4| 24mg| 25.7mgpackage| 24.9mg| -3.3%| 99.86%| 967285-000006
+11 Feb 2026| [View](/testing-certificate/retatrutide/aavant-research/20260211-e-cm98f5t)| 8.1| 12mg| (no batch claim)| 13.4mg| +11.7%| 99.90%| 967286-000004
+11 Aug 2025| [View](/testing-certificate/retatrutide/aavant-research/20250811-e-khzrzmr)| 7.8| 11mg| (no batch claim)| 12.5mg| +13.6%| 99.94%| 967286-000001"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency — explicit batch IDs on tested vials confirm batch tracking exists
+[URL] https://www.finnrick.com/vendors/aavant-research
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aavant-research/finnrick_vendor_profile.md
+[LINE_RANGE] 95-120
+[QUOTE]
+"28 Apr 2026| Tirzepatide| [View](/testing-certificate/tirzepatide/aavant-research/20260428-e-ytznzxb)| 8.3| 30mg| (no batch claim)| 33.2mg| +10.7%| 99.90%| below LOQ| 967284-000012| No Label / Silver Crimp / Gray Cap
+3 Mar 2026| Retatrutide| [View](/testing-certificate/retatrutide/aavant-research/20260303-e-xjk7bfn)| 9.4| 24mg| 25.7mgpackage| 24.9mg| -3.3%| 99.86%| n/a| 967285-000006| No Label / Silver Crimp / Red Cap"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators — Finnrick ranking: Aavant Research #2 for Tirzepatide among all Finnrick-ranked vendors
+[URL] https://www.peppal.app/blog/best-grey-market-peptide-supplier
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aavant-research/peppal_vendor_comparison.md
+[LINE_RANGE] 1-50
+[QUOTE]
+"1| Orbitrex Peptides| A (GREAT)
+2| Polaris Peptides| A (GREAT)
+3| Aavant Research| A (GREAT)
+4| Shanghai JinBei Chemical| A (GREAT)
+5| Zhengzhou Lanyun| A (GREAT)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators — PepPal confirms Aavant Research leads for Tirzepatide per Finnrick
+[URL] https://www.peppal.app/blog/best-grey-market-peptide-supplier
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aavant-research/peppal_vendor_comparison.md
+[LINE_RANGE] 200-220
+[QUOTE]
+"For tirzepatide, Polaris Peptides and Aavant Research lead."
+[/QUOTE]
+
+[CLAIM] fetch_status — primary domain DNS failure documented
+[INFERENCE] fetch_status: failed
+[REASONING]
+DNS resolution for aavantresearch.com returned NXDOMAIN on 2026-05-07. No Wayback Machine snapshots exist (CDX API returned empty array for all time ranges). gstack:browse could not run due to WSL2 sandbox constraints. Three-attempt rule exhausted per §8.1.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://aavantresearch.com
+[FETCHED_AT] 2026-05-07T17:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/aavant-research/homepage.md
+[LINE_RANGE] 1-1
+"(fetch failed - DNS NXDOMAIN, no archive.org snapshots)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.finnrick.com/vendors/aavant-research
+[FETCHED_AT] 2026-05-07T17:03:30Z
+[RAW_ARTIFACT] 03_raw_fetches/aavant-research/finnrick_vendor_profile.md
+[LINE_RANGE] 1-10
+"Aavant Research
+
+Finnrick has tested 17 samples from Aavant Research across 2 products."
+[/SUPPORT_QUOTE]

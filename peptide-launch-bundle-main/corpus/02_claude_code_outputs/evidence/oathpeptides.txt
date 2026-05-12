@@ -1,0 +1,1306 @@
+[CLAIM] primary_domain
+[URL] https://oathpeptide.com/
+[FETCHED_AT] 2026-05-07T02:18:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+Oath Peptides Is Now Oath Research!
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://oathresearch.com/about/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/about.md
+[LINE_RANGE] 65-65
+[QUOTE]
+51 West Vaughn Avenue Suite 205 Gilbert Arizona 85233
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://oathresearch.com/about/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/about.md
+[LINE_RANGE] 65-65
+[QUOTE]
+51 West Vaughn Avenue Suite 205 Gilbert Arizona 85233
+[/QUOTE]
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 66-66
+[QUOTE]
+Ships from Gilbert Arizona
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://oathresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/tos.md
+[LINE_RANGE] 73-73
+[QUOTE]
+Free shipping is available on orders over $250 within the United States. We do not ship internationally at this time.
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://oathpeptide.com/
+[FETCHED_AT] 2026-05-07T02:18:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/homepage.md
+[LINE_RANGE] 217-220
+[QUOTE]
+## The Purest  
+Peptides. Period.
+
+US-manufactured research compounds, independently verified by a third-party US laboratory.
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://oathpeptide.com/
+[FETCHED_AT] 2026-05-07T02:18:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/homepage.md
+[LINE_RANGE] 56-56
+[QUOTE]
+[Shop Now](https://oathresearch.com/shop/)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://oathpeptide.com/
+[FETCHED_AT] 2026-05-07T02:18:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/homepage.md
+[LINE_RANGE] 20-30
+[QUOTE]
+  *   * [Home](https://oathresearch.com/)
+  * [Shop](https://oathresearch.com/shop/)
+  * [COA’s](https://oathresearch.com/lab-results-certificates/)
+  * [About](https://oathresearch.com/about/)
+
+    * [About Us](https://oathresearch.com/about/)
+    * [Contact Us](https://oathresearch.com/contact-us/)
+    * [Lab Results](https://oathresearch.com/lab-results-certificates/)
+    * [FAQ](https://oathresearch.com/faq/)
+
+  * [My account](https://oathresearch.com/my-account/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://oathpeptide.com/
+[FETCHED_AT] 2026-05-07T02:18:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/homepage.md
+[LINE_RANGE] 176-180
+[QUOTE]
+© 2026 Oath Peptides
+
+The statements on this website have not been evaluated by the U.S. Food and Drug Administration. The products and information provided by Oath Research are not intended to diagnose, treat, cure, or prevent any disease. Oath Research is a research chemical supplier. We are not a compounding pharmacy or compounding facility as defined under Section 503A of the Federal Food, Drug, and Cosmetic Act, nor are we an outsourcing facility as defined under Section 503B.
+
+All products are sold for research, laboratory, or analytical purposes only, and are not for human consumption
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The on-page text positions the brand around clinical-research signals (lab-tested COAs, third-party verification, USA manufacture in a Gilbert AZ clean-room suite, ISO-certified protocols, HPLC + mass spectrometry) rather than lifestyle, meme-coded, or community/influencer aesthetics. Product imagery references in the rendered text are minimal single-shot product photography (e.g., wp-content/uploads/.../B157-3-scaled.png) without lifestyle/influencer staging, and the homepage hero copy emphasizes verifiability ("independently verified by a third-party US laboratory") not aspirational/transformation framing. Categorized as clinical per the schema's enum on the strength of these signals.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://oathpeptide.com/
+[FETCHED_AT] 2026-05-07T02:18:47Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/homepage.md
+[LINE_RANGE] 217-220
+"## The Purest  
+Peptides. Period.
+
+US-manufactured research compounds, independently verified by a third-party US laboratory."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://oathresearch.com/about/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/about.md
+[LINE_RANGE] 54-54
+"From a small clean-room suite in Gilbert, Arizona, Oath Peptides began with one non-negotiable pledge: every peptide must meet the highest benchmark of purity—then prove it through USA-based verification. We source pharma-grade amino acids, synthesize under ISO-certified protocols, and validate each lot using orthogonal analytical HPLC paired with mass spectrometry to confirm both purity and molecular identity. Independent U.S. laboratories also verify the actual fill amount, ensuring that every vial contains the stated milligram quantity or more."
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://oathresearch.com/shop/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/catalog_1.md
+[LINE_RANGE] 60-310
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/oathpeptides/catalog_1.md: 26 distinct ### product titles enumerated (full list mirrored 1:1 by saved product_NN__*.md artifacts in the same fetch directory).
+[FILES]
+product_01__bpc-157.md
+product_02__tb-500.md
+product_03__ghk-cu.md
+product_04__thymosin-alpha-1.md
+product_05__mots-c.md
+product_06__ipamorelin.md
+product_07__cjc-1295.md
+product_08__epithalon.md
+product_09__selank.md
+product_10__semax.md
+product_11__gh-fragment-176-191.md
+product_12__aod9604.md
+product_13__nad.md
+product_14__kpv.md
+product_15__dsip.md
+product_16__glp1-s.md
+product_17__glp3-r.md
+product_18__melanotan-2.md
+product_19__kisspeptin-10.md
+product_20__thymulin.md
+product_21__research-water.md
+product_22__cjc-1295-ipamorelin-blend.md
+product_23__bpc-tb-blend.md
+product_24__bpc-ghk-tb-500-blend.md
+product_25__bpc-ghk-tb-500-kpv-blend.md
+product_26__tesamorelin-ipamorelin.md
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 265-265
+[QUOTE]
+SKU: OATH-BPC-157 Categories: [Peptides](https://oathresearch.com/product-category/peptides/), [Research](https://oathresearch.com/product-category/research/) Tags: [Research Chemical](https://oathresearch.com/product-tag/research-chemical/), [showcase](https://oathresearch.com/product-tag/showcase/)
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://oathresearch.com/shop/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/catalog_1.md
+[LINE_RANGE] 319-327
+[QUOTE]
+  * __Filter
+
+
+
+  * ### Sort By
+
+  * ### Tags
+
+[Research Chemical](https://oathresearch.com/product-tag/research-chemical/) [showcase](https://oathresearch.com/product-tag/showcase/)
+[/QUOTE]
+[URL] https://oathpeptide.com/
+[FETCHED_AT] 2026-05-07T02:18:47Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/homepage.md
+[LINE_RANGE] 43-43
+[QUOTE]
+press _Enter_ to search Search results: No products found.
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://oathresearch.com/shop/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/catalog_1.md
+[LINE_RANGE] 60-80
+[QUOTE]
+### [“GLOW” – BPC-157/TB-500/GHK-Cu](https://oathresearch.com/product/bpc-ghk-tb-500-blend/)
+[/QUOTE]
+[URL] https://oathresearch.com/product/bpc-ghk-tb-500-kpv-blend/
+[FETCHED_AT] 2026-05-07T02:36:00Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_25__bpc-ghk-tb-500-kpv-blend.md
+[LINE_RANGE] 56-56
+[QUOTE]
+KLOW is a four-peptide research blend totaling 80mg of lyophilized powder. It contains BPC-157 (10mg), a 15-amino-acid synthetic peptide derived from a sequence found in human gastric juice protein; TB-500 (10mg), a 43-amino-acid fragment of the naturally occurring protein thymosin beta-4; GHK-Cu (50mg), a copper-bound tripeptide first isolated from human blood plasma in 1973; and KPV (10mg), a three-amino-acid fragment from the C-terminal region of alpha-melanocyte-stimulating hormone.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 1-2
+[QUOTE]
+---
+url: https://oathresearch.com/product/bpc-157/
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 54-54
+[QUOTE]
+#  BPC-157
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 174-179
+[QUOTE]
+Size |  Size5mg10mg
+
+  * 5mg
+  * 10mg
+
+Clear
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$40.00 – $65.00Price range: $40.00 through $65.00
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.per_mg_cost
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$40.00 – $65.00Price range: $40.00 through $65.00
+[/QUOTE]
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 70-100
+[QUOTE]
+**Buy 1**
+
+$40.00
+
+Total: 
+
+$40.00
+
+10% off 
+
+**Buy 3 and save 10%**
+
+~~ $40.00 ~~
+
+$36.00
+
+Total: 
+
+15% off 
+
+**Buy 6 and save 15%**
+
+~~ $40.00 ~~
+
+$34.00
+
+Total: 
+
+20% off 
+
+**Buy 12+ and save 20%**
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 52-52
+[QUOTE]
+[](https://oathresearch.com/wp-content/uploads/2025/08/B157-3-scaled.png)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 58-58
+[QUOTE]
+BPC-157 is a synthetic pentadecapeptide — a chain of 15 amino acids — with the sequence Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val. It has a molecular weight of 1,419.53 g/mol and the molecular formula C62H98N16O22.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 234-234
+[QUOTE]
+This product is strictly for research purposes only. Not approved for human or animal use.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 208-226
+[QUOTE]
+### Certificate of Analysis
+
+Independent laboratory testing confirms purity and composition of this research peptide.
+
+Endo Passed
+
+99.420%
+
+Purity
+
+B1326025
+
+Batch
+
+April 2026
+
+Date
+
+[View Certificate →](https://oathresearch.com/lab-results/bpc-157-batch-2604130363/)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://oathresearch.com/lab-results-certificates/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/coa_index.md
+[LINE_RANGE] 74-74
+[QUOTE]
+### [GLP3-R CAS: 2381089-83-2 99.81% · Endo Passed 5 · 10 · 12 · 20 · 24 mg tested 20 tests · Latest Apr 2026 View → ](https://oathresearch.com/lab-results/glp3-r-batch-2604290122/)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://oathresearch.com/lab-results-certificates/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/coa_index.md
+[LINE_RANGE] 70-72
+[QUOTE]
+[Freedom Diagnostics](https://www.freedomdiagnosticstesting.com/)
+
+Laboratory Partner
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 218-218
+[QUOTE]
+B1326025
+[/QUOTE]
+[URL] https://oathresearch.com/lab-results-certificates/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/coa_index.md
+[LINE_RANGE] 58-60
+[QUOTE]
+141
+
+Batches Tested
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[INFERENCE] false
+[REASONING]
+Across all 26 fetched product pages and the homepage and shop catalog, no on-site customer review/rating widget rendered in the curl-rendered text — there are no star-rating glyphs, no "X reviews" counts, no review-form input, no third-party review widget element (Yotpo, Stamped, Judge.me, Loox), and no testimonial section. The only visible review-style structure is the on-page Certificate of Analysis (third-party lab test result), not customer feedback.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 264-267
+"SKU: OATH-BPC-157 Categories: [Peptides](https://oathresearch.com/product-category/peptides/), [Research](https://oathresearch.com/product-category/research/) Tags: [Research Chemical](https://oathresearch.com/product-tag/research-chemical/), [showcase](https://oathresearch.com/product-tag/showcase/)
+
+## Related products"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://oathresearch.com/product/glp1-s/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_16__glp1-s.md
+[LINE_RANGE] 312-312
+"SKU: OATH-SEMAGLUTIDE Categories: [Peptides](https://oathresearch.com/product-category/peptides/), [Research](https://oathresearch.com/product-category/research/) Tag: [Research Chemical](https://oathresearch.com/product-tag/research-chemical/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 267-267
+[QUOTE]
+## Related products
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://oathpeptide.com/
+[FETCHED_AT] 2026-05-07T02:18:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/homepage.md
+[LINE_RANGE] 180-180
+[QUOTE]
+All products are sold for research, laboratory, or analytical purposes only, and are not for human consumption
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+The homepage, shop, product, TOS, FAQ, privacy, and about pages were all fetched without an interstitial age verification gate; no "Are you 21?" / "I confirm I am over X" modal blocked any fetch. Age requirement is asserted only via TOS §1 ("at least 21 years of age") and FAQ ("at least 18 years of age" — discrepancy noted) which the buyer is told to read but is not gated by an enforced UI checkpoint. The on-page account-creation widget includes a researcher-attestation checkbox but is not a blocking age-gate (account-creation is optional; full catalog browsable without account).
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://oathresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/tos.md
+[LINE_RANGE] 57-57
+"Our Products are intended exclusively for laboratory research purposes. By purchasing our Products, you represent and warrant that you are a qualified and trained professional affiliated with a laboratory, university, or other research institution. You must be at least 21 years of age to purchase our Products."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://oathpeptide.com/
+[FETCHED_AT] 2026-05-07T02:18:47Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/homepage.md
+[LINE_RANGE] 269-269
+"I confirm that I am a qualified researcher or institutional professional, that all products purchased are strictly for lawful Research Use Only (not for human or animal use, clinical, diagnostic, or therapeutic purposes), and that I accept full responsibility for compliance with all applicable laws and regulations."
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://oathresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/tos.md
+[LINE_RANGE] 73-73
+[QUOTE]
+Free shipping is available on orders over $250 within the United States. We do not ship internationally at this time.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://oathresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/tos.md
+[LINE_RANGE] 1-5
+[QUOTE]
+---
+url: https://oathresearch.com/terms-conditions/
+fetched_at: 2026-05-07T02:21:56Z
+fetch_method: curl
+http_status: 200
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://oathresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/tos.md
+[LINE_RANGE] 51-83
+[QUOTE]
+Effective Date: May 1, 2026**
+
+These Terms and Conditions of Sale (“Terms”) apply to all purchases of products, including peptides and other chemical compounds (collectively, “Products”), from Oath Research (“we,” “us,” or “our”). By placing an order, you agree to be bound by these Terms.
+
+**1\. Intended Use and Purchaser Qualifications**
+
+Our Products are intended exclusively for laboratory research purposes. By purchasing our Products, you represent and warrant that you are a qualified and trained professional affiliated with a laboratory, university, or other research institution. You must be at least 21 years of age to purchase our Products.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://oathresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/tos.md
+[LINE_RANGE] 83-117
+[QUOTE]
+**5\. Returns and Refunds**
+
+Due to the nature of our research products, we cannot accept returns of opened or used items as they cannot be resold. However, we are committed to customer satisfaction and product quality.
+
+_We WILL provide refunds or replacements for:_
+
+  * Products that arrive damaged during shipping (photo evidence required within 48 hours)
+  * Incorrect items shipped (our error)
+  * Products that do not meet stated specifications or purity standards
+  * Orders that were not delivered despite tracking showing delivery
+  * Duplicate orders placed in error (if reported before shipment)
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://oathresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/tos.md
+[LINE_RANGE] 69-73
+[QUOTE]
+All orders ship via UPS 2-Day Air. Orders placed before 12:00 p.m. MST Monday through Friday ship the same business day. Orders placed after the cutoff or on weekends will ship the next business day.
+
+Orders to P.O. Boxes cannot be delivered by UPS and will be shipped via USPS Priority Mail instead. While USPS Priority Mail typically delivers within 2-3 business days, delivery times may vary and are not guaranteed by USPS. If you require guaranteed 2-day delivery, please provide a physical street address at checkout.
+
+Free shipping is available on orders over $250 within the United States. We do not ship internationally at this time.
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://oathresearch.com/shop/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/catalog_1.md
+[LINE_RANGE] 43-44
+[QUOTE]
+press _Enter_ to search Search results: No products found.
+[/QUOTE]
+[URL] https://oathresearch.com/cart/
+[FETCHED_AT] 2026-05-07T02:36:00Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/cart.md
+[LINE_RANGE] 51-53
+[QUOTE]
+## You may be interested in…
+
+## Your cart is currently empty!
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[INFERENCE] false
+[REASONING]
+TOS, FAQ, and Privacy Policy describe a researcher-attestation requirement (qualified-professional warranty) but no document upload, ID number capture, employer/institution verification, or KYC vendor (Veriff/Persona/Stripe Identity/etc.) is named anywhere in the public text. The on-page account-creation widget asks only for email + password + a self-attestation checkbox. The order-tracking page lookup form asks for "Order ID" and "Billing email" only. There is no observed file-upload or document-verify step in any fetched page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://oathpeptide.com/
+[FETCHED_AT] 2026-05-07T02:18:47Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/homepage.md
+[LINE_RANGE] 263-273
+"Let's create your account.
+
+Email
+
+Choose a password
+
+I confirm that I am a qualified researcher or institutional professional, that all products purchased are strictly for lawful Research Use Only (not for human or animal use, clinical, diagnostic, or therapeutic purposes), and that I accept full responsibility for compliance with all applicable laws and regulations.
+
+Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our [privacy policy](https://oathresearch.com/privacy-policy/).
+
+Create Account ← Use a different email"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://oathresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/tos.md
+[LINE_RANGE] 57-57
+"Our Products are intended exclusively for laboratory research purposes. By purchasing our Products, you represent and warrant that you are a qualified and trained professional affiliated with a laboratory, university, or other research institution. You must be at least 21 years of age to purchase our Products."
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://oathresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/tos.md
+[LINE_RANGE] 81-81
+[QUOTE]
+We accept major credit cards including Visa, Mastercard, and American Express. We also accept Zelle, Venmo, and direct bank payments for your convenience. All transactions use end-to-end encryption and our PCI-DSS compliant payment gateway for maximum security.
+[/QUOTE]
+[URL] https://oathresearch.com/faq/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/faq.md
+[LINE_RANGE] 76-76
+[QUOTE]
+A: We accept major credit cards including Visa, Mastercard, Discover and American Express. We also accept Venmo, and direct bank payments for your convenience. All transactions use end-to-end encryption and our PCI-DSS compliant payment gateway for maximum security.
+[/QUOTE]
+[URL] https://oathresearch.com/
+[FETCHED_AT] 2026-05-07T02:21:57Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/source_homepage.md
+[LINE_RANGE] 1345-1346
+[QUOTE]
+	<link rel='stylesheet' id='wc-authnet-blocks-checkout-style-css' href='https://oathresearch.com/wp-content/plugins/woo-authorize-net-gateway-aim/build/style-index.css?ver=e24aa2fa2b7649feaf7f' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-nmi-blocks-checkout-style-css' href='https://oathresearch.com/wp-content/plugins/wp-nmi-gateway-pci-woocommerce/build/style-index.css?ver=5795f08bbab2db45e886' type='text/css' media='all' />
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://oathresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/tos.md
+[LINE_RANGE] 69-71
+[QUOTE]
+All orders ship via UPS 2-Day Air. Orders placed before 12:00 p.m. MST Monday through Friday ship the same business day. Orders placed after the cutoff or on weekends will ship the next business day.
+
+Orders to P.O. Boxes cannot be delivered by UPS and will be shipped via USPS Priority Mail instead. While USPS Priority Mail typically delivers within 2-3 business days, delivery times may vary and are not guaranteed by USPS. If you require guaranteed 2-day delivery, please provide a physical street address at checkout.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://oathresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/tos.md
+[LINE_RANGE] 73-73
+[QUOTE]
+Free shipping is available on orders over $250 within the United States. We do not ship internationally at this time.
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://oathresearch.com/faq/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/faq.md
+[LINE_RANGE] 56-58
+[QUOTE]
+Q: Do you ship internationally?  
+A: Currently, we only ship within the United States.
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://oathresearch.com/
+[FETCHED_AT] 2026-05-07T02:21:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/source_homepage.md
+[LINE_RANGE] 460-460
+[QUOTE]
+<link rel='stylesheet' id='normalize-css' href='https://oathresearch.com/wp-content/themes/savoy/assets/css/third-party/normalize.min.css?ver=3.0.2' type='text/css' media='all' />
+[/QUOTE]
+[URL] https://oathresearch.com/
+[FETCHED_AT] 2026-05-07T02:21:57Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/source_homepage.md
+[LINE_RANGE] 558-558
+[QUOTE]
+	<meta name="generator" content="Elementor 4.0.7; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+[/QUOTE]
+[URL] https://oathresearch.com/
+[FETCHED_AT] 2026-05-07T02:21:57Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/source_homepage.md
+[LINE_RANGE] 60-60
+[QUOTE]
+<link rel='stylesheet' id='cfw-blocks-styles-css' href='https://oathresearch.com/wp-content/plugins/checkout-for-woocommerce/build/css/blocks-styles.css?ver=a1d32077b0abb8a3a7f2a2a546cab77c' type='text/css' media='all' />
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://oathresearch.com/
+[FETCHED_AT] 2026-05-07T02:21:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/source_homepage.md
+[LINE_RANGE] 13-19
+[QUOTE]
+server: cloudflare
+vary: Accept-Encoding
+set-cookie: flm_campaign=0; expires=Thu, 21 May 2026 02:20:33 GMT; Max-Age=1209600; path=/; secure; HttpOnly; SameSite=Lax
+set-cookie: flm_variant=oathgate; expires=Thu, 21 May 2026 02:20:33 GMT; Max-Age=1209600; path=/; secure; HttpOnly; SameSite=Lax
+set-cookie: flm_redirect_to=https%3A%2F%2Foathresearch.com%2F; expires=Thu, 07 May 2026 03:20:33 GMT; Max-Age=3600; path=/; secure; HttpOnly; SameSite=Lax
+cf-cache-status: DYNAMIC
+cf-ray: 9f7cbf044acc7ad2-IAD
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://oathresearch.com/
+[FETCHED_AT] 2026-05-07T02:21:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/source_homepage.md
+[LINE_RANGE] 494-494
+[QUOTE]
+					gtag("config", "G-0SF7GPCSPR", {"track_404":true,"allow_google_signals":true,"logged_in":false,"linker":{"domains":[],"allow_incoming":true},"custom_map":{"dimension1":"logged_in"}});
+[/QUOTE]
+[URL] https://oathresearch.com/
+[FETCHED_AT] 2026-05-07T02:21:57Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/source_homepage.md
+[LINE_RANGE] 1362-1362
+[QUOTE]
+gtag("config", "AW-17542894622", { "groups": "GLA", "send_page_view": false });
+[/QUOTE]
+[URL] https://oathresearch.com/
+[FETCHED_AT] 2026-05-07T02:21:57Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/source_homepage.md
+[LINE_RANGE] 1374-1374
+[QUOTE]
+<script type="text/javascript" src="https://oathresearch.com/wp-content/plugins/oath-fluentcrm-tracking/js/oath-event-tracker.js?ver=1.0.7" id="oath-event-tracker-js"></script>
+[/QUOTE]
+[URL] https://oathresearch.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/privacy.md
+[LINE_RANGE] 117-117
+[QUOTE]
+  * Email and SMS marketing platforms (Klaviyo) for campaign delivery and automation
+[/QUOTE]
+[URL] https://oathresearch.com/
+[FETCHED_AT] 2026-05-07T02:21:57Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/source_homepage.md
+[LINE_RANGE] 454-454
+[QUOTE]
+<link rel='stylesheet' id='pmw-public-elementor-fix-css' href='https://oathresearch.com/wp-content/plugins/woocommerce-pixel-manager/css/public/elementor-fix.css?ver=1.58.9' type='text/css' media='all' />
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://oathresearch.com/
+[FETCHED_AT] 2026-05-07T02:21:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/source_homepage.md
+[LINE_RANGE] 1362-1362
+[QUOTE]
+gtag("config", "AW-17542894622", { "groups": "GLA", "send_page_view": false });
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] false
+[REASONING]
+The 200KB homepage source slice and the product-page source slice were searched (case-insensitive) for the established chat-widget script signatures: intercom.io, drift.com, crisp.chat, crisp.im, tawk.to, gorgias.chat, tidio.co, zendesk.com, hubspot chat. None were found. The single "crisp" lowercase hit on the homepage was a CSS box-shadow preset name (--wp--preset--shadow--crisp), not the Crisp Chat widget. The homepage promises "Get Support Anytime — Chat with a team member any time you need" but this resolves to email/contact-form support per the contact page (Wayback snapshot) and TOS marketing-communications section, not an embedded live-chat widget.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://oathpeptide.com/
+[FETCHED_AT] 2026-05-07T02:18:47Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/homepage.md
+[LINE_RANGE] 72-74
+"## Get Support Anytime
+
+Chat with a team member any time you need."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/2025/https://oathpeptides.com/contact/
+[FETCHED_AT] 2026-05-07T02:33:00Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/contact.md
+[LINE_RANGE] 51-54
+"## Get in Touch
+
+Telephone: +1 480-999-1097  
+Fax: +1 480-999-1097"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://oathpeptide.com/
+[FETCHED_AT] 2026-05-07T02:18:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/homepage.md
+[LINE_RANGE] 20-30
+[QUOTE]
+  *   * [Home](https://oathresearch.com/)
+  * [Shop](https://oathresearch.com/shop/)
+  * [COA’s](https://oathresearch.com/lab-results-certificates/)
+  * [About](https://oathresearch.com/about/)
+
+    * [About Us](https://oathresearch.com/about/)
+    * [Contact Us](https://oathresearch.com/contact-us/)
+    * [Lab Results](https://oathresearch.com/lab-results-certificates/)
+    * [FAQ](https://oathresearch.com/faq/)
+
+  * [My account](https://oathresearch.com/my-account/)
+[/QUOTE]
+[URL] https://web.archive.org/web/2025/https://oathpeptides.com/contact/
+[FETCHED_AT] 2026-05-07T02:33:00Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/contact.md
+[LINE_RANGE] 14-19
+[QUOTE]
+  * [Home](https://web.archive.org/web/20260101092347/https://oathpeptides.com/)
+  * [Shop](https://web.archive.org/web/20260101092347/https://oathpeptides.com/shop/)
+  * [Gift Cards](https://web.archive.org/web/20260101092347/https://oathpeptides.com/product/oath-gift-cards/)
+  * [About](https://web.archive.org/web/20260101092347/https://oathpeptides.com/about/)
+
+    * [About Us](https://web.archive.org/web/20260101092347/https://oathpeptides.com/about/)
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://oathpeptide.com/
+[FETCHED_AT] 2026-05-07T02:18:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/homepage.md
+[LINE_RANGE] 20-30
+[QUOTE]
+  *   * [Home](https://oathresearch.com/)
+  * [Shop](https://oathresearch.com/shop/)
+  * [COA’s](https://oathresearch.com/lab-results-certificates/)
+  * [About](https://oathresearch.com/about/)
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://oathresearch.com/lab-results-certificates/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/coa_index.md
+[LINE_RANGE] 74-74
+[QUOTE]
+### [GLP3-R CAS: 2381089-83-2 99.81% · Endo Passed 5 · 10 · 12 · 20 · 24 mg tested 20 tests · Latest Apr 2026 View → ](https://oathresearch.com/lab-results/glp3-r-batch-2604290122/)
+[/QUOTE]
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 226-226
+[QUOTE]
+[View Certificate →](https://oathresearch.com/lab-results/bpc-157-batch-2604130363/)
+[/QUOTE]
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 267-267
+[QUOTE]
+## Related products
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[INFERENCE] false
+[REASONING]
+None of the 26 fetched product pages, the homepage, or the shop catalog rendered a customer-review module / star-rating widget / "X reviews" indicator / review-form input / third-party review-vendor markup (Yotpo, Stamped, Judge.me, Loox). The only on-page review-style content is third-party laboratory Certificate of Analysis data — not customer testimonial. This is consistent across all sampled product pages.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 263-267
+"SKU: OATH-BPC-157 Categories: [Peptides](https://oathresearch.com/product-category/peptides/), [Research](https://oathresearch.com/product-category/research/) Tags: [Research Chemical](https://oathresearch.com/product-tag/research-chemical/), [showcase](https://oathresearch.com/product-tag/showcase/)
+
+## Related products"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://oathresearch.com/product/glp3-r/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_17__glp3-r.md
+[LINE_RANGE] 315-315
+"SKU: OATH-RETATRUTIDE Categories: [Peptides](https://oathresearch.com/product-category/peptides/), [Research](https://oathresearch.com/product-category/research/) Tag: [Research Chemical](https://oathresearch.com/product-tag/research-chemical/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://oathresearch.com/lab-results-certificates/
+[FETCHED_AT] 2026-05-07T02:24:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/coa_index.md
+[LINE_RANGE] 58-72
+[QUOTE]
+141
+
+Batches Tested
+
+99.61%
+
+Average Purity
+
+USP <85>
+
+Endotoxin Standard
+
+[Freedom Diagnostics](https://www.freedomdiagnosticstesting.com/)
+
+Laboratory Partner
+[/QUOTE]
+
+[CLAIM] claim-sku-bpc157-5mg
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 56-265
+[QUOTE]
+$40.00 – $65.00Price range: $40.00 through $65.00
+[/QUOTE]
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 265-265
+[QUOTE]
+SKU: OATH-BPC-157 Categories: [Peptides](https://oathresearch.com/product-category/peptides/), [Research](https://oathresearch.com/product-category/research/) Tags: [Research Chemical](https://oathresearch.com/product-tag/research-chemical/), [showcase](https://oathresearch.com/product-tag/showcase/)
+[/QUOTE]
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 174-179
+[QUOTE]
+Size |  Size5mg10mg
+
+  * 5mg
+  * 10mg
+
+Clear
+[/QUOTE]
+
+[CLAIM] claim-sku-bpc157-10mg
+[URL] https://oathresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_01__bpc-157.md
+[LINE_RANGE] 148-148
+[QUOTE]
+$65.00
+[/QUOTE]
+
+[CLAIM] claim-sku-tb500-5mg
+[URL] https://oathresearch.com/product/tb-500/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_02__tb-500.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$60.00 – $90.00Price range: $60.00 through $90.00
+[/QUOTE]
+
+[CLAIM] claim-sku-tb500-10mg
+[URL] https://oathresearch.com/product/tb-500/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_02__tb-500.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$60.00 – $90.00Price range: $60.00 through $90.00
+[/QUOTE]
+
+[CLAIM] claim-sku-ghkcu-50mg
+[URL] https://oathresearch.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_03__ghk-cu.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$50.00 – $110.00Price range: $50.00 through $110.00
+[/QUOTE]
+
+[CLAIM] claim-sku-ghkcu-100mg
+[URL] https://oathresearch.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_03__ghk-cu.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$50.00 – $110.00Price range: $50.00 through $110.00
+[/QUOTE]
+
+[CLAIM] claim-sku-thymosin-5mg
+[URL] https://oathresearch.com/product/thymosin-alpha-1/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_04__thymosin-alpha-1.md
+[LINE_RANGE] 275-275
+[QUOTE]
+SKU: OATH-THYMOSIN-ALPHA-1 Categories: [Peptides](https://oathresearch.com/product-category/peptides/), [Research](https://oathresearch.com/product-category/research/) Tag: [Research Chemical](https://oathresearch.com/product-tag/research-chemical/)
+[/QUOTE]
+
+[CLAIM] claim-sku-thymosin-10mg
+[URL] https://oathresearch.com/product/thymosin-alpha-1/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_04__thymosin-alpha-1.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$90.00 – $130.00Price range: $90.00 through $130.00
+[/QUOTE]
+
+[CLAIM] claim-sku-motsc-10mg
+[URL] https://oathresearch.com/product/mots-c/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_05__mots-c.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$60.00 – $190.00Price range: $60.00 through $190.00
+[/QUOTE]
+
+[CLAIM] claim-sku-motsc-40mg
+[URL] https://oathresearch.com/product/mots-c/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_05__mots-c.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$60.00 – $190.00Price range: $60.00 through $190.00
+[/QUOTE]
+
+[CLAIM] claim-sku-ipa-5mg
+[URL] https://oathresearch.com/product/ipamorelin/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_06__ipamorelin.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$55.00 – $95.00Price range: $55.00 through $95.00
+[/QUOTE]
+
+[CLAIM] claim-sku-ipa-10mg
+[URL] https://oathresearch.com/product/ipamorelin/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_06__ipamorelin.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$55.00 – $95.00Price range: $55.00 through $95.00
+[/QUOTE]
+
+[CLAIM] claim-sku-cjc-5mg
+[URL] https://oathresearch.com/product/cjc-1295/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_07__cjc-1295.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$60.00 – $95.00Price range: $60.00 through $95.00
+[/QUOTE]
+
+[CLAIM] claim-sku-cjc-10mg
+[URL] https://oathresearch.com/product/cjc-1295/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_07__cjc-1295.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$60.00 – $95.00Price range: $60.00 through $95.00
+[/QUOTE]
+
+[CLAIM] claim-sku-epi-10mg
+[URL] https://oathresearch.com/product/epithalon/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_08__epithalon.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$45.00 – $140.00Price range: $45.00 through $140.00
+[/QUOTE]
+
+[CLAIM] claim-sku-epi-50mg
+[URL] https://oathresearch.com/product/epithalon/
+[FETCHED_AT] 2026-05-07T02:23:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_08__epithalon.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$45.00 – $140.00Price range: $45.00 through $140.00
+[/QUOTE]
+
+[CLAIM] claim-sku-selank-5mg
+[URL] https://oathresearch.com/product/selank/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_09__selank.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$45.00 – $65.00Price range: $45.00 through $65.00
+[/QUOTE]
+
+[CLAIM] claim-sku-selank-10mg
+[URL] https://oathresearch.com/product/selank/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_09__selank.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$45.00 – $65.00Price range: $45.00 through $65.00
+[/QUOTE]
+
+[CLAIM] claim-sku-semax-5mg
+[URL] https://oathresearch.com/product/semax/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_10__semax.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$45.00 – $65.00Price range: $45.00 through $65.00
+[/QUOTE]
+
+[CLAIM] claim-sku-semax-10mg
+[URL] https://oathresearch.com/product/semax/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_10__semax.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$45.00 – $65.00Price range: $45.00 through $65.00
+[/QUOTE]
+
+[CLAIM] claim-sku-frag176-5mg
+[URL] https://oathresearch.com/product/gh-fragment-176-191/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_11__gh-fragment-176-191.md
+[LINE_RANGE] 56-56
+[QUOTE]
+~~$ 99.99~~ Original price was: $99.99.$95.00Current price is: $95.00.
+[/QUOTE]
+
+[CLAIM] claim-sku-aod-5mg
+[URL] https://oathresearch.com/product/aod9604/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_12__aod9604.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$90.00 – $150.00Price range: $90.00 through $150.00
+[/QUOTE]
+
+[CLAIM] claim-sku-aod-10mg
+[URL] https://oathresearch.com/product/aod9604/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_12__aod9604.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$90.00 – $150.00Price range: $90.00 through $150.00
+[/QUOTE]
+
+[CLAIM] claim-sku-nad-multi
+[URL] https://oathresearch.com/product/nad/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_13__nad.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$40.00 – $125.00Price range: $40.00 through $125.00
+[/QUOTE]
+
+[CLAIM] claim-sku-kpv-10mg
+[URL] https://oathresearch.com/product/kpv/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_14__kpv.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$65.00
+[/QUOTE]
+
+[CLAIM] claim-sku-dsip-5mg
+[URL] https://oathresearch.com/product/dsip/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_15__dsip.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$55.00 – $90.00Price range: $55.00 through $90.00
+[/QUOTE]
+
+[CLAIM] claim-sku-dsip-10mg
+[URL] https://oathresearch.com/product/dsip/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_15__dsip.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$55.00 – $90.00Price range: $55.00 through $90.00
+[/QUOTE]
+
+[CLAIM] claim-sku-glp1s-multi
+[URL] https://oathresearch.com/product/glp1-s/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_16__glp1-s.md
+[LINE_RANGE] 312-312
+[QUOTE]
+SKU: OATH-SEMAGLUTIDE Categories: [Peptides](https://oathresearch.com/product-category/peptides/), [Research](https://oathresearch.com/product-category/research/) Tag: [Research Chemical](https://oathresearch.com/product-tag/research-chemical/)
+[/QUOTE]
+[URL] https://oathresearch.com/product/glp1-s/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_16__glp1-s.md
+[LINE_RANGE] 293-293
+[QUOTE]
+CAS: 910463-68-2
+[/QUOTE]
+[URL] https://oathresearch.com/product/glp1-s/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_16__glp1-s.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$45.00 – $85.00Price range: $45.00 through $85.00
+[/QUOTE]
+
+[CLAIM] claim-sku-glp3r-multi
+[URL] https://oathresearch.com/product/glp3-r/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_17__glp3-r.md
+[LINE_RANGE] 315-315
+[QUOTE]
+SKU: OATH-RETATRUTIDE Categories: [Peptides](https://oathresearch.com/product-category/peptides/), [Research](https://oathresearch.com/product-category/research/) Tag: [Research Chemical](https://oathresearch.com/product-tag/research-chemical/)
+[/QUOTE]
+[URL] https://oathresearch.com/product/glp3-r/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_17__glp3-r.md
+[LINE_RANGE] 296-296
+[QUOTE]
+CAS: 2381089-83-2
+[/QUOTE]
+[URL] https://oathresearch.com/product/glp3-r/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_17__glp3-r.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$75.00 – $210.00Price range: $75.00 through $210.00
+[/QUOTE]
+
+[CLAIM] claim-sku-mt2-multi
+[URL] https://oathresearch.com/product/melanotan-2/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_18__melanotan-2.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$35.00 – $55.00Price range: $35.00 through $55.00
+[/QUOTE]
+
+[CLAIM] claim-sku-kiss-multi
+[URL] https://oathresearch.com/product/kisspeptin-10/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_19__kisspeptin-10.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$48.00 – $68.00Price range: $48.00 through $68.00
+[/QUOTE]
+
+[CLAIM] claim-sku-thymulin-multi
+[URL] https://oathresearch.com/product/thymulin/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_20__thymulin.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$60.00 – $65.00Price range: $60.00 through $65.00
+[/QUOTE]
+
+[CLAIM] claim-sku-water-multi
+[URL] https://oathresearch.com/product/research-water/
+[FETCHED_AT] 2026-05-07T02:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_21__research-water.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$10.00 – $30.00Price range: $10.00 through $30.00
+[/QUOTE]
+
+[CLAIM] claim-sku-cjcipa-multi
+[URL] https://oathresearch.com/product/cjc-1295-ipamorelin-blend/
+[FETCHED_AT] 2026-05-07T02:36:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_22__cjc-1295-ipamorelin-blend.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$90.00 – $165.00Price range: $90.00 through $165.00
+[/QUOTE]
+
+[CLAIM] claim-sku-wolverine-multi
+[URL] https://oathresearch.com/product/bpc-tb-blend/
+[FETCHED_AT] 2026-05-07T02:36:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_23__bpc-tb-blend.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$90.00 – $195.00Price range: $90.00 through $195.00
+[/QUOTE]
+
+[CLAIM] claim-sku-glow-multi
+[URL] https://oathresearch.com/product/bpc-ghk-tb-500-blend/
+[FETCHED_AT] 2026-05-07T02:36:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_24__bpc-ghk-tb-500-blend.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$125.00 – $185.00Price range: $125.00 through $185.00
+[/QUOTE]
+
+[CLAIM] claim-sku-klow
+[URL] https://oathresearch.com/product/bpc-ghk-tb-500-kpv-blend/
+[FETCHED_AT] 2026-05-07T02:36:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_25__bpc-ghk-tb-500-kpv-blend.md
+[LINE_RANGE] 58-58
+[QUOTE]
+~~$ 215.00~~ Original price was: $215.00.$195.00Current price is: $195.00.
+[/QUOTE]
+
+[CLAIM] claim-sku-tesaipa-multi
+[URL] https://oathresearch.com/product/tesamorelin-ipamorelin/
+[FETCHED_AT] 2026-05-07T02:36:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oathpeptides/product_26__tesamorelin-ipamorelin.md
+[LINE_RANGE] 56-56
+[QUOTE]
+$105.00 – $145.00Price range: $105.00 through $145.00
+[/QUOTE]

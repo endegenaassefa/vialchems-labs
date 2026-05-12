@@ -1,0 +1,557 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://aiopeptides.com/
+[FETCHED_AT] 2026-05-07T17:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/homepage.md
+[LINE_RANGE] 42-64
+[QUOTE]
+"Shipped Same Day
+
+Quality-assured Ingredients
+
+Secure Payments
+
+3rd-Party Tested
+
+24/7 Support
+
+Affordable Pricing"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://aiopeptides.com/
+[FETCHED_AT] 2026-05-07T17:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/homepage.md
+[LINE_RANGE] 18-23
+[QUOTE]
+"  * [Shop](https://aiopeptides.com/shop/)
+  * [Merchandise](https://aiopeptides.com/shop/apparel/)
+  * [About](https://aiopeptides.com/about-us/)
+  * [Quality Control](https://aiopeptides.com/quality-control/)
+  * [COA](/coa/)
+  * [Track Order](https://aiopeptides.com/parcel-panel/)
+  * [Contact](https://aiopeptides.com/contact-us/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://aiopeptides.com/
+[FETCHED_AT] 2026-05-07T17:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/homepage.md
+[LINE_RANGE] 259-263
+[QUOTE]
+"All products on this site are for research and development use only. Products are not for human consumption of any kind. The statements made on this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure, or prevent any disease.
+AIO Peptides is a chemical supplier. AIO Peptides is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic Act. AIO Peptides not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic Act.
+All products are sold for research, laboratory, or analytical purposes only, and are not for human consumption."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/catalog_1.md
+[LINE_RANGE] 1-306
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/aio-peptides/catalog_1.md through catalog_5.md:
+57 unique product SKUs enumerated (peptides: 43, GLPs: 9, supplies: 5).
+[FILES]
+catalog_1.md (BPC-157 10mg, TB-500 10mg, BPC-157/TB-500 blend, GLP-1 SEMA, GLP-2 TIRZ 15/20mg, GLP-3 RETA 10mg, Cagrilintide, BW 3ml/10ml, Acetic Acid, 6-vial/10-vial cases, AOD 9604, DSIP, Cartalax, SS-31, IGF-LR3, 5-Amino-1mq)
+catalog_2.md (GHK-Cu, GLOW 70mg, Epitalon, FOX04-DRI, GHRP-2)
+catalog_3.md (GLP-RETA 20/30mg, GLP-TIRZ 30/60mg, Glutathione, HCG, IGF-LR3, Insulin Syringes, Ipamorelin)
+catalog_4.md (Ipamorelin/CJC-1295, Kisspeptin, KLOW, KPV, L-Carnitine, LIPO-C (4 variants), LL-37, Melanotan I, MOTS-C)
+catalog_5.md (NAD+, PEG-MGF, Pinealon, PT-141, Selank, Semax, Sermorelin, SNAP-8, TB-500, Tesamorelin 10/20mg, Thymalin)
+product_5__thymosin-alpha-1-5mg.md (Thymosin Alpha-1 5mg)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/catalog_1.md
+[LINE_RANGE] 18-68
+[QUOTE]
+"## **GLP’s**
+[GLP-1 SEMA 10mg]...
+## **Peptides**
+[BPC-157 / TB-500 Blend 5mg/5mg]...
+## **Supplies**
+[Bacteriostatic Water 3ml]..."
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/catalog_1.md
+[LINE_RANGE] 75-80
+[QUOTE]
+"[GLOW 70mg](https://web.archive.org/web/20251111012103/https://aiopeptides.com/product/glow-ghk-cu-50mg-bpc-157-10mg-tb-500-10mg/)
+[KLOW 80mg](https://web.archive.org/web/20251111012103/https://aiopeptides.com/product/klow-50mg-10mg-10mg-10mg/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 130-132
+[QUOTE]
+"# BPC-157 10mg
+
+~~$ 67.00~~ Original price was: $67.00.$53.60Current price is: $53.60."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 134-134
+[QUOTE]
+"**BPC‑157** is a synthetic peptide known for its regenerative, cytoprotective, and anti-inflammatory properties. Comprising a 15-amino-acid sequence derived from a protein found in human gastric juice, BPC‑157 has demonstrated a unique ability to accelerate healing in muscles, tendons, ligaments, nerves, and even internal organs."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 175-175
+[QUOTE]
+"**Disclaimer – **This product is for **research use only** and is not intended for human consumption, diagnostic use, or clinical treatment. Proper laboratory safety protocols should always be followed when handling peptides."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/tb-500-10mg-thymosin-beta-4-tβ4/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_2__tb-500-10mg.md
+[LINE_RANGE] 128-128
+[QUOTE]
+"[](https://web.archive.org/web/20251111005718/https://aiopeptides.com/wp-content/uploads/2025/06/TB500-10mg-COA-watermarked-pdf.jpg)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 126-128
+[QUOTE]
+"[](https://web.archive.org/web/20251111015122/https://aiopeptides.com/wp-content/uploads/2025/07/BPC-157.png)
+[](https://web.archive.org/web/20251111015122/https://aiopeptides.com/wp-content/uploads/2025/06/BPC-157-pdf.jpg)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 151-155
+[QUOTE]
+"  * Description
+  * Additional information
+"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 188-203
+[QUOTE]
+"Peptide  ## [BPC-157/TB-500 5mg/5mg](https://web.archive.org/web/20251111015122/https://aiopeptides.com/product/bpc-157-tb-500-blend-5mg-5mg/) ~~$ 55.00~~ Original price was: $55.00.$44.00Current price is: $44.00.
+Peptide  ## [GLOW 70mg](...) ~~$ 120.00~~ Original price was: $120.00.$96.00Current price is: $96.00.
+Peptide  ## [Ipamorelin 5mg](...) ~~$ 30.00~~ Original price was: $30.00.$24.00Current price is: $24.00."
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://aiopeptides.com/
+[FETCHED_AT] 2026-05-07T17:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/homepage.md
+[LINE_RANGE] 109-115
+[QUOTE]
+"Research Use Only
+
+By using this site, you acknowledge that all products and information are provided for research purposes only and are not intended for human consumption or medical use.
+
+You must be 21 years of age or older to use this website.
+
+By logging in or creating an account, you agree to the research-only terms above."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://aiopeptides.com/
+[FETCHED_AT] 2026-05-07T17:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/homepage.md
+[LINE_RANGE] 113-113
+[QUOTE]
+"You must be 21 years of age or older to use this website."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T17:15:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/shipping.md
+[LINE_RANGE] 135-135
+[QUOTE]
+"  * **International Shipping:** We currently do not offer international shipping at this time."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:15:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/tos.md
+[LINE_RANGE] 122-126
+[QUOTE]
+"## Terms & Conditions
+
+Our Terms, Your Peace of Mind
+
+### Terms and Conditions"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:15:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/tos.md
+[LINE_RANGE] 130-184
+[QUOTE]
+"These Terms and Conditions (“Agreement”) govern the sale and use of peptides (“Peptides”) provided by **AIO Peptides** (“Seller”, “We”, “Us”, or “Our”). By purchasing peptides from us, you (“Purchaser”, “You”, or “Your”) agree to abide by the terms outlined in this Agreement.
+...The peptides sold under this Agreement are for **research purposes only**...
+...This Agreement shall be governed by and construed in accordance with the laws of [Jurisdiction], without regard to its conflict of law principles. Any dispute arising out of or relating to this Agreement shall be resolved through [arbitration/mediation] in Texas..."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T17:15:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/shipping.md
+[LINE_RANGE] 169-188
+[QUOTE]
+"### Return Eligibility
+
+  * Only unopened items are eligible for return.
+  * Email [hello@aiopeptides.com] with your order number and reason for return.
+  * If approved, we'll send you return shipping instructions.
+  * Please use a trackable shipping method for returns—we are not responsible for lost items in transit.
+
+### Refunds
+
+  * Refunds are processed within 2 business days of receiving your return.
+  * Refunds will be issued to your original payment method.
+  * Shipping charges are non-refundable."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T17:15:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/shipping.md
+[LINE_RANGE] 132-135
+[QUOTE]
+"  * **Standard Shipping (FedEx 2nd Day Air):** $10 – Delivery within 2 business days (excludes weekends).
+  * **Overnight Shipping (FedEx Standard Overnight):** $50 – Delivery within 1 business day (excludes weekends).
+  * **Puerto Rico & Virgin Islands (USPS Priority Mail):** $10 – Delivery within 2–4 business days.
+  * **International Shipping:** We currently do not offer international shipping at this time."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://aiopeptides.com/
+[FETCHED_AT] 2026-05-07T17:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/homepage.md
+[LINE_RANGE] 102-115
+[QUOTE]
+"## Welcome Back — Login to
+Continue
+
+Sign In  Create an Account
+
+## Login
+
+Username or email address *Required
+
+Password *Required
+
+Research Use Only
+
+By using this site, you acknowledge that all products and information are provided for research purposes only and are not intended for human consumption or medical use."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20251111/https://aiopeptides.com/faq/
+[FETCHED_AT] 2026-05-07T17:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/faq.md
+[LINE_RANGE] 180-182
+[QUOTE]
+"#### What are the payment options available?
+We accept various payment methods, including credit/debit cards, bank transfers, and other secure payment options. More details on accepted payment methods can be found on our checkout page."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T17:15:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/shipping.md
+[LINE_RANGE] 132-134
+[QUOTE]
+"  * **Standard Shipping (FedEx 2nd Day Air):** $10
+  * **Overnight Shipping (FedEx Standard Overnight):** $50
+  * **Puerto Rico & Virgin Islands (USPS Priority Mail):** $10"
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://aiopeptides.com/
+[FETCHED_AT] 2026-05-07T17:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/homepage.md
+[LINE_RANGE] 108-128
+[QUOTE]
+"## Register
+
+Email address *Required
+
+Password *Required
+
+Birthday *
+
+Birthday (optional)
+
+Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our [privacy policy]"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://web.archive.org/web/20251111/https://aiopeptides.com/
+[FETCHED_AT] 2026-05-07T17:18:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/source_homepage.md
+[LINE_RANGE] 48-48
+[QUOTE]
+"[ ](https://web.archive.org/web/20251016224904/https://aiopeptides.com/wp-content/uploads/2025/04/7424355_trustpilot_icon.png)"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:15:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/tos.md
+[LINE_RANGE] 174-174
+[QUOTE]
+"Any dispute arising out of or relating to this Agreement shall be resolved through [arbitration/mediation] in Texas, and the parties hereby consent to the exclusive jurisdiction of the courts located in Texas."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T17:15:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/shipping.md
+[LINE_RANGE] 135-135
+[QUOTE]
+"  * **International Shipping:** We currently do not offer international shipping at this time."
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/about-us/
+[FETCHED_AT] 2026-05-07T17:15:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/about.md
+[LINE_RANGE] 120-122
+[QUOTE]
+"# Our company ethos
+AIO Peptides is a research-driven peptide company founded in 2025 with a mission to make high-quality, affordable peptides available to scientists everywhere."
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 181-183
+[QUOTE]
+"[ ](https://web.archive.org/web/20251111015122/https://aiopeptides.com/wp-content/uploads/2025/04/7424355_trustpilot_icon.png) [ ](https://web.archive.org/web/20251111015122/https://aiopeptides.com/wp-content/uploads/2025/04/7115255_google_logo_search_new_icon-1.png)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://aiopeptides.com/
+[FETCHED_AT] 2026-05-07T17:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/homepage.md
+[LINE_RANGE] 18-32
+[QUOTE]
+"  * [Shop](https://aiopeptides.com/shop/)
+  * [Merchandise](https://aiopeptides.com/shop/apparel/)
+  * [About](https://aiopeptides.com/about-us/)
+  * [Quality Control](https://aiopeptides.com/quality-control/)
+  * [COA](/coa/)
+  * [Track Order](https://aiopeptides.com/parcel-panel/)
+  * [Contact](https://aiopeptides.com/contact-us/)"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-10mg].list_price_usd
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 132-132
+[QUOTE]
+"~~$ 67.00~~ Original price was: $67.00.$53.60Current price is: $53.60."
+[/QUOTE]
+
+[CLAIM] skus[tb-500-10mg].list_price_usd
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/tb-500-10mg-thymosin-beta-4-tβ4/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_2__tb-500-10mg.md
+[LINE_RANGE] 134-134
+[QUOTE]
+"~~$ 62.00~~ Original price was: $62.00.$49.60Current price is: $49.60."
+[/QUOTE]
+
+[CLAIM] skus[glp1-sema-10mg].list_price_usd
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/sm-10mg/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_3__glp1-sema-10mg.md
+[LINE_RANGE] 130-132
+[QUOTE]
+"# GLP-1 SEMA 10MG
+
+~~$ 75.00~~ Original price was: $75.00.$60.00Current price is: $60.00."
+[/QUOTE]
+
+[CLAIM] skus[glp2-tirz-15mg].list_price_usd
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/tz-15mg/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_4__glp2-tirz-15mg.md
+[LINE_RANGE] 130-132
+[QUOTE]
+"~~$ 108.00~~ Original price was: $108.00.$86.40Current price is: $86.40."
+[/QUOTE]
+
+[CLAIM] skus[thymosin-alpha-1-5mg].list_price_usd
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/thymosin-alpha-1-5mg/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_5__thymosin-alpha-1-5mg.md
+[LINE_RANGE] 130-132
+[QUOTE]
+"~~$ 55.00~~ Original price was: $55.00.$44.00Current price is: $44.00."
+[/QUOTE]
+
+[CLAIM] skus[glp2-tirz-30mg].list_price_usd
+[URL] https://web.archive.org/web/20260116/https://aiopeptides.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T17:25:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/catalog_3.md
+[LINE_RANGE] 165-167
+[QUOTE]
+"GLP  ## [GLP-TIRZ 30MG](https://web.archive.org/web/20260116164155/https://aiopeptides.com/product/tz-30mg/) ~~$ 189.00~~ Original price was: $189.00.$151.20Current price is: $151.20."
+[/QUOTE]
+
+[CLAIM] skus[glp3-reta-10mg].list_price_usd
+[URL] https://web.archive.org/web/20260116/https://aiopeptides.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T17:25:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/catalog_3.md
+[LINE_RANGE] 153-155
+[QUOTE]
+"GLP  ## [GLP-RETA 10MG](https://web.archive.org/web/20260116164155/https://aiopeptides.com/product/rt-10mg/) ~~$ 80.00~~ Original price was: $80.00.$64.00Current price is: $64.00."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/about-us/
+[FETCHED_AT] 2026-05-07T17:15:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/about.md
+[LINE_RANGE] 118-126
+[QUOTE]
+"## About us
+Built around your goals. Powered by our peptides
+# Our company ethos
+AIO Peptides is a research-driven peptide company founded in 2025 with a mission to make high-quality, affordable peptides available to scientists everywhere. With a team rooted in science and innovation, we specialize in the synthesis of custom and catalog peptides designed for accuracy, purity, and performance."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 130-148
+[QUOTE]
+"# BPC-157 10mg
+
+~~$ 67.00~~ Original price was: $67.00.$53.60Current price is: $53.60.
+...
+BPC-157 10mg quantity
+
+Add to cart"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T17:15:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/shipping.md
+[LINE_RANGE] 10-16
+[QUOTE]
+"###  Shipped the same day
+
+###  Shipped the same day
+
+Order before 11 AM and we ship your order the same day"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://web.archive.org/web/20251111/https://aiopeptides.com/faq/
+[FETCHED_AT] 2026-05-07T17:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/faq.md
+[LINE_RANGE] 196-196
+[QUOTE]
+"#### Do you ship internationally?"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://aiopeptides.com/
+[FETCHED_AT] 2026-05-07T17:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/homepage.md
+[LINE_RANGE] 1-306
+[QUOTE]
+"Contact us via email or send us a text at:
+
+  * [ hello@aiopeptides.com ](mailto:hello@aiopeptides.com)
+  * [ 469-880-0955 ](tel:469-880-0955)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 151-155
+[QUOTE]
+"  * Description
+  * Additional information
+"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.per_mg_cost
+[URL] https://web.archive.org/web/2024/https://aiopeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aio-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 132-132
+[QUOTE]
+"~~$ 67.00~~ Original price was: $67.00.$53.60Current price is: $53.60."
+[/QUOTE]

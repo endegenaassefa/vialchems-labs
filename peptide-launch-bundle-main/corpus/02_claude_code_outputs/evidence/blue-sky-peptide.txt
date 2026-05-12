@@ -1,0 +1,622 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 28-41
+[QUOTE]
+"**Use code: NOW35**"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 132-132
+[QUOTE]
+"Please note that all our peptide & research liquids for sale are intended for laboratory research purposes only, not for human consumption."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 21-24
+[QUOTE]
+"[Bulk Peptides ](/bulk-peptides.html)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 7-10
+[QUOTE]
+"[My Account](/customer/account/login)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+Homepage serves product listings directly with no lifestyle imagery visible in the rendered text. The hero section is a promotional banner (35% off coupon) followed immediately by catalog category navigation and a Popular Research Peptides grid. No meme-coded or lifestyle content present.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 57-57
+"Popular Research Peptides"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 130-132
+"# Research Peptides & Chemicals for Sale"
+[/SUPPORT_QUOTE]
+
+[CLAIM] year_established
+[URL] https://www.blueskypeptide.com/shipping-returns
+[FETCHED_AT] 2026-05-07T18:15:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/shipping.md
+[LINE_RANGE] 52-52
+[QUOTE]
+"a trusted supplier of premium research peptides serving the laboratory research community since 2013"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] United States
+[REASONING]
+The shipping page specifies domestic USPS and UPS carriers. The About Us page references serving researchers since 2013 with no non-US origin indicated. The Trustpilot profile states the company website as blueskypeptide.com operating from the US (majority reviews from US reviewers).
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.blueskypeptide.com/shipping-returns
+[FETCHED_AT] 2026-05-07T18:15:00Z
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/shipping.md
+[LINE_RANGE] 66-67
+"**USPS Ground Advantage:** $6.99 (3–5 business days)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.blueskypeptide.com/about-us
+[FETCHED_AT] 2026-05-07T18:21:00Z
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/about.md
+[LINE_RANGE] 52-52
+"Since 2013, **Blue Sky Peptide** has been committed to providing premium research peptides to serious researchers who demand uncompromising quality and consistency."
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope
+[INFERENCE] us_intl
+[REASONING]
+Shipping policy page references USPS and UPS domestic carriers but does not explicitly exclude international. Trustpilot review from Saudi Arabia (Oct 2020) confirms international delivery received. TOS states the site is international.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240708011611/https://www.trustpilot.com/review/blueskypeptide.com
+[FETCHED_AT] 2026-05-07T17:09:46Z
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/social_trustpilot.md
+[LINE_RANGE] 253-256
+"Great pricing and offer, fast delivery (international) and fragile secure packaging."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.blueskypeptide.com/terms-conditions
+[FETCHED_AT] 2026-05-07T18:15:00Z
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/tos.md
+[LINE_RANGE] 79-79
+"This site is international and has international visitors and what may be legal in one country may not be legal in another, however, any information garnered from this site does not imply or suggest human or any use at all."
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.blueskypeptide.com/sitemap
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/sitemap.md
+[LINE_RANGE] 60-128
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/blue-sky-peptide/sitemap.md product links:
+Approximately 55 unique product pages enumerated including peptides, research liquids, bulk SKUs, bundles, and blends.
+[FILES]
+(sitemap.md lines 60-128 enumerate all product URLs)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.blueskypeptide.com/sitemap
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/sitemap.md
+[LINE_RANGE] 47-50
+[QUOTE]
+"[Bulk Peptides ](/bulk-peptides.html"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.blueskypeptide.com/sitemap
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/sitemap.md
+[LINE_RANGE] 122-123
+[QUOTE]
+"[Bundle (BPC-157 5mg x5 + TB500 5mg x5)](/bundle-bpc-157-thymosin.html"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://web.archive.org/web/20230326171500/https://www.blueskypeptide.com/ipamorelin-2000mcg.html
+[FETCHED_AT] 2026-05-07T18:16:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/product_1__ipamorelin-2000mcg.md
+[LINE_RANGE] 43-47
+[QUOTE]
+"#  IPAMORELIN 2000mcg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"$41.95"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://web.archive.org/web/20230326171500/https://www.blueskypeptide.com/ipamorelin-2000mcg.html
+[FETCHED_AT] 2026-05-07T18:16:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/product_1__ipamorelin-2000mcg.md
+[LINE_RANGE] 73-79
+[QUOTE]
+"## Buy 1 Get 1 Free IPAMORELIN 2000mcg :"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20230326171500/https://www.blueskypeptide.com/ipamorelin-2000mcg.html
+[FETCHED_AT] 2026-05-07T18:16:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/product_1__ipamorelin-2000mcg.md
+[LINE_RANGE] 90-92
+[QUOTE]
+"Terms | The products we offer are intended for laboratory"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://web.archive.org/web/20211102133329/https://www.blueskypeptide.com/bpc-157-5mg.html
+[FETCHED_AT] 2026-05-07T18:18:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/product_6__bpc-157-5mg.md
+[LINE_RANGE] 112-112
+[QUOTE]
+"[ BPC 157 CertifIcate of Analysis ]"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://web.archive.org/web/20211102133329/https://www.blueskypeptide.com/bpc-157-5mg.html
+[FETCHED_AT] 2026-05-07T18:18:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/product_6__bpc-157-5mg.md
+[LINE_RANGE] 80-82
+[QUOTE]
+"[ BPC 157 CertifIcate of Analysis ](https://web.archive.org/web/20211102133329/https://www.blueskypeptide.com/amfile/file/download/file/7b789cf53f76c67a85509090e37d64de/product/36/) Size: (485.24 kB)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://web.archive.org/web/20240708011611/https://www.trustpilot.com/review/blueskypeptide.com
+[FETCHED_AT] 2026-05-07T17:09:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/social_trustpilot.md
+[LINE_RANGE] 141-141
+[QUOTE]
+"I went to leave a review on Blue Skys website and discovered they removed their product reviews."
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.blueskypeptide.com/terms-conditions
+[FETCHED_AT] 2026-05-07T18:15:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/tos.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"ALL products and services offered are for RESEARCH purposes ONLY. Under NO circumstances shall/should ANY of these materials be used for recreational purposes nor human consumption. Blueskypeptide.com are NOT liable for ANY damages that may be caused by negligence, abuse, or ANY other unforeseen matter."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+The homepage fetched without any age gate prompt. No age verification redirect encountered in any of 23 fetched pages. The checkout page includes a self-certification checkbox rather than a site-entry age gate.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 130-132
+"# Research Peptides & Chemicals for Sale"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230623204806/https://www.blueskypeptide.com/checkout
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/checkout.md
+[LINE_RANGE] 38-38
+"I certify that I am 18 years of age or older."
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.blueskypeptide.com/terms-conditions
+[FETCHED_AT] 2026-05-07T18:15:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/tos.md
+[LINE_RANGE] 79-79
+[QUOTE]
+"This site is international and has international visitors and what may be legal in one country may not be legal in another, however, any information garnered from this site does not imply or suggest human or any use at all."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 173-173
+[QUOTE]
+"[Terms & Conditions](/terms-conditions)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.blueskypeptide.com/terms-conditions
+[FETCHED_AT] 2026-05-07T18:15:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/tos.md
+[LINE_RANGE] 54-54
+[QUOTE]
+"All customers MUST be at least 21 years of age to purchase our products. Under no circumstances shall Blueskypeptide.com , or any associated affiliates be liable for consequential damages"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.blueskypeptide.com/shipping-returns
+[FETCHED_AT] 2026-05-07T18:15:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/shipping.md
+[LINE_RANGE] 85-85
+[QUOTE]
+"If you experience an issue with a product, you may request a return within **30 days of purchase**. Approved returns are eligible for:"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.blueskypeptide.com/shipping-returns
+[FETCHED_AT] 2026-05-07T18:15:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/shipping.md
+[LINE_RANGE] 66-66
+[QUOTE]
+"**USPS Ground Advantage:** $6.99 (3–5 business days)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://web.archive.org/web/20230623204806/https://www.blueskypeptide.com/checkout
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/checkout.md
+[LINE_RANGE] 19-19
+[QUOTE]
+"You can create an account after checkout."
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://web.archive.org/web/20230623204806/https://www.blueskypeptide.com/checkout
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/checkout.md
+[LINE_RANGE] 19-19
+[QUOTE]
+"You can create an account after checkout."
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://web.archive.org/web/20230623204806/https://www.blueskypeptide.com/checkout
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/checkout.md
+[LINE_RANGE] 28-50
+[QUOTE]
+"Email Address"
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://web.archive.org/web/20230623204806/https://www.blueskypeptide.com/checkout
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/checkout.md
+[LINE_RANGE] 69-71
+[QUOTE]
+"I certify that I am 18 years of age or older."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.blueskypeptide.com/shipping-returns
+[FETCHED_AT] 2026-05-07T18:15:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/shipping.md
+[LINE_RANGE] 66-69
+[QUOTE]
+"**USPS Ground Advantage:** $6.99 (3–5 business days)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.blueskypeptide.com/shipping-returns
+[FETCHED_AT] 2026-05-07T18:15:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/shipping.md
+[LINE_RANGE] 66-73
+[QUOTE]
+"We offer **free USPS shipping on orders over $75**."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://web.archive.org/web/20240708011611/https://www.trustpilot.com/review/blueskypeptide.com
+[FETCHED_AT] 2026-05-07T17:09:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/social_trustpilot.md
+[LINE_RANGE] 253-256
+[QUOTE]
+"Great pricing and offer, fast delivery (international) and fragile secure packaging."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] custom (Magento)
+[REASONING]
+Discovery log entry for source_homepage.md records: "Magento platform (admin.blueskypeptide.com media paths), Cloudflare CDN, GTM-PPXJGN, weltpixel/mageplaza extensions." The 404 error page text in the GHK-Cu 2023 Wayback fetch also explicitly names Magento Store. URL structure (/catalog-research-peptides.html, /amfile/) is consistent with Magento.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20211102133329/https://www.blueskypeptide.com/bpc-157-5mg.html
+[FETCHED_AT] 2026-05-07T18:18:00Z
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/product_6__bpc-157-5mg.md
+[LINE_RANGE] 112-112
+"[ BPC 157 CertifIcate of Analysis ](https://web.archive.org/web/20211102133329/https://www.blueskypeptide.com/amfile/file/download/file/7b789cf53f76c67a85509090e37d64de/product/36/) Size: (485.24 kB)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.blueskypeptide.com/ghk-cu-50mg-copper-peptide.html
+[FETCHED_AT] 2026-05-07T18:19:00Z
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/product_10__ghk-cu-50mg.md
+[LINE_RANGE] 21-21
+"## GHK-Cu 50mg Copper Peptide :"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] Cloudflare
+[REASONING]
+Discovery log for source_homepage.md explicitly states "Cloudflare CDN." McAfee Secure trust badge appears in footer of all pages, indicating security scanning service.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:09:04Z
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/source_homepage.md
+[LINE_RANGE] 177-178
+"[](https://www.mcafeesecure.com/verify?host=www.blueskypeptide.com)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 177-178
+"[](https://www.mcafeesecure.com/verify?host=www.blueskypeptide.com)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] GTM-PPXJGN
+[REASONING]
+Discovery log for source_homepage.md explicitly records "GTM-PPXJGN" as the Google Tag Manager container ID found in the homepage HTML source.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20211102133329/https://www.blueskypeptide.com/bpc-157-5mg.html
+[FETCHED_AT] 2026-05-07T18:18:00Z
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/product_6__bpc-157-5mg.md
+[LINE_RANGE] 112-112
+"[ BPC 157 CertifIcate of Analysis ]"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 177-177
+"[](https://www.mcafeesecure.com/verify?host=www.blueskypeptide.com)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.blueskypeptide.com/blog
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/blog_1.md
+[LINE_RANGE] 32-32
+[QUOTE]
+"[Disclaimer](/disclaimer)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://www.blueskypeptide.com/blog
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/blog_1.md
+[LINE_RANGE] 34-35
+[QUOTE]
+"[The Importance of Bremelanotide Peptides for Laboratory Research Studies](/blog/the-importance-of-bremelanotide-peptides-for-laboratory-research-studies)"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://www.blueskypeptide.com/blog
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/blog_1.md
+[LINE_RANGE] 47-47
+[QUOTE]
+"## [The Importance of Bremelanotide Peptides for Laboratory Research Studies](/blog/the-importance-of-bremelanotide-peptides-for-laboratory-research-studies"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://www.blueskypeptide.com/blog
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/blog_1.md
+[LINE_RANGE] 73-73
+[QUOTE]
+"**Posted By:** [Admin](/#)"
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://www.blueskypeptide.com/blog
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/blog_1.md
+[LINE_RANGE] 72-72
+[QUOTE]
+"[MGF Product Page](https://www.blueskypeptide.com/mgf-mechano-growth-factor-2mg.html). Blue Sky Peptide. 2016"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://web.archive.org/web/20240708011611/https://www.trustpilot.com/review/blueskypeptide.com
+[FETCHED_AT] 2026-05-07T17:09:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/social_trustpilot.md
+[LINE_RANGE] 138-141
+[QUOTE]
+"I went to leave a review on Blue Skys website and discovered they removed their product reviews."
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://web.archive.org/web/20240708011611/https://www.trustpilot.com/review/blueskypeptide.com
+[FETCHED_AT] 2026-05-07T17:09:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/social_trustpilot.md
+[LINE_RANGE] 26-30
+[QUOTE]
+"# Blue Sky Peptide Reviews"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://web.archive.org/web/20240708011611/https://www.trustpilot.com/review/blueskypeptide.com
+[FETCHED_AT] 2026-05-07T17:09:46Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/social_trustpilot.md
+[LINE_RANGE] 40-44
+[QUOTE]
+"Unclaimed profile"
+[/QUOTE]
+
+[CLAIM] skus[0].list_price_usd (Ipamorelin 2000mcg — claim-sku-1)
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"$41.95"
+[/QUOTE]
+
+[CLAIM] skus[1].list_price_usd (TB-500 2mg — claim-sku-2)
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 89-89
+[QUOTE]
+"$35.95"
+[/QUOTE]
+
+[CLAIM] skus[2].list_price_usd (Fragment 176-191 2mg — claim-sku-3)
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 81-81
+[QUOTE]
+"$63.95"
+[/QUOTE]
+
+[CLAIM] skus[3].list_price_usd (CJC-1295 NO-DAC 2mg — claim-sku-4)
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 107-107
+[QUOTE]
+"$58.95"
+[/QUOTE]
+
+[CLAIM] skus[4].out_of_stock (GHRP-2 — claim-sku-5)
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 75-75
+[QUOTE]
+"Out of Stock"
+[/QUOTE]
+
+[CLAIM] skus[5].list_price_usd (BPC-157 5mg — claim-sku-6)
+[URL] https://web.archive.org/web/20211102133329/https://www.blueskypeptide.com/bpc-157-5mg.html
+[FETCHED_AT] 2026-05-07T18:18:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/product_6__bpc-157-5mg.md
+[LINE_RANGE] 61-63
+[QUOTE]
+"$49.95"
+[/QUOTE]
+
+[CLAIM] skus[6].list_price_usd (PT-141 10mg — claim-sku-7)
+[URL] https://web.archive.org/web/20200509140810/https://www.blueskypeptide.com/pt-141-bremelanotide-10mg.html
+[FETCHED_AT] 2026-05-07T18:18:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/product_7__pt-141-10mg.md
+[LINE_RANGE] 47-49
+[QUOTE]
+"PT-141 (Bremelanotide) 10mg"
+[/QUOTE]
+
+[CLAIM] skus[7].sale_price_usd (Selank 10mg — claim-sku-8)
+[URL] https://web.archive.org/web/20240501000000/https://www.blueskypeptide.com/selank-10mg.html
+[FETCHED_AT] 2026-05-07T18:18:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/product_8__selank-10mg.md
+[LINE_RANGE] 46-48
+[QUOTE]
+"Special Price $54.95 Regular Price $59.95"
+[/QUOTE]
+
+[CLAIM] skus[8].sale_price_usd (IGF-1 LR3 1mg — claim-sku-9)
+[URL] https://web.archive.org/web/20240501000000/https://www.blueskypeptide.com/igf-1-lr3-1mg.html
+[FETCHED_AT] 2026-05-07T18:18:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/product_9__igf-1-lr3-1mg.md
+[LINE_RANGE] 46-48
+[QUOTE]
+"Special Price $79.95 Regular Price $89.95"
+[/QUOTE]
+
+[CLAIM] skus[9].dose_value (GHK-Cu 50mg — claim-sku-10)
+[URL] https://www.blueskypeptide.com/ghk-cu-50mg-copper-peptide.html
+[FETCHED_AT] 2026-05-07T18:19:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/product_10__ghk-cu-50mg.md
+[LINE_RANGE] 21-23
+[QUOTE]
+"Unit Size | 50mg/vial"
+[/QUOTE]
+
+[CLAIM] skus[10].dose_value (Semaglutide 5mg — claim-sku-11)
+[URL] https://www.blueskypeptide.com/semaglutide-5mg.html
+[FETCHED_AT] 2026-05-07T18:19:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/product_11__semaglutide-5mg.md
+[LINE_RANGE] 18-21
+[QUOTE]
+"Unit Size | 5mg/vial"
+[/QUOTE]
+
+[CLAIM] skus[11].list_price_usd (Melanotan II 10mg — claim-sku-12)
+[URL] https://www.blueskypeptide.com/
+[FETCHED_AT] 2026-05-07T17:04:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/blue-sky-peptide/homepage.md
+[LINE_RANGE] 95-97
+[QUOTE]
+"  * [MELANOTAN II 10mg](/melanotan-ii-10mg.html)"
+[/QUOTE]

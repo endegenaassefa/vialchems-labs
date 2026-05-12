@@ -1,0 +1,98 @@
+[CLAIM] primary_domain
+[URL] https://biolinkpeptides.com/
+[FETCHED_AT] 2026-05-07T19:53:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/biolink-peptides/homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"BIOLINKPEPTIDES"
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://biolinkpeptides.com/
+[FETCHED_AT] 2026-05-07T19:53:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/biolink-peptides/homepage.md
+[LINE_RANGE] 8-10
+[QUOTE]
+"BIOLINKPEPTIDES
+
+Coming Soon"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://biolinkpeptides.com/
+[FETCHED_AT] 2026-05-07T19:53:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/biolink-peptides/homepage.md
+[LINE_RANGE] 18-18
+[QUOTE]
+"Powered by WordPress (WooCommerce)"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://biolinkpeptides.com/
+[FETCHED_AT] 2026-05-07T19:53:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/biolink-peptides/homepage.md
+[LINE_RANGE] 18-18
+[QUOTE]
+"Powered by WordPress (WooCommerce)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://biolinkpeptides.com/
+[FETCHED_AT] 2026-05-07T19:53:31Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/biolink-peptides/homepage.md
+[LINE_RANGE] 28-29
+[QUOTE]
+"Plugins: woocommerce, pymntpl-paypal-woocommerce (v1.0.53), ti-woocommerce-wishlist (v2.9.2), woo-variation-swatches
+PayPal plugin: pymntpl-paypal-woocommerce (environment: production)"
+[/QUOTE]
+
+[CLAIM] fetch_status (site currently parked)
+[URL] https://www.biolinkpeptides.com/
+[FETCHED_AT] 2026-05-07T19:53:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolink-peptides/site_status.md
+[LINE_RANGE] 8-11
+[QUOTE]
+"[Current site status as of 2026-05-07]
+URL: https://www.biolinkpeptides.com/
+Status: Parked / Lander page (GoDaddy parking system)
+HTML: <!DOCTYPE html><html><head><script>window.onload=function(){window.location.href="/lander"}</script></head></html>"
+[/QUOTE]
+
+[CLAIM] year_established (domain registration date — lower bound for founding)
+[URL] https://rdap.org/domain/biolinkpeptides.com
+[FETCHED_AT] 2026-05-07T19:53:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolink-peptides/domain_rdap.md
+[LINE_RANGE] 14-16
+[QUOTE]
+"events:
+  registration: 2022-08-25T06:09:32Z
+  expiration: 2026-08-25T06:09:32Z"
+[/QUOTE]
+
+[CLAIM] site_last_activity (site went to parking around March 2025)
+[URL] https://www.biolinkpeptides.com/
+[FETCHED_AT] 2026-05-07T19:53:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolink-peptides/site_status.md
+[LINE_RANGE] 25-36
+[QUOTE]
+"[Wayback Machine CDX - all snapshots]
+Total unique HTML snapshots: 8
+20241226152911 [200] https://biolinkpeptides.com/ - WordPress Coming Soon page
+20241226152911 [301] https://www.biolinkpeptides.com/ - redirect to non-www
+20250316150557 [200] https://biolinkpeptides.com/ - already GoDaddy lander
+20250317062443 [200] https://www.biolinkpeptides.com/ - GoDaddy lander
+Note: Domain changed nameservers to GoDaddy defaults on ~2025-03-16 (last changed date in CDX)
+
+[Activity conclusion]
+- Site was active briefly around Dec 2024 ("Coming Soon" WooCommerce store)
+- Site went to GoDaddy parking in March 2025
+- Site is currently parked / inactive as of May 2026"
+[/QUOTE]

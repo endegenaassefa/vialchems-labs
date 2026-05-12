@@ -1,0 +1,822 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 58-60
+[QUOTE]
+"Research Grade Peptides
+
+Third-party tested. Full documentation. Fast priority shipping from our USA based facility."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"[ shop now ](/shop)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 414-414
+[QUOTE]
+"Prime Peptides® products are for research purposes only. Not for human consumption or clinical use. The buyer is responsible for adhering to all local laws and regulations. Prime Peptides™ is not a pharmacy and does not provide medical advice, prescriptions, or consultations."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage navigation and section headers use clinical language ("Research Grade Peptides", "Certificates of Analysis", "Third-party tested") and the product listings are presented with scientific product names and purity data. No lifestyle or meme-coded imagery is visible in the rendered text. This is consistent with a clinical presentation posture.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 56-60
+"premium quality
+
+# Research Grade Peptides
+
+Third-party tested. Full documentation. Fast priority shipping from our USA based facility."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 111-115
+"#### Certificates of analysis
+
+## Transparency You Can Trust
+
+All products are supported by third-party laboratory testing and documented Certificates of Analysis."
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 16-19
+[QUOTE]
+"  * [Shop ](https://primepeptides.co/shop/)
+  * [About Us ](https://primepeptides.co/about-us/)
+  * [Testing ](https://primepeptides.co/testing/)
+  * [Contact ](https://primepeptides.co/contact/)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://primepeptides.co/shop/
+[FETCHED_AT] 2026-05-08T06:50:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/catalog_1.md
+[LINE_RANGE] 60-81
+[QUOTE]
+"[ Semaglutide $80.00 ](https://primepeptides.co/products/semaglutide/)
+
+[ GLP-2 $115.00 ](https://primepeptides.co/products/tirz/)
+
+[ Retatrutide $120.00 ](https://primepeptides.co/products/retatrutide/)
+
+[ BAC Water $25.00 ](https://primepeptides.co/products/bac-water/)
+
+[ BPC-157 $60.00 ](https://primepeptides.co/products/bpc-157/)
+
+[ Glutathione $65.00 ](https://primepeptides.co/products/glutathione/)
+
+[ Sermorelin $65.00 ](https://primepeptides.co/products/sermorelin/)
+
+[ In stock Glow Blend $105.00 ](https://primepeptides.co/products/glow-blend/)
+
+[ In stock Klow Blend $140.00 ](https://primepeptides.co/products/klow-blend/)
+
+[ Out of stock AOD 9604 $50.00 ](https://primepeptides.co/products/aod-9604/)
+
+[ Out of stock TB-500 (TB4) $75.00 ](https://primepeptides.co/products/tb-500/)
+
+[ Sale! In stock NAD+ $125.00 ](https://primepeptides.co/products/nad/)
+
+[ GHK-Cu $65.00 ](https://primepeptides.co/products/ghk-cu/)
+
+[ Ipamorelin $55.00 ](https://primepeptides.co/products/ipamorelin/)
+
+[ MOTS-c $55.00 ](https://primepeptides.co/products/mots-c/)
+
+[ In stock CJC & Ipa $75.00 ](https://primepeptides.co/products/cjc-ipa/)
+
+[ Out of stock Selank | Semax $65.00 ](https://primepeptides.co/products/selank-semax/)
+
+[ Semax $50.00 ](https://primepeptides.co/products/semax/)
+
+[ Melanotan I $45.00 ](https://primepeptides.co/products/melanotan-i/)
+
+[ Melanotan II $40.00 ](https://primepeptides.co/products/melanotan-2/)
+
+[ Tesamorelin $70.00 ](https://primepeptides.co/products/tesamorelin/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 208-218
+[QUOTE]
+"#### bundle & save
+
+## Bundle & Save
+
+Discounts for Bulk Orders
+
+in Cart
+
+Free Peptide Case
+
+over 8 peptides
+
+Free Shipping
+
+over $150"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://primepeptides.co/products/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__bpc-157.md
+[LINE_RANGE] 84-87
+[QUOTE]
+"## BPC-157
+
+$60.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://primepeptides.co/products/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__bpc-157.md
+[LINE_RANGE] 94-98
+[QUOTE]
+"**Size** : No selection |  More optionsSelect size
+
+  *  10mg
+
+Choose Size10mgClear"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://primepeptides.co/products/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__bpc-157.md
+[LINE_RANGE] 86-86
+[QUOTE]
+"$60.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://primepeptides.co/products/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__bpc-157.md
+[LINE_RANGE] 133-133
+[QUOTE]
+"All products are for laboratory research purposes only. Not for human consumption, medical, or veterinary use. Prime Peptides® does not condone or support the use of peptides outside of controlled scientific research. By purchasing, you acknowledge that you are a qualified researcher or institution. You must be 21 or older."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://primepeptides.co/products/semaglutide/
+[FETCHED_AT] 2026-05-08T06:51:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__semaglutide.md
+[LINE_RANGE] 184-210
+[QUOTE]
+"Semaglutide 5mg
+
+Batch: 2182026SM
+
+Purity: 99.41%
+
+Date: 31 MAR 2026
+
+Lab: AccumarkLabs
+
+[ View PDF  ](https://primepeptides.co/wp-content/uploads/2026/04/Sema-5mg-March-Test.pdf)
+
+Semaglutide Teal Cap
+
+Batch: 2242026SM
+
+Purity: 99.172%
+
+Endotoxin: Pass
+
+Date: 28 APR 2026
+
+Lab: Janoshik Laboratories
+
+Key: E15NW2FS54XA
+
+[ View PDF  ](https://verify.janoshik.com/tests/150098-semaglutide_teal_cap_E15NW2FS54XA)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://primepeptides.co/products/semaglutide/
+[FETCHED_AT] 2026-05-08T06:51:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__semaglutide.md
+[LINE_RANGE] 210-226
+[QUOTE]
+"[ View PDF  ](https://verify.janoshik.com/tests/150098-semaglutide_teal_cap_E15NW2FS54XA)
+
+Semaglutide White Cap
+
+Batch: 3142026SM
+
+Purity: 99.751%
+
+Endotoxin: Pass
+
+Date: 28 APR 2026
+
+Lab: Janoshik Laboratories
+
+Key: 8LXRRQF586XL
+
+[ View PDF  ](https://verify.janoshik.com/tests/150102-semaglutide_white_cap_8LXRRQF586XL)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://primepeptides.co/products/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__bpc-157.md
+[LINE_RANGE] 191-191
+[QUOTE]
+"Each peptide batch is rigorously tested through our third-party labs: MZ Biolabs and Janoshik"
+[/QUOTE]
+
+[URL] https://primepeptides.co/products/semaglutide/
+[FETCHED_AT] 2026-05-08T06:51:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__semaglutide.md
+[LINE_RANGE] 268-270
+[QUOTE]
+"Batch: 2182026SM
+
+Purity: 99.41%
+
+Endotoxin: Pass
+
+Date: 31 MAR 2026
+
+Lab: Accumark Labs"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 120-129
+[QUOTE]
+"Semaglutide 5mg
+
+**Batch: 11102025SM**
+
+**Purity: 99.174%**
+
+Date: 22 JAN 2026
+
+Lab: Janoshik Laboratories
+
+Key: J73AXCNRGLW5"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 64-70
+[QUOTE]
+"I absolutely love this company. Real legitimate products, easy to access calculator guides, and fast shipping…
+
+Great company… customer service was amazing and the product was delivered within 2 days… couldn't be happier!!
+
+I genuinely appreciate how transparent and reliable this peptide company is- any issue I've encountered has been quickly resolved by their customer support."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://primepeptides.co/products/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__bpc-157.md
+[LINE_RANGE] 222-236
+[QUOTE]
+"## Prime Selections
+
+[ VIEW ALL ](/shop)
+
+[ Retatrutide $120.00 ](https://primepeptides.co/products/retatrutide/)
+
+[ Semaglutide $80.00 ](https://primepeptides.co/products/semaglutide/)
+
+[ GLP-2 $115.00 ](https://primepeptides.co/products/tirz/)
+
+[ BPC-157 $60.00 ](https://primepeptides.co/products/bpc-157/)
+
+[ Tesamorelin $70.00 ](https://primepeptides.co/products/tesamorelin/)
+
+[ MOTS-c $55.00 ](https://primepeptides.co/products/mots-c/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://primepeptides.co/products/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__bpc-157.md
+[LINE_RANGE] 88-88
+[QUOTE]
+"BPC-157 is a peptide that researchers are studying to see how it may help heal injuries and protect tissues in the body. It's a part of a natural protein found in the stomach that could help speed up the healing process for muscles, tendons, and even the digestive system. Scientists are exploring its potential benefits in healing and recovery. BPC-157 intended only for scientific research purposes."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[INFERENCE] Clean white-background product vial imagery; clinical style
+[REASONING]
+The site self-describes as "premium quality" and "Research Grade" with clinical lab language throughout. The product page shows no lifestyle imagery in the rendered text; all visual references are to product names and scientific parameters (CAS numbers, storage conditions, COA data). This is consistent with clinical/white-background product photography.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://primepeptides.co/products/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:04Z
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__bpc-157.md
+[LINE_RANGE] 83-84
+"Prime Peptides®
+
+## BPC-157"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://primepeptides.co/products/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:04Z
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__bpc-157.md
+[LINE_RANGE] 137-137
+"**CAS:** 137525-51-0"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 414-414
+[QUOTE]
+"Prime Peptides® products are for research purposes only. Not for human consumption or clinical use. The buyer is responsible for adhering to all local laws and regulations. Prime Peptides™ is not a pharmacy and does not provide medical advice, prescriptions, or consultations."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 470-478
+[QUOTE]
+"Research
+
+## Research Use Only
+
+By using this site, you acknowledge that all products and information are provided for **research purposes only** and are not intended for human consumption or medical use.
+
+You must be **18 years of age or older** to use this website.
+
+I Understand"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://primepeptides.co/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:51:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/shipping.md
+[LINE_RANGE] 72-72
+[QUOTE]
+"We respect federal state and city laws, our shipping restrictions are detailed below on the footer and they are automatically updated by **WAAVE** compliance."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 437-437
+[QUOTE]
+"  * [Terms of Service ](https://primepeptides.co/terms-of-service/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://primepeptides.co/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:51:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/tos.md
+[LINE_RANGE] 68-68
+[QUOTE]
+"Our store is hosted on Shopify Inc. They provide us with the online e-commerce platform that allows us to sell our products and Services to you."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://primepeptides.co/return-policy/
+[FETCHED_AT] 2026-05-08T06:51:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/refund.md
+[LINE_RANGE] 58-84
+[QUOTE]
+"We offer a 30-day return window. You may request a return within 30 days of receiving your order.
+
+To initiate a return request or refund request, log in to your account using the same email address used at checkout. Navigate to the **My Account** page, select the **Orders** tab, and click **Return Request** next to the relevant order.
+
+If approved, you'll be automatically refunded on your original payment method within 3 business days.
+
+Prime Peptides
+735 State St Ste 524
+Santa Barbara, CA 93101"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://primepeptides.co/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:51:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/shipping.md
+[LINE_RANGE] 58-70
+[QUOTE]
+"**Shipping Cost:** $9.95 Flat Rate FedEx 2-Day Air
+
+**Free UPS 2-Day Shipping:** Orders over $150
+
+**Shipping Areas:** USA only.
+
+**Tracking:** You will receive tracking via email when your order ships. Please check your spam folder.
+
+We ship from California via FedEx 2-Day shipping, typically around 3 pm PDT, on Weekdays Only**—NO****PO Boxes.**"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://primepeptides.co/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:51:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/shipping.md
+[LINE_RANGE] 58-60
+[QUOTE]
+"**Shipping Cost:** $9.95 Flat Rate FedEx 2-Day Air
+
+**Free UPS 2-Day Shipping:** Orders over $150"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://primepeptides.co/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:51:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/shipping.md
+[LINE_RANGE] 58-60
+[QUOTE]
+"**Shipping Cost:** $9.95 Flat Rate FedEx 2-Day Air
+
+**Free UPS 2-Day Shipping:** Orders over $150"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 339-339
+[QUOTE]
+"We are only shipping within the US at the moment. Please note we cannot ship to PO boxes, only commercial and residential addresses."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://primepeptides.co/terms-of-service/
+[FETCHED_AT] 2026-05-08T06:51:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/tos.md
+[LINE_RANGE] 68-68
+[QUOTE]
+"Our store is hosted on Shopify Inc. They provide us with the online e-commerce platform that allows us to sell our products and Services to you."
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:52:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/source_homepage.md
+[LINE_RANGE] 4927-4927
+[QUOTE]
+"/cdn-cgi/challenge-platform/scripts/jsd/main.js"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:52:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/source_homepage.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"<!-- Google Tag Manager for WordPress by gtm4wp.com -->"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:52:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/source_homepage.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"fbq('init', '1456058462591290');
+fbq('track', 'PageView');
+fbq('init', '1466190815100263');
+fbq('track', 'PageView');"
+[/QUOTE]
+
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:52:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/source_homepage.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"<!-- TikTok Pixel Code Start -->
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://primepeptides.co/return-policy/
+[FETCHED_AT] 2026-05-08T06:51:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/refund.md
+[LINE_RANGE] 80-83
+[QUOTE]
+"Prime Peptides
+735 State St Ste 524
+Santa Barbara, CA 93101"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://primepeptides.co/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:51:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/shipping.md
+[LINE_RANGE] 66-66
+[QUOTE]
+"We ship from California via FedEx 2-Day shipping, typically around 3 pm PDT, on Weekdays Only**—NO****PO Boxes.**"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://primepeptides.co/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:51:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/shipping.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"**Shipping Areas:** USA only."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2024
+[REASONING]
+No founding year is stated on the homepage, about-us page, or TOS. The earliest Wayback Machine CDX API record for primepeptides.co returns a timestamp of 20240229102456 (February 29, 2024), establishing 2024 as the latest possible founding year. The homepage footer shows copyright "© 2026 Prime Peptides®" but this is current year, not founding year. The blog shows earliest post dated January 2, 2026 which is consistent with a brand that launched in early-to-mid 2024.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 466-466
+"© 2026 Prime Peptides®. All Rights Reserved."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://primepeptides.co/blog/
+[FETCHED_AT] 2026-05-08T06:53:04Z
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/blog_1.md
+[LINE_RANGE] 57-60
+"###  [ How Long Do Peptides Last? ]
+
+January 14, 2026  No Comments"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 421-421
+[QUOTE]
+"  * [Blog ](https://primepeptides.co/blog/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://primepeptides.co/blog/
+[FETCHED_AT] 2026-05-08T06:53:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/blog_1.md
+[LINE_RANGE] 39-72
+[QUOTE]
+"###  [ What Is GHK-Cu? Copper Tripeptide Research From Discovery to Modern Studies ]
+
+April 17, 2026
+
+###  [ Sermorelin: Molecular Profile, FDA History & Published Research Overview ]
+
+April 15, 2026
+
+###  [ Peptide Calculator ]
+
+January 15, 2026
+
+###  [ NAD+ Precursors in Research: NMN, NR & the Role of NNMT Inhibition ]
+
+March 24, 2026
+
+###  [ How Much Bacteriostatic Water to Add to Peptides? ]
+
+January 2, 2026"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://primepeptides.co/blog/
+[FETCHED_AT] 2026-05-08T06:53:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/blog_1.md
+[LINE_RANGE] 39-72
+[QUOTE]
+"What Is GHK-Cu? Copper Tripeptide Research From Discovery to Modern Studies
+Sermorelin: Molecular Profile, FDA History & Published Research Overview
+Peptide Calculator
+NAD+ Precursors in Research: NMN, NR & the Role of NNMT Inhibition
+How Much Bacteriostatic Water to Add to Peptides?
+How Long Do Peptides Last?
+7 Steps to Reconstitute Peptides
+Sourcing"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://primepeptides.co/blog/
+[FETCHED_AT] 2026-05-08T06:53:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/blog_1.md
+[LINE_RANGE] 39-72
+[QUOTE]
+"April 17, 2026  No Comments
+
+[ Read More »"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 64-70
+[QUOTE]
+"I absolutely love this company. Real legitimate products, easy to access calculator guides, and fast shipping…
+
+Great company… customer service was amazing and the product was delivered within 2 days… couldn't be happier!!
+
+I genuinely appreciate how transparent and reliable this peptide company is- any issue I've encountered has been quickly resolved by their customer support. Shipping/processing time is fast and their packaging is discrete and professional as well…"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 64-70
+[QUOTE]
+"I absolutely love this company. Real legitimate products, easy to access calculator guides, and fast shipping…
+
+Great company… customer service was amazing and the product was delivered within 2 days… couldn't be happier!!
+
+I genuinely appreciate how transparent and reliable this peptide company is- any issue I've encountered has been quickly resolved by their customer support."
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://primepeptides.co
+[FETCHED_AT] 2026-05-08T06:50:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/homepage.md
+[LINE_RANGE] 438-438
+[QUOTE]
+"  * [Affiliate Registration ](https://primepeptides.co/affiliate-registration/)"
+[/QUOTE]
+
+[CLAIM] skus[prime-peptides:bpc-157-10mg].list_price_usd
+[URL] https://primepeptides.co/products/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__bpc-157.md
+[LINE_RANGE] 86-86
+[QUOTE]
+"$60.00"
+[/QUOTE]
+
+[CLAIM] skus[prime-peptides:semaglutide-5mg].list_price_usd
+[URL] https://primepeptides.co/products/semaglutide/
+[FETCHED_AT] 2026-05-08T06:51:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__semaglutide.md
+[LINE_RANGE] 86-96
+[QUOTE]
+"## Semaglutide
+
+$80.00
+
+Semaglutide is a synthetic analog of the GLP-1 hormone used in research to study glucose regulation and insulin secretion.
+
+**Size** : No selection |  More optionsSelect size
+
+  *  5mg
+  *  10mg
+  *  15mg"
+[/QUOTE]
+
+[CLAIM] skus[prime-peptides:retatrutide-10mg].list_price_usd
+[URL] https://primepeptides.co/products/retatrutide/
+[FETCHED_AT] 2026-05-08T06:51:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__retatrutide.md
+[LINE_RANGE] 84-98
+[QUOTE]
+"## Retatrutide
+
+$120.00
+
+This investigational compound is a triple receptor agonist that targets GLP-1, GIP, and glucagon receptors to study metabolic regulation in animal models.
+
+**Size** : No selection |  More optionsSelect size
+
+  *  10mg
+  *  30mg
+  *  60mg"
+[/QUOTE]
+
+[CLAIM] skus[prime-peptides:ipamorelin-10mg].list_price_usd
+[URL] https://primepeptides.co/products/ipamorelin/
+[FETCHED_AT] 2026-05-08T06:51:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__ipamorelin.md
+[LINE_RANGE] 84-88
+[QUOTE]
+"## Ipamorelin
+
+$55.00"
+[/QUOTE]
+
+[CLAIM] skus[prime-peptides:tb-500-10mg].out_of_stock
+[URL] https://primepeptides.co/shop/
+[FETCHED_AT] 2026-05-08T06:50:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/catalog_1.md
+[LINE_RANGE] 71-71
+[QUOTE]
+"[ Out of stock TB-500 (TB4) $75.00 ](https://primepeptides.co/products/tb-500/)"
+[/QUOTE]
+
+[CLAIM] skus[prime-peptides:mots-c-10mg].list_price_usd
+[URL] https://primepeptides.co/shop/
+[FETCHED_AT] 2026-05-08T06:50:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/catalog_1.md
+[LINE_RANGE] 79-79
+[QUOTE]
+"[ MOTS-c $55.00 ](https://primepeptides.co/products/mots-c/)"
+[/QUOTE]
+
+[CLAIM] skus[prime-peptides:ghk-cu-10mg].list_price_usd
+[URL] https://primepeptides.co/shop/
+[FETCHED_AT] 2026-05-08T06:50:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/catalog_1.md
+[LINE_RANGE] 77-77
+[QUOTE]
+"[ GHK-Cu $65.00 ](https://primepeptides.co/products/ghk-cu/)"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://primepeptides.co/products/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__bpc-157.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"[Peptides](https://primepeptides.co/collections/all/) / [Repair & Recovery](https://primepeptides.co/collections/repair-recovery/) / BPC-157"
+[/QUOTE]
+
+[URL] https://primepeptides.co/products/semaglutide/
+[FETCHED_AT] 2026-05-08T06:51:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-peptides/product_1__semaglutide.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"[Peptides](https://primepeptides.co/collections/all/) / [GLP-1](https://primepeptides.co/collections/weight-loss/) / Semaglutide"
+[/QUOTE]

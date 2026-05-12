@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "biopeptek",
+  "brand_name": "Biopeptek",
+  "primary_domain": "https://www.biopeptek.com/",
+
+  "fetched_url": "https://www.biopeptek.com/",
+  "fetched_at": "2026-05-07T00:48:51Z",
+  "fetch_status": "ok",
+
+  "tier": "1",
+  "tier_rationale": "as-assigned (Tier 1 institutional CDMO per seed); business model is B2B custom-synthesis and cGMP API manufacturing, so retail e-commerce schema fields (per-mg pricing, age gate, payment methods, on-site reviews) are legitimately not exposed on the public site. The fetched site exposed every page reachable from the navigation; completion ratio is at the upper end despite many uncertain consumer-retail fields.",
+  "field_completion_ratio": 0.7424,
+
+  "country_of_operation": "United States",
+  "fulfillment_country": "United States",
+  "ship_to_scope": "us_intl",
+  "year_established": "2010",
+
+  "homepage": {
+    "hero_copy_excerpt": "One-stop Peptide CDMO Partners to Support your cGMP API Manufacturing and CMC Drug Developments",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "Contact Us",
+    "navigation_pattern": "Top-bar nav with 'Service & Products' dropdown (Custom Peptide Synthesis, Peptide CMC, Catalog Peptides, cGMP Peptide APIs Manufacturing) plus 'Peptide Resources', 'About', 'Contact Us'",
+    "footer_disclaimers": "Copyright © 2023 Biopeptek Pharmaceuticals LLC. All rights reserved"
+  },
+
+  "catalog": {
+    "sku_count": 7,
+    "category_taxonomy": ["Therapeutic Peptides", "Cosmetic Peptides", "cGMP Peptide APIs Manufacturing", "Custom Peptide Synthesis", "Peptide CMC"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "false"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "https://www.biopeptek.com/therapeutic-peptides/",
+    "sample_product_name": "Bremelanotide (named in Therapeutic Peptides catalog list, no per-SKU page)",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "Every peptide (including crude) is shipped with an analytical data package that consists of (1) a certificate of analysis, (2) RP-HPLC (reverse-phase high-performance liquid chromatography), and (3) a solubility test data.",
+    "exact_disclaimer_language": "Biopeptek cGMP quality program strictly follows FDA cGMP guidance / Code of Federal Regulations Part 210/211 (21 CFR 210/211) / ICH Q7",
+    "coa_present": "true",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "false"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "Biopeptek offers competitively priced custom peptides to life scientists and researchers worldwide.",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "none",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "High-throughput orders are processed within 24 hours. Products with < 30 residues are generally shipped within 2 weeks, whenever feasible."
+  },
+
+  "checkout_flow": {
+    "account_required": "false",
+    "guest_checkout_available": "false",
+    "fields_collected": ["First Name", "Last Name", "Company Name", "Job Title", "Email", "Phone", "Comments"],
+    "id_verification_present": "false",
+    "payment_methods_accepted": ["uncertain"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "Stated as 'worldwide' service with 'multiple production sites in the US and abroad' (no explicit ship-to country list or restriction notice on the site)"
+  },
+
+  "tech_stack": {
+    "platform_signal": "custom",
+    "cdn": "Cloudflare (origin: Heroku)",
+    "analytics_tools_loaded": ["Google Analytics 4 (gtag.js, property G-ENVXCRQJEJ)"],
+    "marketing_pixels_present": ["none observed in homepage source"],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "false",
+    "blog_url": "none",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["Peptide Handling", "Peptide Modifications", "Amino Acids", "Peptide Antigen Design", "Fluorophore Properties", "Dissolving Charged Peptides", "Dissolving Peptides", "Dissolving Uncharged Peptides", "Lyophilized Peptides Storage", "Peptide Solubility", "Peptide Stability and Degradation"],
+    "author_bylines_present": "false",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": ["LinkedIn (https://www.linkedin.com/company/biopeptekpharmaceuticals/)"],
+    "testimonial_usage": "none observed on fetched pages",
+    "visible_influencer_endorsements": "none observed on fetched pages"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "Biopeptekbiopeptek,Biopeptekbiopeptek.com,USA,USA,US+Intl,Uncertain,Active,Institutional,Custom Peptide Synthesis,Institutional,N,May 2026,Tier 1: Legitimate institutional analytical firm."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/biopeptek/",
+  "evidence_file": "evidence/biopeptek.txt",
+  "uncertainty_notes": "Biopeptek is an institutional B2B CDMO (Contract Development and Manufacturing Organization) and analytical-services firm, not a research-peptide retail vendor. Many consumer-retail schema fields are legitimately uncertain because the business model gates pricing, payment, and shipping behind a private quote process: (a) homepage and About page do not state founding year directly; year_established=2010 is sourced from the company's LinkedIn page (linkedin_company.md L61-62); (b) homepage.hero_imagery_style — marked 'uncertain' (the value 'clinical' is recorded as an [INFERENCE] in evidence with two support quotes per Rule 19); (c) catalog.search_filter_capabilities — no public catalog UI with filters; the 'Catalog Peptides' page is a static list of 7 named therapeutic peptide capabilities (Liraglutide, Teriparatide, Teduglutide, Exenatide, Bremelanotide, Sermorelin, Gonadorelin) plus a 'Cosmetic Peptides' page that simply says 'Request A Quote'; (d) product_page_anatomy.dose_options/list_price/per_mg_cost/photographic_treatment — no per-SKU product pages exist; pricing is gated by quote/contact-form; (e) product_page_anatomy.coa_hosting — recorded as [INFERENCE] value 'none' with two support quotes (no public COA index, COAs are described as physical documents shipped with each order); (f) product_page_anatomy.lab_partner_named — analytical work appears in-house (70+ scientists per /analytical/), no third-party lab partner named on fetched pages; (g) product_page_anatomy.batch_lot_transparency — CMC-Filing page lists 'Batch record review' / 'DMF compilation' as services but these are B2B regulatory-affairs deliverables, not public batch-lot lookup; (h) trust_compliance.tos_url / tos_highlights / refund_policy — /privacy-policy, /terms-of-service, /tos, /refund-policy, /shipping all returned HTTP 404 on curl attempt 2026-05-07; site has no public TOS, privacy policy, or refund policy at typical URL patterns; (i) checkout_flow.payment_methods_accepted / shipping_carriers / shipping_cost_structure — no public checkout exists; the site has only a contact/quote-request form (per §11 boundary, did not attempt to obtain pricing through the form); (j) content_footprint.content_cadence / internal_linking_to_products — no blog or news section is published (the homepage 'Upcoming Events' carousel contains placeholder text 'Beta unit press release, to be distributed where and how?' suggesting an unfinished CMS template). One tech-stack observation worth flagging as an anomaly (not a §6.4 inferred field, just a finding): the homepage <title> SEO tag reads 'Unlocking Innovation: Your Go-To Peptide Synthesis Company – Biotech Peptides Legit & Online!' and meta description reads 'Experience excellence in peptide synthesis at Biotech Peptides – your trusted source for legit peptides online. Elevate your research journey with us.' — this consumer-style SEO copy targeting 'peptides online' / 'legit peptides' search phrases sits in tension with the institutional-CDMO front-page positioning. The newsletter signup endpoint also points to mainlinebiosciences.com (a sister entity using HubSpot). Bounds encountered: §11 — quote-form gates all pricing; did not submit the form; cosmetic-peptides page literally states 'Request A Quote' (catalog_cosmetic.md L65-67) and cgmp-overview page also ends with 'Request A Quote' (cgmp_overview.md L101). skus[] array is empty by design — Biopeptek does not expose public per-SKU pricing pages (catalog page lists only seven peptide names; pricing is gated by quote per cosmetic-peptides.md L67 and cgmp-overview.md L101). This is an honest reflection of the institutional B2B model rather than a missing fetch. Field completion ratio computed = 0.74 (49/66 leaf fields non-uncertain) → fetch_status 'ok' per Rule 17 (≥0.70 threshold)."
+}

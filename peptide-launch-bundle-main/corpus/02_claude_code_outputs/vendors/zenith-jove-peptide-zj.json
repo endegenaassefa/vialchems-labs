@@ -1,0 +1,155 @@
+{
+  "vendor_slug": "zenith-jove-peptide-zj",
+  "brand_name": "Zenith Jove Peptide ZJ",
+  "primary_domain": "https://zenithjove.com",
+
+  "fetched_url": "https://zenithjove.com",
+  "fetched_at": "2026-05-08T08:47:00Z",
+  "fetch_status": "failed",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed). Primary domain zenithjove.com failed DNS resolution on both zenithjove.com and www.zenithjove.com (curl exit 6). Wayback CDX API confirmed zero archived snapshots. gstack:browse unavailable in this WSL2 environment (Chromium sandbox error — documented in coverage_report.md Skill Gaps). All site-anatomy fields are uncertain. Secondary sources (Finnrick analytics, GLP-1 Forum archive) provide baseline-level identity and reputation data only.",
+  "field_completion_ratio": 0.22,
+
+  "country_of_operation": "China",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "us_intl",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "uncertain",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "uncertain"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": [],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": [],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "true",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": [],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": ["USDT"],
+    "shipping_carriers": [],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "unknown",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": [],
+    "marketing_pixels_present": [],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "none",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": [],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["https://www.finnrick.com/vendors/zenith-jove-peptide-zj", "https://glp1forum.com/forums/zj/"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [
+    {
+      "sku_id": "zenith-jove-peptide-zj:retatrutide-observed",
+      "name": "Retatrutide",
+      "peptide_canonical": "Retatrutide",
+      "peptide_variant": "uncertain",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": "uncertain",
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "uncertain",
+      "raw_artifact": "03_raw_fetches/zenith-jove-peptide-zj/finnrick_product_retatrutide.md",
+      "evidence_entry_id": "claim-7"
+    },
+    {
+      "sku_id": "zenith-jove-peptide-zj:tirzepatide-observed",
+      "name": "Tirzepatide",
+      "peptide_canonical": "Tirzepatide",
+      "peptide_variant": "uncertain",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": "uncertain",
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "uncertain",
+      "raw_artifact": "03_raw_fetches/zenith-jove-peptide-zj/finnrick_product_tirzepatide.md",
+      "evidence_entry_id": "claim-8"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "zenith-jove-peptide-zj,Zenith Jove Peptide ZJ,zenithjove.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list, classified as Tier 3: Chinese API supplier.,3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/zenith-jove-peptide-zj/",
+  "evidence_file": "evidence/zenith-jove-peptide-zj.txt",
+
+  "uncertainty_notes": "PRIMARY DOMAIN UNREACHABLE: zenithjove.com and www.zenithjove.com both return DNS failure (curl exit code 6: Could not resolve host). Wayback Machine CDX API confirms zero archived snapshots (empty array returned). gstack:browse unavailable in this WSL2 environment due to Chromium sandboxing failure running as root (documented in coverage_report Skill Gaps). All homepage, catalog, product_page_anatomy, trust_compliance, checkout_flow, tech_stack, and content_footprint fields are uncertain because no primary source was accessible. country_of_operation=China inferred from GLP-1 Forum subforum title 'Guangzhou ZJ Biotechnology Co (ZJ)' and Chinese New Year promotional posts by vendor rep 'Lydiawon3'. ship_to_scope=us_intl inferred from forum reviewer reports from UK (multiple confirmed UK orders), Italy (confirmed order), Mexico (confirmed order with customs issues), and California (US member inquiring about payment), plus Finnrick testing program which is US-only and received submitted samples from the public. payment_methods_accepted=[USDT] based on direct verbatim forum post: 'I had to use USDT payment although that gave me an additional 5% discount.' product_page_anatomy.coa_present=true inferred from GLP-1 Forum post: 'She provided current COAs for the peptides I liked to buy.' and GLP-1 Forum subforum thread titled 'ZJ Latest COA' and 'ZJ'S COA'. fulfillment_country uncertain — WebSearch summary mentioned China/Oregon/NJ/Canada warehouses but no verbatim quote from a saved raw artifact confirms this. year_established uncertain — no primary source available. SKU dose/price/URL fields all uncertain because the vendor website is unreachable. Two SKUs (Retatrutide, Tirzepatide) observed via Finnrick testing data only; no product page pricing captured."
+}

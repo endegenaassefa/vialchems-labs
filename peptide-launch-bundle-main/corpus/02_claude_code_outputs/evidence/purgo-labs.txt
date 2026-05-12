@@ -1,0 +1,572 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.purgolabs.com/
+[FETCHED_AT] 2026-05-08T06:52:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/homepage.md
+[LINE_RANGE] 20-22
+[QUOTE]
+"# Premium Peptides
+You Can Trust
+
+Buy peptides online in the USA that are 99% Pure, research grade."
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.purgolabs.com/
+[FETCHED_AT] 2026-05-08T06:52:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/homepage.md
+[LINE_RANGE] 294-294
+[QUOTE]
+"All products are sold for research, laboratory, or analytical purposes only, and are not for human consumption. The statements made within this website have not been evaluated by the US Food and Drug Administration."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.purgolabs.com/
+[FETCHED_AT] 2026-05-08T06:52:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/homepage.md
+[LINE_RANGE] 25-25
+[QUOTE]
+"[Shop Now→](/products)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.purgolabs.com/
+[FETCHED_AT] 2026-05-08T06:52:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/homepage.md
+[LINE_RANGE] 9-16
+[QUOTE]
+"[Products](/products)
+
+Resources
+
+[Partner Program](/affiliate)[Contact us](/contact)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://www.purgolabs.com/
+[FETCHED_AT] 2026-05-08T06:52:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/homepage.md
+[LINE_RANGE] 31-40
+[QUOTE]
+"## The Purgo Labs Standard
+
+Precision quality controls, transparent documentation, and fast operational fulfillment.
+
+99% Purity Guaranteed
+
+Or your money back"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.purgolabs.com/api/products
+[FETCHED_AT] 2026-05-08T06:53:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/api_products.md
+[LINE_RANGE] 7-7
+[QUOTE]
+[ENUMERATION] Counted from products array in api_products.md JSON response: 34 unique product entries each with 1-6 variants, totalling 47 variant SKUs.
+[FILES]
+glp-3-rt (4 variants), lgf1lr3 (2), bpc-157 (2), glp-2-trz (3), 5-amino-1mq (1), selank-semax-blend (1), tesamorln-cjc-1295-ipamorln-blend (1), cjc-1295 (1), mt1 (1), tb-500 (1), glow (1), ghk-cu (2), glow-caps (1), glutathione (2), bac-water (2), Testagen (1), vip (1), ss-31 (1), ipamorlin (1), klow (1), wolverine (2), glp-1-s (2), holistic-bac-water (1), cjc-ipamorln-blend (1), nad-plus (1), mt2 (1), mots-c (2), semax (1), aod-9604 (1), selank (1), dsip (1), tesamorlin (2), slu-pp-332 (1)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.purgolabs.com/products
+[FETCHED_AT] 2026-05-08T06:53:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/catalog_1.md
+[LINE_RANGE] 30-30
+[QUOTE]
+"CapsulesBlendsRecovery ResearchSkin & Anti-Aging ResearchMetabolic ResearchGrowth ResearchLongevity ResearchCognitive ResearchSleep Research"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://www.purgolabs.com/products
+[FETCHED_AT] 2026-05-08T06:53:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/catalog_1.md
+[LINE_RANGE] 29-30
+[QUOTE]
+"Sort by:Most PopularPrice: Low to HighPrice: High to LowName: A to Z
+
+CapsulesBlendsRecovery ResearchSkin & Anti-Aging ResearchMetabolic ResearchGrowth ResearchLongevity ResearchCognitive ResearchSleep Research"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.purgolabs.com/api/products
+[FETCHED_AT] 2026-05-08T06:53:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/api_products.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"name":"Glow Complex","slug":"glow","description":"Skin health research complex with GHK-Cu, BPC-157 & Thymosin Beta 4"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://www.purgolabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T06:53:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/product_1__bpc-157.md
+[LINE_RANGE] 22-22
+[QUOTE]
+"# BPC-157"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://www.purgolabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T06:53:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/product_1__bpc-157.md
+[LINE_RANGE] 27-27
+[QUOTE]
+"Size
+
+5mg (Out of stock)10mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://www.purgolabs.com/api/products
+[FETCHED_AT] 2026-05-08T06:53:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/api_products.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"id":"bpc-5mg","size":"5mg","price":24.99,"sku":"BPC157-5MG","stockCount":0},{"id":"bpc-10mg","size":"10mg","price":44.99,"sku":"BPC157-10MG","stockCount":224}
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.purgolabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T06:53:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/product_1__bpc-157.md
+[LINE_RANGE] 115-115
+[QUOTE]
+"- BPC-157 – Studied for angiogenesis signaling, fibroblast migration, and tissue-repair pathway models."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.purgolabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T06:53:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/product_1__bpc-157.md
+[LINE_RANGE] 129-130
+[QUOTE]
+"This product is provided strictly for qualified laboratory research use only. It is not intended for human or animal use, nor for diagnostic, therapeutic, or cosmetic application."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://www.purgolabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T06:53:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/product_1__bpc-157.md
+[LINE_RANGE] 65-80
+[QUOTE]
+"## Certificate of Analysis
+
+Third Party Tested
+
+Latest selected amount
+
+99%+
+
+Purity
+
+Variant: BPC-157
+
+Batch #1
+
+COA #1"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://www.purgolabs.com/lab-reports
+[FETCHED_AT] 2026-05-08T06:54:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/coa_1.md
+[LINE_RANGE] 18-22
+[QUOTE]
+"# Lab Reports & Certificates of Analysis
+
+Access third-party laboratory test results and certificates of analysis (COA) for all our research peptides. Each batch is tested for purity, potency, and safety."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://www.purgolabs.com/
+[FETCHED_AT] 2026-05-08T06:52:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/homepage.md
+[LINE_RANGE] 196-196
+[QUOTE]
+"No, Freedom Diagnostics (our go-to third-party lab) has indicated that in powder form, warm weather during shipping will not hurt the purity of the peptides."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://www.purgolabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T06:53:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/product_1__bpc-157.md
+[LINE_RANGE] 75-105
+[QUOTE]
+"Variant: BPC-157
+
+Batch #1
+
+COA #1
+
+Click to view full size
+
+Latest selected amount
+
+99%+
+
+Purity
+
+Variant: BPC-157
+
+Batch #2
+
+COA #2
+
+Click to view full size
+
+Latest selected amount
+
+99%+
+
+Purity
+
+Variant: BPC-157
+
+Batch #3
+
+COA #3"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://www.purgolabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T06:53:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/product_1__bpc-157.md
+[LINE_RANGE] 22-160
+[QUOTE]
+"[Excellent(All 5 Star)](https://www.google.com/search?q=purgo+labs+reviews)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://www.purgolabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T06:53:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/product_1__bpc-157.md
+[LINE_RANGE] 43-47
+[QUOTE]
+"Best Sellers
+
+[GLP-3 RView product](/products/glp-3-rt)[GLP-2 TView product](/products/glp-2-trz)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.purgolabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T06:53:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/product_1__bpc-157.md
+[LINE_RANGE] 26-26
+[QUOTE]
+"[For research use only] [Instructions not included]"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false — no age gate observed
+[REASONING]
+Homepage and all product pages fetched without encountering any interstitial modal, age verification prompt, or consent gate. The page body begins directly with navigation and product content.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.purgolabs.com/
+[FETCHED_AT] 2026-05-08T06:52:06Z
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/homepage.md
+[LINE_RANGE] 9-25
+"[Products](/products)
+
+Resources
+
+[Partner Program](/affiliate)[Contact us](/contact)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.purgolabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T06:53:43Z
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/product_1__bpc-157.md
+[LINE_RANGE] 9-26
+"[Products](/products)
+
+Resources
+
+[Partner Program](/affiliate)[Contact us](/contact)
+
+[](/account)
+
+Use code \"GLP15\" for 15% OFF site-wide"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.purgolabs.com/shipping
+[FETCHED_AT] 2026-05-08T06:53:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/shipping.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"We currently ship to valid U.S. addresses only."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.purgolabs.com/returns
+[FETCHED_AT] 2026-05-08T06:53:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/refund.md
+[LINE_RANGE] 24-24
+[QUOTE]
+"We offer a 60-day return window for unopened items. Customers are responsible for return shipping costs."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.purgolabs.com/shipping
+[FETCHED_AT] 2026-05-08T06:53:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/shipping.md
+[LINE_RANGE] 42-46
+[QUOTE]
+"• UPS Ground: $4 flat rate
+  * • UPS 3 Day Select: live rate by address
+  * • UPS 2nd Day Air: live rate by address
+  * • UPS Next Day Air: live rate by address
+  * • Free UPS 3 Day Select on orders over $250 after discount code deduction."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.purgolabs.com/faq
+[FETCHED_AT] 2026-05-08T06:53:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/faq.md
+[LINE_RANGE] 28-38
+[QUOTE]
+"What payment methods do you accept?
+
+How do cryptocurrency payments work?
+
+How do Zelle payments work?
+
+How long does it take for cryptocurrency payments to be confirmed?
+
+How long does it take for Zelle payments to be confirmed?
+
+What happens if my payment is not received?"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.purgolabs.com/shipping
+[FETCHED_AT] 2026-05-08T06:53:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/shipping.md
+[LINE_RANGE] 22-24
+[QUOTE]
+"Carrier update: As of April 5, we changed from FedEx to UPS for all new shipments."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.purgolabs.com/shipping
+[FETCHED_AT] 2026-05-08T06:53:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/shipping.md
+[LINE_RANGE] 42-46
+[QUOTE]
+"• UPS Ground: $4 flat rate
+  * • UPS 3 Day Select: live rate by address
+  * • UPS 2nd Day Air: live rate by address
+  * • UPS Next Day Air: live rate by address
+  * • Free UPS 3 Day Select on orders over $250 after discount code deduction."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.purgolabs.com/shipping
+[FETCHED_AT] 2026-05-08T06:53:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/shipping.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"We currently ship to valid U.S. addresses only."
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://www.purgolabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T06:53:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/product_1__bpc-157.md
+[LINE_RANGE] 125-140
+[QUOTE]
+"By purchasing from Purgo Labs, you affirm that you are a qualified institutional researcher or laboratory buyer. You assume full responsibility for safe handling and use in accordance with all applicable regulations."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://www.purgolabs.com/
+[FETCHED_AT] 2026-05-08T06:52:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/tech_stack.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Platform: Next.js (/_next/static/chunks/)
+CDN/Host: Vercel (server: Vercel header)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://www.purgolabs.com/
+[FETCHED_AT] 2026-05-08T06:52:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/tech_stack.md
+[LINE_RANGE] 3-4
+[QUOTE]
+"server: Vercel
+x-powered-by: Next.js"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://www.purgolabs.com/
+[FETCHED_AT] 2026-05-08T06:52:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/tech_stack.md
+[LINE_RANGE] 10-10
+[QUOTE]
+"Analytics: Google Analytics 4 - GA ID G-F6YW3CNCRC (gtag call present)"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://www.purgolabs.com/
+[FETCHED_AT] 2026-05-08T06:52:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/tech_stack.md
+[LINE_RANGE] 11-11
+[QUOTE]
+"Marketing pixel: Facebook Pixel (connect.facebook.net, fbq('init', pixelId))"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://www.purgolabs.com/
+[FETCHED_AT] 2026-05-08T06:52:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/tech_stack.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"Chat widget: none detected"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.purgolabs.com/research
+[FETCHED_AT] 2026-05-08T06:54:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/blog_1.md
+[LINE_RANGE] 18-22
+[QUOTE]
+"# Explore by compound
+
+Select any product to open its dedicated research page with mechanism notes, outcomes, amount context, and source references."
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://www.purgolabs.com/research
+[FETCHED_AT] 2026-05-08T06:54:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/blog_1.md
+[LINE_RANGE] 20-20
+[QUOTE]
+"Select any product to open its dedicated research page with mechanism notes, outcomes, amount context, and source references."
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://www.purgolabs.com/research
+[FETCHED_AT] 2026-05-08T06:54:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/blog_1.md
+[LINE_RANGE] 24-42
+[QUOTE]
+"[BAC WaterOpen full research breakdownView Research](/research/bac-water)[BPC-157Open full research breakdownView Research](/research/bpc-157)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.purgolabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T06:53:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/product_1__bpc-157.md
+[LINE_RANGE] 24-24
+[QUOTE]
+"[Excellent(All 5 Star)](https://www.google.com/search?q=purgo+labs+reviews)"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.purgolabs.com/
+[FETCHED_AT] 2026-05-08T06:52:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/homepage.md
+[LINE_RANGE] 273-273
+[QUOTE]
+"10105 E Via Linda St Bld 103, Scottsdale AZ 85258"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.purgolabs.com/
+[FETCHED_AT] 2026-05-08T06:52:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/homepage.md
+[LINE_RANGE] 64-64
+[QUOTE]
+"CoA with Every Batch
+
+Third party tested in America"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.purgolabs.com/shipping
+[FETCHED_AT] 2026-05-08T06:53:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/shipping.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"We currently ship to valid U.S. addresses only."
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[INFERENCE] false — no author bylines observed
+[REASONING]
+Research library lists compound entries with View Research links only, no author names. Product pages similarly contain no byline attribution.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.purgolabs.com/research
+[FETCHED_AT] 2026-05-08T06:54:00Z
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/blog_1.md
+[LINE_RANGE] 18-42
+"# Explore by compound
+
+Select any product to open its dedicated research page with mechanism notes, outcomes, amount context, and source references.
+
+[View all products](/products)[COA & lab reports](/lab-reports)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.purgolabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-08T06:53:43Z
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/product_1__bpc-157.md
+[LINE_RANGE] 113-120
+"## Research Information
+
+### Contents
+
+  * \- BPC-157 – Studied for angiogenesis signaling, fibroblast migration, and tissue-repair pathway models."
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus (pricing data for all SKUs)
+[URL] https://www.purgolabs.com/api/products
+[FETCHED_AT] 2026-05-08T06:53:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purgo-labs/api_products.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"id":"bpc-5mg","size":"5mg","price":24.99,"sku":"BPC157-5MG","stockCount":0},{"id":"bpc-10mg","size":"10mg","price":44.99,"sku":"BPC157-10MG","stockCount":224}
+[/QUOTE]

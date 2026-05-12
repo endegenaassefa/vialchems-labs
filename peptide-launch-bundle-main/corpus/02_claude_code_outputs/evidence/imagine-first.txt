@@ -1,0 +1,339 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.imaginefirstlabs.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/homepage.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"##  Every compound serves a research purpose. "
+[/QUOTE]
+[URL] https://www.imaginefirstlabs.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/homepage.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"Our catalog is intentionally curated—focused on research compounds selected for relevance, consistency, and meaningful exploration. "
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.imaginefirstlabs.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/homepage.md
+[LINE_RANGE] 61-61
+[QUOTE]
+"[ View Catalog ](/collections/all)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.imaginefirstlabs.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/homepage.md
+[LINE_RANGE] 34-38
+[QUOTE]
+"  * [ Home ](/)"
+[/QUOTE]
+[URL] https://www.imaginefirstlabs.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/homepage.md
+[LINE_RANGE] 35-35
+[QUOTE]
+"  * [ Catalog ](/collections/all)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.imaginefirstlabs.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/homepage.md
+[LINE_RANGE] 275-275
+[QUOTE]
+"Imagine First is a chemical supplier. Imagine First is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. Imagine First is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic act."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.imaginefirstlabs.com/policies/shipping-policy
+[FETCHED_AT] 2026-05-07T00:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/shipping.md
+[LINE_RANGE] 73-73
+[QUOTE]
+"We currently ship to **addresses within the United States** only. We do not ship internationally at this time."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.imaginefirstlabs.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/homepage.md
+[LINE_RANGE] 260-260
+[QUOTE]
+"2934 E Garvey Ave S #250   "
+[/QUOTE]
+[URL] https://www.imaginefirstlabs.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/homepage.md
+[LINE_RANGE] 261-261
+[QUOTE]
+"West Covina, CA 91791 "
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.imaginefirstlabs.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/homepage.md
+[LINE_RANGE] 191-191
+[QUOTE]
+"At Imagine First Labs, we partner with a U.S.-based laboratory operating under strict industry-standard quality assurance protocols and clean sourcing practices. Our compounds are manufactured domestically for those who prioritize reliability, consistency, and elevated standards."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.imaginefirstlabs.com/collections/all
+[FETCHED_AT] 2026-05-07T00:01:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/catalog_1.md
+[LINE_RANGE] 69-69
+[QUOTE]
+"  * In stock (16)  In stock (16 products) "
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://www.imaginefirstlabs.com/collections/all
+[FETCHED_AT] 2026-05-07T00:01:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/catalog_1.md
+[LINE_RANGE] 76-76
+[QUOTE]
+"The highest price is $479.00 [ Reset ](/collections/all)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://www.imaginefirstlabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-07T00:02:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/product_1__bpc-157.md
+[LINE_RANGE] 70-70
+[QUOTE]
+"# BPC-157"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://www.imaginefirstlabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-07T00:02:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/product_1__bpc-157.md
+[LINE_RANGE] 74-74
+[QUOTE]
+"Regular price $49.00 "
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://www.imaginefirstlabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-07T00:02:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/product_1__bpc-157.md
+[LINE_RANGE] 84-84
+[QUOTE]
+"10MG VIAL  THREE - 10MG VIALS "
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.imaginefirstlabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-07T00:02:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/product_1__bpc-157.md
+[LINE_RANGE] 98-98
+[QUOTE]
+"A **15-amino-acid peptide** originally derived from **human gastric juice** , investigated in **animal and cellular research models** for its **protective and regenerative effects**."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.imaginefirstlabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-07T00:02:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/product_1__bpc-157.md
+[LINE_RANGE] 102-102
+[QUOTE]
+"For Research Use Only."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://www.imaginefirstlabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-07T00:02:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/product_1__bpc-157.md
+[LINE_RANGE] 104-104
+[QUOTE]
+"Current Batch:"
+[/QUOTE]
+[URL] https://www.imaginefirstlabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-07T00:02:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/product_1__bpc-157.md
+[LINE_RANGE] 106-106
+[QUOTE]
+"10MG : IF-5794631"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://www.imaginefirstlabs.com/products/bpc-157
+[FETCHED_AT] 2026-05-07T00:02:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/product_1__bpc-157.md
+[LINE_RANGE] 116-116
+[QUOTE]
+"## BPC-157 - 10MG - COA"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.imaginefirstlabs.com/policies/refund-policy
+[FETCHED_AT] 2026-05-07T00:05:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/refund.md
+[LINE_RANGE] 107-107
+[QUOTE]
+"All products offered by Imagine First are sold **exclusively for research purposes** and are **not intended for human or animal consumption**. By placing an order, you represent that you are purchasing for lawful research-related use and acknowledge all posted disclaimers."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.imaginefirstlabs.com/policies/terms-of-service
+[FETCHED_AT] 2026-05-07T00:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/tos.md
+[LINE_RANGE] 73-73
+[QUOTE]
+"This Site is intended solely for individuals **21 years of age or older**."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.imaginefirstlabs.com/policies/refund-policy
+[FETCHED_AT] 2026-05-07T00:05:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/refund.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"In accordance with California law and due to the nature of the products offered by **Imagine First** , **all sales are final**. We do **not accept returns, exchanges, or issue refunds** once an order has been placed."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.imaginefirstlabs.com/policies/shipping-policy
+[FETCHED_AT] 2026-05-07T00:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/shipping.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"All orders are processed within **1–2 business days** (excluding weekends and holidays) after payment is confirmed."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.imaginefirstlabs.com/policies/terms-of-service
+[FETCHED_AT] 2026-05-07T00:06:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/tos.md
+[LINE_RANGE] 165-165
+[QUOTE]
+"At this time, **Zelle is the primary and accepted payment method** for all orders."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.imaginefirstlabs.com/policies/shipping-policy
+[FETCHED_AT] 2026-05-07T00:04:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/shipping.md
+[LINE_RANGE] 73-73
+[QUOTE]
+"We currently ship to **addresses within the United States** only. We do not ship internationally at this time."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://www.imaginefirstlabs.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/homepage.md
+[LINE_RANGE] 282-282
+[QUOTE]
+"© 2026, [Imagine First](/) [ ](https://www.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.imaginefirstlabs.com/blogs/the-road-ahead
+[FETCHED_AT] 2026-05-07T00:07:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/blog_1.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"#  The Road Ahead "
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://www.imaginefirstlabs.com/blogs/the-road-ahead
+[FETCHED_AT] 2026-05-07T00:07:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/blog_1.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"December 23, 2025"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[INFERENCE] Trustpilot page exists at www.trustpilot.com/review/www.imaginefirstlabs.com
+[REASONING]
+WebSearch confirmed a Trustpilot review page for imaginefirstlabs.com exists. The page was not directly fetchable (curl exit code 3, archive.org also failed). The vendor domain and branding are confirmed via successfully fetched pages, supporting the inference that the Trustpilot listing corresponds to this vendor.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.imaginefirstlabs.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/homepage.md
+[LINE_RANGE] 263-263
+"support@imaginefirstlabs.com"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.imaginefirstlabs.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/homepage.md
+[LINE_RANGE] 282-282
+"© 2026, [Imagine First](/) [ ](https://www.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[sku_id=imagine-first:glp-3r-retatrutide].list_price_usd
+[URL] https://www.imaginefirstlabs.com/products/retatrutide
+[FETCHED_AT] 2026-05-07T00:03:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/product_2__retatrutide.md
+[LINE_RANGE] 74-74
+[QUOTE]
+"Regular price $99.00 "
+[/QUOTE]
+
+[CLAIM] skus[sku_id=imagine-first:glp-3r-retatrutide].dose_options
+[URL] https://www.imaginefirstlabs.com/products/retatrutide
+[FETCHED_AT] 2026-05-07T00:03:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/product_2__retatrutide.md
+[LINE_RANGE] 84-84
+[QUOTE]
+"10MG VIAL  15MG VIAL  30MG VIAL  THREE - 10MG VIALS  THREE - 15MG VIALS  THREE - 30MG VIALS "
+[/QUOTE]
+
+[CLAIM] skus[catalog-prices].list_price_usd
+[URL] https://www.imaginefirstlabs.com/collections/all
+[FETCHED_AT] 2026-05-07T00:01:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/catalog_1.md
+[LINE_RANGE] 147-147
+[QUOTE]
+"Regular price From $99.00 "
+[/QUOTE]
+[URL] https://www.imaginefirstlabs.com/collections/all
+[FETCHED_AT] 2026-05-07T00:01:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/imagine-first/catalog_1.md
+[LINE_RANGE] 329-329
+[QUOTE]
+"Regular price $69.00 "
+[/QUOTE]

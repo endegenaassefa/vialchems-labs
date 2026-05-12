@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, user-scalable=yes" />
+	<script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var ewww_webp_supported=!1;function check_webp_feature(A,e){var w;e=void 0!==e?e:function(){},ewww_webp_supported?e(ewww_webp_supported):((w=new Image).onload=function(){ewww_webp_supported=0<w.width&&0<w.height,e&&e(ewww_webp_supported)},w.onerror=function(){e&&e(!1)},w.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA=="}[A])}check_webp_feature("alpha");</script><script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">var Arrive=function(c,w){"use strict";if(c.MutationObserver&&"undefined"!=typeof HTMLElement){var r,a=0,u=(r=HTMLElement.prototype.matches||HTMLElement.prototype.webkitMatchesSelector||HTMLElement.prototype.mozMatchesSelector||HTMLElement.prototype.msMatchesSelector,{matchesSelector:function(e,t){return e instanceof HTMLElement&&r.call(e,t)},addMethod:function(e,t,r){var a=e[t];e[t]=function(){return r.length==arguments.length?r.apply(this,arguments):"function"==typeof a?a.apply(this,arguments):void 0}},callCallbacks:function(e,t){t&&t.options.onceOnly&&1==t.firedElems.length&&(e=[e[0]]);for(var r,a=0;r=e[a];a++)r&&r.callback&&r.callback.call(r.elem,r.elem);t&&t.options.onceOnly&&1==t.firedElems.length&&t.me.unbindEventWithSelectorAndCallback.call(t.target,t.selector,t.callback)},checkChildNodesRecursively:function(e,t,r,a){for(var i,n=0;i=e[n];n++)r(i,t,a)&&a.push({callback:t.callback,elem:i}),0<i.childNodes.length&&u.checkChildNodesRecursively(i.childNodes,t,r,a)},mergeArrays:function(e,t){var r,a={};for(r in e)e.hasOwnProperty(r)&&(a[r]=e[r]);for(r in t)t.hasOwnProperty(r)&&(a[r]=t[r]);return a},toElementsArray:function(e){return e=void 0!==e&&("number"!=typeof e.length||e===c)?[e]:e}}),e=(l.prototype.addEvent=function(e,t,r,a){a={target:e,selector:t,options:r,callback:a,firedElems:[]};return this._beforeAdding&&this._beforeAdding(a),this._eventsBucket.push(a),a},l.prototype.removeEvent=function(e){for(var t,r=this._eventsBucket.length-1;t=this._eventsBucket[r];r--)e(t)&&(this._beforeRemoving&&this._beforeRemoving(t),(t=this._eventsBucket.splice(r,1))&&t.length&&(t[0].callback=null))},l.prototype.beforeAdding=function(e){this._beforeAdding=e},l.prototype.beforeRemoving=function(e){this._beforeRemoving=e},l),t=function(i,n){var o=new e,l=this,s={fireOnAttributesModification:!1};return o.beforeAdding(function(t){var e=t.target;e!==c.document&&e!==c||(e=document.getElementsByTagName("html")[0]);var r=new MutationObserver(function(e){n.call(this,e,t)}),a=i(t.options);r.observe(e,a),t.observer=r,t.me=l}),o.beforeRemoving(function(e){e.observer.disconnect()}),this.bindEvent=function(e,t,r){t=u.mergeArrays(s,t);for(var a=u.toElementsArray(this),i=0;i<a.length;i++)o.addEvent(a[i],e,t,r)},this.unbindEvent=function(){var r=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<r.length;t++)if(this===w||e.target===r[t])return!0;return!1})},this.unbindEventWithSelectorOrCallback=function(r){var a=u.toElementsArray(this),i=r,e="function"==typeof r?function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.callback===i)return!0;return!1}:function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.selector===r)return!0;return!1};o.removeEvent(e)},this.unbindEventWithSelectorAndCallback=function(r,a){var i=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<i.length;t++)if((this===w||e.target===i[t])&&e.selector===r&&e.callback===a)return!0;return!1})},this},i=new function(){var s={fireOnAttributesModification:!1,onceOnly:!1,existing:!1};function n(e,t,r){return!(!u.matchesSelector(e,t.selector)||(e._id===w&&(e._id=a++),-1!=t.firedElems.indexOf(e._id)))&&(t.firedElems.push(e._id),!0)}var c=(i=new t(function(e){var t={attributes:!1,childList:!0,subtree:!0};return e.fireOnAttributesModification&&(t.attributes=!0),t},function(e,i){e.forEach(function(e){var t=e.addedNodes,r=e.target,a=[];null!==t&&0<t.length?u.checkChildNodesRecursively(t,i,n,a):"attributes"===e.type&&n(r,i)&&a.push({callback:i.callback,elem:r}),u.callCallbacks(a,i)})})).bindEvent;return i.bindEvent=function(e,t,r){t=void 0===r?(r=t,s):u.mergeArrays(s,t);var a=u.toElementsArray(this);if(t.existing){for(var i=[],n=0;n<a.length;n++)for(var o=a[n].querySelectorAll(e),l=0;l<o.length;l++)i.push({callback:r,elem:o[l]});if(t.onceOnly&&i.length)return r.call(i[0].elem,i[0].elem);setTimeout(u.callCallbacks,1,i)}c.call(this,e,t,r)},i},o=new function(){var a={};function i(e,t){return u.matchesSelector(e,t.selector)}var n=(o=new t(function(){return{childList:!0,subtree:!0}},function(e,r){e.forEach(function(e){var t=e.removedNodes,e=[];null!==t&&0<t.length&&u.checkChildNodesRecursively(t,r,i,e),u.callCallbacks(e,r)})})).bindEvent;return o.bindEvent=function(e,t,r){t=void 0===r?(r=t,a):u.mergeArrays(a,t),n.call(this,e,t,r)},o};d(HTMLElement.prototype),d(NodeList.prototype),d(HTMLCollection.prototype),d(HTMLDocument.prototype),d(Window.prototype);var n={};return s(i,n,"unbindAllArrive"),s(o,n,"unbindAllLeave"),n}function l(){this._eventsBucket=[],this._beforeAdding=null,this._beforeRemoving=null}function s(e,t,r){u.addMethod(t,r,e.unbindEvent),u.addMethod(t,r,e.unbindEventWithSelectorOrCallback),u.addMethod(t,r,e.unbindEventWithSelectorAndCallback)}function d(e){e.arrive=i.bindEvent,s(i,e,"unbindArrive"),e.leave=o.bindEvent,s(o,e,"unbindLeave")}}(window,void 0),ewww_webp_supported=!1;function check_webp_feature(e,t){var r;ewww_webp_supported?t(ewww_webp_supported):((r=new Image).onload=function(){ewww_webp_supported=0<r.width&&0<r.height,t(ewww_webp_supported)},r.onerror=function(){t(!1)},r.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",animation:"UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"}[e])}function ewwwLoadImages(e){if(e){for(var t=document.querySelectorAll(".batch-image img, .image-wrapper a, .ngg-pro-masonry-item a, .ngg-galleria-offscreen-seo-wrapper a"),r=0,a=t.length;r<a;r++)ewwwAttr(t[r],"data-src",t[r].getAttribute("data-webp")),ewwwAttr(t[r],"data-thumbnail",t[r].getAttribute("data-webp-thumbnail"));for(var i=document.querySelectorAll("div.woocommerce-product-gallery__image"),r=0,a=i.length;r<a;r++)ewwwAttr(i[r],"data-thumb",i[r].getAttribute("data-webp-thumb"))}for(var n=document.querySelectorAll("video"),r=0,a=n.length;r<a;r++)ewwwAttr(n[r],"poster",e?n[r].getAttribute("data-poster-webp"):n[r].getAttribute("data-poster-image"));for(var o,l=document.querySelectorAll("img.ewww_webp_lazy_load"),r=0,a=l.length;r<a;r++)e&&(ewwwAttr(l[r],"data-lazy-srcset",l[r].getAttribute("data-lazy-srcset-webp")),ewwwAttr(l[r],"data-srcset",l[r].getAttribute("data-srcset-webp")),ewwwAttr(l[r],"data-lazy-src",l[r].getAttribute("data-lazy-src-webp")),ewwwAttr(l[r],"data-src",l[r].getAttribute("data-src-webp")),ewwwAttr(l[r],"data-orig-file",l[r].getAttribute("data-webp-orig-file")),ewwwAttr(l[r],"data-medium-file",l[r].getAttribute("data-webp-medium-file")),ewwwAttr(l[r],"data-large-file",l[r].getAttribute("data-webp-large-file")),null!=(o=l[r].getAttribute("srcset"))&&!1!==o&&o.includes("R0lGOD")&&ewwwAttr(l[r],"src",l[r].getAttribute("data-lazy-src-webp"))),l[r].className=l[r].className.replace(/\bewww_webp_lazy_load\b/,"");for(var s=document.querySelectorAll(".ewww_webp"),r=0,a=s.length;r<a;r++)e?(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-webp")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-webp")),ewwwAttr(s[r],"data-orig-file",s[r].getAttribute("data-webp-orig-file")),ewwwAttr(s[r],"data-medium-file",s[r].getAttribute("data-webp-medium-file")),ewwwAttr(s[r],"data-large-file",s[r].getAttribute("data-webp-large-file")),ewwwAttr(s[r],"data-large_image",s[r].getAttribute("data-webp-large_image")),ewwwAttr(s[r],"data-src",s[r].getAttribute("data-webp-src"))):(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-img")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-img"))),s[r].className=s[r].className.replace(/\bewww_webp\b/,"ewww_webp_loaded");window.jQuery&&jQuery.fn.isotope&&jQuery.fn.imagesLoaded&&(jQuery(".fusion-posts-container-infinite").imagesLoaded(function(){jQuery(".fusion-posts-container-infinite").hasClass("isotope")&&jQuery(".fusion-posts-container-infinite").isotope()}),jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").imagesLoaded(function(){jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").isotope()}))}function ewwwWebPInit(e){ewwwLoadImages(e),ewwwNggLoadGalleries(e),document.arrive(".ewww_webp",function(){ewwwLoadImages(e)}),document.arrive(".ewww_webp_lazy_load",function(){ewwwLoadImages(e)}),document.arrive("videos",function(){ewwwLoadImages(e)}),"loading"==document.readyState?document.addEventListener("DOMContentLoaded",ewwwJSONParserInit):("undefined"!=typeof galleries&&ewwwNggParseGalleries(e),ewwwWooParseVariations(e))}function ewwwAttr(e,t,r){null!=r&&!1!==r&&e.setAttribute(t,r)}function ewwwJSONParserInit(){"undefined"!=typeof galleries&&check_webp_feature("alpha",ewwwNggParseGalleries),check_webp_feature("alpha",ewwwWooParseVariations)}function ewwwWooParseVariations(e){if(e)for(var t=document.querySelectorAll("form.variations_form"),r=0,a=t.length;r<a;r++){var i=t[r].getAttribute("data-product_variations"),n=!1;try{for(var o in i=JSON.parse(i))void 0!==i[o]&&void 0!==i[o].image&&(void 0!==i[o].image.src_webp&&(i[o].image.src=i[o].image.src_webp,n=!0),void 0!==i[o].image.srcset_webp&&(i[o].image.srcset=i[o].image.srcset_webp,n=!0),void 0!==i[o].image.full_src_webp&&(i[o].image.full_src=i[o].image.full_src_webp,n=!0),void 0!==i[o].image.gallery_thumbnail_src_webp&&(i[o].image.gallery_thumbnail_src=i[o].image.gallery_thumbnail_src_webp,n=!0),void 0!==i[o].image.thumb_src_webp&&(i[o].image.thumb_src=i[o].image.thumb_src_webp,n=!0));n&&ewwwAttr(t[r],"data-product_variations",JSON.stringify(i))}catch(e){}}}function ewwwNggParseGalleries(e){if(e)for(var t in galleries){var r=galleries[t];galleries[t].images_list=ewwwNggParseImageList(r.images_list)}}function ewwwNggLoadGalleries(e){e&&document.addEventListener("ngg.galleria.themeadded",function(e,t){window.ngg_galleria._create_backup=window.ngg_galleria.create,window.ngg_galleria.create=function(e,t){var r=$(e).data("id");return galleries["gallery_"+r].images_list=ewwwNggParseImageList(galleries["gallery_"+r].images_list),window.ngg_galleria._create_backup(e,t)}})}function ewwwNggParseImageList(e){for(var t in e){var r=e[t];if(void 0!==r["image-webp"]&&(e[t].image=r["image-webp"],delete e[t]["image-webp"]),void 0!==r["thumb-webp"]&&(e[t].thumb=r["thumb-webp"],delete e[t]["thumb-webp"]),void 0!==r.full_image_webp&&(e[t].full_image=r.full_image_webp,delete e[t].full_image_webp),void 0!==r.srcsets)for(var a in r.srcsets)nggSrcset=r.srcsets[a],void 0!==r.srcsets[a+"-webp"]&&(e[t].srcsets[a]=r.srcsets[a+"-webp"],delete e[t].srcsets[a+"-webp"]);if(void 0!==r.full_srcsets)for(var i in r.full_srcsets)nggFSrcset=r.full_srcsets[i],void 0!==r.full_srcsets[i+"-webp"]&&(e[t].full_srcsets[i]=r.full_srcsets[i+"-webp"],delete e[t].full_srcsets[i+"-webp"])}return e}check_webp_feature("alpha",ewwwWebPInit);</script>
+<!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
+<title>Retatrutide Peptide For Sale | Magellan RX Management</title>
+<meta name="description" content="Compare the best retatrutide sellers in the US (cost, quality &amp; reliability). Magellan RX Management helps you to buy retatrutide peptide smarter."/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://www1.magellanrx.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Retatrutide Peptide For Sale | Magellan RX Management" />
+<meta property="og:description" content="Compare the best retatrutide sellers in the US (cost, quality &amp; reliability). Magellan RX Management helps you to buy retatrutide peptide smarter." />
+<meta property="og:url" content="https://www1.magellanrx.com/" />
+<meta property="og:site_name" content="Magellan Pharmacy" />
+<meta property="og:updated_time" content="2026-01-17T05:07:23-05:00" />
+<meta property="article:published_time" content="2022-11-06T19:44:28-05:00" />
+<meta property="article:modified_time" content="2026-01-17T05:07:23-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Retatrutide Peptide For Sale | Magellan RX Management" />
+<meta name="twitter:description" content="Compare the best retatrutide sellers in the US (cost, quality &amp; reliability). Magellan RX Management helps you to buy retatrutide peptide smarter." />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Dr. Richard Vaughn" />
+<meta name="twitter:label2" content="Time to read" />
+<meta name="twitter:data2" content="6 minutes" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[[{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Buy Retatrutide Peptide: Top US VENDORS","url":"https://www1.magellanrx.com/#buy-retatrutide-peptide-top-us-suppliers-ranked-for-cost-quality"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Retatrutide Peptide - Buy From the Best US Sellers (Ranked by Magellan RX Management)","url":"https://www1.magellanrx.com/#buy-retatrutide-peptide-from-the-best-us-sellers-ranked-by-magellan-rx-management"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Retatrutide how to get - Vendor Reviews","url":"https://www1.magellanrx.com/#retatrutide-how-to-get-vendor-reviews"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"1. Peptide Sciences","url":"https://www1.magellanrx.com/#1-peptide-sciences"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"2. LeoLab RX \u2014 Top Ranked Overall","url":"https://www1.magellanrx.com/#2-leo-lab-rx-top-ranked-overall"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"3. Simple Peptide","url":"https://www1.magellanrx.com/#3-simple-peptide"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Vendor Comparison Table by magellanrx.com","url":"https://www1.magellanrx.com/#vendor-comparison-table"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Pricing &amp; Availability Notes","url":"https://www1.magellanrx.com/#pricing-availability-notes"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Why LeoLab RX Ranks #1","url":"https://www1.magellanrx.com/#why-leo-lab-rx-ranks-1"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Frequently Asked Questions (FAQ)","url":"https://www1.magellanrx.com/#frequently-asked-questions-faq"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Why do vendors label retatrutide as \u201cresearch use only\u201d?","url":"https://www1.magellanrx.com/#faq-question-1766655141342"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Does a higher rank mean medical endorsement?","url":"https://www1.magellanrx.com/#faq-question-1766655165484"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Retatrutide: how to get it?","url":"https://www1.magellanrx.com/#faq-question-1766655193266"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Where to get retatrutide?","url":"https://www1.magellanrx.com/#faq-question-1766655218458"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"What is the retatrutide cost?","url":"https://www1.magellanrx.com/#faq-question-1766655446973"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"What is the average retatrutide price online?","url":"https://www1.magellanrx.com/#faq-question-1766655457849"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Does Magellan RX Management sell retatrutide?","url":"https://www1.magellanrx.com/#faq-question-1766655487627"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Do I need to complete a standard Medicaid prior authorization form to purchase retatrutide?","url":"https://www1.magellanrx.com/#faq-question-1768640627364"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"How does retatrutide differ from traditional diabetic supplies or medications?","url":"https://www1.magellanrx.com/#faq-question-1768641139270"},{"@context":"https://schema.org","@type":"SiteNavigationElement","@id":"#rank-math-toc","name":"Retatrutide Discount Codes","url":"https://www1.magellanrx.com/#best-new-casino-bonuses"}],{"@type":["Person","Organization"],"@id":"https://www1.magellanrx.com/#person","name":"Magellan Pharmacy","logo":{"@type":"ImageObject","@id":"https://www1.magellanrx.com/#logo","url":"https://www1.magellanrx.com/wp-content/uploads/2022/11/logo.webp","contentUrl":"https://www1.magellanrx.com/wp-content/uploads/2022/11/logo.webp","caption":"Magellan Pharmacy","inLanguage":"en-US"},"image":{"@type":"ImageObject","@id":"https://www1.magellanrx.com/#logo","url":"https://www1.magellanrx.com/wp-content/uploads/2022/11/logo.webp","contentUrl":"https://www1.magellanrx.com/wp-content/uploads/2022/11/logo.webp","caption":"Magellan Pharmacy","inLanguage":"en-US"}},{"@type":"WebSite","@id":"https://www1.magellanrx.com/#website","url":"https://www1.magellanrx.com","name":"Magellan Pharmacy","publisher":{"@id":"https://www1.magellanrx.com/#person"},"inLanguage":"en-US","potentialAction":{"@type":"SearchAction","target":"https://www1.magellanrx.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":["WebPage","FAQPage"],"@id":"https://www1.magellanrx.com/#webpage","url":"https://www1.magellanrx.com/","name":"Retatrutide Peptide For Sale | Magellan RX Management","datePublished":"2022-11-06T19:44:28-05:00","dateModified":"2026-01-17T05:07:23-05:00","about":{"@id":"https://www1.magellanrx.com/#person"},"isPartOf":{"@id":"https://www1.magellanrx.com/#website"},"inLanguage":"en-US","mainEntity":[{"@type":"Question","url":"https://www1.magellanrx.com/#faq-question-1766655141342","name":"Why do vendors label retatrutide as \u201cresearch use only\u201d?","acceptedAnswer":{"@type":"Answer","text":"This designation indicates products are intended for laboratory research and not for human consumption, which places them outside standard pharmaceutical regulation."}},{"@type":"Question","url":"https://www1.magellanrx.com/#faq-question-1766655165484","name":"Does a higher rank mean medical endorsement?","acceptedAnswer":{"@type":"Answer","text":"No. Rankings reflect operational reliability and transparency only, not medical suitability or safety."}},{"@type":"Question","url":"https://www1.magellanrx.com/#faq-question-1766655193266","name":"Retatrutide: how to get it?","acceptedAnswer":{"@type":"Answer","text":"If you\u2019re researching <strong>retatrutide how to get</strong>, it\u2019s important to understand that retatrutide is not FDA-approved. Legitimate access today is limited to <strong>clinical research settings</strong> or physician-supervised trials. Online vendors (such as LeoLab RX or Peptide Sciences) market retatrutide peptides strictly for laboratory research purposes, not for human use."}},{"@type":"Question","url":"https://www1.magellanrx.com/#faq-question-1766655218458","name":"Where to get retatrutide?","acceptedAnswer":{"@type":"Answer","text":"When asking <strong>where to get retatrutide</strong>, there are two distinct paths:<br> - Participation in authorized clinical trials.<br> - Research-only peptide suppliers that sell retatrutide labeled for laboratory use.<br>These two options are not equivalent in terms of regulation, oversight, or intended use."}},{"@type":"Question","url":"https://www1.magellanrx.com/#faq-question-1766655446973","name":"What is the retatrutide cost?","acceptedAnswer":{"@type":"Answer","text":"The retatrutide cost varies widely depending on form, quantity, and seller. Research-grade peptide listings typically range from lower-cost experimental compounds to significantly higher-priced options depending on batch size and vendor reputation. <strong>At the time of review, the average advertised price for a 1 mg vial of retatrutide from research-use suppliers was approximately $18, though prices may fluctuate based on availability and volume.</strong>"}},{"@type":"Question","url":"https://www1.magellanrx.com/#faq-question-1766655457849","name":"What is the average retatrutide price online?","acceptedAnswer":{"@type":"Answer","text":"The retatrutide price advertised by research suppliers often differs between vendors due to purity claims, packaging, and service levels. Prices are not standardized and should not be compared to prescription medications or investigational drugs used in regulated trials. <strong>At the time of review, the average advertised price for a 10 mg vial of retatrutide from research-use suppliers was approximately $210, though actual pricing may vary by vendor and availability.</strong>"}},{"@type":"Question","url":"https://www1.magellanrx.com/#faq-question-1766655487627","name":"Does Magellan RX Management sell retatrutide?","acceptedAnswer":{"@type":"Answer","text":"No. Magellan RX Management does not sell peptides. This page provides <strong>independent vendor comparisons</strong> based on observable operational and reliability factors."}},{"@type":"Question","url":"https://www1.magellanrx.com/#faq-question-1768640627364","name":"Do I need to complete a standard Medicaid prior authorization form to purchase retatrutide?","acceptedAnswer":{"@type":"Answer","text":"No. Because Medicaid does not cover retatrutide, there is no requirement to submit or complete a standard Medicaid prior authorization form."}},{"@type":"Question","url":"https://www1.magellanrx.com/#faq-question-1768641139270","name":"How does retatrutide differ from traditional diabetic supplies or medications?","acceptedAnswer":{"@type":"Answer","text":"Unlike traditional diabetic supplies such as glucose meters or single-pathway medications, retatrutide uses a multi-receptor approach that addresses several metabolic processes at once, potentially offering broader benefits."}}]},{"@type":"Person","@id":"https://www1.magellanrx.com/author/magellan99/","name":"Dr. Richard Vaughn","url":"https://www1.magellanrx.com/author/magellan99/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/d97761c7dea516ec94df6c21eada89c9fcba73e25446e217fa6b89ceaad54d5f?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/d97761c7dea516ec94df6c21eada89c9fcba73e25446e217fa6b89ceaad54d5f?s=96&amp;d=mm&amp;r=g","caption":"Dr. Richard Vaughn","inLanguage":"en-US"},"sameAs":["https://www1.magellanrx.com"]},{"@type":"Article","headline":"Retatrutide Peptide For Sale | Magellan RX Management","datePublished":"2022-11-06T19:44:28-05:00","dateModified":"2026-01-17T05:07:23-05:00","author":{"@id":"https://www1.magellanrx.com/author/magellan99/","name":"Dr. Richard Vaughn"},"publisher":{"@id":"https://www1.magellanrx.com/#person"},"description":"Compare the best retatrutide sellers in the US (cost, quality &amp; reliability). Magellan RX Management helps you to buy retatrutide peptide smarter.","name":"Retatrutide Peptide For Sale | Magellan RX Management","@id":"https://www1.magellanrx.com/#richSnippet","isPartOf":{"@id":"https://www1.magellanrx.com/#webpage"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://www1.magellanrx.com/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Magellan Rx Management &raquo; Feed" href="https://www1.magellanrx.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Magellan Rx Management &raquo; Comments Feed" href="https://www1.magellanrx.com/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www1.magellanrx.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww1.magellanrx.com%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www1.magellanrx.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww1.magellanrx.com%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id='wp-block-library-inline-css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id='wp-block-cover-inline-css'>
+.wp-block-cover,.wp-block-cover-image{align-items:center;background-position:50%;box-sizing:border-box;display:flex;justify-content:center;min-height:430px;overflow:hidden;overflow:clip;padding:1em;position:relative}.wp-block-cover .has-background-dim:not([class*=-background-color]),.wp-block-cover-image .has-background-dim:not([class*=-background-color]),.wp-block-cover-image.has-background-dim:not([class*=-background-color]),.wp-block-cover.has-background-dim:not([class*=-background-color]){background-color:#000}.wp-block-cover .has-background-dim.has-background-gradient,.wp-block-cover-image .has-background-dim.has-background-gradient{background-color:initial}.wp-block-cover-image.has-background-dim:before,.wp-block-cover.has-background-dim:before{background-color:inherit;content:""}.wp-block-cover .wp-block-cover__background,.wp-block-cover .wp-block-cover__gradient-background,.wp-block-cover-image .wp-block-cover__background,.wp-block-cover-image .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim:not(.has-background-gradient):before,.wp-block-cover.has-background-dim:not(.has-background-gradient):before{bottom:0;left:0;opacity:.5;position:absolute;right:0;top:0}.wp-block-cover-image.has-background-dim.has-background-dim-10 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-10 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-10:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-10 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-10 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-10:not(.has-background-gradient):before{opacity:.1}.wp-block-cover-image.has-background-dim.has-background-dim-20 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-20 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-20:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-20 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-20 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-20:not(.has-background-gradient):before{opacity:.2}.wp-block-cover-image.has-background-dim.has-background-dim-30 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-30 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-30:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-30 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-30 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-30:not(.has-background-gradient):before{opacity:.3}.wp-block-cover-image.has-background-dim.has-background-dim-40 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-40 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-40:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-40 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-40 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-40:not(.has-background-gradient):before{opacity:.4}.wp-block-cover-image.has-background-dim.has-background-dim-50 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-50 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-50:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-50 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-50 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-50:not(.has-background-gradient):before{opacity:.5}.wp-block-cover-image.has-background-dim.has-background-dim-60 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-60 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-60:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-60 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-60 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-60:not(.has-background-gradient):before{opacity:.6}.wp-block-cover-image.has-background-dim.has-background-dim-70 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-70 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-70:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-70 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-70 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-70:not(.has-background-gradient):before{opacity:.7}.wp-block-cover-image.has-background-dim.has-background-dim-80 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-80 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-80:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-80 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-80 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-80:not(.has-background-gradient):before{opacity:.8}.wp-block-cover-image.has-background-dim.has-background-dim-90 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-90 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-90:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-90 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-90 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-90:not(.has-background-gradient):before{opacity:.9}.wp-block-cover-image.has-background-dim.has-background-dim-100 .wp-block-cover__background,.wp-block-cover-image.has-background-dim.has-background-dim-100 .wp-block-cover__gradient-background,.wp-block-cover-image.has-background-dim.has-background-dim-100:not(.has-background-gradient):before,.wp-block-cover.has-background-dim.has-background-dim-100 .wp-block-cover__background,.wp-block-cover.has-background-dim.has-background-dim-100 .wp-block-cover__gradient-background,.wp-block-cover.has-background-dim.has-background-dim-100:not(.has-background-gradient):before{opacity:1}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-0,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-0,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-0,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-0{opacity:0}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-10,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-10,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-10,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-10{opacity:.1}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-20,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-20,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-20,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-20{opacity:.2}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-30,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-30,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-30,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-30{opacity:.3}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-40,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-40,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-40,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-40{opacity:.4}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-50,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-50,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-50,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-50{opacity:.5}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-60,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-60,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-60,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-60{opacity:.6}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-70,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-70,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-70,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-70{opacity:.7}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-80,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-80,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-80,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-80{opacity:.8}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-90,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-90,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-90,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-90{opacity:.9}.wp-block-cover .wp-block-cover__background.has-background-dim.has-background-dim-100,.wp-block-cover .wp-block-cover__gradient-background.has-background-dim.has-background-dim-100,.wp-block-cover-image .wp-block-cover__background.has-background-dim.has-background-dim-100,.wp-block-cover-image .wp-block-cover__gradient-background.has-background-dim.has-background-dim-100{opacity:1}.wp-block-cover-image.alignleft,.wp-block-cover-image.alignright,.wp-block-cover.alignleft,.wp-block-cover.alignright{max-width:420px;width:100%}.wp-block-cover-image.aligncenter,.wp-block-cover-image.alignleft,.wp-block-cover-image.alignright,.wp-block-cover.aligncenter,.wp-block-cover.alignleft,.wp-block-cover.alignright{display:flex}.wp-block-cover .wp-block-cover__inner-container,.wp-block-cover-image .wp-block-cover__inner-container{color:inherit;position:relative;width:100%}.wp-block-cover-image.is-position-top-left,.wp-block-cover.is-position-top-left{align-items:flex-start;justify-content:flex-start}.wp-block-cover-image.is-position-top-center,.wp-block-cover.is-position-top-center{align-items:flex-start;justify-content:center}.wp-block-cover-image.is-position-top-right,.wp-block-cover.is-position-top-right{align-items:flex-start;justify-content:flex-end}.wp-block-cover-image.is-position-center-left,.wp-block-cover.is-position-center-left{align-items:center;justify-content:flex-start}.wp-block-cover-image.is-position-center-center,.wp-block-cover.is-position-center-center{align-items:center;justify-content:center}.wp-block-cover-image.is-position-center-right,.wp-block-cover.is-position-center-right{align-items:center;justify-content:flex-end}.wp-block-cover-image.is-position-bottom-left,.wp-block-cover.is-position-bottom-left{align-items:flex-end;justify-content:flex-start}.wp-block-cover-image.is-position-bottom-center,.wp-block-cover.is-position-bottom-center{align-items:flex-end;justify-content:center}.wp-block-cover-image.is-position-bottom-right,.wp-block-cover.is-position-bottom-right{align-items:flex-end;justify-content:flex-end}.wp-block-cover-image.has-custom-content-position.has-custom-content-position .wp-block-cover__inner-container,.wp-block-cover.has-custom-content-position.has-custom-content-position .wp-block-cover__inner-container{margin:0}.wp-block-cover-image.has-custom-content-position.has-custom-content-position.is-position-bottom-left .wp-block-cover__inner-container,.wp-block-cover-image.has-custom-content-position.has-custom-content-position.is-position-bottom-right .wp-block-cover__inner-container,.wp-block-cover-image.has-custom-content-position.has-custom-content-position.is-position-center-left .wp-block-cover__inner-container,.wp-block-cover-image.has-custom-content-position.has-custom-content-position.is-position-center-right .wp-block-cover__inner-container,.wp-block-cover-image.has-custom-content-position.has-custom-content-position.is-position-top-left .wp-block-cover__inner-container,.wp-block-cover-image.has-custom-content-position.has-custom-content-position.is-position-top-right .wp-block-cover__inner-container,.wp-block-cover.has-custom-content-position.has-custom-content-position.is-position-bottom-left .wp-block-cover__inner-container,.wp-block-cover.has-custom-content-position.has-custom-content-position.is-position-bottom-right .wp-block-cover__inner-container,.wp-block-cover.has-custom-content-position.has-custom-content-position.is-position-center-left .wp-block-cover__inner-container,.wp-block-cover.has-custom-content-position.has-custom-content-position.is-position-center-right .wp-block-cover__inner-container,.wp-block-cover.has-custom-content-position.has-custom-content-position.is-position-top-left .wp-block-cover__inner-container,.wp-block-cover.has-custom-content-position.has-custom-content-position.is-position-top-right .wp-block-cover__inner-container{margin:0;width:auto}.wp-block-cover .wp-block-cover__image-background,.wp-block-cover video.wp-block-cover__video-background,.wp-block-cover-image .wp-block-cover__image-background,.wp-block-cover-image video.wp-block-cover__video-background{border:none;bottom:0;box-shadow:none;height:100%;left:0;margin:0;max-height:none;max-width:none;object-fit:cover;outline:none;padding:0;position:absolute;right:0;top:0;width:100%}.wp-block-cover-image.has-parallax,.wp-block-cover.has-parallax,.wp-block-cover__image-background.has-parallax,video.wp-block-cover__video-background.has-parallax{background-attachment:fixed;background-repeat:no-repeat;background-size:cover}@supports (-webkit-touch-callout:inherit){.wp-block-cover-image.has-parallax,.wp-block-cover.has-parallax,.wp-block-cover__image-background.has-parallax,video.wp-block-cover__video-background.has-parallax{background-attachment:scroll}}@media (prefers-reduced-motion:reduce){.wp-block-cover-image.has-parallax,.wp-block-cover.has-parallax,.wp-block-cover__image-background.has-parallax,video.wp-block-cover__video-background.has-parallax{background-attachment:scroll}}.wp-block-cover-image.is-repeated,.wp-block-cover.is-repeated,.wp-block-cover__image-background.is-repeated,video.wp-block-cover__video-background.is-repeated{background-repeat:repeat;background-size:auto}.wp-block-cover-image-text,.wp-block-cover-image-text a,.wp-block-cover-image-text a:active,.wp-block-cover-image-text a:focus,.wp-block-cover-image-text a:hover,.wp-block-cover-text,.wp-block-cover-text a,.wp-block-cover-text a:active,.wp-block-cover-text a:focus,.wp-block-cover-text a:hover,section.wp-block-cover-image h2,section.wp-block-cover-image h2 a,section.wp-block-cover-image h2 a:active,section.wp-block-cover-image h2 a:focus,section.wp-block-cover-image h2 a:hover{color:#fff}.wp-block-cover-image .wp-block-cover.has-left-content{justify-content:flex-start}.wp-block-cover-image .wp-block-cover.has-right-content{justify-content:flex-end}.wp-block-cover-image.has-left-content .wp-block-cover-image-text,.wp-block-cover.has-left-content .wp-block-cover-text,section.wp-block-cover-image.has-left-content>h2{margin-left:0;text-align:left}.wp-block-cover-image.has-right-content .wp-block-cover-image-text,.wp-block-cover.has-right-content .wp-block-cover-text,section.wp-block-cover-image.has-right-content>h2{margin-right:0;text-align:right}.wp-block-cover .wp-block-cover-text,.wp-block-cover-image .wp-block-cover-image-text,section.wp-block-cover-image>h2{font-size:2em;line-height:1.25;margin-bottom:0;max-width:840px;padding:.44em;text-align:center;z-index:1}:where(.wp-block-cover-image:not(.has-text-color)),:where(.wp-block-cover:not(.has-text-color)){color:#fff}:where(.wp-block-cover-image.is-light:not(.has-text-color)),:where(.wp-block-cover.is-light:not(.has-text-color)){color:#000}:root :where(.wp-block-cover h1:not(.has-text-color)),:root :where(.wp-block-cover h2:not(.has-text-color)),:root :where(.wp-block-cover h3:not(.has-text-color)),:root :where(.wp-block-cover h4:not(.has-text-color)),:root :where(.wp-block-cover h5:not(.has-text-color)),:root :where(.wp-block-cover h6:not(.has-text-color)),:root :where(.wp-block-cover p:not(.has-text-color)){color:inherit}body:not(.editor-styles-wrapper) .wp-block-cover:not(.wp-block-cover:has(.wp-block-cover__background+.wp-block-cover__inner-container)) .wp-block-cover__image-background,body:not(.editor-styles-wrapper) .wp-block-cover:not(.wp-block-cover:has(.wp-block-cover__background+.wp-block-cover__inner-container)) .wp-block-cover__video-background{z-index:0}body:not(.editor-styles-wrapper) .wp-block-cover:not(.wp-block-cover:has(.wp-block-cover__background+.wp-block-cover__inner-container)) .wp-block-cover__background,body:not(.editor-styles-wrapper) .wp-block-cover:not(.wp-block-cover:has(.wp-block-cover__background+.wp-block-cover__inner-container)) .wp-block-cover__gradient-background,body:not(.editor-styles-wrapper) .wp-block-cover:not(.wp-block-cover:has(.wp-block-cover__background+.wp-block-cover__inner-container)) .wp-block-cover__inner-container,body:not(.editor-styles-wrapper) .wp-block-cover:not(.wp-block-cover:has(.wp-block-cover__background+.wp-block-cover__inner-container)).has-background-dim:not(.has-background-gradient):before{z-index:1}.has-modal-open body:not(.editor-styles-wrapper) .wp-block-cover:not(.wp-block-cover:has(.wp-block-cover__background+.wp-block-cover__inner-container)) .wp-block-cover__inner-container{z-index:auto}
+/*# sourceURL=https://www1.magellanrx.com/wp-includes/blocks/cover/style.min.css */
+</style>
+<style id='wp-block-heading-inline-css'>
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://www1.magellanrx.com/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id='wp-block-image-inline-css'>
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:#5a5a5a40;border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:#5a5a5a40;border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .close-button{align-items:center;cursor:pointer;display:flex;justify-content:center;min-height:40px;min-width:40px;padding:0;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .close-button:focus,.wp-lightbox-overlay .close-button:hover,.wp-lightbox-overlay .close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:9999999999}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=https://www1.magellanrx.com/wp-includes/blocks/image/style.min.css */
+</style>
+<style id='wp-block-list-inline-css'>
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://www1.magellanrx.com/wp-includes/blocks/list/style.min.css */
+</style>
+<style id='wp-block-paragraph-inline-css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://www1.magellanrx.com/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id='wp-block-separator-inline-css'>
+@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
+/*# sourceURL=https://www1.magellanrx.com/wp-includes/blocks/separator/style.min.css */
+</style>
+<style id='wp-block-spacer-inline-css'>
+.wp-block-spacer{clear:both}
+/*# sourceURL=https://www1.magellanrx.com/wp-includes/blocks/spacer/style.min.css */
+</style>
+<style id='wp-block-table-inline-css'>
+.wp-block-table{overflow-x:auto}.wp-block-table table{border-collapse:collapse;width:100%}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{border:1px solid;padding:.5em}.wp-block-table .has-fixed-layout{table-layout:fixed;width:100%}.wp-block-table .has-fixed-layout td,.wp-block-table .has-fixed-layout th{word-break:break-word}.wp-block-table.aligncenter,.wp-block-table.alignleft,.wp-block-table.alignright{display:table;width:auto}.wp-block-table.aligncenter td,.wp-block-table.aligncenter th,.wp-block-table.alignleft td,.wp-block-table.alignleft th,.wp-block-table.alignright td,.wp-block-table.alignright th{word-break:break-word}.wp-block-table .has-subtle-light-gray-background-color{background-color:#f3f4f5}.wp-block-table .has-subtle-pale-green-background-color{background-color:#e9fbe5}.wp-block-table .has-subtle-pale-blue-background-color{background-color:#e7f5fe}.wp-block-table .has-subtle-pale-pink-background-color{background-color:#fcf0ef}.wp-block-table.is-style-stripes{background-color:initial;border-collapse:inherit;border-spacing:0}.wp-block-table.is-style-stripes tbody tr:nth-child(odd){background-color:#f0f0f0}.wp-block-table.is-style-stripes.has-subtle-light-gray-background-color tbody tr:nth-child(odd){background-color:#f3f4f5}.wp-block-table.is-style-stripes.has-subtle-pale-green-background-color tbody tr:nth-child(odd){background-color:#e9fbe5}.wp-block-table.is-style-stripes.has-subtle-pale-blue-background-color tbody tr:nth-child(odd){background-color:#e7f5fe}.wp-block-table.is-style-stripes.has-subtle-pale-pink-background-color tbody tr:nth-child(odd){background-color:#fcf0ef}.wp-block-table.is-style-stripes td,.wp-block-table.is-style-stripes th{border-color:#0000}.wp-block-table.is-style-stripes{border-bottom:1px solid #f0f0f0}.wp-block-table .has-border-color td,.wp-block-table .has-border-color th,.wp-block-table .has-border-color tr,.wp-block-table .has-border-color>*{border-color:inherit}.wp-block-table table[style*=border-top-color] tr:first-child,.wp-block-table table[style*=border-top-color] tr:first-child td,.wp-block-table table[style*=border-top-color] tr:first-child th,.wp-block-table table[style*=border-top-color]>*,.wp-block-table table[style*=border-top-color]>* td,.wp-block-table table[style*=border-top-color]>* th{border-top-color:inherit}.wp-block-table table[style*=border-top-color] tr:not(:first-child){border-top-color:initial}.wp-block-table table[style*=border-right-color] td:last-child,.wp-block-table table[style*=border-right-color] th,.wp-block-table table[style*=border-right-color] tr,.wp-block-table table[style*=border-right-color]>*{border-right-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:last-child,.wp-block-table table[style*=border-bottom-color] tr:last-child td,.wp-block-table table[style*=border-bottom-color] tr:last-child th,.wp-block-table table[style*=border-bottom-color]>*,.wp-block-table table[style*=border-bottom-color]>* td,.wp-block-table table[style*=border-bottom-color]>* th{border-bottom-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:not(:last-child){border-bottom-color:initial}.wp-block-table table[style*=border-left-color] td:first-child,.wp-block-table table[style*=border-left-color] th,.wp-block-table table[style*=border-left-color] tr,.wp-block-table table[style*=border-left-color]>*{border-left-color:inherit}.wp-block-table table[style*=border-style] td,.wp-block-table table[style*=border-style] th,.wp-block-table table[style*=border-style] tr,.wp-block-table table[style*=border-style]>*{border-style:inherit}.wp-block-table table[style*=border-width] td,.wp-block-table table[style*=border-width] th,.wp-block-table table[style*=border-width] tr,.wp-block-table table[style*=border-width]>*{border-style:inherit;border-width:inherit}
+/*# sourceURL=https://www1.magellanrx.com/wp-includes/blocks/table/style.min.css */
+</style>
+
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--mercury-main: #636e72;--wp--preset--color--mercury-second: #d63031;--wp--preset--color--mercury-white: #fff;--wp--preset--color--mercury-gray: #263238;--wp--preset--color--mercury-emerald: #2edd6c;--wp--preset--color--mercury-alizarin: #e74c3c;--wp--preset--color--mercury-wisteria: #8e44ad;--wp--preset--color--mercury-peter-river: #3498db;--wp--preset--color--mercury-clouds: #ecf0f1;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='aces-style-css' href='https://www1.magellanrx.com/wp-content/plugins/aces/css/aces-style.css?ver=3.0.8' media='all' />
+<link rel='stylesheet' id='aces-media-css' href='https://www1.magellanrx.com/wp-content/plugins/aces/css/aces-media.css?ver=3.0.8' media='all' />
+<link rel='stylesheet' id='mercury-googlefonts-css' href='//fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&#038;display=swap' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://www1.magellanrx.com/wp-content/themes/mercury/fontawesome/css/all.min.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='owl-carousel-css' href='https://www1.magellanrx.com/wp-content/themes/mercury/css/owl.carousel.min.css?ver=2.3.4' media='all' />
+<link rel='stylesheet' id='owl-carousel-animate-css' href='https://www1.magellanrx.com/wp-content/themes/mercury/css/animate.css?ver=2.3.4' media='all' />
+<link rel='stylesheet' id='mercury-style-css' href='https://www1.magellanrx.com/wp-content/themes/mercury/style.css?ver=3.9.12' media='all' />
+<style id='mercury-style-inline-css'>
+
+
+/* Main Color */
+
+.has-mercury-main-color,
+.home-page .textwidget a:hover,
+.space-header-2-top-soc a:hover,
+.space-header-menu ul.main-menu li a:hover,
+.space-header-menu ul.main-menu li:hover a,
+.space-header-2-nav ul.main-menu li a:hover,
+.space-header-2-nav ul.main-menu li:hover a,
+.space-page-content a:hover,
+.space-pros-cons ul li a:hover,
+.space-pros-cons ol li a:hover,
+.space-companies-2-archive-item-desc a:hover,
+.space-organizations-3-archive-item-terms-ins a:hover,
+.space-organizations-7-archive-item-terms a:hover,
+.space-organizations-8-archive-item-terms a:hover,
+.space-comments-form-box p.comment-notes span.required,
+form.comment-form p.comment-notes span.required {
+	color: #636e72;
+}
+
+input[type="submit"],
+.has-mercury-main-background-color,
+.space-block-title span:after,
+.space-widget-title span:after,
+.space-companies-archive-item-button a,
+.space-companies-sidebar-item-button a,
+.space-organizations-3-archive-item-count,
+.space-organizations-3-archive-item-count-2,
+.space-units-archive-item-button a,
+.space-units-sidebar-item-button a,
+.space-aces-single-offer-info-button-ins a,
+.space-offers-archive-item-button a,
+.home-page .widget_mc4wp_form_widget .space-widget-title::after,
+.space-content-section .widget_mc4wp_form_widget .space-widget-title::after {
+	background-color: #636e72;
+}
+
+.space-header-menu ul.main-menu li a:hover,
+.space-header-menu ul.main-menu li:hover a,
+.space-header-2-nav ul.main-menu li a:hover,
+.space-header-2-nav ul.main-menu li:hover a {
+	border-bottom: 2px solid #636e72;
+}
+.space-header-2-top-soc a:hover {
+	border: 1px solid #636e72;
+}
+.space-companies-archive-item-button a:hover,
+.space-units-archive-item-button a:hover,
+.space-offers-archive-item-button a:hover,
+.space-aces-single-offer-info-button-ins a:hover {
+    box-shadow: 0px 8px 30px 0px rgba(99,110,114, 0.60) !important;
+}
+
+/* Second Color */
+
+.has-mercury-second-color,
+.space-page-content a,
+.space-pros-cons ul li a,
+.space-pros-cons ol li a,
+.space-page-content ul li:before,
+.home-page .textwidget ul li:before,
+.space-widget ul li a:hover,
+.space-page-content ul.space-mark li:before,
+.home-page .textwidget a,
+#recentcomments li a:hover,
+#recentcomments li span.comment-author-link a:hover,
+h3.comment-reply-title small a,
+.space-shortcode-wrap .space-companies-sidebar-item-title p a,
+.space-companies-sidebar-2-item-desc a,
+.space-companies-sidebar-item-title p a,
+.space-companies-archive-item-short-desc a,
+.space-companies-2-archive-item-desc a,
+.space-organizations-3-archive-item-terms-ins a,
+.space-organizations-7-archive-item-terms a,
+.space-organizations-8-archive-item-terms a,
+.space-organization-content-info a,
+.space-organization-style-2-calltoaction-text-ins a,
+.space-organization-details-item-title span,
+.space-organization-style-2-ratings-all-item-value i,
+.space-organization-style-2-calltoaction-text-ins a,
+.space-organization-content-short-desc a,
+.space-organization-header-short-desc a,
+.space-organization-content-rating-stars i,
+.space-organization-content-rating-overall .star-rating .star,
+.space-companies-archive-item-rating .star-rating .star,
+.space-organization-content-logo-stars i,
+.space-organization-content-logo-stars .star-rating .star,
+.space-companies-2-archive-item-rating .star-rating .star,
+.space-organizations-3-archive-item-rating-box .star-rating .star,
+.space-organizations-4-archive-item-title .star-rating .star,
+.space-companies-sidebar-2-item-rating .star-rating .star,
+.space-comments-list-item-date a.comment-reply-link,
+.space-categories-list-box ul li a,
+.space-news-10-item-category a,
+.small .space-news-11-item-category a,
+#scrolltop,
+.widget_mc4wp_form_widget .mc4wp-response a,
+.space-header-height.dark .space-header-menu ul.main-menu li a:hover,
+.space-header-height.dark .space-header-menu ul.main-menu li:hover a,
+.space-header-2-height.dark .space-header-2-nav ul.main-menu li a:hover,
+.space-header-2-height.dark .space-header-2-nav ul.main-menu li:hover a,
+.space-header-2-height.dark .space-header-2-top-soc a:hover,
+.space-organization-header-logo-rating i,
+.wp-block-latest-comments__comment-meta a {
+	color: #d63031;
+}
+
+.space-title-box-category a,
+.has-mercury-second-background-color,
+.space-organization-details-item-links a:hover,
+.space-news-2-small-item-img-category a,
+.space-news-2-item-big-box-category span,
+.space-block-title span:before,
+.space-widget-title span:before,
+.space-news-4-item.small-news-block .space-news-4-item-img-category a,
+.space-news-4-item.big-news-block .space-news-4-item-top-category span,
+.space-news-6-item-top-category span,
+.space-news-7-item-category span,
+.space-news-3-item-img-category a,
+.space-news-8-item-title-category span,
+.space-news-9-item-info-category span,
+.space-archive-loop-item-img-category a,
+.space-organizations-3-archive-item:first-child .space-organizations-3-archive-item-count,
+.space-organizations-3-archive-item:first-child .space-organizations-3-archive-item-count-2,
+.space-single-offer.space-dark-style .space-aces-single-offer-info-button-ins a,
+.space-offers-archive-item.space-dark-style .space-offers-archive-item-button a,
+nav.pagination a,
+.space-load-more-button,
+nav.comments-pagination a,
+nav.pagination-post a span.page-number,
+.widget_tag_cloud a,
+.space-footer-top-age span.age-limit,
+.space-footer-top-soc a:hover,
+.home-page .widget_mc4wp_form_widget .mc4wp-form-fields .space-subscribe-filds button,
+.space-content-section .widget_mc4wp_form_widget .mc4wp-form-fields .space-subscribe-filds button {
+	background-color: #d63031;
+}
+
+.space-footer-top-soc a:hover,
+.space-header-2-height.dark .space-header-2-top-soc a:hover,
+.space-categories-list-box ul li a {
+	border: 1px solid #d63031;
+}
+
+.space-header-height.dark .space-header-menu ul.main-menu li a:hover,
+.space-header-height.dark .space-header-menu ul.main-menu li:hover a,
+.space-header-2-height.dark .space-header-2-nav ul.main-menu li a:hover,
+.space-header-2-height.dark .space-header-2-nav ul.main-menu li:hover a {
+	border-bottom: 2px solid #d63031;
+}
+
+.space-offers-archive-item.space-dark-style .space-offers-archive-item-button a:hover,
+.space-single-offer.space-dark-style .space-aces-single-offer-info-button-ins a:hover {
+    box-shadow: 0px 8px 30px 0px rgba(214,48,49, 0.60) !important;
+}
+
+.space-text-gradient {
+	background: #636e72;
+	background: -webkit-linear-gradient(to right, #636e72 0%, #d63031 100%);
+	background: -moz-linear-gradient(to right, #636e72 0%, #d63031 100%);
+	background: linear-gradient(to right, #636e72 0%, #d63031 100%);
+}
+
+/* Stars Color */
+
+.star,
+.fa-star {
+	color: #fdcb6e!important;
+}
+
+.space-rating-star-background {
+	background-color: #fdcb6e;
+}
+
+/* Custom header layout colors */
+
+/* --- Header #1 Style --- */
+
+.space-header-height .space-header-wrap {
+	background-color: #ffffff;
+}
+.space-header-height .space-header-top,
+.space-header-height .space-header-logo-ins:after {
+	background-color: #f5f6fa;
+}
+.space-header-height .space-header-top-soc a,
+.space-header-height .space-header-top-menu ul li a {
+	color: #7f8c8d;
+}
+.space-header-height .space-header-top-soc a:hover ,
+.space-header-height .space-header-top-menu ul li a:hover {
+	color: #ffffff;
+}
+.space-header-height .space-header-logo a {
+	color: #2d3436;
+}
+.space-header-height .space-header-logo span {
+	color: #7f8c8d;
+}
+.space-header-height .space-header-menu ul.main-menu li,
+.space-header-height .space-header-menu ul.main-menu li a,
+.space-header-height .space-header-search {
+	color: #151515;
+}
+.space-header-height .space-mobile-menu-icon div {
+	background-color: #151515;
+}
+.space-header-height .space-header-menu ul.main-menu li a:hover,
+.space-header-height .space-header-menu ul.main-menu li:hover a {
+	color: #d63031;
+	border-bottom: 2px solid #d63031;
+}
+
+.space-header-height .space-header-menu ul.main-menu li ul.sub-menu {
+	background-color: #ffffff;
+}
+
+.space-header-height .space-header-menu ul.main-menu li ul.sub-menu li.menu-item-has-children:after,
+.space-header-height .space-header-menu ul.main-menu li ul.sub-menu li a {
+	color: #34495e;
+	border-bottom: 1px solid transparent;
+}
+.space-header-height .space-header-menu ul.main-menu li ul.sub-menu li a:hover {
+	border-bottom: 1px solid transparent;
+	color: #b2bec3;
+	text-decoration: none;
+}
+
+/* --- Header #2 Style --- */
+
+.space-header-2-height .space-header-2-wrap,
+.space-header-2-height .space-header-2-wrap.fixed .space-header-2-nav {
+	background-color: #ffffff;
+}
+.space-header-2-height .space-header-2-top-ins {
+	border-bottom: 1px solid #f5f6fa;
+}
+.space-header-2-height .space-header-2-top-soc a,
+.space-header-2-height .space-header-search {
+	color: #7f8c8d;
+}
+.space-header-2-height .space-header-2-top-soc a {
+	border: 1px solid #7f8c8d;
+}
+.space-header-2-height .space-mobile-menu-icon div {
+	background-color: #7f8c8d;
+}
+.space-header-2-height .space-header-2-top-soc a:hover {
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+.space-header-2-height .space-header-2-top-logo a {
+	color: #2d3436;
+}
+.space-header-2-height .space-header-2-top-logo span {
+	color: #7f8c8d;
+}
+.space-header-2-height .space-header-2-nav ul.main-menu li,
+.space-header-2-height .space-header-2-nav ul.main-menu li a {
+	color: #151515;
+}
+.space-header-2-height .space-header-2-nav ul.main-menu li a:hover,
+.space-header-2-height .space-header-2-nav ul.main-menu li:hover a {
+	color: #d63031;
+	border-bottom: 2px solid #d63031;
+}
+.space-header-2-height .space-header-2-nav ul.main-menu li ul.sub-menu {
+	background-color: #ffffff;
+}
+.space-header-2-height .space-header-2-nav ul.main-menu li ul.sub-menu li a,
+.space-header-2-height .space-header-2-nav ul.main-menu li ul.sub-menu li.menu-item-has-children:after {
+	color: #34495e;
+	border-bottom: 1px solid transparent;
+}
+.space-header-2-height .space-header-2-nav ul.main-menu li ul.sub-menu li a:hover {
+	border-bottom: 1px solid transparent;
+	color: #b2bec3;
+	text-decoration: none;
+}
+
+/* Title box colors */
+
+.space-title-box,
+.space-archive-title-box {
+    background-color: #f1f3f4 !important;
+}
+.space-title-box-h1 h1,
+.space-archive-title-box-h1 h1 {
+    color: #151515;
+}
+.space-title-box .space-page-content-excerpt p,
+.author .space-page-content-excerpt p,
+.space-title-box .space-breadcrumbs,
+.space-title-box .space-breadcrumbs a,
+.space-archive-title-box .space-breadcrumbs,
+.space-archive-title-box .space-breadcrumbs a {
+    color: #7f8c8d !important;
+}
+
+/* --- Mobile Menu Style --- */
+
+.space-mobile-menu .space-mobile-menu-block {
+	background-color: #ffffff;
+}
+.space-mobile-menu .space-mobile-menu-copy {
+	border-top: 1px solid #f5f6fa;
+}
+.space-mobile-menu .space-mobile-menu-copy {
+	color: #7f8c8d;
+}
+.space-mobile-menu .space-mobile-menu-copy a {
+	color: #7f8c8d;
+}
+.space-mobile-menu .space-mobile-menu-copy a:hover {
+	color: #ffffff;
+}
+.space-mobile-menu .space-mobile-menu-header a {
+	color: #2d3436;
+}
+.space-mobile-menu .space-mobile-menu-header span {
+	color: #7f8c8d;
+}
+.space-mobile-menu .space-mobile-menu-list ul li {
+	color: #151515;
+}
+.space-mobile-menu .space-mobile-menu-list ul li a {
+	color: #151515;
+}
+.space-mobile-menu .space-close-icon .to-right,
+.space-mobile-menu .space-close-icon .to-left {
+	background-color: #151515;
+}
+
+/* --- New - Label for the main menu items --- */
+
+ul.main-menu > li.new > a:before,
+.space-mobile-menu-list > ul > li.new:before {
+	content: "New";
+    color: #5b9765;
+    background-color: #e6f5e9;
+}
+
+/* --- Best - Label for the main menu items --- */
+
+ul.main-menu > li.best > a:before,
+.space-mobile-menu-list > ul > li.best:before {
+	content: "Best";
+    color: #636e72;
+    background-color: #dfe6e9;
+}
+
+/* --- Hot - Label for the main menu items --- */
+
+ul.main-menu > li.hot > a:before,
+.space-mobile-menu-list > ul > li.hot:before {
+	content: "Fair";
+    color: #636e72;
+    background-color: #dfe6e9;
+}
+
+/* --- Top - Label for the main menu items --- */
+
+ul.main-menu > li.top > a:before,
+.space-mobile-menu-list > ul > li.top:before {
+	content: "Top";
+    color: #d63031;
+    background-color: #fec3c4;
+}
+
+/* --- Fair - Label for the main menu items --- */
+
+ul.main-menu > li.fair > a:before,
+.space-mobile-menu-list > ul > li.fair:before {
+	content: "Fair";
+    color: #ffffff;
+    background-color: #8c14fc;
+}
+
+/* Play Now - The button color */
+
+.space-organization-content-button a,
+.space-unit-content-button a,
+.space-organizations-3-archive-item-button-ins a,
+.space-organizations-4-archive-item-button-two-ins a,
+.space-shortcode-wrap .space-organizations-3-archive-item-button-ins a,
+.space-shortcode-wrap .space-organizations-4-archive-item-button-two-ins a {
+    color: #ffffff !important;
+    background-color: #d63031 !important;
+}
+
+.space-organization-content-button a:hover,
+.space-unit-content-button a:hover,
+.space-organizations-3-archive-item-button-ins a:hover,
+.space-organizations-4-archive-item-button-two-ins a:hover {
+    box-shadow: 0px 0px 15px 0px rgba(214,48,49, 0.55) !important;
+}
+
+.space-organization-header-button a.space-style-2-button,
+.space-organization-style-2-calltoaction-button-ins a.space-calltoaction-button,
+.space-style-3-organization-header-button a.space-style-3-button,
+.space-organizations-7-archive-item-button-two a,
+.space-organizations-8-archive-item-button-two a,
+.space-organization-float-bar-button-wrap a {
+    color: #ffffff !important;
+    background-color: #d63031 !important;
+    box-shadow: 0px 5px 15px 0px rgba(214,48,49, 0.55) !important;
+}
+.space-organization-header-button a.space-style-2-button:hover,
+.space-organization-style-2-calltoaction-button-ins a.space-calltoaction-button:hover,
+.space-style-3-organization-header-button a.space-style-3-button:hover,
+.space-organizations-7-archive-item-button-two a:hover,
+.space-organizations-8-archive-item-button-two a:hover,
+.space-organization-float-bar-button-wrap a:hover {
+    box-shadow: 0px 5px 15px 0px rgba(214,48,49, 0) !important;
+}
+
+.space-organizations-5-archive-item-button1 a,
+.space-organizations-6-archive-item-button1 a,
+.space-units-2-archive-item-button1 a,
+.space-units-3-archive-item-button1 a {
+    color: #ffffff !important;
+    background-color: #d63031 !important;
+    box-shadow: 0px 10px 15px 0px rgba(214,48,49, 0.5) !important;
+}
+.space-organizations-5-archive-item-button1 a:hover,
+.space-organizations-6-archive-item-button1 a:hover,
+.space-units-2-archive-item-button1 a:hover,
+.space-units-3-archive-item-button1 a:hover {
+    box-shadow: 0px 10px 15px 0px rgba(214,48,49, 0) !important;
+}
+
+/* Read Review - The button color */
+
+.space-organizations-3-archive-item-button-ins a:last-child,
+.space-organizations-4-archive-item-button-one-ins a,
+.space-shortcode-wrap .space-organizations-4-archive-item-button-one-ins a {
+    color: #ffffff !important;
+    background-color: #b2bec3 !important;
+}
+
+.space-organizations-3-archive-item-button-ins a:last-child:hover,
+.space-organizations-4-archive-item-button-one-ins a:hover {
+    box-shadow: 0px 0px 15px 0px rgba(178,190,195, 0.55) !important;
+}
+/*# sourceURL=mercury-style-inline-css */
+</style>
+<link rel='stylesheet' id='mercury-media-css' href='https://www1.magellanrx.com/wp-content/themes/mercury/css/media.css?ver=3.9.12' media='all' />
+<script src="https://www1.magellanrx.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://www1.magellanrx.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://www1.magellanrx.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www1.magellanrx.com/wp-json/wp/v2/pages/378" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www1.magellanrx.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.4" />
+<link rel='shortlink' href='https://www1.magellanrx.com/' />
+<meta name="theme-color" content="#f5f6fa" />
+<meta name="msapplication-navbutton-color" content="#f5f6fa" /> 
+<meta name="apple-mobile-web-app-status-bar-style" content="#f5f6fa" />
+<noscript><style>.lazyload[data-src]{display:none !important;}</style></noscript><style>.lazyload{background-image:none !important;}.lazyload:before{background-image:none !important;}</style><style>.wp-block-gallery.is-cropped .blocks-gallery-item picture{height:100%;width:100%;}</style><link rel="icon" href="https://www1.magellanrx.com/wp-content/uploads/2025/12/cropped-MAGELAN-LOGO-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www1.magellanrx.com/wp-content/uploads/2025/12/cropped-MAGELAN-LOGO-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www1.magellanrx.com/wp-content/uploads/2025/12/cropped-MAGELAN-LOGO-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www1.magellanrx.com/wp-content/uploads/2025/12/cropped-MAGELAN-LOGO-270x270.png" />
+		<style id="wp-custom-css">
+			.space-header-wrap {box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0);}
+.space-header-wrap.fixed {box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);}		</style>
+		<link rel='stylesheet' id='rank-math-toc-block-css' href='https://www1.magellanrx.com/wp-content/plugins/seo-by-rank-math/includes/modules/schema/blocks/toc/assets/css/toc_list_style.css?ver=1.0.269' media='all' />
+
+</head>
+<body ontouchstart class="home wp-singular page-template page-template-page-without-title page-template-page-without-title-php page page-id-378 wp-custom-logo wp-embed-responsive wp-theme-mercury">
+
+
+
+<div class="space-box relative">
+
+<!-- Header Start -->
+
+<div class="space-header-height relative ">
+	<div class="space-header-wrap space-header-float relative">
+				<div class="space-header relative">
+			<div class="space-header-ins space-wrapper relative">
+				<div class="space-header-logo box-25 left relative">
+					<div class="space-header-logo-ins relative">
+						<a href="https://www1.magellanrx.com/" title="Magellan Rx Management"><img width="188" height="40" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAAAoAQMAAAB+cAK9AAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABFJREFUKM9jYBgFo2AUDHcAAAPoAAEYIFNZAAAAAElFTkSuQmCC" class="attachment-mercury-custom-logo size-mercury-custom-logo lazyload" alt="Magellan Rx Management" decoding="async"   data-src="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png 188w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-300x64.png 300w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-768x164.png 768w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-150x32.png 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-328x70.png 328w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-375x80.png 375w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-633x135.png 633w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1.png 797w" data-sizes="auto" data-eio-rwidth="188" data-eio-rheight="40" /><noscript><img width="188" height="40" src="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png" class="attachment-mercury-custom-logo size-mercury-custom-logo" alt="Magellan Rx Management" decoding="async" srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png 188w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-300x64.png 300w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-768x164.png 768w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-150x32.png 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-328x70.png 328w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-375x80.png 375w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-633x135.png 633w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1.png 797w" sizes="(max-width: 188px) 100vw, 188px" data-eio="l" /></noscript></a>					</div>
+				</div>
+				<div class="space-header-menu box-75 left relative">
+					<ul id="menu-main-en-us" class="main-menu"><li id="menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-378 current_page_item menu-item-549"><a href="https://www1.magellanrx.com/" aria-current="page">Retatrutide</a></li>
+<li id="menu-item-558" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-558"><a href="https://www1.magellanrx.com/top-peptides/">Top Peptides</a>
+<ul class="sub-menu">
+	<li id="menu-item-563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-563"><a href="https://www1.magellanrx.com/where-to-buy-bpc-157-peptide-price-and-quality-comparison/">BPC-157 Peptide</a></li>
+	<li id="menu-item-559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-559"><a href="https://www1.magellanrx.com/where-to-buy-ghk-cu-peptide-price-and-quality-comparison/">GHK-Cu Peptide</a></li>
+	<li id="menu-item-560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-560"><a href="https://www1.magellanrx.com/where-to-buy-klow-stack-peptide-price-and-quality-comparison/">Klow Stack Peptide</a></li>
+	<li id="menu-item-561" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-561"><a href="https://www1.magellanrx.com/where-to-buy-glow-peptide-price-and-quality-comparison/">Glow Stack Peptide</a></li>
+	<li id="menu-item-562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-562"><a href="https://www1.magellanrx.com/where-to-buy-ipamorelin-peptide-price-and-quality-comparison/">Ipamorelin Peptide</a></li>
+	<li id="menu-item-684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-684"><a href="https://www1.magellanrx.com/wolverine-stack-peptide/">Wolverine Stack Peptide</a></li>
+	<li id="menu-item-692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-692"><a href="https://www1.magellanrx.com/where-to-buy-kpv-peptide/">KPV Peptide</a></li>
+	<li id="menu-item-716" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716"><a href="https://www1.magellanrx.com/sermorelin-peptide-for-sale/">Sermorelin Peptide</a></li>
+	<li id="menu-item-725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-725"><a href="https://www1.magellanrx.com/best-peptides-for-muscle-growth/">Peptides For Muscle Growth</a></li>
+</ul>
+</li>
+</ul>					<div class="space-header-search absolute">
+						<i class="fas fa-search desktop-search-button"></i>
+					</div>
+					<div class="space-mobile-menu-icon absolute">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="space-header-search-block fixed">
+	<div class="space-header-search-block-ins absolute">
+				<form role="search" method="get" class="space-default-search-form" action="https://www1.magellanrx.com/">
+			<input type="search" value="" name="s" placeholder="Enter keyword...">
+		</form>	</div>
+	<div class="space-close-icon desktop-search-close-button absolute">
+		<div class="to-right absolute"></div>
+		<div class="to-left absolute"></div>
+	</div>
+</div>
+
+<!-- Header End -->
+<!-- Page Section Start -->
+
+<div class="space-page-section box-100 space-page-without-title relative">
+	<div class="space-page-section-ins space-page-wrapper relative">
+		<div class="space-content-section box-100 relative">
+			<div class="space-page-content-wrap relative">
+
+								
+				<div class="space-page-content-box-wrap relative">
+					<div class="space-page-content page-template box-100 relative">
+
+						
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h1 class="wp-block-heading has-text-align-center has-mercury-second-color has-text-color has-medium-font-size" id="buy-retatrutide-peptide-top-us-suppliers-ranked-for-cost-quality" style="text-transform:uppercase"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-mercury-gray-color">Buy Retatrutide Peptide:</mark> Top US VENDORS</h1>
+
+
+
+<p class="has-text-align-center has-text-color" style="color:#7f8c8d;font-style:normal;font-weight:100">Magellan RX Management independently ranks US retatrutide peptide suppliers based on cost optimization, product quality, and operational reliability.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+	
+	<div class="space-shortcode-wrap space-shortcode-4 relative">
+		<div class="space-shortcode-wrap-ins relative">
+
+			
+			<div class="space-organizations-3-archive-items box-100 relative">
+
+				
+				<div class="space-organizations-3-archive-item box-100 relative">
+					<div class="space-organizations-3-archive-item-ins relative">
+						<div class="space-organizations-3-archive-item-logo box-25 relative">
+							<div class="space-organizations-3-archive-item-logo-ins box-100 text-center relative">
+
+																		<div class="space-organizations-3-logo-title-box box-100 text-left relative">
+											<div class="space-organizations-3-logo-box relative">
+												<a href="https://www1.magellanrx.com/vendors/leolab-rx/" title="Leolab RX">
+													<img decoding="async" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyAQMAAAAk8RryAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAA5JREFUGNNjYBgFgwkAAAGQAAHFm9tJAAAAAElFTkSuQmCC" class="attachment-mercury-50-50 size-mercury-50-50 lazyload" alt="Leolab RX"   data-src="https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-50x50.png" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-50x50.png 50w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-150x150.png 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-40x40.png 40w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-100x100.png 100w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-120x120.png 120w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-135x135.png 135w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-32x32.png 32w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-70x70.png 70w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-80x80.png 80w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1.png 240w" data-sizes="auto" data-eio-rwidth="50" data-eio-rheight="50" /><noscript><img decoding="async" width="50" height="50" src="https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-50x50.png" class="attachment-mercury-50-50 size-mercury-50-50" alt="Leolab RX" srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-50x50.png 50w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-150x150.png 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-40x40.png 40w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-100x100.png 100w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-120x120.png 120w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-135x135.png 135w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-32x32.png 32w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-70x70.png 70w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1-80x80.png 80w, https://www1.magellanrx.com/wp-content/uploads/2025/12/leolab-logo-1.png 240w" sizes="(max-width: 50px) 100vw, 50px" data-eio="l" /></noscript>												</a>
+												<div class="space-organizations-3-archive-item-count-2 absolute">
+													<span>1</span>
+												</div>
+											</div>
+											<div class="space-organizations-3-title-box relative">
+												<a href="https://www1.magellanrx.com/vendors/leolab-rx/" title="Leolab RX">Leolab RX</a>
+											</div>
+										</div>
+																</div>
+													</div>
+						<div class="space-organizations-3-archive-item-terms box-25 relative">
+							<div class="space-organizations-3-archive-item-terms-ins box-100 text-center relative">
+							Receive<br>								<strong>$20</strong><br>								<span class="small-strong">Discount on Reta</span><br>							* New Clients Only							</div>
+						</div>
+						<div class="space-organizations-3-archive-item-rating box-25 relative">
+							<div class="space-organizations-3-archive-item-rating-ins box-100 text-center relative">
+
+								
+																	<div class="space-organizations-3-archive-item-rating-box relative">
+										<div class="star-rating"><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-half" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div></div>										<span>8.8</span>
+									</div>
+								
+								
+								
+								<div class="space-organizations-archive-item-button-notice relative" style="margin-top: 5px;">
+									*You will be redirected to Leolab RX								</div>
+
+																
+							</div>
+						</div>
+						<div class="space-organizations-3-archive-item-button box-25 relative">
+							<div class="space-organizations-3-archive-item-button-ins box-100 text-center relative">
+								<a href="https://leolabrx.com/peptides/retatrutide/" title="Buy Peptides" target="_blank" rel="nofollow noopener"><i class="fas fa-check-circle"></i> Buy Peptides</a>
+
+								<a href="https://www1.magellanrx.com/vendors/leolab-rx/" title="Read Review"><i class="fas fa-arrow-alt-circle-right"></i> Read Review</a>
+							</div>
+						</div>
+											</div>
+				</div>
+
+				
+				<div class="space-organizations-3-archive-item box-100 relative">
+					<div class="space-organizations-3-archive-item-ins relative">
+						<div class="space-organizations-3-archive-item-logo box-25 relative">
+							<div class="space-organizations-3-archive-item-logo-ins box-100 text-center relative">
+
+																		<div class="space-organizations-3-logo-title-box box-100 text-left relative">
+											<div class="space-organizations-3-logo-box relative">
+												<a href="https://www1.magellanrx.com/vendors/peptide-sciences/" title="Peptide Sciences">
+													<picture><source  sizes='(max-width: 50px) 100vw, 50px' type="image/webp" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-50x50.jpg.webp 50w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-150x150.jpg.webp 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-40x40.jpg.webp 40w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-100x100.jpg.webp 100w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-120x120.jpg.webp 120w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-135x135.jpg.webp 135w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-32x32.jpg.webp 32w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-70x70.jpg.webp 70w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-80x80.jpg.webp 80w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo.jpg.webp 225w"><img decoding="async" width="50" height="50" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyAQMAAAAk8RryAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAA5JREFUGNNjYBgFgwkAAAGQAAHFm9tJAAAAAElFTkSuQmCC" class="attachment-mercury-50-50 size-mercury-50-50 lazyload" alt="Peptide Sciences"   data-eio="p" data-src="https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-50x50.jpg" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-50x50.jpg 50w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-150x150.jpg 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-40x40.jpg 40w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-100x100.jpg 100w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-120x120.jpg 120w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-135x135.jpg 135w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-32x32.jpg 32w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-70x70.jpg 70w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-80x80.jpg 80w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo.jpg 225w" data-sizes="auto" data-eio-rwidth="50" data-eio-rheight="50" /></picture><noscript><img decoding="async" width="50" height="50" src="https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-50x50.jpg" class="attachment-mercury-50-50 size-mercury-50-50" alt="Peptide Sciences" srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-50x50.jpg 50w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-150x150.jpg 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-40x40.jpg 40w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-100x100.jpg 100w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-120x120.jpg 120w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-135x135.jpg 135w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-32x32.jpg 32w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-70x70.jpg 70w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo-80x80.jpg 80w, https://www1.magellanrx.com/wp-content/uploads/2025/12/p-s-logo.jpg 225w" sizes="(max-width: 50px) 100vw, 50px" data-eio="l" /></noscript>												</a>
+												<div class="space-organizations-3-archive-item-count-2 absolute">
+													<span>2</span>
+												</div>
+											</div>
+											<div class="space-organizations-3-title-box relative">
+												<a href="https://www1.magellanrx.com/vendors/peptide-sciences/" title="Peptide Sciences">Peptide Sciences</a>
+											</div>
+										</div>
+																</div>
+													</div>
+						<div class="space-organizations-3-archive-item-terms box-25 relative">
+							<div class="space-organizations-3-archive-item-terms-ins box-100 text-center relative">
+							Bundle &amp; Save<br>								<strong>15%</strong><br>								<span class="small-strong">On Selected Packages</span><br>							* 20 Vial Peptide Bundles (10+10)							</div>
+						</div>
+						<div class="space-organizations-3-archive-item-rating box-25 relative">
+							<div class="space-organizations-3-archive-item-rating-ins box-100 text-center relative">
+
+								
+																	<div class="space-organizations-3-archive-item-rating-box relative">
+										<div class="star-rating"><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div><div class="star star-empty" aria-hidden="true"></div></div>										<span>7.0</span>
+									</div>
+								
+								
+								
+								<div class="space-organizations-archive-item-button-notice relative" style="margin-top: 5px;">
+									*You will be redirected to Peptide Sciences								</div>
+
+																
+							</div>
+						</div>
+						<div class="space-organizations-3-archive-item-button box-25 relative">
+							<div class="space-organizations-3-archive-item-button-ins box-100 text-center relative">
+								<a href="https://www.peptidesciences.com/all-peptides" title="Buy Peptides" target="_blank" rel="nofollow noopener"><i class="fas fa-check-circle"></i> Buy Peptides</a>
+
+								<a href="https://www1.magellanrx.com/vendors/peptide-sciences/" title="Read Review"><i class="fas fa-arrow-alt-circle-right"></i> Read Review</a>
+							</div>
+						</div>
+													<div class="space-organizations-archive-item-detailed-tc box-100 relative">
+								<div class="space-organizations-archive-item-detailed-tc-ins relative">
+									<span class="mce_SELRES_start">﻿</span>								</div>
+							</div>
+											</div>
+				</div>
+
+				
+			</div>
+					</div>
+	</div>
+
+
+
+
+
+<div style="height:45px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size" id="buy-retatrutide-peptide-from-the-best-us-sellers-ranked-by-magellan-rx-management" style="text-transform:uppercase">Retatrutide Peptide &#8211; Buy From the Best US Sellers (Ranked by Magellan RX Management)</h2>
+
+
+
+<p>Retatrutide is an investigational compound that is commonly sold online under a <strong>research-use-only</strong> designation. Because product quality, pricing transparency, and vendor reliability can vary widely, Magellan RX Management evaluates sellers using observable, non-clinical factors such as <strong>price clarity, delivery performance, operational history, support responsiveness, and third-party reputation signals</strong>.</p>
+
+
+
+<p>Below is a comparative review of three commonly referenced U.S.-based peptide vendors.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div class="wp-block-rank-math-toc-block" id="rank-math-toc"><h2>Table of Contents</h2><nav><ul><li><a href="#buy-retatrutide-peptide-top-us-suppliers-ranked-for-cost-quality">Buy Retatrutide Peptide: Top US VENDORS</a><ul><li><a href="#buy-retatrutide-peptide-from-the-best-us-sellers-ranked-by-magellan-rx-management">Retatrutide Peptide &#8211; Buy From the Best US Sellers (Ranked by Magellan RX Management)</a></li><li><a href="#retatrutide-how-to-get-vendor-reviews">Retatrutide how to get &#8211; Vendor Reviews</a><ul><li><a href="#1-peptide-sciences">1. Peptide Sciences</a></li><li><a href="#2-leo-lab-rx-top-ranked-overall">2. LeoLab RX — Top Ranked Overall</a></li><li><a href="#3-simple-peptide">3. Simple Peptide</a></li></ul></li><li><a href="#vendor-comparison-table">Vendor Comparison Table by magellanrx.com</a><ul><li><a href="#pricing-availability-notes">Pricing &amp; Availability Notes</a></li></ul></li><li><a href="#why-leo-lab-rx-ranks-1">Why LeoLab RX Ranks #1</a></li><li><a href="#frequently-asked-questions-faq">Frequently Asked Questions (FAQ)</a><ul><li><a href="#faq-question-1766655141342">Why do vendors label retatrutide as “research use only”?</a></li><li><a href="#faq-question-1766655165484">Does a higher rank mean medical endorsement?</a></li><li><a href="#faq-question-1766655193266">Retatrutide: how to get it?</a></li><li><a href="#faq-question-1766655218458">Where to get retatrutide?</a></li><li><a href="#faq-question-1766655446973">What is the retatrutide cost?</a></li><li><a href="#faq-question-1766655457849">What is the average retatrutide price online?</a></li><li><a href="#faq-question-1766655487627">Does Magellan RX Management sell retatrutide?</a></li><li><a href="#faq-question-1768640627364">Do I need to complete a standard Medicaid prior authorization form to purchase retatrutide?</a></li><li><a href="#faq-question-1768641139270">How does retatrutide differ from traditional diabetic supplies or medications?</a></li></ul></li><li><a href="#best-new-casino-bonuses">Retatrutide Discount Codes</a></li></ul></li></ul></nav></div>
+
+
+
+<h2 class="wp-block-heading" id="retatrutide-how-to-get-vendor-reviews">Retatrutide how to get &#8211; Vendor Reviews</h2>
+
+
+
+<h3 class="wp-block-heading" id="1-peptide-sciences">1. Peptide Sciences</h3>
+
+
+
+<p><strong>Operational history:</strong> Established in 2019<br><strong>Support responsiveness:</strong> Typically responds within 24 hours</p>
+
+
+
+<p><strong>Pricing</strong><br>Retatrutide pricing is not consistently visible across publicly accessible listings, which reduces price transparency compared to other vendors.</p>
+
+
+
+<p><strong>Quality &amp; reliability signals</strong><br>Peptide Sciences is widely recognized for structured operations, consistent order processing, and clearly stated shipping policies. The company emphasizes laboratory research use and maintains standardized fulfillment practices.</p>
+
+
+
+<p><strong>Delivery performance</strong><br>Offers multiple domestic shipping options with same-day processing for qualifying orders, which supports predictable delivery timelines.</p>
+
+
+
+<p><strong>Reputation snapshot (third-party reviews)</strong><br><a href="https://www.trustpilot.com/review/peptidessciences.com" target="_blank" rel="noopener">Customer feedback</a> trends highlight dependable shipping, consistent packaging, and professional handling of issues. Some reviews note higher pricing and limited responsiveness during peak demand periods.</p>
+
+
+
+<p><strong>Summary</strong><br>A stable and established vendor with strong operational discipline, though less competitive on price visibility and speed of support compared to top-ranked alternatives.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading" id="2-leo-lab-rx-top-ranked-overall">2. LeoLab RX — <strong>Top Ranked Overall</strong></h3>
+
+
+
+<p><strong>Operational history:</strong> Established in 2018<br><strong>Support responsiveness:</strong> Often responds within ~2 hours</p>
+
+
+
+<p><strong>Pricing</strong><br>Displays clear pricing tiers for retatrutide-related listings, allowing buyers to compare cost options without hidden steps.</p>
+
+
+
+<p><strong>Quality &amp; reliability signals</strong><br>LeoLab RX positions itself clearly as a research supplier and provides straightforward product categorization. Operational maturity and consistency are notable given its earlier market entry relative to competitors.</p>
+
+
+
+<p><strong>Delivery performance</strong><br>Domestic shipments are typically delivered within 1–3 business days, contributing to strong fulfillment reliability.</p>
+
+
+
+<p><strong>Reputation snapshot (third-party reviews)</strong><br>Review sentiment consistently references fast communication, reliable order fulfillment, and efficient issue resolution. <a href="https://www.hellopeter.com/leolab" rel="nofollow noopener" target="_blank">Negative feedback volume is comparatively low</a> and most often relates to stock availability rather than service quality.</p>
+
+
+
+<p><strong>Summary</strong><br>Based on pricing transparency, fast support response, delivery speed, and external reputation signals, <strong>LeoLab RX ranks as the strongest overall option</strong> under Magellan RX Management’s evaluation framework.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading" id="3-simple-peptide">3. Simple Peptide</h3>
+
+
+
+<p><strong>Operational history:</strong> Established in 2024<br><strong>Support responsiveness:</strong> Can take up to 72 hours</p>
+
+
+
+<p><strong>Pricing</strong><br>Some products display competitive pricing, but full catalog visibility may require account access, limiting upfront comparison.</p>
+
+
+
+<p><strong>Quality &amp; reliability signals</strong><br>Simple Peptide places heavy emphasis on legal disclaimers and research-only positioning. While this demonstrates regulatory awareness, the company’s limited operating history introduces higher uncertainty.</p>
+
+
+
+<p><strong>Delivery performance</strong><br>Shipping policies are outlined, but fewer long-term data points exist due to the company’s recent launch.</p>
+
+
+
+<p><strong>Reputation snapshot (third-party reviews)</strong><br>Early reviews are mixed. Positive feedback mentions affordability, while negative comments more frequently reference slow support responses and inconsistent communication.</p>
+
+
+
+<p><strong>Summary</strong><br>An emerging vendor with attractive pricing but shorter track record and slower support response times compared to more established sellers.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading" id="vendor-comparison-table">Vendor Comparison Table by magellanrx.com</h2>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Vendor</th><th>Established</th><th>Retatrutide Price (at Time of Review)</th><th>Availability Status</th><th>Delivery Speed</th><th>Support Responsiveness</th><th>Reputation Strength</th><th>Overall Rank</th></tr></thead><tbody><tr><td>Peptide Sciences</td><td>2019</td><td>Not listed</td><td><strong>No retatrutide peptide available at time of review</strong></td><td>Fast</td><td>~24 hours</td><td>Strong</td><td>#2</td></tr><tr><td><strong>LeoLab RX</strong></td><td><strong>2018</strong></td><td><strong>$215–$760 (varies by quantity/form)</strong></td><td>In stock</td><td>1–3 business days</td><td>~2 hours</td><td>Very Strong</td><td><strong>#1</strong></td></tr><tr><td>Simple Peptide</td><td>2024</td><td>~$168 (sale pricing observed)</td><td>In stock</td><td>Moderate</td><td>Up to 72 hours</td><td>Developing</td><td>#3</td></tr></tbody></table></figure>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading" id="pricing-availability-notes">Pricing &amp; Availability Notes</h3>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Peptide Sciences:</strong> At the moment of review, no retatrutide peptide was publicly available or listed for purchase. Pricing could not be verified.</li>
+
+
+
+<li><strong>LeoLab RX:</strong> Displays multiple retatrutide pricing tiers depending on quantity, strength and configuration, offering the widest visible price range.</li>
+
+
+
+<li><strong>Simple Peptide:</strong> Shows competitive sale pricing, though catalog access and long-term availability may vary.</li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading" id="why-leo-lab-rx-ranks-1">Why LeoLab RX Ranks #1</h2>
+
+
+
+<p>LeoLab RX scores highest when balancing <strong>cost visibility, delivery reliability, customer support speed, and third-party trust signals</strong>. While all reviewed vendors operate under research-use frameworks, LeoLab RX demonstrates the most consistent operational performance across all evaluated criteria.</p>
+
+
+
+<h2 class="wp-block-heading" id="frequently-asked-questions-faq">Frequently Asked Questions (FAQ)</h2>
+
+
+<div id="rank-math-faq" class="rank-math-block">
+<div class="rank-math-list ">
+<div id="faq-question-1766655141342" class="rank-math-list-item">
+<h3 class="rank-math-question ">Why do vendors label retatrutide as “research use only”?</h3>
+<div class="rank-math-answer ">
+
+<p>This designation indicates products are intended for laboratory research and not for human consumption, which places them outside standard pharmaceutical regulation.</p>
+
+</div>
+</div>
+<div id="faq-question-1766655165484" class="rank-math-list-item">
+<h3 class="rank-math-question ">Does a higher rank mean medical endorsement?</h3>
+<div class="rank-math-answer ">
+
+<p>No. Rankings reflect operational reliability and transparency only, not medical suitability or safety.</p>
+
+</div>
+</div>
+<div id="faq-question-1766655193266" class="rank-math-list-item">
+<h3 class="rank-math-question ">Retatrutide: how to get it?</h3>
+<div class="rank-math-answer ">
+
+<p>If you’re researching <strong>retatrutide how to get</strong>, it’s important to understand that retatrutide is not FDA-approved. Legitimate access today is limited to <strong>clinical research settings</strong> or physician-supervised trials. Online vendors (such as LeoLab RX or Peptide Sciences) market retatrutide peptides strictly for laboratory research purposes, not for human use.</p>
+
+</div>
+</div>
+<div id="faq-question-1766655218458" class="rank-math-list-item">
+<h3 class="rank-math-question ">Where to get retatrutide?</h3>
+<div class="rank-math-answer ">
+
+<p>When asking <strong>where to get retatrutide</strong>, there are two distinct paths:<br /> &#8211; Participation in authorized clinical trials.<br /> &#8211; Research-only peptide suppliers that sell retatrutide labeled for laboratory use.<br />These two options are not equivalent in terms of regulation, oversight, or intended use.</p>
+
+</div>
+</div>
+<div id="faq-question-1766655446973" class="rank-math-list-item">
+<h3 class="rank-math-question ">What is the retatrutide cost?</h3>
+<div class="rank-math-answer ">
+
+<p>The retatrutide cost varies widely depending on form, quantity, and seller. Research-grade peptide listings typically range from lower-cost experimental compounds to significantly higher-priced options depending on batch size and vendor reputation. <strong>At the time of review, the average advertised price for a 1 mg vial of retatrutide from research-use suppliers was approximately $18, though prices may fluctuate based on availability and volume.</strong></p>
+
+</div>
+</div>
+<div id="faq-question-1766655457849" class="rank-math-list-item">
+<h3 class="rank-math-question ">What is the average retatrutide price online?</h3>
+<div class="rank-math-answer ">
+
+<p>The retatrutide price advertised by research suppliers often differs between vendors due to purity claims, packaging, and service levels. Prices are not standardized and should not be compared to prescription medications or investigational drugs used in regulated trials. <strong>At the time of review, the average advertised price for a 10 mg vial of retatrutide from research-use suppliers was approximately $210, though actual pricing may vary by vendor and availability.</strong></p>
+
+</div>
+</div>
+<div id="faq-question-1766655487627" class="rank-math-list-item">
+<h3 class="rank-math-question ">Does Magellan RX Management sell retatrutide?</h3>
+<div class="rank-math-answer ">
+
+<p>No. Magellan RX Management does not sell peptides. This page provides <strong>independent vendor comparisons</strong> based on observable operational and reliability factors.</p>
+
+</div>
+</div>
+<div id="faq-question-1768640627364" class="rank-math-list-item">
+<h3 class="rank-math-question ">Do I need to complete a standard Medicaid prior authorization form to purchase retatrutide?</h3>
+<div class="rank-math-answer ">
+
+<p>No. Because Medicaid does not cover retatrutide, there is no requirement to submit or complete a standard Medicaid prior authorization form.</p>
+
+</div>
+</div>
+<div id="faq-question-1768641139270" class="rank-math-list-item">
+<h3 class="rank-math-question "><strong>How does retatrutide differ from traditional diabetic supplies or medications?</strong></h3>
+<div class="rank-math-answer ">
+
+<p>Unlike traditional diabetic supplies such as glucose meters or single-pathway medications, retatrutide uses a multi-receptor approach that addresses several metabolic processes at once, potentially offering broader benefits.</p>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<div style="height:45px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#f1f3f4"></span><div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
+<div style="height:45px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-text-align-center has-large-font-size" id="best-new-casino-bonuses">Retatrutide Discount Codes</h2>
+
+
+
+<p class="has-text-align-center has-text-color" style="color:#7f8c8d;font-style:normal;font-weight:100">Summary of retatrutide discount codes, sales, and limited-time offers.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+</div></div>
+
+
+
+<p></p>
+
+					</div>
+				</div>
+
+								
+			</div>
+
+			
+		</div>
+	</div>
+</div>
+
+<!-- Page Section End -->
+
+<!-- Footer Start -->
+
+<div class="space-footer box-100 relative">
+		<div class="space-footer-top box-100 relative" >
+		<div class="space-footer-ins relative">
+			<div class="space-footer-top-center box-100 relative">
+				<div id="block-9" class="space-widget space-footer-area relative widget_block"><p>
+	<div class="space-shortcode-wrap space-posts-shortcode-1 relative">
+		<div class="space-shortcode-wrap-ins relative">
+
+						<div class="space-block-title relative">
+				<span>Recent Peptides News</span>
+			</div>
+			
+			<div class="space-news-1-items box-100 relative">
+
+				
+				<div class="space-news-1-item box-25 left relative">
+					<div class="space-news-1-item-ins relative">
+						<div class="space-news-1-item-img left relative">
+															<a href="https://www1.magellanrx.com/did-peptide-sciences-shut-down-best-alternative/" title="Did Peptide Sciences Shut Down? Best Alternative in 2026">
+									<picture><source  sizes='(max-width: 100px) 100vw, 100px' type="image/webp" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-100x100.jpg.webp 100w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-150x150.jpg.webp 150w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-50x50.jpg.webp 50w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-120x120.jpg.webp 120w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-135x135.jpg.webp 135w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-270x270.jpg.webp 270w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-450x450.jpg.webp 450w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-479x479.jpg.webp 479w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-570x570.jpg.webp 570w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-767x767.jpg.webp 767w"><img decoding="async" width="100" height="100" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAQMAAABKLAcXAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABRJREFUOMtjYBgFo2AUjIJRQE8AAAV4AAEpcbn8AAAAAElFTkSuQmCC" class="attachment-mercury-100-100 size-mercury-100-100 lazyload" alt="Did Peptide Sciences Shut Down? Best Alternative in 2026"   data-eio="p" data-src="https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-100x100.jpg" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-100x100.jpg 100w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-150x150.jpg 150w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-50x50.jpg 50w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-120x120.jpg 120w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-135x135.jpg 135w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-270x270.jpg 270w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-450x450.jpg 450w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-479x479.jpg 479w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-570x570.jpg 570w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-767x767.jpg 767w" data-sizes="auto" data-eio-rwidth="100" data-eio-rheight="100" /></picture><noscript><img decoding="async" width="100" height="100" src="https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-100x100.jpg" class="attachment-mercury-100-100 size-mercury-100-100" alt="Did Peptide Sciences Shut Down? Best Alternative in 2026" srcset="https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-100x100.jpg 100w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-150x150.jpg 150w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-50x50.jpg 50w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-120x120.jpg 120w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-135x135.jpg 135w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-270x270.jpg 270w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-450x450.jpg 450w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-479x479.jpg 479w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-570x570.jpg 570w, https://www1.magellanrx.com/wp-content/uploads/2026/03/ChatGPT-Image-Mar-20-2026-12_24_21-PM-767x767.jpg 767w" sizes="(max-width: 100px) 100vw, 100px" data-eio="l" /></noscript>								</a>
+													</div>
+						<div class="space-news-1-item-title-box left relative">
+							<div class="space-news-1-item-title-box-ins relative">
+								<div class="space-news-1-item-title relative">
+									<a href="https://www1.magellanrx.com/did-peptide-sciences-shut-down-best-alternative/" title="Did Peptide Sciences Shut Down? Best Alternative in 2026">Did Peptide Sciences Shut Down? Best Alternative in 2026</a>
+								</div>
+
+																
+							</div>
+						</div>
+					</div>
+				</div>
+
+				
+			</div>
+
+		</div>
+	</div>
+
+	</p>
+</div><div id="block-10" class="space-widget space-footer-area relative widget_block">
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+</div><div id="block-13" class="space-widget space-footer-area relative widget_block widget_media_image"><div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" width="240" height="51" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPAAAAAzAQMAAACT5xfLAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABVJREFUOMtjYBgFo2AUjIJRMAoIAAAGLQAB2ZjtgwAAAABJRU5ErkJggg==" alt="" class="wp-image-548 lazyload" data-src="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-2-e1766764482208.png" data-eio-rwidth="240" data-eio-rheight="51" /><noscript><img decoding="async" width="240" height="51" src="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-2-e1766764482208.png" alt="" class="wp-image-548" data-eio="l" /></noscript></figure>
+</div></div>			</div>
+		</div>
+	</div>
+		<div class="space-footer-copy box-100 relative">
+		<div class="space-footer-ins relative">
+			<div class="space-footer-copy-left box-50 left relative">
+									© Copyright 2026 Magellan Rx Management. All Rights Reserved.							</div>
+			<div class="space-footer-copy-menu box-50 left relative">
+				<ul id="menu-footer-menu" class="space-footer-menu"><li id="menu-item-550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-550"><a href="https://www1.magellanrx.com/affiliate-disclosure/">Affiliate Disclosure</a></li>
+<li id="menu-item-328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-328"><a href="https://www1.magellanrx.com/terms-and-conditions/">Terms &#038; Conditions</a></li>
+<li id="menu-item-552" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-552"><a rel="privacy-policy" href="https://www1.magellanrx.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-551" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-551"><a href="https://www1.magellanrx.com/about-us/">About Us</a></li>
+<li id="menu-item-649" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-649"><a href="https://www1.magellanrx.com/contact-us/">Contact Us</a></li>
+</ul>			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Footer End -->
+
+</div>
+
+<!-- Mobile Menu Start -->
+
+<div class="space-mobile-menu fixed">
+	<div class="space-mobile-menu-block absolute" >
+		<div class="space-mobile-menu-block-ins relative">
+			<div class="space-mobile-menu-header relative text-center">
+				<a href="https://www1.magellanrx.com/" title="Magellan Rx Management"><img width="188" height="40" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAAAoAQMAAAB+cAK9AAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABFJREFUKM9jYBgFo2AUDHcAAAPoAAEYIFNZAAAAAElFTkSuQmCC" class="attachment-mercury-custom-logo size-mercury-custom-logo lazyload" alt="Magellan Rx Management" decoding="async"   data-src="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png" data-srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png 188w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-300x64.png 300w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-768x164.png 768w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-150x32.png 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-328x70.png 328w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-375x80.png 375w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-633x135.png 633w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1.png 797w" data-sizes="auto" data-eio-rwidth="188" data-eio-rheight="40" /><noscript><img width="188" height="40" src="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png" class="attachment-mercury-custom-logo size-mercury-custom-logo" alt="Magellan Rx Management" decoding="async" srcset="https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-188x40.png 188w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-300x64.png 300w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-768x164.png 768w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-150x32.png 150w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-328x70.png 328w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-375x80.png 375w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1-633x135.png 633w, https://www1.magellanrx.com/wp-content/uploads/2025/12/magellan-full-logo-1.png 797w" sizes="(max-width: 188px) 100vw, 188px" data-eio="l" /></noscript></a>		
+			</div>
+			<div class="space-mobile-menu-list relative">
+				<ul id="menu-main-en-us-1" class="mobile-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-378 current_page_item menu-item-549"><a href="https://www1.magellanrx.com/" aria-current="page">Retatrutide</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-558"><a href="https://www1.magellanrx.com/top-peptides/">Top Peptides</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-563"><a href="https://www1.magellanrx.com/where-to-buy-bpc-157-peptide-price-and-quality-comparison/">BPC-157 Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-559"><a href="https://www1.magellanrx.com/where-to-buy-ghk-cu-peptide-price-and-quality-comparison/">GHK-Cu Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-560"><a href="https://www1.magellanrx.com/where-to-buy-klow-stack-peptide-price-and-quality-comparison/">Klow Stack Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-561"><a href="https://www1.magellanrx.com/where-to-buy-glow-peptide-price-and-quality-comparison/">Glow Stack Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-562"><a href="https://www1.magellanrx.com/where-to-buy-ipamorelin-peptide-price-and-quality-comparison/">Ipamorelin Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-684"><a href="https://www1.magellanrx.com/wolverine-stack-peptide/">Wolverine Stack Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-692"><a href="https://www1.magellanrx.com/where-to-buy-kpv-peptide/">KPV Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-716"><a href="https://www1.magellanrx.com/sermorelin-peptide-for-sale/">Sermorelin Peptide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-725"><a href="https://www1.magellanrx.com/best-peptides-for-muscle-growth/">Peptides For Muscle Growth</a></li>
+</ul>
+</li>
+</ul>			</div>
+			<div class="space-mobile-menu-copy relative text-center">
+									© Copyright 2026 Magellan Rx Management. All Rights Reserved.							</div>
+			<div class="space-close-icon space-mobile-menu-close-button absolute">
+				<div class="to-right absolute"></div>
+				<div class="to-left absolute"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Mobile Menu End -->
+
+<!-- Back to Top Start -->
+
+<div class="space-to-top">
+	<a href="#" id="scrolltop" title="Back to Top"><i class="far fa-arrow-alt-circle-up"></i></a>
+</div>
+
+<!-- Back to Top End -->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/mercury/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="eio-lazy-load-js-before">
+var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":0,"bg_min_dpr":1.1,"threshold":0,"use_dpr":0};
+//# sourceURL=eio-lazy-load-js-before
+</script>
+<script src="https://www1.magellanrx.com/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js?ver=850" id="eio-lazy-load-js" async data-wp-strategy="async"></script>
+<script src="https://www1.magellanrx.com/wp-content/themes/mercury/js/theia-sticky-sidebar.min.js?ver=1.7.0" id="theia-sticky-sidebar-js"></script>
+<script src="https://www1.magellanrx.com/wp-content/themes/mercury/js/enable-sticky-sidebar.js?ver=3.9.12" id="mercury-enable-sticky-sidebar-js-js"></script>
+<script src="https://www1.magellanrx.com/wp-content/themes/mercury/js/owl.carousel.min.js?ver=2.3.4" id="owl-carousel-js"></script>
+<script src="https://www1.magellanrx.com/wp-content/themes/mercury/js/scripts.js?ver=3.9.12" id="mercury-global-js-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www1.magellanrx.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://www1.magellanrx.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f7be6ad4ee5ef30',t:'MTc3ODExMTU3Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

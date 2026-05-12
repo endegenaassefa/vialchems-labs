@@ -1,0 +1,396 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://xxxpeptides.com/
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/homepage.md
+[LINE_RANGE] 56-57
+[QUOTE]
+"XXXPeptides Premium Research Peptides for
+Scientific Innovation"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://xxxpeptides.com/
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/homepage.md
+[LINE_RANGE] 232-232
+[QUOTE]
+"**IMPORTANT DISCLAIMER:** All products sold on this website are for research purposes only. Not for human consumption. These peptides are intended for laboratory and research use only. XXXPeptides does not endorse or promote the use of our products in a manner contrary to local laws and regulations. "
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://xxxpeptides.com/
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/homepage.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"[ SHOP PEPTIDES  ](/collections/all)[ LEARN MORE  ](/pages/about-us)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://xxxpeptides.com/
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/homepage.md
+[LINE_RANGE] 12-26
+[QUOTE]
+"  * [ Home ](/)
+  * [ Shop All ](/collections/all)
+  * Shop By Collection
+
+Shop By Collection
+    * [ Blends ](/collections/blends)
+    * [ Bioregulators ](/collections/bioregulators)
+
+  * [ About Us ](/pages/about-us)
+  * [ Blogs ](/blogs/news)
+  * [ Contact Us ](/pages/contact)
+  * [ FAQs ](/pages/faqs)
+  * [ Disclaimer ](/pages/disclaimer)"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://xxxpeptides.com/
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/homepage.md
+[LINE_RANGE] 10-10
+[QUOTE]
+"We do not ship outside of the United States | Peptides for research purpose only!"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://xxxpeptides.com/collections/all
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/catalog_1.md
+[LINE_RANGE] 68-69
+[QUOTE]
+"  * In stock (46)  In stock (46 products)
+  * Out of stock (2)  Out of stock (2 products)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://xxxpeptides.com/collections/all
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/catalog_1.md
+[LINE_RANGE] 105-105
+[QUOTE]
+"##  48 products"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://xxxpeptides.com/collections/blends
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/catalog_blends.md
+[LINE_RANGE] 165-168
+[QUOTE]
+"  * ###  [ BPC-157 / TB-500 20mg ](/products/bpc-157-tb-500-20mg)
+
+###  [ BPC-157 / TB-500 20mg ](/products/bpc-157-tb-500-20mg)
+
+Regular price $90.00 USD"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name / product_page_anatomy.list_price
+[URL] https://xxxpeptides.com/products/bpc-157-10mg
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 66-72
+[QUOTE]
+"# BPC-157 10mg
+
+## [ BPC-157 10mg  ](/products/bpc-157-10mg)
+
+Regular price $58.00 USD
+
+Regular price ~~~~ Sale price $58.00 USD"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://xxxpeptides.com/products/bpc-157-10mg
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 89-91
+[QUOTE]
+"BPC-157 (Body Protection Compound-157) is a synthetic pentadecapeptide composed of 15 amino acids derived from a naturally occurring protein known as Body Protection Compound (BPC), originally identified in gastric juice."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://xxxpeptides.com/products/bpc-157-10mg
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 165-168
+[QUOTE]
+"## FDA Disclaimer
+
+The statements made on this website have not been evaluated by the U.S. Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://xxxpeptides.com/products/bpc-157-10mg
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 127-127
+[QUOTE]
+"  * Batch-specific Certificate of Analysis (COA) documentation"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://xxxpeptides.com/pages/disclaimer
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/disclaimer.md
+[LINE_RANGE] 58-58
+[QUOTE]
+"This product is designed solely for research purposes. It is intended exclusively for in vitro, testing and laboratory experimentation only. All information provided on xxxpeptides.com is for educational purposes only. Any form of bodily introduction into humans or animals is strictly prohibited by law and XXX peptides. This product is not for human consumption. It should only be handled by licensed and qualified professionals. It is not classified as a drug, food or cosmetic, and must not be misbranded, misused, or mislabeled as such."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://xxxpeptides.com/
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/homepage.md
+[LINE_RANGE] 10-10
+[QUOTE]
+"We do not ship outside of the United States | Peptides for research purpose only!"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / trust_compliance.tos_highlights
+[URL] https://xxxpeptides.com/pages/payment-compliance-policy
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/tos.md
+[LINE_RANGE] 74-78
+[QUOTE]
+"## ACH / eCheck (Primary Payment Method)
+
+We accept secure bank transfer payments via the Automated Clearing House (ACH) network.
+
+By selecting ACH/eCheck at checkout, you authorize XXXPeptides to initiate a debit from your designated bank account for the total order amoun"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://xxxpeptides.com/pages/return-and-refund-policy
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/refund.md
+[LINE_RANGE] 71-75
+[QUOTE]
+"All Sales Are Final, Except under the Exceptions section, No Returns or Exchanges: Due to the sensitive nature of our research products and the potential for tampering, all sales are final. We do not accept returns or exchanges for any reason once an order has been placed. Please review your order carefully before completing your purchase."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy / checkout_flow.shipping_carriers
+[URL] https://xxxpeptides.com/pages/return-and-refund-policy
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/refund.md
+[LINE_RANGE] 59-65
+[QUOTE]
+"Processing Time: Orders are typically processed and handed to our shipping carriers within 1-2 business days (Monday-Friday, excluding holidays). In rare cases, high order volume may cause a slight delay. You will receive a shipping confirmation email with your tracking number once your order is on its way. Please check your spam/junk folder if you do not see it. PLEASE NOTE – From time to time items will be backordered, so this may also delay your shipment.
+
+**Carrier Partners:** We partner with trusted carriers like USPS, UPS, and FedEx to ensure reliable delivery. After your package leaves our facility, it is in the hands of the carrier. While we monitor shipments, we cannot directly control transit times or handling once the carrier has possession."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present / checkout_flow.id_verification_present
+[URL] https://xxxpeptides.com/pages/user-agreement
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/jurisdiction.md
+[LINE_RANGE] 58-66
+[QUOTE]
+"You are at least 21 years of age."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://xxxpeptides.com/pages/payment-compliance-policy
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/tos.md
+[LINE_RANGE] 74-92
+[QUOTE]
+"## ACH / eCheck (Primary Payment Method)
+
+We accept secure bank transfer payments via the Automated Clearing House (ACH) network.
+
+By selecting ACH/eCheck at checkout, you authorize XXXPeptides to initiate a debit from your designated bank account for the total order amoun
+
+## Important ACH Terms:
+
+  * Payments typically take **2–5 business days** to clear
+  * Orders are **not processed or shipped until funds have cleared**
+  * Transactions are subject to bank verification and fraud screening
+  * Returned or failed payments may result in order cancellation
+
+## Manual Bank Transfer (If Offered)
+
+Customers may also complete payment via direct bank transfer using the provided account details at checkout."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://xxxpeptides.com/
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/homepage.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"Secure payments – Free shipping over $300"
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required / checkout_flow.guest_checkout_available
+[URL] https://xxxpeptides.com/cart
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/checkout_step_1.md
+[LINE_RANGE] 106-109
+[QUOTE]
+"## Have an account?
+
+[Log in](https://xxxpeptides.com/customer_authentication/redirect?locale=en&region_country=US) to check out faster.
+
+Loading..."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://xxxpeptides.com/
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/source_homepage.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"powered-by: Shopify"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://xxxpeptides.com/
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/source_homepage.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"cf-ray: 9f87358a39232909-IAD"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.blog_url
+[URL] https://xxxpeptides.com/blogs/news
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/blog_1.md
+[LINE_RANGE] 56-57
+[QUOTE]
+"#  News"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews / social_proof.testimonial_usage
+[URL] https://xxxpeptides.com/
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/homepage.md
+[LINE_RANGE] 152-192
+[QUOTE]
+"##  What Our Clients Say
+
+Join thousands of satisfied researchers and scientists who trust xxxPeptides for their laboratory needs.
+
+Dr. Robert Mitchell
+
+Research Biochemist
+
+"Outstanding quality and consistency. The purity levels are exactly as advertised, and the certificate of analysis are comprehensive. This is now my go-to supplier for all peptide research.""
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://xxxpeptides.com/
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/homepage.md
+[LINE_RANGE] 192-192
+[QUOTE]
+"[ Trustpilot ](https://www.trustpilot.com/review/xxxpeptides.com)"
+[/QUOTE]
+
+[CLAIM] skus / xxxpeptides:bpc-157-10mg (claim-7)
+[URL] https://xxxpeptides.com/products/bpc-157-10mg
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 66-72
+[QUOTE]
+"# BPC-157 10mg
+
+## [ BPC-157 10mg  ](/products/bpc-157-10mg)
+
+Regular price $58.00 USD
+
+Regular price ~~~~ Sale price $58.00 USD"
+[/QUOTE]
+
+[CLAIM] skus / xxxpeptides:tb-500 variants (claim-8)
+[URL] https://xxxpeptides.com/products/tb-500-10-20mg
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/product_2__tb-500-10-20mg.md
+[LINE_RANGE] 65-75
+[QUOTE]
+"Regular price $48.00 USD"
+[/QUOTE]
+
+[CLAIM] skus / xxxpeptides:retatrutide variants (claim-9)
+[URL] https://xxxpeptides.com/products/retatrutide-10mg-30mg-60mg
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/product_3__retatrutide-10mg-30mg-60mg.md
+[LINE_RANGE] 70-80
+[QUOTE]
+"Regular price $130.00 USD"
+[/QUOTE]
+
+[CLAIM] skus / xxxpeptides:pt-141-10mg (claim-10)
+[URL] https://xxxpeptides.com/collections/all?page=3
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/catalog_3.md
+[LINE_RANGE] 180-185
+[QUOTE]
+"  * ###  [ PT-141 10MG ](/products/pt-141-10mg)
+
+###  [ PT-141 10MG ](/products/pt-141-10mg)
+
+Regular price $33.00 USD"
+[/QUOTE]
+
+[CLAIM] skus / xxxpeptides:ghk-cu (claim-11)
+[URL] https://xxxpeptides.com/collections/all?page=2
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/catalog_2.md
+[LINE_RANGE] 164-170
+[QUOTE]
+"  * ###  [ GHK-CU 50mg -100mg ](/products/ghk-cu-50mg-100mg)
+
+###  [ GHK-CU 50mg -100mg ](/products/ghk-cu-50mg-100mg)
+
+Regular price From $52.00 USD"
+[/QUOTE]
+
+[CLAIM] skus / xxxpeptides:mots-c (claim-12)
+[URL] https://xxxpeptides.com/collections/all?page=2
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xxxpeptides/catalog_2.md
+[LINE_RANGE] 252-258
+[QUOTE]
+"  * ###  [ MOTS-C ](/products/mots-c-10mg-40mg-10)
+
+###  [ MOTS-C ](/products/mots-c-10mg-40mg-10)
+
+Regular price From $40.00 USD"
+[/QUOTE]

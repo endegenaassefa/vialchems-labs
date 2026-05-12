@@ -1,0 +1,445 @@
+# Evidence file for acquisition channel: vendor-blogs
+# Format follows research_directive.md §6
+# Every [QUOTE] block grep-matches the file at [RAW_ARTIFACT].
+
+================================================================================
+[CLAIM_ID] e001
+[CLAIM] biotechpeptides.com maintains a "Knowledge Center" stub-grade evergreen library at /knowledge-center/ with only 5 posts dated Aug 2021 - Jun 2022.
+[URL] https://biotechpeptides.com/knowledge-center/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/biotechpeptides__knowledge-center.md
+[LINE_RANGE] 17-29
+[QUOTE]
+"Understanding Peptide Bonds | https://biotechpeptides.com/2022/06/30/understanding-peptide-bonds/ | June 30, 2022
+Peptide Solubility | https://biotechpeptides.com/2022/06/30/peptide-solubility/ | June 30, 2022
+Peptide Purification | https://biotechpeptides.com/2022/06/30/peptide-purification/ | June 30, 2022
+Peptide Synthesis | https://biotechpeptides.com/2022/06/24/peptide-synthesis/ | June 24, 2022
+Standard Procedure For Storing Peptides | https://biotechpeptides.com/2021/08/11/standard-procedure-for-storing-peptides/ | August 11, 2021"
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e002
+[CLAIM] biotechpeptides.com also maintains an active research blog at /news/ with pagination 1-20 (~180-200 posts), cadence ~2-3 posts/month Dec 2025 - Apr 2026, byline "Dr. Usman".
+[URL] https://biotechpeptides.com/news/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/biotechpeptides__news-blog.md
+[LINE_RANGE] 14-23
+[QUOTE]
+"Apr 23, 2026 | Tesamorelin, Modified GRF 1-29, and Ipamorelin Peptide Blend ...
+Apr 9, 2026 | Sermorelin, GHRP-6, and GHRP-2 Peptide Blend ...
+Mar 25, 2026 | Tesamorelin: Molecular Characterization, Growth Hormone Axis Modulation ...
+Mar 20, 2026 | BPC-157, TB-500 & GHK-Cu Peptide Blend ...
+Mar 10, 2026 | Ipamorelin Peptide – Growth Hormone Modulation ...
+Mar 6, 2026 | MT1 (Melanotan-1): Structure and Emerging Research ...
+Feb 1, 2026 | Sermorelin Overview: Growth Hormone and IGF-1 Research ...
+Jan 19, 2026 | CJC-1295 DAC: Structure, Mechanism, and Research Findings ...
+Dec 15, 2025 | Modified GRF 1-29: Growth Hormone Axis Modulation"
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e003
+[CLAIM] biotechpeptides.com posts internally link to product pages with explicit "Buy <peptide> - <dose>" CTAs.
+[URL] https://biotechpeptides.com/2026/03/20/bpc-157-tb-500-ghk-cu-peptide-blend-mechanistic-insights/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/biotechpeptides__post-bpc157-blend.md
+[LINE_RANGE] 16-19
+[QUOTE]
+"Buy BPC-157 - 5mg / 10mg
+Buy TB-500 - 10mg
+Buy GHK-Cu - 50mg
+BPC-157 & TB-500 & GHK-Cu Blend (70mg)"
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e004
+[CLAIM] biotechpeptides.com per-post disclaimer: research-only, not for human/animal consumption, in-vitro only.
+[URL] https://biotechpeptides.com/2026/01/19/cjc-1295-dac-explained-structure-mechanism-and-research-findings/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/biotechpeptides__post-cjc1295-dac.md
+[LINE_RANGE] 19-19
+[QUOTE]
+"The products mentioned are not intended for human or animal consumption. Research chemicals are intended solely for laboratory experimentation and/or in-vitro testing. Bodily introduction of any sort is strictly prohibited by law."
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e005
+[CLAIM] corepeptides.com maintains an active blog at /blog/ with cadence ~3-4 posts/month Feb-Apr 2026, "« Older Entries" pagination indicator, but the blog is NOT linked from the homepage primary navigation or footer.
+[URL] https://www.corepeptides.com/blog/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/corepeptides__blog-index.md
+[LINE_RANGE] 22-30
+[QUOTE]
+"Apr 30, 2026 | Interactions Between PE-22-28 and Nerve Cells ...
+Apr 20, 2026 | GHK-Cu Peptide: A Review of Mechanisms and Studies ...
+Apr 6, 2026 | Epigenetic Potential of Vesilute ...
+Apr 1, 2026 | KED Potential Actions in Different Models of Cellular Aging ...
+Mar 23, 2026 | The Potential of Anabolism and Synergism in a Sermorelin & Ipamorelin Blend ...
+Mar 17, 2026 | Sermorelin & GHRP-2 Synergistic Potential ...
+Mar 12, 2026 | Sermorelin: Potential Interactions with Different Hormone-Producing Cells ...
+Mar 4, 2026 | FOXO4-DRI Peptide Potential Interactions with Aged Cell Cultures"
+[/QUOTE]
+
+[URL] https://corepeptides.com/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/corepeptides__homepage-no-blog-link.md
+[LINE_RANGE] 12-15
+[QUOTE]
+"Primary nav: 'Home', 'Peptides for Sale', 'About Us', 'Contact', 'My Account'
+Footer 'Quick links': 'Peptides for Sale', 'About Us', 'Shipping, Returns & Refunds', 'Privacy policy', 'Terms and Conditions', 'Contact'"
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e006
+[CLAIM] corepeptides.com posts use a single named credentialed author "Dr. Marinov (MD, Ph.D.)" with a dedicated author page disclosing his Preventative Medicine professorship.
+[URL] https://www.corepeptides.com/dr-marinov/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/corepeptides__author-marinov.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"Dr. Marinov (MD, Ph.D.) is a researcher and chief assistant professor in Preventative Medicine & Public Health."
+[/QUOTE]
+
+[URL] https://www.corepeptides.com/ghk-cu-peptide-a-review-of-mechanisms-and-studies/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/corepeptides__post-ghk-cu.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"Dr. Marinov (MD, Ph.D.) | Apr 20, 2026"
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e007
+[CLAIM] corepeptides.com per-post disclaimer is bifurcated: research-only language plus FDA non-evaluation disclaimer.
+[URL] https://www.corepeptides.com/blog/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/corepeptides__blog-index.md
+[LINE_RANGE] 14-16
+[QUOTE]
+"All products are sold for research, laboratory, or analytical purposes only, and are not for human consumption.
+The statements made within this website have not been evaluated by the US Food and Drug Administration. The products we offer are not intended to diagnose, treat, cure or prevent any disease."
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e008
+[CLAIM] behemothlabz.com /articles/ uses question-form titles ("What Is...", "Does X increase Y?", "What Are the Effects of X?") that read as consumer search queries rather than research-paper headings.
+[URL] https://behemothlabz.com/articles/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/behemothlabz__articles-index.md
+[LINE_RANGE] 19-25
+[QUOTE]
+"Cortagen Peptide: Uses, Benefits, Side Effects, and Dosage ...
+What Is the Mechanism of Action of PE-22-28? ...
+What Does Adipotide Do? ...
+Is GHRP-2 the same as Sermorelin? ...
+Does GHRP-6 increase weight? ...
+What Hormone Does MK-677 Increase? ...
+What Are the Effects of YK11?"
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e009
+[CLAIM] behemothlabz.com's "Cortagen" article uses the title pattern "Uses, Benefits, Side Effects, and Dosage" — language that mirrors consumer pharmaceutical reference rather than research literature, despite a strong "research only" disclaimer.
+[URL] https://behemothlabz.com/cortagen-peptide-uses-benefits-side-effects-and-dosage/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/behemothlabz__post-cortagen.md
+[LINE_RANGE] 14-14
+[QUOTE]
+"ATTENTION: All BehemothLabz products are strictly for LABORATORY AND RESEARCH PURPOSES ONLY. They are not to be used for any human or veterinary purposes."
+[/QUOTE]
+
+[URL] https://behemothlabz.com/cortagen-peptide-uses-benefits-side-effects-and-dosage/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/behemothlabz__post-cortagen.md
+[LINE_RANGE] 18-19
+[QUOTE]
+"Ready to order? Buy Cortagen at BehemothLabz → https://behemothlabz.com/product/cortagen/
+Shop All Research Compounds → https://behemothlabz.com/product-category/peptides/"
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e010
+[CLAIM] behemothlabz.com publishes a dedicated author page for "Dr. Ryan Michaels" with explicit institutional credentials (Vanderbilt PhD, UCSD biochemistry, Vanderbilt fellowship), but other posts use anonymous "Team BehemothLabz" byline.
+[URL] https://behemothlabz.com/author/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/behemothlabz__author-michaels.md
+[LINE_RANGE] 13-19
+[QUOTE]
+"Ph.D. in Molecular Physiology and Biophysics (Vanderbilt University)
+B.S. in Biochemistry, Honors (UC San Diego)
+Certificate in Experimental Pharmacology and Drug Development (UC San Diego Extension)
+Certificate in Human Research Protections Training (CITI Program)
+Founder & Lead Research Consultant at NeuroCore Labs
+Research Fellow – Vanderbilt Center for Muscle Biology
+Contributing Writer & Scientific Advisor at Behemoth Labz"
+[/QUOTE]
+
+[URL] https://behemothlabz.com/what-is-the-mechanism-of-action-of-pe-22-28/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/behemothlabz__post-pe22-28.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"Author/Date: Team BehemothLabz | May 5, 2026"
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e011
+[CLAIM] limitlesslifenootropics.com /blog/ is stub-grade: only 5 posts visible, only 1 in last 12 months, no pagination.
+[URL] https://limitlesslifenootropics.com/blog/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/limitlesslife__blog-index.md
+[LINE_RANGE] 22-26
+[QUOTE]
+"Aug 11, 2025 | USA Made Peptides: Why Domestic Manufacturing Matters for Research | Editorial Team
+Nov 30, 2024 | The Difference Between Peptides and Proteins Explained | Limitless Life Nootropics
+Nov 30, 2024 | Peptide Synthesis Overview and Applications | Limitless Life nootropics
+Nov 16, 2024 | Research Peptides 101: An Introduction | Limitless Life nootropics
+May 15, 2023 | Peptide Bonds | Limitless Life nootropics"
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e012
+[CLAIM] limitlesslifenootropics.com Resources Center contains 8 articles, all dated April-May 2023 — no refresh in over 2 years.
+[URL] https://limitlesslifenootropics.com/resources/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/limitlesslife__resources-index.md
+[LINE_RANGE] 14-21
+[QUOTE]
+"Peptides vs Proteins | May 15, 2023
+Peptides Made in The USA | May 15, 2023
+Peptide Bonds | May 15, 2023
+Peptide Synthesis | May 15, 2023
+Peptide Purity | May 15, 2023
+Peptide Reconstitution | May 12, 2023
+Introduction To Research Peptides | May 12, 2023
+Peptide Storage – Guidelines For Handling | April 14, 2023"
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e013
+[CLAIM] limitlesslifenootropics.com posts have soft inline product CTAs; 'Research Peptides 101' links to BPC-157 and Oxytocin product pages and ends with "Shop Third-Party Tested Peptides".
+[URL] https://limitlesslifenootropics.com/research-peptides
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/limitlesslife__post-research-peptides-101.md
+[LINE_RANGE] 14-21
+[QUOTE]
+"BPC-157 → https://www.limitlesslifenootropics.com/product/bpc-157-acetate/
+Oxytocin → https://www.limitlesslifenootropics.com/product/oxytocin/
+Shop Third-Party Tested Peptides → https://www.limitlesslifenootropics.com/"
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e014
+[CLAIM] limitlesslifenootropics.com per-post disclaimer is single-sentence "exclusively for educational and informational purposes" — softer than research/lab-only language used by Biotech Peptides, Core Peptides, and Behemoth Labz.
+[URL] https://limitlesslifenootropics.com/research-peptides
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/limitlesslife__post-research-peptides-101.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"All content provided on this website, including product information and articles, is intended exclusively for educational and informational purposes."
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e015
+[CLAIM] peptidesciences.com hosts a /peptide-research/ section with category indexes (e.g., /category/Bioregulators) and per-topic articles (oral peptides, healing peptides, brain research, immunology). Direct WebFetch returned HTTP 403; URLs and topical scope enumerated via Google site: search.
+[URL] https://www.peptidesciences.com/peptide-research
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch_failed_403_then_websearch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/peptidesciences__research-section-search.md
+[LINE_RANGE] 17-26
+[QUOTE]
+"Oral Peptides | What to Know in 2024 | https://www.peptidesciences.com/peptide-research/oral-peptides
+Peptide Research for Neurocognitive Improvement | https://www.peptidesciences.com/peptide-research/peptides-neurocognitive-improvement
+Neurotrophic Signaling Pathways Explored Using Cerebrolysin in Experimental Models | https://www.peptidesciences.com/peptide-research/cerebrolysin-research
+Healing Peptides: What to Know In 2024? | https://www.peptidesciences.com/peptide-research/healing-peptides
+Research Overview of Peptide Signaling in the Central Nervous System | https://www.peptidesciences.com/peptide-research/peptides-for-brain-research
+Peptide Compounds Referenced in In Vitro Immunology and Inflammation Studies | https://www.peptidesciences.com/peptide-research/peptides-for-inflammation-research
+What Are Peptides? | https://www.peptidesciences.com/peptide-research/what-are-peptides
+Bioregulators (category index) | https://www.peptidesciences.com/peptide-research/category/Bioregulators"
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e016
+[CLAIM] peptidesciences.com positioning emphasizes COA + HPLC + Mass Spec + in-vitro-only language inside their educational copy; this couples blog content tightly to their clinical-posture brand framing.
+[URL] https://www.peptidesciences.com/peptide-research
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch_failed_403_then_websearch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/peptidesciences__research-section-search.md
+[LINE_RANGE] 30-31
+[QUOTE]
+"All articles and product information provided on the website are for informational and educational purposes only. Products or materials referenced are intended exclusively for in-vitro laboratory research use and are not intended for human or animal use."
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e017
+[CLAIM] purerawz.co operates a vendor blog at /blog/ with a "Team PureRawz" anonymous author convention; blog index, sample post, sitemap, and author URLs all surfaced via Google site: search after WebFetch returned 403.
+[URL] https://purerawz.co/blog/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch_failed_403_then_websearch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/purerawz__blog-search.md
+[LINE_RANGE] 21-22
+[QUOTE]
+"PureRawz Blog – Research Compounds, Wellness Insights
+Team PureRawz | Meet The Experts Behind The Brand"
+[/QUOTE]
+
+[URL] https://purerawz.co/author/team-purerawz/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch_failed_403_then_websearch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/purerawz__blog-search.md
+[LINE_RANGE] 24-25
+[QUOTE]
+"The PureRawz team of professional researchers verifies the accuracy of every article, aligning content with current studies and real-world lab data.
+Subject-matter experts develop content to explain research compounds, and all content is reviewed by medical professionals to check accuracy."
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e018
+[CLAIM] swisschems.is operates with no public vendor blog. Google site:swisschems.is for blog/articles/research/knowledge-base returned zero results, indicating absence-as-finding.
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch_failed_then_websearch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/swisschems__no-blog-finding.md
+[LINE_RANGE] 12-15
+[QUOTE]
+"After WebFetch attempts on /, /about-us/, /blog/, /articles/, /peptides/ and Google site:swisschems.is blog OR articles OR research, SwissChems does not appear to maintain a vendor-owned blog or knowledge-center section."
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e019
+[CLAIM] swisschems substitutes for blog content with an email-distributed "research articles" channel rather than a public blog archive.
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch_failed_then_websearch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/swisschems__no-blog-finding.md
+[LINE_RANGE] 21-21
+[QUOTE]
+"SwissChems' email list offers early access to sales and promo codes, product announcements, and research articles with protocol guidance."
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e020
+[CLAIM] aminoasylum brand is post-raid (June 2025); all known domain variants (.shop, .com via redirect, llc.com, -asylum.net, asylums.net) are dead, redirecting, captcha-walled, or refusing connection. Vendor blog (if any existed) is now inaccessible.
+[URL] https://aminoasylum.shop/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch_and_websearch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/aminoasylum__shutdown-finding.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"In June 2025, federal authorities reportedly raided Amino Asylum's warehouse in Kentucky. Prior to the June 2025 raid, the company had an estimated 400,000+ monthly website visitors and was one of the top five most-searched peptide vendors in the United States."
+[/QUOTE]
+
+[URL] https://aminoasylum.shop/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch_and_websearch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/aminoasylum__shutdown-finding.md
+[LINE_RANGE] 18-23
+[QUOTE]
+"aminoasylum.shop | 301 → peptidecoupons.com
+peptidecoupons.com | HTTP 403
+aminoasylumllc.com | Bot-verification gate
+amino-asylum.net | 302 → recaptcha.cloud
+aminoasylums.net | ECONNREFUSED"
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e021
+[CLAIM] domestic-supply.com publishes /news/ as an operational-announcement feed (warehouse stock, promos, scam alerts) — not peptide-research educational content. Top-nav surfaces "News" but cadence is ~1-2 posts/quarter and content is non-educational.
+[URL] https://domestic-supply.com/news/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/domesticsupply__news-blog.md
+[LINE_RANGE] 17-31
+[QUOTE]
+"01/09/2026 | GENIQS PHARMA Products Now Available on Domestic Supply
+11/01/2025 | Fake Websites Alert!
+05/03/2025 | XT Labs super promo - Buy 3 + 1 free!
+05/16/2024 | Spectrum Pharma warehouse Holidays!
+02/28/2024 | SCAM ALERT! The scam imitation of the official website
+01/11/2024 | ZPHC products back in stock!
+09/16/2023 | Canada Peptides back in stock! Welcome back PROMO!
+08/29/2023 | Balkan Pharmaceuticals Back in stock!"
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e022
+[CLAIM] peptideguys.com cannot be confirmed as an active vendor with public site presence. WebFetch returned no content; site: search returned zero results; brand-name probes surface only competitor URLs.
+[URL] https://peptideguys.com/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch_and_websearch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/peptideguys__no-blog-finding.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"The domain peptideguys.com could not be confirmed as an active vendor with a public site presence in this fetch pass. WebFetch on the homepage returned an apparently-empty response; on /blog/ returned a TLS certificate error; Google site:peptideguys.com returns zero indexed pages; and brand-name probe searches for 'peptide guys' surface only unrelated competitors and listicles that do not link back to peptideguys.com."
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e023
+[CLAIM] biotechpeptides.com sample articles run ~1,500-2,400 words, technical/mechanistic register, with multiple in-text product CTAs.
+[URL] https://biotechpeptides.com/2026/02/01/sermorelin-overview-growth-hormone-and-igf-1-research/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/biotechpeptides__post-bpc157-blend.md
+[LINE_RANGE] 13-13
+[QUOTE]
+"GHK-Cu & TB-500 & BPC-157 peptide blend, often referred to in research contexts as the Glow Blend, is a composite investigational formulation developed to examine coordinated regenerative signaling networks."
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e024
+[CLAIM] behemothlabz.com sample article opens in conversational/marketing register: "It is a seven-amino-acid peptide. It blocks a potassium channel most researchers have never heard of. ... Here is the science." — distinct from the academic-paper register used by biotechpeptides and corepeptides.
+[URL] https://behemothlabz.com/what-is-the-mechanism-of-action-of-pe-22-28/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/behemothlabz__post-pe22-28.md
+[LINE_RANGE] 13-13
+[QUOTE]
+"It is a seven-amino-acid peptide. It blocks a potassium channel most researchers have never heard of. In preclinical models, what followed was worth paying attention to. Here is the science."
+[/QUOTE]
+
+================================================================================
+[CLAIM_ID] e025
+[CLAIM] Compound coverage skew: BPC-157, TB-500, GHK-Cu, Sermorelin, GHRP-2/6, CJC-1295, Tesamorelin, Ipamorelin appear most frequently across the active vendor blogs (Biotech Peptides, Core Peptides, Behemoth Labz). PE-22-28 and Adipotide also surface twice (Behemoth + Core).
+[INFERENCE] Compounds receiving the most blog content across multiple vendors: BPC-157 (Biotech Peptides /blend post + PureRawz mention + Limitless Life), TB-500 (Biotech, PureRawz), GHK-Cu (Biotech, Core), Sermorelin (Biotech 3 posts, Core 2 posts), CJC-1295 (Biotech, mentioned in Core), Ipamorelin (Biotech, Core), PE-22-28 (Behemoth, Core).
+[REASONING]
+Cross-reference of blog index excerpts: Core Peptides /blog/ shows 4 of 9 most-recent posts mention Sermorelin/GHRP-2/Ipamorelin (growth-hormone axis); Biotech Peptides /news/ shows 5 of 9 most-recent posts mention Sermorelin/GHRP/Tesamorelin/Ipamorelin/CJC-1295. Behemoth /articles/ headline-list includes GHRP-2, GHRP-6, MK-677. Two independent blog indexes lean on growth-hormone-axis content.
+[SUPPORT_QUOTE]
+[URL] https://www.corepeptides.com/blog/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/corepeptides__blog-index.md
+[LINE_RANGE] 26-28
+"Mar 23, 2026 | The Potential of Anabolism and Synergism in a Sermorelin & Ipamorelin Blend ...
+Mar 17, 2026 | Sermorelin & GHRP-2 Synergistic Potential on Growth Hormone and IGF-1 Synthesis ...
+Mar 12, 2026 | Sermorelin: Potential Interactions with Different Hormone-Producing Cells"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biotechpeptides.com/news/
+[FETCHED_AT] 2026-05-06T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/vendor-blogs/biotechpeptides__news-blog.md
+[LINE_RANGE] 14-22
+"Apr 23, 2026 | Tesamorelin, Modified GRF 1-29, and Ipamorelin Peptide Blend
+Apr 9, 2026 | Sermorelin, GHRP-6, and GHRP-2 Peptide Blend
+Mar 25, 2026 | Tesamorelin: Molecular Characterization, Growth Hormone Axis Modulation
+Mar 10, 2026 | Ipamorelin Peptide – Growth Hormone Modulation
+Feb 1, 2026 | Sermorelin Overview: Growth Hormone and IGF-1 Research
+Jan 19, 2026 | CJC-1295 DAC: Structure, Mechanism, and Research Findings"
+[/SUPPORT_QUOTE]
+
+================================================================================

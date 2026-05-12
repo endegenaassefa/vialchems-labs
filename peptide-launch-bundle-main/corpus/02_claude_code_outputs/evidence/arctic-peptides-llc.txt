@@ -1,0 +1,627 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/homepage.md
+[LINE_RANGE] 60-62
+[QUOTE]
+"# The Best Source. Period."
+[/QUOTE]
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/homepage.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"We provide the most extensively tested research peptides at competitive prices, delivered with lightning-fast shipping, and backed by a relentless commitment to customer service."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/homepage.md
+[LINE_RANGE] 38-52
+[QUOTE]
+"Committed to Quality
+Our peptides are custom manufactured to exacting specifications - no compromises.
+Independent Testing
+Every batch is subjected to multi-vial tests with two independent labs to ensure quantity and purity.
+Transparency
+Every product page includes independent lab test results for every peptide we sell."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/homepage.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"[ Shop Now ](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/homepage.md
+[LINE_RANGE] 9-16
+[QUOTE]
+"* [Home](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/)
+  * [Shop](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/shop/)
+  * [About](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/about/)
+  * [Lab Results](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/lab-results/)
+  * [Contact](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/contact/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/homepage.md
+[LINE_RANGE] 101-104
+[QUOTE]
+"Arctic Peptides provides products strictly for research and development purposes. They are not intended for human consumption, medical, or therapeutic applications. None of our products should be mistaken for or substituted as prescription drugs. We are not a licensed pharmacy and do not dispense any prescription medications.
+
+The US Food and Drug Administration has not evaluated the claims made on this website, and neither our statements nor products are designed to diagnose, treat, cure, or prevent any medical conditions or diseases."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/shop/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/catalog_1.md
+[LINE_RANGE] 1-80
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/arctic-peptides-llc/catalog_1.md: 18 SKUs enumerated from shop page listing.
+[FILES]
+semaglutide-sodium-2mg
+semaglutide-sodium-5mg
+semaglutide-sodium-10mg
+tirzepatide-sodium-5-5mg
+tirzepatide-sodium-11mg
+tirzepatide-sodium-30mg
+bpc-157-5mg
+bpc-157-15mg
+tb-500-10mg
+ghk-cu-100mg
+epithalon-10mg
+mots-c-10mg
+tesamorelin-10mg
+ipamorelin-10mg
+cjc-1295-10mg
+thymosin-alpha-1
+melanotan-ii-10mg
+dsip-5mg
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/shop/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/catalog_1.md
+[LINE_RANGE] 81-90
+[QUOTE]
+"* [GLP-1 & GIP Analogues](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/product-category/glp-gip/)
+  * [Other Peptides](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/product-category/peptides/)
+  * [All Products](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/shop/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/shop/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/catalog_1.md
+[LINE_RANGE] 1-80
+[QUOTE]
+"# Our Products
+
+[Home](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/) / Shop"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 30-33
+[QUOTE]
+"# BPC-157 5mg
+
+$40.00
+
+**Weight/Mass** : 5mg |"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 34-37
+[QUOTE]
+"  * 5mg
+  * [15mg](https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-15mg/ "BPC-157 15mg")"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 31-31
+[QUOTE]
+"$40.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.per_mg_cost
+[INFERENCE] $8.00/mg
+[REASONING]
+BPC-157 5mg vial listed at $40.00. Per-mg price = $40.00 / 5mg = $8.00/mg. Computation is arithmetic from two verbatim values captured from the same product page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 31-31
+"$40.00"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 30-30
+"**Weight/Mass** : 5mg |"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 45-50
+[QUOTE]
+"  * This product is sold for scientific research purposes only.
+  * Product is provided as a lyophilized (freeze-dried) powder in a sealed, sterile vial.
+  * The quantity on the label refers to the total amount of product inside each vial."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 45-45
+[QUOTE]
+"  * This product is sold for scientific research purposes only."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 40-41
+[QUOTE]
+"Add to cart View Lab Reports"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/lab-results/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/coa_1.md
+[LINE_RANGE] 15-20
+[QUOTE]
+"**Janoshik Lab Results**| **Avg. Purity:** 99.29%**Avg. Mass:** 11.78 mg**Date:** December 12, 2023**Full Report:**[Click here](https://web.archive.org/web/20240109192358/https://janoshik.com/tests/36239-Thymosin_alpha_1_10_mg_HT2JERWPHXJG)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/lab-results/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/coa_1.md
+[LINE_RANGE] 40-45
+[QUOTE]
+"**Janoshik Lab Results**| **Avg. Purity:** 99.83%**Avg. Mass:** 5.77 mg**Date:** October 18, 2023**Full Report:**[Click here](https://web.archive.org/web/20240109192358/https://janoshik.com/tests/34541-Tirzepatide_5mg_BGPBEW98CE4I)
+**MZ Biolabs Lab Results**| **Purity:** 99.9%**Mass:** 6.59 mg**Date:** October 14, 2023"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/lab-results/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/coa_1.md
+[LINE_RANGE] 13-14
+[QUOTE]
+"## Lab Result: Thymosin Alpha-1 10mg
+
+Batch: TA11Y01"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 1-120
+[QUOTE]
+"Description  Chemical Information  Lab Results"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 70-90
+[QUOTE]
+"### Related Products
+
+[ ](https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-15mg/)
+
+View Product
+
+### BPC-157 15mg"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/homepage.md
+[LINE_RANGE] 101-102
+[QUOTE]
+"Arctic Peptides provides products strictly for research and development purposes. They are not intended for human consumption, medical, or therapeutic applications."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/homepage.md
+[LINE_RANGE] 117-122
+[QUOTE]
+"## Are you 18 or older?
+
+You must be 18 years old or older in order to access our website.
+
+Please verify your age.
+
+I am over 18"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://web.archive.org/web/20240109192359/https://arcticpeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/tos.md
+[LINE_RANGE] 18-18
+[QUOTE]
+"# Terms & Conditions"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://web.archive.org/web/20240109192359/https://arcticpeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/tos.md
+[LINE_RANGE] 22-30
+[QUOTE]
+"The products we offer are intended for laboratory research use only. In purchasing any of these items, the customer acknowledges that there are risks involved with the consumption or distribution of these products. These chemicals are NOT intended to use as food additives, drugs, cosmetics, household chemicals, or other inappropriate applications."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://web.archive.org/web/20240109192359/https://arcticpeptides.com/policies/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/shipping.md
+[LINE_RANGE] 24-35
+[QUOTE]
+"We stand behind all our products with a industry exclusive 60-day money-back guarantee. If you are not completely satisfied, please contact us to arrange for a return and refund. It's that simple! Please note emails indicating products were used for human or animal consumption will not be responded to and void our return or refund policy.
+
+### Products Eligible for Refunds:
+
+  * Any product that has not been opened or used.
+  * A maximum of two opened products (including individual vials)."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/20240109192359/https://arcticpeptides.com/policies/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/shipping.md
+[LINE_RANGE] 16-23
+[QUOTE]
+"Orders are typically shipped very quickly, same day or next business day. But may take up to 2 full business days once payment is confirmed. Once your order has been packaged, you will receive an email with a tracking number.
+
+  * We ship domestically by USPS Priority.
+  * Transit time is typically 2-3 business days.
+  * We charge a flat rate of $12.99."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20240109192359/https://arcticpeptides.com/policies/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/shipping.md
+[LINE_RANGE] 12-15
+[QUOTE]
+"## Payment Methods
+
+Please see below for a list of all accepted payment methods, and additional details.
+
+  * Venmo
+  * Wire Transfer ($2000 minimum order)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://web.archive.org/web/20240109192359/https://arcticpeptides.com/policies/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/shipping.md
+[LINE_RANGE] 18-20
+[QUOTE]
+"  * We ship domestically by USPS Priority."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://web.archive.org/web/20240109192359/https://arcticpeptides.com/policies/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/shipping.md
+[LINE_RANGE] 22-22
+[QUOTE]
+"  * We charge a flat rate of $12.99."
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/homepage.md
+[LINE_RANGE] 117-122
+[QUOTE]
+"## Are you 18 or older?
+
+You must be 18 years old or older in order to access our website.
+
+Please verify your age.
+
+I am over 18"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 28-28
+[QUOTE]
+"[](https://web.archive.org/web/20240303052440/https://arcticpeptides.com/wp-content/uploads/2024/02/BPC-157-5-mg.jpg)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 2-2
+[QUOTE]
+"  * [ [email protected] ](/web/20240303052440/https://arcticpeptides.com/cdn-cgi/l/email-protection#2a595f5a5a45585e6a4b58495e43495a4f5a5e434e4f5904494547)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 42-44
+[QUOTE]
+"Description  Chemical Information  Lab Results"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/homepage.md
+[LINE_RANGE] 86-100
+[QUOTE]
+"## Products
+
+  * [GLP-1 & GIP Analogues](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/product-category/glp-gip/)
+  * [Other Peptides](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/product-category/peptides/)
+  * [All Products](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/shop/)
+
+## Policies
+
+  * [Payment & Shipping](/web/20240109192358/https://arcticpeptides.com/policies/)
+  * [Refunds & Returns](/web/20240109192358/https://arcticpeptides.com/policies/)
+  * [Terms & Conditions](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/terms-and-conditions/)
+  * [Privacy Policy](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/privacy-policy/)
+
+## Customer Service
+
+  * [Our Guarantee](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/our-guarantee/)
+  * [My Account / Orders](https://web.archive.org/web/20240109192358/https://arcticpeptides.com/my-account/)"
+[/QUOTE]
+
+[CLAIM] catalog-skus (all 18 SKUs from shop page)
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/shop/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/catalog_1.md
+[LINE_RANGE] 21-80
+[QUOTE]
+"### Semaglutide Sodium 2mg
+
+2mg per vial
+
+$50.00
+
+### Semaglutide Sodium 5mg
+
+5mg per vial
+
+$85.00
+
+### Semaglutide Sodium 10mg
+
+10mg per vial
+
+$150.00
+
+### Tirzepatide Sodium 5.5mg
+
+5.5mg per vial
+
+$75.00
+
+### Tirzepatide Sodium 11mg
+
+11mg per vial
+
+$130.00
+
+### Tirzepatide Sodium 30mg
+
+30mg per vial
+
+$350.00
+
+### BPC-157 5mg
+
+5mg per vial
+
+$40.00
+
+### BPC-157 15mg
+
+15mg per vial
+
+$70.00
+
+### TB-500 10mg
+
+10mg per vial
+
+$80.00
+
+### GHK-CU 100mg
+
+100mg per vial
+
+$50.00
+
+### Epithalon 10mg
+
+10mg per vial
+
+$50.00
+
+### MOTS-C 10mg
+
+10mg per vial
+
+$50.00
+
+### Tesamorelin 10mg
+
+10mg per vial
+
+$60.00
+
+### Ipamorelin 10mg
+
+10mg per vial
+
+$50.00
+
+### CJC-1295 (no DAC) 10mg
+
+10mg per vial
+
+$65.00
+
+### Thymosin Alpha-1
+
+10mg per vial
+
+$80.00
+
+### Melanotan II 10mg
+
+10mg per vial
+
+$50.00
+
+### DSIP 5mg
+
+5mg per vial
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] product-tirzepatide-11mg (price and dose confirmation)
+[URL] https://web.archive.org/web/20240109192359/https://arcticpeptides.com/product/tirzepatide-sodium-11mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/product_2__tirzepatide-sodium-11mg.md
+[LINE_RANGE] 30-40
+[QUOTE]
+"# Tirzepatide Sodium 11mg
+
+$130.00
+
+**Weight/Mass** : 11mg |
+
+  * [5.5mg](https://web.archive.org/web/20240109192359/https://arcticpeptides.com/product/tirzepatide-sodium-5-5mg/ "Tirzepatide Sodium 5.5mg")
+  * 11mg
+  * [30mg](https://web.archive.org/web/20240109192359/https://arcticpeptides.com/product/tirzepatide-sodium-30mg/ "Tirzepatide Sodium 30mg")"
+[/QUOTE]
+
+[CLAIM] product-bpc157-5mg (volume tier pricing)
+[URL] https://web.archive.org/web/20240303052440/https://arcticpeptides.com/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 40-44
+[QUOTE]
+"**Range (Qty)** |  **1-2** |  **3-5** |  **6-9** |  **10+**
+---|---|---|---|---
+**Price** |  $40.00 |  $36.00 |  $34.00 |  $32.00"
+[/QUOTE]
+
+[CLAIM] about.company_description
+[URL] https://web.archive.org/web/20240109192359/https://arcticpeptides.com/about/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/about.md
+[LINE_RANGE] 18-25
+[QUOTE]
+"### Why Arctic Peptides™
+
+All of our peptides are independently tested by two separate laboratories to verify accurate fill quantity and that purity always exceeds 99%. We are the only peptide company to offer a 60-day money back guarantee.
+
+### Our Company
+
+We established Arctic Peptides to fill a critical void in an industry where consistent quality and excellent service were hard to come by."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy (guarantee page confirmation)
+[URL] https://web.archive.org/web/20240109192358/https://arcticpeptides.com/our-guarantee/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/arctic-peptides-llc/guarantee.md
+[LINE_RANGE] 18-30
+[QUOTE]
+"## Satisfaction Guaranteed or your Money Back!
+
+We stand behind all our products with a industry exclusive 60-day money-back guarantee!
+
+If you are not completely satisfied, please contact us to arrange for a return and refund. It's that simple!
+
+**Emails indicating products were used for human or animal consumption will not be responded to and void our Satisfaction Guaranteed Policy.**"
+[/QUOTE]

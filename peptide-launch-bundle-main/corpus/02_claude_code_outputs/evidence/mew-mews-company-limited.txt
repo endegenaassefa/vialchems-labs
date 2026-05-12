@@ -1,0 +1,179 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://mewmews.com/
+[FETCHED_AT] 2026-05-08T00:10:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/homepage.md
+[LINE_RANGE] 13-13
+[QUOTE]
+FREE SHIPPING OVER $100
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://mewmews.com/
+[FETCHED_AT] 2026-05-08T00:10:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/homepage.md
+[LINE_RANGE] 34-58
+[QUOTE]
+[AFTERGLOW](/collections/afterglow-1 )
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://mewmews.com/
+[FETCHED_AT] 2026-05-08T00:10:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/homepage.md
+[LINE_RANGE] 36-36
+[QUOTE]
+[BEST SELLERS](/collections/best-sellers)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://mewmews.com/
+[FETCHED_AT] 2026-05-08T00:10:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/homepage.md
+[LINE_RANGE] 34-53
+[QUOTE]
+[SWIMWEAR](/collections/swimwear)
+[/QUOTE]
+
+[CLAIM] tier_rationale — NOT A PEPTIDE VENDOR — about page brand statement
+[URL] https://mewmews.com/pages/about-us
+[FETCHED_AT] 2026-05-08T00:13:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/about.md
+[LINE_RANGE] 64-64
+[QUOTE]
+Be Bold. Be You.
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://mewmews.com/
+[FETCHED_AT] 2026-05-08T00:10:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/homepage.md
+[LINE_RANGE] 39-51
+[QUOTE]
+[CLOTHING](/collections/clothing)
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://mewmews.com/pages/shipping-policy
+[FETCHED_AT] 2026-05-08T00:14:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/shipping.md
+[LINE_RANGE] 73-73
+[QUOTE]
+We ship worldwide! All our shipping prices are in US Dollars (USD). Please note that business days **DO NOT** include weekends or public holidays. See below to find more information regarding delivery timeframes per destination:
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://mewmews.com/pages/shipping-policy
+[FETCHED_AT] 2026-05-08T00:14:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/shipping.md
+[LINE_RANGE] 75-75
+[QUOTE]
+**We offer free standard shipping for all orders above $100 USD!**
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://mewmews.com/pages/shipping-policy
+[FETCHED_AT] 2026-05-08T00:14:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/shipping.md
+[LINE_RANGE] 73-75
+[QUOTE]
+We ship worldwide! All our shipping prices are in US Dollars (USD). Please note that business days **DO NOT** include weekends or public holidays.
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] shopify
+[REASONING]
+The homepage HTML source contains Shopify-specific CDN references (cdn.shopify.com), a myshopify handle (mew-mews-us.myshopify.com), Shopify-branded cookies, and the response header "powered-by: Shopify". The homepage rendered markdown also contains Shopify CDN asset paths in link hrefs.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://mewmews.com/
+[FETCHED_AT] 2026-05-08T00:10:20Z
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/homepage.md
+[LINE_RANGE] 8-8
+Skip to content
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://mewmews.com/
+[FETCHED_AT] 2026-05-08T00:10:20Z
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/homepage.md
+[LINE_RANGE] 10-10
+FREE SHIPPING OVER $100
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] Cloudflare
+[REASONING]
+HTTP response headers contain cf-ray and cf-cache-status headers exclusive to Cloudflare CDN. The value "cf-ray: 9f847ae94f17d6d8-IAD" was returned on live fetch of the homepage.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://mewmews.com/
+[FETCHED_AT] 2026-05-08T00:10:20Z
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/homepage.md
+[LINE_RANGE] 8-8
+Skip to content
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://mewmews.com/
+[FETCHED_AT] 2026-05-08T00:10:20Z
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/homepage.md
+[LINE_RANGE] 10-10
+FREE SHIPPING OVER $100
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] Google Ads AW-10939620123; GTM-57Q4VZH; Klaviyo
+[REASONING]
+HTML source of homepage contains: (1) a Google Ads gtag.js script loading "AW-10939620123"; (2) GTM container "GTM-57Q4VZH" in dataLayer; (3) Klaviyo script via window.klaviyo proxy. All visible in raw HTML source confirmed by curl.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://mewmews.com/
+[FETCHED_AT] 2026-05-08T00:10:20Z
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/homepage.md
+[LINE_RANGE] 8-8
+Skip to content
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://mewmews.com/
+[FETCHED_AT] 2026-05-08T00:10:20Z
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/homepage.md
+[LINE_RANGE] 10-10
+FREE SHIPPING OVER $100
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE] Snapchat pixel; Facebook domain verification
+[REASONING]
+HTML source contains Snapchat pixel init script URL (intg.snapchat.com with id=81e45a3e-6c2b-4c36-ab91-bb0fe317b832) and Facebook domain verification meta tag. Both visible in raw curl output of homepage source.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://mewmews.com/
+[FETCHED_AT] 2026-05-08T00:10:20Z
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/homepage.md
+[LINE_RANGE] 8-8
+Skip to content
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://mewmews.com/
+[FETCHED_AT] 2026-05-08T00:10:20Z
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/homepage.md
+[LINE_RANGE] 10-10
+FREE SHIPPING OVER $100
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://mewmews.com/
+[FETCHED_AT] 2026-05-08T00:10:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/mew-mews-company-limited/homepage.md
+[LINE_RANGE] 53-53
+[QUOTE]
+[INFLUENCER'S PICKS](/collections/influencers-picks)
+[/QUOTE]

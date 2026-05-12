@@ -1,0 +1,246 @@
+{
+  "vendor_slug": "baoju-chemical",
+  "brand_name": "Baoju Chemical",
+  "primary_domain": "https://www.baojuchemical.com",
+
+  "fetched_url": "https://www.baojuchemical.com/",
+  "fetched_at": "2026-05-07T19:43:06Z",
+  "fetch_status": "ok",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.77,
+
+  "country_of_operation": "China (Shanghai Baoju New Materials Firm, Shanghai)",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "Shanghai Baoju New Materials Firm is a leading supplier of high-quality research Peptides . We offer a broad range of research Peptides that are of the highest quality and purity. Our top quality products are suitable for laboratory research purposes.",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Contact",
+    "navigation_pattern": "top nav with Products link; sidebar inquiry button; contact form in footer",
+    "footer_disclaimers": "Make On Demand Manufacturing Easier, Faster"
+  },
+
+  "catalog": {
+    "sku_count": 47,
+    "category_taxonomy": ["Lyophilized Powder", "Tablets/Capsules"],
+    "search_filter_capabilities": "sort by: default, popularity, latest, price low-to-high, price high-to-low",
+    "stack_bundle_pages_present": "true"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "https://www.baojuchemical.com/product/bpc-157/",
+    "sample_product_name": "BPC 157",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "product image present (image count shown in breadcrumb indicator: 3 images for BPC 157)",
+    "description_copy_excerpt": "BPC 157 CAS: 137525-51-0 Category: Lyophilized Powder",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "false",
+    "coa_hosting": "none",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "false",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "false"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "Our top quality products are suitable for laboratory research purposes.",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "false",
+    "payment_methods_accepted": ["uncertain"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "Cloudflare",
+    "analytics_tools_loaded": ["Google Ads (AW-11520981898)"],
+    "marketing_pixels_present": ["Google Ads conversion tracking"],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://www.baojuchemical.com/blog/",
+    "content_cadence": "inactive (all blog posts dated January 2022; lorem ipsum placeholder content)",
+    "topic_taxonomy": ["lorem ipsum placeholder posts — no substantive content"],
+    "author_bylines_present": "true",
+    "internal_linking_to_products": "none observed in blog posts"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": ["uncertain"],
+    "testimonial_usage": "none observed",
+    "visible_influencer_endorsements": "none observed"
+  },
+
+  "skus": [
+    {
+      "sku_id": "baoju-chemical:bpc-157-lyophilized",
+      "name": "BPC 157",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "uncertain",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://www.baojuchemical.com/product/bpc-157/",
+      "raw_artifact": "03_raw_fetches/baoju-chemical/product_1__bpc-157.md",
+      "evidence_entry_id": "claim-8"
+    },
+    {
+      "sku_id": "baoju-chemical:bpc-tb-ghkcu-bundle",
+      "name": "BPC 157 10mg+GHK-CU 50mg+TB500 10mg",
+      "peptide_canonical": "other",
+      "peptide_variant": "uncertain",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": ["bpc-tb-ghkcu-bundle"],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://www.baojuchemical.com/product/bpc-157-10mgghk-cu-50mgtb500-10mg/",
+      "raw_artifact": "03_raw_fetches/baoju-chemical/product_2__bpc-tb-ghkcu-bundle.md",
+      "evidence_entry_id": "claim-9"
+    },
+    {
+      "sku_id": "baoju-chemical:ghk-cu-lyophilized",
+      "name": "GHK-CU",
+      "peptide_canonical": "GHK-Cu",
+      "peptide_variant": "uncertain",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://www.baojuchemical.com/product/ghk-cu/",
+      "raw_artifact": "03_raw_fetches/baoju-chemical/product_5__ghk-cu.md",
+      "evidence_entry_id": "claim-10"
+    },
+    {
+      "sku_id": "baoju-chemical:tb500-lyophilized",
+      "name": "TB500(Thymosin B4 Acetate)",
+      "peptide_canonical": "TB-500",
+      "peptide_variant": "acetate",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://www.baojuchemical.com/product/tb500thymosin-b4-acetate%EF%BC%89/",
+      "raw_artifact": "03_raw_fetches/baoju-chemical/product_6__tb500.md",
+      "evidence_entry_id": "claim-11"
+    },
+    {
+      "sku_id": "baoju-chemical:cagrilintide-lyophilized",
+      "name": "cagrilintide",
+      "peptide_canonical": "other",
+      "peptide_variant": "uncertain",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://www.baojuchemical.com/product/cagrilintide/",
+      "raw_artifact": "03_raw_fetches/baoju-chemical/product_3__cagrilintide.md",
+      "evidence_entry_id": "claim-12"
+    },
+    {
+      "sku_id": "baoju-chemical:5-amino-1mq-lyophilized",
+      "name": "5-amino-1mq",
+      "peptide_canonical": "5-Amino-1MQ",
+      "peptide_variant": "uncertain",
+      "dose_value": "uncertain",
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": "uncertain",
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": "uncertain",
+      "volume_tier_label": "uncertain",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://www.baojuchemical.com/product/5-amino-1mq/",
+      "raw_artifact": "03_raw_fetches/baoju-chemical/product_4__5-amino-1mq.md",
+      "evidence_entry_id": "claim-13"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "baoju-chemical,Baoju Chemical,baojuchemical.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list,3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/baoju-chemical/",
+  "evidence_file": "evidence/baoju-chemical.txt",
+  "uncertainty_notes": "fulfillment_country: no shipping policy page found, no checkout completion possible without adding items and creating account; ship_to_scope: inquiry-only model with no visible shipping destinations; year_established: no Wayback Machine snapshots indexed, sitemap dates suggest site active since at least January 2022 but no founding year stated on site; list_price/per_mg_cost/dose_options: all products are inquiry-only with no prices displayed anywhere on the site; exact_disclaimer_language: no dedicated disclaimer page found; tos_url/tos_highlights: no TOS page found (sitemap contains only privacy-policy-2, cart, checkout, my-account, homepage, thanks-for-visiting); refund_policy/shipping_policy: no policy pages found; account_required/guest_checkout_available: cart page shows empty cart redirected from checkout, cart-level access works without account but actual checkout flow uncertain; payment_methods_accepted: no checkout flow accessible without populated cart; shipping_carriers/shipping_cost_structure/international_policy: no shipping information publicly displayed; off_site_aggregators: not searched in this Tier 3 baseline pass; jurisdictional_restriction_notice: none found; lab_partner_named: no COA or lab testing information referenced anywhere on site; dose_value for all SKUs: products list only CAS numbers, no dose specified in public listings"
+}

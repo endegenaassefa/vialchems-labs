@@ -1,0 +1,195 @@
+[CLAIM] country_of_operation
+[URL] https://www.federalregister.gov/documents/2025/01/28/2025-01785/certain-products-containing-tirzepatide-and-products-purporting-to-contain-tirzepatide-notice-of-a
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/itc_fedregister_2025.md
+[LINE_RANGE] 288-288
+[QUOTE]
+"Biolabshop Limited of Lancaster, United Kingdom (“Biolabshop”)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://biolabshop.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/homepage.md
+[LINE_RANGE] 53-55
+[QUOTE]
+"#### WORLDWIDE SHIPPING
+
+We provide worldwide shipping so that your products arrive to you as soon as possible."
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://biolabshop.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/homepage.md
+[LINE_RANGE] 26-44
+[QUOTE]
+"__0032 16 58 90 45"
+[/QUOTE]
+[URL] https://biolabshop.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/homepage.md
+[LINE_RANGE] 43-43
+[QUOTE]
+"[ Antibodies and Immunoassays ](https://biolabshop.com/index.php?route=product/category&path=34)"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://biolabshop.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/homepage.md
+[LINE_RANGE] 108-108
+[QUOTE]
+"Powered By [OpenCart](http://www.opencart.com)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://biolabshop.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/homepage.md
+[LINE_RANGE] 53-55
+[QUOTE]
+"#### WORLDWIDE SHIPPING
+
+We provide worldwide shipping so that your products arrive to you as soon as possible."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://biolabshop.com/terms
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/tos.md
+[LINE_RANGE] 1-8
+[QUOTE]
+"# Terms & Conditions
+
+Terms & Conditions"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+No age-gate page or age-verification prompt was encountered on homepage fetch or any other page fetch. All pages loaded without presenting an interstitial or age-confirmation modal.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biolabshop.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/homepage.md
+[LINE_RANGE] 35-115
+"BioLab Shop © 2026"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biolabshop.com/terms
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/tos.md
+[LINE_RANGE] 1-115
+"# Terms & Conditions
+
+Terms & Conditions"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[INFERENCE] false
+[REASONING]
+No review module, star rating, testimonial widget, or customer review section was visible in any fetched page from the live site or archived snapshots. The catalog page lists 10,845 antibody products with prices but no review counts or ratings.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biolabshop.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/homepage.md
+[LINE_RANGE] 53-115
+"ANTIBODIES AND IMMUNOASSAYS"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biolabshop.com/index.php?route=product/category&path=34
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/catalog_1.md
+[LINE_RANGE] 53-115
+"Showing 1 to 15 of 10845 (723 Pages)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] last_activity
+[URL] https://biolabshop.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/homepage.md
+[LINE_RANGE] 109-109
+[QUOTE]
+"BioLab Shop © 2026"
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://web.archive.org/web/20211226095018/https://biolabshop.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/wayback_2021.md
+[LINE_RANGE] 109-109
+[QUOTE]
+"BioLab Shop © 2021"
+[/QUOTE]
+
+[CLAIM] litigation_status.itc_case
+[URL] https://www.federalregister.gov/documents/2025/01/28/2025-01785/certain-products-containing-tirzepatide-and-products-purporting-to-contain-tirzepatide-notice-of-a
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/itc_fedregister_2025.md
+[LINE_RANGE] 288-288
+[QUOTE]
+"The Commission instituted this investigation on November 27, 2023, based upon a complaint filed on behalf of Eli Lilly and Company of Indianapolis, Indiana ("Lilly"). The complaint, as supplemented, alleges violations of section 337 based upon the importation into the United States, the sale for importation, and the sale within the United States after importation of certain products containing tirzepatide or purporting to contain tirzepatide by reason of false designation of source and false and misleading advertising, the threat or effect of which is to destroy or substantially injure an industry in the United States, and by reason of infringement of U.S. Trademark No. 6,809,369."
+[/QUOTE]
+
+[CLAIM] litigation_status.found_in_default
+[URL] https://www.federalregister.gov/documents/2025/01/28/2025-01785/certain-products-containing-tirzepatide-and-products-purporting-to-contain-tirzepatide-notice-of-a
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/itc_fedregister_2025.md
+[LINE_RANGE] 292-292
+[QUOTE]
+"On May 15, 2024, the Commission found Arctic Peptides, Audrey Beauty, Biolabshop, Mew Mews, Strate Labs, SHS, Triggered Brand, and AustroPeptide in default. Order No. 13 (Apr. 22, 2024), unreviewed by Comm'n Notice (May 15, 2024)."
+[/QUOTE]
+
+[CLAIM] litigation_status.allegations
+[URL] https://www.federalregister.gov/documents/2025/01/28/2025-01785/certain-products-containing-tirzepatide-and-products-purporting-to-contain-tirzepatide-notice-of-a
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/itc_fedregister_2025.md
+[LINE_RANGE] 288-288
+[QUOTE]
+"Biolabshop Limited of Lancaster, United Kingdom (“Biolabshop”)"
+[/QUOTE]
+
+[CLAIM] litigation_status.summary_determination
+[URL] https://www.federalregister.gov/documents/2025/01/28/2025-01785/certain-products-containing-tirzepatide-and-products-purporting-to-contain-tirzepatide-notice-of-a
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/itc_fedregister_2025.md
+[LINE_RANGE] 300-300
+[QUOTE]
+"The ID granted Lilly's motion regarding false designation of origin as to respondents Audrey Beauty, Mew Mews, SHS, Triggered Brand, and Strate Labs, but denied the motion as to GenX Peptides, Total Compounding, Paradigm Peptides, and Biolabshop."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The site is an OpenCart-powered lab supplies catalog with a single product category (Antibodies and Immunoassays, 10,845 items). The homepage presents a functional catalog with currency selector, shopping cart, and contact information. No lifestyle or meme-coded imagery described in the rendered text.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biolabshop.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/homepage.md
+[LINE_RANGE] 43-43
+"[ Antibodies and Immunoassays ](https://biolabshop.com/index.php?route=product/category&path=34)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biolabshop.com/index.php?route=product/category&path=34
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/biolabshop-limited/catalog_1.md
+[LINE_RANGE] 56-60
+"Showing 1 to 15 of 10845 (723 Pages)"
+[/SUPPORT_QUOTE]

@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "super-human-store",
+  "brand_name": "Super Human Store",
+  "primary_domain": "https://superhumanstore.com",
+
+  "fetched_url": "https://superhumanstore.com",
+  "fetched_at": "2026-05-08T08:14:56Z",
+  "fetch_status": "failed",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed); vendor is defunct — domain expired, site unreachable, operator seed note reads 'Defunct due to Eli Lilly litigation.'",
+  "field_completion_ratio": 0.18,
+
+  "country_of_operation": "Spain",
+  "fulfillment_country": "Spain",
+  "ship_to_scope": "us_intl",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "uncertain — domain expired; live site shows only 'This domain is expired. If you are the owner and you want to renew it please contact your registrar.'",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "uncertain"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": [],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": [],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": [],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": [],
+    "shipping_carriers": [],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "uncertain",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": [],
+    "marketing_pixels_present": [],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": [],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["reviews.io"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "super-human-store,Super Human Store,superhumanstore.com,Spain,Spain,US+Intl,Uncertain,Defunct (Defaulted),Uncertain,Tirzepatide,Uncertain,Y (ITC Lawsuit),May 2024,3,Tier 3: Defunct due to Eli Lilly litigation."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/super-human-store/",
+  "evidence_file": "evidence/super-human-store.txt",
+  "uncertainty_notes": "Domain expired as of fetch date 2026-05-08; live site unreachable (shows registrar expiry notice only). Wayback Machine returned empty content for all attempted snapshot timestamps (20231020, 20240528, 20230327). gstack:browse failed (sandbox restriction in WSL2 root environment). Per three-attempt rule (curl → browse → archive.org), homepage fetch logged as failed. All homepage, catalog, product_page_anatomy, trust_compliance, checkout_flow, tech_stack, and content_footprint fields are uncertain due to site unavailability. country_of_operation and ship_to_scope derived from ITC legal proceedings (Federal Register Vol. 88 No. 205, 2023-10-25) which name 'Super Human Store of Spain' as respondent and allege importation into the United States. off_site_aggregators populated from confirmed reviews.io page listing (1.0/5, 4 reviews). Primary product category known from ITC complaint: tirzepatide and products purporting to contain tirzepatide. Vendor found in default in ITC Investigation No. 337-TA-1377 per Federal Register Vol. 89 No. 103 (2024-05-28), Order No. 13 (Apr. 22, 2024). field_completion_ratio = 0.18 (only vendor_slug, brand_name, primary_domain, fetched_url, fetched_at, fetch_status, tier, country_of_operation, fulfillment_country, ship_to_scope, off_site_aggregators resolved = 11 non-uncertain leaf fields out of ~60 required baseline fields)."
+}

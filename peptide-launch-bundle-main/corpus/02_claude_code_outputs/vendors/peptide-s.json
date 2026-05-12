@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "peptide-s",
+  "brand_name": "Peptide-S",
+  "primary_domain": "https://peptide-s.com",
+
+  "fetched_url": "https://peptide-s.com",
+  "fetched_at": "2026-05-08T06:20:00Z",
+  "fetch_status": "failed",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed)",
+  "field_completion_ratio": 0.33,
+
+  "country_of_operation": "uncertain",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "uncertain",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "uncertain"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": [],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": [],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": [],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": [],
+    "shipping_carriers": [],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "unknown",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": [],
+    "marketing_pixels_present": [],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": [],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["https://www.finnrick.com/vendors/peptide-s"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "peptide-s,Peptide-S,peptide-s.com,USA,USA,US-only,Uncertain,Active,Third-party (Finnrick),Semaglutide,Uncertain,Y (Finnrick),May 2026,3,Tier 3: Retail vendor."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/peptide-s/",
+  "evidence_file": "evidence/peptide-s.txt",
+  "uncertainty_notes": "Primary domain peptide-s.com is a parked domain (GoDaddy lander page) as of May 2026. The site redirects to /lander which loads a GoDaddy parking page (window.LANDER_SYSTEM='PW'). All three fetch methods failed to return any vendor content: (1) curl returned a bare JS redirect page, (2) gstack browse could not run due to WSL sandbox restrictions, (3) archive.org snapshot from Jul 10 2025 shows the domain was already a parking page at that date. No functional vendor website was accessible. All homepage/catalog/product-page/checkout/trust-compliance/tech-stack/content-footprint fields are uncertain because no vendor storefront content could be retrieved. social_proof.off_site_aggregators is populated from Finnrick's third-party testing profile (https://www.finnrick.com/vendors/peptide-s), which was independently accessible. Finnrick data confirms the vendor sold at least 11 peptide products (tirzepatide, retatrutide, semaglutide, BPC-157, GHK-Cu, ipamorelin, tesamorelin, sermorelin, cagrilintide, survodutide, mazdutide) and had 128 samples tested between Jun 2025 and Mar 2026. Vendor appears to operate without a public web storefront (containers described as 'No Label' and 'White Label' in test records), consistent with a Telegram/Discord channel or direct-contact sales model. field_completion_ratio of 0.33 is below 0.40 threshold, warranting fetch_status: failed per Rule 17."
+}

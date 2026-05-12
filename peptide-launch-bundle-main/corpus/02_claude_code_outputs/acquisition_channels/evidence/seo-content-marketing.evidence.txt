@@ -1,0 +1,415 @@
+CHANNEL: seo-content-marketing
+CATEGORY: content
+DATE_COMPILED: 2026-05-06
+RESEARCHER: claude-opus-4-7-1m subagent
+
+================================================================================
+EVIDENCE FORMAT: each finding tagged with [F#], URL, access date, verbatim quote
+                or behavioral observation. Triangulation noted where applied.
+================================================================================
+
+--------------------------------------------------------------------------------
+[F1] Outliyr is third-party affiliate review site with FTC-compliant disclosure
+--------------------------------------------------------------------------------
+URL: https://outliyr.com/best-online-peptide-companies-websites-sources
+URL: https://outliyr.com/affiliate-disclaimer
+ACCESS: 2026-05-06
+VERBATIM (article): "Outliyr independently evaluates all recommendations. We may
+get a small commission if you buy through our links (at no cost to you)."
+VERBATIM (disclaimer page, paraphrased per fetch): "Most of the links going to
+products on Outliyr LLC are affiliate links" — author "personally vets all products"
+and "occasionally" allows "partner content" from brands.
+OWNER: Outliyr LLC, Austin TX, operated by Nick Urban.
+LINK PATTERN: /go/<vendor> — concrete examples /go/limitless, /go/peptidology,
+/go/healthgevity (router redirects to vendor with affiliate ID attached).
+TRIANGULATION: pattern matches Brainflow's (?ref=BRAINFLOW) and PepPal's
+(/go/<vendor>) routing schemas — all three use the same affiliate-router
+architecture characteristic of WordPress affiliate plugins (e.g. ThirstyAffiliates,
+Pretty Links).
+
+--------------------------------------------------------------------------------
+[F2] Outliyr pushes anchor vendors with single shared coupon code "URBAN"
+--------------------------------------------------------------------------------
+URL: https://outliyr.com/best-online-peptide-companies-websites-sources
+ACCESS: 2026-05-06
+VERBATIM CODES OBSERVED:
+- Limitless Biotech: "URBAN" 10% off
+- LVLUP Health: "URBAN" 15% off
+- Peptidology: "URBAN" 15% off
+- Healthgevity: "URBAN" 10% off
+- Pure Rawz: "URBAN" 15% off
+- SwissChems: "URBAN" 10% off
+- Ascension Peptides: "URBAN" 20% off
+ANCHOR-VENDOR ALIGNMENT: Pure Rawz, Swiss Chems, Limitless Life all pushed Tier 1.
+Core Peptides + Biotech Peptides pushed Tier 2. Peptide Sciences flagged in
+"Vendors to Avoid" list (competitive negative SEO post-shutdown).
+
+--------------------------------------------------------------------------------
+[F3] Peptides.org is the dominant educational/review portal — uses footer-only generic disclosure
+--------------------------------------------------------------------------------
+URL: https://www.peptides.org/affiliate-disclosure/
+URL: https://www.peptides.org/buy-bpc-157/
+URL: https://www.peptides.org/best-peptides-companies/
+URL: https://www.peptides.org/editorial-policy/
+ACCESS: 2026-05-06
+VERBATIM (disclosure page, per fetch): "Publisher makes use of affiliate
+relationships with vendors or merchants for monetization. This means when you
+click on a link to a vendor or merchant on Peptides.org and conclude an order
+and/or purchase, this may result in a commission."
+DISCLOSURE QUALITY: Generic — no specific vendors named.
+EDITORIAL CLAIM: "strictly informed and unbiased opinions in product reviews"
+TOP RECOMMENDATION on /buy-bpc-157/: Limitless Life with code "peptidesorg10"
+10% off. Verbatim: "Qualified peptide researchers can receive a 10% discount on
+the next Limitless Life order."
+SECONDARY VENDOR: Triumphant Labs (https://triumphantlabs.com/product/bpc-157-10mg/)
+also #1 on best-companies listicle.
+LISTICLE RANKING: Triumphant Labs, Polaris Peptides, Xcel Peptides, Amino Asylum,
+Science.bio, Sports Technology Labs, Integrative Peptides, Entera Skincare,
+SwissChems, Spectre Labs.
+DISCOUNT CODES on listicle: Triumphant Labs "peporg" 20% off; Amino Asylum
+"BestNasalSprays" 20% off.
+OWNER: not disclosed; "Publisher" used in disclosure. Editorial policy
+references "our staff of seasoned pharmaceutical researchers and medical
+professionals" without bylines.
+PARTNERSHIP PAGE: /work-with-us/ shows job postings + footer "Advertise With Us"
+link, but no public sponsored-content rate card surfaced.
+
+--------------------------------------------------------------------------------
+[F4] Muscle + Brawn (Daniel Louwrens) is the canonical "BSc-credentialed" affiliate review site
+--------------------------------------------------------------------------------
+URL: https://muscleandbrawn.com/peptides/best-peptide-vendors/
+URL: https://muscleandbrawn.com/peptides/limitless-life-nootropics-review/
+URL: https://muscleandbrawn.com/blog/peptide-sciences-alternatives/
+ACCESS: 2026-05-06
+VERBATIM (inline): "Muscle + Brawn is independent and reader-supported. When you
+buy through links on our site, we may earn a commission."
+AUTHOR: "Daniel Louwrens is a well-rounded fitness professional with over 10
+years of experience in bodybuilding and fitness. He holds a BSc in Chemistry
+from the University of Western Cape and is a certified International Personal
+Trainer and Nutritionist."
+MEDICAL REVIEWER: Dr. Mohammed Fouda
+LINK PATTERN: vendor domain + ?ref=<numeric ID> + optional ?campaign=<slug>
+- Swiss Chems: ref=300
+- Limitless Life: ref=brawn
+- ChemyO: ref=143
+- NextChems: /ref/20/
+- Particle Peptides: ?refs=8934
+DISCOUNT CODE: "Brawn10" — 10% off shared across multiple vendors (Swiss Chems,
+Limitless Life, Pure Rawz, ResearchChemical.com)
+ALTERNATE CODE: "BRAWN15" — 15% off Limitless Life (per separate review article)
+"BEST <COMPETITOR> ALTERNATIVES" CLUSTER: confirmed observed via
+/blog/peptide-sciences-alternatives/ ranking SwissChems, NextChems, Chemyo,
+Particle Peptides — each with ref-tagged affiliate URL. Pattern instantiates
+the negative-keyword listicle SEO play.
+
+--------------------------------------------------------------------------------
+[F5] PepPal explicitly flags affiliate vs non-affiliate entries; cites Finnrick + Janoshik
+--------------------------------------------------------------------------------
+URL: https://www.peppal.app/blog/best-grey-market-peptide-supplier
+ACCESS: 2026-05-06
+VERBATIM: "Some links are affiliate links and are marked, but affiliate status
+does not change score weighting." Site notes "non-affiliate entries and
+benchmark context so the rankings are not skewed by commission relationships."
+OWNER: Garret Grant (founder, disclosed)
+LINK PATTERNS: /go/peptide-partners, /go/pivot-labs,
+https://www.paradigm-peptide.com/product-page/retatrutide-20mg?ref=peppal
+DISCOUNT CODE: "PEPPAL" (Peptide Partners + Pivot Labs)
+TRIANGULATION: cites Finnrick test counts ("59 Finnrick tests across 7 products"
+for #1 Peptide Partners) and Janoshik Analytical as authority lab.
+
+--------------------------------------------------------------------------------
+[F6] Project Biohacking — single-vendor deep-review affiliate pattern
+--------------------------------------------------------------------------------
+URL: https://www.projectbiohacking.com/resources/vendor/limitless-biotech
+URL: https://www.projectbiohacking.com/resources/vendor/ascension-peptides
+ACCESS: 2026-05-06
+VERBATIM: "Some links on this page are affiliate links, meaning Project
+Biohacking may earn a commission if you purchase through them at no extra cost
+to you."
+DISCOUNT CODES: "PROBIO15" — 15% off Limitless Biotech
+"PROBIO20" — Ascension Peptides
+EXCLUSIONS DISCLOSED: "Certain GLP-1s, VIP items, and high-demand weight-loss
+peptides may not be eligible."
+PATTERN: per-vendor coupon code with site-prefix ("PROBIO" + percent value)
+indicates centralized affiliate ID across multiple vendor relationships.
+
+--------------------------------------------------------------------------------
+[F7] Brainflow — explicit FTC disclosure naming every affiliate vendor
+--------------------------------------------------------------------------------
+URL: https://brainflow.co/5-best-bpc-157-supplements/
+ACCESS: 2026-05-06
+VERBATIM: "This article contains affiliate links to Everest Peptides, Infiniwell,
+Paramount Peptides, Amino Club, and Limitless Life. We may earn a commission if
+you purchase through these links at no additional cost to you."
+ADDITIONAL: "All opinions are our own based on research and testing."
+DISCOUNT CODES:
+- Everest Peptides BRAINFLOW 10%
+- Infiniwell WELCOME15 15% (first-time)
+- Paramount Peptides BRAINFLOW 10%
+- Amino Club BRAINFLOW 20%
+LINK PATTERN: ?ref=BRAINFLOW (universal handle), Infiniwell uses ?rfsn= (Refersion).
+SIGNAL: shared affiliate handle "BRAINFLOW" across vendors — single operator.
+
+--------------------------------------------------------------------------------
+[F8] PeptideDeck — undisclosed single-affiliate-shill (FTC non-compliant)
+--------------------------------------------------------------------------------
+URL: https://www.peptidedeck.com/blog/best-legit-peptide-vendors-2026
+ACCESS: 2026-05-06
+NO EXPLICIT DISCLOSURE detected.
+LINK PATTERN OBSERVED: ref/mihaita/?campaign= attached to Ascension Peptides links
+DISCOUNT CODE: "PEPTIDEDECK" — 50% off BPC-157 10mg at Ascension Peptides
+RANKING SKEW: Ascension Peptides #1 with affiliate links; competing vendors
+mentioned only without comparable linking.
+SIGNAL: affiliate handle "mihaita" appears in URL — likely operator's affiliate
+account. Apparent FTC violation: material connection undisclosed.
+
+--------------------------------------------------------------------------------
+[F9] Substack as affiliate-content distribution channel
+--------------------------------------------------------------------------------
+URL: https://davidsoftmicro.substack.com/p/top-10-best-peptide-vendors-in-the
+ACCESS: 2026-05-06
+NO AFFILIATE DISCLOSURE.
+DISCOUNT CODE: "CAPRED" 10% off Swiss Chems (mentioned 3+ times in article)
+AUTHOR: David Wilson (no credentials shown)
+RANKING: 1) Swiss Chems, 2) Tydes Peptides, 3) Pure Rawz, 4) Orion Peptides,
+5) BC9, 6) Behemoth Labz, 7) XL Peptides, 8) Peptide Sciences, 9) Science Bio,
+10) Paradigm Peptides
+PATTERN: Free Substack newsletter rides Substack's domain authority for "best
+peptide vendors" longtail queries; undisclosed affiliate code is the
+monetization vector.
+RELATED VENDOR-OWNED SUBSTACK: blog.peptide.partners (publication "Peptide
+Reporter") — promotes Peptide Partners' own COA program. Confirmed vendor-
+owned per fetch: "Browse inventory and view certificates at Peptide Partners"
+linkout to peptide.partners domain.
+
+--------------------------------------------------------------------------------
+[F10] Wild West Peptides — outlier non-commercial site
+--------------------------------------------------------------------------------
+URL: https://wildwestpeptides.com/about
+URL: https://wildwestpeptides.com/bpc-157-vendors
+ACCESS: 2026-05-06
+VERBATIM: "No affiliate links. No vendor partnerships. No peptide products.
+Just information."
+VERBATIM: "We don't respond to vendor pitches, affiliate offers, or requests to
+'review' products."
+VERBATIM: "We're not funded by vendors, clinics, or supplement companies. We
+don't accept advertising."
+BEHAVIORAL EVIDENCE: vendor names withheld in BPC-157 article — uses generic
+"Vendor A/B/C" labels rather than named vendors. Consistent with stated
+non-commercial posture.
+
+--------------------------------------------------------------------------------
+[F11] Finnrick is the de-facto independent rating authority cited downstream
+--------------------------------------------------------------------------------
+URL: https://www.finnrick.com/vendors
+URL: https://www.finnrick.com/vendors/peptide-sciences
+URL (cross-reference): https://www.peppal.app/blog/best-grey-market-peptide-supplier
+URL (cross-reference): https://peptidesrated.com/blog/janoshik-testing-explained
+ACCESS: 2026-05-06
+SITE CLAIM: "7,164 Tests, 205 Vendors"
+NO AFFILIATE DISCLOSURE — no affiliate links observed in vendor-index page.
+Free testing for some peptides (Retatrutide, Tirzepatide, BPC-157); paid
+testing for others. Monetization model unclear.
+DOWNSTREAM CITATION: PepPal, MuscleAndBrawn, Outliyr, PeptidesRated all
+invoke Finnrick ratings as legitimacy anchor for affiliate recommendations.
+INDEPENDENT CRITIQUE: YouTube "Finnricks use of Krause Analytics for Peptide
+Testing Is Questionable" — methodological critique exists.
+
+--------------------------------------------------------------------------------
+[F12] Vendor-owned content disguised as third-party listicle (Aminovault, Cernum)
+--------------------------------------------------------------------------------
+URL: https://aminovault.com/top-research-peptide-companies-usa/
+URL: https://cernumbiosciences.com/blogs/peptide-science-guide/best-peptide-vendors-online-in-2026-full-comparison-guide/
+ACCESS: 2026-05-06
+PATTERN AT AMINOVAULT: ranks 8 vendors with AminoVault as #1; site is owned by
+AminoVault LLC (per copyright footer). No affiliate disclosure (because the
+site is the vendor). Author "Jake Bastien" writes for the company.
+PATTERN AT CERNUM: site author "Andrei Fulsomivich" — guide promotes Cernum's
+own catalog (Retatrutide, GHK-Cu) while framing as evaluation framework.
+Verbatim: "suppliers like Cernum Biosciences stand out when they make
+batch-level documentation easy to review." Vendor-owned content masquerading
+as third-party comparison.
+
+--------------------------------------------------------------------------------
+[F13] Coupon aggregator network indexes most anchor vendors
+--------------------------------------------------------------------------------
+URLs (sample):
+- https://simplycodes.com/category/peptides
+- https://simplycodes.com/store/corepeptides.com
+- https://purerawz.knoji.com/promo-codes/
+- https://behemothlabz.tenereteam.com/coupons
+- https://peptidesciences.worthepenny.com/coupon/
+- https://swisschems.tenereteam.com/coupons
+- https://aminoasylum.tenereteam.com/coupons
+- https://swisschems.is/affiliate-program/ (vendor-side rule)
+ACCESS: 2026-05-06
+ANCHOR-VENDOR INDEXATION on at least one major aggregator (SimplyCodes,
+Dealspotr, WeThrift, WorthEPenny, Coupert, Tenereteam, Knoji, Valuecom):
+- Peptide Sciences: YES
+- Pure Rawz: YES (heavy)
+- Behemoth Labz: YES (heavy)
+- Limitless Life: YES
+- Swiss Chems: YES
+- Amino Asylum: YES
+- Core Peptides: YES (SimplyCodes confirmed)
+- Biotech Peptides: limited
+- Peptide Guys: NOT FOUND
+- Domestic Supply: limited
+SAMPLE CODES SURFACED:
+- Pure Rawz: ROAR69, BRAWN20, SETH (35%)
+- Behemoth Labz: WETHRIFT, TOMJUNKIE (20%), PGSARMS (25%)
+- Amino Asylum: 6JJXOUP0HS (25%), MEMBER20, inner25 (military 25%)
+- Swiss Chems: Brawn10, SG10, CAPRED (each from a different content site's
+  affiliate leak)
+- Peptide Sciences: WELCOME10, NAD10, PS10F, PS10SS (military 20%)
+COLLISION FINDING: Swiss Chems explicitly bans coupon-site affiliates per its
+own affiliate program terms — yet appears in major aggregators because affiliate
+codes leak from individual sites and get harvested.
+
+--------------------------------------------------------------------------------
+[F14] Anchor-vendor affiliate program terms (commission rates surfaced)
+--------------------------------------------------------------------------------
+URL: https://www.peptidesciences.com/aw-affiliate-terms-page (live; fetch blocked
+401/403; data from indexed snippets and search)
+URL: https://swisschems.is/affiliate-program/ (live; fetch blocked 403)
+URL: https://purerawz.co/affiliate-area/ (live; fetch blocked 403)
+URL: https://www.limitlesslifenootropics.com/affiliates/ (live; fetched but
+content placeholder)
+URL: https://af.uppromote.com/2ae062/register (Amino Asylum on UpPromote)
+ACCESS: 2026-05-06
+VERBATIM (Swiss Chems via search snippet): "Discount code websites are not
+allowed, and commissions will not be paid and will be forfeited if a source is
+found to be a coupon website."
+VERBATIM (Swiss Chems): "Targeting keywords on PPC or SEO that include the
+brand 'Swiss Chems' is not allowed, and commissions will not be paid if this
+rule is broken."
+DOCUMENTED RATES (per search excerpts and 3rd-party affiliate review sites):
+- Swiss Chems: 20% commission + 10% off code for affiliate
+- Limitless Life: 15% on most peptides, 12% on others; 200+ affiliates "primarily
+  doctors, practitioners, PAs, NPs"; endorsements by Ben Greenfield, Jay Campbell
+- Pure Rawz: 7% base / 15% active-content; alt: 10% commission + 10% off code
+- Amino Asylum: 10% commission + 20% off (alt: 15% on referral sales) via UpPromote
+- Peptide Sciences: required ≥2-month-old account with ≥1 prior purchase;
+  affiliates given 10% off code for new customers
+- Behemoth Labz: no public affiliate program URL found; codes leak via aggregators
+- Core Peptides / Biotech Peptides / Domestic Supply / Peptide Guys: no public
+  affiliate program documentation surfaced
+
+--------------------------------------------------------------------------------
+[F15] Educational hubs — most do NOT monetize via affiliate
+--------------------------------------------------------------------------------
+URLs:
+- https://peptpedia.org/ (41+ peptides, peer-reviewed citations)
+- https://wikipep.org/ (345+ articles)
+- https://peptidemind.com (free calculators)
+- https://thepephub.com/ (dosage guidance)
+- https://thepeptideindex.org/vendors/limitless-life-nootropics/
+- https://peptidesrated.com/blog/janoshik-testing-explained
+ACCESS: 2026-05-06
+PATTERN: Encyclopedia-style hubs (Peptpedia, Wikipep, Peptide Mind, Pep Hub) do
+not contain visible affiliate links or vendor recommendations. Monetization
+unclear (one — The Peptide Index — sells "The Peptide Playbook" Etsy guide).
+DISTINCTION: review-style hubs (PepPal, PeptidesRated) carry vendor ratings
+and affiliate routing; pure-encyclopedia hubs do not.
+PEPTIDESRATED VERBATIM: "We aggregate Janoshik, Finnrick, and Freedom
+Diagnostics results in one place at peptidesrated.com/coa. That is our bias up
+front." — explicitly disclaims commercial bias but does not detail affiliate
+program.
+
+--------------------------------------------------------------------------------
+[F16] "Best <Vendor> Alternatives" content cluster — CONFIRMED OBSERVED
+--------------------------------------------------------------------------------
+SEARCH RESULT pattern (multiple competing articles per anchor brand):
+- "best Peptide Sciences alternatives" → Muscle+Brawn, SARMGuide, Optimal Clinic,
+  Crown Counseling, Outliyr, PeptidesATX, PeptidesExplorer, ThePeptideCatalog,
+  PeptideCompared (≥9 sites with this exact angle)
+- "best Pure Rawz alternatives" → Knoji aggregator listing 20 alternatives
+ACCESS: 2026-05-06
+TRIGGER EVENT: Peptide Sciences shut down early 2026 (per ThePeptideCatalog
+and other listicles), creating content goldrush.
+INTERPRETATION: The "best <competitor> alternatives" content cluster is the
+canonical SEO play for affiliate sites in this niche — they intercept brand-
+name search demand from a vulnerable competitor and route it to vendors that
+pay them commission.
+COVERAGE PATTERN ACROSS ALTERNATIVES LISTICLES:
+- SwissChems consistently ranked #1 in "Peptide Sciences alternatives" articles
+- Chemyo, NextChems, Particle Peptides commonly recommended secondary
+- Limitless Life, Core Peptides also feature
+
+--------------------------------------------------------------------------------
+[F17] Prominent biohacker influencer endorsements drive affiliate traffic
+--------------------------------------------------------------------------------
+URLs:
+- https://jaycampbell.com/ (Jay Campbell, BioLongevity Labs co-founder)
+- https://moreplatesmoredates.com/ (Derek "MPMD")
+- https://www.cnn.com/2025/11/15/health/peptides-unregulated-influencers
+- https://capitalcurrent.ca/fitness-influencers-promote-risky-unproven-fitness-products-called-peptides-online-and-health-experts-are-ringing-alarm-bells/
+ACCESS: 2026-05-06
+VERBATIM (Capital Current): "Many influencers are affiliated with the online
+retailers selling unauthorized peptides, often with affiliate programs, and like
+many influencers talking up peptides, their profiles link to discount codes for
+online retailers."
+VERBATIM (CNN, Nov 2025): coverage of "trend of unproven peptides ... spreading
+through influencers and RFK Jr. allies."
+DEREK / MPMD: "MPMD code that fans use for discounts" — affiliate strategy
+documented across his ecosystem.
+JAY CAMPBELL: co-founder of BioLongevity Labs (a vendor) — meta-pattern of
+influencer-as-vendor-owner; endorsement-as-affiliate.
+
+--------------------------------------------------------------------------------
+[F18] Substack/longform commentary content does NOT typically push specific vendors
+--------------------------------------------------------------------------------
+URL: https://erictopol.substack.com/p/the-peptide-craze
+URL: https://robynopenshaw.substack.com/p/the-peptides-controversy
+URL: https://jordanshlain.substack.com/p/periodic-table-of-peptides
+ACCESS: 2026-05-06
+PATTERN: Mainstream/critical Substacks (Eric Topol's Ground Truths, Robyn
+Openshaw, Jordan Shlain) cover the peptide trend critically and do not link to
+or recommend specific vendors. Topol verbatim: "The peptide craze is
+unfounded. The evidence base for use of these drugs ... is wanting." Names
+LIVV (clinic) only as criticism example.
+DISTINCTION: vendor-owned Substacks (blog.peptide.partners) and undisclosed-
+affiliate Substacks (davidsoftmicro) DO push vendors with codes.
+
+--------------------------------------------------------------------------------
+[F19] Single-keyword exact-match domain (EMD) affiliate sites
+--------------------------------------------------------------------------------
+URL: https://bestbpc157reviews.com/
+URL: https://tirzepatidereview.com/
+URL: https://www.bestpeptidescompanies.com/eternal-peptides-review/
+ACCESS: 2026-05-06
+PATTERN: Domains tightly matched to commercial-intent keywords — function as
+single-purpose affiliate funnels. BestBPC157Reviews uses /recommends/<vendor>
+router, equivalent to /go/ pattern. Bestpeptidescompanies.com runs
+single-vendor reviews ("Eternal Peptides Review (2026): Are They Legit?")
+optimized for vendor-name SEO.
+SIGNAL: Multi-vendor EMD plays are a low-effort affiliate posture; high-volume
+SEO without depth.
+
+--------------------------------------------------------------------------------
+[F20] Triangulation: anchor-vendor coverage frequency across content sites
+--------------------------------------------------------------------------------
+TABULATED ACROSS 12+ THIRD-PARTY CONTENT SITES OBSERVED:
+
+Vendor                          | Sites pushing | Position in rankings
+Limitless Life Nootropics       | 9+            | #1-#5 dominant
+Swiss Chems                     | 8+            | Top 3 frequent
+Pure Rawz                       | 6+            | Top 5
+Core Peptides                   | 6+            | Mid-tier
+Biotech Peptides                | 4+            | Lower-tier mention
+Amino Asylum                    | 4+            | Mid-tier
+Peptide Sciences                | many (mostly  | Avoid/shut-down
+                                  as "avoid"
+                                  post-2026)
+Behemoth Labz                   | 2-3           | Lower-tier
+Domestic Supply                 | 1-2           | Rarely listed
+Peptide Guys                    | 0             | Not surfaced
+
+TOP CHALLENGER (non-anchor) on review sites: Ascension Peptides, Peptide
+Partners, Triumphant Labs, Particle Peptides, Pivot Labs, Paradigm Peptides,
+NextChems, Chemyo, Apollo Peptide Sciences, Everest Peptides, Paramount
+Peptides.
+
+--------------------------------------------------------------------------------
+END OF EVIDENCE FILE
+--------------------------------------------------------------------------------

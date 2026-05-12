@@ -1,0 +1,695 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://revivacore.com/
+[FETCHED_AT] 2026-05-08T07:05:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/homepage.md
+[LINE_RANGE] 23-31
+[QUOTE]
+"Research-Grade Compounds
+
+Empower Your Research.
+
+Accelerate Discovery.
+
+RevivaCore provides structured scientific tools, organized research domains, and transparent documentation to support serious inquiry. From metabolic exploration to regenerative science, our ecosystem is built for clarity, rigor, and purpose."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://revivacore.com/
+[FETCHED_AT] 2026-05-08T07:05:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/homepage.md
+[LINE_RANGE] 58-58
+[QUOTE]
+"[Explore Research Categories](/shop)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://revivacore.com/
+[FETCHED_AT] 2026-05-08T07:05:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/homepage.md
+[LINE_RANGE] 126-126
+[QUOTE]
+"All products are for Research Use Only (RUO). Not for human consumption."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://revivacore.com/shop/
+[FETCHED_AT] 2026-05-08T07:05:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/catalog_1.md
+[LINE_RANGE] 67-95
+[QUOTE]
+[ENUMERATION] Counted from product links on catalog_1.md: 27 distinct product entries listed (G2T, G3R, GHK-Cu, WOLVERINE, WOLVERINE ADVANCED, CELLULAR ENERGY STACK, BODY RECOMP LAB, BPC-157, TB-500, PERFORMANCE RESET SYSTEM, NAD+, METABOLIC IGNITION KIT, RECOVERY RESET BLEND (CJC/IPA), KLOW, GLOW, MOTS-c, SS-31, TESAMORELIN, CAGRILINTIDE, KPV, 5 AMINO-1MQ, SLU-PP-332, EPITALON, SNAP-8, SUPER HUMAN BLEND, Lipo C/B (216), PRECISION RECONSTITUTION SOLUTION).
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://revivacore.com/shop/
+[FETCHED_AT] 2026-05-08T07:05:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/catalog_1.md
+[LINE_RANGE] 61-67
+[QUOTE]
+"Categories
+
+  * Popular Picks  6
+  * Curated Kits  7
+  * Metabolic Reset  11
+  * Energy & Vitality  18
+  * Recovery & Repair  14
+  * Uncategorized  1"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://revivacore.com/shop/
+[FETCHED_AT] 2026-05-08T07:05:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/catalog_1.md
+[LINE_RANGE] 72-79
+[QUOTE]
+"  * ## [WOLVERINE $89.00 ](https://revivacore.com/product/rc-wol-020/)
+  * ## [WOLVERINE ADVANCED $142.00 ](https://revivacore.com/product/rc-wox-030/)
+  * ## [CELLULAR ENERGY STACK $115.00 ](https://revivacore.com/product/cellular-energy-stack/)
+  * ## [BODY RECOMP LAB $188.00 ](https://revivacore.com/product/body-recomp-lab/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://revivacore.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:06:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__bpc-157.md
+[LINE_RANGE] 27-45
+[QUOTE]
+"# BPC-157
+
+$40.00
+
+Peptide fragment referenced in non-clinical studies of angiogenic signaling, cellular repair mechanisms, and tissue-pathway dynamics.
+
+96 in stock
+
+#### Quantity Discounts
+
+Quantity| 5 - 9| 10 +
+---|---|---
+Price| $32.00| $24.00
+
+BPC-157 quantity
+
+Add to cart
+
+SKU: RC-BPC-010 Categories: [Popular Picks](https://revivacore.com/product-category/popular-picks/), [Recovery & Repair](https://revivacore.com/product-category/recovery-repair/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://revivacore.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:06:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__bpc-157.md
+[LINE_RANGE] 50-57
+[QUOTE]
+"**H** igh-purity peptide fragment widely referenced in pre-clinical literature for its role in **cellular communication, angiogenic signaling, and tissue-pathway research**. In controlled laboratory environments, BPC has been used to study mechanisms associated with **cell migration, structural remodeling, and microvascular dynamics** , making it a valuable tool for pathway-focused investigations."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://revivacore.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:06:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__bpc-157.md
+[LINE_RANGE] 64-67
+[QUOTE]
+"**For Laboratory Research Use Only (RUO).
+Not for human or veterinary use.
+Not a drug, supplement, or therapeutic product.**"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://revivacore.com/coas_library/
+[FETCHED_AT] 2026-05-08T07:06:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/coa_1.md
+[LINE_RANGE] 23-31
+[QUOTE]
+"# RevivaCore Certificate of Analysis (COA) Library
+
+This is the repository for all COAs past and present, please refer to the batch number on your vial to identify the appropriate CAO.
+
+For ease of access, the COAs have been grouped by peptide use case.
+
+PLEASE NOTE: If a COA link is not yet active, testing is in progress and will be uploaded shortly.
+
+_Last updated: March 7th, 2026: new COAs are added as batches are released._"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://revivacore.com/coas_library/
+[FETCHED_AT] 2026-05-08T07:06:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/coa_1.md
+[LINE_RANGE] 89-92
+[QUOTE]
+"**BPC-157:**
+
+  * 10mg: [RC-BPC-010-002](https://drive.google.com/file/d/1ASyfQkaA7za3ESpaVnYpqjhwsWtD59YD/view?usp=sharing); [RC-BPC-010-004](https://drive.google.com/file/d/1NEzq2UxWlDV3cPcIT9ofxV_atiExE56_/view?usp=sharing)[ (US3P)](https://drive.google.com/file/d/1MZb2B2X0Czj3_XItLScLrfaH8zHvyCvA/view?usp=sharing)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://revivacore.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T07:06:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/tos.md
+[LINE_RANGE] 29-43
+[QUOTE]
+"#### 1\. Research Use Only (RUO)
+
+All products sold by RevivaCore are strictly for Research Use Only (RUO). They are not intended for:
+
+  * Human consumption
+  * Medical, therapeutic, or diagnostic use
+  * Veterinary use, including use on animals or pets
+  * Household, cosmetic, or recreational use"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://revivacore.com/
+[FETCHED_AT] 2026-05-08T07:05:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/homepage.md
+[LINE_RANGE] 167-180
+[QUOTE]
+"## Age Verification Required
+
+This website is restricted to approved members of the REVIVA | CORE Collective. To continue, please confirm you meet the minimum age requirement and accept the agreements below.
+
+**I confirm I am 21+ years of age or older.**
+
+I acknowledge that products and information on this website are provided for laboratory research use only and are not intended for use in or on humans or animals."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://revivacore.com/shipping-returns/
+[FETCHED_AT] 2026-05-08T07:06:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/shipping.md
+[LINE_RANGE] 44-49
+[QUOTE]
+"No card transactions are allowed for international shipping.
+
+We respect federal state and city laws, our shipping restrictions are detailed below on the footer and
+
+they are automatically updated by WAAVE compliance."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://revivacore.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T07:06:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/tos.md
+[LINE_RANGE] 17-18
+[QUOTE]
+"# Terms of Service
+
+Last Updated: December 12, 2025"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://revivacore.com/shipping-returns/
+[FETCHED_AT] 2026-05-08T07:06:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/shipping.md
+[LINE_RANGE] 87-97
+[QUOTE]
+"  * Due to the sensitive nature of our research products, **all sales are final**.
+
+We do not accept returns or exchanges.
+
+Refunds will only be issued under the following conditions:
+
+    * You received the wrong item
+    * The item arrived damaged
+
+To request a refund or replacement:
+
+    * Contact support@revivacore.com within 48 hours of delivery
+    * Include clear photos of the product and packaging"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://revivacore.com/shipping-returns/
+[FETCHED_AT] 2026-05-08T07:06:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/shipping.md
+[LINE_RANGE] 27-66
+[QUOTE]
+"### USA Only
+
+We currently ship within the United States only.
+
+### Tracked Shipping
+
+All orders shipped via USPS or UPS with tracking.
+
+...
+
+  * All orders are shipped using tracked USPS or UPS services.
+  * Saturday delivery is included where available.
+
+### Estimated Delivery:
+
+  * 1–3 business days (not guaranteed)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://revivacore.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T07:06:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/tos.md
+[LINE_RANGE] 55-56
+[QUOTE]
+"  * Payments are processed securely through third-party processors (e.g., Stripe, PayPal, CoverWell, or similar)."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://revivacore.com/shipping-returns/
+[FETCHED_AT] 2026-05-08T07:06:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/shipping.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"  * All orders are shipped using tracked USPS or UPS services."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://revivacore.com/shop/
+[FETCHED_AT] 2026-05-08T07:05:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/catalog_1.md
+[LINE_RANGE] 59-59
+[QUOTE]
+"Free shipping on orders over $225 Volume discounts available on bulk orders Free shipping on orders over $225 Volume discounts available on bulk orders"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://revivacore.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T07:06:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/tos.md
+[LINE_RANGE] 64-64
+[QUOTE]
+"  * We currently ship within the United States only."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The site's source HTML contains multiple references to 'woocommerce' and 'wp-content', and the HTTP response header includes a link to the WordPress REST API endpoint (https://revivacore.com/wp-json/). This is consistent with a WooCommerce-on-WordPress installation.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://revivacore.com/
+[FETCHED_AT] 2026-05-08T07:05:08Z
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/source_homepage.md
+[LINE_RANGE] 1-1
+"woocommerce"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://revivacore.com/
+[FETCHED_AT] 2026-05-08T07:05:08Z
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/source_homepage.md
+[LINE_RANGE] 1-1
+"wp-content"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] true
+[REASONING]
+The string 'crisp' appears in the homepage HTML source, consistent with the Crisp.chat live chat widget being loaded. Crisp is a third-party chat support platform commonly embedded as a JavaScript snippet.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://revivacore.com/
+[FETCHED_AT] 2026-05-08T07:05:08Z
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/source_homepage.md
+[LINE_RANGE] 1-1
+"crisp"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://revivacore.com/
+[FETCHED_AT] 2026-05-08T07:05:08Z
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/source_homepage.md
+[LINE_RANGE] 1-1
+"woocommerce"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] ["Google Analytics (gtag, G-series)"]
+[REASONING]
+The homepage source contains 'gtag' and a partial GA4 measurement ID beginning with 'G-1', consistent with Google Analytics 4 (gtag.js) being loaded. The string '_ga' also appears in the source, a standard Google Analytics first-party cookie name.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://revivacore.com/
+[FETCHED_AT] 2026-05-08T07:05:08Z
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/source_homepage.md
+[LINE_RANGE] 1-1
+"gtag"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://revivacore.com/
+[FETCHED_AT] 2026-05-08T07:05:08Z
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/source_homepage.md
+[LINE_RANGE] 1-1
+"_ga"
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://revivacore.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T07:06:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/tos.md
+[LINE_RANGE] 64-64
+[QUOTE]
+"  * We currently ship within the United States only."
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://revivacore.com/insights/
+[FETCHED_AT] 2026-05-08T07:07:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/blog_1.md
+[LINE_RANGE] 23-23
+[QUOTE]
+"# Coming Soon"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://revivacore.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:06:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__bpc-157.md
+[LINE_RANGE] 82-84
+[QUOTE]
+"##  Reviews
+
+Be the first to review "BPC-157" [Cancel reply](/product/bpc-157/#respond)"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=revivacore:bpc-157-10mg]
+[URL] https://revivacore.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:06:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__bpc-157.md
+[LINE_RANGE] 27-45
+[QUOTE]
+"# BPC-157
+
+$40.00
+
+Peptide fragment referenced in non-clinical studies of angiogenic signaling, cellular repair mechanisms, and tissue-pathway dynamics.
+
+96 in stock
+
+#### Quantity Discounts
+
+Quantity| 5 - 9| 10 +
+---|---|---
+Price| $32.00| $24.00
+
+SKU: RC-BPC-010"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=revivacore:tb-500-10mg]
+[URL] https://revivacore.com/product/tb-500/
+[FETCHED_AT] 2026-05-08T07:06:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__tb-500.md
+[LINE_RANGE] 27-43
+[QUOTE]
+"# TB-500
+
+$60.00
+
+Synthetic peptide fragment modeled after thymosin beta-4 sequences, referenced in non-clinical studies of cell migration, angiogenesis, and structural pathway dynamics.
+
+94 in stock
+
+#### Quantity Discounts
+
+Quantity| 5 - 9| 10 +
+---|---|---
+Price| $48.00| $36.00
+
+SKU: RC-TB4-010"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=revivacore:ghk-cu-50mg]
+[URL] https://revivacore.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T07:06:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__ghk-cu.md
+[LINE_RANGE] 27-44
+[QUOTE]
+"# GHK-Cu
+
+$25.00
+
+GHK-Cu is a copper-binding tripeptide widely referenced in pre-clinical research for its roles in tissue repair, inflammation modulation, and collagen-regeneration pathways.
+
+62 in stock
+
+#### Quantity Discounts
+
+Quantity| 5 - 9| 10 +
+---|---|---
+Price| $20.00| $15.00
+
+SKU: RC-GHK-050"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=revivacore:mots-c-10mg]
+[URL] https://revivacore.com/product/mots/
+[FETCHED_AT] 2026-05-08T07:06:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__mots-c.md
+[LINE_RANGE] 27-44
+[QUOTE]
+"# MOTS-c
+
+$40.00
+
+Mitochondrial-derived research peptide referenced in non-clinical studies of AMPK signaling, metabolic regulation, and cellular stress-response pathways.
+
+94 in stock
+
+#### Quantity Discounts
+
+Quantity| 5 - 9| 10 +
+---|---|---
+Price| $32.00| $24.00
+
+SKU: RC-MOT-010"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=revivacore:epitalon-50mg]
+[URL] https://revivacore.com/product/epitalon/
+[FETCHED_AT] 2026-05-08T07:06:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__epitalon.md
+[LINE_RANGE] 27-44
+[QUOTE]
+"# EPITALON
+
+$95.00
+
+Tetrapeptide referenced in non-clinical research involving telomeric regulation, circadian signaling, and cellular-aging pathway mechanisms.
+
+8 in stock
+
+#### Quantity Discounts
+
+Quantity| 5 - 9| 10 +
+---|---|---
+Price| $76.00| $57.00
+
+SKU: RC-EPI-050"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=revivacore:ss-31-10mg]
+[URL] https://revivacore.com/product/ss31/
+[FETCHED_AT] 2026-05-08T07:06:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__ss-31.md
+[LINE_RANGE] 27-44
+[QUOTE]
+"# SS-31
+
+$45.00
+
+Mitochondria-targeted peptide referenced in non-clinical studies of cardiolipin interaction, oxidative-stress modulation, and cellular-energy signaling.
+
+14 in stock
+
+#### Quantity Discounts
+
+Quantity| 5 - 9| 10 +
+---|---|---
+Price| $36.00| $27.00
+
+SKU: RC-S31-010"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=revivacore:nad-plus-500mg]
+[URL] https://revivacore.com/product/nad/
+[FETCHED_AT] 2026-05-08T07:06:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__nad-plus.md
+[LINE_RANGE] 27-44
+[QUOTE]
+"# NAD+
+
+$45.00
+
+Oxidized nicotinamide adenine dinucleotide used in non-clinical research models exploring redox balance, metabolic signaling, and mitochondrial function.
+
+27 in stock
+
+#### Quantity Discounts
+
+Quantity| 5 - 9| 10 +
+---|---|---
+Price| $36.00| $27.00
+
+SKU: RC-NAD-500"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=revivacore:tesamorelin-10mg]
+[URL] https://revivacore.com/product/tesamorelin/
+[FETCHED_AT] 2026-05-08T07:07:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__tesamorelin.md
+[LINE_RANGE] 27-44
+[QUOTE]
+"# TESAMORELIN
+
+$55.00
+
+84 in stock
+
+#### Quantity Discounts
+
+Quantity| 5 - 9| 10 +
+---|---|---
+Price| $44.00| $33.00
+
+SKU: RC-TES-010"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=revivacore:kpv-10mg]
+[URL] https://revivacore.com/product/bpc-157-copy/
+[FETCHED_AT] 2026-05-08T07:07:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__kpv.md
+[LINE_RANGE] 27-44
+[QUOTE]
+"# KPV
+
+$40.00
+
+57 in stock
+
+#### Quantity Discounts
+
+Quantity| 5 - 9| 10 +
+---|---|---
+Price| $32.00| $24.00
+
+SKU: RC-KPV-010"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=revivacore:5amino1mq-5mg]
+[URL] https://revivacore.com/product/5-amino-1mq/
+[FETCHED_AT] 2026-05-08T07:07:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__5amino1mq.md
+[LINE_RANGE] 27-44
+[QUOTE]
+"# 5 AMINO-1MQ
+
+$25.00
+
+77 in stock
+
+#### Quantity Discounts
+
+Quantity| 5 - 9| 10 +
+---|---|---
+Price| $20.00| $15.00
+
+SKU: RC-5AM-005"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=revivacore:g2t-tirzepatide-10mg]
+[URL] https://revivacore.com/product/g2-t/
+[FETCHED_AT] 2026-05-08T07:07:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__g2t.md
+[LINE_RANGE] 27-48
+[QUOTE]
+"# G2T
+
+$40.00 – $120.00Price range: $40.00 through $120.00
+
+Dual-agonist (GIP/GLP-1) research compound referenced in non-clinical studies of metabolic regulation and receptor-signaling pathways.
+
+Select Size|  Choose an optionG2T (10mg)G2T (20mg = 2x10mg)G2T (30mg)G2T (60mg = 2x30mg)Clear
+
+SKU: RC-G2T-010"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=revivacore:g3r-retatrutide-10mg]
+[URL] https://revivacore.com/product/g3-r/
+[FETCHED_AT] 2026-05-08T07:07:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/product_1__g3r.md
+[LINE_RANGE] 27-48
+[QUOTE]
+"# G3R
+
+$60.00 – $120.00Price range: $60.00 through $120.00
+
+A high-purity triple-agonist (GIP, GLP-1, glucagon) referenced in metabolic research models exploring energy balance, fat-oxidation, and receptor-signaling pathways.
+
+Select Size|  Choose an optionG3R (10mg)G3R (20mg)G3R (30mg)Clear
+
+SKU: RC-G3R-010"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://revivacore.com/shipping-returns/
+[FETCHED_AT] 2026-05-08T07:06:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/shipping.md
+[LINE_RANGE] 27-29
+[QUOTE]
+"### USA Only
+
+We currently ship within the United States only."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+The TOS page states "Last Updated: December 12, 2025" and the homepage and TOS footers show "© 2026 RevivaCore. All rights reserved." This places the site launch in late 2025 at the earliest. No explicit founding date is stated on the site.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://revivacore.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T07:06:48Z
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/tos.md
+[LINE_RANGE] 17-18
+"Last Updated: December 12, 2025"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://revivacore.com/
+[FETCHED_AT] 2026-05-08T07:05:08Z
+[RAW_ARTIFACT] 03_raw_fetches/revivacore/homepage.md
+[LINE_RANGE] 161-161
+"© 2026 RevivaCore. All rights reserved."
+[/SUPPORT_QUOTE]

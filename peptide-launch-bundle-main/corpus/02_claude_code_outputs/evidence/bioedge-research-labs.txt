@@ -1,0 +1,1248 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:04:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/homepage.md
+[LINE_RANGE] 18-21
+[QUOTE]
+# US Manufactured. Verified for Purity.
+
+Premium research peptides shipped directly from our domestic fulfillment center and trusted by researchers nationwide.
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:04:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/homepage.md
+[LINE_RANGE] 23-30
+[QUOTE]
+"Third Party Tested
+
+COAs Available
+
+US Fulfillment
+
+Same Day Shipping"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:04:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/homepage.md
+[LINE_RANGE] 30
+[QUOTE]
+"[Shop Now](/shop-all/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:04:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/homepage.md
+[LINE_RANGE] 10-13
+[QUOTE]
+"[Shop](/shop-all/) [FAQ](/faq/) [Contact Us](/support/) [My Account](/my-account/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:04:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/homepage.md
+[LINE_RANGE] 150
+[QUOTE]
+"All products on this site are for Research, Development use only. The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. Bio Edge Peptides is a chemical supplier. Bio Edge Peptides is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:04:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/homepage.md
+[LINE_RANGE] 44-45
+[QUOTE]
+"## Proudly Manufactured in the United States
+
+We produce our peptides in US facilities, following cGMP-aligned protocols and rigorous quality practices that reflect our commitment to serious research."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:04:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/homepage.md
+[LINE_RANGE] 80
+[QUOTE]
+"Same Day Shipping on orders placed before 3pm est."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://bioedgeresearchlabs.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T17:05:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/shipping.md
+[LINE_RANGE] 66-67
+[QUOTE]
+BioEdge Research Labs currently ships orders to **domestic and selected international locations** , subject to local laws, regulations, and carrier availability.
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:04:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/homepage.md
+[LINE_RANGE] 152
+[QUOTE]
+"© 2025, Bio Edge Peptides."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 1-330
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/bioedge-research-labs/product_*.md:
+50 product files captured (product_1 through product_50 excluding product_36 duplicate). Catalog has 3 pages; individual SKU variants counted from product pages expand the per-variant line items. Unique product URLs = 50; total variant SKUs (size variants) approximate 53.
+[FILES]
+product_1__bpc-157-10mg.md
+product_2__tb-500-10mg.md
+product_3__ghk-cu.md
+product_4__nad-500mg.md
+product_5__mots-c-10mg.md
+product_6__epithalon-amidate-10mg.md
+product_7__thymosin-alpha-1-10mg.md
+product_8__pt-141-10mg.md
+product_9__ipamorelin-10mg.md
+product_10__cjc-1295-no-dac-10mg.md
+product_11__dsip.md
+product_12__igf-1-lr3-1mg.md
+product_13__ll-37.md
+product_14__peg-mgf-5mg.md
+product_15__bpc-157-tb-500-blend.md
+product_16__aod-9604-5mg.md
+product_17__dihexa-15mg.md
+product_18__5-amino-1mq-50mg.md
+product_19__selank-amidate.md
+product_20__semax-amidate.md
+product_21__kpv.md
+product_22__melanotan-1-10mg.md
+product_23__tesamorelin-10mg.md
+product_24__cjc-1295-ipamorelin-blend.md
+product_25__glow-bpc-tb-ghk.md
+product_26__bronchogen-20mg.md
+product_27__cagrilintide.md
+product_28__cartalax-20mg.md
+product_29__crystagen-20mg.md
+product_30__edge-r3.md
+product_31__edge-t2.md
+product_32__glutathione-1500mg.md
+product_33__kisspeptin-10mg.md
+product_34__klow-blend.md
+product_35__lipoc-b12-10ml.md
+product_37__oxytocin-5mg.md
+product_38__pe-22-28-8mg.md
+product_39__pinealon-10mg.md
+product_40__prostamax-20mg.md
+product_41__reconstitution-solution-30ml.md
+product_42__sermorelin-5mg.md
+product_43__slu-pp-332.md
+product_44__snap-8-10mg.md
+product_45__thymulin-10mg.md
+product_46__vip-5mg.md
+product_47__5-amino-1mq-60count.md
+product_48__bpc-157-combo.md
+product_49__bpc-157-500mcg-capsules.md
+product_50__ara-290-10mg.md
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:04:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/homepage.md
+[LINE_RANGE] 51-53
+[QUOTE]
+"Our catalog is built around three core categories:
+
+  * Single Compound Peptides
+  * Multi-Peptide Combination Blends
+  * Custom & Specialty Formulations"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 22-25
+[QUOTE]
+"**Sort & Filter** Organize the products shown below.
+
+Popularity Sort Alphabetically
+
+Price range **Any price**"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 98-106
+[QUOTE]
+"##  [BPC-157 + TB-500](https://bioedgeresearchlabs.com/product/bpc-157-tb-500/)
+
+$69.00 – $110.00Price range: $69.00 through $110.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://bioedgeresearchlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 26-28
+[QUOTE]
+"# BPC-157 (10mg)
+
+~~$ 65.00~~ Original price was: $65.00.$59.00Current price is: $59.00."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://bioedgeresearchlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 76
+[QUOTE]
+"**Quantity** | 10mg per vial"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://bioedgeresearchlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 28
+[QUOTE]
+"~~$ 65.00~~ Original price was: $65.00.$59.00Current price is: $59.00."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://bioedgeresearchlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 59
+[QUOTE]
+"BPC 157 (Body Protection Compound 157) is one of the most extensively studied peptides in preclinical research and one of the most commonly sourced compounds by independent and institutional laboratories worldwide."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://bioedgeresearchlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 189
+[QUOTE]
+"This product is intended exclusively for in vitro laboratory research. Not for human or veterinary use. Not for diagnostic, therapeutic, or clinical applications. BPC 157 has not been evaluated or approved by the FDA for any human use. All referenced studies are preclinical (animal and in vitro) and do not establish safety or efficacy in humans. BioEdge Research Labs is a chemical supplier, not a compounding pharmacy or clinical facility as defined under 503A of the Federal Food, Drug, and Cosmetic Act."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://bioedgeresearchlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 24
+[QUOTE]
+"Certificate of Analysis
+
+[](https://bioedgeresearchlabs.com/wp-content/uploads/2025/04/BPC-157-10mg-04232026-03312026BP10-KVR-2026-C676BC_page-0001.jpg)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://bioedgeresearchlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 183
+[QUOTE]
+"Certificate of Analysis, HPLC chromatogram, and endotoxin testing results available for each lot. View sample documentation in the 3rd Party Lab Testing tab above."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://bioedgeresearchlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 115
+[QUOTE]
+"**Batch specific COA from an independent lab.** Not a generic PDF recycled across products. Every vial of BPC 157 is backed by independent third-party laboratory testing, with a Certificate of Analysis available for review on our product page.. HPLC confirms purity. Mass spectrometry confirms molecular identity. The COA corresponds to the specific batch you receive."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://bioedgeresearchlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 191-197
+[QUOTE]
+"## Related products
+
+  * [ Sale! Cagrilintide $59.00 – $109.00Price range: $59.00 through $109.00 ](https://bioedgeresearchlabs.com/product/buy-cagrilintide/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://bioedgeresearchlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 191
+[QUOTE]
+"## Related products"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:04:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/homepage.md
+[LINE_RANGE] 175
+[QUOTE]
+"**⚠️ RESEARCH USE ONLY - FDA DISCLAIMER:** All products are intended for research use only as defined by the FDA. Not for use in diagnostic procedures, human use, or veterinary use. Products have NOT been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 344
+[QUOTE]
+"I confirm that I am at least 21 years old"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://bioedgeresearchlabs.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T17:05:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/tos.md
+[LINE_RANGE] 18
+[QUOTE]
+"# Terms and Conditions"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://bioedgeresearchlabs.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T17:05:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/tos.md
+[LINE_RANGE] 35-44
+[QUOTE]
+"All products offered by BioEdge Research Labs are intended **strictly for laboratory research and development purposes only**.
+
+Products are **not intended for human or animal consumption** , medical use, or clinical application.
+
+Statements on this website have not been evaluated by the **U.S. Food and Drug Administration (FDA)**. Our products are not intended to diagnose, treat, cure, or prevent any disease or medical condition.
+
+## Eligibility to Purchase
+
+By placing an order, you confirm that you are at least **18 years of age** and legally permitted to purchase and possess research chemicals in your jurisdiction."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://bioedgeresearchlabs.com/refunds-and-returns/
+[FETCHED_AT] 2026-05-07T17:05:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/refund.md
+[LINE_RANGE] 43-47
+[QUOTE]
+"Due to the nature of research products, returns are **limited** and refunds are provided only in specific circumstances.
+
+**May be eligible**
+
+  * Damaged products received during shipping
+  * Incorrect items sent
+  * Verified defective or compromised products"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://bioedgeresearchlabs.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T17:05:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/shipping.md
+[LINE_RANGE] 76-83
+[QUOTE]
+"**Domestic Shipping**
+
+Estimated delivery time is **3–7 business days**.
+
+**International Shipping**
+
+Estimated delivery time is **7–21 business days**."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 319-323
+[QUOTE]
+"## Login Required
+
+To browse **BioEdge Research Labs** :
+Please log in or create an account.
+
+LOGIN FOR RESEARCH USE ONLY PRODUCTS"
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 319-323
+[QUOTE]
+"## Login Required
+
+To browse **BioEdge Research Labs** :
+Please log in or create an account.
+
+LOGIN FOR RESEARCH USE ONLY PRODUCTS"
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 337-344
+[QUOTE]
+"First Name Last Name Email Address Password
+
+Business Type / Industry Independent ResearchHealthcare / MedicalResearch / AcademicBiotechnologyPharmaceuticalGovernment / Military
+
+I confirm that I am at least 21 years old"
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 344
+[QUOTE]
+"I agree that the statements I've made herein are true and factual, and I consent to IP address verification, request for authentication of information provided, & other verification methods by Company to validate the information provide is true in its sole discretion."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://bioedgeresearchlabs.com/faq/
+[FETCHED_AT] 2026-05-07T17:05:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/faq.md
+[LINE_RANGE] 60-64
+[QUOTE]
+"  * First-Class Packages: Arrive in 5 to 7 days.
+  * Priority Mail: Arrives in approximately 2 to 4 days.
+  * Express Mail: Arrives in approximately 24 to 48 hours."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:04:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/homepage.md
+[LINE_RANGE] 8
+[QUOTE]
+"FREE Shipping on domestic orders over $150+ Independent Testing to meet quality standards. USA-Domestic Delivery and same-day shipping."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://bioedgeresearchlabs.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T17:05:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/shipping.md
+[LINE_RANGE] 90-93
+[QUOTE]
+"BioEdge Research Labs is not responsible for any customs duties, taxes, or import fees applied to your order. All fees imposed during or after shipping are the responsibility of the customer."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:09:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/source_homepage.md
+[LINE_RANGE] 8
+[QUOTE]
+"WooCommerce WordPress platform detected. CDN: Cloudflare. Analytics: GA4 (G-ZQ5ZR1RCN5), GTM (GTM-PD9JZSNG), Google Ads (AW-16530022393). Pixels: Meta/Facebook (fbq), TikTok, Twitter. Chat: Crisp, Tawk.to. Email marketing: Klaviyo. Points/rewards: WooCommerce Points and Rewards."
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:09:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/source_homepage.md
+[LINE_RANGE] 8
+[QUOTE]
+"WooCommerce WordPress platform detected. CDN: Cloudflare."
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:09:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/source_homepage.md
+[LINE_RANGE] 8
+[QUOTE]
+WooCommerce WordPress platform detected. CDN: Cloudflare. Analytics: GA4 (G-ZQ5ZR1RCN5), GTM (GTM-PD9JZSNG), Google Ads (AW-16530022393). Pixels: Meta/Facebook (fbq), TikTok, Twitter. Chat: Crisp, Tawk.to. Email marketing: Klaviyo. Points/rewards: WooCommerce Points and Rewards.
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:09:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/source_homepage.md
+[LINE_RANGE] 8
+[QUOTE]
+"Pixels: Meta/Facebook (fbq), TikTok, Twitter."
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:09:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/source_homepage.md
+[LINE_RANGE] 8
+[QUOTE]
+"Chat: Crisp, Tawk.to."
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:04:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/homepage.md
+[LINE_RANGE] 153-161
+[QUOTE]
+"###### Useful Links
+
+  * [Terms and Conditions](/terms-and-conditions/)
+  * [Privacy Policy](/privacy-policy/)
+  * [Refunds and Returns](/refunds-and-returns/)
+  * [Shipping policy](/shipping-policy/)
+  * [Loyalty Program](/loyalty-program/)
+  * [Referral Program](/referral-program/)
+  * [Track Your Order](/order-tracking/)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://bioedgeresearchlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 191-197
+[QUOTE]
+"## Related products
+
+  * [ Sale! Cagrilintide $59.00 – $109.00Price range: $59.00 through $109.00 ](https://bioedgeresearchlabs.com/product/buy-cagrilintide/)[Select options](https://bioedgeresearchlabs.com/product/buy-cagrilintide/)"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://bioedgeresearchlabs.com/
+[FETCHED_AT] 2026-05-07T17:04:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/homepage.md
+[LINE_RANGE] 84-92
+[QUOTE]
+"### [Manufactured in United States GMP-Compliant Facilities Every peptide is produced in advanced U.S.-based GMP-compliant facilities. Rigorous protocols ensure exceptional purity, potency, and batch-to-batch consistency. ](/shop-all/) ### [Independently Tested Every lot undergoes HPLC and mass spectrometry analysis by certified, independent third-party laboratories. No in-house testing. No shortcuts. ](/shop-all/)"
+[/QUOTE]
+
+[CLAIM] claim-sku-1
+[URL] https://bioedgeresearchlabs.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_1__bpc-157-10mg.md
+[LINE_RANGE] 26-50
+[QUOTE]
+"# BPC-157 (10mg)
+
+~~$ 65.00~~ Original price was: $65.00.$59.00Current price is: $59.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-2
+[URL] https://bioedgeresearchlabs.com/product/tb-500-10mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_2__tb-500-10mg.md
+[LINE_RANGE] 26-28
+[QUOTE]
+"# TB-500 (10mg)
+
+~~$ 88.00~~ Original price was: $88.00.$72.00Current price is: $72.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-3a
+[URL] https://bioedgeresearchlabs.com/product/buy-ghk-cu/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_3__ghk-cu.md
+[LINE_RANGE] 27-28
+[QUOTE]
+"# GHK – CU
+
+$50.00 – $71.00Price range: $50.00 through $71.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-3b
+[URL] https://bioedgeresearchlabs.com/product/buy-ghk-cu/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_3__ghk-cu.md
+[LINE_RANGE] 40-41
+[QUOTE]
+"Weight |  Choose an option50mg100mgClear"
+[/QUOTE]
+
+[CLAIM] claim-sku-4
+[URL] https://bioedgeresearchlabs.com/product/buy-nad-500mg/
+[FETCHED_AT] 2026-05-07T17:08:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_4__nad-500mg.md
+[LINE_RANGE] 26-28
+[QUOTE]
+"# NAD+ (500mg)
+
+~~$ 84.00~~ Original price was: $84.00.$75.00Current price is: $75.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-5
+[URL] https://bioedgeresearchlabs.com/product/buy-mots-c-10mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_5__mots-c-10mg.md
+[LINE_RANGE] 26-28
+[QUOTE]
+"# MOTS-c (10mg)
+
+~~$ 65.00~~ Original price was: $65.00.$59.00Current price is: $59.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-6a
+[URL] https://bioedgeresearchlabs.com/product/buy-epithalon-amidate-10mg/
+[FETCHED_AT] 2026-05-07T17:08:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_6__epithalon-amidate-10mg.md
+[LINE_RANGE] 25-26
+[QUOTE]
+"# NA Epithalon Amidate
+
+$44.00 – $64.00Price range: $44.00 through $64.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-6b
+[URL] https://bioedgeresearchlabs.com/product/buy-epithalon-amidate-10mg/
+[FETCHED_AT] 2026-05-07T17:08:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_6__epithalon-amidate-10mg.md
+[LINE_RANGE] 42
+[QUOTE]
+"Weight |  Choose an option10mg20mgClear"
+[/QUOTE]
+
+[CLAIM] claim-sku-7
+[URL] https://bioedgeresearchlabs.com/product/buy-thymosin-alpha-1-10mg/
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 260-265
+[QUOTE]
+"##  [Thymosin Alpha 1 (10mg)](https://bioedgeresearchlabs.com/product/buy-thymosin-alpha-1-10mg/)
+
+~~$ 98.00~~ Original price was: $98.00.$88.00Current price is: $88.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-8
+[URL] https://bioedgeresearchlabs.com/product/buy-pt-141-10mg/
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 188-196
+[QUOTE]
+"##  [PT-141 (10mg)](https://bioedgeresearchlabs.com/product/buy-pt-141-10mg/)
+
+~~$ 50.00~~ Original price was: $50.00.$45.00Current price is: $45.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-9
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 258-265
+[QUOTE]
+"##  [Ipamorelin (10mg)](https://bioedgeresearchlabs.com/product/buy-ipamorelin-10mg/)
+
+~~$ 72.00~~ Original price was: $72.00.$65.00Current price is: $65.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-10
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 158-165
+[QUOTE]
+"##  [CJC-1295 No Dac (10mg)](https://bioedgeresearchlabs.com/product/buy-cjc-1295-no-dac-10mg/)
+
+~~$ 87.00~~ Original price was: $87.00.$78.00Current price is: $78.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-11a
+[URL] https://bioedgeresearchlabs.com/product/buy-dsip-10-mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_11__dsip.md
+[LINE_RANGE] 24-38
+[QUOTE]
+"# DSIP
+
+$35.00 – $54.00Price range: $35.00 through $54.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-11b
+[URL] https://bioedgeresearchlabs.com/product/buy-dsip-10-mg/
+[FETCHED_AT] 2026-05-07T17:08:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_11__dsip.md
+[LINE_RANGE] 38
+[QUOTE]
+"Weight |  Choose an option5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] claim-sku-12
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 248-257
+[QUOTE]
+"##  [IGF-1 LR3 (1mg)](https://bioedgeresearchlabs.com/product/buy-igf-1lr3-1mg/)
+
+$67.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-13a
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 68-76
+[QUOTE]
+"##  [LL-37](https://bioedgeresearchlabs.com/product/buy-ll-37-10-mg/)
+
+$64.00 – $97.00Price range: $64.00 through $97.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-13b
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 68-76
+[QUOTE]
+"$64.00 – $97.00Price range: $64.00 through $97.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-14
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 158-167
+[QUOTE]
+"##  [PEG-MGF (5MG)](https://bioedgeresearchlabs.com/product/buy-peg-mgf-5mg/)
+
+$59.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-15a
+[URL] https://bioedgeresearchlabs.com/product/bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T17:08:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_15__bpc-157-tb-500-blend.md
+[LINE_RANGE] 26-41
+[QUOTE]
+"# BPC-157 + TB-500
+
+$69.00 – $110.00Price range: $69.00 through $110.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-15b
+[URL] https://bioedgeresearchlabs.com/product/bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T17:08:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_15__bpc-157-tb-500-blend.md
+[LINE_RANGE] 40
+[QUOTE]
+"Weight |  Choose an option5mg/5mg10mg/10mgClear"
+[/QUOTE]
+
+[CLAIM] claim-sku-16
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 58-65
+[QUOTE]
+"##  [AOD-9604 (5MG)](https://bioedgeresearchlabs.com/product/buy-aod-9604-5mg/)
+
+~~$ 47.00~~ Original price was: $47.00.$42.00Current price is: $42.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-17
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 178-187
+[QUOTE]
+"##  [Dihexa (15mg)](https://bioedgeresearchlabs.com/product/buy-dihexa-15mg/)
+
+$85.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-18
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 38-45
+[QUOTE]
+"##  [5-Amino-1MQ (50mg)](https://bioedgeresearchlabs.com/product/buy-5-amino-1mq-50mg/)
+
+~~$ 108.00~~ Original price was: $108.00.$97.00Current price is: $97.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-19a
+[URL] https://bioedgeresearchlabs.com/product/selank-amidate/
+[FETCHED_AT] 2026-05-07T17:08:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_19__selank-amidate.md
+[LINE_RANGE] 25-28
+[QUOTE]
+"# NA Selank Amidate
+
+$39.00 – $69.00Price range: $39.00 through $69.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-19b
+[URL] https://bioedgeresearchlabs.com/product/selank-amidate/
+[FETCHED_AT] 2026-05-07T17:08:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_19__selank-amidate.md
+[LINE_RANGE] 40
+[QUOTE]
+"Weight |  Choose an option10mg30mgClear"
+[/QUOTE]
+
+[CLAIM] claim-sku-20a
+[URL] https://bioedgeresearchlabs.com/product/buy-semax-amidate/
+[FETCHED_AT] 2026-05-07T17:08:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_20__semax-amidate.md
+[LINE_RANGE] 25-28
+[QUOTE]
+"# NA Semax Amidate
+
+$39.00 – $69.00Price range: $39.00 through $69.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-20b
+[URL] https://bioedgeresearchlabs.com/product/buy-semax-amidate/
+[FETCHED_AT] 2026-05-07T17:08:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_20__semax-amidate.md
+[LINE_RANGE] 35-40
+[QUOTE]
+"Weight |  Choose an option10mg30mgClear"
+[/QUOTE]
+
+[CLAIM] claim-sku-21a
+[URL] https://bioedgeresearchlabs.com/product/buy-kpv-10mg/
+[FETCHED_AT] 2026-05-07T17:09:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_21__kpv.md
+[LINE_RANGE] 25-27
+[QUOTE]
+"# KPV
+
+$38.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-21b
+[URL] https://bioedgeresearchlabs.com/product/buy-kpv-10mg/
+[FETCHED_AT] 2026-05-07T17:09:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_21__kpv.md
+[LINE_RANGE] 38
+[QUOTE]
+"Weight |  Choose an option5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] claim-sku-22
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 78-86
+[QUOTE]
+"##  [Melanotan 1 (10mg)](https://bioedgeresearchlabs.com/product/buy-melanotan-1-10mg/)
+
+~~$ 43.00~~ Original price was: $43.00.$39.00Current price is: $39.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-23
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 248-256
+[QUOTE]
+"##  [Tesamorelin (10mg)](https://bioedgeresearchlabs.com/product/buy-tesamorelin-10mg/)
+
+~~$ 98.00~~ Original price was: $98.00.$88.00Current price is: $88.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-24
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 148-156
+[QUOTE]
+"##  [CJC 1295 No Dac + Ipamorelin (5mg/5mg)](https://bioedgeresearchlabs.com/product/buy-cjc-1295-no-dac-ipamorelin-5mg-5mg/)
+
+$72.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-25
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 228-237
+[QUOTE]
+"##  [GLOW (BPC-157 + TB-500 + GHK-Cu)](https://bioedgeresearchlabs.com/product/buy-glow-bpc-157-tb-500-ghk-cu/)
+
+$108.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-26
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 118-127
+[QUOTE]
+"##  [Bronchogen (20mg)](https://bioedgeresearchlabs.com/product/buy-bronchogen-20mg/)
+
+$59.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-27a
+[URL] https://bioedgeresearchlabs.com/product/buy-cagrilintide/
+[FETCHED_AT] 2026-05-07T17:09:14Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_27__cagrilintide.md
+[LINE_RANGE] 25-28
+[QUOTE]
+"# Cagrilintide
+
+$59.00 – $109.00Price range: $59.00 through $109.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-27b
+[URL] https://bioedgeresearchlabs.com/product/buy-cagrilintide/
+[FETCHED_AT] 2026-05-07T17:09:14Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_27__cagrilintide.md
+[LINE_RANGE] 46
+[QUOTE]
+"Weight |  Choose an option5MG10MGClear"
+[/QUOTE]
+
+[CLAIM] claim-sku-28
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 138-146
+[QUOTE]
+"##  [Cartalax (20mg)](https://bioedgeresearchlabs.com/product/cartalax-20mg/)
+
+~~$ 79.00~~ Original price was: $79.00.$59.00Current price is: $59.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-29
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 168-177
+[QUOTE]
+"##  [Crystagen (20mg)](https://bioedgeresearchlabs.com/product/buy-crystagen-20mg/)
+
+$59.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-30a
+[URL] https://bioedgeresearchlabs.com/product/biogp-3r/
+[FETCHED_AT] 2026-05-07T17:09:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_30__edge-r3.md
+[LINE_RANGE] 25-27
+[QUOTE]
+"# EDGE R3 (GLPR3)
+
+$125.00 – $197.00Price range: $125.00 through $197.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-30b
+[URL] https://bioedgeresearchlabs.com/product/biogp-3r/
+[FETCHED_AT] 2026-05-07T17:09:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_30__edge-r3.md
+[LINE_RANGE] 38
+[QUOTE]
+"Weight |  Choose an option10mg12mg24mg20mgClear"
+[/QUOTE]
+
+[CLAIM] claim-sku-31a
+[URL] https://bioedgeresearchlabs.com/product/edgepl2/
+[FETCHED_AT] 2026-05-07T17:09:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_31__edge-t2.md
+[LINE_RANGE] 21-23
+[QUOTE]
+"# EDGE T2 (GLP2 Tz)
+
+$80.00 – $142.00Price range: $80.00 through $142.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-31b
+[URL] https://bioedgeresearchlabs.com/product/edgepl2/
+[FETCHED_AT] 2026-05-07T17:09:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/product_31__edge-t2.md
+[LINE_RANGE] 38
+[QUOTE]
+"Weight |  Choose an option10mg15mg30mgClear"
+[/QUOTE]
+
+[CLAIM] claim-sku-32
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 238-246
+[QUOTE]
+"##  [Glutathione (1500mg)](https://bioedgeresearchlabs.com/product/buy-glutathione-1500mg/)
+
+~~$ 82.50~~ Original price was: $82.50.$75.00Current price is: $75.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-33
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 28-36
+[QUOTE]
+"##  [Kisspeptin (10mg)](https://bioedgeresearchlabs.com/product/buy-kisspeptin-10mg/)
+
+~~$ 69.00~~ Original price was: $69.00.$62.00Current price is: $62.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-34
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 38-46
+[QUOTE]
+"##  [KLOW: GHK-Cu, KPV, BPC-157 and TB-500](https://bioedgeresearchlabs.com/product/buy-klow-ghk-cu-50mg-kpv-10mg-bpc-157-10mg-tb-500-10mg/)
+
+~~$ 154.00~~ Original price was: $154.00.$140.00Current price is: $140.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-35
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 58-66
+[QUOTE]
+"##  [LipoC + B12 (10mL)](https://bioedgeresearchlabs.com/product/mic-b12-10ml/)
+
+~~$ 75.00~~ Original price was: $75.00.$60.00Current price is: $60.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-37
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 138-146
+[QUOTE]
+"##  [Oxytocin (5mg)](https://bioedgeresearchlabs.com/product/buy-oxytocin-5mg/)
+
+$35.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-38
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 148-156
+[QUOTE]
+"##  [PE 22-28 (8mg)](https://bioedgeresearchlabs.com/product/buy-pe-22-28-8mg/)
+
+~~$ 54.00~~ Original price was: $54.00.$49.00Current price is: $49.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-39
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 168-176
+[QUOTE]
+"##  [Pinealon (10mg)](https://bioedgeresearchlabs.com/product/buy-pinealon/)
+
+~~$ 54.00~~ Original price was: $54.00.$49.00Current price is: $49.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-40
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 178-187
+[QUOTE]
+"##  [Prostamax (20mg)](https://bioedgeresearchlabs.com/product/buy-prostamax-20mg/)
+
+$59.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-41
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 198-207
+[QUOTE]
+"##  [Reconstitution Solution 30mL](https://bioedgeresearchlabs.com/product/reconstitution-solution-30ml/)
+
+$19.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-42
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 208-216
+[QUOTE]
+"##  [Sermorlin (5mg)](https://bioedgeresearchlabs.com/product/buy-sermorlin-5mg/)
+
+$49.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-43
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 218-226
+[QUOTE]
+"##  [SLU-PP-332 (500 mcg, 100 count)](https://bioedgeresearchlabs.com/product/buy-slu-pp-332-500-mcg-100-count/)
+
+~~$ 180.00~~ Original price was: $180.00.$144.00Current price is: $144.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-44
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=2
+[FETCHED_AT] 2026-05-07T17:05:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_2.md
+[LINE_RANGE] 228-236
+[QUOTE]
+"##  [SNAP-8 (10MG)](https://bioedgeresearchlabs.com/product/buy-snap-8-10mg/)
+
+~~$ 55.00~~ Original price was: $55.00.$49.00Current price is: $49.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-45
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=3
+[FETCHED_AT] 2026-05-07T17:05:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_3.md
+[LINE_RANGE] 28-36
+[QUOTE]
+"##  [Thymulin (10mg)](https://bioedgeresearchlabs.com/product/buy-thymulin-10mg/)
+
+$45.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-46
+[URL] https://bioedgeresearchlabs.com/shop-all/?besg_page=3
+[FETCHED_AT] 2026-05-07T17:05:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_3.md
+[LINE_RANGE] 38-46
+[QUOTE]
+"##  [VIP (5mg)](https://bioedgeresearchlabs.com/product/buy-vip-5mg/)
+
+$52.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-47
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 28-36
+[QUOTE]
+"##  [5-Amino-1MQ (50 mg, 60 count)](https://bioedgeresearchlabs.com/product/buy-5-amino-1mq-50-mg-60-count/)
+
+$175.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-49
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 108-116
+[QUOTE]
+"##  [BPC-157 500mcg (60 Count)](https://bioedgeresearchlabs.com/product/bpc-157-500mcg-60-tablets/)
+
+~~$ 142.00~~ Original price was: $142.00.$129.00Current price is: $129.00."
+[/QUOTE]
+
+[CLAIM] claim-sku-50
+[URL] https://bioedgeresearchlabs.com/shop-all/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioedge-research-labs/catalog_1.md
+[LINE_RANGE] 68-76
+[QUOTE]
+"##  [ARA-290 (10mg)](https://bioedgeresearchlabs.com/product/buy-ara-290/)
+
+$59.00"
+[/QUOTE]

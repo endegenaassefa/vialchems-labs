@@ -1,0 +1,556 @@
+[CLAIM] primary_domain
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/homepage.md
+[LINE_RANGE] 2-2
+[QUOTE]
+"url: http://www.zlzpeptide.com/"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] http://www.zlzpeptide.com/aboutus.asp?title=About%20Us
+[FETCHED_AT] 2026-05-08T08:48:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/aboutus.md
+[LINE_RANGE] 39-39
+[QUOTE]
+"Zhuzhou Lusong Zhongtuo Chemical Technology City is located in HuNan province of China."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] http://www.zlzpeptide.com/aboutus.asp?title=About%20Us
+[FETCHED_AT] 2026-05-08T08:48:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/aboutus.md
+[LINE_RANGE] 39-39
+[QUOTE]
+"Zhuzhou Lusong Zhongtuo Chemical Technology City is located in HuNan province of China."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[INFERENCE] us_intl
+[REASONING]
+The About Us page explicitly lists 15 countries including USA as ship-to destinations with customs clearance guarantee, confirming US and international shipping.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] http://www.zlzpeptide.com/aboutus.asp?title=About%20Us
+[FETCHED_AT] 2026-05-08T08:48:40Z
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/aboutus.md
+[LINE_RANGE] 39-39
+"We Supply Free of customs clearance, Double Clearance 100% pass delivery to USA, Canada, Australia,Poland, Italy, Sweden, UK, Czech Republic, Spain, Germany, Netherlands, Mexico, Russia, Ukraine, Kazakhstan.Door to door service."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] http://www.zlzpeptide.com/productshow.asp?id=350
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__retatrutide-10mg.md
+[LINE_RANGE] 52-52
+"* _Shipping way:_ DHL/USPS/FEDEX/TNT"
+[/SUPPORT_QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2021
+[REASONING]
+The site footer copyright reads 2021; no other founding year is stated on the site.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:39Z
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/homepage.md
+[LINE_RANGE] 154-154
+"Zhuzhou Lusong Zhongtuo Chemical Technology City © Copyright - 2021 : All Rights Reserved."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] http://www.zlzpeptide.com/aboutus.asp?title=About%20Us
+[FETCHED_AT] 2026-05-08T08:48:40Z
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/aboutus.md
+[LINE_RANGE] 67-67
+"Zhuzhou Lusong Zhongtuo Chemical Technology City © Copyright - 2021 : All Rights Reserved."
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/homepage.md
+[LINE_RANGE] 34-36
+[QUOTE]
+"HOT-SALE PRODUCT
+
+Quality First, Safety Guaranteed"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/homepage.md
+[LINE_RANGE] 134-134
+[QUOTE]
+"[INQUIRY NOW __](javascript:)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/homepage.md
+[LINE_RANGE] 10-22
+[QUOTE]
+"* [Home](index.asp)
+  * [About Us](aboutus.asp?title=About Us)
+    * [Customers&Exhibitions](aboutus.asp?title=Customers&Exhibitions)
+    * [Certificate](aboutus.asp?title=Certificate)
+    * [Factory Tour](aboutus.asp?title=Factory Tour)
+  * [Products](product.asp)
+    * [Organic Intermediates](Product.asp?BigClassName=Organic Intermediates)
+    * [Food Additive](Product.asp?BigClassName=Food Additive)
+    * [Imidazoles](Product.asp?BigClassName=Imidazoles)
+  * [News](conews.asp)
+  * [Video](aboutus.asp?title=Video)
+  * [Contact Us](contact.asp)
+  * [FAQs](faq.asp)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/homepage.md
+[LINE_RANGE] 154-154
+[QUOTE]
+"Zhuzhou Lusong Zhongtuo Chemical Technology City © Copyright - 2021 : All Rights Reserved."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] http://www.zlzpeptide.com/product.asp
+[FETCHED_AT] 2026-05-08T08:47:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/catalog_1.md
+[LINE_RANGE] 33-33
+[QUOTE]
+"All Products 18 Products"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] http://www.zlzpeptide.com/product.asp
+[FETCHED_AT] 2026-05-08T08:47:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/catalog_1.md
+[LINE_RANGE] 32-36
+[QUOTE]
+"#### Categories
+
+  * [Organic Intermediates](product.asp?bigclassname=Organic Intermediates)
+  * [Food Additive](product.asp?bigclassname=Food Additive)
+  * [Imidazoles](product.asp?bigclassname=Imidazoles)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] http://www.zlzpeptide.com/product.asp
+[FETCHED_AT] 2026-05-08T08:47:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/catalog_1.md
+[LINE_RANGE] 33-33
+[QUOTE]
+"All Products 18 Products"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] http://www.zlzpeptide.com/productshow.asp?id=350
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__retatrutide-10mg.md
+[LINE_RANGE] 42-42
+[QUOTE]
+"##  Retatrutide 10mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] http://www.zlzpeptide.com/product.asp
+[FETCHED_AT] 2026-05-08T08:47:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/catalog_1.md
+[LINE_RANGE] 58-90
+[QUOTE]
+"### [Retatrutide 5mg](productshow.asp?id=361)
+...
+### [Retatrutide 15mg](productshow.asp?id=362)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] http://www.zlzpeptide.com/productshow.asp?id=350
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__retatrutide-10mg.md
+[LINE_RANGE] 48-49
+[QUOTE]
+"* _MOQ:_ 10vials/1 box
+* _Package:_ $280/box"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] http://www.zlzpeptide.com/productshow.asp?id=350
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__retatrutide-10mg.md
+[LINE_RANGE] 59-59
+[QUOTE]
+"Retatrutide is a GGG tri-agonist that targets GLP-1 and GIP receptors, akin to standard GLP-1 agonists, but also uniquely activates the glucagon receptor. This extra receptor interaction enhances glucagon production, leading to the breakdown of stored fats and glycogen, thereby increasing basal metabolism for more consistent fat loss."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] http://www.zlzpeptide.com/productshow.asp?id=350
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__retatrutide-10mg.md
+[LINE_RANGE] 61-61
+[QUOTE]
+"Product Usage: This PRODUCT IS INTENDED AS A RESEARCH CHEMICAL ONLY. This designation allows the use of research chemicals strictly for in vitro testing and laboratory experimentation only. All product information available on this website is for educational purposes only. Bodily introduction of any kind into humans or animals is strictly forbidden by law. This product should only be handled by licensed, qualified professionals. This product is not a drug, food, or cosmetic and may not be misbranded, misused or mislabled as a drug, food or cosmetic."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] http://www.zlzpeptide.com/aboutus.asp?title=Certificate
+[FETCHED_AT] 2026-05-08T08:48:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/coa_1.md
+[LINE_RANGE] 27-30
+[QUOTE]
+"  * [Home](index.asp)
+  * Certificate"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] http://www.zlzpeptide.com/productshow.asp?id=350
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__retatrutide-10mg.md
+[LINE_RANGE] 55-136
+[QUOTE]
+"[Send email to us](javascript:;)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] http://www.zlzpeptide.com/productshow.asp?id=350
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__retatrutide-10mg.md
+[LINE_RANGE] 70-120
+[QUOTE]
+"## HOT-SALE PRODUCT
+
+Quality First, Safety Guaranteed
+
+  * [](productshow.asp?id=350 "Retatrutide 10mg")
+
+### [Retatrutide 10mg](productshow.asp?id=350 "Retatrutide 10mg")"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] http://www.zlzpeptide.com/productshow.asp?id=350
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__retatrutide-10mg.md
+[LINE_RANGE] 61-61
+[QUOTE]
+"This PRODUCT IS INTENDED AS A RESEARCH CHEMICAL ONLY. This designation allows the use of research chemicals strictly for in vitro testing and laboratory experimentation only."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/homepage.md
+[LINE_RANGE] 8-155
+[QUOTE]
+"Quality First, Safety Guaranteed"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/homepage.md
+[LINE_RANGE] 8-155
+[QUOTE]
+"Quality First, Safety Guaranteed"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] http://www.zlzpeptide.com/productshow.asp?id=350
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__retatrutide-10mg.md
+[LINE_RANGE] 52-52
+[QUOTE]
+"* _Shipping way:_ DHL/USPS/FEDEX/TNT"
+[/QUOTE]
+[URL] http://www.zlzpeptide.com/aboutus.asp?title=About%20Us
+[FETCHED_AT] 2026-05-08T08:48:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/aboutus.md
+[LINE_RANGE] 39-39
+[QUOTE]
+"We Supply Free of customs clearance, Double Clearance 100% pass delivery to USA, Canada, Australia,Poland, Italy, Sweden, UK, Czech Republic, Spain, Germany, Netherlands, Mexico, Russia, Ukraine, Kazakhstan.Door to door service."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] http://www.zlzpeptide.com/productshow.asp?id=350
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__retatrutide-10mg.md
+[LINE_RANGE] 51-51
+[QUOTE]
+"* _Payment terms:_ USDT,Western Union,Bitcion,Money gram,Bank transfer for your choice."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] http://www.zlzpeptide.com/productshow.asp?id=350
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__retatrutide-10mg.md
+[LINE_RANGE] 52-52
+[QUOTE]
+"* _Shipping way:_ DHL/USPS/FEDEX/TNT"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] http://www.zlzpeptide.com/aboutus.asp?title=About%20Us
+[FETCHED_AT] 2026-05-08T08:48:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/aboutus.md
+[LINE_RANGE] 39-39
+[QUOTE]
+"We Supply Free of customs clearance, Double Clearance 100% pass delivery to USA, Canada, Australia,Poland, Italy, Sweden, UK, Czech Republic, Spain, Germany, Netherlands, Mexico, Russia, Ukraine, Kazakhstan.Door to door service."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:48:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/source_homepage.md
+[LINE_RANGE] 19-19
+[QUOTE]
+"X-Powered-By: ASP.NET"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:48:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/source_homepage.md
+[LINE_RANGE] 10-10
+[QUOTE]
+"Server: wts/1.7.0"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:48:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/source_homepage.md
+[LINE_RANGE] 22-220
+[QUOTE]
+"HTML Source (first 200 lines):"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:48:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/source_homepage.md
+[LINE_RANGE] 22-220
+[QUOTE]
+"HTML Source (first 200 lines):"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:48:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/source_homepage.md
+[LINE_RANGE] 22-220
+[QUOTE]
+"HTML Source (first 200 lines):"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] http://www.zlzpeptide.com/conews.asp
+[FETCHED_AT] 2026-05-08T08:48:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/blog_1.md
+[LINE_RANGE] 28-38
+[QUOTE]
+"#### News
+
+  * [Company News](conews.asp?bigclassname=Company News)
+  * [Industrial News](conews.asp?bigclassname=Industrial News)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] http://www.zlzpeptide.com/conews.asp
+[FETCHED_AT] 2026-05-08T08:48:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/blog_1.md
+[LINE_RANGE] 2-2
+[QUOTE]
+"url: http://www.zlzpeptide.com/conews.asp"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] http://www.zlzpeptide.com/conews.asp
+[FETCHED_AT] 2026-05-08T08:48:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/blog_1.md
+[LINE_RANGE] 42-47
+[QUOTE]
+"  * ### [HELLO,JUNE,SHANGHAI HAS BEEN UNBLOCKED!FROM JUNE 1ST, SHANGHAI WILL FULLY RESUME NORMAL PRODUCTION AND LIFE ORDER.](shownews.asp?id=54)
+
+by admin on 2008-09-30"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] http://www.zlzpeptide.com/conews.asp
+[FETCHED_AT] 2026-05-08T08:48:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/blog_1.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"by admin on 2008-09-30"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] http://www.zlzpeptide.com/conews.asp
+[FETCHED_AT] 2026-05-08T08:48:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/blog_1.md
+[LINE_RANGE] 31-35
+[QUOTE]
+"  * [Company News](conews.asp?bigclassname=Company News)
+  * [Industrial News](conews.asp?bigclassname=Industrial News)"
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] http://www.zlzpeptide.com/conews.asp
+[FETCHED_AT] 2026-05-08T08:48:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/blog_1.md
+[LINE_RANGE] 8-55
+[QUOTE]
+"[Hot Products](product.asp)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] http://www.zlzpeptide.com/productshow.asp?id=350
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__retatrutide-10mg.md
+[LINE_RANGE] 55-136
+[QUOTE]
+"[Send email to us](javascript:;)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/homepage.md
+[LINE_RANGE] 8-155
+[QUOTE]
+"Quality First, Safety Guaranteed"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/homepage.md
+[LINE_RANGE] 8-155
+[QUOTE]
+"Quality First, Safety Guaranteed"
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/homepage.md
+[LINE_RANGE] 8-155
+[QUOTE]
+"Quality First, Safety Guaranteed"
+[/QUOTE]
+
+[CLAIM] skus[0].list_price_usd (Retatrutide 10mg)
+[URL] http://www.zlzpeptide.com/productshow.asp?id=350
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__retatrutide-10mg.md
+[LINE_RANGE] 48-51
+[QUOTE]
+"* _MOQ:_ 10vials/1 box
+* _Package:_ $280/box
+* _Brand:_ zlzpeptide
+* _Payment terms:_ USDT,Western Union,Bitcion,Money gram,Bank transfer for your choice."
+[/QUOTE]
+
+[CLAIM] skus[1].list_price_usd (Retatrutide 15mg)
+[URL] http://www.zlzpeptide.com/productshow.asp?id=362
+[FETCHED_AT] 2026-05-08T08:48:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__retatrutide-15mg.md
+[LINE_RANGE] 48-51
+[QUOTE]
+"* _MOQ:_ 10vials/1 box
+* _Package:_ $420/box
+* _Brand:_ zlzpeptide
+* _Payment terms:_ USDT,Western Union,Bitcion,Money gram,Bank transfer for your choice."
+[/QUOTE]
+
+[CLAIM] skus[2].list_price_usd (Semaglutide 10mg)
+[URL] http://www.zlzpeptide.com/productshow.asp?id=349
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__semaglutide-10mg.md
+[LINE_RANGE] 48-51
+[QUOTE]
+"* _MOQ:_ 10vials/1 box
+* _Package:_ $140/box
+* _Brand:_ zlzpeptide
+* _Payment terms:_ USDT,Western Union,Bitcion,Money gram,Bank transfer for your choice."
+[/QUOTE]
+
+[CLAIM] skus[3].list_price_usd (GHK-CU 50mg)
+[URL] http://www.zlzpeptide.com/productshow.asp?id=364
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__ghk-cu-50mg.md
+[LINE_RANGE] 48-51
+[QUOTE]
+"* _MOQ:_ 10vials/1 box
+* _Package:_ $35/box
+* _Brand:_ zlzpeptide
+* _Payment terms:_ USDT,Western Union,Bitcion,Money gram,Bank transfer for your choice."
+[/QUOTE]
+
+[CLAIM] skus[4].list_price_usd (PT-141 10mg)
+[URL] http://www.zlzpeptide.com/productshow.asp?id=352
+[FETCHED_AT] 2026-05-08T08:48:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/product_1__pt-141-10mg.md
+[LINE_RANGE] 48-51
+[QUOTE]
+"* _MOQ:_ 10vials/1 box
+* _Package:_ $70/box
+* _Brand:_ zlzpeptide
+* _Payment terms:_ USDT,Western Union,Bitcion,Money gram,Bank transfer for your choice."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] http://www.zlzpeptide.com/
+[FETCHED_AT] 2026-05-08T08:48:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zlz-peptide/source_homepage.md
+[LINE_RANGE] 83-88
+[QUOTE]
+swiper-slide"> <a href=""> <img src="static/picture/banner14.jpg" alt="banner1"></a></div>
+[/QUOTE]

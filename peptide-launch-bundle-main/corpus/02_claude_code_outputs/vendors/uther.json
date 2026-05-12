@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "uther",
+  "brand_name": "Uther",
+  "primary_domain": "https://uther.com",
+
+  "fetched_url": "https://uther.com",
+  "fetched_at": "2026-05-08T04:44:00Z",
+  "fetch_status": "failed",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed)",
+  "field_completion_ratio": 0.10,
+
+  "country_of_operation": "uncertain",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "uncertain",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "uncertain"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": [],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": [],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": [],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": [],
+    "shipping_carriers": [],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "unknown",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": [],
+    "marketing_pixels_present": [],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": [],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": [],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "uther,Uther,uther.com,China,China,US+Intl,Uncertain,Active,Third-party (Finnrick),\"BPC-157, CJC-1295\",Wholesale,Y (Finnrick),May 2026,3,Tier 3: Chinese B2B API supplier."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/uther/",
+  "evidence_file": "evidence/uther.txt",
+  "uncertainty_notes": "All content fields uncertain. uther.com has no A record (DNS shows Cloudflare NS + ProtonMail MX records only — domain is live/registered but no web server is pointed at it). Three fetch attempts exhausted: (1) curl — exit code 6, DNS resolution failure, no A record; (2) gstack:browse — Chromium sandbox failure in root environment (not a site-level block); (3) archive.org CDX API confirms only 3 snapshots for uther.com domain, all from 2007-2009, showing a GoDaddy parked-domain page. No peptide vendor content has ever been archived at uther.com. The vendor_list.csv row describes this as a Tier 3 Chinese B2B API supplier with Finnrick as third-party intermediary, but no public-facing website exists. SKU array empty — no product pages reachable. All schema fields requiring a live or archived site are uncertain."
+}

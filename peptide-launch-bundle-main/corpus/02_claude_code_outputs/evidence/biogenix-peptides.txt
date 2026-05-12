@@ -1,0 +1,526 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:44:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/homepage.md
+[LINE_RANGE] 35-37
+[QUOTE]
+"## Research Use Only
+
+Driven by Science. Defined by Purity."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:44:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/homepage.md
+[LINE_RANGE] 39
+[QUOTE]
+"[shop now __](https://biogenixpeptides.com/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:44:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/homepage.md
+[LINE_RANGE] 211
+[QUOTE]
+"BioGenix Peptides sells products strictly for research, laboratory, and analytical use. These products are not for human or animal consumption. BioGenix Peptides is a chemical supplier and is not a compounding pharmacy or a chemical compounding facility under section 503A of the Federal Food, Drug, and Cosmetic Act. BioGenix Peptides is also not an outsourcing facility under section 503B. The statements on this website have not been evaluated by the US Food and Drug Administration. Nothing offered by BioGenix Peptides is intended to diagnose, treat, cure, or prevent any disease."
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:44:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/homepage.md
+[LINE_RANGE] 22-29
+[QUOTE]
+"  * [Home](/)
+  * [About Us](https://biogenixpeptides.com/about/)
+    * [FAQ](https://biogenixpeptides.com/faq/)
+  * [Shop](https://biogenixpeptides.com/shop/)
+    * [View All](https://biogenixpeptides.com/shop/)
+    * [Best Sellers](https://biogenixpeptides.com/best-sellers/)
+  * [Research Library](https://biogenixpeptides.com/blog/)
+  * [Contact Us](https://biogenixpeptides.com/contact-us/)"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://biogenixpeptides.com/contact-us/
+[FETCHED_AT] 2026-05-07T19:47:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/contact.md
+[LINE_RANGE] 46-47
+[QUOTE]
+"#### 54 State Street, STE 804
+Albany, NY 12207"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://biogenixpeptides.com/faq/
+[FETCHED_AT] 2026-05-07T19:47:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/faq.md
+[LINE_RANGE] 42
+[QUOTE]
+"A: Not at this time. BioGenix currently ships within the United States only. As we expand, we may add international options — but for now, all orders must be delivered to U.S. addresses."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://biogenixpeptides.com/faq/
+[FETCHED_AT] 2026-05-07T19:47:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/faq.md
+[LINE_RANGE] 42
+[QUOTE]
+"A: Not at this time. BioGenix currently ships within the United States only. As we expand, we may add international options — but for now, all orders must be delivered to U.S. addresses."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2020
+[REASONING]
+The schema.org JSON-LD embedded in the homepage source HTML records datePublished as "2020-09-11T06:27:32+00:00" for the site root page. This is the earliest publication date for the primary domain and is the best available signal for site/business launch year, as no explicit founding year is stated in the About page or any other rendered page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:47:15Z
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/source_homepage.md
+[LINE_RANGE] 488
+"datePublished":"2020-09-11T06:27:32+00:00"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biogenixpeptides.com/about/
+[FETCHED_AT] 2026-05-07T19:44:30Z
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/about.md
+[LINE_RANGE] 35
+"BioGenix Peptides™ was founded with a singular focus: to advance the standard of research-grade peptide science through transparency, precision, and integrity."
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://biogenixpeptides.com/shop/
+[FETCHED_AT] 2026-05-07T19:44:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/catalog_1.md
+[LINE_RANGE] 238-241
+[QUOTE]
+"  * 1
+  * [2](https://biogenixpeptides.com/shop/page/2/)
+  * [3](https://biogenixpeptides.com/shop/page/3/)
+  * [4](https://biogenixpeptides.com/shop/page/4/)"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://biogenixpeptides.com/shop/
+[FETCHED_AT] 2026-05-07T19:44:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/catalog_1.md
+[LINE_RANGE] 47-58
+[QUOTE]
+"  * [Aesthetic](https://biogenixpeptides.com/product-category/aesthetic/)
+  * [Bioregulator](https://biogenixpeptides.com/product-category/bioregulator/)
+  * [Cognitive](https://biogenixpeptides.com/product-category/cognitive/)
+  * [Featured](https://biogenixpeptides.com/product-category/featured/)
+  * [GLP-1](https://biogenixpeptides.com/product-category/glp-1/)
+  * [Immune](https://biogenixpeptides.com/product-category/immune/)
+  * [Longevity](https://biogenixpeptides.com/product-category/longevity/)
+  * [Metabolic](https://biogenixpeptides.com/product-category/metabolic/)
+  * [Performance](https://biogenixpeptides.com/product-category/performance/)
+  * [Recovery](https://biogenixpeptides.com/product-category/recovery/)
+  * [Synergy Series](https://biogenixpeptides.com/product-category/synergy-series/)
+  * [Uncategorized](https://biogenixpeptides.com/product-category/uncategorized/)
+  * [Vitality](https://biogenixpeptides.com/product-category/vitality/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://biogenixpeptides.com/shop/
+[FETCHED_AT] 2026-05-07T19:44:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/catalog_1.md
+[LINE_RANGE] 195-199
+[QUOTE]
+"  * [Shop All](https://biogenixpeptides.com/shop/)
+  * [Best Sellers](https://biogenixpeptides.com/best-sellers/)
+  * [Synergy Series](https://biogenixpeptides.com/?page_id=841)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://biogenixpeptides.com/shop/recovery/bpc-157-body-protection-compound-157-10mg/
+[FETCHED_AT] 2026-05-07T19:45:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 37-38
+[QUOTE]
+"# BPC-157 10mg
+
+$72.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://biogenixpeptides.com/shop/recovery/bpc-157-body-protection-compound-157-10mg/
+[FETCHED_AT] 2026-05-07T19:45:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 41
+[QUOTE]
+"BPC-157, or Body Protection Compound-157, is a synthetic pentadecapeptide derived from a protective protein found in gastric juice. Originally isolated from gastric secretions, this 15-amino acid sequence has been extensively studied in preclinical research for its potential effects on tissue repair, angiogenesis, and cellular protection mechanisms. Research interest centers on its interaction with growth factor pathways and its reported influence on wound healing processes at the molecular level."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://biogenixpeptides.com/shop/recovery/bpc-157-body-protection-compound-157-10mg/
+[FETCHED_AT] 2026-05-07T19:45:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 128-130
+[QUOTE]
+"Products from BioGenix Peptides™ are not intended for human consumption. They are supplied exclusively for in-vitro and pre-clinical research purposes.
+
+By purchasing or using these products, the Customer accepts full responsibility for their handling and use, and agrees to indemnify and hold BioGenix Peptides™ harmless from any claims resulting from misuse."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://biogenixpeptides.com/shop/recovery/bpc-157-body-protection-compound-157-10mg/
+[FETCHED_AT] 2026-05-07T19:45:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 134
+[QUOTE]
+"[ Download Certificate ](https://biogenixpeptides.com/wp-content/uploads/2025/11/BPC-157-10MG-COA-2025.pdf) [ Open in New Tab ](https://biogenixpeptides.com/wp-content/uploads/2025/11/BPC-157-10MG-COA-2025.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://biogenixpeptides.com/shop/recovery/bpc-157-body-protection-compound-157-10mg/
+[FETCHED_AT] 2026-05-07T19:45:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 136
+[QUOTE]
+"## Related products"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://biogenixpeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T19:46:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/tos.md
+[LINE_RANGE] 43
+[QUOTE]
+"All BioGenix products are FOR LABORATORY, ACADEMIC, AND IN-VITRO RESEARCH ONLY. Not for human or veterinary use."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:44:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/homepage.md
+[LINE_RANGE] 277-282
+[QUOTE]
+"**I am a researcher and agree to the following:** I confirm that I am a qualified researcher or laboratory professional and that all products purchased from BioGenix Peptides are intended for laboratory and research use only. I understand that all compounds are NOT for human use and are not intended for diagnostic, therapeutic, or any other use in humans or animals."
+[/QUOTE]
+[URL] https://biogenixpeptides.com/faq/
+[FETCHED_AT] 2026-05-07T19:47:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/faq.md
+[LINE_RANGE] 86
+[QUOTE]
+"A: Yes — you must be 21 years or older to purchase from BioGenix."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:44:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/homepage.md
+[LINE_RANGE] 204
+[QUOTE]
+"  * [Terms and Conditions](/terms-and-conditions)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://biogenixpeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T19:46:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/tos.md
+[LINE_RANGE] 43-60
+[QUOTE]
+"All BioGenix products are FOR LABORATORY, ACADEMIC, AND IN-VITRO RESEARCH ONLY. Not for human or veterinary use.
+
+You agree that you are a qualified researcher and will handle products responsibly.
+
+* * *
+
+## Eligibility
+
+To purchase, you must:
+
+  * Be 18 or older
+  * Purchase only for lawful research use
+  * Provide accurate information"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://biogenixpeptides.com/refund-policy/
+[FETCHED_AT] 2026-05-07T19:46:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/refund.md
+[LINE_RANGE] 37-64
+[QUOTE]
+"At BioGenix Peptides™, we prioritize quality and precision. Due to the sensitive nature of research chemicals, all sales are final.
+
+## No Returns
+
+We cannot accept returns of:
+
+  * Opened products
+  * Unopened products
+  * Temperature-sensitive materials
+  * Any research-grade chemicals
+
+## Eligibility for Replacement or Store Credit
+
+We may issue a replacement or credit if:
+
+  * Wrong item received
+  * Product arrived damaged
+  * Package lost in transit (verified with the carrier)
+
+You must notify us within 72 hours of delivery with supporting evidence including photos, order number, and a description."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://biogenixpeptides.com/faq/
+[FETCHED_AT] 2026-05-07T19:47:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/faq.md
+[LINE_RANGE] 40-50
+[QUOTE]
+"A: All orders ship within 1–3 business days after payment is confirmed. Orders placed before 2:00 PM EST ship the same day.
+
+How long does shipping take?
+
+A: Standard delivery within the U.S. is typically 2–9 business days, depending on your location and your selected shipping option."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[INFERENCE] ["iPosPays (Google Pay)", "iPosPays (Apple Pay)", "Amazon Pay", "PayPal", "WooCommerce Payments (credit/debit card)"]
+[REASONING]
+The homepage HTML source contains WooCommerce payment gateway plugin CSS and JavaScript references. The iPosPays gateway is loaded via script tags for gpay.js (Google Pay) and ipospays-apple-pay.js (Apple Pay). Amazon Payments Advanced plugin CSS is loaded. WooCommerce ppcp-gateway (PayPal) payment box CSS is present. WooCommerce Payments CSS is loaded. No card-brand specific names (Visa, Mastercard) visible in rendered text but WooCommerce Payments typically accepts major cards.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:47:15Z
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/source_homepage.md
+[LINE_RANGE] 488
+"woocommerce-gateway-amazon-payments-advanced"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:47:15Z
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/source_homepage.md
+[LINE_RANGE] 488
+"src="https://payment.ipospays.com/ftd/v1/gpay.js""
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:44:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/homepage.md
+[LINE_RANGE] 71
+[QUOTE]
+"Same Day Shipping on Orders Before 2pm EST. Free Shipping on Orders Over $200"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://biogenixpeptides.com/faq/
+[FETCHED_AT] 2026-05-07T19:47:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/faq.md
+[LINE_RANGE] 40-42
+[QUOTE]
+"Do you Ship Internationally ?
+
+A: Not at this time. BioGenix currently ships within the United States only. As we expand, we may add international options — but for now, all orders must be delivered to U.S. addresses."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The product pages use WooCommerce add-to-cart URL patterns (/?add-to-cart=ID) and the homepage HTML source contains WooCommerce JavaScript parameters (woocommerce_params, wc_add_to_cart_params) and multiple WooCommerce plugin CSS/JS references. WordPress is confirmed by wp-content URL paths visible in rendered text.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biogenixpeptides.com/shop/recovery/bpc-157-body-protection-compound-157-10mg/
+[FETCHED_AT] 2026-05-07T19:45:00Z
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 34
+"[](https://biogenixpeptides.com/wp-content/uploads/2025/11/BPC.jpg)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:47:15Z
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/source_homepage.md
+[LINE_RANGE] 488
+"woocommerce-inline-inline-css"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] cloudflare
+[REASONING]
+The homepage HTML source contains a Cloudflare challenge-platform script loaded from /cdn-cgi/challenge-platform/scripts/jsd/main.js, which is a Cloudflare-specific endpoint. Additionally, the __CF$cv$params JavaScript variable is a known Cloudflare bot management signal, confirming Cloudflare as the CDN and security layer.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:47:15Z
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/source_homepage.md
+[LINE_RANGE] 4180
+"a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js'"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:47:15Z
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/source_homepage.md
+[LINE_RANGE] 4180
+"window.__CF$cv$params={r:'9f82bcd4bc212201'"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] ["Google Analytics GA4 (G-ZVSNEKLHYT)"]
+[REASONING]
+The homepage HTML source contains a Google Tag Manager/gtag script loading G-ZVSNEKLHYT, confirming GA4 is active. The gtag config call with measurement ID G-ZVSNEKLHYT is present.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:47:15Z
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/source_homepage.md
+[LINE_RANGE] 488
+"<!-- Google tag (gtag.js) -->"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:47:15Z
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/source_homepage.md
+[LINE_RANGE] 488
+"gtag('config', 'G-ZVSNEKLHYT')"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE] ["Meta/Facebook Pixel (1219726330086095)"]
+[REASONING]
+The homepage HTML source contains standard Facebook Pixel JavaScript initialisation including fbq init with pixel ID 1219726330086095 and fbq track PageView call, confirming Meta Pixel is active.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:47:15Z
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/source_homepage.md
+[LINE_RANGE] 488
+"fbq('init', '1219726330086095')"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:47:15Z
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/source_homepage.md
+[LINE_RANGE] 488
+"fbq('track', 'PageView')"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://biogenixpeptides.com/blog/
+[FETCHED_AT] 2026-05-07T19:47:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/blog_1.md
+[LINE_RANGE] 33
+[QUOTE]
+"## BioGenix Insights"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://biogenixpeptides.com/blog/
+[FETCHED_AT] 2026-05-07T19:47:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/blog_1.md
+[LINE_RANGE] 70-80
+[QUOTE]
+"__[May 7, 2026](https://biogenixpeptides.com/purity-is-only-the-beginning-why-bioavailability-may-be-the-real-standard-in-peptide-quality/)
+
+...
+
+__[May 6, 2026](https://biogenixpeptides.com/fast-peptide-shipping-usa-a-guide-to-ground-and-express-delivery/)
+
+...
+
+__[May 5, 2026](https://biogenixpeptides.com/the-complete-guide-to-peptide-blends/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://biogenixpeptides.com/blog/
+[FETCHED_AT] 2026-05-07T19:47:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/blog_1.md
+[LINE_RANGE] 44-62
+[QUOTE]
+"  * [Anti Againg & Beauty](https://biogenixpeptides.com/category/anti-againg-beauty/) (13)
+  * [Bioregulator](https://biogenixpeptides.com/category/bioregulator/) (8)
+  * [Buying Guide](https://biogenixpeptides.com/category/buying-guide/) (10)
+  * [Cognitive & Nootropic](https://biogenixpeptides.com/category/cognitive-nootropic/) (10)
+  * [FAQs](https://biogenixpeptides.com/category/faqs/) (1)
+  * [GLP-1](https://biogenixpeptides.com/category/glp-1/) (16)
+  * [Healing & Recovery](https://biogenixpeptides.com/category/healing-recovery/) (9)
+  * [HPLC & MS Analysis](https://biogenixpeptides.com/category/hplc-ms-analysis/) (2)
+  * [Immune](https://biogenixpeptides.com/category/immune/) (6)
+  * [Longevity](https://biogenixpeptides.com/category/longevity/) (21)
+  * [Metabolic & Weight Loss](https://biogenixpeptides.com/category/metabolic-weight-loss/) (22)
+  * [Muscle Growth & Performance](https://biogenixpeptides.com/category/muscle-growth-performance/) (6)
+  * [Peptide Basics](https://biogenixpeptides.com/category/peptide-basics/) (12)
+  * [Peptide Synthesis](https://biogenixpeptides.com/category/peptide-synthesis/) (10)
+  * [Peptides in Scientific Research](https://biogenixpeptides.com/category/peptides-in-scientific-research/) (36)
+  * [Research Guide](https://biogenixpeptides.com/category/research-guide/) (16)
+  * [Sexual Health & Hormonal](https://biogenixpeptides.com/category/sexual-health-hormonal/) (5)
+  * [Usage & Handling](https://biogenixpeptides.com/category/usage-handling/) (18)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://biogenixpeptides.com
+[FETCHED_AT] 2026-05-07T19:44:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/homepage.md
+[LINE_RANGE] 199
+[QUOTE]
+"  * [Best Sellers](https://biogenixpeptides.com/best-sellers/)"
+[/QUOTE]
+[NOTE] Trustpilot page at https://www.trustpilot.com/review/biogenixpeptides.com returned HTTP 403 on direct fetch; cannot provide verbatim quote per Rule 6. Existence confirmed via search engine result title only. social_proof.off_site_aggregators field value is based on URL discovery only.
+
+[CLAIM] skus[*].list_price_usd (catalog enumeration)
+[URL] https://biogenixpeptides.com/shop/
+[FETCHED_AT] 2026-05-07T19:44:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/catalog_1.md
+[LINE_RANGE] 70-240
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/biogenix-peptides/catalog_*.md: 4 catalog pages fetched.
+[FILES]
+catalog_1.md (page 1: products A-E approx 20 items)
+catalog_2.md (page 2: products E-M approx 20 items)
+catalog_3.md (page 3: products M-S approx 20 items)
+catalog_4.md (page 4: products S-V approx 13 items + accessories)
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://biogenixpeptides.com/shop/recovery/bpc-157-body-protection-compound-157-10mg/
+[FETCHED_AT] 2026-05-07T19:45:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 34
+[QUOTE]
+"[](https://biogenixpeptides.com/wp-content/uploads/2025/11/BPC.jpg)"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://biogenixpeptides.com/contact-us/
+[FETCHED_AT] 2026-05-07T19:47:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/biogenix-peptides/contact.md
+[LINE_RANGE] 65
+[QUOTE]
+"#### [ Chat on WhatsApp ](https://wa.me/15857890128?text=Hi%20BioGenix%20Support%2C%20I%20have%20a%20question)"
+[/QUOTE]

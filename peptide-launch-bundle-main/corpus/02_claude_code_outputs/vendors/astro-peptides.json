@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "astro-peptides",
+  "brand_name": "Astro Peptides",
+  "primary_domain": "https://astropeptides.com",
+
+  "fetched_url": "https://astropeptides.com/",
+  "fetched_at": "2026-05-07T17:04:54Z",
+  "fetch_status": "partial",
+
+  "tier": "3",
+  "tier_rationale": "Downgraded from seed Tier 2 assignment. The discovery source classified this vendor as 'Tier 2: Top-rated Finnrick vendor' with third-party Finnrick COAs, GLP-1s, and Ipamorelin. However, profiling reveals astropeptides.com is a pre-launch placeholder site with zero published products (WooCommerce store API returns empty array []), a shop page that explicitly states 'Our store is in the works and will be launching soon!', no live product URLs, no COA pages, no pricing, and no actual peptide SKUs anywhere on the site. The Finnrick vendor claim cannot be verified against any observable site data. The site has four generic AI-generated blog posts from March 2025 and a Lorem ipsum-filled jewelry template with placeholder text throughout the homepage. No evidence of any transactional activity or real product catalog. Tier 3 baseline profile is the maximum justifiable depth.",
+  "field_completion_ratio": 0.42,
+
+  "country_of_operation": "uncertain",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "2025",
+
+  "homepage": {
+    "hero_copy_excerpt": "Astro Peptides Top-Tier Peptides",
+    "hero_imagery_style": "other",
+    "primary_cta": "View All Products",
+    "navigation_pattern": "Top nav: Home, About, Shop, Blog, Contact. Footer: X, YouTube, Instagram social links (all placeholder URLs).",
+    "footer_disclaimers": "Copyright © 2023 | WordPress Theme by SuperbThemes"
+  },
+
+  "catalog": {
+    "sku_count": 0,
+    "category_taxonomy": [],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "false"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": [],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "false",
+    "coa_hosting": "none",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "false",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "false"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "none",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": [],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": [],
+    "shipping_carriers": [],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "hcdn (Hostinger CDN)",
+    "analytics_tools_loaded": [],
+    "marketing_pixels_present": [],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://astropeptides.com/resources/",
+    "content_cadence": "4 posts published March 7-8, 2025; none since",
+    "topic_taxonomy": ["research peptides overview", "platform introduction", "quality/lab-testing claims"],
+    "author_bylines_present": "true",
+    "internal_linking_to_products": "Blog posts link to shop page but shop has no products"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": [],
+    "testimonial_usage": "Homepage contains Lorem ipsum placeholder testimonial text attributed to fictional personas (Pauline Gilbert, Sophie Hanson, John Doe). No real reviews.",
+    "visible_influencer_endorsements": "none"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "astro-peptides, Astro Peptides, astropeptides.com, 2, Tier 2: Top-rated Finnrick vendor (third-party Finnrick COAs, GLP-1s, Ipamorelin)"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/astro-peptides/",
+  "evidence_file": "evidence/astro-peptides.txt",
+  "uncertainty_notes": "SITE STATUS: Pre-launch placeholder as of 2026-05-07. Shop page states 'Our store is in the works and will be launching soon!' and WooCommerce Store API returns empty product array []. TIER DOWNGRADE: Seed classified as Tier 2 (top-rated Finnrick vendor with COAs, GLP-1s, Ipamorelin) but no products, COAs, or any transactional capability exist. Downgraded to Tier 3. FIELDS UNCERTAIN due to no product catalog: sample_product_url, sample_product_name, dose_options, list_price, per_mg_cost, photographic_treatment, description_copy_excerpt, exact_disclaimer_language, lab_partner_named, research_use_only_phrasing, tos_url, tos_highlights, refund_policy, shipping_policy, account_required, guest_checkout_available, id_verification_present, payment_methods_accepted, shipping_carriers, shipping_cost_structure, international_policy, country_of_operation, fulfillment_country, ship_to_scope. HOMEPAGE: Contains Lorem ipsum text in multiple sections (testimonials, feature blocks) indicating an unfinished jewelry e-commerce template repurposed for a peptide brand. Support page (astropeptides.com/support/) links to Hostinger's own social media accounts (facebook.com/Hostinger, instagram.com/hostinger_global) suggesting the site was built using a Hostinger template and those links were never updated. BLOG AUTHOR: All 4 blog posts authored by hadi.bensouda@gmail.com. Blog post 1 references 'mobpeptides.net' as a comparable platform. COPYRIGHT: Footer says 2023 but blog posts dated March 2025. NO ANALYTICS: No Google Analytics, no GTM, no FB pixel, no any marketing tracking found in source HTML. WC_VERSION: 10.3.8. WP_VERSION: 6.7.5. FINNRICK_CONNECTION: Cannot be verified — no products, COAs, or vendor relationships are publicly visible."
+}

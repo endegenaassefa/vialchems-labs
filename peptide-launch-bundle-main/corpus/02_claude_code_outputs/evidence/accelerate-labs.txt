@@ -1,0 +1,323 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://accelerate-labs.us/
+[FETCHED_AT] 2026-05-07T19:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/homepage.md
+[LINE_RANGE] 102-106
+[QUOTE]
+"High-Purity, USA-Made"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://accelerate-labs.us/
+[FETCHED_AT] 2026-05-07T19:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/homepage.md
+[LINE_RANGE] 108-108
+[QUOTE]
+"[ Browse Peptide Catalog ](https://accelerate-labs.us/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://accelerate-labs.us/
+[FETCHED_AT] 2026-05-07T19:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/homepage.md
+[LINE_RANGE] 14-28
+[QUOTE]
+"  * [Shop Peptides](https://accelerate-labs.us/shop/)
+  * [Track Order](https://adminaftershipdu9k.aftership.com/)
+  * [Company Information](https://accelerate-labs.us/about-accelerte/)
+  * [Contact](https://accelerate-labs.us/contact/)
+  * [FAQ](https://accelerate-labs.us/faq/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://accelerate-labs.us/
+[FETCHED_AT] 2026-05-07T19:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/homepage.md
+[LINE_RANGE] 808-808
+[QUOTE]
+"DISCLAIMER: Not for human consumption of any kind. Intended for research & lab use only. These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease."
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://accelerate-labs.us/about-accelerte/
+[FETCHED_AT] 2026-05-07T19:33:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/about.md
+[LINE_RANGE] 102-102
+[QUOTE]
+"## Supporting Scientific Research Since 2019"
+[/QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country
+[URL] https://accelerate-labs.us/shipping-returns/
+[FETCHED_AT] 2026-05-07T19:33:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/shipping.md
+[LINE_RANGE] 124-124
+[QUOTE]
+"## Our research products ship from Florida & Nevada."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://accelerate-labs.us/shipping-returns/
+[FETCHED_AT] 2026-05-07T19:33:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/shipping.md
+[LINE_RANGE] 152-152
+[QUOTE]
+"## At this time we do not ship outside of the United States, nor do we ship to U.S. Territories including Puerto Rico and the U.S. Virgin Islands. In addition, we cannot ship to U.S. Military bases. All orders placed with these delivery locations will be canceled and refunded."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named / product_page_anatomy.coa_present / product_page_anatomy.coa_hosting
+[URL] https://accelerate-labs.us/3rd-party-testing/
+[FETCHED_AT] 2026-05-07T19:33:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/coa_1.md
+[LINE_RANGE] 106-112
+[QUOTE]
+"At Accelerate Labs, we take the integrity of our research peptides seriously. That’s why every batch undergoes rigorous 3rd party testing in the USA to ensure the highest standards of purity and quality before they are made available for purchase. We’ve partnered with [**MZ Biolabs**](https://www.mzbiolabs.com/), a trusted, DEA schedule III licensed facility, to handle our Certificates of Analysis (COAs) and verify that each product meets the specifications required for research."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://accelerate-labs.us/product/%f0%9f%a7%ac-bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:33:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/product_1__bpc-157-5mg.md
+[LINE_RANGE] 165-167
+[QUOTE]
+"This product arrives as a lyophilized powder. Researchers are responsible for reconstitution of all research products. Bacteriostatic water sold separately. We do not offer syringes for sale or provide instructions on mixing, dosing or protocol.This product is strictly intended for research use only. Limited to in vitro testing and laboratory experimentation. It is not for human or animal use or consumption of any kind. Handling is restricted to licensed, qualified professionals only. This product is not classified as a drug, food, or cosmetic and must not be misbranded, misused, or mislabeled as such."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price / product_page_anatomy.sample_product_name
+[URL] https://accelerate-labs.us/product/%f0%9f%a7%ac-bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:33:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/product_1__bpc-157-5mg.md
+[LINE_RANGE] 110-112
+[QUOTE]
+"# BPC-157 5MG
+
+$54.99"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://accelerate-labs.us/
+[FETCHED_AT] 2026-05-07T19:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/homepage.md
+[LINE_RANGE] 754-775
+[QUOTE]
+"This product is for **laboratory research use only**. Not for human or animal consumption, medical, or diagnostic purposes. All research must be conducted by qualified professionals in controlled settings."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://accelerate-labs.us/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:33:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/tos.md
+[LINE_RANGE] 120-130
+[QUOTE]
+"  5. You are not a minor in your jurisdiction and at least 21 years of age or older when accessing/using this website."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://accelerate-labs.us/shipping-returns/
+[FETCHED_AT] 2026-05-07T19:33:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/shipping.md
+[LINE_RANGE] 152-152
+[QUOTE]
+"## At this time we do not ship outside of the United States, nor do we ship to U.S. Territories including Puerto Rico and the U.S. Virgin Islands. In addition, we cannot ship to U.S. Military bases. All orders placed with these delivery locations will be canceled and refunded."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / trust_compliance.tos_highlights
+[URL] https://accelerate-labs.us/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:33:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/tos.md
+[LINE_RANGE] 130-143
+[QUOTE]
+"By agreeing to our terms & conditions, and purchasing from the Site, you agree that you are at least 21 years of age or older and meet one of the following eligibility requirements:
+
+  1. You are an independent professional research analyst, or
+  2. You represent an organization involved in research and development."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://accelerate-labs.us/shipping-returns/
+[FETCHED_AT] 2026-05-07T19:33:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/shipping.md
+[LINE_RANGE] 162-162
+[QUOTE]
+"## Due to the nature of the product, all sales are final, and we do not accept returns. In the rare event your product arrives damaged or appears to be incorrect, please contact us at [[email protected]] within 7 days of delivery to notify us of the issue."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://accelerate-labs.us/shipping-returns/
+[FETCHED_AT] 2026-05-07T19:33:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/shipping.md
+[LINE_RANGE] 130-130
+[QUOTE]
+"$15 – USPS Priority Shipping or UPS Ground (Estimated 2-7 business days). $28 – UPS Express (Estimated 2-4 business days). $35 – UPS Express - Alaska & Hawaii (Estimated 2-4 business days). FREE - USPS Priority: All orders valued at $300 or higher."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://accelerate-labs.us/terms-conditions/
+[FETCHED_AT] 2026-05-07T19:33:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/tos.md
+[LINE_RANGE] 143-143
+[QUOTE]
+"We accept all major credit cards. You agree to provide accurate and complete payment information. All prices are in U.S. dollars."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers / checkout_flow.shipping_cost_structure
+[URL] https://accelerate-labs.us/shipping-returns/
+[FETCHED_AT] 2026-05-07T19:33:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/shipping.md
+[LINE_RANGE] 112-112
+[QUOTE]
+"We are not responsible for carrier delays and cannot provide further information outside of what USPS or UPS provides."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://accelerate-labs.us/shipping-returns/
+[FETCHED_AT] 2026-05-07T19:33:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/shipping.md
+[LINE_RANGE] 152-152
+[QUOTE]
+"## At this time we do not ship outside of the United States, nor do we ship to U.S. Territories including Puerto Rico and the U.S. Virgin Islands."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://accelerate-labs.us/
+[FETCHED_AT] 2026-05-07T19:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/source_homepage.md
+[LINE_RANGE] 22-23
+[QUOTE]
+"/*# sourceURL=woocommerce-inline-inline-css */</style>"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://accelerate-labs.us/
+[FETCHED_AT] 2026-05-07T19:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/source_homepage.md
+[LINE_RANGE] 92-92
+[QUOTE]
+{"pixel":{"id":"1471640091258973","settings":{"page_view":""},"data":[],"conversion_api":false,"fb_advanced":[]},"ga":{"id":"G-30SQFWNS28"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://accelerate-labs.us/
+[FETCHED_AT] 2026-05-07T19:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/source_homepage.md
+[LINE_RANGE] 103-103
+[QUOTE]
+https://www.googletagmanager.com/gtag/js?id=GT-PLFNS8L7" id="google_gtagjs-js" async></script>
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://accelerate-labs.us/
+[FETCHED_AT] 2026-05-07T19:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/source_homepage.md
+[LINE_RANGE] 92-92
+[QUOTE]
+{"pixel":{"id":"1471640091258973"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count / catalog.category_taxonomy
+[URL] https://accelerate-labs.us/shop/
+[FETCHED_AT] 2026-05-07T19:33:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/catalog_1.md
+[LINE_RANGE] 8-17
+[QUOTE]
+"    * [Blends](https://accelerate-labs.us/product-category/blends/)
+    * [BPC-157](https://accelerate-labs.us/product-category/bpc-157/)
+    * [CJC-1295](https://accelerate-labs.us/product-category/cjc-1295/)
+    * [AL Analog Peptides](https://accelerate-labs.us/product-category/al-analog-peptides/)
+    * [Growth Hormone Secretagogues](https://accelerate-labs.us/product-category/growth-hormone-secretagogues/)
+    * [Healing & Repair Peptides](https://accelerate-labs.us/product-category/healing-repair-peptides/)
+    * [Laboratory Supplies](https://accelerate-labs.us/product-category/laboratory-supplies/)
+    * [Metabolic & Cellular Compounds](https://accelerate-labs.us/product-category/metabolic-cellular-compounds/)
+    * [Peptide Hormones & Analogs](https://accelerate-labs.us/product-category/peptide-hormones-analogs/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://accelerate-labs.us/shop/
+[FETCHED_AT] 2026-05-07T19:33:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/catalog_1.md
+[LINE_RANGE] 707-709
+[QUOTE]
+"# [BPC-157 5MG, TB-500 5MG (Blend)](https://accelerate-labs.us/product/%f0%9f%a7%ac-bpc-157-5mg-tb-500-5mg-blend/)"
+[/QUOTE]
+
+[CLAIM] skus (headline SKU set and prices)
+[URL] https://accelerate-labs.us/shop/
+[FETCHED_AT] 2026-05-07T19:33:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/catalog_1.md
+[LINE_RANGE] 101-1840
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/accelerate-labs/catalog_1.md:
+31 product listings observed by product name / price extraction.
+[FILES]
+catalog_1.md (lines 101-1840: all product/price pairs extracted)
+product_1__bpc-157-5mg.md (BPC-157 5MG $54.99)
+[/FILES]
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://accelerate-labs.us/product/%f0%9f%a7%ac-bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:33:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/product_1__bpc-157-5mg.md
+[LINE_RANGE] 110-175
+[QUOTE]
+"# BPC-157 5MG
+
+$54.99
+
+52 in stock
+
+BPC-157 5MG quantity
+
+Add to cart"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://accelerate-labs.us/
+[FETCHED_AT] 2026-05-07T19:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/homepage.md
+[LINE_RANGE] 102-108
+[QUOTE]
+"## High-Purity, USA-Made
+
+# Research Peptides & Amino Derivatives
+
+Browse our catalog of highly purified research peptides & blends including BPC-157, TB-500, CJC-1295, Ipamorelin, Sermorelin & more. Rigorously 3rd party tested in the United States."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://accelerate-labs.us/product/%f0%9f%a7%ac-bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:33:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/accelerate-labs/product_1__bpc-157-5mg.md
+[LINE_RANGE] 185-188
+[QUOTE]
+"## Customers Also Bought"
+[/QUOTE]

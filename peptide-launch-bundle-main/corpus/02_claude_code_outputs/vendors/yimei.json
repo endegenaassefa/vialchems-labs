@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "yimei",
+  "brand_name": "Yimei",
+  "primary_domain": "https://www.yimei.com",
+
+  "fetched_url": "https://www.yimei.com",
+  "fetched_at": "2026-05-08T08:46:13Z",
+  "fetch_status": "failed",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed, Tier 3: Chinese B2B API supplier). The domain yimei.com is a parked domain-for-sale page (Chinese text: 医美行业顶级域名出售中, meaning 'Top-level domain for sale in the medical aesthetics industry'). No storefront, no products, no e-commerce functionality was present at the live URL or in the 2024 Wayback Machine archive. Vendor is confirmed to exist only as an API-level bulk peptide exporter (Handan Yimei Import and Export Co., LTD, Handan City, Hebei Province, China) identifiable through independent third-party testing records on Finnrick. This is a baseline-only failed profile.",
+  "field_completion_ratio": 0.25,
+
+  "country_of_operation": "China",
+  "fulfillment_country": "China",
+  "ship_to_scope": "us_intl",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "uncertain",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "uncertain"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": ["uncertain"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": ["uncertain"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "uncertain",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["Finnrick (https://www.finnrick.com/vendors/yimei)"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "yimei,Yimei,yimei.com,China,China,US+Intl,Uncertain,Active,Third-party (Finnrick),\"CJC-1295, Ipamorelin\",Wholesale,Y (Finnrick),May 2026,3,Tier 3: Chinese B2B API supplier."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/yimei/",
+  "evidence_file": "evidence/yimei.txt",
+  "uncertainty_notes": "Primary domain yimei.com is a parked domain-for-sale page (confirmed live fetch 2026-05-08 HTTP 200 and Wayback Machine 2024 archive both return domain-sale placeholder in Chinese). No e-commerce storefront exists at this domain. All homepage, catalog, product_page_anatomy, trust_compliance, checkout_flow, tech_stack, content_footprint, on_site_reviews, and testimonial_usage fields are uncertain because no vendor website was accessible. country_of_operation and fulfillment_country inferred as China based on Finnrick ECHEMI data identifying vendor as Handan Yimei Import and Export Co., LTD, Handan City, Hebei Province, China (inference supported by: (1) Finnrick listing under vendor name 'Yimei'; (2) ECHEMI shop listing referencing same entity). ship_to_scope inferred as us_intl based on: (1) Finnrick testing records show samples received from Yimei tested in the US, confirming international shipment to US researchers; (2) vendor_list.csv seeds ship_to as 'US+Intl'. off_site_aggregators populated from live Finnrick fetch confirming Yimei is tracked at https://www.finnrick.com/vendors/yimei with 103 samples tested across 8 products. year_established is uncertain: no company registration date found in accessible sources. skus array is empty: no public pricing or SKU listings exist for this API-level supplier; dose information observed in Finnrick test records (5mg, 10mg, 15mg, 20mg, 30mg, 50mg vials for Retatrutide; 5mg, 10mg for BPC-157, TB-500, Tesamorelin, Ipamorelin; 5mg for CJC-1295; 50mg, 100mg for GHK-Cu; 5mg, 10mg, 20mg, 30mg for Tirzepatide) but no list prices observed. Payment methods rated 3.9/5 by Finnrick survey respondents but specific methods not named in accessible data."
+}

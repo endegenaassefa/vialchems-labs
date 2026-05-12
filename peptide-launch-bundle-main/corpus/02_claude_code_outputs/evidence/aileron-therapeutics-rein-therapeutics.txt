@@ -1,0 +1,843 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 20-20
+[QUOTE]
+<meta name="description" content="Harnessing fibrosis, unleashing life" />
+[/QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+Introducing multi-pathway treatments for fibrosis
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The hero unit on reintx.com is a background video labeled 'Rein_BGHeroVideo_v4.mp4' loaded from /wp-content/uploads/2025/01/. The site's overall positioning is a 'clinical-stage biopharmaceutical company' and references 'Lone Star grit' Texas-corporate aesthetic. Leadership headshots use the corporate-candids file naming convention '241204_Rein_Candids_HiRes-4003' (December 4, 2024 corporate photoshoot). No lifestyle, biohacking, fitness, meme, or anonymous-skull imagery is observable; the entire visual register is enterprise-clinical. There is no e-commerce / hero-of-product vendor framing.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+"hero_video":{"ID":225,"id":225,"title":"Rein_BGHeroVideo_v4","filename":"Rein_BGHeroVideo_v4.mp4"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+Our science works end-to-end, impacting multiple pathways to provide patients with comprehensive care. All with a Lone Star grit and obsession with detail that runs through every vein of our company.
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"page_tab_link":{"title":"Explore Science","url":"https://www.reintx.com/science/","target":""}
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 71-76
+[QUOTE]
+<li id="menu-item-130" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130"><a href="https://www.reintx.com/science/">Science</a></li>
+<li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131"><a href="https://www.reintx.com/pipeline/">Pipeline</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="https://www.reintx.com/company/">Company</a></li>
+<li id="menu-item-17" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17"><a href="https://ir.reintx.com/">Investors &#038; Media</a></li>
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+1234 Austin Rd. Austin, TX 73301
+[/QUOTE]
+[URL] https://web.archive.org/web/20251211213119/https://ir.reintx.com/
+[FETCHED_AT] 2026-05-07T01:21:35Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/ir_homepage.md
+[LINE_RANGE] 100-110
+[QUOTE]
+Rein Therapeutics develops first-in-class medicines to address significant unmet medical needs in orphan pulmonary and fibrosis indications, including LTI-03 for idiopathic pulmonary fibrosis (IPF) and LTI-01, for loculated pleural effusion (LPE).
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.reintx.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/privacy.md
+[LINE_RANGE] 121-121
+[QUOTE]
+12407 N. Mopac Expy. Suite 250 #390
+[/QUOTE]
+[URL] https://web.archive.org/web/20251211215423/https://ir.reintx.com/news-releases/news-release-details/rein-therapeutics-receives-fda-clearance-resume-us-phase-2-trial
+[FETCHED_AT] 2026-05-07T01:23:56Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pr_fda_clearance.md
+[LINE_RANGE] 74-74
+[QUOTE]
+AUSTIN, Texas, Nov. 03, 2025 (GLOBE NEWSWIRE) -- Rein Therapeutics ("Rein") (NASDAQ: RNTX), a biopharmaceutical company advancing a novel pipeline of first-in-class medicines to address significant unmet medical needs in orphan pulmonary and fibrosis indications
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2013
+[REASONING]
+The company timeline on the company page lists 'Lung Therapeutics was founded with a focus on orphan pulmonary diseases' tagged with timeline_year:2013. Dr. Brian Windsor's bio confirms he served as 'President, Chief Executive Officer and a director of Lung since July 2013'. Rein Therapeutics is the renamed entity after Lung was acquired by Aileron in October 2023 and renamed in 2025. The 2013 date reflects the founding of the predecessor entity (Lung Therapeutics) whose pipeline (LTI-03, LTI-01, LTI-05) Rein continues to develop. Note: the original Aileron Therapeutics (a separate Massachusetts company that acquired Lung) was founded earlier (2001), but the operator's 'Aileron Therapeutics (Rein Therapeutics)' designation refers to the Lung-Aileron-Rein lineage, not the historical Massachusetts Aileron, because the acquired company's pipeline is what survived the rebrand.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/company/
+[FETCHED_AT] 2026-05-07T01:20:14Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/company.md
+[LINE_RANGE] 118-118
+Lung Therapeutics was founded with a focus on orphan pulmonary diseases.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/company/
+[FETCHED_AT] 2026-05-07T01:20:14Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/company.md
+[LINE_RANGE] 118-118
+In October 2023, Lung was acquired by Aileron, a path that took us from a private company to publicly listed on NASDAQ.
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope
+[INFERENCE] us_only
+[REASONING]
+Rein has no e-commerce shipping. Reading the privacy policy: information collected via the corporate site is processed in the United States. The Phase 2 RENEW trial sites are predominantly U.S. locations across 15 states with international sites operated through clinical-trial partnerships, not direct shipments. The corporate operations are US-based (Austin, TX). 'us_only' is selected as the closest schema-allowed value because there is no commercial product to ship internationally.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/privacy.md
+[LINE_RANGE] 121-121
+The Personal and Other Information we collect through or in connection with the Site is transferred to and processed in the United States
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251211215423/https://ir.reintx.com/news-releases/news-release-details/rein-therapeutics-receives-fda-clearance-resume-us-phase-2-trial
+[FETCHED_AT] 2026-05-07T01:23:56Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pr_fda_clearance.md
+[LINE_RANGE] 80-82
+Rein expects to resume patient recruitment in late 2025 or early 2026 across approximately 20 U.S. clinical sites located in Alabama, California, Colorado, Connecticut, Florida, Indiana, Kansas, Massachusetts, Michigan, Missouri, North Carolina, New York, Ohio, South Carolina, and Texas.
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.reintx.com/pipeline/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pipeline.md
+[LINE_RANGE] 118-118
+[QUOTE]
+Idiopathic pulmonary fibrosis
+[/QUOTE]
+[URL] https://www.reintx.com/pipeline/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pipeline.md
+[LINE_RANGE] 118-118
+[QUOTE]
+Loculated pleural effusion
+[/QUOTE]
+[URL] https://www.reintx.com/pipeline/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pipeline.md
+[LINE_RANGE] 118-118
+[QUOTE]
+Cystic fibrosis
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[INFERENCE] false
+[REASONING]
+The site has only four content pages reachable from the navigation (Home / Science / Pipeline / Company / Investors & Media). There are no /shop, /products, /bundles, /stacks, /cart, or /checkout routes registered in the Vue WordPress route table. The Vue 'routes' object lists exactly four 'Page' components (careers, company, frontpage homepage, pipeline, privacy-policy, science) plus team-member singletons and post singletons; no commerce routes exist.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+"routes":[{"name":"Page-careers","path":"/careers/","component":"Page"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+{"name":"404","path":"/:pathmatch(.*)*","component":"404Page","meta":{"frontpage":false,"bodyClass":"","title":"Page not found","slug":"404"}
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://www.reintx.com/science/
+[FETCHED_AT] 2026-05-07T01:20:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/science.md
+[LINE_RANGE] 118-118
+[QUOTE]
+LTI-03 combines a unique dual mechanism of action with an inhaler-based dry powder delivery system providing more precise, localized treatment.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.reintx.com/science/
+[FETCHED_AT] 2026-05-07T01:20:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/science.md
+[LINE_RANGE] 118-118
+[QUOTE]
+LTI-03 is a first-in-class peptide derived from Caveolin-1, a protein essential for lung homeostasis.</strong></p>\n","two_col_text_text_2":"<p>It plays a critical role in regulating lung repair and cellular movement by restoring pathways that both promote epithelial health and halt fibrosis.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[INFERENCE] false
+[REASONING]
+Rein Therapeutics has no commercial peptide SKUs and therefore no per-batch certificates of analysis. LTI-03, LTI-01, and LTI-05 are clinical-stage drug candidates whose CMC and quality data live in confidential FDA submissions (e.g., the Form 10-K mentions these candidates but quality data is referred to in regulatory filings). The science and pipeline pages describe drug mechanisms, not COA links. The footer Legal Menu has only Privacy Policy — no COA portal, no Janoshik / third-party lab portal, no on-site PDF downloads.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+"name":"Legal Menu","slug":"legal-menu","menuItems":{"nodes":[{"id":"cG9zdDoyOQ==","label":"Privacy Policy"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/pipeline/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pipeline.md
+[LINE_RANGE] 118-118
+LTI-03
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[INFERENCE] none
+[REASONING]
+Same as coa_present='false' rationale: no commercial SKUs to certify; no third-party lab partner portal; no on-site COA hosting; the only document subdomain is ir.reintx.com hosting SEC-filing static files (10-K, 8-K, S-1 PDFs) for investor disclosure, which is regulatory rather than COA-style quality documentation.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20260507012430/https://ir.reintx.com/financial-info/sec-filings
+[FETCHED_AT] 2026-05-07T01:24:35Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/ir_sec_filings.md
+[LINE_RANGE] 71-71
+March 26, 2026 |  [10-K]
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20260507012430/https://ir.reintx.com/financial-info/sec-filings
+[FETCHED_AT] 2026-05-07T01:24:35Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/ir_sec_filings.md
+[LINE_RANGE] 65-67
+April 28, 2026 |  [S-1]
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[INFERENCE] false
+[REASONING]
+There are no commercial batch / lot identifiers because there are no commercial SKUs. Drug-development batch information for clinical trials lives in FDA Investigational New Drug (IND) submissions, not on the public website.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/pipeline/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pipeline.md
+[LINE_RANGE] 118-118
+LTI-05
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251211215423/https://ir.reintx.com/news-releases/news-release-details/rein-therapeutics-receives-fda-clearance-resume-us-phase-2-trial
+[FETCHED_AT] 2026-05-07T01:23:56Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pr_fda_clearance.md
+[LINE_RANGE] 87-89
+LTI-03 is a first-in-class, inhaled peptide therapy derived from Caveolin-1 biology, a key regulator of fibrotic signaling.
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[INFERENCE] false
+[REASONING]
+Pipeline page contains no review module, no rating widget, no testimonial carousel, no 'customers also bought', no Trustpilot embed. The site has no commerce surface where reviews would attach. Verified by absence: no occurrences of 'review', 'rated', 'testimonial', 'star', 'trustpilot' in the rendered Vue data block of pipeline.md.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/pipeline/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pipeline.md
+[LINE_RANGE] 118-118
+"first_impression":{"id":129,"title":"Pipeline","content":"","slug":"pipeline","acf":{"modules"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+LatestNewsComponent
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[INFERENCE] false
+[REASONING]
+No 'related products', 'you may also like', or 'recently viewed' modules exist because there are no products. The pipeline page lists three pipeline assets statically as columns; this is a developmental-pipeline visualization, not a related-product cross-sell.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/pipeline/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pipeline.md
+[LINE_RANGE] 118-118
+Promising pipeline across multiple fibrotic areas
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/pipeline/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pipeline.md
+[LINE_RANGE] 118-118
+PipelineComponent
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+The site has no age-confirmation modal. The Vue route table contains only Page / SingleTeam / SinglePost / 404Page components — there is no age-gate intercept. The privacy policy explicitly states the site is not directed to children under 13 but no age-attestation flow exists. There is no e-commerce or controlled substance flow that would require age verification.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/privacy.md
+[LINE_RANGE] 121-121
+The Site is not directed to children under the age of 13, and Aileron does not knowingly collect Personal or Other Information through the Site from anyone it knows is under the age of 13.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+"components":["Page","SingleTeam","SinglePost","404Page"]
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.reintx.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/privacy.md
+[LINE_RANGE] 121-121
+[QUOTE]
+The Personal and Other Information we collect through or in connection with the Site is transferred to and processed in the United States
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[INFERENCE] false
+[REASONING]
+There is no checkout. Privacy policy explicitly enumerates the data the site collects via 'a form on the Site or when you send us an email' — purely informational request fields, not commerce account creation. No /login, /register, /account, /my-account, /cart, /checkout routes exist in the Vue route table.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/privacy.md
+[LINE_RANGE] 121-121
+We collect Personal Information from you when you provide it to us using a form on the Site or when you send us an email through the Site.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+"components":["Page","SingleTeam","SinglePost","404Page"]
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[INFERENCE] false
+[REASONING]
+Same as account_required='false' — no checkout exists at all, neither account nor guest. The site is purely a corporate / IR informational site.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+"site_name":"Rein Therapeutics","components":["Page","SingleTeam","SinglePost","404Page"]
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251211213119/https://ir.reintx.com/
+[FETCHED_AT] 2026-05-07T01:21:35Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/ir_homepage.md
+[LINE_RANGE] 22-30
+[Press Releases](/web/20251211213119/https://ir.reintx.com/press-releases)
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://www.reintx.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/privacy.md
+[LINE_RANGE] 121-121
+[QUOTE]
+First and last name
+[/QUOTE]
+[QUOTE]
+Email address
+[/QUOTE]
+[QUOTE]
+Phone number
+[/QUOTE]
+[QUOTE]
+Company affiliation
+[/QUOTE]
+[QUOTE]
+Other information you choose to provide to us in your email or through a free text field on the form
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[INFERENCE] false
+[REASONING]
+No ID verification flow exists because no commerce transaction or controlled substance dispensation occurs on the site. Privacy policy describes only standard contact-form data collection.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/privacy.md
+[LINE_RANGE] 121-121
+We collect Personal Information from you when you provide it to us using a form on the Site
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+"components":["Page","SingleTeam","SinglePost","404Page"]
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] wordpress
+[REASONING]
+The site is WordPress 6.9.4 running a custom Vue.js theme called 'reintx'. Evidence: Yoast SEO plugin v27.1.1 comment in HTML head, x-powered-by 'WP Engine' response header, wp-content/wp-includes/wp-json paths in source, ACF (Advanced Custom Fields) module structure visible in __VUE_WORDPRESS__ data block ('acf':'modules'), 'speculationrules' WP feature visible.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:25:24Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/source_homepage.md
+[LINE_RANGE] 19-19
+x-powered-by: WP Engine
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:25:24Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/source_homepage.md
+[LINE_RANGE] 39-39
+<!-- This site is optimized with the Yoast SEO plugin v27.1.1 - https://yoast.com/product/yoast-seo-wordpress/ -->
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:25:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/source_homepage.md
+[LINE_RANGE] 11-11
+[QUOTE]
+server: cloudflare
+[/QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:25:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/source_homepage.md
+[LINE_RANGE] 26-26
+[QUOTE]
+cf-ray: 9f7c6dec083b20b1-IAD
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] none observed
+[REASONING]
+Reviewing the source HTML body and HTTP headers in source_homepage.md (HEAD response + first 12KB of HTML body), no analytics tag is loaded: no Google Tag Manager (GTM-...), no gtag.js (G-... GA4 property), no Plausible, Fathom, Heap, Segment, Mixpanel. The only third-party JavaScript loaded is the Cloudflare bot-management iframe ('cdn-cgi/challenge-platform/scripts/jsd/main.js'), which is bot detection rather than analytics. The site appears to rely on WP Engine's built-in analytics plus IR-subdomain analytics (Kaleidoscope-provided IR microsite tooling) that does not load on www.reintx.com.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:25:24Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/source_homepage.md
+[LINE_RANGE] 8-25
+HTTP/2 200
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 115-115
+cdn-cgi/challenge-platform/scripts/jsd/main.js
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE] none observed
+[REASONING]
+No Facebook Pixel (fbq), TikTok Pixel (ttq), Pinterest, Twitter conversion pixel, LinkedIn Insight tag, Reddit pixel, or any e-commerce remarketing pixel is loaded on the public marketing site. This is consistent with a clinical-stage biotech without consumer marketing.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:25:24Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/source_homepage.md
+[LINE_RANGE] 29-44
+<!DOCTYPE html>
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+"social_linkedin":"https://www.linkedin.com/company/rein-therapeutics","social_x":"https://x.com/Rein_Tx"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] false
+[REASONING]
+No Intercom, Drift, Crisp, Tawk, Olark, Zendesk Chat, HubSpot conversations, Gladly, Freshchat, or any other chat widget script is loaded. The contact channel is email (info@reintx.com) and the IR subdomain has 'Investor FAQs' / 'Information Request' static pages, not live chat.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/privacy.md
+[LINE_RANGE] 121-121
+info@reintx.com
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251211213119/https://ir.reintx.com/
+[FETCHED_AT] 2026-05-07T01:21:35Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/ir_homepage.md
+[LINE_RANGE] 47-50
+Investor FAQs
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://web.archive.org/web/20251211215502/https://ir.reintx.com/press-releases
+[FETCHED_AT] 2026-05-07T01:23:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/ir_press_releases.md
+[LINE_RANGE] 53-58
+[QUOTE]
+# Press Releases
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://web.archive.org/web/20251211215502/https://ir.reintx.com/press-releases
+[FETCHED_AT] 2026-05-07T01:23:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/ir_press_releases.md
+[LINE_RANGE] 21-21
+[QUOTE]
+[Press Releases](/web/20251211215502/https://ir.reintx.com/press-releases)
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[INFERENCE] approximately monthly press release cadence with quarterly financial-results posts
+[REASONING]
+The marketing-site Vue route table has six post slugs all bearing the 'Aileron Therapeutics' (pre-rebrand) name: Q1 2024, Q2 2024, Q3 2024 financial results plus three LTI-03 / Canaccord Genuity press releases. The IR-archive snapshot shows three additional press releases dated November 6, 2025; November 3, 2025; October 9, 2025 — three releases in roughly five weeks (LTI-03 publication, FDA clearance to resume Phase 2, European regulatory approval to initiate Phase 2). The cadence is event-driven: clusters around earnings cycles and clinical milestones with multi-month gaps between clusters.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+"name":"Post-aileron-therapeutics-reports-third-quarter-2024-financial-results-and-recent-business-highlights"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251211213119/https://ir.reintx.com/
+[FETCHED_AT] 2026-05-07T01:21:35Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/ir_homepage.md
+[LINE_RANGE] 67-79
+November 3, 2025
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://web.archive.org/web/20251211215502/https://ir.reintx.com/press-releases
+[FETCHED_AT] 2026-05-07T01:23:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/ir_press_releases.md
+[LINE_RANGE] 60-100
+[QUOTE]
+[Rein Therapeutics Announces New Scientific Publication Demonstrating LTI-03 May Reduce Lung Scarring and Protect Cells Needed for Lung Repair in IPF]
+[/QUOTE]
+[QUOTE]
+[Rein Therapeutics Receives FDA Clearance to Resume U.S. Phase 2 Trial of LTI-03 in Idiopathic Pulmonary Fibrosis]
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[INFERENCE] false
+[REASONING]
+Press releases are issued corporately via Globe Newswire under the 'Rein Therapeutics' (or pre-rebrand 'Aileron Therapeutics') byline, not bylined to individual authors. The post-content REST API returns empty 'content.rendered' for all news slugs and the public site only surfaces titles + dates.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251211215423/https://ir.reintx.com/news-releases/news-release-details/rein-therapeutics-receives-fda-clearance-resume-us-phase-2-trial
+[FETCHED_AT] 2026-05-07T01:23:56Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pr_fda_clearance.md
+[LINE_RANGE] 74-74
+AUSTIN, Texas, Nov. 03, 2025 (GLOBE NEWSWIRE) -- Rein Therapeutics
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+"meta":{"frontpage":false,"bodyClass":"","title":"Aileron Therapeutics Reports Third Quarter 2024 Financial Results and Recent Business Highlights"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[INFERENCE] false
+[REASONING]
+No review module, no rating, no testimonial slider, no Trustpilot widget. The site is a clinical-stage biotech corporate marketing site with no commerce surface where reviews would attach.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+"first_impression":{"id":8,"title":"Homepage","content":"","slug":"homepage","acf":{"modules"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/pipeline/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pipeline.md
+[LINE_RANGE] 118-118
+PipelineComponent
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://web.archive.org/web/20251211215423/https://ir.reintx.com/news-releases/news-release-details/rein-therapeutics-receives-fda-clearance-resume-us-phase-2-trial
+[FETCHED_AT] 2026-05-07T01:23:56Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pr_fda_clearance.md
+[LINE_RANGE] 78-78
+[QUOTE]
+Brian Windsor, Ph.D., Chief Executive Officer of Rein Therapeutics, commented, “This is a major milestone for us. The FDA’s decision clears the path for us to resume enrollment and continue advancing LTI-03 through our global Phase 2 program.
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"social_linkedin":"https://www.linkedin.com/company/rein-therapeutics","social_x":"https://x.com/Rein_Tx"
+[/QUOTE]
+
+[CLAIM] tier_rationale_pipeline_LTI-03
+[URL] https://web.archive.org/web/20251211215423/https://ir.reintx.com/news-releases/news-release-details/rein-therapeutics-receives-fda-clearance-resume-us-phase-2-trial
+[FETCHED_AT] 2026-05-07T01:23:56Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pr_fda_clearance.md
+[LINE_RANGE] 90-94
+[QUOTE]
+Rein Therapeutics is a clinical-stage biopharmaceutical company advancing a novel pipeline of first-in-class therapies to address significant unmet medical needs in orphan pulmonary and fibrosis indications. Rein's lead product candidate, LTI-03, is a novel, synthetic peptide with a dual mechanism targeting alveolar epithelial cell survival as well as inhibition of profibrotic signaling. LTI-03 has received Orphan Drug Designation in the U.S.
+[/QUOTE]
+
+[CLAIM] tier_rationale_pipeline_LTI-01
+[URL] https://web.archive.org/web/20251211215423/https://ir.reintx.com/news-releases/news-release-details/rein-therapeutics-receives-fda-clearance-resume-us-phase-2-trial
+[FETCHED_AT] 2026-05-07T01:23:56Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pr_fda_clearance.md
+[LINE_RANGE] 92-94
+[QUOTE]
+Rein's second product candidate, LTI-01, is a proenzyme that has completed Phase 1b and Phase 2a clinical trials for the treatment of loculated pleural effusions. LTI-01 has received Orphan Drug Designation in the U.S. and E.U. and Fast Track Designation in the U.S.
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[INFERENCE] 0
+[REASONING]
+Rein's site has no /shop, /products, /catalog, or e-commerce subdomain. The Vue route table contains only Page / SingleTeam / SinglePost / 404Page components. Pipeline assets (LTI-03, LTI-01, LTI-05) are pre-commercial drug candidates, not SKUs available for purchase. Therefore the SKU count is exactly zero, not uncertain.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+"components":["Page","SingleTeam","SinglePost","404Page"]
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.reintx.com/pipeline/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pipeline.md
+[LINE_RANGE] 118-118
+PipelineComponent
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"components":["Page","SingleTeam","SinglePost","404Page"]
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://www.reintx.com/science/
+[FETCHED_AT] 2026-05-07T01:20:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/science.md
+[LINE_RANGE] 118-118
+[QUOTE]
+LTI-03 combines a unique dual mechanism of action with an inhaler-based dry powder delivery system providing more precise, localized treatment.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://web.archive.org/web/20251211215423/https://ir.reintx.com/news-releases/news-release-details/rein-therapeutics-receives-fda-clearance-resume-us-phase-2-trial
+[FETCHED_AT] 2026-05-07T01:23:56Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pr_fda_clearance.md
+[LINE_RANGE] 90-92
+[QUOTE]
+Rein Therapeutics is a clinical-stage biopharmaceutical company advancing a novel pipeline of first-in-class therapies
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.per_mg_cost
+[URL] https://web.archive.org/web/20251211215423/https://ir.reintx.com/news-releases/news-release-details/rein-therapeutics-receives-fda-clearance-resume-us-phase-2-trial
+[FETCHED_AT] 2026-05-07T01:23:56Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pr_fda_clearance.md
+[LINE_RANGE] 90-92
+[QUOTE]
+clinical-stage biopharmaceutical company advancing a novel pipeline of first-in-class therapies
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20251211215423/https://ir.reintx.com/news-releases/news-release-details/rein-therapeutics-receives-fda-clearance-resume-us-phase-2-trial
+[FETCHED_AT] 2026-05-07T01:23:56Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pr_fda_clearance.md
+[LINE_RANGE] 100-104
+[QUOTE]
+This press release may contain forward-looking statements of Rein Therapeutics, Inc.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"name":"Legal Menu","slug":"legal-menu","menuItems":{"nodes":[{"id":"cG9zdDoyOQ==","label":"Privacy Policy"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"name":"Legal Menu","slug":"legal-menu","menuItems":{"nodes":[{"id":"cG9zdDoyOQ==","label":"Privacy Policy"
+[/QUOTE]
+[URL] https://web.archive.org/web/20251211215423/https://ir.reintx.com/news-releases/news-release-details/rein-therapeutics-receives-fda-clearance-resume-us-phase-2-trial
+[FETCHED_AT] 2026-05-07T01:23:56Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/pr_fda_clearance.md
+[LINE_RANGE] 100-104
+[QUOTE]
+This press release may contain forward-looking statements of Rein Therapeutics, Inc. ("Rein", the "Company", "we", "our" or "us") within the meaning of the Private Securities Litigation Reform Act of 1995
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"name":"Legal Menu","slug":"legal-menu","menuItems":{"nodes":[{"id":"cG9zdDoyOQ==","label":"Privacy Policy"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://web.archive.org/web/20251211213119/https://ir.reintx.com/
+[FETCHED_AT] 2026-05-07T01:21:35Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/ir_homepage.md
+[LINE_RANGE] 35-37
+[QUOTE]
+[Documents & Charters](/web/20251211213119/https://ir.reintx.com/governance/documents-charters)
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"components":["Page","SingleTeam","SinglePost","404Page"]
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"components":["Page","SingleTeam","SinglePost","404Page"]
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"components":["Page","SingleTeam","SinglePost","404Page"]
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"components":["Page","SingleTeam","SinglePost","404Page"]
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"components":["Page","SingleTeam","SinglePost","404Page"]
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"components":["Page","SingleTeam","SinglePost","404Page"]
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://web.archive.org/web/20251211213119/https://ir.reintx.com/
+[FETCHED_AT] 2026-05-07T01:21:35Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/ir_homepage.md
+[LINE_RANGE] 33-33
+[QUOTE]
+[Analyst Coverage](/web/20251211213119/https://ir.reintx.com/stock-info/analyst-coverage)
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://www.reintx.com/
+[FETCHED_AT] 2026-05-07T01:19:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aileron-therapeutics-rein-therapeutics/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"components":["Page","SingleTeam","SinglePost","404Page"]
+[/QUOTE]

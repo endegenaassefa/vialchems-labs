@@ -1,0 +1,31 @@
+[CLAIM] discovery_provenance.discovery_source_quote
+[URL] file:///00_inputs/vendor_list.csv
+[FETCHED_AT] 2026-05-07T19:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 00_inputs/vendor_list.csv
+[LINE_RANGE] n/a
+[QUOTE]
+shanghai-jinbei-chemical,Shanghai JinBei Chemical,unknown
+[/QUOTE]
+
+[CLAIM] fetch_status (rationale)
+[INFERENCE] failed
+[REASONING]
+Seed CSV classifies as Tier 3 with primary_domain=unknown. Vendor surfaces only via B2B directory listings (e.g., made-in-china.com category pages) which were not fetched per scope (Tier 3 baseline only). No website fetchable, no Wayback snapshot to query.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] file:///00_inputs/vendor_list.csv
+[FETCHED_AT] 2026-05-07T19:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 00_inputs/vendor_list.csv
+[LINE_RANGE] n/a
+unknown
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] file:///00_inputs/vendor_list.csv
+[FETCHED_AT] 2026-05-07T19:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 00_inputs/vendor_list.csv
+[LINE_RANGE] n/a
+shanghai-jinbei-chemical
+[/SUPPORT_QUOTE]

@@ -1,0 +1,109 @@
+{
+  "vendor_slug": "molecular-peptide",
+  "brand_name": "Molecular Peptide Store",
+  "primary_domain": "onpoint.to",
+
+  "fetched_url": "https://onpoint.to",
+  "fetched_at": "2026-05-07T17:50:28Z",
+  "fetch_status": "failed",
+
+  "tier": 2,
+  "tier_rationale": "as-assigned by operator seed. However, the domain onpoint.to does not host a peptide vendor. It is the website of onPoint Studio OÜ, a web design/development agency based in Tallinn, Estonia. The agency offers 'Peptide Store Design' as a service — meaning they build peptide storefronts for clients — but they do not sell peptides themselves. No peptide SKUs, no product catalog, no checkout, no COAs exist at this domain. field_completion_ratio is 0.16 (< 0.40) → fetch_status: failed per Rule 17. The seed 'Molecular Peptide Store' and co-seed 'Peptide Depot' both map to onpoint.to, which is a single web-dev agency site, not two peptide storefronts. Both seeds are misidentifications.",
+
+  "field_completion_ratio": 0.16,
+
+  "country_of_operation": "Estonia",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "We are the onPoint team  \nto help your business grow\n\nWeb design and development team who cares not only about code,   \nbut transforms technology and design into solutions",
+    "hero_imagery_style": "other",
+    "primary_cta": "Get Started",
+    "navigation_pattern": "Top nav with: Clients, Cases, Services (dropdown: WordPress AI Publishing Engine, Peptide Store Design, WooCommerce Conversion Rate Optimization, WordPress Page Speed Optimization, WordPress DevOps, WooCommerce UTM Tracking, Dental Website Redesign, Website for Dental Practice, Online Education Platform), Team, Resources (dropdown: WooCommerce for Peptide Stores, WordPress for Dental Practices, Page Speed Optimization, WordPress AI, WordPress DevOps, WordPress WCAG)",
+    "footer_disclaimers": "© onPoint Studio OÜ. Sepapaja tn 6, 15551 Tallinn, Estonia"
+  },
+
+  "catalog": {
+    "sku_count": 0,
+    "category_taxonomy": "uncertain",
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "false"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": "uncertain",
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": "uncertain",
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": "uncertain",
+    "shipping_carriers": "uncertain",
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "uncertain",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": "uncertain",
+    "marketing_pixels_present": "uncertain",
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://onpoint.to/blog",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": "uncertain",
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "true",
+    "off_site_aggregators": "uncertain",
+    "testimonial_usage": "Client testimonials from HR for Health (Sarah Kersting-Herbert, SVP), CriticalAsset (Stewart Padveen, CEO), eAssist Dental Solutions (Penny Reed, CGO) — all for web development services, not peptide products",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "molecular-peptide,Molecular Peptide Store,onpoint.to,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list,2,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/molecular-peptide/",
+  "evidence_file": "evidence/molecular-peptide.txt",
+
+  "uncertainty_notes": "FUNDAMENTAL FINDING: onpoint.to is NOT a peptide vendor. It is onPoint Studio OÜ, a web design and development agency headquartered at Sepapaja tn 6, 15551 Tallinn, Estonia. The site offers services including 'Peptide Store Design' — i.e., they build WooCommerce peptide storefronts for clients — but they do not sell research peptides or any other products directly. There is no catalog, no product pages, no checkout, no COAs, no age gate, no research-use-only disclaimers, and no SKUs of any kind. All product_page_anatomy, trust_compliance, checkout_flow, tech_stack (partial), and catalog fields are 'uncertain' because they do not exist at this domain for a peptide business. The vendor seeds 'molecular-peptide' (Molecular Peptide Store) and 'peptide-depot' (Peptide Depot) both map to onpoint.to; both are misidentifications in the seed list. The agency's 'Peptide Store Design' service page (https://onpoint.to/services/peptide-store-design/) names client stores visible in image gallery (Peptara, Arcana, HELIXA visible in screenshots) — these may be actual peptide vendors built by the agency but their URLs are not disclosed on the service page. hero_imagery_style is 'other' because this is a corporate B2B web agency site, not a peptide storefront. sku_count is 0 (not uncertain) because the site demonstrably has no peptide products. stack_bundle_pages_present is false for the same reason. blog_present is true and blog_url is confirmed from navigation. social proof testimonials are from the agency's web development clients, not peptide buyers. fetch_status: 'failed' per Rule 17 because field_completion_ratio = 0.16 (< 0.40 threshold). year_established is uncertain — no founding year is stated on the site. fulfillment_country and ship_to_scope are uncertain — not applicable to a web agency. country_of_operation is Estonia per the legal footer (© onPoint Studio OÜ. Sepapaja tn 6, 15551 Tallinn, Estonia). off_site_aggregators: Upwork (5/5), Clutch (5/5), DesignRush (5/5) are listed in footer but these are web agency review platforms, not peptide vendor review aggregators — therefore uncertain for peptide vendor profiling purposes. This profile documents the seed misidentification for the coverage report."
+}

@@ -1,0 +1,1068 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/homepage.md
+[LINE_RANGE] 73-73
+[QUOTE]
+"California-Made. 7x Tested."
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/homepage.md
+[LINE_RANGE] 793-795
+[QUOTE]
+"OROS Research is a U.S.-based supplier of research chemicals. We are not a compounding pharmacy under Section 503A, nor an outsourcing facility under Section 503B of the Federal Food, Drug, and Cosmetic Act. All products available on this site are intended strictly for laboratory research purposes only. They are not intended for human or animal consumption, and are not approved to diagnose, treat, cure, or prevent any disease or medical condition. Access to this website and the purchase of any products is restricted to individuals 21 years of age or older."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/homepage.md
+[LINE_RANGE] 745-746
+[QUOTE]
+"[ View Full Catalog ](/collections/research-catalog)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage hero emphasizes laboratory credentials (ISO 5 Laminar Flow Facility, cGMP standards, 7-point quality testing), features product vial photography, and uses science-forward language with no lifestyle, humor, or meme-coded elements. The visual language is consistent with clinical/laboratory presentation.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/homepage.md
+[LINE_RANGE] 73-73
+"California-Made. 7x Tested."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/homepage.md
+[LINE_RANGE] 715-722
+"Science Without Shortcuts™"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/homepage.md
+[LINE_RANGE] 47-55
+[QUOTE]
+"[ Home ](/)
+  * [ Catalog ](/collections/research-catalog)
+  * [ COA Library ](https://orosresearch.com/pages/3rd-party-testing)
+  * [ Order Tracking ](https://orosresearch.com/apps/ordertracking)
+  * [ Wholesale ](/pages/wholesale)
+  * [ Payment ](/pages/authorize)
+  * [ Contact ](/pages/contact)
+  * [ About ](/pages/about-oros-research)
+  * [ FAQ ](/pages/faq)"
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/homepage.md
+[LINE_RANGE] 717-717
+[QUOTE]
+"Founded in 2025, OROS Research was created with a singular mission: to bring integrity, transparency, and uncompromising quality to the research peptide industry."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://orosresearch.com/pages/about-oros-research
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/about.md
+[LINE_RANGE] 43-44
+[QUOTE]
+"OROS Research, headquartered in Cary, North Carolina, is a trusted supplier of high-purity, U.S.-made research peptides."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://orosresearch.com/pages/faq
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/faq.md
+[LINE_RANGE] 68-70
+[QUOTE]
+"Where are your products made?
+
+All OROS Research peptides are manufactured in California under cGMP-aligned and ISO-based quality processes and procedures to support consistency, quality, and controlled production standards."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://orosresearch.com/pages/shipping-returns
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/refund.md
+[LINE_RANGE] 133-133
+[QUOTE]
+"No. At this time, we only ship within the United States. We do not ship to U.S. territories, international addresses, or military (APO/FPO/DPO) bases."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://orosresearch.com/collections/research-catalog
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/catalog_1.md
+[LINE_RANGE] 72-72
+[QUOTE]
+"52 Products"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://orosresearch.com/collections/research-catalog
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/catalog_1.md
+[LINE_RANGE] 74-83
+[QUOTE]
+"Type
+
+  * Bioregulators  7
+  * Blends  12
+  * Capsules  3
+  * GLOW/KLOW  2
+  * GLP/GIP  7
+  * New  9
+  * Peptides  49
+  * Solvents  2"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://orosresearch.com/collections/research-catalog
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/catalog_1.md
+[LINE_RANGE] 115-122
+[QUOTE]
+"###  [ Wolverine - BPC-157 5mg, TB-500 5mg (10mg Blend) ](/products/bpc-157-tb-500-10mg-blend)
+
+In stock
+
+Regular price $59.99 USD"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://orosresearch.com/products/bpc-157-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_1__bpc-157-5mg.md
+[LINE_RANGE] 92-112
+[QUOTE]
+"#  BPC-157 5mg
+
+Only 18 left
+
+Lot: 1323471
+
+Grade: Laboratory
+
+Purity: >99%
+
+Vial Size: 3ml
+
+Tested For: Endotoxins, Heavy Metals, Microbials
+
+U.S. Formulated: cGMP / ISO Aligned
+
+UPS Shipping: Insurance Included
+
+Arrives Lyophilized: Requires Reconstitution
+
+Regular price $39.99 USD"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://orosresearch.com/products/bpc-157-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_1__bpc-157-5mg.md
+[LINE_RANGE] 127-129
+[QUOTE]
+"####  Research Use Only
+
+This product is limited to in vitro testing and laboratory experimentation only and is not for human or animal use or consumption of any kind. Handling and use are restricted to qualified or licensed professionals only, at least 21 years of age."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://orosresearch.com/products/bpc-157-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_1__bpc-157-5mg.md
+[LINE_RANGE] 133-136
+[QUOTE]
+"**Compound:** BPC-157 5mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://orosresearch.com/products/bpc-157-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_1__bpc-157-5mg.md
+[LINE_RANGE] 133-160
+[QUOTE]
+"**Compound:** BPC-157 5mg
+
+Net Weight
+
+5.07mg
+
+Purity
+
+99%
+
+Lot Number
+
+395247 - Batch 1
+
+MFG Date
+
+June 2025
+
+EXP Date
+
+June 2027
+
+COA Date
+
+July 4th 2025"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://orosresearch.com/products/bpc-157-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_1__bpc-157-5mg.md
+[LINE_RANGE] 382-382
+[QUOTE]
+"[ COA PDF  ](https://cdn.shopify.com/s/files/1/0746/9773/6413/files/BPC-157-5mg-OROS-Research-36301120766173.jpg?v=1756493689)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://orosresearch.com/products/bpc-157-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_1__bpc-157-5mg.md
+[LINE_RANGE] 179-179
+[QUOTE]
+"**April 2025 Update:** All new batches are now validated through an **ISO 17025-accredited laboratory** , supporting method accuracy, reproducibility, and compliance with recognized analytical standards."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://orosresearch.com/products/bpc-157-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_1__bpc-157-5mg.md
+[LINE_RANGE] 96-96
+[QUOTE]
+"Lot: 1323471"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://orosresearch.com/products/bpc-157-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_1__bpc-157-5mg.md
+[LINE_RANGE] 158-158
+[QUOTE]
+"This product is supplied as a lyophilized powder and is intended **strictly for research use only**. Researchers are solely responsible for the appropriate reconstitution of all OROS research compounds."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/homepage.md
+[LINE_RANGE] 805-805
+[QUOTE]
+"##  Researcher Access Verification"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/homepage.md
+[LINE_RANGE] 807-807
+[QUOTE]
+"Access to this website is restricted to individuals who **are 21 years of age or older** , **reside in the United States** , and **are qualified research professionals, institutions,** or acting in an **independent research** capacity."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/homepage.md
+[LINE_RANGE] 763-763
+[QUOTE]
+"[ Terms & Conditions ](/pages/terms-conditions)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://orosresearch.com/pages/terms-conditions
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/tos.md
+[LINE_RANGE] 97-110
+[QUOTE]
+"You are not a minor in your jurisdiction and at least 21 years of age or older when accessing/using this website."
+[/QUOTE]
+
+[URL] https://orosresearch.com/pages/terms-conditions
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/tos.md
+[LINE_RANGE] 170-170
+[QUOTE]
+"Once your payment has been successfully processed and authorization confirmed, **your purchase is considered final and non-reversible**. OROS, Inc. does **not** permit cancellations, returns, exchanges, or refunds under any circumstance, including but not limited to dissatisfaction, order errors, or change of mind."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://orosresearch.com/pages/shipping-returns
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/refund.md
+[LINE_RANGE] 129-129
+[QUOTE]
+"**All sales are final.** Due to the nature of our products, we do not accept returns or offer refunds. If a pricing error or issue occurs, store credit may be issued at our sole discretion."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://orosresearch.com/pages/shipping-returns
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/refund.md
+[LINE_RANGE] 95-95
+[QUOTE]
+"All orders are shipped via **UPS** , with your choice of **Ground** , **2-Day** , or **Express** services at checkout. We offer **free UPS 2-Day shipping** on all orders over **$150**. Every shipment also includes **full order insurance** at no additional cost, protecting your package in the event it is lost, stolen, or damaged in transit."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://orosresearch.com/pages/faq
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/faq.md
+[LINE_RANGE] 130-132
+[QUOTE]
+"Do I need an account to place an order?
+
+Yes. Creating an account confirms you are 21+ , purchasing for professional research , and legally authorized to handle these materials."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://orosresearch.com/pages/faq
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/faq.md
+[LINE_RANGE] 134-136
+[QUOTE]
+"What payment methods do you accept?
+
+We accept all major debit and credit cards, including American Express. After checkout, complete our Payment Authorization Form. Orders are processed once authorization is complete."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://orosresearch.com/pages/faq
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/faq.md
+[LINE_RANGE] 150-150
+[QUOTE]
+"Shipping starts at **$10**. We offer **free UPS 2-Day shipping** on orders over **$150**. All shipments are fully insured."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://orosresearch.com/pages/faq
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/faq.md
+[LINE_RANGE] 150-150
+[QUOTE]
+"Shipping starts at **$10**. We offer **free UPS 2-Day shipping** on orders over **$150**. All shipments are fully insured."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://orosresearch.com/pages/faq
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/faq.md
+[LINE_RANGE] 164-166
+[QUOTE]
+"Where do you ship?
+
+We currently ship within the United States only."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/source_homepage.md
+[LINE_RANGE] 578-578
+[QUOTE]
+"orosbiotech.myshopify.com"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] Cloudflare
+[REASONING]
+The site runs on Shopify (confirmed by myshopify.com cookie domain and powered-by: Shopify header). Shopify storefronts are served through Cloudflare by default. The response headers observed during curl fetch included cf-ray, nel, and report-to fields consistent with Cloudflare edge delivery, though these headers are not preserved in the html2text raw artifact.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/source_homepage.md
+[LINE_RANGE] 65-65
+"<link rel="preconnect" href="//cdn.shopify.com" crossorigin>"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/source_homepage.md
+[LINE_RANGE] 578-578
+"orosbiotech.myshopify.com"
+[/SUPPORT_QUOTE]
+
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/source_homepage.md
+[LINE_RANGE] 578-578
+[QUOTE]
+"\"pixel_id\":\"1355906662178924\",\"pixel_type\":\"facebook_pixel\""
+[/QUOTE]
+
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/source_homepage.md
+[LINE_RANGE] 578-578
+[QUOTE]
+"\"basePixelId\":\"q6lna\",\"adsAccountId\":\"18ce55set7a\""
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://orosresearch.com
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/homepage.md
+[LINE_RANGE] 757-760
+[QUOTE]
+"Rated Excellent on Trustpilot
+[Read our reviews](https://www.trustpilot.com/review/orosresearch.com)
+
+[ ](https://www.bbb.org/us/nc/cary/profile/biotechnology/oros-research-0593-90366833/#sealclick)"
+[/QUOTE]
+
+[CLAIM] claim-bpc-157-5mg
+[URL] https://orosresearch.com/products/bpc-157-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_1__bpc-157-5mg.md
+[LINE_RANGE] 92-112
+[QUOTE]
+"#  BPC-157 5mg
+
+Only 18 left
+
+Lot: 1323471
+
+Grade: Laboratory
+
+Purity: >99%
+
+Vial Size: 3ml
+
+Regular price $39.99 USD"
+[/QUOTE]
+
+[CLAIM] claim-tb-500-5mg
+[URL] https://orosresearch.com/products/tb-500-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_2__tb-500-5mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  TB-500 (Thymosin Beta-4) 5mg
+
+Lot: 825570
+
+Grade: Laboratory
+
+Purity: >99%
+
+Vial Size: 3ml
+
+Regular price $39.99 USD"
+[/QUOTE]
+
+[CLAIM] claim-ghk-cu-50mg
+[URL] https://orosresearch.com/products/ghk-cu-50mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_3__ghk-cu-50mg.md
+[LINE_RANGE] 129-160
+[QUOTE]
+"**Compound:** GHK-Cu 50mg
+
+Lot: OR-LPGHK50-426-B6
+
+Grade: Laboratory
+
+Purity: >99%
+
+Vial Size: 3ml
+
+Regular price $44.99 USD"
+[/QUOTE]
+
+[CLAIM] claim-epithalon-10mg
+[URL] https://orosresearch.com/products/epithalon-epitalon-10mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_4__epithalon-epitalon-10mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Epithalon (Epitalon) 10mg"
+[/QUOTE]
+
+[CLAIM] claim-bpc-157-10mg
+[URL] https://orosresearch.com/products/bpc-157-10mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_5__bpc-157-10mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  BPC-157 10mg
+
+Lot: 1323471
+
+Grade: Laboratory
+
+Purity: >99%
+
+Vial Size: 3ml
+
+Regular price $79.99 USD"
+[/QUOTE]
+
+[CLAIM] claim-tb-500-10mg
+[URL] https://orosresearch.com/products/tb-500-10mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_6__tb-500-10mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  TB-500 (Thymosin Beta-4) 10mg"
+[/QUOTE]
+
+[CLAIM] claim-pt-141-10mg
+[URL] https://orosresearch.com/products/pt-141-10mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_7__pt-141-10mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  PT-141 10mg"
+[/QUOTE]
+
+[CLAIM] claim-ipamorelin-5mg
+[URL] https://orosresearch.com/products/ipamorelin-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_8__ipamorelin-5mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Ipamorelin 5mg"
+[/QUOTE]
+
+[CLAIM] claim-cjc-1295-nodac
+[URL] https://orosresearch.com/products/cjc-1295-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_9__cjc-1295-5mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  CJC-1295 (No DAC) 5mg"
+[/QUOTE]
+
+[CLAIM] claim-cjc-1295-dac
+[URL] https://orosresearch.com/products/cjc-1295-dac-2mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_10__cjc-1295-dac-2mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  CJC-1295 DAC 5mg"
+[/QUOTE]
+
+[CLAIM] claim-mots-c-10mg
+[URL] https://orosresearch.com/products/mots-c-10mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_11__mots-c-10mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  MOTS-C 10mg"
+[/QUOTE]
+
+[CLAIM] claim-selank-10mg
+[URL] https://orosresearch.com/products/selank-n-acetyl-10mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_12__selank-n-acetyl-10mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Selank N-Acetyl Amidate 10mg
+
+Lot: 1626694
+
+Grade: Laboratory
+
+Purity: >99%
+
+Vial Size: 3ml
+
+Regular price $44.99 USD"
+[/QUOTE]
+
+[CLAIM] claim-semax-30mg
+[URL] https://orosresearch.com/products/semax-n-acetyl-30mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_13__semax-n-acetyl-30mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Semax N-Acetyl Amidate 30mg"
+[/QUOTE]
+
+[CLAIM] claim-sermorelin-5mg
+[URL] https://orosresearch.com/products/sermorelin-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_14__sermorelin-5mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Sermorelin 5mg"
+[/QUOTE]
+
+[CLAIM] claim-thymosin-alpha-1
+[URL] https://orosresearch.com/products/thymosin-alpha-1-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_15__thymosin-alpha-1-5mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Thymosin Alpha-1 5mg"
+[/QUOTE]
+
+[CLAIM] claim-nad-500mg
+[URL] https://orosresearch.com/products/nad-500mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_16__nad-500mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  NAD+ 500mg"
+[/QUOTE]
+
+[CLAIM] claim-melanotan-2-10mg
+[URL] https://orosresearch.com/products/melanotan-2-10mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_17__melanotan-2-10mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Melanotan-2 10mg"
+[/QUOTE]
+
+[CLAIM] claim-kpv-15mg
+[URL] https://orosresearch.com/products/kpv-15mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_18__kpv-15mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  KPV 15mg"
+[/QUOTE]
+
+[CLAIM] claim-dsip-5mg
+[URL] https://orosresearch.com/products/dsip-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_19__dsip-5mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  DSIP 5mg"
+[/QUOTE]
+
+[CLAIM] claim-aod-9604-5mg
+[URL] https://orosresearch.com/products/aod-9604
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_20__aod-9604.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  AOD-9604 5mg"
+[/QUOTE]
+
+[CLAIM] claim-pinealon-20mg
+[URL] https://orosresearch.com/products/pinealon-20mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_21__pinealon-20mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Pinealon 20mg"
+[/QUOTE]
+
+[CLAIM] claim-glp-1r-10mg
+[URL] https://orosresearch.com/products/glp-1r-10mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_22__glp-1r-10mg.md
+[LINE_RANGE] 92-110
+[QUOTE]
+"#  GLP-1R (GLP3) 10mg
+
+Lot: OR-LPGLPR10-426-B6
+
+Grade: Laboratory
+
+Purity: >99%
+
+Vial Size: 3ml
+
+Regular price $149.99 USD"
+[/QUOTE]
+
+[CLAIM] claim-glp-1s-10mg
+[URL] https://orosresearch.com/products/glp-1s-10mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_23__glp-1s-10mg.md
+[LINE_RANGE] 92-110
+[QUOTE]
+"#  GLP-1S (GLP1) 10mg
+
+Lot: OR-LPGLPS10-426-B3
+
+Grade: Laboratory
+
+Purity: >99%
+
+Vial Size: 3ml
+
+Regular price $89.99 USD"
+[/QUOTE]
+
+[CLAIM] claim-glp-1t-10mg
+[URL] https://orosresearch.com/products/glp-1t-10mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_24__glp-1t-10mg.md
+[LINE_RANGE] 92-110
+[QUOTE]
+"#  GLP-1T (GLP2) 10mg
+
+Lot: OR-LPGLPT10-426-B3
+
+Grade: Laboratory
+
+Purity: >99%
+
+Vial Size: 3ml
+
+Regular price $139.99 USD"
+[/QUOTE]
+
+[CLAIM] claim-glp-1r-5mg
+[URL] https://orosresearch.com/products/glp-1r-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_32__glp-1r-5mg.md
+[LINE_RANGE] 92-110
+[QUOTE]
+"#  GLP-1R (GLP3) 5mg"
+[/QUOTE]
+
+[CLAIM] claim-glp-1s-5mg
+[URL] https://orosresearch.com/products/glp-1s-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_33__glp-1s-5mg.md
+[LINE_RANGE] 92-110
+[QUOTE]
+"#  GLP-1S (GLP1) 5mg"
+[/QUOTE]
+
+[CLAIM] claim-glp-1t-5mg
+[URL] https://orosresearch.com/products/glp-1t-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_34__glp-1t-5mg.md
+[LINE_RANGE] 92-110
+[QUOTE]
+"#  GLP-1T (GLP2) 5mg"
+[/QUOTE]
+
+[CLAIM] claim-glp-1r-20mg
+[URL] https://orosresearch.com/products/glp-1r-20mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_35__glp-1r-20mg.md
+[LINE_RANGE] 92-110
+[QUOTE]
+"#  GLP-1R (GLP3) 20mg"
+[/QUOTE]
+
+[CLAIM] claim-cartalax-20mg
+[URL] https://orosresearch.com/products/cartalax-20mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_25__cartalax-20mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Cartalax 20mg"
+[/QUOTE]
+
+[CLAIM] claim-kisspeptin-10-5mg
+[URL] https://orosresearch.com/products/kisspeptin-10-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_26__kisspeptin-10-5mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Kisspeptin-10 5mg"
+[/QUOTE]
+
+[CLAIM] claim-tesamorelin-5mg
+[URL] https://orosresearch.com/products/tesamorelin-5mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_27__tesamorelin-5mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Tesamorelin 5mg"
+[/QUOTE]
+
+[CLAIM] claim-testagen-20mg
+[URL] https://orosresearch.com/products/testagen-20mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_28__testagen-20mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Testagen 20mg"
+[/QUOTE]
+
+[CLAIM] claim-wolverine-10mg
+[URL] https://orosresearch.com/products/bpc-157-tb-500-10mg-blend
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_29__bpc-157-tb-500-10mg-blend.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Wolverine - BPC-157 5mg, TB-500 5mg (10mg Blend)"
+[/QUOTE]
+
+[CLAIM] claim-wolverine-20mg
+[URL] https://orosresearch.com/products/bpc-157-10mg-tb-500-10mg-20mg-blend
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_37__bpc-157-10mg-tb-500-10mg-20mg-blend.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Wolverine - BPC-157 10mg, TB-500 10mg (20mg Blend)"
+[/QUOTE]
+
+[CLAIM] claim-cjc-ipa-10mg
+[URL] https://orosresearch.com/products/cjc-1295-ipamorelin-10mg-blend
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_30__cjc-1295-ipamorelin-10mg-blend.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  CJC-1295 5mg, Ipamorelin 5mg (10mg Blend)"
+[/QUOTE]
+
+[CLAIM] claim-cjc-ipa-20mg
+[URL] https://orosresearch.com/products/cjc-1295-10mg-ipamorelin-10mg-20mg-blend
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_51__cjc-1295-10mg-ipamorelin-10mg-20mg-blend.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  CJC-1295 10mg, Ipamorelin 10mg (20mg Blend)"
+[/QUOTE]
+
+[CLAIM] claim-sermorelin-ipa-blend
+[URL] https://orosresearch.com/products/sermorelin-5mg-ipamorelin-5mg-10mg-blend
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_31__sermorelin-5mg-ipamorelin-5mg-10mg-blend.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Sermorelin 5mg, Ipamorelin 5mg (10mg Blend)"
+[/QUOTE]
+
+[CLAIM] claim-ss31-mots-c-blend
+[URL] https://orosresearch.com/products/ss-31-10mg-mots-c-10mg-20mg-blend
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_36__ss-31-10mg-mots-c-10mg-20mg-blend.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  SS-31 10mg, MOTS-C 10mg (20mg blend)"
+[/QUOTE]
+
+[CLAIM] claim-regen-40mg
+[URL] https://orosresearch.com/products/ara-290-30mg-bpc-157-5mg-tb-500-5mg-40mg-blend
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_39__ara-290-30mg-bpc-157-5mg-tb-500-5mg-40mg-blend.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Regen - ARA-290 30mg, BPC-157 5mg, TB-500 5mg (40mg Blend)"
+[/QUOTE]
+
+[CLAIM] claim-glow-70mg
+[URL] https://orosresearch.com/products/glow-ghk-cu-70mg-bpc-157-10mg-tb-500-10mg-70mg-blend
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_40__glow-ghk-cu-70mg-bpc-157-10mg-tb-500-10mg-70mg-blend.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  GLOW - GHK-Cu 50mg, BPC-157 10mg, TB-500 10mg (70mg Blend)"
+[/QUOTE]
+
+[CLAIM] claim-klow-80mg
+[URL] https://orosresearch.com/products/klow-ghk-cu-50mg-bpc-157-10mg-tb-500-10mg-kpv-10mg-80mg-blend
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_41__klow-ghk-cu-50mg-bpc-157-10mg-tb-500-10mg-kpv-10mg-80mg-blend.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  KLOW - GHK-Cu 50mg, BPC-157 10mg, TB-500 10mg, KPV 10mg (80mg Blend)"
+[/QUOTE]
+
+[CLAIM] claim-slu-pp-332-cap
+[URL] https://orosresearch.com/products/slu-pp-332-1000mcg-60-capsules
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_42__slu-pp-332-1000mcg-60-capsules.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  SLU-PP-332 1000mcg (60 Capsules)"
+[/QUOTE]
+
+[CLAIM] claim-bpc-157-arginate-cap
+[URL] https://orosresearch.com/products/bpc-157-500mcg-60-capsules
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_43__bpc-157-500mcg-60-capsules.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  BPC-157 Arginate 500mcg (60 Capsules)"
+[/QUOTE]
+
+[CLAIM] claim-aura-blend
+[URL] https://orosresearch.com/products/aura-blend-ghk-cu-70mg-epithalon-10mg-snap-8-10mg-kpv-10mg-100mg-blend
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_44__aura-blend-ghk-cu-70mg-epithalon-10mg-snap-8-10mg-kpv-10mg-100mg-blend.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  AURA - GHK-Cu 70mg, Epithalon 10mg, Snap-8 10mg, KPV 10mg (100mg Blend)"
+[/QUOTE]
+
+[CLAIM] claim-semax-selank-blend
+[URL] https://orosresearch.com/products/semax-n-acetyl-9mg-selank-n-acetyl-6mg-15mg-blend
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_45__semax-n-acetyl-9mg-selank-n-acetyl-6mg-15mg-blend.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Semax N-Acetyl 9mg, Selank N-Acetyl 6mg (15mg Blend)"
+[/QUOTE]
+
+[CLAIM] claim-recon-30ml
+[URL] https://orosresearch.com/products/reconstitution-solution
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_46__reconstitution-solution.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Reconstitution Solution 30ml"
+[/QUOTE]
+
+[CLAIM] claim-recon-10ml
+[URL] https://orosresearch.com/products/reconstitution-solution-10ml
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_47__reconstitution-solution-10ml.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Reconstitution Solution 10ml"
+[/QUOTE]
+
+[CLAIM] claim-5-amino-1mq-50mg
+[URL] https://orosresearch.com/products/5-amino-1mq-50mg-5-amino-1-methylquinolinium
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_48__5-amino-1mq-50mg-5-amino-1-methylquinolinium.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  5-Amino-1MQ 50mg"
+[/QUOTE]
+
+[CLAIM] claim-tesamorelin-10mg
+[URL] https://orosresearch.com/products/tesamorelin-10mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_49__tesamorelin-10mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Tesamorelin 10mg"
+[/QUOTE]
+
+[CLAIM] claim-mots-c-20mg
+[URL] https://orosresearch.com/products/mots-c-20mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_50__mots-c-20mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  MOTS-C 20mg"
+[/QUOTE]
+
+[CLAIM] claim-tesamorelin-ipa-blend
+[URL] https://orosresearch.com/products/tesamorelin-16mg-ipamorelin-4mg-20mg-blend
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_38__tesamorelin-16mg-ipamorelin-4mg-20mg-blend.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Tesamorelin 16mg, Ipamorelin 4mg (20mg Blend)"
+[/QUOTE]
+
+[CLAIM] claim-gut-matrix
+[URL] https://orosresearch.com/products/gut-matrix-201mg
+[FETCHED_AT] 2026-05-07T18:17:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oros-research/product_52__gut-matrix-201mg.md
+[LINE_RANGE] 92-105
+[QUOTE]
+"#  Gut Matrix - Micro PEA, BPC-157 Arginate, KPV, N-Acetyl Larazotide 201mg Blend (60 Capsules)"
+[/QUOTE]

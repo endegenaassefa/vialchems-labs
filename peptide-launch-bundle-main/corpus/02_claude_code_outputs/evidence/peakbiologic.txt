@@ -1,0 +1,570 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:06:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/homepage.md
+[LINE_RANGE] 61-67
+[QUOTE]
+"Trusted by Real Customers
+
+See why customers choose PeakBiologic for quality, speed, and reliability. Browse our verified Trustpilot reviews or share your experience to help others shop with confidence.
+
+★★★★★ Trusted Reviews on Trustpilot"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:06:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/homepage.md
+[LINE_RANGE] 192-192
+[QUOTE]
+All products on **Peakbiologic.com** are intended strictly for laboratory research and development purposes only. These products are not approved by the U.S. Food and Drug Administration (FDA) for human consumption or medical use of any kind. The statements provided on this website have not been evaluated by the FDA. Nothing on this site is intended to diagnose, treat, cure, or prevent any disease. **Peakbiologic.com** is not a compounding pharmacy or a chemical compounding facility as defined under Section 503A of the Federal Food, Drug, and Cosmetic Act, nor is it an outsourcing facility under Section 503B. By purchasing from Peakbiologic.com, you acknowledge and agree that all products will be used solely for lawful research, laboratory, or analytical purposes. Under no circumstances should these materials be used for human or veterinary applications. You accept full responsibility for the proper handling and legal use of any materials purchased through this site.
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:06:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/homepage.md
+[LINE_RANGE] 67-67
+[QUOTE]
+"[ View Reviews ](https://www.trustpilot.com/review/peakbiologic.com) [ Leave a Review ](https://www.trustpilot.com/review/peakbiologic.com)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:06:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/homepage.md
+[LINE_RANGE] 35-37
+[QUOTE]
+"  * [Shop](https://peakbiologic.com/shop/)
+  * [Checkout](https://peakbiologic.com/checkout/)
+  * [Contact Us](https://peakbiologic.com/contact-us/)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://peakbiologic.com/shop/
+[FETCHED_AT] 2026-05-08T06:06:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/catalog_1.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"Showing 1–12 of 37 results"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://peakbiologic.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:07:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/product_1__bpc-157-10mg.md
+[LINE_RANGE] 71-84
+[QUOTE]
+"#  BPC-157 10mg
+
+~~$ 46.00~~ Original price was: $46.00.$34.40Current price is: $34.40."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://peakbiologic.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:07:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/product_1__bpc-157-10mg.md
+[LINE_RANGE] 124-125
+[QUOTE]
+"BPC-157 is a synthetic peptide fragment derived from a protective protein sequence.
+It is widely investigated in cellular repair signaling models, cytoprotective pathway research, and angiogenic communication studies within controlled laboratory environments."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://peakbiologic.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:07:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/product_1__bpc-157-10mg.md
+[LINE_RANGE] 154-154
+[QUOTE]
+"  * For research applications only"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://peakbiologic.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:07:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/product_1__bpc-157-10mg.md
+[LINE_RANGE] 116-117
+[QUOTE]
+"  * Description
+  * Reviews (0)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://peakbiologic.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:07:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/product_1__bpc-157-10mg.md
+[LINE_RANGE] 168-172
+[QUOTE]
+"###  Reviews
+
+There are no reviews yet.
+
+### Be the first to review \"BPC-157 10mg\" [Cancel reply](/product/bpc-157-10mg/#respond)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://peakbiologic.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:07:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/product_1__bpc-157-10mg.md
+[LINE_RANGE] 178-183
+[QUOTE]
+"###  Related products
+
+Sale!
+
+[ ](https://peakbiologic.com/product/lipo-c-with-methylcobalamin-b12/)
+
+Quick View"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:06:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/homepage.md
+[LINE_RANGE] 192-192
+[QUOTE]
+All products on **Peakbiologic.com** are intended strictly for laboratory research and development purposes only.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:06:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/homepage.md
+[LINE_RANGE] 175-175
+[QUOTE]
+"  * [Terms & Conditions](https://peakbiologic.com/terms-conditions/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://peakbiologic.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T06:07:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/tos.md
+[LINE_RANGE] 73-75
+[QUOTE]
+"  * All materials are supplied for research applications
+  * Product listings describe laboratory characteristics only
+  * No guarantees are made regarding experimental outcomes
+  * Improper handling voids eligibility for return"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://peakbiologic.com/shipping-returns/
+[FETCHED_AT] 2026-05-08T06:07:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/shipping.md
+[LINE_RANGE] 82-88
+[QUOTE]
+"  * Request submitted within **15 days** of delivery
+  * Product must remain unopened and unused
+  * Original packaging must be intact
+  * Return authorization required prior to shipping back"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://peakbiologic.com/shipping-returns/
+[FETCHED_AT] 2026-05-08T06:07:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/shipping.md
+[LINE_RANGE] 63-70
+[QUOTE]
+"Orders are processed and shipped **five days per week**. Once an order is prepared and dispatched, a shipping confirmation will be issued when tracking becomes available.
+
+  * Orders ship on business days only
+  * Processing occurs in the order received
+  * Tracking details provided after dispatch
+  * Delivery times depend on carrier transit speed"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+Homepage text begins directly with "Skip to content" and navigation links. No interstitial, age verification prompt, or age-confirmation modal is present in the rendered homepage text. The product pages also load without any age gate.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:06:21Z
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/homepage.md
+[LINE_RANGE] 8-10
+Skip to content
+
+  * **Contact us PeakBioLogic@gmail.com or (661) 427-0668**
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peakbiologic.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:07:16Z
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/product_1__bpc-157-10mg.md
+[LINE_RANGE] 7-9
+Skip to content
+
+  * **Contact us PeakBioLogic@gmail.com or (661) 427-0668**
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[INFERENCE] none
+[REASONING]
+The TOS page and homepage footer contain no language restricting sales to specific US states or international territories. The TOS mentions "compliance with applicable laws and regulations in your location" but names no specific jurisdictions. No separate jurisdictional-restriction page was found in the site navigation.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peakbiologic.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T06:07:47Z
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/tos.md
+[LINE_RANGE] 63-65
+By accessing or purchasing from PeakBiologic, you agree to the terms outlined below. Please review carefully before using this website or placing an order.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peakbiologic.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T06:07:47Z
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/tos.md
+[LINE_RANGE] 69-70
+By using this site, you acknowledge responsibility for ensuring compliance with applicable laws and regulations in your location.
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:08:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/source_homepage.md
+[LINE_RANGE] 1-1221
+[QUOTE]
+<link rel='stylesheet' id='wc-blocks-style-css' href='https://peakbiologic.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-10.6.0' type='text/css' media='all' />
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:08:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/source_homepage.md
+[LINE_RANGE] 280-283
+[QUOTE]
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] nginx with x-proxy-cache
+[REASONING]
+HTTP response headers observed during raw HTML fetch (curl with same UA as curl_fetch.py) showed "server: nginx" and "x-proxy-cache: HIT" and "x-proxy-cache-info: DT:1". These headers indicate nginx serving with a proxy cache layer. The response headers are not captured in source_homepage.md (which stores HTML body only) so this is an inference from the observed HTTP response.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:08:37Z
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/source_homepage.md
+[LINE_RANGE] 1-5
+---
+url: https://peakbiologic.com/
+fetched_at: 2026-05-08T06:08:37Z
+fetch_method: curl
+sha256: 0079f4e6b9a38613f98d23ad103b314d8cc7f4a174e487c059b01e062eae35a4
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:06:21Z
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/homepage.md
+[LINE_RANGE] 1-6
+---
+url: https://peakbiologic.com
+fetched_at: 2026-05-08T06:06:21Z
+fetch_method: curl
+http_status: 200
+sha256: e7abd0c209197c594a2df6110fd8d1903804630be13e140b832bca15daa3e0e5
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://peakbiologic.com/shop/
+[FETCHED_AT] 2026-05-08T06:06:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/catalog_1.md
+[LINE_RANGE] 115-122
+[QUOTE]
+"[BPC-157 10mg + TB-500 10mg Combo](https://peakbiologic.com/product/bpc-157-10mg-tb-500-10mg-combo/)
+
+~~$ 82.00~~ Original price was: $82.00.$59.50Current price is: $59.50."
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:06:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/homepage.md
+[LINE_RANGE] 63-67
+[QUOTE]
+"★★★★★ Trusted Reviews on Trustpilot
+
+[ View Reviews ](https://www.trustpilot.com/review/peakbiologic.com) [ Leave a Review ](https://www.trustpilot.com/review/peakbiologic.com)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://peakbiologic.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:07:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/product_1__bpc-157-10mg.md
+[LINE_RANGE] 168-170
+[QUOTE]
+"###  Reviews
+
+There are no reviews yet."
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[INFERENCE] false
+[REASONING]
+The site navigation renders only three links: Shop, Checkout, Contact Us. No blog or news or education link appears. A direct fetch of /blog/ returned HTTP 404. The footer policy links are Terms & Conditions, Privacy Policy, Shipping & Returns, FAQ — no blog link present.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:06:21Z
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/homepage.md
+[LINE_RANGE] 35-37
+  * [Shop](https://peakbiologic.com/shop/)
+  * [Checkout](https://peakbiologic.com/checkout/)
+  * [Contact Us](https://peakbiologic.com/contact-us/)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:06:21Z
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/homepage.md
+[LINE_RANGE] 175-178
+  * [Terms & Conditions](https://peakbiologic.com/terms-conditions/)
+  * [Privacy Policy](https://peakbiologic.com/privacy-policy-2/)
+  * [Shipping & Returns](https://peakbiologic.com/shipping-returns/)
+  * [FAQ](https://peakbiologic.com/faq/)
+[/SUPPORT_QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2026
+[REASONING]
+The homepage schema.org metadata (retrieved from raw HTML source) contains datePublished 2026-02-21T17:47:21+00:00, and the copyright footer reads "© 2026 PeakBiologic.com". Image upload paths also contain /2026/02/. Together these indicate the site was created and first published in February 2026.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:08:37Z
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/source_homepage.md
+[LINE_RANGE] 1-1221
+"datePublished":"2026-02-21T17:47:21+00:00"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:06:21Z
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/homepage.md
+[LINE_RANGE] 194-194
+"© 2026 PeakBiologic.com • peakbiologic@gmail.com • (661) 427-0668 • All Rights Reserved"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[bpc-157-10mg].list_price_usd
+[URL] https://peakbiologic.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:07:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/product_1__bpc-157-10mg.md
+[LINE_RANGE] 84-84
+[QUOTE]
+"~~$ 46.00~~ Original price was: $46.00.$34.40Current price is: $34.40."
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-20mg].list_price_usd
+[URL] https://peakbiologic.com/shop/
+[FETCHED_AT] 2026-05-08T06:06:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/catalog_1.md
+[LINE_RANGE] 174-176
+[QUOTE]
+"[BPC-157 20mg](https://peakbiologic.com/product/bpc-157-20mg/)
+
+~~$ 87.00~~ Original price was: $87.00.$62.90Current price is: $62.90."
+[/QUOTE]
+
+[CLAIM] skus[tb-500-10mg].list_price_usd
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:06:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/homepage.md
+[LINE_RANGE] 135-137
+[QUOTE]
+"[TB-500, 10mg](https://peakbiologic.com/product/tb-500-10mg/)
+
+$55.00"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg].list_price_usd
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:06:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/homepage.md
+[LINE_RANGE] 147-149
+[QUOTE]
+"[GHK-CU 50mg](https://peakbiologic.com/product/ghk-cu-50mg/)
+
+$25.00"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-1g-raw-powder].list_price_usd
+[URL] https://peakbiologic.com/shop/page/2/
+[FETCHED_AT] 2026-05-08T06:06:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/catalog_2.md
+[LINE_RANGE] 70-73
+[QUOTE]
+"[GHK-CU 1g Raw Powder](https://peakbiologic.com/product/ghk-cu-1g-raw-powder/)
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] skus[nad-500mg].list_price_usd
+[URL] https://peakbiologic.com
+[FETCHED_AT] 2026-05-08T06:06:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/homepage.md
+[LINE_RANGE] 123-125
+[QUOTE]
+"[NAD+ 500mg](https://peakbiologic.com/product/nad-500mg/)
+
+$55.00"
+[/QUOTE]
+
+[CLAIM] skus[mots-c-40mg].list_price_usd
+[URL] https://peakbiologic.com/shop/page/3/
+[FETCHED_AT] 2026-05-08T06:06:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/catalog_3.md
+[LINE_RANGE] 100-103
+[QUOTE]
+"[MOTS-C 40mg](https://peakbiologic.com/product/mots-c-40mg/)
+
+$58.00"
+[/QUOTE]
+
+[CLAIM] skus[selank-10mg].list_price_usd
+[URL] https://peakbiologic.com/shop/page/3/
+[FETCHED_AT] 2026-05-08T06:06:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/catalog_3.md
+[LINE_RANGE] 139-142
+[QUOTE]
+"[Selank 10mg](https://peakbiologic.com/product/selank-10mg/)
+
+~~$ 32.00~~ Original price was: $32.00.$25.00Current price is: $25.00."
+[/QUOTE]
+
+[CLAIM] skus[semax-10mg].list_price_usd
+[URL] https://peakbiologic.com/shop/page/3/
+[FETCHED_AT] 2026-05-08T06:06:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/catalog_3.md
+[LINE_RANGE] 147-150
+[QUOTE]
+"[Semax 10mg](https://peakbiologic.com/product/semax-10mg/)
+
+~~$ 34.00~~ Original price was: $34.00.$25.00Current price is: $25.00."
+[/QUOTE]
+
+[CLAIM] skus[ipamorelin-10mg].list_price_usd
+[URL] https://peakbiologic.com/shop/page/2/
+[FETCHED_AT] 2026-05-08T06:06:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/catalog_2.md
+[LINE_RANGE] 162-165
+[QUOTE]
+"[Ipamorelin 10mg](https://peakbiologic.com/product/ipamorelin-10mg/)
+
+~~$ 72.00~~ Original price was: $72.00.$52.50Current price is: $52.50."
+[/QUOTE]
+
+[CLAIM] skus[dsip-10mg].list_price_usd
+[URL] https://peakbiologic.com/shop/
+[FETCHED_AT] 2026-05-08T06:06:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/catalog_1.md
+[LINE_RANGE] 209-212
+[QUOTE]
+"[DSIP 10mg](https://peakbiologic.com/product/dsip-10mg/)
+
+~~$ 59.00~~ Original price was: $59.00.$43.70Current price is: $43.70."
+[/QUOTE]
+
+[CLAIM] skus[epithalon-50mg].list_price_usd
+[URL] https://peakbiologic.com/shop/
+[FETCHED_AT] 2026-05-08T06:06:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/catalog_1.md
+[LINE_RANGE] 217-220
+[QUOTE]
+"[EPITHALON 50mg](https://peakbiologic.com/product/epithalon-50mg/)
+
+~~$ 105.00~~ Original price was: $105.00.$74.00Current price is: $74.00."
+[/QUOTE]
+
+[CLAIM] skus[cjc-1295-no-dac-10mg].list_price_usd
+[URL] https://peakbiologic.com/shop/
+[FETCHED_AT] 2026-05-08T06:06:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/catalog_1.md
+[LINE_RANGE] 191-194
+[QUOTE]
+"[CJC-1295 no dac 10mg](https://peakbiologic.com/product/cjc-1295-no-dac-10mg/)
+
+~~$ 37.00~~ Original price was: $37.00.$29.00Current price is: $29.00."
+[/QUOTE]
+
+[CLAIM] skus[pt-141-10mg].list_price_usd
+[URL] https://peakbiologic.com/shop/page/3/
+[FETCHED_AT] 2026-05-08T06:06:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/catalog_3.md
+[LINE_RANGE] 113-117
+[QUOTE]
+"Out of stock
+
+Peptides
+
+[PT-141, 10mg](https://peakbiologic.com/product/pt-141-10mg/)
+
+~~$ 40.00~~ Original price was: $40.00.$30.00Current price is: $30.00."
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-tb-500-combo-10mg].list_price_usd
+[URL] https://peakbiologic.com/shop/
+[FETCHED_AT] 2026-05-08T06:06:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/catalog_1.md
+[LINE_RANGE] 113-118
+[QUOTE]
+"[BPC-157 10mg + TB-500 10mg Combo](https://peakbiologic.com/product/bpc-157-10mg-tb-500-10mg-combo/)
+
+~~$ 82.00~~ Original price was: $82.00.$59.50Current price is: $59.50."
+[/QUOTE]
+
+[CLAIM] skus[5-amino-1mq-50mg].list_price_usd
+[URL] https://peakbiologic.com/shop/
+[FETCHED_AT] 2026-05-08T06:06:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/catalog_1.md
+[LINE_RANGE] 78-81
+[QUOTE]
+"[5-Amino-1mq 50mg](https://peakbiologic.com/product/5-amino-1mq-50mg/)
+
+~~$ 95.00~~ Original price was: $95.00.$68.50Current price is: $68.50."
+[/QUOTE]
+
+[CLAIM] skus[sermorelin-10mg].list_price_usd
+[URL] https://peakbiologic.com/shop/page/3/
+[FETCHED_AT] 2026-05-08T06:06:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peakbiologic/catalog_3.md
+[LINE_RANGE] 155-158
+[QUOTE]
+"[Sermorelin 10mg](https://peakbiologic.com/product/sermorelin-10mg/)
+
+~~$ 74.00~~ Original price was: $74.00.$54.00Current price is: $54.00."
+[/QUOTE]

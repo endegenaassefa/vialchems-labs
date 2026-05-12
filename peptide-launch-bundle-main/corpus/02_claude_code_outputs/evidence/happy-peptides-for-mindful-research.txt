@@ -1,0 +1,647 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 66-68
+[QUOTE]
+"#  The Premier Source for High Purity Research Compounds
+
+Empower your research with the highest quality, lab-tested compounds. Create your account and get started today."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 70
+[QUOTE]
+"CREATE YOUR ACCOUNT  [ EXISTING CUSTOMERS ](javascript:void\(0\);)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 9-22
+[QUOTE]
+"  * [ Home ](/)
+  * [ Shop ](/collections)
+  * [ FAQ ](/apps/faqs)
+  * [ Contact ](/pages/contact)
+
+[ Account ](/account)
+
+[ Cart ](/cart)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 72-80
+[QUOTE]
+"##  A NEW STANDARD IN RESEARCH SUPPLY
+
+Purity Guaranteed
+
+USA & CAN
+
+Third Party Tested
+
+Dedicated Support"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 219-219
+[QUOTE]
+"**Disclaimer:** The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease. Mindful Research is a chemical supplier. Mindful Research is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. Mindful Research is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic act. All products on this site are sold only as research chemicals. Products are offered for in vitro research, laboratory testing & analytical purposes only. Products are not to be used in any human or animal application."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://happypeptides.com/pages/terms-conditions
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/tos.md
+[LINE_RANGE] 235
+[QUOTE]
+"This Agreement and its performance shall be governed by the laws of the State of Florida, U.S.A., without regard to its conflict of laws provisions. If the arbitration provision below is found to be unenforceable, you consent and submit to the exclusive jurisdiction of the state and federal courts located in Seminole County, Florida, for all controversies arising out of your use of the Site."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://happypeptides.com/pages/payment-shipping
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/shipping.md
+[LINE_RANGE] 73
+[QUOTE]
+"  * **Carriers:** We ship all domestic orders via **UPS** and **USPS**. You can select your preferred carrier and service level during the checkout process."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 76
+[QUOTE]
+"USA & CAN"
+[/QUOTE]
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 199
+[QUOTE]
+"Country United States Canada Mexico United Kingdom"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://happypeptides.com/products.json?limit=50
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_1.md
+[LINE_RANGE] 8-8
+[QUOTE]
+[ENUMERATION] Counted from products.json API across 2 pages:
+Page 1 (products.json?limit=50): 50 products
+Page 2 (products.json?limit=50&page=2): 14 products
+Page 3 (products.json?limit=50&page=3): 0 products (end of catalog)
+Total: 64 product titles (multiple variants per product; count reflects distinct product titles)
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://happypeptides.com/products.json?limit=50&page=2
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_2.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"title":"BPC-157, TB-500","handle":"bpc-157-tb-500"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://happypeptides.com/products.json?limit=50&page=2
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_2.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"title":"BPC-157","handle":"bpc-157"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://happypeptides.com/products.json?limit=50&page=2
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_2.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"available":true,"price":"40.00","grams"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://happypeptides.com/products.json?limit=50&page=2
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_2.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"available":true,"price":"40.00","grams"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://happypeptides.com/products.json?limit=50&page=2
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_2.md
+[LINE_RANGE] 8-8
+[QUOTE]
+BPC-157 is a synthetic pentadecapeptide with the amino acid sequence Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://happypeptides.com/products.json?limit=50&page=2
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_2.md
+[LINE_RANGE] 8-8
+[QUOTE]
+Intended Use
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 127-129
+[QUOTE]
+"## Transparent & Verified Testing
+
+We believe in complete transparency. Third-party test results for purity, content, endotoxin and/or sterility are available on every product page, so you can be confident in the integrity of your research materials."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 131-155
+[QUOTE]
+"[ ](https://cdn.shopify.com/s/files/1/0870/7276/8319/files/Sample_Test_Report_83617.png?v=1762007801)
+
+### Purity & Content
+
+Verifying the identity and concentration of the compound.
+
+[View Example ->](https://cdn.shopify.com/s/files/1/0870/7276/8319/files/Sample_Test_Report_83617.png?v=1762007801)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[INFERENCE] false
+[REASONING]
+No review module text appeared on the homepage or in the accessible portions of the BPC-157 product page fetched via curl. The homepage prominently references "Trusted by Researchers Worldwide" followed by category labels (University Labs, Bio-Tech Startups, Independent Researchers) but no star ratings, review counts, or user-generated content.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 157-165
+"## Trusted by Researchers Worldwide
+
+We're proud to support the scientific community with reliable, high-purity products.
+
+#### University Labs
+
+#### Bio-Tech Startups
+
+#### Independent Researchers"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://happypeptides.com/products/bpc-157
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/product_1__bpc-157.md
+[LINE_RANGE] 44-50
+"The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease."
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 244
+[QUOTE]
+"**All products on this site are sold only as research chemicals.** Products are offered for in vitro research, laboratory testing & analytical purposes only. Products are not to be used in any human or animal application."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://happypeptides.com/pages/terms-conditions
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/tos.md
+[LINE_RANGE] 48
+[QUOTE]
+"By accessing the Site or placing an order, you, the buyer, acknowledge that you have read, understood, and agree to be bound by all terms, conditions, and disclaimers set forth in this Agreement. You must be at least twenty-one (21) years of age to use this Site and purchase products."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://happypeptides.com/pages/terms-conditions
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/tos.md
+[LINE_RANGE] 60-70
+[QUOTE]
+"  * You are at least twenty-one (21) years of age.
+
+  * You are a qualified and trained professional associated with a laboratory, institution, university, or other research-based facility.
+
+  * You have personally reviewed and studied the products and are fully aware of all health and safety hazards associated with their handling, use, storage, and disposal.
+
+  * You will handle all products in strict compliance with all applicable local, state, and federal laws and regulations.
+
+  * You will not use the products for any purpose other than their intended in vitro research use."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://happypeptides.com/pages/terms-conditions
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/tos.md
+[LINE_RANGE] 44-46
+[QUOTE]
+"# Terms and Conditions Agreement
+
+This Terms and Conditions agreement (the "Agreement") governs your access to and use of the happypeptides.com website and its associated services (collectively, the "Site"), operated by Mindful Research LLC"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://happypeptides.com/policies/refund-policy
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/refund.md
+[LINE_RANGE] 44-52
+[QUOTE]
+"## **Return & Refund Policy**
+
+### **Our Policy: All Sales Are Final**
+
+Due to the nature of our products, **all sales are final.** To ensure the integrity, purity, and safety of the research compounds we supply, we cannot accept returns, exchanges, or refunds for any products once they have been shipped."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://happypeptides.com/pages/payment-shipping
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/shipping.md
+[LINE_RANGE] 67-83
+[QUOTE]
+"### 2\. Domestic Shipping (U.S.)
+
+  * **Carriers:** We ship all domestic orders via **UPS** and **USPS**. You can select your preferred carrier and service level during the checkout process.
+  * **Shipping Costs:** Shipping charges for your order will be calculated and displayed at checkout based on the service you select.
+  * **Special Note for Florida Shipments:** All shipments to destinations within Florida are sent via **UPS Ground** and have an estimated transit time of **1-2 business days**."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 88-100
+[QUOTE]
+"###  Create Your Account
+
+Set up your secure account in seconds to access our full product catalog and easy ordering.
+
+...
+
+### Verify Research Qualifications
+
+To create your account, **review our[Terms & Conditions](https://happypeptides.com/pages/terms-conditions "terms & conditions")** and provide all necessary business information and Date of Birth**."
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 190-210
+[QUOTE]
+"First Name
+
+Last Name
+
+Email
+
+Password
+
+Phone
+
+Street Address
+
+Apartment, suite, etc.
+
+City
+
+Zip/Postal Code
+
+Country United States Canada Mexico United Kingdom
+
+Company Name
+
+Business Type Business Type Independent Research Facility Research Labs/Institution Universities Medical Research Facilities Businesses Other
+
+Tax ID
+
+NPI #
+
+DEA #
+
+Medical Representative"
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://happypeptides.com/pages/terms-conditions
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/tos.md
+[LINE_RANGE] 75-76
+[QUOTE]
+"Mindful Research LLC reserves the right to conduct due diligence and require additional verification of your affiliation before fulfilling any order."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://happypeptides.com/pages/payment-shipping
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/shipping.md
+[LINE_RANGE] 50-54
+[QUOTE]
+"  * Credit Cards - VIsa, Mastercard, Discover, American Express
+  * Afterpay
+  * Cashapp
+
+  * Cryptocurrency"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://happypeptides.com/pages/payment-shipping
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/shipping.md
+[LINE_RANGE] 73
+[QUOTE]
+"  * **Carriers:** We ship all domestic orders via **UPS** and **USPS**. You can select your preferred carrier and service level during the checkout process."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 40-40
+[QUOTE]
+Free Priority Express $550+
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 131
+[QUOTE]
+"[ ](https://cdn.shopify.com/s/files/1/0870/7276/8319/files/Sample_Test_Report_83617.png?v=1762007801)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://happypeptides.com/products.json?limit=50&page=2
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_2.md
+[LINE_RANGE] 8-8
+[QUOTE]
+cdn.shopify.com\/s\/files\/1\/0870\/7276\/8319\/files\/BPC-157
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://happypeptides.com/blogs/peptide-research
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/blog_1.md
+[LINE_RANGE] 51-55
+[QUOTE]
+"###  [BPC-157 vs. TB-500 in vitro mechanisms](/blogs/peptide-research/bpc-157-vs-tb-500-in-vitro-mechanisms-and-healing-pathways)
+January 6, 2026"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://happypeptides.com/blogs/peptide-research
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/blog_1.md
+[LINE_RANGE] 49
+[QUOTE]
+"#  Peptide Research"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://happypeptides.com/blogs/peptide-research
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/blog_1.md
+[LINE_RANGE] 51-117
+[QUOTE]
+"January 6, 2026
+...
+January 6, 2026
+...
+January 6, 2026
+...
+January 6, 2026
+...
+July 20, 2025"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://happypeptides.com/blogs/peptide-research
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/blog_1.md
+[LINE_RANGE] 53-90
+[QUOTE]
+"###  [BPC-157 vs. TB-500 in vitro mechanisms](/blogs/peptide-research/bpc-157-vs-tb-500-in-vitro-mechanisms-and-healing-pathways)
+...
+###  [GLP-1 Research: Advances, Mechanisms, and Future Directions](/blogs/peptide-research/glp-1-research)
+...
+###  [GH Secretagogues Research: Mechanisms, Assays, and Clinical Impact](/blogs/peptide-research/gh-secretagogues-research)
+...
+###  [GHK-Cu Research: Mechanisms, Applications, and Advances](/blogs/peptide-research/ghk-cu-research)"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[INFERENCE] false
+[REASONING]
+The blog index page shows post titles and dates but no author names in the rendered text of the blog listing page. Four blog posts are visible with dates (January 6, 2026 and July 20, 2025) and none include an author byline.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://happypeptides.com/blogs/peptide-research
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/blog_1.md
+[LINE_RANGE] 51-56
+"###  [BPC-157 vs. TB-500 in vitro mechanisms](/blogs/peptide-research/bpc-157-vs-tb-500-in-vitro-mechanisms-and-healing-pathways)
+January 6, 2026"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://happypeptides.com/blogs/peptide-research
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/blog_1.md
+[LINE_RANGE] 103-108
+"###  [A Researcher's Guide to Sermorelin: Structure and In Vitro Applications](/blogs/peptide-research/a-researchers-guide-to-sermorelin-structure-and-in-vitro-applications)
+July 20, 2025"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[INFERENCE] false
+[REASONING]
+The homepage section labeled "Trusted by Researchers Worldwide" lists only category labels (University Labs, Bio-Tech Startups, Independent Researchers) with no star ratings, customer quotes, or review counts. No review module text appeared in any accessible page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 157-165
+"## Trusted by Researchers Worldwide
+
+We're proud to support the scientific community with reliable, high-purity products.
+
+#### University Labs
+
+#### Bio-Tech Startups
+
+#### Independent Researchers"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://happypeptides.com/products/bpc-157
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/product_1__bpc-157.md
+[LINE_RANGE] 44-50
+"The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease."
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://happypeptides.com/
+[FETCHED_AT] 2026-05-07T23:08:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/homepage.md
+[LINE_RANGE] 157-165
+[QUOTE]
+"## Trusted by Researchers Worldwide
+
+We're proud to support the scientific community with reliable, high-purity products.
+
+#### University Labs
+
+#### Bio-Tech Startups
+
+#### Independent Researchers"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-8mg].list_price_usd
+[URL] https://happypeptides.com/products.json?limit=50&page=2
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_2.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"available":true,"price":"40.00","grams"
+[/QUOTE]
+
+[CLAIM] skus[tb-500-10mg].list_price_usd
+[URL] https://happypeptides.com/products.json?limit=50&page=2
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_2.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"handle":"tb-500"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg].list_price_usd
+[URL] https://happypeptides.com/products.json?limit=50&page=2
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_2.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"handle":"ghk-cu"
+[/QUOTE]
+
+[CLAIM] skus[epithalon-10mg].list_price_usd
+[URL] https://happypeptides.com/products.json?limit=50
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_1.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"handle":"epithalon"
+[/QUOTE]
+
+[CLAIM] skus[ss-31-10mg].list_price_usd
+[URL] https://happypeptides.com/products.json?limit=50
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_1.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"handle":"ss-31"
+[/QUOTE]
+
+[CLAIM] skus[mots-c-10mg].list_price_usd
+[URL] https://happypeptides.com/products.json?limit=50&page=2
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_2.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"handle":"mots-c"
+[/QUOTE]
+
+[CLAIM] skus[kpv-5mg].list_price_usd
+[URL] https://happypeptides.com/products.json?limit=50
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_1.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"handle":"kpv"
+[/QUOTE]
+
+[CLAIM] skus[igf-1-lr3-1mg].list_price_usd
+[URL] https://happypeptides.com/products.json?limit=50
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_1.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"handle":"igf-1-lr3"
+[/QUOTE]
+
+[CLAIM] skus[aod-9604-4mg].list_price_usd
+[URL] https://happypeptides.com/products.json?limit=50&page=2
+[FETCHED_AT] 2026-05-07T23:10:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/happy-peptides-for-mindful-research/catalog_2.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"handle":"aod-9604"
+[/QUOTE]

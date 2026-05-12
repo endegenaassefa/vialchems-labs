@@ -1,0 +1,90 @@
+{
+  "vendor_slug": "biolabshop-limited",
+  "brand_name": "Biolabshop Limited",
+  "primary_domain": "https://biolabshop.com",
+
+  "fetched_url": "https://biolabshop.com/",
+  "fetched_at": "2026-05-07T00:00:00Z",
+  "fetch_status": "partial",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned — operator seed list classified as Tier 3: Defunct (Eli Lilly litigation). Live site is reachable (HTTP 200) but the current store offers only antibodies and immunoassays; no peptide SKUs visible on live site or in any Wayback snapshot. Named respondent in USITC Investigation No. 337-TA-1377, found in default May 15, 2024. Baseline-only profile applied per Tier 3 instructions. Catalog, product-page anatomy, checkout, tech stack, blog, social proof, and SKU fields are outside Tier 3 scope per research_directive.md §2.1.",
+  "field_completion_ratio": 0.45,
+
+  "country_of_operation": "United Kingdom",
+  "fulfillment_country": "uncertain — site states worldwide shipping; ITC complaint notes package received from an address in Poland; no explicit fulfillment warehouse country stated on site",
+  "ship_to_scope": "uncertain — homepage states 'WORLDWIDE SHIPPING / We provide worldwide shipping so that your products arrive to you as soon as possible.' No US-specific shipping policy found; ITC complaint confirms importation into the United States occurred",
+  "year_established": "uncertain — earliest Wayback Machine snapshot is 2021-12-26; footer reads 'BioLab Shop © 2021'; year of incorporation with Companies House not confirmed",
+
+  "homepage": {
+    "hero_copy_excerpt": "WORLDWIDE SHIPPING We provide worldwide shipping so that your products arrive to you as soon as possible.",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "uncertain — no prominent CTA button visible in homepage rendered text; navigation link reads 'Antibodies and Immunoassays'",
+    "navigation_pattern": "Top nav: Home, Categories (Antibodies and Immunoassays), Contact us. Header also shows currency selector (EUR/GBP/USD), My Account, Shopping Cart, Checkout. Footer columns: Information (About Us, Delivery Information, Privacy Policy, Terms & Conditions), Extras (Brands, Specials, Site Map).",
+    "footer_disclaimers": "uncertain — Terms & Conditions page fetched (HTTP 200) but body content is empty; no verbatim disclaimer text found on live site or in any archived snapshot"
+  },
+
+  "catalog": "uncertain — Tier 3 BASELINE: catalog walk skipped per research_directive.md §2.1. Current live catalog shows only Antibodies and Immunoassays (10,845 products on OpenCart). No peptide SKUs observed.",
+
+  "product_page_anatomy": "uncertain — Tier 3 BASELINE: product page fetch skipped per research_directive.md §2.1. No peptide products visible on live site or in any Wayback snapshot reviewed.",
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain — no research-use-only disclaimer found on live site or in any archived snapshot",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "uncertain — no jurisdictional restriction page found",
+    "tos_url": "https://biolabshop.com/terms",
+    "tos_highlights": "uncertain — Terms & Conditions page fetched (HTTP 200) but body is empty; no substantive text captured",
+    "refund_policy": "uncertain — no refund/return policy content found",
+    "shipping_policy": "WORLDWIDE SHIPPING — 'We provide worldwide shipping so that your products arrive to you as soon as possible.'"
+  },
+
+  "checkout_flow": "uncertain — Tier 3 BASELINE: checkout walk skipped per research_directive.md §2.1. Payment icons visible in footer: Visa, PayPal.",
+
+  "tech_stack": {
+    "platform_signal": "opencart",
+    "cdn": "uncertain — Cloudflare CDN suspected (email obfuscation via cdn-cgi pattern in HTML); not confirmed from rendered text",
+    "analytics_tools_loaded": ["uncertain — Tier 3 BASELINE; source HTML not inspected"],
+    "marketing_pixels_present": ["uncertain — Tier 3 BASELINE; source HTML not inspected"],
+    "chat_widget_present": "uncertain — '24/7 SUPPORT / We provide excellent support trough email, live chat and on the phone.' claimed on homepage; no widget observed in rendered text"
+  },
+
+  "content_footprint": "uncertain — Tier 3 BASELINE: blog/content walk skipped per research_directive.md §2.1. 'Recent Posts' section label visible in footer but no posts listed.",
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": ["uncertain — no Trustpilot or other aggregator pages found for biolabshop.com in search results"],
+    "testimonial_usage": "none observed",
+    "visible_influencer_endorsements": "none observed"
+  },
+
+  "lab_posture": "uncertain — no COA, no lab partner, no testing language found on live site or in any archived snapshot; ITC complaint describes products as 'not tested for safety or sterility'",
+
+  "headline_skus": "uncertain — no peptide SKUs visible on live site or in any Wayback snapshot; site currently sells only Antibodies and Immunoassays. ITC complaint confirms Biolabshop sold tirzepatide-containing products (lyophilized powder) purporting to contain tirzepatide.",
+
+  "skus": [],
+
+  "litigation_status": {
+    "itc_case": "USITC Investigation No. 337-TA-1377",
+    "complainant": "Eli Lilly and Company of Indianapolis, Indiana",
+    "investigation_instituted": "2023-11-27",
+    "found_in_default": "2024-05-15",
+    "product_at_issue": "products containing tirzepatide and products purporting to contain tirzepatide",
+    "allegations": "importation into the United States, sale for importation, and sale within the United States after importation of certain products containing tirzepatide or purporting to contain tirzepatide by reason of false designation of source and false and misleading advertising, and by reason of infringement of U.S. Trademark No. 6,809,369",
+    "summary_determination": "Motion for summary determination of false designation of origin denied as to Biolabshop (Order No. 26, Dec. 6, 2024); motion for trademark infringement denied as to Biolabshop; Biolabshop found in default for failing to respond to complaint",
+    "remedy_issued": "Cease and desist order and/or limited exclusion order issued against defaulting respondents including Biolabshop in final disposition (investigation terminated 2025)"
+  },
+
+  "review_presence": "uncertain — no Trustpilot, Reddit, or forum reviews referencing biolabshop.com found in web search results; the brand does not appear in any peptide community source lists",
+
+  "last_activity": "2026 — live site copyright reads 'BioLab Shop © 2026'; site is operational as antibodies/immunoassays store. Peptide-related activity: ITC investigation terminated with exclusion and cease and desist orders approximately April 2025.",
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "biolabshop-limited,Biolabshop Limited,biolabshop.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list classified as Tier 3: Defunct due to Eli Lilly litigation.,3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/biolabshop-limited/",
+  "evidence_file": "evidence/biolabshop-limited.txt",
+  "uncertainty_notes": "country_of_operation: ITC complaint names 'Biolabshop Limited of Lancaster, United Kingdom' — United Kingdom confirmed from primary source. fulfillment_country: ITC complaint notes Poland-based shipment origin; site claims worldwide shipping; no explicit fulfillment country stated; marked uncertain. ship_to_scope: Homepage claims worldwide shipping; ITC confirms US importation; no explicit US-only or exclusion language; marked uncertain. year_established: Earliest Wayback snapshot December 2021; footer copyright shows 2021; no Companies House registration date confirmed; marked uncertain. homepage.primary_cta: No prominent CTA button text visible in rendered markdown of homepage; navigation is the only entry point; marked uncertain. homepage.footer_disclaimers: Terms & Conditions page fetches successfully (HTTP 200) but body is empty (OpenCart placeholder pages); no verbatim disclaimer captured; marked uncertain. catalog: Tier 3 BASELINE — catalog walk skipped per research_directive.md §2.1; current live catalog is antibodies/immunoassays only with 10,845 products; no peptide SKUs; marked uncertain. product_page_anatomy: Tier 3 BASELINE — product page fetch skipped per research_directive.md §2.1; no peptide products on live site or in any Wayback snapshot; marked uncertain. trust_compliance.research_use_only_phrasing: No research-use-only language found on any fetched page; current site is antibodies/lab supply only; marked uncertain. trust_compliance.jurisdictional_restriction_notice: No jurisdictional restriction page found on live site or in Wayback snapshots; marked uncertain. trust_compliance.tos_highlights and refund_policy: Both information pages return HTTP 200 but have empty body content; marked uncertain. checkout_flow: Tier 3 BASELINE — checkout walk skipped; payment icons (Visa, PayPal) visible in footer only. tech_stack.cdn and analytics: Tier 3 BASELINE — source HTML not inspected; cdn-cgi URL pattern in archived HTML suggests Cloudflare but not confirmed from rendered text. tech_stack.chat_widget_present: Homepage claims '24/7 SUPPORT / We provide excellent support trough email, live chat and on the phone' but no widget element visible in rendered markdown; claim may refer to email/phone support; marked uncertain. content_footprint: Tier 3 BASELINE — blog section header present in footer but no posts captured. social_proof.off_site_aggregators: No Trustpilot or forum reviews found in web search; no community mentions in peptide forums; marked uncertain. lab_posture: No testing or COA language found; ITC complaint explicitly states products were 'not tested for safety or sterility'; marked uncertain. headline_skus: Current live site has no peptide SKUs; historical snapshots (2021-2024) also show antibodies/immunoassays only; peptide sales activity inferred solely from ITC complaint; marked uncertain. review_presence: No community reviews found; marked uncertain. litigation_status.remedy_issued: Federal Register document 2025-01785 details default finding and remedy framework; specific order text against Biolabshop individually requires the final April 2025 Federal Register document which was blocked (HTTP redirect)."
+}

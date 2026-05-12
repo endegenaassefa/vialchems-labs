@@ -1,0 +1,8 @@
+---
+url: https://web.archive.org/cdx/search/cdx?url=10biosystems.com&output=text&limit=20&fl=timestamp,statuscode,mimetype&from=20230101&to=20260101
+fetched_at: 2026-05-07T19:34:05Z
+fetch_method: archive-org
+http_status: 200
+sha256: 049ab2d289be7a438166fa2f350e93c27a676906be772d75be02a5378232dbbc
+---
+20230208042523 200 text/html 20230216113044 - warc/revisit 20230422105427 403 text/html 20230609050655 200 text/html 20230723165939 301 text/html 20231101045529 - warc/revisit 20231228170958 503 text/html 20240328094713 404 text/html 20240328094827 301 text/html 20240630161755 404 text/html 20240630161837 404 text/html 20240827032024 404 text/html 20240827032025 404 text/html 20241225032706 404 text/html 20241225032902 404 text/html 20250223120847 404 text/html 20250223175159 404 text/html 

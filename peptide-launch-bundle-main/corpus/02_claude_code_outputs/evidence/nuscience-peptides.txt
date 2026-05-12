@@ -1,0 +1,922 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 58-62
+[QUOTE]
+"For Research Purposes Only
+
+# Research peptides
+
+99%+ Pure Peptides for Sale at Competitive Prices"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 726-735
+[QUOTE]
+"WARNING:**
+**
+
+**FDA DISCLAIMER** : THE STATEMENTS MADE WITHIN THIS WEBSITE HAVE NOT BEEN EVALUATED BY THE US FOOD AND DRUG ADMINISTRATION. THE STATEMENTS AND THE PRODUCTS OF THIS COMPANY ARE NOT INTENDED TO DIAGNOSE, TREAT, CURE, OR PREVENT ANY DISEASE.
+
+– THIS IS FOR RESEARCH PURPOSES ONLY
+– THIS IS **NOT** A DIETARY SUPPLEMENT
+**– NOT FOR HUMAN CONSUMPTION**"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 594-596
+[QUOTE]
+"[Browse All Research Peptides](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product-category/research-peptides/)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage text says "99%+ Pure Peptides for Sale at Competitive Prices" with a research-oriented disclaimer banner and structured product grid. The about section describes "laboratories, analytical work, and scientific development." No lifestyle, meme, or community imagery language appears in the text. The product photography section on product pages describes "Fine White Lyophilized Powder" and white-background label photos.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 540-555
+"NuScience Peptides is a dedicated supplier of 99%+ pure research peptides, positioned for laboratories, analytical work, and scientific development. Our entire range is strictly for research, laboratory, or analytical purposes — not for human consumption or veterinary use."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://nusciencepeptides.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_1__bpc157-5mg.md
+[LINE_RANGE] 99-100
+"Physical Appearance | Fine White Lyophilized Powder"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 3-9
+[QUOTE]
+"  * [Peptides](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product-category/research-peptides/)
+  * [Capsules & Serums](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product-category/research-capsules-serums/)
+  * [Peptide Handling and Storage](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/peptide-handling-storage/)
+  * [Lab Testing Results](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/nuscience-lab-test-results/)
+  * [Calculator](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/peptide-calculator/)"
+[/QUOTE]
+
+[CLAIM] country_of_operation + fulfillment_country
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 710-715
+[QUOTE]
+"###  [ CORPORATE ADDRESS ]
+
+Albuquerque, NM
+
+###  PHONE
+
+(704)-666-1701"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://nusciencepeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/tos.md
+[LINE_RANGE] 115-120
+[QUOTE]
+"We currently ship to the following destinations:
+
+  * Domestic: All states within the United States, including Alaska, Hawaii and Puerto Rico"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count + catalog.category_taxonomy
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 63-500
+[QUOTE]
+[ENUMERATION] Counted from product listing on homepage.md (Wayback 2025-11-03) and catalog_1.md (Wayback 2024-08-30):
+54 distinct SKU names observed across two categories (Peptides, Capsules & Serums).
+[FILES]
+homepage.md (43 SKUs listed)
+catalog_1.md (33 SKUs listed, older snapshot)
+catalog_2.md (3 Capsules & Serums SKUs)
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 178-200
+[QUOTE]
+"##  [BPC157/TB500 Blend – 5/5mg | 10/10mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/bpc157-tb500-blend/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name + product_page_anatomy.list_price + product_page_anatomy.sale_price
+[URL] https://nusciencepeptides.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_1__bpc157-5mg.md
+[LINE_RANGE] 78-83
+[QUOTE]
+"# BPC157 – 5mg
+
+~~$ 44.99~~ Original price was: $44.99.$34.99Current price is: $34.99.
+
+5 mg per vial
+
+  * This product is prepared for LABORATORY RESEARCH USE ONLY and may not be used for other purposes."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://nusciencepeptides.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_1__bpc157-5mg.md
+[LINE_RANGE] 143-145
+[QUOTE]
+"BPC-157, also known as Body Protection Compound-157, is a synthetic peptide consisting of 15 amino acids. It is derived from a protective protein found in the stomach and has been extensively researched for its potential therapeutic effects on various tissues, including muscles, tendons, ligaments, and the gastrointestinal tract."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://nusciencepeptides.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_1__bpc157-5mg.md
+[LINE_RANGE] 81-82
+[QUOTE]
+"  * This product is prepared for LABORATORY RESEARCH USE ONLY and may not be used for other purposes."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present + product_page_anatomy.coa_hosting
+[URL] https://nusciencepeptides.com/nuscience-lab-test-results/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/coa_1.md
+[LINE_RANGE] 71-118
+[QUOTE]
+"# Lab Testing Results for NuScience Peptides: Pioneering Excellence in Peptide Synthesis
+
+###  TB-500
+
+Click button to view results
+
+[ View Results ](https://web.archive.org/web/20240613210234/https://nusciencepeptides.com/wp-content/uploads/COA_TB-500_5mg_2023-10-28.pdf)
+
+###  BPC-157
+
+Click button to view results
+
+[ View Results ](https://web.archive.org/web/20240613210234/https://nusciencepeptides.com/wp-content/uploads/COA_BPC-157_5mg_lot-00256_2024-01-19.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://nusciencepeptides.com/nuscience-lab-test-results/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/coa_1.md
+[LINE_RANGE] 85-92
+[QUOTE]
+"[ View Results ](https://web.archive.org/web/20240613210234/https://nusciencepeptides.com/wp-content/uploads/COA_Tirzepatide_10mg_lot-00256_2024-05-10_NS.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://nusciencepeptides.com/product/tb500/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_2__tb500-5mg.md
+[LINE_RANGE] 87-100
+[QUOTE]
+"5.0
+
+Rated 5.0 out of 5
+
+5.0 out of 5 stars (based on 5 reviews)
+
+Excellent100%
+
+Very good0%
+
+Average0%
+
+Poor0%
+
+Terrible0%"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 68-75
+[QUOTE]
+"**All products on this site are for research and development use only. Products are not for human consumption of any kind. The statements made on this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure, or prevent any disease.**
+
+**NuScience Peptides is a chemical supplier. NuScience Peptides is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic Act. NuScience Peptides not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic Act.**
+
+**All products are sold for research, laboratory, or analytical purposes only, and are not for human consumption.**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 762-764
+[QUOTE]
+"**I confirm these products are being used for research purposes only and I am a at least 21 years of age.**
+
+**Use coupon code "TID10OFF" for first time buyer discount.**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://nusciencepeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/tos.md
+[LINE_RANGE] 113-120
+[QUOTE]
+"We currently ship to the following destinations:
+
+  * Domestic: All states within the United States, including Alaska, Hawaii and Puerto Rico"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url + trust_compliance.tos_highlights
+[URL] https://nusciencepeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/tos.md
+[LINE_RANGE] 61-70
+[QUOTE]
+"These terms and conditions govern all users of NuScience Peptides and the www.nusciencepeptides.com website. These must be agreed upon before any purchases can be made.
+
+**FDA Disclaimer** : The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease.
+
+The products we offer are intended for laboratory research use only."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://nusciencepeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/tos.md
+[LINE_RANGE] 141-143
+[QUOTE]
+"**REFUNDS & RETURNS**: Due to our rigorous quality control standards and the fragile nature of our products, we cannot accept returns. In the rare occasion that your order arrives with missing, incorrect or damaged items, please email"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://nusciencepeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/tos.md
+[LINE_RANGE] 121-140
+[QUOTE]
+"Shipping rates and delivery estimates are determined based on the destination and the shipping method selected at checkout. Upon check out you can choose what shipping method would be most appropriate for your needs.
+
+**Note:** Delivery times are estimates and may vary depending on external factors such as USPS delays, holidays, and weather delays.
+
+**Shipping Costs**
+
+Shipping costs are fixed based on product purchased, handling, packing materials required and the shipping method chosen."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://nusciencepeptides.com/cart/
+[FETCHED_AT] 2026-05-07T14:30:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/source_homepage.md
+[LINE_RANGE] 1-50
+[QUOTE]
+"wc-stripe-payment-request-wrapper"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted (card types)
+[URL] https://nusciencepeptides.com/cart/
+[FETCHED_AT] 2026-05-07T14:30:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/source_homepage.md
+[LINE_RANGE] 1-50
+[QUOTE]
+flexible-shipping-ups-blocks-integration-editor-css
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://nusciencepeptides.com/cart/
+[FETCHED_AT] 2026-05-07T14:30:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/source_homepage.md
+[LINE_RANGE] 1-50
+[QUOTE]
+"flexible-shipping-ups-blocks-integration-editor-css"
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required + checkout_flow.guest_checkout_available
+[INFERENCE] account_required: false, guest_checkout_available: true
+[REASONING]
+The homepage shows a cart link accessible without login. The checkout source HTML contains 'billing_first_name' and other billing fields consistent with guest WooCommerce checkout. The TOS says nothing about requiring account creation. The cart page HTML contains no login-required redirect logic in the captured content.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 735-740
+"  * [ Cart ](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/cart/)
+  * [ Checkout ](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/cart/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://nusciencepeptides.com/cart/
+[FETCHED_AT] 2026-05-07T14:30:00Z
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/source_homepage.md
+[LINE_RANGE] 1-50
+flexible-shipping-ups-blocks-integration-editor-css
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/source_homepage.md
+[LINE_RANGE] 1-200
+[QUOTE]
+"plugins/minmax-quantity-for-woocommerce/css/shop.css?ver=1.3.5.1"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/source_homepage.md
+[LINE_RANGE] 1-50
+[QUOTE]
+flexible-shipping-ups-blocks-integration-editor-css
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/source_homepage.md
+[LINE_RANGE] 1-300
+[QUOTE]
+"https://www.googletagmanager.com/gtag/js?id=G-1QYBCM99W8"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://nusciencepeptides.com/product/tb500/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_2__tb500-5mg.md
+[LINE_RANGE] 151-180
+[QUOTE]
+"#### Fantastic Service
+
+Rated 5.0 out of 5
+
+December 17, 2023
+
+All emails returned and answered quickly. Even on Sunday. Shipping was done within hours of placing the order.
+
+Priced very fair.
+
+Al Morris"
+[/QUOTE]
+
+[CLAIM] skus[bpc157-5mg].list_price_usd + skus[bpc157-5mg].sale_price_usd
+[URL] https://nusciencepeptides.com/product/bpc157/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_1__bpc157-5mg.md
+[LINE_RANGE] 78-82
+[QUOTE]
+"# BPC157 – 5mg
+
+~~$ 44.99~~ Original price was: $44.99.$34.99Current price is: $34.99."
+[/QUOTE]
+
+[CLAIM] skus[bpc157-peptide].list_price_usd + skus[bpc157-peptide].sale_price_usd (2025 variant)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 186-192
+[QUOTE]
+"##  [BPC-157 Peptide – 5mg / 10mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/bpc-157-peptide/)
+
+$34.99 – $59.99Price range: $34.99 through $59.99"
+[/QUOTE]
+
+[CLAIM] skus[tb500-5mg].list_price_usd + skus[tb500-5mg].sale_price_usd
+[URL] https://nusciencepeptides.com/product/tb500/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_2__tb500-5mg.md
+[LINE_RANGE] 80-84
+[QUOTE]
+"# TB500 (Thymosin Beta-4) – 5mg
+
+~~$ 49.99~~ $39.99
+
+5 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[tb500-10mg].price_range (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 220-226
+[QUOTE]
+"##  [TB500 Peptide – Research-Grade Thymosin Beta-4 – 5mg | 10mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/tb500/)
+
+$39.99 – $74.99Price range: $39.99 through $74.99"
+[/QUOTE]
+
+[CLAIM] skus[glp1-tirz].price_range
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 63-67
+[QUOTE]
+"##  [GLP-1 Tirz Peptide – 5mg|10mg|15mg|30mg|60mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/glp-1-tz-2/)
+
+$64.99 – $1,599.00Price range: $64.99 through $1,599.00"
+[/QUOTE]
+
+[CLAIM] skus[glp1-sema].price_range
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 74-78
+[QUOTE]
+"##  [GLP-1 Sema Research Peptide – 5mg | 10mg | 20mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/glp-1-sm/)
+
+$74.99 – $1,275.00Price range: $74.99 through $1,275.00"
+[/QUOTE]
+
+[CLAIM] skus[glp3-rt-retatrutide].price_range
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 105-110
+[QUOTE]
+"##  [GLP-3 RT – Retatrutide Peptide](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/glp-3-rt/)
+
+$89.00 – $999.99Price range: $89.00 through $999.99"
+[/QUOTE]
+
+[CLAIM] skus[ipamorelin-5mg].list_price_usd + skus[ipamorelin-5mg].sale_price_usd
+[URL] https://nusciencepeptides.com/product/ipamorelin/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_7__ipamorelin.md
+[LINE_RANGE] 64-68
+[QUOTE]
+"# Ipamorelin – 5mg
+
+~~$ 49.99~~ Original price was: $49.99.$37.99Current price is: $37.99.
+
+5 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg].list_price_usd + skus[ghk-cu-50mg].sale_price_usd
+[URL] https://nusciencepeptides.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_5__ghk-cu.md
+[LINE_RANGE] 63-73
+[QUOTE]
+"# GHK-cu – 50mg
+
+~~$ 64.99~~ Original price was: $64.99.$44.99Current price is: $44.99.
+
+50 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-100mg].price_range (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 228-234
+[QUOTE]
+"##  [GHK-cu – 50mg | 100mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/ghk-cu/)
+
+$44.99 – $79.99Price range: $44.99 through $79.99"
+[/QUOTE]
+
+[CLAIM] skus[epithalon-10mg].list_price_usd + skus[epithalon-10mg].sale_price_usd
+[URL] https://nusciencepeptides.com/product/epithalon/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_8__epithalon.md
+[LINE_RANGE] 64-68
+[QUOTE]
+"# Epithalon – 10mg
+
+~~$ 79.99~~ Original price was: $79.99.$49.99Current price is: $49.99.
+
+10 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[mots-c-10mg].list_price_usd + skus[mots-c-10mg].sale_price_usd
+[URL] https://nusciencepeptides.com/product/mots-c/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_9__mots-c.md
+[LINE_RANGE] 71-75
+[QUOTE]
+"# MOTS-c 10mg Peptide
+
+~~$ 64.99~~ Original price was: $64.99.$49.99Current price is: $49.99.
+
+10 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[thymosin-alpha1].list_price_usd + skus[thymosin-alpha1].sale_price_usd
+[URL] https://nusciencepeptides.com/product/thymosin-alpha-1/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_11__thymosin-alpha1.md
+[LINE_RANGE] 83-87
+[QUOTE]
+"# Thymosin Alpha 1 – 10mg
+
+~~$ 89.99~~ $49.99
+
+10 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[pt141].list_price_usd + skus[pt141].sale_price_usd
+[URL] https://nusciencepeptides.com/product/pt-141-bremelanotide/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_10__pt141.md
+[LINE_RANGE] 69-73
+[QUOTE]
+"# Bremelanotide (PT-141 Peptide)
+
+~~$ 54.99~~ Original price was: $54.99.$44.99Current price is: $44.99.
+
+10 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[igf1-lr3-1mg].list_price_usd + skus[igf1-lr3-1mg].sale_price_usd
+[URL] https://nusciencepeptides.com/product/igf-1-lr3/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_12__igf1-lr3.md
+[LINE_RANGE] 64-68
+[QUOTE]
+"# IGF-1 LR3 – 1mg
+
+~~$ 85.00~~ Original price was: $85.00.$79.99Current price is: $79.99.
+
+1 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[cjc1295-nodac-5mg].list_price_usd + skus[cjc1295-nodac-5mg].sale_price_usd
+[URL] https://nusciencepeptides.com/product/cjc-1295-no-dac/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_13__cjc1295-nodac.md
+[LINE_RANGE] 69-73
+[QUOTE]
+"# CJC-1295 NO-DAC (MOD GRF 1-29) – 5mg
+
+~~$ 54.99~~ Original price was: $54.99.$42.99Current price is: $42.99.
+
+5 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[cjc1295-nodac-10mg].price_range (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 308-315
+[QUOTE]
+"##  [CJC-1295 NO-DAC (MOD GRF 1-29) – 5mg & 10mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/cjc-1295-no-dac/)
+
+$42.99 – $74.99Price range: $42.99 through $74.99"
+[/QUOTE]
+
+[CLAIM] skus[cjc1295-dac-5mg].list_price_usd + skus[cjc1295-dac-5mg].sale_price_usd
+[URL] https://nusciencepeptides.com/product/cjc-1295-w-dac/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_14__cjc1295-dac.md
+[LINE_RANGE] 83-87
+[QUOTE]
+"# CJC-1295 W/DAC – 5mg
+
+~~$ 59.99~~ $54.99
+
+2mg or 5mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[nad-500mg].list_price_usd + skus[nad-500mg].sale_price_usd
+[URL] https://nusciencepeptides.com/product/nad/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_15__nad.md
+[LINE_RANGE] 64-68
+[QUOTE]
+"# NAD+ – 500mg
+
+~~$ 129.00~~ Original price was: $129.00.$79.99Current price is: $79.99.
+
+500 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[sermorelin-5mg].list_price_usd + skus[sermorelin-5mg].sale_price_usd
+[URL] https://nusciencepeptides.com/product/sermorelin/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_16__sermorelin.md
+[LINE_RANGE] 64-68
+[QUOTE]
+"# Sermorelin – 5mg
+
+~~$ 54.99~~ Original price was: $54.99.$42.99Current price is: $42.99.
+
+5 mg per vial"
+[/QUOTE]
+
+[CLAIM] skus[aod9604-5mg].list_price_usd + sale_price_usd (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 238-244
+[QUOTE]
+"##  [AOD9604 – 5mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/aod9604/)
+
+~~$ 57.99~~ Original price was: $57.99.$44.99Current price is: $44.99."
+[/QUOTE]
+
+[CLAIM] skus[melanotan2].list_price_usd + sale_price_usd (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 248-252
+[QUOTE]
+"##  [Melanotan II](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/melanotan-ii/)
+
+~~$ 34.99~~ Original price was: $34.99.$29.99Current price is: $29.99."
+[/QUOTE]
+
+[CLAIM] skus[bpc157-tb500-blend].price_range (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 82-88
+[QUOTE]
+"##  [BPC157/TB500 Blend – 5/5mg | 10/10mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/bpc157-tb500-blend/)
+
+$59.99 – $429.99Price range: $59.99 through $429.99"
+[/QUOTE]
+
+[CLAIM] skus[cjc-ipamorelin-blend].list_price_usd + sale_price_usd (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 114-120
+[QUOTE]
+"##  [CJC-1295/Ipamorelin Blend – 5mg/5mg (No Dac)](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/cjc-1295-ipamorelin-blend/)
+
+~~$ 95.00~~ Original price was: $95.00.$74.99Current price is: $74.99."
+[/QUOTE]
+
+[CLAIM] skus[glow-blend].list_price_usd + sale_price_usd (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 278-284
+[QUOTE]
+"##  [GLOW (GHK-cu, BPC157, TB500 Blend)](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/glow-ghk-cu-bpc157-tb500-blend/)
+
+~~$ 139.99~~ Original price was: $139.99.$109.99Current price is: $109.99."
+[/QUOTE]
+
+[CLAIM] skus[ghrp2-10mg].list_price_usd + sale_price_usd (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 345-352
+[QUOTE]
+"##  [GHRP-2 – 10mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/ghrp-2/)
+
+~~$ 47.99~~ Original price was: $47.99.$34.99Current price is: $34.99."
+[/QUOTE]
+
+[CLAIM] skus[ghrp6-10mg].list_price_usd + sale_price_usd (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 355-362
+[QUOTE]
+"##  [GHRP-6 – 10mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/ghrp-6/)
+
+~~$ 49.99~~ Original price was: $49.99.$39.99Current price is: $39.99."
+[/QUOTE]
+
+[CLAIM] skus[peg-mgf-2mg].list_price_usd + sale_price_usd (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 363-370
+[QUOTE]
+"##  [PEG-MGF – 2mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/peg-mgf/)
+
+~~$ 34.99~~ Original price was: $34.99.$27.99Current price is: $27.99."
+[/QUOTE]
+
+[CLAIM] skus[dsip-5mg].list_price_usd + out_of_stock (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 394-400
+[QUOTE]
+"##  [DSIP – 5mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/dsip/)
+
+~~$ 49.99~~ Original price was: $49.99.$39.99Current price is: $39.99.
+
+  * Out Of Stock"
+[/QUOTE]
+
+[CLAIM] skus[semax-10mg].list_price_usd + sale_price_usd (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 291-298
+[QUOTE]
+"##  [Semax NA 10mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/semax-10mg/)
+
+~~$ 39.99~~ Original price was: $39.99.$34.99Current price is: $34.99."
+[/QUOTE]
+
+[CLAIM] skus[selank-10mg].list_price_usd + sale_price_usd (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 333-340
+[QUOTE]
+"##  [Selank NA 10mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/selank-10mg/)
+
+~~$ 54.99~~ Original price was: $54.99.$44.99Current price is: $44.99."
+[/QUOTE]
+
+[CLAIM] skus[follistatin344-1mg].list_price_usd + sale_price_usd (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 409-416
+[QUOTE]
+"##  [Follistatin 344 – 1mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/follistatin-344/)
+
+~~$ 149.99~~ Original price was: $149.99.$119.99Current price is: $119.99."
+[/QUOTE]
+
+[CLAIM] skus[ss31-10mg].list_price_usd + sale_price_usd (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 316-322
+[QUOTE]
+"##  [SS-31 (Elamipretide) 10mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/ss-31/)
+
+~~$ 84.99~~ Original price was: $84.99.$69.99Current price is: $69.99."
+[/QUOTE]
+
+[CLAIM] skus[hexarelin-2mg].list_price_usd + sale_price_usd (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 376-382
+[QUOTE]
+"##  [Hexarelin – 2mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/hexarelin/)
+
+~~$ 29.99~~ Original price was: $29.99.$19.99Current price is: $19.99."
+[/QUOTE]
+
+[CLAIM] skus[cerebrolysin-30mg].list_price_usd + sale_price_usd (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 304-310
+[QUOTE]
+"##  [Cerebrolysin 30mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/cerebrolysin/)
+
+~~$ 99.99~~ Original price was: $99.99.$64.95Current price is: $64.95."
+[/QUOTE]
+
+[CLAIM] skus[5-amino-1mq-4mg].price_range (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 440-448
+[QUOTE]
+"##  [5-Amino-1MQ – 4mg & 10mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/5-amino-1mq/)
+
+$39.99 – $64.99Price range: $39.99 through $64.99"
+[/QUOTE]
+
+[CLAIM] skus[kpv-10mg].list_price_usd + sale_price_usd (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 455-462
+[QUOTE]
+"##  [KPV – 10mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/kpv/)
+
+~~$ 64.99~~ Original price was: $64.99.$54.99Current price is: $54.99."
+[/QUOTE]
+
+[CLAIM] skus[pinealon-20mg].list_price_usd + sale_price_usd (2025)
+[URL] https://nusciencepeptides.com
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/homepage.md
+[LINE_RANGE] 493-500
+[QUOTE]
+"##  [Pinealon – 20mg](https://web.archive.org/web/20251103060511/https://nusciencepeptides.com/product/pinealon/)
+
+~~$ 69.99~~ Original price was: $69.99.$54.99Current price is: $54.99."
+[/QUOTE]
+
+[CLAIM] skus[bpc157-capsules].list_price_usd + sale_price_usd
+[URL] https://nusciencepeptides.com/product-category/research-capsules-serums/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/catalog_2.md
+[LINE_RANGE] 87-95
+[QUOTE]
+"##  [BPC-157 (500mcg) 60 Capsules](https://web.archive.org/web/20240613200238/https://nusciencepeptides.com/product/bpc-157-capsules/)
+
+~~$ 149.99~~ Original price was: $149.99.$129.99Current price is: $129.99."
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-3pct-serum].list_price_usd + sale_price_usd
+[URL] https://nusciencepeptides.com/product-category/research-capsules-serums/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/catalog_2.md
+[LINE_RANGE] 75-83
+[QUOTE]
+"##  [GHK-cu 3% Serum](https://web.archive.org/web/20240613200238/https://nusciencepeptides.com/product/ghk-cu-3-serum/)
+
+~~$ 69.99~~ Original price was: $69.99.$59.99Current price is: $59.99."
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://nusciencepeptides.com/product/tb500/
+[FETCHED_AT] 2026-05-07T14:10:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/nuscience-peptides/product_2__tb500-5mg.md
+[LINE_RANGE] 161-177
+[QUOTE]
+"#### 5 -star customer service !!
+
+Rated 5.0 out of 5
+
+September 24, 2023
+
+What business answers the phone on Sunday during football? NuScience that's who!!! Thanks for helping me out with processing my order and changing my address. Products came in 3 days., can't ask for more than that.
+
+Charlie G."
+[/QUOTE]

@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Arctic Peptide | Premium Peptider for Optimal Helse og Ytelse</title>
+    <meta name="description" content="Kjøp premium peptider i Norge - Arctic Peptide tilbyr høyeste kvalitet på CJC-1295, Ipamorelin, BPC-157, TB-500 og flere. Bestill i dag med rask levering over hele Norge. Over 1000 fornøyde kunder." />
+    <meta name="author" content="Arctic Peptide" />
+    <meta name="keywords" content="kjøp peptider norge, peptider oslo, peptider bergen, peptider trondheim, bestill peptider, peptider på nett, premium peptider, BPC-157 kjøp, TB-500 norge, Ipamorelin pris, CJC-1295 bestill, peptider butikk, veksthormon peptider, restitusjon peptider, skadeforebygging, muskelvekst peptider, norske peptider" />
+    
+    <!-- Geo-targeting for Norge -->
+    <meta name="geo.region" content="NO" />
+    <meta name="geo.country" content="Norway" />
+    <meta name="language" content="Norwegian" />
+    <meta name="geo.placename" content="Oslo, Norge" />
+    <meta name="geo.position" content="59.9139;10.7522" />
+    <meta name="ICBM" content="59.9139, 10.7522" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/lovable-uploads/bcbebb8d-fce4-40b0-b588-f491b33610cc.png" />
+    <link rel="apple-touch-icon" href="/lovable-uploads/bcbebb8d-fce4-40b0-b588-f491b33610cc.png" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://arcticpeptide.com/" />
+    
+    <!-- PWA & iOS Web App Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="AP Admin" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    
+    <!-- Viewport settings handled by primary viewport meta tag -->
+    
+    <!-- Prevent iOS telephone number detection -->
+    <meta name="format-detection" content="telephone=no" />
+    
+    <!-- iOS Splash Screens -->
+    <link rel="apple-touch-startup-image" href="/lovable-uploads/bcbebb8d-fce4-40b0-b588-f491b33610cc.png" />
+    
+    <!-- Hreflang for Norwegian -->
+    <link rel="alternate" hreflang="no" href="https://arcticpeptide.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://arcticpeptide.com/" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Arctic Peptide" />
+    <meta property="og:title" content="Arctic Peptide | Premium Peptider for Optimal Helse og Ytelse" />
+    <meta property="og:description" content="Kjøp premium peptider i Norge. Høy kvalitet CJC-1295, Ipamorelin, BPC-157, TB-500 og flere. Rask levering, ekspertråd og laboratorietestede produkter." />
+    <meta property="og:image" content="https://arcticpeptide.com/lovable-uploads/15b16dca-4b90-4d9d-a114-28aedfe46b7c.png" />
+    <meta property="og:url" content="https://arcticpeptide.com/" />
+    <meta property="og:locale" content="nb_NO" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Arctic Peptide | Premium Peptider for Optimal Helse og Ytelse" />
+    <meta name="twitter:description" content="Kjøp premium peptider i Norge. Høy kvalitet CJC-1295, Ipamorelin, BPC-157, TB-500 og flere. Rask levering, ekspertråd og laboratorietestede produkter." />
+    <meta name="twitter:image" content="https://arcticpeptide.com/lovable-uploads/15b16dca-4b90-4d9d-a114-28aedfe46b7c.png" />
+    
+    <!-- Performance hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="//api.arcticpeptide.com">
+    
+    <!-- Google Analytics 4 - Deferred loading for better INP -->
+    <script defer fetchpriority="low" src="https://www.googletagmanager.com/gtag/js?id=G-F5J335TFL5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F5J335TFL5', { send_page_view: false });
+      // Defer initial page view to after hydration
+      if (document.readyState === 'complete') {
+        gtag('event', 'page_view');
+      } else {
+        window.addEventListener('load', function() {
+          setTimeout(function() { gtag('event', 'page_view'); }, 100);
+        });
+      }
+    </script>
+    
+    <!-- Security -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    
+    <!-- App manifest for PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#2C3333" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "Arctic Peptide",
+          "url": "https://arcticpeptide.com",
+          "logo": "https://arcticpeptide.com/lovable-uploads/bcbebb8d-fce4-40b0-b588-f491b33610cc.png",
+          "description": "Premium peptider for optimal helse og ytelse i Norge",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "NO",
+            "addressLocality": "Norge"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://arcticpeptide.com/shop?search={search_term_string}",
+            "query-input": "required name=search_term_string"
+          },
+          "sameAs": [
+            "https://arcticpeptide.com"
+          ]
+        },
+        {
+          "@type": "LocalBusiness",
+          "name": "Arctic Peptide",
+          "description": "Norges ledende leverandør av premium peptider",
+          "url": "https://arcticpeptide.com",
+          "email": "info@arcticpeptide.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "NO",
+            "addressLocality": "Norge"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "59.9139",
+            "longitude": "10.7522"
+          },
+          "priceRange": "$$",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Norge"
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/index-ChFdoL2M.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-avxaV8At.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f7c38b2caa0ab95',t:'MTc3ODExNDkzMQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

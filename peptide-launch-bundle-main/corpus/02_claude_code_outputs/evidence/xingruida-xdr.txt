@@ -1,0 +1,41 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] http://xingruida.com
+[FETCHED_AT] 2026-05-08T08:47:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xingruida-xdr/homepage.md
+[LINE_RANGE] 13-13
+[QUOTE]
+"This domain name xingruida.com is for sale"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] other
+[REASONING]
+The fetched page is a domain-broker parked listing page. No imagery is present; the page consists solely of text-based sale notice and contact details. "Other" is the only applicable value from the schema's enum since no vendor site exists.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] http://xingruida.com
+[FETCHED_AT] 2026-05-08T08:47:04Z
+[RAW_ARTIFACT] 03_raw_fetches/xingruida-xdr/homepage.md
+[LINE_RANGE] 12-13
+"您正在访问的域名 xingruida.com 可以转让!
+This domain name xingruida.com is for sale"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20241222234130/https://www.xingruida.com/
+[FETCHED_AT] 2026-05-08T08:47:09Z
+[RAW_ARTIFACT] 03_raw_fetches/xingruida-xdr/wayback_2024.md
+[LINE_RANGE] 12-13
+"您正在访问的域名 xingruida.com 可以转让!
+This domain name xingruida.com is for sale"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] http://xingruida.com
+[FETCHED_AT] 2026-05-08T08:47:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/xingruida-xdr/homepage.md
+[LINE_RANGE] 34-34
+[QUOTE]
+"Copyright © 1998 - 2009 xingruida.com All Rights Reserved"
+[/QUOTE]

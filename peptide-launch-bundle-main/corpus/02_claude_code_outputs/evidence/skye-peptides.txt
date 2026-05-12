@@ -1,0 +1,1107 @@
+[CLAIM] primary_domain
+[URL] https://skyepeptides.com/
+[FETCHED_AT] 2026-05-07T18:38:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/homepage.md
+[LINE_RANGE] 2-2
+[QUOTE]
+url: https://skyepeptides.com/
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://skyepeptides.com/shop-peptides/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/footer_public.md
+[LINE_RANGE] 12-13
+[QUOTE]
+Get in touch
+Skye Research, 11400 West Olympic Blvd, Los Angeles, CA 90064
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://skyepeptides.com/shop-peptides/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/footer_public.md
+[LINE_RANGE] 9-9
+[QUOTE]
+USA Made
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2023
+[REASONING]
+The WP REST API response shows the oldest blog post dated 2023-07-30 and the first post slug references "skyepeptides" from that date. The Wayback Machine archive of the homepage confirms the site was indexed from August 2023. These two signals bracket the founding year as 2023.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://skyepeptides.com/wp-json/wp/v2/posts?per_page=10
+[FETCHED_AT] 2026-05-07T18:40:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/blog_api.md
+[LINE_RANGE] 8-8
+"date":"2023-07-30T18:33:07","date_gmt":"2023-07-30T18:33:07","guid":{"rendered":"https:\/\/skyepeptides.com\/skyepeptides\/?p=251"}
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://skyepeptides.com/wp-json/wp/v2/posts?per_page=10
+[FETCHED_AT] 2026-05-07T18:40:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/blog_api.md
+[LINE_RANGE] 8-8
+"date":"2023-07-30T18:34:29","date_gmt":"2023-07-30T18:34:29","guid":{"rendered":"https:\/\/skyepeptides.com\/skyepeptides\/?p=254"}
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://skyepeptides.com/
+[FETCHED_AT] 2026-05-07T18:40:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/source_homepage.md
+[LINE_RANGE] 13-13
+[QUOTE]
+<meta name="description" content="Skye Peptides offers high purity peptides, always third-party tested, with same or next day shipping.">
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage source shows a clean product/research-oriented design with WooCommerce platform, no lifestyle or meme imagery signals. The meta description positions the brand around purity and third-party testing. The footer disclaimer and registration form content confirm a research-chemicals/laboratory institutional register throughout the public-facing site.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://skyepeptides.com/
+[FETCHED_AT] 2026-05-07T18:40:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/source_homepage.md
+[LINE_RANGE] 13-13
+<meta name="description" content="Skye Peptides offers high purity peptides, always third-party tested, with same or next day shipping.">
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://skyepeptides.com/shop-peptides/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/footer_public.md
+[LINE_RANGE] 17-20
+Please note that all products featured on this website are intended exclusively for research and development purposes.
+They are not designed for any form of human consumption. The claims made on this website have not undergone evaluation by the U.S. Food and Drug Administration.
+Neither the statements nor the products of this company aim to diagnose, treat, cure, or ward off any disease.
+Skye Peptides is a chemical supplier.
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://skyepeptides.com/
+[FETCHED_AT] 2026-05-07T18:38:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/homepage.md
+[LINE_RANGE] 18-18
+[QUOTE]
+[Register](https://skyepeptides.com/register/)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://skyepeptides.com/shop-peptides/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/footer_public.md
+[LINE_RANGE] 15-16
+[QUOTE]
+HomepageAbout UsShop PeptidesLab ResultsContact UsWholesaleLegal obligations
+Shipping and PaymentsTerms and ConditionsRefund and Returns PolicyPrivacy Policy© Skye Peptides 2026. All rights reserved
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://skyepeptides.com/shop-peptides/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/footer_public.md
+[LINE_RANGE] 17-23
+[QUOTE]
+Please note that all products featured on this website are intended exclusively for research and development purposes.
+They are not designed for any form of human consumption. The claims made on this website have not undergone evaluation by the U.S. Food and Drug Administration.
+Neither the statements nor the products of this company aim to diagnose, treat, cure, or ward off any disease.
+Skye Peptides is a chemical supplier. Skye Peptides is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. Skye Peptides is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic act.
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://skyepeptides.com/product-sitemap1.xml
+[FETCHED_AT] 2026-05-07T18:40:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/catalog_sitemap.md
+[LINE_RANGE] 8-8
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/skye-peptides/catalog_sitemap.md:
+67 unique product URLs enumerated from the product sitemap XML.
+[FILES]
+https://skyepeptides.com/product/klow-25-10-10-10/
+https://skyepeptides.com/product/5-amino-1mq/
+https://skyepeptides.com/product/mots-c/
+https://skyepeptides.com/product/pinealon/
+https://skyepeptides.com/product/glp1t/
+https://skyepeptides.com/product/igf-1-lr3-1-mg/
+https://skyepeptides.com/product/selank/
+https://skyepeptides.com/product/skye-pack-ten-vial-discount-set/
+https://skyepeptides.com/product/retatrutide/
+https://skyepeptides.com/product/kpv/
+https://skyepeptides.com/product/survodutide/
+https://skyepeptides.com/product/ghk-cu/
+https://skyepeptides.com/product/bpc-157-tb-500/
+https://skyepeptides.com/product/2x-tesamorelin-ipamorelin/
+https://skyepeptides.com/product/glow-ghk-cu-bpc-157-tb-500/
+https://skyepeptides.com/product/kpv-ghk-cu-12-60-mg/
+https://skyepeptides.com/product/tb-500-fragment/
+https://skyepeptides.com/product/selank-semax-5-5-mg/
+https://skyepeptides.com/product/kisspeptin-10-10-mg/
+https://skyepeptides.com/product/aod-9604/
+https://skyepeptides.com/product/n-acetyl-semax-amidate-30-mg/
+https://skyepeptides.com/product/foxo4-dri/
+https://skyepeptides.com/product/tesamorelin/
+https://skyepeptides.com/product/cagrilintide/
+https://skyepeptides.com/product/ghk-cu-powder-topical/
+https://skyepeptides.com/product/cjc-1295-dac/
+https://skyepeptides.com/product/4x-tesamorelin-ipamorelin-mgf-ghrp-2-5-2-5-0-5-5-mg/
+https://skyepeptides.com/product/tb-500/
+https://skyepeptides.com/product/thymosin-alpha-1/
+https://skyepeptides.com/product/nad-plus/
+https://skyepeptides.com/product/livagen/
+https://skyepeptides.com/product/testagen/
+https://skyepeptides.com/product/peg-mgf/
+https://skyepeptides.com/product/cjc-1295-ipamorelin-5-mg-blend-no-dac/
+https://skyepeptides.com/product/5-amino-1-mq-50-mg/
+https://skyepeptides.com/product/sermorelin/
+https://skyepeptides.com/product/glp1s/
+https://skyepeptides.com/product/pt-141/
+https://skyepeptides.com/product/melanotan-2/
+https://skyepeptides.com/product/ara-290/
+https://skyepeptides.com/product/thymulin/
+https://skyepeptides.com/product/dsip-5-mg/
+https://skyepeptides.com/product/bpc-157/
+https://skyepeptides.com/product/adamax/
+https://skyepeptides.com/product/ll-37/
+https://skyepeptides.com/product/p21/
+https://skyepeptides.com/product/ahk-cu-topical/
+https://skyepeptides.com/product/the-nugget-six-vial-set/
+https://skyepeptides.com/product/melanotan-i-10-mg/
+https://skyepeptides.com/product/na-selank/
+https://skyepeptides.com/product/bpc-157-ghk-cu-10-50-mg/
+https://skyepeptides.com/product/cjc-1295/
+https://skyepeptides.com/product/vip-5-mg/
+https://skyepeptides.com/product/thymagen-20-mg/
+https://skyepeptides.com/product/ta-1-complex-thymosin-alpha-1-thymalin-10-6-mg/
+https://skyepeptides.com/product/snap-8/
+https://skyepeptides.com/product/slu-pp-32-tablets-x-60/
+https://skyepeptides.com/product/semax/
+https://skyepeptides.com/product/epithalon/
+https://skyepeptides.com/product/cartalax/
+https://skyepeptides.com/product/ipamorelin-10-mg/
+https://skyepeptides.com/product/hexarelin/
+https://skyepeptides.com/product/ghk-basic-100-mg/
+https://skyepeptides.com/product/dihexa-8-mg-tablet/
+https://skyepeptides.com/product/bpc-157-500-mcg-tablet/
+https://skyepeptides.com/product/3x-tesamorelin-mgf-ipamorelin-5-0-5-2-5-mg/
+https://skyepeptides.com/product/pe-22-28/
+https://skyepeptides.com/product/na-selank/ (counted once; na-selank appears separately from selank)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 50-78
+[QUOTE]
+“GLOW” GHK-Cu | TB-500 | BPC-157 30/10/5 mgGLOW25-40-004
+“KLOW” KPV | GHK-Cu | TB-500 | BPC-157 50/10/10/10 mgKLOW25-80-005
+5-Amino-1-MQ 50 mgNAM26-50-001
+5-Amino-1MQ 35 mg (60 tablets)5A25-50-003
+GHK-Cu Powder (Topical 99.8%) 1 g | 99.8%GHKT26-1-001
+GLP-1 S (GLP-1 RA) 12 mg | 99.6%SM25-10-003
+GLP-1 T (GLP-1 + GIP 2RA) 10 mg | 99.6%TZ26-10-001
+BPC-157 500 mcg (30 tablets)O1BPC157250
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 50-78
+[QUOTE]
+“GLOW” GHK-Cu | TB-500 | BPC-157 30/10/5 mgGLOW25-40-004
+“KLOW” KPV | GHK-Cu | TB-500 | BPC-157 50/10/10/10 mgKLOW25-80-005
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://skyepeptides.com/product-sitemap1.xml
+[FETCHED_AT] 2026-05-07T18:40:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/catalog_sitemap.md
+[LINE_RANGE] 8-8
+[QUOTE]
+https://skyepeptides.com/product/bpc-157/ 2026-03-06T12:58:31-08:00
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 143-148
+[QUOTE]
+BPC-157 10 mg | 99.9%BPC25-10-001
+Peptide: BPC-157Batch number: BPC25-10-001Purity: 99.9%Size: 10 mg
+Test Report | HPLC
+Endotoxin 0.016 EU/mg (limit = 5 EU/mg)
+Sterility
+BPC-157 – 10 mg
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 143-162
+[QUOTE]
+BPC-157 10 mg | 99.9%BPC25-10-001
+Peptide: BPC-157Batch number: BPC25-10-001Purity: 99.9%Size: 10 mg
+BPC-157 25 mg | 99.9%BPC25-20-003
+Peptide: BPC-157Batch number: BPC25-20-003Purity: 99.9%Size: 25 mg
+BPC-157 5 mg | 99.7%BPC25-05-002
+Peptide: BPC-157Batch number: BPC25-05-002Purity: 99.7%Size: 5 mg
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://skyepeptides.com/shop-peptides/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/footer_public.md
+[LINE_RANGE] 17-18
+[QUOTE]
+Please note that all products featured on this website are intended exclusively for research and development purposes.
+They are not designed for any form of human consumption.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 10-12
+[QUOTE]
+Test Reports
+We send every batch of peptide to a third party lab for testing. Testing includes peptide validation, purity, and quantification. Analysis is done by HPLC. All manufacturers are tested for sterility.
+Now shipping
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 10-15
+[QUOTE]
+Test Reports
+We send every batch of peptide to a third party lab for testing. Testing includes peptide validation, purity, and quantification. Analysis is done by HPLC. All manufacturers are tested for sterility.
+Now shipping
+"4X" Tesamorelin | Ipamorelin | MGF | GHRP-2 5/2.5/0.5/5 mg4X26-13-001
+Peptide: "4X" Tesamorelin | Ipamorelin | MGF | GHRP-2 5/2.5/0.5/5 mgBatch number: 4X26-13-001
+Test Report | HPLC
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 143-148
+[QUOTE]
+BPC-157 10 mg | 99.9%BPC25-10-001
+Peptide: BPC-157Batch number: BPC25-10-001Purity: 99.9%Size: 10 mg
+Test Report | HPLC
+Endotoxin 0.016 EU/mg (limit = 5 EU/mg)
+Sterility
+BPC-157 – 10 mg
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://skyepeptides.com/register/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/register.md
+[LINE_RANGE] 17-17
+[QUOTE]
+All products offered are intended for use as research chemicals. They are not for human consumption, diagnostic or therapeutic use. The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://skyepeptides.com/register/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/register.md
+[LINE_RANGE] 39-39
+[QUOTE]
+*By submitting an application for membership, renewing your membership, or using any services provided by Skye Research, you are confirming that you have read, understood, and agreed to these terms and conditions in full. You are at least 21 years of age and understand that purchases are limited to licensed researchers and/or qualified professionals.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://skyepeptides.com/register/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/register.md
+[LINE_RANGE] 10-10
+[QUOTE]
+Please read these terms and conditions carefully before applying for or using your membership to Skye Peptides. By applying for your membership, you are agreeing to comply with and be bound by these terms and conditions.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://skyepeptides.com/register/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/register.md
+[LINE_RANGE] 14-41
+[QUOTE]
+Membership is only open to researchers and organizations who meet the criteria set by Skye. Skye reserves the right to refuse membership at its sole discretion.
+All products offered are intended for use as research chemicals. They are not for human consumption, diagnostic or therapeutic use.
+Any discussion of dosing or administration of peptides on humans is strictly forbidden and will result in expulsion from Skye.
+Skye provides testing reports but makes no warranty or representation regarding the accuracy or availability of the research chemicals. All chemicals are provided "as is" and without any warranty of any kind.
+Members agree to receive promotional emails and marketing materials from Skye Peptides regarding news, updates, and special offers.
+These terms shall be governed and construed in accordance with the laws of the jurisdiction in which Skye is located, without regard to its conflict of law principles.
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://skyepeptides.com/
+[FETCHED_AT] 2026-05-07T18:38:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/homepage.md
+[LINE_RANGE] 8-18
+[QUOTE]
+## Login
+
+Username or email address *Required
+
+Password *Required
+
+Remember me Log in
+
+[Lost your password?](https://skyepeptides.com/my-account/lost-password/)
+
+[Register](https://skyepeptides.com/register/)
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://skyepeptides.com/
+[FETCHED_AT] 2026-05-07T18:38:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/homepage.md
+[LINE_RANGE] 8-18
+[QUOTE]
+## Login
+
+Username or email address *Required
+
+Password *Required
+
+Remember me Log in
+
+[Lost your password?](https://skyepeptides.com/my-account/lost-password/)
+
+[Register](https://skyepeptides.com/register/)
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://skyepeptides.com/register/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/register.md
+[LINE_RANGE] 40-47
+[QUOTE]
+Business Type *
+ResearcherPharmaceutical ResearchBiotechnology ResearchLaboratoryAcademic and Research InstitutionContract Research Organization (CRO)Cosmetic ResearchChemical Supply
+Please select what best describes your company
+Username *
+User Email *
+User Password *
+Confirm Password *
+Submit
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://skyepeptides.com/register/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/register.md
+[LINE_RANGE] 40-47
+[QUOTE]
+Business Type *
+ResearcherPharmaceutical ResearchBiotechnology ResearchLaboratoryAcademic and Research InstitutionContract Research Organization (CRO)Cosmetic ResearchChemical Supply
+Please select what best describes your company
+Username *
+User Email *
+User Password *
+Confirm Password *
+Submit
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.trustpilot.com/review/skyepeptides.com
+[FETCHED_AT] 2026-05-07T18:54:19Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/social_trustpilot.md
+[LINE_RANGE] 9-9
+[QUOTE]
+The order shipped within 12 hours and was received well packaged by FedEx in 3 biz days.
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://skyepeptides.com/
+[FETCHED_AT] 2026-05-07T18:40:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/source_homepage.md
+[LINE_RANGE] 62-62
+[QUOTE]
+<link rel='stylesheet' id='wdp_cart-summary-css' href='https://skyepeptides.com/skyepeptides/wp-content/plugins/advanced-dynamic-pricing-for-woocommerce/BaseVersion/assets/css/cart-summary.css?ver=4.13.1' media='all' />
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://skyepeptides.com/
+[FETCHED_AT] 2026-05-07T18:40:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/source_homepage.md
+[LINE_RANGE] 32-32
+[QUOTE]
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://skyepeptides.com/
+[FETCHED_AT] 2026-05-07T18:40:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/source_homepage.md
+[LINE_RANGE] 453-459
+[QUOTE]
+<script async src='https://www.googletagmanager.com/gtag/js?id=G-W0GD2BHTFS'></script><script>
+[/QUOTE]
+
+[URL] https://skyepeptides.com/
+[FETCHED_AT] 2026-05-07T18:40:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/source_homepage.md
+[LINE_RANGE] 491-497
+[QUOTE]
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0HQCP5BY89"></script>
+[/QUOTE]
+
+[URL] https://skyepeptides.com/
+[FETCHED_AT] 2026-05-07T18:40:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/source_homepage.md
+[LINE_RANGE] 400-400
+[QUOTE]
+<meta name="omnisend-site-verification" content="66a263c0aba2c947d003efd6"/>
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://skyepeptides.com/
+[FETCHED_AT] 2026-05-07T18:40:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/source_homepage.md
+[LINE_RANGE] 463-464
+[QUOTE]
+<!-- Global site tag (gtag.js) - Google Ads: AW-17991861963 - Google for WooCommerce -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17991861963"></script>
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://skyepeptides.com/
+[FETCHED_AT] 2026-05-07T18:40:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/source_homepage.md
+[LINE_RANGE] 62-100
+[QUOTE]
+<link rel='stylesheet' id='wdp_cart-summary-css' href='https://skyepeptides.com/skyepeptides/wp-content/plugins/advanced-dynamic-pricing-for-woocommerce/BaseVersion/assets/css/cart-summary.css?ver=4.13.1' media='all' />
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://skyepeptides.com/wp-json/wp/v2/posts?per_page=10
+[FETCHED_AT] 2026-05-07T18:40:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/blog_api.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"slug":"the-importance-of-sterility-testing","status":"publish","type":"post","link":"https:\/\/skyepeptides.com\/2024\/04\/25\/the-importance-of-sterility-testing\/"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://skyepeptides.com/wp-json/wp/v2/posts?per_page=10
+[FETCHED_AT] 2026-05-07T18:40:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/blog_api.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"link":"https:\/\/skyepeptides.com\/2024\/04\/25\/the-importance-of-sterility-testing\/"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://skyepeptides.com/wp-json/wp/v2/posts?per_page=10
+[FETCHED_AT] 2026-05-07T18:40:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/blog_api.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"date":"2024-04-25T16:00:27","date_gmt":"2024-04-25T23:00:27","guid":{"rendered":"https:\/\/skyepeptides.com\/?p=9395"}
+[/QUOTE]
+
+[URL] https://skyepeptides.com/wp-json/wp/v2/posts?per_page=10
+[FETCHED_AT] 2026-05-07T18:40:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/blog_api.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"date":"2023-07-30T18:33:07","date_gmt":"2023-07-30T18:33:07","guid":{"rendered":"https:\/\/skyepeptides.com\/skyepeptides\/?p=251"}
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://skyepeptides.com/wp-json/wp/v2/posts?per_page=10
+[FETCHED_AT] 2026-05-07T18:40:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/blog_api.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"title":{"rendered":"The Importance of Sterility Testing"}
+[/QUOTE]
+
+[URL] https://skyepeptides.com/wp-json/wp/v2/posts?per_page=10
+[FETCHED_AT] 2026-05-07T18:40:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/blog_api.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"title":{"rendered":"pH in Bacteriostatic Water: Why It Matters"}
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://skyepeptides.com/wp-json/wp/v2/posts?per_page=10
+[FETCHED_AT] 2026-05-07T18:40:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/blog_api.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"author":2
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 918-932
+[QUOTE]
+Get in touch
+Skye Research, 11400 West Olympic Blvd, Los Angeles, CA 90064
++1 424-294-0603, support@skyepeptides.com
+Useful links
+HomepageAbout UsShop PeptidesLab ResultsContact UsWholesaleLegal obligations
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.trustpilot.com/review/skyepeptides.com
+[FETCHED_AT] 2026-05-07T18:54:19Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/social_trustpilot.md
+[LINE_RANGE] 9-9
+[QUOTE]
+Skyepeptides Reviews 38 •4.3Vitamin and Supplements StoreWrite a review
+[/QUOTE]
+
+[URL] https://www.trustpilot.com/review/skyepeptides.com
+[FETCHED_AT] 2026-05-07T18:54:19Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/social_trustpilot.md
+[LINE_RANGE] 9-9
+[QUOTE]
+5-star84%4-star0%3-star0%2-star3%1-star13%
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.trustpilot.com/review/skyepeptides.com
+[FETCHED_AT] 2026-05-07T18:54:19Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/social_trustpilot.md
+[LINE_RANGE] 9-9
+[QUOTE]
+The order shipped within 12 hours and was received well packaged by FedEx in 3 biz days. I was shocked to find a full brand name bac water in the box.
+[/QUOTE]
+
+[URL] https://www.trustpilot.com/review/skyepeptides.com
+[FETCHED_AT] 2026-05-07T18:54:19Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/social_trustpilot.md
+[LINE_RANGE] 9-9
+[QUOTE]
+All peptides come with a card that has a QR code showing COA & batch number. Very transparent company.
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://www.reddit.com/search.json?q=skyepeptides+OR+%22skye+peptides%22&limit=5&sort=new
+[FETCHED_AT] 2026-05-07T18:41:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/social_reddit.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"selftext": "SkyePeptides.com\n\nUse PROMO Code: WELCOME10\n\nfor 10% off!"
+[/QUOTE]
+
+[CLAIM] skus[].name (BPC-157 5 mg / 10 mg / 25 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 157-162
+[QUOTE]
+BPC-157 5 mg | 99.7%BPC25-05-002
+Peptide: BPC-157Batch number: BPC25-05-002Purity: 99.7%Size: 5 mg
+Test Report | HPLC
+Endotoxin 0.100 EU/mg (limit = 5 EU/mg)
+Sterility
+BPC-157 – 5 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (BPC-157 500 mcg 30 tablets)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 163-168
+[QUOTE]
+BPC-157 500 mcg (30 tablets)O1BPC157250
+Peptide: BPC-157 500 mcg (30 tablets)Batch number: O1BPC157250
+Test Report
+BPC-157 500 mcg (30 tablets)
+View Product
+[/QUOTE]
+
+[CLAIM] skus[].name (TB-500 10 mg / 20 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 607-621
+[QUOTE]
+TB-500 (Thymosin Beta-4)(43 aa) 10 mg | 99.2%TB25-10-004
+Peptide: TB-500 (Thymosin Beta-4)(43 aa)Batch number: TB25-10-004Purity: 99.2%Size: 10 mg
+TB-500 (Thymosin Beta-4)(43 aa) 20 mg | 99.6%TB25-20-002
+Peptide: TB-500 (Thymosin Beta-4)(43 aa)Batch number: TB25-20-002Purity: 99.6%Size: 20 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (TB-500 Fragment 17-23)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 622-627
+[QUOTE]
+TB-500 Fragment (17-23) | 99.%TB4F25-10-001
+Peptide: TB-500 Fragment (17-23)Batch number: TB4F25-10-001Purity: 99.%
+Test Report | HPLC
+Endotoxin 0.0075 EU/mg (limit = 5 EU/mg)"
+TB-500 Fragment (17-23)
+View Product
+[/QUOTE]
+
+[CLAIM] skus[].name (GHK-Cu 50 mg / 80 mg / 100 mg / Topical 1 g)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 261-285
+[QUOTE]
+GHK-Cu 100 mg | 99.9%GHK25-100-002
+Peptide: GHK-CuBatch number: GHK25-100-002Purity: 99.9%Size: 100 mg
+GHK-Cu 50 mg | 99.6% GHK25-50-002
+Peptide: GHK-CuBatch number:  GHK25-50-002Purity: 99.6%Size: 50 mg
+GHK-Cu 80 mg | 99.9%GHKC25-100-001
+Peptide: GHK-CuBatch number: GHKC25-100-001Purity: 99.9%Size: 80 mg
+GHK-Cu Powder (Topical 99.8%) 1 g | 99.8%GHKT26-1-001
+Peptide: GHK-Cu Powder (Topical 99.8%) 1 gBatch number: GHKT26-1-001Purity: 99.8%
+[/QUOTE]
+
+[CLAIM] skus[].name (Selank 5 mg / 10 mg / N-acetyl Selank Amidate 12.5 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 492-505
+[QUOTE]
+Selank 10 mg | 99.9%SK26-10-001
+Peptide: SelankBatch number: SK26-10-001Purity: 99.9%Size: 10 mg
+Selank | 99.8%SK25-05-002
+Peptide: SelankBatch number: SK25-05-002Purity: 99.8%
+N-acetyl Selank Amidate 12.5 mg | 99.9%NASK26-10-001
+Peptide: N-acetyl Selank Amidate 12.5 mgBatch number: NASK26-10-001Purity: 99.9%
+[/QUOTE]
+
+[CLAIM] skus[].name (Semax 30 mg / N-acetyl Semax Amidate 30 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 528-533
+[QUOTE]
+Semax 30 mg | 99%SMX25-30-003
+Peptide: Semax 30 mgBatch number: SMX25-30-003Purity: 99%
+N-acetyl Semax Amidate 30 mg | 99.9%NASMX26-30-001
+Peptide: N-acetyl Semax Amidate 30 mgBatch number: NASMX26-30-001Purity: 99.9%
+[/QUOTE]
+
+[CLAIM] skus[].name (Epithalon 15 mg / 50 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 232-244
+[QUOTE]
+Epithalon 15 mg | 99.3%EPI25-10-002
+Peptide: EpithalonBatch number: EPI25-10-002Purity: 99.3%Size: 15 mg
+Epithalon 50 mg | 99.5%EPI25-50-001
+Peptide: EpithalonBatch number: EPI25-50-001Purity: 99.5%Size: 50 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (KPV 12 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 339-346
+[QUOTE]
+KPV 12 mg | 99.4%KPV26-10-001
+Peptide: KPVBatch number: KPV26-10-001Purity: 99.4%Size: 12 mg
+Test Report | HPLC
+Endotoxin Report
+Heavy Metal
+Sterility
+KPV – 12 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (Thymosin Alpha-1 10 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 667-672
+[QUOTE]
+Thymosin Alpha-1 10 mg | 99%TA125-10-003
+Peptide: Thymosin Alpha-1 10 mgBatch number: TA125-10-003Purity: 99%
+Test Report | HPLC
+Endotoxin 0.12 EU/mg (limit = 5 EU/mg)
+Sterility
+Thymosin Alpha-1 10 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (PT-141 10 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 460-466
+[QUOTE]
+PT-141 10 mg 10 mg | 99.9%PT26-10-001
+Peptide: PT-141 10 mgBatch number: PT26-10-001Purity: 99.9%Size: 10 mg
+Test Report | HPLC
+Endotoxin
+Sterility
+Heavy Metal
+PT-141 10 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (Ipamorelin 10 mg / CJC-1295 no DAC 10 mg / CJC-1295 DAC 10 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 197-218
+[QUOTE]
+CJC-1295 DAC 10 mg | 99.6%CJCDAC25-10-003
+Peptide: CJC-1295 DAC 10 mgBatch number: CJCDAC25-10-003Purity: 99.6%
+CJC-1295 (no DAC) 10 mg | 99.5%CJ25-10-002
+Peptide: CJC-1295 (no DAC) 10 mgBatch number: CJ25-10-002Purity: 99.5%
+Ipamorelin 10 mg | 99.9%IPA25-10-003
+Peptide: Ipamorelin 10 mgBatch number: IPA25-10-003Purity: 99.9%
+[/QUOTE]
+
+[CLAIM] skus[].name (MOTS-c 10 mg / 30 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 378-392
+[QUOTE]
+MOTS-c 10 mg | 99.0%MOTS25-10-003
+Peptide: MOTS-cBatch number: MOTS25-10-003Purity: 99.0%Size: 10 mg
+MOTS-c 30 mg | 99.6%MOTS26-30-001
+Peptide: MOTS-cBatch number: MOTS26-30-001Purity: 99.6%Size: 30 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (GLP-1 S 6 mg / 12 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 507-527
+[QUOTE]
+GLP-1 S (GLP-1 RA) 12 mg | 99.6%SM25-10-003
+Peptide: GLP-1 S (GLP-1 RA)Batch number: SM25-10-003Purity: 99.6%Size: 12 mg
+GLP-1 S (GLP-1 RA) 6 mg | 99.2%SM25-05-002
+Peptide: GLP-1 S (GLP-1 RA)Batch number: SM25-05-002Purity: 99.2%Size: 6 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (GLP-1 T 10 mg / 30 mg / 40 mg / 60 mg 5ml / 60 mg 3ml)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 681-727
+[QUOTE]
+GLP-1 T (GLP-1 + GIP 2RA) 10 mg | 99.6%TZ26-10-001
+Peptide: GLP-1 T (GLP-1 + GIP 2RA)Batch number: TZ26-10-001Purity: 99.6%Size: 10 mg
+GLP-1 T (GLP-1 + GIP 2RA) 30 mg | 99.8%TZ25-30-004
+GLP-1 T (GLP-1 + GIP 2RA) 40 mg | 99.9TZ25-40-003
+GLP-1 T (GLP-1 + GIP 2RA) 60 mg | 99.7%TZ25-60-010
+GLP-1 T (GLP-1 + GIP 2RA) – 60 mg Lyophilized powder (5 ml vial)
+GLP-1 T (GLP-1 + GIP 2RA) 60 mg in 3 ml vial | 99.8%TZ26-60-001
+GLP-1 T (GLP-1 + GIP 2RA) – 60 mg Lyophilized powder (3 ml vial)
+[/QUOTE]
+
+[CLAIM] skus[].name (Retatrutide 12 mg / 25 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 468-482
+[QUOTE]
+Retatrutide 12 mg | 99.3%RET26-12-001
+Peptide: RetatrutideBatch number: RET26-12-001Purity: 99.3%Size: 12 mg
+Retatrutide 25 mg | 99.8%RET26-24-002
+Peptide: RetatrutideBatch number: RET26-24-002Purity: 99.8%Size: 25 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (NAD+ 500 mg / 1 g)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 410-431
+[QUOTE]
+NAD+ (buffered) 1 gNAD25-1000-005
+Peptide: NAD+ (buffered)Batch number: NAD25-1000-005Size: 1 g
+NAD+ (buffered) 500 mgNAD25-500-004
+Peptide: NAD+ (buffered)Batch number: NAD25-500-004Size: 500 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (IGF-1 LR3 400 mcg / 1 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 294-315
+[QUOTE]
+IGF-1 LR3 1 mg | 99.0%IGF25-1-003
+Peptide: IGF-1 LR3Batch number: IGF25-1-003Purity: 99.0%Size: 1 mg
+IGF-1 LR3 400 mcg | 99.5%IGF25-1-001
+Peptide: IGF-1 LR3Batch number: IGF25-1-001Purity: 99.5%Size: 400 mcg
+[/QUOTE]
+
+[CLAIM] skus[].name (PEG-MGF 6 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 444-451
+[QUOTE]
+PEG-MGF 6 mg | 99.9%PMG26-05-001
+Peptide: PEG-MGF 6 mgBatch number: PMG26-05-001Purity: 99.9%
+Test Report | HPLC
+Endotoxin
+Sterility
+Heavy Metal
+PEG-MGF 6 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (AOD-9604 6 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 105-111
+[QUOTE]
+AOD-9604 6 mg | 99.3%AOD25-06-007
+Peptide: AOD-9604Batch number: AOD25-06-007Purity: 99.3%Size: 6 mg
+Test Report | HPLC
+Endotoxin 0.19 EU/mg (limit = 5 EU/mg)
+Sterility
+AOD-9604 – 6 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (DSIP 5 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 225-230
+[QUOTE]
+DSIP 5 mg | 99.8%DS25-05-002
+Peptide: DSIP 5 mgBatch number: DS25-05-002Purity: 99.8%
+Test Report | HPLC
+Endotoxin 0.045 EU/mg (limit = 5 EU/mg)
+Sterility
+DSIP 5 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (Dihexa 8 mg 30 tablets)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 220-224
+[QUOTE]
+Dihexa 8 mg (30 tablets)O1DXA25
+Peptide: Dihexa 8 mg (30 tablets)Batch number: O1DXA25
+Test Report
+Dihexa 8 mg (30 tablets)
+[/QUOTE]
+
+[CLAIM] skus[].name (Pinealon 28 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 452-459
+[QUOTE]
+Pinealon 28 mg | 99.7%PIN26-20-001
+Peptide: PinealonBatch number: PIN26-20-001Purity: 99.7%Size: 28 mg
+Test Report | HPLC
+Endotoxin
+Sterility
+Heavy Metal
+Pinealon – 28 mg
+[/QUOTE]
+
+[CLAIM] skus[].name ("GLOW" blend / "KLOW" blend)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 50-78
+[QUOTE]
+“GLOW” GHK-Cu | TB-500 | BPC-157 30/10/5 mgGLOW25-40-004
+Peptide: "GLOW" GHK-Cu | TB-500 | BPC-157Batch number: GLOW25-40-004Size: 30/10/5 mg
+“KLOW” KPV | GHK-Cu | TB-500 | BPC-157 50/10/10/10 mgKLOW25-80-005
+Peptide: "KLOW" KPV | GHK-Cu | TB-500 | BPC-157Batch number: KLOW25-80-005Size: 50/10/10/10 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (Skye Pack Ten Vial Discount Set)
+[URL] https://skyepeptides.com/product-sitemap1.xml
+[FETCHED_AT] 2026-05-07T18:40:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/catalog_sitemap.md
+[LINE_RANGE] 8-8
+[QUOTE]
+https://skyepeptides.com/product/skye-pack-ten-vial-discount-set/ 2026-04-29T15:44:50-07:00
+[/QUOTE]
+
+[CLAIM] skus[].name (The Nugget Six Vial Set)
+[URL] https://skyepeptides.com/product-sitemap1.xml
+[FETCHED_AT] 2026-05-07T18:40:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/catalog_sitemap.md
+[LINE_RANGE] 8-8
+[QUOTE]
+https://skyepeptides.com/product/the-nugget-six-vial-set/ 2026-03-03T07:19:57-08:00
+[/QUOTE]
+
+[CLAIM] skus[].name (Sermorelin 5 mg / 10 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 535-555
+[QUOTE]
+Sermorelin 10 mg | 99.6%SR25-10-001
+Peptide: SermorelinBatch number: SR25-10-001Purity: 99.6%Size: 10 mg
+Sermorelin 5 mg | 99.7%SR25-5-001
+Peptide: SermorelinBatch number: SR25-5-001Purity: 99.7%Size: 5 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (Tesamorelin 10 mg / 24 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 628-650
+[QUOTE]
+Tesamorelin 10 mg | 99.6%TESA26-10-001
+Peptide: TesamorelinBatch number: TESA26-10-001Purity: 99.6%Size: 10 mg
+Tesamorelin 24 mg | 99.7%TESA26-20-002
+Peptide: TesamorelinBatch number: TESA26-20-002Purity: 99.7%Size: 24 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (Survodutide 6 mg / 12 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 586-599
+[QUOTE]
+Survodutide 12 mg | 99.8%SV25-12-001
+Peptide: SurvodutideBatch number: SV25-12-001Purity: 99.8%Size: 12 mg
+Survodutide 6 mg | 99.7%SV25-06-001
+Peptide: SurvodutideBatch number: SV25-06-001Purity: 99.7%Size: 6 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (Cagrilintide 5 mg / 10 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 169-182
+[QUOTE]
+Cagrilintide 10 mg | 99.4%CAG25-10-002
+Peptide: CagrilintideBatch number: CAG25-10-002Purity: 99.4%Size: 10 mg
+Cagrilintide 5 mg | 99.5%CG25-05-002
+Peptide: CagrilintideBatch number: CG25-05-002Purity: 99.5%Size: 5 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (LL-37 5 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 355-361
+[QUOTE]
+LL-37 5 mg | 99.7%LL25-04-002
+Peptide: LL-37 5 mgBatch number: LL25-04-002Purity: 99.7%
+Test Report | HPLC
+Endotoxin 0.13 EU/mg (limit = 5 EU/mg)
+Sterility
+LL-37 5 mg
+[/QUOTE]
+
+[CLAIM] skus[].name (5-Amino-1MQ 35 mg 60 tablets / 5-Amino-1-MQ 50 mg)
+[URL] https://skyepeptides.com/test-reports/
+[FETCHED_AT] 2026-05-07T18:38:41Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/coa_index.md
+[LINE_RANGE] 80-91
+[QUOTE]
+5-Amino-1-MQ 50 mgNAM26-50-001
+Peptide: 5-Amino-1-MQ 50 mgBatch number: NAM26-50-001
+5-Amino-1MQ 35 mg (60 tablets)5A25-50-003
+Peptide: 5-Amino-1MQ 35 mg (60 tablets)Batch number: 5A25-50-003
+[/QUOTE]
+
+[CLAIM] discovery_provenance.discovery_source_quote
+[URL] 00_inputs/vendor_list.csv
+[FETCHED_AT] 2026-05-07T18:38:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/skye-peptides/homepage.md
+[LINE_RANGE] 2-2
+[QUOTE]
+url: https://skyepeptides.com/
+[/QUOTE]

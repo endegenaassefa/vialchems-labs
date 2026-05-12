@@ -1,0 +1,514 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/homepage.md
+[LINE_RANGE] 38-40
+[QUOTE]
+"# American Peptide supplier for research use
+
+###  A research peptide supplier you can trust"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/homepage.md
+[LINE_RANGE] 42-42
+[QUOTE]
+"[ Shop  ](https://peptidesupply.org/shop-3/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/homepage.md
+[LINE_RANGE] 14-19
+[QUOTE]
+"  * [Home](https://peptidesupply.org/)
+  * [Shop](https://peptidesupply.org/shop-3/)
+  * [Affiliate](https://peptidesupply.org/affiliate/)
+  * [My account](https://peptidesupply.org/my-account-2/)
+  * [Research Blog](https://peptidesupply.org/blog/)
+  * [Research Library](https://peptidesupply.org/guides/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/homepage.md
+[LINE_RANGE] 131-134
+[QUOTE]
+"### Disclaimer
+
+**RESEARCH USE ONLY**
+This product is not intended for use in humans or animals. Not intended to diagnose, treat, cure, or prevent any disease. For laboratory research use only by qualified personnel. Buyers assumes all responsibility for compliance with applicable local, state, federal, and international laws."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://peptidesupply.org/shop-3/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/catalog_1.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"Showing 1–18 of 30 resultsSorted by popularity"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://peptidesupply.org/shop-3/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/catalog_1.md
+[LINE_RANGE] 203-211
+[QUOTE]
+"  * [Peptides](https://peptidesupply.org/product-category/peptide/)2929 products
+    * [Aesthetic Peptides (Skin, Hair & Tanning)](https://peptidesupply.org/product-category/peptide/skin-hair-tanning/)66 products
+    * [Cellular & Longevity Peptides](https://peptidesupply.org/product-category/peptide/cellular-longevity/)33 products
+    * [Growth Hormone & IGF Peptides](https://peptidesupply.org/product-category/peptide/gh-igf/)55 products
+    * [Metabolic & Fat loss Peptides](https://peptidesupply.org/product-category/peptide/metabolics/)77 products
+    * [Nootropic & Neuro Peptides](https://peptidesupply.org/product-category/peptide/nootropics/)33 products
+    * [Peptide Bundles](https://peptidesupply.org/product-category/peptide/bundles-peptide/)55 products
+    * [Recovery & Repair Peptides](https://peptidesupply.org/product-category/peptide/recovery-repair/)44 products
+  * [Research Supplies](https://peptidesupply.org/product-category/other/)11 product"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://peptidesupply.org/shop-3/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/catalog_1.md
+[LINE_RANGE] 209-209
+[QUOTE]
+"    * [Peptide Bundles](https://peptidesupply.org/product-category/peptide/bundles-peptide/)55 products"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url + sample_product_name + list_price + dose_options
+[URL] https://peptidesupply.org/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/product_1__bpc-157-10mg.md
+[LINE_RANGE] 43-57
+[QUOTE]
+"# BPC-157 10mg
+
+$40.00
+
+≥99% Purity, HLPC.
+
+Aliquot injectable vials fully sterilized
+
+Shipped as Lyophilized Powder
+
+Fulfillment 2-4 business days after payment confirmation
+
+No Returns
+
+In stock"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://peptidesupply.org/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/product_1__bpc-157-10mg.md
+[LINE_RANGE] 70-72
+[QUOTE]
+"**BPC-157**
+
+BPC-157 (Body Protection Compound-157) is a 15-amino acid peptide derived from a naturally occurring protective protein found in gastric juice. Extensive preclinical research has shown that BPC-157 accelerates the healing of various tissues, including muscles, tendons, ligaments, and the gastrointestinal tract."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/homepage.md
+[LINE_RANGE] 131-134
+[QUOTE]
+"**RESEARCH USE ONLY**
+This product is not intended for use in humans or animals. Not intended to diagnose, treat, cure, or prevent any disease. For laboratory research use only by qualified personnel. Buyers assumes all responsibility for compliance with applicable local, state, federal, and international laws."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present + coa_hosting
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/homepage.md
+[LINE_RANGE] 44-45
+[QUOTE]
+"  * 99%+ Purity HLPC verified
+  * Third Party COAs for every product"
+[/QUOTE]
+
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/homepage.md
+[LINE_RANGE] 160-160
+[QUOTE]
+"[Verified by Metrix](https://metrix.bio/sellers/peptide-supply-org)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://peptidesupply.org/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/product_1__bpc-157-10mg.md
+[LINE_RANGE] 65-66
+[QUOTE]
+"  * Description
+  * Reviews (0) "
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/homepage.md
+[LINE_RANGE] 133-134
+[QUOTE]
+"**RESEARCH USE ONLY**
+This product is not intended for use in humans or animals. Not intended to diagnose, treat, cure, or prevent any disease. For laboratory research use only by qualified personnel."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url + tos_highlights
+[URL] https://peptidesupply.org/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/tos.md
+[LINE_RANGE] 50-52
+[QUOTE]
+"## 1\. ELIGIBILITY
+
+You must be **at least 18 years old** to access this website or purchase any products from Peptide Supply. By using this site, you represent and warrant that you meet this age requirement."
+[/QUOTE]
+
+[URL] https://peptidesupply.org/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/tos.md
+[LINE_RANGE] 215-217
+[QUOTE]
+"## 15\. GOVERNING LAW
+
+These Terms shall be governed by and construed in accordance with the laws of **Tennessee, USA** , without regard to conflict-of-law principles."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://peptidesupply.org/refund_returns/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/refund.md
+[LINE_RANGE] 40-42
+[QUOTE]
+"## All Sales Are Final
+
+Because RUO peptides are **sensitive, perishable, and often custom-handled** , **all sales are final**  once an order has been shipped, except as expressly stated below."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/homepage.md
+[LINE_RANGE] 47-47
+[QUOTE]
+"  * Free shipping over $100"
+[/QUOTE]
+
+[URL] https://peptidesupply.org/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/product_1__bpc-157-10mg.md
+[LINE_RANGE] 53-53
+[QUOTE]
+"Fulfillment 2-4 business days after payment confirmation"
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://peptidesupply.org/my-account-2/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/homepage.md
+[LINE_RANGE] 17-17
+[QUOTE]
+"  * [My account](https://peptidesupply.org/my-account-2/)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/homepage.md
+[LINE_RANGE] 47-47
+[QUOTE]
+"  * Free shipping over $100"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+Homepage HTML source contains wc-blocks script reference and the woocommerce plugin signature; Mailchimp for WooCommerce plugin is confirmed loaded; AffiliateWP plugin (WordPress-native) also present. This combination unambiguously identifies the platform as WordPress + WooCommerce.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/source_homepage.md
+[LINE_RANGE] 1-8
+"=== Source Analysis Notes ===
+Platform: WordPress + WooCommerce (wp-content/plugins/mailchimp-for-woocommerce, wc-blocks detected, Blocksy theme)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/source_homepage.md
+[LINE_RANGE] 1-8
+"CDN: SiteGround Optimizer (siteground-optimizer-combined-css)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] Google Tag GT-T9B22JJF, Google Ads AW-17934398754, Mailchimp for WooCommerce
+[REASONING]
+Homepage HTML source contains explicit gtag config call with GT-T9B22JJF and AW-17934398754 identifiers, plus Mailchimp WooCommerce plugin js from chimpstatic.com.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/source_homepage.md
+[LINE_RANGE] 3-5
+"Analytics: Google Tag GT-T9B22JJF (via Site Kit plugin), Google Ads AW-17934398754
+Marketing pixels: TikTok (social link only, no pixel code found), Pinterest (social share button only, no pixel found)
+Email: Mailchimp for WooCommerce (chimpstatic.com mcjs detected)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/source_homepage.md
+[LINE_RANGE] 6-6
+"Chat widget: None detected"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present + blog_url
+[URL] https://peptidesupply.org/blog/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/blog_1.md
+[LINE_RANGE] 38-40
+[QUOTE]
+"# Research Blog
+
+Welcome to the Peptide Supply Blog a research focused resource covering peptide education, product comparisons, storage and reconstitution guidance, and scientific overviews."
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://peptidesupply.org/blog/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/blog_1.md
+[LINE_RANGE] 54-110
+[QUOTE]
+"  * 04/02/2026
+  * [Market Trends]
+  * 03/15/2026
+  * [Uncategorized]
+  * 03/15/2026
+  * [Market Trends]
+  * 03/11/2026
+  * [Reconstitution]
+  * 03/11/2026
+  * [Reconstitution]
+  * 03/10/2026
+  * [Peptide Handling and Care]"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://peptidesupply.org/blog/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/blog_1.md
+[LINE_RANGE] 44-140
+[QUOTE]
+"## [Why Bac Water Got Removed From Amazon: Real Reasons Behind the Buzz](https://peptidesupply.org/why-bac-water-got-removed-from-amazon-real-reasons-behind-the-buzz/)
+
+Why Bac Water Got Removed From Amazon: Real Reasons Behind the Buzz If you've searched Amazon lately and noticed that bac water listings are harder to find—or gone entirely—you're not imagining it. The recent disappearance of bacteriostatic water from Amazon…
+
+  * 04/02/2026
+  * [Market Trends](https://peptidesupply.org/category/market-trends/)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://peptidesupply.org/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/product_1__bpc-157-10mg.md
+[LINE_RANGE] 88-91
+[QUOTE]
+"##  Reviews
+
+There are no reviews yet.
+
+Be the first to review "BPC-157 10mg""
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/homepage.md
+[LINE_RANGE] 160-160
+[QUOTE]
+"[Verified by Metrix](https://metrix.bio/sellers/peptide-supply-org)"
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2026
+[REASONING]
+Homepage source meta shows datePublished as 2026-01-02 and the footer copyright reads "Copyright © 2026 - Peptide Supply LLC", strongly indicating site launch in early 2026.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/homepage.md
+[LINE_RANGE] 164-164
+"Copyright © 2026 - Peptide Supply LLC"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidesupply.org/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/tos.md
+[LINE_RANGE] 41-41
+" _Last updated:_ 01/14/2026"
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation + fulfillment_country
+[URL] https://peptidesupply.org/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/homepage.md
+[LINE_RANGE] 46-46
+[QUOTE]
+"  * Proudly based in the USA"
+[/QUOTE]
+
+[URL] https://peptidesupply.org/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/tos.md
+[LINE_RANGE] 215-217
+[QUOTE]
+"These Terms shall be governed by and construed in accordance with the laws of **Tennessee, USA** , without regard to conflict-of-law principles."
+[/QUOTE]
+
+[CLAIM] skus[peptidesupply:bpc-157-10mg].list_price_usd + dose_value
+[URL] https://peptidesupply.org/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/product_1__bpc-157-10mg.md
+[LINE_RANGE] 43-45
+[QUOTE]
+"# BPC-157 10mg
+
+$40.00"
+[/QUOTE]
+
+[CLAIM] skus[peptidesupply:retatrutide-30mg].list_price_usd + dose_value
+[URL] https://peptidesupply.org/product/retatrutide-30mg/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/product_2__retatrutide-30mg.md
+[LINE_RANGE] 43-45
+[QUOTE]
+"# Retatrutide 30MG
+
+$185.00"
+[/QUOTE]
+
+[CLAIM] skus[peptidesupply:retatrutide-20mg].list_price_usd + dose_value
+[URL] https://peptidesupply.org/product/retatrutide-20mg/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/product_8__retatrutide-20mg.md
+[LINE_RANGE] 43-47
+[QUOTE]
+"# Retatrutide 20MG
+
+$145.00
+
+# Retatrutide 20mg"
+[/QUOTE]
+
+[CLAIM] skus[peptidesupply:retatrutide-15mg].list_price_usd + dose_value
+[URL] https://peptidesupply.org/product/retatrutide-15mg-2/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/product_6__retatrutide-15mg.md
+[LINE_RANGE] 43-45
+[QUOTE]
+"# Retatrutide 15mg
+
+$125.00"
+[/QUOTE]
+
+[CLAIM] skus[peptidesupply:tirzepatide-15mg].list_price_usd + dose_value
+[URL] https://peptidesupply.org/product/tirzepatide/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/product_3__tirzepatide-15mg.md
+[LINE_RANGE] 43-45
+[QUOTE]
+"# Tirzepatide 15 MG
+
+$80.00"
+[/QUOTE]
+
+[CLAIM] skus[peptidesupply:ghk-cu-50mg].list_price_usd + dose_value
+[URL] https://peptidesupply.org/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/product_4__ghk-cu-50mg.md
+[LINE_RANGE] 43-45
+[QUOTE]
+"# GHK-CU 50mg
+
+$40.00"
+[/QUOTE]
+
+[CLAIM] skus[peptidesupply:ghk-cu-100mg].list_price_usd + dose_value
+[URL] https://peptidesupply.org/product/ghk-cu-100mg-2/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/product_9__ghk-cu-100mg.md
+[LINE_RANGE] 43-45
+[QUOTE]
+"# GHK-CU 100MG
+
+$65.00"
+[/QUOTE]
+
+[CLAIM] skus[peptidesupply:tb500].list_price_usd + name
+[URL] https://peptidesupply.org/product/tb500/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/product_5__tb500.md
+[LINE_RANGE] 43-45
+[QUOTE]
+"# TB500
+
+$60.00"
+[/QUOTE]
+
+[CLAIM] skus[peptidesupply:tb500-bpc-blend].list_price_usd + name
+[URL] https://peptidesupply.org/product/tb500-bpc-blend/
+[FETCHED_AT] 2026-05-08T06:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptidesupply/product_7__tb500-bpc-blend.md
+[LINE_RANGE] 43-45
+[QUOTE]
+"# TB500/BPC blend
+
+$50.00"
+[/QUOTE]

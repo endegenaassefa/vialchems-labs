@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "altas-peptides",
+  "brand_name": "Altas Peptides",
+  "primary_domain": "https://altaspeptides.com",
+
+  "fetched_url": "https://altaspeptides.com",
+  "fetched_at": "2026-05-07T19:40:35Z",
+  "fetch_status": "failed",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed, Tier 3: Obscure vendor flagged for poor quality). Seed assignment stands: all three fetch attempts failed. DNS returns NXDOMAIN — altaspeptides.com has never resolved and has zero Wayback Machine captures. The domain never existed in archived form. No content, no SKUs, no identity signals were retrievable from any source.",
+  "field_completion_ratio": 0.12,
+
+  "country_of_operation": "uncertain",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "uncertain",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "uncertain"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": ["uncertain"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": ["uncertain"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "uncertain",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["uncertain"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "altas-peptides,Altas Peptides,altaspeptides.com,0,00_inputs/vendor_list.csv,\"row from operator-supplied vendor list, classified as Tier 3: Obscure vendor flagged for poor quality.\",3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/altas-peptides/",
+  "evidence_file": "evidence/altas-peptides.txt",
+  "uncertainty_notes": "fetch_status='failed' baseline-only profile per directive §8.1 and Rule 17 (computed field_completion_ratio 0.12 < 0.40 → failed). ALL FIELDS UNCERTAIN except identity fields. PRIMARY REASON: Domain altaspeptides.com returns DNS NXDOMAIN — the domain does not exist and has never been registered or captured by any web archive. Three fetch attempts all failed: (1) curl exit code 6 'Could not resolve host: altaspeptides.com' — confirmed via nslookup and dig showing NXDOMAIN; (2) Wayback Machine HTTP 404 for 2024 redirect URL, and Wayback CDX API returned zero records for altaspeptides.com across all time — domain has never been archived; (3) gstack:browse Chromium sandbox failure in WSL2 root environment — 'Running as root without --no-sandbox is not supported'. No identity data (country, year established, lab posture, SKUs, prices, review presence) was recoverable from any source. The domain altaspeptides.com has zero internet presence — not in Wayback, not DNS-resolvable, and no WHOIS record retrievable. This vendor appears to be either entirely fictitious, a pre-launch placeholder, or a brand name never launched on this specific domain. OPERATOR CLASSIFICATION: 'Obscure vendor flagged for poor quality' — consistent with a non-functioning domain. LAST ACTIVITY: not determinable; no evidence of any activity at any point in time."
+}

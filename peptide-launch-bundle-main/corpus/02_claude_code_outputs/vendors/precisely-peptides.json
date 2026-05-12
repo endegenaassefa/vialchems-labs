@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "precisely-peptides",
+  "brand_name": "Precisely Peptides",
+  "primary_domain": "https://www.preciselypeptides.com",
+
+  "fetched_url": "https://preciselypeptides.com",
+  "fetched_at": "2026-05-08T06:33:38Z",
+  "fetch_status": "partial",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed)",
+  "field_completion_ratio": 0.59,
+
+  "country_of_operation": "United States",
+  "fulfillment_country": "United States",
+  "ship_to_scope": "us_only",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "Relentless Precision.\\nIntelligent Value.\\n\\nOur everyday price is ~50% less than their sale price",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Create Account",
+    "navigation_pattern": "Home | Shop | FAQ | Contact Us | My account; minimalist top nav with cart icon",
+    "footer_disclaimers": "All products are intended exclusively for in-vitro laboratory research. Not for human consumption, veterinary use, or therapeutic application. Not evaluated by the FDA.\\n\\n© 2026 Precisely Peptides. All rights reserved. All products are for research use only. Not for human consumption."
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": ["uncertain"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "All products sold by Precisely Peptides are intended exclusively for legitimate in-vitro scientific research purposes by qualified researchers aged 18 and older.",
+    "coa_present": "true",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "All products sold by Precisely Peptides are strictly for legitimate in-vitro laboratory research purposes only. Products are not intended for human consumption, veterinary use, therapeutic application, or any clinical or diagnostic purpose.",
+    "age_gate_present": "true",
+    "jurisdictional_restriction_notice": "none",
+    "tos_url": "https://www.preciselypeptides.com/terms-of-service/",
+    "tos_highlights": "RUO-only; 18+ age requirement with qualified researcher representation; account registration required to purchase; US shipping only; Wyoming governing law; indemnification clause; right to refuse service",
+    "refund_policy": "uncertain",
+    "shipping_policy": "Ships within the United States only. Orders typically processed and shipped within 48 hours of payment confirmation. Free shipping on orders $300+."
+  },
+
+  "checkout_flow": {
+    "account_required": "true",
+    "guest_checkout_available": "false",
+    "fields_collected": ["email", "password", "age confirmation", "research use agreement acknowledgment"],
+    "id_verification_present": "true",
+    "payment_methods_accepted": ["credit_card_via_card2crypto_stripe", "visa", "mastercard", "amex"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "Free shipping on orders $300+ (Member tier); $150+ (Researcher tier); $100+ (Senior Researcher tier); always free (Principal Investigator tier)",
+    "international_policy": "Ships within the United States only"
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "cloudflare",
+    "analytics_tools_loaded": ["Google Site Kit 1.178.0", "Omnisend (brandID: 69d057ccae91bb1165aec706)", "Metorik (CSP connect-src)"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "true"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["uncertain"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "precisely-peptides,Precisely Peptides,preciselypeptides.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list, classified as Tier 3: Woods Cross-based vendor.,3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/precisely-peptides/",
+  "evidence_file": "evidence/precisely-peptides.txt",
+  "uncertainty_notes": "MAJOR BARRIER: The shop at preciselypeptides.com/shop/ and all product pages require account login (redirects to /my-account/). This is an atypical design for a peptide vendor — the entire catalog including pricing, individual SKUs, product images, COA hosting, and product descriptions is gated behind registration. No Wayback Machine snapshots exist for this domain (site has no archive.org history). gstack:browse could not be used due to Chromium sandbox restrictions in this environment. As a result: catalog.sku_count, catalog.category_taxonomy, catalog.search_filter_capabilities, catalog.stack_bundle_pages_present, all product_page_anatomy fields (except exact_disclaimer_language and coa_present — inferred from RUO page), all skus[], content_footprint fields, social_proof fields are uncertain. The homepage states '30+ COMPOUNDS AVAILABLE' but no itemized list is visible without login. shipping_policy is partially known from TOS §5 (US-only, 48hr processing, $300+ free shipping) but the dedicated /shipping-policy/ page is login-walled. refund_policy content is login-walled (only knows returns of opened/used products generally prohibited per TOS §5). payment_methods_accepted: card2crypto-instant-payment-gateway-stripe identified from HTML source — credit card processed via crypto gateway backend (Visa/Mastercard/Amex accepted, user pays in USD, no wallet needed). chat_widget: Crisp chat client referenced in CSP header (client.crisp.chat) but initialization config not visible in login-page HTML. marketing_pixels: CSP whitelist includes googletagmanager.com and google-analytics.com but no explicit GTM ID or GA4 tracking ID found in login-page HTML; likely loaded on authenticated pages only. year_established: not discoverable from any fetched page. tech_stack.marketing_pixels_present: uncertain; CSP allows GTM and GA4 but no pixel IDs captured."
+}

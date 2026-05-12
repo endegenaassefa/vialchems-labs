@@ -1,0 +1,475 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:31:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/homepage.md
+[LINE_RANGE] 54-56
+[QUOTE]
+"THIRD-PARTY TESTED • 99% PURITY • RESEARCH USE ONLY"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:31:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/homepage.md
+[LINE_RANGE] 60
+[QUOTE]
+"[Shop Peptides](/shop/) [Explore Wholesale](/wholesale/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:31:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/homepage.md
+[LINE_RANGE] 22-28
+[QUOTE]
+"  * [Home](https://royal-peptides.com/)
+  * [COAs](https://royal-peptides.com/coas/)
+  * [Guide](https://royal-peptides.com/peptide-guide/)
+  * [FAQ](https://royal-peptides.com/faq/)
+  * [Shop](https://royal-peptides.com/shop/)
+  * [Wholesale](https://royal-peptides.com/wholesale/)
+  * [Contact](https://royal-peptides.com/contact/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:31:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/homepage.md
+[LINE_RANGE] 731-733
+[QUOTE]
+"**For research and laboratory use only.** All products listed on this website are intended strictly for in-vitro research and laboratory experimentation. These products are not drugs, food additives, dietary supplements, or intended for self-administration by humans or animals."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:31:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/homepage.md
+[LINE_RANGE] 18
+[QUOTE]
+"__USA DOMESTIC SHIPPING (FAST DISPATCH) __CANADA & EU INVENTORY AVAILABLE"
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:32:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/source_homepage.md
+[LINE_RANGE] 17
+[QUOTE]
+"(line 106) <meta property="article:published_time" content="2025-02-08T00:33:46-05:00" />"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:32:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/source_homepage.md
+[LINE_RANGE] 19
+[QUOTE]
+(line 116) <script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":"Place","@id":"https://royal-peptides.com/#place","address":{"@type":"PostalA
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://royal-peptides.com/shop/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/catalog_1.md
+[LINE_RANGE] 58
+[QUOTE]
+"Showing all 60 results"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:31:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/homepage.md
+[LINE_RANGE] 84
+[QUOTE]
+"### [Canada Stock Fast domestic fulfillment inventory ](/product-category/canada-stock/) ### [10-Vial Kits High-volume research kits for efficiency ](/product-category/10-pack-kits/) ### [Single Vials Individual compounds for targeted use ](/product-category/single-vials/) ### [Peptide Blends Combined formulations for synergy ](/product-category/blends/) ### [GLP/GIP Research Metabolic pathway compounds ](/product-category/glp-gip-research/) ### [Healing & Growth Regenerative research compounds ](/product-category/healing-growth/) ### [Immune & Wellness Support and recovery research ](/product-category/immune-wellness/) ### [Oral Research Oral delivery compounds ](/product-category/oral/) ### [Best Sellers Most popular research products ](/product-category/best-sellers/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://royal-peptides.com/shop/retatrutide-vial/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/product_1__retatrutide-vial.md
+[LINE_RANGE] 117
+[QUOTE]
+"**THIS PRODUCT IS INTENDED AS A RESEARCH CHEMICAL ONLY.** This designation allows the use of research chemicals strictly for in vitro testing and laboratory experimentation only. All product information available on this website is for educational purposes only. Bodily introduction of any kind into humans or animals is strictly forbidden by law and is not at all endorsed by this website."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://royal-peptides.com/coas/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/coa_1.md
+[LINE_RANGE] 94-107
+[QUOTE]
+"[Open Latest COA](https://verify.janoshik.com/tests/76364_LX19TVC6W86P) [View Product](/product/retatrutide-30mg/)
+Retatrutide 30mg | RT-30044 | 99.83% | Sep 2025 | COA | [Open PDF](https://verify.janoshik.com/tests/81057-ERP_RT30_SKMP6N6H7YRN)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://royal-peptides.com/coas/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/coa_1.md
+[LINE_RANGE] 94
+[QUOTE]
+"[Open Latest COA](https://verify.janoshik.com/tests/76364_LX19TVC6W86P)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://royal-peptides.com/coas/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/coa_1.md
+[LINE_RANGE] 91-92
+[QUOTE]
+"Latest Batch **RT-30044**
+LATEST BATCH"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:31:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/homepage.md
+[LINE_RANGE] 18
+[QUOTE]
+"__RESEARCH USE ONLY · NOT FOR HUMAN CONSUMPTION"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:31:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/homepage.md
+[LINE_RANGE] 747-755
+[QUOTE]
+"21+ Access Only
+
+## Restricted Research Access
+
+This website is intended only for individuals 21 years of age or older accessing products for legitimate laboratory and research purposes."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:31:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/homepage.md
+[LINE_RANGE] 753
+[QUOTE]
+"By entering this site, you confirm you are at least 21 years old, located in a jurisdiction where access is lawful, and understand all products are sold strictly for research use only and not for human or veterinary consumption."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://royal-peptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/tos.md
+[LINE_RANGE] 50-53
+[QUOTE]
+"# TERMS OF SERVICE
+
+Effective Date: DEC 2024
+
+By accessing or purchasing from Royal Peptides, you acknowledge and agree to operate within a strictly research-focused framework."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://royal-peptides.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/tos.md
+[LINE_RANGE] 90
+[QUOTE]
+"Due to the nature of research materials, all sales are final. Exceptions, if granted, are at our sole discretion."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://royal-peptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/shipping.md
+[LINE_RANGE] 50-60
+[QUOTE]
+"# SHIPPING & REFUND POLICY
+
+Effective Date: DEC 2024
+
+This page outlines Royal Peptides' shipping, delivery, return, and refund terms. By placing an order, you acknowledge and agree to the policies below."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://royal-peptides.com/shop/retatrutide-vial/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/product_1__retatrutide-vial.md
+[LINE_RANGE] 93-95
+[QUOTE]
+"  * Check Mark **Estimated Delivery :** Up to 4 business days
+  * Check Mark **Free Shipping :** On all orders over $300
+  * Check Mark **3rd Party Tested Premium Peptides :** 99% Purity"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://royal-peptides.com/shop/retatrutide-vial/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/product_1__retatrutide-vial.md
+[LINE_RANGE] 97-102
+[QUOTE]
+"  * Visa Card
+  * MasterCard
+  * American Express
+  * Discover Card
+  * PayPal
+  * Apple Pay"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://royal-peptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/shipping.md
+[LINE_RANGE] 88-95
+[QUOTE]
+"International shipments may be subject to customs inspections, delays, duties, taxes, or seizures depending on destination country regulations.
+
+  * Customers are solely responsible for understanding import rules in their jurisdiction
+  * We are not responsible for customs delays, holds, returned shipments, or seizures
+  * Refunds or reshipments are not guaranteed for customs-related issues"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:32:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/source_homepage.md
+[LINE_RANGE] 42-44
+[QUOTE]
+"(line 351) <link rel='stylesheet' id='acfwf-wc-cart-block-integration-css' href='https://royal-peptides.com/wp-content/plugins/advanced-coupons-for-woocommerce-free/dist/assets/index-467dde24.css?ver=1776098441'"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:32:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/source_homepage.md
+[LINE_RANGE] 8-13
+[QUOTE]
+"(line 122) <link rel='dns-prefetch' href='//www.googletagmanager.com' />"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:32:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/source_homepage.md
+[LINE_RANGE] 31-33
+[QUOTE]
+"(line 128) 		<!-- This site uses the Google Analytics by MonsterInsights plugin v10.1.3 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+(line 129) 							<script src=\"//www.googletagmanager.com/gtag/js?id=G-G124ZK4FW0\"  data-cfasync=\"false\" data-wpfc-render=\"false\" async></script>"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:32:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/source_homepage.md
+[LINE_RANGE] 44
+[QUOTE]
+"(line 353) <link rel='stylesheet' id='omnisend-woocommerce-checkout-block-checkout-newsletter-subscription-block-css' href='https://royal-peptides.com/wp-content/plugins/omnisend-connect/includes/blocks/build/om"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://royal-peptides.com/peptide-guide/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/blog_1.md
+[LINE_RANGE] 48-53
+[QUOTE]
+"# Ultimate Peptide Reconstitution, Storage & Handling Guide
+
+This guide is provided as a general reference for researchers working with lyophilized peptide products. It covers reconstitution basics, storage guidance, vial appearance, reusable cap instructions, and packaging notes for 10-vial kits."
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:31:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/homepage.md
+[LINE_RANGE] 367-385
+[QUOTE]
+"★★★★★
+
+COA Focused
+
+One of the few suppliers where batch presentation and documentation feel organized instead of thrown together.
+
+Verified customer
+
+★★★★★
+
+Canada Order
+
+Everything arrived protected properly. No broken tops, no loose packaging, and no confusion with the order.
+
+Canada client"
+[/QUOTE]
+
+[CLAIM] skus[0].list_price_usd (Retatrutide Single Vial)
+[URL] https://royal-peptides.com/shop/retatrutide-vial/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/product_1__retatrutide-vial.md
+[LINE_RANGE] 68-75
+[QUOTE]
+"# Retatrutide Single Vial
+
+$55 – $330Price range: $55 through $330
+
+__Selling fast! Over 11 people have in their cart
+
+Choose an option |  Choose an option5mg10mg15mg20mg30mg50mg60mg"
+[/QUOTE]
+
+[CLAIM] skus[1].list_price_usd (Tirzepatide 10-Vial Kit)
+[URL] https://royal-peptides.com/shop/buy-tirzepatide-online-usa-canada/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/product_2__tirzepatide-10-vial-kit.md
+[LINE_RANGE] 68-77
+[QUOTE]
+"# Tirzepatide 10-Vial Bulk Kit TR
+
+$320 – $1,100Price range: $320 through $1,100
+
+__Selling fast! Over 16 people have in their cart
+
+**Buy Tirzepatide online** from Royal Peptides with fast USA and Canada delivery. Every vial is ≥99% purity, independently third-party tested, and backed by full COA verification."
+[/QUOTE]
+
+[CLAIM] skus[2].list_price_usd (Semaglutide Single Vials)
+[URL] https://royal-peptides.com/shop/semaglutide/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/product_4__semaglutide.md
+[LINE_RANGE] 68-77
+[QUOTE]
+"# Semaglutide Single Vials
+
+$45 – $155Price range: $45 through $155
+
+__Selling fast! Over 17 people have in their cart
+
+Choose an option |  Choose an option5mg10mg15mg20mg"
+[/QUOTE]
+
+[CLAIM] skus[3].list_price_usd (BPC-157)
+[URL] https://royal-peptides.com/shop/bpc-157-10mg-vial-kit/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/product_6__bpc-157.md
+[LINE_RANGE] 68-76
+[QUOTE]
+"# BPC-157
+
+$60 – $570Price range: $60 through $570
+
+__Selling fast! Over 19 people have in their cart
+
+MG |  Choose an option20mg Kit20mg Vial10mg Kit10mg vial"
+[/QUOTE]
+
+[CLAIM] skus[4].list_price_usd (Wolverine BPC-157 TB-500 Blend)
+[URL] https://royal-peptides.com/shop/wolverine-bpc-157-tb-500-blend/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/product_3__wolverine-bpc157-tb500-blend.md
+[LINE_RANGE] 68-78
+[QUOTE]
+"# Wolverine BPC-157 TB-500 Blend BB
+
+$65 – $650Price range: $65 through $650
+
+__Selling fast! Over 10 people have in their cart
+
+Choose an option |  Choose an option20mg vial10mg vial10mg Kit (100mg)20mg Kit (200mg)"
+[/QUOTE]
+
+[CLAIM] skus[5].list_price_usd (KLOW 80mg Peptide Blend)
+[URL] https://royal-peptides.com/shop/buy-klow-peptide-blend-online-usa/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/product_5__klow-blend.md
+[LINE_RANGE] 68-78
+[QUOTE]
+"# KLOW 80mg Peptide Blend
+
+$90 – $560Price range: $90 through $560
+
+__Selling fast! Over 11 people have in their cart
+
+Choose an option |  Choose an optionGlow+KPVSingle VialKIT( 10 Vials)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://royal-peptides.com/shop/buy-klow-peptide-blend-online-usa/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/product_5__klow-blend.md
+[LINE_RANGE] 112-115
+[QUOTE]
+"## Buy KLOW Peptide Blend Online USA & Canada – Premium 80mg Blend
+
+Royal Peptides proudly offers the **KLOW 80mg peptide blend** , an advanced formulation designed for exclusive research use. This premium vial combines four powerful peptides into one: **GHK-Cu 50mg, BPC-157 10mg, TB-500 10mg, and KPV 10mg**."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The site uses product vial photographs against clean backgrounds, structured specification tables, and clinical framing language. No lifestyle imagery or meme-coded visuals were observed across the homepage and product pages.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:31:00Z
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/homepage.md
+[LINE_RANGE] 54
+"THIRD-PARTY TESTED • 99% PURITY • RESEARCH USE ONLY"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://royal-peptides.com/shop/retatrutide-vial/
+[FETCHED_AT] 2026-05-08T07:33:00Z
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/product_1__retatrutide-vial.md
+[LINE_RANGE] 65
+"🧪3rd Party Tested _99%+ Purity_ • 🚚Fast Shipping _USA & Canada_ • 📦Discreet Packaging _Every Order_ • 🔒Secure Checkout _Encrypted_ • 💬Priority Support _Quick Response_"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn (Cloudflare)
+[INFERENCE] cloudflare
+[REASONING]
+Response headers contain server: cloudflare, cf-ray, cf-cache-status, and __cf_bm cookie — all definitive Cloudflare CDN signals.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:32:12Z
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/source_homepage.md
+[LINE_RANGE] 8-12
+"(line 122) <link rel='dns-prefetch' href='//www.googletagmanager.com' />"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://royal-peptides.com
+[FETCHED_AT] 2026-05-08T07:32:12Z
+[RAW_ARTIFACT] 03_raw_fetches/royal-peptides-wholesale/source_homepage.md
+[LINE_RANGE] 21
+"(line 118) <!-- /Rank Math WordPress SEO plugin -->"
+[/SUPPORT_QUOTE]

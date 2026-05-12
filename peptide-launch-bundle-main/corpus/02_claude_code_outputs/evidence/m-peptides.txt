@@ -1,0 +1,43 @@
+[CLAIM] fetch_status
+[URL] https://m-peptides.com/
+[FETCHED_AT] 2026-05-07T19:52:00Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/m-peptides/homepage.md
+[LINE_RANGE] 8-10
+[QUOTE]
+"Domain m-peptides.com is parked. Browser redirected to:
+http://resultearchnow.com/?dn=m-peptides.com&sksubid=35961519&_slsen=0
+
+No text content returned from parking page. Domain is not serving any peptide vendor content."
+[/QUOTE]
+
+[CLAIM] fetch_status
+[URL] https://web.archive.org/web/20180805163255/http://m-peptides.com/
+[FETCHED_AT] 2026-05-07T19:54:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/m-peptides/wayback_attempt.md
+[LINE_RANGE] 8-22
+[QUOTE]
+"The Wayback Machine - https://web.archive.org/web/20180805163255/http://m-peptides.com/
+Opcje dostepne dla administratora, badz uprawnionego uzytkownika uslugi:
+Czytaj poczte
+Zarzadzaj uslugami
+Strona utrzymywana na serwerach
+home.pl
+.
+Domeny|
+Hosting|
+Poczta e-mail|
+Sklepy internetowe|
+Certyfikaty SSL"
+[/QUOTE]
+
+[CLAIM] primary_domain
+[URL] https://m-peptides.com/
+[FETCHED_AT] 2026-05-07T19:52:00Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/m-peptides/homepage.md
+[LINE_RANGE] 2-2
+[QUOTE]
+"url: https://m-peptides.com/"
+[/QUOTE]

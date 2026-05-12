@@ -1,0 +1,839 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.nextagepeptides.ca/
+[FETCHED_AT] 2026-05-07T18:10:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/homepage.md
+[LINE_RANGE] 23-27
+[QUOTE]
+"Canada's #1 Source for Premium Peptides"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://www.nextagepeptides.ca/
+[FETCHED_AT] 2026-05-07T18:10:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/homepage.md
+[LINE_RANGE] 25-27
+[QUOTE]
+"Elevate Your Vitality
+
+Unlock youthful energy. Feel stronger, look brighter, live better."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.nextagepeptides.ca/
+[FETCHED_AT] 2026-05-07T18:10:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/homepage.md
+[LINE_RANGE] 29-29
+[QUOTE]
+"[Shop Now](https://www.nextagepeptides.ca/category/all-products)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.nextagepeptides.ca/
+[FETCHED_AT] 2026-05-07T18:10:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/homepage.md
+[LINE_RANGE] 10-22
+[QUOTE]
+"  * [Shop All](https://www.nextagepeptides.ca/category/all-products)
+
+  * [About](https://www.nextagepeptides.ca/about)
+
+  * [Contact](https://www.nextagepeptides.ca)
+
+  * [Blog](https://www.nextagepeptides.ca/blog)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.nextagepeptides.ca/
+[FETCHED_AT] 2026-05-07T18:10:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/homepage.md
+[LINE_RANGE] 158-166
+[QUOTE]
+"[Privacy Policy](https://www.nextagepeptides.ca/english-privacy-policy)
+
+[Shipping and Refund Policy](https://www.nextagepeptides.ca/english-shipping-policy)
+
+[Terms & Conditions](https://www.nextagepeptides.ca/english-terms-conditions)
+
+Copyright © 2026 NextAge Peptides. All rights reserved."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.nextagepeptides.ca/english-terms-conditions
+[FETCHED_AT] 2026-05-07T18:15:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/tos.md
+[LINE_RANGE] 71-71
+[QUOTE]
+"These Terms & Conditions shall be governed by and construed in accordance with the laws of the Province of Ontario and the federal laws of Canada applicable therein."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.nextagepeptides.ca/english-shipping-policy
+[FETCHED_AT] 2026-05-07T18:15:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/shipping.md
+[LINE_RANGE] 25-27
+[QUOTE]
+"### Shipping Within Canada
+
+We ship exclusively to addresses within Canada. All orders are processed within 1-3 business days."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.nextagepeptides.ca/english-shipping-policy
+[FETCHED_AT] 2026-05-07T18:15:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/shipping.md
+[LINE_RANGE] 25-27
+[QUOTE]
+"### Shipping Within Canada
+
+We ship exclusively to addresses within Canada."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.nextagepeptides.ca/category/all-products
+[FETCHED_AT] 2026-05-07T18:12:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/catalog_1.md
+[LINE_RANGE] 51-53
+[QUOTE]
+"# All Products
+
+17 products"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.nextagepeptides.ca/category/all-products
+[FETCHED_AT] 2026-05-07T18:12:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/catalog_1.md
+[LINE_RANGE] 24-28
+[QUOTE]
+"  1. [Home](https://www.nextagepeptides.ca)
+  2. All Products
+
+
+
+  * [All Products](https://www.nextagepeptides.ca/category/all-products)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://www.nextagepeptides.ca/category/all-products
+[FETCHED_AT] 2026-05-07T18:12:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/catalog_1.md
+[LINE_RANGE] 32-50
+[QUOTE]
+"## Filter by
+
+  * Price
+
+CA$25
+
+CA$111
+
+  * Size
+
+10mg
+
+20mg
+
+30mg"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.nextagepeptides.ca/category/all-products
+[FETCHED_AT] 2026-05-07T18:12:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/catalog_1.md
+[LINE_RANGE] 69-72
+[QUOTE]
+"[ Wolverine 10mgRegular Price$84.49Sale Price$71.82](https://www.nextagepeptides.ca/product-page/wolverine-10mg)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://www.nextagepeptides.ca/product-page/bpc-157
+[FETCHED_AT] 2026-05-07T18:15:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_14__bpc-157.md
+[LINE_RANGE] 22-23
+[QUOTE]
+"# BPC 157 10mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://www.nextagepeptides.ca/product-page/bpc-157
+[FETCHED_AT] 2026-05-07T18:15:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_14__bpc-157.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"# BPC 157 10mg
+
+$49.49 Regular Price
+
+$42.07Sale Price"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://www.nextagepeptides.ca/product-page/bpc-157
+[FETCHED_AT] 2026-05-07T18:15:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_14__bpc-157.md
+[LINE_RANGE] 24-25
+[QUOTE]
+"$49.49 Regular Price"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.nextagepeptides.ca/product-page/bpc-157
+[FETCHED_AT] 2026-05-07T18:15:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_14__bpc-157.md
+[LINE_RANGE] 32-32
+[QUOTE]
+"    This powerful solution is known for its effectiveness in reducing inflammation and pain, helping you recover faster and feel your best. BPC 157 promotes overall wellness by accelerating the healing process across multiple systems."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.nextagepeptides.ca/product-page/bpc-157
+[FETCHED_AT] 2026-05-07T18:15:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_14__bpc-157.md
+[LINE_RANGE] 51-53
+[QUOTE]
+"### Legal Disclaimer
+
+The products offered by Next Age Peptides are intended solely for research purposes. These products are not for human consumption, are not intended for medical use, and have not been approved by the FDA or Health Canada for any therapeutic or diagnostic purpose. Next Age Peptides makes no claims regarding the safety, efficacy, or intended use of these products outside of a controlled research environment. By purchasing our products, you agree to use them strictly for scientific research and in compliance with all local laws and regulations."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://www.nextagepeptides.ca/product-page/bpc-157
+[FETCHED_AT] 2026-05-07T18:15:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_14__bpc-157.md
+[LINE_RANGE] 22-58
+[QUOTE]
+"# BPC 157 10mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://www.nextagepeptides.ca/product-page/bpc-157
+[FETCHED_AT] 2026-05-07T18:15:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_14__bpc-157.md
+[LINE_RANGE] 22-70
+[QUOTE]
+"# BPC 157 10mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://www.nextagepeptides.ca/product-page/bpc-157
+[FETCHED_AT] 2026-05-07T18:15:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_14__bpc-157.md
+[LINE_RANGE] 22-70
+[QUOTE]
+"# BPC 157 10mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://www.nextagepeptides.ca/product-page/bpc-157
+[FETCHED_AT] 2026-05-07T18:15:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_14__bpc-157.md
+[LINE_RANGE] 22-70
+[QUOTE]
+"# BPC 157 10mg"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.nextagepeptides.ca/category/all-products
+[FETCHED_AT] 2026-05-07T18:12:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/catalog_1.md
+[LINE_RANGE] 131-133
+[QUOTE]
+"### Legal Disclaimer
+
+The products offered by Next Age Peptides are intended solely for research purposes. These products are not for human consumption, are not intended for medical use, and have not been approved by the FDA or Health Canada for any therapeutic or diagnostic purpose."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] true
+[REASONING]
+The browse skill session captured an accessibility tree node on the BPC-157 product page showing a button labeled "Yes I'm Over 18" as a popover-child element. The TOS also requires buyers to be at least 18 or 19 years of age. Both sources together confirm an age verification gate is present when JavaScript is rendered.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.nextagepeptides.ca/english-terms-conditions
+[FETCHED_AT] 2026-05-07T18:15:26Z
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/tos.md
+[LINE_RANGE] 25-31
+"## Eligibility"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.nextagepeptides.ca/english-terms-conditions
+[FETCHED_AT] 2026-05-07T18:15:26Z
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/tos.md
+[LINE_RANGE] 27-31
+"By accessing or purchasing from this website, you represent and warrant that you are:"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.nextagepeptides.ca/english-shipping-policy
+[FETCHED_AT] 2026-05-07T18:15:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/shipping.md
+[LINE_RANGE] 25-27
+[QUOTE]
+"### Shipping Within Canada
+
+We ship exclusively to addresses within Canada."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.nextagepeptides.ca/
+[FETCHED_AT] 2026-05-07T18:10:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/homepage.md
+[LINE_RANGE] 162-162
+[QUOTE]
+"[Terms & Conditions](https://www.nextagepeptides.ca/english-terms-conditions)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.nextagepeptides.ca/english-terms-conditions
+[FETCHED_AT] 2026-05-07T18:15:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/tos.md
+[LINE_RANGE] 25-77
+[QUOTE]
+"## Eligibility
+
+By accessing or purchasing from this website, you represent and warrant that you are:
+
+  *  At least 18 or 19 years of age depending on the age of majority in your province or territory, and
+
+  *  A qualified academic, researcher, or institution purchasing products solely for legitimate laboratory research purposes."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.nextagepeptides.ca/english-shipping-policy
+[FETCHED_AT] 2026-05-07T18:15:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/shipping.md
+[LINE_RANGE] 64-64
+[QUOTE]
+"Due to the sensitive nature of our products we do not accept returns or refunds"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.nextagepeptides.ca/english-shipping-policy
+[FETCHED_AT] 2026-05-07T18:15:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/shipping.md
+[LINE_RANGE] 25-47
+[QUOTE]
+"### Shipping Within Canada
+
+We ship exclusively to addresses within Canada. All orders are processed within 1-3 business days. Orders are not shipped or delivered on weekends or holidays.
+
+## Free Shipping
+
+We offer free shipping on orders over $200 CAD to anywhere in Canada."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://www.nextagepeptides.ca/checkout?checkoutId=ca727402-90d0-4953-8421-baebd4671515
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/checkout_step_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Customer detailsEmail*First name*Last name*Phone*Delivery detailsCountry/Region*Address*City*State*Zip / Postal code*Continue"
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://www.nextagepeptides.ca/checkout?checkoutId=ca727402-90d0-4953-8421-baebd4671515
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/checkout_step_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Customer detailsEmail*First name*Last name*Phone*Delivery detailsCountry/Region*Address*City*State*Zip / Postal code*Continue"
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://www.nextagepeptides.ca/checkout?checkoutId=ca727402-90d0-4953-8421-baebd4671515
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/checkout_step_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"Customer detailsEmail*First name*Last name*Phone*Delivery detailsCountry/Region*Address*City*State*Zip / Postal code*Continue"
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://www.nextagepeptides.ca/checkout?checkoutId=ca727402-90d0-4953-8421-baebd4671515
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/checkout_step_1.md
+[LINE_RANGE] 9-11
+[QUOTE]
+"PaymentManual PaymentPlease send an interac e-transfer to info@nextagepeptides.com."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.nextagepeptides.ca/checkout?checkoutId=ca727402-90d0-4953-8421-baebd4671515
+[FETCHED_AT] 2026-05-07T18:20:00Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/checkout_step_1.md
+[LINE_RANGE] 9-11
+[QUOTE]
+"PaymentManual PaymentPlease send an interac e-transfer to info@nextagepeptides.com.
+Once your payment has been confirmed and your package is ready for shipment, we will email you with your tracking number."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.nextagepeptides.ca/english-shipping-policy
+[FETCHED_AT] 2026-05-07T18:15:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/shipping.md
+[LINE_RANGE] 47-47
+[QUOTE]
+"Once we have shipped your order and provided you with tracking information, any issues including but not limited to delayed delivery, lost packages, damaged items during transit, or incorrect delivery addresses become the responsibility of the customer and the carrier (Canada Post, UPS, FedEx, etc.)."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.nextagepeptides.ca/english-shipping-policy
+[FETCHED_AT] 2026-05-07T18:15:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/shipping.md
+[LINE_RANGE] 31-33
+[QUOTE]
+"## Free Shipping
+
+We offer free shipping on orders over $200 CAD to anywhere in Canada."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.nextagepeptides.ca/english-shipping-policy
+[FETCHED_AT] 2026-05-07T18:15:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/shipping.md
+[LINE_RANGE] 25-27
+[QUOTE]
+"### Shipping Within Canada
+
+We ship exclusively to addresses within Canada."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] wix
+[REASONING]
+The HTTP response header for the homepage contains "x-wix-request-id" and "server: Pepyaka", both of which are Wix-specific server identifiers. Product image URLs throughout all product pages reference static.wixstatic.com, Wix's media CDN. The checkout URL format (nextagepeptides.ca/checkout?checkoutId=) is consistent with Wix eCommerce.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.nextagepeptides.ca/product-page/retatrutide-30mg
+[FETCHED_AT] 2026-05-07T18:12:30Z
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_04__retatrutide-30mg.md
+[LINE_RANGE] 38-38
+"  * [](http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.nextagepeptides.ca%2Fproduct-page%2Fretatrutide-30mg&media=https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2F304590_c458ee0acc504429864b82f2c118e1bb~mv2.png"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.nextagepeptides.ca/product-page/bpc-157
+[FETCHED_AT] 2026-05-07T18:15:42Z
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_14__bpc-157.md
+[LINE_RANGE] 42-42
+"  * [](http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.nextagepeptides.ca%2Fproduct-page%2Fbpc-157&media=https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2F304590_39f849ba423b48efa040166600e7c68b~mv2.png"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] Fastly
+[REASONING]
+The HTTP response headers include "x-served-by: cache-iad-kcgs7200130-IAD", "x-cache: HIT", and "server-timing: cache;desc=miss, varnish;desc=miss_hit, dc;desc=fastly_g". The "fastly_g" token in server-timing and the Fastly-specific cache headers confirm Fastly CDN delivery. Wix uses Fastly as its CDN.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.nextagepeptides.ca/product-page/retatrutide-30mg
+[FETCHED_AT] 2026-05-07T18:12:30Z
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_04__retatrutide-30mg.md
+[LINE_RANGE] 2-2
+"url: https://www.nextagepeptides.ca/product-page/retatrutide-30mg"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.nextagepeptides.ca/
+[FETCHED_AT] 2026-05-07T18:10:00Z
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/homepage.md
+[LINE_RANGE] 2-2
+"url: https://www.nextagepeptides.ca/"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://www.nextagepeptides.ca/
+[FETCHED_AT] 2026-05-07T18:10:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/homepage.md
+[LINE_RANGE] 127-166
+[QUOTE]
+"Stay Connected with Us
+
+Enter Your Email Address
+
+Subscribe"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.nextagepeptides.ca/blog
+[FETCHED_AT] 2026-05-07T18:15:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/blog.md
+[LINE_RANGE] 27-28
+[QUOTE]
+"# All Posts"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://www.nextagepeptides.ca/
+[FETCHED_AT] 2026-05-07T18:10:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/homepage.md
+[LINE_RANGE] 20-20
+[QUOTE]
+"  * [Blog](https://www.nextagepeptides.ca/blog)"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://www.nextagepeptides.ca/blog
+[FETCHED_AT] 2026-05-07T18:15:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/blog.md
+[LINE_RANGE] 33-55
+[QUOTE]
+"Next Age Peptides Team
+
+Apr 243 min read
+
+## [MOTS-C Peptide: The Breakthrough for Metabolism, Energy, and Longevity](https://www.nextagepeptides.ca/post/mots-c-peptide-benefits-canada)
+
+Next Age Peptides Team
+
+Apr 243 min read"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://www.nextagepeptides.ca/blog
+[FETCHED_AT] 2026-05-07T18:15:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/blog.md
+[LINE_RANGE] 29-57
+[QUOTE]
+"## [From Muscle Growth to Recovery: The Power of Amino Acids](https://www.nextagepeptides.ca/post/power-of-amino-acids-muscle-growth-recovery)
+
+Discover how amino acid supplements support muscle growth, recovery, and energy. Learn more about Canadian peptides and NAD benefits.
+
+Next Age Peptides Team
+
+Apr 243 min read
+
+## [MOTS-C Peptide: The Breakthrough for Metabolism, Energy, and Longevity](https://www.nextagepeptides.ca/post/mots-c-peptide-benefits-canada)"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://www.nextagepeptides.ca/blog
+[FETCHED_AT] 2026-05-07T18:15:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/blog.md
+[LINE_RANGE] 33-33
+[QUOTE]
+"Next Age Peptides Team"
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://www.nextagepeptides.ca/post/power-of-amino-acids-muscle-growth-recovery
+[FETCHED_AT] 2026-05-07T18:15:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/blog_1.md
+[LINE_RANGE] 28-30
+[QUOTE]
+"When it comes to optimizing performance, recovery, and overall wellness, few nutrients are as essential as [_amino acids_](https://www.nextagepeptides.ca/). Often referred to as the building blocks of protein, each [_amino acid_](https://www.nextagepeptides.ca/) plays a critical role in supporting muscle growth, repairing tissues, and maintaining key biological functions."
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://www.nextagepeptides.ca/
+[FETCHED_AT] 2026-05-07T18:10:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/homepage.md
+[LINE_RANGE] 107-123
+[QUOTE]
+"###### Sara J.
+
+> "Outstanding selection and amazing prices!
+
+> I always find what
+
+> I need."
+
+###### John M.
+
+> "Impressed by the quick delivery and the quality of the products. Highly recommend!""
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.nextagepeptides.ca/
+[FETCHED_AT] 2026-05-07T18:10:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/homepage.md
+[LINE_RANGE] 107-125
+[QUOTE]
+"###### Sara J.
+
+> "Outstanding selection and amazing prices!
+
+> I always find what
+
+> I need."
+
+###### John M.
+
+> "Impressed by the quick delivery and the quality of the products. Highly recommend!"
+
+###### Emily L.
+
+> "Great customer service and a wide range of products.
+
+> My go-to store for peptides.""
+[/QUOTE]
+
+[CLAIM] claim-sku-bpc157
+[URL] https://www.nextagepeptides.ca/product-page/bpc-157
+[FETCHED_AT] 2026-05-07T18:15:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_14__bpc-157.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"# BPC 157 10mg
+
+$49.49 Regular Price
+
+$42.07Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-retatrutide
+[URL] https://www.nextagepeptides.ca/product-page/retatrutide-30mg
+[FETCHED_AT] 2026-05-07T18:12:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_04__retatrutide-30mg.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"# Retatrutide 10mg/20mg/30mg
+
+$84.49 Regular Price
+
+$71.82Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-tesamorelin
+[URL] https://www.nextagepeptides.ca/product-page/tesamorelin-5mg
+[FETCHED_AT] 2026-05-07T18:12:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_12__tesamorelin-5mg.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"$64.94 Regular Price
+
+$55.20Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-wolverine
+[URL] https://www.nextagepeptides.ca/product-page/wolverine-10mg
+[FETCHED_AT] 2026-05-07T18:12:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_16__wolverine-10mg.md
+[LINE_RANGE] 23-27
+[QUOTE]
+"# Wolverine 10mg
+
+$84.49 Regular Price
+
+$71.82Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-mots-c
+[URL] https://www.nextagepeptides.ca/product-page/mots-c-10mg
+[FETCHED_AT] 2026-05-07T18:12:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_17__mots-c-10mg.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"# MOTS-C 10mg
+
+$49.49 Regular Price
+
+$42.07Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-ss31
+[URL] https://www.nextagepeptides.ca/product-page/ss-31
+[FETCHED_AT] 2026-05-07T18:12:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_11__ss-31.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"# SS-31 10mg
+
+$54.49 Regular Price
+
+$46.32Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-ahk-cu
+[URL] https://www.nextagepeptides.ca/product-page/ahk-cu-100mg
+[FETCHED_AT] 2026-05-07T18:12:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_02__ahk-cu-100mg.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"# AHK-CU 100mg
+
+$54.49 Regular Price
+
+$46.32Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-klow
+[URL] https://www.nextagepeptides.ca/product-page/klow-80mg
+[FETCHED_AT] 2026-05-07T18:12:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_08__klow-80mg.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"# KLOW 80mg
+
+$129.94 Regular Price
+
+$110.45Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-semaglutide
+[URL] https://www.nextagepeptides.ca/product-page/semaglutide-30mg
+[FETCHED_AT] 2026-05-07T18:12:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_13__semaglutide-30mg.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"# Semaglutide 10mg/30mg
+
+$54.49 Regular Price
+
+$46.32Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-semax
+[URL] https://www.nextagepeptides.ca/product-page/semax-11mg
+[FETCHED_AT] 2026-05-07T18:12:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_07__semax-11mg.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"$43.49 Regular Price
+
+$36.97Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-aod
+[URL] https://www.nextagepeptides.ca/product-page/aod-9604-5mg
+[FETCHED_AT] 2026-05-07T18:12:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_15__aod-9604-5mg.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"$54.49 Regular Price
+
+$46.32Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-ghk-cu
+[URL] https://www.nextagepeptides.ca/product-page/ghk-100mg
+[FETCHED_AT] 2026-05-07T18:12:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_03__ghk-100mg.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"# GHK-CU 100mg
+
+$49.49 Regular Price
+
+$42.07Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-nad
+[URL] https://www.nextagepeptides.ca/product-page/nad-500mg
+[FETCHED_AT] 2026-05-07T18:12:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_10__nad-500mg.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"# NAD+ 500mg
+
+$54.49 Regular Price
+
+$46.32Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-glow
+[URL] https://www.nextagepeptides.ca/product-page/glow-70mg
+[FETCHED_AT] 2026-05-07T18:12:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_06__glow-70mg.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"# GLOW 70mg
+
+$94.49 Regular Price
+
+$80.32Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-tb500
+[URL] https://www.nextagepeptides.ca/product-page/tb500-10mg
+[FETCHED_AT] 2026-05-07T18:12:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_09__tb500-10mg.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"# TB500 10mg
+
+$59.49 Regular Price
+
+$50.57Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-snap8
+[URL] https://www.nextagepeptides.ca/product-page/snap-8-10mg
+[FETCHED_AT] 2026-05-07T18:12:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/product_01__snap-8-10mg.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"# Snap 8 10mg
+
+$44.49 Regular Price
+
+$37.82Sale Price"
+[/QUOTE]
+
+[CLAIM] claim-sku-bac-water
+[URL] https://www.nextagepeptides.ca/category/all-products
+[FETCHED_AT] 2026-05-07T18:12:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/next-age-peptides/catalog_1.md
+[LINE_RANGE] 125-125
+[QUOTE]
+"[ Bacteriostatic Water 3ml * 10 vials (30ml)Regular Price$30.00Sale Price$25.50](https://www.nextagepeptides.ca/product-page/bacteriostatic-water-3ml-10-vials-30ml)"
+[/QUOTE]

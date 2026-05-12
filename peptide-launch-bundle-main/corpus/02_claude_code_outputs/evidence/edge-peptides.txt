@@ -1,0 +1,751 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://edgepeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/homepage.md
+[LINE_RANGE] 37-37
+[QUOTE]
+BUY Wholesale Peptides Straight From the MANUFACTURER
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://edgepeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/homepage.md
+[LINE_RANGE] 20-27
+[QUOTE]
+  * [Home](https://edgepeptides.com/)
+  * [Shop](https://edgepeptides.com/shop/)
+  * [Tests](https://edgepeptides.com/purity-testing/)
+  * [Research Hub](https://edgepeptides.com/research/)
+  * [About Us](https://edgepeptides.com/about/)
+  * [Contact](https://edgepeptides.com/contact-us/)
+  * [__  ](https://edgepeptides.com/my-account/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://edgepeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/homepage.md
+[LINE_RANGE] 308-312
+[QUOTE]
+For Research Use Only. Not for Human Consumption. All products are sold for research, laboratory, or analytical purposes only. Statements on this website have not been evaluated by the FDA. The products are not intended to diagnose, treat, cure, or prevent any disease.
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://edgepeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/homepage.md
+[LINE_RANGE] 40-40
+[QUOTE]
+[ Shop ](https://edgepeptides.com/shop/)
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://edgepeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/homepage.md
+[LINE_RANGE] 316-331
+[QUOTE]
+By clicking "I AGREE" and entering this website, you acknowledge and certify under penalty of perjury that you are at least 18 years of age.
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://edgepeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/homepage.md
+[LINE_RANGE] 10-10
+[QUOTE]
+For Research Use Only. Not for Human Consumption | 3rd Party Tested | FREE Worldwide Shipping $400+
+[/QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country
+[URL] https://edgepeptides.com/about/
+[FETCHED_AT] 2026-05-07T17:09:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/about.md
+[LINE_RANGE] 44-44
+[QUOTE]
+Our company is based in Hong Kong, and we work with a well-established research peptide manufacturer in China. We've personally visited their facilities, verified their operations, and conducted both in-house and third-party testing of their peptides.
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://edgepeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:04:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/catalog_1.md
+[LINE_RANGE] 44-57
+[QUOTE]
+  * ## [ Immune Signaling Peptides (4) ](https://edgepeptides.com/product-category/immune-system-peptides/)
+  * ## [ Metabolic Research Compounds (6) ](https://edgepeptides.com/product-category/metabolic-modulators/)
+  * ## [ Mitochondrial Function Peptides (3) ](https://edgepeptides.com/product-category/mitochondria-peptides/)
+  * ## [ Somatotropic Peptides (14) ](https://edgepeptides.com/product-category/ghsecretagogue-peptides/)
+  * ## [ GLP-1 Receptor Agonists (7) ](https://edgepeptides.com/product-category/weight-loss-peptides/)
+  * ## [ Bioregulator Peptides (11) ](https://edgepeptides.com/product-category/bioregulators/)
+  * ## [ Neuropeptide Research Compounds (7) ](https://edgepeptides.com/product-category/nootropic-peptides/)
+  * ## [ Epigenetic Research Peptides (8) ](https://edgepeptides.com/product-category/anti-aging-peptides/)
+  * ## [ Circadian Rhythm Peptides (4) ](https://edgepeptides.com/product-category/sleep-peptides/)
+  * ## [ Extracellular Matrix Peptides (10) ](https://edgepeptides.com/product-category/recovery-peptides/)
+  * ## [ Dermal Research Peptides (4) ](https://edgepeptides.com/product-category/cosmetic-peptides/)
+  * ## [ Peptide Blends (7) ](https://edgepeptides.com/product-category/peptide-blends/)
+  * ## [ Reproductive Research Peptides (4) ](https://edgepeptides.com/product-category/sexual-reproductive-health/)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url / list_price / dose_options
+[URL] https://edgepeptides.com/bpc-157-10-mg/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_001__bpc-157-10-40mg.md
+[LINE_RANGE] 48-54
+[QUOTE]
+# BPC-157 10-40 mg – 10 Vial Box
+
+$200.0 – $615.0Price range: $200.0 through $615.0
+
+Buy BPC-157 10, 20, or 40 mg (one 10-vial box). All orders are shipped wholesale in unbranded packaging. Worldwide 7 – 14 day shipping to the USA, UK, AUS & NZ.
+
+Strength |  Choose an option10 MG20 MG40 MGClear
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://edgepeptides.com/bpc-157-10-mg/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_001__bpc-157-10-40mg.md
+[LINE_RANGE] 78-80
+[QUOTE]
+BPC-157 is a naturally occurring pentadecapeptide investigated for its interactions with tissue remodeling pathways and cellular repair mechanisms. It has been studied for its observed effects on fibroblast proliferation, tendon and muscle extracellular matrix remodeling, gastrointestinal epithelial integrity, and inflammatory cytokine modulation in experimental models.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://edgepeptides.com/bpc-157-10-mg/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_001__bpc-157-10-40mg.md
+[LINE_RANGE] 80-80
+[QUOTE]
+For Research Use Only. Not for Human Consumption.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / lab_partner_named
+[URL] https://edgepeptides.com/bpc-157-10-mg/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_001__bpc-157-10-40mg.md
+[LINE_RANGE] 87-95
+[QUOTE]
+#### [ BPC-157 COA](https://edgepeptides.com/bpc-157-10-mg/?attachment_id=915&download_file=4nu7xjfgq3v1y)
+
+#### [ BPC-157 HPLC](https://edgepeptides.com/bpc-157-10-mg/?attachment_id=950&download_file=6hdksq8zm81cn)
+
+#### [ BPC-157 MZ Biolabs Test (2025)](https://edgepeptides.com/bpc-157-10-mg/?attachment_id=3994&download_file=usyqijzrt5h5b)
+
+#### [ BPC-157 10mg Chromate Test (2025)](https://edgepeptides.com/bpc-157-10-mg/?attachment_id=4739&download_file=ak4et4o1zlmeo)
+
+#### [ BPC-157 10mg Janoshik Test (Sept. 2025)](https://edgepeptides.com/bpc-157-10-mg/?attachment_id=7203&download_file=k07hneoux9oee)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://edgepeptides.com/bpc-157-10-mg/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_001__bpc-157-10-40mg.md
+[LINE_RANGE] 115-133
+[QUOTE]
+## Related products
+
+  * [ ](https://edgepeptides.com/oxytocin-10mg-10-vial-box/)
+
+## [Oxytocin 10mg – 10 Vial Box (100mg Total)](https://edgepeptides.com/oxytocin-10mg-10-vial-box/)
+
+$140.0 [Add to cart](/bpc-157-10-mg/?add-to-cart=3525)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting / lab tests index
+[URL] https://edgepeptides.com/purity-testing/
+[FETCHED_AT] 2026-05-07T17:09:34Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/coa_1.md
+[LINE_RANGE] 38-44
+[QUOTE]
+We routinely send our research peptides for independent testing at trusted third-party laboratories like Janoshik, Chromate, and MZ Biolabs. These tests verify the potency and safety of our products. We test for both purity (% and peptide content) as well as biological safety tests (endotoxins, bacteria, heavy metals).
+
+On each test certificate of analysis (CoA) document, you can see the test findings, testing date, and other helpful details. For tests from Janoshik and Chromate, you can also scan the QR code to verify the test online.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / tos_highlights
+[URL] https://edgepeptides.com/termsconds/
+[FETCHED_AT] 2026-05-07T17:09:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/tos.md
+[LINE_RANGE] 38-55
+[QUOTE]
+All customers must be 21 years of age or older to purchase our products. Under no circumstances shall edgepeptides.com be held liable for any incidental or consequential damages, whether the purchaser's claim is based in contract, negligence, strict liability, or otherwise.
+
+Our products are **strictly for in-vitro laboratory research purposes** and are **not designed for human or animal use** , application, or consumption in any form.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://edgepeptides.com/refunds/
+[FETCHED_AT] 2026-05-07T17:09:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/refund.md
+[LINE_RANGE] 38-43
+[QUOTE]
+We don’t accept returns because of the fragile nature of peptide products. However, if your order arrives with incorrect, missing, or damaged items, please email us at [[email protected]](/cdn-cgi/l/email-protection) and we will organize a replacement order.
+
+You can cancel and refund an order by emailing us if it hasn’t shipped out yet. If your order is delayed (which can happen sometimes due to stock or shipping issues), you can also request a refund.
+
+In the rare occurrence that your order is seized by customs, we will reship it again for free.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy / checkout_flow.shipping_carriers / checkout_flow.shipping_cost_structure
+[URL] https://edgepeptides.com/shipping/
+[FETCHED_AT] 2026-05-07T17:09:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/shipping.md
+[LINE_RANGE] 38-46
+[QUOTE]
+We ship to the US and worldwide. Shipments are dispatched directly from our manufacturing lab in China. Once payment is received, orders are typically processed in 1-3 business days, after which we'll email you a tracking number.
+
+  1. **USA Orders** : FedEx Shipping $50 or free over $750 (7-10 Days)
+  2. **Worldwide Orders** : Standard Shipping $25 or free over $400 (5-14 Days)
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice / checkout_flow.international_policy
+[URL] https://edgepeptides.com/shipping/
+[FETCHED_AT] 2026-05-07T17:09:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/shipping.md
+[LINE_RANGE] 45-47
+[QUOTE]
+We ship internationally to many countries, including the US, Canada, UK & most of Europe, Australia, New Zealand, Mexico, and Thailand.
+
+We don't ship to countries with strict customs regulations or remote locations, such as South Korea, Brazil, China, Indonesia, small island nations like Samoa, and most Middle Eastern countries (except the UAE).
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted / checkout_flow.crypto_discount_pct
+[URL] https://edgepeptides.com/payment/
+[FETCHED_AT] 2026-05-07T17:09:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/payment.md
+[LINE_RANGE] 38-41
+[QUOTE]
+All prices are in US dollars ($USD). At this time we only accept cryptocurrency payment and are working on bringing back credit card payment:
+
+**Cryptocurrency**  (10% discount). We accept Bitcoin, Ethereum, USDC (Ethereum / ERC-20), and Tether USDT (Ethereum / ERC-20).
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present / content_cadence
+[URL] https://edgepeptides.com/
+[FETCHED_AT] 2026-05-07T17:04:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/homepage.md
+[LINE_RANGE] 220-242
+[QUOTE]
+[ ](https://edgepeptides.com/adamax-vs-semax/)
+
+April 4, 2026
+
+## [Semax and Adamax: A Structural and Mechanistic Comparison](https://edgepeptides.com/adamax-vs-semax/)
+
+[ ](https://edgepeptides.com/hgh-fragment-176-191-vs-aod-9604/)
+
+June 25, 2025
+
+## [HGH Fragment 176-191 vs AOD 9604: Research-Based Comparison](https://edgepeptides.com/hgh-fragment-176-191-vs-aod-9604/)
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://edgepeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:04:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/catalog_1.md
+[LINE_RANGE] 55-55
+[QUOTE]
+  * ## [ Peptide Blends (7) ](https://edgepeptides.com/product-category/peptide-blends/)
+[/QUOTE]
+
+[CLAIM] skus / claim-sku-001 (BPC-157 10mg pricing)
+[URL] https://edgepeptides.com/bpc-157-10-mg/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_001__bpc-157-10-40mg.md
+[LINE_RANGE] 50-54
+[QUOTE]
+$200.0 – $615.0Price range: $200.0 through $615.0
+[/QUOTE]
+
+[CLAIM] skus / claim-sku-002 (TB-500 pricing)
+[URL] https://edgepeptides.com/tb-500-thymosin-beta-4-10-mg/
+[FETCHED_AT] 2026-05-07T17:06:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_002__tb-500-10-20mg.md
+[LINE_RANGE] 48-50
+[QUOTE]
+# TB-500 (Thymosin Beta 4) 10-20 mg – 10 Vial Box
+
+$385.0 – $660.0Price range: $385.0 through $660.0
+[/QUOTE]
+
+[CLAIM] skus / claim-sku-003 (Semaglutide pricing)
+[URL] https://edgepeptides.com/semaglutide-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_003__semaglutide-5-20mg.md
+[LINE_RANGE] 48-50
+[QUOTE]
+# Semaglutide 5-20mg – 10 Vial Box
+
+$210.0 – $370.0Price range: $210.0 through $370.0
+[/QUOTE]
+
+[CLAIM] skus / claim-sku-004 (GHK-Cu 100mg pricing)
+[URL] https://edgepeptides.com/ghk-cu-copper-peptide-100mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_004__ghk-cu-100mg.md
+[LINE_RANGE] 47-51
+[QUOTE]
+# GHK-Cu (Copper Peptide) 100mg – 10 Vial Box (1000mg Total)
+
+$195.0
+
+**Cost per vial $** :  19.5
+[/QUOTE]
+
+[CLAIM] skus / claim-sku-005 (MOTS-c pricing)
+[URL] https://edgepeptides.com/mots-c-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_005__mots-c-10-40mg.md
+[LINE_RANGE] 46-48
+[QUOTE]
+# MOTS-c 10-40mg | 10 Vial Box
+
+$200.0 – $630.0Price range: $200.0 through $630.0
+[/QUOTE]
+
+[CLAIM] skus / claim-sku-006 (Ipamorelin pricing)
+[URL] https://edgepeptides.com/ipamorelin-10-mg/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_006__ipamorelin-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$250.0
+[/QUOTE]
+
+[CLAIM] skus / claim-sku-007 (CJC-1295 No DAC pricing)
+[URL] https://edgepeptides.com/cjc-1295-no-dac-mod-grf-1-29-10-mg/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_007__cjc-1295-nodac-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$470.0
+[/QUOTE]
+
+[CLAIM] skus / claim-sku-008 (CJC-1295 DAC pricing)
+[URL] https://edgepeptides.com/cjc-1295-with-dac-5-mg/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_008__cjc-1295-dac-5mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$420.0
+[/QUOTE]
+
+[CLAIM] skus / claim-sku-009 (CJC+Ipa blend pricing)
+[URL] https://edgepeptides.com/cjc-1295-ipamorelin-blend-5mg/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_009__cjc-ipa-blend-5mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$410.0
+[/QUOTE]
+
+[CLAIM] skus / claim-sku-010 through claim-sku-065 (remaining products pricing)
+[URL] https://edgepeptides.com/semax-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_010__semax-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$180.0
+[/QUOTE]
+[URL] https://edgepeptides.com/selank-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_011__selank-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$180.0
+[/QUOTE]
+[URL] https://edgepeptides.com/epitalon-50-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_012__epithalon-50mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$490.0
+[/QUOTE]
+[URL] https://edgepeptides.com/epitalon-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_013__epithalon-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$190.0
+[/QUOTE]
+[URL] https://edgepeptides.com/nad-500mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_015__nad-500mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$450.0
+[/QUOTE]
+[URL] https://edgepeptides.com/dsip-5mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_016__dsip-5mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$300.0
+[/QUOTE]
+[URL] https://edgepeptides.com/pt-141-bremelanotide-10mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_017__pt-141-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$245.0
+[/QUOTE]
+[URL] https://edgepeptides.com/thymosin-alpha-1-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_018__thymosin-alpha1-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$500.0
+[/QUOTE]
+[URL] https://edgepeptides.com/sermorelin-10mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_019__sermorelin-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$485.0
+[/QUOTE]
+[URL] https://edgepeptides.com/sermorelin-5mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_020__sermorelin-5mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$260.0
+[/QUOTE]
+[URL] https://edgepeptides.com/tesamorelin-20mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_021__tesamorelin-20mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$850.0
+[/QUOTE]
+[URL] https://edgepeptides.com/igf-1-lr3-1mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_022__igf1-lr3-1mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$590.0
+[/QUOTE]
+[URL] https://edgepeptides.com/ghrp-2-10mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_023__ghrp2-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$154.0
+[/QUOTE]
+[URL] https://edgepeptides.com/ghrp-6-10mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_024__ghrp6-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$154.0
+[/QUOTE]
+[URL] https://edgepeptides.com/aod9604-5mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_025__aod9604-5mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$315.0
+[/QUOTE]
+[URL] https://edgepeptides.com/hgh-fragment-176-191-5mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_026__hgh-frag-5mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$295.0
+[/QUOTE]
+[URL] https://edgepeptides.com/glutathione-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_033__glutathione-600mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$255.0
+[/QUOTE]
+[URL] https://edgepeptides.com/bpc-157-tb-500-blend-10mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_034__bpc157-tb500-blend-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$500.0
+[/QUOTE]
+[URL] https://edgepeptides.com/bpc-157-tb-500-blend-5mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_035__bpc157-tb500-blend-5mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$385.0
+[/QUOTE]
+[URL] https://edgepeptides.com/tesamorelin-ipamorelin-blend-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_036__tesa-ipa-blend-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$540.0
+[/QUOTE]
+[URL] https://edgepeptides.com/tesamorelin-ipamorelin-blend-5mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_037__tesa-ipa-blend-5mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$385.0
+[/QUOTE]
+[URL] https://edgepeptides.com/klow-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_038__klow.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$730.0
+[/QUOTE]
+[URL] https://edgepeptides.com/glow-50-mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_039__glow.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$560.0
+[/QUOTE]
+[URL] https://edgepeptides.com/oxytocin-10mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_041__oxytocin-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$140.0
+[/QUOTE]
+[URL] https://edgepeptides.com/melanotan-1-10mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_042__melanotan1-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$150.0
+[/QUOTE]
+[URL] https://edgepeptides.com/ara-290-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_043__ara290-16mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$330.0
+[/QUOTE]
+[URL] https://edgepeptides.com/5-amino-1mq-50mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_044__5amino1mq-50mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$420.0
+[/QUOTE]
+[URL] https://edgepeptides.com/5-amino-1mq-10mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_045__5amino1mq-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$210.0
+[/QUOTE]
+[URL] https://edgepeptides.com/adamax-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_046__adamax-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$720.0
+[/QUOTE]
+[URL] https://edgepeptides.com/pe-22-28-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_047__pe2228-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$280.0
+[/QUOTE]
+[URL] https://edgepeptides.com/testagen-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_048__testagen-20mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$375.0
+[/QUOTE]
+[URL] https://edgepeptides.com/cagrilintide-10mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_058__cagrilintide-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$580.0
+[/QUOTE]
+[URL] https://edgepeptides.com/cagrilintide-5mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_059__cagrilintide-5mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$350.0
+[/QUOTE]
+[URL] https://edgepeptides.com/mazdutide-10mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_060__mazdutide-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$485.0
+[/QUOTE]
+[URL] https://edgepeptides.com/mazdutide-5mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_061__mazdutide-5mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$300.0
+[/QUOTE]
+[URL] https://edgepeptides.com/survodutide-10mg-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_062__survodutide-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$690.0
+[/QUOTE]
+[URL] https://edgepeptides.com/cagrilintide-semaglutide-blend-5mg/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_063__cagri-sema-blend.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$650.0
+[/QUOTE]
+[URL] https://edgepeptides.com/kisspeptin-10-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_064__kisspeptin10-10mg.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$250.0
+[/QUOTE]
+[URL] https://edgepeptides.com/l-carnitine-10-vial-box/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_065__lcarnitine-10g.md
+[LINE_RANGE] 1-10
+[QUOTE]
+$700.0
+[/QUOTE]
+
+[CLAIM] about / business_model
+[URL] https://edgepeptides.com/about/
+[FETCHED_AT] 2026-05-07T17:09:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/about.md
+[LINE_RANGE] 38-47
+[QUOTE]
+At Edge Peptides, we’re committed to providing pure, high-quality research peptides at a fair cost. Like many of our customers, we were tired of paying inflated prices to big-name vendors—so we spent years searching for better options.
+
+We connect customers directly with trusted, verified manufacturers in China. We don’t stock, handle, or repackage any products ourselves. When you place an order, it’s submitted straight to the manufacturer, who ships it directly to you.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / age gate 21
+[URL] https://edgepeptides.com/termsconds/
+[FETCHED_AT] 2026-05-07T17:09:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/tos.md
+[LINE_RANGE] 38-40
+[QUOTE]
+Edgepeptides.com reserves the right to restrict or refuse sales to individuals who are deemed unqualified. All customers must be 21 years of age or older to purchase our products.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy (purity guarantee detail)
+[URL] https://edgepeptides.com/termsconds/
+[FETCHED_AT] 2026-05-07T17:09:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/tos.md
+[LINE_RANGE] 70-72
+[QUOTE]
+Most of our peptides are guaranteed to be ≥99% purity (with some exceptions, such as NAD+). While we maintain strict quality standards, minor degradation (1–2%) during transit is normal, especially with longer delivery times or shipments to hotter climates. If you choose to send our products for third-party testing (e.g., Janoshik, Chromate, or other reputable labs), and the results show a purity below 98%, we will issue a full refund for the tested product.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency (absence note)
+[URL] https://edgepeptides.com/bpc-157-10-mg/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_001__bpc-157-10-40mg.md
+[LINE_RANGE] 84-86
+[QUOTE]
+_**Note:** Product images show branded labels for illustration purposes only. All peptides are shipped in wholesale, unbranded packaging. You can see an actual example photo of the peptide vials and container above._
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal (WooCommerce inference)
+[INFERENCE]
+[SUPPORT_QUOTE]
+[URL] https://edgepeptides.com/bpc-157-10-mg/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_001__bpc-157-10-40mg.md
+[LINE_RANGE] 1-200
+SKU: BPC-157-10 Category: [Extracellular Matrix Peptides](https://edgepeptides.com/product-category/recovery-peptides/)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://edgepeptides.com/bpc-157-10-mg/
+[FETCHED_AT] 2026-05-07T17:06:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/edge-peptides/product_001__bpc-157-10-40mg.md
+[LINE_RANGE] 1-200
+[Add to cart](/bpc-157-10-mg/?add-to-cart=1105)
+[/SUPPORT_QUOTE]
+[REASONING]
+WooCommerce stores use the URL pattern /?add-to-cart=<numeric_id> for cart actions and the product-category URL structure. Both are present. No direct confirmation from page source was obtained (HTML source not fetched), so this is an inference, not a verified fact.
+[/REASONING]
+[/INFERENCE]

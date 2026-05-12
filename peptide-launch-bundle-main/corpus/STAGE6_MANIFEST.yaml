@@ -1,0 +1,381 @@
+# Stage 6 Super-Prompt Input Manifest
+# Generated: 2026-05-08
+# Audit basis: AUDIT_2026-05-08.md at corpus root
+# Purpose: Single source of truth for Stage 6 super-prompt to discover and consume
+#          the research corpus, decision artifacts, and gap inventory.
+
+version: 1
+generated_at: 2026-05-08T00:00:00Z
+corpus_root: /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/
+
+# Pipeline state at audit time, completion ratios from AUDIT_2026-05-08.md
+pipeline_state:
+  pillar_a_vendor_universe_site_anatomy: 0.95
+  pillar_b_customer_acquisition: 0.40
+  pillar_c_pricing_intelligence: 0.65
+  compliance_corpus_slice_5: 0.95
+  brand_candidates_step_3_naming: 1.00
+  step_3_unified_report: 0.00
+  slice_6_cross_mandate_synthesis: 0.00
+  weighted_overall: 0.75
+
+# Operator-side decisions — Stage 6 super-prompt depends on these.
+# PENDING = operator must close before super-prompt can run with locked inputs.
+# LOCKED = research-derived default; operator may override.
+decisions:
+  brand_pick:
+    status: PENDING
+    artifact: DECISIONS/brand_pick.md
+    candidates_file: 03_final/brand_name_candidates.md
+    posture_a_finalists:
+      - Bezel Bio
+      - Cubit Labs
+      - Numerus Labs
+    posture_b_finalists:
+      - Skullcap Labs
+      - Pylon Peptides
+      - Voltic Peptides
+    cross_posture_finalists:
+      - Bezel Bio
+      - Schema Peptides
+      - Pylon Peptides
+      - Codex Research
+      - Hex Labs
+    operator_action: pick one from candidates (ideally after Bible §16 60-min buyer-conversation assignment to test name resonance)
+
+  source_terms:
+    status: PENDING
+    artifact: DECISIONS/source_terms.md
+    blocking_for: super_prompt fulfillment promises, per-mg margin, opening stock buy size
+    operator_action: 30-min direct conversation with US-based supplier to capture MOQ, restocking lead time, lab-test passthrough format, contingency posture, exclusivity terms
+
+  opening_sku_set:
+    status: LOCKED_DEFAULT
+    artifact: DECISIONS/opening_sku_set.md
+    source: 02_claude_code_outputs/opening_sku_recommendation.md
+    skus:
+      - { peptide: BPC-157, dose: 10mg, format: vial, list_price_usd: 54.00, per_mg_usd: 5.40, role: loss_leader, position: 10pct_below_median }
+      - { peptide: TB-500, dose: 5mg, format: vial, list_price_usd: 34.00, per_mg_usd: 6.80, role: loss_leader, position: 5pct_below_median }
+      - { peptide: GHK-Cu, dose: 50mg, format: vial, list_price_usd: 34.00, per_mg_usd: 0.68, role: loss_leader, position: 9pct_below_median }
+      - { peptide: Ipamorelin, dose: 10mg, format: vial, list_price_usd: 50.00, per_mg_usd: 5.00, role: volume_driver, position: just_below_p25 }
+      - { peptide: CJC-1295_no_DAC, dose: 5mg, format: vial, list_price_usd: 25.00, per_mg_usd: 5.00, role: volume_driver, position: just_below_p25 }
+      - { peptide: MOTS-c, dose: 10mg, format: vial, list_price_usd: 48.00, per_mg_usd: 4.80, role: catalog_filler, position: median }
+      - { peptide: Selank, dose: 10mg, format: vial, list_price_usd: 48.00, per_mg_usd: 4.80, role: catalog_filler, position: just_below_median }
+    bundle:
+      name: recovery_stack
+      constituents: [BPC-157_10mg, TB-500_5mg]
+      list_price_usd: 77.00
+      effective_discount_pct: 12.5
+    intro_promo:
+      mechanic: 15pct_off_first_order_via_newsletter_signup
+      gates: [research_use_only_acknowledgment, age_gate]
+    glp1_carve_out:
+      excluded: [Tirzepatide, Semaglutide, Retatrutide]
+      reason: Bible_15_4_compliance_simplicity_per_FDA_enforcement_pattern
+      operator_can_override_after_b1_fire: true
+
+  compliance_posture:
+    status: LOCKED_DEFAULT
+    artifact: DECISIONS/compliance_posture.md
+    sources:
+      findings: 02_claude_code_outputs/compliance_disclaimers/COMPLIANCE_DISCLAIMER_FINDINGS.md
+      enforcement: 02_claude_code_outputs/compliance_disclaimers/enforcement_events.md
+      marketing_lang: 02_claude_code_outputs/compliance_disclaimers/marketing_language_compliance.md
+      payment_processors: 02_claude_code_outputs/compliance_disclaimers/payment_processor_posture.md
+      disclaimer_inventory: 02_claude_code_outputs/compliance_disclaimers/batch_a__disclaimers.md, batch_b__disclaimers.md, batch_c__disclaimers.md, batch_d__disclaimers_and_posture_verification.md
+    must_haves:
+      - research_use_only_statement
+      - fda_disclaimer_block
+      - not_for_human_consumption
+      - age_gate_text_based_contractual_checkbox_18plus_or_21plus
+      - 503a_503b_non_compounding_pharmacy_clause
+      - indemnification_clause
+      - choice_of_law_jurisdiction_wyoming_or_nevis
+    nice_to_haves:
+      - per_batch_coa_hosting_on_site_pdf_or_drive
+      - named_lab_partner_e_g_janoshik_kovera_trustpointe
+      - batch_lot_transparency
+      - explicit_buyer_qualification_clause
+    forbidden:
+      - human_benefit_marketing_language
+      - dosing_recommendations
+      - therapeutic_outcome_claims
+      - faked_on_site_reviews
+      - bundled_bacteriostatic_water_with_glp1_compounds
+      - personal_pronoun_use_describing_compounds
+    fda_enforcement_awareness:
+      - cite_21_cfr_201_128_intended_use_rule
+      - 19_fda_warning_letters_in_corpus_19_fully_captured
+      - 3_doj_pleas_tailor_made_2020_sarmtech_2023_paradigm_2025
+      - itc_geo_337_TA_1377_tirzepatide_imports_may_2025
+      - 2026_03_31_wave_pierced_RUO_defense_seven_vendors
+
+  payment_stack:
+    status: LOCKED_DEFAULT
+    artifact: DECISIONS/payment_stack.md
+    source: 02_claude_code_outputs/compliance_disclaimers/payment_processor_posture.md
+    durability_tier_target: tier_2_3_hybrid
+    rails:
+      tier_1_crypto:
+        provider: BTCPay_Server_self_hosted
+        coins: [BTC, LTC]
+        note: highest_durability_no_third_party_termination_risk
+      tier_2_bank:
+        provider: Plaid_ACH
+        discount_offered_pct: 5
+        clearance_days: 3-4
+        note: durable_observed_at_umbrella_labs
+      tier_3_card_optional_phase_2:
+        provider: Rocketfuel_or_MESH
+        statement_descriptor: UNBLOCK_or_similar_camouflaged
+        per_transaction_cap_usd: 1000
+        note: only_after_first_revenue_signal_high_termination_risk
+      forbidden:
+        - Stripe_direct
+        - PayPal_direct
+        - Square_direct
+        - Shopify_Payments
+    crypto_discount_demand_shaping:
+      crypto_pct: 10-15
+      ach_pct: 5
+      cards_pct: 0
+      rationale: shifts_demand_away_from_chargeback_risk
+
+# Inputs the super-prompt consumes, organized by category.
+inputs:
+  strategic_frame:
+    bible: 01_strategic_frame/bible_final.md
+    combined_context: 01_strategic_frame/combined_context.md
+    meta_prompt: 01_strategic_frame/research_meta_prompt.md
+    operations_playbook: 01_strategic_frame/research_operations_playbook.md
+
+  pillar_a_vendor_universe_and_site_anatomy:
+    master_vendor_table: 02_claude_code_outputs/master_vendor_table.csv
+    vendor_universe_final: 02_claude_code_outputs/vendor_universe_final.csv
+    profiles_dir: 02_claude_code_outputs/vendors/
+    evidence_dir: 02_claude_code_outputs/evidence/
+    schema: 02_claude_code_outputs/PILLAR_A_SCHEMA.md  # canonical schema also at /root/peptide-research/PILLAR_A_SCHEMA.md
+    discovery_log_md: 02_claude_code_outputs/discovery_log.md
+    discovery_log_jsonl: 02_claude_code_outputs/discovery_log.jsonl
+    coverage_report: 02_claude_code_outputs/coverage_report.md
+    discovery_final_doc: 02_claude_code_outputs/DISCOVERY_RUN_FINAL_DOCUMENT.md
+    dedup_audit: 02_claude_code_outputs/dedup_audit.md
+    convergence_passes: 02_claude_code_outputs/pass[1-8]_convergence_report.md and pass[N]_aggregation_summary.md
+    raw_fetches: 03_raw_fetches/  # ~105MB across ~225 vendor subdirs, single canonical reference set
+    completeness_ratio: 0.95
+
+  pillar_b_customer_acquisition:
+    slice_2_synthesis: 02_claude_code_outputs/acquisition_synthesis_slice2.md
+    slice_2_channels_dir: 02_claude_code_outputs/acquisition_channels/
+    slice_2_channel_files:
+      - acquisition_channels/google-organic-search.md
+      - acquisition_channels/google-ads.md
+      - acquisition_channels/bing-ddg-search.md
+      - acquisition_channels/seo-content-marketing.md
+      - acquisition_channels/vendor-blogs.md
+      - acquisition_channels/vendor-youtube.md
+      - acquisition_channels/vendor-instagram.md
+      - acquisition_channels/vendor-tiktok.md
+      - acquisition_channels/vendor-x.md
+      - acquisition_channels/email-marketing.md
+      - acquisition_channels/sms-marketing.md
+    slice_4_tier_map: 02_claude_code_outputs/slice_B2_influencer_tier_map.md
+    slice_3_status: PENDING_FIRE
+    slice_3_prompt_path_to_fire: /mnt/c/Users/endeg/Downloads/slice_B1_reddit_and_forum_ecosystem_map.md
+    slice_3_target_save_path: 02_claude_code_outputs/slice_B1_reddit_and_forum_ecosystem.md
+    slice_4_b2_prompt: /mnt/c/Users/endeg/Downloads/slice_B2_influencer_tier_map.md
+    completeness_ratio: 0.40
+    notes:
+      - slice_2_fully_executed_with_named_vendors_costs_horizons_risks_postures
+      - slice_4_60pct_complete_via_creator_tier_map_xl_l_m_s_78_creators
+      - slice_3_dominant_gap_buyer_habitat_is_reddit_meso_rx_anabolic_steroid_forums
+      - slice_5_compliance_actually_present_under_compliance_disclaimers_subdir
+
+  pillar_c_pricing_intelligence:
+    pricing_matrix_csv: 02_claude_code_outputs/pricing_matrix.csv
+    sku_distributions_md: 02_claude_code_outputs/sku_distributions.md
+    sku_distributions_summary_json: 02_claude_code_outputs/sku_distributions_summary.json
+    opening_recommendation: 02_claude_code_outputs/opening_sku_recommendation.md
+    schema_template: PILLAR_C_SCHEMA.md  # in repo, references stack_bundle_catalog.csv that was not built
+    completeness_ratio: 0.65
+    documented_gaps:
+      - cross_vendor_oos_simultaneity_signal_not_computed
+      - stack_bundle_catalog_csv_missing
+      - price_uniformity_cv_threshold_defined_but_never_fires
+      - volume_tier_subscription_strategies_unanalyzed
+      - variant_to_bundle_mapping_absent
+
+  compliance_corpus:
+    findings: 02_claude_code_outputs/compliance_disclaimers/COMPLIANCE_DISCLAIMER_FINDINGS.md
+    enforcement_events: 02_claude_code_outputs/compliance_disclaimers/enforcement_events.md
+    marketing_language: 02_claude_code_outputs/compliance_disclaimers/marketing_language_compliance.md
+    payment_processor_posture: 02_claude_code_outputs/compliance_disclaimers/payment_processor_posture.md
+    disclaimer_batches:
+      - 02_claude_code_outputs/compliance_disclaimers/batch_a__disclaimers.md
+      - 02_claude_code_outputs/compliance_disclaimers/batch_b__disclaimers.md
+      - 02_claude_code_outputs/compliance_disclaimers/batch_c__disclaimers.md
+      - 02_claude_code_outputs/compliance_disclaimers/batch_d__disclaimers_and_posture_verification.md
+    raw_evidence: 03_raw_fetches/compliance_slice/
+    completeness_ratio: 0.95
+    notes:
+      - 19_fda_warning_letters_fully_captured_plus_2_3_indexed_not_retrieved
+      - 3_doj_guilty_pleas_with_dates_and_primary_source_citations
+      - 1_itc_general_exclusion_order_337_TA_1377_tirzepatide_imports_may_2025
+      - 6_named_payment_processors_btcpay_rocketfuel_plaid_mesh_max_blocknomics
+      - 503a_503b_byte_identical_template_observed_across_5_plus_vendors
+
+  brand_candidates:
+    file: 03_final/brand_name_candidates.md
+    completeness_ratio: 1.00
+    pattern_analysis: section_1_grep_counted_against_1554_vendor_universe
+    domain_checks: section_5_curl_based_http_response_classification
+
+  audit_doc:
+    path: AUDIT_2026-05-08.md
+    purpose: per_pillar_verdict_and_gap_closure_path
+
+# Mogtrix backend foundation (for super-prompt's fork-and-prune directive)
+mogtrix_foundation:
+  repo_path: /root/mogtrix-website/
+  site_subdir: /root/mogtrix-website/site/
+  stack:
+    framework: Next.js 16.0.7
+    runtime: React 19, TypeScript 5.9
+    db_orm: Supabase Postgres 17 (Edge SQL + RLS)
+    auth: Supabase Auth (email/password, JWT, role separation)
+    hosting: Vercel (iad1, auto-deploy on main)
+    payment: pluggable adapter pattern (Stripe live, stub for dev)
+    email: Resend
+    state: Zustand 5.0.8
+    validation: Zod 4.4
+    monitoring: Sentry 10.51
+    3d: '@react-three/fiber 9.4 (vial scenes)'
+  reusable_layers_high_value:
+    - lib/supabase/{server,browser,service,proxy,env,index}.ts
+    - lib/auth/{customer,admin,catalog}.ts plus app/auth/{actions,callback}/
+    - lib/payments/{config,index,server,types,stripe,stub,reconciliation}.ts plus app/api/payments/*
+    - lib/orders.ts, lib/ops-orders.ts, app/api/orders/route.ts, app/api/ops/(protected)/orders/*
+    - lib/customer-qualification.ts, lib/attestations.ts, app/api/access/route.ts (pre-built RUO qualification flow that maps almost 1:1 onto peptide-buyer qualification)
+    - lib/validation/{catalog,access}.ts (Zod)
+    - supabase/{config.toml,schema.sql,seed.sql} plus migrations/
+    - lib/cart-store.ts plus components/checkout-boundary.tsx
+    - vercel.json, vitest.config.ts, playwright.config.ts, next.config.ts
+    - components/ui/{Button,Card,Input,Pill,Specs,CoaRow,FieldLabel,Vial,VialScene}.tsx (neutral primitives)
+    - lib/design/{tokens,motion,types,index}.ts (color tokens + spacing + easing)
+    - app/globals.css (typography, atmospheric gradients, motion keyframes)
+  prune_targets:
+    - public/brand/mogtrix_*.png (brand assets)
+    - public/visuals/{hero-lab,category-*}.png (brand-styled imagery)
+    - lib/content/site.ts (siteConfig.name domain description)
+    - components/site-header.tsx, components/compliance-footer.tsx (branded chrome)
+    - lib/content/legal.ts (replace MOGTRIX strings)
+    - lib/content/products.ts plus supabase/seed.sql (replace catalog)
+    - app/page.tsx (rewrite hero copy for peptide brand)
+    - components/home-proof-row.tsx (replace hardcoded products)
+    - app/faq/page.tsx, app/testing/page.tsx, lib/content/faq.ts, lib/content/testing.ts (rewrite content)
+    - lib/age-gate-store.ts (rebrand text, optionally upgrade to jurisdiction-aware)
+  compliance_extensions_required:
+    - jurisdiction_state_blocklist_extend_lib_compliance_ts
+    - glp1_pattern_filter_extend_assertMarketingCopySafe
+    - third_party_age_verification_optional_intellicheck_socure
+    - supplier_vetting_in_qualification_flow
+    - peptide_specific_attestations_no_compounding_pharmacy_claims
+  env_vars_to_swap:
+    - NEXT_PUBLIC_SITE_URL
+    - NEXT_PUBLIC_SUPABASE_URL, NEXT_PUBLIC_SUPABASE_ANON_KEY, SUPABASE_SERVICE_ROLE_KEY
+    - PAYMENT_PROVIDER, STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET
+    - ORDER_EMAIL_FROM, ORDER_STAFF_EMAILS, RESEND_API_KEY
+    - NEXT_PUBLIC_SENTRY_DSN, SENTRY_AUTH_TOKEN, SENTRY_ORG, SENTRY_PROJECT
+
+# Tooling contracts the super-prompt invokes
+tooling:
+  superpowers:
+    location: /root/.claude/plugins/cache/claude-plugins-official/superpowers/5.1.0/
+    skills_to_invoke_in_super_prompt:
+      - brainstorming
+      - writing-plans
+      - subagent-driven-development
+      - dispatching-parallel-agents
+      - test-driven-development
+      - systematic-debugging
+      - verification-before-completion
+      - requesting-code-review
+      - receiving-code-review
+      - finishing-a-development-branch
+      - using-git-worktrees
+    iron_laws_to_embed:
+      - NO_CODE_WITHOUT_FAILING_TEST_FIRST
+      - NO_FIXES_WITHOUT_ROOT_CAUSE_INVESTIGATION
+      - NO_COMPLETION_CLAIMS_WITHOUT_FRESH_VERIFICATION_EVIDENCE
+      - NO_MERGE_TO_MAIN_WITHOUT_DESIGN_AND_PLAN_APPROVAL
+      - NO_PAYMENT_OR_COMPLIANCE_CHANGES_WITHOUT_REVIEW_AND_CSO_GATES
+
+  gstack:
+    location: /root/.gstack/
+    workflow_chain_for_super_prompt:
+      pre_planning: [/office-hours]
+      planning_reviews: [/plan-ceo-review, /plan-design-review, /plan-eng-review, /plan-devex-review]
+      auto_review: [/autoplan]
+      mid_build: [/design-review, /investigate]
+      pre_ship: [/qa, /review, /cso, /benchmark, /devex-review]
+      ship: [/ship]
+      land_and_deploy: [/land-and-deploy]
+      post_deploy: [/canary, /document-release]
+      retrospective: [/retro]
+      safety: [/careful, /freeze, /guard, /unfreeze]
+      session: [/context-save, /context-restore, /learn]
+
+# Gap inventory with severity and closure path
+gaps:
+  - id: slice_3_community_channels
+    pillar: B
+    severity: high
+    blocking: super_prompt_community_channel_section
+    closes_via: fire_B1_at_chatgpt_pro_deep_research
+    estimated_effort: 1_run + 30_min_save_step
+    cost_in_user_budget: 1_of_125_monthly_deep_research_runs
+    super_prompt_handle: emit_section_with_PLACEHOLDER_AWAITING_SLICE_3 mark
+  - id: slice_4_expansion
+    pillar: B
+    severity: medium
+    sub_gaps: [in_person_expos_pass_11, paid_ad_networks_pass_10, looksmaxxing_tier_s_under_sampled, commercial_newsletter_sponsorships_thin]
+    closes_via: claude_code_authenticated_crawls_plus_targeted_chatgpt_pro_runs
+    estimated_effort: 10-20h_wallclock
+  - id: slice_6_master_channel_ranking
+    pillar: cross
+    severity: medium
+    blocking: master_channel_ranking_synthesis
+    closes_via: claude_chat_synthesis_after_b1_fire
+    estimated_effort: 90_min
+  - id: step_3_unified_report
+    pillar: cross
+    severity: low
+    blocking: nothing_critical_for_super_prompt
+    closes_via: post_launch_iteration
+  - id: stack_bundle_catalog_csv
+    pillar: C
+    severity: low
+    closes_via: claude_code_pass_on_pricing_matrix
+  - id: oos_simultaneity_signal
+    pillar: C
+    severity: low
+    closes_via: claude_code_pass_on_pricing_matrix
+  - id: price_uniformity_cv_analysis_silent
+    pillar: C
+    severity: low
+    closes_via: claude_code_pass_with_lower_threshold
+  - id: brand_pick
+    pillar: decision
+    severity: blocking_for_super_prompt_lock
+    closes_via: operator_pick_after_optional_bible_16_buyer_conversations
+  - id: source_terms
+    pillar: decision
+    severity: blocking_for_super_prompt_lock
+    closes_via: operator_supplier_30_min_call
+
+# Stage 6 super-prompt artifact location (to be created)
+stage_6_artifact:
+  super_prompt_path: SUPER_PROMPT_2026-05-08.md
+  status: PENDING_DRAFT
+  consumed_by: fresh_claude_code_session_with_mogtrix_repo_attached
+  produces: peptide_e_commerce_site_forked_from_mogtrix_with_brand_swap_compliance_hardened_catalog_seeded_payments_integrated_deployed

@@ -1,0 +1,711 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 16-20
+[QUOTE]
+"## RESEARCH REIMAGINED
+
+Research-use-only peptides and compounds with lot-level verification and consistency standards you can trust.
+
+Third-party analysis • Lot-traceable • Verified handling • −20°C storage"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 26-28
+[QUOTE]
+"## THE STANDARD OF PURITY
+
+Our workflows are built around repeatability, documentation, and rigorous quality control so every lot meets the same measurable expectations. We guarantee a purity of at least 99% on all compounds."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 22-22
+[QUOTE]
+"[View COAs](/view-purity) [Careers](jobs.html) [Investors](investors.html) [Merch](/merch)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"Home Order [ Employee ](employee-login/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 274-276
+[QUOTE]
+"Terms of Service Privacy Policy Customer Support Contact Us
+
+© 2026 Locke Trades LLC."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 8-8
+[QUOTE]
+[ENUMERATION] Counted from catalog JSON at 03_raw_fetches/zhuo-yue-lab/catalog_1.md:
+individual: 177, kits: 146, sprays: 19, nootropics: 5, bundles: 15 = 362 total SKUs.
+Data source: {"individual":177,"kits":146,"sprays":19,"nootropics":5,"bundles":15}
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 116-120
+[QUOTE]
+"Category Individuals Kits Steroids Bundles Nootropics Nasal Sprays Supplies
+
+Select a category, then search and add items.
+
+Individuals Kits Steroids Bundles Nootropics Nasal Sprays Supplies"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"sku": "BNDL-LOOKSMAX", "name": "The LooksMax Bundle", "price": 104.0, "description": "Entry-level stack for baseline fat loss and skin health.", "components": "1x Retatrutide 5mg (RT5), 1x GHK-Cu 50mg (CU50), 2x BAC Water 3ml (WA3)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 108-112
+[QUOTE]
+"## Add Items
+
+Search by category, SKU, or product name, then review the cart below."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"sku": "BC5SV", "name": "BPC-157 5mg", "price": 20.0, "dosage": "5mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+BPC-157 is a pentadecapeptide known for its exceptional regenerative properties in tendons, muscles, and the gut. It works by accelerating angiogenesis, the formation of new blood vessels, to speed up healing. It is a primary focus of research regarding sports injuries and inflammatory bowel conditions.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 435-437
+[QUOTE]
+"### 1\. Research Use Only
+
+All products sold by Zhuo Yue Labs are intended strictly for laboratory research purposes only. They are not intended for human consumption, medical use, or diagnostic purposes. By purchasing, you acknowledge that these products have not been approved by the FDA for human use."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://zhuoyuelab.com/view-purity
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/coa_1.md
+[LINE_RANGE] 10-14
+[QUOTE]
+"# Certificate Archive
+
+Search by code, compound, or lot to retrieve the corresponding analytical certificate."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 461-461
+[QUOTE]
+"**COA Verification:** To verify the Certificate of Analysis for your batch, visit [zhuoyuelab.com/view-purity](/view-purity)."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://zhuoyuelab.com/view-purity
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/coa_1.md
+[LINE_RANGE] 10-14
+[QUOTE]
+"# Certificate Archive
+
+Search by code, compound, or lot to retrieve the corresponding analytical certificate."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 70-76
+[QUOTE]
+"## JOIN THE RESEARCH COMMUNITY
+
+Join the Discord ecosystem for exclusive drops, discounted [group buys](https://en.wikipedia.org/wiki/Group_buying "Learn about group buying"), and free weekly peptide giveaways. Validate your research by viewing or leaving product reviews with our growing community.
+
+[ Join Discord ](https://discord.gg/v94yzsbcM3)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"sku": "BNDL-LOOKSMAX", "name": "The LooksMax Bundle", "price": 104.0
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 435-437
+[QUOTE]
+"### 1\. Research Use Only
+
+All products sold by Zhuo Yue Labs are intended strictly for laboratory research purposes only. They are not intended for human consumption, medical use, or diagnostic purposes."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+No age gate or age-check dialog appears in any fetched page. The homepage loads directly without any age verification screen. The TOS states buyer must be 18+ but no technical age gate is implemented.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 439-441
+"### 2\. Buyer Responsibility
+
+The buyer represents that they are at least 18 years of age and are affiliated with a laboratory, institution, or research facility."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 8-8
+"Home Order [ Employee ](employee-login/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 463-463
+[QUOTE]
+"**Seized Packages:** Buyers are responsible for knowing their local laws. We are not liable for packages seized by customs or local authorities."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 274-274
+[QUOTE]
+"Terms of Service Privacy Policy Customer Support Contact Us"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 433-463
+[QUOTE]
+"## Terms of Service
+
+### 1\. Research Use Only
+
+All products sold by Zhuo Yue Labs are intended strictly for laboratory research purposes only. They are not intended for human consumption, medical use, or diagnostic purposes. By purchasing, you acknowledge that these products have not been approved by the FDA for human use.
+
+### 2\. Buyer Responsibility
+
+The buyer represents that they are at least 18 years of age and are affiliated with a laboratory, institution, or research facility. You agree that you have the necessary knowledge and equipment to handle these materials safely."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 449-455
+[QUOTE]
+"**All Sales Are Final:** Zhuo Yue Labs does not accept returns or exchanges.
+
+**Damaged Items:** Once a package leaves our facility, the carrier assumes responsibility for transit. Products damaged in transit are not eligible for a refund.
+
+**Missing Items:** If an item is missing, contact us within 24 hours of delivery. We do not offer refunds for missing items, but after review we can ship a replacement for the missing component at no additional cost."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 10-10
+[QUOTE]
+"HPLC-verified research supplies with secure checkout and streamlined fulfillment. Free shipping on domestic orders over $250 and international orders over $500."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[INFERENCE] false
+[REASONING]
+The checkout form is presented inline on the homepage without a login gate. The checkout flow shows name, address, and email fields without any account creation step. The site also has a Find My Order lookup that only requires an order number.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 84-106
+"## Shipping Address
+
+Yes, we ship everywhere.
+
+First name
+
+Last name
+
+Country / Region United States
+
+Street address
+
+Apartment, suite, etc. (optional)
+
+City"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 170-172
+"Email for receipt
+
+We send receipts and verification updates here."
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 178-184
+[QUOTE]
+"Payment method Card Bank transfer Crypto
+
+Secure hosted card checkout by Stripe.
+
+Final total $0.00
+
+Secure hosted card checkout by Stripe."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 124-124
+[QUOTE]
+"Shipping **$35.00** 0 items"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 84-86
+[QUOTE]
+"## Shipping Address
+
+Yes, we ship everywhere."
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 84-176
+[QUOTE]
+"First name
+
+Last name
+
+Country / Region United States
+
+Street address
+
+Apartment, suite, etc. (optional)
+
+City
+
+State Select state Alabama
+
+ZIP code
+
+Phone (optional)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[INFERENCE] false
+[REASONING]
+The checkout flow shows no ID verification step. The fields collected are standard shipping address plus optional phone and email. No age verification, ID upload, or identity check steps appear in the checkout pages.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 186-192
+"Pay by Card
+
+256-bit secure encryption
+
+Tracking updates after label creation
+
+Typical handling: 2-5 business days"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 84-106
+"## Shipping Address
+
+Yes, we ship everywhere.
+
+First name
+
+Last name"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] custom
+[REASONING]
+The site uses custom JavaScript (storefront-home-runtime.js) with no Shopify, WooCommerce, BigCommerce, or other platform markers in the HTML or JS. The site is a bespoke single-page application served from Cloudflare with vanilla JS-based catalog loading from a local JSON file.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/source_homepage.md
+[LINE_RANGE] 1-5
+"HTTP Headers:
+HTTP/2 200
+date: Fri, 08 May 2026 08:50:31 GMT
+content-type: text/html; charset=utf-8"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 62-64
+"0 products
+
+loading"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/source_homepage.md
+[LINE_RANGE] 1-15
+[QUOTE]
+"server: cloudflare
+cf-cache-status: DYNAMIC
+cf-ray: 9f8737a4ce6fc095-IAD"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/source_homepage.md
+[LINE_RANGE] 1-50
+[QUOTE]
+"'https://connect.facebook.net/en_US/fbevents.js');
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=804379601984516&ev=PageView&noscript=1" /></noscript>"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/source_homepage.md
+[LINE_RANGE] 1-50
+[QUOTE]
+"script.src = 'https://static.klaviyo.com/onsite/js/RSBkiQ/klaviyo.js?company_id=RSBkiQ';"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] false
+[REASONING]
+No chat widget (Intercom, Drift, Tawk, Crisp) is present in the homepage HTML or JavaScript. The support contact path is email-only.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 266-272
+"SUPPORT
+
+## Need help with an order?
+
+Open Find My Order for a direct status lookup, or email [[email protected]](/cdn-cgi/l/email-protection) for help."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 477-481
+"## Contact Us
+
+Email: [[email protected]](/cdn-cgi/l/email-protection)
+
+For order help, include your order number and name in your message."
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[INFERENCE] false
+[REASONING]
+No blog, news, or editorial section link exists in the navigation or footer. The SPA homepage catalog, checkout, and compliance sections exhaust all visible content areas with no blog.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 274-274
+"Terms of Service Privacy Policy Customer Support Contact Us"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 22-22
+"[View COAs](/view-purity) [Careers](jobs.html) [Investors](investors.html) [Merch](/merch)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 70-76
+[QUOTE]
+"## JOIN THE RESEARCH COMMUNITY
+
+Join the Discord ecosystem for exclusive drops, discounted [group buys](https://en.wikipedia.org/wiki/Group_buying "Learn about group buying"), and free weekly peptide giveaways. Validate your research by viewing or leaving product reviews with our growing community.
+
+[ Join Discord ](https://discord.gg/v94yzsbcM3)"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://zhuoyuelab.com/our-research.html
+[FETCHED_AT] 2026-05-08T08:49:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_research.md
+[LINE_RANGE] 16-24
+[QUOTE]
+"## Live Research Signal
+
+Compounds distributed by Zhuo Yue Labs and its constituents have supported more than 150 research initiatives, from Alzheimer's-focused neurodegeneration studies to cutting-edge lipid signaling programs."
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[INFERENCE] NATTY10 affiliate code visible in source JavaScript
+[REASONING]
+The storefront runtime JavaScript contains a hardcoded affiliate admin notification map that includes the code NATTY10 with an associated email address nattysux@gmail.com, indicating at least one named affiliate/influencer code is active.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://zhuoyuelab.com/assets/storefront-home-runtime.js?v=20260508-banktransfer-returnfix3
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 140-142
+"Discount / Affiliate Code
+
+Apply Clear"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 140-142
+"Discount / Affiliate Code
+
+Apply Clear"
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 84-86
+[QUOTE]
+"## Shipping Address
+
+Yes, we ship everywhere."
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://zhuoyuelab.com
+[FETCHED_AT] 2026-05-08T08:47:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/homepage.md
+[LINE_RANGE] 276-276
+[QUOTE]
+"© 2026 Locke Trades LLC."
+[/QUOTE]
+
+[CLAIM] skus (BPC-157 5mg - claim-bpc157-5mg)
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"{"sku":"BC5SV","name":"BPC-157 5mg","price":20.0,"dosage":"5mg","image":"media/current-design/by-sku/BC5SV.webp","description":"BPC-157 is a pentadecapeptide known for its exceptional regenerative properties in tendons, muscles, and the gut. It works by accelerating angiogenesis, the formation of new blood vessels, to speed up healing.","sequence":"GEPPPGKPADDAGLV","storage":"Store lyophilized at -20°C"}"
+[/QUOTE]
+
+[CLAIM] skus (TB-500 5mg - claim-tb500-5mg)
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"{"sku":"BT5SV","name":"TB-500 5mg","price":57.6,"dosage":"5mg"}"
+[/QUOTE]
+
+[CLAIM] skus (GHK-Cu 50mg - claim-ghk-cu-50mg)
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"{"sku":"CU50SV","name":"GHK-Cu 50mg","price":25.0,"dosage":"50mg"}"
+[/QUOTE]
+
+[CLAIM] skus (Retatrutide 5mg - claim-retatrutide-5mg)
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"{"sku":"RT5SV","name":"Retatrutide 5mg","price":36.0,"dosage":"5mg"}"
+[/QUOTE]
+
+[CLAIM] skus (Tirzepatide 5mg - claim-tirzepatide-5mg)
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"{"sku":"TR5SV","name":"Tirzepatide 5mg","price":36.0,"dosage":"5mg"}"
+[/QUOTE]
+
+[CLAIM] skus (Semaglutide 5mg - claim-semaglutide-5mg)
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"{"sku":"SM5SV","name":"Semaglutide 5mg","price":36.0,"dosage":"5mg","description":"This GLP-1 receptor agonist is primarily used to manage blood sugar levels and support weight loss."}"
+[/QUOTE]
+
+[CLAIM] skus (MOTS-C 10mg - claim-mots-c-10mg)
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"{"sku":"MS10SV","name":"MOTS-C 10mg","price":50.4,"dosage":"10mg"}"
+[/QUOTE]
+
+[CLAIM] skus (Epithalon 10mg - claim-epithalon-10mg)
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"{"sku":"ET10SV","name":"Epithalon 10mg","price":36.0,"dosage":"10mg"}"
+[/QUOTE]
+
+[CLAIM] skus (Selank 5mg Nasal Spray - claim-selank-nasal-5mg)
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"{"sku":"ZYL-NS-SLK-05","name":"Selank 5mg Nasal Spray","price":35.0}"
+[/QUOTE]
+
+[CLAIM] skus (The LooksMax Bundle - claim-bundle-looksmax)
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"{"sku":"BNDL-LOOKSMAX","name":"The LooksMax Bundle","price":104.0,"description":"Entry-level stack for baseline fat loss and skin health.","components":"1x Retatrutide 5mg (RT5), 1x GHK-Cu 50mg (CU50), 2x BAC Water 3ml (WA3)"}"
+[/QUOTE]
+
+[CLAIM] skus (Semaglutide kit 2mg - claim-semaglutide-kit-2mg)
+[URL] https://zhuoyuelab.com/data/catalog/catalog-from-csv.json
+[FETCHED_AT] 2026-05-08T08:50:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zhuo-yue-lab/catalog_1.md
+[LINE_RANGE] 9-9
+[QUOTE]
+"{"sku":"SM2","name":"Semaglutide (2mg x 10 vials)","price":210.0,"dosage":"2mg"}"
+[/QUOTE]

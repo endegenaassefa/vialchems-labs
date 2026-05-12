@@ -1,0 +1,892 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:19:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/homepage.md
+[LINE_RANGE] 85-85
+[QUOTE]
+# Feel Better. Live Better. Physician-Led Wellness in Orange County.
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:19:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/homepage.md
+[LINE_RANGE] 89-89
+[QUOTE]
+[Schedule a Free Consult](/contact-us/)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:19:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/homepage.md
+[LINE_RANGE] 14-65
+[QUOTE]
+  * [About](https://mdtw.co/about/)
+  * Services
+
+Weight Loss
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:19:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/homepage.md
+[LINE_RANGE] 387-387
+[QUOTE]
+Located in Brea, CA, MD Total Wellness is a physician-owned wellness clinic specializing in GLP-1 weight loss, testosterone therapy, bioidentical hormone therapy, peptide therapy, and hair restoration. We help Orange County men and women optimize their health and live better.
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The site explicitly positions itself as a "physician-owned wellness clinic" with two named board-certified providers, an in-person Brea CA address, and "evidence-based" framing — copy cues consistent with a clinical / medical aesthetic rather than lifestyle, meme-coded, or anonymous styles defined in the schema enumeration. The rendered text does not describe the on-page imagery directly (it is curl + html2text output, no image analysis), so the value is recorded as an inference per Rule 19 with two grep-matchable support quotes from the homepage.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:19:37Z
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/homepage.md
+[LINE_RANGE] 87-87
+"Traditional medicine treats disease. At MD Total Wellness, we go further — helping Orange County men and women lose weight, optimize hormones, and restore vitality through expert, in-person care at our physician-owned wellness clinic in Brea, CA."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:19:37Z
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/homepage.md
+[LINE_RANGE] 125-125
+"We are a physician-owned medical practice — not a franchise, a telehealth mill, or a business that hired clinicians. Dr. Oliak and PA Mollet built MDTW because they believe quality, personalized care should be the standard, not the exception."
+[/SUPPORT_QUOTE]
+
+[CLAIM] year_established
+[URL] https://mdtw.co/about/
+[FETCHED_AT] 2026-05-07T01:20:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/about.md
+[LINE_RANGE] 121-121
+[QUOTE]
+Dr. Oliak started MD Total Wellness with his long-time associate Allison Mollet, PA-C, in 2023, after a 20-year career as a weight loss surgeon in private practice at the Oliak Center for Weight Loss.
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:19:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/homepage.md
+[LINE_RANGE] 410-410
+[QUOTE]
+[ 255 W. Central Ave Suite 203 Brea, CA 92821 ](https://maps.app.goo.gl/oHju35Z6s1fTYMuu8)
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 94-94
+[QUOTE]
+**MD Total Wellness** provides medically supervised care and pharmaceutical-grade (>99% purity) peptides that are manufactured in the USA and dispensed from our office or shipped to your home – California addresses only.
+[/QUOTE]
+[URL] https://mdtw.co/peptide-and-nad-therapy-orange-county/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/catalog_peptide_hub.md
+[LINE_RANGE] 158-158
+[QUOTE]
+Receive your peptides from our Brea office or shipped to your California address.
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://mdtw.co/peptide-and-nad-therapy-orange-county/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/catalog_peptide_hub.md
+[LINE_RANGE] 172-183
+[QUOTE]
+  * [BPC-157/TB-500](/wolverine-blend-bpc-157-tb-500/) – $225/vial
+  * [GHK-Cu ](/ghk-cu-for-wellness-and-vitality/)– $150/vial
+  * [GLOW Blend](/glow-peptide-therapy/) – $300/vial
+  * [KLOW Blend](/klow-peptide-therapy/) – $375/vial
+  * [NAD+](/injectable-nad-therapy/) (biofermented) – $300/vial
+  * PT-141 – $150/vial (consult required)
+  * [Selank](/selank-peptide-therapy/) – $150/vial
+  * Semax – $150/vial
+  * [Sermorelin](/sermorelin-therapy-orange-county/) – $150/vial (consult required)
+  * [Tesamorelin](/tesamorelin-therapy-orange-county/) – $150/vial (consult required)
+  * Tesamorelin/Ipamorelin – $175/vial (consult required)
+  * [Wolverine Blend](/wolverine-blend-bpc-157-tb-500/) (BPC-157/TB-500) – $225/vial
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:19:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/homepage.md
+[LINE_RANGE] 105-117
+[QUOTE]
+## Explore Our Wellness Services
+
+[ Weight Loss GLP-1 Weight Loss Lose weight safely and sustainably with our physician-supervised GLP-1 program. ](https://mdtw.co/glp-1-weight-loss-orange-county/)
+
+[ Men’s Hormone Health Testosterone Therapy Reclaim your energy, strength, and quality of life with expert testosterone therapy. ](https://mdtw.co/testosterone-therapy-orange-county/)
+
+[ Women’s Hormone Health Bioidentical Hormone Therapy Relieve perimenopause and menopause symptoms and restore balance with our menopause-certified provider. ](https://mdtw.co/bioidentical-hormone-therapy-orange-county/)
+
+[ Peptides Peptide Therapy Target healing, recovery, body composition, energy, skin and hair health, mental clarity, and more with personalized peptide protocols. ](https://mdtw.co/peptide-and-nad-therapy-orange-county/)
+
+[ Hair Health Hair Restoration Grow thicker, stronger, fuller hair with advanced, non-invasive treatments — including the Alma TED system. ](https://mdtw.co/hair-restoration-orange-county/)
+
+[ Aesthetics Trinity Aesthetic Studio Complement your wellness journey with medical aesthetics at our affiliated Trinity Aesthetic Studio. ](https://trinityaestheticstudio.com/)
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://mdtw.co/glow-peptide-therapy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_3__glow-blend.md
+[LINE_RANGE] 192-192
+[QUOTE]
+**Price:** $300/vial (GHK-Cu 50mg, BPC-157 10mg, TB-500 10mg); includes medical guidance and follow-up.
+[/QUOTE]
+[URL] https://mdtw.co/klow-peptide-therapy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_4__klow-blend.md
+[LINE_RANGE] 196-196
+[QUOTE]
+**Price:** $375/vial (GHK-Cu 50mg, BPC-157 10mg, TB-500 10mg, KPV 10mg); includes medical guidance and follow-up.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url_and_name
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 90-90
+[QUOTE]
+# Wolverine Peptide Therapy (BPC-157 & TB-500) Orange County
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 192-204
+[QUOTE]
+  * Low dose for daily recovery or minor healing needs: 0.25mg daily
+[/QUOTE]
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 200-200
+[QUOTE]
+  * Cycles of 5 days per week for 1-3 months, followed by 2-4 weeks off.
+[/QUOTE]
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 204-204
+[QUOTE]
+  * Price: $225/vial injectable Wolverine peptide blend (BPC-157 10mg / TB-500 10mg). Vial lasts 1-2 months.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price_and_per_mg
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 204-204
+[QUOTE]
+  * Price: $225/vial injectable Wolverine peptide blend (BPC-157 10mg / TB-500 10mg). Vial lasts 1-2 months.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 92-92
+[QUOTE]
+At **MD Total Wellness,** we specialize in medically supervised [peptide therapy](/peptide-and-nad-therapy-orange-county/). The Wolverine peptide blend, consisting of two peptides — BPC-157 and TB-500, is one of our most popular offerings, and is used to promote faster healing, reduce inflammation, and support tissue repair.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 216-216
+[QUOTE]
+ _Disclaimer: Peptides like the Wolverine blend are for research and therapeutic use under medical supervision and are not FDA-approved for all indications._
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 214-214
+[QUOTE]
+Ensure you are using quality medication. Peptide manufacturers aren’t regulated like pharmaceutical companies, so you can’t blindly trust that injectable peptides are formulated properly and free of contamination. MD Total Wellness offers pharmaceutical-grade (>99% purity), professional-use-only, contaminant-free peptides manufactured in the USA.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://mdtw.co/peptide-and-nad-therapy-orange-county/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/catalog_peptide_hub.md
+[LINE_RANGE] 113-129
+[QUOTE]
+  * Healing & Recovery
+
+Accelerate healing and recovery from injuries, reduce inflammation, and speed recovery after exercise. [Wolverine Blend (BPC-157, TB500)](/wolverine-blend-bpc-157-tb-500/), [GHK-Cu](/ghk-cu-for-wellness-and-vitality/), [GLOW](/glow-peptide-therapy/), [KLOW](/klow-peptide-therapy/).
+
+  * Vitality & Body Composition
+
+Increase energy, support muscle growth, improve metabolism, and aid fat loss. [Sermorelin](/sermorelin-therapy-orange-county/), [Tesamorelin](/tesamorelin-therapy-orange-county/), Tesamorelin/Ipamorelin stack.
+
+  * Skin & Hair
+
+Promote collagen and elastin production, improve skin health, stimulate hair growth, reduce inflammation. [GHK-Cu](/ghk-cu-for-wellness-and-vitality/), [Wolverine Blend](/wolverine-blend-bpc-157-tb-500/), [GLOW](/glow-peptide-therapy/), [KLOW](/klow-peptide-therapy/).
+
+  * Cognition & Mood
+
+Improve focus, reduce anxiety, enhance mental clarity. [NAD+](/injectable-nad-therapy/), [Selank](/selank-peptide-therapy/), Semax.
+
+  * Energy & Anti-Aging
+
+Boost energy, combat fatigue, support cellular health, and reverse aging-related changes. [NAD+](/injectable-nad-therapy/), [GHK-Cu](/ghk-cu-for-wellness-and-vitality/), [Wolverine Blend](/wolverine-blend-bpc-157-tb-500/), [GLOW](/glow-peptide-therapy/), [KLOW](/klow-peptide-therapy/).
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 216-216
+[QUOTE]
+ _Disclaimer: Peptides like the Wolverine blend are for research and therapeutic use under medical supervision and are not FDA-approved for all indications._
+[/QUOTE]
+[URL] https://mdtw.co/ghk-cu-for-wellness-and-vitality/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_2__ghk-cu.md
+[LINE_RANGE] 234-234
+[QUOTE]
+ _Disclaimer: Injectable peptides like GHK-Cu are for research and therapeutic use under medical supervision and are not FDA-approved._
+[/QUOTE]
+[URL] https://mdtw.co/glow-peptide-therapy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_3__glow-blend.md
+[LINE_RANGE] 216-216
+[QUOTE]
+ _Disclaimer: Injectable peptides like GLOW are for research and therapeutic use under medical supervision and are not FDA-approved._
+[/QUOTE]
+[URL] https://mdtw.co/klow-peptide-therapy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_4__klow-blend.md
+[LINE_RANGE] 208-208
+[QUOTE]
+_Disclaimer: Injectable peptides like KLOW are for research and therapeutic use under medical supervision and are not FDA-approved._
+[/QUOTE]
+[URL] https://mdtw.co/selank-peptide-therapy/
+[FETCHED_AT] 2026-05-07T01:20:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_8__selank.md
+[LINE_RANGE] 236-236
+[QUOTE]
+_Disclaimer: Selank peptide therapy is for research and therapeutic use under supervision and is not FDA-approved._
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 190-190
+[QUOTE]
+We offer medically supervised peptide therapy and pharmaceutical-grade (>99% purity) peptides that are manufactured in the USA and fully vetted for quality. We dispense medication from the office or ship to your home (California addresses only), and we’ll teach you how to do subcutaneous injections.
+[/QUOTE]
+[URL] https://mdtw.co/contact-us/
+[FETCHED_AT] 2026-05-07T01:20:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/contact_us.md
+[LINE_RANGE] 132-132
+[QUOTE]
+Any patient can opt for this 30-min consultation with a board-certified provider to discuss goals, review medical history, and design a personalized peptide care plan. Required for: Sermorelin, Tesamorelin, Semax, Selank, PT-141. California residents only.
+[/QUOTE]
+[URL] https://mdtw.co/contact-us/
+[FETCHED_AT] 2026-05-07T01:20:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/contact_us.md
+[LINE_RANGE] 137-137
+[QUOTE]
+Complete our health questionnaire for provider review. If approved for peptide therapy, you may then purchase peptides. This option is available for the following peptides: BPC-157, TB-500, Wolverine, GHK-Cu, NAD+, GLOW, KLOW. California residents only.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url_and_highlights
+[URL] https://mdtw.co/terms-of-services/
+[FETCHED_AT] 2026-05-07T01:20:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/tos.md
+[LINE_RANGE] 95-95
+[QUOTE]
+ANY DISPUTE OR CLAIM RELATING IN ANY WAY TO YOUR USE OF THE SITE OR ANY OF THE CONTENT OR SERVICES PROVIDED VIA THE SITE WILL BE RESOLVED BY MANDATORY BINDING ARBITRATION, RATHER THAN IN COURT, AND YOU HEREBY WAIVE THE RIGHT AND AGREE NOT TO JOIN IN ANY CLASS ACTION INVOLVING THE SITE OR ANY OF SUCH CONTENT OR SERVICES.
+[/QUOTE]
+[URL] https://mdtw.co/terms-of-services/
+[FETCHED_AT] 2026-05-07T01:20:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/tos.md
+[LINE_RANGE] 161-161
+[QUOTE]
+These Terms are governed by the laws of the State of Florida, U.S.A.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 190-190
+[QUOTE]
+We dispense medication from the office or ship to your home (California addresses only), and we’ll teach you how to do subcutaneous injections.
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://mdtw.co/contact-us/
+[FETCHED_AT] 2026-05-07T01:20:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/contact_us.md
+[LINE_RANGE] 102-110
+[QUOTE]
+First Name*
+
+Last Name*
+
+Email*
+
+Phone Number*
+
+Treatment Type*
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://mdtw.co/contact-us/
+[FETCHED_AT] 2026-05-07T01:20:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/contact_us.md
+[LINE_RANGE] 102-110
+[QUOTE]
+First Name*
+[/QUOTE]
+[URL] https://mdtw.co/contact-us/
+[FETCHED_AT] 2026-05-07T01:20:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/contact_us.md
+[LINE_RANGE] 104-104
+[QUOTE]
+Last Name*
+[/QUOTE]
+[URL] https://mdtw.co/contact-us/
+[FETCHED_AT] 2026-05-07T01:20:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/contact_us.md
+[LINE_RANGE] 106-106
+[QUOTE]
+Email*
+[/QUOTE]
+[URL] https://mdtw.co/contact-us/
+[FETCHED_AT] 2026-05-07T01:20:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/contact_us.md
+[LINE_RANGE] 108-108
+[QUOTE]
+Phone Number*
+[/QUOTE]
+[URL] https://mdtw.co/contact-us/
+[FETCHED_AT] 2026-05-07T01:20:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/contact_us.md
+[LINE_RANGE] 110-110
+[QUOTE]
+Treatment Type*
+[/QUOTE]
+[URL] https://mdtw.co/contact-us/
+[FETCHED_AT] 2026-05-07T01:20:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/contact_us.md
+[LINE_RANGE] 139-139
+[QUOTE]
+Message
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:19:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/homepage.md
+[LINE_RANGE] 317-317
+[QUOTE]
+No — and here’s why that works in your favor. By not billing insurance, we eliminate prior authorizations, surprise bills, and the time pressure that rushes most medical appointments. You get unhurried, focused care with a provider who actually knows you. We accept all major credit/debit cards, HSA and FSA, and offer 0% financing for treatment packages.
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://mdtw.co/peptide-and-nad-therapy-orange-county/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/catalog_peptide_hub.md
+[LINE_RANGE] 164-164
+[QUOTE]
+**MD Total Wellness** offers medically-supervised peptide therapy using peptides that are made in the USA and fully vetted for purity and quality. We dispense peptides and NAD+ from the office, or we can ship to your California address.
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:20:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/source_homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+x-powered-by: PHP/8.2.30
+[/QUOTE]
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:20:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/source_homepage.md
+[LINE_RANGE] 11-11
+[QUOTE]
+link: <https://mdtw.co/wp-json/>; rel="https://api.w.org/"
+[/QUOTE]
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:20:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/source_homepage.md
+[LINE_RANGE] 48-48
+[QUOTE]
+<meta name="generator" content="Elementor 4.0.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+[/QUOTE]
+
+[CLAIM] tech_stack.host_origin_signal
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:20:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/source_homepage.md
+[LINE_RANGE] 15-17
+[QUOTE]
+server: LiteSpeed
+platform: hostinger
+panel: hpanel
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:20:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/source_homepage.md
+[LINE_RANGE] 48-48
+[QUOTE]
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1K1M4Y7V7S"></script>
+[/QUOTE]
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:20:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/source_homepage.md
+[LINE_RANGE] 42-42
+[QUOTE]
+        h._hjSettings={hjid:6502459,hjsv:6};
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:20:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/source_homepage.md
+[LINE_RANGE] 9-682
+[QUOTE]
+[ENUMERATION] grep on source_homepage.md for known chat widget signatures (intercom, drift, crisp.chat, tawk.to, hubspot chat, zendesk, livechat, podium) — zero hits. Site rendered text and homepage source file scanned across all 682 lines: no chat widget script tag observed. Recorded as false rather than uncertain because the source-of-truth file was scanned in full.
+[FILES]
+source_homepage.md
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present_and_url
+[URL] https://mdtw.co/insights/
+[FETCHED_AT] 2026-05-07T01:21:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/blog_index.md
+[LINE_RANGE] 86-86
+[QUOTE]
+Wellness Wisdom
+[/QUOTE]
+[URL] https://mdtw.co/insights/
+[FETCHED_AT] 2026-05-07T01:21:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/blog_index.md
+[LINE_RANGE] 116-120
+[QUOTE]
+  * [1](https://mdtw.co/insights/)
+  * [2](https://mdtw.co/insights/page/2/)
+  * [3](https://mdtw.co/insights/page/3/)
+  * [4](https://mdtw.co/insights/page/4/)
+  * [Next](https://mdtw.co/insights/page/2/)
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://mdtw.co/insights/
+[FETCHED_AT] 2026-05-07T01:21:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/blog_index.md
+[LINE_RANGE] 89-99
+[QUOTE]
+  * [All](https://mdtw.co/insights/)
+  * [Alma TED System](https://mdtw.co/category/hair-restoration/alma-ted-system/)
+  * [GLP-1 Medications](https://mdtw.co/category/weight-loss/glp-1-medications/)
+  * [Hair Restoration](https://mdtw.co/category/hair-restoration/)
+  * [Men's Health](https://mdtw.co/category/mens-health/)
+  * [Peptides](https://mdtw.co/category/peptides/)
+  * [Semaglutide](https://mdtw.co/category/weight-loss/semaglutide/)
+  * [Tirzepatide](https://mdtw.co/category/weight-loss/tirzepatide/)
+  * [Weight Loss](https://mdtw.co/category/weight-loss/)
+  * [Women's Health](https://mdtw.co/category/womens-health/)
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:19:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/homepage.md
+[LINE_RANGE] 335-365
+[QUOTE]
+### The Epidemic of Low Testosterone in Orange County (and Worldwide)
+
+David Oliak, MD
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://mdtw.co/peptide-therapy/
+[FETCHED_AT] 2026-05-07T01:20:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/about_peptide_therapy.md
+[LINE_RANGE] 110-110
+[QUOTE]
+While Wolverine Blend is not FDA-approved, it is commonly used off-label for healing and recovery based on extensive animal data showing regenerative potential and a wealth of anecdotal evidence from clinical experiences. Human studies are limited but emerging, so we prioritize careful monitoring and personalized care. Read more about[ Wolverine Blend (BPC-157 / TB-500)](/wolverine-blend-bpc-157-tb-500/).
+[/QUOTE]
+[URL] https://mdtw.co/peptide-therapy/
+[FETCHED_AT] 2026-05-07T01:20:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/about_peptide_therapy.md
+[LINE_RANGE] 118-118
+[QUOTE]
+GHK-Cu is not FDA-approved, but it is commonly used in the field of regenerative medicine to promote youthful skin, reduce fine lines, and aid in recovery from environmental damage or minor injuries. Read more about [GHK-Cu](/ghk-cu-for-wellness-and-vitality/).
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:19:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/homepage.md
+[LINE_RANGE] 207-243
+[QUOTE]
+## Real Patients, Real Results
+
+**I absolutely love Dr Oliak and his team!** They truly listen and understand my needs and help me achieve my goals! The staff is very friendly and helpful. Always greeting me with a smile and are there to assist me with app…
+
+View full testimonial
+
+### LaDonna G.
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:19:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/homepage.md
+[LINE_RANGE] 385-385
+[QUOTE]
+[ Facebook ](https://www.facebook.com/mdtotalwellnessbrea) [ Instagram ](https://www.instagram.com/mdtotalwellness/) [ Linkedin ](https://www.linkedin.com/company/mdtotalwellness)
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://mdtw.co/peptide-and-nad-therapy-orange-county/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/catalog_peptide_hub.md
+[LINE_RANGE] 224-238
+[QUOTE]
+**Really good customer service doctors very knowledgeable about your immediate health and care**. Any information you need, you get a proper answer and a goal program for your success.
+
+### Hugo M.
+
+**My orthopedic surgeon recommended a specific peptide to help speed my recovery and healing.** I came here and they explained everything and options. Very thorough. Have been healing great with the wolverine blend!
+
+### Troy F.
+[/QUOTE]
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 128-130
+[QUOTE]
+Mark, a 41 year old firefighter, presented to the MD Total Wellness clinic with a shoulder injury. He had injured his shoulder in high school, and has had a grinding sensation and episodic pain since. About a month ago, he re-injured his shoulder at the gym doing overhead presses. His symptoms over the past month, pain with overhead extension of his arm, did not improve. After starting Wolverine peptide blend, he was able to start lifting again after 1 week, and was back to lifting his typical overhead press weight after 3 weeks. At 4 weeks he felt completely recovered.
+
+Another patient, Dave, used Wolverine blend during a ski trip. He had been going on this trip for the past 10 years, and his typical experience was progressive muscle soreness and knee discomfort with each subsequent day skiing. During this trip, however, each ski day felt like his first day, without progressive muscle soreness and knee pain.
+[/QUOTE]
+
+[CLAIM] claim-sku-1
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 204-204
+[QUOTE]
+  * Price: $225/vial injectable Wolverine peptide blend (BPC-157 10mg / TB-500 10mg). Vial lasts 1-2 months.
+[/QUOTE]
+
+[CLAIM] claim-sku-2
+[URL] https://mdtw.co/ghk-cu-for-wellness-and-vitality/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_2__ghk-cu.md
+[LINE_RANGE] 210-210
+[QUOTE]
+Price: $150/vial for a 50mg vial (1-2mo supply); includes medical guidance and follow-up.
+[/QUOTE]
+
+[CLAIM] claim-sku-3
+[URL] https://mdtw.co/glow-peptide-therapy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_3__glow-blend.md
+[LINE_RANGE] 192-192
+[QUOTE]
+**Price:** $300/vial (GHK-Cu 50mg, BPC-157 10mg, TB-500 10mg); includes medical guidance and follow-up.
+[/QUOTE]
+
+[CLAIM] claim-sku-4
+[URL] https://mdtw.co/klow-peptide-therapy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_4__klow-blend.md
+[LINE_RANGE] 196-196
+[QUOTE]
+**Price:** $375/vial (GHK-Cu 50mg, BPC-157 10mg, TB-500 10mg, KPV 10mg); includes medical guidance and follow-up.
+[/QUOTE]
+
+[CLAIM] claim-sku-5
+[URL] https://mdtw.co/injectable-nad-therapy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_5__injectable-nad.md
+[LINE_RANGE] 180-180
+[QUOTE]
+Price $300 per 1000mg vial (typically 1-2 month supply depending on dose), including consultations and ongoing support. We accept credit cards, HSA/FSA, with no insurance required—making NAD+ injections near me accessible and high-value.
+[/QUOTE]
+[URL] https://mdtw.co/injectable-nad-therapy/
+[FETCHED_AT] 2026-05-07T01:20:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_5__injectable-nad.md
+[LINE_RANGE] 100-100
+[QUOTE]
+Each vial contains 1000mg of 99%+ pure NAD+.
+[/QUOTE]
+
+[CLAIM] claim-sku-6
+[URL] https://mdtw.co/sermorelin-therapy-orange-county/
+[FETCHED_AT] 2026-05-07T01:20:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_6__sermorelin.md
+[LINE_RANGE] 188-188
+[QUOTE]
+Price: $150/vial (10mg). Vial lasts 1-2 months, depending on dosage. Price includes medically supervised care, pharmaceutical-grade (>99% purity), professional-use-only sermorelin dispensed from the office (or shipped to your home), and instructions for home use.
+[/QUOTE]
+
+[CLAIM] claim-sku-7
+[URL] https://mdtw.co/tesamorelin-therapy-orange-county/
+[FETCHED_AT] 2026-05-07T01:20:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_7__tesamorelin.md
+[LINE_RANGE] 188-188
+[QUOTE]
+**Price:** $150/vial (10mg)
+[/QUOTE]
+
+[CLAIM] claim-sku-8
+[URL] https://mdtw.co/selank-peptide-therapy/
+[FETCHED_AT] 2026-05-07T01:20:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_8__selank.md
+[LINE_RANGE] 218-218
+[QUOTE]
+Price: $150/vial for a 10mg vial (1-2mo supply, depending on dosage); includes personalized dosing guidance and follow-up.
+[/QUOTE]
+
+[CLAIM] claim-sku-9
+[URL] https://mdtw.co/peptide-and-nad-therapy-orange-county/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/catalog_peptide_hub.md
+[LINE_RANGE] 177-177
+[QUOTE]
+  * PT-141 – $150/vial (consult required)
+[/QUOTE]
+
+[CLAIM] claim-sku-10
+[URL] https://mdtw.co/peptide-and-nad-therapy-orange-county/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/catalog_peptide_hub.md
+[LINE_RANGE] 179-179
+[QUOTE]
+  * Semax – $150/vial
+[/QUOTE]
+
+[CLAIM] claim-sku-11
+[URL] https://mdtw.co/peptide-and-nad-therapy-orange-county/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/catalog_peptide_hub.md
+[LINE_RANGE] 182-182
+[QUOTE]
+  * Tesamorelin/Ipamorelin – $175/vial (consult required)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 1-369
+[QUOTE]
+[ENUMERATION] Searched all 19 raw fetches under 03_raw_fetches/md-total-wellness/ for the strings 'COA', 'certificate of analysis', 'lab report', 'third-party test', 'janoshik', 'peptide pure', 'lot number', 'batch number', 'batch ID' — zero hits across every saved page. The Wolverine Blend product page (the most-detailed peptide product page on the site) explicitly says "Peptide manufacturers aren't regulated like pharmaceutical companies, so you can't blindly trust that injectable peptides are formulated properly and free of contamination. MD Total Wellness offers pharmaceutical-grade (>99% purity), professional-use-only, contaminant-free peptides manufactured in the USA" but does not link to any public COA library, third-party-portal certificate database, or per-lot verification page. coa_hosting therefore = "none" and coa_present = "false" (no public COA index).
+[FILES]
+homepage.md
+catalog_peptide_hub.md
+product_1__wolverine-blend-bpc157-tb500.md
+product_2__ghk-cu.md
+product_3__glow-blend.md
+product_4__klow-blend.md
+product_5__injectable-nad.md
+product_6__sermorelin.md
+product_7__tesamorelin.md
+product_8__selank.md
+about.md
+about_peptide_therapy.md
+contact_us.md
+tos.md
+privacy_policy.md
+accessibility.md
+blog_index.md
+blog_1__sermorelin-vs-tesamorelin.md
+source_homepage.md
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 1-369
+[QUOTE]
+[ENUMERATION] No batch/lot information surfaces on any fetched product page. Searched product_1 through product_8 plus catalog_peptide_hub for 'lot', 'batch', 'manufactured on', 'expires', 'use by', 'COA-', 'lot#'. Zero hits. The clinic's compounded-Rx workflow does not surface batch/lot data publicly because it is on the prescription/dispensing label, not the marketing page. Recorded as 'false'.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 1-369
+[QUOTE]
+[ENUMERATION] No interactive customer-review module (Yotpo, Stamped, Trustpilot widget, Loox, Judge.me, Google Reviews widget, native WP review form) is present on any of the 8 fetched product pages. Search across product_1 through product_8 for 'Write a review', 'Submit review', 'review-form', 'rating-stars', 'yotpo', 'stamped.io', 'judge.me' returned zero hits. Static testimonial carousels (homepage, peptide hub, contact page) are present and captured under social_proof.testimonial_usage but those are CMS-curated text, not a customer-review module. customer_review_module_present = false; on_site_reviews = true (static testimonials).
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:19:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/homepage.md
+[LINE_RANGE] 1-455
+[QUOTE]
+[ENUMERATION] No age-gate modal or interstitial appears on the homepage or any of the 8 fetched product pages. The TOS at line 91 contains "YOU REPRESENT AND WARRANT THAT YOU ARE OF LEGAL CONTRACTING AGE AND HAVE LEGAL CAPACITY TO CONTRACT" as a passive contracting-capacity warranty inside the click-through, but no age-checkbox, no '21+' modal, no '18+' birthday-gate. age_gate_present = false.
+[FILES]
+homepage.md
+product_1__wolverine-blend-bpc157-tb500.md
+product_2__ghk-cu.md
+product_3__glow-blend.md
+product_4__klow-blend.md
+tos.md
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://mdtw.co/terms-of-services/
+[FETCHED_AT] 2026-05-07T01:20:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/tos.md
+[LINE_RANGE] 161-163
+[QUOTE]
+These Terms are governed by the laws of the State of Florida, U.S.A. The United Nations Convention for the International Sale of Goods does not and shall not apply with respect to any use of the Site or the purchase or use of any MD Total Wellness Products and Services. You hereby consent to personal jurisdiction and venue in the state and federal courts located in Palm Beach County, Florida, U.S.A.
+[/QUOTE]
+[URL] https://mdtw.co/terms-of-services/
+[FETCHED_AT] 2026-05-07T01:20:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/tos.md
+[LINE_RANGE] 95-95
+[QUOTE]
+ANY DISPUTE OR CLAIM RELATING IN ANY WAY TO YOUR USE OF THE SITE OR ANY OF THE CONTENT OR SERVICES PROVIDED VIA THE SITE WILL BE RESOLVED BY MANDATORY BINDING ARBITRATION, RATHER THAN IN COURT, AND YOU HEREBY WAIVE THE RIGHT AND AGREE NOT TO JOIN IN ANY CLASS ACTION INVOLVING THE SITE OR ANY OF SUCH CONTENT OR SERVICES.
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://mdtw.co/
+[FETCHED_AT] 2026-05-07T01:19:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/homepage.md
+[LINE_RANGE] 1-455
+[QUOTE]
+[ENUMERATION] No named influencer / creator endorsements appear on the fetched pages. Searched homepage, peptide hub, all 8 product pages, About page, contact page, and blog index for influencer-handle patterns, sponsored-by language, '@-handle' references, and "as seen on" callouts. The site links its own social profiles (Facebook, Instagram @mdtotalwellness, LinkedIn) and uses static patient testimonials from initialed first-name reviewers (LaDonna G., Nicole B., Hugo M., etc.); no third-party creator/influencer endorsements with named handles or photos. Recorded as "none observed on fetched pages" rather than "uncertain" because the search was exhaustive across all 19 saved fetches.
+[FILES]
+homepage.md
+catalog_peptide_hub.md
+product_1__wolverine-blend-bpc157-tb500.md
+product_2__ghk-cu.md
+about.md
+about_peptide_therapy.md
+contact_us.md
+blog_index.md
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 90-90
+[QUOTE]
+# Wolverine Peptide Therapy (BPC-157 & TB-500) Orange County
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.per_mg_cost
+[URL] https://mdtw.co/wolverine-blend-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T01:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/product_1__wolverine-blend-bpc157-tb500.md
+[LINE_RANGE] 204-204
+[QUOTE]
+  * Price: $225/vial injectable Wolverine peptide blend (BPC-157 10mg / TB-500 10mg). Vial lasts 1-2 months.
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://mdtw.co/insights/
+[FETCHED_AT] 2026-05-07T01:21:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/md-total-wellness/blog_index.md
+[LINE_RANGE] 86-86
+[QUOTE]
+Wellness Wisdom
+[/QUOTE]

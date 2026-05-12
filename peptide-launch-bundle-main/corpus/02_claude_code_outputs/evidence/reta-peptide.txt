@@ -1,0 +1,728 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://reta-peptide.com/
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/homepage.md
+[LINE_RANGE] 292-294
+[QUOTE]
+RETA-PEPTIDE is a manufacturer of peptides, have our own research lab, and production line.
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://reta-peptide.com/
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/homepage.md
+[LINE_RANGE] 296-314
+[QUOTE]
+##  **OUR BEST SELLERS**
+
+  * ###  [ Tirz 30mg 10vials ](/products/tirz)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://reta-peptide.com/
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/homepage.md
+[LINE_RANGE] 7-14
+[QUOTE]
+  * [ Home ](/)
+  * Products
+
+Products
+    * [ Peptide ](/collections/peptide)
+    * [ Raw powder ](/collections/raw-powder)
+
+  * [ COAS ](/pages/3rd-party-hplc-tests)
+  * [ Contact ](/pages/contact)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://reta-peptide.com/
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/homepage.md
+[LINE_RANGE] 509-509
+[QUOTE]
+© 2026, [reta-peptide](/) [Powered by Shopify](https://www.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore)
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://reta-peptide.com/collections/peptide
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/catalog_1.md
+[LINE_RANGE] 321-321
+[QUOTE]
+##  32 products
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy / skus (catalog_1)
+[URL] https://reta-peptide.com/collections/peptide
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/catalog_1.md
+[LINE_RANGE] 366-565
+[QUOTE]
+##  32 products
+
+  * ###  [ Semaglutide 10mg 10vials ](/products/semaglutide)
+
+###  [ Semaglutide 10mg 10vials ](/products/semaglutide)
+
+Regular price $65.00 USD
+
+Regular price ~~~~ Sale price $65.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ Retatrutide 10mg 10vials ](/products/retatrutide)
+
+###  [ Retatrutide 10mg 10vials ](/products/retatrutide)
+
+Regular price $135.00 USD
+
+Regular price ~~~~ Sale price $135.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ BPC 157, 10mg 10vials ](/products/bpc-157)
+
+###  [ BPC 157, 10mg 10vials ](/products/bpc-157)
+
+Regular price $65.00 USD
+
+Regular price ~~~~ Sale price $65.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ Tirz 30mg 10vials ](/products/tirz)
+
+###  [ Tirz 30mg 10vials ](/products/tirz)
+
+Regular price $145.00 USD
+
+Regular price ~~~~ Sale price $145.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ Cagrilintide 10mg 10vials ](/products/cagrilintide)
+
+###  [ Cagrilintide 10mg 10vials ](/products/cagrilintide)
+
+Regular price $135.00 USD
+
+Regular price ~~~~ Sale price $135.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ Lipo-C 10ml 10vials ](/products/lipo-c)
+
+###  [ Lipo-C 10ml 10vials ](/products/lipo-c)
+
+Regular price $95.00 USD
+
+Regular price ~~~~ Sale price $95.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ GHK-CU, 100mg*10vials ](/products/ghk-cu)
+
+###  [ GHK-CU, 100mg*10vials ](/products/ghk-cu)
+
+Regular price $58.00 USD
+
+Regular price ~~~~ Sale price $58.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ Tesamorelin 10mg 10vials ](/products/tesamorelin-10mg)
+
+###  [ Tesamorelin 10mg 10vials ](/products/tesamorelin-10mg)
+
+Regular price $180.00 USD
+
+Regular price ~~~~ Sale price $180.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ TB 500,10mg 10vials ](/products/tb-500)
+
+###  [ TB 500,10mg 10vials ](/products/tb-500)
+
+Regular price $120.00 USD
+
+Regular price ~~~~ Sale price $120.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ PT 141, 10mg*10vials ](/products/pt-141)
+
+###  [ PT 141, 10mg*10vials ](/products/pt-141)
+
+Regular price $85.00 USD
+
+Regular price ~~~~ Sale price $85.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ AOD9604 5mg 10vials ](/products/aod9604)
+
+###  [ AOD9604 5mg 10vials ](/products/aod9604)
+
+Regular price $90.00 USD
+
+Regular price ~~~~ Sale price $90.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ HCG 5000IU*10vials ](/products/hcg)
+
+###  [ HCG 5000IU*10vials ](/products/hcg)
+
+Regular price $65.00 USD
+
+Regular price ~~~~ Sale price $65.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ Thymosin Alpha-1 10mg 10vials ](/products/thymosin-alpha-1-10mg)
+
+###  [ Thymosin Alpha-1 10mg 10vials ](/products/thymosin-alpha-1-10mg)
+
+Regular price $175.00 USD
+
+Regular price ~~~~ Sale price $175.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ CJC-1295 With DAC 5mg*10vials ](/products/cjc-1295-with-dac)
+
+###  [ CJC-1295 With DAC 5mg*10vials ](/products/cjc-1295-with-dac)
+
+Regular price $145.00 USD
+
+Regular price ~~~~ Sale price $145.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ SS-31,10mg*10vials ](/products/ss-31)
+
+###  [ SS-31,10mg*10vials ](/products/ss-31)
+
+Regular price $85.00 USD
+
+Regular price ~~~~ Sale price $85.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ Sermorelin,10mg*10vials ](/products/sermorelin)
+
+###  [ Sermorelin,10mg*10vials ](/products/sermorelin)
+
+Regular price $135.00 USD
+
+Regular price ~~~~ Sale price $135.00 USD
+
+Unit price /  per
+
+Add To Cart
+[/QUOTE]
+
+[CLAIM] skus (catalog_2 products)
+[URL] https://reta-peptide.com/collections/peptide?page=2
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/catalog_2.md
+[LINE_RANGE] 368-555
+[QUOTE]
+  * ###  [ Ipamorelin,10mg*10vials ](/products/ipamorelin)
+
+###  [ Ipamorelin,10mg*10vials ](/products/ipamorelin)
+
+Regular price $75.00 USD
+
+Regular price ~~~~ Sale price $75.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ MOTS-c --MS10 10mg x10vials ](/products/mots-c)
+
+###  [ MOTS-c --MS10 10mg x10vials ](/products/mots-c)
+
+Regular price $65.00 USD
+
+Regular price ~~~~ Sale price $65.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ NAD+ 500 10Vials ](/products/nad)
+
+###  [ NAD+ 500 10Vials ](/products/nad)
+
+Regular price $75.00 USD
+
+Regular price ~~~~ Sale price $75.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ Glow BPC 157 10mg+GHK-CU 50mg+TB500 10mg ](/products/glow-bpc-157-10mg-ghk-cu-50mg-tb500-10mg)
+
+###  [ Glow BPC 157 10mg+GHK-CU 50mg+TB500 10mg ](/products/glow-bpc-157-10mg-ghk-cu-50mg-tb500-10mg)
+
+Regular price $255.00 USD
+
+Regular price ~~~~ Sale price $255.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ Follistatin 1mg*10vials ](/products/follistatin)
+
+###  [ Follistatin 1mg*10vials ](/products/follistatin)
+
+Regular price $170.00 USD
+
+Regular price ~~~~ Sale price $170.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ IGF-1LR3 ](/products/igf-1lr3)
+
+###  [ IGF-1LR3 ](/products/igf-1lr3)
+
+Regular price $187.00 USD
+
+Regular price ~~~~ Sale price $187.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ LL37 5MG ](/products/ll37)
+
+###  [ LL37 5MG ](/products/ll37)
+
+Regular price $145.00 USD
+
+Regular price ~~~~ Sale price $145.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ Epithalon 10mg 10vials ](/products/epithalon-1)
+
+###  [ Epithalon 10mg 10vials ](/products/epithalon-1)
+
+Regular price $99.00 USD
+
+Regular price ~~~~ Sale price $99.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ Semax 5MG 10Vials ](/products/semax)
+
+###  [ Semax 5MG 10Vials ](/products/semax)
+
+Regular price $95.00 USD
+
+Regular price ~~~~ Sale price $95.00 USD
+
+Unit price /  per
+
+Add To Cart
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy (raw powder)
+[URL] https://reta-peptide.com/collections/raw-powder
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/catalog_raw_powder.md
+[LINE_RANGE] 366-403
+[QUOTE]
+##  3 products
+
+  * ###  [ Tirzepatide raw powder ](/products/tirzepatide-raw-powder)
+
+###  [ Tirzepatide raw powder ](/products/tirzepatide-raw-powder)
+
+Regular price $265.00 USD
+
+Regular price ~~~~ Sale price $265.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ Semaglutide raw powder ](/products/semaglutide-raw-powder)
+
+###  [ Semaglutide raw powder ](/products/semaglutide-raw-powder)
+
+Regular price $188.00 USD
+
+Regular price ~~~~ Sale price $188.00 USD
+
+Unit price /  per
+
+Add To Cart
+
+  * ###  [ Tirz raw powder ](/products/tirz-raw-powder)
+
+###  [ Tirz raw powder ](/products/tirz-raw-powder)
+
+Regular price $188.00 USD
+
+Regular price ~~~~ Sale price $188.00 USD
+
+Unit price /  per
+
+Add To Cart
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name / dose_options / description_copy_excerpt
+[URL] https://reta-peptide.com/products/retatrutide
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/product_1__retatrutide.md
+[LINE_RANGE] 309-336
+[QUOTE]
+# Retatrutide 10mg 10vials
+
+## [ Retatrutide 10mg 10vials  ](/products/retatrutide)
+
+**Sequence** :
+
+Tyr-{Aib}-Gln-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Ile-{α-Me-Leu}-Leu-Asp-Lys-{doacod=C20-gamma-Glu-(AEEA)-Lys}-Ala-Gln-{Aib}-Ala-Phe-Ile-Glu-Tyr-Leu-Leu-Glu-Gly-Gly-Pro-Ser-Ser-Gly-Ala-Pro-Pro-Pro-Ser-NH2
+
+
+
+
+**Molecular Formula** : C118H175N35O28
+
+**Molecular Weight** : 2660.94 g/mol
+
+**CAS Number** : 2571941-83-5
+
+**PubChem CID** : 145996114
+
+
+
+
+**Appearance** : White powder
+
+**Storage** : Store in cool, dry and dark place，2-8°C
+
+**Shelf Life** : 2 Years
+
+**Package** : 5mg,10mg,15mg,1g,2g
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / coa_hosting / lab_partner_named / batch_lot_transparency
+[URL] https://reta-peptide.com/pages/3rd-party-hplc-tests
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/coa_1.md
+[LINE_RANGE] 290-360
+[QUOTE]
+#  3rd Party Test Report
+
+
+
+
+###
+
+
+Our peptides are tested with our own COA and a third party certified lab to verify the Mass and Purity. We guarantee the quality of all peptides purchased from Reta Peptide.
+
+
+
+
+**https://janoshik.com/tests/133892-Tirzepatide_6MVPCXK3BYL3**
+
+**https://janoshik.com/tests/133894-Retatrutide_HX564ESTZDZ5**
+
+**https://janoshik.com/tests/133896-BPC157_XIL1HD7QT3LC**
+
+**https://janoshik.com/tests/133898-TB500_PHZ1Z87KTVTW**
+
+**https://janoshik.com/tests/133900-MOTSC_5RZPI53HW3NN**
+
+**https://janoshik.com/tests/133902-GHKCU_XX4D8HHKSY4C**
+
+**https://janoshik.com/tests/133905-CJC1295_with_DAC_VFUFTE8EZP8B**
+
+**https://janoshik.com/tests/133913-Tesamorelin_LKQVI4CCKBDQ**
+
+**https://janoshik.com/tests/133911-Sermorelin_TF97XFVHGR7L**
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / tos_highlights
+[URL] https://reta-peptide.com/pages/terms-of-service
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/tos.md
+[LINE_RANGE] 291-300
+[QUOTE]
+#  Terms of service
+
+  1. Stock Ready to ship after payment
+  2. Shipping by express door to door, including local custom clearance
+  3. 24 hour service on line
+  4. Proudct quality guarantee, COA and test report offer
+  5. Money return or reship for bad quality
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://reta-peptide.com/pages/refund-policy
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/refund.md
+[LINE_RANGE] 291-300
+[QUOTE]
+#  Refund Policy
+
+If your order status is marked delivered but you did not receive it – first, check with your immediate neighbors or mailroom. Check all entrances to your home. Carriers can drop packages off at the wrong address. Second call your local post office and provide your tracking number – In almost every situation the post office or UPS is able to locate the package when you follow the proper steps to notify them of an issue.
+
+If your order appears to be stalled for more than 7 days or USPS cannot find your package, contact us and we will file a claim and an investigation has to be done by the local USPS. If USPS deems that the package is in fact lost, then we will gladly re-ship out your package.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://reta-peptide.com/pages/shipping-delivery
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/shipping.md
+[LINE_RANGE] 291-293
+[QUOTE]
+#  Shipping & Delivery
+
+we ship by special line,for common by USPS, DHL or Fedex, the shipping agent will help doing your local custom clearance, door to door shipping, and only when pass the customs, there will be out tracking information on internet, and it will be a little slower than common express, for common, 12-15 days arrive, sometimes may arrive fast about 7-9 days, depends on the airline; if you need fast shipping, we can try DHL, Fedex, but these express sometimes may need yourself help do custom clearance and pay tax.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted / shipping_carriers / international_policy
+[URL] https://reta-peptide.com/pages/faq
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/faq.md
+[LINE_RANGE] 291-359
+[QUOTE]
+#  FAQ
+
+**About on line shopping.**
+
+**By the way, we only produce peptides, We only have this one website for visit,other websites with same pictures of ours are someone fake, take care of, we dont accept on line shopping, because we ship from China, we dare customers not clear before payment, which will bring inconvenience about payment and shipping. More requirement, please contact with our sales.**
+
+1.How to proceed an order?
+
+Step 1: When you intended to buy something, pls send me an inquiry by email, or whatsapp.
+
+step2: I will reply you with a quotation as soon as I receive you inquiry.
+
+Step3: We will negotiate products, price, package, payment methods and so on.
+
+Step4: You arrange the payment.
+
+Step5: I will arrange the shipment after receiving you money.
+
+Step6: The tracking number of the parcel will be sent to you.
+
+Step7: Trace the tracking number on website until you receive it.
+
+2.: If the inspection result can not meet the agreement between the two sides, can you bear all the losses caused by this?
+
+A: Yes, we can. We guarantee that the samples provided will meet the needs of our clients and we will bear the risk of default.
+
+3.: What are your payment terms?
+
+A: We can accept various payment methods, T/T, BTC (Bitcoin),USDT, USDC,.
+
+4: Are there any discounts?
+
+A: Yes, for bulk purchase orders, we always support with better price.
+
+5: How about the delivery time?
+
+A: The delivery time is about 9-15 days after confirming the payment. Delivery times vary from country to country,and the airline,we ship by express special line, door to door, including custom clearance.If parcel lost, we guarantee do reship.
+
+6: Can your company accept the special requirements of customers,like customize, label, caps color?
+
+A: Of course, we can accept OEM, cap color and different size, not do label to vials.
+
+7.: What is the shipping method?
+
+A: For shipping, we express by air, such as Fedex, UPS, DHL, China post, USPS,
+
+we dont offer free shipping, because if parcel lost or seized by custom, we will do reship free.
+[/QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country
+[URL] https://reta-peptide.com/pages/about-us
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/about.md
+[LINE_RANGE] 291-318
+[QUOTE]
+#  About Us
+
+RETA-EPTIDE is a manufacturer of peptides, have our own research lab, and production line.
+
+The production process of freeze-dried powder is mainly based on vacuum freeze drying (freeze drying for short). Vacuum freeze drying is to ensure the activity and stability of the active ingredients to the greatest extent. We often use this form to preserve biologically active ingredients such as peptides, oligopeptides, collagen, etc.
+
+The equipment required for a freeze-dried powder production line mainly includes: freeze drying equipment, bottle washing and drying sterilization, aluminum cap washing and sterilization, sub-packaging and half-stoppering, and capping packaging machine.
+
+Our commitment to excellence extends from the initial stages of peptide synthesis all the way through to packaging and delivery. We implement stringent quality control measures at every step to ensure that our products arrive in their purest and most stable form.
+
+In our analytical test lab, we conduct rigorous in-house testing at all stages of production. Our peptides undergo thorough verification using High-Performance Liquid Chromatography (HPLC) and Mass Spectrometry analysis. These sophisticated techniques ensure the precise accuracy, purity, and identity of each peptide, giving you the confidence that you are receiving the finest quality products available.
+
+**By the way, we only produce peptides, We only have this one website for visit,other websites with same pictures of ours are someone fake, take care of, we dont accept on line shopping, because we ship from China, we dare customers not clear before payment, which will bring inconvenience about payment and shipping. More requirement, please contact with our sales.**
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal / cdn
+[URL] https://reta-peptide.com/
+[FETCHED_AT] 2026-05-08T07:08:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/source_homepage.md
+[LINE_RANGE] 30-30
+[QUOTE]
+powered-by: Shopify
+[/QUOTE]
+[URL] https://reta-peptide.com/
+[FETCHED_AT] 2026-05-08T07:08:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/source_homepage.md
+[LINE_RANGE] 14-14
+[QUOTE]
+cf-ray: 9f86a1e9fa0a05ed-IAD
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present / blog_url / content_cadence / topic_taxonomy
+[URL] https://reta-peptide.com/blogs/news/peptide-purification
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/blog_1.md
+[LINE_RANGE] 290-294
+[QUOTE]
+#  Peptide Purification
+
+December 2, 2024
+[/QUOTE]
+
+[INFERENCE] year_established
+[REASONING]
+Two independent signals both point to a late 2024 launch: (1) the oldest observable blog post is dated December 2, 2024; (2) the Shopify store logo file carries a Unix timestamp of 1733189650 which resolves to 2024-12-03T01:34:10Z. No earlier evidence of the domain or brand was observed. Both signals independently support 2024.
+[SUPPORT_QUOTE]
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/blog_1.md
+[LINE_RANGE] 290-294
+December 2, 2024
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/source_homepage.md
+[LINE_RANGE] 1-3
+link: <https://cdn.shopify.com>; rel=preconnect, <https://cdn.shopify.com>; crossorigin; rel=preconnect, <//reta-peptide.com/cdn/shop/t/1/assets/component-localization-form.css?v=170315343355214948141732850882>; as=style; rel=preload, <//reta-peptide.com/cdn/shop/files/logo.png?v=1733189650&width=600>
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://reta-peptide.com/collections/peptide?page=2
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/catalog_2.md
+[LINE_RANGE] 488-496
+[QUOTE]
+  * ###  [ Glow BPC 157 10mg+GHK-CU 50mg+TB500 10mg ](/products/glow-bpc-157-10mg-ghk-cu-50mg-tb500-10mg)
+
+###  [ Glow BPC 157 10mg+GHK-CU 50mg+TB500 10mg ](/products/glow-bpc-157-10mg-ghk-cu-50mg-tb500-10mg)
+
+Regular price $255.00 USD
+
+Regular price ~~~~ Sale price $255.00 USD
+
+Unit price /  per
+
+Add To Cart
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style (supporting evidence)
+[URL] https://reta-peptide.com/
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/homepage.md
+[LINE_RANGE] 373-390
+[QUOTE]
+  * ### 24 Hour service
+
+Fast response for service
+
+  * ### Shipping guarantee
+
+we ship by special line door to door,if not pass customs, do reship
+
+  * ### Third-party Tested
+
+Some new batch we will do third lab testing
+
+  * ### Expert Team
+
+We do test in our own lab before shipping every batch to guarantee about the quality
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required / guest_checkout_available
+[URL] https://reta-peptide.com/cart
+[FETCHED_AT] 2026-05-08T07:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/reta-peptide/checkout_step_1.md
+[LINE_RANGE] 303-310
+[QUOTE]
+# Your cart
+
+[Continue shopping](/collections/all)
+
+# Your cart is empty
+
+[ Continue shopping ](/collections/all)
+
+## Have an account?
+
+[Log in](https://reta-peptide.com/customer_authentication/redirect?locale=en®ion_country=US) to check out faster.
+[/QUOTE]

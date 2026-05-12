@@ -1,0 +1,281 @@
+{
+  "vendor_slug": "royal-peptides-wholesale",
+  "brand_name": "Royal Peptides Wholesale",
+  "primary_domain": "https://royal-peptides.com",
+  "fetched_url": "https://royal-peptides.com",
+  "fetched_at": "2026-05-08T07:31:00Z",
+  "fetch_status": "ok",
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.88,
+  "country_of_operation": "United States",
+  "fulfillment_country": "United States (and Canada inventory noted)",
+  "ship_to_scope": "us_intl",
+  "year_established": "2025",
+  "homepage": {
+    "hero_copy_excerpt": "THIRD-PARTY TESTED \u2022 99% PURITY \u2022 RESEARCH USE ONLY",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Shop Peptides",
+    "navigation_pattern": "Home, COAs, Guide, FAQ, Shop, Wholesale, Contact; Account and Cart icons in header",
+    "footer_disclaimers": "For research and laboratory use only. All products listed on this website are intended strictly for in-vitro research and laboratory experimentation. These products are not drugs, food additives, dietary supplements, or intended for self-administration by humans or animals."
+  },
+  "catalog": {
+    "sku_count": 60,
+    "category_taxonomy": [
+      "Canada Stock",
+      "10-Vial Kits",
+      "Single Vials",
+      "Peptide Blends",
+      "GLP/GIP Research",
+      "Healing & Growth",
+      "Immune & Wellness",
+      "Oral Research",
+      "Best Sellers"
+    ],
+    "search_filter_capabilities": "Product search bar present; sort by popularity, latest, price low-high, price high-low; category filter tabs on catalog page",
+    "stack_bundle_pages_present": "true"
+  },
+  "product_page_anatomy": {
+    "sample_product_url": "https://royal-peptides.com/shop/retatrutide-vial/",
+    "sample_product_name": "Retatrutide Single Vial",
+    "dose_options": [
+      "5mg",
+      "10mg",
+      "15mg",
+      "20mg",
+      "30mg",
+      "50mg",
+      "60mg"
+    ],
+    "list_price": "$55 \u2013 $330",
+    "per_mg_cost": "$11.00 (5mg @ $55); $5.50 (10mg @ $55 estimated lower end)",
+    "photographic_treatment": "clinical",
+    "description_copy_excerpt": "THIS PRODUCT IS INTENDED AS A RESEARCH CHEMICAL ONLY. This designation allows the use of research chemicals strictly for in vitro testing and laboratory experimentation only. All product information available on this website is for educational purposes only.",
+    "exact_disclaimer_language": "THIS PRODUCT IS INTENDED AS A RESEARCH CHEMICAL ONLY. This designation allows the use of research chemicals strictly for in vitro testing and laboratory experimentation only. All product information available on this website is for educational purposes only. Bodily introduction of any kind into humans or animals is strictly forbidden by law and is not at all endorsed by this website.",
+    "coa_present": "true",
+    "coa_hosting": "third_party_portal",
+    "lab_partner_named": "Janoshik Analytical",
+    "batch_lot_transparency": "true",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "true"
+  },
+  "trust_compliance": {
+    "research_use_only_phrasing": "RESEARCH USE ONLY \u00b7 NOT FOR HUMAN CONSUMPTION",
+    "age_gate_present": "true",
+    "jurisdictional_restriction_notice": "By entering this site, you confirm you are at least 21 years old, located in a jurisdiction where access is lawful, and understand all products are sold strictly for research use only and not for human or veterinary consumption.",
+    "tos_url": "https://royal-peptides.com/terms-of-service/",
+    "tos_highlights": "Research use only; all sales final; no refund policy; payment methods may include bank transfer, crypto, or other available options; shipping times are estimated not guaranteed",
+    "refund_policy": "All sales are final unless otherwise stated in writing. No returns are accepted. No refunds are guaranteed after an order is placed. Any exception is made solely at our discretion.",
+    "shipping_policy": "Orders processed after confirmed payment. Tracking provided when available. Carrier delays outside vendor control. International shipments may be subject to customs. No guaranteed timelines."
+  },
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": [
+      "uncertain"
+    ],
+    "id_verification_present": "false",
+    "payment_methods_accepted": [
+      "Visa",
+      "MasterCard",
+      "American Express",
+      "Discover Card",
+      "PayPal",
+      "Apple Pay",
+      "bank transfer",
+      "crypto"
+    ],
+    "shipping_carriers": [
+      "uncertain"
+    ],
+    "shipping_cost_structure": "Free shipping on all orders over $300; estimated delivery up to 4 business days",
+    "international_policy": "International availability may vary by destination. Customers responsible for import rules. Customs delays/seizures outside vendor control."
+  },
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "cloudflare",
+    "analytics_tools_loaded": [
+      "Google Analytics (GA4, ID: G-G124ZK4FW0) via MonsterInsights v10.1.3",
+      "Google Site Kit 1.178.0"
+    ],
+    "marketing_pixels_present": [
+      "Facebook (sameAs: facebook.com/royalpeptides in schema.org)",
+      "Omnisend (email/SMS)"
+    ],
+    "chat_widget_present": "false"
+  },
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://royal-peptides.com/peptide-guide/",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": [
+      "Peptide reconstitution",
+      "Storage guidance",
+      "Vial handling",
+      "Research reference materials",
+      "Peptide calculator"
+    ],
+    "author_bylines_present": "false",
+    "internal_linking_to_products": "Moderate; guide links to peptide calculator and shop"
+  },
+  "social_proof": {
+    "on_site_reviews": "true",
+    "off_site_aggregators": [
+      "uncertain"
+    ],
+    "testimonial_usage": "On-site rotating testimonial carousel with short quotes (e.g. 'COA Focused', 'Canada Order', 'Lab Buyer'); testimonials marked 'Verified customer' / 'Verified repeat customer'",
+    "visible_influencer_endorsements": "uncertain"
+  },
+  "skus": [
+    {
+      "sku_id": "royal-peptides-wholesale:retatrutide-5mg-vial",
+      "name": "Retatrutide Single Vial 5mg",
+      "peptide_canonical": "Retatrutide",
+      "peptide_variant": "",
+      "dose_value": 5,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "single vial",
+      "list_price_usd": 55.0,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 11.0,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://royal-peptides.com/shop/retatrutide-vial/",
+      "raw_artifact": "03_raw_fetches/royal-peptides-wholesale/product_1__retatrutide-vial.md",
+      "evidence_entry_id": "claim-8"
+    },
+    {
+      "sku_id": "royal-peptides-wholesale:tirzepatide-10vial-kit-5mg",
+      "name": "Tirzepatide 10-Vial Bulk Kit 5mg (50mg total)",
+      "peptide_canonical": "Tirzepatide",
+      "peptide_variant": "",
+      "dose_value": 50,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "10-vial kit",
+      "list_price_usd": 320.0,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 6.4,
+      "volume_tier_label": "10-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://royal-peptides.com/shop/buy-tirzepatide-online-usa-canada/",
+      "raw_artifact": "03_raw_fetches/royal-peptides-wholesale/product_2__tirzepatide-10-vial-kit.md",
+      "evidence_entry_id": "claim-9"
+    },
+    {
+      "sku_id": "royal-peptides-wholesale:semaglutide-5mg-vial",
+      "name": "Semaglutide Single Vials 5mg",
+      "peptide_canonical": "Semaglutide",
+      "peptide_variant": "",
+      "dose_value": 5,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "single vial",
+      "list_price_usd": 45.0,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 9.0,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://royal-peptides.com/shop/semaglutide/",
+      "raw_artifact": "03_raw_fetches/royal-peptides-wholesale/product_4__semaglutide.md",
+      "evidence_entry_id": "claim-10"
+    },
+    {
+      "sku_id": "royal-peptides-wholesale:bpc157-10mg-vial",
+      "name": "BPC-157 10mg vial",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "single vial",
+      "list_price_usd": 60.0,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 6.0,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://royal-peptides.com/shop/bpc-157-10mg-vial-kit/",
+      "raw_artifact": "03_raw_fetches/royal-peptides-wholesale/product_6__bpc-157.md",
+      "evidence_entry_id": "claim-11"
+    },
+    {
+      "sku_id": "royal-peptides-wholesale:wolverine-bpc157-tb500-20mg-vial",
+      "name": "Wolverine BPC-157 TB-500 Blend 20mg vial",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "blend BPC-157+TB-500",
+      "dose_value": 20,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "10mg BPC-157 + 10mg TB-500",
+      "bottle_size": "single vial",
+      "list_price_usd": 65.0,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 3.25,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [
+        "wolverine-blend"
+      ],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://royal-peptides.com/shop/wolverine-bpc-157-tb-500-blend/",
+      "raw_artifact": "03_raw_fetches/royal-peptides-wholesale/product_3__wolverine-bpc157-tb500-blend.md",
+      "evidence_entry_id": "claim-12"
+    },
+    {
+      "sku_id": "royal-peptides-wholesale:klow-80mg-blend-single-vial",
+      "name": "KLOW 80mg Peptide Blend Single Vial",
+      "peptide_canonical": "other",
+      "peptide_variant": "blend GHK-Cu 50mg + BPC-157 10mg + TB-500 10mg + KPV 10mg",
+      "dose_value": 80,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "GHK-Cu 50mg, BPC-157 10mg, TB-500 10mg, KPV 10mg",
+      "bottle_size": "single vial",
+      "list_price_usd": 90.0,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 1.125,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [
+        "klow-blend"
+      ],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "https://royal-peptides.com/shop/buy-klow-peptide-blend-online-usa/",
+      "raw_artifact": "03_raw_fetches/royal-peptides-wholesale/product_5__klow-blend.md",
+      "evidence_entry_id": "claim-13"
+    }
+  ],
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "royal-peptides-wholesale,Royal Peptides Wholesale,royal-peptides.com,0,00_inputs/vendor_list.csv,\"row from operator-supplied vendor list, classified as Tier 3: Wholesale-focused supplier.\",3,as-assigned (operator seed),pending"
+  },
+  "raw_fetches_dir": "03_raw_fetches/royal-peptides-wholesale/",
+  "evidence_file": "evidence/royal-peptides-wholesale.txt",
+  "uncertainty_notes": "checkout_flow.account_required: Cart page loaded empty (no items in cart); could not determine if account required without adding item and proceeding to checkout; marked uncertain. checkout_flow.guest_checkout_available: Same reason as account_required. checkout_flow.fields_collected: Same reason. checkout_flow.shipping_carriers: Carrier names not explicitly listed in product pages or shipping policy; only estimated delivery windows mentioned. content_footprint.content_cadence: Only one guide page found; no date-stamped blog posts to derive cadence. social_proof.off_site_aggregators: No Trustpilot or external review aggregator links found on site. social_proof.visible_influencer_endorsements: No influencer endorsements visible on site pages fetched."
+}

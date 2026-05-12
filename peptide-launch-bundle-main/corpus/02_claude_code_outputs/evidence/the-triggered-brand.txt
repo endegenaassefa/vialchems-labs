@@ -1,0 +1,427 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20230406010428/https://www.thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/homepage.md
+[LINE_RANGE] 46-62
+[QUOTE]
+"## ****Most Popular****"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20230406010428/https://www.thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/homepage.md
+[LINE_RANGE] 118-118
+[QUOTE]
+"[Research Now!](https://web.archive.org/web/20230406010428/https://thetriggeredbrand.com/product-category/bpc-157/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20230406010428/https://www.thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/homepage.md
+[LINE_RANGE] 16-20
+[QUOTE]
+"  * [HOME](https://web.archive.org/web/20230406010428/https://thetriggeredbrand.com/)
+  * [ALL PRODUCTS](https://web.archive.org/web/20230406010428/https://thetriggeredbrand.com/shop/)
+  * [Affiliates](https://web.archive.org/web/20230406010428/https://thetriggeredbrand.com/about-us/)
+  * [Contact us](https://web.archive.org/web/20230406010428/https://thetriggeredbrand.com/contact-us/)
+  * [FAQ's](https://web.archive.org/web/20230406010428/https://thetriggeredbrand.com/faqs/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20230406010428/https://www.thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/homepage.md
+[LINE_RANGE] 165-165
+[QUOTE]
+"Copyright 2023 © **The Triggered Brand**"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/20230326130455/https://thetriggeredbrand.com/shop/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/catalog_1.md
+[LINE_RANGE] 47-47
+[QUOTE]
+"Showing all 28 results"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/20230326130455/https://thetriggeredbrand.com/shop/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/catalog_1.md
+[LINE_RANGE] 49-60
+[QUOTE]
+"  * [All Products]
+  * [Best Sellers]
+  * [BPC-157]
+  * [Bundle/Blend]
+  * [GLP-1 Peptides]
+  * [HGH]
+  * [Liquids]
+  * [Peptide Vials]
+  * [Research Compound Capsules]"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://web.archive.org/web/20230326130455/https://thetriggeredbrand.com/shop/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/catalog_1.md
+[LINE_RANGE] 52-52
+[QUOTE]
+"  * [Bundle/Blend](https://web.archive.org/web/20230326130455/https://thetriggeredbrand.com/product-category/bundle-blend/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://web.archive.org/web/20230402032040/https://thetriggeredbrand.com/product/semaglutide-2mg-5mg/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_1__semaglutide-2mg-5mg.md
+[LINE_RANGE] 58-58
+[QUOTE]
+"#  Semaglutide (GLP-1) – 2mg/5mg Vials"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://web.archive.org/web/20230402032040/https://thetriggeredbrand.com/product/semaglutide-2mg-5mg/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_1__semaglutide-2mg-5mg.md
+[LINE_RANGE] 69-69
+[QUOTE]
+"Quantity |  Choose an option2mg (1 Vial)4mg (2 Vials)5mg (1 Vial)10mg (2 Vials)15mg (3 Vials)20mg (10 Vials)50mg (10 Vials)Clear"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://web.archive.org/web/20230402032040/https://thetriggeredbrand.com/product/semaglutide-2mg-5mg/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_1__semaglutide-2mg-5mg.md
+[LINE_RANGE] 67-67
+[QUOTE]
+"$39.99 – $729.99"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://web.archive.org/web/20230402032040/https://thetriggeredbrand.com/product/semaglutide-2mg-5mg/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_1__semaglutide-2mg-5mg.md
+[LINE_RANGE] 104-104
+[QUOTE]
+"**Semaglutide** is a derivative of the naturally occurring GLP-1, a peptide known to lower blood sugar levels and enhance insulin secretion. Research shows that Semaglutide may also improve heart, liver, and lung function while helping to slow or prevent the effects of Alzheimer's disease."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20230402032040/https://thetriggeredbrand.com/product/semaglutide-2mg-5mg/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_1__semaglutide-2mg-5mg.md
+[LINE_RANGE] 149-149
+[QUOTE]
+"_The information provided above is not intended to substitute medical advice, diagnosis, or treatment. Should you have any questions regarding a medical condition, seek the advice of your physician or a qualified healthcare provider. In no case should medical advice be disregarded or delayed because of what you have read or seen. We bear no responsibility or liability for your use of any of our research compounds and products. Please note that they are being sold for research purposes ONLY_ _. We do NOT condone any personal use._"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://web.archive.org/web/20230402032040/https://thetriggeredbrand.com/product/semaglutide-2mg-5mg/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_1__semaglutide-2mg-5mg.md
+[LINE_RANGE] 149-149
+[QUOTE]
+"Please note that they are being sold for research purposes ONLY_ _. We do NOT condone any personal use."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://web.archive.org/web/20230406010428/https://www.thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/homepage.md
+[LINE_RANGE] 154-154
+[QUOTE]
+"  * [Terms of Service](https://web.archive.org/web/20230406010428/https://thetriggeredbrand.com/terms-of-service/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/20230402032040/https://thetriggeredbrand.com/product/semaglutide-2mg-5mg/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_1__semaglutide-2mg-5mg.md
+[LINE_RANGE] 137-143
+[QUOTE]
+"## **Shipping**
+
+  * _USA_
+  * _Canada_
+  * _Europe_
+  * _Rest of world_
+  * _If your shipment was seized (International Orders), we will provide a 50% discount applicable on your next purchase. Please contact us for more information._"
+[/QUOTE]
+[URL] https://web.archive.org/web/20230406010428/https://www.thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/homepage.md
+[LINE_RANGE] 185-185
+[QUOTE]
+"Domestic orders over $150 (USD) get free shipping Dismiss"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://web.archive.org/web/20230402032040/https://thetriggeredbrand.com/product/semaglutide-2mg-5mg/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_1__semaglutide-2mg-5mg.md
+[LINE_RANGE] 137-143
+[QUOTE]
+"## **Shipping**
+
+  * _USA_
+  * _Canada_
+  * _Europe_
+  * _Rest of world_"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://web.archive.org/web/20230406010428/https://www.thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/homepage.md
+[LINE_RANGE] 185-185
+[QUOTE]
+"Domestic orders over $150 (USD) get free shipping Dismiss"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[INFERENCE] UPS
+[REASONING]
+The archived HTML source for the homepage includes a loaded script and stylesheet from the WordPress plugin 'flexible-shipping-ups' (plugin directory path visible in wp-content/plugins/flexible-shipping-ups). This UPS shipping plugin is specifically for WooCommerce UPS carrier integration.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230402220709if_/https://thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/source_homepage.md
+[LINE_RANGE] 9-9
+"UPS shipping plugin: flexible-shipping-ups"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230402220709if_/https://thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/source_homepage.md
+[LINE_RANGE] 7-7
+"WordPress platform: wp-content/ paths, WooCommerce 7.5.1, Flatsome theme 3.16.2"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The archived HTML source shows WooCommerce 7.5.1 generator meta tag, wp-content and wp-includes paths, and WooCommerce-specific inline CSS and JavaScript including 'woocommerce-inline' style IDs.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230402220709if_/https://thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/source_homepage.md
+[LINE_RANGE] 7-7
+"WordPress platform: wp-content/ paths, WooCommerce 7.5.1, Flatsome theme 3.16.2"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230402220709if_/https://thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/source_homepage.md
+[LINE_RANGE] 8-8
+"Klaviyo email marketing: static.klaviyo.com company_id=Vy56mk"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] c0.wp.com (WordPress.com CDN)
+[REASONING]
+The archived HTML source shows multiple static assets (jQuery, CSS) loaded from c0.wp.com, which is the WordPress.com CDN used for self-hosted WordPress sites with Jetpack or WooCommerce.com integration.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230402220709if_/https://thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/source_homepage.md
+[LINE_RANGE] 10-10
+"CDN: c0.wp.com (WordPress.com CDN)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230402220709if_/https://thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/source_homepage.md
+[LINE_RANGE] 7-7
+"WordPress platform: wp-content/ paths, WooCommerce 7.5.1, Flatsome theme 3.16.2"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] Klaviyo (company_id=Vy56mk)
+[REASONING]
+The archived HTML source contains a dns-prefetch link to static.klaviyo.com and an async script loading static.klaviyo.com/onsite/js/klaviyo.js with company_id=Vy56mk, plus a kl-identify-browser.js script from the Klaviyo WordPress plugin. This confirms Klaviyo email marketing was loaded.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230402220709if_/https://thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/source_homepage.md
+[LINE_RANGE] 8-8
+"Klaviyo email marketing: static.klaviyo.com company_id=Vy56mk"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230402220709if_/https://thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/source_homepage.md
+[LINE_RANGE] 7-7
+"WordPress platform: wp-content/ paths, WooCommerce 7.5.1, Flatsome theme 3.16.2"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://web.archive.org/web/20230406010428/https://www.thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/homepage.md
+[LINE_RANGE] 16-20
+[QUOTE]
+"  * [HOME]
+  * [ALL PRODUCTS]
+  * [Affiliates]
+  * [Contact us]
+  * [FAQ's]"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://web.archive.org/web/20230402032040/https://thetriggeredbrand.com/product/semaglutide-2mg-5mg/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_1__semaglutide-2mg-5mg.md
+[LINE_RANGE] 97-100
+[QUOTE]
+"  * Description
+  * Additional information"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[INFERENCE] true
+[REASONING]
+The BPC-157 product page and TB-500 product page both reference a COA image in the wp-content uploads directory. The semaglutide product page states 'Lab tests are occasionally published on the website.' This confirms COAs exist on the site, though not always present per product.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230402032040/https://thetriggeredbrand.com/product/semaglutide-2mg-5mg/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_1__semaglutide-2mg-5mg.md
+[LINE_RANGE] 119-119
+"Lab tests are occasionally published on the website."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230326112434/https://thetriggeredbrand.com/product/tb-500-thymosin-beta-4-vial-5mg-or-50mg/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_4__tb-500-5mg.md
+[LINE_RANGE] 43-43
+"[](https://web.archive.org/web/20230326112434/https://thetriggeredbrand.com/wp-content/uploads/2022/11/COA-TB500-5mg.png)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://web.archive.org/web/20230402032040/https://thetriggeredbrand.com/product/semaglutide-2mg-5mg/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_1__semaglutide-2mg-5mg.md
+[LINE_RANGE] 157-165
+[QUOTE]
+"###  Related products
+
+[ ](https://web.archive.org/web/20230402032040/https://thetriggeredbrand.com/product/dsip-5mg-vials/)
+
+[**+**](https://web.archive.org/web/20230402032040/https://thetriggeredbrand.com/product/dsip-5mg-vials/) Quick View
+
+[Delta Sleep-Inducing Peptide (DSIP) – 5mg Vials](https://web.archive.org/web/20230402032040/https://thetriggeredbrand.com/product/dsip-5mg-vials/)"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=the-triggered-brand:semaglutide-2mg-1vial].list_price_usd
+[URL] https://web.archive.org/web/20230402032040/https://thetriggeredbrand.com/product/semaglutide-2mg-5mg/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_1__semaglutide-2mg-5mg.md
+[LINE_RANGE] 67-69
+[QUOTE]
+"$39.99 – $729.99
+
+Quantity |  Choose an option2mg (1 Vial)4mg (2 Vials)5mg (1 Vial)10mg (2 Vials)15mg (3 Vials)20mg (10 Vials)50mg (10 Vials)Clear"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=the-triggered-brand:tirzepatide-5mg-1vial].list_price_usd
+[URL] https://web.archive.org/web/20230326112037/https://thetriggeredbrand.com/product/tirzepatide-5mg-vial/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_3__tirzepatide-5mg.md
+[LINE_RANGE] 60-64
+[QUOTE]
+"$109.99 – $999.99
+
+Quantity |  Choose an option1 Vial5 Vials10 VialsClear"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=the-triggered-brand:bpc157-500mcg-60caps].list_price_usd
+[URL] https://web.archive.org/web/20230326130333/https://thetriggeredbrand.com/product/body-protective-compound-bpc-157-500mcg-60-capsules/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_2__bpc-157-500mcg-60capsules.md
+[LINE_RANGE] 60-64
+[QUOTE]
+"$74.99 – $140.99
+
+Quantity |  Choose an option1 Bottle2 BottlesClear"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=the-triggered-brand:tb500-5mg-1vial].list_price_usd
+[URL] https://web.archive.org/web/20230326112434/https://thetriggeredbrand.com/product/tb-500-thymosin-beta-4-vial-5mg-or-50mg/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/product_4__tb-500-5mg.md
+[LINE_RANGE] 60-64
+[QUOTE]
+"$44.99 – $389.99
+
+Quantity |  Choose an option1 Vial2 Vials10 VialsClear"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://web.archive.org/web/20230406010428/https://www.thetriggeredbrand.com/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/homepage.md
+[LINE_RANGE] 46-106
+[QUOTE]
+"## ****Most Popular****
+
+## ****Choose Your Research****
+
+### ****BPC-157****
+
+### ****CAPSULES****
+
+### ****Peptide Vials****
+
+### ****Liquids****
+
+### ****BEST SELLER****
+
+### ****ALL PRODUCTS****"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://web.archive.org/web/20230326130455/https://thetriggeredbrand.com/shop/
+[FETCHED_AT] 2026-05-08T08:18:34Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/the-triggered-brand/catalog_1.md
+[LINE_RANGE] 45-47
+[QUOTE]
+"__**Filter**
+
+Showing all 28 results
+
+Sort by popularity Sort by latest Sort by price: low to high Sort by price: high to low"
+[/QUOTE]

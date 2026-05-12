@@ -1,0 +1,93 @@
+{
+  "vendor_slug": "exploratory-lab",
+  "brand_name": "Exploratory Lab",
+  "primary_domain": "https://suppliescheaperpeptides.com",
+  "fetched_url": "https://suppliescheaperpeptides.com",
+  "fetched_at": "2026-05-07T00:00:00Z",
+  "fetch_status": "failed",
+  "tier": "3",
+  "tier_rationale": "as-assigned — Tier 3 baseline vendor from operator-supplied seed list. Domain suppliescheaperpeptides.com is unregistered as of 2026-05-07 (ICANN RDAP: domain not found in registry). No Wayback Machine snapshots exist. No forum mentions, no Trustpilot presence, no Reddit mentions found in web searches. All three fetch methods failed: curl (DNS NXDOMAIN), gstack-browse (ERR_NAME_NOT_RESOLVED), archive.org (never crawled). Profile is baseline-identity-only.",
+  "field_completion_ratio": 0.09,
+  "country_of_operation": "uncertain",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+  "homepage": {
+    "hero_copy_excerpt": "uncertain",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "uncertain"
+  },
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": ["uncertain"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": ["uncertain"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+  "tech_stack": {
+    "platform_signal": "uncertain",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "uncertain"
+  },
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["uncertain"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+  "skus": [],
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "exploratory-lab,Exploratory Lab,suppliescheaperpeptides.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list classified as Tier 3"
+  },
+  "raw_fetches_dir": "03_raw_fetches/exploratory-lab/",
+  "evidence_file": "evidence/exploratory-lab.txt",
+  "uncertainty_notes": "ALL non-identity fields are uncertain. Root cause: domain suppliescheaperpeptides.com is unregistered as of 2026-05-07 per ICANN RDAP lookup (raw artifact: 03_raw_fetches/exploratory-lab/icann_whois.md). DNS resolution fails on all resolvers (curl exit code 6, gstack browse ERR_NAME_NOT_RESOLVED). Wayback Machine has never archived the domain (calendar page confirmed 'Wayback Machine has not archived that URL', raw artifact: 03_raw_fetches/exploratory-lab/wayback_attempt.md). Web searches return no forum mentions, no Trustpilot reviews, and no Reddit threads referencing this domain or the brand name 'Exploratory Lab' in a peptide vendor context. The vendor appears to be either pre-launch, defunct, or never operational. field_completion_ratio is 0.09 (only vendor_slug, brand_name, primary_domain, fetched_url, fetched_at, tier, tier_rationale, field_completion_ratio, discovery_provenance fields are populated — 5 non-trivial verified fields out of ~55 required Tier 3 baseline fields)."
+}

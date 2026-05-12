@@ -1,0 +1,1079 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:49:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/homepage.md
+[LINE_RANGE] 80-83
+[QUOTE]
+# Buy Research Peptides
+
+We manufacture Research Peptides, Antibodies, and Assay Kits.
+Made in the USA.
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+Page combines an institutional founder's-portrait narrative ("Co-Founder Dr. Jaw-Kang Chang in 1969 synthesizing his first peptide, TRH") with HQ-address and ISO/CE certificate footer logos. No lifestyle, fitness, or meme imagery surfaces in the rendered text. Imagery is presented as scientific-historical and corporate, consistent with clinical/institutional framing.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:49:13Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/homepage.md
+[LINE_RANGE] 175-181
+"Pictured here is Co-Founder Dr. Jaw-Kang Chang in 1969 synthesizing his first peptide, TRH (thyrotropin-releasing hormone). This led researchers Dr. Folkers and Dr. Schally to discover the very first Neuropeptides in the pituitary gland."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:49:13Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/homepage.md
+[LINE_RANGE] 273-273
+"[](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/wp-content/uploads/2024/10/PPIisoCerti-scaled.jpg) [](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/ce-mark-certification/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:49:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/homepage.md
+[LINE_RANGE] 88-90
+[QUOTE]
+[ Learn More ](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/product-categories/)
+
+### Our Facilities
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:49:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/homepage.md
+[LINE_RANGE] 8-37
+[QUOTE]
+  * [Home](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/)
+  * [Products](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/product-categories/)
+    * [Peptides](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/product_category/peptides/)
+    * [Labeled Peptides](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/product_category/labeled-peptides/)
+    * [Polyclonal Antibodies](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/product_category/antibodies/)
+    * [ELISA Kits – Assay Kits – RIA Kits](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/product_category/assay-kits/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:49:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/homepage.md
+[LINE_RANGE] 253-275
+[QUOTE]
+Experts in Peptide Research for over 30 years.
+[/QUOTE]
+[QUOTE]
+Copyright © 2025 Phoenix Pharmaceuticals, Inc. | Website by [ina+tee](https://web.archive.org/web/20251011200432/https://www.inaplustee.com/)
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[INFERENCE] 3000+
+[REASONING]
+The vendor's own FAQ page states the catalog contains "3000+ peptides" (text quote below). The peptides category landing page also says the catalog runs in alphabetical order with "thousands" of items. Public per-page enumeration is not exhaustive (one captured page shows ~20 alphabetical SKUs starting with numerals/symbols), so a precise count cannot be derived without paginated walk; the vendor's own claim of 3000+ is the verbatim figure on file.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250917013154/https://phoenixpeptide.com/frequently-asked-questions/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/faq.md
+[LINE_RANGE] 192-192
+"In addition to the 3000+ peptides we offer as part of our catalog, we can also synthesis custom peptides. Please call or email us for a quote."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251109102237/https://phoenixpeptide.com/product_category/Peptides/
+[FETCHED_AT] 2026-05-07T00:50:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/catalog_2_peptides.md
+[LINE_RANGE] 106-106
+"*Catalog peptides below listed below in alphabetical order. We have thousands. If you are looking for something specific, please type it into the search bar at the upper right corner of the website."
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product-categories/
+[FETCHED_AT] 2026-05-07T00:50:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/catalog_1.md
+[LINE_RANGE] 14-20
+[QUOTE]
+    * [Peptides](https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product_category/peptides/)
+    * [Labeled Peptides](https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product_category/labeled-peptides/)
+    * [Polyclonal Antibodies](https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product_category/antibodies/)
+    * [ELISA Kits – Assay Kits – RIA Kits](https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product_category/assay-kits/)
+    * [Peptide Libraries](https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product_category/peptide-libraries/)
+    * [Magnetic Beads](https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product_category/magnetic-beads/)
+    * [Assay Kit Supplies](https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product_category/kit-supplies/)
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://web.archive.org/web/20251109102237/https://phoenixpeptide.com/product_category/Peptides/
+[FETCHED_AT] 2026-05-07T00:50:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/catalog_2_peptides.md
+[LINE_RANGE] 82-88
+[QUOTE]
+Search ...
+
+Select a CategoryAntibodiesAssay Kit SuppliesELISA Kits - Assay Kits - RIA KitsLabeled AntibodiesLabeled PeptidesMagnetic BeadsPeptide LibrariesPeptidesPolyclonal Antibodies
+
+Select a Topic Alzheimer's Anti-Microbial Cancer Cardiovascular Diabetes Neuropeptide Obesity
+
+USDEUR
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[INFERENCE] false
+[REASONING]
+Phoenix Pharmaceuticals is an institutional supplier of single research-peptide catalog items, custom synthesis, and assay kits — there is no observable stacks/bundles taxonomy on the catalog navigation, and the homepage hero advertises individual product categories rather than bundles. Both supporting quotes show the navigation/taxonomy contains category names and topic categories only, with no "Stacks" or "Bundles" entry.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product-categories/
+[FETCHED_AT] 2026-05-07T00:50:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/catalog_1.md
+[LINE_RANGE] 14-20
+"    * [Peptides](https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product_category/peptides/)
+    * [Labeled Peptides](https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product_category/labeled-peptides/)
+    * [Polyclonal Antibodies](https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product_category/antibodies/)
+    * [ELISA Kits – Assay Kits – RIA Kits](https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product_category/assay-kits/)
+    * [Peptide Libraries](https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product_category/peptide-libraries/)
+    * [Magnetic Beads](https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product_category/magnetic-beads/)
+    * [Assay Kit Supplies](https://web.archive.org/web/20251011200326/https://phoenixpeptide.com/product_category/kit-supplies/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251109102237/https://phoenixpeptide.com/product_category/Peptides/
+[FETCHED_AT] 2026-05-07T00:50:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/catalog_2_peptides.md
+[LINE_RANGE] 84-86
+"Select a CategoryAntibodiesAssay Kit SuppliesELISA Kits - Assay Kits - RIA KitsLabeled AntibodiesLabeled PeptidesMagnetic BeadsPeptide LibrariesPeptidesPolyclonal Antibodies
+
+Select a Topic Alzheimer's Anti-Microbial Cancer Cardiovascular Diabetes Neuropeptide Obesity"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://web.archive.org/web/20250802234847/https://phoenixpeptide.com/products/amyloid-%CE%B2-a4-protein-693-704/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_1__amyloid-beta-a4-693-704.md
+[LINE_RANGE] 81-94
+[QUOTE]
+#  Amyloid β A4 Protein (693-704)
+
+  * Product Category: [Peptides](https://web.archive.org/web/20250802234847/https://phoenixpeptide.com/product_category/peptides/)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://web.archive.org/web/20250802234847/https://phoenixpeptide.com/products/amyloid-%CE%B2-a4-protein-693-704/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_1__amyloid-beta-a4-693-704.md
+[LINE_RANGE] 81-81
+[QUOTE]
+#  Amyloid β A4 Protein (693-704)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://web.archive.org/web/20250802234847/https://phoenixpeptide.com/products/amyloid-%CE%B2-a4-protein-693-704/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_1__amyloid-beta-a4-693-704.md
+[LINE_RANGE] 90-94
+[QUOTE]
+Catalog #: 066-09
+
+Size: 100 µg
+
+Price: $120
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://web.archive.org/web/20250802234847/https://phoenixpeptide.com/products/amyloid-%CE%B2-a4-protein-693-704/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_1__amyloid-beta-a4-693-704.md
+[LINE_RANGE] 94-94
+[QUOTE]
+Price: $120
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://web.archive.org/web/20250802234847/https://phoenixpeptide.com/products/amyloid-%CE%B2-a4-protein-693-704/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_1__amyloid-beta-a4-693-704.md
+[LINE_RANGE] 105-123
+[QUOTE]
+A-Chain:
+Glu-Asp-Val-Gly-Ser-Asn-Lys-Gly-Ala-Ile-Ile-Gly
+
+EDVGSNKGAIIG
+
+Molecular Weight: 1158.6
+
+Purity: ≥97%
+
+Validation: Exhibits correct molecular weight
+
+Solubility: Soluble in water
+
+Storage: Store peptide in DRY form at 0-5°C.
+
+Appearance: White powder
+
+Contents: Each vial contains 100 µg of NET peptide.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20250913164133/https://phoenixpeptide.com/terms-of-use/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/tos.md
+[LINE_RANGE] 136-138
+[QUOTE]
+  13. #### DISCLAIMER
+
+All products from Seller are for research use only and are not intended for human consumption. Seller does not search for existing patents on its products. Buyer is responsible for determining the existence of such patents and whether their use of the product may constitute an infringement of these patents.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[INFERENCE] false
+[REASONING]
+The representative product page (Amyloid β A4 Protein 693-704) does not display a Certificate of Analysis link, COA download, batch/lot identifier, or any reference to a third-party lab. The page lists Purity, Molecular Weight, and Validation specs but no COA per-batch document. A second product page (2019-nCov Spike Protein) follows the same template and likewise shows no COA. Phoenix's marketing posture is "ISO certified" via a footer logo, but no per-SKU COA hosting is observable on the public catalog.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250802234847/https://phoenixpeptide.com/products/amyloid-%CE%B2-a4-protein-693-704/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_1__amyloid-beta-a4-693-704.md
+[LINE_RANGE] 105-127
+"A-Chain:
+Glu-Asp-Val-Gly-Ser-Asn-Lys-Gly-Ala-Ile-Ile-Gly
+
+EDVGSNKGAIIG
+
+Molecular Weight: 1158.6
+
+Purity: ≥97%
+
+Validation: Exhibits correct molecular weight
+
+Solubility: Soluble in water
+
+Storage: Store peptide in DRY form at 0-5°C.
+
+Appearance: White powder
+
+Contents: Each vial contains 100 µg of NET peptide.
+
+Structure:
+
+No results found."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250802233441/https://phoenixpeptide.com/products/2019-ncov-spike-protein-1040-1091/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_2__2019-ncov-spike-1040-1091.md
+[LINE_RANGE] 107-119
+"Molecular Weight: 5752.52
+
+Purity: ≥ 90%
+
+Validation: Exhibits correct molecular weight
+
+Storage: Up to 6 months in lyophilized form at 0-5ºC.
+For best results, rehydrate just before use.
+After rehydration, keep solution at +4ºC for up to 5 days or freeze at -20ºC for up to 3 months. Aliquot before freezing to avoid repeated freeze-thaw cycles.
+
+Appearance: White powder
+
+Contents: Each vial contains 100 μg of NET peptide. "
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[INFERENCE] false
+[REASONING]
+The representative product pages list intrinsic chemistry (sequence, MW, purity ≥97% / ≥90%) but do not surface batch numbers, lot numbers, lot-specific test certificates, or per-batch QC data on the public product page. Both Amyloid β A4 (066-09) and 2019-nCov Spike (071-60) follow the same template with no batch field.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250802234847/https://phoenixpeptide.com/products/amyloid-%CE%B2-a4-protein-693-704/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_1__amyloid-beta-a4-693-704.md
+[LINE_RANGE] 90-123
+"Catalog #: 066-09
+
+Size: 100 µg
+
+Price: $120
+
+  * [ Technical ](javascript:void\(0\);)
+  * [ Summary ](javascript:void\(0\);)
+  * [ Publication ](javascript:void\(0\);)
+
+
+
+##### Ala
+
+##### A
+
+A-Chain:
+Glu-Asp-Val-Gly-Ser-Asn-Lys-Gly-Ala-Ile-Ile-Gly
+
+EDVGSNKGAIIG
+
+Molecular Weight: 1158.6
+
+Purity: ≥97%
+
+Validation: Exhibits correct molecular weight
+
+Solubility: Soluble in water
+
+Storage: Store peptide in DRY form at 0-5°C.
+
+Appearance: White powder
+
+Contents: Each vial contains 100 µg of NET peptide. "
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250802233441/https://phoenixpeptide.com/products/2019-ncov-spike-protein-1040-1091/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_2__2019-ncov-spike-1040-1091.md
+[LINE_RANGE] 90-94
+"Catalog #: 071-60
+
+Size: 100 ug
+
+Price: $498"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[INFERENCE] false
+[REASONING]
+Both fetched product pages show no customer review section, no star ratings, no testimonial block, no review count, no "leave a review" CTA. The page anatomy is purely catalog/technical: Catalog #, Size, Price, sequence, MW, Purity, Validation, Solubility, Storage, Appearance, Contents, plus tabs labeled "Technical / Summary / Publication" — no review module.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250802234847/https://phoenixpeptide.com/products/amyloid-%CE%B2-a4-protein-693-704/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_1__amyloid-beta-a4-693-704.md
+[LINE_RANGE] 95-130
+"  * [ Technical ](javascript:void\(0\);)
+  * [ Summary ](javascript:void\(0\);)
+  * [ Publication ](javascript:void\(0\);)
+
+
+
+##### Ala
+
+##### A
+
+A-Chain:
+Glu-Asp-Val-Gly-Ser-Asn-Lys-Gly-Ala-Ile-Ile-Gly
+
+EDVGSNKGAIIG
+
+Molecular Weight: 1158.6
+
+Purity: ≥97%
+
+Validation: Exhibits correct molecular weight
+
+Solubility: Soluble in water
+
+Storage: Store peptide in DRY form at 0-5°C.
+
+Appearance: White powder
+
+Contents: Each vial contains 100 µg of NET peptide.
+
+Structure:
+
+No results found.
+
+____
+
+### Related Products"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250802233441/https://phoenixpeptide.com/products/2019-ncov-spike-protein-1040-1091/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_2__2019-ncov-spike-1040-1091.md
+[LINE_RANGE] 95-138
+"  * [ Technical ](javascript:void\(0\);)
+  * [ Summary ](javascript:void\(0\);)
+  * [ Publication ](javascript:void\(0\);)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://web.archive.org/web/20250802234847/https://phoenixpeptide.com/products/amyloid-%CE%B2-a4-protein-693-704/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_1__amyloid-beta-a4-693-704.md
+[LINE_RANGE] 130-136
+[QUOTE]
+### Related Products
+
+##### Catalog
+
+##### Product
+
+##### Size
+
+##### Price
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://web.archive.org/web/20250913164133/https://phoenixpeptide.com/terms-of-use/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/tos.md
+[LINE_RANGE] 138-138
+[QUOTE]
+All products from Seller are for research use only and are not intended for human consumption. Seller does not search for existing patents on its products. Buyer is responsible for determining the existence of such patents and whether their use of the product may constitute an infringement of these patents.
+[/QUOTE]
+[URL] https://web.archive.org/web/20240805190842/https://phoenixpeptide.com/order_information/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/order_information.md
+[LINE_RANGE] 160-160
+[QUOTE]
+> All products we sell are intended for research use only and are not intended for human consumption. We do not search for existing patents on our products. We are not responsible for determining the existence of such patents and whether use of our products may constitute an infringement on these patents.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://web.archive.org/web/20250913164133/https://phoenixpeptide.com/terms-of-use/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/tos.md
+[LINE_RANGE] 80-82
+[QUOTE]
+# Terms of Use
+
+[Download the PDF Version](https://web.archive.org/web/20250913164133/https://phoenixpeptide.com/wp-content/uploads/2024/10/TNCOrder.pdf)
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://web.archive.org/web/20250913164133/https://phoenixpeptide.com/terms-of-use/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/tos.md
+[LINE_RANGE] 92-98
+[QUOTE]
+Buyer shall transmit payment to Seller within thirty (30) days from acceptance of a proper invoice, e.g., one submitted pursuant to a valid purchase order. Buyer shall have a reasonable time (but not more than 30 days) after receipt to inspect the goods tendered by Seller. If Buyer suspects any nonconforming goods, Buyer must contact Seller and receive written authorization from Seller before rejecting any goods and/or services tendered or deducting any payment.
+
+Seller reserves the right to refuse return on any radioactive products, custom-made products, or temperature-sensitive assay kits. Seller reserves the right to apply a 20% restocking fee to any products Buyer ordered in error.
+[/QUOTE]
+[URL] https://web.archive.org/web/20250913164133/https://phoenixpeptide.com/terms-of-use/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/tos.md
+[LINE_RANGE] 124-124
+[QUOTE]
+This Purchase Contract and the performance hereunder shall be construed according to the law of California as applied to contracts made and performed within California. The parties hereto agree that any dispute arising under this Purchase Contract shall be resolved in the courts of San Mateo County or in the Federal District Court for the Northern District of California, Northern Branch, and Buyer and Seller hereby submit themselves to the personal jurisdiction of said courts. All rights and remedies of Buyer and Seller shall be cumulative.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://web.archive.org/web/20240805190842/https://phoenixpeptide.com/order_information/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/order_information.md
+[LINE_RANGE] 154-156
+[QUOTE]
+> Before returning any items, please contact our customer service department ([[email protected]](/web/20240805190842/https://phoenixpeptide.com/cdn-cgi/l/email-protection)) to receive a Return Merchandise Authorization (RMA) number. Items returned without an RMA number will not be accepted. Specific return shipping instructions will also be provided. For any products ordered in error, a 20% restocking fee may apply.
+
+We reserve the right to refuse returns of any radioactive products, custom-made products, or temperature-sensitive assay kits. Any modification to protocols do not qualify for refunds, discounts or replacements.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/20240805190842/https://phoenixpeptide.com/order_information/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/order_information.md
+[LINE_RANGE] 146-146
+[QUOTE]
+> All orders will be shipped via FedEx unless otherwise instructed. To ensure the stability of our products during transit, we reserve the right to ship certain items on dry ice. This may increase the shipping cost.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20240805190842/https://phoenixpeptide.com/order_information/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/order_information.md
+[LINE_RANGE] 136-140
+[QUOTE]
+> We accept all major credit cards, including American Express, Visa, MasterCard, and Discover. Payment can also be submitted by company check, cashier's check, bank transfer, or direct deposit. Pro-forma invoices will be provided upon request.
+
+> For payment via purchase order (PO), new customers must first provide trade references and credit history. You can download and fill out our standard credit application document by clicking [here](https://web.archive.org/web/20240805190842/https://www.phoenixpeptide.com/doc/Credit_Application_Form.pdf). Please e-mail this information to [[email protected]](/web/20240805190842/https://phoenixpeptide.com/cdn-cgi/l/email-protection#355a475150475150454175455d5a505b5c4d455045415c51501b565a58) when submitting your order.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://web.archive.org/web/20240805190842/https://phoenixpeptide.com/order_information/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/order_information.md
+[LINE_RANGE] 146-146
+[QUOTE]
+> All orders will be shipped via FedEx unless otherwise instructed. To ensure the stability of our products during transit, we reserve the right to ship certain items on dry ice. This may increase the shipping cost.
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://web.archive.org/web/20220620075323/https://checkout.phoenixpeptide.com/cart
+[FETCHED_AT] 2026-05-07T00:53:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/checkout_cart.md
+[LINE_RANGE] 14-14
+[QUOTE]
+Online ordering may not be fully available in your country. Please proceed to the checkout section, select "Pay by Purchase Order" option under "Payment Method", and enter the destination country. A member of our support team will then contact you as soon as possible to confirm and complete your order. Shipping charges may still apply even the cost displays 0 amount. Thank you for your understanding.
+[/QUOTE]
+[URL] https://web.archive.org/web/20251011190522/https://phoenixpeptide.com/contact-us/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/contact.md
+[LINE_RANGE] 108-160
+[QUOTE]
+#### Phoenix Europe GmbH
+
+Viktoriastrasse 3-5
+D-76133 Karlsruhe
+Germany
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/source_homepage.md
+[LINE_RANGE] 1-200000
+[QUOTE]
+generator" content="WordPress 6.8.3"
+[/QUOTE]
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/source_homepage.md
+[LINE_RANGE] 1-200000
+[QUOTE]
+generator" content="Elementor 3.32.4; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://www.phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:49:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/source_homepage.md
+[LINE_RANGE] 1-200000
+[QUOTE]
+generator" content="Site Kit by Google 1.162.1"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/source_homepage.md
+[LINE_RANGE] 1-200000
+[QUOTE]
+googletagmanager.com/gtag/js?id=GT-W6N2324P
+[/QUOTE]
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:52:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/source_homepage.md
+[LINE_RANGE] 1-200000
+[QUOTE]
+generator" content="Site Kit by Google 1.162.1"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE] none_observed
+[REASONING]
+The homepage source HTML was searched for known marketing pixel signatures (Facebook fbq/fbevents, TikTok pixel, Pinterest pixel, Twitter pixel). No matches surfaced. Only Google's gtag (Site Kit by Google) loads on the page. No third-party social-platform pixels are observable. Both supporting quotes are negative-evidence enumerations from the saved source.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/source_homepage.md
+[LINE_RANGE] 1-200000
+"generator" content="Site Kit by Google 1.162.1"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/source_homepage.md
+[LINE_RANGE] 1-200000
+"googletagmanager.com/gtag/js?id=GT-W6N2324P"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] false
+[REASONING]
+A grep of the homepage source HTML for known chat widget signatures (\\$crisp, client.crisp.chat, crisp_website_id, tawk.to, intercom, drift, gorgias, livechat) returned only CSS-namespaced "shadow--crisp" tokens (preset CSS variable name), not actual chat widget script loads. Also no chat-bubble UI surfaces in the rendered text. Both supporting quotes show source signatures that are NOT chat widgets.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/source_homepage.md
+[LINE_RANGE] 1-200000
+"generator" content="WordPress 6.8.3"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:52:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/source_homepage.md
+[LINE_RANGE] 1-200000
+"generator" content="Elementor 3.32.4; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://web.archive.org/web/20250802234715/https://phoenixpeptide.com/latest-news/
+[FETCHED_AT] 2026-05-07T00:53:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/blog_index.md
+[LINE_RANGE] 80-90
+[QUOTE]
+# Latest News
+
+Discover recent news in Peptide Research.
+
+### [D-amino acid peptide inhibits the aggregation of Tau hotspots August 1, 2025  ](https://web.archive.org/web/20250802234715/https://phoenixpeptide.com/topics/tau-protein/)
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://web.archive.org/web/20250802234715/https://phoenixpeptide.com/latest-news/
+[FETCHED_AT] 2026-05-07T00:53:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/blog_index.md
+[LINE_RANGE] 80-80
+[QUOTE]
+# Latest News
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[INFERENCE] roughly monthly, with gaps; ~50 posts span 2019-2025 → ~7-10 posts/year average
+[REASONING]
+The Latest News index lists posts dated from September 2019 through August 2025 (saved snapshot date is 2025-08-02). Counting headline post entries on the visible page: dates span 2019-09-24 through 2025-08-01 (~6 years) with ~50 entries visible, suggesting roughly monthly cadence with multi-month gaps between some posts. Two supporting quotes show recent monthly headlines and earlier entries from 2020-2021.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250802234715/https://phoenixpeptide.com/latest-news/
+[FETCHED_AT] 2026-05-07T00:53:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/blog_index.md
+[LINE_RANGE] 84-99
+"### [D-amino acid peptide inhibits the aggregation of Tau hotspots August 1, 2025  ](https://web.archive.org/web/20250802234715/https://phoenixpeptide.com/topics/tau-protein/)
+
+### [Estrogen alpha-derived peptide improves glucose homestasis in obese rats June 30, 2025  ](https://web.archive.org/web/20250802234715/https://phoenixpeptide.com/topics/af1-glucose-homeostasis/)
+
+### [BRINP-2 (BRP): A Groundbreaking Non-Incretin Peptide for Obesity Treatment May 2, 2025  ](https://web.archive.org/web/20250802234715/https://phoenixpeptide.com/topics/brinp-2/)
+
+### [Ribosome-Targeting Lasso Peptides: Post-Translational Engineering for Antibacterial Function April 24, 2025  ](https://web.archive.org/web/20250802234715/https://phoenixpeptide.com/topics/broad-spectrum-lasso/)
+
+### [CXCL14 peptides and other functional, truncated synthesized for diabetes and cancer reserach April 10, 2025  ](https://web.archive.org/web/20250802234715/https://phoenixpeptide.com/topics/mig/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250802234715/https://phoenixpeptide.com/latest-news/
+[FETCHED_AT] 2026-05-07T00:53:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/blog_index.md
+[LINE_RANGE] 156-167
+"### [Cold-inducible RNA binding protein (CIRP) has a role in mediating inflammation September 24, 2019  ](https://web.archive.org/web/20250802234715/https://phoenixpeptide.com/topics/ecirp/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:49:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/homepage.md
+[LINE_RANGE] 21-28
+[QUOTE]
+    * [Obesity](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/topic-category/obesity/)
+    * [Cancer](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/topic-category/cancer/)
+    * [Alzheimer’s](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/topic-category/alzheimers/)
+    * [Cardiovascular](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/topic-category/cardiovascular/)
+    * [Diabetes](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/topic-category/diabetes/)
+    * [Anti-Microbial](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/topic-category/anti-microbial/)
+    * [Neuropeptide](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/topic-category/neuropeptide/)
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[INFERENCE] false
+[REASONING]
+The blog index page (Latest News) lists posts as title-only with date, with no author byline displayed. The two supporting quotes show post titles followed by date strings only — no "by [Author]" attribution.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250802234715/https://phoenixpeptide.com/latest-news/
+[FETCHED_AT] 2026-05-07T00:53:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/blog_index.md
+[LINE_RANGE] 84-86
+"### [D-amino acid peptide inhibits the aggregation of Tau hotspots August 1, 2025  ](https://web.archive.org/web/20250802234715/https://phoenixpeptide.com/topics/tau-protein/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250802234715/https://phoenixpeptide.com/latest-news/
+[FETCHED_AT] 2026-05-07T00:53:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/blog_index.md
+[LINE_RANGE] 88-89
+"### [BRINP-2 (BRP): A Groundbreaking Non-Incretin Peptide for Obesity Treatment May 2, 2025  ](https://web.archive.org/web/20250802234715/https://phoenixpeptide.com/topics/brinp-2/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] year_established
+[URL] https://web.archive.org/web/20250917011229/https://phoenixpeptide.com/about-us/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/about.md
+[LINE_RANGE] 106-106
+[QUOTE]
+Pioneers in peptide research since 1976!
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:49:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/homepage.md
+[LINE_RANGE] 107-114
+[QUOTE]
+330 Beach Road Burlingame, CA 94010 USA
+
+[ More About Us ](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/about-us/)
+
+### Contact Us
+
+For technical questions, to get a quote, or to place an order, please contact our team.
+
+We are happy to offer customized service for all your peptide research needs.
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://web.archive.org/web/20240805190842/https://phoenixpeptide.com/order_information/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/order_information.md
+[LINE_RANGE] 146-146
+[QUOTE]
+> All orders will be shipped via FedEx unless otherwise instructed. To ensure the stability of our products during transit, we reserve the right to ship certain items on dry ice. This may increase the shipping cost.
+[/QUOTE]
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:49:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/homepage.md
+[LINE_RANGE] 102-102
+[QUOTE]
+Chemically synthesized research peptides manufactured 100% in the USA.
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://web.archive.org/web/20240805190842/https://phoenixpeptide.com/order_information/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/order_information.md
+[LINE_RANGE] 121-124
+[QUOTE]
+> For customers in Europe, please click [here](https://web.archive.org/web/20240805190842/https://phoenixpeptide.com/order_information_europe).
+>
+> For customers in China, please click [here](https://web.archive.org/web/20240805190842/https://phoenixpeptide.com/order_information_china).
+[/QUOTE]
+[URL] https://web.archive.org/web/20251011190522/https://phoenixpeptide.com/contact-us/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/contact.md
+[LINE_RANGE] 108-160
+[QUOTE]
+#### Phoenix Europe GmbH
+
+Viktoriastrasse 3-5
+D-76133 Karlsruhe
+Germany
+[/QUOTE]
+
+[CLAIM] sku_001 product evidence
+[URL] https://web.archive.org/web/20250802234847/https://phoenixpeptide.com/products/amyloid-%CE%B2-a4-protein-693-704/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_1__amyloid-beta-a4-693-704.md
+[LINE_RANGE] 81-94
+[QUOTE]
+#  Amyloid β A4 Protein (693-704)
+
+  * Product Category: [Peptides](https://web.archive.org/web/20250802234847/https://phoenixpeptide.com/product_category/peptides/)
+
+
+
+Qty:
+
+Catalog #: 066-09
+
+Size: 100 µg
+
+Price: $120
+[/QUOTE]
+
+[CLAIM] sku_002 product evidence
+[URL] https://web.archive.org/web/20250802233441/https://phoenixpeptide.com/products/2019-ncov-spike-protein-1040-1091/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_2__2019-ncov-spike-1040-1091.md
+[LINE_RANGE] 81-94
+[QUOTE]
+# 2019-nCov Spike Protein (1040-1091)
+
+  * Product Category: [Peptides](https://web.archive.org/web/20250802233441/https://phoenixpeptide.com/product_category/peptides/)
+
+
+
+Qty:
+
+Catalog #: 071-60
+
+Size: 100 ug
+
+Price: $498
+[/QUOTE]
+
+[CLAIM] sku_003 catalog evidence
+[URL] https://web.archive.org/web/20251109102237/https://phoenixpeptide.com/product_category/Peptides/
+[FETCHED_AT] 2026-05-07T00:50:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/catalog_2_peptides.md
+[LINE_RANGE] 132-138
+[QUOTE]
+023-88
+
+[ (Cys(ACM)3,6) PROK2 / PK2 Isoform 2 (28-78)-Amide (Human)  ](https://web.archive.org/web/20251109102237/https://phoenixpeptide.com/products/cysacm36-prok2-pk2-isoform-2-28-78-amide-human/)
+
+Catalog: 023-88
+
+100 µg
+
+Size:100 µg
+
+$417
+
+Price: $417
+[/QUOTE]
+
+[CLAIM] sku_004 catalog evidence
+[URL] https://web.archive.org/web/20251109102237/https://phoenixpeptide.com/product_category/Peptides/
+[FETCHED_AT] 2026-05-07T00:50:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/catalog_2_peptides.md
+[LINE_RANGE] 188-194
+[QUOTE]
+080-62A
+
+[ 20-hydroxycholesterol  ](https://web.archive.org/web/20251109102237/https://phoenixpeptide.com/products/20-hydroxycholesterol/)
+
+Catalog: 080-62A
+
+5 mg
+
+Size:5 mg
+
+$320
+[/QUOTE]
+
+[CLAIM] sku_005 catalog evidence
+[URL] https://web.archive.org/web/20251109102237/https://phoenixpeptide.com/product_category/Peptides/
+[FETCHED_AT] 2026-05-07T00:50:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/catalog_2_peptides.md
+[LINE_RANGE] 272-278
+[QUOTE]
+080-61A
+
+[ 25-hydroxycholesterol  ](https://web.archive.org/web/20251109102237/https://phoenixpeptide.com/products/25-hydroxycholesterol/)
+
+Catalog: 080-61A
+
+5 mg
+
+Size:5 mg
+
+$61
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[INFERENCE] none
+[REASONING]
+Both fetched product pages display intrinsic chemistry data (sequence, MW, purity grade, validation, solubility, storage, appearance, contents) but no Certificate of Analysis link, no third-party portal reference (e.g., Janoshik), and no on-site COA download. The product page tabs are 'Technical / Summary / Publication' — no 'COA' tab.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250802234847/https://phoenixpeptide.com/products/amyloid-%CE%B2-a4-protein-693-704/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_1__amyloid-beta-a4-693-704.md
+[LINE_RANGE] 95-97
+"  * [ Technical ](javascript:void\(0\);)
+  * [ Summary ](javascript:void\(0\);)
+  * [ Publication ](javascript:void\(0\);)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250802233441/https://phoenixpeptide.com/products/2019-ncov-spike-protein-1040-1091/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_2__2019-ncov-spike-1040-1091.md
+[LINE_RANGE] 95-97
+"  * [ Technical ](javascript:void\(0\);)
+  * [ Summary ](javascript:void\(0\);)
+  * [ Publication ](javascript:void\(0\);)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+Homepage and TOS searched for age-verification artifacts (18+, 21+, "are you of legal age", "enter site"); no age-gate prompt is present. Privacy policy contains a children-under-13 COPPA notice but no age-gate. The site is targeted at institutional researchers, not consumers, and an age-gate would be incongruent with the B2B posture.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250917025721/https://phoenixpeptide.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/privacy.md
+[LINE_RANGE] 1-200
+"PPI does not knowingly collect personally identifiable information from children under the age of 13. If you are under the age of 13, you must ask your parent or guardian for permission to use PPI and its websites."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:49:13Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/homepage.md
+[LINE_RANGE] 80-83
+"# Buy Research Peptides
+
+We manufacture Research Peptides, Antibodies, and Assay Kits.   
+Made in the USA."
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://web.archive.org/web/20220620075323/https://checkout.phoenixpeptide.com/cart
+[FETCHED_AT] 2026-05-07T00:53:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/checkout_cart.md
+[LINE_RANGE] 14-14
+[QUOTE]
+Online ordering may not be fully available in your country. Please proceed to the checkout section, select "Pay by Purchase Order" option under "Payment Method", and enter the destination country. A member of our support team will then contact you as soon as possible to confirm and complete your order. Shipping charges may still apply even the cost displays 0 amount. Thank you for your understanding.
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[INFERENCE] false
+[REASONING]
+The publicly-visible cart page does not display ID-verification UI, KYC document upload, or any age/identity gate. Order info page documents that institutional Net-30 PO buyers must submit a credit application form (trade references) but does not require government ID, photo ID, or selfie verification. New-customer onboarding is a B2B credit check, not consumer KYC.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20220620075323/https://checkout.phoenixpeptide.com/cart
+[FETCHED_AT] 2026-05-07T00:53:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/checkout_cart.md
+[LINE_RANGE] 1-30
+"Double Arrows Left Single Arrow Left Single Arrow Right Secured Icon Secured Icon Map Marker Icon Dismiss Shipping Taxes
+
+Keep Shopping
+
+[ Proceed to Checkout  ](https://web.archive.org/web/20220620075323/https://checkout.phoenixpeptide.com/checkout?fcsid=j71fctke4fdncsnpir8kt9mlfm)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20240805190842/https://phoenixpeptide.com/order_information/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/order_information.md
+[LINE_RANGE] 138-138
+"For payment via purchase order (PO), new customers must first provide trade references and credit history. You can download and fill out our standard credit application document by clicking [here](https://web.archive.org/web/20240805190842/https://www.phoenixpeptide.com/doc/Credit_Application_Form.pdf). Please e-mail this information to "
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://web.archive.org/web/20240805190842/https://phoenixpeptide.com/order_information/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/order_information.md
+[LINE_RANGE] 146-146
+[QUOTE]
+> All orders will be shipped via FedEx unless otherwise instructed. To ensure the stability of our products during transit, we reserve the right to ship certain items on dry ice. This may increase the shipping cost.
+[/QUOTE]
+[URL] https://web.archive.org/web/20220620075323/https://checkout.phoenixpeptide.com/cart
+[FETCHED_AT] 2026-05-07T00:53:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/checkout_cart.md
+[LINE_RANGE] 14-14
+[QUOTE]
+Shipping charges may still apply even the cost displays 0 amount. Thank you for your understanding.
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[INFERENCE] false
+[REASONING]
+No on-site customer review module appears on either of the two fetched product pages. The product page anatomy ends with sections labeled 'Related Products' (a recommended-items table with Catalog/Product/Size/Price headers) but no review module, no star ratings, no review count, no testimonial submission form. Phoenix's social-proof posture is institutional credibility (founder lineage, ISO/CE badges, 30+ years in business) rather than user-generated reviews.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250802234847/https://phoenixpeptide.com/products/amyloid-%CE%B2-a4-protein-693-704/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_1__amyloid-beta-a4-693-704.md
+[LINE_RANGE] 130-136
+"### Related Products
+
+##### Catalog
+
+##### Product
+
+##### Size
+
+##### Price"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250802233441/https://phoenixpeptide.com/products/2019-ncov-spike-protein-1040-1091/
+[FETCHED_AT] 2026-05-07T00:51:00Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/product_2__2019-ncov-spike-1040-1091.md
+[LINE_RANGE] 130-136
+"### Related Products
+
+##### Catalog
+
+##### Product
+
+##### Size
+
+##### Price"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:49:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/homepage.md
+[LINE_RANGE] 175-187
+[QUOTE]
+## Our Founder's Story
+
+Founded by Eng Tau and Dr. Jaw-Kang Chang, Phoenix Pharmaceuticals has serviced the Bio-research field for over 30 years, providing quality peptides to Researchers around the world.
+[/QUOTE]
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:49:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/homepage.md
+[LINE_RANGE] 183-187
+[QUOTE]
+“I am old faithful. I will continue making peptides until I die.” 
+
+#### Dr. Jaw-Kang Chang,
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[INFERENCE] none_observed
+[REASONING]
+Homepage and about-us pages do not surface any third-party influencer/creator endorsements, sponsorship logos, social-platform follower badges, or 'as featured in' press lockups. The credibility signals on the homepage are institutional: founder lineage, Silicon Valley HQ address, ISO/CE Mark certificate badges in the footer, and team-photo bylines (Carlos Carranza Head of Sales, Aydar Sabirov Lead Chemist, Siony Largo Office Manager) — but no influencers.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:49:13Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/homepage.md
+[LINE_RANGE] 207-219
+"## Meet some of our Expert Team
+
+Our team at Phoenix Pharmaceuticals is happy to help with your research peptide needs. We pride ourselves in personal customer experience. 
+
+### Carlos Carranza
+
+Head of Sales
+
+### Aydar Sabirov
+
+Lead Chemist
+
+### Siony Largo
+
+Office Manager"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/
+[FETCHED_AT] 2026-05-07T00:49:13Z
+[RAW_ARTIFACT] 03_raw_fetches/phoenix-pharmaceuticals/homepage.md
+[LINE_RANGE] 273-273
+"[](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/wp-content/uploads/2024/10/PPIisoCerti-scaled.jpg) [](https://web.archive.org/web/20251011200432/https://phoenixpeptide.com/ce-mark-certification/)"
+[/SUPPORT_QUOTE]

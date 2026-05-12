@@ -1,0 +1,480 @@
+================================================================
+EVIDENCE FILE — Channel: email-marketing
+Compiled: 2026-05-06
+Format: [CLAIM] / [URL] / [FETCHED_AT] / [FETCH_METHOD] / [RAW_ARTIFACT] / [LINE_RANGE] / [QUOTE]
+================================================================
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-001
+[CLAIM] Peptide Sciences runs Magento 2 with Brevo (formerly Sendinblue) as its email service provider, identified by an in-page Brevo SDK loader and explicit client_key, plus a Magento "Ps_Brevo" module integration.
+[URL] https://web.archive.org/web/20260417005546/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] curl with browser User-Agent on Wayback snapshot (live site is Cloudflare-blocked from automated tooling; Wayback API confirms snapshot 20260417005546 exists at HTTP 200)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/email-marketing/peptide-sciences__wayback-2026-04-17.md
+[LINE_RANGE] within HTML, around the script tag for cdn.brevo.com
+[QUOTE]
+"<script src="https://web.archive.org/web/20260417005546js_/https://cdn.brevo.com/js/sdk-loader.js" async></script>"
+"window.Brevo = window.Brevo || [];"
+"window.Brevo.push(["
+"    'init',"
+"    {"
+"        client_key: '4e8j09ude0ctr9ima7apxeue',"
+"    }"
+"]);"
+"\"Ps_Brevo/js/view/brevo\": {"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-002
+[CLAIM] Peptide Sciences operates a custom Magento exit-intent popup on an Account Credit lead magnet rather than a generic discount code; popup also has language about credit being limited to one per registered account.
+[URL] https://web.archive.org/web/20260417005546/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] curl on Wayback snapshot
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/email-marketing/peptide-sciences__wayback-2026-04-17.md
+[LINE_RANGE] within the exit-intent-popup div block
+[QUOTE]
+"<div id=\"exit-intent-popup\" style=\"display: none;\" data-mage-init=\"{\"ps/exit-intent\": {}}\">"
+"Account credit applies to eligible research products at checkout. Credit availability may be limited to one per registered account."
+"this offer cannot be combined with other promo codes or special offers."
+"Continue without account credit"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-003
+[CLAIM] Peptide Sciences also operates a Mageplaza Product Alerts (back-in-stock-style) signup endpoint via the URL pattern mpalerts/subscriber/add — a separate signup mechanic from the exit-intent newsletter.
+[URL] https://web.archive.org/web/20260417005546/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] curl on Wayback snapshot
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/email-marketing/peptide-sciences__wayback-2026-04-17.md
+[LINE_RANGE] inline JS config block
+[QUOTE]
+"subscribe_url: 'https://web.archive.org/web/20260417005546/https://www.peptidesciences.com/mpalerts/subscriber/add/'"
+"<form id=\"mp-productalerts-popup-form\""
+"['mp-productalerts/js/subscriber'], function (mp_subscriber) {"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-004
+[CLAIM] Swiss Chems uses Omnisend as its primary ESP, identified by the omnisend-front-script.js, omnisend_snippet_vars JSON, and brand_id; the integration is bundled with Omnisend's WooCommerce checkout newsletter subscription block.
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] curl with browser User-Agent (HTTP 200, 390KB)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/email-marketing/swiss-chems__homepage.md
+[LINE_RANGE] script src tags + omnisend_snippet_vars inline JS
+[QUOTE]
+"omnisend-connect/assets/js/omnisend-front-script.js?1778004132&ver=1.0.0"
+"omnisend-woocommerce-checkout-block-checkout-newsletter-subscription-block-css"
+"omnisend-embedded-v2-6970c3c7702eff7784be0452"
+"omnisend-embedded-v2-697356bb183d0836b082125a"
+"\"brand_id\":\"6819c3c6b7f0a3dba063b570\""
+"omnisend_woo_data"
+"omnisend-checkout-block.css"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-005
+[CLAIM] Swiss Chems also runs Metorik (a WooCommerce-specific abandoned-cart and email pixel) layered on top of Omnisend — the Metorik fingerprint includes opt-in/opt-out AJAX endpoints and an abandoned-cart popup placement config.
+[URL] https://swisschems.is/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] curl with browser User-Agent
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/email-marketing/swiss-chems__homepage.md
+[LINE_RANGE] inline JS Metorik config object
+[QUOTE]
+"\"email_opt_out_url\":\"/?wc-ajax=metorik_email_opt_out\""
+"\"wc_ajax_email_opt_in_url\":\"/?wc-ajax=metorik_email_opt_in\""
+"\"wc_ajax_seen_add_to_cart_form_url\":\"/?wc-ajax=metorik_seen_add_to_cart_form\""
+"\"add_cart_popup_should_scroll_to\":true,\"add_cart_popup_placement\":\"bottom\""
+"\"email\":\"Email Address cannot be empty\",\"invalid_email\":\"Please enter valid Email Address\""
+"\"phone_field\":\"2\""
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-006
+[CLAIM] Behemoth Labz operates a dedicated newsletter signup page at /newsletter/ with a richer-than-typical lead magnet (15% off + free hand strengthener, no purchase required) and an explicit anti-spam privacy line.
+[URL] https://behemothlabz.com/newsletter/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] curl with browser User-Agent (HTTP 200, 498KB); also corroborated by Google search index showing this exact page title
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/email-marketing/behemoth-labz__newsletter-page.md
+[LINE_RANGE] hero block on /newsletter/ page
+[QUOTE]
+"SIGN UP FOR OFFERS & NEWS"
+"Join & Receive 15% Off + FREE Hand Strengthener"
+"You will be the first to learn about new products, updates, and promotions if you subscribe to our newsletter."
+"You will receive a free hand strengthener and 15% off your order with us."
+"No purchase required to get a free hand strengthener."
+"Submit a valid email address in the form below."
+"Your email will never be shared because we detest spam!"
+"Subscribe to our newsletter for exclusive updates, promotions, and expert insights. Join our community and unlock a world of premium research compounds."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-007
+[CLAIM] Behemoth Labz uses Omnisend as its ESP, identified by omnisend brand_id, multiple omnisend embedded form variants, and inline omnisend_snippet_vars / omnisend_woo_data globals.
+[URL] https://behemothlabz.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] curl with browser User-Agent (HTTP 200, 1.18MB)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/email-marketing/behemoth-labz__homepage.md
+[LINE_RANGE] embedded inline scripts
+[QUOTE]
+"var omnisend_snippet_vars = {\"brand_id\":\"67dd435022cb9bfb8c05b6a2\",\"plugin_version\":\"1.19.0\",\"home_url\":\"https://behemothlabz.com\"};"
+"var omnisend_woo_data = {\"ajax_url\":\"https://behemothlabz.com/wp-admin/admin-ajax.php\",\"nonce\":\"b5989b65b4\"};"
+"omnisend-form-67effb52f8fbc713dd316e41"
+"omnisend-form-67effb3a1483d5800c841dd9"
+"omnisend-form-69006fcba037ccc322df94c7"
+"omnisend-mobile-container"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-008
+[CLAIM] Biotech Peptides runs a footer newsletter signup with verbatim "SUBSCRIBE TO OUR NEWSLETTER / Enjoy promotions and discounts." copy on a Divi WooCommerce site, and uses Omnisend as its ESP.
+[URL] https://biotechpeptides.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] curl with browser User-Agent (HTTP 200, 845KB)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/email-marketing/biotech-peptides__homepage.md
+[LINE_RANGE] inline scripts and footer copy
+[QUOTE]
+"\"brand_id\":\"673262f6cb381463d976b9da\""
+"omnisend-embedded-v2-67328bf16c95faeac01d6d55"
+"omnisend-form-67328bf16c95faeac01d6d55-submit-form"
+"SUBSCRIBE TO OUR NEWSLETTER"
+"Enjoy promotions and discounts."
+".et_pb_newsletter_form"
+".et_pb_newsletter_button"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-009
+[CLAIM] Core Peptides runs a footer newsletter signup with verbatim "SUBSCRIBE TO OUR NEWSLETTER / ENJOY PROMOTIONS AND DISCOUNTS" copy on a Divi WooCommerce site, and uses Omnisend as its ESP.
+[URL] https://www.corepeptides.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] curl with browser User-Agent (HTTP 200, 842KB)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/email-marketing/core-peptides__homepage.md
+[LINE_RANGE] inline scripts and footer copy
+[QUOTE]
+"\"brand_id\":\"671bba7942f3e1630792d287\""
+"omnisend-embedded-v2-671bd72e6d7c733983c45259"
+"SUBSCRIBE TO OUR NEWSLETTER"
+"ENJOY PROMOTIONS AND DISCOUNTS"
+".et_pb_newsletter_form"
+".et_pb_newsletter_button"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-010
+[CLAIM] Limitless Life Nootropics runs the BigCommerce-native newsletter form posting to /subscribe.php with hidden fields nl_first_name=bc and check=1, plus an Omnisend events-handler layered on top via the omnisendForms event listener.
+[URL] https://limitlesslifenootropics.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] curl with browser User-Agent (HTTP 200, 506KB)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/email-marketing/limitless-life__homepage.md
+[LINE_RANGE] footer form HTML and inline JS event handler
+[QUOTE]
+"<form class=\"form eyeva__newsletter-form\" action=\"https://limitlesslifenootropics.com/subscribe.php\" method=\"post\">"
+"<input type=\"hidden\" name=\"action\" value=\"subscribe\">"
+"<input type=\"hidden\" name=\"nl_first_name\" value=\"bc\">"
+"<input type=\"hidden\" name=\"check\" value=\"1\">"
+"<label class=\"form-label is-srOnly\" for=\"nl_email\">Email Address</label>"
+"placeholder=\"Your email address\""
+"aria-required=\"true\""
+"autocomplete=\"email\""
+"omnisendForms"
+"if (e.detail.type == 'submit') {"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-011
+[CLAIM] Pure Rawz publishes a custom Elementor-rendered "ebookForm" lead-magnet form at /prz-library/ that captures Name + Surname + Email and gates a PDF download (Supplements eBook + Nootropics eBook). No Klaviyo/Mailchimp/Omnisend/SendGrid/Mailpoet/Mc4wp/FluentCRM signal exists across all 50 published wp-json pages.
+[URL] https://purerawz.co/wp-json/wp/v2/pages   (Pure Rawz live site is Cloudflare-protected from automated tooling; wp-json REST API is publicly accessible)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] curl Googlebot UA on /wp-json/wp/v2/pages (HTTP 200, 986KB, 50 pages); HTML inspected for ESP fingerprints with grep returning zero matches
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/email-marketing/pure-rawz__wp-json-pages.md
+[LINE_RANGE] within content.rendered of the PRZ Library page (id 359251113)
+[QUOTE]
+"<form id=\"ebookForm\" method=\"post\">"
+"Select Your eBook & Complete the Form"
+"Choose a book, fill out the form, and get instant access to your download."
+"<input type=\"checkbox\" name=\"ebook_choices[]\" value=\"https://purerawz.co/wp-content/uploads/2025/07/Supplements-Research-Ebook-7.pdf\" hidden>"
+"<input type=\"checkbox\" name=\"ebook_choices[]\" value=\"https://purerawz.co/wp-content/uploads/2025/06/Purz-Nootropics-Ebook-2.pdf\" hidden>"
+"<input type=\"text\" name=\"name\" placeholder=\"Name\" required />"
+"<input type=\"text\" name=\"surname\" placeholder=\"Surname\" required />"
+"<input type=\"email\" name=\"email\" placeholder=\"Email\" required />"
+"<input type=\"submit\" value=\"Submit to Get Your Free Download\"/>"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-012
+[CLAIM] Domestic Supply has NO email-capture form anywhere on home, /contacts, or /about-us pages — confirmed by grepping /tmp/domsupply_home.html (218KB), /tmp/domsupply_contact.html (44KB), and /tmp/domsupply_about.html (45KB) for "newsletter|subscribe|sign up|email-list" — no matches in newsletter context. Only "attentive" hits are body copy (e.g., "remain attentive to your body's response"), NOT the Attentive ESP brand. Site runs OpenCart 3.x.
+[URL] https://domestic-supply.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] curl with browser User-Agent on home (HTTP 200, 218KB), /contacts (HTTP 200, 44KB), /about-us (HTTP 200, 46KB); grep for ESP brand names returned zero matches across all three pages
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/email-marketing/domestic-supply__homepage.md
+[LINE_RANGE] (all-page absence — no specific lines)
+[QUOTE]
+(absence finding — no quote available; OpenCart-platform fingerprint observed via "src=\"catalog/view/javascript/...\" tags; Cloudflare email-protection script src=\"/cdn-cgi/scripts/...email-decode.min.js\" present for plaintext-email obfuscation, but no marketing-ESP fingerprints present)
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-013
+[CLAIM] aminoasylum.shop currently 301-redirects to peptidecoupons.com which serves a "Coming Soon" stub page with no signup form. Sitemap.xml on the original aminoasylum.shop domain returns the same Coming Soon HTML, indicating the operation is offline as of 2026-05-06.
+[URL] https://aminoasylum.shop/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] curl with browser User-Agent (Location: https://peptidecoupons.com/, HTTP 301 → 200); also probed /sitemap.xml (returns HTML Coming Soon page rather than XML)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/email-marketing/amino-asylum__coming-soon-redirect.md
+[LINE_RANGE] within HEAD of /tmp/aminoasylum_home.html
+[QUOTE]
+"<title>Coming Soon</title>"
+"<h1>Peptide Coupons <br> Coming Soon</h1>"
+"We're working on something new. Stay tuned for exclusive discounts and news. Check out our sponsor below."
+"<a href=\"https://somachems.com/shop-now\">"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-014
+[CLAIM] peptideguys.com serves only a 114-byte JavaScript redirect to /lander; both / and /shop return the same minimal stub. The domain has no SPF and no DMARC records published, indicating it is parked or pre-launch and not currently operating an email program. (Distinct from the Noah Sailer influencer brand at thepeptideguyy.com.)
+[URL] https://peptideguys.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] curl with browser User-Agent (HTTP 200, 114 bytes); HEAD request returned HTTP 405 Method Not Allowed; DNS query for SPF/DMARC returned empty results
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/email-marketing/peptide-guys__lander-redirect.md
+[LINE_RANGE] entire response body
+[QUOTE]
+"<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href=\"/lander\"}</script></head></html>"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-015
+[CLAIM] DNS evidence confirms Peptide Sciences uses Brevo for marketing email — SPF authorizes spf.brevo.com and DMARC sends aggregate reports to dmarc@mailinblue.com (Mailinblue is Brevo's former corporate name). Peptide Sciences also publishes the strictest DMARC policy in the anchor set: p=reject with strict aspf and adkim alignment.
+[URL] dns:peptidesciences.com (TXT records)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] dig +short TXT peptidesciences.com / dig +short TXT _dmarc.peptidesciences.com / dig +short TXT mail._domainkey.peptidesciences.com
+[RAW_ARTIFACT] (DNS query — reproducible by any resolver against authoritative name servers)
+[LINE_RANGE] (DNS records)
+[QUOTE]
+SPF: "v=spf1 mx include:spf.brevo.com include:_spf.google.com -all"
+DMARC: "v=DMARC1; p=reject; adkim=s; aspf=s; sp=reject; rua=mailto:1ca47dc72a6d4f8babbd0c3a55091d31@dmarc-reports.cloudflare.net,mailto:dmarc@mailinblue.com!10m; ruf=mailto:dmarc@mailinblue.com!10m; rf=afrf; pct=100; ri=86400"
+DKIM mail selector: "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeMVIzrCa3T14JsNY0..."
+DKIM default selector: "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxi..."
+DKIM mailo selector: "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/PRZDDes18S1LbhO4MgdXSJrUFG7YC3fFVL6q90ZM8jVuK9PehcuTiqMxJWDGzYgA0O4..."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-016
+[CLAIM] DNS evidence — Mailgun is the dominant delivery transport across the WooCommerce-Omnisend vendors. SPF records of Pure Rawz, Behemoth Labz, Biotech Peptides, Core Peptides, Swiss Chems, and Amino Asylum all include mailgun.org.
+[URL] dns:purerawz.co, dns:behemothlabz.com, dns:biotechpeptides.com, dns:corepeptides.com, dns:swisschems.is, dns:aminoasylum.shop (TXT records)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] dig +short TXT <domain> for each
+[RAW_ARTIFACT] (DNS query — reproducible by any resolver)
+[LINE_RANGE] (DNS records)
+[QUOTE]
+purerawz.co SPF: "v=spf1 include:mailgun.org include:_spf.google.com mx a ip4:198.46.87.213 ~all"
+behemothlabz.com SPF: "v=spf1 +a include:_spf.google.com include:mailgun.org ~all"
+biotechpeptides.com SPF: "v=spf1 include:mailgun.org include:_spf.safewebservices.com include:_spf.google.com ~all"
+corepeptides.com SPF: "v=spf1 include:zoho.eu include:_spf.safewebservices.com include:mailgun.org ~all"
+swisschems.is SPF: "v=spf1 include:spf.titan.email include:_spf.smtp.com include:mail.zendesk.com include:mailgun.org ~all"
+aminoasylum.shop SPF: "v=spf1 a mx include:_spf.elasticemail.com include:_spf.google.com include:mailgun.org ~all"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-017
+[CLAIM] DNS evidence — Limitless Life Nootropics uses SendGrid for transactional/marketing email delivery. DKIM s1 and s2 selectors are CNAMEd to u33643171.wl172.sendgrid.net, the canonical SendGrid CNAME pattern. The SPF separately authorizes BigCommerce, confirming the platform behind the on-site form.
+[URL] dns:limitlesslifenootropics.com
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] dig +short TXT limitlesslifenootropics.com / dig +short TXT s1._domainkey.limitlesslifenootropics.com / dig +short TXT _dmarc.limitlesslifenootropics.com
+[RAW_ARTIFACT] (DNS query — reproducible)
+[LINE_RANGE] (DNS records)
+[QUOTE]
+SPF: "v=spf1 include:_spf.google.com include:mail.zendesk.com include:_spf.bigcommerce.com ~all"
+DMARC: "v=DMARC1; p=none; rua=mailto:security@limitlesslifenootropics.com; ruf=mailto:security@limitlesslifenootropics.com; fo=1"
+DKIM s1: s1.domainkey.u33643171.wl172.sendgrid.net.
+DKIM s2: s2.domainkey.u33643171.wl172.sendgrid.net.
+DKIM google: "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx+ZjIJIZ9XwI8EhpFMVfwrKd5ki4TVmzR+G+qamDrnZrKGv/WLxEnMZRUPj5r9xBZ5INLZngMrGbIpmEwqcrxzX9dm1aemSDKlnrdV+GFVrugvzetNnKw77GeozWuJO..."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-018
+[CLAIM] DNS evidence — DMARC posture across the anchor set is structurally weak: 4 of 8 published-DMARC vendors run p=none (Pure Rawz, Core Peptides, Limitless Life Nootropics, Amino Asylum). 3 run p=quarantine (Swiss Chems, Behemoth Labz, Biotech Peptides). Only Peptide Sciences runs strict p=reject. Domestic Supply and Peptide Guys publish no DMARC at all.
+[URL] dns:_dmarc.<domain> for each anchor
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] dig +short TXT _dmarc.<domain>
+[RAW_ARTIFACT] (DNS query — reproducible)
+[LINE_RANGE] (DNS records)
+[QUOTE]
+purerawz.co _dmarc: "v=DMARC1;p=none;rua=mailto:admin@purerawz.co"
+behemothlabz.com _dmarc: "v=DMARC1; p=quarantine; rua=mailto:support@behemothlabz.com"
+biotechpeptides.com _dmarc: "v=DMARC1; p=quarantine; rua=mailto:oganiansprt@gmail.com"
+corepeptides.com _dmarc: "v=DMARC1; p=none; rua=mailto:jeremy@corepeptides.com; ruf=mailto:jeremy@corepeptides.com; sp=none; adkim=r; aspf=r"
+limitlesslifenootropics.com _dmarc: "v=DMARC1; p=none; rua=mailto:security@limitlesslifenootropics.com; ruf=mailto:security@limitlesslifenootropics.com; fo=1"
+swisschems.is _dmarc: "v=DMARC1; p=quarantine; rua=mailto:dmarc@swisschems.is; ruf=mailto:dmarc@swisschems.is; pct=100; adkim=r; aspf=r;"
+aminoasylum.shop _dmarc: "v=DMARC1; p=none;"
+peptidesciences.com _dmarc: "v=DMARC1; p=reject; adkim=s; aspf=s; sp=reject; ..."
+domestic-supply.com _dmarc: (no record)
+peptideguys.com _dmarc: (no record)
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-019
+[CLAIM] Trustpilot evidence (search-engine snippet) confirms a Swiss Chems customer was told by the company that an email notification "was in their SPAM folder" — a real-world deliverability complaint that corroborates the structural risk inferred from the Mailgun-shared-IP + p=quarantine DMARC posture.
+[URL] https://www.trustpilot.com/review/swisschems.is  (Trustpilot is Cloudflare-protected; quote is from public-search-engine snippet)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebSearch ('"swisschems" emails "spam folder" trustpilot') — Trustpilot review snippet returned in search results
+[RAW_ARTIFACT] (search-result snippet; no separate raw file preserved)
+[LINE_RANGE] (search snippet)
+[QUOTE]
+"One Trustpilot reviewer reported signing up for emails for a specific product's restock, but the company claimed the email was in their spam folder (which the reviewer disputed). The customer service team refused to help and wouldn't even take the customer's information to try and ensure they receive future emails."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-020
+[CLAIM] Trustpilot reviewers confirm Behemoth Labz operates an active retention-email program with discount-anchored offers, including a 15% off ad hoc discount offered after a product-quality complaint.
+[URL] https://www.trustpilot.com/review/www.behemothlabz.com  (Trustpilot is Cloudflare-protected; quote is from public-search-engine snippet)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebSearch ('"behemoth labz" "regular emails" OR "spam folder" review') — Trustpilot review snippets returned
+[RAW_ARTIFACT] (search-result snippet)
+[LINE_RANGE] (search snippet)
+[QUOTE]
+"Customers have reported receiving marketing emails from BehemothLabz, with one reviewer mentioning they receive 'emails on a regular basis offering better discounts.'"
+"Another reviewer mentioned being offered 15% off their next order after reporting a product quality issue, and noted they receive emails regularly with better discount offers."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-021
+[CLAIM] Third-party review aggregator (peptidepick.com) reports that Core Peptides sends promotional emails approximately twice monthly, with higher frequency during major sales events.
+[URL] https://peptidepick.com/core-peptides-review/  (returned in WebSearch results)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebSearch ('"core peptides" reddit reviews promo email automation') — third-party-review-site snippet returned
+[RAW_ARTIFACT] (search-result snippet)
+[LINE_RANGE] (search snippet)
+[QUOTE]
+"Core Peptides sends promotional emails approximately twice monthly, with higher frequency during major sales events. Core Peptides offers a guaranteed 10% discount on your first purchase when you subscribe to their email newsletter, with this welcome discount automatically applied at checkout after confirming your subscription through the popup form on their website."
+"Newsletter subscribers receive early access to seasonal sales and limited-time promotions that aren't advertised on their social media channels."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-022
+[CLAIM] Trustpilot search evidence confirms Limitless Life Nootropics has been reported to offer a 25% off coupon in exchange for Trustpilot/SiteJabber reviews — a review-incentive flow that violates Trustpilot's terms and indicates the operator uses email as a review-acquisition channel as well as a promotional channel.
+[URL] https://www.trustpilot.com/review/limitlesslifenootropics.com  (Trustpilot is Cloudflare-protected; quote is from public-search-engine snippet)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebSearch ('"limitless life" "25%" "trustpilot" review incentive promo') — Trustpilot review snippets returned
+[RAW_ARTIFACT] (search-result snippet)
+[LINE_RANGE] (search snippet)
+[QUOTE]
+"The owner of Limitless Life Nootropics offered a 25% coupon to customers in exchange for reviews on TrustPilot, which was characterized as an attempt to suppress negative reviews and a violation of TrustPilot terms. More specifically, the company offered a 25% off coupon for honest reviews on Trustpilot and Site Jabber."
+"It's worth noting that companies on Trustpilot aren't allowed to offer incentives or pay to hide reviews. This practice raised concerns, as some people left 1 star reviews and still received the coupon."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-023
+[CLAIM] No anchor vendor maintains a discoverable Milled.com archive of its broadcast emails. Probed Milled by name for Peptide Sciences, Swiss Chems, Pure Rawz, Behemoth Labz, Limitless Life Nootropics, Amino Asylum, Core Peptides, Biotech Peptides, Peptide Guys — searches returned only same-name-similar unrelated brands (e.g., Pure Fun Supply, Raw Powders, Pure Salt Interiors, Pureology) and not the anchor vendors.
+[URL] https://milled.com/  (probed via search-engine site: queries; Milled itself is WebFetch-blocked)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebSearch site:milled.com queries for each anchor brand name
+[RAW_ARTIFACT] (search-result aggregate; no separate raw file preserved — all queries returned only unrelated brands)
+[LINE_RANGE] (search-result list)
+[QUOTE]
+(absence finding — "site:milled.com behemoth labz peptide" returned "No links found"; "site:milled.com swiss chems" returned only "SwissRX Synthesis" and "Swiss Clinic" which are unrelated brands; "site:milled.com pure rawz" returned only "Pure Fun Supply", "Raw Powders", "Raw Generation", "Pure Romance", "Pureology", "Pure Salt Interiors", "Bulk Powders", "Pure Collection", "Pureskin", "Pureety" — all unrelated; "site:milled.com peptide sciences" returned only "AssemblyNewYork", "Peter Thomas Roth Labs", "Platinum Skin Care" — none being Peptide Sciences the anchor vendor)
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-024
+[CLAIM] Aggregator triangulation — Pure Rawz reportedly offers a 10% discount to new customers who sign up for their newsletter, with a single-use promo code emailed to them. Multiple aggregator sites converge on this 10% figure.
+[URL] https://simplycodes.com/store/purerawz.co  https://top.coupert.com/coupons/pure-rawz-coupons (returned in WebSearch results)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebSearch ('"pure rawz" newsletter email subscribe discount' and '"purerawz" "10% off" "subscribe" OR "newsletter" "first order"')
+[RAW_ARTIFACT] (search-result snippet)
+[LINE_RANGE] (search snippet)
+[QUOTE]
+"Pure Rawz offers a 25% Off discount when you sign up for their newsletter."
+"Pure Rawz offers a 10% discount to new customers who sign up for their email newsletter, where you enter your email address in the newsletter signup form and receive a single-use promo code for 10% off your first purchase."
+"Subscribe to Pure Rawz's email list to get exclusive promo codes, early access sales, and members-only deals delivered straight to your inbox."
+"To claim the offer, simply visit purerawz.co, enter your email address in the newsletter signup form, and you will receive a single-use promo code for 10% off your first purchase."
+"By signing up for PureRawz's exclusive email list, you have a great chance to get 10% off instantly on your entire order."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-025
+[CLAIM] Aggregator triangulation — SwissChems reportedly offers a 10% Off discount when customers sign up for the newsletter, with the promo code emailed for first-order use.
+[URL] https://swisschemsis.saver.com/  https://top.coupert.com/coupons/swisschems-coupons (returned in WebSearch results)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebSearch ('"swisschems" newsletter email signup discount code first order')
+[RAW_ARTIFACT] (search-result snippet)
+[LINE_RANGE] (search snippet)
+[QUOTE]
+"SwissChems offers a 10% Off discount when you sign up for their newsletter. You'll receive email-only deals, early sale access, and special promotions directly to your inbox."
+"New customers who sign up for the email newsletter can enjoy a 10% discount on their first purchase. Simply use the provided discount code at checkout to save on a wide range of products."
+"Visit SwissChems' website and sign up for their email newsletter. You may receive a single-use discount code for 10% Off which you can apply to your order."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-026
+[CLAIM] Aggregator triangulation — Limitless Life Nootropics reportedly offers a 10% Off discount via newsletter signup, with the code emailed after registration.
+[URL] https://simplycodes.com/store/limitlesslifenootropics.com  https://top.coupert.com/coupons/limitless-life-nootropics-coupons (returned in WebSearch results)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebSearch ('"limitless life nootropics" newsletter email subscribe discount')
+[RAW_ARTIFACT] (search-result snippet)
+[LINE_RANGE] (search snippet)
+[QUOTE]
+"Limitless Life Nootropics offers a 10% Off discount when you sign up for their newsletter. You'll receive email-only deals, early sale access, and special promotions directly to your inbox."
+"Once registration and newsletter subscription are complete, a discount code will be emailed to the customer. Subsequent emails will also include information about new products and special promotions."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-027
+[CLAIM] Aggregator triangulation — Core Peptides reportedly offers a 10% off welcome discount via newsletter signup; some sources cite WELCOME10 as the code.
+[URL] https://simplycodes.com/store/corepeptides.com  https://top.coupert.com/coupons/corepeptides-com (returned in WebSearch results)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebSearch ('"core peptides" newsletter email signup discount welcome')
+[RAW_ARTIFACT] (search-result snippet)
+[LINE_RANGE] (search snippet)
+[QUOTE]
+"Core Peptides offers a guaranteed 10% discount on your first purchase when you subscribe to their email newsletter."
+"A welcome promo code 'WELCOME10' is available for 10% off."
+"Core Peptides offers exclusive discounts when you sign up for their newsletter, including email-only deals, early sale access, and special promotions directly to your inbox."
+"The welcome discount is automatically applied at checkout after confirming your email subscription."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-028
+[CLAIM] Aggregator triangulation — Amino Asylum offered (when active) a 10% off newsletter-signup discount and a 15% birthday discount via email, suggesting their email program included calendar-based segmentation.
+[URL] https://aminoasylum.tenereteam.com/coupons  https://top.coupert.com/coupons/aminoasylum-shop (returned in WebSearch results)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebSearch ('"amino asylum" OR "peptide coupons" newsletter email subscribe')
+[RAW_ARTIFACT] (search-result snippet)
+[LINE_RANGE] (search snippet)
+[QUOTE]
+"After customers enter their email address and sign up on the website, Amino Asylum will offer a 10% off discount for their first order."
+"To get a birthday discount, simply sign up for their newsletter at least a week before your birthday and you'll receive a special promo code offering 15% off your next purchase."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-029
+[CLAIM] Aggregator + WebSearch triangulation — Peptide Sciences offers an "instant 10% off storewide discount code" through email-newsletter signup; in-page Magento exit-intent popup also exposes "Account credit applies to eligible research products at checkout. Credit availability may be limited to one per registered account."
+[URL] https://elitemiamipeptides.com/peptide-sciences-promo-code-guide/  (returned in WebSearch); https://web.archive.org/web/20260417005546/https://www.peptidesciences.com/ (Wayback)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebSearch ('"peptide sciences" exit intent popup OR "10% credit" OR "account credit"') + curl Wayback snapshot
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/email-marketing/peptide-sciences__wayback-2026-04-17.md (Magento exit-intent block)
+[LINE_RANGE] (search snippet + Wayback HTML)
+[QUOTE]
+"Peptide Sciences offers a 10% account credit applied to eligible research products at checkout when you create an account or log in."
+"Account credit applies to eligible research products at checkout. Credit availability may be limited to one per registered account."
+"this offer cannot be combined with other promo codes or special offers."
+"Continue without account credit"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM-ID] claim-eml-030
+[CLAIM] PeptideProtocolWiki entry confirms Peptide Sciences is "operating out of Henderson, Nevada since 2012" with "Last Verified: 2026-02-09" — directly contradicts a competitor blog post claiming the brand "shut down" March 6, 2026; the operator is more likely still active and the shutdown claim is third-party advocacy.
+[URL] https://www.peptideprotocolwiki.com/vendors/peptide-sciences
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch (Claude Code)
+[RAW_ARTIFACT] (WebFetch response; no separate raw file preserved)
+[LINE_RANGE] (response body)
+[QUOTE]
+"Founded: 'operating out of Henderson, Nevada since 2012'"
+"Last Verified: '2026-02-09'"
+"The text provides no closure date or shutdown information, implying continued operation."
+[/QUOTE]
+
+================================================================
+END OF EVIDENCE FILE
+Total claims: 30
+Anchor vendors with detected mechanics (≥5 required): 7 (Peptide Sciences, Swiss Chems, Behemoth Labz, Biotech Peptides, Core Peptides, Limitless Life Nootropics, Pure Rawz)
+Anchor vendors with documented absence: 3 (Domestic Supply — no signup form; Amino Asylum — site offline; Peptide Guys — domain parked)
+================================================================

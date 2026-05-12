@@ -1,0 +1,461 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://bioglow.info/
+[FETCHED_AT] 2026-05-07T19:44:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/homepage.md
+[LINE_RANGE] 24-24
+[QUOTE]
+"where research supply meets transparency, education, & higher standards"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://bioglow.info/
+[FETCHED_AT] 2026-05-07T19:44:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/homepage.md
+[LINE_RANGE] 26-26
+[QUOTE]
+"[ Access the Research Catalog ](https://access.bioglow.info/home)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://bioglow.info/
+[FETCHED_AT] 2026-05-07T19:44:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/homepage.md
+[LINE_RANGE] 14-18
+[QUOTE]
+"  * [Home](https://bioglow.info/)
+  * [Catalog](https://access.bioglow.info/peptide-catalog)
+  * [COAs](https://bioglow.info/coa-library/)
+  * [FAQ](https://bioglow.info/faq-2/)
+  * [Contact](https://bioglow.info/contact-us/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://bioglow.info/
+[FETCHED_AT] 2026-05-07T19:44:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/homepage.md
+[LINE_RANGE] 50-50
+[QUOTE]
+"**Disclaimer:** All information on BioGlow’s website is for educational and research purposes **only.** This website's information & products are not intended to diagnose, treat, or cure any medical condition; information on this website is **not** medical advice. Always consult a qualified, licensed healthcare professional before beginning any wellness protocol. Products are for laboratory and research-use **only** & are **not** for human consumption of any kind. These statements have not been evaluated by the U.S. Food & Drug Administration (FDA). The products of BioGlow, LLC are not compounded under Section 503-A (compounding pharmacies) or manufactured under Section 503-B (outsourcing facilities) as defined under the Federal Food, Drug, and Cosmetic Act. **BioGlow, LLC assumes no liability for the misuse, misinterpretation, or misapplication of any information or materials.**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://bioglow.info/
+[FETCHED_AT] 2026-05-07T19:44:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/homepage.md
+[LINE_RANGE] 64-66
+[QUOTE]
+"####  Are you 18 years of age or older?
+
+By answering "yes," you confirm you are 18 years of age or older. BioGlow's education & materials are for research purposes only — NOT for human or animal use."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name / product_page_anatomy.list_price / product_page_anatomy.per_mg_cost / product_page_anatomy.description_copy_excerpt
+[INFERENCE] BPC-157 10mg at $49 (per_mg_cost $4.90), lyophilized powder
+[REASONING]
+Catalog page lists BPC-157 with explicit price and dose in a consistent format used for all SKUs. No dedicated product page exists; catalog is the only public price source.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://access.bioglow.info/peptide-catalog/
+[FETCHED_AT] 2026-05-07T19:44:27Z
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/catalog_1.md
+[LINE_RANGE] 52-56
+"##### BPC-157
+
+For research & laboratory use only.
+
+**Details:** 10mg | $49 | lyophilized powder"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://access.bioglow.info/peptide-catalog/
+[FETCHED_AT] 2026-05-07T19:44:27Z
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/catalog_1.md
+[LINE_RANGE] 28-32
+"# Shop the Research Catalog
+
+# BioGlow's premium collection of peptides for quality research."
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://access.bioglow.info/peptide-catalog/
+[FETCHED_AT] 2026-05-07T19:44:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/catalog_1.md
+[LINE_RANGE] 150-150
+[QUOTE]
+"#### Disclaimer: **All materials listed in the Research Catalog are intended for research and educational purposes _only_. No guarantees or representations are made regarding results. Always consult with a qualified healthcare professional for any health-related questions.**"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / product_page_anatomy.coa_hosting / product_page_anatomy.batch_lot_transparency
+[URL] https://bioglow.info/coa-library/
+[FETCHED_AT] 2026-05-07T19:45:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/coa_1.md
+[LINE_RANGE] 26-38
+[QUOTE]
+"#### BPC-157
+
+10mg
+
+Lot #: BG-101
+
+[ View COA ](https://bioglow.info/wp-content/uploads/2025/12/BioGlow_BPC-157_COA_BG-101.pdf)
+
+#### TB-500
+
+10mg
+
+Lot #: BG-102
+
+[ View COA ](https://bioglow.info/wp-content/uploads/2025/12/BioGlow_TB-500_COA_BG-102.pdf)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://bioglow.info/
+[FETCHED_AT] 2026-05-07T19:44:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/homepage.md
+[LINE_RANGE] 50-50
+[QUOTE]
+"Products are for laboratory and research-use **only** & are **not** for human consumption of any kind."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy / ship_to_scope
+[URL] https://bioglow.info/faq-2/
+[FETCHED_AT] 2026-05-07T19:45:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/faq.md
+[LINE_RANGE] 64-66
+[QUOTE]
+"Do you ship internationally?
+
+Currently, BioGlow only ships within the United States. Digital downloads and education can be accessed worldwide."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://bioglow.info/faq-2/
+[FETCHED_AT] 2026-05-07T19:45:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/faq.md
+[LINE_RANGE] 48-50
+[QUOTE]
+"What is your refund policy?
+
+BioGlow is committed to making sure our customers are 100% satisfied. Research requests are reviewed individually in accordance with our Refund Policy."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named / catalog.sku_count (third-party testing claim)
+[URL] https://bioglow.info/faq-2/
+[FETCHED_AT] 2026-05-07T19:45:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/faq.md
+[LINE_RANGE] 36-40
+[QUOTE]
+"Does BioGlow test research materials?
+
+Yes – each batch is manufactured in certified facilities with strict purity and handling protocols. Each batch is third party tested, and COAs (Certificate of Analysis) are readily available. Rest assured, BioGlow strives to only provide quality you can trust. View the COA library here: [COA Library](https://bioglow.info/coa-library/)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://access.bioglow.info/payment-instructions/
+[FETCHED_AT] 2026-05-07T19:44:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/checkout_step_1.md
+[LINE_RANGE] 36-36
+[QUOTE]
+"##### Accepted payments: _LinkMoney - Pay by Bank_ | _Venmo_ | _Zelle_"
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected / checkout_flow.account_required / checkout_flow.guest_checkout_available
+[URL] https://access.bioglow.info/payment-instructions/
+[FETCHED_AT] 2026-05-07T19:44:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/checkout_step_1.md
+[LINE_RANGE] 40-70
+[QUOTE]
+"First Name *
+
+Last Name *
+
+Phone Number *
+
+E-mail *
+
+Please list the e-mail you would like receive your follow-up instructions to.
+
+Shipping Address *
+
+Please include CITY, STATE, ZIP CODE.
+
+Research Compound Access *Please select research compound(s)."
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://access.bioglow.info/peptide-catalog/
+[FETCHED_AT] 2026-05-07T19:44:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/catalog_1.md
+[LINE_RANGE] 36-50
+[QUOTE]
+"# the Spring Shred
+
+## April's metabolic reset
+
+4/10 – 4/30
+
+GLP-3RT (20mg) | CJC-1295 | Ipamorelin | MOTS-C
+
+### $300 value
+
+### your price: $200
+
+### code: SHRED
+
+* cannot be combined with other offers *"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://access.bioglow.info/peptide-catalog/
+[FETCHED_AT] 2026-05-07T19:44:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/catalog_1.md
+[LINE_RANGE] 52-148
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/bioglow/catalog_1.md:
+11 distinct SKUs enumerated: BPC-157 (10mg), TB-500 (10mg), MOTS-C (10mg), Tesamorelin (10mg), Ipamorelin (10mg), CJC-1295 no dac (10mg), GLP-3RT (10mg), GLP-3RT (20mg), GLP-3RT (30mg), NAD+ (1000mg), KLOW blend (80mg).
+[FILES]
+catalog_1.md (single catalog page, all SKUs on one page)
+[/QUOTE]
+
+[CLAIM] skus[bioglow:tb-500-10mg].list_price_usd
+[URL] https://access.bioglow.info/peptide-catalog/
+[FETCHED_AT] 2026-05-07T19:44:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/catalog_1.md
+[LINE_RANGE] 60-64
+[QUOTE]
+"##### TB-500
+
+For research & laboratory use only.
+
+**Details:** 10mg | $39 | lyophilized powder"
+[/QUOTE]
+
+[CLAIM] skus[bioglow:mots-c-10mg].list_price_usd
+[URL] https://access.bioglow.info/peptide-catalog/
+[FETCHED_AT] 2026-05-07T19:44:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/catalog_1.md
+[LINE_RANGE] 68-72
+[QUOTE]
+"##### MOTS-C
+
+For research & laboratory use only.
+
+**Details:** 10mg | $49 | lyophilized powder"
+[/QUOTE]
+
+[CLAIM] skus[bioglow:tesamorelin-10mg].list_price_usd
+[URL] https://access.bioglow.info/peptide-catalog/
+[FETCHED_AT] 2026-05-07T19:44:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/catalog_1.md
+[LINE_RANGE] 76-80
+[QUOTE]
+"##### Tesamorelin
+
+For research & laboratory use only.
+
+**Details:** 10mg | $79 | lyophilized powder"
+[/QUOTE]
+
+[CLAIM] skus[bioglow:ipamorelin-10mg].list_price_usd
+[URL] https://access.bioglow.info/peptide-catalog/
+[FETCHED_AT] 2026-05-07T19:44:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/catalog_1.md
+[LINE_RANGE] 84-88
+[QUOTE]
+"##### Ipamorelin
+
+For research & laboratory use only.
+
+**Details:** 10mg | $59 | lyophilized powder"
+[/QUOTE]
+
+[CLAIM] skus[bioglow:cjc-1295-nodac-10mg].list_price_usd
+[URL] https://access.bioglow.info/peptide-catalog/
+[FETCHED_AT] 2026-05-07T19:44:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/catalog_1.md
+[LINE_RANGE] 92-96
+[QUOTE]
+"##### CJC-1295 (no dac)
+
+For research & laboratory use only.
+
+**Details:** 10mg | $69 | lyophilized powder"
+[/QUOTE]
+
+[CLAIM] skus[bioglow:glp-3rt-*].list_price_usd
+[URL] https://access.bioglow.info/peptide-catalog/
+[FETCHED_AT] 2026-05-07T19:44:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/catalog_1.md
+[LINE_RANGE] 100-112
+[QUOTE]
+"##### GLP-3RT
+
+For research & laboratory use only.
+
+**Details:**[multiple quantities available]
+
+10mg | $79 | lyophilized powder
+
+20mg | $109 | lyophilized powder
+
+30mg | $209 | lyophilized powder"
+[/QUOTE]
+
+[CLAIM] skus[bioglow:nad-plus-1000mg].list_price_usd
+[URL] https://access.bioglow.info/peptide-catalog/
+[FETCHED_AT] 2026-05-07T19:44:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/catalog_1.md
+[LINE_RANGE] 114-118
+[QUOTE]
+"##### NAD+
+
+For research & laboratory use only.
+
+**Details:** 1000mg | $89 | lyophilized powder"
+[/QUOTE]
+
+[CLAIM] skus[bioglow:klow-blend-80mg].list_price_usd
+[URL] https://access.bioglow.info/peptide-catalog/
+[FETCHED_AT] 2026-05-07T19:44:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/catalog_1.md
+[LINE_RANGE] 122-128
+[QUOTE]
+"##### KLOW blend
+
+For research & laboratory use only.
+
+[BPC-157 + TB-500 + GHK-Cu + KPV]
+
+**Details:** 80mg | $89 | lyophilized powder"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://bioglow.info/
+[FETCHED_AT] 2026-05-07T19:45:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/source_homepage.md
+[LINE_RANGE] 9-10
+[QUOTE]
+"<script>window._wca = window._wca || [];</script>
+	<!-- This site is optimized with the Yoast SEO Premium plugin v26.9 (Yoast SEO v27.3) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://bioglow.info/
+[FETCHED_AT] 2026-05-07T19:45:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/source_homepage.md
+[LINE_RANGE] 88-90
+[QUOTE]
+"var trustpilot_settings = {"key":"kNfhiEIG8xLhfKCu","TrustpilotScriptUrl":"https://invitejs.trustpilot.com/tp.min.js"
+<script src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js?ver=1.0&#039; async=&#039;async" id="widget-bootstrap-js"></script>"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://bioglow.info/
+[FETCHED_AT] 2026-05-07T19:45:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/source_homepage.md
+[LINE_RANGE] 96-97
+[QUOTE]
+"<script src="https://www.googletagmanager.com/gtag/js?id=GT-K4LX3QSN" id="google_gtagjs-js" async></script>
+gtag("config", "GT-K4LX3QSN");"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://bioglow.info/
+[FETCHED_AT] 2026-05-07T19:45:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/source_homepage.md
+[LINE_RANGE] 14-14
+[QUOTE]
+"<link rel='dns-prefetch' href='//widget.trustpilot.com' />"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.blog_url / content_footprint.author_bylines_present
+[URL] https://bioglow.info/peptide-research/
+[FETCHED_AT] 2026-05-07T19:46:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/research_page.md
+[LINE_RANGE] 42-48
+[QUOTE]
+"**_Behind the Glow_ **is BioGlow’s official research blog — where we share education, transparency, and the founder’s perspectives in the research peptide space.****
+
+## Featured Blog Post:
+
+Click the text below to read the latest blog from BioGlow's founder, Savannah!
+
+#### [What are Peptides Anyway?! (& Why I Brought Them to the Midwest)](https://bioglow.info/what-are-peptides)"
+[/QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country
+[INFERENCE] United States (Midwest)
+[REASONING]
+Two independent signals: (1) phone number 317 area code is Indianapolis, Indiana on contact page; (2) founder blog post explicitly references "Why the Midwest?" and states "I'm from the Midwest." Combined with US-only shipping policy from FAQ.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://bioglow.info/contact-us/
+[FETCHED_AT] 2026-05-07T19:45:20Z
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/contact.md
+[LINE_RANGE] 28-32
+"E-mail:
+
+[[email protected]](/cdn-cgi/l/email-protection)
+
+Phone:
+
+(317) 813-9003"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://bioglow.info/what-are-peptides/
+[FETCHED_AT] 2026-05-07T19:46:30Z
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/blog_1.md
+[LINE_RANGE] 44-48
+"## Why the Midwest?
+
+Big cities, like Miami, Los Angeles, Scottsdale, have been utilizing the power of peptides for 15+ years. Here in the Midwest? Most people still think they’re steroids.
+
+The peptide rabbit hole with a desire to help/educate others is the exact equation that led me to building BioGlow. I’m from the Midwest, and I knew this science needed to be talked about. Why? Because it just wasn’t!"
+[/SUPPORT_QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+Two independent signals: (1) homepage schema JSON has datePublished=2025-12-18T16:52:21+00:00 confirming the site launched December 2025; (2) footer reads "2025 BioGlow, LLC. All rights reserved." Both points converge on 2025 as the founding year.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://bioglow.info/
+[FETCHED_AT] 2026-05-07T19:45:32Z
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/source_homepage.md
+[LINE_RANGE] 12-12
+"datePublished":"2025-12-18T16:52:21+00:00","dateModified":"2026-03-23T03:49:16+00:00"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://bioglow.info/
+[FETCHED_AT] 2026-05-07T19:44:12Z
+[RAW_ARTIFACT] 03_raw_fetches/bioglow/homepage.md
+[LINE_RANGE] 52-52
+"© 2025 BioGlow, LLC. All rights reserved."
+[/SUPPORT_QUOTE]

@@ -1,0 +1,10 @@
+com,peptidesciences)/ 20110207194451 http://peptidesciences.com/ text/html 200 CBWXJGXJPBBNIMK73F47IV76BCMI5LE5 10538
+com,peptidesciences)/ 20110527145603 http://www.peptidesciences.com:80/ text/html 200 HXHTYZNXDCV4O4ICLT52KOPGRJTHAYRG 3138
+com,peptidesciences)/ 20110705024212 http://www.peptidesciences.com:80/ text/html 200 7474KRVHVPIDJFK3FTZTPPSXEEV5BOXC 4590
+com,peptidesciences)/ 20110805073802 http://www.peptidesciences.com:80/ text/html 200 WSFJ3OBMFH4HO33WWIIOTHMSBMMJDAD4 4955
+com,peptidesciences)/ 20130615151403 http://peptidesciences.com/ text/html 302 3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ 440
+com,peptidesciences)/ 20130624050057 http://www.peptidesciences.com:80/ text/html 200 P2KJJHK5VC4VTTPXHZZJLAIXDPJPNN4N 11550
+com,peptidesciences)/ 20130725134158 http://www.peptidesciences.com:80/ text/html 404 SJJTZUAG4UT6JTAJILFFSDBF5UZTBCTK 814
+com,peptidesciences)/ 20130826183328 http://www.peptidesciences.com:80/ text/html 200 AAHEU5OD6LSPA76YLQGWTUGBX4X2W5HV 17114
+com,peptidesciences)/ 20130927035830 http://www.peptidesciences.com:80/ text/html 200 7OHHWTIVZRRVX6JZRBQGQ4AGRI52SOXV 6725
+com,peptidesciences)/ 20131027223844 http://www.peptidesciences.com/ text/html 200 62DHRS5AHDMJ2G7VLWQMWKFXRRIAOQJY 8573

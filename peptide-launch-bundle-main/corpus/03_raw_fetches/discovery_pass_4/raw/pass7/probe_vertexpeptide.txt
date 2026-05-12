@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#" class="footer-sticky-1">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Shop - VertexPeptide.com</title>
+
+		<!-- All in One SEO 4.9.3 - aioseo.com -->
+	<meta name="description" content="-" />
+	<meta name="robots" content="max-image-preview:large" />
+	<link rel="canonical" href="https://vertexpeptide.com/" />
+	<meta name="generator" content="All in One SEO (AIOSEO) 4.9.3" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:site_name" content="VertexPeptide.com - Your Trusted Research Peptides Supplier" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Shop - VertexPeptide.com" />
+		<meta property="og:description" content="-" />
+		<meta property="og:url" content="https://vertexpeptide.com/" />
+		<meta property="og:image" content="https://vertexpeptide.com/wp-content/uploads/2025/09/shoptimizer_logo.png" />
+		<meta property="og:image:secure_url" content="https://vertexpeptide.com/wp-content/uploads/2025/09/shoptimizer_logo.png" />
+		<meta property="og:image:width" content="500" />
+		<meta property="og:image:height" content="67" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Shop - VertexPeptide.com" />
+		<meta name="twitter:description" content="-" />
+		<meta name="twitter:image" content="https://vertexpeptide.com/wp-content/uploads/2025/09/shoptimizer_logo.png" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/vertexpeptide.com\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/vertexpeptide.com#listItem","position":1,"name":"Home"}]},{"@type":"CollectionPage","@id":"https:\/\/vertexpeptide.com\/#collectionpage","url":"https:\/\/vertexpeptide.com\/","name":"Shop - VertexPeptide.com","description":"-","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/vertexpeptide.com\/#website"},"breadcrumb":{"@id":"https:\/\/vertexpeptide.com\/#breadcrumblist"},"about":{"@id":"https:\/\/vertexpeptide.com\/#organization"}},{"@type":"Organization","@id":"https:\/\/vertexpeptide.com\/#organization","name":"VertexPeptide.com","description":"Your Trusted Research Peptides Supplier","url":"https:\/\/vertexpeptide.com\/"},{"@type":"WebSite","@id":"https:\/\/vertexpeptide.com\/#website","url":"https:\/\/vertexpeptide.com\/","name":"VertexPeptide.com","description":"Your Trusted Research Peptides Supplier","inLanguage":"en-US","publisher":{"@id":"https:\/\/vertexpeptide.com\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+<link rel="alternate" type="application/rss+xml" title="VertexPeptide.com &raquo; Feed" href="https://vertexpeptide.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="VertexPeptide.com &raquo; Comments Feed" href="https://vertexpeptide.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="VertexPeptide.com &raquo; Products Feed" href="https://vertexpeptide.com/shop/feed/" />
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v9.9.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+		<!-- Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -->
+					<!-- No tracking code set -->
+				<!-- / Google Analytics by MonsterInsights -->
+		<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://vertexpeptide.com/wp-includes/css/dist/block-library/style.min.css?ver=6.9.4' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<link rel='stylesheet' id='aioseo/css/src/vue/standalone/blocks/table-of-contents/global.scss-css' href='https://vertexpeptide.com/wp-content/plugins/all-in-one-seo-pack/dist/Lite/assets/css/table-of-contents/global.e90f6d47.css?ver=4.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-components-css' href='https://vertexpeptide.com/wp-includes/css/dist/components/style.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-preferences-css' href='https://vertexpeptide.com/wp-includes/css/dist/preferences/style.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css' href='https://vertexpeptide.com/wp-includes/css/dist/block-editor/style.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-block-library-style-css' href='https://vertexpeptide.com/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=dbea705cfafe089d65f1' type='text/css' media='all' />
+<link rel='stylesheet' id='nta-css-popup-css' href='https://vertexpeptide.com/wp-content/plugins/whatsapp-for-wordpress/assets/dist/css/style.css?ver=6.9.4' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-term-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-term-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+/*# sourceURL=woocommerce-inline-inline-css */
+</style>
+<link rel='stylesheet' id='custom-toast-style-css' href='https://vertexpeptide.com/wp-content/themes/savoy-child/assets/css/custom-toast.css?ver=1778114864' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css' href='//vertexpeptide.com/wp-content/uploads/pum/pum-site-styles.css?generated=1764681725&#038;ver=1.21.5' type='text/css' media='all' />
+<link rel='stylesheet' id='normalize-css' href='https://vertexpeptide.com/wp-content/themes/savoy/assets/css/third-party/normalize.min.css?ver=3.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-slider-css' href='https://vertexpeptide.com/wp-content/themes/savoy/assets/css/third-party/slick.min.css?ver=1.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-slider-theme-css' href='https://vertexpeptide.com/wp-content/themes/savoy/assets/css/third-party/slick-theme.min.css?ver=1.5.5' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css' href='https://vertexpeptide.com/wp-content/themes/savoy/assets/css/third-party/magnific-popup.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='nm-grid-css' href='https://vertexpeptide.com/wp-content/themes/savoy/assets/css/grid.css?ver=3.1.01' type='text/css' media='all' />
+<link rel='stylesheet' id='selectod-css' href='https://vertexpeptide.com/wp-content/themes/savoy/assets/css/third-party/selectod.min.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='nm-shop-css' href='https://vertexpeptide.com/wp-content/themes/savoy/assets/css/shop.css?ver=3.1.01' type='text/css' media='all' />
+<link rel='stylesheet' id='nm-icons-css' href='https://vertexpeptide.com/wp-content/themes/savoy/assets/css/font-icons/theme-icons/theme-icons.min.css?ver=3.1.01' type='text/css' media='all' />
+<link rel='stylesheet' id='nm-core-css' href='https://vertexpeptide.com/wp-content/themes/savoy/style.css?ver=3.1.01' type='text/css' media='all' />
+<link rel='stylesheet' id='nm-elements-css' href='https://vertexpeptide.com/wp-content/themes/savoy/assets/css/elements.css?ver=3.1.01' type='text/css' media='all' />
+<link rel='stylesheet' id='nm-portfolio-css' href='https://vertexpeptide.com/wp-content/plugins/nm-portfolio/assets/css/nm-portfolio.css?ver=1.3.6' type='text/css' media='all' />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto:400,700&#038;display=swap&#038;ver=1774276086" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&#038;display=swap&#038;ver=1774276086" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&#038;display=swap&#038;ver=1774276086" /></noscript><link rel='stylesheet' id='nm-child-theme-css' href='https://vertexpeptide.com/wp-content/themes/savoy-child/style.css?v=01778114865&#038;ver=6.9.4' type='text/css' media='all' />
+<script type="text/javascript" src="https://vertexpeptide.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.7.0" id="wc-jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https://vertexpeptide.com/cart/","is_cart":"","cart_redirect_after_add":"no"};
+//# sourceURL=wc-add-to-cart-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=10.7.0" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.7.0" id="wc-js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_password_show":"Show password","i18n_password_hide":"Hide password"};
+//# sourceURL=woocommerce-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=10.7.0" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-cart-fragments-js-extra">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_3bf744642b82bd9b53830b3a68400ba9","fragment_name":"wc_fragments_3bf744642b82bd9b53830b3a68400ba9","request_timeout":"5000"};
+//# sourceURL=wc-cart-fragments-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=10.7.0" id="wc-cart-fragments-js" defer="defer" data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="https://vertexpeptide.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://vertexpeptide.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.4" />
+<meta name="generator" content="WooCommerce 10.7.0" />
+<meta name="generator" content="Redux 4.5.7" />	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 4.0.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="https://vertexpeptide.com/wp-content/uploads/2026/01/title_logo.png" sizes="32x32" />
+<link rel="icon" href="https://vertexpeptide.com/wp-content/uploads/2026/01/title_logo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://vertexpeptide.com/wp-content/uploads/2026/01/title_logo.png" />
+<meta name="msapplication-TileImage" content="https://vertexpeptide.com/wp-content/uploads/2026/01/title_logo.png" />
+<style type="text/css" class="nm-custom-styles">:root{ --nm--font-size-xsmall:12px;--nm--font-size-small:14px;--nm--font-size-medium:16px;--nm--font-size-large:18px;--nm--color-font:#777777;--nm--color-font-strong:#282828;--nm--color-font-highlight:#DC9814;--nm--color-border:#EEEEEE;--nm--color-divider:#CCCCCC;--nm--color-button:#FFFFFF;--nm--color-button-background:#282828;--nm--color-body-background:#FFFFFF;--nm--border-radius-container:0px;--nm--border-radius-image:0px;--nm--border-radius-image-fullwidth:0px;--nm--border-radius-inputs:0px;--nm--border-radius-button:0px;--nm--mobile-menu-color-font:#555555;--nm--mobile-menu-color-font-hover:#282828;--nm--mobile-menu-color-border:#EEEEEE;--nm--mobile-menu-color-background:#FFFFFF;--nm--shop-preloader-color:#ffffff;--nm--shop-preloader-gradient:linear-gradient(90deg, rgba(238,238,238,0) 20%, rgba(238,238,238,0.3) 50%, rgba(238,238,238,0) 70%);--nm--shop-rating-color:#DC9814;--nm--single-product-background-color:#EEEEEE;--nm--single-product-background-color-mobile:#EEEEEE;--nm--single-product-mobile-gallery-width:500px;}body{font-family:"Roboto",sans-serif;}.nm-menu li a{font-size:16px;font-weight:normal;}#nm-mobile-menu .menu > li > a{font-weight:normal;}#nm-mobile-menu-main-ul.menu > li > a{font-size:18px;}#nm-mobile-menu-secondary-ul.menu li a,#nm-mobile-menu .sub-menu a{font-size:15px;}.vc_tta.vc_tta-accordion .vc_tta-panel-title > a,.vc_tta.vc_general .vc_tta-tab > a,.nm-team-member-content h2,.nm-post-slider-content h3,.vc_pie_chart .wpb_pie_chart_heading,.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav a,.wpb_content_element .wpb_accordion_header a,#order_review .shop_table tfoot .order-total,#order_review .shop_table tfoot .order-total,.cart-collaterals .shop_table tr.order-total,.shop_table.cart .nm-product-details a,#nm-shop-sidebar-popup #nm-shop-search input,.nm-shop-categories li a,.nm-shop-filter-menu li a,.woocommerce-message,.woocommerce-info,.woocommerce-error,blockquote,.commentlist .comment .comment-text .meta strong,.nm-related-posts-content h3,.nm-blog-no-results h1,.nm-term-description,.nm-blog-categories-list li a,.nm-blog-categories-toggle li a,.nm-blog-heading h1,#nm-mobile-menu-top-ul .nm-mobile-menu-item-search input{font-size:18px;}@media all and (max-width:768px){.vc_toggle_title h3{font-size:18px;}}@media all and (max-width:400px){#nm-shop-search input{font-size:18px;}}.add_to_cart_inline .add_to_cart_button,.add_to_cart_inline .amount,.nm-product-category-text > a,.nm-testimonial-description,.nm-feature h3,.nm_btn,.vc_toggle_content,.nm-message-box,.wpb_text_column,#nm-wishlist-table ul li.title .woocommerce-loop-product__title,.nm-order-track-top p,.customer_details h3,.woocommerce-order-details .order_details tbody,.woocommerce-MyAccount-content .shop_table tr th,.woocommerce-MyAccount-navigation ul li a,.nm-MyAccount-user-info .nm-username,.nm-MyAccount-dashboard,.nm-myaccount-lost-reset-password h2,.nm-login-form-divider span,.woocommerce-thankyou-order-details li strong,.woocommerce-order-received h3,#order_review .shop_table tbody .product-name,.woocommerce-checkout .nm-coupon-popup-wrap .nm-shop-notice,.nm-checkout-login-coupon .nm-shop-notice,.shop_table.cart .nm-product-quantity-pricing .product-subtotal,.shop_table.cart .product-quantity,.shop_attributes tr th,.shop_attributes tr td,#tab-description,.woocommerce-tabs .tabs li a,.woocommerce-product-details__short-description,.nm-shop-no-products h3,.nm-infload-controls a,#nm-shop-browse-wrap .term-description,.list_nosep .nm-shop-categories .nm-shop-sub-categories li a,.nm-shop-taxonomy-text .term-description,.nm-shop-loop-details h3,.woocommerce-loop-category__title,div.wpcf7-response-output,.wpcf7 .wpcf7-form-control,.widget_search button,.widget_product_search #searchsubmit,#wp-calendar caption,.widget .nm-widget-title,.post .entry-content,.comment-form p label,.no-comments,.commentlist .pingback p,.commentlist .trackback p,.commentlist .comment .comment-text .description,.nm-search-results .nm-post-content,.post-password-form > p:first-child,.nm-post-pagination a .long-title,.nm-blog-list .nm-post-content,.nm-blog-grid .nm-post-content,.nm-blog-classic .nm-post-content,.nm-blog-pagination a,.nm-blog-categories-list.columns li a,.page-numbers li a,.page-numbers li span,#nm-widget-panel .total,#nm-widget-panel .nm-cart-panel-item-price .amount,#nm-widget-panel .quantity .qty,#nm-widget-panel .nm-cart-panel-quantity-pricing > span.quantity,#nm-widget-panel .product-quantity,.nm-cart-panel-product-title,#nm-widget-panel .product_list_widget .empty,#nm-cart-panel-loader h5,.nm-widget-panel-header,.button,input[type=submit]{font-size:16px;}@media all and (max-width:991px){#nm-shop-sidebar .widget .nm-widget-title,.nm-shop-categories li a{font-size:16px;}}@media all and (max-width:768px){.vc_tta.vc_tta-accordion .vc_tta-panel-title > a,.vc_tta.vc_tta-tabs.vc_tta-tabs-position-left .vc_tta-tab > a,.vc_tta.vc_tta-tabs.vc_tta-tabs-position-top .vc_tta-tab > a,.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav a,.wpb_content_element .wpb_accordion_header a,.nm-term-description{font-size:16px;}}@media all and (max-width:550px){.shop_table.cart .nm-product-details a,.nm-shop-notice,.nm-related-posts-content h3{font-size:16px;}}@media all and (max-width:400px){.nm-product-category-text .nm-product-category-heading,.nm-team-member-content h2,#nm-wishlist-empty h1,.cart-empty,.nm-shop-filter-menu li a,.nm-blog-categories-list li a{font-size:16px;}}.vc_progress_bar .vc_single_bar .vc_label,.woocommerce-tabs .tabs li a span,#nm-shop-sidebar-popup-reset-button,#nm-shop-sidebar-popup .nm-shop-sidebar .widget:last-child .nm-widget-title,#nm-shop-sidebar-popup .nm-shop-sidebar .widget .nm-widget-title,.woocommerce-loop-category__title .count,span.wpcf7-not-valid-tip,.widget_rss ul li .rss-date,.wp-caption-text,.comment-respond h3 #cancel-comment-reply-link,.nm-blog-categories-toggle li .count,.nm-menu-wishlist-count,.nm-menu li.nm-menu-offscreen .nm-menu-cart-count,.nm-menu-cart .count,.nm-menu .sub-menu li a,body{font-size:14px;}@media all and (max-width:768px){.wpcf7 .wpcf7-form-control{font-size:14px;}}@media all and (max-width:400px){.nm-blog-grid .nm-post-content,.header-mobile-default .nm-menu-cart.no-icon .count{font-size:14px;}}#nm-wishlist-table .nm-variations-list,.nm-MyAccount-user-info .nm-logout-button.border,#order_review .place-order noscript,#payment .payment_methods li .payment_box,#order_review .shop_table tfoot .woocommerce-remove-coupon,.cart-collaterals .shop_table tr.cart-discount td a,#nm-shop-sidebar-popup #nm-shop-search-notice,.wc-item-meta,.variation,.woocommerce-password-hint,.woocommerce-password-strength,.nm-validation-inline-notices .form-row.woocommerce-invalid-required-field:after{font-size:12px;}body{font-weight:normal;}h1, .h1-size{font-weight:normal;}h2, .h2-size{font-weight:normal;}h3, .h3-size{font-weight:normal;}h4, .h4-size,h5, .h5-size,h6, .h6-size{font-weight:normal;}body{color:#777777;}.nm-portfolio-single-back a span {background:#777777;}.mfp-close,.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav li.ui-tabs-active a,.vc_pie_chart .vc_pie_chart_value,.vc_progress_bar .vc_single_bar .vc_label .vc_label_units,.nm-testimonial-description,.form-row label,.woocommerce-form__label,#nm-shop-search-close:hover,.products .price .amount,.nm-shop-loop-actions > a,.nm-shop-loop-actions > a:active,.nm-shop-loop-actions > a:focus,.nm-infload-controls a,.woocommerce-breadcrumb a, .woocommerce-breadcrumb span,.variations,.woocommerce-grouped-product-list-item__label a,.woocommerce-grouped-product-list-item__price ins .amount,.woocommerce-grouped-product-list-item__price > .amount,.nm-quantity-wrap .quantity .nm-qty-minus,.nm-quantity-wrap .quantity .nm-qty-plus,.product .summary .single_variation_wrap .nm-quantity-wrap label:not(.nm-qty-label-abbrev),.woocommerce-tabs .tabs li.active a,.shop_attributes th,.product_meta,.shop_table.cart .nm-product-details a,.shop_table.cart .product-quantity,.shop_table.cart .nm-product-quantity-pricing .product-subtotal,.shop_table.cart .product-remove a,.cart-collaterals,.nm-cart-empty,#order_review .shop_table,#payment .payment_methods li label,.woocommerce-thankyou-order-details li strong,.wc-bacs-bank-details li strong,.nm-MyAccount-user-info .nm-username strong,.woocommerce-MyAccount-navigation ul li a:hover,.woocommerce-MyAccount-navigation ul li.is-active a,.woocommerce-table--order-details,#nm-wishlist-empty .note i,a.dark,a:hover,.nm-blog-heading h1 strong,.nm-post-header .nm-post-meta a,.nm-post-pagination a,.commentlist > li .comment-text .meta strong,.commentlist > li .comment-text .meta strong a,.comment-form p label,.entry-content strong,blockquote,blockquote p,.widget_search button,.widget_product_search #searchsubmit,.widget_recent_comments ul li .comment-author-link,.widget_recent_comments ul li:before{color:#282828;}@media all and (max-width: 991px){.nm-shop-menu .nm-shop-filter-menu li a:hover,.nm-shop-menu .nm-shop-filter-menu li.active a,#nm-shop-sidebar .widget.show .nm-widget-title,#nm-shop-sidebar .widget .nm-widget-title:hover{color:#282828;}}.nm-portfolio-single-back a:hover span{background:#282828;}.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav a,.wpb_content_element .wpb_accordion_header a,#nm-shop-search-close,.woocommerce-breadcrumb,.nm-single-product-menu a,.star-rating:before,.woocommerce-tabs .tabs li a,.product_meta span.sku,.product_meta a,.nm-post-meta,.nm-post-pagination a .short-title,.commentlist > li .comment-text .meta time{color:#A3A3A3;}.vc_toggle_title i,#nm-wishlist-empty p.icon i,h1{color:#282828;}h2{color:#282828;}h3{color:#282828;}h4, h5, h6{color:#282828;}a,a.dark:hover,a.gray:hover,a.invert-color:hover,.nm-highlight-text,.nm-highlight-text h1,.nm-highlight-text h2,.nm-highlight-text h3,.nm-highlight-text h4,.nm-highlight-text h5,.nm-highlight-text h6,.nm-highlight-text p,.nm-menu-wishlist-count,.nm-menu-cart a .count,.nm-menu li.nm-menu-offscreen .nm-menu-cart-count,.page-numbers li span.current,.page-numbers li a:hover,.nm-blog .sticky .nm-post-thumbnail:before,.nm-blog .category-sticky .nm-post-thumbnail:before,.nm-blog-categories-list li a:hover,.nm-blog-categories ul li.current-cat a,.widget ul li.active,.widget ul li a:hover,.widget ul li a:focus,.widget ul li a.active,#wp-calendar tbody td a,.nm-banner-link.type-txt:hover,.nm-banner.text-color-light .nm-banner-link.type-txt:hover,.nm-portfolio-categories li.current a,.add_to_cart_inline ins,.nm-product-categories.layout-separated .product-category:hover .nm-product-category-text > a,.woocommerce-breadcrumb a:hover,.products .price ins .amount,.products .price ins,.no-touch .nm-shop-loop-actions > a:hover,.nm-shop-menu ul li a:hover,.nm-shop-menu ul li.current-cat > a,.nm-shop-menu ul li.active a,.nm-shop-heading span,.nm-single-product-menu a:hover,.woocommerce-product-gallery__trigger:hover,.woocommerce-product-gallery .flex-direction-nav a:hover,.product-summary .price .amount,.product-summary .price ins,.product .summary .price .amount,.nm-product-wishlist-button-wrap a.added:active,.nm-product-wishlist-button-wrap a.added:focus,.nm-product-wishlist-button-wrap a.added:hover,.nm-product-wishlist-button-wrap a.added,.woocommerce-tabs .tabs li a span,.product_meta a:hover,.nm-order-view .commentlist li .comment-text .meta,.nm_widget_price_filter ul li.current,.post-type-archive-product .widget_product_categories .product-categories > li:first-child > a,.widget_product_categories ul li.current-cat > a,.widget_layered_nav ul li.chosen a,.widget_layered_nav_filters ul li.chosen a,.product_list_widget li ins .amount,.woocommerce.widget_rating_filter .wc-layered-nav-rating.chosen > a,.nm-wishlist-button.added:active,.nm-wishlist-button.added:focus,.nm-wishlist-button.added:hover,.nm-wishlist-button.added,.slick-prev:not(.slick-disabled):hover,.slick-next:not(.slick-disabled):hover,.flickity-button:hover,.nm-portfolio-categories li a:hover{color:#DC9814;}.nm-blog-categories ul li.current-cat a,.nm-portfolio-categories li.current a,.woocommerce-product-gallery.pagination-enabled .flex-control-thumbs li img.flex-active,.widget_layered_nav ul li.chosen a,.widget_layered_nav_filters ul li.chosen a,.slick-dots li.slick-active button,.flickity-page-dots .dot.is-selected{border-color:#DC9814;}.nm-image-overlay:before,.nm-image-overlay:after,.gallery-icon:before,.gallery-icon:after,.widget_tag_cloud a:hover,.widget_product_tag_cloud a:hover{background:#DC9814;}@media all and (max-width:400px){.woocommerce-product-gallery.pagination-enabled .flex-control-thumbs li img.flex-active,.slick-dots li.slick-active button,.flickity-page-dots .dot.is-selected{background:#DC9814;}}.header-border-1 .nm-header,.nm-blog-list .nm-post-divider,#nm-blog-pagination.infinite-load,.nm-post-pagination,.no-post-comments .nm-related-posts,.nm-footer-widgets.has-border,#nm-shop-browse-wrap.nm-shop-description-borders .term-description,.nm-shop-sidebar-default #nm-shop-sidebar .widget,.products.grid-list li:not(:last-child) .nm-shop-loop-product-wrap,.nm-infload-controls a,.woocommerce-tabs,.upsells,.related,.shop_table.cart tr td,#order_review .shop_table tbody tr th,#order_review .shop_table tbody tr td,#payment .payment_methods,#payment .payment_methods li,.woocommerce-MyAccount-orders tr td,.woocommerce-MyAccount-orders tr:last-child td,.woocommerce-table--order-details tbody tr td,.woocommerce-table--order-details tbody tr:first-child td,.woocommerce-table--order-details tfoot tr:last-child td,.woocommerce-table--order-details tfoot tr:last-child th,#nm-wishlist-table > ul > li,#nm-wishlist-table > ul:first-child > li,.wpb_accordion .wpb_accordion_section,.nm-portfolio-single-footer{border-color:#EEEEEE;}.nm-search-results .nm-post-divider{background:#EEEEEE;}.nm-blog-categories-list li span,.nm-portfolio-categories li span{color: #CCCCCC;}.nm-post-meta:before,.nm-testimonial-author span:before{background:#CCCCCC;}.nm-border-radius{border-radius:0px;}@media (max-width:1440px){.nm-page-wrap .elementor-column-gap-no .nm-banner-slider,.nm-page-wrap .elementor-column-gap-no .nm-banner,.nm-page-wrap .elementor-column-gap-no img,.nm-page-wrap .nm-row-full-nopad .nm-banner-slider,.nm-page-wrap .nm-row-full-nopad .nm-banner,.nm-page-wrap .nm-row-full-nopad .nm-banner-image,.nm-page-wrap .nm-row-full-nopad img{border-radius:var(--nm--border-radius-image-fullwidth);}}.button,input[type=submit],.widget_tag_cloud a, .widget_product_tag_cloud a,.add_to_cart_inline .add_to_cart_button,#nm-shop-sidebar-popup-button,.products.grid-list .nm-shop-loop-actions > a:first-of-type,.products.grid-list .nm-shop-loop-actions > a:first-child,#order_review .shop_table tbody .product-name .product-quantity{color:#FFFFFF;background-color:#282828;}.button:hover,input[type=submit]:hover.products.grid-list .nm-shop-loop-actions > a:first-of-type,.products.grid-list .nm-shop-loop-actions > a:first-child{color:#FFFFFF;}#nm-blog-pagination a,.button.border{border-color:#AAAAAA;}#nm-blog-pagination a,#nm-blog-pagination a:hover,.button.border,.button.border:hover{color:#282828;}#nm-blog-pagination a:not([disabled]):hover,.button.border:not([disabled]):hover{color:#282828;border-color:#282828;}.product-summary .quantity .nm-qty-minus,.product-summary .quantity .nm-qty-plus{color:#282828;}.nm-page-wrap{background-color:#FFFFFF;}.nm-divider .nm-divider-title,.nm-header-search{background:#FFFFFF;}.woocommerce-cart .blockOverlay,.woocommerce-checkout .blockOverlay {background-color:#FFFFFF !important;}.nm-top-bar{border-color:transparent;background:#282828;}.nm-top-bar .nm-top-bar-text,.nm-top-bar .nm-top-bar-text a,.nm-top-bar .nm-menu > li > a,.nm-top-bar .nm-menu > li > a:hover,.nm-top-bar-social li i{color:#EEEEEE;}.nm-header-placeholder{height:84px;}.nm-header{line-height:50px;padding-top:17px;padding-bottom:17px;background:#FFFFFF;}.home .nm-header{background:#FFFFFF;}.mobile-menu-open .nm-header{background:#FFFFFF !important;}.header-on-scroll .nm-header,.home.header-transparency.header-on-scroll .nm-header{background:#FFFFFF;}.header-on-scroll .nm-header:not(.static-on-scroll){padding-top:10px;padding-bottom:10px;}.nm-header.stacked .nm-header-logo,.nm-header.stacked-logo-centered .nm-header-logo,.nm-header.stacked-centered .nm-header-logo{padding-bottom:0px;}.nm-header-logo svg,.nm-header-logo img{height:50px;}@media all and (max-width:991px){.nm-header-placeholder{height:70px;}.nm-header{line-height:50px;padding-top:10px;padding-bottom:10px;}.nm-header.stacked .nm-header-logo,.nm-header.stacked-logo-centered .nm-header-logo,.nm-header.stacked-centered .nm-header-logo{padding-bottom:0px;}.nm-header-logo svg,.nm-header-logo img{height:40px;}}@media all and (max-width:400px){.nm-header-placeholder{height:70px;}.nm-header{line-height:50px;}.nm-header-logo svg,.nm-header-logo img{height:30px;}}.nm-menu li a{color:#707070;}.nm-menu li a:hover{color:#282828;}.header-transparency-light:not(.header-on-scroll):not(.mobile-menu-open) #nm-main-menu-ul > li > a,.header-transparency-light:not(.header-on-scroll):not(.mobile-menu-open) #nm-right-menu-ul > li > a{color:#FFFFFF;}.header-transparency-dark:not(.header-on-scroll):not(.mobile-menu-open) #nm-main-menu-ul > li > a,.header-transparency-dark:not(.header-on-scroll):not(.mobile-menu-open) #nm-right-menu-ul > li > a{color:#282828;}.header-transparency-light:not(.header-on-scroll):not(.mobile-menu-open) #nm-main-menu-ul > li > a:hover,.header-transparency-light:not(.header-on-scroll):not(.mobile-menu-open) #nm-right-menu-ul > li > a:hover{color:#DCDCDC;}.header-transparency-dark:not(.header-on-scroll):not(.mobile-menu-open) #nm-main-menu-ul > li > a:hover,.header-transparency-dark:not(.header-on-scroll):not(.mobile-menu-open) #nm-right-menu-ul > li > a:hover{color:#707070;}.no-touch .header-transparency-light:not(.header-on-scroll):not(.mobile-menu-open) .nm-header:hover{background-color:transparent;}.no-touch .header-transparency-dark:not(.header-on-scroll):not(.mobile-menu-open) .nm-header:hover{background-color:transparent;}.nm-menu .sub-menu{background:#282828;}.nm-menu .sub-menu li a{color:#A0A0A0;}.nm-menu .megamenu > .sub-menu > ul > li:not(.nm-menu-item-has-image) > a,.nm-menu .sub-menu li a .label,.nm-menu .sub-menu li a:hover{color:#EEEEEE;}.nm-menu .megamenu.full > .sub-menu{padding-top:28px;padding-bottom:15px;background:#FFFFFF;}.nm-menu .megamenu.full > .sub-menu > ul{max-width:1080px;}.nm-menu .megamenu.full .sub-menu li a{color:#777777;}.nm-menu .megamenu.full > .sub-menu > ul > li:not(.nm-menu-item-has-image) > a,.nm-menu .megamenu.full .sub-menu li a:hover{color:#282828;}.nm-menu .megamenu > .sub-menu > ul > li.nm-menu-item-has-image{border-right-color:#EEEEEE;}.nm-menu-icon span{background:#707070;}.header-transparency-light:not(.header-on-scroll):not(.mobile-menu-open) .nm-menu-icon span{background:#FFFFFF;}.header-transparency-dark:not(.header-on-scroll):not(.mobile-menu-open) .nm-menu-icon span{background:#282828;}#nm-mobile-menu-top-ul .nm-mobile-menu-item-search input,#nm-mobile-menu-top-ul .nm-mobile-menu-item-search span,.nm-mobile-menu-social-ul li a{color:#555555;}.no-touch #nm-mobile-menu .menu a:hover,#nm-mobile-menu .menu li.active > a,#nm-mobile-menu .menu > li.active > .nm-menu-toggle:before,#nm-mobile-menu .menu a .label,.nm-mobile-menu-social-ul li a:hover{color:#282828;}.nm-footer-widgets{padding-top:55px;padding-bottom:15px;background-color:#FFFFFF;}.nm-footer-widgets,.nm-footer-widgets .widget ul li a,.nm-footer-widgets a{color:#777777;}.nm-footer-widgets .widget .nm-widget-title{color:#282828;}.nm-footer-widgets .widget ul li a:hover,.nm-footer-widgets a:hover{color:#DC9814;}.nm-footer-widgets .widget_tag_cloud a:hover,.nm-footer-widgets .widget_product_tag_cloud a:hover{background:#DC9814;}@media all and (max-width:991px){.nm-footer-widgets{padding-top:55px;padding-bottom:15px;}}.nm-footer-bar{color:#AAAAAA;}.nm-footer-bar-inner{padding-top:30px;padding-bottom:30px;background-color:#282828;}.nm-footer-bar a{color:#AAAAAA;}.nm-footer-bar a:hover{color:#EEEEEE;}.nm-footer-bar .menu > li{border-bottom-color:#3A3A3A;}.nm-footer-bar-social a{color:#EEEEEE;}.nm-footer-bar-social a:hover{color:#C6C6C6;}@media all and (max-width:991px){.nm-footer-bar-inner{padding-top:30px;padding-bottom:30px;}}.nm-comments{background:#F7F7F7;}.nm-comments .commentlist > li,.nm-comments .commentlist .pingback,.nm-comments .commentlist .trackback{border-color:#E7E7E7;}#nm-shop-products-overlay,#nm-shop{background-color:#FFFFFF;}#nm-shop-taxonomy-header.has-image{height:370px;}.nm-shop-taxonomy-text-col{max-width:none;}.nm-shop-taxonomy-text h1{color:#282828;}.nm-shop-taxonomy-text .term-description{color:#777777;}@media all and (max-width:991px){#nm-shop-taxonomy-header.has-image{height:370px;}}@media all and (max-width:768px){#nm-shop-taxonomy-header.has-image{height:210px;}} .nm-shop-widget-scroll{max-height:145px;}.onsale{color:#282828;background:#FFFFFF;}.nm-label-itsnew{color:#FFFFFF;background:#282828;}.products li.outofstock .nm-shop-loop-thumbnail > .woocommerce-LoopProduct-link:after{color:#282828;background:#FFFFFF;}.nm-shop-loop-thumbnail{background:#EEEEEE;}.nm-featured-video-icon{color:#282828;background:#FFFFFF;}@media all and (max-width:1080px){.woocommerce-product-gallery.pagination-enabled .flex-control-thumbs{background-color:#FFFFFF;}}.nm-variation-control.nm-variation-control-color li i{width:19px;height:19px;}.nm-variation-control.nm-variation-control-image li .nm-pa-image-thumbnail-wrap{width:19px;height:19px;}.error404 .nm-page-wrap{background-color:#EEEEEE;}.nm-page-not-found{background-color:#FFFFFF;}</style>
+<style type="text/css" class="nm-translation-styles">.products li.outofstock .nm-shop-loop-thumbnail > .woocommerce-LoopProduct-link:after{content:"Out of stock";}.nm-validation-inline-notices .form-row.woocommerce-invalid-required-field:after{content:"Required field.";}.theme-savoy .wc-block-cart.wp-block-woocommerce-filled-cart-block:before{content:"Shopping Cart";}</style>
+    </head>
+    
+	<body class="home archive post-type-archive post-type-archive-product wp-theme-savoy wp-child-theme-savoy-child theme-savoy woocommerce-shop woocommerce woocommerce-page woocommerce-demo-store woocommerce-no-js nm-page-load-transition-0 nm-preload has-top-bar top-bar-mobile-none header-fixed header-mobile-default header-border-0 mobile-menu-layout-side mobile-menu-panels cart-panel-dark nm-shop-preloader-spinner elementor-default elementor-kit-8">
+        <p role="complementary" aria-label="Store notice" class="woocommerce-store-notice demo_store" data-notice-id="ae88c2bacf9af502f49943f92eb17452" style="display:none;">Welcome to inquire about our products. Our customer service is available 24/7. <a role="button" href="#" class="woocommerce-store-notice__dismiss-link">Dismiss</a></p>                
+        <div class="nm-page-overflow">
+            <div class="nm-page-wrap">
+                <div id="nm-top-bar" class="nm-top-bar">
+    <div class="nm-row">
+        <div class="nm-top-bar-left col-xs-6">
+            
+            <div class="nm-top-bar-text">
+                            Welcome to our shop!                        </div>
+        </div>
+
+        <div class="nm-top-bar-right col-xs-6">
+            
+            <ul id="nm-top-menu" class="nm-menu"><li id="menu-item-7454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7454"><a href="https://vertexpeptide.com/wishlist/">Wishlist</a></li>
+<li id="menu-item-7443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7443"><a href="https://vertexpeptide.com/order-tracking/">Order Tracking</a></li>
+</ul>        </div>
+    </div>                
+</div>                            
+                <div class="nm-page-wrap-inner">
+                    <div id="nm-header-placeholder" class="nm-header-placeholder"></div>
+
+<header id="nm-header" class="nm-header menu-centered resize-on-scroll mobile-menu-icon-bold clear">
+        <div class="nm-header-inner">
+        <div class="nm-header-row nm-row">
+    <div class="nm-header-col col-xs-12">
+                
+        <div class="nm-header-left">
+                        <nav class="nm-mobile-menu-button-wrapper">
+                <ul id="nm-mobile-menu-button-ul" class="nm-menu">
+                            <li class="nm-menu-offscreen menu-item-default">
+                        <a href="#" class="nm-mobile-menu-button clicked">
+                <span class="nm-menu-icon">
+                    <span class="line-1"></span>
+                    <span class="line-2"></span>
+                    <span class="line-3"></span>
+                </span>
+            </a>
+        </li>
+                        </ul>
+            </nav>
+            
+            <div class="nm-header-logo">
+    <a href="https://vertexpeptide.com/">
+        <img src="https://vertexpeptide.com/wp-content/uploads/2026/01/Website_Logo_208_60px_300dpi.svg" class="nm-logo" width="208" height="60" alt="VertexPeptide.com">
+            </a>
+</div>        </div>
+        
+                       
+        <nav class="nm-main-menu">
+            <ul id="nm-main-menu-ul" class="nm-menu">
+                                
+                <li id="menu-item-7349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children current-menu-item current_page_item menu-item-7349"><a href="https://vertexpeptide.com/" aria-current="page">All Products</a>
+<div class='sub-menu'><div class='nm-sub-menu-bridge'></div><ul class='nm-sub-menu-ul'>
+	<li id="menu-item-7769" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-7769"><a href="https://vertexpeptide.com/product-category/hgh-peptides/">HGH &amp; Peptides</a>
+	<div class='sub-menu'><ul class='nm-sub-menu-ul'>
+		<li id="menu-item-7773" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7773"><a href="https://vertexpeptide.com/product-category/new-arrivals/">New Arrivals</a></li>
+		<li id="menu-item-7774" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7774"><a href="https://vertexpeptide.com/product-category/hgh-peptides/anti-aging/">Anti-Aging</a></li>
+		<li id="menu-item-7775" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7775"><a href="https://vertexpeptide.com/product-category/hgh-peptides/repair-and-healing/">Repair and Healing</a></li>
+		<li id="menu-item-7776" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7776"><a href="https://vertexpeptide.com/product-category/hgh-peptides/growth-and-repair/">Growth and Repair</a></li>
+		<li id="menu-item-7777" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7777"><a href="https://vertexpeptide.com/product-category/weight-loss/">Weight Loss</a></li>
+		<li id="menu-item-7778" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7778"><a href="https://vertexpeptide.com/product-category/hgh-peptides/hcg/">hCG</a></li>
+	</ul></div>
+</li>
+	<li id="menu-item-7770" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-7770"><a href="https://vertexpeptide.com/product-category/equipment-machinery/">Equipment Machinery</a>
+	<div class='sub-menu'><ul class='nm-sub-menu-ul'>
+		<li id="menu-item-7779" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7779"><a href="https://vertexpeptide.com/product-category/equipment-machinery/lyophilizer-freeze-dryer/">Lyophilizer / Freeze Dryer</a></li>
+		<li id="menu-item-7780" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7780"><a href="https://vertexpeptide.com/product-category/equipment-machinery/hologram-stickers/">Hologram Stickers</a></li>
+		<li id="menu-item-7781" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7781"><a href="https://vertexpeptide.com/product-category/equipment-machinery/packing-machine/">Packing Machine</a></li>
+		<li id="menu-item-7782" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7782"><a href="https://vertexpeptide.com/product-category/equipment-machinery/sterile-filtration/">Sterile Filtration</a></li>
+	</ul></div>
+</li>
+	<li id="menu-item-7771" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7771"><a href="https://vertexpeptide.com/product-category/hgh-peptides/anti-aging/">Anti-Aging</a></li>
+	<li id="menu-item-7772" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7772"><a href="https://vertexpeptide.com/product-category/ancillary-raws/">Ancillary Raws</a></li>
+</ul></div>
+</li>
+<li id="menu-item-8066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8066"><a href="https://vertexpeptide.com/lab-results/">Lab Results</a></li>
+<li id="menu-item-8831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8831"><a href="https://vertexpeptide.com/easy_buy/">Easy Buy</a></li>
+<li id="menu-item-8076" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8076"><a href="https://vertexpeptide.com/faq/#my_faq">FAQ</a></li>
+<li id="menu-item-7588" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7588"><a href="https://vertexpeptide.com/contact/">Contact</a></li>
+<li id="menu-item-8957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8957"><a href="https://vertexpeptide.com/blog/">Blog</a></li>
+            </ul>
+        </nav>
+        
+        <nav class="nm-right-menu">
+            <ul id="nm-right-menu-ul" class="nm-menu">
+                <li class="nm-menu-search menu-item-default has-icon"><a href="#" id="nm-menu-search-btn" aria-label="Search"><i class="nm-font nm-font-search"></i></a></li><li class="nm-menu-account menu-item-default no-icon" aria-label="My account"><a href="https://vertexpeptide.com/my-account/" id="nm-menu-account-btn">Login</a></li><li class="nm-menu-wishlist menu-item-default has-icon if-zero-hide-icon" aria-label="Wishlist"><a href="https://vertexpeptide.com/wishlist/"><i class="nm-font nm-font-heart-outline"></i></a></li><li class="nm-menu-cart menu-item-default has-icon"><a href="#" id="nm-menu-cart-btn"><i class="nm-menu-cart-icon nm-font nm-font-cart"></i> <span class="nm-menu-cart-count count nm-count-zero">0</span></a></li>                
+                            </ul>
+        </nav>
+
+            </div>
+</div>    </div>
+</header>
+
+<div class="nm-header-search-holder">
+    <div id="nm-header-search">
+        <a href="#" id="nm-header-search-close" class="nm-font nm-font-close2"></a>
+
+        <div class="nm-header-search-wrap">
+            <div class="nm-header-search-form-wrap">
+                <form id="nm-header-search-form" role="search" method="get" action="https://vertexpeptide.com/">
+                    <a id="nm-header-search-clear-button" class="button border">
+                        <i class="nm-font-close2"></i>
+                        <span>Clear</span>
+                    </a>
+                    <i class="nm-font nm-font-search"></i>
+                    <input type="text" id="nm-header-search-input" autocomplete="off" value="" name="s" placeholder="Search products&hellip;" />
+                    <input type="hidden" name="post_type" value="product" />
+                </form>
+            </div>
+
+            
+                        <div id="nm-header-search-notice"><span>press <u>Enter</u> to search</span></div>
+                    </div>
+    </div>
+    
+    <div class="nm-page-overlay nm-header-search-overlay"></div>
+</div>
+
+
+
+
+<div id="nm-shop" class="nm-shop header-enabled ajax-enabled nm-shop-sidebar-header images-lazyload">
+    
+        <div class="nm-shop-header has-categories has-filters no-sidebar no-search">
+        <div class="nm-shop-menu list_sep thumbnails-top">
+            <div class="nm-row">
+                <div class="col-xs-12">
+                    <div id="nm-shop-filter-menu-wrap">
+                        <ul id="nm-shop-filter-menu" class="nm-shop-filter-menu">
+                                                        <li class="nm-shop-categories-btn-wrap" data-panel="cat">
+                                <a href="#categories" class="invert-color">Categories</a>
+                            </li>
+                                                                                    <li class="nm-shop-filter-btn-wrap" data-panel="filter">
+                                <a href="#filter" class="invert-color"><i class="nm-font nm-font-filter-list"></i><span>Filter</span></a>
+                            </li>
+                                                                                                            </ul>
+                    </div>
+                                        <div id="nm-shop-categories-wrap">
+                        <ul id="nm-shop-categories" class="nm-shop-categories"><li class="current-cat"><a href="https://vertexpeptide.com/">All</a></li><li class="cat-item-119"><span class="nm-shop-categories-divider">&frasl;</span><a href="https://vertexpeptide.com/product-category/default/">default</a></li><li class="cat-item-107"><span class="nm-shop-categories-divider">&frasl;</span><a href="https://vertexpeptide.com/product-category/hgh-peptides/">HGH &amp; Peptides</a></li><li class="cat-item-104"><span class="nm-shop-categories-divider">&frasl;</span><a href="https://vertexpeptide.com/product-category/weight-loss/">Weight Loss</a></li></ul>                    </div>
+                                    </div>
+            </div>
+        </div>
+        
+                <div id="nm-shop-sidebar" class="nm-shop-sidebar nm-shop-sidebar-header" data-sidebar-layout="header">
+            <div class="nm-shop-sidebar-inner">
+                <div class="nm-row">
+                    <div class="col-xs-12">
+                        <ul id="nm-shop-widgets-ul" class="small-block-grid-4">
+                            <li id="nm_woocommerce_widget_product_sorting-1" class="widget nm_widget nm_widget_product_sorting woocommerce"><div class="nm-shop-widget-col"><h3 class="nm-widget-title">Sort By</h3></div><div class="nm-shop-widget-col"><ul id="nm-product-sorting" class="nm-product-sorting"><li><a href="https://vertexpeptide.com?orderby=menu_order" rel="nofollow">Default</a></li><li class="active">Popularity</li><li><a href="https://vertexpeptide.com?orderby=rating" rel="nofollow">Average rating</a></li><li><a href="https://vertexpeptide.com?orderby=date" rel="nofollow">Newness</a></li><li><a href="https://vertexpeptide.com?orderby=price" rel="nofollow">Price: Low to High</a></li><li><a href="https://vertexpeptide.com?orderby=price-desc" rel="nofollow">Price: High to Low</a></li></ul></div></li><li id="nm_woocommerce_price_filter-1" class="widget nm_widget nm_widget_price_filter woocommerce"><div class="nm-shop-widget-col"><h3 class="nm-widget-title">Price</h3></div><div class="nm-shop-widget-col"><ul class="nm-price-filter"><li class="current">All</li><li><a href="https://vertexpeptide.com?min_price=0&#038;max_price=50" rel="nofollow"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>0</bdi></span> - <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>50</bdi></span></a></li><li><a href="https://vertexpeptide.com?min_price=50&#038;max_price=100" rel="nofollow"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>50</bdi></span> - <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>100</bdi></span></a></li><li><a href="https://vertexpeptide.com?min_price=100&#038;max_price=150" rel="nofollow"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>100</bdi></span> - <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150</bdi></span></a></li><li><a href="https://vertexpeptide.com?min_price=150&#038;max_price=200" rel="nofollow"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>150</bdi></span> - <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>200</bdi></span></a></li><li><a href="https://vertexpeptide.com?min_price=200&#038;max_price=566" rel="nofollow"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>200</bdi></span>+</a></li></ul></div></li>                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="nm-shop-sidebar-layout-indicator"></div> <!-- Don't remove (used for testing sidebar/filters layout in JavaScript) -->
+        </div>
+                
+            </div>
+
+    <div id="nm-shop-notices-wrap"></div>
+    <div id="nm-shop-products" class="nm-shop-products">
+        <div class="nm-row">
+            
+            <div class="nm-shop-products-col col-xs-12">
+                <div id="nm-shop-products-overlay" class="nm-loader"></div>
+                <div id="nm-shop-browse-wrap" class="nm-shop-description-clean">
+                    
+                    
+                    <div class="woocommerce-notices-wrapper"></div><ul class="nm-products products xsmall-block-grid-1 small-block-grid-2 medium-block-grid-3 large-block-grid-4 grid-default layout-default attributes-position-thumbnail has-action-links action-link-position-details">
+<li class="nm-has-attributes product type-product post-8660 status-publish first instock product_cat-default product_cat-hgh-peptides product_tag-easy-buy product_tag-research-use-only has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="8660">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/bac-water-bacteriostatic-water-for-research-use/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>17<span class="nm-onsale-after">%</span></span>
+<img fetchpriority="high" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Bac-water-3-ml-per-vial-wholesale-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Bac-water-3-ml-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Bac-water-3-ml-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Bac-water-3-ml-per-vial-wholesale.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8660-button" class="nm-wishlist-button nm-wishlist-item-8660-button" data-product-id="8660" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/bac-water-bacteriostatic-water-for-research-use/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">BAC Water – Bacteriostatic Water for Research Use</a></h3>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>10.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>15.00</bdi></span><span class="screen-reader-text">Price range: &#36;10.00 through &#36;15.00</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="https://vertexpeptide.com/product/bac-water-bacteriostatic-water-for-research-use/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8660" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="8660" data-product_sku="BAC Water" aria-label="Select options for &ldquo;BAC Water – Bacteriostatic Water for Research Use&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8660" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
+<a href="https://vertexpeptide.com/product/bac-water-bacteriostatic-water-for-research-use/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+        <div class="nm-shop-loop-attributes" data-thumb-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Bac-water-3-ml-per-vial-wholesale-350x263.png" data-thumb-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Bac-water-3-ml-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Bac-water-3-ml-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Bac-water-3-ml-per-vial-wholesale.png 600w"></div>    </div>
+</li>
+<li class="nm-has-attributes product type-product post-8442 status-publish instock product_cat-hgh-peptides product_cat-weight-loss product_tag-easy-buy product_tag-index product_tag-retatrutide-lyophilized-powder has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="8442">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/99-150-retatrutide-lyophilized-powder-1kit-wholesale/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>47<span class="nm-onsale-after">%</span></span>
+<img src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Retatrutide-5mg-per-vial-wholesale-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Retatrutide-5mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Retatrutide-5mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Retatrutide-5mg-per-vial-wholesale.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8442-button" class="nm-wishlist-button nm-wishlist-item-8442-button" data-product-id="8442" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/99-150-retatrutide-lyophilized-powder-1kit-wholesale/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">99.150% Retatrutide Lyophilized Powder 1Kit Wholesale</a></h3>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>94.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>361.00</bdi></span><span class="screen-reader-text">Price range: &#36;94.00 through &#36;361.00</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="https://vertexpeptide.com/product/99-150-retatrutide-lyophilized-powder-1kit-wholesale/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8442" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="8442" data-product_sku="Retatrutide" aria-label="Select options for &ldquo;99.150% Retatrutide Lyophilized Powder 1Kit Wholesale&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8442" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
+<a href="https://vertexpeptide.com/product/99-150-retatrutide-lyophilized-powder-1kit-wholesale/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+        <div class="nm-shop-loop-attributes" data-thumb-src="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Retatrutide-5mg-per-vial-wholesale-350x263.png" data-thumb-srcset="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Retatrutide-5mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Retatrutide-5mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Retatrutide-5mg-per-vial-wholesale.png 600w"></div>    </div>
+</li>
+<li class="nm-has-attributes product type-product post-8748 status-publish instock product_cat-hgh-peptides product_tag-buy-hgh-10iu product_tag-easy-buy product_tag-hgh product_tag-hgh-supplier product_tag-hgh-wholesale product_tag-index has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="8748">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/97-hgh-191-aa-10iu-1-vial-2/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>6<span class="nm-onsale-after">%</span></span>
+<img loading="lazy" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-HGH-191-AA-97-10iu-per-vial-wholesale-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-HGH-191-AA-97-10iu-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-HGH-191-AA-97-10iu-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-HGH-191-AA-97-10iu-per-vial-wholesale.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8748-button" class="nm-wishlist-button nm-wishlist-item-8748-button" data-product-id="8748" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/97-hgh-191-aa-10iu-1-vial-2/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">97% HGH 191 aa 10iu 1 Kit</a></h3>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>63.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>151.00</bdi></span><span class="screen-reader-text">Price range: &#36;63.00 through &#36;151.00</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="https://vertexpeptide.com/product/97-hgh-191-aa-10iu-1-vial-2/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8748" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="8748" data-product_sku="HGH 191 AA 97%" aria-label="Select options for &ldquo;97% HGH 191 aa 10iu 1 Kit&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8748" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
+<a href="https://vertexpeptide.com/product/97-hgh-191-aa-10iu-1-vial-2/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+        <div class="nm-shop-loop-attributes" data-thumb-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-HGH-191-AA-97-10iu-per-vial-wholesale-350x263.png" data-thumb-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-HGH-191-AA-97-10iu-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-HGH-191-AA-97-10iu-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-HGH-191-AA-97-10iu-per-vial-wholesale.png 600w"></div>    </div>
+</li>
+<li class="product type-product post-8679 status-publish last instock product_cat-growth-and-repair product_cat-hgh-peptides product_tag-easy-buy product_tag-index product_tag-research-use-only has-post-thumbnail sale shipping-taxable purchasable product-type-simple" data-product-id="8679">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/bpc-157-tb500-peptide-blend-research-use-only/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>9<span class="nm-onsale-after">%</span></span>
+<img loading="lazy" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-BPC157-5mg-TB500-5mg-10mg-per-vial-wholesale-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-BPC157-5mg-TB500-5mg-10mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-BPC157-5mg-TB500-5mg-10mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-BPC157-5mg-TB500-5mg-10mg-per-vial-wholesale.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8679-button" class="nm-wishlist-button nm-wishlist-item-8679-button" data-product-id="8679" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/bpc-157-tb500-peptide-blend-research-use-only/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">BPC-157 + TB500 Peptide Blend Research Use Only</a></h3>
+	<span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>155.00</bdi></span></del> <span class="screen-reader-text">Original price was: &#036;155.00.</span><ins aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>141.00</bdi></span></ins><span class="screen-reader-text">Current price is: &#036;141.00.</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="/?add-to-cart=8679" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8679" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="8679" data-product_sku="BPC-157 5+5" aria-label="Add to cart: &ldquo;BPC-157 + TB500 Peptide Blend Research Use Only&rdquo;" rel="nofollow" data-success_message="&ldquo;BPC-157 + TB500 Peptide Blend Research Use Only&rdquo; has been added to your cart" role="button">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8679" class="screen-reader-text">
+			</span>
+<a href="https://vertexpeptide.com/product/bpc-157-tb500-peptide-blend-research-use-only/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+            </div>
+</li>
+<li class="nm-has-attributes product type-product post-8634 status-publish first instock product_cat-anti-aging product_cat-default product_cat-hgh-peptides product_tag-easy-buy product_tag-research-use-only has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="8634">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/mots-c-peptide-mitochondrial-derived-peptide-for-metabolic-research/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>15<span class="nm-onsale-after">%</span></span>
+<img loading="lazy" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-MOTS-C-10mg-per-vial-wholesale-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-MOTS-C-10mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-MOTS-C-10mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-MOTS-C-10mg-per-vial-wholesale.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8634-button" class="nm-wishlist-button nm-wishlist-item-8634-button" data-product-id="8634" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/mots-c-peptide-mitochondrial-derived-peptide-for-metabolic-research/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">MOTS-C Peptide | Mitochondrial-Derived Peptide for Metabolic Research</a></h3>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>79.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>314.00</bdi></span><span class="screen-reader-text">Price range: &#36;79.00 through &#36;314.00</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="https://vertexpeptide.com/product/mots-c-peptide-mitochondrial-derived-peptide-for-metabolic-research/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8634" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="8634" data-product_sku="MOTS-C" aria-label="Select options for &ldquo;MOTS-C Peptide | Mitochondrial-Derived Peptide for Metabolic Research&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8634" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
+<a href="https://vertexpeptide.com/product/mots-c-peptide-mitochondrial-derived-peptide-for-metabolic-research/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+        <div class="nm-shop-loop-attributes" data-thumb-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-MOTS-C-10mg-per-vial-wholesale-350x263.png" data-thumb-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-MOTS-C-10mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-MOTS-C-10mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-MOTS-C-10mg-per-vial-wholesale.png 600w"></div>    </div>
+</li>
+<li class="nm-has-attributes product type-product post-8619 status-publish instock product_cat-default product_cat-hgh-peptides product_tag-copper-peptide product_tag-easy-buy product_tag-ghk-100mg product_tag-ghk-50mg has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="8619">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/ghk-cu-lyophilized-powder-1kit-wholesale/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>24<span class="nm-onsale-after">%</span></span>
+<img loading="lazy" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-GHK-CU-50mg-per-vial-wholesale-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-GHK-CU-50mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-GHK-CU-50mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-GHK-CU-50mg-per-vial-wholesale.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8619-button" class="nm-wishlist-button nm-wishlist-item-8619-button" data-product-id="8619" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/ghk-cu-lyophilized-powder-1kit-wholesale/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">GHK-CU Lyophilized Powder 1Kit Wholesale</a></h3>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>38.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>69.00</bdi></span><span class="screen-reader-text">Price range: &#36;38.00 through &#36;69.00</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="https://vertexpeptide.com/product/ghk-cu-lyophilized-powder-1kit-wholesale/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8619" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="8619" data-product_sku="GHK-CU" aria-label="Select options for &ldquo;GHK-CU Lyophilized Powder 1Kit Wholesale&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8619" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
+<a href="https://vertexpeptide.com/product/ghk-cu-lyophilized-powder-1kit-wholesale/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+        <div class="nm-shop-loop-attributes" data-thumb-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-GHK-CU-50mg-per-vial-wholesale-350x263.png" data-thumb-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-GHK-CU-50mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-GHK-CU-50mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-GHK-CU-50mg-per-vial-wholesale.png 600w"></div>    </div>
+</li>
+<li class="nm-has-attributes product type-product post-8773 status-publish instock product_cat-default product_cat-hgh-peptides product_tag-easy-buy product_tag-research-use-only has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="8773">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/kisspeptin-10-peptide-gnrh-axis-reproductive-research-use-only/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>12<span class="nm-onsale-after">%</span></span>
+<img loading="lazy" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-KISSPEPTIN-10-5mg-per-vial-wholesale-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-KISSPEPTIN-10-5mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-KISSPEPTIN-10-5mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-KISSPEPTIN-10-5mg-per-vial-wholesale.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8773-button" class="nm-wishlist-button nm-wishlist-item-8773-button" data-product-id="8773" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/kisspeptin-10-peptide-gnrh-axis-reproductive-research-use-only/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Kisspeptin-10 Peptide| GnRH Axis &#038; Reproductive Research Use Only</a></h3>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>79.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>126.00</bdi></span><span class="screen-reader-text">Price range: &#36;79.00 through &#36;126.00</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="https://vertexpeptide.com/product/kisspeptin-10-peptide-gnrh-axis-reproductive-research-use-only/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8773" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="8773" data-product_sku="Kisspeptin-10" aria-label="Select options for &ldquo;Kisspeptin-10 Peptide| GnRH Axis &amp; Reproductive Research Use Only&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8773" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
+<a href="https://vertexpeptide.com/product/kisspeptin-10-peptide-gnrh-axis-reproductive-research-use-only/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+        <div class="nm-shop-loop-attributes" data-thumb-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-KISSPEPTIN-10-5mg-per-vial-wholesale-350x263.png" data-thumb-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-KISSPEPTIN-10-5mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-KISSPEPTIN-10-5mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-KISSPEPTIN-10-5mg-per-vial-wholesale.png 600w"></div>    </div>
+</li>
+<li class="nm-has-attributes product type-product post-8767 status-publish last instock product_cat-default product_cat-growth-and-repair product_cat-hgh-peptides product_tag-easy-buy has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="8767">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/ipamorelin-99-61-pure-lyophilized-peptide-for-research/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>25<span class="nm-onsale-after">%</span></span>
+<img loading="lazy" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Ipamorelin-5mg-per-vial-wholesale-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Ipamorelin-5mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Ipamorelin-5mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Ipamorelin-5mg-per-vial-wholesale.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8767-button" class="nm-wishlist-button nm-wishlist-item-8767-button" data-product-id="8767" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/ipamorelin-99-61-pure-lyophilized-peptide-for-research/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Ipamorelin – 99.61% Pure Lyophilized Peptide for Research</a></h3>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>47.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>82.00</bdi></span><span class="screen-reader-text">Price range: &#36;47.00 through &#36;82.00</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="https://vertexpeptide.com/product/ipamorelin-99-61-pure-lyophilized-peptide-for-research/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8767" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="8767" data-product_sku="Ipamorelin" aria-label="Select options for &ldquo;Ipamorelin – 99.61% Pure Lyophilized Peptide for Research&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8767" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
+<a href="https://vertexpeptide.com/product/ipamorelin-99-61-pure-lyophilized-peptide-for-research/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+        <div class="nm-shop-loop-attributes" data-thumb-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Ipamorelin-5mg-per-vial-wholesale-350x263.png" data-thumb-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Ipamorelin-5mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Ipamorelin-5mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-Ipamorelin-5mg-per-vial-wholesale.png 600w"></div>    </div>
+</li>
+<li class="nm-has-attributes product type-product post-8761 status-publish first instock product_cat-growth-and-repair product_cat-hgh-peptides product_tag-easy-buy product_tag-igf-1-lr3-powder has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="8761">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/99-265-igf-1-lr3-1mg-0-1mg-1kit-10vials/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>18<span class="nm-onsale-after">%</span></span>
+<img loading="lazy" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-IGF-1-LR3-0.1mg-per-vial-wholesale-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-IGF-1-LR3-0.1mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-IGF-1-LR3-0.1mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-IGF-1-LR3-0.1mg-per-vial-wholesale.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8761-button" class="nm-wishlist-button nm-wishlist-item-8761-button" data-product-id="8761" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/99-265-igf-1-lr3-1mg-0-1mg-1kit-10vials/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">99.265% IGF-1 LR3 1mg 0.1mg 1kit 10vials</a></h3>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>50.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>245.00</bdi></span><span class="screen-reader-text">Price range: &#36;50.00 through &#36;245.00</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="https://vertexpeptide.com/product/99-265-igf-1-lr3-1mg-0-1mg-1kit-10vials/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8761" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="8761" data-product_sku="IGF-1 LR3" aria-label="Select options for &ldquo;99.265% IGF-1 LR3 1mg 0.1mg 1kit 10vials&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8761" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
+<a href="https://vertexpeptide.com/product/99-265-igf-1-lr3-1mg-0-1mg-1kit-10vials/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+        <div class="nm-shop-loop-attributes" data-thumb-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-IGF-1-LR3-0.1mg-per-vial-wholesale-350x263.png" data-thumb-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-IGF-1-LR3-0.1mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-IGF-1-LR3-0.1mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-IGF-1-LR3-0.1mg-per-vial-wholesale.png 600w"></div>    </div>
+</li>
+<li class="nm-has-attributes product type-product post-8716 status-publish instock product_cat-default product_cat-hgh-peptides product_tag-easy-buy product_tag-research-use-only has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="8716">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/dsip-high-quality-lyophilized-delta-sleep-inducing-peptide/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>34<span class="nm-onsale-after">%</span></span>
+<img loading="lazy" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-DSIP-5mg-per-vial-wholesale-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-DSIP-5mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-DSIP-5mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-DSIP-5mg-per-vial-wholesale.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8716-button" class="nm-wishlist-button nm-wishlist-item-8716-button" data-product-id="8716" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/dsip-high-quality-lyophilized-delta-sleep-inducing-peptide/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">DSIP – High-Quality Lyophilized Delta Sleep-Inducing Peptide</a></h3>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>53.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>101.00</bdi></span><span class="screen-reader-text">Price range: &#36;53.00 through &#36;101.00</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="https://vertexpeptide.com/product/dsip-high-quality-lyophilized-delta-sleep-inducing-peptide/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8716" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="8716" data-product_sku="DSIP" aria-label="Select options for &ldquo;DSIP – High-Quality Lyophilized Delta Sleep-Inducing Peptide&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8716" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
+<a href="https://vertexpeptide.com/product/dsip-high-quality-lyophilized-delta-sleep-inducing-peptide/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+        <div class="nm-shop-loop-attributes" data-thumb-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-DSIP-5mg-per-vial-wholesale-350x263.png" data-thumb-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-DSIP-5mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-DSIP-5mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-DSIP-5mg-per-vial-wholesale.png 600w"></div>    </div>
+</li>
+<li class="nm-has-attributes product type-product post-8706 status-publish instock product_cat-growth-and-repair product_cat-hgh-peptides product_tag-buy-cjc-1295-no-dac-raw product_tag-cjc-1295-no-dac-10mg product_tag-cjc-1295-no-dac-5mg product_tag-cjc-1295-no-dac-wholesale product_tag-easy-buy product_tag-index has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="8706">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/buy-99-24-cjc-1295-no-dac-5mg-10mg-wholesale-1kit/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>28<span class="nm-onsale-after">%</span></span>
+<img loading="lazy" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-CJC-1295-no-DAC-5mg-per-vial-wholesale-1-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-CJC-1295-no-DAC-5mg-per-vial-wholesale-1-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-CJC-1295-no-DAC-5mg-per-vial-wholesale-1-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-CJC-1295-no-DAC-5mg-per-vial-wholesale-1.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8706-button" class="nm-wishlist-button nm-wishlist-item-8706-button" data-product-id="8706" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/buy-99-24-cjc-1295-no-dac-5mg-10mg-wholesale-1kit/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Buy 99.24% CJC 1295 no DAC 5mg 10mg Wholesale 1kit</a></h3>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>101.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>189.00</bdi></span><span class="screen-reader-text">Price range: &#36;101.00 through &#36;189.00</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="https://vertexpeptide.com/product/buy-99-24-cjc-1295-no-dac-5mg-10mg-wholesale-1kit/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8706" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="8706" data-product_sku="CJC 1295 no DAC" aria-label="Select options for &ldquo;Buy 99.24% CJC 1295 no DAC 5mg 10mg Wholesale 1kit&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8706" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
+<a href="https://vertexpeptide.com/product/buy-99-24-cjc-1295-no-dac-5mg-10mg-wholesale-1kit/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+        <div class="nm-shop-loop-attributes" data-thumb-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-CJC-1295-no-DAC-5mg-per-vial-wholesale-1-350x263.png" data-thumb-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-CJC-1295-no-DAC-5mg-per-vial-wholesale-1-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-CJC-1295-no-DAC-5mg-per-vial-wholesale-1-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-CJC-1295-no-DAC-5mg-per-vial-wholesale-1.png 600w"></div>    </div>
+</li>
+<li class="nm-has-attributes product type-product post-8669 status-publish last instock product_cat-default product_cat-hgh-peptides product_cat-repair-and-healing product_tag-easy-buy product_tag-research-use-only has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="8669">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/bpc-157-peptide-body-protection-compound-for-tissue-inflammation-research/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>9<span class="nm-onsale-after">%</span></span>
+<img loading="lazy" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-BPC-157-5mg-per-vial-wholesale-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-BPC-157-5mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-BPC-157-5mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-BPC-157-5mg-per-vial-wholesale.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8669-button" class="nm-wishlist-button nm-wishlist-item-8669-button" data-product-id="8669" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/bpc-157-peptide-body-protection-compound-for-tissue-inflammation-research/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">BPC-157 Peptide | Body Protection Compound for Tissue &#038; Inflammation Research</a></h3>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>47.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>82.00</bdi></span><span class="screen-reader-text">Price range: &#36;47.00 through &#36;82.00</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="https://vertexpeptide.com/product/bpc-157-peptide-body-protection-compound-for-tissue-inflammation-research/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8669" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="8669" data-product_sku="BPC-157" aria-label="Select options for &ldquo;BPC-157 Peptide | Body Protection Compound for Tissue &amp; Inflammation Research&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8669" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
+<a href="https://vertexpeptide.com/product/bpc-157-peptide-body-protection-compound-for-tissue-inflammation-research/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+        <div class="nm-shop-loop-attributes" data-thumb-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-BPC-157-5mg-per-vial-wholesale-350x263.png" data-thumb-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-BPC-157-5mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-BPC-157-5mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-BPC-157-5mg-per-vial-wholesale.png 600w"></div>    </div>
+</li>
+<li class="nm-has-attributes product type-product post-8649 status-publish first instock product_cat-growth-and-repair product_cat-hgh-peptides product_cat-repair-and-healing product_cat-weight-loss product_tag-aod-9604 product_tag-easy-buy product_tag-index product_tag-lyophilized-peptide-powder has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="8649">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/aod-9604-high-purity-fat-metabolism-peptide-for-research-use/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>13<span class="nm-onsale-after">%</span></span>
+<img loading="lazy" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-AOD-9604-2mg-per-vial-wholesale-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-AOD-9604-2mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-AOD-9604-2mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-AOD-9604-2mg-per-vial-wholesale.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8649-button" class="nm-wishlist-button nm-wishlist-item-8649-button" data-product-id="8649" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/aod-9604-high-purity-fat-metabolism-peptide-for-research-use/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">AOD-9604 – High Purity Fat Metabolism Peptide for Research Use</a></h3>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>63.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>236.00</bdi></span><span class="screen-reader-text">Price range: &#36;63.00 through &#36;236.00</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="https://vertexpeptide.com/product/aod-9604-high-purity-fat-metabolism-peptide-for-research-use/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8649" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="8649" data-product_sku="AOD-9604" aria-label="Select options for &ldquo;AOD-9604 – High Purity Fat Metabolism Peptide for Research Use&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8649" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
+<a href="https://vertexpeptide.com/product/aod-9604-high-purity-fat-metabolism-peptide-for-research-use/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+        <div class="nm-shop-loop-attributes" data-thumb-src="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-AOD-9604-2mg-per-vial-wholesale-350x263.png" data-thumb-srcset="https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-AOD-9604-2mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-AOD-9604-2mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/12/Vertexpeptide.com-AOD-9604-2mg-per-vial-wholesale.png 600w"></div>    </div>
+</li>
+<li class="nm-has-attributes product type-product post-8464 status-publish instock product_cat-anti-aging product_cat-hgh-peptides product_tag-cellular-energy product_tag-easy-buy product_tag-research-use-only has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="8464">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/nad-high-purity-nicotinamide-adenine-dinucleotide-for-research-use/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>28<span class="nm-onsale-after">%</span></span>
+<img loading="lazy" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-NAD-100mg-per-vial-wholesale-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-NAD-100mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-NAD-100mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-NAD-100mg-per-vial-wholesale.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8464-button" class="nm-wishlist-button nm-wishlist-item-8464-button" data-product-id="8464" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/nad-high-purity-nicotinamide-adenine-dinucleotide-for-research-use/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">NAD+ – High Purity Nicotinamide Adenine Dinucleotide for Research Use</a></h3>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>47.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>182.00</bdi></span><span class="screen-reader-text">Price range: &#36;47.00 through &#36;182.00</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="https://vertexpeptide.com/product/nad-high-purity-nicotinamide-adenine-dinucleotide-for-research-use/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8464" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="8464" data-product_sku="NAD+" aria-label="Select options for &ldquo;NAD+ – High Purity Nicotinamide Adenine Dinucleotide for Research Use&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8464" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
+<a href="https://vertexpeptide.com/product/nad-high-purity-nicotinamide-adenine-dinucleotide-for-research-use/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+        <div class="nm-shop-loop-attributes" data-thumb-src="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-NAD-100mg-per-vial-wholesale-350x263.png" data-thumb-srcset="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-NAD-100mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-NAD-100mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-NAD-100mg-per-vial-wholesale.png 600w"></div>    </div>
+</li>
+<li class="nm-has-attributes product type-product post-8408 status-publish instock product_cat-default product_cat-hgh-peptides product_tag-easy-buy product_tag-research-use-only has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="8408">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/semax-high-quality-lyophilized-peptide-10mg-10-vials-wholesale/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>10<span class="nm-onsale-after">%</span></span>
+<img loading="lazy" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Semax-5mg-per-vial-wholesale-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Semax-5mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Semax-5mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Semax-5mg-per-vial-wholesale.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8408-button" class="nm-wishlist-button nm-wishlist-item-8408-button" data-product-id="8408" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/semax-high-quality-lyophilized-peptide-10mg-10-vials-wholesale/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Semax – High-Quality Lyophilized Peptide 10mg (10 vials) Wholesale</a></h3>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>63.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>110.00</bdi></span><span class="screen-reader-text">Price range: &#36;63.00 through &#36;110.00</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="https://vertexpeptide.com/product/semax-high-quality-lyophilized-peptide-10mg-10-vials-wholesale/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8408" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="8408" data-product_sku="Semax" aria-label="Select options for &ldquo;Semax – High-Quality Lyophilized Peptide 10mg (10 vials) Wholesale&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8408" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
+<a href="https://vertexpeptide.com/product/semax-high-quality-lyophilized-peptide-10mg-10-vials-wholesale/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+        <div class="nm-shop-loop-attributes" data-thumb-src="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Semax-5mg-per-vial-wholesale-350x263.png" data-thumb-srcset="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Semax-5mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Semax-5mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Semax-5mg-per-vial-wholesale.png 600w"></div>    </div>
+</li>
+<li class="nm-has-attributes product type-product post-8332 status-publish last instock product_cat-growth-and-repair product_cat-hgh-peptides product_cat-weight-loss product_tag-easy-buy product_tag-index has-post-thumbnail sale shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="8332">
+	<div class="nm-shop-loop-product-wrap">
+        
+        <div class="nm-shop-loop-thumbnail">
+                        
+            <a href="https://vertexpeptide.com/product/buy-99-30-tesamorelin-research-lyophilized-tsm-wholesale-1kit/" class="nm-shop-loop-thumbnail-link woocommerce-LoopProduct-link">
+            
+	<span class="onsale"><span class="nm-onsale-before">-</span>6<span class="nm-onsale-after">%</span></span>
+<img loading="lazy" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/img/placeholder.png" data-src="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Tesamorelin-2mg-per-vial-wholesale-350x263.png" data-srcset="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Tesamorelin-2mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Tesamorelin-2mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Tesamorelin-2mg-per-vial-wholesale.png 600w" alt="" sizes="(max-width: 350px) 100vw, 350px" width="350" height="263" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image  lazyload" />            </a>
+        </div>
+        
+        <div class="nm-shop-loop-details">
+            <a href="#" id="nm-wishlist-item-8332-button" class="nm-wishlist-button nm-wishlist-item-8332-button" data-product-id="8332" title="Add to Wishlist"><i class="nm-font nm-font-heart-o"></i></a>
+            <div class="nm-shop-loop-title-price">
+            <h3 class="woocommerce-loop-product__title"><a href="https://vertexpeptide.com/product/buy-99-30-tesamorelin-research-lyophilized-tsm-wholesale-1kit/" class="nm-shop-loop-title-link woocommerce-LoopProduct-link">Buy 99.30% Tesamorelin Research Lyophilized TSM Wholesale 1kit</a></h3>
+	<span class="price"><span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>63.00</bdi></span> <span aria-hidden="true">&ndash;</span> <span class="woocommerce-Price-amount amount" aria-hidden="true"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>471.00</bdi></span><span class="screen-reader-text">Price range: &#36;63.00 through &#36;471.00</span></span>
+            </div>
+
+            <div class="nm-shop-loop-actions">
+            <a href="https://vertexpeptide.com/product/buy-99-30-tesamorelin-research-lyophilized-tsm-wholesale-1kit/" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_8332" data-quantity="1" class="button product_type_variable add_to_cart_button" data-product_id="8332" data-product_sku="TRLTSM" aria-label="Select options for &ldquo;Buy 99.30% Tesamorelin Research Lyophilized TSM Wholesale 1kit&rdquo;" rel="nofollow">Select options</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_8332" class="screen-reader-text">
+		This product has multiple variants. The options may be chosen on the product page	</span>
+<a href="https://vertexpeptide.com/product/buy-99-30-tesamorelin-research-lyophilized-tsm-wholesale-1kit/" class="nm-quickview-btn">Show more</a>            </div>
+        </div>
+        
+        <div class="nm-shop-loop-attributes" data-thumb-src="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Tesamorelin-2mg-per-vial-wholesale-350x263.png" data-thumb-srcset="https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Tesamorelin-2mg-per-vial-wholesale-350x263.png 350w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Tesamorelin-2mg-per-vial-wholesale-300x225.png 300w, https://vertexpeptide.com/wp-content/uploads/2025/11/Vertexpeptide.com-Tesamorelin-2mg-per-vial-wholesale.png 600w"></div>    </div>
+</li>
+</ul>
+<nav class="woocommerce-pagination nm-pagination" aria-label="Product Pagination">
+	<ul class='page-numbers'>
+	<li><span aria-label="Page 1" aria-current="page" class="page-numbers current">1</span></li>
+	<li><a aria-label="Page 2" class="page-numbers" href="https://vertexpeptide.com/page/2/">2</a></li>
+	<li><a aria-label="Page 3" class="page-numbers" href="https://vertexpeptide.com/page/3/">3</a></li>
+	<li><a aria-label="Page 4" class="page-numbers" href="https://vertexpeptide.com/page/4/">4</a></li>
+	<li><a class="next page-numbers" href="https://vertexpeptide.com/page/2/"><i class="nm-font nm-font-angle-thin-right"></i></a></li>
+</ul>
+</nav>
+
+                    
+                                    </div>
+            </div>
+        </div>
+
+            </div>
+
+    
+</div>
+
+                </div> <!-- .nm-page-wrap-inner -->
+            </div> <!-- .nm-page-wrap -->
+            
+            <footer id="nm-footer" class="nm-footer">
+                	
+<div class="nm-footer-widgets has-border clearfix">
+    <div class="nm-footer-widgets-inner">
+        <div class="nm-row  nm-row-boxed">
+            <div class="col-xs-12">
+                <ul class="nm-footer-block-grid xsmall-block-grid-1  small-block-grid-1 medium-block-grid-2 large-block-grid-2">
+                    <li id="custom_html-9" class="widget_text widget widget_custom_html"><h3 class="nm-widget-title">Welcome to join our communities&#8230;</h3><div class="textwidget custom-html-widget"><style>
+/* 强制外层容器居中 */
+.vertexpeptide_communities_container {
+    text-align: center !important; 
+    display: block !important; 
+    width: 100% !important;
+    padding: 20px 0 !important;
+    margin: 0 auto !important;
+}
+/* 外框放宽到 130px，给文字留足空间 */
+.vertexpeptide_communities_item {
+    display: inline-block !important; 
+    vertical-align: top !important;
+    margin: 0 10px !important; 
+    padding: 0 !important;
+    width: 130px !important; 
+    max-width: 130px !important;
+    min-width: 130px !important;
+    float: none !important;
+    clear: none !important;
+}
+/* 锁定图片居中和大小 */
+.vertexpeptide_communities_item img {
+    width: 80px !important; 
+    height: auto !important;
+    margin: 0 auto 10px auto !important; 
+    border-radius: 50% !important; 
+    display: block !important; 
+}
+/* 底部文字样式：完美复刻测试站的深色质感 */
+.vertexpeptide_communities_text {
+    font-size: 14px !important;
+    text-decoration: none !important;
+    color: #222222 !important; /* 🌟 核心修改：改回和测试站一样的深灰黑，清晰扎实 */
+    font-weight: 500 !important; /* 🌟 核心修改：增加一点点字重，去掉发虚的感觉 */
+    display: block !important;
+    text-align: center !important;
+    line-height: 1.2 !important;
+    white-space: nowrap !important; /* 绝对不许换行 */
+}
+</style>
+
+<div class="vertexpeptide_communities_container">
+	<div class="vertexpeptide_communities_item">
+		<a href="https://www.facebook.com/groups/864206876677954/" target="_blank"><img src="https://vertexpeptide.com/wp-content/uploads/2026/03/Facebook_Group.png"/></a>
+		<div><a class="vertexpeptide_communities_text" href="https://www.facebook.com/groups/864206876677954/" target="_blank">Facebook Group</a></div>
+	</div>
+	<div class="vertexpeptide_communities_item">
+		<a href="https://discord.gg/Z2GRGxvTpx" target="_blank"><img src="https://vertexpeptide.com/wp-content/uploads/2026/03/Discord_Group.png"/></a>
+		<div><a class="vertexpeptide_communities_text" href="https://discord.gg/Z2GRGxvTpx" target="_blank">Discord Group</a></div>
+	</div>
+	<div class="vertexpeptide_communities_item">
+		<a href="https://whatsapp.com/channel/0029VbBbSdu11ulWbWqey83W" target="_blank"><img src="https://vertexpeptide.com/wp-content/uploads/2026/03/WhatsApp_Channel.png"/></a>
+		<div><a class="vertexpeptide_communities_text" href="https://whatsapp.com/channel/0029VbBbSdu11ulWbWqey83W" target="_blank">WhatsApp Channel</a></div>
+	</div>
+	<div class="vertexpeptide_communities_item">
+		<a href="https://t.me/VTPeptides" target="_blank"><img src="https://vertexpeptide.com/wp-content/uploads/2026/03/Telegram_Group.png"/></a>
+		<div><a class="vertexpeptide_communities_text" href="https://t.me/VTPeptides" target="_blank">Telegram Group</a></div>
+	</div>
+</div></div></li>                </ul>
+            </div>
+        </div>
+    </div>
+</div>                
+                <div class="nm-footer-bar layout-centered">
+    <div class="nm-footer-bar-inner">
+        <div class="nm-row">
+            <div class="nm-footer-bar-left nm-footer-bar-col col-md-8 col-xs-12">
+                <div class="nm-footer-bar-col-inner">
+                    
+                    
+                    <ul id="nm-footer-bar-menu" class="menu">
+                        <li id="menu-item-8483" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8483"><a href="https://vertexpeptide.com/faq/#my_faq">FAQ</a></li>
+<li id="menu-item-7452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7452"><a href="https://vertexpeptide.com/order-tracking/">Order Tracking</a></li>
+<li id="menu-item-8877" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8877"><a href="https://vertexpeptide.com/about/">About</a></li>
+<li id="menu-item-7459" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7459"><a href="https://vertexpeptide.com/contact/">Contact</a></li>
+                    </ul>
+                    
+                    
+                                    </div>
+            </div>
+
+            <div class="nm-footer-bar-right nm-footer-bar-col col-md-4 col-xs-12">
+                <div class="nm-footer-bar-col-inner">
+                    
+                                            <ul class="nm-footer-bar-social"></ul>                                        
+                                        <div class="nm-footer-bar-text">
+                                                <div class="nm-footer-bar-copyright-text"><span class="copy">&copy;</span> <span class="year">2026</span> vertexpeptide™. All Rights Reserved.</div>
+                                                
+                                            </div>
+                    
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>            </footer>
+            
+            <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/savoy-child/*","/wp-content/themes/savoy/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div 
+	id="pum-8236" 
+	role="dialog" 
+	aria-modal="false"
+	class="pum pum-overlay pum-theme-8230 pum-theme-hello-box popmake-overlay click_open" 
+	data-popmake="{&quot;id&quot;:8236,&quot;slug&quot;:&quot;simple_popup&quot;,&quot;theme_id&quot;:8230,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:&quot;&quot;,&quot;extra_selectors&quot;:&quot;#pop_button_1&quot;}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;auto&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;300px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:&quot;1&quot;,&quot;location&quot;:&quot;center&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;10&quot;,&quot;position_right&quot;:&quot;10&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fadeAndSlide&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-8236" class="pum-container popmake theme-8230">
+
+				
+				
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			
+<h5 class="nm-block-heading wp-block-heading"><strong>TIPS: It&#8217;s apprecated to indicate us the item name, quantity and doses you need, thanks.</strong></h5>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained"><style id="wpforms-css-vars-8216">
+				#wpforms-8216 {
+				--wpforms-container-padding: 0px;
+--wpforms-container-border-width: 1px;
+--wpforms-container-border-radius: 3px;
+--wpforms-background-color: rgba(0, 0, 0, 0);
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+--wpforms-container-shadow-size-box-shadow: none;
+			}
+			</style><div class="wpforms-container wpforms-container-full wpforms-render-modern" id="wpforms-8216"><form id="wpforms-form-8216" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="8216" method="post" enctype="multipart/form-data" action="/" data-token="e1841a20f3c5babc0b007d031f78a272" data-token-time="1778114865"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript><div id="wpforms-error-noscript" style="display: none;">Please enable JavaScript in your browser to complete this form.</div><div class="wpforms-field-container"><div id="wpforms-8216-field_1-container" class="wpforms-field wpforms-field-name" data-field-id="1"><label class="wpforms-field-label" for="wpforms-8216-field_1">Name <span class="wpforms-required-label" aria-hidden="true">*</span></label><input type="text" id="wpforms-8216-field_1" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][1]" aria-errormessage="wpforms-8216-field_1-error" required></div>		<div id="wpforms-8216-field_4-container"
+			class="wpforms-field wpforms-field-text"
+			data-field-type="text"
+			data-field-id="4"
+			>
+			<label class="wpforms-field-label" for="wpforms-8216-field_4" >Name or </label>
+			<input type="text" id="wpforms-8216-field_4" class="wpforms-field-medium" name="wpforms[fields][4]" >
+		</div>
+		<div id="wpforms-8216-field_2-container" class="wpforms-field wpforms-field-email" data-field-id="2"><label class="wpforms-field-label" for="wpforms-8216-field_2">Email  <span class="wpforms-required-label" aria-hidden="true">*</span></label><input type="email" id="wpforms-8216-field_2" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][2]" spellcheck="false" aria-errormessage="wpforms-8216-field_2-error" required></div><div id="wpforms-8216-field_6-container" class="wpforms-field wpforms-field-text" data-field-id="6"><label class="wpforms-field-label" for="wpforms-8216-field_6">Phone</label><input type="text" id="wpforms-8216-field_6" class="wpforms-field-medium" name="wpforms[fields][6]" placeholder="WhatsApp, telegram or signal" aria-errormessage="wpforms-8216-field_6-error" ></div><div id="wpforms-8216-field_3-container" class="wpforms-field wpforms-field-textarea" data-field-id="3"><label class="wpforms-field-label" for="wpforms-8216-field_3">Comment or Message</label><textarea id="wpforms-8216-field_3" class="wpforms-field-medium" name="wpforms[fields][3]" placeholder="eg. BPC 157, 10mg/vial 2kits..." aria-errormessage="wpforms-8216-field_3-error" ></textarea></div><script>
+				( function() {
+					const style = document.createElement( 'style' );
+					style.appendChild( document.createTextNode( '#wpforms-8216-field_4-container { position: absolute !important; overflow: hidden !important; display: inline !important; height: 1px !important; width: 1px !important; z-index: -1000 !important; padding: 0 !important; } #wpforms-8216-field_4-container input { visibility: hidden; } #wpforms-conversational-form-page #wpforms-8216-field_4-container label { counter-increment: none; }' ) );
+					document.head.appendChild( style );
+					document.currentScript?.remove();
+				} )();
+			</script></div><!-- .wpforms-field-container --><div class="wpforms-submit-container" ><input type="hidden" name="wpforms[id]" value="8216"><input type="hidden" name="page_title" value="BAC Water – Bacteriostatic Water for Research Use"><input type="hidden" name="page_url" value="https://vertexpeptide.com/"><input type="hidden" name="url_referer" value=""><button type="submit" name="wpforms[submit]" id="wpforms-submit-8216" class="wpforms-submit" data-alt-text="Send…" data-submit-text="Submit" aria-live="assertive" value="wpforms-submit">Submit</button><img loading="lazy" src="https://vertexpeptide.com/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg" class="wpforms-submit-spinner" style="display: none;" width="26" height="26" alt="Loading"></div></form></div>  <!-- .wpforms-container -->
+</div></div>
+
+
+
+<p></p>
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			×			</button>
+		
+	</div>
+
+</div>
+<div id="wa"></div><div id="custom-toast-container"></div><div class="nm-mobile-menu-holder">
+    <div id="nm-mobile-menu" class="nm-mobile-menu">
+                <div class="nm-mobile-menu-header">
+            <div class="nm-row">
+                <div class="col-xs-12">
+                    <div class="nm-mobile-menu-header-inner">
+                        <a id="nm-mobile-menu-close-button"><i class="nm-font-close2"></i></a>
+
+                        <a href="https://vertexpeptide.com/my-account/" id="nm-mobile-menu-account-btn"><i class="nm-myaccount-icon nm-font nm-font-head"></i> <span>Login</span></a>                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="nm-mobile-menu-scroll">
+            <div class="nm-mobile-menu-content">
+                <div class="nm-row">
+                    
+                    <div class="nm-mobile-menu-main col-xs-12">
+                        <ul id="nm-mobile-menu-main-ul" class="menu">
+                            
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children current-menu-item current_page_item menu-item-7349"><a href="https://vertexpeptide.com/" aria-current="page">All Products</a><span class="nm-menu-toggle"></span>
+<div class='sub-menu'><div class="nm-mobile-sub-menu-header"><a class="nm-mobile-sub-menu-back-button"><i class="nm-font-chevron-thin-up"></i>Back</a></div><ul class='nm-mobile-sub-menu-ul'>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-7769"><a href="https://vertexpeptide.com/product-category/hgh-peptides/">HGH &amp; Peptides</a><span class="nm-menu-toggle"></span>
+	<ul class='sub-menu'>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7773"><a href="https://vertexpeptide.com/product-category/new-arrivals/">New Arrivals</a><span class="nm-menu-toggle"></span></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7774"><a href="https://vertexpeptide.com/product-category/hgh-peptides/anti-aging/">Anti-Aging</a><span class="nm-menu-toggle"></span></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7775"><a href="https://vertexpeptide.com/product-category/hgh-peptides/repair-and-healing/">Repair and Healing</a><span class="nm-menu-toggle"></span></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7776"><a href="https://vertexpeptide.com/product-category/hgh-peptides/growth-and-repair/">Growth and Repair</a><span class="nm-menu-toggle"></span></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7777"><a href="https://vertexpeptide.com/product-category/weight-loss/">Weight Loss</a><span class="nm-menu-toggle"></span></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7778"><a href="https://vertexpeptide.com/product-category/hgh-peptides/hcg/">hCG</a><span class="nm-menu-toggle"></span></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-7770"><a href="https://vertexpeptide.com/product-category/equipment-machinery/">Equipment Machinery</a><span class="nm-menu-toggle"></span>
+	<ul class='sub-menu'>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7779"><a href="https://vertexpeptide.com/product-category/equipment-machinery/lyophilizer-freeze-dryer/">Lyophilizer / Freeze Dryer</a><span class="nm-menu-toggle"></span></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7780"><a href="https://vertexpeptide.com/product-category/equipment-machinery/hologram-stickers/">Hologram Stickers</a><span class="nm-menu-toggle"></span></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7781"><a href="https://vertexpeptide.com/product-category/equipment-machinery/packing-machine/">Packing Machine</a><span class="nm-menu-toggle"></span></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7782"><a href="https://vertexpeptide.com/product-category/equipment-machinery/sterile-filtration/">Sterile Filtration</a><span class="nm-menu-toggle"></span></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7771"><a href="https://vertexpeptide.com/product-category/hgh-peptides/anti-aging/">Anti-Aging</a><span class="nm-menu-toggle"></span></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-7772"><a href="https://vertexpeptide.com/product-category/ancillary-raws/">Ancillary Raws</a><span class="nm-menu-toggle"></span></li>
+</ul></div>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8066"><a href="https://vertexpeptide.com/lab-results/">Lab Results</a><span class="nm-menu-toggle"></span></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8831"><a href="https://vertexpeptide.com/easy_buy/">Easy Buy</a><span class="nm-menu-toggle"></span></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8076"><a href="https://vertexpeptide.com/faq/#my_faq">FAQ</a><span class="nm-menu-toggle"></span></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7588"><a href="https://vertexpeptide.com/contact/">Contact</a><span class="nm-menu-toggle"></span></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8957"><a href="https://vertexpeptide.com/blog/">Blog</a><span class="nm-menu-toggle"></span></li>
+
+                                                    </ul>
+                    </div>
+
+                                        <div class="nm-mobile-menu-secondary col-xs-12">
+                        <ul id="nm-mobile-menu-secondary-ul" class="menu">
+                            
+                            
+                                                    </ul>
+                    </div>
+                    
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nm-page-overlay nm-mobile-menu-overlay"></div>
+</div>
+<div class="nm-cart-panel-holder">
+    <div id="nm-cart-panel">
+        <div id="nm-cart-panel-loader">
+            <span class="nm-loader">Updating<em>&hellip;</em></span>
+        </div>
+
+        <div class="nm-cart-panel-header">
+            <div class="nm-cart-panel-header-inner">
+                <a href="#" id="nm-cart-panel-close">
+                    <span class="nm-cart-panel-title">Cart</span>
+                    <span class="nm-cart-panel-close-title"><i class="nm-font-close2"></i></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="widget_shopping_cart_content">
+            
+<form id="nm-cart-panel-form" action="https://vertexpeptide.com/cart/" method="post">
+    <input type="hidden" id="_wpnonce" name="_wpnonce" value="e17aae020e" /><input type="hidden" name="_wp_http_referer" value="/" /></form>
+    
+
+<div id="nm-cart-panel-list-wrap" class="nm-cart-panel-list-wrap  nm-cart-panel-empty">
+    <ul class="woocommerce-mini-cart cart_list product_list_widget ">
+        
+                
+        <li class="empty">
+            <i class="nm-font-close2"></i>
+            <span>No products in the cart.</span>
+        </li>
+    </ul>
+</div>
+    
+<div class="nm-cart-panel-summary">
+    
+    <p class="buttons nm-cart-empty-button">
+        <a href="https://vertexpeptide.com/" id="nm-cart-panel-continue" class="button border">Continue shopping</a>
+    </p>
+</div>
+
+
+        </div>
+    </div>
+    
+    <div class="nm-page-overlay nm-cart-panel-overlay"></div>
+</div>
+<div id="nm-login-popup-wrap" class="nm-login-popup-wrap mfp-hide">
+    
+<div class="woocommerce-notices-wrapper"></div>
+<div id="customer_login" class="nm-myaccount-login">
+    <div class="nm-myaccount-login-inner">
+		
+        <div id="nm-login-wrap">
+            <h2>Log in</h2>
+    
+            <form action="https://vertexpeptide.com/my-account/?nm_popup_login=1" class="login" method="post" novalidate>
+    			
+                <input type="hidden" class="nm-login-popup-redirect-input" name="redirect" value="https://vertexpeptide.com/my-account/?nm_popup_login=1" />                
+                    
+                <p class="form-row form-row-wide">
+                    <label for="username">Username or email address&nbsp;<span class="required" aria-hidden="true">*</span><span class="screen-reader-text">Required</span></label>
+                    <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="" required aria-required="true" />                </p>
+                <p class="form-row form-row-wide">
+                    <label for="password">Password&nbsp;<span class="required" aria-hidden="true">*</span><span class="screen-reader-text">Required</span></label>     
+                    <input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password" required aria-required="true" />
+                </p>
+    
+                                
+                <p class="form-row form-group">
+                    <label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme inline">
+                        <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span>Remember me</span>
+                    </label>
+                    
+                    <span class="woocommerce-LostPassword lost_password">
+                        <a href="https://vertexpeptide.com/my-account/lost-password/">Lost your password?</a>
+                    </span>
+                </p>
+                
+                <p class="form-actions">
+                    <input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="4bcf1e2d22" /><input type="hidden" name="_wp_http_referer" value="/" />                    <button type="submit" class="woocommerce-button button woocommerce-form-login__submit" name="login" value="Log in">Log in</button>
+                    
+                                        <div class="nm-login-form-divider"><span>Or</span></div>
+                    
+                    <a href="#register" id="nm-show-register-button" class="button border">Create an account</a>
+                                    </p>
+                
+                    
+            </form>
+        </div>
+
+        
+        <div id="nm-register-wrap">
+            <h2>Register</h2>
+            
+            <form action="https://vertexpeptide.com/my-account/?nm_popup_login=1" method="post" class="register"  >
+    			
+                <input type="hidden" class="nm-login-popup-redirect-input" name="redirect" value="https://vertexpeptide.com/my-account/?nm_popup_login=1" />                
+                    
+                    
+                <p class="form-row form-row-wide">
+                    <label for="reg_email">Email address <span class="required">*</span></label>
+                    <input type="email" class="woocommerce-Input woocommerce-Input--text input-text" name="email" id="reg_email" value="" />
+                </p>
+    
+                                
+                    <p>A link to set a new password will be sent to your email address.</p>
+                
+                                
+                <wc-order-attribution-inputs></wc-order-attribution-inputs><div class="woocommerce-privacy-policy-text"><p>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="https://vertexpeptide.com/contact-us/privacy-policy/" class="woocommerce-privacy-policy-link" target="_blank">privacy policy</a>.</p>
+</div>                
+                <p class="form-actions">
+                    <input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="f5d9ffc69e" /><input type="hidden" name="_wp_http_referer" value="/" />                    <button type="submit" class="woocommerce-Button woocommerce-button button woocommerce-form-register__submit" name="register" value="Register">Register</button>
+                    
+                                        <div class="nm-login-form-divider"><span>Or</span></div>
+                    
+                    <a href="#login" id="nm-show-login-button" class="button border">Log in</a>
+                                    </p>
+                
+                    
+            </form>
+        </div>
+    
+        
+            
+    </div>
+</div>
+</div><div id="nm-page-overlay" class="nm-page-overlay"></div><div id="nm-quickview" class="clearfix"></div><div id="nm-page-includes" class="quickview products shop_categories shop_filters login-popup" style="display:none;">&nbsp;</div>
+
+<script type="application/ld+json">{"@context":"https://schema.org/","@type":"WebSite","name":"VertexPeptide.com","url":"https://vertexpeptide.com","potentialAction":{"@type":"SearchAction","target":"https://vertexpeptide.com/?s={search_term_string}&amp;post_type=product","query-input":"required name=search_term_string"}}</script>			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+				<script type='text/javascript'>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p role="alert">Sorry, this product is unavailable. Please choose a different combination.</p>
+</script>
+<link rel='stylesheet' id='wc-blocks-style-css' href='https://vertexpeptide.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-10.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wpforms-modern-full-css' href='https://vertexpeptide.com/wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css?ver=1.10.0.4' type='text/css' media='all' />
+<style id='wpforms-modern-full-inline-css' type='text/css'>
+:root {
+				--wpforms-field-border-radius: 3px;
+--wpforms-field-border-style: solid;
+--wpforms-field-border-size: 1px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-border-color-spare: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-field-menu-color: #ffffff;
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-border-style: none;
+--wpforms-button-border-size: 1px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-border-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-page-break-color: #066aab;
+--wpforms-background-image: none;
+--wpforms-background-position: center center;
+--wpforms-background-repeat: no-repeat;
+--wpforms-background-size: cover;
+--wpforms-background-width: 100px;
+--wpforms-background-height: 100px;
+--wpforms-background-color: rgba( 0, 0, 0, 0 );
+--wpforms-background-url: none;
+--wpforms-container-padding: 0px;
+--wpforms-container-border-style: none;
+--wpforms-container-border-width: 1px;
+--wpforms-container-border-color: #000000;
+--wpforms-container-border-radius: 3px;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+--wpforms-container-shadow-size-box-shadow: none;
+			}
+/*# sourceURL=wpforms-modern-full-inline-css */
+</style>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.3" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-before">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/vertexpeptide.com\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+//# sourceURL=contact-form-7-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.3" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/whatsapp-for-wordpress/assets/dist/js/njt-whatsapp.js?ver=3.7.3" id="nta-wa-libs-js"></script>
+<script type="text/javascript" id="nta-js-global-js-extra">
+/* <![CDATA[ */
+var njt_wa_global = {"ajax_url":"https://vertexpeptide.com/wp-admin/admin-ajax.php","nonce":"8eccab5e3e","defaultAvatarSVG":"\u003Csvg width=\"48px\" height=\"48px\" class=\"nta-whatsapp-default-avatar\" version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n            viewBox=\"0 0 512 512\" style=\"enable-background:new 0 0 512 512;\" xml:space=\"preserve\"\u003E\n            \u003Cpath style=\"fill:#EDEDED;\" d=\"M0,512l35.31-128C12.359,344.276,0,300.138,0,254.234C0,114.759,114.759,0,255.117,0\n            S512,114.759,512,254.234S395.476,512,255.117,512c-44.138,0-86.51-14.124-124.469-35.31L0,512z\"/\u003E\n            \u003Cpath style=\"fill:#55CD6C;\" d=\"M137.71,430.786l7.945,4.414c32.662,20.303,70.621,32.662,110.345,32.662\n            c115.641,0,211.862-96.221,211.862-213.628S371.641,44.138,255.117,44.138S44.138,137.71,44.138,254.234\n            c0,40.607,11.476,80.331,32.662,113.876l5.297,7.945l-20.303,74.152L137.71,430.786z\"/\u003E\n            \u003Cpath style=\"fill:#FEFEFE;\" d=\"M187.145,135.945l-16.772-0.883c-5.297,0-10.593,1.766-14.124,5.297\n            c-7.945,7.062-21.186,20.303-24.717,37.959c-6.179,26.483,3.531,58.262,26.483,90.041s67.09,82.979,144.772,105.048\n            c24.717,7.062,44.138,2.648,60.028-7.062c12.359-7.945,20.303-20.303,22.952-33.545l2.648-12.359\n            c0.883-3.531-0.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-0.883-10.593,2.648l-22.069,28.248\n            c-1.766,1.766-4.414,2.648-7.062,1.766c-15.007-5.297-65.324-26.483-92.69-79.448c-0.883-2.648-0.883-5.297,0.883-7.062\n            l21.186-23.834c1.766-2.648,2.648-6.179,1.766-8.828l-25.6-57.379C193.324,138.593,190.676,135.945,187.145,135.945\"/\u003E\n        \u003C/svg\u003E","defaultAvatarUrl":"https://vertexpeptide.com/wp-content/plugins/whatsapp-for-wordpress/assets/img/whatsapp_logo.svg","timezone":"+00:00","i18n":{"online":"Online","offline":"Offline"},"urlSettings":{"onDesktop":"api","onMobile":"api","openInNewTab":"ON"}};
+//# sourceURL=nta-js-global-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/whatsapp-for-wordpress/assets/js/whatsapp-button.js?ver=3.7.3" id="nta-js-global-js"></script>
+<script type="text/javascript" id="custom-toast-script-js-extra">
+/* <![CDATA[ */
+var toastAjax = {"ajaxUrl":"https://vertexpeptide.com/wp-admin/admin-ajax.php"};
+//# sourceURL=custom-toast-script-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/themes/savoy-child/assets/js/custom-toast.js?ver=2.0" id="custom-toast-script-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/js/plugins/modernizr.min.js?ver=2.8.3" id="modernizr-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/js/plugins/slick.min.js?ver=1.5.5" id="slick-slider-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"/wp-admin/admin-ajax.php"}};
+//# sourceURL=wp-util-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-includes/js/wp-util.min.js?ver=6.9.4" id="wp-util-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/instagram-widget-by-wpzoom/dist/scripts/library/magnific-popup.js?ver=1760430604" id="magnific-popup-js"></script>
+<script type="text/javascript" id="nm-core-js-extra">
+/* <![CDATA[ */
+var nm_wp_vars = {"themeUri":"https://vertexpeptide.com/wp-content/themes/savoy","ajaxUrl":"/wp-admin/admin-ajax.php","woocommerceAjaxUrl":"/?wc-ajax=%%endpoint%%","searchUrl":"https://vertexpeptide.com/?s=%%nmsearchkey%%","pageLoadTransition":"0","topBarCycleInterval":"5000","headerPlaceholderSetHeight":"1","headerFixedScrollUp":"0","cartPanelQtyArrows":"1","cartPanelQtyThrottleTimeout":"0","cartPanelShowOnAtc":"1","cartPanelHideOnAtcScroll":"1","cartShippingMeter":"0","shopFiltersAjax":"1","shopFiltersMobileAutoClose":"1","shopFiltersPopupAutoClose":"1","shopAjaxUpdateTitle":"1","shopImageLazyLoad":"1","shopAttsSwapImage":"1","shopAttsSwapImageRevert":"1","shopAttsSwapImageOnTouch":"1","shopScrollOffset":"70","shopScrollOffsetTablet":"70","shopScrollOffsetMobile":"70","shopSearch":"1","shopSearchHeader":"1","shopSearchUrl":"https://vertexpeptide.com/?post_type=product&s=%%nmsearchkey%%","shopSearchMinChar":"2","shopSearchAutoClose":"0","searchSuggestions":"0","searchSuggestionsInstant":"0","searchSuggestionsMax":"6","shopAjaxAddToCart":"1","shopRedirectScroll":"1","shopCustomSelect":"1","quickviewLinks":{"thumb":"","title":"","link":"1"},"quickViewGalleryInfinite":"0","galleryZoom":"1","galleryThumbnailsSlider":"0","shopYouTubeRelated":"1","productPinDetailsOffset":"30","productAccordionCloseOpen":"1","checkoutTacLightbox":"1","rowVideoOnTouch":"0","wpGalleryPopup":"1","touchHover":"0","pushStateMobile":"1","infloadBuffer":"0","infloadBufferBlog":"0","infloadPreserveScrollPos":"1","infloadSnapbackCache":"0","infloadSnapbackCacheLinks":""};
+//# sourceURL=nm-core-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/js/nm-core.min.js?ver=3.1.01" id="nm-core-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/js/nm-blog.min.js?ver=3.1.01" id="nm-blog-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/js/nm-shop-login.min.js?ver=3.1.01" id="nm-shop-login-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/js/nm-shop-search.min.js?ver=3.1.01" id="nm-shop-search-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/js/nm-shop.min.js?ver=3.1.01" id="nm-shop-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/js/nm-shop-filters.min.js?ver=3.1.01" id="nm-shop-filters-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.7.0" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https://vertexpeptide.com/wp-admin/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+//# sourceURL=wc-order-attribution-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.7.0" id="wc-order-attribution-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="popup-maker-site-js-extra">
+/* <![CDATA[ */
+var pum_vars = {"version":"1.21.5","pm_dir_url":"https://vertexpeptide.com/wp-content/plugins/popup-maker/","ajaxurl":"https://vertexpeptide.com/wp-admin/admin-ajax.php","restapi":"https://vertexpeptide.com/wp-json/pum/v1","rest_nonce":null,"default_theme":"8230","debug_mode":"","disable_tracking":"","home_url":"/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"cookie_domain":"","analytics_enabled":"1","analytics_route":"analytics","analytics_api":"https://vertexpeptide.com/wp-json/pum/v1"};
+var pum_sub_vars = {"ajaxurl":"https://vertexpeptide.com/wp-admin/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-8236":{"triggers":[{"type":"click_open","settings":{"cookie_name":"","extra_selectors":"#pop_button_1"}}],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"8230","size":"auto","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"300px","custom_height_auto":true,"custom_height":"380px","scrollable_content":false,"animation_type":"fadeAndSlide","animation_speed":"350","animation_origin":"top","open_sound":"none","custom_sound":"","location":"center","position_top":"100","position_bottom":"10","position_left":"0","position_right":"10","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"hello-box","id":8236,"slug":"simple_popup"}};
+//# sourceURL=popup-maker-site-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="//vertexpeptide.com/wp-content/uploads/pum/pum-site-scripts.js?defer&amp;generated=1764681729&amp;ver=1.21.5" id="popup-maker-site-js"></script>
+<script type="text/javascript" id="nta-js-popup-js-extra">
+/* <![CDATA[ */
+var njt_wa = {"gdprStatus":"","accounts":[{"accountId":8932,"accountName":"Ethan","avatar":"","number":"+8616658009501","title":"Sales Manager","predefinedText":"Hello, welcome to inquire about our products.","willBeBackText":"I will be back in [njwa_time_work]","dayOffsText":"I will be back soon","isAlwaysAvailable":"ON","daysOfWeekWorking":{"sunday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"monday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"tuesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"wednesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"thursday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"friday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"saturday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]}}},{"accountId":8843,"accountName":"Abby","avatar":"","number":"+8613419637606","title":"Customer Service Manager","predefinedText":"Hello, welcome to inquire about our products.","willBeBackText":"I will be back in [njwa_time_work]","dayOffsText":"I will be back soon","isAlwaysAvailable":"ON","daysOfWeekWorking":{"sunday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"monday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"tuesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"wednesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"thursday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"friday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"saturday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]}}},{"accountId":8844,"accountName":"Jeff","avatar":"","number":"+8613419619857","title":"Customer Service Manager","predefinedText":"Hello, welcome to inquire about our products.","willBeBackText":"I will be back in [njwa_time_work]","dayOffsText":"I will be back soon","isAlwaysAvailable":"ON","daysOfWeekWorking":{"sunday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"monday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"tuesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"wednesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"thursday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"friday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"saturday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]}}},{"accountId":8845,"accountName":"Eddie","avatar":"","number":"+8613419655769","title":"Customer Service Manager","predefinedText":"Hello, welcome to inquire about our products.","willBeBackText":"I will be back in [njwa_time_work]","dayOffsText":"I will be back soon","isAlwaysAvailable":"ON","daysOfWeekWorking":{"sunday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"monday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"tuesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"wednesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"thursday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"friday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"saturday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]}}},{"accountId":9009,"accountName":"Sabrina","avatar":"","number":"+85295929411","title":"Customer Service Manager","predefinedText":"Hello, welcome to inquire about our products.","willBeBackText":"I will be back in [njwa_time_work]","dayOffsText":"I will be back soon","isAlwaysAvailable":"ON","daysOfWeekWorking":{"sunday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"monday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"tuesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"wednesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"thursday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"friday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"saturday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]}}},{"accountId":9076,"accountName":"Victor","avatar":"","number":"+85295924811","title":"Customer Service Manager","predefinedText":"Hello, welcome to inquire about our products.","willBeBackText":"I will be back in [njwa_time_work]","dayOffsText":"I will be back soon","isAlwaysAvailable":"ON","daysOfWeekWorking":{"sunday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"monday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"tuesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"wednesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"thursday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"friday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"saturday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]}}},{"accountId":9186,"accountName":"Henry","avatar":"","number":"+8618162615565","title":"Customer Service Manager","predefinedText":"Hello, welcome to inquire about our products.","willBeBackText":"I will be back in [njwa_time_work]","dayOffsText":"I will be back soon","isAlwaysAvailable":"ON","daysOfWeekWorking":{"sunday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"monday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"tuesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"wednesday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"thursday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"friday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]},"saturday":{"isWorkingOnDay":"OFF","workHours":[{"startTime":"08:00","endTime":"17:30"}]}}}],"options":{"display":{"displayCondition":"showAllPage","displayPostCondition":"showAllPost","includePages":[],"excludePages":[],"includePosts":[],"excludePosts":[],"showOnDesktop":"ON","showOnMobile":"ON","time_symbols":"h:m"},"styles":{"title":"Start a Conversation","responseText":"The team typically replies in a few minutes.","description":"Hi! Click one of our member below to chat on \u003Cstrong\u003EWhatsApp\u003C/strong\u003E","backgroundColor":"#2db742","textColor":"#fff","titleSize":"18","accountNameSize":"14","descriptionTextSize":"12","regularTextSize":"11","scrollHeight":"562","isShowScroll":"ON","isShowResponseText":"OFF","btnLabel":"Need Help? \u003Cstrong\u003EChat with us\u003C/strong\u003E","btnLabelWidth":"160","btnPosition":"right","btnLeftDistance":"30","btnRightDistance":"30","btnBottomDistance":"30","isShowBtnLabel":"ON","isShowGDPR":"OFF","gdprContent":"Please accept our \u003Ca href=\"https://ninjateam.org/privacy-policy/\"\u003Eprivacy policy\u003C/a\u003E first to start a conversation.","widgetType":"expandable"},"analytics":{"enabledGoogle":"OFF","enabledFacebook":"OFF","enabledGoogleGA4":"OFF"},"accounts":{"hideOfflineAgents":"OFF"}}};
+//# sourceURL=nta-js-popup-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/whatsapp-for-wordpress/assets/js/whatsapp-popup.js?ver=3.7.3" id="nta-js-popup-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/js/plugins/lazysizes.min.js?ver=4.0.1" id="lazysizes-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/js/plugins/selectod.custom.min.js?ver=3.8.1" id="selectod-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/js/nm-shop-add-to-cart.min.js?ver=3.1.01" id="nm-shop-add-to-cart-js"></script>
+<script type="text/javascript" id="wc-add-to-cart-variation-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination.","i18n_reset_alert_text":"Your selection has been reset. Please select some product options before adding this product to your cart."};
+//# sourceURL=wc-add-to-cart-variation-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=10.7.0" id="wc-add-to-cart-variation-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/themes/savoy/assets/js/nm-shop-quickview.min.js?ver=3.1.01" id="nm-shop-quickview-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js?ver=1.21.0" id="wpforms-validation-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js?ver=1.1.2" id="wpforms-mailcheck-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js?ver=1.0.0" id="wpforms-punycode-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/wpforms-lite/assets/js/share/utils.min.js?ver=1.10.0.4" id="wpforms-generic-utils-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms.min.js?ver=1.10.0.4" id="wpforms-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms-modern.min.js?ver=1.10.0.4" id="wpforms-modern-js"></script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/wpforms-lite/assets/js/frontend/fields/address.min.js?ver=1.10.0.4" id="wpforms-address-field-js"></script>
+<script type="text/javascript" id="nm-wishlist-js-extra">
+/* <![CDATA[ */
+var nm_wishlist_vars = {"wlAddLocaleSuffix":"0","wlLoginRequire":"0","wlLoginRedirectUrl":"https://vertexpeptide.com/my-account/","wlNonce":"440090d3be","wlCookieExpires":"30","wlButtonTitleAdd":"Add to Wishlist","wlButtonTitleRemove":"Remove from Wishlist","wlMenuCount":"0"};
+//# sourceURL=nm-wishlist-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vertexpeptide.com/wp-content/plugins/nm-wishlist/assets/js/nm-wishlist.min.js?ver=2.5" id="nm-wishlist-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://vertexpeptide.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://vertexpeptide.com/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpforms_settings = {"val_required":"This field is required.","val_email":"Please enter a valid email address.","val_email_suggestion":"Did you mean {suggestion}?","val_email_suggestion_title":"Click to accept this suggestion.","val_email_restricted":"This email address is not allowed.","val_number":"Please enter a valid number.","val_number_positive":"Please enter a valid positive number.","val_minimum_price":"Amount entered is less than the required minimum.","val_confirm":"Field values do not match.","val_checklimit":"You have exceeded the number of allowed selections: {#}.","val_limit_characters":"{count} of {limit} max characters.","val_limit_words":"{count} of {limit} max words.","val_min":"Please enter a value greater than or equal to {0}.","val_max":"Please enter a value less than or equal to {0}.","val_recaptcha_fail_msg":"Google reCAPTCHA verification failed, please try again later.","val_turnstile_fail_msg":"Cloudflare Turnstile verification failed, please try again later.","val_inputmask_incomplete":"Please fill out the field in required format.","uuid_cookie":"","locale":"en","country":"","country_list_label":"Country list","wpforms_plugin_url":"https:\/\/vertexpeptide.com\/wp-content\/plugins\/wpforms-lite\/","gdpr":"","ajaxurl":"https:\/\/vertexpeptide.com\/wp-admin\/admin-ajax.php","mailcheck_enabled":"1","mailcheck_domains":[],"mailcheck_toplevel_domains":["dev"],"is_ssl":"1","currency_code":"USD","currency_thousands":",","currency_decimals":"2","currency_decimal":".","currency_symbol":"$","currency_symbol_pos":"left","val_requiredpayment":"Payment is required.","val_creditcard":"Please enter a valid credit card number.","css_vars":["field-border-radius","field-border-style","field-border-size","field-background-color","field-border-color","field-text-color","field-menu-color","label-color","label-sublabel-color","label-error-color","button-border-radius","button-border-style","button-border-size","button-background-color","button-border-color","button-text-color","page-break-color","background-image","background-position","background-repeat","background-size","background-width","background-height","background-color","background-url","container-padding","container-border-style","container-border-width","container-border-color","container-border-radius","field-size-input-height","field-size-input-spacing","field-size-font-size","field-size-line-height","field-size-padding-h","field-size-checkbox-size","field-size-sublabel-spacing","field-size-icon-size","label-size-font-size","label-size-line-height","label-size-sublabel-font-size","label-size-sublabel-line-height","button-size-font-size","button-size-height","button-size-padding-h","button-size-margin-top","container-shadow-size-box-shadow"],"isModernMarkupEnabled":"1","formErrorMessagePrefix":"Form error message","errorMessagePrefix":"Error message","submitBtnDisabled":"Submit button is disabled during form submission.","readOnlyDisallowedFields":["captcha","map","content","divider","hidden","html","entry-preview","pagebreak","payment-total"],"error_updating_token":"Error updating token. Please try again or contact support if the issue persists.","network_error":"Network error or server is unreachable. Check your connection or try again later.","token_cache_lifetime":"86400","hn_data":{"8216":4},"address_field":{"list_countries_without_states":["GB","DE","CH","NL"]}}
+/* ]]> */
+</script>
+        
+        </div> <!-- .nm-page-overflow -->
+	</body>
+</html>
+
+<!-- Page supported by LiteSpeed Cache 7.6.2 on 2026-05-07 00:47:46 -->

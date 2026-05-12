@@ -1,0 +1,786 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/homepage.md
+[LINE_RANGE] 52-56
+[QUOTE]
+"Research-Grade Peptides. Research-Ready Support."
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt (full)
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/homepage.md
+[LINE_RANGE] 64-68
+[QUOTE]
+"99%+ purity verified through our 5-point testing protocol. 24/7 expert support with under 10-minute response times. Same-day shipping from our U.S. facility."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/homepage.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"[ Shop Peptides ](https://vicipeptides.com/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/homepage.md
+[LINE_RANGE] 25-29
+[QUOTE]
+"  * [Products](https://vicipeptides.com/shop/)
+  * [Contact](https://vicipeptides.com/contact/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/homepage.md
+[LINE_RANGE] 692-692
+[QUOTE]
+"All products sold on this website are for Research Use Only (RUO). Not for human or veterinary use. Not approved by the FDA for any therapeutic purpose."
+[/QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country
+[URL] https://vicipeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/tos.md
+[LINE_RANGE] 192-196
+[QUOTE]
+"**Vici Peptides**
+390 NE 191st St, STE 58434
+Miami, FL 33179
+
+**Email:** [support@vicipeptides.com](mailto:support@vicipeptides.com)"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/homepage.md
+[LINE_RANGE] 660-662
+[QUOTE]
+Not at this time. Vici currently ships within the United States only. We're evaluating international options for the future — follow us or subscribe to our newsletter to be notified if that changes.
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://vicipeptides.com/shop/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/catalog_1.md
+[LINE_RANGE] 54-54
+[QUOTE]
+"Metabolic Research Growth & Secretagogue Research Tissue Repair Research Cellular & Longevity Research Dermal Research Lab Supplies Neuro & Cognitive Research"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://vicipeptides.com/shop/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/catalog_1.md
+[LINE_RANGE] 54-553
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/vicipeptides/product_*.md:
+25 distinct product URLs observed across catalog and product fetches.
+[FILES]
+product_1__bpc-157.md
+product_1__ghk-cu.md
+product_1__semaglutide.md
+product_1__tirzepatide.md
+product_1__glp3-ret.md
+product_2__tb-500.md
+product_2__nad.md
+product_2__mots-c.md
+product_2__ipamorelin.md
+product_2__igf-1lr3.md
+product_2__tesamorelin.md
+product_2__selank.md
+product_2__semax.md
+product_3__bpc-157-tb-500.md
+product_3__klow-tb-bpc-157-ghk-kpv.md
+product_3__glow-tb-bpc-157-ghk.md
+product_3__cjc-1295-without-dac-ipa.md
+product_3__cjc-1295-without-dac.md
+product_3__melanotan-i.md
+product_3__melanotan-ii.md
+product_3__l-carnitine.md
+product_3__glutathione.md
+product_3__bac-water.md
+Plus: GLP1-Sema and GLP2-Tirz multi-variant pages counted as single products
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://vicipeptides.com/shop/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/catalog_1.md
+[LINE_RANGE] 110-122
+[QUOTE]
+"### KLOW (TB + BPC-157 + GHK + KPV)
+
+~~$ 194.00~~ Original price was: $194.00.$159.00Current price is: $159.00.
+
+  * Tissue Repair Research, Dermal Research"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name / dose_options / list_price
+[URL] https://vicipeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_1__bpc-157.md
+[LINE_RANGE] 52-72
+[QUOTE]
+"## BPC-157
+
+## 4.8
+
+## (427)
+
+Chemical Formula: C62H98N16O22
+
+Molar Mass: 1419.5 g/mol
+
+Bpc-157 is a synthetic pentadecapeptide compound studied for its potential role in cellular repair mechanisms and tissue regeneration processes."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://vicipeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_1__bpc-157.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"Bpc-157 is a synthetic pentadecapeptide compound studied for its potential role in cellular repair mechanisms and tissue regeneration processes. Research applications include investigations into tendon and ligament healing, gastrointestinal cytoprotection, neuroprotective effects, and angiogenesis modulation in experimental models."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://vicipeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_1__bpc-157.md
+[LINE_RANGE] 415-419
+[QUOTE]
+"###  IMPORTANT RESEARCH NOTICE
+
+**Not for human consumption.** This product is sold exclusively for research and educational purposes. It is not intended to diagnose, treat, cure, or prevent any disease."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / batch_lot_transparency
+[URL] https://vicipeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_1__bpc-157.md
+[LINE_RANGE] 175-228
+[QUOTE]
+"### COA Documentation
+
+Every batch includes an in-depth Certificate of Analysis with full HPLC chromatograms, mass spectrometry profiles, synthesis records, and validated purity results to ensure total transparency.
+
+Latest
+
+#### 99.7 %
+
+#### PURITY
+
+Variant
+
+BPC-157 10 mg
+
+Lot #
+
+BC10-2601-01
+
+Labeled
+
+10 mg
+
+Actual
+
+9.9 mg
+
+Tested
+
+2/27/2026
+
+[ View COA Document ](https://vicipeptides.com/wp-content/uploads/2026/04/COA0129-2-IF-824-QSA-TR006-2026-129-2-CoA-Vici-Peptides-BPC-157-BC10-2601-01_signed.pdf)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://vicipeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_1__bpc-157.md
+[LINE_RANGE] 52-56
+[QUOTE]
+"## 4.8
+
+## (427)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://vicipeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_1__bpc-157.md
+[LINE_RANGE] 106-111
+[QUOTE]
+"## Frequently Researched Together
+
+Products commonly paired with Retatrutide for complementary research applications"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:bpc-157-10mg] price
+[URL] https://vicipeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_1__bpc-157.md
+[LINE_RANGE] 67-77
+[QUOTE]
+"1 Bottle
+
+$59.00
+
+2 Bottles
+
+$56.05 (5% off)
+
+3+ Bottles
+
+$54.58 (7% off)"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:ghk-cu-100mg] price
+[URL] https://vicipeptides.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_1__ghk-cu.md
+[LINE_RANGE] 64-76
+[QUOTE]
+"Variant Strength |  Choose an option100mg100mgClear
+
+1 Bottle
+
+$79.00
+
+2 Bottles
+
+$75.05 (5% off)
+
+3+ Bottles
+
+$73.08 (7% off)"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:semaglutide-10mg / vicipeptides:semaglutide-20mg] price
+[URL] https://vicipeptides.com/product/semaglutide/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_1__semaglutide.md
+[LINE_RANGE] 55-90
+[QUOTE]
+"Variant Strength |  Choose an option10mg20mg10mg20mgClear
+
+1 Bottle
+
+$49.00
+
+2 Bottles
+
+$46.55 (5% off)
+
+3+ Bottles
+
+$45.33 (7% off)
+
+1 Bottle
+
+$49.00
+
+2 Bottles
+
+$46.55 (5% off)
+
+3+ Bottles
+
+$45.33 (7% off)
+
+1 Bottle
+
+$95.00"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:tirzepatide-*] price all variants
+[URL] https://vicipeptides.com/product/tirzepatide/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_1__tirzepatide.md
+[LINE_RANGE] 55-120
+[QUOTE]
+"Variant Strength |  Choose an option10mg20mg30mg60mg10mg20mg30mg60mgClear
+
+1 Bottle
+
+$59.00
+
+1 Bottle
+
+$99.00
+
+1 Bottle
+
+$139.00
+
+1 Bottle
+
+$225.00"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:retatrutide-*] price all variants
+[URL] https://vicipeptides.com/product/glp3-ret/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_1__glp3-ret.md
+[LINE_RANGE] 55-105
+[QUOTE]
+"Variant Strength |  Choose an option10mg20mg30mg10mg20mg30mgClear
+
+1 Bottle
+
+$85.00
+
+1 Bottle
+
+$145.00
+
+1 Bottle
+
+$195.00"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:tb-500-10mg] price
+[URL] https://vicipeptides.com/product/tb-500/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_2__tb-500.md
+[LINE_RANGE] 55-75
+[QUOTE]
+"Variant Strength |  Choose an option10mg10mgClear
+
+1 Bottle
+
+$84.00"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:nad-*] price all variants
+[URL] https://vicipeptides.com/product/nad/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_2__nad.md
+[LINE_RANGE] 57-102
+[QUOTE]
+"Variant Strength |  Choose an option100mg500mg1000mg100mg500mg1000mgClear
+
+1 Bottle
+
+$35.00
+
+1 Bottle
+
+$89.00
+
+1 Bottle
+
+$155.00"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:mots-c-*] price all variants
+[URL] https://vicipeptides.com/product/mots-c/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_2__mots-c.md
+[LINE_RANGE] 57-90
+[QUOTE]
+"Variant Strength |  Choose an option10mg40mg10mg40mgClear
+
+1 Bottle
+
+$49.00
+
+1 Bottle
+
+$155.00"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:ipamorelin-10mg] price
+[URL] https://vicipeptides.com/product/ipamorelin/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_2__ipamorelin.md
+[LINE_RANGE] 55-72
+[QUOTE]
+"Variant Strength |  Choose an option10mg10mgClear
+
+1 Bottle
+
+$59.00"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:igf-1lr3-1mg] price
+[URL] https://vicipeptides.com/product/igf-1lr3/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_2__igf-1lr3.md
+[LINE_RANGE] 55-72
+[QUOTE]
+"Variant Strength |  Choose an option1mg1mgClear
+
+1 Bottle
+
+$85.00"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:tesamorelin-*] price all variants
+[URL] https://vicipeptides.com/product/tesamorelin/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_2__tesamorelin.md
+[LINE_RANGE] 57-90
+[QUOTE]
+"Variant Strength |  Choose an option10mg20mg10mg20mgClear
+
+1 Bottle
+
+$89.00
+
+1 Bottle
+
+$175.00"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:selank-10mg] price
+[URL] https://vicipeptides.com/product/selank/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_2__selank.md
+[LINE_RANGE] 55-72
+[QUOTE]
+"Variant Strength |  Choose an option10mg10mgClear
+
+1 Bottle
+
+$49.00"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:semax-10mg] price
+[URL] https://vicipeptides.com/product/semax/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_2__semax.md
+[LINE_RANGE] 55-72
+[QUOTE]
+"Variant Strength |  Choose an option10mg10mgClear
+
+1 Bottle
+
+$49.00"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:bpc157-tb500-bundle] price
+[URL] https://vicipeptides.com/product/bpc-157-tb-500/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_3__bpc-157-tb-500.md
+[LINE_RANGE] 55-72
+[QUOTE]
+"1 Bottle
+
+$109.00
+
+2 Bottles
+
+$103.55 (5% off)"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:klow-bundle] price
+[URL] https://vicipeptides.com/product/klow-tb-bpc-157-ghk-kpv/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_3__klow-tb-bpc-157-ghk-kpv.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"$159.00"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:cjc1295-ipa-bundle] price
+[URL] https://vicipeptides.com/product/cjc-1295-without-dac-ipa/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_3__cjc-1295-without-dac-ipa.md
+[LINE_RANGE] 55-72
+[QUOTE]
+"1 Bottle
+
+$99.00"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:melanotan-i-single] price
+[URL] https://vicipeptides.com/product/melanotan-i/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_3__melanotan-i.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"$45.00"
+[/QUOTE]
+
+[CLAIM] skus[vicipeptides:cjc1295-nodac] price
+[URL] https://vicipeptides.com/product/cjc-1295-without-dac/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/product_3__cjc-1295-without-dac.md
+[LINE_RANGE] 55-72
+[QUOTE]
+"1 Bottle
+
+$89.00"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://vicipeptides.com/disclaimer/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/disclaimer.md
+[LINE_RANGE] 47-51
+[QUOTE]
+"All products sold by Vici Peptides are intended strictly for laboratory and scientific research use only. They are not intended for human or veterinary use, and may not be used as food additives, drugs, cosmetics, dietary supplements, or household chemicals."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/homepage.md
+[LINE_RANGE] 754-769
+[QUOTE]
+"## Age Verification Required
+
+You must be 21 years or older to access this website.
+
+You must be 21 years or older to access this website. By continuing, you confirm that you are of legal age and are purchasing these products strictly for laboratory research purposes only. These products are not for human or veterinary use.
+
+I confirm I am 21 years or older
+
+I am purchasing strictly for laboratory research purposes only
+
+I understand these products are not for human or veterinary use
+
+I Agree Exit Site"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://vicipeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/shipping.md
+[LINE_RANGE] 80-84
+[QUOTE]
+"We ship only where lawful. We may restrict shipping to certain jurisdictions, addresses, or customers based on compliance considerations. You are responsible for understanding and complying with local laws and regulations."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/homepage.md
+[LINE_RANGE] 715-715
+[QUOTE]
+"  * [ Terms and Conditions ](https://vicipeptides.com/terms-and-conditions/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://vicipeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/tos.md
+[LINE_RANGE] 173-177
+[QUOTE]
+"Any dispute, claim, or controversy arising out of or relating to these Terms, the Website, or any Vici Peptides product shall first be addressed through good-faith informal negotiation by contacting support@vicipeptides.com. If the dispute cannot be resolved informally within thirty (30) days, it shall be resolved by binding individual arbitration administered by the American Arbitration Association (AAA) under its Consumer Arbitration Rules. Arbitration shall take place in the State of Delaware, or via remote proceedings where available."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://vicipeptides.com/refund-return/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/refund.md
+[LINE_RANGE] 47-53
+[QUOTE]
+"Opened products are not eligible for return or refund, except as expressly stated in this policy or where required by law. We typically do not accept returns of research vials once opened due to safety, integrity, and chain-of-custody concerns."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://vicipeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/shipping.md
+[LINE_RANGE] 43-56
+[QUOTE]
+"We strive to ship same day for orders placed before 3:00 PM Eastern Time (ET) on business days, when possible. Orders placed after the cutoff, on weekends, or on holidays typically ship the next business day."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/homepage.md
+[LINE_RANGE] 620-622
+[QUOTE]
+"We accept all major credit cards, Venmo, Zelle, and cryptocurrency. Choose your preferred method at checkout — every transaction is processed through encrypted, secure payment channels."
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://vicipeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/tos.md
+[LINE_RANGE] 66-66
+[QUOTE]
+"Access to Vici Peptides products and services is limited to qualified researchers, laboratory professionals, and organizations engaged in legitimate scientific research. Vici Peptides reserves the right to approve or deny any customer or order at its sole discretion. We may request verification of research credentials, institutional affiliation, or intended research use at any time."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://vicipeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/shipping.md
+[LINE_RANGE] 64-68
+[QUOTE]
+"Free shipping may be available on orders over $200, as displayed on the Site (subject to any exclusions shown at checkout)."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://vicipeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/shipping.md
+[LINE_RANGE] 40-42
+[QUOTE]
+"All orders ship from our U.S. warehouse. Products may be re-tested and quality-verified in U.S. laboratories prior to domestic shipment."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/source_homepage.md
+[LINE_RANGE] 3-5
+[QUOTE]
+"Platform: WordPress + WooCommerce (wp-content in HTML, /wp-json/ endpoint, woocommerce class in HTML: 198 occurrences)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/source_homepage.md
+[LINE_RANGE] 1-8
+[QUOTE]
+"server: LiteSpeed
+platform: hostinger
+panel: hpanel"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/source_homepage.md
+[LINE_RANGE] 6-6
+[QUOTE]
+"FB Pixel: present (fbq init, fbq track present)"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/source_homepage.md
+[LINE_RANGE] 7-7
+[QUOTE]
+"Chat: Crisp (crisp detected in source)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/homepage.md
+[LINE_RANGE] 47-49
+[QUOTE]
+"4.9 stars
+
+26,487 Verified Reviews"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://vicipeptides.com/shop/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/catalog_1.md
+[LINE_RANGE] 63-68
+[QUOTE]
+"## 4.9
+
+## (363)
+
+[ View Details ](https://vicipeptides.com/product/glp3-ret/)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://vicipeptides.com/shop/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/catalog_1.md
+[LINE_RANGE] 52-54
+[QUOTE]
+"Search
+
+Metabolic Research Growth & Secretagogue Research Tissue Repair Research Cellular & Longevity Research Dermal Research Lab Supplies Neuro & Cognitive Research"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage focuses on lab testing protocol, COA documentation, ISO accreditation, and uses professional comparison tables against "Typical Vendor" and "Budget Vendor". No lifestyle imagery or meme-coded content is evident in the text.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/homepage.md
+[LINE_RANGE] 443-447
+"Pharmaceutical-grade Quality
+
+Verified >99% Purity
+
+Free shipping on all orders over $200
+
+Same day shipping until 3pm EST"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://vicipeptides.com/
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[RAW_ARTIFACT] 03_raw_fetches/vicipeptides/homepage.md
+[LINE_RANGE] 463-472
+"## The Standards Behind Every Vial
+
+24/7 expert support, a 5-point testing protocol, and third-party verified purity — documented on every batch we ship."
+[/SUPPORT_QUOTE]

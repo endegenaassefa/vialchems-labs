@@ -1,0 +1,726 @@
+[CLAIM] primary_domain
+[URL] https://purepeptides.bio/
+[FETCHED_AT] 2026-05-08T06:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/homepage.md
+[LINE_RANGE] 10-10
+[QUOTE]
+"[Home](https://purepeptides.bio/)"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://purepeptides.bio/terms/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/tos.md
+[LINE_RANGE] 29-29
+[QUOTE]
+"These terms and conditions govern all users of Pure Peptides and the[ **www.purepeptides.bio**](http://www.purepeptides.bio)website owned and operated by Elite Health LLC."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://purepeptides.bio/shipping-delivery-return-policies/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/shipping.md
+[LINE_RANGE] 35-35
+[QUOTE]
+"All orders are shipped via USPS Priority Mail, which typically arrives in 3–4 business days. USPS Priority Express is available for 1–2 business day delivery."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2024
+[REASONING]
+No founding year is stated on the website. The oldest WordPress media upload year found in HTML across all fetched product pages is 2024 (e.g., uploads/2024/01/BPC-157-10mg-Product-Image-2.png), indicating product pages were created no earlier than January 2024. The copyright footer reads "2026" which only confirms current operation. 2024 is the earliest dateable evidence of the site's existence.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 29-29
+"[](https://cdn-ilbnbjf.nitrocdn.com/ldKBzjEHQkmTwnqYmtNginFpcBCUAxkB/assets/images/optimized/rev-566922b/purepeptides.bio/wp-content/uploads/2024/01/BPC-157-10mg-Product-Image-2.png)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://purepeptides.bio/store/buy-ghk-cu/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_2__ghk-cu-100mg.md
+[LINE_RANGE] 31-31
+"[](https://cdn-ilbnbjf.nitrocdn.com/ldKBzjEHQkmTwnqYmtNginFpcBCUAxkB/assets/images/optimized/rev-566922b/purepeptides.bio/wp-content/uploads/2024/01/GHK-Cu-100mg-COA-99.21.png)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://purepeptides.bio/
+[FETCHED_AT] 2026-05-08T06:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/homepage.md
+[LINE_RANGE] 31-31
+[QUOTE]
+"We Verify Every Lot for 99%+ Purity & Endotoxin Clear Status Using An Independent US Laboratory."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage features four trust-signal panels ("Independently Verified", "Secure Checkout", "Fast, Protected Shipping", "Customer Service") and a featured products grid — no lifestyle photography, no meme imagery. The about-us page explicitly positions the brand toward "independent researchers, university laboratories, and commercial R&D teams." The visual framing is clinical/scientific throughout.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://purepeptides.bio/
+[FETCHED_AT] 2026-05-08T06:50:46Z
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/homepage.md
+[LINE_RANGE] 29-29
+"### Independently Verified"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://purepeptides.bio/about-us/
+[FETCHED_AT] 2026-05-08T06:53:00Z
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/about.md
+[LINE_RANGE] 33-33
+"PurePeptides.Bio sources, verifies, and delivers high-purity peptides and research compounds to independent researchers, university laboratories, and commercial R&D teams nationwide."
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://purepeptides.bio/
+[FETCHED_AT] 2026-05-08T06:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/homepage.md
+[LINE_RANGE] 27-27
+[QUOTE]
+"[Shop Peptides](/peptides)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://purepeptides.bio/
+[FETCHED_AT] 2026-05-08T06:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/homepage.md
+[LINE_RANGE] 10-21
+[QUOTE]
+"[Home](https://purepeptides.bio/)
+  * [Store](https://purepeptides.bio/store/)
+    * [Peptides](https://purepeptides.bio/peptides/)
+    * [Accessories](https://purepeptides.bio/accessories/)
+  * [Sales](https://purepeptides.bio/sales/)
+  * [My Account](https://purepeptides.bio/my-account/)
+  * [About Us](https://purepeptides.bio/about-us/)
+  * [Contact Us](https://purepeptides.bio/contact-us/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://purepeptides.bio/
+[FETCHED_AT] 2026-05-08T06:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/homepage.md
+[LINE_RANGE] 91-92
+[QUOTE]
+"All products on this website are intended solely for research and development purposes. They are not approved by the U.S. Food and Drug Administration (FDA), and no statements herein have been evaluated by the FDA. These products are not intended to diagnose, treat, cure, or prevent any disease, and are not for human or animal consumption, or use in any diagnostic or therapeutic procedures.
+    By purchasing from PurePeptides.Bio, the buyer accepts full responsibility for the use, handling, storage, and distribution of all materials, and agrees to indemnify and hold harmless PurePeptides.Bio, its owners, affiliates, suppliers, payment processors, and associated financial institutions from any claims, damages, or liabilities arising from misuse or failure to comply with applicable laws. Check local and state ordinances before ordering."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://purepeptides.bio/research-peptides/
+[FETCHED_AT] 2026-05-08T06:51:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/catalog_1.md
+[LINE_RANGE] 27-27
+[QUOTE]
+"Showing all 23 resultsSorted by popularity"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://purepeptides.bio/
+[FETCHED_AT] 2026-05-08T06:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/homepage.md
+[LINE_RANGE] 12-14
+[QUOTE]
+"[Store](https://purepeptides.bio/store/)
+    * [Peptides](https://purepeptides.bio/peptides/)
+    * [Accessories](https://purepeptides.bio/accessories/)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://purepeptides.bio/research-peptides/
+[FETCHED_AT] 2026-05-08T06:51:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/catalog_1.md
+[LINE_RANGE] 27-27
+[QUOTE]
+"Showing all 23 resultsSorted by popularity"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://purepeptides.bio/
+[FETCHED_AT] 2026-05-08T06:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/homepage.md
+[LINE_RANGE] 10-21
+[QUOTE]
+"[Home](https://purepeptides.bio/)
+  * [Store](https://purepeptides.bio/store/)
+    * [Peptides](https://purepeptides.bio/peptides/)
+    * [Accessories](https://purepeptides.bio/accessories/)
+  * [Sales](https://purepeptides.bio/sales/)
+  * [My Account](https://purepeptides.bio/my-account/)
+  * [About Us](https://purepeptides.bio/about-us/)
+  * [Contact Us](https://purepeptides.bio/contact-us/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 27-27
+[QUOTE]
+"[Home](https://purepeptides.bio/) » [Shop Research Peptides | US Lab Tested | PurePeptides.Bio](https://purepeptides.bio/shop-research-peptides/) » BPC-157 10MG"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 39-41
+[QUOTE]
+"# BPC-157 10MG
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 39-41
+[QUOTE]
+"# BPC-157 10MG
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 41-41
+[QUOTE]
+"$50.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.per_mg_cost
+[INFERENCE] $5.00
+[REASONING]
+BPC-157 10MG lists at $50.00. Per-mg cost = $50.00 / 10mg = $5.00/mg. Computed from fetched price and dose.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 39-41
+"# BPC-157 10MG
+
+$50.00"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 45-49
+"Quantity | Price per item | Discount
+---|---|---
+1-4 | $50.00 | 0%
+5-9 | $42.50 | 15%
+10-50 | $37.50 | 25%"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 29-35
+[QUOTE]
+"[](https://cdn-ilbnbjf.nitrocdn.com/ldKBzjEHQkmTwnqYmtNginFpcBCUAxkB/assets/images/optimized/rev-566922b/purepeptides.bio/wp-content/uploads/2024/01/BPC-157-10mg-Product-Image-2.png)
+
+[](https://cdn-ilbnbjf.nitrocdn.com/ldKBzjEHQkmTwnqYmtNginFpcBCUAxkB/assets/images/optimized/rev-566922b/purepeptides.bio/wp-content/uploads/2024/01/BPC-157-10mg-COA-1.png)
+
+[](https://cdn-ilbnbjf.nitrocdn.com/ldKBzjEHQkmTwnqYmtNginFpcBCUAxkB/assets/images/optimized/rev-566922b/purepeptides.bio/wp-content/uploads/2024/01/BPC-157-10mg-MS-1.png)
+
+[](https://cdn-ilbnbjf.nitrocdn.com/ldKBzjEHQkmTwnqYmtNginFpcBCUAxkB/assets/images/optimized/rev-566922b/purepeptides.bio/wp-content/uploads/2024/01/BPC-157-10mg-ENDO.png)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 68-72
+[QUOTE]
+"Every Lot Tested by an Independent U.S. Laboratory via HPLC-MS to confirm >99% Purity
+  * Every Lot Tested by an Independent U.S. Laboratory via Endotoxin Quantitative Kinetic Turbidimetric Assay
+  * Sterile Facility Production
+  * Certificate of Analysis Included
+  * Endotoxin Analysis Included"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 79-80
+[QUOTE]
+"All products on this website are intended solely for research and development purposes. They are not approved by the U.S. Food and Drug Administration (FDA), and no statements herein have been evaluated by the FDA. These products are not intended to diagnose, treat, cure, or prevent any disease, and are not for human or animal consumption, or use in any diagnostic or therapeutic procedures.
+    By purchasing from PurePeptides.Bio, the buyer accepts full responsibility for the use, handling, storage, and distribution of all materials, and agrees to indemnify and hold harmless PurePeptides.Bio, its owners, affiliates, suppliers, payment processors, and associated financial institutions from any claims, damages, or liabilities arising from misuse or failure to comply with applicable laws. Check local and state ordinances before ordering."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 71-72
+[QUOTE]
+"Certificate of Analysis Included
+  * Endotoxin Analysis Included"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 29-35
+[QUOTE]
+"[](https://cdn-ilbnbjf.nitrocdn.com/ldKBzjEHQkmTwnqYmtNginFpcBCUAxkB/assets/images/optimized/rev-566922b/purepeptides.bio/wp-content/uploads/2024/01/BPC-157-10mg-COA-1.png)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 68-69
+[QUOTE]
+"Every Lot Tested by an Independent U.S. Laboratory via HPLC-MS to confirm >99% Purity
+  * Every Lot Tested by an Independent U.S. Laboratory via Endotoxin Quantitative Kinetic Turbidimetric Assay"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 59-75
+[QUOTE]
+"SKU: BPC10 Category: [Peptides](https://purepeptides.bio/product-category/peptides/)
+
+  * __Description
+  * __PurePeptides©Bio Quality Assurance"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 59-80
+[QUOTE]
+"SKU: BPC10 Category: [Peptides](https://purepeptides.bio/product-category/peptides/)
+
+  * __Description
+  * __PurePeptides©Bio Quality Assurance"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://purepeptides.bio/terms/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/tos.md
+[LINE_RANGE] 35-35
+[QUOTE]
+"ALL products and services offered are for RESEARCH purposes ONLY. Under NO circumstances shall/should ANY of these materials be used for therapeutic or diagnostic purposes."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://purepeptides.bio/
+[FETCHED_AT] 2026-05-08T06:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/homepage.md
+[LINE_RANGE] 1-102
+[QUOTE]
+"Skip to content"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://purepeptides.bio/
+[FETCHED_AT] 2026-05-08T06:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/homepage.md
+[LINE_RANGE] 92-92
+[QUOTE]
+"Check local and state ordinances before ordering."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://purepeptides.bio/
+[FETCHED_AT] 2026-05-08T06:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/homepage.md
+[LINE_RANGE] 94-94
+[QUOTE]
+"[Terms & Conditions](https://purepeptides.bio/terms/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://purepeptides.bio/terms/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/tos.md
+[LINE_RANGE] 29-37
+[QUOTE]
+"These terms and conditions govern all users of Pure Peptides and the[ **www.purepeptides.bio**](http://www.purepeptides.bio)website owned and operated by Elite Health LLC. These must be agreed upon before any purchases can be made. The products we offer are intended for laboratory research use only."
+[/QUOTE]
+
+[URL] https://purepeptides.bio/terms/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/tos.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"USES AND PATENTS: The materials for sale are intended for laboratory and manufacturing use only. They are NOT for use as food additives, drugs, cosmetic, household chemicals, or other inappropriate applications. YOU MUST BE A MINIMUM OF 21 YEARS OF AGE."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://purepeptides.bio/shipping-delivery-return-policies/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/shipping.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"Due to the nature of research compounds and for reasons related to quality control, contamination risk, and legal compliance, all sales are final. Returns, exchanges, or refunds are not accepted. If you receive a damaged or incorrect item, you must contact us within 3 business days of delivery to request a replacement, following the process outlined in Section 4 above."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://purepeptides.bio/shipping-delivery-return-policies/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/shipping.md
+[LINE_RANGE] 35-35
+[QUOTE]
+"All orders are shipped via USPS Priority Mail, which typically arrives in 3–4 business days. USPS Priority Express is available for 1–2 business day delivery. Orders are processed and shipped within 1–2 business days of payment confirmation. Delivery may take up to 15 business days due to factors beyond our control, including postal delays, weather conditions, and high seasonal volume. All orders are shipped with current Certificate of Analysis and Endotoxin Certificate for that lot."
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://purepeptides.bio/checkout/
+[FETCHED_AT] 2026-05-08T06:54:19Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/checkout_step_1.md
+[LINE_RANGE] 27-30
+[QUOTE]
+"# Cart
+
+Your cart is currently empty."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://purepeptides.bio/shipping-delivery-return-policies/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/shipping.md
+[LINE_RANGE] 35-35
+[QUOTE]
+"All orders are shipped via USPS Priority Mail, which typically arrives in 3–4 business days. USPS Priority Express is available for 1–2 business day delivery."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://purepeptides.bio/shipping-delivery-return-policies/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/shipping.md
+[LINE_RANGE] 35-35
+[QUOTE]
+"All orders are shipped via USPS Priority Mail, which typically arrives in 3–4 business days. USPS Priority Express is available for 1–2 business day delivery."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://purepeptides.bio/checkout/
+[FETCHED_AT] 2026-05-08T06:54:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/checkout_source.md
+[LINE_RANGE] 117-117
+[QUOTE]
+"<link rel='stylesheet' id='paynote_blocks_style-css' href='https://purepeptides.bio/wp-content/plugins/paynote/css/blocks_style.css?ver=1778223224' media='all' />"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 29-29
+[QUOTE]
+"[](https://cdn-ilbnbjf.nitrocdn.com/ldKBzjEHQkmTwnqYmtNginFpcBCUAxkB/assets/images/optimized/rev-566922b/purepeptides.bio/wp-content/uploads/2024/01/BPC-157-10mg-Product-Image-2.png)"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://purepeptides.bio/checkout/
+[FETCHED_AT] 2026-05-08T06:54:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/checkout_source.md
+[LINE_RANGE] 751-751
+[QUOTE]
+<script id="independent-analytics-script"   >
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://purepeptides.bio/checkout/
+[FETCHED_AT] 2026-05-08T06:54:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/checkout_source.md
+[LINE_RANGE] 510-510
+[QUOTE]
+<script id="affwp-tracking-js" type="text/plain" data-wpconsent-src="https://purepeptides.bio/wp-content/plugins/affiliate-wp/assets/js/tracking.min.js?ver=2.32.1" data-wpconsent-name="affiliatewp" data-wpconsent-category="marketing"></script>
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://purepeptides.bio/
+[FETCHED_AT] 2026-05-08T06:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/homepage.md
+[LINE_RANGE] 1-102
+[QUOTE]
+"Skip to content"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://purepeptides.bio/
+[FETCHED_AT] 2026-05-08T06:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/homepage.md
+[LINE_RANGE] 10-21
+[QUOTE]
+"[Home](https://purepeptides.bio/)
+  * [Store](https://purepeptides.bio/store/)
+    * [Peptides](https://purepeptides.bio/peptides/)
+    * [Accessories](https://purepeptides.bio/accessories/)
+  * [Sales](https://purepeptides.bio/sales/)
+  * [My Account](https://purepeptides.bio/my-account/)
+  * [About Us](https://purepeptides.bio/about-us/)
+  * [Contact Us](https://purepeptides.bio/contact-us/)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 59-75
+[QUOTE]
+"SKU: BPC10 Category: [Peptides](https://purepeptides.bio/product-category/peptides/)
+
+  * __Description
+  * __PurePeptides©Bio Quality Assurance"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://purepeptides.bio/
+[FETCHED_AT] 2026-05-08T06:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/homepage.md
+[LINE_RANGE] 1-102
+[QUOTE]
+"Skip to content"
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://purepeptides.bio/
+[FETCHED_AT] 2026-05-08T06:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/homepage.md
+[LINE_RANGE] 1-102
+[QUOTE]
+"Skip to content"
+[/QUOTE]
+
+[CLAIM] skus[0].list_price_usd (BPC-157 10MG)
+[URL] https://purepeptides.bio/store/bpc-157-10mg/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 41-49
+[QUOTE]
+"$50.00
+
+Availability: In stock
+
+Quantity | Price per item | Discount
+---|---|---
+1-4 | $50.00 | 0%
+5-9 | $42.50 | 15%
+10-50 | $37.50 | 25%"
+[/QUOTE]
+
+[CLAIM] skus[1].list_price_usd (GHK-Cu 100MG)
+[URL] https://purepeptides.bio/store/buy-ghk-cu/
+[FETCHED_AT] 2026-05-08T06:51:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_2__ghk-cu-100mg.md
+[LINE_RANGE] 41-54
+[QUOTE]
+"$65.00
+
+Buy GHK-Cu Premium Research Grade Peptide Powder
+
+Independent US Lab Tested for Purity and Endotoxins
+
+COA and EA Paperwork Included With Order
+
+Availability: In stock
+
+Quantity | Price per item | Discount
+---|---|---
+5-9 | $55.25 | 15%
+10-100 | $48.75 | 25%"
+[/QUOTE]
+
+[CLAIM] skus[2].list_price_usd (GLP-TZ 30MG)
+[URL] https://purepeptides.bio/store/glp-tz-30mg/
+[FETCHED_AT] 2026-05-08T06:53:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_3__glp-tz-30mg.md
+[LINE_RANGE] 39-50
+[QUOTE]
+"# GLP-TZ 30MG
+
+$135.00
+
+
+
+Availability: In stock
+
+Quantity | Price per item | Discount
+---|---|---
+5-9 | $114.75 | 15%
+10-100 | $101.25 | 25%"
+[/QUOTE]
+
+[CLAIM] skus[3].list_price_usd (GLP-TZ 10MG)
+[URL] https://purepeptides.bio/research-peptides/
+[FETCHED_AT] 2026-05-08T06:51:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/catalog_1.md
+[LINE_RANGE] 29-31
+[QUOTE]
+"Peptides  ## [GLP-TZ 10MG](https://purepeptides.bio/store/glp-tz-10mg/) $65.00 [Add to cart](/research-peptides/?add-to-cart=377)"
+[/QUOTE]
+
+[CLAIM] skus[4].list_price_usd (GLP-RT 10MG)
+[URL] https://purepeptides.bio/store/glp-rt10mg/
+[FETCHED_AT] 2026-05-08T06:53:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_4__glp-rt-10mg.md
+[LINE_RANGE] 39-48
+[QUOTE]
+"# GLP-RT 10MG
+
+$75.00
+
+Availability: In stock
+
+Quantity | Price per item | Discount
+---|---|---
+5-9 | $63.75 | 15%
+10-100 | $56.25 | 25%"
+[/QUOTE]
+
+[CLAIM] skus[5].list_price_usd (MOTS-c 10MG)
+[URL] https://purepeptides.bio/store/buy-mots-c-10mg/
+[FETCHED_AT] 2026-05-08T06:53:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/product_5__mots-c-10mg.md
+[LINE_RANGE] 39-56
+[QUOTE]
+"# MOTS-c 10MG
+
+$45.00
+
+Buy MOTS-c 10mg Premium Research Grade Peptide Powder
+
+Independent US Lab Tested for Purity and Endotoxins
+
+COA Included With Order
+
+Availability: In stock
+
+Quantity | Price per item | Discount
+---|---|---
+5-9 | $42.75 | 5%
+10-20 | $40.50 | 10%"
+[/QUOTE]
+
+[CLAIM] skus[6-14].list_price_usd (catalog-level SKUs)
+[URL] https://purepeptides.bio/research-peptides/
+[FETCHED_AT] 2026-05-08T06:51:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/purepeptides/catalog_1.md
+[LINE_RANGE] 27-125
+[QUOTE]
+"Showing all 23 resultsSorted by popularity
+
+Sort by popularity Sort by latest Sort by price: low to high Sort by price: high to low
+
+  * [](https://purepeptides.bio/store/glp-rt10mg/)
+
+Peptides  ## [GLP-RT 10MG](https://purepeptides.bio/store/glp-rt10mg/) $75.00 [Add to cart](/research-peptides/?add-to-cart=1307)
+
+  * [](https://purepeptides.bio/store/glp-tz-10mg/)
+
+Peptides  ## [GLP-TZ 10MG](https://purepeptides.bio/store/glp-tz-10mg/) $65.00 [Add to cart](/research-peptides/?add-to-cart=377)
+
+  * [](https://purepeptides.bio/store/bpc-157-10mg/)
+
+Peptides  ## [BPC-157 10MG](https://purepeptides.bio/store/bpc-157-10mg/) $50.00 [Add to cart](/research-peptides/?add-to-cart=736)
+
+  * [](https://purepeptides.bio/store/buy-ghk-cu/)
+
+Peptides  ## [GHK-Cu 100MG](https://purepeptides.bio/store/buy-ghk-cu/) $65.00 [Add to cart](/research-peptides/?add-to-cart=730)
+
+  * [](https://purepeptides.bio/store/glow-70mg/)
+
+Peptides  ## [GLOW 70MG](https://purepeptides.bio/store/glow-70mg/) $85.00 [Add to cart](/research-peptides/?add-to-cart=6340)
+
+  * [](https://purepeptides.bio/store/thymosin-beta-4/)
+
+Peptides  ## [Thymosin Beta 4 10MG](https://purepeptides.bio/store/thymosin-beta-4/) $75.00 [Add to cart](/research-peptides/?add-to-cart=3285)
+
+  * [](https://purepeptides.bio/store/buy-mots-c-10mg/)
+
+Peptides  ## [MOTS-c 10MG](https://purepeptides.bio/store/buy-mots-c-10mg/) $45.00 [Add to cart](/research-peptides/?add-to-cart=3444)
+
+  * [ Out of stock ](https://purepeptides.bio/store/bpc-157-arginine-tablets/)
+
+Peptides  ## [BPC-157 Arginine Tablets](https://purepeptides.bio/store/bpc-157-arginine-tablets/) $125.00 [Read more](https://purepeptides.bio/store/bpc-157-arginine-tablets/)
+
+  * [](https://purepeptides.bio/store/thymosin-alpha-1/)
+
+Peptides  ## [Thymosin Alpha 1 10MG](https://purepeptides.bio/store/thymosin-alpha-1/) $80.00 [Add to cart](/research-peptides/?add-to-cart=1414)
+
+  * [](https://purepeptides.bio/store/slu-pp-332-tablets/)
+
+Peptides  ## [SLU-PP-332 Tablets 250mcg](https://purepeptides.bio/store/slu-pp-332-tablets/) $70.00 [Add to cart](/research-peptides/?add-to-cart=3443)
+
+  * [](https://purepeptides.bio/store/ss-31-50mg/)
+
+Peptides  ## [SS-31 50MG](https://purepeptides.bio/store/ss-31-50mg/) $150.00 [Add to cart](/research-peptides/?add-to-cart=5390)
+
+  * [ Out of stock ](https://purepeptides.bio/store/tesamorelin-10mg/)
+
+Peptides  ## [Tesamorelin 10MG](https://purepeptides.bio/store/tesamorelin-10mg/) $85.00 [Read more](https://purepeptides.bio/store/tesamorelin-10mg/)
+
+  * [](https://purepeptides.bio/store/ss-31/)
+
+Peptides  ## [SS-31 10MG](https://purepeptides.bio/store/ss-31/) $50.00 [Add to cart](/research-peptides/?add-to-cart=3539)"
+[/QUOTE]

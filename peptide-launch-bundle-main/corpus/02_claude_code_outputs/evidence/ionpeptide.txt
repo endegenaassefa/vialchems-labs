@@ -1,0 +1,1088 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://ionpeptide.com/
+[FETCHED_AT] 2026-05-07T17:05:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/homepage.md
+[LINE_RANGE] 50-52
+[QUOTE]
+"## High-Purity Research Peptides
+
+Premium synthesized peptides for consistent, pure, and better research. Every batch verified with COA documentation."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://ionpeptide.com/
+[FETCHED_AT] 2026-05-07T17:05:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/homepage.md
+[LINE_RANGE] 54
+[QUOTE]
+"[ __ Shop Now ](/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://ionpeptide.com/
+[FETCHED_AT] 2026-05-07T17:05:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/homepage.md
+[LINE_RANGE] 21-27
+[QUOTE]
+"  * [Shop](https://ionpeptide.com/shop/)
+  * [COA](https://ionpeptide.com/lab-results/)
+  * [FAQ](https://ionpeptide.com/faq/)
+  * [About us __](https://ionpeptide.com/about-us/)
+
+    * [Team](https://ionpeptide.com/team/)
+  * [Contact](https://ionpeptide.com/contact/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://ionpeptide.com/
+[FETCHED_AT] 2026-05-07T17:05:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/homepage.md
+[LINE_RANGE] 216
+[QUOTE]
+"**Disclaimer:** IonPeptide.com products are for _research use only_ and are not intended for human or animal consumption. They are not approved for medical, diagnostic, or therapeutic use, and no instructions for preparation, administration, or dosage are provided. All products are labeled "For Research Use Only – Not for Human or Animal Use" in accordance with 21 CFR 809.10(c). Statements on this website have not been evaluated by the FDA. Buyers are solely responsible for the lawful handling and use of these products."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://ionpeptide.com/
+[FETCHED_AT] 2026-05-07T17:05:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/homepage.md
+[LINE_RANGE] 56-65
+[QUOTE]
+"###  Authenticity Guaranteed.
+
+with QR & Batch Verified COA
+
+###  99%+ Purity
+
+###  Same-Day Shipping
+
+###  3rd Party Tested "
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://ionpeptide.com/shop/
+[FETCHED_AT] 2026-05-07T17:05:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/catalog_1.md
+[LINE_RANGE] 152
+[QUOTE]
+"Showing 1–15 of 87 results"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy / catalog.search_filter_capabilities
+[URL] https://ionpeptide.com/shop/
+[FETCHED_AT] 2026-05-07T17:05:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/catalog_1.md
+[LINE_RANGE] 145-154
+[QUOTE]
+"All  Lyophilized  Blends  Raw  Creams  Lab Supplies
+
+# All
+
+Select a product... §-313ML Vial Caps/Cover (10 Pack)5-Amino-1MQ9 Vial Case (3ML Slots)Acetic Acid 0.6%Acetyl Hexapeptide-8 (Raw) – 1gAdamax – 10mgAHK-CuAHK-Cu (Raw) – 1gAOD-9604ARA-290B12 – 10mg
+
+Showing 1–15 of 87 results
+
+Default sorting Sort by popularity Sort by latest Sort by price: low to high Sort by price: high to low"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://ionpeptide.com/shop/
+[FETCHED_AT] 2026-05-07T17:05:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/catalog_1.md
+[LINE_RANGE] 69-71
+[QUOTE]
+"  * [ BPC157+TB500 ](https://ionpeptide.com/product/bpc157tb500/)
+  * [ BPC157+TB500+KPV – 30mg ](https://ionpeptide.com/product/bpc157tb500kpv-30mg/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url / product_page_anatomy.sample_product_name / product_page_anatomy.dose_options / product_page_anatomy.list_price
+[URL] https://ionpeptide.com/product/bpc-157-2/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__bpc-157.md
+[LINE_RANGE] 54-69
+[QUOTE]
+"# BPC-157
+
+$29.00 – $85.00Price range: $29.00 through $85.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $26.10
+16% Off  | 6 - 9 |  16% $24.36
+25% Off  | 10 + |  25% $21.75
+
+Variant |  Choose an option5mg10mg20mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://ionpeptide.com/product/bpc-157-2/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__bpc-157.md
+[LINE_RANGE] 58
+[QUOTE]
+"_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://ionpeptide.com/product/bpc-157-2/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__bpc-157.md
+[LINE_RANGE] 100-101
+[QUOTE]
+"**BPC-157** (Body Protection Compound-157) is a synthetic peptide fragment derived from a naturally occurring protein found in gastric juice. It has gained significant attention in research settings for its potential role in **[tissue repair](https://en.wikipedia.org/?title=Tissue_repair&redirect=no), angiogenesis, and gut health mechanisms** in preclinical models."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / product_page_anatomy.coa_hosting / product_page_anatomy.batch_lot_transparency
+[URL] https://ionpeptide.com/product/bpc-157-2/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__bpc-157.md
+[LINE_RANGE] 217-219
+[QUOTE]
+"## Certificate of Authenticity
+
+[](https://i0.wp.com/ionpeptide.com/wp-content/uploads/2026/03/certificate-17-scaled.jpg?ssl=1)[](https://i0.wp.com/ionpeptide.com/wp-content/uploads/2026/03/certificate-10-scaled.jpg?ssl=1)[](https://i0.wp.com/ionpeptide.com/wp-content/uploads/2026/03/BPC-157_KVR-2026-7388A9-scaled.jpg?ssl=1)[](https://i0.wp.com/ionpeptide.com/wp-content/uploads/2026/03/IonP2603020010-scaled.jpg?ssl=1)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://ionpeptide.com/faq/
+[FETCHED_AT] 2026-05-07T17:08:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/faq.md
+[LINE_RANGE] 102-106
+[QUOTE]
+"Ion Peptide verifies every batch of every product through accredited, independent third-party laboratories. Because each compound requires specialized analytical methods, we work closely with qualified laboratories and PhD-level experts in analytical and organic chemistry to develop appropriate testing protocols.
+
+Analytical methods may include NMR, FTIR, HPLC, LC-MS, GC-MS, TLC, ICP-MS, gravimetry, UV-Vis spectroscopy, titration, melting point analysis, and organoleptic evaluation. Testing primarily focuses on purity, content, sterility, and endotoxin/LPS levels.
+
+Testing is conducted by Freedom Diagnostics in Franklin, Tennessee."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://ionpeptide.com/product/bpc-157-2/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__bpc-157.md
+[LINE_RANGE] 221-227
+[QUOTE]
+"## Related products
+
+  * [](https://ionpeptide.com/my-account/?redirect_to=https%3A%2F%2Fionpeptide.com%2Fproduct%2Fbpc-157-2%2F)
+  * [](https://ionpeptide.com/my-account/?redirect_to=https%3A%2F%2Fionpeptide.com%2Fproduct%2Fbpc-157-2%2F)
+  * [](https://ionpeptide.com/my-account/?redirect_to=https%3A%2F%2Fionpeptide.com%2Fproduct%2Fbpc-157-2%2F)
+  * [](https://ionpeptide.com/my-account/?redirect_to=https%3A%2F%2Fionpeptide.com%2Fproduct%2Fbpc-157-2%2F)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://ionpeptide.com/product/bpc-157-2/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__bpc-157.md
+[LINE_RANGE] 52
+[QUOTE]
+"[](https://i0.wp.com/ionpeptide.com/wp-content/uploads/2026/04/BPC-157.jpg?fit=1420%2C1420&ssl=1)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[INFERENCE] false
+[REASONING]
+No review section, star-rating widget, or user-submitted review text was observed on the BPC-157 product page, TB-500 product page, or any other fetched product page. All fetched product pages include Description, Details, Research, Mechanism of Action, COA tabs only.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://ionpeptide.com/product/bpc-157-2/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__bpc-157.md
+[LINE_RANGE] 82-86
+"  * Description
+  * Details
+  * Research
+  * Mechanism of Action
+  * COA "
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://ionpeptide.com/product/tb-500/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__tb-500.md
+[LINE_RANGE] 82-86
+"  * Description
+  * Details
+  * Research
+  * Mechanism of Action
+  * COA "
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://ionpeptide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:08:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/tos.md
+[LINE_RANGE] 61-66
+[QUOTE]
+"All products sold by ION Peptide are strictly intended for laboratory research use only. They are not intended for human or animal consumption, or for clinical, therapeutic, or diagnostic applications.
+
+  * ✓ Laboratory research use only
+  * ✓ Not for human or animal consumption
+  * ✓ No clinical, therapeutic, or diagnostic use"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://ionpeptide.com/
+[FETCHED_AT] 2026-05-07T17:05:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/homepage.md
+[LINE_RANGE] 300-308
+[QUOTE]
+"By registering, you confirm that you are at least 21 years of age, a qualified professional, and that any products purchased will be used exclusively for lawful research purposes.
+
+[View Terms & Conditions](https://ionpeptide.com/terms-of-service/)
+
+Yes. I acknowledge and confirm that I am accessing these materials solely for in-vitro research use, that I have read and agree to the Terms of Service, and that I am authorized to handle and use them."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / trust_compliance.tos_highlights
+[URL] https://ionpeptide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:08:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/tos.md
+[LINE_RANGE] 297-304
+[QUOTE]
+"These Terms are governed by the laws of **New Mexico**. Any disputes shall be resolved in the **courts of New Mexico**.
+
+15
+
+## Miscellaneous
+
+  * **Severability:** If any part of these Terms is unenforceable, the remainder remains in effect.
+  * **Force Majeure:** ION Peptide is not liable for delays caused by circumstances beyond its control.
+  * **Amendments:** Terms may be updated at any time; continued use constitutes acceptance.
+  * **Acceptance:** Purchase or use of the website constitutes agreement to all Terms."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://ionpeptide.com/refund-policy/
+[FETCHED_AT] 2026-05-07T17:08:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/refund.md
+[LINE_RANGE] 126-132
+[QUOTE]
+"Eligible orders may be returned within **30 days of the original purchase date** for a full refund. This guarantee applies **only to products that remain unopened, unused, and in their original condition**.
+
+**Important:** The 30-day window does not override product condition requirements. Opened, used, or tampered items are not eligible for return."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://ionpeptide.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T17:08:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/shipping.md
+[LINE_RANGE] 132-135
+[QUOTE]
+"We offer **free 2 Day FedEx / UPS** on all domestic U.S. orders over **$250+**.
+
+**Note:** Complimentary shipping applies to qualifying domestic U.S. orders and may depend on order value, available carrier service, and checkout conditions."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://ionpeptide.com/faq/
+[FETCHED_AT] 2026-05-07T17:08:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/faq.md
+[LINE_RANGE] 164-167
+[QUOTE]
+"Shipping Regions
+
+We currently ship to the United States and all US territories."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required / checkout_flow.guest_checkout_available
+[URL] https://ionpeptide.com/faq/
+[FETCHED_AT] 2026-05-07T17:08:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/faq.md
+[LINE_RANGE] 226-232
+[QUOTE]
+"Order History
+
+Order history is only available for registered users. Guest orders become visible once you create an account using the same email used at checkout."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://ionpeptide.com/faq/
+[FETCHED_AT] 2026-05-07T17:08:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/faq.md
+[LINE_RANGE] 282-294
+[QUOTE]
+"Credit/Debit Cards
+
+We currently accept credit and debit cards at checkout. If you experience any issues during checkout, please contact us and we will provide a secure checkout link.
+
+Same-Day Bank Payment
+
+We offer a 5% discount when paying via ACH bank transfer. Same-day transfers typically process within 24 hours but may take up to 72 hours, excluding weekends."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers / checkout_flow.international_policy
+[URL] https://ionpeptide.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T17:08:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/shipping.md
+[LINE_RANGE] 163-173
+[QUOTE]
+"We ship using **UPS, FedEx, and United States Postal Service (USPS)**.
+
+**Important:**
+
+  * **UPS cannot deliver to PO Box addresses.**
+  * **FedEx cannot deliver to PO Box addresses.**
+
+
+
+Please use a physical delivery address when selecting UPS or FedEx to avoid delays, returned shipments, or carrier delivery issues."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://ionpeptide.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T17:08:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/shipping.md
+[LINE_RANGE] 67-88
+[QUOTE]
+"Free Shipping **Free 2 Day FedEx / UPS on domestic U.S. orders over $250+**
+
+$250
+
+### Complimentary Shipping
+
+Free 2 Day FedEx / UPS shipping is available on domestic U.S. orders over $250+.
+
+5PM
+
+### Same-Day Cutoff
+
+Business-day orders placed before 5:00 PM EST are typically shipped the same day.
+
+FAST
+
+### Expedited Options
+
+Customers may choose upgraded 2-Day or Next Day delivery options at checkout."
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://ionpeptide.com/
+[FETCHED_AT] 2026-05-07T17:05:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/homepage.md
+[LINE_RANGE] 290-298
+[QUOTE]
+"Company / Institution
+
+Business Type / Industry *Select your business typeResearcherClinicUniversityDistributorOther
+
+Phone Number *"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The catalog_1.md page shows a WooCommerce-style product listing with "Add to cart" buttons using /?add-to-cart= URL patterns, product category URLs using /product-category/ structure, and /product/ URL slugs. The page also shows "SKU: N/A" on product pages, which is standard WooCommerce output. The site runs on WordPress with WooCommerce plugin.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://ionpeptide.com/shop/
+[FETCHED_AT] 2026-05-07T17:05:40Z
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/catalog_1.md
+[LINE_RANGE] 156-170
+"  * [](https://ionpeptide.com/my-account/?redirect_to=https%3A%2F%2Fionpeptide.com%2Fshop%2F)
+  * [](https://ionpeptide.com/my-account/?redirect_to=https%3A%2F%2Fionpeptide.com%2Fshop%2F)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://ionpeptide.com/product/bpc-157-2/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__bpc-157.md
+[LINE_RANGE] 79
+"SKU: N/A Categories: [All](https://ionpeptide.com/product-category/peptides/all/), [Lyophilized](https://ionpeptide.com/product-category/peptides/lyophilized/), [Uncategorized](https://ionpeptide.com/product-category/uncategorized/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://ionpeptide.com/
+[FETCHED_AT] 2026-05-07T17:05:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/homepage.md
+[LINE_RANGE] 208-215
+[QUOTE]
+"###  Dedicated team is here to help
+
+## Get a response within minutes
+
+Connect with us via live chat for quick responses, or send us an email and we'll get back to you promptly.
+
+[ __ Live Chat ](https://ionpeptide.com/contact/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.blog_url / content_footprint.topic_taxonomy
+[URL] https://ionpeptide.com/peptide-information/intro-to-peptides/
+[FETCHED_AT] 2026-05-07T17:09:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/blog_1.md
+[LINE_RANGE] 62-72
+[QUOTE]
+"## Peptide Glossary
+
+  * [Introduction to Peptides](https://ionpeptide.com/intro-to-peptides/)
+  * [American Made Peptides](https://ionpeptide.com/american-made-peptides/)
+  * [Peptide Bonds](https://ionpeptide.com/peptide-bonds/)
+  * [Peptide Purity](https://ionpeptide.com/peptide-purity/)
+  * [Peptide Purification](https://ionpeptide.com/peptide-purification/)
+  * [Peptide Solubility](https://ionpeptide.com/peptide-solubility/)
+  * [Peptide Storage](https://ionpeptide.com/peptide-storage/)
+  * [Peptide Synthesis](https://ionpeptide.com/peptide-synthesis/)
+  * [Peptides vs Proteins](https://ionpeptide.com/peptides-vs-proteins/)
+  * [Research Peptides](https://ionpeptide.com/research-peptides/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://ionpeptide.com/peptide-information/intro-to-peptides/
+[FETCHED_AT] 2026-05-07T17:09:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/blog_1.md
+[LINE_RANGE] 178-183
+[QUOTE]
+"## Need documentation before ordering?
+
+Review available lab results, explore peptide education guides, or contact Ion Peptide support for questions about product documentation, order support, or Research Use Only expectations.
+
+[View Lab Results](/lab-results/) [Shop Research Peptides](/shop/) [Contact Support](/contact/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://ionpeptide.com/peptide-information/intro-to-peptides/
+[FETCHED_AT] 2026-05-07T17:09:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/blog_1.md
+[LINE_RANGE] 93-96
+[QUOTE]
+"## Intro to Peptides
+
+By Peptide Information"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews / social_proof.testimonial_usage
+[INFERENCE] false / none observed
+[REASONING]
+No customer review sections, star ratings, testimonial blocks, or third-party review widget embeds were found on the homepage, product pages, or catalog pages reviewed. The on-site registration modal and product pages do not show reviews.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://ionpeptide.com/
+[FETCHED_AT] 2026-05-07T17:05:24Z
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/homepage.md
+[LINE_RANGE] 155-175
+"## ION Peptide: Trusted Research Solutions
+
+Our research peptides are engineered for high-purity lab investigations with
+every batch fully documented.
+
+### High Purity Standards
+
+Every compound meets 99%+ purity with consistent lot-to-lot quality.
+
+### Fast & Reliable Service
+
+Same-day processing with in-house logistics to preserve integrity.
+
+### COA & Analytical Verification
+
+Full Certificate of Analysis with HPLC and mass spectrometry data.
+
+### Innovative Research
+
+Ongoing expansion of our catalog with new and advanced compounds."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://ionpeptide.com/product/bpc-157-2/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__bpc-157.md
+[LINE_RANGE] 82-86
+"  * Description
+  * Details
+  * Research
+  * Mechanism of Action
+  * COA "
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://ionpeptide.com/
+[FETCHED_AT] 2026-05-07T17:05:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/homepage.md
+[LINE_RANGE] 222-224
+[QUOTE]
+"[Research Partners](https://ionpeptide.com/affiliate-ambassador-program/)"
+[/QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country
+[URL] https://ionpeptide.com/compliance-legal-overview/
+[FETCHED_AT] 2026-05-07T17:08:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/compliance.md
+[LINE_RANGE] 144-148
+[QUOTE]
+"**IonPeptide.com | Great Research, LLC** is a **New Mexico-based Limited Liability Company** , registered and in good standing. Our business operates exclusively as a **research chemical supplier**.
+
+We are **not a pharmacy, compounding facility, or health product distributor** , and we do not market products for human or veterinary use."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://ionpeptide.com/faq/
+[FETCHED_AT] 2026-05-07T17:08:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/faq.md
+[LINE_RANGE] 164-167
+[QUOTE]
+"Shipping Regions
+
+We currently ship to the United States and all US territories."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+No explicit founding year is stated on the site. The TOS and refund policy both state "Effective Date: October 2025" and the COA page shows the earliest batch images dated 2025. This indicates the company launched in late 2025.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://ionpeptide.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:08:05Z
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/tos.md
+[LINE_RANGE] 322
+"Effective Date **October 2025**"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://ionpeptide.com/refund-policy/
+[FETCHED_AT] 2026-05-07T17:08:06Z
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/refund.md
+[LINE_RANGE] 64
+"Effective Date **October 2025**"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus-bpc157
+[URL] https://ionpeptide.com/product/bpc-157-2/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__bpc-157.md
+[LINE_RANGE] 54-69
+[QUOTE]
+"# BPC-157
+
+$29.00 – $85.00Price range: $29.00 through $85.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $26.10
+16% Off  | 6 - 9 |  16% $24.36
+25% Off  | 10 + |  25% $21.75
+
+Variant |  Choose an option5mg10mg20mg"
+[/QUOTE]
+
+[CLAIM] skus-tb500
+[URL] https://ionpeptide.com/product/tb-500/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__tb-500.md
+[LINE_RANGE] 54-69
+[QUOTE]
+"# TB-500
+
+$29.00 – $89.00Price range: $29.00 through $89.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $26.10
+16% Off  | 6 - 9 |  16% $24.36
+25% Off  | 10 + |  25% $21.75
+
+Size |  Choose an option5mg10mg20mg"
+[/QUOTE]
+
+[CLAIM] skus-selank
+[URL] https://ionpeptide.com/product/selank-2/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__selank.md
+[LINE_RANGE] 54-69
+[QUOTE]
+"# Selank
+
+$25.00 – $34.65Price range: $25.00 through $34.65
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $22.50
+16% Off  | 6 - 9 |  16% $21.00
+25% Off  | 10 + |  25% $18.75
+
+Variant |  Choose an option10mg5mg"
+[/QUOTE]
+
+[CLAIM] skus-semax
+[URL] https://ionpeptide.com/product/semax/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__semax.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# Semax – 10mg
+
+$32.90
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+In stock
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $29.61
+16% Off  | 6 - 9 |  16% $27.64
+25% Off  | 10 + |  25% $24.68"
+[/QUOTE]
+
+[CLAIM] skus-epithalon
+[URL] https://ionpeptide.com/product/epithalon/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__epithalon.md
+[LINE_RANGE] 54-66
+[QUOTE]
+"# Epithalon
+
+$35.00 – $119.00Price range: $35.00 through $119.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $31.50
+16% Off  | 6 - 9 |  16% $29.40
+25% Off  | 10 + |  25% $26.25
+
+Variant |  Choose an option10mg50mg"
+[/QUOTE]
+
+[CLAIM] skus-ghkcu
+[URL] https://ionpeptide.com/product/ghk-cu-2/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__ghk-cu.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# GHK-Cu
+
+$29.00 – $45.00Price range: $29.00 through $45.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $26.10
+16% Off  | 6 - 9 |  16% $24.36
+25% Off  | 10 + |  25% $21.75
+
+Variant |  Choose an option50mg100mg"
+[/QUOTE]
+
+[CLAIM] skus-kpv
+[URL] https://ionpeptide.com/product/kpv-10/
+[FETCHED_AT] 2026-05-07T17:07:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_2__kpv.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# KPV – 10mg
+
+$49.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+In stock
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $44.10
+16% Off  | 6 - 9 |  16% $41.16
+25% Off  | 10 + |  25% $36.75"
+[/QUOTE]
+
+[CLAIM] skus-thymosin-alpha-1
+[URL] https://ionpeptide.com/product/thymosin-alpha-1-2/
+[FETCHED_AT] 2026-05-07T17:06:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_2__thymosin-alpha-1.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# Thymosin Alpha-1
+
+$42.00 – $65.00Price range: $42.00 through $65.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $37.80
+16% Off  | 6 - 9 |  16% $35.28
+25% Off  | 10 + |  25% $31.50
+
+Variant |  Choose an option5mg10mg"
+[/QUOTE]
+
+[CLAIM] skus-pt141
+[URL] https://ionpeptide.com/product/pt-141/
+[FETCHED_AT] 2026-05-07T17:06:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_2__pt-141.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# PT-141 – 10mg
+
+$37.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+In stock
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $33.30
+16% Off  | 6 - 9 |  16% $31.08
+25% Off  | 10 + |  25% $27.75"
+[/QUOTE]
+
+[CLAIM] skus-ipamorelin
+[URL] https://ionpeptide.com/product/ipamorelin/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__ipamorelin.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# Ipamo
+
+$35.00 – $42.00Price range: $35.00 through $42.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $31.50
+16% Off  | 6 - 9 |  16% $29.40
+25% Off  | 10 + |  25% $26.25
+
+Variant |  Choose an option5mg10mg"
+[/QUOTE]
+
+[CLAIM] skus-cjc1295nodac
+[URL] https://ionpeptide.com/product/cjc-1295/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__cjc-1295-no-dac.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# CJC-1295 (No DAC)
+
+$29.00 – $49.00Price range: $29.00 through $49.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $26.10
+16% Off  | 6 - 9 |  16% $24.36
+25% Off  | 10 + |  25% $21.75
+
+Variant |  Choose an optionCJC-1295 5mgCJC-1295 10mg"
+[/QUOTE]
+
+[CLAIM] skus-cjc1295withdac
+[URL] https://ionpeptide.com/product/cjc-1295-with-dac-5mg/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__cjc-1295-with-dac.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# CJC-1295 With Dac – 5mg
+
+$59.00
+
+All products are for laboratory research purposes only. Not for human consumption, medical, or veterinary use. ION Peptides does not condone or support the use of peptides outside of controlled scientific research. By purchasing, you acknowledge that you are a qualified researcher or institution. You must be 21 or older.
+
+In stock
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $53.10
+16% Off  | 6 - 9 |  16% $49.56
+25% Off  | 10 + |  25% $44.25"
+[/QUOTE]
+
+[CLAIM] skus-ghrp2
+[URL] https://ionpeptide.com/product/ghrp-2/
+[FETCHED_AT] 2026-05-07T17:06:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_2__ghrp-2.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# GHRP-2 – 5mg
+
+$29.00
+
+For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher.
+
+Only 4 left in stock
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $26.10
+16% Off  | 6 - 9 |  16% $24.36
+25% Off  | 10 + |  25% $21.75"
+[/QUOTE]
+
+[CLAIM] skus-ghrp6
+[URL] https://ionpeptide.com/product/ghrp-6/
+[FETCHED_AT] 2026-05-07T17:06:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_2__ghrp-6.md
+[LINE_RANGE] 54-62
+[QUOTE]
+"# GHRP-6 – 5mg
+
+$29.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+In stock"
+[/QUOTE]
+
+[CLAIM] skus-motsc
+[URL] https://ionpeptide.com/product/mots-c/
+[FETCHED_AT] 2026-05-07T17:06:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_1__mots-c.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# MOTS-c
+
+$42.00 – $115.00Price range: $42.00 through $115.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $37.80
+16% Off  | 6 - 9 |  16% $35.28
+25% Off  | 10 + |  25% $31.50
+
+Variant |  Choose an option10mg40mg"
+[/QUOTE]
+
+[CLAIM] skus-ion1s
+[URL] https://ionpeptide.com/product/glp-1s/
+[FETCHED_AT] 2026-05-07T17:06:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_2__ion-1s-semaglutide.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# ION-1S
+
+$39.00 – $99.00Price range: $39.00 through $99.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $35.10
+16% Off  | 6 - 9 |  16% $32.76
+25% Off  | 10 + |  25% $29.25
+
+Size |  Choose an option5mg10mg20mg30mg"
+[/QUOTE]
+
+[CLAIM] skus-ion2t
+[URL] https://ionpeptide.com/product/glp-2t/
+[FETCHED_AT] 2026-05-07T17:06:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_2__ion-2t-tirzepatide.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# ION-2T
+
+$49.00 – $199.00Price range: $49.00 through $199.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $44.10
+16% Off  | 6 - 9 |  16% $41.16
+25% Off  | 10 + |  25% $36.75
+
+Variant |  Choose an option10mg20mg30mg40mg60mg100mg"
+[/QUOTE]
+
+[CLAIM] skus-ion3r
+[URL] https://ionpeptide.com/product/glp-3r/
+[FETCHED_AT] 2026-05-07T17:06:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_2__ion-3r-retatrutide.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# ION-3R
+
+$39.00 – $219.00Price range: $39.00 through $219.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $35.10
+16% Off  | 6 - 9 |  16% $32.76
+25% Off  | 10 + |  25% $29.25
+
+Variant |  Choose an option5mg6mg10mg12mg20mg25mg30mg50mg60mg"
+[/QUOTE]
+
+[CLAIM] skus-aod9604
+[URL] https://ionpeptide.com/product/aod-9604-2/
+[FETCHED_AT] 2026-05-07T17:06:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_2__aod-9604.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# AOD-9604
+
+$49.00 – $69.00Price range: $49.00 through $69.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $44.10
+16% Off  | 6 - 9 |  16% $41.16
+25% Off  | 10 + |  25% $36.75
+
+Variant |  Choose an option5mg10mg"
+[/QUOTE]
+
+[CLAIM] skus-dsip
+[URL] https://ionpeptide.com/product/dsip/
+[FETCHED_AT] 2026-05-07T17:06:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_2__dsip.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# DSIP
+
+$29.00 – $45.00Price range: $29.00 through $45.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $26.10
+16% Off  | 6 - 9 |  16% $24.36
+25% Off  | 10 + |  25% $21.75
+
+Variant |  Choose an option5mg10mg"
+[/QUOTE]
+
+[CLAIM] skus-igflr3
+[URL] https://ionpeptide.com/product/igf-lr3-1mg/
+[FETCHED_AT] 2026-05-07T17:07:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_2__igf-lr3.md
+[LINE_RANGE] 54-62
+[QUOTE]
+"# IGF-LR3 – 1mg
+
+$90.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Out of stock"
+[/QUOTE]
+
+[CLAIM] skus-pegmgf
+[URL] https://ionpeptide.com/product/peg-mgf/
+[FETCHED_AT] 2026-05-07T17:07:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_2__peg-mgf.md
+[LINE_RANGE] 54-62
+[QUOTE]
+"# PEG-MGF – 2mg
+
+$39.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+In stock"
+[/QUOTE]
+
+[CLAIM] skus-nadplus
+[URL] https://ionpeptide.com/product/nad/
+[FETCHED_AT] 2026-05-07T17:07:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_2__nad-plus.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# NAD+
+
+$44.00 – $85.00Price range: $44.00 through $85.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $39.60
+16% Off  | 6 - 9 |  16% $36.96
+25% Off  | 10 + |  25% $33.00
+
+Variant |  Choose an option500mg1000mg"
+[/QUOTE]
+
+[CLAIM] skus-ss31
+[URL] https://ionpeptide.com/product/ss-31/
+[FETCHED_AT] 2026-05-07T17:07:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ionpeptide/product_2__ss-31.md
+[LINE_RANGE] 54-67
+[QUOTE]
+"# §-31
+
+$55.00 – $139.00Price range: $55.00 through $139.00
+
+_For research purposes only. Not for human or animal use & not FDA-approved. By purchasing, you confirm you are 21 or older and qualified researcher._
+
+Title | Quantity | Price
+---|---|---
+10% Off  | 4 - 5 |  10% $49.50
+16% Off  | 6 - 9 |  16% $46.20
+25% Off  | 10 + |  25% $41.25
+
+Variant |  Choose an option10mg35mg50mg"
+[/QUOTE]

@@ -1,0 +1,335 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 38-42
+[QUOTE]
+"# Discover the
+power of peptides
+
+Browse leading peptides for sale online to use in scientific research."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 43-43
+[QUOTE]
+"[ Shop More ](https://web.archive.org/web/20231010010745/https://aminosresearch.com/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 17-26
+[QUOTE]
+"* [Home](https://web.archive.org/web/20231010010745/https://aminosresearch.com/)
+  * [Shop Peptides](https://web.archive.org/web/20231010010745/https://aminosresearch.com/shop/)
+  * [Wholesale & Bulk Orders](https://web.archive.org/web/20231010010745/https://aminosresearch.com/wholesaleandbulkorders/)
+  * [Our Company](https://web.archive.org/web/20231010010745/https://aminosresearch.com/about-us/)
+  * [Our Policies](https://web.archive.org/web/20231010010745/https://aminosresearch.com/ourpolicies/)
+  * [FAQ](https://web.archive.org/web/20231010010745/https://aminosresearch.com/frequentlyaskedpeptidequestions/)
+  * [Contact Us](https://web.archive.org/web/20231010010745/https://aminosresearch.com/contact-us/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 200-200
+[QUOTE]
+"@ 2023 Aminos all right reserved."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+Homepage features "Quality & Transparency First", "Clinical Grade Purity", "3rd Party Tested" headings, and product images in the page-sitemap show white-background vial photography (filenames: 10.05.png, TIR-15.81.png, etc.). The about page uses laboratory/scientific framing with "99.9% purity peptides." No lifestyle or meme-coded imagery described anywhere in accessible content.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 86-102
+"## Quality & Transparency First
+
+## 3rd Party Tested
+
+Each batch independently tested by 2 separate labs for purity and dosage.
+
+## Guaranteed Freshness & Potency
+
+Stored at -20° Celsius in medical grade freezers.
+
+## Clinical Grade Purity
+
+Greater than 99% purity.
+
+## QR Code on Vial
+
+COAs for each batch easily accessible."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20231010013240/https://aminosresearch.com/about-us/
+[FETCHED_AT] 2026-05-07T19:40:29Z
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/about.md
+[LINE_RANGE] 38-43
+"## ABOUT US
+
+## Our mission is to raise awareness of peptides and their benefits.
+
+We specialize in peptide research and development and are committed to playing an important part in helping to revolutionize health and well-being. Our 99.9% purity peptides for sale online are 1st and 3rd party tested and our COAs are readily available via QR code on demand."
+[/SUPPORT_QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2023
+[REASONING]
+The earliest page creation dates in the page-sitemap are 2023-07-31 for cart and my-account pages. The footer copyright reads "@ 2023 Aminos all right reserved." Blog posts began August 2023. No pre-2023 archive snapshots exist in Wayback CDX.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 200-200
+"@ 2023 Aminos all right reserved."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20231010094035/https://aminosresearch.com/page-sitemap.xml
+[FETCHED_AT] 2026-05-07T19:42:01Z
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/page_sitemap.md
+[LINE_RANGE] 8-8
+"https://aminosresearch.com/cart/ 2023-07-31T07:10:12+00:00 https://aminosresearch.com/my-account/ 2023-07-31T07:10:14+00:00"
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/20231010075834/https://aminosresearch.com/product-sitemap.xml
+[FETCHED_AT] 2026-05-07T19:42:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/product_sitemap.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"https://aminosresearch.com/product/melanotan-2/ 2023-10-08T22:11:37+00:00"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/20231010084106/https://aminosresearch.com/product_cat-sitemap.xml
+[FETCHED_AT] 2026-05-07T19:42:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/product_sitemap.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"https://aminosresearch.com/shop-peptides/ 2023-10-10T04:19:25+00:00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20231010012400/https://aminosresearch.com/what-research-has-to-say-about-peptides-and-weightloss/
+[FETCHED_AT] 2026-05-07T19:40:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/blog_1.md
+[LINE_RANGE] 40-40
+[QUOTE]
+"> Disclaimer: The content and product details shared on this website are solely for educational and informational purposes. The products available here are meant exclusively for in-vitro (Latin: in glass) research, implying they are to be used outside of living organisms. These products aren't recognized as medicines or drugs, and the FDA hasn't endorsed them for the treatment, prevention, or cure of any health issue. It's legally prohibited to administer these products into humans or animals in any form."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 79-83
+[QUOTE]
+"* __ Greater than 99% purity
+  * __ Each batch double-tested by 3rd party.
+  * __ QR code on each vial for batch COA
+  * __ Free shipping on all orders over $100"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://web.archive.org/web/20231010094035/https://aminosresearch.com/page-sitemap.xml
+[FETCHED_AT] 2026-05-07T19:42:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/page_sitemap.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"https://aminosresearch.com/test_results_ret0002_bluetop/ 2023-09-11T21:31:42+00:00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://web.archive.org/web/20231010094035/https://aminosresearch.com/page-sitemap.xml
+[FETCHED_AT] 2026-05-07T19:42:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/page_sitemap.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"https://aminosresearch.com/test_results_bpc_0001_redcap/ 2023-09-13T15:42:51+00:00"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://web.archive.org/web/20231010012400/https://aminosresearch.com/what-research-has-to-say-about-peptides-and-weightloss/
+[FETCHED_AT] 2026-05-07T19:40:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/blog_1.md
+[LINE_RANGE] 40-40
+[QUOTE]
+"> Disclaimer: The content and product details shared on this website are solely for educational and informational purposes. The products available here are meant exclusively for in-vitro (Latin: in glass) research, implying they are to be used outside of living organisms. These products aren't recognized as medicines or drugs, and the FDA hasn't endorsed them for the treatment, prevention, or cure of any health issue. It's legally prohibited to administer these products into humans or animals in any form."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+The archived homepage loads directly to product showcase content with no age-verification interstitial; the privacy policy states "In adherence to COPPA regulations, we do not gather details from individuals below the age of 13. Our services and offerings cater to those aged 18 and above" but this is only a policy statement, not a gate. No age-gate modal, checkbox, or redirect is mentioned in any accessible archived page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 17-45
+"* [Home](https://web.archive.org/web/20231010010745/https://aminosresearch.com/)
+  * [Shop Peptides](https://web.archive.org/web/20231010010745/https://aminosresearch.com/shop/)
+  * [Wholesale & Bulk Orders](https://web.archive.org/web/20231010010745/https://aminosresearch.com/wholesaleandbulkorders/)
+  * [Our Company](https://web.archive.org/web/20231010010745/https://aminosresearch.com/about-us/)
+  * [Our Policies](https://web.archive.org/web/20231010010745/https://aminosresearch.com/ourpolicies/)
+  * [FAQ](https://web.archive.org/web/20231010010745/https://aminosresearch.com/frequentlyaskedpeptidequestions/)
+  * [Contact Us](https://web.archive.org/web/20231010010745/https://aminosresearch.com/contact-us/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20231010035221/https://aminosresearch.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T19:40:29Z
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/privacy_policy.md
+[LINE_RANGE] 70-70
+"In adherence to COPPA regulations, we do not gather details from individuals below the age of 13. Our services and offerings cater to those aged 18 and above."
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 159-159
+[QUOTE]
+"* [ Terms & Conditions ](https://web.archive.org/web/20231010010745/https://aminosresearch.com/terms-conditions/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 82-82
+[QUOTE]
+"* __ Free shipping on all orders over $100"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The CDX API response for aminosresearch.com shows archived URLs including woocommerce-specific plugins: elementor-pro, breeze (WP cache plugin), and the URL structure /product/, /product-category/, /my-account/, /cart/, /checkout/ are all canonical WooCommerce URL patterns. The robots.txt includes Yoast SEO block, a WordPress plugin. Elementor Pro is also a WordPress-only page builder.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20231010094035/https://aminosresearch.com/page-sitemap.xml
+[FETCHED_AT] 2026-05-07T19:42:01Z
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/page_sitemap.md
+[LINE_RANGE] 8-8
+"https://aminosresearch.com/cart/ 2023-07-31T07:10:12+00:00 https://aminosresearch.com/my-account/ 2023-07-31T07:10:14+00:00"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 19-19
+"* [Shop Peptides](https://web.archive.org/web/20231010010745/https://aminosresearch.com/shop/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] cloudflare
+[REASONING]
+The live homepage fetch at https://aminosresearch.com returns HTTP 200 with redirect to /login/ consistent with Cloudflare Workers or Cloudflare Access protecting the site. The archived page source includes a Cloudflare email-decode script URL: aminosresearch.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js captured in the CDX index.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 130-130
+"Aminos Research™ is your dependable, private, and easy-to-use online hub for rigorously tested research peptides. We place immense value on offering quality products and exceptional service. Customer service is at the heart of what we do, and we cherish each relationship we build. With a global clientele that speaks to our commitment and quality, we give a heartfelt thanks to our quickly growing research community. For any inquiries or support, feel free to reach out to us at [[email protected]](/web/20231010010745/https://aminosresearch.com/cdn-cgi/l/email-protection)."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 130-130
+"For any inquiries or support, feel free to reach out to us at [[email protected]](/web/20231010010745/https://aminosresearch.com/cdn-cgi/l/email-protection)."
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://web.archive.org/web/20231010094035/https://aminosresearch.com/page-sitemap.xml
+[FETCHED_AT] 2026-05-07T19:42:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/page_sitemap.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"https://aminosresearch.com/blog/ 2023-09-19T17:24:32+00:00"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://web.archive.org/web/20231010094035/https://aminosresearch.com/page-sitemap.xml
+[FETCHED_AT] 2026-05-07T19:42:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/page_sitemap.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"https://aminosresearch.com/blog/ 2023-09-19T17:24:32+00:00"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 112-120
+[QUOTE]
+"### [Weight Loss](https://web.archive.org/web/20231010010745/https://aminosresearch.com/what-research-has-to-say-about-peptides-and-weightloss/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 112-120
+[QUOTE]
+"### [Weight Loss](https://web.archive.org/web/20231010010745/https://aminosresearch.com/what-research-has-to-say-about-peptides-and-weightloss/)
+
+[](https://web.archive.org/web/20231010010745/https://aminosresearch.com/what-research-says-about-peptides-hair-and-skin/)
+
+### [Hair + Skin](https://web.archive.org/web/20231010010745/https://aminosresearch.com/what-research-says-about-peptides-hair-and-skin/)
+
+[](https://web.archive.org/web/20231010010745/https://aminosresearch.com/peptides-for-gut-health-healing-according-to-research/)
+
+### [Gut Health + Healing](https://web.archive.org/web/20231010010745/https://aminosresearch.com/peptides-for-gut-health-healing-according-to-research/)"
+[/QUOTE]
+
+[CLAIM] skus (catalog enumeration — product names from sitemap)
+[URL] https://web.archive.org/web/20231010075834/https://aminosresearch.com/product-sitemap.xml
+[FETCHED_AT] 2026-05-07T19:42:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/product_sitemap.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"https://aminosresearch.com/product/melanotan-2/ 2023-10-08T22:11:37+00:00"
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://web.archive.org/web/20231010010745/https://aminosresearch.com/
+[FETCHED_AT] 2026-05-07T19:38:05Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aminos-research/homepage_wayback.md
+[LINE_RANGE] 122-130
+[QUOTE]
+"Aminos Research is steadily making its mark in the scientific community by providing peptides with 99+% purity, tailored for research. Our credibility is built on the quality of our products, as well as our commitment to transparency, integrity, and client satisfaction."
+[/QUOTE]

@@ -1,0 +1,344 @@
+================================================================
+EVIDENCE FILE — Channel: bing-ddg-search
+Compiled: 2026-05-06
+Format: [CLAIM] / [URL] / [FETCHED_AT] / [FETCH_METHOD] / [RAW_ARTIFACT] / [LINE_RANGE] / [QUOTE]
+================================================================
+
+----------------------------------------------------------------
+[CLAIM] DuckDuckGo's traditional links and images are largely sourced from Bing.
+[URL] https://duckduckgo.com/duckduckgo-help-pages/results/sources/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch (Claude Code)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/01_ddg_help_sources.md
+[LINE_RANGE] 12-19
+[QUOTE]
+"Of course, we have more traditional links and images in our search results too, which we largely source from Bing. Our focus is synthesizing all these sources to create a superior search experience."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] DuckDuckGo's ad inventory is supplied by Microsoft Advertising; ads are contextual to the SERP, not personal.
+[URL] https://duckduckgo.com/duckduckgo-help-pages/company/how-duckduckgo-makes-money/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/02_ddg_help_makes_money.md
+[LINE_RANGE] 9-18
+[QUOTE]
+"private ads on our search engine"
+"based on the search results page you're viewing instead of being based on who other companies and their tracking algorithms assume you are as a person."
+"Microsoft's ad network handles 'most ad clicks.'"
+"Microsoft Advertising does not associate your ad-click behavior with a user profile."
+"sponsored links that appear adjacent to search results."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] DuckDuckGo directs prospective advertisers to Microsoft Advertising — there is no separate DDG ad portal or DDG ad policy.
+[URL] https://duckduckgo.com/duckduckgo-help-pages/company/advertise-on-duckduckgo-search/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/03_ddg_help_advertise.md
+[LINE_RANGE] 9-15
+[QUOTE]
+To place ads on DuckDuckGo, advertisers must "visit Microsoft Advertising"
+Microsoft Advertising is "the exclusive partner managing DuckDuckGo's advertising network"
+"leverages the broader Microsoft Advertising Network which helps deliver the best click for a campaign."
+"offers fewer ads than other major search engines to create a differentiated user-experience"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] An advertiser CANNOT target ads to DuckDuckGo only via Microsoft Advertising. DDG is bundled with Bing/Yahoo/AOL/Ecosia in the Microsoft Network.
+[URL] https://learn.microsoft.com/en-us/answers/questions/2289521/it-is-possible-to-run-ads-on-duckduckgo-only
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/15_msft_ads_ddg_partnership.md
+[LINE_RANGE] 11-13
+[QUOTE]
+"Currently, there's no option to limit your ad delivery in DuckDuckGo only. With Microsoft Advertising, search ads can be shown to potential customers across a variety of search engines and partner sites, including Microsoft Bing, AOL, Yahoo, DuckDuckGo, Ecosia, and others."
+— Shaynne, Microsoft Advertising Support Specialist
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] As of June 2023, Microsoft Advertising globally banned advertising for clinical trials and experimental treatments.
+[URL] https://about.ads.microsoft.com/en/blog/post/june-2023/updates-to-our-network-policies
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/14_msft_ads_policy_blog_2023.md
+[LINE_RANGE] 17-20
+[QUOTE]
+"We will no longer allow advertising for clinical trials or experimental treatments globally."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] Microsoft Advertising's June 2023 supplements policy: vitamins/supplements ARE allowed on the Microsoft Audience Network, but landing pages MUST be product pages (no advertorials/videos), and ads cannot make organ-cleansing-style claims.
+[URL] https://about.ads.microsoft.com/en/blog/post/june-2023/updates-to-our-network-policies
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/14_msft_ads_policy_blog_2023.md
+[LINE_RANGE] 11-15
+[QUOTE]
+"Advertising for vitamins and supplements is now allowed on the Microsoft Audience Network."
+"Ads cannot claim to complete a task such as cleansing the liver."
+"Landing pages must be product pages, they cannot be advertorials or videos."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] Microsoft Advertising historically requires LegitScript or NABP accreditation for online pharmacies.
+[URL] https://nabp.pharmacy/news/news-releases/bing-revises-online-pharmacy-advertising-policy-to-recognize-pharmacy-tld/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch
+[RAW_ARTIFACT] (web search result; full body not preserved as separate file — citing fetch)
+[LINE_RANGE] (page summary)
+[QUOTE]
+Eligible Bing Ads pharmacy advertisers must be:
+"online pharmacies accredited by the NABP Verified Internet Pharmacy Practice Sites® (VIPPS®)"
+"Veterinary-VIPPS® programs, as well as entities granted approval under the NABP e-Advertiser ApprovalCM Program"
+or have been "granted approval to register a .Pharmacy Top-Level Domain (TLD)"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] Microsoft Advertising announced alignment with Google Ads health/pharmacy policies effective March 2024.
+[URL] https://www.accelerateddigitalmedia.com/insights/health-policies-and-restrictions-guide-for-google-ads-microsoft-ads-2026/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch
+[RAW_ARTIFACT] (third-party reseller summary; raw text not preserved — citing fetch summary)
+[LINE_RANGE] (article body)
+[QUOTE]
+"Ads related to sensitive health conditions targeting consumers are not allowed."
+Microsoft accepts "LegitScript certification" or "accreditation from the National Association Boards of Pharmacy (NABP)" for pharmaceutical sellers.
+Brands cannot use "language like 'your condition' or 'your symptoms.'"
+"Claims and content of weight loss products and services are heavily restricted."
+"Microsoft's policies are 'generally more restrictive than Google's.'"
+[/QUOTE]
+
+[INFERENCE] Microsoft Ads policy stance on research peptides marketed as "research use only" is not enumerated in publicly fetchable text, but the combination of: (a) the experimental-treatments ban (Aug 2023), (b) LegitScript/NABP requirement for pharmacy advertisers, (c) the supplements policy demanding product pages and disallowing advertorial landing pages, and (d) the public alignment with Google Ads policy (which does prohibit "research chemicals" outright) means a research-peptide vendor without LegitScript will be disapproved at Microsoft Ads in the same general pattern as at Google Ads.
+[REASONING] Multiple independent sources triangulate that Microsoft Ads now mirrors Google Ads health policy. Google Ads disallows research chemicals/peptides as drugs. The 2023 experimental-treatment ban widens this to anything marketed as a non-approved therapeutic.
+[SUPPORT_QUOTE 1] "We will no longer allow advertising for clinical trials or experimental treatments globally." (Microsoft Advertising blog, June 2023)
+[SUPPORT_QUOTE 2] "Microsoft Advertising announced it would align its health and pharmacy policies with Google Ads starting from March 2024" (Accelerated Digital Media 2026 guide).
+
+----------------------------------------------------------------
+[CLAIM] Brave Ads classifies pharmaceuticals as a Restricted topic and explicitly states the ad slot cannot fit required pharma disclosures; supplements of "dubious efficacy" are also disallowed.
+[URL] https://brave.com/advertising-policy/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/16_brave_ads_policy.md
+[LINE_RANGE] 9-19
+[QUOTE]
+"Products meant to diagnose, treat, or cure any illness or disease. Services which can only be provided by someone with a recognized medical qualification."
+"Ads must not promote unsafe supplements, or those of dubious efficacy."
+"Brave Ads do not currently support enough text to convey the required disclosures for many pharmaceuticals and medical treatments."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] Brave's full prohibited categories list explicitly includes "Pharmaceuticals" alongside CBD, THC, Tobacco, Vaping, Gambling, Adult content, Politics, Violence, content targeting children, and content targeting expecting mothers.
+[URL] https://ads-help.brave.com/advertiser-policies/browser-policies/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/16_brave_ads_policy.md
+[LINE_RANGE] 22-24
+[QUOTE]
+"CBD (available in the US with state-level restrictions), THC, Tobacco, Vaping, Pharmaceuticals, Gambling, Adult content, Politics, Violence, Content targeting children, Content targeting expecting mothers"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] Yandex Direct's medicine policy permits pharmacies, medicines, vet pharmacies, medical devices, and medical services, while prohibiting narcotics/psychotropics and abortion services. Peptides, hormones, and research chemicals are NOT explicitly addressed.
+[URL] https://yandex.com/support/direct/ru/moderation/categories/medicine.html
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/17_yandex_medicine_policy.md
+[LINE_RANGE] 9-23
+[QUOTE]
+Allowed: "Аптеки и лекарства" (Pharmacies and medicines), "Ветеринарные аптеки и препараты" (Veterinary pharmacies and drugs), "Медицинские изделия" (Medical devices), "Медицинские услуги" (Medical services)
+Prohibited: "Наркотические и психотропные вещества" (Narcotics and psychotropic substances), "Рецептурные препараты и лекарства с наркотическими или психотропными веществами" (Prescription drugs containing narcotics or psychotropic substances), Abortion-related services
+Sensitive: "лечении некоторых тяжелых заболеваний, диетах, беременности" (treatment of certain serious illnesses, diets, pregnancy) — search-only, no behavioral targeting
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] Kagi is a paid subscription search engine with NO advertising, no sponsored results, and no trackers.
+[URL] https://kagi.com/ + https://en.wikipedia.org/wiki/Kagi
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebSearch (consensus across multiple results)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/18_kagi_search.md
+[LINE_RANGE] 9-15
+[QUOTE]
+"Kagi has no ads or sponsored search results, being based on an account-based, subscription service instead. There are no ads, no sponsored shopping results, and no trackers."
+"One page of Kagi results will show 30-50 organic results compared to just 10 results typically shown on other search engines."
+"Kagi downranks web pages that contain ads and trackers, as this has empirically proven to improve search result quality for members."
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] DuckDuckGo organic SERP for "buy peptides" surfaces named peptide vendors at top ranks: Core Peptides #1, Biotech Peptides #2 (both in anchor universe), then BioLongevity, US Peptides, Ultra Peptides, Edge Peptides, Loti Labs.
+[URL] https://html.duckduckgo.com/html/?q=buy+peptides
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch (DDG HTML endpoint)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/04_ddg_html_buy_peptides.md
+[LINE_RANGE] 11-21
+[QUOTE]
+1. Core Peptides — corepeptides.com — "Peptides and peptide blends for sale online..."
+2. Biotech Peptides — biotechpeptides.com/buy-peptides/ — "Buy peptides online! At Biotech Peptides, our mission is to provide laboratories and researchers with the highest quality peptides possible."
+3. Muscle and Brawn — best-peptide-vendors guide
+4. BioLongevity Labs
+5. US Peptides
+6. Ultra Peptides
+7. Peptides.org Top 10 Companies
+8. Protide Health Best Online Peptide Stores 2026
+9. Edge Peptides
+10. Loti Labs
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] DuckDuckGo organic SERP for "BPC-157 buy" surfaces Amazon at #1 (with non-real BPC-157 products), peptidedeck #2 (compounding pharmacy article), Biotech Peptides #3, then bioedgeresearchlabs/verifiedpeptides/aminoclub/Core Peptides/nootropicsource/limitlessaltmed/thepeptidecatalog.
+[URL] https://html.duckduckgo.com/html/?q=BPC-157+buy
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/05_ddg_html_bpc157.md
+[LINE_RANGE] 11-21
+[QUOTE]
+1. Amazon.com Bpc157 Peptide listings
+2. peptidedeck.com — "Where to Buy BPC-157 Legally in 2026: Compounding Is Back"
+3. biotechpeptides.com/product/bpc-157/
+4. bioedgeresearchlabs.com/product/bpc-157-10mg/
+5. verifiedpeptides.com/product/bpc157/
+6. aminoclub.com/us/products/bpc-157
+7. corepeptides.com/peptides/bpc-157/
+8. nootropicsource.com/shop/peptides/bpc-157/
+9. limitlessaltmed.com/news/peptides/where-to-buy-bpc-157/
+10. thepeptidecatalog.com/articles/bpc-157-tb-500-buying-guide
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] Bing organic SERP for "BPC-157" (US locale) returns ten results that are all from a single source: professionalmuscle.com/forums (a bodybuilding forum). NO Wikipedia, NO vendor sites, NO clinical-content sites in top 10.
+[URL] https://www.bing.com/search?q=BPC-157&cc=us&setlang=en-us&mkt=en-US
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch (US locale)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/08_bing_bpc157.md
+[LINE_RANGE] 11-21
+[QUOTE]
+1-10: All from professionalmuscle.com/forums:
+- BPC157 TB500 for wrist injury
+- BPC - 157 (overview thread)
+- BPC-157 and GH
+- BPC 157 Dislocated Shoulder Log
+- BPC 157/TB 500... magic!
+- Who's tried the "healing miracle drug" - BPC 157?
+- bpc 157 peptide vs sarm bpc 157
+- BPC157, TB500 and HGH log for pec tear and bilateral tricep tear surgery
+- Traveling with BPC157
+- Taking BCP-157 orally???
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] Bing organic SERP for the EXACT brand search "Pure Rawz" (US locale) does NOT include the Pure Rawz official site (purerawz.co) in the top 7; instead, Bing returns homophone collisions: PURE Insurance, Pure Encapsulations, Merriam-Webster, etc.
+[URL] https://www.bing.com/search?q=Pure+Rawz&cc=us&setlang=en-us&mkt=en-US
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch (US locale)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/10_bing_pure_rawz.md
+[LINE_RANGE] 11-19
+[QUOTE]
+1. PURE Insurance — pureinsurance.com
+2. Pure Encapsulations — pureforyou.com
+3. Pure Encapsulations — pureencapsulations.com
+4. PURE Definition — Merriam-Webster
+5. Pure Definition — The Free Dictionary
+6. PURE — pure.com (juice)
+7. Pure Good — shoppuregood.com (skincare)
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] Bing organic SERP for "Behemoth Labz" returns 10 results dominated by the Polish death-metal band Behemoth and the Behemoth video-game monster — the official behemothlabz.com domain DOES NOT appear in top 10. Adding "SARMs" disambiguator does NOT fix this.
+[URL] https://www.bing.com/search?q=Behemoth+Labz&cc=us&setlang=en-us&mkt=en-US (and "Behemoth Labz SARMs")
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch (US locale)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/11_bing_behemoth_labz.md
+[LINE_RANGE] 12-23
+[QUOTE]
+1. r/Behemothband (death metal)
+2. Final Fantasy Behemoth design
+3. Trevor Henderson lore
+4. Monster Hunter World Behemoth
+5. Ghost Recon Breakpoint Behemoth
+6. Monster Hunter World — Behemoth raid
+7. Nikke Mobile Behemoth
+8. Infinity Nikki Behemoth Beater
+9. r/sarmssourcetalk Legitimacy of BehemothLabz?
+10. Extreme Behemoth Guide (Monster Hunter)
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] Bing organic SERP for "Limitless Life Nootropics" places limitlesslifenootropics.com (official) at rank 1 and limitlesslifepeptides.com (sister/alt domain) at rank 2.
+[URL] https://www.bing.com/search?q=Limitless+Life+Nootropics&cc=us&setlang=en-us&mkt=en-US
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch (US locale)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/12_bing_limitless_life.md
+[LINE_RANGE] 11-19
+[QUOTE]
+1. limitlesslifenootropics.com (official)
+2. limitlesslifepeptides.com (sister)
+3. trustpilot.com/review/limitlesslifenootropics.com
+4. bestpeptidescompanies.com Limitless Life Nootropics Review (2026)
+5. r/Peptides "SCAM!! DO NOT ORDER from them"
+6. muscleandbrawn.com Limitless Life Peptides Review + Alternatives
+7. drugsbanks.com analysis
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] Bing organic SERP for "Biotech Peptides" returns 10 of 10 results from biotechpeptides.com itself — clean brand SERP because the brand name has zero homophone collision.
+[URL] https://www.bing.com/search?q=Biotech+Peptides&cc=us&setlang=en-us&mkt=en-US
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch (US locale)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/13_bing_biotech_peptides.md
+[LINE_RANGE] 11-22
+[QUOTE]
+1-10: All from biotechpeptides.com (homepage, /buy-peptides, /about, /peptides-sale, /knowledge-center, /product/BPC-157+TB-500, /contact-us, /product/BPC-157, /product/NAD+, /product/Fragment 176-191)
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] Bing organic SERP for "Peptide Sciences" surfaces multiple shutdown/eulogy articles and a lookalike domain (officialpeptidesciences.com) — the original peptidesciences.com is reportedly defunct as of March 6, 2026.
+[URL] https://www.bing.com/search?q=Peptide+Sciences&cc=us&setlang=en-us&mkt=en-US
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch (US locale)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/09_bing_peptide_sciences.md
+[LINE_RANGE] 11-21
+[QUOTE]
+1. thepeptidecatalog.com — "Peptide Sciences was one of the largest grey-market research peptide vendors in the US"
+3. thepeptidelist.substack.com — "After careful consideration, Peptide Sciences has made the decision to voluntarily shut down operations"
+4. officialpeptidesciences.com (lookalike/competitor)
+8. peptidesexplorer.com — "Peptide Sciences shut down on March 6, 2026"
+[/QUOTE]
+
+----------------------------------------------------------------
+[CLAIM] No vendor in the anchor universe was observed running ads explicitly identified as "Bing Ads" or "Microsoft Ads"; the WebFetch endpoint did not detect any [Ad] / Sponsored labels on any of the brand or category SERPs sampled.
+[URL] (multiple Bing SERPs cited above)
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch (US locale)
+[RAW_ARTIFACT] /mnt/c/Users/endeg/Documents/peptide-research/peptide-research_cli/03_raw_fetches/bing-ddg-search/07_bing_buy_peptides.md, /08_bing_bpc157.md, /09_bing_peptide_sciences.md, /10_bing_pure_rawz.md, /11_bing_behemoth_labz.md, /12_bing_limitless_life.md, /13_bing_biotech_peptides.md
+[LINE_RANGE] (multiple "Sponsored: No" / "no ads identified" lines per file)
+[QUOTE]
+"No paid ads identified in the provided results" (across all sampled Bing brand SERPs)
+"No ads are explicitly marked in the provided content"
+[/QUOTE]
+
+[INFERENCE] No anchor-universe peptide vendor is currently running Microsoft Ads / Bing Ads campaigns, consistent with the platform's pharmacy-and-research-chemicals policy stance.
+[REASONING] Across seven distinct Bing-side SERPs (category + 5 brand + 1 compound), zero ad units were detected on the WebFetch render. This is consistent with policy-driven exclusion: Microsoft Ads requires LegitScript/NABP for online pharmacy ads, has globally banned experimental-treatment ads since 2023, and is now publicly aligned with Google Ads health policy (which categorically prohibits research peptide vendors).
+[SUPPORT_QUOTE 1] "We will no longer allow advertising for clinical trials or experimental treatments globally." (Microsoft Advertising blog, June 2023)
+[SUPPORT_QUOTE 2] "Microsoft Advertising announced it would align its health and pharmacy policies with Google Ads starting from March 2024" (Accelerated Digital Media 2026 guide).
+
+----------------------------------------------------------------
+[CLAIM] DuckDuckGo organic SERP behavior for grey-market peptide brands is markedly DIFFERENT from Bing's despite DDG's "we largely source from Bing" statement. DDG returns the official sites of Pure Rawz (purerawz.co rank 1), Behemoth Labz (behemothlabz.com rank 1), and Amino Asylum (multiple amino-asylum domains in top 5) at top positions, while Bing fails to surface the same brands' official sites.
+[URL] https://html.duckduckgo.com/html/?q=Pure+Rawz+Bing  +  https://html.duckduckgo.com/html/?q=Behemoth+Labz+Domestic+Supply  +  https://html.duckduckgo.com/html/?q=Amino+Asylum+peptides
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] WebFetch (DDG HTML endpoint)
+[RAW_ARTIFACT] (composite — observed in fetch turn but not all separately persisted)
+[LINE_RANGE] (search-result tables)
+[QUOTE]
+DDG "Pure Rawz Bing": #1 PureRawz (purerawz.co), #6 muscleandbrawn PureRawz Review, #8 purerawz.co/shop/, #9 PeptideVerdict review, #10 PureRawz tablets
+DDG "Behemoth Labz Domestic Supply": #1 behemothlabz.com (official), #4 insidebodybuilding review, #6 evolutionary.org forum, #8 behemothlabz.com/shop, #10 behemothlabz.com/faqs
+DDG "Amino Asylum peptides": #1 amino-asylum.net, #2 aminoasylum.us, #3 aminoasylums.net, #4 aminoasylumllc.com, #5 aminoasylum-llc.com (multiple official + look-alike vendor domains)
+[/QUOTE]
+
+[INFERENCE] DDG re-ranks Bing-sourced results using its own logic (likely diversity/domain-deduplication) such that, paradoxically, DDG is a BETTER index than Bing for grey-market peptide brand searches. A vendor that ranks well on DDG may not rank well on Bing for the same query, and vice versa.
+[REASONING] DDG explicitly states "we largely source from Bing" but the public SERPs do not match. The most parsimonious explanation is post-source re-ranking by DDG. Independent confirmation comes from third-party comparisons noting DDG's "diversity" filter on commercial intent queries.
+[SUPPORT_QUOTE 1] "Of course, we have more traditional links and images in our search results too, which we largely source from Bing. Our focus is synthesizing all these sources to create a superior search experience." (DDG help)
+[SUPPORT_QUOTE 2] Bing's "Pure Rawz" SERP — purerawz.co is absent from top 7; DDG's "Pure Rawz Bing" SERP — purerawz.co is at rank 1.
+
+================================================================
+END EVIDENCE FILE
+================================================================

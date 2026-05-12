@@ -1,0 +1,490 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://bioclinx.com/
+[FETCHED_AT] 2026-05-07T19:43:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/homepage.md
+[LINE_RANGE] 51-55
+[QUOTE]
+Use Code: SAVE20 During Checkout!
+
+[SHOP NOW!](https://bioclinx.com/shop-all/)
+
+## FAST FREE SHIPPING ON ALL ORDERS!
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://bioclinx.com/
+[FETCHED_AT] 2026-05-07T19:43:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/homepage.md
+[LINE_RANGE] 53-53
+[QUOTE]
+[SHOP NOW!](https://bioclinx.com/shop-all/)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://bioclinx.com/
+[FETCHED_AT] 2026-05-07T19:43:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/homepage.md
+[LINE_RANGE] 14-28
+[QUOTE]
+  * [ Shop All ](https://bioclinx.com/shop-all/)
+  * [ Peptide Categories ](https://bioclinx.com/peptide-categories/) Toggle sub-menu ____
+
+    * [ __ Peptide Categories ](https://bioclinx.com/peptide-categories/)
+    *     * [ GH Secretagogue Research ](https://bioclinx.com/gh-secretagogue-research/)
+    * [ Cellular Recovery Research ](https://bioclinx.com/cellular-recovery-research/)
+    * [ Dermal Research ](https://bioclinx.com/dermal-research/)
+    * [ Metabolic Research ](https://bioclinx.com/metabolic-research/)
+    * [ Neuro Research ](https://bioclinx.com/neuro-research/)
+
+  * [ Product COAs ](https://bioclinx.com/product-coas/)
+  * [ Contact ](https://bioclinx.com/contact/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://bioclinx.com/
+[FETCHED_AT] 2026-05-07T19:43:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/homepage.md
+[LINE_RANGE] 567-567
+[QUOTE]
+All products sold by BioClinx are for research purposes only. Not intended for human or veterinary use and statements on this site have not been evaluated by the FDA or any regulatory authority. Please ensure compliance with local regulations before ordering.
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://bioclinx.com/
+[FETCHED_AT] 2026-05-07T19:43:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/homepage.md
+[LINE_RANGE] 473-475
+[QUOTE]
+IMPORTANT NOTICE: Research Use Only
+
+All products provided by BioClinx are intended strictly for laboratory research purposes. Our peptides are not for human or veterinary use, and statements on this site have not been evaluated by the FDA or any regulatory authority.
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://bioclinx.com/
+[FETCHED_AT] 2026-05-07T19:43:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/homepage.md
+[LINE_RANGE] 567-567
+[QUOTE]
+Please ensure compliance with local regulations before ordering.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://bioclinx.com/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:44:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/product_1__bpc-157-5mg.md
+[LINE_RANGE] 184-184
+[QUOTE]
+  * This product is sold strictly for **scientific research purposes only**. It is not intended for therapeutic use, diagnostic  use, treatment, or prevention of any disease. Handle only by licensed professionals with appropriate equipment and facilities. By purchasing, you agree to assume all risks associated with handling and use.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name + product_page_anatomy.list_price
+[URL] https://bioclinx.com/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:44:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/product_1__bpc-157-5mg.md
+[LINE_RANGE] 58-71
+[QUOTE]
+# BPC-157 5MG
+
+Add to Wish List ____
+
+SKU:
+
+Availability:
+    Usually ships within 24 hours.
+
+(Inc. Tax)
+
+MSRP:
+
+$29.99
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://bioclinx.com/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:44:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/product_1__bpc-157-5mg.md
+[LINE_RANGE] 126-126
+[QUOTE]
+BPC-157 (Body Protection Compound-157) is a high-purity synthetic peptide derived from a naturally occurring protein in gastric juice. Comprising 15 amino acids, this stable pentadecapeptide is widely studied for its regenerative and protective properties in various research models. BPC-157 is a top choice for scientists investigating tissue repair, inflammation modulation, and gastrointestinal health.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://bioclinx.com/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:44:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/product_1__bpc-157-5mg.md
+[LINE_RANGE] 87-87
+[QUOTE]
+4.7 (89 reviews)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present + product_page_anatomy.coa_hosting
+[URL] https://bioclinx.com/product-coas/
+[FETCHED_AT] 2026-05-07T19:44:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/coa_1.md
+[LINE_RANGE] 50-50
+[QUOTE]
+## Certificate Of Analysis
+[/QUOTE]
+[URL] https://bioclinx.com/
+[FETCHED_AT] 2026-05-07T19:43:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/homepage.md
+[LINE_RANGE] 469-469
+[QUOTE]
+Downloadable Certificates Of Analysis (COA) for every peptide batch to guarantee Quality!
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://bioclinx.com/
+[FETCHED_AT] 2026-05-07T19:43:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/homepage.md
+[LINE_RANGE] 210-210
+[QUOTE]
+All Products are tested in the USA via HPLC and Mass Spec. Full Certificate of Analysis included free. 99% Purity Guaranteed or your money back
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named (uncertain)
+[INFERENCE]
+[SUPPORT_QUOTE]
+[URL] https://bioclinx.com/
+[FETCHED_AT] 2026-05-07T19:43:03Z
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/homepage.md
+[LINE_RANGE] 210-210
+All Products are tested in the USA via HPLC and Mass Spec. Full Certificate of Analysis included free. 99% Purity Guaranteed or your money back
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://bioclinx.com/
+[FETCHED_AT] 2026-05-07T19:43:03Z
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/homepage.md
+[LINE_RANGE] 549-549
+OUR PRODUCTS ARE VERIFIED BY AN INDEPENDENT THIRD PARTY - ENSURING YOU KNOW EXACTLY WHAT YOU'RE GETTING!
+[/SUPPORT_QUOTE]
+[REASONING]
+Both quotes confirm third-party lab testing occurs and that HPLC and mass spectrometry are used; however, neither quote names the specific laboratory. The lab partner is therefore marked uncertain.
+[/INFERENCE]
+
+[CLAIM] trust_compliance.tos_url + trust_compliance.tos_highlights
+[URL] https://bioclinx.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T19:44:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/tos.md
+[LINE_RANGE] 52-52
+[QUOTE]
+**_Effective Date: June 21, 2025 – Last Updated: June 21, 2025_**
+[/QUOTE]
+[LINE_RANGE] 76-76
+[QUOTE]
+2.4 **Age Requirement:  **Customers must be at least 21 years of age to purchase products from this website. By placing an order, you confirm that you meet this age requirement and are legally permitted to purchase and possess research compounds in your jurisdiction.
+[/QUOTE]
+[LINE_RANGE] 254-254
+[QUOTE]
+These Terms and Conditions shall be governed by and construed in accordance with the internal laws of the State of Arizona, without regard to its conflict-of-law principles.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://bioclinx.com/refund-and-return-policy/
+[FETCHED_AT] 2026-05-07T19:44:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/refund.md
+[LINE_RANGE] 54-54
+[QUOTE]
+  * Unopened and sealed products may be returned for a full refund or replacement within 30 days of delivery.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://bioclinx.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T19:44:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/tos.md
+[LINE_RANGE] 109-109
+[QUOTE]
+**5.1 Shipping Options:  **Domestic shipping methods are available during the checkout process. Shipping charges and estimated delivery times are determined based on the destination, selected carrier, and chosen shipping method.
+[/QUOTE]
+[URL] https://bioclinx.com/
+[FETCHED_AT] 2026-05-07T19:43:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/homepage.md
+[LINE_RANGE] 206-206
+[QUOTE]
+Order by 1PM PST, ships today! Most USA orders arrive in 4 - 7 business days!
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://bioclinx.com/
+[FETCHED_AT] 2026-05-07T19:43:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/homepage.md
+[LINE_RANGE] 557-561
+[QUOTE]
+  * American Express
+  * Discover
+  * Mastercard
+  * Visa
+  * Apple Pay
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://bioclinx.com/
+[FETCHED_AT] 2026-05-07T19:43:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/homepage.md
+[LINE_RANGE] 199-205
+[QUOTE]
+FAST & FREE Shipping!
+
+All orders receive FAST & FREE Shipping no order limits necessary.
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal + tech_stack.cdn
+[URL] https://bioclinx.com/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:44:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/product_1__bpc-157-5mg.md
+[LINE_RANGE] 50-50
+[QUOTE]
+[ ](https://cdn11.bigcommerce.com/s-jopdrlqxnb/images/stencil/1280x1280/products/119/387/BPC-157-5MG__19712.1755557217.jpg?c=1)
+[/QUOTE]
+
+[CLAIM] country_of_operation + fulfillment_country
+[URL] https://bioclinx.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T19:44:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/tos.md
+[LINE_RANGE] 213-215
+[QUOTE]
+BioClinx LLC
+10455 N Camino De La Tierra
+Tucson, AZ 85742
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE]
+[SUPPORT_QUOTE]
+[URL] https://bioclinx.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T19:44:40Z
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/tos.md
+[LINE_RANGE] 52-52
+**_Effective Date: June 21, 2025 – Last Updated: June 21, 2025_**
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://bioclinx.com/
+[FETCHED_AT] 2026-05-07T19:43:03Z
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/homepage.md
+[LINE_RANGE] 565-565
+© 2026 BioClinx.
+[/SUPPORT_QUOTE]
+[REASONING]
+The Terms and Conditions effective date of June 21, 2025 is the earliest dated document found on the site. The copyright year is 2026, consistent with a business that launched in 2025. Year 2025 is inferred as the founding year from the earliest document date.
+[/REASONING]
+[/INFERENCE]
+
+[CLAIM] catalog.sku_count + catalog.category_taxonomy
+[URL] https://bioclinx.com/shop-all/
+[FETCHED_AT] 2026-05-07T19:43:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/catalog_1.md
+[LINE_RANGE] 64-64
+[QUOTE]
+View 32 products
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://bioclinx.com/shop-all/
+[FETCHED_AT] 2026-05-07T19:43:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/catalog_1.md
+[LINE_RANGE] 263-265
+[QUOTE]
+###  [ Wolverine Blend (BPC-157/TB-500 Blend) 10MG ](https://bioclinx.com/wolverine-blend-bpc-157-tb-500-blend-10mg/)
+[/QUOTE]
+
+[CLAIM] skus[bioclinx:tb-500-5mg]
+[URL] https://bioclinx.com/shop-all/?page=2
+[FETCHED_AT] 2026-05-07T19:43:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/catalog_2.md
+[LINE_RANGE] 115-121
+[QUOTE]
+###  [ TB-500 5MG ](https://bioclinx.com/tb-500-5mg/)
+
+(Inc. Tax)
+
+MSRP:
+
+$43.95
+[/QUOTE]
+
+[CLAIM] skus[bioclinx:ghk-cu-50mg]
+[URL] https://bioclinx.com/shop-all/
+[FETCHED_AT] 2026-05-07T19:43:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/catalog_1.md
+[LINE_RANGE] 115-121
+[QUOTE]
+###  [ GHK-CU 50MG ](https://bioclinx.com/ghk-cu-50mg/)
+
+(Inc. Tax)
+
+MSRP:
+
+$39.95
+[/QUOTE]
+
+[CLAIM] skus[bioclinx:glp-3-reta-10mg]
+[URL] https://bioclinx.com/shop-all/
+[FETCHED_AT] 2026-05-07T19:43:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/catalog_1.md
+[LINE_RANGE] 87-93
+[QUOTE]
+###  [ GLP-3 (RETA) 10MG ](https://bioclinx.com/glp-3-reta-10mg/)
+
+(Inc. Tax)
+
+MSRP:
+
+$98.95
+[/QUOTE]
+
+[CLAIM] skus[bioclinx:glp-1-sema-10mg]
+[URL] https://bioclinx.com/shop-all/?page=2
+[FETCHED_AT] 2026-05-07T19:43:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/catalog_2.md
+[LINE_RANGE] 311-317
+[QUOTE]
+###  [ GLP-1 (SEMA) 10MG ](https://bioclinx.com/glp-1-sema-10mg/)
+
+(Inc. Tax)
+
+MSRP:
+
+$94.95
+[/QUOTE]
+
+[CLAIM] skus[bioclinx:glp-2-tirz-10mg]
+[URL] https://bioclinx.com/shop-all/
+[FETCHED_AT] 2026-05-07T19:43:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/catalog_1.md
+[LINE_RANGE] 395-401
+[QUOTE]
+###  [ GLP-2 (TIRZ) 10MG ](https://bioclinx.com/glp-2-tirz-10mg/)
+
+(Inc. Tax)
+
+MSRP:
+
+$93.95
+[/QUOTE]
+
+[CLAIM] skus[bioclinx:mots-c-10mg]
+[URL] https://bioclinx.com/shop-all/
+[FETCHED_AT] 2026-05-07T19:43:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/catalog_1.md
+[LINE_RANGE] 171-177
+[QUOTE]
+###  [ MOTS-C 10MG ](https://bioclinx.com/mots-c-10mg/)
+
+(Inc. Tax)
+
+MSRP:
+
+$39.95
+[/QUOTE]
+
+[CLAIM] skus[bioclinx:igf-1-lr3-1mg] (out_of_stock=true — Pre-Order)
+[URL] https://bioclinx.com/shop-all/?page=3
+[FETCHED_AT] 2026-05-07T19:44:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/catalog_3.md
+[LINE_RANGE] 259-265
+[QUOTE]
+###  [ IGF-1 LR3 1MG ](https://bioclinx.com/igf-1-lr3-1mg/)
+
+(Inc. Tax)
+
+MSRP:
+
+$89.95
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://bioclinx.com/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T19:44:22Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/product_1__bpc-157-5mg.md
+[LINE_RANGE] 87-87
+[QUOTE]
+4.7 (89 reviews)
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present (false)
+[INFERENCE]
+[SUPPORT_QUOTE]
+[URL] https://bioclinx.com/
+[FETCHED_AT] 2026-05-07T19:43:03Z
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/homepage.md
+[LINE_RANGE] 523-545
+### Products
+
+  * [Shop All](https://bioclinx.com/shop-all/)
+  * [Peptide Categories](https://bioclinx.com/peptide-categories/)
+
+
+
+### Navigate
+
+  * [Product COAs](https://bioclinx.com/product-coas/)
+  * [Contact](https://bioclinx.com/contact/)
+  * [Sitemap](https://bioclinx.com/sitemap.php)
+
+
+
+### Legal
+
+  * [Privacy Policy](/privacy-policy/)
+  * [Terms and Conditions](/terms-and-conditions/)
+  * [Waiver Agreement](/waiver-agreement/)
+  * [Refund and Returns](/refund-and-return-policy/)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://bioclinx.com/shop-all/
+[FETCHED_AT] 2026-05-07T19:43:16Z
+[RAW_ARTIFACT] 03_raw_fetches/bioclinx/catalog_1.md
+[LINE_RANGE] 439-454
+### Products
+
+  * [Shop All](https://bioclinx.com/shop-all/)
+  * [Peptide Categories](https://bioclinx.com/peptide-categories/)
+
+
+
+### Navigate
+
+  * [Product COAs](https://bioclinx.com/product-coas/)
+  * [Contact](https://bioclinx.com/contact/)
+  * [Sitemap](https://bioclinx.com/sitemap.php)
+
+
+
+### Legal
+[/SUPPORT_QUOTE]
+[REASONING]
+The footer navigation on both the homepage and catalog page lists the full site navigation, and no blog or articles link appears in either footer or top navigation. No blog URL was found across any fetched page.
+[/REASONING]
+[/INFERENCE]

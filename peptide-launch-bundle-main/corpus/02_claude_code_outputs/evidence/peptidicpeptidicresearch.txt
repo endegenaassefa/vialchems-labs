@@ -1,0 +1,722 @@
+[CLAIM] brand_name
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 958-958
+[QUOTE]
+"## **Peptidic LLC**"
+[/QUOTE]
+
+[CLAIM] primary_domain
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 1003-1004
+[QUOTE]
+"© 2026, [Peptidic.](/web/20260507182322/https://peptidicresearch.com/) [Powered by Shopify]"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 955-956
+[QUOTE]
+"Premium Peptides. USA-Made. 99% Pure.
+Trusted by researchers. Shipped to all 50 states."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 490-490
+[QUOTE]
+"Our products are 99% Purity. Quality-Controlled. Made in the USA"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 956-956
+[QUOTE]
+"Trusted by researchers. Shipped to all 50 states."
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 482-484
+[QUOTE]
+"##  Premium-Grade Peptides
+
+At **Peptidic** , we're committed to providing researchers with high-purity, potent, and stable peptides."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage uses "Premium-Grade Peptides" headline, "99% Purity. Quality-Controlled. Made in the USA" sub-copy, features a competitor comparison table (vs Peptide Sciences) with purity percentages, and the disclaimer references "laboratory-based research, specifically in vitro studies." No lifestyle or meme-coded imagery language observed in rendered text; all visible copy is clinical/research-framed.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 490-490
+"Our products are 99% Purity. Quality-Controlled. Made in the USA"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 943-943
+"**Disclaimer – For Research Use Only** All products sold by **Peptidic** are strictly intended for laboratory-based research, specifically _in vitro_ studies."
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 26-26
+[QUOTE]
+"[View Catalog](/web/20260507182322/https://peptidicresearch.com/collections/ready-to-ship)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 344-475
+[QUOTE]
+"  * Products
+    * Fat Loss
+    * Muscle Growth
+    * Anti-aging
+    * Sexual Health
+    * Blends
+    * Skin Support
+  * [ About ]
+  * [ Blog ]"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 943-953
+[QUOTE]
+"**Disclaimer – For Research Use Only** All products sold by **Peptidic** are strictly intended for laboratory-based research, specifically _in vitro_ studies. They are not designed or approved for human or animal use, including in food, drugs, cosmetics, medical devices, or diagnostics."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 484-609
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md:
+21 distinct product listings in the "Ready To Ship" collection:
+Tirzepatide 30mg, Retatrutide 20mg, Tirzepatide 10mg, Retatrutide 10mg, Glow 70mg, GLP-1SG 10mg, NAD+ 500mg, GHK-Cu 50mg, BPC-157 10mg, Sermorelin 5mg, TB-500 5mg, Cagrilintide 10mg, PT-141 10mg, Melanotan II 10mg, GLP-1SG 5mg, AOD-9604 5mg, Tirzepatide 5mg, Sermorelin 10mg, Grow-H 10mg, Klow 80mg, TB-500 10mg.
+Plus 4 bulk (10-vial) packs listed on homepage.
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 363-440
+[QUOTE]
+"    * Fat Loss
+    * Muscle Growth
+    * Anti-aging
+    * Sexual Health
+    * Blends
+    * Skin Support"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 844-858
+[QUOTE]
+"##  PEPTIDE COMPLEXES & BLENDS
+
+The **Peptide Blends** collection features synergistic formulations designed to streamline research workflows and optimize study outcomes."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 484-484
+[QUOTE]
+"## Tirzepatide – 30mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 852-852
+[QUOTE]
+"_Research use only. Not intended for human or veterinary use._"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 953-953
+[QUOTE]
+"**Regulatory Notice:** Our products are not classified as drugs, dietary supplements, or medical devices under federal law. In compliance with 21 CFR 809.10(c), all items are labeled _\"For Research Use Only – Not for Human or Animal Use\"_. Unauthorized use is strictly prohibited and may violate applicable legislation."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+No age gate, age verification prompt, or age-check checkbox was observed in the homepage text. The Shopify checkout flow loaded without any age gate interstitial in the cart upsell panel visible on the homepage. The footer disclaimer references regulatory compliance but contains no age restriction language.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 943-953
+"**Disclaimer – For Research Use Only** All products sold by **Peptidic** are strictly intended for laboratory-based research, specifically _in vitro_ studies. They are not designed or approved for human or animal use, including in food, drugs, cosmetics, medical devices, or diagnostics."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 484-490
+"## Tirzepatide – 30mg"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[INFERENCE] none
+[REASONING]
+No jurisdictional restriction text (e.g., "not for sale in X state" or "cannot ship to Y country") was observed anywhere in the homepage or catalog text. The only geographic reference is "Shipped to all 50 states," which implies US-wide shipping with no state-level exclusions claimed.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 956-956
+"Trusted by researchers. Shipped to all 50 states."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 953-953
+"**Regulatory Notice:** Our products are not classified as drugs, dietary supplements, or medical devices under federal law. In compliance with 21 CFR 809.10(c), all items are labeled _\"For Research Use Only – Not for Human or Animal Use\"_."
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 968-968
+[QUOTE]
+"  * [ Terms of Service ](/web/20260507182322/https://peptidicresearch.com/pages/terms-of-service)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 10-10
+[QUOTE]
+"You're **$10.00** away from free shipping!"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 956-956
+[QUOTE]
+"Trusted by researchers. Shipped to all 50 states."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/source_homepage.md
+[LINE_RANGE] 9654-9654
+[QUOTE]
+"Powered by Shopify"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/source_homepage.md
+[LINE_RANGE] 651-651
+[QUOTE]
+"myshopifyDomain":"bvlelow-typo.myshopify.com"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/source_homepage.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"AW-17300768550"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/source_homepage.md
+[LINE_RANGE] 651-651
+[QUOTE]
+"name":"Simprosys Google Ads"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] false
+[REASONING]
+No chat widget script (Intercom, Crisp, Drift, Tawk, Gorgias) was found in the homepage HTML source. The web pixel configuration lists only Google Ads, Klaviyo, Shopify pixels, and wetracked.io, with no chat provider present.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/source_homepage.md
+[LINE_RANGE] 651-651
+webPixelsConfigList
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/source_homepage.md
+[LINE_RANGE] 651-651
+klaviyo.js?company_id=SrXQkL
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 920-932
+[QUOTE]
+"##  Blog posts
+
+  * ###  [ How Does Melanotan II Interact With Appetite Regulation Pathways? ](/web/20260507182322/https://peptidicresearch.com/blogs/news/how-does-melanotan-ii-interact-with-appetite-regulation-pathways)
+
+May 6, 2026 Dr. Madison Blake"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 937-937
+[QUOTE]
+"[ View all ](/web/20260507182322/https://peptidicresearch.com/blogs/news)"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 924-930
+[QUOTE]
+"May 6, 2026 Dr. Madison Blake
+
+Melanotan II influences appetite regulation by activating melanocortin receptors...
+
+  * ###  [ Does MOTS-C Modulate AMPK Signaling During Cellular Energy Stress? ]
+
+May 6, 2026 Dr. Madison Blake"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 924-924
+[QUOTE]
+"May 6, 2026 Dr. Madison Blake"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 838-840
+[QUOTE]
+"[Trustpilot](https://web.archive.org/web/20260507182322/https://www.trustpilot.com/review/peptidicresearch.com)
+
+[Trustpilot](https://web.archive.org/web/20260507182322/https://www.trustpilot.com/review/peptidicresearch.com)"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/source_homepage.md
+[LINE_RANGE] 114-114
+[QUOTE]
+ecommplugins-scripts.trustpilot.com
+[/QUOTE]
+
+[CLAIM] skus[0].list_price_usd (Tirzepatide 30mg)
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 644-651
+[QUOTE]
+"###  [ Tirzepatide – 30mg ]
+
+Vendor:
+
+Peptidic - USA
+
+Regular price $170.00 USD
+
+Regular price ~~$280.00 USD~~ Sale price $170.00 USD"
+[/QUOTE]
+
+[CLAIM] skus[1].list_price_usd (Tirzepatide 10mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 494-496
+[QUOTE]
+"## Tirzepatide – 10mg
+
+$100.00"
+[/QUOTE]
+
+[CLAIM] skus[2].list_price_usd (Tirzepatide 5mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 582-584
+[QUOTE]
+"## Tirzepatide – 5mg
+
+$70.00"
+[/QUOTE]
+
+[CLAIM] skus[3].list_price_usd (Tirzepatide 30mg 10-vials bulk)
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 700-710
+[QUOTE]
+"###  [ Tirzepatide — 30mg (10 vials) ]
+
+Vendor:
+
+Peptidic.
+
+Regular price $1,100.00 USD
+
+Regular price ~~$2,300.00 USD~~ Sale price $1,100.00 USD"
+[/QUOTE]
+
+[CLAIM] skus[4].list_price_usd (Tirzepatide 10mg 10-vials bulk)
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 735-745
+[QUOTE]
+"###  [ Tirzepatide — 10mg (10 vials) ]
+
+Vendor:
+
+Peptidic.
+
+Regular price $680.00 USD
+
+Regular price ~~$1,900.00 USD~~ Sale price $680.00 USD"
+[/QUOTE]
+
+[CLAIM] skus[5].list_price_usd (Retatrutide 20mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 488-490
+[QUOTE]
+"## Retatrutide — 20mg
+
+$190.00"
+[/QUOTE]
+
+[CLAIM] skus[6].list_price_usd (Retatrutide 10mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 500-502
+[QUOTE]
+"## Retatrutide — 10mg
+
+$110.00"
+[/QUOTE]
+
+[CLAIM] skus[7].list_price_usd (Retatrutide 10mg 10-vials bulk)
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 718-728
+[QUOTE]
+"###  [ Retatrutide — 10mg (10 vials) ]
+
+Vendor:
+
+Peptidic - USA
+
+Regular price $880.00 USD
+
+Regular price ~~$1,400.00 USD~~ Sale price $880.00 USD"
+[/QUOTE]
+
+[CLAIM] skus[8].list_price_usd (Semaglutide 10mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 516-518
+[QUOTE]
+"## GLP-1SG – 10mg
+
+$85.00"
+[/QUOTE]
+
+[CLAIM] skus[9].list_price_usd (Semaglutide 5mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 570-572
+[QUOTE]
+"## GLP-1SG – 5mg
+
+$75.00"
+[/QUOTE]
+
+[CLAIM] skus[10].list_price_usd (Semaglutide 10mg 10-vials bulk)
+[URL] https://peptidicresearch.com/
+[FETCHED_AT] 2026-05-07T18:23:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/homepage.md
+[LINE_RANGE] 709-717
+[QUOTE]
+"###  [ Semaglutide – 10mg (10 vials) ]
+
+Vendor:
+
+Peptidic - USA
+
+Regular price $680.00 USD
+
+Regular price ~~$1,300.00 USD~~ Sale price $680.00 USD"
+[/QUOTE]
+
+[CLAIM] skus[11].list_price_usd (Cagrilintide 10mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 552-554
+[QUOTE]
+"## Cagrilintide – 10mg
+
+$120.00"
+[/QUOTE]
+
+[CLAIM] skus[12].list_price_usd (BPC-157 10mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 534-536
+[QUOTE]
+"## BPC-157 – 10mg
+
+$70.00"
+[/QUOTE]
+
+[CLAIM] skus[13].list_price_usd (TB-500 5mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 546-548
+[QUOTE]
+"## TB-500 – 5mg
+
+$70.00"
+[/QUOTE]
+
+[CLAIM] skus[14].list_price_usd (TB-500 10mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 606-608
+[QUOTE]
+"## TB-500 – 10mg
+
+$90.00"
+[/QUOTE]
+
+[CLAIM] skus[15].list_price_usd (GHK-Cu 50mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 528-530
+[QUOTE]
+"## GHK-Cu – 50mg
+
+$65.00"
+[/QUOTE]
+
+[CLAIM] skus[16].list_price_usd (PT-141 10mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 558-560
+[QUOTE]
+"## PT-141 — 10mg
+
+$65.00"
+[/QUOTE]
+
+[CLAIM] skus[17].list_price_usd (AOD-9604 5mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 576-578
+[QUOTE]
+"## AOD-9604 — 5mg
+
+$65.00"
+[/QUOTE]
+
+[CLAIM] skus[18].list_price_usd (Melanotan II 10mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 564-566
+[QUOTE]
+"## Melanotan II – 10mg
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] skus[19].list_price_usd (NAD+ 500mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 522-524
+[QUOTE]
+"## NAD+ 500mg
+
+$90.00"
+[/QUOTE]
+
+[CLAIM] skus[20].list_price_usd (Sermorelin 5mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 540-542
+[QUOTE]
+"## Sermorelin — 5mg
+
+$70.00"
+[/QUOTE]
+
+[CLAIM] skus[21].list_price_usd (Sermorelin 10mg)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 588-590
+[QUOTE]
+"## Sermorelin — 10mg
+
+$100.00"
+[/QUOTE]
+
+[CLAIM] skus[22].list_price_usd (Glow 70mg blend)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 506-508
+[QUOTE]
+"## Glow – 70mg
+
+$135.00"
+[/QUOTE]
+
+[CLAIM] skus[23].list_price_usd (Klow 80mg blend)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 600-602
+[QUOTE]
+"## Klow – 80mg
+
+$150.00"
+[/QUOTE]
+
+[CLAIM] skus[24].list_price_usd (Grow-H 10mg blend)
+[URL] https://peptidicresearch.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:23:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptidicpeptidicresearch/catalog_1.md
+[LINE_RANGE] 594-596
+[QUOTE]
+"## Grow-H – 10mg (CJC-1295 (no DAC) 5mg, Ipamorelin 5mg)
+
+$70.00"
+[/QUOTE]

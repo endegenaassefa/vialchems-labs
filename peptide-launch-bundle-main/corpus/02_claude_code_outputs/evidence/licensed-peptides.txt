@@ -1,0 +1,762 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 29-29
+[QUOTE]
+#  The Precision Standard for Research Peptides
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 27-27
+[QUOTE]
+RESEARCH-GRADE PEPTIDES - USA MANUFACTURED
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 45-45
+[QUOTE]
+[ Shop All Peptides ](https://licensedpeptides.com/all-peptides/) [ View COA Reports ](https://licensedpeptides.com/purity-reports/)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 14-23
+[QUOTE]
+  * [All Peptides](https://licensedpeptides.com/all-peptides/)
+  * [Blends](https://licensedpeptides.com/purchase-blends/)
+  * [Bulk Offers](https://licensedpeptides.com/bulk-offers/)
+  * [Research](https://licensedpeptides.com/peptide-research/)
+  * [Intelligence](https://licensedpeptides.com/peptide-intelligence/)
+  * Testing Library
+    * [Purity Reports](https://licensedpeptides.com/purity-reports/)
+    * [Endotoxin Reports](https://licensedpeptides.com/endotoxin-reports/)
+    * [Manufacturing Process](https://licensedpeptides.com/manufacturing-process/)
+  * [Wholesale](https://licensedpeptides.com/wholesale/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 737-737
+[QUOTE]
+LicensedPeptides is a licensed U.S. business entity supplying compounds for laboratory research purposes only. No products are approved for human use. All products on this site are for Research & Development use only. Products are not for human consumption of any kind. The statements made within this website have not been evaluated by the US Food and Drug Administration. This information is not intended to diagnose, treat, cure, or prevent any disease. Licensed Peptides is a chemical supplier. Licensed Peptides is not a compounding pharmacy or chemical compounding facility as defined by Section 503A of the Federal Food, Drug, and Cosmetic act.
+[/QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country
+[URL] https://licensedpeptides.com/shipping-delivery/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/shipping.md
+[LINE_RANGE] 33-36
+[QUOTE]
+#### **Licensed Peptides INC**
+
+Created On: April 11, 2026
+Last Updated: April 11, 2026
+[/QUOTE]
+[URL] https://licensedpeptides.com/shipping-delivery/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/shipping.md
+[LINE_RANGE] 125-127
+[QUOTE]
+**Licensed Peptides INC**
+1489 W Palmetto Park Rd
+Boca Raton, FL 33486, USA
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://licensedpeptides.com/shipping-delivery/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/shipping.md
+[LINE_RANGE] 38-44
+[QUOTE]
+#### 1\. Shipping Locations
+
+Licensed Peptides INC currently ships to:
+
+  * United States (including minor outlying islands)
+[/QUOTE]
+[URL] https://licensedpeptides.com/shipping-delivery/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/shipping.md
+[LINE_RANGE] 66-68
+[QUOTE]
+#### 4\. International Shipping
+
+  * Flat rate shipping fee of $30.00 USD applies to all international orders
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://licensedpeptides.com/all-peptides/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_1.md
+[LINE_RANGE] 184-184
+[QUOTE]
+Our catalog features **over 50 research-grade peptides** , including rare and novel compounds. Every batch of our licensed peptides undergoes a **rigorous 6X testing protocol** to guarantee **99%+ purity and stability** , giving researchers confidence in their experiments. Orders placed before **4 PM PST** ship the **same business day**.
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 144-184
+[QUOTE]
+### Popular Peptides
+[/QUOTE]
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 166-184
+[QUOTE]
+### Healing Peptides
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://licensedpeptides.com/all-peptides/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_1.md
+[LINE_RANGE] 186-195
+[QUOTE]
+  * Sort by **Default Order**
+    * [Sort by **Default Order**](?product_orderby=default)
+    * [Sort by **Name**](?product_orderby=name)
+    * [Sort by **Price**](?product_orderby=price)
+    * [Sort by **Date**](?product_orderby=date)
+    * [Sort by **Popularity**](?product_orderby=popularity)
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://licensedpeptides.com/all-peptides/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_1.md
+[LINE_RANGE] 85-95
+[QUOTE]
+### Purchase Blends
+
+  * [BPC-157 5mg,TB-500 5mg (Wolverine Blend)](https://licensedpeptides.com/product/bpc-157-tb-500-thymosin-beta-4-blend/)
+
+  * [BPC157, TB500, GHK-Cu (Glow Blend) 70mg](https://licensedpeptides.com/product/bpc157-tb500-ghk-cu-glow-blend-70mg-vial/)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name / product_page_anatomy.description_copy_excerpt
+[URL] https://licensedpeptides.com/product/tb-500-thymosin-beta-4-10mg/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/product_2__tb-500-10mg.md
+[LINE_RANGE] 22-22
+[QUOTE]
+#  TB-500 (Thymosin Beta-4) · 10mg
+[/QUOTE]
+[URL] https://licensedpeptides.com/product/tb-500-thymosin-beta-4-10mg/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/product_2__tb-500-10mg.md
+[LINE_RANGE] 124-124
+[QUOTE]
+**TB-500 (Thymosin Beta-4) 10mg** is a **laboratory research peptide** used to study actin-related signaling, cellular migration, and experimental pathway responses in controlled systems. This product is supplied strictly for research use only. It is not approved or intended for human or animal use, and any discussion of biological activity refers only to preclinical or in vitro research
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://licensedpeptides.com/all-peptides/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_1.md
+[LINE_RANGE] 398-400
+[QUOTE]
+[Add to cart - $99.99](/all-peptides/?add-to-cart=1242)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://licensedpeptides.com/product/tb-500-thymosin-beta-4-10mg/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/product_2__tb-500-10mg.md
+[LINE_RANGE] 236-238
+[QUOTE]
+**ALL ARTICLES AND PRODUCT INFORMATION PROVIDED ON THIS WEBSITE ARE FOR INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY.**
+
+The products available on this website are intended solely for in-vitro research purposes (Latin: "in glass"), meaning they are used in experiments conducted outside a living organism. These products are not medicines or drugs, have not been evaluated or approved by the U.S. Food and Drug Administration (FDA), and are not intended to diagnose, treat, cure, or prevent any disease or medical condition. Any administration to humans or animals, whether by ingestion, injection, or other means, is strictly prohibited by law.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / product_page_anatomy.coa_hosting
+[URL] https://licensedpeptides.com/purity-reports/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/coa_1.md
+[LINE_RANGE] 24-34
+[QUOTE]
+**Selank 10mg**
+
+[](https://licensedpeptides.com/wp-content/uploads/2026/01/Selank-10mg-V260309-11-Licensed-Peptides-Report-004-1.jpg "Selank 10mg V260309 11 Licensed Peptides Report 004 1")
+
+**Pinealon 10mg**
+
+[](https://licensedpeptides.com/wp-content/uploads/2026/01/Pinealon-10mg-V260309-11-Licensed-Peptides-Report-003-1.jpg "Pinealon 10mg V260309 11 Licensed Peptides Report 003 1")
+
+**DSIP 5mg**
+
+[](https://licensedpeptides.com/wp-content/uploads/2026/01/DSIP-5mg-V260309-11-Licensed-Peptides-Report-002-1.jpg "DSIP 5mg V260309 11 Licensed Peptides Report 002 1")
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://licensedpeptides.com/purity-reports/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/coa_1.md
+[LINE_RANGE] 26-26
+[QUOTE]
+[](https://licensedpeptides.com/wp-content/uploads/2026/01/Selank-10mg-V260309-11-Licensed-Peptides-Report-004-1.jpg "Selank 10mg V260309 11 Licensed Peptides Report 004 1")
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://licensedpeptides.com/product/tb-500-thymosin-beta-4-10mg/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/product_2__tb-500-10mg.md
+[LINE_RANGE] 27-27
+[QUOTE]
+4.9 • 847 verified reviews
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://licensedpeptides.com/product/tb-500-thymosin-beta-4-10mg/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/product_2__tb-500-10mg.md
+[LINE_RANGE] 240-244
+[QUOTE]
+[](https://licensedpeptides.com/wp-content/uploads/2025/09/TB-500-10mg-V260123-1-Licensed-Peptides-Report-003-1.jpg)
+
+[](https://licensedpeptides.com/wp-content/uploads/2025/09/TB-500-10mg-V260123-1-Licensed-Peptides-Report-003-2.jpg)
+
+[](https://licensedpeptides.com/wp-content/uploads/2026/01/Licensed-Peptides-Process-Document--scaled.jpg)
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 737-737
+[QUOTE]
+All products on this site are for Research & Development use only. Products are not for human consumption of any kind.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 823-835
+[QUOTE]
+### Research Use Only
+
+By entering this website you understand that all products are sold in powder (lyophilized) form and require reconstitution with a suitable diluent for research purposes only.
+[/QUOTE]
+[URL] https://licensedpeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/tos.md
+[LINE_RANGE] 61-61
+[QUOTE]
+  * You must be at **least 21 years of age** to use this website.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / trust_compliance.tos_highlights
+[URL] https://licensedpeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/tos.md
+[LINE_RANGE] 36-65
+[QUOTE]
+Products sold on licensedpeptides.com are strictly for laboratory in-vitro research purposes only. They are not approved by the FDA and must not be used to diagnose, treat, cure, or prevent any disease. Products are not for human or animal consumption under any circumstances.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://licensedpeptides.com/refunds-returns/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/refund.md
+[LINE_RANGE] 28-34
+[QUOTE]
+At Licensed Peptides™, we maintain strict quality control standards to ensure every product meets our specifications. Due to the sensitive nature of our research materials, **returns cannot be accepted**.
+
+In the rare event that your order arrives with missing, incorrect, or damaged items, please contact us immediately at [email protected]. Our customer care team will work with you promptly to resolve the issue and ensure your satisfaction with product quality, support, and delivery.
+
+**Order Cancellations:**
+
+Cancellations must be requested **by email prior to shipment**. Once an order has been dispatched, it cannot be cancelled.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://licensedpeptides.com/shipping-delivery/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/shipping.md
+[LINE_RANGE] 54-61
+[QUOTE]
+  * FREE FedEx 2-Day Express Shipping on orders over $200
+  * FREE FedEx 2-Day Express Shipping (VIP Members)
+  * USPS Ground Advantage (3–7 business days, not guaranteed) – $8.95
+  * FedEx 2-Day Shipping – $11.95
+  * UPS 2-Day Shipping – $19.95
+  * FedEx Next Day Shipping – $44.99
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://licensedpeptides.com/shipping-delivery/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/shipping.md
+[LINE_RANGE] 111-113
+[QUOTE]
+  * All products are sold for research purposes only
+  * Not for human or animal consumption
+  * Customers are responsible for ensuring products comply with local laws and regulations
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required / checkout_flow.guest_checkout_available
+[INFERENCE] false / true
+[REASONING]
+The cart page (checkout_step_1.md) is publicly accessible without requiring login. The TOS references payment by ACH/eCheck for all orders with no mandatory account creation requirement mentioned. The product page for TB-500 says "accepts all major credit and debit cards" — consistent with a public checkout flow.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://licensedpeptides.com/cart/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/checkout_step_1.md
+[LINE_RANGE] 21-21
+## You may be interested in…
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://licensedpeptides.com/product/tb-500-thymosin-beta-4-10mg/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/product_2__tb-500-10mg.md
+[LINE_RANGE] 189-189
+Our streamlined checkout process is fast, encrypted, and accepts all major credit and debit cards for a smooth and convenient experience.
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://licensedpeptides.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/tos.md
+[LINE_RANGE] 39-41
+[QUOTE]
+All e-Check/ACH payments are payable to **Licensed Peptides, Inc.**
+
+By placing an order, you authorize **Licensedpeptides.com** to initiate a one-time ACH/electronic debit from your designated bank account in the amount of your purchase.
+[/QUOTE]
+[URL] https://licensedpeptides.com/product/tb-500-thymosin-beta-4-10mg/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/product_2__tb-500-10mg.md
+[LINE_RANGE] 189-189
+[QUOTE]
+Our streamlined checkout process is fast, encrypted, and accepts all major credit and debit cards for a smooth and convenient experience.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers / checkout_flow.shipping_cost_structure
+[URL] https://licensedpeptides.com/shipping-delivery/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/shipping.md
+[LINE_RANGE] 54-61
+[QUOTE]
+  * FREE FedEx 2-Day Express Shipping on orders over $200
+  * FREE FedEx 2-Day Express Shipping (VIP Members)
+  * USPS Ground Advantage (3–7 business days, not guaranteed) – $8.95
+  * FedEx 2-Day Shipping – $11.95
+  * UPS 2-Day Shipping – $19.95
+  * FedEx Next Day Shipping – $44.99
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://licensedpeptides.com/shipping-delivery/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/shipping.md
+[LINE_RANGE] 66-70
+[QUOTE]
+#### 4\. International Shipping
+
+  * Flat rate shipping fee of $30.00 USD applies to all international orders
+  * Delivery times vary by destination and are not guaranteed
+  * Customers are responsible for any customs duties, taxes, or import fees
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The HTML source contains explicit WooCommerce JavaScript files (woocommerce/assets/js/), WooCommerce plugin CSS files, and the woocommerce_params JSON object. The WordPress theme is Avada (body class "wp-theme-Avada").
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/source_homepage.md
+[LINE_RANGE] 9-9
+Platform: WooCommerce (WordPress/Avada theme)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/source_homepage.md
+[LINE_RANGE] 2-2
+CDN: cdn.gomega.ai (Gomega AI optimizer)
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] Google Analytics GA4, Google Ads, WooFunnels
+[REASONING]
+Source HTML contains the GA4 measurement ID and Google Ads conversion ID embedded in the wffnTracking JavaScript object visible in page source.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/source_homepage.md
+[LINE_RANGE] 10-10
+Analytics: G-631YXGHM3V (Google Analytics GA4)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/source_homepage.md
+[LINE_RANGE] 11-11
+Google Ads: AW-11348774772
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE] Facebook (multiple), TikTok (two IDs)
+[REASONING]
+The wffnTracking JavaScript object in page source lists Facebook pixel IDs and TikTok pixel IDs. Eight Facebook pixel IDs and two TikTok pixel IDs are present, indicating aggressive multi-pixel conversion tracking.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/source_homepage.md
+[LINE_RANGE] 12-12
+Facebook Pixels: 1503028674354300, 697445190068644, 409511088318455, 1252006506914167, 2386414015212722, 713514968490336, 1678433740019857, 1495579238627520
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/source_homepage.md
+[LINE_RANGE] 13-13
+TikTok Pixels: D7KBHTJC77U3INVHBP10, D7L4KR3C77UCN2JB10U0
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 633-633
+[QUOTE]
+[ READ ARTICLE  ](https://intercom.help/licensedpeptides/en/articles/12335391-how-to-reconstitute-a-peptide)
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] cdn.gomega.ai
+[REASONING]
+HTML source contains a DNS-prefetch hint for cdn.gomega.ai and loads async Gomega AI optimizer script. This is the CDN/performance optimization layer.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/source_homepage.md
+[LINE_RANGE] 2-2
+CDN: cdn.gomega.ai (Gomega AI optimizer)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/source_homepage.md
+[LINE_RANGE] 14-14
+Email/CRM: Brevo (cdn.brevo.com)
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.blog_url
+[URL] https://licensedpeptides.com/peptide-research/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/blog_1.md
+[LINE_RANGE] 40-41
+[QUOTE]
+[Dr. James Ross](https://licensedpeptides.com/author/dr-james-ross/ "Posts by Dr. James Ross")2025-11-14T07:50:25-05:00
+
+#### [What is Glow Blend Peptide? A Researcher's Guide](https://licensedpeptides.com/what-is-glow-blend-peptide/)
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://licensedpeptides.com/peptide-research/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/blog_1.md
+[LINE_RANGE] 40-40
+[QUOTE]
+[Dr. James Ross](https://licensedpeptides.com/author/dr-james-ross/ "Posts by Dr. James Ross")2025-11-14T07:50:25-05:00
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence / content_footprint.topic_taxonomy
+[URL] https://licensedpeptides.com/peptide-research/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/blog_1.md
+[LINE_RANGE] 33-80
+[QUOTE]
+[Dr. James Ross](https://licensedpeptides.com/author/dr-james-ross/ "Posts by Dr. James Ross")2025-11-14T07:50:25-05:00
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews / social_proof.testimonial_usage
+[URL] https://licensedpeptides.com/product/tb-500-thymosin-beta-4-10mg/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/product_2__tb-500-10mg.md
+[LINE_RANGE] 27-27
+[QUOTE]
+4.9 • 847 verified reviews
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage (10,000 researchers)
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 33-33
+[QUOTE]
+10,000+ verified researchers
+[/QUOTE]
+
+[CLAIM] skus (TB-500 10mg single-vial price)
+[URL] https://licensedpeptides.com/all-peptides/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_1.md
+[LINE_RANGE] 398-400
+[QUOTE]
+[Add to cart - $99.99](/all-peptides/?add-to-cart=1242)
+[/QUOTE]
+
+[CLAIM] skus (Tesamorelin 10mg price)
+[URL] https://licensedpeptides.com/all-peptides/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_1.md
+[LINE_RANGE] 340-342
+[QUOTE]
+[Add to cart - $130.99](/all-peptides/?add-to-cart=870)
+[/QUOTE]
+
+[CLAIM] skus (homepage featured product prices — GLP3-R through Pinealon)
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 205-495
+[QUOTE]
+###  GLP3-R
+[/QUOTE]
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 209-209
+[QUOTE]
+#### $57.99
+[/QUOTE]
+
+[CLAIM] skus (Glow Blend 70mg price)
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 573-573
+[QUOTE]
+[ Select Options — $189.99 ](https://licensedpeptides.com/product/bpc157-tb500-ghk-cu-glow-blend-70mg-vial/)
+[/QUOTE]
+
+[CLAIM] skus (Tesamorelin, Ipamorelin blend price)
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 587-587
+[QUOTE]
+[ Select Options — $152.99 ](https://licensedpeptides.com/product/tesamorelin-ipamorelin-10mg-blend/)
+[/QUOTE]
+
+[CLAIM] skus (CJC-1295 No DAC + Ipamorelin blend price)
+[URL] https://licensedpeptides.com/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/homepage.md
+[LINE_RANGE] 601-601
+[QUOTE]
+[ Select Options — $91.99 ](https://licensedpeptides.com/product/cjc-1295-no-dac-ipamorelin-10mg-blend/)
+[/QUOTE]
+
+[CLAIM] skus (bulk 10-vial pricing)
+[URL] https://licensedpeptides.com/bulk-offers/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_2_bulk-offers.md
+[LINE_RANGE] 81-91
+[QUOTE]
+### BPC-157 10mg (10 vials)
+[/QUOTE]
+[URL] https://licensedpeptides.com/bulk-offers/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_2_bulk-offers.md
+[LINE_RANGE] 89-89
+[QUOTE]
+[Add to cart - $399.99](/bulk-offers/?add-to-cart=4244)
+[/QUOTE]
+
+[CLAIM] skus (BPC-157 5mg 10-vials price)
+[URL] https://licensedpeptides.com/bulk-offers/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_2_bulk-offers.md
+[LINE_RANGE] 257-257
+[QUOTE]
+[Add to cart - $337.50](/bulk-offers/?add-to-cart=19537)
+[/QUOTE]
+
+[CLAIM] skus (TB-500 10mg 10-vials price)
+[URL] https://licensedpeptides.com/bulk-offers/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_2_bulk-offers.md
+[LINE_RANGE] 229-229
+[QUOTE]
+[Add to cart - $584.95](/bulk-offers/?add-to-cart=10046)
+[/QUOTE]
+
+[CLAIM] skus (MOTS-C 10mg 10-vials price)
+[URL] https://licensedpeptides.com/bulk-offers/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_2_bulk-offers.md
+[LINE_RANGE] 65-73
+[QUOTE]
+### MOTS-C 10mg (10 vials)
+[/QUOTE]
+[URL] https://licensedpeptides.com/bulk-offers/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_2_bulk-offers.md
+[LINE_RANGE] 73-73
+[QUOTE]
+[Add to cart - $449.96](/bulk-offers/?add-to-cart=4235)
+[/QUOTE]
+
+[CLAIM] skus (PT-141 10mg 10-vials price)
+[URL] https://licensedpeptides.com/bulk-offers/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_2_bulk-offers.md
+[LINE_RANGE] 461-461
+[QUOTE]
+[Add to cart - $517.45](/bulk-offers/?add-to-cart=30821)
+[/QUOTE]
+
+[CLAIM] skus (NAD+ 500mg 10-vials price)
+[URL] https://licensedpeptides.com/bulk-offers/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_2_bulk-offers.md
+[LINE_RANGE] 243-243
+[QUOTE]
+[Add to cart - $742.45](/bulk-offers/?add-to-cart=8848)
+[/QUOTE]
+
+[CLAIM] skus (MK677 Capsules 12.5mg 10 bottles price)
+[URL] https://licensedpeptides.com/bulk-offers/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_2_bulk-offers.md
+[LINE_RANGE] 433-433
+[QUOTE]
+[Add to cart - $1,140.00](/bulk-offers/?add-to-cart=28574)
+[/QUOTE]
+
+[CLAIM] skus (out-of-stock items: Semax, AOD9604, CJC-1295 no DAC, Thymosin Alpha-1, MTII, SLU-PP-332)
+[URL] https://licensedpeptides.com/all-peptides/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_1.md
+[LINE_RANGE] 458-465
+[QUOTE]
+  * Sold Out
+
+[ ](https://licensedpeptides.com/product/aod9604-5mg/)
+
+### AOD9604 5mg
+[/QUOTE]
+[URL] https://licensedpeptides.com/all-peptides/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/catalog_1.md
+[LINE_RANGE] 540-542
+[QUOTE]
+  * Sold Out
+
+[ ](https://licensedpeptides.com/product/mtii-melanotan2-10mg/)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[INFERENCE] true
+[REASONING]
+The cart page (checkout_step_1) shows "You may be interested in…" cross-sell section with listed products and prices, indicating product recommendation modules are active across the site.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://licensedpeptides.com/cart/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/checkout_step_1.md
+[LINE_RANGE] 22-22
+## You may be interested in…
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://licensedpeptides.com/cart/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/checkout_step_1.md
+[LINE_RANGE] 36-38
+  * [ PT-141 10mg (10 Vials) ](https://licensedpeptides.com/product/pt-141-10mg-10-vials/)
+
+$517.45 — or subscribe to save  10%
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.fields_collected (subscription 10% save signal)
+[URL] https://licensedpeptides.com/cart/
+[FETCHED_AT] 2026-05-07T20:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/licensed-peptides/checkout_step_1.md
+[LINE_RANGE] 36-38
+[QUOTE]
+  * [ PT-141 10mg (10 Vials) ](https://licensedpeptides.com/product/pt-141-10mg-10-vials/)
+
+$517.45 — or subscribe to save  10%
+[/QUOTE]

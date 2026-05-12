@@ -1,0 +1,983 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://purepeptidelabs.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/homepage.md
+[LINE_RANGE] 52-52
+[QUOTE]
+"PURE PEPTIDES. POWERFUL PURPOSE."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://purepeptidelabs.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/homepage.md
+[LINE_RANGE] 54-54
+[QUOTE]
+"Shop Now!"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://purepeptidelabs.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/homepage.md
+[LINE_RANGE] 7-16
+[QUOTE]
+"SHOP PEPTIDES"
+[/QUOTE]
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 15-22
+[QUOTE]
+"SHOP PEPTIDES"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://purepeptidelabs.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/homepage.md
+[LINE_RANGE] 157-165
+[QUOTE]
+"All products sold by Pure Peptide Labs are strictly intended for research, laboratory, and analytical purposes only. Our products are not intended for human or veterinary use, and they are not to be used for diagnostic, therapeutic, or medical purposes."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://purepeptidelabs.com/policies/terms-of-service
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/tos.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"This website is owned and operated by **Pure Peptide Labs LLC** , a Texas-based limited liability company. By accessing or purchasing from this site, you acknowledge that you are at least **18 years of age** and agree to be legally bound by these Terms of Service, our Privacy Policy, and all applicable laws and regulations."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://purepeptidelabs.com/pages/why-we-started
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/about.md
+[LINE_RANGE] 68-68
+[QUOTE]
+"All orders ship from Texas."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://purepeptidelabs.com/policies/shipping-policy
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/shipping.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"We offer **free standard shipping** on all domestic U.S. orders. Every shipment includes a complimentary 3ml bottle of **bacteriostatic water** , clearly labeled for research use only."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2024
+[REASONING]
+Homepage footer shows "© 2025, Pure Peptide Labs" and Wayback first indexed January 2025 (snapshot 20250125075237). About page describes founding in a "hometown library" with no specific date. Combined with Shopify shop ID 71534444762 and the domain first appearing in Wayback in early 2025, the brand most likely launched in 2024 or very early 2025.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://purepeptidelabs.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/homepage.md
+[LINE_RANGE] 170-170
+"© 2025, [Pure Peptide Labs](/web/20250125075237/https://purepeptidelabs.com/) [Powered by Shopify](https://web.archive.org/web/20250125075237/https://www.shopify.com/?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://purepeptidelabs.com/pages/why-we-started
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/about.md
+[LINE_RANGE] 58-58
+"We started **Pure Peptide Labs** in a quiet study room at our hometown library, driven by one big idea: to make it easier for researchers to access **honest, high-purity peptides** without overpriced markups or shady sourcing."
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 55-55
+[QUOTE]
+"34 products"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 405-411
+[QUOTE]
+"BPC-157/TB-500 Blend"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://purepeptidelabs.com/products/glp-1sema
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_001__glp-1sema.md
+[LINE_RANGE] 59-60
+[QUOTE]
+"Pure Peptide Labs
+
+# GLP-1SEMA"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://purepeptidelabs.com/products/glp-1sema
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_001__glp-1sema.md
+[LINE_RANGE] 76-77
+[QUOTE]
+"Size 5mgVariant sold out or unavailable 10mgVariant sold out or unavailable 15mgVariant sold out or unavailable 20mgVariant sold out or unavailable 30mgVariant sold out or unavailable"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://purepeptidelabs.com/products/glp-1sema
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_001__glp-1sema.md
+[LINE_RANGE] 70-72
+[QUOTE]
+"Regular price $49.95 USD
+
+Regular price ~~$59.95 USD~~ Sale price $49.95 USD"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://purepeptidelabs.com/products/glp-1sema
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_001__glp-1sema.md
+[LINE_RANGE] 123-129
+[QUOTE]
+"**Form:** Lyophilized Powder
+
+**Molecular Formula:** C187H291N45O59
+
+**Quantity:** 5mg, 10mg, 15mg, 20mg, 30mg
+
+**Purity:** >99%"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://purepeptidelabs.com/products/glp-1sema
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_001__glp-1sema.md
+[LINE_RANGE] 96-97
+[QUOTE]
+"All products sold by Pure Peptide Labs are intended strictly for **laboratory research and analytical purposes**. These materials are **not intended for human or animal use** , and are not approved for any therapeutic, diagnostic, or medical application. Pure Peptide Labs does **not provide instructions or guidance** regarding preparation, reconstitution, administration, or dosage. No product sold is classified as a drug, dietary supplement, or medical device under federal law. All items are labeled **"For Research Use Only – Not for Human or Animal Use"** in accordance with **21 CFR 809.10(c)**. Any misuse or unauthorized application is strictly prohibited and may violate applicable laws."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://purepeptidelabs.com/pages/certificate-of-analysis
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/coa_1.md
+[LINE_RANGE] 56-90
+[QUOTE]
+"Certificate of Analysis'
+
+  * [AICAR](https://web.archive.org/web/20250827052025/https://purepeptidelabs.com/pages/aicar)
+  * [AOD-9604](https://web.archive.org/web/20250827052025/https://purepeptidelabs.com/pages/aod-9604-COA)
+  * [BPC-157](https://web.archive.org/web/20250827052025/https://purepeptidelabs.com/pages/bpc-157-coa)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://purepeptidelabs.com/pages/certificate-of-analysis
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/coa_1.md
+[LINE_RANGE] 56-90
+[QUOTE]
+"Certificate of Analysis'"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://purepeptidelabs.com/products/glp-1sema
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_001__glp-1sema.md
+[LINE_RANGE] 123-129
+[QUOTE]
+"**Form:** Lyophilized Powder
+
+**Molecular Formula:** C187H291N45O59
+
+**Quantity:** 5mg, 10mg, 15mg, 20mg, 30mg
+
+**Purity:** >99%"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://purepeptidelabs.com/products/glp-1sema
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_001__glp-1sema.md
+[LINE_RANGE] 59-115
+[QUOTE]
+"This product is sold for research purposes only.
+
+Form: Lyophilized Powder
+
+Molecular Formula: C187H291N45O59
+
+Quantity: 5mg, 10mg, 15mg, 20mg, 30mg
+
+Purity: >99%"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 640-640
+[QUOTE]
+"All products sold by Pure Peptide Labs are intended strictly for **laboratory research and analytical purposes**. These materials are **not intended for human or animal use** , and are not approved for any therapeutic, diagnostic, or medical application. Pure Peptide Labs does **not provide instructions or guidance** regarding preparation, reconstitution, administration, or dosage. No product sold is classified as a drug, dietary supplement, or medical device under federal law. All items are labeled **"For Research Use Only – Not for Human or Animal Use"** in accordance with **21 CFR 809.10(c)**. Any misuse or unauthorized application is strictly prohibited and may violate applicable laws."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://purepeptidelabs.com/policies/terms-of-service
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/tos.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"you acknowledge that you are at least **18 years of age** and agree to be legally bound by these Terms of Service, our Privacy Policy, and all applicable laws and regulations."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://purepeptidelabs.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/homepage.md
+[LINE_RANGE] 173-173
+[QUOTE]
+"[Terms of service](/web/20250125075237/https://purepeptidelabs.com/policies/terms-of-service)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://purepeptidelabs.com/policies/terms-of-service
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/tos.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"By accessing or purchasing from this site, you acknowledge that you are at least **18 years of age** and agree to be legally bound by these Terms of Service, our Privacy Policy, and all applicable laws and regulations."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://purepeptidelabs.com/policies/refund-policy
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/refund.md
+[LINE_RANGE] 63-80
+[QUOTE]
+"We offer a **30-day money-back guarantee** on all eligible orders. If you are not satisfied with your purchase, you may return the item(s) **within 30 days** of the original purchase date for a full refund."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://purepeptidelabs.com/policies/shipping-policy
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/shipping.md
+[LINE_RANGE] 63-100
+[QUOTE]
+"We offer **free standard shipping** on all domestic U.S. orders. Every shipment includes a complimentary 3ml bottle of **bacteriostatic water** , clearly labeled for research use only."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://purepeptidelabs.com/pages/faq
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/faq.md
+[LINE_RANGE] 99-102
+[QUOTE]
+"We use **Square Invoicing** as our secure payment method. After placing an order, you will receive an invoice via email directly from Square. Payment is due by **end of day**. If unpaid, the invoice will **automatically cancel** , and the order will not be fulfilled."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://purepeptidelabs.com/policies/shipping-policy
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/shipping.md
+[LINE_RANGE] 94-98
+[QUOTE]
+"We ship using **UPS** and **United States Postal Service (USPS)**.
+
+**Important:**
+
+  * **UPS cannot deliver to PO Box addresses.**"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://purepeptidelabs.com/policies/shipping-policy
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/shipping.md
+[LINE_RANGE] 77-83
+[QUOTE]
+"For faster delivery, customers may select upgraded shipping methods at checkout:
+
+  * UPS Next Day Air
+
+  * UPS Second Day Air
+
+  * USPS Priority Mail Express"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://purepeptidelabs.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/source_homepage.md
+[LINE_RANGE] 76-76
+[QUOTE]
+"Shopify.shop = "2da620-f0.myshopify.com";"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://purepeptidelabs.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/source_homepage.md
+[LINE_RANGE] 76-76
+[QUOTE]
+"})(window,document,'script','dataLayer','GTM-TJSK4X63');</script>"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://purepeptidelabs.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/source_homepage.md
+[LINE_RANGE] 1067-1067
+[QUOTE]
+"https:\/\/web.archive.org\/web\/20250817070531\/https:\/\/ecommplugins-scripts.trustpilot.com\/v2.1\/js\/header.min.js?settings=eyJrZXkiOiJkRDM2N25HS21zblYzN3lrIiwicyI6Im5vbmUifQ==\u0026shop=2da620-f0.myshopify.com"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[INFERENCE] false
+[REASONING]
+CDX search of web.archive.org for purepeptidelabs.com/blogs/* returned zero results in 2025. Navigation menus in catalog and product page snapshots do not include a "Blog" link. No blog-related content was found in any fetched page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 15-22
+"SHOP PEPTIDES"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 16-22
+"About Us"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.trustpilot.com/review/purepeptidelabs.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/social_1_trustpilot.md
+[LINE_RANGE] 39-45
+[QUOTE]
+"# Pure Peptide Labs Reviews 1,481
+
+4.8
+
+[Biotechnology Company]"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://purepeptidelabs.com/products/glp-1sema
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_001__glp-1sema.md
+[LINE_RANGE] 59-115
+[QUOTE]
+"This product is sold for research purposes only."
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://purepeptidelabs.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/source_homepage.md
+[LINE_RANGE] 1067-1067
+[QUOTE]
+"https:\/\/web.archive.org\/web\/20250817070531\/https:\/\/widget.trustpilot.com\/bootstrap\/v5\/tp.widget.sync.bootstrap.min.js?shop=2da620-f0.myshopify.com"
+[/QUOTE]
+
+[CLAIM] skus[glp-1sema-5mg].list_price_usd / sale_price_usd / out_of_stock
+[URL] https://purepeptidelabs.com/products/glp-1sema
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_001__glp-1sema.md
+[LINE_RANGE] 70-78
+[QUOTE]
+"Regular price $49.95 USD
+
+Regular price ~~$59.95 USD~~ Sale price $49.95 USD
+
+Unit price /  per
+
+Sale  Sold out
+
+Size 5mgVariant sold out or unavailable 10mgVariant sold out or unavailable 15mgVariant sold out or unavailable 20mgVariant sold out or unavailable 30mgVariant sold out or unavailable"
+[/QUOTE]
+
+[CLAIM] skus[glp-2tz-5mg].list_price_usd / sale_price_usd / out_of_stock
+[URL] https://purepeptidelabs.com/products/glp-2tz-glp-1-gip
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_002__glp-2tz.md
+[LINE_RANGE] 91-101
+[QUOTE]
+"Regular price ~~$59.95 USD~~ Sale price $49.95 USD
+
+Sale  Sold out
+
+Size 5mgVariant sold out or unavailable 10mgVariant sold out or unavailable 15mgVariant sold out or unavailable 20mgVariant sold out or unavailable 30mgVariant sold out or unavailable"
+[/QUOTE]
+
+[CLAIM] skus[glp-3rt-5mg].list_price_usd / dose_options / form
+[URL] https://purepeptidelabs.com/products/glp-3rt-glp-1-gip-glucagon
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_003__glp-3rt.md
+[LINE_RANGE] 93-135
+[QUOTE]
+"Regular price ~~$59.95 USD~~ Sale price $49.95 USD
+
+Size 5mgVariant sold out or unavailable 10mgVariant sold out or unavailable 15mgVariant sold out or unavailable 20mgVariant sold out or unavailable 30mgVariant sold out or unavailable
+
+**Form:** Lyophilized Powder
+
+**Molecular Formula:** C221H342N46O68
+
+**Quantity:** 5mg, 10mg, 15mg, 20mg, 30mg
+
+**Purity:** >99%"
+[/QUOTE]
+
+[CLAIM] skus[aod-9604-5mg].list_price_usd / sale_price_usd / out_of_stock / form
+[URL] https://purepeptidelabs.com/products/aod-9604
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_004__aod-9604.md
+[LINE_RANGE] 70-91
+[QUOTE]
+"Regular price ~~$79.95 USD~~ Sale price $59.95 USD
+
+Sale  Sold out
+
+Size 5mgVariant sold out or unavailable
+
+Form: Lyophilized Powder
+
+Quantity: 5mg
+
+Purity: >99%"
+[/QUOTE]
+
+[CLAIM] skus[cagrilintide-5mg].list_price_usd / out_of_stock
+[URL] https://purepeptidelabs.com/products/cagrilintide
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_005__cagrilintide.md
+[LINE_RANGE] 70-80
+[QUOTE]
+"Regular price ~~$129.95 USD~~ Sale price $119.95 USD
+
+Sale  Sold out
+
+Size 10mgVariant sold out or unavailable 5mgVariant sold out or unavailable"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg].list_price_usd / dose_options / out_of_stock
+[URL] https://purepeptidelabs.com/products/ghk-cu
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_006__ghk-cu.md
+[LINE_RANGE] 70-87
+[QUOTE]
+"Regular price ~~$59.95 USD~~ Sale price $49.95 USD
+
+Sale  Sold out
+
+Size 100mgVariant sold out or unavailable 50mgVariant sold out or unavailable
+
+Form: Lyophilized Powder
+
+Quantity: 50mg
+
+Purity: >99%"
+[/QUOTE]
+
+[CLAIM] skus[cagri-sema-blend-5-5mg].list_price_usd / dose / out_of_stock
+[URL] https://purepeptidelabs.com/products/cagri-sema-blend
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_007__cagri-sema-blend.md
+[LINE_RANGE] 70-87
+[QUOTE]
+"Regular price ~~$129.95 USD~~ Sale price $109.95 USD
+
+Sale  Sold out
+
+Size 5/5mgVariant sold out or unavailable
+
+Form: Lyophilized Powder
+
+Quantity: 5/5mg
+
+Purity: >99%"
+[/QUOTE]
+
+[CLAIM] skus[cagri-reta-blend-5-5mg].list_price_usd / dose / out_of_stock
+[URL] https://purepeptidelabs.com/products/cagri-reta-blend
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_008__cagri-reta-blend.md
+[LINE_RANGE] 70-87
+[QUOTE]
+"Regular price ~~$129.95 USD~~ Sale price $109.95 USD
+
+Sale  Sold out
+
+Size 5/5mgVariant sold out or unavailable
+
+Form: Lyophilized Powder
+
+Quantity: 5mg / 5mg
+
+Purity: >99%"
+[/QUOTE]
+
+[CLAIM] skus[mazdutide-10mg].list_price_usd / dose / out_of_stock
+[URL] https://purepeptidelabs.com/products/mazdutide
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_009__mazdutide.md
+[LINE_RANGE] 70-87
+[QUOTE]
+"Regular price ~~$129.95 USD~~ Sale price $109.95 USD
+
+Sale  Sold out
+
+Size 10mgVariant sold out or unavailable
+
+Form: Lyophilized Powder
+
+Quantity: 10mg
+
+Purity: >99%"
+[/QUOTE]
+
+[CLAIM] skus[tesamorelin-5mg].list_price_usd / dose / out_of_stock
+[URL] https://purepeptidelabs.com/products/tesamorelin
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_010__tesamorelin.md
+[LINE_RANGE] 70-87
+[QUOTE]
+"Regular price ~~$69.95 USD~~ Sale price $59.95 USD
+
+Sale  Sold out
+
+Size 10mgVariant sold out or unavailable 5mgVariant sold out or unavailable
+
+Form: Lyophilized Powder
+
+Quantity: 5mg, 10mg
+
+Purity: >99%"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 209-215
+[QUOTE]
+"###  [ BPC-157 ](/web/20250814134327/https://purepeptidelabs.com/products/bpc-157)
+
+Regular price ~~$39.95 USD~~ Sale price From $24.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[tb-500].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 251-258
+[QUOTE]
+"###  [ TB-500 ](/web/20250814134327/https://purepeptidelabs.com/products/tb-500)
+
+Sold out
+
+Regular price ~~$64.95 USD~~ Sale price From $44.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[ipamorelin].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 237-242
+[QUOTE]
+"###  [ Ipamorelin ](/web/20250814134327/https://purepeptidelabs.com/products/ipamorelin)
+
+Regular price ~~$39.95 USD~~ Sale price From $29.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[selank].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 265-270
+[QUOTE]
+"###  [ Selank ](/web/20250814134327/https://purepeptidelabs.com/products/selank)
+
+Regular price ~~$34.95 USD~~ Sale price $24.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[semax].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 279-284
+[QUOTE]
+"###  [ Semax ](/web/20250814134327/https://purepeptidelabs.com/products/semax)
+
+Regular price ~~$29.95 USD~~ Sale price $19.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[aod-9604].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 293-298
+[QUOTE]
+"###  [ AOD-9604 ](/web/20250814134327/https://purepeptidelabs.com/products/aod-9604)
+
+Sold out
+
+Regular price ~~$79.95 USD~~ Sale price $59.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[pt-141].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 307-312
+[QUOTE]
+"###  [ PT-141 ](/web/20250814134327/https://purepeptidelabs.com/products/pt-141)
+
+Regular price ~~$49.95 USD~~ Sale price $39.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[melanotan-2].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 321-326
+[QUOTE]
+"###  [ Melanotan 2 ](/web/20250814134327/https://purepeptidelabs.com/products/melanotan-2)
+
+Regular price ~~$59.95 USD~~ Sale price $39.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[mots-c].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 335-340
+[QUOTE]
+"###  [ MOTS-C ](/web/20250814134327/https://purepeptidelabs.com/products/mots-c)
+
+Regular price ~~$54.95 USD~~ Sale price $44.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[dsip].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 377-382
+[QUOTE]
+"###  [ DSIP ](/web/20250814134327/https://purepeptidelabs.com/products/dsip)
+
+Regular price ~~$34.95 USD~~ Sale price $29.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[epithalon].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 433-438
+[QUOTE]
+"###  [ Epithalon ](/web/20250814134327/https://purepeptidelabs.com/products/epithalon)
+
+Regular price ~~$29.95 USD~~ Sale price $24.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[sermorelin].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 447-452
+[QUOTE]
+"###  [ Sermorelin ](/web/20250814134327/https://purepeptidelabs.com/products/sermorelin)
+
+Regular price ~~$44.95 USD~~ Sale price $39.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[nad+].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 517-522
+[QUOTE]
+"###  [ NAD+ ](/web/20250814134327/https://purepeptidelabs.com/products/nad)
+
+Regular price ~~$69.95 USD~~ Sale price $59.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[ghrp6].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 531-536
+[QUOTE]
+"###  [ GHRP-6 Acetate ](/web/20250814134327/https://purepeptidelabs.com/products/ghrp-6-acetate)
+
+Regular price ~~$34.95 USD~~ Sale price $29.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[snap8].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 545-550
+[QUOTE]
+"###  [ SNAP-8 ](/web/20250814134327/https://purepeptidelabs.com/products/snap-8)
+
+Regular price ~~$39.95 USD~~ Sale price $29.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[glow-blend].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 559-564
+[QUOTE]
+"###  [ GLOW Blend (GHK-Cu/BPC-157/TB-500) ](/web/20250814134327/https://purepeptidelabs.com/products/glow-blend-ghk-cu-bpc-157-tb-500)
+
+Regular price ~~$119.95 USD~~ Sale price $109.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[kisspeptin].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 573-578
+[QUOTE]
+"###  [ Kisspeptin ](/web/20250814134327/https://purepeptidelabs.com/products/kisspeptin)
+
+Regular price ~~$29.95 USD~~ Sale price From $24.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[hexarelin].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 587-592
+[QUOTE]
+"###  [ Hexarelin ](/web/20250814134327/https://purepeptidelabs.com/products/hexarelin)
+
+Regular price ~~$49.95 USD~~ Sale price $39.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[cagri-reta-blend].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 601-606
+[QUOTE]
+"###  [ Cagri/Reta Blend ](/web/20250814134327/https://purepeptidelabs.com/products/cagri-reta-blend)
+
+Regular price ~~$129.95 USD~~ Sale price $109.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[igf-1lr3].catalog_price_anomaly
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 615-620
+[QUOTE]
+"###  [ IGF-1LR3 ](/web/20250814134327/https://purepeptidelabs.com/products/igf-1lr3)
+
+Sold out
+
+Regular price ~~$55.95 USD~~ Sale price $59.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[5-amino-1q].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 627-632
+[QUOTE]
+"###  [ 5-Amino-1Q ](/web/20250814134327/https://purepeptidelabs.com/products/5-amino-1q)
+
+Regular price ~~$55.95 USD~~ Sale price $59.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[bacteriostatic-water].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 363-368
+[QUOTE]
+"###  [ Bacteriostatic Water 10mL ](/web/20250814134327/https://purepeptidelabs.com/products/bacteriostatic-water-10ml)
+
+Sold out
+
+Regular price ~~~~ Sale price $14.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[cjc-ipamorelin-nodac].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 461-466
+[QUOTE]
+"###  [ CJC/Ipamorelin (No DAC) ](/web/20250814134327/https://purepeptidelabs.com/products/cjc-ipamorelin-no-dac)
+
+Regular price ~~$79.95 USD~~ Sale price $59.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[cjc-nodac-solo].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 475-480
+[QUOTE]
+"###  [ CJC (NO DAC) ](/web/20250814134327/https://purepeptidelabs.com/products/cjc-no-dac)
+
+Regular price ~~$74.95 USD~~ Sale price $64.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[melanotan-1].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 489-494
+[QUOTE]
+"###  [ Melanotan 1 ](/web/20250814134327/https://purepeptidelabs.com/products/melanotan-1)
+
+Regular price ~~$29.95 USD~~ Sale price From $24.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[cagri-sema-blend].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 503-508
+[QUOTE]
+"###  [ Cagri/Sema Blend ](/web/20250814134327/https://purepeptidelabs.com/products/cagri-sema-blend)
+
+Regular price ~~$129.95 USD~~ Sale price $109.95 USD"
+[/QUOTE]
+
+[CLAIM] skus[bpc157-tb500-blend].catalog_price
+[URL] https://purepeptidelabs.com/collections/shop-all-peptides
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/catalog_1.md
+[LINE_RANGE] 405-410
+[QUOTE]
+"###  [ BPC-157/TB-500 Blend ](/web/20250814134327/https://purepeptidelabs.com/products/bpc-157-tb-500-blend)
+
+Regular price ~~$69.96 USD~~ Sale price From $59.95 USD"
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://purepeptidelabs.com/cart
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/checkout_cart.md
+[LINE_RANGE] 44-50
+[QUOTE]
+"## Have an account?
+
+Loading..."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.volume_discount
+[URL] https://purepeptidelabs.com/products/glp-1sema
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/product_001__glp-1sema.md
+[LINE_RANGE] 83-85
+[QUOTE]
+"Buy 10 of the Same (mg) — Get 20% Off!
+
+Minimum Qty | Discount
+---|---
+10 + | 20% off"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage uses "PURE PEPTIDES. POWERFUL PURPOSE." as hero headline and "Shop Now!" as CTA. The about page describes founders Mark and Lisa, a small business framing. The Trustpilot integration and COA index demonstrate a professional, evidence-based brand posture rather than meme-coded or lifestyle imagery. Product pages show multi-image galleries (11 images on GLP-1SEMA page) with product vials. No meme imagery, no bodybuilding lifestyle content.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://purepeptidelabs.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/homepage.md
+[LINE_RANGE] 52-52
+"PURE PEPTIDES. POWERFUL PURPOSE."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://purepeptidelabs.com/pages/why-we-started
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/pure-peptide-labs/about.md
+[LINE_RANGE] 55-62
+"**Top-quality peptides** tested via HPLC & Mass Spectrometry"
+[/SUPPORT_QUOTE]

@@ -1,0 +1,200 @@
+{
+  "vendor_slug": "total-compounding-pharmaceuticals",
+  "brand_name": "Total Compounding Pharmaceuticals",
+  "primary_domain": "https://www.totalcompoundingpharmaceuticals.com",
+
+  "fetched_url": "https://web.archive.org/web/20240312105849/https://www.totalcompoundingpharmaceuticals.com/",
+  "fetched_at": "2026-05-08T08:33:02Z",
+  "fetch_status": "partial",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed, Tier 3: Target of Eli Lilly litigation per vendor_universe.csv). Live domain totalcompounding.com is NXDOMAIN (domain for sale at $280 via sav.com). Operating domain totalcompoundingpharmaceuticals.com returns 404 on live fetch as of 2026-05-08. All content sourced from Wayback Machine snapshots dated 2024-03-12. Site identified as fraudulent operation by TGA Australia and reported under multiple alias names (TCP, Dispatch Compound Center, The Specialist Compounding Pharmaceuticals, Compounding Pharmacy of America).",
+  "field_completion_ratio": 0.55,
+
+  "country_of_operation": "Australia (actual); Wyoming, USA (claimed)",
+  "fulfillment_country": "Australia",
+  "ship_to_scope": "us_intl",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "We've pioneered the way patients receive quality healthcare. Offering easily accessible and advanced custom treatment plans all from the comfort of your own home.",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "$ 150 (link to How To Order page)",
+    "navigation_pattern": "Top navigation with: Home, Quality Production, Semaglutide For Weight Loss, Tirzepatide For Weight Loss, Your Prescription, How To Order, Products List, Contact, Privacy Policy, Blog, Refer Friends",
+    "footer_disclaimers": "©2023 by TOTAL COMPOUNDING PHARMACEUTICALS : Privacy Policy : Terms & Conditions"
+  },
+
+  "catalog": {
+    "sku_count": 22,
+    "category_taxonomy": ["Sterile Injections", "Creams Ointment & Lotions", "Capsules"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "false"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "https://web.archive.org/web/20240312105856/https://www.totalcompoundingpharmaceuticals.com/semaglutide-for-weight-loss",
+    "sample_product_name": "Semaglutide Injection Compounded",
+    "dose_options": ["Semaglutide 2.64 mg/ml + L-Carnitine 100mg/ml + B12 0.5mg/ml, 3 mls Multidose vial"],
+    "list_price": "$150",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "Semaglutide works by mimicking a hormone called glucagonlike peptide-1 (GLP-1) that targets areas of the brain that regulate appetite and food intake; it is a powerful appetite suppressant.",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "false",
+    "coa_hosting": "none",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "false",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "false"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "https://web.archive.org/web/20250120174405/https://www.totalcompoundingpharmaceuticals.com/terms-conditions",
+    "tos_highlights": "Wix default placeholder text throughout. Payment methods listed: Credit / Debit Cards, PAYPAL, Offline Payments. No custom terms drafted.",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "false",
+    "guest_checkout_available": "true",
+    "fields_collected": ["First Name", "Last Name", "Email", "Phone", "Prescription upload"],
+    "id_verification_present": "false",
+    "payment_methods_accepted": ["credit_card", "PayPal", "offline_payments"],
+    "shipping_carriers": ["Australia Post (observed in customer complaint)"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "Ships internationally; fax numbers listed for USA, Canada, UK, Australia, New Zealand"
+  },
+
+  "tech_stack": {
+    "platform_signal": "wix",
+    "cdn": "Fastly (server: Pepyaka — Wix CDN)",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://www.totalcompoundingpharmaceuticals.com/blog",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": ["ScamPulse (7 reports, mixed-negative)"],
+    "testimonial_usage": "none observed on site",
+    "visible_influencer_endorsements": "none observed"
+  },
+
+  "skus": [
+    {
+      "sku_id": "total-compounding-pharmaceuticals:semaglutide-2-64mg-injection",
+      "name": "Semaglutide 2.64mg/ml + L-Carnitine 100mg/ml + B12 0.5mg/ml 3mls Multidose vial injection",
+      "peptide_canonical": "Semaglutide",
+      "peptide_variant": "pre_mixed_2mg/ml",
+      "dose_value": 7.92,
+      "dose_unit": "mg",
+      "format": "pre_mixed_pen",
+      "concentration": "2.64mg/ml",
+      "bottle_size": "3ml multidose vial",
+      "list_price_usd": 150.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 18.94,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://web.archive.org/web/20240312105856/https://www.totalcompoundingpharmaceuticals.com/semaglutide-for-weight-loss",
+      "raw_artifact": "03_raw_fetches/total-compounding-pharmaceuticals/product_1__semaglutide-injection.md",
+      "evidence_entry_id": "claim-9"
+    },
+    {
+      "sku_id": "total-compounding-pharmaceuticals:tirzepatide-15mg-injection",
+      "name": "Tirzepatide 15mg/ml + L-Carnitine 100mg/ml + B12 0.5mg/ml 3mls Multidose vial injection",
+      "peptide_canonical": "Tirzepatide",
+      "peptide_variant": "pre_mixed_2mg/ml",
+      "dose_value": 45.00,
+      "dose_unit": "mg",
+      "format": "pre_mixed_pen",
+      "concentration": "15mg/ml",
+      "bottle_size": "3ml multidose vial",
+      "list_price_usd": 250.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 5.56,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://web.archive.org/web/20240312105902/https://www.totalcompoundingpharmaceuticals.com/tirzepatide-for-weight-loss",
+      "raw_artifact": "03_raw_fetches/total-compounding-pharmaceuticals/product_2__tirzepatide-injection.md",
+      "evidence_entry_id": "claim-10"
+    },
+    {
+      "sku_id": "total-compounding-pharmaceuticals:vitamin-d3-600kiu-10ml",
+      "name": "Vitamin D3 (cholecalciferol) 600,000 IU/ml 10ml Multidose vial injection",
+      "peptide_canonical": "other",
+      "peptide_variant": "empty",
+      "dose_value": 6000000,
+      "dose_unit": "mcg",
+      "format": "vial",
+      "concentration": "600,000 IU/ml",
+      "bottle_size": "10ml multidose vial",
+      "list_price_usd": 76.50,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://web.archive.org/web/20240312105857/https://www.totalcompoundingpharmaceuticals.com/products-list",
+      "raw_artifact": "03_raw_fetches/total-compounding-pharmaceuticals/catalog_1.md",
+      "evidence_entry_id": "claim-11"
+    },
+    {
+      "sku_id": "total-compounding-pharmaceuticals:nad-plus-100mg-5ml-injection",
+      "name": "NAD+ (Nicotinamide Adenine Dinucleotide) 100mg/ml 5ml Multidose vial injection",
+      "peptide_canonical": "other",
+      "peptide_variant": "empty",
+      "dose_value": 500,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "100mg/ml",
+      "bottle_size": "5ml multidose vial",
+      "list_price_usd": 46.50,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 0.093,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://web.archive.org/web/20240312105857/https://www.totalcompoundingpharmaceuticals.com/products-list",
+      "raw_artifact": "03_raw_fetches/total-compounding-pharmaceuticals/catalog_1.md",
+      "evidence_entry_id": "claim-11"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "total-compounding-pharmaceuticals,Total Compounding Pharmaceuticals,totalcompounding.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list,3,as-assigned"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/total-compounding-pharmaceuticals/",
+  "evidence_file": "evidence/total-compounding-pharmaceuticals.txt",
+  "uncertainty_notes": "live_domain_dead: totalcompounding.com resolves NXDOMAIN as of 2026-05-08; domain listed for sale at $280 on sav.com; all content sourced from Wayback Machine snapshots of totalcompoundingpharmaceuticals.com (Mar 2024). actual_country: Privacy Policy explicitly adopts Australian Privacy Principles (Privacy Act 1988 Cth); references carolshealthcare.com.au; contact phone includes Australian (+61) and fax numbers for Australia and NZ; multiple complaints confirm shipments from Australia Post despite Wyoming, USA address (30 N Gould St, Suite R, Sheridan WY — a registered agent address). regulatory_status: TGA Australia raided associated operator (Emad Azzer, Sydney) per ABC Four Corners investigation; operation identified as fraudulent scheme marketing under multiple aliases including Total Compounding Pharmaceutical (TCP). tos_is_placeholder: Terms & Conditions page contains Wix default boilerplate text ('I'm a Customer Care section. I'm a great place to write a long text... Just click Edit Text or double click me'). no_coa: No certificate of analysis or lab partner named anywhere on site. checkout_not_walked: Site currently offline; checkout flow reconstructed from ScamPulse complaint reports and How To Order page (prescription fax/email → PayPal invoice). search_filter_capabilities: Products List page has no visible filter UI in archived text. blog_content: Blog page listed in nav but content not captured in available Wayback snapshots. year_established: ©2023 copyright on site but unclear if that reflects actual founding; discovery provenance from operator seed list does not include founding year. per_mg_cost_semaglutide: Computed as $150 / 7.92mg total (2.64mg/ml x 3ml) = $18.94/mg. per_mg_cost_tirzepatide: Computed as $250 / 45mg total (15mg/ml x 3ml) = $5.56/mg. marketing_pixels: Source HTML not accessible from Wayback text-rendered versions; platform confirmed Wix via live HTTP header (server: Pepyaka) before 404."
+}

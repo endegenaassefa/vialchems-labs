@@ -1,0 +1,672 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20240106001511/https://aminoasylum.shop/
+[FETCHED_AT] 2026-05-07T03:03:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/homepage_archive_2024_01.md
+[LINE_RANGE] 111-113
+[QUOTE]
+"Amino Asylum is your premium research compound headquarters. We bring industry
+best quality and pricing to all of our products."
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20240106001511/https://aminoasylum.shop/
+[FETCHED_AT] 2026-05-07T03:03:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/homepage_archive_2024_01.md
+[LINE_RANGE] 27-36
+[QUOTE]
+  * [Shop __](https://aminoasylum.shop/shop/)
+    * [All Products](https://aminoasylum.shop/product-category/all-products/)
+    * [Aminos](https://aminoasylum.shop/product-category/all-products/aminos/)
+    * [Gym Wear](https://aminoasylum.shop/product-category/gym-wear/)
+    * [Sprays](https://aminoasylum.shop/product-category/all-products/nasal-sprays/)
+    * [Peptides](https://aminoasylum.shop/product-category/all-products/peptides/)
+    * [Prohormones](https://aminoasylum.shop/product-category/all-products/prohormones/)
+    * [Research Chemicals](https://aminoasylum.shop/product-category/all-products/research-chemicals/)
+    * [Research Oils](https://aminoasylum.shop/product-category/all-products/research-oils/)
+    * [SARMS](https://aminoasylum.shop/product-category/all-products/sarms/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20240106001511/https://aminoasylum.shop/
+[FETCHED_AT] 2026-05-07T03:03:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/homepage_archive_2024_01.md
+[LINE_RANGE] 111-113
+[QUOTE]
+"Amino Asylum is your premium research compound headquarters. We bring industry
+best quality and pricing to all of our products."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 52-54
+[QUOTE]
+Showing all 100 results
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 27-36
+[QUOTE]
+    * [All Products](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product-category/all-products/)
+    * [Aminos](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product-category/all-products/aminos/)
+    * [Gym Wear](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product-category/gym-wear/)
+    * [Sprays](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product-category/all-products/nasal-sprays/)
+    * [Peptides](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product-category/all-products/peptides/)
+    * [Prohormones](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product-category/all-products/prohormones/)
+    * [Research Chemicals](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product-category/all-products/research-chemicals/)
+    * [Research Oils](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product-category/all-products/research-oils/)
+    * [SARMS](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product-category/all-products/sarms/)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url + product_page_anatomy.list_price + product_page_anatomy.sample_product_name
+[URL] https://aminoasylum.shop/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T17:03:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/product_1__bpc-157-5mg.md
+[LINE_RANGE] 59-79
+[QUOTE]
+#  BPC 5MG
+
+$34.99
+
+In stock
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language + trust_compliance.research_use_only_phrasing + trust_compliance.age_gate_present
+[URL] https://aminoasylum.shop/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T17:03:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/product_1__bpc-157-5mg.md
+[LINE_RANGE] 211-215
+[QUOTE]
+Please know and understand that all of our products are for research purposes only, no dosing or usage information is provided and you must be 18 years old to enter the website.
+
+Are you over 18 years of age?
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://aminoasylum.shop/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T17:03:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/product_1__bpc-157-5mg.md
+[LINE_RANGE] 96-98
+[QUOTE]
+5mg
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present (ratings observed on checkout sidebar)
+[URL] https://aminoasylum.shop/checkout/
+[FETCHED_AT] 2026-05-07T17:05:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/checkout.md
+[LINE_RANGE] 61-80
+[QUOTE]
+  * [ HCG 5000iu ](https://web.archive.org/web/20230913010811/https://aminoasylum.shop/product/hcg-5000iu/)
+
+Rated **4.98** out of 5
+
+$39.99
+  * [ BAC WATER 20ML ](https://web.archive.org/web/20230913010811/https://aminoasylum.shop/product/bac-water-20ml/)
+
+Rated **5.00** out of 5
+
+$9.99
+  * [ TADALAFIL 30ML X 20MG ](https://web.archive.org/web/20230913010811/https://aminoasylum.shop/product/tadalafil-30ml-x-20mg/)
+
+Rated **4.88** out of 5
+
+$39.99
+  * [ BPC-157 5MG ](https://web.archive.org/web/20230913010811/https://aminoasylum.shop/product/bpc-157-5mg/)
+
+Rated **5.00** out of 5
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://aminoasylum.shop/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T17:03:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/product_1__bpc-157-5mg.md
+[LINE_RANGE] 98-100
+[QUOTE]
+###  Related products
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url + trust_compliance.tos_highlights + trust_compliance.refund_policy + checkout_flow.payment_methods_accepted + fulfillment_country + ship_to_scope
+[URL] https://aminoasylum.shop/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:04:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/tos.md
+[LINE_RANGE] 63-75
+[QUOTE]
+Amino Asylum offers a range of products for sale through our e-commerce platform, specifically designed for research purposes. These products include research chemicals, SARMs (Selective Androgen Receptor Modulators), and peptides, which are sold with the understanding that they are for research and scientific use only, not for human consumption. It is the responsibility of the purchaser to comply with all applicable laws and regulations regarding the use of these substances. By purchasing, the buyer acknowledges these products are intended for research purposes only and agrees to use them in a lawful manner. All buyers must be at least 18 years old and residents of the United States.
+[/QUOTE]
+[URL] https://aminoasylum.shop/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:04:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/tos.md
+[LINE_RANGE] 67-67
+[QUOTE]
+We accept payments via Credit Cards, Cash App, Venmo, and Venmo.
+[/QUOTE]
+[URL] https://aminoasylum.shop/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:04:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/tos.md
+[LINE_RANGE] 69-71
+[QUOTE]
+We currently deliver our products exclusively within the United States. Please allow for standard shipping times when placing an order. We are not responsible for any delays in delivery due to unforeseen circumstances. Our mailing address is 128 Sunset Blvd, New Castle, DE 19720, USA.
+[/QUOTE]
+[URL] https://aminoasylum.shop/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:04:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/tos.md
+[LINE_RANGE] 75-75
+[QUOTE]
+All sales are final. Amino Asylum does not accept returns or exchanges, nor do we issue refunds for our products, except as required by law.
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://aminoasylum.shop/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:04:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/tos.md
+[LINE_RANGE] 63-63
+[QUOTE]
+All buyers must be at least 18 years old and residents of the United States.
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal (WooCommerce)
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 53-54
+[QUOTE]
+Showing all 100 results
+
+Default sorting Sort by popularity Sort by latest Sort by price: low to high
+Sort by price: high to low
+[/QUOTE]
+
+[CLAIM] country_of_operation (Delaware mailing address)
+[URL] https://aminoasylum.shop/terms-of-service/
+[FETCHED_AT] 2026-05-07T17:04:02Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/tos.md
+[LINE_RANGE] 71-71
+[QUOTE]
+Our mailing address is 128 Sunset Blvd, New Castle, DE 19720, USA.
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage (on-site WooCommerce ratings)
+[URL] https://aminoasylum.shop/checkout/
+[FETCHED_AT] 2026-05-07T17:05:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/checkout.md
+[LINE_RANGE] 61-100
+[QUOTE]
+  * [ HCG 5000iu ](https://web.archive.org/web/20230913010811/https://aminoasylum.shop/product/hcg-5000iu/)
+
+Rated **4.98** out of 5
+
+$39.99
+  * [ BAC WATER 20ML ](https://web.archive.org/web/20230913010811/https://aminoasylum.shop/product/bac-water-20ml/)
+
+Rated **5.00** out of 5
+
+$9.99
+  * [ TADALAFIL 30ML X 20MG ](https://web.archive.org/web/20230913010811/https://aminoasylum.shop/product/tadalafil-30ml-x-20mg/)
+
+Rated **4.88** out of 5
+
+$39.99
+  * [ BPC-157 5MG ](https://web.archive.org/web/20230913010811/https://aminoasylum.shop/product/bpc-157-5mg/)
+
+Rated **5.00** out of 5
+
+$34.99
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required + checkout_flow.guest_checkout_available
+[URL] https://aminoasylum.shop/checkout/
+[FETCHED_AT] 2026-05-07T17:05:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/checkout.md
+[LINE_RANGE] 148-164
+[QUOTE]
+### Login
+
+Username or email address *
+
+Password *
+
+Remember me Log in
+
+[Lost your password?](https://web.archive.org/web/20230913010811/https://aminoasylum.shop/my-account/lost-password/)
+
+### Register
+
+Email address *
+
+A link to set a new password will be sent to your email address.
+
+Register
+[/QUOTE]
+
+[CLAIM] year_established (copyright year + WP upload path dating)
+[URL] https://web.archive.org/web/20240106001511/https://aminoasylum.shop/
+[FETCHED_AT] 2026-05-07T03:03:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/homepage_archive_2024_01.md
+[LINE_RANGE] 12-16
+[QUOTE]
+![AMINO
+ASYLUM](https://aminoasylum.shop/wp-
+content/uploads/2021/03/aminologonew-720w.png)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:bpc-157-5mg].list_price_usd
+[URL] https://aminoasylum.shop/product/bpc-157-5mg/
+[FETCHED_AT] 2026-05-07T17:03:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/product_1__bpc-157-5mg.md
+[LINE_RANGE] 72-74
+[QUOTE]
+$34.99
+
+In stock
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:bpc-157-spray].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 254-260
+[QUOTE]
+[BPC-157
+Spray](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/bpc-157-spray/)
+
+$44.99
+
+[Add to cart](?add-to-cart=35362)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:tb-500-5mg].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 1604-1609
+[QUOTE]
+[TB-500
+5MG](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/tb-500-5mg/)
+
+$39.99
+
+[Add to cart](?add-to-cart=212)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:tb-500-spray].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 1620-1625
+[QUOTE]
+[TB-500
+Spray](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/tb-500-spray/)
+
+$64.99
+
+[Add to cart](?add-to-cart=35367)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:semaglutide-5mg].list_price_usd
+[URL] https://aminoasylum.shop/product/semaglutide-5mg/
+[FETCHED_AT] 2026-05-07T17:03:54Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/product_3__semaglutide-5mg.md
+[LINE_RANGE] 72-74
+[QUOTE]
+$124.99
+
+In stock
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:tirzepatide-5mg].list_price_usd
+[URL] https://aminoasylum.shop/product/tirzepatide-5mg/
+[FETCHED_AT] 2026-05-07T17:03:55Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/product_4__tirzepatide-5mg.md
+[LINE_RANGE] 59-74
+[QUOTE]
+#  TIRZEP 5MG
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:tirzepatide-5mg] (catalog price)
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 1672-1677
+[QUOTE]
+[TIRZEP
+5MG](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/tirzepatide-5mg/)
+
+$149.99
+
+[Add to cart](?add-to-cart=303686)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:retatrutide-5mg].list_price_usd
+[URL] https://aminoasylum.shop/product/limited-time-sale-retatrutide-5mg/
+[FETCHED_AT] 2026-05-07T17:03:55Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/product_5__retatrutide-5mg.md
+[LINE_RANGE] 72-74
+[QUOTE]
+$174.99
+
+In stock
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:ipamorelin-2mg].list_price_usd
+[URL] https://aminoasylum.shop/product-category/all-products/peptides/
+[FETCHED_AT] 2026-05-07T17:04:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/peptides_category.md
+[LINE_RANGE] 183-187
+[QUOTE]
+[IPAMORELIN 2MG](https://web.archive.org/web/20240507023730/https://aminoasylum.shop/product/ipamorelin-2mg/)
+
+$19.99
+
+[Add to cart](?add-to-cart=137)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:cjc-no-dac-2mg].list_price_usd
+[URL] https://aminoasylum.shop/product-category/all-products/peptides/
+[FETCHED_AT] 2026-05-07T17:04:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/peptides_category.md
+[LINE_RANGE] 87-91
+[QUOTE]
+[CJC (NO DAC) 2MG](https://web.archive.org/web/20240507023730/https://aminoasylum.shop/product/cjc-no-dac-2mg/)
+
+$24.99
+
+[Add to cart](?add-to-cart=103)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:ghrp-2-5mg].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 514-519
+[QUOTE]
+[GHRP 2
+5MG](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/ghrp-2-5mg/)
+
+$11.99
+
+[Add to cart](?add-to-cart=118)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:ghrp-6-5mg].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 530-535
+[QUOTE]
+[GHRP 6
+5MG](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/ghrp-6-5mg/)
+
+$11.99
+
+[Add to cart](?add-to-cart=120)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:igf-lr3-1mg].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 683-688
+[QUOTE]
+[IGF-LR3
+1MG](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/igf-
+lr3-1mg/)
+
+$59.99
+
+[Add to cart](?add-to-cart=135)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:igf-des-1mg].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 665-670
+[QUOTE]
+[IGF-DES
+1MG](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/igf-
+des-1mg/)
+
+$49.99
+
+[Add to cart](?add-to-cart=133)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:hgh-frag-176-191-5mg].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 633-638
+[QUOTE]
+[HGH-FRAG (176-191)
+5MG](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/hgh-
+frag-176-191-5mg/)
+
+$44.99
+
+[Add to cart](?add-to-cart=129)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:mots-c-10mg].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 1058-1063
+[QUOTE]
+[MOTS-c
+10MG](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/mots-c-10mg/)
+
+$54.99
+
+[Add to cart](?add-to-cart=109219)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:pt-141].list_price_usd
+[URL] https://aminoasylum.shop/product-category/all-products/peptides/
+[FETCHED_AT] 2026-05-07T17:04:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/peptides_category.md
+[LINE_RANGE] 232-236
+[QUOTE]
+[PT-141](https://web.archive.org/web/20240507023730/https://aminoasylum.shop/product/pt-141/)
+
+$49.99
+
+[Add to cart](?add-to-cart=83176)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:pt-141-spray].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 1263-1268
+[QUOTE]
+[PT-141
+Spray](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/pt-141-spray/)
+
+$49.99
+
+[Add to cart](?add-to-cart=35354)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:melanotan-ii-10mg].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 950-955
+[QUOTE]
+[MELANOTAN ll (MT)
+10MG](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/melanotan-
+ll-mt-10mg/)
+
+$29.99
+
+[Add to cart](?add-to-cart=161)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:peg-mgf-2mg].out_of_stock + list_price_usd
+[URL] https://aminoasylum.shop/product-category/all-products/peptides/
+[FETCHED_AT] 2026-05-07T17:04:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/peptides_category.md
+[LINE_RANGE] 215-225
+[QUOTE]
+Out of stock
+
+All Research Products
+
+[PEG-MGF 2MG](https://web.archive.org/web/20240507023730/https://aminoasylum.shop/product/peg-mgf-2mg/)
+
+$29.99
+
+[Read more](https://web.archive.org/web/20240507023730/https://aminoasylum.shop/product/peg-mgf-2mg/)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:n-acetyl-selank-spray].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 1093-1099
+[QUOTE]
+[N-Acetyl-Selank
+Spray](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/n-acetyl-
+selank-spray/)
+
+$44.99
+
+[Add to cart](?add-to-cart=91444)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:n-acetyl-semax-spray].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 1130-1135
+[QUOTE]
+[N-Acetyl-Semax
+Spray](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/n-acetyl-
+semax-spray/)
+
+$44.99
+
+[Add to cart](?add-to-cart=91446)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:hcg-5000iu].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 615-620
+[QUOTE]
+[HCG
+5000iu](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/hcg-5000iu/)
+
+$39.99
+
+[Add to cart](?add-to-cart=127)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:aod-9604-spray].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 136-141
+[QUOTE]
+[AOD-9604
+Spray](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/aod-9604-spray/)
+
+$79.99
+
+[Add to cart](?add-to-cart=35357)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:nad-spray].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 1162-1167
+[QUOTE]
+[NAD+
+Spray](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/nad-
+spray/)
+
+$49.99
+
+[Add to cart](?add-to-cart=35349)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:nad-100mg].list_price_usd
+[URL] https://web.archive.org/web/20240522103156/https://aminoasylum.shop/shop/
+[FETCHED_AT] 2026-05-07T03:05:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/catalog_1.md
+[LINE_RANGE] 1761-1766
+[QUOTE]
+[NAD+
+100MG](https://web.archive.org/web/20240522103156/https://aminoasylum.shop/product/nad-100mg/)
+
+$49.99
+
+[Add to cart](?add-to-cart=321069)
+[/QUOTE]
+
+[CLAIM] skus[amino-asylum:hmg].list_price_usd
+[URL] https://aminoasylum.shop/product-category/all-products/peptides/
+[FETCHED_AT] 2026-05-07T17:04:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/amino-asylum/peptides_category.md
+[LINE_RANGE] 147-151
+[QUOTE]
+[HMG](https://web.archive.org/web/20240507023730/https://aminoasylum.shop/product/hmg/)
+
+$44.99
+
+[Add to cart](?add-to-cart=555)
+[/QUOTE]

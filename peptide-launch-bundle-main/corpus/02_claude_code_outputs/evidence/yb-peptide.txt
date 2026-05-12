@@ -1,0 +1,411 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://ybpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/homepage.md
+[LINE_RANGE] 35-35
+[QUOTE]
+"We are High-Purity Peptides manufacturer in China, with over 20 years of experience, specializing in high-purity peptides at wholesale prices."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://ybpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/homepage.md
+[LINE_RANGE] 63-67
+[QUOTE]
+"Welcome to browse our website, welcome to contact us for the latest product information and solutionsCONTACT US"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://ybpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/homepage.md
+[LINE_RANGE] 12-15
+[QUOTE]
+"    * [Home](/)
+    * [About](/about/)
+    * [Products](/product/)
+    * [Contact](/contact/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://ybpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/homepage.md
+[LINE_RANGE] 94-94
+[QUOTE]
+"Copyright © 2025 YB PEPTIDE All Rights Reserved."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://ybpeptide.com/about/
+[FETCHED_AT] 2026-05-08T08:48:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/about.md
+[LINE_RANGE] 27-27
+[QUOTE]
+"We are High-Purity Peptides manufacturer in China, with over 20 years of experience, specializing in high-purity peptides at wholesale prices.We have absolute advantage because of strong research strength, modern management system and high-quality marketing team."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://ybpeptide.com/product/
+[FETCHED_AT] 2026-05-08T08:47:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/catalog_1.md
+[LINE_RANGE] 23-35
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/yb-peptide/product_*.md:
+14 saved artifacts (filenames listed below).
+[FILES]
+product_1__cgl05.md
+product_2__ml10-melanotan-2.md
+product_3__mz10.md
+product_4__rt5-retatrutide.md
+product_5__sm10-semaglutide.md
+product_6__tr15-tirzepatide.md
+product_7__sm5-semaglutide.md
+product_8__wa10-bac-water.md
+product_9__cu50.md
+product_10__rt10-retatrutide.md
+product_11__tr10-tirzepatide.md
+product_12__cgl10.md
+product_13__cu100.md
+product_14__wa3-bac-water.md
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://ybpeptide.com/product/
+[FETCHED_AT] 2026-05-08T08:47:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/catalog_1.md
+[LINE_RANGE] 21-22
+[QUOTE]
+"Products
+
+  * [Peptide](/Peptide/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://ybpeptide.com/product/
+[FETCHED_AT] 2026-05-08T08:47:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/catalog_1.md
+[LINE_RANGE] 21-22
+[QUOTE]
+"Products
+
+  * [Peptide](/Peptide/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://ybpeptide.com/Peptide/41.html
+[FETCHED_AT] 2026-05-08T08:48:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/product_4__rt5-retatrutide.md
+[LINE_RANGE] 25-25
+[QUOTE]
+"RT5 "
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://ybpeptide.com/Peptide/41.html
+[FETCHED_AT] 2026-05-08T08:48:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/product_4__rt5-retatrutide.md
+[LINE_RANGE] 31-31
+[QUOTE]
+"**Retatrutide** is a GGG tri-agonist that targets GLP-1 and GIP receptors, akin to standard GLP-1 agonists, but also uniquely activates the glucagon receptor."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://ybpeptide.com/Peptide/41.html
+[FETCHED_AT] 2026-05-08T08:48:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/product_4__rt5-retatrutide.md
+[LINE_RANGE] 33-33
+[QUOTE]
+"Product Usage: **This PRODUCT IS INTENDED AS A RESEARCH CHEMICAL ONLY**. This designation allows the use of research chemicals strictly for in vitro testing and laboratory experimentation only. All product information available on this website is for educational purposes only. Bodily introduction of any kind into humans or animals is strictly forbidden by law. This product should only be handled by licensed, qualified professionals. This product is not a drug, food, or cosmetic and may not be misbranded, misused or mislabled as a drug, food or cosmetic."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://ybpeptide.com/Peptide/41.html
+[FETCHED_AT] 2026-05-08T08:48:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/product_4__rt5-retatrutide.md
+[LINE_RANGE] 29-35
+[QUOTE]
+"Product description
+
+**Retatrutide** is a GGG tri-agonist that targets GLP-1 and GIP receptors, akin to standard GLP-1 agonists, but also uniquely activates the glucagon receptor. This extra receptor interaction enhances glucagon production, leading to the breakdown of stored fats and glycogen, thereby increasing basal metabolism for more consistent fat loss. Its actions on GLP-1 and GIP receptors promote delayed gastric emptying and appetite control, offering a comprehensive approach to obesity research distinct from older GLP-1 agonists.
+
+Product Usage: **This PRODUCT IS INTENDED AS A RESEARCH CHEMICAL ONLY**."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://ybpeptide.com/Peptide/41.html
+[FETCHED_AT] 2026-05-08T08:48:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/product_4__rt5-retatrutide.md
+[LINE_RANGE] 29-67
+[QUOTE]
+"Product description
+
+**Retatrutide** is a GGG tri-agonist that targets GLP-1 and GIP receptors, akin to standard GLP-1 agonists, but also uniquely activates the glucagon receptor."
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://ybpeptide.com/Peptide/41.html
+[FETCHED_AT] 2026-05-08T08:48:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/product_4__rt5-retatrutide.md
+[LINE_RANGE] 33-33
+[QUOTE]
+"Product Usage: **This PRODUCT IS INTENDED AS A RESEARCH CHEMICAL ONLY**. This designation allows the use of research chemicals strictly for in vitro testing and laboratory experimentation only."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://ybpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/homepage.md
+[LINE_RANGE] 8-97
+[QUOTE]
+"We are High-Purity Peptides manufacturer in China, with over 20 years of experience, specializing in high-purity peptides at wholesale prices."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://ybpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/homepage.md
+[LINE_RANGE] 8-97
+[QUOTE]
+"We are High-Purity Peptides manufacturer in China, with over 20 years of experience, specializing in high-purity peptides at wholesale prices."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://ybpeptide.com/
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/source_homepage.md
+[LINE_RANGE] 8-27
+[QUOTE]
+"<meta name="author" content="www.adminbuy.cn K187" />"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://ybpeptide.com/
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/source_homepage.md
+[LINE_RANGE] 1-7
+[QUOTE]
+"url: https://ybpeptide.com/
+fetched_at: 2026-05-08T08:48:39Z
+fetch_method: curl
+http_status: 200
+sha256: ef0d293b34ae518ec9d33707b05d60b2186db6bb06c97ce054b068cf47d22a2e"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://ybpeptide.com/
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/source_homepage.md
+[LINE_RANGE] 23-25
+[QUOTE]
+"<script src="/skin/js/jquery-1.8.3.min.js"></script>
+<script src="/skin/js/swiper.min.js"></script>
+<script src="/skin/js/wow.js"></script>"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://ybpeptide.com/
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/source_homepage.md
+[LINE_RANGE] 23-25
+[QUOTE]
+"<script src="/skin/js/jquery-1.8.3.min.js"></script>
+<script src="/skin/js/swiper.min.js"></script>
+<script src="/skin/js/wow.js"></script>"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://ybpeptide.com/index.php/sitemap.xml
+[FETCHED_AT] 2026-05-08T08:52:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/sitemap.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"https://ybpeptide.com 1.00 2026-05-08 always https://ybpeptide.com/about/ 0.80 2026-05-08 daily https://ybpeptide.com/product/ 0.80 2026-05-08 daily https://ybpeptide.com/contact/ 0.80 2026-05-08 daily https://ybpeptide.com/Peptide/ 0.80 2026-05-08 daily"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://ybpeptide.com/Peptide/41.html
+[FETCHED_AT] 2026-05-08T08:48:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/product_4__rt5-retatrutide.md
+[LINE_RANGE] 29-67
+[QUOTE]
+"Product description
+
+**Retatrutide** is a GGG tri-agonist that targets GLP-1 and GIP receptors, akin to standard GLP-1 agonists, but also uniquely activates the glucagon receptor."
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://ybpeptide.com/
+[FETCHED_AT] 2026-05-08T08:46:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/homepage.md
+[LINE_RANGE] 35-97
+[QUOTE]
+"We are High-Purity Peptides manufacturer in China, with over 20 years of experience, specializing in high-purity peptides at wholesale prices."
+[/QUOTE]
+
+[CLAIM] skus[rt5].peptide_canonical
+[URL] https://ybpeptide.com/Peptide/41.html
+[FETCHED_AT] 2026-05-08T08:48:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/product_4__rt5-retatrutide.md
+[LINE_RANGE] 31-31
+[QUOTE]
+"**Retatrutide** is a GGG tri-agonist that targets GLP-1 and GIP receptors, akin to standard GLP-1 agonists, but also uniquely activates the glucagon receptor."
+[/QUOTE]
+
+[CLAIM] skus[sm10].peptide_canonical
+[URL] https://ybpeptide.com/Peptide/40.html
+[FETCHED_AT] 2026-05-08T08:48:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/product_5__sm10-semaglutide.md
+[LINE_RANGE] 31-31
+[QUOTE]
+"**Semaglutide** is a derivative of the naturally occurring GLP-1, a peptide known to lower blood sugar levels and enhance insulin secretion."
+[/QUOTE]
+
+[CLAIM] skus[tr15].peptide_canonical
+[URL] https://ybpeptide.com/Peptide/39.html
+[FETCHED_AT] 2026-05-08T08:48:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/product_6__tr15-tirzepatide.md
+[LINE_RANGE] 31-31
+[QUOTE]
+"**Tirzepatide** is a synthetic derivative of gastric inhibitory polypeptide (GIP) that has simultaneous glucagon-like peptide-1 (GLP-1) functionality as well."
+[/QUOTE]
+
+[CLAIM] skus[ml10].peptide_canonical
+[URL] https://ybpeptide.com/Peptide/43.html
+[FETCHED_AT] 2026-05-08T08:48:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/product_2__ml10-melanotan-2.md
+[LINE_RANGE] 31-31
+[QUOTE]
+"**Melanotan-2 (MT-2)** is a synthetic derivative of human alpha-melanocyte-stimulating hormone (α-MSH), developed at the University of Arizona in the 1980s."
+[/QUOTE]
+
+[CLAIM] skus[wa10].concentration
+[URL] https://ybpeptide.com/Peptide/37.html
+[FETCHED_AT] 2026-05-08T08:48:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/product_8__wa10-bac-water.md
+[LINE_RANGE] 31-37
+[QUOTE]
+"**Bacteriostatic Preservative:** Comprising 0.9% Benzyl Alcohol to maintain sterility."
+[/QUOTE]
+
+[CLAIM] skus[wa10].bottle_size
+[URL] https://ybpeptide.com/Peptide/37.html
+[FETCHED_AT] 2026-05-08T08:48:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/product_8__wa10-bac-water.md
+[LINE_RANGE] 29-31
+[QUOTE]
+"**Bacteriostatic water**
+
+**Precise Volume****:** Each 10ml bottle is meticulously measured for consistency in your research applications."
+[/QUOTE]
+
+[CLAIM] skus[wa3].bottle_size
+[URL] https://ybpeptide.com/Peptide/31.html
+[FETCHED_AT] 2026-05-08T08:48:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/product_14__wa3-bac-water.md
+[LINE_RANGE] 29-31
+[QUOTE]
+"**Bacteriostatic water**
+
+**Precise Volume** : Each 3ml bottle is meticulously measured for consistency in your research applications."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://ybpeptide.com/contact/
+[FETCHED_AT] 2026-05-08T08:48:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/contact.md
+[LINE_RANGE] 21-30
+[QUOTE]
+"Contact
+
+YB HEALTHY PEPTIDE CO., LTD
+
+consumer hotline：+852 64062444
+
+Business mailbox：ssales1@aliyun.com
+
+Business mailbox：ssales2@aliyun.com"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage uses product imagery with clean product shots visible in the source HTML (multiple .jpg files uploaded as swiper slides); combined with an "About" section featuring factory/workshop imagery and a clinical/professional manufacturing description, the presentation matches a clinical/B2B style rather than lifestyle or meme-coded branding.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://ybpeptide.com/about/
+[FETCHED_AT] 2026-05-08T08:48:56Z
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/about.md
+[LINE_RANGE] 27-31
+"We are High-Purity Peptides manufacturer in China, with over 20 years of experience, specializing in high-purity peptides at wholesale prices.We have absolute advantage because of strong research strength, modern management system and high-quality marketing team.
+
+Now we have 3 GMP standard workshop, Meanwhile, the factory is equipped with the researching and quality inspection centre, with strong technology research and development strength."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://ybpeptide.com/
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/source_homepage.md
+[LINE_RANGE] 169-169
+"      <div class="item-img"> <img width="320" height="240" src="/static/upload/image/20250325/1742909762737910.jpg" class="attachment-General laser cutting machine size-General laser cutting machine wp-post-image" /> </div>"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://ybpeptide.com/about/
+[FETCHED_AT] 2026-05-08T08:48:56Z
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/about.md
+[LINE_RANGE] 29-29
+"Now we have 3 GMP standard workshop, Meanwhile, the factory is equipped with the researching and quality inspection centre, with strong technology research and development strength. We also have 3 sales departments over 30 people and sell our products all over the world."
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.platform_signal (PbootCMS)
+[INFERENCE] custom
+[REASONING]
+Response header X-Powered-By: PbootCMS and meta author tag referencing www.adminbuy.cn confirm PbootCMS, a Chinese open-source PHP CMS. This is not Shopify, WooCommerce, or any Western platform; classified as 'custom' per schema enum.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://ybpeptide.com/
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/source_homepage.md
+[LINE_RANGE] 16-17
+"<meta name="author" content="www.adminbuy.cn K187" />"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://ybpeptide.com/
+[FETCHED_AT] 2026-05-08T08:48:39Z
+[RAW_ARTIFACT] 03_raw_fetches/yb-peptide/source_homepage.md
+[LINE_RANGE] 23-25
+"<script src="/skin/js/jquery-1.8.3.min.js"></script>
+<script src="/skin/js/swiper.min.js"></script>
+<script src="/skin/js/wow.js"></script>"
+[/SUPPORT_QUOTE]

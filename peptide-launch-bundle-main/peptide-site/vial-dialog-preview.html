@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Vial preview</title>
+<link rel="stylesheet" href="brand.css"/>
+<link rel="stylesheet" href="layout.css"/>
+<style>
+  html, body {
+    min-height: 100%;
+    background: #05080c;
+  }
+  body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+  }
+  .dialog {
+    width: min(440px, calc(100vw - 48px));
+    height: 560px;
+    padding: 18px;
+    border: 1px solid rgba(34, 211, 238, 0.24);
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(12, 20, 31, 0.98), rgba(3, 7, 12, 0.98));
+    box-shadow: 0 34px 80px -42px rgba(0, 0, 0, 0.9);
+  }
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+</style>
+</head>
+<body>
+<div class="dialog">
+  <div id="root"></div>
+</div>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+<script type="text/babel" src="shared.jsx?v=theme-switch-2"></script>
+<script type="text/babel" src="vial3d.jsx?v=glass-powder-2"></script>
+<script type="text/babel">
+  ReactDOM.createRoot(document.getElementById('root')).render(
+    <VialMock label="SEMAX" code="VC-014" mass="10 mg" />
+  );
+</script>
+</body>
+</html>

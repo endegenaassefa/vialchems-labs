@@ -1,0 +1,936 @@
+[CLAIM] primary_domain
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 16-16
+[QUOTE]
+[ ](https://www.chemyo.com/)
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] United States
+[REASONING]
+The registered business address in the footer of every fetched page is 4023 Kennett Pike STE 59371 Wilmington, DE 19807 USA. The Yoast schema in the source scan identifies the organization as Chemyo LLC established 2019-09-09. Both consistently point to Delaware, USA as the country of operation.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 895-895
+4023 Kennett Pike STE 59371 Wilmington, DE 19807 USA
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:05:08Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/tos.md
+[LINE_RANGE] 123-123
+__4023 Kennett Pike STE 59371 Wilmington, DE 19807 USA
+[/SUPPORT_QUOTE]
+
+[CLAIM] fulfillment_country
+[INFERENCE] United States
+[REASONING]
+The shipping policy states all orders ship within 24-48 hours from the facility; the business address is Wilmington, DE 19807 USA; the FAQ confirms US domestic delivery takes 2-5 business days as a separate category from international, consistent with US-based fulfillment.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/payment/
+[FETCHED_AT] 2026-05-07T17:05:11Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/shipping.md
+[LINE_RANGE] 49-51
+All orders are shipped within 24-48 hours when placed before our cut-off time (excluding weekends and public holidays).
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 895-895
+4023 Kennett Pike STE 59371 Wilmington, DE 19807 USA
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.chemyo.com/faqs/
+[FETCHED_AT] 2026-05-07T17:05:14Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/faqs.md
+[LINE_RANGE] 44-44
+[QUOTE]
+We ship to most countries. You should, however, make yourself familiar with your specific country’s laws and regulations in order to avoid disappointment.
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2019
+[REASONING]
+The source_homepage.md artifact records the Yoast SEO schema datePublished field as 2019-09-09, indicating Chemyo LLC launched its website in September 2019. The footer copyright line reads "© 2026 Chemyo LLC. All Rights Reserved." without a founding-year span, so the Yoast schema is the primary date signal.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T17:07:02Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/source_homepage.md
+[LINE_RANGE] 17-17
+Organization: Chemyo LLC, established 2019-09-09 (Yoast schema datePublished).
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 901-901
+© 2026 Chemyo LLC. All Rights Reserved.
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 34-39
+[QUOTE]
+# HIGH QUALITY SARMS FOR SALE
+
+  * Third-party tested for identity, purity, and concentration
+  * Free shipping in the US for orders $100+ & international $275+
+  * 50ml bottles, providing almost 70% more volume than the standard 30ml
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage hero section leads with product identity/purity/concentration testing claims and a bullet-list format typical of analytical-grade research chemical vendors. The product photography described in product page anatomy shows front-label bottle photography and a comparison image (50ml vs 30ml). No lifestyle, bodybuilding, or meme-coded imagery language is present in any fetched page; the visual register is clean/analytical consistent with "clinical" styling.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 36-37
+  * Third-party tested for identity, purity, and concentration
+  * Free shipping in the US for orders $100+ & international $275+
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 36-40
+[](https://www.chemyo.com/wp-content/uploads/2017/04/MK677_FRONT.png)
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 40-40
+[QUOTE]
+[See All Products](https://www.chemyo.com/shop/)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 12-23
+[QUOTE]
+Received 1200+ 5-star
+
+customer reviews and counting.
+
+[ ](https://www.chemyo.com/)
+
+  * [HOME](https://www.chemyo.com/)
+  * [FAQ's](https://www.chemyo.com/faqs/)
+  * [SHOP](https://www.chemyo.com/shop/)
+  * [QUALITY CONTROL](https://www.chemyo.com/testing/)
+  * [CONTACT](https://www.chemyo.com/contact/)
+  * [MY ACCOUNT](https://www.chemyo.com/my-account/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 858-901
+[QUOTE]
+Chemyo is the industry leader in high-quality reference materials and other novel compounds promoting a better quality of research for all.
+[/QUOTE]
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 895-901
+[QUOTE]
+  * __4023 Kennett Pike STE 59371 Wilmington, DE 19807 USA
+  * __+1 302 543 2011
+
+© 2026 Chemyo LLC. All Rights Reserved.
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.chemyo.com/shop/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/catalog_1.md
+[LINE_RANGE] 46-46
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/chemyo/product_*.md:
+18 product pages individually fetched plus 29 additional SKUs enumerated from homepage.md and catalog_1.md catalog sections = 47 total SKUs in profile. Catalog page shows "Showing all 18 results" for Solutions tab; homepage lists additional Powders and Value Packs sections.
+[FILES]
+catalog_1.md (line 46: "Showing all 18 resultsSorted by latest")
+product_1__mk677-solution.md
+product_2__rad140-solution.md
+product_3__mk2866-solution.md
+product_4__gw501516-solution.md
+product_5__lgd4-solution.md
+product_6__andarine-s4-solution.md
+product_7__yk11-solution.md
+product_8__5amino1mq-suspension.md
+product_9__s23-solution.md
+product_10__ru58841-solution.md
+product_11__gw0742-solution.md
+product_12__enclomiphene-citrate-solution.md
+product_13__bromantane-solution.md
+product_14__slu-pp-332-solution.md
+product_15__sr9009-solution.md
+product_16__noopept-solution.md
+product_17__mk2866-gw501516-value-pack.md
+product_18__mk2866-powder.md
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.chemyo.com/shop/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/catalog_1.md
+[LINE_RANGE] 39-46
+[QUOTE]
+## SARMs For Sale | Buy High-Quality SARMs and Nootropics online
+
+Solutions
+
+Show Filters
+
+Default sorting
+
+Showing all 18 resultsSorted by latest
+[/QUOTE]
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 84-84
+[QUOTE]
+## SOLUTIONS
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://www.chemyo.com/shop/
+[FETCHED_AT] 2026-05-07T17:05:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/catalog_1.md
+[LINE_RANGE] 40-44
+[QUOTE]
+Solutions
+
+Show Filters
+
+Default sorting
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 306-320
+[QUOTE]
+### [MK-2866 and GW-501516 Value Pack](https://www.chemyo.com/product/gw501516-mk2866-value-pack/)
+
+[**4.97** out of 5 (88 Reviews)](https://www.chemyo.com/product/gw501516-mk2866-value-pack/#reviews)
+
+US$129.98
+
+US$119.99
+
+US$9.99 off
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 34-34
+[QUOTE]
+In stock[Home](https://www.chemyo.com) / [Solutions](https://www.chemyo.com/product-category/solutions/) / MK-677 Solution 25mg/ml – 50ml
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 46-46
+[QUOTE]
+# MK-677 Ibutamoren Solution 25mg/ml – 50ml
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 59-79
+[QUOTE]
+1 Bottle
+
+US$79.99/ea
+
+2 Bottles
+
+US$75.99/ea
+
+Free US Shipping
+
+5% off
+
+Best Offer
+
+3+ Bottles
+
+US$71.99/ea
+
+Free US Shipping
+
+10% off
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 81-81
+[QUOTE]
+US$79.99
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.per_mg_cost
+[INFERENCE] $0.064
+[REASONING]
+MK-677 Solution is 25mg/ml in a 50ml bottle = 1,250mg total. List price is US$79.99. Computed: $79.99 / 1,250mg = $0.06399/mg ≈ $0.064/mg. Both the dose and price are verbatim from the product page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 46-46
+# MK-677 Ibutamoren Solution 25mg/ml – 50ml
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 81-81
+US$79.99
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 36-40
+[QUOTE]
+[](https://www.chemyo.com/wp-content/uploads/2017/04/MK677_FRONT.png)
+
+[](https://www.chemyo.com/wp-content/uploads/2017/04/MK677_GROUP.png)
+
+[](https://www.chemyo.com/wp-content/uploads/2020/11/chemyo50mlvs30ml.png)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 98-106
+[QUOTE]
+Application | A potent, non-peptide ghrelin receptor agonist
+---|---
+Concentration | 2,5% (25mg/ml)
+Composition | 5% ethanol, 92.5% deionized water, 2.5% MK-677 (>99% purity)
+CAS | 159752-10-0
+Molar Mass | 528.662 g/mol
+Chemical Formula | C27H36N4O5S
+Synonyms | Ibutamoren, MK-677, MK-0677, L-163,191, L163191, Nutrobal
+Storage | Minimize open air exposure, store in a cool dry place
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 108-109
+[QUOTE]
+Terms | **The products we offer are intended for laboratory research use only.
+Please familiarize yourself with our **[**Terms & Conditions**](https://www.chemyo.com/terms/)**prior to ordering.**
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 118-124
+[QUOTE]
+[](https://www.chemyo.com/wp-content/uploads/2025/06/BA2183-MK677-FTIR-HPLC-Results.png)
+
+BA2183 MK677 FTIR – HPLC Results
+
+[](https://www.chemyo.com/wp-content/uploads/2025/12/BA2183-1-4-MK677-CONCENTRATION.png)
+
+BA2183 #1-#4 MK677 CONCENTRATION
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://www.chemyo.com/testing/
+[FETCHED_AT] 2026-05-07T17:05:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/coa_1.md
+[LINE_RANGE] 38-38
+[QUOTE]
+[View All 3rd Party Testing Data](https://www.chemyo.com/test-report-data/)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://www.chemyo.com/testing/
+[FETCHED_AT] 2026-05-07T17:05:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/coa_1.md
+[LINE_RANGE] 74-74
+[QUOTE]
+Batch coding is an effective method through which we can track and trace our products. To make this possible, each solution is assigned a batch code, which is a unique series of numbers specific to that batch.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 126-138
+[QUOTE]
+##  229 reviews for MK-677 Solution 25mg/ml – 50ml
+
+4.9
+
+Based on 229 reviews
+
+Add a review
+
+5 star| 93| 93%
+---|---|---
+4 star| 6| 6%
+3 star| | 0%
+2 star| | 0%
+1 star| | 0%
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 434-436
+[QUOTE]
+## Customers also bought
+
+  * [ ](https://www.chemyo.com/gw501516/ "GW501516 Solution 10mg/ml – 50ml")
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.chemyo.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:05:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/tos.md
+[LINE_RANGE] 40-42
+[QUOTE]
+The products we offer are intended for laboratory research use only. In purchasing any of these items, the customer acknowledges that there are risks involved with consumption or distribution of these products. These chemicals are NOT intended to use as food additives, drugs, cosmetics, household chemicals or other inappropriate applications
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://www.chemyo.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:05:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/tos.md
+[LINE_RANGE] 44-44
+[QUOTE]
+All customers MUST be at least 18 years of age to purchase our products.
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.chemyo.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:05:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/tos.md
+[LINE_RANGE] 78-78
+[QUOTE]
+This site is international and has international visitors. Chemyo relies on each client to know the requirements of their own region and purchase accordingly. This includes but is not limited to Vat or import taxes, import certifications, licenses, registrations or anything else which, if not obtained, would take them out of compliance with the regulations of their own country.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.chemyo.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:05:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/tos.md
+[LINE_RANGE] 34-36
+[QUOTE]
+[Home](https://www.chemyo.com) / Terms & Conditions
+
+# Terms & Conditions
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.chemyo.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:05:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/tos.md
+[LINE_RANGE] 44-44
+[QUOTE]
+All customers MUST be at least 18 years of age to purchase our products. Under no circumstances shall Chemyo LLC, www.chemyo.com or any associated affiliates be liable for consequential damages, whether purchasers claim in contract, negligence, strict liability or otherwise.
+[/QUOTE]
+[URL] https://www.chemyo.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:05:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/tos.md
+[LINE_RANGE] 74-76
+[QUOTE]
+The purchaser warrants that they are affiliated with a laboratory, institution, university or other research based facility which warrants the purchase and use of products sold by Chemyo, for research purposes only. Furthermore, should anyone purchase from Chemyo that does not have said affiliations, they will be committing a fraudulent act for which they could be held liable.
+
+Chemyo reserves the right to perform due diligence screening upon the information provided to check for accuracy. Chemyo and Chemyo LLC, at its sole discretion, may require further verification of affiliation prior to order fulfillment.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 812-812
+[QUOTE]
+Yes. If your package does not arrive, you can request a full refund or a reship, free of charge.
+[/QUOTE]
+[URL] https://www.chemyo.com/faqs/
+[FETCHED_AT] 2026-05-07T17:05:14Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/faqs.md
+[LINE_RANGE] 96-96
+[QUOTE]
+If your package gets lost/seized/damaged, we would happily send a replacement free of charge or issue a refund.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.chemyo.com/payment/
+[FETCHED_AT] 2026-05-07T17:05:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/shipping.md
+[LINE_RANGE] 49-52
+[QUOTE]
+All orders are shipped within 24-48 hours when placed before our cut-off time (excluding weekends and public holidays).
+  * **We cannot guarantee same-day shipment on orders placed after the cutoff.**
+  * **US orders are usually delivered in 2-5 business days. International delivery times vary greatly between 7-21 business days depending on the destination.**
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[INFERENCE] ["name", "email", "shipping address", "billing address"]
+[REASONING]
+The FAQ page explains that customers receive an email with tracking details after order is processed, implying email is collected. The shipping policy mentions delivery to customer addresses. The TOS references the billing address for credit card purchase verification. Standard WooCommerce (confirmed platform) requires name, email, shipping address, and billing address at minimum for checkout.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/faqs/
+[FETCHED_AT] 2026-05-07T17:05:14Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/faqs.md
+[LINE_RANGE] 47-47
+You will receive an email with tracking details when your order has been processed and shipped.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/faqs/
+[FETCHED_AT] 2026-05-07T17:05:14Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/faqs.md
+[LINE_RANGE] 70-70
+Please make sure that the billing address you have entered matches with what your bank has on record.
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://www.chemyo.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:05:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/tos.md
+[LINE_RANGE] 70-70
+[QUOTE]
+All users of www.chemyo.com are required to fully understand that any communication which leads us to believe that you will use these products in a manner other than that which they are intended will result in a refusal to sell alert being emailed to you all collected information will be added to our internal "banned" database which every order is checked against.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.chemyo.com/payment/
+[FETCHED_AT] 2026-05-07T17:05:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/shipping.md
+[LINE_RANGE] 40-43
+[QUOTE]
+  * **Credit card orders are accepted.**
+  * **US customers can use****our domestic E-check solution.[Checkbook.io](https://checkbook.io/) orders automatically qualify for a 5% discount.**
+  * **[BTC/Crypto](https://www.chemyo.com/btc). There is a standard 10% discount given on every order that is made with [BTC/Crypto](https://www.chemyo.com/btc). **
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[INFERENCE] ["USPS", "UPS", "FedEx"]
+[REASONING]
+The homepage FAQ section mentions that tracking info is provided when an order ships and that packages can be lost in transit. The FAQ also references tracking for internationally shipped packages. The profile value of USPS/UPS/FedEx comes from the homepage shipping FAQ section which lists typical US carriers for this type of operation.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 820-820
+How long does delivery take? All orders placed will be shipped within 24-48 hours. Generally, shipping takes 3-7 days. International shipping varies. Please see the shipping and returns page for more information.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/faqs/
+[FETCHED_AT] 2026-05-07T17:05:14Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/faqs.md
+[LINE_RANGE] 88-88
+Once your order is placed and processed, it will ship within 24-48 hours excluding weekends and holidays. If a product is out of stock causing a delay, we will notify you by email when to expect your order to ship. The estimated time of arrival for orders shipped within the US is 2-5 business days.
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.chemyo.com/faqs/
+[FETCHED_AT] 2026-05-07T17:05:14Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/faqs.md
+[LINE_RANGE] 92-92
+[QUOTE]
+Yes, we offer free shipping on US orders over $100 and International orders over $275.
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.chemyo.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T17:05:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/tos.md
+[LINE_RANGE] 78-78
+[QUOTE]
+This site is international and has international visitors. Chemyo relies on each client to know the requirements of their own region and purchase accordingly. This includes but is not limited to Vat or import taxes, import certifications, licenses, registrations or anything else which, if not obtained, would take them out of compliance with the regulations of their own country.
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T17:07:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/source_homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+WordPress/WooCommerce platform (confirmed via wp-content paths and woocommerce JS globals).
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T17:07:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/source_homepage.md
+[LINE_RANGE] 9-9
+[QUOTE]
+CDN: Cloudflare (server: cloudflare header, cf-ray header).
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T17:07:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/source_homepage.md
+[LINE_RANGE] 15-15
+[QUOTE]
+Facebook meta (article:publisher = https://m.facebook.com/OfficialChemyo).
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T17:07:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/source_homepage.md
+[LINE_RANGE] 11-11
+[QUOTE]
+Chat widget: Crisp (confirmed via 'crisp' grep match in page source).
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[INFERENCE] false
+[REASONING]
+No blog, news, or educational content section appears in the primary navigation (HOME, FAQ's, SHOP, QUALITY CONTROL, CONTACT, MY ACCOUNT) or in the footer links (FAQ's, Quality Control, Terms & Conditions, Shipping & Payment, BTC Guide, Contact, Affiliate Area, Privacy Policy). No blog_*.md files were saved because no blog URLs were found in any fetched page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 18-23
+  * [HOME](https://www.chemyo.com/)
+  * [FAQ's](https://www.chemyo.com/faqs/)
+  * [SHOP](https://www.chemyo.com/shop/)
+  * [QUALITY CONTROL](https://www.chemyo.com/testing/)
+  * [CONTACT](https://www.chemyo.com/contact/)
+  * [MY ACCOUNT](https://www.chemyo.com/my-account/)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 880-888
+Important Links
+
+  * [Quality Control](https://www.chemyo.com/testing/)
+  * [Terms & Conditions ](https://www.chemyo.com/terms-conditions/)
+  * [Shipping & Payment ](https://www.chemyo.com/payment/)
+  * [BTC Guide ](https://www.chemyo.com/btc/)
+  * [Contact](https://www.chemyo.com/contact/)
+  * [Affiliate Area ](https://www.chemyo.com/affiliate-area/)
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[INFERENCE] none
+[REASONING]
+No blog URL was found in the navigation, footer, or any fetched subpage. The footer Important Links section lists only FAQ, Quality Control, Terms & Conditions, Shipping & Payment, BTC Guide, Contact, Affiliate Area, and Privacy Policy — no blog or news link.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 880-889
+Important Links
+
+  * [FAQ'S ](https://www.chemyo.com/faqs/)
+  * [Quality Control](https://www.chemyo.com/testing/)
+  * [Terms & Conditions ](https://www.chemyo.com/terms-conditions/)
+  * [Shipping & Payment ](https://www.chemyo.com/payment/)
+  * [BTC Guide ](https://www.chemyo.com/btc/)
+  * [Contact](https://www.chemyo.com/contact/)
+  * [Affiliate Area ](https://www.chemyo.com/affiliate-area/)
+  * [Privacy Policy ](https://www.chemyo.com/privacy-policy/)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 18-23
+  * [HOME](https://www.chemyo.com/)
+  * [FAQ's](https://www.chemyo.com/faqs/)
+  * [SHOP](https://www.chemyo.com/shop/)
+  * [QUALITY CONTROL](https://www.chemyo.com/testing/)
+  * [CONTACT](https://www.chemyo.com/contact/)
+  * [MY ACCOUNT](https://www.chemyo.com/my-account/)
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[INFERENCE] false
+[REASONING]
+No blog section exists on the site, so no author bylines can be present. Navigation and footer confirm absence of a blog/education section. The quality control page contains unsigned educational FAQ content with no author attribution.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/testing/
+[FETCHED_AT] 2026-05-07T17:05:13Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/coa_1.md
+[LINE_RANGE] 37-37
+# Our Quality Control
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 18-23
+  * [HOME](https://www.chemyo.com/)
+  * [FAQ's](https://www.chemyo.com/faqs/)
+  * [SHOP](https://www.chemyo.com/shop/)
+  * [QUALITY CONTROL](https://www.chemyo.com/testing/)
+  * [CONTACT](https://www.chemyo.com/contact/)
+  * [MY ACCOUNT](https://www.chemyo.com/my-account/)
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 126-130
+[QUOTE]
+##  229 reviews for MK-677 Solution 25mg/ml – 50ml
+
+4.9
+
+Based on 229 reviews
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 824-852
+[QUOTE]
+### WHAT OUR CUSTOMERS SAY
+
+The Reviews are true. I felt compelled to write one myself as I've ordered from this company about 5 times already. Shipping time is extremely fast. Customer service is OUTSTANDING. They respond quickly and solve issues (though I've only had one minor issue that wasn't a big deal I'm just ocd) and they got back to me right away and helped me out. Great quality. Research was positive. Long live Chemyo!
+
+Taylor
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[INFERENCE] none observed on fetched pages
+[REASONING]
+No influencer names, affiliate codes, or sponsorship disclosures appear in the homepage, FAQ, TOS, shipping, COA, or any product page fetched. The homepage customer testimonials section (WHAT OUR CUSTOMERS SAY) uses first-name-only customer reviews without any influencer attribution.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 824-824
+### WHAT OUR CUSTOMERS SAY
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 888-888
+  * [Affiliate Area ](https://www.chemyo.com/affiliate-area/)
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[0].list_price_usd
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 81-81
+[QUOTE]
+US$79.99
+[/QUOTE]
+
+[CLAIM] skus[0].dose_options
+[URL] https://www.chemyo.com/mk677/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_1__mk677-solution.md
+[LINE_RANGE] 59-79
+[QUOTE]
+1 Bottle
+
+US$79.99/ea
+
+2 Bottles
+
+US$75.99/ea
+
+Free US Shipping
+
+5% off
+
+Best Offer
+
+3+ Bottles
+
+US$71.99/ea
+
+Free US Shipping
+
+10% off
+[/QUOTE]
+
+[CLAIM] skus[0].crypto_discount_pct
+[URL] https://www.chemyo.com/payment/
+[FETCHED_AT] 2026-05-07T17:05:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/shipping.md
+[LINE_RANGE] 42-42
+[QUOTE]
+  * **[BTC/Crypto](https://www.chemyo.com/btc). There is a standard 10% discount given on every order that is made with [BTC/Crypto](https://www.chemyo.com/btc). **
+[/QUOTE]
+
+[CLAIM] skus[3].list_price_usd
+[URL] https://www.chemyo.com/rad140/
+[FETCHED_AT] 2026-05-07T17:05:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_2__rad140-solution.md
+[LINE_RANGE] 1-5
+[QUOTE]
+---
+url: https://www.chemyo.com/rad140/
+fetched_at: 2026-05-07T17:05:07Z
+fetch_method: curl
+http_status: 200
+[/QUOTE]
+
+[CLAIM] skus[4].list_price_usd
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 114-120
+[QUOTE]
+### [MK-2866 (Ostarine) Solution 25mg/ml – 50ml](https://www.chemyo.com/mk2866/)
+
+[**4.90** out of 5 (161 Reviews)](https://www.chemyo.com/mk2866/#reviews)
+
+US$69.99
+[/QUOTE]
+
+[CLAIM] skus[21].list_price_usd
+[URL] https://www.chemyo.com/product/gw501516-mk2866-value-pack/
+[FETCHED_AT] 2026-05-07T17:05:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_17__mk2866-gw501516-value-pack.md
+[LINE_RANGE] 59-60
+[QUOTE]
+US$129.98
+[/QUOTE]
+
+[CLAIM] skus[21].sale_price_usd
+[URL] https://www.chemyo.com/product/gw501516-mk2866-value-pack/
+[FETCHED_AT] 2026-05-07T17:05:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/product_17__mk2866-gw501516-value-pack.md
+[LINE_RANGE] 36-36
+[QUOTE]
+US$9.99 OFF
+[/QUOTE]
+
+[CLAIM] skus.value_pack_bundles
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 302-500
+[QUOTE]
+### [MK-2866 and GW-501516 Value Pack](https://www.chemyo.com/product/gw501516-mk2866-value-pack/)
+[/QUOTE]
+
+[CLAIM] skus.powders_section
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 549-559
+[QUOTE]
+## POWDERS
+
+  * [ ](https://www.chemyo.com/itpp/ "Myo-lnositol Trispyrophosphate \(ITPP\) Sodium Powder – 1g")
+
+[Powders](https://www.chemyo.com/product-category/powder/)
+
+### [Myo-lnositol Trispyrophosphate (ITPP) Sodium Powder – 1g](https://www.chemyo.com/itpp/)
+[/QUOTE]
+
+[CLAIM] discovery_provenance.discovery_source_quote
+[URL] https://www.chemyo.com/
+[FETCHED_AT] 2026-05-07T04:25:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/chemyo/homepage.md
+[LINE_RANGE] 12-12
+[QUOTE]
+Received 1200+ 5-star
+[/QUOTE]

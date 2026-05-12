@@ -1,0 +1,246 @@
+{
+  "vendor_slug": "qing-li-peptide",
+  "brand_name": "Qing Li Peptide",
+  "primary_domain": "https://qinglipeptide.com",
+
+  "fetched_url": "https://qinglishangmao.com/",
+  "fetched_at": "2026-05-08T07:04:58Z",
+  "fetch_status": "ok",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed)",
+  "field_completion_ratio": 0.78,
+
+  "country_of_operation": "China (Hong Kong dispatch)",
+  "fulfillment_country": "Hong Kong",
+  "ship_to_scope": "us_intl",
+  "year_established": "2012",
+
+  "homepage": {
+    "hero_copy_excerpt": "Qingli Peptide: 7 years of trusted peptide manufacturing and fast global delivery.",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Quote Now",
+    "navigation_pattern": "Home | Products (Peptide / Peptide raw materials / peptides for sale / COA) | About Us | Blog | Contact",
+    "footer_disclaimers": "© 2012 - 2026 | Qinglishangmao | All Rights Reserved"
+  },
+
+  "catalog": {
+    "sku_count": 12,
+    "category_taxonomy": ["Peptide", "Peptide raw materials", "peptides for sale", "COA"],
+    "search_filter_capabilities": "Basic keyword search only; category filter tabs",
+    "stack_bundle_pages_present": "false"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "https://qinglishangmao.com/product/bpc157/",
+    "sample_product_name": "BPC157",
+    "dose_options": ["10mg (1box/10vial)"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "Product vial photos with COA document images",
+    "description_copy_excerpt": "BPC-157 is a synthetic research peptide known for its potential in promoting cellular regeneration and physical recovery. It is widely used in performance-related research.",
+    "exact_disclaimer_language": "For laboratory research use only. Not for human consumption.",
+    "coa_present": "true",
+    "coa_hosting": "on_site",
+    "lab_partner_named": "Janoshik Analytical",
+    "batch_lot_transparency": "true",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "true"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "Peptides in powder form can still be sold, however, they must be marked “Research Use Only,” for legal and liability reasons.",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "none",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "30-day returns accepted on unopened, unused items; refund to original payment method (PayPal); return shipping is customer responsibility unless product defect",
+    "shipping_policy": "Standard peptides shipped within 3 days of payment; estimated delivery 7-25 days; ships via DHL, FedEx, EMS; parcels concentrated in Hong Kong"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "false",
+    "payment_methods_accepted": ["Bitcoin", "USDT", "USDC", "PayPal", "Bank Transfer (T/T)", "Alibaba", "Wise"],
+    "shipping_carriers": ["DHL", "FedEx", "EMS"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "Ships to over 35 countries and regions worldwide; full order tracking provided"
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "hcdn",
+    "analytics_tools_loaded": ["Google Analytics (GT-WRGJ4C6H)", "Site Kit by Google 1.150.0"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://qinglishangmao.com/blog/",
+    "content_cadence": "Low; approximately 6-7 posts observed, earliest 2025-04-06",
+    "topic_taxonomy": ["BPC-157 supplier profiles", "TB-500 supplier profiles", "Beauty peptide supply", "Peptide purity explainers", "TikTok impersonation warning"],
+    "author_bylines_present": "false",
+    "internal_linking_to_products": "Moderate; blog posts link back to product category pages"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": ["uncertain"],
+    "testimonial_usage": "none observed",
+    "visible_influencer_endorsements": "none"
+  },
+
+  "skus": [
+    {
+      "sku_id": "qing-li-peptide:bpc157-10mg",
+      "name": "BPC157",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "acetate",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "empty",
+      "bottle_size": "1box/10vial",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "true",
+      "url": "https://qinglishangmao.com/product/bpc157/",
+      "raw_artifact": "03_raw_fetches/qing-li-peptide/product_1__bpc157.md",
+      "evidence_entry_id": "claim-5"
+    },
+    {
+      "sku_id": "qing-li-peptide:tirz-10mg",
+      "name": "Tirz",
+      "peptide_canonical": "Tirzepatide",
+      "peptide_variant": "empty",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "empty",
+      "bottle_size": "1box/10vial",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "true",
+      "url": "https://qinglishangmao.com/product/tirz/",
+      "raw_artifact": "03_raw_fetches/qing-li-peptide/product_1__tirz.md",
+      "evidence_entry_id": "claim-6"
+    },
+    {
+      "sku_id": "qing-li-peptide:reta-10mg",
+      "name": "Reta",
+      "peptide_canonical": "Retatrutide",
+      "peptide_variant": "empty",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "empty",
+      "bottle_size": "10mg/vial",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "true",
+      "url": "https://qinglishangmao.com/product/reta/",
+      "raw_artifact": "03_raw_fetches/qing-li-peptide/product_1__reta.md",
+      "evidence_entry_id": "claim-7"
+    },
+    {
+      "sku_id": "qing-li-peptide:bpc157tb500-blend-10mg",
+      "name": "BPC157+TB500",
+      "peptide_canonical": "other",
+      "peptide_variant": "empty",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "empty",
+      "bottle_size": "10mg each vial (BPC-157 & TB500)",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "true",
+      "url": "https://qinglishangmao.com/product/bpc157tb500/",
+      "raw_artifact": "03_raw_fetches/qing-li-peptide/product_1__bpc157tb500.md",
+      "evidence_entry_id": "claim-8"
+    },
+    {
+      "sku_id": "qing-li-peptide:aod9604-10vial",
+      "name": "AOD9604",
+      "peptide_canonical": "other",
+      "peptide_variant": "empty",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "empty",
+      "bottle_size": "1box/10via",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "true",
+      "url": "https://qinglishangmao.com/product/aod9604/",
+      "raw_artifact": "03_raw_fetches/qing-li-peptide/product_1__aod9604.md",
+      "evidence_entry_id": "claim-9"
+    },
+    {
+      "sku_id": "qing-li-peptide:epithalon-10mg",
+      "name": "Epithalon",
+      "peptide_canonical": "other",
+      "peptide_variant": "empty",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "empty",
+      "bottle_size": "10mg/vial",
+      "list_price_usd": null,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": null,
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "true",
+      "url": "https://qinglishangmao.com/product/epithalon/",
+      "raw_artifact": "03_raw_fetches/qing-li-peptide/product_1__epithalon.md",
+      "evidence_entry_id": "claim-10"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "row from operator-supplied vendor list, classified as Tier 3: Chinese B2B API supplier."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/qing-li-peptide/",
+  "evidence_file": "evidence/qing-li-peptide.txt",
+  "uncertainty_notes": "list_price and per_mg_cost: no public pricing displayed on any product page; all products show 'This product is currently out of stock and unavailable'; pricing is B2B quote-based via contact form. tos_url: no Terms of Service or Terms and Conditions page found (404 for all standard TOS slug variants); only refund policy and privacy policy pages exist. tos_highlights: unavailable, no TOS page. account_required and guest_checkout_available: all products out-of-stock; no add-to-cart flow was reachable; WooCommerce platform observed but cart empty. fields_collected: cannot verify without active checkout. shipping_cost_structure: no published shipping rate table found. marketing_pixels_present: source HTML shows Google Analytics only; no Meta/TikTok/Pinterest pixel code found in visible source. off_site_aggregators: no Trustpilot or similar aggregator link on site; no off-site aggregator pages fetched."
+}

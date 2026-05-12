@@ -1,0 +1,419 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://peppyandme.com/
+[FETCHED_AT] 2026-05-08T05:55:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/homepage.md
+[LINE_RANGE] 40-43
+[QUOTE]
+"Premium research peptides
+Peppy&Me offers a more elevated way to shop research peptides."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://peppyandme.com/
+[FETCHED_AT] 2026-05-08T05:55:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/homepage.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"[Shop Peptides](https://peppyandme.com/shop/) [View COA](https://peppyandme.com/coa/) [Dose Calculator](https://peppyandme.com/peptide-calculator/) [Peptide Glossary](https://pedia.peppyandme.com/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://peppyandme.com/
+[FETCHED_AT] 2026-05-08T05:55:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/homepage.md
+[LINE_RANGE] 19-26
+[QUOTE]
+"[Shop All](https://peppyandme.com/shop/)
+[Compounds](https://peppyandme.com/product-category/compounds/) [Accessories](https://peppyandme.com/product-category/accessories/)
+[Affiliate](https://peppyandme.goaffpro.com/) [Peptide Calculator](https://peppyandme.com/peptide-calculator/) [COA](https://peppyandme.com/coa/) [Partnership](https://peppyandme.com/partnership/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://peppyandme.com/
+[FETCHED_AT] 2026-05-08T05:55:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/homepage.md
+[LINE_RANGE] 357-357
+[QUOTE]
+"© 2026 PeppyAndMe Research Supplies. All rights reserved. VISA PayPal AMEX Discover Scroll to Top"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://peppyandme.com/
+[FETCHED_AT] 2026-05-08T05:55:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/homepage.md
+[LINE_RANGE] 46-48
+[QUOTE]
+"3-Panel Testing
+Verified by third-party quality testing around purity, sterility, and endotoxin-free standards."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://peppyandme.com/faqs/
+[FETCHED_AT] 2026-05-08T05:59:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/faqs.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"We ship from the USA. Orders are processed promptly, and tracking information will be provided once your order has been dispatched."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://peppyandme.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T05:57:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/tos.md
+[LINE_RANGE] 71-71
+[QUOTE]
+"We ship within the United States. Shipping times vary based on location and selected shipping method. Risk of loss transfers to you upon delivery to the carrier."
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://peppyandme.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T05:57:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/tos.md
+[LINE_RANGE] 40-40
+[QUOTE]
+"Last updated: February 2026"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://peppyandme.com/shop/
+[FETCHED_AT] 2026-05-08T05:58:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/catalog_1.md
+[LINE_RANGE] 1-229
+[QUOTE]
+[ENUMERATION] Counted from catalog_1.md and catalog_2.md pages; catalog pagination shows pages 1 and 2 only (page 3 returned HTTP 404). Products visible on page 1: 5-Amino-1MQ, AOD9604, Bacteriostatic Water, BPC-157, Cagrilintide, CJC-1295 with DAC, DSIP, Epitalon, GHK-Cu, GLOW, Glutathione, Ipamorelin, KLOW, KPV, Lemon Bottle, Melanotan II, MIC (Lipo-C+B12), MOTS-C, NAD+, Oxytocin (20 products). Products on page 2: Precision Seal Vial Caps, PT-141, RT-3, Selank, Semax, Sermorelin, SM-1, TB-500, Tesa, TZ-2, Vial Access Tool Kit (11 products including 2 accessories). Total: 31 listings; approximately 29 peptide/compound SKUs and 2 accessory sets.
+[FILES]
+catalog_1.md
+catalog_2.md
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://peppyandme.com/shop/
+[FETCHED_AT] 2026-05-08T05:58:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/catalog_1.md
+[LINE_RANGE] 20-20
+[QUOTE]
+"[Compounds](https://peppyandme.com/product-category/compounds/) [Accessories](https://peppyandme.com/product-category/accessories/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://peppyandme.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/product_1__bpc-157.md
+[LINE_RANGE] 48-51
+[QUOTE]
+"$35.00 – $45.00Price range: $35.00 through $45.00
+A pentadecapeptide powerhouse buzzing in research circles for its molecular versatility—perfect for tissue synthesis and cellular regeneration studies.
+Strength|  Choose an option2mg5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://peppyandme.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/product_1__bpc-157.md
+[LINE_RANGE] 120-120
+[QUOTE]
+"**FOR RESEARCH USE ONLY.** This product is sold strictly for in-vitro laboratory research, educational purposes, and scientific investigation. It is NOT intended for human or veterinary use. By purchasing this product, the buyer confirms they are a qualified researcher and assumes full responsibility for ensuring compliance with all applicable regulations."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://peppyandme.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/product_1__bpc-157.md
+[LINE_RANGE] 73-75
+[QUOTE]
+"**COA-Backed Products** Every qualifying product is backed by batch-level documentation.
+[ View COA Vault → ](https://peppyandme.com/coa/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://peppyandme.com/coa/
+[FETCHED_AT] 2026-05-08T05:58:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/coa_1.md
+[LINE_RANGE] 40-43
+[QUOTE]
+"## Certificate Lookup
+Enter your product batch code to view the matching certificate of analysis.
+Search COA"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://peppyandme.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/product_1__bpc-157.md
+[LINE_RANGE] 50-50
+[QUOTE]
+"A pentadecapeptide powerhouse buzzing in research circles for its molecular versatility—perfect for tissue synthesis and cellular regeneration studies."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://peppyandme.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/product_1__bpc-157.md
+[LINE_RANGE] 136-138
+[QUOTE]
+"There are no reviews yet.
+Only logged in customers who have purchased this product may leave a review."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://peppyandme.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/product_1__bpc-157.md
+[LINE_RANGE] 140-158
+[QUOTE]
+"## Related products
+  * Sale! [](https://peppyandme.com/product/oxytocin-5mg-10mg/)
+## [Oxytocin](https://peppyandme.com/product/oxytocin-5mg-10mg/) $35.00 – $48.00"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://peppyandme.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T05:57:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/tos.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"All products sold by PeppyAndMe are intended for laboratory research use only. They are not intended for human or veterinary use, consumption, or any therapeutic applications. By placing an order, you confirm that you are a qualified researcher and will use these products only for legitimate scientific research purposes."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://peppyandme.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T05:57:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/tos.md
+[LINE_RANGE] 48-48
+[QUOTE]
+"You must be at least 18 years of age and affiliated with a legitimate research institution, academic organization, or licensed laboratory to purchase from PeppyAndMe. We reserve the right to request verification of your research credentials at any time."
+[/QUOTE]
+
+[URL] https://peppyandme.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T05:57:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/tos.md
+[LINE_RANGE] 67-67
+[QUOTE]
+"All prices are listed in USD and are subject to change without notice. A 3% service fee is applied to all orders at checkout. Payment must be completed before order processing begins."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://peppyandme.com/refund-policy/
+[FETCHED_AT] 2026-05-08T05:57:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/refund.md
+[LINE_RANGE] 42-42
+[QUOTE]
+"At Peppy&Me, we believe confidence matters. That is why we offer a **30-Day Guaranteed Refund** on eligible orders that are returned **unused, unopened, and in their original condition**."
+[/QUOTE]
+
+[URL] https://peppyandme.com/refund-policy/
+[FETCHED_AT] 2026-05-08T05:57:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/refund.md
+[LINE_RANGE] 48-48
+[QUOTE]
+"Customers may request a refund within **30 calendar days** from the date the order is marked delivered."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://peppyandme.com/faqs/
+[FETCHED_AT] 2026-05-08T05:59:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/faqs.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"We ship from the USA. Orders are processed promptly, and tracking information will be provided once your order has been dispatched."
+[/QUOTE]
+
+[URL] https://peppyandme.com/
+[FETCHED_AT] 2026-05-08T05:55:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/homepage.md
+[LINE_RANGE] 11-11
+[QUOTE]
+"USA Same-Day Dispatch Free Shipping on Orders $200+ Secure Checkout >99% Pure • Sterile • Endotoxin-Free Third Party Lab Tested"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://peppyandme.com/
+[FETCHED_AT] 2026-05-08T05:55:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/homepage.md
+[LINE_RANGE] 357-357
+[QUOTE]
+"© 2026 PeppyAndMe Research Supplies. All rights reserved. VISA PayPal AMEX Discover Scroll to Top"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://peppyandme.com/
+[FETCHED_AT] 2026-05-08T05:55:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/homepage.md
+[LINE_RANGE] 11-11
+[QUOTE]
+"USA Same-Day Dispatch Free Shipping on Orders $200+ Secure Checkout >99% Pure • Sterile • Endotoxin-Free Third Party Lab Tested"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://peppyandme.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T05:57:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/tos.md
+[LINE_RANGE] 71-71
+[QUOTE]
+"We ship within the United States. Shipping times vary based on location and selected shipping method. Risk of loss transfers to you upon delivery to the carrier."
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://peppyandme.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T05:57:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/tos.md
+[LINE_RANGE] 48-48
+[QUOTE]
+"You must be at least 18 years of age and affiliated with a legitimate research institution, academic organization, or licensed laboratory to purchase from PeppyAndMe. We reserve the right to request verification of your research credentials at any time."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://peppyandme.com/
+[FETCHED_AT] 2026-05-08T05:55:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/source_homepage.md
+[LINE_RANGE] 24-24
+[QUOTE]
+"WOOCOMMERCE"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://peppyandme.com/
+[FETCHED_AT] 2026-05-08T05:58:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/source_homepage.md
+[LINE_RANGE] 7-8
+[QUOTE]
+"server: Apache
+x-powered-by: PHP/8.3.30"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://peppyandme.com/blogs/
+[FETCHED_AT] 2026-05-08T06:00:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/blog_1.md
+[LINE_RANGE] 42-42
+[QUOTE]
+"Your easy-to-read space for peptide education, research trends, lab-quality tips, and modern biohacking insights — no boring textbook energy here."
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://peppyandme.com/blogs/
+[FETCHED_AT] 2026-05-08T06:00:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/blog_1.md
+[LINE_RANGE] 50-110
+[QUOTE]
+"Discover why membership based portals are revolutionizing peptide access for researchers, streamlining procurement and enhancing compliance.
+Discover the role of research compliance portals in enhancing peptide studies.
+Discover recommended lab practices for safe and effective peptide research.
+Discover the benefits of glutathione 1500mg in our comprehensive guide."
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://peppyandme.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/product_1__bpc-157.md
+[LINE_RANGE] 136-138
+[QUOTE]
+"There are no reviews yet.
+Only logged in customers who have purchased this product may leave a review."
+[/QUOTE]
+
+[CLAIM] skus[peppy-me:bpc-157].list_price_usd
+[URL] https://peppyandme.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T05:57:36Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/product_1__bpc-157.md
+[LINE_RANGE] 48-48
+[QUOTE]
+"$35.00 – $45.00Price range: $35.00 through $45.00"
+[/QUOTE]
+
+[CLAIM] skus[peppy-me:tb-500].list_price_usd
+[URL] https://peppyandme.com/product/tb-500/
+[FETCHED_AT] 2026-05-08T05:59:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/product_2__tb-500.md
+[LINE_RANGE] 43-43
+[QUOTE]
+"$55.00 – $75.00Price range: $55.00 through $75.00"
+[/QUOTE]
+
+[CLAIM] skus[peppy-me:ghk-cu].list_price_usd
+[URL] https://peppyandme.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T05:59:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/product_3__ghk-cu.md
+[LINE_RANGE] 43-43
+[QUOTE]
+"$20.00 – $30.00Price range: $20.00 through $30.00"
+[/QUOTE]
+
+[CLAIM] skus catalog page 1 prices
+[URL] https://peppyandme.com/shop/
+[FETCHED_AT] 2026-05-08T05:58:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/catalog_1.md
+[LINE_RANGE] 59-137
+[QUOTE]
+"## [5-Amino-1MQ](https://peppyandme.com/product/5-amino-1mq-research-compound/) $35.00 [Select options]
+## [AOD9604](https://peppyandme.com/product/aod9604-peptide-for-laboratory-research/) ~~$ 185.00~~ Original price was: $185.00.$90.00Current price is: $90.00.
+## [BPC-157](https://peppyandme.com/product/bpc-157/) $35.00 – $45.00Price range: $35.00 through $45.00
+## [Cagrilintide](https://peppyandme.com/product/cagrilintide/) ~~$ 155.00~~ Original price was: $155.00.$70.00Current price is: $70.00.
+## [CJC-1295 with DAC](https://peppyandme.com/product/cjc-1295-with-dac/) ~~$ 110.00~~ Original price was: $110.00.$40.00Current price is: $40.00.
+## [DSIP](https://peppyandme.com/product/dsip-5mg-10mg/) $30.00 – $45.00
+## [Epitalon](https://peppyandme.com/product/epitalon-research-peptide/) $30.00
+## [GHK-Cu](https://peppyandme.com/product/ghk-cu/) $20.00 – $30.00
+## [GLOW](https://peppyandme.com/product/glow/) ~~$ 180.00~~ Original price was: $180.00.$98.00Current price is: $98.00.
+## [Glutathione](https://peppyandme.com/product/glutathione-1500mg/) ~~$ 180.00~~ Original price was: $180.00.$55.00Current price is: $55.00.
+## [Ipamorelin](https://peppyandme.com/product/ipamorelin/) $30.00 – $40.00
+## [KLOW](https://peppyandme.com/product/klow/) ~~$ 190.00~~ Original price was: $190.00.$90.00Current price is: $90.00.
+## [KPV](https://peppyandme.com/product/kpv-peptide-for-laboratory/) $25.00 – $35.00
+## [MOTS-C](https://peppyandme.com/product/mots-c/) ~~$ 65.00~~ Original price was: $65.00.$35.00Current price is: $35.00.
+## [NAD+](https://peppyandme.com/product/nad/) $30.00 – $85.00
+## [Oxytocin](https://peppyandme.com/product/oxytocin-5mg-10mg/) $35.00 – $48.00"
+[/QUOTE]
+
+[CLAIM] skus catalog page 2 prices
+[URL] https://peppyandme.com/shop/page/2/
+[FETCHED_AT] 2026-05-08T05:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peppy-me/catalog_2.md
+[LINE_RANGE] 59-99
+[QUOTE]
+"## [PT-141](https://peppyandme.com/product/pt-141/) ~~$ 60.00~~ Original price was: $60.00.$30.00Current price is: $30.00.
+## [RT-3](https://peppyandme.com/product/rt_3/) $40.00 – $120.00
+## [Selank](https://peppyandme.com/product/selank-5mg-10mg-peptides/) $25.00 – $35.00
+## [Semax](https://peppyandme.com/product/semax-10mg-peptide-for-laboratory-research/) $25.00 – $35.00
+## [Sermorelin](https://peppyandme.com/product/sermorelin-research-peptide/) $50.00
+## [SM-1](https://peppyandme.com/product/sm_1/) $35.00 – $75.00
+## [TB-500](https://peppyandme.com/product/tb-500/) $55.00 – $75.00
+## [Tesa](https://peppyandme.com/product/tesa/) ~~$ 165.00~~ Original price was: $165.00.$50.00Current price is: $50.00.
+## [TZ-2](https://peppyandme.com/product/tz_2/) $35.00 – $80.00"
+[/QUOTE]

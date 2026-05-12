@@ -1,0 +1,462 @@
+[CLAIM] primary_domain
+[URL] https://www.aminoclub.com/
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/homepage.md
+[LINE_RANGE] 16-16
+[QUOTE]
+"Amino Club - Research Peptides | Buy Research Peptides | 99%+ Identity Purity"
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.aminoclub.com/
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/homepage.md
+[LINE_RANGE] 20-22
+[QUOTE]
+"# Research Peptides You Can Trust
+
+Research-grade peptides with Certificate of Analysis on every batch. 99%+ identity purity, third-party tested."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.aminoclub.com/
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/homepage.md
+[LINE_RANGE] 24-24
+[QUOTE]
+"[Browse Catalog](/us/store)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.aminoclub.com/
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/homepage.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"[Products](/us/store)[Research](/us/research)[Partner Program](/us/affiliate)[Contact us](/us/contact)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.aminoclub.com/
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/homepage.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"© 2026 Amino Club. All rights reserved."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://www.aminoclub.com/
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/homepage.md
+[LINE_RANGE] 71-88
+[QUOTE]
+"## The Amino Club Guarantee
+
+Documented quality for research and laboratory use. Every batch meets our internal purity standards.
+
+### 99% Purity Guaranteed
+
+Every batch verified
+
+### Shipment Protection?
+
+Every order includes free shipment protection. If your package is lost, damaged, or stolen in transit, we'll reship it at no cost to you.
+
+Every order fully covered
+
+### CoA with Every Batch?
+
+An authenticated lab document verifying each batch's purity, identity, and potency through HPLC testing and mass spectrometry.
+
+Third Party tested in America"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.aminoclub.com/
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/homepage.md
+[LINE_RANGE] 101-101
+[QUOTE]
+"U.S.-based provider with in-house manufacturing. Every batch undergoes rigorous third-party identity and content testing with full documentation."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.aminoclub.com/us/terms
+[FETCHED_AT] 2026-05-07T19:38:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/tos.md
+[LINE_RANGE] 175-175
+[QUOTE]
+"241 Molnar Dr Suite 202, Elmwood Park, NJ 07407, US"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.aminoclub.com/us/shipping
+[FETCHED_AT] 2026-05-07T19:38:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/shipping.md
+[LINE_RANGE] 109-113
+[QUOTE]
+"We currently ship to all 50 US states, including Alaska and Hawaii. PO Boxes and APO/FPO addresses are also supported for standard shipping options.
+
+  * **Continental US:** Full service
+  * **Alaska & Hawaii:** Extended transit times
+  * **International:** Coming soon"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.aminoclub.com/us/store
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/catalog_1.md
+[LINE_RANGE] 76-348
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/amino-club/catalog_1.md: 28 product listings visible (GLP-3 (RT), BPC-157, GHK-Cu, Tesamorlin, GLOW, KLOW, CJC-1295/Ipamorelin No DAC, BPC-157/TB-500 Wolverine, KPV, TB-500, MOTS-C, NAD+, Glutathione, DSIP, SELANK, SEMAX, Melanotan II, Melanotan I, PT-141, AOD-9604, Cagrilintide, Ipamorelin, IGF-1 LR3, Epithalon, 5-Amino-1MQ, Thymosin Alpha-1, SNAP-8, Amino H2O).
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.aminoclub.com/us/store
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/catalog_1.md
+[LINE_RANGE] 72-72
+[QUOTE]
+"Tissue Repair ResearchDermal ResearchMetabolic ResearchSecretagogue ResearchCellular ResearchNeuro ResearchCircadian Research"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://www.aminoclub.com/us/store
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/catalog_1.md
+[LINE_RANGE] 18-20
+[QUOTE]
+"Sort by:
+
+Most PopularA - ZZ - APrice: Low to HighPrice: High to LowNewest"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.aminoclub.com/us/store
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/catalog_1.md
+[LINE_RANGE] 146-149
+[QUOTE]
+"### [BPC-157/TB-500 (Wolverine)](/us/products/wolverine-stack)
+
+From$109.99
+
+Cellular Peptide Blend"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://www.aminoclub.com/us/products/bpc-157
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/product_1__bpc-157.md
+[LINE_RANGE] 18-20
+[QUOTE]
+"⚠️ FOR RESEARCH PURPOSES ONLY — This compound is not FDA approved. All data presented is from clinical trials for educational reference.
+
+Cellular Peptide"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://www.aminoclub.com/us/products/bpc-157
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/product_1__bpc-157.md
+[LINE_RANGE] 28-32
+[QUOTE]
+"Dosage
+
+10MG
+
+Quantity
+
+1"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://www.aminoclub.com/us/products/bpc-157
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/product_1__bpc-157.md
+[LINE_RANGE] 34-34
+[QUOTE]
+"$39.99"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.aminoclub.com/us/products/bpc-157
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/product_1__bpc-157.md
+[LINE_RANGE] 18-18
+[QUOTE]
+"⚠️ FOR RESEARCH PURPOSES ONLY — This compound is not FDA approved. All data presented is from clinical trials for educational reference."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://www.aminoclub.com/us/products/bpc-157
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/product_1__bpc-157.md
+[LINE_RANGE] 113-125
+[QUOTE]
+"## Certificate of Analysis
+
+Third Party Tested by Freedom Diagnostics
+
+Latest
+
+99.11%
+
+Purity
+
+VariantBPC-157 10mg
+
+Lot #P0142"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://www.aminoclub.com/us/products/bpc-157
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/product_1__bpc-157.md
+[LINE_RANGE] 115-115
+[QUOTE]
+"Third Party Tested by Freedom Diagnostics"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://www.aminoclub.com/us/products/bpc-157
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/product_1__bpc-157.md
+[LINE_RANGE] 123-131
+[QUOTE]
+"VariantBPC-157 10mg
+
+Lot #P0142
+
+Labeled10mg
+
+Actual11.65mg
+
+TestedFeb 4, 2026"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.aminoclub.com/us/products/bpc-157
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/product_1__bpc-157.md
+[LINE_RANGE] 22-22
+[QUOTE]
+"A 15-amino acid peptide derived from human gastric juice that demonstrates protection and regenerative effects in animal cell models. Premium Research Peptide."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://www.aminoclub.com/us/coa
+[FETCHED_AT] 2026-05-07T19:38:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/coa_1.md
+[LINE_RANGE] 46-50
+[QUOTE]
+"### Visit Product Page
+
+Navigate to the product page for your peptide. Every product displays current batch information.
+
+2"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://www.aminoclub.com/us/products/bpc-157
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/product_1__bpc-157.md
+[LINE_RANGE] 155-164
+[QUOTE]
+"## Frequently Researched Together
+
+Commonly studied alongside tissue-repair research compounds
+
+### [GHK-CuDermal CompoundFrom$29.99](/us/products/ghk-cu)
+
+### [TB-500Cellular PeptideFrom$39.99](/us/products/tb-500)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.aminoclub.com/
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/homepage.md
+[LINE_RANGE] 247-247
+[QUOTE]
+"All Amino Club peptides are sold strictly for research, laboratory, and educational purposes only. They are not approved for human consumption, veterinary use, or any therapeutic application. By purchasing, you confirm you are a qualified researcher and will use products in accordance with all applicable laws and regulations."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://www.aminoclub.com/us/disclaimer
+[FETCHED_AT] 2026-05-07T19:38:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/disclaimer.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"  * You are at least 18 years of age"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.aminoclub.com/
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/homepage.md
+[LINE_RANGE] 239-239
+[QUOTE]
+"Currently, we ship to all 50 U.S. states. International shipping varies by country due to customs regulations on research materials. Contact our support team for specific country availability. All international orders may be subject to local customs fees and import duties."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.aminoclub.com/us/terms
+[FETCHED_AT] 2026-05-07T19:38:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/tos.md
+[LINE_RANGE] 20-20
+[QUOTE]
+"# Terms of Service"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.aminoclub.com/us/terms
+[FETCHED_AT] 2026-05-07T19:38:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/tos.md
+[LINE_RANGE] 143-154
+[QUOTE]
+"  * **Binding Arbitration:** Any dispute, claim, or controversy arising out of or relating to these Terms, your use of the Website, or any products purchased from Amino Club shall be resolved exclusively through final and binding arbitration administered by the American Arbitration Association (AAA) under its Commercial Arbitration Rules. The arbitration shall be conducted by a single arbitrator in the State of New Jersey."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.aminoclub.com/us/returns
+[FETCHED_AT] 2026-05-07T19:38:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/refund.md
+[LINE_RANGE] 24-24
+[QUOTE]
+"Every order is protected against damage in transit. If your product arrives damaged, we'll send a one-time replacement. All damage claims must include photo evidence and are subject to review. One replacement per customer per order."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.aminoclub.com/us/shipping
+[FETCHED_AT] 2026-05-07T19:38:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/shipping.md
+[LINE_RANGE] 24-34
+[QUOTE]
+"Choose the shipping speed that works best for your research timeline. Free shipping on orders over $150.
+
+### Standard Shipping
+
+Calculated at checkout
+
+5-7 Business Days
+
+Reliable ground delivery with full tracking
+
+  * FedEx or UPS Ground service
+  * Full tracking included
+  * Insured package
+  * Free on orders over $150"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.aminoclub.com/us/shipping
+[FETCHED_AT] 2026-05-07T19:38:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/shipping.md
+[LINE_RANGE] 34-34
+[QUOTE]
+"  * FedEx or UPS Ground service"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.aminoclub.com/us/shipping
+[FETCHED_AT] 2026-05-07T19:38:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/shipping.md
+[LINE_RANGE] 73-73
+[QUOTE]
+"Free Standard Shipping on Orders Over $150"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.aminoclub.com/us/shipping
+[FETCHED_AT] 2026-05-07T19:38:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/shipping.md
+[LINE_RANGE] 113-113
+[QUOTE]
+"  * **International:** Coming soon"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.aminoclub.com/
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/homepage.md
+[LINE_RANGE] 107-111
+[QUOTE]
+"### Extensive research library at your fingertips
+
+Access our comprehensive collection of research articles, studies, and educational resources. Stay informed with our regularly updated blog covering the latest peptide research and discoveries.
+
+[Explore Research Library](/us/research)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://www.aminoclub.com/
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/homepage.md
+[LINE_RANGE] 43-43
+[QUOTE]
+"  * [Research Library](/us/research)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://www.aminoclub.com/us/products/bpc-157
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/product_1__bpc-157.md
+[LINE_RANGE] 155-164
+[QUOTE]
+"## Frequently Researched Together
+
+Commonly studied alongside tissue-repair research compounds
+
+### [GHK-CuDermal CompoundFrom$29.99](/us/products/ghk-cu)"
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd (catalog headline SKUs)
+[URL] https://www.aminoclub.com/us/store
+[FETCHED_AT] 2026-05-07T19:37:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/amino-club/catalog_1.md
+[LINE_RANGE] 76-348
+[QUOTE]
+"### [GLP-3 (RT)](/us/products/glp-3)
+
+From$69.99
+
+Triple-Action Metabolic Compound"
+[/QUOTE]

@@ -1,0 +1,563 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:01:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/homepage_active_state.md
+[LINE_RANGE] 364-370
+[QUOTE]
+## USA Made Products
+
+Highly Purified Melanotan II, CJC-1295, GHRP-2, Hexarelin, IGF-1, Sermorelin, TB-500 and more!
+
+99%+ Purity Guaranteed!
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:01:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/homepage_active_state.md
+[LINE_RANGE] 35-67
+[QUOTE]
+  * [Buy Peptides](/web/20250106014856/https://www.peptidesciences.com/buy-peptides)
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:01:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/homepage_active_state.md
+[LINE_RANGE] 35-37
+[QUOTE]
+"* [Buy Peptides](/web/20250106014856/https://www.peptidesciences.com/buy-peptides)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:01:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/homepage_active_state.md
+[LINE_RANGE] 1722-1723
+[QUOTE]
+"All products on this site are for Research, Development use only. Products are Not for Human consumption of any kind.
+The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:01:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/homepage_active_state.md
+[LINE_RANGE] 596-614
+[QUOTE]
+"Peptide Sciences™ specializes in the synthesis of highly purified peptides, proteins and amino acid derivatives for scientific research and development. Peptide Sciences™ uses automated, and manual peptide synthesizers as well as solution and solid-phase peptide synthetic technology to offer the finest quality peptides and proteins that exceed 99% purity."
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:01:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/homepage_active_state.md
+[LINE_RANGE] 386-570
+[QUOTE]
+##### [Peptide Capsules](/web/20250106014856/https://www.peptidesciences.com/capsules)
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:01:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/homepage_active_state.md
+[LINE_RANGE] 503-524
+[QUOTE]
+##### [Peptide Blends](/web/20250106014856/https://www.peptidesciences.com/peptide-blends)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://web.archive.org/web/20260203140421/https://www.peptidesciences.com/bpc-157?size=5mg
+[FETCHED_AT] 2026-05-07T03:03:18Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/product_1__bpc-157-5mg.md
+[LINE_RANGE] 54-58
+[QUOTE]
+#  BPC-157
+
+**BPC-157** is a research peptide composed of 15 amino acids (Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val), a fragment of the body protection compound found in gastric juice.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://web.archive.org/web/20260203140421/https://www.peptidesciences.com/bpc-157?size=5mg
+[FETCHED_AT] 2026-05-07T03:03:18Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/product_1__bpc-157-5mg.md
+[LINE_RANGE] 56-58
+[QUOTE]
+"**BPC-157** is a research peptide composed of 15 amino acids (Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val), a fragment of the body protection compound found in gastric juice. Experimental data suggest it influences angiogenic and cytoprotective signaling through modulation of nitric oxide pathways, growth factor expression, and extracellular matrix remodeling."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://web.archive.org/web/20260203140421/https://www.peptidesciences.com/bpc-157?size=5mg
+[FETCHED_AT] 2026-05-07T03:03:18Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/product_1__bpc-157-5mg.md
+[LINE_RANGE] 380-382
+[QUOTE]
+The products offered on this website are furnished for in-vitro studies only. In-vitro studies (Latin: in glass) are performed outside of the body. These products are not medicines or drugs and have not been approved by the FDA to prevent, treat or cure any medical condition, ailment or disease. Bodily introduction of any kind into humans or animals is strictly forbidden by law.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://web.archive.org/web/20260203140421/https://www.peptidesciences.com/bpc-157?size=5mg
+[FETCHED_AT] 2026-05-07T03:03:18Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/product_1__bpc-157-5mg.md
+[LINE_RANGE] 280-288
+[QUOTE]
+"COA / HPLC / MS
+
+3RD PARTY TESTING"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://web.archive.org/web/20260203140421/https://www.peptidesciences.com/bpc-157?size=5mg
+[FETCHED_AT] 2026-05-07T03:03:18Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/product_1__bpc-157-5mg.md
+[LINE_RANGE] 283-285
+[QUOTE]
+COA / HPLC / MS
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://web.archive.org/web/20260203140421/https://www.peptidesciences.com/bpc-157?size=5mg
+[FETCHED_AT] 2026-05-07T03:03:18Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/product_1__bpc-157-5mg.md
+[LINE_RANGE] 349-354
+[QUOTE]
+"BPC-157 is supplied as a lyophilized peptide produced via solid-phase peptide synthesis. Each lot undergoes analytical verification using high-performance liquid chromatography and mass spectrometry to confirm molecular identity and purity."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://web.archive.org/web/20260203140421/https://www.peptidesciences.com/bpc-157?size=5mg
+[FETCHED_AT] 2026-05-07T03:03:18Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/product_1__bpc-157-5mg.md
+[LINE_RANGE] 64-69
+[QUOTE]
+"** $59.50**
+
+Products will arrive in a lyophilized (powder) form for maximum stability"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://web.archive.org/web/20260203140421/https://www.peptidesciences.com/bpc-157?size=5mg
+[FETCHED_AT] 2026-05-07T03:03:18Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/product_1__bpc-157-5mg.md
+[LINE_RANGE] 382-382
+[QUOTE]
+For Laboratory Research Only. Not for human use, medical use, diagnostic use, or veterinary use.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://web.archive.org/web/20250208102404/https://www.peptidesciences.com/refunds
+[FETCHED_AT] 2026-05-07T05:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/refund.md
+[LINE_RANGE] 158-158
+[QUOTE]
+"YOU MUST BE OVER 21 YEARS OLD TO USE THIS WEBSITE."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://web.archive.org/web/20250208102404/https://www.peptidesciences.com/refunds
+[FETCHED_AT] 2026-05-07T05:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/refund.md
+[LINE_RANGE] 192-192
+[QUOTE]
+"All items sold are legal for sale for IN-VITRO RESEARCH PURPOSES SPECIFICALLY within the USA."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://web.archive.org/web/20250208102404/https://www.peptidesciences.com/refunds
+[FETCHED_AT] 2026-05-07T05:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/refund.md
+[LINE_RANGE] 83-85
+[QUOTE]
+"* [Terms of use](/web/20250208102404/https://www.peptidesciences.com/terms)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://web.archive.org/web/20250208102404/https://www.peptidesciences.com/refunds
+[FETCHED_AT] 2026-05-07T05:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/refund.md
+[LINE_RANGE] 155-165
+[QUOTE]
+"YOU MUST BE OVER 21 YEARS OLD TO USE THIS WEBSITE.
+
+The products we offer are intended for IN-VITRO LABORATORY RESEARCH USE ONLY-- NOT FOR HUMAN USE."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://web.archive.org/web/20250208102404/https://www.peptidesciences.com/refunds
+[FETCHED_AT] 2026-05-07T05:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/refund.md
+[LINE_RANGE] 44-46
+[QUOTE]
+"Due to our rigorous quality control standards and the fragile nature of our products, we cannot accept returns. In the rare occasion that your order arrives with missing, incorrect or damaged items, please email service@peptidesciencesmail.com for assistance."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/20251012130004/https://www.peptidesciences.com/customer-service
+[FETCHED_AT] 2026-05-07T05:18:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/shipping.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"We offer multiple shipping options. FREE shipping with orders over $200.00 (Grand Total), USPS Priority, FedEx 2 Day (2 business days), FedEx Overnight, FedEx Overnight - Signature Required and FedEx Saturday Delivery for orders placed on Fridays before noon PST that need next day delivery.  Orders placed, paid, and processed before 12 noon PST typically ship out the same business day."
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://web.archive.org/web/20251012130004/https://www.peptidesciences.com/customer-service
+[FETCHED_AT] 2026-05-07T05:18:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/shipping.md
+[LINE_RANGE] 84-84
+[QUOTE]
+"During checkout, you will have the option to register or check out as a guest. We encourage you to register, but this is completely optional."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://web.archive.org/web/20251012130004/https://www.peptidesciences.com/customer-service
+[FETCHED_AT] 2026-05-07T05:18:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/shipping.md
+[LINE_RANGE] 84-84
+[QUOTE]
+"You may also check out as a Guest."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20251012130004/https://www.peptidesciences.com/customer-service
+[FETCHED_AT] 2026-05-07T05:18:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/shipping.md
+[LINE_RANGE] 79-79
+[QUOTE]
+"We accept payments with all major credit cards."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20250208102404/https://www.peptidesciences.com/refunds
+[FETCHED_AT] 2026-05-07T05:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/refund.md
+[LINE_RANGE] 144-148
+[QUOTE]
+"## All ACH/e-Check payments will be made payable to:
+
+## P-Sciences, Inc.
+
+Each time I (the customer) places an ACH/e-Check order by clicking the 'Place Order' button, I am authorizing www.PeptideSciences.com.com to initiate a single ACH/electronic debit to my account"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://web.archive.org/web/20251012130004/https://www.peptidesciences.com/customer-service
+[FETCHED_AT] 2026-05-07T05:18:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/shipping.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"USPS Priority, FedEx 2 Day (2 business days), FedEx Overnight, FedEx Overnight - Signature Required and FedEx Saturday Delivery"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://web.archive.org/web/20251012130004/https://www.peptidesciences.com/customer-service
+[FETCHED_AT] 2026-05-07T05:18:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/shipping.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"FREE shipping with orders over $200.00 (Grand Total)"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] custom (Magento-based)
+[REASONING]
+Multiple source signals in homepage HTML reference Magento-specific paths (frontend/Mtn/beta) and JavaScript variable patterns consistent with Magento 2 (require.js baseUrl pattern, version-stamped static URLs). The theme is named "Mtn" which is a custom Magento theme. No Shopify or WooCommerce signals found.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250106014856id_/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:06:11Z
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/source_homepage.md
+[LINE_RANGE] 13-13
+Magento
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250106014856id_/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:06:11Z
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/source_homepage.md
+[LINE_RANGE] 13-13
+frontend/Mtn
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://web.archive.org/web/20250106014856id_/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:06:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/source_homepage.md
+[LINE_RANGE] 13-13
+[QUOTE]
+"G-J6JRTDMJXC"
+"GTM-MVQK9GJ"
+"window.__lo_site_id = 106448"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://web.archive.org/web/20260417005546/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T02:59:37Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/homepage.md
+[LINE_RANGE] 49-49
+[QUOTE]
+4210d8942d9df5dc78d02d9f40497861
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://web.archive.org/web/20250106014856id_/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:06:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/source_homepage.md
+[LINE_RANGE] 13-13
+[QUOTE]
+fbevents
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://web.archive.org/web/20250208102404/https://www.peptidesciences.com/refunds
+[FETCHED_AT] 2026-05-07T05:12:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/refund.md
+[LINE_RANGE] 96-100
+[QUOTE]
+"P-Sciences
+2831 St. Rose Pkwy Suite 362
+Henderson, NV 89052
+USA"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://web.archive.org/web/20251012130004/https://www.peptidesciences.com/customer-service
+[FETCHED_AT] 2026-05-07T05:18:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/shipping.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"USPS Priority, FedEx 2 Day (2 business days), FedEx Overnight, FedEx Overnight - Signature Required and FedEx Saturday Delivery for orders placed on Fridays before noon PST"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://web.archive.org/web/20240803203823/https://www.peptidesciences.com/blog
+[FETCHED_AT] 2026-05-07T05:22:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/blog_1.md
+[LINE_RANGE] 453-453
+[QUOTE]
+"* [Peptide Blog](/web/20240803203823/https://www.peptidesciences.com/blog)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://web.archive.org/web/20240803203823/https://www.peptidesciences.com/blog
+[FETCHED_AT] 2026-05-07T05:22:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/blog_1.md
+[LINE_RANGE] 453-453
+[QUOTE]
+"* [Peptide Blog](/web/20240803203823/https://www.peptidesciences.com/blog)"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://web.archive.org/web/20240803203823/https://www.peptidesciences.com/blog
+[FETCHED_AT] 2026-05-07T05:22:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/blog_1.md
+[LINE_RANGE] 600-600
+[QUOTE]
+"1 [ 2 ](https://web.archive.org/web/20240803203823/https://www.peptidesciences.com/blog?p=2)"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://web.archive.org/web/20240803203823/https://www.peptidesciences.com/blog
+[FETCHED_AT] 2026-05-07T05:22:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/blog_1.md
+[LINE_RANGE] 472-578
+[QUOTE]
+"by [ Dr. JR ](https://web.archive.org/web/20240803203823/https://www.peptidesciences.com/blog/author/dr-jr"
+"by [ Dr. Hannah ](https://web.archive.org/web/20240803203823/https://www.peptidesciences.com/blog/author/author-dr-hannah"
+"by [ Natalie N ](https://web.archive.org/web/20240803203823/https://www.peptidesciences.com/blog/author/author-natalie-n"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://web.archive.org/web/20240803203823/https://www.peptidesciences.com/blog
+[FETCHED_AT] 2026-05-07T05:22:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/blog_1.md
+[LINE_RANGE] 609-615
+[QUOTE]
+  * [ General Peptide Information (7) ]
+"* [ Alzheimer's Research (17) ]"
+"* [ Antioxidants (2) ]"
+"* [ Bone Density / Osteoporosis (5) ]"
+"* [ Cardiac Function (16) ]"
+"* [ Cellular Energy (Mitochondrial Function) (15) ]"
+"* [ Cellular Senesence (11) ]"
+[/QUOTE]
+
+[CLAIM] skus[0].list_price_usd (BPC-157 5mg $59.50)
+[URL] https://web.archive.org/web/20260203140421/https://www.peptidesciences.com/bpc-157?size=5mg
+[FETCHED_AT] 2026-05-07T03:03:18Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/product_1__bpc-157-5mg.md
+[LINE_RANGE] 65-65
+[QUOTE]
+"** $59.50**"
+[/QUOTE]
+
+[CLAIM] skus[2].list_price_usd (TB-500 5mg $85.00)
+[URL] https://web.archive.org/web/20250823204154/https://www.peptidesciences.com/tb-500-thymosin-beta-4-5mg
+[FETCHED_AT] 2026-05-07T05:14:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/product_2__tb-500-5mg.md
+[LINE_RANGE] 62-62
+[QUOTE]
+"** $85.00**"
+[/QUOTE]
+
+[CLAIM] skus[2].volume_tier_label (TB-500 5mg volume tiers)
+[URL] https://web.archive.org/web/20250823204154/https://www.peptidesciences.com/tb-500-thymosin-beta-4-5mg
+[FETCHED_AT] 2026-05-07T05:14:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/product_2__tb-500-5mg.md
+[LINE_RANGE] 65-69
+[QUOTE]
+"Buy 3 and save 6% ** ** $80.00** ** each
+
+Buy 5 and save 10% ** ** $76.50** ** each
+
+Buy 10 and save 12% ** ** $75.00** ** each"
+[/QUOTE]
+
+[CLAIM] skus[3].list_price_usd (Semaglutide 10mg $255.00)
+[URL] https://web.archive.org/web/20250401110948/https://www.peptidesciences.com/semaglutide-10mg
+[FETCHED_AT] 2026-05-07T05:15:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/product_3__semaglutide-10mg.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"** $255.00**"
+[/QUOTE]
+
+[CLAIM] skus[4].list_price_usd (Ipamorelin 2mg $30.00)
+[URL] https://web.archive.org/web/20251012145649/https://www.peptidesciences.com/ipamorelin?size=2mg
+[FETCHED_AT] 2026-05-07T05:16:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/product_4__ipamorelin-2mg.md
+[LINE_RANGE] 50-50
+[QUOTE]
+"** $30.00**"
+[/QUOTE]
+
+[CLAIM] skus[5].list_price_usd (MOTS-c 5mg $65.00)
+[URL] https://web.archive.org/web/20251012152610/https://www.peptidesciences.com/mots-c?size=5mg
+[FETCHED_AT] 2026-05-07T05:17:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/product_5__mots-c-5mg.md
+[LINE_RANGE] 50-50
+[QUOTE]
+"** $65.00**"
+[/QUOTE]
+
+[CLAIM] skus[6].list_price_usd (Retatrutide 6mg $180.00)
+[URL] https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:01:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/homepage_active_state.md
+[LINE_RANGE] 652-654
+[QUOTE]
+"[ Retatrutide 6mg ](https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/retatrutide-6mg "Retatrutide 6mg")"
+"[ Learn More ](https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/retatrutide-6mg) Add to Cart  -  $180.00"
+[/QUOTE]
+
+[CLAIM] skus[7].list_price_usd (Retatrutide 12mg $230.00)
+[URL] https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:01:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/homepage_active_state.md
+[LINE_RANGE] 628-630
+[QUOTE]
+"[ Retatrutide 12mg ](https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/retatrutide-12mg "Retatrutide 12mg")"
+"[ Learn More ](https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/retatrutide-12mg) Add to Cart  -  $230.00"
+[/QUOTE]
+
+[CLAIM] skus[8].list_price_usd (PT-141 10mg $55.00)
+[URL] https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:01:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/homepage_active_state.md
+[LINE_RANGE] 783-785
+[QUOTE]
+"[ PT-141 10mg  ](https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/pt-141-10mg "PT-141 10mg ")"
+"[ Learn More ](https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/pt-141-10mg) Add to Cart  -  $55.00"
+[/QUOTE]
+
+[CLAIM] skus[9].list_price_usd (GHK-Cu 50mg $70.00)
+[URL] https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:01:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/homepage_active_state.md
+[LINE_RANGE] 771-773
+[QUOTE]
+"[ GHK-Cu 50mg Copper Peptide ](https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/ghk-cu-50mg-copper-peptide "GHK-Cu 50mg Copper Peptide")"
+"[ Learn More ](https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/ghk-cu-50mg-copper-peptide) Add to Cart  -  $70.00"
+[/QUOTE]
+
+[CLAIM] skus[10].list_price_usd (BPC-157+TB-500 10mg Blend $120.00)
+[URL] https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:01:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/homepage_active_state.md
+[LINE_RANGE] 753-755
+[QUOTE]
+"[ BPC-157, TB-500 10mg (Blend)  ](https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/bpc-157-tb-500-10mg-blend "BPC-157, TB-500 10mg \(Blend\) ")"
+"[ Learn More ](https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/bpc-157-tb-500-10mg-blend) Add to Cart  -  $120.00"
+[/QUOTE]
+
+[CLAIM] skus[1].list_price_usd (BPC-157 10mg $100.00)
+[URL] https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-07T03:01:13Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/homepage_active_state.md
+[LINE_RANGE] 847-850
+[QUOTE]
+"[ BPC-157 10mg ](https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/bpc-157-10mg "BPC-157 10mg")"
+"[ Learn More ](https://web.archive.org/web/20250106014856/https://www.peptidesciences.com/bpc-157-10mg) Add to Cart  -  $100.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://web.archive.org/web/20260203140421/https://www.peptidesciences.com/bpc-157?size=5mg
+[FETCHED_AT] 2026-05-07T03:03:18Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/peptide-sciences/product_1__bpc-157-5mg.md
+[LINE_RANGE] 73-95
+[QUOTE]
+"### Categories
+
+##### [Peptide Capsules](/web/20260203140421/https://www.peptidesciences.com/capsules)
+
+  * [5-Amino-1MQ 50mg (60 Capsules) ](/web/20260203140421/https://www.peptidesciences.com/5-amino-1mq-60-capsules"
+[/QUOTE]

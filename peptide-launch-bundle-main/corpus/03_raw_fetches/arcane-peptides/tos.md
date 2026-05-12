@@ -1,0 +1,444 @@
+---
+url: https://arcanepeptides.com/terms-of-service/
+shipping-refunds-returns-policy/
+lab-results/
+fetched_at: 2026-05-07T17:05:26Z
+fetch_method: curl
+http_status: 200
+sha256: 3ee1de6d4b527751a3b9f8214eab0999e27742a615c43a647ff53ac5021741d2
+---
+[](https://arcanepeptides.com/)
+
+__
+
+  * [Home](/)
+  * [Shop __](https://arcanepeptides.com/shop/)
+    * Categories __
+      * [Peptides](https://arcanepeptides.com/shop/?product-cato=66)
+      * [Liquids](https://arcanepeptides.com/shop/?product-cato=68)
+      * [Powders](https://arcanepeptides.com/shop/?product-cato=96)
+    * [Top Products](https://arcanepeptides.com/shop/?orderby=popularity)
+    * [New Arrivals](https://arcanepeptides.com/shop/?orderby=date)
+  * [FAQs](https://arcanepeptides.com/faqs/)
+  * [COA Library](https://arcanepeptides.com/lab-results/)
+  * [Order Tracking](https://arcanepeptides.com/order-tracking/)
+  * [Contact Us](https://arcanepeptides.com/contact-us/)
+
+
+
+[ ](https://arcanepeptides.com/my-account/)
+
+[ 0 ](javascript:;)
+
+## Terms and Conditions of Service
+
+# TERMS AND CONDITIONS OF SERVICE
+
+**Last Updated: December 15, 2025**
+
+## AGREEMENT TO TERMS
+
+By accessing or using the www.arcanepeptides.com website (the “Website”), or purchasing any Arcane Peptides (“Arcane Peptides,” “we,” “our,” or “us”) products, you (the “Customer,” “you,” or “your”) affirm that you are at least 18 years of age and agree to be bound by these Terms and Conditions of Service (the “Terms”) in their entirety. By purchasing or using any product from the Website, you acknowledge that you have read, understood, and accepted the following Research Use and Compliance Disclaimer. 
+
+## ACCESS DISCLAIMER AND ACCEPTANCE OF TERMS
+
+### Research Use and Compliance Disclaimer
+
+Before accessing, using, and purchasing from the Website, all users must review, acknowledge, and agree to the following terms: 
+
+  1. The products available on the Website are intended for laboratory research purposes only, and are not for human or animal consumption.
+  2. The products available on the Website are not intended to diagnose, treat, cure, or prevent any disease.
+  3. The products available on the Website should not be used as a food, drug, cosmetic, or for other household use.
+  4. By accessing the Website, you acknowledge that it is your sole responsibility to ensure compliance with all applicable laws and regulations within your jurisdiction.
+  5. No information on the Website should be interpreted or construed as medical advice or guidance.
+
+By continuing to access the Website, you confirm that you: 
+  * Have read and understood the above Research Use and Compliance Disclaimer.
+  * Are at least 18 years of age.
+  * Are a qualified researcher.
+  * Agree that your access to the Website constitutes your acceptance of and consent to be bound by these full Terms.
+
+If you do not agree to these Terms, then you must exit the Website. Access to the Website is not permitted without your acceptance to these Terms. 
+
+## PRODUCT PURPOSE AND USE
+
+All products sold by Arcane Peptides are intended for laboratory research purposes only, and are not for human or animal consumption. The products are not intended to diagnose, treat, cure, or prevent any disease. The products should not be used as a food, drug, cosmetic, or for other household use. 
+
+## CUSTOMER REPRESENTATIONS AND WARRANTIES
+
+By purchasing from Arcane Peptides, you represent and warrant that: 
+
+  * You are at least 18 years of age.
+  * You are a qualified researcher or operate within a controlled laboratory environment.
+  * You understand the health and safety hazards associated with handling laboratory chemicals and compounds.
+  * You have the necessary knowledge, training, equipment, and facilities to safely handle these materials.
+  * You will comply with all applicable local, state, federal, and international laws regarding the purchase, possession, and use of research materials.
+  * You understand that certain compounds may not be listed on the Toxic Substances Control Act (TSCA) inventory, and you accept full responsibility for verifying compliance for your intended use.
+
+Arcane Peptides reserves the right to deny access to the Website and sales of products to any underage or unqualified individuals. 
+
+## FDA AND LEGAL DISCLAIMER
+
+The statements and information provided on the Website have not been evaluated by the U.S. Food and Drug Administration (FDA). Products sold by Arcane Peptides or on the Website are not intended to diagnose, treat, cure, or prevent any disease; and no information on the Website should be construed as medical advice. Arcane Peptides is a research-use-only (RUO) chemical supplier and not a compounding pharmacy, medical provider, or outsourcing facility under Sections 503A or 503B of the Federal Food, Drug, and Cosmetic Act. All products are labeled and marketed for research use only. 
+
+## BLACKLIST – ZERO-TOLERANCE POLICY
+
+Any communication by the Customer which leads us to believe that the Customer will use or intends to use our products in a manner other than that for which they are intended will result in a “Refusal to Sell” alert or a “Blacklist” email being sent to the Customer. This means the Customer will no longer be able to make purchases on the Website. All collected information will be added to our internal “Banned” database, which every order is checked against. If the Customer receives a ban, it is permanent. Arcane Peptides will not, under any circumstances, tolerate the misuse of the Website or the products sold on the Website. The following Prohibited Uses will not be tolerated and will land you on our Blacklist, which, as mentioned, is a lifetime ban. The products shall NOT be used for: 
+
+  * Human or animal consumption;
+  * Diagnostic, therapeutic, or clinical applications;
+  * Compounding under Sections 503A or 503B of the Federal Food, Drug, and Cosmetic Act;
+  * Performance enhancement or aesthetic purposes;
+  * Any consumer, agricultural, or commercial applications; or
+  * Educational demonstrations involving human or animal subjects.
+
+Please note that the foregoing list is not exhaustive, and Arcane Peptides reserves the right to suspend or terminate the Customer’s account at any time, with or without notice, if the Customer violates these Terms or if we believe the Customer has violated or intends to violate these Terms. 
+
+## NO GUIDANCE; AFFILIATION
+
+Arcane Peptides assumes that the Customer is familiar with the products being purchased, and does not provide any type of guidelines or suggestions regarding use of the products. If a Customer asks us for such information, then the Customer will be answered with a “Refusal to Provide Guidelines” email. The Customer acknowledges that any request for usage guidelines may be considered evidence of lack of qualification and may result in order cancellation and/or account termination. The Customer represents and warrants that the Customer is affiliated with a laboratory, institution, university, or other research-based facility which is purchasing and using the products sold by Arcane Peptides for research purposes only. Arcane Peptides reserves the right to perform due diligence screening upon receiving an order, and Arcane Peptides, in its sole and absolute discretion, may require verification of affiliation prior to order fulfillment. The Customer agrees to provide such verification within five (5) business days of request. Failure to provide verification within this timeframe shall result in automatic order cancellation without refund of any deposits or fees paid. 
+
+## USE OF THE WEBSITE
+
+Unless otherwise specified, the Customer’s use of the Website is governed by these Terms. In using the Website, the Customer is prohibited from modifying, distributing, transmitting, reproducing, publishing, licensing, transferring, or selling any information, products, or services obtained or viewed on the Website. The Customer may, however, display, download, or print hard copies of any material contained on the Website for the Customer’s own internal, non-commercial research use, as long as the Customer does not modify the content or delete any copyright, trademark, or other proprietary notice. Any other use of the information contained on the Website is prohibited without our express prior written consent. Unauthorized use may result in immediate account termination and legal action. 
+
+## MODIFICATIONS TO THE WEBSITE
+
+We reserve the right to correct any inaccuracies or typographical errors in the information posted on the Website and shall have no liability for such inaccuracies or errors. Information may be changed or updated without notice, and prices and availability of products are also subject to change without notice. We shall not be liable to the Customer or to any third-party for any modification, price change, suspension, or discontinuance of the sale of any product. 
+
+## AVAILABILITY OF THE WEBSITE
+
+We do not guarantee, represent, or warrant that the Customer’s use of the Website will be uninterrupted, timely, secure, or error-free. From time to time we may remove the Website for indefinite periods of time without notice to the Customer. The Customer’s use of, or inability to use, the Website is at the Customer’s sole risk. The Website and all products offered for sale through the Website are (except as expressly stated by us) provided “AS IS” and “AS AVAILABLE” for the Customer’s use, without any representation, warranties, or conditions of any kind, either express or implied, including all implied warranties or conditions of merchantability, merchantable quality, fitness for a particular purpose, durability, title, and non-infringement. 
+
+## ORDERS, PRICING, AND PAYMENT
+
+The Customer agrees to provide current, complete, and accurate purchase information, including payment and contact information, for all purchases made on the Website. We reserve the right to refuse or cancel any order at our sole discretion, including after payment has been received. In the event of order cancellation, our sole obligation shall be to refund the purchase price paid, and we shall have no liability for any consequential, incidental, or indirect damages. 
+
+### Order Acceptance
+
+  * Prices on the Website are invitations to conduct business, not binding offers
+  * All customers must be 18 years of age to place an order or make a purchase
+  * The Customer’s purchase order constitutes an offer
+  * A contract is formed only upon our written confirmation of acceptance of the Customer’s order, which may be provided via email or through the Website
+  * We expressly reject any conflicting or additional terms in the Customer’s purchase orders, invoices, or other documents, and any such terms shall be void and of no effect. These Terms constitute the entire agreement between the parties and may only be modified by a written amendment signed by an authorized representative of Arcane Peptides.
+
+
+
+### Pricing and Taxes
+
+  * All prices are in USD, unless otherwise specified
+  * Prices exclude taxes, duties, and shipping charges
+  * Prices are subject to change without notice
+  * The Customer is responsible for all applicable taxes
+
+
+
+### Payment Methods
+
+We accept: 
+
+  * Major credit cards (Visa, Mastercard, American Express, Discover)
+  * ACH/wire transfers
+  * Cryptocurrency (BTC, ETH, USDT) through compliant providers
+
+
+
+### Payment Terms
+
+  * **ALL SALES ARE FINAL**
+  * Orders are non-cancellable once payment is processed
+  * We do not accept refunds, except on products with verified manufacturing defects
+  * Late payments accrue interest at the rate of 1.5% per month (18% per annum) or the maximum rate permitted by applicable law, whichever is lower
+
+
+
+### Chargeback Policy
+
+If the Customer initiates a chargeback without first contacting [[email protected]](/cdn-cgi/l/email-protection) in writing and allowing Arcane Peptides thirty (30) business days to investigate and attempt to resolve the dispute in good faith, the Customer agrees that such action may be considered a material breach of these Terms, and Arcane Peptides reserves the right to pursue the following remedies: 
+
+  * Immediate account termination
+  * Collections proceedings, including attorneys’ fees
+  * A $2,500 liquidated damages fee
+  * Reporting to regulatory authorities
+
+
+
+## SHIPPING AND DELIVERY
+
+### Delivery Restrictions
+
+  * The Customer is responsible for providing accurate and complete shipping information. Arcane Peptides shall not be liable for delays, losses, or costs associated with reshipments that result directly from incorrect or incomplete addresses provided by the Customer at checkout. Arcane Peptides will make reasonable efforts to notify the Customer of any apparent address issues prior to shipment.
+  * Shipping is limited to the continental United States only
+  * We use UPS and FedEx exclusively
+  * We may refuse high-risk addresses
+
+
+
+### Material Transfer Agreement
+
+  * Each order requires the Customer’s execution and return of Arcane Peptides’s Material Transfer Agreement (MTA), the current version of which is available at https://arcanepeptides.com/mta/. The MTA in effect at the time of order placement shall govern the transaction.
+  * The MTA is incorporated by reference into these Terms.
+
+
+
+## RETURNS AND REFUNDS POLICY
+
+**ALL SALES ARE FINAL** Due to the nature of research chemicals, and safety and contamination risks: 
+
+  * NO RETURNS OR REFUNDS (with the exception of verified manufacturing defects)
+  * No cancellations after payment
+  * No exchanges
+  * Due to safety and contamination risks, all sales are final. Returns, refunds, or exchanges are not accepted once an order is placed.
+
+
+
+### Inspection Requirements
+
+The Customer must: 
+
+  * Inspect shipments immediately upon receipt
+  * Report any issues in writing to [[email protected]](/cdn-cgi/l/email-protection) within seven (7) calendar days of delivery, with such notice deemed given upon sending
+  * Provide photographic evidence and, where applicable and reasonably available, analytical data supporting the claim
+
+
+
+### Limited Remedy
+
+For verified manufacturing defects only, at our discretion we may issue: 
+
+  * A replacement with conforming product, OR
+  * Credit toward future purchase, BUT
+  * Cash refunds are not available except as may be required by applicable law
+
+
+
+## PRODUCT DISCLAIMER
+
+EXCEPT AS EXPRESSLY PROVIDED IN THESE TERMS OR AS REQUIRED BY APPLICABLE LAW, PRODUCTS ARE PROVIDED “AS IS” WITHOUT ANY WARRANTY, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. 
+
+## NO GUARANTEE OF RESULTS
+
+Arcane Peptides makes no representation regarding: 
+
+  * Experimental outcomes
+  * Product performance in specific applications
+  * Batch-to-batch consistency beyond specifications
+
+
+
+## LIMITATION OF LIABILITY
+
+Arcane Peptides’s total liability shall not exceed the purchase price of the specific product. We are not liable for: 
+
+  * Indirect, consequential, or incidental damages
+  * Lost profits or business interruption
+  * Personal injury after title transfer
+  * Damages exceeding $500 in any case, except where such limitation is prohibited by applicable law
+
+
+
+## WAIVER OF LIABILITY AND INDEMNIFICATION
+
+TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT SHALL ARCANE PEPTIDES OR ITS OWNERS, MEMBERS, MANAGERS, OFFICERS, EMPLOYEES, AFFILIATES, OR AGENTS BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR IN CONNECTION WITH THE USE OR INABILITY TO USE THE WEBSITE, RELIANCE ON INFORMATION PROVIDED ON THE WEBSITE, OR THE USE, MISUSE, HANDLING, OR STORAGE OF OUR PRODUCTS, WHETHER CAUSED BY TORT (INCLUDING NEGLIGENCE), BREACH OF CONTRACT, OR OTHERWISE, EVEN IF FORESEEABLE. In direct consideration of the sale, the Customer agrees to indemnify, defend, and hold harmless Arcane Peptides, its owners, members, managers, employees, affiliates, and agents from any claims, losses, liabilities, or expenses (including attorneys’ fees) arising from the Customer’s use of the Website; the Customer’s handling, misuse, or transfer of any product; or from any violation of these Terms. This indemnification includes any action taken by a third party resulting from the Customer’s actions or omissions. 
+
+## INTELLECTUAL PROPERTY
+
+The listing of a product on the Website does not grant or imply any license to use it in violation of any existing patents. All trademarks, logos, and brand names displayed on the Website remain the property of their respective owners. 
+
+### Ownership
+
+Arcane Peptides owns all intellectual property rights in: 
+
+  * Website content and design
+  * Product formulations and synthesis methods
+  * Trademarks and trade names
+  * Technical documentation
+
+
+
+### Restrictions
+
+The Customer shall not: 
+
+  * Reverse engineer products
+  * Use Arcane Peptides’s intellectual property to develop, manufacture, or market products that compete with Arcane Peptides’s products or services
+  * Remove proprietary notices
+  * Use automated means (including bots, scrapers, or similar data mining tools) to access, scrape, or harvest data from the Website
+
+
+
+### Limited License
+
+The Customer receives a non-exclusive, non-transferable, revocable license to use the products solely for internal research purposes in accordance with these Terms. All intellectual property rights in the products remain with Arcane Peptides. The Customer may access and use the Website solely for the purpose of ordering products and receiving related services. The Customer shall not copy, reproduce, republish, upload, post, publicly display, encode, translate, transmit, or distribute any part of the Website or products without Arcane Peptides’s express prior written consent. 
+
+## PRIVACY POLICY
+
+The information that we collect and use varies depending on how you interact with us. We may collect the following types of information. 
+
+### Personal Information
+
+The types of personal information we obtain about you depend on how you interact with the Website. When we use the term “personal information,” we are referring to information that identifies, relates to, describes, or can be associated with you. The following describes the categories and specific types of personal information we may collect: 
+
+  * **Contact Details:** Arcane Peptides may require you to create an account to verify that you are an authorized user of the Website. The information that you may be required to submit to create an account includes your first name, last name, and email address.
+  * **Order Information:** Arcane Peptides may collect your name, billing address, shipping address, payment information (processed securely through third-party providers), phone number, and email address when you place an order.
+  * **Date of Birth:** Arcane Peptides may require you to provide your date of birth to verify that you are an authorized user of the Website.
+
+Please keep in mind that some features of the Website may require you to directly provide us with certain information about yourself, such as your date of birth for age verification purposes. You may elect not to provide this information, but doing so may prevent you from using or accessing the Website or its features. 
+
+### How We Use Your Information
+
+We use the information we collect for the following purposes: 
+
+  * To process and fulfill orders
+  * To verify your age and eligibility to purchase our products
+  * To communicate with you about your orders and otherwise provide customer support
+  * To comply with regulatory compliance and legal obligations
+  * To prevent fraud
+
+
+
+### Disclosure of Your Information
+
+We may share your personal information with: 
+
+  * Payment processors
+  * Shipping carriers
+  * Legal and regulatory authorities, if required by law or to enforce our Terms
+
+We do not use or disclose sensitive personal information without your consent except as required by law or as necessary to fulfill our obligations under these Terms. We do not use personal information for the purposes of inferring characteristics about you. We do not sell or rent your personal information to third parties for their marketing purposes. 
+
+### Third Party Websites and Links
+
+The Website may provide links to websites or other online platforms operated by third parties. If you follow links to websites not affiliated or controlled by us, you should review their privacy and security policies and other terms and conditions. We do not guarantee and are not responsible for the privacy or security of such websites, including the accuracy, completeness, or reliability of information found on these websites. 
+
+### Data Security and Retention of Your Information
+
+We implement and maintain reasonable safeguards designed to protect your personal information from unauthorized access, use, or disclosure. However, no method of transmission over the Internet or electronic storage is completely secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee absolute security. Any information you transmit to us is at your own risk. We recommend that you do not transmit sensitive or confidential information through unsecured channels. We retain your personal information for as long as necessary to fulfill the purposes for which it was collected, including to provide the products you ordered, comply with legal and regulatory obligations, resolve disputes, and for other legitimate business purposes. When personal information is no longer needed, we will securely delete or anonymize it in accordance with our data retention policies and applicable law. Arcane Peptides shall have no obligation to retain personal information beyond the minimum period required by applicable law. 
+
+### Your Rights and Choices
+
+Depending on your location and applicable law, you may have some or all of the rights listed below in relation to your personal information. However, these rights are not absolute and may apply only in certain circumstances. In certain cases, we may decline your request where permitted or required by law, such as when we need to retain information to comply with legal obligations or to establish, exercise, or defend legal claims. If we decline your request, we will provide you with a brief explanation to the extent required by applicable law. 
+
+  * **Right to Access/Know:** You may have a right to request access to the personal information we hold about you, including details relating to the ways in which we use and share your information
+  * **Right to Delete:** You may have a right to request that we delete personal information we maintain about you
+  * **Right to Correct:** You may have a right to request that we correct inaccurate personal information we maintain about you
+  * **Right of Portability:** You may have a right to receive a copy of the personal information we hold about you and request that we transfer it to a third party, in certain circumstances and with certain exceptions
+  * **Restriction of Processing:** You may have the right to ask us to stop or restrict our processing of personal information
+  * **Withdrawal of Consent:** Where we rely on consent to process your personal information, you may have the right to withdraw this consent
+  * **Appeal:** You may have a right to appeal our decision if we decline to process your request
+  * **Managing Communication Preferences:** You may opt out of receiving marketing communications
+
+To exercise any of these rights, please contact us using the contact details provided below. We will not discriminate against you for exercising any of these rights. We may need to collect information from you to verify your identity, such as your email address or other identifying information, before providing a substantive response to the request. In accordance with applicable laws, you may designate an authorized agent to make requests on your behalf to exercise your rights. Before accepting such a request from an agent, we will require that the agent provide proof that you have authorized them to act on your behalf, and we may need you to verify your identity directly with us. We will respond to your request within the timeframe required by applicable law, typically within thirty (30) to forty-five (45) days of receipt, and will notify you if we need additional time. If you have any questions about our Privacy Policy, please feel free to contact us by email at [[email protected]](/cdn-cgi/l/email-protection). 
+
+## AFFILIATE PROGRAM TERMS (IF APPLICABLE)
+
+Arcane Peptides reserves the right to modify or terminate its affiliate program or terms at any time in its sole discretion, with or without notice. Violations of affiliate program policies, including, but not limited to: 
+
+  * Promoting on third-party discount code or coupon websites,
+  * Engaging in self-purchases to earn commission, or
+  * Violating Affiliate Program Guidelines
+
+will result in immediate termination of the affiliate account and forfeiture of any unpaid commissions, without any refund or compensation. Terminated affiliates are permanently barred from re-enrolling in the program. Arcane Peptides’s determination of a violation shall be final and binding. 
+
+## GOVERNING LAW AND JURISDICTION; DISPUTE RESOLUTION
+
+These Terms are governed by and construed in accordance with the laws of the State of Wyoming, without regard to its conflict of law principles. The parties agree to attempt, in good faith, to resolve any dispute related to these Terms through informal negotiation for thirty (30) days prior to commencing any formal dispute resolution proceedings. Failure to comply with this informal negotiation requirement shall result in dismissal of any arbitration or court proceeding without prejudice, and the non-complying party shall bear all costs and fees incurred by the other party in connection with such premature filing. Any unresolved disputes arising out of or relating to these Terms, including disputes regarding the validity, interpretation, breach, or termination of these Terms, shall be finally resolved by binding arbitration administered by the American Arbitration Association (AAA) in accordance with its Commercial Arbitration Rules then in effect. The arbitration shall be conducted in Wyoming, and judgment on the arbitration award may be entered in any court having jurisdiction. Each party shall bear its own costs and attorneys’ fees; provided, however, that the prevailing party in any arbitration or litigation shall be entitled to recover its reasonable attorneys’ fees and costs from the non-prevailing party. Notwithstanding the foregoing, Arcane Peptides may seek injunctive or other equitable relief in any court of competent jurisdiction to protect its intellectual property rights, confidential information, or to enforce payment obligations, without the requirement of posting a bond. The Customer may seek injunctive relief only in Wyoming state or federal courts. 
+
+## ENTIRE AGREEMENT
+
+These Terms and any terms and agreements expressly incorporated herein by reference constitute the sole and entire agreement between you and Arcane Peptides regarding the Website and the purchase and use of products, and supersede all prior and contemporaneous understandings, agreements, representations, and warranties, both written and oral, relating to the subject matter hereof. No amendment, modification, or waiver of any provision of these Terms shall be effective unless in writing and signed by an authorized officer of Arcane Peptides. Any waiver of a breach of these Terms shall not constitute a waiver of any subsequent breach. 
+
+## CHANGES TO TERMS
+
+Arcane Peptides reserves the right to update, modify, or replace any part of these Terms at any time in its sole discretion. Changes will be posted on this webpage and, for material changes, Arcane Peptides may provide notice via email to the address associated with your account. Changes will become effective immediately upon posting unless otherwise specified. It is your responsibility to check this webpage periodically for changes. Your continued use of or access to the Website or purchase of products following the posting of any changes constitutes your acceptance of and agreement to the modified terms. If you do not agree to the modified terms, your sole remedy is to discontinue use of the Website and products. 
+
+## SEVERABILITY
+
+If any provision of these Terms is held by a court or other tribunal of competent jurisdiction to be invalid, illegal, or unenforceable for any reason, such provision shall be reformed to the minimum extent necessary to make it valid and enforceable while preserving its intent, or if such reformation is not possible, such provision shall be eliminated or limited to the minimum extent such that the remaining provisions of the Terms will continue in full force and effect. The invalidity or unenforceability of any provision shall not affect the validity or enforceability of any other provision. 
+
+## HEADINGS
+
+The headings contained in these Terms are for reference only. 
+
+## FORCE MAJEURE
+
+Arcane Peptides shall not be liable for any delay or failure in performance caused by circumstances beyond its reasonable control, including, without limitation, acts of God, war, terrorism, civil unrest, government actions, labor disputes, supplier failures, transportation disruptions, delays due to back orders of requested products, mail delays, customs delays, or lost shipments. Arcane Peptides shall not be responsible to notify the Customer in the event of such delays, though it may do so as a courtesy. The Customer shall be solely responsible to make other arrangements to purchase alternative products and cover any costs incurred in connection with such purchases. In the event of a force majeure lasting more than ninety (90) days, either party may terminate the affected order without liability. 
+
+## CONTACT US
+
+For questions, concerns, or requests regarding these Terms, please contact our support team at: 
+
+  * Email: [[email protected]](/cdn-cgi/l/email-protection)
+
+
+
+## ACKNOWLEDGMENT
+
+BY USING THE WEBSITE OR PURCHASING ARCANE PEPTIDES PRODUCTS, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THESE TERMS. YOU SPECIFICALLY ACKNOWLEDGE THE RESEARCH USE ONLY (RUO) DESIGNATION OF ALL PRODUCTS AND AGREE THAT PRODUCTS ARE NOT INTENDED FOR DIAGNOSTIC, THERAPEUTIC, OR CLINICAL USE. YOU AGREE TO COMPLY WITH ALL APPLICABLE REGULATIONS AND ACKNOWLEDGE THAT MISUSE OF ARCANE PEPTIDES PRODUCTS MAY RESULT IN CIVIL AND CRIMINAL LIABILITY. YOU FURTHER ACKNOWLEDGE THAT ARCANE PEPTIDES HAS NO LIABILITY FOR ANY UNAUTHORIZED OR IMPROPER USE OF ITS PRODUCTS. 
+
+[](https://arcanepeptides.com/)
+
+Specialized peptides advancing the edge of scientific research.
+
+**Shipping & Support Hours:** Monday - Friday 9AM - 5PM PST
+
+[ ](https://www.instagram.com/arcane_peptides)
+
+### Support
+
+  * [ COA Library  ](/lab-results/)
+  * [ Order Tracking ](/order-tracking/)
+  * [ FAQs ](https://arcanepeptides.com/faqs/)
+  * [ Contact Us ](/contact-us/)
+
+
+
+### Company
+
+  * [ Terms of Service ](/terms-of-service)
+  * [ Refunds & Returns ](/shipping-refunds-returns-policy/)
+
+
+
+## Arcane Newsletter
+
+Disclaimer: These products are intended for laboratory research purposes only, and are not for human or animal consumption. The products are not intended to diagnose, treat, cure, or prevent any disease. The products should not be used as a food, drug, cosmetic, or other household use. By accessing this website or purchasing from this website, you agree that that it is your sole responsibility to ensure compliance with applicable laws and regulations within your jurisdiction; and you understand and acknowledge that no information on this website should be construed as medical advice. You also acknowledge and agree that you have read the [Terms of Service](https://arcanepeptides.com/terms-of-service/) available on this website and agree that your rights and responsibilities are governed by the [Terms of Service](https://arcanepeptides.com/terms-of-service/) on this website. Arcane Peptides is a chemical supplier and is not a compounding pharmacy or chemical compounding facility as defined under Section 503A of the Federal Food, Drug, and Cosmetic Act. Additionally, Arcane Peptides is not an outsourcing facility as defined under Section 503B of the same Act. 
+
+© 2026 Arcane Peptides All rights reserved.
+
+  * [Home](/)
+  * [Shop](https://arcanepeptides.com/shop/)
+    * Categories
+      * [Peptides](https://arcanepeptides.com/shop/?product-cato=66)
+      * [Liquids](https://arcanepeptides.com/shop/?product-cato=68)
+      * [Powders](https://arcanepeptides.com/shop/?product-cato=96)
+    * [Top Products](https://arcanepeptides.com/shop/?orderby=popularity)
+    * [New Arrivals](https://arcanepeptides.com/shop/?orderby=date)
+  * [FAQs](https://arcanepeptides.com/faqs/)
+  * [COA Library](https://arcanepeptides.com/lab-results/)
+  * [Order Tracking](https://arcanepeptides.com/order-tracking/)
+  * [Contact Us](https://arcanepeptides.com/contact-us/)
+
+
+
+## Shopping Cart0
+
+No products in the cart.
+
+## Login
+
+Remember me
+
+Log in [Lost your password?](https://arcanepeptides.com/my-account/lost-password/)
+
+## Disclaimer!
+
+**All products on this website are to be used strictly only for research purposes.**  
+The products on this website must not be used for: **(1)** human or animal consumption; or **(2)** diagnosing, treating, curing, or preventing any disease.   
+  
+**By clicking Agree, you confirm:**  
+**(1)** you are at least 18 years of age; **(2)** you are a qualified researcher; **(3)** you will not use these products for human or animal consumption; **(4)** you accept full responsibility for compliance; and **(5)** if you buy any products from the website, you will comply with [Terms of Service](https://arcanepeptides.com/terms-of-service/) that is available on the homepage of the website.
+
+You are not permitted to access this website due to insufficient qualifications.
+
+I Agree I Disagree

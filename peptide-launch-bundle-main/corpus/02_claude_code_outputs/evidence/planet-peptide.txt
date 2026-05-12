@@ -1,0 +1,896 @@
+[CLAIM] country_of_operation
+[URL] https://planetpeptide.com/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/homepage.md
+[LINE_RANGE] 106-106
+[QUOTE]
+"1201 6th Ave W Ste. 100, Bradenton, FL 34205"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://planetpeptide.com/shipping-return-policy/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/shipping.md
+[LINE_RANGE] 35-36
+[QUOTE]
+"All orders placed with Planet Peptide will be shipped via FedEx, UPS, or USPS. with delivery confirmation. Orders placed Monday through Friday, excluding holidays and weekends, will ship the next day after order is placed."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://planetpeptide.com/shipping-return-policy/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/shipping.md
+[LINE_RANGE] 43-44
+[QUOTE]
+"Domestic Shipping"
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2024
+[REASONING]
+The WordPress/WooCommerce site JSON-LD schema graph shows "datePublished":"2024-05-26T10:14:46+00:00" for the homepage. No explicit founding year statement appears on the Our Story page or any other page. The schema date is the earliest documented site creation date.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://planetpeptide.com/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/source_homepage.md
+[LINE_RANGE] 8-8
+"WordPress/WooCommerce detected."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://planetpeptide.com/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/homepage.md
+[LINE_RANGE] 152-152
+"Copyright © 2026 Planet Peptide - All Rights Reserved"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://planetpeptide.com/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/homepage.md
+[LINE_RANGE] 28-30
+[QUOTE]
+"# Planet Peptide Quality, Affordable, Research Peptides
+
+**Innovative cutting-edge research peptides designed for research and development endeavors.**"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://planetpeptide.com/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/homepage.md
+[LINE_RANGE] 32-32
+[QUOTE]
+"[Shop now](https://planetpeptide.com/shop-peptides/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://planetpeptide.com/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/homepage.md
+[LINE_RANGE] 14-25
+[QUOTE]
+"  * [Home](https://planetpeptide.com/)
+  * [Shop Peptides](https://planetpeptide.com/shop-peptides/)
+  * [Bulk Offers](https://planetpeptide.com/bulk-offers/)
+  * [MONTHLY AD](https://planetpeptide.com/monthly-ad/)
+  * [Our Story](https://planetpeptide.com/our-story/)
+  * [Contact Us](https://planetpeptide.com/contact/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://planetpeptide.com/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/homepage.md
+[LINE_RANGE] 144-150
+[QUOTE]
+"**FDA Disclaimer:** _The content and products mentioned on this website have not been evaluated by the U.S. Food and Drug Administration (FDA). These products are not intended to diagnose, treat, cure, or prevent any disease. All products are sold exclusively for research, laboratory, or analytical purposes and are not intended for human consumption. The information provided is strictly for informational purposes only._
+
+**All****products are sold for research,** laboratory, or **analytical purposes only, and are****not****for human****consumption**. **PRODUCTS ARE NOT FOR RESALE.**
+
+_NEOS BIO, LLC dba Planet Peptide is a chemical supplier. NEOS BIO, LLC dba Planet Peptide is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. NEOS BIO, LLC dba Planet Peptide is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic act. The statements made within this website have not been evaluated by the US Food and Drug Administration. The products we offer are not intended to diagnose, treat, cure or prevent any disease. __Human/Animal Consumption Prohibited. Laboratory In-Vitro Experimental Use Only._"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://planetpeptide.com/shop-peptides/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/catalog_1.md
+[LINE_RANGE] 88-88
+[QUOTE]
+"Showing all 58 results"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://planetpeptide.com/shop-peptides/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/catalog_1.md
+[LINE_RANGE] 35-38
+[QUOTE]
+"#### Bulk Offers
+
+  * [Bulk AOD-9604 5MG x 10 Vials](https://planetpeptide.com/?post_type=product&p=6173)
+  * [Bulk BPC-157 10MG x 10 Vials](https://planetpeptide.com/shop/bulk-bpc-157-10mg/)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://planetpeptide.com/shop-peptides/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/catalog_1.md
+[LINE_RANGE] 26-28
+[QUOTE]
+"#### Search
+
+Search for: Search"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://planetpeptide.com/shop/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 42-44
+[QUOTE]
+"# BPC-157 10MG
+
+$37.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://planetpeptide.com/shop/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 95-97
+[QUOTE]
+"Total Volume |  10 MG
+Concentration |  10 milligrams per vial."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://planetpeptide.com/shop/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$37.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://planetpeptide.com/shop/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 46-47
+[QUOTE]
+"BPC-157 Lyophilized Powder offers a high-quality solution, providing 10 milligrams (mg) of pure BPC-157. BPC-157 is a synthetic peptide consisting of 15 amino acids. Our BPC-157 is meticulously processed to maintain its integrity and stability, making it an excellent choice for various scientific applications."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://planetpeptide.com/shop/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 73-73
+[QUOTE]
+"This product is solely intended for research purposes as a chemical compound. Its designation permits its use exclusively for in vitro testing and laboratory experimentation. All information regarding this product provided on our website is purely educational. By law, any form of bodily introduction of this product into humans or animals is strictly prohibited. It should only be handled by professionals who are licensed and qualified. This product is neither a drug, food, nor cosmetic, and must not be misrepresented, misused, or mislabeled as such."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://planetpeptide.com/shop/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 131-135
+[QUOTE]
+"## Lab Report
+
+| **Date Added** |  6/25/24
+---|---|---
+**Lab Results** |  **Avg. Purity: 98.528%** **Avg. Mass: 10.37 mg** **View Report:** [Click Here](https://planetpeptide.com/wp-content/uploads/2024/05/Chromate_Job_20832.png)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://planetpeptide.com/shop/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 135-135
+[QUOTE]
+"**View Report:** [Click Here](https://planetpeptide.com/wp-content/uploads/2024/05/Chromate_Job_20832.png)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://planetpeptide.com/shop/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 131-135
+[QUOTE]
+"| **Date Added** |  6/25/24
+---|---|---
+**Lab Results** |  **Avg. Purity: 98.528%** **Avg. Mass: 10.37 mg** **View Report:** [Click Here](https://planetpeptide.com/wp-content/uploads/2024/05/Chromate_Job_20832.png)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://planetpeptide.com/shop/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 152-153
+[QUOTE]
+"##  Reviews
+
+Be the first to review "BPC-157 10MG""
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://planetpeptide.com/shop/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 164-170
+[QUOTE]
+"## Related products
+
+  * ## [Tirzepatide-RUO 10MG $70.00 ](https://planetpeptide.com/shop/tirz-10mg/)
+  * ## [TB-500 10MG $55.00 ](https://planetpeptide.com/shop/tb-500-10mg/)
+  * [ Sale! Cagrilintide-RUO 10MG ~~$ 80.00~~ Original price was: $80.00.$55.00Current price is: $55.00. ](https://planetpeptide.com/shop/cagrulitide-10mg/)
+  * ## [MOTS-c 10MG $55.00 ](https://planetpeptide.com/shop/mots-c-10mg/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://planetpeptide.com/shop/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 30-40
+[QUOTE]
+"[](https://planetpeptide.com/wp-content/uploads/2024/05/34.png)
+
+[](https://planetpeptide.com/wp-content/uploads/2024/10/IMG_8108.jpeg)
+
+[](https://planetpeptide.com/wp-content/uploads/2024/05/IMG_7523.jpeg)
+
+[](https://planetpeptide.com/wp-content/uploads/2024/05/IMG_7891.jpeg)
+
+[](https://planetpeptide.com/wp-content/uploads/2024/05/IMG_7892.jpeg)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://planetpeptide.com/shop/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 73-73
+[QUOTE]
+"This product is solely intended for research purposes as a chemical compound. Its designation permits its use exclusively for in vitro testing and laboratory experimentation."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://planetpeptide.com/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/homepage.md
+[LINE_RANGE] 152-156
+[QUOTE]
+"## ATTENTION: MANDATORY LEGAL DISCLAIMER
+
+ATTENTION: MANDATORY LEGAL DISCLAIMER By clicking "I AGREE", you certify under penalty of perjury that you are 21 or older. I. RESEARCH USE ONLY: All products are for laboratory research only. They are NOT for human or animal consumption and are not drugs, supplements, cosmetics, or household chemicals."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://planetpeptide.com/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/homepage.md
+[LINE_RANGE] 131-131
+[QUOTE]
+"[Terms & Conditions](https://planetpeptide.com/terms-and-conditions/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://planetpeptide.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/tos.md
+[LINE_RANGE] 45-47
+[QUOTE]
+"All e-Check/ACH payments are to be made payable to NEOS BIO, LLC. Planet Peptide IS A DBA OF NEOS BIO, LLC. By authorizing Planet Peptide to initiate an electronic debit to your account, you agree that the transaction complies with all applicable laws. Payments made after 4 P.M. Eastern Time will be processed the next business day. To finalize your order, click the "Place Order" button. Once payment is authorized, changes or corrections cannot be made. Please print a copy of this authorization for your records.
+
+All Credit Card Payments will appear on your statement as NEOS BIO, LLC."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://planetpeptide.com/shipping-return-policy/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/refund.md
+[LINE_RANGE] 56-56
+[QUOTE]
+"Satisfaction Guaranteed or Your Money Back. We stand behind all our products with a 30-day money-back guarantee. If you have an issue with a particular product(s) you purchased, you may return the unopened product(s) within 30 days of purchase for a refund minus the initial shipping charge, or exchange for the same or lesser value."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://planetpeptide.com/shipping-return-policy/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/shipping.md
+[LINE_RANGE] 43-50
+[QUOTE]
+"  * Express Shipping: 2-8 business days – $15.00 vis FedEx, UPS, or USPS Priority
+  * FedEx or UPS Overnight: 1-2 business days – $50.00
+
+We also offer a FREE Express Shipping option for USA Domestic orders over $300."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://planetpeptide.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/tos.md
+[LINE_RANGE] 45-47
+[QUOTE]
+"All e-Check/ACH payments are to be made payable to NEOS BIO, LLC. Planet Peptide IS A DBA OF NEOS BIO, LLC.
+
+All Credit Card Payments will appear on your statement as NEOS BIO, LLC."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://planetpeptide.com/shipping-return-policy/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/shipping.md
+[LINE_RANGE] 35-35
+[QUOTE]
+"All orders placed with Planet Peptide will be shipped via FedEx, UPS, or USPS. with delivery confirmation."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://planetpeptide.com/shipping-return-policy/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/shipping.md
+[LINE_RANGE] 43-50
+[QUOTE]
+"  * Express Shipping: 2-8 business days – $15.00 vis FedEx, UPS, or USPS Priority
+  * FedEx or UPS Overnight: 1-2 business days – $50.00
+
+We also offer a FREE Express Shipping option for USA Domestic orders over $300. The time of arrival estimates are calculated from the day your order ships, excluding any FedEx, UPS, or USPS delays or holidays."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://planetpeptide.com/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/source_homepage.md
+[LINE_RANGE] 8-14
+[QUOTE]
+"WordPress/WooCommerce detected.
+
+Platform signals from raw HTML source:
+- woocommerce/assets/css/woocommerce-layout.css?ver=10.7.0
+- woocommerce/assets/css/woocommerce.css?ver=10.7.0
+- wp-content/plugins/edebit-woo-draft-2.0/assets/css/style.css?ver=1.0 (eDebit payment plugin)
+- WordPress (wp-json, wp-content)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://planetpeptide.com/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/source_homepage.md
+[LINE_RANGE] 30-30
+[QUOTE]
+"- Cloudflare (server: cloudflare in HTTP headers)"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://planetpeptide.com/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/source_homepage.md
+[LINE_RANGE] 18-19
+[QUOTE]
+"- GA4: G-PKD1ELMTP8 (Google Tag Manager)
+- gtag script: https://www.googletagmanager.com/gtag/js?id=G-PKD1ELMTP8"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://planetpeptide.com/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/source_homepage.md
+[LINE_RANGE] 22-22
+[QUOTE]
+"- TikTok pixel present"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://planetpeptide.com/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/source_homepage.md
+[LINE_RANGE] 26-26
+[QUOTE]
+"- Crisp chat (window.$crisp detected)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://planetpeptide.com/blog/
+[FETCHED_AT] 2026-05-07T18:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/blog_1.md
+[LINE_RANGE] 25-30
+[QUOTE]
+"Select Page"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://planetpeptide.com/shop/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 152-157
+[QUOTE]
+"##  Reviews
+
+Be the first to review "BPC-157 10MG" [Cancel reply](/shop/bpc-157-10mg/#respond)
+
+Your email address will not be published. Required fields are marked *
+
+Your rating Rate… Perfect Good Average Not that bad Very poor"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://planetpeptide.com/shop/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 152-153
+[QUOTE]
+"##  Reviews
+
+Be the first to review "BPC-157 10MG""
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://planetpeptide.com/
+[FETCHED_AT] 2026-05-07T18:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/homepage.md
+[LINE_RANGE] 1-151
+[QUOTE]
+"Select Page"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:bpc-157-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_1__bpc-157-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$37.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:bulk-bpc-157-10mg-x10].list_price_usd
+[URL] https://planetpeptide.com/bulk-offers/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/bulk_offers.md
+[LINE_RANGE] 36-36
+[QUOTE]
+"  * ## [Bulk BPC-157 10MG x 10 Vials $350.00 ](https://planetpeptide.com/shop/bulk-bpc-157-10mg/)"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:tb-500-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/tb-500-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_2__tb-500-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$55.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:semaglutide-ruo-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/semaglutide-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_3__semaglutide-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"~~$ 70.00~~ Original price was: $70.00.$50.00Current price is: $50.00."
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:tirzepatide-ruo-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/tirz-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_4__tirz-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$70.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:retatrutide-ruo-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/retatrutide-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_5__retatrutide-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"~~$ 80.00~~ Original price was: $80.00.$55.00Current price is: $55.00."
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:ghk-cu-100mg].list_price_usd
+[URL] https://planetpeptide.com/shop/ghk-cu/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_6__ghk-cu-100mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"~~$ 50.00~~ Original price was: $50.00.$35.00Current price is: $35.00."
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:mots-c-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/mots-c-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_7__mots-c-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$55.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:selank-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/selank-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_8__selank-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$45.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:semax-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/semax-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_9__semax-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"~~$ 40.00~~ Original price was: $40.00.$27.00Current price is: $27.00."
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:ipamorelin-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/ipamorelin-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_10__ipamorelin-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$60.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:epitalon-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/epitalon-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_11__epitalon-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$40.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:nad-500mg].list_price_usd
+[URL] https://planetpeptide.com/shop/nad-160mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_12__nad-500mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"~~$ 75.00~~ Original price was: $75.00.$50.00Current price is: $50.00."
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:pt-141-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/pt-141/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_13__pt-141.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$45.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:cjc-1295-nodac-ipamorelin-5-5].list_price_usd
+[URL] https://planetpeptide.com/shop/cjc-ipamorelin-5-5/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_14__cjc-ipamorelin-5-5.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$60.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:melanotan-ii-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/melanotan-ii-mt2-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_15__melanotan-ii-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$50.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:cagrilintide-ruo-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/cagrulitide-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_16__cagrilintide-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"~~$ 80.00~~ Original price was: $80.00.$55.00Current price is: $55.00."
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:aod-9604-5mg].list_price_usd
+[URL] https://planetpeptide.com/shop/aod-9604-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_17__aod-9604-5mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$50.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:dsip-5mg].list_price_usd
+[URL] https://planetpeptide.com/shop/dsip-5mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_18__dsip-5mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$50.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:kpv-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/kpv-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_19__kpv-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$75.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:ll-37-5mg].list_price_usd
+[URL] https://planetpeptide.com/shop/ll-37-5mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_20__ll-37-5mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$55.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:pinealon-20mg].list_price_usd
+[URL] https://planetpeptide.com/shop/pinealon/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_21__pinealon-20mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$75.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:snap-8-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/snap-8/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_22__snap-8-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"~~$ 40.00~~ Original price was: $40.00.$27.00Current price is: $27.00."
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:thymosin-alpha-1].list_price_usd
+[URL] https://planetpeptide.com/shop/thymosin-aplha-1/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_23__thymosin-alpha-1.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"~~$ 65.00~~ Original price was: $65.00.$50.00Current price is: $50.00."
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:pnc-27-30mg].list_price_usd
+[URL] https://planetpeptide.com/shop/pnc-27/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_24__pnc-27-30mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"~~$ 150.00~~ Original price was: $150.00.$55.00Current price is: $55.00."
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:prostamax-20mg].list_price_usd
+[URL] https://planetpeptide.com/shop/prostamax-20mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_25__prostamax-20mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$75.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:melanotan-i-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/melanotan-i-mt-1-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_26__melanotan-i-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$50.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:retatrutide-ruo-20mg].list_price_usd
+[URL] https://planetpeptide.com/shop/retatrutide-20mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_27__retatrutide-20mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$129.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:retatrutide-ruo-30mg].list_price_usd
+[URL] https://planetpeptide.com/shop/retatrutide-ruo-30mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_28__retatrutide-30mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$140.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:retatrutide-ruo-40mg].list_price_usd
+[URL] https://planetpeptide.com/shop/retatrutide-ruo-40mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_29__retatrutide-40mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$160.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:tirzepatide-ruo-30mg].list_price_usd
+[URL] https://planetpeptide.com/shop/tirzepatide-30mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_30__tirzepatide-30mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$120.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:tirzepatide-ruo-60mg].list_price_usd
+[URL] https://planetpeptide.com/shop/tirzepatide-ruo-60mg-coming-soon/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_31__tirzepatide-60mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$140.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:bpc-157-tb-500-blend-10-10].list_price_usd
+[URL] https://planetpeptide.com/shop/bpc-157-tb-500-10-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_32__bpc157-tb500-blend.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$60.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:bpc-157-tb-500-ghkcu-blend].list_price_usd
+[URL] https://planetpeptide.com/shop/bpc-157-tb-500-ghk-cu/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_33__bpc157-tb500-ghkcu-blend.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$85.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:bpc-157-tb-500-kpv-ghkcu-blend].list_price_usd
+[URL] https://planetpeptide.com/shop/bpc-157-tb-500-kpv-ghk-cu-10-10-10-50/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_34__bpc157-tb500-kpv-ghkcu-blend.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"~~$ 105.00~~ Original price was: $105.00.$65.00Current price is: $65.00."
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:5-amino-1mq].list_price_usd
+[URL] https://planetpeptide.com/shop/5-amino-1mq/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_35__5-amino-1mq.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$75.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:tesamorelin-10mg].list_price_usd
+[URL] https://planetpeptide.com/shop/tesamorelin-10mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_36__tesamorelin-10mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"~~$ 65.00~~ Original price was: $65.00.$50.00Current price is: $50.00."
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:tesamorelin-20mg].list_price_usd
+[URL] https://planetpeptide.com/shop/tesamorelin-20mg/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_37__tesamorelin-20mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$85.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:tesaipa-blend-10-3mg].list_price_usd
+[URL] https://planetpeptide.com/shop/tesaipa-blend-10-3mg-copy/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_38__tesaipa-blend.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"$75.00"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:glutathione-1500mg].list_price_usd
+[URL] https://planetpeptide.com/shop/glutathione-1500mg-copy/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/product_39__glutathione-1500mg.md
+[LINE_RANGE] 44-44
+[QUOTE]
+"~~$ 75.00~~ Original price was: $75.00.$50.00Current price is: $50.00."
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:bulk-tb-500-10mg-x10].list_price_usd
+[URL] https://planetpeptide.com/bulk-offers/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/bulk_offers.md
+[LINE_RANGE] 46-46
+[QUOTE]
+"  * ## [Bulk TB-500 10MG x 10 Vials $500.00 ](https://planetpeptide.com/shop/bulk-tb-500-5mg-x-10-vials/)"
+[/QUOTE]
+
+[CLAIM] skus[planet-peptide:bulk-semaglutide-ruo-10mg-x10].list_price_usd
+[URL] https://planetpeptide.com/bulk-offers/
+[FETCHED_AT] 2026-05-07T18:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/planet-peptide/bulk_offers.md
+[LINE_RANGE] 40-40
+[QUOTE]
+"  * ## [Bulk Semaglutide-RUO 10MG x 10 Vials $500.00 ](https://planetpeptide.com/shop/bulk-semaglutide-10mg/)"
+[/QUOTE]

@@ -1,0 +1,219 @@
+{
+  "vendor_slug": "austropeptide",
+  "brand_name": "AustroPeptide",
+  "primary_domain": "https://austropeptide.com",
+
+  "fetched_url": "https://austropeptide.com/",
+  "fetched_at": "2026-05-07T00:00:00Z",
+  "fetch_status": "partial",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed — Tier 3: Defunct Chinese vendor sued by Lilly ITC Investigation No. 337-TA-1377; site in maintenance mode since at least December 2024; subject to Limited Exclusion Order issued April 2025)",
+  "field_completion_ratio": 0.56,
+
+  "country_of_operation": "uncertain — site claims R&D in Austria and manufacturing in Asia and EU; legal entity named in ITC complaint is Xiamen Austronext Trading Co., Ltd. (China); Wayback 2024 snapshot states 'We don't have any offices or facilities in China or Hongkong China' but ITC proceedings identify Xiamen entity",
+  "fulfillment_country": "uncertain — site advertised domestic warehouses in USA, Europe, South Korea, Singapore, Thailand, Vietnam; claimed 'Our manufacturing plants are in Asia and the EU'",
+  "ship_to_scope": "us_intl",
+  "year_established": "2004",
+
+  "homepage": {
+    "hero_copy_excerpt": "Manufacturer of peptides - Amino Acids-SARMS -NOOTROPICS , DROPPPERS, NASAL SPRAY,CAPSULES.",
+    "hero_imagery_style": "anonymous",
+    "primary_cta": "uncertain — site in maintenance mode at time of live fetch; 2023 archive shows category navigation as primary CTA pattern",
+    "navigation_pattern": "Mega-menu with PEPTIDES (A-F, G-O, P-Z), OTHERS (amino/peptides, GLP-1, LL37, MOT-C, NAD+, etc.), SARMS, NOOTROPICS, Products (by category and application), Contact",
+    "footer_disclaimers": "Copyright © 2004-2022 -AUSTROPEPTIDE.com"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain — hundreds of SKUs visible across peptides, SARMS, nootropics, research oils; BPC-157 category alone shows 8+ pages of products; no single total count extracted",
+    "category_taxonomy": [
+      "PEPTIDES (A-F, G-O, P-Z)",
+      "BLEND PEPTIDES",
+      "WHOLESALE PEPTIDES",
+      "BEAUTY PEPTIDES",
+      "OTHER AMINO & PEPTIDES",
+      "SARMS",
+      "NOOTROPICS",
+      "NASAL SPRAY",
+      "CAPSULES",
+      "DROPPERS",
+      "RESEARCH OILS",
+      "LAB SUPPLIES",
+      "PHARMACEUTICAL MACHINES",
+      "HOT SALE PACKS",
+      "CUSTOM PEPTIDES",
+      "VITAMIN PEPTIDES",
+      "SKIN CARE",
+      "PACKING MATERIALS"
+    ],
+    "search_filter_capabilities": "uncertain — category navigation observed; no search filter UI detail captured",
+    "stack_bundle_pages_present": "true"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "https://web.archive.org/web/20200805074056/http://www.austropeptide.com/product/bpc-157-10mg/",
+    "sample_product_name": "BPC 157 10 mg",
+    "dose_options": ["10mg"],
+    "list_price": "$13.00",
+    "per_mg_cost": "$1.30",
+    "photographic_treatment": "uncertain — images referenced in archived HTML but not directly visible in text output",
+    "description_copy_excerpt": "BPC-157 10mg Molecular formula: C62H98N16O22 Molar Mass: 1419.53552 g/mol CAS: 137525-51-0 price is base on per vial",
+    "exact_disclaimer_language": "Important Notification: All of our products and services listed in this website are for research or production use only, not for direct human use.",
+    "coa_present": "uncertain — no COA link or COA hosting page identified in archived pages; purity % referenced in site FAQ text but no hosted COA documents found",
+    "coa_hosting": "none",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "true",
+    "related_product_modules_present": "true"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "These PRODUCTS ARE INTENDED AS A RESEARCH CHEMICAL ONLY. This designation allows the use of research chemicals strictly for in vitro testing and laboratory experimentation only. All product information available on this website is for educational purposes only. Bodily introduction of any kind into humans or animals is strictly forbidden by law.",
+    "age_gate_present": "true",
+    "jurisdictional_restriction_notice": "uncertain — site states customer must research own country's laws; no explicit list of restricted jurisdictions found in archived pages",
+    "tos_url": "https://web.archive.org/web/20231020121930/http://austropeptide.com/terms-conditions/",
+    "tos_highlights": "18+ age requirement; no refunds after successful shipment; products for laboratory/research use only; buyer assumes responsibility for country regulations; products not for resale",
+    "refund_policy": "We are not refunding or accepting for returning our products after we have been shipped successfully.",
+    "shipping_policy": "Ships Mon-Fri; international via TNT, FEDEX, EMS, Hong Kong post, Hong Kong EMS, ARAMEX, DHL; domestic warehouses in USA, Europe, South Korea, Singapore, Thailand, Vietnam; minimum order USD 200 incl. delivery; free shipping over USD 350 for USA/Europe/South Asia"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain — site in maintenance mode; login link present in 2023 archive; checkout flow not walkable",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "false",
+    "payment_methods_accepted": ["wire_transfer", "uncertain — payment page states 'Once you will place an order, you will receive an email included order details... Please Contact us via email for receiving payment information'; page says 'For more payment options, please contact our sales department'"],
+    "shipping_carriers": ["TNT", "FEDEX", "EMS", "Hong Kong Post", "Hong Kong EMS", "ARAMEX", "DHL"],
+    "shipping_cost_structure": "Calculated case-by-case; minimum order USD 200 incl. delivery; orders under USD 200 incur USD 30 handling charge; free shipping over USD 350 for USA/Europe/South Asia; volume discount coupons: 3% at USD 500, 5% at USD 1000, 10% at USD 2000",
+    "international_policy": "Customer responsible for customs regulations; reshipping offered if seized and returned within 5 days; no refund for seized packages"
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://austropeptide.com/blog/",
+    "content_cadence": "uncertain — blog link present in navigation; no blog post content fetched",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "true",
+    "off_site_aggregators": ["Trustpilot (austropeptide.com profile exists; reviews mixed including fraud allegations per web search)"],
+    "testimonial_usage": "Testimonials page linked in footer nav (/testimonials/); on-site star-rated product reviews visible in 2023 archive (e.g., BPC 157 10 mg - 20 vial rated 5/5, RAD150 capsule 25mg x 100 rated 5/5)",
+    "visible_influencer_endorsements": "uncertain — none identified in archived pages"
+  },
+
+  "skus": [
+    {
+      "sku_id": "austropeptide:bpc-157-10mg",
+      "name": "BPC 157 10 mg",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "empty",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "1 vial",
+      "list_price_usd": 13.00,
+      "sale_price_usd": 9.00,
+      "sale_observed_at": "2020-08-05T00:00:00Z",
+      "per_mg_price_usd": 0.9000,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://web.archive.org/web/20200805074056/http://www.austropeptide.com/product/bpc-157-10mg/",
+      "raw_artifact": "03_raw_fetches/austropeptide/product_1__bpc-157-10mg.md",
+      "evidence_entry_id": "claim-sku-bpc157-10mg"
+    },
+    {
+      "sku_id": "austropeptide:bpc-157-10mg-10vial",
+      "name": "BPC 157 10 mg -10 vial",
+      "peptide_canonical": "BPC-157",
+      "peptide_variant": "empty",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "10 vials",
+      "list_price_usd": 190.00,
+      "sale_price_usd": 72.00,
+      "sale_observed_at": "2023-10-03T00:00:00Z",
+      "per_mg_price_usd": 0.7200,
+      "volume_tier_label": "10-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://web.archive.org/web/20231003205843/https://austropeptide.com/product/bpc-157-10-mg-10-vial/",
+      "raw_artifact": "03_raw_fetches/austropeptide/catalog_bpc157.md",
+      "evidence_entry_id": "claim-sku-bpc157-10mg-10vial"
+    },
+    {
+      "sku_id": "austropeptide:tb-500-10mg",
+      "name": "TB-500 10mg",
+      "peptide_canonical": "TB-500",
+      "peptide_variant": "empty",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "1 vial",
+      "list_price_usd": 18.00,
+      "sale_price_usd": 8.50,
+      "sale_observed_at": "2023-09-22T00:00:00Z",
+      "per_mg_price_usd": 0.8500,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://web.archive.org/web/20230922155332/https://austropeptide.com/product/tb-500-10mg/",
+      "raw_artifact": "03_raw_fetches/austropeptide/catalog_tb500.md",
+      "evidence_entry_id": "claim-sku-tb500-10mg"
+    },
+    {
+      "sku_id": "austropeptide:tirzepatide-10mg",
+      "name": "Tirzepatide 10mg",
+      "peptide_canonical": "Tirzepatide",
+      "peptide_variant": "empty",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "",
+      "bottle_size": "1 vial",
+      "list_price_usd": 1500.00,
+      "sale_price_usd": 47.00,
+      "sale_observed_at": "2023-10-20T00:00:00Z",
+      "per_mg_price_usd": 4.7000,
+      "volume_tier_label": "1-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://web.archive.org/web/20231020141907/http://austropeptide.com/product/tirzepatide-10mg/",
+      "raw_artifact": "03_raw_fetches/austropeptide/catalog_tirzepatide.md",
+      "evidence_entry_id": "claim-sku-tirzepatide-10mg"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "austropeptide,AustroPeptide,austropeptide.com,0,00_inputs/vendor_list.csv,\"row from operator-supplied vendor list, classified as Tier 3: Defunct Chinese vendor sued by Lilly.\",3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/austropeptide/",
+  "evidence_file": "evidence/austropeptide.txt",
+  "uncertainty_notes": "country_of_operation: Site claims R&D in Austria; legal entity named in ITC complaint is Xiamen Austronext Trading Co. Ltd. (China); 2024 homepage snapshot states 'We don't have any offices or facilities in China or Hongkong China' while also stating 'Our R&D is in Austria, Our manufacturing plants are in Asia and the EU' — contradictory signals, cannot resolve from public evidence. | fulfillment_country: Multiple regional warehouses claimed (USA, Europe, South Korea, Singapore, Thailand, Vietnam) but cannot be independently verified from archived content. | homepage.primary_cta: Site in maintenance mode at time of live fetch; CTA not extractable from maintenance page. | catalog.sku_count: Hundreds of SKUs across many categories observed; BPC-157 alone spans 8+ catalog pages; no precise count extracted without full enumeration. | catalog.search_filter_capabilities: Not captured from archive. | product_page_anatomy.photographic_treatment: Image file URLs present but image content not accessible from text-only crawl. | product_page_anatomy.coa_present/coa_hosting/lab_partner_named/batch_lot_transparency: No COA page or hosting identified in any archived fetch. | checkout_flow.account_required/guest_checkout_available/fields_collected: Site in maintenance mode at live fetch time; checkout flow not walkable. | checkout_flow.payment_methods_accepted: Payment page (2023 archive) instructs buyers to contact sales by email for payment info after placing order; wire transfer described in detail; 'For more payment options, please contact our sales department' — no exhaustive list of accepted methods found in text. | tech_stack.cdn/analytics_tools_loaded/marketing_pixels_present/chat_widget_present: Not determinable from text-only archive fetch. | content_footprint.content_cadence/topic_taxonomy/author_bylines_present/internal_linking_to_products: Blog URL found but blog content pages not fetched. | social_proof.visible_influencer_endorsements: Not identified in archived pages. | NOTE on ITC action: AustroPeptide (Xiamen Austronext Trading Co., Ltd.) was named as a respondent in USITC Investigation No. 337-TA-1377 filed by Eli Lilly in October 2023 regarding tirzepatide. Vendor was found in default May 2024. A Limited Exclusion Order was issued April 2025 prohibiting importation of AustroPeptide's tirzepatide-purporting products. Testing by Lilly showed AustroPeptide's tirzepatide product contained 'nothing more than a sugar alcohol' rather than tirzepatide. Site has been in maintenance mode since at least December 2024."
+}

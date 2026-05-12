@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "/about.html",
+    "/account.html",
+    "/affiliate.html",
+    "/blog/index.html",
+    "/blog/peptide-storage-best-practices.html",
+    "/blog/understanding-purity-testing.html",
+    "/cart.html",
+    "/checkout.html",
+    "/coa.html",
+    "/contact.html",
+    "/faq.html",
+    "/index.html",
+    "/login.html",
+    "/mta.html",
+    "/order-confirmation.html",
+    "/privacy.html",
+    "/products/bacteriostatic-water-30ml.html",
+    "/products/bpc-157-5mg.html",
+    "/products/cagrilintide-5mg.html",
+    "/products/retatrutide-10mg.html",
+    "/products/semaglutide-5mg.html",
+    "/products/tirzepatide-10mg.html",
+    "/refund-policy.html",
+    "/register.html",
+    "/shipping-and-returns.html",
+    "/shop.html",
+    "/terms.html",
+    "/testing.html"
+  ],
+  "pageCount": 28
+}

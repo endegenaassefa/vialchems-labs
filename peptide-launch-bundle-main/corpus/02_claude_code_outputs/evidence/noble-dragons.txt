@@ -1,0 +1,265 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.nobledragons.com/
+[FETCHED_AT] 2026-05-08T01:42:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/homepage.md
+[LINE_RANGE] 14-16
+[QUOTE]
+"# Artisan Chinese Teas
+
+Premium handcrafted teas from renowned tea masters."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.nobledragons.com/
+[FETCHED_AT] 2026-05-08T01:42:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/homepage.md
+[LINE_RANGE] 18
+[QUOTE]
+"Browse Categories"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.nobledragons.com/
+[FETCHED_AT] 2026-05-08T01:42:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/homepage.md
+[LINE_RANGE] 64-66
+[QUOTE]
+"#### Policies
+
+[Privacy Policy](/privacy-policy)[Terms of Service](/terms-of-service)[Refund Policy](/refund-policy)[Shipping Policy](/shipping-policy)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.nobledragons.com/
+[FETCHED_AT] 2026-05-08T01:42:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/homepage.md
+[LINE_RANGE] 68-70
+[QUOTE]
+"© 2026 Noble Dragons Tea Co. All rights reserved.
+
+Premium teas sourced directly from renowned tea estates."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.nobledragons.com/products
+[FETCHED_AT] 2026-05-08T01:43:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/catalog_1.md
+[LINE_RANGE] 18
+[QUOTE]
+"63 products"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.nobledragons.com/
+[FETCHED_AT] 2026-05-08T01:42:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/homepage.md
+[LINE_RANGE] 40
+[QUOTE]
+"[🍵Pu-erh Tea13 products](/category/puerh)[🫖Black Tea13 products](/category/black)[🌿Green Tea9 products](/category/green)[🍃Oolong Tea22 products](/category/oolong)[🤍White Tea3 products](/category/white)[⬛Hei Cha2 products](/category/heicha)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.nobledragons.com/products
+[FETCHED_AT] 2026-05-08T01:43:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/catalog_1.md
+[LINE_RANGE] 14-18
+[QUOTE]
+"# All Products
+
+Browse our complete collection of premium Chinese teas and teaware
+
+63 products"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.nobledragons.com/terms-of-service
+[FETCHED_AT] 2026-05-08T01:42:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/tos.md
+[LINE_RANGE] 7-9
+[QUOTE]
+"# Terms of Service
+
+Last updated: March 10, 2026"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.nobledragons.com/terms-of-service
+[FETCHED_AT] 2026-05-08T01:42:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/tos.md
+[LINE_RANGE] 11-13
+[QUOTE]
+"**Please read these Terms carefully before using our Website or making a purchase. By using our Website, you confirm that you are at least 18 years of age and agree to these Terms.**"
+[/QUOTE]
+
+[URL] https://www.nobledragons.com/terms-of-service
+[FETCHED_AT] 2026-05-08T01:42:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/tos.md
+[LINE_RANGE] 67-71
+[QUOTE]
+"We accept the following payment methods:
+
+  * **Credit/Debit Cards:** We accept Visa, Mastercard, American Express, and Discover. Payment card transactions are processed by Stripe, Inc. on our behalf. By submitting your card information, you authorize Stripe to process the payment."
+[/QUOTE]
+
+[URL] https://www.nobledragons.com/terms-of-service
+[FETCHED_AT] 2026-05-08T01:42:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/tos.md
+[LINE_RANGE] 195-197
+[QUOTE]
+"## 15\. Governing Law and Jurisdiction
+
+These Terms shall be governed by and construed in accordance with the laws of the State of Wyoming, United States, without regard to its conflict of laws principles."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.nobledragons.com/terms-of-service
+[FETCHED_AT] 2026-05-08T01:42:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/tos.md
+[LINE_RANGE] 107
+[QUOTE]
+"**We offer a 30-day return policy for unopened and sealed products.** If you are not satisfied with your purchase, you may request a return within 30 days of delivery. Products must be in their original, unopened packaging."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.nobledragons.com/shipping-policy
+[FETCHED_AT] 2026-05-08T01:42:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/shipping.md
+[LINE_RANGE] 20
+[QUOTE]
+"**Free Shipping:** Enjoy FREE shipping on all orders of $300 or more! This applies to both domestic and international orders."
+[/QUOTE]
+
+[URL] https://www.nobledragons.com/shipping-policy
+[FETCHED_AT] 2026-05-08T01:42:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/shipping.md
+[LINE_RANGE] 24
+[QUOTE]
+"All orders are processed within **3-5 business days** after payment confirmation."
+[/QUOTE]
+
+[URL] https://www.nobledragons.com/shipping-policy
+[FETCHED_AT] 2026-05-08T01:42:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/shipping.md
+[LINE_RANGE] 38-39
+[QUOTE]
+"  * **FedEx:** Our primary carrier for both domestic and international shipments
+  * **USPS (United States Postal Service):** Available for domestic US shipments"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.nobledragons.com/terms-of-service
+[FETCHED_AT] 2026-05-08T01:42:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/tos.md
+[LINE_RANGE] 69
+[QUOTE]
+"  * **Credit/Debit Cards:** We accept Visa, Mastercard, American Express, and Discover. Payment card transactions are processed by Stripe, Inc. on our behalf."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.nobledragons.com/shipping-policy
+[FETCHED_AT] 2026-05-08T01:42:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/shipping.md
+[LINE_RANGE] 38-39
+[QUOTE]
+"  * **FedEx:** Our primary carrier for both domestic and international shipments
+  * **USPS (United States Postal Service):** Available for domestic US shipments"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.nobledragons.com/shipping-policy
+[FETCHED_AT] 2026-05-08T01:42:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/shipping.md
+[LINE_RANGE] 75-78
+[QUOTE]
+"**Free Shipping Threshold:**
+
+  * Orders totaling **$300 or more** qualify for FREE standard shipping worldwide
+  * Free shipping is automatically applied at checkout when your order meets the minimum threshold"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.nobledragons.com/shipping-policy
+[FETCHED_AT] 2026-05-08T01:42:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/shipping.md
+[LINE_RANGE] 63-67
+[QUOTE]
+"Noble Dragons ships to most countries worldwide. However, due to import restrictions, customs regulations, and shipping limitations, we are **unable to ship to the following countries:**
+
+**Excluded Countries:**
+
+  * Iran
+  * Iraq
+  * Russia
+  * North Korea
+  * Benin
+  * Cameroon
+  * Egypt
+  * Algeria
+  * Bangladesh
+  * Georgia
+  * Sri Lanka"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.nobledragons.com/terms-of-service
+[FETCHED_AT] 2026-05-08T01:42:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/tos.md
+[LINE_RANGE] 207-213
+[QUOTE]
+"  * **Phone:** [+1 (408) 592-9354](tel:+14085929354)
+  * **Address:** 2106 House Ave, Suite 605, Cheyenne, WY 82001, United States
+  * **Website:** [nobledragons.com](https://nobledragons.com)"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.nobledragons.com/shipping-policy
+[FETCHED_AT] 2026-05-08T01:42:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/shipping.md
+[LINE_RANGE] 63
+[QUOTE]
+"Noble Dragons ships to most countries worldwide."
+[/QUOTE]
+
+[CLAIM] tier_rationale
+[URL] https://www.nobledragons.com/
+[FETCHED_AT] 2026-05-08T01:42:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/homepage.md
+[LINE_RANGE] 14-16
+[QUOTE]
+"# Artisan Chinese Teas
+
+Premium handcrafted teas from renowned tea masters."
+[/QUOTE]
+
+[URL] https://www.nobledragons.com/products
+[FETCHED_AT] 2026-05-08T01:43:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/noble-dragons/catalog_1.md
+[LINE_RANGE] 16-18
+[QUOTE]
+"Browse our complete collection of premium Chinese teas and teaware
+
+63 products"
+[/QUOTE]

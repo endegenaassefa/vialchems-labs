@@ -1,0 +1,48 @@
+[CLAIM] country_of_operation
+[URL] https://web.archive.org/web/2022/https://abacusdiagnostica.com
+[FETCHED_AT] 2026-05-07T19:32:14Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abacus-diagnostica/homepage_2022.md
+[LINE_RANGE] 129-132
+[QUOTE]
+**Abacus Diagnostica Oy**
+ElectroCity
+Tykistökatu 4 D, 2nd floor
+20520 Turku, FINLAND
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/2022/https://abacusdiagnostica.com
+[FETCHED_AT] 2026-05-07T19:32:14Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abacus-diagnostica/homepage_2022.md
+[LINE_RANGE] 23-25
+[QUOTE]
+# Enabling Molecular Diagnostics
+
+## Rapid molecular testing for clinical diagnostics
+[/QUOTE]
+
+[CLAIM] tier_rationale (entity identity — not a peptide vendor; defunct/integrated into Uniogen)
+[URL] https://web.archive.org/web/2024/https://abacusdiagnostica.com
+[FETCHED_AT] 2026-05-07T19:31:45Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abacus-diagnostica/homepage.md
+[LINE_RANGE] 8-12
+[QUOTE]
+# Abacus Diagnostica is now part of Uniogen
+
+Three life science companies united their forces in 2022 to form Uniogen – a global diagnostics pioneer and a one-stop-shop for clinical diagnostics, point-of-care testing, and instrumentation for life sciences.
+
+Based in Turku, Southwest Finland, Uniogen is a team of 100 highly motivated life science professionals. Uniogen's products are being used to make clinical diagnosis faster, easier, and more cost-effective in more than 100 countries worldwide.
+[/QUOTE]
+
+[CLAIM] tier_rationale (nature of business — molecular diagnostics, not peptides; merge date 2022)
+[URL] https://web.archive.org/web/2022/https://abacusdiagnostica.com
+[FETCHED_AT] 2026-05-07T19:32:14Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abacus-diagnostica/homepage_2022.md
+[LINE_RANGE] 120-120
+[QUOTE]
+The three growth companies have years of experience in diagnostics: Abacus Diagnostica is a frontrunner in molecular testing and rapid PCR tests, Kaivogen specialises in immunoassays and antibody tests, and Labrox is an innovative developer of laboratory instruments.
+[/QUOTE]

@@ -1,0 +1,795 @@
+[CLAIM] country_of_operation
+[URL] https://olympiaaesthetics.com/contact/
+[FETCHED_AT] 2026-05-07T02:18:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/contact.md
+[LINE_RANGE] 250-252
+[QUOTE]
+33295 US Hwy 19 N, Suite 109
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://olympiaaesthetics.com/semaglutide/
+[FETCHED_AT] 2026-05-07T02:18:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_4__semaglutide.md
+[LINE_RANGE] 263-263
+[QUOTE]
+The compounded formulation we prescribe is prepared by a licensed US compounding pharmacy and dosed to match the titration schedule used in the landmark STEP clinical trial program. Every vial ships directly to your door once your provider has cleared you, and we bundle the needed syringes and alcohol swabs so there’s nothing for you to source.
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[INFERENCE] us_only
+[REASONING]
+The clinic is a single Florida medical-spa location dispensing Rx peptides and compounded GLP-1s under a licensed US compounding pharmacy or US-regulated peptide distributor. The site does not state any non-US shipping option, and the GLP-1 product page describes vials shipping "to your door" only after physician clearance from a US-licensed practice. No international shipping language was observed across any of the 30 fetched artifacts.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://olympiaaesthetics.com/semaglutide/
+[FETCHED_AT] 2026-05-07T02:18:13Z
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_4__semaglutide.md
+[LINE_RANGE] 263-263
+"The compounded formulation we prescribe is prepared by a licensed US compounding pharmacy and dosed to match the titration schedule used in the landmark STEP clinical trial program. Every vial ships directly to your door once your provider has cleared you, and we bundle the needed syringes and alcohol swabs so there’s nothing for you to source."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://olympiaaesthetics.com/peptides/
+[FETCHED_AT] 2026-05-07T02:18:07Z
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/peptides_hub.md
+[LINE_RANGE] 316-316
+"Each peptide below is sourced from a licensed US compounding pharmacy or a regulated peptide manufacturer and distributor, with a certificate of analysis on every batch, and prescribed only after labs and a physician consultation."
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/homepage.md
+[LINE_RANGE] 236-236
+[QUOTE]
+# Palm Harbor's Premier Med Spa | Olympia Aesthetics & Wellness
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The hero copy frames the clinic as a "premier medical spa" with "physician-led" wellness, every CTA routes to a medical booking flow at book.prospyrmed.com, and patient testimonials emphasize medical procedures (Botox, VIPeel, ExoMind TMS, BBL/Halo lasers). The imagery, while not described in rendered text, is supported by clinical-medical positioning across the homepage hero copy and patient-favorite categories. No meme-coded, lifestyle-aspirational, or anonymous imagery cues appear in the rendered text. Schema enum value 'clinical' selected per directive Rule 19's two-quote inference.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/homepage.md
+[LINE_RANGE] 238-238
+"Looking for a med spa near me in Palm Harbor? **Olympia Aesthetics & Wellness** combines medical expertise, advanced technology, and individualized care to deliver natural, confidence-boosting results. As a **premier medical spa in Palm Harbor** , we specialize in **injectables, laser skin rejuvenation, RF microneedling, and medical wellness services including weight loss, TRT, and peptide therapy** for patients throughout Clearwater, Dunedin, Tarpon Springs, Oldsmar, Trinity, and the greater Tampa Bay area."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/homepage.md
+[LINE_RANGE] 393-394
+"Yes. All treatments are overseen by a licensed physician, ensuring medical-grade safety, expertise, and accountability."
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/homepage.md
+[LINE_RANGE] 14-14
+[QUOTE]
+[ BOOK NOW ](https://book.prospyrmed.com/021044a9-a0cd-4452-a929-e6b0195b6f1e/select-service?workspaceId=a9c48a85-2cd8-4004-8fcd-17cba5110e10&locationId=3a735efb-551b-48b6-81c0-b39c7b43fc65)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/homepage.md
+[LINE_RANGE] 132-225
+[QUOTE]
+  * [Home](https://olympiaaesthetics.com/)
+  * Aesthetics
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/homepage.md
+[LINE_RANGE] 156-166
+[QUOTE]
+  * [Wellness](https://olympiaaesthetics.com/wellness-injectables/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/homepage.md
+[LINE_RANGE] 451-451
+[QUOTE]
+**OLYMPIA Aesthetics & Wellness** is a premier medical spa dedicated to delivering top-tier aesthetic and wellness services that redefine beauty, health, and confidence. Our cosmetic treatments include neurotoxins such as Botox and Xeomin, Dermal Fillers, and advanced technologies like **Sciton BBL/Halo Laser, Sylfirm RF Microneedling, Hydrafacial, and PRF for hair and facial restoration.**
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://olympiaaesthetics.com/peptides/
+[FETCHED_AT] 2026-05-07T02:18:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/peptides_hub.md
+[LINE_RANGE] 318-318
+[QUOTE]
+[ENUMERATION] Counted from the peptides hub page (peptides_hub.md L318 long-line listing) plus 2 GLP-1 product pages (semaglutide, tirzepatide) plus 1 TRT product page enumerated separately in homepage/peptides hub navigation: 11 named single-peptide protocols (PT-141, Tesamorelin/Ipamorelin, CJC-1295/Ipamorelin, Semax, Selank, NAD+, MOTS-c, GHK-Cu, BPC-157) + 2 named blends (Glow Protocol = GHK-Cu+BPC-157+TB-500; Wolverine Stack = BPC-157+TB-500) — note Tesamorelin/Ipamorelin and CJC-1295/Ipamorelin are blends so they account for 2 distinct vials but each is a single SKU. The peptide hub line 318 enumerates 11 distinct learn-more URLs; adding compounded Semaglutide + compounded Tirzepatide brings total Wellness/peptide-format SKUs to 13; the TRT program page is the 14th wellness SKU profiled. Aesthetic services with hard-dollar pricing on the Pricing page are excluded from this SKU count because they are not peptide/wellness vials.
+[FILES]
+peptides_hub.md (long-line L318 enumerates: PT-141, Tesamorelin/Ipamorelin, CJC-1295/Ipamorelin, Semax, Selank, NAD+, MOTS-c, GHK-Cu, BPC-157, Glow Protocol, Wolverine Stack)
+product_4__semaglutide.md (compounded Semaglutide)
+product_5__tirzepatide.md (compounded Tirzepatide)
+product_6__trt.md (TRT program)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://olympiaaesthetics.com/pricing/
+[FETCHED_AT] 2026-05-07T02:18:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/pricing.md
+[LINE_RANGE] 260-260
+[QUOTE]
+InjectablesLaser & LightMicroneedling & RegenerativePeels & SkincareWellness Add-OnsMemberships
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://olympiaaesthetics.com/peptides/
+[FETCHED_AT] 2026-05-07T02:18:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/peptides_hub.md
+[LINE_RANGE] 318-318
+[QUOTE]
+[Glow Protocol ›](/glow-protocol/)GHK-Cu + BPC-157 + TB-500 A combination blend combining copper tripeptide with BPC-157 and TB-500.
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/wolverine-stack-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T02:18:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_1__wolverine-stack.md
+[LINE_RANGE] 243-243
+[QUOTE]
+Two peptides in one vial: BPC-157 and TB-500. One injection a day.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://olympiaaesthetics.com/wolverine-stack-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T02:18:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_1__wolverine-stack.md
+[LINE_RANGE] 2-2
+[QUOTE]
+url: https://olympiaaesthetics.com/wolverine-stack-bpc-157-tb-500/
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://olympiaaesthetics.com/wolverine-stack-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T02:18:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_1__wolverine-stack.md
+[LINE_RANGE] 241-241
+[QUOTE]
+# Wolverine Stack
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://olympiaaesthetics.com/wolverine-stack-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T02:18:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_1__wolverine-stack.md
+[LINE_RANGE] 245-251
+[QUOTE]
+FormatSingle Vial
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/wolverine-stack-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T02:18:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_1__wolverine-stack.md
+[LINE_RANGE] 288-288
+[QUOTE]
+DoseProvider-determined per individual protocol
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/wolverine-stack-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T02:18:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_1__wolverine-stack.md
+[LINE_RANGE] 294-294
+[QUOTE]
+Cycle lengthTypical cycle is 4 weeks for acute issues, 8 weeks for longer-standing ones
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://olympiaaesthetics.com/wolverine-stack-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T02:18:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_1__wolverine-stack.md
+[LINE_RANGE] 262-262
+[QUOTE]
+The Wolverine Stack is a single vial that combines BPC-157 with TB-500, a synthetic 7-amino-acid fragment of thymosin beta-4. It is used as a once-daily subcutaneous injection during a recovery cycle.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://olympiaaesthetics.com/wolverine-stack-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T02:18:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_1__wolverine-stack.md
+[LINE_RANGE] 332-332
+[QUOTE]
+**Wolverine Stack are not FDA-approved drugs.** The peptides used in this protocol are sourced from specialty peptide distributors that perform Certificate of Analysis (COA) testing on every lot to confirm identity, purity, and concentration, and that operate under the regulatory and quality standards applicable to their industry. They have not been evaluated by the FDA for the diagnosis, treatment, cure, or prevention of any disease, and we treat their use as investigational and as part of an individualized wellness plan.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://olympiaaesthetics.com/peptides/
+[FETCHED_AT] 2026-05-07T02:18:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/peptides_hub.md
+[LINE_RANGE] 256-256
+[QUOTE]
+**Lab-verified** COA every batch
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/peptides/
+[FETCHED_AT] 2026-05-07T02:18:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/peptides_hub.md
+[LINE_RANGE] 316-316
+[QUOTE]
+Each peptide below is sourced from a licensed US compounding pharmacy or a regulated peptide manufacturer and distributor, with a certificate of analysis on every batch, and prescribed only after labs and a physician consultation.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[INFERENCE] none
+[REASONING]
+The clinic publicly claims COAs exist on every batch, but no public COA library, COA index page, per-lot certificate downloads, or third-party portal links were observed across any of the 30 fetched artifacts. A grep across all artifacts for filename patterns COA*.pdf, /coa/, /certificate/, janoshik, anaspec, simec, or similar third-party COA-portal hosts returned zero hits. The clinic dispenses through Rx workflow rather than research-vial-with-published-batch-COA, so customer-facing COA hosting is internal-only.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://olympiaaesthetics.com/peptides/
+[FETCHED_AT] 2026-05-07T02:18:07Z
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/peptides_hub.md
+[LINE_RANGE] 256-256
+"**Lab-verified** COA every batch"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://olympiaaesthetics.com/wolverine-stack-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T02:18:09Z
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_1__wolverine-stack.md
+[LINE_RANGE] 332-332
+"The peptides used in this protocol are sourced from specialty peptide distributors that perform Certificate of Analysis (COA) testing on every lot to confirm identity, purity, and concentration"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[INFERENCE] false
+[REASONING]
+None of the 14 individual peptide/GLP-1/TRT product pages render a per-product customer review module in the curl-rendered text. The homepage carousel of 5 named patient testimonials is shop-wide social proof, not a per-product review system. No "5 stars / X reviews" widget appears on the Wolverine Stack, BPC-157, or any other product page in the saved artifacts. A grep across products for "review", "rating", "stars" matched only the homepage Google-reviews carousel reference and footer copy.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://olympiaaesthetics.com/wolverine-stack-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T02:18:09Z
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_1__wolverine-stack.md
+[LINE_RANGE] 234-345
+"# Wolverine Stack"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://olympiaaesthetics.com/bpc-157-peptide-therapy-in-palm-harbor-fl/
+[FETCHED_AT] 2026-05-07T02:18:53Z
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_13__bpc-157.md
+[LINE_RANGE] 234-345
+"# BPC-157"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://olympiaaesthetics.com/wolverine-stack-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T02:18:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_1__wolverine-stack.md
+[LINE_RANGE] 327-330
+[QUOTE]
+[SkinPen MicroneedlingCollagen induction](/skinpen/)
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://olympiaaesthetics.com/peptides/
+[FETCHED_AT] 2026-05-07T02:18:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/peptides_hub.md
+[LINE_RANGE] 318-318
+[QUOTE]
+**Important.** None of the peptides shown above are FDA-approved for the uses described. Peptides are dispensed through a licensed US compounding pharmacy or a regulated peptide manufacturer and distributor under physician supervision, with a certificate of analysis on every batch. Individual results vary. We do not promise or guarantee specific outcomes from any peptide or stack, and we do not use peptides in place of standard medical care for diagnosed conditions.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+The site has no interstitial age verification on the homepage or any product page captured. The privacy policy includes a generic COPPA-template disclosure about children under 13 (privacy.md L370-371), but this is a privacy notice, not a functional age-gate UI. No "Are you 18+?" wall, no birthday verification, and no jurisdictional age check was encountered during any of the 30 curl fetches. Per directive Rule 2, a click-through age-gate would have produced an interstitial in the curl response or a redirect, neither of which occurred.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://olympiaaesthetics.com/privacy-policy/
+[FETCHED_AT] 2026-05-07T02:18:27Z
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/privacy.md
+[LINE_RANGE] 370-371
+"Olympia Aesthetics’ website is not directed to, and does not knowingly collect personal identifiable information from, children under the age of thirteen (13)."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/homepage.md
+[LINE_RANGE] 1-2
+"Skip to content"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://olympiaaesthetics.com/terms-of-usage/
+[FETCHED_AT] 2026-05-07T02:18:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/tos.md
+[LINE_RANGE] 2-2
+[QUOTE]
+url: https://olympiaaesthetics.com/terms-of-usage/
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://olympiaaesthetics.com/terms-of-usage/
+[FETCHED_AT] 2026-05-07T02:18:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/tos.md
+[LINE_RANGE] 236-242
+[QUOTE]
+# Terms of Usage
+
+Program Name: Olympia Aesthetics SMS Program
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/terms-of-usage/
+[FETCHED_AT] 2026-05-07T02:18:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/tos.md
+[LINE_RANGE] 240-240
+[QUOTE]
+Program Description: By opting into the Olympia Aesthetics SMS program, you will receive appointment reminders, promotional offers, and updates related to our services.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://olympiaaesthetics.com/payment-plans/
+[FETCHED_AT] 2026-05-07T02:18:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/payment_plans.md
+[LINE_RANGE] 240-240
+[QUOTE]
+### **Financing Available Through Cherry**
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/payment-plans/
+[FETCHED_AT] 2026-05-07T02:18:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/payment_plans.md
+[LINE_RANGE] 244-245
+[QUOTE]
+Split big costs into smaller monthly payments with Cherry.
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/peptides/
+[FETCHED_AT] 2026-05-07T02:18:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/peptides_hub.md
+[LINE_RANGE] 318-318
+[QUOTE]
+Labs are billed wholesale through a standard US clinical laboratory. CareCredit financing is available.
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/semaglutide/
+[FETCHED_AT] 2026-05-07T02:18:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_4__semaglutide.md
+[LINE_RANGE] 329-329
+[QUOTE]
+We do not bill insurance directly for compounded medications. We can provide superbills for HSA or FSA reimbursement, and we offer CareCredit for patients who prefer to finance a full 12-month program up front.
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/tirzepatide/
+[FETCHED_AT] 2026-05-07T02:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_5__tirzepatide.md
+[LINE_RANGE] 332-332
+[QUOTE]
+HSA, FSA, and CareCredit are supported.
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://olympiaaesthetics.com/semaglutide/
+[FETCHED_AT] 2026-05-07T02:18:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_4__semaglutide.md
+[LINE_RANGE] 263-263
+[QUOTE]
+Every vial ships directly to your door once your provider has cleared you, and we bundle the needed syringes and alcohol swabs so there’s nothing for you to source.
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/contact/
+[FETCHED_AT] 2026-05-07T02:18:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/contact.md
+[LINE_RANGE] 250-252
+[QUOTE]
+33295 US Hwy 19 N, Suite 109
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/source_homepage.md
+[LINE_RANGE] 25-27
+[QUOTE]
+generator: WordPress 6.9.4
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/source_homepage.md
+[LINE_RANGE] 26-26
+[QUOTE]
+generator: Elementor 3.24.4
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/source_homepage.md
+[LINE_RANGE] 27-27
+[QUOTE]
+generator: WP Rocket 3.20.4
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/source_homepage.md
+[LINE_RANGE] 11-17
+[QUOTE]
+cf-ray: 9f7cbc2eed1425cc-IAD
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/source_homepage.md
+[LINE_RANGE] 17-17
+[QUOTE]
+server: cloudflare
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/source_homepage.md
+[LINE_RANGE] 32-34
+[QUOTE]
+googletagmanager.com/gtag/js?id=G-WX00B1M351
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/source_homepage.md
+[LINE_RANGE] 34-34
+[QUOTE]
+googletagmanager.com/ns.html?id=GTM-KW8NNF42
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] false
+[REASONING]
+A grep of the homepage source body for known chat-widget SDK script tags (crisp.chat, drift.com, intercom.io, tawk.to, zopim/zendesk-chat, livechat.com, hubspot chat) returned zero matches in the source-extract artifact. Note that an early scan returned a "crisp" string, but inspection showed it was a CSS color-shadow value inside a stylesheet ("crisp:6px 6px 0px rgb(0, 0, 0)"), not a chat-widget SDK reference — false positive that I rejected. The site uses an Elementor-form contact mechanism plus a third-party booking widget (book.prospyrmed.com) for service booking, but no synchronous chat widget was observed.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/source_homepage.md
+[LINE_RANGE] 52-52
+"Chat widget: NONE detected in homepage source. (No Crisp/Drift/Intercom/Tawk SDK script tag.) The"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/source_homepage.md
+[LINE_RANGE] 36-42
+"Pixels searched (no matches):"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://olympiaaesthetics.com/blogs/
+[FETCHED_AT] 2026-05-07T02:18:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/blog_index.md
+[LINE_RANGE] 240-240
+[QUOTE]
+## [Sylfirm X vs Morpheus8: The RF Microneedling Showdown](https://olympiaaesthetics.com/sylfirm-x-vs-morpheus8-palm-harbor/)
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://olympiaaesthetics.com/blogs/
+[FETCHED_AT] 2026-05-07T02:18:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/blog_index.md
+[LINE_RANGE] 2-2
+[QUOTE]
+url: https://olympiaaesthetics.com/blogs/
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://olympiaaesthetics.com/blogs/
+[FETCHED_AT] 2026-05-07T02:18:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/blog_index.md
+[LINE_RANGE] 235-316
+[QUOTE]
+May 6, 2026
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/blogs/
+[FETCHED_AT] 2026-05-07T02:18:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/blog_index.md
+[LINE_RANGE] 316-316
+[QUOTE]
+Page1 [Page2](https://olympiaaesthetics.com/blogs/page/2/) [Page3](https://olympiaaesthetics.com/blogs/page/3/) [Page4](https://olympiaaesthetics.com/blogs/page/4/) [Page5](https://olympiaaesthetics.com/blogs/page/5/)
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://olympiaaesthetics.com/blogs/
+[FETCHED_AT] 2026-05-07T02:18:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/blog_index.md
+[LINE_RANGE] 240-314
+[QUOTE]
+## [Sylfirm X vs Morpheus8: The RF Microneedling Showdown](https://olympiaaesthetics.com/sylfirm-x-vs-morpheus8-palm-harbor/)
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/blogs/
+[FETCHED_AT] 2026-05-07T02:18:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/blog_index.md
+[LINE_RANGE] 312-312
+[QUOTE]
+## [Peptide Therapy 101: What It Is, Who It’s For, and What to Expect](https://olympiaaesthetics.com/peptide-therapy-palm-harbor-guide/)
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://olympiaaesthetics.com/peptides/
+[FETCHED_AT] 2026-05-07T02:18:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/peptides_hub.md
+[LINE_RANGE] 241-241
+[QUOTE]
+Medically reviewed by [Oliver Morris, DO](/oliver-morris-do/), Medical Director · Last updated April 2026
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://olympiaaesthetics.com/peptides/
+[FETCHED_AT] 2026-05-07T02:18:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/peptides_hub.md
+[LINE_RANGE] 318-318
+[QUOTE]
+Wolverine Stack ›](/wolverine-stack-bpc-157-tb-500/)BPC-157 + TB-500 Our most-requested recovery stack
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/homepage.md
+[LINE_RANGE] 314-353
+[QUOTE]
+★★★★★ **5** (29 Google reviews)
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/homepage.md
+[LINE_RANGE] 353-353
+[QUOTE]
+[ Read all 29 reviews on Google ](https://maps.app.goo.gl/TaSYsyNMoeGJ5fsc8)
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/homepage.md
+[LINE_RANGE] 5-5
+[QUOTE]
+[ Facebook ](https://www.facebook.com/profile.php?id=61550748142245) [ Instagram ](https://www.instagram.com/olympiaaestheticstampa/)
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/homepage.md
+[LINE_RANGE] 311-352
+[QUOTE]
+Deborah Wertheimer
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/homepage.md
+[LINE_RANGE] 332-333
+[QUOTE]
+Zach
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[INFERENCE] none observed on fetched pages
+[REASONING]
+A grep across the homepage, peptides hub, blog index, and 14 product pages for influencer/creator names, "@" social handles beyond the clinic's own (@olympiaaestheticstampa), "as seen in" press strips, "FTC disclosure", "ad" or "sponsored" tags, and known biohacker/fitness creator names (Huberman, Attia, etc.) returned zero matches. The clinic's own owner (Olympia Morris, PA-C) is the only named human routinely featured, and the medical director Oliver Morris, DO is the only named physician. No partnered creator economy was observed.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://olympiaaesthetics.com/
+[FETCHED_AT] 2026-05-07T02:18:37Z
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/homepage.md
+[LINE_RANGE] 5-5
+"[ Facebook ](https://www.facebook.com/profile.php?id=61550748142245) [ Instagram ](https://www.instagram.com/olympiaaestheticstampa/)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://olympiaaesthetics.com/about/
+[FETCHED_AT] 2026-05-07T02:18:19Z
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/about.md
+[LINE_RANGE] 268-268
+"ANDREA, MEDICAL ESTHETICIAN"
+[/SUPPORT_QUOTE]
+
+[CLAIM] claim-sku-1
+[URL] https://olympiaaesthetics.com/wolverine-stack-bpc-157-tb-500/
+[FETCHED_AT] 2026-05-07T02:18:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_1__wolverine-stack.md
+[LINE_RANGE] 241-251
+[QUOTE]
+# Wolverine Stack
+[/QUOTE]
+
+[CLAIM] claim-sku-2
+[URL] https://olympiaaesthetics.com/cjc-1295-ipamorelin/
+[FETCHED_AT] 2026-05-07T02:18:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_2__cjc1295-ipamorelin.md
+[LINE_RANGE] 234-256
+[QUOTE]
+A pulsatile GH support protocol using the no-DAC form of CJC-1295.
+[/QUOTE]
+
+[CLAIM] claim-sku-3
+[URL] https://olympiaaesthetics.com/mots-c/
+[FETCHED_AT] 2026-05-07T02:18:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_3__mots-c.md
+[LINE_RANGE] 234-256
+[QUOTE]
+A mitochondrial-encoded peptide tied to metabolic health and exercise capacity.
+[/QUOTE]
+
+[CLAIM] claim-sku-4
+[URL] https://olympiaaesthetics.com/semaglutide/
+[FETCHED_AT] 2026-05-07T02:18:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_4__semaglutide.md
+[LINE_RANGE] 235-263
+[QUOTE]
+Expert provider-led GLP-1 program
+[/QUOTE]
+
+[CLAIM] claim-sku-5
+[URL] https://olympiaaesthetics.com/tirzepatide/
+[FETCHED_AT] 2026-05-07T02:18:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_5__tirzepatide.md
+[LINE_RANGE] 234-263
+[QUOTE]
+Provider-led dual-agonist therapy
+[/QUOTE]
+
+[CLAIM] claim-sku-6
+[URL] https://olympiaaesthetics.com/testosterone-replacement-therapy-trt/
+[FETCHED_AT] 2026-05-07T02:18:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_6__trt.md
+[LINE_RANGE] 234-280
+[QUOTE]
+Our program is physician-managed from day one.
+[/QUOTE]
+
+[CLAIM] claim-sku-7
+[URL] https://olympiaaesthetics.com/pt-141/
+[FETCHED_AT] 2026-05-07T02:18:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_7__pt-141.md
+[LINE_RANGE] 234-256
+[QUOTE]
+A peptide for sexual desire and arousal, used as needed.
+[/QUOTE]
+
+[CLAIM] claim-sku-8
+[URL] https://olympiaaesthetics.com/tesamorelin-ipamorelin/
+[FETCHED_AT] 2026-05-07T02:18:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_8__tesamorelin-ipamorelin.md
+[LINE_RANGE] 234-256
+[QUOTE]
+Two peptides that prompt the body’s own pulsatile release of growth hormone.
+[/QUOTE]
+
+[CLAIM] claim-sku-9
+[URL] https://olympiaaesthetics.com/semax/
+[FETCHED_AT] 2026-05-07T02:18:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_9__semax.md
+[LINE_RANGE] 234-256
+[QUOTE]
+A peptide for focus and mental energy during demanding stretches.
+[/QUOTE]
+
+[CLAIM] claim-sku-10
+[URL] https://olympiaaesthetics.com/selank/
+[FETCHED_AT] 2026-05-07T02:18:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_10__selank.md
+[LINE_RANGE] 234-256
+[QUOTE]
+A peptide for calm focus during anxious or high-stress periods.
+[/QUOTE]
+
+[CLAIM] claim-sku-11
+[URL] https://olympiaaesthetics.com/nad-plus/
+[FETCHED_AT] 2026-05-07T02:18:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_11__nad-plus.md
+[LINE_RANGE] 234-256
+[QUOTE]
+A coenzyme central to cellular energy and the body’s own repair machinery.
+[/QUOTE]
+
+[CLAIM] claim-sku-12
+[URL] https://olympiaaesthetics.com/ghk-cu-copper-peptide/
+[FETCHED_AT] 2026-05-07T02:18:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_12__ghk-cu.md
+[LINE_RANGE] 234-256
+[QUOTE]
+The copper tripeptide. Used for support around skin tone, hair, and tissue underneath.
+[/QUOTE]
+
+[CLAIM] claim-sku-13
+[URL] https://olympiaaesthetics.com/bpc-157-peptide-therapy-in-palm-harbor-fl/
+[FETCHED_AT] 2026-05-07T02:18:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_13__bpc-157.md
+[LINE_RANGE] 234-256
+[QUOTE]
+A peptide for tendons, joints, gut comfort, and the structural foundation underneath.
+[/QUOTE]
+
+[CLAIM] claim-sku-14
+[URL] https://olympiaaesthetics.com/glow-protocol/
+[FETCHED_AT] 2026-05-07T02:18:55Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/product_14__glow-protocol.md
+[LINE_RANGE] 234-256
+[QUOTE]
+Three peptides in one vial: GHK-Cu, BPC-157, and TB-500. One injection a day.
+[/QUOTE]
+
+[CLAIM] tier_rationale
+[URL] https://olympiaaesthetics.com/pricing/
+[FETCHED_AT] 2026-05-07T02:18:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/pricing.md
+[LINE_RANGE] 636-636
+[QUOTE]
+Provider-led wellness infusions. Consultation-based pricing for TRT, peptide, and GLP-1 programs.
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/pricing/
+[FETCHED_AT] 2026-05-07T02:18:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/pricing.md
+[LINE_RANGE] 674-680
+[QUOTE]
+Peptide Therapy
+[/QUOTE]
+[URL] https://olympiaaesthetics.com/pricing/
+[FETCHED_AT] 2026-05-07T02:18:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/olympia-aesthetics/pricing.md
+[LINE_RANGE] 676-676
+[QUOTE]
+Recovery, energy, longevity protocols
+[/QUOTE]

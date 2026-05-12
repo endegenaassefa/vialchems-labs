@@ -1,0 +1,1476 @@
+URL: https://jaycampbell.com/jay-recommends/
+FETCHED_AT: 2026-05-06T19:15:47-04:00
+---
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11"> 
+	
+<!-- Author Meta Tags by Molongui Authorship, visit: https://wordpress.org/plugins/molongui-authorship/ -->
+<meta name="author" content="Jay Campbell">
+<!-- /Molongui Authorship -->
+
+
+<!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
+<title>Jay Recommends | Jay Campbell</title>
+<meta name="description" content="Products And Providers I Personally Use,Trust, and Recommend"/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://jaycampbell.com/jay-recommends/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Jay Recommends | Jay Campbell" />
+<meta property="og:description" content="Products And Providers I Personally Use,Trust, and Recommend" />
+<meta property="og:url" content="https://jaycampbell.com/jay-recommends/" />
+<meta property="og:site_name" content="Jay Campbell" />
+<meta property="og:updated_time" content="2026-01-27T09:41:42-05:00" />
+<meta property="og:image" content="https://jaycampbell.com/wp-content/uploads/2023/12/Jay.jpg" />
+<meta property="og:image:secure_url" content="https://jaycampbell.com/wp-content/uploads/2023/12/Jay.jpg" />
+<meta property="og:image:width" content="1080" />
+<meta property="og:image:height" content="648" />
+<meta property="og:image:alt" content="Jay Recommends" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="article:published_time" content="2023-12-08T11:58:34-05:00" />
+<meta property="article:modified_time" content="2026-01-27T09:41:42-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Jay Recommends | Jay Campbell" />
+<meta name="twitter:description" content="Products And Providers I Personally Use,Trust, and Recommend" />
+<meta name="twitter:image" content="https://jaycampbell.com/wp-content/uploads/2023/12/Jay.jpg" />
+<meta name="twitter:label1" content="Time to read" />
+<meta name="twitter:data1" content="2 minutes" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://jaycampbell.com/#person","name":"Jay Campbell","logo":{"@type":"ImageObject","@id":"https://jaycampbell.com/#logo","url":"https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white.png","contentUrl":"https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white.png","caption":"Jay Campbell","inLanguage":"en-US","width":"1335","height":"462"},"image":{"@type":"ImageObject","@id":"https://jaycampbell.com/#logo","url":"https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white.png","contentUrl":"https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white.png","caption":"Jay Campbell","inLanguage":"en-US","width":"1335","height":"462"}},{"@type":"WebSite","@id":"https://jaycampbell.com/#website","url":"https://jaycampbell.com","name":"Jay Campbell","publisher":{"@id":"https://jaycampbell.com/#person"},"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://jaycampbell.com/wp-content/uploads/2023/12/Jay.jpg","url":"https://jaycampbell.com/wp-content/uploads/2023/12/Jay.jpg","width":"1080","height":"648","inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://jaycampbell.com/jay-recommends/#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"https://jaycampbell.com","name":"Home"}},{"@type":"ListItem","position":"2","item":{"@id":"https://jaycampbell.com/jay-recommends/","name":"Jay Recommends"}}]},{"@type":"WebPage","@id":"https://jaycampbell.com/jay-recommends/#webpage","url":"https://jaycampbell.com/jay-recommends/","name":"Jay Recommends | Jay Campbell","datePublished":"2023-12-08T11:58:34-05:00","dateModified":"2026-01-27T09:41:42-05:00","isPartOf":{"@id":"https://jaycampbell.com/#website"},"primaryImageOfPage":{"@id":"https://jaycampbell.com/wp-content/uploads/2023/12/Jay.jpg"},"inLanguage":"en-US","breadcrumb":{"@id":"https://jaycampbell.com/jay-recommends/#breadcrumb"}},{"@type":"Person","@id":"https://jaycampbell.com/author/jcampbell/","name":"Jay Campbell","url":"https://jaycampbell.com/author/jcampbell/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/266e815b72282364cf791064f229e2ded056ab648e91bc6988a7239278cc5be8?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/266e815b72282364cf791064f229e2ded056ab648e91bc6988a7239278cc5be8?s=96&amp;d=mm&amp;r=g","caption":"Jay Campbell","inLanguage":"en-US"}},{"@type":"Article","headline":"Jay Recommends | Jay Campbell","datePublished":"2023-12-08T11:58:34-05:00","dateModified":"2026-01-27T09:41:42-05:00","author":{"@id":"https://jaycampbell.com/author/jcampbell/","name":"Jay Campbell"},"publisher":{"@id":"https://jaycampbell.com/#person"},"description":"Products And Providers I Personally Use,Trust, and Recommend","name":"Jay Recommends | Jay Campbell","@id":"https://jaycampbell.com/jay-recommends/#richSnippet","isPartOf":{"@id":"https://jaycampbell.com/jay-recommends/#webpage"},"image":{"@id":"https://jaycampbell.com/wp-content/uploads/2023/12/Jay.jpg"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://jaycampbell.com/jay-recommends/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//a.omappapi.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Jay Campbell &raquo; Feed" href="https://jaycampbell.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Jay Campbell &raquo; Comments Feed" href="https://jaycampbell.com/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://jaycampbell.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjaycampbell.com%2Fjay-recommends%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://jaycampbell.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjaycampbell.com%2Fjay-recommends%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='astra-theme-css-css' href='https://jaycampbell.com/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.13.1' media='all' />
+<link rel='stylesheet' id='astra-theme-dynamic-css' href='https://jaycampbell.com/wp-content/uploads/astra/astra-theme-dynamic-css-post-27094.css?ver=1773690489' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-components-css' href='https://jaycampbell.com/wp-includes/css/dist/components/style.min.css?ver=6.9.4' media='all' />
+<link rel='stylesheet' id='wp-preferences-css' href='https://jaycampbell.com/wp-includes/css/dist/preferences/style.min.css?ver=6.9.4' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css' href='https://jaycampbell.com/wp-includes/css/dist/block-editor/style.min.css?ver=6.9.4' media='all' />
+<link rel='stylesheet' id="deee83727ecc7d3b017ad2107af5864f-css" href='https://jaycampbell.com/wp-content/plugins/popup-maker/dist/packages/block-library-style.css?ver=7424eb959f91acb8bbb2' media='all' />
+<style id='rank-math-related-posts-style-inline-css'>
+.wp-block-rank-math-related-posts{--rm-related-gap: 1rem;--rm-related-border-radius: 6px;--rm-related-card-padding: 16px;--rm-related-hover-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);--rm-related-transition: 0.2s ease}.wp-block-rank-math-related-posts.rank-math-related-posts{display:block}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-wrap{display:grid;gap:var(--rm-related-gap)}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-grid-vertical .rank-math-related-wrap,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-grid-vertical .rank-math-related-wrap{grid-template-columns:repeat(auto-fill, minmax(220px, 1fr))}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-grid-horizontal .rank-math-related-wrap,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-grid-horizontal .rank-math-related-wrap{grid-template-columns:repeat(auto-fill, minmax(400px, 1fr))}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-grid-horizontal .rank-math-related-item,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-grid-horizontal .rank-math-related-item{display:flex;gap:16px;align-items:flex-start}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-grid-horizontal .rank-math-related-thumb,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-grid-horizontal .rank-math-related-thumb{flex:0 0 140px;overflow:hidden}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-grid-horizontal .rank-math-related-thumb img,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-grid-horizontal .rank-math-related-thumb img{width:140px;height:140px;-o-object-fit:cover;object-fit:cover}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-grid-horizontal .rank-math-related-content,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-grid-horizontal .rank-math-related-content{flex:1;min-width:0;display:flex;flex-direction:column}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-grid-horizontal .rank-math-related-title,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-grid-horizontal .rank-math-related-title{margin-top:0}@media (max-width: 640px){.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-grid-horizontal .rank-math-related-wrap,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-grid-horizontal .rank-math-related-wrap{grid-template-columns:1fr}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-grid-horizontal .rank-math-related-thumb,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-grid-horizontal .rank-math-related-thumb{flex:0 0 100px}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-grid-horizontal .rank-math-related-thumb img,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-grid-horizontal .rank-math-related-thumb img{width:100px;height:100px}}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-list-vertical .rank-math-related-wrap,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-list-vertical .rank-math-related-wrap{grid-template-columns:1fr}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-list-horizontal .rank-math-related-wrap,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-list-horizontal .rank-math-related-wrap{grid-template-columns:1fr}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-list-horizontal .rank-math-related-item,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-list-horizontal .rank-math-related-item{display:flex;gap:20px;align-items:flex-start}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-list-horizontal .rank-math-related-thumb,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-list-horizontal .rank-math-related-thumb{flex:0 0 180px;overflow:hidden}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-list-horizontal .rank-math-related-thumb img,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-list-horizontal .rank-math-related-thumb img{width:180px;height:180px;-o-object-fit:cover;object-fit:cover}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-list-horizontal .rank-math-related-content,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-list-horizontal .rank-math-related-content{flex:1;min-width:0;display:flex;flex-direction:column}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-list-horizontal .rank-math-related-title,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-list-horizontal .rank-math-related-title{margin-top:0}@media (max-width: 640px){.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-list-horizontal .rank-math-related-item,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-list-horizontal .rank-math-related-item{gap:16px}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-list-horizontal .rank-math-related-thumb,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-list-horizontal .rank-math-related-thumb{flex:0 0 120px}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-list-horizontal .rank-math-related-thumb img,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-list-horizontal .rank-math-related-thumb img{width:120px;height:120px}}@media (max-width: 480px){.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-list-horizontal .rank-math-related-item,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-list-horizontal .rank-math-related-item{flex-direction:column}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-list-horizontal .rank-math-related-thumb,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-list-horizontal .rank-math-related-thumb{flex:0 0 auto;width:100%}.wp-block-rank-math-related-posts.rank-math-related-posts.is-style-list-horizontal .rank-math-related-thumb img,.wp-block-rank-math-related-posts.rank-math-related-posts.rank-math-related-list-horizontal .rank-math-related-thumb img{width:100%;height:auto;max-height:200px}}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-item{border-radius:var(--rm-related-border-radius);padding:var(--rm-related-card-padding);background:inherit;transition:transform var(--rm-related-transition),box-shadow var(--rm-related-transition)}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-item:hover{transform:translateY(-2px);box-shadow:var(--rm-related-hover-shadow)}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-title{margin:0.5rem 0;font-size:inherit;line-height:inherit}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-title a{color:inherit;text-decoration:none;transition:color 0.2s ease}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-title a:hover{color:#2563eb;text-decoration:underline}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-title:not(:has(a)){cursor:default}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-thumb{position:relative;overflow:hidden;border-radius:4px;display:block}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-thumb img{display:block;width:100%;height:auto;border-radius:4px;transition:transform 0.3s ease}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-thumb:hover img{transform:scale(1.05)}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-thumb:not(a){cursor:default}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-thumb:not(a):hover img{transform:none}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-date{margin-top:0.25rem;font-size:0.85em;opacity:0.7}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-terms{margin-top:0.5rem}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-chip{display:inline-block;background:#f3f4f6;border:1px solid #e5e7eb;border-radius:999px;padding:0.15rem 0.5rem;margin-right:0.35rem;font-size:0.8em}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-excerpt{margin-top:0.5rem;color:inherit;opacity:0.8;font-size:0.9em;line-height:1.6;display:-webkit-box;-webkit-line-clamp:3;line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-more{margin-top:1rem}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-button{display:inline-block;background:#111827;color:#fff;border-radius:6px;padding:0.625rem 1.25rem;text-decoration:none;font-weight:500;transition:background 0.2s ease, transform 0.2s ease}.wp-block-rank-math-related-posts.rank-math-related-posts .rank-math-related-button:hover{background:#1f2937;transform:translateY(-1px)}.wp-block-rank-math-related-posts.has-border-color .rank-math-related-item{border-color:inherit}.wp-block-rank-math-related-posts.has-border-width .rank-math-related-item{border-width:inherit}.wp-block-rank-math-related-posts.has-border-style .rank-math-related-item{border-style:inherit}.wp-block-rank-math-related-posts.has-border-radius .rank-math-related-item{border-radius:inherit}.wp-block-rank-math-related-posts:not(.has-border-color):not(.has-border-width):not(.has-border-style) .rank-math-related-item{border:1px solid #e5e7eb}
+
+/*# sourceURL=https://jaycampbell.com/wp-content/plugins/seo-by-rank-math-pro/includes/modules/link-genius/blocks/related/assets/css/styles.css */
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--ast-global-color-0: var(--ast-global-color-0);--wp--preset--color--ast-global-color-1: var(--ast-global-color-1);--wp--preset--color--ast-global-color-2: var(--ast-global-color-2);--wp--preset--color--ast-global-color-3: var(--ast-global-color-3);--wp--preset--color--ast-global-color-4: var(--ast-global-color-4);--wp--preset--color--ast-global-color-5: var(--ast-global-color-5);--wp--preset--color--ast-global-color-6: var(--ast-global-color-6);--wp--preset--color--ast-global-color-7: var(--ast-global-color-7);--wp--preset--color--ast-global-color-8: var(--ast-global-color-8);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: var(--wp--custom--ast-content-width-size);--wp--style--global--wide-size: var(--wp--custom--ast-wide-width-size); }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: none;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-ast-global-color-0-color{color: var(--wp--preset--color--ast-global-color-0) !important;}.has-ast-global-color-1-color{color: var(--wp--preset--color--ast-global-color-1) !important;}.has-ast-global-color-2-color{color: var(--wp--preset--color--ast-global-color-2) !important;}.has-ast-global-color-3-color{color: var(--wp--preset--color--ast-global-color-3) !important;}.has-ast-global-color-4-color{color: var(--wp--preset--color--ast-global-color-4) !important;}.has-ast-global-color-5-color{color: var(--wp--preset--color--ast-global-color-5) !important;}.has-ast-global-color-6-color{color: var(--wp--preset--color--ast-global-color-6) !important;}.has-ast-global-color-7-color{color: var(--wp--preset--color--ast-global-color-7) !important;}.has-ast-global-color-8-color{color: var(--wp--preset--color--ast-global-color-8) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-ast-global-color-0-background-color{background-color: var(--wp--preset--color--ast-global-color-0) !important;}.has-ast-global-color-1-background-color{background-color: var(--wp--preset--color--ast-global-color-1) !important;}.has-ast-global-color-2-background-color{background-color: var(--wp--preset--color--ast-global-color-2) !important;}.has-ast-global-color-3-background-color{background-color: var(--wp--preset--color--ast-global-color-3) !important;}.has-ast-global-color-4-background-color{background-color: var(--wp--preset--color--ast-global-color-4) !important;}.has-ast-global-color-5-background-color{background-color: var(--wp--preset--color--ast-global-color-5) !important;}.has-ast-global-color-6-background-color{background-color: var(--wp--preset--color--ast-global-color-6) !important;}.has-ast-global-color-7-background-color{background-color: var(--wp--preset--color--ast-global-color-7) !important;}.has-ast-global-color-8-background-color{background-color: var(--wp--preset--color--ast-global-color-8) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-ast-global-color-0-border-color{border-color: var(--wp--preset--color--ast-global-color-0) !important;}.has-ast-global-color-1-border-color{border-color: var(--wp--preset--color--ast-global-color-1) !important;}.has-ast-global-color-2-border-color{border-color: var(--wp--preset--color--ast-global-color-2) !important;}.has-ast-global-color-3-border-color{border-color: var(--wp--preset--color--ast-global-color-3) !important;}.has-ast-global-color-4-border-color{border-color: var(--wp--preset--color--ast-global-color-4) !important;}.has-ast-global-color-5-border-color{border-color: var(--wp--preset--color--ast-global-color-5) !important;}.has-ast-global-color-6-border-color{border-color: var(--wp--preset--color--ast-global-color-6) !important;}.has-ast-global-color-7-border-color{border-color: var(--wp--preset--color--ast-global-color-7) !important;}.has-ast-global-color-8-border-color{border-color: var(--wp--preset--color--ast-global-color-8) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='cpsh-shortcodes-css' href='https://jaycampbell.com/wp-content/plugins/column-shortcodes//assets/css/shortcodes.css?ver=1.0.1' media='all' />
+<link rel='stylesheet' id='wpa-css-css' href='https://jaycampbell.com/wp-content/plugins/honeypot/includes/css/wpa.css?ver=2.3.04' media='all' />
+<link rel='stylesheet' id='astra-addon-css-css' href='https://jaycampbell.com/wp-content/uploads/astra-addon/astra-addon-69b8475b50b358-65799810.css?ver=4.12.4' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://jaycampbell.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.0.1' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://jaycampbell.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.0.1' media='all' />
+<link rel='stylesheet' id='widget-nav-menu-css' href='https://jaycampbell.com/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=4.0.1' media='all' />
+<link rel='stylesheet' id='widget-search-css' href='https://jaycampbell.com/wp-content/plugins/elementor-pro/assets/css/widget-search.min.css?ver=4.0.1' media='all' />
+<link rel='stylesheet' id='e-sticky-css' href='https://jaycampbell.com/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=4.0.1' media='all' />
+<link rel='stylesheet' id='widget-form-css' href='https://jaycampbell.com/wp-content/plugins/elementor-pro/assets/css/widget-form.min.css?ver=4.0.1' media='all' />
+<link rel='stylesheet' id='e-animation-grow-css' href='https://jaycampbell.com/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css?ver=4.0.1' media='all' />
+<link rel='stylesheet' id='widget-social-icons-css' href='https://jaycampbell.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.0.1' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='https://jaycampbell.com/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=4.0.1' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://jaycampbell.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.48.0' media='all' />
+<link rel='stylesheet' id='elementor-post-15093-css' href='https://jaycampbell.com/wp-content/uploads/elementor/css/post-15093.css?ver=1777309516' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://jaycampbell.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.0.1' media='all' />
+<link rel='stylesheet' id='elementor-post-27094-css' href='https://jaycampbell.com/wp-content/uploads/elementor/css/post-27094.css?ver=1777315246' media='all' />
+<link rel='stylesheet' id='elementor-post-36130-css' href='https://jaycampbell.com/wp-content/uploads/elementor/css/post-36130.css?ver=1777309516' media='all' />
+<link rel='stylesheet' id='elementor-post-36104-css' href='https://jaycampbell.com/wp-content/uploads/elementor/css/post-36104.css?ver=1777309517' media='all' />
+<link rel='stylesheet' id="e44b90a8e6cde0104888535cc1f785e0-css" href='//jaycampbell.com/wp-content/uploads/0b6454fccdbded3ddebbe4b826233c84.css?generated=1755698641&#038;ver=1.22.0' media='all' />
+<link rel='stylesheet' id='jay-campbell-theme-css-css' href='https://jaycampbell.com/wp-content/themes/jay-campbell/style.css?ver=1.0.0' media='all' />
+<style id='elementor-pro-custom-fonts-inline-css'>
+@font-face {
+	font-family: 'Antonio';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://jaycampbell.com/wp-content/uploads/2024/10/Antonio-VariableFont_wght.woff') format('woff'),
+		url('https://jaycampbell.com/wp-content/uploads/2024/10/Antonio-VariableFont_wght.ttf') format('truetype');
+}
+
+/*# sourceURL=elementor-pro-custom-fonts-inline-css */
+</style>
+<link rel='stylesheet' id='eael-general-css' href='https://jaycampbell.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.5.13' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-poppins-css' href='https://jaycampbell.com/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1742832917' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-radiocanadabig-css' href='https://jaycampbell.com/wp-content/uploads/elementor/google-fonts/css/radiocanadabig.css?ver=1742832918' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://jaycampbell.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://jaycampbell.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://jaycampbell.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' media='all' />
+<script src="https://jaycampbell.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://jaycampbell.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://jaycampbell.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://jaycampbell.com/wp-json/wp/v2/pages/27094" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://jaycampbell.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.4" />
+<link rel='shortlink' href='https://jaycampbell.com/?p=27094' />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://t.jaycampbell.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PFQZBHM');</script>
+<!-- End Google Tag Manager -->
+
+<!-- RightMessage -->
+<script type="text/javascript"> 
+(function(p, a, n, d, o, b, c) {
+  window.RM = window.RM || [];
+  o = n.createElement('script'); o.type = 'text/javascript'; o.async = true; o.src = 'https://t.rightmessage.com/'+p+'.js';
+  b = n.getElementsByTagName('script')[0]; d = function(h, u, i, s) { var c = n.createElement('style'); c.id = 'rmcloak'+i;
+      c.type = 'text/css'; c.appendChild(n.createTextNode('.rmcloak'+h+'{visibility:hidden}.rmcloak'+u+'{display:none}'+s));
+      b.parentNode.insertBefore(c, b); return c; }; c = d('', '-hidden', '', '[data-rm-if],[data-rm-else-if],[data-rm-else]{display:none}'); d('-stay-invisible', '-stay-hidden', '-stay', '');
+  setTimeout(o.onerror = function() { c.parentNode && c.parentNode.removeChild(c); }, a); b.parentNode.insertBefore(o, b);
+})('1911259741', 20000, document);
+</script>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1196131008436001');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1196131008436001&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://t.jaycampbell.com/gtag/js?id=G-8W743Q1QT2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8W743Q1QT2');
+</script>
+
+<script>
+/**
+ * Attribution Capture Script (Global - All Pages)
+ *
+ * Install this on every page of the WordPress site (e.g. via a code snippets
+ * plugin or theme header). It watches for attribution parameters in the URL
+ * and stores them in a cookie so they survive navigation across pages.
+ *
+ * How it works:
+ * - When someone lands on any page with nk_* or utm_* params in the URL,
+ *   ALL found params are saved to a cookie called _nk_attribution.
+ * - This is last-click attribution: the cookie is fully replaced each time
+ *   new params are detected. Old values are NOT merged in.
+ * - If the URL has no attribution params, the existing cookie is left alone.
+ * - The cookie expires after 3 days (covers a typical consideration window).
+ */
+(function () {
+  // The attribution parameters we care about
+  var TRACKED_PARAMS = [
+    'nk_source',
+    'nk_medium',
+    'nk_campaign',
+    'nk_content',
+    'utm_source',
+    'utm_medium',
+    'utm_campaign',
+    'utm_content'
+  ];
+
+  // Cookie configuration
+  var COOKIE_NAME = '_nk_attribution';
+  var COOKIE_DOMAIN = '.jaycampbell.com';
+  var COOKIE_PATH = '/';
+  var COOKIE_EXPIRY_DAYS = 3;
+  var COOKIE_SAMESITE = 'Lax';
+
+  /**
+   * Parse the current URL's query string and return an object containing
+   * only the attribution params that are present and non-empty.
+   */
+  function getAttributionParams() {
+    var params = new URLSearchParams(window.location.search);
+    var attribution = {};
+
+    for (var i = 0; i < TRACKED_PARAMS.length; i++) {
+      var key = TRACKED_PARAMS[i];
+      var value = params.get(key);
+      if (value !== null && value !== '') {
+        attribution[key] = value;
+      }
+    }
+
+    return attribution;
+  }
+
+  /**
+   * Write the _nk_attribution cookie with the given data object as JSON.
+   */
+  function setCookie(data) {
+    var expires = new Date();
+    expires.setTime(expires.getTime() + COOKIE_EXPIRY_DAYS * 24 * 60 * 60 * 1000);
+
+    var cookieString =
+      COOKIE_NAME + '=' + encodeURIComponent(JSON.stringify(data)) +
+      '; expires=' + expires.toUTCString() +
+      '; domain=' + COOKIE_DOMAIN +
+      '; path=' + COOKIE_PATH +
+      '; SameSite=' + COOKIE_SAMESITE;
+
+    document.cookie = cookieString;
+  }
+
+  // --- Main logic ---
+
+  var attribution = getAttributionParams();
+
+  // Only write the cookie if we found at least one attribution param.
+  // If none are present, the existing cookie (if any) stays untouched.
+  if (Object.keys(attribution).length > 0) {
+    setCookie(attribution);
+  }
+})();
+</script>            <style>
+                .molongui-disabled-link
+                {
+                    border-bottom: none !important;
+                    text-decoration: none !important;
+                    color: inherit !important;
+                    cursor: inherit !important;
+                }
+                .molongui-disabled-link:hover,
+                .molongui-disabled-link:hover span
+                {
+                    border-bottom: none !important;
+                    text-decoration: none !important;
+                    color: inherit !important;
+                    cursor: inherit !important;
+                }
+            </style>
+            <meta name="generator" content="speculation-rules 1.6.0">
+<meta name="generator" content="Elementor 4.0.1; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<meta data-od-replaced-content="optimization-detective 1.0.0-beta5" name="generator" content="optimization-detective 1.0.0-beta5; url_metric_groups={0:empty, 480:empty, 600:empty, 782:empty}">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<meta name="generator" content="embed-optimizer 1.0.0-beta5">
+<meta name="generator" content="image-prioritizer 1.0.0-beta3">
+<link rel="icon" href="https://jaycampbell.com/wp-content/uploads/2023/01/cropped-Favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://jaycampbell.com/wp-content/uploads/2023/01/cropped-Favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://jaycampbell.com/wp-content/uploads/2023/01/cropped-Favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://jaycampbell.com/wp-content/uploads/2023/01/cropped-Favicon-270x270.png" />
+</head>
+
+<body itemtype='https://schema.org/WebPage' itemscope='itemscope' class="wp-singular page-template-default page page-id-27094 wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-jay-campbell ast-desktop ast-page-builder-template ast-no-sidebar astra-4.13.1 group-blog ast-single-post ast-inherit-site-logo-transparent ast-hfb-header elementor-default elementor-kit-15093 elementor-page elementor-page-27094 astra-addon-4.12.4">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://t.jaycampbell.com/ns.html?id=GTM-PFQZBHM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->			<script>
+			(function(){var w=document.documentElement.clientWidth;if(w>0&&w<=921){document.body.classList.add('ast-header-break-point');document.body.classList.remove('ast-desktop');}})();
+			</script>
+			
+<a
+	class="skip-link screen-reader-text"
+	href="#content">
+		Skip to content</a>
+
+<div
+class="hfeed site" id="page">
+			<header data-elementor-type="header" data-elementor-id="36130" class="elementor elementor-36130 elementor-location-header" data-elementor-post-type="elementor_library">
+			<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-2ef4bf4 e-flex e-con-boxed e-con e-parent" data-id="2ef4bf4" data-element_type="container" data-e-type="container" data-settings="{&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
+					<div class="e-con-inner">
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-51927372 e-con-full e-flex e-con e-child" data-id="51927372" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-bb9ddf9 elementor-widget-mobile__width-initial elementor-widget elementor-widget-image" data-id="bb9ddf9" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://jaycampbell.com/" target="_blank">
+							<img data-od-unknown-tag data-od-xpath="/HTML/BODY/DIV[@id=&apos;page&apos;]/*[1][self::HEADER]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" fetchpriority="high" width="1335" height="462" src="https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white.png" class="attachment-full size-full wp-image-36107" alt="" srcset="https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white.png 1335w, https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white-300x104.png 300w, https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white-1024x354.png 1024w, https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white-150x52.png 150w, https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white-768x266.png 768w" sizes="(max-width: 1335px) 100vw, 1335px" />								</a>
+															</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-2e8d1474 e-con-full e-flex e-con e-child" data-id="2e8d1474" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-323de53 elementor-nav-menu__align-center elementor-widget__width-inherit elementor-hidden-tablet elementor-hidden-mobile elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="323de53" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-background e--animation-fade">
+				<ul id="menu-1-323de53" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36726"><a href="https://jaycampbell.com/peptides/" class="elementor-item menu-link">Peptides</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36719"><a href="https://jaycampbell.com/fat-loss/" class="elementor-item menu-link">Fat Loss</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36735"><a href="https://jaycampbell.com/testosterone/" class="elementor-item menu-link">Testosterone</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-27094 current_page_item menu-item-28779"><a href="https://jaycampbell.com/jay-recommends/" aria-current="page" class="elementor-item elementor-item-active menu-link">Jay Recommends</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31720"><a href="https://jaycampbell.com/blog/" class="elementor-item menu-link">Articles</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36706"><a href="https://jaycampbell.com/shop/" class="elementor-item menu-link">Learn From Jay</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-36126"><a aria-expanded="false" href="#" class="elementor-item elementor-item-anchor menu-link">Login<span role="button" class="dropdown-menu-toggle ast-header-navigation-arrow" tabindex="0" aria-expanded="false" aria-label="Menu Toggle" aria-haspopup="true"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36127"><a target="_blank" href="https://community.fullyoptimizedhealth.com/home" class="elementor-sub-item menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>FOH</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36128"><a target="_blank" href="https://courses.jaycampbell.com/" class="elementor-sub-item menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Courses</a></li>
+</ul>
+</li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-323de53" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36726"><a href="https://jaycampbell.com/peptides/" class="elementor-item menu-link" tabindex="-1">Peptides</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36719"><a href="https://jaycampbell.com/fat-loss/" class="elementor-item menu-link" tabindex="-1">Fat Loss</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36735"><a href="https://jaycampbell.com/testosterone/" class="elementor-item menu-link" tabindex="-1">Testosterone</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-27094 current_page_item menu-item-28779"><a href="https://jaycampbell.com/jay-recommends/" aria-current="page" class="elementor-item elementor-item-active menu-link" tabindex="-1">Jay Recommends</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31720"><a href="https://jaycampbell.com/blog/" class="elementor-item menu-link" tabindex="-1">Articles</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36706"><a href="https://jaycampbell.com/shop/" class="elementor-item menu-link" tabindex="-1">Learn From Jay</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-36126"><a aria-expanded="false" href="#" class="elementor-item elementor-item-anchor menu-link" tabindex="-1">Login<span role="button" class="dropdown-menu-toggle ast-header-navigation-arrow" tabindex="0" aria-expanded="false" aria-label="Menu Toggle" aria-haspopup="true"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span></span></a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36127"><a target="_blank" href="https://community.fullyoptimizedhealth.com/home" class="elementor-sub-item menu-link" tabindex="-1"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>FOH</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36128"><a target="_blank" href="https://courses.jaycampbell.com/" class="elementor-sub-item menu-link" tabindex="-1"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Courses</a></li>
+</ul>
+</li>
+</ul>			</nav>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-71a2b99d elementor-widget-mobile__width-initial elementor-hidden-desktop elementor-view-default elementor-widget elementor-widget-icon" data-id="71a2b99d" data-element_type="widget" data-e-type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<a class="elementor-icon" href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjI2NjA1IiwidG9nZ2xlIjpmYWxzZX0%3D">
+			<i aria-hidden="true" class="fas fa-bars"></i>			</a>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-9f2851d elementor-widget elementor-widget-html" data-id="9f2851d" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+					<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var btn = document.querySelector('.e-search-submit');
+  var wrapper = document.querySelector('.e-search-input-wrapper');
+  var input = document.querySelector('.e-search-input');
+
+  btn.addEventListener('click', function(e) {
+    if (!wrapper.classList.contains('expanded')) {
+      e.preventDefault();
+      wrapper.classList.add('expanded');
+      input.focus();
+    }
+  });
+
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.e-search-input-wrapper') && !e.target.closest('.e-search-submit')) {
+      wrapper.classList.remove('expanded');
+    }
+  });
+});
+</script>				</div>
+				</div>
+				<div class="elementor-element elementor-element-25aa0e9 elementor-widget elementor-widget-search" data-id="25aa0e9" data-element_type="widget" data-e-type="widget" data-settings="{&quot;submit_trigger&quot;:&quot;click_submit&quot;,&quot;pagination_type_options&quot;:&quot;none&quot;}" data-widget_type="search.default">
+				<div class="elementor-widget-container">
+							<search class="e-search hidden" role="search">
+			<form class="e-search-form" action="https://jaycampbell.com" method="get">
+
+				
+				<label class="e-search-label" for="search-25aa0e9">
+					<span class="elementor-screen-only">
+						Search					</span>
+									</label>
+
+				<div class="e-search-input-wrapper">
+					<input id="search-25aa0e9" placeholder="Type to start searching..." class="e-search-input" type="search" name="s" value="" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="results-25aa0e9" aria-haspopup="listbox">
+					<i aria-hidden="true" class="fas fa-times"></i>										<output id="results-25aa0e9" class="e-search-results-container hide-loader" aria-live="polite" aria-atomic="true" aria-label="Results for search" tabindex="0">
+						<div class="e-search-results"></div>
+											</output>
+									</div>
+				
+				
+				<button class="e-search-submit  " type="submit">
+					
+										<span class="">
+						Search					</span>
+									</button>
+				<input type="hidden" name="e_search_props" value="25aa0e9-36130">
+			</form>
+		</search>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-597912f2 elementor-align-center elementor-hidden-mobile elementor-widget elementor-widget-button" data-id="597912f2" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://jaycampbell.com/newsletter-signup/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">SUBSCRIBE</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</header>
+			<div id="content" class="site-content">
+		<div class="ast-container">
+		
+
+	<div id="primary" class="content-area primary">
+
+		
+					<main id="main" class="site-main">
+				<article
+class="post-27094 page type-page status-publish has-post-thumbnail ast-article-single" id="post-27094" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
+	
+				<header class="entry-header ast-no-title ast-header-without-markup">
+							</header> <!-- .entry-header -->
+		
+<div class="entry-content clear"
+	itemprop="text">
+
+	
+			<div data-elementor-type="wp-page" data-elementor-id="27094" class="elementor elementor-27094" data-elementor-post-type="page">
+				<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-7775338 e-flex e-con-boxed e-con e-parent" data-id="7775338" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-732cb60 e-con-full e-flex e-con e-child" data-id="732cb60" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-e44cc52 elementor-widget elementor-widget-heading" data-id="e44cc52" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">RECOMMENDED PRODUCTS</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-3a5c213 elementor-widget elementor-widget-text-editor" data-id="3a5c213" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Products And Providers I Personally Use,<br />Trust, and Recommend</p>								</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-c3639c4 e-con-full e-flex e-con e-child" data-id="c3639c4" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-3b7ccc0 elementor-widget elementor-widget-image" data-id="3b7ccc0" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<picture data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::IMG]" decoding="async" class="attachment-large size-large wp-image-38319">
+<source type="image/webp" srcset="https://jaycampbell.com/wp-content/uploads/2025/01/JayCLFOLProfile-transparent.png.webp 827w, https://jaycampbell.com/wp-content/uploads/2025/01/JayCLFOLProfile-transparent-276x300.png.webp 276w, https://jaycampbell.com/wp-content/uploads/2025/01/JayCLFOLProfile-transparent-138x150.png.webp 138w, https://jaycampbell.com/wp-content/uploads/2025/01/JayCLFOLProfile-transparent-768x836.png.webp 768w" sizes="(max-width: 827px) 100vw, 827px"/>
+<img data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::IMG]" decoding="async" width="827" height="900" src="https://jaycampbell.com/wp-content/uploads/2025/01/JayCLFOLProfile-transparent.png" alt="" srcset="https://jaycampbell.com/wp-content/uploads/2025/01/JayCLFOLProfile-transparent.png 827w, https://jaycampbell.com/wp-content/uploads/2025/01/JayCLFOLProfile-transparent-276x300.png 276w, https://jaycampbell.com/wp-content/uploads/2025/01/JayCLFOLProfile-transparent-138x150.png 138w, https://jaycampbell.com/wp-content/uploads/2025/01/JayCLFOLProfile-transparent-768x836.png 768w" sizes="(max-width: 827px) 100vw, 827px"/>
+</picture>
+															</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-d6f3e08 e-flex e-con-boxed e-con e-parent" data-id="d6f3e08" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-6720b9c e-con-full e-flex e-con e-child" data-id="6720b9c" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-5d234b3 elementor-widget elementor-widget-image" data-id="5d234b3" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://biolongevitylabs.com/?ref=Optimized&#038;apply_coupon=JayC" target="_blank" rel="noopener">
+							<img data-od-replaced-sizes="(max-width: 500px) 100vw, 500px" data-od-unknown-tag data-od-xpath="/HTML/BODY/DIV[@id=&apos;page&apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" width="500" height="500" src="https://jaycampbell.com/wp-content/uploads/2025/06/new-BLL-banner.webp" class="attachment-full size-full wp-image-41678" alt="A bundle of biolongevity labs products" srcset="https://jaycampbell.com/wp-content/uploads/2025/06/new-BLL-banner.webp 500w, https://jaycampbell.com/wp-content/uploads/2025/06/new-BLL-banner-300x300.webp 300w, https://jaycampbell.com/wp-content/uploads/2025/06/new-BLL-banner-150x150.webp 150w, https://jaycampbell.com/wp-content/uploads/2025/06/new-BLL-banner-70x70.webp 70w" sizes="auto, (max-width: 500px) 100vw, 500px" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-0b34103 elementor-widget elementor-widget-heading" data-id="0b34103" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">BioLongevity Labs</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-89dd1fe elementor-widget elementor-widget-text-editor" data-id="89dd1fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Start your journey to optimal health today. Discover the power of premier, USA-manufactured research peptides and Khavinson bioregulators from <strong>BioLongevity Labs.</strong></p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-45edd68 elementor-align-center elementor-widget elementor-widget-button" data-id="45edd68" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://biolongevitylabs.com/?ref=Optimized&#038;apply_coupon=JayC" target="_blank" rel="noopener">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">BUY NOW</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-4c27e2d e-con-full e-flex e-con e-child" data-id="4c27e2d" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-f4b92d8 elementor-widget elementor-widget-image" data-id="f4b92d8" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://JayCampbell.com/Bimini" target="_blank" rel="noopener">
+							<picture data-od-replaced-sizes="(max-width: 521px) 100vw, 521px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" class="attachment-full size-full wp-image-45018">
+<source type="image/webp" srcset="https://jaycampbell.com/wp-content/uploads/2025/11/Quantum-Testosterone.png.webp 521w, https://jaycampbell.com/wp-content/uploads/2025/11/Quantum-Testosterone-300x300.png.webp 300w, https://jaycampbell.com/wp-content/uploads/2025/11/Quantum-Testosterone-150x150.png.webp 150w, https://jaycampbell.com/wp-content/uploads/2025/11/Quantum-Testosterone-70x70.png.webp 70w" sizes="auto, (max-width: 521px) 100vw, 521px"/>
+<img data-od-replaced-sizes="(max-width: 521px) 100vw, 521px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" width="521" height="520" src="https://jaycampbell.com/wp-content/uploads/2025/11/Quantum-Testosterone.png" alt="" srcset="https://jaycampbell.com/wp-content/uploads/2025/11/Quantum-Testosterone.png 521w, https://jaycampbell.com/wp-content/uploads/2025/11/Quantum-Testosterone-300x300.png 300w, https://jaycampbell.com/wp-content/uploads/2025/11/Quantum-Testosterone-150x150.png 150w, https://jaycampbell.com/wp-content/uploads/2025/11/Quantum-Testosterone-70x70.png 70w" sizes="auto, (max-width: 521px) 100vw, 521px"/>
+</picture>
+								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-d10a3cd elementor-widget elementor-widget-heading" data-id="d10a3cd" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Bimini Oxygen Therapy</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-b52d3d2 elementor-widget elementor-widget-text-editor" data-id="b52d3d2" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Discover the power of oxygen therapy with <b>Bimini Hydrotherapy.</b></p><p>Bimini&#8217;s innovative <b>NanoJet technology</b> infuses your body with ultra-fine oxygen nanobubbles, promoting faster recovery, pain relief, and skin revitalization.</p><p>Whether you&#8217;re an athlete looking to bounce back quicker or someone seeking relief from everyday stresses, Bimini Hydrotherapy is <b>your path to wellness.</b></p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-7846b63 elementor-align-center elementor-widget elementor-widget-button" data-id="7846b63" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://JayCampbell.com/Bimini" target="_blank" rel="noopener">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">BUY NOW</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-5cf0001 e-con-full e-flex e-con e-child" data-id="5cf0001" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-ab8b63e elementor-widget elementor-widget-image" data-id="ab8b63e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://jaycampbell.com/trifecta-light-bed/" target="_blank">
+							<picture data-od-replaced-sizes="(max-width: 500px) 100vw, 500px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" class="attachment-full size-full wp-image-31448">
+<source type="image/webp" srcset="https://jaycampbell.com/wp-content/uploads/2024/01/trifecta-ad.png.webp 500w, https://jaycampbell.com/wp-content/uploads/2024/01/trifecta-ad-300x300.png.webp 300w, https://jaycampbell.com/wp-content/uploads/2024/01/trifecta-ad-150x150.png.webp 150w" sizes="auto, (max-width: 500px) 100vw, 500px"/>
+<img data-od-replaced-sizes="(max-width: 500px) 100vw, 500px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" width="500" height="500" src="https://jaycampbell.com/wp-content/uploads/2024/01/trifecta-ad.png" alt="" srcset="https://jaycampbell.com/wp-content/uploads/2024/01/trifecta-ad.png 500w, https://jaycampbell.com/wp-content/uploads/2024/01/trifecta-ad-300x300.png 300w, https://jaycampbell.com/wp-content/uploads/2024/01/trifecta-ad-150x150.png 150w" sizes="auto, (max-width: 500px) 100vw, 500px"/>
+</picture>
+								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-b63d786 elementor-widget elementor-widget-heading" data-id="b63d786" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Trifecta Light</h2>				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-b670035 e-flex e-con-boxed e-con e-child" data-id="b670035" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-f14f5e1 elementor-widget elementor-widget-text-editor" data-id="f14f5e1" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>If You are Clinician, Chiropractor or Wellness Light Professional, I HIGHLY RECOMMEND placing the <b>450 PRO Bed</b> into your practice.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-ce3c2c9 elementor-align-center elementor-widget elementor-widget-button" data-id="ce3c2c9" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://jaycampbell.com/trifecta-light-bed/" target="_blank">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">MORE INFO</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-a27eece e-flex e-con-boxed e-con e-parent" data-id="a27eece" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-a2f2149 e-con-full e-flex e-con e-child" data-id="a2f2149" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-f6c832e elementor-widget elementor-widget-image" data-id="f6c832e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://www.calocurb.com/JAYC" target="_blank" rel="noopener">
+							<picture data-od-replaced-sizes="(max-width: 600px) 100vw, 600px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" class="attachment-full size-full wp-image-40996">
+<source type="image/webp" srcset="https://jaycampbell.com/wp-content/uploads/2024/01/calocurb-banner-big.jpg.webp 600w, https://jaycampbell.com/wp-content/uploads/2024/01/calocurb-banner-big-300x300.jpg.webp 300w, https://jaycampbell.com/wp-content/uploads/2024/01/calocurb-banner-big-150x150.jpg.webp 150w, https://jaycampbell.com/wp-content/uploads/2024/01/calocurb-banner-big-70x70.jpg.webp 70w" sizes="auto, (max-width: 600px) 100vw, 600px"/>
+<img data-od-replaced-sizes="(max-width: 600px) 100vw, 600px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" width="600" height="600" src="https://jaycampbell.com/wp-content/uploads/2024/01/calocurb-banner-big.jpg" alt="" srcset="https://jaycampbell.com/wp-content/uploads/2024/01/calocurb-banner-big.jpg 600w, https://jaycampbell.com/wp-content/uploads/2024/01/calocurb-banner-big-300x300.jpg 300w, https://jaycampbell.com/wp-content/uploads/2024/01/calocurb-banner-big-150x150.jpg 150w, https://jaycampbell.com/wp-content/uploads/2024/01/calocurb-banner-big-70x70.jpg 70w" sizes="auto, (max-width: 600px) 100vw, 600px"/>
+</picture>
+								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-299bfcf elementor-widget elementor-widget-heading" data-id="299bfcf" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Calocurb</h2>				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-d9038e0 e-flex e-con-boxed e-con e-child" data-id="d9038e0" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-684c873 elementor-widget elementor-widget-text-editor" data-id="684c873" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>This all-natural supplement, suppresses your appetite as well as Tirzepatide, can <b>improve and restore gut health</b>, and is an oral capsule requiring no injection.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-10c7434 elementor-align-center elementor-widget elementor-widget-button" data-id="10c7434" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://www.calocurb.com/JAYC" target="_blank" rel="noopener">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">BUY NOW</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-0c10c86 e-con-full e-flex e-con e-child" data-id="0c10c86" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-c49c13c elementor-widget elementor-widget-image" data-id="c49c13c" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://www.blushield-us.com/?sca_ref=3999117.6pLWP1y0h7" target="_blank" rel="noopener">
+							<picture data-od-replaced-sizes="(max-width: 500px) 100vw, 500px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" class="attachment-full size-full wp-image-31458">
+<source type="image/webp" srcset="https://jaycampbell.com/wp-content/uploads/2024/01/Blueshield_v2.jpg.webp 500w, https://jaycampbell.com/wp-content/uploads/2024/01/Blueshield_v2-300x300.jpg.webp 300w, https://jaycampbell.com/wp-content/uploads/2024/01/Blueshield_v2-150x150.jpg.webp 150w" sizes="auto, (max-width: 500px) 100vw, 500px"/>
+<img data-od-replaced-sizes="(max-width: 500px) 100vw, 500px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" width="500" height="500" src="https://jaycampbell.com/wp-content/uploads/2024/01/Blueshield_v2.jpg" alt="" srcset="https://jaycampbell.com/wp-content/uploads/2024/01/Blueshield_v2.jpg 500w, https://jaycampbell.com/wp-content/uploads/2024/01/Blueshield_v2-300x300.jpg 300w, https://jaycampbell.com/wp-content/uploads/2024/01/Blueshield_v2-150x150.jpg 150w" sizes="auto, (max-width: 500px) 100vw, 500px"/>
+</picture>
+								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-cf3b873 elementor-widget elementor-widget-heading" data-id="cf3b873" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Blushield</h2>				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-ce0426e e-flex e-con-boxed e-con e-child" data-id="ce0426e" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-142cc66 elementor-widget elementor-widget-text-editor" data-id="142cc66" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>A Revolutionary form of <b>EMF protection</b> that produces coherent frequencies within the human responsive range, based on mathematical algorithms that mimic nature.</p><p>I defend my home and my family from EMF contamination with Blushield Cube!</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-02182fb elementor-align-center elementor-widget elementor-widget-button" data-id="02182fb" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://www.blushield-us.com/?sca_ref=3999117.6pLWP1y0h7" target="_blank" rel="noopener">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">BUY NOW</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-55c80e8 e-con-full e-flex e-con e-child" data-id="55c80e8" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-18942b2 elementor-widget elementor-widget-image" data-id="18942b2" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://biostacklabs.com/jayc" target="_blank" rel="noopener">
+							<picture data-od-replaced-sizes="(max-width: 480px) 100vw, 480px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" class="attachment-full size-full wp-image-32764">
+<source type="image/webp" srcset="https://jaycampbell.com/wp-content/uploads/2024/02/biostack-labs.jpeg.webp 480w, https://jaycampbell.com/wp-content/uploads/2024/02/biostack-labs-300x300.jpeg.webp 300w, https://jaycampbell.com/wp-content/uploads/2024/02/biostack-labs-150x150.jpeg.webp 150w, https://jaycampbell.com/wp-content/uploads/2024/02/biostack-labs-70x70.jpeg.webp 70w" sizes="auto, (max-width: 480px) 100vw, 480px"/>
+<img data-od-replaced-sizes="(max-width: 480px) 100vw, 480px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" width="480" height="480" src="https://jaycampbell.com/wp-content/uploads/2024/02/biostack-labs.jpeg" alt="biostack labs" srcset="https://jaycampbell.com/wp-content/uploads/2024/02/biostack-labs.jpeg 480w, https://jaycampbell.com/wp-content/uploads/2024/02/biostack-labs-300x300.jpeg 300w, https://jaycampbell.com/wp-content/uploads/2024/02/biostack-labs-150x150.jpeg 150w, https://jaycampbell.com/wp-content/uploads/2024/02/biostack-labs-70x70.jpeg 70w" sizes="auto, (max-width: 480px) 100vw, 480px"/>
+</picture>
+								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-69ccadc elementor-widget elementor-widget-heading" data-id="69ccadc" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">BioStack Labs</h2>				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-6fcffa5 e-flex e-con-boxed e-con e-child" data-id="6fcffa5" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-41a68ae elementor-widget elementor-widget-text-editor" data-id="41a68ae" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Get the <b>World’s Best Longevity Supplements</b> shipping direct to your door every month at up to 10% OFF!</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-f8980fa elementor-align-center elementor-widget elementor-widget-button" data-id="f8980fa" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://biostacklabs.com/jayc" target="_blank" rel="noopener">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">BUY NOW</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-36ee0ed e-flex e-con-boxed e-con e-parent" data-id="36ee0ed" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-bf3b281 e-con-full e-flex e-con e-child" data-id="bf3b281" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-66204dd elementor-widget elementor-widget-image" data-id="66204dd" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://nutritionsolutions.com/fatlossplan/?code=jayc" target="_blank" rel="noopener">
+							<picture data-od-replaced-sizes="(max-width: 500px) 100vw, 500px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[4][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" class="attachment-full size-full wp-image-32987">
+<source type="image/webp" srcset="https://jaycampbell.com/wp-content/uploads/2024/03/Nutrition-Solutions_v1.png.webp 500w, https://jaycampbell.com/wp-content/uploads/2024/03/Nutrition-Solutions_v1-300x300.png.webp 300w, https://jaycampbell.com/wp-content/uploads/2024/03/Nutrition-Solutions_v1-150x150.png.webp 150w, https://jaycampbell.com/wp-content/uploads/2024/03/Nutrition-Solutions_v1-70x70.png.webp 70w" sizes="auto, (max-width: 500px) 100vw, 500px"/>
+<img data-od-replaced-sizes="(max-width: 500px) 100vw, 500px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[4][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" width="500" height="500" src="https://jaycampbell.com/wp-content/uploads/2024/03/Nutrition-Solutions_v1.png" alt="Nutrition Solutions" srcset="https://jaycampbell.com/wp-content/uploads/2024/03/Nutrition-Solutions_v1.png 500w, https://jaycampbell.com/wp-content/uploads/2024/03/Nutrition-Solutions_v1-300x300.png 300w, https://jaycampbell.com/wp-content/uploads/2024/03/Nutrition-Solutions_v1-150x150.png 150w, https://jaycampbell.com/wp-content/uploads/2024/03/Nutrition-Solutions_v1-70x70.png 70w" sizes="auto, (max-width: 500px) 100vw, 500px"/>
+</picture>
+								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-1be86f8 elementor-widget elementor-widget-heading" data-id="1be86f8" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Nutrition Solutions</h2>				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-456bb67 e-flex e-con-boxed e-con e-child" data-id="456bb67" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-e7d6657 elementor-widget elementor-widget-text-editor" data-id="e7d6657" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p dir="auto">Jay&#8217;s go-to for<strong> grass-fed, high-protein, organic meals</strong> (35g/serving) &amp; organ superfoods. No cooking: heat, eat, transform. Build muscle, torch fat, and reclaim vitality in 42 days. Weekly delivery, customizable.</p><p dir="auto"><strong>+ 20% Off (Code: JAYC)</strong></p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-d36a2ee elementor-align-center elementor-widget elementor-widget-button" data-id="d36a2ee" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://nutritionsolutions.com/fatlossplan/?code=jayc" target="_blank" rel="noopener">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">BUY NOW</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-04ca8f1 e-con-full e-flex e-con e-child" data-id="04ca8f1" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-988023a elementor-widget elementor-widget-image" data-id="988023a" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://www.privatemdlabs.com/jayc" target="_blank" rel="noopener">
+							<picture data-od-replaced-sizes="(max-width: 500px) 100vw, 500px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[4][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" class="attachment-full size-full wp-image-14977">
+<source type="image/webp" srcset="https://jaycampbell.com/wp-content/uploads/2021/12/MC-Labs.png.webp 500w, https://jaycampbell.com/wp-content/uploads/2021/12/MC-Labs-300x300.png.webp 300w, https://jaycampbell.com/wp-content/uploads/2021/12/MC-Labs-150x150.png.webp 150w" sizes="auto, (max-width: 500px) 100vw, 500px"/>
+<img data-od-replaced-sizes="(max-width: 500px) 100vw, 500px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[4][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" width="500" height="500" src="https://jaycampbell.com/wp-content/uploads/2021/12/MC-Labs.png" alt="Private-MD-Labs-Jay-Campbell" srcset="https://jaycampbell.com/wp-content/uploads/2021/12/MC-Labs.png 500w, https://jaycampbell.com/wp-content/uploads/2021/12/MC-Labs-300x300.png 300w, https://jaycampbell.com/wp-content/uploads/2021/12/MC-Labs-150x150.png 150w" sizes="auto, (max-width: 500px) 100vw, 500px"/>
+</picture>
+								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-92fef81 elementor-widget elementor-widget-heading" data-id="92fef81" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Private MD Labs</h2>				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-5e8ffca e-flex e-con-boxed e-con e-child" data-id="5e8ffca" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-6cf4834 elementor-widget elementor-widget-text-editor" data-id="6cf4834" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Be Proactive About Your Health and use the Lab I’ve been working with for more than a decade!</p><p>Jay’s Take: Skip the intrusive Dr Questions and Pick One of my <b>3 Custom Blood Work Lab Panels</b> Today! Basic, Intermediate or Advanced</p><p><b>Take 15% OFF</b> your order by using code: <b>JayC</b>.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-427006e elementor-align-center elementor-widget elementor-widget-button" data-id="427006e" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://www.privatemdlabs.com/jayc" target="_blank" rel="noopener">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">MORE INFO</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-29e3be2 e-con-full e-flex e-con e-child" data-id="29e3be2" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-dec8f3e elementor-widget elementor-widget-image" data-id="dec8f3e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://www.myvitalc.com/pages/jay/?aff=jaycampbell" target="_blank" rel="noopener">
+							<img data-od-replaced-sizes="(max-width: 480px) 100vw, 480px" data-od-unknown-tag data-od-xpath="/HTML/BODY/DIV[@id=&apos;page&apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[4][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" width="480" height="480" src="https://jaycampbell.com/wp-content/uploads/2025/11/MyVitalC-MCT-Jays-Cinnamon.webp" class="attachment-full size-full wp-image-44967" alt="" srcset="https://jaycampbell.com/wp-content/uploads/2025/11/MyVitalC-MCT-Jays-Cinnamon.webp 480w, https://jaycampbell.com/wp-content/uploads/2025/11/MyVitalC-MCT-Jays-Cinnamon-300x300.webp 300w, https://jaycampbell.com/wp-content/uploads/2025/11/MyVitalC-MCT-Jays-Cinnamon-150x150.webp 150w, https://jaycampbell.com/wp-content/uploads/2025/11/MyVitalC-MCT-Jays-Cinnamon-70x70.webp 70w" sizes="auto, (max-width: 480px) 100vw, 480px" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-8e4854f elementor-widget elementor-widget-heading" data-id="8e4854f" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">MyVitalC</h2>				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-847575a e-flex e-con-boxed e-con e-child" data-id="847575a" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-d7bd8bb elementor-widget elementor-widget-text-editor" data-id="d7bd8bb" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p dir="auto">Jay&#8217;s trusted partner for <b>Nobel-grade antioxidants—172x vitamin C power</b> in organic olive oil. Boost cellular energy, slash inflammation, and extend vitality 90% (per landmark studies).</p><p dir="auto"><b>Get $35 Off Exclusive Deal</b></p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-e2f5c36 elementor-align-center elementor-widget elementor-widget-button" data-id="e2f5c36" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://www.myvitalc.com/pages/jay/?aff=jay" target="_blank" rel="noopener">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">MORE INFO</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-347a92d e-flex e-con-boxed e-con e-parent" data-id="347a92d" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-5fc523c e-con-full e-flex e-con e-child" data-id="5fc523c" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-8687073 elementor-widget elementor-widget-image" data-id="8687073" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="http://n1o1.com/?sld=jaycampbell" target="_blank" rel="noopener">
+							<picture data-od-replaced-sizes="(max-width: 500px) 100vw, 500px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[5][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" class="attachment-full size-full wp-image-35004">
+<source type="image/webp" srcset="https://jaycampbell.com/wp-content/uploads/2024/07/n101-no2u-jayc-recommends.png.webp 500w, https://jaycampbell.com/wp-content/uploads/2024/07/n101-no2u-jayc-recommends-300x300.png.webp 300w, https://jaycampbell.com/wp-content/uploads/2024/07/n101-no2u-jayc-recommends-150x150.png.webp 150w, https://jaycampbell.com/wp-content/uploads/2024/07/n101-no2u-jayc-recommends-70x70.png.webp 70w" sizes="auto, (max-width: 500px) 100vw, 500px"/>
+<img data-od-replaced-sizes="(max-width: 500px) 100vw, 500px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[5][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" width="500" height="500" src="https://jaycampbell.com/wp-content/uploads/2024/07/n101-no2u-jayc-recommends.png" alt="" srcset="https://jaycampbell.com/wp-content/uploads/2024/07/n101-no2u-jayc-recommends.png 500w, https://jaycampbell.com/wp-content/uploads/2024/07/n101-no2u-jayc-recommends-300x300.png 300w, https://jaycampbell.com/wp-content/uploads/2024/07/n101-no2u-jayc-recommends-150x150.png 150w, https://jaycampbell.com/wp-content/uploads/2024/07/n101-no2u-jayc-recommends-70x70.png 70w" sizes="auto, (max-width: 500px) 100vw, 500px"/>
+</picture>
+								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-7d35ef4 elementor-widget elementor-widget-heading" data-id="7d35ef4" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">N1O1 and NO2U</h2>				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-6e1b012 e-flex e-con-boxed e-con e-child" data-id="6e1b012" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-ca7a4fb elementor-widget elementor-widget-text-editor" data-id="ca7a4fb" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Nitric Oxide is a cellular signaling molecule that controls nearly every aspect of our health, <b>from immunity to cardiovascular performance and cognitive function.</b></p><p><span style="font-size: 16px;">N.O. production naturally decreases with age, so I recommend using products from N1O1 and NO2U to restore your body to optimal levels.</span></p><p><b>Save 10%</b> on any product when you use code <b>JAYC</b> during checkout.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-0fa5cf5 elementor-align-center elementor-widget elementor-widget-button" data-id="0fa5cf5" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://www.awin1.com/cread.php?awinmid=115399&#038;awinaffid=1243463&#038;ued=https%3A%2F%2Fn1o1.com%2F" target="_blank" rel="noopener">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">SHOP AT N1O1.COM</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-15b708e elementor-align-center elementor-widget elementor-widget-button" data-id="15b708e" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://no2u.com/" target="_blank" rel="noopener">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">SHOP AT NO2U.COM</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-40fd7d4 e-con-full e-flex e-con e-child" data-id="40fd7d4" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-c4a6101 elementor-widget elementor-widget-image" data-id="c4a6101" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://go.c60purplepower.com/jayc/" target="_blank" rel="noopener">
+							<picture data-od-replaced-sizes="(max-width: 500px) 100vw, 500px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[5][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" class="attachment-full size-full wp-image-31457">
+<source type="image/webp" srcset="https://jaycampbell.com/wp-content/uploads/2024/01/C60-Performance-Matters.jpg.webp 500w, https://jaycampbell.com/wp-content/uploads/2024/01/C60-Performance-Matters-300x300.jpg.webp 300w, https://jaycampbell.com/wp-content/uploads/2024/01/C60-Performance-Matters-150x150.jpg.webp 150w" sizes="auto, (max-width: 500px) 100vw, 500px"/>
+<img data-od-replaced-sizes="(max-width: 500px) 100vw, 500px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[5][self::DIV]/*[1][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" width="500" height="500" src="https://jaycampbell.com/wp-content/uploads/2024/01/C60-Performance-Matters.jpg" alt="" srcset="https://jaycampbell.com/wp-content/uploads/2024/01/C60-Performance-Matters.jpg 500w, https://jaycampbell.com/wp-content/uploads/2024/01/C60-Performance-Matters-300x300.jpg 300w, https://jaycampbell.com/wp-content/uploads/2024/01/C60-Performance-Matters-150x150.jpg 150w" sizes="auto, (max-width: 500px) 100vw, 500px"/>
+</picture>
+								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-6e5f65d elementor-widget elementor-widget-heading" data-id="6e5f65d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Purple Power C60</h2>				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-4fde49c e-flex e-con-boxed e-con e-child" data-id="4fde49c" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-813f254 elementor-widget elementor-widget-text-editor" data-id="813f254" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Performance Matters! Upgrade all facets of your life with the Carbon 60, <b>the ultimate anti-oxidant!</b></p><p>Jay’s Take: Carbon 60 is an absolutely must have supplement for you and your animals. I’m certain I extended my dog Simba’s life by 2-3 years since we started giving him daily C-60.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-7b09a96 elementor-align-center elementor-widget elementor-widget-button" data-id="7b09a96" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://go.c60purplepower.com/jayc/" target="_blank" rel="noopener">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">BUY NOW</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-2ea9147 e-con-full e-flex e-con e-child" data-id="2ea9147" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-2702dc7 elementor-widget elementor-widget-image" data-id="2702dc7" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://oxford-healthspan.myshopify.com/jaycampbell" target="_blank" rel="noopener">
+							<picture data-od-replaced-sizes="(max-width: 500px) 100vw, 500px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[5][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" class="attachment-full size-full wp-image-35006">
+<source type="image/webp" srcset="https://jaycampbell.com/wp-content/uploads/2024/07/Jay-Campbell-Affiliate-Graphic-–-Oxford-Health-Primeadine.png.webp 500w, https://jaycampbell.com/wp-content/uploads/2024/07/Jay-Campbell-Affiliate-Graphic-–-Oxford-Health-Primeadine-300x300.png.webp 300w, https://jaycampbell.com/wp-content/uploads/2024/07/Jay-Campbell-Affiliate-Graphic-–-Oxford-Health-Primeadine-150x150.png.webp 150w, https://jaycampbell.com/wp-content/uploads/2024/07/Jay-Campbell-Affiliate-Graphic-–-Oxford-Health-Primeadine-70x70.png.webp 70w" sizes="auto, (max-width: 500px) 100vw, 500px"/>
+<img data-od-replaced-sizes="(max-width: 500px) 100vw, 500px" data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::MAIN]/*[1][self::ARTICLE]/*[2][self::DIV]/*[1][self::DIV]/*[5][self::DIV]/*[1][self::DIV]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" loading="lazy" decoding="async" width="500" height="500" src="https://jaycampbell.com/wp-content/uploads/2024/07/Jay-Campbell-Affiliate-Graphic-–-Oxford-Health-Primeadine.png" alt="" srcset="https://jaycampbell.com/wp-content/uploads/2024/07/Jay-Campbell-Affiliate-Graphic-–-Oxford-Health-Primeadine.png 500w, https://jaycampbell.com/wp-content/uploads/2024/07/Jay-Campbell-Affiliate-Graphic-–-Oxford-Health-Primeadine-300x300.png 300w, https://jaycampbell.com/wp-content/uploads/2024/07/Jay-Campbell-Affiliate-Graphic-–-Oxford-Health-Primeadine-150x150.png 150w, https://jaycampbell.com/wp-content/uploads/2024/07/Jay-Campbell-Affiliate-Graphic-–-Oxford-Health-Primeadine-70x70.png 70w" sizes="auto, (max-width: 500px) 100vw, 500px"/>
+</picture>
+								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-3348ca7 elementor-widget elementor-widget-heading" data-id="3348ca7" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Oxford Healthspan</h2>				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-dee3dd9 e-flex e-con-boxed e-con e-child" data-id="dee3dd9" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-6beddd0 elementor-widget elementor-widget-text-editor" data-id="6beddd0" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Oxford Healthspan is my go-to recommendation for people looking to supplement with spermidine.</p>
+<p>Spermidine has been proven to <b>slow the aging process</b> at the molecular level, and Oxford&#8217;s Primeadine product is unmatched.</p>
+<p><b>Save 15%</b> on your order by using the code <b>JAY15</b> during checkout.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-38aedd1 elementor-align-center elementor-widget elementor-widget-button" data-id="38aedd1" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://oxford-healthspan.myshopify.com/jaycampbell" target="_blank" rel="noopener">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">BUY NOW</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="rm-area-embed-end-of-article"></div>
+	
+	
+</div><!-- .entry-content .clear -->
+
+	
+	
+</article><!-- #post-## -->
+
+			</main><!-- #main -->
+			
+		
+	</div><!-- #primary -->
+
+
+	</div> <!-- ast-container -->
+	</div><!-- #content -->
+		<footer data-elementor-type="footer" data-elementor-id="36104" class="elementor elementor-36104 elementor-location-footer" data-elementor-post-type="elementor_library">
+			<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-a60b840 e-con-full elementor-hidden-desktop elementor-hidden-tablet e-flex e-con e-child" data-id="a60b840" data-element_type="container" data-e-type="container" id="np25-sticky-subscribe-form" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;position&quot;:&quot;fixed&quot;}">
+				<div class="elementor-element elementor-element-4496b30 custom-but-class elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="4496b30" data-element_type="widget" data-e-type="widget" data-settings="{&quot;button_width&quot;:&quot;40&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width_mobile&quot;:&quot;40&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+							<form class="elementor-form" method="post" name="Footer Form" aria-label="Footer Form">
+			<input type="hidden" name="post_id" value="36104"/>
+			<input type="hidden" name="form_id" value="4496b30"/>
+			<input type="hidden" name="referer_title" value="Page not found | Jay Campbell" />
+
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-">
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-60 elementor-sm-60 elementor-field-required">
+												<label for="form-field-email" class="elementor-field-label elementor-screen-only">
+								Email							</label>
+														<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Enter Your Email" required="required">
+											</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-40 e-form__buttons elementor-sm-40">
+					<button class="elementor-button elementor-size-sm" type="submit">
+						<span class="elementor-button-content-wrapper">
+																						<span class="elementor-button-text">Subscribe</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-972a398 elementor-widget elementor-widget-html" data-id="972a398" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+					<style>
+    #chatbase-bubble-button {
+        bottom: 8rem !important;
+    }
+    .ast-scroll-to-top-right {
+        bottom: 75px;
+        right: 25px;
+    }
+    #np25-sticky-subscribe-form {
+        display: none;
+    }
+    #np25-sticky-subscribe-form.np25-sticky-subscribe-form {
+        display: block;
+    }
+</style>
+
+<script>
+ 
+function waitForJQuery(cb) {
+    if (window.jQuery && document.querySelector('body') ) { cb(window.jQuery); }
+      else setTimeout(waitForJQuery, 500, cb);
+}
+waitForJQuery(($) => {   
+    // Detect if mobile device
+    if (window.matchMedia('only screen and (max-width: 990px)').matches) {
+
+        function npaScrollDetect() {
+            var npaCTAPos = $('body').offset().top + 200;
+            console.log(npaCTAPos, document.body.scrollTop);
+            if (document.body.scrollTop > npaCTAPos || document.documentElement.scrollTop > npaCTAPos) {
+                $('#np25-sticky-subscribe-form').addClass('np25-sticky-subscribe-form');
+            } else {
+                $('#np25-sticky-subscribe-form').removeClass('np25-sticky-subscribe-form');
+            }
+        }
+        window.addEventListener('scroll', () => {
+            npaScrollDetect();
+        }, true);
+    }
+
+});  
+</script>				</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-5928cf22 e-flex e-con-boxed e-con e-parent" data-id="5928cf22" data-element_type="container" data-e-type="container" id="god-stack-footer">
+					<div class="e-con-inner">
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-abe9613 e-con-full e-flex e-con e-child" data-id="abe9613" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-12e0809a elementor-widget elementor-widget-image" data-id="12e0809a" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<picture data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[3][self::FOOTER]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::IMG]" class="attachment-large size-large wp-image-38776">
+<source type="image/webp" srcset="https://jaycampbell.com/wp-content/uploads/2024/10/3D-book-A-Week-in-the-Life-of-Jay-And-Monica-Campbel-777x1024.png.webp 777w, https://jaycampbell.com/wp-content/uploads/2024/10/3D-book-A-Week-in-the-Life-of-Jay-And-Monica-Campbel-228x300.png.webp 228w, https://jaycampbell.com/wp-content/uploads/2024/10/3D-book-A-Week-in-the-Life-of-Jay-And-Monica-Campbel-114x150.png.webp 114w, https://jaycampbell.com/wp-content/uploads/2024/10/3D-book-A-Week-in-the-Life-of-Jay-And-Monica-Campbel-768x1012.png.webp 768w, https://jaycampbell.com/wp-content/uploads/2024/10/3D-book-A-Week-in-the-Life-of-Jay-And-Monica-Campbel-1166x1536.png.webp 1166w, https://jaycampbell.com/wp-content/uploads/2024/10/3D-book-A-Week-in-the-Life-of-Jay-And-Monica-Campbel.png.webp 1242w" sizes="(max-width: 777px) 100vw, 777px"/>
+<img data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[3][self::FOOTER]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::IMG]" width="777" height="1024" src="https://jaycampbell.com/wp-content/uploads/2024/10/3D-book-A-Week-in-the-Life-of-Jay-And-Monica-Campbel-777x1024.png" alt="A Week in the Life of Jay And Monica Campbel" srcset="https://jaycampbell.com/wp-content/uploads/2024/10/3D-book-A-Week-in-the-Life-of-Jay-And-Monica-Campbel-777x1024.png 777w, https://jaycampbell.com/wp-content/uploads/2024/10/3D-book-A-Week-in-the-Life-of-Jay-And-Monica-Campbel-228x300.png 228w, https://jaycampbell.com/wp-content/uploads/2024/10/3D-book-A-Week-in-the-Life-of-Jay-And-Monica-Campbel-114x150.png 114w, https://jaycampbell.com/wp-content/uploads/2024/10/3D-book-A-Week-in-the-Life-of-Jay-And-Monica-Campbel-768x1012.png 768w, https://jaycampbell.com/wp-content/uploads/2024/10/3D-book-A-Week-in-the-Life-of-Jay-And-Monica-Campbel-1166x1536.png 1166w, https://jaycampbell.com/wp-content/uploads/2024/10/3D-book-A-Week-in-the-Life-of-Jay-And-Monica-Campbel.png 1242w" sizes="(max-width: 777px) 100vw, 777px"/>
+</picture>
+															</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-14831d1c e-con-full e-flex e-con e-child" data-id="14831d1c" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-13d604a8 elementor-widget elementor-widget-text-editor" data-id="13d604a8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p class="cvGsUA direction-ltr align-center para-style-body">Get Jay and Monica’s 18 Page E-book demonstrating everything they do weekly to look and feel the way they do at 54 &amp; 53 years young.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-480d52b elementor-button-align-center elementor-widget elementor-widget-form" data-id="480d52b" data-element_type="widget" data-e-type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+							<form class="elementor-form" method="post" name="God Stack Footer Form" aria-label="God Stack Footer Form">
+			<input type="hidden" name="post_id" value="36104"/>
+			<input type="hidden" name="form_id" value="480d52b"/>
+			<input type="hidden" name="referer_title" value="Page not found | Jay Campbell" />
+
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-">
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+												<label for="form-field-email" class="elementor-field-label elementor-screen-only">
+								Email							</label>
+														<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Email" required="required">
+											</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+					<button class="elementor-button elementor-size-sm elementor-animation-grow" type="submit">
+						<span class="elementor-button-content-wrapper">
+																						<span class="elementor-button-text">GET YOUR FREE EBOOK!</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-6976668a e-con-full e-flex e-con e-parent" data-id="6976668a" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-787cee6a e-con-full e-flex e-con e-child" data-id="787cee6a" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-200791d8 elementor-widget elementor-widget-image" data-id="200791d8" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://jaycampbell.com/">
+							<img data-od-unknown-tag data-od-xpath="/HTML/BODY/DIV[@id=&apos;page&apos;]/*[3][self::FOOTER]/*[3][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" width="1335" height="462" src="https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white.png" class="attachment-full size-full wp-image-36107" alt="" srcset="https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white.png 1335w, https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white-300x104.png 300w, https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white-1024x354.png 1024w, https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white-150x52.png 150w, https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white-768x266.png 768w" sizes="(max-width: 1335px) 100vw, 1335px" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-6ed59385 elementor-align-center elementor-widget elementor-widget-button" data-id="6ed59385" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://jaycampbell.com/contact/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">GET SUPPORT</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-1b75e77f elementor-grid-mobile-0 elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons" data-id="1b75e77f" data-element_type="widget" data-e-type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid" role="list">
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-b7d5830" href="https://www.youtube.com/@jaycampbell333" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<i aria-hidden="true" class="fab fa-youtube"></i>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-x-twitter elementor-repeater-item-e7ce1bd" href="https://x.com/JayCampbell333" target="_blank">
+						<span class="elementor-screen-only">X-twitter</span>
+						<i aria-hidden="true" class="fab fa-x-twitter"></i>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-envelope elementor-repeater-item-8451ade" href="https://jaycampbell.com/newsletter-signup/" target="_blank">
+						<span class="elementor-screen-only">Envelope</span>
+						<i aria-hidden="true" class="fas fa-envelope"></i>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-41aa2e2c e-con-full e-flex e-con e-child" data-id="41aa2e2c" data-element_type="container" data-e-type="container">
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-3f194316 e-con-full e-flex e-con e-child" data-id="3f194316" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-6749f802 elementor-widget elementor-widget-text-editor" data-id="6749f802" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">I’M INTERESTED IN</span></p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-61183fa1 elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="61183fa1" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-61183fa1" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36727"><a href="https://jaycampbell.com/peptides/" class="elementor-item menu-link">Peptides</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36714"><a href="https://jaycampbell.com/fat-loss/" class="elementor-item menu-link">Fat Loss</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36734"><a href="https://jaycampbell.com/testosterone/" class="elementor-item menu-link">Testosterone</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-61183fa1" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36727"><a href="https://jaycampbell.com/peptides/" class="elementor-item menu-link" tabindex="-1">Peptides</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36714"><a href="https://jaycampbell.com/fat-loss/" class="elementor-item menu-link" tabindex="-1">Fat Loss</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36734"><a href="https://jaycampbell.com/testosterone/" class="elementor-item menu-link" tabindex="-1">Testosterone</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-739e20f3 e-con-full e-flex e-con e-child" data-id="739e20f3" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-4d816e58 elementor-widget elementor-widget-text-editor" data-id="4d816e58" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">I WANT TO</span></p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-7a1e053a elementor-nav-menu__align-start elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="7a1e053a" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot; aria-hidden=\&quot;true\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-7a1e053a" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-27094 current_page_item menu-item-36118"><a href="https://jaycampbell.com/jay-recommends/" aria-current="page" class="elementor-item elementor-item-active menu-link">Use What Jay Uses</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36707"><a href="https://jaycampbell.com/shop/" class="elementor-item menu-link">Learn From Jay</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36120"><a href="https://jaycampbell.com/blog/" class="elementor-item menu-link">Read Free Articles</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-7a1e053a" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-27094 current_page_item menu-item-36118"><a href="https://jaycampbell.com/jay-recommends/" aria-current="page" class="elementor-item elementor-item-active menu-link" tabindex="-1">Use What Jay Uses</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36707"><a href="https://jaycampbell.com/shop/" class="elementor-item menu-link" tabindex="-1">Learn From Jay</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36120"><a href="https://jaycampbell.com/blog/" class="elementor-item menu-link" tabindex="-1">Read Free Articles</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-498342ee e-con-full e-flex e-con e-child" data-id="498342ee" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-2b1f9998 elementor-widget elementor-widget-text-editor" data-id="2b1f9998" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span class="OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none">JOIN MY EMAIL LIST!</span></p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-171eca4e elementor-widget elementor-widget-image" data-id="171eca4e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<picture data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[3][self::FOOTER]/*[3][self::DIV]/*[3][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::IMG]" class="attachment-full size-full wp-image-36108">
+<source type="image/webp" srcset="https://jaycampbell.com/wp-content/uploads/2024/10/JM-footer-medium.png.webp 352w, https://jaycampbell.com/wp-content/uploads/2024/10/JM-footer-medium-300x300.png.webp 300w, https://jaycampbell.com/wp-content/uploads/2024/10/JM-footer-medium-150x150.png.webp 150w, https://jaycampbell.com/wp-content/uploads/2024/10/JM-footer-medium-70x70.png.webp 70w" sizes="(max-width: 352px) 100vw, 352px"/>
+<img data-od-xpath="/HTML/BODY/DIV[@id=&amp;apos;page&amp;apos;]/*[3][self::FOOTER]/*[3][self::DIV]/*[3][self::DIV]/*[2][self::DIV]/*[1][self::DIV]/*[1][self::IMG]" width="352" height="352" src="https://jaycampbell.com/wp-content/uploads/2024/10/JM-footer-medium.png" alt="" srcset="https://jaycampbell.com/wp-content/uploads/2024/10/JM-footer-medium.png 352w, https://jaycampbell.com/wp-content/uploads/2024/10/JM-footer-medium-300x300.png 300w, https://jaycampbell.com/wp-content/uploads/2024/10/JM-footer-medium-150x150.png 150w, https://jaycampbell.com/wp-content/uploads/2024/10/JM-footer-medium-70x70.png 70w" sizes="(max-width: 352px) 100vw, 352px"/>
+</picture>
+															</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-ed7d189 e-con-full e-flex e-con e-child" data-id="ed7d189" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-75d2a473 custom-but-class elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="75d2a473" data-element_type="widget" data-e-type="widget" data-settings="{&quot;button_width&quot;:&quot;40&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width_mobile&quot;:&quot;40&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+							<form class="elementor-form" method="post" name="Footer Form" aria-label="Footer Form">
+			<input type="hidden" name="post_id" value="36104"/>
+			<input type="hidden" name="form_id" value="75d2a473"/>
+			<input type="hidden" name="referer_title" value="Page not found | Jay Campbell" />
+
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-">
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-60 elementor-sm-60 elementor-field-required">
+												<label for="form-field-email" class="elementor-field-label elementor-screen-only">
+								Email							</label>
+														<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Enter Your Email" required="required">
+											</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-40 e-form__buttons elementor-sm-40">
+					<button class="elementor-button elementor-size-sm" type="submit">
+						<span class="elementor-button-content-wrapper">
+																						<span class="elementor-button-text">Subscribe</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+						</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-77a1a9 e-con-full e-flex e-con e-parent" data-id="77a1a9" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-1973df72 custom-text elementor-widget elementor-widget-text-editor" data-id="1973df72" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><a class="custom-text" href="https://jaycampbell.com/terms-of-use/">Terms of Use</a> – <a class="custom-text" href="https://jaycampbell.com/privacy-policy/">Privacy Policy</a> – <a class="custom-text" href="https://jaycampbell.com/disclosure/">Disclosure</a></p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-1726f7e2 elementor-widget elementor-widget-text-editor" data-id="1726f7e2" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									Copyright © 2026 Jay C. Campbell – All Rights Reserved								</div>
+				</div>
+				</div>
+				</footer>
+			</div><!-- #page -->
+<script type="speculationrules">
+{"prerender":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/jay-campbell/*","/wp-content/themes/astra/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prerender, .no-prerender a"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"moderate"}]}
+</script>
+<!-- RightMessage WP embed -->
+<script type="text/javascript">
+    (function (p, a, n, d, o, b) {
+        window.RM = window.RM || [];
+        o = n.createElement('script'); o.type = 'text/javascript'; o.async = true; o.src = 'https://t.rightmessage.com/' + p + '.js';
+        b = n.getElementsByTagName('script')[0]; b.parentNode.insertBefore(o, b);
+        d = function (h, u, i) {
+            var o = n.createElement('style'); o.id = 'rmcloak' + i; o.type = 'text/css';
+            o.appendChild(n.createTextNode('.rmcloak' + h + '{visibility:hidden}.rmcloak' + u + '{display:none}'));
+            b.parentNode.insertBefore(o, b); return o;
+        }; o = d('', '-hidden', ''); d('-stay-invisible', '-stay-hidden', '-stay');
+        setTimeout(function () { o.parentNode && o.parentNode.removeChild(o); }, a);
+    })('1911259741', 20000, document);
+</script><div 
+	id="pum-35430" 
+	role="dialog" 
+	aria-modal="false"
+	class="pum pum-overlay pum-theme-15188 pum-theme-lightbox popmake-overlay click_open" 
+	data-popmake="{&quot;id&quot;:35430,&quot;slug&quot;:&quot;quiz-popup-men&quot;,&quot;theme_id&quot;:15188,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:&quot;&quot;,&quot;extra_selectors&quot;:&quot;&quot;}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-35430" class="pum-container popmake theme-15188 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+				
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			<p>[tqb_quiz id=&#8217;35418&#8242;]</p>
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			&times;			</button>
+		
+	</div>
+
+</div>
+<div 
+	id="pum-35433" 
+	role="dialog" 
+	aria-modal="false"
+	class="pum pum-overlay pum-theme-15188 pum-theme-lightbox popmake-overlay click_open" 
+	data-popmake="{&quot;id&quot;:35433,&quot;slug&quot;:&quot;quiz-popup-women&quot;,&quot;theme_id&quot;:15188,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:&quot;&quot;,&quot;extra_selectors&quot;:&quot;&quot;}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-35433" class="pum-container popmake theme-15188 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+				
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			<p>[tqb_quiz id=&#8217;35421&#8242;]</p>
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			&times;			</button>
+		
+	</div>
+
+</div>
+<div 
+	id="pum-29069" 
+	role="dialog" 
+	aria-modal="false"
+	class="pum pum-overlay pum-theme-15188 pum-theme-lightbox popmake-overlay click_open" 
+	data-popmake="{&quot;id&quot;:29069,&quot;slug&quot;:&quot;quiz-popup&quot;,&quot;theme_id&quot;:15188,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;cookie_name&quot;:&quot;&quot;,&quot;extra_selectors&quot;:&quot;&quot;}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-29069" class="pum-container popmake theme-15188 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+				
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			<p>[tqb_quiz id=&#8217;41714&#8242;]</p>
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			&times;			</button>
+		
+	</div>
+
+</div>
+
+<div id="ast-scroll-top" tabindex="0" class="ast-scroll-top-icon ast-scroll-to-top-right" data-on-devices="both">
+	<span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>	<span class="screen-reader-text">Scroll to Top</span>
+</div>
+		<div data-elementor-type="popup" data-elementor-id="26605" class="elementor elementor-26605 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeInRight&quot;,&quot;exit_animation&quot;:&quot;fadeInRight&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1,&quot;sizes&quot;:[]},&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library">
+			<div data-particle_enable="false" data-particle-mobile-disabled="false" class="elementor-element elementor-element-c98754e e-con-full e-flex e-con e-parent" data-id="c98754e" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-d298b98 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="d298b98" data-element_type="widget" data-e-type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+											<a href="https://jaycampbell.com">
+			<img data-od-unknown-tag data-od-xpath="/HTML/BODY/DIV[@class=&apos;elementor elementor-26605 elementor-location-popup&apos;]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::DIV]/*[1][self::A]/*[1][self::IMG]" width="1335" height="462" src="https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white.png" class="attachment-full size-full wp-image-36107" alt="" srcset="https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white.png 1335w, https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white-300x104.png 300w, https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white-1024x354.png 1024w, https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white-150x52.png 150w, https://jaycampbell.com/wp-content/uploads/2024/10/JC-logo-white-768x266.png 768w" sizes="(max-width: 1335px) 100vw, 1335px" />				</a>
+											</div>
+				</div>
+				<div class="elementor-element elementor-element-a78e61f eael-hamburger--none eael_simple_menu_hamburger_disable_selected_menu_no eael-simple-menu-hamburger-align-right elementor-widget elementor-widget-eael-simple-menu" data-id="a78e61f" data-element_type="widget" data-e-type="widget" data-widget_type="eael-simple-menu.default">
+				<div class="elementor-widget-container">
+					            <div data-hamburger-icon="&lt;i aria-hidden=&quot;true&quot; class=&quot;fas fa-bars&quot;&gt;&lt;/i&gt;" data-indicator-icon="&lt;i aria-hidden=&quot;true&quot; class=&quot;fas fa-angle-down&quot;&gt;&lt;/i&gt;" data-dropdown-indicator-icon="" class="eael-simple-menu-container eael-simple-menu-align-left eael-simple-menu-dropdown-align-left preset-1" data-hamburger-breakpoints="{&quot;mobile&quot;:&quot;Mobile Portrait (&gt; 767px)&quot;,&quot;tablet&quot;:&quot;Tablet Portrait (&gt; 1024px)&quot;,&quot;desktop&quot;:&quot;Desktop (&gt; 2400px)&quot;,&quot;none&quot;:&quot;None&quot;}" data-hamburger-device="none">
+                <ul id="menu-new-main-menu" class="eael-simple-menu eael-simple-menu-dropdown-animate-to-top eael-simple-menu-indicator eael-simple-menu-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36726"><a href="https://jaycampbell.com/peptides/" class="menu-link">Peptides</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36719"><a href="https://jaycampbell.com/fat-loss/" class="menu-link">Fat Loss</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36735"><a href="https://jaycampbell.com/testosterone/" class="menu-link">Testosterone</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-27094 current_page_item menu-item-28779"><a href="https://jaycampbell.com/jay-recommends/" aria-current="page" class="menu-link">Jay Recommends</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31720"><a href="https://jaycampbell.com/blog/" class="menu-link">Articles</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36706"><a href="https://jaycampbell.com/shop/" class="menu-link">Learn From Jay</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-36126"><a aria-expanded="false" href="#" class="menu-link">Login<span role="button" class="dropdown-menu-toggle ast-header-navigation-arrow" tabindex="0" aria-expanded="false" aria-label="Menu Toggle" aria-haspopup="true"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span></span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36127"><a target="_blank" href="https://community.fullyoptimizedhealth.com/home" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>FOH</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-36128"><a target="_blank" href="https://courses.jaycampbell.com/" class="menu-link"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
+                </svg></span>Courses</a></li>
+</ul>
+</li>
+</ul>                <button class="eael-simple-menu-toggle">
+                    <span class="sr-only ">Hamburger Toggle Menu</span>
+                    <i aria-hidden="true" class="fas fa-bars"></i>                </button>
+            </div>
+            				</div>
+				</div>
+				</div>
+				</div>
+					<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Exit Pop Up - Hormone Optimization -->
+<script>(function(d,u,ac){var s=d.createElement('script');s.type='text/javascript';s.src='https://a.omappapi.com/app/js/api.min.js';s.async=true;s.dataset.user=u;s.dataset.campaign=ac;d.getElementsByTagName('head')[0].appendChild(s);})(document,169177,'jeqe3zwtyj26zg5xtayd');</script>
+<!-- / OptinMonster --><!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Exit Pop Up - Fat Loss Bundle -->
+<script>(function(d,u,ac){var s=d.createElement('script');s.type='text/javascript';s.src='https://a.omappapi.com/app/js/api.min.js';s.async=true;s.dataset.user=u;s.dataset.campaign=ac;d.getElementsByTagName('head')[0].appendChild(s);})(document,169177,'bclm6nkp3zg5qdtiozq6');</script>
+<!-- / OptinMonster --><!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Exit Pop Up - Peptides Book -->
+<script>(function(d,u,ac){var s=d.createElement('script');s.type='text/javascript';s.src='https://a.omappapi.com/app/js/api.min.js';s.async=true;s.dataset.user=u;s.dataset.campaign=ac;d.getElementsByTagName('head')[0].appendChild(s);})(document,169177,'e7pmzjv6swntgm8obyq8');</script>
+<!-- / OptinMonster --><!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: (Popup,Link) FREE Raising Your Consciousness -->
+<script>(function(d,u,ac){var s=d.createElement('script');s.type='text/javascript';s.src='https://a.omappapi.com/app/js/api.min.js';s.async=true;s.dataset.user=u;s.dataset.campaign=ac;d.getElementsByTagName('head')[0].appendChild(s);})(document,169177,'cqrzorsctntfgzfcb7la');</script>
+<!-- / OptinMonster --><!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: (Popup,Link) FREE MetabolicBlowtorchDiet -->
+<script>(function(d,u,ac){var s=d.createElement('script');s.type='text/javascript';s.src='https://a.omappapi.com/app/js/api.min.js';s.async=true;s.dataset.user=u;s.dataset.campaign=ac;d.getElementsByTagName('head')[0].appendChild(s);})(document,169177,'kqurincpygendn45axmr');</script>
+<!-- / OptinMonster --><!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: (Popup,Link) FREE TOT Bible -->
+<script>(function(d,u,ac){var s=d.createElement('script');s.type='text/javascript';s.src='https://a.omappapi.com/app/js/api.min.js';s.async=true;s.dataset.user=u;s.dataset.campaign=ac;d.getElementsByTagName('head')[0].appendChild(s);})(document,169177,'rtrcnnrhlajdnro8e6ul');</script>
+<!-- / OptinMonster --><!-- RightMessage WP -->
+<script type="text/javascript">
+		window.rmpanda = window.rmpanda || {};
+	window.rmpanda.cmsdata = {"cms":"wordpress","pageId":27094};
+	</script>		<script type="text/javascript">
+		var jeqe3zwtyj26zg5xtayd_shortcode = true;var bclm6nkp3zg5qdtiozq6_shortcode = true;var e7pmzjv6swntgm8obyq8_shortcode = true;var cqrzorsctntfgzfcb7la_shortcode = true;var kqurincpygendn45axmr_shortcode = true;var rtrcnnrhlajdnro8e6ul_shortcode = true;		</script>
+		<link rel='stylesheet' id='eael-26605-css' href='https://jaycampbell.com/wp-content/uploads/essential-addons-elementor/eael-26605.css?ver=1769506902' media='all' />
+<link rel='stylesheet' id='elementor-post-26605-css' href='https://jaycampbell.com/wp-content/uploads/elementor/css/post-26605.css?ver=1777309517' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInRight-css' href='https://jaycampbell.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=4.0.1' media='all' />
+<link rel='stylesheet' id='e-popup-css' href='https://jaycampbell.com/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=4.0.1' media='all' />
+<script src="https://jaycampbell.com/wp-content/plugins/uncanny-automator/src/integrations/optinmonster/actions/../scripts/show-campaign.js?ver=7.1.0.1" id="automator-optinmonster-js"></script>
+<script id="astra-theme-js-js-extra">
+var astra = {"break_point":"921","isRtl":"","is_scroll_to_id":"1","is_scroll_to_top":"1","is_header_footer_builder_active":"1","responsive_cart_click":"flyout","is_dark_palette":""};
+//# sourceURL=astra-theme-js-js-extra
+</script>
+<script src="https://jaycampbell.com/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.13.1" id="astra-theme-js-js"></script>
+<script src="https://jaycampbell.com/wp-content/plugins/honeypot/includes/js/wpa.js?ver=2.3.04" id="wpascript-js"></script>
+<script id="wpascript-js-after">
+wpa_field_info = {"wpa_field_name":"ntmpwq9598","wpa_field_value":698586,"wpa_add_test":"no"}
+//# sourceURL=wpascript-js-after
+</script>
+<script id="molongui-authorship-byline-js-extra">
+var molongui_authorship_byline_params = {"byline_prefix":"","byline_suffix":"","byline_separator":",\u00a0","byline_last_separator":"\u00a0\u2705\u00a0Medically\u00a0Reviewed\u00a0by\u00a0","byline_link_title":"View all posts by","byline_link_class":"","byline_dom_tree":"","byline_dom_prepend":"","byline_dom_append":"","byline_decoder":"v3"};
+//# sourceURL=molongui-authorship-byline-js-extra
+</script>
+<script src="https://jaycampbell.com/wp-content/plugins/molongui-authorship/assets/js/byline.4cc4.min.js?ver=5.2.9" id="molongui-authorship-byline-js"></script>
+<script id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/peptide-calculator/|/category/|/category(.*)/|/guests/|/jay-recommends/|/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://jaycampbell.com","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script id="astra-addon-js-js-extra">
+var astraAddon = {"is_elementor_active":"1","sticky_active":"","svgIconClose":"\u003Cspan class=\"ast-icon icon-close\"\u003E\u003Csvg viewBox=\"0 0 512 512\" aria-hidden=\"true\" role=\"img\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"18px\" height=\"18px\"\u003E\n                                \u003Cpath d=\"M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z\" /\u003E\n                            \u003C/svg\u003E\u003C/span\u003E","hf_account_show_menu_on":"hover","hf_account_action_type":"link","hf_account_logout_action":"link","is_header_builder_active":"1"};
+//# sourceURL=astra-addon-js-js-extra
+</script>
+<script src="https://jaycampbell.com/wp-content/uploads/astra-addon/astra-addon-69b8475b53e068-13128476.js?ver=4.12.4" id="astra-addon-js-js"></script>
+<script src="https://jaycampbell.com/wp-content/plugins/astra-addon/assets/js/minified/purify.min.js?ver=4.12.4" id="astra-dom-purify-js"></script>
+<script src="https://jaycampbell.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.0.1" id="elementor-webpack-runtime-js"></script>
+<script src="https://jaycampbell.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.0.1" id="elementor-frontend-modules-js"></script>
+<script src="https://jaycampbell.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-extra">
+var EAELImageMaskingConfig = {"svg_dir_url":"https://jaycampbell.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/img/image-masking/svg-shapes/"};
+//# sourceURL=elementor-frontend-js-extra
+</script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.0.1","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"container":true,"theme_builder_v2":true,"landing-pages":true,"nested-elements":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_widget_creation":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_variables":true,"e_pro_interactions":true},"urls":{"assets":"https:\/\/jaycampbell.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/jaycampbell.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/jaycampbell.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"136c8cb1ab","atomicFormsSendForm":"8551a966f6"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":27094,"title":"Jay%20Recommends%20%7C%20Jay%20Campbell","excerpt":"","featuredImage":"https:\/\/jaycampbell.com\/wp-content\/uploads\/2023\/12\/Jay-1024x614.jpg"}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script src="https://jaycampbell.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.0.1" id="elementor-frontend-js"></script>
+<script src="https://jaycampbell.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js"></script>
+<script src="https://jaycampbell.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=4.0.1" id="e-sticky-js"></script>
+<script>(function(d){var s=d.createElement("script");s.type="text/javascript";s.src="https://a.omappapi.com/app/js/api.min.js";s.async=true;s.id="omapi-script";d.getElementsByTagName("head")[0].appendChild(s);})(document);</script><script src="https://jaycampbell.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script id="e44b90a8e6cde0104888535cc1f785e0-js-extra">
+var pum_vars = {"version":"1.22.0","pm_dir_url":"https://jaycampbell.com/wp-content/plugins/popup-maker/","ajaxurl":"https://jaycampbell.com/wp-admin/admin-ajax.php","restapi":"https://jaycampbell.com/wp-json/pum/v1","rest_nonce":null,"default_theme":"15187","debug_mode":"","disable_tracking":"","home_url":"/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"cookie_domain":"","paramNames":{"popup_id":"pid","cta":"cta","notrack":"notrack"},"analytics_enabled":"1","analytics_route":"7f29d2d85d1b328e9acbc1c6530c7699","analytics_api":"https://jaycampbell.com/wp-json/e967a604e469e7368f3549aea549f5e3/v1"};
+var pum_sub_vars = {"ajaxurl":"https://jaycampbell.com/wp-admin/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-35430":{"triggers":[{"type":"click_open","settings":{"cookie_name":"","extra_selectors":""}}],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"15188","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"lightbox","id":35430,"slug":"quiz-popup-men"},"pum-35433":{"triggers":[{"type":"click_open","settings":{"cookie_name":"","extra_selectors":""}}],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"15188","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"lightbox","id":35433,"slug":"quiz-popup-women"},"pum-29069":{"triggers":[{"type":"click_open","settings":{"cookie_name":"","extra_selectors":""}}],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"15188","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"lightbox","id":29069,"slug":"quiz-popup"}};
+//# sourceURL=popup-maker-site-js-extra
+</script>
+<script src="//jaycampbell.com/wp-content/uploads/0c18e1dbca8b6565fc5018a4b5d653ce.js?defer&amp;generated=1755698641&amp;ver=1.22.0" id="e44b90a8e6cde0104888535cc1f785e0-js"></script>
+<script id="eael-general-js-extra">
+var localize = {"ajaxurl":"https://jaycampbell.com/wp-admin/admin-ajax.php","nonce":"383eedcd99","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"eael_translate_text":{"required_text":"is a required field","invalid_text":"Invalid","billing_text":"Billing","shipping_text":"Shipping","fg_mfp_counter_text":"of"},"page_permalink":"https://jaycampbell.com/jay-recommends/","cart_redirectition":"","cart_page_url":"","el_breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"ParticleThemesData":{"default":"{\"particles\":{\"number\":{\"value\":160,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":false,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":true,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":6,\"direction\":\"none\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"repulse\"},\"onclick\":{\"enable\":true,\"mode\":\"push\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","nasa":"{\"particles\":{\"number\":{\"value\":250,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":1,\"random\":true,\"anim\":{\"enable\":true,\"speed\":1,\"opacity_min\":0,\"sync\":false}},\"size\":{\"value\":3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":4,\"size_min\":0.3,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":1,\"direction\":\"none\",\"random\":true,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":600}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"bubble\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":250,\"size\":0,\"duration\":2,\"opacity\":0,\"speed\":3},\"repulse\":{\"distance\":400,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","bubble":"{\"particles\":{\"number\":{\"value\":15,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#1b1e34\"},\"shape\":{\"type\":\"polygon\",\"stroke\":{\"width\":0,\"color\":\"#000\"},\"polygon\":{\"nb_sides\":6},\"image\":{\"src\":\"img/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.3,\"random\":true,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":50,\"random\":false,\"anim\":{\"enable\":true,\"speed\":10,\"size_min\":40,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":200,\"color\":\"#ffffff\",\"opacity\":1,\"width\":2},\"move\":{\"enable\":true,\"speed\":8,\"direction\":\"none\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":false,\"mode\":\"grab\"},\"onclick\":{\"enable\":false,\"mode\":\"push\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","snow":"{\"particles\":{\"number\":{\"value\":450,\"density\":{\"enable\":true,\"value_area\":800}},\"color\":{\"value\":\"#fff\"},\"shape\":{\"type\":\"circle\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"img/github.svg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":true,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":5,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":500,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":2},\"move\":{\"enable\":true,\"speed\":6,\"direction\":\"bottom\",\"random\":false,\"straight\":false,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":true,\"mode\":\"bubble\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":400,\"line_linked\":{\"opacity\":0.5}},\"bubble\":{\"distance\":400,\"size\":4,\"duration\":0.3,\"opacity\":1,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}","nyan_cat":"{\"particles\":{\"number\":{\"value\":150,\"density\":{\"enable\":false,\"value_area\":800}},\"color\":{\"value\":\"#ffffff\"},\"shape\":{\"type\":\"star\",\"stroke\":{\"width\":0,\"color\":\"#000000\"},\"polygon\":{\"nb_sides\":5},\"image\":{\"src\":\"http://wiki.lexisnexis.com/academic/images/f/fb/Itunes_podcast_icon_300.jpg\",\"width\":100,\"height\":100}},\"opacity\":{\"value\":0.5,\"random\":false,\"anim\":{\"enable\":false,\"speed\":1,\"opacity_min\":0.1,\"sync\":false}},\"size\":{\"value\":4,\"random\":true,\"anim\":{\"enable\":false,\"speed\":40,\"size_min\":0.1,\"sync\":false}},\"line_linked\":{\"enable\":false,\"distance\":150,\"color\":\"#ffffff\",\"opacity\":0.4,\"width\":1},\"move\":{\"enable\":true,\"speed\":14,\"direction\":\"left\",\"random\":false,\"straight\":true,\"out_mode\":\"out\",\"bounce\":false,\"attract\":{\"enable\":false,\"rotateX\":600,\"rotateY\":1200}}},\"interactivity\":{\"detect_on\":\"canvas\",\"events\":{\"onhover\":{\"enable\":false,\"mode\":\"grab\"},\"onclick\":{\"enable\":true,\"mode\":\"repulse\"},\"resize\":true},\"modes\":{\"grab\":{\"distance\":200,\"line_linked\":{\"opacity\":1}},\"bubble\":{\"distance\":400,\"size\":40,\"duration\":2,\"opacity\":8,\"speed\":3},\"repulse\":{\"distance\":200,\"duration\":0.4},\"push\":{\"particles_nb\":4},\"remove\":{\"particles_nb\":2}}},\"retina_detect\":true}"},"eael_login_nonce":"5d7f930ed0","eael_register_nonce":"38cabeb5a5","eael_lostpassword_nonce":"9ec90a078d","eael_resetpassword_nonce":"f71007ca2a"};
+//# sourceURL=eael-general-js-extra
+</script>
+<script src="https://jaycampbell.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/js/view/general.min.js?ver=6.5.13" id="eael-general-js"></script>
+<script src="https://jaycampbell.com/wp-content/uploads/essential-addons-elementor/eael-26605.js?ver=1769506902" id="eael-26605-js"></script>
+<script src="https://jaycampbell.com/wp-content/plugins/optinmonster/assets/dist/js/helper.min.js?ver=2.16.22" id="optinmonster-wp-helper-js"></script>
+<script src="https://jaycampbell.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=4.0.1" id="elementor-pro-webpack-runtime-js"></script>
+<script src="https://jaycampbell.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/jaycampbell.com\/wp-admin\/admin-ajax.php","nonce":"c705eb4ba4","urls":{"assets":"https:\/\/jaycampbell.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/jaycampbell.com\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":true},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/jaycampbell.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+</script>
+<script src="https://jaycampbell.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.0.1" id="elementor-pro-frontend-js"></script>
+<script src="https://jaycampbell.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.0.1" id="pro-elements-handlers-js"></script>
+			<script>
+			/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+			</script>
+					<script type="text/javascript">var omapi_localized = {
+			ajax: 'https://jaycampbell.com/wp-admin/admin-ajax.php?optin-monster-ajax-route=1',
+			nonce: '91e835c533',
+			slugs:
+			{"jeqe3zwtyj26zg5xtayd":{"slug":"jeqe3zwtyj26zg5xtayd","mailpoet":false},"bclm6nkp3zg5qdtiozq6":{"slug":"bclm6nkp3zg5qdtiozq6","mailpoet":false},"e7pmzjv6swntgm8obyq8":{"slug":"e7pmzjv6swntgm8obyq8","mailpoet":false},"cqrzorsctntfgzfcb7la":{"slug":"cqrzorsctntfgzfcb7la","mailpoet":false},"kqurincpygendn45axmr":{"slug":"kqurincpygendn45axmr","mailpoet":false},"rtrcnnrhlajdnro8e6ul":{"slug":"rtrcnnrhlajdnro8e6ul","mailpoet":false}}		};</script>
+				<script type="text/javascript">var omapi_data = {"object_id":27094,"object_key":"page","object_type":"post","term_ids":[],"wp_json":"https:\/\/jaycampbell.com\/wp-json","wc_active":false,"edd_active":false,"nonce":"7c7bada964"};</script>
+			<script type="application/json" id="optimization-detective-detect-args">
+["https://jaycampbell.com/wp-content/plugins/optimization-detective/detect.min.js?ver=1.0.0-beta5",{"minViewportAspectRatio":0.4,"maxViewportAspectRatio":2.5,"isDebug":false,"extensionModuleUrls":["https://jaycampbell.com/wp-content/plugins/image-prioritizer/detect.min.js?ver=1.0.0-beta3"],"restApiEndpoint":"https://jaycampbell.com/wp-json/optimization-detective/v1/url-metrics:store","currentETag":"f41b4ec9e427cc83b807b9a52c1e3ec1","currentUrl":"https://jaycampbell.com/jay-recommends/","urlMetricSlug":"a9e8fe1b512409745f8042d28ef5973c","cachePurgePostId":27094,"urlMetricHMAC":"77c0dc07db9670a47149fe7e6bd2de69","urlMetricGroupStatuses":[{"minimumViewportWidth":0,"maximumViewportWidth":480,"complete":false},{"minimumViewportWidth":480,"maximumViewportWidth":600,"complete":false},{"minimumViewportWidth":600,"maximumViewportWidth":782,"complete":false},{"minimumViewportWidth":782,"maximumViewportWidth":null,"complete":false}],"storageLockTTL":60,"freshnessTTL":604800,"webVitalsLibrarySrc":"https://jaycampbell.com/wp-content/plugins/optimization-detective/build/web-vitals.js?ver=5.1.0","gzdecodeAvailable":true,"maxUrlMetricSize":1048576}]
+</script>
+<script type="module">
+async function load(){await new Promise((e=>{"complete"===document.readyState?e():window.addEventListener("load",e,{once:!0})})),"function"==typeof requestIdleCallback&&await new Promise((e=>{requestIdleCallback(e)}));const e=JSON.parse(document.getElementById("optimization-detective-detect-args").textContent),t=e[0],a=e[1],n=(await import(t)).default;await n(a)}load();
+//# sourceURL=https://jaycampbell.com/wp-content/plugins/optimization-detective/detect-loader.min.js?ver=1.0.0-beta5
+</script>
+</body>
+</html>
+
+<!-- plugin=object-cache-pro client=phpredis metric#hits=8752 metric#misses=67 metric#hit-ratio=99.2 metric#bytes=8376111 metric#prefetches=294 metric#store-reads=61 metric#store-writes=216 metric#store-hits=308 metric#store-misses=43 metric#sql-queries=73 metric#ms-total=1906.40 metric#ms-cache=67.39 metric#ms-cache-avg=0.2442 metric#ms-cache-ratio=3.5 sample#redis-hits=18497847 sample#redis-misses=2329629 sample#redis-hit-ratio=88.8 sample#redis-ops-per-sec=249 sample#redis-evicted-keys=0 sample#redis-used-memory=68035288 sample#redis-used-memory-rss=80289792 sample#redis-memory-fragmentation-ratio=1.2 sample#redis-connected-clients=2 sample#redis-tracking-clients=0 sample#redis-rejected-connections=0 sample#redis-keys=30079 -->

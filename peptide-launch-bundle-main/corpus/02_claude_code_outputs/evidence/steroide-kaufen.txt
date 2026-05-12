@@ -1,0 +1,232 @@
+[CLAIM] primary_domain / fetch_status (live site defunct)
+[URL] https://steroidekaufen.com/
+[FETCHED_AT] 2026-05-08T07:44:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/homepage.md
+[LINE_RANGE] 5-5
+[QUOTE]
+"This domain is coming soon."
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20230326150753/https://steroidekaufen.com/de/
+[FETCHED_AT] 2026-05-08T07:45:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/homepage_wayback.md
+[LINE_RANGE] 254-254
+[QUOTE]
+  * Steroide kaufen online - Anabolika bestellen Deutschland Steroide kaufen ohne Rezept online im Online Steroide Shop steroidekaufen.com. Kaufen Sie anabole Steroide in Deutschland zu einem erschwinglichen Preis. Gute Qualität!
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20230326150753/https://steroidekaufen.com/de/
+[FETCHED_AT] 2026-05-08T07:45:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/homepage_wayback.md
+[LINE_RANGE] 268-268
+[QUOTE]
+__ In den Warenkorb
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20230326150753/https://steroidekaufen.com/de/
+[FETCHED_AT] 2026-05-08T07:45:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/homepage_wayback.md
+[LINE_RANGE] 26-26
+[QUOTE]
+______ Menu
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://web.archive.org/web/20230326150753/https://steroidekaufen.com/de/
+[FETCHED_AT] 2026-05-08T07:45:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/homepage_wayback.md
+[LINE_RANGE] 701-701
+[QUOTE]
+  * Address:  Deutschland
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice / checkout_flow.international_policy
+[URL] https://web.archive.org/web/20230320164419/https://steroidekaufen.com/de/content/1-lieferung
+[FETCHED_AT] 2026-05-08T07:46:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/shipping.md
+[LINE_RANGE] 267-267
+[QUOTE]
+Wir versenden Bestellungen in alle Länder der Europäischen Union.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure / checkout_flow.shipping_carriers / trust_compliance.shipping_policy
+[URL] https://web.archive.org/web/20230320164419/https://steroidekaufen.com/de/content/1-lieferung
+[FETCHED_AT] 2026-05-08T07:46:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/shipping.md
+[LINE_RANGE] 275-281
+[QUOTE]
+Die Versandkosten betragen 17 Euro
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://web.archive.org/web/20230320164419/https://steroidekaufen.com/de/content/1-lieferung
+[FETCHED_AT] 2026-05-08T07:46:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/shipping.md
+[LINE_RANGE] 315-315
+[QUOTE]
+Wir garantieren, dass jede Bestellung erfolgreich an den Empfänger geliefert wird. Andernfalls erhalten Sie eine 100% Rückerstattung.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://web.archive.org/web/20230320165926/https://steroidekaufen.com/de/content/5-sichere-bezahlung
+[FETCHED_AT] 2026-05-08T07:46:38Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/payment.md
+[LINE_RANGE] 261-264
+[QUOTE]
+## Welche Zahlungsmittel akzeptieren wir?
+
+  * Banküberweisung
+  * Kryptowährungen (BitCoin)
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required / checkout_flow.guest_checkout_available
+[URL] https://web.archive.org/web/20230320151042/https://steroidekaufen.com/de/content/3-nutzungsbedingungen
+[FETCHED_AT] 2026-05-08T07:46:38Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/tos.md
+[LINE_RANGE] 313-313
+[QUOTE]
+1\. Die Registrierung im Online Store ist freiwillig und kostenlos. Der Benutzer kann eine Bestellung aufgeben, ohne den Benutzer im Online-Shop zu registrieren.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / trust_compliance.tos_highlights
+[URL] https://web.archive.org/web/20230320151042/https://steroidekaufen.com/de/content/3-nutzungsbedingungen
+[FETCHED_AT] 2026-05-08T07:46:38Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/tos.md
+[LINE_RANGE] 299-299
+[QUOTE]
+f) Benutzer - bedeutet eine volljährige natürliche Person, juristische Person sowie eine Organisationseinheit, die keine juristische Person ist, deren Recht Rechtsfähigkeit verleiht, die den Online-Shop nutzt;
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/20230206090649/https://steroidekaufen.com/de/34-peptide
+[FETCHED_AT] 2026-05-08T07:46:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/catalog_1.md
+[LINE_RANGE] 513-513
+[QUOTE]
+1 - 12 von 40 Artikel(n)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy / product_page_anatomy.sample_product_name / skus (BPC-157 category prices)
+[URL] https://web.archive.org/web/20230320165722/https://steroidekaufen.com/de/48-bpc-157
+[FETCHED_AT] 2026-05-08T07:46:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/product_1__bpc-157.md
+[LINE_RANGE] 291-328
+[QUOTE]
+# BPC-157 kaufen online in Deutschland
+[/QUOTE]
+
+[CLAIM] skus (catalog page 1 additional products)
+[URL] https://web.archive.org/web/20230206090649/https://steroidekaufen.com/de/34-peptide
+[FETCHED_AT] 2026-05-08T07:46:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/catalog_1.md
+[LINE_RANGE] 465-478
+[QUOTE]
+[BPC-157 Kapseln Endogenic](https://web.archive.org/web/20230206090649/https://steroidekaufen.com/de/bpc-157/217-bpc-157-kapseln-endogenic.html)
+[/QUOTE]
+
+[CLAIM] skus.semaglutide / skus.tirzepatide (from homepage new products section)
+[URL] https://web.archive.org/web/20230326150753/https://steroidekaufen.com/de/
+[FETCHED_AT] 2026-05-08T07:45:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/homepage_wayback.md
+[LINE_RANGE] 368-370
+[QUOTE]
+[Semaglutid Bioamino Labs](https://web.archive.org/web/20230326150753/https://steroidekaufen.com/de/fatburner/292-semaglutid-bioamino-labs.html)
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+No age gate was present on either the live site (coming soon page) or the archived homepage, catalog page, or product page fetched via Wayback Machine. The TOS defines users as "volljahrige naturliche Person" (adults) but there is no technical age verification gate before accessing the site.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230326150753/https://steroidekaufen.com/de/
+[FETCHED_AT] 2026-05-08T07:45:47Z
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/homepage_wayback.md
+[LINE_RANGE] 10-10
+Sprache: Deutsch __
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230320151042/https://steroidekaufen.com/de/content/3-nutzungsbedingungen
+[FETCHED_AT] 2026-05-08T07:46:38Z
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/tos.md
+[LINE_RANGE] 299-299
+f) Benutzer - bedeutet eine volljährige natürliche Person, juristische Person sowie eine Organisationseinheit, die keine juristische Person ist, deren Recht Rechtsfähigkeit verleiht, die den Online-Shop nutzt;
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://web.archive.org/web/20230320165722/https://steroidekaufen.com/de/48-bpc-157
+[FETCHED_AT] 2026-05-08T07:46:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/product_1__bpc-157.md
+[LINE_RANGE] 340-340
+[QUOTE]
+BPC-157 ist ein steriles, weißes, lyophilisiertes Pulver, das nach dem Auflösen in bakteriostatischem Wasser zur subkutanen oder intramuskulären Injektion bestimmt ist.
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.blog_url
+[URL] https://web.archive.org/web/20230326150753/https://steroidekaufen.com/de/
+[FETCHED_AT] 2026-05-08T07:45:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/homepage_wayback.md
+[LINE_RANGE] 250-250
+[QUOTE]
+  * [ Blog  ](https://web.archive.org/web/20230326150753/https://steroidekaufen.com/de/blog)
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://web.archive.org/web/20230326150753/https://steroidekaufen.com/de/
+[FETCHED_AT] 2026-05-08T07:45:47Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/homepage_wayback.md
+[LINE_RANGE] 234-242
+[QUOTE]
+        * [Abnehmen Sibutramine (Frauen und Männer)](https://web.archive.org/web/20230326150753/https://steroidekaufen.com/de/content/7-abnehmen-sibutramine-frauen-und-maenner)
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://web.archive.org/web/20230320151042/https://steroidekaufen.com/de/content/3-nutzungsbedingungen
+[FETCHED_AT] 2026-05-08T07:46:38Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/tos.md
+[LINE_RANGE] 317-323
+[QUOTE]
+a) Vor- und Nachname;
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal (PrestaShop inference from URL patterns)
+[INFERENCE] custom
+[REASONING]
+The URL pattern /de/content/N-slug and /de/NN-category-slug is the canonical PrestaShop URL structure with language prefix + numeric category ID + slug. Platform could not be confirmed via page source because the page source was not independently fetched (only rendered HTML was available). Recorded as "custom" rather than "prestashop" without source-level confirmation.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230326150753/https://steroidekaufen.com/de/
+[FETCHED_AT] 2026-05-08T07:45:47Z
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/homepage_wayback.md
+[LINE_RANGE] 737-737
+  * [ Nutzungsbedingungen ](https://web.archive.org/web/20230326150753/https://steroidekaufen.com/de/content/3-nutzungsbedingungen)
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20230206090649/https://steroidekaufen.com/de/34-peptide
+[FETCHED_AT] 2026-05-08T07:46:10Z
+[RAW_ARTIFACT] 03_raw_fetches/steroide-kaufen/catalog_1.md
+[LINE_RANGE] 10-10
+Sprache: Deutsch __
+[/SUPPORT_QUOTE]

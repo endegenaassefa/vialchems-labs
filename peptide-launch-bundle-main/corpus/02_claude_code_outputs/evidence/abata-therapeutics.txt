@@ -1,0 +1,232 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20241226192912/https://abatatx.com/
+[FETCHED_AT] 2026-05-07T19:32:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/homepage.md
+[LINE_RANGE] 20-22
+[QUOTE]
+"**Transformative** Therapies for Autoimmune Disease
+
+Translating the biology of **regulatory T cells** into transformational medicines for patients."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://web.archive.org/web/20241226192912/https://abatatx.com/
+[FETCHED_AT] 2026-05-07T19:32:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/homepage.md
+[LINE_RANGE] 26-31
+[QUOTE]
+"#### The Abata Approach
+
+## A New Era: Treg Cell Therapy
+
+Our targeted, autologous Treg cell therapies for progressive multiple sclerosis and other serious autoimmune diseases stop immune-mediated destruction, restore homeostasis – a state of harmony – and promote repair in affected tissues."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20241226192912/https://abatatx.com/
+[FETCHED_AT] 2026-05-07T19:32:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/homepage.md
+[LINE_RANGE] 24-24
+[QUOTE]
+"[Learn How](https://web.archive.org/web/20241226192912/https://abatatx.com/our-approach/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20241226192912/https://abatatx.com/
+[FETCHED_AT] 2026-05-07T19:32:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/homepage.md
+[LINE_RANGE] 10-14
+[QUOTE]
+"  * [Our Approach](https://web.archive.org/web/20241226192912/https://abatatx.com/our-approach/)
+  * [Our Programs](https://web.archive.org/web/20241226192912/https://abatatx.com/our-programs/)
+  * [Who We Are](https://web.archive.org/web/20241226192912/https://abatatx.com/who-we-are/)
+  * [News](https://web.archive.org/web/20241226192912/https://abatatx.com/news-blog/)
+  * [Join Us](https://web.archive.org/web/20241226192912/https://abatatx.com/join-us/)"
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://web.archive.org/web/20231207135019/https://abatatx.com/who-we-are/
+[FETCHED_AT] 2026-05-07T19:32:16Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/who-we-are.md
+[LINE_RANGE] 33-33
+[QUOTE]
+"Abata was launched in 2021 by Third Rock Ventures with a $95 million Series A financing and brings together industry experts and deeply engaged pioneers in regulatory T cell (Treg) biology, T cell receptor (TCR) and antigen discovery, disease pathogenesis, and molecular and imaging biomarkers to advance the development of Treg cell therapies for serious autoimmune and inflammatory diseases."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://web.archive.org/web/20250206170009/https://abatatx.com/abata-therapeutics-announces-strategic-investment-from-bristol-myers-squibb-supporting-advancement-of-its-treg-cell-therapy-pipeline-into-clinical-development/
+[FETCHED_AT] 2026-05-07T19:32:14Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/bms-investment.md
+[LINE_RANGE] 24-24
+[QUOTE]
+"**WATERTOWN, MA, August 15, 2024** – Abata Therapeutics, a company focused on transforming lives with Treg therapies for severe autoimmune and inflammatory diseases, today announced it has received an equity investment from Bristol Myers Squibb to support the development of its Treg cell therapy products."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://web.archive.org/web/20241226192912/https://abatatx.com/
+[FETCHED_AT] 2026-05-07T19:32:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/homepage.md
+[LINE_RANGE] 10-14
+[QUOTE]
+"  * [Our Approach](https://web.archive.org/web/20241226192912/https://abatatx.com/our-approach/)
+  * [Our Programs](https://web.archive.org/web/20241226192912/https://abatatx.com/our-programs/)
+  * [Who We Are](https://web.archive.org/web/20241226192912/https://abatatx.com/who-we-are/)
+  * [News](https://web.archive.org/web/20241226192912/https://abatatx.com/news-blog/)
+  * [Join Us](https://web.archive.org/web/20241226192912/https://abatatx.com/join-us/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://web.archive.org/web/20241226192912/https://abatatx.com/
+[FETCHED_AT] 2026-05-07T19:32:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/homepage.md
+[LINE_RANGE] 10-14
+[QUOTE]
+"  * [Our Approach](https://web.archive.org/web/20241226192912/https://abatatx.com/our-approach/)
+  * [Our Programs](https://web.archive.org/web/20241226192912/https://abatatx.com/our-programs/)
+  * [Who We Are](https://web.archive.org/web/20241226192912/https://abatatx.com/who-we-are/)
+  * [News](https://web.archive.org/web/20241226192912/https://abatatx.com/news-blog/)
+  * [Join Us](https://web.archive.org/web/20241226192912/https://abatatx.com/join-us/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://web.archive.org/web/20250109093406/https://abatatx.com/our-programs/
+[FETCHED_AT] 2026-05-07T19:32:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/programs.md
+[LINE_RANGE] 28-29
+[QUOTE]
+"# Opportunity in
+**Autoimmune Disease**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://web.archive.org/web/20241226192912/https://abatatx.com/
+[FETCHED_AT] 2026-05-07T19:32:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/homepage.md
+[LINE_RANGE] 76-78
+[QUOTE]
+"  * [Terms of Use](https://web.archive.org/web/20241226192912/https://abata.wpengine.com/terms-of-use/)
+  * [Privacy Policy](https://web.archive.org/web/20241226192912/https://abata.wpengine.com/privacy-policy/)
+  * [Expanded Access Policy](https://web.archive.org/web/20241226192912/https://abatatx.com/eap/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://web.archive.org/web/20241226192912/https://abatatx.com/
+[FETCHED_AT] 2026-05-07T19:32:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/homepage.md
+[LINE_RANGE] 76-78
+[QUOTE]
+"  * [Terms of Use](https://web.archive.org/web/20241226192912/https://abata.wpengine.com/terms-of-use/)
+  * [Privacy Policy](https://web.archive.org/web/20241226192912/https://abata.wpengine.com/privacy-policy/)
+  * [Expanded Access Policy](https://web.archive.org/web/20241226192912/https://abatatx.com/eap/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://web.archive.org/web/20250109114915/https://abatatx.com/news-blog/
+[FETCHED_AT] 2026-05-07T19:32:12Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/news.md
+[LINE_RANGE] 18-18
+[QUOTE]
+"#### August 22, 2024
+
+# Abata Therapeutics Receives FDA Fast Track Designation for ABA-101 for the Treatment of Progressive Multiple Sclerosis"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://web.archive.org/web/20250109114915/https://abatatx.com/news-blog/
+[FETCHED_AT] 2026-05-07T19:32:12Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/news.md
+[LINE_RANGE] 13-13
+[QUOTE]
+"  * [News](https://web.archive.org/web/20250109114915/https://abatatx.com/news-blog/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://web.archive.org/web/20250109114915/https://abatatx.com/news-blog/
+[FETCHED_AT] 2026-05-07T19:32:12Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/news.md
+[LINE_RANGE] 22-46
+[QUOTE]
+"### [In Vivo Nonclinical Evaluation of Activity and Safety of a T Cell Receptor Engineered Regulatory T Cell Therapy for MS Progression Independent of Relapse Activity ECTRIMS 2024 Poster  _September 18, 2024_ ] ### [Abata Therapeutics Appoints Joanne Beck, Ph.D., as Chief Technical Officer Press Release  _September 16, 2024_ ] ### [Abata Therapeutics Announces Strategic Investment from Bristol Myers Squibb Supporting Advancement of its Treg Cell Therapy Pipeline into Clinical Development Press Release  _August 15, 2024_ ] ### [Abata Therapeutics Announces FDA Clearance of Investigational New Drug Application for Clinical Evaluation of ABA-101 in Progressive Multiple Sclerosis Press Release  _July 9, 2024_ ]"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://web.archive.org/web/20250109114915/https://abatatx.com/news-blog/
+[FETCHED_AT] 2026-05-07T19:32:12Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/news.md
+[LINE_RANGE] 22-46
+[QUOTE]
+"### [In Vivo Nonclinical Evaluation of Activity and Safety of a T Cell Receptor Engineered Regulatory T Cell Therapy for MS Progression Independent of Relapse Activity ECTRIMS 2024 Poster  _September 18, 2024_ ] ### [Abata Therapeutics Appoints Joanne Beck, Ph.D., as Chief Technical Officer Press Release  _September 16, 2024_ ]"
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://web.archive.org/web/20241226192912/https://abatatx.com/
+[FETCHED_AT] 2026-05-07T19:32:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/homepage.md
+[LINE_RANGE] 10-14
+[QUOTE]
+"  * [Our Approach](https://web.archive.org/web/20241226192912/https://abatatx.com/our-approach/)
+  * [Our Programs](https://web.archive.org/web/20241226192912/https://abatatx.com/our-programs/)
+  * [Who We Are](https://web.archive.org/web/20241226192912/https://abatatx.com/who-we-are/)
+  * [News](https://web.archive.org/web/20241226192912/https://abatatx.com/news-blog/)
+  * [Join Us](https://web.archive.org/web/20241226192912/https://abatatx.com/join-us/)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://web.archive.org/web/20241226192912/https://abatatx.com/
+[FETCHED_AT] 2026-05-07T19:32:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/homepage.md
+[LINE_RANGE] 8-79
+[QUOTE]
+"[ ](https://web.archive.org/web/20241226192912/https://abatatx.com/)
+
+  * [Our Approach](https://web.archive.org/web/20241226192912/https://abatatx.com/our-approach/)
+  * [Our Programs](https://web.archive.org/web/20241226192912/https://abatatx.com/our-programs/)
+  * [Who We Are](https://web.archive.org/web/20241226192912/https://abatatx.com/who-we-are/)
+  * [News](https://web.archive.org/web/20241226192912/https://abatatx.com/news-blog/)
+  * [Join Us](https://web.archive.org/web/20241226192912/https://abatatx.com/join-us/)"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://web.archive.org/web/20241226192912/https://abatatx.com/
+[FETCHED_AT] 2026-05-07T19:32:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/homepage.md
+[LINE_RANGE] 36-38
+[QUOTE]
+"## A team committed to **groundbreaking science and patients**
+
+We are industry experts and scientific pioneers working together to bring an entirely new approach to the treatment of autoimmune disease."
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://web.archive.org/web/20241226192912/https://abatatx.com/
+[FETCHED_AT] 2026-05-07T19:32:01Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/abata-therapeutics/homepage.md
+[LINE_RANGE] 8-79
+[QUOTE]
+"[ ](https://web.archive.org/web/20241226192912/https://abatatx.com/)
+
+  * [Our Approach](https://web.archive.org/web/20241226192912/https://abatatx.com/our-approach/)
+  * [Our Programs](https://web.archive.org/web/20241226192912/https://abatatx.com/our-programs/)
+  * [Who We Are](https://web.archive.org/web/20241226192912/https://abatatx.com/who-we-are/)
+  * [News](https://web.archive.org/web/20241226192912/https://abatatx.com/news-blog/)
+  * [Join Us](https://web.archive.org/web/20241226192912/https://abatatx.com/join-us/)"
+[/QUOTE]

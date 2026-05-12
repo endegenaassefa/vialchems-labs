@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "endocannex-llc",
+  "brand_name": "Endocannex LLC",
+  "primary_domain": "https://www.endocannex.com",
+
+  "fetched_url": "https://www.endocannex.com/",
+  "fetched_at": "2026-05-07T19:50:55Z",
+  "fetch_status": "ok",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed). Note: this vendor sells hemp-derived cannabinoid products (tinctures, vapes, teas, terpenes), NOT research peptides. There are no peptide SKUs on the site. Profiled as Tier 3 baseline per directive §2.1 — no silent drops.",
+  "field_completion_ratio": 0.72,
+
+  "country_of_operation": "US",
+  "fulfillment_country": "US",
+  "ship_to_scope": "us_only",
+  "year_established": "2024",
+
+  "homepage": {
+    "hero_copy_excerpt": "BROWSE OUR HEMP-DERIVED COGNITIVE BLENDS\nHigh-quality, sustainably sourced nootropic products designed to restore balance, nurture vitality, and promote holistic well-being.",
+    "hero_imagery_style": "lifestyle",
+    "primary_cta": "BROWSE THE SHOP",
+    "navigation_pattern": "Top nav with SHOP dropdown (Tinctures & Capsules, Carts/Vapes/Extracts, NeuroLeaf Tea, Terpenes, All) and LEARNING CENTER dropdown (Lab Tests, Blog, About Us, Contact).",
+    "footer_disclaimers": "None of the statements on the site have been evaluated by the Food and Drug Administration.\nEndocannex products or information on the website are not intended to diagnose, treat, cure or prevent any diseases."
+  },
+
+  "catalog": {
+    "sku_count": 21,
+    "category_taxonomy": ["Tinctures & Capsules", "Carts, Vapes & Extracts", "NeuroLeaf Tea", "Terpenes"],
+    "search_filter_capabilities": "Sort by popularity, average rating, latest, price low-to-high, price high-to-low",
+    "stack_bundle_pages_present": "false"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "https://www.endocannex.com/product/zen-mastery-herbal-tincture-for-creativity/",
+    "sample_product_name": "Zen Mastery Herbal Tincture: Mindful Blend (CBDv+CBG+CBC)",
+    "dose_options": ["uncertain — not a peptide product; cannabinoid tincture"],
+    "list_price": "$44.99",
+    "per_mg_cost": "uncertain — cannabinoid product, not applicable to peptide mg-cost framework",
+    "photographic_treatment": "uncertain — product page not individually fetched at Tier 3",
+    "description_copy_excerpt": "uncertain — product page not individually fetched at Tier 3",
+    "exact_disclaimer_language": "None of the statements on the site have been evaluated by the Food and Drug Administration. Endocannex products sold or information on the website are not intended to diagnose, treat, cure or prevent any disease.",
+    "coa_present": "true",
+    "coa_hosting": "third_party_portal",
+    "lab_partner_named": "uncertain — COA page links to Google Drive files, no named lab partner stated on-site",
+    "batch_lot_transparency": "uncertain — COA page links to Google Drive PDFs but no batch/lot numbers visible on catalog page",
+    "customer_review_module_present": "true",
+    "related_product_modules_present": "uncertain — product page not individually fetched at Tier 3"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "none — this is a hemp/cannabinoid consumer wellness vendor, not a research peptide vendor; no research-use-only language present",
+    "age_gate_present": "true",
+    "jurisdictional_restriction_notice": "Due to legal regulations, certain products may not be eligible for shipping to specific states or regions. You will be notified at checkout if there are restrictions related to your order.",
+    "tos_url": "https://www.endocannex.com/terms-and-conditions/",
+    "tos_highlights": "Adults 18+ only. Products for personal use only, not FDA-approved treatments. Payment via Square (credit cards). Hemp and cannabinoid products Farm Bill compliant (<0.3% Delta-9 THC). Governing law placeholder [Your Jurisdiction] not filled in.",
+    "refund_policy": "30-day money-back guarantee. Product must be in original condition. Refund processed within 7 days. Customer pays return shipping unless product defective. Effective date 21Aug2024.",
+    "shipping_policy": "US domestic only. International not available. Orders processed 1-3 business days. Standard 3-7 business days after processing. Shipping restrictions apply by state per checkout."
+  },
+
+  "checkout_flow": {
+    "account_required": "false",
+    "guest_checkout_available": "uncertain — checkout walk not performed; TOS mentions user accounts as optional",
+    "fields_collected": ["uncertain — checkout walk not performed at Tier 3 BASELINE"],
+    "id_verification_present": "false",
+    "payment_methods_accepted": ["Square (all major credit cards)", "invoice via Square or other methods per negotiation"],
+    "shipping_carriers": ["uncertain — not named in shipping policy"],
+    "shipping_cost_structure": "Free shipping on orders >= $40. Otherwise calculated at checkout based on method and destination.",
+    "international_policy": "Domestic US only. International not currently available."
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain — source not fetched at Tier 3 BASELINE"],
+    "marketing_pixels_present": ["uncertain — source not fetched at Tier 3 BASELINE"],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://www.endocannex.com/endocannex-learning-center-blog-and-news/",
+    "content_cadence": "uncertain — blog not fetched at Tier 3 BASELINE",
+    "topic_taxonomy": ["uncertain — blog not fetched at Tier 3 BASELINE"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "true",
+    "off_site_aggregators": ["Trustpilot (https://www.trustpilot.com/review/endocannex.com)"],
+    "testimonial_usage": "Three named testimonials on homepage: Austin (Focus Pocus tincture), Kyle (cartridges and THCV tincture), Jo (general products).",
+    "visible_influencer_endorsements": "none observed on homepage"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "endocannex-llc,Endocannex LLC,endocannex.com,0,00_inputs/vendor_list.csv,\"row from operator-supplied vendor list, classified as Tier 3: California-based vendor.\",3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/endocannex-llc/",
+  "evidence_file": "evidence/endocannex-llc.txt",
+  "uncertainty_notes": "IMPORTANT FINDING: Endocannex LLC is a hemp-derived cannabinoid wellness vendor, NOT a research peptide vendor. Products are tinctures (CBDv, CBG, CBC, THCv blends), vape cartridges, herbal teas (NeuroLeaf brand), and terpenes. Zero peptide SKUs present. The skus[] array is empty because this vendor has no peptide products. | year_established: Refund policy effective date is 21Aug2024; copyright says 2026; inferred as 2024 launch based on earliest policy date. | country_of_operation: US inferred from 661 area code (Bakersfield CA) in shipping policy phone number, US-only shipping, Farm Bill compliance language. Explicit state not named in TOS (placeholder [Your Jurisdiction] not filled in). | checkout_flow.guest_checkout_available: Checkout not walked at Tier 3 BASELINE. | checkout_flow.fields_collected: Checkout not walked at Tier 3 BASELINE. | checkout_flow.shipping_carriers: Not named in shipping policy text. | tech_stack.cdn, analytics_tools_loaded, marketing_pixels_present, chat_widget_present: Source not fetched at Tier 3 BASELINE. | product_page_anatomy.per_mg_cost: Not applicable — not a peptide product. | product_page_anatomy.description_copy_excerpt: Product page not individually fetched at Tier 3 BASELINE. | product_page_anatomy.lab_partner_named: COA page links to Google Drive PDFs; no lab name visible in rendered text. | content_footprint.content_cadence, topic_taxonomy, author_bylines_present, internal_linking_to_products: Blog not fetched at Tier 3 BASELINE."
+}

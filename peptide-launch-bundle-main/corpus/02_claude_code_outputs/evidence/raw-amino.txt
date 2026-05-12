@@ -1,0 +1,813 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.rawamino.com/
+[FETCHED_AT] 2026-05-07T18:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/homepage.md
+[LINE_RANGE] 28-33
+[QUOTE]
+"# Raw
+Amino
+
+## Peptides
+
+We are committed to only providing peptides with the highest purity and stability."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.rawamino.com/
+[FETCHED_AT] 2026-05-07T18:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/homepage.md
+[LINE_RANGE] 35
+[QUOTE]
+"[Buy Peptides](https://www.rawamino.com/peptides/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.rawamino.com/
+[FETCHED_AT] 2026-05-07T18:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/homepage.md
+[LINE_RANGE] 7-17
+[QUOTE]
+"  * [Home](https://www.rawamino.com/)
+  * [ALL PEPTIDES](https://www.rawamino.com/peptides/)
+    * [Blends](https://www.rawamino.com/product-category/blends/)
+    * [Bioregulators](https://www.rawamino.com/product-category/bioregulators/)
+  * [Calculator](https://www.rawamino.com/peptide-calculator/)
+  * [Contact Us](https://www.rawamino.com/contact-us/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.rawamino.com/
+[FETCHED_AT] 2026-05-07T18:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/homepage.md
+[LINE_RANGE] 207
+[QUOTE]
+"Copyright © 2026 Rawamino Peptides. All rights reserved."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage text emphasizes "research-grade peptides," "99% purity," "HPLC and Mass Spectrometry analyses," and "USA Made Products." No meme-coded language or lifestyle imagery language is visible in the rendered text. The site operates as a clinical/research supply vendor.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.rawamino.com/
+[FETCHED_AT] 2026-05-07T18:37:00Z
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/homepage.md
+[LINE_RANGE] 115
+"At Raw Amino, we specialize in synthesizing research-grade peptides, proteins, and amino acid derivatives. Our synthesis technology ensures that all of our products meet or exceed 99% purity."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.rawamino.com/
+[FETCHED_AT] 2026-05-07T18:37:00Z
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/homepage.md
+[LINE_RANGE] 127-129
+"### USA Made Products
+
+All of our peptides are synthesized and lyophilized in the United States."
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.rawamino.com/
+[FETCHED_AT] 2026-05-07T18:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/homepage.md
+[LINE_RANGE] 127-129
+[QUOTE]
+"### USA Made Products
+
+All of our peptides are synthesized and lyophilized in the United States."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.rawamino.com/
+[FETCHED_AT] 2026-05-07T18:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/homepage.md
+[LINE_RANGE] 127-129
+[QUOTE]
+"### USA Made Products
+
+All of our peptides are synthesized and lyophilized in the United States."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.rawamino.com/peptides/
+[FETCHED_AT] 2026-05-07T18:38:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/catalog_1.md
+[LINE_RANGE] 30
+[QUOTE]
+"Showing 1–12 of 102 results"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.rawamino.com/peptides/
+[FETCHED_AT] 2026-05-07T18:38:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/catalog_1.md
+[LINE_RANGE] 25-29
+[QUOTE]
+"Categories
+
+  * Bioregulators
+  * Blends"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://www.rawamino.com/peptides/
+[FETCHED_AT] 2026-05-07T18:38:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/catalog_1.md
+[LINE_RANGE] 18-32
+[QUOTE]
+"Price
+
+$30 \- $314
+
+In Stock
+
+Categories
+
+  * Bioregulators
+  * Blends
+
+
+
+No products were found matching your selection.
+
+Showing 1–12 of 102 results
+
+Default sorting Sort by popularity Sort by average rating Sort by latest Sort by price: low to high Sort by price: high to low"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.rawamino.com/peptides/
+[FETCHED_AT] 2026-05-07T18:38:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/catalog_1.md
+[LINE_RANGE] 43-45
+[QUOTE]
+"## [BPC-157 & TB-500 & GHK-Cu – 70MG $314.00 ](https://www.rawamino.com/peptides/bpc-157-tb-500-ghk-cu-70mg/)[Add to cart](/?add-to-cart=8220)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://www.rawamino.com/peptides/bpc-157-5mg-10mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__bpc-157.md
+[LINE_RANGE] 21
+[QUOTE]
+"# BPC-157 – 5MG/10MG"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://www.rawamino.com/peptides/bpc-157-5mg-10mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__bpc-157.md
+[LINE_RANGE] 54
+[QUOTE]
+"Size |  Choose an option10MG5MGClear"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://www.rawamino.com/peptides/bpc-157-5mg-10mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__bpc-157.md
+[LINE_RANGE] 27
+[QUOTE]
+"$54.00 – $92.00Price range: $54.00 through $92.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.rawamino.com/peptides/bpc-157-5mg-10mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__bpc-157.md
+[LINE_RANGE] 82
+[QUOTE]
+"BPC-157, also referred to as Body Protection Compound-157, is a synthetic peptide derived from a naturally occurring protein fragment found in the gastric system. Initial investigations suggest that it may play a role in supporting tissue regeneration, digestive processes, and protective responses"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.rawamino.com/peptides/bpc-157-5mg-10mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__bpc-157.md
+[LINE_RANGE] 131-133
+[QUOTE]
+"**Disclaimer:
+The products mentioned are intended solely for laboratory research and in-vitro experimentation. They are not approved for human or animal use of any kind. All details provided are for educational purposes only. By purchasing from this site, you agree to comply with our [Terms and Conditions](https://www.rawamino.com/terms-conditions/).**"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://www.rawamino.com/peptides/bpc-157-5mg-10mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__bpc-157.md
+[LINE_RANGE] 72-77
+[QUOTE]
+"  * Description
+  * Certificate of Analysis
+  * Mass Spectrometry
+  * Reviews (45)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://www.rawamino.com/peptides/bpc-157-5mg-10mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__bpc-157.md
+[LINE_RANGE] 22-24
+[QUOTE]
+"Rated **4.89** out of 5 based on 45 customer ratings
+
+(45 customer reviews)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://www.rawamino.com/peptides/bpc-157-5mg-10mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__bpc-157.md
+[LINE_RANGE] 385-387
+[QUOTE]
+"## Related products"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.rawamino.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T18:40:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/tos.md
+[LINE_RANGE] 27
+[QUOTE]
+"Raw Amino grants the User access to a limited, revocable, non-transferable and non-exclusive license to access and use [www.rawamino.com](https://www.rawamino.com) only for the purpose of licensed purchase of products for professional research use only."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+No age-gate popup, age verification form, or age-restriction notice was observed on the homepage, catalog pages, or product pages across all fetched pages. The TOS states users must be of legal age but there is no enforceable on-site gate.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.rawamino.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T18:40:00Z
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/tos.md
+[LINE_RANGE] 29-31
+"## **LEGAL CAPACITY**
+
+You represent and warrant that you are of legal age and have the legal capacity to enter into this Agreement."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.rawamino.com/
+[FETCHED_AT] 2026-05-07T18:37:00Z
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/homepage.md
+[LINE_RANGE] 1-35
+"[](https://www.rawamino.com/)
+
+  * [Home](https://www.rawamino.com/)
+  * [ALL PEPTIDES](https://www.rawamino.com/peptides/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.rawamino.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T18:40:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/tos.md
+[LINE_RANGE] 21-22
+[QUOTE]
+"# Terms & Conditions
+
+## **USE OF RAW AMINO WEBSITE**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.rawamino.com/terms-conditions/
+[FETCHED_AT] 2026-05-07T18:40:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/tos.md
+[LINE_RANGE] 33
+[QUOTE]
+"Raw Amino reserves the right to modify these terms and conditions at any time. It is your responsibility to review this Agreement periodically for any updates."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.rawamino.com/contact-us/
+[FETCHED_AT] 2026-05-07T18:41:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/contact.md
+[LINE_RANGE] 33-35
+[QUOTE]
+"#  OUR TOP PRIORITY IS TO MAKE SURE YOU ARE SATISFIED.
+
+We offer a 100% money-back guarantee, because we trust you will be satisfied with our products, delivery, and customer care."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.rawamino.com/peptides/bpc-157-5mg-10mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__bpc-157.md
+[LINE_RANGE] 29-31
+[QUOTE]
+"FREE Shipping on **$200+ orders**
+
+FREE Bacteriostatic Water (30ml) on $200+ orders"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://www.rawamino.com/
+[FETCHED_AT] 2026-05-07T18:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/source_homepage.md
+[LINE_RANGE] 64
+[QUOTE]
+"woocommerce-inline-inline-css"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://www.rawamino.com/
+[FETCHED_AT] 2026-05-07T18:46:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/headers_homepage.md
+[LINE_RANGE] 8
+[QUOTE]
+"server: LiteSpeed"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://www.rawamino.com/
+[FETCHED_AT] 2026-05-07T18:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/source_homepage.md
+[LINE_RANGE] 89
+[QUOTE]
+"gtag("config", "G-LKFXZZQW08""
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://www.rawamino.com/
+[FETCHED_AT] 2026-05-07T18:37:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/source_homepage.md
+[LINE_RANGE] 156
+[QUOTE]
+"fbq('init', '875964031137312'"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] false
+[REASONING]
+No chat widget service (Intercom, Drift, Crisp.chat, Tawk.to, LiveChat, Zendesk) was found in the HTML source. The one "crisp" match in the HTML source is a CSS property (border-radius: 6px 6px 0px), not the Crisp chat widget. The contact page shows a standard HTML contact form only.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.rawamino.com/contact-us/
+[FETCHED_AT] 2026-05-07T18:41:00Z
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/contact.md
+[LINE_RANGE] 21-28
+"# QUESTIONS?
+
+Name
+
+Email
+
+Subject
+
+Message
+
+Submit"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.rawamino.com/
+[FETCHED_AT] 2026-05-07T18:37:00Z
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/source_homepage.md
+[LINE_RANGE] 1-10
+url: https://www.rawamino.com/
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.rawamino.com/blog/
+[FETCHED_AT] 2026-05-07T18:42:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/blog_1.md
+[LINE_RANGE] 21
+[QUOTE]
+"# Blog"
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://www.rawamino.com/blog/
+[FETCHED_AT] 2026-05-07T18:42:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/blog_1.md
+[LINE_RANGE] 25-80
+[QUOTE]
+"by [Rawamino](https://www.rawamino.com/author/rawamino/ "Posts by Rawamino") | Jan 18, 2026 | [Peptides](https://www.rawamino.com/category/peptides/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://www.rawamino.com/blog/
+[FETCHED_AT] 2026-05-07T18:42:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/blog_1.md
+[LINE_RANGE] 25
+[QUOTE]
+"by [Rawamino](https://www.rawamino.com/author/rawamino/ "Posts by Rawamino") | Jan 18, 2026 | [Peptides](https://www.rawamino.com/category/peptides/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://www.rawamino.com/blog/
+[FETCHED_AT] 2026-05-07T18:42:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/blog_1.md
+[LINE_RANGE] 22-75
+[QUOTE]
+"##  [VIP Peptide Research: From Inflammation and Immune Regulation to Cardiac and Neural Cell Studies](https://www.rawamino.com/vip-peptide-research-from-inflammation-and-immune-regulation-to-cardiac-and-neural-cell-studies/)
+
+by [Rawamino](https://www.rawamino.com/author/rawamino/ "Posts by Rawamino") | Jan 18, 2026 | [Peptides](https://www.rawamino.com/category/peptides/)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://www.rawamino.com/peptides/bpc-157-5mg-10mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__bpc-157.md
+[LINE_RANGE] 134-136
+[QUOTE]
+"##  45 reviews for BPC-157 – 5MG/10MG"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.rawamino.com/peptides/bpc-157-5mg-10mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__bpc-157.md
+[LINE_RANGE] 22-24
+[QUOTE]
+"Rated **4.89** out of 5 based on 45 customer ratings
+
+(45 customer reviews)"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/bpc-157-5mg-10mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__bpc-157.md
+[LINE_RANGE] 27
+[QUOTE]
+"$54.00 – $92.00Price range: $54.00 through $92.00"
+[/QUOTE]
+
+[CLAIM] skus[tb-500-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/tb-500/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__tb-500.md
+[LINE_RANGE] 27
+[QUOTE]
+"$78.00 – $152.00Price range: $78.00 through $152.00"
+[/QUOTE]
+
+[CLAIM] skus[bpc157-tb500-ghkcu-70mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/bpc-157-tb-500-ghk-cu-70mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__bpc157-tb500-ghk.md
+[LINE_RANGE] 1-30
+[QUOTE]
+"# BPC-157 & TB-500 & GHK-Cu – 70MG"
+[/QUOTE]
+
+[CLAIM] skus[epithalon-25mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/epithalon/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__epithalon.md
+[LINE_RANGE] 27
+[QUOTE]
+"$109.00"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__ghk-cu.md
+[LINE_RANGE] 27
+[QUOTE]
+"$64.00"
+[/QUOTE]
+
+[CLAIM] skus[thymosin-alpha-1-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/thymosin-alpha-1/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__thymosin-alpha-1.md
+[LINE_RANGE] 27
+[QUOTE]
+"$69.00 – $120.00Price range: $69.00 through $120.00"
+[/QUOTE]
+
+[CLAIM] skus[nad-100mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/nad/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__nad.md
+[LINE_RANGE] 27
+[QUOTE]
+"$57.00 – $276.00Price range: $57.00 through $276.00"
+[/QUOTE]
+
+[CLAIM] skus[nad-250mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/nad/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__nad.md
+[LINE_RANGE] 50-52
+[QUOTE]
+"**Discount per Quantity**
+
+Quantity | 5 - 8| 9 +
+---|---|---
+Discount | 5%| 10%
+Price | $118.75| $112.50"
+[/QUOTE]
+
+[CLAIM] skus[mots-c-10mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/mots-c/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__mots-c.md
+[LINE_RANGE] 27
+[QUOTE]
+"$101.00"
+[/QUOTE]
+
+[CLAIM] skus[selank-10mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/selank/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__selank.md
+[LINE_RANGE] 27
+[QUOTE]
+"$51.00"
+[/QUOTE]
+
+[CLAIM] skus[semax-25mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/semax/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__semax.md
+[LINE_RANGE] 27
+[QUOTE]
+"$58.00"
+[/QUOTE]
+
+[CLAIM] skus[pt-141-10mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/pt-141-bremelanotide/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__pt-141.md
+[LINE_RANGE] 27
+[QUOTE]
+"$51.00"
+[/QUOTE]
+
+[CLAIM] skus[ipamorelin-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/ipamorelin/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__ipamorelin.md
+[LINE_RANGE] 27
+[QUOTE]
+"$42.00"
+[/QUOTE]
+
+[CLAIM] skus[cjc1295-dac-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/cjc-1295-dac/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__cjc1295-dac.md
+[LINE_RANGE] 27
+[QUOTE]
+"$52.00"
+[/QUOTE]
+
+[CLAIM] skus[mod-grf-cjc1295-nodac-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/cjc-1295-no-dac-mod-grf-1-29-5mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__cjc1295-no-dac.md
+[LINE_RANGE] 27
+[QUOTE]
+"$45.00"
+[/QUOTE]
+
+[CLAIM] skus[ghrp-2-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/ghrp-2/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__ghrp-2.md
+[LINE_RANGE] 27
+[QUOTE]
+"$30.00 – $41.00Price range: $30.00 through $41.00"
+[/QUOTE]
+
+[CLAIM] skus[ghrp-6-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/ghrp-6/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__ghrp-6.md
+[LINE_RANGE] 27
+[QUOTE]
+"$30.00 – $41.00Price range: $30.00 through $41.00"
+[/QUOTE]
+
+[CLAIM] skus[hexarelin-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/hexarelin/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__hexarelin.md
+[LINE_RANGE] 27
+[QUOTE]
+"$41.00"
+[/QUOTE]
+
+[CLAIM] skus[igf-1-lr3-1mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/receptor-grade-igf-1-lr3/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__igf-1-lr3.md
+[LINE_RANGE] 27
+[QUOTE]
+"$230.00"
+[/QUOTE]
+
+[CLAIM] skus[mgf-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/mgf-mechano-growth-factor/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__mgf.md
+[LINE_RANGE] 27
+[QUOTE]
+"$60.00"
+[/QUOTE]
+
+[CLAIM] skus[peg-mgf-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/peg-mgf/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__peg-mgf.md
+[LINE_RANGE] 27
+[QUOTE]
+"$87.00"
+[/QUOTE]
+
+[CLAIM] skus[aod-9604-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/aod-9604/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__aod-9604.md
+[LINE_RANGE] 27
+[QUOTE]
+"$50.00"
+[/QUOTE]
+
+[CLAIM] skus[fragment-176-191-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/fragment-176-191/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__fragment-176-191.md
+[LINE_RANGE] 27
+[QUOTE]
+"$45.00"
+[/QUOTE]
+
+[CLAIM] skus[follistatin-344-1mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/follistatin-344/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__follistatin-344.md
+[LINE_RANGE] 27
+[QUOTE]
+"$161.00"
+[/QUOTE]
+
+[CLAIM] skus[dsip-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/dsip/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__dsip.md
+[LINE_RANGE] 27
+[QUOTE]
+"$46.00"
+[/QUOTE]
+
+[CLAIM] skus[kpv-4mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/kpv/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__kpv.md
+[LINE_RANGE] 27
+[QUOTE]
+"$40.00"
+[/QUOTE]
+
+[CLAIM] skus[ll-37-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/ll-37/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__ll-37.md
+[LINE_RANGE] 27
+[QUOTE]
+"$87.00"
+[/QUOTE]
+
+[CLAIM] skus[humanin-10mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/humanin/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__humanin.md
+[LINE_RANGE] 27
+[QUOTE]
+"$143.00"
+[/QUOTE]
+
+[CLAIM] skus[pinealon-20mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/pinealon/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__pinealon.md
+[LINE_RANGE] 27
+[QUOTE]
+"$69.00"
+[/QUOTE]
+
+[CLAIM] skus[sermorelin-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/sermorelin/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__sermorelin.md
+[LINE_RANGE] 27
+[QUOTE]
+"$46.00"
+[/QUOTE]
+
+[CLAIM] skus[tesamorelin-5mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/tesamorelin/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__tesamorelin.md
+[LINE_RANGE] 27
+[QUOTE]
+"$69.00 – $135.00Price range: $69.00 through $135.00"
+[/QUOTE]
+
+[CLAIM] skus[n-acetyl-selank-10mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/n-acetyl-selank/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__n-acetyl-selank.md
+[LINE_RANGE] 27
+[QUOTE]
+"$64.00"
+[/QUOTE]
+
+[CLAIM] skus[n-acetyl-semax-25mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/n-acetyl-semax/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__n-acetyl-semax.md
+[LINE_RANGE] 27
+[QUOTE]
+"$58.00"
+[/QUOTE]
+
+[CLAIM] skus[melanotan-2-10mg].list_price_usd
+[URL] https://www.rawamino.com/peptides/melanotan-2/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__melanotan-2.md
+[LINE_RANGE] 21-23
+[QUOTE]
+"# Melanotan 2 – 10MG
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.rawamino.com/peptides/bpc-157-5mg-10mg/
+[FETCHED_AT] 2026-05-07T18:39:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/raw-amino/product_1__bpc-157.md
+[LINE_RANGE] 29
+[QUOTE]
+"FREE Shipping on **$200+ orders**"
+[/QUOTE]

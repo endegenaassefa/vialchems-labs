@@ -1,0 +1,41 @@
+[CLAIM] fetch_status (failed — domain unregistered, DNS NXDOMAIN confirmed)
+[URL] https://suppliescheaperpeptides.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/exploratory-lab/homepage.md
+[LINE_RANGE] 1-8
+[QUOTE]
+"FETCH FAILED: DNS resolution failure.
+curl exit code 6: curl: (6) Could not resolve host: suppliescheaperpeptides.com
+www prefix also failed: curl: (6) Could not resolve host: www.suppliescheaperpeptides.com
+gstack browse: net::ERR_NAME_NOT_RESOLVED at https://suppliescheaperpeptides.com/
+archive.org: Wayback Machine has not archived that URL (confirmed via calendar page)"
+[/QUOTE]
+
+[CLAIM] fetch_status (failed — archive.org confirms never crawled)
+[URL] https://web.archive.org/web/2023*/suppliescheaperpeptides.com
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/exploratory-lab/wayback_attempt.md
+[LINE_RANGE] 1-7
+[QUOTE]
+"ARCHIVE FETCH FAILED: No archived snapshots found.
+Wayback Machine calendar page loaded but showed: "Wayback Machine has not archived that URL."
+URL attempted: https://web.archive.org/web/2023*/suppliescheaperpeptides.com
+Also attempted: https://web.archive.org/web/2024/https://suppliescheaperpeptides.com (HTTP 404)
+CDX API returned 503 Service Unavailable.
+Conclusion: this domain was never crawled by the Wayback Machine."
+[/QUOTE]
+
+[CLAIM] primary_domain / fetch_status (domain unregistered per ICANN RDAP)
+[URL] https://lookup.icann.org/en/lookup?name=suppliescheaperpeptides.com&type=domain
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/exploratory-lab/icann_whois.md
+[LINE_RANGE] 1-5
+[QUOTE]
+"ICANN RDAP LOOKUP RESULT:
+URL: https://lookup.icann.org/en/lookup?name=suppliescheaperpeptides.com&type=domain
+Result: "The requested domain was not found in the Registry or Registrar's RDAP server."
+This confirms the domain suppliescheaperpeptides.com is not currently registered."
+[/QUOTE]

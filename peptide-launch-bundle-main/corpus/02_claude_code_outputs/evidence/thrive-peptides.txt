@@ -1,0 +1,586 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.thrivepeptides.us/
+[FETCHED_AT] 2026-05-07T18:33:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/homepage.md
+[LINE_RANGE] 22-27
+[QUOTE]
+**Tested Research Peptides You Can Trust**
+
+Every batch is **independently tested** and **traceable** — ensuring purity, accuracy, and full transparency from start to finish.
+_For Research and Laboratory Use Only_
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://www.thrivepeptides.us/
+[FETCHED_AT] 2026-05-07T18:33:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/homepage.md
+[LINE_RANGE] 22-29
+[QUOTE]
+## **THRIVE PEPTIDES**
+
+**Tested Research Peptides You Can Trust**
+
+Every batch is **independently tested** and **traceable** — ensuring purity, accuracy, and full transparency from start to finish.
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.thrivepeptides.us/
+[FETCHED_AT] 2026-05-07T18:33:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/homepage.md
+[LINE_RANGE] 29-29
+[QUOTE]
+[SHOP NOW](https://www.thrivepeptides.us/shop/)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.thrivepeptides.us/
+[FETCHED_AT] 2026-05-07T18:33:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/homepage.md
+[LINE_RANGE] 12-14
+[QUOTE]
+  * [Home](https://www.thrivepeptides.us)
+  * [COAS](https://www.thrivepeptides.us/coas/)
+  * [Shop](https://www.thrivepeptides.us/shop/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.thrivepeptides.us/
+[FETCHED_AT] 2026-05-07T18:33:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/homepage.md
+[LINE_RANGE] 203-205
+[QUOTE]
+All products are sold **for laboratory and research use only**.
+Not for human consumption, medical use, or veterinary purposes.
+**Disclaimer:** Information provided on this site is for educational and research purposes only. No statements on this website have been evaluated by the FDA.
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.thrivepeptides.us/shop/
+[FETCHED_AT] 2026-05-07T18:33:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/catalog_1.md
+[LINE_RANGE] 26-26
+[QUOTE]
+Showing all 13 resultsSorted by latest
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.thrivepeptides.us/shop/
+[FETCHED_AT] 2026-05-07T18:33:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/catalog_1.md
+[LINE_RANGE] 26-28
+[QUOTE]
+Showing all 13 resultsSorted by latest
+
+Sort by popularitySort by average ratingSort by latestSort by price: low to highSort by price: high to low
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.thrivepeptides.us/
+[FETCHED_AT] 2026-05-07T18:33:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/homepage.md
+[LINE_RANGE] 172-172
+[QUOTE]
+**Thrive Peptides** is an **Arkansas-based supplier of high-quality research peptides and compounds**.
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.thrivepeptides.us/
+[FETCHED_AT] 2026-05-07T18:33:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/homepage.md
+[LINE_RANGE] 172-172
+[QUOTE]
+Enjoy **fast, reliable shipping** across the U.S. — research materials you can trust, delivered with integrity.
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://www.thrivepeptides.us/
+[FETCHED_AT] 2026-05-07T18:33:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/homepage.md
+[LINE_RANGE] 207-207
+[QUOTE]
+##### **© 2025 Thrive Peptides** | All rights reserved.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url + sample_product_name + dose_options + list_price + per_mg_cost + exact_disclaimer_language
+[URL] https://www.thrivepeptides.us/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_09__bpc-157.md
+[LINE_RANGE] 28-53
+[QUOTE]
+# BPC-157 10MG
+
+~~$ 59.99~~ Original price was: $59.99.$44.99Current price is: $44.99.
+
+Batch- TP-02-BPC Tested at 9.37MG & 99.118% Purity
+
+84 in stock
+
+BPC-157 10MG quantity
+
+Add to cart
+
+SKU: TP-02-BPC
+
+Category: [Research Use Only](https://www.thrivepeptides.us/product-category/research-use-only/)
+
+  * Description
+  * Reviews (0)
+
+
+
+## Description
+
+### **BPC-157 | 10mg | Body Protection Compound**
+
+**For In Vitro Research Use Only — Not for Human or Veterinary Use**
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.thrivepeptides.us/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_09__bpc-157.md
+[LINE_RANGE] 59-61
+[QUOTE]
+BPC-157 (Body Protection Compound-157) is a synthetic pentadecapeptide derived from a protective protein found in gastric juice. It has been extensively studied in research settings for its potential influence on tissue repair, angiogenesis, and cellular regeneration.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present + batch_lot_transparency
+[URL] https://www.thrivepeptides.us/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_09__bpc-157.md
+[LINE_RANGE] 32-32
+[QUOTE]
+Batch- TP-02-BPC Tested at 9.37MG & 99.118% Purity
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://www.thrivepeptides.us/
+[FETCHED_AT] 2026-05-07T18:33:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/homepage.md
+[LINE_RANGE] 130-130
+[QUOTE]
+Every product includes a **batch number** for traceability and a **direct link** to the lab results — no hidden data, no vague claims.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://www.thrivepeptides.us/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_09__bpc-157.md
+[LINE_RANGE] 124-128
+[QUOTE]
+##  Reviews
+
+There are no reviews yet.
+
+Only logged in customers who have purchased this product may leave a review.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://www.thrivepeptides.us/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_09__bpc-157.md
+[LINE_RANGE] 130-139
+[QUOTE]
+##  Related products
+
+  * [SaleProduct on sale](https://www.thrivepeptides.us/product/cjc-1295-no-dac-5mg/)
+
+### [CJC-1295 no DAC](https://www.thrivepeptides.us/product/cjc-1295-no-dac-5mg/)
+
+~~$ 59.99~~ Original price was: $59.99.$49.99Current price is: $49.99.
+
+Add to cart [ View cart ](https://www.thrivepeptides.us/cart/ "View cart")
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.thrivepeptides.us/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_09__bpc-157.md
+[LINE_RANGE] 53-53
+[QUOTE]
+**For In Vitro Research Use Only — Not for Human or Veterinary Use**
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://www.thrivepeptides.us/privacy-policy/
+[FETCHED_AT] 2026-05-07T18:34:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/tos.md
+[LINE_RANGE] 30-30
+[QUOTE]
+You must be at least **21 years of age** to purchase from this website.
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.thrivepeptides.us/
+[FETCHED_AT] 2026-05-07T18:33:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/homepage.md
+[LINE_RANGE] 166-166
+[QUOTE]
+Yes — our compounds are **legal to purchase for research use only** and meet **U.S. federal guidelines**. It is the **buyer's responsibility** to ensure all purchases and uses comply with applicable **state and local regulations**.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url + tos_highlights
+[URL] https://www.thrivepeptides.us/privacy-policy/
+[FETCHED_AT] 2026-05-07T18:34:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/tos.md
+[LINE_RANGE] 28-38
+[QUOTE]
+## **1\. Eligibility**
+
+You must be at least **21 years of age** to purchase from this website.
+
+**Research Use Only Notice — Thrive Peptides operates under a Research Use Only (RSO) designation.**
+We supply chemical compounds intended **strictly for laboratory and scientific research purposes**.
+Our products are **for in vitro research only** and are **not approved for human or animal consumption** , **medical use** , or **therapeutic applications**.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.thrivepeptides.us/privacy-policy/
+[FETCHED_AT] 2026-05-07T18:34:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/tos.md
+[LINE_RANGE] 77-81
+[QUOTE]
+## **6\. Refunds & Returns**
+
+Due to the **sensitive and perishable nature** of research materials, **all sales are final**.
+
+Replacements or refunds are only available through **Route Shipping Protection** , if selected at checkout, and must be claimed using the Route-provided instructions after purchase.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.thrivepeptides.us/privacy-policy/
+[FETCHED_AT] 2026-05-07T18:34:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/tos.md
+[LINE_RANGE] 67-73
+[QUOTE]
+## **5\. Shipping & Delivery**
+
+Orders are typically processed and shipped within **1–2 business days** after payment confirmation.
+
+**Thrive Peptides** is **not responsible** for delays caused by third-party shipping carriers, customs, or force majeure events.
+
+**Title and risk of loss** pass to the buyer upon delivery of the package to the carrier.
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required + guest_checkout_available + fields_collected + payment_methods_accepted + id_verification_present
+[URL] https://www.thrivepeptides.us/checkout/
+[FETCHED_AT] 2026-05-07T18:35:45Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/checkout_step_2.md
+[LINE_RANGE] 11-14
+[QUOTE]
+Contact informationContact informationLog inEmail addressYou are currently checking out as a guest.Create an account with Thrive Peptides
+Shipping addressShipping address, AR , United States (US)EditCountry/RegionSelect a country/regionUnited States (US)First nameLast nameAddress+ Add apartment, suite, etc.CityStateSelect a stateAlabamaAlaskaArizonaArkansasCaliforniaColoradoConnecticutDelawareDistrict of ColumbiaFloridaGeorgiaHawaiiIdahoIllinoisIndianaIowaKansasKentuckyLouisianaMaineMarylandMassachusettsMichiganMinnesotaMississippiMissouriMontanaNebraskaNevadaNew HampshireNew JerseyNew MexicoNew YorkNorth CarolinaNorth DakotaOhioOklahomaOregonPennsylvaniaRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVermontVirginiaWashingtonWest VirginiaWisconsinWyomingArmed Forces (AA)Armed Forces (AE)Armed Forces (AP)ZIP CodePhoneUse same address for billing
+Shipping optionsShipping optionsEnter a shipping address to view shipping options.
+Payment optionsPayment optionsVenmo(PLEASE REMOVE ORDER FROM THRIVEPEPTIDES- JUST USE ORDER # IN NOTE)Place your order then follow instructions on the order confirmation page to payZelle(PLEASE ONLY USE ORDER # IN NOTE)CASH APP(PLEASE ONLY USE ORDER # IN NOTE)
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.thrivepeptides.us/
+[FETCHED_AT] 2026-05-07T18:33:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+**15% OFF & FREE SHIPPING** | **$200+ TOTAL FREE 2 BUSINESS DAY SHIPPING**
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://www.thrivepeptides.us/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_09__bpc-157.md
+[LINE_RANGE] 24-24
+[QUOTE]
+[](https://www.thrivepeptides.us/wp-content/uploads/2025/11/4ccc92d9-fa9c-4749-8e92-f485b8e20dbe.png)
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] Google Analytics 4 (G-520DQBN65E) and Google Tag Manager present
+[REASONING]
+Raw HTML source of the homepage contains the string "G-520DQBN65E" (a GA4 measurement ID) and "googletagmanager" within script tags. The curl_fetch.py tool renders HTML to text, so the GA4 ID is not directly visible in the rendered text artifact; it was found via grep on the raw HTML file saved as source_homepage.md. The two signals (GA4 ID + GTM reference) together confirm both tools are loaded.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.thrivepeptides.us/
+[FETCHED_AT] 2026-05-07T18:35:51Z
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/source_homepage.md
+[LINE_RANGE] 1-1
+G-520DQBN65E
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.thrivepeptides.us/
+[FETCHED_AT] 2026-05-07T18:35:51Z
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/source_homepage.md
+[LINE_RANGE] 1-1
+googletagmanager
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://www.thrivepeptides.us/
+[FETCHED_AT] 2026-05-07T18:33:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/homepage.md
+[LINE_RANGE] 182-189
+[QUOTE]
+## Contact Us
+
+We respond within 48 hours, Monday–Friday: **support@thrivepeptides.us**
+
+Follow us on Socials!
+
+  * [TikTok](https://tiktok.com/@thrivepept1des)
+  * [Instagram](https://instagram.com/thrive_peps)
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.thrivepeptides.us/
+[FETCHED_AT] 2026-05-07T18:33:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/homepage.md
+[LINE_RANGE] 174-178
+[QUOTE]
+## Menu
+
+  * [Home](https://www.thrivepeptides.us)
+  * [COAS](https://www.thrivepeptides.us/coas/)
+  * [Shop](https://www.thrivepeptides.us/shop/)
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://www.thrivepeptides.us/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_09__bpc-157.md
+[LINE_RANGE] 44-45
+[QUOTE]
+  * Description
+  * Reviews (0)
+[/QUOTE]
+
+[CLAIM] skus[thrive-peptides:bpc-157-10mg]
+[URL] https://www.thrivepeptides.us/product/bpc-157/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_09__bpc-157.md
+[LINE_RANGE] 28-42
+[QUOTE]
+# BPC-157 10MG
+
+~~$ 59.99~~ Original price was: $59.99.$44.99Current price is: $44.99.
+
+Batch- TP-02-BPC Tested at 9.37MG & 99.118% Purity
+
+84 in stock
+
+BPC-157 10MG quantity
+
+Add to cart
+
+SKU: TP-02-BPC
+
+Category: [Research Use Only](https://www.thrivepeptides.us/product-category/research-use-only/)
+[/QUOTE]
+
+[CLAIM] skus[thrive-peptides:tb-500-11mg]
+[URL] https://www.thrivepeptides.us/product/tb-500/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_13__tb-500.md
+[LINE_RANGE] 28-40
+[QUOTE]
+# TB-500 11MG
+
+~~$ 59.99~~ Original price was: $59.99.$49.99Current price is: $49.99.
+
+Batch- TP-02-TB5 Tested at 11.11MG 99.56% Purity
+[/QUOTE]
+
+[CLAIM] skus[thrive-peptides:ghk-cu-107mg]
+[URL] https://www.thrivepeptides.us/product/ghk-cu-100mg/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_11__ghk-cu-100mg.md
+[LINE_RANGE] 28-40
+[QUOTE]
+# GHK-CU 107MG
+
+~~$ 49.99~~ Original price was: $49.99.$39.99Current price is: $39.99.
+
+Batch- TP-03-GHK Tested at 107.43mg & 99.586% Purity
+[/QUOTE]
+
+[CLAIM] skus[thrive-peptides:ipamorelin-10mg]
+[URL] https://www.thrivepeptides.us/product/ipamorelin-5mg/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_10__ipamorelin-5mg.md
+[LINE_RANGE] 28-40
+[QUOTE]
+# IPAMORELIN
+
+~~$ 44.99~~ Original price was: $44.99.$34.99Current price is: $34.99.
+
+Batch- TP-02-IPA Tested at 12.01MG & 99.906% Purity
+[/QUOTE]
+
+[CLAIM] skus[thrive-peptides:cjc-1295-no-dac-10mg]
+[URL] https://www.thrivepeptides.us/product/cjc-1295-no-dac-5mg/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_12__cjc-1295-no-dac-5mg.md
+[LINE_RANGE] 28-40
+[QUOTE]
+# CJC-1295 no DAC
+
+~~$ 59.99~~ Original price was: $59.99.$49.99Current price is: $49.99.
+
+Batch- TP-02-CJC Tested at 9.28mg & 99.609% Purity
+[/QUOTE]
+
+[CLAIM] skus[thrive-peptides:semax-10mg]
+[URL] https://www.thrivepeptides.us/product/semax/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_03__semax.md
+[LINE_RANGE] 28-40
+[QUOTE]
+# SEMAX
+
+~~$ 44.99~~ Original price was: $44.99.$34.99Current price is: $34.99.
+
+Batch TP-01-SX Tested Purity- 99.547% & 9.70MG
+[/QUOTE]
+
+[CLAIM] skus[thrive-peptides:mt-2-10mg]
+[URL] https://www.thrivepeptides.us/product/mt-2/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_07__mt-2.md
+[LINE_RANGE] 28-40
+[QUOTE]
+# MT-2 10MG
+
+~~$ 49.99~~ Original price was: $49.99.$39.99Current price is: $39.99.
+
+Batch- TP-02-MT2 Tested at 10.91mg & 99.691% Purity
+[/QUOTE]
+
+[CLAIM] skus[thrive-peptides:glp-3-rt-10mg] (Retatrutide)
+[URL] https://www.thrivepeptides.us/product/glp-3-rt/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_08__glp-3-rt.md
+[LINE_RANGE] 28-40
+[QUOTE]
+# GLP-3 RT 10MG
+
+~~$ 79.99~~ Original price was: $79.99.$59.99Current price is: $59.99.
+
+Batch- TP-07-RT PURITY-99.696% MG-10.56MG
+[/QUOTE]
+
+[CLAIM] skus[thrive-peptides:glp-3-rt-21mg]
+[URL] https://www.thrivepeptides.us/product/glp-3-rt-20mg/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_04__glp-3-rt-20mg.md
+[LINE_RANGE] 28-40
+[QUOTE]
+# GLP-3 RT 21MG
+
+~~$ 109.99~~ Original price was: $109.99.$99.99Current price is: $99.99.
+
+Batch- TP-04-RT20 | 99.94% PURITY & 21.51MG
+[/QUOTE]
+
+[CLAIM] skus[thrive-peptides:glp-3-rt-37mg]
+[URL] https://www.thrivepeptides.us/product/glp-3-rt-31mg/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_02__glp-3-rt-31mg.md
+[LINE_RANGE] 28-40
+[QUOTE]
+# GLP-3 RT 37MG
+
+~~$ 139.99~~ Original price was: $139.99.$119.99Current price is: $119.99.
+[/QUOTE]
+
+[CLAIM] skus[thrive-peptides:glp-2t-35mg] (Tirzepatide)
+[URL] https://www.thrivepeptides.us/product/glp-2t-35mg/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_01__glp-2t-35mg.md
+[LINE_RANGE] 28-34
+[QUOTE]
+# GLP-2T 35MG
+
+~~$ 109.99~~ Original price was: $109.99.$89.99Current price is: $89.99.
+
+Batch- TP-01-TZ30 | 99.639% PURITY & 35.05MG
+
+Out of stock
+[/QUOTE]
+
+[CLAIM] skus[thrive-peptides:glp-2t-44mg]
+[URL] https://www.thrivepeptides.us/product/glp-2t/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_06__glp-2t.md
+[LINE_RANGE] 28-34
+[QUOTE]
+# GLP-2T 44MG
+
+~~$ 119.99~~ Original price was: $119.99.$99.99Current price is: $99.99.
+
+Batch- TP-0001-TZ | 99.854% PURITY & 44.17MG
+
+Out of stock
+[/QUOTE]
+
+[CLAIM] skus[thrive-peptides:hospira-bact-water-30ml]
+[URL] https://www.thrivepeptides.us/product/hospira-bacteriostatic-water30ml/
+[FETCHED_AT] 2026-05-07T18:33:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/product_05__hospira-bacteriostatic-water30ml.md
+[LINE_RANGE] 26-32
+[QUOTE]
+# Hospira Bacteriostatic Water(30ML)
+
+~~$ 39.99~~ Original price was: $39.99.$29.99Current price is: $29.99.
+
+Out of stock
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.thrivepeptides.us/shop/
+[FETCHED_AT] 2026-05-07T18:33:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/thrive-peptides/catalog_1.md
+[LINE_RANGE] 26-28
+[QUOTE]
+Showing all 13 resultsSorted by latest
+
+Sort by popularitySort by average ratingSort by latestSort by price: low to highSort by price: high to low
+[/QUOTE]

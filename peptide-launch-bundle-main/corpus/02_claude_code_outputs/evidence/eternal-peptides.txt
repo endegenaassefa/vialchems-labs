@@ -1,0 +1,829 @@
+[CLAIM] primary_domain
+[URL] https://eternalpeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/homepage.md
+[LINE_RANGE] 58-58
+[QUOTE]
+# Eternal Peptides
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://eternalpeptides.com/terms_of_use/
+[FETCHED_AT] 2026-05-07T17:07:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/tos.md
+[LINE_RANGE] 62-62
+[QUOTE]
+Welcome to the Eternal Peptides website, owned and operated by Cenvira LLC. Throughout these Terms of Service, 'Eternal Peptides,' 'we,' 'us,' and 'our' refer to Cenvira LLC, a New York Limited Liability Company, doing business as 'Eternal Peptides'.
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[INFERENCE] United States
+[REASONING]
+The operating entity is Cenvira LLC, a New York LLC. The footer address reads "CenviraLLC, Little Neck, NY 11362, USA". USPS is the sole carrier. No mention of international warehouses.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://eternalpeptides.com/terms_of_use/
+[FETCHED_AT] 2026-05-07T17:07:23Z
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/tos.md
+[LINE_RANGE] 62-62
+"Cenvira LLC, a New York Limited Liability Company, doing business as ‘Eternal Peptides’"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://eternalpeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:03Z
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/homepage.md
+[LINE_RANGE] 421-421
+"CenviraLLC, Little Neck, NY 11362, USA"
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope
+[INFERENCE] us_only
+[REASONING]
+Shipping policy page references only USPS Priority Mail and USPS Express Mail with flat-rate domestic pricing. No international shipping option is mentioned anywhere in the shipping policy, TOS, or any product page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://eternalpeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T17:07:26Z
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/refund.md
+[LINE_RANGE] 82-86
+"We offer two reliable USPS shipping options:
+
+  * **Priority Mail** – Flat rate of **$10.53** , delivery in **2–4 business days**.
+  * **Express Mail** – Flat rate of **$45** , delivery in **1–2 business days (often overnight)**."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://eternalpeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T17:07:26Z
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/refund.md
+[LINE_RANGE] 97-97
+"We currently accept Credit/Debit Cards, CashApp, Zelle, and Bitcoin for secure transactions."
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://eternalpeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/homepage.md
+[LINE_RANGE] 60-63
+[QUOTE]
+### Order the Highest Quality Research Peptides.
+
+Our peptides undergo industry-leading third-party laboratory testing — including Janoshik analysis for purity, sterility, endotoxin, and heavy metals across all products.
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage hero uses "industry-leading third-party laboratory testing" and "Janoshik analysis" language. The three sub-pillars are "3rd Party Tested," "Fast Delivery," and "Above & Beyond." The product photography in the catalog shows labeled vials against plain backgrounds with embedded COA images. No lifestyle or meme-coded imagery observed.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://eternalpeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:03Z
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/homepage.md
+[LINE_RANGE] 82-84
+"###  3rd Party Tested
+
+We subject all of our compounds to third-party analysis at an independent laboratory to verify their purity, sterility, endotoxin levels, and heavy metal content."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://eternalpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:06:02Z
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 82-84
+"###  Batch & Lot  Tracking
+
+All product batches and lots are assigned unique identifiers and tied to publicly posted lab reports."
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://eternalpeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/homepage.md
+[LINE_RANGE] 64-64
+[QUOTE]
+[ SEARCH CATALOG ](https://eternalpeptides.com/shop/)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://eternalpeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/homepage.md
+[LINE_RANGE] 12-17
+[QUOTE]
+  * [Shop](https://eternalpeptides.com/shop/)
+  * [Lab Tests](https://eternalpeptides.com/lab-tests/)
+  * [Tools](https://eternalpeptides.com)
+    * [My Account](https://eternalpeptides.com/myaccount/)
+    * [Points & Rewards](https://eternalpeptides.com/points-rewards/)
+    * [Contact Us & FAQ](https://eternalpeptides.com/contact-us/)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://eternalpeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/homepage.md
+[LINE_RANGE] 376-376
+[QUOTE]
+All products sold by Eternal Peptides are strictly intended for laboratory research use only. These materials are not for human consumption and are not intended for medical, veterinary, diagnostic, or household use of any kind. Eternal Peptides operates solely as a research chemical supplier. We are not a compounding pharmacy and do not operate as a compounding facility as defined under Section 503A of the Federal Food, Drug, and Cosmetic Act. Additionally, Eternal Peptides is not registered as an outsourcing facility under Section 503B of the Act. By purchasing from our site, you agree to use our products exclusively for lawful laboratory research purposes. Any misuse of our products in violation of applicable laws or regulations is strictly prohibited. Please review our Terms and Conditions in full before placing an order.
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://eternalpeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:05:14Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/catalog_1.md
+[LINE_RANGE] 1-1
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/eternal-peptides/product_*.md:
+30 product files plus 1 bacteriostatic water supply item = 31 total SKU pages saved.
+[FILES]
+product_1__bpc-157-10mg.md
+product_2__tb-500-10mg.md
+product_3__ghk-cu-100mg.md
+product_4__glp-3-r-20mg.md
+product_5__bpc-157-tb-500-blend.md
+product_6__cjc-ipamorelin-no-dac.md
+product_7__tesamorelin-10mg.md
+product_8__mots-c-10mg.md
+product_9__glp-2-t-10mg.md
+product_10__nad-500mg.md
+product_11__glp-1-s-10mg.md
+product_12__klow-blend-80mg.md
+product_13__melanotan-ii-10mg.md
+product_14__semax-10mg.md
+product_15__kpv-10mg.md
+product_16__glutathione-1500mg.md
+product_17__pt-141-10mg.md
+product_18__ipamorelin-5mg.md
+product_19__tesamorelin-ipamorelin-blend.md
+product_20__glp3-cagrilintide-blend.md
+product_21__kisspeptin-10mg.md
+product_22__5-amino-1mq-10mg.md
+product_23__glp1-cagrilintide-blend.md
+product_24__igf-1-lr3-1mg.md
+product_25__sermorelin-5mg.md
+product_26__dsip-10mg.md
+product_27__bpc-157-tablets.md
+product_28__selank-5mg.md
+product_29__glow-blend-70mg.md
+product_30__bacteriostatic-water.md
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://eternalpeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/homepage.md
+[LINE_RANGE] 374-374
+[QUOTE]
+### [peptidesView All Products ](https://eternalpeptides.com/product-category/research-chemicals/peptides-research-chemicals/) ### [suppliesView All Products ](https://eternalpeptides.com/product-category/supplies/)
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://eternalpeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/homepage.md
+[LINE_RANGE] 94-96
+[QUOTE]
+# [Build Your Own Peptide Bundle And Save! ](https://eternalpeptides.com/shop/)
+
+### Orders with **8 or more vials** and a sub-total of **at least $450** will receive a **free large reconstitution kit** along with an additional **10% off** automatically applied at checkout!
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://eternalpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:06:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 90-92
+[QUOTE]
+# BPC-157
+
+$39.99 – $64.99Price range: $39.99 through $64.99
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://eternalpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:06:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 98-98
+[QUOTE]
+**Choose an option** Select an option 5mg - $39.99  10mg - $64.99
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://eternalpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:06:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 92-92
+[QUOTE]
+$39.99 – $64.99Price range: $39.99 through $64.99
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://eternalpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:06:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 166-166
+[QUOTE]
+Shop high-purity BPC-157 10mg vials at Eternal Peptides, the industry leader in verified quality and experimental consistency. Our BPC-157 is synthesized to a standard of ≥99% purity, with every batch supported by independent third-party COAs (Janoshik) to ensure reliable laboratory results.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://eternalpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:06:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 116-116
+[QUOTE]
+*Disclaimer: This product is intended solely for laboratory research purposes. It is not suitable for consumption by humans, nor for medical, veterinary, or household purposes. Kindly review our **[Terms& Conditions](https://eternalpeptides.com/terms_of_use/) **before making a purchase.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://eternalpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:06:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 118-120
+[QUOTE]
+**Always quality-tested, verified with third-party COAs**
+
+At every step, we prioritize quality by conducting rigorous third-party testing on all our products. These tests focus on five key characteristics- identity, purity, sterility, and endotoxin levels, and heavy metal content-ensuring that each product meets the highest standards of quality with independent third-party Certificates of Analysis (COAS) to verify our commitment to excellence.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://eternalpeptides.com/lab-tests/
+[FETCHED_AT] 2026-05-07T17:07:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/lab_tests.md
+[LINE_RANGE] 60-60
+[QUOTE]
+**********BPC-157 (10mg)****** **Purity & Identity****** **2**
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://eternalpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:06:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 271-271
+[QUOTE]
+As a reputable peptide supplier, Eternal Peptides works with Janoshik and other leading testing labs for results you can trust.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://eternalpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:06:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 241-241
+[QUOTE]
+**Batch: EP-250407-BPC10**
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://eternalpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:06:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 329-344
+[QUOTE]
+## Related products
+
+  * [ Sale! GLP-3 (R) $54.99 – $175.99Price range: $54.99 through $175.99 ](https://eternalpeptides.com/product/glp-3-r-20mg/)
+
+Peptides, Research Chemicals
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://eternalpeptides.com/terms_of_use/
+[FETCHED_AT] 2026-05-07T17:07:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/tos.md
+[LINE_RANGE] 66-66
+[QUOTE]
+All products sold by Eternal Peptides are strictly for research purposes only. They are not intended for human consumption. By purchasing from us, you acknowledge and agree that these products are not pharmaceuticals, supplements, or consumer goods. Eternal Peptides is not responsible for any misuse of its products.
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://eternalpeptides.com/terms_of_use/
+[FETCHED_AT] 2026-05-07T17:07:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/tos.md
+[LINE_RANGE] 70-70
+[QUOTE]
+Only individuals who are at least 21 years old or the age of majority in their jurisdiction, whichever is greater, can make a purchase.
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://eternalpeptides.com/terms_of_use/
+[FETCHED_AT] 2026-05-07T17:07:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/tos.md
+[LINE_RANGE] 70-70
+[QUOTE]
+Only individuals who are at least 21 years old or the age of majority in their jurisdiction, whichever is greater, can make a purchase.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://eternalpeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/homepage.md
+[LINE_RANGE] 408-408
+[QUOTE]
+  * [Terms And Conditions](https://eternalpeptides.com/terms_of_use/)
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://eternalpeptides.com/terms_of_use/
+[FETCHED_AT] 2026-05-07T17:07:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/tos.md
+[LINE_RANGE] 78-89
+[QUOTE]
+  * **Chargebacks are strictly prohibited.** Any attempt to initiate a chargeback will be fully disputed, with all necessary documentation submitted to our payment processors.
+  * **All sales are final.** We do not accept returns or issue refunds under any circumstances, including but not limited to dissatisfaction with the product, change of mind, or failure to use the product as intended.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://eternalpeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T17:07:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/refund.md
+[LINE_RANGE] 62-62
+[QUOTE]
+Due to the sensitive nature of our products and our rigorous quality control standards, all sales are final. Eternal Peptides does not accept returns, exchanges, or refunds under any circumstances. By purchasing from us, you acknowledge and agree to this policy.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://eternalpeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T17:07:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/refund.md
+[LINE_RANGE] 82-86
+[QUOTE]
+We offer two reliable USPS shipping options:
+
+  * **Priority Mail** – Flat rate of **$10.53** , delivery in **2–4 business days**.
+  * **Express Mail** – Flat rate of **$45** , delivery in **1–2 business days (often overnight)**.
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://eternalpeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T17:07:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/refund.md
+[LINE_RANGE] 101-101
+[QUOTE]
+During checkout, you have the option to register or proceed as a guest. While registration is optional, registering allows you to check order status, update your account information, and access past orders by logging in to our website.
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://eternalpeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T17:07:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/refund.md
+[LINE_RANGE] 101-101
+[QUOTE]
+During checkout, you have the option to register or proceed as a guest.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://eternalpeptides.com/terms_of_use/
+[FETCHED_AT] 2026-05-07T17:07:23Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/tos.md
+[LINE_RANGE] 93-93
+[QUOTE]
+Eternal Peptides accepts Credit/Debit Card, CashApp, Zelle, Bitcoin, and Bank transfers/e-checks for secure transactions.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://eternalpeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T17:07:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/refund.md
+[LINE_RANGE] 82-86
+[QUOTE]
+We offer two reliable USPS shipping options:
+
+  * **Priority Mail** – Flat rate of **$10.53** , delivery in **2–4 business days**.
+  * **Express Mail** – Flat rate of **$45** , delivery in **1–2 business days (often overnight)**.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://eternalpeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/homepage.md
+[LINE_RANGE] 88-88
+[QUOTE]
+Processing takes up to 24 hours and we offer 2–4 day shipping through USPS Priority Mail or 1-2 day Shipping through USPS express, with free priority shipping for orders over $200.
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://eternalpeptides.com/shipping-returns/
+[FETCHED_AT] 2026-05-07T17:07:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/refund.md
+[LINE_RANGE] 101-101
+[QUOTE]
+During checkout, you have the option to register or proceed as a guest. While registration is optional, registering allows you to check order status, update your account information, and access past orders by logging in to our website. It also speeds up the checkout process for future purchases.
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+URL patterns across the site exhibit canonical WooCommerce/WordPress conventions: /product/ prefix for individual product pages, /product-category/ for taxonomy pages, /myaccount/ for customer account management, /cart/ for the cart page, and /wp-content/uploads/ for media. These are standard WooCommerce URL structures.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://eternalpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:06:02Z
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 58-66
+"[](https://eternalpeptides.com/wp-content/uploads/2024/06/BPC-157_-_10MG.png)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://eternalpeptides.com/
+[FETCHED_AT] 2026-05-07T04:26:03Z
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/homepage.md
+[LINE_RANGE] 374-374
+"### [peptidesView All Products ](https://eternalpeptides.com/product-category/research-chemicals/peptides-research-chemicals/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://eternalpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:06:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 329-344
+[QUOTE]
+## Related products
+
+  * [ Sale! GLP-3 (R) $54.99 – $175.99Price range: $54.99 through $175.99 ](https://eternalpeptides.com/product/glp-3-r-20mg/)
+
+Peptides, Research Chemicals
+
+Purchase & earn 176 points![Select options](https://eternalpeptides.com/product/glp-3-r-20mg/)
+  * [ Sale! IGF-1 LR3 $104.99 ](https://eternalpeptides.com/product/igf-1-lr3-1mg/)
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://eternalpeptides.com/shop/
+[FETCHED_AT] 2026-05-07T17:05:14Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/catalog_1.md
+[LINE_RANGE] 62-63
+[QUOTE]
+Rated **0** out of 5
+
+Sale!
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.trustpilot.com/review/eternalpeptides.net
+[FETCHED_AT] 2026-05-07T17:08:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/social_1.md
+[LINE_RANGE] 37-44
+[QUOTE]
+# Eternalpeptides Reviews 14
+
+•
+
+4.2
+
+[Biotechnology Company](/web/20251202205207/https://www.trustpilot.com/categories/biotechnology_company)
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.trustpilot.com/review/eternalpeptides.net
+[FETCHED_AT] 2026-05-07T17:08:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/social_1.md
+[LINE_RANGE] 146-153
+[QUOTE]
+## [Iv ordered from eternal many times but…](/web/20251202205207/https://www.trustpilot.com/reviews/69268b1797e650b74eaf5817)
+
+Iv ordered from eternal many times but never left a review. I first found them on tiktok, as I was looking for a reliable well tested peptides source for research. I ordered from them and it looks 3-4 days to arrive. Peptides did as intended. Since then, they are my go to source.
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://www.trustpilot.com/review/eternalpeptides.net
+[FETCHED_AT] 2026-05-07T17:08:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/social_1.md
+[LINE_RANGE] 148-150
+[QUOTE]
+I first found them on tiktok, as I was looking for a reliable well tested peptides source for research.
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — BPC-157 5mg / 10mg
+[URL] https://eternalpeptides.com/product/bpc-157-10mg/
+[FETCHED_AT] 2026-05-07T17:06:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_1__bpc-157-10mg.md
+[LINE_RANGE] 98-98
+[QUOTE]
+**Choose an option** Select an option 5mg - $39.99  10mg - $64.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — TB-500 5mg / 10mg
+[URL] https://eternalpeptides.com/product/tb-500-10mg/
+[FETCHED_AT] 2026-05-07T17:06:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_2__tb-500-10mg.md
+[LINE_RANGE] 98-98
+[QUOTE]
+**Choose an option** Select an option 5mg - $44.99  10mg - $74.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — GHK-Cu 50mg / 100mg
+[URL] https://eternalpeptides.com/product/ghk-cu-100mg/
+[FETCHED_AT] 2026-05-07T17:06:17Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_3__ghk-cu-100mg.md
+[LINE_RANGE] 98-98
+[QUOTE]
+**Choose an option** Select an option 50mg - $54.99  100mg - $79.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — GLP-3 (R) / Retatrutide 5mg / 10mg / 20mg
+[URL] https://eternalpeptides.com/product/glp-3-r-20mg/
+[FETCHED_AT] 2026-05-07T17:06:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_4__glp-3-r-20mg.md
+[LINE_RANGE] 96-96
+[QUOTE]
+**Choose an option** Select an option 5mg - $54.99  10mg - $99.99  20mg - $175.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — BPC-157 & TB-500 Blend
+[URL] https://eternalpeptides.com/product/bpc-157-tb-500-10-10mg-blend/
+[FETCHED_AT] 2026-05-07T17:06:19Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_5__bpc-157-tb-500-blend.md
+[LINE_RANGE] 98-98
+[QUOTE]
+**Choose an option** Select an option 5/5mg - $74.99  10/10mg - $139.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — CJC 1295 + Ipamorelin No DAC
+[URL] https://eternalpeptides.com/product/cjc-ipamorelin-no-dac-5mg-5mg/
+[FETCHED_AT] 2026-05-07T17:06:27Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_6__cjc-ipamorelin-no-dac.md
+[LINE_RANGE] 98-98
+[QUOTE]
+**Choose an option** Select an option 5mg/5mg - $84.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — Tesamorelin 5mg / 10mg
+[URL] https://eternalpeptides.com/product/tesamorelin-10mg/
+[FETCHED_AT] 2026-05-07T17:06:26Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_7__tesamorelin-10mg.md
+[LINE_RANGE] 98-98
+[QUOTE]
+**Choose an option** Select an option 5mg - $52.99  10mg - $89.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — MOTS-C 10mg
+[URL] https://eternalpeptides.com/product/mots-c-10mg/
+[FETCHED_AT] 2026-05-07T17:06:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_8__mots-c-10mg.md
+[LINE_RANGE] 98-98
+[QUOTE]
+**Choose an option** Select an option 10mg - $59.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — GLP-2 (T) / Tirzepatide 5mg / 10mg
+[URL] https://eternalpeptides.com/product/glp-2-t-10mg/
+[FETCHED_AT] 2026-05-07T17:06:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_9__glp-2-t-10mg.md
+[LINE_RANGE] 98-98
+[QUOTE]
+**Choose an option** Select an option 5mg - $40.99  10mg - $74.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — NAD+ 500mg
+[URL] https://eternalpeptides.com/product/nad-500mg/
+[FETCHED_AT] 2026-05-07T17:06:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_10__nad-500mg.md
+[LINE_RANGE] 98-98
+[QUOTE]
+**Choose an option** Select an option 500mg - $69.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — GLP-1 (S) / Semaglutide 5mg / 10mg
+[URL] https://eternalpeptides.com/product/glp-1-s-10mg/
+[FETCHED_AT] 2026-05-07T17:06:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_11__glp-1-s-10mg.md
+[LINE_RANGE] 98-98
+[QUOTE]
+**Choose an option** Select an option 5mg - $39.99  10mg - $69.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — Klow Blend 80mg
+[URL] https://eternalpeptides.com/product/klow-blend-80mg/
+[FETCHED_AT] 2026-05-07T17:06:47Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_12__klow-blend-80mg.md
+[LINE_RANGE] 98-98
+[QUOTE]
+**Choose an option** Select an option 80mg - $174.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — Melanotan II 10mg
+[URL] https://eternalpeptides.com/product/melanotan-ii-10mg/
+[FETCHED_AT] 2026-05-07T17:07:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_13__melanotan-ii-10mg.md
+[LINE_RANGE] 98-98
+[QUOTE]
+**Choose an option** Select an option 10mg - $54.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — Semax 5mg / 10mg
+[URL] https://eternalpeptides.com/product/semax-10mg/
+[FETCHED_AT] 2026-05-07T17:06:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_14__semax-10mg.md
+[LINE_RANGE] 96-96
+[QUOTE]
+**Choose an option** Select an option 5mg - $34.99  10mg - $54.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — KPV 5mg / 10mg
+[URL] https://eternalpeptides.com/product/kpv-10mg/
+[FETCHED_AT] 2026-05-07T17:07:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_15__kpv-10mg.md
+[LINE_RANGE] 92-92
+[QUOTE]
+**Choose an option** Select an option 5mg - $34.99  10mg - $59.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — Glutathione 1500mg
+[URL] https://eternalpeptides.com/product/glutathione-1500mg/
+[FETCHED_AT] 2026-05-07T17:06:51Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_16__glutathione-1500mg.md
+[LINE_RANGE] 98-98
+[QUOTE]
+**Choose an option** Select an option Glutathione - $64.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — PT-141 10mg
+[URL] https://eternalpeptides.com/product/pt-141-10mg/
+[FETCHED_AT] 2026-05-07T17:07:02Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_17__pt-141-10mg.md
+[LINE_RANGE] 92-92
+[QUOTE]
+**Choose an option** Select an option 10mg - $59.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — Ipamorelin 5mg / 10mg
+[URL] https://eternalpeptides.com/product/ipamorelin-5mg/
+[FETCHED_AT] 2026-05-07T17:07:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_18__ipamorelin-5mg.md
+[LINE_RANGE] 94-94
+[QUOTE]
+**Choose an option** Select an option 5mg - $34.99  10mg - $59.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — Tesamorelin & Ipamorelin Blend 11/6mg
+[URL] https://eternalpeptides.com/product/tesamorelin-ipamorelin-11-6mg-blend/
+[FETCHED_AT] 2026-05-07T17:06:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_19__tesamorelin-ipamorelin-blend.md
+[LINE_RANGE] 90-90
+[QUOTE]
+**Choose an option** Select an option 11/6mg - $134.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — GLP-3 (R) & Cagrilintide Blend 5/5mg
+[URL] https://eternalpeptides.com/product/glp-3-r-cagrilintide-5-5mg-blend/
+[FETCHED_AT] 2026-05-07T17:06:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_20__glp3-cagrilintide-blend.md
+[LINE_RANGE] 90-90
+[QUOTE]
+**Choose an option** Select an option 5/5mg - $124.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — Kisspeptin 10mg
+[URL] https://eternalpeptides.com/product/kisspeptin-10mg/
+[FETCHED_AT] 2026-05-07T17:06:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_21__kisspeptin-10mg.md
+[LINE_RANGE] 90-90
+[QUOTE]
+**Choose an option** Select an option 10mg - $61.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — 5-Amino-1MQ 10mg
+[URL] https://eternalpeptides.com/product/5-amino-1mq-10mg/
+[FETCHED_AT] 2026-05-07T17:06:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_22__5-amino-1mq-10mg.md
+[LINE_RANGE] 90-90
+[QUOTE]
+**Choose an option** Select an option 10mg - $49.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — GLP-1 (S) & Cagrilintide Blend 5/5mg
+[URL] https://eternalpeptides.com/product/cagrilintide-semaglutide-5-5mg-blend/
+[FETCHED_AT] 2026-05-07T17:07:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_23__glp1-cagrilintide-blend.md
+[LINE_RANGE] 90-90
+[QUOTE]
+**Choose an option** Select an option 5/5mg - $104.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — IGF-1 LR3 1mg
+[URL] https://eternalpeptides.com/product/igf-1-lr3-1mg/
+[FETCHED_AT] 2026-05-07T17:06:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_24__igf-1-lr3-1mg.md
+[LINE_RANGE] 96-96
+[QUOTE]
+**Choose an option** Select an option 1mg - $104.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — Sermorelin 5mg / 10mg
+[URL] https://eternalpeptides.com/product/sermorlin-5mg/
+[FETCHED_AT] 2026-05-07T17:07:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_25__sermorelin-5mg.md
+[LINE_RANGE] 92-92
+[QUOTE]
+**Choose an option** Select an option 5mg - $49.99  10mg - $79.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — DSIP 5mg / 10mg
+[URL] https://eternalpeptides.com/product/dsip-10mg/
+[FETCHED_AT] 2026-05-07T17:07:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_26__dsip-10mg.md
+[LINE_RANGE] 96-96
+[QUOTE]
+**Choose an option** Select an option 5mg - $34.99  10mg - $59.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — BPC-157 tablets 50 count
+[URL] https://eternalpeptides.com/product/bpc-157-tablets-50-count/
+[FETCHED_AT] 2026-05-07T17:07:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_27__bpc-157-tablets.md
+[LINE_RANGE] 94-94
+[QUOTE]
+**Choose an option** Select an option 50 Count - $149.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — Selank 5mg / 10mg
+[URL] https://eternalpeptides.com/product/selank-5mg-2/
+[FETCHED_AT] 2026-05-07T17:07:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_28__selank-5mg.md
+[LINE_RANGE] 90-90
+[QUOTE]
+**Choose an option** Select an option 5mg - $34.99  10mg - $54.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — Glow Blend 70mg
+[URL] https://eternalpeptides.com/product/glow-blend-70mg/
+[FETCHED_AT] 2026-05-07T17:06:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_29__glow-blend-70mg.md
+[LINE_RANGE] 98-98
+[QUOTE]
+**Choose an option** Select an option 70mg - $150.99
+[/QUOTE]
+
+[CLAIM] skus[].list_price_usd — Bacteriostatic Water 10ml
+[URL] https://eternalpeptides.com/product/bacteriostatic-water-10ml/
+[FETCHED_AT] 2026-05-07T17:06:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/eternal-peptides/product_30__bacteriostatic-water.md
+[LINE_RANGE] 94-94
+[QUOTE]
+**Choose an option** Select an option 10 ml - $14.99
+[/QUOTE]

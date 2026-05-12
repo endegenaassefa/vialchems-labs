@@ -1,0 +1,372 @@
+[CLAIM] primary_domain
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/homepage.md
+[LINE_RANGE] 7-8
+[QUOTE]
+"[AMINOVARESEARCH SUPPLY](/)[Shop](/shop)[Certificates of Analysis](/blog)[About](/about)[Contact](/contact)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/homepage.md
+[LINE_RANGE] 28-31
+[QUOTE]
+"# LAB TESTED, HIGH PURITY
+PEPTIDES FOR RESEARCH USE ONLY
+
+SAME DAY SHIPPING - COA WITH EVERY ORDER"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/homepage.md
+[LINE_RANGE] 102-102
+[QUOTE]
+"Research Use Only \- All products listed on this website are intended exclusively for laboratory research and scientific study. Not for human consumption, therapeutic use, or veterinary application. No medical claims are made or implied."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/homepage.md
+[LINE_RANGE] 33-34
+[QUOTE]
+"[Explore Products](/shop)[View Certificates](/blog)"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/homepage.md
+[LINE_RANGE] 35-40
+[QUOTE]
+"⬡Certificate of Analysis
+
+⬡PCI-Compliant Checkout
+
+⬡Secure Shipping
+
+⬡Dedicated Support"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/homepage.md
+[LINE_RANGE] 23-25
+[QUOTE]
+"[AMINOVARESEARCH SUPPLY](/)[Shop](/shop)[Certificates of Analysis](/blog)[About](/about)[Contact](/contact)"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/homepage.md
+[LINE_RANGE] 113-120
+[QUOTE]
+"#### Shop
+
+  * [All Products](/shop)
+  * [Peptides](/shop?category=peptides)
+  * [Reconstitution Supplies](/shop?category=reconstitution)
+  * [Research Kits](/shop?category=kits)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/homepage.md
+[LINE_RANGE] 113-120
+[QUOTE]
+"#### Shop
+
+  * [All Products](/shop)
+  * [Peptides](/shop?category=peptides)
+  * [Reconstitution Supplies](/shop?category=reconstitution)
+  * [Research Kits](/shop?category=kits)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[CLAIM] product_page_anatomy.list_price
+[CLAIM] product_page_anatomy.per_mg_cost
+[CLAIM] skus[]
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/homepage.md
+[LINE_RANGE] 49-49
+[QUOTE]
+"### [Hospira BAC Water$24.99Add to CartFor research use only. Not for human consumption.](/product/hospira-bac-water)[Pre-OrderTesamorelin$79.99PRE-ORDERPre-OrderFor research use only. Not for human consumption.](/product/tesamorelin)[Pre-OrderTB-500$44.99PRE-ORDERPre-OrderFor research use only. Not for human consumption.](/product/tb-500)### [Semax$44.99Add to CartFor research use only. Not for human consumption.](/product/semax)### [Selank$44.99Add to CartFor research use only. Not for human consumption.](/product/selank)### [MT-2$39.99Add to CartFor research use only. Not for human consumption.](/product/mt-2)### [MT-1$39.99Add to CartFor research use only. Not for human consumption.](/product/mt-1)### [MOTS-C$49.99Add to CartFor research use only. Not for human consumption.](/product/mots-c)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/homepage.md
+[LINE_RANGE] 49-49
+[QUOTE]
+"For research use only. Not for human consumption."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://www.aminova.us/blog
+[FETCHED_AT] 2026-05-07T19:40:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/coa_1.md
+[LINE_RANGE] 28-38
+[QUOTE]
+"# Certificate of Analysis Library
+
+Every AMINOVA product is third-party tested for purity and identity. Click any certificate to view the full document or download the PDF.
+
+[✓ Verified](/api/images?url=https%3A%2F%2Fqj1gpefugewdq92w.private.blob.vercel-storage.com%2Fcoa%2F1777521573286-ghk50amin2603250075.pdf)
+
+[GHK-Cu](/product/ghk-cu)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://www.aminova.us/blog
+[FETCHED_AT] 2026-05-07T19:40:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/coa_1.md
+[LINE_RANGE] 36-38
+[QUOTE]
+"GHK50Amin2603250075.pdf
+
+[Download PDF](/api/images?url=https%3A%2F%2Fqj1gpefugewdq92w.private.blob.vercel-storage.com%2Fcoa%2F1777521573286-ghk50amin2603250075.pdf)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.aminova.us/legal?section=disclaimer
+[FETCHED_AT] 2026-05-07T19:40:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/disclaimer.md
+[LINE_RANGE] 73-82
+[QUOTE]
+"## Research Use Only
+
+All products sold by AMINOVA Research Supply are strictly intended for in vitro laboratory research and scientific investigation. They are not intended for human consumption, veterinary use, therapeutic application, or any diagnostic purpose."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/homepage.md
+[LINE_RANGE] 12-20
+[QUOTE]
+"# Age Verification Required
+
+You must be 21 years or older to enter this site
+
+This website contains products intended for research use only
+
+I am 21 or older - EnterI am under 21 - Exit
+
+By entering, you agree to our Terms of Service and confirm you are of legal age in your jurisdiction."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.aminova.us/legal?section=terms
+[FETCHED_AT] 2026-05-07T19:40:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/tos.md
+[LINE_RANGE] 73-105
+[QUOTE]
+"## Terms of Service
+
+## 1\. Research Use Only
+
+All products sold by AMINOVA Research Supply ("AMINOVA") are intended exclusively for in vitro research, laboratory studies, and scientific investigation by qualified researchers."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.aminova.us/legal?section=terms
+[FETCHED_AT] 2026-05-07T19:40:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/tos.md
+[LINE_RANGE] 95-105
+[QUOTE]
+"## 7\. Governing Law
+
+These terms are governed by the laws of the State of Delaware, United States.
+
+Last updated: January 2025"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.aminova.us/legal?section=returns
+[FETCHED_AT] 2026-05-07T19:40:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/refund.md
+[LINE_RANGE] 35-56
+[QUOTE]
+"## Return Eligibility
+
+Due to the nature of research compounds, returns are accepted only for:
+
+  * Unopened products in original, sealed condition
+  * Products returned within 14 days of delivery
+  * Products accompanied by original packaging and documentation"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.aminova.us/legal?section=shipping
+[FETCHED_AT] 2026-05-07T19:40:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/shipping.md
+[LINE_RANGE] 38-54
+[QUOTE]
+"**Standard Shipping (3-5 business days):** Available on all orders. Free on orders over $150.
+
+**Expedited Shipping (2 business days):** Available at checkout for an additional fee.
+
+## Packaging
+
+All products are sealed in protective packaging with desiccant materials. Temperature-sensitive compounds ship with cold-chain packaging.
+
+## Tracking
+
+You will receive a shipping confirmation with tracking information within 24 hours of shipment.
+
+## Restrictions
+
+We currently ship within the United States only. We do not ship to P.O. boxes or APO/FPO addresses."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.aminova.us/legal?section=shipping
+[FETCHED_AT] 2026-05-07T19:40:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/shipping.md
+[LINE_RANGE] 40-42
+[QUOTE]
+"**Standard Shipping (3-5 business days):** Available on all orders. Free on orders over $150.
+
+**Expedited Shipping (2 business days):** Available at checkout for an additional fee."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[CLAIM] fulfillment_country
+[URL] https://www.aminova.us/legal?section=shipping
+[FETCHED_AT] 2026-05-07T19:40:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/shipping.md
+[LINE_RANGE] 54-54
+[QUOTE]
+"We currently ship within the United States only. We do not ship to P.O. boxes or APO/FPO addresses."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.aminova.us/legal?section=terms
+[FETCHED_AT] 2026-05-07T19:40:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/tos.md
+[LINE_RANGE] 103-103
+[QUOTE]
+"These terms are governed by the laws of the State of Delaware, United States."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[CLAIM] tech_stack.cdn
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:40:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/source_homepage.md
+[LINE_RANGE] 14-22
+[QUOTE]
+"server: Vercel
+set-cookie: __Host-authjs.csrf-token=b56e38557c3e8c40f165ad59050fce21c6ed0b64b8c6f77baa1e960ada71cb7c%7C833c77e8deee0a1f9bb3e760b22ac81b05d23572197ee49f52c6316b0bf5ca8f; Path=/; HttpOnly; Secure; SameSite=Lax
+x-powered-by: Next.js
+x-vercel-cache: MISS
+x-vercel-id: iad1::iad1::v4f4r-1778182785303-55f0af692e65"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/homepage.md
+[LINE_RANGE] 102-141
+[QUOTE]
+"Research Use Only \- All products listed on this website are intended exclusively for laboratory research and scientific study. Not for human consumption, therapeutic use, or veterinary application. No medical claims are made or implied."
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.aminova.us/blog
+[FETCHED_AT] 2026-05-07T19:40:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/coa_1.md
+[LINE_RANGE] 28-30
+[QUOTE]
+"# Certificate of Analysis Library
+
+Every AMINOVA product is third-party tested for purity and identity. Click any certificate to view the full document or download the PDF."
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://www.aminova.us/blog
+[FETCHED_AT] 2026-05-07T19:40:43Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/coa_1.md
+[LINE_RANGE] 28-60
+[QUOTE]
+"# Certificate of Analysis Library
+
+Every AMINOVA product is third-party tested for purity and identity. Click any certificate to view the full document or download the PDF."
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/homepage.md
+[LINE_RANGE] 26-26
+[QUOTE]
+"[★★★★★★4.2Read Reviews →](https://www.trustpilot.com/review/aminova.us)"
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:37:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/homepage.md
+[LINE_RANGE] 26-102
+[QUOTE]
+"[★★★★★★4.2Read Reviews →](https://www.trustpilot.com/review/aminova.us)"
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2025
+[REASONING]
+TOS page states "Last updated: January 2025" and the site copyright reads "2026 AMINOVA Research Supply." No Wayback Machine snapshot exists (HTTP 404 from archive.org for trustpilot review page). Product image filenames begin with Unix-timestamp-like IDs in the 1777-1778 million range, consistent with mid-2025 epoch (Unix timestamp 1777520666 = ~March 2026, so earliest product timestamp 1777520666 corresponds to approximately 2025-2026 launch window). The Delaware governing law TOS with a January 2025 update date suggests the site was established in or around early 2025.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.aminova.us/legal?section=terms
+[FETCHED_AT] 2026-05-07T19:40:42Z
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/tos.md
+[LINE_RANGE] 105-105
+"Last updated: January 2025"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.aminova.us/
+[FETCHED_AT] 2026-05-07T19:37:50Z
+[RAW_ARTIFACT] 03_raw_fetches/aminova-peptides/homepage.md
+[LINE_RANGE] 139-139
+"© 2026 AMINOVA Research Supply. All rights reserved."
+[/SUPPORT_QUOTE]

@@ -1,0 +1,473 @@
+[CLAIM] primary_domain
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/homepage.md
+[LINE_RANGE] 2-2
+[QUOTE]
+url: http://www.13therapeutics.com/
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] http://www.13therapeutics.com/contact-1.html
+[FETCHED_AT] 2026-05-07T01:20:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/contact_1.md
+[LINE_RANGE] 9-10
+[QUOTE]
+503-784-1400
+[/QUOTE]
+[URL] http://www.13therapeutics.com/company.html
+[FETCHED_AT] 2026-05-07T01:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/company.md
+[LINE_RANGE] 31-31
+[QUOTE]
+13Therapeutics, Inc is a spin out from the Oregon Health and Science University (OHSU)
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/homepage.md
+[LINE_RANGE] 31-31
+[QUOTE]
+​13therapeutics, Inc is a research and drug development company identifying, characterizing, and optimizing novel anti-inflammatory peptide therapeutics
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/homepage.md
+[LINE_RANGE] 8-24
+[QUOTE]
+  * [Home](home.html)
+  * [Company](company.html)
+  * [Science](science-1.html)
+  * [Peptide Therapeutics](peptide-therapeutics.html)
+    * [Products](products.html)
+    * [P13](p13.html)
+    * [P7](p7.html)
+  * [Inflammatory Diseases](inflammatory-diseases.html)
+    * [Systemic Inflammation](systemic-inflammation2.html)
+    * [Hearing Loss](hearing-loss.html)
+    * [Otitis Media](otitis-media.html)
+    * [Noise-Induced Hearing Loss](noise-induced-hearing-loss.html)
+  * [People](people.html)
+    * [Management](management.html)
+    * [Board of Directors](board-of-directors.html)
+    * [Scientific Advisory Board](scientific-advisory-board.html)
+  * [Contact](contact-1.html)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/homepage.md
+[LINE_RANGE] 51-51
+[QUOTE]
+Copyright 13therapeutics, Inc. All rights reserved.
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] http://www.13therapeutics.com/products.html
+[FETCHED_AT] 2026-05-07T01:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/products.md
+[LINE_RANGE] 31-45
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/13therapeutics/products.md: zero commercial SKUs. The 'Products' page describes two preclinical pipeline candidates (P13 and P7 derivative families), neither of which has a per-SKU page with dose, price, or fulfillment data. The P13 and P7 sub-pages (p13.md, p7.md) contain only navigation and footer (no body content). No commercial product inventory exists, so sku_count=0 is the correct value.
+[FILES]
+products.md (pipeline description, no SKUs)
+p13.md (empty body — only navigation + footer)
+p7.md (empty body — only navigation + footer)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/homepage.md
+[LINE_RANGE] 11-15
+[QUOTE]
+  * [Peptide Therapeutics](peptide-therapeutics.html)
+    * [Products](products.html)
+    * [P13](p13.html)
+    * [P7](p7.html)
+  * [Inflammatory Diseases](inflammatory-diseases.html)
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] http://www.13therapeutics.com/products.html
+[FETCHED_AT] 2026-05-07T01:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/products.md
+[LINE_RANGE] 31-45
+[QUOTE]
+​​Our portfolio of patented novel anti-inflammatory peptides have application for the treatment of a variety of inflammatory diseases.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] http://www.13therapeutics.com/products.html
+[FETCHED_AT] 2026-05-07T01:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/products.md
+[LINE_RANGE] 2-2
+[QUOTE]
+url: http://www.13therapeutics.com/products.html
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] http://www.13therapeutics.com/products.html
+[FETCHED_AT] 2026-05-07T01:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/products.md
+[LINE_RANGE] 37-37
+[QUOTE]
+* Peptide P13, and P13 derivative peptides, are inhibitors of multiple TLRs (TLR2, TLR4, and TLR9) and inhibit MyD88-Dependent TLR signaling
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] http://www.13therapeutics.com/products.html
+[FETCHED_AT] 2026-05-07T01:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/products.md
+[LINE_RANGE] 37-37
+[QUOTE]
+* Peptide P13, and P13 derivative peptides, are inhibitors of multiple TLRs (TLR2, TLR4, and TLR9) and inhibit MyD88-Dependent TLR signaling
+[/QUOTE]
+[URL] http://www.13therapeutics.com/products.html
+[FETCHED_AT] 2026-05-07T01:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/products.md
+[LINE_RANGE] 45-45
+[QUOTE]
+* Peptide P7, and P7 derivative peptides, are inhibitors of TLR3 and TLR4 and block MyD88-Independent TLR signaling
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] http://www.13therapeutics.com/products.html
+[FETCHED_AT] 2026-05-07T01:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/products.md
+[LINE_RANGE] 8-24
+[QUOTE]
+[ENUMERATION] Verified by enumeration of all 16 fetched site pages: no COA, certificate-of-analysis, lab-certificate, batch-record, or quality-document references appear in any page body. The site navigation does not contain a COA / certificates / quality / batch link. The Products page describes pipeline assets (P13/P7 peptide families) without any analytical-package or COA-hosting language. coa_present=false reflects the absence of a COA system, consistent with a preclinical drug-development biotech (not a research-supply vendor).
+[FILES]
+homepage.md, company.md, science_1.md, peptide_therapeutics.md, products.md, p13.md, p7.md, inflammatory_diseases.md, systemic_inflammation2.md, hearing_loss.md, otitis_media.md, noise_induced_hearing_loss.md, people.md, management.md, board_of_directors.md, scientific_advisory_board.md, contact_1.md
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] http://www.13therapeutics.com/products.html
+[FETCHED_AT] 2026-05-07T01:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/products.md
+[LINE_RANGE] 8-24
+[QUOTE]
+[ENUMERATION] No COA hosting infrastructure observed across all 16 fetched site pages. Per Rule 1, coa_hosting='none' is reported as the truthful value (no third-party portal, no on-site COA index, no COA links in navigation or body). The 'none' enum from the schema choices (on_site | third_party_portal | none) is the closest fit to a preclinical biotech with no commercial COA program.
+[FILES]
+all 16 fetched pages (no COA references)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] http://www.13therapeutics.com/company.html
+[FETCHED_AT] 2026-05-07T01:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/company.md
+[LINE_RANGE] 31-31
+[QUOTE]
+13Therapeutics, Inc is a spin out from the Oregon Health and Science University (OHSU) and has exclusively licensed peptides on a world-wide basis.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] http://www.13therapeutics.com/products.html
+[FETCHED_AT] 2026-05-07T01:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/products.md
+[LINE_RANGE] 8-24
+[QUOTE]
+[ENUMERATION] No batch / lot / batch-number / lot-number references appear in any of the 16 fetched pages. There is no commercial product to associate batches with. batch_lot_transparency=false reflects absence of a batch-transparency system rather than its concealment.
+[FILES]
+all 16 fetched pages (no batch/lot references)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] http://www.13therapeutics.com/products.html
+[FETCHED_AT] 2026-05-07T01:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/products.md
+[LINE_RANGE] 8-24
+[QUOTE]
+[ENUMERATION] No customer-review module, testimonial widget, star-rating, or review form appears in any of the 16 fetched pages. The Products page is a static description of pipeline candidates with no review surface. customer_review_module_present=false is verified by absence across the full fetched site.
+[FILES]
+all 16 fetched pages (no review modules)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] http://www.13therapeutics.com/products.html
+[FETCHED_AT] 2026-05-07T01:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/products.md
+[LINE_RANGE] 8-24
+[QUOTE]
+[ENUMERATION] No 'related products' / 'you may also like' / 'recommended' modules appear on any fetched page. The Products page contains a brief two-bullet description of P13 and P7 pipeline families without any cross-link or recommendation surface. related_product_modules_present=false.
+[FILES]
+all 16 fetched pages (no related-product modules)
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/homepage.md
+[LINE_RANGE] 8-24
+[QUOTE]
+[ENUMERATION] No age-gate modal, '21+ required', adult-content barrier, or age-verification UI appears on the homepage or any of the 16 fetched site pages. age_gate_present=false. The site is a preclinical biotech corporate site, not a consumer-retail surface, and no age-gating is present.
+[FILES]
+homepage.md (no age-gate UI; navigation goes directly to content)
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/homepage.md
+[LINE_RANGE] 8-55
+[QUOTE]
+[ENUMERATION] No 'not for sale to' / 'restricted in' / state-by-state / jurisdiction notice appears on any of the 16 fetched pages. jurisdictional_restriction_notice='none' reflects absence (verified by enumeration of all fetched page bodies for keywords: 'restrict', 'jurisdiction', 'not for sale', 'state of', 'province of').
+[FILES]
+all 16 fetched pages
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] http://www.13therapeutics.com/contact-1.html
+[FETCHED_AT] 2026-05-07T01:20:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/contact_1.md
+[LINE_RANGE] 9-18
+[QUOTE]
+503-784-1400
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] http://www.13therapeutics.com/contact-1.html
+[FETCHED_AT] 2026-05-07T01:20:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/contact_1.md
+[LINE_RANGE] 8-22
+[QUOTE]
+[ENUMERATION] No checkout, no cart, no e-commerce surface exists on the site. The only data-collection form is the contact form (Name/Email/Subject/Message). guest_checkout_available=false because there is nothing to check out FROM. Verified by enumeration of all 16 fetched pages — no '/cart', '/checkout', '/shop', '/order', '/buy' URL patterns exist in navigation or body links.
+[FILES]
+all 16 fetched pages (no e-commerce surface)
+contact_1.md (only data-collection form on the site)
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] http://www.13therapeutics.com/contact-1.html
+[FETCHED_AT] 2026-05-07T01:20:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/contact_1.md
+[LINE_RANGE] 12-18
+[QUOTE]
+Name: *
+[/QUOTE]
+[URL] http://www.13therapeutics.com/contact-1.html
+[FETCHED_AT] 2026-05-07T01:20:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/contact_1.md
+[LINE_RANGE] 14-14
+[QUOTE]
+Email: *Check here to receive email updates
+[/QUOTE]
+[URL] http://www.13therapeutics.com/contact-1.html
+[FETCHED_AT] 2026-05-07T01:20:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/contact_1.md
+[LINE_RANGE] 16-16
+[QUOTE]
+Subject: *
+[/QUOTE]
+[URL] http://www.13therapeutics.com/contact-1.html
+[FETCHED_AT] 2026-05-07T01:20:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/contact_1.md
+[LINE_RANGE] 18-18
+[QUOTE]
+Message: *
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] http://www.13therapeutics.com/contact-1.html
+[FETCHED_AT] 2026-05-07T01:20:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/contact_1.md
+[LINE_RANGE] 12-18
+[QUOTE]
+[ENUMERATION] No ID-verification screen, government-ID upload field, KYC document picker, or identity-attestation checkbox appears on the contact form (the only form on the site) or anywhere else on the 16 fetched pages. id_verification_present=false is verified by absence — the contact form collects only Name, Email, Subject, Message.
+[FILES]
+contact_1.md (only form on the site, lines 12-18)
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/source_homepage.md
+[LINE_RANGE] 23-23
+[QUOTE]
+Starfield Technologies; Go Daddy Website Builder 7.0.5350
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/source_homepage.md
+[LINE_RANGE] 16-16
+[QUOTE]
+server: DPS/2.0.0-beta+sha-8e846f6
+[/QUOTE]
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/source_homepage.md
+[LINE_RANGE] 17-19
+[QUOTE]
+x-version: 8e846f6
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/source_homepage.md
+[LINE_RANGE] 559-559
+[QUOTE]
+<script src="//img1.wsimg.com/traffic-assets/js/tccl.min.js"></script>
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/source_homepage.md
+[LINE_RANGE] 23-559
+[QUOTE]
+[ENUMERATION] Source HTML scanned for marketing-pixel signatures: 'fbq', 'facebook.com/tr', 'tiktok', 'pinterest', 'twitter', 'gtag', 'google-analytics', 'googletagmanager', 'linkedin/insight', 'reddit/conversion'. Result: zero matches. The page loads only GoDaddy's own TCCL traffic-tracking script (tccl.min.js) and decorative font assets from wsimg.com / nebula.wsimg.com. No marketing or remarketing pixels are present.
+[FILES]
+source_homepage.md (verified by grep -E 'fbq|facebook.com/tr|tiktok|pinterest|twitter|gtag|google-analytics|googletagmanager|linkedin/insight' returned no matches)
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/source_homepage.md
+[LINE_RANGE] 23-559
+[QUOTE]
+[ENUMERATION] Source HTML scanned for chat-widget signatures: 'intercom', 'drift', 'crisp', 'tawk', 'zendesk', 'hubspot/messages', 'olark'. Result: zero matches. No chat widget is loaded on the homepage.
+[FILES]
+source_homepage.md (verified by grep -E 'intercom|drift|crisp|tawk|zendesk|hubspot|olark' returned no matches)
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/homepage.md
+[LINE_RANGE] 8-24
+[QUOTE]
+[ENUMERATION] The homepage navigation enumerated above (Home / Company / Science / Peptide Therapeutics / Inflammatory Diseases / People / Contact) contains no Blog, News, Insights, Press, Resources, or Publications link. Across all 16 fetched pages, no blog post, article, or news item was observed. blog_present=false.
+[FILES]
+homepage.md L8-24 (navigation enumeration)
+all 16 fetched pages (no blog content)
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/homepage.md
+[LINE_RANGE] 8-24
+[QUOTE]
+[ENUMERATION] No blog URL exists. blog_url='none' is the schema's choice when blog is absent.
+[FILES]
+homepage.md (no /blog or /news or /insights link in nav)
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/homepage.md
+[LINE_RANGE] 11-19
+[QUOTE]
+  * [Peptide Therapeutics](peptide-therapeutics.html)
+    * [Products](products.html)
+    * [P13](p13.html)
+    * [P7](p7.html)
+  * [Inflammatory Diseases](inflammatory-diseases.html)
+    * [Systemic Inflammation](systemic-inflammation2.html)
+    * [Hearing Loss](hearing-loss.html)
+    * [Otitis Media](otitis-media.html)
+    * [Noise-Induced Hearing Loss](noise-induced-hearing-loss.html)
+[/QUOTE]
+[URL] http://www.13therapeutics.com/science-1.html
+[FETCHED_AT] 2026-05-07T01:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/science_1.md
+[LINE_RANGE] 43-43
+[QUOTE]
+The company's peptides have mechanisms of action that are distinct from steroids and NSAIDs and have potential application
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/homepage.md
+[LINE_RANGE] 8-55
+[QUOTE]
+[ENUMERATION] No blog or article surface exists on the site (verified by enumeration above), so no author bylines are possible. author_bylines_present=false. The site does have leadership/SAB pages with named individuals (management.md, board_of_directors.md, scientific_advisory_board.md) but those are personnel pages, not editorial bylines.
+[FILES]
+all 16 fetched pages (no editorial content)
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] http://www.13therapeutics.com/products.html
+[FETCHED_AT] 2026-05-07T01:20:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/products.md
+[LINE_RANGE] 31-50
+[QUOTE]
+[ENUMERATION] No on-site review module, star-rating, customer-review section, or testimonial widget appears on any of the 16 fetched pages. on_site_reviews=false (consistent with a preclinical biotech that does not sell consumer products).
+[FILES]
+all 16 fetched pages
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/homepage.md
+[LINE_RANGE] 8-55
+[QUOTE]
+[ENUMERATION] No customer or partner testimonials appear on any of the 16 fetched pages. The closest analog is the leadership/Board/SAB biographical content, which is institutional positioning rather than testimonial. testimonial_usage='none observed on fetched pages'.
+[FILES]
+all 16 fetched pages
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[URL] http://www.13therapeutics.com/
+[FETCHED_AT] 2026-05-07T01:20:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/13therapeutics/homepage.md
+[LINE_RANGE] 8-55
+[QUOTE]
+[ENUMERATION] No influencer endorsement, KOL signoff, paid-creator quote, or media-personality reference appears on any of the 16 fetched pages. visible_influencer_endorsements='none observed on fetched pages'.
+[FILES]
+all 16 fetched pages
+[/QUOTE]

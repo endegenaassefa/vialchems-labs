@@ -1,0 +1,586 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://threesidepeptides.com
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/homepage.md
+[LINE_RANGE] 61-63
+[QUOTE]
+"# Precision Peptides for Serious Research
+
+Premium peptides backed by transparent testing and predictable consistency – every batch, every time."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://threesidepeptides.com
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/homepage.md
+[LINE_RANGE] 64-65
+[QUOTE]
+"[ Shop Now ](https://threesidepeptides.com/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://threesidepeptides.com
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/homepage.md
+[LINE_RANGE] 7-11
+[QUOTE]
+"  * [Home](https://threesidepeptides.com/)
+  * [Shop](https://threesidepeptides.com/shop/)
+  * [About](https://threesidepeptides.com/about/)
+  * [Contact](https://threesidepeptides.com/contact/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://threesidepeptides.com
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/homepage.md
+[LINE_RANGE] 236-240
+[QUOTE]
+"All products on this site are intended for research use only and are not for human or animal consumption. The statements on this website have not been evaluated by the U.S. Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease or medical condition.
+
+\"ThreeSide Peptides\" is a chemical supplier. It is not a compounding pharmacy or a compounding facility as defined under Section 503A of the Federal Food, Drug, and Cosmetic Act, and it is not an outsourcing facility as defined under Section 503B."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://threesidepeptides.com
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/homepage.md
+[LINE_RANGE] 248-253
+[QUOTE]
+"##  Age Verification
+
+##
+
+According to the FDA guidelines this website requires you to be atleast 21 years of age and a licensed research professional to proceed. Please confirm before entering. Are you over 21 years of age and part of the science/research industry?"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[CLAIM] product_page_anatomy.sample_product_name
+[CLAIM] product_page_anatomy.list_price
+[CLAIM] product_page_anatomy.per_mg_cost
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://threesidepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/product_1__bpc-157.md
+[LINE_RANGE] 65-113
+[QUOTE]
+"# BPC157
+
+$65.00
+
+SKU:  BPC10  Category [Uncategorized](https://threesidepeptides.com/product-category/uncategorized/)
+
+BPC-157 is a synthetic peptide supplied strictly for laboratory and scientific research use.
+
+View Test Report  Purchase & earn 325 points!
+
+**MG:** 10mg"
+[/QUOTE]
+[URL] https://threesidepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/product_1__bpc-157.md
+[LINE_RANGE] 100-108
+[QUOTE]
+"BPC-157 is a synthetic peptide frequently referenced in scientific literature focused on cellular signaling and molecular research pathways.
+
+ThreeSide Peptides supplies BPC-157 exclusively for laboratory research and development purposes. This material is not intended for human or animal use, and it is not a drug, supplement, diagnostic, or therapeutic product."
+[/QUOTE]
+[URL] https://threesidepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/product_1__bpc-157.md
+[LINE_RANGE] 113-115
+[QUOTE]
+"For Research Use Only."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[CLAIM] product_page_anatomy.coa_hosting
+[CLAIM] product_page_anatomy.lab_partner_named
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://threesidepeptides.com/coas/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/coa_1.md
+[LINE_RANGE] 32-35
+[QUOTE]
+"Every product at ThreeSide Peptides is tested by independent third-party laboratories in the United States to verify purity, identity, and quality. This page gives customers direct access to the Certificates of Analysis for each batch we release."
+[/QUOTE]
+[URL] https://threesidepeptides.com/coas/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/coa_1.md
+[LINE_RANGE] 113-120
+[QUOTE]
+"Sample | BPC-157 10 mg
+Purity | 99.69%
+Manufacturer | MyPurePeptide
+Lab | Krause Analytical
+Task # | 132081
+Batch | TSP-BPC157-031226
+Analysis Date | 1/20/2026"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://threesidepeptides.com/shop/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/catalog_1.md
+[LINE_RANGE] 65-66
+[QUOTE]
+"Showing 1–16 of 27 results"
+[/QUOTE]
+
+[CLAIM] skus (BPC-157 10mg - list_price_usd, dose)
+[URL] https://threesidepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/product_1__bpc-157.md
+[LINE_RANGE] 65-80
+[QUOTE]
+"# BPC157
+
+$65.00
+
+SKU:  BPC10  Category [Uncategorized](https://threesidepeptides.com/product-category/uncategorized/)
+
+BPC-157 is a synthetic peptide supplied strictly for laboratory and scientific research use.
+
+View Test Report  Purchase & earn 325 points!
+
+**MG:** 10mg"
+[/QUOTE]
+
+[CLAIM] skus (TB-500 10mg - list_price_usd, dose)
+[URL] https://threesidepeptides.com/product/tb-500-peptide/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/product_3__tb-500.md
+[LINE_RANGE] 65-79
+[QUOTE]
+"# TB500
+
+$75.00
+
+SKU:  TB10  Category [Uncategorized](https://threesidepeptides.com/product-category/uncategorized/)
+
+TB-500 is a synthetic peptide supplied strictly for laboratory and scientific research use.
+
+View Test Report  Purchase & earn 375 points!
+
+**MG:** 10mg"
+[/QUOTE]
+
+[CLAIM] skus (GHK-CU 50mg and 100mg - list_price_usd range, dose options)
+[URL] https://threesidepeptides.com/product/ghk-cu-copper-peptide/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/product_2__ghk-cu.md
+[LINE_RANGE] 65-80
+[QUOTE]
+"# GHK-CU
+
+$55.00 – $75.00Price range: $55.00 through $75.00
+
+SKU:  CU  Category [Uncategorized](https://threesidepeptides.com/product-category/uncategorized/)
+
+GHK-Cu is a copper-binding peptide supplied strictly for laboratory and scientific research use.
+
+View Test Report  Earn up to 375 points. MG |  Select Dosage100mg50mgClear"
+[/QUOTE]
+
+[CLAIM] skus (Retatrutide - peptide_canonical, dose options, price range)
+[URL] https://threesidepeptides.com/product/glp-3-r/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/product_4__glp-3-r.md
+[LINE_RANGE] 65-110
+[QUOTE]
+"# GLP-3 R
+
+$75.00 – $325.00Price range: $75.00 through $325.00
+
+SKU:  RT  Category [Uncategorized](https://threesidepeptides.com/product-category/uncategorized/)
+
+GLP-3 R is a synthetic research peptide supplied strictly for laboratory and scientific research use.
+
+View Test Report  Earn up to 1,625 points. MG |  Select Dosage5mg10mg20mg30mg40mgClear"
+[/QUOTE]
+[URL] https://threesidepeptides.com/product/glp-3-r/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/product_4__glp-3-r.md
+[LINE_RANGE] 108-112
+[QUOTE]
+"Peptide Name | Retatrutide
+Form | lyophilized powder
+MG | 5mg, 10mg, 20mg, 30mg, 40mg"
+[/QUOTE]
+
+[CLAIM] skus (Tirzepatide - peptide_canonical, dose options, price range)
+[URL] https://threesidepeptides.com/product/glp-1-t/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/product_5__glp-1-t.md
+[LINE_RANGE] 65-80
+[QUOTE]
+"# GLP-1 T
+
+$55.00 – $140.00Price range: $55.00 through $140.00
+
+SKU:  TZ  Category [Uncategorized](https://threesidepeptides.com/product-category/uncategorized/)
+
+GLP-1 T is a synthetic peptide supplied strictly for laboratory and scientific research use.
+
+View Test Report  Earn up to 700 points. MG |  Select Dosage5mg10mg20mg30mgClear"
+[/QUOTE]
+[URL] https://threesidepeptides.com/product/glp-1-t/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/product_5__glp-1-t.md
+[LINE_RANGE] 108-112
+[QUOTE]
+"Peptide Name | Tirzepatide
+Form | lyophilized powder
+MG | 5mg, 10mg, 20mg, 30mg"
+[/QUOTE]
+
+[CLAIM] skus (Semaglutide - peptide_canonical, dose options, price range)
+[URL] https://threesidepeptides.com/product/glp-1-s/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/product_6__glp-1-s.md
+[LINE_RANGE] 65-80
+[QUOTE]
+"# GLP-1 S
+
+$55.00 – $70.00Price range: $55.00 through $70.00
+
+SKU:  SM  Category [Uncategorized](https://threesidepeptides.com/product-category/uncategorized/)
+
+GLP-1 S is a synthetic peptide supplied strictly for laboratory and scientific research use.
+
+View Test Report  Earn up to 350 points. MG |  Select Dosage5mg10mgClear"
+[/QUOTE]
+[URL] https://threesidepeptides.com/product/glp-1-s/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/product_6__glp-1-s.md
+[LINE_RANGE] 108-113
+[QUOTE]
+"Peptide Name | Semaglutide
+Form | lyophilized powder
+MG | 5mg, 10mg"
+[/QUOTE]
+
+[CLAIM] skus (catalog-visible prices: MOTS-C, AOD-9604, Epithalon, KPV)
+[URL] https://threesidepeptides.com/shop/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/catalog_1.md
+[LINE_RANGE] 80-130
+[QUOTE]
+"  * ## [MOTS-C $70.00 ](https://threesidepeptides.com/product/mots-c-peptide/)
+
+[Add to cart](/shop/?add-to-cart=323)
+
+  * ## [BPC157 $65.00 ](https://threesidepeptides.com/product/bpc-157/)
+
+[Add to cart](/shop/?add-to-cart=301)
+
+  * ## [AOD-9604 $45.00 ](https://threesidepeptides.com/product/aod-9604/)
+
+  * ## [EPITHALON $55.00 ](https://threesidepeptides.com/product/epithalon/)"
+[/QUOTE]
+[URL] https://threesidepeptides.com/shop/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/catalog_1.md
+[LINE_RANGE] 130-145
+[QUOTE]
+"  * ## [GHK-Cu / BPC157 / TB500 – GLOW $100.00 ](https://threesidepeptides.com/product/glow-70-peptide/)"
+[/QUOTE]
+
+[CLAIM] skus (catalog page 2: Selank, Semax, PT-141, Ipamorelin)
+[URL] https://threesidepeptides.com/shop/page/2/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/catalog_2.md
+[LINE_RANGE] 62-100
+[QUOTE]
+"  * ## [IPAMORELIN $75.00 ](https://threesidepeptides.com/product/ipamorelin-peptide/)
+
+  * ## [KPV $70.00 ](https://threesidepeptides.com/product/kpv/)
+
+  * ## [MT-2 (Melanotan II) $55.00 ](https://threesidepeptides.com/product/mt2-10mg/)
+
+  * ## [PT-141 $60.00 ](https://threesidepeptides.com/product/pt-141-peptide/)
+
+  * ## [SELANK $80.00 ](https://threesidepeptides.com/product/selank-peptide/)
+
+  * ## [SEMAX $80.00 ](https://threesidepeptides.com/product/semax-peptide/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://threesidepeptides.com
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/homepage.md
+[LINE_RANGE] 3-3
+[QUOTE]
+"Research Purposes Only. NOT FOR HUMAN CONSUMPTION"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://threesidepeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/tos.md
+[LINE_RANGE] 67-67
+[QUOTE]
+"These Terms of Service (“Terms”) govern your access to and use of the website and services provided by **ThreeSide Peptides LLC** (“ThreeSide Peptides,” “we,” “us,” or “our”). By accessing the Website or purchasing any products, you agree to be bound by these Terms."
+[/QUOTE]
+[URL] https://threesidepeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/tos.md
+[LINE_RANGE] 40-55
+[QUOTE]
+"**All** products sold by **ThreeSide Peptides** are intended **strictly for laboratory research and development purposes only.**
+
+Products sold by ThreeSide Peptides:
+
+  * Are **not for human or veterinary use**
+  * Are**not intended to diagnose, treat, cure, or prevent any disease**
+  * Have**not been evaluated or approved by the FDA** or any regulatory authority"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://threesidepeptides.com/refunds-returns/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/refund.md
+[LINE_RANGE] 71-82
+[QUOTE]
+"## All Sales Are Final
+
+Due to the nature of our products, **all sales are final** once an order has been processed and shipped.
+
+We **do not accept returns** of any products for reasons including, but not limited to:
+
+  * Change of mind
+  * Incorrect ordering
+  * Incompatibility with intended research
+  * Improper storage or handling after delivery"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[CLAIM] checkout_flow.international_policy
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://threesidepeptides.com/payment-shipping/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/shipping.md
+[LINE_RANGE] 42-50
+[QUOTE]
+"Orders are typically processed within**1–2 business days** after payment is successfully received."
+[/QUOTE]
+[URL] https://threesidepeptides.com/payment-shipping/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/shipping.md
+[LINE_RANGE] 95-101
+[QUOTE]
+"ThreeSide Peptides currently ships to:
+
+  * **Addresses within the United States**
+  * We do not ship internationally at this time.
+  * We do not ship to P.O. boxes or freight forwarders."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://threesidepeptides.com/payment-shipping/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/shipping.md
+[LINE_RANGE] 120-123
+[QUOTE]
+"  * Products are shipped **for research use only**
+  * Customers are responsible for ensuring lawful receipt and use of products in their jurisdiction"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://threesidepeptides.com
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/source_homepage.md
+[LINE_RANGE] 60-70
+[QUOTE]
+"<link rel='stylesheet' id='woocommerce-layout-css' href='https://threesidepeptides.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=10.6.2' media='all' />"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://threesidepeptides.com
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/source_homepage.md
+[LINE_RANGE] 1344-1386
+[QUOTE]
+"})(window,document,'script','dataLayer','GTM-W6KCDFHJ');</script>"
+[/QUOTE]
+[URL] https://threesidepeptides.com
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/source_homepage.md
+[LINE_RANGE] 1382-1382
+[QUOTE]
+"		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18052541669"></script>"
+[/QUOTE]
+[URL] https://threesidepeptides.com
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/source_homepage.md
+[LINE_RANGE] 48-49
+[QUOTE]
+"<link rel='stylesheet' id='omnisend-woocommerce-checkout-block-checkout-newsletter-subscription-block-css' href='https://threesidepeptides.com/wp-content/plugins/omnisend-connect/includes/blocks/build/omnisend-checkout-block.css?ver=0.1.1' media='all' />"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://threesidepeptides.com
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/homepage.md
+[LINE_RANGE] 193-198
+[QUOTE]
+"  * [Shop](https://threesidepeptides.com/shop/)
+  * [About](https://threesidepeptides.com/about/)
+  * [COAs](https://threesidepeptides.com/coas/)
+  * [Contact](https://threesidepeptides.com/contact/)
+  * [My account](https://threesidepeptides.com/my-account/)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[CLAIM] social_proof.testimonial_usage
+[URL] https://threesidepeptides.com
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/homepage.md
+[LINE_RANGE] 180-220
+[QUOTE]
+"## Real Reviews From Real People
+
+Jack Vance
+
+ _★_ _★_ _★_ _★_ _★_
+
+The customer service was impeccable and deliver was the smoothest and quickest I have ever had during any online purchase. Their team was knowledgeable and assisted in ensure products met specifications at the highest quality!
+
+Andy Tsourakis
+
+ _★_ _★_ _★_ _★_ _★_
+
+Three Side Peptides really works. I'm officially back in the gym and playing hockey again after a layoff. If you're an athlete looking to get back in the game, look no further."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[CLAIM] fulfillment_country
+[URL] https://threesidepeptides.com/refunds-returns/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/refund.md
+[LINE_RANGE] 161-165
+[QUOTE]
+"**ThreeSide Peptides**
+**10600 Endeavour Way, Suite 3**
+**Largo, FL 33777**
+**Email:** [support@threesidepeptides.com](mailto:support@threesidepeptides.com)"
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://threesidepeptides.com
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/source_homepage.md
+[LINE_RANGE] 27-27
+[QUOTE]
+"<meta property="article:published_time" content="2025-12-24T08:30:39-04:00" />"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://threesidepeptides.com
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/homepage.md
+[LINE_RANGE] 66-75
+[QUOTE]
+"## Highest Quality Peptides without Compromise
+
+Transparency First
+
+Transparency First
+
+Every batch includes full COAs and purity No documentation. hidden sources. No ambiguity.
+
+Premium Formulations
+
+Premium Formulations
+
+High-purity liquid peptides prepared with strict handling and consistency - ideal for controlled research environments."
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://threesidepeptides.com/shop/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/catalog_1.md
+[LINE_RANGE] 104-115
+[QUOTE]
+"  * ## [BPC157 / TB500 – WOLVERINE $60.00 – $110.00Price range: $60.00 through $110.00 ](https://threesidepeptides.com/product/wolverine-bpc157-tb500-peptide/)
+
+  * ## [GHK-Cu / BPC157 / TB500 – GLOW $100.00 ](https://threesidepeptides.com/product/glow-70-peptide/)"
+[/QUOTE]
+[URL] https://threesidepeptides.com/shop/page/2/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/catalog_2.md
+[LINE_RANGE] 66-68
+[QUOTE]
+"  * ## [GHK-Cu / BPC157 / TB500 / KPV – KLOW $130.00 ](https://threesidepeptides.com/product/klow80-peptide/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://threesidepeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/product_1__bpc-157.md
+[LINE_RANGE] 130-150
+[QUOTE]
+"## Related products
+
+  * ## [GLUTATHIONE $47.00 ](https://threesidepeptides.com/product/glutathione/)Purchase & earn 235 points!
+
+  * ## [KPV $70.00 ](https://threesidepeptides.com/product/kpv/)Purchase & earn 350 points!"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://threesidepeptides.com/payment-shipping/
+[FETCHED_AT] 2026-05-08T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/threeside-peptides/shipping.md
+[LINE_RANGE] 95-99
+[QUOTE]
+"ThreeSide Peptides currently ships to:
+
+  * **Addresses within the United States**
+  * We do not ship internationally at this time."
+[/QUOTE]

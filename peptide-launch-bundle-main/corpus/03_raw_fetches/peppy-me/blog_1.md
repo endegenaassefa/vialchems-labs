@@ -1,0 +1,263 @@
+---
+url: https://peppyandme.com/blogs/
+fetched_at: 2026-05-08T05:57:28Z
+fetch_method: curl
+http_status: 200
+sha256: 79dac1ecb499f556e6c3cbd5ae327748e9a1074da1af8949da64bd526831325f
+---
+document.addEventListener('DOMContentLiteSpeedLoaded',function(){var schema=document.createElement('script');schema.type='application/ld+json';schema.text=JSON.stringify({"@context":"https://schema.org","@type":"Organization","name":"Peppy&Me","url":"https://peppyandme.com","logo":"https://peppyandme.com/wp-content/uploads/2026/02/peppy-logo.png","email":"support@peppyandme.com","description":"Premium research peptides with third-party COA documentation. USA same-day dispatch. For laboratory research use only.","sameAs":[]});document.head.appendChild(schema)})/* Labels Styling */ .wpcf7-form label { font-family: 'Inter', sans-serif; font-size: 18px; display: block; margin-bottom: 5px; } /* Message Box Height */ .wpcf7-form textarea { height: 100px; } /* Mobile Responsive */ @media (max-width: 767px) { .wpcf7-form label { font-size: 15px; } } /* ========================= PEPPY&ME PRIVATE LABEL FORM Fluent Form ID: 3 ========================= */ #fluentform_3 { \--pm-bg: #fcfaf6; \--pm-card: #ffffff; \--pm-text: #151515; \--pm-muted: #6f6a61; \--pm-line: rgba(0,0,0,.10); \--pm-gold: #c89b2f; \--pm-gold-deep: #a87d1f; \--pm-shadow: 0 16px 40px rgba(0,0,0,.06); } /* overall form spacing */ #fluentform_3 .ff-el-group { margin-bottom: 20px; } /* labels */ #fluentform_3 .ff-el-input--label label, #fluentform_3 .ff-el-group label, #fluentform_3 .ff-el-section-title, #fluentform_3 .ff-el-form-check-label { color: var(--pm-text); font-size: 14px; font-weight: 700; letter-spacing: .02em; line-height: 1.5; } /* descriptions under fields */ #fluentform_3 .ff-el-help-message, #fluentform_3 .ff-help-block, #fluentform_3 .text-muted { color: var(--pm-muted) !important; font-size: 12.5px; line-height: 1.7; } /* text fields / select / textarea */ #fluentform_3 input[type="text"], #fluentform_3 input[type="email"], #fluentform_3 input[type="tel"], #fluentform_3 input[type="url"], #fluentform_3 input[type="number"], #fluentform_3 input[type="password"], #fluentform_3 input[type="file"], #fluentform_3 select, #fluentform_3 textarea { width: 100%; min-height: 56px; border-radius: 18px !important; border: 1px solid var(--pm-line) !important; background: #fff !important; box-shadow: none !important; padding: 15px 18px !important; color: var(--pm-text) !important; font-size: 15px !important; transition: all .2s ease; } /* textarea */ #fluentform_3 textarea { min-height: 150px !important; resize: vertical; } /* placeholders */ #fluentform_3 input::placeholder, #fluentform_3 textarea::placeholder { color: #9a9388 !important; opacity: 1; } /* focus */ #fluentform_3 input:focus, #fluentform_3 textarea:focus, #fluentform_3 select:focus { border-color: var(--pm-gold) !important; box-shadow: 0 0 0 4px rgba(200,155,47,.12) !important; background: #fff !important; outline: none !important; } /* upload button if present */ #fluentform_3 .ff_upload_btn.ff-btn, #fluentform_3 .ff-btn.ff-btn-secondary { min-height: 46px; border-radius: 999px !important; border: none !important; background: #111 !important; color: #fff !important; padding: 0 18px !important; font-weight: 700 !important; box-shadow: none !important; } /* checkbox / radio container */ #fluentform_3 .ff-el-form-check { padding: 14px 16px; border: 1px solid rgba(0,0,0,.07); border-radius: 16px; background: #fdfbf7; margin-bottom: 10px; } /* checkbox / radio input accent */ #fluentform_3 input[type="checkbox"], #fluentform_3 input[type="radio"] { accent-color: var(--pm-gold); } /* section headings if you use section breaks */ #fluentform_3 .ff-section_break { margin: 30px 0 18px; padding: 0; background: transparent; border: none; } #fluentform_3 .ff-section_break .ff-el-section-title { font-size: 12px !important; text-transform: uppercase; letter-spacing: .18em; color: var(--pm-gold-deep) !important; display: inline-flex; align-items: center; padding: 10px 14px; border-radius: 999px; background: rgba(200,155,47,.08); border: 1px solid rgba(200,155,47,.22); margin-bottom: 10px; } #fluentform_3 .ff-section_break .ff-section_break_desk, #fluentform_3 .ff-section_break .ff-el-section-content { color: var(--pm-muted) !important; font-size: 14px; line-height: 1.75; margin-top: 8px; } /* submit button */ #fluentform_3 .ff-btn-submit, #fluentform_3 button[type="submit"] { min-height: 56px; border-radius: 999px !important; border: none !important; padding: 0 28px !important; font-size: 15px !important; font-weight: 800 !important; letter-spacing: .02em; color: #111 !important; background: linear-gradient(135deg, #c89b2f 0%, #ddb24c 100%) !important; box-shadow: 0 14px 30px rgba(200,155,47,.24); transition: all .2s ease; } #fluentform_3 .ff-btn-submit:hover, #fluentform_3 button[type="submit"]:hover { transform: translateY(-1px); box-shadow: 0 16px 34px rgba(200,155,47,.30); } /* error text */ #fluentform_3 .text-danger, #fluentform_3 .error, #fluentform_3 .ff-el-is-error .text-danger { font-size: 12.5px !important; margin-top: 8px; } /* success message */ #fluentform_3 .ff-message-success { border-radius: 18px; border: 1px solid rgba(200,155,47,.25); background: #fffaf0; color: #4e4326; padding: 16px 18px; } /* mobile spacing */ @media (max-width: 768px) { #fluentform_3 input[type="text"], #fluentform_3 input[type="email"], #fluentform_3 input[type="tel"], #fluentform_3 input[type="url"], #fluentform_3 input[type="number"], #fluentform_3 select, #fluentform_3 textarea { min-height: 52px; font-size: 14px !important; } #fluentform_3 .ff-btn-submit, #fluentform_3 button[type="submit"] { width: 100%; } } html, body { overflow-x: hidden !important; overflow-y: auto !important; height: auto !important; min-height: 100% !important; max-height: none !important; position: static !important; scroll-snap-type: none !important; overscroll-behavior: auto !important; } body.elementor-default, body.elementor-page, #page, .site, .site-content, .elementor, .elementor-section-wrap, .elementor-location-footer, .dialog-lightbox-widget { overflow: visible !important; height: auto !important; min-height: 0 !important; max-height: none !important; position: static !important; scroll-snap-type: none !important; } /* kill any section locking scroll */ .elementor-section, .elementor-container, .elementor-column, .elementor-widget-wrap, .pm-footer-wrap { overflow: visible !important; max-height: none !important; } /* stop overlays from trapping scroll */ body::before, body::after, .dialog-widget, .dialog-lightbox-widget, .elementor-lightbox { pointer-events: none !important; } .woocommerce nav.woocommerce-pagination { display: none !important; } /* Wrapper center */ .lmp_load_more_button { text-align: center !important; margin: 50px auto !important; } /* Actual button */ .lmp_load_more_button a { display: inline-block !important; background: linear-gradient(135deg, #d4af37, #b8962e) !important; color: #000 !important; padding: 14px 32px !important; border-radius: 999px !important; font-weight: 700 !important; letter-spacing: 0.5px !important; text-decoration: none !important; border: none !important; box-shadow: 0 10px 25px rgba(0,0,0,0.25) !important; transition: all 0.3s ease !important; } /* Hover effect */ .lmp_load_more_button a:hover { background: linear-gradient(135deg, #e5c75a, #caa93a) !important; transform: translateY(-3px) !important; box-shadow: 0 14px 30px rgba(0,0,0,0.3) !important; } @media (max-width: 767px) { .pm-products-wrap { position: absolute !important; left: 50% !important; top: 50% !important; width: 120vw !important; /* makes image bigger */ max-width: none !important; transform: translate(-50%, -50%) scale(1.2) !important; } .pm-products-img { width: 100% !important; height: auto !important; object-fit: contain !important; } } @media (max-width: 767px) .woocommerce-privacy-policy-text, .cart_tracking_notice, .woocommerce small { display: none !important; } /* ========================================= PEPPY&ME SINGLE PRODUCT PAGE CLEANUP ========================================= */ /* Make product area feel more luxe and clean */ .single-product div.product { background: #f6f3ee; border-radius: 22px; padding: 28px !important; box-shadow: 0 10px 30px rgba(0,0,0,0.05); } /* Product image area */ .single-product div.product .woocommerce-product-gallery { background: linear-gradient(180deg, #ffffff 0%, #f8f8f8 100%); border-radius: 18px; padding: 20px; } /* Product summary area */ .single-product div.product .summary { padding-left: 20px; } /* Product title */ .single-product .product_title { font-size: 38px; line-height: 1.1; font-weight: 700; color: #111111; margin-bottom: 10px; letter-spacing: -0.02em; } /* Price styling */ .single-product .price { font-size: 26px; font-weight: 700; color: #c89b2c !important; margin-bottom: 16px; } /* Short description */ .single-product .woocommerce-product-details__short-description, .single-product .summary p { color: #333; font-size: 16px; line-height: 1.75; } /* Variation dropdowns */ .single-product .variations select { min-height: 50px; border-radius: 12px; border: 1px solid #d8d8d8; background: #fff; padding: 0 14px; font-size: 15px; } /* Labels */ .single-product .variations label { font-weight: 600; color: #111; font-size: 15px; } /* Quantity box */ .single-product .quantity .qty { min-height: 46px; border-radius: 10px; border: 1px solid #d6d6d6; } /* Add to cart button */ .single-product .single_add_to_cart_button, .single-product button.single_add_to_cart_button { background: linear-gradient(135deg, #d4a62a 0%, #f0c14b 100%) !important; color: #111 !important; border: none !important; border-radius: 14px !important; min-height: 48px; padding: 0 26px !important; font-weight: 700; font-size: 16px; box-shadow: 0 10px 20px rgba(212,166,42,0.18); } .single-product .single_add_to_cart_button:hover, .single-product button.single_add_to_cart_button:hover { transform: translateY(-1px); filter: brightness(1.02); } /* SKU/category area */ .single-product .product_meta { margin-top: 22px; padding-top: 18px; border-top: 1px solid rgba(0,0,0,0.08); font-size: 14px; color: #666; } /* Tabs section */ .single-product .woocommerce-tabs { margin-top: 34px; } .single-product .woocommerce-tabs .tabs li a { font-weight: 600; } /* Mobile spacing */ @media (max-width: 767px) { .single-product div.product { padding: 16px !important; border-radius: 16px; } .single-product .product_title { font-size: 28px; } .single-product div.product .summary { padding-left: 0; margin-top: 18px; } .single-product .price { font-size: 22px; } } /* ======================================== PEPPY&ME CLEAN CHECKOUT CSS REPLACES ALL OLD CHECKOUT / STRIPE CSS ======================================== */ /* ===== PAGE CLEANUP ===== */ body.woocommerce-checkout .site-content, body.woocommerce-checkout .content-area, body.woocommerce-checkout .site-main, body.woocommerce-checkout .woocommerce, body.woocommerce-checkout #primary { margin-top: 0 !important; padding-top: 0 !important; margin-bottom: 0 !important; padding-bottom: 0 !important; } body.woocommerce-checkout .entry-title, body.woocommerce-checkout h1.entry-title, body.woocommerce-checkout .page-title, body.woocommerce-checkout .woocommerce-products-header { display: none !important; margin: 0 !important; padding: 0 !important; } body.woocommerce-checkout .container, body.woocommerce-checkout .wrap, body.woocommerce-checkout .inner, body.woocommerce-checkout .ast-container { max-width: 100% !important; margin: 0 auto !important; } /* ===== GLOBAL CHECKOUT LOOK ===== */ .woocommerce-checkout { background: #fdfdfd !important; color: #111 !important; } .woocommerce-checkout .woocommerce form.checkout, .woocommerce-checkout #customer_details, .woocommerce-checkout #order_review_heading, .woocommerce-checkout #order_review { color: #111 !important; } /* ===== NOTICES ===== */ .woocommerce-checkout .woocommerce-info, .woocommerce-checkout .woocommerce-message, .woocommerce-checkout .woocommerce-error { background: #f8f6f1 !important; border-top: 3px solid #d4af37 !important; color: #222 !important; border-radius: 12px !important; padding: 16px 18px !important; box-shadow: 0 4px 18px rgba(0,0,0,0.06) !important; } .woocommerce-checkout .woocommerce-info a, .woocommerce-checkout .woocommerce-form-login-toggle a, .woocommerce-checkout .woocommerce-form-coupon-toggle a { color: #c89b1d !important; font-weight: 600 !important; } /* ===== FORM LABELS ===== */ .woocommerce-checkout .form-row label { font-weight: 600 !important; color: #1b2230 !important; margin-bottom: 8px !important; } /* ===== FORM FIELDS ===== */ .woocommerce-checkout input.input-text, .woocommerce-checkout textarea, .woocommerce-checkout select { background: #f4f7fc !important; border: 1px solid #d8dee8 !important; border-radius: 12px !important; min-height: 52px !important; padding: 12px 16px !important; box-shadow: none !important; transition: all 0.2s ease !important; color: #111 !important; } .woocommerce-checkout textarea { min-height: 110px !important; padding-top: 14px !important; } .woocommerce-checkout input.input-text:focus, .woocommerce-checkout textarea:focus, .woocommerce-checkout select:focus { border-color: #d4af37 !important; box-shadow: 0 0 0 1px rgba(212,175,55,0.15) !important; outline: none !important; } /* ===== SELECT2 ===== */ .woocommerce-checkout .select2-container .select2-selection--single { background: #f4f7fc !important; border: 1px solid #d8dee8 !important; border-radius: 12px !important; min-height: 52px !important; padding: 10px 12px !important; } .woocommerce-checkout .select2-container .select2-selection--single .select2-selection__rendered { line-height: 30px !important; color: #111 !important; } /* ===== ORDER REVIEW ===== */ .woocommerce-checkout #order_review_heading { font-size: 28px !important; font-weight: 700 !important; margin-bottom: 18px !important; color: #111827 !important; } .woocommerce-checkout #order_review { background: #fffdf8 !important; border: 1px solid #eee2c3 !important; border-radius: 18px !important; padding: 24px !important; box-shadow: 0 10px 30px rgba(0,0,0,0.05) !important; } .woocommerce-checkout table.shop_table { border: none !important; background: transparent !important; } .woocommerce-checkout table.shop_table th, .woocommerce-checkout table.shop_table td { border-top: 1px solid #ececec !important; padding: 16px 0 !important; color: #111 !important; } /* ===== PAYMENT WRAPPER ===== */ .woocommerce-checkout #payment { background: #fffaf2 !important; border: 1px solid rgba(212,175,55,0.22) !important; border-radius: 18px !important; padding: 18px !important; margin-top: 18px !important; box-shadow: none !important; } .woocommerce-checkout #payment ul.payment_methods { background: transparent !important; border: 0 !important; margin: 0 0 12px 0 !important; padding: 0 !important; } .woocommerce-checkout #payment ul.payment_methods li { list-style: none !important; margin: 0 !important; padding: 0 !important; } /* ===== STRIPE BOX FIX ===== */ .woocommerce-checkout #payment div.payment_box, .woocommerce-checkout .payment_method_stripe div.payment_box, .woocommerce-checkout .payment_box.payment_method_stripe { background: #fff !important; color: #111 !important; border: 1px solid #e8e1cf !important; border-radius: 16px !important; padding: 12px !important; margin-top: 10px !important; box-shadow: none !important; } /* remove old ugly wrappers */ .woocommerce-checkout .wc-stripe-upe-element, .woocommerce-checkout .wc-stripe-upe, .woocommerce-checkout .payment_method_stripe { background: transparent !important; border: 0 !important; box-shadow: none !important; } /* remove extra blank space around stripe container */ .woocommerce-checkout .wc-stripe-upe-element > div { min-height: auto !important; height: auto !important; background: transparent !important; } /* keep payment labels readable */ .woocommerce-checkout #payment label, .woocommerce-checkout .payment_method_stripe label { color: #111 !important; } /* ===== PLACE ORDER BUTTON ===== */ .woocommerce-checkout #place_order { width: 100% !important; background: linear-gradient(135deg, #d4af37, #f0c94d) !important; color: #111 !important; border: none !important; border-radius: 14px !important; min-height: 54px !important; font-size: 16px !important; font-weight: 700 !important; box-shadow: 0 8px 20px rgba(212,175,55,0.18) !important; transition: all 0.2s ease !important; } .woocommerce-checkout #place_order:hover { transform: translateY(-1px) !important; box-shadow: 0 10px 24px rgba(212,175,55,0.24) !important; } /* ===== REMOVE SCROLL TO TOP ===== */ #ast-scroll-top, .ast-scroll-top-icon, .scroll-to-top, .scrollup, #scrollUp, .elementor-scroll-to-top { display: none !important; } /* ===== MOBILE ===== */ @media (max-width: 768px) { .woocommerce-checkout #order_review_heading { font-size: 24px !important; margin-bottom: 14px !important; } .woocommerce-checkout #order_review { padding: 18px !important; border-radius: 16px !important; } .woocommerce-checkout #payment { padding: 14px !important; border-radius: 16px !important; } .woocommerce-checkout #payment div.payment_box, .woocommerce-checkout .payment_method_stripe div.payment_box, .woocommerce-checkout .payment_box.payment_method_stripe { padding: 10px !important; border-radius: 14px !important; } .woocommerce-checkout input.input-text, .woocommerce-checkout textarea, .woocommerce-checkout select { font-size: 16px !important; } } /* FIX OVERLAPPING ICON ON RETURNING CUSTOMER / COUPON NOTICE */ body.woocommerce-checkout .woocommerce-info { position: relative !important; padding: 18px 20px 18px 52px !important; line-height: 1.5 !important; font-size: 15px !important; } body.woocommerce-checkout .woocommerce-info::before { position: absolute !important; left: 18px !important; top: 20px !important; transform: none !important; margin: 0 !important; line-height: 1 !important; font-size: 16px !important; } body.woocommerce-checkout .woocommerce-info a, body.woocommerce-checkout .woocommerce-info span, body.woocommerce-checkout .woocommerce-info strong { position: relative !important; z-index: 2 !important; } @media (max-width: 767px) { body.woocommerce-checkout .woocommerce-info { padding: 16px 16px 16px 48px !important; font-size: 14px !important; } body.woocommerce-checkout .woocommerce-info::before { left: 16px !important; top: 18px !important; font-size: 15px !important; } } /* ========================================================= PEPPY&ME GLOBAL PAGE GAP FIX Paste in Appearance > Customize > Additional CSS ========================================================= */ /* ------------------------- 1) GLOBAL WRAPPERS \------------------------- */ html, body{ margin:0 !important; padding:0 !important; overflow-x:hidden !important; } .site, .site-content, #content, .content-area, .site-main, #primary, .ast-container, .ast-plain-container, .ast-separate-container, .ast-page-builder-template, .ast-page-builder-template .site-content, .ast-page-builder-template .entry-content, .page-content{ margin-top:0 !important; padding-top:0 !important; margin-bottom:0 !important; padding-bottom:0 !important; } /* ------------------------- 2) PAGE / POST / ARCHIVE WRAPPERS \------------------------- */ .page .site-main > article, .single .site-main > article, .archive .site-main > article, .blog .site-main > article, .search .site-main > article, .error404 .site-main > article{ margin-top:0 !important; padding-top:0 !important; margin-bottom:0 !important; padding-bottom:0 !important; } /* ------------------------- 3) DEFAULT TITLES / HEADERS remove ghost title spacing only \------------------------- */ .page-header, .entry-header, .ast-page-header, .ast-archive-description{ margin:0 !important; padding:0 !important; border:0 !important; } .page .entry-header, .single .entry-header, .blog .entry-header, .archive .entry-header{ display:none !important; } h1.entry-title, .page-title{ margin:0 !important; padding:0 !important; } /* ------------------------- 4) ELEMENTOR PAGES \------------------------- */ .elementor-page .site-main, .elementor-page .entry-content, .elementor-page .elementor, .elementor-location-single .elementor, .elementor-location-archive .elementor{ margin-top:0 !important; padding-top:0 !important; margin-bottom:0 !important; padding-bottom:0 !important; } .elementor-section, .elementor-top-section, .elementor-container, .elementor-column, .elementor-widget-wrap, .elementor-widget, .elementor-widget-container{ margin-top:0; } .elementor-top-section:first-child{ margin-top:0 !important; padding-top:0 !important; } .elementor-top-section:last-child{ margin-bottom:0 !important; padding-bottom:0 !important; } /* ------------------------- 5) WOOCOMMERCE PAGES \------------------------- */ .woocommerce-page .site-content, .woocommerce-page .site-main, .woocommerce-page #primary, .woocommerce-page .content-area, .woocommerce-page .ast-container, .woocommerce .site-content, .woocommerce .site-main{ margin-top:0 !important; padding-top:0 !important; margin-bottom:0 !important; padding-bottom:0 !important; } /* Keep shop/category content visible, only remove empty top spacing */ .woocommerce-products-header, .woocommerce-breadcrumb, .term-description, .archive-description{ margin-top:0 !important; padding-top:0 !important; margin-bottom:0 !important; padding-bottom:0 !important; border:0 !important; background:transparent !important; } .woocommerce-products-header__title.page-title{ margin:0 !important; padding:0 !important; } /* Single product */ .single-product .site-main, .single-product div.product, .single-product .product, .single-product .summary, .single-product .woocommerce-tabs, .single-product .related{ margin-top:0 !important; padding-top:0 !important; } /* Cart / checkout / account */ .woocommerce-cart .entry-content, .woocommerce-checkout .entry-content, .woocommerce-account .entry-content, .woocommerce-cart .wc-block-components-main, .woocommerce-checkout .wc-block-components-main{ margin-top:0 !important; padding-top:0 !important; } /* ------------------------- 6) FOOTER GAP REMOVAL \------------------------- */ .site-footer, .ast-footer-wrap, footer, .footer-adv-overlay, .footer-widget-area{ margin-top:0 !important; padding-top:0 !important; } .site-main > *:last-child, .entry-content > *:last-child, .elementor-widget-container > *:last-child{ margin-bottom:0 !important; } /* ------------------------- 7) TOP OFFSET FOR FIXED RUNNER + HEADER This is the only global push-down \------------------------- */ body{ padding-top:92px !important; padding-bottom:0 !important; } /* if you are logged in and admin bar shows */ body.admin-bar{ padding-top:124px !important; } /* Mobile */ @media (max-width: 767px){ body{ padding-top:92px !important; padding-bottom:0 !important; } body.admin-bar{ padding-top:124px !important; } } /* ------------------------- 8) EXTRA SAFETY Pull first content block upward if theme inserts wrapper gap \------------------------- */ .site-main > .post:first-child, .site-main > .page:first-child, .site-main > article:first-child, .content-area > article:first-child, .woocommerce-page .site-main > *:first-child, .page .entry-content > *:first-child, .single .entry-content > *:first-child{ margin-top:0 !important; padding-top:0 !important; } .pm-product-disclaimer{ margin:14px 0 0; font-size:13px; line-height:1.6; color:#5a5a5a; } .pm-product-disclaimer strong{ color:#171717; font-weight:700; } .pm-product-disclaimer a{ color:#aa8422; font-weight:600; text-decoration:none; } .pm-product-disclaimer a:hover{ text-decoration:underline; } .research-notice { background: #1a1a1a; color: #f5f5f5; text-align: center; font-size: 0.78rem; padding: 9px 16px; letter-spacing: 0.02em; position: relative; z-index: 9999; } .research-notice a { color: #c084fc; text-decoration: underline; margin-left: 6px; } /* ========================= PEPPY&ME PRIVATE ACCESS WOOCOMMERCE MY ACCOUNT ========================= */ body.woocommerce-account { background: radial-gradient(circle at top center, rgba(201,168,76,0.14) 0%, rgba(201,168,76,0.04) 24%, #f7f6f2 58%), linear-gradient(180deg, #ffffff 0%, #f7f6f2 100%); } /* hide default title */ body.woocommerce-account .entry-title, body.woocommerce-account .page-title { display: none !important; } /* center the whole page content */ body.woocommerce-account .site-main, body.woocommerce-account .entry-content, body.woocommerce-account article.page, body.woocommerce-account .post-168 { max-width: 1120px !important; margin: 0 auto !important; padding-left: 20px !important; padding-right: 20px !important; box-sizing: border-box; } /* top custom content */ body.woocommerce-account .entry-content > p:first-of-type { text-align: center !important; font-size: 18px !important; font-weight: 700 !important; color: #111 !important; margin-top: 28px !important; margin-bottom: 8px !important; } body.woocommerce-account .entry-content > h1, body.woocommerce-account .entry-content > h2 { text-align: center !important; font-size: 42px !important; line-height: 1.08 !important; font-weight: 800 !important; color: #18212f !important; letter-spacing: -0.03em !important; margin: 0 0 10px !important; } body.woocommerce-account .entry-content > h1 + p, body.woocommerce-account .entry-content > h2 + p { text-align: center !important; color: #6d6d6d !important; font-size: 15px !important; line-height: 1.6 !important; max-width: 620px; margin: 0 auto 28px !important; } /* footer note under forms */ body.woocommerce-account .entry-content > p:last-of-type { text-align: center !important; font-size: 11px !important; line-height: 1.6 !important; color: #8a8a8a !important; letter-spacing: .08em !important; text-transform: uppercase !important; margin-top: 24px !important; } /* woocommerce block wrapper */ body.woocommerce-account .woocommerce { max-width: 1120px !important; margin: 0 auto !important; } /* true two-column layout */ body.woocommerce-account .woocommerce .col2-set { display: grid !important; grid-template-columns: 1fr 1fr !important; gap: 28px !important; align-items: stretch !important; width: 100% !important; max-width: 1120px !important; margin: 0 auto !important; } body.woocommerce-account .woocommerce .col2-set::before, body.woocommerce-account .woocommerce .col2-set::after { display: none !important; } body.woocommerce-account .woocommerce .col2-set .col-1, body.woocommerce-account .woocommerce .col2-set .col-2, body.woocommerce-account .woocommerce .u-column1, body.woocommerce-account .woocommerce .u-column2 { width: 100% !important; max-width: 100% !important; float: none !important; margin: 0 !important; padding: 0 !important; } /* form cards */ body.woocommerce-account .woocommerce form.login, body.woocommerce-account .woocommerce form.register { margin: 0 !important; width: 100% !important; border: 1px solid rgba(201,168,76,0.22) !important; border-radius: 28px !important; background: rgba(255,255,255,0.92) !important; padding: 26px !important; box-shadow: 0 25px 70px rgba(0,0,0,0.08) !important; position: relative !important; overflow: hidden !important; box-sizing: border-box !important; } body.woocommerce-account .woocommerce form.login::before, body.woocommerce-account .woocommerce form.register::before { content: "" !important; position: absolute !important; top: 0 !important; left: 0 !important; width: 100% !important; height: 4px !important; background: linear-gradient(90deg, #b8922f 0%, #e5c86f 50%, #b8922f 100%) !important; } /* form section headings */ body.woocommerce-account .woocommerce h2 { margin: 0 0 18px !important; font-size: 30px !important; line-height: 1.1 !important; font-weight: 800 !important; color: #18212f !important; letter-spacing: -0.02em !important; text-align: left !important; } /* rows */ body.woocommerce-account .woocommerce form .form-row { margin-bottom: 14px !important; } /* labels */ body.woocommerce-account .woocommerce form label { font-size: 13px !important; font-weight: 700 !important; color: #232323 !important; margin-bottom: 8px !important; display: block !important; } /* inputs */ body.woocommerce-account .woocommerce input[type="text"], body.woocommerce-account .woocommerce input[type="email"], body.woocommerce-account .woocommerce input[type="password"] { width: 100% !important; min-height: 54px !important; border: 1px solid #ddd7c8 !important; border-radius: 16px !important; background: #fff !important; padding: 14px 16px !important; font-size: 15px !important; color: #111 !important; box-shadow: none !important; box-sizing: border-box !important; } body.woocommerce-account .woocommerce input:focus { border-color: #c9a84c !important; box-shadow: 0 0 0 4px rgba(201,168,76,0.12) !important; outline: none !important; } /* buttons */ body.woocommerce-account .woocommerce button.button, body.woocommerce-account .woocommerce .button, body.woocommerce-account .woocommerce a.button { width: 100% !important; min-height: 54px !important; border: none !important; border-radius: 16px !important; background: linear-gradient(135deg, #c9a84c 0%, #e5c86f 100%) !important; color: #111 !important; font-size: 15px !important; font-weight: 800 !important; box-shadow: 0 14px 34px rgba(201,168,76,0.24) !important; transition: all .2s ease !important; } body.woocommerce-account .woocommerce button.button:hover, body.woocommerce-account .woocommerce .button:hover, body.woocommerce-account .woocommerce a.button:hover { transform: translateY(-1px) !important; filter: brightness(1.02) !important; } /* remember me */ body.woocommerce-account .woocommerce .woocommerce-form-login__rememberme { display: flex !important; align-items: center !important; gap: 8px !important; margin-top: 4px !important; } body.woocommerce-account .woocommerce .woocommerce-form-login__rememberme input { width: auto !important; min-height: auto !important; } /* lost password */ body.woocommerce-account .woocommerce .lost_password { margin-top: 10px !important; text-align: left !important; } body.woocommerce-account .woocommerce .lost_password a { color: #b8922f !important; font-weight: 600 !important; } /* mobile */ @media (max-width: 900px) { body.woocommerce-account .woocommerce .col2-set { grid-template-columns: 1fr !important; } body.woocommerce-account .entry-content > h1, body.woocommerce-account .entry-content > h2 { font-size: 34px !important; } } @media (max-width: 767px) { body.woocommerce-account .site-main, body.woocommerce-account .entry-content, body.woocommerce-account article.page, body.woocommerce-account .post-168 { padding-left: 14px !important; padding-right: 14px !important; } body.woocommerce-account .entry-content > p:first-of-type { font-size: 16px !important; } body.woocommerce-account .entry-content > h1, body.woocommerce-account .entry-content > h2 { font-size: 30px !important; } body.woocommerce-account .woocommerce form.login, body.woocommerce-account .woocommerce form.register { padding: 18px !important; border-radius: 22px !important; } body.woocommerce-account .woocommerce h2 { font-size: 24px !important; } } /* FIX: Single Product + Blog Post top spacing under sticky header */ .single-product .site-content, .single-post .site-content, .single-product #content, .single-post #content, .single-product .ast-container, .single-post .ast-container { padding-top: 10px !important; } /* Mobile adjustment */ @media (max-width: 768px) { .single-product .site-content, .single-post .site-content, .single-product #content, .single-post #content, .single-product .ast-container, .single-post .ast-container { padding-top: 10px !important; } } /* Disable image dragging */ img { -webkit-user-drag: none; user-drag: none; pointer-events: none; } /* Prevent text selection */ body { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; } /* BLOG / SINGLE POST FULL WIDTH + REMOVE FIRST TITLE */ /* Remove the big default post title on single blog posts */ body.single-post h1.entry-title, body.single-post .entry-header { display: none !important; } /* Make blog post content full width */ body.single-post .site-content, body.single-post .content-area, body.single-post .ast-container, body.single-post article, body.single-post .entry-content { max-width: 100% !important; width: 100% !important; margin: 0 auto !important; padding-left: 0 !important; padding-right: 0 !important; } /* Better readable inner content width */ body.single-post .entry-content > * { max-width: 1100px !important; margin-left: auto !important; margin-right: auto !important; } /* Images auto adjust */ body.single-post .entry-content img { max-width: 100% !important; height: auto !important; } /* Mobile fix */ @media (max-width: 768px) { body.single-post .entry-content > * { max-width: 100% !important; padding-left: 18px !important; padding-right: 18px !important; } body.single-post .entry-content h1, body.single-post .entry-content h2, body.single-post .entry-content h3 { line-height: 1.2 !important; word-break: normal !important; } } /* Hide ugly Previous / Next text in product gallery */ .single-product .woocommerce-product-gallery .flex-direction-nav, .single-product .woocommerce-product-gallery .flex-prev, .single-product .woocommerce-product-gallery .flex-next { display: none !important; } /* Make product gallery cleaner */ .single-product .woocommerce-product-gallery { background: #fff !important; border-radius: 14px; padding: 12px; } /* Thumbnail row clean layout */ .single-product .flex-control-thumbs { display: flex !important; gap: 14px; justify-content: center; margin-top: 18px !important; padding: 0 !important; list-style: none !important; } /* Thumbnail image style */ .single-product .flex-control-thumbs li { width: 90px !important; margin: 0 !important; cursor: pointer !important; } .single-product .flex-control-thumbs img { width: 90px !important; height: 90px !important; object-fit: cover !important; border-radius: 10px; border: 1px solid #e5e5e5; opacity: 1 !important; } /* Active thumbnail */ .single-product .flex-control-thumbs img.flex-active { border: 2px solid #C9A84C !important; } /* Fix clickable product gallery thumbnails */ .single-product .flex-control-thumbs { position: relative !important; z-index: 999 !important; pointer-events: auto !important; } .single-product .flex-control-thumbs li, .single-product .flex-control-thumbs img { position: relative !important; z-index: 999 !important; pointer-events: auto !important; cursor: pointer !important; } /* Make sure nothing invisible covers thumbnails */ .single-product .woocommerce-product-gallery { position: relative !important; overflow: visible !important; } /* Premium WooCommerce add-to-cart notices */ .woocommerce-notices-wrapper { max-width: 1100px; margin: 18px auto 24px !important; padding: 0 16px; } .woocommerce-message, .woocommerce-info, .woocommerce-error { background: #ffffff !important; border: 1px solid #ead7a3 !important; border-left: 5px solid #C9A84C !important; border-radius: 16px !important; box-shadow: 0 10px 30px rgba(0,0,0,0.08) !important; color: #111827 !important; padding: 18px 22px 18px 58px !important; margin-bottom: 14px !important; font-size: 15px !important; line-height: 1.5 !important; position: relative !important; } /* Icon */ .woocommerce-message::before, .woocommerce-info::before { color: #C9A84C !important; top: 18px !important; left: 22px !important; } /* Error icon */ .woocommerce-error::before { color: #b91c1c !important; top: 18px !important; left: 22px !important; } /* View cart button */ .woocommerce-message .button, .woocommerce-info .button, .woocommerce-error .button { background: linear-gradient(135deg, #f7c542, #C9A84C) !important; color: #111 !important; border-radius: 999px !important; padding: 11px 20px !important; font-weight: 700 !important; text-transform: none !important; box-shadow: 0 6px 18px rgba(201,168,76,0.28) !important; margin-right: 16px !important; } /* Hover */ .woocommerce-message .button:hover, .woocommerce-info .button:hover, .woocommerce-error .button:hover { transform: translateY(-1px); filter: brightness(1.03); } /* Fix ugly raw HTML notice spacing */ .woocommerce-error li, .woocommerce-message li, .woocommerce-info li { list-style: none !important; margin: 0 !important; } /* Mobile */ @media (max-width: 768px) { .woocommerce-message, .woocommerce-info, .woocommerce-error { padding: 16px 16px 16px 48px !important; font-size: 14px !important; border-radius: 14px !important; } .woocommerce-message .button, .woocommerce-info .button, .woocommerce-error .button { display: block !important; width: fit-content !important; margin: 0 0 10px 0 !important; } } .pm-product-disclaimer { margin-top: 18px; padding: 14px 16px; background: #fffaf0; border: 1px solid #ead7a3; border-left: 4px solid #C9A84C; border-radius: 12px; font-size: 13px; line-height: 1.5; color: #222; } .pm-product-disclaimer a { color: #C9A84C; font-weight: 700; text-decoration: underline; }.lg-backdrop { background-color: rgba(0,0,0,0.6) !important; } .lg-toolbar, .lg-dropdown { background-color: rgba(0,0,0,0.8) !important; } .lg-dropdown:after { border-bottom-color: rgba(0,0,0,0.8) !important; } .lg-sub-html { background-color: rgba(0,0,0,0.8) !important; } .lg-thumb-outer, .lg-progress-bar { background-color: #444444 !important; } .lg-progress { background-color: #a90707 !important; } .lg-icon { color: #efefef !important; font-size: 20px !important; } .lg-icon.lg-toogle-thumb { font-size: 24px !important; } .lg-icon:hover, .lg-dropdown-text:hover { color: #ffffff !important; } .lg-sub-html, .lg-dropdown-text { color: #efefef !important; font-size: 14px !important; } #lg-counter { color: #efefef !important; font-size: 14px !important; } .lg-prev, .lg-next { font-size: 35px !important; } /* Defaults */ .lg-icon { background-color: transparent !important; } #lg-counter { opacity: 0.9; } .lg-thumb-outer { padding: 0 10px; } .lg-thumb-item { border-radius: 0 !important; border: none !important; opacity: 0.5; } .lg-thumb-item.active { opacity: 1; } Skip to content
+
+[Peppy&Me](https://peppyandme.com/ "Peppy&Me")
+
+USA Same-Day Dispatch Free Shipping on Orders $200+ Secure Checkout >99% Pure • Sterile • Endotoxin-Free Third Party Lab Tested
+
+USA Same-Day Dispatch Free Shipping on Orders $200+ Secure Checkout >99% Pure • Sterile • Endotoxin-Free Third Party Lab Tested
+
+[ Peppy&Me ](https://peppyandme.com)
+
+[Shop All](https://peppyandme.com/shop/)
+
+[Compounds](https://peppyandme.com/product-category/compounds/) [Accessories](https://peppyandme.com/product-category/accessories/)
+
+[Affiliate](https://peppyandme.goaffpro.com/) [Peptide Calculator](https://peppyandme.com/peptide-calculator/) [COA](https://peppyandme.com/coa/) [Partnership](https://peppyandme.com/partnership/)
+
+0 ☰
+
+Shop All
+
+[↳ Compounds](https://peppyandme.com/product-category/compounds/) [↳ Accessories](https://peppyandme.com/product-category/accessories/)
+
+[Affiliate](https://peppyandme.goaffpro.com/) [Peptie Calculator](https://peppyandme.com/peptide-calculator/) [COA](https://peppyandme.com/coa/) [Partnership](https://peppyandme.com/partnership/) [My Orders](https://peppyandme.com/my-account/orders/)
+
+### Cart (0)
+
+×
+
+Your cart is currently empty.
+
+Peppy&Me; Research Hub
+
+# Research & Industry Updates
+
+Your easy-to-read space for peptide education, research trends, lab-quality tips, and modern biohacking insights — no boring textbook energy here.
+
+[Peptide Glossary](pedia.peppyandme.com) [Dose Calculator](/dose-calculator/) [COA Vault](/coa/)
+
+**Science, but make it simple** Clear explanations for curious readers and researchers.
+
+**Quality matters** Purity, sterility, endotoxin, batch testing — explained simply.
+
+**Research-first energy** Educational content focused on responsible research use.
+
+**No gatekeeping** We break down complex science without boring textbook vibes.
+
+Uncategorized
+
+## [How membership portals transform peptide access for researchers](https://peppyandme.com/membership-portals-transform-peptide-access/)
+
+Discover why membership based portals are revolutionizing peptide access for researchers, streamlining procurement and enhancing compliance.
+
+[Read the tea →](https://peppyandme.com/membership-portals-transform-peptide-access/)Quick science read
+
+Uncategorized
+
+## [Research compliance portals: Unlocking power for peptide studies](https://peppyandme.com/research-compliance-portals-peptide-studies/)
+
+Discover the role of research compliance portals in enhancing peptide studies. Boost data integrity and funding success now!
+
+[Read the tea →](https://peppyandme.com/research-compliance-portals-peptide-studies/)Quick science read
+
+Uncategorized
+
+## [Lab best practices for safe, effective peptide research](https://peppyandme.com/lab-best-practices-for-safe-effective-peptide-research/)
+
+Discover recommended lab practices for safe and effective peptide research. Ensure safety and integrity in your lab with tailored guidelines.
+
+[Read the tea →](https://peppyandme.com/lab-best-practices-for-safe-effective-peptide-research/)Quick science read
+
+Uncategorized
+
+## [Glutathione 1500mg: Dosage, Evidence, and Safe Use Guide](https://peppyandme.com/glutathione-1500mg-dosage-evidence-and-safe-use-guide/)
+
+Discover the benefits of glutathione 1500mg in our comprehensive guide. Learn safe use, dosage, and evidence to optimize your health today!
+
+[Read the tea →](https://peppyandme.com/glutathione-1500mg-dosage-evidence-and-safe-use-guide/)Quick science read
+
+Uncategorized
+
+## [Bacteriostatic water: Essential guide for peptide research](https://peppyandme.com/bacteriostatic-water-essential-guide-for-peptide-research/)
+
+Discover what is bacteriostatic water and its crucial role in peptide research. Ensure your lab protocols are safe and effective!
+
+[Read the tea →](https://peppyandme.com/bacteriostatic-water-essential-guide-for-peptide-research/)Quick science read
+
+Uncategorized
+
+## [Top 3 Discount Peptides for 2026](https://peppyandme.com/discount-peptides-3/)
+
+Discover the top 3 discount peptides for 2026, featuring quality comparisons to help you find affordable options for your needs.
+
+[Read the tea →](https://peppyandme.com/discount-peptides-3/)Quick science read
+
+Uncategorized
+
+## [Top 3 HCG Peptides for Sale 2026](https://peppyandme.com/hcg-peptide-for-sale-3/)
+
+Discover 3 HCG peptides for sale, providing a comprehensive comparison for researchers and health enthusiasts looking for quality options.
+
+[Read the tea →](https://peppyandme.com/hcg-peptide-for-sale-3/)Quick science read
+
+Uncategorized
+
+## [Melanotan 10mg: Risks, Mechanisms, and Research Use](https://peppyandme.com/melanotan-10mg-risks-mechanisms-and-research-use/)
+
+Discover the complexities of melanotan 10mg, from its risks to mechanisms, and what it means for research and safety in this comprehensive guide.
+
+[Read the tea →](https://peppyandme.com/melanotan-10mg-risks-mechanisms-and-research-use/)Quick science read
+
+Uncategorized
+
+## [Top 4 Ipamorelin Peptide For Sale 2026](https://peppyandme.com/ipamorelin-peptide-for-sale-4/)
+
+Discover 4 ipamorelin peptide for sale options for quality comparison and informed purchasing.
+
+[Read the tea →](https://peppyandme.com/ipamorelin-peptide-for-sale-4/)Quick science read
+
+Uncategorized
+
+## [How to Buy Cagrilintide: Secure Sourcing Guide](https://peppyandme.com/how-to-buy-cagrilintide-secure-sourcing-guide/)
+
+Learn how to buy cagrilintide securely with our comprehensive sourcing guide. Ensure safety and quality for your research or health goals today!
+
+[Read the tea →](https://peppyandme.com/how-to-buy-cagrilintide-secure-sourcing-guide/)Quick science read
+
+Uncategorized
+
+## [How to buy tesamorelin: A guide for safe, quality sourcing](https://peppyandme.com/how-to-buy-tesamorelin-a-guide-for-safe-quality-sourcing/)
+
+Learn how to buy tesamorelin safely with our comprehensive guide. Navigate suppliers, verify authenticity, and optimize your research effectively!
+
+[Read the tea →](https://peppyandme.com/how-to-buy-tesamorelin-a-guide-for-safe-quality-sourcing/)Quick science read
+
+Uncategorized
+
+## [MOTS-c 10mg: Guide to Benefits, Mechanism, and Research Use](https://peppyandme.com/mots-c-10mg-guide-to-benefits-mechanism-and-research-use/)
+
+Discover the benefits of MOTS-c 10mg, a groundbreaking peptide acting as an exercise mimetic. Unlock its potential for metabolic research and performance!
+
+[Read the tea →](https://peppyandme.com/mots-c-10mg-guide-to-benefits-mechanism-and-research-use/)Quick science read
+
+Uncategorized
+
+## [How to source quality tirzepatide research peptide safely](https://peppyandme.com/how-to-source-quality-tirzepatide-research-peptide-safely/)
+
+Discover how to source quality tirzepatide research peptide for sale safely. Ensure data integrity and compliance with our expert guide.
+
+[Read the tea →](https://peppyandme.com/how-to-source-quality-tirzepatide-research-peptide-safely/)Quick science read
+
+Uncategorized
+
+## [AOD 9604 2mg: Research Uses, Evidence & Application Guide](https://peppyandme.com/aod-9604-2mg-research-uses-evidence-application/)
+
+AOD 9604 2mg research guide covering structure, animal and human trial data, sourcing standards, and protocol design for biomedical researchers.
+
+[Read the tea →](https://peppyandme.com/aod-9604-2mg-research-uses-evidence-application/)Quick science read
+
+Uncategorized
+
+## [Secure access setup guide: protect peptides & data in 2026](https://peppyandme.com/secure-access-setup-guide-protect-research-peptides-data/)
+
+Learn how to set up secure access for peptide research labs using Zero Trust, VPN, MFA, and audit logging to stay compliant and protect...
+
+[Read the tea →](https://peppyandme.com/secure-access-setup-guide-protect-research-peptides-data/)Quick science read
+
+Uncategorized
+
+## [The Power of Peptides: A Scientific Approach to Recovery, Skin, and Performance](https://peppyandme.com/peptides-recovery-skin-performance/)
+
+Unlock the Power of Modern Peptide Science In the world of advanced wellness and cutting-edge research, peptides are quickly becoming one of the most...
+
+[Read the tea →](https://peppyandme.com/peptides-recovery-skin-performance/)Quick science read
+
+Uncategorized
+
+## [Selank Peptide for Relaxation and Stress Support](https://peppyandme.com/peptide-for-relaxation/)
+
+CALM FOCUS • NERVOUS SYSTEM SUPPORT • RESEARCH SPOTLIGHT Selank Peptide for Relaxation and Stress Support In a world full of brain fog, overstimulation,...
+
+[Read the tea →](https://peppyandme.com/peptide-for-relaxation/)Quick science read
+
+Uncategorized
+
+## [Peptides for Muscle Growth Explained](https://peppyandme.com/peptides-for-muscle-growth/)
+
+Peptides for Muscle Growth Explained Many athletes and fitness enthusiasts are interested in peptides for muscle growth. Peptides are small chains of amino acids...
+
+[Read the tea →](https://peppyandme.com/peptides-for-muscle-growth/)Quick science read
+
+Uncategorized
+
+## [What Are Peptides and Their Benefits?](https://peppyandme.com/what-are-peptides-and-their-benefits/)
+
+Peppy & Me Education What Are Peptides and Their Benefits? If you have ever wondered what are peptides and their benefits, this simple guide...
+
+[Read the tea →](https://peppyandme.com/what-are-peptides-and-their-benefits/)Quick science read
+
+Uncategorized
+
+## [Biohacking Peptides: Muscle Recovery, Skin Care, and WellnessCopy of Understanding Peptide Stability in Laboratory Research](https://peppyandme.com/biohacking-peptides-benefits/)
+
+Biohacking Peptides: Muscle Recovery, Skin Care, and Wellness In recent years, the idea of biohacking has become very popular. People want smarter ways to...
+
+[Read the tea →](https://peppyandme.com/biohacking-peptides-benefits/)Quick science read
+
+Uncategorized
+
+## [Peptides for Muscle Recovery: Biohacking Fitness and Faster HealingUnderstanding Peptide Stability in Laboratory Research](https://peppyandme.com/peptides-for-muscle-recovery/)
+
+Peptides for Muscle Recovery: Biohacking Fitness and Faster Healing Many athletes and fitness enthusiasts are looking for smarter ways to recover after intense workouts....
+
+[Read the tea →](https://peppyandme.com/peptides-for-muscle-recovery/)Quick science read
+
+## New here? Start with the Peptide Glossary.
+
+Learn the basics, explore research categories, understand handling notes, and use our calculator tools before diving deeper.
+
+[Explore the Glossary →](/peptide-glossary/)
+
+Premium Research Supply
+
+## Peppy&Me
+
+Premium peptides for research use, backed by third-party testing and a Certificate of Analysis.
+
+[Contact Support](mailto:support@peppyandme.com)
+
+[__](https://www.instagram.com/peppyandme)[__](https://www.facebook.com/peppyandme)[__](https://t.me/peppyandme)
+
+#### Shop
+
+  * [Research Compounds](/shop/)
+  * [Peptide Calculator](/peptide-calculator/)
+  * [COA Vault](/coa/)
+  * [Pep Glossary](https://pedia.peppyandme.com)
+  * [Affiliate Sign-Up](https://peppyandme.goaffpro.com/)
+  * [Launch Your Own Brand](/partnership/)
+
+
+
+#### Company
+
+  * [About Us](/about-us/)
+  * [FAQs](/faqs/)
+  * [Contact](/contact/)
+  * [Blogs](/blogs/)
+
+Brand Standards
+
+  * [Terms of Service](/terms-of-service/)
+  * [Privacy Policy](/privacy-policy/)
+  * [Refund Policy](/refund-policy/)
+  * [Affiliate T&C's](https://peppyandme.com/affiliate-terms-conditions//)
+
+© 2026 PeppyAndMe Research Supplies. All rights reserved. VISA PayPal AMEX Discover Scroll to Top

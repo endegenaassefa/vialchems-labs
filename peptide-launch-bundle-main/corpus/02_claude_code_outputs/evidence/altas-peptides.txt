@@ -1,0 +1,25 @@
+[CLAIM] fetch_status.failed_all_three_attempts
+[URL] https://altaspeptides.com
+[FETCHED_AT] 2026-05-07T19:40:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/altas-peptides/homepage_live_attempt_curl.md
+[LINE_RANGE] 8-8
+[INFERENCE] fetch_status: "failed" — domain NXDOMAIN, zero Wayback captures, Chromium sandbox unavailable
+[REASONING]
+Three independent fetch methods all failed for altaspeptides.com: (1) curl exits code 6 confirming NXDOMAIN — the domain does not resolve in DNS; (2) Wayback Machine CDX API returns zero records — the domain has never been archived at any timestamp; (3) gstack:browse Chromium fails due to WSL2 root sandbox restriction. No content of any kind is retrievable from any source. Per directive §8.1, after three failed attempts on the homepage the profile is declared failed-baseline.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://altaspeptides.com
+[FETCHED_AT] 2026-05-07T19:40:35Z
+[RAW_ARTIFACT] 03_raw_fetches/altas-peptides/homepage_live_attempt_curl.md
+[LINE_RANGE] 8-8
+curl exit code 6: Could not resolve host: altaspeptides.com
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/2024/https://altaspeptides.com
+[FETCHED_AT] 2026-05-07T19:40:40Z
+[RAW_ARTIFACT] 03_raw_fetches/altas-peptides/homepage_wayback_attempt.md
+[LINE_RANGE] 8-8
+Wayback CDX API returned empty result set — zero captures for altaspeptides.com
+[/SUPPORT_QUOTE]
+[/INFERENCE]

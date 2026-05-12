@@ -1,0 +1,677 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:44:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 51-53
+[QUOTE]
+"Unlock Your Peak Potential
+
+High-purity peptides manufactured to strict standards and independently tested for accuracy and consistency."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:44:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 51-57
+[QUOTE]
+"###  U.S. Laboratory Verified
+
+Independently tested by U.S.-based labs to confirm purity, identity, and consistency.
+
+__
+
+###  Quality Without the Premium Price
+
+High-grade research peptides offered at competitive, research-friendly pricing."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:44:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 55
+[QUOTE]
+"__ Shop Now"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:44:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 9-43
+[QUOTE]
+"  * [Home](https://stackhausresearch.com/)
+  * [About Us __](https://stackhausresearch.com/about-us/)
+    * [Leadership Team](https://stackhausresearch.com/team/)
+  * Peptides __
+    * [All Peptides](https://stackhausresearch.com/peptides/)
+    * [Build Your Stack](https://stackhausresearch.com/build-your-stack/)
+    * [Aesthetics](https://stackhausresearch.com/aesthetics/)
+    * [Cognitive Function](https://stackhausresearch.com/cognitive-function/)
+    * [Energy](https://stackhausresearch.com/energy/)
+    * [Hormone Signaling](https://stackhausresearch.com/hormone-signaling/)
+    * [Immunity](https://stackhausresearch.com/immunity/)
+    * [Longevity/Anti-Aging](https://stackhausresearch.com/longevity-anti-aging/)
+    * [Muscle Performance](https://stackhausresearch.com/muscle-performance/)
+    * [Reconstitution Solvent](https://stackhausresearch.com/reconstitution-solvent/)
+    * [Recovery](https://stackhausresearch.com/recovery/)
+    * [Sexual Health](https://stackhausresearch.com/sexual-health/)
+    * [Weight Management](https://stackhausresearch.com/weight-management/)
+  * [COA](https://stackhausresearch.com/coa/)
+  * [Custom Blends](https://stackhausresearch.com/custom-blends/)
+  * [Research](https://stackhausresearch.com/research/)
+  * Resources __
+    * [My Portal](https://stackhausresearch.com/my-portal/)
+    * [Subscription](https://stackhausresearch.com/subscription/)
+    * [Contact Us](https://stackhausresearch.com/contact-us/)
+    * [Affiliate Account](https://stackhausresearch.com/affiliate-registration/)
+    * [Track My Order](https://stackhausresearch.com/track-order/)
+    * [Shipping & Refunds](https://stackhausresearch.com/shipping-refunds/)
+    * [Terms & Conditions](https://stackhausresearch.com/terms-conditions/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:44:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 272-278
+[QUOTE]
+"All products offered by Stackhaus Research are strictly intended for laboratory research and development purposes only. They are not for human consumption, medical use, or diagnostic applications of any kind. None of the products or statements on this website have been evaluated by the U.S. Food and Drug Administration (FDA).
+
+Stackhaus Research is not a pharmacy, compounding facility, or outsourcing facility as defined under Sections 503A or 503B of the Federal Food, Drug, and Cosmetic Act. All products are supplied for research, laboratory, or analytical purposes only.
+
+By purchasing from Stackhaus Research, you acknowledge and agree that these products will be used solely in compliance with all applicable laws and regulations, and you assume full responsibility for their proper handling and use."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://stackhausresearch.com/peptides/
+[FETCHED_AT] 2026-05-08T07:45:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/catalog_1.md
+[LINE_RANGE] 101
+[QUOTE]
+"Showing 1–12 of 71 results"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://stackhausresearch.com/peptides/
+[FETCHED_AT] 2026-05-08T07:45:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/catalog_1.md
+[LINE_RANGE] 78-92
+[QUOTE]
+"### Category
+
+  * Uncategorized
+  * Aesthetics
+  * Cognitive Function
+  * Energy
+  * Hormone Signaling
+  * Immunity
+  * Longevity/Anti-Aging
+  * Muscle Performance
+  * Peptide Bundles
+  * Reconstitution Solvent
+  * Recovery
+  * Sexual Health
+  * Weight Management"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://stackhausresearch.com/peptides/
+[FETCHED_AT] 2026-05-08T07:45:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/catalog_1.md
+[LINE_RANGE] 78-100
+[QUOTE]
+"  * __ Filter By Category
+  * __ Filter By Price
+
+### Price
+
+$$
+
+  * __ Search Products"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://stackhausresearch.com/peptides/
+[FETCHED_AT] 2026-05-08T07:45:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/catalog_1.md
+[LINE_RANGE] 78-92
+[QUOTE]
+"  * Peptide Bundles"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://stackhausresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:45:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_1__bpc-157.md
+[LINE_RANGE] 55-57
+[QUOTE]
+"# BPC-157
+
+$69.00 – $97.50Price range: $69.00 through $97.50"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://stackhausresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:45:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_1__bpc-157.md
+[LINE_RANGE] 63-64
+[QUOTE]
+"Vial Size|  Choose an option5mg [3mL]10mg [3mL]15mg [3mL]15mg [5mL]Clear"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://stackhausresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:45:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_1__bpc-157.md
+[LINE_RANGE] 57
+[QUOTE]
+"$69.00 – $97.50Price range: $69.00 through $97.50"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://stackhausresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:45:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_1__bpc-157.md
+[LINE_RANGE] 59
+[QUOTE]
+"BPC-157 is a synthetic peptide studied for its role in gastrointestinal and connective tissue research. Investigators examine its influence on cellular repair, angiogenesis, and inflammatory response modulation. Research focuses on its potential to support tissue remodeling, protect epithelial structures, and promote recovery processes across multiple biological systems."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://stackhausresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T07:45:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/tos.md
+[LINE_RANGE] 77
+[QUOTE]
+"**IN-VITRO LABORATORY RESEARCH**. To the extent there is any information contained on the Website, it is strictly for the sole purposes of in-vitro laboratory research."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://stackhausresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:45:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_1__bpc-157.md
+[LINE_RANGE] 61
+[QUOTE]
+"_**View & Download all COAs [Here](https://stackhausresearch.com/wp-content/uploads/2026/01/BPC-157.pdf)**_"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://stackhausresearch.com/coa/
+[FETCHED_AT] 2026-05-08T07:45:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/coa_1.md
+[LINE_RANGE] 53-55
+[QUOTE]
+"All peptides are independently tested by Trustpointe Analytics and Freedom Diagnostics. Every batch is verified using HPLC with identity confirmed by retention time and spectral analysis. Each Certificate of Analysis documents identity, purity, coelution control and system suitability. Results are batch specific and verifiable."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://stackhausresearch.com/coa/
+[FETCHED_AT] 2026-05-08T07:45:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/coa_1.md
+[LINE_RANGE] 53
+[QUOTE]
+"All peptides are independently tested by Trustpointe Analytics and Freedom Diagnostics."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://stackhausresearch.com/coa/
+[FETCHED_AT] 2026-05-08T07:45:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/coa_1.md
+[LINE_RANGE] 53
+[QUOTE]
+"Results are batch specific and verifiable."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://stackhausresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:45:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_1__bpc-157.md
+[LINE_RANGE] 70-110
+[QUOTE]
+"Add to cart
+
+Order now and we will ship it when it arrives"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://stackhausresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:45:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_1__bpc-157.md
+[LINE_RANGE] 88-97
+[QUOTE]
+"## You may also like
+
+  * ## [LL-37 $88.50 ](https://stackhausresearch.com/product/ll-37/)
+  * ## [Thymosin Alpha 1/Thymulin $115.50 ](https://stackhausresearch.com/product/thymosin-alpha-1-thymulin/)
+  * ## [Cagrilintide/TRZ Blend $243.00 ](https://stackhausresearch.com/product/cagrilintide-trz-blend/)
+  * ## [Semax $34.50 – $42.00Price range: $34.50 through $42.00 ](https://stackhausresearch.com/product/semax/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:44:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 272-274
+[QUOTE]
+"All products offered by Stackhaus Research are strictly intended for laboratory research and development purposes only. They are not for human consumption, medical use, or diagnostic applications of any kind."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://stackhausresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T07:45:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/tos.md
+[LINE_RANGE] 93
+[QUOTE]
+"**AGE RESTRICTION.** In order to use and purchase from Stackhaus Research, you must be 18 years of age or older."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:44:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 42
+[QUOTE]
+"    * [Terms & Conditions](https://stackhausresearch.com/terms-conditions/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://stackhausresearch.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T07:45:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/tos.md
+[LINE_RANGE] 77-97
+[QUOTE]
+"**IN-VITRO LABORATORY RESEARCH**. To the extent there is any information contained on the Website, it is strictly for the sole purposes of in-vitro laboratory research.
+
+**NOT FDA APPROVED**. To the extent that there are any products for sale on the Website, they are not FDA authorized or approved to prevent, treat, diagnose, mitigate, or cure any disease, ailment or medical condition.
+
+**NOT FOR HUMAN CONSUMPTION**. User understands and agrees that any product sold by Stackhaus Research is not to be used, consumed, ingested, or otherwise by any human.
+
+**AGE RESTRICTION.** In order to use and purchase from Stackhaus Research, you must be 18 years of age or older.
+
+**RETURN POLICY**. All sales on Stackhaus Research are final and we do not accept any returns."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://stackhausresearch.com/shipping-refunds/
+[FETCHED_AT] 2026-05-08T07:45:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/shipping.md
+[LINE_RANGE] 65-75
+[QUOTE]
+"Due to the nature of our products, all sales are final. We do not accept returns or exchanges once an order has been shipped.
+
+Refunds or replacements may be issued only in the following cases:
+
+  * The product arrives damaged
+
+  * The incorrect item was received
+
+  * The order is missing items"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://stackhausresearch.com/shipping-refunds/
+[FETCHED_AT] 2026-05-08T07:45:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/shipping.md
+[LINE_RANGE] 55-61
+[QUOTE]
+"All orders are processed within 1–3 business days after payment is received, excluding weekends and holidays. Orders placed after business hours may begin processing the following business day.
+
+We ship orders to the address provided at checkout. Customers are responsible for ensuring that all shipping information is accurate and complete. Once an order has been shipped, we are not responsible for delays caused by carriers, incorrect addresses, or external factors beyond our control.
+
+Shipping confirmation and tracking information will be provided once the order has been dispatched. Delivery times may vary depending on location, shipping method selected, and carrier performance.
+
+International shipping may be available depending on destination. Customers are responsible for any customs duties, taxes, or import fees imposed by their country."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:44:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 8
+[QUOTE]
+"ADD **$500** MORE FOR FREE SHIPPING YOU HAVE UNLOCKED FREE SHIPPING"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://stackhausresearch.com/shipping-refunds/
+[FETCHED_AT] 2026-05-08T07:45:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/shipping.md
+[LINE_RANGE] 61
+[QUOTE]
+"International shipping may be available depending on destination. Customers are responsible for any customs duties, taxes, or import fees imposed by their country."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://stackhausresearch.com/shipping-refunds/
+[FETCHED_AT] 2026-05-08T07:45:32Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/shipping.md
+[LINE_RANGE] 61
+[QUOTE]
+"International shipping may be available depending on destination."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] woocommerce
+[REASONING]
+The homepage HTML source contains 115 occurrences of 'woocommerce' strings and 158 occurrences of 'wp-content' paths, and the response headers include WordPress API link headers, confirming WooCommerce on WordPress.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:46:06Z
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 2
+"url: https://stackhausresearch.com"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://stackhausresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:45:13Z
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_1__bpc-157.md
+[LINE_RANGE] 51
+"[](https://stackhausresearch.com/wp-content/uploads/2026/01/BPC-157.png)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] cloudflare
+[REASONING]
+HTTP response headers from the homepage fetch show 'server: cloudflare' and 'cf-ray: 9f86d9463c5bb506-IAD' and 'cf-cache-status: HIT', confirming Cloudflare as CDN and DDoS protection layer.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:46:06Z
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 2
+"url: https://stackhausresearch.com"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://stackhausresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:45:13Z
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_1__bpc-157.md
+[LINE_RANGE] 2
+"url: https://stackhausresearch.com/product/bpc-157/"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[INFERENCE] Google Analytics (gtag), Klaviyo
+[REASONING]
+Homepage HTML source contains 29 occurrences of 'gtag' and 8 occurrences of 'klaviyo', confirming Google Analytics via gtag.js and Klaviyo email marketing analytics are loaded.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:46:06Z
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 2
+"url: https://stackhausresearch.com"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://stackhausresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:45:13Z
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_1__bpc-157.md
+[LINE_RANGE] 2
+"url: https://stackhausresearch.com/product/bpc-157/"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE] TikTok Pixel, Pinterest
+[REASONING]
+Homepage HTML source contains 7 occurrences of 'tiktok' and 4 occurrences of 'pinterest' in the script block section, indicating these marketing pixels are loaded.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:46:06Z
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 2
+"url: https://stackhausresearch.com"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:44:31Z
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 245-247
+"[ Icon-instagram __](https://www.instagram.com/stackhauslife/) [ Tiktok ](https://www.tiktok.com/@stackhausresearch) [ Pinterest ](https://www.pinterest.com/stackhauspeptides/)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] true
+[REASONING]
+Homepage HTML source contains 3 occurrences of 'tawk.to' script references, confirming Tawk.to live chat widget is loaded on the site.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:46:06Z
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 2
+"url: https://stackhausresearch.com"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://stackhausresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:45:13Z
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_1__bpc-157.md
+[LINE_RANGE] 2
+"url: https://stackhausresearch.com/product/bpc-157/"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://stackhausresearch.com/research/
+[FETCHED_AT] 2026-05-08T07:47:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/research.md
+[LINE_RANGE] 53-55
+[QUOTE]
+"# Research Library
+
+Preclinical overviews, compound profiles, and laboratory data — written for researchers and procurement professionals."
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://stackhausresearch.com/research/
+[FETCHED_AT] 2026-05-08T07:47:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/research.md
+[LINE_RANGE] 55
+[QUOTE]
+"Preclinical overviews, compound profiles, and laboratory data — written for researchers and procurement professionals."
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:44:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 148-170
+[QUOTE]
+"## Trusted by Researchers
+
+See why customers choose us for consistency, quality, and dependable service. Real feedback from those who value accuracy and reliability.
+
+  *   *   *   *   *
+
+
+"Consistent quality and clear documentation. The COAs make it easy to verify everything before ordering."
+
+**John T.**
+
+  *   *   *   *   *
+
+
+"Fast shipping and secure packaging. The process makes it easy to receive orders quickly and safely."
+
+**Ralph P.**
+
+  *   *   *   *   *
+
+
+"Clear product details and dependable service. The support team makes it easy to resolve questions when needed."
+
+**Luis E.**"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:44:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 148-170
+[QUOTE]
+"## Trusted by Researchers
+
+See why customers choose us for consistency, quality, and dependable service. Real feedback from those who value accuracy and reliability."
+[/QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2026
+[REASONING]
+COA PDF URLs contain the path '/2026/01/' (e.g. 'https://stackhausresearch.com/wp-content/uploads/2026/01/BPC-157.pdf') indicating files were uploaded in January 2026. The copyright footer reads '© 2026 Stackhaus Research' which is consistent with a 2026 founding or relaunch.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://stackhausresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:45:13Z
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_1__bpc-157.md
+[LINE_RANGE] 51
+"[](https://stackhausresearch.com/wp-content/uploads/2026/01/BPC-157.png)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://stackhausresearch.com
+[FETCHED_AT] 2026-05-08T07:44:31Z
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/homepage.md
+[LINE_RANGE] 282
+"© 2026 Stackhaus Research. All Rights Reserved."
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[sku_id=stackhaus-research:bpc-157-5mg]
+[URL] https://stackhausresearch.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:45:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_1__bpc-157.md
+[LINE_RANGE] 55-64
+[QUOTE]
+"# BPC-157
+
+$69.00 – $97.50Price range: $69.00 through $97.50
+
+BPC-157 is a synthetic peptide studied for its role in gastrointestinal and connective tissue research.
+
+_**View & Download all COAs [Here](https://stackhausresearch.com/wp-content/uploads/2026/01/BPC-157.pdf)**_
+
+Vial Size|  Choose an option5mg [3mL]10mg [3mL]15mg [3mL]15mg [5mL]Clear"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=stackhaus-research:tb-500-5mg]
+[URL] https://stackhausresearch.com/product/tb-500/
+[FETCHED_AT] 2026-05-08T07:46:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_2__tb-500.md
+[LINE_RANGE] 55-64
+[QUOTE]
+"# TB-500
+
+$75.00 – $103.50Price range: $75.00 through $103.50
+
+TB-500 is a synthetic peptide derived from thymosin beta-4 fragments and is studied for its role in tissue recovery, actin regulation, and cell migration.
+
+_**View & Download all COAs [Here](https://stackhausresearch.com/wp-content/uploads/2026/01/TB-500.pdf)**_
+
+Vial Size|  Choose an option5mg [3mL]10mg [3mL]15mg [5mL]Clear"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=stackhaus-research:ghk-cu-50mg]
+[URL] https://stackhausresearch.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T07:46:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_3__ghk-cu.md
+[LINE_RANGE] 55-64
+[QUOTE]
+"# GHK-Cu
+
+$60.00 – $96.00Price range: $60.00 through $96.00
+
+GHK-Cu is a copper-binding peptide studied for its role in collagen production, skin regeneration, and tissue remodeling.
+
+_**View & Download all COAs [Here](https://stackhausresearch.com/wp-content/uploads/2026/01/GHK-Cu.pdf)**_
+
+Vial Size|  Choose an option50mg [3mL]50mg [10mL]70mg [5mL]100mg [3mL]100mg [10mL]Clear"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=stackhaus-research:sma-5mg]
+[URL] https://stackhausresearch.com/product/sma/
+[FETCHED_AT] 2026-05-08T07:46:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_4__sma.md
+[LINE_RANGE] 55-64
+[QUOTE]
+"# SMA
+
+$114.00 – $241.50Price range: $114.00 through $241.50
+
+SMA is a GLP-1 receptor agonist studied for its effects on appetite control, glucose signaling, and metabolic regulation.
+
+_**View & Download all COAs [Here](https://stackhausresearch.com/wp-content/uploads/2026/01/SMA.pdf)**_
+
+Vial Size|  Choose an option5mg [3mL]10mg [3mL]15mg [3mL]20mg [3mL]30mg [3mL]30mg [5mL]Clear"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=stackhaus-research:trz-5mg]
+[URL] https://stackhausresearch.com/product/trz/
+[FETCHED_AT] 2026-05-08T07:46:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_5__trz.md
+[LINE_RANGE] 55-64
+[QUOTE]
+"# TRZ
+
+$108.00 – $720.00Price range: $108.00 through $720.00
+
+Tirzepatide is a dual GIP and GLP 1 receptor agonist studied for its effects on appetite regulation, glucose control, and metabolic signaling.
+
+_**View & Download all COAs [Here](https://stackhausresearch.com/wp-content/uploads/2026/01/TRZ.pdf)**_
+
+Vial Size|  Choose an option5mg [3mL]10mg [3mL]15mg [3mL]20mg [3mL]30mg [3mL]40mg [3mL]45mg [3mL]50mg [3mL]60mg [3mL]60mg [5mL]100mg [5mL]120mg [10mL]Clear"
+[/QUOTE]
+
+[CLAIM] skus[sku_id=stackhaus-research:mots-c-10mg]
+[URL] https://stackhausresearch.com/product/mots-c/
+[FETCHED_AT] 2026-05-08T07:46:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/stackhaus-research/product_6__mots-c.md
+[LINE_RANGE] 55-64
+[QUOTE]
+"# MOTS-C
+
+$81.00 – $148.50Price range: $81.00 through $148.50
+
+MOTS-C is a mitochondrial-derived peptide studied for its role in cellular energy regulation, metabolic homeostasis, and stress-response pathways.
+
+_**View & Download all COAs [Here](https://stackhausresearch.com/wp-content/uploads/2026/01/MOTS-C.pdf)**_
+
+Vial Size|  Choose an option10mg [3mL]40mg [3mL]50mg [5mL]Clear"
+[/QUOTE]

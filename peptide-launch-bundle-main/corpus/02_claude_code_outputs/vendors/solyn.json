@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "solyn",
+  "brand_name": "Solyn",
+  "primary_domain": "https://solyn.com",
+
+  "fetched_url": "https://solyn.com",
+  "fetched_at": "2026-05-08T07:44:29Z",
+  "fetch_status": "partial",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed)",
+  "field_completion_ratio": 0.43,
+
+  "country_of_operation": "uncertain",
+  "fulfillment_country": "uncertain",
+  "ship_to_scope": "uncertain",
+  "year_established": "2026",
+
+  "homepage": {
+    "hero_copy_excerpt": "Research-grade compounds, independently verified. Join thousands of researchers accessing our full catalog with batch-specific COAs on every product.",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "Create Account",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "uncertain"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": ["uncertain"],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "For laboratory research use only.",
+    "coa_present": "true",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "true",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "For laboratory research use only.",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "https://solyn.com/terms-conditions/",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "true",
+    "guest_checkout_available": "false",
+    "fields_collected": ["email", "password"],
+    "id_verification_present": "false",
+    "payment_methods_accepted": ["uncertain"],
+    "shipping_carriers": ["uncertain"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "cloudflare",
+    "analytics_tools_loaded": ["Microsoft Clarity (v8m9ytaaya)", "WooCommerce Analytics (Jetpack)", "GTM server-side (GTM-P8496T4G)"],
+    "marketing_pixels_present": ["Microsoft UET (ti:97228882)", "Omnisend (brand_id:6973ca1c4a2416df5e248340)"],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["uncertain"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "row from operator-supplied vendor list, classified as Tier 3: Danville-based vendor."
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/solyn/",
+  "evidence_file": "evidence/solyn.txt",
+  "uncertainty_notes": "catalog: entire catalog is behind a member login wall (account required); all product pages, TOS, refund policy, shipping policy, and blog redirect to https://solyn.com/research-access/ — these fields are uncertain because they require account creation which is forbidden by §11 bounds. country_of_operation: timezone America/Los_Angeles found in WooCommerce analytics data suggests US Pacific-based operation but country not stated publicly; logo upload path 2026/01 establishes at minimum Jan 2026 activity. ship_to_scope: no public shipping page accessible. tos_url: URL is present in homepage HTML but the page itself redirects to login gate; URL is valid/reachable per discovery_log but content is inaccessible. checkout_flow.account_required: confirmed true — login/register gate with woocommerce-social-login (Google OAuth) on the research-access page is the only entry point to the shop (redirect to /shop/ after login). guest_checkout_available: false — confirmed by the redirect-to-login behavior on all shop URLs. payment_methods_accepted: not visible pre-login. year_established: inferred as 2026 from logo upload timestamp (wp-content/uploads/2026/01/); Wayback Machine shows solyn.com was a domain-for-sale page through at least Jan 2024 and 2022, confirming the peptide vendor site is a new 2026 launch. product_page_anatomy: all product fields uncertain due to catalog login wall. batch_lot_transparency: stated as 'true' based on homepage claim 'batch-specific COAs on every product' and '6x Batch Tested' stat — this is inferred from public marketing copy, not verified against actual product pages. social_proof: all social proof fields uncertain; no public-facing product pages to observe."
+}

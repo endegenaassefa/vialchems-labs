@@ -1,0 +1,18 @@
+---
+slug: news-jessamine-tailormade-sentencing-2021-02-26
+fetched_on: 2026-05-06
+source_url: https://jessaminejournal.com/2021/02/26/tailor-made-owner-sentenced-for-unlawful-distribution-of-prescription-drugs/
+event_type: news_article
+event_date: 2021-02-26
+vendor: 'Tailor Made Compounding / Jeremy Delk'
+summary: 'Local paper covers sentencing'
+---
+
+# Raw fetch: news-jessamine-tailormade-sentencing-2021-02-26
+
+Source: https://jessaminejournal.com/2021/02/26/tailor-made-owner-sentenced-for-unlawful-distribution-of-prescription-drugs/
+Fetched: 2026-05-06
+
+---
+
+Tailor Made, owner sentenced for unlawful distribution of prescription drugs. | Jessamine Journal Subscribe Home News Features Opinion Sports Obituaries Records Contests Best of Jessamine Services About Us Policies Photos Submit a News Tip Submit a Sports Story Submit a Photo Letters to Editor Pay Subscription Classifieds Calendar Public Notices E-Edition Home E-Edition News Sports Obituaries Records Contests Best of Jessamine Services Classifieds Calendar Public Notices Tailor Made, owner sentenced for unlawful distribution of prescription drugs. Published 2:45 pm Friday, February 26, 2021 By Fred Petke Getting your Trinity Audio player ready... The owner of a Nicholasville compounding pharmacy was banned from being involved in distribution of prescription drugs Wednesday after pleading guilty in federal court. According to the U.S. Attorney’s Office, Tailor Made Compounding and its owner Jeremy Delk pleaded guilty in October 2020 to charges related to distribution of prescription or unapproved drugs. Delk was sentenced to three years of probation including four months of home incarceration, community service and a $20,000 fine. He was also prohibited from participating in a business that distributes prescription drugs. Prosecutors said Tailor Made was not licensed in Kentucky as a wholesale distributor. From October 2018 through May 2020, the company routinely shipped a prescription form of vitamin B12 to a California clinic. Rather than shipping as individual prescriptions, the company shipped the medication in bulk without prescriptions or patient information. Delk also attempted to hide records when state officials began investigating in August 2018. The company was ordered to forfeit nearly $1.8 million and was sentenced to three years probation for distributing unapproved drugs through the United States. Prosecutors said the company distributed selective androgen receptor modulators, which mimic the effects of testosterone and anabolic steroids, which had not been approved by the Food and Drug Administration. The company was also charged with distributing more than a dozen other unapproved drugs. Email newsletter signup Sign up for our daily email newsletter The forfeiture amount represented the company’s 2019 sales, prosecutors said. Featured Local Savings About Fred Petke Fred Petke is a reporter for The Winchester Sun, the Jessamine Journal and the State Journal. His beats include cops, courts, fire, public records, city and county government and other news. To contact Fred, email fred.petke@bluegrassnewsmedia.com or call 859-759-0051. More by Fred You Might Like News At what time do food cravings hit us the hardest? News Lawn mower injuries are preventable: How to stay safe this mowing season News Jerry Stephens retires after 24 years with NFD News Here are the JCPL events for the week of 5/11 eEdition View Today's Paper Sections Home News Sports Obituaries Opinion Public Records Contests Classifieds Small Business Services E-Edition Submit a News Tip Submit a Photo Submit a Sports Story Letters to Editor Public Notices Our Company About Us Our Partners © 2026 Jessamine Journal. Privacy Policy Terms of Service

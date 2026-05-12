@@ -1,0 +1,108 @@
+{
+  "vendor_slug": "noble-dragons",
+  "brand_name": "Noble Dragons Tea Co.",
+  "primary_domain": "https://www.nobledragons.com",
+
+  "fetched_url": "https://www.nobledragons.com/",
+  "fetched_at": "2026-05-08T01:42:25Z",
+  "fetch_status": "failed",
+
+  "tier": "3",
+  "tier_rationale": "Downgraded from seed assignment. nobledragons.com is a DTC artisan Chinese tea retailer (Pu-erh, Oolong, Black, Green, White, Hei Cha — 63 tea SKUs). Zero peptide products, zero research-use framing, zero compliance language relevant to the peptide category. The operator's vendor_universe.csv described this slug as 'Chinese B2B API supplier' which is incorrect; the live site is a consumer tea shop. This vendor is out-of-scope for the peptide vendor intelligence mission. Baseline profile only; all peptide-schema fields marked uncertain.",
+
+  "field_completion_ratio": 0.33,
+
+  "country_of_operation": "United States",
+  "fulfillment_country": "United States",
+  "ship_to_scope": "us_intl",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "Artisan Chinese Teas — Premium handcrafted teas from renowned tea masters.",
+    "hero_imagery_style": "other",
+    "primary_cta": "Browse Categories",
+    "navigation_pattern": "Category nav (Pu-erh Tea, Black Tea, Green Tea, Oolong Tea); footer links to Privacy Policy, Terms of Service, Refund Policy, Shipping Policy",
+    "footer_disclaimers": "© 2026 Noble Dragons Tea Co. All rights reserved.\nPremium teas sourced directly from renowned tea estates."
+  },
+
+  "catalog": {
+    "sku_count": 63,
+    "category_taxonomy": ["Pu-erh Tea", "Black Tea", "Green Tea", "Oolong Tea", "White Tea", "Hei Cha"],
+    "search_filter_capabilities": "Site includes a 'Find Your Tea' search field on the homepage",
+    "stack_bundle_pages_present": "false"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "https://www.nobledragons.com/terms-of-service",
+    "tos_highlights": "18+ eligibility required; Wyoming governing law; credit/debit cards via Stripe only; 30-day return policy for unopened products; no medical claims for teas",
+    "refund_policy": "30-day return for unopened/sealed products; damaged/incorrect items reported within 48 hours; refunds via Stripe to original payment method within 5-10 business days",
+    "shipping_policy": "FedEx (primary) and USPS; 3-5 business day processing; free shipping on orders $300+; ships worldwide except Iran, Iraq, Russia, North Korea, Benin, Cameroon, Egypt, Algeria, Bangladesh, Georgia, Sri Lanka"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": ["Visa", "Mastercard", "American Express", "Discover"],
+    "shipping_carriers": ["FedEx", "USPS"],
+    "shipping_cost_structure": "Calculated at checkout based on destination, weight, and method; free standard shipping on orders $300 or more",
+    "international_policy": "Ships to most countries worldwide; excluded: Iran, Iraq, Russia, North Korea, Benin, Cameroon, Egypt, Algeria, Bangladesh, Georgia, Sri Lanka; recipient responsible for customs duties"
+  },
+
+  "tech_stack": {
+    "platform_signal": "unknown",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": ["uncertain"],
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["uncertain"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "noble-dragons,Noble Dragons,nobledragons.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list,3,as-assigned,pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/noble-dragons/",
+  "evidence_file": "evidence/noble-dragons.txt",
+  "uncertainty_notes": "OUT-OF-SCOPE VENDOR: nobledragons.com is a DTC artisan Chinese tea retailer with no peptide products. The following fields are uncertain because the concept does not apply: research_use_only_phrasing (no research-use framing on any page fetched), age_gate_present (no age gate observed; TOS states 18+ eligibility but this is standard e-commerce, not a peptide-specific gate), jurisdictional_restriction_notice (no peptide-jurisdiction language), product_page_anatomy.* (no product pages fetched; tea products are out-of-scope for Pillar A SKU capture), tech_stack (platform/CDN/analytics not determinable from curl-rendered HTML alone; Stripe is confirmed as payment processor from TOS), content_footprint (no blog link visible in homepage or footer navigation), social_proof (no on-site review module visible in homepage fetch; no off-site aggregator links observed), checkout_flow.account_required and guest_checkout_available (checkout walk not performed as vendor is out-of-scope; no peptide checkout flow relevant). year_established uncertain: copyright footer reads 2026 but TOS last updated March 10, 2026 — founding year not stated. field_completion_ratio 0.33 computed over Tier 3 baseline field set: identity (6/6 ok), jurisdiction (3/4 ok — year unknown), homepage (5/5 ok), catalog (4/4 ok), trust_compliance partial (tos_url/tos_highlights/refund_policy/shipping_policy ok; research_use/age_gate/jurisdiction uncertain = 4/7 ok), checkout_flow partial (payment_methods/carriers/shipping_cost/international_policy ok; account_required/guest/fields/id_verification uncertain = 4/8 ok), remainder largely uncertain. Computed ratio: approximately 26 non-uncertain leaf values out of ~79 total Tier-3 leaf fields = 0.33. fetch_status: failed per Rule 17 (<0.40)."
+}

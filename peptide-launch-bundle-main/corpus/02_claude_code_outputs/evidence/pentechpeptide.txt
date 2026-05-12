@@ -1,0 +1,494 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://pentechpeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/homepage.md
+[LINE_RANGE] 56-59
+[QUOTE]
+"Proven Peptide Solutions
+
+# Unlock the Power of
+Science-Backed Peptides
+
+##### Explore our range of scientifically supported peptides designed to enhance your health."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://pentechpeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/homepage.md
+[LINE_RANGE] 61
+[QUOTE]
+"[ Shop Now ](https://pentechpeptide.com/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://pentechpeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/homepage.md
+[LINE_RANGE] 22-27
+[QUOTE]
+"  * [ Shop Peptides](https://pentechpeptide.com/shop/)
+  * [ Buy Water](https://pentechpeptide.com/product/bacteriostatic-water-20ml/)
+  * [ Contact Us](https://pentechpeptide.com/contact/)
+  * [ Affiliates](https://pentechpeptide.com/affiliate-registration/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://pentechpeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/homepage.md
+[LINE_RANGE] 268-271
+[QUOTE]
+All products available on this site are strictly for laboratory and developmental **RESEARCH PURPOSES ONLY** and must not be used for human consumption in any form. Pentech Peptides is a chemical supplier and Pentech Peptides is neither a compounding pharmacy nor a chemical compounding facility as defined under section 503A of the Federal Food, Drug, and Cosmetic Act. Additionally, Pentech Peptides does not qualify as an outsourcing facility under section 503B of the same act.
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://pentechpeptide.com/shop/
+[FETCHED_AT] 2026-05-08T02:14:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/catalog_1.md
+[LINE_RANGE] 54
+[QUOTE]
+"Showing all 50 resultsSorted by popularity"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://pentechpeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/homepage.md
+[LINE_RANGE] 126-135
+[QUOTE]
+"[ IGF1 & Growth Factors ](https://pentechpeptide.com/product-category/growth-hormone-peptides-igf1/)
+
+[ GLP & Metabolism ](https://pentechpeptide.com/product-category/glp1-metabolism/)
+
+[ Recovery & Repair ](https://pentechpeptide.com/product-category/recovery-injury-repair/)
+
+[ Cognitive and Neuro ](https://pentechpeptide.com/product-category/cognitive-neuroprotective/)
+
+[ Tanning & Sexual Health ](https://pentechpeptide.com/product-category/sexual-health-tanning/)
+
+[ Anti-Aging ](https://pentechpeptide.com/product-category/anti-aging/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://pentechpeptide.com/shop/
+[FETCHED_AT] 2026-05-08T02:14:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/catalog_1.md
+[LINE_RANGE] 78-80
+[QUOTE]
+"Recovery and Injury Repair  ## [Glow Blend (GHK-CU 50mg/BPC-157 10mg/TB-500 10mg)](https://pentechpeptide.com/product/glow-blend-ghk-cu-50mg-bpc-157-10mg-tb-500-10mg/) ~~$ 165~~ Original price was: $165.$85Current price is: $85."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://pentechpeptide.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_1__bpc-157.md
+[LINE_RANGE] 60
+[QUOTE]
+"# BPC 157"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://pentechpeptide.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_1__bpc-157.md
+[LINE_RANGE] 64-65
+[QUOTE]
+"Strength |  Choose an option5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://pentechpeptide.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_1__bpc-157.md
+[LINE_RANGE] 62
+[QUOTE]
+"$27 – $72Price range: $27 through $72"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://pentechpeptide.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_1__bpc-157.md
+[LINE_RANGE] 84-86
+[QUOTE]
+## **What is BPC-157?**
+
+BPC-157, also known as “Body Protection Compound 157,” is a synthetic peptide derived from a naturally occurring protein found in the stomach.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://pentechpeptide.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_1__bpc-157.md
+[LINE_RANGE] 164
+[QUOTE]
+All products available on this site are strictly for laboratory and developmental **RESEARCH PURPOSES ONLY** and must not be used for human consumption in any form. Pentech Peptides is a chemical supplier and Pentech Peptides is neither a compounding pharmacy nor a chemical compounding facility as defined under section 503A of the Federal Food, Drug, and Cosmetic Act. Additionally, Pentech Peptides does not qualify as an outsourcing facility under section 503B of the same act.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://pentechpeptide.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_1__bpc-157.md
+[LINE_RANGE] 104
+[QUOTE]
+"## Related products"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://pentechpeptide.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_1__bpc-157.md
+[LINE_RANGE] 79-100
+[QUOTE]
+"  * Description
+  * Additional information"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://pentechpeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/homepage.md
+[LINE_RANGE] 231
+[QUOTE]
+"**FOR RESEARCH PURPOSES ONLY**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://pentechpeptide.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T02:15:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/tos.md
+[LINE_RANGE] 54-57
+[QUOTE]
+"# Terms & Conditions
+
+**GENERAL TERMS AND CONDITIONS OF USE AGREEMENT**
+
+These terms and conditions govern all users of the pentechpeptide.com website. These must be agreed upon before any purchases can be made."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://pentechpeptide.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T02:15:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/tos.md
+[LINE_RANGE] 83-97
+[QUOTE]
+"YOU MUST BE OVER 21 YEARS OLD TO USE THIS WEBSITE.
+
+The products we offer are intended for IN-VITRO LABORATORY RESEARCH USE ONLY. The products are NOT FOR HUMAN or ANIMAL USE OR CONSUMPTION OF ANY KIND.
+
+The products offered on this website are NOT INTENDED TO DIAGNOSE, CURE, MITIGATE, TREAT, or PREVENT DISEASE.
+
+In purchasing any of these items, the customer acknowledges that there are risks involved with consumption or distribution of these products.
+
+These chemicals are NOT intended to use as food additives, drugs, household chemicals, or other inappropriate applications.
+
+The listing of a material on this site does not constitute a license to its use in infringement of any patent.
+
+All of the products will be handled only by qualified and properly trained RESEARCH or LABORATORY professionals only.
+
+Due to the nature of these products, ALL SALES ARE FINAL. WE CANNOT ACCEPT RETURNS."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://pentechpeptide.com/return-policy/
+[FETCHED_AT] 2026-05-08T02:15:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/refund.md
+[LINE_RANGE] 56-58
+[QUOTE]
+Due to the high standards of our quality control and the sensitive nature of our products, **Pentech Peptides is unable to accept returns**. If you encounter any issues with your order such as missing, incorrect, or damaged items, please reach out to our support team at [[email protected]](/cdn-cgi/l/email-protection#c0b3b5b0b0afb2b480b0a5aeb4a5a3a8b0a5b0b4a9a4a5eea3afad) for prompt assistance. Our customer support team is committed to ensuring your complete satisfaction with our products, service, and delivery.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://pentechpeptide.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_1__bpc-157.md
+[LINE_RANGE] 75
+[QUOTE]
+"  * Crypto and Venmo Payments"
+[/QUOTE]
+
+[URL] https://pentechpeptide.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T02:15:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/tos.md
+[LINE_RANGE] 62-63
+[QUOTE]
+"All e-Check/ACH payments will be made payable to pentechpeptides, Inc.
+I authorize pentechpeptide.com to initiate a single ACH/electronic debit to my account in the amount of my order from the bank account information provided on the date of my order."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://pentechpeptide.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_1__bpc-157.md
+[LINE_RANGE] 73
+[QUOTE]
+"Free shipping on orders over $150!"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://pentechpeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/source_homepage.md
+[LINE_RANGE] 1-3
+[QUOTE]
+"Platform: WordPress + WooCommerce
+CDN: Cloudflare (server: cloudflare)
+GA4: G-ZB55PWSZRS"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://pentechpeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/source_homepage.md
+[LINE_RANGE] 2
+[QUOTE]
+"CDN: Cloudflare (server: cloudflare)"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://pentechpeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/source_homepage.md
+[LINE_RANGE] 3
+[QUOTE]
+"GA4: G-ZB55PWSZRS"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://pentechpeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/homepage.md
+[LINE_RANGE] 232-233
+[QUOTE]
+"Providing the highest quality
+USA based peptides."
+[/QUOTE]
+
+[CLAIM] skus[pentechpeptide:bpc-157-5mg].list_price_usd
+[CLAIM] skus[pentechpeptide:bpc-157-10mg].list_price_usd
+[URL] https://pentechpeptide.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_1__bpc-157.md
+[LINE_RANGE] 62-65
+[QUOTE]
+"$27 – $72Price range: $27 through $72
+
+Strength |  Choose an option5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] skus[pentechpeptide:tb-500-2mg].list_price_usd
+[CLAIM] skus[pentechpeptide:tb-500-5mg].list_price_usd
+[CLAIM] skus[pentechpeptide:tb-500-10mg].list_price_usd
+[URL] https://pentechpeptide.com/product/tb-500/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_2__tb-500.md
+[LINE_RANGE] 62-65
+[QUOTE]
+"$14 – $58Price range: $14 through $58
+
+Strength |  Choose an option2mg5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] skus[pentechpeptide:ghk-cu-50mg].list_price_usd
+[CLAIM] skus[pentechpeptide:ghk-cu-50mg].sale_price_usd
+[CLAIM] skus[pentechpeptide:ghk-cu-50mg].out_of_stock
+[URL] https://pentechpeptide.com/product/ghk-cu-50mg/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_6__ghk-cu-50mg.md
+[LINE_RANGE] 62-65
+[QUOTE]
+"~~$ 75~~ Original price was: $75.$31Current price is: $31.
+
+Out of stock"
+[/QUOTE]
+
+[CLAIM] skus[pentechpeptide:semaglutide-5mg].list_price_usd
+[CLAIM] skus[pentechpeptide:semaglutide-5mg].sale_price_usd
+[URL] https://pentechpeptide.com/product/semaglutide-5mg/
+[FETCHED_AT] 2026-05-08T02:15:19Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_3__semaglutide-5mg.md
+[LINE_RANGE] 60-64
+[QUOTE]
+# GLP-1SG
+
+~~$ 78~~ Original price was: $78.$35Current price is: $35.
+
+Availability: In stock
+[/QUOTE]
+
+[CLAIM] skus[pentechpeptide:retatrutide-5mg].list_price_usd
+[CLAIM] skus[pentechpeptide:retatrutide-10mg].list_price_usd
+[URL] https://pentechpeptide.com/product/glp-3rt/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_4__glp-3rt.md
+[LINE_RANGE] 63-67
+[QUOTE]
+"$55 – $225Price range: $55 through $225
+
+Strength |  Choose an option5mg10mg15mg20mg30mgClear"
+[/QUOTE]
+
+[CLAIM] skus[pentechpeptide:tirzepatide-10mg].list_price_usd
+[URL] https://pentechpeptide.com/product/glp-2tz/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_11__glp-2tz.md
+[LINE_RANGE] 63-66
+[QUOTE]
+"$53 – $275Price range: $53 through $275
+
+Strength |  Choose an option10mg20mg40mg60mg80mgClear"
+[/QUOTE]
+
+[CLAIM] skus[pentechpeptide:mots-c-10mg].list_price_usd
+[CLAIM] skus[pentechpeptide:mots-c-40mg].list_price_usd
+[URL] https://pentechpeptide.com/product/mots-c/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_5__mots-c.md
+[LINE_RANGE] 62-65
+[QUOTE]
+"$49 – $135Price range: $49 through $135
+
+Strength |  Choose an option10mg40mgClear"
+[/QUOTE]
+
+[CLAIM] skus[pentechpeptide:ipamorelin-2mg].list_price_usd
+[CLAIM] skus[pentechpeptide:ipamorelin-10mg].list_price_usd
+[URL] https://pentechpeptide.com/product/ipamorelin/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_7__ipamorelin.md
+[LINE_RANGE] 62-65
+[QUOTE]
+"$14 – $43Price range: $14 through $43
+
+Strength |  Choose an option2mg5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] skus[pentechpeptide:cjc-1295-nodac-5mg].list_price_usd
+[CLAIM] skus[pentechpeptide:cjc-1295-nodac-5mg].sale_price_usd
+[URL] https://pentechpeptide.com/product/cjc-1295-without-dac-5mg/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_8__cjc-1295-nodac.md
+[LINE_RANGE] 62-63
+[QUOTE]
+"~~$ 70~~ Original price was: $70.$53Current price is: $53."
+[/QUOTE]
+
+[CLAIM] skus[pentechpeptide:cjc-1295-dac-5mg].list_price_usd
+[CLAIM] skus[pentechpeptide:cjc-1295-dac-5mg].sale_price_usd
+[URL] https://pentechpeptide.com/product/cjc-1295-with-dac-5mg/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_9__cjc-1295-dac.md
+[LINE_RANGE] 62-63
+[QUOTE]
+"~~$ 90~~ Original price was: $90.$57Current price is: $57."
+[/QUOTE]
+
+[CLAIM] skus[pentechpeptide:epithalon-10mg].list_price_usd
+[CLAIM] skus[pentechpeptide:epithalon-10mg].sale_price_usd
+[URL] https://pentechpeptide.com/product/epithalon-10mg/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_10__epithalon.md
+[LINE_RANGE] 62-63
+[QUOTE]
+"~~$ 79~~ Original price was: $79.$33Current price is: $33."
+[/QUOTE]
+
+[CLAIM] skus[pentechpeptide:cagrilintide-5mg].list_price_usd
+[URL] https://pentechpeptide.com/product/cagrilintide/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_12__cagrilintide.md
+[LINE_RANGE] 63-65
+[QUOTE]
+"$40 – $102Price range: $40 through $102
+Strength |  Choose an option5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+Homepage uses clean product imagery showing research vials, clinical-language headers ("Science-Backed Peptides"), and no lifestyle or meme-coded content. The hero section emphasizes research legitimacy over consumer lifestyle.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://pentechpeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/homepage.md
+[LINE_RANGE] 54-59
+"##### Proven Peptide Solutions
+
+# Unlock the Power of
+Science-Backed Peptides
+
+##### Explore our range of scientifically supported peptides designed to enhance your health."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://pentechpeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/homepage.md
+[LINE_RANGE] 231-233
+"**FOR RESEARCH PURPOSES ONLY**
+
+Providing the highest quality
+USA based peptides."
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[pentechpeptide:tb-500-5mg].list_price_usd
+[INFERENCE] 34.00
+[REASONING]
+TB-500 has 2mg, 5mg, and 10mg variants with range $14-$58. The 2mg floor is $14 (confirmed from catalog "TB-500 $14-$58") and the 10mg ceiling is $58 (implied by range top). The 5mg mid-tier price of $34 is a linear interpolation estimate between $14 (2mg) and $58 (10mg) given the dose relationships of peptide vendors; however the exact price was not rendered on the catalog or product page because price requires selecting variant via JavaScript. This is an [INFERENCE].
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://pentechpeptide.com/product/tb-500/
+[FETCHED_AT] 2026-05-08T02:15:18Z
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/product_2__tb-500.md
+[LINE_RANGE] 62-65
+"$14 – $58Price range: $14 through $58
+
+Strength |  Choose an option2mg5mg10mgClear"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://pentechpeptide.com/shop/
+[FETCHED_AT] 2026-05-08T02:14:33Z
+[RAW_ARTIFACT] 03_raw_fetches/pentechpeptide/catalog_1.md
+[LINE_RANGE] 329-331
+"  * [](https://pentechpeptide.com/product/tb-500/)Sale![ Select options  ](https://pentechpeptide.com/product/tb-500/)
+
+Peptides  ## [TB-500](https://pentechpeptide.com/product/tb-500/) $14 – $58Price range: $14 through $58"
+[/SUPPORT_QUOTE]

@@ -1,0 +1,394 @@
+VENDOR-INSTAGRAM CHANNEL EVIDENCE FILE
+Channel: Vendor-owned Instagram accounts
+Captured: 2026-05-06
+Captured by: claude-opus-4-7-1m (deep-research subagent)
+
+Format note: Each [CLAIM] block carries one or more [URL] / [QUOTE] pairs.
+Where Instagram's anti-bot returned image-only content, the [QUOTE] is from
+the indexed Google search-result snippet that surfaces the Instagram-
+served metadata (page title, profile bio meta-tag, etc.). These snippets
+are explicitly flagged in the [FETCH_METHOD] field as "websearch_snippet"
+to distinguish them from direct-fetch quotes.
+
+[QUOTE] blocks must grep-match the corresponding [RAW_ARTIFACT].
+
+==============================================================================
+
+[CLAIM] claim-001 — Peptide Sciences operates the IG handle @peptide.sciences with bio framing as a clinical/scientific account; brand voluntarily shut down March 6, 2026.
+
+[URL] https://www.instagram.com/peptide.sciences/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet (direct WebFetch returned base64 image placeholders)
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/peptide-sciences__ig-profile-search.md
+[LINE_RANGE] 11-21
+[QUOTE]Handle: @peptide.sciences
+Profile URL: https://www.instagram.com/peptide.sciences/
+Display name: "Peptide Sciences"
+Bio (per indexed snippet): "Peptides, proteins & amino acid derivatives"[/QUOTE]
+
+[URL] https://thepeptidecatalog.com/articles/what-happened-to-peptide-sciences
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/peptide-sciences__ig-profile-search.md
+[LINE_RANGE] 22-22
+[QUOTE]parent company Peptide Sciences voluntarily shut down operations on March 6, 2026[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-002 — Biotech Peptides has NO discoverable owned Instagram account; vendor website footer carries zero social media icons or links.
+
+[URL] https://biotechpeptides.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/biotech-peptides__ig-search.md
+[LINE_RANGE] 13-13
+[QUOTE]"No Instagram links or social media icons found in the provided webpage content."[/QUOTE]
+
+[URL] https://biotechpeptides.com/contact-us/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/biotech-peptides__ig-search.md
+[LINE_RANGE] 17-26
+[QUOTE]Searched: "@biotechpeptides", "@biotech_peptides", "biotech peptides instagram", "biotechpeptides.com instagram social media handles vendor".
+
+No owned Instagram account discovered.[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-003 — Core Peptides has IG account @corepeptides but vendor website footer does not link it; account appears dormant with indexed posts dating back to 2021.
+
+[URL] https://www.corepeptides.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/core-peptides__ig-profile-search.md
+[LINE_RANGE] 11-11
+[QUOTE]"No Instagram links or social media icons were found in the provided webpage content."[/QUOTE]
+
+[URL] https://www.instagram.com/corepeptides/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/core-peptides__ig-profile-search.md
+[LINE_RANGE] 22-25
+[QUOTE]Handle: @corepeptides
+Profile URL: https://www.instagram.com/corepeptides/
+Indexed posts: /p/CPFbS_zlKes/ ("5 core peptides", indexed 2021), /p/CxV6FYzxFPh/ (undated)[/QUOTE]
+
+[URL] https://x.com/Core_Peptide
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/core-peptides__ig-profile-search.md
+[LINE_RANGE] 32-32
+[QUOTE]The @Core_Peptide account on X shows 2 followers, 4 following, and the account joined in September 2025.[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-004 — Pure Rawz operates a halo of 4-5 IG handles, with @purerawzrevolution as the largest at 11K followers and 274 posts; affiliate captions carry the "research only" compliance phrasing.
+
+[URL] https://www.instagram.com/purerawzrevolution/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/pure-rawz__ig-profile-search.md
+[LINE_RANGE] 14-14
+[QUOTE]| @purerawzrevolution | 11K | 1,650 | 274 | "Stars, Stripes, and Science Top-Quality Compounds" / "PURE. RAW. AWESOME"; directs traffic to purerawz.co |[/QUOTE]
+
+[URL] https://www.instagram.com/p/DTuTNmEjhfG/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/pure-rawz__ig-profile-search.md
+[LINE_RANGE] 30-31
+[QUOTE]Compliance phrase: "For research purposes only. Not intended for human consumption."[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-005 — Behemoth Labz vendor website explicitly links to @behemothlabz in the footer; Behemoth runs a halo of 4 satellite handles for account-loss insurance.
+
+[URL] https://behemothlabz.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/behemoth-labz__ig-profile-search.md
+[LINE_RANGE] 13-15
+[QUOTE]"The website includes a social media icon linking to: https://www.instagram.com/behemothlabz/"
+Other social: facebook.com/behemothlabz/, tiktok.com/@behemothlabzofficial, x.com/BHLabzOfficial[/QUOTE]
+
+[URL] https://behemothlabz.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/behemoth-labz__ig-profile-search.md
+[LINE_RANGE] 18-18
+[QUOTE]"All products sold on this website are intended for research and identification purposes only. These products are not intended for human dosing, injection, or ingestion."[/QUOTE]
+
+[URL] https://www.instagram.com/behemoth_labz_official/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/behemoth-labz__ig-profile-search.md
+[LINE_RANGE] 25-25
+[QUOTE]| @behemoth_labz_official | 92 | 7 | 89 | "Elite research-grade formulas. Engineered for power, precision & progress. Behemothlabz | Built Different" |[/QUOTE]
+
+[URL] https://www.instagram.com/behemothlabz_research/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/behemoth-labz__ig-profile-search.md
+[LINE_RANGE] 26-26
+[QUOTE]| @behemothlabz_research | 1,292 | 248 | 33 | "Supplying Highest Quality Kick-Ass Research Compounds. Worldwide Shipping. Head over to our main page: @behemothlabz" |[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-006 — Limitless Life Nootropics / Limitless Biotech operates @limitless_biotech (7,922 followers, 186 posts); vendor storefront does NOT link to IG.
+
+[URL] https://limitlesslifenootropics.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/limitless-life-nootropics__ig-profile-search.md
+[LINE_RANGE] 13-13
+[QUOTE]"I found no Instagram links or social media icons in the provided webpage content. There are no references to instagram.com or other social media platforms."[/QUOTE]
+
+[URL] https://www.instagram.com/limitless_biotech/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/limitless-life-nootropics__ig-profile-search.md
+[LINE_RANGE] 21-25
+[QUOTE]Handle: @limitless_biotech
+Profile URL: https://www.instagram.com/limitless_biotech/
+Followers: 7,922
+Following: 68
+Posts: 186[/QUOTE]
+
+[URL] https://www.instagram.com/limitless_biotech/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/limitless-life-nootropics__ig-profile-search.md
+[LINE_RANGE] 26-26
+[QUOTE]Bio (from search snippet): "Premium USA-made peptides for advanced science. Third-party tested for purity and accuracy. Supporting diverse research areas."[/QUOTE]
+
+[URL] https://www.instagram.com/p/CmkYGmgsVsG/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/limitless-life-nootropics__ig-profile-search.md
+[LINE_RANGE] 36-39
+[QUOTE]Post by Ben Greenfield (@bengreenfieldfitness, verified), URL https://www.instagram.com/p/CmkYGmgsVsG/, marked "Paid partnership"
+Discount code: "BEN" for 15% off
+Hashtags: #bengreenfield #longevity #peptides #antiaging #nootropics #nootropicsupplements[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-007 — Swiss Chems operates @swisschemsofficial (430 followers, 45 posts) plus multiple staged-empty satellite handles indicating reincarnation hedge.
+
+[URL] https://www.instagram.com/swisschemsofficial/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/swiss-chems__ig-profile-search.md
+[LINE_RANGE] 19-19
+[QUOTE]| @swisschemsofficial | 430 | 119 | 45 | "The Future of Research with Innovation & Quality." |[/QUOTE]
+
+[URL] https://www.instagram.com/swisschemsupgraded/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/swiss-chems__ig-profile-search.md
+[LINE_RANGE] 23-23
+[QUOTE]| @swisschemsupgraded | not extractable | n/a | n/a | new-handle pattern (the "Upgraded" suffix is a tell for a reincarnation account) |[/QUOTE]
+
+[URL] https://www.instagram.com/reel/DFZN3vwRLBm/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/swiss-chems__ig-profile-search.md
+[LINE_RANGE] 30-32
+[QUOTE]"Available at: Swisschems.is - use code 'ESCO' to save"
+"Click Link in profile to visit the site @tristenescolastico"
+Hashtags: #sarms #peptides #trt #hrt #gains #bodybuilding[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-008 — The Peptide Guy / thepeptideguyy.com (the closest "Peptide Guys" anchor) runs IG @thepeptideguyy with 40K followers; bio drops "research-only" framing entirely.
+
+[URL] https://thepeptideguyy.com/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/peptide-guys__ig-profile-search.md
+[LINE_RANGE] 19-21
+[QUOTE]"Instagram handle: @thepeptideguyy (mentioned multiple times)"
+"TikTok: @thepeptideguyy"
+"YouTube: @thepeptideguyy"[/QUOTE]
+
+[URL] https://www.instagram.com/thepeptideguyy/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/peptide-guys__ig-profile-search.md
+[LINE_RANGE] 35-37
+[QUOTE]Followers: 40K
+Bio (snippet): "THE PEPTIDE GUY — Helping you heal & live longer with peptides. DM 'HEAL' to begin. Peptides & 30min Consultations"[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-009 — Amino Asylum's main IG @aminoasylum survives with 45K followers but ZERO publications and bland "Preworkout & Intra" bio after FDA raid (June 2025); backup handle also dormant.
+
+[URL] https://www.instagram.com/aminoasylum/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/amino-asylum__ig-profile-search.md
+[LINE_RANGE] 17-17
+[QUOTE]| @aminoasylum (main) | 45K | 2,422 | 0 (publications) | "Preworkout & Intra 👇🏼" |[/QUOTE]
+
+[URL] https://www.instagram.com/aminoasylum_backup/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/amino-asylum__ig-profile-search.md
+[LINE_RANGE] 18-18
+[QUOTE]| @aminoasylum_backup | ~2,972 | 0 | 0 | "Backup account for @aminoasylum" |[/QUOTE]
+
+[URL] https://aminoasylum.shop/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/amino-asylum__ig-profile-search.md
+[LINE_RANGE] 11-11
+[QUOTE]WebFetch of https://aminoasylum.shop/ on 2026-05-06 returned HTTP 301 redirect to peptidecoupons.com.[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-010 — Domestic Supply / Domestic Peptides operates two distinct IG accounts: @domesticpeptides (5,480 followers, research-frame bio) and @domesticsupplysteroids (7,913 followers, explicit "steroids" handle).
+
+[URL] https://www.instagram.com/domesticpeptides/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/domestic-supply__ig-profile-search.md
+[LINE_RANGE] 16-16
+[QUOTE]| @domesticpeptides | 5,480 | n/a | n/a | "the distributor of USA made Research Peptides and Chemicals with a Purity of 98.8% or better!" |[/QUOTE]
+
+[URL] https://www.instagram.com/domesticsupplysteroids/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/domestic-supply__ig-profile-search.md
+[LINE_RANGE] 17-17
+[QUOTE]| @domesticsupplysteroids | 7,913 | 1,081 | 9 | "US domestic supply." |[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-011 — Influencer / industry-commentary IG accounts publicly mark vendor shutdowns ("RIP @aminoasylum and ResearchChem"), confirming the audience-visibility of vendor-collapse events.
+
+[URL] https://www.instagram.com/reel/DLVNkakRKzQ/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/amino-asylum__ig-profile-search.md
+[LINE_RANGE] 35-36
+[QUOTE]Post by @priceplow, URL https://www.instagram.com/reel/DLVNkakRKzQ/, exact caption:
+> "RIP @aminoasylum and ResearchChem"[/QUOTE]
+
+[URL] https://www.instagram.com/reel/DLDkW7LxoGw/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/amino-asylum__ig-profile-search.md
+[LINE_RANGE] 38-40
+[QUOTE]Post by @dynamite_d, URL https://www.instagram.com/reel/DLDkW7LxoGw/, exact caption:
+> "Amino asylum has officially been shut down"
+> Hashtags: #bodybuilding #news #peptides[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-013 — Researchem (Amino Asylum sister-brand) IG account preserves 52K followers with zero posts and "Soon... ⤵️" bio — the textbook reincarnation hold pattern.
+
+[URL] https://www.instagram.com/researchem.is/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/amino-asylum__ig-profile-search.md
+[LINE_RANGE] 22-26
+[QUOTE]Handle: @researchem.is
+Followers: 52K
+Following: 5
+Posts: 0
+Bio: "Soon... ⤵️"[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-014 — Peptide Sciences voluntarily shut down operations on March 6, 2026; multiple industry sources document the closure and "social media activity has ceased."
+
+[URL] https://thepeptidecatalog.com/articles/peptide-sciences-shut-down-alternatives
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/peptide-sciences__ig-profile-search.md
+[LINE_RANGE] 22-22
+[QUOTE]parent company Peptide Sciences voluntarily shut down operations on March 6, 2026[/QUOTE]
+
+[URL] https://www.instagram.com/p/DVwcAkBjmjG/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/peptide-sciences__ig-profile-search.md
+[LINE_RANGE] 22-22
+[QUOTE]"The recent shutdown of Peptide Sciences, one of the largest online peptide suppliers, has sparked major conversation in the health and longevity space."[/QUOTE]
+
+[URL] https://www.instagram.com/p/DVjgR3_ktsf/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/peptide-sciences__ig-profile-search.md
+[LINE_RANGE] 22-22
+[QUOTE]"One of the largest research peptide companies in the country just shut its doors. Peptide Sciences has officially discontinued operations."[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-015 — FDA enforcement timeline against research-peptide vendors escalated 2024-2026, including warning letters to Swiss Chems (Dec 2024) and FDA raid of Amino Asylum (June 2025).
+
+[URL] https://muscleandbrawn.com/reviews/amino-asylum-raided-in-2025/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/amino-asylum__ig-profile-search.md
+[LINE_RANGE] 11-11
+[QUOTE]In June 2025, FDA agents raided Amino Asylum's warehouse — the site went offline overnight, payment processing was terminated, and pending orders were frozen.[/QUOTE]
+
+[URL] https://peptideexaminer.com/articles/fda-peptide-enforcement-2025-guide/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/swiss-chems__ig-profile-search.md
+[LINE_RANGE] 41-41
+[QUOTE]"In December 2024, FDA issued warning letters to Prime Peptides, Xcel Peptides, SwissChems, and Summit Research for selling unapproved drug products."[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-016 — Amino Asylum's website remains offline as of February 2026, over 9 months after the FDA raid; the IG handle is the surviving public artifact.
+
+[URL] https://muscleandbrawn.com/reviews/amino-asylum-raided-in-2025/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] websearch_snippet
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/amino-asylum__ig-profile-search.md
+[LINE_RANGE] 11-11
+[QUOTE]As of February 2026, Amino Asylum's website remains offline.[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-018 — Vendors do NOT consistently include compound-name hashtags (#bpc157, #tb500) in vendor-account captions; compound-specific hashtag use surfaces predominantly on third-party clinic / explainer accounts.
+
+[INFERENCE] Reviewed 6 vendor-account or vendor-affiliate captions captured during the survey (Behemoth Labz @behemothlabz_research SARMs caption; PureRawz @prz.supplements; PureRawz Enclomiphene Citrate post; PureRawz @purerawzrevolution 2026 post; Swiss Chems affiliate @tristenescolastico reel; Limitless via Ben Greenfield paid partnership). NONE include compound-specific hashtags like #bpc157, #tb500, or #retatrutide. By contrast, the third-party Steel City Medical Center post about the Peptide Sciences shutdown DOES use #Peptides #FDA #PeptideTherapy #hormonetherapy #SteelCityMedicalCenter — a clinic-explainer hashtag set, distinct from vendor-account hashtag set.
+
+[SUPPORT_QUOTE]
+[URL] https://www.instagram.com/p/DJJlZ5nt2-g/
+[QUOTE]Hashtags: #SARMsResearch #Top5SARMs #BehemothLabz[/QUOTE]
+[/SUPPORT_QUOTE]
+
+[SUPPORT_QUOTE]
+[URL] https://www.instagram.com/p/DVwcAkBjmjG/
+[QUOTE]"#Peptides #FDA #hormonetherapy #SteelCityMedicalCenter #PeptideTherapy"[/QUOTE]
+[/SUPPORT_QUOTE]
+
+[REASONING] The vendor-account hashtag taxonomy is intentionally generic and brand-defensive (own brand name, "Research Chemicals", "Lab Tested") — not specific compound names. The clinic / explainer hashtag taxonomy is regulatory-engaged ("FDA", "PeptideTherapy"). This split tracks with Meta's classifier-evasion incentive: vendors avoid hashtags that mark them for surveillance.
+
+==============================================================================
+
+[CLAIM] claim-019 — Affiliate captions use "For research purposes only. Not intended for human consumption." as the standard compliance closer (PureRawz template).
+
+[URL] https://www.instagram.com/p/DTuTNmEjhfG/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/pure-rawz__ig-profile-search.md
+[LINE_RANGE] 30-31
+[QUOTE]Compliance phrase: "For research purposes only. Not intended for human consumption."[/QUOTE]
+
+==============================================================================
+
+[CLAIM] claim-020 — Behemoth Labz vendor-account captions append the compliance closer "All compounds listed are intended for research purposes only and are not for human consumption."
+
+[URL] https://www.instagram.com/p/DJJlZ5nt2-g/
+[FETCHED_AT] 2026-05-06
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/vendor-instagram/behemoth-labz__ig-profile-search.md
+[LINE_RANGE] 41-41
+[QUOTE]"All compounds listed are intended for research purposes only and are not for human consumption."[/QUOTE]
+
+==============================================================================
+END OF EVIDENCE FILE

@@ -1,0 +1,710 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://peptideskingdom.com
+[FETCHED_AT] 2026-05-08T06:34:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/homepage.md
+[LINE_RANGE] 114-116
+[QUOTE]
+"Science Demands Purity.
+We Deliver 99%+"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://peptideskingdom.com
+[FETCHED_AT] 2026-05-08T06:34:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/homepage.md
+[LINE_RANGE] 114-132
+[QUOTE]
+"Premium research peptides. 99%+ purity, third party tested, shipped from the USA. *ISO 9001:2015 Certified Facilities*"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://peptideskingdom.com
+[FETCHED_AT] 2026-05-08T06:34:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/homepage.md
+[LINE_RANGE] 119
+[QUOTE]
+"[Shop Peptides](/shop) [View FAQ](/compliance-faq/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://peptideskingdom.com
+[FETCHED_AT] 2026-05-08T06:34:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/homepage.md
+[LINE_RANGE] 35-60
+[QUOTE]
+"[Home](https://peptideskingdom.com/)
+[Compliance & Faq](https://peptideskingdom.com/compliance-faq/)
+[Contact](https://peptideskingdom.com/contact/)
+[About Us](https://peptideskingdom.com/about-us/)
+[Peptide Academy ](https://peptideskingdom.com/peptide-academy/)
+[ Shop Peptides ](https://peptideskingdom.com/shop/)
+[ V.I.P Member ](https://peptideskingdom.com/vip/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://peptideskingdom.com
+[FETCHED_AT] 2026-05-08T06:34:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/homepage.md
+[LINE_RANGE] 439-451
+[QUOTE]
+"**Research Use Only**
+
+99%+ Purity
+
+Discreet Ship
+
+Secure Pay
+
+COA Included
+
+Expert Support
+
+© 2026 Peptide Kingdom. All rights reserved."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://peptideskingdom.com/compliance-faq/
+[FETCHED_AT] 2026-05-08T06:35:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/compliance.md
+[LINE_RANGE] 174
+[QUOTE]
+Orders typically ship within **1-3 business day** from our U.S. facility in discreet, unmarked packaging.
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://peptideskingdom.com/terms/
+[FETCHED_AT] 2026-05-08T06:35:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/tos.md
+[LINE_RANGE] 172-175
+[QUOTE]
+"We ship to addresses within the United States only
+All shipments require signature confirmation
+We reserve the right to restrict shipping to certain addresses or regions
+International shipping is prohibited due to regulatory restrictions"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 133-400
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/peptideskingdom/catalog_1.md:
+Products visible on shop page including both lyophilized vials and nasal spray formats. Total enumerated: ~40 distinct SKUs (some multi-variant products count as separate dose SKUs). Pagination indicator shows 4 pages with ~10 products per page but all products were visible on the single catalog fetch which had no hard pagination cutoff in the rendered text.
+[FILES]
+catalog_1.md (all products on single page)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 107-117
+[QUOTE]
+"**99%+ Verified Purity** **99%+ Purity** _Third-party tested_
+**Secure Checkout** **Secure** _256-bit encryption_
+**Discreet Shipping** **Discreet** _Fast & unmarked_
+**COA with Every Order** **COA Included** _Lot-matched & traceable_
+All Products  Nasal Spray  Lyophilized"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 202-208
+[QUOTE]
+"## [(Wolverine Blend) BPC-157(5mg) + TB-500(5mg)](https://peptideskingdom.com/product/bpc-157-tb-500-blend/) ~~$ 150.00~~ $85.00 – $100.00Price range: $85.00 through $100.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://peptideskingdom.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:35:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/product_1__bpc-157.md
+[LINE_RANGE] 118
+[QUOTE]
+"# BPC-157"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://peptideskingdom.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:35:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/product_1__bpc-157.md
+[LINE_RANGE] 121
+[QUOTE]
+"Dosage |  Choose an option10mg5mg2mg10mg5mg2mgClear"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://peptideskingdom.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:35:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/product_1__bpc-157.md
+[LINE_RANGE] 120
+[QUOTE]
+"~~$ 30.00 – $95.00Price range: $30.00 through $95.00~~ $25.00 – $69.00Price range: $25.00 through $69.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://peptideskingdom.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:35:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/product_1__bpc-157.md
+[LINE_RANGE] 210
+[QUOTE]
+"Our BPC-157 (Body Protection Compound-157) research peptide represents the gold standard for gastrointestinal and tissue repair research requiring exceptional purity and documentation."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://peptideskingdom.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:35:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/product_1__bpc-157.md
+[LINE_RANGE] 357
+[QUOTE]
+_**RUO disclaimer:** For laboratory research use only. Not for human or veterinary consumption or therapeutic applications._
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://peptideskingdom.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:35:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/product_1__bpc-157.md
+[LINE_RANGE] 359-379
+[QUOTE]
+"## Certificate of Analysis (COA)
+
+Click any batch below to view its Certificate of Analysis:
+
+📄 5mg — Batch: BSL032026 (March 2026)
+
+📄 5mg — Batch: BSL112025 (November 2025)
+
+📄 10mg — Batch: BSL032026 (March 2026)
+
+📄 10mg — Batch: BSL112025 (November 2025)
+
+📄 10mg — Batch: BSL092025 (September 2025)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://peptideskingdom.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:35:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/product_1__bpc-157.md
+[LINE_RANGE] 363
+[QUOTE]
+"📄 5mg — Batch: BSL032026 (March 2026)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://peptideskingdom.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:35:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/product_1__bpc-157.md
+[LINE_RANGE] 390-402
+[QUOTE]
+"## Related products
+
+  * [](https://peptideskingdom.com/product/mots-c/)[ Select options  ](https://peptideskingdom.com/product/mots-c/)
+
+## [MOTS-c (10mg)](https://peptideskingdom.com/product/mots-c/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://peptideskingdom.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:35:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/product_1__bpc-157.md
+[LINE_RANGE] 198-202
+[QUOTE]
+"  * Description
+  * Certificate of Analysis (COA)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://peptideskingdom.com/terms/
+[FETCHED_AT] 2026-05-08T06:35:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/tos.md
+[LINE_RANGE] 120
+[QUOTE]
+"**ALL PRODUCTS ARE FOR RESEARCH USE ONLY.** Products sold by Peptides Kingdom are NOT approved for human consumption, therapeutic use, or any clinical application. By purchasing from us, you acknowledge you are 21 years of age or older and are purchasing solely for legitimate research purposes."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://peptideskingdom.com
+[FETCHED_AT] 2026-05-08T06:34:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/homepage.md
+[LINE_RANGE] 18-24
+[QUOTE]
+"## You must be 21 or older to enter
+
+PeptidesKingdom sells **premium research peptides** for research use only. Our products are strictly restricted to adults aged 21 and above.
+
+✦   I am 21 or older — Enter Site I am under 21 — Exit"
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://peptideskingdom.com/terms/
+[FETCHED_AT] 2026-05-08T06:35:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/tos.md
+[LINE_RANGE] 172-175
+[QUOTE]
+"We ship to addresses within the United States only
+International shipping is prohibited due to regulatory restrictions"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://peptideskingdom.com/terms/
+[FETCHED_AT] 2026-05-08T06:35:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/tos.md
+[LINE_RANGE] 110
+[QUOTE]
+"# Terms & Conditions"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://peptideskingdom.com/terms/
+[FETCHED_AT] 2026-05-08T06:35:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/tos.md
+[LINE_RANGE] 134-136
+[QUOTE]
+"  * At least 21 years of age
+  * Purchasing solely for legitimate scientific research purposes
+  * Knowledgeable about the proper handling, storage, and disposal of research chemicals"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://peptideskingdom.com/terms/
+[FETCHED_AT] 2026-05-08T06:35:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/tos.md
+[LINE_RANGE] 207-210
+[QUOTE]
+"  * Returns accepted within 7 days of delivery for unopened products only
+  * Custom or special-order items are non-returnable
+  * Customer responsible for return shipping costs
+  * Refunds processed within 5-10 business days after inspection"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://peptideskingdom.com/returns/
+[FETCHED_AT] 2026-05-08T06:35:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/refund.md
+[LINE_RANGE] 130-136
+[QUOTE]
+🎉 FREE STANDARD SHIPPING
+On orders over $150 • 3-5 business days
+  * **Standard Shipping:** $9.95 (3-5 business days)
+  * **Expedited Shipping:** $19.95 (2-3 business days)
+  * **Overnight Express:** $60.00 (1 business day)
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://peptideskingdom.com/terms/
+[FETCHED_AT] 2026-05-08T06:35:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/tos.md
+[LINE_RANGE] 162
+[QUOTE]
+"  * We accept major credit cards processed through Stripe"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://peptideskingdom.com/returns/
+[FETCHED_AT] 2026-05-08T06:35:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/refund.md
+[LINE_RANGE] 215
+[QUOTE]
+"No, we only ship within the United States due to regulatory restrictions on research chemicals."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://peptideskingdom.com/returns/
+[FETCHED_AT] 2026-05-08T06:35:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/refund.md
+[LINE_RANGE] 134-136
+[QUOTE]
+  * **Standard Shipping:** $9.95 (3-5 business days)
+  * **Expedited Shipping:** $19.95 (2-3 business days)
+  * **Overnight Express:** $60.00 (1 business day)
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://peptideskingdom.com/returns/
+[FETCHED_AT] 2026-05-08T06:35:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/refund.md
+[LINE_RANGE] 186-204
+[QUOTE]
+"  * Universities and research institutions
+  * Licensed laboratories
+  * Qualified research facilities
+
+### ❌ We Cannot Ship To:
+
+  * International addresses
+  * P.O. Boxes or mail forwarding services
+  * Residential addresses without research verification
+  * Addresses flagged by carriers"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://peptideskingdom.com
+[FETCHED_AT] 2026-05-08T06:36:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/source_homepage.md
+[LINE_RANGE] 16-19
+[QUOTE]
+"Platform: WordPress (wp-content, wp-json present in source)
+Theme: Astra (ast-global-color-* CSS variables present)
+E-commerce: WooCommerce (woocommerce in source)
+CDN: Cloudflare (server: cloudflare header)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://peptideskingdom.com
+[FETCHED_AT] 2026-05-08T06:36:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/source_homepage.md
+[LINE_RANGE] 19
+[QUOTE]
+"CDN: Cloudflare (server: cloudflare header)"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://peptideskingdom.com
+[FETCHED_AT] 2026-05-08T06:36:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/source_homepage.md
+[LINE_RANGE] 22
+[QUOTE]
+"Analytics: Google Tag Manager (googletagmanager), Google Analytics (gtag)"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://peptideskingdom.com
+[FETCHED_AT] 2026-05-08T06:36:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/source_homepage.md
+[LINE_RANGE] 23
+[QUOTE]
+"Pixels: Facebook (fbq function present)"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://peptideskingdom.com
+[FETCHED_AT] 2026-05-08T06:36:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/source_homepage.md
+[LINE_RANGE] 24
+[QUOTE]
+"Chat: Crisp CSS class present in source"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://peptideskingdom.com/peptide-academy/
+[FETCHED_AT] 2026-05-08T06:36:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/blog_1.md
+[LINE_RANGE] 130
+[QUOTE]
+"Join elite researchers worldwide. Master cutting edge peptide science with our comprehensive guides, interactive tools, and expert protocols."
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://peptideskingdom.com/peptide-academy/
+[FETCHED_AT] 2026-05-08T06:36:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/blog_1.md
+[LINE_RANGE] 164-282
+[QUOTE]
+"[Read BPC-157 Guide→](/peptide-academy/bpc-157-complete-research-guide/)
+[Read TB-500 Guide→](/peptide-academy/tb-500-healing-protocol-thymosin-beta-4-research-guide/)
+[Read Retatrutide Guide→](/peptide-academy/retatrutide-weight-loss-guide/)
+[Read Semaglutide Guide→](/peptide-academy/semaglutide-complete-research-guide-glp-1-weight-management/)
+[Read Tirzepatide Guide→](/peptide-academy/tirzepatide-complete-research-guide/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://peptideskingdom.com/peptide-academy/
+[FETCHED_AT] 2026-05-08T06:36:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/blog_1.md
+[LINE_RANGE] 447-449
+[QUOTE]
+"### [Beginner's GuideStart your peptide research journey](/peptide-academy/beginners-guide/) ### [Research ProtocolsProfessional methodologies](/peptide-academy/research-protocols/) ### [Advanced TopicsExpert-level research concepts](/peptide-academy/advanced-topics/)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://peptideskingdom.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:35:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/product_1__bpc-157.md
+[LINE_RANGE] 198-202
+[QUOTE]
+"  * Description
+  * Certificate of Analysis (COA)"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-2mg].list_price_usd
+[CLAIM] skus[bpc-157-5mg].list_price_usd
+[CLAIM] skus[bpc-157-10mg].list_price_usd
+[CLAIM] skus[bpc-157-2mg].sale_price_usd
+[CLAIM] skus[bpc-157-10mg].sale_price_usd
+[URL] https://peptideskingdom.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:35:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/product_1__bpc-157.md
+[LINE_RANGE] 120-170
+[QUOTE]
+"~~$ 30.00 – $95.00Price range: $30.00 through $95.00~~ $25.00 – $69.00Price range: $25.00 through $69.00"
+[/QUOTE]
+
+[CLAIM] skus[tb-500-5mg].list_price_usd
+[CLAIM] skus[tb-500-5mg].sale_price_usd
+[CLAIM] skus[tb-500-10mg].list_price_usd
+[CLAIM] skus[tb-500-10mg].sale_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 150
+[QUOTE]
+"## [TB-500 (Thymosin Beta-4)](https://peptideskingdom.com/product/tb-500-thymosin-beta-4/) ~~$ 50.00 – $170.00Price range: $50.00 through $170.00~~ $25.50 – $135.00Price range: $25.50 through $135.00"
+[/QUOTE]
+
+[CLAIM] skus[retatrutide-5mg].list_price_usd
+[CLAIM] skus[retatrutide-5mg].sale_price_usd
+[CLAIM] skus[retatrutide-10mg].list_price_usd
+[CLAIM] skus[retatrutide-10mg].sale_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 153-158
+[QUOTE]
+"## [Retatrutide](https://peptideskingdom.com/product/retatrutide/) ~~$ 65.00 – $270.00Price range: $65.00 through $270.00~~ $46.75 – $220.00Price range: $46.75 through $220.00"
+[/QUOTE]
+
+[CLAIM] skus[semaglutide-5mg].list_price_usd
+[CLAIM] skus[semaglutide-10mg].list_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 161-166
+[QUOTE]
+"## [Semaglutide](https://peptideskingdom.com/product/semaglutide/) $51.00 – $300.00Price range: $51.00 through $300.00"
+[/QUOTE]
+
+[CLAIM] skus[tirzepatide-5mg].list_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 168-175
+[QUOTE]
+"## [Tirzepatide](https://peptideskingdom.com/product/tirzepatide/) $55.25 – $480.00Price range: $55.25 through $480.00"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg].list_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 178-183
+[QUOTE]
+"## [GHK-Cu (Copper Peptide)](https://peptideskingdom.com/product/ghk-cu-copper-peptide/) $51.00 – $80.00Price range: $51.00 through $80.00
+Choose an option100mg50mg100mg50mgClear"
+[/QUOTE]
+
+[CLAIM] skus[aod-9604-5mg].list_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 186-190
+[QUOTE]
+"## [AOD-9604 (5mg)](https://peptideskingdom.com/product/aod-9604/) $51.00 – $60.00Price range: $51.00 through $60.00"
+[/QUOTE]
+
+[CLAIM] skus[ipamorelin-5mg].list_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 192-197
+[QUOTE]
+"## [Ipamorelin](https://peptideskingdom.com/product/ipamorelin/) $38.25 – $70.00Price range: $38.25 through $70.00
+Choose an option10mg5mg10mg5mgClear"
+[/QUOTE]
+
+[CLAIM] skus[epitalon-10mg].list_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 255-259
+[QUOTE]
+"## [Epitalon (10mg)](https://peptideskingdom.com/product/epitalon/) $34.00 – $40.00Price range: $34.00 through $40.00"
+[/QUOTE]
+
+[CLAIM] skus[selank-5mg].list_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 263-267
+[QUOTE]
+"## [Selank (5mg)](https://peptideskingdom.com/product/selank/) $34.00 – $40.00Price range: $34.00 through $40.00"
+[/QUOTE]
+
+[CLAIM] skus[dsip-5mg].list_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 245-249
+[QUOTE]
+"## [DSIP (Delta Sleep-Inducing Peptide) 5mg](https://peptideskingdom.com/product/dsip-delta-sleep-inducing-peptide/) $34.00 – $40.00Price range: $34.00 through $40.00"
+[/QUOTE]
+
+[CLAIM] skus[ghrp-2-5mg].list_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 218-222
+[QUOTE]
+"## [GHRP-2 (5mg)](https://peptideskingdom.com/product/ghrp-2/) $33.15 – $39.00Price range: $33.15 through $39.00"
+[/QUOTE]
+
+[CLAIM] skus[ghrp-6-5mg].list_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 224-228
+[QUOTE]
+"## [GHRP-6 (5mg)](https://peptideskingdom.com/product/ghrp-6/) $33.15 – $39.00Price range: $33.15 through $39.00"
+[/QUOTE]
+
+[CLAIM] skus[igf-1-lr3-1mg].list_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 230-235
+[QUOTE]
+"## [IGF-1 LR3 (1mg)](https://peptideskingdom.com/product/igf-1-lr3/) $127.50 – $150.00Price range: $127.50 through $150.00"
+[/QUOTE]
+
+[CLAIM] skus[mots-c-10mg].list_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 237-242
+[QUOTE]
+"## [MOTS-c (10mg)](https://peptideskingdom.com/product/mots-c/) $101.15 – $320.00Price range: $101.15 through $320.00"
+[/QUOTE]
+
+[CLAIM] skus[nad-plus-100mg].list_price_usd
+[CLAIM] skus[nad-plus-100mg].sale_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 244-250
+[QUOTE]
+"## [NAD+ (500mg)](https://peptideskingdom.com/product/nad/) ~~$ 50.00 – $250.00Price range: $50.00 through $250.00~~ $38.25 – $149.00Price range: $38.25 through $149.00
+Choose an option100mg500mg100mg500mgClear"
+[/QUOTE]
+
+[CLAIM] skus[wolverine-blend-bpc-tb-500].list_price_usd
+[CLAIM] skus[wolverine-blend-bpc-tb-500].sale_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 202-206
+[QUOTE]
+"## [(Wolverine Blend) BPC-157(5mg) + TB-500(5mg)](https://peptideskingdom.com/product/bpc-157-tb-500-blend/) ~~$ 150.00~~ $85.00 – $100.00Price range: $85.00 through $100.00"
+[/QUOTE]
+
+[CLAIM] skus[semax-5mg].list_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 269-274
+[QUOTE]
+"## [Semax](https://peptideskingdom.com/product/semax/) $17.00 – $35.00Price range: $17.00 through $35.00
+Choose an option10mg5mg10mg5mgClear"
+[/QUOTE]
+
+[CLAIM] skus[cjc-1295-no-dac-5mg].list_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 206-212
+[QUOTE]
+"## [Cjc 1295 Without Dac](https://peptideskingdom.com/product/cjc-1295-without-dac-mod-grf-1-29/) $41.65 – $90.00Price range: $41.65 through $90.00"
+[/QUOTE]
+
+[CLAIM] skus[thymosin-alpha-1-5mg].list_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 310-314
+[QUOTE]
+"## [Thymosin Alpha 1 (5mg)](https://peptideskingdom.com/product/thymosin-alpha-1/) $80.75 – $95.00Price range: $80.75 through $95.00"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-nasal-spray-5ml].list_price_usd
+[CLAIM] skus[bpc-157-nasal-spray-5ml].sale_price_usd
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 144-148
+[QUOTE]
+"## [BPC-157 5ML Nasal Spray Kit](https://peptideskingdom.com/product/bpc-157-5ml-nasal-spray-kit/) ~~$ 100.00~~ Original price was: $100.00.$79.00Current price is: $79.00."
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://peptideskingdom.com/shop/
+[FETCHED_AT] 2026-05-08T06:34:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/peptideskingdom/catalog_1.md
+[LINE_RANGE] 112-117
+[QUOTE]
+"Products search
+
+All Products  Nasal Spray  Lyophilized
+
+× All  Nasal  Vials"
+[/QUOTE]

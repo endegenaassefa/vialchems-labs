@@ -1,0 +1,685 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 239-242
+[QUOTE]
+"# Research-Grade Compounds
+Factory Direct 源
+
+350+ Janoshik-tested peptides, SARMs, injectables & raws manufactured in Nantong (南通), China — shipped from local warehouses in the **US** , **UK** , **Canada** , **EU** & **Australia**."
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 435-435
+[QUOTE]
+"All products are intended for research purposes only. Not for human consumption."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 244-246
+[QUOTE]
+"[ __Browse Products](/products) [ __Full Price List](/pricelist) [ __Test Reports](/reports)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 17-29
+[QUOTE]
+"  * [Home](/)
+  * [Products](/products)
+  * [About](/about)
+  * [Contact](/contact)
+  * [Reviews](/reviews)
+  * [Price List](/pricelist)
+  * [Reports](/reports)
+  * Verified On __"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 237-238
+[QUOTE]
+"__Direct Manufacturer — Nantong, China"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 241-242
+[QUOTE]
+"350+ Janoshik-tested peptides, SARMs, injectables & raws manufactured in Nantong (南通), China — shipped from local warehouses in the **US** , **UK** , **Canada** , **EU** & **Australia**."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 360-360
+[QUOTE]
+"**Standard shipping:** $25 worldwide with full tracking from our Nantong, China warehouse — unless another warehouse is chosen, in which case 2-3 days. We ship to all countries with discreet packaging."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://ggpeps.net/pricelist
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/pricelist.md
+[LINE_RANGE] 257-257
+[QUOTE]
+"__Peptides (178)
+__Oral Tablets (79)
+__Injectable Oils (67)
+__Raw Materials (77)"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://ggpeps.net/pricelist
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/pricelist.md
+[LINE_RANGE] 257-260
+[QUOTE]
+"__Peptides (178)
+__Oral Tablets (79)
+__Injectable Oils (67)
+__Raw Materials (77)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://ggpeps.net/products
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/catalog_1.md
+[LINE_RANGE] 248-249
+[QUOTE]
+"__ All Products __ Bundles __ Peptides __ Oral Tablets __ Injectable Oils __ Raw Materials
+
+__
+
+All Popular New Best Value
+
+Sort by Name Price: Low to High Price: High to Low Most Popular"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://ggpeps.net/pricelist
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/pricelist.md
+[LINE_RANGE] 281-283
+[QUOTE]
+"[BB10](/product/BB10) | [BPC157 5mg + TB500 5mg Blend](/product/BB10) __|  10mg*10vials | $85.00 | $80.00 | __In Stock | __
+[BB20](/product/BB20) | [BPC157 10mg + TB500 10mg Blend](/product/BB20) | 20mg*10vials | $150.00 | $140.00 | __In Stock | __"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://ggpeps.net/product/BC5
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 239-241
+[QUOTE]
+"# BPC-157
+
+5mg*10vials"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://ggpeps.net/product/BC5
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 247-254
+[QUOTE]
+"Single Kit Price (10 vials)
+
+$35.00
+
+Bulk Price (10+ kits)
+
+$30.00
+
+Save 14.3%"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://ggpeps.net/product/BC5
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 275-275
+[QUOTE]
+"BPC-157 (Body Protection Compound-157) is a pentadecapeptide researched for its broad tissue-protective and regenerative effects. Studies suggest it may promote angiogenesis, accelerate wound healing, and reduce inflammation across multiple tissue types."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://ggpeps.net/product/BC5
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 323-323
+[QUOTE]
+"All products are intended for research purposes only. Not for human consumption."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://ggpeps.net/reports
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/coa_1.md
+[LINE_RANGE] 239-243
+[QUOTE]
+"# __Janoshik Verified Test Reports
+
+Every batch independently tested by [Janoshik Analytical](https://janoshik.com) using HPLC and Mass Spectrometry. 99.5%+ purity confirmed across our entire product range.
+
+701 Reports"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://ggpeps.net/reports
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/coa_1.md
+[LINE_RANGE] 249-263
+[QUOTE]
+"__Verified
+
+Semaglutide 20mg
+
+[__Verify on Janoshik](https://janoshik.com/tests/89715-SemaglutideBlue_cap_DM1M1PCVLVJC)
+
+__Verified
+
+Tirzepatide 20mg
+
+[__Verify on Janoshik](https://janoshik.com/tests/95810-Tirzepatide_20mgBlack_cap_WH9BVEQ4ZQJN)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://ggpeps.net/reports
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/coa_1.md
+[LINE_RANGE] 239-241
+[QUOTE]
+"Every batch independently tested by [Janoshik Analytical](https://janoshik.com) using HPLC and Mass Spectrometry. 99.5%+ purity confirmed across our entire product range."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://ggpeps.net/product/BC5
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 279-285
+[QUOTE]
+"##  __Related Variants
+
+Other specifications of BPC-157
+
+### [BPC-157 10mg*10vials Healing & Recovery $55.00 View Details __ ](/product/BC10) ### [BPC-157 20mg*10vials Healing & Recovery $95.00 View Details __ ](/product/BC20)
+
+##  __Similar Products"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://ggpeps.net/reviews
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/reviews.md
+[LINE_RANGE] 239-240
+[QUOTE]
+"# Customer Reviews
+
+Read verified reviews from real GYC customers worldwide"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 435-435
+[QUOTE]
+"All products are intended for research purposes only. Not for human consumption."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+No age-verification interstitial, checkbox, or confirmation screen appeared at any point in the fetch sequence — homepage, products, about, contact, reviews, reports, or product pages. No age-related language was present in any fetched page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 239-246
+"# Research-Grade Compounds
+Factory Direct 源
+
+350+ Janoshik-tested peptides, SARMs, injectables & raws manufactured in Nantong (南通), China"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://ggpeps.net/product/BC5
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 239-241
+"# BPC-157
+
+5mg*10vials"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 398-404
+[QUOTE]
+"What is your return policy? __
+
+We never ask you to return products. For any quality issues:
+• **Full refund** to your original payment method
+• **Free replacement** shipped at our cost
+• **Store credit** at 110% value (bonus 10%)
+Claims can be filed within 60 days of order date. We require minimal evidence — usually just a photo. We stand behind every product we sell."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 358-361
+[QUOTE]
+"**Standard shipping:** $25 worldwide with full tracking from our Nantong, China warehouse — unless another warehouse is chosen, in which case 2-3 days. We ship to all countries with discreet packaging.
+**Express Priority shipping:** $50 — fully tracked via USPS Priority Express (US), Royal Mail Special Delivery (UK), DHL Express (EU), and equivalent priority couriers worldwide."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 365-365
+[QUOTE]
+"We accept **Visa, Mastercard, Apple Pay, Google Pay, Revolut, and bank transfer** through our secure, PCI-compliant payment processor. You pay the exact USD amount shown — your card is charged in dollars just like any regular online purchase. We also accept **cryptocurrency** (BTC, ETH, USDT, USDC, SOL, XRP, LTC, BNB) with **10% off** your order."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 97-120
+[QUOTE]
+"Shipping Method
+
+Standard
+
+2-4 business days
+
+$25.00
+
+Express Priority TRACKED
+
+3-6 business days, tracked + cooling gels
+
+via EMS/DHL Express
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[INFERENCE] false
+[REASONING]
+The checkout flow visible in the curl fetch shows a 3-step process (Review / Shipping / Place Order) with no account login step. Guest fields collected are name, email, phone, address only — no password or account creation field.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 65-80
+"## Secure Checkout
+
+__
+
+1Review
+
+2Shipping
+
+3Place Order"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 120-135
+"### Shipping Information
+
+Full Name *
+
+Email *
+
+Phone (optional)
+
+Street Address *"
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 380-389
+[QUOTE]
+"We offer a **100% delivery guarantee**. If your package does not arrive, we reship your entire order at no cost. Specifically:
+• **Customs seizure:** We reship immediately upon receiving the seizure letter
+• **Lost packages:** If tracking shows no update for 30+ days, you get a free reship or full refund
+• **Damaged goods:** Full replacement shipped at our expense
+Your purchase is always protected."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] custom (Node.js/Express on nginx, deployed on Vercel)
+[REASONING]
+HTTP server header shows nginx/1.18.0 (Ubuntu). Source HTML contains /_vercel/insights/script.js and /_vercel/speed-insights/script.js indicating Vercel deployment. No Shopify, WooCommerce, or other standard platform markers detected. Custom storefront inferred.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:20:06Z
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/source_homepage.md
+[LINE_RANGE] 9-9
+"Server: nginx/1.18.0 (Ubuntu)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:20:06Z
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/source_homepage.md
+[LINE_RANGE] 23-24
+"    <script defer src="/_vercel/insights/script.js"></script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:20:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/source_homepage.md
+[LINE_RANGE] 23-24
+[QUOTE]
+"    <script defer src="/_vercel/insights/script.js"></script>
+    <script defer src="/_vercel/speed-insights/script.js"></script>"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:20:06Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/source_homepage.md
+[LINE_RANGE] 18-31
+[QUOTE]
+"<!-- Google tag (gtag.js) -->
+<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-17491427417\">
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-17491427417');
+    <script defer src=\"/_vercel/insights/script.js\"></script>
+    <script defer src=\"/_vercel/speed-insights/script.js\"></script>
+<!-- Google tag (gtag.js) -->
+<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-18083581075\"></script>
+    <script src=\"/js/analytics.js?v=2\"></script>"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://ggpeps.net/reviews
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/reviews.md
+[LINE_RANGE] 239-241
+[QUOTE]
+"# Customer Reviews
+
+Read verified reviews from real GYC customers worldwide
+
+Peptides SARMs Injectable Oils Raw Materials
+
+EXCELLENT"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 308-315
+[QUOTE]
+"[ __PeptideMeter Verified Verified vendor with customer ratings and reviews on PeptideMeter marketplace. View Profile __](https://www.peptidemeter.com/products/retatrutide/nantong-guangyuan-chemical-gyc) [ __CompoundTalk Verified Verified vendor on CompoundTalk with community discussions and reviews. View Profile __](https://compoundtalk.com/pages/vendors/ggpeps/) [ __GLP1Forum Verified Verified on GLP1Forum with community reviews and bloodwork results. View Thread __](https://glp1forum.com/threads/trophyfiregyc-is-back-stable-us-warehouse-securedfiretrophy.6626/)"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://ggpeps.net/reviews
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/reviews.md
+[LINE_RANGE] 350-370
+[QUOTE]
+"Kevin S.
+
+US · 14 reviews
+
+Sep 16, 2025
+
+__________
+
+14th order and the consistency never wavers
+
+I've been a loyal GYC customer since 2023 and have placed 14 separate orders. The product quality, shipping speed, and customer service have been consistent across every single order. USA warehouse delivers in 2-3 days to the Midwest."
+[/QUOTE]
+
+[CLAIM] skus[BC5].list_price_usd / skus[BC5].sale_price_usd
+[URL] https://ggpeps.net/product/BC5
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/product_1__bpc-157-5mg.md
+[LINE_RANGE] 247-254
+[QUOTE]
+"Single Kit Price (10 vials)
+
+$35.00
+
+Bulk Price (10+ kits)
+
+$30.00"
+[/QUOTE]
+
+[CLAIM] skus[BT5].list_price_usd / skus[BT10].list_price_usd
+[URL] https://ggpeps.net/pricelist
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/pricelist.md
+[LINE_RANGE] 410-412
+[QUOTE]
+"[BT5](/product/BT5) | [TB-500 (TB4)](/product/BT5)__|  5mg*10vials | $65.00 | $60.00 | __In Stock | __
+[BT10](/product/BT10) | [TB-500 (TB4)](/product/BT10)__|  10mg*10vials | $125.00 | $115.00 | __In Stock | __
+[BT20](/product/BT20) | [TB-500 (TB4)](/product/BT20) | 20mg*10vials | $180.00 | $170.00 | __In Stock | __"
+[/QUOTE]
+
+[CLAIM] skus[CU50].list_price_usd
+[URL] https://ggpeps.net/pricelist
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/pricelist.md
+[LINE_RANGE] 310-311
+[QUOTE]
+"[CU50](/product/CU50) | [GHK-CU](/product/CU50) __|  50mg*10vials | $30.00 | $25.00 | __In Stock | __
+[CU100](/product/CU100) | [GHK-CU](/product/CU100) | 100mg*10vials | $45.00 | $40.00 | __In Stock | __"
+[/QUOTE]
+
+[CLAIM] skus[RT5-RT10].list_price_usd
+[URL] https://ggpeps.net/pricelist
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/pricelist.md
+[LINE_RANGE] 378-381
+[QUOTE]
+"[RT5](/product/RT5) | [Retatrutide](/product/RT5) __|  5mg*10vials | $65.00 | $60.00 | __In Stock | __
+[RT10](/product/RT10) | [Retatrutide](/product/RT10) __|  10mg*10vials | $95.00 | $90.00 | __In Stock | __
+[RT15](/product/RT15) | [Retatrutide](/product/RT15) | 15mg*10vials | $120.00 | $115.00 | __In Stock | __
+[RT20](/product/RT20) | [Retatrutide](/product/RT20) | 20mg*10vials | $145.00 | $140.00 | __In Stock | __"
+[/QUOTE]
+
+[CLAIM] skus[SM5].list_price_usd
+[URL] https://ggpeps.net/pricelist
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/pricelist.md
+[LINE_RANGE] 394-399
+[QUOTE]
+"[SM2](/product/SM2) | [Semaglutide](/product/SM2) | 2mg*10vials | $30.00 | $25.00 | __In Stock | __
+[SM5](/product/SM5) | [Semaglutide](/product/SM5) __|  5mg*10vials | $40.00 | $35.00 | __In Stock | __
+[SM10](/product/SM10) | [Semaglutide](/product/SM10) __|  10mg*10vials | $60.00 | $55.00 | __In Stock | __
+[SM15](/product/SM15) | [Semaglutide](/product/SM15) | 15mg*10vials | $70.00 | $65.00 | __In Stock | __
+[SM20](/product/SM20) | [Semaglutide](/product/SM20) | 20mg*10vials | $80.00 | $75.00 | __In Stock | __
+[SM30](/product/SM30) | [Semaglutide](/product/SM30) | 30mg*10vials | $100.00 | $95.00 | __In Stock | __"
+[/QUOTE]
+
+[CLAIM] skus[TR5].list_price_usd
+[URL] https://ggpeps.net/pricelist
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/pricelist.md
+[LINE_RANGE] 423-431
+[QUOTE]
+"[TR5](/product/TR5) | [Tirzepatide](/product/TR5) __|  5mg*10vials | $40.00 | $35.00 | __In Stock | __
+[TR10](/product/TR10) | [Tirzepatide](/product/TR10) __|  10mg*10vials | $60.00 | $55.00 | __In Stock | __
+[TR15](/product/TR15) | [Tirzepatide](/product/TR15) __|  15mg*10vials | $70.00 | $65.00 | __In Stock | __
+[TR20](/product/TR20) | [Tirzepatide](/product/TR20) __|  20mg*10vials | $80.00 | $75.00 | __In Stock | __
+[TR30](/product/TR30) | [Tirzepatide](/product/TR30) | 30mg*10vials | $100.00 | $95.00 | __In Stock | __"
+[/QUOTE]
+
+[CLAIM] skus[multiple-headline-peptides]
+[URL] https://ggpeps.net/pricelist
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/pricelist.md
+[LINE_RANGE] 302-323
+[QUOTE]
+"[ET10](/product/ET10) | [Epithalon](/product/ET10) | 10mg*10vials | $40.00 | $35.00 | __In Stock | __
+[IP5](/product/IP5) | [Ipamorelin](/product/IP5) | 5mg*10vials | $35.00 | $30.00 | __In Stock | __
+[MS10](/product/MS10) | [MOTS-C](/product/MS10) | 10mg*10vials | $55.00 | $50.00 | __In Stock | __
+[NJ3100](/product/NJ3100) | [NAD+](/product/NJ3100) | 100mg*10vials | $35.00 | $30.00 | __In Stock | __
+[P41](/product/P41) | [PT-141](/product/P41) __|  10mg*10vials | $50.00 | $45.00 | __In Stock | __
+[SK5](/product/SK5) | [Selank](/product/SK5) | 5mg*10vials | $35.00 | $30.00 | __In Stock | __
+[XA5](/product/XA5) | [Semax](/product/XA5) | 5mg*10vials | $35.00 | $30.00 | __In Stock | __
+[DS5](/product/DS5) | [DSIP](/product/DS5) | 5mg*10vials | $40.00 | $35.00 | __In Stock | __
+[HU10](/product/HU10) | [Humanin](/product/HU10) | 10mg*10vials | $180.00 | $170.00 | __In Stock | __
+[G25](/product/G25) | [GHRP-2 Acetate](/product/G25) | 5mg*10vials | $30.00 | $25.00 | __In Stock | __
+[G65](/product/G65) | [GHRP-6 Acetate](/product/G65) | 5mg*10vials | $30.00 | $25.00 | __In Stock | __
+[HX2](/product/HX2) | [Hexarelin](/product/HX2) | 2mg*10vials | $35.00 | $30.00 | __In Stock | __"
+[/QUOTE]
+
+[CLAIM] skus[blend-BB10].list_price_usd
+[URL] https://ggpeps.net/pricelist
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/pricelist.md
+[LINE_RANGE] 281-282
+[QUOTE]
+"[BB10](/product/BB10) | [BPC157 5mg + TB500 5mg Blend](/product/BB10) __|  10mg*10vials | $85.00 | $80.00 | __In Stock | __
+[BB20](/product/BB20) | [BPC157 10mg + TB500 10mg Blend](/product/BB20) | 20mg*10vials | $150.00 | $140.00 | __In Stock | __"
+[/QUOTE]
+
+[CLAIM] skus[oral-SM500-TR500].list_price_usd
+[URL] https://ggpeps.net/pricelist
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/pricelist.md
+[LINE_RANGE] 489-508
+[QUOTE]
+"[SM500](/product/SM500) | [Semaglutide Oral](/product/SM500) | 500mcg*25tabs | $20.00 | $18.00 | __In Stock | __
+[TR500](/product/TR500) | [Tirzepatide Oral](/product/TR500) | 500mcg*25tabs | $20.00 | $18.00 | __In Stock | __"
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 120-135
+[QUOTE]
+"### Shipping Information
+
+Full Name *
+
+Email *
+
+Phone (optional)
+
+Street Address *
+
+Apt / Suite (optional)
+
+City *
+
+State/Province
+
+ZIP/Postal Code *
+
+Country *
+
+Order Notes (optional)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://ggpeps.net/reports
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/coa_1.md
+[LINE_RANGE] 249-250
+[QUOTE]
+"__Real Janoshik Tests __Live Verified
+
+Independently tested & verifiable directly on [janoshik.com](https://janoshik.com)"
+[/QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[INFERENCE] none visible on site
+[REASONING]
+All pages fetched (homepage, about, reviews, reports, product pages) contain no named influencer endorsements, sponsored creator content, or affiliate disclosure. The about page community section lists only forum platforms (PeptideMeter, CompoundTalk, GLP1Forum) without naming individual creators.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://ggpeps.net/about
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/about.md
+[LINE_RANGE] 295-300
+"### __Community Presence
+
+GYC is openly discussed and reviewed across major research forums. Read real customer experiences:"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://ggpeps.net/
+[FETCHED_AT] 2026-05-08T01:18:05Z
+[RAW_ARTIFACT] 03_raw_fetches/nantong-guangyuan-chemical-gyc/homepage.md
+[LINE_RANGE] 308-315
+"[ __PeptideMeter Verified Verified vendor with customer ratings and reviews on PeptideMeter marketplace. View Profile __](https://www.peptidemeter.com/products/retatrutide/nantong-guangyuan-chemical-gyc) [ __CompoundTalk Verified Verified vendor on CompoundTalk with community discussions and reviews. View Profile __](https://compoundtalk.com/pages/vendors/ggpeps/)"
+[/SUPPORT_QUOTE]

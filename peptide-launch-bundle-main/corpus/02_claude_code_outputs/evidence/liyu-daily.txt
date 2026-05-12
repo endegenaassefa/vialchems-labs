@@ -1,0 +1,323 @@
+[CLAIM] primary_domain
+[URL] https://liyudaily.com/
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/homepage.md
+[LINE_RANGE] 1-1
+[QUOTE]
+"<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1maximum-scale=1,user-scalable=no"><link rel="icon" href="data:"><link rel="preconnect" href="https://cdn.jsdelivr.net"><link rel="preconnect" href="https://unpkg.com"><link rel="preconnect" href="https://shop910.net""
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://liyudaily.com/setting
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/setting_api.md
+[LINE_RANGE] 14-14
+[QUOTE]
+"Hero headline: High Quality Research Peptides"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://liyudaily.com/setting
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/setting_api.md
+[LINE_RANGE] 16-16
+[QUOTE]
+"Primary CTA: Shop Now"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://liyudaily.com/setting
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/setting_api.md
+[LINE_RANGE] 22-22
+[QUOTE]
+"Copyright 2025 © Liyu Daily"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://liyudaily.com/search/category?q=
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/categories_api.md
+[LINE_RANGE] 8-11
+[QUOTE]
+"Category ID 104516: All Products
+Category ID 228965: Department Store
+Category ID 104517: Peptides
+Category ID 104518: Others"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name / product_page_anatomy.description_copy_excerpt
+[URL] https://www.liyupeptide.com/product/148.html
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/product_1__bpc157.md
+[LINE_RANGE] 8-15
+[QUOTE]
+"BPC157
+
+Form: Vial Freeze-Dried Powder
+Purity: Purity 98% HPLC
+Usage: Laboratory Reagents
+Origin: China
+Price: Not displayed (contact for pricing)
+Standard shipping fee: $50"
+[/QUOTE]
+
+[CLAIM] skus[0] (BPC157)
+[URL] https://www.liyupeptide.com/product/148.html
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/product_1__bpc157.md
+[LINE_RANGE] 8-15
+[QUOTE]
+"BPC157
+
+Form: Vial Freeze-Dried Powder
+Purity: Purity 98% HPLC
+Usage: Laboratory Reagents
+Origin: China"
+[/QUOTE]
+
+[CLAIM] skus[1] (Semaglutide)
+[URL] https://liyupeptide.com/product/146.html
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/product_2__semaglutide.md
+[LINE_RANGE] 8-18
+[QUOTE]
+"Semaglutide
+
+Main effects listed: Tissue repair, Anti-inflammatory, Promote healing
+Purity: 99%
+Form: White Powder
+Quantity: 10 vials per box
+Grade: Pharma Grade
+Shelf Life: >12 Months
+Brand: JC
+Origin: China"
+[/QUOTE]
+
+[CLAIM] skus[2] (Retatrutide) / skus[3] (Tirzepatide)
+[INFERENCE] Retatrutide and Tirzepatide listed as products on companion site product index
+[REASONING]
+The companion site liyupeptide.com/product lists "Retatrutide" and "Tirzepatide" in its product category index. The liyudaily.com store shares the same brand (Liyu Daily), email (3544254206@qq.com), and operator (Liyu Daily Chemical Co., Ltd.). These products are therefore in the vendor's offered SKU set.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.liyupeptide.com/product
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/catalog_1.md
+[LINE_RANGE] 18-19
+"Retatrutide
+Tirzepatide"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.liyupeptide.com/
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/companion_liyupeptide_com.md
+[LINE_RANGE] 9-10
+"Liyu Daily Chemical Co., Ltd.
+3544254206@qq.com"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://liyudaily.com/setting
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/setting_api.md
+[LINE_RANGE] 60-63
+[QUOTE]
+"Q 6 : Mode of transportation and timeliness
+A: We are double clear to door express packages, you can use DHL, UPS, Fedex, TNT, EMS.
+The validity period is 10-12 days."
+[/QUOTE]
+[URL] https://www.liyupeptide.com/
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/companion_liyupeptide_com.md
+[LINE_RANGE] 25-30
+[QUOTE]
+"We will ship within 3 working days.
+The shipping time is 6-9 days (calculated at the slowest speed)."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://liyudaily.com/setting
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/setting_api.md
+[LINE_RANGE] 65-67
+[QUOTE]
+"Q 7 : What are the payment options?
+A: We support online orders, Bitcoin, paypal, cryptocurrencies, bank transfers, Alibaba (need to contact us)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.liyupeptide.com/
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/companion_liyupeptide_com.md
+[LINE_RANGE] 22-28
+[QUOTE]
+"Due to different transportation areas, the shipping fees vary.
+The standard shipping fee is $50; if there are different shipping fees, please consult the staff
+Using PayPal for payment incurs a 5% handling fee (for more details, please consult the staff)."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://liyudaily.com/setting
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/setting_api.md
+[LINE_RANGE] 60-63
+[QUOTE]
+"A: We are double clear to door express packages, you can use DHL, UPS, Fedex, TNT, EMS."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://liyudaily.com/setting
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/setting_api.md
+[LINE_RANGE] 80-84
+[QUOTE]
+"Platform: shop910.com (weimei SaaS - Laravel backend, Vue.js 2.7.16 frontend)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://liyudaily.com/setting
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/setting_api.md
+[LINE_RANGE] 81-81
+[QUOTE]
+"CDN: Cloudflare (server: cloudflare header, CF Insights token: c29e0a1527674a89ac1426f14ca33c14)"
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://liyudaily.com/setting
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/setting_api.md
+[LINE_RANGE] 82-82
+[QUOTE]
+"Meta Pixel: fbq('init', '1501453221027960')"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.trustpilot.com/review/liyudaily.com
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] websearch
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/social_trustpilot.md
+[LINE_RANGE] 8-12
+[QUOTE]
+"Trustpilot listing for liyudaily.com
+
+Rating: 3.7 / 5 ("Average")
+Total reviews: 1
+Review breakdown: 1 five-star review"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews / social_proof.testimonial_usage
+[URL] https://liyudaily.com/setting
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/setting_api.md
+[LINE_RANGE] 73-78
+[QUOTE]
+"Geoffrey: "Always very easy and quick communication if any issues with order/payment. Order delivery is quick and smooth."
+Virgilia: "Great product and fast shipping. I had my orders fast and packaged so there was zero damage.Recommended!"
+Jeron Jones: "Loving the new look to the website, great improvement. Very happy customer, keep up the good work!""
+[/QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country
+[URL] https://www.liyupeptide.com/
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/companion_liyupeptide_com.md
+[LINE_RANGE] 5-7
+[QUOTE]
+"No. 8 Dongping Road,  Huaian City, Jiangsu"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://liyudaily.com/setting
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/setting_api.md
+[LINE_RANGE] 57-59
+[QUOTE]
+"Q 4 : How do you verify your products?
+A: Every peptide batch we receive gets sent to an independent third party testing lab to be analyzed and tested for identity of the peptides, purity, and concentration.All peptides are labeled with their corresponding batch number."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false (no age gate present)
+[REASONING]
+No age gate HTML, no age-gate JavaScript, and no age gate reference found in the /setting API JSON (703 KB full store config) or the Vue.js app bundle. No age-gate route found in the store's route list. The absence of any age-gate component in a fully-inspected store configuration strongly supports false.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://liyudaily.com/setting
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/setting_api.md
+[LINE_RANGE] 1-5
+"Platform: shop910.com (weimei SaaS - Laravel backend, Vue.js 2.7.16 frontend)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://liyudaily.com/
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/homepage.md
+[LINE_RANGE] 1-1
+"<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1maximum-scale=1,user-scalable=no">"
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[INFERENCE] false (no ID verification present)
+[REASONING]
+No ID verification, KYC, or age-check mechanism found anywhere in the /setting API configuration, the app bundle inspection, or the companion site. The FAQ lists Bitcoin, PayPal, and bank transfers without mentioning ID verification. Chinese DTC vendors in this category do not typically require KYC for international retail orders.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://liyudaily.com/setting
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/setting_api.md
+[LINE_RANGE] 65-67
+"Q 7 : What are the payment options?
+A: We support online orders, Bitcoin, paypal, cryptocurrencies, bank transfers, Alibaba (need to contact us)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.liyupeptide.com/
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/companion_liyupeptide_com.md
+[LINE_RANGE] 22-28
+"Due to different transportation areas, the shipping fees vary.
+The standard shipping fee is $50"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.visible_influencer_endorsements
+[INFERENCE] none observed - no influencer endorsements present
+[REASONING]
+The full store configuration (/setting API, 703 KB) and companion site were inspected completely. The home page layout contains no influencer endorsement modules, no ambassador sections, and no sponsorship disclosures. On-site social proof is limited to 4 named customer testimonials (Geoffrey, Virgilia, Jeron Jones, anonymous). No influencer references appear in any fetched artifact.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://liyudaily.com/setting
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/setting_api.md
+[LINE_RANGE] 73-78
+"Geoffrey: "Always very easy and quick communication if any issues with order/payment. Order delivery is quick and smooth."
+Virgilia: "Great product and fast shipping. I had my orders fast and packaged so there was zero damage.Recommended!"
+Jeron Jones: "Loving the new look to the website, great improvement. Very happy customer, keep up the good work!""
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.liyupeptide.com/
+[FETCHED_AT] 2026-05-07T23:59:00Z
+[RAW_ARTIFACT] 03_raw_fetches/liyu-daily/companion_liyupeptide_com.md
+[LINE_RANGE] 21-26
+"WHY CHOOSE US?
+10+ Year Experience
+Our company has over 10 years of extensive production experience, ensuring high-quality products and reliable service.
+Certified Quality"
+[/SUPPORT_QUOTE]

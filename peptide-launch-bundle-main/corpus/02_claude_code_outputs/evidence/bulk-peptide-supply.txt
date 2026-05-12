@@ -1,0 +1,912 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://bulkpeptidesupply.com
+[FETCHED_AT] 2026-05-07T18:01:43Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/homepage.md
+[LINE_RANGE] 31-31
+[QUOTE]
+"Bulk Peptide Supply Unmatched Quality Peptides at Wholesale Prices"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://bulkpeptidesupply.com
+[FETCHED_AT] 2026-05-07T18:01:43Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/homepage.md
+[LINE_RANGE] 18-18
+[QUOTE]
+"  * [Products](https://web.archive.org/web/20241205225724/https://bulkpeptidesupply.com/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://bulkpeptidesupply.com
+[FETCHED_AT] 2026-05-07T18:01:43Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/homepage.md
+[LINE_RANGE] 16-19
+[QUOTE]
+"  * [Home](https://web.archive.org/web/20241205225724/https://bulkpeptidesupply.com/)
+  * [About](https://web.archive.org/web/20241205225724/https://bulkpeptidesupply.com/about/)
+  * [Products](https://web.archive.org/web/20241205225724/https://bulkpeptidesupply.com/shop/)
+  * [Contact](https://web.archive.org/web/20241205225724/https://bulkpeptidesupply.com/contact/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://bulkpeptidesupply.com
+[FETCHED_AT] 2026-05-07T18:01:43Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/homepage.md
+[LINE_RANGE] 191-191
+[QUOTE]
+"All products on this site are for Research, Development use only. Products are Not for Human use of any kind. The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://bulkpeptidesupply.com
+[FETCHED_AT] 2026-05-07T18:01:43Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/homepage.md
+[LINE_RANGE] 217-225
+[QUOTE]
+"#### Are you over 21+?
+
+You must be 21+ years of age or older to view page. Please verify your age to enter.
+
+#### Access forbidden
+
+Your access is restricted because of your age.
+
+I am 18 or Older  I am Under 18"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://bulkpeptidesupply.com
+[FETCHED_AT] 2026-05-07T18:01:43Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/homepage.md
+[LINE_RANGE] 98-98
+[QUOTE]
+"All products on this site are for Research, Development use only. Products are Not for Human use of any kind. The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://bulkpeptidesupply.com/shop/
+[FETCHED_AT] 2026-05-07T18:01:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_1.md
+[LINE_RANGE] 37-40
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/bulk-peptide-supply/catalog_1.md, catalog_2.md, catalog_3.md:
+34 products; pagination shows "Showing 1–12 of 34 results"; category sidebar shows "laboratory chemicals 34 products".
+[FILES]
+catalog_1.md (12 products: AOD-9604, Bacteriostatic water, BPC 157/TB-500 blend, BPC-157 10mg, Cagri, CAGRISEMA, CJC1295 NO-DAC/IPA combo, CJC-1295 DAC, CJC-1295 NO DAC, DSIP, Epithalon, GHK-CU)
+catalog_2.md (12 products: HCG, Hyaluronic acid, Ipamorelin, Kisspeptin-10, LIPO-C, Mazdutide, Melanotan II, MOTS-C, NAD+, PT-141, RETA, Selank)
+catalog_3.md (10 products: Selank/Semax blend, Sema, Semax, SNAP 8, SS-31, Survodutide, TB-500, TESA IPA 10, TESA/IPA blend, Tesamorelin, Thymosin Alpha-1, TIRZ)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://bulkpeptidesupply.com/shop/
+[FETCHED_AT] 2026-05-07T18:01:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_1.md
+[LINE_RANGE] 37-40
+[QUOTE]
+"  * [ All  products  ](https://web.archive.org/web/20241205222450/https://bulkpeptidesupply.com/shop/)
+  * [laboratory chemicals34 products](https://web.archive.org/web/20241205222450/https://bulkpeptidesupply.com/product-category/laboratory-chemicals/)"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://bulkpeptidesupply.com/shop/
+[FETCHED_AT] 2026-05-07T18:01:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_1.md
+[LINE_RANGE] 44-55
+[QUOTE]
+"Showing 1–12 of 34 results
+
+Show sidebar
+
+Show [ 9  ] [ 12  ] [ 18  ] [ 24  ]
+
+Default sortingSort by popularitySort by average ratingSort by latestSort by price: low to highSort by price: high to low"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://bulkpeptidesupply.com/shop/
+[FETCHED_AT] 2026-05-07T18:01:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_1.md
+[LINE_RANGE] 69-74
+[QUOTE]
+"### [BPC 157 5mg /TB 500 5mg (10vials)](https://web.archive.org/web/20241205222450/https://bulkpeptidesupply.com/product/bpc-157-5mg-tb-500-5mg-10vials/)
+
+[laboratory chemicals](https://web.archive.org/web/20241205222450/https://bulkpeptidesupply.com/product-category/laboratory-chemicals/)
+
+$340.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://bulkpeptidesupply.com/product/bpc-157-10-mg-10-vials/
+[FETCHED_AT] 2026-05-07T18:02:15Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_1__bpc-157-10mg.md
+[LINE_RANGE] 32-36
+[QUOTE]
+"#  BPC-157 10 mg (10 vials)
+
+$200.00
+
+All products on this site are for Research, Development use only."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://bulkpeptidesupply.com/product/bpc-157-10-mg-10-vials/
+[FETCHED_AT] 2026-05-07T18:02:15Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_1__bpc-157-10mg.md
+[LINE_RANGE] 34-34
+[QUOTE]
+"All products on this site are for Research, Development use only. Products are Not for Human use of any kind. The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://bulkpeptidesupply.com
+[FETCHED_AT] 2026-05-07T18:01:43Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/homepage.md
+[LINE_RANGE] 162-172
+[QUOTE]
+"## Client Reviews
+
+I will be buying a lot more from this company Seth Snyder  Great Company
+
+Really responsive, great service. Upfront and honest about the whole process. Andrew Klush  Really great experience!
+
+Great service! Extremely responsive to every email and the best prices I've found for Reta! Customer  Excellent experience
+
+Truly a pure product – works very well – I recommend it Seth Snyder  Amazing Product
+
+Bought Tirz 30mg 10 vials, quick response to any question, great customer service and recieved the product swiftly. John C.  Great Service"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://bulkpeptidesupply.com/product/bpc-157-10-mg-10-vials/
+[FETCHED_AT] 2026-05-07T18:02:15Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_1__bpc-157-10mg.md
+[LINE_RANGE] 42-44
+[QUOTE]
+"####  Related products
+
+[ ](https://web.archive.org/web/20241107105548/https://bulkpeptidesupply.com/product/bacteriostatic-water-10ml-10-vials/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://bulkpeptidesupply.com
+[FETCHED_AT] 2026-05-07T18:01:43Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/homepage.md
+[LINE_RANGE] 197-200
+[QUOTE]
+"  * [Terms of service](https://web.archive.org/web/20241205225724/https://bulkpeptidesupply.com/terms-of-service/)
+  * [Privacy policy](https://web.archive.org/web/20241205225724/https://bulkpeptidesupply.com/privacy-policy-2/)
+  * [Return Policy](https://web.archive.org/web/20241205225724/https://bulkpeptidesupply.com/return-policy/)
+  * [Shipping policy](https://web.archive.org/web/20241205225724/https://bulkpeptidesupply.com/shipping-policy/)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://bulkpeptidesupply.com/terms-of-service/
+[FETCHED_AT] 2026-05-07T18:03:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/tos.md
+[LINE_RANGE] 47-49
+[QUOTE]
+"**SECTION 1 – ONLINE STORE TERMS**
+
+By agreeing to these Terms of Service, you represent that you are at least 21 years of age."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://bulkpeptidesupply.com/return-policy/
+[FETCHED_AT] 2026-05-07T18:03:10Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/refund.md
+[LINE_RANGE] 36-44
+[QUOTE]
+"## Return Policy
+
+Thank you for shopping with us! Please note that all sales are final, and we do not accept returns or exchanges.
+
+**Why No Returns?**
+
+– We strive to maintain the highest standards of quality for our products. Each item undergoes thorough inspection before being shipped to ensure it meets our strict criteria.
+
+– Our policy allows us to keep prices competitive and ensures fairness to all customers."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://bulkpeptidesupply.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T18:03:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/shipping.md
+[LINE_RANGE] 36-56
+[QUOTE]
+"## Shipping Policy
+
+Thank you for choosing to shop with us! We strive to ensure that your order reaches you as quickly as possible.
+
+**Delivery Timeframe:**
+
+– Orders typically arrive within ** 10 days** on average.
+
+– However, please allow up to **21 days** for delivery, as shipping times can vary based on your location, Warehouse location, and other factors.
+
+**Processing Time:**
+
+– Once your order is placed, it will be processed and shipped within 1-3 business days. The tracking number may take up to 14 days to activate worst case scenario."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://bulkpeptidesupply.com/checkout/
+[FETCHED_AT] 2026-05-07T18:04:22Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/checkout_step_2.md
+[LINE_RANGE] 14-16
+[QUOTE]
+"#### Fast Free Shipping
+
+Get free shipping on your orders
+(within the US)"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://bulkpeptidesupply.com
+[FETCHED_AT] 2026-05-07T18:01:43Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/source_homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"woocommerce"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://bulkpeptidesupply.com
+[FETCHED_AT] 2026-05-07T18:01:43Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/source_homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"litespeed"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://bulkpeptidesupply.com
+[FETCHED_AT] 2026-05-07T18:01:43Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/source_homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"crisp"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://bulkpeptidesupply.com
+[FETCHED_AT] 2026-05-07T18:01:43Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/homepage.md
+[LINE_RANGE] 174-174
+[QUOTE]
+"#### 2304 W Hefner Rd #21480 SMB#72181 Oklahoma City, OK 73120"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://bulkpeptidesupply.com/shipping-policy/
+[FETCHED_AT] 2026-05-07T18:03:09Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/shipping.md
+[LINE_RANGE] 60-62
+[QUOTE]
+"Trade name: Bulk Peptide Supply
+
+Phone number: 405-417-42999
+
+
+Physical address: 2304 W Hefner Rd #21480 SMB#72181 Oklahoma City, OK"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://bulkpeptidesupply.com
+[FETCHED_AT] 2026-05-07T18:01:43Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/homepage.md
+[LINE_RANGE] 162-172
+[QUOTE]
+"## Client Reviews
+
+I will be buying a lot more from this company Seth Snyder  Great Company
+
+Really responsive, great service. Upfront and honest about the whole process. Andrew Klush  Really great experience!
+
+Great service! Extremely responsive to every email and the best prices I've found for Reta! Customer  Excellent experience
+
+Truly a pure product – works very well – I recommend it Seth Snyder  Amazing Product
+
+Bought Tirz 30mg 10 vials, quick response to any question, great customer service and recieved the product swiftly. John C.  Great Service"
+[/QUOTE]
+
+[CLAIM] skus.bulk-peptide-supply:bpc-157-10mg-10-vials
+[URL] https://bulkpeptidesupply.com/product/bpc-157-10-mg-10-vials/
+[FETCHED_AT] 2026-05-07T18:02:15Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_1__bpc-157-10mg.md
+[LINE_RANGE] 32-36
+[QUOTE]
+"#  BPC-157 10 mg (10 vials)
+
+$200.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-sema
+[URL] https://bulkpeptidesupply.com/product/sema-10-vials/
+[FETCHED_AT] 2026-05-07T18:02:17Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_2__sema.md
+[LINE_RANGE] 30-34
+[QUOTE]
+"#  Sema (10 vials)
+SIZE|  Choose an option5 mg (10) vials10 mg (10 vials)15 mg (10 vials)20 mg (10 vials)Clear"
+[/QUOTE]
+[URL] https://bulkpeptidesupply.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:02:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_3.md
+[LINE_RANGE] 75-78
+[QUOTE]
+"### [Sema (10 vials)](https://web.archive.org/web/20241107101406/https://bulkpeptidesupply.com/product/sema-10-vials/)
+
+[laboratory chemicals]
+
+$225.00 – $500.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-reta
+[URL] https://bulkpeptidesupply.com/product/reta-10-vials/
+[FETCHED_AT] 2026-05-07T18:02:18Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_3__reta.md
+[LINE_RANGE] 30-34
+[QUOTE]
+"#  RETA (10 vials)
+SIZE |  Choose an option10 mg (10 vials)12 mg (10 vials)15 mg (10 vials)20 mg (10 vials)Clear"
+[/QUOTE]
+[URL] https://bulkpeptidesupply.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:02:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_2.md
+[LINE_RANGE] 121-124
+[QUOTE]
+"### [RETA (10 vials)]
+
+$450.00 – $900.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-tirz
+[URL] https://bulkpeptidesupply.com/product/tirz-10-vials/
+[FETCHED_AT] 2026-05-07T18:02:36Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_4__tirz.md
+[LINE_RANGE] 30-34
+[QUOTE]
+"#  TIRZ (10 vials)
+SIZE|  Choose an option10 mg (10 vials)15 mg (10 vials)20 mg (10 vials)30 mg (10 vials)Clear"
+[/QUOTE]
+[URL] https://bulkpeptidesupply.com/product/selank-10-mg-10-vials/
+[FETCHED_AT] 2026-05-07T18:03:40Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_11__selank.md
+[LINE_RANGE] 8-9
+[QUOTE]
+"We will no longer be selling TIRZ effective March 15th, 2025. Get it while you still can."
+[/QUOTE]
+
+[CLAIM] claim-sku-tb500
+[URL] https://bulkpeptidesupply.com/product/tb-500-10-mg-10-vials/
+[FETCHED_AT] 2026-05-07T18:02:37Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_5__tb-500.md
+[LINE_RANGE] 30-32
+[QUOTE]
+"#  TB 500 10 MG (10 VIALS)"
+[/QUOTE]
+[URL] https://bulkpeptidesupply.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:02:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_3.md
+[LINE_RANGE] 105-108
+[QUOTE]
+"### [TB 500 10 MG (10 VIALS)]
+
+$350.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-epithalon
+[URL] https://bulkpeptidesupply.com/product/epithalon-10-vials/
+[FETCHED_AT] 2026-05-07T18:02:38Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_6__epithalon.md
+[LINE_RANGE] 30-33
+[QUOTE]
+"#  Epithalon 10 mg (10 Vials)
+Epithalon 10 mg (10 Vials) quantity"
+[/QUOTE]
+[URL] https://bulkpeptidesupply.com/shop/
+[FETCHED_AT] 2026-05-07T18:01:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_1.md
+[LINE_RANGE] 110-114
+[QUOTE]
+"### [Epithalon (10 vials)]
+
+$150.00 – $250.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-aod9604
+[URL] https://bulkpeptidesupply.com/product/aod-9604-10-vials/
+[FETCHED_AT] 2026-05-07T18:02:39Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_7__aod-9604.md
+[LINE_RANGE] 30-34
+[QUOTE]
+"#  AOD-9604 (10 vials)
+SIZE |  Choose an optionAOD-9604 5 mg (10 vials)AOD-9604 10 mg (10 vials)Clear"
+[/QUOTE]
+[URL] https://bulkpeptidesupply.com/shop/
+[FETCHED_AT] 2026-05-07T18:01:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_1.md
+[LINE_RANGE] 50-54
+[QUOTE]
+"### [AOD-9604 (10 vials)]
+
+$350.00 – $500.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-ghkcu
+[URL] https://bulkpeptidesupply.com/product/ghk-cu-100-mg-10-vials/
+[FETCHED_AT] 2026-05-07T18:02:40Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_8__ghk-cu.md
+[LINE_RANGE] 30-32
+[QUOTE]
+"#  GHK- CU 100 mg (10 vials)"
+[/QUOTE]
+[URL] https://bulkpeptidesupply.com/shop/
+[FETCHED_AT] 2026-05-07T18:01:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_1.md
+[LINE_RANGE] 118-121
+[QUOTE]
+"### [GHK- CU 100 mg (10 vials)]
+
+$235.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-motsc
+[URL] https://bulkpeptidesupply.com/product/mots-c-10-mg-10-vials/
+[FETCHED_AT] 2026-05-07T18:02:41Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_9__mots-c.md
+[LINE_RANGE] 30-32
+[QUOTE]
+"#  MOTS-C 10 mg (10 vials)"
+[/QUOTE]
+[URL] https://bulkpeptidesupply.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:02:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_2.md
+[LINE_RANGE] 89-92
+[QUOTE]
+"### [MOTS-C 10 mg (10 vials)]
+
+$180.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-pt141
+[URL] https://bulkpeptidesupply.com/product/pt-141-bremelanotide-10-mg-10-vials/
+[FETCHED_AT] 2026-05-07T18:02:42Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_10__pt-141.md
+[LINE_RANGE] 30-32
+[QUOTE]
+"#  PT141 10 MG"
+[/QUOTE]
+[URL] https://bulkpeptidesupply.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:02:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_2.md
+[LINE_RANGE] 97-100
+[QUOTE]
+"### [PT-141 (BREMELANOTIDE) 10 MG (10 VIALS)]
+
+$200.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-selank
+[URL] https://bulkpeptidesupply.com/product/selank-10-mg-10-vials/
+[FETCHED_AT] 2026-05-07T18:03:40Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_11__selank.md
+[LINE_RANGE] 30-32
+[QUOTE]
+"[ Add to wishlist ](https://web.archive.org/web/20250208131738/https://bulkpeptidesupply.com/product/selank-10-mg-10-vials/)"
+[/QUOTE]
+[URL] https://bulkpeptidesupply.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:02:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_2.md
+[LINE_RANGE] 129-132
+[QUOTE]
+"### [Selank 10 mg (10 vials)]
+
+$150.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-semax
+[URL] https://bulkpeptidesupply.com/product/semax-10-mg-10-vials/
+[FETCHED_AT] 2026-05-07T18:03:41Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_12__semax.md
+[LINE_RANGE] 30-32
+[QUOTE]
+"#  SEMAX 10"
+[/QUOTE]
+[URL] https://bulkpeptidesupply.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:02:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_3.md
+[LINE_RANGE] 79-82
+[QUOTE]
+"### [Semax 10 mg (10 vials)]
+
+$160.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-cjc1295dac
+[URL] https://bulkpeptidesupply.com/product/cjc-1295-dac-10-vials/
+[FETCHED_AT] 2026-05-07T18:03:42Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_13__cjc1295-dac.md
+[LINE_RANGE] 32-34
+[QUOTE]
+"SIZE |  Choose an option2 mg (10 vials)5 mg (10 vials)Clear"
+[/QUOTE]
+[URL] https://bulkpeptidesupply.com/shop/
+[FETCHED_AT] 2026-05-07T18:01:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_1.md
+[LINE_RANGE] 96-99
+[QUOTE]
+"### [CJC-1295 DAC (10 VIALS)]
+
+$250.00 – $300.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-cjc1295nodac
+[URL] https://bulkpeptidesupply.com/product/cjc-1295-no-dac-10-vials/
+[FETCHED_AT] 2026-05-07T18:03:43Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_14__cjc1295-nodac.md
+[LINE_RANGE] 32-34
+[QUOTE]
+"SIZE |  Choose an option5 mg (10 vials)10 mg (10 vials)Clear"
+[/QUOTE]
+[URL] https://bulkpeptidesupply.com/shop/
+[FETCHED_AT] 2026-05-07T18:01:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_1.md
+[LINE_RANGE] 103-106
+[QUOTE]
+"### [CJC-1295 NO DAC (10 VIALS)]
+
+$250.00 – $325.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-ipamorelin
+[URL] https://bulkpeptidesupply.com/product/ipamorelin-10-vials/
+[FETCHED_AT] 2026-05-07T18:03:44Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/product_15__ipamorelin.md
+[LINE_RANGE] 32-34
+[QUOTE]
+"SIZE |  Choose an option5 mg (10 vials)10 mg (10 vials)Clear"
+[/QUOTE]
+[URL] https://bulkpeptidesupply.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:02:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_2.md
+[LINE_RANGE] 57-60
+[QUOTE]
+"### [Ipamorelin (10 vials)]
+
+$200.00 – $220.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-bacwater
+[URL] https://bulkpeptidesupply.com/shop/
+[FETCHED_AT] 2026-05-07T18:01:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_1.md
+[LINE_RANGE] 57-61
+[QUOTE]
+"### [Bacteriostatic water 10ml (10 vials)]
+
+$50.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-bpc157-tb500-bundle
+[URL] https://bulkpeptidesupply.com/shop/
+[FETCHED_AT] 2026-05-07T18:01:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_1.md
+[LINE_RANGE] 64-68
+[QUOTE]
+"### [BPC 157 5mg /TB 500 5mg (10vials)]
+
+$340.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-cagri
+[URL] https://bulkpeptidesupply.com/shop/
+[FETCHED_AT] 2026-05-07T18:01:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_1.md
+[LINE_RANGE] 71-75
+[QUOTE]
+"### [Cagri 10 mg (10 vials) 100 mg total]
+
+$600.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-cagrisema
+[URL] https://bulkpeptidesupply.com/shop/
+[FETCHED_AT] 2026-05-07T18:01:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_1.md
+[LINE_RANGE] 78-82
+[QUOTE]
+"### [CAGRISEMA 5 mg + 5 mg (10 vials)]
+
+$450.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-cjc-ipa-combo
+[URL] https://bulkpeptidesupply.com/shop/
+[FETCHED_AT] 2026-05-07T18:01:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_1.md
+[LINE_RANGE] 85-89
+[QUOTE]
+"### [CJC 1295 NO DAC/ IPAMORELIN 5 MG/5MG (10 VIALS)]
+
+$325.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-dsip
+[URL] https://bulkpeptidesupply.com/shop/
+[FETCHED_AT] 2026-05-07T18:01:59Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_1.md
+[LINE_RANGE] 123-127
+[QUOTE]
+"### [DSIP 10 mg (10 vials)]
+
+$150.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-hcg
+[URL] https://bulkpeptidesupply.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:02:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_2.md
+[LINE_RANGE] 17-20
+[QUOTE]
+"### [HCG 5000 IU (10 VIALS)]
+
+$250.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-hyaluronic
+[URL] https://bulkpeptidesupply.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:02:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_2.md
+[LINE_RANGE] 24-27
+[QUOTE]
+"### [Hyaluronic acid 5 mg (10 vials)]
+
+$125.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-kisspeptin
+[URL] https://bulkpeptidesupply.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:02:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_2.md
+[LINE_RANGE] 65-68
+[QUOTE]
+"### [KISSPEPTIN-10 5 mg (10 vials)]
+
+$275.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-lipoc
+[URL] https://bulkpeptidesupply.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:02:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_2.md
+[LINE_RANGE] 73-76
+[QUOTE]
+"### [LIPO-C 10 mg (10 vials)]
+
+$240.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-mazdutide
+[URL] https://bulkpeptidesupply.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:02:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_2.md
+[LINE_RANGE] 81-84
+[QUOTE]
+"### [Mazdutide 10 mg (10 vials)]
+
+$300.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-mt2
+[URL] https://bulkpeptidesupply.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:02:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_2.md
+[LINE_RANGE] 88-91
+[QUOTE]
+"### [Melanotan II 10 mg (10 vials)]
+
+$130.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-nad
+[URL] https://bulkpeptidesupply.com/shop/page/2/
+[FETCHED_AT] 2026-05-07T18:02:08Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_2.md
+[LINE_RANGE] 95-99
+[QUOTE]
+"### [NAD+ (10 vials)]
+
+$275.00 – $350.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-selank-semax-blend
+[URL] https://bulkpeptidesupply.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:02:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_3.md
+[LINE_RANGE] 17-20
+[QUOTE]
+"### [SELANK/SEMAX BLEND 5MG/5MG (10 VIALS)]
+
+$195.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-snap8
+[URL] https://bulkpeptidesupply.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:02:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_3.md
+[LINE_RANGE] 83-86
+[QUOTE]
+"### [SNAP 8 10 mg (10 vials)]
+
+$150.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-ss31
+[URL] https://bulkpeptidesupply.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:02:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_3.md
+[LINE_RANGE] 89-92
+[QUOTE]
+"### [SS-31 5 or 10 mg (10 vials)]
+
+$350.00 – $520.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-survodutide
+[URL] https://bulkpeptidesupply.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:02:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_3.md
+[LINE_RANGE] 95-98
+[QUOTE]
+"### [Survodutide 10 mg (10 vials)]
+
+$480.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-tesa-ipa
+[URL] https://bulkpeptidesupply.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:02:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_3.md
+[LINE_RANGE] 109-112
+[QUOTE]
+"### [TESA IPA 10]
+
+$280.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-tesa-ipa-blend
+[URL] https://bulkpeptidesupply.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:02:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_3.md
+[LINE_RANGE] 117-120
+[QUOTE]
+"### [TESA/IPA blend (10 vials)]
+
+$280.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-tesamorelin
+[URL] https://bulkpeptidesupply.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:02:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_3.md
+[LINE_RANGE] 124-127
+[QUOTE]
+"### [Tesamorelin 10mg (10 vials)]
+
+$250.00 – $325.00"
+[/QUOTE]
+
+[CLAIM] claim-sku-thymosin-alpha1
+[URL] https://bulkpeptidesupply.com/shop/page/3/
+[FETCHED_AT] 2026-05-07T18:02:11Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/catalog_3.md
+[LINE_RANGE] 133-136
+[QUOTE]
+"### [Thymosin Alpha-1 10 mg (10 vials)]
+
+$260.00"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[INFERENCE] false
+[REASONING]
+Homepage navigation shows only Home, About, Products, Contact — no Blog or Education link. Fetched About page confirms site is catalog-only. No blog section visible in catalog, product, or compliance page fetches.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://bulkpeptidesupply.com
+[FETCHED_AT] 2026-05-07T18:01:43Z
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/homepage.md
+[LINE_RANGE] 16-19
+"  * [Home]
+  * [About]
+  * [Products]
+  * [Contact]"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://bulkpeptidesupply.com/about/
+[FETCHED_AT] 2026-05-07T18:03:22Z
+[RAW_ARTIFACT] 03_raw_fetches/bulk-peptide-supply/about.md
+[LINE_RANGE] 30-36
+"#  About
+
+#### About
+
+**Welcome to Bulk Peptide Supply!**
+At Bulk Peptide Supply, we are dedicated to providing unmatched quality peptides at wholesale prices."
+[/SUPPORT_QUOTE]

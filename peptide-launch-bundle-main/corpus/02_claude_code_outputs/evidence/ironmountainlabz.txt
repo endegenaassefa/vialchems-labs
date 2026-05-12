@@ -1,0 +1,431 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://ironmountainlabz.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/homepage.md
+[LINE_RANGE] 368-370
+[QUOTE]
+"## Lift . train
+## transform"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://ironmountainlabz.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/homepage.md
+[LINE_RANGE] 13-13
+[QUOTE]
+"[ Shop now ](/shop)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://ironmountainlabz.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/homepage.md
+[LINE_RANGE] 820-820
+[QUOTE]
+"_All products sold on this website are intended for research and identification purposes only. These products are not intended for human dosing, injection, or ingestion._"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://ironmountainlabz.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/homepage.md
+[LINE_RANGE] 7-7
+[QUOTE]
+"* [ Shop  ](/shop) Close Shop Open Shop"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://ironmountainlabz.com/product-category/peptides/single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/catalog_1.md
+[LINE_RANGE] 459-462
+[QUOTE]
+"[Peptides](https://ironmountainlabz.com/product-category/peptides/) (109)
+    * [Peptide Kits](https://ironmountainlabz.com/product-category/peptides/kits/) (4)
+    * [Peptide Nasal Spray](https://ironmountainlabz.com/product-category/peptides/nasal-sprays/) (21)
+    * [Peptide Single Vials](https://ironmountainlabz.com/product-category/peptides/single-vials/) (82)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://ironmountainlabz.com/product-category/peptides/single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/catalog_1.md
+[LINE_RANGE] 420-422
+[QUOTE]
+"## [BPC-157 + TB-500 Injectable for Sale $54.05 – $196.17Price range: $54.05 through $196.17 ](https://ironmountainlabz.com/product/bpc-157-tb-500-peptide/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://ironmountainlabz.com/product/bpc-157-single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/product_1__bpc-157-single-vials.md
+[LINE_RANGE] 378-380
+[QUOTE]
+"# BPC-157 Injectable for Sale
+$67.37 – $151.69Price range: $67.37 through $151.69"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://ironmountainlabz.com/product/bpc-157-single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/product_1__bpc-157-single-vials.md
+[LINE_RANGE] 380-383
+[QUOTE]
+"$67.37 – $151.69Price range: $67.37 through $151.69
+Form |  Choose an optionBPC-157BPC-157 Arg
+---|---
+Dose |  Choose an option5mg10mgClear"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://ironmountainlabz.com/product/bpc-157-single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/product_1__bpc-157-single-vials.md
+[LINE_RANGE] 410-410
+[QUOTE]
+"BPC-157 (Body Protective Compound) is a synthetic pentadecapeptide (combination of 15 amino acid molecules). It is derived from a protein in gastric juice in the stomach of research models."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://ironmountainlabz.com/product/bpc-157-single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/product_1__bpc-157-single-vials.md
+[LINE_RANGE] 406-406
+[QUOTE]
+"**Disclaimer:**_All Iron Mountain Labz products are only intended for laboratory research use and are not approved for human consumption._"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://ironmountainlabz.com/product/bpc-157-single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/product_1__bpc-157-single-vials.md
+[LINE_RANGE] 438-448
+[QUOTE]
+"  * At Iron Mountain Labz, BPC 157 is tested with HPLC and confirmed at 99.6% purity.
+  * The assay result of this product meets research-grade standards at 98.8%.
+  * The endotoxin levels of BPC 157 injectables were measured at <0.5 EU/mg, which is below the specified limit.
+  * A Certificate of Analysis (COA) is also provided for verification."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://ironmountainlabz.com/product/bpc-157-single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/product_1__bpc-157-single-vials.md
+[LINE_RANGE] 488-488
+[QUOTE]
+"## 1st Party COA"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://ironmountainlabz.com/product/bpc-157-single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/product_1__bpc-157-single-vials.md
+[LINE_RANGE] 483-487
+[QUOTE]
+"##  Reviews
+There are no reviews yet.
+Be the first to review \"BPC-157 Injectable for Sale\" [Cancel reply](/product/bpc-157-single-vials/#respond)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://ironmountainlabz.com/product/bpc-157-single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/product_1__bpc-157-single-vials.md
+[LINE_RANGE] 501-505
+[QUOTE]
+"## Related products
+  * ## [Semax Nasal Spray for Sale $128.10 ](https://ironmountainlabz.com/product/semax-nasal-spray/)
+  * ## [N-Acetyl Selank Amidate Nasal Spray for Sale $144.82 ](https://ironmountainlabz.com/product/n-acetyl-selank-amidate-nasal-spray/)
+  * ## [GHRP-6 Peptide Injectable for Sale $37.44 – $43.68"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://ironmountainlabz.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/homepage.md
+[LINE_RANGE] 820-820
+[QUOTE]
+"_All products sold on this website are intended for research and identification purposes only. These products are not intended for human dosing, injection, or ingestion._"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://ironmountainlabz.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/homepage.md
+[LINE_RANGE] 998-1001
+[QUOTE]
+"## Age Verification Required
+Access to this website is restricted to individuals 21 years of age or older. Please confirm your eligibility to continue.
+Research Use Disclaimer
+By accessing this website, you acknowledge that all products available are supplied solely for laboratory and scientific research purposes. These products are not intended for human or animal consumption, medical use, or any purpose that violates applicable laws or regulations."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://ironmountainlabz.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/homepage.md
+[LINE_RANGE] 998-999
+[QUOTE]
+"## Age Verification Required
+Access to this website is restricted to individuals 21 years of age or older. Please confirm your eligibility to continue."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://ironmountainlabz.com/shipping-and-returns-policy/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/shipping.md
+[LINE_RANGE] 412-412
+[QUOTE]
+"We do not offer returns or exchanges, as all sales are final. However, if you receive an incorrect item, we are more than willing to facilitate an exchange or provide a refund at the discretion of Iron Mountain Labz."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://ironmountainlabz.com/shipping-and-returns-policy/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/shipping.md
+[LINE_RANGE] 382-382
+[QUOTE]
+"Packages typically reach the courier within 5 – 10 business days. Please note that our delivery time estimates are counted in business days (Monday-Friday), providing a more accurate representation of the shipping process."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://ironmountainlabz.com/shipping-and-returns-policy/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/shipping.md
+[LINE_RANGE] 385-396
+[QUOTE]
+"To ensure secure delivery of your orders, we partner with reputable carriers that ship in the continental USA, including:
+USPS
+USPS"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://ironmountainlabz.com/product/bpc-157-single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/product_1__bpc-157-single-vials.md
+[LINE_RANGE] 366-366
+[QUOTE]
+"Iron Mountain Labz ships from within the United States. All orders are sent in discreet packaging to protect the contents and ensure the [privacy](/privacy-policy/) of the buyer."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://ironmountainlabz.com/payment-faqs/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/payment_faqs.md
+[LINE_RANGE] 369-369
+[QUOTE]
+"Yes, we do accept cryptocurrency payments."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://ironmountainlabz.com/product/bpc-157-single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/product_1__bpc-157-single-vials.md
+[LINE_RANGE] 368-368
+[QUOTE]
+"[](https://cdn-ilblpfj.nitrocdn.com/TLfgNlSSHdBJGAjgPEBfFkjSpDScaOzA/assets/images/optimized/rev-5e04e73/ironmountainlabz.com/wp-content/uploads/2025/04/BPC-157-10mg_IML-1.jpg)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://ironmountainlabz.com/product/bpc-157-single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/product_1__bpc-157-single-vials.md
+[LINE_RANGE] 368-368
+[QUOTE]
+"[](https://cdn-ilblpfj.nitrocdn.com/TLfgNlSSHdBJGAjgPEBfFkjSpDScaOzA/assets/images/optimized/rev-5e04e73/ironmountainlabz.com/wp-content/uploads/2025/04/BPC-157-10mg_IML-1.jpg)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://ironmountainlabz.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/homepage.md
+[LINE_RANGE] 107-111
+[QUOTE]
+"## Blog
+Dive into our Blog section for an enriching exploration of insightful content related to our premium compounds. Whether you're interested in the latest advancements in SARMs, Peptides, Miscellaneous, or seeking in-depth research insights, our blog serves as a valuable resource."
+[/QUOTE]
+
+[CLAIM] content_footprint.content_cadence
+[URL] https://ironmountainlabz.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/homepage.md
+[LINE_RANGE] 115-141
+[QUOTE]
+"## [How to Store Bacteriostatic Water](https://ironmountainlabz.com/how-to-store-bacteriostatic-water/)
+    * [ February 17, 2026 ]
+## [Peptides for Acne](https://ironmountainlabz.com/peptides-for-acne/)
+    * [ February 17, 2026 ]
+## [Best peptide stack for muscle growth and fat loss](https://ironmountainlabz.com/best-peptide-stack-for-muscle-growth-and-fat-loss/)
+    * [ February 17, 2026 ]"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://ironmountainlabz.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/homepage.md
+[LINE_RANGE] 755-772
+[QUOTE]
+"## testmonials
+## Our Happy Customers
+Jake M
+I've been using Iron Mountain Labz for a few months, and I'm seriously impressed. The quality is great, and everything is exactly as advertised. Fast shipping, no hassles. These guys know what they're doing.
+Carlos D
+Finding a reliable source for SARMs and peptides used to be a nightmare, until I found Iron Mountain Labz. Everything is clean, well-packaged, and arrives fast. I've seen some great results."
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://ironmountainlabz.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/homepage.md
+[LINE_RANGE] 814-814
+[QUOTE]
+"[ ](https://www.trustpilot.com/review/ironmountainlabz.com)"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://ironmountainlabz.com/product/bpc-157-single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/product_1__bpc-157-single-vials.md
+[LINE_RANGE] 366-366
+[QUOTE]
+"Iron Mountain Labz ships from within the United States. All orders are sent in discreet packaging to protect the contents and ensure the [privacy](/privacy-policy/) of the buyer."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://ironmountainlabz.com/shipping-and-returns-policy/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/shipping.md
+[LINE_RANGE] 385-387
+[QUOTE]
+"To ensure secure delivery of your orders, we partner with reputable carriers that ship in the continental USA, including:
+USPS"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://ironmountainlabz.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/homepage.md
+[LINE_RANGE] 97-97
+[QUOTE]
+"* [ T&C's ](/terms-and-conditions/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://ironmountainlabz.com/product/bpc-157-single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/product_1__bpc-157-single-vials.md
+[LINE_RANGE] 368-376
+[QUOTE]
+"[](https://cdn-ilblpfj.nitrocdn.com/TLfgNlSSHdBJGAjgPEBfFkjSpDScaOzA/assets/images/optimized/rev-5e04e73/ironmountainlabz.com/wp-content/uploads/2025/04/BPC-157-10mg_IML-1.jpg)
+[](https://cdn-ilblpfj.nitrocdn.com/TLfgNlSSHdBJGAjgPEBfFkjSpDScaOzA/assets/images/optimized/rev-5e04e73/ironmountainlabz.com/wp-content/uploads/2025/04/BPC-157-10mg_IML-3-2.jpg)
+[](https://cdn-ilblpfj.nitrocdn.com/TLfgNlSSHdBJGAjgPEBfFkjSpDScaOzA/assets/images/optimized/rev-5e04e73/ironmountainlabz.com/wp-content/uploads/2025/04/BPC-157-5mg_IML-3-1.jpg)"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://ironmountainlabz.com/product-category/peptides/single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/catalog_1.md
+[LINE_RANGE] 447-468
+[QUOTE]
+"[Aromatase Inhibitors](https://ironmountainlabz.com/product-category/aromatase-inhibitors/) (8)
+  * [Bulking Supplements](https://ironmountainlabz.com/product-category/bulking/) (51)
+  * [Cannabis Products](https://ironmountainlabz.com/product-category/cannabis/) (40)
+  * [Miscellaneous Products](https://ironmountainlabz.com/product-category/miscellaneous/) (78)
+  * [Nootropics](https://ironmountainlabz.com/product-category/nootropics/) (22)
+  * [Peptides](https://ironmountainlabz.com/product-category/peptides/) (109)
+  * [SARMs](https://ironmountainlabz.com/product-category/sarms/) (36)
+  * [SERMs](https://ironmountainlabz.com/product-category/serms/) (19)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://ironmountainlabz.com/product/bpc-157-single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/product_1__bpc-157-single-vials.md
+[LINE_RANGE] 477-479
+[QUOTE]
+"Form | BPC-157, BPC-157 Arg
+---|---
+Dose | 5mg, 10mg"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://ironmountainlabz.com/product/bpc-157-single-vials/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/product_1__bpc-157-single-vials.md
+[LINE_RANGE] 420-430
+[QUOTE]
+"**CAS Number** | 137525-51-0
+**Molar Mass** | 1419.5 g/mol
+**Chemical Formula** | C62H98N16O22
+**Ingredients / Composition** | It consists of the BPC 157 compound as a key component with a purity of 98.8%.
+**Shelf Life** | 2 years
+**Storage Instructions** | BPC-157 should be stored as a lyophilized powder at -18 degrees C or below.
+**Disclaimer** | BPC 157 is not approved for human use. It is legal for research purposes only."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] lifestyle
+[REASONING]
+The homepage features section headers for category-specific promotions (Cannabis, Peptides, Nootropics, SARMs) with category image links and motivational copy ("Lift . train / transform", "Conquer with Clarity", "Naturally Elevated"). The site is consumer-facing with lifestyle-oriented category imagery. No clinical or anonymous imagery was described in the fetched content.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://ironmountainlabz.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/homepage.md
+[LINE_RANGE] 368-378
+"## Lift . train
+## transform
+[ Learn More ](/blog)
+[ ](/shop)
+[ ](/shop)
+## Shop by Category"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://ironmountainlabz.com/
+[FETCHED_AT] 2026-05-07T00:00:00Z
+[RAW_ARTIFACT] 03_raw_fetches/ironmountainlabz/homepage.md
+[LINE_RANGE] 400-415
+"[ PEPTIDE ](https://ironmountainlabz.com/product-category/peptides/)
+## BOOST
+Energy
+## Enjoy 15% OFF your first order - Just sign up to unlock your code!
+[ Shop Now ](https://ironmountainlabz.com/product-category/peptides/)
+[ Nootropics ](https://ironmountainlabz.com/product-category/nootropics/)
+## Conquer with Clarity"
+[/SUPPORT_QUOTE]

@@ -1,0 +1,196 @@
+{
+  "vendor_slug": "forever-young-pharmacy",
+  "brand_name": "Forever Young Pharmacy",
+  "primary_domain": "https://foreveryoungpharmacy.com",
+
+  "fetched_url": "https://foreveryoungpharmacy.com/",
+  "fetched_at": "2026-05-07T23:02:09Z",
+  "fetch_status": "partial",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed); Tier 3 confirmed: no forum trail found, no Trustpilot profile, single third-party testing platform (Finnrick) entry only. Finn rick presence noted for reference. Site appears to have removed retail peptide vials from live storefront (visible in Jan 2025 archive) and pivoted to lab-testing-panel services.",
+  "field_completion_ratio": 0.58,
+
+  "country_of_operation": "United States",
+  "fulfillment_country": "United States",
+  "ship_to_scope": "uncertain",
+  "year_established": "2023",
+
+  "homepage": {
+    "hero_copy_excerpt": "Forever Young Pharmacy\n### The Science of Staying Young",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "Contact Us, Verify a COA (live site 2026); formerly: SHOP ALL (Peptides, Peptide Purity Testing, Personal Health Lab Testing, Supplements, Sundry), Peptide Testing, Blog, Our Story, Contact Us",
+    "footer_disclaimers": "Copyright © 2025 Forever Young Pharmacy, All Rights Reserved"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": [
+      "Peptide Specific Lab Testing",
+      "Bioregulators Lab Panels",
+      "Energy Production Lab Panels",
+      "GLP-1 and Weight Loss Lab Panels",
+      "Healing and Inflammation Lab Panels",
+      "Muscle Growth Lab Panels",
+      "Sexual Health Lab Panels",
+      "Sleep Lab Panels",
+      "Supplemental Lab Panels"
+    ],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": ["uncertain"],
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "All products sold on this website are for research purposes only. They are not classified as medicines or drugs approved by the FDA (for customers in the United States) to prevent, treat, diagnose, mitigate, or cure any medical condition or disease.",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "All products sold on this website are for research purposes only. They are not classified as medicines or drugs approved by the FDA (for customers in the United States) to prevent, treat, diagnose, mitigate, or cure any medical condition or disease. They should not be labeled as drugs, food, cosmetics, or medicinal products.",
+    "age_gate_present": "true",
+    "jurisdictional_restriction_notice": "By agreeing to these terms and conditions, you confirm that you will check the laws and regulations of your country regarding the delivery and use of our products prior to purchase.",
+    "tos_url": "https://foreveryoungpharmacy.com/terms-and-conditions/",
+    "tos_highlights": "21+ age gate; research use only; no returns; indemnification clause; products not for human or animal consumption; customers must be associated with a relevant body qualified to conduct laboratory research; governing law United States.",
+    "refund_policy": "Due to our rigorous quality control standards and the fragile nature of our products, we cannot accept returns. In the rare occasion that your order arrives with missing, incorrect or damaged items, please contact us at support@foreveryoungpharmacy.com for assistance.",
+    "shipping_policy": "FREE shipping on orders over $150. For orders less than $150, $9.99 flat rate. USPS Priority Mail with tracking. Same-day shipping for orders placed before 12 noon PST. Guest checkout available."
+  },
+
+  "checkout_flow": {
+    "account_required": "false",
+    "guest_checkout_available": "true",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": ["credit cards (all major)"],
+    "shipping_carriers": ["USPS Priority Mail"],
+    "shipping_cost_structure": "Free on orders over $150; $9.99 flat rate otherwise",
+    "international_policy": "Ships internationally; customer responsible for verifying destination-country laws and customs regulations"
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": ["uncertain"],
+    "marketing_pixels_present": ["uncertain"],
+    "chat_widget_present": "uncertain"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "https://foreveryoungpharmacy.com/blog/",
+    "content_cadence": "Active through at least February 2025; blog has at least 2 pages of posts",
+    "topic_taxonomy": [
+      "Peptide Purity Testing",
+      "Mislabeled peptide vials reports",
+      "No-detectable-ingredient vial reports",
+      "Bacterial and fungal contamination testing",
+      "TFA in peptides",
+      "Overseas peptide sourcing risks",
+      "Semaglutide research news",
+      "Weight loss research"
+    ],
+    "author_bylines_present": "false",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": ["Finnrick (finnrick.com) — 26 samples tested across 5 products; Semaglutide A Great, BPC-157 B Good, Tirzepatide B Good, CJC-1295 C Okay, Retatrutide E Bad; avg score 5.8"],
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+
+  "skus": [
+    {
+      "sku_id": "forever-young-pharmacy:semax-10mg",
+      "name": "Semax 10mg",
+      "peptide_canonical": "Semax",
+      "peptide_variant": "empty",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": 39.99,
+      "sale_price_usd": 29.99,
+      "sale_observed_at": "2025-01-19T00:00:00Z",
+      "per_mg_price_usd": 3.00,
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://foreveryoungpharmacy.com/product/semax-10mg/",
+      "raw_artifact": "03_raw_fetches/forever-young-pharmacy/product_1__semax-10mg.md",
+      "evidence_entry_id": "claim-10"
+    },
+    {
+      "sku_id": "forever-young-pharmacy:semaglutide-20mg",
+      "name": "Semaglutide 20mg",
+      "peptide_canonical": "Semaglutide",
+      "peptide_variant": "empty",
+      "dose_value": 20,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": 169.99,
+      "sale_price_usd": 149.99,
+      "sale_observed_at": "2025-02-06T00:00:00Z",
+      "per_mg_price_usd": 7.50,
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://foreveryoungpharmacy.com/product/semaglutide-20mg/",
+      "raw_artifact": "03_raw_fetches/forever-young-pharmacy/product_1__semax-10mg.md",
+      "evidence_entry_id": "claim-11"
+    },
+    {
+      "sku_id": "forever-young-pharmacy:aod-9604-5mg",
+      "name": "AOD-9604 5mg",
+      "peptide_canonical": "AOD-9604",
+      "peptide_variant": "Fragment 176-191",
+      "dose_value": 5,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "uncertain",
+      "list_price_usd": 29.99,
+      "sale_price_usd": 24.99,
+      "sale_observed_at": "2025-02-06T00:00:00Z",
+      "per_mg_price_usd": 5.00,
+      "volume_tier_label": "empty",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "uncertain",
+      "url": "https://foreveryoungpharmacy.com/product/aod-9604-5mg/",
+      "raw_artifact": "03_raw_fetches/forever-young-pharmacy/product_1__semax-10mg.md",
+      "evidence_entry_id": "claim-12"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "forever-young-pharmacy,Forever Young Pharmacy,foreveryoungpharmacy.com,0,00_inputs/vendor_list.csv,\"row from operator-supplied vendor list, classified as Tier 3: Niche RUO supplier.\",3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/forever-young-pharmacy/",
+  "evidence_file": "evidence/forever-young-pharmacy.txt",
+  "uncertainty_notes": "ship_to_scope: TOS references international customs but no explicit ship-to country list found in fetched pages; homepage.primary_cta: live homepage (May 2026) appears to be stripped-down JS shell rendering Contact Us / Verify COA only, no shop CTA visible in curl fetch; catalog.sku_count: live site (May 2026) shows only lab-testing panels (24 products) — retail peptide vials removed; archived Jan 2025 site showed 66 peptide SKUs plus supplements/sundry; product_page_anatomy fields (except exact_disclaimer_language): live site no longer exposes retail product pages in curl fetch; SKU data sourced from Jan-Feb 2025 Wayback archive only; skus per_mg_price_usd: computed as sale_price_usd/dose_value; tech_stack.cdn/analytics/pixels: not extractable from curl text output; social_proof.on_site_reviews / testimonial_usage: not observable in fetched text pages; checkout fields_collected / id_verification: not walked in current session as live site appears to require account for checkout progression; platform_signal woocommerce inferred from URL patterns (product-category, add-to-cart query params) visible in archived pages. Note: the site has pivoted away from direct peptide retail since the Jan 2025 archive; the 'Verify a COA' feature positions it as a COA verification service for third-party peptides, not just self-testing."
+}

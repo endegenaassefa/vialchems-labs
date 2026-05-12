@@ -1,0 +1,93 @@
+{
+  "vendor_slug": "mj-peptides",
+  "brand_name": "MJ Peptides",
+  "primary_domain": "unknown",
+  "fetched_url": "n/a (no public domain in seed)",
+  "fetched_at": "2026-05-07T19:00:00Z",
+  "fetch_status": "failed",
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed: Tier 3). No public domain provided in seed CSV — vendor surfaces only via B2B directory listings (made-in-china.com, etc.) or Telegram. fetch_status: failed because no website is fetchable. Documented in coverage_report.md per directive §8.4. Baseline identity preserved from seed.",
+  "field_completion_ratio": 0.05,
+  "country_of_operation": "China",
+  "fulfillment_country": "China",
+  "ship_to_scope": "us_intl",
+  "year_established": "uncertain",
+  "homepage": {
+    "hero_copy_excerpt": "uncertain",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "uncertain",
+    "navigation_pattern": "uncertain",
+    "footer_disclaimers": "uncertain"
+  },
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": [],
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": "uncertain",
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": "uncertain",
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": "uncertain",
+    "shipping_carriers": "uncertain",
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+  "tech_stack": {
+    "platform_signal": "uncertain",
+    "cdn": "uncertain",
+    "analytics_tools_loaded": "uncertain",
+    "marketing_pixels_present": "uncertain",
+    "chat_widget_present": "uncertain"
+  },
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": "uncertain",
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+  "social_proof": {
+    "on_site_reviews": "uncertain",
+    "off_site_aggregators": "uncertain",
+    "testimonial_usage": "uncertain",
+    "visible_influencer_endorsements": "uncertain"
+  },
+  "skus": [],
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "row from operator-supplied vendor list, classified as Tier 3: Underground, site-less distribution ring."
+  },
+  "raw_fetches_dir": "03_raw_fetches/mj-peptides/ (none)",
+  "evidence_file": "evidence/mj-peptides.txt",
+  "uncertainty_notes": "Vendor seed has primary_domain=unknown — only surfaces via B2B directories (made-in-china.com, alibaba.com category pages) or private channels. No website fetchable, no Wayback snapshot to query, no checkout walkable. fetch_status: failed because no schema-fillable evidence accessible. Listed in coverage_report.md §Failed Fetches as 'no public domain'."
+}

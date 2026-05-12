@@ -1,0 +1,441 @@
+[CLAIM] sms-marketing.vendor_table.biotechpeptides.privacy_clause
+[URL] https://biotechpeptides.com/privacy-policy/
+[FETCHED_AT] 2026-05-06T18:42:00Z
+[FETCH_METHOD] webfetch+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/biotechpeptides__privacy_policy.md
+[LINE_RANGE] 14-19
+[QUOTE]
+"Users may receive promotional advertisements via SMS messaging if they
+opt-in on our website."
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.biotechpeptides.opt_out_keyword
+[URL] https://biotechpeptides.com/privacy-policy/
+[FETCHED_AT] 2026-05-06T18:42:00Z
+[FETCH_METHOD] webfetch+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/biotechpeptides__privacy_policy.md
+[LINE_RANGE] 31-32
+[QUOTE]
+"For SMS messaging, users can opt-out at any time by replying STOP."
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.biotechpeptides.originator_consent_carveout
+[URL] https://biotechpeptides.com/privacy-policy/
+[FETCHED_AT] 2026-05-06T18:42:00Z
+[FETCH_METHOD] webfetch+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/biotechpeptides__privacy_policy.md
+[LINE_RANGE] 25-28
+[QUOTE]
+"All the above categories exclude text messaging originator opt-in data
+and consent; this information will not be shared with any third
+parties."
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.biotechpeptides.no_active_sms_form
+[URL] https://biotechpeptides.com/
+[FETCHED_AT] 2026-05-06T18:36:00Z
+[FETCH_METHOD] webfetch+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/biotechpeptides__home.md
+[LINE_RANGE] 1-30
+[QUOTE]
+[ENUMERATION] Curl-fetched homepage HTML (1,181,484 bytes) grepped
+for: cdn.attn.tv, postscript.io, klaviyo.com, twilio.com, tatango,
+emotive.io, simpletexting, and `<input type="tel">`. Result: zero
+matches. Footer signup labelled exclusively "SUBSCRIBE TO OUR
+NEWSLETTER / Enjoy promotions and discounts" — email field only.
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.corepeptides.privacy_clause
+[URL] https://corepeptides.com/privacy-policy/
+[FETCHED_AT] 2026-05-06T18:42:00Z
+[FETCH_METHOD] webfetch+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/corepeptides__privacy_policy.md
+[LINE_RANGE] 14-18
+[QUOTE]
+"You may opt-in for marketing communications on our website. These
+include emails and SMS messaging, which you can opt-out of at any
+time. No purchase is necessary. Standard message and data rates may
+apply."
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.corepeptides.no_active_sms_form
+[URL] https://corepeptides.com/
+[FETCHED_AT] 2026-05-06T18:36:00Z
+[FETCH_METHOD] webfetch+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/corepeptides__home.md
+[LINE_RANGE] 1-30
+[QUOTE]
+[ENUMERATION] Curl-fetched homepage HTML (841,570 bytes) grepped for
+SMS provider tags (cdn.attn.tv, postscript.io, klaviyo.com,
+twilio.com, tatango, emotive.io, simpletexting) and `<input
+type="tel">`. Result: zero matches. Footer signup verbatim:
+"SUBSCRIBE TO OUR NEWSLETTER — ENJOY PROMOTIONS AND DISCOUNTS" —
+email field only.
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.purerawz.klaviyo_present_no_sms
+[URL] https://web.archive.org/web/2025/https://purerawz.co/
+[FETCHED_AT] 2026-05-06T18:39:00Z
+[FETCH_METHOD] archive-org+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/purerawz__home_archive.md
+[LINE_RANGE] 14-18
+[QUOTE]
+"klaviyo.com/onsite/js/klaviyo.js?company_id=UGUHq7&amp;ver=3.3.4"
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.purerawz.transactional_only_phone
+[URL] https://web.archive.org/web/2025/https://purerawz.co/privacy-policy/
+[FETCHED_AT] 2026-05-06T18:43:00Z
+[FETCH_METHOD] archive-org+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/purerawz__privacy_archive.md
+[LINE_RANGE] 14-22
+[QUOTE]
+"Transparency is key to our operations. Hence, we have a strict policy
+against trading, renting, or selling telephone numbers to any party.
+Your telephone numbers are treated with the utmost care and are used
+exclusively for communication related to your orders."
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.behemothlabz.no_sms_in_privacy
+[URL] https://behemothlabz.com/privacy-policy/
+[FETCHED_AT] 2026-05-06T18:42:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/behemothlabz__privacy_policy.md
+[LINE_RANGE] 1-30
+[QUOTE]
+[ENUMERATION] Privacy policy text scanned for SMS, "text message",
+"text-message", "text messaging", "mobile" (in marketing context),
+"msg & data rates", "STOP", "TCPA", "10DLC", "short code". Result:
+zero matches. Verbatim model finding: "No SMS or text-message terms
+found in privacy policy."
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.behemothlabz.email_only_signup
+[URL] https://behemothlabz.com/
+[FETCHED_AT] 2026-05-06T18:36:00Z
+[FETCH_METHOD] webfetch+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/behemothlabz__home.md
+[LINE_RANGE] 14-19
+[QUOTE]
+"Join & Receive 15% Off + FREE Hand Strengthener" with email-only
+collection: "Your email will never be shared because we detest spam!"
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.limitlesslifenootropics.no_sms_in_privacy
+[URL] https://limitlesslifenootropics.com/privacy-policy/
+[FETCHED_AT] 2026-05-06T18:42:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/limitlesslifenootropics__home.md
+[LINE_RANGE] 14-25
+[QUOTE]
+[ENUMERATION] Privacy policy text scanned for SMS, text-message,
+mobile (marketing context), msg-and-data, STOP, TCPA, 10DLC, short
+code. Verbatim model finding: "No SMS or text-message terms found in
+privacy policy."
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.limitlesslifenootropics.email_only_signup
+[URL] https://limitlesslifenootropics.com/
+[FETCHED_AT] 2026-05-06T18:36:00Z
+[FETCH_METHOD] webfetch+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/limitlesslifenootropics__home.md
+[LINE_RANGE] 14-15
+[QUOTE]
+"Subscribe to our newsletter" with single "Email Address" field
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.swisschems.tel_link_only
+[URL] https://web.archive.org/web/2025/https://swisschems.is/
+[FETCHED_AT] 2026-05-06T18:39:00Z
+[FETCH_METHOD] archive-org+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/swisschems__home_archive.md
+[LINE_RANGE] 14-19
+[QUOTE]
+"tel:Call"
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.peptidesciences.klaviyo_present_no_sms
+[URL] https://web.archive.org/web/20240301151733/https://www.peptidesciences.com/
+[FETCHED_AT] 2026-05-06T18:43:00Z
+[FETCH_METHOD] archive-org+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/peptidesciences__home_archive.md
+[LINE_RANGE] 14-18
+[QUOTE]
+"klaviyo.com/onsite/js/klaviyo.js?company_id=XY6ahM"
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.peptideguys.parked_redirect
+[URL] https://peptideguys.com/
+[FETCHED_AT] 2026-05-06T18:38:00Z
+[FETCH_METHOD] webfetch+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/peptideguys__home.md
+[LINE_RANGE] 14-17
+[QUOTE]
+"<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href=\"/lander\"}</script></head></html>"
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.aminoasylum.unreachable_apex
+[URL] https://aminoasylum.shop/
+[FETCHED_AT] 2026-05-06T18:38:00Z
+[FETCH_METHOD] webfetch+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/aminoasylum__home.md
+[LINE_RANGE] 14-25
+[QUOTE]
+[ENUMERATION] WebFetch reported: "REDIRECT DETECTED: The URL redirects
+to a different host. Original URL: https://aminoasylum.shop/ Redirect
+URL: https://peptidecoupons.com/ Status: 301 Moved Permanently".
+Direct curl returned a 3,355-byte stub with no SMS provider tags or
+tel-inputs.
+[/QUOTE]
+
+[CLAIM] sms-marketing.vendor_table.domesticsupply.parked_aggregator
+[URL] https://www.domesticsupply.net/
+[FETCHED_AT] 2026-05-06T18:38:00Z
+[FETCH_METHOD] webfetch+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/domesticsupply__home.md
+[LINE_RANGE] 14-19
+[QUOTE]
+"<title>domesticsupply.net</title>"
+(10,764-byte Sedo-style aggregator template; no SMS provider tags;
+no `<input type="tel">`; no SMS opt-in language anywhere on page.)
+[/QUOTE]
+
+[CLAIM] sms-marketing.platform_policy.attentive.shaft_verbatim
+[URL] https://www.attentive.com/legal/content-policy
+[FETCHED_AT] 2026-05-06T18:46:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/attentive__content_policy.md
+[LINE_RANGE] 19-43
+[QUOTE]
+"To stay in compliance with carrier guidelines and the law, users of
+the Attentive SMS- and MMS-specific services must follow certain
+rules with respect to messaging content, in addition to the content
+prohibited across all products and services above. Attentive will
+not provide its service to any client that violates the below
+content prohibitions."
+[/QUOTE]
+
+[CLAIM] sms-marketing.platform_policy.attentive.illegal_content
+[URL] https://www.attentive.com/legal/content-policy
+[FETCHED_AT] 2026-05-06T18:46:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/attentive__content_policy.md
+[LINE_RANGE] 47-52
+[QUOTE]
+"Illegal Content
+Any content related to anything that is illegal in any state or
+federally.
+Endorsement of illegal or illicit drugs, including cannabis and CBD
+(including hemp seed oil and hemp powder)"
+[/QUOTE]
+
+[CLAIM] sms-marketing.platform_policy.postscript.shaft_carveout
+[URL] https://help.postscript.io/en/articles/13563920-sms-marketing-compliance-overview
+[FETCHED_AT] 2026-05-06T18:48:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/postscript__compliance_overview.md
+[LINE_RANGE] 17-29
+[QUOTE]
+"While SHAFT content has been heavily regulated in SMS marketing for
+years, the CTIA tightened its rules surrounding this content in May
+2021. As a result, Postscript can no longer service brands that
+offer or communicate about sex, hate, firearms, tobacco
+(CBD--included) products."
+[/QUOTE]
+
+[CLAIM] sms-marketing.platform_policy.postscript.tcpa_consent_template
+[URL] https://help.postscript.io/en/articles/13563920-sms-marketing-compliance-overview
+[FETCHED_AT] 2026-05-06T18:48:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/postscript__compliance_overview.md
+[LINE_RANGE] 36-43
+[QUOTE]
+"By providing your number and clicking the button, you agree to
+receive recurring auto-dialed marketing SMS (including cart
+reminders; AI content; artificial or prerecorded voices) and our
+TERMS OF SERVICE (including arbitration). Consent is not required
+to purchase. Msg & data rates may apply. Msg frequency varies.
+Reply HELP for help; STOP to opt-out. View PRIVACY POLICY."
+[/QUOTE]
+
+[CLAIM] sms-marketing.platform_policy.postscript.tcpa_penalty_exposure
+[URL] https://help.postscript.io/en/articles/13563920-sms-marketing-compliance-overview
+[FETCHED_AT] 2026-05-06T18:48:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/postscript__compliance_overview.md
+[LINE_RANGE] 60-64
+[QUOTE]
+"Violations of the TCPA can lead to damages of $500-$1,500 per
+message, while violations of CTIA guidelines can lead to being
+prevented from using the wireless carrier networks."
+[/QUOTE]
+
+[CLAIM] sms-marketing.platform_policy.klaviyo.prescription_clause
+[URL] https://help.klaviyo.com/hc/en-us/articles/4401822831771-SMS-and-MMS-Prohibited-Content
+[FETCHED_AT] 2026-05-06T18:50:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/klaviyo__sms_prohibited_content.md
+[LINE_RANGE] 14-21
+[QUOTE]
+"Prescription medication that cannot legally be sold over-the-
+counter"
+[/QUOTE]
+
+[CLAIM] sms-marketing.platform_policy.klaviyo.opt_out_rate_catchall
+[URL] https://help.klaviyo.com/hc/en-us/articles/4401822831771-SMS-and-MMS-Prohibited-Content
+[FETCHED_AT] 2026-05-06T18:50:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/klaviyo__sms_prohibited_content.md
+[LINE_RANGE] 35-38
+[QUOTE]
+"Even if your use case is not listed here, you may receive a carrier
+violation error if you previously experienced high opt-out rates
+(more than 2%)."
+[/QUOTE]
+
+[CLAIM] sms-marketing.platform_policy.highlevel.prescription_drug_rule
+[URL] https://help.gohighlevel.com/support/solutions/articles/48001219617-forbidden-message-categories-for-sms-and-mms-in-the-us-and-canada
+[FETCHED_AT] 2026-05-06T18:51:00Z
+[FETCH_METHOD] webfetch+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/highlevel__forbidden_categories.md
+[LINE_RANGE] 19-25
+[QUOTE]
+"Prescription drugs"
+"Offers for drugs that cannot be sold over the counter in the U.S./
+Canada are forbidden."
+[/QUOTE]
+
+[CLAIM] sms-marketing.platform_policy.ringcentral.pharmaceutical_ban
+[URL] https://www.ringcentral.com/legal/sms-mms-content-policies.html
+[FETCHED_AT] 2026-05-06T18:53:00Z
+[FETCH_METHOD] webfetch+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/ringcentral__sms_mms_content_policies.md
+[LINE_RANGE] 14-22
+[QUOTE]
+"<li>Pharmaceutical, vitamin, or other drug advertisements</li>"
+[/QUOTE]
+
+[CLAIM] sms-marketing.platform_policy.ringcentral.controlled_substance_ban
+[URL] https://www.ringcentral.com/legal/sms-mms-content-policies.html
+[FETCHED_AT] 2026-05-06T18:53:00Z
+[FETCH_METHOD] webfetch+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/ringcentral__sms_mms_content_policies.md
+[LINE_RANGE] 17-21
+[QUOTE]
+"<li>Companies that promote, sell, or otherwise reference substances
+defined as controlled substances under federal law, regardless of
+legality, including marijuana (cannabis)</li>"
+[/QUOTE]
+
+[CLAIM] sms-marketing.platform_policy.simpletexting.controlled_abuse_ban
+[URL] https://simpletexting.com/sms-compliance/prohibited-content-shaft/
+[FETCHED_AT] 2026-05-06T18:54:00Z
+[FETCH_METHOD] webfetch+curl
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/simpletexting__shaft.md
+[LINE_RANGE] 14-17
+[QUOTE]
+"Note that you're prohibited from sending messages about the abuse
+of controlled substances."
+[/QUOTE]
+
+[CLAIM] sms-marketing.carrier_policy.ctia.handbook_age_gate_rule
+[URL] https://api.ctia.org/wp-content/uploads/2024/01/CTIA-Short-Code-Monitoring-Handbook-v1.9-FINAL.pdf
+[FETCHED_AT] 2026-05-06T18:51:00Z
+[FETCH_METHOD] curl+pdfminer
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/ctia__short_code_handbook_v1_9.md
+[LINE_RANGE] 26-37
+[QUOTE]
+"All content associated with Short Code Programs should promote a
+positive user experience. Messaging content must:
+
+- Adhere to all applicable laws;
+- Be age-gated appropriately for controlled substances and adult
+  content; and
+- Not infringe upon the intellectual property rights of third
+  parties."
+[/QUOTE]
+
+[CLAIM] sms-marketing.carrier_policy.ctia.handbook_unlawful_content
+[URL] https://api.ctia.org/wp-content/uploads/2024/01/CTIA-Short-Code-Monitoring-Handbook-v1.9-FINAL.pdf
+[FETCHED_AT] 2026-05-06T18:51:00Z
+[FETCH_METHOD] curl+pdfminer
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/ctia__short_code_handbook_v1_9.md
+[LINE_RANGE] 51-67
+[QUOTE]
+"Programs associated with Wireless Provider brands or operating on
+the Wireless Provider networks should not promote unlawful or
+illicit content. Such content may include, but is not limited to,
+the following:
+
+- Spam;
+- Fraudulent or misleading messages;
+- Depictions or endorsements of violence;
+- Adult content or other content that is inappropriate for the
+  intended audience;
+- Profanity or hate speech; and
+- Endorsement of illegal drugs or controlled substances.
+
+Programs must operate according to all applicable federal and
+state laws and regulations. ... Reference to the abuse of
+controlled substances is prohibited."
+[/QUOTE]
+
+[CLAIM] sms-marketing.carrier_policy.ctia.handbook_advertising_rule
+[URL] https://api.ctia.org/wp-content/uploads/2024/01/CTIA-Short-Code-Monitoring-Handbook-v1.9-FINAL.pdf
+[FETCHED_AT] 2026-05-06T18:51:00Z
+[FETCH_METHOD] curl+pdfminer
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/ctia__short_code_handbook_v1_9.md
+[LINE_RANGE] 14-22
+[QUOTE]
+"To respond to Consumers' needs and emerging risks, Wireless
+Providers may promulgate requirements that fall outside these
+Guidelines. Message Senders should refer to Wireless Providers for
+onboarding information including but not limited to:
+
+- Program certification and migration processes;
+- Program details;
+- Advertising of controlled substances;
+- Sweepstakes approval processes; and
+- Marketing to children."
+[/QUOTE]
+
+[CLAIM] sms-marketing.industry_signal.peptidemarketing_agency_no_sms
+[URL] https://peptidemarketing.com/
+[FETCHED_AT] 2026-05-06T18:55:00Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/peptidemarketing_agency__home.md
+[LINE_RANGE] 14-22
+[QUOTE]
+[ENUMERATION] Vertical-specific marketing agency for peptide /
+research-chemical brands publishes exactly four service offerings:
+"Paid Advertising", "E-mail Marketing", "Search Engine
+Optimization", "Web Development". SMS marketing is not on the menu;
+zero mentions of SMS, text-message, Klaviyo SMS, Postscript,
+Attentive, 10DLC, or TCPA on the agency's homepage.
+[/QUOTE]
+
+[CLAIM] sms-marketing.bulk_scan.absence_pattern_25_vendors
+[URL] multiple (see raw artifact)
+[FETCHED_AT] 2026-05-06T18:40:00Z
+[FETCH_METHOD] curl+wayback
+[RAW_ARTIFACT] 03_raw_fetches/sms-marketing/secondtier_vendors__bulk_scan.md
+[LINE_RANGE] 14-50
+[QUOTE]
+[ENUMERATION] Bulk scan across 25+ research-peptide vendor URLs
+(modernaminos, chemyo, musclegelz, americanresearchpeptides,
+parameterpeptides, prohormonelab, juvenongroup, peptidewarehouse,
+blueskypeptide, elgenpharm, proteanlabs, mountainpeptides,
+syntheticpeptides, canlabsca, transcendcompany, marekhealth,
+canlabssarms, thatsmartchick, empowerpharmacy, tailormadecompounding,
+pioneer-peptides, olympuslabz, nubreed-nutrition, kalpapharmaceutical,
+elixir-laboratories) for SMS provider tags (klaviyo.com, attn.tv,
+attentivemobile, postscript.io, cdn.postscript, tatango, emotive.io,
+simpletexting, twilio.com) and `<input type="tel">` opt-in fields.
+Result: zero detected an Attentive, Postscript, SimpleTexting, or
+Twilio tag. Five detected Klaviyo onsite (PureRawz, PeptideSciences,
+Musclegelz, Transcend, Tailormade Compounding) — none of those
+demonstrably runs Klaviyo SMS as opposed to Klaviyo email. Two
+clinical-posture brands (Transcend, Tailormade Compounding) had
+both Klaviyo and a tel-input; both operate under FDA-registered
+facilities and are not research-chemical-posture vendors.
+[/QUOTE]

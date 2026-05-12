@@ -1,0 +1,181 @@
+[CLAIM] country_of_operation
+[URL] https://web.archive.org/web/20250205192444/https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/homepage_2025.md
+[LINE_RANGE] 184-184
+[QUOTE]
+"© 2025 Peptides Australia |All rights reserved| PA PEPTIDES Trading as Peptides Australia™ by ILIJA COMPANY Pty Ltd"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://web.archive.org/web/20250205192444/https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/homepage_2025.md
+[LINE_RANGE] 107-107
+[QUOTE]
+"**Fast, Reliable Delivery, Australia wide.**"
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://web.archive.org/web/20250205192444/https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/homepage_2025.md
+[LINE_RANGE] 82-85
+[QUOTE]
+"Australia’s
+Home
+of
+Peptides"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://web.archive.org/web/20250205192444/https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/homepage_2025.md
+[LINE_RANGE] 85-85
+[QUOTE]
+"[Discover more](https://web.archive.org/web/20250205192444/https://aussiepeptides.com/about-peptides/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://web.archive.org/web/20250205192444/https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/homepage_2025.md
+[LINE_RANGE] 50-53
+[QUOTE]
+"  * [ Home __](https://web.archive.org/web/20250205192444/https://aussiepeptides.com/)
+  * [ About Peptides __](https://web.archive.org/web/20250205192444/https://aussiepeptides.com/about-peptides/)
+  * [ Contact __](https://web.archive.org/web/20250205192444/https://aussiepeptides.com/contact-2/)
+  * [ Shop __](https://web.archive.org/web/20250205192444/https://aussiepeptides.com/shop/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://web.archive.org/web/20250205192444/https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/homepage_2025.md
+[LINE_RANGE] 184-184
+[QUOTE]
+"© 2025 Peptides Australia |All rights reserved| PA PEPTIDES Trading as Peptides Australia™ by ILIJA COMPANY Pty Ltd"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://web.archive.org/web/20241127112552if_/https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:47:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/source_homepage_full.md
+[LINE_RANGE] 1-10
+[QUOTE]
+"<meta name="generator" content="WooCommerce 9.4.2"/>
+<meta name="generator" content="WordPress 6.7.1"/>"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:46:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/source_homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"server: hcdn"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://web.archive.org/web/20241127112552if_/https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:47:53Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/source_homepage_full.md
+[LINE_RANGE] 1-10
+[QUOTE]
+"<!-- This site uses the Google Analytics by MonsterInsights plugin v9.2.2 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<!-- Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -->
+<meta name=\"generator\" content=\"Site Kit by Google 1.140.0\"/>"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE] false
+[REASONING]
+The raw HTML source of the November 2024 Wayback snapshot was scanned for known live chat widget scripts (Intercom, Tawk, Drift, Crisp). None were found. The only communication plugin present is omnisend-connect (email marketing). Absence of any chat widget JS constitutes evidence that no chat widget was active at time of snapshot.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20241127112552if_/https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:47:53Z
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/source_homepage_full.md
+[LINE_RANGE] 1-10
+"<link rel="stylesheet" id="omnisend-woocommerce-checkout-block-checkout-newsletter-subscription-block-css" href="https://web.archive.org/web/20241127112552cs_/https://aussiepeptides.com/wp-content/plugins/omnisend-connect/includes/blocks/build/omnisend-checkout-block.css?ver=0.1.0" type="text/css" media="all"/>"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20241127112552if_/https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:47:53Z
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/source_homepage_full.md
+[LINE_RANGE] 1-10
+"<!-- This site uses the Google Analytics by MonsterInsights plugin v9.2.2 - Using Analytics tracking - https://www.monsterinsights.com/ -->"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://web.archive.org/web/20250205192444/https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:29Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/homepage_2025.md
+[LINE_RANGE] 82-184
+[QUOTE]
+"Australia’s
+Home
+of
+Peptides [Discover more]"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[INFERENCE] none found
+[REASONING]
+No Trustpilot, Google Reviews, or other review aggregator pages were found for aussiepeptides.com or Peptides Australia. No forum mentions were found. The vendor has no established review presence as of 2026-05-07 across accessible sources.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250205192444/https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:29Z
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/homepage_2025.md
+[LINE_RANGE] 82-184
+"Australia’s
+Home
+of
+Peptides [Discover more]"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:46:49Z
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/homepage_live.md
+[LINE_RANGE] 1-3
+"###  Coming Soon
+
+New WordPress website is being built and will be published soon"
+[/SUPPORT_QUOTE]
+
+[CLAIM] fetch_status
+[INFERENCE] partial
+[REASONING]
+The live site returns only a Coming Soon page (HTTP 200 with 3 lines of placeholder text). Wayback Machine returned a functional homepage snapshot from 2025-02-05 with branding, navigation, hero copy, footer legal text, and tech stack signals. However, all product pages, shop pages, compliance pages, and subpages were inaccessible. Field completion ratio is 0.46 (partial range 0.40-0.69).
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:46:49Z
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/homepage_live.md
+[LINE_RANGE] 1-3
+"###  Coming Soon
+
+New WordPress website is being built and will be published soon"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20250205192444/https://aussiepeptides.com/
+[FETCHED_AT] 2026-05-07T19:48:29Z
+[RAW_ARTIFACT] 03_raw_fetches/aussiepeptides/homepage_2025.md
+[LINE_RANGE] 82-85
+"Australia’s
+Home
+of
+Peptides"
+[/SUPPORT_QUOTE]

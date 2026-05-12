@@ -1,0 +1,414 @@
+[CLAIM] primary_domain
+[URL] https://www.lnpeptide.com/
+[FETCHED_AT] 2026-05-07T23:51:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/homepage.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"[LNPeptide](https://www.lnpeptide.com)"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://www.lnpeptide.com/aboutus/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/aboutus.md
+[LINE_RANGE] 25-25
+[QUOTE]
+"We are a factory in China with 15 years of industry experience, mainly engaged in foreign trade and OEM business of pharmaceutical raw materials, with mature technology and stable quality."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.lnpeptide.com/aboutus/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/aboutus.md
+[LINE_RANGE] 25-25
+[QUOTE]
+"We are a factory in China with 15 years of industry experience, mainly engaged in foreign trade and OEM business of pharmaceutical raw materials, with mature technology and stable quality."
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.lnpeptide.com/faq/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/faq.md
+[LINE_RANGE] 48-51
+[QUOTE]
+"We use US special line for shipping. 12-15 days arrive you. DDP US.
+Final dispatch is USPS or FEDEX
+EU countries have EU special line final dispatch by DHL, 15 days .
+UK have UK special line, final dispatch is Royal mail. 7-10days"
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://www.lnpeptide.com/
+[FETCHED_AT] 2026-05-07T23:51:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/homepage.md
+[LINE_RANGE] 23-23
+[QUOTE]
+"**2013-2026 …, LNPeptide focusing on the production and processing of polypeptide raw materials and the cross-border e-commerce business of freeze-dried products.**"
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.lnpeptide.com/
+[FETCHED_AT] 2026-05-07T23:51:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/homepage.md
+[LINE_RANGE] 21-23
+[QUOTE]
+"## 15+years Raw&Peptide Factory Supplier.
+
+**2013-2026 …, LNPeptide focusing on the production and processing of polypeptide raw materials and the cross-border e-commerce business of freeze-dried products.**"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://www.lnpeptide.com/
+[FETCHED_AT] 2026-05-07T23:51:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/homepage.md
+[LINE_RANGE] 35-37
+[QUOTE]
+"**Embrace the Power of Research Peptides**
+
+**Welcome to LNpeptide,** **the trusted name in advanced peptide research. At LNpeptide, we are dedicated to providing high-quality peptides for research purposes, ensuring scientists and researchers have access to the best tools for their work. Our products are intended strictly for in vitro testing and laboratory experimentation, complying with the highest standards of quality and safety.**"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.lnpeptide.com/
+[FETCHED_AT] 2026-05-07T23:51:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/homepage.md
+[LINE_RANGE] 25-25
+[QUOTE]
+"[**MORE**](https://www.lnpeptide.com/aboutus/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.lnpeptide.com/
+[FETCHED_AT] 2026-05-07T23:51:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/homepage.md
+[LINE_RANGE] 10-17
+[QUOTE]
+"  * [**CONTACT**](https://www.lnpeptide.com/contact/)
+  * [**ABOUT US**](https://www.lnpeptide.com/aboutus/)
+  * [**PRODUCT**](https://www.lnpeptide.com/product/)
+  * [**LAB RESULTS**](https://www.lnpeptide.com/results/)
+  * [**C** OMMENTS](https://www.lnpeptide.com/comments/)
+  * [FAQ](https://www.lnpeptide.com/faq/)
+  * [**N** EWS](https://www.lnpeptide.com/news/)
+  * [CHEATER](https://www.lnpeptide.com/cheater/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.lnpeptide.com/
+[FETCHED_AT] 2026-05-07T23:51:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/homepage.md
+[LINE_RANGE] 79-97
+[QUOTE]
+"-15+years API,Raw,Peptides factory supplier！
+
+  * **Peptides**
+  * **Sarms**
+  * **Api**
+
+  * **Capsule**
+  * **Tablet**
+  * **Oem**
+
+**2013-202** 6
+
+[LNPeptide](https:/www.lnpeptide.com) Copy right @2013-2026"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.lnpeptide.com/product/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/catalog_1.md
+[LINE_RANGE] 21-27
+[QUOTE]
+"### LNpeptides [More](https://www.lnpeptide.com/product/peptides/)
+
+### LNOEM [More](https://www.lnpeptide.com/product/steroids/)
+
+### LNsarms [More](https://www.lnpeptide.com/product/sarms/)
+
+### LNapis"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.lnpeptide.com/product/peptides/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/catalog_peptides.md
+[LINE_RANGE] 33-35
+[QUOTE]
+"BPC 5mg+TB 5mg| BB 10| 10mg*10vials|
+BPC 10mg+TB 10mg| BB 20| 20mg*10vials|
+SS-31| 2S| 10\50mg*10vials| ≥99.00%"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.lnpeptide.com/
+[FETCHED_AT] 2026-05-07T23:51:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/homepage.md
+[LINE_RANGE] 57-57
+[QUOTE]
+"**LN adheres to all regulatory requirements, ensuring that our products are used responsibly and ethically. Our peptides are not intended for human or animal consumption and are to be handled only by licensed, qualified professionals**."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://www.lnpeptide.com/faq/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/faq.md
+[LINE_RANGE] 33-34
+[QUOTE]
+"We provide certificates of analysis on every product we sell. You can find this information by scrolling to the product page of the peptide you are purchasing."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://www.lnpeptide.com/results/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/lab_results.md
+[LINE_RANGE] 36-38
+[QUOTE]
+"### **Klow 80mg/2026-1-12**
+
+<https://verify.janoshik.com/tests/98232_12SBUHERZ5WD>"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://www.lnpeptide.com/results/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/lab_results.md
+[LINE_RANGE] 36-38
+[QUOTE]
+"<https://verify.janoshik.com/tests/98232_12SBUHERZ5WD>"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://www.lnpeptide.com/results/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/lab_results.md
+[LINE_RANGE] 55-57
+[QUOTE]
+"### **Mots-c 40mg/2025-10-21**
+
+<https://chromate.org/verify?c=28776_8R698QMV72VL>"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://www.lnpeptide.com/results/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/lab_results.md
+[LINE_RANGE] 21-36
+[QUOTE]
+"### **Glow 70mg/2026-4-22**
+
+### **Cagrilintide 10mg/2026-4-21**
+
+### **SS31 50mg/2026-4-21**
+
+### ****50AM/2026-4-20****
+
+### **Tesamorelin 10mg/2026-4-20**
+
+### ****Mots-C 20mg/2026-4-9****
+
+### **Wolverine 20mg/2026-3-31**
+
+### ****Mots-C 10mg/2026-3-25****
+
+### **Klow 80mg/2026-3-30**
+
+### **Tesofensine500mcg/2026-3-11**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.lnpeptide.com/
+[FETCHED_AT] 2026-05-07T23:51:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/homepage.md
+[LINE_RANGE] 37-37
+[QUOTE]
+"**Welcome to LNpeptide,** **the trusted name in advanced peptide research. At LNpeptide, we are dedicated to providing high-quality peptides for research purposes, ensuring scientists and researchers have access to the best tools for their work. Our products are intended strictly for in vitro testing and laboratory experimentation, complying with the highest standards of quality and safety.**"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.lnpeptide.com/faq/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/faq.md
+[LINE_RANGE] 63-64
+[QUOTE]
+"Due to the nature of this industry we can never accept a return on an opened or used product. In special cases of unused peptides we may be able to accept your return. Please contact support to request a RMA and label be sent to you via email. Please also provide your original payment method. Be advised there will be a restocking fee of $10 which covers the cost of shipping and handling. Damaged peptides will not be refunded unless the damage occured while in transit to your facility, and not from it."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.lnpeptide.com/faq/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/faq.md
+[LINE_RANGE] 44-51
+[QUOTE]
+"By special line shipping cost under 25kits is $60, by express is $90;
+Reach 25kits shipping free.
+Waters and liquids need to pay shipping fees alone based its weight.
+
+We use US special line for shipping. 12-15 days arrive you. DDP US.
+Final dispatch is USPS or FEDEX
+EU countries have EU special line final dispatch by DHL, 15 days .
+UK have UK special line, final dispatch is Royal mail. 7-10days"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.lnpeptide.com/contact/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/contact.md
+[LINE_RANGE] 96-108
+[QUOTE]
+"## **LNpeptide The only valid payment method：**
+
+**USDT:**
+**TRC20**
+TVdmh6geit4VHsg2hyxMFUmw7HedNvVB3F
+**Solana**
+EgRz6YX4uchpfxcLStqihAzzZPm8KVxjbbTNRPv93KZy
+**ERC20**
+0x2400e885bcd1f4e5fabecf1ed54b9bffaace2613
+
+**BTC:**
+**BTC(SegWit)**
+bc1qw79uwkj80zqlu5kt0zw747wfx36njjh4p6hnax"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.lnpeptide.com/faq/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/faq.md
+[LINE_RANGE] 48-51
+[QUOTE]
+"We use US special line for shipping. 12-15 days arrive you. DDP US.
+Final dispatch is USPS or FEDEX
+EU countries have EU special line final dispatch by DHL, 15 days .
+UK have UK special line, final dispatch is Royal mail. 7-10days"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.lnpeptide.com/faq/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/faq.md
+[LINE_RANGE] 44-46
+[QUOTE]
+"By special line shipping cost under 25kits is $60, by express is $90;
+Reach 25kits shipping free.
+Waters and liquids need to pay shipping fees alone based its weight."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.lnpeptide.com/faq/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/faq.md
+[LINE_RANGE] 48-51
+[QUOTE]
+"We use US special line for shipping. 12-15 days arrive you. DDP US.
+Final dispatch is USPS or FEDEX
+EU countries have EU special line final dispatch by DHL, 15 days .
+UK have UK special line, final dispatch is Royal mail. 7-10days"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://www.lnpeptide.com/
+[FETCHED_AT] 2026-05-07T23:51:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/homepage.md
+[LINE_RANGE] 105-107
+[QUOTE]
+"[ Powered by Joinchat ](https://join.chat/en/powered/?site=LNPeptide&url=https%3A%2F%2Fwww.lnpeptide.com)
+
+LNpeptide，What can i do for u? Beware of scammers！"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://www.lnpeptide.com/
+[FETCHED_AT] 2026-05-07T23:51:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/homepage.md
+[LINE_RANGE] 16-16
+[QUOTE]
+"  * [**N** EWS](https://www.lnpeptide.com/news/)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://www.lnpeptide.com/
+[FETCHED_AT] 2026-05-07T23:51:24Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/homepage.md
+[LINE_RANGE] 16-16
+[QUOTE]
+"  * [**N** EWS](https://www.lnpeptide.com/news/)"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.finnrick.com/vendors/ln-peptides
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/social_finnrick.md
+[LINE_RANGE] 11-11
+[QUOTE]
+"Finnrick has tested 31 samples from LN Peptides across 5 products."
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://www.lnpeptide.com/aboutus/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/aboutus.md
+[LINE_RANGE] 40-44
+[QUOTE]
+"> 「First-class products and customer service!」
+>
+> Sheely
+> us"
+[/QUOTE]
+
+[CLAIM] skus[]
+[URL] https://www.lnpeptide.com/product/peptides/
+[FETCHED_AT] 2026-05-07T23:53:16Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/ln-peptides/catalog_peptides.md
+[LINE_RANGE] 21-38
+[QUOTE]
+"Semaglutide| SM| 5-30mg*10vials| ≥99.80%
+Tirzepatide| TR| 5-120mg*10vials| ≥99.89%
+Retatrutide| RT| 5-30mg*10vials| ≥99.85%
+TB 500| TB| 5-10mg*10vials| ≥99.55%
+HGH| H| 10-24iu*10vials| ≥99.52%
+BPC 157| BPC| 5-10mg*10vials| ≥99.50%
+BPC 5mg+TB 5mg| BB 10| 10mg*10vials|
+BPC 10mg+TB 10mg| BB 20| 20mg*10vials|
+SS-31| 2S| 10\50mg*10vials| ≥99.00%
+CJC-1295 NO DAC| CND| 5\10mg*10vials| ≥99.00%
+CJC-1295 NO DAC 5mg+IPA 5mg| CP| 10mg*vials|
+CJC-1295(DAC)| CD| 2\5mg*10vials| ≥99.00%
+AOD 9604| AOD| 5\10mg*10vials| ≥99.22%
+IGF-1LR3| IGF| 0.1\1mg*10vials| ≥99.00%
+MOTS-c| MS| 10\40mg*10vials| ≥99.63%
+Melanotan 1 Acetate| MT 1| 10mg*10vials| ≥99.88%
+Melanotan 2 Acetate| MT 2| 10mg*10vials| ≥99.73%
+Epithalon| ET| 10\50mg*10vials| ≥99.30%"
+[/QUOTE]

@@ -1,0 +1,130 @@
+[CLAIM] fetch_status
+[URL] https://www.yimei.com/
+[FETCHED_AT] 2026-05-08T08:46:13Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yimei/homepage.md
+[LINE_RANGE] 8-12
+[QUOTE]
+"# Yimei.com
+
+医美行业顶级域名出售中 手机：15001026760 / 微信：assetholdings
+
+© 2025 Yimei.com"
+[/QUOTE]
+
+[CLAIM] fetch_status (archive confirmation)
+[URL] https://web.archive.org/web/2024/https://www.yimei.com/
+[FETCHED_AT] 2026-05-08T08:49:39Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/yimei/wayback_2024.md
+[LINE_RANGE] 8-12
+[QUOTE]
+"# Yimei.com
+
+医美行业顶级域名出售中 手机：150 - 010 - 26760 / 微信：assetholdings
+
+© 2024 Yimei.com"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.finnrick.com/vendors/yimei
+[FETCHED_AT] 2026-05-08T08:48:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yimei/finnrick_vendor.md
+[LINE_RANGE] 10-58
+[QUOTE]
+"# Yimei
+
+Finnrick has tested 103 samples from Yimei across 8 products."
+[/QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country
+[INFERENCE] China
+[REASONING]
+Vendor identified as Handan Yimei Import and Export Co., LTD on ECHEMI (https://www.echemi.com/shop-us20240521111027015/index.html, HTTP 202 JS-blocked, not saved as a usable artifact). Corroborated by Finnrick test records showing unlabeled no-label vials shipped to US researchers for testing — consistent with direct-from-China API export model. No US address or US entity was found in any accessible source.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.finnrick.com/vendors/yimei
+[FETCHED_AT] 2026-05-08T08:48:09Z
+[RAW_ARTIFACT] 03_raw_fetches/yimei/finnrick_vendor.md
+[LINE_RANGE] 60-60
+"The Yimei samples tested by Finnrick were either acquired by Finnrick directly, or submitted by the public."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.finnrick.com/vendors/yimei
+[FETCHED_AT] 2026-05-08T08:48:09Z
+[RAW_ARTIFACT] 03_raw_fetches/yimei/finnrick_vendor.md
+[LINE_RANGE] 119-119
+"28 Apr 2026| Retatrutide| [View](/testing-certificate/retatrutide/yimei/20260428-e-qndu5bm)| | 8.8| 30mg| 27.3mg| -9.0%| 99.90%| n/a| 900-30| No Label / Silver Crimp / Green Cap| Lab E| Public"
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope
+[INFERENCE] us_intl
+[REASONING]
+Finnrick test records document US-based lab testing of samples from Yimei submitted by the public, confirming the vendor ships to or into the US. The operator's vendor_list.csv also seeds this vendor with ship_to "US+Intl". The no-label vial presentation (No Label / Silver Crimp) is consistent with direct-to-researcher API export shipping internationally.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.finnrick.com/vendors/yimei
+[FETCHED_AT] 2026-05-08T08:48:09Z
+[RAW_ARTIFACT] 03_raw_fetches/yimei/finnrick_vendor.md
+[LINE_RANGE] 119-119
+"28 Apr 2026| Retatrutide| [View](/testing-certificate/retatrutide/yimei/20260428-e-qndu5bm)| | 8.8| 30mg| 27.3mg| -9.0%| 99.90%| n/a| 900-30| No Label / Silver Crimp / Green Cap| Lab E| Public"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.finnrick.com/vendors/yimei
+[FETCHED_AT] 2026-05-08T08:48:09Z
+[RAW_ARTIFACT] 03_raw_fetches/yimei/finnrick_vendor.md
+[LINE_RANGE] 60-60
+"The Yimei samples tested by Finnrick were either acquired by Finnrick directly, or submitted by the public."
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators (Finnrick product ratings detail)
+[URL] https://www.finnrick.com/vendors/yimei
+[FETCHED_AT] 2026-05-08T08:48:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yimei/finnrick_vendor.md
+[LINE_RANGE] 50-58
+[QUOTE]
+"[GHK-Cu](/products/ghk-cu/yimei)| B Good| 15| 6.7| 5.0| 8.0| 25 Nov 2025| 23 Apr 2026
+[Ipamorelin](/products/ipamorelin/yimei)| B Good| 7| 7.5| 5.7| 9.7| 23 Oct 2025| 28 Apr 2026
+[Tirzepatide](/products/tirzepatide/yimei)| C Okay| 6| 6.9| 4.7| 9.3| 9 Jan 2026| 28 Apr 2026
+[BPC-157](/products/bpc-157/yimei)| E Bad| 10| 5.2| 0.0| 10.0| 24 Oct 2025| 21 Mar 2026
+[CJC-1295](/products/cjc-1295/yimei)| E Bad| 6| 6.8| 2.9| 8.0| 20 Feb 2026| 28 Apr 2026
+[Retatrutide](/products/retatrutide/yimei)| E Bad| 48| 6.8| 0.0| 9.8| 20 Jun 2025| 28 Apr 2026
+[TB-500](/products/tb-500/yimei)| E Bad| 5| 5.8| 1.4| 8.0| 23 Oct 2025| 7 Mar 2026
+[Tesamorelin](/products/tesamorelin/yimei)| E Bad| 6| 5.6| 1.7| 7.5| 23 Oct 2025| 7 Mar 2026"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators (customer satisfaction scores)
+[URL] https://www.finnrick.com/vendors/yimei
+[FETCHED_AT] 2026-05-08T08:48:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/yimei/finnrick_vendor.md
+[LINE_RANGE] 63-91
+[QUOTE]
+"4.8
+
+Based on 62 overall satisfaction reports
+
+Ease of Purchase
+
+4.6(62)
+
+Payment Methods
+
+3.9(62)
+
+Delivery Speed
+
+4.7(62)
+
+Packaging Quality
+
+4.2(60)
+
+Customer Service
+
+4.5(26)
+
+People who submitted test requests to Finnrick gave Yimei an average satisfaction rating of 4.8 out of 5 across 62 reports associated with samples received and tested by Finnrick. Customers rated payment methods (3.9/5) and packaging quality (4.2/5) comparatively lower."
+[/QUOTE]

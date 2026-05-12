@@ -1,0 +1,462 @@
+[CLAIM] primary_domain
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:44:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 38-38
+[QUOTE]
+"BioInfinity Lab is a USA-based research peptide supplier. Third-party tested peptides shipped same-day from New York. COA verified with 100% delivery guarantee."
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:44:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 36-36
+[QUOTE]
+"# +99% Verified Purity.Every Batch. Every Time."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:44:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 40-40
+[QUOTE]
+"[Shop Peptides](/shop)[View COA Library](/coa-library)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:44:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 24-24
+[QUOTE]
+"[Home](/)[Shop Peptides](/shop)[COA Library](/coa-library)[Peptide Index](/research)[Peptide Research](/peptide-research)[About Us](/about)[Contact](/contact)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:44:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 646-646
+[QUOTE]
+"Disclaimer: All products on this site are for Research, Development use only. Products are Not for Human consumption of any kind. The statements made within this website have not been evaluated by the US Food and Drug Administration. The statements and the products of this company are not intended to diagnose, treat, cure or prevent any disease."
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] United States
+[REASONING]
+Multiple sources confirm US-based operations: homepage states "USA-based research peptide supplier" and "Third-party tested peptides shipped same-day from New York"; About page confirms "BioInfinity Lab is a research peptide supplier based in New York, United States"; footer address lists "BioInfinity LLC HQ: 3081 Carter Street, Miami, FL 33133" and "Fulfillment: 1460 Broadway, Manhattan, NY 10036".
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:44:37Z
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 38-38
+"BioInfinity Lab is a USA-based research peptide supplier. Third-party tested peptides shipped same-day from New York. COA verified with 100% delivery guarantee."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:44:37Z
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 668-670
+"HQ: 3081 Carter Street, Miami, FL 33133
+Fulfillment: 1460 Broadway, Manhattan, NY 10036"
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:44:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 460-460
+[QUOTE]
+"We are a United States company operating from New York. All orders ship domestically within the USA. We do not ship internationally."
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.bioinfinitylab.com/shop
+[FETCHED_AT] 2026-05-07T19:44:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/catalog_1.md
+[LINE_RANGE] 42-42
+[QUOTE]
+"Showing 22 research compounds"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.bioinfinitylab.com/shop
+[FETCHED_AT] 2026-05-07T19:44:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/catalog_1.md
+[LINE_RANGE] 43-43
+[QUOTE]
+"All CompoundsBlendCognitiveGrowthImmuneLab SupplyLongevityMetabolicPopular PeptidesRecoveryRegenerative"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://www.bioinfinitylab.com/shop
+[FETCHED_AT] 2026-05-07T19:44:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/catalog_1.md
+[LINE_RANGE] 56-60
+[QUOTE]
+"BlendBest Seller
+
+[](/product/glow-blend)
+
+### [Glow Blend](/product/glow-blend)Blend"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url / product_page_anatomy.dose_options / product_page_anatomy.list_price / product_page_anatomy.per_mg_cost
+[URL] https://www.bioinfinitylab.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T19:45:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/product_1__bpc-157.md
+[LINE_RANGE] 78-80
+[QUOTE]
+"Select Size
+
+5 mg$4010 mg$8020 mg$160"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://www.bioinfinitylab.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T19:45:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/product_1__bpc-157.md
+[LINE_RANGE] 128-128
+[QUOTE]
+"BPC-157 (Body Protection Compound-157) is a synthetic pentadecapeptide consisting of 15 amino acids (Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val) derived from a portion of the human gastric juice protein. It has been the subject of extensive preclinical research for its role in tissue repair, angiogenesis, and wound healing."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.bioinfinitylab.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T19:45:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/product_1__bpc-157.md
+[LINE_RANGE] 167-167
+[QUOTE]
+"_FOR RESEARCH USE ONLY. Not for human consumption._"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / product_page_anatomy.coa_hosting / product_page_anatomy.lab_partner_named / product_page_anatomy.batch_lot_transparency
+[URL] https://www.bioinfinitylab.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T19:45:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/product_1__bpc-157.md
+[LINE_RANGE] 42-44
+[QUOTE]
+"Third-Party Tested by Verum Analytics• HPLC-UV/MS
+How to Verify Our Testing
+Batch: BIL-BATCH-01-2602Mar 1, 2026"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://www.bioinfinitylab.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T19:45:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/product_1__bpc-157.md
+[LINE_RANGE] 278-284
+[QUOTE]
+"## Customer Reviews
+
+Verified research purchases
+
+5.0(6 reviews)
+
+Mike T.Verified"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://www.bioinfinitylab.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T19:45:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/product_1__bpc-157.md
+[LINE_RANGE] 353-357
+[QUOTE]
+"### Frequently Researched Together
+
+Commonly studied alongside in laboratory settings
+
+BPC-157
+
+This item"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.bioinfinitylab.com/terms
+[FETCHED_AT] 2026-05-07T19:45:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/terms.md
+[LINE_RANGE] 44-50
+[QUOTE]
+"**IMPORTANT:** All products sold by BioInfinity Lab are intended for **laboratory research purposes only**. They are NOT intended for:
+  * Human consumption
+  * Veterinary use
+  * Diagnostic purposes
+  * Food or cosmetic use"
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+Terms of Service require purchasers to certify they are at least 18 years old, but no interactive age gate page was encountered during homepage fetch or any other page fetch. Certification is textual only.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.bioinfinitylab.com/terms
+[FETCHED_AT] 2026-05-07T19:45:33Z
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/terms.md
+[LINE_RANGE] 53-53
+"By purchasing our products, you certify that you are at least 18 years old and that you will use the products only for legitimate research purposes."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:44:37Z
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 1-10
+"≥99% PURITY GUARANTEED•THIRD-PARTY TESTED•SAME-DAY SHIPPING USA•FREE SHIPPING $200+•"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://www.bioinfinitylab.com/shipping
+[FETCHED_AT] 2026-05-07T19:45:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/shipping.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"We currently ship to all 50 US states. We do not offer international shipping at this time."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:44:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 688-690
+[QUOTE]
+"[Privacy Policy](/privacy-policy)[Terms of Service](/terms)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.bioinfinitylab.com/terms
+[FETCHED_AT] 2026-05-07T19:45:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/terms.md
+[LINE_RANGE] 53-53
+[QUOTE]
+"By purchasing our products, you certify that you are at least 18 years old and that you will use the products only for legitimate research purposes."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.bioinfinitylab.com/refund-policy
+[FETCHED_AT] 2026-05-07T19:45:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/refund.md
+[LINE_RANGE] 46-46
+[QUOTE]
+"The return request is submitted within **14 calendar days of the confirmed delivery date** as recorded by the shipping carrier (USPS, UPS, or FedEx)."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.bioinfinitylab.com/shipping
+[FETCHED_AT] 2026-05-07T19:45:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/shipping.md
+[LINE_RANGE] 40-40
+[QUOTE]
+"Orders placed **before 2:00 PM EST** Monday through Friday are shipped the same business day!"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.bioinfinitylab.com/shipping
+[FETCHED_AT] 2026-05-07T19:45:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/shipping.md
+[LINE_RANGE] 52-55
+[QUOTE]
+"Standard Shipping (UPS Ground)| 3-4 Business Days| $7.99
+2-Day Shipping (UPS 2-Day)| 2 Business Days| $15.99
+Overnight Shipping (UPS Next Day Saver)| 1 Business Day| $49.99
+FREE 2-Day Shipping| 2 Business Days| FREE (orders $200+)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://www.bioinfinitylab.com/shipping
+[FETCHED_AT] 2026-05-07T19:45:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/shipping.md
+[LINE_RANGE] 52-55
+[QUOTE]
+"Standard Shipping (UPS Ground)| 3-4 Business Days| $7.99
+2-Day Shipping (UPS 2-Day)| 2 Business Days| $15.99
+Overnight Shipping (UPS Next Day Saver)| 1 Business Day| $49.99
+FREE 2-Day Shipping| 2 Business Days| FREE (orders $200+)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://www.bioinfinitylab.com/shipping
+[FETCHED_AT] 2026-05-07T19:45:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/shipping.md
+[LINE_RANGE] 63-63
+[QUOTE]
+"We currently ship to all 50 US states. We do not offer international shipping at this time."
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] custom (Next.js)
+[REASONING]
+HTTP response headers include a link to /_next/static/ CSS chunk, which is the canonical Next.js static asset path. Server header is "Vercel". No Shopify, WooCommerce, or BigCommerce signals present in any fetched page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:47:14Z
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 1-1
+"≥99% PURITY GUARANTEED•THIRD-PARTY TESTED•SAME-DAY SHIPPING USA•FREE SHIPPING $200+•"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:47:14Z
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 1-1
+"≥99% PURITY GUARANTEED•THIRD-PARTY TESTED•SAME-DAY SHIPPING USA•FREE SHIPPING $200+•"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] Vercel
+[REASONING]
+HTTP response header "server: Vercel" and "x-vercel-cache: MISS" confirm Vercel CDN/hosting. Header also includes x-vercel-id.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:44:37Z
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 38-38
+"BioInfinity Lab is a USA-based research peptide supplier. Third-party tested peptides shipped same-day from New York. COA verified with 100% delivery guarantee."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:44:37Z
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 688-688
+"© 2026 BioInfinity Lab. All Rights Reserved"
+[/SUPPORT_QUOTE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.blog_url
+[URL] https://www.bioinfinitylab.com/blog
+[FETCHED_AT] 2026-05-07T19:47:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/blog_1.md
+[LINE_RANGE] 20-22
+[QUOTE]
+"# Blog"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://www.bioinfinitylab.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T19:45:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/product_1__bpc-157.md
+[LINE_RANGE] 278-286
+[QUOTE]
+"## Customer Reviews
+
+Verified research purchases
+
+5.0(6 reviews)
+
+Mike T.Verified
+
+2 weeks ago
+
+#### Finally found a quality source"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:44:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 42-42
+[QUOTE]
+"[Trustpilot4.850 reviewsView ](https://www.trustpilot.com/review/bioinfinitylab.com)"
+[/QUOTE]
+
+[CLAIM] skus[bpc-157-5mg].list_price_usd / skus[bpc-157-10mg].list_price_usd / skus[bpc-157-20mg].list_price_usd
+[URL] https://www.bioinfinitylab.com/product/bpc-157
+[FETCHED_AT] 2026-05-07T19:45:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/product_1__bpc-157.md
+[LINE_RANGE] 80-80
+[QUOTE]
+"5 mg$4010 mg$8020 mg$160"
+[/QUOTE]
+
+[CLAIM] skus[tb-500-5mg].list_price_usd / skus[tb-500-10mg].list_price_usd
+[URL] https://www.bioinfinitylab.com/product/tb-500
+[FETCHED_AT] 2026-05-07T19:45:19Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/product_2__tb-500.md
+[LINE_RANGE] 80-80
+[QUOTE]
+"5 mg$5510 mg$95"
+[/QUOTE]
+
+[CLAIM] skus[ghk-cu-50mg].list_price_usd
+[URL] https://www.bioinfinitylab.com/product/ghk-cu
+[FETCHED_AT] 2026-05-07T19:46:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/product_3__ghk-cu.md
+[LINE_RANGE] 80-80
+[QUOTE]
+"50 mg$50"
+[/QUOTE]
+
+[CLAIM] skus[glp3-r].list_price_usd (Retatrutide)
+[URL] https://www.bioinfinitylab.com/product/glp3-r
+[FETCHED_AT] 2026-05-07T19:46:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/product_4__glp3-r.md
+[LINE_RANGE] 80-80
+[QUOTE]
+"5 mg$8510 mg$16520 mg$29530 mg$375"
+[/QUOTE]
+
+[CLAIM] skus[glp1-s].list_price_usd (Semaglutide)
+[URL] https://www.bioinfinitylab.com/product/glp1-s
+[FETCHED_AT] 2026-05-07T19:46:39Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/product_5__glp1-s.md
+[LINE_RANGE] 80-80
+[QUOTE]
+"5 mg$4510 mg$80"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting (third_party_portal confirmation)
+[URL] https://www.bioinfinitylab.com/coa-library
+[FETCHED_AT] 2026-05-07T19:46:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/coa_1.md
+[LINE_RANGE] 38-38
+[QUOTE]
+"Showing 42 certificates"
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://www.bioinfinitylab.com/
+[FETCHED_AT] 2026-05-07T19:44:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/bioinfinitybioinfinitylab/homepage.md
+[LINE_RANGE] 666-670
+[QUOTE]
+"BioInfinity LLC
+HQ: 3081 Carter Street, Miami, FL 33133
+Fulfillment: 1460 Broadway, Manhattan, NY 10036"
+[/QUOTE]

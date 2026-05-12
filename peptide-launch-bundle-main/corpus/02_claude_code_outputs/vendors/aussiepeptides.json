@@ -1,0 +1,107 @@
+{
+  "vendor_slug": "aussiepeptides",
+  "brand_name": "AussiePeptides",
+  "primary_domain": "https://aussiepeptides.com",
+
+  "fetched_url": "https://aussiepeptides.com/",
+  "fetched_at": "2026-05-07T19:44:10Z",
+  "fetch_status": "partial",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned (operator seed). Note: vendor_universe.csv classified as International vendor shipping to US, but fetched evidence shows Australia-only shipping language ('Fast, Reliable Delivery, Australia wide'). No US shipping evidence found. Site currently in Coming Soon state; no active e-commerce. No forum trail, no review aggregator presence. Baseline profile only.",
+  "field_completion_ratio": 0.46,
+
+  "country_of_operation": "Australia",
+  "fulfillment_country": "Australia",
+  "ship_to_scope": "uncertain",
+  "year_established": "uncertain",
+
+  "homepage": {
+    "hero_copy_excerpt": "Australia’s Home of Peptides",
+    "hero_imagery_style": "uncertain",
+    "primary_cta": "Discover more",
+    "navigation_pattern": "Home, About Peptides, Contact, Shop (as of 2025-02-05 Wayback snapshot)",
+    "footer_disclaimers": "© 2025 Peptides Australia |All rights reserved| PA PEPTIDES Trading as Peptides Australia™ by ILIJA COMPANY Pty Ltd"
+  },
+
+  "catalog": {
+    "sku_count": "uncertain",
+    "category_taxonomy": "uncertain",
+    "search_filter_capabilities": "uncertain",
+    "stack_bundle_pages_present": "uncertain"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "uncertain",
+    "sample_product_name": "uncertain",
+    "dose_options": "uncertain",
+    "list_price": "uncertain",
+    "per_mg_cost": "uncertain",
+    "photographic_treatment": "uncertain",
+    "description_copy_excerpt": "uncertain",
+    "exact_disclaimer_language": "uncertain",
+    "coa_present": "uncertain",
+    "coa_hosting": "uncertain",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "uncertain",
+    "customer_review_module_present": "uncertain",
+    "related_product_modules_present": "uncertain"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "uncertain",
+    "age_gate_present": "uncertain",
+    "jurisdictional_restriction_notice": "uncertain",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "uncertain"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": "uncertain",
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": "uncertain",
+    "shipping_carriers": "uncertain",
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "uncertain"
+  },
+
+  "tech_stack": {
+    "platform_signal": "woocommerce",
+    "cdn": "hcdn (Hostinger CDN)",
+    "analytics_tools_loaded": ["MonsterInsights (Google Analytics plugin v9.2.2, not configured at time of snapshot)", "Site Kit by Google 1.140.0"],
+    "marketing_pixels_present": ["none confirmed active"],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "uncertain",
+    "blog_url": "uncertain",
+    "content_cadence": "uncertain",
+    "topic_taxonomy": "uncertain",
+    "author_bylines_present": "uncertain",
+    "internal_linking_to_products": "uncertain"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": ["none found"],
+    "testimonial_usage": "none found",
+    "visible_influencer_endorsements": "none found"
+  },
+
+  "skus": [],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "aussiepeptides,AussiePeptides,aussiepeptides.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/aussiepeptides/",
+  "evidence_file": "evidence/aussiepeptides.txt",
+  "uncertainty_notes": "ship_to_scope: uncertain — 2025-02-05 Wayback snapshot shows 'Fast, Reliable Delivery, Australia wide' only; no US shipping language found; vendor_universe.csv pre-assigned as International shipping to US but this is not supported by evidence. year_established: uncertain — first Wayback Machine snapshot indexed 2024-11-27; site was using placeholder/demo content at that time; domain registration date could not be confirmed via WHOIS. All product_page_anatomy fields uncertain: site is currently in Coming Soon state (live as of 2026-05-07); no active product pages accessible. All trust_compliance fields uncertain: no TOS, refund, shipping policy pages accessible; site in Coming Soon state. All checkout_flow fields uncertain: no active checkout; site in Coming Soon state. blog_present uncertain: site in Coming Soon; no blog page accessible in any Wayback snapshot. on_site_reviews: false (no review module observed in any accessible snapshot). hero_imagery_style uncertain: images not loaded in text-rendered Wayback snapshots. sku_count: 0 — no SKUs observed in any accessible snapshot; the November 2024 snapshot showed a 'Buy now' link going to the ThemeForest BeTheme theme purchase (not actual peptides). catalog_sku_count, category_taxonomy: uncertain — site has Shop navigation link but shop page returned Coming Soon on all fetch attempts. Lab posture: November 2024 snapshot had no lab testing posture visible; February 2025 snapshot had 'Purity Guaranteed — 99% Pure, 100% Trusted' but no named lab or COA evidence."
+}

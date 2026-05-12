@@ -1,0 +1,367 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://evolabsresearch.com
+[FETCHED_AT] 2026-05-07T19:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/homepage.md
+[LINE_RANGE] 10-12
+"7× Tested Peptides & Aminos
+
+Heavy Metals ·Net Content ·Net Conformity ·Endotoxins ·Sterility"
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage pre-login surface foregrounds testing credentials ("7× Tested Peptides & Aminos", "Heavy Metals · Net Content · Net Conformity · Endotoxins · Sterility") and verification badges ("Verified for Identity, Purity, Sterility & Endotoxins"), consistent with a clinical/lab-positioned brand aesthetic rather than lifestyle, meme-coded, or anonymous styles.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://evolabsresearch.com
+[FETCHED_AT] 2026-05-07T19:50:46Z
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/homepage.md
+[LINE_RANGE] 10-12
+"7× Tested Peptides & Aminos
+
+Heavy Metals ·Net Content ·Net Conformity ·Endotoxins ·Sterility"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://evolabsresearch.com
+[FETCHED_AT] 2026-05-07T19:50:46Z
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/homepage.md
+[LINE_RANGE] 20-20
+"Verified for Identity, Purity, Sterility & Endotoxins"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://evolabsresearch.com
+[FETCHED_AT] 2026-05-07T19:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/homepage.md
+[LINE_RANGE] 16-16
+"Sign in to access the full research catalog and your verified order history."
+
+[CLAIM] homepage.navigation_pattern
+[INFERENCE] Login-gated SPA; pre-login surface shows sign-in wall plus affiliate program teaser; no public navigation menu visible
+[REASONING]
+The curl fetch of the homepage returns a login/sign-in wall as the only visible content, with no navigation links present. The source_homepage.md confirms the server returns HTTP 307 → /account/login before serving any page content, indicating the entire application is behind authentication.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://evolabsresearch.com
+[FETCHED_AT] 2026-05-07T19:50:46Z
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/homepage.md
+[LINE_RANGE] 14-14
+"# Welcome back."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.evolabsresearch.co/
+[FETCHED_AT] 2026-05-07T19:55:38Z
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/source_homepage.md
+[LINE_RANGE] 10-12
+"HTTP/2 307
+server: Vercel
+location: /account/login"
+[/SUPPORT_QUOTE]
+
+[CLAIM] year_established
+[URL] https://evolabsresearch.com
+[FETCHED_AT] 2026-05-07T19:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/homepage.md
+[LINE_RANGE] 52-52
+"EST. JULY 2025●TAMPA, FLORIDA"
+
+[CLAIM] country_of_operation
+[URL] https://evolabsresearch.com
+[FETCHED_AT] 2026-05-07T19:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/homepage.md
+[LINE_RANGE] 52-52
+"EST. JULY 2025●TAMPA, FLORIDA"
+
+[CLAIM] fulfillment_country
+[URL] https://www.evolabsresearch.co/terms
+[FETCHED_AT] 2026-05-07T19:55:16Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/tos.md
+[LINE_RANGE] 28-28
+"Premium U.S. Domestic Shipping"
+
+[URL] https://evolabsresearch.com
+[FETCHED_AT] 2026-05-07T19:50:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/homepage.md
+[LINE_RANGE] 28-28
+"Premium U.S. Domestic Shipping"
+
+[CLAIM] catalog.sku_count
+[URL] https://www.evolabsresearch.co/products
+[FETCHED_AT] 2026-05-07T19:55:28Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/catalog_1.md
+[LINE_RANGE] 54-54
+"Browse all 57 research-grade products from Evo Labs."
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.evolabsresearch.co/products
+[FETCHED_AT] 2026-05-07T19:55:28Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/catalog_1.md
+[LINE_RANGE] 14-52
+"BPC-157 10MG
+GLP-3R 10MG
+GLP-2T 10MG
+HGH 191aa 24iu
+NAD-Plus 500MG
+Epithalon 10MG
+KLOW 80MG
+MOTS-C 10MG
+Ipamorelin 10MG
+CJC-1295 wo DAC 10MG
+CJC-1295 Ipamorelin 10MG
+Semax 10MG
+Selank 10MG
+GLP-1S 10MG
+GHK-Cu 50MG
+Glutathione 1500MG
+BPC-157 TB500 20MG
+IGF-1 LR3 1MG
+Kisspeptin 10MG
+KPV 10MG
+PT-141 10MG
+Melanotan II 10MG
+Thymosin Alpha-1 5MG
+SS-31 10MG
+SNAP-8 10MG
+GLOW 70MG
+DSIP 10MG
+Cerebrolysin 60MG
+Pinealon 10MG
+Tesa 10MG
+Cagrilintide 10MG
+5 Amino 1MQ 5MG
+B12 10ML
+Metabolic 10ML
+Bac Water 10ML
+Bac Water 30ML
+GHRP-2 5MG
+GHRP-6 10MG
+HCG 5000IU"
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://www.evolabsresearch.co/terms
+[FETCHED_AT] 2026-05-07T19:55:16Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/tos.md
+[LINE_RANGE] 8-8
+"All products sold by EVO Labs Research LLC are strictly for Research Use Only (RUO). They are not intended for human or animal consumption, medical treatment, or any use outside of a research laboratory setting."
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://www.evolabsresearch.co/terms
+[FETCHED_AT] 2026-05-07T19:55:16Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/tos.md
+[LINE_RANGE] 8-8
+"All products sold by EVO Labs Research LLC are strictly for Research Use Only (RUO). They are not intended for human or animal consumption, medical treatment, or any use outside of a research laboratory setting."
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://www.evolabsresearch.co/terms
+[FETCHED_AT] 2026-05-07T19:55:16Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/tos.md
+[LINE_RANGE] 10-10
+"You must be at least 21 years of age, purchasing on behalf of a business or institution, and you agree that you will not use our products for personal, diagnostic, therapeutic, or human or animal consumption."
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://www.evolabsresearch.co/terms
+[FETCHED_AT] 2026-05-07T19:55:16Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/tos.md
+[LINE_RANGE] 2-2
+"url: https://www.evolabsresearch.co/terms"
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://www.evolabsresearch.co/terms
+[FETCHED_AT] 2026-05-07T19:55:16Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/tos.md
+[LINE_RANGE] 8-20
+"All products sold by EVO Labs Research LLC are strictly for Research Use Only (RUO). They are not intended for human or animal consumption, medical treatment, or any use outside of a research laboratory setting.
+
+You must be at least 21 years of age, purchasing on behalf of a business or institution, and you agree that you will not use our products for personal, diagnostic, therapeutic, or human or animal consumption.
+
+They are not intended for human consumption, medical use, or veterinary use, and must not be used as drugs, cosmetics, food additives, household chemicals, or any other inappropriate application.
+
+Due to the nature of our products, all sales are final. We do not accept returns or exchanges unless the product is proven to be defective upon arrival.
+
+Once your order is handed off to UPS or PSPS and marked as accepted by the carrier, shipment completion and delivery are the carrier's responsibility.
+
+The statements on this website have not been evaluated by the U.S. Food and Drug Administration.
+
+EVO LABS RESEARCH LLC is not liable for any damages resulting from the use or misuse of any product."
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://www.evolabsresearch.co/terms
+[FETCHED_AT] 2026-05-07T19:55:16Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/tos.md
+[LINE_RANGE] 14-14
+"Due to the nature of our products, all sales are final. We do not accept returns or exchanges unless the product is proven to be defective upon arrival."
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://www.evolabsresearch.co/terms
+[FETCHED_AT] 2026-05-07T19:55:16Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/tos.md
+[LINE_RANGE] 16-16
+"Once your order is handed off to UPS or PSPS and marked as accepted by the carrier, shipment completion and delivery are the carrier's responsibility."
+
+[CLAIM] checkout_flow.account_required
+[INFERENCE] true
+[REASONING]
+The homepage at both evolabsresearch.com and evolabsresearch.co redirects all unauthenticated visitors to /account/login. The catalog page at /products returns product listings without prices; attempting to fetch any product URL returns the same login-wall content, confirming no guest browsing or checkout path is publicly accessible.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.evolabsresearch.co/
+[FETCHED_AT] 2026-05-07T19:55:38Z
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/source_homepage.md
+[LINE_RANGE] 10-12
+"HTTP/2 307
+server: Vercel
+location: /account/login"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://evolabsresearch.com
+[FETCHED_AT] 2026-05-07T19:50:46Z
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/homepage.md
+[LINE_RANGE] 14-16
+"# Welcome back.
+
+Sign in to access the full research catalog and your verified order history."
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[INFERENCE] false
+[REASONING]
+The same login-wall redirect evidence establishes that no unauthenticated path to catalog or checkout exists. The sign-in page offers only Gmail OAuth and magic-link email — no "continue as guest" option is present in the fetched content.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://evolabsresearch.com
+[FETCHED_AT] 2026-05-07T19:50:46Z
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/homepage.md
+[LINE_RANGE] 34-44
+"Continue with Gmail
+
+or
+
+EmailPhone
+
+# Sign in with email
+
+We'll send you a magic link — no password needed.
+
+Email addressSend magic link →"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.evolabsresearch.co/
+[FETCHED_AT] 2026-05-07T19:55:38Z
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/source_homepage.md
+[LINE_RANGE] 12-12
+"location: /account/login"
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://www.evolabsresearch.co/terms
+[FETCHED_AT] 2026-05-07T19:55:16Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/tos.md
+[LINE_RANGE] 16-16
+"Once your order is handed off to UPS or PSPS and marked as accepted by the carrier, shipment completion and delivery are the carrier's responsibility."
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] custom
+[REASONING]
+The CSP header and server headers confirm the application is hosted on Vercel and uses Supabase (*.supabase.co) for its backend, with Stripe for payments. No Shopify, WooCommerce, or BigCommerce signals appear in the CSP or response headers, indicating a custom-built Next.js application rather than an off-the-shelf e-commerce platform.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.evolabsresearch.co/
+[FETCHED_AT] 2026-05-07T19:55:38Z
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/source_homepage.md
+[LINE_RANGE] 11-11
+"server: Vercel"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.evolabsresearch.co/
+[FETCHED_AT] 2026-05-07T19:55:38Z
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/source_homepage.md
+[LINE_RANGE] 13-13
+"content-security-policy-report-only: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google.com https://www.gstatic.com https://js.stripe.com https://va.vercel-scripts.com https://connect.facebook.net https://analytics.tiktok.com https://googleads.g.doubleclick.net https://capi-automation.s3.us-east-2.amazonaws.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://api.sendgrid.com https://api.omnisend.com https://api.aftership.com https://api.goshippo.com https://api.twilio.com https://api.link.money https://api.mapbox.com https://vitals.vercel-insights.com https://va.vercel-scripts.com https://www.google-analytics.com https://analytics.google.com https://api.anthropic.com https://www.facebook.com https://connect.facebook.net https://analytics.tiktok.com https://lootytgo.usv.stape.io https://www.google.com https://googleads.g.doubleclick.net; frame-src https://js.stripe.com https://www.google.com https://lootytgo.usv.stape.io; frame-ancestors 'none'"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://www.evolabsresearch.co/
+[FETCHED_AT] 2026-05-07T19:55:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/source_homepage.md
+[LINE_RANGE] 11-11
+"server: Vercel"
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://www.evolabsresearch.co/
+[FETCHED_AT] 2026-05-07T19:55:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/source_homepage.md
+[LINE_RANGE] 13-13
+"content-security-policy-report-only: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google.com https://www.gstatic.com https://js.stripe.com https://va.vercel-scripts.com https://connect.facebook.net https://analytics.tiktok.com https://googleads.g.doubleclick.net https://capi-automation.s3.us-east-2.amazonaws.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://api.sendgrid.com https://api.omnisend.com https://api.aftership.com https://api.goshippo.com https://api.twilio.com https://api.link.money https://api.mapbox.com https://vitals.vercel-insights.com https://va.vercel-scripts.com https://www.google-analytics.com https://analytics.google.com https://api.anthropic.com https://www.facebook.com https://connect.facebook.net https://analytics.tiktok.com https://lootytgo.usv.stape.io https://www.google.com https://googleads.g.doubleclick.net; frame-src https://js.stripe.com https://www.google.com https://lootytgo.usv.stape.io; frame-ancestors 'none'"
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://www.evolabsresearch.co/
+[FETCHED_AT] 2026-05-07T19:55:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/source_homepage.md
+[LINE_RANGE] 25-26
+"Facebook pixel (connect.facebook.net in CSP)
+TikTok analytics (analytics.tiktok.com in CSP)"
+
+[CLAIM] skus
+[URL] https://www.evolabsresearch.co/products
+[FETCHED_AT] 2026-05-07T19:55:28Z
+[FETCH_METHOD] webfetch
+[RAW_ARTIFACT] 03_raw_fetches/evolabsresearch/catalog_1.md
+[LINE_RANGE] 14-52
+"BPC-157 10MG
+GLP-3R 10MG
+GLP-2T 10MG
+HGH 191aa 24iu
+NAD-Plus 500MG
+Epithalon 10MG
+KLOW 80MG
+MOTS-C 10MG
+Ipamorelin 10MG
+CJC-1295 wo DAC 10MG
+CJC-1295 Ipamorelin 10MG
+Semax 10MG
+Selank 10MG
+GLP-1S 10MG
+GHK-Cu 50MG
+Glutathione 1500MG
+BPC-157 TB500 20MG
+IGF-1 LR3 1MG
+Kisspeptin 10MG
+KPV 10MG
+PT-141 10MG
+Melanotan II 10MG
+Thymosin Alpha-1 5MG
+SS-31 10MG
+SNAP-8 10MG
+GLOW 70MG
+DSIP 10MG
+Cerebrolysin 60MG
+Pinealon 10MG
+Tesa 10MG
+Cagrilintide 10MG
+5 Amino 1MQ 5MG
+B12 10ML
+Metabolic 10ML
+Bac Water 10ML
+Bac Water 30ML
+GHRP-2 5MG
+GHRP-6 10MG
+HCG 5000IU"

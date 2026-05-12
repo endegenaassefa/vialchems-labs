@@ -1,0 +1,139 @@
+[CLAIM] brand_name / off_site_aggregators — Finnrick vendor identity confirmation
+[URL] https://www.finnrick.com/vendors/zenith-jove-peptide-zj
+[FETCHED_AT] 2026-05-08T08:49:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zenith-jove-peptide-zj/finnrick_vendor.md
+[LINE_RANGE] 12-12
+[QUOTE]
+"Finnrick has tested 37 samples from Zenith Jove Peptide ZJ across 2 products."
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators — Finnrick customer satisfaction rating
+[URL] https://www.finnrick.com/vendors/zenith-jove-peptide-zj
+[FETCHED_AT] 2026-05-08T08:49:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zenith-jove-peptide-zj/finnrick_vendor.md
+[LINE_RANGE] 59-85
+[QUOTE]
+"People who submitted test requests to Finnrick gave Zenith Jove Peptide ZJ an average satisfaction rating of 4.9 out of 5 across 35 reports associated with samples received and tested by Finnrick."
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators — Finnrick product ratings table
+[URL] https://www.finnrick.com/vendors/zenith-jove-peptide-zj
+[FETCHED_AT] 2026-05-08T08:49:46Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zenith-jove-peptide-zj/finnrick_vendor.md
+[LINE_RANGE] 52-53
+[QUOTE]
+"[Retatrutide](/products/retatrutide/zenith-jove-peptide-zj)| B Good| 16| 7.7| 5.4| 10.0| 16 Dec 2025| 28 Apr 2026
+[Tirzepatide](/products/tirzepatide/zenith-jove-peptide-zj)| E Bad| 21| 6.7| 0.0| 10.0| 11 Dec 2025| 27 Apr 2026"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] China
+[REASONING]
+The GLP-1 Forum designated vendor subforum is titled "Guangzhou ZJ Biotechnology Co (ZJ)" and the vendor's GLP-1 Forum representative "Lydiawon3" posted a "Chinese New Year Sale" and "Chinese New Year Holiday Notice," both consistent with a China-based operation.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20260131171531/https://glp1forum.com/forums/zj/
+[FETCHED_AT] 2026-05-08T08:50:05Z
+[RAW_ARTIFACT] 03_raw_fetches/zenith-jove-peptide-zj/social_glp1forum_zj_subforum.md
+[LINE_RANGE] 70-70
+"# Guangzhou ZJ Biotechnology Co (ZJ)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20260131171531/https://glp1forum.com/forums/zj/
+[FETCHED_AT] 2026-05-08T08:50:05Z
+[RAW_ARTIFACT] 03_raw_fetches/zenith-jove-peptide-zj/social_glp1forum_zj_subforum.md
+[LINE_RANGE] 80-80
+"[ZJ](/web/20260131171531/https://glp1forum.com/forums/zj/?prefix_id=19) [ 🧧Zenith Jove Chinese New Year Sale 🧧 ]"
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope
+[INFERENCE] us_intl
+[REASONING]
+Multiple forum reviewers confirmed successful deliveries: UK (reviewer "lusitanian" confirmed 4 separate orders), Italy ("BLASIUS"), Mexico ("Jfrick11"), and a California-based forum member ("Ch37tg") who discussed the vendor's payment options. Additionally Finnrick testing — which is US-only — received public-submitted samples, confirming US shipments.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20260228021636/https://glp1forum.com/threads/zj.7523/
+[FETCHED_AT] 2026-05-08T08:49:52Z
+[RAW_ARTIFACT] 03_raw_fetches/zenith-jove-peptide-zj/social_glp1forum_vendor_review.md
+[LINE_RANGE] 158-160
+"My parcel from ZJ arrived today, in the UK, 14 days after placing my order with Lydia. Lydia gave me the tracking code within a few days after placing my order and sent me a photo of my order being made ready to ship. I was very pleased with the touch of sending a photo for me to see my order. This was my first order with Lydia and it won't be the last.
+Lydia maintained excellent communication with me throughout."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20260228021636/https://glp1forum.com/threads/zj.7523/
+[FETCHED_AT] 2026-05-08T08:49:52Z
+[RAW_ARTIFACT] 03_raw_fetches/zenith-jove-peptide-zj/social_glp1forum_vendor_review.md
+[LINE_RANGE] 228-228
+"I placed the order on November 28, tracking number was provided the day after and I received the parcel today, so 14 days total time."
+[/SUPPORT_QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted — USDT confirmed; credit card listed but unconfirmed operational
+[URL] https://web.archive.org/web/20260228021636/https://glp1forum.com/threads/zj.7523/
+[FETCHED_AT] 2026-05-08T08:49:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/zenith-jove-peptide-zj/social_glp1forum_vendor_review.md
+[LINE_RANGE] 232-232
+[QUOTE]
+"accept paypal payment (I had to use USDT payment although that gave me an additional 5% discount)"
+[/QUOTE]
+[URL] https://web.archive.org/web/20260228021636/https://glp1forum.com/threads/zj.7523/
+[FETCHED_AT] 2026-05-08T08:49:52Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/zenith-jove-peptide-zj/social_glp1forum_vendor_review.md
+[LINE_RANGE] 415-415
+[QUOTE]
+"The website says 'credit card' among the payment options. Do you spose this is for real?"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[INFERENCE] true
+[REASONING]
+Two separate pieces of evidence confirm COA provision: a reviewer stating ZJ's representative provided current COAs prior to purchase, and the GLP-1 Forum subforum containing dedicated threads titled "ZJ Latest COA" and "ZJ'S COA" posted by the vendor account "Zenith Jove."
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20260228021636/https://glp1forum.com/threads/zj.7523/
+[FETCHED_AT] 2026-05-08T08:49:52Z
+[RAW_ARTIFACT] 03_raw_fetches/zenith-jove-peptide-zj/social_glp1forum_vendor_review.md
+[LINE_RANGE] 227-227
+"She provided current COAs for the peptides I liked to buy."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://web.archive.org/web/20260131171531/https://glp1forum.com/forums/zj/
+[FETCHED_AT] 2026-05-08T08:50:05Z
+[RAW_ARTIFACT] 03_raw_fetches/zenith-jove-peptide-zj/social_glp1forum_zj_subforum.md
+[LINE_RANGE] 290-290
+"[ZJ](/web/20260131171531/https://glp1forum.com/forums/zj/?prefix_id=19) [ ZJ Latest COA ]"
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[0] — Retatrutide confirmed stocked; Finnrick rating B Good
+[URL] https://www.finnrick.com/products/retatrutide/zenith-jove-peptide-zj
+[FETCHED_AT] 2026-05-08T08:49:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zenith-jove-peptide-zj/finnrick_product_retatrutide.md
+[LINE_RANGE] 14-14
+[QUOTE]
+"Finnrick tested 16 samples of Retatrutide (GLP-1, GIP, and GCGR agonist) from [Zenith Jove Peptide ZJ](/vendors/zenith-jove-peptide-zj) between 16 Dec 2025 and 28 Apr 2026. Test scores average over 6, no score below 5, and at least 6 tests warrant a confident Finnrick Rating of B (Good)."
+[/QUOTE]
+
+[CLAIM] skus[1] — Tirzepatide confirmed stocked; Finnrick rating E Bad
+[URL] https://www.finnrick.com/products/tirzepatide/zenith-jove-peptide-zj
+[FETCHED_AT] 2026-05-08T08:49:49Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/zenith-jove-peptide-zj/finnrick_product_tirzepatide.md
+[LINE_RANGE] 14-14
+[QUOTE]
+"Finnrick tested 21 samples of Tirzepatide (GLP-1 and GIP agonist) from [Zenith Jove Peptide ZJ](/vendors/zenith-jove-peptide-zj) between 11 Dec 2025 and 27 Apr 2026. Test scores average below 4 or some scores below 3, and at least 6 tests, warrant a confident Finnrick Rating of E (Bad)."
+[/QUOTE]
+
+[CLAIM] homepage fetch_status — primary domain DNS failure documented
+[URL] https://web.archive.org/cdx/search/cdx?url=zenithjove.com&output=json&limit=5
+[FETCHED_AT] 2026-05-08T08:48:00Z
+[FETCH_METHOD] archive-org
+[RAW_ARTIFACT] 03_raw_fetches/zenith-jove-peptide-zj/homepage_failed_cdx_check.md
+[LINE_RANGE] 8-8
+[QUOTE]
+"[]"
+[/QUOTE]

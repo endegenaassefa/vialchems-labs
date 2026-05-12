@@ -1,0 +1,506 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:44:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/homepage.md
+[LINE_RANGE] 130-130
+[QUOTE]
+"  * All products offered by **Vantyx Research** are intended **solely for laboratory and research applications**. They are **not approved for human consumption, medical treatment, or diagnostic use**. These compounds are provided **exclusively to qualified professionals, institutions, and research facilities** conducting scientific studies."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:44:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/homepage.md
+[LINE_RANGE] 135-135
+[QUOTE]
+"[ shop Now ](/collections/all)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:44:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/homepage.md
+[LINE_RANGE] 56-62
+[QUOTE]
+"  * [ Home ](/)
+  * [ Products](/collections/all)
+  * [ LAB TESTS](/pages/coass)
+  * [ Affiliate Registration](/pages/affliate)
+  * [ Community](/pages/community)
+  * [ FAQs](/pages/faqs)
+  * [ Contact Us](/pages/contact)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:44:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/homepage.md
+[LINE_RANGE] 321-321
+[QUOTE]
+"All products available are for research use only."
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:44:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/product_1__ghk-cu-100mg.md
+[LINE_RANGE] 119-125
+[QUOTE]
+"[ ](//vantyxresearch.com/cdn/shop/files/NEW_GHKCU_BLACK_VIAL_462e3c57-e61d-4784-872a-115e5027fa8d.png?v=1774367229&width=1400) [ ](//vantyxresearch.com/cdn/shop/files/NEW_TRIO_GHKCU_BLACK_VIAL_1bb9d5b4-67cb-4e5b-ab30-b88a4bebdfa4.png?v=1774367229&width=1400) [ ](//vantyxresearch.com/cdn/shop/files/New_duo_ghkcu_black_vial.png?v=1774367229&width=1400)"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:44:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/homepage.md
+[LINE_RANGE] 15-15
+[QUOTE]
+"Australia (AUD $)  Austria (EUR €)  Belgium (EUR €)  Canada (CAD $)  Czechia (CZK Kč)  Denmark (DKK kr.)  Finland (EUR €)  France (EUR €)  Germany (EUR €)  Hong Kong SAR (HKD $)  Ireland (EUR €)  Israel (ILS ₪)  Italy (EUR €)  Japan (JPY ¥)  Malaysia (MYR RM)  Netherlands (EUR €)  New Zealand (NZD $)  Norway (USD $)  Poland (PLN zł)  Portugal (EUR €)  Singapore (SGD $)  South Korea (KRW ₩)  Spain (EUR €)  Sweden (SEK kr)  Switzerland (CHF CHF)  United Arab Emirates (AED د.إ)  United Kingdom (GBP £)  United States (USD $)"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://vantyxresearch.com/collections/all
+[FETCHED_AT] 2026-05-08T08:44:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/catalog_1.md
+[LINE_RANGE] 134-134
+[QUOTE]
+"##  17 products"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://vantyxresearch.com/collections/all
+[FETCHED_AT] 2026-05-08T08:44:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/catalog_1.md
+[LINE_RANGE] 307-307
+[QUOTE]
+"[GLOW (50/10/10 MG)](/collections/all/products/glow-50-10-10-mg "GLOW \(50/10/10 MG\)")"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://vantyxresearch.com/collections/all/products/ghk-cu-100-mg
+[FETCHED_AT] 2026-05-08T08:44:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/product_1__ghk-cu-100mg.md
+[LINE_RANGE] 136-136
+[QUOTE]
+"#  GHK-CU (100 MG)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://vantyxresearch.com/collections/all/products/ghk-cu-100-mg
+[FETCHED_AT] 2026-05-08T08:44:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/product_1__ghk-cu-100mg.md
+[LINE_RANGE] 152-152
+[QUOTE]
+"100 MG - SINGLE (1 VIAL) - Sold Out  200 MG - DUO (2 VIALS) - Sold Out  300 MG - TRIO (3 VIALS) - Sold Out"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://vantyxresearch.com/collections/all/products/ghk-cu-100-mg
+[FETCHED_AT] 2026-05-08T08:44:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/product_1__ghk-cu-100mg.md
+[LINE_RANGE] 138-138
+[QUOTE]
+"  * $45.00"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://vantyxresearch.com/collections/all/products/ghk-cu-100-mg
+[FETCHED_AT] 2026-05-08T08:44:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/product_1__ghk-cu-100mg.md
+[LINE_RANGE] 174-178
+[QUOTE]
+"**GHK-Cu (Copper Peptide)** is a naturally occurring tripeptide complex bound with copper ions and studied in laboratory environments for its involvement in **cellular signaling, tissue remodeling pathways, and extracellular matrix activity**."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://vantyxresearch.com/collections/all/products/ghk-cu-100-mg
+[FETCHED_AT] 2026-05-08T08:44:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/product_1__ghk-cu-100mg.md
+[LINE_RANGE] 180-180
+[QUOTE]
+"This product is supplied strictly for **laboratory research purposes only** and is **not intended for human or veterinary use**."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://vantyxresearch.com/pages/coass
+[FETCHED_AT] 2026-05-08T08:45:05Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/coa_1.md
+[LINE_RANGE] 128-143
+[QUOTE]
+"## retatrutide
+
+[ ]()
+
+## ipamorelin
+
+[ ]()
+
+## TESAMORELIN
+
+[ ]()
+
+## CJC no Dac W IPa
+
+[ ]()
+
+## Glow
+
+[ ]()
+
+## ghk-CU"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.photographic_treatment
+[URL] https://vantyxresearch.com/collections/all/products/ghk-cu-100-mg
+[FETCHED_AT] 2026-05-08T08:44:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/product_1__ghk-cu-100mg.md
+[LINE_RANGE] 119-119
+[QUOTE]
+"[ ](//vantyxresearch.com/cdn/shop/files/NEW_GHKCU_BLACK_VIAL_462e3c57-e61d-4784-872a-115e5027fa8d.png?v=1774367229&width=1400)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://vantyxresearch.com/policies/terms-of-service
+[FETCHED_AT] 2026-05-08T08:45:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/tos.md
+[LINE_RANGE] 133-133
+[QUOTE]
+"All products sold by Vantyx Research are **intended for research and laboratory use only**. They are **not intended for human or animal consumption** , medical use, or diagnostic purposes."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:44:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/homepage.md
+[LINE_RANGE] 311-313
+[QUOTE]
+"### AGE VERIFICATION
+
+You must be at least 21 to visit this site. By entering this site, you are accepting our Terms and Conditions."
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:44:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/homepage.md
+[LINE_RANGE] 332-332
+[QUOTE]
+"  * [Terms of Service](/policies/terms-of-service)"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://vantyxresearch.com/policies/terms-of-service
+[FETCHED_AT] 2026-05-08T08:45:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/tos.md
+[LINE_RANGE] 131-141
+[QUOTE]
+"Vantyx Research makes no medical claims and provides no guarantees regarding outcomes, results, or suitability for any specific purpose beyond research applications.
+
+We reserve the right to refuse service, cancel orders, or update these terms at any time without prior notice.
+
+VANTYX is not responsible for lost or stolen packages once marked delivered by USPS."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://vantyxresearch.com/policies/refund-policy
+[FETCHED_AT] 2026-05-08T08:45:03Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/refund.md
+[LINE_RANGE] 124-130
+[QUOTE]
+"Due to the nature of our products, **all sales are final**.
+
+Once an order has been placed and payment is submitted, it **cannot be canceled, refunded, or returned** under any circumstances. This policy is in place to maintain product integrity, quality control, and safety standards.
+
+We do not accept returns or offer refunds for any reason, including but not limited to change of mind, ordering errors, or dissatisfaction.
+
+If your order arrives **damaged or incorrect** , you must contact us within **48 hours of delivery** with your order number and clear photos of the issue."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://vantyxresearch.com/policies/shipping-policy
+[FETCHED_AT] 2026-05-08T08:45:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/shipping.md
+[LINE_RANGE] 124-130
+[QUOTE]
+"Vantyx Research processes orders as quickly as possible. Orders are typically processed within **1–3 business days** after payment is confirmed.
+
+Shipping times may vary depending on your location and the shipping method selected at checkout. Once your order has shipped, tracking information will be provided when available.
+
+We are not responsible for delays caused by carriers, customs, or factors outside of our control. Please ensure that your shipping information is accurate, as we are not responsible for orders delivered to incorrect addresses provided by the customer.
+
+VANTYX is not responsible for lost or stolen packages once marked delivered by USPS."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://vantyxresearch.com/policies/shipping-policy
+[FETCHED_AT] 2026-05-08T08:45:04Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/shipping.md
+[LINE_RANGE] 130-130
+[QUOTE]
+"VANTYX is not responsible for lost or stolen packages once marked delivered by USPS."
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:44:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/homepage.md
+[LINE_RANGE] 15-15
+[QUOTE]
+"Australia (AUD $)  Austria (EUR €)  Belgium (EUR €)  Canada (CAD $)  Czechia (CZK Kč)  Denmark (DKK kr.)  Finland (EUR €)  France (EUR €)  Germany (EUR €)  Hong Kong SAR (HKD $)  Ireland (EUR €)  Israel (ILS ₪)  Italy (EUR €)  Japan (JPY ¥)  Malaysia (MYR RM)  Netherlands (EUR €)  New Zealand (NZD $)  Norway (USD $)  Poland (PLN zł)  Portugal (EUR €)  Singapore (SGD $)  South Korea (KRW ₩)  Spain (EUR €)  Sweden (SEK kr)  Switzerland (CHF CHF)  United Arab Emirates (AED د.إ)  United Kingdom (GBP £)  United States (USD $)"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:44:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/homepage.md
+[LINE_RANGE] 112-112
+[QUOTE]
+"New customer? [Register](https://shopify.com/96745881964/account?locale=en&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhZGduaXEtc3MubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzc4ODM0NTcwLCJuYmYiOjE3NzgyMjk3NzB9.RoAT3KSw9qAFp_86JhYlxa9qO_uXcu38PTPOuKFALkk)"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[INFERENCE] Cloudflare
+[REASONING]
+The HTTP response headers contain "cf-ray: 9f872e508fc5d46d-IAD" which is a Cloudflare-specific header included on all Cloudflare-proxied responses. The "-IAD" suffix identifies the Cloudflare data center (Washington Dulles). Additionally, the site uses cdn.shopify.com for asset delivery per the response headers.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:44:09Z
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/homepage.md
+[LINE_RANGE] 8-8
+"New customer? [Register](https://shopify.com/96745881964/account?locale=en&buyer_flags=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhZGduaXEtc3MubXlzaG9waWZ5LmNvbSIsImZsYWdzIjpbXSwiZXhwIjoxNzc4ODM0NTcwLCJuYmYiOjE3NzgyMjk3NzB9.RoAT3KSw9qAFp_86JhYlxa9qO_uXcu38PTPOuKFALkk)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://vantyxresearch.com/collections/all/products/ghk-cu-100-mg
+[FETCHED_AT] 2026-05-08T08:44:45Z
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/product_1__ghk-cu-100mg.md
+[LINE_RANGE] 119-119
+"[ ](//vantyxresearch.com/cdn/shop/files/NEW_GHKCU_BLACK_VIAL_462e3c57-e61d-4784-872a-115e5027fa8d.png?v=1774367229&width=1400)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[INFERENCE] Facebook domain verification tag present; no other pixels confirmed
+[REASONING]
+The raw HTML source contains a meta tag "facebook-domain-verification" with a verification code, indicating the vendor has connected their domain to Facebook Business Manager. No other pixel fire (fbq, ttq, gtag) was found in the rendered text of curl_fetch output.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:44:09Z
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/homepage.md
+[LINE_RANGE] 1-1
+"  * [ Fb ](https://www.facebook.com/profile.php?id=61586580430800 "VantyxResearch on Facebook")"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:45:28Z
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/source_homepage.md
+[LINE_RANGE] 1-2
+"  * [ Fb ](https://www.facebook.com/profile.php?id=61586580430800 "VantyxResearch on Facebook")
+  * [ Ins ](https://www.instagram.com/vantyxresearch_/ "VantyxResearch on Instagram")"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:44:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/homepage.md
+[LINE_RANGE] 340-346
+[QUOTE]
+"#### Get in Touch
+
+  *  __[support@vantyxresearch.com](mailto:support@vantyxresearch.com)"
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:44:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/homepage.md
+[LINE_RANGE] 265-266
+[QUOTE]
+"4.98 average
+50+ reviews"
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://vantyxresearch.com
+[FETCHED_AT] 2026-05-08T08:44:09Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/homepage.md
+[LINE_RANGE] 271-299
+[QUOTE]
+"I’ve ordered multiple times and the experience has been consistent each time. Products arrive professionally packaged with clear labeling and a clean presentation. Checkout is smooth, shipping updates are reliable, and delivery has been on time. The overall process feels organized and research-focused.
+
+Dr. Ayaan Malik"
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://vantyxresearch.com/collections/all
+[FETCHED_AT] 2026-05-08T08:44:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/catalog_1.md
+[LINE_RANGE] 213-447
+[QUOTE]
+"[ACETIC ACID WATER (3 ML) (NO LABEL)](/collections/all/products/acetic-acid-water-3-ml "ACETIC ACID WATER \(3 ML\) \(NO LABEL\)")
+
+[BACTERIOSTATIC WATER (3-10 ML)](/collections/all/products/bacteriostatic-water-10-ml "BACTERIOSTATIC WATER \(3-10 ML\)")
+
+[CAGRILINTIDE (5 MG)](/collections/all/products/cagrilintide "CAGRILINTIDE \(5 MG\)")
+
+[CJC-1295 no DAC+IPA (5/5 MG)](/collections/all/products/cjc-1295-no-dac-ipa-5-5-mg "CJC-1295 no DAC+IPA \(5/5 MG\)")
+
+[DSIP (5 MG)](/collections/all/products/dsip-5-mg "DSIP \(5 MG\)")
+
+[GHK-CU (100 MG)](/collections/all/products/ghk-cu-100-mg "GHK-CU \(100 MG\)")
+
+[GLOW (50/10/10 MG)](/collections/all/products/glow-50-10-10-mg "GLOW \(50/10/10 MG\)")
+
+[GLP-1 SM (SEMAGLUTIDE) (10 MG)](/collections/all/products/glp-1-sm-semaglutide-10-mg "GLP-1 SM \(SEMAGLUTIDE\) \(10 MG\)")
+
+[GLP-2 TZ (10 MG) (TIRZEPATIDE)](/collections/all/products/glp-2-tz "GLP-2 TZ \(10 MG\) \(TIRZEPATIDE\)")
+
+[GLP-R3 (RETATRUTIDE) (10 MG)](/collections/all/products/glp-r3-retatrutide-10-mg "GLP-R3 \(RETATRUTIDE\) \(10 MG\)")
+
+[IGF-1 LR3](/collections/all/products/igf-1-lr3 "IGF-1 LR3")
+
+[IPAMORELIN (5 MG)](/collections/all/products/ipamorelin-5-mg "IPAMORELIN \(5 MG\)")
+
+[MELANOTAN 2 (10 MG)](/collections/all/products/melanotan-2-10-mg "MELANOTAN 2 \(10 MG\)")
+
+[SELANK (10 MG)](/collections/all/products/selank-10-mg "SELANK \(10 MG\)")
+
+[SEMAX (10 MG)](/collections/all/products/semax-10-mg "SEMAX \(10 MG\)")
+
+[TESAMORELIN (10 MG)](/collections/all/products/tesamorelin-10-mg "TESAMORELIN \(10 MG\)")
+
+[WOLVERINE (5/5 MG)](/collections/all/products/wolverine-10-mg "WOLVERINE \(5/5 MG\)")"
+[/QUOTE]
+
+[CLAIM] skus[vantyxresearch:ghk-cu-100mg-single].list_price_usd
+[URL] https://vantyxresearch.com/collections/all/products/ghk-cu-100-mg
+[FETCHED_AT] 2026-05-08T08:44:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/product_1__ghk-cu-100mg.md
+[LINE_RANGE] 136-142
+[QUOTE]
+"#  GHK-CU (100 MG)
+
+  * $45.00
+  * Regular price ~~$0.00~~
+  * Sale 66%"
+[/QUOTE]
+
+[CLAIM] skus[vantyxresearch:retatrutide-10mg-single].list_price_usd
+[URL] https://vantyxresearch.com/collections/all/products/glp-r3-retatrutide-10-mg
+[FETCHED_AT] 2026-05-08T08:44:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/product_2__glp-r3-retatrutide-10mg.md
+[LINE_RANGE] 136-142
+[QUOTE]
+"#  GLP-R3 (RETATRUTIDE) (10 MG)
+
+  * $50.00
+  * Regular price ~~$0.00~~
+  * Sale 66%"
+[/QUOTE]
+
+[CLAIM] skus[vantyxresearch:semaglutide-10mg-single].list_price_usd
+[URL] https://vantyxresearch.com/collections/all/products/glp-1-sm-semaglutide-10-mg
+[FETCHED_AT] 2026-05-08T08:44:52Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/product_3__glp-1-sm-semaglutide-10mg.md
+[LINE_RANGE] 120-128
+[QUOTE]
+"#  GLP-1 SM (SEMAGLUTIDE) (10 MG)
+
+  * $35.00
+  * Regular price ~~$0.00~~
+  * Sale 66%"
+[/QUOTE]
+
+[CLAIM] skus[vantyxresearch:tirzepatide-10mg-single].list_price_usd
+[URL] https://vantyxresearch.com/collections/all/products/glp-2-tz
+[FETCHED_AT] 2026-05-08T08:44:54Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/product_4__glp-2-tz-tirzepatide-10mg.md
+[LINE_RANGE] 120-128
+[QUOTE]
+"#  GLP-2 TZ (10 MG) (TIRZEPATIDE)
+
+  * $37.00
+  * Regular price ~~$0.00~~
+  * Sale 66%"
+[/QUOTE]
+
+[CLAIM] skus[vantyxresearch:ipamorelin-5mg-single].list_price_usd
+[URL] https://vantyxresearch.com/collections/all/products/ipamorelin-5-mg
+[FETCHED_AT] 2026-05-08T08:44:56Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/product_5__ipamorelin-5mg.md
+[LINE_RANGE] 136-142
+[QUOTE]
+"#  IPAMORELIN (5 MG)
+
+  * $32.01
+  * Regular price ~~$0.00~~
+  * Sale 66%"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://vantyxresearch.com/pages/community
+[FETCHED_AT] 2026-05-08T08:45:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/community.md
+[LINE_RANGE] 120-140
+[QUOTE]
+"Connect with the Vantyx community for product updates, research discussions, exclusive giveaways, and members-only deals. Our brand new Discord server is now live — join the conversation."
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://vantyxresearch.com/collections/all
+[FETCHED_AT] 2026-05-08T08:44:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/catalog_1.md
+[LINE_RANGE] 137-138
+[QUOTE]
+"  * Out of stock  (17) Out of stock (17 products)
+  * In stock  (0) In stock (0 products)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://vantyxresearch.com/collections/all/products/ghk-cu-100-mg
+[FETCHED_AT] 2026-05-08T08:44:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/vantyxresearch/product_1__ghk-cu-100mg.md
+[LINE_RANGE] 195-230
+[QUOTE]
+"#### **PURCHASE & RESPONSIBILITY AGREEMENT**
+
+All purchases from **Vantyx Research** are **final**.
+
+By completing a purchase, the buyer confirms they are a **qualified researcher, laboratory, or institution** and assume full responsibility for **lawful use, proper handling, and compliance with all applicable regulations.**"
+[/QUOTE]

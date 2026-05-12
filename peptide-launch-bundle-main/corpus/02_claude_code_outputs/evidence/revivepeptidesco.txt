@@ -1,0 +1,565 @@
+[CLAIM] primary_domain
+[URL] https://revivepeptidesco.com
+[FETCHED_AT] 2026-05-08T07:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/homepage.md
+[LINE_RANGE] 1-10
+[QUOTE]
+"Skip to content"
+[/QUOTE]
+[INFERENCE] primary_domain is revivepeptidesco.com; site redirects to rpcowellness.com (final_url per curl)
+[REASONING]
+The revivepeptidesco.com domain redirects to rpcowellness.com as confirmed by the curl fetch metadata showing http_status=200 final_url=https://rpcowellness.com/. The brand name Revive Peptides Co. is used throughout. The vendor slug revivepeptidesco maps to this domain.
+[/REASONING]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://revivepeptidesco.com
+[FETCHED_AT] 2026-05-08T07:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/homepage.md
+[LINE_RANGE] 113
+[QUOTE]
+"Unlock Your Peak Wellness Potential and Take Control of Your Health"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://revivepeptidesco.com
+[FETCHED_AT] 2026-05-08T07:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/homepage.md
+[LINE_RANGE] 115
+[QUOTE]
+"[ Shop Products ](https://rpcowellness.com/shop-all/)"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://revivepeptidesco.com
+[FETCHED_AT] 2026-05-08T07:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/homepage.md
+[LINE_RANGE] 20-36
+[QUOTE]
+"  * [Home](https://rpcowellness.com/)
+  * [Shop All](https://rpcowellness.com/shop-all/)
+    * [Anti Aging](/product-category/peptides/anti-aging/)
+    * [Energy](/product-category/peptides/energy/)
+    * [Fat Burners](/product-category/peptides/fat-burners/)
+    * [Gut Health](/product-category/peptides/gut-health/)
+    * [Healing](/product-category/peptides/healing/)
+    * [Immunity](/product-category/peptides/immunity/)
+    * [Nootropics/Sex Enhancers](/product-category/peptides/nootropics-sex-enhancers/)
+    * [Secretagouges](/product-category/peptides/secretagogues/)
+    * [Skin and Hair](/product-category/peptides/skin-and-hair/)
+    * [Sleep](/product-category/peptides/sleep/)
+    * [Weight Loss](/product-category/peptides/weight-loss/)
+  * [Shop Collections](https://rpcowellness.com/shopcollections/)
+  * [Shop Extras](https://rpcowellness.com/shop-extras/)
+  * [Specials of The Week](https://rpcowellness.com/specials-of-the-week/)
+  * [Loyalty](https://rpcowellness.com/loyalty/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://revivepeptidesco.com
+[FETCHED_AT] 2026-05-08T07:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/homepage.md
+[LINE_RANGE] 323-328
+[QUOTE]
+"At Revive Peptides Co., our products are created with science in mind. They are designed exclusively for laboratory research and are not intended for human consumption, medical treatment, or veterinary use. We're committed to supporting safe and responsible research, and we do not encourage use outside of controlled scientific settings. By ordering from Revive Peptides Co., you're confirming that you are a qualified researcher or institution, and that you are 21 years of age or older."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://revivepeptidesco.com
+[FETCHED_AT] 2026-05-08T07:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/homepage.md
+[LINE_RANGE] 337-355
+[QUOTE]
+"## Age Verification Required
+
+You must be 21 years of age or older to access this website.
+By entering, you confirm that you meet the age requirement.
+
+I confirm I am 21+ years of age or older.
+
+I confirm I am 21+ years of age or older.
+
+I confirm I am 21+ years of age or older.
+
+I agree that products and information on this website are provided for laboratory research use only and are not intended for use in or on humans or animals."
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://rpcowellness.com/shop-all/
+[FETCHED_AT] 2026-05-08T07:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/catalog_1.md
+[LINE_RANGE] 120-121
+[QUOTE]
+"FOR RESEARCH PURPOSES ONLY"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://rpcowellness.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T07:26:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/tos.md
+[LINE_RANGE] 110-115
+[QUOTE]
+"# Terms and Conditions
+
+**Revive Peptides Co Comprehensive Terms &** **Compliance**
+
+RPCO Vitality Group DBA Revive Peptides Co
+
+Effective Date: January 8, 2026"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://rpcowellness.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T07:26:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/tos.md
+[LINE_RANGE] 132-155
+[QUOTE]
+"All products sold by Revive Peptides Co are strictly intended for laboratory research purposes only.
+
+Under no circumstances are these products intended for human consumption, medical use, or
+
+veterinary application. These products have not been evaluated by the FDA and are not approved for
+
+diagnosing, treating, curing, or preventing any disease. By purchasing, you acknowledge that you fully
+
+understand the nature of these products and their restricted use classification."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://rpcowellness.com/faq/
+[FETCHED_AT] 2026-05-08T07:26:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/faq.md
+[LINE_RANGE] 214-216
+[QUOTE]
+"Because of the nature of our research products, we’re unable to accept returns. However, if there is an issue with your order or shipment, please reach out to us so we can make it right."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://rpcowellness.com/faq/
+[FETCHED_AT] 2026-05-08T07:26:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/faq.md
+[LINE_RANGE] 199-212
+[QUOTE]
+"We are currently only shipping within the U.S.A."
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://revivepeptidesco.com
+[FETCHED_AT] 2026-05-08T07:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/homepage.md
+[LINE_RANGE] 3
+[QUOTE]
+"FREE SHIPPING ON U.S. ORDERS OVER $200"
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://rpcowellness.com/faq/
+[FETCHED_AT] 2026-05-08T07:26:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/faq.md
+[LINE_RANGE] 199-201
+[QUOTE]
+"We are currently only shipping within the U.S.A."
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://rpcowellness.com/shop-all/
+[FETCHED_AT] 2026-05-08T07:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/catalog_1.md
+[LINE_RANGE] 22-36
+[QUOTE]
+"    * [Anti Aging](/product-category/peptides/anti-aging/)
+    * [Energy](/product-category/peptides/energy/)
+    * [Fat Burners](/product-category/peptides/fat-burners/)
+    * [Gut Health](/product-category/peptides/gut-health/)
+    * [Healing](/product-category/peptides/healing/)
+    * [Immunity](/product-category/peptides/immunity/)
+    * [Nootropics/Sex Enhancers](/product-category/peptides/nootropics-sex-enhancers/)
+    * [Secretagouges](/product-category/peptides/secretagogues/)
+    * [Skin and Hair](/product-category/peptides/skin-and-hair/)
+    * [Sleep](/product-category/peptides/sleep/)
+    * [Weight Loss](/product-category/peptides/weight-loss/)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://rpcowellness.com/shop-all/
+[FETCHED_AT] 2026-05-08T07:25:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/catalog_1.md
+[LINE_RANGE] 235-244
+[QUOTE]
+"## ALPHA COLLECTION | Recovery, Lean Mass & Metabolic Support
+
+$270.00
+
+## ALPHA COLLECTION | Recovery, Lean Mass & Metabolic Support
+
+$270.00
+
+### **Product Description**
+
+Unlock a next-level body transformation with our **Alpha Collection** , featuring **RTA-3, Tesamorelin, and Ipamorelin**"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://rpcowellness.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/product_1__bpc-157.md
+[LINE_RANGE] 161-165
+[QUOTE]
+"## BPC-157 | Recovery, Healing & Tissue Repair Support
+
+$55.00 – $75.00Price range: $55.00 through $75.00
+
+Earn up to 75 points. MG |  Choose an option10 MG20 MGClear"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://rpcowellness.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/product_1__bpc-157.md
+[LINE_RANGE] 122-124
+[QUOTE]
+"**BPC-157 (Body Protection Compound 157)** is a synthetic peptide derived from a naturally occurring protein found in the human digestive system. Known for its stability and regenerative research potential, BPC-157 has become one of the most sought-after peptides in studies focused on **tissue repair, injury recovery, gut health, and inflammation modulation**."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://rpcowellness.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/product_1__bpc-157.md
+[LINE_RANGE] 155-159
+[QUOTE]
+"All products offered by **Revive Peptides Co.** are intended strictly for **research and laboratory use only**.
+**Not for human consumption.**
+Products are not intended to diagnose, treat, cure, or prevent any disease."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://rpcowellness.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:26:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/product_1__bpc-157.md
+[LINE_RANGE] 172-174
+[QUOTE]
+"## Related Products
+
+[ Shop Now FOR RESEARCH PURPOSES ONLY CJC 1295 + IPAMORELIN | GH Support Stack | Muscle Recovery & Fat Loss $85.00 – $140.00Price range: $85.00 through $140.00 Buy 3 get 1 free ]"
+[/QUOTE]
+
+[CLAIM] skus[revivepeptidesco:nad-500mg].list_price_usd
+[URL] https://rpcowellness.com/product/nad/
+[FETCHED_AT] 2026-05-08T07:26:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/product_2__nad.md
+[LINE_RANGE] 175-179
+[QUOTE]
+"## NAD+ | Cellular Energy, Anti-Aging & Mitochondrial Support
+
+$60.00 – $210.00Price range: $60.00 through $210.00
+
+Earn up to 210 points. MG |  Choose an option1000 MG500 MG"
+[/QUOTE]
+
+[CLAIM] skus[revivepeptidesco:tirzepatide-10mg].list_price_usd
+[URL] https://rpcowellness.com/product/tirzepatide-glp-2/
+[FETCHED_AT] 2026-05-08T07:26:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/product_3__tirzepatide.md
+[LINE_RANGE] 160-166
+[QUOTE]
+"## TRZ-2 | GLP-1 & GIP Dual Agonist, Metabolic & Weight Management
+
+$89.25 – $1,400.00Price range: $89.25 through $1,400.00
+
+Earn up to 1,400 points. MG |  Choose an option10 MG20 MG30 MG40 MG
+---|---
+Quantity |  Choose an optionSingle3 Pack10 PackClear"
+[/QUOTE]
+
+[CLAIM] skus[revivepeptidesco:ghk-cu-50mg].list_price_usd
+[URL] https://rpcowellness.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T07:27:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/product_4__ghk-cu.md
+[LINE_RANGE] 175-179
+[QUOTE]
+"## GHK-Cu | Skin Repair, Collagen Boost & Anti-Aging Support
+
+$50.00 – $80.00Price range: $50.00 through $80.00
+
+Earn up to 80 points. MG |  Choose an option100 MG50 MGClear"
+[/QUOTE]
+
+[CLAIM] skus[revivepeptidesco:mots-c-10mg].list_price_usd
+[URL] https://rpcowellness.com/product/mots-c/
+[FETCHED_AT] 2026-05-08T07:27:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/product_5__mots-c.md
+[LINE_RANGE] 170-174
+[QUOTE]
+"## MOTS-c | Metabolism Booster & Mitochondrial Support for Fat Loss & Energy
+
+$50.00 – $85.00Price range: $50.00 through $85.00
+
+Earn up to 85 points. MG |  Choose an option10 MG20 MGClear"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://rpcowellness.com/
+[FETCHED_AT] 2026-05-08T07:27:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/source_homepage.md
+[LINE_RANGE] 1-5
+[QUOTE]
+"Skip to content"
+[/QUOTE]
+[INFERENCE] woocommerce
+[REASONING]
+HTML source contains multiple woocommerce asset references: woocommerce-layout.css at /wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=10.7.0 and wdr_store-css from woo-discount-rules-pro-2 plugin. Also confirmed by wp-json/ link header indicating WordPress.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://rpcowellness.com/
+[FETCHED_AT] 2026-05-08T07:27:10Z
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/source_homepage.md
+[LINE_RANGE] 1-5
+"Skip to content"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://rpcowellness.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:26:00Z
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/product_1__bpc-157.md
+[LINE_RANGE] 116
+"[](https://rpcowellness.com/wp-content/uploads/2026/01/NEW-REVIVE-LABEL.png)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://rpcowellness.com/
+[FETCHED_AT] 2026-05-08T07:28:14Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/source_homepage.md
+[LINE_RANGE] 1-5
+[QUOTE]
+"Skip to content"
+[/QUOTE]
+[INFERENCE] cloudflare
+[REASONING]
+HTTP response headers contain cf-ray and server: cloudflare, confirming Cloudflare CDN. cf-ray: 9f86bf17b96d200c-IAD; server: cloudflare.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://rpcowellness.com/
+[FETCHED_AT] 2026-05-08T07:28:14Z
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/source_homepage.md
+[LINE_RANGE] 1-5
+"Skip to content"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://rpcowellness.com/shop-all/
+[FETCHED_AT] 2026-05-08T07:25:30Z
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/catalog_1.md
+[LINE_RANGE] 1-5
+"Skip to content"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://rpcowellness.com/
+[FETCHED_AT] 2026-05-08T07:27:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/source_homepage.md
+[LINE_RANGE] 1-5
+[INFERENCE] Google Analytics (G-19Q508QX08 via gtag/MonsterInsights)
+[REASONING]
+HTML source includes gtag.js script loaded from googletagmanager.com with ID G-19Q508QX08, and MonsterInsights integration code using __gtagTracker and __gtagTrackerIsOptedOut functions, confirming Google Analytics via MonsterInsights WordPress plugin.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://rpcowellness.com/
+[FETCHED_AT] 2026-05-08T07:27:10Z
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/source_homepage.md
+[LINE_RANGE] 1-5
+"Skip to content"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://rpcowellness.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:26:00Z
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/product_1__bpc-157.md
+[LINE_RANGE] 1-5
+"Skip to content"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://revivepeptidesco.com
+[FETCHED_AT] 2026-05-08T07:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/homepage.md
+[LINE_RANGE] 141-145
+[QUOTE]
+"## Revivepeptidesco
+
+34 Reviews[Add Your Review](https://www.trustpilot.com/evaluate/revivepeptidesco.com)
+
+E R  07 May 2026
+
+#### Really good Stuff"
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://revivepeptidesco.com
+[FETCHED_AT] 2026-05-08T07:25:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/homepage.md
+[LINE_RANGE] 287-289
+[QUOTE]
+"[ ](https://www.trustpilot.com/review/revivepeptidesco.com)"
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://rpcowellness.com/blog/
+[FETCHED_AT] 2026-05-08T07:27:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/blog_1.md
+[LINE_RANGE] 117-120
+[QUOTE]
+"## [The Power of Synergy: 5-Amino-1MQ + NAD+ for Cellular Energy, Fat Loss & Metabolic Optimization]"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://rpcowellness.com/blog/
+[FETCHED_AT] 2026-05-08T07:27:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/blog_1.md
+[LINE_RANGE] 117-172
+[QUOTE]
+"## [The Power of Synergy: 5-Amino-1MQ + NAD+ for Cellular Energy, Fat Loss & Metabolic Optimization]
+## [Why Your Body Feels Different in Pre-Menopause—and How Peptides May Be the Missing Link]
+## [The Quiet Edge: How Nootropics Support a Sharper, More Resilient You]
+## [The Vitality Collection Difference: Remembering What It's Like to Feel Good Again]
+## [Experience the Power of Revive Peptides Co. Alpha Collection for Body Recomposition, Energy & Peak Performance]
+## [The Overlooked Edge: Why You Might Be Missing What Your Body Actually Needs]
+## [The Rise of Peptides in Wellness: Benefits for Recovery, Longevity, and Performance]"
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://rpcowellness.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T07:26:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/tos.md
+[LINE_RANGE] 114-117
+[INFERENCE] 2026
+[REASONING]
+Terms and Conditions effective date is January 8, 2026. Copyright footer reads "© 2026 REVIVE PEPTIDES CO." Product images uploaded in January 2026 (/wp-content/uploads/2026/01/). All evidence points to a 2026 launch.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://rpcowellness.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T07:26:10Z
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/tos.md
+[LINE_RANGE] 114-117
+"RPCO Vitality Group DBA Revive Peptides Co
+
+Effective Date: January 8, 2026"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://revivepeptidesco.com
+[FETCHED_AT] 2026-05-08T07:25:00Z
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/homepage.md
+[LINE_RANGE] 329
+"**© 2026 REVIVE PEPTIDES CO.**"
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://rpcowellness.com/faq/
+[FETCHED_AT] 2026-05-08T07:26:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/faq.md
+[LINE_RANGE] 199-201
+[INFERENCE] United States
+[REASONING]
+The FAQ states "We are currently only shipping within the U.S.A." and the ordering cutoff is given in PST (Pacific Standard Time), indicating US-based operations. The legal entity "RPCO Vitality Group DBA Revive Peptides Co" has no foreign registration mention anywhere.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://rpcowellness.com/faq/
+[FETCHED_AT] 2026-05-08T07:26:20Z
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/faq.md
+[LINE_RANGE] 199-205
+"We are currently only shipping within the U.S.A."
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://rpcowellness.com/terms-and-conditions/
+[FETCHED_AT] 2026-05-08T07:26:10Z
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/tos.md
+[LINE_RANGE] 114
+"RPCO Vitality Group DBA Revive Peptides Co"
+[/SUPPORT_QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://rpcowellness.com/faq/
+[FETCHED_AT] 2026-05-08T07:26:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/faq.md
+[LINE_RANGE] 199-201
+[QUOTE]
+"We are currently only shipping within the U.S.A."
+[/QUOTE]
+
+[CLAIM] tech_stack.marketing_pixels_present
+[URL] https://rpcowellness.com/
+[FETCHED_AT] 2026-05-08T07:27:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/source_homepage.md
+[LINE_RANGE] 1-5
+[INFERENCE] Pinterest, Twitter/X
+[REASONING]
+curl grep of HTML source for pixel/social pixel patterns returned "pinterest" and "twitter" strings, indicating social sharing or tracking pixel integrations for Pinterest and Twitter/X. No Facebook pixel (fbq) detected.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://rpcowellness.com/
+[FETCHED_AT] 2026-05-08T07:27:10Z
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/source_homepage.md
+[LINE_RANGE] 1-5
+"Skip to content"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://rpcowellness.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:26:00Z
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/product_1__bpc-157.md
+[LINE_RANGE] 1-5
+"Skip to content"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://rpcowellness.com/
+[FETCHED_AT] 2026-05-08T07:27:10Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/source_homepage.md
+[LINE_RANGE] 1-5
+[INFERENCE] true
+[REASONING]
+curl grep of the HTML source returned "crisp" string match, indicating Crisp chat widget is present. Crisp is a live chat tool integrated via JavaScript widget.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://rpcowellness.com/
+[FETCHED_AT] 2026-05-08T07:27:10Z
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/source_homepage.md
+[LINE_RANGE] 1-5
+"Skip to content"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://rpcowellness.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T07:26:00Z
+[RAW_ARTIFACT] 03_raw_fetches/revivepeptidesco/product_1__bpc-157.md
+[LINE_RANGE] 1-5
+"Skip to content"
+[/SUPPORT_QUOTE]

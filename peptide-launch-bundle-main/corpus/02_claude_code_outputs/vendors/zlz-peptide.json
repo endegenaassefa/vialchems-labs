@@ -1,0 +1,223 @@
+{
+  "vendor_slug": "zlz-peptide",
+  "brand_name": "ZLZ Peptide",
+  "primary_domain": "http://www.zlzpeptide.com",
+
+  "fetched_url": "http://www.zlzpeptide.com/",
+  "fetched_at": "2026-05-08T08:46:39Z",
+  "fetch_status": "ok",
+
+  "tier": "3",
+  "tier_rationale": "as-assigned",
+  "field_completion_ratio": 0.72,
+
+  "country_of_operation": "China",
+  "fulfillment_country": "China",
+  "ship_to_scope": "us_intl",
+  "year_established": "2021",
+
+  "homepage": {
+    "hero_copy_excerpt": "HOT-SALE PRODUCT Quality First, Safety Guaranteed",
+    "hero_imagery_style": "clinical",
+    "primary_cta": "INQUIRY NOW",
+    "navigation_pattern": "horizontal top nav: Home, About Us (dropdown: Customers&Exhibitions, Certificate, Factory Tour), Products (dropdown: Organic Intermediates, Food Additive, Imidazoles), News, Video, Contact Us, FAQs",
+    "footer_disclaimers": "Zhuzhou Lusong Zhongtuo Chemical Technology City © Copyright - 2021 : All Rights Reserved."
+  },
+
+  "catalog": {
+    "sku_count": 18,
+    "category_taxonomy": ["Organic Intermediates", "Food Additive", "Imidazoles"],
+    "search_filter_capabilities": "Category filter by BigClassName; pagination (2 pages of 18 total products); no keyword search visible",
+    "stack_bundle_pages_present": "false"
+  },
+
+  "product_page_anatomy": {
+    "sample_product_url": "http://www.zlzpeptide.com/productshow.asp?id=350",
+    "sample_product_name": "Retatrutide 10mg",
+    "dose_options": ["5mg", "10mg", "15mg"],
+    "list_price": "$280/box (10 vials)",
+    "per_mg_cost": "$2.80",
+    "photographic_treatment": "single product vial image, white background",
+    "description_copy_excerpt": "Retatrutide is a GGG tri-agonist that targets GLP-1 and GIP receptors, akin to standard GLP-1 agonists, but also uniquely activates the glucagon receptor.",
+    "exact_disclaimer_language": "This PRODUCT IS INTENDED AS A RESEARCH CHEMICAL ONLY. This designation allows the use of research chemicals strictly for in vitro testing and laboratory experimentation only. All product information available on this website is for educational purposes only. Bodily introduction of any kind into humans or animals is strictly forbidden by law. This product should only be handled by licensed, qualified professionals. This product is not a drug, food, or cosmetic and may not be misbranded, misused or mislabled as a drug, food or cosmetic.",
+    "coa_present": "false",
+    "coa_hosting": "none",
+    "lab_partner_named": "uncertain",
+    "batch_lot_transparency": "false",
+    "customer_review_module_present": "false",
+    "related_product_modules_present": "true"
+  },
+
+  "trust_compliance": {
+    "research_use_only_phrasing": "This PRODUCT IS INTENDED AS A RESEARCH CHEMICAL ONLY. This designation allows the use of research chemicals strictly for in vitro testing and laboratory experimentation only.",
+    "age_gate_present": "false",
+    "jurisdictional_restriction_notice": "none",
+    "tos_url": "uncertain",
+    "tos_highlights": "uncertain",
+    "refund_policy": "uncertain",
+    "shipping_policy": "DHL/USPS/FEDEX/TNT; Free of customs clearance, Double Clearance 100% pass delivery to USA, Canada, Australia, Poland, Italy, Sweden, UK, Czech Republic, Spain, Germany, Netherlands, Mexico, Russia, Ukraine, Kazakhstan"
+  },
+
+  "checkout_flow": {
+    "account_required": "uncertain",
+    "guest_checkout_available": "uncertain",
+    "fields_collected": ["uncertain"],
+    "id_verification_present": "uncertain",
+    "payment_methods_accepted": ["USDT", "Western Union", "Bitcoin", "Money gram", "Bank transfer"],
+    "shipping_carriers": ["DHL", "USPS", "FEDEX", "TNT"],
+    "shipping_cost_structure": "uncertain",
+    "international_policy": "Door to door service; Double Clearance 100% pass delivery to USA, Canada, Australia, Poland, Italy, Sweden, UK, Czech Republic, Spain, Germany, Netherlands, Mexico, Russia, Ukraine, Kazakhstan"
+  },
+
+  "tech_stack": {
+    "platform_signal": "custom",
+    "cdn": "wts/1.7.0",
+    "analytics_tools_loaded": [],
+    "marketing_pixels_present": [],
+    "chat_widget_present": "false"
+  },
+
+  "content_footprint": {
+    "blog_present": "true",
+    "blog_url": "http://www.zlzpeptide.com/conews.asp",
+    "content_cadence": "minimal; only one news post visible (dated 2008-09-30 in template but content references Shanghai COVID unlocking, suggesting template date is erroneous)",
+    "topic_taxonomy": ["Company News", "Industrial News"],
+    "author_bylines_present": "true",
+    "internal_linking_to_products": "product hot-sale carousel present on most pages"
+  },
+
+  "social_proof": {
+    "on_site_reviews": "false",
+    "off_site_aggregators": [],
+    "testimonial_usage": "none observed",
+    "visible_influencer_endorsements": "none observed"
+  },
+
+  "skus": [
+    {
+      "sku_id": "zlz-peptide:retatrutide-10mg",
+      "name": "Retatrutide 10mg",
+      "peptide_canonical": "Retatrutide",
+      "peptide_variant": "acetate",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "1 vial per unit; MOQ 10 vials/box",
+      "list_price_usd": 28.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 2.8000,
+      "volume_tier_label": "10-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "http://www.zlzpeptide.com/productshow.asp?id=350",
+      "raw_artifact": "03_raw_fetches/zlz-peptide/product_1__retatrutide-10mg.md",
+      "evidence_entry_id": "claim-7"
+    },
+    {
+      "sku_id": "zlz-peptide:retatrutide-15mg",
+      "name": "Retatrutide 15mg",
+      "peptide_canonical": "Retatrutide",
+      "peptide_variant": "acetate",
+      "dose_value": 15,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "1 vial per unit; MOQ 10 vials/box",
+      "list_price_usd": 42.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 2.8000,
+      "volume_tier_label": "10-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "http://www.zlzpeptide.com/productshow.asp?id=362",
+      "raw_artifact": "03_raw_fetches/zlz-peptide/product_1__retatrutide-15mg.md",
+      "evidence_entry_id": "claim-8"
+    },
+    {
+      "sku_id": "zlz-peptide:semaglutide-10mg",
+      "name": "Semaglutide 10mg",
+      "peptide_canonical": "Semaglutide",
+      "peptide_variant": "acetate",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "1 vial per unit; MOQ 10 vials/box",
+      "list_price_usd": 14.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 1.4000,
+      "volume_tier_label": "10-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "http://www.zlzpeptide.com/productshow.asp?id=349",
+      "raw_artifact": "03_raw_fetches/zlz-peptide/product_1__semaglutide-10mg.md",
+      "evidence_entry_id": "claim-9"
+    },
+    {
+      "sku_id": "zlz-peptide:ghk-cu-50mg",
+      "name": "GHK-CU 50mg",
+      "peptide_canonical": "GHK-Cu",
+      "peptide_variant": "acetate",
+      "dose_value": 50,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "1 vial per unit; MOQ 10 vials/box",
+      "list_price_usd": 3.50,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 0.0700,
+      "volume_tier_label": "10-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "http://www.zlzpeptide.com/productshow.asp?id=364",
+      "raw_artifact": "03_raw_fetches/zlz-peptide/product_1__ghk-cu-50mg.md",
+      "evidence_entry_id": "claim-10"
+    },
+    {
+      "sku_id": "zlz-peptide:pt-141-10mg",
+      "name": "PT-141 10mg",
+      "peptide_canonical": "PT-141",
+      "peptide_variant": "acetate",
+      "dose_value": 10,
+      "dose_unit": "mg",
+      "format": "vial",
+      "concentration": "uncertain",
+      "bottle_size": "1 vial per unit; MOQ 10 vials/box",
+      "list_price_usd": 7.00,
+      "sale_price_usd": null,
+      "sale_observed_at": null,
+      "per_mg_price_usd": 0.7000,
+      "volume_tier_label": "10-pack",
+      "bundle_membership": [],
+      "crypto_discount_pct": 0,
+      "subscription_price_usd": null,
+      "out_of_stock": "false",
+      "url": "http://www.zlzpeptide.com/productshow.asp?id=352",
+      "raw_artifact": "03_raw_fetches/zlz-peptide/product_1__pt-141-10mg.md",
+      "evidence_entry_id": "claim-11"
+    }
+  ],
+
+  "discovery_provenance": {
+    "first_seen_pass": 0,
+    "discovery_source_url": "00_inputs/vendor_list.csv",
+    "discovery_source_quote": "zlz-peptide,ZLZ Peptide,zlzpeptide.com,0,00_inputs/vendor_list.csv,row from operator-supplied vendor list, classified as Tier 3: Chinese API supplier.,3,as-assigned (operator seed),pending"
+  },
+
+  "raw_fetches_dir": "03_raw_fetches/zlz-peptide/",
+  "evidence_file": "evidence/zlz-peptide.txt",
+  "uncertainty_notes": "tos_url: No standalone TOS page linked anywhere on the site; no terms of service URL found after full site walk. tos_highlights: No TOS page found. refund_policy: No refund/return policy page found; FAQ page has only one question about pricing with no refund terms. account_required: Site has no shopping cart or checkout flow; orders are placed by email or WhatsApp contact; account requirement unknown. guest_checkout_available: No online checkout present; orders via email/WhatsApp only. fields_collected: No online order form with fields visible; contact form collects NAME, MOBILE, E-MAIL, CONTENT, CODE (CAPTCHA). id_verification_present: No checkout to assess. shipping_cost_structure: Not published; pricing quoted per inquiry per FAQ. lab_partner_named: No COA page has content (certificate page rendered blank); no lab partner named anywhere. concentration: Product pages do not specify reconstitution concentration. list_price_usd for skus: Prices on product pages are listed per box (MOQ 10 vials); per-vial price derived by dividing box price by 10. [INFERENCE] year_established: The copyright footer reads 2021; the About Us page says company has been operating with 'many years of experience' but gives no founding year — 2021 taken as the site launch/copyright year. [INFERENCE] ship_to_scope us_intl: About Us explicitly lists USA, Canada, Australia, Poland, Italy, Sweden, UK, Czech Republic, Spain, Germany, Netherlands, Mexico, Russia, Ukraine, Kazakhstan as ship-to destinations, confirming international including US."
+}

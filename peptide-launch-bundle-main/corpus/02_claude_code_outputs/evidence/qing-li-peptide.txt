@@ -1,0 +1,361 @@
+[CLAIM] primary_domain
+[URL] https://qinglipeptide.com
+[FETCHED_AT] 2026-05-08T07:04:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/homepage.md
+[LINE_RANGE] 2-2
+[QUOTE]
+"url: https://qinglishangmao.com/"
+[/QUOTE]
+
+[CLAIM] fetched_url
+[URL] https://qinglishangmao.com/
+[FETCHED_AT] 2026-05-08T07:04:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/homepage.md
+[LINE_RANGE] 2-2
+[QUOTE]
+"url: https://qinglishangmao.com/"
+[/QUOTE]
+
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://qinglishangmao.com/
+[FETCHED_AT] 2026-05-08T07:04:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/homepage.md
+[LINE_RANGE] 82-82
+[QUOTE]
+"# Qingli Peptide: 7 years of trusted peptide manufacturing and fast global delivery."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://qinglishangmao.com/
+[FETCHED_AT] 2026-05-08T07:04:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/homepage.md
+[LINE_RANGE] 88-88
+[QUOTE]
+"Quote Now ____"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://qinglishangmao.com/
+[FETCHED_AT] 2026-05-08T07:04:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/homepage.md
+[LINE_RANGE] 492-492
+[QUOTE]
+"© 2012 - 2026 | [Qinglishangmao](qinglishangmao) | All Rights Reserved"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url / product_page_anatomy.sample_product_name / product_page_anatomy.dose_options / product_page_anatomy.description_copy_excerpt / skus[0]
+[URL] https://qinglishangmao.com/product/bpc157/
+[FETCHED_AT] 2026-05-08T07:06:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/product_1__bpc157.md
+[LINE_RANGE] 82-103
+[QUOTE]
+"# BPC157
+
+1000 in stock
+
+High-purity BPC-157 peptide (10mg), widely used in research and performance-focused environments. Trusted by fitness professionals and peptide distributors.
+
+Categories: [Peptide](https://qinglishangmao.com/product-category/peptide/)
+
+This product is currently out of stock and unavailable.
+
+### product description
+
+### Full Product Description
+
+> **Product Name:** BPC-157 Peptide
+> **Specification:** 1box/10vial
+> **Purity:** >= 99%
+> **Form:** Lyophilized powder
+> **Storage:** Store at -20 degrees in a cool, dry place
+
+BPC-157 is a synthetic research peptide known for its potential in promoting cellular regeneration and physical recovery. It is widely used in performance-related research and by those exploring advanced recovery strategies in physically demanding environments."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://qinglishangmao.com/product/bpc157tb500/
+[FETCHED_AT] 2026-05-08T07:06:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/product_1__bpc157tb500.md
+[LINE_RANGE] 124-124
+[QUOTE]
+"For laboratory research use only. Not for human consumption."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / product_page_anatomy.coa_hosting / product_page_anatomy.lab_partner_named
+[URL] https://qinglishangmao.com/product/bpc157-coa/
+[FETCHED_AT] 2026-05-08T07:07:42Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/coa_bpc157.md
+[LINE_RANGE] 82-82
+[QUOTE]
+"BPC157 Janoshik Analytical"
+[/QUOTE]
+
+[CLAIM] skus[1] (Tirz / Tirzepatide)
+[URL] https://qinglishangmao.com/product/tirz/
+[FETCHED_AT] 2026-05-08T07:06:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/product_1__tirz.md
+[LINE_RANGE] 82-90
+[QUOTE]
+"# Tirz
+
+1000 in stock
+
+Tirz peptide, high-purity lyophilized powder. Widely used in metabolic and wellness-related research by peptide resellers, wellness centers, and aesthetic clinics.
+
+Categories: [Peptide](https://qinglishangmao.com/product-category/peptide/)
+
+This product is currently out of stock and unavailable."
+[/QUOTE]
+
+[CLAIM] skus[2] (Reta / Retatrutide)
+[URL] https://qinglishangmao.com/product/reta/
+[FETCHED_AT] 2026-05-08T07:06:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/product_1__reta.md
+[LINE_RANGE] 82-84
+[QUOTE]
+"# Reta
+
+Reta peptide, research-grade peptide widely used in metabolic and wellness studies. Trusted by fitness experts, wellness centers, and beauty clinics."
+[/QUOTE]
+
+[CLAIM] skus[3] (BPC157+TB500 blend)
+[URL] https://qinglishangmao.com/product/bpc157tb500/
+[FETCHED_AT] 2026-05-08T07:06:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/product_1__bpc157tb500.md
+[LINE_RANGE] 82-100
+[QUOTE]
+"# BPC157+TB500
+
+BPC-157 + TB500 peptide, high-purity research peptides for joint and tissue recovery. Ideal for fitness professionals, athletes, and peptide distributors.
+
+Categories: [Peptide](https://qinglishangmao.com/product-category/peptide/)
+
+### product description
+
+### Full Product Description
+
+> **Product Name:** BPC-157 + TB500 Peptide
+> **Specification:** 10mg each vial (BPC-157 & TB500)
+> **Purity:** >= 99%
+> **Form:** Lyophilized powder"
+[/QUOTE]
+
+[CLAIM] skus[4] (AOD9604)
+[URL] https://qinglishangmao.com/product/aod9604/
+[FETCHED_AT] 2026-05-08T07:06:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/product_1__aod9604.md
+[LINE_RANGE] 82-98
+[QUOTE]
+"# AOD9604
+
+AOD9604 peptide, high-purity lyophilized powder designed for metabolic and performance-related research. Ideal for labs, fitness professionals, and peptide resellers.
+
+Categories: [Peptide](https://qinglishangmao.com/product-category/peptide/)
+
+### product description
+
+### Full Product Description
+
+> **Product Name:** AOD9604 Peptide
+> **Specification:** 1box/10via
+> **Purity:** >= 98%"
+[/QUOTE]
+
+[CLAIM] skus[5] (Epithalon)
+[URL] https://qinglishangmao.com/product/epithalon/
+[FETCHED_AT] 2026-05-08T07:06:29Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/product_1__epithalon.md
+[LINE_RANGE] 82-98
+[QUOTE]
+"# Epithalon
+
+Epithalon peptide, known for longevity-related research. A popular choice among anti-aging labs, wellness centers, and beauty spas.
+
+Categories: [Peptide](https://qinglishangmao.com/product-category/peptide/)
+
+### product description
+
+### Full Product Description
+
+> **Product Name:** Epithalon Peptide
+> **Specification:** 10mg/vial
+> **Purity:** >= 99%"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://qinglishangmao.com/
+[FETCHED_AT] 2026-05-08T07:04:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/homepage.md
+[LINE_RANGE] 298-298
+[QUOTE]
+Peptides in powder form can still be sold, however, they must be marked “Research Use Only,” for legal and liability reasons
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://qinglishangmao.com/refund_returns/
+[FETCHED_AT] 2026-05-08T07:06:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/refund_returns.md
+[LINE_RANGE] 88-103
+[QUOTE]
+"We accept returns within **30 days** of receiving your order. To be eligible for a return, the product must be in its **original, unopened condition** and **unused**.
+
+Unfortunately, we cannot accept returns on **opened products** , **customized orders** , or **clearance items**.
+
+If your return is approved, we will initiate a refund to your original method of payment (PayPal).
+
+Please allow up to **10 business days** for the refund to be processed after we have received the returned product.
+
+Your refund will cover the **full purchase price** of the product, excluding shipping costs. Return shipping fees will be **the responsibility of the customer** , unless the return is due to a product defect or error on our part."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy / checkout_flow.shipping_carriers / checkout_flow.international_policy
+[URL] https://qinglishangmao.com/
+[FETCHED_AT] 2026-05-08T07:04:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/homepage.md
+[LINE_RANGE] 320-346
+[QUOTE]
+"Yes, we ship to over 35 countries and regions worldwide and provide full order tracking.
+
+Where are you shipping from?
+
+Our express parcels will be concentrated in Hong Kong and then sent to the world for delivery.
+
+Standard peptides: SWe will send out the goods within three days after receiving your payment, and the estimated delivery time is 7-25 days. Custom peptides: Depending on complexity, lead time ranges from 2-4 weeks. We ship worldwide using trusted carriers like DHL, FedEx, and EMS."
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://qinglishangmao.com/
+[FETCHED_AT] 2026-05-08T07:04:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/homepage.md
+[LINE_RANGE] 328-340
+[QUOTE]
+"What payment methods do you accept?
+
+We support multiple secure payment methods, including:
+
+  * Bitcoin
+  * USDT
+  * USDC
+  * PayPal
+  * Bank Transfer (T/T)
+  * Alibaba
+  * Wise
+
+We provide a variety of payment methods to serve customers in a convenient way"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal / tech_stack.cdn / tech_stack.analytics_tools_loaded
+[INFERENCE] platform_signal=woocommerce; cdn=hcdn; analytics_tools_loaded=["Google Analytics (GT-WRGJ4C6H)", "Site Kit by Google 1.150.0"]
+[REASONING]
+WordPress and WooCommerce confirmed by meta generator tags in source HTML. hcdn server header confirms CDN. Google Analytics gtag.js with ID GT-WRGJ4C6H confirmed in source HTML via Site Kit plugin.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://qinglishangmao.com/
+[FETCHED_AT] 2026-05-08T07:07:54Z
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/source_techstack.md
+[LINE_RANGE] 8-9
+"WordPress generator: WordPress 6.7.5
+WooCommerce generator: WooCommerce 10.3.8"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://qinglishangmao.com/
+[FETCHED_AT] 2026-05-08T07:07:54Z
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/source_techstack.md
+[LINE_RANGE] 13-15
+"Analytics ID: GT-WRGJ4C6H
+Site Kit: Site Kit by Google 1.150.0
+CDN/Server headers: server=hcdn, x-powered-by=PHP/8.2.30, x-hcdn-request-id present, x-hcdn-cache-status=DYNAMIC"
+[/SUPPORT_QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country
+[URL] https://qinglishangmao.com/
+[FETCHED_AT] 2026-05-08T07:04:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/homepage.md
+[LINE_RANGE] 324-326
+[QUOTE]
+"Where are you shipping from?
+
+Our express parcels will be concentrated in Hong Kong and then sent to the world for delivery."
+[/QUOTE]
+
+[CLAIM] year_established
+[URL] https://qinglishangmao.com/
+[FETCHED_AT] 2026-05-08T07:04:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/homepage.md
+[LINE_RANGE] 492-492
+[QUOTE]
+"© 2012 - 2026 | [Qinglishangmao](qinglishangmao) | All Rights Reserved"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count / catalog.category_taxonomy
+[URL] https://qinglishangmao.com/products/
+[FETCHED_AT] 2026-05-08T07:05:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/catalog_1.md
+[LINE_RANGE] 60-120
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/qing-li-peptide/catalog_1.md:
+12 product links observed in /products/ catalog page (KLOW, Tirz, Reta, Tesamoreli, BPC157, peptide, BPC157TB500, GLOW, Botox, AOD9604, NAD, Epithalon).
+[FILES]
+product_1__bpc157.md
+product_1__tirz.md
+product_1__reta.md
+product_1__bpc157tb500.md
+product_1__aod9604.md
+product_1__epithalon.md
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.blog_url / content_footprint.topic_taxonomy
+[URL] https://qinglishangmao.com/blog/
+[FETCHED_AT] 2026-05-08T07:08:15Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/blog_1.md
+[LINE_RANGE] 80-120
+[QUOTE]
+"BPC157 Supplier: Why Qing Li Peptide is Your Trusted Partner
+
+Beauty Peptide Supplier: Qing Li Peptide
+
+Beware of imposters on TikTok and how to verify Qingli Peptide Official
+
+How to Choose a Reliable Peptide Manufacturer for Your Business Needs?
+
+TB500 Peptide Supplier: Why Qing Li Peptide is Your Ideal Choice
+
+What Is Peptide Purity and Why Does It Matter in Research-Grade Peptides?"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://qinglishangmao.com/about-us/
+[FETCHED_AT] 2026-05-08T07:06:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/qing-li-peptide/about-us.md
+[LINE_RANGE] 104-155
+[QUOTE]
+"From raw materials to final product, every stage is strictly tested using HPLC and MS. Each batch comes with a complete Certificate of Analysis.
+
+All products are analyzed by HPLC and MS, with COA provided.
+
+GMP-compliant and ISO-certified facility.
+
+Full documentation and batch tracking for every order."
+[/QUOTE]

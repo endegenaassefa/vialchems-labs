@@ -1,0 +1,339 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://www.hongzipeptide.com/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/homepage.md
+[LINE_RANGE] 18-18
+[QUOTE]
+"Unlock radiant skin with our beauty peptide magic"
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://www.hongzipeptide.com/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/homepage.md
+[LINE_RANGE] 37-38
+[QUOTE]
+"**EXPLORE OUR PRODUCTS**
+
+[Read More](/PRODUCTS.html "PRODUCTS")"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://www.hongzipeptide.com/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/homepage.md
+[LINE_RANGE] 7-12
+[QUOTE]
+"  * [HOME](/)
+  * [COMPANY](/COMPANY.html)
+  * [PRODUCTS](/PRODUCTS.html)
+  * [NEWS](/NEWS.html)
+  * [ CONTACT US](/CONTACT--US.html)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://www.hongzipeptide.com/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/homepage.md
+[LINE_RANGE] 102-102
+[QUOTE]
+"For inquiries about our products or pricelist, please leave your email to us and we will be in touch within 24 hours."
+[/QUOTE]
+
+[CLAIM] country_of_operation / fulfillment_country
+[URL] https://www.hongzipeptide.com/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/homepage.md
+[LINE_RANGE] 98-98
+[QUOTE]
+"No.78 Shengli Street, Yiwu County, Jinhua,Zhejiang"
+[/QUOTE]
+
+[URL] https://www.hongzipeptide.com/CONTACT--US.html
+[FETCHED_AT] 2026-05-07T23:09:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/contact.md
+[LINE_RANGE] 46-46
+[QUOTE]
+"No.78 Shengli Street, Yiwu County, Jinhua,Zhejiang"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+Homepage shows product vials listed by dose (5mg through 60mg) under "EXPLORE OUR PRODUCTS" with no lifestyle imagery visible in rendered text. Company page describes "biochemists and dermatologists" and "rigorously tested for safety and efficacy." No meme-coded or anonymous imagery elements are present in the rendered content.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.hongzipeptide.com/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/homepage.md
+[LINE_RANGE] 37-48
+"**EXPLORE OUR PRODUCTS**
+
+[Read More](/PRODUCTS.html "PRODUCTS")
+
+  * [Tirz Peptide 60mg](/products/Tirz-Peptide/Tirz-Peptide-60mg.html "Tirz Peptide 60mg")
+  * [Tirz Peptide 50mg](/products/Tirz-Peptide/Tirz-Peptide-50mg.html "Tirz Peptide 50mg")
+  * [Tirz Peptide 40mg](/products/Tirz-Peptide/Tirz-Peptide-40mg.html "Tirz Peptide 40mg")
+  * [Tirz Peptide 30mg](/products/Tirz-Peptide/Tirz-Peptide-30mg.html "Tirz Peptide 30mg")"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.hongzipeptide.com/COMPANY.html
+[FETCHED_AT] 2026-05-07T23:09:20Z
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/company.md
+[LINE_RANGE] 24-25
+"Founded to redefine skin care through science, we"
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://www.hongzipeptide.com/PRODUCTS.html
+[FETCHED_AT] 2026-05-07T23:08:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/catalog_1.md
+[LINE_RANGE] 29-47
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/hongzipeptide/catalog_1.md through catalog_5.md:
+34 SKUs enumerated across 5 catalog pages.
+[FILES]
+catalog_1.md: Tirz Peptide 60mg, 50mg, 40mg, 30mg, 20mg, 15mg, 10mg, 5mg (8 SKUs)
+catalog_2.md: Semaglu 30mg, 20mg, 15mg, 10mg, 5mg; TSM 10mg; Kiss 10mg, 5mg (8 SKUs)
+catalog_3.md: Gluta 1500mg; GHK-CU 50mg, 100mg; BPC157 10mg, 5mg; TB500 10mg, 5mg; Reta 60mg (8 SKUs)
+catalog_4.md: Reta 50mg, 40mg, 36mg, 30mg, 24mg, 20mg, 15mg, 10mg (8 SKUs)
+catalog_5.md: Reta 5mg (1 SKU)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://www.hongzipeptide.com/PRODUCTS.html
+[FETCHED_AT] 2026-05-07T23:08:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/catalog_1.md
+[LINE_RANGE] 22-25
+[QUOTE]
+"  * [Tirz Peptide](/products/Tirz-Peptide/)
+  * [RT Peptide](/products/Reta/)
+  * [Semaglu](/products/Semaglu/)
+  * [Peptide](/products/Peptide/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url / sample_product_name
+[URL] https://www.hongzipeptide.com/products/Tirz-Peptide/Tirz-Peptide-60mg.html
+[FETCHED_AT] 2026-05-07T23:09:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/product_1__tirz-peptide-60mg.md
+[LINE_RANGE] 16-18
+[QUOTE]
+"Location: [HOME](/) > [Tirz Peptide](/products/Tirz-Peptide/) > [Tirz Peptide 60mg](/products/Tirz-Peptide/Tirz-Peptide-60mg.html)
+
+Tirz Peptide 60mg"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count (Semaglu SKUs additional evidence)
+[URL] https://www.hongzipeptide.com/PRODUCTS/list-2.html
+[FETCHED_AT] 2026-05-07T23:08:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/catalog_2.md
+[LINE_RANGE] 28-35
+[QUOTE]
+"  * [Semaglu 30mg](/products/Semaglu/Semaglu-30mg.html "Semaglu 30mg")
+  * [Semaglu 20mg](/products/Semaglu/Semaglu-20mg.html "Semaglu 20mg")
+  * [Semaglu 15mg](/products/Semaglu/Semaglu-15mg.html "Semaglu 15mg")
+  * [Semaglu 10mg](/products/Semaglu/Semaglu-10mg.html "Semaglu 10mg")
+  * [Semaglu 5mg](/products/Semaglu/Semaglu-5mg.html "Semaglu 5mg")
+  * [TSM 10mg](/products/Peptide/TSM-10mg.html "TSM 10mg")
+  * [Kiss 10mg](/products/Peptide/Kiss-10mg.html "Kiss 10mg")
+  * [Kiss 5mg](/products/Peptide/Kiss-5mg.html "Kiss 5mg")"
+[/QUOTE]
+
+[CLAIM] skus (BPC-157, TB-500, GHK-CU, Retatrutide presence)
+[URL] https://www.hongzipeptide.com/PRODUCTS/list-3.html
+[FETCHED_AT] 2026-05-07T23:08:53Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/catalog_3.md
+[LINE_RANGE] 28-35
+[QUOTE]
+"  * [GHK-CU 50mg](/products/Peptide/GHK-CU-50mg.html "GHK-CU 50mg")
+  * [GHK-CU 100mg](/products/Peptide/GHK-CU-100mg.html "GHK-CU 100mg")
+  * [BPC157 10mg](/products/BPC157/BPC157-10mg.html "BPC157 10mg")
+  * [BPC157 5mg](/products/BPC157/BPC157-5mg.html "BPC157 5mg")
+  * [TB500 10mg](/products/TB500/TB500-10mg.html "TB500 10mg")
+  * [TB500 5mg](/products/TB500/TB500-5mg.html "TB500 5mg")
+  * [Reta 60mg](/products/Reta/Reta-60mg.html "Reta 60mg")"
+[/QUOTE]
+
+[CLAIM] skus (Reta/Retatrutide full dose range)
+[URL] https://www.hongzipeptide.com/PRODUCTS/list-4.html
+[FETCHED_AT] 2026-05-07T23:08:58Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/catalog_4.md
+[LINE_RANGE] 28-35
+[QUOTE]
+"  * [Reta 50mg](/products/Reta/Reta-50mg.html "Reta 50mg")
+  * [Reta 40mg](/products/Reta/Reta-40mg.html "Reta 40mg")
+  * [Reta 36mg](/products/Reta/Reta-36mg.html "Reta 36mg")
+  * [Reta 30mg](/products/Reta/Reta-30mg.html "Reta 30mg")
+  * [Reta 24mg](/products/Reta/Reta-24mg.html "Reta 24mg")
+  * [Reta 20mg](/products/Reta/Reta-20mg.html "Reta 20mg")
+  * [Reta 15mg](/products/Reta/Reta-15mg.html "Reta 15mg")
+  * [Reta 10mg](/products/Reta/Reta-10mg.html "Reta 10mg")"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://www.hongzipeptide.com/products/Tirz-Peptide/Tirz-Peptide-60mg.html
+[FETCHED_AT] 2026-05-07T23:09:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/product_1__tirz-peptide-60mg.md
+[LINE_RANGE] 25-31
+[QUOTE]
+"SIMILAR RECOMMENDED
+
+  * [Tirz Peptide 60mg](/products/Tirz-Peptide/Tirz-Peptide-60mg.html "Tirz Peptide 60mg")
+  * [Tirz Peptide 50mg](/products/Tirz-Peptide/Tirz-Peptide-50mg.html "Tirz Peptide 50mg")
+  * [Tirz Peptide 40mg](/products/Tirz-Peptide/Tirz-Peptide-40mg.html "Tirz Peptide 40mg")
+  * [Tirz Peptide 30mg](/products/Tirz-Peptide/Tirz-Peptide-30mg.html "Tirz Peptide 30mg")"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / coa_hosting
+[URL] https://www.hongzipeptide.com/products/Tirz-Peptide/Tirz-Peptide-60mg.html
+[FETCHED_AT] 2026-05-07T23:09:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/product_1__tirz-peptide-60mg.md
+[LINE_RANGE] 22-40
+[QUOTE]
+"PRODUCT DESCRIPTION
+
+SIMILAR RECOMMENDED
+
+  * [Tirz Peptide 60mg](/products/Tirz-Peptide/Tirz-Peptide-60mg.html "Tirz Peptide 60mg")
+
+MESSAGE
+
+Contact us ！
+
+NameTelEmailMessage
+
+Submit"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal / cdn / analytics_tools_loaded / marketing_pixels_present
+[URL] https://w3techs.com/sites/info/hongzipeptide.com
+[FETCHED_AT] 2026-05-07T23:10:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/w3techs.md
+[LINE_RANGE] 33-45
+[QUOTE]
+"PHP is a scripting language for creating websites."
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present / blog_url
+[URL] https://www.hongzipeptide.com/NEWS.html
+[FETCHED_AT] 2026-05-07T23:09:25Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/blog_1.md
+[LINE_RANGE] 20-28
+[QUOTE]
+"  * [Peptide factory: unlocking new possibilities for life and health"
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy / author_bylines_present
+[URL] https://www.hongzipeptide.com/news/News/Peptide-factory--unlocking-new-possibilities-for-life-and-health-with-the-power-of-technology.html
+[FETCHED_AT] 2026-05-07T23:09:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/blog_2.md
+[LINE_RANGE] 22-28
+[QUOTE]
+"Peptide factory: unlocking new possibilities for life and health with the power of technology
+
+Update:Feb 08 2026
+
+
+
+
+Peptide factory: unlocking new possibilities for life and health with the power of technology
+
+In the field of modern biotechnology, peptides, as "life active molecules" that connect amino acids and proteins, are penetrating multiple fields such as medicine, beauty, nutrition and health care with their core advantages of high activity and easy absorption."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE] false
+[REASONING]
+Homepage was fully accessible at https://www.hongzipeptide.com/ without any age-gate interstitial. No age-verification page or prompt was encountered during any of the fetches across homepage, catalog, product, contact, company, and news pages.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.hongzipeptide.com/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/homepage.md
+[LINE_RANGE] 7-12
+"  * [HOME](/)
+  * [COMPANY](/COMPANY.html)
+  * [PRODUCTS](/PRODUCTS.html)
+  * [NEWS](/NEWS.html)
+  * [ CONTACT US](/CONTACT--US.html)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.hongzipeptide.com/products/Tirz-Peptide/Tirz-Peptide-60mg.html
+[FETCHED_AT] 2026-05-07T23:09:01Z
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/product_1__tirz-peptide-60mg.md
+[LINE_RANGE] 7-12
+"  * [HOME](/)
+  * [COMPANY](/COMPANY.html)
+  * [PRODUCTS](/PRODUCTS.html)
+  * [NEWS](/NEWS.html)
+  * [ CONTACT US](/CONTACT--US.html)"
+[/SUPPORT_QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[INFERENCE] none
+[REASONING]
+No restriction notice was observed on the homepage, product pages, or any navigation element across all fetched pages. Site does not display any country-specific restriction language.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://www.hongzipeptide.com/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/homepage.md
+[LINE_RANGE] 93-98
+"+852 9575 8489](tel:+852 9575 8489)"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://www.hongzipeptide.com/COMPANY.html
+[FETCHED_AT] 2026-05-07T23:09:20Z
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/company.md
+[LINE_RANGE] 24-25
+"Founded to redefine skin care through science, we"
+[/SUPPORT_QUOTE]
+
+[CLAIM] social_proof.on_site_reviews / testimonial_usage / visible_influencer_endorsements
+[URL] https://www.hongzipeptide.com/
+[FETCHED_AT] 2026-05-07T23:08:00Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/homepage.md
+[LINE_RANGE] 52-70
+[QUOTE]
+"Why choose us？
+
+The company specializes in the research and development, production and sales of fine chemical intermediates, and is the leading enterprise in the Peptide industry .
+
+WITH A HIGH STARTING POINT, HIGH REQUIREMENTS,
+
+HIGH STANDARDS TO IMPIEMENT,
+
+The company always adhere to the "scientific and technological innovation" development policy, product technology and production process, product quality are in the domestic leading level, some products in the international advanced level"
+[/QUOTE]
+
+[CLAIM] content_footprint.internal_linking_to_products
+[URL] https://www.hongzipeptide.com/news/News/Peptide-factory--unlocking-new-possibilities-for-life-and-health-with-the-power-of-technology.html
+[FETCHED_AT] 2026-05-07T23:09:35Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/hongzipeptide/blog_2.md
+[LINE_RANGE] 22-75
+[QUOTE]
+"Peptide factory: unlocking new possibilities for life and health with the power of technology
+
+Update:Feb 08 2026
+
+In the field of modern biotechnology, peptides, as "life active molecules" that connect amino acids and proteins, are penetrating multiple fields such as medicine, beauty, nutrition and health care with their core advantages of high activity and easy absorption. And the peptide factory is the core battlefield of this health revolution, using refined production and innovative technology to transform the magical effects of peptides into high-quality products that are within reach."
+[/QUOTE]

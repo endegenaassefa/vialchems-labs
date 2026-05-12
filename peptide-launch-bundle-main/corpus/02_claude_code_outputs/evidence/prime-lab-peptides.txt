@@ -1,0 +1,609 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://primelabpeptides.com/
+[FETCHED_AT] 2026-05-07T18:30:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/homepage.md
+[LINE_RANGE] 456-462
+[QUOTE]
+## HIGHEST QUALITY
+
+#  Premium-Grade Peptides for Sale
+
+At **Prime Lab Peptides** , we're committed to providing researchers with the highest quality peptides and peptide blends in the industry. **All products on this website are intended for research and development purposes only and are not for human consumption.**
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://primelabpeptides.com/
+[FETCHED_AT] 2026-05-07T18:30:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/homepage.md
+[LINE_RANGE] 463
+[QUOTE]
+[ View Catalog ](/collections/ready-to-ship)
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://primelabpeptides.com/
+[FETCHED_AT] 2026-05-07T18:30:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/homepage.md
+[LINE_RANGE] 423-430
+[QUOTE]
+  * [ Peptides ](/collections/ready-to-ship)
+  * [ Bulk Offers ](/collections/bulk-offers)
+  * [ Oral GLP-1 ](/collections/oral-glp-1-agonists)
+  * [ Liquid Solutions ](/collections/liquid-solutions)
+  * [ About Us ](/pages/about-us-and-our-research)
+  * [ Contact ](/pages/contact)
+  * [ FAQ ](/pages/faq)
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://primelabpeptides.com/
+[FETCHED_AT] 2026-05-07T18:30:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/homepage.md
+[LINE_RANGE] 1003
+[QUOTE]
+All products on this website are intended for research and development purposes only and are not for human consumption. The statements made on this site have not been evaluated by the U.S. Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease. All peptides are sold strictly for laboratory research and in-vitro experimental use only.
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://primelabpeptides.com/
+[FETCHED_AT] 2026-05-07T18:30:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/homepage.md
+[LINE_RANGE] 957-968
+[QUOTE]
+PrimePeptide Laboratories Inc.
+
+1150 NW 72nd Ave, Suite 455
+Miami, FL 33126
+
+[ support@primelabpeptides.com ](mailto:support@primelabpeptides.com)
+
+PrimePeptide Laboratories LLC
+
+Shams Business Center
+Sharjah Media City Free Zone
+Al Messaned, Sharjah, UAE
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://primelabpeptides.com/
+[FETCHED_AT] 2026-05-07T18:30:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/homepage.md
+[LINE_RANGE] 495-499
+[QUOTE]
+Thousands of satisfied researchers
+
+50+States In Service
+
+99%Pure Peptides
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://primelabpeptides.com/products/bpc-157-10mg
+[FETCHED_AT] 2026-05-07T18:34:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/product_11__bpc-157-10mg.md
+[LINE_RANGE] 467-476
+[QUOTE]
+# BPC-157 – 10mg
+
+## [ BPC-157 – 10mg  ](/products/bpc-157-10mg)
+
+$65.00 USD ~~$75.00 USD~~ -13%
+
+**BPC-157** is a synthetic pentadecapeptide derived from a gastric protein, widely studied for its role in _tissue repair_ , _angiogenesis_ , and _inflammation modulation_.
+
+Research suggests its ability to support **fibroblast migration** , **endothelial regeneration** , and **nitric oxide signaling** , making it a candidate of interest in _muscle, tendon, and gastrointestinal repair models_.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://primelabpeptides.com/products/bpc-157-10mg
+[FETCHED_AT] 2026-05-07T18:34:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/product_11__bpc-157-10mg.md
+[LINE_RANGE] 507
+[QUOTE]
+_For laboratory research use only. Not for human consumption._
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://primelabpeptides.com/products/bpc-157-10mg
+[FETCHED_AT] 2026-05-07T18:34:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/product_11__bpc-157-10mg.md
+[LINE_RANGE] 473-476
+[QUOTE]
+**BPC-157** is a synthetic pentadecapeptide derived from a gastric protein, widely studied for its role in _tissue repair_ , _angiogenesis_ , and _inflammation modulation_.
+
+Research suggests its ability to support **fibroblast migration** , **endothelial regeneration** , and **nitric oxide signaling** , making it a candidate of interest in _muscle, tendon, and gastrointestinal repair models_.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://primelabpeptides.com/pages/faq
+[FETCHED_AT] 2026-05-07T18:34:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/faq.md
+[LINE_RANGE] 546-566
+[QUOTE]
+10 Is There a Certificate of Analysis (COA) for My Peptide?  +
+
+Yes. Each peptide includes a **Certificate of Analysis (COA)** , accessible from the product page on our website.
+
+You can **match the batch number printed on your vial** with the COA to view product-specific quality data.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://primelabpeptides.com/pages/faq
+[FETCHED_AT] 2026-05-07T18:34:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/faq.md
+[LINE_RANGE] 559-561
+[QUOTE]
+Yes. **Each peptide vial includes a batch number printed on the label** , which directly corresponds to the **COA available on the product page**.
+
+This allows you to verify the specific analysis and purity data for your product.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[URL] https://primelabpeptides.com/pages/about-us-and-our-research
+[FETCHED_AT] 2026-05-07T18:34:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/about.md
+[LINE_RANGE] 480-487
+[QUOTE]
+Purity First
+
+Every batch undergoes HPLC analysis and mass spectrometry verification. No exceptions.
+
+Full Transparency
+
+Complete COA and SDS documentation for every product. If we can't prove it, we don't sell it.
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://primelabpeptides.com/
+[FETCHED_AT] 2026-05-07T18:30:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/homepage.md
+[LINE_RANGE] 930-944
+[QUOTE]
+###  Notice
+
+**All products offered by Prime Lab Peptides are intended strictly for laboratory research and development purposes. These materials are not designed or approved for human or animal use, and must not be utilized for any diagnostic, therapeutic, or medical application.**
+
+
+Prime Lab Peptides **does not provide** instructions related to preparation, reconstitution, administration, injection, dosage, or any form of usage.
+
+No product sold on this website is classified as a drug, dietary supplement, or medical device under federal law.
+
+
+All items are labeled **"For Research Use Only – Not for Human or Animal Use,"** in accordance with **21 CFR 809.10(c)** and other applicable regulations.
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://primelabpeptides.com/pages/terms-of-service
+[FETCHED_AT] 2026-05-07T18:34:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/tos.md
+[LINE_RANGE] 450-452
+[QUOTE]
+#  Terms of Service
+
+Last Updated: December 2025
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://primelabpeptides.com/pages/terms-of-service
+[FETCHED_AT] 2026-05-07T18:34:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/tos.md
+[LINE_RANGE] 466-470
+[QUOTE]
+## 2\. Age Requirement
+
+You must be at least **21 years of age** to use our Services and purchase products from our Website. By using our Services, you represent and warrant that you meet this age requirement.
+
+**⚠️ Notice:** Orders from individuals under 21 years of age will be denied and cancelled.
+[/QUOTE]
+
+[URL] https://primelabpeptides.com/pages/terms-of-service
+[FETCHED_AT] 2026-05-07T18:34:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/tos.md
+[LINE_RANGE] 594-598
+[QUOTE]
+## 14\. Governing Law & Disputes
+
+These Terms shall be governed by and interpreted in accordance with the laws of the **State of Florida, USA** , without regard to conflict of law principles.
+
+Any legal disputes arising under these Terms will be resolved exclusively in the state or federal courts located in **Miami-Dade County, Florida**. You consent to the personal jurisdiction of such courts.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://primelabpeptides.com/pages/refund-and-returns
+[FETCHED_AT] 2026-05-07T18:34:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/refund.md
+[LINE_RANGE] 496-507
+[QUOTE]
+## 5\. Refund Policy
+
+Due to the nature of our products (research-grade materials), we have a strict refund policy:
+
+  * **Orders not yet shipped:** Full refund available upon request
+  * **Orders already shipped or delivered:** No refunds available
+
+
+
+**⚠️ Important:** Once an order has been shipped, we are unable to process refunds. This policy exists due to the sensitive nature of research materials, which cannot be restocked or resold once they leave our facility.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://primelabpeptides.com/pages/refund-and-returns
+[FETCHED_AT] 2026-05-07T18:34:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/refund.md
+[LINE_RANGE] 463-484
+[QUOTE]
+At **PrimePeptide Laboratories Inc.** , we offer **free shipping** on all orders within the United States.
+
+Destination | Standard Method | Possible Upgrade
+---|---|---
+Continental U.S. (excluding Florida) | FedEx 3-Day | FedEx 2-Day Air
+Florida | UPS Ground | UPS Next Business Day
+
+**Free Upgrades:** Each day, we randomly select a number of customers to receive a complimentary shipping upgrade at no additional cost.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://primelabpeptides.com/pages/faq
+[FETCHED_AT] 2026-05-07T18:34:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/faq.md
+[LINE_RANGE] 576-583
+[QUOTE]
+Prime Lab Peptides ships with **FedEx** for most U.S. orders and **UPS** for Florida deliveries.
+
+14 What Are Your Shipping Options and Timeframes?  +
+
+We offer **free shipping** on all U.S. orders:
+
+  * **Continental U.S. (excluding Florida):** FedEx 3-Day Air (free)
+  * **Florida:** UPS Ground (free)
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://primelabpeptides.com/
+[FETCHED_AT] 2026-05-07T18:30:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/homepage.md
+[LINE_RANGE] 479-481
+[QUOTE]
+  * ### Credit Cards Accepted
+
+All transactions are encrypted and processed with top-tier security protocols.
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://primelabpeptides.com/
+[FETCHED_AT] 2026-05-07T18:30:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/source_homepage.md
+[LINE_RANGE] 6-8
+[QUOTE]
+Platform: Shopify (confirmed by response header "powered-by: Shopify" and shopify cookie names)
+CDN: Cloudflare (cf-ray header present, server-timing country desc)
+Analytics:
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://primelabpeptides.com/
+[FETCHED_AT] 2026-05-07T18:30:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/source_homepage.md
+[LINE_RANGE] 9-12
+[QUOTE]
+  - Google Tag Manager: GTM-W46L7JHX
+Marketing Pixels:
+  - Facebook Pixel (fbq function detected in source)
+  - Klaviyo (klaviyo.js app block, company_id=QSQnBG)
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_url
+[URL] https://primelabpeptides.com/blogs/news
+[FETCHED_AT] 2026-05-07T18:34:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/blog_1.md
+[LINE_RANGE] 486-504
+[QUOTE]
+###  [ What Role Does Melanotan II Play in Studying Appetite Pathways? ](/blogs/news/what-role-does-melanotan-ii-play-in-studying-appetite-pathways)
+
+May 6, 2026 Dr. Madison Blake
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://primelabpeptides.com/blogs/news
+[FETCHED_AT] 2026-05-07T18:34:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/blog_1.md
+[LINE_RANGE] 488
+[QUOTE]
+May 6, 2026 Dr. Madison Blake
+[/QUOTE]
+
+[CLAIM] content_footprint.topic_taxonomy
+[URL] https://primelabpeptides.com/blogs/news
+[FETCHED_AT] 2026-05-07T18:34:20Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/blog_1.md
+[LINE_RANGE] 458-464
+[QUOTE]
+  * [Fat Loss](https://primelabpeptides.com/blogs/news/tagged/fat-loss)
+  * [Anti-aging](https://primelabpeptides.com/blogs/news/tagged/anti-aging)
+  * [Muscle Growth](https://primelabpeptides.com/blogs/news/tagged/muscle-growth)
+  * [Sexual Health](https://primelabpeptides.com/blogs/news/tagged/sexual-health)
+  * [Skin Support](https://primelabpeptides.com/blogs/news/tagged/skin-support)
+  * [Cognitive Support](https://primelabpeptides.com/blogs/news/tagged/cognitive-support)
+[/QUOTE]
+
+[CLAIM] social_proof.off_site_aggregators
+[URL] https://primelabpeptides.com/
+[FETCHED_AT] 2026-05-07T18:30:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/homepage.md
+[LINE_RANGE] 972-974
+[QUOTE]
+[ Google Rating: ★★★★★ 4.9  Based on verified reviews ](https://www.google.com/maps/place/Prime+Lab+Peptides/@25.797995,-80.1908542,17z/data=!4m8!3m7!1s0x88d9b70037047e5d:0x4caf49fc130135ff!8m2!3d25.797995!4d-80.1908542!9m1!1b1!16s%2Fg%2F11y2xhykjw?entry=ttu)
+
+[Trustpilot](https://www.trustpilot.com/review/primelab-peptides.com)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://primelabpeptides.com/
+[FETCHED_AT] 2026-05-07T18:30:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/homepage.md
+[LINE_RANGE] 423-427
+[QUOTE]
+  * [ Peptides ](/collections/ready-to-ship)
+  * [ Bulk Offers ](/collections/bulk-offers)
+  * [ Oral GLP-1 ](/collections/oral-glp-1-agonists)
+  * [ Liquid Solutions ](/collections/liquid-solutions)
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://primelabpeptides.com/products/glow-blend
+[FETCHED_AT] 2026-05-07T18:34:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/product_13__glow-blend.md
+[LINE_RANGE] 471-479
+[QUOTE]
+# Glow – 70mg
+
+## [ Glow – 70mg  ](/products/glow-blend)
+
+$150.00 USD ~~$160.00 USD~~ -6%
+
+**GHK-Cu 50mg, TB-500 10mg, BPC-157 10mg**
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://primelabpeptides.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:30:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/catalog_1.md
+[LINE_RANGE] 531-941
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/prime-lab-peptides/product_*.md:
+36 saved product artifacts (30 single-vial SKUs + 4 bulk 10-vial SKUs + 1 bac water + 1 additional bulk).
+[FILES]
+product_01__melanotan-ii-10mg.md
+product_02__aod-9604-5-mg.md
+product_03__retatrutide-24mg.md
+product_04__sg-5mg.md
+product_05__cagrilintide-10mg.md
+product_06__grow-h-10mg-cjc-1295-no-dac-ipamorelin.md
+product_07__bpc-157-tb-500-5-mg-5-mg.md
+product_08__ipamorelin-10-mg.md
+product_09__ghk-cu-100-mg.md
+product_10__sermorelin-10mg.md
+product_11__bpc-157-10mg.md
+product_12__ghk-cu-50mg.md
+product_13__glow-blend.md
+product_14__b12-10-mg.md
+product_15__retatrutide-6mg.md
+product_16__nad-500mg.md
+product_17__tesamorelin-10-mg.md
+product_18__orforglipron-6-mg.md
+product_19__sermorelin-5mg.md
+product_20__mots-c-10-mg.md
+product_21__tirzepatide-10mg.md
+product_22__klow-70mg.md
+product_23__selank-5-mg.md
+product_24__semax-5-mg.md
+product_25__pt-141-10-mg.md
+product_26__tb-500-thymosin-beta-4-43-aa-5mg.md
+product_27__tirzepatide-30mg.md
+product_28__tirzepatide-5mg.md
+product_29__sg-10mg.md
+product_30__retatrutide-12mg.md
+product_31__tirzepatide-30mg-10-vials.md
+product_32__tirzepatide-10mg-10-vials.md
+product_33__retatrutide-24mg-10-vials.md
+product_34__retatrutide-12mg-10x-vials.md
+product_35__bac-water-10ml.md
+product_36__semaglutide-10mg-10-vials.md
+product_37__bpc-157-tb-500-5mg-5mg-10-vials.md
+product_38__glow-70mg-10-vials.md
+[/QUOTE]
+
+[CLAIM] skus (claim-sku-01 through claim-sku-37)
+[URL] https://primelabpeptides.com/collections/ready-to-ship
+[FETCHED_AT] 2026-05-07T18:30:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/catalog_1.md
+[LINE_RANGE] 531-545
+[QUOTE]
+  * ###  [ Tirzepatide – 30mg ](/products/tirzepatide-30mg)
+[/QUOTE]
+
+[URL] https://primelabpeptides.com/products/tirzepatide-30mg
+[FETCHED_AT] 2026-05-07T18:34:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/product_27__tirzepatide-30mg.md
+[LINE_RANGE] 472-476
+[QUOTE]
+$170.00 USD ~~$280.00 USD~~ -39%
+[/QUOTE]
+
+[URL] https://primelabpeptides.com/products/bpc-157-10mg
+[FETCHED_AT] 2026-05-07T18:34:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/product_11__bpc-157-10mg.md
+[LINE_RANGE] 467-471
+[QUOTE]
+# BPC-157 – 10mg
+
+## [ BPC-157 – 10mg  ](/products/bpc-157-10mg)
+
+$65.00 USD ~~$75.00 USD~~ -13%
+[/QUOTE]
+
+[URL] https://primelabpeptides.com/products/tb-500-thymosin-beta-4-43-aa-5mg
+[FETCHED_AT] 2026-05-07T18:34:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/product_26__tb-500-thymosin-beta-4-43-aa-5mg.md
+[LINE_RANGE] 460-464
+[QUOTE]
+# TB-500 – 5mg
+
+## [ TB-500 – 5mg  ](/products/tb-500-thymosin-beta-4-43-aa-5mg)
+
+$60.00 USD ~~$80.00 USD~~ -25%
+[/QUOTE]
+
+[URL] https://primelabpeptides.com/products/ghk-cu-50mg
+[FETCHED_AT] 2026-05-07T18:34:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/product_12__ghk-cu-50mg.md
+[LINE_RANGE] 460-464
+[QUOTE]
+# GHK-Cu – 50mg
+
+## [ GHK-Cu – 50mg  ](/products/ghk-cu-50mg)
+
+$55.00 USD ~~$75.00 USD~~ -26%
+[/QUOTE]
+
+[URL] https://primelabpeptides.com/products/sg-10mg
+[FETCHED_AT] 2026-05-07T18:34:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/product_29__sg-10mg.md
+[LINE_RANGE] 467-484
+[QUOTE]
+# GLP-1SG – 10mg
+
+## [ GLP-1SG – 10mg  ](/products/sg-10mg)
+
+$90.00 USD ~~$130.00 USD~~ -30%
+
+**GLP-1SG** is a **synthetic peptide** designed to activate **GLP-1 receptors** , commonly used in _metabolic pathway and endocrine system research_.
+
+Quantity
+
+(0 in cart)
+
+Decrease quantity for GLP-1SG – 10mg Increase quantity for GLP-1SG – 10mg
+
+Add to cart
+
+Couldn't load pickup availability
+
+Refresh
+
+[ View full details  ](/products/sg-10mg)
+
+Alias / Product Clarification
+
+**GLP-1SG – 10mg** = _Semaglutide 10mg_
+[/QUOTE]
+
+[URL] https://primelabpeptides.com/products/retatrutide-12mg
+[FETCHED_AT] 2026-05-07T18:34:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/product_30__retatrutide-12mg.md
+[LINE_RANGE] 456-466
+[QUOTE]
+Out stock
+
+# Retatrutide – 12mg
+
+## [ Retatrutide – 12mg  ](/products/retatrutide-12mg)
+
+$150.00 USD ~~$180.00 USD~~ -16%
+[/QUOTE]
+
+[URL] https://primelabpeptides.com/products/tirzepatide-30mg-10-vials
+[FETCHED_AT] 2026-05-07T18:34:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/product_31__tirzepatide-30mg-10-vials.md
+[LINE_RANGE] 470-476
+[QUOTE]
+In stock
+
+# Tirzepatide – 30mg (10 Vials)
+
+## [ Tirzepatide – 30mg (10 Vials)  ](/products/tirzepatide-30mg-10-vials)
+
+$980.00 USD ~~$2,300.00 USD~~ -57%
+[/QUOTE]
+
+[URL] https://primelabpeptides.com/products/glow-blend
+[FETCHED_AT] 2026-05-07T18:34:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/product_13__glow-blend.md
+[LINE_RANGE] 471-479
+[QUOTE]
+# Glow – 70mg
+
+## [ Glow – 70mg  ](/products/glow-blend)
+
+$150.00 USD ~~$160.00 USD~~ -6%
+
+**GHK-Cu 50mg, TB-500 10mg, BPC-157 10mg**
+[/QUOTE]
+
+[URL] https://primelabpeptides.com/products/klow-70mg
+[FETCHED_AT] 2026-05-07T18:34:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/product_22__klow-70mg.md
+[LINE_RANGE] 465-479
+[QUOTE]
+# Klow – 80mg
+
+## [ Klow – 80mg  ](/products/klow-70mg)
+
+$170.00 USD ~~$240.00 USD~~ -29%
+
+**GHK-Cu 50mg, KPV 10mg, TB-500 10mg, BPC-157 10mg**
+[/QUOTE]
+
+[URL] https://primelabpeptides.com/products/grow-h-10mg-cjc-1295-no-dac-ipamorelin
+[FETCHED_AT] 2026-05-07T18:34:33Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/prime-lab-peptides/product_06__grow-h-10mg-cjc-1295-no-dac-ipamorelin.md
+[LINE_RANGE] 460-470
+[QUOTE]
+# Grow-H – 10mg (CJC-1295 no DAC & Ipamorelin)
+
+## [ Grow-H – 10mg (CJC-1295 no DAC & Ipamorelin)  ](/products/grow-h-10mg-cjc-1295-no-dac-ipamorelin)
+
+$85.00 USD ~~$110.00 USD~~ -22%
+
+**CJC-1295 (no DAC) 5mg, Ipamorelin 5mg**
+[/QUOTE]

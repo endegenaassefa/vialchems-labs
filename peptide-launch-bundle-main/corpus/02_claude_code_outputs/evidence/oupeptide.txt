@@ -1,0 +1,784 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/homepage.md
+[LINE_RANGE] 70-71
+[QUOTE]
+OU-PEPTIDE is a manufacturer of peptides, have our own research lab, and production line.
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/homepage.md
+[LINE_RANGE] 83-85
+[QUOTE]
+## The best sales
+
+View All
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/homepage.md
+[LINE_RANGE] 16-23
+[QUOTE]
+  * [HOME](https://oupeptide.com/)
+  * [CATALOG](https://oupeptide.com/products/)
+    * [Peptide](https://oupeptide.com/product-category/peptide/)
+    * [Oil](https://oupeptide.com/product-category/oil/)
+    * [Tablets](https://oupeptide.com/product-category/tablets/)
+    * [Raw powder](https://oupeptide.com/product-category/raw-powder/)
+  * [COAS](https://oupeptide.com/coas/)
+  * [CONTACT US](https://oupeptide.com/contact-2/)
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The homepage describes a peptide manufacturer with a "research lab and production line," references freeze-drying equipment, and uses clinical/scientific language throughout. No consumer lifestyle imagery language appears in the text render; the site presents itself as a pharmaceutical manufacturer rather than a consumer brand.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/homepage.md
+[LINE_RANGE] 70-81
+OU-PEPTIDE is a manufacturer of peptides, have our own research lab, and production line.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://oupeptide.com/about-us/
+[FETCHED_AT] 2026-05-08T02:15:38Z
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/about.md
+[LINE_RANGE] 56-58
+**Oupeptide Pharmaceutical** is a high-tech enterprise specializing in the research, development, and production of **peptides, proteins, and small-molecule active substances**.
+[/SUPPORT_QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://oupeptide.com/products/
+[FETCHED_AT] 2026-05-08T02:15:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/catalog_1.md
+[LINE_RANGE] 56-56
+[QUOTE]
+Showing all 8 results
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://oupeptide.com/products/
+[FETCHED_AT] 2026-05-08T02:15:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/catalog_1.md
+[LINE_RANGE] 17-21
+[QUOTE]
+    * [Peptide](https://oupeptide.com/product-category/peptide/)
+    * [Oil](https://oupeptide.com/product-category/oil/)
+    * [Tablets](https://oupeptide.com/product-category/tablets/)
+    * [Raw powder](https://oupeptide.com/product-category/raw-powder/)
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://oupeptide.com/products/
+[FETCHED_AT] 2026-05-08T02:15:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/catalog_1.md
+[LINE_RANGE] 58-58
+[QUOTE]
+Default sorting Sort by popularity Sort by average rating Sort by latest Sort by price: low to high Sort by price: high to low
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://oupeptide.com/products/
+[FETCHED_AT] 2026-05-08T02:15:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/catalog_1.md
+[LINE_RANGE] 56-157
+[QUOTE]
+Showing all 8 results
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://oupeptide.com/product/bc/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_1__bc.md
+[LINE_RANGE] 59-61
+[QUOTE]
+# BC
+
+$60.00 – $100.00Price range: $60.00 through $100.00
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://oupeptide.com/product/bc/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_1__bc.md
+[LINE_RANGE] 59-59
+[QUOTE]
+# BC
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.dose_options
+[URL] https://oupeptide.com/product/bc/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_1__bc.md
+[LINE_RANGE] 65-65
+[QUOTE]
+BPC |  Choose an option5mg*10vials10mg*10vialsClear
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.list_price
+[URL] https://oupeptide.com/product/bc/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_1__bc.md
+[LINE_RANGE] 61-61
+[QUOTE]
+$60.00 – $100.00Price range: $60.00 through $100.00
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://oupeptide.com/product/bc/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_1__bc.md
+[LINE_RANGE] 63-63
+[QUOTE]
+Common NameBPC 157Density1.4±0.1 g/cm3Boiling Point1802.9±65.0 °C at 760 mmHgMolecular FormulaC62H98N16O22Molecular Weight1419.536Flash Point1044.2±34.3 °CExact Mass1418.704102LogP-2.41Vapour Pressure0.0±0.6 mmHg at 25°CIndex of Refraction1.576
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[URL] https://oupeptide.com/coas/
+[FETCHED_AT] 2026-05-08T02:15:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/coa_1.md
+[LINE_RANGE] 54-56
+[QUOTE]
+## COAS
+
+Certificate of Analysis
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.lab_partner_named
+[URL] https://oupeptide.com/faqs-2/
+[FETCHED_AT] 2026-05-08T02:15:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/faq.md
+[LINE_RANGE] 74-74
+[QUOTE]
+Yes, we provide **COA (Certificate of Analysis), HPLC purity analysis, MS mass spectrometry data** , and other quality control reports for all products, ensuring traceability and reliability.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[URL] https://oupeptide.com/product/bc/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_1__bc.md
+[LINE_RANGE] 63-94
+[QUOTE]
+Common NameBPC 157Density1.4±0.1 g/cm3Boiling Point1802.9±65.0 °C at 760 mmHgMolecular FormulaC62H98N16O22Molecular Weight1419.536
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://oupeptide.com/product/bc/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_1__bc.md
+[LINE_RANGE] 97-99
+[QUOTE]
+##  Reviews
+
+There are no reviews yet.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://oupeptide.com/product/bc/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_1__bc.md
+[LINE_RANGE] 119-119
+[QUOTE]
+## Related products
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/homepage.md
+[LINE_RANGE] 8-190
+[QUOTE]
+Dear Customer: If you need to contact customer service, you can click on the "Contact Us" page, any customer service can Dismiss
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://oupeptide.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T02:15:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/tos.md
+[LINE_RANGE] 54-54
+[QUOTE]
+## Terms of service
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://oupeptide.com/terms-of-service/
+[FETCHED_AT] 2026-05-08T02:15:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/tos.md
+[LINE_RANGE] 56-61
+[QUOTE]
+  1. Stock Ready to ship after payment
+  2. Shipping by express door to door, including local custom clearance
+  3. 24 hour service on line
+  4. Proudct quality guarantee, COA and test report offer
+  5. Money return or reship for bad quality
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://oupeptide.com/refund-policy-2/
+[FETCHED_AT] 2026-05-08T02:15:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/refund.md
+[LINE_RANGE] 56-58
+[QUOTE]
+If your order status is marked delivered but you did not receive it – first, check with your immediate neighbors or mailroom. Check all entrances to your home. Carriers can drop packages off at the wrong address. Second call your local post office and provide your tracking number – In almost every situation the post office or UPS is able to locate the package when you follow the proper steps to notify them of an issue.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://oupeptide.com/shipping-delivery/
+[FETCHED_AT] 2026-05-08T02:15:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/shipping.md
+[LINE_RANGE] 56-56
+[QUOTE]
+we ship by special line,for common by USPS, DHL or Fedex, the shipping agent will help doing your local custom clearance, door to door shipping, and only when pass the customs, there will be out tracking information on internet, and it will be a little slower than common express, for common, 12-15 days arrive, sometimes may arrive fast about 7-9 days, depends on the airline; if you need fast shipping, we can try DHL, Fedex, but these express sometimes may need yourself help do custom clearance and pay tax.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/homepage.md
+[LINE_RANGE] 162-162
+[QUOTE]
+A: We can accept various payment methods, Western Union, T/T, BTC (Bitcoin),Paypal etc.
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_carriers
+[URL] https://oupeptide.com/shipping-delivery/
+[FETCHED_AT] 2026-05-08T02:15:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/shipping.md
+[LINE_RANGE] 56-56
+[QUOTE]
+we ship by special line,for common by USPS, DHL or Fedex, the shipping agent will help doing your local custom clearance, door to door shipping
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://oupeptide.com/faqs-2/
+[FETCHED_AT] 2026-05-08T02:15:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/faq.md
+[LINE_RANGE] 81-81
+[QUOTE]
+We use **cold-chain shipping** to maintain product integrity during transportation. We offer worldwide delivery and will select the best logistics solution based on your location.
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/homepage.md
+[LINE_RANGE] 140-155
+[QUOTE]
+1.How to proceed an order?
+
+Step 1: When you intended to buy something, pls send me an inquiry by email, or whatsapp.
+
+step2: I will reply you with a quotation as soon as I receive you inquiry.
+
+Step3: We will negotiate products, price, package, payment methods and so on.
+
+Step4: You arrange the payment.
+
+Step5: I will arrange the shipment after receiving you money.
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:16:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/source_homepage.md
+[LINE_RANGE] 43-43
+[QUOTE]
+<meta name="generator" content="WooCommerce 10.3.8" />
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:16:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/source_homepage.md
+[LINE_RANGE] 23-23
+[QUOTE]
+server: hcdn
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:16:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/source_homepage.md
+[LINE_RANGE] 28-29
+[QUOTE]
+<link rel='stylesheet' id='omnisend-woocommerce-checkout-block-checkout-newsletter-subscription-block-css' href='https://oupeptide.com/wp-content/plugins/omnisend-connect/includes/blocks/build/omnisend-checkout-block.css?ver=0.1.0' media='all' />
+<link rel='stylesheet' id='omnisend-woocommerce-checkout-block-blocks-integration-css' href='https://oupeptide.com/wp-content/plugins/omnisend-connect/includes/blocks/build/omnisend-checkout-block.css?ver=0.1.0' media='all' />
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:16:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/source_homepage.md
+[LINE_RANGE] 8-47
+[QUOTE]
+x-powered-by: PHP/8.3.30
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present
+[URL] https://oupeptide.com/products/
+[FETCHED_AT] 2026-05-08T02:15:31Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/catalog_1.md
+[LINE_RANGE] 138-156
+[QUOTE]
+### COMPANY INFORMATION
+
+  * [FAQS](https://oupeptide.com/faqs-2/)
+  * [COAS](https://oupeptide.com/coas/)
+  * [About Us](https://oupeptide.com/about-us/)
+  * [Contact](https://oupeptide.com/contact-2/)
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://oupeptide.com/product/bc/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_1__bc.md
+[LINE_RANGE] 97-99
+[QUOTE]
+##  Reviews
+
+There are no reviews yet.
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://oupeptide.com/product/bc/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_1__bc.md
+[LINE_RANGE] 97-101
+[QUOTE]
+##  Reviews
+
+There are no reviews yet.
+
+Be the first to review "BC"[Cancel Reply](/product/bc/#respond)
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://oupeptide.com/faqs-2/
+[FETCHED_AT] 2026-05-08T02:15:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/faq.md
+[LINE_RANGE] 81-81
+[QUOTE]
+We use **cold-chain shipping** to maintain product integrity during transportation. We offer worldwide delivery and will select the best logistics solution based on your location.
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[INFERENCE] China (not explicitly stated; inferred)
+[REASONING]
+The vendor uses SPPS/LPPS manufacturing, GMP/ISO standards, and an email/WhatsApp inquiry workflow consistent with Chinese B2B/B2C peptide suppliers. The shipping page references "special line" with customs clearance included, a common descriptor for China-to-US freight consolidation services. No explicit country is stated anywhere on the site.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://oupeptide.com/about-us/
+[FETCHED_AT] 2026-05-08T02:15:38Z
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/about.md
+[LINE_RANGE] 58-58
+With advanced technologies such as **Solid Phase Peptide Synthesis (SPPS), Liquid Phase Peptide Synthesis (LPPS), and High-Performance Liquid Chromatography (HPLC)** , we ensure that every product achieves a purity level of **99% or higher** , meeting international pharmaceutical standards.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://oupeptide.com/shipping-delivery/
+[FETCHED_AT] 2026-05-08T02:15:38Z
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/shipping.md
+[LINE_RANGE] 56-56
+we ship by special line,for common by USPS, DHL or Fedex, the shipping agent will help doing your local custom clearance, door to door shipping, and only when pass the customs, there will be out tracking information on internet, and it will be a little slower than common express, for common, 12-15 days arrive, sometimes may arrive fast about 7-9 days, depends on the airline; if you need fast shipping, we can try DHL, Fedex, but these express sometimes may need yourself help do custom clearance and pay tax.
+[/SUPPORT_QUOTE]
+
+[CLAIM] fulfillment_country
+[INFERENCE] China (not explicitly stated; inferred)
+[REASONING]
+The "special line" shipping description with customs clearance included, 12-15 day standard transit times, and the offer of DHL/FedEx with buyer-handled customs are characteristic of China-origin international shipments. No explicit country of origin is stated in any fetched page.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://oupeptide.com/shipping-delivery/
+[FETCHED_AT] 2026-05-08T02:15:38Z
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/shipping.md
+[LINE_RANGE] 56-56
+we ship by special line,for common by USPS, DHL or Fedex, the shipping agent will help doing your local custom clearance, door to door shipping, and only when pass the customs, there will be out tracking information on internet, and it will be a little slower than common express, for common, 12-15 days arrive, sometimes may arrive fast about 7-9 days, depends on the airline; if you need fast shipping, we can try DHL, Fedex, but these express sometimes may need yourself help do custom clearance and pay tax.
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/homepage.md
+[LINE_RANGE] 169-170
+A: The delivery time is about 7-15 days after confirming the payment. Delivery times vary from country to country,and the airline,we ship by express special line, door to door, including custom clearance.If parcel lost, we guarantee do reship.
+[/SUPPORT_QUOTE]
+
+[CLAIM] year_established
+[INFERENCE] 2022 (uncertain — copyright says 2025, WordPress metadata says 2022)
+[REASONING]
+The footer shows "© 2025 oupeptide" which could mean either the copyright year was last updated in 2025 or the site was founded in 2025. However, WordPress page metadata shows a datePublished of 2022-07-24, suggesting the site may have been active since 2022. Neither source definitively confirms a founding year.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/homepage.md
+[LINE_RANGE] 190-190
+© 2025 oupeptide
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://oupeptide.com/about-us/
+[FETCHED_AT] 2026-05-08T02:15:38Z
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/about.md
+[LINE_RANGE] 82-82
+© 2025 oupeptide
+[/SUPPORT_QUOTE]
+
+[CLAIM] skus[oupeptide:bc-5mg-10vials].list_price_usd
+[URL] https://oupeptide.com/product/bc/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_1__bc.md
+[LINE_RANGE] 61-61
+[QUOTE]
+$60.00 – $100.00Price range: $60.00 through $100.00
+[/QUOTE]
+
+[CLAIM] skus[oupeptide:bc-10mg-10vials].list_price_usd
+[URL] https://oupeptide.com/product/bc/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_1__bc.md
+[LINE_RANGE] 94-94
+[QUOTE]
+BPC | 5mg*10vials, 10mg*10vials
+[/QUOTE]
+
+[CLAIM] skus[oupeptide:cgl-5mg-10vials].list_price_usd
+[URL] https://oupeptide.com/product/cagrilintide/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_2__cagrilintide.md
+[LINE_RANGE] 61-61
+[QUOTE]
+$170.00 – $330.00Price range: $170.00 through $330.00
+[/QUOTE]
+
+[CLAIM] skus[oupeptide:cgl-10mg-10vials].list_price_usd
+[URL] https://oupeptide.com/product/cagrilintide/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_2__cagrilintide.md
+[LINE_RANGE] 63-63
+[QUOTE]
+CGL |  Choose an option5mg*10vials10mg*10vialsClear
+[/QUOTE]
+
+[CLAIM] skus[oupeptide:klow-80mg-10vials].list_price_usd
+[URL] https://oupeptide.com/product/klow/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_3__klow.md
+[LINE_RANGE] 61-61
+[QUOTE]
+$310.00
+[/QUOTE]
+
+[CLAIM] skus[oupeptide:reta-5mg-10vials].list_price_usd
+[URL] https://oupeptide.com/product/retarutide/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_4__retarutide.md
+[LINE_RANGE] 61-61
+[QUOTE]
+$85.00 – $350.00Price range: $85.00 through $350.00
+[/QUOTE]
+
+[CLAIM] skus[oupeptide:reta-30mg-10vials].dose_options
+[URL] https://oupeptide.com/product/retarutide/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_4__retarutide.md
+[LINE_RANGE] 63-63
+[QUOTE]
+Reta |  Choose an option5mg*10vials10mg*10vials15mg*10vials20mg *10vials30mg *10vialsClear
+[/QUOTE]
+
+[CLAIM] skus[oupeptide:sema-5mg-10vials].list_price_usd
+[URL] https://oupeptide.com/product/semaglutide/
+[FETCHED_AT] 2026-05-08T02:15:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_5__semaglutide.md
+[LINE_RANGE] 61-61
+[QUOTE]
+$50.00 – $160.00Price range: $50.00 through $160.00
+[/QUOTE]
+
+[CLAIM] skus[oupeptide:sema-30mg-10vials].dose_options
+[URL] https://oupeptide.com/product/semaglutide/
+[FETCHED_AT] 2026-05-08T02:15:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_5__semaglutide.md
+[LINE_RANGE] 63-63
+[QUOTE]
+Sema |  Choose an option5mg*10vials10mg*10vials15mg*10vials20mg *10vials30mg *10vialsClear
+[/QUOTE]
+
+[CLAIM] skus[oupeptide:tb-2mg-10vials].list_price_usd
+[URL] https://oupeptide.com/product/tb/
+[FETCHED_AT] 2026-05-08T02:15:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_6__tb.md
+[LINE_RANGE] 61-61
+[QUOTE]
+$60.00 – $225.00Price range: $60.00 through $225.00
+[/QUOTE]
+
+[CLAIM] skus[oupeptide:tb-10mg-10vials].dose_options
+[URL] https://oupeptide.com/product/tb/
+[FETCHED_AT] 2026-05-08T02:15:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_6__tb.md
+[LINE_RANGE] 71-71
+[QUOTE]
+TB |  Choose an option2mg*10vials5mg*10vials10mg*10vialsClear
+[/QUOTE]
+
+[CLAIM] skus[oupeptide:tirz-5mg-10vials].list_price_usd
+[URL] https://oupeptide.com/product/tirzepatide/
+[FETCHED_AT] 2026-05-08T02:15:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_7__tirzepatide.md
+[LINE_RANGE] 61-61
+[QUOTE]
+$65.00 – $310.00Price range: $65.00 through $310.00
+[/QUOTE]
+
+[CLAIM] skus[oupeptide:tirz-60mg-10vials].dose_options
+[URL] https://oupeptide.com/product/tirzepatide/
+[FETCHED_AT] 2026-05-08T02:15:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_7__tirzepatide.md
+[LINE_RANGE] 70-70
+[QUOTE]
+Tirz |  Choose an option5mg*10vials10mg*10vials15mg*10vials20mg *10vials30mg *10vials40mg *10vials60mg *10vialsClear
+[/QUOTE]
+
+[CLAIM] skus[oupeptide:tsm-2mg-10vials].list_price_usd
+[URL] https://oupeptide.com/product/tsm/
+[FETCHED_AT] 2026-05-08T02:15:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_8__tsm.md
+[LINE_RANGE] 61-61
+[QUOTE]
+$80.00 – $490.00Price range: $80.00 through $490.00
+[/QUOTE]
+
+[CLAIM] skus[oupeptide:tsm-20mg-10vials].dose_options
+[URL] https://oupeptide.com/product/tsm/
+[FETCHED_AT] 2026-05-08T02:15:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_8__tsm.md
+[LINE_RANGE] 65-65
+[QUOTE]
+TSM |  Choose an option2mg*10vials5mg*10vials10mg*10vials20mg*10vialsClear
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal (WooCommerce version confirm)
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:16:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/source_homepage.md
+[LINE_RANGE] 36-36
+[QUOTE]
+<script src="https://oupeptide.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=10.3.8" id="wc-add-to-cart-js" defer data-wp-strategy="defer"></script>
+[/QUOTE]
+
+[CLAIM] about_us.brand_description
+[URL] https://oupeptide.com/about-us/
+[FETCHED_AT] 2026-05-08T02:15:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/about.md
+[LINE_RANGE] 56-62
+[QUOTE]
+**Oupeptide Pharmaceutical** is a high-tech enterprise specializing in the research, development, and production of **peptides, proteins, and small-molecule active substances**. We are committed to providing high-purity, high-stability products for the global pharmaceutical, biotechnology, research, and health industries, supporting innovative drug development and life science research.
+[/QUOTE]
+
+[CLAIM] faq.ordering_workflow
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/homepage.md
+[LINE_RANGE] 140-154
+[QUOTE]
+1.How to proceed an order?
+
+Step 1: When you intended to buy something, pls send me an inquiry by email, or whatsapp.
+
+step2: I will reply you with a quotation as soon as I receive you inquiry.
+
+Step3: We will negotiate products, price, package, payment methods and so on.
+
+Step4: You arrange the payment.
+
+Step5: I will arrange the shipment after receiving you money.
+
+Step6: The tracking number of the parcel will be sent to you.
+
+Step7: Trace the tracking number on website until you receive it.
+[/QUOTE]
+
+[CLAIM] faq.purity_claim
+[URL] https://oupeptide.com/faqs-2/
+[FETCHED_AT] 2026-05-08T02:15:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/faq.md
+[LINE_RANGE] 58-58
+[QUOTE]
+Our peptides, proteins, and small-molecule active products undergo strict purification processes, achieving a **purity level of 99% or higher** , meeting international pharmaceutical standards to ensure high quality and stability.
+[/QUOTE]
+
+[CLAIM] faq.quality_standards
+[URL] https://oupeptide.com/faqs-2/
+[FETCHED_AT] 2026-05-08T02:15:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/faq.md
+[LINE_RANGE] 78-78
+[QUOTE]
+Yes, our production process strictly follows **GMP and ISO quality management systems** , ensuring that all products meet international pharmaceutical and research-grade standards.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.klow_description
+[URL] https://oupeptide.com/product/klow/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_3__klow.md
+[LINE_RANGE] 90-90
+[QUOTE]
+AOD 9604. also known as Anti-Obesity Drug 9604. is a synthetic peptide fragment derived from human growth hormone (HGH). Specifically. it consists of amino acids 176-191 of the C-terminus of the HGH molecule. This peptide has been extensively studied for its potential to promote weight loss and improve metabolic health.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.tb_description
+[URL] https://oupeptide.com/product/tb/
+[FETCHED_AT] 2026-05-08T02:15:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_6__tb.md
+[LINE_RANGE] 65-65
+[QUOTE]
+1\. TB500 fragment has been shown to have the ability to promote the formation of blood vessels and to help repair damaged tissues. It also has anti-inflammatory properties and may help to reduce swelling and pain. Additionally. TB500 fragment has been found to stimulate stem cell production. which can lead to enhanced tissue regeneration.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.cgl_description
+[URL] https://oupeptide.com/product/cagrilintide/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_2__cagrilintide.md
+[LINE_RANGE] 90-91
+[QUOTE]
+Cagrilintide is a a cyclic peptide composed of 38 amino acids. with a sequence containing 38 amino acids and a pair of disulfide bonds. Kaglirin can significantly reduce weight and reduce food intake. Kagrelin peptide has potential in obesity research.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.tsm_description
+[URL] https://oupeptide.com/product/tsm/
+[FETCHED_AT] 2026-05-08T02:15:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_8__tsm.md
+[LINE_RANGE] 63-63
+[QUOTE]
+Tesamorelin. is a syntheitic peptide consiting of 44 amino acids. It is a growth-hormone-releasing hormone (GHRH) analogue researched for the treatment of HIV-associated lipodystrophy (dysfunctional. toxic fat deposition). It is also being researched for its ability to improve peripheral nerve health. slow the progression of mild cognitive impairment. and the reduction visceral fat.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sema_description
+[URL] https://oupeptide.com/product/semaglutide/
+[FETCHED_AT] 2026-05-08T02:15:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_5__semaglutide.md
+[LINE_RANGE] 90-90
+[QUOTE]
+Product NameSemaglutideCas No.910463-68-2Molecular FormulaC187H291N45059Molar Mass4113.64 g/molPurity>99%Impurity<0.5%Storage Temperature2-8℃Packing Size5mg,10mg,15mg,20mg,30mg
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.tirz_properties
+[URL] https://oupeptide.com/product/tirzepatide/
+[FETCHED_AT] 2026-05-08T02:15:57Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_7__tirzepatide.md
+[LINE_RANGE] 65-68
+[QUOTE]
+**Chemical & Physical Properties**
+**Molecular Formula:** C225H348N48O68
+**Molecular Weight** : 4813.45
+**Storage condition:** 2-8℃
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.reta_description
+[URL] https://oupeptide.com/product/retarutide/
+[FETCHED_AT] 2026-05-08T02:15:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/product_4__retarutide.md
+[LINE_RANGE] 92-98
+[QUOTE]
+Sequence:
+Tyr-{Aib}-Gln-Gly-Thr-Phe-Thr-Ser-Asp-Tyr-Ser-Ile-{α-Me-Leu}-Leu-Asp-Lys-{doacod=C20-gamma-Glu-(AEEA)-Lys}-Ala-Gln-{Aib}-Ala-Phe-Ile-Glu-Tyr-Leu-Leu-Glu-Gly-Gly-Pro-Ser-Ser-Gly-Ala-Pro-Pro-Pro-Ser-NH2
+
+Molecular Formula: C118H175N35O28
+Molecular Weight: 2660.94 g/mol
+CAS Number: 2571941-83-5
+PubChem CID: 145996114
+[/QUOTE]
+
+[CLAIM] homepage.footer_content
+[URL] https://oupeptide.com/
+[FETCHED_AT] 2026-05-08T02:14:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/oupeptide/homepage.md
+[LINE_RANGE] 172-189
+[QUOTE]
+### COMPANY INFORMATION
+
+  * [FAQS](https://oupeptide.com/faqs-2/)
+  * [COAS](https://oupeptide.com/coas/)
+  * [About Us](https://oupeptide.com/about-us/)
+  * [Contact](https://oupeptide.com/contact-2/)
+
+
+
+### POLICY INFORMATION
+
+  * [Privacy Policy](https://oupeptide.com/privacy-policy/)
+  * [Refund Policy](https://oupeptide.com/refund-policy-2/)
+  * [Shipping & Delivery](https://oupeptide.com/shipping-delivery/)
+  * [Terms of service](https://oupeptide.com/terms-of-service/)
+
+
+
+© 2025 oupeptide
+[/QUOTE]

@@ -1,0 +1,903 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 946-946
+[QUOTE]
+"Welcome to Testides"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 650-650
+[QUOTE]
+"Peptide Testing Platform"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 87-87
+[QUOTE]
+"Analytical Testing for"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 888-888
+[QUOTE]
+"Trusted by leading pharmaceutical companies and research institutions for critical testing"
+[/QUOTE]
+
+[CLAIM] homepage.hero_imagery_style
+[INFERENCE] clinical
+[REASONING]
+The site exposes no consumer-retail imagery cues, no lifestyle photography references in the JS bundle, no meme-coded styling, and no creator-economy aesthetics. All marketing language is institutional/B2B/regulatory: ISO 17025 alignment, pharmaceutical-grade testing, certified results, multi-level review process with documented chain of custody, end-to-end encryption, tamper-evident reporting. The hero references "/images/hero.jpg" as a single background URL inferable from the JS bundle but the rendered styling is a clinical-laboratory posture rather than lifestyle/community.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 374-374
+"ISO 17025-Aligned Laboratory"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 681-681
+"Professional laboratory services backed by international certifications and proven accuracy"
+[/SUPPORT_QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 716-716
+[QUOTE]
+"Request Peptide Testing"
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 615-618
+[QUOTE]
+"Our Services"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 952-952
+[QUOTE]
+"Why Choose Testides?"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 415-415
+[QUOTE]
+"Look Up Test Report"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 16-16
+[QUOTE]
+<title>Testides - Client Portal</title>
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 3104-3127
+[QUOTE]
+"/dashboard"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 875-875
+[QUOTE]
+"Toronto, ON"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 933-933
+[QUOTE]
+"Visit us at"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 853-853
+[QUOTE]
+"Testides-Service-Agreement-Signed.pdf"
+[/QUOTE]
+
+[CLAIM] country_of_operation
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 875-875
+[QUOTE]
+"Toronto, ON"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 128-128
+[QUOTE]
+"Billing address is used to determine applicable taxes. Ontario defaults to 13% HST."
+[/QUOTE]
+
+[CLAIM] fulfillment_country
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 875-875
+[QUOTE]
+"Toronto, ON"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 146-146
+[QUOTE]
+"Canada & USA coverage"
+[/QUOTE]
+
+[CLAIM] ship_to_scope
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 146-146
+[QUOTE]
+"Canada & USA coverage"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 784-785
+[QUOTE]
+"Serving North America"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 785-785
+[QUOTE]
+"Serving pharmaceutical companies and research institutions across North America"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count
+[URL] https://testides.com/api/peptides/public
+[FETCHED_AT] 2026-05-07T02:20:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/catalog_peptides.md
+[LINE_RANGE] 13-97
+[QUOTE]
+[ENUMERATION] Counted from 03_raw_fetches/testides/catalog_peptides.md: 85 testable-compound rows in /api/peptides/public response (peptides[] array). These are NOT peptide SKUs available for purchase — they are line-items in Testides' testing-service catalog (compounds the lab can test). Schema field sku_count is set to 0 because the vendor sells testing services not peptides; the 85 testable compounds appear in catalog.search_filter_capabilities and are surfaced for transparency.
+[FILES]
+catalog_peptides.md (single file)
+homepage.md (per-compound names also appear in JS bundle string constants)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 359-359
+[QUOTE]
+"HPLC (Purity)"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 526-526
+[QUOTE]
+"Mass Spectrometry"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 288-288
+[QUOTE]
+"Endotoxin Testing"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 538-538
+[QUOTE]
+"Microbial Quality Testing"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 367-367
+[QUOTE]
+"Heavy Metals Report"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 739-739
+[QUOTE]
+"Residual Solvents"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 232-232
+[QUOTE]
+"Custom Peptide Analysis"
+[/QUOTE]
+
+[CLAIM] catalog.search_filter_capabilities
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 766-766
+[QUOTE]
+"Search by name or code (e.g., Semaglutide, SEMA)..."
+[/QUOTE]
+[URL] https://testides.com/api/peptides/public
+[FETCHED_AT] 2026-05-07T02:20:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/catalog_peptides.md
+[LINE_RANGE] 13-97
+[QUOTE]
+[ENUMERATION] 85 entries returned by /api/peptides/public, each with name, short_code, category, uom, is_blend, is_active flags. Sample rows: "5AM | 5-Amino | single | mg" (line 13), "BPC | BPC-157 | single | mg" (line 20), "TIRZ | Tirzepatide | single | mg" (line 95), "VIP | VIP | single | mg" (line 97). Includes named heavyweights (Semaglutide, Tirzepatide, Retatrutide, Cagrilintide blends) and standard research-peptide list (BPC-157, TB-500, GHK-Cu, Selank, MOTS-C, SS-31, IGF1 LR3, etc.).
+[FILES]
+catalog_peptides.md
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 941-941
+[QUOTE]
+"We test custom compounds and novel peptide sequences. Our scientists can develop tailored analytical methods for your specific requirements."
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 549-549
+[QUOTE]
+"Multi-peptide batch testing"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url
+[URL] https://testides.com/api/peptides/public
+[FETCHED_AT] 2026-05-07T02:20:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/catalog_peptides.md
+[LINE_RANGE] 1-7
+[QUOTE]
+url: https://testides.com/api/peptides/public
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_name
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 359-360
+[QUOTE]
+"HPLC (Purity)"
+[/QUOTE]
+[URL] https://testides.com/api/peptides/public
+[FETCHED_AT] 2026-05-07T02:20:41Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/catalog_peptides.md
+[LINE_RANGE] 20-20
+[QUOTE]
+BPC | BPC-157 | single | mg
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 41-41
+[QUOTE]
+"Advanced UV detection for precise separation and identification of peptide compounds with exceptional resolution."
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 124-124
+[QUOTE]
+"Bacterial endotoxin testing for peptide safety validation, ensuring compliance with pharmaceutical standards."
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 211-211
+[QUOTE]
+"Comprehensive microbial testing to assess product safety and quality with validated enumeration and pathogen detection methods."
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 814-816
+[QUOTE]
+"Specialized analytical methods designed for your unique peptide testing requirements and research objectives."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present
+[INFERENCE] true
+[REASONING]
+Testides' core product is the Certificate of Analysis itself — the entire business is producing COAs that customers can verify. The site exposes a public-facing report-lookup interface (Look Up Test Report → Enter your report number to view your Certificate of Analysis), explicit COA download links (Download HPLC COA), and tamper-evident/digitally-verifiable result claims. Setting coa_present=true reflects that COAs are not an optional trust signal but the primary deliverable.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 215-215
+"Certificate Of Analysis"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 260-260
+"Download HPLC COA"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 287-287
+"Enter your report number to view your Certificate of Analysis"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting
+[INFERENCE] on_site
+[REASONING]
+COAs are produced by Testides itself and hosted on testides.com directly. The site exposes a public report-lookup tool at the testides.com domain ('Enter your report number to view your Certificate of Analysis' + 'Look Up Test Report') and per-COA download buttons ('Download HPLC COA') that resolve to testides.com URLs. There is no third-party COA portal (Janoshik Analytical, Acme Analytical, etc.) intermediating; Testides IS the third-party portal that other peptide vendors point to. Hosting is on the testides.com client portal directly.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 287-287
+"Enter your report number to view your Certificate of Analysis"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 415-415
+"Look Up Test Report"
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.batch_lot_transparency
+[INFERENCE] true
+[REASONING]
+The platform requires per-vial labeling protocol (peptide name, mass/amount, appearance, batch number, lot number) and validates lot uniqueness. Reports are tied to specific batches/lots; the COA download mechanism is per-batch. This is the highest possible batch/lot transparency posture for a service-only entity.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 276-276
+"Each vial must be labeled with:"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 122-122
+"Batch Number"
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 480-480
+"Lot numbers must be unique."
+[/SUPPORT_QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/source_homepage.md
+[LINE_RANGE] 1-3060
+[QUOTE]
+[ENUMERATION] grep on the JS bundle string-constant extract for terms commonly used in customer review modules (review|rating|stars|testimonial|recommend) returned no consumer-review widget strings. Bulletin Board exists but is content-publishing not customer-rating. No on-site review module observed.
+[FILES]
+source_homepage.md
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 940-940
+[QUOTE]
+"We test a range of research and nutraceutical materials, including peptides, small molecules, nootropic ingredients, and dietary supplement ingredients, subject to method fit."
+[/QUOTE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 146-146
+[QUOTE]
+"Canada & USA coverage"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 784-785
+[QUOTE]
+"Serving pharmaceutical companies and research institutions across North America"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 840-840
+[QUOTE]
+"Terms of Service"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 3115-3128
+[QUOTE]
+"/terms-of-service"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_highlights
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 853-853
+[QUOTE]
+"Testides-Service-Agreement-Signed.pdf"
+[/QUOTE]
+[URL] https://testides.com/api/client/service-agreement/download
+[FETCHED_AT] 2026-05-07T02:21:14Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/response_headers.md
+[LINE_RANGE] 27-43
+[QUOTE]
+HTTP/2 401
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 372-372
+[QUOTE]
+"I have read and accepted the terms and conditions as outlined in the"
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 148-148
+[QUOTE]
+"Cancel this campaign?"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 970-970
+[QUOTE]
+"Yes, cancel and refund"
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 276-276
+[QUOTE]
+"Each vial must be labeled with:"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 622-622
+[QUOTE]
+"Packages that are clearly labeled and contain this information can be processed faster and with fewer follow-up questions."
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 753-753
+[QUOTE]
+"Samples received without an associated test request will not be processed."
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 796-796
+[QUOTE]
+"Shipping Instructions"
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 16-16
+[QUOTE]
+<title>Testides - Client Portal</title>
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 235-235
+[QUOTE]
+"Create Your Account"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 39-39
+[QUOTE]
+"Already have an account? Sign in"
+[/QUOTE]
+
+[CLAIM] checkout_flow.guest_checkout_available
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 107-107
+[QUOTE]
+"Awaiting payment confirmation"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 247-249
+[QUOTE]
+"Create a campaign during checkout to split testing costs among a group."
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 247-249
+[QUOTE]
+"Share this link with contributors. They can pay any amount without creating an account."
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 81-81
+[QUOTE]
+"Amount (e.g. 10mg)"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 219-219
+[QUOTE]
+"Company/Organization"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 642-642
+[QUOTE]
+"Peptide name (e.g. BPC-157)"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 525-525
+[QUOTE]
+"Mass/amount per vial"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 919-919
+[QUOTE]
+"Vendor Name on Report"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 706-706
+[QUOTE]
+"Reference / Message"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 686-686
+[QUOTE]
+"Promo codes must be 2-50 characters using letters, numbers, hyphen, or underscore"
+[/QUOTE]
+
+[CLAIM] checkout_flow.id_verification_present
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/source_homepage.md
+[LINE_RANGE] 1-3060
+[QUOTE]
+[ENUMERATION] No ID-verification language found in JS-bundle string constants. grep for 'KYC|verify identity|government ID|photo ID|driver license|passport|age verif' returns zero matches. Email verification exists ("Verifying your email...") and password setup ("Set up your password to get started") but no government-document KYC. id_verification_present=false.
+[FILES]
+source_homepage.md
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 637-637
+[QUOTE]
+"Pay securely via Stripe. Instant confirmation."
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 261-261
+[QUOTE]
+"Credit or Debit Card"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 273-273
+[QUOTE]
+"E-Transfer (Preferred)"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 390-390
+[QUOTE]
+"Interac E-Transfer"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 943-943
+[QUOTE]
+"We'll send you an Interac request via Wise. Approve in your bank app."
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 12-13
+[QUOTE]
+"Account Credit Balance"
+[/QUOTE]
+
+[CLAIM] checkout_flow.shipping_cost_structure
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 48-48
+[QUOTE]
+"A default 13% HST will be applied to all orders. Add your billing address below to receive location-based tax rates."
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 128-128
+[QUOTE]
+"Billing address is used to determine applicable taxes. Ontario defaults to 13% HST."
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 674-674
+[QUOTE]
+"Prices shown are in CAD. Volume pricing applies when ordering the specified quantity or more."
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 690-690
+[QUOTE]
+"Processing Fee ("
+[/QUOTE]
+
+[CLAIM] checkout_flow.international_policy
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 146-147
+[QUOTE]
+"Canada & USA coverage"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 132-132
+[QUOTE]
+"British Columbia"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 432-432
+[QUOTE]
+"Invalid Canadian postal code format (e.g. A1B 2C3)"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 433-433
+[QUOTE]
+"Invalid US ZIP code format (e.g. 12345 or 12345-6789)"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[INFERENCE] custom
+[REASONING]
+Site is a custom React/Vite SPA with bespoke /api/* backend. The HTML shell is empty (<div id="root"></div>) with module-loaded JS bundle and CSS bundle, no Shopify/WooCommerce/BigCommerce/Wix/Squarespace platform fingerprints observable in the rendered HTML or response headers. The bundle includes TanStack QueryClient construction (a non-platform, hand-rolled choice) and React Router v7-style data-router patterns. The /api/peptides/public endpoint follows REST/JSON conventions custom to this app, not e-commerce platform conventions.
+[/REASONING]
+[SUPPORT_QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 17-17
+<script type="module" crossorigin src="/assets/index-C7iQRKk4.js"></script>
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 540-540
+"No QueryClient set, use QueryClientProvider to set one"
+[/SUPPORT_QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 29-29
+[QUOTE]
+server: cloudflare
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 34-34
+[QUOTE]
+cf-ray: 9f7cbe6728a70c23-EWR
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 35-35
+[QUOTE]
+alt-svc: h3=":443"; ma=86400
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/source_homepage.md
+[LINE_RANGE] 1-3060
+[QUOTE]
+[ENUMERATION] grep on JS-bundle string constants for 'intercom|drift|crisp|tawk|zendesk|hubspot chat|olark|liveperson' returns zero hits. The site does have a Support Tickets system ("Create a ticket to get support.", "Testides Support") but it is asynchronous ticketing, not a real-time chat widget overlay.
+[FILES]
+source_homepage.md
+homepage.md
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/source_homepage.md
+[LINE_RANGE] 1-3060
+[QUOTE]
+[ENUMERATION] grep on JS bundle string constants for 'review|stars|testimonial|rating|recommend' returns zero customer-review-widget hits. Bulletin Board exists for vendor-published news/announcements but is not customer-rating. on_site_reviews=false.
+[FILES]
+source_homepage.md
+[/QUOTE]
+
+[CLAIM] social_proof.testimonial_usage
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 888-888
+[QUOTE]
+"Trusted by leading pharmaceutical companies and research institutions for critical testing"
+[/QUOTE]
+[URL] https://testides.com/
+[FETCHED_AT] 2026-05-07T02:20:08Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/testides/homepage.md
+[LINE_RANGE] 322-322
+[QUOTE]
+"Failed to load bulletins"
+[/QUOTE]

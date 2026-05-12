@@ -1,0 +1,429 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://puratekpeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/homepage.md
+[LINE_RANGE] 47-49
+[QUOTE]
+# Puratek Peptides
+
+Premium peptides. Fair price. Zero compromise.
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://puratekpeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/homepage.md
+[LINE_RANGE] 425-427
+[QUOTE]
+Legal Disclaimer
+
+All products offered by Puratek LLC are supplied strictly for laboratory research and development use. They are not formulated, marketed, or approved for human consumption or use in animals. No statements on this website have been reviewed by the U.S. Food and Drug Administration, and neither our content nor our products are intended to diagnose, treat, cure, or prevent any disease. Puratek LLC operates as a chemical supplier. Puratek LLC is not a compounding pharmacy or chemical compounding facility as described in Section 503A of the Federal Food, Drug, and Cosmetic Act, and Puratek LLC is not an outsourcing facility as described in Section 503B of the same Act.
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://puratekpeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/homepage.md
+[LINE_RANGE] 51-53
+[QUOTE]
+[ Shop Now  ](/shop/)
+
+[ View Certifications  ](/certifications/)
+[/QUOTE]
+
+[CLAIM] catalog.sku_count + catalog.search_filter_capabilities
+[URL] https://puratekpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T06:50:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/catalog_1.md
+[LINE_RANGE] 59-73
+[QUOTE]
+Showing 1–24 of 31 results
+
+# Shop
+
+Default sorting Sort by popularity Sort by average rating Sort by latest Sort by price: low to high Sort by price: high to low
+
+Show  [ 9  ](https://puratekpeptides.com/shop/?per_page=9) [ 12  ](https://puratekpeptides.com/shop/?per_page=12) [ 18  ](https://puratekpeptides.com/shop/?per_page=18) [ 24  ](https://puratekpeptides.com/shop/?per_page=24)
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present (BPC-157 + TB-500 Blend visible in catalog)
+[URL] https://puratekpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T06:50:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/catalog_1.md
+[LINE_RANGE] 123-135
+[QUOTE]
+[ Sold out ](https://puratekpeptides.com/product/bpc-157-tb-500-blend/)
+
+[Read more](https://puratekpeptides.com/product/bpc-157-tb-500-blend/)
+
+[ Quick view ](https://puratekpeptides.com/product/bpc-157-tb-500-blend/)
+
+[ Add to wishlist ](https://puratekpeptides.com/wishlist/)
+
+### [BPC-157 & TB-500 Blend 20 mg](https://puratekpeptides.com/product/bpc-157-tb-500-blend/)
+
+$51.95
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url + list_price + dose_options
+[URL] https://puratekpeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/product_1__bpc-157.md
+[LINE_RANGE] 67-69
+[QUOTE]
+#  BPC-157 10 mg
+
+$29.95
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://puratekpeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/product_1__bpc-157.md
+[LINE_RANGE] 71-72
+[QUOTE]
+BPC-157 is a synthetic pentadecapeptide comprised of 15 amino acids. It is derived from a partial sequence of body protection compound (BPC), a protein naturally found in gastric juices. In laboratory settings, BPC-157 has garnered significant attention for its stability and its potential influence on biological mechanisms related to tissue healing.
+Research indicates that BPC-157 may play a role in the modulation of angiogenesis (the formation of new blood vessels) and the regulation of inflammatory responses.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://puratekpeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/product_1__bpc-157.md
+[LINE_RANGE] 132-138
+[QUOTE]
+**Compliance & Safety Disclaimer**
+
+**CRITICAL WARNING: FOR RESEARCH USE ONLY.******
+
+This product is strictly intended for laboratory research and development purposes. It is **not** a drug, food, or cosmetic and is **not** approved for human consumption, veterinary use, or diagnostic procedures.
+
+The chemical, physical, and toxicological properties of this material have not been fully investigated. It should be handled only by qualified individuals trained in laboratory procedures and familiar with the potential hazards of chemicals. All research must be conducted in compliance with applicable local, state, and federal regulations.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present + batch_lot_transparency
+[URL] https://puratekpeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/product_1__bpc-157.md
+[LINE_RANGE] 74-78
+[QUOTE]
+  * Batch-Verified Purity 99%
+  * Third-Party COA Included
+  * Our 99% Guarantee: Independent test fails? Full refund.
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.related_product_modules_present
+[URL] https://puratekpeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/product_1__bpc-157.md
+[LINE_RANGE] 155-165
+[QUOTE]
+#### Related Products
+
+[ Sold out ](https://puratekpeptides.com/product/bw/)
+[/QUOTE]
+
+[CLAIM] skus[].sku_id=puratek-peptides:tb-500-10mg (price + stock)
+[URL] https://puratekpeptides.com/product/tb-500/
+[FETCHED_AT] 2026-05-08T06:52:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/product_2__tb-500.md
+[LINE_RANGE] 67-82
+[QUOTE]
+#  TB-500
+
+$59.95
+
+TB-500 is a highly conserved, naturally occurring peptide consisting of 43 amino acids.
+[/QUOTE]
+
+[CLAIM] skus[].sku_id=puratek-peptides:ghk-cu-50mg + puratek-peptides:ghk-cu-100mg (variants + prices)
+[URL] https://puratekpeptides.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T06:52:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/product_3__ghk-cu.md
+[LINE_RANGE] 69-82
+[QUOTE]
+$28.95 – $34.95Price range: $28.95 through $34.95
+[/QUOTE]
+[URL] https://puratekpeptides.com/product/ghk-cu/
+[FETCHED_AT] 2026-05-08T06:52:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/product_3__ghk-cu.md
+[LINE_RANGE] 151
+[QUOTE]
+Size| 100 mg, 50 mg
+[/QUOTE]
+
+[CLAIM] skus[].sku_id=puratek-peptides:epithalon-10mg (price)
+[URL] https://puratekpeptides.com/product/epithalon/
+[FETCHED_AT] 2026-05-08T06:52:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/product_4__epithalon.md
+[LINE_RANGE] 67-69
+[QUOTE]
+#  Epithalon 10 mg
+
+$26.95
+[/QUOTE]
+
+[CLAIM] skus[].sku_id=puratek-peptides:selank-10mg (price)
+[URL] https://puratekpeptides.com/product/selank/
+[FETCHED_AT] 2026-05-08T06:52:11Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/product_5__selank.md
+[LINE_RANGE] 60-63
+[QUOTE]
+#  Selank 10 mg
+
+$32.95
+[/QUOTE]
+
+[CLAIM] skus catalog page 2 (Semax, TB-500, Tesamorelin, VIP prices)
+[URL] https://puratekpeptides.com/shop/page/2/
+[FETCHED_AT] 2026-05-08T06:51:12Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/catalog_2.md
+[LINE_RANGE] 145-200
+[QUOTE]
+### [Semax 10 mg](https://puratekpeptides.com/product/semax/)
+
+$32.95
+
+$32.95
+
+
+[TB-500 ](https://puratekpeptides.com/product/tb-500/)
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing + age_gate_present
+[URL] https://puratekpeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/homepage.md
+[LINE_RANGE] 487-492
+[QUOTE]
+## Age Verification Required
+
+This website is restricted. To continue, please confirm you meet the minimum age requirement and accept the agreement below.
+
+I confirm I am **21+** years of age or older. I agree that products and information are provided for **Laboratory research use only.**
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url + tos_highlights (research-use-only, 503A/503B disclaimer)
+[URL] https://puratekpeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T06:52:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/tos.md
+[LINE_RANGE] 57-75
+[QUOTE]
+All products sold on this Site are intended strictly for laboratory research use only. They are not intended for human or animal consumption, medical use, diagnostic use, household use, or any use that would constitute or resemble drug use or therapy. By purchasing from us, you represent and warrant that you are a qualified professional or entity purchasing for legitimate research purposes only.
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://puratekpeptides.com/terms-conditions/
+[FETCHED_AT] 2026-05-08T06:52:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/tos.md
+[LINE_RANGE] 96-108
+[QUOTE]
+Due to the sensitive and specialized nature of our products, all sales are generally final. However, we may, in our sole discretion, consider returns or replacements in limited circumstances, such as:
+
+  * Products arriving damaged or defective.
+  * Incorrect items shipped due to our error.
+
+
+
+You must notify us within a reasonable time (typically within 7 days of delivery) and provide appropriate documentation, including photos or lot numbers, so that we may investigate the issue.
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy + checkout_flow.international_policy + shipping_carriers + shipping_cost_structure
+[URL] https://puratekpeptides.com/shipping-policy/
+[FETCHED_AT] 2026-05-08T06:52:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/shipping.md
+[LINE_RANGE] 51-61
+[QUOTE]
+# **Puratek Peptides – Shipping Policy**
+
+Puratek Peptides ships orders within the United States using major carriers based on destination and service availability. USPS is used for shipments to P.O. Boxes.
+
+Orders placed by 1 pm pacific time on business days typically ship same day etc…" replacing it with "Orders placed by 1:00 PM PST on business days ship the same day. Orders placed after this time, or on weekends and holidays, ship the next business day.
+
+We offer free standard shipping on U.S. orders over $150. Shipping rates and carrier options may vary and are subject to change.
+
+All orders are shipped in discreet packaging. Optional shipping insurance may be selected at checkout at the customer's expense.
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted (Zelle, Venmo)
+[URL] https://puratekpeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/source_homepage.md
+[LINE_RANGE] 1-20
+[QUOTE]
+=== Platform Signals ===
+woocommerce
+wordpress
+=== Analytics ===
+googletagmanager
+gtag
+=== Pixels ===
+tiktok
+twitter
+=== Chat ===
+crisp
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal (WooCommerce) + cdn (LiteSpeed/Hostinger)
+[URL] https://puratekpeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/source_homepage.md
+[LINE_RANGE] 1-15
+[QUOTE]
+HTTP/2 200
+x-powered-by: PHP/8.3.30
+cache-control: public, max-age=3600, s-maxage=3600
+expires: Wed, 11 Jan 1984 05:00:00 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+content-length: 859310
+date: Fri, 08 May 2026 06:52:57 GMT
+server: LiteSpeed
+platform: hostinger
+panel: hpanel
+[/QUOTE]
+
+[CLAIM] content_footprint.blog_present + blog_url + content_cadence + topic_taxonomy
+[URL] https://puratekpeptides.com/blog/
+[FETCHED_AT] 2026-05-08T06:54:01Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/blog_1.md
+[LINE_RANGE] 49-68
+[QUOTE]
+[Link on post Understanding Peptide Purity, Stability, and Consistency](https://puratekpeptides.com/understanding-peptide-purity-stability-and-consistency/)
+
+28  Jan
+
+###  [Understanding Peptide Purity, Stability, and Consistency](https://puratekpeptides.com/understanding-peptide-purity-stability-and-consistency/)
+
+[Continue reading](https://puratekpeptides.com/understanding-peptide-purity-stability-and-consistency/)
+
+[Link on post How Quality Control Ensures Reliable Research Outcomes](https://puratekpeptides.com/how-quality-control-ensures-reliable-research-outcomes/)
+
+28  Jan
+
+###  [How Quality Control Ensures Reliable Research Outcomes](https://puratekpeptides.com/how-quality-control-ensures-reliable-research-outcomes/)
+
+[Continue reading](https://puratekpeptides.com/how-quality-control-ensures-reliable-research-outcomes/)
+
+[Link on post What "Research-Grade Peptides" Really Mean](https://puratekpeptides.com/what-is-fiber-and-why-is-it-important-for-health/)
+
+06  Mar
+
+###  [What "Research-Grade Peptides" Really Mean](https://puratekpeptides.com/what-is-fiber-and-why-is-it-important-for-health/)
+[/QUOTE]
+
+[CLAIM] catalog.category_taxonomy (single category: Research Peptides)
+[URL] https://puratekpeptides.com/shop/
+[FETCHED_AT] 2026-05-08T06:50:59Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/catalog_1.md
+[LINE_RANGE] 79-81
+[QUOTE]
+##### Filter by category
+
+  * [Research Peptides](https://puratekpeptides.com/shop/?filter_category=research-peptides)
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_hosting (on_site, Certifications page lists all batch COAs)
+[URL] https://puratekpeptides.com/certifications/
+[FETCHED_AT] 2026-05-08T06:52:48Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/coa_1.md
+[LINE_RANGE] 49-95
+[QUOTE]
+#### Adamax 5mg
+
+#### Bpc/Tb-500
+
+#### Bpc-157 10mg
+
+#### Cagrilintide 5mg
+
+#### Cagrilintide 10mg
+
+#### Cjc-1295 NO DAC 10mg
+
+#### Epithalon 10mg
+
+#### Ghk-Cu 100mg
+[/QUOTE]
+
+[CLAIM] country_of_operation + ship_to_scope (US-based, phone 702 area code = Las Vegas NV)
+[URL] https://puratekpeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/homepage.md
+[LINE_RANGE] 417-419
+[QUOTE]
+  * [ 702-518-4855 ](tel:702-518-4855)
+
+
+
+  * Mon-Fri 9am-4pm PST
+[/QUOTE]
+
+[CLAIM] year_established (copyright 2026)
+[URL] https://puratekpeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/homepage.md
+[LINE_RANGE] 429
+[QUOTE]
+Copyright © Puratek LLC | 2026. All rights reserved.
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews=false (no review module found on product pages)
+[URL] https://puratekpeptides.com/product/bpc-157/
+[FETCHED_AT] 2026-05-08T06:51:30Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/product_1__bpc-157.md
+[LINE_RANGE] 100-160
+[QUOTE]
+  * Description
+  * Compliance
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted (Zelle and Venmo confirmed in source)
+[INFERENCE]
+[SUPPORT_QUOTE]
+[URL] https://puratekpeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/checkout_payment_source.md
+[LINE_RANGE] 26-37
+          <div class="rp-payment-name">Zelle</div>
+[/SUPPORT_QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://puratekpeptides.com/
+[FETCHED_AT] 2026-05-08T06:50:44Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/puratek-peptides/checkout_payment_source.md
+[LINE_RANGE] 58-68
+          <div class="rp-payment-name">Venmo</div>
+[/SUPPORT_QUOTE]
+[REASONING]
+The page source HTML embeds a post-order payment instructions widget (rp-payment-card class) with Zelle and Venmo blocks containing Puratek-specific account details. Cash App block is present but commented out in HTML. No credit card/Stripe processing elements were found in source. This indicates the site accepts only Zelle and Venmo as active payment methods.
+[/INFERENCE]

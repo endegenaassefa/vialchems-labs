@@ -1,0 +1,668 @@
+[CLAIM] homepage.hero_copy_excerpt
+[URL] https://corepeptides.com/
+[FETCHED_AT] 2026-05-07T02:59:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/homepage.md
+[LINE_RANGE] 28-31
+[QUOTE]
+"# Highest Quality
+Peptides For Sale
+
+We are proud to carry the highest quality peptides and peptide blends in the research industry."
+[/QUOTE]
+
+[CLAIM] homepage.primary_cta
+[URL] https://corepeptides.com/
+[FETCHED_AT] 2026-05-07T02:59:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/homepage.md
+[LINE_RANGE] 33
+[QUOTE]
+"[BUY PEPTIDES](/peptides/)"
+[/QUOTE]
+
+[CLAIM] homepage.footer_disclaimers
+[URL] https://corepeptides.com/
+[FETCHED_AT] 2026-05-07T02:59:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/homepage.md
+[LINE_RANGE] 174-180
+[QUOTE]
+"_**All products are sold for research, laboratory, or analytical purposes only, and are not for human consumption.**_
+
+Core Peptides is a chemical supplier. Core Peptides is not a compounding pharmacy or chemical compounding facility as defined under 503A of the Federal Food, Drug, and Cosmetic act. Core Peptides is not an outsourcing facility as defined under 503B of the Federal Food, Drug, and Cosmetic act.
+
+The statements made within this website have not been evaluated by the US Food and Drug Administration. The products we offer are not intended to diagnose, treat, cure or prevent any disease.
+
+Human/Animal Consumption Prohibited. Laboratory/In-Vitro Experimental Use Only"
+[/QUOTE]
+
+[CLAIM] catalog.sku_count / catalog.category_taxonomy / catalog.search_filter_capabilities
+[URL] https://corepeptides.com/peptides/
+[FETCHED_AT] 2026-05-07T03:02:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/catalog.md
+[LINE_RANGE] 28-49
+[QUOTE]
+"# Research Peptides For Sale
+
+Price
+
+$20 \- $300
+
+Categories
+
+  * Peptides  103
+  * Blends  18
+
+
+
+On Sale
+
+In Stock
+
+No products were found matching your selection.
+
+Showing all 103 results
+
+Sort by popularity Sort by latest Sort by price: low to high Sort by price: high to low Sort by title (A-Z) Sort by title (Z-A)"
+[/QUOTE]
+
+[CLAIM] catalog.stack_bundle_pages_present
+[URL] https://corepeptides.com/peptides/
+[FETCHED_AT] 2026-05-07T03:02:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/catalog.md
+[LINE_RANGE] 61-64
+[QUOTE]
+"  * ## [BPC-157 & TB-500 & GHK-Cu Blend (70mg) $300.00 ](https://www.corepeptides.com/peptides/bpc-157-tb-500-ghk-cu-blend/)
+  * [ Sale! BPC-157 & TB-500 Blend (10mg/20mg) $105.00 – $195.00Price range: $105.00 through $195.00 ](https://www.corepeptides.com/peptides/bpc-157-tb-500-10mg-blend/)"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.sample_product_url / product_page_anatomy.dose_options / product_page_anatomy.list_price / product_page_anatomy.per_mg_cost
+[URL] https://corepeptides.com/peptides/bpc-157/
+[FETCHED_AT] 2026-05-07T03:02:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/product_01__bpc-157.md
+[LINE_RANGE] 32-65
+[QUOTE]
+"# BPC-157 (5mg / 10mg)
+
+$52.00 – $97.00Price range: $52.00 through $97.00
+
+Size: 5mg / 10mg
+Contents: BPC-157
+Form: Lyophilized powder
+Purity: >99%
+SKU: P-BPC157
+
+**FREE Shipping on $200+ orders**
+
+**Discount per Quantity**
+
+Quantity | 5 - 8| 9 +
+---|---|---
+Discount | 5%| 10%
+Price | $49.40 – $92.15Price range: $49.40 through $92.15| $46.80 – $87.30Price range: $46.80 through $87.30
+
+Please select a size |  Choose an option10mg5mgClear"
+[/QUOTE]
+
+[CLAIM] skus.bpc-157-5mg / skus.bpc-157-10mg
+[URL] https://corepeptides.com/peptides/bpc-157/
+[FETCHED_AT] 2026-05-07T03:02:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/product_01__bpc-157.md
+[LINE_RANGE] 34-50
+[QUOTE]
+"$52.00 – $97.00Price range: $52.00 through $97.00
+
+Size: 5mg / 10mg
+Contents: BPC-157
+Form: Lyophilized powder
+Purity: >99%
+SKU: P-BPC157"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.description_copy_excerpt
+[URL] https://corepeptides.com/peptides/bpc-157/
+[FETCHED_AT] 2026-05-07T03:02:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/product_01__bpc-157.md
+[LINE_RANGE] 81-83
+[QUOTE]
+"The BPC-157 peptide, also known as Pentadecapeptide BPC 157 or Body Protection Compound 157, is a synthetic compound that has been suggested in various studies to assist with healing joint, tendon, and muscle tissue, as well as nerve tissue."
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.exact_disclaimer_language
+[URL] https://corepeptides.com/peptides/bpc-157/
+[FETCHED_AT] 2026-05-07T03:02:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/product_01__bpc-157.md
+[LINE_RANGE] 150
+[QUOTE]
+"_**BPC 157 peptide is available for research and laboratory purposes only. Please review and adhere to our[Terms and Conditions](https://www.corepeptides.com/terms/) before ordering.**_"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.coa_present / product_page_anatomy.coa_hosting
+[URL] https://corepeptides.com/peptides/bpc-157/
+[FETCHED_AT] 2026-05-07T03:02:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/product_01__bpc-157.md
+[LINE_RANGE] 74-76
+[QUOTE]
+"  * Description
+  * Certificate of Analysis"
+[/QUOTE]
+[URL] https://corepeptides.com/peptides/bpc-157/
+[FETCHED_AT] 2026-05-07T03:02:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/product_01__bpc-157.md
+[LINE_RANGE] 175-177
+[QUOTE]
+"BPC-157 (5mg) – Certificate of Analysis
+
+BPC-157 (10mg) – Certificate of Analysis"
+[/QUOTE]
+
+[CLAIM] product_page_anatomy.customer_review_module_present / product_page_anatomy.related_product_modules_present
+[URL] https://corepeptides.com/peptides/bpc-157/
+[FETCHED_AT] 2026-05-07T03:02:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/product_01__bpc-157.md
+[LINE_RANGE] 179-184
+[QUOTE]
+"## Related products
+
+  * ## [TB-500 (Thymosin Beta 4) (5mg / 10mg) $78.00 – $140.00Price range: $78.00 through $140.00 ](https://www.corepeptides.com/peptides/tb-500/)
+  * ## [ABP-7 (10mg) $92.00 ](https://www.corepeptides.com/peptides/abp-7-10mg/)
+  * ## [BPC-157 & TB-500 & GHK-Cu Blend (70mg) $300.00 ](https://www.corepeptides.com/peptides/bpc-157-tb-500-ghk-cu-blend/)
+  * [ Sale! BPC-157 & TB-500 Blend (10mg/20mg) $105.00 – $195.00Price range: $105.00 through $195.00 ](https://www.corepeptides.com/peptides/bpc-157-tb-500-10mg-blend/)"
+[/QUOTE]
+
+[CLAIM] skus.tb-500-5mg / skus.tb-500-10mg
+[URL] https://corepeptides.com/peptides/tb-500/
+[FETCHED_AT] 2026-05-07T03:02:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/product_02__tb-500.md
+[LINE_RANGE] 33-50
+[QUOTE]
+"$78.00 – $140.00Price range: $78.00 through $140.00
+
+Size: 5mg / 10mg
+Contents: TB-500
+Form: Lyophilized powder
+Purity: >99%
+SKU: P-TB500"
+[/QUOTE]
+
+[CLAIM] skus.ghk-cu-50mg / product_page_anatomy (GHK-Cu sample)
+[URL] https://corepeptides.com/peptides/ghk-cu-50mg-copper/
+[FETCHED_AT] 2026-05-07T03:02:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/product_03__ghk-cu-50mg-copper.md
+[LINE_RANGE] 30-57
+[QUOTE]
+"Sale!
+
+# GHK-Cu (Copper) (50mg)
+
+~~$ 69.00~~ Original price was: $69.00.$58.00Current price is: $58.00.
+
+Size: 50mg
+Contents: GHK-Cu (50mg)
+Form: Lyophilized powder
+Purity: >99%
+SKU: P-GHKCU-50"
+[/QUOTE]
+
+[CLAIM] skus.thymosin-alpha-1-5mg / skus.thymosin-alpha-1-10mg
+[URL] https://corepeptides.com/peptides/thymosin-alpha-1/
+[FETCHED_AT] 2026-05-07T03:02:50Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/product_04__thymosin-alpha-1.md
+[LINE_RANGE] 33-50
+[QUOTE]
+"$81.00 – $149.00Price range: $81.00 through $149.00
+
+Size: 5mg / 10mg
+Contents: Thymosin Alpha-1
+Form: Lyophilized powder
+Purity: >99%
+SKU: P-THYMOSA1-5-10"
+[/QUOTE]
+
+[CLAIM] skus.mots-c-10mg
+[URL] https://www.corepeptides.com/peptides/mots-c-10mg/
+[FETCHED_AT] 2026-05-07T17:05:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/product_05__mots-c-10mg.md
+[LINE_RANGE] 28-48
+[QUOTE]
+"# MOTS-C (10mg)
+
+$116.00
+
+Size: 10mg
+Contents: MOTS-C
+Form: Lyophilized powder
+Purity: >99%
+SKU: P-MOTS-C-10mg"
+[/QUOTE]
+
+[CLAIM] skus.sermorelin-5mg
+[URL] https://www.corepeptides.com/peptides/sermorelin-5mg/
+[FETCHED_AT] 2026-05-07T17:05:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/product_06__sermorelin-5mg.md
+[LINE_RANGE] 28-48
+[QUOTE]
+"# Sermorelin (5mg)
+
+~~$ 50.00~~ Original price was: $50.00.$48.00Current price is: $48.00.
+
+Size: 5mg
+Contents: Sermorelin
+Form: Lyophilized powder
+Purity: >99%
+SKU: P-SERMORELIN-5"
+[/QUOTE]
+
+[CLAIM] trust_compliance.research_use_only_phrasing
+[URL] https://corepeptides.com/peptides/
+[FETCHED_AT] 2026-05-07T03:02:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/catalog.md
+[LINE_RANGE] 157
+[QUOTE]
+"_**All products are sold for research, laboratory, or analytical purposes only, and are not for human consumption.**_"
+[/QUOTE]
+
+[CLAIM] trust_compliance.tos_url / trust_compliance.tos_highlights
+[URL] https://corepeptides.com/terms/
+[FETCHED_AT] 2026-05-07T03:02:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/tos.md
+[LINE_RANGE] 56-76
+[QUOTE]
+"**IN-VITRO LABORATORY RESEARCH**. To the extent there is any information contained on the Website, it is strictly for the sole purposes of in-vitro laboratory research.
+
+**NOT FDA APPROVED**. To the extent that there are any products for sale on the Website, they are not FDA authorized or approved to prevent, treat, diagnose, mitigate, or cure any disease, ailment or medical condition.
+
+**NOT FOR HUMAN CONSUMPTION**. User understands and agrees that any product sold by [www.corepeptides.com](https://www.corepeptides.com/) is not to be used, consumed, ingested, or otherwise by any human. These products are not for animal or human consumption of any type, form, variation or otherwise.
+
+**RETURN POLICY**. All sales on [www.corepeptides.com](https://www.corepeptides.com/) are final and we do not accept any returns.
+
+**AGE RESTRICTION.** In order to use and purchase from [www.corepeptides.com](https://www.corepeptides.com/), you must be 18 years of age or older."
+[/QUOTE]
+
+[CLAIM] trust_compliance.refund_policy
+[URL] https://corepeptides.com/shipping/
+[FETCHED_AT] 2026-05-07T03:02:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/shipping.md
+[LINE_RANGE] 44-53
+[QUOTE]
+"## Returns and Refunds
+
+If your order has not yet shipped, you may cancel your order by contacting us at [support@corepeptides.com](mailto:support@corepeptides.com) for a refund.
+
+Refunds may be requested up to 30 days after an order is placed.
+
+## Refund Timeframe
+
+Refunds should settle and post to your account in 2 to 3 business days."
+[/QUOTE]
+
+[CLAIM] trust_compliance.shipping_policy / checkout_flow.shipping_carriers / checkout_flow.shipping_cost_structure
+[URL] https://corepeptides.com/shipping/
+[FETCHED_AT] 2026-05-07T03:02:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/shipping.md
+[LINE_RANGE] 28-42
+[QUOTE]
+"We at Core Peptides offer Free Priority USPS shipping on orders over $200 within the US.
+
+All our Free Shipping offers are for US addresses only, unless specified otherwise.
+
+We offer same (business) day shipping for orders placed before 1pm PST Monday-Friday. All orders received after 1pm PST, or on weekends or holidays, will ship on the next business day.
+
+We also offer Priority Express shipping (overnight USPS). We will soon be offering FedEx shipping as well."
+[/QUOTE]
+
+[CLAIM] trust_compliance.age_gate_present
+[INFERENCE]
+[SUPPORT_QUOTE]
+[URL] https://corepeptides.com/
+[FETCHED_AT] 2026-05-07T02:59:07Z
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/homepage.md
+[LINE_RANGE] 8-30
+[QUOTE]
+"Skip to Content
+
+[](https://www.corepeptides.com/)
+
+  * [Home](https://www.corepeptides.com/)
+  * [Peptides for Sale](https://www.corepeptides.com/peptides/)
+  * [About Us](https://www.corepeptides.com/about-us/)
+  * [Contact](https://www.corepeptides.com/contact-us/)
+  * [My Account](https://www.corepeptides.com/my-account/)[Login](https://www.corepeptides.com/my-account/)"
+[/QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://corepeptides.com/terms/
+[FETCHED_AT] 2026-05-07T03:02:37Z
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/tos.md
+[LINE_RANGE] 72
+[QUOTE]
+"**AGE RESTRICTION.** In order to use and purchase from [www.corepeptides.com](https://www.corepeptides.com/), you must be 18 years of age or older."
+[/QUOTE]
+[REASONING]
+Homepage loads directly to content with no interstitial age gate popup or modal. The TOS states an 18+ age restriction in text, but no browser-blocking age-gate mechanism is triggered on site entry. Age restriction is contractual only (TOS acceptance), not a technical gate. Therefore age_gate_present = false.
+[/INFERENCE]
+
+[CLAIM] trust_compliance.jurisdictional_restriction_notice
+[URL] https://corepeptides.com/terms/
+[FETCHED_AT] 2026-05-07T03:02:37Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/tos.md
+[LINE_RANGE] 82-87
+[QUOTE]
+"Regulatory and legal considerations of customer's ownership, use, or possession of any products sold by [www.corepeptides.com](https://www.corepeptides.com/) in customer's jurisdiction specific to customer's municipality, state, country, or government."
+[/QUOTE]
+
+[CLAIM] checkout_flow.account_required / checkout_flow.guest_checkout_available
+[URL] https://corepeptides.com/my-account/
+[FETCHED_AT] 2026-05-07T03:06:45Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/account.md
+[LINE_RANGE] 28-47
+[QUOTE]
+"# My account
+
+## Login
+
+Username or email address *Required
+
+Password *Required
+
+Remember me Log in
+
+[Lost your password?](https://www.corepeptides.com/my-account/lost-password/)
+
+## Register
+
+Email address *Required
+
+A link to set a new password will be sent to your email address.
+
+Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our [privacy policy](https://www.corepeptides.com/privacy/).
+
+Register"
+[/QUOTE]
+
+[CLAIM] checkout_flow.payment_methods_accepted
+[URL] https://www.corepeptides.com/checkout/
+[FETCHED_AT] 2026-05-07T17:09:40Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/checkout_flow.md
+[LINE_RANGE] 14-20
+[QUOTE]
+"Payment gateways loaded:
+  1. payment_method_cheque (WooCommerce check - CSS shows PayPal logo img)
+  2. payment_method_edd_ach (ACH/eCheck via EDD gateway)
+  3. inoviodirectmethod (Inovio credit card processor - WP plugin: zigu-payment-gateway)"
+[/QUOTE]
+
+[CLAIM] checkout_flow.fields_collected / checkout_flow.international_policy
+[URL] https://www.corepeptides.com/cart/
+[FETCHED_AT] 2026-05-07T17:07:07Z
+[FETCH_METHOD] gstack-browse
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/cart_with_item.md
+[LINE_RANGE] 1-40
+[QUOTE]
+"Calculate shipping
+Country / region
+Select a country / region...
+United States (US)
+State / County *
+Town / City *
+Postcode / ZIP *"
+[/QUOTE]
+
+[CLAIM] tech_stack.platform_signal
+[URL] https://corepeptides.com/
+[FETCHED_AT] 2026-05-07T03:03:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/source_homepage.md
+[LINE_RANGE] 69-74
+[QUOTE]
+"wp-content/plugins/side-cart-woocommerce
+wp-content/plugins/woocommerce
+wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag
+wp-content/themes/Divi
+wp-content/themes/core-child"
+[/QUOTE]
+
+[CLAIM] tech_stack.cdn
+[URL] https://corepeptides.com/
+[FETCHED_AT] 2026-05-07T03:03:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/source_homepage.md
+[LINE_RANGE] 9-13
+[QUOTE]
+"HTTP/2 301
+date: Thu, 07 May 2026 03:00:54 GMT
+content-type: text/html
+location: https://www.corepeptides.com/
+server: cloudflare"
+[/QUOTE]
+[URL] https://corepeptides.com/
+[FETCHED_AT] 2026-05-07T03:03:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/source_homepage.md
+[LINE_RANGE] 45-48
+[QUOTE]
+"x-nitro-cache: HIT
+x-nitro-cache-from: drop-in
+x-nitro-rev: 982ef96
+x-powered-by: WP Engine"
+[/QUOTE]
+
+[CLAIM] tech_stack.analytics_tools_loaded / tech_stack.marketing_pixels_present
+[URL] https://corepeptides.com/
+[FETCHED_AT] 2026-05-07T03:03:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/source_homepage.md
+[LINE_RANGE] 76-91
+[QUOTE]
+"=== ANALYTICS/ADS TAG IDS ===
+AW-17489952560
+G-9WTZRMT7B7
+GTM-T5P89NWZ
+
+=== GTM URLs ===
+googletagmanager.com
+googletagmanager.com/gtag/js?id=G-9WTZRMT7B7
+googletagmanager.com/gtm.js?id=
+googletagmanager.com/ns.html?id=GTM-T5P89NWZ
+
+=== WC GOOGLE PLUGINS ===
+woocommerce-google-adwords-conversion-tracking-tag
+woocommerce-google-analytics-integration-data-js-after
+woocommerce-google-analytics-integration-gtag-js-after
+woocommerce-google-analytics-integration-js"
+[/QUOTE]
+
+[CLAIM] tech_stack.chat_widget_present
+[INFERENCE]
+[SUPPORT_QUOTE]
+[URL] https://corepeptides.com/
+[FETCHED_AT] 2026-05-07T03:03:40Z
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/source_homepage.md
+[LINE_RANGE] 63-119
+[QUOTE]
+"=== TECH-STACK SIGNALS EXTRACTED FROM HOMEPAGE HTML ===
+
+<meta content="Core Child Theme v.4.27.8" name="generator" />
+<meta name="generator" content="Advanced Coupons for WooCommerce Free v4.7.2" />
+<meta name="generator" content="NitroPack" />"
+[/QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://corepeptides.com/contact-us/
+[FETCHED_AT] 2026-05-07T03:02:38Z
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/contact.md
+[LINE_RANGE] 28-53
+[QUOTE]
+"# Get in touch with us.
+
+You can email us directly at [support@corepeptides.com](mailto:support@corepeptides.com) or fill out the form below.
+
+Name
+Email
+Subject
+Message
+
+Please prove you are human by selecting the star."
+[/QUOTE]
+[REASONING]
+No Intercom, Tawk.to, Zendesk, or other chat widget JS observed in homepage tech-stack signals. Contact page uses a static form (anti-bot question: select the star). No live chat widget indicators in any fetched page. Therefore chat_widget_present = false.
+[/INFERENCE]
+
+[CLAIM] content_footprint.blog_present / content_footprint.blog_url / content_footprint.content_cadence / content_footprint.topic_taxonomy
+[URL] https://www.corepeptides.com/blog/
+[FETCHED_AT] 2026-05-07T17:05:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/blog_1.md
+[LINE_RANGE] 28-80
+[QUOTE]
+"# LATEST PEPTIDE ARTICLES
+
+  [Interactions Between PE-22-28 and Nerve Cells](https://www.corepeptides.com/interactions-between-pe-22-28-and-nerve-cells/)
+
+Apr 30, 2026
+
+  [GHK-Cu Peptide: A Review of Mechanisms and Studies](https://www.corepeptides.com/ghk-cu-peptide-a-review-of-mechanisms-and-studies/)
+
+Apr 20, 2026
+
+  [Epigenetic Potential of Vesilute](https://www.corepeptides.com/epigenetic-potential-of-vesilute/)
+
+Apr 6, 2026
+
+  [KED Potential Actions in Different Models of Cellular Aging](https://www.corepeptides.com/ked-potential-actions-in-different-models-of-cellular-aging/)
+
+Apr 1, 2026
+
+  [The Potential of Anabolism and Synergism in a Sermorelin & Ipamorelin Blend](https://www.corepeptides.com/the-potential-of-anabolism-and-synergism-in-a-sermorelin-ipamorelin-blend/)
+
+Mar 23, 2026"
+[/QUOTE]
+
+[CLAIM] content_footprint.author_bylines_present
+[URL] https://www.corepeptides.com/dr-marinov/
+[FETCHED_AT] 2026-05-07T17:05:18Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/author_dr_marinov.md
+[LINE_RANGE] 28-40
+[QUOTE]
+"# Dr. Marinov (MD, Ph.D.)
+
+Dr. Marinov (MD, Ph.D.) is a researcher and chief assistant professor in Preventative Medicine & Public Health. Prior to his professorship, Dr. Marinov practiced preventative, evidence-based medicine with an emphasis on Nutrition and Dietetics. He is widely published in international peer-reviewed scientific journals."
+[/QUOTE]
+
+[CLAIM] social_proof.on_site_reviews / social_proof.testimonial_usage
+[INFERENCE]
+[SUPPORT_QUOTE]
+[URL] https://corepeptides.com/
+[FETCHED_AT] 2026-05-07T02:59:07Z
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/homepage.md
+[LINE_RANGE] 28-200
+[QUOTE]
+"# Highest Quality
+Peptides For Sale
+
+We are proud to carry the highest quality peptides and peptide blends in the research industry.
+
+[BUY PEPTIDES](/peptides/)
+
+## Free delivery
+
+Any purchase of $200 or more qualifies for free delivery within the USA.
+
+## Highest quality peptides
+
+Our products are scientifically-formulated and produced in cGMP facilities.
+
+## Online support"
+[/QUOTE]
+[SUPPORT_QUOTE]
+[URL] https://corepeptides.com/peptides/bpc-157/
+[FETCHED_AT] 2026-05-07T03:02:50Z
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/product_01__bpc-157.md
+[LINE_RANGE] 74-80
+[QUOTE]
+"  * Description
+  * Certificate of Analysis"
+[/QUOTE]
+[REASONING]
+Homepage and product page rendered text shows no customer review section, star ratings, testimonial quotes, or Trustpilot badge. Product page tabs are only Description and Certificate of Analysis. No review tab observed. Therefore on_site_reviews = false, testimonial_usage = none observed.
+[/INFERENCE]
+
+[CLAIM] country_of_operation / fulfillment_country
+[URL] https://corepeptides.com/contact-us/
+[FETCHED_AT] 2026-05-07T03:02:38Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/contact.md
+[LINE_RANGE] 56-57
+[QUOTE]
+"5401 S Kirkman Rd suite 310, Orlando FL 32819"
+[/QUOTE]
+[URL] https://corepeptides.com/about-us/
+[FETCHED_AT] 2026-05-07T03:02:21Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/about.md
+[LINE_RANGE] 30-31
+[QUOTE]
+"We are a leading provider of high-quality peptides for laboratories, researchers, and academic institutions within the United States. All our products are synthesized and lyophilized in the United States, with purity levels exceeding 99%+."
+[/QUOTE]
+
+[CLAIM] homepage.navigation_pattern
+[URL] https://corepeptides.com/
+[FETCHED_AT] 2026-05-07T02:59:07Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/homepage.md
+[LINE_RANGE] 12-16
+[QUOTE]
+"  * [Home](https://www.corepeptides.com/)
+  * [Peptides for Sale](https://www.corepeptides.com/peptides/)
+  * [About Us](https://www.corepeptides.com/about-us/)
+  * [Contact](https://www.corepeptides.com/contact-us/)
+  * [My Account](https://www.corepeptides.com/my-account/)[Login](https://www.corepeptides.com/my-account/)"
+[/QUOTE]
+
+[CLAIM] skus.bpc-157-tb-500-blend-10mg-20mg (claim-10)
+[URL] https://www.corepeptides.com/peptides/bpc-157-tb-500-10mg-blend/
+[FETCHED_AT] 2026-05-07T17:09:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/product_07__bpc-157-tb-500-blend.md
+[LINE_RANGE] 28-40
+[QUOTE]
+"# BPC-157 & TB-500 Blend (10mg/20mg)
+
+$105.00 – $195.00Price range: $105.00 through $195.00"
+[/QUOTE]
+
+[CLAIM] skus.bpc-157-tb-500-ghk-cu-blend-70mg (claim-11)
+[URL] https://www.corepeptides.com/peptides/bpc-157-tb-500-ghk-cu-blend/
+[FETCHED_AT] 2026-05-07T17:09:40Z
+[FETCH_METHOD] curl
+[RAW_ARTIFACT] 03_raw_fetches/core-peptides/product_08__bpc-157-tb-500-ghk-cu-blend.md
+[LINE_RANGE] 28-45
+[QUOTE]
+"# BPC-157 & TB-500 & GHK-Cu Blend (70mg)
+
+$300.00
+
+Size: 70mg
+Contents: BPC-157 (10mg) & TB-500 (10mg) & GHK-Cu (50mg)"
+[/QUOTE]
