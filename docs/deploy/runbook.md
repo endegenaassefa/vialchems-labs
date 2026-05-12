@@ -3,6 +3,8 @@
 Phase 12.4 (v4) — D18 closure (Vercel production deploy procedure).
 
 This runbook walks the operator from "I have credentials" to "vialchemlabs.net is live and serving production traffic".
+For exact account-creation steps and credential collection, start with
+`docs/deploy/live-account-setup.md`.
 
 ## 0 — Pre-launch checklist
 
@@ -25,7 +27,7 @@ Before running any of the steps below, verify all of these are true:
 One-time interactive auth + project creation.
 
 ```bash
-cd /root/peptide-site
+cd /tmp/vialchems-launch-H3DVlL
 npx vercel login          # opens browser; sign in
 npx vercel link           # interactive: create new project named "vialchemlabs"
 ```

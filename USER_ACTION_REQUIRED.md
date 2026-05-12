@@ -7,6 +7,8 @@ ready.
 ## Accounts and Hosting
 
 - Vercel project connected to this repository and configured to use Node 22.
+- Vercel `VERCEL_TOKEN`, `VERCEL_ORG_ID`, and `VERCEL_PROJECT_ID` collected
+  per `docs/deploy/live-account-setup.md`.
 - Production domain added to Vercel with SSL active.
 - DNS records for `vialchemlabs.net` and any `www` redirect target.
 - GitHub Actions enabled for this repository.
@@ -32,7 +34,8 @@ ready.
 ## Supabase
 
 - Create the Supabase project.
-- Apply `supabase/migrations/20260510000001_init.sql`.
+- Set `SUPABASE_DB_URL` locally and apply `supabase/migrations/20260510000001_init.sql`
+  with `bash scripts/supabase-apply-migrations.sh`.
 - Confirm RLS policies against the final auth model before public accounts are
   opened.
 - Confirm service-role access is server-only in Vercel.
