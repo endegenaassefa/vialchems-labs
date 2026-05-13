@@ -50,7 +50,7 @@ export function V2Header() {
           <ThemeSwitch />
           <Link
             className="icon-btn v2-nav-search"
-            href="/shop"
+            href="/shop?focus=search"
             aria-label="Search catalog"
             title="Search catalog"
           >

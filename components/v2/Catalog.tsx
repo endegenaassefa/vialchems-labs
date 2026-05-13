@@ -1,7 +1,8 @@
 "use client";
 
+import Fuse from "fuse.js";
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import {
   catalogFamilyOrder,
   catalogItems,
@@ -12,13 +13,100 @@ import { Icon } from "./icons";
 import { V2Footer, V2Header } from "./Shell";
 import { ProductVisual, Reveal } from "./Visuals";
 
+type CatalogSearchRow = {
+  item: (typeof catalogItems)[number];
+  name: string;
+  shortName: string;
+  sku: string;
+  code: string;
+  family: string;
+  dose: string;
+  description: string;
+  marketRange: string;
+  constituents: string;
+  searchText: string;
+  compactText: string;
+};
+
+function normalizeSearch(value: string) {
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function compactSearch(value: string) {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, "");
+}
+
+function searchCatalogRows(
+  activeQuery: string,
+  searchRows: CatalogSearchRow[],
+  fuse: Fuse<CatalogSearchRow>,
+) {
+  if (!activeQuery) return catalogItems;
+
+  const normalizedQuery = normalizeSearch(activeQuery);
+  const compactQuery = compactSearch(activeQuery);
+  const exactRows = searchRows.filter(
+    (row) =>
+      row.searchText.includes(normalizedQuery) ||
+      (compactQuery.length >= 2 && row.compactText.includes(compactQuery)),
+  );
+  if (exactRows.length > 0) {
+    return exactRows.map((row) => row.item);
+  }
+
+  const fuzzyRows = fuse.search(activeQuery).map((result) => result.item);
+  const seen = new Set<string>();
+
+  return fuzzyRows
+    .filter((row) => {
+      if (seen.has(row.item.slug)) return false;
+      seen.add(row.item.slug);
+      return true;
+    })
+    .map((row) => row.item);
+}
+
 export function V2Catalog() {
   const [query, setQuery] = useState("");
+  const deferredQuery = useDeferredValue(query);
+  const searchInputRef = useRef<HTMLInputElement>(null);
   const [families, setFamilies] = useState<Record<string, boolean>>({});
   const [showRestricted, setShowRestricted] = useState(true);
   const [inStock, setInStock] = useState(false);
   const [view, setView] = useState<"grid" | "list">("grid");
   const [sort, setSort] = useState("Newest");
+  const activeQuery = deferredQuery.trim();
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const initialQuery = params.get("q") ?? "";
+    const shouldFocus =
+      params.get("focus") === "search" || Boolean(initialQuery);
+    if (initialQuery || shouldFocus) {
+      window.requestAnimationFrame(() => {
+        if (initialQuery) setQuery(initialQuery);
+        searchInputRef.current?.focus();
+        searchInputRef.current?.select();
+      });
+    }
+  }, []);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const trimmed = query.trim();
+    if (trimmed) {
+      params.set("q", trimmed);
+    } else {
+      params.delete("q");
+    }
+    params.delete("focus");
+    const search = params.toString();
+    const nextUrl = `${window.location.pathname}${search ? `?${search}` : ""}`;
+    window.history.replaceState(null, "", nextUrl);
+  }, [query]);
 
   const allFamilies = useMemo(() => {
     const available = new Set(catalogItems.map((item) => item.family));
@@ -33,11 +121,69 @@ export function V2Catalog() {
     );
     return [...ordered, ...extras];
   }, []);
+
+  const searchRows = useMemo<CatalogSearchRow[]>(
+    () =>
+      catalogItems.map((item) => {
+        const code = skuCode(item.sku);
+        const constituents =
+          item.kind === "bundle" ? item.source.constituents.join(" ") : "";
+        const searchText = [
+          item.name,
+          item.shortName,
+          item.sku,
+          code,
+          item.family,
+          item.dose,
+          item.description,
+          item.marketRange,
+          constituents,
+        ].join(" ");
+
+        return {
+          item,
+          name: item.name,
+          shortName: item.shortName,
+          sku: item.sku,
+          code,
+          family: item.family,
+          dose: item.dose,
+          description: item.description,
+          marketRange: item.marketRange,
+          constituents,
+          searchText: normalizeSearch(searchText),
+          compactText: compactSearch(searchText),
+        };
+      }),
+    [],
+  );
+
+  const fuse = useMemo(
+    () =>
+      new Fuse(searchRows, {
+        includeScore: true,
+        ignoreLocation: true,
+        minMatchCharLength: 1,
+        threshold: 0.34,
+        keys: [
+          { name: "shortName", weight: 0.28 },
+          { name: "name", weight: 0.24 },
+          { name: "sku", weight: 0.18 },
+          { name: "code", weight: 0.16 },
+          { name: "family", weight: 0.14 },
+          { name: "constituents", weight: 0.1 },
+          { name: "dose", weight: 0.08 },
+          { name: "description", weight: 0.07 },
+          { name: "marketRange", weight: 0.04 },
+        ],
+      }),
+    [searchRows],
+  );
+
+  const searched = searchCatalogRows(activeQuery, searchRows, fuse);
+
   const filtered = useMemo(() => {
-    const searched = catalogItems.filter((item) => {
-      const haystack =
-        `${item.name} ${item.shortName} ${item.sku} ${skuCode(item.sku)} ${item.family}`.toLowerCase();
-      if (query.trim() && !haystack.includes(query.toLowerCase())) return false;
+    const filteredByControls = searched.filter((item) => {
       const anyFamily = Object.values(families).some(Boolean);
       if (anyFamily && !families[item.family]) return false;
       if (!showRestricted && item.restricted) return false;
@@ -45,13 +191,13 @@ export function V2Catalog() {
       return true;
     });
 
-    return [...searched].sort((a, b) => {
+    return [...filteredByControls].sort((a, b) => {
       if (sort === "Price ↑") return a.priceCents - b.priceCents;
       if (sort === "Price ↓") return b.priceCents - a.priceCents;
       if (sort === "Mass") return a.dose.localeCompare(b.dose);
       return 0;
     });
-  }, [families, inStock, query, showRestricted, sort]);
+  }, [families, inStock, searched, showRestricted, sort]);
 
   return (
     <>
@@ -112,15 +258,55 @@ export function V2Catalog() {
                     <Icon.search size={14} strokeWidth={1.5} />
                   </span>
                   <input
+                    ref={searchInputRef}
                     className="input mono"
+                    aria-label="Search catalog"
                     placeholder="Search product, sequence, formula, lot..."
                     value={query}
                     onChange={(event) => setQuery(event.target.value)}
-                    style={{ paddingLeft: 36 }}
+                    onKeyDown={(event) => {
+                      if (event.key === "Escape") {
+                        setQuery("");
+                        searchInputRef.current?.focus();
+                      }
+                    }}
+                    style={{ paddingLeft: 36, paddingRight: query ? 72 : 12 }}
                   />
+                  {query && (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setQuery("");
+                        searchInputRef.current?.focus();
+                      }}
+                      className="btn btn-link"
+                      style={{
+                        position: "absolute",
+                        right: 8,
+                        top: "50%",
+                        transform: "translateY(-50%)",
+                        fontSize: 11,
+                      }}
+                    >
+                      Clear
+                    </button>
+                  )}
                 </div>
               </div>
             </div>
+            {activeQuery && (
+              <div
+                className="mono"
+                aria-live="polite"
+                style={{
+                  marginTop: 14,
+                  fontSize: 11,
+                  color: "var(--fg-muted)",
+                }}
+              >
+                {filtered.length} matched for &quot;{activeQuery}&quot;
+              </div>
+            )}
           </div>
         </div>
 
