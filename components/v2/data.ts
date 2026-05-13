@@ -1,7 +1,6 @@
 import {
   bundles,
   formatPrice,
-  productCategories,
   products,
   type Bundle,
   type Product,
@@ -41,7 +40,64 @@ export type CatalogItem =
       source: Bundle;
     };
 
-const categoryLabels = new Map(productCategories.map((c) => [c.id, c.label]));
+export const catalogFamilyOrder = [
+  "Reference peptide",
+  "Secretagogue",
+  "Blend",
+  "Neuropeptide",
+  "Metabolic peptide",
+  "Research peptide",
+  "Growth factor",
+  "Popular stack",
+] as const;
+
+const blendSlugs = new Set([
+  "cjc-1295-ipamorelin-10mg",
+  "sermorelin-ipamorelin-10mg",
+]);
+
+const familyBySlug = new Map<string, string>([
+  ["bpc-157-10mg", "Reference peptide"],
+  ["tb-500-5mg", "Reference peptide"],
+  ["tb-500-10mg", "Reference peptide"],
+  ["ghk-cu-50mg", "Reference peptide"],
+  ["kpv-5mg", "Reference peptide"],
+  ["kpv-10mg", "Reference peptide"],
+  ["ipamorelin-10mg", "Secretagogue"],
+  ["ipamorelin-5mg", "Secretagogue"],
+  ["cjc-1295-no-dac-5mg", "Secretagogue"],
+  ["cjc-1295-dac-2mg", "Secretagogue"],
+  ["sermorelin-2mg", "Secretagogue"],
+  ["sermorelin-5mg", "Secretagogue"],
+  ["tesamorelin-5mg", "Secretagogue"],
+  ["ghrp-2-5mg", "Secretagogue"],
+  ["ghrp-6-5mg", "Secretagogue"],
+  ["hexarelin-2mg", "Secretagogue"],
+  ["selank-10mg", "Neuropeptide"],
+  ["semax-30mg", "Neuropeptide"],
+  ["semax-10mg", "Neuropeptide"],
+  ["dsip-5mg", "Neuropeptide"],
+  ["mots-c-10mg", "Metabolic peptide"],
+  ["nad-500mg", "Metabolic peptide"],
+  ["epitalon-50mg", "Metabolic peptide"],
+  ["epitalon-10mg", "Metabolic peptide"],
+  ["aod-9604-5mg", "Metabolic peptide"],
+  ["pt-141-10mg", "Research peptide"],
+  ["melanotan-ii-10mg", "Research peptide"],
+  ["kisspeptin-10-10mg", "Research peptide"],
+  ["thymosin-alpha-1-5mg", "Research peptide"],
+  ["thymosin-alpha-1-10mg", "Research peptide"],
+  ["ll-37-5mg", "Research peptide"],
+  ["follistatin-344-1mg", "Growth factor"],
+  ["igf-1-lr3-1mg", "Growth factor"],
+  ["peg-mgf-2mg", "Growth factor"],
+  ["igf-1-des-1mg", "Growth factor"],
+]);
+
+function catalogFamily(product: Product) {
+  if (blendSlugs.has(product.slug)) return "Blend";
+  return familyBySlug.get(product.slug) ?? "Research peptide";
+}
 
 const imageBySlug: Record<string, string> = {
   "aod-9604-5mg": "vailchem_aod-9604_5-mg_suggested-59.png",
@@ -115,7 +171,7 @@ export const catalogItems: CatalogItem[] = [
       name: product.name.replace(", ", " · "),
       shortName: product.shortName,
       dose: product.dose,
-      family: categoryLabels.get(product.category) ?? product.category,
+      family: catalogFamily(product),
       priceCents: product.listPriceCents,
       description: product.shortDescription,
       restricted: isRestricted(product),
@@ -133,7 +189,7 @@ export const catalogItems: CatalogItem[] = [
       name: bundle.name,
       shortName: bundle.name,
       dose: "Set",
-      family: "Research Set",
+      family: "Popular stack",
       priceCents: bundle.listPriceCents,
       description: bundle.description,
       restricted: true,

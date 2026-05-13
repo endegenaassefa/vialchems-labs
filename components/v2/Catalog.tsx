@@ -2,7 +2,12 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { catalogItems, displayPrice, skuCode } from "./data";
+import {
+  catalogFamilyOrder,
+  catalogItems,
+  displayPrice,
+  skuCode,
+} from "./data";
 import { Icon } from "./icons";
 import { V2Footer, V2Header } from "./Shell";
 import { ProductVisual, Reveal } from "./Visuals";
@@ -15,10 +20,19 @@ export function V2Catalog() {
   const [view, setView] = useState<"grid" | "list">("grid");
   const [sort, setSort] = useState("Newest");
 
-  const allFamilies = useMemo(
-    () => [...new Set(catalogItems.map((item) => item.family))],
-    [],
-  );
+  const allFamilies = useMemo(() => {
+    const available = new Set(catalogItems.map((item) => item.family));
+    const ordered = catalogFamilyOrder.filter((family) =>
+      available.has(family),
+    );
+    const extras = [...available].filter(
+      (family) =>
+        !catalogFamilyOrder.includes(
+          family as (typeof catalogFamilyOrder)[number],
+        ),
+    );
+    return [...ordered, ...extras];
+  }, []);
   const filtered = useMemo(() => {
     const searched = catalogItems.filter((item) => {
       const haystack =
@@ -118,6 +132,8 @@ export function V2Catalog() {
               alignSelf: "start",
               maxHeight: "calc(100vh - 100px)",
               overflowY: "auto",
+              paddingRight: 22,
+              scrollbarGutter: "stable",
             }}
           >
             <div
@@ -476,6 +492,7 @@ function Check({
             fontFamily: "var(--font-mono)",
             fontSize: 10,
             color: "var(--fg-subtle)",
+            marginRight: 8,
           }}
         >
           {count}
