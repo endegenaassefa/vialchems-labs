@@ -7,6 +7,7 @@ import {
   FileText,
   Filter,
   Link2,
+  Menu,
   Minus,
   Moon,
   Plus,
@@ -16,6 +17,7 @@ import {
   ShoppingCart,
   Sun,
   User,
+  X,
 } from "lucide-react";
 
 export const Icon = {
@@ -28,6 +30,7 @@ export const Icon = {
   download: Download,
   filter: Filter,
   link: Link2,
+  menu: Menu,
   minus: Minus,
   moon: Moon,
   plus: Plus,
@@ -36,4 +39,5 @@ export const Icon = {
   shield: ShieldCheck,
   sun: Sun,
   user: User,
+  x: X,
 };

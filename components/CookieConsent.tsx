@@ -99,11 +99,10 @@ export function CookieConsent() {
       aria-label="Cookie consent"
       className="fixed inset-x-0 bottom-0 z-50 border-t border-[var(--border-strong)] bg-[var(--surface-elevated)]/95 backdrop-blur-md shadow-[var(--shadow-xl)]"
     >
-      <div className="mx-auto max-w-6xl px-6 py-5 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-        <div className="text-[14px] leading-[1.55] text-[var(--text-muted)] max-w-3xl">
-          We use strictly-necessary cookies for cart, checkout, and security.
-          Optional categories (analytics, functional, marketing) are off by
-          default and only enabled if you accept. See our{" "}
+      <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-3 md:flex-row md:items-center md:justify-between md:px-6 md:py-5">
+        <div className="max-w-3xl text-[12px] leading-[1.45] text-[var(--text-muted)] md:text-[14px] md:leading-[1.55]">
+          We use necessary cookies for cart, checkout, and security. Optional
+          cookies stay off unless accepted.{" "}
           <a
             href="/legal/cookies"
             className="text-[var(--accent)] hover:text-[var(--accent-soft)] underline underline-offset-2"
@@ -112,18 +111,18 @@ export function CookieConsent() {
           </a>
           .
         </div>
-        <div className="flex flex-wrap gap-2 shrink-0">
+        <div className="grid grid-cols-3 gap-2 md:flex md:flex-wrap md:shrink-0">
           <button
             type="button"
             onClick={() => commit(rejectAll())}
-            className="font-mono text-[12px] uppercase tracking-[0.14em] px-4 h-10 border border-[var(--border-strong)] rounded-[var(--radius-md)] text-[var(--text-muted)] hover:text-[var(--text)] hover:border-[var(--accent)] transition-colors"
+            className="h-9 rounded-[var(--radius-md)] border border-[var(--border-strong)] px-2 font-mono text-[10px] uppercase tracking-[0.12em] text-[var(--text-muted)] transition-colors hover:border-[var(--accent)] hover:text-[var(--text)] md:h-10 md:px-4 md:text-[12px] md:tracking-[0.14em]"
           >
             Reject all
           </button>
           <button
             type="button"
             onClick={() => setCustomizing((c) => !c)}
-            className="font-mono text-[12px] uppercase tracking-[0.14em] px-4 h-10 border border-[var(--border-strong)] rounded-[var(--radius-md)] text-[var(--text-muted)] hover:text-[var(--text)] hover:border-[var(--accent)] transition-colors"
+            className="h-9 rounded-[var(--radius-md)] border border-[var(--border-strong)] px-2 font-mono text-[10px] uppercase tracking-[0.12em] text-[var(--text-muted)] transition-colors hover:border-[var(--accent)] hover:text-[var(--text)] md:h-10 md:px-4 md:text-[12px] md:tracking-[0.14em]"
             aria-expanded={customizing}
             aria-controls="cookie-consent-customize"
           >
@@ -132,7 +131,7 @@ export function CookieConsent() {
           <button
             type="button"
             onClick={() => commit(acceptAll())}
-            className="font-mono text-[12px] uppercase tracking-[0.14em] px-4 h-10 bg-[var(--accent)] text-[var(--text-on-accent)] rounded-[var(--radius-md)] hover:bg-[var(--accent-hover)] transition-colors"
+            className="h-9 rounded-[var(--radius-md)] bg-[var(--accent)] px-2 font-mono text-[10px] uppercase tracking-[0.12em] text-[var(--text-on-accent)] transition-colors hover:bg-[var(--accent-hover)] md:h-10 md:px-4 md:text-[12px] md:tracking-[0.14em]"
           >
             Accept all
           </button>

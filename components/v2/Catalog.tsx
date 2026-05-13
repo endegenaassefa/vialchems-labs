@@ -76,6 +76,7 @@ export function V2Catalog() {
   const [families, setFamilies] = useState<Record<string, boolean>>({});
   const [showRestricted, setShowRestricted] = useState(true);
   const [inStock, setInStock] = useState(false);
+  const [filtersOpen, setFiltersOpen] = useState(false);
   const [view, setView] = useState<"grid" | "list">("grid");
   const [sort, setSort] = useState("Newest");
   const activeQuery = deferredQuery.trim();
@@ -245,7 +246,7 @@ export function V2Catalog() {
                 </div>
               </div>
               <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
-                <div style={{ position: "relative", width: 360 }}>
+                <div className="catalog-search-box">
                   <span
                     style={{
                       position: "absolute",
@@ -261,7 +262,7 @@ export function V2Catalog() {
                     ref={searchInputRef}
                     className="input mono"
                     aria-label="Search catalog"
-                    placeholder="Search product, sequence, formula, lot..."
+                    placeholder="Search product, SKU, family..."
                     value={query}
                     onChange={(event) => setQuery(event.target.value)}
                     onKeyDown={(event) => {
@@ -311,7 +312,23 @@ export function V2Catalog() {
         </div>
 
         <div className="container catalog-shell">
+          <button
+            type="button"
+            className="catalog-filter-toggle"
+            aria-expanded={filtersOpen}
+            aria-controls="catalog-filter-panel"
+            onClick={() => setFiltersOpen((open) => !open)}
+          >
+            <span>
+              <Icon.filter size={14} strokeWidth={1.5} />
+              Filters
+            </span>
+            <span>{filtersOpen ? "Hide" : "Open"}</span>
+          </button>
           <aside
+            id="catalog-filter-panel"
+            className="catalog-filter-panel"
+            data-open={filtersOpen ? "true" : "false"}
             style={{
               position: "sticky",
               top: 80,

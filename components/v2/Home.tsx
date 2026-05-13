@@ -24,6 +24,7 @@ export function V2Home() {
       <V2Header />
       <main id="main">
         <Hero />
+        <AssuranceBand />
         <HowItWorks />
         <Features />
         <ProductPreview />
@@ -46,7 +47,7 @@ function Hero() {
         <MoleculeBg />
       </div>
       <div
-        className="container"
+        className="container v2-hero-grid"
         style={{
           position: "relative",
           padding: "72px 24px 88px",
@@ -58,7 +59,7 @@ function Hero() {
         }}
         data-v2-home-hero=""
       >
-        <div>
+        <div className="v2-hero-copy">
           <div className="badge badge-ruo" style={{ marginBottom: 24 }}>
             <span className="badge-dot" />
             VAILCHEM.LABS · RESEARCH USE ONLY
@@ -130,8 +131,12 @@ function FloatingCards() {
   }, []);
 
   return (
-    <div style={{ position: "relative", height: 500, perspective: 1200 }}>
+    <div
+      className="hero-proof-stack"
+      style={{ position: "relative", height: 500, perspective: 1200 }}
+    >
       <div
+        className="hero-proof-glow"
         style={{
           position: "absolute",
           inset: "12% 12%",
@@ -142,6 +147,7 @@ function FloatingCards() {
       />
 
       <div
+        className="hero-proof-card hero-proof-card-product"
         style={{
           position: "absolute",
           top: 18,
@@ -206,6 +212,7 @@ function FloatingCards() {
       </div>
 
       <div
+        className="hero-proof-card hero-proof-card-coa"
         style={{
           position: "absolute",
           top: 68,
@@ -306,6 +313,7 @@ function FloatingCards() {
       </div>
 
       <div
+        className="hero-proof-card hero-proof-card-timeline"
         style={{
           position: "absolute",
           bottom: 8,
@@ -341,6 +349,47 @@ function FloatingCards() {
         </div>
       </div>
     </div>
+  );
+}
+
+function AssuranceBand() {
+  const assurances = [
+    {
+      title: "COA-linked lots",
+      body: "Batch documents stay one tap from each vial.",
+      icon: <Icon.doc size={18} strokeWidth={1.5} />,
+    },
+    {
+      title: "Identity checks",
+      body: "Release records are framed around analytical verification.",
+      icon: <Icon.shield size={18} strokeWidth={1.5} />,
+    },
+    {
+      title: "Protected shipment",
+      body: "Cold-chain packaging and replacement support are visible before order.",
+      icon: <Icon.download size={18} strokeWidth={1.5} />,
+    },
+    {
+      title: "Secure checkout",
+      body: "Buyer qualification and payment status stay documented.",
+      icon: <Icon.check size={18} strokeWidth={1.5} />,
+    },
+  ];
+
+  return (
+    <section className="v2-assurance-band" aria-label="Ordering assurances">
+      <div className="container v2-assurance-grid">
+        {assurances.map((item) => (
+          <div key={item.title} className="v2-assurance-item">
+            <div className="v2-assurance-icon">{item.icon}</div>
+            <div>
+              <h3>{item.title}</h3>
+              <p>{item.body}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }
 

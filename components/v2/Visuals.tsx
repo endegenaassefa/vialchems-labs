@@ -6,22 +6,25 @@ import type { CatalogItem } from "./data";
 export function MoleculeBg() {
   const { nodes, edges } = useMemo(() => {
     const seed = 7;
+    const round = (value: number, places = 3) => Number(value.toFixed(places));
     const rand = (s: number) => {
       const x = Math.sin(s) * 10000;
       return x - Math.floor(x);
     };
     const ns = Array.from({ length: 32 }, (_, i) => ({
-      x: rand(seed + i * 1.7) * 1400,
-      y: rand(seed + i * 2.3) * 700,
-      r: 1.5 + rand(i * 0.7) * 1.5,
+      x: round(rand(seed + i * 1.7) * 1400),
+      y: round(rand(seed + i * 2.3) * 700),
+      r: round(1.5 + rand(i * 0.7) * 1.5),
     }));
-    const es: { a: number; b: number; d: number }[] = [];
+    const es: { a: number; b: number; d: number; opacity: number }[] = [];
     for (let i = 0; i < ns.length; i += 1) {
       for (let j = i + 1; j < ns.length; j += 1) {
         const dx = ns[i].x - ns[j].x;
         const dy = ns[i].y - ns[j].y;
-        const d = Math.sqrt(dx * dx + dy * dy);
-        if (d < 160) es.push({ a: i, b: j, d });
+        const d = round(Math.sqrt(dx * dx + dy * dy));
+        if (d < 160) {
+          es.push({ a: i, b: j, d, opacity: round(1 - d / 160, 4) });
+        }
       }
     }
     return { nodes: ns, edges: es };
@@ -50,7 +53,7 @@ export function MoleculeBg() {
           y2={nodes[edge.b].y}
           stroke="var(--line-strong)"
           strokeWidth="0.5"
-          opacity={1 - edge.d / 160}
+          opacity={edge.opacity}
         />
       ))}
       {nodes.map((node, i) => (
