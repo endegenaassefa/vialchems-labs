@@ -253,6 +253,12 @@ export default function OrderDetailPage({
             carrier,
           })
         }
+        onShipShippo={() =>
+          postAction(`/api/ops/orders/${order.id}/ship`, {
+            expectedStatus: order.status,
+            shippoPurchase: true,
+          })
+        }
         onRefund={(amountCents, reason) =>
           postAction(`/api/ops/orders/${order.id}/refund`, {
             expectedStatus: order.status,
@@ -286,12 +292,14 @@ function FulfillmentPanel({
   actionPending,
   onFulfill,
   onShip,
+  onShipShippo,
   onRefund,
 }: {
   order: OpsOrderDetail;
   actionPending: boolean;
   onFulfill: () => Promise<boolean>;
   onShip: (trackingNumber: string, carrier: string) => Promise<boolean>;
+  onShipShippo: () => Promise<boolean>;
   onRefund: (amountCents: number, reason: string) => Promise<boolean>;
 }) {
   const status: OrderStatus = order.status;
@@ -321,7 +329,9 @@ function FulfillmentPanel({
         </div>
       )}
 
-      {canShip && <ShipForm onShip={onShip} pending={actionPending} />}
+      {canShip && (
+        <ShipForm onShip={onShip} onShipShippo={onShipShippo} pending={actionPending} />
+      )}
       {canRefund && (
         <RefundForm
           totalCents={order.totalCents}
@@ -347,49 +357,75 @@ function FulfillmentPanel({
 
 function ShipForm({
   onShip,
+  onShipShippo,
   pending,
 }: {
   onShip: (trackingNumber: string, carrier: string) => Promise<boolean>;
+  onShipShippo: () => Promise<boolean>;
   pending: boolean;
 }) {
   const [trackingNumber, setTrackingNumber] = useState("");
   const [carrier, setCarrier] = useState("usps");
 
   return (
-    <div className="rounded-[14px] border border-[var(--border)] p-5 space-y-3">
-      <div className="text-[11px] tracking-[0.24em] uppercase text-[var(--text-muted)]">
-        Attach tracking + mark shipped
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-[1fr_auto_auto] gap-2 items-end">
-        <input
-          type="text"
-          value={trackingNumber}
-          onChange={(e) => setTrackingNumber(e.target.value)}
-          placeholder="Tracking number"
-          className="px-3 py-2 rounded-md border border-[var(--border)] bg-[var(--surface)] font-mono text-sm"
-        />
-        <select
-          value={carrier}
-          onChange={(e) => setCarrier(e.target.value)}
-          className="px-3 py-2 rounded-md border border-[var(--border)] bg-[var(--surface)] text-sm"
-        >
-          <option value="usps">USPS</option>
-          <option value="ups">UPS</option>
-          <option value="fedex">FedEx</option>
-          <option value="dhl">DHL</option>
-          <option value="other">Other</option>
-        </select>
+    <div className="space-y-3">
+      {/* One-click Shippo label-buy */}
+      <div className="rounded-[14px] border border-[var(--border)] p-5 space-y-3 bg-[var(--accent-soft)]">
+        <div className="text-[11px] tracking-[0.24em] uppercase text-[var(--text-muted)]">
+          Buy label via Shippo
+        </div>
         <button
           type="button"
-          disabled={pending || !trackingNumber.trim()}
-          onClick={() => onShip(trackingNumber.trim(), carrier)}
+          disabled={pending}
+          onClick={onShipShippo}
           className="px-4 py-2 rounded-md bg-[var(--accent)] text-white text-sm uppercase tracking-[0.16em] disabled:opacity-50"
         >
-          {pending ? "Working..." : "Ship"}
+          {pending ? "Working..." : "Buy cheapest USPS label + mark shipped"}
         </button>
+        <div className="text-xs text-[var(--text-muted)]">
+          Auto-picks the cheapest USPS rate, buys the label, marks shipped,
+          and emails the customer. Requires SHIPPING_FROM_* + SHIPPO_API_KEY
+          in env. The label PDF URL appears in the audit log.
+        </div>
       </div>
-      <div className="text-xs text-[var(--text-muted)]">
-        Customer gets a tracking email automatically. Test orders divert to ORDER_TEST_INBOX.
+
+      {/* Manual entry path */}
+      <div className="rounded-[14px] border border-[var(--border)] p-5 space-y-3">
+        <div className="text-[11px] tracking-[0.24em] uppercase text-[var(--text-muted)]">
+          Or paste tracking manually (Pirate Ship, etc.)
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-[1fr_auto_auto] gap-2 items-end">
+          <input
+            type="text"
+            value={trackingNumber}
+            onChange={(e) => setTrackingNumber(e.target.value)}
+            placeholder="Tracking number"
+            className="px-3 py-2 rounded-md border border-[var(--border)] bg-[var(--surface)] font-mono text-sm"
+          />
+          <select
+            value={carrier}
+            onChange={(e) => setCarrier(e.target.value)}
+            className="px-3 py-2 rounded-md border border-[var(--border)] bg-[var(--surface)] text-sm"
+          >
+            <option value="usps">USPS</option>
+            <option value="ups">UPS</option>
+            <option value="fedex">FedEx</option>
+            <option value="dhl">DHL</option>
+            <option value="other">Other</option>
+          </select>
+          <button
+            type="button"
+            disabled={pending || !trackingNumber.trim()}
+            onClick={() => onShip(trackingNumber.trim(), carrier)}
+            className="px-4 py-2 rounded-md border border-[var(--accent)] text-[var(--accent)] text-sm uppercase tracking-[0.16em] disabled:opacity-50"
+          >
+            {pending ? "Working..." : "Mark shipped"}
+          </button>
+        </div>
+        <div className="text-xs text-[var(--text-muted)]">
+          Customer gets a tracking email automatically. Test orders divert
+          to ORDER_TEST_INBOX.
+        </div>
       </div>
     </div>
   );
