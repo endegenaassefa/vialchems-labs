@@ -13,7 +13,6 @@ import {
   recordOpsAuthAttempt,
 } from "@/lib/ops/rate-limit";
 import { serviceSupabase } from "@/lib/supabase";
-import { isProductionRuntime } from "@/lib/runtime-env";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -36,7 +35,10 @@ function expectedToken(): string | null {
 function sessionCookieOptions(maxAge: number) {
   return {
     httpOnly: true,
-    secure: isProductionRuntime(),
+    // Secure everywhere except local dev — a preview deploy or a self-hosted
+    // box where NODE_ENV/VERCEL_ENV aren't "production" must still get a
+    // Secure cookie. Only http://localhost development opts out.
+    secure: process.env.NODE_ENV !== "development",
     sameSite: "strict" as const,
     path: "/",
     maxAge,

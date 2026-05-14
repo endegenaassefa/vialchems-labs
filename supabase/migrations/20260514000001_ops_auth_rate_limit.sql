@@ -5,11 +5,10 @@
 -- one new table, no enum changes, no drops — safe to apply to a database
 -- with existing data.
 --
--- Two-layer limit (enforced in lib/ops/rate-limit.ts):
---   - per-IP: catches a casual attacker hammering from one address
---   - global: catches an attacker rotating the spoofable X-Forwarded-For
---     header, at the cost of briefly locking sign-in for everyone — an
---     acceptable trade vs. a compromised ops token.
+-- Per-IP limit only (enforced in lib/ops/rate-limit.ts): PER_IP_MAX failed
+-- attempts from one address in a 15-minute window locks that address. No
+-- global counter — a global hard-lock would itself be a DoS (any anonymous
+-- caller could lock out all staff sign-in).
 --
 -- RLS is enabled with no policies, matching every other table in init.sql:
 -- only the service-role client (which bypasses RLS) ever touches this table.
@@ -25,7 +24,7 @@ create table if not exists ops_auth_attempts (
 create index if not exists ops_auth_attempts_ip_time_idx
   on ops_auth_attempts (ip_hash, attempted_at);
 
--- Global failure lookups + the best-effort age-out purge.
+-- Supports the best-effort age-out purge (delete rows past the window).
 create index if not exists ops_auth_attempts_time_idx
   on ops_auth_attempts (attempted_at);
 

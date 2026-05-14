@@ -6,12 +6,18 @@ import type { SupabaseClient } from "@supabase/supabase-js";
 // capability, so /api/ops/session must not accept unlimited guesses.
 //
 // Backed by the ops_auth_attempts table (migration 20260514000001). Every
-// sign-in attempt is recorded; new attempts are refused once a threshold of
-// recent FAILED attempts is crossed. Two layers:
-//   - per-IP:  PER_IP_MAX failures in WINDOW_MINUTES locks that IP.
-//   - global:  GLOBAL_MAX failures in WINDOW_MINUTES locks sign-in for all
-//              callers — this defeats X-Forwarded-For rotation. It is brief
-//              and self-healing (attempts age out of the window).
+// sign-in attempt is recorded; new attempts from an IP are refused once
+// PER_IP_MAX recent FAILED attempts are crossed (self-healing — attempts
+// age out of the window).
+//
+// Per-IP only, deliberately. An earlier draft also had a global counter to
+// catch X-Forwarded-For rotation, but a global hard-lock is itself a DoS:
+// any anonymous caller could fire GLOBAL_MAX bad guesses and lock every
+// staff member out of sign-in. A self-inflicted outage is worse than the
+// rotation it defended against. An attacker who spoofs X-Forwarded-For can
+// still spread guesses across buckets — the real protection there is the
+// entropy of OPS_API_TOKEN itself, and the planned per-staff auth (with
+// per-account lockout) is what closes it properly.
 //
 // Fail-open by design: if the backing queries error, sign-in still works.
 // A database blip disabling brute-force protection is far less bad than a
@@ -19,7 +25,6 @@ import type { SupabaseClient } from "@supabase/supabase-js";
 
 const WINDOW_MINUTES = 15;
 const PER_IP_MAX = 10;
-const GLOBAL_MAX = 100;
 
 const WINDOW_MS = WINDOW_MINUTES * 60_000;
 const RETRY_AFTER_SECONDS = WINDOW_MINUTES * 60;
@@ -35,7 +40,7 @@ export function hashIp(ip: string | null | undefined): string {
 
 export interface RateLimitResult {
   allowed: boolean;
-  reason?: "per_ip_locked" | "global_locked";
+  reason?: "per_ip_locked";
   retryAfterSeconds?: number;
 }
 
@@ -55,19 +60,6 @@ export async function checkOpsAuthRateLimit(
     return {
       allowed: false,
       reason: "per_ip_locked",
-      retryAfterSeconds: RETRY_AFTER_SECONDS,
-    };
-  }
-
-  const global = await supabase
-    .from("ops_auth_attempts")
-    .select("id", { count: "exact", head: true })
-    .eq("succeeded", false)
-    .gte("attempted_at", since);
-  if (!global.error && (global.count ?? 0) >= GLOBAL_MAX) {
-    return {
-      allowed: false,
-      reason: "global_locked",
       retryAfterSeconds: RETRY_AFTER_SECONDS,
     };
   }

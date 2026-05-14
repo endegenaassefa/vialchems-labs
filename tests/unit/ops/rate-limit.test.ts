@@ -7,7 +7,6 @@ import {
 
 interface MockOptions {
   perIpFailures?: number;
-  globalFailures?: number;
   countError?: { message: string };
 }
 
@@ -48,10 +47,7 @@ function makeSupabase(opts: MockOptions = {}) {
               error: opts.countError,
             }).then(resolve);
           }
-          const count =
-            "ip_hash" in filters
-              ? (opts.perIpFailures ?? 0)
-              : (opts.globalFailures ?? 0);
+          const count = opts.perIpFailures ?? 0;
           return Promise.resolve({ count, error: null }).then(resolve);
         }
         return Promise.resolve({ data: null, error: null }).then(resolve);
@@ -98,8 +94,8 @@ describe("hashIp", () => {
 });
 
 describe("checkOpsAuthRateLimit", () => {
-  it("allows when both per-IP and global failures are under the limit", async () => {
-    const db = makeSupabase({ perIpFailures: 3, globalFailures: 12 });
+  it("allows when per-IP failures are under the limit", async () => {
+    const db = makeSupabase({ perIpFailures: 3 });
     const result = await checkOpsAuthRateLimit(
       db.client,
       hashIp("203.0.113.7"),
@@ -108,7 +104,7 @@ describe("checkOpsAuthRateLimit", () => {
   });
 
   it("locks the IP once per-IP failures hit the threshold", async () => {
-    const db = makeSupabase({ perIpFailures: 10, globalFailures: 10 });
+    const db = makeSupabase({ perIpFailures: 10 });
     const result = await checkOpsAuthRateLimit(
       db.client,
       hashIp("203.0.113.7"),
@@ -116,18 +112,6 @@ describe("checkOpsAuthRateLimit", () => {
     expect(result.allowed).toBe(false);
     expect(result.reason).toBe("per_ip_locked");
     expect(result.retryAfterSeconds).toBeGreaterThan(0);
-  });
-
-  it("locks sign-in globally once global failures hit the threshold", async () => {
-    // Per-IP under its own limit, but the global counter is saturated —
-    // this is the X-Forwarded-For rotation defense.
-    const db = makeSupabase({ perIpFailures: 1, globalFailures: 100 });
-    const result = await checkOpsAuthRateLimit(
-      db.client,
-      hashIp("203.0.113.7"),
-    );
-    expect(result.allowed).toBe(false);
-    expect(result.reason).toBe("global_locked");
   });
 
   it("fails open when the backing count query errors", async () => {
