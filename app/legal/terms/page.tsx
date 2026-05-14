@@ -153,9 +153,8 @@ export default function TermsPage() {
       <H2>10. Jurisdictional Restrictions</H2>
       <Quote>
         {brand} ships to addresses within the United States only at this time.{" "}
-        {brand} does not ship to: California, Texas, New York, Florida. The
-        customer assumes all regulatory compliance responsibility for their
-        jurisdiction specific to their municipality, state, or country.
+        The customer assumes all regulatory compliance responsibility for their
+        destination, municipality, state, and organization.
       </Quote>
 
       <H2>11. 503A and 503B Status</H2>

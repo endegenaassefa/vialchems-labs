@@ -432,7 +432,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "recovery-stack-synergy",
-    title: "The Recovery Stack: BPC-157 and TB-500 in Animal-Model Research",
+    title: "BPC/TB Reference Set: Animal-Model Research Register",
     publishedAt: "2026-05-08",
     author: "vialchemlabs Research",
     summary:
@@ -491,7 +491,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Closing Note",
         paragraphs: [
-          "The combined BPC-157 and TB-500 research register is a smaller but actively investigated subset of the larger soft-tissue repair literature on the two reference peptides individually. The mechanism rationale is grounded in the non-overlapping cell-culture signaling axes engaged by the two compounds, and the published combined-administration cell-culture and animal-model literature is consistent with cross-talk between the axes at the cellular phenotype level. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. vialchemlabs supplies the combined pair as the Recovery Stack research-convenience bundle with per-batch independent Certificates of Analysis published on the COA index page; reference at /products/recovery-stack.",
+          "The combined BPC-157 and TB-500 research register is a smaller but actively investigated subset of the larger soft-tissue repair literature on the two reference peptides individually. The mechanism rationale is grounded in the non-overlapping cell-culture signaling axes engaged by the two compounds, and the published combined-administration cell-culture and animal-model literature is consistent with cross-talk between the axes at the cellular phenotype level. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. vialchemlabs supplies the combined pair as the BPC/TB Reference Set with per-batch independent Certificates of Analysis published on the COA index page; reference at /products/recovery-stack.",
         ],
       },
     ],

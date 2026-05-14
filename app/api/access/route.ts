@@ -15,6 +15,7 @@
  * the protected paths list. Future edits require // SCANNER_OK annotations.
  */
 import { NextResponse } from "next/server";
+import { createHash, randomUUID } from "node:crypto";
 import {
   ATTESTATIONS,
   validateQualification,
@@ -32,11 +33,7 @@ interface AuditAttestations {
 }
 
 async function sha256Hex(input: string): Promise<string> {
-  const data = new TextEncoder().encode(input);
-  const buf = await crypto.subtle.digest("SHA-256", data);
-  return Array.from(new Uint8Array(buf))
-    .map((b) => b.toString(16).padStart(2, "0"))
-    .join("");
+  return createHash("sha256").update(input).digest("hex");
 }
 
 export async function POST(request: Request): Promise<Response> {
@@ -82,7 +79,7 @@ export async function POST(request: Request): Promise<Response> {
   const userAgent = request.headers.get("user-agent") ?? null;
 
   const sb = serviceSupabase();
-  let qualificationId = crypto.randomUUID();
+  let qualificationId = randomUUID();
 
   if (sb) {
     const { data: inserted, error } = await sb

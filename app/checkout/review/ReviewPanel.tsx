@@ -430,7 +430,7 @@ export function ReviewPanel() {
               ]}
             />
 
-            {/* Promo code input — wires WELCOME15 into actual checkout. */}
+            {/* Promo code input. */}
             <div className="mt-5 pt-5 border-t border-[var(--border)]">
               {appliedPromo ? (
                 <div className="flex items-center justify-between gap-3">
@@ -457,7 +457,7 @@ export function ReviewPanel() {
                   <div className="mt-2 flex gap-2">
                     <Input
                       id="promo-code"
-                      placeholder="e.g. WELCOME15"
+                      placeholder="Enter code"
                       value={promoInput}
                       onChange={(e) => setPromoInput(e.target.value)}
                       onKeyDown={(e) => {
@@ -488,7 +488,7 @@ export function ReviewPanel() {
                     </p>
                   )}
                   <p className="mt-2 text-[11px] font-mono uppercase tracking-[0.12em] text-[var(--text-subtle)]">
-                    Newsletter subscribers receive WELCOME15
+                    Optional code from email or partner offer
                   </p>
                 </>
               )}

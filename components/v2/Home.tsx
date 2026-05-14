@@ -24,6 +24,7 @@ export function V2Home() {
       <V2Header />
       <main id="main">
         <Hero />
+        <AssuranceBand />
         <HowItWorks />
         <Features />
         <ProductPreview />
@@ -46,19 +47,19 @@ function Hero() {
         <MoleculeBg />
       </div>
       <div
-        className="container"
+        className="container v2-hero-grid"
         style={{
           position: "relative",
-          padding: "72px 24px 96px",
+          padding: "72px 24px 88px",
           display: "grid",
-          gridTemplateColumns: "minmax(0, 1.1fr) minmax(360px, 1fr)",
-          gap: 64,
+          gridTemplateColumns: "minmax(0, 1.12fr) minmax(340px, 0.92fr)",
+          gap: 72,
           alignItems: "center",
-          minHeight: 640,
+          minHeight: 612,
         }}
         data-v2-home-hero=""
       >
-        <div>
+        <div className="v2-hero-copy">
           <div className="badge badge-ruo" style={{ marginBottom: 24 }}>
             <span className="badge-dot" />
             VAILCHEM.LABS · RESEARCH USE ONLY
@@ -90,11 +91,11 @@ function Hero() {
               flexWrap: "wrap",
             }}
           >
-            <Link className="btn btn-accent btn-lg" href="/verify">
-              Request Research Access <Icon.arrow size={14} strokeWidth={1.5} />
+            <Link className="btn btn-accent btn-lg" href="/shop">
+              Browse Catalog <Icon.arrow size={14} strokeWidth={1.5} />
             </Link>
-            <Link className="btn btn-ghost btn-lg" href="/shop">
-              Browse Catalog
+            <Link className="btn btn-ghost btn-lg" href="/coa">
+              Verify a Vial
             </Link>
           </div>
           <div
@@ -108,7 +109,7 @@ function Hero() {
               textTransform: "uppercase",
             }}
           >
-            <span>· Verified buyer access</span>
+            <span>· Qualified lab orders</span>
             <span>· HPLC purity records</span>
             <span>· COA on every vial</span>
           </div>
@@ -130,11 +131,15 @@ function FloatingCards() {
   }, []);
 
   return (
-    <div style={{ position: "relative", height: 560, perspective: 1200 }}>
+    <div
+      className="hero-proof-stack"
+      style={{ position: "relative", height: 500, perspective: 1200 }}
+    >
       <div
+        className="hero-proof-glow"
         style={{
           position: "absolute",
-          inset: "10% 10%",
+          inset: "12% 12%",
           background:
             "radial-gradient(circle, var(--accent-soft), transparent 70%)",
           filter: "blur(40px)",
@@ -142,11 +147,12 @@ function FloatingCards() {
       />
 
       <div
+        className="hero-proof-card hero-proof-card-product"
         style={{
           position: "absolute",
-          top: 20,
-          left: 20,
-          width: 240,
+          top: 18,
+          left: 8,
+          width: 212,
           animation: "float-y 6s ease-in-out infinite",
         }}
       >
@@ -206,11 +212,12 @@ function FloatingCards() {
       </div>
 
       <div
+        className="hero-proof-card hero-proof-card-coa"
         style={{
           position: "absolute",
-          top: 80,
-          right: 0,
-          width: 280,
+          top: 68,
+          right: 8,
+          width: 250,
           animation: "float-y 7s ease-in-out infinite",
           animationDelay: "0.5s",
         }}
@@ -306,11 +313,12 @@ function FloatingCards() {
       </div>
 
       <div
+        className="hero-proof-card hero-proof-card-timeline"
         style={{
           position: "absolute",
-          bottom: 0,
-          left: 60,
-          right: 60,
+          bottom: 8,
+          left: 48,
+          right: 44,
           animation: "float-y 8s ease-in-out infinite",
           animationDelay: "1s",
         }}
@@ -341,6 +349,47 @@ function FloatingCards() {
         </div>
       </div>
     </div>
+  );
+}
+
+function AssuranceBand() {
+  const assurances = [
+    {
+      title: "COA-linked lots",
+      body: "Batch documents stay one tap from each vial.",
+      icon: <Icon.doc size={18} strokeWidth={1.5} />,
+    },
+    {
+      title: "Identity checks",
+      body: "Release records are framed around analytical verification.",
+      icon: <Icon.shield size={18} strokeWidth={1.5} />,
+    },
+    {
+      title: "Protected shipment",
+      body: "Cold-chain packaging and replacement support are visible before order.",
+      icon: <Icon.download size={18} strokeWidth={1.5} />,
+    },
+    {
+      title: "Secure checkout",
+      body: "Buyer qualification and payment status stay documented.",
+      icon: <Icon.check size={18} strokeWidth={1.5} />,
+    },
+  ];
+
+  return (
+    <section className="v2-assurance-band" aria-label="Ordering assurances">
+      <div className="container v2-assurance-grid">
+        {assurances.map((item) => (
+          <div key={item.title} className="v2-assurance-item">
+            <div className="v2-assurance-icon">{item.icon}</div>
+            <div>
+              <h3>{item.title}</h3>
+              <p>{item.body}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }
 
@@ -442,28 +491,28 @@ function HowItWorks() {
   const steps = [
     [
       "01",
-      "Get Verified",
-      "Submit organization details, role, and a research-use attestation. Reviewed before order access.",
+      "Confirm Lab Context",
+      "Create an account with organization, role, and research-use details so orders stay tied to qualified lab procurement.",
     ],
     [
       "02",
-      "Browse the Catalog",
-      "Full peptide catalog unlocks once your organization is verified.",
+      "Review Lot Documents",
+      "Open the catalog by compound, mass, and COA status. Each item keeps identity, lot, and analytical context visible before cart.",
     ],
     [
       "03",
-      "Order Your Peptides",
-      "Add vials to cart, accept the research-use terms, and check out through approved rails.",
+      "Place the Order",
+      "Add vials to cart, accept the research-use terms, enter any partner code, and check out through the configured payment rail.",
     ],
     [
       "04",
       "Receive With COA",
-      "Every vial arrives with batch-specific certificate references and lot traceability.",
+      "Shipment records and vial labels reference the same batch-specific certificate, so receiving teams can match inventory to release data.",
     ],
     [
       "05",
       "Verify Anytime",
-      "Scan the label or look up the lot online to re-confirm release data.",
+      "Use the vial verification page to re-check a lot number, purity record, and release documentation whenever the material is reviewed.",
     ],
   ];
 
@@ -474,7 +523,7 @@ function HowItWorks() {
           <div className="section-hd">
             <div className="hd-l">
               <div className="eyebrow">How it works</div>
-              <h2>From verified access to vial in five steps.</h2>
+              <h2>From lab account to documented vial in five steps.</h2>
             </div>
             <div
               style={{ maxWidth: 280, fontSize: 14, color: "var(--fg-muted)" }}

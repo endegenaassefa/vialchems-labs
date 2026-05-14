@@ -630,62 +630,62 @@ export const bundles: Bundle[] = [
   {
     slug: "recovery-stack",
     sku: "BUNDLE-RECOVERY-STACK",
-    name: "Recovery Stack",
+    name: "Structural Model Set",
     constituents: ["BPC-157-10MG", "TB-500-10MG", "KPV-10MG"],
     listPriceCents: 12900,
     effectiveDiscountPct: 36.1,
     description:
-      "Single-vial RUO stack labeled with BPC-157 10mg, TB-500 10mg, and KPV 10mg. Built around component identity, canonical naming, and batch-led analytical documentation; recovery is navigation shorthand only.",
+      "Single-vial RUO set labeled with BPC-157 10mg, TB-500 10mg, and KPV 10mg. Built around component identity, canonical naming, and batch-led analytical documentation.",
   },
   {
     slug: "glow-stack",
     sku: "BUNDLE-GLOW-STACK",
-    name: "Glow Stack",
+    name: "Copper Matrix Set",
     constituents: ["GHK-CU-50MG", "TB-500-10MG", "BPC-157-10MG"],
     listPriceCents: 16900,
     effectiveDiscountPct: 23.9,
     description:
-      "Single-vial RUO stack labeled with GHK-Cu 50mg, TB-500 10mg, and BPC-157 10mg under the corpus-attested Glow Stack label. Framed around component identity, batch traceability, and analytical review.",
+      "Single-vial RUO set labeled with GHK-Cu 50mg, TB-500 10mg, and BPC-157 10mg. Framed around component identity, batch traceability, and analytical review.",
   },
   {
     slug: "wolverine-stack",
     sku: "BUNDLE-WOLVERINE-STACK",
-    name: "Wolverine Stack",
+    name: "BPC/TB Reference Set",
     constituents: ["BPC-157-10MG", "TB-500-10MG"],
     listPriceCents: 9900,
     effectiveDiscountPct: 25.6,
     description:
-      "Single-vial RUO stack labeled with BPC-157 10mg and TB-500 10mg. The Wolverine name is marketplace search vocabulary for the BPC/TB pairing, not an interaction or outcome claim.",
+      "Single-vial RUO set labeled with BPC-157 10mg and TB-500 10mg. Presented as a two-component reference material with batch-led analytical documentation.",
   },
   {
     slug: "neuro-stack",
     sku: "BUNDLE-NEURO-STACK",
-    name: "Neuro Stack",
+    name: "Neuropeptide Reference Set",
     constituents: ["SEMAX-10MG", "SELANK-10MG"],
     listPriceCents: 6900,
     effectiveDiscountPct: 28.9,
     description:
-      "Single-vial RUO stack labeled with Semax 10mg and Selank 10mg. Built for ACTH-fragment and tuftsin-derived peptide identity, component comparison, and batch-led analytical documentation workflows.",
+      "Single-vial RUO set labeled with Semax 10mg and Selank 10mg. Built for ACTH-fragment and tuftsin-derived peptide identity, component comparison, and batch-led analytical documentation workflows.",
   },
   {
     slug: "longevity-stack",
     sku: "BUNDLE-LONGEVITY-STACK",
-    name: "Longevity Stack",
+    name: "Mitochondrial Reference Set",
     constituents: ["MOTS-C-10MG", "EPITALON-10MG", "NAD-500MG"],
     listPriceCents: 17900,
     effectiveDiscountPct: 13.5,
     description:
-      "Single-vial RUO stack labeled with MOTS-c 10mg, Epitalon 10mg, and NAD+ 500mg. Use as pathway/category framing only: mitochondrial-derived peptide, Khavinson tetrapeptide, and redox coenzyme reference materials.",
+      "Single-vial RUO set labeled with MOTS-c 10mg, Epitalon 10mg, and NAD+ 500mg. Use as pathway/category framing only: mitochondrial-derived peptide, Khavinson tetrapeptide, and redox coenzyme reference materials.",
   },
 ];
 
 export const productCategories: { id: ProductCategory; label: string }[] = [
-  { id: "recovery", label: "Recovery" },
-  { id: "gh-axis", label: "GH-Axis" },
-  { id: "cosmetic-pathway", label: "Cosmetic Pathway" },
-  { id: "metabolic", label: "Metabolic" },
-  { id: "nootropic", label: "Nootropic" },
-  { id: "immune", label: "Immune" },
+  { id: "recovery", label: "Structural Models" },
+  { id: "gh-axis", label: "Endocrine Models" },
+  { id: "cosmetic-pathway", label: "Copper Systems" },
+  { id: "metabolic", label: "Mitochondrial Systems" },
+  { id: "nootropic", label: "Neuropeptide Systems" },
+  { id: "immune", label: "Host-Response Models" },
 ];
 
 export function getProductBySlug(slug: string): Product | undefined {

@@ -9,17 +9,31 @@ import { Icon } from "./icons";
 const navItems = [
   { href: "/shop", label: "Shop Peptides", key: "catalog" },
   { href: "/coa", label: "Verify a Vial", key: "coa" },
-  { href: "/verify", label: "Get Verified", key: "verify" },
+  { href: "/affiliate", label: "Affiliate Program", key: "affiliate" },
   { href: "/account", label: "My Lab", key: "account" },
 ];
 
 export function V2Header() {
   const pathname = usePathname();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const hydrated = useCartHydrated();
   const count = useCartStore((s) =>
     s.lines.reduce((sum, line) => sum + line.qty, 0),
   );
   const displayCount = hydrated ? count : 0;
+
+  useEffect(() => {
+    if (!mobileMenuOpen) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setMobileMenuOpen(false);
+    };
+    document.addEventListener("keydown", onKeyDown);
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", onKeyDown);
+      document.body.style.overflow = "";
+    };
+  }, [mobileMenuOpen]);
 
   return (
     <nav className="nav">
@@ -48,11 +62,27 @@ export function V2Header() {
         <div className="nav-spacer" />
         <div className="nav-actions">
           <ThemeSwitch />
+          <button
+            type="button"
+            className="icon-btn v2-nav-menu"
+            aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={mobileMenuOpen}
+            aria-controls="v2-mobile-menu"
+            title={mobileMenuOpen ? "Close menu" : "Open menu"}
+            onClick={() => setMobileMenuOpen((open) => !open)}
+          >
+            {mobileMenuOpen ? (
+              <Icon.x size={15} strokeWidth={1.6} />
+            ) : (
+              <Icon.menu size={15} strokeWidth={1.6} />
+            )}
+          </button>
           <Link
             className="icon-btn v2-nav-search"
-            href="/shop"
+            href="/shop?focus=search"
             aria-label="Search catalog"
             title="Search catalog"
+            onClick={() => setMobileMenuOpen(false)}
           >
             <Icon.search size={14} strokeWidth={1.5} />
           </Link>
@@ -61,6 +91,7 @@ export function V2Header() {
             href="/account"
             aria-label="Account"
             title="Account"
+            onClick={() => setMobileMenuOpen(false)}
           >
             <Icon.user size={14} strokeWidth={1.5} />
           </Link>
@@ -70,6 +101,7 @@ export function V2Header() {
             aria-label="Cart"
             title="Cart"
             style={{ position: "relative" }}
+            onClick={() => setMobileMenuOpen(false)}
           >
             <Icon.cart size={14} strokeWidth={1.5} />
             {displayCount > 0 && (
@@ -95,11 +127,73 @@ export function V2Header() {
               </span>
             )}
           </Link>
-          <Link className="btn btn-primary btn-sm v2-nav-cta" href="/verify">
-            Get Verified <Icon.arrow size={14} strokeWidth={1.5} />
+          <Link className="btn btn-primary btn-sm v2-nav-cta" href="/affiliate">
+            Affiliate <Icon.arrow size={14} strokeWidth={1.5} />
           </Link>
         </div>
       </div>
+      {mobileMenuOpen && (
+        <div
+          id="v2-mobile-menu"
+          className="v2-mobile-menu"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Site navigation"
+          onClick={(event) => {
+            if (event.target === event.currentTarget) {
+              setMobileMenuOpen(false);
+            }
+          }}
+        >
+          <div className="v2-mobile-panel">
+            <div className="v2-mobile-panel-head">
+              <span className="eyebrow">Menu</span>
+              <button
+                type="button"
+                className="icon-btn"
+                aria-label="Close menu"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                <Icon.x size={15} strokeWidth={1.6} />
+              </button>
+            </div>
+            <div className="v2-mobile-primary">
+              <Link
+                href="/shop"
+                className="btn btn-accent btn-lg"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Browse Catalog <Icon.arrow size={14} strokeWidth={1.5} />
+              </Link>
+              <Link
+                href="/coa"
+                className="btn btn-ghost btn-lg"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Verify a Vial
+              </Link>
+            </div>
+            <div className="v2-mobile-links">
+              {navItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={
+                    pathname === item.href ||
+                    pathname.startsWith(`${item.href}/`)
+                      ? "active"
+                      : ""
+                  }
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  <span>{item.label}</span>
+                  <Icon.arrow size={14} strokeWidth={1.5} />
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </nav>
   );
 }
@@ -137,7 +231,6 @@ export function V2Footer() {
             links={[
               ["/shop", "Peptide Catalog"],
               ["/coa", "Verify a Vial"],
-              ["/verify", "Get Verified"],
               ["/account", "My Lab"],
             ]}
           />
@@ -233,6 +326,7 @@ function ThemeSwitch() {
   return (
     <button
       type="button"
+      className="v2-theme-switch"
       onClick={toggleTheme}
       aria-label={`Switch to ${nextTheme} theme`}
       aria-pressed={theme === "dark"}

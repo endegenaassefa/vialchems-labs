@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 import { useCartStore } from "@/lib/cart-store";
 import { catalogItems, displayPrice, getCatalogItem, skuCode } from "./data";
 import { Icon } from "./icons";
@@ -54,14 +54,18 @@ export function V2ProductPage({ slug }: { slug: string }) {
         candidate.slug !== item.slug && candidate.family === item.family,
     )
     .slice(0, 3);
+  const subtotal = displayPrice(item.priceCents * qty);
+  const accessLabel = item.restricted
+    ? "Verified lab account required"
+    : "Research-use verification required";
 
   return (
     <>
       <V2Header />
       <main id="main">
-        <section style={{ borderBottom: "1px solid var(--line)" }}>
-          <div className="container" style={{ padding: "42px 24px 72px" }}>
-            <div style={{ marginBottom: 24 }}>
+        <section className="v2-product-hero">
+          <div className="container v2-product-container">
+            <div className="v2-product-back">
               <Link href="/shop" className="btn btn-link">
                 ← Catalog
               </Link>
@@ -80,14 +84,19 @@ export function V2ProductPage({ slug }: { slug: string }) {
                 style={{ padding: 18, position: "sticky", top: 88 }}
               >
                 <div
-                  className="product-media"
+                  className="product-media v2-product-main-media"
                   style={{ aspectRatio: "1 / 1.12", marginBottom: 0 }}
                 >
                   <ProductVisual item={item} />
                 </div>
+                <div className="v2-product-media-meta">
+                  <span>{skuCode(item.sku)}</span>
+                  <span>{item.dose}</span>
+                  <span>RUO</span>
+                </div>
               </div>
 
-              <div>
+              <div className="v2-product-info">
                 <div
                   style={{
                     display: "flex",
@@ -109,6 +118,7 @@ export function V2ProductPage({ slug }: { slug: string }) {
                 </div>
                 <h1 style={{ marginBottom: 16 }}>{item.shortName}</h1>
                 <p
+                  className="v2-product-description"
                   style={{
                     fontSize: 17,
                     color: "var(--fg-muted)",
@@ -120,6 +130,7 @@ export function V2ProductPage({ slug }: { slug: string }) {
                   {item.description}
                 </p>
                 <div
+                  className="v2-product-price-row"
                   style={{
                     display: "flex",
                     alignItems: "baseline",
@@ -147,49 +158,12 @@ export function V2ProductPage({ slug }: { slug: string }) {
                   </span>
                 </div>
 
-                <div className="card" style={{ padding: 18, marginBottom: 18 }}>
-                  <table className="spec-table">
-                    <tbody>
-                      <tr>
-                        <td>Material code</td>
-                        <td>{skuCode(item.sku)}</td>
-                      </tr>
-                      <tr>
-                        <td>SKU</td>
-                        <td>{item.sku}</td>
-                      </tr>
-                      <tr>
-                        <td>Mass</td>
-                        <td>{item.dose}</td>
-                      </tr>
-                      <tr>
-                        <td>Documentation</td>
-                        <td>
-                          Production COA required before shipment · RUO
-                          attestation required
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Release tests</td>
-                        <td>HPLC purity · sterility · endotoxin screening</td>
-                      </tr>
-                      <tr>
-                        <td>Access</td>
-                        <td>
-                          {item.restricted
-                            ? "Verified lab account required"
-                            : "Research-use verification required"}
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
                 <div
-                  className="card"
+                  className="card v2-product-buy-card"
                   style={{ padding: 18, display: "grid", gap: 16 }}
                 >
                   <div
+                    className="v2-product-order-head"
                     style={{
                       display: "flex",
                       justifyContent: "space-between",
@@ -207,10 +181,12 @@ export function V2ProductPage({ slug }: { slug: string }) {
                           marginTop: 4,
                         }}
                       >
-                        Qualified research purchasers only.
+                        Qualified research purchasers only · {subtotal}{" "}
+                        subtotal.
                       </p>
                     </div>
                     <div
+                      className="v2-product-qty-stepper"
                       style={{
                         display: "flex",
                         alignItems: "center",
@@ -245,7 +221,10 @@ export function V2ProductPage({ slug }: { slug: string }) {
                       </button>
                     </div>
                   </div>
-                  <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
+                  <div
+                    className="v2-product-button-row"
+                    style={{ display: "flex", gap: 10, flexWrap: "wrap" }}
+                  >
                     <button
                       type="button"
                       onClick={addToCart}
@@ -254,10 +233,70 @@ export function V2ProductPage({ slug }: { slug: string }) {
                       {added ? "Added to cart" : "Add to cart"}{" "}
                       <Icon.cart size={14} strokeWidth={1.5} />
                     </button>
-                    <Link href="/coa" className="btn btn-ghost btn-lg">
-                      View COA status
+                    <Link href="/cart" className="btn btn-ghost btn-lg">
+                      Review cart
                     </Link>
                   </div>
+                </div>
+
+                <div className="v2-product-proof-grid">
+                  <ProductProof
+                    icon={<Icon.doc size={16} strokeWidth={1.5} />}
+                    title="COA gate"
+                    body="Production COA required before shipment."
+                  />
+                  <ProductProof
+                    icon={<Icon.shield size={16} strokeWidth={1.5} />}
+                    title="Access check"
+                    body={accessLabel}
+                  />
+                  <ProductProof
+                    icon={<Icon.check size={16} strokeWidth={1.5} />}
+                    title="Release tests"
+                    body="HPLC purity, sterility, and endotoxin screening."
+                  />
+                  <ProductProof
+                    icon={<Icon.download size={16} strokeWidth={1.5} />}
+                    title="Lot trace"
+                    body="Batch records stay tied to the material code."
+                  />
+                </div>
+
+                <div
+                  className="card v2-product-spec-card"
+                  style={{ padding: 18, marginBottom: 18 }}
+                >
+                  <table className="spec-table">
+                    <tbody>
+                      <tr>
+                        <td>Material code</td>
+                        <td>{skuCode(item.sku)}</td>
+                      </tr>
+                      <tr>
+                        <td>SKU</td>
+                        <td>{item.sku}</td>
+                      </tr>
+                      <tr>
+                        <td>Mass</td>
+                        <td>{item.dose}</td>
+                      </tr>
+                      <tr>
+                        <td>Documentation</td>
+                        <td>
+                          Production COA required before shipment · RUO
+                          attestation required
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Release tests</td>
+                        <td>HPLC purity · sterility · endotoxin screening</td>
+                      </tr>
+                      <tr>
+                        <td>Access</td>
+                        <td>{accessLabel}</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
@@ -324,5 +363,25 @@ export function V2ProductPage({ slug }: { slug: string }) {
       </main>
       <V2Footer />
     </>
+  );
+}
+
+function ProductProof({
+  icon,
+  title,
+  body,
+}: {
+  icon: ReactNode;
+  title: string;
+  body: string;
+}) {
+  return (
+    <div className="v2-product-proof">
+      <div className="v2-product-proof-icon">{icon}</div>
+      <div>
+        <h2>{title}</h2>
+        <p>{body}</p>
+      </div>
+    </div>
   );
 }

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { V2Verify } from "@/components/v2/Verify";
 
 export const metadata: Metadata = {
-  title: "Get Verified",
+  title: "Vial Verification",
   description:
-    "Researcher qualification and vial verification for vailchem.labs research products.",
+    "Batch-level vial verification and COA lookup for vailchem.labs research products.",
 };
 
 export default function VerifyPage() {

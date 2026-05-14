@@ -1,6 +1,6 @@
 /**
  * Shipping Policy — composed per SUPER_PROMPT_v3 Appendix L.4 + Appendix A.4.
- * ~800 words. US-only first 90 days. Excluded states CA/TX/NY/FL.
+ * ~800 words. US-only launch coverage.
  */
 import type { Metadata } from "next";
 import { LegalShell } from "@/components/LegalShell";
@@ -9,7 +9,7 @@ import { siteConfig } from "@/lib/content/site";
 export const metadata: Metadata = {
   title: "Shipping Policy",
   description:
-    "vialchemlabs ships within the United States only. Carriers, lead times, free-shipping threshold, and excluded states.",
+    "vialchemlabs ships within the United States only. Carriers, lead times, free-shipping threshold, and buyer compliance responsibilities.",
 };
 
 export default function ShippingPage() {
@@ -33,9 +33,8 @@ export default function ShippingPage() {
       <H2>1. Jurisdictional Restrictions</H2>
       <Quote>
         {brand} ships to addresses within the United States only at this time.{" "}
-        {brand} does not ship to: California, Texas, New York, Florida. The
-        customer assumes all regulatory compliance responsibility for their
-        jurisdiction specific to their municipality, state, or country.
+        The customer assumes all regulatory compliance responsibility for their
+        destination, municipality, state, and organization.
       </Quote>
       <P>
         We do not currently ship internationally. We may expand carrier and
@@ -124,12 +123,12 @@ export default function ShippingPage() {
         caused by buyer-supplied address errors.
       </P>
 
-      <H2>10. Restricted-State Orders</H2>
+      <H2>10. Jurisdictional Review</H2>
       <P>
-        Orders to addresses in California, Texas, New York, or Florida will not
-        be accepted. If an order in this category is taken in error, the order
-        will be cancelled and refunded; the buyer accepts that jurisdictional
-        verification at checkout is part of placing an order.
+        Orders may be reviewed for jurisdictional, carrier, or compliance
+        concerns before fulfillment. If an order cannot be fulfilled after
+        review, the order will be cancelled and refunded; the buyer accepts that
+        jurisdictional responsibility is part of placing an order.
       </P>
 
       <H2>11. International Inquiries</H2>

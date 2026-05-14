@@ -8,11 +8,9 @@
  * produce the same end state and a no-op signal so we don't double-credit.
  *
  * Iron Law 2.8 (Phase 10.1 v4 / D15): post-payment Layer 3 jurisdictional
- * guard. assertOrderJurisdictionAllowed() is the final gate before an
- * intent reconciles to a credited state — if the order's shipping address
- * resolves to a blocklisted jurisdiction (CA / TX / NY / FL / non-US),
- * we throw rather than credit, even if Layer 1 (AddressForm) and Layer 2
- * (ReviewPanel place-order) somehow let the request through.
+ * guard. assertOrderJurisdictionAllowed() is the final gate before an intent
+ * reconciles to a credited state. If the order's shipping address resolves
+ * outside the configured shipping jurisdictions, we throw rather than credit.
  */
 import { validateShippingAddress } from "@/lib/compliance/jurisdictions";
 import type { PaymentIntent, PaymentStatus } from "./types";
@@ -143,8 +141,8 @@ export function isTerminalStatus(s: PaymentStatus): boolean {
  * the webhook should respond 4xx and the operator should investigate.
  *
  * Layer 3 catches the case where Layers 1 and 2 were spoofed or buggy:
- * a buyer who submits a CA shipping address but Layer 1 didn't gate (e.g.
- * deliberate browser-side bypass) STILL hits this gate at credit time.
+ * an ineligible shipping address that Layer 1 did not gate still hits this
+ * guard at credit time.
  */
 export class JurisdictionalGuardError extends Error {
   readonly stateCode: string;

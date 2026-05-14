@@ -128,11 +128,12 @@ export default function AboutPage() {
                 We started {siteConfig.name} because we believed there was room
                 for a different positioning: small catalog, deep transparency,
                 third-party-verified accuracy. Our seven opening SKUs are the
-                canonical research peptides for recovery (BPC-157, TB-500),
-                GH-axis (Ipamorelin, CJC-1295 no DAC), cosmetic-pathway
-                (GHK-Cu), metabolic (MOTS-c), and nootropic (Selank) research.
-                Each is tested by {siteConfig.labPartner.name} per batch. Each
-                batch&apos;s COA is published.
+                canonical research peptides for structural models (BPC-157,
+                TB-500), endocrine models (Ipamorelin, CJC-1295 no DAC), copper
+                systems (GHK-Cu), mitochondrial systems (MOTS-c), and
+                neuropeptide systems (Selank). Each is tested by{" "}
+                {siteConfig.labPartner.name} per batch. Each batch&apos;s COA is
+                published.
               </p>
               <p>
                 We do not sell tirzepatide. We do not sell semaglutide or

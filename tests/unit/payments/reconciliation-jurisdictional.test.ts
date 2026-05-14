@@ -8,12 +8,9 @@ import {
 /**
  * Phase 10.1 (v4) — D15 Layer 3 jurisdictional guard.
  *
- * Iron Law 2.8: "NO SHIPPING TO BLOCKLISTED JURISDICTIONS." Layer 1 is
- * the AddressForm client-side block. Layer 2 is the place-order server
- * re-check in ReviewPanel. Layer 3 is THIS — the final guard at
- * webhook-reconcile time, so that if a buyer somehow bypasses Layers 1
- * and 2 (spoofed payload, race condition, future bug), the credited
- * order does not happen at all.
+ * Layer 1 is AddressForm client-side validation. Layer 2 is the place-order
+ * server re-check in ReviewPanel. Layer 3 is THIS: the final guard at
+ * webhook-reconcile time, so a spoofed or ineligible address does not credit.
  */
 
 describe("assertOrderJurisdictionAllowed (D15 Layer 3)", () => {
@@ -21,32 +18,14 @@ describe("assertOrderJurisdictionAllowed (D15 Layer 3)", () => {
     resetReconciliationLedger();
   });
 
-  it("passes for a US address in an allowed state", () => {
-    expect(() =>
-      assertOrderJurisdictionAllowed({
-        countryCode: "US",
-        stateCode: "WA",
-      }),
-    ).not.toThrow();
-  });
-
-  it("throws JurisdictionalGuardError for blocklisted CA", () => {
-    expect(() =>
-      assertOrderJurisdictionAllowed({
-        countryCode: "US",
-        stateCode: "CA",
-      }),
-    ).toThrow(JurisdictionalGuardError);
-  });
-
-  it("throws for TX, NY, FL", () => {
-    for (const stateCode of ["TX", "NY", "FL"]) {
+  it("passes for US shipping states", () => {
+    for (const stateCode of ["WA", "CA", "TX", "NY", "FL"]) {
       expect(() =>
         assertOrderJurisdictionAllowed({
           countryCode: "US",
           stateCode,
         }),
-      ).toThrow(JurisdictionalGuardError);
+      ).not.toThrow();
     }
   });
 
@@ -62,14 +41,14 @@ describe("assertOrderJurisdictionAllowed (D15 Layer 3)", () => {
   it("error includes the rejection reason from validateShippingAddress", () => {
     try {
       assertOrderJurisdictionAllowed({
-        countryCode: "US",
-        stateCode: "CA",
+        countryCode: "CA",
+        stateCode: "ON",
       });
       throw new Error("should have thrown");
     } catch (err) {
       expect(err).toBeInstanceOf(JurisdictionalGuardError);
-      expect((err as Error).message).toMatch(/CA/);
-      expect((err as Error).message).toMatch(/does not ship/);
+      expect((err as Error).message).toMatch(/United States/);
+      expect((err as Error).message).toMatch(/International shipping/);
     }
   });
 });

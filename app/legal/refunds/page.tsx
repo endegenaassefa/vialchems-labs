@@ -78,7 +78,7 @@ export default function RefundsPage() {
       <UL>
         <LI>Shipping address errors entered by the buyer at checkout.</LI>
         <LI>
-          Failed delivery to a blocklisted state listed in our{" "}
+          Failed delivery related to jurisdictional ineligibility under our{" "}
           <A href="/legal/shipping">Shipping Policy</A>; the buyer is
           responsible for confirming jurisdictional eligibility before order.
         </LI>

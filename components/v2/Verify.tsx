@@ -5,8 +5,8 @@ import { V2Footer, V2Header } from "./Shell";
 const steps = [
   [
     "01",
-    "Submit qualification",
-    "Create an account and provide organization, role, and research-use context.",
+    "Create lab account",
+    "Provide organization, role, and research-use context for order records.",
   ],
   [
     "02",
@@ -50,10 +50,10 @@ export function V2Verify() {
             <div>
               <div className="badge badge-ruo" style={{ marginBottom: 24 }}>
                 <span className="badge-dot" />
-                Verified research access
+                Vial verification
               </div>
               <h1 style={{ marginBottom: 22 }}>
-                Qualified research access. Batch-level vial verification.
+                Batch-level vial verification and COA lookup.
               </h1>
               <p
                 style={{
@@ -64,13 +64,13 @@ export function V2Verify() {
                   marginBottom: 30,
                 }}
               >
-                vailchem.labs sells research materials only to qualified
-                laboratory and analytical buyers. Verification keeps the buyer,
-                shipment, and vial lot tied to the published COA.
+                vailchem.labs keeps each vial tied to a published COA, lot
+                number, and release record. Use this page to confirm batch
+                documentation before intake.
               </p>
               <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
                 <Link href="/signup" className="btn btn-accent btn-lg">
-                  Start verification <Icon.arrow size={14} strokeWidth={1.5} />
+                  Create lab account <Icon.arrow size={14} strokeWidth={1.5} />
                 </Link>
                 <Link href="/coa" className="btn btn-ghost btn-lg">
                   Verify a vial lot

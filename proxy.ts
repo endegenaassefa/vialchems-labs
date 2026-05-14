@@ -8,8 +8,21 @@ import {
 const PUBLIC_FILE =
   /\.(?:avif|css|gif|ico|jpg|jpeg|js|json|map|mp4|pdf|png|svg|txt|webp|xml)$/i;
 
+const BLOCKED_AI_USER_AGENTS =
+  /\b(?:AI2Bot|Amazonbot|anthropic-ai|Applebot-Extended|Bytespider|CCBot|ChatGPT-User|Claude-Web|ClaudeBot|cohere-ai|Diffbot|FacebookBot|Google-Extended|GPTBot|meta-externalagent|MistralAI-User|OAI-SearchBot|omgili|PerplexityBot|Perplexity-User|YouBot)\b/i;
+
 export async function proxy(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
+  const userAgent = request.headers.get("user-agent") ?? "";
+
+  if (BLOCKED_AI_USER_AGENTS.test(userAgent)) {
+    return new NextResponse("Forbidden", {
+      status: 403,
+      headers: {
+        "X-Robots-Tag": "noai, noimageai, noindex, nofollow",
+      },
+    });
+  }
 
   if (
     pathname === AGE_GATE_PATH ||
