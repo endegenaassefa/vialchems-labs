@@ -162,6 +162,32 @@ export async function POST(request: Request): Promise<Response> {
     return jsonError("catalog_line_invalid", 400, resolvedLines.message);
   }
 
+  // Resolve the persistence layer before validating the payment provider:
+  // a production deploy with no Supabase client can't persist anything, and
+  // that is a more fundamental failure than a misconfigured payment method.
+  let supabase: SupabaseClient | null = null;
+  try {
+    supabase = serviceSupabase();
+  } catch (error) {
+    return jsonError("supabase_not_configured", 503, (error as Error).message);
+  }
+
+  // Production guard: serviceSupabase() returns null when REQUIRE_SUPABASE
+  // is not "true" (the documented Day-1 demo default). Demo mode is fine
+  // locally — the order lives in sessionStorage and the confirm page still
+  // renders. But in production a null client means a misconfigured deploy,
+  // and the rest of this handler would otherwise return a 200 "order
+  // confirmed" while persisting NOTHING — a silent order-loss bug. Fail
+  // loud instead so the deploy is visibly broken rather than quietly
+  // dropping real customer orders.
+  if (!supabase && isProductionRuntime()) {
+    return jsonError(
+      "checkout_unavailable",
+      503,
+      "Order persistence is not configured. REQUIRE_SUPABASE must be true in production.",
+    );
+  }
+
   let provider;
   try {
     provider = getCheckoutPaymentProvider(payload.method);
@@ -231,29 +257,6 @@ export async function POST(request: Request): Promise<Response> {
   const displayId = `VC-${crypto.randomUUID().slice(0, 8).toUpperCase()}`;
   const placedAt = new Date().toISOString();
   const attestationHash = await sha256Hex(ATTESTATIONS.join("\n"));
-
-  let supabase: SupabaseClient | null = null;
-  try {
-    supabase = serviceSupabase();
-  } catch (error) {
-    return jsonError("supabase_not_configured", 503, (error as Error).message);
-  }
-
-  // Production guard: serviceSupabase() returns null when REQUIRE_SUPABASE
-  // is not "true" (the documented Day-1 demo default). Demo mode is fine
-  // locally — the order lives in sessionStorage and the confirm page still
-  // renders. But in production a null client means a misconfigured deploy,
-  // and the rest of this handler would otherwise return a 200 "order
-  // confirmed" while persisting NOTHING — a silent order-loss bug. Fail
-  // loud instead so the deploy is visibly broken rather than quietly
-  // dropping real customer orders.
-  if (!supabase && isProductionRuntime()) {
-    return jsonError(
-      "checkout_unavailable",
-      503,
-      "Order persistence is not configured. REQUIRE_SUPABASE must be true in production.",
-    );
-  }
 
   let databaseOrderId: string | null = null;
   let qualificationId: string | null = null;
