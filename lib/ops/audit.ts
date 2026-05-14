@@ -24,6 +24,10 @@ export const PAYMENT_EVENT = {
   RECONCILED: "payment.reconciled",
   MANUAL_CONFIRMED: "manual_payment.confirmed",
   REFUND_ISSUED: "payment.refund_issued",
+  // Customer pressed "I've sent the payment" on the Zelle instruction
+  // screen. Advisory only — does NOT move the order to paid. It gives ops
+  // a work-queue signal to go check the bank account.
+  CLAIMED_SENT: "payment.claimed_sent",
 } as const;
 
 export const SHIPPO_EVENT = {

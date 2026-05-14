@@ -8,6 +8,10 @@
 "use client";
 
 import Link from "next/link";
+import {
+  ZellePaymentCard,
+  type ZelleInstructions,
+} from "@/components/checkout/ZellePaymentCard";
 import { Card } from "@/components/ui/Card";
 import { Pill } from "@/components/ui/Pill";
 import { Specs } from "@/components/ui/Specs";
@@ -42,6 +46,7 @@ interface StoredOrder {
     zip: string;
     countryCode: string;
   };
+  paymentInstructions?: ZelleInstructions | null;
 }
 
 const METHOD_LABELS: Record<string, string> = {
@@ -84,6 +89,14 @@ export function OrderDetailIsland({ expectedId }: { expectedId: string }) {
         <Pill variant="info">RUO</Pill>
         <Pill variant="electric">Tracking pending</Pill>
       </div>
+
+      {order.paymentInstructions?.provider === "zelle" && (
+        <ZellePaymentCard
+          orderId={order.id}
+          totalCents={order.totalCents}
+          instructions={order.paymentInstructions}
+        />
+      )}
 
       <Card variant="elevated" className="p-6">
         <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-4">

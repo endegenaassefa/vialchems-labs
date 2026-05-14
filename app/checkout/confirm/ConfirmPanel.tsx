@@ -7,6 +7,10 @@
 "use client";
 
 import Link from "next/link";
+import {
+  ZellePaymentCard,
+  type ZelleInstructions,
+} from "@/components/checkout/ZellePaymentCard";
 import { Card } from "@/components/ui/Card";
 import { Pill } from "@/components/ui/Pill";
 import { Specs } from "@/components/ui/Specs";
@@ -41,15 +45,7 @@ interface StoredOrder {
     zip: string;
     countryCode: string;
   };
-  paymentInstructions?: {
-    provider: "zelle";
-    businessName: string;
-    handle: string;
-    bankName: string;
-    memo: string;
-    instructions: string;
-    qrImageUrl?: string;
-  } | null;
+  paymentInstructions?: ZelleInstructions | null;
 }
 
 const METHOD_LABELS: Record<string, string> = {
@@ -153,25 +149,11 @@ export function ConfirmPanel() {
       </Card>
 
       {order.paymentInstructions?.provider === "zelle" && (
-        <Card className="p-6">
-          <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-3">
-            Zelle payment instructions
-          </p>
-          <Specs
-            items={[
-              {
-                term: "Business",
-                value: order.paymentInstructions.businessName,
-              },
-              { term: "Send to", value: order.paymentInstructions.handle },
-              { term: "Bank", value: order.paymentInstructions.bankName },
-              { term: "Memo", value: order.paymentInstructions.memo },
-            ]}
-          />
-          <p className="mt-4 text-[14px] leading-[1.6] text-[var(--text-muted)]">
-            {order.paymentInstructions.instructions}
-          </p>
-        </Card>
+        <ZellePaymentCard
+          orderId={order.id}
+          totalCents={order.totalCents}
+          instructions={order.paymentInstructions}
+        />
       )}
 
       <Card className="p-6">
@@ -221,3 +203,6 @@ export function ConfirmPanel() {
     </div>
   );
 }
+
+// ZellePaymentCard lives in components/checkout/ZellePaymentCard.tsx so
+// the order-detail page can re-show the same instructions.
