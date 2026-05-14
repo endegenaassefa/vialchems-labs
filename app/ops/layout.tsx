@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Link from "next/link";
 import { OpsAuthGate } from "@/components/ops/OpsAuthGate";
 
 // All /ops/* pages run through the auth gate. Static metadata says
@@ -16,12 +17,12 @@ export default function OpsLayout({ children }: { children: ReactNode }) {
           <div className="text-[11px] tracking-[0.24em] uppercase text-[var(--text-muted)]">
             Vialchems Labs — Ops
           </div>
-          <a
+          <Link
             href="/ops/orders"
             className="text-[11px] tracking-[0.24em] uppercase hover:text-[var(--accent)] transition-colors"
           >
             Orders
-          </a>
+          </Link>
         </header>
         <main className="px-6 py-8 max-w-6xl mx-auto">{children}</main>
       </div>

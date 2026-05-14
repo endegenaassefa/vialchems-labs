@@ -4,7 +4,11 @@ import { assertOpsToken, getOpsActor, jsonError } from "@/lib/ops/auth";
 import { attachTracking, getOrderById } from "@/lib/ops/orders";
 import { sendShipmentEmail } from "@/lib/email/order-emails";
 import { serviceSupabase } from "@/lib/supabase";
-import { createShipment, purchaseLabel, refundLabel } from "@/lib/shipping/shippo";
+import {
+  createShipment,
+  purchaseLabel,
+  refundLabel,
+} from "@/lib/shipping/shippo";
 import {
   getDefaultParcel,
   getFromAddress,
@@ -105,7 +109,11 @@ export async function POST(
       fromAddress = getFromAddress();
       parcel = getDefaultParcel();
     } catch (error) {
-      return jsonError("shippo_config_incomplete", 503, (error as Error).message);
+      return jsonError(
+        "shippo_config_incomplete",
+        503,
+        (error as Error).message,
+      );
     }
     const toAddress = snapshotToShippoAddress(
       order.shippingAddressSnapshot,
@@ -137,14 +145,22 @@ export async function POST(
               : "other";
       }
     } catch (error) {
-      return jsonError("shippo_rate_lookup_failed", 502, (error as Error).message);
+      return jsonError(
+        "shippo_rate_lookup_failed",
+        502,
+        (error as Error).message,
+      );
     }
 
     let transaction;
     try {
       transaction = await purchaseLabel(chosenRateId, carrier);
     } catch (error) {
-      return jsonError("shippo_label_purchase_failed", 502, (error as Error).message);
+      return jsonError(
+        "shippo_label_purchase_failed",
+        502,
+        (error as Error).message,
+      );
     }
 
     await logAuditEvent(supabase, {

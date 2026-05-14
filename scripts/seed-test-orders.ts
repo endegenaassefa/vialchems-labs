@@ -117,9 +117,13 @@ function buildOrders(): SeedOrder[] {
 
   const orders: SeedOrder[] = [];
 
-  for (let i = 1; i <= 3; i++) orders.push({ ...base(i, "pending"), paymentStatus: "pending" });
+  for (let i = 1; i <= 3; i++)
+    orders.push({ ...base(i, "pending"), paymentStatus: "pending" });
   for (let i = 4; i <= 7; i++)
-    orders.push({ ...base(i, "awaiting_payment"), paymentStatus: "authorized" });
+    orders.push({
+      ...base(i, "awaiting_payment"),
+      paymentStatus: "authorized",
+    });
   for (let i = 8; i <= 10; i++)
     orders.push({ ...base(i, "paid"), paymentStatus: "paid" });
   for (let i = 11; i <= 12; i++)
@@ -149,7 +153,10 @@ function buildOrders(): SeedOrder[] {
     refundAmountCents: 0, // computed from totals below
     refundReason: "test seed — full refund",
   });
-  orders.push({ ...base(20, "jurisdictional_rejected"), paymentStatus: "failed" });
+  orders.push({
+    ...base(20, "jurisdictional_rejected"),
+    paymentStatus: "failed",
+  });
 
   return orders;
 }
@@ -221,7 +228,12 @@ async function main() {
       is_test: true,
     };
 
-    if (order.status === "fulfilled" || order.status === "shipped" || order.status === "delivered" || order.status === "refunded") {
+    if (
+      order.status === "fulfilled" ||
+      order.status === "shipped" ||
+      order.status === "delivered" ||
+      order.status === "refunded"
+    ) {
       orderRow.fulfilled_at = new Date(
         Date.now() - 1000 * 60 * 60 * 24 * 2,
       ).toISOString();
@@ -235,15 +247,21 @@ async function main() {
       ).toISOString();
     }
     if (order.status === "delivered") {
-      orderRow.delivered_at = new Date(Date.now() - 1000 * 60 * 30).toISOString();
+      orderRow.delivered_at = new Date(
+        Date.now() - 1000 * 60 * 30,
+      ).toISOString();
     }
     if (order.status === "cancelled") {
-      orderRow.cancelled_at = new Date(Date.now() - 1000 * 60 * 60 * 12).toISOString();
+      orderRow.cancelled_at = new Date(
+        Date.now() - 1000 * 60 * 60 * 12,
+      ).toISOString();
     }
     if (refundAmount !== null) {
       orderRow.refund_amount_cents = refundAmount;
       orderRow.refund_reason = order.refundReason;
-      orderRow.refunded_at = new Date(Date.now() - 1000 * 60 * 60).toISOString();
+      orderRow.refunded_at = new Date(
+        Date.now() - 1000 * 60 * 60,
+      ).toISOString();
     }
     if (order.status === "jurisdictional_rejected") {
       orderRow.jurisdictional_rejected_at = new Date(
@@ -251,7 +269,9 @@ async function main() {
       ).toISOString();
     }
 
-    const { error: insertError } = await supabase.from("orders").insert(orderRow);
+    const { error: insertError } = await supabase
+      .from("orders")
+      .insert(orderRow);
     if (insertError) {
       console.error(
         `  ${order.displayId} (${order.status}) — FAILED: ${insertError.message}`,
@@ -268,7 +288,9 @@ async function main() {
       unit_price_cents: it.unitPriceCents,
       quantity: it.quantity,
     }));
-    const { error: itemsError } = await supabase.from("order_items").insert(itemRows);
+    const { error: itemsError } = await supabase
+      .from("order_items")
+      .insert(itemRows);
     if (itemsError) {
       console.error(`  ${order.displayId} items: ${itemsError.message}`);
     }
@@ -299,10 +321,14 @@ async function main() {
       },
     });
 
-    console.log(`  ${order.displayId} (${order.status}) — total $${(total / 100).toFixed(2)}`);
+    console.log(
+      `  ${order.displayId} (${order.status}) — total $${(total / 100).toFixed(2)}`,
+    );
   }
 
-  console.log("\nDone. Open /ops/orders and toggle 'Show test orders' to view.");
+  console.log(
+    "\nDone. Open /ops/orders and toggle 'Show test orders' to view.",
+  );
 }
 
 main().catch((err) => {

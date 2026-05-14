@@ -60,8 +60,8 @@ export function ZellePaymentCard({
           Send your Zelle payment
         </p>
         <p className="text-[14px] leading-[1.6] text-[var(--text-muted)]">
-          Your order is reserved. Send the transfer below from your
-          bank&apos;s app and we&apos;ll confirm it shortly.
+          Your order is reserved. Send the transfer below from your bank&apos;s
+          app and we&apos;ll confirm it shortly.
         </p>
       </div>
 
@@ -94,8 +94,8 @@ export function ZellePaymentCard({
           {instructions.memo}
         </p>
         <p className="text-[13px] leading-[1.5] text-[var(--text)] mt-2">
-          Put this in the Zelle memo field. Without it we can&apos;t match
-          your payment to your order, and it will be delayed.
+          Put this in the Zelle memo field. Without it we can&apos;t match your
+          payment to your order, and it will be delayed.
         </p>
       </div>
 
@@ -110,16 +110,16 @@ export function ZellePaymentCard({
             <span className="font-mono">{instructions.handle}</span>.
           </li>
           <li>
-            3. Paste <span className="font-mono">{instructions.memo}</span>{" "}
-            into the memo / note field.
+            3. Paste <span className="font-mono">{instructions.memo}</span> into
+            the memo / note field.
           </li>
         </ol>
       </div>
 
       <p className="text-[13px] leading-[1.6] text-[var(--text-muted)]">
-        Order <span className="font-mono text-[var(--text)]">{orderId}</span>{" "}
-        is held as &ldquo;Awaiting Payment.&rdquo; We confirm Zelle transfers
-        once they land in our account and email you the moment yours clears.
+        Order <span className="font-mono text-[var(--text)]">{orderId}</span> is
+        held as &ldquo;Awaiting Payment.&rdquo; We confirm Zelle transfers once
+        they land in our account and email you the moment yours clears.
       </p>
 
       {claimState === "done" ? (
@@ -141,8 +141,8 @@ export function ZellePaymentCard({
           </button>
           {claimState === "error" && (
             <p className="text-[12px] text-[var(--pill-error)]">
-              Could not notify us automatically — your order is still
-              reserved. We&apos;ll see your payment when it lands.
+              Could not notify us automatically — your order is still reserved.
+              We&apos;ll see your payment when it lands.
             </p>
           )}
         </div>

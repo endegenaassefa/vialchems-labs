@@ -197,7 +197,10 @@ describe("transitionStatus", () => {
 
   it("returns the new row on success", async () => {
     const client = makeMockClient({
-      rowOverride: buildOrderRow({ status: "fulfilled", fulfilled_at: "2026-05-13T12:00:00Z" }),
+      rowOverride: buildOrderRow({
+        status: "fulfilled",
+        fulfilled_at: "2026-05-13T12:00:00Z",
+      }),
     });
     const result = await transitionStatus(client, {
       orderId: "00000000-0000-4000-8000-000000000001",

@@ -16,6 +16,12 @@ const eslintConfig = defineConfig([
     "test-results/**",
     "peptide-launch-bundle-main/**",
     "next-env.d.ts",
+    // Per-developer tooling state — Claude Code worktrees (each carries its
+    // own built .next/) and gstack workspace metadata. Never source to lint.
+    ".claude/**",
+    ".gstack/**",
+    // Build output inside nested worktrees the root .next/** glob misses.
+    "**/.next/**",
   ]),
 ]);
 

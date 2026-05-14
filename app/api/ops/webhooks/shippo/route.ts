@@ -38,7 +38,10 @@ interface OrderLookupResult {
 interface OrdersDb {
   from(table: "orders"): {
     select(cols: string): {
-      eq(col: string, value: string): {
+      eq(
+        col: string,
+        value: string,
+      ): {
         maybeSingle(): PromiseLike<OrderLookupResult>;
       };
     };

@@ -235,7 +235,9 @@ export async function purchaseLabel(
     const messages =
       raw.messages?.map((m) => `${m.code}: ${m.text}`).join("; ") ||
       "no messages";
-    throw new Error(`shippo_label_purchase_failed: ${raw.status} (${messages})`);
+    throw new Error(
+      `shippo_label_purchase_failed: ${raw.status} (${messages})`,
+    );
   }
 
   return {

@@ -19,7 +19,7 @@
  * One thin spec, not the full QA pool — the QA pool dispatch (post-merge
  * on Vercel preview) covers adversarial paths.
  */
-import { expect, test, type Page } from "@playwright/test";
+import { expect, test } from "@playwright/test";
 
 const opsToken = process.env.OPS_API_TOKEN;
 const supabaseConfigured = Boolean(

@@ -115,14 +115,13 @@ const ALLOWED_TRANSITIONS: Record<OrderStatus, ReadonlyArray<OrderStatus>> = {
   jurisdictional_rejected: [],
 };
 
-export function isValidTransition(
-  from: OrderStatus,
-  to: OrderStatus,
-): boolean {
+export function isValidTransition(from: OrderStatus, to: OrderStatus): boolean {
   return ALLOWED_TRANSITIONS[from]?.includes(to) ?? false;
 }
 
-export function listValidTransitions(from: OrderStatus): ReadonlyArray<OrderStatus> {
+export function listValidTransitions(
+  from: OrderStatus,
+): ReadonlyArray<OrderStatus> {
   return ALLOWED_TRANSITIONS[from] ?? [];
 }
 
@@ -252,13 +251,21 @@ type QueryBuilder = {
   ilike: (col: string, value: string) => QueryBuilder;
   order: (col: string, opts: { ascending: boolean }) => QueryBuilder;
   range: (from: number, to: number) => QueryBuilder;
-  single: () => PromiseLike<{ data?: unknown; error?: { message: string } | null }>;
-  maybeSingle: () => PromiseLike<{ data?: unknown; error?: { message: string } | null }>;
-  then: <T>(onfulfilled: (value: {
+  single: () => PromiseLike<{
     data?: unknown;
     error?: { message: string } | null;
-    count?: number | null;
-  }) => T) => Promise<T>;
+  }>;
+  maybeSingle: () => PromiseLike<{
+    data?: unknown;
+    error?: { message: string } | null;
+  }>;
+  then: <T>(
+    onfulfilled: (value: {
+      data?: unknown;
+      error?: { message: string } | null;
+      count?: number | null;
+    }) => T,
+  ) => Promise<T>;
 };
 
 type Db = {
@@ -306,7 +313,8 @@ export async function getOrderById(
     ]);
 
   for (const r of [itemsResult, paymentsResult, historyResult, claimResult]) {
-    if (r.error) throw new Error(`order_detail_lookup_failed: ${r.error.message}`);
+    if (r.error)
+      throw new Error(`order_detail_lookup_failed: ${r.error.message}`);
   }
 
   return {
@@ -489,9 +497,7 @@ export async function attachTracking(
 ): Promise<OpsOrder> {
   const parsed = attachTrackingSchema.parse(args);
   if (!isValidTransition(parsed.expectedStatus, "shipped")) {
-    throw new Error(
-      `invalid_transition: ${parsed.expectedStatus} → shipped`,
-    );
+    throw new Error(`invalid_transition: ${parsed.expectedStatus} → shipped`);
   }
   const db = supabase as unknown as Db;
 

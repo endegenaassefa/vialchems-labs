@@ -63,7 +63,8 @@ export function snapshotToShippoAddress(
       (snapshot.full_name as string) ||
       "Recipient",
     street1: (snapshot.street1 as string) || (snapshot.line1 as string) || "",
-    street2: (snapshot.street2 as string) || (snapshot.line2 as string) || undefined,
+    street2:
+      (snapshot.street2 as string) || (snapshot.line2 as string) || undefined,
     city: (snapshot.city as string) || "",
     state: (snapshot.state as string) || (snapshot.region as string) || "",
     zip:

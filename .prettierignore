@@ -1,7 +1,10 @@
 node_modules
 .next
+**/.next
 .vercel
 coverage
 playwright-report
 test-results
 peptide-launch-bundle-main
+.claude
+.gstack

@@ -56,13 +56,11 @@ export async function opsFetch(
 export function OpsAuthGate({ children }: { children: React.ReactNode }) {
   const router = useRouter();
   const pathname = usePathname();
+  const isLoginPage = pathname === "/ops/login";
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    if (pathname === "/ops/login") {
-      setReady(true);
-      return;
-    }
+    if (isLoginPage) return;
     let cancelled = false;
     async function check() {
       try {
@@ -86,8 +84,10 @@ export function OpsAuthGate({ children }: { children: React.ReactNode }) {
     return () => {
       cancelled = true;
     };
-  }, [pathname, router]);
+  }, [isLoginPage, router]);
 
+  // The login page is always rendered — it's how a session gets created.
+  if (isLoginPage) return <>{children}</>;
   if (!ready) {
     return (
       <div className="min-h-[60vh] flex items-center justify-center text-[11px] tracking-[0.24em] uppercase text-[var(--text-muted)]">

@@ -60,7 +60,10 @@ describe("trackingWebhookSchema", () => {
       event: "track_updated",
       data: {
         tracking_number: "9400111899223334445566",
-        tracking_status: { status: "DELIVERED", status_date: "2026-05-14T12:00:00Z" },
+        tracking_status: {
+          status: "DELIVERED",
+          status_date: "2026-05-14T12:00:00Z",
+        },
         carrier: "usps",
       },
     };
@@ -96,7 +99,13 @@ describe("shippoStatusToOrderStatus", () => {
   });
 
   it("returns null for every other status (no state transition v1)", () => {
-    for (const s of ["UNKNOWN", "PRE_TRANSIT", "TRANSIT", "RETURNED", "FAILURE"]) {
+    for (const s of [
+      "UNKNOWN",
+      "PRE_TRANSIT",
+      "TRANSIT",
+      "RETURNED",
+      "FAILURE",
+    ]) {
       expect(shippoStatusToOrderStatus(s)).toBeNull();
     }
   });

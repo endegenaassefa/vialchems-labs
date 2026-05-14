@@ -68,9 +68,7 @@ export function OrdersList() {
               </p>
             </div>
             <div className="flex items-center gap-3">
-              <Pill variant="accent">
-                {methodPendingLabel(order.method)}
-              </Pill>
+              <Pill variant="accent">{methodPendingLabel(order.method)}</Pill>
               <span className="font-mono tabular text-[16px] text-[var(--text)]">
                 {formatPrice(order.totalCents)}
               </span>

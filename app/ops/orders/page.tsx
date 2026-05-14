@@ -49,7 +49,8 @@ export default function OrdersListPage() {
   const [orders, setOrders] = useState<OpsOrder[]>([]);
   const [total, setTotal] = useState(0);
   const [page, setPage] = useState(1);
-  const [statusFilter, setStatusFilter] = useState<(typeof STATUS_FILTERS)[number]>("all");
+  const [statusFilter, setStatusFilter] =
+    useState<(typeof STATUS_FILTERS)[number]>("all");
   const [emailFilter, setEmailFilter] = useState("");
   const [includeTest, setIncludeTest] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -66,7 +67,8 @@ export default function OrdersListPage() {
         pageSize: PAGE_SIZE.toString(),
       });
       if (statusFilter !== "all") params.set("status", statusFilter);
-      if (emailFilter.trim()) params.set("email", emailFilter.trim().toLowerCase());
+      if (emailFilter.trim())
+        params.set("email", emailFilter.trim().toLowerCase());
       if (includeTest) params.set("includeTest", "true");
 
       try {
@@ -177,13 +179,19 @@ export default function OrdersListPage() {
           <tbody>
             {loading && orders.length === 0 ? (
               <tr>
-                <td colSpan={6} className="px-4 py-10 text-center text-[var(--text-muted)]">
+                <td
+                  colSpan={6}
+                  className="px-4 py-10 text-center text-[var(--text-muted)]"
+                >
                   Loading...
                 </td>
               </tr>
             ) : orders.length === 0 ? (
               <tr>
-                <td colSpan={6} className="px-4 py-10 text-center text-[var(--text-muted)]">
+                <td
+                  colSpan={6}
+                  className="px-4 py-10 text-center text-[var(--text-muted)]"
+                >
                   No orders match these filters.
                 </td>
               </tr>
@@ -195,7 +203,10 @@ export default function OrdersListPage() {
                   className="border-b border-[var(--border)] hover:bg-[var(--accent-soft)] transition-colors cursor-pointer"
                 >
                   <td className="px-4 py-3 font-mono">
-                    <Link href={`/ops/orders/${o.id}`} className="hover:text-[var(--accent)]">
+                    <Link
+                      href={`/ops/orders/${o.id}`}
+                      className="hover:text-[var(--accent)]"
+                    >
                       {o.displayId}
                     </Link>
                   </td>
@@ -209,7 +220,9 @@ export default function OrdersListPage() {
                     </span>
                   </td>
                   <td className="px-4 py-3 font-mono text-xs">{o.email}</td>
-                  <td className="px-4 py-3 font-mono">{fmtUsd(o.totalCents)}</td>
+                  <td className="px-4 py-3 font-mono">
+                    {fmtUsd(o.totalCents)}
+                  </td>
                   <td className="px-4 py-3 text-[var(--text-muted)] text-xs">
                     {fmtDate(o.placedAt)}
                   </td>

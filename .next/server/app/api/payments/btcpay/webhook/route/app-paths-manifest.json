@@ -1,3 +1,0 @@
-{
-  "/api/payments/btcpay/webhook/route": "app/api/payments/btcpay/webhook/route.js"
-}

@@ -53,3 +53,6 @@ test-results/
 
 # gstack workspace metadata (per-developer; not part of the codebase)
 .gstack/
+
+# Claude Code per-developer state (worktrees, session data; not the codebase)
+.claude/

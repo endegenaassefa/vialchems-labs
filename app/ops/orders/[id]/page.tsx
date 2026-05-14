@@ -59,6 +59,9 @@ export default function OrderDetailPage({
   }
 
   useEffect(() => {
+    // refresh() flips loading state synchronously — that's the intended
+    // fetch-on-mount behavior, not a cascading-render bug.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     refresh();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
@@ -167,8 +170,12 @@ export default function OrderDetailPage({
               {fmtUsd(order.totalCents)}
             </div>
             {order.payments.map((p) => (
-              <div key={p.id} className="text-xs text-[var(--text-muted)] mt-1 font-mono">
-                {p.provider}/{p.providerIntentId} — {p.status} {fmtUsd(p.amountCents)}
+              <div
+                key={p.id}
+                className="text-xs text-[var(--text-muted)] mt-1 font-mono"
+              >
+                {p.provider}/{p.providerIntentId} — {p.status}{" "}
+                {fmtUsd(p.amountCents)}
               </div>
             ))}
           </div>
@@ -243,7 +250,9 @@ export default function OrderDetailPage({
                 <td className="px-5 py-2 font-mono text-xs">{it.sku}</td>
                 <td className="px-5 py-2">{it.nameSnapshot}</td>
                 <td className="px-5 py-2 font-mono">{it.quantity}</td>
-                <td className="px-5 py-2 font-mono">{fmtUsd(it.unitPriceCents)}</td>
+                <td className="px-5 py-2 font-mono">
+                  {fmtUsd(it.unitPriceCents)}
+                </td>
                 <td className="px-5 py-2 font-mono">
                   {fmtUsd(it.unitPriceCents * it.quantity)}
                 </td>
@@ -298,7 +307,8 @@ export default function OrderDetailPage({
           {order.history.length === 0 && <li>No transitions recorded.</li>}
           {order.history.map((h) => (
             <li key={h.id}>
-              {fmtDate(h.changedAt)} — {h.fromStatus ?? "(initial)"} → {h.toStatus}
+              {fmtDate(h.changedAt)} — {h.fromStatus ?? "(initial)"} →{" "}
+              {h.toStatus}
               {h.reason ? ` (${h.reason})` : ""}
             </li>
           ))}
@@ -391,7 +401,11 @@ function FulfillmentPanel({
       )}
 
       {canShip && (
-        <ShipForm onShip={onShip} onShipShippo={onShipShippo} pending={actionPending} />
+        <ShipForm
+          onShip={onShip}
+          onShipShippo={onShipShippo}
+          pending={actionPending}
+        />
       )}
       {canRefund && (
         <RefundForm
@@ -407,7 +421,9 @@ function FulfillmentPanel({
           Shippo webhook receives a DELIVERED event.
         </div>
       )}
-      {(status === "delivered" || status === "cancelled" || status === "refunded") && (
+      {(status === "delivered" ||
+        status === "cancelled" ||
+        status === "refunded") && (
         <div className="rounded-[14px] border border-[var(--border)] p-5 text-sm text-[var(--text-muted)]">
           Order is in a terminal state ({status}). No further actions available.
         </div>
@@ -444,9 +460,9 @@ function ShipForm({
           {pending ? "Working..." : "Buy cheapest USPS label + mark shipped"}
         </button>
         <div className="text-xs text-[var(--text-muted)]">
-          Auto-picks the cheapest USPS rate, buys the label, marks shipped,
-          and emails the customer. Requires SHIPPING_FROM_* + SHIPPO_API_KEY
-          in env. The label PDF URL appears in the audit log.
+          Auto-picks the cheapest USPS rate, buys the label, marks shipped, and
+          emails the customer. Requires SHIPPING_FROM_* + SHIPPO_API_KEY in env.
+          The label PDF URL appears in the audit log.
         </div>
       </div>
 
@@ -484,8 +500,8 @@ function ShipForm({
           </button>
         </div>
         <div className="text-xs text-[var(--text-muted)]">
-          Customer gets a tracking email automatically. Test orders divert
-          to ORDER_TEST_INBOX.
+          Customer gets a tracking email automatically. Test orders divert to
+          ORDER_TEST_INBOX.
         </div>
       </div>
     </div>
@@ -501,7 +517,9 @@ function RefundForm({
   onRefund: (amountCents: number, reason: string) => Promise<boolean>;
   pending: boolean;
 }) {
-  const [amountDollars, setAmountDollars] = useState((totalCents / 100).toFixed(2));
+  const [amountDollars, setAmountDollars] = useState(
+    (totalCents / 100).toFixed(2),
+  );
   const [reason, setReason] = useState("");
 
   const cents = Math.round(parseFloat(amountDollars || "0") * 100);
@@ -549,8 +567,9 @@ function RefundForm({
         </button>
       </div>
       <div className="text-xs text-[var(--text-muted)]">
-        Records the refund in the system. You still need to push the money
-        back via Zelle/Plaid/BTCPay manually. Max refund: ${(totalCents / 100).toFixed(2)}.
+        Records the refund in the system. You still need to push the money back
+        via Zelle/Plaid/BTCPay manually. Max refund: $
+        {(totalCents / 100).toFixed(2)}.
       </div>
     </div>
   );
