@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import type { SupabaseClient } from "@supabase/supabase-js";
 import {
   OPS_SESSION_COOKIE,
   OPS_SESSION_MAX_AGE_SECONDS,
@@ -6,6 +7,12 @@ import {
   readOpsSessionCookie,
   secureEqual,
 } from "@/lib/ops/auth";
+import {
+  checkOpsAuthRateLimit,
+  hashIp,
+  recordOpsAuthAttempt,
+} from "@/lib/ops/rate-limit";
+import { serviceSupabase } from "@/lib/supabase";
 import { isProductionRuntime } from "@/lib/runtime-env";
 
 export const dynamic = "force-dynamic";
@@ -15,7 +22,8 @@ export const runtime = "nodejs";
 //
 // POST   — verify a pasted OPS_API_TOKEN, then set it in an httpOnly,
 //          Secure, SameSite=Strict cookie. The token never touches
-//          localStorage, so a storefront XSS can't read it.
+//          localStorage, so a storefront XSS can't read it. Brute-force
+//          guesses are rate-limited via lib/ops/rate-limit.
 // DELETE — clear the cookie (logout).
 // GET    — report whether the current cookie is a valid session, so the
 //          client-side OpsAuthGate can decide whether to redirect to login
@@ -59,7 +67,42 @@ export async function POST(request: Request): Promise<Response> {
   if (!token) {
     return jsonError("token_required", 400);
   }
-  if (!secureEqual(token, expected)) {
+
+  // Brute-force protection. Best-effort: when Supabase isn't wired (the
+  // Day-1 demo default) there's nowhere to track attempts, so we skip it
+  // rather than block sign-in.
+  let supabase: SupabaseClient | null = null;
+  try {
+    supabase = serviceSupabase();
+  } catch {
+    supabase = null;
+  }
+  const ipHash = hashIp(
+    request.headers.get("x-forwarded-for")?.split(",")[0]?.trim(),
+  );
+
+  if (supabase) {
+    const limit = await checkOpsAuthRateLimit(supabase, ipHash);
+    if (!limit.allowed) {
+      return NextResponse.json(
+        {
+          ok: false,
+          error: "rate_limited",
+          message: "Too many sign-in attempts. Try again in a few minutes.",
+        },
+        {
+          status: 429,
+          headers: { "Retry-After": String(limit.retryAfterSeconds ?? 900) },
+        },
+      );
+    }
+  }
+
+  const tokenOk = secureEqual(token, expected);
+  if (supabase) {
+    await recordOpsAuthAttempt(supabase, ipHash, tokenOk);
+  }
+  if (!tokenOk) {
     return jsonError("unauthorized", 401);
   }
 
