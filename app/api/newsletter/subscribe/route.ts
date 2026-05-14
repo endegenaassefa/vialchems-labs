@@ -69,10 +69,15 @@ export async function POST(request: Request) {
   try {
     const sb = (await import("@/lib/supabase")).serviceSupabase();
     if (sb && email) {
+      // Service role bypasses RLS, so we MUST filter is_test=false manually
+      // here — a test subscription with this email would otherwise return its
+      // id and the customer would silently inherit the test row's send-state
+      // (CEO plan D18 guardrail).
       const { data: existing } = await sb
         .from("email_subscriptions")
         .select("id")
         .eq("email", email)
+        .eq("is_test", false)
         .maybeSingle();
       if (existing?.id) {
         subscriptionId = existing.id;
