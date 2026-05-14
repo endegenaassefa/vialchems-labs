@@ -3,6 +3,8 @@
 import { use, useEffect, useState } from "react";
 import Link from "next/link";
 import { opsFetch } from "@/components/ops/OpsAuthGate";
+import { fmtAddress } from "@/lib/ops/address-display";
+import { statusColor } from "@/lib/ops/status-display";
 import type { OpsOrderDetail, OrderStatus } from "@/lib/ops/orders";
 
 // Order detail page with fulfill / ship / refund forms inline. Each form
@@ -97,6 +99,8 @@ export default function OrderDetailPage({
   }
   if (!order) return null;
 
+  const addressLines = fmtAddress(order.shippingAddressSnapshot);
+
   return (
     <div className="space-y-8">
       <div>
@@ -108,7 +112,11 @@ export default function OrderDetailPage({
         </Link>
         <div className="flex items-baseline gap-4 mt-2">
           <h1 className="text-2xl font-light font-mono">{order.displayId}</h1>
-          <span className="px-2 py-0.5 rounded-full text-[11px] tracking-[0.12em] uppercase bg-[var(--accent-soft)]">
+          <span
+            className={`px-2 py-0.5 rounded-full text-[11px] tracking-[0.12em] uppercase ${statusColor(
+              order.status,
+            )}`}
+          >
             {order.status.replace(/_/g, " ")}
           </span>
           {order.isTest && (
@@ -138,9 +146,17 @@ export default function OrderDetailPage({
             <div className="text-[11px] tracking-[0.24em] uppercase text-[var(--text-muted)]">
               Shipping address
             </div>
-            <div className="font-mono text-xs mt-1 whitespace-pre-line">
-              {JSON.stringify(order.shippingAddressSnapshot, null, 2)}
-            </div>
+            {addressLines.length > 0 ? (
+              <div className="text-sm mt-1 space-y-0.5">
+                {addressLines.map((line, i) => (
+                  <div key={i}>{line}</div>
+                ))}
+              </div>
+            ) : (
+              <div className="text-sm mt-1 text-[var(--text-muted)]">
+                No address on file
+              </div>
+            )}
           </div>
           <div>
             <div className="text-[11px] tracking-[0.24em] uppercase text-[var(--text-muted)]">
@@ -241,6 +257,11 @@ export default function OrderDetailPage({
       <FulfillmentPanel
         order={order}
         actionPending={actionPending}
+        onMarkPaid={() =>
+          postAction(`/api/ops/payments/manual/confirm`, {
+            displayId: order.displayId,
+          })
+        }
         onFulfill={() =>
           postAction(`/api/ops/orders/${order.id}/fulfill`, {
             expectedStatus: order.status,
@@ -290,6 +311,7 @@ export default function OrderDetailPage({
 function FulfillmentPanel({
   order,
   actionPending,
+  onMarkPaid,
   onFulfill,
   onShip,
   onShipShippo,
@@ -297,12 +319,15 @@ function FulfillmentPanel({
 }: {
   order: OpsOrderDetail;
   actionPending: boolean;
+  onMarkPaid: () => Promise<boolean>;
   onFulfill: () => Promise<boolean>;
   onShip: (trackingNumber: string, carrier: string) => Promise<boolean>;
   onShipShippo: () => Promise<boolean>;
   onRefund: (amountCents: number, reason: string) => Promise<boolean>;
 }) {
   const status: OrderStatus = order.status;
+  const canMarkPaid = status === "awaiting_payment";
+  const isZelle = order.paymentProvider === "zelle";
   const canFulfill = status === "paid";
   const canShip = status === "fulfilled";
   const canRefund =
@@ -313,6 +338,35 @@ function FulfillmentPanel({
 
   return (
     <div className="space-y-4">
+      {canMarkPaid && isZelle && (
+        <div className="rounded-[14px] border border-[var(--border)] p-5 space-y-3">
+          <div className="text-[11px] tracking-[0.24em] uppercase text-[var(--text-muted)]">
+            Confirm payment received
+          </div>
+          <div className="text-sm text-[var(--text-muted)]">
+            This customer chose Zelle. Once their transfer lands in the bank
+            account (memo:{" "}
+            <span className="font-mono text-[var(--text)]">
+              {order.displayId}
+            </span>
+            ), confirm it here to move the order to Paid.
+          </div>
+          <button
+            type="button"
+            disabled={actionPending}
+            onClick={() => onMarkPaid()}
+            className="px-4 py-2 rounded-md bg-[var(--accent)] text-white text-sm uppercase tracking-[0.16em] disabled:opacity-50"
+          >
+            {actionPending ? "Working..." : "Mark payment received"}
+          </button>
+        </div>
+      )}
+      {canMarkPaid && !isZelle && (
+        <div className="rounded-[14px] border border-[var(--border)] p-5 text-sm text-[var(--text-muted)]">
+          Awaiting payment via {order.paymentProvider}. This order moves to Paid
+          automatically when the payment webhook confirms the transfer.
+        </div>
+      )}
       {canFulfill && (
         <div className="rounded-[14px] border border-[var(--border)] p-5">
           <div className="text-[11px] tracking-[0.24em] uppercase text-[var(--text-muted)] mb-3">

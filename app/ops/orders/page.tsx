@@ -2,7 +2,9 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { opsFetch } from "@/components/ops/OpsAuthGate";
+import { statusColor } from "@/lib/ops/status-display";
 import type { OpsOrder } from "@/lib/ops/orders";
 
 // Order list with status + email filters, pagination, and a "show test
@@ -43,27 +45,6 @@ function fmtDate(iso: string): string {
   });
 }
 
-function statusColor(status: string): string {
-  switch (status) {
-    case "paid":
-      return "bg-blue-100 text-blue-800";
-    case "fulfilled":
-      return "bg-amber-100 text-amber-800";
-    case "shipped":
-      return "bg-indigo-100 text-indigo-800";
-    case "delivered":
-      return "bg-green-100 text-green-800";
-    case "cancelled":
-      return "bg-gray-100 text-gray-700";
-    case "refunded":
-      return "bg-rose-100 text-rose-800";
-    case "jurisdictional_rejected":
-      return "bg-red-100 text-red-800";
-    default:
-      return "bg-gray-100 text-gray-700";
-  }
-}
-
 export default function OrdersListPage() {
   const [orders, setOrders] = useState<OpsOrder[]>([]);
   const [total, setTotal] = useState(0);
@@ -73,6 +54,7 @@ export default function OrdersListPage() {
   const [includeTest, setIncludeTest] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const router = useRouter();
 
   useEffect(() => {
     let cancelled = false;
@@ -209,7 +191,8 @@ export default function OrdersListPage() {
               orders.map((o) => (
                 <tr
                   key={o.id}
-                  className="border-b border-[var(--border)] hover:bg-[var(--accent-soft)] transition-colors"
+                  onClick={() => router.push(`/ops/orders/${o.id}`)}
+                  className="border-b border-[var(--border)] hover:bg-[var(--accent-soft)] transition-colors cursor-pointer"
                 >
                   <td className="px-4 py-3 font-mono">
                     <Link href={`/ops/orders/${o.id}`} className="hover:text-[var(--accent)]">
