@@ -62,6 +62,13 @@ interface StoredOrder {
 
 type DialogMode = null | "cancel" | "refund";
 
+function methodPendingLabel(method: string): string {
+  if (method === "crypto") return "Crypto pending";
+  if (method === "zelle") return "Zelle pending";
+  if (method === "ach") return "ACH pending";
+  return "Payment pending";
+}
+
 export function AccountOrderDetail({ expectedId }: { expectedId: string }) {
   const stored = useSessionStorageItem<StoredOrder>(ORDER_KEY);
   const order = stored && stored.id === expectedId ? stored : null;
@@ -102,9 +109,7 @@ export function AccountOrderDetail({ expectedId }: { expectedId: string }) {
   return (
     <div className="space-y-8">
       <div className="flex flex-wrap items-center gap-2">
-        <Pill variant="accent">
-          {order.method === "crypto" ? "Crypto pending" : "ACH pending"}
-        </Pill>
+        <Pill variant="accent">{methodPendingLabel(order.method)}</Pill>
         <Pill variant="info">RUO</Pill>
       </div>
 

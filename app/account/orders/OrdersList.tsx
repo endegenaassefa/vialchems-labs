@@ -25,6 +25,13 @@ interface StoredOrder {
   lines: { name: string; qty: number }[];
 }
 
+function methodPendingLabel(method: string): string {
+  if (method === "crypto") return "Crypto pending";
+  if (method === "zelle") return "Zelle pending";
+  if (method === "ach") return "ACH pending";
+  return "Payment pending";
+}
+
 export function OrdersList() {
   const order = useSessionStorageItem<StoredOrder>(ORDER_KEY);
 
@@ -43,37 +50,44 @@ export function OrdersList() {
   }
 
   return (
-    <ul className="space-y-4">
-      <li>
-        <Card className="p-5 flex flex-wrap items-center gap-4 justify-between">
-          <div className="min-w-0">
-            <Link
-              href={`/account/orders/${order.id}`}
-              className="font-mono text-[14px] tabular text-[var(--text)] hover:text-[var(--accent-soft)]"
-            >
-              {order.id}
-            </Link>
-            <p className="text-[13px] text-[var(--text-muted)] mt-1">
-              {new Date(order.placedAt).toLocaleDateString()} ·{" "}
-              {order.lines.length} {order.lines.length === 1 ? "item" : "items"}
-            </p>
-          </div>
-          <div className="flex items-center gap-3">
-            <Pill variant="accent">
-              {order.method === "crypto" ? "Crypto pending" : "ACH pending"}
-            </Pill>
-            <span className="font-mono tabular text-[16px] text-[var(--text)]">
-              {formatPrice(order.totalCents)}
-            </span>
-            <Link
-              href={`/account/orders/${order.id}`}
-              className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)]"
-            >
-              Detail →
-            </Link>
-          </div>
-        </Card>
-      </li>
-    </ul>
+    <div className="space-y-4">
+      <ul className="space-y-4">
+        <li>
+          <Card className="p-5 flex flex-wrap items-center gap-4 justify-between">
+            <div className="min-w-0">
+              <Link
+                href={`/account/orders/${order.id}`}
+                className="font-mono text-[14px] tabular text-[var(--text)] hover:text-[var(--accent-soft)]"
+              >
+                {order.id}
+              </Link>
+              <p className="text-[13px] text-[var(--text-muted)] mt-1">
+                {new Date(order.placedAt).toLocaleDateString()} ·{" "}
+                {order.lines.length}{" "}
+                {order.lines.length === 1 ? "item" : "items"}
+              </p>
+            </div>
+            <div className="flex items-center gap-3">
+              <Pill variant="accent">
+                {methodPendingLabel(order.method)}
+              </Pill>
+              <span className="font-mono tabular text-[16px] text-[var(--text)]">
+                {formatPrice(order.totalCents)}
+              </span>
+              <Link
+                href={`/account/orders/${order.id}`}
+                className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)]"
+              >
+                Detail →
+              </Link>
+            </div>
+          </Card>
+        </li>
+      </ul>
+      <p className="text-[12px] text-[var(--text-muted)]">
+        Showing this browser session&apos;s order. Full order history across
+        devices activates with account sign-in before launch.
+      </p>
+    </div>
   );
 }
