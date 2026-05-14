@@ -20,6 +20,7 @@ import {
   type PaymentIntent,
 } from "@/lib/payments/types";
 import { serviceSupabase } from "@/lib/supabase";
+import { isProductionRuntime } from "@/lib/runtime-env";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -215,6 +216,22 @@ export async function POST(request: Request): Promise<Response> {
     supabase = serviceSupabase();
   } catch (error) {
     return jsonError("supabase_not_configured", 503, (error as Error).message);
+  }
+
+  // Production guard: serviceSupabase() returns null when REQUIRE_SUPABASE
+  // is not "true" (the documented Day-1 demo default). Demo mode is fine
+  // locally — the order lives in sessionStorage and the confirm page still
+  // renders. But in production a null client means a misconfigured deploy,
+  // and the rest of this handler would otherwise return a 200 "order
+  // confirmed" while persisting NOTHING — a silent order-loss bug. Fail
+  // loud instead so the deploy is visibly broken rather than quietly
+  // dropping real customer orders.
+  if (!supabase && isProductionRuntime()) {
+    return jsonError(
+      "checkout_unavailable",
+      503,
+      "Order persistence is not configured. REQUIRE_SUPABASE must be true in production.",
+    );
   }
 
   let databaseOrderId: string | null = null;
