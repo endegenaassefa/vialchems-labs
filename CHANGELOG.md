@@ -3,6 +3,74 @@
 All notable changes to vialchemlabs are documented here.
 Format inspired by Keep a Changelog. Versioning follows SemVer.
 
+## [1.4.0] — 2026-05-14
+
+Consolidation + go-live hardening. Four parallel bodies of work were merged
+into one branch, the ops admin panel was made genuinely usable for order
+fulfillment, Zelle checkout was finished, and the ops authentication model
+was hardened ahead of launch.
+
+### Ops admin panel — order fulfillment workflow
+
+- New `/ops` admin: login, order list with filters, order detail. Staff can
+  open any order, read the shipping address, mark a payment received,
+  fulfill, ship, and refund — the full fulfillment workflow.
+- Order state machine (`lib/ops/orders.ts`): pending → awaiting_payment →
+  paid → fulfilled → shipped → delivered, plus cancelled / refunded /
+  jurisdictional_rejected, with optimistic-lock transitions and an audit log.
+- Ops API endpoints under `/api/ops/*` for the list, detail, fulfill, ship,
+  refund, and manual payment confirmation, all behind a shared auth gate.
+- Phase A order-admin schema migration (shipping, refund, `is_test` columns).
+
+### One-click shipping via Shippo
+
+- Shippo REST client with HMAC-validated tracking webhooks.
+- Buy a real USPS label from the ops order detail; tracking updates flow back
+  through the webhook and advance shipped → delivered automatically.
+- Order shipment + refund email helpers with an `is_test` kill-switch so
+  seeded test orders never email real customers.
+
+### Zelle checkout
+
+- Customers who pick Zelle get an instruction screen (amount, handle,
+  emphasized memo code, numbered steps) and an "I've sent the payment" button
+  that notifies ops and logs the claim — it does not move the order to paid;
+  only ops does that after verifying the bank transfer.
+- The instruction screen re-shows on the order page for returning customers.
+- `confirm_zelle_manual_payment` RPC does the guarded awaiting_payment → paid
+  transition; ops triggers it from the order detail.
+- The account order-history placeholder was polished and a Zelle status
+  display bug fixed.
+
+### Ops authentication hardening (CSO interim hardening)
+
+- The ops session token moved off browser localStorage — where any storefront
+  XSS could read it — into an httpOnly, Secure, SameSite=Strict cookie set by
+  the new `/api/ops/session` route, with a 12-hour expiry.
+- Brute-force protection: per-IP rate limiting on ops sign-in, backed by a new
+  `ops_auth_attempts` table.
+- Security response headers added in `next.config.ts`: Content-Security-Policy,
+  HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy,
+  Permissions-Policy.
+
+### Fixed
+
+- Hardened the payment-claim, refund, and Shippo label paths (8 review fixes):
+  the unauthenticated payment-claimed endpoint is gated to real Zelle orders
+  and made idempotent; partial refunds no longer strand an order in a terminal
+  state; a failed tracking-attach now voids the bought label instead of
+  orphaning it; test orders can no longer leak into customer order history.
+- Checkout fails loud when Supabase isn't configured in production instead of
+  silently dropping orders.
+- Checkout check-ordering fixed after the Phase A merge.
+
+### Chore
+
+- Untracked the 2,065 committed `.next/` build files and scoped lint/format to
+  ignore local worktree state, taking CI from red to green.
+- Test-order seed script (20 orders across every status) and a Playwright E2E
+  test for the ops fulfillment happy path.
+
 ## [1.3.0] — 2026-05-10
 
 Major overhaul per operator direction: lab-agnostic public copy, real
