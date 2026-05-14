@@ -63,10 +63,14 @@ export async function listCustomerOrders(
   const normalizedEmail = parsed.data.toLowerCase();
   const db = supabase as unknown as OrdersDb;
 
+  // This API runs under serviceSupabase() (RLS bypassed), so the is_test
+  // filter must be explicit here — otherwise a staging/test order created
+  // with a real customer email would leak into that customer's history.
   const result = await db
     .from("orders")
     .select("id, display_id, status, payment_provider, total_cents, placed_at")
     .eq("email", normalizedEmail)
+    .eq("is_test", false)
     .order("placed_at", { ascending: false })
     .limit(50);
 

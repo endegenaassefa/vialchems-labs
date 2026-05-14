@@ -23,6 +23,7 @@ interface OrderRow {
   email: string;
   total_cents: number;
   payment_provider: string;
+  is_test: boolean;
 }
 
 export async function POST(
@@ -51,7 +52,9 @@ export async function POST(
 
   const orderQuery = await supabase
     .from("orders")
-    .select("id, display_id, status, email, total_cents, payment_provider")
+    .select(
+      "id, display_id, status, email, total_cents, payment_provider, is_test",
+    )
     .eq("display_id", displayId)
     .maybeSingle();
 
@@ -63,8 +66,21 @@ export async function POST(
     return jsonError("order_not_found", 404);
   }
 
-  // Idempotent: if the customer already claimed, re-log it (so repeat
-  // clicks are visible) but don't re-email ops.
+  // This endpoint only makes sense for a real Zelle order still waiting on
+  // payment. Reject anything else so a guessed display_id can't trigger an
+  // ops notification for a crypto / cancelled / refunded / test order.
+  if (
+    order.payment_provider !== "zelle" ||
+    order.status !== "awaiting_payment" ||
+    order.is_test
+  ) {
+    return jsonError("claim_not_applicable", 409);
+  }
+
+  // Idempotent: only the first claim writes an audit row and notifies ops.
+  // This endpoint is unauthenticated, so writing an audit row on EVERY call
+  // would be an unbounded write-amplification vector — a repeat click (or a
+  // script hammering a known display_id) must be a no-op, not N audit rows.
   const existing = await supabase
     .from("audit_log")
     .select("id")
@@ -74,19 +90,18 @@ export async function POST(
   const alreadyClaimed =
     !existing.error && Array.isArray(existing.data) && existing.data.length > 0;
 
-  await logAuditEvent(supabase, {
-    eventType: PAYMENT_EVENT.CLAIMED_SENT,
-    orderId: order.id,
-    details: {
-      provider: order.payment_provider,
-      display_id: order.display_id,
-      order_status: order.status,
-      repeat_claim: alreadyClaimed,
-    },
-    actor: "customer",
-  });
-
   if (!alreadyClaimed) {
+    await logAuditEvent(supabase, {
+      eventType: PAYMENT_EVENT.CLAIMED_SENT,
+      orderId: order.id,
+      details: {
+        provider: order.payment_provider,
+        display_id: order.display_id,
+        order_status: order.status,
+      },
+      actor: "customer",
+    });
+
     const opsInbox =
       process.env.OPS_NOTIFICATION_INBOX?.trim() ||
       process.env.ORDER_TEST_INBOX?.trim() ||

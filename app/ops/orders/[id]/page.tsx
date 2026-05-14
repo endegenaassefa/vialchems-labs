@@ -351,6 +351,13 @@ function FulfillmentPanel({
             </span>
             ), confirm it here to move the order to Paid.
           </div>
+          {order.paymentClaimedAt && (
+            <div className="rounded-md border border-[var(--accent)] bg-[var(--accent-soft)] px-3 py-2 text-sm">
+              Customer reported sending payment on{" "}
+              {fmtDate(order.paymentClaimedAt)}. Verify it landed in the bank
+              account, then confirm.
+            </div>
+          )}
           <button
             type="button"
             disabled={actionPending}

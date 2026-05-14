@@ -93,6 +93,10 @@ export interface OpsOrderDetail extends OpsOrder {
   payments: OpsOrderPayment[];
   history: OpsOrderHistoryRow[];
   shippingAddressSnapshot: Record<string, unknown>;
+  // Timestamp of the customer's "I've sent the payment" claim, if any.
+  // Surfaced in the ops UI so a bounced notification email doesn't leave a
+  // manual-payment (Zelle) order with no work-queue signal.
+  paymentClaimedAt: string | null;
 }
 
 // ---------------------------------------------------------------------------
@@ -284,23 +288,33 @@ export async function getOrderById(
   if (!orderResult.data) return null;
   const order = orderResult.data as OrderRow;
 
-  const [itemsResult, paymentsResult, historyResult] = await Promise.all([
-    db.from("order_items").select("*").eq("order_id", orderId),
-    db.from("payments").select("*").eq("order_id", orderId),
-    db
-      .from("order_status_history")
-      .select("*")
-      .eq("order_id", orderId)
-      .order("changed_at", { ascending: true }),
-  ]);
+  const [itemsResult, paymentsResult, historyResult, claimResult] =
+    await Promise.all([
+      db.from("order_items").select("*").eq("order_id", orderId),
+      db.from("payments").select("*").eq("order_id", orderId),
+      db
+        .from("order_status_history")
+        .select("*")
+        .eq("order_id", orderId)
+        .order("changed_at", { ascending: true }),
+      db
+        .from("audit_log")
+        .select("recorded_at")
+        .eq("order_id", orderId)
+        .eq("event_type", PAYMENT_EVENT.CLAIMED_SENT)
+        .maybeSingle(),
+    ]);
 
-  for (const r of [itemsResult, paymentsResult, historyResult]) {
+  for (const r of [itemsResult, paymentsResult, historyResult, claimResult]) {
     if (r.error) throw new Error(`order_detail_lookup_failed: ${r.error.message}`);
   }
 
   return {
     ...toOpsOrder(order),
     shippingAddressSnapshot: order.shipping_address_snapshot ?? {},
+    paymentClaimedAt:
+      (claimResult.data as { recorded_at?: string } | null)?.recorded_at ??
+      null,
     items: (itemsResult.data as Array<Record<string, unknown>>).map((row) => ({
       id: row.id as string,
       sku: row.sku as string,
@@ -536,11 +550,6 @@ export async function markRefunded(
   args: RefundArgs,
 ): Promise<OpsOrder> {
   const parsed = refundSchema.parse(args);
-  if (!isValidTransition(parsed.expectedStatus, "refunded")) {
-    throw new Error(
-      `invalid_transition: ${parsed.expectedStatus} → refunded`,
-    );
-  }
   const db = supabase as unknown as Db;
 
   // Fetch order first so we can validate refund amount <= total without
@@ -564,16 +573,30 @@ export async function markRefunded(
     throw new Error("stale_status");
   }
 
+  // A FULL refund is a terminal status transition (→ 'refunded'). A PARTIAL
+  // refund records the amount/reason but leaves the order in its current
+  // status so the rest of the fulfillment lifecycle can still proceed —
+  // making a partially-refunded shipped order terminal would strand it.
+  // Note: refund_amount_cents holds a single refund record, not a running
+  // total — a second partial refund overwrites the first. A refunds ledger
+  // is future work; flagged in TODOS.
   const isPartial = parsed.amountCents < lookupRow.total_cents;
+  if (!isPartial && !isValidTransition(parsed.expectedStatus, "refunded")) {
+    throw new Error(`invalid_transition: ${parsed.expectedStatus} → refunded`);
+  }
+
+  const update: Record<string, unknown> = {
+    refund_reason: parsed.reason,
+    refund_amount_cents: parsed.amountCents,
+    refunded_at: new Date().toISOString(),
+  };
+  if (!isPartial) {
+    update.status = "refunded";
+  }
 
   const result = await db
     .from("orders")
-    .update({
-      status: "refunded",
-      refund_reason: parsed.reason,
-      refund_amount_cents: parsed.amountCents,
-      refunded_at: new Date().toISOString(),
-    })
+    .update(update)
     .eq("id", parsed.orderId)
     .eq("status", parsed.expectedStatus)
     .select("*")
@@ -587,27 +610,28 @@ export async function markRefunded(
   }
   const row = result.data as OrderRow;
 
-  await Promise.all([
-    db.from("order_status_history").insert({
+  await logAuditEvent(supabase, {
+    eventType: isPartial ? ORDER_EVENT.PARTIAL_REFUNDED : ORDER_EVENT.REFUNDED,
+    orderId: parsed.orderId,
+    details: {
+      amount_cents: parsed.amountCents,
+      total_cents: lookupRow.total_cents,
+      partial: isPartial,
+      reason: parsed.reason,
+    },
+    actor: parsed.actor,
+  });
+
+  // Only a full refund is a status transition worth recording in the
+  // status-history timeline; a partial refund leaves status unchanged.
+  if (!isPartial) {
+    await db.from("order_status_history").insert({
       order_id: parsed.orderId,
       from_status: parsed.expectedStatus,
       to_status: "refunded",
       reason: parsed.reason,
-    }),
-    logAuditEvent(supabase, {
-      eventType: isPartial
-        ? ORDER_EVENT.PARTIAL_REFUNDED
-        : ORDER_EVENT.REFUNDED,
-      orderId: parsed.orderId,
-      details: {
-        amount_cents: parsed.amountCents,
-        total_cents: lookupRow.total_cents,
-        partial: isPartial,
-        reason: parsed.reason,
-      },
-      actor: parsed.actor,
-    }),
-  ]);
+    });
+  }
 
   return toOpsOrder(row);
 }

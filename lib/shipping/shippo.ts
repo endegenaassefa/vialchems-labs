@@ -249,7 +249,45 @@ export async function purchaseLabel(
 }
 
 // ---------------------------------------------------------------------------
-// 3. Webhook signature verification (HMAC-SHA256)
+// 3. refundLabel — void/refund a purchased label
+// ---------------------------------------------------------------------------
+
+interface RawShippoRefund {
+  object_id: string;
+  status: "QUEUED" | "PENDING" | "SUCCESS" | "ERROR";
+  transaction: string;
+}
+
+export interface ShippoRefund {
+  objectId: string;
+  status: string;
+  transactionObjectId: string;
+}
+
+// Voids/refunds a purchased label. Used when a label was bought but the
+// order could not be advanced to 'shipped' (e.g. a concurrent ship request
+// won the optimistic lock first) — refunding the loser's label prevents an
+// orphan paid label. Shippo processes refunds async; QUEUED/PENDING means
+// accepted, the money comes back once the carrier confirms.
+export async function refundLabel(
+  transactionObjectId: string,
+  configOverride?: ShippoConfig,
+): Promise<ShippoRefund> {
+  const raw = await shippoFetch<RawShippoRefund>(
+    "POST",
+    "/refunds/",
+    { transaction: transactionObjectId, async: false },
+    configOverride,
+  );
+  return {
+    objectId: raw.object_id,
+    status: raw.status,
+    transactionObjectId: raw.transaction,
+  };
+}
+
+// ---------------------------------------------------------------------------
+// 4. Webhook signature verification (HMAC-SHA256)
 // ---------------------------------------------------------------------------
 
 // Shippo signs webhooks with HMAC-SHA256(body, SHIPPO_WEBHOOK_SECRET) and

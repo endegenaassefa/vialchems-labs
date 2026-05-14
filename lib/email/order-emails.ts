@@ -152,20 +152,20 @@ export async function sendRefundEmail(
   const isPartial = order.refundAmountCents < order.totalCents;
 
   const subject = recipient.diverted
-    ? `[TEST] Refund issued for order ${order.displayId}`
+    ? `[TEST] Refund approved for order ${order.displayId}`
     : isPartial
-      ? `Partial refund issued for your ${brand} order`
-      : `Refund issued for your ${brand} order`;
+      ? `Partial refund approved for your ${brand} order`
+      : `Refund approved for your ${brand} order`;
 
   const lines = [
-    `We've issued ${isPartial ? "a partial " : "a "}refund for order ${order.displayId}.`,
+    `We've approved ${isPartial ? "a partial " : "a "}refund for order ${order.displayId} and it is being processed.`,
     "",
     `Refund amount: $${amountUsd} USD`,
     isPartial ? `Order total: $${totalUsd} USD` : null,
     order.refundReason ? `Reason: ${order.refundReason}` : null,
     "",
-    "Refunds typically appear in your bank account within 3-7 business days,",
-    "depending on your payment method and bank.",
+    "Refunds typically appear in your account within 3-7 business days",
+    "once processed, depending on your payment method.",
     "",
     "Questions? Reply to this email.",
     `— ${brand} team`,
@@ -173,13 +173,13 @@ export async function sendRefundEmail(
 
   const text = lines.join("\n");
   const html = `
-    <p>We've issued ${isPartial ? "a partial" : "a"} refund for order <strong>${order.displayId}</strong>.</p>
+    <p>We've approved ${isPartial ? "a partial" : "a"} refund for order <strong>${order.displayId}</strong> and it is being processed.</p>
     <ul>
       <li>Refund amount: <strong>$${amountUsd}</strong> USD</li>
       ${isPartial ? `<li>Order total: $${totalUsd} USD</li>` : ""}
       ${order.refundReason ? `<li>Reason: ${order.refundReason}</li>` : ""}
     </ul>
-    <p>Refunds typically appear in your bank account within 3-7 business days.</p>
+    <p>Refunds typically appear in your account within 3-7 business days once processed.</p>
     <p>Questions? Reply to this email.<br/>— ${brand} team</p>
   `.trim();
 

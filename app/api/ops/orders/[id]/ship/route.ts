@@ -4,7 +4,7 @@ import { assertOpsToken, getOpsActor, jsonError } from "@/lib/ops/auth";
 import { attachTracking, getOrderById } from "@/lib/ops/orders";
 import { sendShipmentEmail } from "@/lib/email/order-emails";
 import { serviceSupabase } from "@/lib/supabase";
-import { createShipment, purchaseLabel } from "@/lib/shipping/shippo";
+import { createShipment, purchaseLabel, refundLabel } from "@/lib/shipping/shippo";
 import {
   getDefaultParcel,
   getFromAddress,
@@ -86,6 +86,16 @@ export async function POST(
         "ship_failed",
         409,
         `order is in status ${order.status}, expected fulfilled`,
+      );
+    }
+    // Refuse to buy a second label if one is already attached. Combined
+    // with the void-on-failure path below, this keeps a concurrent
+    // double-click from leaving a paid-for orphan label.
+    if (order.shippoTransactionId) {
+      return jsonError(
+        "ship_failed",
+        409,
+        "order already has a Shippo label; refusing to buy a second",
       );
     }
 
@@ -172,6 +182,28 @@ export async function POST(
         labelUrl: transaction.labelUrl,
       });
     } catch (error) {
+      // The label was purchased but the order could not be advanced to
+      // 'shipped' (most commonly a concurrent ship request won the
+      // optimistic lock). Void the orphan label so it isn't paid-for and
+      // unused, then surface the original failure.
+      let voidStatus = "not_attempted";
+      try {
+        const refund = await refundLabel(transaction.objectId);
+        voidStatus = refund.status;
+      } catch (voidError) {
+        voidStatus = `void_failed: ${(voidError as Error).message}`;
+      }
+      await logAuditEvent(supabase, {
+        eventType: SHIPPO_EVENT.LABEL_VOIDED,
+        orderId: order.id,
+        details: {
+          shippo_transaction_id: transaction.objectId,
+          tracking_number: transaction.trackingNumber,
+          void_status: voidStatus,
+          reason: (error as Error).message,
+        },
+        actor,
+      });
       const message = (error as Error).message;
       const status = message === "stale_status" ? 409 : 400;
       return jsonError("ship_failed", status, message);

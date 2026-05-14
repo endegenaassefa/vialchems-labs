@@ -78,6 +78,13 @@ begin
     return;
   end if;
 
+  -- Only an order genuinely awaiting payment may be confirmed. Without this
+  -- guard a stale ops request (or a stolen token) could resurrect a
+  -- cancelled / refunded / jurisdictionally-rejected order back to 'paid'.
+  if v_order.status <> 'awaiting_payment' then
+    raise exception 'manual_payment_invalid_status: order is % (expected awaiting_payment)', v_order.status;
+  end if;
+
   update payments
     set status = 'paid',
         updated_at = v_confirmed_at

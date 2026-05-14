@@ -32,6 +32,10 @@ export const PAYMENT_EVENT = {
 
 export const SHIPPO_EVENT = {
   LABEL_PURCHASED: "shippo.label_purchased",
+  // A purchased label was voided/refunded because the order could not be
+  // advanced to 'shipped' after the buy (e.g. a concurrent ship request
+  // won the optimistic lock first). Prevents an orphan paid label.
+  LABEL_VOIDED: "shippo.label_voided",
   TRACKING_UPDATED: "shippo.tracking_updated",
   WEBHOOK_RECEIVED: "shippo.webhook_received",
   WEBHOOK_REJECTED: "shippo.webhook_rejected",
