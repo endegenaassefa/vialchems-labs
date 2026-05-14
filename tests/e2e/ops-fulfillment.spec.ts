@@ -33,17 +33,22 @@ test.describe("ops fulfillment happy path", () => {
   );
 
   test.beforeEach(async ({ page }) => {
-    // Seed the localStorage token directly so we don't have to type it.
-    // This mirrors what /ops/login does on a successful verify.
+    // Open an ops session by POSTing the token to /api/ops/session, which
+    // sets the httpOnly cookie. Mirrors what /ops/login does on a successful
+    // verify — the token never touches localStorage.
     await page.goto("/ops/login");
-    await page.evaluate((token) => {
-      window.localStorage.setItem("vialchems_ops_token_v1", token);
+    await page.evaluate(async (token) => {
+      await fetch("/api/ops/session", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ token }),
+      });
     }, opsToken!);
   });
 
   test("login screen rejects empty + wrong tokens", async ({ page }) => {
-    // Clear so we're really unauthed.
-    await page.evaluate(() => window.localStorage.clear());
+    // Clear the session cookie so we're really unauthed.
+    await page.context().clearCookies();
     await page.goto("/ops/login");
 
     // Empty token
@@ -92,9 +97,7 @@ test.describe("ops fulfillment happy path", () => {
     await expect(page.getByText(/Mark fulfilled/i)).toBeVisible();
 
     // Click "Mark fulfilled" — server transitions paid → fulfilled.
-    await page
-      .getByRole("button", { name: /mark fulfilled/i })
-      .click();
+    await page.getByRole("button", { name: /mark fulfilled/i }).click();
 
     // After refresh, fulfilled badge appears and Ship form is visible.
     await expect(page.getByText(/Attach tracking/i)).toBeVisible({
@@ -103,9 +106,7 @@ test.describe("ops fulfillment happy path", () => {
 
     // Paste manual tracking + carrier + click Mark shipped.
     await page.getByPlaceholder(/tracking number/i).fill("9400111E2E12345678");
-    await page
-      .getByRole("button", { name: /mark shipped/i })
-      .click();
+    await page.getByRole("button", { name: /mark shipped/i }).click();
 
     // After refresh, status badge says "shipped" somewhere on the page,
     // and the Shippo-webhook explainer is visible.
@@ -138,7 +139,9 @@ test.describe("ops fulfillment happy path", () => {
     // Refund form: try to refund more than total.
     const amountInput = page.locator('input[type="number"]');
     await amountInput.fill("99999.99");
-    await page.getByPlaceholder(/customer request/i).fill("E2E test overrefund");
+    await page
+      .getByPlaceholder(/customer request/i)
+      .fill("E2E test overrefund");
 
     // Button should be disabled because amount > max (HTML attr).
     const refundBtn = page.getByRole("button", { name: /^refund$/i });

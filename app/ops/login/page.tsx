@@ -2,11 +2,11 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { setOpsToken } from "@/components/ops/OpsAuthGate";
+import { openOpsSession } from "@/components/ops/OpsAuthGate";
 
-// Single-input login: paste the OPS_API_TOKEN, click in. Stored in
-// localStorage for this device. Logout = clear localStorage (link in
-// the layout header — added when we need it; trivial to add).
+// Single-input login: paste the OPS_API_TOKEN, click in. The server verifies
+// it and stores it in an httpOnly cookie (CSO interim hardening) — it never
+// touches localStorage. Logout = DELETE /api/ops/session.
 
 export default function OpsLoginPage() {
   const router = useRouter();
@@ -24,13 +24,13 @@ export default function OpsLoginPage() {
       setSubmitting(false);
       return;
     }
-    // Verify the token works by hitting the orders list endpoint.
+    // The server verifies the token and sets the httpOnly session cookie.
     try {
-      const response = await fetch("/api/ops/orders?pageSize=1", {
-        headers: { Authorization: `Bearer ${trimmed}` },
-      });
+      const response = await openOpsSession(trimmed);
       if (response.status === 401) {
-        setError("Token rejected. Check the value in your .env / Vercel settings.");
+        setError(
+          "Token rejected. Check the value in your .env / Vercel settings.",
+        );
         setSubmitting(false);
         return;
       }
@@ -44,7 +44,6 @@ export default function OpsLoginPage() {
         setSubmitting(false);
         return;
       }
-      setOpsToken(trimmed);
       router.replace("/ops/orders");
     } catch {
       setError("Network error. Try again.");
@@ -64,8 +63,9 @@ export default function OpsLoginPage() {
           </div>
           <h1 className="text-2xl font-light mt-2">Ops admin</h1>
           <p className="text-sm text-[var(--text-muted)] mt-2">
-            Paste your <code className="text-[var(--text)]">OPS_API_TOKEN</code> to access the
-            order admin. The token lives in your Vercel / .env settings.
+            Paste your <code className="text-[var(--text)]">OPS_API_TOKEN</code>{" "}
+            to access the order admin. The token lives in your Vercel / .env
+            settings.
           </p>
         </div>
 

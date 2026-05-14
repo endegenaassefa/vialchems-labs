@@ -1,42 +1,13 @@
-import { timingSafeEqual } from "node:crypto";
 import { NextResponse } from "next/server";
 import {
   confirmManualPayment,
   manualPaymentConfirmationSchema,
 } from "@/lib/ops/manual-payments";
+import { assertOpsToken, jsonError } from "@/lib/ops/auth";
 import { serviceSupabase } from "@/lib/supabase";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
-
-function jsonError(error: string, status: number, message?: string): Response {
-  return NextResponse.json({ ok: false, error, message }, { status });
-}
-
-function secureEqual(a: string, b: string): boolean {
-  const aBuffer = Buffer.from(a);
-  const bBuffer = Buffer.from(b);
-  return aBuffer.length === bBuffer.length && timingSafeEqual(aBuffer, bBuffer);
-}
-
-function assertOpsToken(request: Request): Response | null {
-  const expected = process.env.OPS_API_TOKEN?.trim();
-  if (!expected) {
-    return jsonError(
-      "ops_token_not_configured",
-      503,
-      "OPS_API_TOKEN must be configured before manual payment confirmation.",
-    );
-  }
-  const supplied = request.headers
-    .get("authorization")
-    ?.replace(/^Bearer\s+/i, "")
-    .trim();
-  if (!supplied || !secureEqual(supplied, expected)) {
-    return jsonError("unauthorized", 401);
-  }
-  return null;
-}
 
 export async function POST(request: Request): Promise<Response> {
   const authError = assertOpsToken(request);

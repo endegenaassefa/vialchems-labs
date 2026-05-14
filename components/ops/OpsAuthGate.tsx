@@ -3,45 +3,54 @@
 import { useEffect, useState } from "react";
 import { useRouter, usePathname } from "next/navigation";
 
-// Client-side gate for /ops/* pages. Reads OPS_API_TOKEN from localStorage;
-// if missing, redirects to /ops/login. The login page sets the token and
-// redirects back. This is NOT a real security boundary — the actual auth
-// check is on every /api/ops/* endpoint via assertOpsToken (constant-time
-// HMAC compare against env OPS_API_TOKEN). The UI gate is a UX nicety so
-// staff don't see broken pages with 401 errors everywhere.
+// Client-side gate for /ops/* pages.
 //
-// Token expiry: there is none. Rotate by changing OPS_API_TOKEN in Vercel
-// env vars; all staff get logged out (their stored token stops working).
+// CSO interim hardening (2026-05-14): the ops token used to live in
+// localStorage, where any storefront XSS could read it. It now lives in an
+// httpOnly cookie set by /api/ops/session — client JavaScript can NOT read
+// it. So this gate verifies the session by asking the server
+// (GET /api/ops/session) instead of reading a token directly. The real auth
+// check still happens on every /api/ops/* endpoint via assertOpsToken.
+//
+// Session expiry: 12h (OPS_SESSION_MAX_AGE_SECONDS). Rotate by changing
+// OPS_API_TOKEN in the host env — all existing cookies stop validating.
 
-const STORAGE_KEY = "vialchems_ops_token_v1";
-
-export function getOpsToken(): string | null {
-  if (typeof window === "undefined") return null;
-  return window.localStorage.getItem(STORAGE_KEY);
+// Opens an ops session: POSTs the pasted token to the server, which verifies
+// it and sets the httpOnly cookie. Returns the raw Response so the caller can
+// distinguish a rejected token (401) from a server/network error.
+export async function openOpsSession(token: string): Promise<Response> {
+  return fetch("/api/ops/session", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ token }),
+  });
 }
 
-export function setOpsToken(token: string): void {
-  window.localStorage.setItem(STORAGE_KEY, token.trim());
+// Clears the ops session cookie (logout).
+export async function closeOpsSession(): Promise<void> {
+  await fetch("/api/ops/session", { method: "DELETE" });
 }
 
-export function clearOpsToken(): void {
-  window.localStorage.removeItem(STORAGE_KEY);
-}
-
-// Fetch wrapper that auto-attaches the Bearer token. Throws on missing
-// token (caller should handle by redirecting to login).
+// Fetch wrapper for ops API calls. The httpOnly session cookie rides along
+// automatically on same-origin requests, so there is no token to attach. On
+// a 401 it sends the user back to login.
 export async function opsFetch(
   url: string,
   init: RequestInit = {},
 ): Promise<Response> {
-  const token = getOpsToken();
-  if (!token) throw new Error("ops_no_token");
   const headers = new Headers(init.headers);
-  headers.set("Authorization", `Bearer ${token}`);
   if (init.body && !headers.has("Content-Type")) {
     headers.set("Content-Type", "application/json");
   }
-  return fetch(url, { ...init, headers });
+  const res = await fetch(url, {
+    ...init,
+    headers,
+    credentials: "same-origin",
+  });
+  if (res.status === 401 && typeof window !== "undefined") {
+    window.location.href = "/ops/login";
+  }
+  return res;
 }
 
 export function OpsAuthGate({ children }: { children: React.ReactNode }) {
@@ -54,12 +63,29 @@ export function OpsAuthGate({ children }: { children: React.ReactNode }) {
       setReady(true);
       return;
     }
-    const token = getOpsToken();
-    if (!token) {
-      router.replace("/ops/login");
-      return;
+    let cancelled = false;
+    async function check() {
+      try {
+        const res = await fetch("/api/ops/session", {
+          credentials: "same-origin",
+        });
+        const data = (await res.json().catch(() => ({}))) as {
+          authenticated?: boolean;
+        };
+        if (cancelled) return;
+        if (data.authenticated) {
+          setReady(true);
+        } else {
+          router.replace("/ops/login");
+        }
+      } catch {
+        if (!cancelled) router.replace("/ops/login");
+      }
     }
-    setReady(true);
+    check();
+    return () => {
+      cancelled = true;
+    };
   }, [pathname, router]);
 
   if (!ready) {
