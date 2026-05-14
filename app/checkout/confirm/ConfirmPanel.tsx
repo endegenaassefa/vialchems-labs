@@ -20,7 +20,7 @@ const ORDER_KEY = "vialchemlabs:checkout:order";
 interface StoredOrder {
   id: string;
   placedAt: string;
-  method: "crypto" | "ach";
+  method: "crypto" | "ach" | "zelle";
   lines: {
     sku: string;
     slug: string;
@@ -41,12 +41,28 @@ interface StoredOrder {
     zip: string;
     countryCode: string;
   };
+  paymentInstructions?: {
+    provider: "zelle";
+    businessName: string;
+    handle: string;
+    bankName: string;
+    memo: string;
+    instructions: string;
+    qrImageUrl?: string;
+  } | null;
 }
 
 const METHOD_LABELS: Record<string, string> = {
   crypto: "Cryptocurrency (BTC / LTC)",
   ach: "Bank transfer (US ACH)",
+  zelle: "Zelle bank payment",
 };
+
+function statusLabel(method: StoredOrder["method"]): string {
+  if (method === "crypto") return "Awaiting BTC confirmation";
+  if (method === "zelle") return "Awaiting Zelle verification";
+  return "Awaiting ACH clearance";
+}
 
 export function ConfirmPanel() {
   const order = useSessionStorageItem<StoredOrder>(ORDER_KEY);
@@ -82,11 +98,7 @@ export function ConfirmPanel() {
               {order.id}
             </p>
           </div>
-          <Pill variant="accent">
-            {order.method === "crypto"
-              ? "Awaiting BTC confirmation"
-              : "Awaiting ACH clearance"}
-          </Pill>
+          <Pill variant="accent">{statusLabel(order.method)}</Pill>
         </div>
 
         <p className="text-[16px] leading-[1.6] text-[var(--text-muted)] max-w-2xl">
@@ -139,6 +151,28 @@ export function ConfirmPanel() {
           />
         </div>
       </Card>
+
+      {order.paymentInstructions?.provider === "zelle" && (
+        <Card className="p-6">
+          <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-3">
+            Zelle payment instructions
+          </p>
+          <Specs
+            items={[
+              {
+                term: "Business",
+                value: order.paymentInstructions.businessName,
+              },
+              { term: "Send to", value: order.paymentInstructions.handle },
+              { term: "Bank", value: order.paymentInstructions.bankName },
+              { term: "Memo", value: order.paymentInstructions.memo },
+            ]}
+          />
+          <p className="mt-4 text-[14px] leading-[1.6] text-[var(--text-muted)]">
+            {order.paymentInstructions.instructions}
+          </p>
+        </Card>
+      )}
 
       <Card className="p-6">
         <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-3">

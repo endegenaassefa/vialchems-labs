@@ -1,9 +1,9 @@
 /**
  * MethodForm — client island for /checkout/method.
  *
- * Payment method selection. Production checkout currently allows only crypto,
- * because the Plaid ACH adapter has verification scaffolding but no live
- * create-intent implementation.
+ * Payment method selection. ACH remains disabled until the co-owner Plaid
+ * implementation is merged and verified. Zelle is feature-flagged because it
+ * requires bank/legal approval before it can be shown live.
  *
  * Side panel: live order summary from useCartStore. Submit persists to
  * sessionStorage and routes to /checkout/review.
@@ -22,16 +22,22 @@ import { formatPrice } from "@/lib/content/products";
 import { siteConfig } from "@/lib/content/site";
 import { useSessionStorageString } from "@/lib/use-session-storage";
 
-type MethodId = "crypto" | "ach" | "card";
+type MethodId = "crypto" | "ach" | "card" | "zelle";
 
 const METHOD_STORAGE_KEY = "vialchemlabs:checkout:method";
+const ZELLE_ENABLED = process.env.NEXT_PUBLIC_ENABLE_ZELLE === "true";
 
 export function MethodForm() {
   const router = useRouter();
   const lines = useCartStore((s) => s.lines);
   const subtotalCents = useCartStore((s) => s.subtotalCents)();
   const stored = useSessionStorageString(METHOD_STORAGE_KEY);
-  const initialMethod: MethodId = stored === "crypto" ? stored : "crypto";
+  const initialMethod: MethodId =
+    stored === "zelle" && ZELLE_ENABLED
+      ? "zelle"
+      : stored === "crypto"
+        ? stored
+        : "crypto";
   const [override, setOverride] = useState<MethodId | null>(null);
   const method: MethodId = override ?? initialMethod;
   const setMethod = (m: MethodId) => setOverride(m);
@@ -39,6 +45,7 @@ export function MethodForm() {
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (method === "card" || method === "ach") return;
+    if (method === "zelle" && !ZELLE_ENABLED) return;
     if (typeof window !== "undefined") {
       window.sessionStorage.setItem(METHOD_STORAGE_KEY, method);
     }
@@ -81,6 +88,20 @@ export function MethodForm() {
           />
 
           <PaymentOption
+            id="method-zelle"
+            checked={ZELLE_ENABLED && method === "zelle"}
+            onChange={() => setMethod("zelle")}
+            title="Zelle bank payment"
+            subtitle={
+              ZELLE_ENABLED
+                ? "Manual bank-app payment with staff verification"
+                : "Available after bank and legal approval"
+            }
+            badge={ZELLE_ENABLED ? "Manual verification" : "Approval required"}
+            disabled={!ZELLE_ENABLED}
+          />
+
+          <PaymentOption
             id="method-card"
             checked={false}
             onChange={() => {}}
@@ -93,7 +114,8 @@ export function MethodForm() {
 
         <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)] mt-6">
           Card networks do not currently support research-peptide categories.
-          Crypto and ACH are routed through self-hosted infrastructure.
+          Crypto, ACH, and approved bank-app payments use controlled payment
+          flows.
         </p>
 
         <div className="flex items-center justify-between pt-6">
@@ -107,7 +129,11 @@ export function MethodForm() {
             type="submit"
             variant="primary"
             size="lg"
-            disabled={method === "card" || method === "ach"}
+            disabled={
+              method === "card" ||
+              method === "ach" ||
+              (method === "zelle" && !ZELLE_ENABLED)
+            }
           >
             Continue to review
           </Button>

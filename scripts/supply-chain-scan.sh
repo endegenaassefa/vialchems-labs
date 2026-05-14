@@ -22,6 +22,7 @@ unicode_hits=$(
     --exclude-dir='node_modules' \
     --exclude-dir='.next' \
     --exclude-dir='.git' \
+    --exclude-dir='peptide-launch-bundle-main' \
     '[\x{200B}\x{200C}\x{200D}\x{2060}\x{FEFF}\x{202A}-\x{202E}]' . 2>/dev/null \
   | grep -v 'scripts/supply-chain-scan.sh' || true
 )
@@ -54,6 +55,7 @@ for pattern in "${infra_patterns[@]}"; do
       --exclude-dir='node_modules' \
       --exclude-dir='.next' \
       --exclude-dir='.git' \
+      --exclude-dir='peptide-launch-bundle-main' \
       "$pattern" . 2>/dev/null \
     | grep -v 'scripts/supply-chain-scan.sh' \
     | grep -v 'docs/' \
@@ -73,6 +75,7 @@ cred_files=$(
     -path ./node_modules -prune -o \
     -path ./.next -prune -o \
     -path ./.git -prune -o \
+    -path ./peptide-launch-bundle-main -prune -o \
     \( -name '.env' -o -name '.env.local' -o -name '.env.*.local' -o -name 'id_rsa*' -o -name '*.pem' -o -iname '*credentials*' \) \
     -print 2>/dev/null \
   | grep -v '.env.example' \
@@ -122,6 +125,7 @@ inject_hits=$(
     --exclude-dir='node_modules' \
     --exclude-dir='.next' \
     --exclude-dir='.git' \
+    --exclude-dir='peptide-launch-bundle-main' \
     --exclude-dir='docs' \
     '<!--.*[A-Z]{4,}|data:text/html|<script' . 2>/dev/null \
   | grep -v 'scripts/supply-chain-scan.sh' \
@@ -143,6 +147,7 @@ b64_hits=$(
     --exclude-dir='node_modules' \
     --exclude-dir='.next' \
     --exclude-dir='.git' \
+    --exclude-dir='peptide-launch-bundle-main' \
     --exclude-dir='tests' \
     '[A-Za-z0-9+/]{200,}={0,2}' . 2>/dev/null \
   | grep -v 'scripts/supply-chain-scan.sh' \

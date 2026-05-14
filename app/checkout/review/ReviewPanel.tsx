@@ -79,6 +79,7 @@ interface QualificationSnapshot {
 const METHOD_LABELS: Record<string, string> = {
   crypto: "Cryptocurrency (BTC / LTC)",
   ach: "Bank transfer (US ACH)",
+  zelle: "Zelle bank payment",
 };
 
 // SCANNER_OK: Reconciled to canonical PAYMENT_DISCOUNT_PCT in
@@ -87,6 +88,7 @@ const METHOD_LABELS: Record<string, string> = {
 const METHOD_DISCOUNT_PCT: Record<string, number> = {
   crypto: 15,
   ach: 5,
+  zelle: 0,
 };
 
 export function ReviewPanel() {
@@ -97,7 +99,8 @@ export function ReviewPanel() {
 
   const address = useSessionStorageItem<AddressSnapshot>(ADDRESS_KEY);
   const methodRaw = useSessionStorageString(METHOD_KEY);
-  const method = methodRaw === "crypto" ? methodRaw : null;
+  const method =
+    methodRaw === "crypto" || methodRaw === "zelle" ? methodRaw : null;
 
   const [qualification, setQualification] =
     useState<QualificationSnapshot | null>(null);
@@ -285,7 +288,11 @@ export function ReviewPanel() {
               <span className="text-[16px] text-[var(--text)]">
                 {METHOD_LABELS[method] ?? method}
               </span>
-              <Pill variant="accent">{methodDiscountPct}% off</Pill>
+              {methodDiscountPct > 0 ? (
+                <Pill variant="accent">{methodDiscountPct}% off</Pill>
+              ) : (
+                <Pill variant="info">Manual verification</Pill>
+              )}
             </div>
           ) : (
             <p className="text-[14px] text-[var(--pill-error)]">

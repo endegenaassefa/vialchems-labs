@@ -5,11 +5,13 @@
  *   - crypto = 15% (top of 10-15% band)
  *   - ach    = 5%
  *   - card   = 0% (Phase 2 only; never gets a discount)
+ *   - zelle  = 0% (manual bank-payment rail)
  *
  * Reference SKU: BPC-157 ($54.00 = 5400 cents)
  *   crypto → discount 810,  total 4590  ($45.90)
  *   ach    → discount 270,  total 5130  ($51.30)
  *   card   → discount 0,    total 5400  ($54.00)
+ *   zelle  → discount 0,    total 5400  ($54.00)
  */
 import { describe, expect, it } from "vitest";
 import {
@@ -28,6 +30,10 @@ describe("PAYMENT_DISCOUNT_PCT", () => {
 
   it("locks card at 0% (Phase 2; never gets a discount)", () => {
     expect(PAYMENT_DISCOUNT_PCT.card).toBe(0);
+  });
+
+  it("locks Zelle at 0% because it is manual bank payment", () => {
+    expect(PAYMENT_DISCOUNT_PCT.zelle).toBe(0);
   });
 });
 
@@ -51,6 +57,13 @@ describe("applyPaymentMethodDiscount", () => {
     expect(result.discountCents).toBe(0);
     expect(result.totalCents).toBe(5400);
     expect(result.method).toBe("card");
+  });
+
+  it("BPC-157 $54.00 + Zelle → $54.00 (manual bank payment)", () => {
+    const result = applyPaymentMethodDiscount(5400, "zelle");
+    expect(result.discountCents).toBe(0);
+    expect(result.totalCents).toBe(5400);
+    expect(result.method).toBe("zelle");
   });
 
   it("rounds half-cents using banker-safe Math.round", () => {

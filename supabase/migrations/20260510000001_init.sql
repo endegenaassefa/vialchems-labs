@@ -207,7 +207,7 @@ create table orders (
   shipping_address_snapshot jsonb not null,
   status order_status not null default 'pending',
   payment_provider text not null check (
-    payment_provider in ('stub', 'btcpay', 'plaid')
+    payment_provider in ('stub', 'btcpay', 'plaid', 'zelle')
   ),
   promo_code text references promo_codes(code) on delete set null,
   subtotal_cents integer not null check (subtotal_cents >= 0),
@@ -263,7 +263,7 @@ create type payment_status as enum (
 create table payments (
   id uuid primary key default gen_random_uuid(),
   order_id uuid not null references orders(id) on delete cascade,
-  provider text not null check (provider in ('stub', 'btcpay', 'plaid')),
+  provider text not null check (provider in ('stub', 'btcpay', 'plaid', 'zelle')),
   -- The provider's intent / invoice / transfer id. Indexed unique per
   -- provider so reconciliation idempotency holds across webhook retries.
   provider_intent_id text not null,

@@ -7,17 +7,24 @@
  * → BTCPay invoice → confirm flow lands in Phase 13.
  */
 import { expect, test } from "@playwright/test";
+import { passAgeGate } from "./helpers/age-gate";
 
 test.describe("crypto checkout (stub adapter)", () => {
   test("PDP → cart → checkout/method shows crypto 15% discount", async ({
     page,
   }) => {
+    await passAgeGate(page);
     await page.goto("/products/bpc-157-10mg");
     await expect(
       page.getByRole("heading", {
         level: 1,
-        name: /^BPC-157, 10mg vial$/i,
+        name: /^BPC-157$/i,
       }),
+    ).toBeVisible();
+    await page.getByRole("button", { name: /add to cart/i }).click();
+    await page.goto("/cart");
+    await expect(
+      page.getByRole("heading", { level: 1, name: /review your order/i }),
     ).toBeVisible();
 
     await page.goto("/checkout/method");

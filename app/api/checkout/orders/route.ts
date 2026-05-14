@@ -14,7 +14,8 @@ import {
 import { siteConfig } from "@/lib/content/site";
 import { getBundleBySlug, getProductBySlug } from "@/lib/content/products";
 import { calculatePromoDiscount } from "@/lib/content/promo-codes";
-import { getPaymentProvider } from "@/lib/payments/config";
+import { getCheckoutPaymentProvider } from "@/lib/payments/config";
+import { envIsConfigured as zelleEnvIsConfigured } from "@/lib/payments/zelle";
 import {
   applyPaymentMethodDiscount,
   type PaymentIntent,
@@ -43,7 +44,7 @@ const lineSchema = z.object({
 
 const createOrderSchema = z.object({
   address: addressSchema,
-  method: z.enum(["crypto", "ach"]),
+  method: z.enum(["crypto", "ach", "zelle"]),
   lines: z.array(lineSchema).min(1).max(50),
   qualification: qualificationSchema,
   promoCode: z.string().trim().min(1).max(64).nullable().optional(),
@@ -162,7 +163,7 @@ export async function POST(request: Request): Promise<Response> {
 
   let provider;
   try {
-    provider = getPaymentProvider();
+    provider = getCheckoutPaymentProvider(payload.method);
   } catch (error) {
     return jsonError(
       "payment_provider_not_configured",
@@ -176,6 +177,26 @@ export async function POST(request: Request): Promise<Response> {
       "payment_provider_method_mismatch",
       503,
       "Plaid ACH is not enabled for live checkout.",
+    );
+  }
+
+  if (
+    payload.method === "crypto" &&
+    provider.id !== "btcpay" &&
+    provider.id !== "stub"
+  ) {
+    return jsonError(
+      "payment_provider_method_mismatch",
+      503,
+      "Crypto checkout requires BTCPay or local stub payments.",
+    );
+  }
+
+  if (payload.method === "zelle" && !zelleEnvIsConfigured()) {
+    return jsonError(
+      "zelle_not_configured",
+      503,
+      "Zelle checkout requires bank approval and complete Zelle environment configuration.",
     );
   }
 
@@ -410,6 +431,18 @@ export async function POST(request: Request): Promise<Response> {
       paymentProvider: paymentIntent.provider,
       paymentIntentId: paymentIntent.id,
       paymentStatus: paymentIntent.status,
+      paymentInstructions:
+        paymentIntent.provider === "zelle"
+          ? {
+              provider: "zelle",
+              businessName: paymentIntent.metadata.zelleBusinessName,
+              handle: paymentIntent.metadata.zelleHandle,
+              bankName: paymentIntent.metadata.zelleBankName,
+              memo: paymentIntent.metadata.zelleMemo,
+              instructions: paymentIntent.metadata.instructions,
+              qrImageUrl: paymentIntent.metadata.zelleQrImageUrl,
+            }
+          : null,
     },
     paymentIntent: {
       id: paymentIntent.id,

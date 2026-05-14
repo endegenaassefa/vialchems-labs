@@ -6,6 +6,7 @@
  *   - 'stub'   — deterministic in-memory mock for local dev / tests
  *   - 'btcpay' — BTCPay Server self-hosted (BTC, LTC; 10-15% discount)
  *   - 'plaid'  — Plaid ACH (5% discount; 3-4 day clearance)
+ *   - 'zelle'  — manual bank-app payment, staff-confirmed after receipt
  *
  * Day-1 forbidden: Stripe, PayPal, Square, Shopify Payments. Iron Law 2.9.
  *
@@ -13,9 +14,9 @@
  * "UNBLOCK" descriptor; gated behind ENABLE_CARDS_PHASE_2 env.
  */
 
-export type PaymentProviderId = "stub" | "btcpay" | "plaid";
+export type PaymentProviderId = "stub" | "btcpay" | "plaid" | "zelle";
 
-export type PaymentMethod = "crypto" | "ach" | "card";
+export type PaymentMethod = "crypto" | "ach" | "card" | "zelle";
 
 export type PaymentStatus =
   | "pending"
@@ -66,12 +67,14 @@ export interface PaymentProvider {
 
 /**
  * Payment-method discount band per DECISIONS/payment_stack.md.
- * crypto top of 10-15% band; ACH 5%; card 0% (Phase 2).
+ * crypto top of 10-15% band; ACH 5%; card 0% (Phase 2);
+ * Zelle 0% because it is manually verified outside the site.
  */
 export const PAYMENT_DISCOUNT_PCT: Record<PaymentMethod, number> = {
   crypto: 0.15,
   ach: 0.05,
   card: 0,
+  zelle: 0,
 };
 
 export interface DiscountCalculation {

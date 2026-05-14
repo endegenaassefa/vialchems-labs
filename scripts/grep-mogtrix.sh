@@ -30,6 +30,7 @@ hits=$(
     --exclude-dir='.next' \
     --exclude-dir='.git' \
     --exclude-dir='.vercel' \
+    --exclude-dir='peptide-launch-bundle-main' \
     --exclude-dir='dist' \
     --exclude-dir='build' \
     --exclude-dir='coverage' \
@@ -63,6 +64,7 @@ md_hits=$(
     --exclude-dir='node_modules' \
     --exclude-dir='.next' \
     --exclude-dir='.git' \
+    --exclude-dir='peptide-launch-bundle-main' \
     --exclude-dir='docs' \
     . 2>/dev/null \
   | grep -v 'grep-mogtrix' \

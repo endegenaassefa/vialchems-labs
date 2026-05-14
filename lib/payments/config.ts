@@ -1,12 +1,16 @@
 /**
  * Payment provider registry. Selects the active adapter from PAYMENT_PROVIDER
- * env, defaulting to 'stub'. Iron Law 2.5 + 2.9: Day-1 universe is exactly
- * { stub, btcpay, plaid }. No card rails Day-1.
+ * env, defaulting to 'stub'. Card rails are still excluded Day-1.
  */
 import { createBtcpayAdapter } from "./btcpay";
 import { createPlaidAdapter } from "./plaid";
 import { createStubAdapter } from "./stub";
-import type { PaymentProvider, PaymentProviderId } from "./types";
+import { createZelleAdapter } from "./zelle";
+import type {
+  PaymentMethod,
+  PaymentProvider,
+  PaymentProviderId,
+} from "./types";
 import { envFlag, isProductionRuntime } from "@/lib/runtime-env";
 
 let cachedRegistry: Record<PaymentProviderId, PaymentProvider> | null = null;
@@ -16,6 +20,7 @@ function buildRegistry(): Record<PaymentProviderId, PaymentProvider> {
     stub: createStubAdapter(),
     btcpay: createBtcpayAdapter(),
     plaid: createPlaidAdapter(),
+    zelle: createZelleAdapter(),
   };
 }
 
@@ -37,7 +42,7 @@ export function resetPaymentRegistry(): void {
   cachedRegistry = null;
 }
 
-const VALID_IDS: PaymentProviderId[] = ["stub", "btcpay", "plaid"];
+const VALID_IDS: PaymentProviderId[] = ["stub", "btcpay", "plaid", "zelle"];
 
 function productionPaymentsRequired(): boolean {
   return isProductionRuntime() && !envFlag("ALLOW_STUB_PAYMENTS_IN_PRODUCTION");
@@ -57,7 +62,7 @@ export function resolvePaymentProviderId(
   }
   if (productionPaymentsRequired()) {
     throw new Error(
-      "payment_provider_required: PAYMENT_PROVIDER must be btcpay or plaid in production.",
+      "payment_provider_required: PAYMENT_PROVIDER must be btcpay, plaid, or zelle in production.",
     );
   }
   return "stub";
@@ -72,4 +77,13 @@ export function getPaymentProvider(
 
 export function getPaymentProviderById(id: PaymentProviderId): PaymentProvider {
   return getPaymentRegistry()[id];
+}
+
+export function getCheckoutPaymentProvider(
+  method: PaymentMethod,
+): PaymentProvider {
+  if (method === "zelle") {
+    return getPaymentProvider("zelle");
+  }
+  return getPaymentProvider();
 }

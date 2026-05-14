@@ -21,7 +21,7 @@ const ORDER_KEY = "vialchemlabs:checkout:order";
 interface StoredOrder {
   id: string;
   placedAt: string;
-  method: "crypto" | "ach";
+  method: "crypto" | "ach" | "zelle";
   lines: {
     sku: string;
     slug: string;
@@ -47,7 +47,14 @@ interface StoredOrder {
 const METHOD_LABELS: Record<string, string> = {
   crypto: "Cryptocurrency (BTC / LTC)",
   ach: "Bank transfer (US ACH)",
+  zelle: "Zelle bank payment",
 };
+
+function statusLabel(method: StoredOrder["method"]): string {
+  if (method === "crypto") return "Awaiting BTC confirmation";
+  if (method === "zelle") return "Awaiting Zelle verification";
+  return "Awaiting ACH clearance";
+}
 
 export function OrderDetailIsland({ expectedId }: { expectedId: string }) {
   const stored = useSessionStorageItem<StoredOrder>(ORDER_KEY);
@@ -73,11 +80,7 @@ export function OrderDetailIsland({ expectedId }: { expectedId: string }) {
   return (
     <div className="space-y-8">
       <div className="flex flex-wrap items-center gap-2">
-        <Pill variant="accent">
-          {order.method === "crypto"
-            ? "Awaiting BTC confirmation"
-            : "Awaiting ACH clearance"}
-        </Pill>
+        <Pill variant="accent">{statusLabel(order.method)}</Pill>
         <Pill variant="info">RUO</Pill>
         <Pill variant="electric">Tracking pending</Pill>
       </div>

@@ -1,23 +1,22 @@
 /**
- * ACH checkout happy-path E2E (Phase 11 v4 — unskipped per D16 + D24).
+ * ACH checkout availability E2E (Phase 11 v4 — unskipped per D16 + D24).
  *
- * Stub adapter is the SUT until Phase 13 swaps in real Plaid sandbox creds
- * via Vercel env. The test exercises the ACH method-selection branch up to
- * the review step; the full place-order → reconcile → confirm flow lands
- * in Phase 13 once persistence + reconciliation run end-to-end with
- * Supabase + Plaid sandbox.
+ * Plaid ACH is present in the local branch but remains disabled for live
+ * checkout until create-intent support is fully merged and verified.
  */
 import { expect, test } from "@playwright/test";
+import { passAgeGate } from "./helpers/age-gate";
 
 test.describe("ACH checkout (stub adapter)", () => {
-  test("PDP → cart → checkout/address → checkout/method shows ACH 5% discount", async ({
+  test("PDP → cart → checkout/address → checkout/method shows ACH disabled", async ({
     page,
   }) => {
+    await passAgeGate(page);
     await page.goto("/products/bpc-157-10mg");
     await expect(
       page.getByRole("heading", {
         level: 1,
-        name: /^BPC-157, 10mg vial$/i,
+        name: /^BPC-157$/i,
       }),
     ).toBeVisible();
     await page.getByRole("button", { name: /add to cart/i }).click();
@@ -36,7 +35,7 @@ test.describe("ACH checkout (stub adapter)", () => {
     await expect(
       page.getByRole("heading", { name: /payment method/i }),
     ).toBeVisible();
-    // The ACH option mentions the 5% discount band per Appendix F.
-    await expect(page.getByText(/5%/)).toBeVisible();
+    await expect(page.getByText(/bank transfer \(us ach\)/i)).toBeVisible();
+    await expect(page.getByText(/coming soon/i).first()).toBeVisible();
   });
 });

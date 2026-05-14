@@ -25,6 +25,13 @@ export function CheckoutGuard({ children }: CheckoutGuardProps) {
   const router = useRouter();
   const hydrated = useCartHydrated();
   const lineCount = useCartStore((s) => s.lines.length);
+  const setHydrated = useCartStore((s) => s.setHydrated);
+
+  useEffect(() => {
+    if (hydrated) return;
+    const timeout = window.setTimeout(() => setHydrated(true), 750);
+    return () => window.clearTimeout(timeout);
+  }, [hydrated, setHydrated]);
 
   useEffect(() => {
     if (hydrated && lineCount === 0) {
