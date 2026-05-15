@@ -64,7 +64,7 @@ export function V2Verify() {
                   marginBottom: 30,
                 }}
               >
-                vailchem.labs keeps each vial tied to a published COA, lot
+                vialchem.labs keeps each vial tied to a published COA, lot
                 number, and release record. Use this page to confirm batch
                 documentation before intake.
               </p>

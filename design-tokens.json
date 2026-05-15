@@ -188,7 +188,7 @@
     "footerBase": "margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; font-family: var(--font-mono); font-size: 11px; color: var(--fg-subtle); letter-spacing: 0.04em"
   },
   "header": {
-    "brandText": "vailchem.labs",
+    "brandText": "vialchem.labs",
     "brandHomeHref": "/",
     "navItems": [
       {
@@ -218,90 +218,45 @@
     ]
   },
   "footer": {
-    "brandText": "vailchem.labs",
+    "brandText": "vialchem.labs",
     "badge": "RESEARCH USE ONLY",
     "description": "Research-grade peptides sold only to verified laboratories and qualified research organizations.",
-    "baseLeft": "© 2026 VAILCHEM LABS - RESEARCH USE ONLY - NOT FOR HUMAN OR ANIMAL USE",
+    "baseLeft": "© 2026 VIALCHEM LABS - RESEARCH USE ONLY - NOT FOR HUMAN OR ANIMAL USE",
     "baseRight": "BUILD 26.04 - STATUS: OPERATIONAL",
     "columns": [
       {
         "title": "Shop",
         "links": [
-          [
-            "/shop",
-            "Peptide Catalog"
-          ],
-          [
-            "/coa",
-            "Verify a Vial"
-          ],
-          [
-            "/account",
-            "My Lab"
-          ]
+          ["/shop", "Peptide Catalog"],
+          ["/coa", "Verify a Vial"],
+          ["/account", "My Lab"]
         ]
       },
       {
         "title": "Compliance",
         "links": [
-          [
-            "/legal/terms",
-            "Research Use Policy"
-          ],
-          [
-            "/faq",
-            "Quality Standards"
-          ],
-          [
-            "/coa",
-            "Documentation"
-          ],
-          [
-            "/legal/shipping",
-            "Shipping"
-          ]
+          ["/legal/terms", "Research Use Policy"],
+          ["/faq", "Quality Standards"],
+          ["/coa", "Documentation"],
+          ["/legal/shipping", "Shipping"]
         ]
       },
       {
         "title": "Organization",
         "links": [
-          [
-            "/about",
-            "About"
-          ],
-          [
-            "/contact",
-            "Contact"
-          ],
-          [
-            "/affiliate",
-            "Affiliate"
-          ],
-          [
-            "/blog",
-            "Research Notes"
-          ]
+          ["/about", "About"],
+          ["/contact", "Contact"],
+          ["/affiliate", "Affiliate"],
+          ["/blog", "Research Notes"]
         ]
       },
       {
         "title": "Legal",
         "links": [
-          [
-            "/legal/terms",
-            "Terms"
-          ],
-          [
-            "/legal/privacy",
-            "Privacy"
-          ],
-          [
-            "/legal/refunds",
-            "Refunds"
-          ],
-          [
-            "/legal/cookies",
-            "Cookies"
-          ]
+          ["/legal/terms", "Terms"],
+          ["/legal/privacy", "Privacy"],
+          ["/legal/refunds", "Refunds"],
+          ["/legal/cookies", "Cookies"]
         ]
       }
     ]

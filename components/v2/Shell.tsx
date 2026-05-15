@@ -38,10 +38,10 @@ export function V2Header() {
   return (
     <nav className="nav">
       <div className="container nav-inner">
-        <Link href="/" className="brand" aria-label="vailchem.labs home">
+        <Link href="/" className="brand" aria-label="vialchem.labs home">
           <span className="brand-mark" />
           <span>
-            vailchem<span style={{ color: "var(--fg-muted)" }}>.labs</span>
+            vialchem<span style={{ color: "var(--fg-muted)" }}>.labs</span>
           </span>
         </Link>
         <div className="nav-links">
@@ -207,7 +207,7 @@ export function V2Footer() {
             <div className="brand" style={{ marginBottom: 16 }}>
               <span className="brand-mark" />
               <span>
-                vailchem<span style={{ color: "var(--fg-muted)" }}>.labs</span>
+                vialchem<span style={{ color: "var(--fg-muted)" }}>.labs</span>
               </span>
             </div>
             <p
@@ -264,7 +264,7 @@ export function V2Footer() {
         </div>
         <div className="foot-base">
           <span>
-            © 2026 VAILCHEM LABS — RESEARCH USE ONLY · NOT FOR HUMAN OR ANIMAL
+            © 2026 VIALCHEM LABS — RESEARCH USE ONLY · NOT FOR HUMAN OR ANIMAL
             USE
           </span>
           <span>BUILD 26.04 · STATUS: OPERATIONAL</span>
