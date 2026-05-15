@@ -4,7 +4,7 @@ Theme URI: https://vialchemlabs.net
 Description: Checkout-only Storefront child theme for shop.vialchemlabs.net.
 Author: VialChem Labs LLC
 Template: storefront
-Version: 1.0.1
+Version: 1.0.2
 Text Domain: vialchem-checkout-theme
 */
 
@@ -161,6 +161,7 @@ a {
   gap: 8px;
 }
 
+button.vc-theme-switch,
 .vc-theme-switch {
   display: inline-flex;
   align-items: center;
@@ -168,15 +169,17 @@ a {
   height: 34px;
   gap: 7px;
   padding: 0 10px;
-  border: 1px solid color-mix(in oklab, var(--accent-hi) 46%, var(--line));
+  border: 1px solid color-mix(in oklab, var(--accent-hi) 46%, var(--line)) !important;
   border-radius: var(--r-pill);
-  background: var(--accent-soft);
-  color: var(--accent-hi);
+  background: var(--accent-soft) !important;
+  color: var(--accent-hi) !important;
   font-family: var(--font-mono);
   font-size: 10px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   cursor: default;
+  appearance: none;
+  box-shadow: none !important;
 }
 
 .vc-theme-toggle {

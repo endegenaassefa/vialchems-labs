@@ -196,11 +196,13 @@ export function createMockWooOrder({
   storeUrl,
   lines = [],
   shippingCents = 0,
+  preferredPaymentMethod,
   returnUrl,
 }: {
   storeUrl: string;
   lines?: WooHandoffLine[];
   shippingCents?: number;
+  preferredPaymentMethod?: string;
   returnUrl?: string;
 }): CreatedWooOrder {
   const id = 260515001;
@@ -225,6 +227,13 @@ export function createMockWooOrder({
 
   if (returnUrl) {
     checkoutUrl.searchParams.set("return_url", returnUrl);
+  }
+
+  if (preferredPaymentMethod) {
+    checkoutUrl.searchParams.set(
+      "preview_payment_method",
+      preferredPaymentMethod,
+    );
   }
 
   return {

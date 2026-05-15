@@ -80,6 +80,48 @@ function vialchem_local_preview_return_url(): string {
 	return vialchem_local_main_site_url() . '/order-confirmed';
 }
 
+function vialchem_local_preview_payment_methods(): array {
+	return array(
+		'link_money' => array(
+			'title'       => 'Link Money',
+			'description' => 'Pay by bank',
+			'badge'       => 'Bank',
+		),
+		'bitcoin'    => array(
+			'title'       => 'Bitcoin',
+			'description' => 'BTCPay invoice',
+			'badge'       => 'Crypto',
+		),
+		'card'       => array(
+			'title'       => 'Cards',
+			'description' => 'Credit and debit cards',
+			'badge'       => 'Card',
+		),
+		'apple_pay'  => array(
+			'title'       => 'Apple Pay',
+			'description' => 'Apple Pay wallet',
+			'badge'       => 'Wallet',
+		),
+		'google_pay' => array(
+			'title'       => 'Google Pay',
+			'description' => 'Google Pay wallet',
+			'badge'       => 'Wallet',
+		),
+		'paypal'     => array(
+			'title'       => 'PayPal',
+			'description' => 'PayPal checkout',
+			'badge'       => 'PayPal',
+		),
+	);
+}
+
+function vialchem_local_preview_selected_payment_method(): array {
+	$methods = vialchem_local_preview_payment_methods();
+	$method  = isset( $_GET['preview_payment_method'] ) ? sanitize_key( wp_unslash( (string) $_GET['preview_payment_method'] ) ) : 'link_money'; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+
+	return $methods[ $method ] ?? $methods['link_money'];
+}
+
 function vialchem_local_preview_is_order_pay(): bool {
 	if ( ! vialchem_local_preview_enabled() ) {
 		return false;
@@ -118,6 +160,7 @@ add_action(
 		$shipping_cents = isset( $_GET['preview_shipping_cents'] ) ? absint( $_GET['preview_shipping_cents'] ) : 1500; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
 		$subtotal_cents = max( 0, $total_cents - $shipping_cents );
 		$return_url     = vialchem_local_preview_return_url();
+		$payment_method = vialchem_local_preview_selected_payment_method();
 
 		get_header();
 		?>
@@ -163,11 +206,14 @@ add_action(
 						<span>Total</span>
 						<strong><?php echo esc_html( vialchem_local_preview_money( $total_cents ) ); ?></strong>
 					</div>
-					<div class="vc-payment-list" aria-label="Payment methods">
-						<div class="vc-payment-method"><span><strong>Link Money</strong><small>Pay by bank</small></span><em>Bank</em></div>
-						<div class="vc-payment-method"><span><strong>Bitcoin</strong><small>BTCPay invoice</small></span><em>Crypto</em></div>
-						<div class="vc-payment-method"><span><strong>Cards</strong><small>Credit and debit cards</small></span><em>Card</em></div>
-						<div class="vc-payment-method"><span><strong>PayPal</strong><small>Available when enabled</small></span><em>PayPal</em></div>
+					<div class="vc-payment-list" aria-label="Selected payment method">
+						<div class="vc-payment-method">
+							<span>
+								<strong><?php echo esc_html( $payment_method['title'] ); ?></strong>
+								<small><?php echo esc_html( $payment_method['description'] ); ?></small>
+							</span>
+							<em><?php echo esc_html( $payment_method['badge'] ); ?></em>
+						</div>
 					</div>
 				</aside>
 			</div>

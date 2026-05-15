@@ -193,6 +193,7 @@ export async function POST(request: Request): Promise<Response> {
           process.env.WOO_MOCK_CHECKOUT_URL?.trim() || "http://localhost:3002",
         lines: resolvedLines.lines,
         shippingCents,
+        preferredPaymentMethod: parsed.data.preferredPaymentMethod,
         returnUrl: `${previewSiteUrl}/order-confirmed`,
       });
       return NextResponse.json({

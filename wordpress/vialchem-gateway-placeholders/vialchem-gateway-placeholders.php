@@ -3,7 +3,7 @@
  * Plugin Name: VialChem Gateway Placeholders
  * Plugin URI: https://vialchemlabs.net
  * Description: Link Money placeholder gateway and admin guardrails for VialChem WooCommerce checkout.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: VialChem Labs LLC
  * Text Domain: vialchem-gateway-placeholders
  */
@@ -124,6 +124,56 @@ function vialchem_disable_placeholder_card_wallet_gateways( $gateways ) {
 	}
 
 	return $gateways;
+}
+
+add_filter( 'woocommerce_available_payment_gateways', 'vialchem_restrict_gateways_to_preferred_method', 30 );
+function vialchem_restrict_gateways_to_preferred_method( $gateways ) {
+	if ( ! function_exists( 'is_wc_endpoint_url' ) || ! is_wc_endpoint_url( 'order-pay' ) ) {
+		return $gateways;
+	}
+
+	$order_id = absint( get_query_var( 'order-pay' ) );
+	if ( ! $order_id && isset( $_SERVER['REQUEST_URI'] ) ) {
+		$path = wp_parse_url( sanitize_text_field( wp_unslash( (string) $_SERVER['REQUEST_URI'] ) ), PHP_URL_PATH );
+		if ( is_string( $path ) && preg_match( '#/checkout/order-pay/([0-9]+)/?#', $path, $matches ) ) {
+			$order_id = absint( $matches[1] );
+		}
+	}
+
+	if ( ! $order_id ) {
+		return $gateways;
+	}
+
+	$order = wc_get_order( $order_id );
+	if ( ! $order ) {
+		return $gateways;
+	}
+
+	$preferred = sanitize_key( (string) $order->get_meta( '_preferred_payment_method', true ) );
+	if ( ! $preferred ) {
+		return $gateways;
+	}
+
+	$gateway_ids_by_method = array(
+		'link_money' => array( 'vialchem_link_money', 'link_money', 'linkmoney' ),
+		'bitcoin'    => array( 'btcpay', 'btcpay_server', 'btcpay_gateway', 'btcpay_for_woocommerce' ),
+		'card'       => array( 'stripe', 'woocommerce_payments' ),
+		'apple_pay'  => array( 'stripe', 'woocommerce_payments' ),
+		'google_pay' => array( 'stripe', 'woocommerce_payments' ),
+		'paypal'     => array( 'ppcp-gateway', 'paypal' ),
+	);
+
+	$allowed_ids = apply_filters(
+		'vialchem_preferred_payment_gateway_ids',
+		$gateway_ids_by_method[ $preferred ] ?? array(),
+		$preferred
+	);
+
+	if ( empty( $allowed_ids ) || ! is_array( $allowed_ids ) ) {
+		return array();
+	}
+
+	return array_intersect_key( $gateways, array_flip( array_map( 'sanitize_key', $allowed_ids ) ) );
 }
 
 add_action( 'admin_notices', 'vialchem_gateway_placeholder_admin_notice' );

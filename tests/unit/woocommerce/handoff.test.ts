@@ -133,6 +133,7 @@ describe("development mock handoff", () => {
       storeUrl: "http://localhost:3002/",
       lines,
       shippingCents: 1500,
+      preferredPaymentMethod: "bitcoin",
       returnUrl: "http://localhost:3001/order-confirmed",
     });
 
@@ -151,6 +152,9 @@ describe("development mock handoff", () => {
     ]);
     expect(checkoutUrl.searchParams.get("preview_total_cents")).toBe("20200");
     expect(checkoutUrl.searchParams.get("preview_shipping_cents")).toBe("1500");
+    expect(checkoutUrl.searchParams.get("preview_payment_method")).toBe(
+      "bitcoin",
+    );
     expect(checkoutUrl.searchParams.get("return_url")).toBe(
       "http://localhost:3001/order-confirmed",
     );
