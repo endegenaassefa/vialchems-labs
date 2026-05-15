@@ -14,6 +14,7 @@ import {
   WooHandoffError,
   type WooHandoffLine,
 } from "@/lib/woocommerce/handoff";
+import { isAllowedHandoffOrigin } from "@/lib/woocommerce/security";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -81,6 +82,21 @@ function safeReturnPath(path: string | undefined): string {
 }
 
 export async function POST(request: Request): Promise<Response> {
+  const requestOrigin = request.headers.get("origin");
+  const originAllowed = isAllowedHandoffOrigin(
+    requestOrigin,
+    siteConfig.url,
+    process.env.CHECKOUT_ALLOWED_ORIGINS ?? "",
+  );
+
+  if (!originAllowed) {
+    return jsonError(
+      "checkout_origin_forbidden",
+      403,
+      "Checkout handoff is only available from vialchemlabs.net.",
+    );
+  }
+
   const cookieStore = await cookies();
   const ageCookie = cookieStore.get(AGE_VERIFICATION_COOKIE)?.value;
   const ageVerified = await isSignedAgeVerificationCurrent(ageCookie).catch(
