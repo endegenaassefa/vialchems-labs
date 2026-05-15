@@ -1,6 +1,11 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
+import {
+  PaymentMethodSelector,
+  type CheckoutPaymentMethod,
+} from "@/components/PaymentMethodSelector";
 import { useCartStore } from "@/lib/cart-store";
 import { siteConfig } from "@/lib/content/site";
 import { catalogItems, displayPrice, getCatalogItem } from "./data";
@@ -13,10 +18,61 @@ export function V2Cart() {
   const subtotalCents = useCartStore((s) => s.subtotalCents)();
   const setQty = useCartStore((s) => s.setQty);
   const removeLine = useCartStore((s) => s.removeLine);
+  const [preferredPaymentMethod, setPreferredPaymentMethod] =
+    useState<CheckoutPaymentMethod>("link_money");
+  const [checkoutPending, setCheckoutPending] = useState(false);
+  const [checkoutError, setCheckoutError] = useState<string | null>(null);
   const shippingCents = lines.length ? siteConfig.shipping.pilotUSCents : 0;
   const freeShip =
     subtotalCents >= siteConfig.shipping.freeShippingThresholdCents;
   const totalCents = subtotalCents + (freeShip ? 0 : shippingCents);
+
+  async function handleSecureCheckout() {
+    if (checkoutPending || lines.length === 0) return;
+    setCheckoutPending(true);
+    setCheckoutError(null);
+
+    let response: Response;
+    try {
+      response = await fetch("/api/create-woo-order", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          preferredPaymentMethod,
+          returnPath:
+            typeof window === "undefined"
+              ? "/cart"
+              : `${window.location.pathname}${window.location.search}`,
+          lines: lines.map((line) => ({
+            sku: line.sku,
+            slug: line.slug,
+            qty: line.qty,
+          })),
+        }),
+      });
+    } catch {
+      setCheckoutPending(false);
+      setCheckoutError("Unable to reach secure checkout. Please try again.");
+      return;
+    }
+
+    const body = (await response.json().catch(() => null)) as {
+      ok?: boolean;
+      checkoutUrl?: string;
+      message?: string;
+    } | null;
+
+    if (!response.ok || !body?.ok || !body.checkoutUrl) {
+      setCheckoutPending(false);
+      setCheckoutError(
+        body?.message ??
+          "Secure checkout could not be started. Please try again.",
+      );
+      return;
+    }
+
+    window.location.assign(body.checkoutUrl);
+  }
 
   return (
     <>
@@ -57,24 +113,28 @@ export function V2Cart() {
               </div>
             ) : (
               <div
+                className="v2-cart-layout"
                 style={{
                   display: "grid",
-                  gridTemplateColumns: "1.4fr 420px",
+                  gridTemplateColumns: "minmax(0, 1.4fr) minmax(320px, 420px)",
                   gap: 32,
                   alignItems: "start",
                 }}
               >
-                <div style={{ display: "grid", gap: 12 }}>
+                <div
+                  className="v2-cart-lines"
+                  style={{ display: "grid", gap: 12 }}
+                >
                   {lines.map((line) => {
                     const item = getCatalogItem(line.slug) ?? catalogItems[0];
                     return (
                       <div
                         key={line.sku}
-                        className="card"
+                        className="card v2-cart-line"
                         style={{
                           padding: 14,
                           display: "grid",
-                          gridTemplateColumns: "74px 1fr auto auto",
+                          gridTemplateColumns: "74px minmax(0, 1fr) auto auto",
                           gap: 16,
                           alignItems: "center",
                         }}
@@ -188,13 +248,26 @@ export function V2Cart() {
                     </tbody>
                   </table>
                   <div style={{ display: "grid", gap: 10, marginTop: 22 }}>
-                    <Link
-                      href="/checkout?step=address"
+                    <PaymentMethodSelector
+                      value={preferredPaymentMethod}
+                      onChange={setPreferredPaymentMethod}
+                    />
+                    {checkoutError && (
+                      <p className="v2-cart-error" role="alert">
+                        {checkoutError}
+                      </p>
+                    )}
+                    <button
+                      type="button"
                       className="btn btn-accent btn-lg"
-                      style={{ justifyContent: "center" }}
+                      style={{ justifyContent: "center", width: "100%" }}
+                      disabled={checkoutPending}
+                      onClick={handleSecureCheckout}
                     >
-                      Proceed to checkout
-                    </Link>
+                      {checkoutPending
+                        ? "Starting secure checkout..."
+                        : "Proceed to Secure Checkout"}
+                    </button>
                     <Link
                       href="/shop"
                       className="btn btn-ghost"
