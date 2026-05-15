@@ -1,0 +1,315 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "vialchemlabs-checkout-theme-tokens",
+  "version": "1.0.0",
+  "purpose": "Theme matching contract for shop.vialchemlabs.net WordPress/WooCommerce checkout.",
+  "extractedAt": "2026-05-15",
+  "evidence": {
+    "nextLayout": [
+      "app/layout.tsx:6 imports app/globals.css before the v2 brand layer.",
+      "app/layout.tsx:7 imports app/v2-brand.css.",
+      "app/layout.tsx:8 imports app/v2-layout.css.",
+      "app/layout.tsx:53-58 sets html data-theme=\"dark\" and data-accent=\"cyan-navy\" with Geist font CSS variables.",
+      "app/layout.tsx:61-62 initializes persisted theme/accent values before interactive rendering."
+    ],
+    "brandTokens": [
+      "app/v2-brand.css:7-64 defines the light token layer.",
+      "app/v2-brand.css:67-91 defines dark mode token overrides.",
+      "app/v2-brand.css:94-100 defines the default cyan-navy accent variant."
+    ],
+    "layoutPatterns": [
+      "app/v2-layout.css:14-23 defines body font, background, foreground, and smoothing.",
+      "app/v2-layout.css:74-85 defines .container and .container-wide widths.",
+      "app/v2-layout.css:88-159 defines sticky nav, nav-inner, brand, nav-links, and nav-actions.",
+      "app/v2-layout.css:216-288 defines .btn, .btn-primary, .btn-accent, .btn-ghost, .btn-link, .btn-sm, and .btn-lg.",
+      "app/v2-layout.css:290-305 defines .icon-btn.",
+      "app/v2-layout.css:307-348 defines badge styles including .badge-ruo.",
+      "app/v2-layout.css:350-360 defines .card and .card-hover.",
+      "app/v2-layout.css:734-762 defines .spec-table.",
+      "app/v2-layout.css:764-795 defines .input and .label.",
+      "app/v2-layout.css:871-915 defines the footer grid and base row.",
+      "app/v2-layout.css:984-1011 defines mobile nav/footer/section behavior."
+    ],
+    "componentPatterns": [
+      "components/v2/Shell.tsx:9-14 defines top-level nav items.",
+      "components/v2/Shell.tsx:39-46 renders nav.brand and .brand-mark.",
+      "components/v2/Shell.tsx:47-63 renders .nav-links and .nav-spacer.",
+      "components/v2/Shell.tsx:80-130 renders icon navigation actions.",
+      "components/v2/Shell.tsx:201-270 renders footer columns and operational base row.",
+      "components/v2/Cart.tsx:159-220 renders the existing cart order-summary aside with .card, .spec-table, .btn-accent, and .btn-ghost."
+    ]
+  },
+  "theme": {
+    "defaultMode": "dark",
+    "defaultAccent": "cyan-navy"
+  },
+  "colors": {
+    "light": {
+      "bg": "#fafaf7",
+      "bgElevated": "#ffffff",
+      "bgSunken": "#f4f4f0",
+      "bgInverse": "#0a0e14",
+      "fg": "#0a0e14",
+      "fgMuted": "#5a6470",
+      "fgSubtle": "#8b95a1",
+      "fgInverse": "#fafaf7",
+      "line": "#e6e4dc",
+      "lineStrong": "#c9c6bb",
+      "lineFaint": "#efede6",
+      "accent": "#0f3a5f",
+      "accentHi": "#06b6d4",
+      "accentSoft": "#e8f7fb",
+      "accentFg": "#ffffff",
+      "ok": "#1f8a5b",
+      "okSoft": "#e7f4ed",
+      "warn": "#b08400",
+      "warnSoft": "#fbf4dd",
+      "danger": "#b3261e",
+      "dangerSoft": "#fbe9e7"
+    },
+    "dark": {
+      "bg": "#0a0e14",
+      "bgElevated": "#11161e",
+      "bgSunken": "#060a0f",
+      "bgInverse": "#fafaf7",
+      "fg": "#f0f1ee",
+      "fgMuted": "#8b95a1",
+      "fgSubtle": "#5a6470",
+      "fgInverse": "#0a0e14",
+      "line": "#1f2630",
+      "lineStrong": "#2c3540",
+      "lineFaint": "#161c25",
+      "accent": "#0f3a5f",
+      "accentHi": "#06b6d4",
+      "accentSoft": "#0a2535",
+      "accentFg": "#ffffff",
+      "okSoft": "#0d2419",
+      "warnSoft": "#2a2210",
+      "dangerSoft": "#2a1413"
+    }
+  },
+  "typography": {
+    "fontSans": "var(--font-geist), ui-sans-serif, system-ui, -apple-system, \"Helvetica Neue\", sans-serif",
+    "fontMono": "var(--font-geist-mono), ui-monospace, \"SF Mono\", Menlo, monospace",
+    "body": {
+      "fontSize": "15px",
+      "lineHeight": "1.5",
+      "letterSpacing": "0"
+    },
+    "headings": {
+      "h1": {
+        "fontSize": "clamp(40px, 5.5vw, 72px)",
+        "lineHeight": "1.02",
+        "fontWeight": "500",
+        "letterSpacing": "0"
+      },
+      "h2": {
+        "fontSize": "clamp(28px, 3.2vw, 44px)",
+        "lineHeight": "1.05",
+        "fontWeight": "500",
+        "letterSpacing": "0"
+      },
+      "h3": {
+        "fontSize": "22px",
+        "lineHeight": "1.2",
+        "fontWeight": "500",
+        "letterSpacing": "0"
+      },
+      "h4": {
+        "fontSize": "16px",
+        "lineHeight": "1.3",
+        "fontWeight": "500",
+        "letterSpacing": "0"
+      }
+    },
+    "eyebrow": {
+      "fontFamily": "var(--font-mono)",
+      "fontSize": "11px",
+      "letterSpacing": "0.08em",
+      "textTransform": "uppercase",
+      "color": "var(--fg-muted)"
+    }
+  },
+  "spacing": {
+    "containerMaxWidth": "1280px",
+    "containerWideMaxWidth": "1440px",
+    "containerPaddingX": "24px",
+    "navHeight": "60px",
+    "navGap": "32px",
+    "buttonPadding": "10px 16px",
+    "buttonLargePadding": "14px 22px",
+    "sectionPaddingY": "96px",
+    "footerPadding": "64px 0 32px",
+    "footerGridGap": "48px"
+  },
+  "radius": {
+    "xs": "2px",
+    "sm": "4px",
+    "md": "6px",
+    "lg": "10px",
+    "pill": "999px",
+    "brandMark": "3px"
+  },
+  "shadow": {
+    "light": {
+      "sm": "0 1px 0 rgba(10, 14, 20, 0.04)",
+      "md": "0 4px 16px -8px rgba(10, 14, 20, 0.1), 0 1px 0 rgba(10, 14, 20, 0.04)",
+      "lg": "0 24px 48px -24px rgba(10, 14, 20, 0.18), 0 1px 0 rgba(10, 14, 20, 0.04)"
+    },
+    "dark": {
+      "sm": "0 1px 0 rgba(0, 0, 0, 0.4)",
+      "md": "0 4px 16px -8px rgba(0, 0, 0, 0.6), 0 1px 0 rgba(0, 0, 0, 0.4)",
+      "lg": "0 24px 48px -24px rgba(0, 0, 0, 0.8), 0 1px 0 rgba(0, 0, 0, 0.4)"
+    }
+  },
+  "motion": {
+    "ease": "cubic-bezier(0.2, 0.6, 0.2, 1)",
+    "durationFast": "160ms",
+    "duration": "280ms",
+    "durationSlow": "600ms"
+  },
+  "classes": {
+    "body": "font-family: var(--font-sans); background: var(--bg); color: var(--fg); font-size: 15px; line-height: 1.5",
+    "container": "width: 100%; max-width: 1280px; margin: 0 auto; padding: 0 24px",
+    "nav": "position: sticky; top: 0; z-index: 50; background: color-mix(in oklab, var(--bg) 85%, transparent); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line)",
+    "navInner": "display: flex; align-items: center; height: 60px; gap: 32px",
+    "brand": "display: flex; align-items: center; gap: 8px; font-weight: 500; font-size: 15px",
+    "brandMark": "width: 22px; height: 22px; border: 1px solid var(--fg); border-radius: 3px; display: grid; place-items: center",
+    "navLinks": "display: flex; gap: 24px; font-size: 14px; color: var(--fg-muted)",
+    "button": "display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; font-size: 14px; font-weight: 500; border-radius: var(--r-sm)",
+    "buttonAccent": "background: var(--accent); color: var(--accent-fg); border-color: var(--accent)",
+    "buttonGhost": "border-color: var(--line-strong); color: var(--fg)",
+    "iconButton": "width: 34px; height: 34px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: var(--r-sm); color: var(--fg-muted)",
+    "card": "background: var(--bg-elevated); border: 1px solid var(--line); border-radius: var(--r-md); transition: all var(--dur) var(--ease)",
+    "badgeRuo": "color: var(--accent); border-color: var(--accent); background: var(--accent-soft)",
+    "specTable": "width: 100%; border-collapse: collapse; font-family: var(--font-mono); font-size: 12px",
+    "footer": "border-top: 1px solid var(--line); padding: 64px 0 32px; background: var(--bg-sunken)",
+    "footerGrid": "display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr; gap: 48px",
+    "footerBase": "margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; font-family: var(--font-mono); font-size: 11px; color: var(--fg-subtle); letter-spacing: 0.04em"
+  },
+  "header": {
+    "brandText": "vailchem.labs",
+    "brandHomeHref": "/",
+    "navItems": [
+      {
+        "href": "/shop",
+        "label": "Shop Peptides"
+      },
+      {
+        "href": "/coa",
+        "label": "Verify a Vial"
+      },
+      {
+        "href": "/affiliate",
+        "label": "Affiliate Program"
+      },
+      {
+        "href": "/account",
+        "label": "My Lab"
+      }
+    ],
+    "actions": [
+      "theme",
+      "mobile-menu",
+      "search",
+      "account",
+      "cart",
+      "affiliate"
+    ]
+  },
+  "footer": {
+    "brandText": "vailchem.labs",
+    "badge": "RESEARCH USE ONLY",
+    "description": "Research-grade peptides sold only to verified laboratories and qualified research organizations.",
+    "baseLeft": "© 2026 VAILCHEM LABS - RESEARCH USE ONLY - NOT FOR HUMAN OR ANIMAL USE",
+    "baseRight": "BUILD 26.04 - STATUS: OPERATIONAL",
+    "columns": [
+      {
+        "title": "Shop",
+        "links": [
+          [
+            "/shop",
+            "Peptide Catalog"
+          ],
+          [
+            "/coa",
+            "Verify a Vial"
+          ],
+          [
+            "/account",
+            "My Lab"
+          ]
+        ]
+      },
+      {
+        "title": "Compliance",
+        "links": [
+          [
+            "/legal/terms",
+            "Research Use Policy"
+          ],
+          [
+            "/faq",
+            "Quality Standards"
+          ],
+          [
+            "/coa",
+            "Documentation"
+          ],
+          [
+            "/legal/shipping",
+            "Shipping"
+          ]
+        ]
+      },
+      {
+        "title": "Organization",
+        "links": [
+          [
+            "/about",
+            "About"
+          ],
+          [
+            "/contact",
+            "Contact"
+          ],
+          [
+            "/affiliate",
+            "Affiliate"
+          ],
+          [
+            "/blog",
+            "Research Notes"
+          ]
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          [
+            "/legal/terms",
+            "Terms"
+          ],
+          [
+            "/legal/privacy",
+            "Privacy"
+          ],
+          [
+            "/legal/refunds",
+            "Refunds"
+          ],
+          [
+            "/legal/cookies",
+            "Cookies"
+          ]
+        ]
+      }
+    ]
+  },
+  "checkoutMatchingNotes": [
+    "Use dark mode tokens by default on shop.vialchemlabs.net because app/layout.tsx:53-58 defaults html to data-theme=\"dark\".",
+    "Use absolute https://vialchemlabs.net links for header and footer on the WordPress checkout domain.",
+    "Keep WooCommerce checkout order rows visually aligned to .spec-table and .card from app/v2-layout.css:734-762 and app/v2-layout.css:350-360.",
+    "Keep public Woo line-item names generic; real SKU/name details belong in order meta only."
+  ]
+}
