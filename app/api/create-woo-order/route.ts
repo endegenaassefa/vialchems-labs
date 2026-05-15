@@ -83,6 +83,27 @@ function safeReturnPath(path: string | undefined): string {
   return path;
 }
 
+function getLocalPreviewSiteUrl(
+  origin: string | null,
+  fallbackSiteUrl: string,
+): string {
+  if (process.env.NODE_ENV === "production" || !origin) return fallbackSiteUrl;
+
+  try {
+    const originUrl = new URL(origin);
+    if (
+      originUrl.hostname === "localhost" ||
+      originUrl.hostname === "127.0.0.1"
+    ) {
+      return originUrl.origin;
+    }
+  } catch {
+    return fallbackSiteUrl;
+  }
+
+  return fallbackSiteUrl;
+}
+
 export async function POST(request: Request): Promise<Response> {
   const requestOrigin = request.headers.get("origin");
   const originAllowed = isAllowedHandoffOrigin(
@@ -166,7 +187,9 @@ export async function POST(request: Request): Promise<Response> {
     wooConfig = getWooConfigFromEnv();
   } catch (error) {
     if (isMockWooHandoffEnabled()) {
-      const created = createMockWooOrder({ siteUrl });
+      const created = createMockWooOrder({
+        siteUrl: getLocalPreviewSiteUrl(requestOrigin, siteUrl),
+      });
       return NextResponse.json({
         ok: true,
         mode: "local-preview",
