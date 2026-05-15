@@ -121,51 +121,56 @@ add_action(
 
 		get_header();
 		?>
-		<div class="vc-checkout-card">
-			<div>
-				<p class="vc-eyebrow">WooCommerce local preview</p>
-				<h2>Order <?php echo esc_html( $order_id ); ?></h2>
+		<div class="vc-local-order-pay">
+			<div class="vc-local-checkout-grid">
+				<section class="vc-card vc-local-order-card" aria-labelledby="vc-preview-order-title">
+					<p class="vc-eyebrow">WooCommerce local preview</p>
+					<h2 id="vc-preview-order-title">Order <?php echo esc_html( $order_id ); ?></h2>
+					<div class="vc-order-lines" role="table" aria-label="Order line items">
+						<?php foreach ( $items as $item ) : ?>
+							<div class="vc-order-line" role="row">
+								<div role="cell">
+									<strong><?php echo esc_html( 'Research Supply Order - SKU ' . $item['sku'] ); ?></strong>
+									<span><?php echo esc_html( 'Quantity ' . $item['qty'] ); ?></span>
+								</div>
+								<div class="vc-order-line-value" role="cell">Included</div>
+							</div>
+						<?php endforeach; ?>
+					</div>
+					<form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>">
+						<input type="hidden" name="action" value="vialchem_local_preview_complete">
+						<input type="hidden" name="order_id" value="<?php echo esc_attr( $order_id ); ?>">
+						<input type="hidden" name="return_url" value="<?php echo esc_attr( $return_url ); ?>">
+						<?php wp_nonce_field( 'vialchem_local_preview_complete', 'vialchem_local_preview_nonce' ); ?>
+						<label class="vc-attestation">
+							<input type="checkbox" name="vialchem_attestation" value="1" required>
+							<span>I confirm these products are for qualified laboratory research use only and are not for human or animal use.</span>
+						</label>
+						<button type="submit" class="button alt vc-complete-button">Complete secure checkout</button>
+					</form>
+				</section>
+				<aside class="vc-card vc-local-summary" aria-labelledby="vc-preview-summary-title">
+					<h2 id="vc-preview-summary-title">Order summary</h2>
+					<div class="vc-summary-row">
+						<span>Subtotal</span>
+						<strong><?php echo esc_html( vialchem_local_preview_money( $subtotal_cents ) ); ?></strong>
+					</div>
+					<div class="vc-summary-row">
+						<span>Shipping</span>
+						<strong><?php echo esc_html( vialchem_local_preview_money( $shipping_cents ) ); ?></strong>
+					</div>
+					<div class="vc-summary-row vc-summary-total">
+						<span>Total</span>
+						<strong><?php echo esc_html( vialchem_local_preview_money( $total_cents ) ); ?></strong>
+					</div>
+					<div class="vc-payment-list" aria-label="Payment methods">
+						<div class="vc-payment-method"><span><strong>Link Money</strong><small>Pay by bank</small></span><em>Bank</em></div>
+						<div class="vc-payment-method"><span><strong>Bitcoin</strong><small>BTCPay invoice</small></span><em>Crypto</em></div>
+						<div class="vc-payment-method"><span><strong>Cards</strong><small>Credit and debit cards</small></span><em>Card</em></div>
+						<div class="vc-payment-method"><span><strong>PayPal</strong><small>Available when enabled</small></span><em>PayPal</em></div>
+					</div>
+				</aside>
 			</div>
-			<table class="shop_table shop_table_responsive">
-				<tbody>
-					<?php foreach ( $items as $item ) : ?>
-						<tr>
-							<td>
-								<strong><?php echo esc_html( 'Research Supply Order - SKU ' . $item['sku'] ); ?></strong>
-								<span style="display:block;color:var(--fg-muted);font-size:12px;margin-top:6px">
-									<?php echo esc_html( 'Quantity ' . $item['qty'] ); ?>
-								</span>
-							</td>
-							<td style="text-align:right;color:var(--fg-muted)">Included</td>
-						</tr>
-					<?php endforeach; ?>
-				</tbody>
-				<tfoot>
-					<tr>
-						<th>Subtotal</th>
-						<td><?php echo esc_html( vialchem_local_preview_money( $subtotal_cents ) ); ?></td>
-					</tr>
-					<tr>
-						<th>Shipping</th>
-						<td><?php echo esc_html( vialchem_local_preview_money( $shipping_cents ) ); ?></td>
-					</tr>
-					<tr>
-						<th>Total</th>
-						<td><?php echo esc_html( vialchem_local_preview_money( $total_cents ) ); ?></td>
-					</tr>
-				</tfoot>
-			</table>
-			<form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>">
-				<input type="hidden" name="action" value="vialchem_local_preview_complete">
-				<input type="hidden" name="order_id" value="<?php echo esc_attr( $order_id ); ?>">
-				<input type="hidden" name="return_url" value="<?php echo esc_attr( $return_url ); ?>">
-				<?php wp_nonce_field( 'vialchem_local_preview_complete', 'vialchem_local_preview_nonce' ); ?>
-				<label class="vc-attestation">
-					<input type="checkbox" name="vialchem_attestation" value="1" required>
-					<span>I confirm these products are for qualified laboratory research use only and are not for human or animal use.</span>
-				</label>
-				<button type="submit" class="button alt vc-complete-button">Complete secure checkout</button>
-			</form>
 		</div>
 		<?php
 		get_footer();
