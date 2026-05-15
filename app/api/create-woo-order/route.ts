@@ -87,6 +87,7 @@ export async function POST(request: Request): Promise<Response> {
     requestOrigin,
     siteConfig.url,
     process.env.CHECKOUT_ALLOWED_ORIGINS ?? "",
+    { allowLocalhost: process.env.NODE_ENV !== "production" },
   );
 
   if (!originAllowed) {

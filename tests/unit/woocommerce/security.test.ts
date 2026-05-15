@@ -27,6 +27,24 @@ describe("isAllowedHandoffOrigin", () => {
     ).toBe(false);
   });
 
+  it("allows localhost only when explicitly enabled for development", () => {
+    expect(
+      isAllowedHandoffOrigin(
+        "http://localhost:3001",
+        "https://vialchemlabs.net",
+      ),
+    ).toBe(false);
+
+    expect(
+      isAllowedHandoffOrigin(
+        "http://localhost:3001",
+        "https://vialchemlabs.net",
+        "",
+        { allowLocalhost: true },
+      ),
+    ).toBe(true);
+  });
+
   it("allows missing origin for non-browser server checks", () => {
     expect(isAllowedHandoffOrigin(null, "https://vialchemlabs.net")).toBe(true);
   });
