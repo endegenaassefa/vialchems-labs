@@ -98,10 +98,10 @@ Local UI preview without live WooCommerce credentials:
 
 ```bash
 ALLOW_WOO_MOCK_HANDOFF_IN_DEVELOPMENT=true npm run dev
-npm run dev:shop-preview
+bash scripts/bootstrap-local-wordpress.sh
 ```
 
-This mode is rejected in production and redirects checkout attempts to a second local checkout origin at `http://localhost:3002/checkout/order-pay/{id}/?key=...`. Completing the preview checkout redirects back to `http://localhost:3001/order-confirmed?order={id}`.
+This mode is rejected in production and redirects checkout attempts to a real local WordPress + WooCommerce site at `http://localhost:3002/checkout/order-pay/{id}/?key=...`. Completing the preview checkout redirects back to `http://localhost:3001/order-confirmed?order={id}`. If Docker is unavailable, `npm run dev:shop-preview` remains available as a minimal non-WordPress fallback.
 
 Hosted checks after credentials and DNS are live:
 

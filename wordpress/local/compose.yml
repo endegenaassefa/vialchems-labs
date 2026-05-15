@@ -1,0 +1,60 @@
+services:
+  db:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: vialchem_checkout
+      MYSQL_USER: vialchem
+      MYSQL_PASSWORD: vialchem
+      MYSQL_ROOT_PASSWORD: vialchem_root
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uvialchem -pvialchem"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+  wordpress:
+    image: wordpress:latest
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "3002:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: vialchem_checkout
+      WORDPRESS_DB_USER: vialchem
+      WORDPRESS_DB_PASSWORD: vialchem
+      WORDPRESS_CONFIG_EXTRA: |
+        define( 'VIALCHEM_MAIN_SITE_URL', 'http://localhost:3001' );
+        define( 'VIALCHEM_LINK_MONEY_API_KEY', 'PLACEHOLDER_LINK_MONEY_API_KEY' );
+        define( 'WP_ENVIRONMENT_TYPE', 'local' );
+    volumes:
+      - wordpress_data:/var/www/html
+      - ../vialchem-checkout-theme:/var/www/html/wp-content/themes/vialchem-checkout-theme:ro
+      - ../vialchem-gateway-placeholders:/var/www/html/wp-content/plugins/vialchem-gateway-placeholders:ro
+      - ./vialchem-local-checkout-preview:/var/www/html/wp-content/plugins/vialchem-local-checkout-preview:ro
+
+  wpcli:
+    image: wordpress:cli
+    depends_on:
+      db:
+        condition: service_healthy
+      wordpress:
+        condition: service_started
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: vialchem_checkout
+      WORDPRESS_DB_USER: vialchem
+      WORDPRESS_DB_PASSWORD: vialchem
+    volumes:
+      - wordpress_data:/var/www/html
+      - ../vialchem-checkout-theme:/var/www/html/wp-content/themes/vialchem-checkout-theme:ro
+      - ../vialchem-gateway-placeholders:/var/www/html/wp-content/plugins/vialchem-gateway-placeholders:ro
+      - ./vialchem-local-checkout-preview:/var/www/html/wp-content/plugins/vialchem-local-checkout-preview:ro
+    user: "33:33"
+
+volumes:
+  db_data:
+  wordpress_data:
