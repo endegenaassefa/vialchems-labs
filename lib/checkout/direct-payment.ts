@@ -45,6 +45,7 @@ export function getMissingBtcpayCredentials(
 
 export function getBtcpayAdapterEnv(env: RuntimeEnv = process.env): BtcpayEnv {
   return {
+    BTCPAY_SERVER_URL: getBtcpayServerUrl(env),
     BTCPAY_URL: getBtcpayServerUrl(env),
     BTCPAY_API_KEY: env.BTCPAY_API_KEY,
     BTCPAY_STORE_ID: env.BTCPAY_STORE_ID,

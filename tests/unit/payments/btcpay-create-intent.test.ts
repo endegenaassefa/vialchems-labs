@@ -83,6 +83,7 @@ describe("BTCPay createIntent (real Greenfield)", () => {
     expect(body.amount).toBe("54.00");
     expect(body.currency).toBe("USD");
     expect(body.metadata.intentId).toBe("VC-TEST-1");
+    expect(body.checkout.paymentMethods).toEqual(["BTC"]);
     expect(body.checkout.redirectURL).toBe("/order-confirmed?order=VC-TEST-1");
 
     expect(intent.id).toBe("INV-abc123");
@@ -138,6 +139,47 @@ describe("BTCPay createIntent (real Greenfield)", () => {
     expect(call?.[0]).toBe(
       "https://btcpay-server-url.example.com/api/v1/stores/store-1/invoices",
     );
+  });
+
+  it("gets an invoice and maps it back to a PaymentIntent", async () => {
+    vi.spyOn(globalThis, "fetch").mockImplementation(async (input, init) => {
+      const url = typeof input === "string" ? input : input.toString();
+      const initMethod =
+        init?.method ??
+        (typeof input === "object" ? (input as Request).method : "GET");
+      if (
+        url.endsWith("/api/v1/stores/store-1/invoices/INV-abc123") &&
+        initMethod === "GET"
+      ) {
+        return new Response(
+          JSON.stringify({
+            id: "INV-abc123",
+            status: "Settled",
+            amount: "69.00",
+            checkoutLink: "https://btcpay.example.com/i/INV-abc123",
+            metadata: { intentId: "VC-TEST-1" },
+          }),
+          {
+            status: 200,
+            headers: { "content-type": "application/json" },
+          },
+        );
+      }
+      return new Response("not found", { status: 404 });
+    });
+
+    const adapter = createBtcpayAdapter({ env });
+    const intent = await adapter.getIntent("INV-abc123");
+
+    expect(intent).toMatchObject({
+      id: "VC-TEST-1",
+      provider: "btcpay",
+      method: "crypto",
+      amountCents: 6900,
+      status: "paid",
+      externalId: "INV-abc123",
+      redirectUrl: "https://btcpay.example.com/i/INV-abc123",
+    });
   });
 
   it("throws when the Greenfield POST returns non-2xx", async () => {

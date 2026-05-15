@@ -42,8 +42,29 @@ describe("envIsConfigured", () => {
     expect(envIsConfigured({ ...REAL_ENV, BTCPAY_URL: undefined })).toBe(false);
   });
 
+  it("returns false for visible placeholder values", () => {
+    expect(
+      envIsConfigured({
+        BTCPAY_SERVER_URL: "PLACEHOLDER_BTCPAY_SERVER_URL",
+        BTCPAY_API_KEY: "PLACEHOLDER_BTCPAY_API_KEY",
+        BTCPAY_STORE_ID: "PLACEHOLDER_BTCPAY_STORE_ID",
+        BTCPAY_WEBHOOK_SECRET: "PLACEHOLDER_BTCPAY_WEBHOOK_SECRET",
+      }),
+    ).toBe(false);
+  });
+
   it("returns true when all values are non-stub", () => {
     expect(envIsConfigured(REAL_ENV)).toBe(true);
+  });
+
+  it("accepts BTCPAY_SERVER_URL as the preferred server key", () => {
+    expect(
+      envIsConfigured({
+        ...REAL_ENV,
+        BTCPAY_SERVER_URL: "https://btcpay.server-url.example",
+        BTCPAY_URL: undefined,
+      }),
+    ).toBe(true);
   });
 });
 
@@ -59,10 +80,11 @@ describe("mapBtcpayStatus", () => {
     expect(mapBtcpayStatus("InvoiceProcessing")).toBe("authorized");
   });
 
-  it("maps Settled / Paid / InvoiceSettled → paid", () => {
+  it("maps Settled / Paid / InvoiceSettled / InvoicePaymentSettled → paid", () => {
     expect(mapBtcpayStatus("Settled")).toBe("paid");
     expect(mapBtcpayStatus("Paid")).toBe("paid");
     expect(mapBtcpayStatus("InvoiceSettled")).toBe("paid");
+    expect(mapBtcpayStatus("InvoicePaymentSettled")).toBe("paid");
   });
 
   it("maps Expired / Invalid → failed", () => {
@@ -209,5 +231,20 @@ describe("createBtcpayAdapter — handleWebhook", () => {
     });
     expect(result.verified).toBe(true);
     expect(result.intent?.id).toBe("inv_99");
+  });
+
+  it("falls back to metadata.orderId before invoiceId", async () => {
+    const adapter = createBtcpayAdapter({ env });
+    const body = JSON.stringify({
+      type: "InvoicePaymentSettled",
+      invoiceId: "inv_100",
+      metadata: { orderId: "VC-260515-ABCDEF12" },
+    });
+    const result = await adapter.handleWebhook(body, {
+      "btcpay-sig": sign(body, secret),
+    });
+    expect(result.verified).toBe(true);
+    expect(result.intent?.id).toBe("VC-260515-ABCDEF12");
+    expect(result.intent?.status).toBe("paid");
   });
 });

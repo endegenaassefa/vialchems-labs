@@ -7,6 +7,8 @@ This repository now contains the Next.js main-site implementation, WordPress/Woo
 - `https://vialchemlabs.net`: Next.js brand, catalog, age gate, cart, Bitcoin checkout, Zelle checkout, payment-method messaging, and WooCommerce order handoff for non-direct methods.
 - `https://shop.vialchemlabs.net`: WordPress + WooCommerce checkout engine for Link Money, cards, Apple Pay, Google Pay, and PayPal only. Public catalog and marketing routes are redirected back to the main site by the child theme.
 
+Bitcoin production setup details live in `docs/btcpay-production.md`.
+
 ## Evidence From This Codebase
 
 - App Router layout and global tokens: `app/layout.tsx`, `app/globals.css`, `app/v2-brand.css`, `app/v2-layout.css`.
@@ -114,6 +116,7 @@ Local checks:
 ```bash
 npm test -- --run tests/unit/woocommerce/handoff.test.ts tests/unit/woocommerce/webhook.test.ts tests/unit/woocommerce/security.test.ts
 npm test -- --run tests/unit/checkout/payment-routing.test.ts tests/unit/checkout/direct-payment.test.ts tests/unit/payments/zelle.test.ts
+npm run verify:btcpay
 npm run typecheck
 npm run build
 ```
@@ -155,6 +158,9 @@ End-to-end smoke:
 - WooCommerce template structure: https://developer.woocommerce.com/docs/theming/theme-development/template-structure
 - WordPress child themes: https://developer.wordpress.org/themes/advanced-topics/child-themes/
 - WP-CLI plugin command: https://developer.wordpress.org/cli/commands/plugin/
+- BTCPay Server Greenfield example: https://docs.btcpayserver.org/Development/GreenFieldExample/
+- BTCPay Server API authorization: https://docs.btcpayserver.org/BTCPayServer/greenfield-authorization/
+- BTCPay Server eCommerce integration: https://docs.btcpayserver.org/Development/ecommerce-integration-guide/
 - BTCPay Server WooCommerce integration: https://docs.btcpayserver.org/WooCommerce/
 
 ## Placeholder Inventory

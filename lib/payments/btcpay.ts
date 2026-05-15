@@ -26,11 +26,13 @@ const STUB_VALUES = new Set([
   "stub_store_id",
   "stub_btcpay_webhook_secret",
   "https://stub-btcpay.example.com",
+  "https://your-btcpay-server.example.com",
 ]);
 
 function isStub(value: string | undefined): boolean {
-  if (value === undefined) return true;
-  return STUB_VALUES.has(value);
+  const normalized = value?.trim();
+  if (!normalized) return true;
+  return STUB_VALUES.has(normalized) || /^PLACEHOLDER_/i.test(normalized);
 }
 
 export interface BtcpayEnv {
@@ -73,6 +75,7 @@ export function mapBtcpayStatus(s: string): PaymentStatus {
     case "Paid":
     case "Confirmed":
     case "InvoiceSettled":
+    case "InvoicePaymentSettled":
       return "paid";
     case "Expired":
     case "Invalid":
@@ -119,6 +122,40 @@ interface BtcpayWebhookPayload {
   metadata?: Record<string, string>;
 }
 
+interface BtcpayInvoiceResponse {
+  id: string;
+  status?: string;
+  amount?: string | number;
+  checkoutLink?: string;
+  metadata?: Record<string, string>;
+}
+
+function getConfiguredServerUrl(env: BtcpayEnv): string {
+  const raw = env.BTCPAY_SERVER_URL ?? env.BTCPAY_URL;
+  if (isStub(raw)) {
+    throw new Error(
+      "btcpay_not_configured: BTCPAY_SERVER_URL, BTCPAY_API_KEY, BTCPAY_STORE_ID, and BTCPAY_WEBHOOK_SECRET must all be set to non-placeholder values.",
+    );
+  }
+
+  let url: URL;
+  try {
+    url = new URL(raw!.trim());
+  } catch {
+    throw new Error(
+      "btcpay_not_configured: BTCPAY_SERVER_URL must be a valid absolute URL.",
+    );
+  }
+
+  if (url.protocol !== "https:" && url.protocol !== "http:") {
+    throw new Error(
+      "btcpay_not_configured: BTCPAY_SERVER_URL must use https:// or http://.",
+    );
+  }
+
+  return url.origin;
+}
+
 export function createBtcpayAdapter(
   options: BtcpayAdapterOptions = {},
 ): PaymentProvider {
@@ -136,15 +173,11 @@ export function createBtcpayAdapter(
     async createIntent(input: CreateIntentInput): Promise<PaymentIntent> {
       if (!envIsConfigured(env)) {
         throw new Error(
-          "btcpay_not_configured: BTCPAY_URL, BTCPAY_API_KEY, BTCPAY_STORE_ID, and BTCPAY_WEBHOOK_SECRET must all be set to non-stub values.",
+          "btcpay_not_configured: BTCPAY_SERVER_URL, BTCPAY_API_KEY, BTCPAY_STORE_ID, and BTCPAY_WEBHOOK_SECRET must all be set to non-placeholder values.",
         );
       }
 
-      // Phase 10.5 (v4) / D10: real Greenfield invoice POST.
-      const serverUrl = (env.BTCPAY_SERVER_URL ?? env.BTCPAY_URL)!.replace(
-        /\/$/,
-        "",
-      );
+      const serverUrl = getConfiguredServerUrl(env);
       const url = `${serverUrl}/api/v1/stores/${env.BTCPAY_STORE_ID}/invoices`;
       const amount = (input.amountCents / 100).toFixed(2);
       const ts = new Date().toISOString();
@@ -162,7 +195,7 @@ export function createBtcpayAdapter(
         },
         checkout: {
           speedPolicy: "MediumSpeed",
-          paymentMethods: ["BTC", "LTC"],
+          paymentMethods: ["BTC"],
           redirectURL,
         },
       });
@@ -193,11 +226,7 @@ export function createBtcpayAdapter(
           `btcpay_invoice_create_failed: HTTP ${res.status} ${text.slice(0, 256)}`,
         );
       }
-      const json = (await res.json()) as {
-        id: string;
-        status?: string;
-        checkoutLink?: string;
-      };
+      const json = (await res.json()) as BtcpayInvoiceResponse;
 
       const intent: PaymentIntent = {
         id: json.id,
@@ -219,10 +248,59 @@ export function createBtcpayAdapter(
     },
 
     async getIntent(intentId: string): Promise<PaymentIntent | null> {
-      void intentId; // Phase 10 wires Greenfield GET; signature pinned by PaymentProvider.
       if (!envIsConfigured(env)) return null;
-      // Phase 10: GET /api/v1/stores/{storeId}/invoices/{invoiceId}.
-      return null;
+
+      const serverUrl = getConfiguredServerUrl(env);
+      const url = `${serverUrl}/api/v1/stores/${env.BTCPAY_STORE_ID}/invoices/${encodeURIComponent(intentId)}`;
+      let res: Response;
+      try {
+        res = await fetch(url, {
+          method: "GET",
+          headers: {
+            Authorization: `token ${env.BTCPAY_API_KEY}`,
+            "Content-Type": "application/json",
+          },
+          cache: "no-store",
+        });
+      } catch (err) {
+        throw new Error(
+          `btcpay_invoice_get_failed: network error ${(err as Error).message}`,
+        );
+      }
+
+      if (res.status === 404) return null;
+      if (!res.ok) {
+        const text = await res.text().catch(() => "");
+        throw new Error(
+          `btcpay_invoice_get_failed: HTTP ${res.status} ${text.slice(0, 256)}`,
+        );
+      }
+
+      const json = (await res.json()) as BtcpayInvoiceResponse;
+      const ts = new Date().toISOString();
+      const amountNumber =
+        typeof json.amount === "number"
+          ? json.amount
+          : Number.parseFloat(json.amount ?? "0");
+
+      return {
+        id: json.metadata?.intentId ?? json.id,
+        provider: "btcpay",
+        method: "crypto",
+        amountCents: Number.isFinite(amountNumber)
+          ? Math.round(amountNumber * 100)
+          : 0,
+        currency: "USD",
+        status: mapBtcpayStatus(json.status ?? "New"),
+        metadata: {
+          ...(json.metadata ?? {}),
+          ...(json.checkoutLink ? { checkoutLink: json.checkoutLink } : {}),
+        },
+        createdAt: ts,
+        updatedAt: ts,
+        externalId: json.id,
+        redirectUrl: json.checkoutLink,
+      };
     },
 
     async handleWebhook(
@@ -252,7 +330,11 @@ export function createBtcpayAdapter(
 
       const eventType = parsed.type ?? parsed.status ?? "unknown";
       const status = mapBtcpayStatus(parsed.status ?? parsed.type ?? "");
-      const intentId = parsed.metadata?.intentId ?? parsed.invoiceId ?? "";
+      const intentId =
+        parsed.metadata?.intentId ??
+        parsed.metadata?.orderId ??
+        parsed.invoiceId ??
+        "";
 
       if (!intentId) {
         return { intent: null, eventType, verified: true };

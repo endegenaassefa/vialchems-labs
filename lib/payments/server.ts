@@ -12,6 +12,7 @@
 import { envIsConfigured as btcpayEnvConfigured } from "./btcpay";
 import { envIsConfigured as plaidEnvConfigured } from "./plaid";
 import type { PaymentProviderId } from "./types";
+import { getBtcpayAdapterEnv } from "@/lib/checkout/direct-payment";
 
 export interface ProviderEnvStatus {
   provider: PaymentProviderId;
@@ -21,10 +22,7 @@ export interface ProviderEnvStatus {
 
 export function getProviderEnvStatus(): ProviderEnvStatus[] {
   const btcpay = btcpayEnvConfigured({
-    BTCPAY_URL: process.env.BTCPAY_URL,
-    BTCPAY_API_KEY: process.env.BTCPAY_API_KEY,
-    BTCPAY_STORE_ID: process.env.BTCPAY_STORE_ID,
-    BTCPAY_WEBHOOK_SECRET: process.env.BTCPAY_WEBHOOK_SECRET,
+    ...getBtcpayAdapterEnv(),
   });
   const plaid = plaidEnvConfigured({
     PLAID_CLIENT_ID: process.env.PLAID_CLIENT_ID,
@@ -39,7 +37,7 @@ export function getProviderEnvStatus(): ProviderEnvStatus[] {
       configured: btcpay,
       reason: btcpay
         ? undefined
-        : "BTCPAY_URL/API_KEY/STORE_ID/WEBHOOK_SECRET stubbed",
+        : "BTCPAY_SERVER_URL/API_KEY/STORE_ID/WEBHOOK_SECRET missing or placeholder",
     },
     {
       provider: "plaid",
