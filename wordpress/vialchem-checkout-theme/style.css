@@ -1,0 +1,481 @@
+/*
+Theme Name: VialChem Checkout Theme
+Theme URI: https://vialchemlabs.net
+Description: Checkout-only Storefront child theme for shop.vialchemlabs.net.
+Author: VialChem Labs LLC
+Template: storefront
+Version: 1.0.0
+Text Domain: vialchem-checkout-theme
+*/
+
+:root {
+  --bg: #0a0e14;
+  --bg-elevated: #11161e;
+  --bg-sunken: #060a0f;
+  --bg-inverse: #fafaf7;
+  --fg: #f0f1ee;
+  --fg-muted: #8b95a1;
+  --fg-subtle: #5a6470;
+  --fg-inverse: #0a0e14;
+  --line: #1f2630;
+  --line-strong: #2c3540;
+  --line-faint: #161c25;
+  --accent: #0f3a5f;
+  --accent-hi: #06b6d4;
+  --accent-soft: #0a2535;
+  --accent-fg: #ffffff;
+  --ok: #1f8a5b;
+  --ok-soft: #0d2419;
+  --warn: #b08400;
+  --warn-soft: #2a2210;
+  --danger: #b3261e;
+  --danger-soft: #2a1413;
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --font-mono:
+    ui-monospace, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono",
+    monospace;
+  --r-xs: 2px;
+  --r-sm: 4px;
+  --r-md: 6px;
+  --r-lg: 10px;
+  --r-pill: 999px;
+  --shadow-sm: 0 1px 0 rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 16px -8px rgba(0, 0, 0, 0.6), 0 1px 0 rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 24px 48px -24px rgba(0, 0, 0, 0.8), 0 1px 0 rgba(0, 0, 0, 0.4);
+  --ease: cubic-bezier(0.2, 0.6, 0.2, 1);
+  --dur-fast: 160ms;
+  --dur: 280ms;
+  --dur-slow: 600ms;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "ss01", "cv11";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.vc-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.vc-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid var(--line);
+  background: color-mix(in oklab, var(--bg) 85%, transparent);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+.vc-nav-inner {
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+  gap: 32px;
+}
+
+.vc-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--fg);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.vc-brand-mark {
+  position: relative;
+  display: grid;
+  width: 22px;
+  height: 22px;
+  place-items: center;
+  border: 1px solid var(--fg);
+  border-radius: 3px;
+}
+
+.vc-brand-mark::before {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent-hi);
+  content: "";
+}
+
+.vc-muted {
+  color: var(--fg-muted);
+}
+
+.vc-nav-links {
+  display: flex;
+  gap: 24px;
+  color: var(--fg-muted);
+  font-size: 14px;
+}
+
+.vc-nav-links a {
+  position: relative;
+  padding: 4px 0;
+  transition: color var(--dur-fast) var(--ease);
+}
+
+.vc-nav-links a:hover {
+  color: var(--fg);
+}
+
+.vc-nav-spacer {
+  flex: 1;
+}
+
+.vc-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 1px solid transparent;
+  border-radius: var(--r-sm);
+  background: transparent;
+  color: var(--fg);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all var(--dur-fast) var(--ease);
+}
+
+.vc-btn:hover {
+  transform: translateY(-1px);
+}
+
+.vc-btn-accent,
+.woocommerce #payment #place_order,
+.woocommerce-page #payment #place_order,
+.woocommerce button.button.alt,
+.woocommerce a.button.alt {
+  border-color: var(--accent);
+  border-radius: var(--r-sm);
+  background: var(--accent);
+  color: var(--accent-fg);
+  font-family: var(--font-sans);
+  font-weight: 500;
+}
+
+.vc-btn-accent:hover,
+.woocommerce #payment #place_order:hover,
+.woocommerce-page #payment #place_order:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce a.button.alt:hover {
+  border-color: color-mix(in oklab, var(--accent) 88%, var(--accent-hi));
+  background: color-mix(in oklab, var(--accent) 88%, var(--accent-hi));
+  color: var(--accent-fg);
+}
+
+.vc-main {
+  min-height: calc(100vh - 60px);
+}
+
+.vc-checkout-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 44px 0 34px;
+  border-bottom: 1px solid var(--line);
+  background:
+    radial-gradient(
+      circle at 74% 14%,
+      color-mix(in oklab, var(--accent-hi) 22%, transparent),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 18% 0%,
+      color-mix(in oklab, var(--accent) 12%, transparent),
+      transparent 30%
+    ),
+    linear-gradient(180deg, var(--bg-elevated), var(--bg));
+}
+
+.vc-eyebrow {
+  margin: 0 0 8px;
+  color: var(--fg-muted);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.vc-checkout-hero h1 {
+  margin: 0 0 8px;
+  color: var(--fg);
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: 0;
+}
+
+.vc-checkout-hero p {
+  margin: 0;
+  color: var(--fg-muted);
+}
+
+.vc-checkout-shell {
+  padding: 64px 0 96px;
+  border-top: 1px solid var(--line);
+}
+
+.vc-card,
+.woocommerce form.checkout,
+.woocommerce-order-pay form#order_review {
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--bg-elevated);
+}
+
+.woocommerce form.checkout,
+.woocommerce-order-pay form#order_review {
+  padding: 22px;
+}
+
+.woocommerce table.shop_table {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--bg-elevated);
+  color: var(--fg);
+  font-family: var(--font-mono);
+  font-size: 12px;
+}
+
+.woocommerce table.shop_table th,
+.woocommerce table.shop_table td {
+  border-color: var(--line);
+  color: var(--fg);
+}
+
+.woocommerce table.shop_table th {
+  color: var(--fg-muted);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.woocommerce table.shop_table .product-name {
+  color: var(--fg);
+}
+
+.woocommerce-info,
+.woocommerce-message,
+.woocommerce-error {
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-md);
+  background: var(--bg-elevated);
+  color: var(--fg);
+}
+
+.woocommerce-error {
+  border-color: var(--danger);
+  background: var(--danger-soft);
+  color: var(--fg);
+}
+
+.woocommerce-checkout #payment,
+.woocommerce-order-pay #payment {
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--bg-sunken);
+}
+
+.woocommerce-checkout #payment div.payment_box,
+.woocommerce-order-pay #payment div.payment_box {
+  background: var(--bg-elevated);
+  color: var(--fg-muted);
+}
+
+.woocommerce-checkout #payment div.payment_box::before,
+.woocommerce-order-pay #payment div.payment_box::before {
+  border-bottom-color: var(--bg-elevated);
+}
+
+.vc-attestation {
+  margin: 18px 0;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-md);
+  background: var(--bg-sunken);
+  color: var(--fg);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.vc-attestation label {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.vc-attestation input {
+  margin-top: 3px;
+  accent-color: var(--accent-hi);
+}
+
+.vc-footer {
+  border-top: 1px solid var(--line);
+  padding: 64px 0 32px;
+  background: var(--bg-sunken);
+}
+
+.vc-foot-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  gap: 48px;
+}
+
+.vc-foot-col h5 {
+  margin: 0 0 16px;
+  color: var(--fg-muted);
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.vc-foot-col p,
+.vc-foot-col ul {
+  color: var(--fg-muted);
+  font-size: 13px;
+}
+
+.vc-foot-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.vc-foot-col a:hover {
+  color: var(--fg);
+}
+
+.vc-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 8px;
+  border: 1px solid var(--accent);
+  border-radius: var(--r-xs);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.vc-badge-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.vc-foot-base {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 64px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+  color: var(--fg-subtle);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 860px) {
+  .vc-nav-inner {
+    gap: 12px;
+    padding: 0 20px;
+  }
+
+  .vc-nav-links {
+    display: none;
+  }
+
+  .vc-foot-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .vc-container {
+    padding: 0 16px;
+  }
+
+  .vc-nav-inner {
+    min-height: 60px;
+    padding: 0 16px;
+  }
+
+  .vc-brand {
+    font-size: 14px;
+  }
+
+  .vc-brand-mark {
+    width: 20px;
+    height: 20px;
+  }
+
+  .vc-checkout-hero {
+    padding: 30px 0 24px;
+  }
+
+  .vc-checkout-hero h1 {
+    font-size: 34px;
+  }
+
+  .vc-foot-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vc-foot-base {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
