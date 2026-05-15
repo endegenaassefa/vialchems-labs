@@ -155,6 +155,70 @@ a {
   flex: 1;
 }
 
+.vc-nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.vc-theme-switch {
+  display: inline-flex;
+  align-items: center;
+  min-width: 118px;
+  height: 34px;
+  gap: 7px;
+  padding: 0 10px;
+  border: 1px solid color-mix(in oklab, var(--accent-hi) 46%, var(--line));
+  border-radius: var(--r-pill);
+  background: var(--accent-soft);
+  color: var(--accent-hi);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.vc-theme-toggle {
+  position: relative;
+  width: 24px;
+  height: 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-pill);
+  background: var(--bg-sunken);
+}
+
+.vc-theme-toggle span {
+  position: absolute;
+  top: 2px;
+  left: 12px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent-hi);
+}
+
+.vc-icon-btn {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm);
+  background: transparent;
+  color: var(--fg-muted);
+  transition:
+    color var(--dur-fast) var(--ease),
+    border-color var(--dur-fast) var(--ease),
+    transform var(--dur-fast) var(--ease);
+}
+
+.vc-icon-btn:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent-hi);
+  color: var(--fg);
+}
+
 .vc-btn {
   display: inline-flex;
   align-items: center;
@@ -179,7 +243,9 @@ a {
   transform: translateY(-1px);
 }
 
+.vc-btn-primary,
 .vc-btn-accent,
+.vc-local-order-pay .button.alt.vc-complete-button,
 .woocommerce #payment #place_order,
 .woocommerce-page #payment #place_order,
 .woocommerce button.button.alt,
@@ -192,7 +258,15 @@ a {
   font-weight: 500;
 }
 
+.vc-btn-sm {
+  min-height: 34px;
+  padding: 0 12px;
+  font-size: 13px;
+}
+
 .vc-btn-accent:hover,
+.vc-btn-primary:hover,
+.vc-local-order-pay .button.alt.vc-complete-button:hover,
 .woocommerce #payment #place_order:hover,
 .woocommerce-page #payment #place_order:hover,
 .woocommerce button.button.alt:hover,
@@ -603,6 +677,11 @@ table.shop_table td {
   }
 
   .vc-nav-links {
+    display: none;
+  }
+
+  .vc-theme-switch,
+  .vc-nav-cta {
     display: none;
   }
 

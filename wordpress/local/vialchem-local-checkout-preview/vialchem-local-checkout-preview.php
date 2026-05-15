@@ -124,7 +124,7 @@ add_action(
 		<div class="vc-local-order-pay">
 			<div class="vc-local-checkout-grid">
 				<section class="vc-card vc-local-order-card" aria-labelledby="vc-preview-order-title">
-					<p class="vc-eyebrow">WooCommerce local preview</p>
+					<p class="vc-eyebrow">Order review</p>
 					<h2 id="vc-preview-order-title">Order <?php echo esc_html( $order_id ); ?></h2>
 					<div class="vc-order-lines" role="table" aria-label="Order line items">
 						<?php foreach ( $items as $item ) : ?>
