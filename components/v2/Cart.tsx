@@ -7,6 +7,11 @@ import {
   type CheckoutPaymentMethod,
 } from "@/components/PaymentMethodSelector";
 import { useCartStore } from "@/lib/cart-store";
+import {
+  getCheckoutActionLabel,
+  getCheckoutApiRoute,
+  getCheckoutPendingLabel,
+} from "@/lib/checkout/payment-routing";
 import { siteConfig } from "@/lib/content/site";
 import { catalogItems, displayPrice, getCatalogItem } from "./data";
 import { Icon } from "./icons";
@@ -27,14 +32,14 @@ export function V2Cart() {
     subtotalCents >= siteConfig.shipping.freeShippingThresholdCents;
   const totalCents = subtotalCents + (freeShip ? 0 : shippingCents);
 
-  async function handleSecureCheckout() {
+  async function handleCheckout() {
     if (checkoutPending || lines.length === 0) return;
     setCheckoutPending(true);
     setCheckoutError(null);
 
     let response: Response;
     try {
-      response = await fetch("/api/create-woo-order", {
+      response = await fetch(getCheckoutApiRoute(preferredPaymentMethod), {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({
@@ -52,7 +57,7 @@ export function V2Cart() {
       });
     } catch {
       setCheckoutPending(false);
-      setCheckoutError("Unable to reach secure checkout. Please try again.");
+      setCheckoutError("Unable to reach checkout. Please try again.");
       return;
     }
 
@@ -262,11 +267,11 @@ export function V2Cart() {
                       className="btn btn-accent btn-lg"
                       style={{ justifyContent: "center", width: "100%" }}
                       disabled={checkoutPending}
-                      onClick={handleSecureCheckout}
+                      onClick={handleCheckout}
                     >
                       {checkoutPending
-                        ? "Starting secure checkout..."
-                        : "Proceed to Secure Checkout"}
+                        ? getCheckoutPendingLabel(preferredPaymentMethod)
+                        : getCheckoutActionLabel(preferredPaymentMethod)}
                     </button>
                     <Link
                       href="/shop"

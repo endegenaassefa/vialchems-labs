@@ -6,17 +6,16 @@ import {
   BadgeDollarSign,
   Bitcoin,
   CreditCard,
+  DollarSign,
   Landmark,
   Smartphone,
 } from "lucide-react";
+import {
+  CHECKOUT_PAYMENT_METHOD_INFO,
+  type CheckoutPaymentMethod,
+} from "@/lib/checkout/payment-routing";
 
-export type CheckoutPaymentMethod =
-  | "link_money"
-  | "bitcoin"
-  | "card"
-  | "apple_pay"
-  | "google_pay"
-  | "paypal";
+export type { CheckoutPaymentMethod };
 
 interface PaymentMethod {
   id: CheckoutPaymentMethod;
@@ -26,50 +25,22 @@ interface PaymentMethod {
   Icon: ComponentType<{ size?: number; strokeWidth?: number }>;
 }
 
-const paymentMethods: PaymentMethod[] = [
-  {
-    id: "link_money",
-    title: "Link Money",
-    description: "Pay by bank at secure checkout.",
-    badge: "Bank",
-    Icon: Landmark,
-  },
-  {
-    id: "bitcoin",
-    title: "Bitcoin",
-    description: "BTCPay Server invoice at checkout.",
-    badge: "Crypto",
-    Icon: Bitcoin,
-  },
-  {
-    id: "card",
-    title: "Cards",
-    description: "Credit and debit cards where enabled.",
-    badge: "Card",
-    Icon: CreditCard,
-  },
-  {
-    id: "apple_pay",
-    title: "Apple Pay",
-    description: "Shown when supported by the checkout browser.",
-    badge: "Wallet",
-    Icon: Apple,
-  },
-  {
-    id: "google_pay",
-    title: "Google Pay",
-    description: "Shown when supported by the checkout browser.",
-    badge: "Wallet",
-    Icon: Smartphone,
-  },
-  {
-    id: "paypal",
-    title: "PayPal",
-    description: "Available when enabled for the order.",
-    badge: "PayPal",
-    Icon: BadgeDollarSign,
-  },
-];
+const paymentIcons: Record<CheckoutPaymentMethod, PaymentMethod["Icon"]> = {
+  link_money: Landmark,
+  bitcoin: Bitcoin,
+  zelle: DollarSign,
+  card: CreditCard,
+  apple_pay: Apple,
+  google_pay: Smartphone,
+  paypal: BadgeDollarSign,
+};
+
+const paymentMethods: PaymentMethod[] = CHECKOUT_PAYMENT_METHOD_INFO.map(
+  (method) => ({
+    ...method,
+    Icon: paymentIcons[method.id],
+  }),
+);
 
 interface PaymentMethodSelectorProps {
   value: CheckoutPaymentMethod;
@@ -84,7 +55,8 @@ export function PaymentMethodSelector({
     <fieldset className="v2-payment-selector">
       <legend className="eyebrow">Secure checkout payment options</legend>
       <p className="v2-payment-selector-copy">
-        Available at secure checkout on shop.vialchemlabs.net.
+        Bitcoin and Zelle stay on vialchemlabs.net. Other methods continue at
+        secure checkout.
       </p>
       <div className="v2-payment-grid">
         {paymentMethods.map((method) => {

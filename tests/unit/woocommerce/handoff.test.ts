@@ -29,7 +29,7 @@ describe("WooCommerce handoff payload", () => {
     const payload = buildWooOrderPayload({
       lines,
       shippingCents: 1500,
-      preferredPaymentMethod: "bitcoin",
+      preferredPaymentMethod: "link_money",
       sourceUrl: "https://vialchemlabs.net/cart",
       returnUrl: "https://vialchemlabs.net/order-confirmed",
     });
@@ -72,7 +72,7 @@ describe("WooCommerce handoff payload", () => {
           key: "_handoff_return_url",
           value: "https://vialchemlabs.net/order-confirmed",
         },
-        { key: "_preferred_payment_method", value: "bitcoin" },
+        { key: "_preferred_payment_method", value: "link_money" },
       ]),
     );
   });
@@ -133,7 +133,7 @@ describe("development mock handoff", () => {
       storeUrl: "http://localhost:3002/",
       lines,
       shippingCents: 1500,
-      preferredPaymentMethod: "bitcoin",
+      preferredPaymentMethod: "paypal",
       returnUrl: "http://localhost:3001/order-confirmed",
     });
 
@@ -153,7 +153,7 @@ describe("development mock handoff", () => {
     expect(checkoutUrl.searchParams.get("preview_total_cents")).toBe("20200");
     expect(checkoutUrl.searchParams.get("preview_shipping_cents")).toBe("1500");
     expect(checkoutUrl.searchParams.get("preview_payment_method")).toBe(
-      "bitcoin",
+      "paypal",
     );
     expect(checkoutUrl.searchParams.get("return_url")).toBe(
       "http://localhost:3001/order-confirmed",

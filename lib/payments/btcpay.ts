@@ -34,6 +34,7 @@ function isStub(value: string | undefined): boolean {
 }
 
 export interface BtcpayEnv {
+  BTCPAY_SERVER_URL?: string;
   BTCPAY_URL?: string;
   BTCPAY_API_KEY?: string;
   BTCPAY_STORE_ID?: string;
@@ -45,8 +46,9 @@ export interface BtcpayAdapterOptions {
 }
 
 export function envIsConfigured(env: BtcpayEnv): boolean {
+  const serverUrl = env.BTCPAY_SERVER_URL ?? env.BTCPAY_URL;
   return (
-    !isStub(env.BTCPAY_URL) &&
+    !isStub(serverUrl) &&
     !isStub(env.BTCPAY_API_KEY) &&
     !isStub(env.BTCPAY_STORE_ID) &&
     !isStub(env.BTCPAY_WEBHOOK_SECRET)
@@ -121,6 +123,7 @@ export function createBtcpayAdapter(
   options: BtcpayAdapterOptions = {},
 ): PaymentProvider {
   const env: BtcpayEnv = options.env ?? {
+    BTCPAY_SERVER_URL: process.env.BTCPAY_SERVER_URL,
     BTCPAY_URL: process.env.BTCPAY_URL,
     BTCPAY_API_KEY: process.env.BTCPAY_API_KEY,
     BTCPAY_STORE_ID: process.env.BTCPAY_STORE_ID,
@@ -138,9 +141,16 @@ export function createBtcpayAdapter(
       }
 
       // Phase 10.5 (v4) / D10: real Greenfield invoice POST.
-      const url = `${env.BTCPAY_URL!.replace(/\/$/, "")}/api/v1/stores/${env.BTCPAY_STORE_ID}/invoices`;
+      const serverUrl = (env.BTCPAY_SERVER_URL ?? env.BTCPAY_URL)!.replace(
+        /\/$/,
+        "",
+      );
+      const url = `${serverUrl}/api/v1/stores/${env.BTCPAY_STORE_ID}/invoices`;
       const amount = (input.amountCents / 100).toFixed(2);
       const ts = new Date().toISOString();
+      const redirectURL =
+        input.metadata?.returnUrl ??
+        `${process.env.NEXT_PUBLIC_SITE_URL ?? ""}/checkout/confirm`;
       const body = JSON.stringify({
         amount,
         currency: "USD",
@@ -153,7 +163,7 @@ export function createBtcpayAdapter(
         checkout: {
           speedPolicy: "MediumSpeed",
           paymentMethods: ["BTC", "LTC"],
-          redirectURL: `${process.env.NEXT_PUBLIC_SITE_URL ?? ""}/checkout/confirm`,
+          redirectURL,
         },
       });
 

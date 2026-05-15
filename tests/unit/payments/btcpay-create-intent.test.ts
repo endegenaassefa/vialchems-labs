@@ -56,7 +56,10 @@ describe("BTCPay createIntent (real Greenfield)", () => {
       customerEmail: "researcher@example.com",
       amountCents: 5400,
       method: "crypto",
-      metadata: { sku: "BPC-157-10MG" },
+      metadata: {
+        sku: "BPC-157-10MG",
+        returnUrl: "/order-confirmed?order=VC-TEST-1",
+      },
     });
 
     expect(globalThis.fetch).toHaveBeenCalledTimes(1);
@@ -80,6 +83,7 @@ describe("BTCPay createIntent (real Greenfield)", () => {
     expect(body.amount).toBe("54.00");
     expect(body.currency).toBe("USD");
     expect(body.metadata.intentId).toBe("VC-TEST-1");
+    expect(body.checkout.redirectURL).toBe("/order-confirmed?order=VC-TEST-1");
 
     expect(intent.id).toBe("INV-abc123");
     expect(intent.provider).toBe("btcpay");
@@ -109,6 +113,31 @@ describe("BTCPay createIntent (real Greenfield)", () => {
         method: "crypto",
       }),
     ).rejects.toThrow(/btcpay_not_configured/);
+  });
+
+  it("accepts BTCPAY_SERVER_URL as the preferred server URL", async () => {
+    const adapter = createBtcpayAdapter({
+      env: {
+        BTCPAY_SERVER_URL: "https://btcpay-server-url.example.com",
+        BTCPAY_API_KEY: "real_test_key",
+        BTCPAY_STORE_ID: "store-1",
+        BTCPAY_WEBHOOK_SECRET: "whsec",
+      },
+    });
+
+    await adapter.createIntent({
+      orderId: "VC-TEST-4",
+      customerEmail: "researcher@example.com",
+      amountCents: 5400,
+      method: "crypto",
+    });
+
+    const call = (
+      globalThis.fetch as unknown as { mock: { calls: unknown[][] } }
+    ).mock.calls.at(-1);
+    expect(call?.[0]).toBe(
+      "https://btcpay-server-url.example.com/api/v1/stores/store-1/invoices",
+    );
   });
 
   it("throws when the Greenfield POST returns non-2xx", async () => {

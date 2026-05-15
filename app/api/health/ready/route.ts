@@ -1,4 +1,8 @@
 import { NextResponse } from "next/server";
+import {
+  getBtcpayServerUrl,
+  getMissingZelleCredentials,
+} from "@/lib/checkout/direct-payment";
 
 export const dynamic = "force-dynamic";
 
@@ -28,13 +32,21 @@ export async function GET(): Promise<Response> {
 
   if (paymentProvider === "btcpay") {
     for (const key of [
-      "BTCPAY_URL",
+      "BTCPAY_SERVER_URL",
       "BTCPAY_API_KEY",
       "BTCPAY_STORE_ID",
       "BTCPAY_WEBHOOK_SECRET",
     ]) {
-      if (!has(key)) missing.push(key);
+      if (key === "BTCPAY_SERVER_URL") {
+        if (!getBtcpayServerUrl()) missing.push(key);
+      } else if (!has(key)) {
+        missing.push(key);
+      }
     }
+  }
+
+  for (const key of getMissingZelleCredentials()) {
+    missing.push(key);
   }
 
   const ready = missing.length === 0;

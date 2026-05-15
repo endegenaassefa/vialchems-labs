@@ -5,8 +5,17 @@ import {
   AGE_VERIFICATION_COOKIE,
   isSignedAgeVerificationCurrent,
 } from "@/lib/age-verification";
+import {
+  calculateCheckoutTotals,
+  getLocalPreviewSiteUrl,
+  resolveCheckoutCartLines,
+  safeCheckoutReturnPath,
+} from "@/lib/checkout/cart";
+import {
+  CHECKOUT_PAYMENT_METHODS,
+  isWooCheckoutMethod,
+} from "@/lib/checkout/payment-routing";
 import { siteConfig } from "@/lib/content/site";
-import { getBundleBySlug, getProductBySlug } from "@/lib/content/products";
 import {
   buildWooOrderPayload,
   createWooOrder,
@@ -21,14 +30,7 @@ import { isAllowedHandoffOrigin } from "@/lib/woocommerce/security";
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
 
-const checkoutPaymentMethodSchema = z.enum([
-  "link_money",
-  "bitcoin",
-  "card",
-  "apple_pay",
-  "google_pay",
-  "paypal",
-]);
+const checkoutPaymentMethodSchema = z.enum(CHECKOUT_PAYMENT_METHODS);
 
 const cartLineSchema = z.object({
   sku: z.string().trim().min(1),
@@ -42,66 +44,8 @@ const createWooOrderSchema = z.object({
   returnPath: z.string().trim().max(256).optional(),
 });
 
-type CreateWooOrderPayload = z.infer<typeof createWooOrderSchema>;
-
 function jsonError(error: string, status: number, message?: string): Response {
   return NextResponse.json({ ok: false, error, message }, { status });
-}
-
-function resolveCatalogLines(
-  lines: CreateWooOrderPayload["lines"],
-): { ok: true; lines: WooHandoffLine[] } | { ok: false; message: string } {
-  const resolved: WooHandoffLine[] = [];
-
-  for (const line of lines) {
-    const product = getProductBySlug(line.slug);
-    const bundle = product ? undefined : getBundleBySlug(line.slug);
-    const item = product ?? bundle;
-
-    if (!item || item.sku !== line.sku) {
-      return {
-        ok: false,
-        message: `Unknown or mismatched catalog line: ${line.sku}`,
-      };
-    }
-
-    resolved.push({
-      sku: item.sku,
-      slug: item.slug,
-      name: item.name,
-      unitPriceCents: item.listPriceCents,
-      qty: line.qty,
-    });
-  }
-
-  return { ok: true, lines: resolved };
-}
-
-function safeReturnPath(path: string | undefined): string {
-  if (!path?.startsWith("/")) return "/cart";
-  if (path.startsWith("//")) return "/cart";
-  return path;
-}
-
-function getLocalPreviewSiteUrl(
-  origin: string | null,
-  fallbackSiteUrl: string,
-): string {
-  if (process.env.NODE_ENV === "production" || !origin) return fallbackSiteUrl;
-
-  try {
-    const originUrl = new URL(origin);
-    if (
-      originUrl.hostname === "localhost" ||
-      originUrl.hostname === "127.0.0.1"
-    ) {
-      return originUrl.origin;
-    }
-  } catch {
-    return fallbackSiteUrl;
-  }
-
-  return fallbackSiteUrl;
 }
 
 export async function POST(request: Request): Promise<Response> {
@@ -157,26 +101,27 @@ export async function POST(request: Request): Promise<Response> {
     );
   }
 
-  const resolvedLines = resolveCatalogLines(parsed.data.lines);
+  if (!isWooCheckoutMethod(parsed.data.preferredPaymentMethod)) {
+    return jsonError(
+      "payment_method_not_woocommerce",
+      400,
+      "Bitcoin and Zelle are handled directly on vialchemlabs.net.",
+    );
+  }
+
+  const resolvedLines = resolveCheckoutCartLines(parsed.data.lines);
   if (!resolvedLines.ok) {
     return jsonError("catalog_line_invalid", 400, resolvedLines.message);
   }
 
-  const subtotalCents = resolvedLines.lines.reduce(
-    (sum, line) => sum + line.unitPriceCents * line.qty,
-    0,
-  );
-  const shippingCents =
-    subtotalCents >= siteConfig.shipping.freeShippingThresholdCents
-      ? 0
-      : siteConfig.shipping.pilotUSCents;
+  const totals = calculateCheckoutTotals(resolvedLines.lines);
 
   const siteUrl = siteConfig.url.replace(/\/+$/, "");
-  const sourceUrl = `${siteUrl}${safeReturnPath(parsed.data.returnPath)}`;
+  const sourceUrl = `${siteUrl}${safeCheckoutReturnPath(parsed.data.returnPath)}`;
   const returnUrl = `${siteUrl}/order-confirmed`;
   const orderPayload = buildWooOrderPayload({
-    lines: resolvedLines.lines,
-    shippingCents,
+    lines: resolvedLines.lines as WooHandoffLine[],
+    shippingCents: totals.shippingCents,
     preferredPaymentMethod: parsed.data.preferredPaymentMethod,
     sourceUrl,
     returnUrl,
@@ -191,8 +136,8 @@ export async function POST(request: Request): Promise<Response> {
       const created = createMockWooOrder({
         storeUrl:
           process.env.WOO_MOCK_CHECKOUT_URL?.trim() || "http://localhost:3002",
-        lines: resolvedLines.lines,
-        shippingCents,
+        lines: resolvedLines.lines as WooHandoffLine[],
+        shippingCents: totals.shippingCents,
         preferredPaymentMethod: parsed.data.preferredPaymentMethod,
         returnUrl: `${previewSiteUrl}/order-confirmed`,
       });

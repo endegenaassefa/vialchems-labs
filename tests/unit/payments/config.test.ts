@@ -1,6 +1,6 @@
 /**
  * Payment registry tests. Verifies env-based selection and the
- * { stub, btcpay, plaid } universe constraint (Iron Law 2.9).
+ * { stub, btcpay, plaid, zelle } universe constraint (Iron Law 2.9).
  */
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import {
@@ -39,6 +39,10 @@ describe("resolvePaymentProviderId", () => {
     expect(resolvePaymentProviderId("plaid")).toBe("plaid");
   });
 
+  it("returns zelle for zelle", () => {
+    expect(resolvePaymentProviderId("zelle")).toBe("zelle");
+  });
+
   it("fails closed when production env is missing or invalid", () => {
     vi.stubEnv("NODE_ENV", "production");
     expect(() => resolvePaymentProviderId(undefined)).toThrow(
@@ -64,10 +68,10 @@ describe("getPaymentRegistry", () => {
   beforeEach(() => resetPaymentRegistry());
   afterEach(() => resetPaymentRegistry());
 
-  it("exposes exactly { stub, btcpay, plaid }", () => {
+  it("exposes exactly { stub, btcpay, plaid, zelle }", () => {
     const registry = getPaymentRegistry();
     expect(Object.keys(registry).sort()).toEqual(
-      ["btcpay", "plaid", "stub"].sort(),
+      ["btcpay", "plaid", "stub", "zelle"].sort(),
     );
   });
 
@@ -89,6 +93,7 @@ describe("getPaymentRegistry", () => {
     expect(registry.stub.id).toBe("stub");
     expect(registry.btcpay.id).toBe("btcpay");
     expect(registry.plaid.id).toBe("plaid");
+    expect(registry.zelle.id).toBe("zelle");
   });
 });
 
@@ -136,5 +141,6 @@ describe("getPaymentProviderById", () => {
     expect(getPaymentProviderById("btcpay").id).toBe("btcpay");
     expect(getPaymentProviderById("plaid").id).toBe("plaid");
     expect(getPaymentProviderById("stub").id).toBe("stub");
+    expect(getPaymentProviderById("zelle").id).toBe("zelle");
   });
 });

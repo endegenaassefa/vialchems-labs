@@ -37,11 +37,11 @@ export default async function OrderConfirmedPage({
               Order confirmation
             </p>
             <h1 className="mb-4 text-[32px] font-light leading-tight tracking-tight text-[var(--text)] md:text-[44px]">
-              Secure checkout received
+              Checkout received
             </h1>
             <p className="max-w-2xl text-[16px] leading-[1.6] text-[var(--text-muted)]">
-              Your order was handed off from shop.vialchemlabs.net and is being
-              processed by the secure checkout system.
+              Your order is being processed by the selected payment system.
+              Include the order reference below when contacting support.
             </p>
           </div>
         </section>
@@ -50,7 +50,7 @@ export default async function OrderConfirmedPage({
           <div className="mx-auto max-w-4xl px-6 py-12">
             <Card variant="elevated" className="p-8">
               <p className="mb-3 font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)]">
-                WooCommerce order
+                Order reference
               </p>
               <p className="mb-6 font-mono text-[28px] font-semibold tabular-nums text-[var(--text)]">
                 {orderReference ?? "Pending reference"}

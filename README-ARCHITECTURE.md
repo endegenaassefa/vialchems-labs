@@ -4,27 +4,43 @@ This repository now contains the Next.js main-site implementation, WordPress/Woo
 
 ## Sites
 
-- `https://vialchemlabs.net`: Next.js brand, catalog, age gate, cart, payment-method messaging, and WooCommerce order handoff.
-- `https://shop.vialchemlabs.net`: WordPress + WooCommerce checkout engine only. Public catalog and marketing routes are redirected back to the main site by the child theme.
+- `https://vialchemlabs.net`: Next.js brand, catalog, age gate, cart, Bitcoin checkout, Zelle checkout, payment-method messaging, and WooCommerce order handoff for non-direct methods.
+- `https://shop.vialchemlabs.net`: WordPress + WooCommerce checkout engine for Link Money, cards, Apple Pay, Google Pay, and PayPal only. Public catalog and marketing routes are redirected back to the main site by the child theme.
 
 ## Evidence From This Codebase
 
 - App Router layout and global tokens: `app/layout.tsx`, `app/globals.css`, `app/v2-brand.css`, `app/v2-layout.css`.
 - Header/footer pattern: `components/v2/Shell.tsx`.
 - Cart implementation and checkout trigger: `components/v2/Cart.tsx`.
+- Split payment routing: `lib/checkout/payment-routing.ts`.
+- Main-site Bitcoin/Zelle order routes: `app/api/create-bitcoin-order/route.ts`, `app/api/create-zelle-order/route.ts`.
 - SKU catalog source: `lib/content/products.ts`.
 - Server route convention: `app/api/create-woo-order/route.ts` and `app/api/woocommerce/order-webhook/route.ts`.
 - Extracted design token handoff: `design-tokens.json`.
 
+## Payment Routing Matrix
+
+| Method     | Route                            | Checkout system                         |
+| ---------- | -------------------------------- | --------------------------------------- |
+| Bitcoin    | `POST /api/create-bitcoin-order` | Main-site BTCPay invoice flow           |
+| Zelle      | `POST /api/create-zelle-order`   | Main-site manual Zelle instruction flow |
+| Link Money | `POST /api/create-woo-order`     | WooCommerce on `shop.vialchemlabs.net`  |
+| Cards      | `POST /api/create-woo-order`     | WooCommerce on `shop.vialchemlabs.net`  |
+| Apple Pay  | `POST /api/create-woo-order`     | WooCommerce on `shop.vialchemlabs.net`  |
+| Google Pay | `POST /api/create-woo-order`     | WooCommerce on `shop.vialchemlabs.net`  |
+| PayPal     | `POST /api/create-woo-order`     | WooCommerce on `shop.vialchemlabs.net`  |
+
 ## Main Site Flow
 
 1. The buyer adds catalog items to the client cart.
-2. `components/PaymentMethodSelector.tsx` displays Link Money, Bitcoin, card, Apple Pay, Google Pay, and PayPal availability messaging.
-3. The cart posts SKU, slug, quantity, selected payment method, and return path to `POST /api/create-woo-order`.
-4. The server route verifies the signed age-gate cookie, rejects unapproved browser origins, resolves catalog lines from local SKU data, and creates a WooCommerce order through REST API v3.
-5. WooCommerce public line items use `Research Supply Order - SKU {sku}`. Full item details are stored in private order item meta: `_real_sku`, `_real_name`, `_real_slug`, `_real_unit_price_cents`, and `_real_line_total_cents`.
-6. The buyer is redirected to `https://shop.vialchemlabs.net/checkout/order-pay/{order_id}/?key={order_key}`.
-7. WooCommerce returns completed checkout traffic to `https://vialchemlabs.net/order-confirmed?order={id}`.
+2. `components/PaymentMethodSelector.tsx` displays Link Money, Bitcoin, Zelle, card, Apple Pay, Google Pay, and PayPal with route-specific messaging.
+3. The cart posts SKU, slug, quantity, selected payment method, and return path to the route selected by `lib/checkout/payment-routing.ts`.
+4. Bitcoin creates a BTCPay invoice server-side and returns a main-site `/checkout/bitcoin` URL. Missing local credentials fall back to a placeholder page; production fails with `Missing required credential: [exact name]`.
+5. Zelle creates a pending manual-payment order reference and returns a main-site `/checkout/zelle` instruction URL using the configured recipient details.
+6. Link Money, Cards, Apple Pay, Google Pay, and PayPal create a WooCommerce order through REST API v3.
+7. WooCommerce public line items use `Research Supply Order - SKU {sku}`. Full item details are stored in private order item meta: `_real_sku`, `_real_name`, `_real_slug`, `_real_unit_price_cents`, and `_real_line_total_cents`.
+8. WooCommerce buyers are redirected to `https://shop.vialchemlabs.net/checkout/order-pay/{order_id}/?key={order_key}`.
+9. WooCommerce returns completed checkout traffic to `https://vialchemlabs.net/order-confirmed?order={id}`.
 
 The browser back button remains natural because the main site uses `window.location.assign(checkoutUrl)`, leaving the cart page in browser history before the cross-domain checkout page.
 
@@ -49,7 +65,7 @@ The placeholder gateway plugin lives in `wordpress/vialchem-gateway-placeholders
 
 ## Security Controls
 
-- WooCommerce REST credentials are server-only environment variables and are never exposed to the browser.
+- WooCommerce REST credentials, BTCPay credentials, and Zelle recipient settings are server-only environment variables and are never exposed to the browser except for the Zelle recipient instructions intentionally shown on the payment page.
 - `CHECKOUT_ALLOWED_ORIGINS` can add explicit preview/staging origins; by default only `SITE_URL` is allowed for browser-origin handoff requests.
 - `WOOCOMMERCE_WEBHOOK_SECRET` verifies WooCommerce webhook payloads using the official `x-wc-webhook-signature` HMAC-SHA256 header.
 - Production hosting should restrict write access to `/wp-json/wc/v3/*` to the Next.js hosting egress IPs when the host or WAF supports path-based IP allowlists.
@@ -67,10 +83,16 @@ WOOCOMMERCE_WEBHOOK_SECRET=PLACEHOLDER_WOOCOMMERCE_WEBHOOK_SECRET
 CHECKOUT_ALLOWED_ORIGINS=
 ALLOW_WOO_MOCK_HANDOFF_IN_DEVELOPMENT=false
 LINK_MONEY_API_KEY=PLACEHOLDER_LINK_MONEY_API_KEY
-BTCPAY_URL=PLACEHOLDER_BTCPAY_URL
+BTCPAY_SERVER_URL=PLACEHOLDER_BTCPAY_SERVER_URL
+BTCPAY_URL=PLACEHOLDER_BTCPAY_URL_LEGACY_ALIAS
 BTCPAY_API_KEY=PLACEHOLDER_BTCPAY_API_KEY
 BTCPAY_STORE_ID=PLACEHOLDER_BTCPAY_STORE_ID
 BTCPAY_WEBHOOK_SECRET=PLACEHOLDER_BTCPAY_WEBHOOK_SECRET
+ZELLE_RECIPIENT_NAME=PLACEHOLDER_ZELLE_RECIPIENT_NAME
+ZELLE_EMAIL=PLACEHOLDER_ZELLE_EMAIL
+ZELLE_PHONE=PLACEHOLDER_ZELLE_PHONE
+ZELLE_QR_IMAGE_URL=PLACEHOLDER_ZELLE_QR_IMAGE_URL
+ZELLE_PAYMENT_NOTE_PREFIX=VCL
 ```
 
 ## Deployment Order
@@ -80,9 +102,10 @@ BTCPAY_WEBHOOK_SECRET=PLACEHOLDER_BTCPAY_WEBHOOK_SECRET
 3. Install WordPress, WooCommerce, Storefront, BTCPay for WooCommerce, and the VialChem assets under `wordpress/`.
 4. Generate WooCommerce REST credentials and populate the Next.js environment variables.
 5. Configure Link Money credentials or keep the fail-closed placeholder disabled.
-6. Configure BTCPay Server credentials.
-7. Create the WooCommerce webhook pointing to `https://vialchemlabs.net/api/woocommerce/order-webhook`.
-8. Run the smoke test in `docs/wordpress/phase-5-gateways.md` and the final checks below.
+6. Configure BTCPay Server credentials for direct Bitcoin checkout.
+7. Configure Zelle recipient details for direct Zelle checkout.
+8. Create the WooCommerce webhook pointing to `https://vialchemlabs.net/api/woocommerce/order-webhook`.
+9. Run the smoke test in `docs/wordpress/phase-5-gateways.md` and the final checks below.
 
 ## Verification
 
@@ -90,6 +113,7 @@ Local checks:
 
 ```bash
 npm test -- --run tests/unit/woocommerce/handoff.test.ts tests/unit/woocommerce/webhook.test.ts tests/unit/woocommerce/security.test.ts
+npm test -- --run tests/unit/checkout/payment-routing.test.ts tests/unit/checkout/direct-payment.test.ts tests/unit/payments/zelle.test.ts
 npm run typecheck
 npm run build
 ```
@@ -114,11 +138,12 @@ curl -sS https://vialchemlabs.net/order-confirmed?order=123
 End-to-end smoke:
 
 1. Add two products to the Next.js cart.
-2. Select a payment method.
-3. Proceed to secure checkout.
-4. Confirm WooCommerce displays only generic `Research Supply Order - SKU ...` names.
-5. Complete a sandbox/mock payment.
-6. Confirm the return URL is `/order-confirmed?order={id}` and the Woo order item meta contains the private SKU/name/price fields.
+2. Select Bitcoin and confirm the browser stays on `vialchemlabs.net/checkout/bitcoin`.
+3. Select Zelle and confirm the browser stays on `vialchemlabs.net/checkout/zelle`.
+4. Select Link Money or Cards and confirm the browser redirects to `shop.vialchemlabs.net`.
+5. Confirm WooCommerce displays only generic `Research Supply Order - SKU ...` names for Woo-routed methods.
+6. Complete a sandbox/mock payment.
+7. Confirm the return URL is `/order-confirmed?order={id}` and the Woo order item meta contains the private SKU/name/price fields.
 
 ## Official References
 
@@ -139,6 +164,7 @@ End-to-end smoke:
 - WooCommerce REST: `PLACEHOLDER_WOOCOMMERCE_CONSUMER_KEY`, `PLACEHOLDER_WOOCOMMERCE_CONSUMER_SECRET`.
 - WooCommerce webhook: `PLACEHOLDER_WOOCOMMERCE_WEBHOOK_SECRET`.
 - Link Money: `PLACEHOLDER_LINK_MONEY_API_KEY` and any official merchant/plugin credentials supplied by Link Money.
-- BTCPay Server: `PLACEHOLDER_BTCPAY_URL`, `PLACEHOLDER_BTCPAY_API_KEY`, `PLACEHOLDER_BTCPAY_STORE_ID`, `PLACEHOLDER_BTCPAY_WEBHOOK_SECRET`.
+- BTCPay Server: `PLACEHOLDER_BTCPAY_SERVER_URL`, `PLACEHOLDER_BTCPAY_API_KEY`, `PLACEHOLDER_BTCPAY_STORE_ID`, `PLACEHOLDER_BTCPAY_WEBHOOK_SECRET`.
+- Zelle: `PLACEHOLDER_ZELLE_RECIPIENT_NAME`, `PLACEHOLDER_ZELLE_EMAIL`, `PLACEHOLDER_ZELLE_PHONE`, `PLACEHOLDER_ZELLE_QR_IMAGE_URL`, `PLACEHOLDER_ZELLE_PAYMENT_NOTE_PREFIX`.
 - Hosting security: Next.js egress IPs or WAF rule identifiers for `/wp-json/wc/v3/*`.
 - Final hosted verification: live SSL certificate, DNS resolution, and sandbox payment credentials.
