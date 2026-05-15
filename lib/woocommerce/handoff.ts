@@ -183,6 +183,31 @@ export function getWooConfigFromEnv(env: NodeJS.ProcessEnv = process.env) {
   };
 }
 
+export function isMockWooHandoffEnabled(
+  env: NodeJS.ProcessEnv = process.env,
+): boolean {
+  return (
+    env.NODE_ENV !== "production" &&
+    env.ALLOW_WOO_MOCK_HANDOFF_IN_DEVELOPMENT === "true"
+  );
+}
+
+export function createMockWooOrder({
+  siteUrl,
+}: {
+  siteUrl: string;
+}): CreatedWooOrder {
+  const id = 260515001;
+  const orderKey = "wc_order_local_preview";
+  const base = normalizeStoreUrl(siteUrl);
+
+  return {
+    id,
+    orderKey,
+    checkoutUrl: `${base}/order-confirmed?order=${id}`,
+  };
+}
+
 export async function createWooOrder({
   storeUrl,
   consumerKey,

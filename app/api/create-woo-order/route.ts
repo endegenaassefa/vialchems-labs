@@ -10,7 +10,9 @@ import { getBundleBySlug, getProductBySlug } from "@/lib/content/products";
 import {
   buildWooOrderPayload,
   createWooOrder,
+  createMockWooOrder,
   getWooConfigFromEnv,
+  isMockWooHandoffEnabled,
   WooHandoffError,
   type WooHandoffLine,
 } from "@/lib/woocommerce/handoff";
@@ -148,16 +150,6 @@ export async function POST(request: Request): Promise<Response> {
       ? 0
       : siteConfig.shipping.pilotUSCents;
 
-  let wooConfig: ReturnType<typeof getWooConfigFromEnv>;
-  try {
-    wooConfig = getWooConfigFromEnv();
-  } catch (error) {
-    if (error instanceof WooHandoffError) {
-      return jsonError("woo_not_configured", error.status, error.message);
-    }
-    return jsonError("woo_not_configured", 503, (error as Error).message);
-  }
-
   const siteUrl = siteConfig.url.replace(/\/+$/, "");
   const sourceUrl = `${siteUrl}${safeReturnPath(parsed.data.returnPath)}`;
   const returnUrl = `${siteUrl}/order-confirmed`;
@@ -168,6 +160,27 @@ export async function POST(request: Request): Promise<Response> {
     sourceUrl,
     returnUrl,
   });
+
+  let wooConfig: ReturnType<typeof getWooConfigFromEnv>;
+  try {
+    wooConfig = getWooConfigFromEnv();
+  } catch (error) {
+    if (isMockWooHandoffEnabled()) {
+      const created = createMockWooOrder({ siteUrl });
+      return NextResponse.json({
+        ok: true,
+        mode: "local-preview",
+        orderId: created.id,
+        orderKey: created.orderKey,
+        checkoutUrl: created.checkoutUrl,
+      });
+    }
+
+    if (error instanceof WooHandoffError) {
+      return jsonError("woo_not_configured", error.status, error.message);
+    }
+    return jsonError("woo_not_configured", 503, (error as Error).message);
+  }
 
   try {
     const created = await createWooOrder({

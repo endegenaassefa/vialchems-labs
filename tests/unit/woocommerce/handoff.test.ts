@@ -2,7 +2,9 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 import {
   buildWooCheckoutUrl,
   buildWooOrderPayload,
+  createMockWooOrder,
   createWooOrder,
+  isMockWooHandoffEnabled,
 } from "@/lib/woocommerce/handoff";
 
 const lines = [
@@ -99,6 +101,39 @@ describe("WooCommerce checkout URL", () => {
     ).toBe(
       "https://shop.vialchemlabs.net/checkout/order-pay/727/?key=wc_order_58d2d042d1d",
     );
+  });
+});
+
+describe("development mock handoff", () => {
+  it("is disabled unless explicitly enabled outside production", () => {
+    expect(
+      isMockWooHandoffEnabled({
+        NODE_ENV: "development",
+        ALLOW_WOO_MOCK_HANDOFF_IN_DEVELOPMENT: "false",
+      } as NodeJS.ProcessEnv),
+    ).toBe(false);
+
+    expect(
+      isMockWooHandoffEnabled({
+        NODE_ENV: "production",
+        ALLOW_WOO_MOCK_HANDOFF_IN_DEVELOPMENT: "true",
+      } as NodeJS.ProcessEnv),
+    ).toBe(false);
+
+    expect(
+      isMockWooHandoffEnabled({
+        NODE_ENV: "development",
+        ALLOW_WOO_MOCK_HANDOFF_IN_DEVELOPMENT: "true",
+      } as NodeJS.ProcessEnv),
+    ).toBe(true);
+  });
+
+  it("returns a local confirmation redirect for preview mode", () => {
+    expect(createMockWooOrder({ siteUrl: "http://localhost:3001/" })).toEqual({
+      id: 260515001,
+      orderKey: "wc_order_local_preview",
+      checkoutUrl: "http://localhost:3001/order-confirmed?order=260515001",
+    });
   });
 });
 

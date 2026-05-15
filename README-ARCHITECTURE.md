@@ -65,6 +65,7 @@ WOOCOMMERCE_CONSUMER_KEY=PLACEHOLDER_WOOCOMMERCE_CONSUMER_KEY
 WOOCOMMERCE_CONSUMER_SECRET=PLACEHOLDER_WOOCOMMERCE_CONSUMER_SECRET
 WOOCOMMERCE_WEBHOOK_SECRET=PLACEHOLDER_WOOCOMMERCE_WEBHOOK_SECRET
 CHECKOUT_ALLOWED_ORIGINS=
+ALLOW_WOO_MOCK_HANDOFF_IN_DEVELOPMENT=false
 LINK_MONEY_API_KEY=PLACEHOLDER_LINK_MONEY_API_KEY
 BTCPAY_URL=PLACEHOLDER_BTCPAY_URL
 BTCPAY_API_KEY=PLACEHOLDER_BTCPAY_API_KEY
@@ -92,6 +93,14 @@ npm test -- --run tests/unit/woocommerce/handoff.test.ts tests/unit/woocommerce/
 npm run typecheck
 npm run build
 ```
+
+Local UI preview without live WooCommerce credentials:
+
+```bash
+ALLOW_WOO_MOCK_HANDOFF_IN_DEVELOPMENT=true npm run dev
+```
+
+This mode is rejected in production and redirects checkout attempts to the local confirmation page instead of creating a WooCommerce order.
 
 Hosted checks after credentials and DNS are live:
 
