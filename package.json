@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "dev:shop-preview": "node scripts/local-woo-preview-server.mjs",
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",

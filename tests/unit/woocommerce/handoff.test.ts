@@ -128,12 +128,32 @@ describe("development mock handoff", () => {
     ).toBe(true);
   });
 
-  it("returns a local confirmation redirect for preview mode", () => {
-    expect(createMockWooOrder({ siteUrl: "http://localhost:3001/" })).toEqual({
+  it("returns a second-origin checkout redirect for preview mode", () => {
+    const result = createMockWooOrder({
+      storeUrl: "http://localhost:3002/",
+      lines,
+      shippingCents: 1500,
+      returnUrl: "http://localhost:3001/order-confirmed",
+    });
+
+    const checkoutUrl = new URL(result.checkoutUrl);
+
+    expect(result).toMatchObject({
       id: 260515001,
       orderKey: "wc_order_local_preview",
-      checkoutUrl: "http://localhost:3001/order-confirmed?order=260515001",
     });
+    expect(checkoutUrl.origin).toBe("http://localhost:3002");
+    expect(checkoutUrl.pathname).toBe("/checkout/order-pay/260515001/");
+    expect(checkoutUrl.searchParams.get("key")).toBe("wc_order_local_preview");
+    expect(checkoutUrl.searchParams.getAll("preview_item")).toEqual([
+      "BPC-157-10MG:2",
+      "TB-500-5MG:1",
+    ]);
+    expect(checkoutUrl.searchParams.get("preview_total_cents")).toBe("20200");
+    expect(checkoutUrl.searchParams.get("preview_shipping_cents")).toBe("1500");
+    expect(checkoutUrl.searchParams.get("return_url")).toBe(
+      "http://localhost:3001/order-confirmed",
+    );
   });
 });
 

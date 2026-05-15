@@ -98,9 +98,10 @@ Local UI preview without live WooCommerce credentials:
 
 ```bash
 ALLOW_WOO_MOCK_HANDOFF_IN_DEVELOPMENT=true npm run dev
+npm run dev:shop-preview
 ```
 
-This mode is rejected in production and redirects checkout attempts to the local confirmation page instead of creating a WooCommerce order.
+This mode is rejected in production and redirects checkout attempts to a second local checkout origin at `http://localhost:3002/checkout/order-pay/{id}/?key=...`. Completing the preview checkout redirects back to `http://localhost:3001/order-confirmed?order={id}`.
 
 Hosted checks after credentials and DNS are live:
 

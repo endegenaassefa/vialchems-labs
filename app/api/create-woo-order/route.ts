@@ -187,8 +187,13 @@ export async function POST(request: Request): Promise<Response> {
     wooConfig = getWooConfigFromEnv();
   } catch (error) {
     if (isMockWooHandoffEnabled()) {
+      const previewSiteUrl = getLocalPreviewSiteUrl(requestOrigin, siteUrl);
       const created = createMockWooOrder({
-        siteUrl: getLocalPreviewSiteUrl(requestOrigin, siteUrl),
+        storeUrl:
+          process.env.WOO_MOCK_CHECKOUT_URL?.trim() || "http://localhost:3002",
+        lines: resolvedLines.lines,
+        shippingCents,
+        returnUrl: `${previewSiteUrl}/order-confirmed`,
       });
       return NextResponse.json({
         ok: true,

@@ -193,18 +193,44 @@ export function isMockWooHandoffEnabled(
 }
 
 export function createMockWooOrder({
-  siteUrl,
+  storeUrl,
+  lines = [],
+  shippingCents = 0,
+  returnUrl,
 }: {
-  siteUrl: string;
+  storeUrl: string;
+  lines?: WooHandoffLine[];
+  shippingCents?: number;
+  returnUrl?: string;
 }): CreatedWooOrder {
   const id = 260515001;
   const orderKey = "wc_order_local_preview";
-  const base = normalizeStoreUrl(siteUrl);
+  const base = normalizeStoreUrl(storeUrl);
+  const checkoutUrl = new URL(buildWooCheckoutUrl(base, id, orderKey));
+
+  for (const line of lines) {
+    checkoutUrl.searchParams.append("preview_item", `${line.sku}:${line.qty}`);
+  }
+
+  if (lines.length > 0) {
+    const totalCents =
+      lines.reduce((sum, line) => sum + line.unitPriceCents * line.qty, 0) +
+      shippingCents;
+    checkoutUrl.searchParams.set("preview_total_cents", String(totalCents));
+    checkoutUrl.searchParams.set(
+      "preview_shipping_cents",
+      String(shippingCents),
+    );
+  }
+
+  if (returnUrl) {
+    checkoutUrl.searchParams.set("return_url", returnUrl);
+  }
 
   return {
     id,
     orderKey,
-    checkoutUrl: `${base}/order-confirmed?order=${id}`,
+    checkoutUrl: checkoutUrl.toString(),
   };
 }
 
