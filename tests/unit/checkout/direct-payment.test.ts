@@ -102,6 +102,7 @@ describe("direct payment URLs", () => {
       {
         ZELLE_RECIPIENT_NAME: "VialChem Labs LLC",
         ZELLE_EMAIL: "payments@example.com",
+        ZELLE_QR_IMAGE_URL: "/payments/zelle-qr.png",
         ZELLE_PAYMENT_NOTE_PREFIX: "VCL",
       },
       { allowPlaceholders: false },
@@ -122,6 +123,7 @@ describe("direct payment URLs", () => {
       "payments@example.com",
     );
     expect(url.searchParams.get("memo")).toBe("VCL-VC-260515-ABCDEF12");
+    expect(url.searchParams.get("qr_image_url")).toBe("/payments/zelle-qr.png");
     expect(
       verifyZelleCheckoutSignature(
         url.searchParams,

@@ -6,6 +6,7 @@ import {
   getZelleCheckoutSigningSecret,
   verifyZelleCheckoutSignature,
 } from "@/lib/checkout/direct-payment";
+import { ZelleCopyButton } from "@/components/ZelleCopyButton";
 import { ZelleReceiptForm } from "@/components/ZelleReceiptForm";
 import { V2Footer, V2Header } from "@/components/v2/Shell";
 
@@ -38,6 +39,7 @@ function cents(value: string | null): number {
 
 function safeImageUrl(value: string | null): string | null {
   if (!value) return null;
+  if (value.startsWith("/") && !value.startsWith("//")) return value;
   try {
     const url = new URL(value);
     if (url.protocol !== "https:" && url.protocol !== "http:") return null;
@@ -135,6 +137,76 @@ export default async function ZelleCheckoutPage({
                   </p>
 
                   <div style={{ display: "grid", gap: 14 }}>
+                    {qrImageUrl ? (
+                      <div
+                        className="card zelle-qr-card"
+                        style={{
+                          padding: 18,
+                          borderColor: "var(--accent-hi)",
+                        }}
+                      >
+                        <div
+                          style={{
+                            border: "1px solid var(--line)",
+                            borderRadius: "var(--r-md)",
+                            background: "#fff",
+                            padding: 10,
+                          }}
+                        >
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            alt="Zelle QR code for Vialchem Labs LLC"
+                            src={qrImageUrl}
+                            style={{
+                              display: "block",
+                              width: "100%",
+                              height: "auto",
+                              borderRadius: "var(--r-sm)",
+                            }}
+                          />
+                        </div>
+                        <div>
+                          <p className="eyebrow" style={{ marginBottom: 8 }}>
+                            Fastest option
+                          </p>
+                          <h2 style={{ fontSize: 22, marginBottom: 8 }}>
+                            Scan the Zelle QR code
+                          </h2>
+                          <p
+                            style={{
+                              color: "var(--fg-muted)",
+                              fontSize: 13,
+                              lineHeight: 1.6,
+                            }}
+                          >
+                            Open Zelle in your banking app, scan this code, then
+                            enter the exact total and memo shown below.
+                          </p>
+                        </div>
+                      </div>
+                    ) : (
+                      <div
+                        className="card"
+                        style={{
+                          padding: 18,
+                          borderColor: "var(--line-strong)",
+                        }}
+                      >
+                        <p className="eyebrow" style={{ marginBottom: 8 }}>
+                          QR code
+                        </p>
+                        <p
+                          style={{
+                            color: "var(--fg-muted)",
+                            fontSize: 13,
+                            lineHeight: 1.6,
+                          }}
+                        >
+                          The checkout supports an official Zelle QR image.
+                          Until it is uploaded, use the Zelle ID and memo below.
+                        </p>
+                      </div>
+                    )}
                     <InstructionBlock label="Amount to send">
                       {formatPrice(amountCents)}
                     </InstructionBlock>
@@ -149,6 +221,18 @@ export default async function ZelleCheckoutPage({
                         }}
                       >
                         {recipientName}
+                      </span>
+                      <span
+                        style={{
+                          display: "grid",
+                          maxWidth: 180,
+                          marginTop: 12,
+                        }}
+                      >
+                        <ZelleCopyButton
+                          value={recipientHandle}
+                          label="Copy Zelle ID"
+                        />
                       </span>
                     </InstructionBlock>
                     <div
@@ -182,6 +266,15 @@ export default async function ZelleCheckoutPage({
                         Use this exact memo so the payment can be matched to
                         your order.
                       </p>
+                      <div
+                        style={{
+                          display: "grid",
+                          maxWidth: 180,
+                          marginTop: 12,
+                        }}
+                      >
+                        <ZelleCopyButton value={memo} label="Copy memo" />
+                      </div>
                     </div>
                   </div>
 
@@ -240,17 +333,17 @@ export default async function ZelleCheckoutPage({
                     </table>
                   </div>
                   {qrImageUrl ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      alt="Zelle QR"
-                      src={qrImageUrl}
+                    <Link
+                      href="#main"
+                      className="btn btn-ghost"
                       style={{
+                        justifyContent: "center",
                         width: "100%",
                         marginTop: 18,
-                        border: "1px solid var(--line)",
-                        borderRadius: "var(--r-md)",
                       }}
-                    />
+                    >
+                      View QR instructions
+                    </Link>
                   ) : null}
                 </aside>
               </>
