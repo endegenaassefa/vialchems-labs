@@ -97,7 +97,7 @@ ZELLE_HANDLE=vialchem-pay
 ZELLE_EMAIL=abhinav@vialchemlabs.net
 ZELLE_SUPPORT_EMAIL=abhinav@vialchemlabs.net
 ZELLE_PHONE=PLACEHOLDER_ZELLE_PHONE
-ZELLE_QR_IMAGE_URL=PLACEHOLDER_ZELLE_QR_IMAGE_URL
+ZELLE_QR_IMAGE_URL=/payments/zelle-qr.png
 ZELLE_PAYMENT_NOTE_PREFIX=VCL
 ZELLE_CHECKOUT_SIGNING_SECRET=PLACEHOLDER_ZELLE_CHECKOUT_SIGNING_SECRET
 ```
@@ -176,7 +176,6 @@ End-to-end smoke:
 - WooCommerce webhook: `PLACEHOLDER_WOOCOMMERCE_WEBHOOK_SECRET`.
 - Link Money: `PLACEHOLDER_LINK_MONEY_API_KEY` and any official merchant/plugin credentials supplied by Link Money.
 - BTCPay Server: `PLACEHOLDER_BTCPAY_SERVER_URL`, `PLACEHOLDER_BTCPAY_API_KEY`, `PLACEHOLDER_BTCPAY_STORE_ID`, `PLACEHOLDER_BTCPAY_WEBHOOK_SECRET`.
-- Zelle is live with the verified public recipient values `Vialchem Labs LLC`, `vialchem-pay`, and `abhinav@vialchemlabs.net`. Remaining optional Zelle placeholders: `PLACEHOLDER_ZELLE_PHONE`, `PLACEHOLDER_ZELLE_QR_IMAGE_URL`, `PLACEHOLDER_ZELLE_CHECKOUT_SIGNING_SECRET` if not reusing `AGE_GATE_SECRET`.
-- To enable the prominent Zelle QR block, download the official QR image from the business banking app, place it at `public/payments/zelle-qr.png`, and set `ZELLE_QR_IMAGE_URL=/payments/zelle-qr.png`.
+- Zelle is live with the verified public recipient values `Vialchem Labs LLC`, `vialchem-pay`, `abhinav@vialchemlabs.net`, and the official QR asset at `/payments/zelle-qr.png`. Remaining optional Zelle placeholders: `PLACEHOLDER_ZELLE_PHONE`, `PLACEHOLDER_ZELLE_CHECKOUT_SIGNING_SECRET` if not reusing `AGE_GATE_SECRET`.
 - Hosting security: Next.js egress IPs or WAF rule identifiers for `/wp-json/wc/v3/*`.
 - Final hosted verification: live SSL certificate, DNS resolution, and sandbox payment credentials.

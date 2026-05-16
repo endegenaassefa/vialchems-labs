@@ -24,12 +24,16 @@ const BTCPAY_REQUIRED = [
 ] as const;
 
 const DEFAULT_ZELLE_DETAILS: Required<
-  Pick<ZelleDetails, "recipientName" | "handle" | "memoPrefix" | "supportEmail">
+  Pick<
+    ZelleDetails,
+    "recipientName" | "handle" | "memoPrefix" | "supportEmail" | "qrImageUrl"
+  >
 > = {
   recipientName: "Vialchem Labs LLC",
   handle: "vialchem-pay",
   memoPrefix: "VCL",
   supportEmail: "abhinav@vialchemlabs.net",
+  qrImageUrl: "/payments/zelle-qr.png",
 };
 
 const ZELLE_SIGNED_PARAMS = [
@@ -158,7 +162,10 @@ export function getZelleDetails(
     phone,
     handle,
     memoPrefix,
-    qrImageUrl: env.ZELLE_QR_IMAGE_URL?.trim() || undefined,
+    qrImageUrl: firstPresent(
+      env.ZELLE_QR_IMAGE_URL,
+      DEFAULT_ZELLE_DETAILS.qrImageUrl,
+    ),
     supportEmail,
   };
 }
