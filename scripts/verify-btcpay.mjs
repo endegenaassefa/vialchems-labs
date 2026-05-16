@@ -87,13 +87,28 @@ const endpoint = `${server.origin}/api/v1/stores/${encodeURIComponent(
 
 console.log(`Checking BTCPay store access: ${endpoint}`);
 
-const response = await fetch(endpoint, {
-  method: "GET",
-  headers: {
-    Authorization: `token ${env.BTCPAY_API_KEY}`,
-    "Content-Type": "application/json",
-  },
-});
+let response;
+try {
+  response = await fetch(endpoint, {
+    method: "GET",
+    headers: {
+      Authorization: `token ${env.BTCPAY_API_KEY}`,
+      "Content-Type": "application/json",
+    },
+  });
+} catch (error) {
+  const message =
+    error instanceof Error ? error.message : "unknown network error";
+  const cause =
+    error instanceof Error &&
+    "cause" in error &&
+    error.cause instanceof Error
+      ? ` (${error.cause.message})`
+      : "";
+  fail(
+    `BTCPay verification failed: could not reach ${server.origin}. Network/TLS error: ${message}${cause}`,
+  );
+}
 
 if (response.status === 401) {
   fail("BTCPay verification failed: API key was rejected with HTTP 401.");
