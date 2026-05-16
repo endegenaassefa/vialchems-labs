@@ -784,6 +784,10 @@ a {
   font-family: var(--font-mono);
   font-size: 13px;
 }
+.input::placeholder {
+  color: color-mix(in oklab, var(--fg-muted) 68%, transparent);
+  font-style: italic;
+}
 .label {
   display: block;
   font-family: var(--font-mono);
