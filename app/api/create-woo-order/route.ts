@@ -109,6 +109,14 @@ export async function POST(request: Request): Promise<Response> {
     );
   }
 
+  if (process.env.ENABLE_WOO_CHECKOUT_METHODS !== "true") {
+    return jsonError(
+      "payment_method_coming_soon",
+      503,
+      "This secure checkout payment method is coming soon. Use Zelle or Bitcoin.",
+    );
+  }
+
   const resolvedLines = resolveCheckoutCartLines(parsed.data.lines);
   if (!resolvedLines.ok) {
     return jsonError("catalog_line_invalid", 400, resolvedLines.message);

@@ -3,6 +3,8 @@ import {
   CHECKOUT_PAYMENT_METHOD_INFO,
   getCheckoutActionLabel,
   getCheckoutApiRoute,
+  isComingSoonCheckoutMethod,
+  isLiveCheckoutMethod,
   isMainSiteCheckoutMethod,
   isWooCheckoutMethod,
   type CheckoutPaymentMethod,
@@ -24,26 +26,38 @@ describe("split checkout payment routing", () => {
     "apple_pay",
     "google_pay",
     "paypal",
-  ])("routes %s through WooCommerce", (method) => {
+  ])("marks %s as a coming-soon WooCommerce method", (method) => {
     expect(isWooCheckoutMethod(method)).toBe(true);
     expect(isMainSiteCheckoutMethod(method)).toBe(false);
-    expect(getCheckoutApiRoute(method)).toBe("/api/create-woo-order");
+    expect(isComingSoonCheckoutMethod(method)).toBe(true);
+    expect(isLiveCheckoutMethod(method)).toBe(false);
+    expect(getCheckoutApiRoute(method)).toBeNull();
   });
 
   it("uses payment-specific action labels", () => {
     expect(getCheckoutActionLabel("bitcoin")).toBe("Continue with Bitcoin");
     expect(getCheckoutActionLabel("zelle")).toBe("Continue with Zelle");
-    expect(getCheckoutActionLabel("link_money")).toBe(
-      "Proceed to Secure Checkout",
-    );
+    expect(getCheckoutActionLabel("link_money")).toBe("Coming Soon");
   });
 
-  it("labels the visible route for every payment option", () => {
+  it("labels the route and availability for every payment option", () => {
     expect(CHECKOUT_PAYMENT_METHOD_INFO).toEqual(
       expect.arrayContaining([
-        expect.objectContaining({ id: "bitcoin", route: "main-site" }),
-        expect.objectContaining({ id: "zelle", route: "main-site" }),
-        expect.objectContaining({ id: "paypal", route: "woocommerce" }),
+        expect.objectContaining({
+          id: "bitcoin",
+          route: "main-site",
+          availability: "live",
+        }),
+        expect.objectContaining({
+          id: "zelle",
+          route: "main-site",
+          availability: "live",
+        }),
+        expect.objectContaining({
+          id: "paypal",
+          route: "woocommerce",
+          availability: "coming-soon",
+        }),
       ]),
     );
   });

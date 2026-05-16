@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import {
   CHECKOUT_PAYMENT_METHOD_INFO,
+  isLiveCheckoutMethod,
   type CheckoutPaymentMethod,
 } from "@/lib/checkout/payment-routing";
 
@@ -58,13 +59,16 @@ export function PaymentMethodSelector({
     <fieldset className="v2-payment-selector">
       <legend className="eyebrow">Secure checkout payment options</legend>
       <p className="v2-payment-selector-copy">
-        Bitcoin and Zelle stay on vialchemlabs.net. Other methods continue at
-        secure checkout.
+        Zelle and Bitcoin are available on vialchemlabs.net. Additional checkout
+        methods are coming soon.
       </p>
       <div className="v2-payment-grid">
         {paymentMethods.map((method) => {
           const selected = value === method.id;
-          const disabled = method.id === "bitcoin" && !bitcoinCheckoutEnabled;
+          const live = isLiveCheckoutMethod(method.id);
+          const bitcoinPaused =
+            method.id === "bitcoin" && !bitcoinCheckoutEnabled;
+          const disabled = !live || bitcoinPaused;
           return (
             <label
               key={method.id}
@@ -89,13 +93,19 @@ export function PaymentMethodSelector({
                 <span className="v2-payment-title-row">
                   <span>{method.title}</span>
                   <span className="badge">
-                    {disabled ? "Setup pending" : method.badge}
+                    {!live
+                      ? "Coming soon"
+                      : bitcoinPaused
+                        ? "Setup pending"
+                        : method.badge}
                   </span>
                 </span>
                 <span className="v2-payment-description">
-                  {disabled
-                    ? "Bitcoin checkout is paused while BTCPay wallet setup is completed."
-                    : method.description}
+                  {!live
+                    ? method.description
+                    : bitcoinPaused
+                      ? "Bitcoin checkout is paused while BTCPay wallet setup is completed."
+                      : method.description}
                 </span>
               </span>
             </label>

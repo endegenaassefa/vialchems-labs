@@ -11,6 +11,7 @@ import {
   getCheckoutActionLabel,
   getCheckoutApiRoute,
   getCheckoutPendingLabel,
+  isLiveCheckoutMethod,
 } from "@/lib/checkout/payment-routing";
 import { calculateCheckoutShippingCents } from "@/lib/checkout/cart";
 import { siteConfig } from "@/lib/content/site";
@@ -25,7 +26,7 @@ export function V2Cart() {
   const setQty = useCartStore((s) => s.setQty);
   const removeLine = useCartStore((s) => s.removeLine);
   const [preferredPaymentMethod, setPreferredPaymentMethod] =
-    useState<CheckoutPaymentMethod>("link_money");
+    useState<CheckoutPaymentMethod>("zelle");
   const [checkoutPending, setCheckoutPending] = useState(false);
   const [checkoutError, setCheckoutError] = useState<string | null>(null);
   const shippingCents = lines.length
@@ -36,12 +37,21 @@ export function V2Cart() {
 
   async function handleCheckout() {
     if (checkoutPending || lines.length === 0) return;
+    if (!isLiveCheckoutMethod(preferredPaymentMethod)) {
+      setCheckoutError("That payment method is coming soon.");
+      return;
+    }
+    const checkoutApiRoute = getCheckoutApiRoute(preferredPaymentMethod);
+    if (!checkoutApiRoute) {
+      setCheckoutError("That payment method is coming soon.");
+      return;
+    }
     setCheckoutPending(true);
     setCheckoutError(null);
 
     let response: Response;
     try {
-      response = await fetch(getCheckoutApiRoute(preferredPaymentMethod), {
+      response = await fetch(checkoutApiRoute, {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({

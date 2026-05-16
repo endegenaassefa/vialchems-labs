@@ -56,6 +56,16 @@ npm run build
 The live create-invoice permission is exercised by the checkout route when a
 buyer selects Bitcoin.
 
+## Reachability Gate
+
+Bitcoin checkout must remain disabled until the configured `BTCPAY_SERVER_URL`
+is reachable without a VPN from the production runtime and normal customer
+browsers. This is a hard launch gate because the Next.js server creates the
+invoice before the buyer can receive the BTCPay `checkoutLink`.
+
+Current remediation notes for the Voltage endpoint live in
+`docs/btcpay-endpoint-remediation.md`.
+
 ## Official References
 
 - BTCPay Greenfield example: https://docs.btcpayserver.org/Development/GreenFieldExample/
