@@ -27,7 +27,7 @@ export async function GET(): Promise<Response> {
   }
 
   if (!paymentProvider || paymentProvider === "stub") {
-    missing.push("PAYMENT_PROVIDER=btcpay");
+    missing.push("PAYMENT_PROVIDER=zelle|btcpay|plaid");
   }
 
   if (paymentProvider === "btcpay") {

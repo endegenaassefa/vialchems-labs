@@ -6,15 +6,19 @@ import {
 } from "@/lib/payments/zelle";
 
 const READY_ENV: ZelleEnv = {
-  ZELLE_RECIPIENT_NAME: "VialChem Labs LLC",
-  ZELLE_EMAIL: "payments@example.com",
+  ZELLE_RECIPIENT_NAME: "Vialchem Labs LLC",
+  ZELLE_HANDLE: "vialchem-pay",
+  ZELLE_EMAIL: "abhinav@vialchemlabs.net",
   ZELLE_PAYMENT_NOTE_PREFIX: "VCL",
 };
 
 describe("Zelle envIsConfigured", () => {
-  it("requires recipient, email, and payment note prefix", () => {
+  it("is configured with the production bank-recipient defaults", () => {
+    expect(envIsConfigured({})).toBe(true);
+  });
+
+  it("accepts recipient, handle, and payment note prefix overrides", () => {
     expect(envIsConfigured(READY_ENV)).toBe(true);
-    expect(envIsConfigured({ ...READY_ENV, ZELLE_EMAIL: "" })).toBe(false);
   });
 });
 
@@ -23,16 +27,18 @@ describe("createZelleAdapter", () => {
     expect(createZelleAdapter({ env: READY_ENV }).id).toBe("zelle");
   });
 
-  it("fails with the exact missing credential when configuration is absent", async () => {
+  it("creates a pending manual-payment intent with the default Zelle ID", async () => {
     const adapter = createZelleAdapter({ env: {} });
-    await expect(
-      adapter.createIntent({
-        amountCents: 6900,
-        method: "zelle",
-        orderId: "VC-260515-ABCDEF12",
-        customerEmail: "checkout@vialchemlabs.net",
-      }),
-    ).rejects.toThrow(/Missing required credential: ZELLE_RECIPIENT_NAME/);
+    const intent = await adapter.createIntent({
+      amountCents: 100,
+      method: "zelle",
+      orderId: "VC-260515-ABCDEF12",
+      customerEmail: "checkout@vialchemlabs.net",
+    });
+
+    expect(intent.metadata.zelleRecipientName).toBe("Vialchem Labs LLC");
+    expect(intent.metadata.zelleHandle).toBe("vialchem-pay");
+    expect(intent.metadata.zelleSupportEmail).toBe("abhinav@vialchemlabs.net");
   });
 
   it("creates a pending manual-payment intent with memo instructions", async () => {
@@ -58,7 +64,8 @@ describe("createZelleAdapter", () => {
       externalId: "VC-260515-ABCDEF12",
     });
     expect(intent.metadata.zelleMemo).toBe("VCL-VC-260515-ABCDEF12");
-    expect(intent.metadata.zelleHandle).toBe("payments@example.com");
+    expect(intent.metadata.zelleHandle).toBe("vialchem-pay");
+    expect(intent.metadata.zelleEmail).toBe("abhinav@vialchemlabs.net");
     expect(intent.metadata.instructions).toContain("VCL-VC-260515-ABCDEF12");
   });
 

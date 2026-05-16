@@ -43,7 +43,8 @@ Before deploying to production, complete `docs/operator-runbook.md` Pre-Launch C
    - `RESEND_API_KEY` + verified sender domain
    - `NEXT_PUBLIC_SENTRY_DSN` + `SENTRY_AUTH_TOKEN` + `SENTRY_ORG` + `SENTRY_PROJECT`
    - `PLAID_CLIENT_ID` + `PLAID_SECRET` + `PLAID_WEBHOOK_VERIFICATION_KEY`
-   - `BTCPAY_URL` + `BTCPAY_API_KEY` + `BTCPAY_STORE_ID` + `BTCPAY_WEBHOOK_SECRET`
+   - `BTCPAY_URL` + `BTCPAY_API_KEY` + `BTCPAY_STORE_ID` + `BTCPAY_WEBHOOK_SECRET` only when Bitcoin checkout is re-enabled
+   - Zelle is configured with the public Zelle ID `vialchem-pay`; use `PAYMENT_PROVIDER=zelle` while Bitcoin remains paused.
 7. Replace `public/coa/*.pdf` placeholders with real per-batch COAs from Janoshik
 8. `vercel link` and configure environment variables in Vercel
 9. Point `vialchemlabs` DNS to Vercel

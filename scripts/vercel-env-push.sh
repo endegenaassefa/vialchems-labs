@@ -84,10 +84,7 @@ required=(
   SUPABASE_SERVICE_ROLE_KEY
   PAYMENT_PROVIDER
   ALLOW_STUB_PAYMENTS_IN_PRODUCTION
-  BTCPAY_URL
-  BTCPAY_API_KEY
-  BTCPAY_STORE_ID
-  BTCPAY_WEBHOOK_SECRET
+  NEXT_PUBLIC_ENABLE_BITCOIN_CHECKOUT
   REQUIRE_RESEND
   ALLOW_RESEND_OPTIONAL_IN_PRODUCTION
   RESEND_API_KEY
@@ -96,6 +93,19 @@ required=(
 )
 
 optional=(
+  BTCPAY_SERVER_URL
+  BTCPAY_URL
+  BTCPAY_API_KEY
+  BTCPAY_STORE_ID
+  BTCPAY_WEBHOOK_SECRET
+  ZELLE_RECIPIENT_NAME
+  ZELLE_HANDLE
+  ZELLE_EMAIL
+  ZELLE_SUPPORT_EMAIL
+  ZELLE_PHONE
+  ZELLE_QR_IMAGE_URL
+  ZELLE_PAYMENT_NOTE_PREFIX
+  ZELLE_CHECKOUT_SIGNING_SECRET
   NEXT_PUBLIC_SENTRY_DSN
   SENTRY_AUTH_TOKEN
   SENTRY_ORG
@@ -109,6 +119,21 @@ for key in "${required[@]}"; do
     exit 1
   fi
 done
+
+if [ "${NEXT_PUBLIC_ENABLE_BITCOIN_CHECKOUT:-false}" = "true" ] || [ "${PAYMENT_PROVIDER:-}" = "btcpay" ]; then
+  if [ -z "${BTCPAY_SERVER_URL:-}" ] && [ -z "${BTCPAY_URL:-}" ]; then
+    echo "Refusing to push without BTCPAY_SERVER_URL or BTCPAY_URL while Bitcoin checkout is enabled"
+    exit 1
+  fi
+
+  for key in BTCPAY_API_KEY BTCPAY_STORE_ID BTCPAY_WEBHOOK_SECRET; do
+    value=${!key:-}
+    if [ -z "$value" ]; then
+      echo "Refusing to push empty value for $key while Bitcoin checkout is enabled"
+      exit 1
+    fi
+  done
+fi
 
 for key in "${required[@]}"; do
   value=${!key}

@@ -1,6 +1,8 @@
 import { siteConfig } from "@/lib/content/site";
 import { getBundleBySlug, getProductBySlug } from "@/lib/content/products";
 
+export const CHECKOUT_VERIFICATION_SKU = "CHECKOUT-VERIFY-1USD";
+
 export interface CheckoutCartInputLine {
   sku: string;
   slug: string;
@@ -47,6 +49,19 @@ export function resolveCheckoutCartLines(
   return { ok: true, lines: resolved };
 }
 
+export function calculateCheckoutShippingCents(
+  subtotalCents: number,
+  lines: Pick<CheckoutCartLine, "sku">[],
+): number {
+  const verificationOnly =
+    lines.length > 0 &&
+    lines.every((line) => line.sku === CHECKOUT_VERIFICATION_SKU);
+
+  if (verificationOnly) return 0;
+  if (subtotalCents >= siteConfig.shipping.freeShippingThresholdCents) return 0;
+  return siteConfig.shipping.pilotUSCents;
+}
+
 export function calculateCheckoutTotals(
   lines: CheckoutCartLine[],
 ): CheckoutTotals {
@@ -54,10 +69,7 @@ export function calculateCheckoutTotals(
     (sum, line) => sum + line.unitPriceCents * line.qty,
     0,
   );
-  const shippingCents =
-    subtotalCents >= siteConfig.shipping.freeShippingThresholdCents
-      ? 0
-      : siteConfig.shipping.pilotUSCents;
+  const shippingCents = calculateCheckoutShippingCents(subtotalCents, lines);
 
   return {
     subtotalCents,

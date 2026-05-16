@@ -58,6 +58,7 @@ const blendSlugs = new Set([
 
 const familyBySlug = new Map<string, string>([
   ["bpc-157-10mg", "Reference peptide"],
+  ["checkout-verification-1usd", "Research peptide"],
   ["tb-500-5mg", "Reference peptide"],
   ["tb-500-10mg", "Reference peptide"],
   ["ghk-cu-50mg", "Reference peptide"],
@@ -102,6 +103,7 @@ function catalogFamily(product: Product) {
 const imageBySlug: Record<string, string> = {
   "aod-9604-5mg": "vailchem_aod-9604_5-mg_suggested-59.png",
   "bpc-157-10mg": "vailchem_bpc-157_5-mg_suggested-59.png",
+  "checkout-verification-1usd": "vailchem_bpc-157_5-mg_suggested-59.png",
   "cjc-1295-dac-2mg": "vailchem_cjc-1295-dac_2-mg_suggested-59.png",
   "cjc-1295-no-dac-5mg": "vailchem_cjc-1295-no-dac_5-mg_suggested-79.png",
   "cjc-1295-ipamorelin-10mg":

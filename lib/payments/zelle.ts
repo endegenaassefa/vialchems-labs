@@ -17,6 +17,7 @@ export interface ZelleEnv extends RuntimeEnv {
   ZELLE_PHONE?: string;
   ZELLE_QR_IMAGE_URL?: string;
   ZELLE_PAYMENT_NOTE_PREFIX?: string;
+  ZELLE_SUPPORT_EMAIL?: string;
   ZELLE_BUSINESS_NAME?: string;
   ZELLE_HANDLE?: string;
 }
@@ -37,6 +38,7 @@ function fromProcessEnv(): ZelleEnv {
     ZELLE_PHONE: process.env.ZELLE_PHONE,
     ZELLE_QR_IMAGE_URL: process.env.ZELLE_QR_IMAGE_URL,
     ZELLE_PAYMENT_NOTE_PREFIX: process.env.ZELLE_PAYMENT_NOTE_PREFIX,
+    ZELLE_SUPPORT_EMAIL: process.env.ZELLE_SUPPORT_EMAIL,
     ZELLE_BUSINESS_NAME: process.env.ZELLE_BUSINESS_NAME,
     ZELLE_HANDLE: process.env.ZELLE_HANDLE,
   };
@@ -94,6 +96,7 @@ export function createZelleAdapter(
           zelleHandle: details.handle,
           zelleEmail: details.email ?? "",
           zellePhone: details.phone ?? "",
+          zelleSupportEmail: details.supportEmail ?? "",
           zelleMemo: memo,
           instructions,
           ...(details.qrImageUrl

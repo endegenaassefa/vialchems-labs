@@ -42,6 +42,9 @@ const paymentMethods: PaymentMethod[] = CHECKOUT_PAYMENT_METHOD_INFO.map(
   }),
 );
 
+const bitcoinCheckoutEnabled =
+  process.env.NEXT_PUBLIC_ENABLE_BITCOIN_CHECKOUT === "true";
+
 interface PaymentMethodSelectorProps {
   value: CheckoutPaymentMethod;
   onChange: (method: CheckoutPaymentMethod) => void;
@@ -61,18 +64,23 @@ export function PaymentMethodSelector({
       <div className="v2-payment-grid">
         {paymentMethods.map((method) => {
           const selected = value === method.id;
+          const disabled = method.id === "bitcoin" && !bitcoinCheckoutEnabled;
           return (
             <label
               key={method.id}
               className="v2-payment-option"
               data-selected={selected ? "true" : "false"}
+              data-disabled={disabled ? "true" : "false"}
             >
               <input
                 type="radio"
                 name="preferred-payment-method"
                 value={method.id}
                 checked={selected}
-                onChange={() => onChange(method.id)}
+                disabled={disabled}
+                onChange={() => {
+                  if (!disabled) onChange(method.id);
+                }}
               />
               <span className="v2-payment-icon" aria-hidden="true">
                 <method.Icon size={16} strokeWidth={1.6} />
@@ -80,10 +88,14 @@ export function PaymentMethodSelector({
               <span className="v2-payment-text">
                 <span className="v2-payment-title-row">
                   <span>{method.title}</span>
-                  <span className="badge">{method.badge}</span>
+                  <span className="badge">
+                    {disabled ? "Setup pending" : method.badge}
+                  </span>
                 </span>
                 <span className="v2-payment-description">
-                  {method.description}
+                  {disabled
+                    ? "Bitcoin checkout is paused while BTCPay wallet setup is completed."
+                    : method.description}
                 </span>
               </span>
             </label>

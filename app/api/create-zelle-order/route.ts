@@ -8,6 +8,7 @@ import {
 import {
   buildZelleCheckoutUrl,
   getMissingZelleCredentials,
+  getZelleCheckoutSigningSecret,
   getZelleDetails,
   shouldUseDirectPaymentPlaceholder,
 } from "@/lib/checkout/direct-payment";
@@ -114,12 +115,21 @@ export async function POST(request: Request): Promise<Response> {
   const orderId = generateMainSiteOrderReference();
   const missing = getMissingZelleCredentials();
   const allowPlaceholder = shouldUseDirectPaymentPlaceholder();
+  const signingSecret = getZelleCheckoutSigningSecret();
 
   if (missing.length > 0 && isProductionRuntime() && !allowPlaceholder) {
     return jsonError(
       "missing_credential",
       503,
       `Missing required credential: ${missing[0]}`,
+    );
+  }
+
+  if (!signingSecret && isProductionRuntime()) {
+    return jsonError(
+      "missing_credential",
+      503,
+      "Missing required credential: ZELLE_CHECKOUT_SIGNING_SECRET or AGE_GATE_SECRET",
     );
   }
 
@@ -152,6 +162,7 @@ export async function POST(request: Request): Promise<Response> {
         details: getZelleDetails(process.env, {
           allowPlaceholders: allowPlaceholder,
         }),
+        signingSecret,
       }),
     });
   } catch (error) {

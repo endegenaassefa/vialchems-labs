@@ -6,6 +6,7 @@ export interface ProductStudioImage {
 const productStudioImages = Object.fromEntries(
   [
     ["bpc-157-10mg", "BPC-157 10mg"],
+    ["checkout-verification-1usd", "Checkout Verification 1 unit"],
     ["tb-500-5mg", "TB-500 5mg"],
     ["tb-500-10mg", "TB-500 10mg"],
     ["ghk-cu-50mg", "GHK-Cu 50mg"],

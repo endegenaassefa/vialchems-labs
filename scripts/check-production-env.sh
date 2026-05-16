@@ -29,10 +29,7 @@ required=(
   SUPABASE_DB_URL
   PAYMENT_PROVIDER
   ALLOW_STUB_PAYMENTS_IN_PRODUCTION
-  BTCPAY_URL
-  BTCPAY_API_KEY
-  BTCPAY_STORE_ID
-  BTCPAY_WEBHOOK_SECRET
+  NEXT_PUBLIC_ENABLE_BITCOIN_CHECKOUT
   REQUIRE_RESEND
   ALLOW_RESEND_OPTIONAL_IN_PRODUCTION
   RESEND_API_KEY
@@ -50,6 +47,25 @@ for key in "${required[@]}"; do
     echo "set: $key"
   fi
 done
+
+if [ "${NEXT_PUBLIC_ENABLE_BITCOIN_CHECKOUT:-false}" = "true" ] || [ "${PAYMENT_PROVIDER:-}" = "btcpay" ]; then
+  if [ -z "${BTCPAY_SERVER_URL:-}" ] && [ -z "${BTCPAY_URL:-}" ]; then
+    echo "missing: BTCPAY_SERVER_URL"
+    missing=$((missing + 1))
+  else
+    echo "set: BTCPAY_SERVER_URL"
+  fi
+
+  for key in BTCPAY_API_KEY BTCPAY_STORE_ID BTCPAY_WEBHOOK_SECRET; do
+    value=${!key:-}
+    if [ -z "$value" ]; then
+      echo "missing: $key"
+      missing=$((missing + 1))
+    else
+      echo "set: $key"
+    fi
+  done
+fi
 
 if [ "$missing" -gt 0 ]; then
   echo

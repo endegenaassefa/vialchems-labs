@@ -624,6 +624,21 @@ export const products: Product[] = [
     shortDescription:
       "Synthetic growth-hormone-derived peptide fragment supplied as a 5mg lyophilized research vial. Reference material for lipid-metabolism pathway, peptide-identity, and analytical workflow contexts.",
   },
+  {
+    slug: "checkout-verification-1usd",
+    sku: "CHECKOUT-VERIFY-1USD",
+    name: "Checkout Verification, 1 unit",
+    shortName: "Checkout Verification",
+    dose: "1 unit",
+    format: "vial",
+    listPriceCents: 100,
+    perMgCents: 100,
+    category: "recovery",
+    role: "catalog-filler",
+    position: "operator-requested $1 live payment verification SKU",
+    shortDescription:
+      "One-unit RUO checkout verification item for live payment-flow testing and order reconciliation. Dispatch occurs only after staff confirms the matching manual payment.",
+  },
 ];
 
 export const bundles: Bundle[] = [

@@ -8,7 +8,7 @@
  */
 import { describe, expect, it } from "vitest";
 import { assertMarketingCopySafe } from "@/lib/compliance";
-import { bundles, products } from "@/lib/content/products";
+import { bundles, getProductBySlug, products } from "@/lib/content/products";
 
 describe("catalog content compliance", () => {
   it.each(products.map((p) => [p.slug, p]))(
@@ -33,4 +33,11 @@ describe("catalog content compliance", () => {
       expect(() => assertMarketingCopySafe(bundle.description)).not.toThrow();
     },
   );
+
+  it("includes a $1 checkout verification SKU for live Zelle testing", () => {
+    expect(getProductBySlug("checkout-verification-1usd")).toMatchObject({
+      sku: "CHECKOUT-VERIFY-1USD",
+      listPriceCents: 100,
+    });
+  });
 });

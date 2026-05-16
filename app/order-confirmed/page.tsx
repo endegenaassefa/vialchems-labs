@@ -21,11 +21,18 @@ function sanitizeOrderReference(
   return raw;
 }
 
+function sanitizePayment(value: string | string[] | undefined): "zelle" | null {
+  const raw = Array.isArray(value) ? value[0] : value;
+  return raw === "zelle" ? "zelle" : null;
+}
+
 export default async function OrderConfirmedPage({
   searchParams,
 }: OrderConfirmedPageProps) {
   const params = await searchParams;
   const orderReference = sanitizeOrderReference(params.order);
+  const payment = sanitizePayment(params.payment);
+  const isZelle = payment === "zelle";
 
   return (
     <>
@@ -37,11 +44,12 @@ export default async function OrderConfirmedPage({
               Order confirmation
             </p>
             <h1 className="mb-4 text-[32px] font-light leading-tight tracking-tight text-[var(--text)] md:text-[44px]">
-              Checkout received
+              {isZelle ? "Zelle payment noted" : "Checkout received"}
             </h1>
             <p className="max-w-2xl text-[16px] leading-[1.6] text-[var(--text-muted)]">
-              Your order is being processed by the selected payment system.
-              Include the order reference below when contacting support.
+              {isZelle
+                ? "Your order is awaiting manual Zelle receipt verification. Include the order reference below if you contact support."
+                : "Your order is being processed by the selected payment system. Include the order reference below when contacting support."}
             </p>
           </div>
         </section>
@@ -56,9 +64,9 @@ export default async function OrderConfirmedPage({
                 {orderReference ?? "Pending reference"}
               </p>
               <p className="max-w-2xl text-[14px] leading-[1.6] text-[var(--text-muted)]">
-                A confirmation email will be sent after payment authorization
-                and order-status processing. Include the order reference above
-                when contacting support.
+                {isZelle
+                  ? "Dispatch begins after staff confirms the exact Zelle amount and memo in the business bank account."
+                  : "A confirmation email will be sent after payment authorization and order-status processing. Include the order reference above when contacting support."}
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link

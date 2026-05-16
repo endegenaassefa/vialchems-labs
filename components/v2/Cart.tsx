@@ -12,6 +12,7 @@ import {
   getCheckoutApiRoute,
   getCheckoutPendingLabel,
 } from "@/lib/checkout/payment-routing";
+import { calculateCheckoutShippingCents } from "@/lib/checkout/cart";
 import { siteConfig } from "@/lib/content/site";
 import { catalogItems, displayPrice, getCatalogItem } from "./data";
 import { Icon } from "./icons";
@@ -27,9 +28,10 @@ export function V2Cart() {
     useState<CheckoutPaymentMethod>("link_money");
   const [checkoutPending, setCheckoutPending] = useState(false);
   const [checkoutError, setCheckoutError] = useState<string | null>(null);
-  const shippingCents = lines.length ? siteConfig.shipping.pilotUSCents : 0;
-  const freeShip =
-    subtotalCents >= siteConfig.shipping.freeShippingThresholdCents;
+  const shippingCents = lines.length
+    ? calculateCheckoutShippingCents(subtotalCents, lines)
+    : 0;
+  const freeShip = lines.length > 0 && shippingCents === 0;
   const totalCents = subtotalCents + (freeShip ? 0 : shippingCents);
 
   async function handleCheckout() {

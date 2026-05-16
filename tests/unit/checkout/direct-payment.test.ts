@@ -6,6 +6,7 @@ import {
   getMissingBtcpayCredentials,
   getMissingZelleCredentials,
   getZelleDetails,
+  verifyZelleCheckoutSignature,
 } from "@/lib/checkout/direct-payment";
 import { generateMainSiteOrderReference } from "@/lib/checkout/cart";
 
@@ -49,12 +50,29 @@ describe("direct payment credential helpers", () => {
     ]);
   });
 
-  it("reports the exact missing Zelle placeholder names", () => {
-    expect(getMissingZelleCredentials({})).toEqual([
-      "ZELLE_RECIPIENT_NAME",
-      "ZELLE_EMAIL",
-      "ZELLE_PAYMENT_NOTE_PREFIX",
-    ]);
+  it("uses the production Zelle recipient defaults from the bank screenshots", () => {
+    expect(getMissingZelleCredentials({})).toEqual([]);
+
+    expect(getZelleDetails({})).toMatchObject({
+      recipientName: "Vialchem Labs LLC",
+      handle: "vialchem-pay",
+      memoPrefix: "VCL",
+      supportEmail: "abhinav@vialchemlabs.net",
+    });
+  });
+
+  it("prefers an explicit Zelle ID over a support email address", () => {
+    expect(
+      getZelleDetails({
+        ZELLE_HANDLE: "vialchem-pay",
+        ZELLE_EMAIL: "abhinav@vialchemlabs.net",
+        ZELLE_RECIPIENT_NAME: "Vialchem Labs LLC",
+        ZELLE_PAYMENT_NOTE_PREFIX: "VCL",
+      }),
+    ).toMatchObject({
+      handle: "vialchem-pay",
+      email: "abhinav@vialchemlabs.net",
+    });
   });
 });
 
@@ -94,6 +112,7 @@ describe("direct payment URLs", () => {
         orderId: "VC-260515-ABCDEF12",
         amountCents: 6900,
         details,
+        signingSecret: "test-zelle-signing-secret",
       }),
     );
 
@@ -103,6 +122,20 @@ describe("direct payment URLs", () => {
       "payments@example.com",
     );
     expect(url.searchParams.get("memo")).toBe("VCL-VC-260515-ABCDEF12");
+    expect(
+      verifyZelleCheckoutSignature(
+        url.searchParams,
+        "test-zelle-signing-secret",
+      ),
+    ).toBe(true);
+
+    url.searchParams.set("amount_cents", "100");
+    expect(
+      verifyZelleCheckoutSignature(
+        url.searchParams,
+        "test-zelle-signing-secret",
+      ),
+    ).toBe(false);
   });
 
   it("generates stable VialChem order references when inputs are pinned", () => {
