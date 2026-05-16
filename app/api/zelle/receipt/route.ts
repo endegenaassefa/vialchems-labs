@@ -23,6 +23,7 @@ const receiptSchema = z.object({
   memo: z.string().trim().min(1).max(140),
   zelleEmail: z.string().trim().email().or(z.literal("")).optional(),
   supportEmail: z.string().trim().email().or(z.literal("")).optional(),
+  qrImageUrl: z.string().trim().max(2048).optional(),
   sig: z
     .string()
     .trim()
@@ -54,6 +55,7 @@ function signedParams(input: z.infer<typeof receiptSchema>): URLSearchParams {
   params.set("memo", input.memo);
   if (input.zelleEmail) params.set("zelle_email", input.zelleEmail);
   if (input.supportEmail) params.set("support_email", input.supportEmail);
+  if (input.qrImageUrl) params.set("qr_image_url", input.qrImageUrl);
   params.set("sig", input.sig);
   return params;
 }

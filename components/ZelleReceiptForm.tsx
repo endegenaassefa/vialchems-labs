@@ -12,6 +12,7 @@ interface ZelleReceiptFormProps {
   memo: string;
   zelleEmail?: string | null;
   supportEmail?: string | null;
+  qrImageUrl?: string | null;
   signature: string;
 }
 
@@ -23,6 +24,7 @@ export function ZelleReceiptForm({
   memo,
   zelleEmail,
   supportEmail,
+  qrImageUrl,
   signature,
 }: ZelleReceiptFormProps) {
   const router = useRouter();
@@ -45,6 +47,7 @@ export function ZelleReceiptForm({
       memo,
       zelleEmail: zelleEmail ?? "",
       supportEmail: supportEmail ?? "",
+      qrImageUrl: qrImageUrl ?? "",
       sig: signature,
       customer: {
         name: String(form.get("name") ?? ""),

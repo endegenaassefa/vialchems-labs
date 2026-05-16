@@ -287,6 +287,7 @@ export default async function ZelleCheckoutPage({
                       memo={memo}
                       zelleEmail={zelleEmail}
                       supportEmail={supportEmail}
+                      qrImageUrl={qrImageUrl}
                       signature={signature}
                     />
                   </div>

@@ -27,6 +27,10 @@ function signedPayment(overrides: Record<string, string> = {}) {
     overrides.support_email ?? "abhinav@vialchemlabs.net",
   );
   params.set(
+    "qr_image_url",
+    overrides.qr_image_url ?? "/payments/zelle-qr.png",
+  );
+  params.set(
     "sig",
     signZelleCheckoutParams(params, "local-zelle-checkout-signing-secret"),
   );
@@ -43,6 +47,7 @@ function receiptBody(overrides: Record<string, unknown> = {}) {
     memo: payment.get("memo"),
     zelleEmail: payment.get("zelle_email"),
     supportEmail: payment.get("support_email"),
+    qrImageUrl: payment.get("qr_image_url"),
     sig: payment.get("sig"),
     customer: {
       name: "Research Buyer",
