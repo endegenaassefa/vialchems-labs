@@ -89,7 +89,6 @@ describe("catalog content compliance", () => {
       ["semax-10mg", "SEMAX-10MG", 6500],
       ["selank-10mg", "SELANK-10MG", 6500],
       ["reta-10mg", "RETA-10MG", 9900],
-      ["reta-20mg", "RETA-20MG", 15000],
       ["tirz-25mg", "TIRZ-25MG", 10000],
       ["nad-500mg", "NAD-500MG", 7500],
     ] as const;
@@ -116,14 +115,15 @@ describe("catalog content compliance", () => {
     ).toBe(false);
   });
 
-  it("groups duplicate live variants into one visible product listing", () => {
+  it("keeps Reta as one $99 live product listing", () => {
     const visibleNames = catalogDisplayItems.map((item) => item.shortName);
+    const reta = catalogDisplayItems.find((item) => item.shortName === "Reta");
 
     expect(visibleNames.filter((name) => name === "Reta")).toHaveLength(1);
     expect(catalogDisplayItems).toHaveLength(12);
-    expect(
-      catalogDisplayItems.find((item) => item.shortName === "Reta")?.variants,
-    ).toHaveLength(2);
+    expect(reta?.priceCents).toBe(9900);
+    expect(reta?.variants).toHaveLength(1);
+    expect(reta?.variants[0]?.sku).toBe("RETA-10MG");
   });
 
   it("treats non-launch products as custom request only", () => {

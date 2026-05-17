@@ -57,7 +57,7 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "Why is the catalog smaller than competitors?",
-    a: "vialchemlabs.net keeps a focused live catalog to maintain compliance simplicity, COA pipeline integrity, and operational reliability. Current live records include BPC-157 10mg, TB-500 10mg, GHK-Cu 50mg, CJC-1295 + Ipamorelin 5mg, Klow 80mg, KPV 500mcg, MOTS-c 10mg, Semax 10mg, Selank 10mg, Reta 10mg and 20mg, Tirz 25mg, and NAD+ 500mg. Non-live materials are handled by custom request.",
+    a: "vialchemlabs.net keeps a focused live catalog to maintain compliance simplicity, COA pipeline integrity, and operational reliability. Current live records include BPC-157 10mg, TB-500 10mg, GHK-Cu 50mg, CJC-1295 + Ipamorelin 5mg, Klow 80mg, KPV 500mcg, MOTS-c 10mg, Semax 10mg, Selank 10mg, Reta 10mg, Tirz 25mg, and NAD+ 500mg. Non-live materials are handled by custom request.",
   },
   {
     q: "Can I request a material that is not in stock?",

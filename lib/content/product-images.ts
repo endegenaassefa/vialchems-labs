@@ -47,7 +47,6 @@ const productStudioImages = Object.fromEntries(
     ["aod-9604-5mg", "AOD-9604 5mg"],
     ["klow-80mg", "Klow 80mg"],
     ["reta-10mg", "Reta 10mg"],
-    ["reta-20mg", "Reta 20mg"],
     ["tirz-25mg", "Tirz 25mg"],
   ].map(([slug, label]) => [
     slug,

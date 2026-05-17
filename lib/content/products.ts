@@ -52,7 +52,6 @@ export const publicLaunchProductSlugs = [
   "semax-10mg",
   "selank-10mg",
   "reta-10mg",
-  "reta-20mg",
   "tirz-25mg",
   "nad-500mg",
 ] as const;
@@ -732,21 +731,6 @@ export const products: Product[] = [
     position: "operator-approved live catalog price",
     shortDescription:
       "Reta research reference supplied as a 10mg lyophilized vial. Cataloged for peptide identity, purity review, batch comparison, and analytical workflow contexts.",
-  },
-  {
-    slug: "reta-20mg",
-    sku: "RETA-20MG",
-    name: "Reta, 20mg vial",
-    shortName: "Reta",
-    dose: "20mg",
-    format: "vial",
-    listPriceCents: 15000,
-    perMgCents: 750,
-    category: "metabolic",
-    role: "catalog-filler",
-    position: "operator-approved live catalog price",
-    shortDescription:
-      "Reta research reference supplied as a 20mg lyophilized vial. Cataloged for peptide identity, purity review, batch comparison, and analytical workflow contexts.",
   },
   {
     slug: "tirz-25mg",
