@@ -67,7 +67,7 @@ export function PaymentMethodSelector({
     }
 
     const controller = new AbortController();
-    fetch("/api/payments/btcpay/status", {
+    fetch("/api/payments/bitcoin/status", {
       method: "GET",
       cache: "no-store",
       signal: controller.signal,

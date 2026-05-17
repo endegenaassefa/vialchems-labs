@@ -21,9 +21,12 @@ function sanitizeOrderReference(
   return raw;
 }
 
-function sanitizePayment(value: string | string[] | undefined): "zelle" | null {
+function sanitizePayment(
+  value: string | string[] | undefined,
+): "zelle" | "bitcoin" | null {
   const raw = Array.isArray(value) ? value[0] : value;
-  return raw === "zelle" ? "zelle" : null;
+  if (raw === "zelle" || raw === "bitcoin") return raw;
+  return null;
 }
 
 export default async function OrderConfirmedPage({
@@ -33,6 +36,7 @@ export default async function OrderConfirmedPage({
   const orderReference = sanitizeOrderReference(params.order);
   const payment = sanitizePayment(params.payment);
   const isZelle = payment === "zelle";
+  const isBitcoin = payment === "bitcoin";
 
   return (
     <>
@@ -44,12 +48,18 @@ export default async function OrderConfirmedPage({
               Order confirmation
             </p>
             <h1 className="mb-4 text-[32px] font-light leading-tight tracking-tight text-[var(--text)] md:text-[44px]">
-              {isZelle ? "Zelle payment noted" : "Checkout received"}
+              {isZelle
+                ? "Zelle payment noted"
+                : isBitcoin
+                  ? "Bitcoin payment noted"
+                  : "Checkout received"}
             </h1>
             <p className="max-w-2xl text-[16px] leading-[1.6] text-[var(--text-muted)]">
               {isZelle
                 ? "Your order is awaiting manual Zelle receipt verification. Include the order reference below if you contact support."
-                : "Your order is being processed by the selected payment system. Include the order reference below when contacting support."}
+                : isBitcoin
+                  ? "Your order is awaiting Bitcoin transaction verification. Include the order reference below if you contact support."
+                  : "Your order is being processed by the selected payment system. Include the order reference below when contacting support."}
             </p>
           </div>
         </section>
@@ -66,7 +76,9 @@ export default async function OrderConfirmedPage({
               <p className="max-w-2xl text-[14px] leading-[1.6] text-[var(--text-muted)]">
                 {isZelle
                   ? "Dispatch begins after staff confirms the exact Zelle amount and memo in the business bank account."
-                  : "A confirmation email will be sent after payment authorization and order-status processing. Include the order reference above when contacting support."}
+                  : isBitcoin
+                    ? "Dispatch begins after staff confirms the Bitcoin transaction amount and confirmations."
+                    : "A confirmation email will be sent after payment authorization and order-status processing. Include the order reference above when contacting support."}
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link

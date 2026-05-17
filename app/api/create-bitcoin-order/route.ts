@@ -12,6 +12,13 @@ import {
   shouldUseDirectPaymentPlaceholder,
 } from "@/lib/checkout/direct-payment";
 import {
+  buildBitcoinDirectCheckoutUrl,
+  fetchBitcoinQuote,
+  getBitcoinDirectDetails,
+  getBitcoinDirectSigningSecret,
+  isBitcoinDirectConfigured,
+} from "@/lib/payments/bitcoin-direct";
+import {
   calculateCheckoutTotals,
   generateMainSiteOrderReference,
   getLocalPreviewSiteUrl,
@@ -38,6 +45,32 @@ const createBitcoinOrderSchema = z.object({
 
 function jsonError(error: string, status: number, message?: string): Response {
   return NextResponse.json({ ok: false, error, message }, { status });
+}
+
+async function createDirectBitcoinCheckout({
+  siteUrl,
+  orderId,
+  amountCents,
+}: {
+  siteUrl: string;
+  orderId: string;
+  amountCents: number;
+}): Promise<Response> {
+  const details = getBitcoinDirectDetails();
+  const quote = await fetchBitcoinQuote({ amountCents, details });
+  return NextResponse.json({
+    ok: true,
+    mode: "direct-bitcoin",
+    orderId,
+    checkoutUrl: buildBitcoinDirectCheckoutUrl({
+      siteUrl,
+      orderId,
+      amountCents,
+      details,
+      quote,
+      signingSecret: getBitcoinDirectSigningSecret(),
+    }),
+  });
 }
 
 async function verifyCheckoutRequest(
@@ -117,6 +150,24 @@ export async function POST(request: Request): Promise<Response> {
   const allowPlaceholder = shouldUseDirectPaymentPlaceholder();
 
   if (missing.length > 0) {
+    if (isBitcoinDirectConfigured()) {
+      try {
+        return await createDirectBitcoinCheckout({
+          siteUrl: previewSiteUrl,
+          orderId,
+          amountCents: totals.totalCents,
+        });
+      } catch (error) {
+        if (isProductionRuntime()) {
+          return jsonError(
+            "bitcoin_direct_quote_failed",
+            502,
+            (error as Error).message,
+          );
+        }
+      }
+    }
+
     if (isProductionRuntime() && !allowPlaceholder) {
       return jsonError(
         "missing_credential",
@@ -169,6 +220,22 @@ export async function POST(request: Request): Promise<Response> {
       }),
     });
   } catch (error) {
+    if (isBitcoinDirectConfigured()) {
+      try {
+        return await createDirectBitcoinCheckout({
+          siteUrl: previewSiteUrl,
+          orderId,
+          amountCents: totals.totalCents,
+        });
+      } catch (fallbackError) {
+        return jsonError(
+          "bitcoin_direct_quote_failed",
+          502,
+          (fallbackError as Error).message,
+        );
+      }
+    }
+
     return jsonError(
       "bitcoin_order_create_failed",
       502,

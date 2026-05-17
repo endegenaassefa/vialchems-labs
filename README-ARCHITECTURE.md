@@ -25,15 +25,15 @@ in `docs/btcpay-endpoint-remediation.md` and
 
 ## Payment Routing Matrix
 
-| Method     | Route                            | Checkout system                         |
-| ---------- | -------------------------------- | --------------------------------------- |
-| Bitcoin    | `POST /api/create-bitcoin-order` | Main-site BTCPay invoice flow           |
-| Zelle      | `POST /api/create-zelle-order`   | Main-site manual Zelle instruction flow |
-| Link Money | `POST /api/create-woo-order`     | WooCommerce on `shop.vialchemlabs.net`  |
-| Cards      | `POST /api/create-woo-order`     | WooCommerce on `shop.vialchemlabs.net`  |
-| Apple Pay  | `POST /api/create-woo-order`     | WooCommerce on `shop.vialchemlabs.net`  |
-| Google Pay | `POST /api/create-woo-order`     | WooCommerce on `shop.vialchemlabs.net`  |
-| PayPal     | `POST /api/create-woo-order`     | WooCommerce on `shop.vialchemlabs.net`  |
+| Method     | Route                            | Checkout system                                                              |
+| ---------- | -------------------------------- | ---------------------------------------------------------------------------- |
+| Bitcoin    | `POST /api/create-bitcoin-order` | Main-site BTCPay invoice flow, with direct on-chain fallback when configured |
+| Zelle      | `POST /api/create-zelle-order`   | Main-site manual Zelle instruction flow                                      |
+| Link Money | `POST /api/create-woo-order`     | WooCommerce on `shop.vialchemlabs.net`                                       |
+| Cards      | `POST /api/create-woo-order`     | WooCommerce on `shop.vialchemlabs.net`                                       |
+| Apple Pay  | `POST /api/create-woo-order`     | WooCommerce on `shop.vialchemlabs.net`                                       |
+| Google Pay | `POST /api/create-woo-order`     | WooCommerce on `shop.vialchemlabs.net`                                       |
+| PayPal     | `POST /api/create-woo-order`     | WooCommerce on `shop.vialchemlabs.net`                                       |
 
 ## Main Site Flow
 
@@ -96,6 +96,9 @@ BTCPAY_URL=PLACEHOLDER_BTCPAY_URL_LEGACY_ALIAS
 BTCPAY_API_KEY=PLACEHOLDER_BTCPAY_API_KEY
 BTCPAY_STORE_ID=PLACEHOLDER_BTCPAY_STORE_ID
 BTCPAY_WEBHOOK_SECRET=PLACEHOLDER_BTCPAY_WEBHOOK_SECRET
+BITCOIN_DIRECT_CHECKOUT_ENABLED=false
+BITCOIN_RECEIVE_ADDRESS=PLACEHOLDER_MERCHANT_BTC_RECEIVE_ADDRESS
+BITCOIN_DIRECT_SIGNING_SECRET=PLACEHOLDER_BITCOIN_DIRECT_SIGNING_SECRET
 ZELLE_RECIPIENT_NAME=Vialchem Labs LLC
 ZELLE_HANDLE=vialchem-pay
 ZELLE_EMAIL=abhinav@vialchemlabs.net

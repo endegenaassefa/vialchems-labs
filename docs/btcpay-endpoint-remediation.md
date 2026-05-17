@@ -159,10 +159,22 @@ NEXT_PUBLIC_ENABLE_BITCOIN_CHECKOUT=false
 Zelle remains the live payment option. Bitcoin must not be advertised as live
 until `npm run verify:btcpay` succeeds from the production runtime.
 
-The cart also checks `/api/payments/btcpay/status` before enabling the Bitcoin
-radio option. If the endpoint is missing, blocked, returning auth errors, or
-failing TLS, customers remain on Zelle instead of entering a broken Bitcoin
-checkout.
+The cart also checks `/api/payments/bitcoin/status` before enabling the Bitcoin
+radio option. If BTCPay is missing, blocked, returning auth errors, or failing
+TLS, the app can still enable Bitcoin through the direct on-chain fallback when
+these variables are configured:
+
+```bash
+BITCOIN_DIRECT_CHECKOUT_ENABLED=true
+BITCOIN_RECEIVE_ADDRESS=<merchant-controlled BTC receive address>
+BITCOIN_DIRECT_SIGNING_SECRET=<long random secret>
+BITCOIN_SUPPORT_EMAIL=abhinav@vialchemlabs.net
+```
+
+The fallback stays on `vialchemlabs.net`, quotes BTC from Coinbase's public
+BTC-USD spot endpoint, shows a wallet-compatible `bitcoin:` payment request,
+and emails staff the buyer-submitted transaction ID for manual confirmation.
+No private key or seed phrase is stored in the app.
 
 ## Official References
 

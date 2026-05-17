@@ -39,7 +39,11 @@ Next.js codebase.
    runtime health check passes.
 5. Keep Zelle active.
 6. Keep all non-Zelle/non-Bitcoin methods disabled as coming soon.
-7. Verify with unit tests, lint, typecheck, build, endpoint diagnostics, and
+7. Add a direct on-chain Bitcoin fallback hosted on `vialchemlabs.net` so the
+   customer path does not depend on a blocked third-party checkout host. This
+   fallback must use a merchant-provided receiving address only; never generate
+   or store a private key in the app.
+8. Verify with unit tests, lint, typecheck, build, endpoint diagnostics, and
    atomic commits.
 
 ## Acceptance Criteria
@@ -56,7 +60,9 @@ npm run build
 ```
 
 The cart must not let customers select Bitcoin if the BTCPay endpoint is
-missing, blocked, returning auth errors, or failing TLS.
+missing, blocked, returning auth errors, or failing TLS unless the direct
+on-chain fallback is configured with `BITCOIN_DIRECT_CHECKOUT_ENABLED=true`,
+`BITCOIN_RECEIVE_ADDRESS`, and a signing secret.
 
 ## Official Sources
 
