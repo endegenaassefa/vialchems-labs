@@ -62,7 +62,7 @@ function Hero() {
         <div className="v2-hero-copy">
           <div className="badge badge-ruo" style={{ marginBottom: 24 }}>
             <span className="badge-dot" />
-            VIALCHEM.LABS · RESEARCH USE ONLY
+            VIALCHEMLABS.NET · RESEARCH USE ONLY
           </div>
           <h1 style={{ marginBottom: 24 }}>
             Research-grade peptides,{" "}

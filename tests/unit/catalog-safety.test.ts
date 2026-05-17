@@ -36,7 +36,7 @@ describe("catalog content compliance", () => {
     expect(renderedPaths).toContain("/v2-assets/vialchemlabs-products/");
     expect(renderedPaths).toContain("vialchemlabs_");
     expect(renderedPaths).not.toMatch(
-      new RegExp(`${"vai"}${"lchem"}|vialchem\\.labs`),
+      new RegExp(`${"vai"}${"lchem"}|vialchem\\.labs`, "i"),
     );
   });
 
