@@ -14,7 +14,7 @@ const bundleStudioImages = Object.fromEntries(
     slug,
     {
       src: `/bundle-shots/${slug}-single-vial.png`,
-      alt: `vialchemlabs ${label} single-vial research set`,
+      alt: `vialchem.labs ${label} single-vial research set`,
     },
   ]),
 ) as Partial<Record<string, BundleStudioImage>>;

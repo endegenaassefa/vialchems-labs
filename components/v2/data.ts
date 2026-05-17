@@ -1,7 +1,12 @@
 import {
   bundles,
   formatPrice,
+  getProductAvailability,
+  isPurchasableProduct,
+  launchProductOrder,
   products,
+  sortProductsByLaunchOrder,
+  type CatalogAvailability,
   type Bundle,
   type Product,
 } from "@/lib/content/products";
@@ -18,6 +23,8 @@ export type CatalogItem =
       priceCents: number;
       description: string;
       restricted: boolean;
+      availability: CatalogAvailability;
+      purchasable: boolean;
       stock: number;
       image: string;
       marketRange: string;
@@ -34,6 +41,8 @@ export type CatalogItem =
       priceCents: number;
       description: string;
       restricted: boolean;
+      availability: CatalogAvailability;
+      purchasable: boolean;
       stock: number;
       image: string;
       marketRange: string;
@@ -52,6 +61,7 @@ export const catalogFamilyOrder = [
 ] as const;
 
 const blendSlugs = new Set([
+  "cjc-1295-ipamorelin-5mg",
   "cjc-1295-ipamorelin-10mg",
   "sermorelin-ipamorelin-10mg",
 ]);
@@ -64,10 +74,12 @@ const familyBySlug = new Map<string, string>([
   ["ghk-cu-50mg", "Reference peptide"],
   ["kpv-5mg", "Reference peptide"],
   ["kpv-10mg", "Reference peptide"],
+  ["kpv-500mcg", "Reference peptide"],
   ["ipamorelin-10mg", "Secretagogue"],
   ["ipamorelin-5mg", "Secretagogue"],
   ["cjc-1295-no-dac-5mg", "Secretagogue"],
   ["cjc-1295-dac-2mg", "Secretagogue"],
+  ["cjc-1295-ipamorelin-5mg", "Blend"],
   ["sermorelin-2mg", "Secretagogue"],
   ["sermorelin-5mg", "Secretagogue"],
   ["tesamorelin-5mg", "Secretagogue"],
@@ -80,6 +92,10 @@ const familyBySlug = new Map<string, string>([
   ["dsip-5mg", "Neuropeptide"],
   ["mots-c-10mg", "Metabolic peptide"],
   ["nad-500mg", "Metabolic peptide"],
+  ["klow-80mg", "Metabolic peptide"],
+  ["reta-10mg", "Metabolic peptide"],
+  ["reta-20mg", "Metabolic peptide"],
+  ["tirz-25mg", "Metabolic peptide"],
   ["epitalon-50mg", "Metabolic peptide"],
   ["epitalon-10mg", "Metabolic peptide"],
   ["aod-9604-5mg", "Metabolic peptide"],
@@ -106,6 +122,8 @@ const imageBySlug: Record<string, string> = {
   "checkout-verification-1usd": "vailchem_bpc-157_5-mg_suggested-59.png",
   "cjc-1295-dac-2mg": "vailchem_cjc-1295-dac_2-mg_suggested-59.png",
   "cjc-1295-no-dac-5mg": "vailchem_cjc-1295-no-dac_5-mg_suggested-79.png",
+  "cjc-1295-ipamorelin-5mg":
+    "vailchem_cjc-1295-plus-ipamorelin-blend_10-mg_suggested-99.png",
   "cjc-1295-ipamorelin-10mg":
     "vailchem_cjc-1295-plus-ipamorelin-blend_10-mg_suggested-99.png",
   "dsip-5mg": "vailchem_dsip_5-mg_suggested-49.png",
@@ -121,14 +139,18 @@ const imageBySlug: Record<string, string> = {
   "ipamorelin-5mg": "vailchem_ipamorelin_5-mg_suggested-69.png",
   "ipamorelin-10mg": "vailchem_ipamorelin_5-mg_suggested-69.png",
   "kisspeptin-10-10mg": "vailchem_kisspeptin-10_10-mg_suggested-109.png",
+  "klow-80mg": "vailchem_ghk-cu_50-mg_suggested-89.png",
   "kpv-5mg": "vailchem_kpv_10-mg_suggested-69.png",
   "kpv-10mg": "vailchem_kpv_10-mg_suggested-69.png",
+  "kpv-500mcg": "vailchem_kpv_10-mg_suggested-69.png",
   "ll-37-5mg": "vailchem_ll-37_5-mg_suggested-79.png",
   "melanotan-ii-10mg": "vailchem_melanotan-ii_10-mg_suggested-59.png",
   "mots-c-10mg": "vailchem_mots-c_10-mg_suggested-79.png",
   "nad-500mg": "vailchem_nadplus_100-mg-500-mg_suggested-79.png",
   "peg-mgf-2mg": "vailchem_peg-mgf_2-mg_suggested-59.png",
   "pt-141-10mg": "vailchem_pt-141_10-mg_suggested-59.png",
+  "reta-10mg": "vailchem_nadplus_100-mg-500-mg_suggested-79.png",
+  "reta-20mg": "vailchem_nadplus_100-mg-500-mg_suggested-79.png",
   "selank-10mg": "vailchem_selank_10-mg_suggested-49.png",
   "semax-10mg": "vailchem_semax_10-mg_suggested-49.png",
   "semax-30mg": "vailchem_semax_10-mg_suggested-49.png",
@@ -139,6 +161,7 @@ const imageBySlug: Record<string, string> = {
   "tb-500-5mg": "vailchem_tb-500_5-mg_suggested-69.png",
   "tb-500-10mg": "vailchem_tb-500_5-mg_suggested-69.png",
   "tesamorelin-5mg": "vailchem_tesamorelin_5-mg_suggested-69.png",
+  "tirz-25mg": "vailchem_nadplus_100-mg-500-mg_suggested-79.png",
   "thymosin-alpha-1-5mg": "vailchem_thymosin-alpha-1_10-mg_suggested-99.png",
   "thymosin-alpha-1-10mg": "vailchem_thymosin-alpha-1_10-mg_suggested-99.png",
   "glow-stack": "vailchem_glow-stack_suggested-169.png",
@@ -154,19 +177,50 @@ export function productImagePath(slug: string) {
 }
 
 export function skuCode(sku: string) {
-  const index = products.findIndex((p) => p.sku === sku);
-  if (index >= 0) return `VC-${String(index + 1).padStart(3, "0")}`;
+  const product = products.find((p) => p.sku === sku);
+  if (product) {
+    const launchOrder = launchProductOrder.get(product.slug);
+    if (launchOrder !== undefined) {
+      return `VC-${String(launchOrder + 1).padStart(3, "0")}`;
+    }
+    if (getProductAvailability(product) === "test-only") return "VC-TEST";
+    const requestIndex = products
+      .filter(
+        (candidate) => getProductAvailability(candidate) === "request-only",
+      )
+      .findIndex((candidate) => candidate.sku === sku);
+    return `VC-R${String(requestIndex + 1).padStart(3, "0")}`;
+  }
   const bundleIndex = bundles.findIndex((b) => b.sku === sku);
-  return `VC-${String(products.length + bundleIndex + 1).padStart(3, "0")}`;
+  return `VC-R${String(products.length + bundleIndex + 1).padStart(3, "0")}`;
 }
 
 export function isRestricted(product: Product) {
   return product.category === "gh-axis" || product.role === "volume-driver";
 }
 
-export const catalogItems: CatalogItem[] = [
-  ...products.map(
-    (product, index): CatalogItem => ({
+function productStock(product: Product, index: number) {
+  const availability = getProductAvailability(product);
+  if (availability === "request-only") return 0;
+  if (availability === "test-only") return 1;
+  return 18 + ((index * 5) % 18);
+}
+
+function catalogSortValue(item: CatalogItem) {
+  if (item.kind === "product") {
+    const launchOrder = launchProductOrder.get(item.slug);
+    if (launchOrder !== undefined) return launchOrder;
+    if (item.availability === "test-only") return 9000;
+    return 1000 + products.findIndex((product) => product.slug === item.slug);
+  }
+  return 2000 + bundles.findIndex((bundle) => bundle.slug === item.slug);
+}
+
+const productCatalogItems = [...products]
+  .sort(sortProductsByLaunchOrder)
+  .map((product, index): CatalogItem => {
+    const availability = getProductAvailability(product);
+    return {
       kind: "product",
       slug: product.slug,
       sku: product.sku,
@@ -177,34 +231,47 @@ export const catalogItems: CatalogItem[] = [
       priceCents: product.listPriceCents,
       description: product.shortDescription,
       restricted: isRestricted(product),
-      stock: 9 + ((index * 7) % 36),
+      availability,
+      purchasable: isPurchasableProduct(product),
+      stock: productStock(product, index),
       image: productImagePath(product.slug),
       marketRange: product.position,
       source: product,
-    }),
-  ),
-  ...bundles.map(
-    (bundle, index): CatalogItem => ({
-      kind: "bundle",
-      slug: bundle.slug,
-      sku: bundle.sku,
-      name: bundle.name,
-      shortName: bundle.name,
-      dose: "Set",
-      family: "Popular stack",
-      priceCents: bundle.listPriceCents,
-      description: bundle.description,
-      restricted: true,
-      stock: 11 + index,
-      image: productImagePath(bundle.slug),
-      marketRange: `${bundle.effectiveDiscountPct.toFixed(1)}% effective discount`,
-      source: bundle,
-    }),
-  ),
-];
+    };
+  });
+
+const bundleCatalogItems = bundles.map(
+  (bundle): CatalogItem => ({
+    kind: "bundle",
+    slug: bundle.slug,
+    sku: bundle.sku,
+    name: bundle.name,
+    shortName: bundle.name,
+    dose: "Set",
+    family: "Popular stack",
+    priceCents: bundle.listPriceCents,
+    description: bundle.description,
+    restricted: true,
+    availability: "request-only",
+    purchasable: false,
+    stock: 0,
+    image: productImagePath(bundle.slug),
+    marketRange: `${bundle.effectiveDiscountPct.toFixed(1)}% effective discount`,
+    source: bundle,
+  }),
+);
+
+export const allCatalogItems: CatalogItem[] = [
+  ...productCatalogItems,
+  ...bundleCatalogItems,
+].sort((a, b) => catalogSortValue(a) - catalogSortValue(b));
+
+export const catalogItems: CatalogItem[] = allCatalogItems.filter(
+  (item) => item.availability !== "test-only",
+);
 
 export function getCatalogItem(slug: string) {
-  return catalogItems.find((item) => item.slug === slug);
+  return allCatalogItems.find((item) => item.slug === slug);
 }
 
 export function displayPrice(cents: number) {

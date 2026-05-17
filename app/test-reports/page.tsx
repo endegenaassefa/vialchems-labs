@@ -18,7 +18,7 @@ import { ProcessFlow } from "@/components/ui/ProcessFlow";
 export const metadata: Metadata = {
   title: "Independently tested · Testing standard",
   description:
-    "HPLC purity, USP <71> sterility, and LAL endotoxin testing through an independent third-party laboratory. Batch-lot transparency and the vialchemlabs testing standard.",
+    "HPLC purity, USP <71> sterility, and LAL endotoxin testing through an independent third-party laboratory. Batch-lot transparency and the vialchem.labs testing standard.",
 };
 
 const STANDARD_ROWS = [
@@ -104,7 +104,7 @@ export default function TestReportsPage() {
             </h1>
             <div className="grid gap-10 md:grid-cols-[2fr_1fr] items-end">
               <p className="text-[clamp(18px,2vw,22px)] leading-[1.55] text-[var(--text-muted)] max-w-2xl">
-                vialchemlabs runs an independent third-party testing program —
+                vialchem.labs runs an independent third-party testing program —
                 HPLC purity, USP &lt;71&gt; sterility, and LAL endotoxin — and
                 publishes the Certificate of Analysis alongside the product so
                 the data is on the table.
@@ -175,7 +175,7 @@ export default function TestReportsPage() {
               </p>
               <p>
                 Approximately 11% of the 1,500+ vendor universe publishes
-                independent third-party COAs at all. vialchemlabs operates an
+                independent third-party COAs at all. vialchem.labs operates an
                 independent third-party testing program with the COA published
                 alongside the product so the data is on the table — not behind a
                 sales call.

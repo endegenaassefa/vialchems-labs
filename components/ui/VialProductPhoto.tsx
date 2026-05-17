@@ -4,7 +4,7 @@
  * Built to replace the synthetic/rotated 3D vial in PDP hero surfaces with a
  * straight-on black studio composition: matte cap, metallic crimp, glass body,
  * visible lyophilized powder, black label, and floor reflection. The label is
- * original vialchemlabs artwork; no competitor raster asset is used.
+ * original vialchem.labs artwork; no competitor raster asset is used.
  */
 import type { CSSProperties, HTMLAttributes } from "react";
 import { cn } from "@/lib/utils";
@@ -26,7 +26,7 @@ function assertCompoundAllowed(compound: string): void {
   const normalized = compound.trim().toLowerCase();
   if (!allowedCompounds.has(normalized)) {
     throw new Error(
-      `Compound "${compound}" is not in the vialchemlabs catalog.`,
+      `Compound "${compound}" is not in the vialchem.labs catalog.`,
     );
   }
 }
@@ -86,7 +86,7 @@ export function VialProductPhoto({
         "relative isolate flex min-h-[520px] w-full items-center justify-center overflow-hidden bg-[#030303]",
         className,
       )}
-      aria-label={`vialchemlabs ${compound} ${dose} batch ${batch} vial product photo`}
+      aria-label={`vialchem.labs ${compound} ${dose} batch ${batch} vial product photo`}
       {...rest}
       style={
         {

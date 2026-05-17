@@ -14,7 +14,7 @@ import { buttonClassNames } from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "Subscription confirmed",
   description:
-    "Thank you for subscribing to vialchemlabs research updates. Your Reconstitution and Storage Guide PDF is in your inbox.",
+    "Thank you for subscribing to vialchem.labs research updates. Your Reconstitution and Storage Guide PDF is in your inbox.",
 };
 
 export default function NewsletterThanksPage() {

@@ -37,6 +37,7 @@ export function V2ProductPage({ slug }: { slug: string }) {
   }
 
   const addToCart = () => {
+    if (!item.purchasable) return;
     addLine({
       sku: item.sku,
       slug: item.slug,
@@ -55,9 +56,15 @@ export function V2ProductPage({ slug }: { slug: string }) {
     )
     .slice(0, 3);
   const subtotal = displayPrice(item.priceCents * qty);
+  const requestHref = `/contact?topic=custom-order&sku=${encodeURIComponent(
+    item.sku,
+  )}&product=${encodeURIComponent(item.shortName)}`;
   const accessLabel = item.restricted
     ? "Verified lab account required"
     : "Research-use verification required";
+  const availabilityLabel = item.purchasable
+    ? `${item.stock} units available`
+    : "Custom request only";
 
   return (
     <>
@@ -154,7 +161,7 @@ export function V2ProductPage({ slug }: { slug: string }) {
                       color: "var(--fg-muted)",
                     }}
                   >
-                    {item.dose} · {item.stock} units available
+                    {item.dose} · {availabilityLabel}
                   </span>
                 </div>
 
@@ -181,61 +188,85 @@ export function V2ProductPage({ slug }: { slug: string }) {
                           marginTop: 4,
                         }}
                       >
-                        Qualified research purchasers only · {subtotal}{" "}
-                        subtotal.
+                        {item.purchasable
+                          ? `Qualified research purchasers only · ${subtotal} subtotal.`
+                          : "Custom-order requests are reviewed by staff before quote or dispatch."}
                       </p>
                     </div>
-                    <div
-                      className="v2-product-qty-stepper"
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        border: "1px solid var(--line)",
-                        borderRadius: "var(--r-sm)",
-                        overflow: "hidden",
-                      }}
-                    >
-                      <button
-                        type="button"
-                        className="icon-btn"
-                        style={{ border: 0, borderRadius: 0 }}
-                        onClick={() => setQty(Math.max(1, qty - 1))}
-                        aria-label="Decrease quantity"
+                    {item.purchasable ? (
+                      <div
+                        className="v2-product-qty-stepper"
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          border: "1px solid var(--line)",
+                          borderRadius: "var(--r-sm)",
+                          overflow: "hidden",
+                        }}
                       >
-                        <Icon.minus size={14} strokeWidth={1.5} />
-                      </button>
-                      <span
-                        className="mono"
-                        style={{ width: 36, textAlign: "center" }}
-                      >
-                        {qty}
+                        <button
+                          type="button"
+                          className="icon-btn"
+                          style={{ border: 0, borderRadius: 0 }}
+                          onClick={() => setQty(Math.max(1, qty - 1))}
+                          aria-label="Decrease quantity"
+                        >
+                          <Icon.minus size={14} strokeWidth={1.5} />
+                        </button>
+                        <span
+                          className="mono"
+                          style={{ width: 36, textAlign: "center" }}
+                        >
+                          {qty}
+                        </span>
+                        <button
+                          type="button"
+                          className="icon-btn"
+                          style={{ border: 0, borderRadius: 0 }}
+                          onClick={() => setQty(Math.min(10, qty + 1))}
+                          aria-label="Increase quantity"
+                        >
+                          <Icon.plus size={14} strokeWidth={1.5} />
+                        </button>
+                      </div>
+                    ) : (
+                      <span className="badge badge-restricted">
+                        CUSTOM REQUEST
                       </span>
-                      <button
-                        type="button"
-                        className="icon-btn"
-                        style={{ border: 0, borderRadius: 0 }}
-                        onClick={() => setQty(Math.min(10, qty + 1))}
-                        aria-label="Increase quantity"
-                      >
-                        <Icon.plus size={14} strokeWidth={1.5} />
-                      </button>
-                    </div>
+                    )}
                   </div>
                   <div
                     className="v2-product-button-row"
                     style={{ display: "flex", gap: 10, flexWrap: "wrap" }}
                   >
-                    <button
-                      type="button"
-                      onClick={addToCart}
-                      className="btn btn-accent btn-lg"
-                    >
-                      {added ? "Added to cart" : "Add to cart"}{" "}
-                      <Icon.cart size={14} strokeWidth={1.5} />
-                    </button>
-                    <Link href="/cart" className="btn btn-ghost btn-lg">
-                      Review cart
-                    </Link>
+                    {item.purchasable ? (
+                      <>
+                        <button
+                          type="button"
+                          onClick={addToCart}
+                          className="btn btn-accent btn-lg"
+                        >
+                          {added ? "Added to cart" : "Add to cart"}{" "}
+                          <Icon.cart size={14} strokeWidth={1.5} />
+                        </button>
+                        <Link href="/cart" className="btn btn-ghost btn-lg">
+                          Review cart
+                        </Link>
+                      </>
+                    ) : (
+                      <>
+                        <Link
+                          href={requestHref}
+                          className="btn btn-accent btn-lg"
+                        >
+                          Request custom order{" "}
+                          <Icon.arrow size={14} strokeWidth={1.5} />
+                        </Link>
+                        <Link href="/shop" className="btn btn-ghost btn-lg">
+                          Back to catalog
+                        </Link>
+                      </>
+                    )}
                   </div>
                 </div>
 
@@ -279,6 +310,14 @@ export function V2ProductPage({ slug }: { slug: string }) {
                       <tr>
                         <td>Mass</td>
                         <td>{item.dose}</td>
+                      </tr>
+                      <tr>
+                        <td>Availability</td>
+                        <td>
+                          {item.purchasable
+                            ? "In stock for checkout"
+                            : "Available by custom request"}
+                        </td>
                       </tr>
                       <tr>
                         <td>Documentation</td>
@@ -349,10 +388,21 @@ export function V2ProductPage({ slug }: { slug: string }) {
                       {skuCode(relatedItem.sku)} · {relatedItem.dose}
                     </div>
                     <div className="card-action">
-                      <span style={{ color: "var(--ok)" }}>
-                        · {relatedItem.stock} IN STOCK
+                      <span
+                        style={{
+                          color: relatedItem.purchasable
+                            ? "var(--ok)"
+                            : "var(--fg-muted)",
+                        }}
+                      >
+                        ·{" "}
+                        {relatedItem.purchasable
+                          ? `${relatedItem.stock} IN STOCK`
+                          : "CUSTOM REQUEST"}
                       </span>
-                      <span>VIEW LOT →</span>
+                      <span>
+                        {relatedItem.purchasable ? "VIEW LOT →" : "REQUEST →"}
+                      </span>
                     </div>
                   </Link>
                 ),

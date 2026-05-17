@@ -39,6 +39,56 @@ export interface Product {
   shortDescription: string;
 }
 
+export type CatalogAvailability = "in-stock" | "request-only" | "test-only";
+
+export const publicLaunchProductSlugs = [
+  "bpc-157-10mg",
+  "tb-500-10mg",
+  "ghk-cu-50mg",
+  "cjc-1295-ipamorelin-5mg",
+  "klow-80mg",
+  "kpv-500mcg",
+  "mots-c-10mg",
+  "semax-10mg",
+  "selank-10mg",
+  "reta-10mg",
+  "reta-20mg",
+  "tirz-25mg",
+  "nad-500mg",
+] as const;
+
+export const checkoutVerificationProductSlug = "checkout-verification-1usd";
+
+export const launchProductOrder = new Map<string, number>(
+  publicLaunchProductSlugs.map((slug, index) => [slug, index]),
+);
+
+export function getProductAvailability(
+  product: Pick<Product, "slug">,
+): CatalogAvailability {
+  if (product.slug === checkoutVerificationProductSlug) return "test-only";
+  return launchProductOrder.has(product.slug) ? "in-stock" : "request-only";
+}
+
+export function isPublicLaunchProduct(product: Pick<Product, "slug">) {
+  return getProductAvailability(product) === "in-stock";
+}
+
+export function isPurchasableProduct(product: Pick<Product, "slug">) {
+  const availability = getProductAvailability(product);
+  return availability === "in-stock" || availability === "test-only";
+}
+
+export function sortProductsByLaunchOrder(a: Product, b: Product) {
+  const aOrder = launchProductOrder.get(a.slug);
+  const bOrder = launchProductOrder.get(b.slug);
+
+  if (aOrder !== undefined && bOrder !== undefined) return aOrder - bOrder;
+  if (aOrder !== undefined) return -1;
+  if (bOrder !== undefined) return 1;
+  return a.shortName.localeCompare(b.shortName);
+}
+
 export interface Bundle {
   slug: string;
   sku: string;
@@ -57,11 +107,11 @@ export const products: Product[] = [
     shortName: "BPC-157",
     dose: "10mg",
     format: "vial",
-    listPriceCents: 5400,
-    perMgCents: 540,
+    listPriceCents: 4200,
+    perMgCents: 420,
     category: "recovery",
     role: "loss-leader",
-    position: "10% below market median",
+    position: "operator-approved live catalog price",
     shortDescription:
       "Synthetic 15-amino-acid peptide fragment isolated from bovine gastric juice. Subject of in-vitro and animal-model research on tissue-protective signaling.",
   },
@@ -87,12 +137,11 @@ export const products: Product[] = [
     shortName: "TB-500",
     dose: "10mg",
     format: "vial",
-    listPriceCents: 7900,
-    perMgCents: 790,
+    listPriceCents: 4800,
+    perMgCents: 480,
     category: "recovery",
     role: "volume-driver",
-    position:
-      "10mg stack variant; below the highest exact 10mg comparators and near the upper-middle exact-page band",
+    position: "operator-approved live catalog price",
     shortDescription:
       "TB-500 research peptide supplied as a lyophilized 10mg vial. Corpus-supported nomenclature connects the SKU with thymosin beta-4/TB4, actin-binding, cell-migration assay, and peptide-identity workflow contexts.",
   },
@@ -103,11 +152,11 @@ export const products: Product[] = [
     shortName: "GHK-Cu",
     dose: "50mg",
     format: "vial",
-    listPriceCents: 8900,
-    perMgCents: 178,
+    listPriceCents: 5000,
+    perMgCents: 100,
     category: "cosmetic-pathway",
     role: "catalog-filler",
-    position: "operator-directed premium price above captured p75",
+    position: "operator-approved live catalog price",
     shortDescription:
       "Copper-complexed Gly-His-Lys tripeptide supplied as a lyophilized research vial. Studied in cell-culture and tissue-model work on fibroblast activity, extracellular-matrix signaling, and collagen metabolism.",
   },
@@ -189,17 +238,32 @@ export const products: Product[] = [
       "Combined-vial GH-axis research blend containing CJC-1295 No DAC and Ipamorelin at 5mg each. Reference material for dual-component identity, GHRH/GHSR pathway taxonomy, and analytical separation workflows.",
   },
   {
+    slug: "cjc-1295-ipamorelin-5mg",
+    sku: "CJC-1295-IPAMORELIN-5MG",
+    name: "CJC-1295 + Ipamorelin Blend, 5mg vial",
+    shortName: "CJC-1295 + Ipamorelin",
+    dose: "5mg",
+    format: "vial",
+    listPriceCents: 8000,
+    perMgCents: 1600,
+    category: "gh-axis",
+    role: "catalog-filler",
+    position: "operator-approved live catalog price",
+    shortDescription:
+      "Combined-vial GH-axis research blend containing CJC-1295 No DAC and Ipamorelin. Reference material for dual-component identity, GHRH/GHSR pathway taxonomy, and analytical separation workflows.",
+  },
+  {
     slug: "mots-c-10mg",
     sku: "MOTS-C-10MG",
     name: "MOTS-c, 10mg vial",
     shortName: "MOTS-c",
     dose: "10mg",
     format: "vial",
-    listPriceCents: 7900,
-    perMgCents: 790,
+    listPriceCents: 6500,
+    perMgCents: 650,
     category: "metabolic",
     role: "catalog-filler",
-    position: "premium-position override above prior market median",
+    position: "operator-approved live catalog price",
     shortDescription:
       "Mitochondrial-derived 16-amino-acid peptide encoded within the mitochondrial 12S rRNA region. Studied in cell-culture and animal-model research on mitochondrial signaling and metabolic-pathway models.",
   },
@@ -210,11 +274,11 @@ export const products: Product[] = [
     shortName: "NAD+",
     dose: "500mg",
     format: "vial",
-    listPriceCents: 7900,
-    perMgCents: 15.8,
+    listPriceCents: 7500,
+    perMgCents: 15,
     category: "metabolic",
     role: "catalog-filler",
-    position: "operator-requested price, slightly below captured NAD+ median",
+    position: "operator-approved live catalog price",
     shortDescription:
       "Nicotinamide adenine dinucleotide supplied as a lyophilized 500mg research vial. Coenzyme reference for redox, mitochondrial, sirtuin, and PARP-pathway laboratory models.",
   },
@@ -225,11 +289,11 @@ export const products: Product[] = [
     shortName: "Selank",
     dose: "10mg",
     format: "vial",
-    listPriceCents: 4800,
-    perMgCents: 480,
+    listPriceCents: 6500,
+    perMgCents: 650,
     category: "nootropic",
     role: "catalog-filler",
-    position: "just below median",
+    position: "operator-approved live catalog price",
     shortDescription:
       "Synthetic heptapeptide derived from tuftsin. Studied in cell-culture and animal-model research on immune-cell activation and neuroprotection.",
   },
@@ -415,11 +479,11 @@ export const products: Product[] = [
     shortName: "Semax",
     dose: "10mg",
     format: "vial",
-    listPriceCents: 4900,
-    perMgCents: 490,
+    listPriceCents: 6500,
+    perMgCents: 650,
     category: "nootropic",
     role: "catalog-filler",
-    position: "above market median, below 75th percentile",
+    position: "operator-approved live catalog price",
     shortDescription:
       "Synthetic heptapeptide derived from ACTH (4-10), supplied as a 10mg lyophilized research vial. Studied in Russian-published cell-culture and animal-model literature on neuropeptide signaling and neurotrophic-marker pathways.",
   },
@@ -609,6 +673,21 @@ export const products: Product[] = [
       "Synthetic tripeptide (Lys-Pro-Val) corresponding to alpha-MSH residues 11-13. Supplied as a lyophilized research vial for cytokine-expression and inflammatory-pathway signaling studies.",
   },
   {
+    slug: "kpv-500mcg",
+    sku: "KPV-500MCG",
+    name: "KPV, 500mcg vial",
+    shortName: "KPV",
+    dose: "500mcg",
+    format: "vial",
+    listPriceCents: 4800,
+    perMgCents: 9600,
+    category: "recovery",
+    role: "catalog-filler",
+    position: "operator-approved live catalog price",
+    shortDescription:
+      "Synthetic tripeptide (Lys-Pro-Val) supplied as a 500mcg lyophilized research vial. Reference material for peptide identity, purity review, and inflammatory-pathway assay contexts.",
+  },
+  {
     slug: "aod-9604-5mg",
     sku: "AOD-9604-5MG",
     name: "AOD-9604, 5mg vial",
@@ -623,6 +702,66 @@ export const products: Product[] = [
       "operator-requested 5mg price; above captured AOD-9604 median and below captured p75",
     shortDescription:
       "Synthetic growth-hormone-derived peptide fragment supplied as a 5mg lyophilized research vial. Reference material for lipid-metabolism pathway, peptide-identity, and analytical workflow contexts.",
+  },
+  {
+    slug: "klow-80mg",
+    sku: "KLOW-80MG",
+    name: "Klow, 80mg vial",
+    shortName: "Klow",
+    dose: "80mg",
+    format: "vial",
+    listPriceCents: 10000,
+    perMgCents: 125,
+    category: "metabolic",
+    role: "catalog-filler",
+    position: "operator-approved live catalog price",
+    shortDescription:
+      "Klow research material supplied as an 80mg lyophilized vial. Reference material for identity, purity, batch comparison, and analytical workflow contexts.",
+  },
+  {
+    slug: "reta-10mg",
+    sku: "RETA-10MG",
+    name: "Reta, 10mg vial",
+    shortName: "Reta",
+    dose: "10mg",
+    format: "vial",
+    listPriceCents: 9900,
+    perMgCents: 990,
+    category: "metabolic",
+    role: "catalog-filler",
+    position: "operator-approved live catalog price",
+    shortDescription:
+      "Reta research reference supplied as a 10mg lyophilized vial. Cataloged for peptide identity, purity review, batch comparison, and analytical workflow contexts.",
+  },
+  {
+    slug: "reta-20mg",
+    sku: "RETA-20MG",
+    name: "Reta, 20mg vial",
+    shortName: "Reta",
+    dose: "20mg",
+    format: "vial",
+    listPriceCents: 15000,
+    perMgCents: 750,
+    category: "metabolic",
+    role: "catalog-filler",
+    position: "operator-approved live catalog price",
+    shortDescription:
+      "Reta research reference supplied as a 20mg lyophilized vial. Cataloged for peptide identity, purity review, batch comparison, and analytical workflow contexts.",
+  },
+  {
+    slug: "tirz-25mg",
+    sku: "TIRZ-25MG",
+    name: "Tirz, 25mg vial",
+    shortName: "Tirz",
+    dose: "25mg",
+    format: "vial",
+    listPriceCents: 10000,
+    perMgCents: 400,
+    category: "metabolic",
+    role: "catalog-filler",
+    position: "operator-approved live catalog price",
+    shortDescription:
+      "Tirz research reference supplied as a 25mg lyophilized vial. Cataloged for peptide identity, purity review, batch comparison, and analytical workflow contexts.",
   },
   {
     slug: "checkout-verification-1usd",

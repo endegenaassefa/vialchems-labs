@@ -32,11 +32,21 @@ export function V2Cart() {
   const shippingCents = lines.length
     ? calculateCheckoutShippingCents(subtotalCents, lines)
     : 0;
+  const hasCustomRequestLines = lines.some((line) => {
+    const item = getCatalogItem(line.slug);
+    return !item?.purchasable;
+  });
   const freeShip = lines.length > 0 && shippingCents === 0;
   const totalCents = subtotalCents + (freeShip ? 0 : shippingCents);
 
   async function handleCheckout() {
     if (checkoutPending || lines.length === 0) return;
+    if (hasCustomRequestLines) {
+      setCheckoutError(
+        "Remove custom-request items before checkout, or request them from the product page.",
+      );
+      return;
+    }
     if (!isLiveCheckoutMethod(preferredPaymentMethod)) {
       setCheckoutError("That payment method is coming soon.");
       return;
@@ -143,7 +153,9 @@ export function V2Cart() {
                   style={{ display: "grid", gap: 12 }}
                 >
                   {lines.map((line) => {
-                    const item = getCatalogItem(line.slug) ?? catalogItems[0];
+                    const resolvedItem = getCatalogItem(line.slug);
+                    const item = resolvedItem ?? catalogItems[0];
+                    const lineUnavailable = !resolvedItem?.purchasable;
                     return (
                       <div
                         key={line.sku}
@@ -180,6 +192,18 @@ export function V2Cart() {
                           >
                             {line.sku}
                           </div>
+                          {lineUnavailable && (
+                            <div
+                              className="mono"
+                              style={{
+                                marginTop: 6,
+                                fontSize: 10,
+                                color: "var(--fg-muted)",
+                              }}
+                            >
+                              Custom request only
+                            </div>
+                          )}
                           <button
                             type="button"
                             className="btn btn-link"
@@ -269,6 +293,12 @@ export function V2Cart() {
                       value={preferredPaymentMethod}
                       onChange={setPreferredPaymentMethod}
                     />
+                    {hasCustomRequestLines && (
+                      <p className="v2-cart-error" role="alert">
+                        Custom-request items cannot use instant checkout. Remove
+                        them and submit the request from the product page.
+                      </p>
+                    )}
                     {checkoutError && (
                       <p className="v2-cart-error" role="alert">
                         {checkoutError}
@@ -278,7 +308,7 @@ export function V2Cart() {
                       type="button"
                       className="btn btn-accent btn-lg"
                       style={{ justifyContent: "center", width: "100%" }}
-                      disabled={checkoutPending}
+                      disabled={checkoutPending || hasCustomRequestLines}
                       onClick={handleCheckout}
                     >
                       {checkoutPending

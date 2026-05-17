@@ -9,11 +9,11 @@ import { MoleculeBg, ProductVisual, Reveal, Stat } from "./Visuals";
 
 const featured = [
   "bpc-157-10mg",
-  "tb-500-5mg",
+  "tb-500-10mg",
   "ghk-cu-50mg",
+  "cjc-1295-ipamorelin-5mg",
   "semax-10mg",
-  "selank-10mg",
-  "mots-c-10mg",
+  "nad-500mg",
 ]
   .map((slug) => catalogItems.find((item) => item.slug === slug))
   .filter((item): item is (typeof catalogItems)[number] => Boolean(item));
@@ -741,9 +741,12 @@ function ProductPreview() {
                 </div>
                 <div className="card-action">
                   <span style={{ color: "var(--ok)" }}>
-                    · {item.stock} IN STOCK
+                    ·{" "}
+                    {item.purchasable
+                      ? `${item.stock} IN STOCK`
+                      : "CUSTOM REQUEST"}
                   </span>
-                  <span>VIEW LOT →</span>
+                  <span>{item.purchasable ? "VIEW LOT →" : "REQUEST →"}</span>
                 </div>
               </Link>
             </Reveal>

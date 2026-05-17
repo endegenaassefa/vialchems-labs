@@ -32,8 +32,11 @@ import {
   bundles,
   formatPerMg,
   formatPrice,
+  getProductAvailability,
+  isPurchasableProduct,
   productCategories,
   products,
+  sortProductsByLaunchOrder,
   type Product,
   type ProductCategory,
 } from "@/lib/content/products";
@@ -53,22 +56,29 @@ export function ShopCatalog() {
     Set<ProductCategory>
   >(new Set());
   const [sortKey, setSortKey] = useState<SortKey>("newest");
+  const catalogProducts = useMemo(
+    () =>
+      products
+        .filter((product) => getProductAvailability(product) !== "test-only")
+        .sort(sortProductsByLaunchOrder),
+    [],
+  );
 
   const fuse = useMemo(
     () =>
-      new Fuse(products, {
+      new Fuse(catalogProducts, {
         keys: ["name", "sku", "category", "shortName"],
         threshold: 0.4,
         ignoreLocation: true,
       }),
-    [],
+    [catalogProducts],
   );
 
   const visible = useMemo<Product[]>(() => {
     let list: Product[] =
       query.trim().length > 0
         ? fuse.search(query).map((r) => r.item)
-        : [...products];
+        : [...catalogProducts];
 
     if (activeCategories.size > 0) {
       list = list.filter((p) => activeCategories.has(p.category));
@@ -91,12 +101,13 @@ export function ShopCatalog() {
         break;
     }
     return list;
-  }, [query, activeCategories, sortKey, fuse]);
+  }, [query, activeCategories, sortKey, fuse, catalogProducts]);
 
   // ISSUE-008 fix: hide the Recovery Stack bundle when an active query / filter
   // doesn't match its name OR any of its constituent SKUs. Without this the
   // empty-results state still rendered the bundle on top.
   const visibleBundles = useMemo(() => {
+    if (!query.trim() && activeCategories.size === 0) return [];
     const filtersActive = query.trim().length > 0 || activeCategories.size > 0;
     if (!filtersActive) return bundles;
     const visibleSkus = new Set(visible.map((p) => p.sku));
@@ -240,7 +251,7 @@ export function ShopCatalog() {
         {/* v4: "In stock only" placebo toggle removed. Counter retained. */}
         <div className="mb-6 flex items-center gap-3">
           <span className="font-mono text-[11px] uppercase tracking-[0.12em] text-[var(--text-subtle)]">
-            {visible.length} / {products.length} shown
+            {visible.length} / {catalogProducts.length} shown
           </span>
         </div>
 
@@ -280,6 +291,7 @@ export function ShopCatalog() {
 
 function ProductTile({ product }: { product: Product }) {
   const addLine = useCartStore((s) => s.addLine);
+  const purchasable = isPurchasableProduct(product);
   const categoryLabel =
     productCategories.find((c) => c.id === product.category)?.label ??
     product.category;
@@ -332,22 +344,33 @@ function ProductTile({ product }: { product: Product }) {
 
       <div className="mt-4 flex items-center justify-between gap-3 border-t border-[var(--border)] px-4 py-4">
         <span className="font-mono text-[10px] uppercase tracking-[0.12em] text-[var(--accent)]">
-          In stock
+          {purchasable ? "In stock" : "Custom request"}
         </span>
-        <Button
-          variant="primary"
-          size="sm"
-          onClick={() =>
-            addLine({
-              sku: product.sku,
-              slug: product.slug,
-              name: product.name,
-              unitPriceCents: product.listPriceCents,
-            })
-          }
-        >
-          Add to cart
-        </Button>
+        {purchasable ? (
+          <Button
+            variant="primary"
+            size="sm"
+            onClick={() =>
+              addLine({
+                sku: product.sku,
+                slug: product.slug,
+                name: product.name,
+                unitPriceCents: product.listPriceCents,
+              })
+            }
+          >
+            Add to cart
+          </Button>
+        ) : (
+          <Link
+            href={`/contact?topic=custom-order&sku=${encodeURIComponent(
+              product.sku,
+            )}&product=${encodeURIComponent(product.shortName)}`}
+            className={buttonClassNames("outline", "sm")}
+          >
+            Request
+          </Link>
+        )}
       </div>
     </Card>
   );

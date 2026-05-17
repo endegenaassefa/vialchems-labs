@@ -75,7 +75,7 @@ export function V2Catalog() {
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [families, setFamilies] = useState<Record<string, boolean>>({});
   const [showRestricted, setShowRestricted] = useState(true);
-  const [inStock, setInStock] = useState(false);
+  const [showCustomRequests, setShowCustomRequests] = useState(false);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [view, setView] = useState<"grid" | "list">("grid");
   const [sort, setSort] = useState("Newest");
@@ -188,7 +188,13 @@ export function V2Catalog() {
       const anyFamily = Object.values(families).some(Boolean);
       if (anyFamily && !families[item.family]) return false;
       if (!showRestricted && item.restricted) return false;
-      if (inStock && item.stock === 0) return false;
+      if (
+        !showCustomRequests &&
+        !activeQuery &&
+        item.availability === "request-only"
+      ) {
+        return false;
+      }
       return true;
     });
 
@@ -198,7 +204,14 @@ export function V2Catalog() {
       if (sort === "Mass") return a.dose.localeCompare(b.dose);
       return 0;
     });
-  }, [families, inStock, searched, showRestricted, sort]);
+  }, [
+    activeQuery,
+    families,
+    searched,
+    showCustomRequests,
+    showRestricted,
+    sort,
+  ]);
 
   return (
     <>
@@ -223,8 +236,8 @@ export function V2Catalog() {
                   Research materials
                 </h1>
                 <p style={{ fontSize: 14, color: "var(--fg-muted)" }}>
-                  {filtered.length} of {catalogItems.length} products · all
-                  research use only · batch-traceable
+                  {filtered.length} of {catalogItems.length} catalog records ·
+                  live products first · request-only on demand
                 </p>
                 <div className="trust-strip" aria-label="Catalog assurances">
                   <span className="trust-chip">
@@ -393,10 +406,14 @@ export function V2Catalog() {
                 count={catalogItems.filter((item) => item.restricted).length}
               />
               <Check
-                checked={inStock}
-                onChange={() => setInStock(!inStock)}
-                label="In stock only"
-                count={catalogItems.filter((item) => item.stock > 0).length}
+                checked={showCustomRequests}
+                onChange={() => setShowCustomRequests(!showCustomRequests)}
+                label="Show custom requests"
+                count={
+                  catalogItems.filter(
+                    (item) => item.availability === "request-only",
+                  ).length
+                }
               />
             </Filter>
             <Filter title="Mass">
@@ -481,7 +498,7 @@ export function V2Catalog() {
                   <div>Material</div>
                   <div>Documentation · Range</div>
                   <div>Mass</div>
-                  <div>Stock</div>
+                  <div>Status</div>
                   <div>Price</div>
                   <div />
                 </div>
@@ -537,10 +554,12 @@ export function V2Catalog() {
                       className="mono"
                       style={{
                         fontSize: 11,
-                        color: item.stock > 0 ? "var(--ok)" : "var(--fg-muted)",
+                        color: item.purchasable
+                          ? "var(--ok)"
+                          : "var(--fg-muted)",
                       }}
                     >
-                      {item.stock > 0 ? `${item.stock} units` : "Backorder"}
+                      {item.purchasable ? `${item.stock} units` : "Request"}
                     </div>
                     <div
                       className="mono"
@@ -618,11 +637,11 @@ function ProductCard({ item }: { item: (typeof catalogItems)[number] }) {
       </div>
       <div className="card-action">
         <span
-          style={{ color: item.stock > 0 ? "var(--ok)" : "var(--fg-muted)" }}
+          style={{ color: item.purchasable ? "var(--ok)" : "var(--fg-muted)" }}
         >
-          · {item.stock > 0 ? `${item.stock} IN STOCK` : "BACKORDER"}
+          · {item.purchasable ? `${item.stock} IN STOCK` : "CUSTOM REQUEST"}
         </span>
-        <span>VIEW LOT →</span>
+        <span>{item.purchasable ? "VIEW LOT →" : "REQUEST →"}</span>
       </div>
     </Link>
   );

@@ -10,7 +10,7 @@
  * message rather than navigating away. No user-facing PII is logged client-side.
  */
 import Link from "next/link";
-import { useState, type FormEvent } from "react";
+import { useEffect, useRef, useState, type FormEvent } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { FieldLabel } from "@/components/ui/FieldLabel";
@@ -24,6 +24,25 @@ type Status = "idle" | "submitting" | "ok" | "error";
 export default function ContactPage() {
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const messageRef = useRef<HTMLTextAreaElement>(null);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("topic") !== "custom-order") return;
+    const customSku = params.get("sku");
+    const customProduct = params.get("product");
+    if (!messageRef.current || messageRef.current.value) return;
+    messageRef.current.value = [
+      "Custom order request",
+      customProduct ? `Product: ${customProduct}` : null,
+      customSku ? `SKU: ${customSku}` : null,
+      "",
+      "Laboratory context:",
+      "Quantity requested:",
+    ]
+      .filter(Boolean)
+      .join("\n");
+  }, []);
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -155,6 +174,7 @@ export default function ContactPage() {
                 <div className="mt-2">
                   <textarea
                     id="contact-message"
+                    ref={messageRef}
                     name="message"
                     required
                     rows={6}

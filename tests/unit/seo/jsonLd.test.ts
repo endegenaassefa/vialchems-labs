@@ -25,7 +25,7 @@ describe("productJsonLd", () => {
         name: "BPC-157, 10mg vial",
         shortName: "BPC-157",
         sku: "BPC-157-10MG",
-        priceCents: 5400,
+        priceCents: 4200,
         dose: "10mg",
         format: "vial",
         inStock: true,
@@ -39,7 +39,8 @@ describe("productJsonLd", () => {
     expect(out.sku).toBe("BPC-157-10MG");
     expect(out.brand?.["@type"]).toBe("Brand");
     expect(out.offers?.["@type"]).toBe("Offer");
-    expect(out.offers?.price).toBe("54.00");
+    expect(out.brand?.name).toBe("vialchem.labs");
+    expect(out.offers?.price).toBe("42.00");
     expect(out.offers?.priceCurrency).toBe("USD");
     expect(out.offers?.availability).toBe("https://schema.org/InStock");
     expect(out.offers?.url).toBe(`${BASE}/products/bpc-157-10mg`);
@@ -92,7 +93,7 @@ describe("articleJsonLd", () => {
         summary:
           "How HPLC purity, USP <71> sterility, and LAL endotoxin tests work.",
         publishedAt: "2026-04-12",
-        author: "vialchemlabs Research",
+        author: "vialchem.labs Research",
       },
       BASE,
     );
@@ -100,7 +101,7 @@ describe("articleJsonLd", () => {
     expect(out.headline).toBe("Reading a Certificate of Analysis");
     expect(out.datePublished).toBe("2026-04-12");
     expect(out.author?.["@type"]).toBe("Organization");
-    expect(out.author?.name).toBe("vialchemlabs Research");
+    expect(out.author?.name).toBe("vialchem.labs Research");
     expect(out.mainEntityOfPage).toBe(`${BASE}/blog/reading-a-coa`);
   });
 });
@@ -127,12 +128,12 @@ describe("faqPageJsonLd", () => {
 describe("organizationJsonLd", () => {
   it("emits Organization with name + url + logo when supplied", () => {
     const out = organizationJsonLd({
-      name: "vialchemlabs",
+      name: "vialchem.labs",
       url: BASE,
       logo: `${BASE}/icon.svg`,
     });
     expect(out["@type"]).toBe("Organization");
-    expect(out.name).toBe("vialchemlabs");
+    expect(out.name).toBe("vialchem.labs");
     expect(out.url).toBe(BASE);
     expect(out.logo).toBe(`${BASE}/icon.svg`);
   });

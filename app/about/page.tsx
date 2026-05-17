@@ -1,7 +1,7 @@
 /**
  * About page — verbatim from SUPER_PROMPT_v3 Appendix N.
  *
- * Brand placeholders substituted: vialchemlabs / Janoshik Analytical.
+ * Brand placeholders substituted: vialchem.labs / independent third-party lab.
  * In SKIP_PATHS for grep-forbidden-words.sh because the verbatim Appendix N
  * compliance section uses FDA-mandated negation phrasing
  * ("not intended to diagnose, treat, cure, or prevent any disease").
@@ -49,7 +49,7 @@ const PROCESS_STEPS = [
 export const metadata: Metadata = {
   title: "About",
   description:
-    "vialchemlabs supplies research peptides independently verified per batch. We compete on one axis: measurable accuracy.",
+    "vialchem.labs supplies research peptides independently verified per batch. We compete on one axis: measurable accuracy.",
 };
 
 export default function AboutPage() {
@@ -77,7 +77,7 @@ export default function AboutPage() {
                 heritage. We compete on one axis: measurable accuracy.
               </p>
               <p>
-                vialchemlabs runs an independent third-party testing program —{" "}
+                vialchem.labs runs an independent third-party testing program —{" "}
                 <span className="text-[var(--text)]">
                   independent lab work, published Certificates of Analysis,
                   traceable batch numbers
@@ -127,19 +127,18 @@ export default function AboutPage() {
               <p>
                 We started {siteConfig.name} because we believed there was room
                 for a different positioning: small catalog, deep transparency,
-                third-party-verified accuracy. Our seven opening SKUs are the
-                canonical research peptides for structural models (BPC-157,
-                TB-500), endocrine models (Ipamorelin, CJC-1295 no DAC), copper
-                systems (GHK-Cu), mitochondrial systems (MOTS-c), and
-                neuropeptide systems (Selank). Each is tested by{" "}
+                third-party-verified accuracy. The live catalog is focused on
+                operator-approved research records across structural, endocrine,
+                copper, mitochondrial, neuropeptide, and analytical reference
+                systems. Each live item is tested by{" "}
                 {siteConfig.labPartner.name} per batch. Each batch&apos;s COA is
                 published.
               </p>
               <p>
-                We do not sell tirzepatide. We do not sell semaglutide or
-                retatrutide. We do not sell bacteriostatic water. Our
-                positioning is not &quot;everything you can buy&quot; — it is
-                &quot;everything you can verify.&quot;
+                Non-live catalog records are handled as custom requests rather
+                than instant-checkout products. Our positioning is not
+                &quot;everything you can buy&quot; — it is &quot;everything you
+                can verify.&quot;
               </p>
             </div>
           </div>

@@ -13,9 +13,10 @@ describe("FAQ content", () => {
     }
   });
 
-  it("substitutes vialchemlabs for the brand placeholder", () => {
+  it("substitutes vialchem.labs for the brand placeholder", () => {
     const allCopy = faqEntries.map((e) => `${e.q} ${e.a}`).join(" ");
-    expect(allCopy).toContain("vialchemlabs");
+    expect(allCopy).toContain("vialchem.labs");
+    expect(allCopy).not.toContain("vialchemlabs ");
     expect(allCopy).not.toContain("{{BRAND_NAME}}");
     expect(allCopy).not.toContain("{{LAB_PARTNER}}");
     expect(allCopy).not.toContain("{{SITE_URL}}");

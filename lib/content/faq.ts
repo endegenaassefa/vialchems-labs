@@ -1,13 +1,8 @@
 /**
  * Verbatim FAQ — 20 Q+A from SUPER_PROMPT_v3 Appendix M.
  *
- * Brand placeholders substituted: vialchemlabs / Janoshik Analytical /
- * https://vialchemlabs.net / vialchemlabs.
- *
- * This file is in SKIP_PATHS for grep-forbidden-words.sh because Question 13
- * names tirzepatide / semaglutide / retatrutide in their EXCLUSION context
- * (i.e., "Why don't you sell ..."). That is verbatim FDA-defensive answer
- * copy and is allowed.
+ * Brand placeholders substituted: vialchem.labs / independent third-party lab /
+ * https://vialchemlabs.net / vialchem.labs.
  */
 
 export interface FaqEntry {
@@ -17,12 +12,12 @@ export interface FaqEntry {
 
 export const faqEntries: FaqEntry[] = [
   {
-    q: "What does vialchemlabs sell?",
+    q: "What does vialchem.labs sell?",
     a: "Lyophilized research peptides for in-vitro and animal-model research. All products are sold for research purposes only and are not for human consumption.",
   },
   {
     q: "Do you ship to my address?",
-    a: "vialchemlabs ships within the United States only at this time. International shipping is not available, and buyers remain responsible for jurisdiction-specific compliance.",
+    a: "vialchem.labs ships within the United States only at this time. International shipping is not available, and buyers remain responsible for jurisdiction-specific compliance.",
   },
   {
     q: 'What is "research use only"?',
@@ -30,7 +25,7 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "Why do you require buyer qualification?",
-    a: "vialchemlabs sells research peptides to qualified researchers and analytical professionals. Qualification ensures that products are received by individuals operating under appropriate research, laboratory, or compliance frameworks.",
+    a: "vialchem.labs sells research peptides to qualified researchers and analytical professionals. Qualification ensures that products are received by individuals operating under appropriate research, laboratory, or compliance frameworks.",
   },
   {
     q: "Are your products tested?",
@@ -38,7 +33,7 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "What is a Certificate of Analysis?",
-    a: "A COA is a primary-source document confirming the identity, purity, sterility, and endotoxin level of a specific product batch. vialchemlabs publishes Certificates of Analysis on a public library so the data is on file. See our research index for a guide on reading a COA.",
+    a: "A COA is a primary-source document confirming the identity, purity, sterility, and endotoxin level of a specific product batch. vialchem.labs publishes Certificates of Analysis on a public library so the data is on file. See our research index for a guide on reading a COA.",
   },
   {
     q: "What payment methods do you accept?",
@@ -46,7 +41,7 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "Why don't you accept credit cards?",
-    a: "Major credit-card networks (Visa, Mastercard, AMEX, Discover) and processors do not currently support research-peptide categories. vialchemlabs routes payments through self-hosted infrastructure to maintain operational continuity.",
+    a: "Major credit-card networks (Visa, Mastercard, AMEX, Discover) and processors do not currently support research-peptide categories. vialchem.labs routes payments through self-hosted infrastructure to maintain operational continuity.",
   },
   {
     q: "How long does shipping take?",
@@ -54,7 +49,7 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "What happens if my package is lost?",
-    a: "Contact vialchemlabs support with your order ID. We will work with USPS or FedEx to investigate. Replacement is provided at our discretion based on evidence (tracking, delivery confirmation, photo if applicable).",
+    a: "Contact vialchem.labs support with your order ID. We will work with USPS or FedEx to investigate. Replacement is provided at our discretion based on evidence (tracking, delivery confirmation, photo if applicable).",
   },
   {
     q: "What is your refund policy?",
@@ -62,19 +57,19 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "Why is the catalog smaller than competitors?",
-    a: "vialchemlabs launches with a focused 7-SKU catalog to maintain compliance simplicity, COA pipeline integrity, and operational reliability. The 7 openers cover structural models (BPC-157, TB-500), endocrine models (Ipamorelin, CJC-1295 no DAC), copper systems (GHK-Cu), mitochondrial systems (MOTS-c), and neuropeptide systems (Selank). Catalog expansion follows community demand and regulatory clarity.",
+    a: "vialchem.labs keeps a focused live catalog to maintain compliance simplicity, COA pipeline integrity, and operational reliability. Current live records include BPC-157 10mg, TB-500 10mg, GHK-Cu 50mg, CJC-1295 + Ipamorelin 5mg, Klow 80mg, KPV 500mcg, MOTS-c 10mg, Semax 10mg, Selank 10mg, Reta 10mg and 20mg, Tirz 25mg, and NAD+ 500mg. Non-live materials are handled by custom request.",
   },
   {
-    q: "Why don't you sell semaglutide, tirzepatide, or retatrutide?",
-    a: "These compounds are subject to active FDA enforcement and (for tirzepatide) an ITC General Exclusion Order at the US border. vialchemlabs excludes them for compliance reasons.",
+    q: "Can I request a material that is not in stock?",
+    a: "Yes. Materials outside the live catalog are not instant-checkout items. Use the custom-request path on the product page or contact support with the SKU and intended laboratory context.",
   },
   {
     q: "Why don't you sell bacteriostatic water?",
-    a: "Recent FDA enforcement has classified bacteriostatic water sold alongside peptides as drug intent. vialchemlabs sells peptides only. Buyers source bacteriostatic water separately.",
+    a: "Recent FDA enforcement has classified bacteriostatic water sold alongside peptides as drug intent. vialchem.labs sells peptides only. Buyers source bacteriostatic water separately.",
   },
   {
     q: "Do you offer dosing recommendations?",
-    a: "No. vialchemlabs does not provide dosing recommendations or research protocols. Dosing for laboratory experimental design is at the discretion of the qualified researcher per their study protocol.",
+    a: "No. vialchem.labs does not provide dosing recommendations or research protocols. Dosing for laboratory experimental design is at the discretion of the qualified researcher per their study protocol.",
   },
   {
     q: "Can I store products at room temperature?",
@@ -86,7 +81,7 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "What is the affiliate program?",
-    a: "Researchers and content creators in adjacent fields can apply to the vialchemlabs affiliate program. Commissions: 5% min / 10% median / 15% max with a 90-day cookie. Apply at https://vialchemlabs.net/affiliate.",
+    a: "Researchers and content creators in adjacent fields can apply to the vialchem.labs affiliate program. Commissions: 5% min / 10% median / 15% max with a 90-day cookie. Apply at https://vialchemlabs.net/affiliate.",
   },
   {
     q: "How do I unsubscribe from emails?",

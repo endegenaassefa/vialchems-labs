@@ -92,7 +92,7 @@ export function productJsonLd(p: ProductInput, baseUrl: string): ProductJsonLd {
     name: p.name,
     description: p.shortDescription,
     sku: p.sku,
-    brand: { "@type": "Brand", name: "vialchemlabs" },
+    brand: { "@type": "Brand", name: "vialchem.labs" },
     ...(p.category ? { category: p.category } : {}),
     offers: {
       "@type": "Offer",
@@ -139,7 +139,7 @@ export function articleJsonLd(a: ArticleInput, baseUrl: string): ArticleJsonLd {
     datePublished: a.publishedAt,
     author: {
       "@type": "Organization",
-      name: a.author ?? "vialchemlabs",
+      name: a.author ?? "vialchem.labs",
     },
     mainEntityOfPage: `${baseUrl}/blog/${a.slug}`,
   };

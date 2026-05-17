@@ -1,5 +1,9 @@
 import { siteConfig } from "@/lib/content/site";
-import { getBundleBySlug, getProductBySlug } from "@/lib/content/products";
+import {
+  getBundleBySlug,
+  getProductBySlug,
+  isPurchasableProduct,
+} from "@/lib/content/products";
 
 export const CHECKOUT_VERIFICATION_SKU = "CHECKOUT-VERIFY-1USD";
 
@@ -34,6 +38,20 @@ export function resolveCheckoutCartLines(
       return {
         ok: false,
         message: `Unknown or mismatched catalog line: ${line.sku}`,
+      };
+    }
+
+    if (product && !isPurchasableProduct(product)) {
+      return {
+        ok: false,
+        message: `${product.name} is available by custom request only.`,
+      };
+    }
+
+    if (bundle) {
+      return {
+        ok: false,
+        message: `${bundle.name} is available by custom request only.`,
       };
     }
 

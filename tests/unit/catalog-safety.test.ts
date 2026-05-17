@@ -8,9 +8,23 @@
  */
 import { describe, expect, it } from "vitest";
 import { assertMarketingCopySafe } from "@/lib/compliance";
-import { bundles, getProductBySlug, products } from "@/lib/content/products";
+import {
+  bundles,
+  getProductAvailability,
+  getProductBySlug,
+  isPurchasableProduct,
+  products,
+  publicLaunchProductSlugs,
+} from "@/lib/content/products";
+import { siteConfig } from "@/lib/content/site";
 
 describe("catalog content compliance", () => {
+  it("uses the public brand that matches the visible domain styling", () => {
+    expect(siteConfig.name).toBe("vialchem.labs");
+    expect(siteConfig.llcName).toBe("VialChem Labs LLC");
+    expect(siteConfig.domain).toBe("vialchemlabs.net");
+  });
+
   it.each(products.map((p) => [p.slug, p]))(
     "product %s shortDescription is safe",
     (_slug, product) => {
@@ -39,5 +53,42 @@ describe("catalog content compliance", () => {
       sku: "CHECKOUT-VERIFY-1USD",
       listPriceCents: 100,
     });
+    expect(
+      getProductAvailability(getProductBySlug("checkout-verification-1usd")!),
+    ).toBe("test-only");
+  });
+
+  it("matches the operator-approved live launch catalog and prices", () => {
+    const expected = [
+      ["bpc-157-10mg", "BPC-157-10MG", 4200],
+      ["tb-500-10mg", "TB-500-10MG", 4800],
+      ["ghk-cu-50mg", "GHK-CU-50MG", 5000],
+      ["cjc-1295-ipamorelin-5mg", "CJC-1295-IPAMORELIN-5MG", 8000],
+      ["klow-80mg", "KLOW-80MG", 10000],
+      ["kpv-500mcg", "KPV-500MCG", 4800],
+      ["mots-c-10mg", "MOTS-C-10MG", 6500],
+      ["semax-10mg", "SEMAX-10MG", 6500],
+      ["selank-10mg", "SELANK-10MG", 6500],
+      ["reta-10mg", "RETA-10MG", 9900],
+      ["reta-20mg", "RETA-20MG", 15000],
+      ["tirz-25mg", "TIRZ-25MG", 10000],
+      ["nad-500mg", "NAD-500MG", 7500],
+    ] as const;
+
+    expect(publicLaunchProductSlugs).toEqual(expected.map(([slug]) => slug));
+
+    for (const [slug, sku, listPriceCents] of expected) {
+      const product = getProductBySlug(slug);
+      expect(product, slug).toMatchObject({ sku, listPriceCents });
+      expect(getProductAvailability(product!)).toBe("in-stock");
+      expect(isPurchasableProduct(product!)).toBe(true);
+    }
+  });
+
+  it("treats non-launch products as custom request only", () => {
+    const oldProduct = getProductBySlug("tb-500-5mg");
+    expect(oldProduct).toBeDefined();
+    expect(getProductAvailability(oldProduct!)).toBe("request-only");
+    expect(isPurchasableProduct(oldProduct!)).toBe(false);
   });
 });

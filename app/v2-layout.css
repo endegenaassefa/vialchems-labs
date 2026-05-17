@@ -1103,6 +1103,7 @@ footer {
   .v2-nav-menu {
     display: grid;
   }
+  .v2-theme-switch,
   .v2-nav-account,
   .v2-nav-cta {
     display: none;

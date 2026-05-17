@@ -21,7 +21,7 @@ describe("ComparativeTable", () => {
     expect(screen.getByText("Test caption")).toBeInTheDocument();
   });
 
-  it("renders all rows with both industry and vialchemlabs values", () => {
+  it("renders all rows with both industry and brand values", () => {
     render(<ComparativeTable rows={rows} />);
     expect(screen.getByText("COA coverage")).toBeInTheDocument();
     expect(screen.getByText("11% of vendors")).toBeInTheDocument();
@@ -33,7 +33,7 @@ describe("ComparativeTable", () => {
   it("renders default column headers", () => {
     render(<ComparativeTable rows={rows} />);
     expect(screen.getByText("Industry typical")).toBeInTheDocument();
-    expect(screen.getByText("vialchemlabs")).toBeInTheDocument();
+    expect(screen.getByText("vialchem.labs")).toBeInTheDocument();
   });
 
   it("renders custom column headers when provided", () => {

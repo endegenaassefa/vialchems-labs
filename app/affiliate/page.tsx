@@ -164,9 +164,9 @@ export default function AffiliatePage() {
               <p className="text-[14px] text-[var(--text)] leading-[1.6]">
                 Affiliates and sample recipients must disclose the relationship
                 clearly and conspicuously in any post, video, or page that
-                includes a vialchemlabs link, per the FTC Endorsement Guides (16
-                CFR Part 255). Affiliates may not make outcome, performance, or
-                clinical-application claims about any product. Linking to
+                includes a vialchem.labs link, per the FTC Endorsement Guides
+                (16 CFR Part 255). Affiliates may not make outcome, performance,
+                or clinical-application claims about any product. Linking to
                 product or COA pages is permitted; producing standalone
                 editorial that describes a product is permitted only when
                 consistent with the research-use-only framing of the source

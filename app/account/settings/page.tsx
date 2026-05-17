@@ -108,7 +108,7 @@ export default function SettingsPage() {
                 </Link>
               </div>
               <p className="mt-3 text-[12px] text-[var(--text-subtle)]">
-                Account deletion is processed by vialchemlabs support within 1
+                Account deletion is processed by vialchem.labs support within 1
                 business day of the request.
               </p>
             </Card>

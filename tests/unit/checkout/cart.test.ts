@@ -24,4 +24,19 @@ describe("checkout cart totals", () => {
       totalCents: 100,
     });
   });
+
+  it("rejects custom-request catalog items at checkout", () => {
+    const resolved = resolveCheckoutCartLines([
+      {
+        sku: "TB-500-5MG",
+        slug: "tb-500-5mg",
+        qty: 1,
+      },
+    ]);
+
+    expect(resolved).toEqual({
+      ok: false,
+      message: "TB-500, 5mg vial is available by custom request only.",
+    });
+  });
 });
