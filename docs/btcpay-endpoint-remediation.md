@@ -84,6 +84,47 @@ the production server and customer browsers. This can be a self-hosted BTCPay
 deployment on a public VPS with a domain such as `pay.vialchemlabs.net`, or
 another managed provider whose endpoint passes the acceptance checks below.
 
+This is the recommended fix for the current Voltage issue. Voltage-hosted
+BTCPay is currently unusable for launch because the checkout host requires a VPN
+from some client networks and resets TLS from this server. A proxy or browser
+VPN does not solve the server-side invoice creation requirement, and a domain
+redirect does not change the BTCPay API/checkout host.
+
+Implementation status:
+
+```text
+Recommended production host: pay.vialchemlabs.net
+Detected server public IP: 130.85.186.51
+Current DNS status: pay.vialchemlabs.net and btcpay.vialchemlabs.net do not resolve yet
+Repo bootstrap: scripts/btcpay-setup.sh
+Endpoint diagnostics: npm run diagnose:btcpay
+API verification: npm run verify:btcpay
+```
+
+DNS required before bootstrap:
+
+```text
+Type: A
+Name: pay
+Value: 130.85.186.51
+TTL: 300
+```
+
+Then run the self-host bootstrap on the target server:
+
+```bash
+cd /root/vialchems-labs
+BTCPAY_HOST=pay.vialchemlabs.net \
+LETSENCRYPT_EMAIL=abhinav@vialchemlabs.net \
+scripts/btcpay-setup.sh
+```
+
+The script now refuses to run when DNS is missing or points somewhere else, and
+it refuses to start if ports 80 or 443 are already occupied. It installs BTC
+only by default, leaves Lightning disabled unless explicitly requested, and sets
+`BTCPAY_UPDATE_CLEAN=false` so the official BTCPay update path does not remove
+unrelated Docker images on this host.
+
 Required environment update:
 
 ```bash
@@ -98,6 +139,7 @@ Acceptance:
 
 ```bash
 curl -Iv "$BTCPAY_SERVER_URL/"
+npm run diagnose:btcpay
 npm run verify:btcpay
 npm test -- tests/unit/payments/btcpay.test.ts tests/unit/payments/btcpay-create-intent.test.ts tests/unit/payments/webhook-routes.test.ts tests/unit/checkout/direct-payment.test.ts tests/unit/checkout/payment-routing.test.ts
 ```

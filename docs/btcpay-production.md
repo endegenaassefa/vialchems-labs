@@ -46,6 +46,7 @@ Store the webhook secret as `BTCPAY_WEBHOOK_SECRET`.
 After adding the four environment variables:
 
 ```bash
+npm run diagnose:btcpay
 npm run verify:btcpay
 npm test -- --run tests/unit/payments/btcpay.test.ts tests/unit/payments/btcpay-create-intent.test.ts tests/unit/payments/webhook-routes.test.ts
 npm run typecheck
@@ -64,7 +65,8 @@ browsers. This is a hard launch gate because the Next.js server creates the
 invoice before the buyer can receive the BTCPay `checkoutLink`.
 
 Current remediation notes for the Voltage endpoint live in
-`docs/btcpay-endpoint-remediation.md`.
+`docs/btcpay-endpoint-remediation.md`. The self-hosted replacement runbook
+lives in `docs/deploy/btcpay-self-host.md`.
 
 ## Official References
 

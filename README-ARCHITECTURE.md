@@ -7,7 +7,10 @@ This repository now contains the Next.js main-site implementation, WordPress/Woo
 - `https://vialchemlabs.net`: Next.js brand, catalog, age gate, cart, Bitcoin checkout, Zelle checkout, payment-method messaging, and WooCommerce order handoff for non-direct methods.
 - `https://shop.vialchemlabs.net`: WordPress + WooCommerce checkout engine for Link Money, cards, Apple Pay, Google Pay, and PayPal only. Public catalog and marketing routes are redirected back to the main site by the child theme.
 
-Bitcoin production setup details live in `docs/btcpay-production.md`.
+Bitcoin production setup details live in `docs/btcpay-production.md`. The
+blocked Voltage endpoint remediation and self-hosted replacement runbooks live
+in `docs/btcpay-endpoint-remediation.md` and
+`docs/deploy/btcpay-self-host.md`.
 
 ## Evidence From This Codebase
 
