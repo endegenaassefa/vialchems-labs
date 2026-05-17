@@ -78,7 +78,7 @@ export function VialShowcase({
           bob={mode === "bob"}
           interactive={interactive}
           aria-label={
-            withLabel ? `vialchem.labs ${compound} ${dose} vial` : undefined
+            withLabel ? `vialchemlabs.net ${compound} ${dose} vial` : undefined
           }
         />
       </div>

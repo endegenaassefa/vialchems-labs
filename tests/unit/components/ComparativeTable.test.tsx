@@ -33,7 +33,7 @@ describe("ComparativeTable", () => {
   it("renders default column headers", () => {
     render(<ComparativeTable rows={rows} />);
     expect(screen.getByText("Industry typical")).toBeInTheDocument();
-    expect(screen.getByText("vialchem.labs")).toBeInTheDocument();
+    expect(screen.getByText("vialchemlabs.net")).toBeInTheDocument();
   });
 
   it("renders custom column headers when provided", () => {

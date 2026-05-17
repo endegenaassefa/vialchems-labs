@@ -9,7 +9,7 @@ import { siteConfig } from "@/lib/content/site";
 export const metadata: Metadata = {
   title: "Shipping Policy",
   description:
-    "vialchem.labs ships within the United States only. Carriers, lead times, free-shipping threshold, and buyer compliance responsibilities.",
+    "vialchemlabs.net ships within the United States only. Carriers, lead times, free-shipping threshold, and buyer compliance responsibilities.",
 };
 
 export default function ShippingPage() {

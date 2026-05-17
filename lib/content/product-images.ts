@@ -53,7 +53,7 @@ const productStudioImages = Object.fromEntries(
     slug,
     {
       src: `/product-shots/${slug}.png`,
-      alt: `vialchem.labs ${label} research vial`,
+      alt: `vialchemlabs.net ${label} research vial`,
     },
   ]),
 ) as Partial<Record<string, ProductStudioImage>>;

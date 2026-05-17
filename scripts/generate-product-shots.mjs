@@ -1,126 +1,143 @@
-import { mkdirSync } from 'node:fs';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
-import sharp from 'sharp';
+import { mkdirSync } from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import sharp from "sharp";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, '..');
+const ROOT = path.resolve(__dirname, "..");
 const SOURCE_DIR = path.resolve(
   ROOT,
-  '..',
-  '_merge_refs',
-  'vailchem-labs-website',
-  'assets',
-  'vailchem-products',
+  "..",
+  "_merge_refs",
+  "vialchemlabs-website",
+  "assets",
+  "vialchemlabs-products",
 );
-const OUTPUT_DIR = path.resolve(ROOT, 'public', 'product-shots');
-const BUNDLE_OUTPUT_DIR = path.resolve(ROOT, 'public', 'bundle-shots');
+const OUTPUT_DIR = path.resolve(ROOT, "public", "product-shots");
+const BUNDLE_OUTPUT_DIR = path.resolve(ROOT, "public", "bundle-shots");
 
 const sourceImages = {
-  bpc: 'vailchem_bpc-157_5-mg_suggested-59.png',
-  tb500: 'vailchem_tb-500_5-mg_suggested-69.png',
-  ghkcu: 'vailchem_ghk-cu_50-mg_suggested-89.png',
-  selank: 'vailchem_selank_10-mg_suggested-49.png',
-  semax: 'vailchem_semax_10-mg_suggested-49.png',
-  epitalon: 'vailchem_epitalon_10-mg_suggested-49.png',
-  motsc: 'vailchem_mots-c_10-mg_suggested-79.png',
-  kisspeptin: 'vailchem_kisspeptin-10_10-mg_suggested-109.png',
-  pt141: 'vailchem_pt-141_10-mg_suggested-59.png',
+  bpc: "vialchemlabs_bpc-157_5-mg_suggested-59.png",
+  tb500: "vialchemlabs_tb-500_5-mg_suggested-69.png",
+  ghkcu: "vialchemlabs_ghk-cu_50-mg_suggested-89.png",
+  selank: "vialchemlabs_selank_10-mg_suggested-49.png",
+  semax: "vialchemlabs_semax_10-mg_suggested-49.png",
+  epitalon: "vialchemlabs_epitalon_10-mg_suggested-49.png",
+  motsc: "vialchemlabs_mots-c_10-mg_suggested-79.png",
+  kisspeptin: "vialchemlabs_kisspeptin-10_10-mg_suggested-109.png",
+  pt141: "vialchemlabs_pt-141_10-mg_suggested-59.png",
 };
 
 const products = [
-  ['bpc-157-10mg', 'BPC-157', '10 MG', sourceImages.bpc],
-  ['tb-500-5mg', 'TB-500', '5 MG', sourceImages.tb500],
-  ['tb-500-10mg', 'TB-500', '10 MG', sourceImages.tb500],
-  ['ghk-cu-50mg', 'GHK-Cu', '50 MG', sourceImages.ghkcu],
-  ['ipamorelin-10mg', 'Ipamorelin', '10 MG', sourceImages.selank],
-  ['ipamorelin-5mg', 'Ipamorelin', '5 MG', sourceImages.selank],
-  ['cjc-1295-no-dac-5mg', 'CJC-1295', '5 MG', sourceImages.bpc, 'NO DAC'],
-  ['cjc-1295-dac-2mg', 'CJC-1295', '2 MG', sourceImages.bpc, 'DAC'],
-  ['cjc-1295-ipamorelin-10mg', 'CJC-1295', '10 MG', sourceImages.bpc, '+ IPAMORELIN'],
-  ['mots-c-10mg', 'MOTS-c', '10 MG', sourceImages.motsc],
-  ['nad-500mg', 'NAD+', '500 MG', sourceImages.motsc],
-  ['selank-10mg', 'Selank', '10 MG', sourceImages.selank],
-  ['sermorelin-2mg', 'Sermorelin', '2 MG', sourceImages.semax],
-  ['sermorelin-5mg', 'Sermorelin', '5 MG', sourceImages.semax],
-  ['sermorelin-ipamorelin-10mg', 'Sermorelin', '10 MG', sourceImages.semax, '+ IPAMORELIN'],
-  ['tesamorelin-5mg', 'Tesamorelin', '5 MG', sourceImages.selank],
-  ['igf-1-lr3-1mg', 'IGF-1 LR3', '1 MG', sourceImages.kisspeptin],
-  ['ghrp-2-5mg', 'GHRP-2', '5 MG', sourceImages.tb500],
-  ['ghrp-6-5mg', 'GHRP-6', '5 MG', sourceImages.tb500],
-  ['hexarelin-2mg', 'Hexarelin', '2 MG', sourceImages.pt141],
-  ['peg-mgf-2mg', 'PEG-MGF', '2 MG', sourceImages.kisspeptin],
-  ['igf-1-des-1mg', 'IGF-1 DES', '1 MG', sourceImages.kisspeptin],
-  ['semax-30mg', 'Semax', '30 MG', sourceImages.semax],
-  ['semax-10mg', 'Semax', '10 MG', sourceImages.semax],
-  ['pt-141-10mg', 'PT-141', '10 MG', sourceImages.pt141],
-  ['melanotan-ii-10mg', 'Melanotan II', '10 MG', sourceImages.pt141],
-  ['kisspeptin-10-10mg', 'Kisspeptin-10', '10 MG', sourceImages.kisspeptin],
-  ['epitalon-50mg', 'Epitalon', '50 MG', sourceImages.epitalon],
-  ['epitalon-10mg', 'Epitalon', '10 MG', sourceImages.epitalon],
-  ['thymosin-alpha-1-5mg', 'Thymosin alpha-1', '5 MG', sourceImages.kisspeptin],
-  ['thymosin-alpha-1-10mg', 'Thymosin alpha-1', '10 MG', sourceImages.kisspeptin],
-  ['ll-37-5mg', 'LL-37', '5 MG', sourceImages.pt141],
-  ['follistatin-344-1mg', 'Follistatin-344', '1 MG', sourceImages.kisspeptin],
-  ['dsip-5mg', 'DSIP', '5 MG', sourceImages.pt141],
-  ['kpv-5mg', 'KPV', '5 MG', sourceImages.ghkcu],
-  ['kpv-10mg', 'KPV', '10 MG', sourceImages.ghkcu],
-  ['aod-9604-5mg', 'AOD-9604', '5 MG', sourceImages.motsc],
+  ["bpc-157-10mg", "BPC-157", "10 MG", sourceImages.bpc],
+  ["tb-500-5mg", "TB-500", "5 MG", sourceImages.tb500],
+  ["tb-500-10mg", "TB-500", "10 MG", sourceImages.tb500],
+  ["ghk-cu-50mg", "GHK-Cu", "50 MG", sourceImages.ghkcu],
+  ["ipamorelin-10mg", "Ipamorelin", "10 MG", sourceImages.selank],
+  ["ipamorelin-5mg", "Ipamorelin", "5 MG", sourceImages.selank],
+  ["cjc-1295-no-dac-5mg", "CJC-1295", "5 MG", sourceImages.bpc, "NO DAC"],
+  ["cjc-1295-dac-2mg", "CJC-1295", "2 MG", sourceImages.bpc, "DAC"],
+  [
+    "cjc-1295-ipamorelin-10mg",
+    "CJC-1295",
+    "10 MG",
+    sourceImages.bpc,
+    "+ IPAMORELIN",
+  ],
+  ["mots-c-10mg", "MOTS-c", "10 MG", sourceImages.motsc],
+  ["nad-500mg", "NAD+", "500 MG", sourceImages.motsc],
+  ["selank-10mg", "Selank", "10 MG", sourceImages.selank],
+  ["sermorelin-2mg", "Sermorelin", "2 MG", sourceImages.semax],
+  ["sermorelin-5mg", "Sermorelin", "5 MG", sourceImages.semax],
+  [
+    "sermorelin-ipamorelin-10mg",
+    "Sermorelin",
+    "10 MG",
+    sourceImages.semax,
+    "+ IPAMORELIN",
+  ],
+  ["tesamorelin-5mg", "Tesamorelin", "5 MG", sourceImages.selank],
+  ["igf-1-lr3-1mg", "IGF-1 LR3", "1 MG", sourceImages.kisspeptin],
+  ["ghrp-2-5mg", "GHRP-2", "5 MG", sourceImages.tb500],
+  ["ghrp-6-5mg", "GHRP-6", "5 MG", sourceImages.tb500],
+  ["hexarelin-2mg", "Hexarelin", "2 MG", sourceImages.pt141],
+  ["peg-mgf-2mg", "PEG-MGF", "2 MG", sourceImages.kisspeptin],
+  ["igf-1-des-1mg", "IGF-1 DES", "1 MG", sourceImages.kisspeptin],
+  ["semax-30mg", "Semax", "30 MG", sourceImages.semax],
+  ["semax-10mg", "Semax", "10 MG", sourceImages.semax],
+  ["pt-141-10mg", "PT-141", "10 MG", sourceImages.pt141],
+  ["melanotan-ii-10mg", "Melanotan II", "10 MG", sourceImages.pt141],
+  ["kisspeptin-10-10mg", "Kisspeptin-10", "10 MG", sourceImages.kisspeptin],
+  ["epitalon-50mg", "Epitalon", "50 MG", sourceImages.epitalon],
+  ["epitalon-10mg", "Epitalon", "10 MG", sourceImages.epitalon],
+  ["thymosin-alpha-1-5mg", "Thymosin alpha-1", "5 MG", sourceImages.kisspeptin],
+  [
+    "thymosin-alpha-1-10mg",
+    "Thymosin alpha-1",
+    "10 MG",
+    sourceImages.kisspeptin,
+  ],
+  ["ll-37-5mg", "LL-37", "5 MG", sourceImages.pt141],
+  ["follistatin-344-1mg", "Follistatin-344", "1 MG", sourceImages.kisspeptin],
+  ["dsip-5mg", "DSIP", "5 MG", sourceImages.pt141],
+  ["kpv-5mg", "KPV", "5 MG", sourceImages.ghkcu],
+  ["kpv-10mg", "KPV", "10 MG", sourceImages.ghkcu],
+  ["aod-9604-5mg", "AOD-9604", "5 MG", sourceImages.motsc],
 ];
 
 const bundles = [
   {
-    slug: 'recovery-stack',
-    name: 'Recovery Stack',
-    price: '$129',
-    constituents: ['bpc-157-10mg', 'tb-500-10mg', 'kpv-10mg'],
-    components: ['BPC-157 10MG', 'TB-500 10MG', 'KPV 10MG'],
+    slug: "recovery-stack",
+    name: "Recovery Stack",
+    price: "$129",
+    constituents: ["bpc-157-10mg", "tb-500-10mg", "kpv-10mg"],
+    components: ["BPC-157 10MG", "TB-500 10MG", "KPV 10MG"],
     source: sourceImages.bpc,
   },
   {
-    slug: 'glow-stack',
-    name: 'Glow Stack',
-    price: '$169',
-    constituents: ['ghk-cu-50mg', 'tb-500-10mg', 'bpc-157-10mg'],
-    components: ['GHK-Cu 50MG', 'TB-500 10MG', 'BPC-157 10MG'],
+    slug: "glow-stack",
+    name: "Glow Stack",
+    price: "$169",
+    constituents: ["ghk-cu-50mg", "tb-500-10mg", "bpc-157-10mg"],
+    components: ["GHK-Cu 50MG", "TB-500 10MG", "BPC-157 10MG"],
     source: sourceImages.ghkcu,
   },
   {
-    slug: 'wolverine-stack',
-    name: 'Wolverine Stack',
-    price: '$99',
-    constituents: ['bpc-157-10mg', 'tb-500-10mg'],
-    components: ['BPC-157 10MG', 'TB-500 10MG'],
+    slug: "wolverine-stack",
+    name: "Wolverine Stack",
+    price: "$99",
+    constituents: ["bpc-157-10mg", "tb-500-10mg"],
+    components: ["BPC-157 10MG", "TB-500 10MG"],
     source: sourceImages.bpc,
   },
   {
-    slug: 'neuro-stack',
-    name: 'Neuro Stack',
-    price: '$69',
-    constituents: ['semax-10mg', 'selank-10mg'],
-    components: ['SEMAX 10MG', 'SELANK 10MG'],
+    slug: "neuro-stack",
+    name: "Neuro Stack",
+    price: "$69",
+    constituents: ["semax-10mg", "selank-10mg"],
+    components: ["SEMAX 10MG", "SELANK 10MG"],
     source: sourceImages.semax,
   },
   {
-    slug: 'longevity-stack',
-    name: 'Longevity Stack',
-    price: '$179',
-    constituents: ['mots-c-10mg', 'epitalon-10mg', 'nad-500mg'],
-    components: ['MOTS-c 10MG', 'EPITALON 10MG', 'NAD+ 500MG'],
+    slug: "longevity-stack",
+    name: "Longevity Stack",
+    price: "$179",
+    constituents: ["mots-c-10mg", "epitalon-10mg", "nad-500mg"],
+    components: ["MOTS-c 10MG", "EPITALON 10MG", "NAD+ 500MG"],
     source: sourceImages.motsc,
   },
 ];
 
 function escapeXml(value) {
   return value
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
 }
 
 function nameText(name, subline) {
-  const label = name.replace(' alpha-', ' \u03b1-');
+  const label = name.replace(" alpha-", " \u03b1-");
   const upper = label.toUpperCase();
 
   if (subline) {
@@ -131,30 +148,30 @@ function nameText(name, subline) {
   }
 
   if (upper.length > 13) {
-    const parts = upper.split(' ');
+    const parts = upper.split(" ");
     return `
       <text x="337.5" y="478" text-anchor="middle" class="compound split">${escapeXml(parts[0])}</text>
-      <text x="337.5" y="510" text-anchor="middle" class="compoundSub">${escapeXml(parts.slice(1).join(' '))}</text>
+      <text x="337.5" y="510" text-anchor="middle" class="compoundSub">${escapeXml(parts.slice(1).join(" "))}</text>
     `;
   }
 
   const klass =
     upper.length <= 4
-      ? 'compound short'
+      ? "compound short"
       : upper.length <= 7
-        ? 'compound'
+        ? "compound"
         : upper.length <= 10
-          ? 'compound medium'
-          : 'compound long';
+          ? "compound medium"
+          : "compound long";
 
   return `<text x="337.5" y="493" text-anchor="middle" class="${klass}">${escapeXml(upper)}</text>`;
 }
 
 function productOverlay({ name, dose, subline }) {
   const labelPath =
-    'M199 390 C228 378 447 378 476 390 C486 463 486 609 476 681 C447 693 228 693 199 681 C189 609 189 463 199 390 Z';
+    "M199 390 C228 378 447 378 476 390 C486 463 486 609 476 681 C447 693 228 693 199 681 C189 609 189 463 199 390 Z";
   const glassPath =
-    'M174 377 C204 365 471 365 501 377 C512 454 512 617 501 692 C471 706 204 706 174 692 C163 617 163 454 174 377 Z';
+    "M174 377 C204 365 471 365 501 377 C512 454 512 617 501 692 C471 706 204 706 174 692 C163 617 163 454 174 377 Z";
 
   return Buffer.from(`
 <svg xmlns="http://www.w3.org/2000/svg" width="675" height="900" viewBox="0 0 675 900">
@@ -265,8 +282,8 @@ function productOverlay({ name, dose, subline }) {
 }
 
 function stackNameText(name) {
-  const [first, second = 'STACK'] = name.toUpperCase().split(' ');
-  const titleClass = first.length > 8 ? 'stackTitle long' : 'stackTitle';
+  const [first, second = "STACK"] = name.toUpperCase().split(" ");
+  const titleClass = first.length > 8 ? "stackTitle long" : "stackTitle";
 
   return `
     <text x="337.5" y="477" text-anchor="middle" class="${titleClass}">${escapeXml(first)}</text>
@@ -281,14 +298,14 @@ function stackComponentText(lines) {
       (line, index) =>
         `<text x="337.5" y="${startY + index * 22}" text-anchor="middle" class="stackComponent">${escapeXml(line)}</text>`,
     )
-    .join('\n');
+    .join("\n");
 }
 
 function stackOverlay(bundle) {
   const labelPath =
-    'M199 390 C228 378 447 378 476 390 C486 463 486 609 476 681 C447 693 228 693 199 681 C189 609 189 463 199 390 Z';
+    "M199 390 C228 378 447 378 476 390 C486 463 486 609 476 681 C447 693 228 693 199 681 C189 609 189 463 199 390 Z";
   const glassPath =
-    'M174 377 C204 365 471 365 501 377 C512 454 512 617 501 692 C471 706 204 706 174 692 C163 617 163 454 174 377 Z';
+    "M174 377 C204 365 471 365 501 377 C512 454 512 617 501 692 C471 706 204 706 174 692 C163 617 163 454 174 377 Z";
 
   return Buffer.from(`
 <svg xmlns="http://www.w3.org/2000/svg" width="675" height="900" viewBox="0 0 675 900">
@@ -390,20 +407,20 @@ function stackOverlay(bundle) {
 
 async function bundleStackVial(bundle) {
   const overlay = await sharp(stackOverlay(bundle))
-    .resize(674, 899, { fit: 'fill' })
+    .resize(674, 899, { fit: "fill" })
     .png()
     .toBuffer();
   const base = await sharp(path.join(SOURCE_DIR, bundle.source))
-    .resize(675, 900, { fit: 'fill' })
+    .resize(675, 900, { fit: "fill" })
     .png()
     .toBuffer();
   const composed = await sharp(base)
-    .composite([{ input: overlay, left: 0, top: 0, blend: 'over' }])
+    .composite([{ input: overlay, left: 0, top: 0, blend: "over" }])
     .png()
     .toBuffer();
 
   const vial = await sharp(composed)
-    .resize(560, 747, { fit: 'contain' })
+    .resize(560, 747, { fit: "contain" })
     .modulate({ brightness: 1.05, saturation: 1.08 })
     .png()
     .toBuffer();
@@ -423,7 +440,7 @@ async function bundleStackVial(bundle) {
 
   return sharp(vial)
     .ensureAlpha()
-    .composite([{ input: mask, blend: 'dest-in' }])
+    .composite([{ input: mask, blend: "dest-in" }])
     .png()
     .toBuffer();
 }
@@ -501,7 +518,7 @@ async function generate() {
       .composite([
         {
           input: productOverlay({ name, dose, subline }),
-          blend: 'over',
+          blend: "over",
         },
       ])
       .png({ compressionLevel: 9, adaptiveFiltering: true })
@@ -511,13 +528,16 @@ async function generate() {
   }
 
   for (const bundle of bundles) {
-    const outputPath = path.join(BUNDLE_OUTPUT_DIR, `${bundle.slug}-single-vial.png`);
+    const outputPath = path.join(
+      BUNDLE_OUTPUT_DIR,
+      `${bundle.slug}-single-vial.png`,
+    );
     const vial = await bundleStackVial(bundle);
 
     await sharp(bundleBackdrop(bundle))
       .composite([
-        { input: vial, left: 320, top: 74, blend: 'over' },
-        { input: bundleForeground(bundle), left: 0, top: 0, blend: 'over' },
+        { input: vial, left: 320, top: 74, blend: "over" },
+        { input: bundleForeground(bundle), left: 0, top: 0, blend: "over" },
       ])
       .png({ compressionLevel: 9, adaptiveFiltering: true })
       .toFile(outputPath);

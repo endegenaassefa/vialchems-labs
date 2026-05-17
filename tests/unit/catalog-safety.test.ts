@@ -7,6 +7,7 @@
  * future operator-edited catalog metadata sneaks in a forbidden phrase.
  */
 import { describe, expect, it } from "vitest";
+import { productImagePath } from "@/components/v2/data";
 import { assertMarketingCopySafe } from "@/lib/compliance";
 import {
   bundles,
@@ -20,9 +21,23 @@ import { siteConfig } from "@/lib/content/site";
 
 describe("catalog content compliance", () => {
   it("uses the public brand that matches the visible domain styling", () => {
-    expect(siteConfig.name).toBe("vialchem.labs");
+    expect(siteConfig.name).toBe("vialchemlabs.net");
     expect(siteConfig.llcName).toBe("VialChem Labs LLC");
     expect(siteConfig.domain).toBe("vialchemlabs.net");
+  });
+
+  it("uses production-domain image paths without legacy brand typos", () => {
+    const renderedPaths = [
+      productImagePath("bpc-157-10mg"),
+      productImagePath("tb-500-10mg"),
+      productImagePath("ghk-cu-50mg"),
+    ].join("\n");
+
+    expect(renderedPaths).toContain("/v2-assets/vialchemlabs-products/");
+    expect(renderedPaths).toContain("vialchemlabs_");
+    expect(renderedPaths).not.toMatch(
+      new RegExp(`${"vai"}${"lchem"}|vialchem\\.labs`),
+    );
   });
 
   it.each(products.map((p) => [p.slug, p]))(

@@ -1,7 +1,7 @@
 /**
  * About page — verbatim from SUPER_PROMPT_v3 Appendix N.
  *
- * Brand placeholders substituted: vialchem.labs / independent third-party lab.
+ * Brand placeholders substituted: vialchemlabs.net / independent third-party lab.
  * In SKIP_PATHS for grep-forbidden-words.sh because the verbatim Appendix N
  * compliance section uses FDA-mandated negation phrasing
  * ("not intended to diagnose, treat, cure, or prevent any disease").
@@ -49,7 +49,7 @@ const PROCESS_STEPS = [
 export const metadata: Metadata = {
   title: "About",
   description:
-    "vialchem.labs supplies research peptides independently verified per batch. We compete on one axis: measurable accuracy.",
+    "vialchemlabs.net supplies research peptides independently verified per batch. We compete on one axis: measurable accuracy.",
 };
 
 export default function AboutPage() {
@@ -77,7 +77,8 @@ export default function AboutPage() {
                 heritage. We compete on one axis: measurable accuracy.
               </p>
               <p>
-                vialchem.labs runs an independent third-party testing program —{" "}
+                vialchemlabs.net runs an independent third-party testing program
+                —{" "}
                 <span className="text-[var(--text)]">
                   independent lab work, published Certificates of Analysis,
                   traceable batch numbers

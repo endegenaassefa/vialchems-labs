@@ -13,6 +13,14 @@ const navItems = [
   { href: "/account", label: "My Lab", key: "account" },
 ];
 
+function BrandWordmark() {
+  return (
+    <span>
+      vialchemlabs<span style={{ color: "var(--fg-muted)" }}>.net</span>
+    </span>
+  );
+}
+
 export function V2Header() {
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -38,11 +46,9 @@ export function V2Header() {
   return (
     <nav className="nav">
       <div className="container nav-inner">
-        <Link href="/" className="brand" aria-label="vialchem.labs home">
+        <Link href="/" className="brand" aria-label="vialchemlabs.net home">
           <span className="brand-mark" />
-          <span>
-            vialchem<span style={{ color: "var(--fg-muted)" }}>.labs</span>
-          </span>
+          <BrandWordmark />
         </Link>
         <div className="nav-links">
           {navItems.map((item) => (
@@ -206,9 +212,7 @@ export function V2Footer() {
           <div className="foot-col">
             <div className="brand" style={{ marginBottom: 16 }}>
               <span className="brand-mark" />
-              <span>
-                vialchem<span style={{ color: "var(--fg-muted)" }}>.labs</span>
-              </span>
+              <BrandWordmark />
             </div>
             <p
               style={{

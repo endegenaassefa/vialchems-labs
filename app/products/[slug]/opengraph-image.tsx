@@ -2,7 +2,7 @@
  * Phase 9 (v4) — per-product OpenGraph image per Appendix AD integration plan.
  *
  * One image per PDP showing the labeled vial design (compound + dose +
- * vialchem.labs wordmark + RUO). Launch SKUs + request-only records.
+ * vialchemlabs.net wordmark + RUO). Launch SKUs + request-only records.
  *
  * Iron Law 2.7 reminder: only the LOCKED catalog SKUs render. The slug
  * gate + product/bundle lookup ensures the carve-out compounds named in
@@ -14,7 +14,7 @@ import { getBundleBySlug, getProductBySlug } from "@/lib/content/products";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-export const alt = "vialchem.labs research peptide";
+export const alt = "vialchemlabs.net research peptide";
 
 export default async function Image({
   params,
@@ -24,7 +24,7 @@ export default async function Image({
   const { slug } = await params;
   const product = getProductBySlug(slug);
   const bundle = getBundleBySlug(slug);
-  const compound = product?.shortName ?? bundle?.name ?? "vialchem.labs";
+  const compound = product?.shortName ?? bundle?.name ?? "vialchemlabs.net";
   const dose = product?.dose ?? bundle?.constituents.join(" + ") ?? "";
   const sku = product?.sku ?? bundle?.sku ?? "";
 

@@ -3,15 +3,22 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Card } from "@/components/ui/Card";
 import { buttonClassNames } from "@/components/ui/Button";
-import { products } from "@/lib/content/products";
+import {
+  getProductBySlug,
+  publicLaunchProductSlugs,
+} from "@/lib/content/products";
 
 export const metadata = {
   title: "Page not found",
-  description: "The page you were looking for does not exist on vialchem.labs.",
+  description:
+    "The page you were looking for does not exist on vialchemlabs.net.",
 };
 
 export default function NotFound() {
-  const featured = products.slice(0, 3);
+  const featured = publicLaunchProductSlugs
+    .slice(0, 3)
+    .map((slug) => getProductBySlug(slug))
+    .filter((product) => product !== undefined);
   return (
     <>
       <SiteHeader />

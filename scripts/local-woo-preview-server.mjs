@@ -99,7 +99,7 @@ function checkoutPage(url, orderId) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
-  <title>Secure checkout - vialchem.labs</title>
+  <title>Secure checkout - vialchemlabs.net</title>
   <style>
     :root {
       color-scheme: dark;
@@ -187,7 +187,7 @@ function checkoutPage(url, orderId) {
   <a class="skip" href="#main">Skip to main content</a>
   <nav class="nav" aria-label="Site navigation">
     <div class="container nav-inner">
-      <a class="brand" href="${escapeHtml(mainSiteUrl)}/" aria-label="vialchem.labs home"><span class="brand-mark" aria-hidden="true"></span><span>vialchem<span class="muted">.labs</span></span></a>
+      <a class="brand" href="${escapeHtml(mainSiteUrl)}/" aria-label="vialchemlabs.net home"><span class="brand-mark" aria-hidden="true"></span><span>vialchemlabs<span class="muted">.net</span></span></a>
       <div class="nav-links"><a href="${escapeHtml(mainSiteUrl)}/shop">Shop Peptides</a><a href="${escapeHtml(mainSiteUrl)}/coa">Verify a Vial</a><a href="${escapeHtml(mainSiteUrl)}/affiliate">Affiliate Program</a><a href="${escapeHtml(mainSiteUrl)}/account">My Lab</a></div>
       <div class="spacer"></div>
       <a class="btn" href="${escapeHtml(mainSiteUrl)}/cart">Back to cart</a>
@@ -222,7 +222,7 @@ function checkoutPage(url, orderId) {
   <footer>
     <div class="container">
       <div class="foot-grid">
-        <div class="foot-col"><a class="brand" href="${escapeHtml(mainSiteUrl)}/"><span class="brand-mark"></span><span>vialchem<span class="muted">.labs</span></span></a><p>Research-grade peptides sold only to verified laboratories and qualified research organizations.</p><div class="badge">Research Use Only</div></div>
+        <div class="foot-col"><a class="brand" href="${escapeHtml(mainSiteUrl)}/"><span class="brand-mark"></span><span>vialchemlabs<span class="muted">.net</span></span></a><p>Research-grade peptides sold only to verified laboratories and qualified research organizations.</p><div class="badge">Research Use Only</div></div>
         <div class="foot-col"><h5>Shop</h5><ul><li><a href="${escapeHtml(mainSiteUrl)}/shop">Peptide Catalog</a></li><li><a href="${escapeHtml(mainSiteUrl)}/coa">Verify a Vial</a></li><li><a href="${escapeHtml(mainSiteUrl)}/account">My Lab</a></li></ul></div>
         <div class="foot-col"><h5>Compliance</h5><ul><li><a href="${escapeHtml(mainSiteUrl)}/legal/terms">Research Use Policy</a></li><li><a href="${escapeHtml(mainSiteUrl)}/faq">Quality Standards</a></li><li><a href="${escapeHtml(mainSiteUrl)}/coa">Documentation</a></li><li><a href="${escapeHtml(mainSiteUrl)}/legal/shipping">Shipping</a></li></ul></div>
         <div class="foot-col"><h5>Organization</h5><ul><li><a href="${escapeHtml(mainSiteUrl)}/about">About</a></li><li><a href="${escapeHtml(mainSiteUrl)}/contact">Contact</a></li><li><a href="${escapeHtml(mainSiteUrl)}/affiliate">Affiliate</a></li><li><a href="${escapeHtml(mainSiteUrl)}/blog">Research Notes</a></li></ul></div>

@@ -39,7 +39,7 @@ describe("productJsonLd", () => {
     expect(out.sku).toBe("BPC-157-10MG");
     expect(out.brand?.["@type"]).toBe("Brand");
     expect(out.offers?.["@type"]).toBe("Offer");
-    expect(out.brand?.name).toBe("vialchem.labs");
+    expect(out.brand?.name).toBe("vialchemlabs.net");
     expect(out.offers?.price).toBe("42.00");
     expect(out.offers?.priceCurrency).toBe("USD");
     expect(out.offers?.availability).toBe("https://schema.org/InStock");
@@ -93,7 +93,7 @@ describe("articleJsonLd", () => {
         summary:
           "How HPLC purity, USP <71> sterility, and LAL endotoxin tests work.",
         publishedAt: "2026-04-12",
-        author: "vialchem.labs Research",
+        author: "vialchemlabs.net Research",
       },
       BASE,
     );
@@ -101,7 +101,7 @@ describe("articleJsonLd", () => {
     expect(out.headline).toBe("Reading a Certificate of Analysis");
     expect(out.datePublished).toBe("2026-04-12");
     expect(out.author?.["@type"]).toBe("Organization");
-    expect(out.author?.name).toBe("vialchem.labs Research");
+    expect(out.author?.name).toBe("vialchemlabs.net Research");
     expect(out.mainEntityOfPage).toBe(`${BASE}/blog/reading-a-coa`);
   });
 });
@@ -128,12 +128,12 @@ describe("faqPageJsonLd", () => {
 describe("organizationJsonLd", () => {
   it("emits Organization with name + url + logo when supplied", () => {
     const out = organizationJsonLd({
-      name: "vialchem.labs",
+      name: "vialchemlabs.net",
       url: BASE,
       logo: `${BASE}/icon.svg`,
     });
     expect(out["@type"]).toBe("Organization");
-    expect(out.name).toBe("vialchem.labs");
+    expect(out.name).toBe("vialchemlabs.net");
     expect(out.url).toBe(BASE);
     expect(out.logo).toBe(`${BASE}/icon.svg`);
   });
