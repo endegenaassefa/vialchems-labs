@@ -7,7 +7,11 @@
  * future operator-edited catalog metadata sneaks in a forbidden phrase.
  */
 import { describe, expect, it } from "vitest";
-import { productImagePath } from "@/components/v2/data";
+import {
+  catalogDisplayItems,
+  catalogItems,
+  productImagePath,
+} from "@/components/v2/data";
 import { assertMarketingCopySafe } from "@/lib/compliance";
 import {
   bundles,
@@ -98,6 +102,28 @@ describe("catalog content compliance", () => {
       expect(getProductAvailability(product!)).toBe("in-stock");
       expect(isPurchasableProduct(product!)).toBe(true);
     }
+  });
+
+  it("keeps the public catalog grid limited to approved live products", () => {
+    expect(catalogItems.map((item) => item.slug)).toEqual([
+      ...publicLaunchProductSlugs,
+    ]);
+    expect(catalogItems.every((item) => item.availability === "in-stock")).toBe(
+      true,
+    );
+    expect(
+      catalogItems.some((item) => item.availability === "request-only"),
+    ).toBe(false);
+  });
+
+  it("groups duplicate live variants into one visible product listing", () => {
+    const visibleNames = catalogDisplayItems.map((item) => item.shortName);
+
+    expect(visibleNames.filter((name) => name === "Reta")).toHaveLength(1);
+    expect(catalogDisplayItems).toHaveLength(12);
+    expect(
+      catalogDisplayItems.find((item) => item.shortName === "Reta")?.variants,
+    ).toHaveLength(2);
   });
 
   it("treats non-launch products as custom request only", () => {

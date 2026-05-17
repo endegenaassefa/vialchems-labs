@@ -270,8 +270,30 @@ export const allCatalogItems: CatalogItem[] = [
 ].sort((a, b) => catalogSortValue(a) - catalogSortValue(b));
 
 export const catalogItems: CatalogItem[] = allCatalogItems.filter(
-  (item) => item.availability !== "test-only",
+  (item) => item.availability === "in-stock",
 );
+
+export type CatalogDisplayItem = CatalogItem & {
+  variants: CatalogItem[];
+};
+
+export function groupCatalogDisplayItems(
+  items: CatalogItem[],
+): CatalogDisplayItem[] {
+  const groups = new Map<string, CatalogItem[]>();
+
+  for (const item of items) {
+    const key = `${item.kind}:${item.shortName.toLowerCase()}`;
+    groups.set(key, [...(groups.get(key) ?? []), item]);
+  }
+
+  return [...groups.values()].map((variants) => ({
+    ...variants[0],
+    variants,
+  }));
+}
+
+export const catalogDisplayItems = groupCatalogDisplayItems(catalogItems);
 
 export function getCatalogItem(slug: string) {
   return allCatalogItems.find((item) => item.slug === slug);

@@ -4,17 +4,18 @@ import Fuse from "fuse.js";
 import Link from "next/link";
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import {
+  catalogDisplayItems,
   catalogFamilyOrder,
-  catalogItems,
   displayPrice,
   skuCode,
+  type CatalogDisplayItem,
 } from "./data";
 import { Icon } from "./icons";
 import { V2Footer, V2Header } from "./Shell";
 import { ProductVisual, Reveal } from "./Visuals";
 
 type CatalogSearchRow = {
-  item: (typeof catalogItems)[number];
+  item: CatalogDisplayItem;
   name: string;
   shortName: string;
   sku: string;
@@ -44,7 +45,7 @@ function searchCatalogRows(
   searchRows: CatalogSearchRow[],
   fuse: Fuse<CatalogSearchRow>,
 ) {
-  if (!activeQuery) return catalogItems;
+  if (!activeQuery) return catalogDisplayItems;
 
   const normalizedQuery = normalizeSearch(activeQuery);
   const compactQuery = compactSearch(activeQuery);
@@ -75,7 +76,6 @@ export function V2Catalog() {
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [families, setFamilies] = useState<Record<string, boolean>>({});
   const [showRestricted, setShowRestricted] = useState(true);
-  const [showCustomRequests, setShowCustomRequests] = useState(false);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [view, setView] = useState<"grid" | "list">("grid");
   const [sort, setSort] = useState("Newest");
@@ -110,7 +110,7 @@ export function V2Catalog() {
   }, [query]);
 
   const allFamilies = useMemo(() => {
-    const available = new Set(catalogItems.map((item) => item.family));
+    const available = new Set(catalogDisplayItems.map((item) => item.family));
     const ordered = catalogFamilyOrder.filter((family) =>
       available.has(family),
     );
@@ -125,20 +125,29 @@ export function V2Catalog() {
 
   const searchRows = useMemo<CatalogSearchRow[]>(
     () =>
-      catalogItems.map((item) => {
-        const code = skuCode(item.sku);
-        const constituents =
-          item.kind === "bundle" ? item.source.constituents.join(" ") : "";
+      catalogDisplayItems.map((item) => {
+        const variantText = item.variants
+          .map((variant) =>
+            [
+              variant.name,
+              variant.shortName,
+              variant.sku,
+              skuCode(variant.sku),
+              variant.dose,
+              displayPrice(variant.priceCents),
+            ].join(" "),
+          )
+          .join(" ");
         const searchText = [
           item.name,
           item.shortName,
           item.sku,
-          code,
+          skuCode(item.sku),
           item.family,
           item.dose,
           item.description,
           item.marketRange,
-          constituents,
+          variantText,
         ].join(" ");
 
         return {
@@ -146,12 +155,12 @@ export function V2Catalog() {
           name: item.name,
           shortName: item.shortName,
           sku: item.sku,
-          code,
+          code: skuCode(item.sku),
           family: item.family,
           dose: item.dose,
           description: item.description,
           marketRange: item.marketRange,
-          constituents,
+          constituents: variantText,
           searchText: normalizeSearch(searchText),
           compactText: compactSearch(searchText),
         };
@@ -188,13 +197,6 @@ export function V2Catalog() {
       const anyFamily = Object.values(families).some(Boolean);
       if (anyFamily && !families[item.family]) return false;
       if (!showRestricted && item.restricted) return false;
-      if (
-        !showCustomRequests &&
-        !activeQuery &&
-        item.availability === "request-only"
-      ) {
-        return false;
-      }
       return true;
     });
 
@@ -204,14 +206,7 @@ export function V2Catalog() {
       if (sort === "Mass") return a.dose.localeCompare(b.dose);
       return 0;
     });
-  }, [
-    activeQuery,
-    families,
-    searched,
-    showCustomRequests,
-    showRestricted,
-    sort,
-  ]);
+  }, [families, searched, showRestricted, sort]);
 
   return (
     <>
@@ -236,8 +231,8 @@ export function V2Catalog() {
                   Research materials
                 </h1>
                 <p style={{ fontSize: 14, color: "var(--fg-muted)" }}>
-                  {filtered.length} of {catalogItems.length} catalog records ·
-                  live products first · request-only on demand
+                  {filtered.length} of {catalogDisplayItems.length} live
+                  listings · current dispatch catalog · custom quotes available
                 </p>
                 <div className="trust-strip" aria-label="Catalog assurances">
                   <span className="trust-chip">
@@ -376,7 +371,8 @@ export function V2Catalog() {
                   }
                   label={family}
                   count={
-                    catalogItems.filter((item) => item.family === family).length
+                    catalogDisplayItems.filter((item) => item.family === family)
+                      .length
                   }
                 />
               ))}
@@ -385,17 +381,17 @@ export function V2Catalog() {
               <Check
                 checked
                 label="COA available"
-                count={catalogItems.length}
+                count={catalogDisplayItems.length}
               />
               <Check
                 checked
                 label="SDS available"
-                count={catalogItems.length}
+                count={catalogDisplayItems.length}
               />
               <Check
                 checked
                 label="Lot traceability"
-                count={catalogItems.length}
+                count={catalogDisplayItems.length}
               />
             </Filter>
             <Filter title="Access">
@@ -403,16 +399,8 @@ export function V2Catalog() {
                 checked={showRestricted}
                 onChange={() => setShowRestricted(!showRestricted)}
                 label="Show restricted"
-                count={catalogItems.filter((item) => item.restricted).length}
-              />
-              <Check
-                checked={showCustomRequests}
-                onChange={() => setShowCustomRequests(!showCustomRequests)}
-                label="Show custom requests"
                 count={
-                  catalogItems.filter(
-                    (item) => item.availability === "request-only",
-                  ).length
+                  catalogDisplayItems.filter((item) => item.restricted).length
                 }
               />
             </Filter>
@@ -543,12 +531,15 @@ export function V2Catalog() {
                       className="mono"
                       style={{ fontSize: 11, color: "var(--fg-muted)" }}
                     >
-                      {skuCode(item.sku)} · {item.family}
+                      {item.variants
+                        .map((variant) => skuCode(variant.sku))
+                        .join(" / ")}{" "}
+                      · {item.family}
                       <br />
                       {item.marketRange}
                     </div>
                     <div className="mono" style={{ fontSize: 12 }}>
-                      {item.dose}
+                      {variantDoseLabel(item)}
                     </div>
                     <div
                       className="mono"
@@ -559,13 +550,17 @@ export function V2Catalog() {
                           : "var(--fg-muted)",
                       }}
                     >
-                      {item.purchasable ? `${item.stock} units` : "Request"}
+                      {item.purchasable
+                        ? item.variants.length > 1
+                          ? `${item.variants.length} options`
+                          : `${item.stock} units`
+                        : "Request"}
                     </div>
                     <div
                       className="mono"
                       style={{ fontSize: 13, fontWeight: 500 }}
                     >
-                      {displayPrice(item.priceCents)}
+                      {variantPriceLabel(item)}
                     </div>
                     <div
                       style={{ textAlign: "right", color: "var(--fg-muted)" }}
@@ -576,6 +571,41 @@ export function V2Catalog() {
                 ))}
               </div>
             )}
+            <div
+              style={{
+                marginTop: 24,
+                borderTop: "1px solid var(--line)",
+                paddingTop: 18,
+                display: "flex",
+                justifyContent: "space-between",
+                gap: 16,
+                alignItems: "center",
+                flexWrap: "wrap",
+              }}
+            >
+              <div>
+                <p className="eyebrow" style={{ marginBottom: 6 }}>
+                  Custom request
+                </p>
+                <p
+                  style={{
+                    color: "var(--fg-muted)",
+                    fontSize: 13,
+                    lineHeight: 1.5,
+                    maxWidth: 540,
+                  }}
+                >
+                  Materials outside the live catalog are quoted manually after
+                  staff review of SKU, quantity, and laboratory context.
+                </p>
+              </div>
+              <Link
+                href="/contact?topic=custom-order"
+                className="btn btn-ghost btn-sm"
+              >
+                Request custom order
+              </Link>
+            </div>
           </div>
         </div>
       </main>
@@ -584,66 +614,118 @@ export function V2Catalog() {
   );
 }
 
-function ProductCard({ item }: { item: (typeof catalogItems)[number] }) {
+function variantDoseLabel(item: CatalogDisplayItem) {
+  return item.variants.map((variant) => variant.dose).join(" / ");
+}
+
+function variantPriceLabel(item: CatalogDisplayItem) {
+  return item.variants
+    .map((variant) => displayPrice(variant.priceCents))
+    .join(" / ");
+}
+
+function variantCodeLine(item: CatalogDisplayItem) {
+  const codes = item.variants
+    .map((variant) => skuCode(variant.sku))
+    .join(" / ");
+  return `${codes} · ${variantDoseLabel(item)} · ${item.family}`;
+}
+
+function variantStockLabel(item: CatalogDisplayItem) {
+  if (item.variants.length > 1) {
+    return `${item.variants.length} OPTIONS IN STOCK`;
+  }
+  return `${item.stock} IN STOCK`;
+}
+
+function ProductCard({ item }: { item: CatalogDisplayItem }) {
+  const primaryHref = `/products/${item.slug}`;
+
   return (
-    <Link
-      href={`/products/${item.slug}`}
-      className="card card-hover product-card"
-    >
-      <div
-        style={{ display: "flex", gap: 5, marginBottom: 10, flexWrap: "wrap" }}
-      >
-        <span className="badge badge-ruo">RESEARCH USE</span>
-        <span className="badge badge-coa">COA</span>
-        {item.restricted && (
-          <span className="badge badge-restricted">RESTRICTED</span>
-        )}
-      </div>
-      <div className="product-media">
-        <ProductVisual item={item} />
-      </div>
-      <div className="product-title-row">
-        <h2 style={{ fontSize: 14 }}>{item.shortName}</h2>
-        <span
+    <article className="card card-hover product-card">
+      <Link href={primaryHref} style={{ display: "block", color: "inherit" }}>
+        <div
           style={{
-            fontFamily: "var(--font-mono)",
-            fontSize: 13,
-            fontWeight: 500,
+            display: "flex",
+            gap: 5,
+            marginBottom: 10,
+            flexWrap: "wrap",
           }}
         >
-          {displayPrice(item.priceCents)}
-        </span>
-      </div>
-      <div className="product-code-line">
-        {skuCode(item.sku)} · {item.dose} · {item.family}
-      </div>
-      <p className="product-card-desc">{item.description}</p>
-      <div
-        className="product-card-details"
-        aria-label={`${item.shortName} details`}
-      >
-        <span>
-          <strong>Class</strong>
-          {item.family}
-        </span>
-        <span>
-          <strong>Mass</strong>
-          {item.dose}
-        </span>
-        <span>
-          <strong>Docs</strong>
-          COA
-        </span>
-      </div>
-      <div className="card-action">
+          <span className="badge badge-ruo">RESEARCH USE</span>
+          <span className="badge badge-coa">COA</span>
+          {item.restricted && (
+            <span className="badge badge-restricted">RESTRICTED</span>
+          )}
+        </div>
+        <div className="product-media">
+          <ProductVisual item={item} />
+        </div>
+        <div className="product-title-row">
+          <h2 style={{ fontSize: 14 }}>{item.shortName}</h2>
+          <span
+            style={{
+              fontFamily: "var(--font-mono)",
+              fontSize: 13,
+              fontWeight: 500,
+            }}
+          >
+            {variantPriceLabel(item)}
+          </span>
+        </div>
+        <div className="product-code-line">{variantCodeLine(item)}</div>
+        <p className="product-card-desc">{item.description}</p>
+        <div
+          className="product-card-details"
+          aria-label={`${item.shortName} details`}
+        >
+          <span>
+            <strong>Class</strong>
+            {item.family}
+          </span>
+          <span>
+            <strong>Mass</strong>
+            {variantDoseLabel(item)}
+          </span>
+          <span>
+            <strong>Docs</strong>
+            COA
+          </span>
+        </div>
+      </Link>
+      <div className="card-action" style={{ gap: 8, flexWrap: "wrap" }}>
         <span
           style={{ color: item.purchasable ? "var(--ok)" : "var(--fg-muted)" }}
         >
-          · {item.purchasable ? `${item.stock} IN STOCK` : "CUSTOM REQUEST"}
+          · {item.purchasable ? variantStockLabel(item) : "CUSTOM REQUEST"}
         </span>
-        <span>{item.purchasable ? "VIEW LOT →" : "REQUEST →"}</span>
+        {item.variants.length > 1 ? (
+          <span
+            style={{
+              display: "flex",
+              gap: 6,
+              flexWrap: "wrap",
+              justifyContent: "flex-end",
+            }}
+          >
+            {item.variants.map((variant) => (
+              <Link
+                key={variant.slug}
+                href={`/products/${variant.slug}`}
+                className="btn btn-ghost btn-sm"
+                style={{ height: "auto", padding: "5px 8px", fontSize: 9 }}
+              >
+                {variant.dose} · {displayPrice(variant.priceCents)}
+              </Link>
+            ))}
+          </span>
+        ) : (
+          <Link href={primaryHref} style={{ color: "var(--fg-muted)" }}>
+            {item.purchasable ? "VIEW LOT →" : "REQUEST →"}
+          </Link>
+        )}
       </div>
-    </Link>
+    </article>
   );
 }
 

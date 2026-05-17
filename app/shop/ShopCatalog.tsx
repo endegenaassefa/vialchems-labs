@@ -2,8 +2,9 @@
  * ShopCatalog — client island for /shop page.
  *
  * Owns: search query, category filter set, in-stock toggle, sort selection.
- * Renders the Recovery Stack bundle as a separate accent card at the top,
- * then the filtered SKU grid below.
+ * Renders the filtered live catalog grid with multi-strength variants grouped.
+ * Non-live materials stay off the public grid and are handled through the
+ * custom-request path.
  *
  * Search uses Fuse.js across name + sku + category label (fuzzy threshold 0.4).
  *
@@ -23,16 +24,13 @@ import { Button, buttonClassNames } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { FieldLabel } from "@/components/ui/FieldLabel";
 import { ProductStudioVisual } from "@/components/ui/ProductStudioVisual";
-import { BundleStudioVisual } from "@/components/ui/BundleStudioVisual";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { StaggerReveal } from "@/components/ui/StaggerReveal";
-import { RecoveryStackSheen } from "@/components/ui/RecoveryStackSheen";
 import { useCartStore } from "@/lib/cart-store";
 import {
-  bundles,
   formatPerMg,
   formatPrice,
-  getProductAvailability,
+  isPublicLaunchProduct,
   isPurchasableProduct,
   productCategories,
   products,
@@ -42,6 +40,10 @@ import {
 } from "@/lib/content/products";
 
 type SortKey = "price-asc" | "price-desc" | "name-asc" | "newest";
+type CatalogProductDisplay = Product & {
+  variants: Product[];
+  variantSearch: string;
+};
 
 const SORT_OPTIONS: { value: SortKey; label: string }[] = [
   { value: "newest", label: "Newest" },
@@ -49,6 +51,64 @@ const SORT_OPTIONS: { value: SortKey; label: string }[] = [
   { value: "price-desc", label: "Price: high → low" },
   { value: "name-asc", label: "Name: A → Z" },
 ];
+
+function groupProductVariants(productsForCatalog: Product[]) {
+  const groups = new Map<string, Product[]>();
+
+  for (const product of productsForCatalog) {
+    const key = product.shortName.toLowerCase();
+    groups.set(key, [...(groups.get(key) ?? []), product]);
+  }
+
+  return [...groups.values()].map((variants): CatalogProductDisplay => {
+    const variantSearch = variants
+      .map((variant) =>
+        [
+          variant.name,
+          variant.shortName,
+          variant.sku,
+          variant.dose,
+          formatPrice(variant.listPriceCents),
+          formatPerMg(variant.perMgCents),
+        ].join(" "),
+      )
+      .join(" ");
+
+    return {
+      ...variants[0],
+      variants,
+      variantSearch,
+    };
+  });
+}
+
+function minVariantPrice(product: CatalogProductDisplay) {
+  return Math.min(...product.variants.map((variant) => variant.listPriceCents));
+}
+
+function maxVariantPrice(product: CatalogProductDisplay) {
+  return Math.max(...product.variants.map((variant) => variant.listPriceCents));
+}
+
+function displayPriceLabel(product: CatalogProductDisplay) {
+  return product.variants
+    .map((variant) => formatPrice(variant.listPriceCents))
+    .join(" / ");
+}
+
+function displayDoseLabel(product: CatalogProductDisplay) {
+  return product.variants.map((variant) => variant.dose).join(" / ");
+}
+
+function displaySkuLabel(product: CatalogProductDisplay) {
+  return product.variants.map((variant) => variant.sku).join(" / ");
+}
+
+function displayPerMgLabel(product: CatalogProductDisplay) {
+  return product.variants
+    .map((variant) => formatPerMg(variant.perMgCents))
+    .join(" / ");
+}
 
 export function ShopCatalog() {
   const [query, setQuery] = useState("");
@@ -58,24 +118,26 @@ export function ShopCatalog() {
   const [sortKey, setSortKey] = useState<SortKey>("newest");
   const catalogProducts = useMemo(
     () =>
-      products
-        .filter((product) => getProductAvailability(product) !== "test-only")
-        .sort(sortProductsByLaunchOrder),
+      groupProductVariants(
+        products
+          .filter((product) => isPublicLaunchProduct(product))
+          .sort(sortProductsByLaunchOrder),
+      ),
     [],
   );
 
   const fuse = useMemo(
     () =>
       new Fuse(catalogProducts, {
-        keys: ["name", "sku", "category", "shortName"],
+        keys: ["name", "sku", "category", "shortName", "variantSearch"],
         threshold: 0.4,
         ignoreLocation: true,
       }),
     [catalogProducts],
   );
 
-  const visible = useMemo<Product[]>(() => {
-    let list: Product[] =
+  const visible = useMemo<CatalogProductDisplay[]>(() => {
+    let list: CatalogProductDisplay[] =
       query.trim().length > 0
         ? fuse.search(query).map((r) => r.item)
         : [...catalogProducts];
@@ -87,10 +149,14 @@ export function ShopCatalog() {
 
     switch (sortKey) {
       case "price-asc":
-        list = [...list].sort((a, b) => a.listPriceCents - b.listPriceCents);
+        list = [...list].sort(
+          (a, b) => minVariantPrice(a) - minVariantPrice(b),
+        );
         break;
       case "price-desc":
-        list = [...list].sort((a, b) => b.listPriceCents - a.listPriceCents);
+        list = [...list].sort(
+          (a, b) => maxVariantPrice(b) - maxVariantPrice(a),
+        );
         break;
       case "name-asc":
         list = [...list].sort((a, b) => a.shortName.localeCompare(b.shortName));
@@ -102,27 +168,6 @@ export function ShopCatalog() {
     }
     return list;
   }, [query, activeCategories, sortKey, fuse, catalogProducts]);
-
-  // ISSUE-008 fix: hide the Recovery Stack bundle when an active query / filter
-  // doesn't match its name OR any of its constituent SKUs. Without this the
-  // empty-results state still rendered the bundle on top.
-  const visibleBundles = useMemo(() => {
-    if (!query.trim() && activeCategories.size === 0) return [];
-    const filtersActive = query.trim().length > 0 || activeCategories.size > 0;
-    if (!filtersActive) return bundles;
-    const visibleSkus = new Set(visible.map((p) => p.sku));
-    const q = query.trim().toLowerCase();
-    return bundles.filter((b) => {
-      const nameMatch = q.length > 0 && b.name.toLowerCase().includes(q);
-      const constituentMatch = b.constituents.some((sku) =>
-        visibleSkus.has(sku),
-      );
-      // When ONLY the category filter is active (no text query), keep the
-      // bundle if any constituent is in the visible list.
-      if (q.length === 0) return constituentMatch;
-      return nameMatch || constituentMatch;
-    });
-  }, [query, activeCategories, visible]);
 
   function toggleCategory(cat: ProductCategory) {
     setActiveCategories((prev) => {
@@ -136,56 +181,6 @@ export function ShopCatalog() {
   return (
     <section>
       <div className="mx-auto max-w-6xl px-6 py-12">
-        {/* STACK CARDS — single-vial stack products with component labels */}
-        {visibleBundles.map((bundle) => (
-          <Card
-            as="article"
-            key={bundle.slug}
-            variant="interactive"
-            className="group/product relative mb-12 grid gap-6 overflow-hidden p-4 md:grid-cols-[minmax(280px,360px)_1fr_auto] md:items-center md:p-6"
-          >
-            <RecoveryStackSheen />
-            <Link
-              href={`/products/${bundle.slug}`}
-              className="block"
-              aria-label={`View ${bundle.name}`}
-            >
-              <BundleStudioVisual
-                bundle={bundle}
-                className="aspect-[4/3] rounded-[8px] border border-[color:color-mix(in_srgb,var(--accent)_16%,transparent)]"
-                sizes="(min-width: 768px) 360px, calc(100vw - 48px)"
-              />
-            </Link>
-            <div>
-              <Pill variant="accent" className="mb-2">
-                Set vial
-              </Pill>
-              <h2 className="text-[24px] md:text-[28px] font-medium tracking-tight text-[var(--text)] mb-1">
-                {bundle.name}
-              </h2>
-              <p className="text-[14px] text-[var(--text-muted)] max-w-xl leading-relaxed">
-                {bundle.description}
-              </p>
-            </div>
-            <div className="flex flex-col items-start gap-2 md:items-end shrink-0">
-              <div className="flex items-baseline gap-2">
-                <span className="font-mono tabular text-[24px] font-semibold text-[var(--text)]">
-                  {formatPrice(bundle.listPriceCents)}
-                </span>
-                <span className="font-mono text-[12px] text-[var(--text-subtle)]">
-                  {bundle.effectiveDiscountPct}% off
-                </span>
-              </div>
-              <Link
-                href={`/products/${bundle.slug}`}
-                className={buttonClassNames("outline", "md")}
-              >
-                View stack
-              </Link>
-            </div>
-          </Card>
-        ))}
-
         {/* CONTROLS: search / filters / sort */}
         <div className="mb-8 rounded-[14px] border border-[var(--border)] bg-[var(--surface)] p-4 shadow-[var(--shadow-sm)]">
           <div className="grid gap-5 md:grid-cols-[minmax(0,1.35fr)_minmax(0,2fr)_180px]">
@@ -289,9 +284,10 @@ export function ShopCatalog() {
   );
 }
 
-function ProductTile({ product }: { product: Product }) {
+function ProductTile({ product }: { product: CatalogProductDisplay }) {
   const addLine = useCartStore((s) => s.addLine);
   const purchasable = isPurchasableProduct(product);
+  const hasVariants = product.variants.length > 1;
   const categoryLabel =
     productCategories.find((c) => c.id === product.category)?.label ??
     product.category;
@@ -329,11 +325,12 @@ function ProductTile({ product }: { product: Product }) {
               {product.shortName}
             </h3>
             <p className="font-mono tabular text-[16px] font-semibold text-[var(--text)]">
-              {formatPrice(product.listPriceCents)}
+              {displayPriceLabel(product)}
             </p>
           </div>
           <p className="mt-1 font-mono text-[10px] uppercase tracking-[0.12em] text-[var(--text-subtle)]">
-            {product.sku} · {product.dose} · {formatPerMg(product.perMgCents)}
+            {displaySkuLabel(product)} · {displayDoseLabel(product)} ·{" "}
+            {displayPerMgLabel(product)}
           </p>
         </div>
       </Link>
@@ -344,9 +341,25 @@ function ProductTile({ product }: { product: Product }) {
 
       <div className="mt-4 flex items-center justify-between gap-3 border-t border-[var(--border)] px-4 py-4">
         <span className="font-mono text-[10px] uppercase tracking-[0.12em] text-[var(--accent)]">
-          {purchasable ? "In stock" : "Custom request"}
+          {purchasable
+            ? hasVariants
+              ? `${product.variants.length} options`
+              : "In stock"
+            : "Custom request"}
         </span>
-        {purchasable ? (
+        {purchasable && hasVariants ? (
+          <div className="flex flex-wrap justify-end gap-2">
+            {product.variants.map((variant) => (
+              <Link
+                key={variant.slug}
+                href={`/products/${variant.slug}`}
+                className={buttonClassNames("outline", "sm")}
+              >
+                {variant.dose}
+              </Link>
+            ))}
+          </div>
+        ) : purchasable ? (
           <Button
             variant="primary"
             size="sm"
