@@ -53,6 +53,9 @@ code, add deterministic verification, and document the network remediation
 steps and acceptance criteria for a reachable BTCPay endpoint.
 ```
 
+The full production-fix prompt, including the runtime fail-closed health check,
+lives in `docs/super-prompts/btcpay-production-reachability-fix.md`.
+
 ## Remediation Options
 
 ### Option A - Voltage Unblocks Current Endpoint
@@ -99,6 +102,7 @@ Current DNS status: pay.vialchemlabs.net and btcpay.vialchemlabs.net do not reso
 Repo bootstrap: scripts/btcpay-setup.sh
 Endpoint diagnostics: npm run diagnose:btcpay
 API verification: npm run verify:btcpay
+Runtime guard: /api/payments/btcpay/status
 ```
 
 DNS required before bootstrap:
@@ -154,6 +158,11 @@ NEXT_PUBLIC_ENABLE_BITCOIN_CHECKOUT=false
 
 Zelle remains the live payment option. Bitcoin must not be advertised as live
 until `npm run verify:btcpay` succeeds from the production runtime.
+
+The cart also checks `/api/payments/btcpay/status` before enabling the Bitcoin
+radio option. If the endpoint is missing, blocked, returning auth errors, or
+failing TLS, customers remain on Zelle instead of entering a broken Bitcoin
+checkout.
 
 ## Official References
 

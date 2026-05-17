@@ -57,6 +57,10 @@ npm run build
 The live create-invoice permission is exercised by the checkout route when a
 buyer selects Bitcoin.
 
+The cart also calls `/api/payments/btcpay/status` before enabling Bitcoin. This
+runtime guard fails closed if the endpoint is unreachable, so customers are not
+sent into a broken Bitcoin checkout while DNS or BTCPay hosting is being fixed.
+
 ## Reachability Gate
 
 Bitcoin checkout must remain disabled until the configured `BTCPAY_SERVER_URL`

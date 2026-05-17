@@ -1,6 +1,7 @@
 "use client";
 
 import type { ComponentType } from "react";
+import { useEffect, useState } from "react";
 import {
   Apple,
   BadgeDollarSign,
@@ -46,6 +47,8 @@ const paymentMethods: PaymentMethod[] = CHECKOUT_PAYMENT_METHOD_INFO.map(
 const bitcoinCheckoutEnabled =
   process.env.NEXT_PUBLIC_ENABLE_BITCOIN_CHECKOUT === "true";
 
+type BitcoinAvailability = "off" | "checking" | "ready" | "unavailable";
+
 interface PaymentMethodSelectorProps {
   value: CheckoutPaymentMethod;
   onChange: (method: CheckoutPaymentMethod) => void;
@@ -55,6 +58,39 @@ export function PaymentMethodSelector({
   value,
   onChange,
 }: PaymentMethodSelectorProps) {
+  const [bitcoinAvailability, setBitcoinAvailability] =
+    useState<BitcoinAvailability>(bitcoinCheckoutEnabled ? "checking" : "off");
+
+  useEffect(() => {
+    if (!bitcoinCheckoutEnabled) {
+      return;
+    }
+
+    const controller = new AbortController();
+    fetch("/api/payments/btcpay/status", {
+      method: "GET",
+      cache: "no-store",
+      signal: controller.signal,
+    })
+      .then((response) => {
+        setBitcoinAvailability(response.ok ? "ready" : "unavailable");
+      })
+      .catch((error: unknown) => {
+        if (error instanceof DOMException && error.name === "AbortError") {
+          return;
+        }
+        setBitcoinAvailability("unavailable");
+      });
+
+    return () => controller.abort();
+  }, []);
+
+  useEffect(() => {
+    if (value === "bitcoin" && bitcoinAvailability !== "ready") {
+      onChange("zelle");
+    }
+  }, [bitcoinAvailability, onChange, value]);
+
   return (
     <fieldset className="v2-payment-selector">
       <legend className="eyebrow">Secure checkout payment options</legend>
@@ -67,8 +103,14 @@ export function PaymentMethodSelector({
           const selected = value === method.id;
           const live = isLiveCheckoutMethod(method.id);
           const bitcoinPaused =
-            method.id === "bitcoin" && !bitcoinCheckoutEnabled;
+            method.id === "bitcoin" && bitcoinAvailability !== "ready";
           const disabled = !live || bitcoinPaused;
+          const bitcoinDescription =
+            bitcoinAvailability === "checking"
+              ? "Checking Bitcoin checkout availability..."
+              : bitcoinAvailability === "unavailable"
+                ? "Bitcoin checkout is paused while the payment endpoint is being fixed."
+                : "Bitcoin checkout is paused while BTCPay setup is completed.";
           return (
             <label
               key={method.id}
@@ -96,7 +138,9 @@ export function PaymentMethodSelector({
                     {!live
                       ? "Coming soon"
                       : bitcoinPaused
-                        ? "Setup pending"
+                        ? bitcoinAvailability === "checking"
+                          ? "Checking"
+                          : "Setup pending"
                         : method.badge}
                   </span>
                 </span>
@@ -104,7 +148,7 @@ export function PaymentMethodSelector({
                   {!live
                     ? method.description
                     : bitcoinPaused
-                      ? "Bitcoin checkout is paused while BTCPay wallet setup is completed."
+                      ? bitcoinDescription
                       : method.description}
                 </span>
               </span>
