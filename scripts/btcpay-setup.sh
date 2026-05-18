@@ -43,6 +43,16 @@ RESOLVED_IPS="$(
   getent ahostsv4 "$BTCPAY_HOST" 2>/dev/null | awk '{print $1}' | sort -u || true
 )"
 
+if [ -z "$RESOLVED_IPS" ] && command -v dig >/dev/null 2>&1; then
+  RESOLVED_IPS="$(
+    {
+      dig +short A "$BTCPAY_HOST" 2>/dev/null
+      dig @1.1.1.1 +short A "$BTCPAY_HOST" 2>/dev/null
+      dig @8.8.8.8 +short A "$BTCPAY_HOST" 2>/dev/null
+    } | grep -E '^[0-9.]+$' | sort -u || true
+  )"
+fi
+
 if [ -z "$RESOLVED_IPS" ]; then
   echo "DNS is not ready for $BTCPAY_HOST."
   echo "Create an A record pointing $BTCPAY_HOST to this server first."
@@ -91,7 +101,9 @@ export LETSENCRYPT_EMAIL=${LETSENCRYPT_EMAIL:-ops@${BTCPAY_HOST#btcpay.}}
 export BTCPAY_UPDATE_CLEAN="${BTCPAY_UPDATE_CLEAN:-false}"
 
 echo "Running BTCPay setup against $BTCPAY_HOST ..."
+set +u
 . ./btcpay-setup.sh -i
+set -u
 
 echo
 echo "Done. Visit https://$BTCPAY_HOST and complete the dashboard steps."
