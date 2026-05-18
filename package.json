@@ -20,6 +20,7 @@
     "test:e2e:ui": "playwright test --ui",
     "diagnose:btcpay": "node scripts/diagnose-btcpay-endpoint.mjs",
     "verify:btcpay": "node scripts/verify-btcpay.mjs",
+    "dns:btcpay": "node scripts/cloudflare-btcpay-dns.mjs",
     "generate:product-shots": "node scripts/generate-product-shots.mjs",
     "format": "prettier --write \"**/*.{ts,tsx,md,json,css}\"",
     "format:check": "prettier --check \"**/*.{ts,tsx,md,json,css}\"",

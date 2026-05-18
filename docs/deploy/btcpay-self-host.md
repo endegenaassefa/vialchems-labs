@@ -32,8 +32,9 @@ Create this record before running the bootstrap:
 ```text
 Type: A
 Name: pay
-Value: 130.85.186.51
+Value: 130.85.59.153
 TTL: 300
+Proxy status: DNS only
 ```
 
 Verify:
@@ -41,6 +42,18 @@ Verify:
 ```bash
 getent ahostsv4 pay.vialchemlabs.net
 ```
+
+If Cloudflare API access is available, create or update the DNS record from the
+target server:
+
+```bash
+cd /root/vialchems-labs
+CLOUDFLARE_API_TOKEN=<token with DNS edit on vialchemlabs.net> \
+npm run dns:btcpay
+```
+
+The script creates `pay.vialchemlabs.net` as a DNS-only `A` record pointing at
+the server's detected public IP. It does not print the token.
 
 ## Bootstrap
 
