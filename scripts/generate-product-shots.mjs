@@ -1,11 +1,11 @@
-import { mkdirSync } from "node:fs";
+import { existsSync, mkdirSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const SOURCE_DIR = path.resolve(
+const MERGE_SOURCE_DIR = path.resolve(
   ROOT,
   "..",
   "_merge_refs",
@@ -13,19 +13,51 @@ const SOURCE_DIR = path.resolve(
   "assets",
   "vialchemlabs-products",
 );
+const PUBLIC_SOURCE_DIR = path.resolve(
+  ROOT,
+  "public",
+  "v2-assets",
+  "vialchemlabs-products",
+);
+const SOURCE_DIR = existsSync(MERGE_SOURCE_DIR)
+  ? MERGE_SOURCE_DIR
+  : PUBLIC_SOURCE_DIR;
 const OUTPUT_DIR = path.resolve(ROOT, "public", "product-shots");
 const BUNDLE_OUTPUT_DIR = path.resolve(ROOT, "public", "bundle-shots");
 
 const sourceImages = {
+  aod: "vialchemlabs_aod-9604_5-mg_suggested-59.png",
   bpc: "vialchemlabs_bpc-157_5-mg_suggested-59.png",
-  tb500: "vialchemlabs_tb-500_5-mg_suggested-69.png",
+  cjcDac: "vialchemlabs_cjc-1295-dac_2-mg_suggested-59.png",
+  cjcNoDac: "vialchemlabs_cjc-1295-no-dac_5-mg_suggested-79.png",
+  cjcIpamorelin:
+    "vialchemlabs_cjc-1295-plus-ipamorelin-blend_10-mg_suggested-99.png",
+  dsip: "vialchemlabs_dsip_5-mg_suggested-49.png",
+  epitalon: "vialchemlabs_epitalon_10-mg_suggested-49.png",
+  follistatin: "vialchemlabs_follistatin-344_1-mg_suggested-149.png",
   ghkcu: "vialchemlabs_ghk-cu_50-mg_suggested-89.png",
+  ghrp2: "vialchemlabs_ghrp-2_5-mg_suggested-39.png",
+  ghrp6: "vialchemlabs_ghrp-6_5-mg_suggested-39.png",
+  hexarelin: "vialchemlabs_hexarelin_2-mg_suggested-35.png",
+  igfDes: "vialchemlabs_igf-1-des_1-mg_suggested-69.png",
+  igfLr3: "vialchemlabs_igf-1-lr3_1-mg_suggested-99.png",
+  ipamorelin: "vialchemlabs_ipamorelin_5-mg_suggested-69.png",
+  kisspeptin: "vialchemlabs_kisspeptin-10_10-mg_suggested-109.png",
+  kpv: "vialchemlabs_kpv_10-mg_suggested-69.png",
+  ll37: "vialchemlabs_ll-37_5-mg_suggested-79.png",
+  melanotan: "vialchemlabs_melanotan-ii_10-mg_suggested-59.png",
+  motsc: "vialchemlabs_mots-c_10-mg_suggested-79.png",
+  nad: "vialchemlabs_nadplus_100-mg-500-mg_suggested-79.png",
+  pegMgf: "vialchemlabs_peg-mgf_2-mg_suggested-59.png",
+  pt141: "vialchemlabs_pt-141_10-mg_suggested-59.png",
   selank: "vialchemlabs_selank_10-mg_suggested-49.png",
   semax: "vialchemlabs_semax_10-mg_suggested-49.png",
-  epitalon: "vialchemlabs_epitalon_10-mg_suggested-49.png",
-  motsc: "vialchemlabs_mots-c_10-mg_suggested-79.png",
-  kisspeptin: "vialchemlabs_kisspeptin-10_10-mg_suggested-109.png",
-  pt141: "vialchemlabs_pt-141_10-mg_suggested-59.png",
+  sermorelin: "vialchemlabs_sermorelin_5-mg_suggested-59.png",
+  sermorelinIpamorelin:
+    "vialchemlabs_sermorelin-plus-ipamorelin-blend_10-mg_suggested-89.png",
+  tb500: "vialchemlabs_tb-500_5-mg_suggested-69.png",
+  tesamorelin: "vialchemlabs_tesamorelin_5-mg_suggested-69.png",
+  thymosin: "vialchemlabs_thymosin-alpha-1_10-mg_suggested-99.png",
 };
 
 const products = [
@@ -33,56 +65,69 @@ const products = [
   ["tb-500-5mg", "TB-500", "5 MG", sourceImages.tb500],
   ["tb-500-10mg", "TB-500", "10 MG", sourceImages.tb500],
   ["ghk-cu-50mg", "GHK-Cu", "50 MG", sourceImages.ghkcu],
-  ["ipamorelin-10mg", "Ipamorelin", "10 MG", sourceImages.selank],
-  ["ipamorelin-5mg", "Ipamorelin", "5 MG", sourceImages.selank],
-  ["cjc-1295-no-dac-5mg", "CJC-1295", "5 MG", sourceImages.bpc, "NO DAC"],
-  ["cjc-1295-dac-2mg", "CJC-1295", "2 MG", sourceImages.bpc, "DAC"],
+  ["ipamorelin-10mg", "Ipamorelin", "10 MG", sourceImages.ipamorelin],
+  ["ipamorelin-5mg", "Ipamorelin", "5 MG", sourceImages.ipamorelin],
+  ["cjc-1295-no-dac-5mg", "CJC-1295", "5 MG", sourceImages.cjcNoDac, "NO DAC"],
+  ["cjc-1295-dac-2mg", "CJC-1295", "2 MG", sourceImages.cjcDac, "DAC"],
   [
     "cjc-1295-ipamorelin-10mg",
     "CJC-1295",
     "10 MG",
-    sourceImages.bpc,
+    sourceImages.cjcIpamorelin,
+    "+ IPAMORELIN",
+  ],
+  [
+    "cjc-1295-ipamorelin-5mg",
+    "CJC-1295",
+    "5 MG",
+    sourceImages.cjcIpamorelin,
     "+ IPAMORELIN",
   ],
   ["mots-c-10mg", "MOTS-c", "10 MG", sourceImages.motsc],
-  ["nad-500mg", "NAD+", "500 MG", sourceImages.motsc],
+  ["nad-500mg", "NAD+", "500 MG", sourceImages.nad],
   ["selank-10mg", "Selank", "10 MG", sourceImages.selank],
-  ["sermorelin-2mg", "Sermorelin", "2 MG", sourceImages.semax],
-  ["sermorelin-5mg", "Sermorelin", "5 MG", sourceImages.semax],
+  ["sermorelin-2mg", "Sermorelin", "2 MG", sourceImages.sermorelin],
+  ["sermorelin-5mg", "Sermorelin", "5 MG", sourceImages.sermorelin],
   [
     "sermorelin-ipamorelin-10mg",
     "Sermorelin",
     "10 MG",
-    sourceImages.semax,
+    sourceImages.sermorelinIpamorelin,
     "+ IPAMORELIN",
   ],
-  ["tesamorelin-5mg", "Tesamorelin", "5 MG", sourceImages.selank],
-  ["igf-1-lr3-1mg", "IGF-1 LR3", "1 MG", sourceImages.kisspeptin],
-  ["ghrp-2-5mg", "GHRP-2", "5 MG", sourceImages.tb500],
-  ["ghrp-6-5mg", "GHRP-6", "5 MG", sourceImages.tb500],
-  ["hexarelin-2mg", "Hexarelin", "2 MG", sourceImages.pt141],
-  ["peg-mgf-2mg", "PEG-MGF", "2 MG", sourceImages.kisspeptin],
-  ["igf-1-des-1mg", "IGF-1 DES", "1 MG", sourceImages.kisspeptin],
+  ["tesamorelin-5mg", "Tesamorelin", "5 MG", sourceImages.tesamorelin],
+  ["igf-1-lr3-1mg", "IGF-1 LR3", "1 MG", sourceImages.igfLr3],
+  ["ghrp-2-5mg", "GHRP-2", "5 MG", sourceImages.ghrp2],
+  ["ghrp-6-5mg", "GHRP-6", "5 MG", sourceImages.ghrp6],
+  ["hexarelin-2mg", "Hexarelin", "2 MG", sourceImages.hexarelin],
+  ["peg-mgf-2mg", "PEG-MGF", "2 MG", sourceImages.pegMgf],
+  ["igf-1-des-1mg", "IGF-1 DES", "1 MG", sourceImages.igfDes],
   ["semax-30mg", "Semax", "30 MG", sourceImages.semax],
   ["semax-10mg", "Semax", "10 MG", sourceImages.semax],
   ["pt-141-10mg", "PT-141", "10 MG", sourceImages.pt141],
-  ["melanotan-ii-10mg", "Melanotan II", "10 MG", sourceImages.pt141],
+  ["melanotan-ii-10mg", "Melanotan II", "10 MG", sourceImages.melanotan],
   ["kisspeptin-10-10mg", "Kisspeptin-10", "10 MG", sourceImages.kisspeptin],
   ["epitalon-50mg", "Epitalon", "50 MG", sourceImages.epitalon],
   ["epitalon-10mg", "Epitalon", "10 MG", sourceImages.epitalon],
-  ["thymosin-alpha-1-5mg", "Thymosin alpha-1", "5 MG", sourceImages.kisspeptin],
+  ["thymosin-alpha-1-5mg", "Thymosin alpha-1", "5 MG", sourceImages.thymosin],
+  ["thymosin-alpha-1-10mg", "Thymosin alpha-1", "10 MG", sourceImages.thymosin],
+  ["ll-37-5mg", "LL-37", "5 MG", sourceImages.ll37],
+  ["follistatin-344-1mg", "Follistatin-344", "1 MG", sourceImages.follistatin],
+  ["dsip-5mg", "DSIP", "5 MG", sourceImages.dsip],
+  ["kpv-5mg", "KPV", "5 MG", sourceImages.kpv],
+  ["kpv-10mg", "KPV", "10 MG", sourceImages.kpv],
+  ["kpv-500mcg", "KPV", "500 MCG", sourceImages.kpv],
+  ["aod-9604-5mg", "AOD-9604", "5 MG", sourceImages.aod],
+  ["klow-80mg", "KLOW", "80 MG", sourceImages.nad],
+  ["reta-10mg", "RETA", "10 MG", sourceImages.motsc],
+  ["tirz-25mg", "TIRZ", "25 MG", sourceImages.motsc],
   [
-    "thymosin-alpha-1-10mg",
-    "Thymosin alpha-1",
-    "10 MG",
-    sourceImages.kisspeptin,
+    "checkout-verification-1usd",
+    "CHECKOUT",
+    "1 UNIT",
+    sourceImages.bpc,
+    "VERIFICATION",
   ],
-  ["ll-37-5mg", "LL-37", "5 MG", sourceImages.pt141],
-  ["follistatin-344-1mg", "Follistatin-344", "1 MG", sourceImages.kisspeptin],
-  ["dsip-5mg", "DSIP", "5 MG", sourceImages.pt141],
-  ["kpv-5mg", "KPV", "5 MG", sourceImages.ghkcu],
-  ["kpv-10mg", "KPV", "10 MG", sourceImages.ghkcu],
-  ["aod-9604-5mg", "AOD-9604", "5 MG", sourceImages.motsc],
 ];
 
 const bundles = [
@@ -197,11 +242,11 @@ function productOverlay({ name, dose, subline }) {
       <stop offset="100%" stop-color="black"/>
     </linearGradient>
     <linearGradient id="labelInk" x1="0" x2="1" y1="0" y2="0">
-      <stop offset="0%" stop-color="#05090d" stop-opacity="0.97"/>
-      <stop offset="18%" stop-color="#080d12" stop-opacity="0.99"/>
-      <stop offset="50%" stop-color="#080d12" stop-opacity="0.99"/>
-      <stop offset="82%" stop-color="#080d12" stop-opacity="0.99"/>
-      <stop offset="100%" stop-color="#05090d" stop-opacity="0.97"/>
+      <stop offset="0%" stop-color="#dce4e7" stop-opacity="0.98"/>
+      <stop offset="18%" stop-color="#f7faf9" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="82%" stop-color="#f7faf9" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#dce4e7" stop-opacity="0.98"/>
     </linearGradient>
     <linearGradient id="cylinderShade" x1="0" x2="1" y1="0" y2="0">
       <stop offset="0%" stop-color="#000000" stop-opacity="0.18"/>
@@ -226,15 +271,15 @@ function productOverlay({ name, dose, subline }) {
       <feGaussianBlur stdDeviation="0.45"/>
     </filter>
     <style>
-      .brand { font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 5px; fill: #f2f4f1; }
-      .compound { font-family: Arial, Helvetica, sans-serif; font-size: 39px; font-weight: 800; letter-spacing: 0; fill: #ffffff; }
+      .brand { font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 5px; fill: #1d2930; }
+      .compound { font-family: Arial, Helvetica, sans-serif; font-size: 39px; font-weight: 800; letter-spacing: 0; fill: #111827; }
       .compound.short { font-size: 44px; }
       .compound.medium { font-size: 34px; }
       .compound.long { font-size: 27px; }
       .compound.split { font-size: 27px; }
-      .compoundSub { font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 800; letter-spacing: 0; fill: #f7f7f3; }
-      .small { font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 700; letter-spacing: 0; fill: #f5f5ef; }
-      .micro { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 0; fill: #d8dedc; }
+      .compoundSub { font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 800; letter-spacing: 0; fill: #17212a; }
+      .small { font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 700; letter-spacing: 0; fill: #1d2930; }
+      .micro { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: 700; letter-spacing: 0; fill: #485866; }
     </style>
   </defs>
 
@@ -250,27 +295,27 @@ function productOverlay({ name, dose, subline }) {
   <g mask="url(#fadeMask)" clip-path="url(#labelClip)" transform="matrix(0.95 0 0 1 16.875 0)">
     <path d="${labelPath}" fill="url(#labelInk)"/>
 
-    <g opacity="0.27" fill="none" stroke="#10a7c8" stroke-width="3" stroke-linecap="round">
+    <g opacity="0.42" fill="none" stroke="#10a7c8" stroke-width="3" stroke-linecap="round">
       <path d="M394 432 C421 462 367 491 394 521 C421 551 367 580 394 611 C421 641 367 650 394 660"/>
       <path d="M418 432 C391 462 445 491 418 521 C391 551 445 580 418 611 C391 641 445 650 418 660"/>
       <path d="M394 459 H418 M388 493 H424 M392 527 H420 M389 561 H423 M392 596 H420 M390 628 H422"/>
     </g>
 
-    <g opacity="0.2" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <g opacity="0.16" fill="none" stroke="#111827" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
       <path d="M260 565 284 551 308 565 308 594 284 608 260 594Z"/>
       <path d="M260 594 242 607v26"/>
       <path d="M308 594 326 607"/>
     </g>
 
-    <rect x="241" y="423" width="14" height="14" rx="3" fill="none" stroke="#dfe9e8" stroke-width="2"/>
+    <rect x="241" y="423" width="14" height="14" rx="3" fill="none" stroke="#1d2930" stroke-width="2"/>
     <circle cx="248" cy="430" r="3.8" fill="#15a7cb"/>
     <text x="337.5" y="432" text-anchor="middle" class="brand">VIALCHEMLABS</text>
     ${nameText(name, subline)}
-    <rect x="286" y="519" width="103" height="40" rx="6" fill="none" stroke="#dfe9e8" stroke-width="2.2"/>
-    <text x="337.5" y="548" text-anchor="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; font-weight: 800; letter-spacing: 0; fill: #ffffff;">${escapeXml(dose)}</text>
-    <line x1="259" x2="416" y1="575" y2="575" stroke="#dfe9e8" stroke-width="1.4" opacity="0.8"/>
+    <rect x="286" y="519" width="103" height="40" rx="6" fill="#e9f7fb" stroke="#10a7c8" stroke-width="2.2"/>
+    <text x="337.5" y="548" text-anchor="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 25px; font-weight: 800; letter-spacing: 0; fill: #057c9a;">${escapeXml(dose)}</text>
+    <line x1="259" x2="416" y1="575" y2="575" stroke="#b9c9d1" stroke-width="1.4" opacity="0.9"/>
     <text x="337.5" y="602" text-anchor="middle" class="small">RESEARCH USE ONLY</text>
-    <text x="337.5" y="627" text-anchor="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 800; fill: #62d9ef;">NOT FOR HUMAN USE</text>
+    <text x="337.5" y="627" text-anchor="middle" style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 800; fill: #057c9a;">NOT FOR HUMAN USE</text>
     <text x="337.5" y="653" text-anchor="middle" class="micro">FOR LABORATORY RESEARCH ONLY</text>
   </g>
 
