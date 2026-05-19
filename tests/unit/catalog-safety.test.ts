@@ -33,17 +33,24 @@ describe("catalog content compliance", () => {
     expect(siteConfig.domain).toBe("vialchemlabs.net");
   });
 
-  it("uses exact product-shot image paths without legacy brand typos", () => {
+  it("preserves v2 catalog artwork while pinning KLOW and Reta to correct shots", () => {
     const renderedPaths = [
       productImagePath("bpc-157-10mg"),
       productImagePath("tb-500-10mg"),
       productImagePath("ghk-cu-50mg"),
       productImagePath("klow-80mg"),
+      productImagePath("reta-10mg"),
     ].join("\n");
 
-    expect(renderedPaths).toContain("/product-shots/");
+    expect(renderedPaths).toContain("/v2-assets/vialchemlabs-products/");
+    expect(renderedPaths).toContain(
+      "vialchemlabs_bpc-157_5-mg_suggested-59.png",
+    );
+    expect(renderedPaths).toContain(
+      "vialchemlabs_tb-500_5-mg_suggested-69.png",
+    );
     expect(renderedPaths).toContain("/product-shots/klow-80mg.png");
-    expect(renderedPaths).not.toContain("ghk-cu_50-mg");
+    expect(renderedPaths).toContain("/product-shots/reta-10mg.png");
     expect(renderedPaths).not.toMatch(
       new RegExp(`${"vai"}${"lchem"}|vialchem\\.labs`, "i"),
     );
@@ -108,17 +115,18 @@ describe("catalog content compliance", () => {
     }
   });
 
-  it("has an exact matching product-shot image for every live product", () => {
+  it("resolves every live product image to an existing asset", () => {
     for (const slug of publicLaunchProductSlugs) {
       const imagePath = productImagePath(slug);
-      expect(imagePath).toBe(`/product-shots/${slug}.png`);
-      expect(
-        existsSync(
-          join(process.cwd(), "public", "product-shots", `${slug}.png`),
-        ),
-        slug,
-      ).toBe(true);
+      const publicPath = imagePath.startsWith("/product-shots/")
+        ? imagePath.replace(/^\//, "")
+        : imagePath.replace(/^\//, "");
+      expect(existsSync(join(process.cwd(), "public", publicPath)), slug).toBe(
+        true,
+      );
     }
+    expect(productImagePath("klow-80mg")).toBe("/product-shots/klow-80mg.png");
+    expect(productImagePath("reta-10mg")).toBe("/product-shots/reta-10mg.png");
   });
 
   it("keeps the public catalog grid limited to approved live products", () => {
