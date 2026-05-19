@@ -129,7 +129,7 @@ export default async function BitcoinCheckoutPage({
               Complete Bitcoin payment
             </h1>
             <p style={{ color: "var(--fg-muted)" }}>
-              This payment is created from vialchemlabs.net and does not route
+              This payment is created from VialChem Labs and does not route
               through the WooCommerce checkout.
             </p>
           </div>

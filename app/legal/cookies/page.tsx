@@ -9,7 +9,7 @@ import { siteConfig } from "@/lib/content/site";
 export const metadata: Metadata = {
   title: "Cookie Policy",
   description:
-    "How vialchemlabs.net uses cookies and similar technologies, how to manage consent, and the categories of cookies we set.",
+    "How VialChem Labs uses cookies and similar technologies, how to manage consent, and the categories of cookies we set.",
 };
 
 export default function CookiesPage() {

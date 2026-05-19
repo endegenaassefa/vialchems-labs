@@ -10,7 +10,7 @@ import { siteConfig } from "@/lib/content/site";
 export const metadata: Metadata = {
   title: "Refund Policy",
   description:
-    "Replacement policy for vialchemlabs.net research-peptide orders. All sales final on opened vials. Shipping damage replacement requires photo evidence within 7 days.",
+    "Replacement policy for VialChem Labs research-peptide orders. All sales final on opened vials. Shipping damage replacement requires photo evidence within 7 days.",
 };
 
 export default function RefundsPage() {

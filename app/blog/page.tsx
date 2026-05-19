@@ -1,7 +1,4 @@
-/**
- * Blog index — Phase 5 lists 5 placeholder posts. Phase 6 will replace
- * each with a ≥1500-word article + ≥5 scientific citations.
- */
+/** Blog index for published research-register articles. */
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";

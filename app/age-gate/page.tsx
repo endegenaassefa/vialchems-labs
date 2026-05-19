@@ -5,7 +5,7 @@ import { AgeGateClient } from "@/components/age-gate/AgeGateClient";
 export const metadata: Metadata = {
   title: "Age Verification",
   description:
-    "Confirm age and research-use eligibility before entering vialchemlabs.net.",
+    "Confirm age and research-use eligibility before entering VialChem Labs.",
   robots: {
     index: false,
     follow: false,

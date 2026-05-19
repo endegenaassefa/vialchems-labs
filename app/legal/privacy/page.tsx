@@ -9,7 +9,7 @@ import { siteConfig } from "@/lib/content/site";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "How vialchemlabs.net collects, uses, shares, and protects personal information, and your rights under GDPR and CCPA.",
+    "How VialChem Labs collects, uses, shares, and protects personal information, and your rights under GDPR and CCPA.",
 };
 
 export default function PrivacyPage() {

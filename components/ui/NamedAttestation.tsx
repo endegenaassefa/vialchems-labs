@@ -34,7 +34,7 @@ export type NamedAttestationProps = (
   className?: string;
 };
 
-const DEFAULT_PLACEHOLDER =
+const DEFAULT_PENDING_MESSAGE =
   "Pending real research-buyer attestations. We launch with no testimonials and let the first ones accumulate organically through the qualification-gated buyer base.";
 
 export function NamedAttestation(props: NamedAttestationProps) {
@@ -51,7 +51,7 @@ export function NamedAttestation(props: NamedAttestationProps) {
           Attestation · pending
         </p>
         <p className="text-[15px] leading-[1.6] text-[var(--text-muted)] italic">
-          {props.message ?? DEFAULT_PLACEHOLDER}
+          {props.message ?? DEFAULT_PENDING_MESSAGE}
         </p>
       </article>
     );

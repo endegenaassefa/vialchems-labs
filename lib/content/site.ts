@@ -1,7 +1,7 @@
 /**
  * Site-wide brand and configuration constants.
  *
- * v5 rebrand (2026-05-10): operator spec → vialchemlabs.net (clinical-minimal
+ * v5 rebrand (2026-05-10): operator spec -> VialChem Labs (clinical-minimal
  * light theme, cyan-navy accent, storefront typography, "Research-grade peptides,
  * shipped with the COA." tagline).
  */
@@ -13,12 +13,12 @@ const siteUrl =
   `https://${brandDomain}`;
 
 export const siteConfig = {
-  name: "vialchemlabs.net",
-  brandStem: "vialchemlabs.net",
+  name: "VialChem Labs",
+  brandStem: "vialchemlabs",
   domain: brandDomain,
   url: siteUrl,
   description:
-    "vialchemlabs.net ships research-grade peptides with the Certificate of Analysis for every vial. For verified laboratories and qualified research organizations only.",
+    "VialChem Labs ships research-grade peptides with the Certificate of Analysis for every vial. For verified laboratories and qualified research organizations only.",
   tagline: "Research-grade peptides, shipped with the COA.",
   posture: "A" as const,
   // Public legal identity appears in client-rendered pages, so these must use

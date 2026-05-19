@@ -45,14 +45,14 @@ const productStudioImages = Object.fromEntries(
     ["kpv-10mg", "KPV 10mg"],
     ["kpv-500mcg", "KPV 500mcg"],
     ["aod-9604-5mg", "AOD-9604 5mg"],
-    ["klow-80mg", "Klow 80mg"],
+    ["klow-80mg", "KLOW 80mg"],
     ["reta-10mg", "Reta 10mg"],
     ["tirz-25mg", "Tirz 25mg"],
   ].map(([slug, label]) => [
     slug,
     {
       src: `/product-shots/${slug}.png`,
-      alt: `vialchemlabs.net ${label} research vial`,
+      alt: `VialChem Labs ${label} research vial`,
     },
   ]),
 ) as Partial<Record<string, ProductStudioImage>>;

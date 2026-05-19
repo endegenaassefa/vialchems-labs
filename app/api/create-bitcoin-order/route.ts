@@ -88,7 +88,7 @@ async function verifyCheckoutRequest(
     return jsonError(
       "checkout_origin_forbidden",
       403,
-      "Checkout is only available from vialchemlabs.net.",
+      "Checkout is only available from VialChem Labs.",
     );
   }
 

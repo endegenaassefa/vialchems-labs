@@ -10,8 +10,7 @@ import {
 
 export const metadata = {
   title: "Page not found",
-  description:
-    "The page you were looking for does not exist on vialchemlabs.net.",
+  description: "The page you were looking for does not exist on VialChem Labs.",
 };
 
 export default function NotFound() {

@@ -14,11 +14,7 @@ const navItems = [
 ];
 
 function BrandWordmark() {
-  return (
-    <span>
-      vialchemlabs<span style={{ color: "var(--fg-muted)" }}>.net</span>
-    </span>
-  );
+  return <span>vialchemlabs</span>;
 }
 
 export function V2Header() {
@@ -46,7 +42,7 @@ export function V2Header() {
   return (
     <nav className="nav">
       <div className="container nav-inner">
-        <Link href="/" className="brand" aria-label="vialchemlabs.net home">
+        <Link href="/" className="brand" aria-label="VialChem Labs home">
           <span className="brand-mark" />
           <BrandWordmark />
         </Link>

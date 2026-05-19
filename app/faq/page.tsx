@@ -16,7 +16,7 @@ import { faqPageJsonLd, serializeJsonLdSafe } from "@/lib/seo/jsonLd";
 export const metadata: Metadata = {
   title: "FAQ",
   description:
-    "Twenty answers on vialchemlabs.net research peptides, Certificates of Analysis, payment, shipping, refunds, and the affiliate program.",
+    "Twenty answers on VialChem Labs research peptides, Certificates of Analysis, payment, shipping, refunds, and the affiliate program.",
 };
 
 export default function FaqPage() {

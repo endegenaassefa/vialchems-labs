@@ -1,5 +1,5 @@
 /**
- * ComparativeTable — "Industry standard vs vialchemlabs.net standard" table primitive.
+ * ComparativeTable — "Industry standard vs VialChem Labs standard" table primitive.
  *
  * Inspired by titanintake.com's "WITH vs WITHOUT" 6-row comparative table,
  * which is the strongest single trust signal observed across the v4 design
@@ -23,7 +23,7 @@ export interface ComparativeTableProps {
   caption?: string;
   /** Column header for the industry column. Defaults to "Industry typical". */
   industryHeader?: string;
-  /** Column header for the brand column. Defaults to "vialchemlabs.net". */
+  /** Column header for the brand column. Defaults to "VialChem Labs". */
   vialchemlabsHeader?: string;
   /** Rows of the comparison. */
   rows: ComparativeRow[];
@@ -35,7 +35,7 @@ export function ComparativeTable({
   eyebrow,
   caption,
   industryHeader = "Industry typical",
-  vialchemlabsHeader = "vialchemlabs.net",
+  vialchemlabsHeader = "VialChem Labs",
   rows,
   className,
 }: ComparativeTableProps) {

@@ -19,23 +19,24 @@ checkout expectations with production-level quality.
 ## Non-Negotiable Outcomes
 
 1. Brand/domain consistency:
-   - Public site text must consistently say `vialchem.labs` for the visible
-     brand and `VialChem Labs LLC` for the legal entity.
-   - No `vailchem`, `vialchemlabs` title drift, or mismatched casing in public
-     UI unless it is an actual domain/URL.
+   - Public site text must consistently say `VialChem Labs` or `vialchemlabs`
+     for visible brand surfaces and `VialChem Labs LLC` for the legal entity.
+   - The `.net` suffix is reserved for technical domains, URLs, and email
+     addresses. It must not appear as a visible brand suffix.
+   - No `vailchem`, `vialchem.labs`, stale `.net` wordmark drift, or mismatched
+     product casing in public UI.
 
 2. Final live catalog:
    - BPC-157, 10mg, $42
    - TB-500, 10mg, $48
    - GHK-Cu, 50mg, $50
    - CJC-1295 + Ipamorelin, 5mg, $80
-   - Klow, 80mg, $100
+   - KLOW, 80mg, $100
    - KPV, 500mcg, $48
    - MOTS-c, 10mg, $65
    - Semax, 10mg, $65
    - Selank, 10mg, $65
    - Reta, 10mg, $99
-   - Reta, 20mg, $150
    - Tirz, 25mg, $100
    - NAD+, 500mg, $75
 
@@ -48,6 +49,8 @@ checkout expectations with production-level quality.
 
 4. Product page/list quality:
    - Product cards must be clean, organized, and scannable.
+   - Every live product must use the exact `/product-shots/<slug>.png` image.
+   - KLOW must never inherit the GHK-Cu thumbnail.
    - Research-use-only language remains intact.
    - No disease/treatment/clinical-use claims are introduced.
    - Request-only items must not be addable to cart.
@@ -62,6 +65,8 @@ checkout expectations with production-level quality.
 6. Verification:
    - Add or update tests for catalog canonicalization, price changes,
      unavailable/request-only items, and brand string drift.
+   - Remove generated public COA records unless real verified COA PDFs and
+     batch metadata exist.
    - Run typecheck, lint, focused tests, build.
    - Use browser/screenshot or deterministic HTML/CSS checks where possible.
 

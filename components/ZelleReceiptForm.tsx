@@ -124,12 +124,18 @@ export function ZelleReceiptForm({
           <label className="label" htmlFor="zelle-sender-name">
             Bank sender name
           </label>
+          <p
+            id="zelle-sender-name-help"
+            className="mt-1 text-[12px] italic text-[var(--fg-muted)]"
+          >
+            Use only if the name in your bank app differs from the buyer name.
+          </p>
           <input
             className="input"
             id="zelle-sender-name"
             name="senderName"
             autoComplete="off"
-            placeholder="If different from buyer name"
+            aria-describedby="zelle-sender-name-help"
           />
         </div>
       </div>

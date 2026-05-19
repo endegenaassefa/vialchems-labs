@@ -33,11 +33,10 @@ describe("buildSitemap", () => {
   it("emits an entry for every blog post slug", () => {
     const entries = buildSitemap(BASE);
     const posts = entries.filter((e) => e.url.startsWith(`${BASE}/blog/`));
-    // 5 placeholder blog posts in lib/content/blog.ts
     expect(posts.length).toBeGreaterThanOrEqual(5);
   });
 
-  it("omits sample COA detail pages until live certificates are published", () => {
+  it("omits COA detail pages until verified certificates are published", () => {
     const entries = buildSitemap(BASE);
     const coa = entries.filter((e) => e.url.includes(`${BASE}/coa/`));
     expect(coa).toHaveLength(0);

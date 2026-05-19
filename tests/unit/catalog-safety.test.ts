@@ -7,6 +7,8 @@
  * future operator-edited catalog metadata sneaks in a forbidden phrase.
  */
 import { describe, expect, it } from "vitest";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import {
   catalogDisplayItems,
   catalogItems,
@@ -25,20 +27,23 @@ import { siteConfig } from "@/lib/content/site";
 
 describe("catalog content compliance", () => {
   it("uses the public brand that matches the visible domain styling", () => {
-    expect(siteConfig.name).toBe("vialchemlabs.net");
+    expect(siteConfig.name).toBe("VialChem Labs");
+    expect(siteConfig.brandStem).toBe("vialchemlabs");
     expect(siteConfig.llcName).toBe("VialChem Labs LLC");
     expect(siteConfig.domain).toBe("vialchemlabs.net");
   });
 
-  it("uses production-domain image paths without legacy brand typos", () => {
+  it("uses exact product-shot image paths without legacy brand typos", () => {
     const renderedPaths = [
       productImagePath("bpc-157-10mg"),
       productImagePath("tb-500-10mg"),
       productImagePath("ghk-cu-50mg"),
+      productImagePath("klow-80mg"),
     ].join("\n");
 
-    expect(renderedPaths).toContain("/v2-assets/vialchemlabs-products/");
-    expect(renderedPaths).toContain("vialchemlabs_");
+    expect(renderedPaths).toContain("/product-shots/");
+    expect(renderedPaths).toContain("/product-shots/klow-80mg.png");
+    expect(renderedPaths).not.toContain("ghk-cu_50-mg");
     expect(renderedPaths).not.toMatch(
       new RegExp(`${"vai"}${"lchem"}|vialchem\\.labs`, "i"),
     );
@@ -103,6 +108,19 @@ describe("catalog content compliance", () => {
     }
   });
 
+  it("has an exact matching product-shot image for every live product", () => {
+    for (const slug of publicLaunchProductSlugs) {
+      const imagePath = productImagePath(slug);
+      expect(imagePath).toBe(`/product-shots/${slug}.png`);
+      expect(
+        existsSync(
+          join(process.cwd(), "public", "product-shots", `${slug}.png`),
+        ),
+        slug,
+      ).toBe(true);
+    }
+  });
+
   it("keeps the public catalog grid limited to approved live products", () => {
     expect(catalogItems.map((item) => item.slug)).toEqual([
       ...publicLaunchProductSlugs,
@@ -124,6 +142,15 @@ describe("catalog content compliance", () => {
     expect(reta?.priceCents).toBe(9900);
     expect(reta?.variants).toHaveLength(1);
     expect(reta?.variants[0]?.sku).toBe("RETA-10MG");
+  });
+
+  it("renders KLOW as one live product with the KLOW image and title casing", () => {
+    const klow = catalogDisplayItems.find((item) => item.slug === "klow-80mg");
+
+    expect(klow?.shortName).toBe("KLOW");
+    expect(klow?.name).toBe("KLOW · 80mg vial");
+    expect(klow?.image).toBe("/product-shots/klow-80mg.png");
+    expect(klow?.priceCents).toBe(10000);
   });
 
   it("treats non-launch products as custom request only", () => {

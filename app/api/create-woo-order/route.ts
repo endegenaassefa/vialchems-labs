@@ -61,7 +61,7 @@ export async function POST(request: Request): Promise<Response> {
     return jsonError(
       "checkout_origin_forbidden",
       403,
-      "Checkout handoff is only available from vialchemlabs.net.",
+      "Checkout handoff is only available from VialChem Labs.",
     );
   }
 
@@ -105,7 +105,7 @@ export async function POST(request: Request): Promise<Response> {
     return jsonError(
       "payment_method_not_woocommerce",
       400,
-      "Bitcoin and Zelle are handled directly on vialchemlabs.net.",
+      "Bitcoin and Zelle are handled directly on VialChem Labs.",
     );
   }
 

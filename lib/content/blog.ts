@@ -7,8 +7,7 @@
  *
  * Body content is shipped as a structured `sections` array so the renderer at
  * app/blog/[slug]/page.tsx can format headings and paragraphs without bringing
- * in a markdown parser. Citations are author + year + journal references; DOIs
- * are placeholder strings to flag the citation register, not deceptive claim.
+ * in a markdown parser. Citations are author + year + journal references.
  *
  * Iron Law 2.4 + 2.13: every paragraph in this file is hand-audited against
  * the unsafeMarketingPatterns set in lib/compliance.ts. The CI grep gate at
@@ -45,7 +44,7 @@ export const blogPosts: BlogPost[] = [
     slug: "bpc-157-research",
     title: "BPC-157: Mechanism, Research, and In-Vitro Findings",
     publishedAt: "2026-04-15",
-    author: "vialchemlabs.net Research",
+    author: "VialChem Labs Research",
     summary:
       "A research register on Body Protection Compound 157: discovery in gastric juice, sequence and structure, in-vitro signaling pathway evidence, and animal-model observations on tissue repair kinetics.",
     excerpt:
@@ -108,7 +107,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Closing Note",
         paragraphs: [
-          "The BPC-157 research register is one of the more thoroughly populated in the synthetic-peptide laboratory literature, with several hundred PubMed-indexed publications spanning in-vitro mechanism work and animal-model observation studies. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. vialchemlabs.net supplies BPC-157 as a research reference compound with per-batch independent Certificates of Analysis published on the COA index page; reference vials at 10 milligrams are catalogued at /products/bpc-157-10mg.",
+          "The BPC-157 research register is one of the more thoroughly populated in the synthetic-peptide laboratory literature, with several hundred PubMed-indexed publications spanning in-vitro mechanism work and animal-model observation studies. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. VialChem Labs supplies BPC-157 as a research reference compound with per-batch independent Certificates of Analysis published on the COA index page; reference vials at 10 milligrams are catalogued at /products/bpc-157-10mg.",
         ],
       },
     ],
@@ -143,7 +142,7 @@ export const blogPosts: BlogPost[] = [
     slug: "reading-a-coa",
     title: "Reading a Certificate of Analysis: A Researcher Reference",
     publishedAt: "2026-04-22",
-    author: "vialchemlabs.net Research",
+    author: "VialChem Labs Research",
     summary:
       "A laboratory-bench guide to interpreting Certificates of Analysis: identity by mass spectrometry, purity by reverse-phase HPLC area-percent, sterility by USP method 71, endotoxin by LAL, and per-batch traceability.",
     excerpt:
@@ -196,7 +195,7 @@ export const blogPosts: BlogPost[] = [
           'A research-grade COA for a synthetic peptide should bind to a specific manufacture lot. The lot code on the COA should match the lot code on the vial label, the box label, and the shipping manifest. A lot-bound COA is operationally distinct from a vendor "specification document" that describes the typical analytical profile of a peptide product but does not commit to a specific lot; the latter is a marketing artifact and not a release-testing document. The bound-to-lot characteristic is the practical operational test the receiving researcher should apply on every incoming material delivery: if the lot code on the document does not match the lot code on the vial, the document is not a valid release-testing artifact for that vial.',
           "Independent third-party laboratories accredited for release-testing of synthetic peptides operate outside the vendor-side synthesis chain. The operational distinction between a vendor self-published COA and an independent-laboratory COA is that the latter document is generated outside the synthesis-laboratory chain of custody and is therefore more difficult to fabricate. The signed-and-stamped variant published directly on the analytical laboratory portal is the strongest research-register evidence; the unsigned PDF that has only been re-uploaded to the vendor site is the weakest.",
           "A useful operational practice is to confirm the analytical laboratory portal listing for the lot code printed on the vial. Most independent analytical laboratories serving the synthetic-peptide research community publish a lookup index keyed by lot code on their public portal. The receiving researcher entering the printed lot code on the portal should be returned the same data as the vendor-supplied document. A discrepancy between the portal listing and the vendor document is a strong signal that the vendor document has been altered after issuance, and the lot should be quarantined until the discrepancy is resolved.",
-          "vialchemlabs.net publishes per-batch COA documents on the public COA index at the /coa route. Each lot is bound to a vial-label lot code, dated to the manufacture week, and links to the laboratory-portal record where the assay artifacts can be independently verified. The lot-traceability practice is the operational backbone of a research-register supplier and constitutes the per-batch transparency commitment that distinguishes vialchemlabs.net from the unverified-attestation portion of the synthetic-peptide market.",
+          "VialChem Labs publishes per-batch COA documents on the public COA index at the /coa route. Each lot is bound to a vial-label lot code, dated to the manufacture week, and links to the laboratory-portal record where the assay artifacts can be independently verified. The lot-traceability practice is the operational backbone of a research-register supplier and constitutes the per-batch transparency commitment that distinguishes VialChem Labs from the unverified-attestation portion of the synthetic-peptide market.",
         ],
       },
       {
@@ -237,7 +236,7 @@ export const blogPosts: BlogPost[] = [
     slug: "ghk-cu-research",
     title: "GHK-Cu Copper Peptide: A Research Register",
     publishedAt: "2026-04-29",
-    author: "vialchemlabs.net Research",
+    author: "VialChem Labs Research",
     summary:
       "Glycyl-Histidyl-Lysine bound to a copper-2-plus ion: discovery in human plasma, in-vitro fibroblast signaling literature, animal-model wound-closure studies, and the topical research paradigms documented in cell-culture and animal-model work.",
     excerpt:
@@ -300,7 +299,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Closing Note",
         paragraphs: [
-          "The GHK-Cu research register is an active area of cell-culture and animal-model investigation, with a multi-decade literature spanning fibroblast signaling, extracellular-matrix remodeling, and dermal-repair animal-model paradigms. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. vialchemlabs.net supplies GHK-Cu as a research reference compound with per-batch independent Certificates of Analysis published on the COA index page.",
+          "The GHK-Cu research register is an active area of cell-culture and animal-model investigation, with a multi-decade literature spanning fibroblast signaling, extracellular-matrix remodeling, and dermal-repair animal-model paradigms. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. VialChem Labs supplies GHK-Cu as a research reference compound with per-batch independent Certificates of Analysis published on the COA index page.",
         ],
       },
     ],
@@ -335,7 +334,7 @@ export const blogPosts: BlogPost[] = [
     slug: "tb-500-research",
     title: "TB-500 (Thymosin Beta-4): A Mechanism Research Register",
     publishedAt: "2026-05-06",
-    author: "vialchemlabs.net Research",
+    author: "VialChem Labs Research",
     summary:
       "TB-500 is the synthetic 17-amino-acid C-terminal actin-binding fragment of thymosin beta-4. Research register: discovery, sequence, in-vitro actin polymerization mechanism, cell-migration scratch-assay literature, and animal-model angiogenesis observations.",
     excerpt:
@@ -399,7 +398,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Closing Note",
         paragraphs: [
-          "The TB-500 research register is one of the more thoroughly developed actin-cytoskeleton signaling registers in the synthetic-peptide laboratory literature, with a multi-decade corpus spanning in-vitro actin polymerization mechanism, cell-migration scratch-assay paradigms, and animal-model soft-tissue and cardiac repair observations. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. vialchemlabs.net supplies TB-500 as a research reference compound with per-batch independent Certificates of Analysis published on the COA index page; reference vials at 10 milligrams are catalogued at /products/tb-500-10mg.",
+          "The TB-500 research register is one of the more thoroughly developed actin-cytoskeleton signaling registers in the synthetic-peptide laboratory literature, with a multi-decade corpus spanning in-vitro actin polymerization mechanism, cell-migration scratch-assay paradigms, and animal-model soft-tissue and cardiac repair observations. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. VialChem Labs supplies TB-500 as a research reference compound with per-batch independent Certificates of Analysis published on the COA index page; reference vials at 10 milligrams are catalogued at /products/tb-500-10mg.",
         ],
       },
     ],
@@ -434,7 +433,7 @@ export const blogPosts: BlogPost[] = [
     slug: "recovery-stack-synergy",
     title: "BPC/TB Reference Set: Animal-Model Research Register",
     publishedAt: "2026-05-08",
-    author: "vialchemlabs.net Research",
+    author: "VialChem Labs Research",
     summary:
       "A research register on combined-administration paradigms of BPC-157 and TB-500 in cell-culture and animal-model investigations: complementary mechanism axes, in-vitro evidence of pathway cross-talk, and animal-model observations on tissue-repair kinetics.",
     excerpt:
@@ -491,7 +490,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Closing Note",
         paragraphs: [
-          "The combined BPC-157 and TB-500 research register is a smaller but actively investigated subset of the larger soft-tissue repair literature on the two reference peptides individually. The mechanism rationale is grounded in the non-overlapping cell-culture signaling axes engaged by the two compounds, and the published combined-administration cell-culture and animal-model literature is consistent with cross-talk between the axes at the cellular phenotype level. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. vialchemlabs.net supplies the combined pair as the BPC/TB Reference Set with per-batch independent Certificates of Analysis published on the COA index page; reference at /products/recovery-stack.",
+          "The combined BPC-157 and TB-500 research register is a smaller but actively investigated subset of the larger soft-tissue repair literature on the two reference peptides individually. The mechanism rationale is grounded in the non-overlapping cell-culture signaling axes engaged by the two compounds, and the published combined-administration cell-culture and animal-model literature is consistent with cross-talk between the axes at the cellular phenotype level. This register is intended for laboratory professionals operating in an in-vitro or animal-model research setting. It is not a guidance document for any non-research context. VialChem Labs supplies the combined pair as the BPC/TB Reference Set with per-batch independent Certificates of Analysis published on the COA index page; reference at /products/recovery-stack.",
         ],
       },
     ],

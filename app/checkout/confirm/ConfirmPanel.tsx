@@ -1,8 +1,7 @@
 /**
  * ConfirmPanel — client island for /checkout/confirm.
  *
- * Reads the placeholder order from sessionStorage. Phase 5 stub — production
- * order persistence (Supabase + payment-status webhooks) lands in Phase 7+8.
+ * Reads the session order from sessionStorage for legacy checkout confirmation.
  */
 "use client";
 

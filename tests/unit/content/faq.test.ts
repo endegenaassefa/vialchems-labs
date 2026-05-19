@@ -13,10 +13,12 @@ describe("FAQ content", () => {
     }
   });
 
-  it("substitutes vialchemlabs.net for the brand placeholder", () => {
+  it("uses the VialChem Labs brand name without visible domain branding", () => {
     const allCopy = faqEntries.map((e) => `${e.q} ${e.a}`).join(" ");
-    expect(allCopy).toContain("vialchemlabs.net");
+    expect(allCopy).toContain("VialChem Labs");
+    expect(allCopy).not.toContain("https://vialchemlabs.net");
     expect(allCopy).not.toContain("vialchemlabs ");
+    expect(allCopy).not.toContain("Klow");
     expect(allCopy).not.toContain("{{BRAND_NAME}}");
     expect(allCopy).not.toContain("{{LAB_PARTNER}}");
     expect(allCopy).not.toContain("{{SITE_URL}}");

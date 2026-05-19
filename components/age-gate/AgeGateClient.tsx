@@ -48,7 +48,7 @@ const RESEARCH_DETAILS = [
   },
   {
     title: "Shipping boundaries",
-    body: "vialchemlabs.net ships within the United States only at this time. Customers assume jurisdiction-specific compliance responsibility for their organization and destination.",
+    body: "VialChem Labs ships within the United States only at this time. Customers assume jurisdiction-specific compliance responsibility for their organization and destination.",
   },
 ];
 
@@ -112,7 +112,7 @@ export function AgeGateClient() {
               <FlaskConical size={22} strokeWidth={1.6} />
             </span>
             <span className="font-display text-[19px] font-semibold tracking-[0.22em] text-[var(--text-primary)] max-sm:text-[16px]">
-              vialchemlabs.net
+              VialChem Labs
             </span>
           </div>
 
@@ -264,7 +264,7 @@ export function AgeGateClient() {
           </div>
 
           <footer className="age-gate-footer mt-7 flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-[12px] text-[var(--text-muted)] max-sm:mt-4 max-sm:text-[11px]">
-            <span>© {new Date().getFullYear()} vialchemlabs.net</span>
+            <span>© {new Date().getFullYear()} VialChem Labs</span>
             <span aria-hidden="true">·</span>
             <Link
               href="/legal/terms"

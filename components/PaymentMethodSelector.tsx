@@ -95,8 +95,8 @@ export function PaymentMethodSelector({
     <fieldset className="v2-payment-selector">
       <legend className="eyebrow">Secure checkout payment options</legend>
       <p className="v2-payment-selector-copy">
-        Zelle is available on vialchemlabs.net. Bitcoin activates after endpoint
-        checks pass; additional checkout methods are coming soon.
+        Zelle and Bitcoin are available directly on VialChem Labs. Additional
+        checkout methods are coming soon.
       </p>
       <div className="v2-payment-grid">
         {paymentMethods.map((method) => {

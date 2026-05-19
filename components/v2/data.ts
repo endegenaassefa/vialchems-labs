@@ -115,55 +115,7 @@ function catalogFamily(product: Product) {
   return familyBySlug.get(product.slug) ?? "Research peptide";
 }
 
-const imageBySlug: Record<string, string> = {
-  "aod-9604-5mg": "vialchemlabs_aod-9604_5-mg_suggested-59.png",
-  "bpc-157-10mg": "vialchemlabs_bpc-157_5-mg_suggested-59.png",
-  "checkout-verification-1usd": "vialchemlabs_bpc-157_5-mg_suggested-59.png",
-  "cjc-1295-dac-2mg": "vialchemlabs_cjc-1295-dac_2-mg_suggested-59.png",
-  "cjc-1295-no-dac-5mg": "vialchemlabs_cjc-1295-no-dac_5-mg_suggested-79.png",
-  "cjc-1295-ipamorelin-5mg":
-    "vialchemlabs_cjc-1295-plus-ipamorelin-blend_10-mg_suggested-99.png",
-  "cjc-1295-ipamorelin-10mg":
-    "vialchemlabs_cjc-1295-plus-ipamorelin-blend_10-mg_suggested-99.png",
-  "dsip-5mg": "vialchemlabs_dsip_5-mg_suggested-49.png",
-  "epitalon-10mg": "vialchemlabs_epitalon_10-mg_suggested-49.png",
-  "epitalon-50mg": "vialchemlabs_epitalon_10-mg_suggested-49.png",
-  "follistatin-344-1mg": "vialchemlabs_follistatin-344_1-mg_suggested-149.png",
-  "ghk-cu-50mg": "vialchemlabs_ghk-cu_50-mg_suggested-89.png",
-  "ghrp-2-5mg": "vialchemlabs_ghrp-2_5-mg_suggested-39.png",
-  "ghrp-6-5mg": "vialchemlabs_ghrp-6_5-mg_suggested-39.png",
-  "hexarelin-2mg": "vialchemlabs_hexarelin_2-mg_suggested-35.png",
-  "igf-1-des-1mg": "vialchemlabs_igf-1-des_1-mg_suggested-69.png",
-  "igf-1-lr3-1mg": "vialchemlabs_igf-1-lr3_1-mg_suggested-99.png",
-  "ipamorelin-5mg": "vialchemlabs_ipamorelin_5-mg_suggested-69.png",
-  "ipamorelin-10mg": "vialchemlabs_ipamorelin_5-mg_suggested-69.png",
-  "kisspeptin-10-10mg": "vialchemlabs_kisspeptin-10_10-mg_suggested-109.png",
-  "klow-80mg": "vialchemlabs_ghk-cu_50-mg_suggested-89.png",
-  "kpv-5mg": "vialchemlabs_kpv_10-mg_suggested-69.png",
-  "kpv-10mg": "vialchemlabs_kpv_10-mg_suggested-69.png",
-  "kpv-500mcg": "vialchemlabs_kpv_10-mg_suggested-69.png",
-  "ll-37-5mg": "vialchemlabs_ll-37_5-mg_suggested-79.png",
-  "melanotan-ii-10mg": "vialchemlabs_melanotan-ii_10-mg_suggested-59.png",
-  "mots-c-10mg": "vialchemlabs_mots-c_10-mg_suggested-79.png",
-  "nad-500mg": "vialchemlabs_nadplus_100-mg-500-mg_suggested-79.png",
-  "peg-mgf-2mg": "vialchemlabs_peg-mgf_2-mg_suggested-59.png",
-  "pt-141-10mg": "vialchemlabs_pt-141_10-mg_suggested-59.png",
-  "reta-10mg": "vialchemlabs_nadplus_100-mg-500-mg_suggested-79.png",
-  "selank-10mg": "vialchemlabs_selank_10-mg_suggested-49.png",
-  "semax-10mg": "vialchemlabs_semax_10-mg_suggested-49.png",
-  "semax-30mg": "vialchemlabs_semax_10-mg_suggested-49.png",
-  "sermorelin-5mg": "vialchemlabs_sermorelin_5-mg_suggested-59.png",
-  "sermorelin-2mg": "vialchemlabs_sermorelin_5-mg_suggested-59.png",
-  "sermorelin-ipamorelin-10mg":
-    "vialchemlabs_sermorelin-plus-ipamorelin-blend_10-mg_suggested-89.png",
-  "tb-500-5mg": "vialchemlabs_tb-500_5-mg_suggested-69.png",
-  "tb-500-10mg": "vialchemlabs_tb-500_5-mg_suggested-69.png",
-  "tesamorelin-5mg": "vialchemlabs_tesamorelin_5-mg_suggested-69.png",
-  "tirz-25mg": "vialchemlabs_nadplus_100-mg-500-mg_suggested-79.png",
-  "thymosin-alpha-1-5mg":
-    "vialchemlabs_thymosin-alpha-1_10-mg_suggested-99.png",
-  "thymosin-alpha-1-10mg":
-    "vialchemlabs_thymosin-alpha-1_10-mg_suggested-99.png",
+const bundleImageBySlug: Record<string, string> = {
   "glow-stack": "vialchemlabs_glow-stack_suggested-169.png",
   "longevity-stack": "vialchemlabs_longevity-stack_suggested-179.png",
   "neuro-stack": "vialchemlabs_neuro-stack_suggested-69.png",
@@ -172,8 +124,11 @@ const imageBySlug: Record<string, string> = {
 };
 
 export function productImagePath(slug: string) {
+  if (products.some((product) => product.slug === slug)) {
+    return `/product-shots/${slug}.png`;
+  }
   const file =
-    imageBySlug[slug] ?? "vialchemlabs_ghk-cu_50-mg_suggested-89.png";
+    bundleImageBySlug[slug] ?? "vialchemlabs_recovery-stack_suggested-129.png";
   return `/v2-assets/vialchemlabs-products/${file}`;
 }
 

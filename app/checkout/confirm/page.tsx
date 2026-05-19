@@ -1,9 +1,8 @@
 /**
  * Checkout step 4 — Confirm.
  *
- * Reads the placeholder order from sessionStorage (written by ReviewPanel) and
- * renders order ID, expected ship date, payment status, line items, and links
- * to /order/[id] + /account/orders.
+ * Reads the session order from ReviewPanel and renders order ID, expected ship
+ * date, payment status, line items, and links to /order/[id] + /account/orders.
  */
 import type { Metadata } from "next";
 import { SiteHeader } from "@/components/SiteHeader";

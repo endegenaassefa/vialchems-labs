@@ -5,9 +5,7 @@
  * Description is shortDescription for Phase 5 (Phase 6 swaps in 336-345 word
  * copy from Appendix E.1).
  *
- * COA tab renders a placeholder batch row using `coaRecords` from
- * `@/lib/content/coa`. PDF link points at the placeholder pdfPath; the actual
- * artifact is generated in Phase 7.
+ * COA tab renders only verified uploaded records from `@/lib/content/coa`.
  *
  * Related Products tab picks 3 SKUs from the same category, falling back to
  * adjacent categories if fewer than 3 in-category siblings exist.
@@ -130,7 +128,8 @@ function CoaPanel({ product }: { product: Product }) {
     return (
       <div role="tabpanel" id="tab-panel-coa" aria-labelledby="tab-coa">
         <p className="text-[var(--text-muted)]">
-          No Certificate of Analysis on file.
+          No public Certificate of Analysis is posted for this SKU yet. Product
+          lots remain gated until release documentation is cleared.
         </p>
       </div>
     );
@@ -148,7 +147,7 @@ function CoaPanel({ product }: { product: Product }) {
           <Pill variant="info">Independent lab</Pill>
         </div>
         <p className="text-[15px] leading-[1.6] text-[var(--text-muted)]">
-          Each batch of {product.shortName} is independently tested by{" "}
+          Each released batch of {product.shortName} is independently tested by{" "}
           <span className="text-[var(--text)]">{record.lab}</span> for purity by
           reverse-phase HPLC, sterility under USP &lt;71&gt;, and endotoxin
           level by LAL. The full report is available below.

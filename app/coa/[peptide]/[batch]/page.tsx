@@ -1,8 +1,4 @@
-/**
- * Per-batch COA detail page. Phase 5 renders structured data for the placeholder
- * batch and links to a placeholder PDF. The "EXAMPLE COA — REPLACE BEFORE
- * LAUNCH" notice is rendered prominently per the dispatch.
- */
+/** Per-batch COA detail page for verified, uploaded certificate records. */
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -33,22 +29,9 @@ export async function generateMetadata({
   const { peptide, batch } = await params;
   const coa = getCoa(peptide, batch);
   if (!coa) return { title: "COA not found" };
-  const isSample = coa.status === "sample";
   return {
     title: `${coa.peptideName} · ${coa.batch}`,
-    description: isSample
-      ? `Sample Certificate of Analysis layout for ${coa.peptideName}. Production batch values are required before shipment.`
-      : `Independent third-party Certificate of Analysis for ${coa.peptideName}, batch ${coa.batch}, tested by ${coa.lab}.`,
-    robots: isSample
-      ? {
-          index: false,
-          follow: false,
-          googleBot: {
-            index: false,
-            follow: false,
-          },
-        }
-      : undefined,
+    description: `Independent third-party Certificate of Analysis for ${coa.peptideName}, batch ${coa.batch}, tested by ${coa.lab}.`,
   };
 }
 
@@ -109,24 +92,7 @@ export default async function CoaDetailPage({ params }: PageProps) {
               Tested {coa.testDate}
             </p>
             <div className="mb-8">
-              <Pill variant={coa.status === "verified" ? "accent" : "info"}>
-                {coa.status === "verified" ? "Verified" : "Sample only"}
-              </Pill>
-            </div>
-
-            <div
-              role="note"
-              aria-label="Sample certificate"
-              className="mb-10 rounded-[14px] border border-[var(--accent)] bg-[color:color-mix(in_srgb,var(--accent)_8%,transparent)] px-6 py-5 shadow-[var(--shadow-sm)]"
-            >
-              <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-2">
-                Sample certificate
-              </p>
-              <p className="text-[14px] text-[var(--text)] leading-[1.6]">
-                This is a sample certificate layout. Production batch
-                certificates require live laboratory values and PDF upload
-                before any lot is released for shipment.
-              </p>
+              <Pill variant="accent">Verified</Pill>
             </div>
 
             {/* Phase 4 v4: Specs grid in elevated Card */}
@@ -155,21 +121,12 @@ export default async function CoaDetailPage({ params }: PageProps) {
             </Card>
 
             <div className="mt-10 flex flex-wrap gap-3">
-              {coa.status === "verified" ? (
-                <a
-                  href={coa.pdfPath}
-                  className={buttonClassNames("primary", "lg")}
-                >
-                  Download PDF
-                </a>
-              ) : (
-                <span
-                  className={buttonClassNames("outline", "lg")}
-                  aria-disabled="true"
-                >
-                  PDF pending
-                </span>
-              )}
+              <a
+                href={coa.pdfPath}
+                className={buttonClassNames("primary", "lg")}
+              >
+                Download PDF
+              </a>
               {/* v1.3 — operator override per Iron Law 2.26 — public-facing
                   external "verify at lab portal" link removed (no specific
                   lab affiliation in UI). The COA PDF below is the verification

@@ -705,8 +705,8 @@ export const products: Product[] = [
   {
     slug: "klow-80mg",
     sku: "KLOW-80MG",
-    name: "Klow, 80mg vial",
-    shortName: "Klow",
+    name: "KLOW, 80mg vial",
+    shortName: "KLOW",
     dose: "80mg",
     format: "vial",
     listPriceCents: 10000,
@@ -715,7 +715,7 @@ export const products: Product[] = [
     role: "catalog-filler",
     position: "operator-approved live catalog price",
     shortDescription:
-      "Klow research material supplied as an 80mg lyophilized vial. Reference material for identity, purity, batch comparison, and analytical workflow contexts.",
+      "KLOW research material supplied as an 80mg lyophilized vial. Reference material for identity, purity, batch comparison, and analytical workflow contexts.",
   },
   {
     slug: "reta-10mg",

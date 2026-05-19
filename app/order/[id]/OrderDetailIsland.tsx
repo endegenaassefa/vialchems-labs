@@ -1,9 +1,7 @@
 /**
  * OrderDetailIsland — client island for /order/[id].
  *
- * PLACEHOLDER: real implementation reads order rows from Supabase with a
- * one-time token in Phase 9. Phase 5 reads the most-recent order written to
- * sessionStorage by ReviewPanel.
+ * Renders the most recent session order when the browser has local order state.
  */
 "use client";
 
@@ -57,7 +55,7 @@ export function OrderDetailIsland({ expectedId }: { expectedId: string }) {
     return (
       <EmptyState
         title="Order detail not available in this session"
-        description="Token-gated order pages activate pre-launch. Until then, only the originating browser tab can render this view."
+        description="Sign in to view available account orders, or contact support with your order reference."
         action={
           <Link
             href="/account/orders"

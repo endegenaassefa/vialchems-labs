@@ -14,21 +14,23 @@ const fuse = new Fuse<CoaRecord>(coaRecords, {
 });
 
 describe("COA search (Fuse)", () => {
-  it("finds a record by peptide short name", () => {
+  it("has no searchable records until verified COAs are uploaded", () => {
+    expect(coaRecords).toHaveLength(0);
+  });
+
+  it("returns no record by peptide short name before publication", () => {
     const hits = fuse.search("BPC-157").map((r) => r.item.peptide);
-    expect(hits).toContain("bpc-157-10mg");
+    expect(hits).toHaveLength(0);
   });
 
-  it("finds records by batch substring", () => {
+  it("returns no records by batch substring before publication", () => {
     const hits = fuse.search("BATCH-2026");
-    expect(hits.length).toBe(coaRecords.length);
+    expect(hits).toHaveLength(0);
   });
 
-  it("finds records by laboratory name (lab-agnostic per v1.3 override)", () => {
-    // v1.3 — operator removed specific lab affiliation; records carry the
-    // generic "Independent Lab" label. Search by that string.
+  it("returns no records by laboratory name before publication", () => {
     const hits = fuse.search("Independent Lab");
-    expect(hits.length).toBe(coaRecords.length);
+    expect(hits).toHaveLength(0);
   });
 
   it("returns no matches for irrelevant query", () => {

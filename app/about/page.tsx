@@ -1,7 +1,7 @@
 /**
  * About page — verbatim from SUPER_PROMPT_v3 Appendix N.
  *
- * Brand placeholders substituted: vialchemlabs.net / independent third-party lab.
+ * Brand copy uses VialChem Labs / independent third-party lab.
  * In SKIP_PATHS for grep-forbidden-words.sh because the verbatim Appendix N
  * compliance section uses FDA-mandated negation phrasing
  * ("not intended to diagnose, treat, cure, or prevent any disease").
@@ -15,7 +15,7 @@ import { siteConfig } from "@/lib/content/site";
 /* v4 design overhaul — verbatim Appendix N prose UNCHANGED. Additive edits:
  *   - ProcessFlow added between Thesis and Operations to show "what every
  *     batch goes through" (Titan-inspired pattern).
- *   - NamedAttestation placeholder added at the end (pre-launch honesty).
+ *   - Public claims stay limited to current operational evidence.
  *   - Hero/section padding aligned with the broader v4 lift (py-32/40/48).
  * `git diff` will show that prose paragraphs have ZERO additions or removals.
  */
@@ -49,7 +49,7 @@ const PROCESS_STEPS = [
 export const metadata: Metadata = {
   title: "About",
   description:
-    "vialchemlabs.net supplies research peptides independently verified per batch. We compete on one axis: measurable accuracy.",
+    "VialChem Labs supplies research peptides independently verified per batch. We compete on one axis: measurable accuracy.",
 };
 
 export default function AboutPage() {
@@ -77,8 +77,7 @@ export default function AboutPage() {
                 heritage. We compete on one axis: measurable accuracy.
               </p>
               <p>
-                vialchemlabs.net runs an independent third-party testing program
-                —{" "}
+                VialChem Labs runs an independent third-party testing program —{" "}
                 <span className="text-[var(--text)]">
                   independent lab work, published Certificates of Analysis,
                   traceable batch numbers

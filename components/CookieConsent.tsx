@@ -173,7 +173,7 @@ function CustomizePanel({ onCommit }: { onCommit: (s: ConsentState) => void }) {
         />
         <ConsentRow
           label="Marketing"
-          description="Off by default. vialchemlabs.net runs no third-party advertising trackers Day-1."
+          description="Off by default. VialChem Labs runs no third-party advertising trackers Day-1."
           checked={marketing}
           onChange={setMarketing}
         />

@@ -1,9 +1,7 @@
 /**
  * OrdersList — client island for /account/orders.
  *
- * PLACEHOLDER: real implementation hits Supabase + RLS in Phase 8/9. Phase 5
- * surfaces only the most-recent stub order written to sessionStorage by the
- * checkout review flow, so QA can verify the empty / non-empty layouts.
+ * Session-backed order list used by the legacy checkout review flow.
  */
 "use client";
 
