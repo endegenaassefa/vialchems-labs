@@ -181,10 +181,17 @@ export async function verifyPlaidWebhook(
     PLAID_VERIFICATION_MODE: env.PLAID_VERIFICATION_MODE,
   });
 
+  // `headersToRecord` (lib/payments/server.ts) lowercases all keys before
+  // calling adapters, so production traffic only hits the lowercase keys.
+  // Direct callers (verifyPlaidWebhook is also exported) may pass mixed
+  // case; we normalize once here to be tolerant without dead chains.
+  // M5 closure (Phase 8).
+  const lowered: Record<string, string> = {};
+  for (const [k, v] of Object.entries(headers)) {
+    lowered[k.toLowerCase()] = v;
+  }
   const jwtHeader =
-    headers["plaid-verification"] ??
-    headers["Plaid-Verification"] ??
-    headers["x-plaid-signature"];
+    lowered["plaid-verification"] ?? lowered["x-plaid-signature"];
 
   if (mode === "jwks") {
     if (!jwtHeader) {

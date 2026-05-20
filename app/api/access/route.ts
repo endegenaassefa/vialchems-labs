@@ -10,9 +10,10 @@
  * route is a 200-no-op so the qualification flow works end-to-end against
  * the stub adapter without DB credentials.
  *
- * Iron Law 2.4 / 2.13: research-purpose copy goes through assertMarketingCopySafe
- * via the qualificationSchema refine. Iron Law 2.5 / 2.19: this file joins
- * the protected paths list. Future edits require // SCANNER_OK annotations.
+ * Iron Law 2.4 / 2.13: research-purpose copy goes through
+ * findMarketingCopyViolation via the qualificationSchema refine (see
+ * lib/customer-qualification.ts). Iron Law 2.5 / 2.19: this file joins the
+ * protected paths list. Future edits require // SCANNER_OK annotations.
  */
 import { NextResponse } from "next/server";
 import * as Sentry from "@sentry/nextjs";

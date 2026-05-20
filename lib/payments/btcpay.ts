@@ -310,8 +310,10 @@ export function createBtcpayAdapter(
       const secret = env.BTCPAY_WEBHOOK_SECRET ?? "";
       const rawBody =
         typeof payload === "string" ? payload : JSON.stringify(payload ?? {});
-      const sigHeader =
-        headers["btcpay-sig"] ?? headers["BTCPay-Sig"] ?? headers["btcPay-sig"];
+      // `headersToRecord` (lib/payments/server.ts) lowercases all keys before
+      // calling this adapter, so only the lowercase variant is reachable in
+      // production. M5 closure (Phase 8).
+      const sigHeader = headers["btcpay-sig"];
 
       const verified = verifyBtcpaySignature(rawBody, sigHeader, secret);
       if (!verified) {
