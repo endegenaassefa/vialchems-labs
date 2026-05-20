@@ -171,7 +171,7 @@ the 90/95/95/95 thresholds (CI gate enforces on every PR going forward).
 
 ```bash
 gh auth login                                     # interactive
-REPO=endegenaassefa/vialchemlabs bash scripts/setup-branch-protection.sh
+REPO=<operator-github>/vialchemlabs bash scripts/setup-branch-protection.sh
 ```
 
 Verify in GitHub repo Settings → Branches → `main` shows the protection
@@ -205,7 +205,7 @@ git tag -a v1.1.0 -m "v1.1.0 — vialchemlabs production launch"
 git push origin v1.1.0
 ```
 
-GitHub will surface the tag at `https://github.com/endegenaassefa/vialchemlabs/releases/tag/v1.1.0`.
+GitHub will surface the tag at `https://github.com/<operator-github>/vialchemlabs/releases/tag/v1.1.0`.
 Edit the release body to paste the CHANGELOG `## [1.1.0]` section.
 
 ## Rollback procedure

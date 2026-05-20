@@ -5,7 +5,7 @@ Status: GitHub COMPLETE; Vercel deferred to operator action
 
 ## GitHub
 
-**Repository**: https://github.com/endegenaassefa/vialchemlabs
+**Repository**: https://github.com/<operator-github>/vialchemlabs
 **Visibility**: PRIVATE (operator may flip to public post-launch)
 **Tag**: v1.0.0
 **Branch**: main (default)

@@ -213,7 +213,7 @@ Per v5 §8 Phase 6:
 - F1: Redact operator personal email from `docs/checkpoints/phase_0_bootstrap.md:76` (per audit C12)
 - F2: Update `docs/operator-runbook.md` — refresh v1.1.0 → v5.0.0 status (H13); strip Janoshik from outreach templates (H12); fix USPTO TESS duplicate brand string (L9)
 - F3: Fix self-referential fallback domain lists in deploy docs (H14)
-- F4 (NEW per supplemental S7): Abstract `endegenaassefa` GitHub handle in deploy docs (live-account-setup.md, runbook.md); add second personal gmail `endegenaassefa2@gmail.com` to redaction scope
+- F4 (NEW per supplemental S7): Abstract operator GitHub handle in deploy docs (live-account-setup.md, runbook.md); add second personal gmail (originals retained in audit drift-assessment doc for traceability) to redaction scope
 - F5: Update `docs/checkpoints/phase_1_comprehension.md:3` status `IN_PROGRESS` → `COMPLETE` (L10)
 - F6: Update `docs/affiliate-creator-seeding-agreement.md` with date metadata + LLC placeholder fill (M17)
 

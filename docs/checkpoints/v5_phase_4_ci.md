@@ -24,7 +24,7 @@ Approach: inline (no sub-agent dispatch) since all work is mechanical file creat
 | `.github/workflows/ci.yml` | typecheck + lint + format + grep-gates + Iron Law 2.24 skip/only guard + unit tests with coverage + build |
 | `.github/workflows/lighthouse.yml` | matrix per form_factor (desktop + mobile); installs @lhci/cli; LHCI_FORM_FACTOR switches preset |
 | `.github/workflows/e2e.yml` | Playwright a11y + checkout + visual regression; diff artifacts on failure; auto-posts PR comment |
-| `.github/CODEOWNERS` | protected paths + visual-regression + LOCKED_OVERRIDE + CI infra → @endegenaassefa |
+| `.github/CODEOWNERS` | protected paths + visual-regression + LOCKED_OVERRIDE + CI infra → @\<operator-github\> |
 | `.github/pull_request_template.md` | v5 closure checklist (Iron Law citations + SCANNER_OK + test plan + visual regression + brand expression sections) |
 
 ### Files modified (4)
@@ -166,7 +166,7 @@ None. Per v5 §6.2 defaults already codified Phase 0.
 |---|---|---|
 | Phase 4 checkpoint exists | ✅ (this file) |
 | `.github/workflows/{ci,lighthouse,e2e}.yml` exist + functional | ✅ |
-| `.github/CODEOWNERS` exists with operator handle | ✅ (`@endegenaassefa`) |
+| `.github/CODEOWNERS` exists with operator handle | ✅ (`@<operator-github>`) |
 | `.github/pull_request_template.md` exists | ✅ |
 | `@lhci/cli` in devDeps | ✅ |
 | `lighthouserc.cjs` thresholds raised to v5 targets | ✅ (95/98/98/98 + tighter timing) |

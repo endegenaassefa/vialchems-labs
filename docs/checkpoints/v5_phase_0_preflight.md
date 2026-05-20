@@ -27,11 +27,11 @@ Per `SUPER_PROMPT_v5.md` §8 Phase 0:
 - ✅ HEAD captured: `5ec8324a5624693b1f6f39f36f818a69a7361c44`  
 - ✅ Default branch confirmed: `main`  
 - ✅ Branch cut: `v5-production-closure` from `main` HEAD  
-- ✅ Remote verified: `https://github.com/endegenaassefa/vialchems-labs.git`  
+- ✅ Remote verified: `https://github.com/<operator-github>/vialchems-labs.git`  
 - ✅ Tags inventoried: `v1.0.0` (only)  
 - ✅ `npm ci` succeeded (production deps installed)  
 - ✅ `@vitest/coverage-v8@4.1.6` added as devDep (required by Phase 10 Iron Law 2.36 coverage targets)
-- ✅ `gh auth status` confirmed: logged in as `endegenaassefa`  
+- ✅ `gh auth status` confirmed: logged in as `<operator-github>`  
 - ✅ Node version `v20.20.2`, npm `10.8.2`, git `2.34.1`
 
 ### Inventory (0.A)
@@ -76,7 +76,7 @@ Per `SUPER_PROMPT_v5.md` §8 Phase 0:
 2. `ccf075e9 fix: harden production catalog and brand copy` swept ~19 of 21 "Counted, weighed, verified." tagline hits
 
 **Biggest regressions since audit:**
-1. **C12 WORSENED** — second personal email `endegenaassefa2@gmail.com` now committer on all 48 post-anchor commits; PII surface doubled
+1. **C12 WORSENED** — second personal email (`<operator-email-redacted>`; see audit drift assessment for the original) now committer on all 48 post-anchor commits; PII surface doubled
 2. **H27 WORSENED** — COA placeholders went from 7 → 0 PDFs for 45 SKUs (was 30 SKUs missing → now 45 SKUs missing); every `/coa/[slug]/[batch]` route 404s
 3. **H1 WORSENED** — 4-commits-zero-markers → 52-commits-zero-markers (Iron Law 2.15 commit-hygiene drift)
 4. **C5 audit-prediction REALIZED** — Vial.tsx whitelist auto-derive defect (audit predicted in 2026-05-19) was the exact mechanism by which 3 new Iron Law 2.7 perpetually-banned compounds (klow/reta/tirz) shipped through the only structural guard
