@@ -1,10 +1,15 @@
 /**
  * Catalog seed metadata.
  *
- * The catalog started as a 7-SKU seed, then moved through a 16-SKU launch set.
- * The current wave expansion keeps that dynamic data model and adds
- * operator-approved SKUs plus five stack bundles with corpus-backed, RUO-only
- * descriptions.
+ * History: the catalog grew through several waves (7-SKU seed → 16-SKU
+ * launch set → the current operator-approved expansion). The exact live
+ * count is whatever entries this array contains today; the FAQ
+ * intentionally avoids hard-coding a number so this file remains the
+ * single source of truth. M20 closure (Phase 8) reframed the header
+ * to stop implying the launch count is still 7-SKU.
+ *
+ * Current wave: operator-approved SKUs plus five stack bundles with
+ * corpus-backed, RUO-only descriptions.
  *
  * Six historically-listed SKUs (tesamorelin-5mg, pt-141-10mg, melanotan-ii-10mg,
  * klow-80mg, reta-10mg, tirz-25mg) were REMOVED in v5.0.0 per Iron Law 2.7

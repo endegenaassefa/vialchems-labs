@@ -1,9 +1,11 @@
 /**
  * Verbatim 336-345 word product descriptions per SUPER_PROMPT_v3 Appendix E.1
- * for the original 7 SKUs; v1.3 catalog-expansion descriptions (Sermorelin,
- * GHRP-2, GHRP-6, Hexarelin, Semax, Epitalon, Thymosin Alpha-1, DSIP, KPV)
- * are at compact-research-register length (~250 words each), pending
- * operator review for full Appendix-E-equivalent expansion.
+ * for the original seed SKUs; v1.3 catalog-expansion descriptions
+ * (Sermorelin, GHRP-2, GHRP-6, Hexarelin, Semax, Epitalon, Thymosin
+ * Alpha-1, DSIP, KPV) are at compact-research-register length (~250 words
+ * each), pending operator review for full Appendix-E-equivalent expansion.
+ * M20 closure (Phase 8): dropped the explicit "7 SKUs" count so this
+ * comment does not need maintenance as the catalog evolves.
  *
  * SCANNER_OK: reviewed-and-cso-passed (PROTECTED PATH — Iron Law 2.5/2.19).
  *
