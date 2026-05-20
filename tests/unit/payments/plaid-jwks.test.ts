@@ -57,8 +57,8 @@ function makeES256KeyPair() {
  */
 
 describe("pickVerificationMode", () => {
-  it('returns "hmac" by default', () => {
-    expect(pickVerificationMode({})).toBe("hmac");
+  it('returns "jwks" by default (Phase 3.1 v5: production-first default)', () => {
+    expect(pickVerificationMode({})).toBe("jwks");
   });
 
   it('returns "jwks" when PLAID_VERIFICATION_MODE=jwks', () => {
@@ -67,10 +67,16 @@ describe("pickVerificationMode", () => {
     );
   });
 
-  it('returns "hmac" when value is anything else', () => {
-    expect(pickVerificationMode({ PLAID_VERIFICATION_MODE: "whatever" })).toBe(
+  it('returns "hmac" when PLAID_VERIFICATION_MODE=hmac (legacy/sandbox)', () => {
+    expect(pickVerificationMode({ PLAID_VERIFICATION_MODE: "hmac" })).toBe(
       "hmac",
     );
+  });
+
+  it('throws on unknown PLAID_VERIFICATION_MODE values', () => {
+    expect(() =>
+      pickVerificationMode({ PLAID_VERIFICATION_MODE: "whatever" }),
+    ).toThrow(/PLAID_VERIFICATION_MODE|verification.?mode/i);
   });
 });
 
