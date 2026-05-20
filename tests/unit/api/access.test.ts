@@ -3,7 +3,6 @@ import { describe, expect, it, vi, beforeEach, afterEach } from "vitest";
 // Mock supabase before importing the route.
 const insertMock = vi.fn();
 const fromMock = vi.fn(() => ({ insert: insertMock }));
-const supabaseClient = { from: fromMock };
 
 vi.mock("@/lib/supabase", () => ({
   serviceSupabase: () => null, // Day-1 default: REQUIRE_SUPABASE=false → null
