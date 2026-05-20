@@ -24,23 +24,32 @@ const { captureExceptionMock } = vi.hoisted(() => ({
 }));
 
 const { supabaseUpdateChain } = vi.hoisted(() => {
-  const calls: Array<{ table: string; payload: Record<string, unknown>; eq?: [string, unknown] }> = [];
-  const subscriptions = new Map<
-    string,
-    Record<string, string | null>
-  >();
-  const lastQuery = { table: "", action: "", payload: null as Record<string, unknown> | null };
+  const calls: Array<{
+    table: string;
+    payload: Record<string, unknown>;
+    eq?: [string, unknown];
+  }> = [];
+  const subscriptions = new Map<string, Record<string, string | null>>();
+  const lastQuery = {
+    table: "",
+    action: "",
+    payload: null as Record<string, unknown> | null,
+  };
+  const throwOn = { selectMaybeSingle: false, updateEq: false };
   return {
     supabaseUpdateChain: {
       calls,
       subscriptions,
       lastQuery,
+      throwOn,
       reset() {
         calls.length = 0;
         subscriptions.clear();
         lastQuery.table = "";
         lastQuery.action = "";
         lastQuery.payload = null;
+        throwOn.selectMaybeSingle = false;
+        throwOn.updateEq = false;
       },
     },
   };
@@ -65,6 +74,9 @@ vi.mock("@/lib/supabase", () => ({
             supabaseUpdateChain.lastQuery.payload = payload;
             return {
               eq(col: string, value: unknown) {
+                if (supabaseUpdateChain.throwOn.updateEq) {
+                  throw new Error("supabase update eq failed");
+                }
                 supabaseUpdateChain.calls.push({
                   table,
                   payload,
@@ -88,14 +100,19 @@ vi.mock("@/lib/supabase", () => ({
               eq(_col: string, value: unknown) {
                 void _col;
                 return {
-                  maybeSingle: () =>
-                    Promise.resolve({
+                  maybeSingle: () => {
+                    if (supabaseUpdateChain.throwOn.selectMaybeSingle) {
+                      throw new Error("supabase select maybeSingle failed");
+                    }
+                    return Promise.resolve({
                       data:
                         typeof value === "string"
-                          ? supabaseUpdateChain.subscriptions.get(value) ?? null
+                          ? (supabaseUpdateChain.subscriptions.get(value) ??
+                            null)
                           : null,
                       error: null,
-                    }),
+                    });
+                  },
                 };
               },
             };
@@ -156,7 +173,8 @@ describe("dispatchWelcomeSequence — Phase 7 G4 (audit H8)", () => {
       const call = sendEmailMock.mock.calls[i][0];
       expect(call.tag).toBe(`welcome-${i + 1}`);
       expect(typeof call.scheduledAt).toBe("string");
-      const offsetMs = new Date(call.scheduledAt as string).getTime() - now.getTime();
+      const offsetMs =
+        new Date(call.scheduledAt as string).getTime() - now.getTime();
       const expectedOffsetMs = emailWelcomeSequence[i].delayDays * ONE_DAY_MS;
       expect(offsetMs).toBe(expectedOffsetMs);
       // ISO format check (ends with Z).
@@ -283,6 +301,53 @@ describe("dispatchWelcomeSequence — Phase 7 G4 (audit H8)", () => {
       (c) => c.table === "email_subscriptions",
     );
     expect(updates).toHaveLength(0);
+  });
+
+  it("captures Sentry exception when idempotency-read throws and continues with dispatch", async () => {
+    supabaseUpdateChain.throwOn.selectMaybeSingle = true;
+    const result = await dispatchWelcomeSequence({
+      email: "researcher@example.com",
+      subscriptionId: "sub-err-read",
+      now: new Date("2026-06-01T12:00:00.000Z"),
+    });
+
+    // Idempotency-read error captured to Sentry with phase tag.
+    const idempotencyCapture = captureExceptionMock.mock.calls.find(
+      (c: unknown[]) => {
+        const ctx = c[1] as { tags?: Record<string, string> };
+        return ctx?.tags?.phase === "idempotency_read";
+      },
+    );
+    expect(idempotencyCapture).toBeDefined();
+    expect(
+      (idempotencyCapture![1] as { tags: Record<string, string> }).tags.route,
+    ).toBe("welcome_sequence");
+
+    // Dispatch still proceeded — all 4 sends went out despite the read failure.
+    expect(result.dispatched).toBe(4);
+  });
+
+  it("captures Sentry exception when persist_sent_at write throws and continues with remaining emails", async () => {
+    supabaseUpdateChain.throwOn.updateEq = true;
+    const result = await dispatchWelcomeSequence({
+      email: "researcher@example.com",
+      subscriptionId: "sub-err-write",
+      now: new Date("2026-06-01T12:00:00.000Z"),
+    });
+
+    // Persist-write error captured to Sentry with phase tag for each email.
+    const persistCaptures = captureExceptionMock.mock.calls.filter(
+      (c: unknown[]) => {
+        const ctx = c[1] as { tags?: Record<string, string> };
+        return ctx?.tags?.phase === "persist_sent_at";
+      },
+    );
+    // 4 persistence attempts, all fail — 4 captures.
+    expect(persistCaptures.length).toBe(4);
+
+    // All 4 emails still dispatched (the send succeeded; only persist failed).
+    expect(result.dispatched).toBe(4);
+    expect(result.ids).toHaveLength(4);
   });
 
   it("defaults now to current time when not provided in options", async () => {
