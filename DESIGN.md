@@ -11,16 +11,16 @@ files change — do not edit by hand.
 
 ## Brand identity (LOCKED — Iron Law 2.26 + 2.37 per LOCKED_OVERRIDE 2026-05-20)
 
-| Attribute   | Value                                                       | Source                                                |
-| ----------- | ----------------------------------------------------------- | ----------------------------------------------------- |
-| Brand name  | VialChem Labs (proper case, capital VC + L, single space)   | `lib/content/site.ts` siteConfig.name                 |
-| Brand stem  | vialchemlabs (lowercase one-word; slugs + env)              | `lib/content/site.ts` siteConfig.brandStem            |
-| Tagline     | "Counted, weighed, verified."                               | `lib/content/site.ts` siteConfig.tagline              |
-| Posture     | A — Clean Clinical Labs (LIGHT variant in v5)               | `docs/DECISIONS/locked_override_2026-05-20.md`        |
-| Wordmark    | "vialchemlabs" + "LABS" chip                                | `components/SiteHeader.tsx`                           |
-| Domain      | `vialchemlabs.net`                                          | `lib/content/site.ts` siteConfig.domain + live deploy |
-| Lab partner | `an independent third-party laboratory` (env-overridable)   | `lib/content/site.ts` siteConfig.labPartner.name      |
-| LLC         | VialChem Labs LLC, Wyoming                                  | `lib/content/site.ts` siteConfig.llcName              |
+| Attribute   | Value                                                     | Source                                                |
+| ----------- | --------------------------------------------------------- | ----------------------------------------------------- |
+| Brand name  | VialChem Labs (proper case, capital VC + L, single space) | `lib/content/site.ts` siteConfig.name                 |
+| Brand stem  | vialchemlabs (lowercase one-word; slugs + env)            | `lib/content/site.ts` siteConfig.brandStem            |
+| Tagline     | "Counted, weighed, verified."                             | `lib/content/site.ts` siteConfig.tagline              |
+| Posture     | A — Clean Clinical Labs (LIGHT variant in v5)             | `docs/DECISIONS/locked_override_2026-05-20.md`        |
+| Wordmark    | "vialchemlabs" + "LABS" chip                              | `components/SiteHeader.tsx`                           |
+| Domain      | `vialchemlabs.net`                                        | `lib/content/site.ts` siteConfig.domain + live deploy |
+| Lab partner | `an independent third-party laboratory` (env-overridable) | `lib/content/site.ts` siteConfig.labPartner.name      |
+| LLC         | VialChem Labs LLC, Wyoming                                | `lib/content/site.ts` siteConfig.llcName              |
 
 The brand expression is LOCKED per Iron Law 2.26 + 2.37. Color values,
 type stack, wordmark composition, brand name + tagline + domain do NOT
@@ -33,49 +33,49 @@ authorization. The brand-lock regression test at
 Surface scale (light theme is default; dark mode under
 `[data-theme="dark"]` override in `app/globals.css`):
 
-| Token                | Value                       | Use                                              |
-| -------------------- | --------------------------- | ------------------------------------------------ |
-| `--bg`               | `#fafaf7`                   | Page background (warm off-white / cream)         |
-| `--surface`          | `#ffffff`                   | Card surfaces, footer                            |
-| `--surface-strong`   | `#f4f4f0`                   | Header on scroll, pressed states                 |
-| `--surface-elevated` | `#ffffff`                   | Elevated cards (Recovery CTA, PDP price strip)   |
-| `--surface-muted`    | `rgba(244, 244, 240, 0.7)`  | Overlays                                         |
-| `--bg-inverse`       | `#0a0e14`                   | Inverted strip (dark sections in light pages)    |
+| Token                | Value                      | Use                                            |
+| -------------------- | -------------------------- | ---------------------------------------------- |
+| `--bg`               | `#fafaf7`                  | Page background (warm off-white / cream)       |
+| `--surface`          | `#ffffff`                  | Card surfaces, footer                          |
+| `--surface-strong`   | `#f4f4f0`                  | Header on scroll, pressed states               |
+| `--surface-elevated` | `#ffffff`                  | Elevated cards (Recovery CTA, PDP price strip) |
+| `--surface-muted`    | `rgba(244, 244, 240, 0.7)` | Overlays                                       |
+| `--bg-inverse`       | `#0a0e14`                  | Inverted strip (dark sections in light pages)  |
 
 Accent + electric scale (v5 cyan-navy):
 
-| Token           | Value     | Use                                          |
-| --------------- | --------- | -------------------------------------------- |
-| `--accent`      | `#0f3a5f` | Primary CTAs, links, eyebrow text (navy)     |
-| `--accent-soft` | `#e8f7fb` | Hover background, callout tint               |
-| `--accent-glow` | `#06b6d4` | Glow effects, secondary accent (cyan)        |
-| `--accent-deep` | `#082842` | Pressed state                                |
-| `--electric`    | `#06b6d4` | Atmospheric secondary, RUO pills             |
+| Token           | Value     | Use                                      |
+| --------------- | --------- | ---------------------------------------- |
+| `--accent`      | `#0f3a5f` | Primary CTAs, links, eyebrow text (navy) |
+| `--accent-soft` | `#e8f7fb` | Hover background, callout tint           |
+| `--accent-glow` | `#06b6d4` | Glow effects, secondary accent (cyan)    |
+| `--accent-deep` | `#082842` | Pressed state                            |
+| `--electric`    | `#06b6d4` | Atmospheric secondary, RUO pills         |
 
 Text scale (WCAG AA verified on `--bg`):
 
-| Token           | Value     | Contrast        | Use                                       |
-| --------------- | --------- | --------------- | ----------------------------------------- |
-| `--text`        | `#0a0e14` | 17:1 on `--bg`  | Body, headings (AAA)                      |
-| `--text-muted`  | `#4d5663` | 7.1:1 on `--bg` | Secondary text, descriptions (AAA)        |
-| `--text-subtle` | `#6b7280` | 4.8:1 on `--bg` | Captions, eyebrow text (AA)               |
+| Token           | Value     | Contrast        | Use                                |
+| --------------- | --------- | --------------- | ---------------------------------- |
+| `--text`        | `#0a0e14` | 17:1 on `--bg`  | Body, headings (AAA)               |
+| `--text-muted`  | `#4d5663` | 7.1:1 on `--bg` | Secondary text, descriptions (AAA) |
+| `--text-subtle` | `#6b7280` | 4.8:1 on `--bg` | Captions, eyebrow text (AA)        |
 
 Border (hairline scale):
 
-| Token             | Value     | Use                                          |
-| ----------------- | --------- | -------------------------------------------- |
-| `--border`        | `#e6e4dc` | Default 1px borders (subtle warm gray)       |
-| `--border-strong` | `#c9c6bb` | Active / hover borders                       |
-| `--border-faint`  | `#efede6` | Lowest-contrast separators                   |
+| Token             | Value     | Use                                    |
+| ----------------- | --------- | -------------------------------------- |
+| `--border`        | `#e6e4dc` | Default 1px borders (subtle warm gray) |
+| `--border-strong` | `#c9c6bb` | Active / hover borders                 |
+| `--border-faint`  | `#efede6` | Lowest-contrast separators             |
 
 Status pills (always paired with text label per Iron Law 2.27 a11y):
 
-| Token             | Value     | Use                          |
-| ----------------- | --------- | ---------------------------- |
-| `--pill-accent`   | `#0f3a5f` | "In stock", "Verified"       |
-| `--pill-info`     | `#06b6d4` | Category labels (cyan)       |
-| `--pill-electric` | `#06b6d4` | "RUO only"                   |
-| `--pill-error`    | `#b3261e` | Error states                 |
+| Token             | Value     | Use                    |
+| ----------------- | --------- | ---------------------- |
+| `--pill-accent`   | `#0f3a5f` | "In stock", "Verified" |
+| `--pill-info`     | `#06b6d4` | Category labels (cyan) |
+| `--pill-electric` | `#06b6d4` | "RUO only"             |
+| `--pill-error`    | `#b3261e` | Error states           |
 
 ## Typography stack
 
