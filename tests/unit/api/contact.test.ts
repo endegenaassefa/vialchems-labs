@@ -2,10 +2,7 @@ import { describe, expect, it, beforeEach } from "vitest";
 import { POST } from "@/app/api/contact/route";
 import { __resetRateLimitForTests } from "@/lib/rate-limit";
 
-function makeReq(
-  body: unknown,
-  headers: Record<string, string> = {},
-): Request {
+function makeReq(body: unknown, headers: Record<string, string> = {}): Request {
   return new Request("http://test/api/contact", {
     method: "POST",
     headers: { "Content-Type": "application/json", ...headers },
@@ -76,9 +73,7 @@ describe("POST /api/contact", () => {
       message: "COA batch question",
     };
     for (let i = 0; i < 3; i += 1) {
-      const ok = await POST(
-        makeReq(body, { "x-forwarded-for": ip }) as never,
-      );
+      const ok = await POST(makeReq(body, { "x-forwarded-for": ip }) as never);
       expect(ok.status).toBe(200);
     }
     const blocked = await POST(

@@ -42,14 +42,15 @@ describe("rateLimitByIp (sliding-window)", () => {
   it("resets the counter once the window has fully elapsed", () => {
     const ip = "5.6.7.8";
     const t0 = 2_000_000_000;
+    // Record 10 timestamps clustered at t0 (all within a few ms).
     for (let i = 0; i < 10; i += 1) {
-      rateLimitByIp("access", ip, t0 + i * 1000);
+      rateLimitByIp("access", ip, t0 + i);
     }
-    const denied = rateLimitByIp("access", ip, t0 + 10_000);
+    const denied = rateLimitByIp("access", ip, t0 + 20);
     expect(denied.success).toBe(false);
 
-    // Advance past the window (60s + 1s buffer)
-    const afterWindow = rateLimitByIp("access", ip, t0 + 61_000);
+    // Advance well past the 60s window so every prior timestamp ages out.
+    const afterWindow = rateLimitByIp("access", ip, t0 + 70_000);
     expect(afterWindow.success).toBe(true);
     expect(afterWindow.remaining).toBe(9);
   });
@@ -134,9 +135,9 @@ describe("rateLimitByEmail", () => {
       rateLimitByIp("access", "1.2.3.4", t0 + i);
     }
     // Per-IP exhausted, per-email still fresh
-    expect(rateLimitByEmail("access", "fresh@example.com", t0 + 11).success).toBe(
-      true,
-    );
+    expect(
+      rateLimitByEmail("access", "fresh@example.com", t0 + 11).success,
+    ).toBe(true);
   });
 
   it("normalises email casing/whitespace before counting", () => {
@@ -146,6 +147,13 @@ describe("rateLimitByEmail", () => {
     rateLimitByEmail("access", "USER@EXAMPLE.COM", t0 + 2);
     const blocked = rateLimitByEmail("access", "user@example.com", t0 + 3);
     expect(blocked.success).toBe(false);
+  });
+
+  it("throws on an unknown email route", () => {
+    expect(() =>
+      // @ts-expect-error — purposely passing a bogus route to assert runtime guard
+      rateLimitByEmail("does-not-exist", "user@example.com"),
+    ).toThrow(/Unknown route/);
   });
 });
 

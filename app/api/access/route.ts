@@ -20,10 +20,19 @@ import {
   ATTESTATIONS,
   validateQualification,
 } from "@/lib/customer-qualification";
+import { rateLimitByIp } from "@/lib/rate-limit";
 import { serviceSupabase } from "@/lib/supabase";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
+
+function getClientIp(request: Request): string {
+  return (
+    request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ??
+    request.headers.get("x-real-ip") ??
+    "unknown"
+  );
+}
 
 interface AuditAttestations {
   age_21_plus: boolean;
@@ -37,6 +46,28 @@ async function sha256Hex(input: string): Promise<string> {
 }
 
 export async function POST(request: Request): Promise<Response> {
+  // Iron Law 2.34: anti-abuse gate before any work happens.
+  const ip = getClientIp(request);
+  const limit = rateLimitByIp("access", ip);
+  if (!limit.success) {
+    return NextResponse.json(
+      {
+        ok: false,
+        error: "rate_limited",
+        retryAfter: limit.retryAfterSeconds,
+      },
+      {
+        status: 429,
+        headers: {
+          "Retry-After": String(limit.retryAfterSeconds),
+          "X-RateLimit-Limit": String(limit.limit),
+          "X-RateLimit-Remaining": "0",
+          "X-RateLimit-Reset": String(limit.reset),
+        },
+      },
+    );
+  }
+
   const contentType = request.headers.get("content-type") ?? "";
   if (!contentType.includes("application/json")) {
     return NextResponse.json(

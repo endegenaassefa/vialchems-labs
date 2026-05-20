@@ -12,7 +12,10 @@ vi.mock("@/lib/email/welcome-sequence", () => ({
 import { POST } from "@/app/api/newsletter/subscribe/route";
 import { __resetRateLimitForTests } from "@/lib/rate-limit";
 
-function makeRequest(body: unknown, headers: Record<string, string> = {}): Request {
+function makeRequest(
+  body: unknown,
+  headers: Record<string, string> = {},
+): Request {
   return new Request("http://localhost/api/newsletter/subscribe", {
     method: "POST",
     headers: { "content-type": "application/json", ...headers },
@@ -27,7 +30,10 @@ describe("POST /api/newsletter/subscribe (rate-limited)", () => {
 
   it("accepts a valid email submission", async () => {
     const res = await POST(
-      makeRequest({ email: "researcher@example.com" }, { "x-forwarded-for": "9.0.0.1" }),
+      makeRequest(
+        { email: "researcher@example.com" },
+        { "x-forwarded-for": "9.0.0.1" },
+      ),
     );
     expect(res.status).toBe(200);
     const body = await res.json();
