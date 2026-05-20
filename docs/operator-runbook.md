@@ -1,31 +1,64 @@
-# vialchemlabs — Operator Runbook (Day-1 through Months 2-3)
+# VialChem Labs — Operator Runbook (Day-1 through Months 2-3)
 
-Date generated: 2026-05-08 (v1) — updated 2026-05-10 (v2 / Phase 13.3 v4)
-Brand: vialchemlabs (Posture A clean clinical, vialchemlabs.net)
-Source: SUPER_PROMPT_v3 Appendix I + research digest sub_3_acquisition.md
+Date generated: 2026-05-08 (v1) — updated 2026-05-10 (v2 / Phase 13.3 v4) — refreshed 2026-05-20 (v3 / Phase 6 v5)
+Brand: VialChem Labs (Posture A clean clinical LIGHT variant, vialchemlabs.net)
+Source: SUPER_PROMPT_v5 + Appendix I + research digest sub_3_acquisition.md + `docs/DECISIONS/locked_override_2026-05-20.md`
 
 - v4 deferral closures (Phases 0-12)
+- v5 production-grade closure (catalog + payments + brand + Iron Law 2.8 amendment)
 
 ---
 
-## v4 status snapshot (2026-05-10)
+## v5 status snapshot (2026-05-20)
 
-The v4 pass closed **all in-scope deferrals from D1 through D27**. The
-remaining items below are operator-only (credentials + domain
-registration + first-buyer dollar) — codebase is ready the moment they
-land.
+v5.0.0 production-grade closure is complete; the codebase has landed
+the audit-driven posture (catalog cleanup, multi-rail payments
+hardening, brand reconciliation, CI infrastructure). The remaining
+items are the three irreducible Human-In-The-Loop (HIL) gates:
+
+1. **HIL GATE 1** — operator drops production credentials into Vercel env
+2. **HIL GATE 2** — operator runs first-buyer test (full-price order +
+   operator-immediate-refund across BTCPay + Plaid rails)
+3. **HIL GATE 3** — operator triggers ad campaign launch (autonomous-mode
+   protocol cannot spend operator's ad budget)
+
+```
+v5 status (2026-05-20):
+  Live deployment:    https://vialchemlabs.net/ (Vercel IAD1, age-gate active)
+  Brand:              VialChem Labs (Posture A LIGHT, vialchemlabs.net)
+  Catalog:            39 SKUs SAFE + 5 bundles (renamed to research register)
+  Payment rails:      stub | btcpay | plaid | zelle  (direct)
+                      link_money | card | apple_pay | google_pay | paypal  (indirect via Woo handoff)
+  Jurisdictional:     all 50 US states (Iron Law 2.8 amended via LOCKED_OVERRIDE — see below)
+  Unit tests:         1061/1061 GREEN
+  Preflight gates:    11/11 GREEN (typecheck + lint + format + tests + build + audit + grep + canonical-domain + dns)
+  Git tag (local):    pending v5.0.0 (push deferred to gstack:land-and-deploy)
+```
+
+### Iron Law 2.8 amendment note
+
+Operator weakened `BLOCKED_US_STATES` from `['CA','TX','NY','FL']` to
+`[]` (all 50 states allowed; international remains US-only). This is
+codified as an amendment in
+[`docs/DECISIONS/locked_override_2026-05-20.md`](DECISIONS/locked_override_2026-05-20.md)
+§ "Jurisdictional block (AMENDED per supplemental S20)". Day-1
+buyer-attests assume regulatory responsibility per the existing
+7-attestation Appendix A.5. Operator may re-add per-state blocks via
+a separate `docs/DECISIONS/iron_law_2_8_block_<date>.md` document.
+
+### Historical lineage
 
 ```
 v4 phases shipped: 0 1 2 3 4 5 6 7 8 9 10 11 12   (12/12 + Phase 13 docs)
 deferrals closed:  D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13
                    D14 D15 D16 D17 D24 D25 D26 D27          (21/27)
 deferrals operator: D18 D19 D20 D21 D22 D23                  (6/27)
-unit tests:        304 → 457
+unit tests:        304 → 457 (v4) → 1061 (v5)
 e2e tests:           0 → 136 (incl. 114 visual baseline)
-git tag local:     v1.1.0 (push deferred to operator)
+released versions: v1.0.0 → v1.1.0 → v1.2.0 → v1.3.0 → v5.0.0 (pending PR merge)
 ```
 
-Detailed phase ledger: `docs/checkpoints/v4_phase_*.md`.
+Detailed phase ledgers: `docs/checkpoints/v4_phase_*.md` (v4) + `docs/checkpoints/v5_phase_*.md` (v5).
 
 ## Pre-Launch Checklist (Operator Action Required)
 
@@ -33,23 +66,30 @@ Items marked ✅ are already shipped against placeholders in the
 codebase — operator just needs to drop the credentials. Complete in
 order:
 
-1. ✅ **Domain registration**: register `vialchemlabs.net`. Per-registrar
+1. ✅ **Domain registration**: register `vialchemlabs.net` (LOCKED primary
+   per `docs/DECISIONS/locked_override_2026-05-20.md` row 5). Per-registrar
    guide at `docs/deploy/dns.md`. Cloudflare > Gandi > 101domain >
-   Namecheap. Fallback: `vialchemlabs.bio`, `vialchemlabs.net`. **(D19)**
-2. **USPTO TESS trademark search** for "vialchemlabs" and "vialchemlabs".
+   Namecheap. Optional fallback TLDs if primary becomes unavailable:
+   `vialchemlabs.bio`, `vialchemlabs.co`. **(D19)**
+2. **USPTO TESS trademark search** for "VialChem Labs" and `vialchemlabs`.
    Flag conflicts.
 3. ✅ **LLC formation**: file Wyoming (default), Delaware, or Nevada LLC.
    Update `LLC_NAME` and `LLC_JURISDICTION` env. Replace `[Wyoming]`
    placeholder in legal pages. **(D20)**
 4. **Source supplier conversation**: confirm MOQ, lead time, COA passthrough, contingency, per-mg cost. Update `DECISIONS/source_terms.md` (operator-side).
-5. **Real lab partner contract**: Janoshik Analytical (default placeholder). Sign per-batch testing agreement. Update LAB_PARTNER_NAME if different.
+5. **Real lab partner contract**: contract with an independent third-party
+   analytical laboratory and sign a per-batch testing agreement. Public
+   copy uses the lab-agnostic phrase `an independent third-party laboratory`
+   per v1.3 operator override (see LOCKED_OVERRIDE row 3). To surface a
+   named partner publicly, set the env vars `LAB_PARTNER_NAME` +
+   `LAB_PARTNER_PORTAL_URL` — no code change required.
 6. **Replace stub credentials**:
    - Supabase project (URL + anon + service-role keys)
    - Resend API key + verified sender domain
    - Sentry project (DSN + auth token + org + project)
    - Plaid client ID + secret
    - BTCPay Server self-hosted URL + API key + store ID + webhook secret
-7. **Replace placeholder COA PDFs**: `public/coa/<slug>-BATCH-2026-PLACEHOLDER.pdf` are stubs marked "EXAMPLE COA — REPLACE BEFORE LAUNCH". Generate real per-batch COAs from Janoshik for first inventory.
+7. **Replace placeholder COA PDFs**: `public/coa/<slug>-BATCH-2026-PLACEHOLDER.pdf` are stubs marked "EXAMPLE COA — REPLACE BEFORE LAUNCH". Generate real per-batch COAs from the chosen analytical laboratory for first inventory.
 8. **Vercel project link**: `vercel link` in the project directory; environment variables set per `.env.example`.
 9. **Domain DNS**: point `vialchemlabs.net` (or fallback) to Vercel.
 10. **Buyer-conversation assignment** (Bible §16): 60-minute test with 3 prospective buyers in target audience. Optional but recommended.
@@ -103,11 +143,11 @@ These start the moment the site goes live. Execute in parallel.
 >
 > Hi [name],
 >
-> I run [Outliyr / Muscle+Brawn / PepPal / Brainflow]'s peptide vendor coverage. We launched vialchemlabs this month at vialchemlabs.net with seven research peptides and per-batch independent third-party COA testing through Janoshik Analytical.
+> I run [Outliyr / Muscle+Brawn / PepPal / Brainflow]'s peptide vendor coverage. We launched VialChem Labs this month at vialchemlabs.net with research peptides and per-batch independent third-party COA testing.
 >
 > Three things I'd flag for any vendor review:
 >
-> 1. Every batch is HPLC-tested by Janoshik; PDFs are public at vialchemlabs.net/coa.
+> 1. Every batch is HPLC-tested by an independent third-party laboratory; PDFs are public at vialchemlabs.net/coa.
 > 2. Catalog is intentionally small (BPC-157, TB-500, GHK-Cu, Ipamorelin, CJC-1295 no DAC, MOTS-c, Selank). No GLP-1s.
 > 3. Compliance posture: research-use-only, age 21+ contractual checkbox, no shipping to CA/TX/NY/FL Day 1.
 >
@@ -139,7 +179,7 @@ Source: research digest `docs/research/sub_3_acquisition.md` Tier S band.
 
 > Hi [creator handle],
 >
-> I'm [Operator] from vialchemlabs. We supply research peptides for in-vitro and animal-model studies with per-batch independent Janoshik COAs.
+> I'm [Operator] from VialChem Labs. We supply research peptides for in-vitro and animal-model studies with per-batch independent third-party COAs.
 >
 > I noticed your work on [topic — recovery research, sleep research, longevity research]. Would you be open to a paid post + affiliate program?
 >
@@ -209,7 +249,7 @@ To add KPV:
 1. Confirm source supply + COA passthrough
 2. Add KPV row to `lib/content/products.ts`
 3. Add verbatim Appendix-style description (336-345 words, research register)
-4. Generate placeholder COA → replace with real Janoshik COA on first batch
+4. Generate placeholder COA → replace with real third-party-laboratory COA on first batch
 5. Deploy
 
 Catalog data structure already supports this without schema changes.
