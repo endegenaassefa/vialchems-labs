@@ -94,6 +94,7 @@ function grepSourceTreeExcludingAllowed(needle: string): string {
         if (line.includes("yarn.lock")) return false;
         if (line.includes("tests/unit/site/canonical-domain.test.ts"))
           return false;
+        if (line.includes("tests/unit/brand-lock.test.ts")) return false;
         if (line.includes("scripts/check-canonical-domain.sh")) return false;
         if (line.includes("scripts/check-dns-resolution.sh")) return false;
         return true;

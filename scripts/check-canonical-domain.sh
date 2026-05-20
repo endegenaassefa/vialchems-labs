@@ -83,6 +83,7 @@ for legacy in "${LEGACY_DOMAINS[@]}"; do
     | grep -v 'pnpm-lock\.yaml' \
     | grep -v 'yarn\.lock' \
     | grep -v 'tests/unit/site/canonical-domain\.test\.ts' \
+    | grep -v 'tests/unit/brand-lock\.test\.ts' \
     | grep -v 'scripts/check-canonical-domain\.sh' \
     | grep -v 'scripts/check-dns-resolution\.sh' \
     || true

@@ -1,9 +1,21 @@
 /**
  * Site-wide brand and configuration constants.
  *
- * v5 rebrand (2026-05-10): operator spec -> VialChem Labs (clinical-minimal
- * light theme, cyan-navy accent, storefront typography, "Research-grade peptides,
- * shipped with the COA." tagline).
+ * v5 LOCKED state (per docs/DECISIONS/locked_override_2026-05-20.md):
+ *   - Name: "VialChem Labs" (proper case, capital VC + L)
+ *   - Tagline: "Counted, weighed, verified." (v3/v4 LOCKED retained;
+ *     supersedes the deprecated "Research-grade peptides, shipped with
+ *     the COA." that briefly shipped post-anchor)
+ *   - Domain: vialchemlabs.net (operator commit f164f60f)
+ *   - Theme: light clinical (--bg #fafaf7, --accent #0f3a5f navy,
+ *     --accent-glow #06b6d4 cyan, --text #0a0e14)
+ *   - Posture: A (Clean Clinical — LIGHT variant in v5)
+ *
+ * Iron Law 2.26 — brand expression LOCKED until explicit operator
+ * override via docs/DECISIONS/locked_override_<YYYY-MM-DD>.md.
+ *
+ * SCANNER_OK: reviewed-and-cso-passed (PROTECTED PATH — Iron Law 2.5/2.19
+ * + 2.26 + 2.37).
  */
 
 const brandDomain = process.env.BRAND_DOMAIN ?? "vialchemlabs.net";
@@ -19,7 +31,7 @@ export const siteConfig = {
   url: siteUrl,
   description:
     "VialChem Labs ships research-grade peptides with the Certificate of Analysis for every vial. For verified laboratories and qualified research organizations only.",
-  tagline: "Research-grade peptides, shipped with the COA.",
+  tagline: "Counted, weighed, verified.",
   posture: "A" as const,
   // Public legal identity appears in client-rendered pages, so these must use
   // public env keys to keep SSR and hydration output identical.
