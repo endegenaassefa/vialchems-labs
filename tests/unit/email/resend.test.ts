@@ -35,10 +35,7 @@ vi.mock("resend", () => ({
 }));
 
 // Import after the mock so the SUT picks up the mocked Resend class.
-import {
-  _resetResendClientForTests,
-  sendEmail,
-} from "@/lib/email/resend";
+import { _resetResendClientForTests, sendEmail } from "@/lib/email/resend";
 
 function clearEnvKeys() {
   // Stub-unset only the keys this module reads. `undefined` removes the
@@ -320,9 +317,7 @@ describe("lib/email/resend — sendEmail real-client paths", () => {
       text: "t",
       tag: "welcome-4",
     });
-    expect(sendMock.mock.calls[0][0].from).toBe(
-      "research@example-brand.test",
-    );
+    expect(sendMock.mock.calls[0][0].from).toBe("research@example-brand.test");
   });
 
   it("falls back to the hard-coded default domain when BRAND_DOMAIN is also unset", async () => {
@@ -333,9 +328,7 @@ describe("lib/email/resend — sendEmail real-client paths", () => {
       text: "t",
       tag: "magic-link",
     });
-    expect(sendMock.mock.calls[0][0].from).toBe(
-      "research@vialchemlabs.net",
-    );
+    expect(sendMock.mock.calls[0][0].from).toBe("research@vialchemlabs.net");
   });
 
   it("omits `tags` from the SDK call when no tag is supplied", async () => {

@@ -258,7 +258,10 @@ describe("getLocalPreviewSiteUrl", () => {
   it("returns 127.0.0.1 origin when running in dev with 127.0.0.1 origin", () => {
     vi.stubEnv("NODE_ENV", "development");
     expect(
-      getLocalPreviewSiteUrl("http://127.0.0.1:3000", "https://www.example.com"),
+      getLocalPreviewSiteUrl(
+        "http://127.0.0.1:3000",
+        "https://www.example.com",
+      ),
     ).toBe("http://127.0.0.1:3000");
   });
 
@@ -297,7 +300,9 @@ describe("generateMainSiteOrderReference", () => {
   });
 
   it("uses crypto.randomUUID() as the default randomId", () => {
-    const ref = generateMainSiteOrderReference(new Date("2026-01-01T00:00:00.000Z"));
+    const ref = generateMainSiteOrderReference(
+      new Date("2026-01-01T00:00:00.000Z"),
+    );
     expect(ref).toMatch(/^VC-260101-[A-F0-9]{8}$/);
   });
 
@@ -311,8 +316,14 @@ describe("generateMainSiteOrderReference", () => {
     if (!match) return;
     // Loose check: just confirm prefix shape stayed correct and that the
     // date matches one of the timestamps in the window.
-    const expected = new Date(before).toISOString().slice(2, 10).replace(/-/g, "");
-    const expectedAfter = new Date(after).toISOString().slice(2, 10).replace(/-/g, "");
+    const expected = new Date(before)
+      .toISOString()
+      .slice(2, 10)
+      .replace(/-/g, "");
+    const expectedAfter = new Date(after)
+      .toISOString()
+      .slice(2, 10)
+      .replace(/-/g, "");
     expect([expected, expectedAfter]).toContain(match[1]);
   });
 
