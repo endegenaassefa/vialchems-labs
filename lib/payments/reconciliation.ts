@@ -319,6 +319,18 @@ export function isTerminalStatus(s: PaymentStatus): boolean {
  * Layer 3 catches the case where Layers 1 and 2 were spoofed or buggy:
  * an ineligible shipping address that Layer 1 did not gate still hits this
  * guard at credit time.
+ *
+ * Phase 3.3 (v5) — extended to accept a PaymentIntent. When passed an intent
+ * the guard:
+ *   1. Reads intent.metadata.shipping_country + shipping_state if present
+ *      (test injection + cases where the adapter has already enriched the
+ *      intent with address fields).
+ *   2. Else looks up the order_id from intent.metadata (orderId or
+ *      order_id) via serviceSupabase() and reads shipping_address_snapshot.
+ *   3. Else degrades gracefully (no-op) — Supabase off in Day-1 means we
+ *      cannot resolve the address; Layer 1 + 2 are the primary defenses
+ *      and the cache-only path stays consistent with that posture per
+ *      Iron Law 2.31.
  */
 export class JurisdictionalGuardError extends Error {
   readonly stateCode: string;
@@ -331,15 +343,109 @@ export class JurisdictionalGuardError extends Error {
   }
 }
 
-export function assertOrderJurisdictionAllowed(address: {
+/** Address-like shape accepted by the synchronous-equivalent code path. */
+interface JurisdictionAddressLike {
   countryCode: string;
-  stateCode: string;
-}): void {
-  const result = validateShippingAddress(address);
+  stateCode?: string;
+}
+
+function isAddressLike(
+  value: PaymentIntent | JurisdictionAddressLike,
+): value is JurisdictionAddressLike {
+  // PaymentIntent has provider + method + id — addresses do not.
+  return (
+    typeof (value as JurisdictionAddressLike).countryCode === "string" &&
+    typeof (value as PaymentIntent).provider !== "string"
+  );
+}
+
+async function resolveAddressFromIntent(
+  intent: PaymentIntent,
+): Promise<JurisdictionAddressLike | null> {
+  // Cheap path: adapter already populated intent.metadata.shipping_country
+  // and shipping_state. Use those directly so tests don't need Supabase.
+  const metaCountry =
+    intent.metadata?.shipping_country ?? intent.metadata?.shippingCountry;
+  const metaState =
+    intent.metadata?.shipping_state ?? intent.metadata?.shippingState;
+  if (typeof metaCountry === "string" && metaCountry.length > 0) {
+    return {
+      countryCode: metaCountry,
+      stateCode: typeof metaState === "string" ? metaState : "",
+    };
+  }
+
+  // Durable path: look up the order in Supabase and read its snapshot.
+  const orderUuid =
+    intent.metadata?.order_id ??
+    intent.metadata?.orderId ??
+    intent.metadata?.orderUuid ??
+    null;
+  if (!orderUuid) return null;
+
+  const sb = serviceSupabase();
+  if (!sb) {
+    // Day-1: REQUIRE_SUPABASE=false. Cannot resolve address; degrade.
+    return null;
+  }
+
+  const { data, error } = await sb
+    .from("orders")
+    .select("shipping_address_snapshot")
+    .eq("id", orderUuid)
+    .maybeSingle();
+  if (error || !data) return null;
+
+  const snap = data.shipping_address_snapshot as
+    | Record<string, unknown>
+    | null;
+  if (!snap || typeof snap !== "object") return null;
+
+  const country =
+    (snap.country_code as string | undefined) ??
+    (snap.countryCode as string | undefined);
+  const state =
+    (snap.state_code as string | undefined) ??
+    (snap.stateCode as string | undefined);
+  if (typeof country !== "string" || country.length === 0) return null;
+  return {
+    countryCode: country,
+    stateCode: typeof state === "string" ? state : "",
+  };
+}
+
+export async function assertOrderJurisdictionAllowed(
+  input: PaymentIntent | JurisdictionAddressLike,
+): Promise<void> {
+  // Address-like inputs validate inline (legacy + Zelle/Bitcoin receipts
+  // which carry the address in the request payload).
+  if (isAddressLike(input)) {
+    const result = validateShippingAddress({
+      countryCode: input.countryCode,
+      stateCode: input.stateCode,
+    });
+    if (!result.ok) {
+      throw new JurisdictionalGuardError(
+        input.stateCode ?? "",
+        input.countryCode,
+        result.reason,
+      );
+    }
+    return;
+  }
+
+  // PaymentIntent path: derive address from intent metadata or Supabase.
+  const resolved = await resolveAddressFromIntent(input);
+  if (!resolved) {
+    // Could not resolve — graceful degradation. Layers 1+2 remain the
+    // primary defense.
+    return;
+  }
+  const result = validateShippingAddress(resolved);
   if (!result.ok) {
     throw new JurisdictionalGuardError(
-      address.stateCode,
-      address.countryCode,
+      resolved.stateCode ?? "",
+      resolved.countryCode,
       result.reason,
     );
   }

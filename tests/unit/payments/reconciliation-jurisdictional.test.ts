@@ -18,37 +18,38 @@ describe("assertOrderJurisdictionAllowed (D15 Layer 3)", () => {
     resetReconciliationLedger();
   });
 
-  it("passes for US shipping states", () => {
+  it("passes for US shipping states", async () => {
     for (const stateCode of ["WA", "CA", "TX", "NY", "FL"]) {
-      expect(() =>
+      await expect(
         assertOrderJurisdictionAllowed({
           countryCode: "US",
           stateCode,
         }),
-      ).not.toThrow();
+      ).resolves.toBeUndefined();
     }
   });
 
-  it("throws for non-US country codes (US-only Day-1)", () => {
-    expect(() =>
+  it("throws for non-US country codes (US-only Day-1)", async () => {
+    await expect(
       assertOrderJurisdictionAllowed({
         countryCode: "CA",
         stateCode: "ON",
       }),
-    ).toThrow(JurisdictionalGuardError);
+    ).rejects.toBeInstanceOf(JurisdictionalGuardError);
   });
 
-  it("error includes the rejection reason from validateShippingAddress", () => {
+  it("error includes the rejection reason from validateShippingAddress", async () => {
+    let captured: unknown = null;
     try {
-      assertOrderJurisdictionAllowed({
+      await assertOrderJurisdictionAllowed({
         countryCode: "CA",
         stateCode: "ON",
       });
-      throw new Error("should have thrown");
     } catch (err) {
-      expect(err).toBeInstanceOf(JurisdictionalGuardError);
-      expect((err as Error).message).toMatch(/United States/);
-      expect((err as Error).message).toMatch(/International shipping/);
+      captured = err;
     }
+    expect(captured).toBeInstanceOf(JurisdictionalGuardError);
+    expect((captured as Error).message).toMatch(/United States/);
+    expect((captured as Error).message).toMatch(/International shipping/);
   });
 });
