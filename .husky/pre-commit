@@ -14,4 +14,7 @@ bash scripts/grep-forbidden-words.sh
 echo "[pre-commit] Running supply-chain-scan..."
 bash scripts/supply-chain-scan.sh
 
+echo "[pre-commit] Running check-canonical-domain (Iron Law 2.28)..."
+bash scripts/check-canonical-domain.sh
+
 echo "[pre-commit] All checks passed."

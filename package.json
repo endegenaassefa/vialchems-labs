@@ -9,6 +9,7 @@
   },
   "scripts": {
     "dev": "next dev",
+    "prebuild": "bash scripts/check-canonical-domain.sh && bash scripts/check-dns-resolution.sh",
     "build": "next build",
     "dev:shop-preview": "node scripts/local-woo-preview-server.mjs",
     "start": "next start",
@@ -27,7 +28,9 @@
     "grep-mogtrix": "bash scripts/grep-mogtrix.sh",
     "grep-forbidden-words": "bash scripts/grep-forbidden-words.sh",
     "supply-chain-scan": "bash scripts/supply-chain-scan.sh",
-    "preflight": "npm run typecheck && npm run lint && npm run format:check && npm test && npm run build && npm audit --audit-level=high && npm run grep-mogtrix && npm run grep-forbidden-words && npm run supply-chain-scan"
+    "check-canonical-domain": "bash scripts/check-canonical-domain.sh",
+    "check-dns-resolution": "bash scripts/check-dns-resolution.sh",
+    "preflight": "npm run typecheck && npm run lint && npm run format:check && npm test && npm run build && npm audit --audit-level=high && npm run grep-mogtrix && npm run grep-forbidden-words && npm run supply-chain-scan && npm run check-canonical-domain && SKIP_DNS_CHECK=true npm run check-dns-resolution"
   },
   "dependencies": {
     "@sentry/nextjs": "^10.51.0",
