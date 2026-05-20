@@ -1,5 +1,5 @@
-import { describe, expect, it } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { describe, expect, it, vi } from "vitest";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { Vial } from "@/components/ui/Vial";
 
 describe("Vial", () => {
@@ -268,5 +268,68 @@ describe("Iron Law 2.29 — Vial double-gate (static blocklist + catalog allowli
 
   it("Vial throws for whitespace-only compound", () => {
     expect(() => render(<Vial compound="   " />)).toThrow();
+  });
+});
+
+// Interactive click handler coverage (lines 226-234) — ensures the click
+// rotation accumulation + onClick forwarding both fire and that
+// non-interactive vials only forward onClick without mutating rotation state.
+describe("Vial — interactive click handler", () => {
+  it("interactive=true: click forwards to onClick AND increments internal rotation (transform applied)", () => {
+    const onClick = vi.fn();
+    const { getByTestId } = render(
+      <Vial interactive onClick={onClick} data-testid="vial" />,
+    );
+    const el = getByTestId("vial");
+
+    fireEvent.click(el);
+    expect(onClick).toHaveBeenCalledTimes(1);
+    // After 1 click, the rotation transform inline-style should be applied.
+    expect(el.getAttribute("style") ?? "").toMatch(/rotate\(360deg\)/);
+
+    fireEvent.click(el);
+    expect(onClick).toHaveBeenCalledTimes(2);
+    // After 2 clicks, rotation accumulates to 720deg.
+    expect(el.getAttribute("style") ?? "").toMatch(/rotate\(720deg\)/);
+  });
+
+  it("interactive=false: click forwards to onClick but does NOT apply rotation transform", () => {
+    const onClick = vi.fn();
+    const { getByTestId } = render(
+      <Vial onClick={onClick} data-testid="vial" />,
+    );
+    const el = getByTestId("vial");
+
+    fireEvent.click(el);
+    expect(onClick).toHaveBeenCalledTimes(1);
+    expect(el.getAttribute("style") ?? "").not.toMatch(/rotate/);
+  });
+
+  it("interactive=true with no onClick: still increments rotation safely (no throw)", () => {
+    const { getByTestId } = render(<Vial interactive data-testid="vial" />);
+    const el = getByTestId("vial");
+
+    expect(() => fireEvent.click(el)).not.toThrow();
+    expect(el.getAttribute("style") ?? "").toMatch(/rotate\(360deg\)/);
+  });
+});
+
+// Additional animation-class coverage (spin + bob lines 246-249).
+describe("Vial — spin and bob animation classes", () => {
+  it("applies vial-spin animation class when spin=true", () => {
+    render(<Vial spin data-testid="vial" />);
+    expect(screen.getByTestId("vial").className).toMatch(/vial-spin/);
+  });
+
+  it("applies vial-bob animation class when bob=true", () => {
+    render(<Vial bob data-testid="vial" />);
+    expect(screen.getByTestId("vial").className).toMatch(/vial-bob/);
+  });
+
+  it("interactive=true adds cursor-pointer + transition classes", () => {
+    render(<Vial interactive data-testid="vial" />);
+    const cls = screen.getByTestId("vial").className;
+    expect(cls).toMatch(/cursor-pointer/);
+    expect(cls).toMatch(/hover:scale/);
   });
 });
