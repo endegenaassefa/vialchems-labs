@@ -1,7 +1,9 @@
 import { NextResponse, type NextRequest } from "next/server";
+import * as Sentry from "@sentry/nextjs";
 import { sendEmail } from "@/lib/email/resend";
 import { rateLimitByIp } from "@/lib/rate-limit";
 import { isProductionRuntime } from "@/lib/runtime-env";
+import { captureException } from "@/lib/sentry";
 
 /**
  * Contact-form stub. Phase 5 returns a JSON ok response without persisting
@@ -31,6 +33,13 @@ function getClientIp(req: NextRequest): string {
 }
 
 export async function POST(req: NextRequest) {
+  Sentry.addBreadcrumb({
+    category: "webhook",
+    level: "info",
+    message: "contact_entry",
+    data: { route: "contact" },
+  });
+
   const ip = getClientIp(req);
   const limit = rateLimitByIp("contact", ip);
   if (!limit.success) {
@@ -85,6 +94,9 @@ export async function POST(req: NextRequest) {
       text: [`Name: ${name}`, `Email: ${email}`, "", message].join("\n"),
     });
   } catch (error) {
+    captureException(error, {
+      tags: { route: "contact", provider: "resend" },
+    });
     if (isProductionRuntime()) {
       return NextResponse.json(
         {

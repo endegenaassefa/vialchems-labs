@@ -45,6 +45,36 @@ describe("parseWooOrderWebhook", () => {
       id: 727,
       status: "processing",
       orderKey: "wc_order_58d2d042d1d",
+      shippingAddress: null,
+    });
+  });
+
+  it("extracts shipping address (Phase 3.3 Layer 3 guard)", () => {
+    expect(
+      parseWooOrderWebhook(
+        JSON.stringify({
+          id: 728,
+          status: "processing",
+          shipping: { country: "US", state: "WA" },
+        }),
+      ),
+    ).toMatchObject({
+      id: 728,
+      shippingAddress: { countryCode: "US", stateCode: "WA" },
+    });
+  });
+
+  it("falls back to billing address when shipping is missing (Phase 3.3)", () => {
+    expect(
+      parseWooOrderWebhook(
+        JSON.stringify({
+          id: 729,
+          status: "processing",
+          billing: { country: "US", state: "TX" },
+        }),
+      ),
+    ).toMatchObject({
+      shippingAddress: { countryCode: "US", stateCode: "TX" },
     });
   });
 

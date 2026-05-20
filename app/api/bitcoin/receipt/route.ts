@@ -1,13 +1,25 @@
 import { NextResponse } from "next/server";
+import * as Sentry from "@sentry/nextjs";
 import { z } from "zod";
 import {
   getBitcoinDirectSigningSecret,
   verifyBitcoinDirectCheckoutSignature,
 } from "@/lib/payments/bitcoin-direct";
-import { validateShippingAddress } from "@/lib/compliance/jurisdictions";
+import {
+  assertOrderJurisdictionAllowed,
+  JurisdictionalGuardError,
+} from "@/lib/payments/reconciliation";
 import { siteConfig } from "@/lib/content/site";
 import { sendEmail } from "@/lib/email/resend";
 import { isProductionRuntime } from "@/lib/runtime-env";
+import { captureException, captureMessage } from "@/lib/sentry";
+
+/**
+ * Phase 3.3 (v5) — Layer 3 + Sentry per Iron Law 2.31 + 2.32. Bitcoin-direct
+ * is buyer-attested + chain-verified via the receive address; the shipping
+ * address rides on the signed receipt body. Layer 3 runs at handler entry
+ * BEFORE we forward the staff-notification email.
+ */
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -73,6 +85,13 @@ function formatUsd(cents: number): string {
 }
 
 export async function POST(request: Request): Promise<Response> {
+  Sentry.addBreadcrumb({
+    category: "webhook",
+    level: "info",
+    message: "bitcoin_receipt_entry",
+    data: { route: "bitcoin_receipt" },
+  });
+
   let raw: unknown;
   try {
     raw = await request.json();
@@ -105,16 +124,24 @@ export async function POST(request: Request): Promise<Response> {
     return jsonError("invalid_signature", 400);
   }
 
-  const shippingValidation = validateShippingAddress({
-    countryCode: payload.customer.countryCode,
-    stateCode: payload.customer.stateCode,
-  });
-  if (!shippingValidation.ok) {
-    return jsonError(
-      "jurisdiction_not_allowed",
-      400,
-      shippingValidation.reason,
-    );
+  // Iron Law 2.31 — Layer 3 jurisdiction guard at signed-receipt entry.
+  try {
+    await assertOrderJurisdictionAllowed({
+      countryCode: payload.customer.countryCode,
+      stateCode: payload.customer.stateCode,
+    });
+  } catch (err) {
+    if (err instanceof JurisdictionalGuardError) {
+      captureMessage("bitcoin_receipt_jurisdiction_blocked", "warning", {
+        route: "bitcoin_receipt",
+        reason: err.message,
+      });
+      return jsonError("jurisdiction_blocked", 403, err.message);
+    }
+    captureException(err, {
+      tags: { route: "bitcoin_receipt", provider: "bitcoin-direct" },
+    });
+    return jsonError("internal_error", 500);
   }
 
   const text = [
@@ -150,6 +177,9 @@ export async function POST(request: Request): Promise<Response> {
       tag: "order-confirmation",
     });
   } catch (error) {
+    captureException(error, {
+      tags: { route: "bitcoin_receipt", provider: "bitcoin-direct" },
+    });
     if (isProductionRuntime()) {
       return jsonError(
         "bitcoin_receipt_dispatch_failed",
@@ -158,6 +188,13 @@ export async function POST(request: Request): Promise<Response> {
       );
     }
   }
+
+  Sentry.addBreadcrumb({
+    category: "webhook",
+    level: "info",
+    message: "bitcoin_receipt_exit",
+    data: { route: "bitcoin_receipt", order: payload.order },
+  });
 
   return NextResponse.json({ ok: true, order: payload.order });
 }

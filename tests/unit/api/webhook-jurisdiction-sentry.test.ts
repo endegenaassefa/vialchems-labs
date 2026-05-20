@@ -21,14 +21,7 @@
  * captureException for diagnostics.
  */
 import crypto from "node:crypto";
-import {
-  afterEach,
-  beforeEach,
-  describe,
-  expect,
-  it,
-  vi,
-} from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 // -------------------------- Sentry mocks ------------------------------------
 // vi.hoisted so we can call the *same* spy from the route's import of
@@ -444,8 +437,6 @@ describe("POST /api/zelle/receipt — Layer 3 + Sentry (Phase 3.3)", () => {
 
   it("captures dispatch errors to Sentry with zelle tags", async () => {
     sendEmailMock.mockRejectedValue(new Error("simulated_smtp_failure"));
-    process.env.NODE_ENV = "production";
-    process.env.VERCEL_ENV = "production";
 
     const res = await zelleReceiptPOST(
       new Request("http://localhost/api/zelle/receipt", {
@@ -454,10 +445,9 @@ describe("POST /api/zelle/receipt — Layer 3 + Sentry (Phase 3.3)", () => {
         body: JSON.stringify(zelleReceiptBody()),
       }),
     );
-    delete process.env.VERCEL_ENV;
-    process.env.NODE_ENV = "test";
 
-    // Whether 502 or 200 (env-gated), captureException must fire.
+    // captureException must fire whenever sendEmail throws — irrespective
+    // of whether the route then surfaces a 502 (production) or 200 (dev).
     expect(captureExceptionMock).toHaveBeenCalled();
     const firstCall = captureExceptionMock.mock.calls[0];
     expect(firstCall?.[1]).toEqual(
@@ -468,8 +458,7 @@ describe("POST /api/zelle/receipt — Layer 3 + Sentry (Phase 3.3)", () => {
         }),
       }),
     );
-    // The status assertion: in production env, route surfaces 502.
-    expect(res.status === 502 || res.status === 200).toBe(true);
+    expect([200, 502]).toContain(res.status);
   });
 });
 
@@ -545,8 +534,6 @@ describe("POST /api/bitcoin/receipt — Layer 3 + Sentry (Phase 3.3)", () => {
 
   it("captures dispatch errors to Sentry with bitcoin-direct tags", async () => {
     sendEmailMock.mockRejectedValue(new Error("simulated_smtp_failure"));
-    process.env.NODE_ENV = "production";
-    process.env.VERCEL_ENV = "production";
 
     await bitcoinReceiptPOST(
       new Request("http://localhost/api/bitcoin/receipt", {
@@ -555,8 +542,6 @@ describe("POST /api/bitcoin/receipt — Layer 3 + Sentry (Phase 3.3)", () => {
         body: JSON.stringify(bitcoinReceiptBody()),
       }),
     );
-    delete process.env.VERCEL_ENV;
-    process.env.NODE_ENV = "test";
 
     expect(captureExceptionMock).toHaveBeenCalled();
     const firstCall = captureExceptionMock.mock.calls[0];
@@ -742,8 +727,6 @@ describe("POST /api/access — H6 generic error + Sentry (Phase 3.3)", () => {
 describe("POST /api/contact — Sentry (Phase 3.3)", () => {
   it("captures dispatch errors to Sentry with contact tags", async () => {
     sendEmailMock.mockRejectedValue(new Error("simulated_smtp_failure"));
-    process.env.NODE_ENV = "production";
-    process.env.VERCEL_ENV = "production";
 
     const res = await contactPOST(
       new Request("http://test/api/contact", {
@@ -756,8 +739,6 @@ describe("POST /api/contact — Sentry (Phase 3.3)", () => {
         }),
       }) as never,
     );
-    delete process.env.VERCEL_ENV;
-    process.env.NODE_ENV = "test";
 
     expect([200, 502]).toContain(res.status);
     expect(captureExceptionMock).toHaveBeenCalled();
@@ -779,8 +760,6 @@ describe("POST /api/newsletter/subscribe — Sentry (Phase 3.3)", () => {
     vi.mocked(dispatcher.dispatchWelcomeSequence).mockRejectedValueOnce(
       new Error("simulated_failure"),
     );
-    process.env.NODE_ENV = "production";
-    process.env.VERCEL_ENV = "production";
 
     await newsletterPOST(
       new Request("http://test/api/newsletter/subscribe", {
@@ -789,8 +768,6 @@ describe("POST /api/newsletter/subscribe — Sentry (Phase 3.3)", () => {
         body: JSON.stringify({ email: "researcher@example.com" }),
       }),
     );
-    delete process.env.VERCEL_ENV;
-    process.env.NODE_ENV = "test";
 
     expect(captureExceptionMock).toHaveBeenCalled();
     const firstCall = captureExceptionMock.mock.calls[0];

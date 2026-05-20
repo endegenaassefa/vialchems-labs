@@ -108,7 +108,9 @@ describe("beforeSend — header scrubbing", () => {
     const ev = beforeSend(
       {
         ...baseEvent(),
-        request: { headers: { "x-forwarded-for": "203.0.113.5, 198.51.100.7" } },
+        request: {
+          headers: { "x-forwarded-for": "203.0.113.5, 198.51.100.7" },
+        },
       },
       {},
     );
@@ -222,9 +224,7 @@ describe("beforeSend — email address scrubbing", () => {
       },
       {},
     );
-    expect(ev?.exception?.values?.[0]?.value).toBe(
-      "User not found: [email]",
-    );
+    expect(ev?.exception?.values?.[0]?.value).toBe("User not found: [email]");
   });
 
   it("scrubs email in breadcrumb messages", () => {
@@ -240,9 +240,7 @@ describe("beforeSend — email address scrubbing", () => {
       },
       {},
     );
-    expect(ev?.breadcrumbs?.[0]?.message).toBe(
-      "received request for [email]",
-    );
+    expect(ev?.breadcrumbs?.[0]?.message).toBe("received request for [email]");
   });
 
   it("scrubs breadcrumb data PII keys (email, phone, ssn, dob, name, address)", () => {

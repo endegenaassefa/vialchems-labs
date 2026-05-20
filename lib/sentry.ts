@@ -29,22 +29,70 @@ import type { ErrorEvent, EventHint } from "@sentry/core";
 
 export type SentryEventContext = Record<string, unknown>;
 
+/**
+ * Structured context for captureException / captureMessage. Phase 3.3 (v5)
+ * extends the legacy "extra-only" shape so callers can attach Sentry tags
+ * directly (route, provider) without nesting them under `extra`. Tags drive
+ * dashboard grouping; extra fields are searchable but un-indexed.
+ *
+ * Legacy callers passing a flat Record<string, unknown> still work — the
+ * helper forwards it as `extra` per the original contract.
+ */
+export interface SentryCaptureOptions {
+  tags?: Record<string, string>;
+  extra?: SentryEventContext;
+}
+
+function isCaptureOptions(
+  value: SentryEventContext | SentryCaptureOptions | undefined,
+): value is SentryCaptureOptions {
+  if (!value) return false;
+  // Disambiguate: SentryCaptureOptions has `tags` or `extra` keys and no
+  // other top-level keys with non-string values would conflict. We detect
+  // by presence of `tags` (Record<string,string>) or an `extra` field that
+  // is itself a Record.
+  return "tags" in value || "extra" in value;
+}
+
 /** Capture a non-fatal exception with optional structured context. */
 export function captureException(
   err: unknown,
-  context?: SentryEventContext,
+  context?: SentryEventContext | SentryCaptureOptions,
 ): void {
   if (!process.env.NEXT_PUBLIC_SENTRY_DSN) return;
-  Sentry.captureException(err, context ? { extra: context } : undefined);
+  if (context === undefined) {
+    Sentry.captureException(err, undefined);
+    return;
+  }
+  if (isCaptureOptions(context)) {
+    Sentry.captureException(err, {
+      tags: context.tags,
+      extra: context.extra,
+    });
+    return;
+  }
+  Sentry.captureException(err, { extra: context });
 }
 
 /** Capture a structured message (e.g. "payment.reconciled.applied"). */
 export function captureMessage(
   message: string,
   level: "info" | "warning" | "error" = "info",
-  context?: SentryEventContext,
+  context?: SentryEventContext | SentryCaptureOptions,
 ): void {
   if (!process.env.NEXT_PUBLIC_SENTRY_DSN) return;
+  if (context === undefined) {
+    Sentry.captureMessage(message, { level });
+    return;
+  }
+  if (isCaptureOptions(context)) {
+    Sentry.captureMessage(message, {
+      level,
+      tags: context.tags,
+      extra: context.extra,
+    });
+    return;
+  }
   Sentry.captureMessage(message, {
     level,
     extra: context,

@@ -1,5 +1,6 @@
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
+import * as Sentry from "@sentry/nextjs";
 import { z } from "zod";
 import {
   AGE_VERIFICATION_COOKIE,
@@ -27,7 +28,15 @@ import {
 import { siteConfig } from "@/lib/content/site";
 import { createBtcpayAdapter } from "@/lib/payments/btcpay";
 import { isProductionRuntime } from "@/lib/runtime-env";
+import { captureException } from "@/lib/sentry";
 import { isAllowedHandoffOrigin } from "@/lib/woocommerce/security";
+
+/**
+ * Phase 3.3 (v5) — Sentry instrumentation per Iron Law 2.32. Layer 3 not
+ * invoked here: shipping address is captured at /bitcoin/receipt, so this
+ * create-intent surface has no address. Layer 1 + 2 + receipt-level Layer
+ * 3 remain authoritative.
+ */
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -110,6 +119,13 @@ async function verifyCheckoutRequest(
 }
 
 export async function POST(request: Request): Promise<Response> {
+  Sentry.addBreadcrumb({
+    category: "webhook",
+    level: "info",
+    message: "create_bitcoin_order_entry",
+    data: { route: "create_bitcoin_order" },
+  });
+
   const verificationError = await verifyCheckoutRequest(request);
   if (verificationError) return verificationError;
 
@@ -158,6 +174,12 @@ export async function POST(request: Request): Promise<Response> {
           amountCents: totals.totalCents,
         });
       } catch (error) {
+        captureException(error, {
+          tags: {
+            route: "create_bitcoin_order",
+            provider: "bitcoin-direct",
+          },
+        });
         if (isProductionRuntime()) {
           return jsonError(
             "bitcoin_direct_quote_failed",
@@ -220,6 +242,9 @@ export async function POST(request: Request): Promise<Response> {
       }),
     });
   } catch (error) {
+    captureException(error, {
+      tags: { route: "create_bitcoin_order", provider: "btcpay" },
+    });
     if (isBitcoinDirectConfigured()) {
       try {
         return await createDirectBitcoinCheckout({
@@ -228,6 +253,12 @@ export async function POST(request: Request): Promise<Response> {
           amountCents: totals.totalCents,
         });
       } catch (fallbackError) {
+        captureException(fallbackError, {
+          tags: {
+            route: "create_bitcoin_order",
+            provider: "bitcoin-direct",
+          },
+        });
         return jsonError(
           "bitcoin_direct_quote_failed",
           502,

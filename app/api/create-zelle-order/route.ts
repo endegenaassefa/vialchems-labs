@@ -1,5 +1,6 @@
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
+import * as Sentry from "@sentry/nextjs";
 import { z } from "zod";
 import {
   AGE_VERIFICATION_COOKIE,
@@ -21,7 +22,16 @@ import {
 import { siteConfig } from "@/lib/content/site";
 import { createZelleAdapter } from "@/lib/payments/zelle";
 import { isProductionRuntime } from "@/lib/runtime-env";
+import { captureException } from "@/lib/sentry";
 import { isAllowedHandoffOrigin } from "@/lib/woocommerce/security";
+
+/**
+ * Phase 3.3 (v5) — Sentry instrumentation per Iron Law 2.32. Layer 3
+ * jurisdiction guard is NOT invoked here: the shipping address is captured
+ * later at /zelle/receipt, so this create-intent surface has no address
+ * yet. Layer 1 (form validation) + Layer 2 (review re-check) are the
+ * authoritative gates upstream; Layer 3 fires at the receipt route.
+ */
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -78,6 +88,13 @@ async function verifyCheckoutRequest(
 }
 
 export async function POST(request: Request): Promise<Response> {
+  Sentry.addBreadcrumb({
+    category: "webhook",
+    level: "info",
+    message: "create_zelle_order_entry",
+    data: { route: "create_zelle_order" },
+  });
+
   const verificationError = await verifyCheckoutRequest(request);
   if (verificationError) return verificationError;
 
@@ -166,6 +183,9 @@ export async function POST(request: Request): Promise<Response> {
       }),
     });
   } catch (error) {
+    captureException(error, {
+      tags: { route: "create_zelle_order", provider: "zelle" },
+    });
     return jsonError(
       "zelle_order_create_failed",
       502,

@@ -29,11 +29,7 @@
  */
 import { validateShippingAddress } from "@/lib/compliance/jurisdictions";
 import { serviceSupabase } from "@/lib/supabase";
-import type {
-  PaymentIntent,
-  PaymentProviderId,
-  PaymentStatus,
-} from "./types";
+import type { PaymentIntent, PaymentProviderId, PaymentStatus } from "./types";
 
 export interface ReconcileResult {
   applied: boolean;
@@ -396,9 +392,7 @@ async function resolveAddressFromIntent(
     .maybeSingle();
   if (error || !data) return null;
 
-  const snap = data.shipping_address_snapshot as
-    | Record<string, unknown>
-    | null;
+  const snap = data.shipping_address_snapshot as Record<string, unknown> | null;
   if (!snap || typeof snap !== "object") return null;
 
   const country =

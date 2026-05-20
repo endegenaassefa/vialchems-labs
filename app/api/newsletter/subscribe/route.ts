@@ -1,7 +1,9 @@
 import { NextResponse } from "next/server";
+import * as Sentry from "@sentry/nextjs";
 import { z } from "zod";
 import { rateLimitByIp } from "@/lib/rate-limit";
 import { isProductionRuntime } from "@/lib/runtime-env";
+import { captureException } from "@/lib/sentry";
 
 /**
  * Newsletter subscribe stub.
@@ -32,6 +34,13 @@ function getClientIp(request: Request): string {
 }
 
 export async function POST(request: Request) {
+  Sentry.addBreadcrumb({
+    category: "webhook",
+    level: "info",
+    message: "newsletter_subscribe_entry",
+    data: { route: "newsletter" },
+  });
+
   const ip = getClientIp(request);
   const limit = rateLimitByIp("newsletter", ip);
   if (!limit.success) {
@@ -122,6 +131,9 @@ export async function POST(request: Request) {
       await dispatcher.dispatchWelcomeSequence({ email, subscriptionId });
     }
   } catch (error) {
+    captureException(error, {
+      tags: { route: "newsletter", provider: "resend" },
+    });
     if (isProductionRuntime()) {
       return NextResponse.json(
         {

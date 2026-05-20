@@ -15,12 +15,14 @@
  * the protected paths list. Future edits require // SCANNER_OK annotations.
  */
 import { NextResponse } from "next/server";
+import * as Sentry from "@sentry/nextjs";
 import { createHash, randomUUID } from "node:crypto";
 import {
   ATTESTATIONS,
   validateQualification,
 } from "@/lib/customer-qualification";
 import { rateLimitByIp } from "@/lib/rate-limit";
+import { captureException } from "@/lib/sentry";
 import { serviceSupabase } from "@/lib/supabase";
 
 export const dynamic = "force-dynamic";
@@ -46,6 +48,13 @@ async function sha256Hex(input: string): Promise<string> {
 }
 
 export async function POST(request: Request): Promise<Response> {
+  Sentry.addBreadcrumb({
+    category: "webhook",
+    level: "info",
+    message: "access_entry",
+    data: { route: "access" },
+  });
+
   // Iron Law 2.34: anti-abuse gate before any work happens.
   const ip = getClientIp(request);
   const limit = rateLimitByIp("access", ip);
@@ -113,54 +122,69 @@ export async function POST(request: Request): Promise<Response> {
   let qualificationId = randomUUID();
 
   if (sb) {
-    const { data: inserted, error } = await sb
-      .from("customer_qualifications")
-      .insert({
+    try {
+      const { data: inserted, error } = await sb
+        .from("customer_qualifications")
+        .insert({
+          email: data.email,
+          payload: data,
+          attestation_text_sha256: attestationHash,
+          ip_address: ipAddress,
+          user_agent: userAgent,
+        })
+        .select("id")
+        .single();
+
+      if (error) {
+        // Iron Law 2.32 + audit H6 closure: capture diagnostics to Sentry
+        // but DO NOT leak the raw error message into the response body.
+        captureException(error, {
+          tags: { route: "access", provider: "supabase" },
+        });
+        return NextResponse.json(
+          {
+            ok: false,
+            errors: [{ field: "_", message: "persistence_failed" }],
+          },
+          { status: 500 },
+        );
+      }
+
+      if (inserted?.id) qualificationId = inserted.id;
+
+      await sb.from("attestations_audit").insert({
+        qualification_id: qualificationId,
         email: data.email,
-        payload: data,
-        attestation_text_sha256: attestationHash,
+        attestations: audit,
+        legal_text_sha256: attestationHash,
         ip_address: ipAddress,
         user_agent: userAgent,
-      })
-      .select("id")
-      .single();
+      });
 
-    if (error) {
+      await sb.from("audit_log").insert({
+        event_type: "qualification.submitted",
+        details: {
+          qualification_id: qualificationId,
+          role: data.role,
+          attestation_text_sha256: attestationHash,
+        },
+        ip_address: ipAddress,
+        user_agent: userAgent,
+      });
+    } catch (err) {
+      // Iron Law 2.32 + audit H6 closure: capture diagnostics to Sentry
+      // without surfacing internal details.
+      captureException(err, {
+        tags: { route: "access", provider: "supabase" },
+      });
       return NextResponse.json(
         {
           ok: false,
-          errors: [
-            {
-              field: "_",
-              message: `Persistence error: ${error.message}`,
-            },
-          ],
+          errors: [{ field: "_", message: "persistence_failed" }],
         },
         { status: 500 },
       );
     }
-
-    if (inserted?.id) qualificationId = inserted.id;
-
-    await sb.from("attestations_audit").insert({
-      qualification_id: qualificationId,
-      email: data.email,
-      attestations: audit,
-      legal_text_sha256: attestationHash,
-      ip_address: ipAddress,
-      user_agent: userAgent,
-    });
-
-    await sb.from("audit_log").insert({
-      event_type: "qualification.submitted",
-      details: {
-        qualification_id: qualificationId,
-        role: data.role,
-        attestation_text_sha256: attestationHash,
-      },
-      ip_address: ipAddress,
-      user_agent: userAgent,
-    });
   }
 
   return NextResponse.json({

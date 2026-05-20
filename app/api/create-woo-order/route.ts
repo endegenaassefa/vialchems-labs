@@ -1,5 +1,6 @@
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
+import * as Sentry from "@sentry/nextjs";
 import { z } from "zod";
 import {
   AGE_VERIFICATION_COOKIE,
@@ -16,6 +17,7 @@ import {
   isWooCheckoutMethod,
 } from "@/lib/checkout/payment-routing";
 import { siteConfig } from "@/lib/content/site";
+import { captureException } from "@/lib/sentry";
 import {
   buildWooOrderPayload,
   createWooOrder,
@@ -26,6 +28,14 @@ import {
   type WooHandoffLine,
 } from "@/lib/woocommerce/handoff";
 import { isAllowedHandoffOrigin } from "@/lib/woocommerce/security";
+
+/**
+ * Phase 3.3 (v5) — Sentry instrumentation per Iron Law 2.32. Layer 3 not
+ * invoked at create time: shipping address is captured by WooCommerce at
+ * checkout, and the woocommerce/order-webhook surface runs Layer 3 when
+ * the order ships back. Layers 1 + 2 + WooCommerce checkout flow remain
+ * the upstream gates.
+ */
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -49,6 +59,13 @@ function jsonError(error: string, status: number, message?: string): Response {
 }
 
 export async function POST(request: Request): Promise<Response> {
+  Sentry.addBreadcrumb({
+    category: "webhook",
+    level: "info",
+    message: "create_woo_order_entry",
+    data: { route: "create_woo_order" },
+  });
+
   const requestOrigin = request.headers.get("origin");
   const originAllowed = isAllowedHandoffOrigin(
     requestOrigin,
@@ -177,6 +194,9 @@ export async function POST(request: Request): Promise<Response> {
       checkoutUrl: created.checkoutUrl,
     });
   } catch (error) {
+    captureException(error, {
+      tags: { route: "create_woo_order", provider: "woocommerce" },
+    });
     if (error instanceof WooHandoffError) {
       return jsonError("woo_order_create_failed", error.status, error.message);
     }

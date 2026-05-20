@@ -1,13 +1,26 @@
 import { NextResponse } from "next/server";
+import * as Sentry from "@sentry/nextjs";
 import { z } from "zod";
 import {
   getZelleCheckoutSigningSecret,
   verifyZelleCheckoutSignature,
 } from "@/lib/checkout/direct-payment";
-import { validateShippingAddress } from "@/lib/compliance/jurisdictions";
+import {
+  assertOrderJurisdictionAllowed,
+  JurisdictionalGuardError,
+} from "@/lib/payments/reconciliation";
 import { siteConfig } from "@/lib/content/site";
 import { sendEmail } from "@/lib/email/resend";
 import { isProductionRuntime } from "@/lib/runtime-env";
+import { captureException, captureMessage } from "@/lib/sentry";
+
+/**
+ * Phase 3.3 (v5) — Layer 3 + Sentry per Iron Law 2.31 + 2.32. The Zelle
+ * receipt is buyer-attested + carries the shipping address directly in
+ * the request payload, so Layer 3 runs on the parsed customer object.
+ * captureException tags all internal errors with { route: 'zelle_receipt',
+ * provider: 'zelle' } for dashboard grouping.
+ */
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -65,6 +78,13 @@ function formatPrice(cents: number): string {
 }
 
 export async function POST(request: Request): Promise<Response> {
+  Sentry.addBreadcrumb({
+    category: "webhook",
+    level: "info",
+    message: "zelle_receipt_entry",
+    data: { route: "zelle_receipt" },
+  });
+
   let raw: unknown;
   try {
     raw = await request.json();
@@ -97,16 +117,25 @@ export async function POST(request: Request): Promise<Response> {
     return jsonError("invalid_signature", 400);
   }
 
-  const shippingValidation = validateShippingAddress({
-    countryCode: payload.customer.countryCode,
-    stateCode: payload.customer.stateCode,
-  });
-  if (!shippingValidation.ok) {
-    return jsonError(
-      "jurisdiction_not_allowed",
-      400,
-      shippingValidation.reason,
-    );
+  // Iron Law 2.31 — Layer 3 jurisdiction guard. Zelle is buyer-attested,
+  // so the shipping address rides on the signed receipt body.
+  try {
+    await assertOrderJurisdictionAllowed({
+      countryCode: payload.customer.countryCode,
+      stateCode: payload.customer.stateCode,
+    });
+  } catch (err) {
+    if (err instanceof JurisdictionalGuardError) {
+      captureMessage("zelle_receipt_jurisdiction_blocked", "warning", {
+        route: "zelle_receipt",
+        reason: err.message,
+      });
+      return jsonError("jurisdiction_blocked", 403, err.message);
+    }
+    captureException(err, {
+      tags: { route: "zelle_receipt", provider: "zelle" },
+    });
+    return jsonError("internal_error", 500);
   }
 
   const staffRecipients = siteConfig.email.staff.map((value) => value.trim());
@@ -143,6 +172,9 @@ export async function POST(request: Request): Promise<Response> {
       tag: "order-confirmation",
     });
   } catch (error) {
+    captureException(error, {
+      tags: { route: "zelle_receipt", provider: "zelle" },
+    });
     if (isProductionRuntime()) {
       return jsonError(
         "zelle_receipt_dispatch_failed",
@@ -151,6 +183,13 @@ export async function POST(request: Request): Promise<Response> {
       );
     }
   }
+
+  Sentry.addBreadcrumb({
+    category: "webhook",
+    level: "info",
+    message: "zelle_receipt_exit",
+    data: { route: "zelle_receipt", order: payload.order },
+  });
 
   return NextResponse.json({ ok: true, order: payload.order });
 }
