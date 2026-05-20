@@ -186,3 +186,87 @@ describe("Vial", () => {
     });
   });
 });
+
+// Iron Law 2.29 — Vial double-gate (static blocklist OVERRIDES catalog allowlist).
+//
+// Audit C5 STILL-APPLIES: components/ui/Vial.tsx auto-derives allowedCompounds
+// from products.map. Supplemental S1 demonstrated concretely that when an
+// operator added shortName='Reta'/'Tirz'/'KLOW' to products.ts, the
+// catalog-only gate auto-allowed them.
+//
+// Phase 2.4 GREEN adds a SECOND gate inside assertCompoundAllowed that calls
+// isBannedCompound() from lib/compliance/banned-compounds.ts. Even if a banned
+// compound is added back to products.ts, Vial.tsx refuses to render.
+//
+// The RED tests below render <Vial compound={c} /> WITHOUT withLabel. Pre-GREEN,
+// the validation gate (`if (withLabel && compound)`) is skipped entirely, so
+// these renders silently succeed. Post-GREEN, the gate fires whenever
+// `compound` is provided, regardless of withLabel — so banned and not-in-catalog
+// compounds throw at render time even in unlabeled vials.
+describe("Iron Law 2.29 — Vial double-gate (static blocklist + catalog allowlist)", () => {
+  // These compounds are NOT in the catalog after Phase 2.1 removal, but the
+  // blocklist must REJECT them even if a future commit adds them back.
+  const STATIC_BANNED = [
+    "tesamorelin",
+    "Tesamorelin",
+    "TESAMORELIN",
+    "melanotan",
+    "Melanotan II",
+    "PT-141",
+    "Bremelanotide",
+    "klow",
+    "KLOW",
+    "Reta",
+    "Tirz",
+    "tirzepatide",
+    "retatrutide",
+    "semaglutide",
+    "bacteriostatic water",
+    "BAC water",
+    "SS-31",
+    "ss-31",
+    "elamipretide",
+    "liraglutide",
+    "dulaglutide",
+  ];
+
+  for (const compound of STATIC_BANNED) {
+    it(`Vial throws for banned compound '${compound}' (blocklist gate)`, () => {
+      expect(() => render(<Vial compound={compound} />)).toThrow(
+        /Iron Law 2\.(7|29)/,
+      );
+    });
+  }
+
+  // Negative case: safe catalog compounds pass without throwing
+  const SAFE_CATALOG = [
+    "BPC-157",
+    "TB-500",
+    "GHK-Cu",
+    "MOTS-c",
+    "Selank",
+    "Semax",
+    "Ipamorelin",
+  ];
+  for (const compound of SAFE_CATALOG) {
+    it(`Vial renders for safe catalog compound '${compound}'`, () => {
+      expect(() => render(<Vial compound={compound} />)).not.toThrow();
+    });
+  }
+
+  // Edge case: not-in-catalog AND not-in-blocklist
+  it("Vial throws for arbitrary not-in-catalog string", () => {
+    expect(() => render(<Vial compound="foobar-123" />)).toThrow(
+      /Iron Law 2\.7/,
+    );
+  });
+
+  // Edge case: empty / whitespace input — must be rejected as malformed
+  it("Vial throws for empty compound", () => {
+    expect(() => render(<Vial compound="" />)).toThrow();
+  });
+
+  it("Vial throws for whitespace-only compound", () => {
+    expect(() => render(<Vial compound="   " />)).toThrow();
+  });
+});
