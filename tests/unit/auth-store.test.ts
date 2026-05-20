@@ -15,11 +15,14 @@
  */
 
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
+import { renderHook } from "@testing-library/react";
 import {
   HASH_VERSION_LATEST,
   hashPassword,
   verifyPassword,
   useAuthStore,
+  useAuthHydrated,
+  useCurrentUser,
   type AccountUser,
 } from "@/lib/auth-store";
 
@@ -202,8 +205,13 @@ describe("useAuthStore — signup + login (Phase 7.8)", () => {
     expect(user.email).toBe("alex@example.com");
     expect(user.hashVersion).toBe(2);
     expect(user.iterations).toBe(100_000);
-    // Hash should be the PBKDF2 output, NOT a 64-char SHA-256 hex.
-    expect(user.passwordHash).not.toMatch(/^[0-9a-f]{64}$/);
+    // Hash is hex (PBKDF2 output happens to be 64 chars / 256 bits like
+    // SHA-256, so distinguishing by length alone is impossible — assert
+    // shape instead and compare to what the legacy v1 hash would have been
+    // to prove the algorithm actually changed).
+    expect(user.passwordHash).toMatch(/^[0-9a-f]+$/);
+    const legacyForm = await hashPassword("supersecret", user.salt, 1);
+    expect(user.passwordHash).not.toBe(legacyForm.hash);
     // Salt is still a hex string per genSalt().
     expect(user.salt).toMatch(/^[0-9a-f]{32}$/);
   });
@@ -212,14 +220,14 @@ describe("useAuthStore — signup + login (Phase 7.8)", () => {
     await useAuthStore.getState().signup({
       email: "dup@example.com",
       password: "supersecret",
-      role: "lab-tech",
+      role: "lab-technician",
       displayName: "Dup",
     });
     await expect(
       useAuthStore.getState().signup({
         email: "dup@example.com",
         password: "supersecret",
-        role: "lab-tech",
+        role: "lab-technician",
         displayName: "Dup",
       }),
     ).rejects.toThrow(/already exists/i);
@@ -230,7 +238,7 @@ describe("useAuthStore — signup + login (Phase 7.8)", () => {
       useAuthStore.getState().signup({
         email: "short@example.com",
         password: "abc",
-        role: "lab-tech",
+        role: "lab-technician",
         displayName: "Short",
       }),
     ).rejects.toThrow(/at least 8/i);
@@ -257,7 +265,7 @@ describe("useAuthStore — signup + login (Phase 7.8)", () => {
     await useAuthStore.getState().signup({
       email: "user@example.com",
       password: "supersecret",
-      role: "lab-tech",
+      role: "lab-technician",
       displayName: "User",
     });
     useAuthStore.getState().logout();
@@ -317,7 +325,7 @@ describe("useAuthStore — signup + login (Phase 7.8)", () => {
     await useAuthStore.getState().signup({
       email: "user@example.com",
       password: "supersecret",
-      role: "lab-tech",
+      role: "lab-technician",
       displayName: "User",
     });
     expect(useAuthStore.getState().currentEmail).toBe("user@example.com");
@@ -327,23 +335,19 @@ describe("useAuthStore — signup + login (Phase 7.8)", () => {
   });
 
   it("multi-user-per-device: two users co-exist, login switches", async () => {
-    await useAuthStore
-      .getState()
-      .signup({
-        email: "a@example.com",
-        password: "passpass1",
-        role: "lab-tech",
-        displayName: "A",
-      });
+    await useAuthStore.getState().signup({
+      email: "a@example.com",
+      password: "passpass1",
+      role: "lab-technician",
+      displayName: "A",
+    });
     useAuthStore.getState().logout();
-    await useAuthStore
-      .getState()
-      .signup({
-        email: "b@example.com",
-        password: "passpass2",
-        role: "lab-tech",
-        displayName: "B",
-      });
+    await useAuthStore.getState().signup({
+      email: "b@example.com",
+      password: "passpass2",
+      role: "lab-technician",
+      displayName: "B",
+    });
     expect(Object.keys(useAuthStore.getState().users).length).toBe(2);
 
     await useAuthStore
@@ -358,14 +362,12 @@ describe("useAuthStore — signup + login (Phase 7.8)", () => {
 
   it("getCurrentUser returns the signed-in user, null otherwise", async () => {
     expect(useAuthStore.getState().getCurrentUser()).toBeNull();
-    await useAuthStore
-      .getState()
-      .signup({
-        email: "u@example.com",
-        password: "passpass1",
-        role: "lab-tech",
-        displayName: "U",
-      });
+    await useAuthStore.getState().signup({
+      email: "u@example.com",
+      password: "passpass1",
+      role: "lab-technician",
+      displayName: "U",
+    });
     expect(useAuthStore.getState().getCurrentUser()?.email).toBe(
       "u@example.com",
     );
@@ -374,14 +376,12 @@ describe("useAuthStore — signup + login (Phase 7.8)", () => {
   });
 
   it("markQualified marks the current user as qualified", async () => {
-    await useAuthStore
-      .getState()
-      .signup({
-        email: "q@example.com",
-        password: "passpass1",
-        role: "lab-tech",
-        displayName: "Q",
-      });
+    await useAuthStore.getState().signup({
+      email: "q@example.com",
+      password: "passpass1",
+      role: "lab-technician",
+      displayName: "Q",
+    });
     expect(useAuthStore.getState().getCurrentUser()?.qualified).toBe(false);
     useAuthStore.getState().markQualified();
     expect(useAuthStore.getState().getCurrentUser()?.qualified).toBe(true);
@@ -393,14 +393,12 @@ describe("useAuthStore — signup + login (Phase 7.8)", () => {
   });
 
   it("addAddress pushes an address onto the current user", async () => {
-    await useAuthStore
-      .getState()
-      .signup({
-        email: "a@example.com",
-        password: "passpass1",
-        role: "lab-tech",
-        displayName: "A",
-      });
+    await useAuthStore.getState().signup({
+      email: "a@example.com",
+      password: "passpass1",
+      role: "lab-technician",
+      displayName: "A",
+    });
     const addr = useAuthStore.getState().addAddress({
       label: "Lab",
       name: "A",
@@ -430,14 +428,12 @@ describe("useAuthStore — signup + login (Phase 7.8)", () => {
   });
 
   it("setNewsletterOptIn updates the current user", async () => {
-    await useAuthStore
-      .getState()
-      .signup({
-        email: "n@example.com",
-        password: "passpass1",
-        role: "lab-tech",
-        displayName: "N",
-      });
+    await useAuthStore.getState().signup({
+      email: "n@example.com",
+      password: "passpass1",
+      role: "lab-technician",
+      displayName: "N",
+    });
     useAuthStore.getState().setNewsletterOptIn(false);
     expect(useAuthStore.getState().getCurrentUser()?.newsletterOptIn).toBe(
       false,
@@ -445,18 +441,18 @@ describe("useAuthStore — signup + login (Phase 7.8)", () => {
   });
 
   it("setNewsletterOptIn is a no-op when logged out", () => {
-    expect(() => useAuthStore.getState().setNewsletterOptIn(false)).not.toThrow();
+    expect(() =>
+      useAuthStore.getState().setNewsletterOptIn(false),
+    ).not.toThrow();
   });
 
   it("setDisplayName updates the current user", async () => {
-    await useAuthStore
-      .getState()
-      .signup({
-        email: "d@example.com",
-        password: "passpass1",
-        role: "lab-tech",
-        displayName: "Old",
-      });
+    await useAuthStore.getState().signup({
+      email: "d@example.com",
+      password: "passpass1",
+      role: "lab-technician",
+      displayName: "Old",
+    });
     useAuthStore.getState().setDisplayName("New Name");
     expect(useAuthStore.getState().getCurrentUser()?.displayName).toBe(
       "New Name",
@@ -472,5 +468,132 @@ describe("useAuthStore — signup + login (Phase 7.8)", () => {
     expect(useAuthStore.getState()._hasHydrated).toBe(false);
     useAuthStore.getState().setHydrated(true);
     expect(useAuthStore.getState()._hasHydrated).toBe(true);
+  });
+
+  it("signup falls back to email-local-part when displayName is blank", async () => {
+    const user = await useAuthStore.getState().signup({
+      email: "fallback@example.com",
+      password: "passpass1",
+      role: "lab-technician",
+      // displayName intentionally blank — should fall back to "fallback".
+      displayName: "   ",
+    });
+    expect(user.displayName).toBe("fallback");
+  });
+});
+
+describe("React hooks", () => {
+  beforeEach(() => RESET_STATE());
+  afterEach(() => RESET_STATE());
+
+  it("useAuthHydrated reflects the hydrated flag", () => {
+    useAuthStore.getState().setHydrated(true);
+    const { result } = renderHook(() => useAuthHydrated());
+    expect(result.current).toBe(true);
+  });
+
+  it("useCurrentUser returns null when nobody is signed in", () => {
+    useAuthStore.setState({ currentEmail: null, users: {} });
+    const { result } = renderHook(() => useCurrentUser());
+    expect(result.current).toBeNull();
+  });
+
+  it("useCurrentUser returns the signed-in user", async () => {
+    await useAuthStore.getState().signup({
+      email: "hooked@example.com",
+      password: "passpass1",
+      role: "lab-technician",
+      displayName: "Hooked",
+    });
+    const { result } = renderHook(() => useCurrentUser());
+    expect(result.current?.email).toBe("hooked@example.com");
+  });
+
+  it("useCurrentUser returns null when currentEmail points at a missing user", () => {
+    // Forge an inconsistent state (currentEmail set, user not in map).
+    useAuthStore.setState({ currentEmail: "ghost@example.com", users: {} });
+    const { result } = renderHook(() => useCurrentUser());
+    expect(result.current).toBeNull();
+  });
+});
+
+describe("verifyPassword — defensive paths", () => {
+  it("returns false when the salt is unparseable for the v2 PBKDF2 path", async () => {
+    // hexToBytes is defensive enough that PBKDF2 won't throw on a weird
+    // salt, but a fully empty stored hash + non-matching plaintext should
+    // still cleanly return false (not throw).
+    const result = await verifyPassword("anything", {
+      passwordHash: "",
+      salt: "",
+      hashVersion: 2,
+      iterations: 100_000,
+    });
+    expect(result).toBe(false);
+  });
+
+  it("hashPassword v2 with an odd-length hex salt is handled defensively (no throw)", async () => {
+    // Triggers the odd-length hexToBytes branch.
+    const result = await hashPassword("hello", "abc", 2);
+    expect(result.version).toBe(2);
+    expect(result.hash).toMatch(/^[0-9a-f]+$/);
+  });
+
+  it("verifyPassword catches a hashPassword failure and returns false", async () => {
+    // Force crypto.subtle.importKey to throw, exercising the catch branch
+    // inside verifyPassword(). We restore the original immediately after.
+    const originalImportKey = crypto.subtle.importKey;
+    Object.defineProperty(crypto.subtle, "importKey", {
+      configurable: true,
+      writable: true,
+      value: async () => {
+        throw new Error("simulated WebCrypto failure");
+      },
+    });
+    try {
+      const result = await verifyPassword("anything", {
+        passwordHash: "deadbeef",
+        salt: "0123456789abcdef0123456789abcdef",
+        hashVersion: 2,
+        iterations: 100_000,
+      });
+      expect(result).toBe(false);
+    } finally {
+      Object.defineProperty(crypto.subtle, "importKey", {
+        configurable: true,
+        writable: true,
+        value: originalImportKey,
+      });
+    }
+  });
+});
+
+describe("environment fallbacks (uuid / genSalt)", () => {
+  beforeEach(() => RESET_STATE());
+  afterEach(() => RESET_STATE());
+
+  it("signup still produces a usable id + salt when WebCrypto helpers are stubbed away", async () => {
+    // Trigger the uuid() and genSalt() Math.random fallback paths by hiding
+    // crypto.randomUUID + crypto.getRandomValues. PBKDF2 still works (it
+    // uses crypto.subtle which we leave intact). The guards in auth-store
+    // use `"name" in crypto` checks, so we have to actually delete the
+    // properties — not just set them to undefined.
+    const cryptoAny = crypto as unknown as Record<string, unknown>;
+    const originalRandomUUID = cryptoAny.randomUUID;
+    const originalGetRandomValues = cryptoAny.getRandomValues;
+    delete cryptoAny.randomUUID;
+    delete cryptoAny.getRandomValues;
+    try {
+      const user = await useAuthStore.getState().signup({
+        email: "fallback-env@example.com",
+        password: "passpass1",
+        role: "lab-technician",
+        displayName: "F",
+      });
+      expect(user.id).toBeTruthy();
+      expect(user.salt).toMatch(/^[0-9a-f]{32}$/);
+    } finally {
+      cryptoAny.randomUUID = originalRandomUUID;
+      cryptoAny.getRandomValues = originalGetRandomValues;
+    }
   });
 });
