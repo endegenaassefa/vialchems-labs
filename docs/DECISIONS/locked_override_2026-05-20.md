@@ -48,7 +48,7 @@ Where (3) and (4) conflict, operator's post-audit commits are treated as their o
 | **Typography** | IBM Plex Sans + IBM Plex Mono + Newsreader Italic (RETAINED) | Matches `app/layout.tsx` font imports |
 | **Lab partner** | `'an independent third-party laboratory'` (lab-agnostic public copy) | v1.3 operator override retained; matches `lib/content/site.ts:36` |
 | **Catalog (v5.0.0)** | **35 SKUs SAFE + 5 bundles** | Phase 2 removes 6 banned SKUs (see below); v5 §6.2 default for tesamorelin+melanotan-ii extended via supplemental findings |
-| **Payment rails** | `'stub' \| 'btcpay' \| 'plaid'` (FROZEN per Iron Law 2.9/2.20) | Zelle + direct-bitcoin assessed in Phase 0.C supplemental findings as UI-only manual-payment surfaces, NOT new `PaymentProviderId` values |
+| **Payment rails (AMENDED per supplemental S2/S3/S4/S9)** | **Direct rails:** `'stub' \| 'btcpay' \| 'plaid' \| 'zelle'` (PaymentProviderId union expanded by 1)<br>**Indirect rails via WooCommerce handoff:** `'link_money' \| 'card' \| 'apple_pay' \| 'google_pay' \| 'paypal'` (5 methods routed to Woo subdomain)<br>**Bitcoin-direct:** routing fallback within BTCPay rail (NOT a new union member)<br>**Hard constraint:** NO additional direct rails (e.g., Stripe-native, Square, Shopify) without a further LOCKED_OVERRIDE doc | **Iron Law 2.20 amendment.** Operator's 9-commit chain (3d339b21 v2 storefront + 1961af46 Woo subdomain + 99959a50 Link Money + 35968566 child theme + 1f129ba2 token extraction + 0f69daf0 split routing + f56d3abc Zelle + a10d918f bitcoin fallback + 723b1e2a btcpay hardening) is intentional architectural expansion. Reverting would require destructive removal of operator-shipped functionality; per autonomous-clearance protocol such reversals require explicit operator confirmation. Codifying as v5.0 LOCKED state instead. Phase 3 HARDENS all rails (Layer 3 jurisdiction + signature verification + Sentry + idempotency + rate limiting) rather than removing them. |
 | **Jurisdictional block** | CA / TX / NY / FL (Day-1 US-only) — UNCHANGED | `lib/compliance/jurisdictions.ts:15` |
 | **Substance carve-out (v5 extension)** | **Permanently banned:** tirzepatide (`tirz`), semaglutide (`sema`), retatrutide (`reta`), GLP-1 / GLP1 / GLP-1RA, tesamorelin (TH9507, Egrifta), melanotan / MT-I / MT-II / melanotan-i / melanotan-ii, bremelanotide (Vyleesi, PT-141), bacteriostatic water / BAC water, SS-31 (elamipretide), liraglutide, dulaglutide, KLOW (operator-blended product containing kisspeptin/leuprolide/oxytocin/etc — undetermined composition; defaults to BAN until operator commits composition + legal opinion) | v5 Iron Law 2.7 extended via 2.29 + supplemental findings |
 | **LLC identity** | `'VialChem Labs LLC'` / Wyoming | Matches current `lib/content/site.ts:25-26` (env-driven default) |
@@ -140,21 +140,74 @@ Located at `lib/compliance/banned-compounds.ts` (created in Phase 2).
 
 This LOCKED_OVERRIDE is binding on:
 
+**Brand expression (Phase 5):**
 - `lib/content/site.ts` — Phase 5 aligns `name`, `brandStem`, `tagline`, `domain`, `description`, color references
-- `app/globals.css` — Phase 5 confirms light-theme tokens match
-- `lib/design/tokens.ts` — Phase 5 reconciles with `app/globals.css` runtime authority
-- `lib/content/products.ts` — Phase 2 removes 6 banned SKUs
-- `lib/compliance/banned-compounds.ts` (new) — Phase 2 creates with above list
-- `lib/compliance.ts` — Phase 2 extends regex set + applies `[\s-]*` for hyphenated forms
-- `components/ui/Vial.tsx` — Phase 2 double-gates with static blocklist + catalog allowlist
-- `public/robots.txt` — Phase 1 updates `Sitemap:` to vialchemlabs.net
-- `.env.example` — Phase 1 updates `BRAND_DOMAIN` default
-- `vercel.json` — Phase 2 adds 301 redirects for old bundle slugs; Phase 7 adds CSP header
-- All 162 references to `vialchemlabs.com` — Phase 1 refactor to `vialchemlabs.net`
-- All references to deprecated tagline — Phase 5 refactor
-- `tests/unit/brand-lock.test.ts` (new) — Phase 5 asserts code matches this file
-- `CHANGELOG.md` — Phase 12 documents v5.0.0 entry
+- `app/globals.css` — Phase 5 confirms light-theme tokens match (runtime authority)
+- `lib/design/tokens.ts` — Phase 5 reconciles with `app/globals.css` (currently stale v4 dark+teal export)
+- `design-tokens.json` — Phase 5 reconciles with above (parallel JSON export added by `1f129ba2`)
+- All references to deprecated tagline ("Research-grade peptides, shipped with the COA.") — Phase 5 refactor 4 source hits to v5 LOCKED "Counted, weighed, verified."
+- `tests/unit/brand-lock.test.ts` (NEW) — Phase 5 asserts code matches this file
 - `DESIGN.md` — Phase 5 refresh
+- `app/v2-brand.css` + `components/v2/*` — Phase 5 reconciles parallel design system (per supplemental S8)
+
+**Catalog (Phase 2):**
+- `lib/content/products.ts` — Phase 2 removes 6 banned SKUs at lines 348, 490, 506, 706, 721, 736 (tesamorelin-5mg, pt-141-10mg, melanotan-ii-10mg, klow-80mg, reta-10mg, tirz-25mg)
+- `lib/content/product-descriptions.ts` — Phase 2 removes matching description blocks
+- `lib/content/product-images.ts` — Phase 2 removes matching image map entries
+- `lib/content/coa.ts` — Phase 2 verifies auto-iterator excludes removed slugs
+- `lib/content/faq.ts:59` — Phase 2 removes "KLOW 80mg... Reta 10mg, Tirz 25mg" from public marketing copy (per supplemental S6)
+- `public/product-shots/tesamorelin-5mg.*`, `pt-141-10mg.*`, `melanotan-ii-10mg.*`, `klow-80mg.*`, `reta-10mg.*`, `tirz-25mg.*` — Phase 2 removes assets
+- `lib/compliance/banned-compounds.ts` (NEW) — Phase 2 creates with v5 LOCKED `BANNED_COMPOUNDS` list (incl. `klow`)
+- `lib/compliance.ts:46-53` — Phase 2 extends regex to include short-codes `\btirz\b`, `\breta\b`, `\bsema\b`, `\bklow\b` + all v5 §2.29 additions + applies `[\s-]*` for hyphenated forms
+- `components/ui/Vial.tsx:82-85` — Phase 2 double-gates with static blocklist + catalog allowlist (per audit C5)
+- `tests/unit/compliance/banned-compounds.test.ts` (NEW) + `tests/unit/components/Vial.test.tsx` extended — Phase 2 regression coverage
+
+**Domain (Phase 1):**
+- `lib/content/site.ts:9` `brandDomain` default — already `vialchemlabs.net` per operator commit `f164f60f`
+- `.env.example:12` `BRAND_DOMAIN` default — already `vialchemlabs.net`
+- `public/robots.txt:36` Sitemap line — already `vialchemlabs.net`
+- 45 stale `vialchemlabs.com` refs remaining ONLY in `docs/audit/` + this LOCKED_OVERRIDE (historical references)
+- `scripts/check-canonical-domain.sh` + `scripts/check-dns-resolution.sh` (NEW) — Phase 1 creates per Iron Laws 2.28 + 2.38
+- `tests/unit/canonical-domain.test.ts` (NEW) — Phase 1 regression
+- `.husky/pre-commit` — Phase 1 adds the two new scripts to chain
+
+**Payments (Phase 3 — EXPANDED scope per S2 multi-rail amendment):**
+- `lib/payments/plaid.ts` — Phase 3 wires `PLAID_VERIFICATION_MODE` branching (JWKS default, HMAC legacy); imports `verifyPlaidJwt` from `plaid-jwks.ts`; implements `createIntent` (no longer throws not-implemented)
+- `lib/payments/reconciliation.ts:40` — Phase 3 replaces in-memory `Map` with Supabase `payments` + `order_status_history` writes; exports `JurisdictionalGuardError` via `lib/payments/index.ts`
+- `app/api/payments/btcpay/webhook/route.ts` — Phase 3 invokes Layer 3 guard BEFORE `reconcile()`; adds Sentry instrumentation
+- `app/api/payments/plaid/webhook/route.ts` — same
+- `app/api/zelle/receipt/route.ts` — Phase 3 invokes Layer 3 guard before manual reconciliation step
+- `app/api/create-zelle-order/route.ts` — Phase 3 invokes Layer 3 + adds HMAC on receipt-link
+- `app/api/bitcoin/receipt/route.ts` — Phase 3 invokes Layer 3 + verifies UTXO confirmations + idempotency
+- `app/api/create-bitcoin-order/route.ts` — Phase 3 invokes Layer 3
+- `app/api/woocommerce/order-webhook/route.ts` — Phase 3 adds HMAC signature verification (per `WOOCOMMERCE_WEBHOOK_SECRET` env) + Layer 3 guard
+- `app/api/create-woo-order/route.ts` — Phase 3 invokes Layer 3 + verifies handoff-origin per `lib/woocommerce/security.ts`
+- `app/api/payments/btcpay/status/route.ts` + `bitcoin/status/route.ts` — Phase 3 adds Sentry + rate limit (status endpoints, not credit-bearing)
+- `app/api/access/route.ts`, `newsletter/subscribe/route.ts`, `contact/route.ts` — Phase 3 adds rate limiting per Iron Law 2.34 (Upstash or in-memory LRU)
+- `lib/sentry.ts` — Phase 3 implements `beforeSend` PII scrubber per Iron Law 2.32
+- All 17 API routes (`app/api/**/route.ts`) — Phase 3 adds `try { ... } catch (err) { Sentry.captureException(err, { tags }); ... }`
+
+**Deploy hygiene (Phase 4 — EXPANDED per S3):**
+- `.vercelignore` — Phase 4 adds `wordpress/` (or specifically `wordpress/local/` if `wordpress/vialchem-checkout-theme/` ships to Woo subdomain)
+- `scripts/grep-mogtrix.sh:29-36` + `:63-66` — Phase 4 adds `--exclude-dir='wordpress'`
+- `.github/workflows/{ci,lighthouse,e2e}.yml` (NEW) — Phase 4 creates
+- `.github/CODEOWNERS` (NEW) — Phase 4 creates with operator handle placeholder
+- `.github/pull_request_template.md` (NEW)
+- `package.json` — Phase 4 adds `@lhci/cli` devDep + `engines.node >=20.20` + `.nvmrc` 20.20.2
+
+**CSP + headers (Phase 7):**
+- `vercel.json` — Phase 7 adds `Content-Security-Policy` header per Iron Law 2.41
+- `vercel.json` — Phase 2 adds 301 redirects for old bundle slugs
+
+**Operator hygiene (Phase 6 — EXPANDED per S7):**
+- `docs/checkpoints/phase_0_bootstrap.md:76` — Phase 6 redacts `ak47abhinav47@gmail.com`
+- `docs/deploy/live-account-setup.md:39` — Phase 6 abstracts `endegenaassefa` GitHub username
+- `docs/deploy/runbook.md:174,208` — same
+- `docs/checkpoints/phase_14_deploy.md:8` — same
+- Git committer identity — Phase 6 sets to `vialchemlabs-ops <ops@vialchemlabs.net>` going forward (per repo config, not global)
+
+**Changelog (Phase 12):**
+- `CHANGELOG.md` — Phase 12 documents v5.0.0 entry covering 1.3.0 → 5.0.0 transition (catalog growth, multi-rail addition, v2 storefront, brand reconciliation, audit closure)
 
 ## Approval Checklist
 
