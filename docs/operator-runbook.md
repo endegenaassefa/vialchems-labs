@@ -89,10 +89,57 @@ order:
    - Sentry project (DSN + auth token + org + project)
    - Plaid client ID + secret
    - BTCPay Server self-hosted URL + API key + store ID + webhook secret
-7. **Replace placeholder COA PDFs**: `public/coa/<slug>-BATCH-2026-PLACEHOLDER.pdf` are stubs marked "EXAMPLE COA — REPLACE BEFORE LAUNCH". Generate real per-batch COAs from the chosen analytical laboratory for first inventory.
-8. **Vercel project link**: `vercel link` in the project directory; environment variables set per `.env.example`.
-9. **Domain DNS**: point `vialchemlabs.net` (or fallback) to Vercel.
-10. **Buyer-conversation assignment** (Bible §16): 60-minute test with 3 prospective buyers in target audience. Optional but recommended.
+7. **Apply Supabase migrations (BEFORE v5 launch)**: two migrations exist
+   under `supabase/migrations/`. Apply in filename order:
+   1. `20260510000001_init.sql` — initial schema (15 tables, RLS policies,
+      seed data). Closes deferrals D2 / D3 / D4 / D5 / D6 / D7.
+   2. `20260520000001_append_only_triggers_and_indexes.sql` — Phase 7
+      closure (Iron Law 2.33 append-only triggers on `attestations_audit`,
+      `audit_log`, `order_status_history`; Iron Law 2.36 datetime + FK
+      indexes; RLS policy clarification comments; lab_partners
+      Janoshik seed flipped to `default_for_brand=false` for lab-agnostic
+      posture per Iron Law 2.26). Closes audit findings H15, H16, H23,
+      H24, M11, M12.
+
+   Apply via Supabase CLI (`supabase db push`) or the SQL editor in the
+   Supabase Dashboard. Verify post-apply:
+
+   ```
+   -- Confirm triggers exist (expect 3 rows):
+   select tgname, tgrelid::regclass
+   from pg_trigger
+   where tgname like 'no_mutate_%' and not tgisinternal;
+
+   -- Confirm function exists (expect 1 row):
+   select proname from pg_proc where proname = 'reject_audit_mutation';
+
+   -- Confirm lab_partners is now lab-agnostic (expect default_for_brand=f):
+   select slug, default_for_brand from lab_partners where slug = 'janoshik';
+
+   -- Confirm indexes (expect 6+ rows for idx_*):
+   select indexname from pg_indexes
+   where indexname in (
+     'idx_orders_placed_at',
+     'idx_email_subscriptions_unsubscribed_at',
+     'idx_audit_log_recorded_at',
+     'idx_order_status_history_changed_at',
+     'idx_attestations_audit_qualification_id',
+     'idx_attestations_audit_recorded_at'
+   );
+
+   -- Confirm append-only enforcement (this should RAISE Iron Law 2.33):
+   -- DO NOT RUN ON PRODUCTION DATA — staging only.
+   -- update audit_log set details = '{}'::jsonb where id = (select min(id) from audit_log);
+   ```
+
+   For a stage-environment smoke test, you can also use `\d+ audit_log`
+   and `\d+ attestations_audit` from `psql` to confirm the
+   `no_mutate_*` triggers are bound.
+
+8. **Replace placeholder COA PDFs**: `public/coa/<slug>-BATCH-2026-PLACEHOLDER.pdf` are stubs marked "EXAMPLE COA — REPLACE BEFORE LAUNCH". Generate real per-batch COAs from the chosen analytical laboratory for first inventory.
+9. **Vercel project link**: `vercel link` in the project directory; environment variables set per `.env.example`.
+10. **Domain DNS**: point `vialchemlabs.net` (or fallback) to Vercel.
+11. **Buyer-conversation assignment** (Bible §16): 60-minute test with 3 prospective buyers in target audience. Optional but recommended.
 
 ## Day-1 Acquisition Workstreams
 
