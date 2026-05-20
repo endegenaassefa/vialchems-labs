@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-# Pre-commit gate per Iron Laws 2.4, 2.12, 2.16.
+# Pre-commit gate per Iron Laws 2.4, 2.12, 2.16, 2.28.
 # Failures here block the commit. To bypass: investigate the failure and fix
 # the root cause; do NOT pass --no-verify (Iron Law 2.16 forbids it).
 
