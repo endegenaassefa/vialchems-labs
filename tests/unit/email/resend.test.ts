@@ -14,6 +14,9 @@
  *
  * The `resend` SDK is mocked at module level via vi.mock so we never make
  * a real network call.
+ *
+ * Env vars are mutated via vi.stubEnv / vi.unstubAllEnvs (NODE_ENV is
+ * read-only at the type level in Next.js' types).
  */
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
@@ -37,35 +40,34 @@ import {
   sendEmail,
 } from "@/lib/email/resend";
 
-const ORIGINAL_ENV = { ...process.env };
-
-function resetEnv() {
-  // Wipe only the keys this module reads.
-  delete process.env.NODE_ENV;
-  delete process.env.VERCEL_ENV;
-  delete process.env.REQUIRE_RESEND;
-  delete process.env.ALLOW_RESEND_OPTIONAL_IN_PRODUCTION;
-  delete process.env.RESEND_API_KEY;
-  delete process.env.ORDER_EMAIL_FROM;
-  delete process.env.BRAND_DOMAIN;
+function clearEnvKeys() {
+  // Stub-unset only the keys this module reads. `undefined` removes the
+  // env var entirely (so `??` nullish-coalescing falls through). Empty
+  // string would still be a value and would NOT trigger ?? fallback.
+  vi.stubEnv("NODE_ENV", "test");
+  vi.stubEnv("VERCEL_ENV", undefined);
+  vi.stubEnv("REQUIRE_RESEND", undefined);
+  vi.stubEnv("ALLOW_RESEND_OPTIONAL_IN_PRODUCTION", undefined);
+  vi.stubEnv("RESEND_API_KEY", undefined);
+  vi.stubEnv("ORDER_EMAIL_FROM", undefined);
+  vi.stubEnv("BRAND_DOMAIN", undefined);
 }
 
 describe("lib/email/resend — sendEmail stub path", () => {
   beforeEach(() => {
-    resetEnv();
+    clearEnvKeys();
     _resetResendClientForTests();
     resendCtorMock.mockReset();
     sendMock.mockReset();
   });
 
   afterEach(() => {
-    Object.assign(process.env, ORIGINAL_ENV);
+    vi.unstubAllEnvs();
     _resetResendClientForTests();
   });
 
   it("returns a stub result with `stub:<tag>:<ts>` id when REQUIRE_RESEND is unset and not in production", async () => {
-    process.env.NODE_ENV = "test";
-    process.env.REQUIRE_RESEND = "false";
+    vi.stubEnv("REQUIRE_RESEND", "false");
 
     const result = await sendEmail({
       to: "researcher@example.com",
@@ -82,7 +84,7 @@ describe("lib/email/resend — sendEmail stub path", () => {
   });
 
   it("returns `stub:untagged:<ts>` when no tag is provided", async () => {
-    process.env.NODE_ENV = "development";
+    vi.stubEnv("NODE_ENV", "development");
     const result = await sendEmail({
       to: "researcher@example.com",
       subject: "Hello",
@@ -92,7 +94,7 @@ describe("lib/email/resend — sendEmail stub path", () => {
   });
 
   it("appends a `:sched:<iso>` suffix when scheduledAt is provided on the stub path", async () => {
-    process.env.NODE_ENV = "development";
+    vi.stubEnv("NODE_ENV", "development");
     const result = await sendEmail({
       to: "researcher@example.com",
       subject: "Hello",
@@ -106,7 +108,6 @@ describe("lib/email/resend — sendEmail stub path", () => {
   });
 
   it("does not require a Resend API key on the stub path", async () => {
-    process.env.NODE_ENV = "test";
     // No RESEND_API_KEY set — must not throw.
     await expect(
       sendEmail({
@@ -119,7 +120,6 @@ describe("lib/email/resend — sendEmail stub path", () => {
   });
 
   it("caches the null client across calls (no duplicate gate re-checks)", async () => {
-    process.env.NODE_ENV = "test";
     await sendEmail({
       to: "a@example.com",
       subject: "1",
@@ -133,8 +133,8 @@ describe("lib/email/resend — sendEmail stub path", () => {
       tag: "welcome-1",
     });
     // Even if env flipped now, the cache stays null.
-    process.env.REQUIRE_RESEND = "true";
-    process.env.RESEND_API_KEY = "test_key";
+    vi.stubEnv("REQUIRE_RESEND", "true");
+    vi.stubEnv("RESEND_API_KEY", "test_key");
     const r3 = await sendEmail({
       to: "c@example.com",
       subject: "3",
@@ -148,20 +148,20 @@ describe("lib/email/resend — sendEmail stub path", () => {
 
 describe("lib/email/resend — isRequired / getClient gating", () => {
   beforeEach(() => {
-    resetEnv();
+    clearEnvKeys();
     _resetResendClientForTests();
     resendCtorMock.mockReset();
     sendMock.mockReset();
   });
 
   afterEach(() => {
-    Object.assign(process.env, ORIGINAL_ENV);
+    vi.unstubAllEnvs();
     _resetResendClientForTests();
   });
 
   it("treats NODE_ENV=production as required by default (no escape flag)", async () => {
-    process.env.NODE_ENV = "production";
-    process.env.RESEND_API_KEY = "re_test_key";
+    vi.stubEnv("NODE_ENV", "production");
+    vi.stubEnv("RESEND_API_KEY", "re_test_key");
     sendMock.mockResolvedValueOnce({ data: { id: "real-id-1" }, error: null });
 
     const result = await sendEmail({
@@ -177,8 +177,8 @@ describe("lib/email/resend — isRequired / getClient gating", () => {
   });
 
   it("allows production to skip Resend when ALLOW_RESEND_OPTIONAL_IN_PRODUCTION=true", async () => {
-    process.env.NODE_ENV = "production";
-    process.env.ALLOW_RESEND_OPTIONAL_IN_PRODUCTION = "true";
+    vi.stubEnv("NODE_ENV", "production");
+    vi.stubEnv("ALLOW_RESEND_OPTIONAL_IN_PRODUCTION", "true");
 
     const result = await sendEmail({
       to: "researcher@example.com",
@@ -191,9 +191,9 @@ describe("lib/email/resend — isRequired / getClient gating", () => {
   });
 
   it("treats VERCEL_ENV=production identically to NODE_ENV=production via isProductionRuntime", async () => {
-    process.env.NODE_ENV = "test";
-    process.env.VERCEL_ENV = "production";
-    process.env.RESEND_API_KEY = "re_vercel";
+    vi.stubEnv("NODE_ENV", "test");
+    vi.stubEnv("VERCEL_ENV", "production");
+    vi.stubEnv("RESEND_API_KEY", "re_vercel");
     sendMock.mockResolvedValueOnce({ data: { id: "vercel-id" }, error: null });
 
     const result = await sendEmail({
@@ -207,8 +207,8 @@ describe("lib/email/resend — isRequired / getClient gating", () => {
   });
 
   it("throws when REQUIRE_RESEND=true outside production but RESEND_API_KEY is empty", async () => {
-    process.env.NODE_ENV = "development";
-    process.env.REQUIRE_RESEND = "true";
+    vi.stubEnv("NODE_ENV", "development");
+    vi.stubEnv("REQUIRE_RESEND", "true");
     // No RESEND_API_KEY set.
     await expect(
       sendEmail({
@@ -221,7 +221,7 @@ describe("lib/email/resend — isRequired / getClient gating", () => {
   });
 
   it("throws when in production with no RESEND_API_KEY and no escape flag", async () => {
-    process.env.NODE_ENV = "production";
+    vi.stubEnv("NODE_ENV", "production");
     // RESEND_API_KEY missing, ALLOW_RESEND_OPTIONAL_IN_PRODUCTION unset.
     await expect(
       sendEmail({
@@ -234,9 +234,9 @@ describe("lib/email/resend — isRequired / getClient gating", () => {
   });
 
   it("caches a successfully created client across calls (constructor fires once)", async () => {
-    process.env.NODE_ENV = "test";
-    process.env.REQUIRE_RESEND = "true";
-    process.env.RESEND_API_KEY = "re_cache_test";
+    vi.stubEnv("NODE_ENV", "test");
+    vi.stubEnv("REQUIRE_RESEND", "true");
+    vi.stubEnv("RESEND_API_KEY", "re_cache_test");
     sendMock.mockResolvedValue({ data: { id: "cached" }, error: null });
 
     await sendEmail({
@@ -258,17 +258,17 @@ describe("lib/email/resend — isRequired / getClient gating", () => {
 
 describe("lib/email/resend — sendEmail real-client paths", () => {
   beforeEach(() => {
-    resetEnv();
+    clearEnvKeys();
     _resetResendClientForTests();
     resendCtorMock.mockReset();
     sendMock.mockReset();
-    process.env.NODE_ENV = "test";
-    process.env.REQUIRE_RESEND = "true";
-    process.env.RESEND_API_KEY = "re_real_key";
+    vi.stubEnv("NODE_ENV", "test");
+    vi.stubEnv("REQUIRE_RESEND", "true");
+    vi.stubEnv("RESEND_API_KEY", "re_real_key");
   });
 
   afterEach(() => {
-    Object.assign(process.env, ORIGINAL_ENV);
+    vi.unstubAllEnvs();
     _resetResendClientForTests();
   });
 
@@ -299,7 +299,7 @@ describe("lib/email/resend — sendEmail real-client paths", () => {
   });
 
   it("falls back to ORDER_EMAIL_FROM when no explicit from is supplied", async () => {
-    process.env.ORDER_EMAIL_FROM = "research-from-env@vialchemlabs.net";
+    vi.stubEnv("ORDER_EMAIL_FROM", "research-from-env@vialchemlabs.net");
     sendMock.mockResolvedValueOnce({ data: { id: "id-2" }, error: null });
     await sendEmail({
       to: "a@example.com",
@@ -312,7 +312,7 @@ describe("lib/email/resend — sendEmail real-client paths", () => {
   });
 
   it("falls back to research@<BRAND_DOMAIN> when neither from nor ORDER_EMAIL_FROM is set", async () => {
-    process.env.BRAND_DOMAIN = "example-brand.test";
+    vi.stubEnv("BRAND_DOMAIN", "example-brand.test");
     sendMock.mockResolvedValueOnce({ data: { id: "id-3" }, error: null });
     await sendEmail({
       to: "a@example.com",
@@ -389,20 +389,20 @@ describe("lib/email/resend — sendEmail real-client paths", () => {
 
 describe("_resetResendClientForTests", () => {
   beforeEach(() => {
-    resetEnv();
+    clearEnvKeys();
     resendCtorMock.mockReset();
     sendMock.mockReset();
   });
 
   afterEach(() => {
-    Object.assign(process.env, ORIGINAL_ENV);
+    vi.unstubAllEnvs();
     _resetResendClientForTests();
   });
 
   it("re-initialises the client on the next call after reset", async () => {
-    process.env.NODE_ENV = "test";
-    process.env.REQUIRE_RESEND = "true";
-    process.env.RESEND_API_KEY = "re_key_a";
+    vi.stubEnv("NODE_ENV", "test");
+    vi.stubEnv("REQUIRE_RESEND", "true");
+    vi.stubEnv("RESEND_API_KEY", "re_key_a");
     sendMock.mockResolvedValue({ data: { id: "x" }, error: null });
     await sendEmail({
       to: "a@example.com",
@@ -414,7 +414,7 @@ describe("_resetResendClientForTests", () => {
 
     // Reset, swap the key, and confirm the ctor fires again.
     _resetResendClientForTests();
-    process.env.RESEND_API_KEY = "re_key_b";
+    vi.stubEnv("RESEND_API_KEY", "re_key_b");
 
     await sendEmail({
       to: "b@example.com",

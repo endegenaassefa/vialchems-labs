@@ -224,14 +224,12 @@ describe("safeCheckoutReturnPath", () => {
 });
 
 describe("getLocalPreviewSiteUrl", () => {
-  const originalNodeEnv = process.env.NODE_ENV;
-
   afterEach(() => {
-    process.env.NODE_ENV = originalNodeEnv;
+    vi.unstubAllEnvs();
   });
 
   it("returns fallback in production regardless of origin", () => {
-    process.env.NODE_ENV = "production";
+    vi.stubEnv("NODE_ENV", "production");
     expect(
       getLocalPreviewSiteUrl(
         "http://localhost:3000",
@@ -241,14 +239,14 @@ describe("getLocalPreviewSiteUrl", () => {
   });
 
   it("returns fallback when origin is null (non-production)", () => {
-    process.env.NODE_ENV = "development";
+    vi.stubEnv("NODE_ENV", "development");
     expect(getLocalPreviewSiteUrl(null, "https://www.example.com")).toBe(
       "https://www.example.com",
     );
   });
 
   it("returns localhost origin when running in dev with localhost origin", () => {
-    process.env.NODE_ENV = "development";
+    vi.stubEnv("NODE_ENV", "development");
     expect(
       getLocalPreviewSiteUrl(
         "http://localhost:3000",
@@ -258,14 +256,14 @@ describe("getLocalPreviewSiteUrl", () => {
   });
 
   it("returns 127.0.0.1 origin when running in dev with 127.0.0.1 origin", () => {
-    process.env.NODE_ENV = "development";
+    vi.stubEnv("NODE_ENV", "development");
     expect(
       getLocalPreviewSiteUrl("http://127.0.0.1:3000", "https://www.example.com"),
     ).toBe("http://127.0.0.1:3000");
   });
 
   it("returns fallback for non-localhost dev origins", () => {
-    process.env.NODE_ENV = "development";
+    vi.stubEnv("NODE_ENV", "development");
     expect(
       getLocalPreviewSiteUrl(
         "https://staging.example.com",
@@ -275,7 +273,7 @@ describe("getLocalPreviewSiteUrl", () => {
   });
 
   it("returns fallback when origin string is not a valid URL", () => {
-    process.env.NODE_ENV = "development";
+    vi.stubEnv("NODE_ENV", "development");
     expect(
       getLocalPreviewSiteUrl("not a url at all", "https://www.example.com"),
     ).toBe("https://www.example.com");
