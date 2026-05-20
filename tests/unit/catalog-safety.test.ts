@@ -15,6 +15,7 @@ import {
   productImagePath,
 } from "@/components/v2/data";
 import { assertMarketingCopySafe } from "@/lib/compliance";
+import { isBannedCompound } from "@/lib/compliance/banned-compounds";
 import {
   bundles,
   getProductAvailability,
@@ -173,5 +174,74 @@ describe("catalog content compliance", () => {
     expect(oldProduct).toBeDefined();
     expect(getProductAvailability(oldProduct!)).toBe("request-only");
     expect(isPurchasableProduct(oldProduct!)).toBe(false);
+  });
+});
+
+describe("Iron Law 2.7 — banned-compound catalog enforcement (v5.0.0)", () => {
+  const BANNED_SLUGS = [
+    "tesamorelin-5mg",
+    "pt-141-10mg",
+    "melanotan-ii-10mg",
+    "klow-80mg",
+    "reta-10mg",
+    "tirz-25mg",
+  ];
+
+  for (const slug of BANNED_SLUGS) {
+    it(`catalog does not contain banned slug '${slug}'`, () => {
+      const found = products.find((p) => p.slug === slug);
+      expect(
+        found,
+        `Iron Law 2.7 violation: banned slug '${slug}' present at index ${
+          found ? products.indexOf(found) : "n/a"
+        }`,
+      ).toBeUndefined();
+    });
+
+    it(`publicLaunchProductSlugs does not contain '${slug}'`, () => {
+      expect(publicLaunchProductSlugs).not.toContain(slug);
+    });
+  }
+
+  it("no product shortName matches a banned compound (Iron Law 2.29 cross-check)", () => {
+    for (const product of products) {
+      expect(
+        isBannedCompound(product.shortName),
+        `Iron Law 2.29 violation: product shortName='${product.shortName}' (slug='${product.slug}') matches BANNED_COMPOUNDS`,
+      ).toBe(false);
+    }
+  });
+
+  it("no product name matches a banned compound (Iron Law 2.29 cross-check)", () => {
+    for (const product of products) {
+      expect(
+        isBannedCompound(product.name),
+        `Iron Law 2.29 violation: product name='${product.name}' (slug='${product.slug}') matches BANNED_COMPOUNDS`,
+      ).toBe(false);
+    }
+  });
+
+  it("no product shortDescription matches a banned compound", () => {
+    for (const product of products) {
+      expect(
+        isBannedCompound(product.shortDescription),
+        `Iron Law 2.29 violation: product shortDescription mentions banned compound. slug='${product.slug}'`,
+      ).toBe(false);
+    }
+  });
+
+  it("no bundle name or constituents reference banned compounds", () => {
+    for (const bundle of bundles) {
+      expect(
+        isBannedCompound(bundle.name),
+        `Iron Law 2.29 violation: bundle name='${bundle.name}' (slug='${bundle.slug}') matches BANNED_COMPOUNDS`,
+      ).toBe(false);
+      for (const constituent of bundle.constituents) {
+        expect(
+          isBannedCompound(constituent),
+          `Iron Law 2.29 violation: bundle '${bundle.slug}' constituent='${constituent}' matches BANNED_COMPOUNDS`,
+        ).toBe(false);
+      }
+    }
   });
 });
