@@ -238,6 +238,23 @@ interface PlaidTransferCreateResponse {
   };
 }
 
+/**
+ * Response shape from Plaid `POST /transfer/get`. Documented at
+ * https://plaid.com/docs/api/products/transfer/reading-transfers/#transferget
+ * — same `transfer` object shape as `/transfer/create`, with a richer
+ * status set (pending, posted, settled, returned, failed, cancelled).
+ */
+interface PlaidTransferGetResponse {
+  transfer?: {
+    id: string;
+    status?: string;
+    amount?: string;
+    iso_currency_code?: string;
+    metadata?: Record<string, string>;
+    created?: string;
+  };
+}
+
 function plaidBaseUrl(env: PlaidEnv): string {
   const e = (env.PLAID_ENV ?? "sandbox").toLowerCase();
   if (e === "production") return "https://production.plaid.com";
@@ -347,10 +364,76 @@ export function createPlaidAdapter(
       return intent;
     },
 
+    /**
+     * Status poll against Plaid `POST /transfer/get`. Returns null when:
+     *   - env is stubbed (cannot reach Plaid)
+     *   - transfer is not found (404 or item_not_found error)
+     * Throws `plaid_transfer_get_failed` on any other error so callers can
+     * distinguish "missing" from "infrastructure broken". M19 closure
+     * (Phase 8) — earlier path returned null unconditionally with a TODO.
+     */
     async getIntent(intentId: string): Promise<PaymentIntent | null> {
-      void intentId; // Phase 4: GET /transfer/get with stored transfer_id.
       if (!envIsConfigured(env)) return null;
-      return null;
+
+      const baseUrl = plaidBaseUrl(env);
+      const url = `${baseUrl}/transfer/get`;
+
+      let res: Response;
+      try {
+        res = await fetch(url, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            client_id: env.PLAID_CLIENT_ID,
+            secret: env.PLAID_SECRET,
+            transfer_id: intentId,
+          }),
+          cache: "no-store",
+        });
+      } catch (err) {
+        throw new Error(
+          `plaid_transfer_get_failed: network error ${(err as Error).message}`,
+        );
+      }
+
+      if (res.status === 404) return null;
+      if (!res.ok) {
+        const text = await res.text().catch(() => "");
+        // Plaid emits item_not_found / transfer_not_found as 400 with a
+        // JSON error_code; surface those as null for clean polling UX.
+        if (/transfer_not_found|item_not_found/i.test(text)) return null;
+        throw new Error(
+          `plaid_transfer_get_failed: HTTP ${res.status} ${text.slice(0, 256)}`,
+        );
+      }
+
+      const json = (await res.json()) as PlaidTransferGetResponse;
+      const transfer = json.transfer;
+      if (!transfer?.id) return null;
+
+      const ts = new Date().toISOString();
+      const amountNumber =
+        typeof transfer.amount === "string"
+          ? Number.parseFloat(transfer.amount)
+          : 0;
+
+      return {
+        id: transfer.id,
+        provider: "plaid",
+        method: "ach",
+        amountCents: Number.isFinite(amountNumber)
+          ? Math.round(amountNumber * 100)
+          : 0,
+        currency: "USD",
+        status: mapPlaidStatus(transfer.status ?? "pending"),
+        metadata: {
+          ...(transfer.metadata ?? {}),
+          ...(transfer.status ? { plaid_status: transfer.status } : {}),
+        },
+        createdAt: transfer.created ?? ts,
+        updatedAt: ts,
+        externalId: transfer.id,
+      };
     },
 
     async handleWebhook(

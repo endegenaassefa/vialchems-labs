@@ -663,9 +663,88 @@ describe("createPlaidAdapter — branch coverage (Iron Law 2.36)", () => {
     ).rejects.toThrow(/plaid_transfer_create_failed.*missing transfer.id/);
   });
 
-  it("getIntent returns null even when env IS configured (Phase 4 deferred)", async () => {
+  it("getIntent posts to /transfer/get and returns a normalized PaymentIntent (M19)", async () => {
+    vi.spyOn(globalThis, "fetch").mockImplementation(async (input, init) => {
+      const url = typeof input === "string" ? input : input.toString();
+      const method = (init as RequestInit | undefined)?.method ?? "GET";
+      if (url.endsWith("/transfer/get") && method === "POST") {
+        const body = JSON.parse((init as RequestInit).body as string);
+        expect(body.client_id).toBe("real_client_id");
+        expect(body.secret).toBe("real_secret_xyz");
+        expect(body.transfer_id).toBe("tr-get-1");
+        return new Response(
+          JSON.stringify({
+            transfer: {
+              id: "tr-get-1",
+              status: "posted",
+              amount: "54.00",
+              iso_currency_code: "USD",
+              metadata: { intentId: "pi-mapped" },
+            },
+          }),
+          { status: 200, headers: { "content-type": "application/json" } },
+        );
+      }
+      return new Response("not found", { status: 404 });
+    });
     const adapter = createPlaidAdapter({ env: REAL_ENV });
-    expect(await adapter.getIntent("tr_anything")).toBeNull();
+    const intent = await adapter.getIntent("tr-get-1");
+    expect(intent).not.toBeNull();
+    expect(intent?.id).toBe("tr-get-1");
+    expect(intent?.provider).toBe("plaid");
+    expect(intent?.method).toBe("ach");
+    expect(intent?.status).toBe("paid"); // posted → paid
+    expect(intent?.amountCents).toBe(5400);
+    expect(intent?.externalId).toBe("tr-get-1");
+    expect(intent?.metadata.intentId).toBe("pi-mapped");
+  });
+
+  it("getIntent returns null on 404", async () => {
+    vi.spyOn(globalThis, "fetch").mockImplementation(async () => {
+      return new Response("Not found", { status: 404 });
+    });
+    const adapter = createPlaidAdapter({ env: REAL_ENV });
+    expect(await adapter.getIntent("tr-missing")).toBeNull();
+  });
+
+  it("getIntent returns null on Plaid transfer_not_found error", async () => {
+    vi.spyOn(globalThis, "fetch").mockImplementation(async () => {
+      return new Response(
+        JSON.stringify({
+          error_code: "TRANSFER_NOT_FOUND",
+          error_type: "INVALID_INPUT",
+          display_message: null,
+        }),
+        { status: 400 },
+      );
+    });
+    const adapter = createPlaidAdapter({ env: REAL_ENV });
+    expect(await adapter.getIntent("tr-gone")).toBeNull();
+  });
+
+  it("getIntent throws plaid_transfer_get_failed on other HTTP errors", async () => {
+    vi.spyOn(globalThis, "fetch").mockImplementation(async () => {
+      return new Response("Server Error", { status: 500 });
+    });
+    const adapter = createPlaidAdapter({ env: REAL_ENV });
+    await expect(adapter.getIntent("tr-broken")).rejects.toThrow(
+      /plaid_transfer_get_failed.*500/,
+    );
+  });
+
+  it("getIntent throws plaid_transfer_get_failed on network error", async () => {
+    vi.spyOn(globalThis, "fetch").mockImplementation(async () => {
+      throw new Error("ECONNRESET");
+    });
+    const adapter = createPlaidAdapter({ env: REAL_ENV });
+    await expect(adapter.getIntent("tr-net")).rejects.toThrow(
+      /plaid_transfer_get_failed.*network error/,
+    );
+  });
+
+  it("getIntent returns null when env is stubbed", async () => {
+    const adapter = createPlaidAdapter({ env: STUB_ENV });
+    expect(await adapter.getIntent("tr-anything")).toBeNull();
   });
 
   it("handleWebhook returns unverified when verification throws (unknown mode)", async () => {
