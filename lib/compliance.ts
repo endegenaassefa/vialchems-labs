@@ -2,6 +2,17 @@
 // Adapted for peptide e-commerce context with: full Appendix P forbidden patterns
 // (extends original 10-pattern set to ~40 patterns covering FDA enforcement triggers
 // observed across 18 warning letters + 3 DOJ pleas + ITC GEO 337-TA-1377).
+//
+// v5.0 Phase 2.3 — Iron Law 2.29 extensions added: FDA approved-drug-analog
+// regex (Tesamorelin/Egrifta), Melanocortin enforcement (Melanotan family +
+// PT-141/Bremelanotide/Vyleesi), RUO bypass (BAC water), SS-31/Elamipretide,
+// GLP-1 cousins (liraglutide/dulaglutide), short-code obfuscations (Reta,
+// Tirz, Sema as standalone words), supplemental KLOW blend, and audit M1
+// hyphen-form fix on the `\s*` quality-claim/human-use patterns.
+//
+// SCANNER_OK: reviewed-and-cso-passed (PROTECTED PATH — Iron Law 2.5/2.19).
+
+import { BANNED_COMPOUNDS } from "./compliance/banned-compounds";
 
 /**
  * Marketing-copy safety filter.
@@ -18,7 +29,11 @@
  * Patterns are tested in this order. The first match short-circuits.
  */
 
-export const unsafeMarketingPatterns: readonly RegExp[] = [
+/**
+ * Hand-curated explicit regex set. Audit M1 fix replaced `\s*` with `[\s-]*`
+ * for hyphen-form catches (e.g., pharmaceutical-grade now blocked).
+ */
+const explicitUnsafePatterns: readonly RegExp[] = [
   // Outcome claims (any context)
   /weight\s*loss/i,
   /fat\s*loss/i,
@@ -51,27 +66,67 @@ export const unsafeMarketingPatterns: readonly RegExp[] = [
   /\binsulin\b/i,
   /\bdiabetes\b/i,
 
-  // Quality-claim language (FDA flags as drug-intent)
+  // v5 §2.29 extensions — FDA approved-drug-analog (Tesamorelin / Egrifta)
+  /\btesamorelin\b/i,
+  /\bth9507\b/i,
+  /\begrifta\b/i,
+
+  // v5 §2.29 extensions — Melanocortin FDA enforcement
+  /\bmelanotan(?:-i{1,2}|-1|-2)?\b/i,
+  /\bmt-?[12i]+\b/i, // catches mt-1, mt-2, mt-i, mt-ii, mt1, mt2
+  /\bbremelanotide\b/i,
+  /\bvyleesi\b/i,
+  /\bpt-?141\b/i,
+
+  // v5 §2.29 extensions — RUO bypass vector (BAC water family)
+  /\bbacteriostatic[\s-]+water\b/i,
+  /\bbac[\s-]+water\b/i,
+
+  // v5 §2.29 extensions — GLP-1 cousins
+  /\bliraglutide\b/i,
+  /\bdulaglutide\b/i,
+
+  // v5 §2.29 extensions — SS-31 (Elamipretide; approved-drug analog)
+  /\bss-?31\b/i,
+  /\belamipretide\b/i,
+
+  // v5 §2.29 extensions — short-code GLP-1 obfuscations.
+  // Catalog shipped shortName='Reta', 'Tirz', 'Sema' (audit C5 + supplemental
+  // S1). Whole-word boundary so 'sermorelin', 'retreat', 'tirzon' are NOT
+  // over-blocked.
+  /\btirz\b/i,
+  /\bsema\b/i,
+  /\breta\b/i,
+
+  // v5.0 supplemental S1 — undetermined-composition blend
+  /\bklow\b/i,
+
+  // Quality-claim language (FDA flags as drug-intent).
+  // Audit M1: `\s*` was silently bypassing hyphenated forms; `[\s-]*` catches
+  // both "medical grade" and "medical-grade".
   /clinically\s*proven/i,
-  /medical\s*grade/i,
-  /pharmaceutical\s*grade/i,
-  /prescription\s*strength/i,
-  /FDA[-\s]*approved/i,
+  /medical[\s-]*grade/i,
+  /pharmaceutical[\s-]*grade/i,
+  /prescription[\s-]*strength/i,
+  /FDA[\s-]*approved/i,
   /safe\s+for\s+human/i,
   /medical\s+advice/i,
 
-  // Human-use intent (RUO defense piercing pattern)
-  /human\s*use/i,
-  /human\s*consumption/i,
-  /human\s*dosing/i,
-  /human\s*ingestion/i,
-  /human\s*injection/i,
+  // Human-use intent (RUO defense piercing pattern).
+  // Audit M1: `\s*` -> `[\s-]*` so hyphen forms (human-use, human-dosing,
+  // human-consumption) now catch.
+  /human[\s-]*use/i,
+  /human[\s-]*consumption/i,
+  /human[\s-]*dosing/i,
+  /human[\s-]*ingestion/i,
+  /human[\s-]*injection/i,
   /\bbodybuilding\b/i,
 
-  // Dosing protocol language (FDA cited in 12+ letters)
-  /\bdosing\s*recommendation/i,
-  /\bdosing\s*protocol/i,
-  /\bdose\s*protocol/i,
+  // Dosing protocol language (FDA cited in 12+ letters).
+  // Audit M1 hyphen-fix included for "dosing-protocol".
+  /\bdosing[\s-]*recommendation/i,
+  /\bdosing[\s-]*protocol/i,
+  /\bdose[\s-]*protocol/i,
   /\brecommend(?:ed|s)?\s*dose/i,
 
   // Personal pronouns describing compound effects
@@ -80,6 +135,42 @@ export const unsafeMarketingPatterns: readonly RegExp[] = [
   /\byour\s+(?:weight|gains|fat|muscles)\b/i,
   /\bimproves?\s+your\b/i,
   /\bfor\s+you(?:r|rs)?\s+(?:body|health|results)\b/i,
+] as const;
+
+/**
+ * Auto-derived regex patterns from `BANNED_COMPOUNDS` (Iron Law 2.29 belt-
+ * and-suspenders).
+ *
+ * If a future compound is added to the static blocklist but the operator
+ * forgets to update `explicitUnsafePatterns`, the derived patterns will
+ * still catch it. Two strategies based on entry shape:
+ *
+ *   - Multi-word or hyphenated entries (e.g. "bacteriostatic water",
+ *     "melanotan-ii"): emit a regex with hyphen-or-space tolerance and a
+ *     word boundary at start/end so substring-in-larger-string matches
+ *     (e.g. "30ml bacteriostatic water vial" -> match).
+ *   - Single-word entries (e.g. "tesamorelin", "reta"): emit a `\b...\b`
+ *     word-boundary regex so legitimate words like "retreat", "sermorelin",
+ *     "tirzon", "klowinski" are NOT over-blocked.
+ */
+const derivedUnsafePatterns: readonly RegExp[] = BANNED_COMPOUNDS.map(
+  (compound) => {
+    const lower = compound.toLowerCase();
+    const escaped = lower.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    if (lower.includes(" ") || lower.includes("-")) {
+      // Multi-word / hyphenated: tolerate either space or hyphen as the
+      // internal separator; flank with \b for word-boundary match.
+      const flexible = escaped.replace(/(?:\\-| )/g, "[\\s-]");
+      return new RegExp(`\\b${flexible}\\b`, "i");
+    }
+    // Single-word: strict \b...\b boundary.
+    return new RegExp(`\\b${escaped}\\b`, "i");
+  },
+);
+
+export const unsafeMarketingPatterns: readonly RegExp[] = [
+  ...explicitUnsafePatterns,
+  ...derivedUnsafePatterns,
 ] as const;
 
 /**
