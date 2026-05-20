@@ -39,15 +39,15 @@ describe("catalog content compliance", () => {
       productImagePath("bpc-157-10mg"),
       productImagePath("tb-500-10mg"),
       productImagePath("ghk-cu-50mg"),
-      productImagePath("klow-80mg"),
-      productImagePath("reta-10mg"),
+      productImagePath("kpv-500mcg"),
+      productImagePath("mots-c-10mg"),
     ].join("\n");
 
     expect(renderedPaths).toContain("/product-shots/bpc-157-10mg.png");
     expect(renderedPaths).toContain("/product-shots/tb-500-10mg.png");
     expect(renderedPaths).toContain("/product-shots/ghk-cu-50mg.png");
-    expect(renderedPaths).toContain("/product-shots/klow-80mg.png");
-    expect(renderedPaths).toContain("/product-shots/reta-10mg.png");
+    expect(renderedPaths).toContain("/product-shots/kpv-500mcg.png");
+    expect(renderedPaths).toContain("/product-shots/mots-c-10mg.png");
     expect(renderedPaths).not.toContain("/v2-assets/");
     expect(renderedPaths).not.toMatch(
       new RegExp(`${"vai"}${"lchem"}|vialchem\\.labs`, "i"),
@@ -88,18 +88,17 @@ describe("catalog content compliance", () => {
   });
 
   it("matches the operator-approved live launch catalog and prices", () => {
+    // v5.0.0: 12 -> 9 launch SKUs after removing 3 banned (klow, reta, tirz)
+    // per docs/DECISIONS/locked_override_2026-05-20.md (Iron Law 2.7/2.29).
     const expected = [
       ["bpc-157-10mg", "BPC-157-10MG", 4200],
       ["tb-500-10mg", "TB-500-10MG", 4800],
       ["ghk-cu-50mg", "GHK-CU-50MG", 5000],
       ["cjc-1295-ipamorelin-5mg", "CJC-1295-IPAMORELIN-5MG", 8000],
-      ["klow-80mg", "KLOW-80MG", 10000],
       ["kpv-500mcg", "KPV-500MCG", 4800],
       ["mots-c-10mg", "MOTS-C-10MG", 6500],
       ["semax-10mg", "SEMAX-10MG", 6500],
       ["selank-10mg", "SELANK-10MG", 6500],
-      ["reta-10mg", "RETA-10MG", 9900],
-      ["tirz-25mg", "TIRZ-25MG", 10000],
       ["nad-500mg", "NAD-500MG", 7500],
     ] as const;
 
@@ -149,24 +148,19 @@ describe("catalog content compliance", () => {
     ).toBe(false);
   });
 
-  it("keeps Reta as one $99 live product listing", () => {
-    const visibleNames = catalogDisplayItems.map((item) => item.shortName);
-    const reta = catalogDisplayItems.find((item) => item.shortName === "Reta");
-
-    expect(visibleNames.filter((name) => name === "Reta")).toHaveLength(1);
-    expect(catalogDisplayItems).toHaveLength(12);
-    expect(reta?.priceCents).toBe(9900);
-    expect(reta?.variants).toHaveLength(1);
-    expect(reta?.variants[0]?.sku).toBe("RETA-10MG");
-  });
-
-  it("renders KLOW as one live product with the KLOW image and title casing", () => {
-    const klow = catalogDisplayItems.find((item) => item.slug === "klow-80mg");
-
-    expect(klow?.shortName).toBe("KLOW");
-    expect(klow?.name).toBe("KLOW · 80mg vial");
-    expect(klow?.image).toBe("/product-shots/klow-80mg.png");
-    expect(klow?.priceCents).toBe(10000);
+  it("renders exactly the v5.0.0 live launch SKUs (Reta/KLOW/Tirz removed)", () => {
+    // v5.0.0: 9 launch products + 0 banned products + bundles route to
+    // request-only. The shop grid shows the 9 in-stock SKUs only.
+    expect(catalogDisplayItems).toHaveLength(9);
+    expect(
+      catalogDisplayItems.find((item) => item.slug === "klow-80mg"),
+    ).toBeUndefined();
+    expect(
+      catalogDisplayItems.find((item) => item.slug === "reta-10mg"),
+    ).toBeUndefined();
+    expect(
+      catalogDisplayItems.find((item) => item.slug === "tirz-25mg"),
+    ).toBeUndefined();
   });
 
   it("treats non-launch products as custom request only", () => {

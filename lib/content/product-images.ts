@@ -22,7 +22,6 @@ const productStudioImages = Object.fromEntries(
     ["sermorelin-2mg", "Sermorelin 2mg"],
     ["sermorelin-5mg", "Sermorelin 5mg"],
     ["sermorelin-ipamorelin-10mg", "Sermorelin + Ipamorelin 10mg"],
-    ["tesamorelin-5mg", "Tesamorelin 5mg"],
     ["igf-1-lr3-1mg", "IGF-1 LR3 1mg"],
     ["ghrp-2-5mg", "GHRP-2 5mg"],
     ["ghrp-6-5mg", "GHRP-6 5mg"],
@@ -31,8 +30,6 @@ const productStudioImages = Object.fromEntries(
     ["igf-1-des-1mg", "IGF-1 DES 1mg"],
     ["semax-30mg", "Semax 30mg"],
     ["semax-10mg", "Semax 10mg"],
-    ["pt-141-10mg", "PT-141 10mg"],
-    ["melanotan-ii-10mg", "Melanotan II 10mg"],
     ["kisspeptin-10-10mg", "Kisspeptin-10 10mg"],
     ["epitalon-50mg", "Epitalon 50mg"],
     ["epitalon-10mg", "Epitalon 10mg"],
@@ -45,9 +42,6 @@ const productStudioImages = Object.fromEntries(
     ["kpv-10mg", "KPV 10mg"],
     ["kpv-500mcg", "KPV 500mcg"],
     ["aod-9604-5mg", "AOD-9604 5mg"],
-    ["klow-80mg", "KLOW 80mg"],
-    ["reta-10mg", "Reta 10mg"],
-    ["tirz-25mg", "Tirz 25mg"],
   ].map(([slug, label]) => [
     slug,
     {

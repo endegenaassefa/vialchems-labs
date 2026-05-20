@@ -206,18 +206,6 @@ Quality copy should stay batch-document driven. The exact OROS blend page shows 
 
 At $89, the product is premium relative to the exact $59.99 comparator and slightly above related blend signals around $80-$87. The price can be defended as an operator-selected catalog-completion SKU for researchers who want both component identities in one 10mg vial, not as a discount or performance-led offer.`,
 
-  "TESAMORELIN-5MG": `Tesamorelin is a synthetic analog of growth-hormone-releasing hormone (GHRH), also identified in the corpus by the synonym TH9507. This proposed 5mg vial should be presented as a lyophilized research reference for controlled laboratory and analytical workflows, not as a therapeutic, wellness, or compounding product.
-
-The strongest compliant framing is compound identity and GH-axis taxonomy. Raw product pages connect Tesamorelin with GHRH-analog classification and place it near Sermorelin, CJC-1295, and Ipamorelin in catalog structures. Those relationships support GH-axis navigation, but they should not be converted into stack instructions or outcome-oriented copy for researchers.
-
-Research context should stay high-level: GHRH receptor pathway mapping, somatotroph signaling models, cAMP-pathway assay design, and GH/IGF-axis analytical comparison. The corpus contains broader clinical and body-composition language, but the proposed page should not reproduce those claims. A controlled research register is especially important because Tesamorelin carries elevated approved-drug comparison sensitivity.
-
-The 5mg presentation is directly supported by raw-fetch pages from Raw Amino, Pure Peptide Labs, Arcane Peptides, and Next Age Peptides. Suitable product-page quality language can mention lyophilized powder, vial format, lot-specific COA display, HPLC, mass spectrometry, purity testing, and batch identity only where the operator has matching documentation for the actual lot and can keep that documentation visible at purchase.
-
-At $69.00, this SKU prices at $13.80 per mg, above the captured Tesamorelin 75th percentile and near the high end of the corpus distribution. The price matches a direct Raw Amino 5mg listing, so the position should be described as an operator-requested premium research format rather than a market-leader or loss-leader offer.
-
-This material should be described strictly for controlled laboratory, in vitro, and analytical research use by qualified purchasers in non-clinical settings. It is not a drug, dietary supplement, cosmetic, or compounding article, and it is not for human or veterinary use, clinical administration, diagnostic use, therapeutic application, ingestion, injection, or bodily introduction of any kind.`,
-
   "IGF-1-LR3-1MG": `IGF-1 LR3 is proposed as a 1mg lyophilized research vial for qualified laboratory and analytical workflows. Corpus product pages identify the material as a synthetic IGF-1 class analog with 83 amino acids, an N-terminal extension, and an arginine substitution at position 3 within the IGF-1 sequence framework.
 
 The safest product-page foundation is compound identity, vial format, and IGF-axis taxonomy. Direct raw pages support 1mg listings, lyophilized powder presentation, COA-oriented quality language, HPLC purity assessment, mass-spectrometry identity checks, and batch or lot visibility. Static copy should not state purity, sterility, manufacture location, salt form, or shelf timing unless the operator has matching lot documentation.
@@ -315,32 +303,6 @@ The 10mg presentation gives the catalog a smaller Semax vial than the existing 3
 Analytical copy can mention quality posture only where the storefront has matching batch support: lyophilized powder, sequence confirmation, stated purity when available, COA availability, test-date visibility, and lot-specific testing language. It should not echo vendor marketing around clinical investigations or customer-facing benefits. The safer frame is reference-material inventory for qualified research purchasers.
 
 This material should be described strictly for laboratory research, analytical comparison, and non-clinical peptide handling. Do not include route language, reconstitution instructions, study exposure amounts, disease terms, cognition or mood promises, or clinical translation language. Final commerce copy should stay concise and verifiable: synthetic heptapeptide, ACTH-fragment derivation, 10mg lyophilized vial, relevant research pathways, COA-oriented quality posture when available, and RUO-only restrictions.`,
-
-  "PT-141-10MG": `PT-141 (Bremelanotide) is a synthetic cyclic heptapeptide used as a melanocortin-receptor research reference. This proposed 10mg vial should be presented more narrowly than ordinary catalog peptides because the Bremelanotide synonym appears in regulated human-use contexts and the corpus shows frequent medicalized vendor copy around this compound.
-
-The safest product-page foundation is material identity: PT-141, cyclic peptide architecture, melanocortin-receptor class, and lyophilized vial format. Several exact product pages support the sequence Ac-Nle-cyclo[Asp-His-D-Phe-Arg-Trp-Lys]-OH, the molecular formula C50H68N14O10, and molecular weight near 1025.2 Da, but final identity, salt form, purity, and lot attributes should defer to batch documentation.
-
-For research context, the page should stay at receptor and analytical level. Appropriate language includes melanocortin receptor interaction modeling, receptor-class comparison, peptide stability profiling, LC-MS identity confirmation, chromatographic purity assessment, and comparative structural analysis of cyclic peptide analogs. These are laboratory workflow terms, not outcome claims.
-
-The corpus repeatedly shows why restraint is necessary. Raw vendor pages often move from receptor terminology into consumer-readable narratives, clinical comparisons, or human-outcome discussion. Those passages should not be imported. The page should avoid translating melanocortin-pathway research into buyer-facing promises, practical use cases, or protocol cues.
-
-The requested $59 list price equals $5.90 per mg. That sits above the captured PT-141 75th percentile and above the broader median, so this should not be framed as a loss leader. It is better treated as a controlled catalog-completion SKU where qualification, age gating, and batch-specific COA access carry the trust signal. Merchandising should emphasize documentation and access controls rather than discounts, bundles, or consumer-style comparison copy.
-
-PT-141 10mg should be listed only as a research material for qualified laboratory, in vitro, and analytical workflows. The page should provide no preparation instructions, route discussion, study exposure amounts, clinical interpretation, or human/veterinary suitability language. The compliant commerce posture is sparse: compound name, synonym, vial size, analytical traceability, storage handled by source documentation, and research-use-only restrictions.`,
-
-  "MELANOTAN-II-10MG": `Melanotan II is a synthetic cyclic heptapeptide analog of alpha-melanocyte-stimulating hormone, commonly abbreviated MT-II or MT2 in the raw corpus. The proposed 10mg vial should be presented first as a melanocortin-receptor reference material, not as a user-facing product category or practical-use article.
-
-The strongest source-backed identity frame is narrow and technical: cyclic lactam peptide architecture, sequence Ac-Nle-cyclo[Asp-His-D-Phe-Arg-Trp-Lys]-NH2, molecular formula C50H69N15O9, and molecular weight near 1024.2 Da. Final sequence, salt form, fill mass, purity, and counterion should defer to the operator's own lot documentation.
-
-For page copy, the compliant research context is receptor and analytical work. Suitable language includes melanocortin receptor binding, MC1R/MC3R/MC4R/MC5R comparison, GPCR second-messenger assay design, structure-activity review across alpha-MSH analogs, HPLC purity assessment, LC-MS identity confirmation, and peptide-stability profiling under controlled laboratory conditions.
-
-The 10mg vial format is well supported by direct raw pages from Prime Lab Peptides, GenoScience, Planet Peptide, Eternal Peptides, Raw Amino, Silverstone Labs, and Snap Peptides. Several sources also show synonym support for Melanotan 2, Melanotan II, MT-II, MT-2, and MT2, which should be captured in search metadata rather than promoted as alternate brand language.
-
-Quality language should stay batch-specific. Public copy can expose lot number, test date, lab name, COA link, HPLC result, mass confirmation, and any applicable endotoxin, sterility, microbial, or heavy-metal testing only when those records exist for the operator's inventory. Competitor purity percentages and lab names should not be reused as generic SKU claims.
-
-At $59.00, this SKU prices at $5.90 per mg. The captured Melanotan II distribution shows a $5.00 median, $5.25 p75, and $5.50 high, while the separate Melanotan 2 bucket shows a lower $3.995 median. The requested price is therefore a premium catalog-completion position.
-
-The final listing should remain sparse: canonical name, 10mg vial size, lyophilized format, receptor-class taxonomy, analytical traceability, and strict RUO restrictions. It should provide no preparation guidance, route language, protocol cues, study-subject interpretation, pathway-to-use translation, practical application language, or suitability language outside controlled laboratory workflows.`,
 
   "KISSPEPTIN-10-10MG": `Kisspeptin-10 is a ten-amino-acid RF-amide peptide reference, also identified in vendor corpora as Metastin, KP-10, or a KISS1-derived fragment. The supported primary structure is Tyr-Asn-Trp-Asn-Ser-Phe-Gly-Leu-Arg-Phe-NH2, a C-terminally amidated decapeptide that gives product copy a concrete identity anchor without moving into application outcomes.
 
@@ -524,7 +486,7 @@ BPC-157 supplies the established catalog anchor. The repo already carries BPC-15
 
 TB-500 supplies the thymosin beta-4/TB4-related component. Current catalog data includes TB-500-10MG, and exact raw pages support a 10mg vial presentation. Source language commonly connects TB-500 with actin-binding and cytoskeletal research contexts, but sequence descriptions vary across pages. Static stack copy should leave full-length-versus-fragment detail to supplier specifications and batch documentation.
 
-KPV supplies the short-tripeptide component. The catalog contains KPV-10MG, and raw pages support Lys-Pro-Val, alpha-MSH C-terminal fragment naming, and 10mg lyophilized listings. KPV also appears in BPC/TB/KPV and KLOW-family pages, which makes it relevant to this recovery-category architecture without requiring the page to adopt broader competitor claims. The direct Ion page is the closest exact outside signal because it groups these three names without GHK-Cu, while KLOW pages provide adjacent evidence for the same trio inside a larger composition.
+KPV supplies the short-tripeptide component. The catalog contains KPV-10MG, and raw pages support Lys-Pro-Val, alpha-MSH C-terminal fragment naming, and 10mg lyophilized listings. KPV appears in BPC/TB/KPV recovery-category material across multiple vendor catalogs, which supports the three-component reference architecture without requiring the page to adopt broader competitor claims. The direct Ion page is the closest exact outside signal because it groups these three names without GHK-Cu.
 
 At the requested $129 price, the bundle is materially discounted against the current a la carte total of $202 for the three selected SKUs. That equals a 36.1% effective discount, far deeper than the locked two-component reference set's 12.5% benchmark. The price should therefore be described as an operator-requested bundle price, not as a general market convention.
 
