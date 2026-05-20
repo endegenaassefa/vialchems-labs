@@ -24,6 +24,7 @@ const ORIGINAL_ENV = {
   PLAID_CLIENT_ID: process.env.PLAID_CLIENT_ID,
   PLAID_SECRET: process.env.PLAID_SECRET,
   PLAID_WEBHOOK_VERIFICATION_KEY: process.env.PLAID_WEBHOOK_VERIFICATION_KEY,
+  PLAID_VERIFICATION_MODE: process.env.PLAID_VERIFICATION_MODE,
 };
 
 function setEnv(): void {
@@ -34,6 +35,9 @@ function setEnv(): void {
   process.env.PLAID_CLIENT_ID = "real_client";
   process.env.PLAID_SECRET = "real_secret";
   process.env.PLAID_WEBHOOK_VERIFICATION_KEY = PLAID_KEY;
+  // Phase 3.1 (v5): the integration tests below sign with HMAC. JWKS is the
+  // new production default, so we pin HMAC for this legacy integration flow.
+  process.env.PLAID_VERIFICATION_MODE = "hmac";
 }
 
 function restoreEnv(): void {
