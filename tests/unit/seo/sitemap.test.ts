@@ -23,10 +23,10 @@ describe("buildSitemap", () => {
     const urls = productPages.map((e) => e.url);
     expect(urls).toContain(`${BASE}/products/bpc-157-10mg`);
     expect(urls).toContain(`${BASE}/products/recovery-stack`);
-    expect(urls).toContain(`${BASE}/products/glow-stack`);
-    expect(urls).toContain(`${BASE}/products/wolverine-stack`);
-    expect(urls).toContain(`${BASE}/products/neuro-stack`);
-    expect(urls).toContain(`${BASE}/products/longevity-stack`);
+    expect(urls).toContain(`${BASE}/products/dermal-research-triple`);
+    expect(urls).toContain(`${BASE}/products/recovery-pair`);
+    expect(urls).toContain(`${BASE}/products/nootropic-pair`);
+    expect(urls).toContain(`${BASE}/products/longevity-triple`);
     expect(urls).toContain(`${BASE}/products/sermorelin-2mg`);
   });
 

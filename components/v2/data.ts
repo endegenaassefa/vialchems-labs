@@ -110,11 +110,11 @@ function catalogFamily(product: Product) {
 }
 
 const bundleImageBySlug: Record<string, string> = {
-  "glow-stack": "vialchemlabs_glow-stack_suggested-169.png",
-  "longevity-stack": "vialchemlabs_longevity-stack_suggested-179.png",
-  "neuro-stack": "vialchemlabs_neuro-stack_suggested-69.png",
+  "dermal-research-triple": "vialchemlabs_glow-stack_suggested-169.png",
+  "longevity-triple": "vialchemlabs_longevity-stack_suggested-179.png",
+  "nootropic-pair": "vialchemlabs_neuro-stack_suggested-69.png",
   "recovery-stack": "vialchemlabs_recovery-stack_suggested-129.png",
-  "wolverine-stack": "vialchemlabs_wolverine-stack_suggested-99.png",
+  "recovery-pair": "vialchemlabs_wolverine-stack_suggested-99.png",
 };
 
 export function productImagePath(slug: string) {

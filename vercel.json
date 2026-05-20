@@ -101,6 +101,26 @@
       "source": "/research",
       "destination": "/blog",
       "permanent": true
+    },
+    {
+      "source": "/products/wolverine-stack",
+      "destination": "/products/recovery-pair",
+      "permanent": true
+    },
+    {
+      "source": "/products/glow-stack",
+      "destination": "/products/dermal-research-triple",
+      "permanent": true
+    },
+    {
+      "source": "/products/neuro-stack",
+      "destination": "/products/nootropic-pair",
+      "permanent": true
+    },
+    {
+      "source": "/products/longevity-stack",
+      "destination": "/products/longevity-triple",
+      "permanent": true
     }
   ],
   "rewrites": []

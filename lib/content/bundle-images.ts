@@ -6,10 +6,10 @@ export interface BundleStudioImage {
 const bundleStudioImages = Object.fromEntries(
   [
     ["recovery-stack", "Structural Model Set"],
-    ["glow-stack", "Copper Matrix Set"],
-    ["wolverine-stack", "BPC/TB Reference Set"],
-    ["neuro-stack", "Neuropeptide Reference Set"],
-    ["longevity-stack", "Mitochondrial Reference Set"],
+    ["dermal-research-triple", "Dermal Research Triple"],
+    ["recovery-pair", "Recovery Pair"],
+    ["nootropic-pair", "Nootropic Pair"],
+    ["longevity-triple", "Longevity Triple"],
   ].map(([slug, label]) => [
     slug,
     {

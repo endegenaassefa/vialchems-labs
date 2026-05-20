@@ -76,7 +76,7 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "Do you offer bulk discounts?",
-    a: "Volume discounts are not currently offered. Bundle pricing is available on the BPC/TB Reference Set at $77 (12.5% effective discount).",
+    a: "Volume discounts are not currently offered. Bundle pricing is available on the Recovery Pair at $99 (25.6% effective discount).",
   },
   {
     q: "What is the affiliate program?",
