@@ -51,7 +51,9 @@ describe("hashAttestationsBlock", () => {
   });
 
   it("equals hashLegalText(ATTESTATIONS.join('\\n'))", () => {
-    expect(hashAttestationsBlock()).toBe(hashLegalText(ATTESTATIONS.join("\n")));
+    expect(hashAttestationsBlock()).toBe(
+      hashLegalText(ATTESTATIONS.join("\n")),
+    );
   });
 });
 
