@@ -1,20 +1,21 @@
 import { NextResponse, type NextRequest } from "next/server";
 import * as Sentry from "@sentry/nextjs";
+import { findMarketingCopyViolation } from "@/lib/compliance";
 import { sendEmail } from "@/lib/email/resend";
 import { rateLimitByIp } from "@/lib/rate-limit";
 import { isProductionRuntime } from "@/lib/runtime-env";
 import { captureException } from "@/lib/sentry";
 
 /**
- * Contact-form stub. Phase 5 returns a JSON ok response without persisting
- * the submission. Phase 7 will wire this to Resend + Supabase via the same
- * pattern used for buyer qualification.
- *
- * The endpoint validates payload shape and rejects empty fields; that is
- * enough for the contact page to test its happy + error paths today and for
- * the Phase-7 wiring to slot in without a contract change.
+ * Contact-form route. Validates payload shape, rejects empty fields, runs
+ * the message body through `findMarketingCopyViolation` (Iron Law 2.4 /
+ * 2.13), then dispatches via Resend.
  *
  * Iron Law 2.34: anti-abuse gate at the head of the handler (3 req / 1h per IP).
+ * Iron Law 2.13: every user-submitted free-text field that may surface on
+ * an operator-visible surface (inbox, ticket queue) goes through the
+ * marketing-copy filter before being persisted or forwarded. M7 closure
+ * (Phase 8) extended this from buyer qualification to the contact form.
  */
 export const dynamic = "force-dynamic";
 
@@ -79,6 +80,17 @@ export async function POST(req: NextRequest) {
   if (!name || !email || !message) {
     return NextResponse.json(
       { ok: false, error: "missing_fields" },
+      { status: 400 },
+    );
+  }
+
+  // Iron Law 2.13: scan the free-text body against the marketing-copy
+  // filter before forwarding to operator inbox. Stays at 400 so the
+  // shape matches missing_fields; the explicit error code lets the
+  // client UI surface a guided rephrase.
+  if (findMarketingCopyViolation(message) !== null) {
+    return NextResponse.json(
+      { ok: false, errors: ["marketing_copy_violation"] },
       { status: 400 },
     );
   }

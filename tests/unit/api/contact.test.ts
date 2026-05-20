@@ -65,6 +65,35 @@ describe("POST /api/contact", () => {
     expect(res.status).toBe(400);
   });
 
+  it("rejects message body that trips the marketing-copy filter (M7, Iron Law 2.13)", async () => {
+    const res = await POST(
+      makeReq({
+        name: "Researcher",
+        email: "r@example.com",
+        message:
+          "I am looking for tirzepatide for weight loss research. Please advise.",
+      }) as never,
+    );
+    expect(res.status).toBe(400);
+    const json = await res.json();
+    expect(json.ok).toBe(false);
+    expect(json.errors).toEqual(["marketing_copy_violation"]);
+  });
+
+  it("accepts research-context message body that passes the filter", async () => {
+    const res = await POST(
+      makeReq({
+        name: "Researcher",
+        email: "r@example.com",
+        message:
+          "Question about COA batch records and HPLC purity figures for BPC-157 reference standards.",
+      }) as never,
+    );
+    expect(res.status).toBe(200);
+    const json = await res.json();
+    expect(json).toEqual({ ok: true });
+  });
+
   it("returns 429 + Retry-After after 3 requests within 3600s (Iron Law 2.34)", async () => {
     const ip = "198.51.100.7";
     const body = {
