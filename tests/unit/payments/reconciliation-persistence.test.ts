@@ -284,6 +284,89 @@ describe("reconcile() preserves existing transition semantics", () => {
   });
 });
 
+describe("reconcile() durable layer guardrails", () => {
+  beforeEach(() => {
+    resetReconciliationLedger();
+    resetSupabaseMocks();
+    serviceClientReturn = fakeSupabase;
+  });
+
+  it("skips durable write for zelle provider (manual settlement, not in payments check constraint)", async () => {
+    const intent = makeIntent("pi_zelle_1", "paid", {
+      provider: "zelle",
+      method: "zelle",
+    });
+    const result = await reconcile(intent);
+    expect(result.applied).toBe(true);
+    expect(paymentsInsertMock).not.toHaveBeenCalled();
+    expect(orderHistoryInsertMock).not.toHaveBeenCalled();
+  });
+
+  it("skips durable write when amountCents is 0 (BTCPay events sometimes have it populated downstream)", async () => {
+    const intent = makeIntent("pi_zero_1", "paid", { amountCents: 0 });
+    const result = await reconcile(intent);
+    expect(result.applied).toBe(true);
+    expect(paymentsInsertMock).not.toHaveBeenCalled();
+  });
+
+  it("skips durable write when no externalId AND no intent.id (defensive)", async () => {
+    // This is an artificial edge — intent.id is normally always populated by
+    // the adapter. Construct it explicitly to exercise the guard.
+    const intent = makeIntent("", "paid", { externalId: undefined });
+    intent.id = "";
+    const result = await reconcile(intent);
+    expect(result.applied).toBe(true);
+    expect(paymentsInsertMock).not.toHaveBeenCalled();
+  });
+
+  it("surfaces order_status_history insert errors", async () => {
+    orderHistoryInsertMock.mockResolvedValueOnce({
+      error: { code: "08006", message: "history_db_down" },
+      data: null,
+    });
+    const intent = makeIntent("pi_hist_err", "paid");
+    await expect(reconcile(intent)).rejects.toThrow(
+      /order_status_history_persist_failed/,
+    );
+  });
+
+  it("populates method_details.external_id as null when intent.externalId is undefined", async () => {
+    // Edge: a future adapter could omit externalId. We fall back to intent.id
+    // for the unique-constraint key and serialize null into method_details
+    // so the row still satisfies the schema.
+    const intent = makeIntent("pi_no_ext_1", "paid", {
+      externalId: undefined,
+    });
+    const result = await reconcile(intent);
+    expect(result.applied).toBe(true);
+    expect(paymentsInsertMock).toHaveBeenCalledTimes(1);
+    const inserted = paymentsInsertMock.mock.calls[0]?.[0] as {
+      provider_intent_id: string;
+      method_details: { external_id: string | null };
+    };
+    expect(inserted.provider_intent_id).toBe("pi_no_ext_1");
+    expect(inserted.method_details.external_id).toBeNull();
+  });
+
+  it("forward transition (pending -> paid) returns already_processed when peer wrote credit row first", async () => {
+    // First call (pending) succeeds normally.
+    await reconcile(makeIntent("pi_race_1", "pending"));
+    expect(paymentsInsertMock).toHaveBeenCalledTimes(1);
+
+    // Forward transition to paid: simulate peer-already-wrote on the
+    // payments table for the same (provider, provider_intent_id).
+    paymentsInsertMock.mockResolvedValueOnce({
+      error: { code: "23505", message: "duplicate key value" },
+      data: null,
+    });
+    const result = await reconcile(makeIntent("pi_race_1", "paid"));
+    expect(result.applied).toBe(false);
+    expect(result.reason).toBe("already_processed");
+    expect(result.fromStatus).toBe("pending");
+    expect(result.toStatus).toBe("paid");
+  });
+});
+
 // Reference the mock helper to keep TS happy.
 type _Mock = MockInstance;
 void (null as unknown as _Mock);

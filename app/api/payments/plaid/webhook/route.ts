@@ -35,7 +35,7 @@ export async function POST(req: Request) {
         { status: 400 },
       );
     }
-    const reconciled = reconcile(result.intent);
+    const reconciled = await reconcile(result.intent);
     return NextResponse.json(
       {
         ok: true,
