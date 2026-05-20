@@ -17,7 +17,8 @@
  */
 import { NextResponse } from "next/server";
 import * as Sentry from "@sentry/nextjs";
-import { createHash, randomUUID } from "node:crypto";
+import { randomUUID } from "node:crypto";
+import { hashLegalText } from "@/lib/attestations";
 import {
   ATTESTATIONS,
   validateQualification,
@@ -42,10 +43,6 @@ interface AuditAttestations {
   ruo_acknowledged: boolean;
   jurisdictional_acknowledged: boolean;
   attestations_block_acknowledged: boolean;
-}
-
-async function sha256Hex(input: string): Promise<string> {
-  return createHash("sha256").update(input).digest("hex");
 }
 
 export async function POST(request: Request): Promise<Response> {
@@ -106,7 +103,10 @@ export async function POST(request: Request): Promise<Response> {
 
   const data = validation.data;
   const attestationLegalText = ATTESTATIONS.join("\n");
-  const attestationHash = await sha256Hex(attestationLegalText);
+  // Iron Law 2.10: the canonical hash helper lives in lib/attestations.ts
+  // so every insertion path (this route + future back-fill scripts) shares
+  // the exact same algorithm.
+  const attestationHash = hashLegalText(attestationLegalText);
 
   const audit: AuditAttestations = {
     age_21_plus: data.ageAcknowledgment,
