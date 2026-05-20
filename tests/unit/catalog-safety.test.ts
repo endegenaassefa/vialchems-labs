@@ -239,3 +239,31 @@ describe("Iron Law 2.7 — banned-compound catalog enforcement (v5.0.0)", () => 
     }
   });
 });
+
+describe("Iron Law 2.29 — bundle research register renaming (v5.0.0)", () => {
+  it("bundle 'wolverine-stack' has been renamed to 'recovery-pair'", () => {
+    expect(bundles.find((b) => b.slug === "wolverine-stack")).toBeUndefined();
+    expect(bundles.find((b) => b.slug === "recovery-pair")).toBeDefined();
+  });
+
+  it("bundle 'glow-stack' has been renamed to 'dermal-research-triple'", () => {
+    expect(bundles.find((b) => b.slug === "glow-stack")).toBeUndefined();
+    expect(
+      bundles.find((b) => b.slug === "dermal-research-triple"),
+    ).toBeDefined();
+  });
+
+  it("bundle 'neuro-stack' has been renamed to 'nootropic-pair'", () => {
+    expect(bundles.find((b) => b.slug === "neuro-stack")).toBeUndefined();
+    expect(bundles.find((b) => b.slug === "nootropic-pair")).toBeDefined();
+  });
+
+  it("bundle 'longevity-stack' has been renamed to 'longevity-triple'", () => {
+    expect(bundles.find((b) => b.slug === "longevity-stack")).toBeUndefined();
+    expect(bundles.find((b) => b.slug === "longevity-triple")).toBeDefined();
+  });
+
+  it("bundle 'recovery-stack' is retained (no rename)", () => {
+    expect(bundles.find((b) => b.slug === "recovery-stack")).toBeDefined();
+  });
+});
