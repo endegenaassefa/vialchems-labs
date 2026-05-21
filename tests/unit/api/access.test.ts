@@ -3,7 +3,6 @@ import { describe, expect, it, vi, beforeEach, afterEach } from "vitest";
 // Mock supabase before importing the route.
 const insertMock = vi.fn();
 const fromMock = vi.fn(() => ({ insert: insertMock }));
-const supabaseClient = { from: fromMock };
 
 vi.mock("@/lib/supabase", () => ({
   serviceSupabase: () => null, // Day-1 default: REQUIRE_SUPABASE=false → null
@@ -11,6 +10,7 @@ vi.mock("@/lib/supabase", () => ({
 }));
 
 import { POST } from "@/app/api/access/route";
+import { __resetRateLimitForTests } from "@/lib/rate-limit";
 
 const validPayload = {
   email: "researcher@example.com",
@@ -36,6 +36,7 @@ describe("POST /api/access (D7 qualification persistence)", () => {
     insertMock.mockReset();
     fromMock.mockClear();
     insertMock.mockResolvedValue({ error: null });
+    __resetRateLimitForTests();
   });
   afterEach(() => {
     vi.unstubAllEnvs();
@@ -76,5 +77,39 @@ describe("POST /api/access (D7 qualification persistence)", () => {
     });
     const res = await POST(req);
     expect(res.status).toBe(400);
+  });
+
+  it("returns 429 + Retry-After after 10 requests within 60s (Iron Law 2.34)", async () => {
+    const ip = "203.0.113.99";
+    for (let i = 0; i < 10; i += 1) {
+      const ok = await POST(
+        new Request("http://localhost/api/access", {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+            "x-forwarded-for": ip,
+          },
+          body: JSON.stringify(validPayload),
+        }),
+      );
+      expect(ok.status).toBe(200);
+    }
+    const blocked = await POST(
+      new Request("http://localhost/api/access", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+          "x-forwarded-for": ip,
+        },
+        body: JSON.stringify(validPayload),
+      }),
+    );
+    expect(blocked.status).toBe(429);
+    expect(blocked.headers.get("retry-after")).toBeTruthy();
+    expect(blocked.headers.get("x-ratelimit-limit")).toBe("10");
+    expect(blocked.headers.get("x-ratelimit-remaining")).toBe("0");
+    const body = await blocked.json();
+    expect(body.ok).toBe(false);
+    expect(body.error).toBe("rate_limited");
   });
 });

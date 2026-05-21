@@ -36,7 +36,7 @@ and run it there.
 ## 1. Vercel account, project, token, org ID, project ID
 
 1. Go to `https://vercel.com/signup`.
-2. Sign up with the GitHub account that owns `endegenaassefa/vialchems-labs`.
+2. Sign up with the GitHub account that owns `<operator-github>/vialchems-labs`.
 3. In Vercel, import the GitHub repository and create a project named
    `vialchemlabs`.
 4. In the repo root, link the local checkout:

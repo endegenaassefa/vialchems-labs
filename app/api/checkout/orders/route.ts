@@ -333,7 +333,14 @@ export async function POST(request: Request): Promise<Response> {
       customerEmail: payload.address.email,
       metadata: {
         displayId,
-        ...(databaseOrderId ? { databaseOrderId } : {}),
+        // B3: `order_id` is the canonical key the reconciliation resolver +
+        // persistence layer read (lib/payments/reconciliation.ts:154, :376).
+        // `databaseOrderId` is retained for backward-compat with any code that
+        // grew up reading the legacy key, but `order_id` is what makes Layer
+        // 3 jurisdictional guard + durable payments write find the order.
+        ...(databaseOrderId
+          ? { order_id: databaseOrderId, databaseOrderId }
+          : {}),
         ...(qualificationId ? { qualificationId } : {}),
         promoCode: promoCode ?? "",
       },

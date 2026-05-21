@@ -1,21 +1,23 @@
 # Creator Seeding Agreement Template
 
+Effective Date: 2026-05-20  
+Version: v5.0.0 (matches `docs/DECISIONS/locked_override_2026-05-20.md`)  
 Status: draft business template for attorney review. Do not send as a final
 contract until counsel reviews governing law, remedies, platform disclosure
 rules, and product-specific compliance language.
 
 ## Parties
 
-This Creator Seeding Agreement is entered into by and between vialchemlabs
-LLC ("Company") and the creator identified in the signed order or campaign
-brief ("Creator").
+This Creator Seeding Agreement is entered into by and between VialChem Labs
+LLC, a Wyoming limited liability company ("Company"), and the creator
+identified in the signed order or campaign brief ("Creator").
 
 ## Sample Order
 
 Company may provide Creator with a one-time sample order of up to two sealed
 research-product vials at no purchase price. Samples remain subject to all
 research-use-only restrictions, shipping restrictions, and product disclaimers
-published on vialchemlabs.
+published on the VialChem Labs site (https://vialchemlabs.net).
 
 ## Eligibility
 
@@ -41,7 +43,7 @@ of the sample order unless Company approves a written extension.
 
 Creator must clearly and conspicuously disclose the material connection with
 Company in every related post, video, caption, landing page, or link placement.
-Acceptable disclosure language includes "sample provided by vialchemlabs" or
+Acceptable disclosure language includes "sample provided by VialChem Labs" or
 another disclosure approved by Company in writing.
 
 ## Prohibited Claims

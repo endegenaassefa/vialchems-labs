@@ -9,6 +9,7 @@
   },
   "scripts": {
     "dev": "next dev",
+    "prebuild": "bash scripts/check-canonical-domain.sh && bash scripts/check-dns-resolution.sh",
     "build": "next build",
     "dev:shop-preview": "node scripts/local-woo-preview-server.mjs",
     "start": "next start",
@@ -22,12 +23,16 @@
     "verify:btcpay": "node scripts/verify-btcpay.mjs",
     "dns:btcpay": "node scripts/cloudflare-btcpay-dns.mjs",
     "generate:product-shots": "node scripts/generate-product-shots.mjs",
+    "generate:coa-placeholders": "node scripts/generate-coa-placeholder.mjs",
     "format": "prettier --write \"**/*.{ts,tsx,md,json,css}\"",
     "format:check": "prettier --check \"**/*.{ts,tsx,md,json,css}\"",
     "grep-mogtrix": "bash scripts/grep-mogtrix.sh",
     "grep-forbidden-words": "bash scripts/grep-forbidden-words.sh",
     "supply-chain-scan": "bash scripts/supply-chain-scan.sh",
-    "preflight": "npm run typecheck && npm run lint && npm run format:check && npm test && npm run build && npm audit --audit-level=high && npm run grep-mogtrix && npm run grep-forbidden-words && npm run supply-chain-scan"
+    "check-canonical-domain": "bash scripts/check-canonical-domain.sh",
+    "check-dns-resolution": "bash scripts/check-dns-resolution.sh",
+    "preflight": "npm run typecheck && npm run lint && npm run format:check && npm test && npm run build && npm audit --audit-level=high && npm run grep-mogtrix && npm run grep-forbidden-words && npm run supply-chain-scan && npm run check-canonical-domain && SKIP_DNS_CHECK=true npm run check-dns-resolution",
+    "prepare": "husky"
   },
   "dependencies": {
     "@sentry/nextjs": "^10.51.0",
@@ -50,6 +55,7 @@
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.11.3",
+    "@lhci/cli": "^0.14.0",
     "@next/bundle-analyzer": "^16.2.6",
     "@playwright/test": "^1.50.0",
     "@tailwindcss/postcss": "^4",
@@ -59,10 +65,12 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/three": "^0.184.1",
+    "@vitest/coverage-v8": "^4.1.6",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "husky": "^9.1.7",
     "jsdom": "^26.0.0",
+    "pdf-lib": "^1.17.1",
     "prettier": "^3.4.0",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "sharp": "^0.34.5",

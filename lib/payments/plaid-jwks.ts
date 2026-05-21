@@ -1,12 +1,14 @@
 /**
- * Phase 10.4 (v4) → Phase 11.1 (v4) — D9 Plaid HMAC → JWKS migration.
+ * Phase 10.4 (v4) → Phase 11.1 (v4) → Phase 3.1 (v5) — Plaid JWKS verification.
  *
  * Plaid's production webhook signing scheme is JWT (ES256) with the
  * public key fetched from the verification-key endpoint. Phase 11.1
- * upgrades the stub structural pre-flight to a full ES256 signature
- * verification via the `jose` package.
+ * upgraded the stub structural pre-flight to full ES256 signature
+ * verification; Phase 3.1 (v5) flips the default to 'jwks' to match
+ * production, retains 'hmac' as a legacy/sandbox fallback, and rejects
+ * any other value with a clear error.
  *
- *   - pickVerificationMode(env): 'hmac' (default) | 'jwks'
+ *   - pickVerificationMode(env): 'jwks' (default) | 'hmac' (legacy)
  *   - verifyPlaidJwt(input): full structural pre-flight + body-hash
  *     check + ES256 signature verification against the JWKS-fetched
  *     public key.
@@ -21,7 +23,12 @@ export type VerificationMode = "hmac" | "jwks";
 export function pickVerificationMode(env: {
   PLAID_VERIFICATION_MODE?: string;
 }): VerificationMode {
-  return env.PLAID_VERIFICATION_MODE === "jwks" ? "jwks" : "hmac";
+  const raw = env.PLAID_VERIFICATION_MODE;
+  if (raw === undefined || raw === "" || raw === "jwks") return "jwks";
+  if (raw === "hmac") return "hmac";
+  throw new Error(
+    `Unknown PLAID_VERIFICATION_MODE: ${raw}. Expected 'jwks' (default) or 'hmac' (legacy).`,
+  );
 }
 
 export interface PlaidJwksKey {

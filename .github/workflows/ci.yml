@@ -1,0 +1,89 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ci:
+    name: Unit + preflight
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      # Disable network probes that require live DNS for CI.
+      SKIP_DNS_CHECK: "true"
+      # Use the same Node version as .nvmrc + package.json engines.
+      NODE_VERSION: "22.16.0"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # full history so check-canonical-domain / git ops work
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: TypeScript typecheck
+        run: npm run typecheck
+
+      - name: ESLint
+        run: npm run lint
+
+      - name: Prettier format check
+        run: npm run format:check
+
+      - name: Iron Law 2.12 — grep-mogtrix
+        run: npm run grep-mogtrix
+
+      - name: Iron Law 2.4 — grep-forbidden-words
+        run: npm run grep-forbidden-words
+
+      - name: Iron Law 2.16 — supply-chain-scan
+        run: npm run supply-chain-scan
+
+      - name: Iron Law 2.28 — check-canonical-domain
+        run: npm run check-canonical-domain
+
+      - name: Iron Law 2.38 — check-dns-resolution
+        run: SKIP_DNS_CHECK=true npm run check-dns-resolution
+
+      - name: Iron Law 2.24 — no .skip(true) / .only( in CI E2E
+        run: |
+          if grep -rnE "\.skip\(true|\.only\(" tests/e2e/; then
+            echo "Iron Law 2.24 violation: skip/only found in CI E2E"
+            exit 1
+          else
+            echo "OK: tests/e2e/ free of .skip(true)/.only( markers"
+          fi
+
+      - name: Iron Law 2.36 — unit tests + coverage
+        run: npm test -- --coverage --coverage.reporter=text-summary --coverage.reporter=lcov
+
+      - name: Upload coverage artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: coverage-${{ github.run_id }}
+          path: coverage/
+          retention-days: 7
+          if-no-files-found: ignore
+
+      - name: Next.js production build
+        run: npm run build

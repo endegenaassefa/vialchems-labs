@@ -2,7 +2,7 @@
 
 Date: 2026-05-08
 Phase target: 90-150 min
-Status: IN_PROGRESS (main-thread reads complete; 6 subagent digests pending)
+Status: COMPLETE (all 6 subagent digests landed; verification gate satisfied per the §122-130 table below)
 
 ## Trial-Run Thesis (from bible_final.md)
 
@@ -206,11 +206,15 @@ All 6 subagent spec adherence audits PASS or PASS-with-note. Constitution acknow
 - [x] 3 PENDING/PLACEHOLDER decisions explicitly addressed (brand_pick LOCKED_OVERRIDE, source_terms PENDING, Slice 3 PLACEHOLDER).
 - [x] No forbidden words in any new file written this phase (verified by spot-check; will be enforced by pre-commit hook from Phase 8 onward).
 
-## Verification Gate (per SUPER_PROMPT_v3 §1.4 Phase 1)
+## Verification Gate (per SUPER_PROMPT_v3 §1.4 Phase 1) — historical duplicate
+
+Superseded by the canonical Verification Gate block above (lines 201-207).
+Retained here for archaeological context; all 6 subagent audits returned
+PASS or PASS-with-note and the digest is COMPLETE.
 
 - [x] All 10 main-thread reads completed (line counts: bible 492, context 203, meta-prompt 301 [referenced via context.md proxy], operations_playbook deferred [referenced via audit + manifest], audit done, compliance_findings deferred to sub_1, opening_sku_rec 130, acquisition_synthesis deferred to sub_3, brand_candidates deferred [decision LOCKED], coverage_report 231)
-- [ ] All 6 subagents returned with spec adherence audits — IN PROGRESS
-- [ ] CORPUS_DIGEST exists, references every doc read by file name — THIS FILE (will finalize when subagents return)
+- [x] All 6 subagents returned with spec adherence audits — COMPLETE (all 6 PASS or PASS-with-note)
+- [x] CORPUS_DIGEST exists, references every doc read by file name — THIS FILE
 - [x] 3 PENDING/PLACEHOLDER decisions explicitly addressed (brand_pick now LOCKED, source_terms PENDING, Slice 3 PLACEHOLDER)
 - [x] No forbidden words in any new file written this phase
 

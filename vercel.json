@@ -34,6 +34,10 @@
         {
           "key": "X-Robots-Tag",
           "value": "index, follow"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.sentry.io https://*.plaid.com https://cdn.plaid.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://*.sentry.io https://*.plaid.com https://production.plaid.com https://sandbox.plaid.com https://development.plaid.com https://api.resend.com https://api.coinbase.com; frame-src 'self' https://*.plaid.com https://cdn.plaid.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
         }
       ]
     },
@@ -100,6 +104,26 @@
     {
       "source": "/research",
       "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/products/wolverine-stack",
+      "destination": "/products/recovery-pair",
+      "permanent": true
+    },
+    {
+      "source": "/products/glow-stack",
+      "destination": "/products/dermal-research-triple",
+      "permanent": true
+    },
+    {
+      "source": "/products/neuro-stack",
+      "destination": "/products/nootropic-pair",
+      "permanent": true
+    },
+    {
+      "source": "/products/longevity-stack",
+      "destination": "/products/longevity-triple",
       "permanent": true
     }
   ],

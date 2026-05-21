@@ -1,5 +1,5 @@
-import { describe, expect, it } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { describe, expect, it, vi } from "vitest";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { Vial } from "@/components/ui/Vial";
 
 describe("Vial", () => {
@@ -184,5 +184,152 @@ describe("Vial", () => {
       );
       expect(screen.getByTestId("vial").className).toMatch(/vial-sway/);
     });
+  });
+});
+
+// Iron Law 2.29 — Vial double-gate (static blocklist OVERRIDES catalog allowlist).
+//
+// Audit C5 STILL-APPLIES: components/ui/Vial.tsx auto-derives allowedCompounds
+// from products.map. Supplemental S1 demonstrated concretely that when an
+// operator added shortName='Reta'/'Tirz'/'KLOW' to products.ts, the
+// catalog-only gate auto-allowed them.
+//
+// Phase 2.4 GREEN adds a SECOND gate inside assertCompoundAllowed that calls
+// isBannedCompound() from lib/compliance/banned-compounds.ts. Even if a banned
+// compound is added back to products.ts, Vial.tsx refuses to render.
+//
+// The RED tests below render <Vial compound={c} /> WITHOUT withLabel. Pre-GREEN,
+// the validation gate (`if (withLabel && compound)`) is skipped entirely, so
+// these renders silently succeed. Post-GREEN, the gate fires whenever
+// `compound` is provided, regardless of withLabel — so banned and not-in-catalog
+// compounds throw at render time even in unlabeled vials.
+describe("Iron Law 2.29 — Vial double-gate (static blocklist + catalog allowlist)", () => {
+  // These compounds are NOT in the catalog after Phase 2.1 removal, but the
+  // blocklist must REJECT them even if a future commit adds them back.
+  const STATIC_BANNED = [
+    "tesamorelin",
+    "Tesamorelin",
+    "TESAMORELIN",
+    "melanotan",
+    "Melanotan II",
+    "PT-141",
+    "Bremelanotide",
+    "klow",
+    "KLOW",
+    "Reta",
+    "Tirz",
+    "tirzepatide",
+    "retatrutide",
+    "semaglutide",
+    "bacteriostatic water",
+    "BAC water",
+    "SS-31",
+    "ss-31",
+    "elamipretide",
+    "liraglutide",
+    "dulaglutide",
+  ];
+
+  for (const compound of STATIC_BANNED) {
+    it(`Vial throws for banned compound '${compound}' (blocklist gate)`, () => {
+      expect(() => render(<Vial compound={compound} />)).toThrow(
+        /Iron Law 2\.(7|29)/,
+      );
+    });
+  }
+
+  // Negative case: safe catalog compounds pass without throwing
+  const SAFE_CATALOG = [
+    "BPC-157",
+    "TB-500",
+    "GHK-Cu",
+    "MOTS-c",
+    "Selank",
+    "Semax",
+    "Ipamorelin",
+  ];
+  for (const compound of SAFE_CATALOG) {
+    it(`Vial renders for safe catalog compound '${compound}'`, () => {
+      expect(() => render(<Vial compound={compound} />)).not.toThrow();
+    });
+  }
+
+  // Edge case: not-in-catalog AND not-in-blocklist
+  it("Vial throws for arbitrary not-in-catalog string", () => {
+    expect(() => render(<Vial compound="foobar-123" />)).toThrow(
+      /Iron Law 2\.7/,
+    );
+  });
+
+  // Edge case: empty / whitespace input — must be rejected as malformed
+  it("Vial throws for empty compound", () => {
+    expect(() => render(<Vial compound="" />)).toThrow();
+  });
+
+  it("Vial throws for whitespace-only compound", () => {
+    expect(() => render(<Vial compound="   " />)).toThrow();
+  });
+});
+
+// Interactive click handler coverage (lines 226-234) — ensures the click
+// rotation accumulation + onClick forwarding both fire and that
+// non-interactive vials only forward onClick without mutating rotation state.
+describe("Vial — interactive click handler", () => {
+  it("interactive=true: click forwards to onClick AND increments internal rotation (transform applied)", () => {
+    const onClick = vi.fn();
+    const { getByTestId } = render(
+      <Vial interactive onClick={onClick} data-testid="vial" />,
+    );
+    const el = getByTestId("vial");
+
+    fireEvent.click(el);
+    expect(onClick).toHaveBeenCalledTimes(1);
+    // After 1 click, the rotation transform inline-style should be applied.
+    expect(el.getAttribute("style") ?? "").toMatch(/rotate\(360deg\)/);
+
+    fireEvent.click(el);
+    expect(onClick).toHaveBeenCalledTimes(2);
+    // After 2 clicks, rotation accumulates to 720deg.
+    expect(el.getAttribute("style") ?? "").toMatch(/rotate\(720deg\)/);
+  });
+
+  it("interactive=false: click forwards to onClick but does NOT apply rotation transform", () => {
+    const onClick = vi.fn();
+    const { getByTestId } = render(
+      <Vial onClick={onClick} data-testid="vial" />,
+    );
+    const el = getByTestId("vial");
+
+    fireEvent.click(el);
+    expect(onClick).toHaveBeenCalledTimes(1);
+    expect(el.getAttribute("style") ?? "").not.toMatch(/rotate/);
+  });
+
+  it("interactive=true with no onClick: still increments rotation safely (no throw)", () => {
+    const { getByTestId } = render(<Vial interactive data-testid="vial" />);
+    const el = getByTestId("vial");
+
+    expect(() => fireEvent.click(el)).not.toThrow();
+    expect(el.getAttribute("style") ?? "").toMatch(/rotate\(360deg\)/);
+  });
+});
+
+// Additional animation-class coverage (spin + bob lines 246-249).
+describe("Vial — spin and bob animation classes", () => {
+  it("applies vial-spin animation class when spin=true", () => {
+    render(<Vial spin data-testid="vial" />);
+    expect(screen.getByTestId("vial").className).toMatch(/vial-spin/);
+  });
+
+  it("applies vial-bob animation class when bob=true", () => {
+    render(<Vial bob data-testid="vial" />);
+    expect(screen.getByTestId("vial").className).toMatch(/vial-bob/);
+  });
+
+  it("interactive=true adds cursor-pointer + transition classes", () => {
+    render(<Vial interactive data-testid="vial" />);
+    const cls = screen.getByTestId("vial").className;
+    expect(cls).toMatch(/cursor-pointer/);
+    expect(cls).toMatch(/hover:scale/);
   });
 });

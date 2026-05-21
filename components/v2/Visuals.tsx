@@ -126,6 +126,12 @@ export function ProductVisual({
 }) {
   return (
     <div className={`product-shot${small ? " product-shot-sm" : ""}`}>
+      {/* Intentional <img> usage: ProductVisual scales freely across grid + carousel
+          surfaces with dynamic aspect ratios driven by CSS rather than width/height
+          attrs that <Image> requires. Loading is lazy + sourced from public/ static
+          assets so LCP impact is minimal. Phase 10 may revisit for next/image where
+          known-bounds container exists. */}
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img src={item.image} alt={`${item.shortName} vial`} loading="lazy" />
     </div>
   );

@@ -61,6 +61,13 @@ export interface SendEmailInput {
     | "refund-confirmation"
     | "qualification-receipt"
     | "magic-link";
+  /**
+   * Schedule the email for future delivery via Resend's scheduledAt API.
+   * Must be an ISO 8601 timestamp (e.g. "2026-08-05T11:52:01.858Z"). When
+   * omitted, Resend sends immediately. Used by the welcome sequence
+   * dispatcher (audit H8) to defer Emails 2/3/4.
+   */
+  scheduledAt?: string;
 }
 
 export interface SendEmailResult {
@@ -79,9 +86,12 @@ export async function sendEmail(
     `research@${process.env.BRAND_DOMAIN ?? "vialchemlabs.net"}`;
 
   if (!client) {
+    const scheduledSuffix = input.scheduledAt
+      ? `:sched:${input.scheduledAt}`
+      : "";
     return {
       ok: true,
-      id: `stub:${input.tag ?? "untagged"}:${Date.now()}`,
+      id: `stub:${input.tag ?? "untagged"}:${Date.now()}${scheduledSuffix}`,
       stub: true,
     };
   }
@@ -94,6 +104,7 @@ export async function sendEmail(
     html: input.html,
     replyTo: input.replyTo,
     tags: input.tag ? [{ name: "category", value: input.tag }] : undefined,
+    scheduledAt: input.scheduledAt,
   });
 
   if (result.error) {

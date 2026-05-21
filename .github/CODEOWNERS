@@ -1,0 +1,54 @@
+# vialchemlabs — CODEOWNERS
+#
+# Iron Law 2.5/2.19 — protected paths require operator review.
+# Iron Law 2.25/2.40 — visual-regression baseline + LOCKED_OVERRIDE doc
+# require operator review.
+# Iron Law 2.26/2.37 — brand-expression LOCKED state changes require
+# operator review.
+#
+# Branch protection enforces "Require review from Code Owners" on the
+# paths below before merge.
+
+# Default — operator-only review on anything not otherwise matched.
+*                                                       @endegenaassefa
+
+# PROTECTED PATHS — Iron Law 2.5/2.19
+/lib/payments/                                          @endegenaassefa
+/lib/compliance.ts                                      @endegenaassefa
+/lib/compliance/                                        @endegenaassefa
+/lib/customer-qualification.ts                          @endegenaassefa
+/lib/attestations.ts                                    @endegenaassefa
+/lib/content/products.ts                                @endegenaassefa
+/lib/content/product-descriptions.ts                    @endegenaassefa
+/lib/sentry.ts                                          @endegenaassefa
+/app/checkout/review/ReviewPanel.tsx                    @endegenaassefa
+/components/ui/Vial.tsx                                 @endegenaassefa
+
+# VISUAL REGRESSION BASELINE — Iron Law 2.25/2.40
+/tests/e2e/visual-regression.spec.ts                    @endegenaassefa
+/tests/e2e/visual-regression.spec.ts-snapshots/         @endegenaassefa
+
+# LOCKED OVERRIDE protocol — Iron Law 2.26/2.37
+/docs/DECISIONS/                                        @endegenaassefa
+
+# CI / deploy infrastructure — Iron Law 2.27/2.35
+/.github/                                               @endegenaassefa
+/.husky/                                                @endegenaassefa
+/vercel.json                                            @endegenaassefa
+/lighthouserc.cjs                                       @endegenaassefa
+/scripts/setup-branch-protection.sh                     @endegenaassefa
+/scripts/check-canonical-domain.sh                      @endegenaassefa
+/scripts/check-dns-resolution.sh                        @endegenaassefa
+/scripts/grep-mogtrix.sh                                @endegenaassefa
+/scripts/grep-forbidden-words.sh                        @endegenaassefa
+/scripts/supply-chain-scan.sh                           @endegenaassefa
+
+# Database schema — operator change-review required
+/supabase/migrations/                                   @endegenaassefa
+
+# Audit + checkpoint artifacts — read-only history; operator confirms additions
+/docs/audit/                                            @endegenaassefa
+/docs/checkpoints/                                      @endegenaassefa
+
+# WordPress preview stack — operator-side configuration
+/wordpress/                                             @endegenaassefa

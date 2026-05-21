@@ -12,6 +12,12 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // v5 Phase 7 additions: test/coverage/wordpress preview stack
+    "coverage/**",
+    ".lighthouseci/**",
+    "playwright-report/**",
+    "test-results/**",
+    "wordpress/**",
   ]),
 ]);
 

@@ -82,7 +82,6 @@ const familyBySlug = new Map<string, string>([
   ["cjc-1295-ipamorelin-5mg", "Blend"],
   ["sermorelin-2mg", "Secretagogue"],
   ["sermorelin-5mg", "Secretagogue"],
-  ["tesamorelin-5mg", "Secretagogue"],
   ["ghrp-2-5mg", "Secretagogue"],
   ["ghrp-6-5mg", "Secretagogue"],
   ["hexarelin-2mg", "Secretagogue"],
@@ -92,14 +91,9 @@ const familyBySlug = new Map<string, string>([
   ["dsip-5mg", "Neuropeptide"],
   ["mots-c-10mg", "Metabolic peptide"],
   ["nad-500mg", "Metabolic peptide"],
-  ["klow-80mg", "Metabolic peptide"],
-  ["reta-10mg", "Metabolic peptide"],
-  ["tirz-25mg", "Metabolic peptide"],
   ["epitalon-50mg", "Metabolic peptide"],
   ["epitalon-10mg", "Metabolic peptide"],
   ["aod-9604-5mg", "Metabolic peptide"],
-  ["pt-141-10mg", "Research peptide"],
-  ["melanotan-ii-10mg", "Research peptide"],
   ["kisspeptin-10-10mg", "Research peptide"],
   ["thymosin-alpha-1-5mg", "Research peptide"],
   ["thymosin-alpha-1-10mg", "Research peptide"],
@@ -116,11 +110,11 @@ function catalogFamily(product: Product) {
 }
 
 const bundleImageBySlug: Record<string, string> = {
-  "glow-stack": "vialchemlabs_glow-stack_suggested-169.png",
-  "longevity-stack": "vialchemlabs_longevity-stack_suggested-179.png",
-  "neuro-stack": "vialchemlabs_neuro-stack_suggested-69.png",
+  "dermal-research-triple": "vialchemlabs_glow-stack_suggested-169.png",
+  "longevity-triple": "vialchemlabs_longevity-stack_suggested-179.png",
+  "nootropic-pair": "vialchemlabs_neuro-stack_suggested-69.png",
   "recovery-stack": "vialchemlabs_recovery-stack_suggested-129.png",
-  "wolverine-stack": "vialchemlabs_wolverine-stack_suggested-99.png",
+  "recovery-pair": "vialchemlabs_wolverine-stack_suggested-99.png",
 };
 
 export function productImagePath(slug: string) {

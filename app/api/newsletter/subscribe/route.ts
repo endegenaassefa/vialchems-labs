@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server";
+import * as Sentry from "@sentry/nextjs";
 import { z } from "zod";
+import { rateLimitByIp } from "@/lib/rate-limit";
 import { isProductionRuntime } from "@/lib/runtime-env";
+import { captureException } from "@/lib/sentry";
 
 /**
  * Newsletter subscribe stub.
@@ -12,6 +15,8 @@ import { isProductionRuntime } from "@/lib/runtime-env";
  * The promo code WELCOME15 is the default 15% off first-order code per
  * SUPER_PROMPT_v3 Appendix E intro promo + Appendix K Email 4. Real generation
  * (per-email unique codes) lands when Phase 10 wires Supabase + Resend.
+ *
+ * Iron Law 2.34: anti-abuse gate at the head of the handler (5 req / 300s per IP).
  */
 
 const subscribeSchema = z.object({
@@ -20,7 +25,43 @@ const subscribeSchema = z.object({
 
 export const dynamic = "force-dynamic";
 
+function getClientIp(request: Request): string {
+  return (
+    request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ??
+    request.headers.get("x-real-ip") ??
+    "unknown"
+  );
+}
+
 export async function POST(request: Request) {
+  Sentry.addBreadcrumb({
+    category: "webhook",
+    level: "info",
+    message: "newsletter_subscribe_entry",
+    data: { route: "newsletter" },
+  });
+
+  const ip = getClientIp(request);
+  const limit = rateLimitByIp("newsletter", ip);
+  if (!limit.success) {
+    return NextResponse.json(
+      {
+        ok: false,
+        error: "rate_limited",
+        retryAfter: limit.retryAfterSeconds,
+      },
+      {
+        status: 429,
+        headers: {
+          "Retry-After": String(limit.retryAfterSeconds),
+          "X-RateLimit-Limit": String(limit.limit),
+          "X-RateLimit-Remaining": "0",
+          "X-RateLimit-Reset": String(limit.reset),
+        },
+      },
+    );
+  }
+
   const contentType = request.headers.get("content-type") ?? "";
 
   let email: string | null = null;
@@ -90,6 +131,9 @@ export async function POST(request: Request) {
       await dispatcher.dispatchWelcomeSequence({ email, subscriptionId });
     }
   } catch (error) {
+    captureException(error, {
+      tags: { route: "newsletter", provider: "resend" },
+    });
     if (isProductionRuntime()) {
       return NextResponse.json(
         {

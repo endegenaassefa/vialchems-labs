@@ -56,7 +56,7 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "Why is the catalog smaller than competitors?",
-    a: "VialChem Labs keeps a focused live catalog to maintain compliance simplicity, COA pipeline integrity, and operational reliability. Current live records include BPC-157 10mg, TB-500 10mg, GHK-Cu 50mg, CJC-1295 + Ipamorelin 5mg, KLOW 80mg, KPV 500mcg, MOTS-c 10mg, Semax 10mg, Selank 10mg, Reta 10mg, Tirz 25mg, and NAD+ 500mg. Non-live materials are handled by custom request.",
+    a: "VialChem Labs keeps a focused live catalog to maintain compliance simplicity, COA pipeline integrity, and operational reliability. Representative live records include BPC-157 10mg, TB-500 10mg, GHK-Cu 50mg, CJC-1295 + Ipamorelin 5mg, KPV 500mcg, MOTS-c 10mg, Semax 10mg, Selank 10mg, and NAD+ 500mg. Non-live materials are handled by custom request.",
   },
   {
     q: "Can I request a material that is not in stock?",
@@ -76,7 +76,7 @@ export const faqEntries: FaqEntry[] = [
   },
   {
     q: "Do you offer bulk discounts?",
-    a: "Volume discounts are not currently offered. Bundle pricing is available on the BPC/TB Reference Set at $77 (12.5% effective discount).",
+    a: "Volume discounts are not currently offered. Bundle pricing is available on the Recovery Pair at $99 (25.6% effective discount).",
   },
   {
     q: "What is the affiliate program?",

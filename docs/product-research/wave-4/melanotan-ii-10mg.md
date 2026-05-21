@@ -1,3 +1,25 @@
+---
+locked_exclusion: true
+iron_law: 2.7
+reason: "Active FDA enforcement target (DOJ peptide-pleas + FDA warning letter target). Melanocortin-receptor agonist not approved for any human use in US."
+locked_at: 2026-05-20
+locked_at_sha: 2de7c04c
+removed_from_catalog: v5.0.0
+operator_override_doc: docs/DECISIONS/locked_override_2026-05-20.md
+---
+
+> **LOCKED EXCLUSION — DO NOT SHIP**
+>
+> This compound is on the Iron Law 2.7 perpetual carve-out list (extended via Iron Law 2.29 in v5.0).
+> Research documentation retained for analytical context only.
+> Source SKU was removed from catalog in v5.0.0 (per `docs/DECISIONS/locked_override_2026-05-20.md`).
+>
+> **Iron Law 2.29 short-code obfuscation guard:** This document MUST NOT introduce the compound by a shortened nickname (`Reta`, `Tirz`, `Sema`, etc.) or as a constituent of a multi-compound blend marketed under a different name. Future audits will flag any such introduction as a CRITICAL bypass.
+>
+> **To override:** Commit `docs/DECISIONS/iron_law_2_7_override_<YYYY-MM-DD>.md` with legal opinion attached and per-SKU justification. The override must be operator-signed and reference this banner.
+
+---
+
 # Melanotan II 10mg Product Research
 
 ## Proposed Product Fields

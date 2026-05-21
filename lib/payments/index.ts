@@ -28,6 +28,8 @@ export {
   isTerminalStatus,
   resetReconciliationLedger,
   getReconciliationLedger,
+  assertOrderJurisdictionAllowed,
+  JurisdictionalGuardError,
   type ReconcileResult,
 } from "./reconciliation";
 

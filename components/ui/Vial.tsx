@@ -30,12 +30,22 @@
  *   - 2.26 — palette + label composition unchanged; only refinement.
  *   - 2.27 — SVG-only (no raster, no QR library Day-1); zero JS bundle cost
  *     beyond the existing component code.
+ *   - 2.29 — DOUBLE-GATE (Phase 2.4 / v5.0): assertCompoundAllowed now applies
+ *     TWO gates. (1) catalog allowlist (existing): compound must be in
+ *     products.ts / bundles. (2) static blocklist (NEW): compound must NOT
+ *     match BANNED_COMPOUNDS in lib/compliance/banned-compounds.ts. Audit C5
+ *     + supplemental S1 demonstrated catalog-only gating is insufficient
+ *     (operator added shortName='Reta'/'Tirz'/'KLOW' → catalog gate auto-
+ *     allowed them). The blocklist gate is LAST-LINE defense and overrides
+ *     any future catalog membership of a banned compound.
+ *   - SCANNER_OK: reviewed-and-cso-passed (PROTECTED PATH — Iron Law 2.5/2.19).
  */
 "use client";
 
 import { useCallback, useState, type HTMLAttributes, type Ref } from "react";
 import { cn } from "@/lib/utils";
 import { products, bundles } from "@/lib/content/products";
+import { isBannedCompound } from "@/lib/compliance/banned-compounds";
 
 export type VialSize = "sm" | "md" | "lg" | "xl" | "2xl";
 
@@ -78,21 +88,61 @@ const sizeClasses: Record<VialSize, string> = {
   "2xl": "w-28 h-64",
 };
 
-// Iron Law 2.7 enforcement via catalog whitelist.
+// Iron Law 2.7 / 2.29 — DOUBLE-GATE compound enforcement.
+//
+// GATE 1: catalog allowlist (auto-derived from products.ts + bundles).
+// GATE 2: static blocklist (LAST-LINE defense from lib/compliance/banned-compounds.ts).
+//
+// Audit C5 STILL-APPLIES + supplemental S1 confirmed: catalog auto-derive is
+// insufficient — an operator who adds shortName='Reta' (or any banned compound)
+// to products.ts would auto-allow it through gate 1. The blocklist gate refuses
+// any banned compound regardless of catalog membership.
+//
+// Operator override path: commit docs/DECISIONS/iron_law_2_7_override_<date>.md
+// with legal opinion attached + per-SKU justification before removing the
+// compound from banned-compounds.ts.
 const allowedCompounds: ReadonlySet<string> = new Set([
   ...products.map((p) => p.shortName.toLowerCase()),
   ...bundles.map((b) => b.name.toLowerCase()),
 ]);
 
 function assertCompoundAllowed(compound: string): void {
-  const normalized = compound.trim().toLowerCase();
+  const trimmed = (compound ?? "").trim();
+
+  // Pre-gate: empty/whitespace input is structurally malformed.
+  if (!trimmed) {
+    throw new Error(
+      `Iron Law 2.7 violation: compound name must be non-empty. ` +
+        `Vial cannot render an unlabeled SKU; pass a catalog-validated ` +
+        `compound short-name (lib/content/products.ts).`,
+    );
+  }
+
+  const normalized = trimmed.toLowerCase();
+
+  // GATE 1 — catalog allowlist (membership in products + bundles).
   if (!allowedCompounds.has(normalized)) {
     throw new Error(
       `Iron Law 2.7 violation: compound "${compound}" is not in the LOCKED ` +
         `vialchemlabs catalog (lib/content/products.ts). The catalog ` +
         `enforces the perpetual ban on ITC-GEO and FDA-enforcement-priority ` +
         `compounds (see lib/content/products.ts comment header for the ` +
-        `complete posture).`,
+        `complete posture). To add: commit the SKU + run catalog-safety tests.`,
+    );
+  }
+
+  // GATE 2 — Iron Law 2.29 static blocklist (LAST-LINE defense — overrides
+  // catalog). Audit C5 + supplemental S1: even if a banned compound is added
+  // back to products.ts, this gate refuses. The blocklist is the source-of-
+  // truth for Iron Law 2.7 PERPETUAL bans; operator override requires
+  // docs/DECISIONS/iron_law_2_7_override_<date>.md.
+  if (isBannedCompound(trimmed)) {
+    throw new Error(
+      `Iron Law 2.29 violation: compound "${compound}" is on the LOCKED ` +
+        `banned-compound blocklist (lib/compliance/banned-compounds.ts). ` +
+        `Even if added to products.ts, this compound cannot render. To ` +
+        `override: commit docs/DECISIONS/iron_law_2_7_override_<date>.md ` +
+        `with legal opinion attached.`,
     );
   }
 }
@@ -162,7 +212,14 @@ export function Vial({
 }: VialProps) {
   const [clickRotation, setClickRotation] = useState(0);
 
-  if (withLabel && compound) {
+  // Iron Law 2.7 / 2.29 — validate compound at every render where the prop is
+  // provided, regardless of withLabel. Pre-Phase-2.4 gated only on
+  // `withLabel && compound` (audit C5: structural gap allowed an unlabeled
+  // vial with a banned-compound prop value to render). The double-gate
+  // assertCompoundAllowed (catalog + blocklist) now fires whenever a compound
+  // prop is supplied. Renders without the `compound` prop (graphic-only vials)
+  // bypass validation as before.
+  if (compound !== undefined) {
     assertCompoundAllowed(compound);
   }
 

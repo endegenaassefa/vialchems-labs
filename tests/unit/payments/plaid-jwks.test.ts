@@ -45,20 +45,20 @@ function makeES256KeyPair() {
 }
 
 /**
- * Phase 10.4 (v4) — D9 Plaid HMAC → JWKS migration.
+ * Phase 10.4 (v4) → Phase 3.1 (v5) — Plaid HMAC → JWKS migration.
  *
- * The helper verifies Plaid's webhook JWT against a fetched JWKS. Day-1
- * still defaults to HMAC (set via PLAID_VERIFICATION_MODE='hmac' or
- * unset). Production should set 'jwks'.
+ * The helper verifies Plaid's webhook JWT against a fetched JWKS. Phase
+ * 3.1 (v5) flips the default to 'jwks' to match production; 'hmac' is a
+ * legacy/sandbox fallback. Unknown modes throw.
  *
  * The unit tests below cover the mode selector + the JWT structural
- * preconditions. End-to-end JWT signature verification depends on a
- * real Plaid-issued token + JWKS fetch, which Phase 13 verifies live.
+ * preconditions. End-to-end JWT signature verification with a real
+ * Plaid-issued token + verification-key fetch lands in a later phase.
  */
 
 describe("pickVerificationMode", () => {
-  it('returns "hmac" by default', () => {
-    expect(pickVerificationMode({})).toBe("hmac");
+  it('returns "jwks" by default (Phase 3.1 v5: production-first default)', () => {
+    expect(pickVerificationMode({})).toBe("jwks");
   });
 
   it('returns "jwks" when PLAID_VERIFICATION_MODE=jwks', () => {
@@ -67,10 +67,16 @@ describe("pickVerificationMode", () => {
     );
   });
 
-  it('returns "hmac" when value is anything else', () => {
-    expect(pickVerificationMode({ PLAID_VERIFICATION_MODE: "whatever" })).toBe(
+  it('returns "hmac" when PLAID_VERIFICATION_MODE=hmac (legacy/sandbox)', () => {
+    expect(pickVerificationMode({ PLAID_VERIFICATION_MODE: "hmac" })).toBe(
       "hmac",
     );
+  });
+
+  it("throws on unknown PLAID_VERIFICATION_MODE values", () => {
+    expect(() =>
+      pickVerificationMode({ PLAID_VERIFICATION_MODE: "whatever" }),
+    ).toThrow(/PLAID_VERIFICATION_MODE|verification.?mode/i);
   });
 });
 

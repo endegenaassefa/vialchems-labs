@@ -1,14 +1,21 @@
 /**
  * Catalog seed metadata.
  *
- * The catalog started as a 7-SKU seed, then moved through a 16-SKU launch set.
- * The current wave expansion keeps that dynamic data model and adds
- * operator-approved SKUs plus five stack bundles with corpus-backed, RUO-only
- * descriptions.
- * Higher-sensitivity additions such as PT-141 and Tesamorelin must remain
- * identity / analytical-context listings with no human-use, dosing, protocol,
- * therapeutic, or approved-drug comparison language. Iron Law 2.11: canonical
- * names only, no obfuscated codes.
+ * History: the catalog grew through several waves (7-SKU seed → 16-SKU
+ * launch set → the current operator-approved expansion). The exact live
+ * count is whatever entries this array contains today; the FAQ
+ * intentionally avoids hard-coding a number so this file remains the
+ * single source of truth. M20 closure (Phase 8) reframed the header
+ * to stop implying the launch count is still 7-SKU.
+ *
+ * Current wave: operator-approved SKUs plus five stack bundles with
+ * corpus-backed, RUO-only descriptions.
+ *
+ * Six historically-listed SKUs (tesamorelin-5mg, pt-141-10mg, melanotan-ii-10mg,
+ * klow-80mg, reta-10mg, tirz-25mg) were REMOVED in v5.0.0 per Iron Law 2.7
+ * PERPETUAL ban (extended via Iron Law 2.29). See
+ * docs/DECISIONS/locked_override_2026-05-20.md.
+ * Iron Law 2.11: canonical names only, no obfuscated codes.
  *
  * SCANNER_OK: reviewed-and-cso-passed (PROTECTED PATH — Iron Law 2.5/2.19).
  * Each new shortDescription audited against assertMarketingCopySafe in
@@ -46,13 +53,10 @@ export const publicLaunchProductSlugs = [
   "tb-500-10mg",
   "ghk-cu-50mg",
   "cjc-1295-ipamorelin-5mg",
-  "klow-80mg",
   "kpv-500mcg",
   "mots-c-10mg",
   "semax-10mg",
   "selank-10mg",
-  "reta-10mg",
-  "tirz-25mg",
   "nad-500mg",
 ] as const;
 
@@ -345,22 +349,6 @@ export const products: Product[] = [
       "Combined-vial GH-axis research blend containing Sermorelin and Ipamorelin at 5mg each. Reference material for GHRH/GHSR pathway taxonomy, component identity, and analytical separation workflows.",
   },
   {
-    slug: "tesamorelin-5mg",
-    sku: "TESAMORELIN-5MG",
-    name: "Tesamorelin, 5mg vial",
-    shortName: "Tesamorelin",
-    dose: "5mg",
-    format: "vial",
-    listPriceCents: 6900,
-    perMgCents: 1380,
-    category: "gh-axis",
-    role: "catalog-filler",
-    position:
-      "operator-requested premium 5mg price; above captured Tesamorelin p75 and matching Raw Amino 5mg",
-    shortDescription:
-      "Synthetic GHRH analog also identified as TH9507, supplied as a 5mg lyophilized research vial. Reference material for controlled GH-axis pathway and analytical workflows.",
-  },
-  {
     slug: "igf-1-lr3-1mg",
     sku: "IGF-1-LR3-1MG",
     name: "IGF-1 LR3, 1mg vial",
@@ -485,38 +473,6 @@ export const products: Product[] = [
     position: "operator-approved live catalog price",
     shortDescription:
       "Synthetic heptapeptide derived from ACTH (4-10), supplied as a 10mg lyophilized research vial. Studied in Russian-published cell-culture and animal-model literature on neuropeptide signaling and neurotrophic-marker pathways.",
-  },
-  {
-    slug: "pt-141-10mg",
-    sku: "PT-141-10MG",
-    name: "PT-141, 10mg vial",
-    shortName: "PT-141",
-    dose: "10mg",
-    format: "vial",
-    listPriceCents: 5900,
-    perMgCents: 590,
-    category: "nootropic",
-    role: "catalog-filler",
-    position:
-      "operator-requested premium above captured PT-141 p75; sensitive SKU, not price-led",
-    shortDescription:
-      "PT-141 (Bremelanotide) synthetic cyclic heptapeptide melanocortin-receptor research reference supplied as a 10mg lyophilized vial. For receptor-binding, peptide-identity, and analytical workflow contexts only.",
-  },
-  {
-    slug: "melanotan-ii-10mg",
-    sku: "MELANOTAN-II-10MG",
-    name: "Melanotan II, 10mg vial",
-    shortName: "Melanotan II",
-    dose: "10mg",
-    format: "vial",
-    listPriceCents: 5900,
-    perMgCents: 590,
-    category: "nootropic",
-    role: "catalog-filler",
-    position:
-      "operator-requested premium above captured Melanotan II p75; sensitive melanocortin-receptor SKU, documentation-led listing",
-    shortDescription:
-      "Melanotan II synthetic cyclic heptapeptide alpha-MSH analog supplied as a 10mg lyophilized research vial. Reference material for melanocortin receptor binding, peptide identity, HPLC/LC-MS, and comparative analytical workflows.",
   },
   {
     slug: "kisspeptin-10-10mg",
@@ -703,51 +659,6 @@ export const products: Product[] = [
       "Synthetic growth-hormone-derived peptide fragment supplied as a 5mg lyophilized research vial. Reference material for lipid-metabolism pathway, peptide-identity, and analytical workflow contexts.",
   },
   {
-    slug: "klow-80mg",
-    sku: "KLOW-80MG",
-    name: "KLOW, 80mg vial",
-    shortName: "KLOW",
-    dose: "80mg",
-    format: "vial",
-    listPriceCents: 10000,
-    perMgCents: 125,
-    category: "metabolic",
-    role: "catalog-filler",
-    position: "operator-approved live catalog price",
-    shortDescription:
-      "KLOW research material supplied as an 80mg lyophilized vial. Reference material for identity, purity, batch comparison, and analytical workflow contexts.",
-  },
-  {
-    slug: "reta-10mg",
-    sku: "RETA-10MG",
-    name: "Reta, 10mg vial",
-    shortName: "Reta",
-    dose: "10mg",
-    format: "vial",
-    listPriceCents: 9900,
-    perMgCents: 990,
-    category: "metabolic",
-    role: "catalog-filler",
-    position: "operator-approved live catalog price",
-    shortDescription:
-      "Reta research reference supplied as a 10mg lyophilized vial. Cataloged for peptide identity, purity review, batch comparison, and analytical workflow contexts.",
-  },
-  {
-    slug: "tirz-25mg",
-    sku: "TIRZ-25MG",
-    name: "Tirz, 25mg vial",
-    shortName: "Tirz",
-    dose: "25mg",
-    format: "vial",
-    listPriceCents: 10000,
-    perMgCents: 400,
-    category: "metabolic",
-    role: "catalog-filler",
-    position: "operator-approved live catalog price",
-    shortDescription:
-      "Tirz research reference supplied as a 25mg lyophilized vial. Cataloged for peptide identity, purity review, batch comparison, and analytical workflow contexts.",
-  },
-  {
     slug: "checkout-verification-1usd",
     sku: "CHECKOUT-VERIFY-1USD",
     name: "Checkout Verification, 1 unit",
@@ -776,9 +687,9 @@ export const bundles: Bundle[] = [
       "Single-vial RUO set labeled with BPC-157 10mg, TB-500 10mg, and KPV 10mg. Built around component identity, canonical naming, and batch-led analytical documentation.",
   },
   {
-    slug: "glow-stack",
-    sku: "BUNDLE-GLOW-STACK",
-    name: "Copper Matrix Set",
+    slug: "dermal-research-triple",
+    sku: "BUNDLE-DERMAL-RESEARCH-TRIPLE",
+    name: "Dermal Research Triple",
     constituents: ["GHK-CU-50MG", "TB-500-10MG", "BPC-157-10MG"],
     listPriceCents: 16900,
     effectiveDiscountPct: 23.9,
@@ -786,9 +697,9 @@ export const bundles: Bundle[] = [
       "Single-vial RUO set labeled with GHK-Cu 50mg, TB-500 10mg, and BPC-157 10mg. Framed around component identity, batch traceability, and analytical review.",
   },
   {
-    slug: "wolverine-stack",
-    sku: "BUNDLE-WOLVERINE-STACK",
-    name: "BPC/TB Reference Set",
+    slug: "recovery-pair",
+    sku: "BUNDLE-RECOVERY-PAIR",
+    name: "Recovery Pair",
     constituents: ["BPC-157-10MG", "TB-500-10MG"],
     listPriceCents: 9900,
     effectiveDiscountPct: 25.6,
@@ -796,9 +707,9 @@ export const bundles: Bundle[] = [
       "Single-vial RUO set labeled with BPC-157 10mg and TB-500 10mg. Presented as a two-component reference material with batch-led analytical documentation.",
   },
   {
-    slug: "neuro-stack",
-    sku: "BUNDLE-NEURO-STACK",
-    name: "Neuropeptide Reference Set",
+    slug: "nootropic-pair",
+    sku: "BUNDLE-NOOTROPIC-PAIR",
+    name: "Nootropic Pair",
     constituents: ["SEMAX-10MG", "SELANK-10MG"],
     listPriceCents: 6900,
     effectiveDiscountPct: 28.9,
@@ -806,9 +717,9 @@ export const bundles: Bundle[] = [
       "Single-vial RUO set labeled with Semax 10mg and Selank 10mg. Built for ACTH-fragment and tuftsin-derived peptide identity, component comparison, and batch-led analytical documentation workflows.",
   },
   {
-    slug: "longevity-stack",
-    sku: "BUNDLE-LONGEVITY-STACK",
-    name: "Mitochondrial Reference Set",
+    slug: "longevity-triple",
+    sku: "BUNDLE-LONGEVITY-TRIPLE",
+    name: "Longevity Triple",
     constituents: ["MOTS-C-10MG", "EPITALON-10MG", "NAD-500MG"],
     listPriceCents: 17900,
     effectiveDiscountPct: 13.5,

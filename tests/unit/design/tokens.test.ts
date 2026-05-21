@@ -6,52 +6,67 @@ import {
   radius,
   motion,
   zIndex,
+  shadows,
+  gradients,
   tokens,
 } from "@/lib/design/tokens";
 
 /**
- * Phase 1 (v4) — Design System Elevation: Tokens.
+ * v5 — Design System Tokens (light clinical theme per LOCKED_OVERRIDE).
  *
- * These tests enforce two contracts:
+ * Asserts:
+ *   (a) Iron Law 2.21 + 2.26/2.37 — tokens mirror app/globals.css :root,
+ *       which ships the v5 LOCKED light theme per
+ *       docs/DECISIONS/locked_override_2026-05-20.md. The dark→light
+ *       migration is an authorized LOCKED_OVERRIDE; values below are the
+ *       NEW LOCKED canonical (no longer the v3/v4 dark+teal).
+ *   (b) Iron Law 2.27 — text contrast values pre-verified WCAG AA on
+ *       cream #fafaf7 background.
+ *   (c) Phase 1 v4 additions exist with the expected shape: shadows,
+ *       surfaceElevated, accentDeep, gradients, spacing 7xl/8xl, radius.pill.
  *
- *   (a) Iron Law 2.21 — design tokens are additive-only, no breaking renames.
- *       Every existing v3.0 token stays exactly as it was.
- *
- *   (b) Phase 1 v4 additions exist with the expected shape: shadows,
- *       surfaceElevated, accentDeep, gradients, spacing 7xl/8xl, radius.pill,
- *       and component-tier + vial + label tokens (mirrored as CSS vars).
- *
- * Source-of-truth values for new tokens are documented inline. Mirror block
- * lives in app/globals.css.
+ * Source-of-truth values: app/globals.css :root (runtime authority);
+ * lib/design/tokens.ts mirrors for JS-driven consumers (recharts, pdf-lib,
+ * motion timings, etc.).
  */
 
-describe("design tokens (Iron Law 2.21 — additive-only)", () => {
-  describe("existing v3.0 tokens (regression prevention — no renames, no value changes)", () => {
-    it("colors keep their v3.0 values verbatim", () => {
-      // Per lib/design/tokens.ts (v1.0.0). Any drift here is an Iron Law 2.21 violation.
-      expect(colors.bg).toBe("#0a0e0f");
-      expect(colors.surface).toBe("#141a1c");
-      expect(colors.surfaceStrong).toBe("#1a2226");
-      expect(colors.surfaceMuted).toBe("rgba(20, 26, 28, 0.6)");
-      expect(colors.accent).toBe("#3dd4c8");
-      expect(colors.accentSoft).toBe("#5eebdf");
-      expect(colors.accentGlow).toBe("#7ff1e8");
-      expect(colors.text).toBe("rgba(255, 255, 255, 0.92)");
-      expect(colors.textMuted).toBe("rgba(255, 255, 255, 0.62)");
-      // Phase 11.2 (v4) — bumped from 0.42 to 0.55 for WCAG AA contrast.
-      // Iron Law 2.27 a11y gate trumps the literal-values interpretation of
-      // 2.21 (which forbids RENAMES, not value tightening for a11y).
-      expect(colors.textSubtle).toBe("rgba(255, 255, 255, 0.55)");
-      expect(colors.border).toBe("#1f2a2e");
-      expect(colors.borderStrong).toBe("#2a3a40");
-      expect(colors.electric).toBe("#67e8f9");
-      expect(colors.pillAccent).toBe("#3dd4c8");
-      expect(colors.pillInfo).toBe("#5eebdf");
-      expect(colors.pillElectric).toBe("#67e8f9");
-      expect(colors.pillError).toBe("#f87171");
+describe("design tokens (v5 LOCKED light theme — Iron Law 2.26/2.37 amendment)", () => {
+  describe("colors (v5 light clinical — mirrors app/globals.css :root)", () => {
+    it("surfaces use the cream + white scale (light theme)", () => {
+      expect(colors.bg).toBe("#fafaf7");
+      expect(colors.surface).toBe("#ffffff");
+      expect(colors.surfaceStrong).toBe("#f4f4f0");
+      expect(colors.surfaceMuted).toBe("rgba(244, 244, 240, 0.7)");
+      expect(colors.surfaceElevated).toBe("#ffffff");
     });
 
-    it("typography stack + scale + tracking unchanged", () => {
+    it("brand accents use the cyan-navy palette (v5 LOCKED)", () => {
+      expect(colors.accent).toBe("#0f3a5f"); // primary deep navy
+      expect(colors.accentSoft).toBe("#e8f7fb"); // accent tint
+      expect(colors.accentGlow).toBe("#06b6d4"); // cyan high-key
+      expect(colors.accentDeep).toBe("#082842"); // pressed
+      expect(colors.electric).toBe("#06b6d4");
+    });
+
+    it("text contrast pre-verified WCAG AA on cream background", () => {
+      expect(colors.text).toBe("#0a0e14"); // 17:1 on #fafaf7
+      expect(colors.textMuted).toBe("#4d5663"); // 7.1:1
+      expect(colors.textSubtle).toBe("#6b7280"); // 4.8:1 (just clears AA)
+    });
+
+    it("borders use hairline-only scale", () => {
+      expect(colors.border).toBe("#e6e4dc");
+      expect(colors.borderStrong).toBe("#c9c6bb");
+    });
+
+    it("status pills paired with text per A11y rules", () => {
+      expect(colors.pillAccent).toBe("#0f3a5f");
+      expect(colors.pillInfo).toBe("#06b6d4");
+      expect(colors.pillElectric).toBe("#06b6d4");
+      expect(colors.pillError).toBe("#b3261e");
+    });
+
+    it("typography stack + scale + tracking unchanged from v3/v4", () => {
       expect(typography.sans).toBe("IBM Plex Sans, system-ui, sans-serif");
       expect(typography.mono).toBe("IBM Plex Mono, ui-monospace, monospace");
       expect(typography.serifItalic).toBe(
@@ -116,64 +131,44 @@ describe("design tokens (Iron Law 2.21 — additive-only)", () => {
     });
   });
 
-  describe("Phase 1 v4 additions — shadows", () => {
-    it("exports a shadows token category with sm/md/lg/xl/2xl", async () => {
-      const tokensModule = await import("@/lib/design/tokens");
-      expect(tokensModule.shadows).toBeDefined();
-      expect(tokensModule.shadows.sm).toMatch(/^0 1px 2px 0 rgba\(0, 0, 0, /);
-      expect(tokensModule.shadows.md).toMatch(
-        /^0 4px 12px -2px rgba\(0, 0, 0, /,
-      );
-      expect(tokensModule.shadows.lg).toMatch(
-        /^0 12px 32px -4px rgba\(0, 0, 0, /,
-      );
-      expect(tokensModule.shadows.xl).toMatch(
-        /^0 24px 64px -12px rgba\(0, 0, 0, /,
-      );
-      expect(tokensModule.shadows["2xl"]).toMatch(
-        /^0 32px 96px -16px rgba\(0, 0, 0, /,
-      );
+  describe("Phase 1 v4 additions — shadows (v5 light-theme opacity ramp)", () => {
+    it("shadows use light-theme low-opacity navy tinting (was dark-theme black ramp)", () => {
+      // v5 amendment: opacity ramp from 0.06→0.16 (light) vs 0.32→0.7 (dark)
+      // because shadows must read as depth on cream #fafaf7 without becoming
+      // dirty/muddy. Navy tint (15, 58, 95) gives subtle "cool depth" feel.
+      expect(shadows.sm).toMatch(/^0 1px 2px 0 rgba\(15, 58, 95, /);
+      expect(shadows.md).toMatch(/^0 4px 12px -2px rgba\(15, 58, 95, /);
+      expect(shadows.lg).toMatch(/^0 12px 32px -4px rgba\(15, 58, 95, /);
+      expect(shadows.xl).toMatch(/^0 24px 64px -12px rgba\(15, 58, 95, /);
+      expect(shadows["2xl"]).toMatch(/^0 32px 96px -16px rgba\(15, 58, 95, /);
     });
 
-    it("shadows are exposed via the unified tokens object", async () => {
-      const tokensModule = await import("@/lib/design/tokens");
-      expect(tokensModule.tokens.shadows).toBe(tokensModule.shadows);
+    it("shadows are exposed via the unified tokens object", () => {
+      expect(tokens.shadows).toBe(shadows);
     });
   });
 
   describe("Phase 1 v4 additions — surfaceElevated + accentDeep", () => {
-    it("colors.surfaceElevated sits between surfaceStrong and a hypothetical brighter floor", () => {
-      // Used for hover/active states one step above surface-strong.
-      // Value chosen on the dark-mode value ramp; documented in app/globals.css.
+    it("colors.surfaceElevated exists for hover/active surfaces", () => {
       expect(colors).toHaveProperty("surfaceElevated");
-      expect((colors as { surfaceElevated: string }).surfaceElevated).toMatch(
-        /^#[0-9a-f]{6}$/i,
-      );
+      expect(colors.surfaceElevated).toMatch(/^#[0-9a-f]{6}$/i);
     });
 
-    it("colors.accentDeep sits one step deeper than accent (#3dd4c8) for pressed states", () => {
+    it("colors.accentDeep sits deeper than accent for pressed states", () => {
       expect(colors).toHaveProperty("accentDeep");
-      expect((colors as { accentDeep: string }).accentDeep).toMatch(
-        /^#[0-9a-f]{6}$/i,
-      );
-      // Smoke check: not equal to accent itself
-      expect((colors as { accentDeep: string }).accentDeep).not.toBe(
-        colors.accent,
-      );
+      expect(colors.accentDeep).toMatch(/^#[0-9a-f]{6}$/i);
+      expect(colors.accentDeep).not.toBe(colors.accent);
     });
   });
 
-  describe("Phase 1 v4 additions — gradients", () => {
-    it("exports a gradients token category with heroAtmospheric + accentRadial", async () => {
-      const tokensModule = await import("@/lib/design/tokens");
-      expect(tokensModule.gradients).toBeDefined();
-      expect(tokensModule.gradients.heroAtmospheric).toContain(
-        "radial-gradient",
+  describe("Phase 1 v4 additions — gradients (v5 light-theme cyan-navy mix)", () => {
+    it("gradients use cyan + navy at very low opacity (light-theme ambient)", () => {
+      expect(gradients.heroAtmospheric).toContain("radial-gradient");
+      // v5 amendment: cyan/navy tints replace the dark-theme teal tints
+      expect(gradients.heroAtmospheric).toMatch(
+        /rgba\(6, 182, 212|rgba\(15, 58, 95/,
       );
-      expect(tokensModule.gradients.heroAtmospheric).toContain(
-        "rgba(61, 212, 200",
-      );
-      expect(tokensModule.gradients.accentRadial).toContain("radial-gradient");
+      expect(gradients.accentRadial).toContain("radial-gradient");
     });
   });
 
@@ -194,10 +189,9 @@ describe("design tokens (Iron Law 2.21 — additive-only)", () => {
     });
   });
 
-  describe("Phase 1 v4 additions — unified tokens object includes new categories", () => {
-    it("tokens.shadows + tokens.gradients are exposed alongside existing categories", async () => {
-      const tokensModule = await import("@/lib/design/tokens");
-      expect(tokensModule.tokens).toMatchObject({
+  describe("unified tokens object exposes all categories", () => {
+    it("tokens.shadows + tokens.gradients alongside existing categories", () => {
+      expect(tokens).toMatchObject({
         colors: expect.any(Object),
         typography: expect.any(Object),
         spacing: expect.any(Object),
@@ -207,6 +201,18 @@ describe("design tokens (Iron Law 2.21 — additive-only)", () => {
         shadows: expect.any(Object),
         gradients: expect.any(Object),
       });
+    });
+  });
+
+  describe("v3/v4 dark-theme migration (Iron Law 2.26 LOCKED_OVERRIDE artifact)", () => {
+    it("colors.bg is NO LONGER the v3/v4 dark charcoal #0a0e0f", () => {
+      // Post-LOCKED_OVERRIDE 2026-05-20, the v3/v4 LOCKED dark+teal palette
+      // is migrated to v5 light+cyan-navy. This test asserts the regression
+      // direction: a future revert without explicit LOCKED_OVERRIDE doc
+      // would break this assertion and require operator review per Iron
+      // Law 2.26 + 2.37.
+      expect(colors.bg).not.toBe("#0a0e0f");
+      expect(colors.accent).not.toBe("#3dd4c8");
     });
   });
 });

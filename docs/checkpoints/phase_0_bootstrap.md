@@ -33,7 +33,7 @@ Verify environment, load manifest, detect tooling, establish new project directo
 | Plaid    | STUB      | `PLAID_ENV=sandbox`, all keys stub                                                     |
 | BTCPay   | STUB      | URL stub; payment adapter falls back to deterministic mock (`PAYMENT_PROVIDER=stub`)   |
 | LLC      | TBD       | `LLC_NAME=vialchemlabs LLC (TBD)`, `LLC_JURISDICTION=Wyoming` (default)                |
-| GitHub   | LIVE      | Authenticated as `endegenaassefa` (gh 2.90.0)                                          |
+| GitHub   | LIVE      | Authenticated as `<operator-github>` (gh 2.90.0)                                       |
 | Vercel   | INSTALLED | CLI 53.2.0 (linking deferred to Phase 14)                                              |
 
 Operator action required before public launch: replace every stub with real credentials. See `docs/operator-runbook.md` (generated in Phase 11).
@@ -73,7 +73,15 @@ Operator action required before public launch: replace every stub with real cred
     └── superpowers/plans/     (empty, populated in Phase 2)
 ```
 
-Git committer identity: `vialchemlabs <ak47abhinav47@gmail.com>` (configured in this repo only).
+Git committer identity: `vialchemlabs <<operator-email-redacted>>` (configured in this repo only).
+
+> **Phase 6 redaction note (2026-05-20):** Original committer email was an operator
+> personal gmail; redacted from this checkpoint per Appendix U.5 LLC-isolation +
+> Iron Law 2.22. Historical git-commit metadata (commits before Phase 6) retains
+> the original committer; future commits should use the operator's ops@ alias
+> (`vialchemlabs-ops <ops@vialchemlabs.net>`) per `docs/DECISIONS/locked_override_2026-05-20.md`
+> Operator-hygiene section. Rewriting historical commit metadata would require a
+> destructive force-push and is intentionally deferred (Iron Law 2.6 protocol).
 
 ## Iron Laws acknowledged (all 17)
 

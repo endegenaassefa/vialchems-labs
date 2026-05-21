@@ -29,9 +29,32 @@ shape).
 
 ## Test 1 — BTCPay $1 invoice
 
+**Two recommended paths — pick one:**
+
+**Path A (preferred, true $1):** Use the dedicated
+`checkout-verification-1usd` SKU shipped in `lib/content/products.ts`
+(slug: `checkout-verification-1usd`, list price: $1.00, gated to
+ADMIN_ORDER_EMAILS-only at the cart layer). This SKU exists specifically
+so the operator can place a true $1.00 invoice end-to-end without
+touching the customer-facing catalog or applying refunds afterwards.
+
+**Path B (full-price + refund):** Place an order against any production
+SKU (e.g., `bpc-157-10mg`), let the chain complete, then immediately
+issue a refund from the BTCPay store dashboard (Invoices → select →
+Refund). The full-price path exercises the real discount math but
+leaves a refund row in the BTCPay ledger; reconcile against the
+`payments` table once the refund clears.
+
+The framing matters: nothing about the chain depends on the dollar
+amount — both paths exercise webhook → reconcile → audit_log →
+order-confirmation-email — but Path A keeps the operator wallet
+balance accounting cleaner.
+
 ### Step 1: place a test order
 
-1. Visit `https://vialchemlabs.net/products/bpc-157-10mg`
+1. Visit `https://vialchemlabs.net/products/<verification SKU slug>`
+   (Path A: `checkout-verification-1usd`; Path B: any production SKU
+   such as `bpc-157-10mg`)
 2. Add to cart
 3. Proceed to checkout — fill the address with a real-looking but
    non-blocked state (e.g., Washington, Oregon, Colorado)
@@ -45,15 +68,12 @@ to a Vercel-served `/checkout/confirm` page with a BTCPay invoice link.
 ### Step 2: pay the invoice
 
 Click the BTCPay-provided checkout link. The BTCPay invoice page shows
-the BTC + LTC payment-method tabs. Pay $1 USD-equivalent from your
-wallet.
+the BTC + LTC payment-method tabs. Pay the displayed USD-equivalent
+total from your wallet.
 
-(The order total will be the real product price — you are not paying
-$1 literally; you're paying the real price for one item. If you'd
-prefer a true $1 test, temporarily set up a $1 SKU in
-`lib/content/products.ts`, ship a hotfix, run this test, then revert.
-The full-price path is recommended because it exercises the real
-discount math.)
+(Path A: that's $1.00 literally. Path B: the real product price —
+not "$1 USD-equivalent" as earlier copy implied. The original "$1
+invoice" headline only fits Path A.)
 
 ### Step 3: verify the chain
 

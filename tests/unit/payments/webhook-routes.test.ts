@@ -24,6 +24,7 @@ const ORIGINAL_ENV = {
   PLAID_CLIENT_ID: process.env.PLAID_CLIENT_ID,
   PLAID_SECRET: process.env.PLAID_SECRET,
   PLAID_WEBHOOK_VERIFICATION_KEY: process.env.PLAID_WEBHOOK_VERIFICATION_KEY,
+  PLAID_VERIFICATION_MODE: process.env.PLAID_VERIFICATION_MODE,
 };
 
 function setEnv(): void {
@@ -34,6 +35,9 @@ function setEnv(): void {
   process.env.PLAID_CLIENT_ID = "real_client";
   process.env.PLAID_SECRET = "real_secret";
   process.env.PLAID_WEBHOOK_VERIFICATION_KEY = PLAID_KEY;
+  // Phase 3.1 (v5): the integration tests below sign with HMAC. JWKS is the
+  // new production default, so we pin HMAC for this legacy integration flow.
+  process.env.PLAID_VERIFICATION_MODE = "hmac";
 }
 
 function restoreEnv(): void {
@@ -119,11 +123,20 @@ describe("POST /api/payments/btcpay/webhook", () => {
   });
 
   it("200s + applies on a verified settled invoice", async () => {
+    // B3: Layer 3 jurisdictional guard now fails closed for credit-bearing
+    // intents with unresolvable addresses. Production resolution path is
+    // metadata.order_id → Supabase orders.shipping_address_snapshot, but
+    // this unit test doesn't mock Supabase. Inject shipping_country/state
+    // via the cheap-path metadata so the guard can validate inline.
     const body = JSON.stringify({
       type: "InvoiceSettled",
       invoiceId: "inv_1",
       status: "Settled",
-      metadata: { intentId: "pi_1" },
+      metadata: {
+        intentId: "pi_1",
+        shipping_country: "US",
+        shipping_state: "WA",
+      },
     });
     const res = await btcpayPOST(
       makeRequest("http://test/api/payments/btcpay/webhook", body, {
@@ -141,7 +154,11 @@ describe("POST /api/payments/btcpay/webhook", () => {
       type: "InvoiceSettled",
       invoiceId: "inv_1",
       status: "Settled",
-      metadata: { intentId: "pi_dupe" },
+      metadata: {
+        intentId: "pi_dupe",
+        shipping_country: "US",
+        shipping_state: "WA",
+      },
     });
     const sig = btcpaySign(body);
     const first = await btcpayPOST(
@@ -194,11 +211,17 @@ describe("POST /api/payments/plaid/webhook", () => {
   });
 
   it("200s + applies on verified TRANSFER:POSTED", async () => {
+    // B3: see btcpay test above — inject shipping_country/state for the
+    // cheap-path Layer 3 resolution.
     const body = JSON.stringify({
       webhook_type: "TRANSFER",
       webhook_code: "POSTED",
       transfer_id: "tr_1",
-      metadata: { intentId: "pi_77" },
+      metadata: {
+        intentId: "pi_77",
+        shipping_country: "US",
+        shipping_state: "WA",
+      },
     });
     const res = await plaidPOST(
       makeRequest("http://test/api/payments/plaid/webhook", body, {
@@ -221,7 +244,11 @@ describe("POST /api/payments/plaid/webhook", () => {
       webhook_type: "TRANSFER",
       webhook_code: "POSTED",
       transfer_id: "tr_1",
-      metadata: { intentId: "pi_dupe" },
+      metadata: {
+        intentId: "pi_dupe",
+        shipping_country: "US",
+        shipping_state: "WA",
+      },
     });
     const sig = plaidSign(body);
     const first = await plaidPOST(

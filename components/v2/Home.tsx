@@ -65,9 +65,9 @@ function Hero() {
             VIALCHEMLABS.NET · RESEARCH USE ONLY
           </div>
           <h1 style={{ marginBottom: 24 }}>
-            Research-grade peptides,{" "}
+            Counted, weighed,{" "}
             <em style={{ fontStyle: "normal", color: "var(--fg-muted)" }}>
-              shipped with the COA.
+              verified.
             </em>
           </h1>
           <p

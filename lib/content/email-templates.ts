@@ -103,7 +103,7 @@ Each product page includes:
   - Research-context description with animal-model and in-vitro citations
   - Storage and reconstitution guidance
 
-If your research focus is structural-model materials, our BPC-157 10mg + TB-500 5mg research set is bundled at $77 (12.5% effective discount).
+If your research focus is structural-model materials, our BPC-157 10mg + TB-500 10mg + KPV 10mg Structural Model Set is bundled at $129 (36.1% effective discount).
 
 ${siteConfig.name} Team
 ${FOOTER}`,

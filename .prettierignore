@@ -1,0 +1,18 @@
+# Prettier ignore — preserve verbatim formatting for audit + research material
+docs/audit/
+docs/product-research/
+docs/research/
+docs/checkpoints/
+docs/DECISIONS/
+docs/superpowers/
+audit/
+test-reports/
+wordpress/local/
+*.min.css
+*.min.js
+coverage/
+.next/
+.lighthouseci/
+playwright-report/
+test-results/
+node_modules/
