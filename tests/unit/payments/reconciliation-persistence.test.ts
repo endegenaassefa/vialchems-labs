@@ -30,23 +30,36 @@ const paymentsInsertMock = vi.fn();
 const paymentsSelectMock = vi.fn();
 const paymentsEqMock = vi.fn();
 const paymentsMaybeSingleMock = vi.fn();
+const paymentsUpdateMock = vi.fn();
+const paymentsUpdateEqMock = vi.fn();
 const orderHistoryInsertMock = vi.fn();
+const ordersSelectMock = vi.fn();
+const ordersEqMock = vi.fn();
+const ordersMaybeSingleMock = vi.fn();
 
 const fromMock = vi.fn((table: string) => {
   if (table === "payments") {
     return {
       insert: paymentsInsertMock,
       select: paymentsSelectMock,
+      update: paymentsUpdateMock,
     };
   }
   if (table === "order_status_history") {
     return { insert: orderHistoryInsertMock };
+  }
+  if (table === "orders") {
+    return { select: ordersSelectMock };
   }
   throw new Error(`unexpected table: ${table}`);
 });
 
 const fakeSupabase = { from: fromMock };
 let serviceClientReturn: typeof fakeSupabase | null = fakeSupabase;
+let lastUpdateResult: { error: unknown; data: unknown } = {
+  error: null,
+  data: null,
+};
 
 vi.mock("@/lib/supabase", () => ({
   serviceSupabase: () => serviceClientReturn,
@@ -89,11 +102,16 @@ function resetSupabaseMocks(): void {
   paymentsSelectMock.mockReset();
   paymentsEqMock.mockReset();
   paymentsMaybeSingleMock.mockReset();
+  paymentsUpdateMock.mockReset();
+  paymentsUpdateEqMock.mockReset();
   orderHistoryInsertMock.mockReset();
+  ordersSelectMock.mockReset();
+  ordersEqMock.mockReset();
+  ordersMaybeSingleMock.mockReset();
   fromMock.mockClear();
 
   // Default-happy: payments insert succeeds with no error; order_status_history
-  // insert succeeds. Read path returns no existing row.
+  // insert succeeds. Read paths return no existing row.
   paymentsInsertMock.mockResolvedValue({ error: null, data: null });
   orderHistoryInsertMock.mockResolvedValue({ error: null, data: null });
   paymentsMaybeSingleMock.mockResolvedValue({ data: null, error: null });
@@ -102,6 +120,28 @@ function resetSupabaseMocks(): void {
     maybeSingle: paymentsMaybeSingleMock,
   }));
   paymentsSelectMock.mockReturnValue({ eq: paymentsEqMock });
+
+  // B2: update().eq().eq() chain. Each .eq() returns a thenable chain that
+  // resolves to lastUpdateResult so a single test can override the resolved
+  // value before invoking reconcile().
+  lastUpdateResult = { error: null, data: null };
+  const updateChain = {
+    eq: paymentsUpdateEqMock,
+    then(resolve: (v: typeof lastUpdateResult) => unknown) {
+      return Promise.resolve(lastUpdateResult).then(resolve);
+    },
+  };
+  paymentsUpdateEqMock.mockImplementation(() => updateChain);
+  paymentsUpdateMock.mockReturnValue(updateChain);
+
+  // B1: orders.select('total_cents').eq('id', uuid).maybeSingle() returns null
+  // by default; tests opt in to hydration by setting ordersMaybeSingleMock
+  // explicitly.
+  ordersMaybeSingleMock.mockResolvedValue({ data: null, error: null });
+  ordersEqMock.mockImplementation(() => ({
+    maybeSingle: ordersMaybeSingleMock,
+  }));
+  ordersSelectMock.mockReturnValue({ eq: ordersEqMock });
 }
 
 describe("JurisdictionalGuardError barrel export (audit M23)", () => {
@@ -302,8 +342,35 @@ describe("reconcile() durable layer guardrails", () => {
     expect(orderHistoryInsertMock).not.toHaveBeenCalled();
   });
 
-  it("skips durable write when amountCents is 0 (BTCPay events sometimes have it populated downstream)", async () => {
-    const intent = makeIntent("pi_zero_1", "paid", { amountCents: 0 });
+  it("B1: hydrates amountCents from orders.total_cents when intent.amountCents is 0", async () => {
+    // BTCPay (btcpay.ts:350) and Plaid (plaid.ts:483) intentionally emit
+    // amountCents=0 because the authoritative amount lives in the order row.
+    // The reconciler MUST hydrate from orders.total_cents before persisting,
+    // otherwise the durable layer is silently skipped and cross-instance
+    // idempotency collapses to in-memory only.
+    ordersMaybeSingleMock.mockResolvedValueOnce({
+      data: { total_cents: 7250 },
+      error: null,
+    });
+
+    const intent = makeIntent("pi_b1_hydrate_1", "paid", { amountCents: 0 });
+    const result = await reconcile(intent);
+
+    expect(result.applied).toBe(true);
+    expect(paymentsInsertMock).toHaveBeenCalledTimes(1);
+    const inserted = paymentsInsertMock.mock.calls[0]?.[0] as Record<
+      string,
+      unknown
+    >;
+    expect(inserted.amount_cents).toBe(7250);
+  });
+
+  it("B1: skips durable write when amountCents is 0 AND order row cannot be hydrated", async () => {
+    // Defensive: if the orders row is missing or has zero total, we cannot
+    // satisfy the payments.amount_cents check (> 0), so skip the durable
+    // write rather than throw. Cache still tracks state.
+    ordersMaybeSingleMock.mockResolvedValueOnce({ data: null, error: null });
+    const intent = makeIntent("pi_b1_skip_1", "paid", { amountCents: 0 });
     const result = await reconcile(intent);
     expect(result.applied).toBe(true);
     expect(paymentsInsertMock).not.toHaveBeenCalled();
@@ -348,22 +415,103 @@ describe("reconcile() durable layer guardrails", () => {
     expect(inserted.method_details.external_id).toBeNull();
   });
 
-  it("forward transition (pending -> paid) returns already_processed when peer wrote credit row first", async () => {
+  it("forward transition (pending -> paid) returns already_processed when peer wrote credit row at the SAME target status", async () => {
     // First call (pending) succeeds normally.
     await reconcile(makeIntent("pi_race_1", "pending"));
     expect(paymentsInsertMock).toHaveBeenCalledTimes(1);
 
-    // Forward transition to paid: simulate peer-already-wrote on the
-    // payments table for the same (provider, provider_intent_id).
+    // Forward transition to paid: simulate peer already wrote at status=paid.
+    // Insert collides (23505); SELECT returns existing row already at "paid";
+    // no UPDATE needed → reason="already_processed".
     paymentsInsertMock.mockResolvedValueOnce({
       error: { code: "23505", message: "duplicate key value" },
       data: null,
+    });
+    paymentsMaybeSingleMock.mockResolvedValueOnce({
+      data: { status: "paid" },
+      error: null,
     });
     const result = await reconcile(makeIntent("pi_race_1", "paid"));
     expect(result.applied).toBe(false);
     expect(result.reason).toBe("already_processed");
     expect(result.fromStatus).toBe("pending");
     expect(result.toStatus).toBe("paid");
+    // No UPDATE should have fired — peer already had the row at the target.
+    expect(paymentsUpdateMock).not.toHaveBeenCalled();
+  });
+});
+
+describe("reconcile() — B2 update-on-conflict (paid orders must not stick in pending)", () => {
+  beforeEach(() => {
+    resetReconciliationLedger();
+    resetSupabaseMocks();
+    serviceClientReturn = fakeSupabase;
+  });
+
+  it("B2: when checkout already inserted the row at pending, reconcile(paid) UPDATES the row to paid", async () => {
+    // Production scenario: app/api/checkout/orders/route.ts already wrote a
+    // payments row with provider_intent_id at status='pending' (line 352).
+    // When the webhook later reconciles with status='paid', the INSERT path
+    // hits 23505 — the OLD code just returned "duplicate" and the pending
+    // row stayed pending forever. The fix MUST follow up with an UPDATE
+    // and report applied=true so the order actually transitions.
+    paymentsInsertMock.mockResolvedValueOnce({
+      error: { code: "23505", message: "duplicate key value" },
+      data: null,
+    });
+    paymentsMaybeSingleMock.mockResolvedValueOnce({
+      data: { status: "pending" },
+      error: null,
+    });
+
+    const intent = makeIntent("pi_b2_pending_to_paid", "paid");
+    const result = await reconcile(intent);
+
+    expect(result.applied).toBe(true);
+    expect(result.reason).toBe("applied_paid");
+    expect(paymentsUpdateMock).toHaveBeenCalledTimes(1);
+    const updatePayload = paymentsUpdateMock.mock.calls[0]?.[0] as Record<
+      string,
+      unknown
+    >;
+    expect(updatePayload.status).toBe("paid");
+    expect(updatePayload.amount_cents).toBe(4590);
+    expect(orderHistoryInsertMock).toHaveBeenCalledTimes(1);
+  });
+
+  it("B2: when row exists at authorized and intent is paid, reconcile UPDATES to paid", async () => {
+    paymentsInsertMock.mockResolvedValueOnce({
+      error: { code: "23505", message: "duplicate key value" },
+      data: null,
+    });
+    paymentsMaybeSingleMock.mockResolvedValueOnce({
+      data: { status: "authorized" },
+      error: null,
+    });
+
+    const intent = makeIntent("pi_b2_auth_to_paid", "paid");
+    const result = await reconcile(intent);
+
+    expect(result.applied).toBe(true);
+    expect(paymentsUpdateMock).toHaveBeenCalledTimes(1);
+  });
+
+  it("B2: surfaces UPDATE errors so Sentry can capture them", async () => {
+    paymentsInsertMock.mockResolvedValueOnce({
+      error: { code: "23505", message: "duplicate key value" },
+      data: null,
+    });
+    paymentsMaybeSingleMock.mockResolvedValueOnce({
+      data: { status: "pending" },
+      error: null,
+    });
+    lastUpdateResult = {
+      error: { code: "08006", message: "connection_failure" },
+      data: null,
+    };
+
+    const intent = makeIntent("pi_b2_update_err", "paid");
+    await expect(reconcile(intent)).rejects.toThrow(/payments_update_failed/);
   });
 });
 
