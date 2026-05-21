@@ -9,6 +9,7 @@
 import type { CSSProperties, HTMLAttributes } from "react";
 import { cn } from "@/lib/utils";
 import { bundles, products } from "@/lib/content/products";
+import { isBannedCompound } from "@/lib/compliance/banned-compounds";
 
 export interface VialProductPhotoProps extends HTMLAttributes<HTMLDivElement> {
   compound: string;
@@ -23,10 +24,27 @@ const allowedCompounds: ReadonlySet<string> = new Set([
 ]);
 
 function assertCompoundAllowed(compound: string): void {
-  const normalized = compound.trim().toLowerCase();
+  const trimmed = (compound ?? "").trim();
+  const normalized = trimmed.toLowerCase();
+
+  // GATE 1 — catalog allowlist (membership in products + bundles).
   if (!allowedCompounds.has(normalized)) {
     throw new Error(
       `Compound "${compound}" is not in the VialChem Labs catalog.`,
+    );
+  }
+
+  // GATE 2 — Iron Law 2.29 static blocklist (LAST-LINE defense — overrides
+  // catalog). Codex B4: VialProductPhoto previously skipped this gate, leaving
+  // the Iron Law 2.7 PERPETUAL ban claim partially false. Mirrors the
+  // identical check in Vial.tsx so every render surface enforces both gates.
+  if (isBannedCompound(trimmed)) {
+    throw new Error(
+      `Iron Law 2.29 violation: compound "${compound}" is on the LOCKED ` +
+        `banned-compound blocklist (lib/compliance/banned-compounds.ts). ` +
+        `Even if added to products.ts, this compound cannot render. To ` +
+        `override: commit docs/DECISIONS/iron_law_2_7_override_<date>.md ` +
+        `with legal opinion attached.`,
     );
   }
 }
