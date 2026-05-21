@@ -220,4 +220,38 @@ describe("verifyPlaidJwt structural preconditions", () => {
     expect(result.verified).toBe(false);
     if (!result.verified) expect(result.reason).toBe("body_hash_mismatch");
   });
+
+  /**
+   * C4 (Phase 14, codex): require `iat` present. Pre-fix, the iat expiry
+   * check only fires when `decoded.payload.iat !== undefined`. If Plaid (or
+   * an attacker) omits iat from a payload, the replay window is unlimited —
+   * a captured webhook can be replayed indefinitely. Require iat present;
+   * missing iat → expired.
+   */
+  it("C4: rejects when iat is missing from JWT payload (unbounded replay window)", async () => {
+    const rawBody = "body";
+    const bodyHash = crypto.createHash("sha256").update(rawBody).digest("hex");
+    const header = Buffer.from(
+      JSON.stringify({ alg: "ES256", kid: "abc" }),
+    ).toString("base64url");
+    const claims = Buffer.from(
+      JSON.stringify({
+        request_body_sha256: bodyHash,
+        // NOTE: iat intentionally omitted
+      }),
+    ).toString("base64url");
+    const jwt = `${header}.${claims}.signature`;
+    const result = await verifyPlaidJwt({
+      rawBody,
+      jwtHeader: jwt,
+      jwksFetcher: vi.fn().mockResolvedValue({
+        kty: "EC",
+        crv: "P-256",
+        x: "placeholder",
+        y: "placeholder",
+      }),
+    });
+    expect(result.verified).toBe(false);
+    if (!result.verified) expect(result.reason).toBe("expired");
+  });
 });

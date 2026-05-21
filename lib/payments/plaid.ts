@@ -137,23 +137,100 @@ export function verifyPlaidHmac(
 export const verifyPlaidSignature = verifyPlaidHmac;
 
 /**
- * Static JWKS fetcher built from PLAID_JWKS_KEYS env. Tests and the
- * preview environment can inject a stringified `{ kid → key }` map.
+ * JWKS fetcher with two tiers:
  *
- * Production will swap this with a live fetch against Plaid's
- * verification-key endpoint (cached) in Phase 4; for v5 first ship the
- * static-map path is wired so the codepath is no longer dead.
+ *   1. STATIC map from `PLAID_JWKS_KEYS` env (stringified `{ kid → key }`).
+ *      Tests use this; operators can use it to pin a key during incident
+ *      response if the live endpoint is degraded.
+ *
+ *   2. LIVE fetch against Plaid's `/webhook_verification_key/get` endpoint
+ *      (Phase 14, codex B5), authenticated with PLAID_CLIENT_ID + PLAID_SECRET,
+ *      cached in-memory for ~24h. Without this tier, every production Plaid
+ *      webhook fails with `jwks_fetch_failed` (the pre-Phase-14 behavior).
+ *
+ * Cache is per-process (Vercel instance). On cold-start, the first webhook
+ * for each kid pays one Plaid round-trip; subsequent webhooks short-circuit.
+ *
+ * Iron Law 2.30: webhook signature verification on ALL payment rails.
  */
-function buildJwksFetcher(env: PlaidEnv) {
+const jwksCache = new Map<string, { key: PlaidJwksKey; expiresAt: number }>();
+const JWKS_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
+
+/** Test-only: drop the cache so suites don't bleed state. */
+export function _resetPlaidJwksCacheForTests(): void {
+  jwksCache.clear();
+}
+
+export interface JwksFetcherOptions {
+  /** Override fetch for testing. Defaults to global fetch. */
+  fetchImpl?: typeof fetch;
+}
+
+// plaidBaseUrl is defined further down in this file (alongside createIntent),
+// where it has lived since Phase 3.1. Re-use it here.
+
+async function fetchAndCachePlaidKey(
+  kid: string,
+  env: PlaidEnv,
+  fetchImpl: typeof fetch,
+): Promise<PlaidJwksKey | null> {
+  const clientId = env.PLAID_CLIENT_ID;
+  const secret = env.PLAID_SECRET;
+  if (!clientId || !secret) return null;
+
+  try {
+    const res = await fetchImpl(
+      `${plaidBaseUrl(env)}/webhook_verification_key/get`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          client_id: clientId,
+          secret,
+          key_id: kid,
+        }),
+      },
+    );
+    if (!res.ok) return null;
+
+    const data = (await res.json()) as { key?: PlaidJwksKey };
+    if (!data.key) return null;
+
+    jwksCache.set(kid, {
+      key: data.key,
+      expiresAt: Date.now() + JWKS_CACHE_TTL_MS,
+    });
+    return data.key;
+  } catch {
+    return null;
+  }
+}
+
+export function buildJwksFetcher(
+  env: PlaidEnv,
+  options: JwksFetcherOptions = {},
+) {
+  const fetchImpl = options.fetchImpl ?? fetch;
   return async (kid: string): Promise<PlaidJwksKey | null> => {
+    // Tier 1: static map.
     const raw = env.PLAID_JWKS_KEYS;
-    if (!raw) return null;
-    try {
-      const map = JSON.parse(raw) as Record<string, PlaidJwksKey>;
-      return map[kid] ?? null;
-    } catch {
-      return null;
+    if (raw) {
+      try {
+        const map = JSON.parse(raw) as Record<string, PlaidJwksKey>;
+        if (map[kid]) return map[kid];
+      } catch {
+        // Malformed JSON — fall through to live fetch.
+      }
     }
+
+    // Tier 2: in-memory cache from a previous live fetch.
+    const cached = jwksCache.get(kid);
+    if (cached && Date.now() < cached.expiresAt) {
+      return cached.key;
+    }
+
+    // Tier 3: live fetch + cache.
+    return fetchAndCachePlaidKey(kid, env, fetchImpl);
   };
 }
 

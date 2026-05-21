@@ -67,6 +67,18 @@ vi.mock("@/lib/supabase", () => ({
   _resetSupabaseCachesForTests: () => {},
 }));
 
+// C5 (Phase 14): reconcile() captures history-row failures to Sentry instead
+// of throwing. Mock captureException so tests can assert the soft-fail path.
+// vi.hoisted because vi.mock is hoisted above this file's top-level decls.
+const { captureExceptionMock } = vi.hoisted(() => ({
+  captureExceptionMock: vi.fn(),
+}));
+vi.mock("@/lib/sentry", () => ({
+  captureException: captureExceptionMock,
+  captureMessage: vi.fn(),
+  beforeSend: vi.fn(),
+}));
+
 // Imports MUST be after the vi.mock call so the alias resolves to the mock.
 import {
   reconcile,
@@ -108,6 +120,7 @@ function resetSupabaseMocks(): void {
   ordersSelectMock.mockReset();
   ordersEqMock.mockReset();
   ordersMaybeSingleMock.mockReset();
+  captureExceptionMock.mockReset();
   fromMock.mockClear();
 
   // Default-happy: payments insert succeeds with no error; order_status_history
@@ -386,15 +399,40 @@ describe("reconcile() durable layer guardrails", () => {
     expect(paymentsInsertMock).not.toHaveBeenCalled();
   });
 
-  it("surfaces order_status_history insert errors", async () => {
+  it("C5: order_status_history insert errors are captured to Sentry, NOT thrown (payment write preserved)", async () => {
+    // Pre-Phase-14 bug: history-insert failure threw, causing webhook to
+    // return 500. Provider retried; second delivery hit 23505 on payments
+    // (already inserted), code returned "duplicate" without re-attempting
+    // the history insert → permanent forensic gap. Phase 14 C5 fix: capture
+    // to Sentry but do NOT throw; the payment row is the durable
+    // correctness primitive, history is observability.
     orderHistoryInsertMock.mockResolvedValueOnce({
       error: { code: "08006", message: "history_db_down" },
       data: null,
     });
-    const intent = makeIntent("pi_hist_err", "paid");
-    await expect(reconcile(intent)).rejects.toThrow(
+    const intent = makeIntent("pi_c5_hist_err", "paid");
+
+    const result = await reconcile(intent);
+
+    expect(result.applied).toBe(true);
+    expect(captureExceptionMock).toHaveBeenCalledTimes(1);
+    const [capturedErr, capturedCtx] = captureExceptionMock.mock.calls[0] ?? [];
+    expect((capturedErr as Error).message).toMatch(
       /order_status_history_persist_failed/,
     );
+    expect((capturedCtx as { tags?: Record<string, string> })?.tags).toEqual(
+      expect.objectContaining({
+        route: "payments_reconcile",
+        provider: "btcpay",
+      }),
+    );
+  });
+
+  it("C5: history insert succeeds → captureException NOT called (happy path)", async () => {
+    const intent = makeIntent("pi_c5_hist_ok", "paid");
+    const result = await reconcile(intent);
+    expect(result.applied).toBe(true);
+    expect(captureExceptionMock).not.toHaveBeenCalled();
   });
 
   it("populates method_details.external_id as null when intent.externalId is undefined", async () => {
