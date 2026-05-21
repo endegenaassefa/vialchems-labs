@@ -217,3 +217,75 @@ describe("assertOrderJurisdictionAllowed — B3 credit-bearing fail-closed", () 
     ).resolves.toBeUndefined();
   });
 });
+
+/**
+ * B3-followup (codex re-review of c943e0c6 / 2026-05-21): the new
+ * credit-bearing fail-closed behavior amplifies a pre-existing gap in
+ * `/api/create-bitcoin-order`. That route doesn't create a database orders
+ * row at invoice-creation time — shipping address is captured at the
+ * `/bitcoin/receipt` step. So the BTCPay invoice it creates has no
+ * `order_id` UUID metadata, and after the B3 fix every legit Settled
+ * webhook on those invoices 403s.
+ *
+ * Fix: allow intents to mark themselves explicitly as "address capture
+ * deferred to a downstream receipt route" via metadata. The guard skips
+ * with a Sentry breadcrumb. The downstream receipt route remains the
+ * authoritative Layer 3 enforcement point (it gets the address via
+ * request payload and calls the guard with an address-like input).
+ */
+describe("assertOrderJurisdictionAllowed — B3-followup deferred-address marker", () => {
+  beforeEach(() => {
+    resetReconciliationLedger();
+    resetSupabaseMocks();
+  });
+
+  it("does NOT throw for paid intent with metadata.address_capture_deferred=true (bitcoin-direct fallback flow)", async () => {
+    serviceClientReturn = null;
+
+    const intent = makeIntent("paid", {
+      source: "vialchemlabs-main-site",
+      address_capture_deferred: "true",
+    });
+
+    await expect(
+      assertOrderJurisdictionAllowed(intent),
+    ).resolves.toBeUndefined();
+  });
+
+  it("does NOT throw for authorized intent with address_capture_deferred=true", async () => {
+    serviceClientReturn = null;
+
+    const intent = makeIntent("authorized", {
+      address_capture_deferred: "true",
+    });
+
+    await expect(
+      assertOrderJurisdictionAllowed(intent),
+    ).resolves.toBeUndefined();
+  });
+
+  it("STILL throws for paid intent without the deferred marker (B3 unchanged)", async () => {
+    serviceClientReturn = null;
+
+    const intent = makeIntent("paid", {
+      databaseOrderId: "uuid-but-no-canonical-order-id-or-deferred-flag",
+    });
+
+    await expect(assertOrderJurisdictionAllowed(intent)).rejects.toBeInstanceOf(
+      JurisdictionalGuardError,
+    );
+  });
+
+  it("deferred marker must be exactly 'true' (typo or wrong-type does not bypass)", async () => {
+    serviceClientReturn = null;
+
+    for (const wrongValue of ["yes", "1", "True", ""]) {
+      const intent = makeIntent("paid", {
+        address_capture_deferred: wrongValue,
+      });
+      await expect(
+        assertOrderJurisdictionAllowed(intent),
+      ).rejects.toBeInstanceOf(JurisdictionalGuardError);
+    }
+  });
+});

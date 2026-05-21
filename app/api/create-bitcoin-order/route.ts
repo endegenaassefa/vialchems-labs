@@ -226,6 +226,12 @@ export async function POST(request: Request): Promise<Response> {
         itemCount: String(
           resolvedLines.lines.reduce((sum, line) => sum + line.qty, 0),
         ),
+        // B3-followup: shipping address is captured at `/bitcoin/receipt`,
+        // not at invoice creation. Mark the intent so the Layer 3 guard at
+        // the BTCPay webhook does not fail-close on the missing order_id /
+        // unresolvable address — the receipt route is the authoritative
+        // jurisdiction enforcement point for this flow.
+        address_capture_deferred: "true",
       },
     });
 

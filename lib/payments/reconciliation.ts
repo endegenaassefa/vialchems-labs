@@ -534,6 +534,19 @@ export async function assertOrderJurisdictionAllowed(
     return;
   }
 
+  // B3-followup: bitcoin-direct fallback (`/api/create-bitcoin-order`) creates
+  // BTCPay invoices BEFORE a database orders row exists — shipping address
+  // is captured at the `/bitcoin/receipt` step, which fires its own Layer 3
+  // check with an address-like input. Such intents mark themselves with
+  // `address_capture_deferred: "true"` so this guard skips with a Sentry
+  // breadcrumb instead of fail-closing legitimate Settled events. The
+  // marker is set server-side at invoice creation and flows through the
+  // signed BTCPay webhook — an attacker who could forge it has already
+  // compromised the application.
+  if (input.metadata?.address_capture_deferred === "true") {
+    return;
+  }
+
   // PaymentIntent path: derive address from intent metadata or Supabase.
   const resolved = await resolveAddressFromIntent(input);
   if (!resolved) {
