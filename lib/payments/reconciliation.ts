@@ -103,7 +103,12 @@ const SUPABASE_PROVIDER_ALLOWLIST: ReadonlySet<PaymentProviderId> = new Set([
 type PersistOutcome =
   | { kind: "applied" }
   | { kind: "duplicate" }
-  | { kind: "skipped" };
+  | { kind: "skipped" }
+  | {
+      kind: "invalid_transition";
+      fromStatus: PaymentStatus;
+      toStatus: PaymentStatus;
+    };
 
 /**
  * Attempt to insert the reconciled state into Supabase `payments`. The
@@ -207,7 +212,21 @@ async function persistToSupabase(
         return { kind: "duplicate" };
       }
 
-      // Status differs — apply the transition via UPDATE.
+      // B2-followup (codex re-review): enforce the same transition graph
+      // the in-process path uses. A cold-started instance with an empty
+      // ledger would otherwise let a delayed `failed` / `pending` webhook
+      // downgrade an already-`paid` durable row via this UPDATE path.
+      // Reject invalid transitions here too — durable source of truth must
+      // not regress.
+      if (!canTransition(currentStatus, intent.status)) {
+        return {
+          kind: "invalid_transition",
+          fromStatus: currentStatus,
+          toStatus: intent.status,
+        };
+      }
+
+      // Status differs AND transition is valid — apply via UPDATE.
       const { error: updateError } = await sb
         .from("payments")
         .update({
@@ -279,6 +298,26 @@ export async function reconcile(
     // Fresh intent in this process — go to durable layer first so we can
     // distinguish "this is the first credit ever" from "a peer beat us".
     const persisted = await persistToSupabase(intent);
+    if (persisted.kind === "invalid_transition") {
+      // B2-followup: durable row exists at a status that does not permit
+      // intent.status as a forward transition (e.g. cold-start instance
+      // receives a delayed `failed` webhook for a `paid` durable row).
+      // Hydrate the cache with the true durable status so subsequent
+      // in-process webhooks short-circuit correctly, then return the
+      // invalid_transition signal upstream.
+      ledger.set(intent.id, {
+        intentId: intent.id,
+        status: persisted.fromStatus,
+        updatedAt: intent.updatedAt,
+        applied: 1,
+      });
+      return {
+        applied: false,
+        reason: "invalid_transition",
+        fromStatus: persisted.fromStatus,
+        toStatus: persisted.toStatus,
+      };
+    }
     if (persisted.kind === "duplicate") {
       // Cold-start hydration: a peer instance wrote this payment row.
       // Mirror its state into the cache so subsequent in-process webhooks
@@ -325,6 +364,23 @@ export async function reconcile(
 
   // Valid forward transition — persist + apply.
   const persisted = await persistToSupabase(intent);
+  if (persisted.kind === "invalid_transition") {
+    // Durable layer disagrees with the in-process transition graph:
+    // Supabase has the row at a status that doesn't permit intent.status.
+    // Hydrate the cache with the durable truth and surface the rejection.
+    ledger.set(intent.id, {
+      intentId: intent.id,
+      status: persisted.fromStatus,
+      updatedAt: intent.updatedAt,
+      applied: existing.applied + 1,
+    });
+    return {
+      applied: false,
+      reason: "invalid_transition",
+      fromStatus: persisted.fromStatus,
+      toStatus: persisted.toStatus,
+    };
+  }
   if (persisted.kind === "duplicate") {
     return {
       applied: false,

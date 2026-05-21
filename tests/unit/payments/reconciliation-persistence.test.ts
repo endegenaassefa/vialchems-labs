@@ -513,6 +513,89 @@ describe("reconcile() — B2 update-on-conflict (paid orders must not stick in p
     const intent = makeIntent("pi_b2_update_err", "paid");
     await expect(reconcile(intent)).rejects.toThrow(/payments_update_failed/);
   });
+
+  /**
+   * B2-followup (codex re-review of 5bb0e464): the 0f85c288 UPDATE path on
+   * 23505 collision did NOT enforce canTransition(). On a cold-start Vercel
+   * instance (empty in-memory ledger), a delayed `failed` or `pending`
+   * webhook for an already-`paid` intent would slip past the in-memory
+   * transition guard, hit the durable INSERT, get 23505, find the existing
+   * `paid` row, see status differs, and UPDATE durable status from `paid`
+   * to `failed`. Source-of-truth corruption. The fix: enforce
+   * canTransition() on the durable-conflict path before UPDATEing.
+   */
+  it("B2-followup: rejects durable downgrade (cold-start + Supabase has paid + delayed failed webhook)", async () => {
+    paymentsInsertMock.mockResolvedValueOnce({
+      error: { code: "23505", message: "duplicate key value" },
+      data: null,
+    });
+    paymentsMaybeSingleMock.mockResolvedValueOnce({
+      data: { status: "paid" },
+      error: null,
+    });
+
+    const intent = makeIntent("pi_b2_followup_downgrade", "failed");
+    const result = await reconcile(intent);
+
+    expect(result.applied).toBe(false);
+    expect(result.reason).toBe("invalid_transition");
+    expect(result.fromStatus).toBe("paid");
+    expect(result.toStatus).toBe("failed");
+    expect(paymentsUpdateMock).not.toHaveBeenCalled();
+  });
+
+  it("B2-followup: rejects durable downgrade paid → pending", async () => {
+    paymentsInsertMock.mockResolvedValueOnce({
+      error: { code: "23505", message: "duplicate key value" },
+      data: null,
+    });
+    paymentsMaybeSingleMock.mockResolvedValueOnce({
+      data: { status: "paid" },
+      error: null,
+    });
+
+    const intent = makeIntent("pi_b2_followup_downgrade_pending", "pending");
+    const result = await reconcile(intent);
+
+    expect(result.applied).toBe(false);
+    expect(result.reason).toBe("invalid_transition");
+    expect(paymentsUpdateMock).not.toHaveBeenCalled();
+  });
+
+  it("B2-followup: rejects refunded → paid downgrade (terminal state)", async () => {
+    paymentsInsertMock.mockResolvedValueOnce({
+      error: { code: "23505", message: "duplicate key value" },
+      data: null,
+    });
+    paymentsMaybeSingleMock.mockResolvedValueOnce({
+      data: { status: "refunded" },
+      error: null,
+    });
+
+    const intent = makeIntent("pi_b2_followup_refunded", "paid");
+    const result = await reconcile(intent);
+
+    expect(result.applied).toBe(false);
+    expect(result.reason).toBe("invalid_transition");
+    expect(paymentsUpdateMock).not.toHaveBeenCalled();
+  });
+
+  it("B2-followup: VALID transitions on cold-start still apply (pending → paid still works)", async () => {
+    paymentsInsertMock.mockResolvedValueOnce({
+      error: { code: "23505", message: "duplicate key value" },
+      data: null,
+    });
+    paymentsMaybeSingleMock.mockResolvedValueOnce({
+      data: { status: "pending" },
+      error: null,
+    });
+
+    const intent = makeIntent("pi_b2_followup_valid_transition", "paid");
+    const result = await reconcile(intent);
+
+    expect(result.applied).toBe(true);
+    expect(paymentsUpdateMock).toHaveBeenCalledTimes(1);
+  });
 });
 
 // Reference the mock helper to keep TS happy.
