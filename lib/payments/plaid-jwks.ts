@@ -127,11 +127,16 @@ export async function verifyPlaidJwt(
     return { verified: false, reason: "body_hash_mismatch" };
   }
 
+  // C4 (Phase 14, codex review): `iat` is REQUIRED. Pre-fix, the expiry
+  // check only fired when iat was defined, leaving an unbounded replay
+  // window for any payload missing iat. Plaid always includes iat in
+  // production webhooks; a payload without iat is either spoofed or
+  // malformed — reject in either case.
+  if (decoded.payload.iat === undefined) {
+    return { verified: false, reason: "expired" };
+  }
   const nowSeconds = Math.floor((input.nowMs ?? Date.now()) / 1000);
-  if (
-    decoded.payload.iat !== undefined &&
-    nowSeconds - decoded.payload.iat > MAX_AGE_SECONDS
-  ) {
+  if (nowSeconds - decoded.payload.iat > MAX_AGE_SECONDS) {
     return { verified: false, reason: "expired" };
   }
 

@@ -34,6 +34,7 @@ hits=$(
     --exclude-dir='build' \
     --exclude-dir='coverage' \
     --exclude-dir='docs' \
+    --exclude-dir='.claude' \
     'mogtrix' . 2>/dev/null \
   | grep -v '// Pattern adapted from mogtrix-' \
   | grep -v '/\* Pattern adapted from mogtrix-' \
@@ -64,6 +65,7 @@ md_hits=$(
     --exclude-dir='.next' \
     --exclude-dir='.git' \
     --exclude-dir='docs' \
+    --exclude-dir='.claude' \
     . 2>/dev/null \
   | grep -v 'grep-mogtrix' \
   | grep -v '^\./SUPER_PROMPT_' \

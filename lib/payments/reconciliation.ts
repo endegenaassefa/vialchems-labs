@@ -29,6 +29,7 @@
  */
 import { validateShippingAddress } from "@/lib/compliance/jurisdictions";
 import { serviceSupabase } from "@/lib/supabase";
+import { captureException } from "@/lib/sentry";
 import type { PaymentIntent, PaymentProviderId, PaymentStatus } from "./types";
 
 export interface ReconcileResult {
@@ -258,12 +259,18 @@ async function persistToSupabase(
         reason: "payment.reconciled.applied",
       });
     if (historyError) {
-      // The payment row is already written — that's the durable
-      // idempotency primitive. A history-row failure is observability
-      // loss, not a correctness loss. Surface to caller so Sentry (C3)
-      // can capture it, but don't unwind the payment write.
-      throw new Error(
-        `order_status_history_persist_failed: ${historyError.message}`,
+      // C5 (Phase 14, codex review): the payment row is the durable
+      // correctness primitive; the history row is observability. If history
+      // insert fails and we throw here, the webhook returns 500 → provider
+      // retries → second delivery hits 23505 on payments → returns
+      // "duplicate" → caller never re-attempts the history insert. Result:
+      // permanent forensic gap. Capture to Sentry and continue — the
+      // payment write is preserved, the observability gap is tracked.
+      captureException(
+        new Error(
+          `order_status_history_persist_failed: ${historyError.message}`,
+        ),
+        { tags: { route: "payments_reconcile", provider: intent.provider } },
       );
     }
   }
