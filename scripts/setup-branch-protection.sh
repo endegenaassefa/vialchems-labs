@@ -57,20 +57,29 @@ REVIEW_JSON='{
   "require_last_push_approval": true
 }'
 
-gh api -X PUT \
+# gh api -f passes each value as a STRING; nested-object fields
+# (required_status_checks, required_pull_request_reviews) come through as
+# JSON-shaped strings and GitHub rejects with HTTP 422 "is not an object."
+# Build the full body as JSON and pipe via --input - so nested objects
+# stay typed. (Fixed Phase 14 / 2026-05-21.)
+cat <<PAYLOAD | gh api -X PUT \
   -H "Accept: application/vnd.github+json" \
   "repos/${REPO}/branches/${BRANCH}/protection" \
-  -f "required_status_checks=${REQUIRED_CHECKS_JSON}" \
-  -F "enforce_admins=false" \
-  -f "required_pull_request_reviews=${REVIEW_JSON}" \
-  -F "restrictions=null" \
-  -F "required_linear_history=true" \
-  -F "allow_force_pushes=false" \
-  -F "allow_deletions=false" \
-  -F "block_creations=false" \
-  -F "required_conversation_resolution=true" \
-  -F "lock_branch=false" \
-  -F "allow_fork_syncing=true"
+  --input -
+{
+  "required_status_checks": ${REQUIRED_CHECKS_JSON},
+  "enforce_admins": false,
+  "required_pull_request_reviews": ${REVIEW_JSON},
+  "restrictions": null,
+  "required_linear_history": true,
+  "allow_force_pushes": false,
+  "allow_deletions": false,
+  "block_creations": false,
+  "required_conversation_resolution": true,
+  "lock_branch": false,
+  "allow_fork_syncing": true
+}
+PAYLOAD
 
 echo "Branch protection applied to ${REPO}@${BRANCH}."
 
