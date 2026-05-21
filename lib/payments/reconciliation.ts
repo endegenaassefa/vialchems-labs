@@ -140,20 +140,33 @@ async function persistToSupabase(
     return { kind: "skipped" };
   }
 
-  // amount_cents has a check (> 0) — adapters that produce zero-amount
-  // intents (e.g. some BTCPay events populate amountCents from the order
-  // row, not the event itself) would violate the check. Skip durable write
-  // rather than throw; the cache still tracks state.
-  if (!intent.amountCents || intent.amountCents <= 0) {
-    return { kind: "skipped" };
-  }
-
   // order_id is `not null references orders(id)` in the schema. Without it
-  // we can't write a payments row. Skip durable write — Phase 3 C3 will
-  // wire metadata.order_id on the upstream side.
+  // we can't write a payments row.
   const orderUuid = intent.metadata?.order_id;
   if (!orderUuid) {
     return { kind: "skipped" };
+  }
+
+  // B1: BTCPay (lib/payments/btcpay.ts:350) and Plaid (lib/payments/plaid.ts:483)
+  // intentionally emit amountCents=0 because the authoritative amount lives
+  // in the order row. Hydrate from orders.total_cents before persisting,
+  // otherwise the durable layer is silently skipped and cross-instance
+  // idempotency collapses to in-memory-only.
+  let amountCents = intent.amountCents;
+  if (!amountCents || amountCents <= 0) {
+    const { data: orderRow } = await sb
+      .from("orders")
+      .select("total_cents")
+      .eq("id", orderUuid)
+      .maybeSingle();
+    const hydrated = (orderRow as { total_cents?: number } | null)?.total_cents;
+    if (typeof hydrated === "number" && hydrated > 0) {
+      amountCents = hydrated;
+    } else {
+      // Genuine zero or missing order row — skip durable write. Cache still
+      // tracks state; surface via observability rather than throw.
+      return { kind: "skipped" };
+    }
   }
 
   const row = {
@@ -161,7 +174,7 @@ async function persistToSupabase(
     provider: intent.provider,
     provider_intent_id: providerIntentId,
     status: intent.status,
-    amount_cents: intent.amountCents,
+    amount_cents: amountCents,
     currency: intent.currency,
     method_details: {
       method: intent.method,
@@ -175,12 +188,44 @@ async function persistToSupabase(
 
   if (error) {
     if (error.code === "23505") {
-      // Cross-instance duplicate. Another worker already credited this
-      // payment. Return without mutating the cache so observable state
-      // (applied=false, reason="already_processed") matches reality.
-      return { kind: "duplicate" };
+      // B2: row already exists. The OLD code returned "duplicate" here,
+      // which silently left checkout's pending row unchanged when the
+      // webhook tried to credit it. The fix: read the existing status; if
+      // it's already at the target, true duplicate (peer beat us or retry);
+      // otherwise UPDATE to apply the transition.
+      const { data: existing } = await sb
+        .from("payments")
+        .select("status")
+        .eq("provider", intent.provider)
+        .eq("provider_intent_id", providerIntentId)
+        .maybeSingle();
+
+      const currentStatus = (existing as { status?: PaymentStatus } | null)
+        ?.status;
+      if (!currentStatus || currentStatus === intent.status) {
+        // True duplicate — row at target status (or we can't read it back).
+        return { kind: "duplicate" };
+      }
+
+      // Status differs — apply the transition via UPDATE.
+      const { error: updateError } = await sb
+        .from("payments")
+        .update({
+          status: intent.status,
+          amount_cents: amountCents,
+          method_details: row.method_details,
+        })
+        .eq("provider", intent.provider)
+        .eq("provider_intent_id", providerIntentId);
+
+      if (updateError) {
+        throw new Error(`payments_update_failed: ${updateError.message}`);
+      }
+
+      // Fall through to the history-row write for credit-bearing transitions.
+    } else {
+      throw new Error(`payments_persist_failed: ${error.message}`);
     }
-    throw new Error(`payments_persist_failed: ${error.message}`);
   }
 
   // On the credit-bearing transition (paid), also write a row to
@@ -408,6 +453,11 @@ async function resolveAddressFromIntent(
   };
 }
 
+const CREDIT_BEARING_STATUSES: ReadonlySet<PaymentStatus> = new Set([
+  "paid",
+  "authorized",
+]);
+
 export async function assertOrderJurisdictionAllowed(
   input: PaymentIntent | JurisdictionAddressLike,
 ): Promise<void> {
@@ -431,8 +481,20 @@ export async function assertOrderJurisdictionAllowed(
   // PaymentIntent path: derive address from intent metadata or Supabase.
   const resolved = await resolveAddressFromIntent(input);
   if (!resolved) {
-    // Could not resolve — graceful degradation. Layers 1+2 remain the
-    // primary defense.
+    // B3: fail closed for credit-bearing statuses (paid, authorized). If we
+    // cannot prove the address is allowed at the moment we are about to
+    // credit, we MUST reject — Layers 1+2 may have been spoofed or buggy,
+    // and Layer 3 silently passing was the exact failure mode codex flagged
+    // (metadata-key mismatch made Layer 3 dead-coded for checkout flows).
+    // Non-credit statuses (pending, failed, refunded) still degrade
+    // gracefully because they do not move money.
+    if (CREDIT_BEARING_STATUSES.has(input.status)) {
+      throw new JurisdictionalGuardError(
+        "",
+        "",
+        "jurisdiction_unresolvable: cannot validate shipping address for credit-bearing intent",
+      );
+    }
     return;
   }
   const result = validateShippingAddress(resolved);
