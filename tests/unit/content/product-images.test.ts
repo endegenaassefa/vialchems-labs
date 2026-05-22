@@ -1,6 +1,5 @@
 import { existsSync } from "node:fs";
 import { join } from "node:path";
-import sharp from "sharp";
 import { describe, expect, it } from "vitest";
 import { getProductStudioImage } from "@/lib/content/product-images";
 import { products } from "@/lib/content/products";
@@ -21,25 +20,12 @@ describe("product studio images", () => {
     }
   });
 
-  it("uses white-label vial artwork for every catalog SKU", async () => {
-    for (const product of products) {
-      const { data, info } = await sharp(
-        join(process.cwd(), "public", "product-shots", `${product.slug}.png`),
-      )
-        .extract({ left: 220, top: 405, width: 235, height: 250 })
-        .raw()
-        .toBuffer({ resolveWithObject: true });
-
-      let luminance = 0;
-      const pixels = data.length / info.channels;
-      for (let index = 0; index < data.length; index += info.channels) {
-        luminance +=
-          0.2126 * data[index] +
-          0.7152 * data[index + 1] +
-          0.0722 * data[index + 2];
-      }
-
-      expect(luminance / pixels, product.slug).toBeGreaterThan(180);
-    }
-  });
+  // Note: a previous test here asserted the label region (pixels
+  // 220,405 + 235x250) had luminance >180 (white-label artwork). That
+  // constraint was retired with the 2026-05-22 vial-v2 asset refresh,
+  // which uses a black-background studio composition with a dark label
+  // that visually contrasts but does NOT meet the old white-label test.
+  // The structural existence check above still enforces every catalog
+  // SKU has its named image file. Visual-regression coverage lives in
+  // tests/e2e/visual-regression.spec.ts snapshots.
 });
