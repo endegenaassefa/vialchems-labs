@@ -105,6 +105,7 @@ Component coverage (Iron Law 2.36 target ≥95% line):
 ### API route Supabase + Resend integration paths
 
 **Reason:** `app/api/access/route.ts` (lines 157-212), `app/api/newsletter/subscribe/route.ts` (lines 152-190), and `app/api/contact/route.ts` (lines 105, 117) are the Supabase persistence + Resend dispatch branches. They run only when `serviceSupabase()` returns a non-null client OR when production-mode `isProductionRuntime()` flips to true. Unit tests mock `serviceSupabase` to `null` so the Day-1 (no-DB) path is exercised. The Supabase/Resend integration paths are validated via:
+
 - `tests/integration/migrations.test.ts` (schema + insert shape)
 - E2E Playwright specs (Phase 11) running against a staging Supabase project
 
