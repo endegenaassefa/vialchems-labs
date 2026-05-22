@@ -1,4 +1,5 @@
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { getProductStudioImage } from "@/lib/content/product-images";
@@ -18,6 +19,19 @@ describe("product studio images", () => {
         `${product.slug} product-shot file is missing`,
       ).toBe(true);
     }
+  });
+
+  it("keeps Reta 10mg and Reta 20mg product shots visually distinct", () => {
+    const hash = (slug: string) =>
+      createHash("sha256")
+        .update(
+          readFileSync(
+            join(process.cwd(), "public", "product-shots", `${slug}.png`),
+          ),
+        )
+        .digest("hex");
+
+    expect(hash("reta-20mg")).not.toBe(hash("reta-10mg"));
   });
 
   // Note: a previous test here asserted the label region (pixels
