@@ -65,9 +65,9 @@ function Hero() {
             VIALCHEMLABS.NET · RESEARCH USE ONLY
           </div>
           <h1 style={{ marginBottom: 24 }}>
-            Counted, weighed,{" "}
+            For researchers,{" "}
             <em style={{ fontStyle: "normal", color: "var(--fg-muted)" }}>
-              verified.
+              by researchers.
             </em>
           </h1>
           <p
