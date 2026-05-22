@@ -65,10 +65,11 @@ function Hero() {
             VIALCHEMLABS.NET · RESEARCH USE ONLY
           </div>
           <h1 style={{ marginBottom: 24 }}>
-            Counted, weighed,{" "}
+            The Certificate of Analysis is{" "}
             <em style={{ fontStyle: "normal", color: "var(--fg-muted)" }}>
-              verified.
-            </em>
+              the product.
+            </em>{" "}
+            The vial is the packaging.
           </h1>
           <p
             style={{
@@ -79,9 +80,10 @@ function Hero() {
               lineHeight: 1.5,
             }}
           >
-            Batch-traceable materials for verified research organizations. Every
-            vial links back to its certificate of analysis, lot history, and
-            release documentation.
+            Independent third-party testing on every batch. HPLC purity,
+            sterility, endotoxin. All published on the product page before
+            you click buy. If the data isn&apos;t there, the SKU isn&apos;t
+            either.
           </p>
           <div
             style={{
@@ -95,7 +97,7 @@ function Hero() {
               Browse Catalog <Icon.arrow size={14} strokeWidth={1.5} />
             </Link>
             <Link className="btn btn-ghost btn-lg" href="/coa">
-              Verify a Vial
+              View a COA
             </Link>
           </div>
           <div
@@ -109,9 +111,9 @@ function Hero() {
               textTransform: "uppercase",
             }}
           >
-            <span>· Qualified lab orders</span>
-            <span>· HPLC purity records</span>
-            <span>· COA on every vial</span>
+            <span>· Independent lab</span>
+            <span>· Per-batch testing</span>
+            <span>· Public results</span>
           </div>
         </div>
         <FloatingCards />
