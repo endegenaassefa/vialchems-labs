@@ -122,6 +122,29 @@ export function startWebhookTransaction(name: string): { end: () => void } {
   };
 }
 
+/**
+ * Iron Law 2.34 v5.1 — rate-limit breadcrumb helper.
+ *
+ * Called by `lib/rate-limit.ts` `isRateLimited()` on every denial. Records
+ * a low-noise breadcrumb so the next captured event surfaces the recent
+ * rate-limit history. PII-safe: only the route bucket name, scope ("ip"
+ * or "email") and retryAfterSeconds — never the actual email or IP.
+ * Verified safe against the SENSITIVE_DATA_PATHS scrubber below (none of
+ * the keys we attach are on the scrub list).
+ */
+export function addRateLimitBreadcrumb(
+  route: string,
+  scope: "ip" | "email",
+  retryAfterSeconds: number,
+): void {
+  if (!process.env.NEXT_PUBLIC_SENTRY_DSN) return;
+  Sentry.addBreadcrumb({
+    category: "rate-limit",
+    level: "warning",
+    data: { route, scope, retryAfterSeconds },
+  });
+}
+
 // ---------------------------------------------------------------------------
 // PII scrubber (Iron Law 2.32) — exported for sentry.{client,server,edge}.config.ts
 // ---------------------------------------------------------------------------

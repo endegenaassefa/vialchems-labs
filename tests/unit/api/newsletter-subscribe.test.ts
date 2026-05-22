@@ -1,4 +1,4 @@
-import { describe, expect, it, vi, beforeEach } from "vitest";
+import { describe, expect, it, vi, beforeEach, afterEach } from "vitest";
 
 vi.mock("@/lib/supabase", () => ({
   serviceSupabase: () => null,
@@ -11,6 +11,10 @@ vi.mock("@/lib/email/welcome-sequence", () => ({
 
 import { POST } from "@/app/api/newsletter/subscribe/route";
 import { __resetRateLimitForTests } from "@/lib/rate-limit";
+
+afterEach(() => {
+  delete process.env.SKIP_RATE_LIMIT;
+});
 
 function makeRequest(
   body: unknown,
@@ -57,5 +61,40 @@ describe("POST /api/newsletter/subscribe (rate-limited)", () => {
     expect(blocked.headers.get("x-ratelimit-limit")).toBe("5");
     const body = await blocked.json();
     expect(body.error).toBe("rate_limited");
+    // v5.1: response uses `retryAfterSeconds`, not `retryAfter`.
+    expect(body.retryAfterSeconds).toBeGreaterThan(0);
+    expect(body.retryAfter).toBeUndefined();
+  });
+
+  it("returns 429 when the SAME email is posted from 3 different IPs (per-email cap, Iron Law 2.34 v5.1)", async () => {
+    const email = "newsletter-abuser@example.com";
+    for (let i = 0; i < 3; i += 1) {
+      const ok = await POST(
+        makeRequest({ email }, { "x-forwarded-for": `9.0.${i}.10` }),
+      );
+      expect(ok.status).toBe(200);
+    }
+    const blocked = await POST(
+      makeRequest({ email }, { "x-forwarded-for": "9.0.99.10" }),
+    );
+    expect(blocked.status).toBe(429);
+    const body = await blocked.json();
+    expect(body.error).toBe("rate_limited");
+    expect(body.retryAfterSeconds).toBeGreaterThan(0);
+  });
+
+  it("SKIP_RATE_LIMIT=true bypasses all gates", async () => {
+    process.env.SKIP_RATE_LIMIT = "true";
+    const ip = "9.0.99.99";
+    // 10 calls from the same IP (would normally be 5 + 429).
+    for (let i = 0; i < 10; i += 1) {
+      const res = await POST(
+        makeRequest(
+          { email: `bypass${i}@example.com` },
+          { "x-forwarded-for": ip },
+        ),
+      );
+      expect(res.status).toBe(200);
+    }
   });
 });

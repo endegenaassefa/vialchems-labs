@@ -25,6 +25,7 @@ import type { ErrorEvent } from "@sentry/core";
 // façade without booting the real SDK. ESM module namespaces are frozen
 // so vi.spyOn doesn't work — vi.mock replaces the module entirely.
 vi.mock("@sentry/nextjs", () => ({
+  addBreadcrumb: vi.fn(),
   captureException: vi.fn(() => "evt-id"),
   captureMessage: vi.fn(() => "evt-id"),
   startInactiveSpan: vi.fn(() => ({ end: vi.fn() })),
@@ -32,6 +33,7 @@ vi.mock("@sentry/nextjs", () => ({
 
 import * as Sentry from "@sentry/nextjs";
 import {
+  addRateLimitBreadcrumb,
   beforeSend,
   captureException,
   captureMessage,
@@ -470,6 +472,19 @@ describe("captureException / captureMessage / startWebhookTransaction", () => {
     expect(mockCaptureException).toHaveBeenCalledWith(err, undefined);
   });
 
+  it("captureException forwards tags + extra from SentryCaptureOptions shape", () => {
+    process.env.NEXT_PUBLIC_SENTRY_DSN = "https://example@sentry.io/1";
+    const err = new Error("boom");
+    captureException(err, {
+      tags: { route: "access" },
+      extra: { detail: "x" },
+    });
+    expect(mockCaptureException).toHaveBeenCalledWith(err, {
+      tags: { route: "access" },
+      extra: { detail: "x" },
+    });
+  });
+
   it("captureMessage no-ops when DSN is empty", () => {
     delete process.env.NEXT_PUBLIC_SENTRY_DSN;
     captureMessage("hello");
@@ -484,6 +499,30 @@ describe("captureException / captureMessage / startWebhookTransaction", () => {
       {
         level: "info",
         extra: { sku: "BPC-157" },
+      },
+    );
+  });
+
+  it("captureMessage passes only level when no context", () => {
+    process.env.NEXT_PUBLIC_SENTRY_DSN = "https://example@sentry.io/1";
+    captureMessage("hello", "warning");
+    expect(mockCaptureMessage).toHaveBeenCalledWith("hello", {
+      level: "warning",
+    });
+  });
+
+  it("captureMessage forwards tags + extra from SentryCaptureOptions shape", () => {
+    process.env.NEXT_PUBLIC_SENTRY_DSN = "https://example@sentry.io/1";
+    captureMessage("rate_limit.upstash_fallback", "warning", {
+      tags: { route: "access" },
+      extra: { error: "503" },
+    });
+    expect(mockCaptureMessage).toHaveBeenCalledWith(
+      "rate_limit.upstash_fallback",
+      {
+        level: "warning",
+        tags: { route: "access" },
+        extra: { error: "503" },
       },
     );
   });
@@ -526,5 +565,52 @@ describe("captureException / captureMessage / startWebhookTransaction", () => {
     );
     const handle = startWebhookTransaction("plaid.webhook");
     expect(() => handle.end()).not.toThrow();
+  });
+});
+
+/**
+ * Iron Law 2.34 v5.1 — `addRateLimitBreadcrumb` helper. PII-safe: route +
+ * scope + retryAfterSeconds only. No email or IP attached.
+ */
+describe("addRateLimitBreadcrumb", () => {
+  const ORIGINAL_DSN = process.env.NEXT_PUBLIC_SENTRY_DSN;
+  const mockAddBreadcrumb = vi.mocked(Sentry.addBreadcrumb);
+
+  beforeEach(() => {
+    mockAddBreadcrumb.mockClear();
+  });
+
+  afterEach(() => {
+    if (ORIGINAL_DSN === undefined) {
+      delete process.env.NEXT_PUBLIC_SENTRY_DSN;
+    } else {
+      process.env.NEXT_PUBLIC_SENTRY_DSN = ORIGINAL_DSN;
+    }
+  });
+
+  it("emits a breadcrumb with category 'rate-limit' and level 'warning'", () => {
+    process.env.NEXT_PUBLIC_SENTRY_DSN = "https://example@sentry.io/1";
+    addRateLimitBreadcrumb("access", "ip", 42);
+    expect(mockAddBreadcrumb).toHaveBeenCalledWith({
+      category: "rate-limit",
+      level: "warning",
+      data: { route: "access", scope: "ip", retryAfterSeconds: 42 },
+    });
+  });
+
+  it("no-ops when DSN is empty", () => {
+    delete process.env.NEXT_PUBLIC_SENTRY_DSN;
+    addRateLimitBreadcrumb("contact", "ip", 30);
+    expect(mockAddBreadcrumb).not.toHaveBeenCalled();
+  });
+
+  it("supports the 'email' scope for per-email denials", () => {
+    process.env.NEXT_PUBLIC_SENTRY_DSN = "https://example@sentry.io/1";
+    addRateLimitBreadcrumb("newsletter", "email", 600);
+    expect(mockAddBreadcrumb).toHaveBeenCalledWith({
+      category: "rate-limit",
+      level: "warning",
+      data: { route: "newsletter", scope: "email", retryAfterSeconds: 600 },
+    });
   });
 });

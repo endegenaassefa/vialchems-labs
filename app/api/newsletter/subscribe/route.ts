@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import * as Sentry from "@sentry/nextjs";
 import { z } from "zod";
-import { rateLimitByIp } from "@/lib/rate-limit";
+import { isRateLimited } from "@/lib/rate-limit";
 import { isProductionRuntime } from "@/lib/runtime-env";
 import { captureException } from "@/lib/sentry";
 
@@ -41,22 +41,24 @@ export async function POST(request: Request) {
     data: { route: "newsletter" },
   });
 
+  // Iron Law 2.34 v5.1: IP gate before parsing; per-email gate after the
+  // form/Zod step (so we count against the normalised email).
   const ip = getClientIp(request);
-  const limit = rateLimitByIp("newsletter", ip);
-  if (!limit.success) {
+  const ipGate = await isRateLimited({ route: "newsletter", ip });
+  if (ipGate.limited) {
     return NextResponse.json(
       {
         ok: false,
         error: "rate_limited",
-        retryAfter: limit.retryAfterSeconds,
+        retryAfterSeconds: ipGate.retryAfterSeconds,
       },
       {
         status: 429,
         headers: {
-          "Retry-After": String(limit.retryAfterSeconds),
-          "X-RateLimit-Limit": String(limit.limit),
+          "Retry-After": String(ipGate.retryAfterSeconds),
+          "X-RateLimit-Limit": String(ipGate.limit),
           "X-RateLimit-Remaining": "0",
-          "X-RateLimit-Reset": String(limit.reset),
+          "X-RateLimit-Reset": String(ipGate.reset),
         },
       },
     );
@@ -99,6 +101,43 @@ export async function POST(request: Request) {
     return NextResponse.json(
       { ok: false, error: "missing_email" },
       { status: 400 },
+    );
+  }
+
+  // Iron Law 2.34 v5.1: per-email gate after parsing. Same IP is fresh
+  // (we passed the pre-Zod IP gate above) but the email may have been
+  // hammered from multiple IPs. `gates: ["email"]` skips the IP re-check
+  // so we don't double-charge the IP counter on this same request.
+  const emailGate = await isRateLimited({
+    route: "newsletter",
+    ip,
+    email,
+    gates: ["email"],
+  });
+  if (emailGate.limited) {
+    // Form submissions get a 303 to /newsletter so non-JS clients see a
+    // useful URL state. JSON callers get the structured 429.
+    if (!contentType.includes("application/json")) {
+      return NextResponse.redirect(
+        new URL("/newsletter?error=rate_limited", request.url),
+        303,
+      );
+    }
+    return NextResponse.json(
+      {
+        ok: false,
+        error: "rate_limited",
+        retryAfterSeconds: emailGate.retryAfterSeconds,
+      },
+      {
+        status: 429,
+        headers: {
+          "Retry-After": String(emailGate.retryAfterSeconds),
+          "X-RateLimit-Limit": String(emailGate.limit),
+          "X-RateLimit-Remaining": "0",
+          "X-RateLimit-Reset": String(emailGate.reset),
+        },
+      },
     );
   }
 

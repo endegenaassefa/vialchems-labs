@@ -1,6 +1,10 @@
-import { describe, expect, it, beforeEach } from "vitest";
+import { describe, expect, it, beforeEach, afterEach } from "vitest";
 import { POST } from "@/app/api/contact/route";
 import { __resetRateLimitForTests } from "@/lib/rate-limit";
+
+afterEach(() => {
+  delete process.env.SKIP_RATE_LIMIT;
+});
 
 function makeReq(body: unknown, headers: Record<string, string> = {}): Request {
   return new Request("http://test/api/contact", {
@@ -113,5 +117,23 @@ describe("POST /api/contact", () => {
     expect(blocked.headers.get("x-ratelimit-limit")).toBe("3");
     const json = await blocked.json();
     expect(json.error).toBe("rate_limited");
+    // v5.1: response uses `retryAfterSeconds`.
+    expect(json.retryAfterSeconds).toBeGreaterThan(0);
+    expect(json.retryAfter).toBeUndefined();
+  });
+
+  it("SKIP_RATE_LIMIT=true bypasses the gate", async () => {
+    process.env.SKIP_RATE_LIMIT = "true";
+    const ip = "198.51.100.99";
+    const body = {
+      name: "Researcher",
+      email: "r@example.com",
+      message: "COA batch question",
+    };
+    // 10 calls from the same IP (would normally be 3 + 429).
+    for (let i = 0; i < 10; i += 1) {
+      const res = await POST(makeReq(body, { "x-forwarded-for": ip }) as never);
+      expect(res.status).toBe(200);
+    }
   });
 });
