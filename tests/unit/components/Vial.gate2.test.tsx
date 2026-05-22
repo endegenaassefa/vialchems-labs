@@ -6,26 +6,36 @@
  * because allowedCompounds.has() returned true. The Phase 2.4 GREEN fix adds
  * a static blocklist check AFTER the catalog gate.
  *
- * Currently no banned compound is in the catalog (Phase 2.1 removed them all),
- * so GATE 2 is unreachable in production code paths. To prove the gate works
- * (Iron Law 2.36 coverage), we mock @/lib/content/products to inject a banned
- * shortName, then assert GATE 2 fires with an Iron Law 2.29 error.
+ * Reta/Tirz/KLOW were operator-re-introduced via
+ * docs/DECISIONS/iron_law_2_7_override_2026-05-22.md and now pass the gate.
+ * This test instead exercises GATE 2 using STILL-BANNED fixtures
+ * (tesamorelin, melanotan-ii, pt-141, bremelanotide) — the override is
+ * scoped narrow on purpose so the gate must continue refusing those.
  *
  * SCANNER_OK: reviewed-and-cso-passed (PROTECTED PATH — Iron Law 2.5/2.19).
  */
 import { describe, expect, it, vi } from "vitest";
 import { render } from "@testing-library/react";
 
-// Inject a banned compound shortName into the catalog mock. This simulates
-// the supplemental S1 scenario: operator regressed products.ts by adding
-// shortName="Reta" (a known Iron Law 2.7 banned compound).
+// Inject still-banned compound shortNames into the catalog mock. These
+// remain banned (no operator override) so GATE 2 must throw regardless of
+// catalog membership.
 vi.mock("@/lib/content/products", () => ({
   products: [
     {
-      slug: "regression-fixture",
-      sku: "REGRESSION-FIXTURE",
+      slug: "regression-fixture-tesamorelin",
+      sku: "REGRESSION-FIXTURE-TESAMORELIN",
+      name: "Regression Fixture, 5mg vial",
+      shortName: "Tesamorelin",
+      dose: "5mg",
+      priceUsd: 1,
+      kind: "single",
+    },
+    {
+      slug: "regression-fixture-pt-141",
+      sku: "REGRESSION-FIXTURE-PT-141",
       name: "Regression Fixture, 10mg vial",
-      shortName: "Reta",
+      shortName: "PT-141",
       dose: "10mg",
       priceUsd: 1,
       kind: "single",
@@ -46,16 +56,21 @@ vi.mock("@/lib/content/products", () => ({
 
 import { Vial } from "@/components/ui/Vial";
 
-describe("Vial GATE 2 — static blocklist fires when banned compound is in (mocked) catalog", () => {
-  // Pre-Phase-2.4: catalog auto-derive would allow "Reta" through (audit C5
-  // predicted; S1 confirmed). Phase 2.4 adds GATE 2 (isBannedCompound) which
-  // refuses regardless of catalog membership. This test asserts GATE 2 wins.
-  it("throws Iron Law 2.29 for banned compound 'Reta' even when present in catalog mock", () => {
-    expect(() => render(<Vial compound="Reta" />)).toThrow(/Iron Law 2\.29/);
+describe("Vial GATE 2 — static blocklist fires when STILL-banned compound is in (mocked) catalog", () => {
+  it("throws Iron Law 2.29 for still-banned compound 'Tesamorelin' even when present in catalog mock", () => {
+    expect(() => render(<Vial compound="Tesamorelin" />)).toThrow(
+      /Iron Law 2\.29/,
+    );
   });
 
-  it("throws Iron Law 2.29 for case-variant 'RETA' even when present in catalog mock", () => {
-    expect(() => render(<Vial compound="RETA" />)).toThrow(/Iron Law 2\.29/);
+  it("throws Iron Law 2.29 for case-variant 'TESAMORELIN' even when present in catalog mock", () => {
+    expect(() => render(<Vial compound="TESAMORELIN" />)).toThrow(
+      /Iron Law 2\.29/,
+    );
+  });
+
+  it("throws Iron Law 2.29 for still-banned 'PT-141' even when present in catalog mock", () => {
+    expect(() => render(<Vial compound="PT-141" />)).toThrow(/Iron Law 2\.29/);
   });
 
   // Negative: safe compound in the mocked catalog still renders.
@@ -66,7 +81,7 @@ describe("Vial GATE 2 — static blocklist fires when banned compound is in (moc
   // Iron Law 2.29 error message must reference the blocklist file so a
   // future maintainer can find the source-of-truth for ban posture.
   it("Iron Law 2.29 error references lib/compliance/banned-compounds.ts", () => {
-    expect(() => render(<Vial compound="Reta" />)).toThrow(
+    expect(() => render(<Vial compound="Tesamorelin" />)).toThrow(
       /lib\/compliance\/banned-compounds\.ts/,
     );
   });
@@ -74,7 +89,7 @@ describe("Vial GATE 2 — static blocklist fires when banned compound is in (moc
   // Iron Law 2.29 error must indicate the override path so an operator with
   // legal opinion in hand knows how to unblock.
   it("Iron Law 2.29 error references the DECISIONS override path", () => {
-    expect(() => render(<Vial compound="Reta" />)).toThrow(
+    expect(() => render(<Vial compound="Tesamorelin" />)).toThrow(
       /docs\/DECISIONS\/iron_law_2_7_override/,
     );
   });

@@ -12,7 +12,10 @@
 //
 // SCANNER_OK: reviewed-and-cso-passed (PROTECTED PATH — Iron Law 2.5/2.19).
 
-import { BANNED_COMPOUNDS } from "./compliance/banned-compounds";
+import {
+  BANNED_COMPOUNDS,
+  OVERRIDE_ALLOWED_COMPOUNDS,
+} from "./compliance/banned-compounds";
 
 /**
  * Marketing-copy safety filter.
@@ -58,11 +61,13 @@ const explicitUnsafePatterns: readonly RegExp[] = [
   /\bMounjaro\b/i,
   /\bZepbound\b/i,
 
-  // Catalog exclusions (Iron Law 2.7)
+  // Catalog exclusions (Iron Law 2.7).
+  // tirzepatide + retatrutide removed from marketing-copy filter per
+  // docs/DECISIONS/iron_law_2_7_override_2026-05-22.md (operator override).
+  // The compounds still appear in BANNED_COMPOUNDS (audit trail) but are
+  // operator-authorized for catalog inclusion + marketing copy.
   /GLP[-\s]?1/i,
   /\bsemaglutide\b/i,
-  /\btirzepatide\b/i,
-  /\bretatrutide\b/i,
   /\binsulin\b/i,
   /\bdiabetes\b/i,
 
@@ -91,15 +96,12 @@ const explicitUnsafePatterns: readonly RegExp[] = [
   /\belamipretide\b/i,
 
   // v5 §2.29 extensions — short-code GLP-1 obfuscations.
-  // Catalog shipped shortName='Reta', 'Tirz', 'Sema' (audit C5 + supplemental
-  // S1). Whole-word boundary so 'sermorelin', 'retreat', 'tirzon' are NOT
-  // over-blocked.
-  /\btirz\b/i,
+  // 'sema' stays banned. 'tirz' + 'reta' removed per the 2026-05-22
+  // operator override (now appear legitimately as catalog shortNames).
+  // Whole-word boundary so 'sermorelin', 'retreat', 'tirzon' are NOT
+  // over-blocked when scanning copy.
   /\bsema\b/i,
-  /\breta\b/i,
-
-  // v5.0 supplemental S1 — undetermined-composition blend
-  /\bklow\b/i,
+  // 'klow' removed per the same override (catalog SKU klow-80mg).
 
   // Quality-claim language (FDA flags as drug-intent).
   // Audit M1: `\s*` was silently bypassing hyphenated forms; `[\s-]*` catches
@@ -153,20 +155,27 @@ const explicitUnsafePatterns: readonly RegExp[] = [
  *     word-boundary regex so legitimate words like "retreat", "sermorelin",
  *     "tirzon", "klowinski" are NOT over-blocked.
  */
-const derivedUnsafePatterns: readonly RegExp[] = BANNED_COMPOUNDS.map(
-  (compound) => {
-    const lower = compound.toLowerCase();
-    const escaped = lower.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    if (lower.includes(" ") || lower.includes("-")) {
-      // Multi-word / hyphenated: tolerate either space or hyphen as the
-      // internal separator; flank with \b for word-boundary match.
-      const flexible = escaped.replace(/(?:\\-| )/g, "[\\s-]");
-      return new RegExp(`\\b${flexible}\\b`, "i");
-    }
-    // Single-word: strict \b...\b boundary.
-    return new RegExp(`\\b${escaped}\\b`, "i");
-  },
+// Filter override-allowed compounds out of the auto-derived regex so
+// product descriptions / FAQ / blog body can legitimately reference them
+// after operator override per docs/DECISIONS/iron_law_2_7_override_2026-05-22.md.
+const OVERRIDE_ALLOWED_SET = new Set<string>(
+  OVERRIDE_ALLOWED_COMPOUNDS.map((c) => c.toLowerCase()),
 );
+
+const derivedUnsafePatterns: readonly RegExp[] = BANNED_COMPOUNDS.filter(
+  (compound) => !OVERRIDE_ALLOWED_SET.has(compound.toLowerCase()),
+).map((compound) => {
+  const lower = compound.toLowerCase();
+  const escaped = lower.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  if (lower.includes(" ") || lower.includes("-")) {
+    // Multi-word / hyphenated: tolerate either space or hyphen as the
+    // internal separator; flank with \b for word-boundary match.
+    const flexible = escaped.replace(/(?:\\-| )/g, "[\\s-]");
+    return new RegExp(`\\b${flexible}\\b`, "i");
+  }
+  // Single-word: strict \b...\b boundary.
+  return new RegExp(`\\b${escaped}\\b`, "i");
+});
 
 export const unsafeMarketingPatterns: readonly RegExp[] = [
   ...explicitUnsafePatterns,

@@ -17,23 +17,27 @@ import { render } from "@testing-library/react";
 
 // Inject a banned compound shortName into the catalog mock — the same S1
 // regression-fixture pattern the sibling Vial.gate2 test uses.
+// Use still-banned compound fixtures (tesamorelin / PT-141 — NOT
+// overridden by docs/DECISIONS/iron_law_2_7_override_2026-05-22.md). Reta
+// and Tirz are now operator-allowed and pass the gate, so they're no
+// longer valid fixtures for exercising the rejection path.
 vi.mock("@/lib/content/products", () => ({
   products: [
     {
-      slug: "regression-fixture-reta",
-      sku: "REGRESSION-FIXTURE-RETA",
-      name: "Regression Fixture, 10mg vial",
-      shortName: "Reta",
-      dose: "10mg",
+      slug: "regression-fixture-tesamorelin",
+      sku: "REGRESSION-FIXTURE-TESAMORELIN",
+      name: "Regression Fixture, 5mg vial",
+      shortName: "Tesamorelin",
+      dose: "5mg",
       priceUsd: 1,
       kind: "single",
     },
     {
-      slug: "regression-fixture-tirz",
-      sku: "REGRESSION-FIXTURE-TIRZ",
-      name: "Regression Fixture, 25mg vial",
-      shortName: "Tirz",
-      dose: "25mg",
+      slug: "regression-fixture-pt-141",
+      sku: "REGRESSION-FIXTURE-PT-141",
+      name: "Regression Fixture, 10mg vial",
+      shortName: "PT-141",
+      dose: "10mg",
       priceUsd: 1,
       kind: "single",
     },
@@ -53,21 +57,21 @@ vi.mock("@/lib/content/products", () => ({
 import { VialProductPhoto } from "@/components/ui/VialProductPhoto";
 
 describe("VialProductPhoto GATE 2 — static blocklist closes the codex B4 double-gate hole", () => {
-  it("throws Iron Law 2.29 for banned compound 'Reta' even when present in catalog mock", () => {
+  it("throws Iron Law 2.29 for still-banned 'Tesamorelin' even when present in catalog mock", () => {
     expect(() =>
-      render(<VialProductPhoto compound="Reta" dose="10mg" />),
+      render(<VialProductPhoto compound="Tesamorelin" dose="5mg" />),
     ).toThrow(/Iron Law 2\.29/);
   });
 
-  it("throws Iron Law 2.29 for case-variant 'RETA' even when present in catalog mock", () => {
+  it("throws Iron Law 2.29 for case-variant 'TESAMORELIN' even when present in catalog mock", () => {
     expect(() =>
-      render(<VialProductPhoto compound="RETA" dose="10mg" />),
+      render(<VialProductPhoto compound="TESAMORELIN" dose="5mg" />),
     ).toThrow(/Iron Law 2\.29/);
   });
 
-  it("throws Iron Law 2.29 for 'Tirz' (sibling banned compound from supplemental S1)", () => {
+  it("throws Iron Law 2.29 for 'PT-141' (sibling still-banned compound)", () => {
     expect(() =>
-      render(<VialProductPhoto compound="Tirz" dose="25mg" />),
+      render(<VialProductPhoto compound="PT-141" dose="10mg" />),
     ).toThrow(/Iron Law 2\.29/);
   });
 
@@ -79,13 +83,13 @@ describe("VialProductPhoto GATE 2 — static blocklist closes the codex B4 doubl
 
   it("Iron Law 2.29 error references lib/compliance/banned-compounds.ts", () => {
     expect(() =>
-      render(<VialProductPhoto compound="Reta" dose="10mg" />),
+      render(<VialProductPhoto compound="Tesamorelin" dose="5mg" />),
     ).toThrow(/lib\/compliance\/banned-compounds\.ts/);
   });
 
   it("Iron Law 2.29 error references the DECISIONS override path", () => {
     expect(() =>
-      render(<VialProductPhoto compound="Reta" dose="10mg" />),
+      render(<VialProductPhoto compound="Tesamorelin" dose="5mg" />),
     ).toThrow(/docs\/DECISIONS\/iron_law_2_7_override/);
   });
 });

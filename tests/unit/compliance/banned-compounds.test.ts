@@ -2,28 +2,37 @@
  * Iron Law 2.29 — static banned-compound blocklist regression suite.
  *
  * Asserts the LAST-LINE structural defense at `lib/compliance/banned-compounds.ts`:
- *   - Every member of BANNED_COMPOUNDS is detected in its canonical form
+ *   - BANNED_COMPOUNDS retains documented entries (audit-trail per Iron Law 2.14)
+ *   - OVERRIDE_ALLOWED_COMPOUNDS short-circuits isBannedCompound() to false
+ *     for operator-authorized exceptions (per
+ *     docs/DECISIONS/iron_law_2_7_override_2026-05-22.md)
+ *   - Every still-banned member is detected in its canonical form
  *   - Case-insensitive (capital, mixed, lower)
  *   - Surrounding whitespace / punctuation does not let a banned token slip past
  *   - Multi-word + hyphenated forms (bacteriostatic water, melanotan-ii) match
  *     across whitespace / hyphen variants
  *   - Safe compound names (BPC-157, TB-500, GHK-Cu, Selank, ...) return FALSE
- *   - Concrete supplemental S1 cases (Reta, Tirz, KLOW, "Reta 10mg vial", ...)
- *     all return TRUE (these were the operator-shipped compounds that
- *     prompted Iron Law 2.29 in audit C5).
  *   - Whole-word boundary semantics — "tirzepatide-mimetic" matches via
- *     substring; "retreat" does NOT match (banned token must be its own word
- *     for single-word entries).
- *   - Empty / null-ish inputs return FALSE without throwing.
+ *     substring for still-banned; "retreat" does NOT match
+ *   - Empty / null-ish inputs return FALSE without throwing
  */
 import { describe, expect, it } from "vitest";
 
 import {
   BANNED_COMPOUNDS,
+  OVERRIDE_ALLOWED_COMPOUNDS,
   isBannedCompound,
 } from "@/lib/compliance/banned-compounds";
 
-describe("BANNED_COMPOUNDS constant", () => {
+// Effective banned set = BANNED_COMPOUNDS minus operator-override exceptions
+const OVERRIDE_SET = new Set<string>(
+  OVERRIDE_ALLOWED_COMPOUNDS.map((c) => c.toLowerCase()),
+);
+const STILL_BANNED = BANNED_COMPOUNDS.filter(
+  (c) => !OVERRIDE_SET.has(c.toLowerCase()),
+);
+
+describe("BANNED_COMPOUNDS constant (documented baseline — Iron Law 2.14 audit trail)", () => {
   it("contains the v3 PERPETUAL bans (GLP-1 class + short codes)", () => {
     expect(BANNED_COMPOUNDS).toContain("tirzepatide");
     expect(BANNED_COMPOUNDS).toContain("semaglutide");
@@ -72,17 +81,71 @@ describe("BANNED_COMPOUNDS constant", () => {
     expect(BANNED_COMPOUNDS).toContain("elamipretide");
   });
 
-  it("contains the v5.0 supplemental KLOW ban", () => {
-    expect(BANNED_COMPOUNDS).toContain("klow");
-  });
-
   it("is a frozen, non-empty list", () => {
     expect(BANNED_COMPOUNDS.length).toBeGreaterThan(0);
   });
 });
 
-describe("isBannedCompound — exact lowercase canonical entries", () => {
-  const lowerCases: Array<[string]> = BANNED_COMPOUNDS.map(
+describe("OVERRIDE_ALLOWED_COMPOUNDS — operator-authorized exceptions (2026-05-22)", () => {
+  it("contains exactly the 5 aliases the operator override re-introduced", () => {
+    expect(OVERRIDE_ALLOWED_COMPOUNDS).toContain("klow");
+    expect(OVERRIDE_ALLOWED_COMPOUNDS).toContain("reta");
+    expect(OVERRIDE_ALLOWED_COMPOUNDS).toContain("retatrutide");
+    expect(OVERRIDE_ALLOWED_COMPOUNDS).toContain("tirz");
+    expect(OVERRIDE_ALLOWED_COMPOUNDS).toContain("tirzepatide");
+  });
+
+  it("does NOT contain still-banned compounds (no silent unbanning of other GLP-1s)", () => {
+    expect(OVERRIDE_ALLOWED_COMPOUNDS).not.toContain("semaglutide");
+    expect(OVERRIDE_ALLOWED_COMPOUNDS).not.toContain("liraglutide");
+    expect(OVERRIDE_ALLOWED_COMPOUNDS).not.toContain("dulaglutide");
+    expect(OVERRIDE_ALLOWED_COMPOUNDS).not.toContain("sema");
+    expect(OVERRIDE_ALLOWED_COMPOUNDS).not.toContain("tesamorelin");
+    expect(OVERRIDE_ALLOWED_COMPOUNDS).not.toContain("melanotan");
+    expect(OVERRIDE_ALLOWED_COMPOUNDS).not.toContain("pt-141");
+    expect(OVERRIDE_ALLOWED_COMPOUNDS).not.toContain("bremelanotide");
+    expect(OVERRIDE_ALLOWED_COMPOUNDS).not.toContain("ss-31");
+    expect(OVERRIDE_ALLOWED_COMPOUNDS).not.toContain("elamipretide");
+  });
+
+  it("isBannedCompound() returns FALSE for each override-allowed alias", () => {
+    for (const allowed of OVERRIDE_ALLOWED_COMPOUNDS) {
+      expect(isBannedCompound(allowed)).toBe(false);
+    }
+  });
+
+  it("isBannedCompound() returns FALSE for case-variants of override-allowed", () => {
+    expect(isBannedCompound("KLOW")).toBe(false);
+    expect(isBannedCompound("Klow")).toBe(false);
+    expect(isBannedCompound("Reta")).toBe(false);
+    expect(isBannedCompound("RETA")).toBe(false);
+    expect(isBannedCompound("Retatrutide")).toBe(false);
+    expect(isBannedCompound("RETATRUTIDE")).toBe(false);
+    expect(isBannedCompound("Tirz")).toBe(false);
+    expect(isBannedCompound("TIRZ")).toBe(false);
+    expect(isBannedCompound("Tirzepatide")).toBe(false);
+    expect(isBannedCompound("TIRZEPATIDE")).toBe(false);
+  });
+
+  it("isBannedCompound() returns FALSE for slug forms of override-allowed", () => {
+    expect(isBannedCompound("klow-80mg")).toBe(false);
+    expect(isBannedCompound("reta-10mg")).toBe(false);
+    expect(isBannedCompound("reta-20mg")).toBe(false);
+    expect(isBannedCompound("tirz-25mg")).toBe(false);
+    expect(isBannedCompound("retatrutide-10mg")).toBe(false);
+  });
+
+  it("isBannedCompound() returns FALSE for dose-suffix forms of override-allowed", () => {
+    expect(isBannedCompound("Reta 10mg")).toBe(false);
+    expect(isBannedCompound("Tirz 25mg")).toBe(false);
+    expect(isBannedCompound("KLOW 80mg")).toBe(false);
+    expect(isBannedCompound("Reta 10mg vial")).toBe(false);
+    expect(isBannedCompound("klow-80mg vial")).toBe(false);
+  });
+});
+
+describe("isBannedCompound — exact lowercase still-banned entries", () => {
+  const lowerCases: Array<[string]> = STILL_BANNED.map(
     (c: string) => [c] as [string],
   );
   it.each(lowerCases)("rejects exact lowercase form: %s", (entry) => {
@@ -90,8 +153,8 @@ describe("isBannedCompound — exact lowercase canonical entries", () => {
   });
 });
 
-describe("isBannedCompound — case-insensitive matching", () => {
-  const upperCases: Array<[string, string]> = BANNED_COMPOUNDS.map(
+describe("isBannedCompound — case-insensitive matching (still-banned only)", () => {
+  const upperCases: Array<[string, string]> = STILL_BANNED.map(
     (c: string) => [c.toUpperCase(), c] as [string, string],
   );
   it.each(upperCases)(
@@ -101,59 +164,46 @@ describe("isBannedCompound — case-insensitive matching", () => {
     },
   );
 
-  it("rejects Title-Case form for single-word entries", () => {
-    expect(isBannedCompound("Tirzepatide")).toBe(true);
+  it("rejects Title-Case form for still-banned single-word entries", () => {
     expect(isBannedCompound("Semaglutide")).toBe(true);
-    expect(isBannedCompound("Retatrutide")).toBe(true);
+    expect(isBannedCompound("Liraglutide")).toBe(true);
+    expect(isBannedCompound("Dulaglutide")).toBe(true);
     expect(isBannedCompound("Tesamorelin")).toBe(true);
     expect(isBannedCompound("Melanotan")).toBe(true);
     expect(isBannedCompound("Bremelanotide")).toBe(true);
     expect(isBannedCompound("Vyleesi")).toBe(true);
     expect(isBannedCompound("Elamipretide")).toBe(true);
-    expect(isBannedCompound("Klow")).toBe(true);
   });
 
-  it("rejects MixedCase obfuscation for short codes", () => {
-    expect(isBannedCompound("Tirz")).toBe(true);
+  it("rejects MixedCase obfuscation for still-banned short codes", () => {
     expect(isBannedCompound("Sema")).toBe(true);
-    expect(isBannedCompound("Reta")).toBe(true);
-    expect(isBannedCompound("TIRZ")).toBe(true);
-    expect(isBannedCompound("Reta")).toBe(true);
-    expect(isBannedCompound("KLOW")).toBe(true);
+    expect(isBannedCompound("SEMA")).toBe(true);
   });
 });
 
 describe("isBannedCompound — whitespace + punctuation handling", () => {
-  it("rejects with leading/trailing whitespace", () => {
-    expect(isBannedCompound("  tirzepatide  ")).toBe(true);
-    expect(isBannedCompound("\ttirz\n")).toBe(true);
-    expect(isBannedCompound("  KLOW")).toBe(true);
+  it("rejects with leading/trailing whitespace (still-banned compounds)", () => {
+    expect(isBannedCompound("  tesamorelin  ")).toBe(true);
+    expect(isBannedCompound("\tsema\n")).toBe(true);
+    expect(isBannedCompound("  bremelanotide")).toBe(true);
   });
 
-  it("rejects when token is followed by a dose suffix", () => {
-    expect(isBannedCompound("Reta 10mg")).toBe(true);
-    expect(isBannedCompound("Tirz 25mg")).toBe(true);
-    expect(isBannedCompound("KLOW 80mg")).toBe(true);
+  it("rejects when token is followed by a dose suffix (still-banned)", () => {
     expect(isBannedCompound("Sema 5mg")).toBe(true);
     expect(isBannedCompound("tesamorelin 5mg vial")).toBe(true);
-  });
-
-  it("rejects when token is preceded by a brand/product prefix", () => {
-    expect(isBannedCompound("Product: Tirz 25mg")).toBe(true);
-    expect(isBannedCompound("SKU - reta-10mg")).toBe(true);
-    expect(isBannedCompound("Variant: KLOW 80mg vial")).toBe(true);
-  });
-
-  it("rejects banned tokens inside larger strings (vial labels)", () => {
-    expect(isBannedCompound("Reta 10mg vial")).toBe(true);
-    expect(isBannedCompound("Tirz 25mg vial")).toBe(true);
-    expect(isBannedCompound("KLOW 80mg vial")).toBe(true);
     expect(isBannedCompound("Melanotan-II 10mg")).toBe(true);
+    expect(isBannedCompound("PT-141 10mg vial")).toBe(true);
+  });
+
+  it("rejects when token is preceded by a brand/product prefix (still-banned)", () => {
+    expect(isBannedCompound("Product: Tesamorelin 5mg")).toBe(true);
+    expect(isBannedCompound("SKU - pt-141-10mg")).toBe(true);
+    expect(isBannedCompound("Variant: Melanotan-II 10mg vial")).toBe(true);
   });
 });
 
-describe("isBannedCompound — hyphenated entries", () => {
-  it("matches hyphenated GLP-1 forms", () => {
+describe("isBannedCompound — hyphenated still-banned entries", () => {
+  it("matches hyphenated GLP-1 forms (still-banned class identifier)", () => {
     expect(isBannedCompound("glp-1")).toBe(true);
     expect(isBannedCompound("GLP-1")).toBe(true);
     expect(isBannedCompound("glp1")).toBe(true);
@@ -185,19 +235,8 @@ describe("isBannedCompound — hyphenated entries", () => {
     expect(isBannedCompound("PT141")).toBe(true);
   });
 
-  it("matches klow-80mg slug form", () => {
-    expect(isBannedCompound("klow-80mg")).toBe(true);
-  });
-
-  it("matches retatrutide-10mg slug form (substring within token)", () => {
-    expect(isBannedCompound("retatrutide-10mg")).toBe(true);
-  });
-
-  it("matches tirzepatide-mimetic (substring banned token within larger word)", () => {
-    // Banned single-word entries like 'tirzepatide' substring-match
-    // because the word-boundary regex is `(^|[^a-z0-9])tirzepatide([^a-z0-9]|$)`
-    // and "tirzepatide-mimetic" has a hyphen boundary after tirzepatide.
-    expect(isBannedCompound("tirzepatide-mimetic")).toBe(true);
+  it("matches tesamorelin-5mg slug form (substring within token)", () => {
+    expect(isBannedCompound("tesamorelin-5mg")).toBe(true);
   });
 });
 
@@ -226,32 +265,34 @@ describe("isBannedCompound — multi-word entries (BAC water family)", () => {
   });
 });
 
-describe("isBannedCompound — concrete S1 / audit C5 cases", () => {
-  // These are the literal cases that audit C5 + supplemental S1 demonstrated
-  // would slip past the catalog-inclusion gate when the operator added
-  // shortName="Reta" + "Tirz" + "KLOW" to lib/content/products.ts. The
-  // blocklist is the second gate; these MUST be rejected.
+describe("isBannedCompound — concrete still-banned cases (post-2026-05-22 override)", () => {
+  // Still-banned compounds — must reject. Reta/Tirz/KLOW are explicitly
+  // NOT in this list because the 2026-05-22 operator override allows them.
   it.each([
-    ["Reta"],
-    ["Tirz"],
-    ["KLOW"],
-    ["Reta 10mg vial"],
-    ["Tirz 25mg"],
-    ["klow-80mg"],
-    ["reta-10mg"],
-    ["tirz-25mg"],
+    ["Tesamorelin"],
     ["tesamorelin-5mg"],
-    ["pt-141-10mg"],
+    ["Melanotan"],
+    ["Melanotan-II"],
     ["melanotan-ii-10mg"],
-    ["klow-80mg vial"],
-  ])("rejects audit S1 case: %s", (input) => {
+    ["PT-141"],
+    ["pt-141-10mg"],
+    ["Bremelanotide"],
+    ["Vyleesi"],
+    ["Sema"],
+    ["semaglutide"],
+    ["bacteriostatic water"],
+    ["bac-water"],
+    ["SS-31"],
+    ["elamipretide"],
+    ["GLP-1"],
+  ])("rejects still-banned case: %s", (input) => {
     expect(isBannedCompound(input)).toBe(true);
   });
 });
 
 describe("isBannedCompound — safe compounds (NEGATIVE cases)", () => {
   // Every name below SHOULD return false. If any of these starts returning
-  // true, the blocklist over-blocks and the safe v5.0 catalog breaks.
+  // true, the blocklist over-blocks and the catalog breaks.
   const safeCompounds: Array<[string]> = [
     ["BPC-157"],
     ["bpc-157"],
@@ -305,7 +346,6 @@ describe("isBannedCompound — whole-word semantics", () => {
   });
 
   it("does NOT match 'sematic' (different word, starts with 'sema')", () => {
-    // 'sema' is a banned 4-letter short code, but only as a standalone word.
     expect(isBannedCompound("sematic")).toBe(false);
   });
 
@@ -317,15 +357,14 @@ describe("isBannedCompound — whole-word semantics", () => {
     expect(isBannedCompound("klowinski")).toBe(false);
   });
 
-  it("does match across hyphen boundaries (still considered a word boundary)", () => {
-    expect(isBannedCompound("foo-tirz-bar")).toBe(true);
-    expect(isBannedCompound("foo-reta-bar")).toBe(true);
-    expect(isBannedCompound("a-klow-b")).toBe(true);
+  it("does match still-banned tokens across hyphen boundaries", () => {
+    expect(isBannedCompound("foo-tesamorelin-bar")).toBe(true);
+    expect(isBannedCompound("foo-sema-bar")).toBe(true);
   });
 
-  it("does match across whitespace boundaries", () => {
-    expect(isBannedCompound("vial of tirz here")).toBe(true);
-    expect(isBannedCompound("contains reta")).toBe(true);
+  it("does match still-banned tokens across whitespace boundaries", () => {
+    expect(isBannedCompound("vial of tesamorelin here")).toBe(true);
+    expect(isBannedCompound("contains sema")).toBe(true);
   });
 });
 
