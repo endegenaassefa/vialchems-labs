@@ -26,8 +26,8 @@ Modules at or above Iron Law 2.36 targets (≥95% line, ≥90% branch):
 - `lib/payments/bitcoin-direct.ts`: 89.61% / 75% (defensive HMAC branches)
 - `lib/payments/bitcoin-status.ts`: 87.5% / 85.71% (close)
 - `lib/payments/plaid-jwks.ts`: 90.47% / 91.66% (acceptable)
-- `lib/sentry.ts`: **100% / 100%** (Phase 3 C4)
-- `lib/rate-limit.ts`: **100% / 100%** (Phase 3 C5)
+- `lib/sentry.ts`: 100% line / 98.11% branch (Phase 3 C4; v5.1 closure added the rate-limit breadcrumb helper — one defensive `!value` short-circuit in `isCaptureOptions` is unreachable because callers guard `context === undefined` first; documented exception)
+- `lib/rate-limit.ts`: 100% line / 94.73% branch (Phase 3 C5; v5.1 closure added the Upstash adapter, LRU cap, SKIP_RATE_LIMIT bypass, and `isRateLimited` entry point — uncovered branches are the defensive `!limiter` short-circuit inside `upstashGate` and the `err.message ?? err` fallback in the Sentry warning; both are unreachable in the test runtime since `upstashGate` is only invoked when `getRateLimitAdapter()` already returned `"upstash"`. Documented exception per Iron Law 2.36 framework-defensive-callback clause)
 - `lib/email/welcome-sequence.ts`: **100% / 100%** (Phase 7 G4)
 - `lib/email/resend.ts`: **100% / 100%** (Phase 10 J2)
 - `lib/age-verification.ts`: **100% / 100%** (Phase 10 J1)
@@ -101,6 +101,17 @@ Component coverage (Iron Law 2.36 target ≥95% line):
 **Reason:** `sentry.edge.config.ts` runs in edge runtime where Vitest cannot natively load. `beforeSend` PII scrubber unit-tested in `tests/unit/sentry.test.ts` against the runtime-agnostic helper; edge-specific init args verified via static read.
 
 **Action:** Accepted.
+
+### API route Supabase + Resend integration paths
+
+**Reason:** `app/api/access/route.ts` (lines 157-212), `app/api/newsletter/subscribe/route.ts` (lines 152-190), and `app/api/contact/route.ts` (lines 105, 117) are the Supabase persistence + Resend dispatch branches. They run only when `serviceSupabase()` returns a non-null client OR when production-mode `isProductionRuntime()` flips to true. Unit tests mock `serviceSupabase` to `null` so the Day-1 (no-DB) path is exercised. The Supabase/Resend integration paths are validated via:
+
+- `tests/integration/migrations.test.ts` (schema + insert shape)
+- E2E Playwright specs (Phase 11) running against a staging Supabase project
+
+Iron Law 2.34 v5.1 closure added the per-email gate to /access + /newsletter and the response-key rename across all three; those new branches are 100% covered by the unit tests in `tests/unit/api/*`. The remaining sub-95% line coverage is pre-existing Supabase/Resend integration gap, accepted at v5.0 baseline and unchanged by the v5.1 closure.
+
+**Action:** Accepted; Phase 11 staging E2E is the operative gate for the integration paths.
 
 ### Test infrastructure files
 

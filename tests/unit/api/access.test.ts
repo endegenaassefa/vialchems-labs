@@ -12,6 +12,10 @@ vi.mock("@/lib/supabase", () => ({
 import { POST } from "@/app/api/access/route";
 import { __resetRateLimitForTests } from "@/lib/rate-limit";
 
+afterEach(() => {
+  delete process.env.SKIP_RATE_LIMIT;
+});
+
 const validPayload = {
   email: "researcher@example.com",
   role: "academic-researcher",
@@ -79,8 +83,11 @@ describe("POST /api/access (D7 qualification persistence)", () => {
     expect(res.status).toBe(400);
   });
 
-  it("returns 429 + Retry-After after 10 requests within 60s (Iron Law 2.34)", async () => {
+  it("returns 429 + Retry-After after 10 requests within 60s (per-IP cap, Iron Law 2.34)", async () => {
     const ip = "203.0.113.99";
+    // Use a different email per request so the per-IP gate is the dominant
+    // limit (per-email cap is 3/hr; per-IP cap is 10/60s — this test
+    // exercises the per-IP path).
     for (let i = 0; i < 10; i += 1) {
       const ok = await POST(
         new Request("http://localhost/api/access", {
@@ -89,7 +96,10 @@ describe("POST /api/access (D7 qualification persistence)", () => {
             "content-type": "application/json",
             "x-forwarded-for": ip,
           },
-          body: JSON.stringify(validPayload),
+          body: JSON.stringify({
+            ...validPayload,
+            email: `researcher-${i}@example.com`,
+          }),
         }),
       );
       expect(ok.status).toBe(200);
@@ -101,7 +111,10 @@ describe("POST /api/access (D7 qualification persistence)", () => {
           "content-type": "application/json",
           "x-forwarded-for": ip,
         },
-        body: JSON.stringify(validPayload),
+        body: JSON.stringify({
+          ...validPayload,
+          email: "researcher-overflow@example.com",
+        }),
       }),
     );
     expect(blocked.status).toBe(429);
@@ -111,5 +124,61 @@ describe("POST /api/access (D7 qualification persistence)", () => {
     const body = await blocked.json();
     expect(body.ok).toBe(false);
     expect(body.error).toBe("rate_limited");
+    // v5.1 rename: response carries `retryAfterSeconds`, not `retryAfter`.
+    expect(body.retryAfterSeconds).toBeGreaterThan(0);
+    expect(body.retryAfter).toBeUndefined();
+  });
+
+  it("returns 429 when the SAME email is submitted from 3 different IPs (per-email cap, Iron Law 2.34 v5.1)", async () => {
+    const email = "abuser@example.com";
+    const payload = { ...validPayload, email };
+    // 3 unique IPs each post once with this email → per-email cap is hit.
+    for (let i = 0; i < 3; i += 1) {
+      const ok = await POST(
+        new Request("http://localhost/api/access", {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+            "x-forwarded-for": `198.51.100.${i + 1}`,
+          },
+          body: JSON.stringify(payload),
+        }),
+      );
+      expect(ok.status).toBe(200);
+    }
+    // 4th IP, same email → blocked on the email gate, not the IP gate.
+    const blocked = await POST(
+      new Request("http://localhost/api/access", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+          "x-forwarded-for": "198.51.100.99",
+        },
+        body: JSON.stringify(payload),
+      }),
+    );
+    expect(blocked.status).toBe(429);
+    const body = await blocked.json();
+    expect(body.error).toBe("rate_limited");
+    expect(body.retryAfterSeconds).toBeGreaterThan(0);
+  });
+
+  it("SKIP_RATE_LIMIT=true bypasses all gates (test+dev escape hatch)", async () => {
+    process.env.SKIP_RATE_LIMIT = "true";
+    const ip = "203.0.113.77";
+    // 20 calls from the same IP — would normally be 10 ok then blocked.
+    for (let i = 0; i < 20; i += 1) {
+      const res = await POST(
+        new Request("http://localhost/api/access", {
+          method: "POST",
+          headers: {
+            "content-type": "application/json",
+            "x-forwarded-for": ip,
+          },
+          body: JSON.stringify(validPayload),
+        }),
+      );
+      expect(res.status).toBe(200);
+    }
   });
 });

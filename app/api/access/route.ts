@@ -23,7 +23,7 @@ import {
   ATTESTATIONS,
   validateQualification,
 } from "@/lib/customer-qualification";
-import { rateLimitByIp } from "@/lib/rate-limit";
+import { isRateLimited } from "@/lib/rate-limit";
 import { captureException } from "@/lib/sentry";
 import { serviceSupabase } from "@/lib/supabase";
 
@@ -53,23 +53,25 @@ export async function POST(request: Request): Promise<Response> {
     data: { route: "access" },
   });
 
-  // Iron Law 2.34: anti-abuse gate before any work happens.
+  // Iron Law 2.34 v5.1: anti-abuse gate before any work happens. IP gate
+  // first; per-email gate fires after Zod validates the payload so we
+  // count against the normalised email, not arbitrary user input.
   const ip = getClientIp(request);
-  const limit = rateLimitByIp("access", ip);
-  if (!limit.success) {
+  const ipGate = await isRateLimited({ route: "access", ip });
+  if (ipGate.limited) {
     return NextResponse.json(
       {
         ok: false,
         error: "rate_limited",
-        retryAfter: limit.retryAfterSeconds,
+        retryAfterSeconds: ipGate.retryAfterSeconds,
       },
       {
         status: 429,
         headers: {
-          "Retry-After": String(limit.retryAfterSeconds),
-          "X-RateLimit-Limit": String(limit.limit),
+          "Retry-After": String(ipGate.retryAfterSeconds),
+          "X-RateLimit-Limit": String(ipGate.limit),
           "X-RateLimit-Remaining": "0",
-          "X-RateLimit-Reset": String(limit.reset),
+          "X-RateLimit-Reset": String(ipGate.reset),
         },
       },
     );
@@ -102,6 +104,35 @@ export async function POST(request: Request): Promise<Response> {
   }
 
   const data = validation.data;
+
+  // Iron Law 2.34 v5.1: per-email gate after Zod parses the payload.
+  // Same IP is fresh (we passed the IP gate above) but the email may have
+  // been hammered from 3 different IPs already. `gates: ["email"]` skips
+  // the IP re-check so we don't double-charge the IP counter.
+  const emailGate = await isRateLimited({
+    route: "access",
+    ip,
+    email: data.email,
+    gates: ["email"],
+  });
+  if (emailGate.limited) {
+    return NextResponse.json(
+      {
+        ok: false,
+        error: "rate_limited",
+        retryAfterSeconds: emailGate.retryAfterSeconds,
+      },
+      {
+        status: 429,
+        headers: {
+          "Retry-After": String(emailGate.retryAfterSeconds),
+          "X-RateLimit-Limit": String(emailGate.limit),
+          "X-RateLimit-Remaining": "0",
+          "X-RateLimit-Reset": String(emailGate.reset),
+        },
+      },
+    );
+  }
   const attestationLegalText = ATTESTATIONS.join("\n");
   // Iron Law 2.10: the canonical hash helper lives in lib/attestations.ts
   // so every insertion path (this route + future back-fill scripts) shares

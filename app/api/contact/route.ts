@@ -2,7 +2,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import * as Sentry from "@sentry/nextjs";
 import { findMarketingCopyViolation } from "@/lib/compliance";
 import { sendEmail } from "@/lib/email/resend";
-import { rateLimitByIp } from "@/lib/rate-limit";
+import { isRateLimited } from "@/lib/rate-limit";
 import { isProductionRuntime } from "@/lib/runtime-env";
 import { captureException } from "@/lib/sentry";
 
@@ -41,22 +41,26 @@ export async function POST(req: NextRequest) {
     data: { route: "contact" },
   });
 
+  // Iron Law 2.34 v5.1: IP-only gate on contact (no per-email gate — the
+  // spec carve-out: contact has no qualification flow to abuse, and a
+  // research customer often shares a single corporate IP across many lab
+  // members. Email gate would create churn for legitimate inbound).
   const ip = getClientIp(req);
-  const limit = rateLimitByIp("contact", ip);
-  if (!limit.success) {
+  const gate = await isRateLimited({ route: "contact", ip });
+  if (gate.limited) {
     return NextResponse.json(
       {
         ok: false,
         error: "rate_limited",
-        retryAfter: limit.retryAfterSeconds,
+        retryAfterSeconds: gate.retryAfterSeconds,
       },
       {
         status: 429,
         headers: {
-          "Retry-After": String(limit.retryAfterSeconds),
-          "X-RateLimit-Limit": String(limit.limit),
+          "Retry-After": String(gate.retryAfterSeconds),
+          "X-RateLimit-Limit": String(gate.limit),
           "X-RateLimit-Remaining": "0",
-          "X-RateLimit-Reset": String(limit.reset),
+          "X-RateLimit-Reset": String(gate.reset),
         },
       },
     );
