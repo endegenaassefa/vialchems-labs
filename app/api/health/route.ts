@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import * as Sentry from "@sentry/nextjs";
 import { captureException } from "@/lib/sentry";
+import packageJson from "../../../package.json";
 
 /**
  * Health check endpoint per SUPER_PROMPT_v3 Phase 3 + Phase 14.
@@ -11,17 +12,20 @@ import { captureException } from "@/lib/sentry";
  * Phase 3.3 (v5) — Sentry instrumentation per Iron Law 2.32.
  * Phase 9 (v5) — added `version` + `gitSha` fields per audit L13 for canary
  * + deploy-verification dashboards.
+ * Phase 14 follow-up — `package.json` is the version source-of-truth: every
+ * release bump propagates to `/api/health` automatically without needing a
+ * `NEXT_PUBLIC_PACKAGE_VERSION` env update in Vercel. Env still wins if set.
  */
 export const dynamic = "force-dynamic";
 
-// Build-time env injected by Vercel (or operator); fall back to env-driven
-// defaults when run outside Vercel. Version is read from package.json via
-// build-time env propagation (NEXT_PUBLIC_PACKAGE_VERSION) when available,
-// else falls back to the production v5.0.0 tag.
+// Build-time env injected by Vercel (or operator) takes precedence so the
+// operator can pin or override at deploy time. When unset, fall back to
+// `v${package.json version}` — guarantees the reported version always
+// matches what's actually shipped without manual env upkeep.
 const VERSION =
   process.env.NEXT_PUBLIC_PACKAGE_VERSION ??
   process.env.PACKAGE_VERSION ??
-  "v5.0.0";
+  `v${packageJson.version}`;
 
 const GIT_SHA =
   process.env.VERCEL_GIT_COMMIT_SHA ??
