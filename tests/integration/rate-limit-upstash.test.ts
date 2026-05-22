@@ -141,4 +141,67 @@ describe("Upstash adapter (Iron Law 2.34 v5.1)", () => {
       expect.any(Object),
     );
   });
+
+  it("reuses the cached Ratelimit + Redis singletons across calls (no churn)", async () => {
+    ratelimitLimitMock.mockResolvedValue({
+      success: true,
+      limit: 10,
+      remaining: 5,
+      reset: Date.now() + 60_000,
+    });
+    const { isRateLimited } = await import("@/lib/rate-limit");
+    // Two calls to the same route + scope → only one Ratelimit instance built.
+    await isRateLimited({ route: "access", ip: "203.0.113.53" });
+    await isRateLimited({ route: "access", ip: "203.0.113.54" });
+    // Redis built once; Ratelimit built once per (scope, route).
+    expect(redisCtorMock).toHaveBeenCalledTimes(1);
+    expect(ratelimitCtorMock).toHaveBeenCalledTimes(1);
+  });
+
+  it("uses separate limiters per scope when email is supplied", async () => {
+    ratelimitLimitMock.mockResolvedValue({
+      success: true,
+      limit: 10,
+      remaining: 5,
+      reset: Date.now() + 60_000,
+    });
+    const { isRateLimited } = await import("@/lib/rate-limit");
+    await isRateLimited({
+      route: "access",
+      ip: "203.0.113.60",
+      email: "scope@example.com",
+    });
+    // Two limiters: ip-scope + email-scope (both for "access" route).
+    expect(ratelimitCtorMock).toHaveBeenCalledTimes(2);
+  });
+
+  it("emits a denial breadcrumb when Upstash reports success=false on the email gate", async () => {
+    // First call (ip): success. Second call (email): denied.
+    ratelimitLimitMock
+      .mockResolvedValueOnce({
+        success: true,
+        limit: 10,
+        remaining: 9,
+        reset: Date.now() + 60_000,
+      })
+      .mockResolvedValueOnce({
+        success: false,
+        limit: 3,
+        remaining: 0,
+        reset: Date.now() + 60_000,
+      });
+    const { isRateLimited } = await import("@/lib/rate-limit");
+    const r = await isRateLimited({
+      route: "access",
+      ip: "203.0.113.70",
+      email: "deny@example.com",
+    });
+    expect(r.limited).toBe(true);
+    if (r.limited) expect(r.scope).toBe("email");
+    expect(addBreadcrumbMock).toHaveBeenCalledWith(
+      "access",
+      "email",
+      expect.any(Number),
+    );
+  });
 });

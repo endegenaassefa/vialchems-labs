@@ -472,6 +472,19 @@ describe("captureException / captureMessage / startWebhookTransaction", () => {
     expect(mockCaptureException).toHaveBeenCalledWith(err, undefined);
   });
 
+  it("captureException forwards tags + extra from SentryCaptureOptions shape", () => {
+    process.env.NEXT_PUBLIC_SENTRY_DSN = "https://example@sentry.io/1";
+    const err = new Error("boom");
+    captureException(err, {
+      tags: { route: "access" },
+      extra: { detail: "x" },
+    });
+    expect(mockCaptureException).toHaveBeenCalledWith(err, {
+      tags: { route: "access" },
+      extra: { detail: "x" },
+    });
+  });
+
   it("captureMessage no-ops when DSN is empty", () => {
     delete process.env.NEXT_PUBLIC_SENTRY_DSN;
     captureMessage("hello");
@@ -486,6 +499,30 @@ describe("captureException / captureMessage / startWebhookTransaction", () => {
       {
         level: "info",
         extra: { sku: "BPC-157" },
+      },
+    );
+  });
+
+  it("captureMessage passes only level when no context", () => {
+    process.env.NEXT_PUBLIC_SENTRY_DSN = "https://example@sentry.io/1";
+    captureMessage("hello", "warning");
+    expect(mockCaptureMessage).toHaveBeenCalledWith("hello", {
+      level: "warning",
+    });
+  });
+
+  it("captureMessage forwards tags + extra from SentryCaptureOptions shape", () => {
+    process.env.NEXT_PUBLIC_SENTRY_DSN = "https://example@sentry.io/1";
+    captureMessage("rate_limit.upstash_fallback", "warning", {
+      tags: { route: "access" },
+      extra: { error: "503" },
+    });
+    expect(mockCaptureMessage).toHaveBeenCalledWith(
+      "rate_limit.upstash_fallback",
+      {
+        level: "warning",
+        tags: { route: "access" },
+        extra: { error: "503" },
       },
     );
   });

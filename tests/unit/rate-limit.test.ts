@@ -235,6 +235,23 @@ describe("storage selection", () => {
         process.env.UPSTASH_REDIS_REST_TOKEN = originalToken;
     }
   });
+
+  it("falls back to 'in-memory' when only token is set (no URL)", async () => {
+    const originalUrl = process.env.UPSTASH_REDIS_REST_URL;
+    const originalToken = process.env.UPSTASH_REDIS_REST_TOKEN;
+    delete process.env.UPSTASH_REDIS_REST_URL;
+    process.env.UPSTASH_REDIS_REST_TOKEN = "tok";
+    try {
+      const { getRateLimitAdapter } = await import("@/lib/rate-limit");
+      expect(getRateLimitAdapter()).toBe("in-memory");
+    } finally {
+      if (originalUrl !== undefined)
+        process.env.UPSTASH_REDIS_REST_URL = originalUrl;
+      if (originalToken === undefined)
+        delete process.env.UPSTASH_REDIS_REST_TOKEN;
+      else process.env.UPSTASH_REDIS_REST_TOKEN = originalToken;
+    }
+  });
 });
 
 describe("isRateLimited (high-level entry)", () => {
@@ -294,6 +311,67 @@ describe("isRateLimited (high-level entry)", () => {
       expect(blocked.scope).toBe("email");
       expect(blocked.retryAfterSeconds).toBeGreaterThan(0);
     }
+  });
+
+  it("respects gates: ['email'] (skips IP gate so callers can do two-pass without double-charging)", async () => {
+    const ip = "203.0.113.111";
+    const email = "twopass@example.com";
+    const t0 = 1_700_000_050_000;
+    // Run 100 email-only gates from the same IP — IP counter is never
+    // touched, so it can't trip.
+    for (let i = 0; i < 100; i += 1) {
+      const r = await isRateLimited({
+        route: "newsletter",
+        ip,
+        email: `twopass${i}@example.com`,
+        gates: ["email"],
+        now: t0 + i,
+      });
+      expect(r.limited).toBe(false);
+    }
+    // Same email three times → email gate trips on the 4th call (cap 3/hr).
+    for (let i = 0; i < 3; i += 1) {
+      await isRateLimited({
+        route: "newsletter",
+        ip,
+        email,
+        gates: ["email"],
+        now: t0 + 200 + i,
+      });
+    }
+    const blocked = await isRateLimited({
+      route: "newsletter",
+      ip,
+      email,
+      gates: ["email"],
+      now: t0 + 250,
+    });
+    expect(blocked.limited).toBe(true);
+    if (blocked.limited) expect(blocked.scope).toBe("email");
+  });
+
+  it("respects gates: ['ip'] (skips the email gate even when email provided)", async () => {
+    const ip = "203.0.113.112";
+    const t0 = 1_700_000_060_000;
+    // 3 calls from same email with gates: ['ip'] — email counter stays at 0.
+    for (let i = 0; i < 3; i += 1) {
+      await isRateLimited({
+        route: "newsletter",
+        ip,
+        email: "iponly@example.com",
+        gates: ["ip"],
+        now: t0 + i,
+      });
+    }
+    // The email counter never advanced, so a normal call (gates default)
+    // is still under the email cap. IP cap (5) is the limit.
+    const r = await isRateLimited({
+      route: "newsletter",
+      ip,
+      email: "iponly@example.com",
+      now: t0 + 10,
+    });
+    expect(r.limited).toBe(false);
   });
 
   it("skips the email check when arg omitted (IP-only gate)", async () => {
@@ -376,6 +454,62 @@ describe("isRateLimited (high-level entry)", () => {
   });
 });
 
+describe("SKIP_RATE_LIMIT production bypass warning", () => {
+  beforeEach(() => {
+    captureMessageSpy.mockClear();
+    vi.unstubAllEnvs();
+  });
+
+  afterEach(() => {
+    delete process.env.SKIP_RATE_LIMIT;
+    vi.unstubAllEnvs();
+  });
+
+  it("fires a one-shot Sentry alert when SKIP_RATE_LIMIT=true in production", async () => {
+    vi.stubEnv("NODE_ENV", "production");
+    process.env.SKIP_RATE_LIMIT = "true";
+
+    vi.resetModules();
+    const mod = await import("@/lib/rate-limit");
+    mod.__resetRateLimitForTests();
+
+    // First call triggers the alert.
+    await mod.isRateLimited({ route: "access", ip: "203.0.113.1" });
+    expect(captureMessageSpy).toHaveBeenCalledWith(
+      "rate_limit.bypass_active",
+      "error",
+      expect.objectContaining({
+        tags: expect.objectContaining({ route: "all", scope: "all" }),
+      }),
+    );
+
+    // Subsequent calls do NOT re-fire the alert (one-shot).
+    captureMessageSpy.mockClear();
+    await mod.isRateLimited({ route: "access", ip: "203.0.113.2" });
+    expect(captureMessageSpy).not.toHaveBeenCalledWith(
+      "rate_limit.bypass_active",
+      expect.anything(),
+      expect.anything(),
+    );
+  });
+
+  it("does NOT fire the alert when SKIP_RATE_LIMIT=true OUTSIDE production", async () => {
+    vi.stubEnv("NODE_ENV", "test");
+    process.env.SKIP_RATE_LIMIT = "true";
+
+    vi.resetModules();
+    const mod = await import("@/lib/rate-limit");
+    mod.__resetRateLimitForTests();
+
+    await mod.isRateLimited({ route: "access", ip: "203.0.113.3" });
+    expect(captureMessageSpy).not.toHaveBeenCalledWith(
+      "rate_limit.bypass_active",
+      expect.anything(),
+      expect.anything(),
+    );
+  });
+});
+
 describe("LRU eviction cap", () => {
   beforeEach(() => {
     __resetRateLimitForTests();
@@ -383,6 +517,25 @@ describe("LRU eviction cap", () => {
 
   afterEach(() => {
     delete process.env.RATE_LIMIT_MAX_KEYS;
+  });
+
+  it("falls back to the default max when RATE_LIMIT_MAX_KEYS is non-numeric", async () => {
+    process.env.RATE_LIMIT_MAX_KEYS = "not-a-number";
+    vi.resetModules();
+    const mod = await import("@/lib/rate-limit");
+    mod.__resetRateLimitForTests();
+    // Should not throw. Default cap is 10_000 so normal calls succeed.
+    const r = mod.rateLimitByIp("access", "10.99.99.1");
+    expect(r.success).toBe(true);
+  });
+
+  it("falls back to the default max when RATE_LIMIT_MAX_KEYS is zero or negative", async () => {
+    process.env.RATE_LIMIT_MAX_KEYS = "-5";
+    vi.resetModules();
+    const mod = await import("@/lib/rate-limit");
+    mod.__resetRateLimitForTests();
+    const r = mod.rateLimitByIp("access", "10.99.99.2");
+    expect(r.success).toBe(true);
   });
 
   it("evicts the least-recently-used entry once the cap is exceeded", async () => {
