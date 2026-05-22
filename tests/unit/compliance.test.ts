@@ -32,8 +32,8 @@ describe("assertMarketingCopySafe", () => {
         "catalog exclusion — semaglutide",
         "studies on semaglutide pharmacokinetics",
       ],
-      ["catalog exclusion — tirzepatide", "tirzepatide research applications"],
-      ["catalog exclusion — retatrutide", "retatrutide is a triple agonist"],
+      // tirzepatide + retatrutide removed from forbidden patterns per
+      // docs/DECISIONS/iron_law_2_7_override_2026-05-22.md (operator override).
       ["catalog exclusion — insulin", "insulin sensitivity research"],
       ["catalog exclusion — diabetes", "studied in diabetes models"],
       ["quality claim — clinically proven", "clinically proven for recovery"],
@@ -111,14 +111,10 @@ describe("assertMarketingCopySafe", () => {
       ["Iron Law 2.29 — liraglutide", "liraglutide pharmacokinetics"],
       ["Iron Law 2.29 — dulaglutide", "dulaglutide pharmacokinetics"],
 
-      // v5 §2.29 extensions — short-code GLP-1 obfuscations (catalog used
-      // shortName='Reta', 'Tirz', 'Sema' before audit C5 + S1 removal).
-      ["Iron Law 2.29 — Reta standalone short-code", "Reta 10mg research vial"],
-      ["Iron Law 2.29 — Tirz standalone short-code", "Tirz 25mg research vial"],
+      // v5 §2.29 extensions — short-code GLP-1 obfuscations.
+      // Reta/Tirz/KLOW removed from forbidden patterns per the 2026-05-22
+      // operator override (now legitimate catalog SKUs). 'Sema' stays banned.
       ["Iron Law 2.29 — Sema standalone short-code", "Sema 5mg research vial"],
-
-      // v5.0 supplemental S1 — undetermined-composition blend
-      ["Iron Law 2.29 — klow standalone", "klow 80mg lyophilized"],
 
       // Audit M1 — hyphen-fix bypass (currently the `\s*` patterns silently
       // bypass hyphenated forms; this MUST now throw).
@@ -233,11 +229,18 @@ describe("findMarketingCopyViolation", () => {
     ).not.toBeNull();
   });
 
-  it("returns a violation for short-code 'Reta' (Iron Law 2.29 + S1)", () => {
-    expect(findMarketingCopyViolation("Reta 10mg vial")).not.toBeNull();
+  // Reta + KLOW removed from forbidden patterns per the 2026-05-22 operator
+  // override. They now return null (no violation) when scanning copy.
+  it("returns NULL for 'Reta' (override-allowed post-2026-05-22)", () => {
+    expect(findMarketingCopyViolation("Reta 10mg vial")).toBeNull();
   });
 
-  it("returns a violation for KLOW (supplemental S1)", () => {
-    expect(findMarketingCopyViolation("klow 80mg vial")).not.toBeNull();
+  it("returns NULL for KLOW (override-allowed post-2026-05-22)", () => {
+    expect(findMarketingCopyViolation("klow 80mg vial")).toBeNull();
+  });
+
+  // Sema short-code stays banned per the override's narrow scope.
+  it("returns a violation for short-code 'Sema' (still-banned)", () => {
+    expect(findMarketingCopyViolation("Sema 5mg vial")).not.toBeNull();
   });
 });

@@ -134,9 +134,9 @@ describe("Vial", () => {
       expect(container.querySelector("[data-vial-qr]")).toBeInTheDocument();
     });
 
-    it("withLabel=true throws on tirzepatide (Iron Law 2.7 — perpetual ITC GEO)", () => {
+    it("withLabel=true throws on tesamorelin (Iron Law 2.7 — still-banned per v5 §2.29)", () => {
       expect(() => {
-        render(<Vial withLabel compound="tirzepatide" dose="10mg" />);
+        render(<Vial withLabel compound="tesamorelin" dose="5mg" />);
       }).toThrow(/iron law 2.7/i);
     });
 
@@ -146,20 +146,34 @@ describe("Vial", () => {
       }).toThrow(/iron law 2.7/i);
     });
 
-    it("withLabel=true throws on retatrutide (Iron Law 2.7 — 90-day FDA carve-out)", () => {
+    it("withLabel=true throws on bremelanotide (Iron Law 2.7 — Vyleesi-approved)", () => {
       expect(() => {
-        render(<Vial withLabel compound="retatrutide" dose="10mg" />);
+        render(<Vial withLabel compound="bremelanotide" dose="10mg" />);
       }).toThrow(/iron law 2.7/i);
     });
 
-    it("withLabel=true with case variation also rejects banned compounds", () => {
-      // Case-insensitive defense: "Tirzepatide" and "TIRZEPATIDE" both blocked.
+    it("withLabel=true with case variation also rejects still-banned compounds", () => {
+      // Case-insensitive defense
       expect(() => {
-        render(<Vial withLabel compound="Tirzepatide" dose="10mg" />);
+        render(<Vial withLabel compound="Tesamorelin" dose="5mg" />);
       }).toThrow(/iron law 2.7/i);
       expect(() => {
         render(<Vial withLabel compound="SEMAGLUTIDE" dose="10mg" />);
       }).toThrow(/iron law 2.7/i);
+    });
+
+    // Post-2026-05-22 override: tirzepatide + retatrutide + klow now pass
+    // both gates per docs/DECISIONS/iron_law_2_7_override_2026-05-22.md.
+    it("withLabel=true renders for override-allowed 'Tirz' (post-2026-05-22)", () => {
+      expect(() => {
+        render(<Vial withLabel compound="Tirz" dose="25mg" />);
+      }).not.toThrow();
+    });
+
+    it("withLabel=true renders for override-allowed 'Reta' (post-2026-05-22)", () => {
+      expect(() => {
+        render(<Vial withLabel compound="Reta" dose="10mg" />);
+      }).not.toThrow();
     });
 
     it("outer wrapper carries --shadow-md drop-shadow filter for depth", () => {
@@ -204,8 +218,10 @@ describe("Vial", () => {
 // `compound` is provided, regardless of withLabel — so banned and not-in-catalog
 // compounds throw at render time even in unlabeled vials.
 describe("Iron Law 2.29 — Vial double-gate (static blocklist + catalog allowlist)", () => {
-  // These compounds are NOT in the catalog after Phase 2.1 removal, but the
-  // blocklist must REJECT them even if a future commit adds them back.
+  // These compounds remain banned post-2026-05-22 operator override (which
+  // unbanned ONLY klow/reta/retatrutide/tirz/tirzepatide). The blocklist
+  // MUST continue refusing all of these even if a future commit adds them
+  // back to the catalog.
   const STATIC_BANNED = [
     "tesamorelin",
     "Tesamorelin",
@@ -214,12 +230,6 @@ describe("Iron Law 2.29 — Vial double-gate (static blocklist + catalog allowli
     "Melanotan II",
     "PT-141",
     "Bremelanotide",
-    "klow",
-    "KLOW",
-    "Reta",
-    "Tirz",
-    "tirzepatide",
-    "retatrutide",
     "semaglutide",
     "bacteriostatic water",
     "BAC water",

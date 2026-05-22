@@ -76,6 +76,47 @@ export const BANNED_COMPOUNDS = [
 export type BannedCompound = (typeof BANNED_COMPOUNDS)[number];
 
 /**
+ * Operator-authorized exceptions to the BANNED_COMPOUNDS baseline.
+ *
+ * Per `docs/DECISIONS/iron_law_2_7_override_2026-05-22.md`, the operator
+ * accepted the regulatory risk for these three compound families and
+ * directed them back into the catalog. BANNED_COMPOUNDS above stays as
+ * the documented default-banned baseline (Iron Law 2.14 audit trail).
+ * `isBannedCompound()` short-circuits to false when input matches any
+ * entry here, regardless of BANNED_COMPOUNDS membership.
+ *
+ * Scope is intentionally narrow: only these 5 aliases are unbanned.
+ * Semaglutide, liraglutide, dulaglutide, GLP-1 generic, tesamorelin,
+ * melanotan, pt-141 / bremelanotide, MT-1/MT-II, BAC water, SS-31 /
+ * elamipretide all remain banned.
+ *
+ * To revert: delete this set, delete the per-SKU products.ts entries,
+ * delete the LOCKED_OVERRIDE doc. See the doc's "Reversion procedure"
+ * section.
+ */
+export const OVERRIDE_ALLOWED_COMPOUNDS = [
+  "klow",
+  "reta",
+  "retatrutide",
+  "tirz",
+  "tirzepatide",
+] as const;
+
+export type OverrideAllowedCompound =
+  (typeof OVERRIDE_ALLOWED_COMPOUNDS)[number];
+
+function matchesEntry(normalized: string, entry: string): boolean {
+  // For multi-word or hyphenated bans, do substring match
+  if (entry.includes(" ") || entry.includes("-")) {
+    return normalized.includes(entry);
+  }
+  // For single-word bans, do whole-word match (allow hyphen/space boundaries)
+  const escaped = entry.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const wordBoundary = new RegExp(`(^|[^a-z0-9])${escaped}([^a-z0-9]|$)`, "i");
+  return wordBoundary.test(normalized);
+}
+
+/**
  * Case-insensitive substring + whole-word check.
  *
  * Strategy: normalize input to lowercase, then test against each entry.
@@ -85,33 +126,34 @@ export type BannedCompound = (typeof BANNED_COMPOUNDS)[number];
  *   - else do whole-word match (avoids false positives on substrings like
  *     "tirz" matching benign words; uses \b word boundaries on hyphen/space)
  *
- * Returns true if input matches ANY banned compound.
+ * Returns true if input matches ANY banned compound, UNLESS it also
+ * matches an OVERRIDE_ALLOWED_COMPOUNDS entry (operator override).
  *
- * Examples:
- *   isBannedCompound("Reta")              -> true (whole-word match)
- *   isBannedCompound("Reta 10mg")         -> true
- *   isBannedCompound("retatrutide-10mg")  -> true (substring within token)
- *   isBannedCompound("KLOW 80mg")         -> true
- *   isBannedCompound("BPC-157")           -> false
- *   isBannedCompound("Selank")            -> false
- *   isBannedCompound("ipamorelin")        -> false
+ * Examples (post-2026-05-22 override):
+ *   isBannedCompound("Reta")              -> false (override-allowed)
+ *   isBannedCompound("Reta 10mg")         -> false
+ *   isBannedCompound("retatrutide-10mg")  -> false (override-allowed)
+ *   isBannedCompound("KLOW 80mg")         -> false
+ *   isBannedCompound("Tirz")              -> false
+ *   isBannedCompound("tesamorelin")       -> true  (STILL banned)
+ *   isBannedCompound("melanotan-ii")      -> true  (STILL banned)
+ *   isBannedCompound("PT-141")            -> true  (STILL banned)
+ *   isBannedCompound("semaglutide")       -> true  (STILL banned)
+ *   isBannedCompound("BPC-157")           -> false (never banned)
+ *   isBannedCompound("Selank")            -> false (never banned)
  */
 export function isBannedCompound(input: string): boolean {
   if (!input || typeof input !== "string") return false;
   const normalized = input.toLowerCase().trim();
   if (normalized.length === 0) return false;
-  return BANNED_COMPOUNDS.some((compound) => {
-    const banned = compound.toLowerCase();
-    // For multi-word or hyphenated bans, do substring match
-    if (banned.includes(" ") || banned.includes("-")) {
-      return normalized.includes(banned);
-    }
-    // For single-word bans, do whole-word match (allow hyphen/space boundaries)
-    const escaped = banned.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    const wordBoundary = new RegExp(
-      `(^|[^a-z0-9])${escaped}([^a-z0-9]|$)`,
-      "i",
-    );
-    return wordBoundary.test(normalized);
-  });
+
+  // Operator-authorized exceptions short-circuit BEFORE the blocklist check.
+  // If input matches any override-allowed entry, treat as not-banned.
+  for (const allowed of OVERRIDE_ALLOWED_COMPOUNDS) {
+    if (matchesEntry(normalized, allowed)) return false;
+  }
+
+  return BANNED_COMPOUNDS.some((compound) =>
+    matchesEntry(normalized, compound.toLowerCase()),
+  );
 }

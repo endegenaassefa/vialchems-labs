@@ -88,8 +88,9 @@ describe("catalog content compliance", () => {
   });
 
   it("matches the operator-approved live launch catalog and prices", () => {
-    // v5.0.0: 12 -> 9 launch SKUs after removing 3 banned (klow, reta, tirz)
-    // per docs/DECISIONS/locked_override_2026-05-20.md (Iron Law 2.7/2.29).
+    // v5.0.0: 12 -> 9 launch SKUs after removing 3 banned (klow, reta, tirz).
+    // 2026-05-22 override re-added klow-80mg + reta-10mg + reta-20mg + tirz-25mg
+    // per docs/DECISIONS/iron_law_2_7_override_2026-05-22.md (13 SKUs total).
     const expected = [
       ["bpc-157-10mg", "BPC-157-10MG", 4200],
       ["tb-500-10mg", "TB-500-10MG", 4800],
@@ -100,6 +101,11 @@ describe("catalog content compliance", () => {
       ["semax-10mg", "SEMAX-10MG", 6500],
       ["selank-10mg", "SELANK-10MG", 6500],
       ["nad-500mg", "NAD-500MG", 7500],
+      // Operator-override SKUs (2026-05-22)
+      ["klow-80mg", "KLOW-80MG", 10000],
+      ["reta-10mg", "RETA-10MG", 9900],
+      ["reta-20mg", "RETA-20MG", 15000],
+      ["tirz-25mg", "TIRZ-25MG", 10000],
     ] as const;
 
     expect(publicLaunchProductSlugs).toEqual(expected.map(([slug]) => slug));
@@ -148,19 +154,23 @@ describe("catalog content compliance", () => {
     ).toBe(false);
   });
 
-  it("renders exactly the v5.0.0 live launch SKUs (Reta/KLOW/Tirz removed)", () => {
-    // v5.0.0: 9 launch products + 0 banned products + bundles route to
-    // request-only. The shop grid shows the 9 in-stock SKUs only.
-    expect(catalogDisplayItems).toHaveLength(9);
+  it("renders the v5.0.0 + 2026-05-22-override launch SKUs (KLOW + Reta + Tirz re-introduced)", () => {
+    // v5.0.0: 9 launch products. Operator override 2026-05-22 added 4
+    // SKUs (klow-80mg, reta-10mg, reta-20mg, tirz-25mg). catalogDisplayItems
+    // groups by shortName so Reta 10mg + Reta 20mg collapse into 1 display
+    // item with 2 variants → 12 display items total, 13 underlying SKUs.
+    expect(catalogDisplayItems).toHaveLength(12);
     expect(
       catalogDisplayItems.find((item) => item.slug === "klow-80mg"),
-    ).toBeUndefined();
-    expect(
-      catalogDisplayItems.find((item) => item.slug === "reta-10mg"),
-    ).toBeUndefined();
+    ).toBeDefined();
+    const retaDisplay = catalogDisplayItems.find(
+      (item) => item.slug === "reta-10mg",
+    );
+    expect(retaDisplay).toBeDefined();
+    expect(retaDisplay?.variants).toHaveLength(2);
     expect(
       catalogDisplayItems.find((item) => item.slug === "tirz-25mg"),
-    ).toBeUndefined();
+    ).toBeDefined();
   });
 
   it("treats non-launch products as custom request only", () => {
@@ -171,15 +181,11 @@ describe("catalog content compliance", () => {
   });
 });
 
-describe("Iron Law 2.7 — banned-compound catalog enforcement (v5.0.0)", () => {
-  const BANNED_SLUGS = [
-    "tesamorelin-5mg",
-    "pt-141-10mg",
-    "melanotan-ii-10mg",
-    "klow-80mg",
-    "reta-10mg",
-    "tirz-25mg",
-  ];
+describe("Iron Law 2.7 — banned-compound catalog enforcement (post-2026-05-22 override)", () => {
+  // Per docs/DECISIONS/iron_law_2_7_override_2026-05-22.md, the operator
+  // re-introduced klow-80mg, reta-10mg, reta-20mg, tirz-25mg. The
+  // remaining banned slugs (tesamorelin, pt-141, melanotan-ii) stay banned.
+  const BANNED_SLUGS = ["tesamorelin-5mg", "pt-141-10mg", "melanotan-ii-10mg"];
 
   for (const slug of BANNED_SLUGS) {
     it(`catalog does not contain banned slug '${slug}'`, () => {

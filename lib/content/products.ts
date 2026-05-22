@@ -58,6 +58,11 @@ export const publicLaunchProductSlugs = [
   "semax-10mg",
   "selank-10mg",
   "nad-500mg",
+  // Operator-override SKUs per docs/DECISIONS/iron_law_2_7_override_2026-05-22.md
+  "klow-80mg",
+  "reta-10mg",
+  "reta-20mg",
+  "tirz-25mg",
 ] as const;
 
 export const checkoutVerificationProductSlug = "checkout-verification-1usd";
@@ -672,6 +677,72 @@ export const products: Product[] = [
     position: "operator-requested $1 live payment verification SKU",
     shortDescription:
       "One-unit RUO checkout verification item for live payment-flow testing and order reconciliation. Dispatch occurs only after staff confirms the matching manual payment.",
+  },
+  // ─── Operator-override SKUs per docs/DECISIONS/iron_law_2_7_override_2026-05-22.md ───
+  // These four SKUs were removed in v5.0.0 per the original Iron Law 2.7 / 2.29
+  // PERPETUAL ban posture. Operator re-introduced them on 2026-05-22 with
+  // explicit risk acknowledgement per compound. The OVERRIDE_ALLOWED_COMPOUNDS
+  // set in lib/compliance/banned-compounds.ts short-circuits isBannedCompound()
+  // for these aliases so the Vial double-gate accepts them at render time.
+  {
+    slug: "klow-80mg",
+    sku: "KLOW-80MG",
+    name: "KLOW, 80mg vial",
+    shortName: "KLOW",
+    dose: "80mg",
+    format: "vial",
+    listPriceCents: 10000,
+    perMgCents: 125,
+    category: "metabolic",
+    role: "volume-driver",
+    position: "operator-override 2026-05-22; composition disclosure pending",
+    shortDescription:
+      "Operator-blended research material supplied as an 80mg lyophilized vial. Composition declaration accompanies the per-batch certificate of analysis.",
+  },
+  {
+    slug: "reta-10mg",
+    sku: "RETA-10MG",
+    name: "Reta, 10mg vial",
+    shortName: "Reta",
+    dose: "10mg",
+    format: "vial",
+    listPriceCents: 9900,
+    perMgCents: 990,
+    category: "metabolic",
+    role: "volume-driver",
+    position: "operator-override 2026-05-22",
+    shortDescription:
+      "Synthetic 39-amino-acid research peptide supplied as a 10mg lyophilized vial. Reference material for incretin-pathway, GIP/GLP/glucagon-receptor, and analytical-workflow research contexts.",
+  },
+  {
+    slug: "reta-20mg",
+    sku: "RETA-20MG",
+    name: "Reta, 20mg vial",
+    shortName: "Reta",
+    dose: "20mg",
+    format: "vial",
+    listPriceCents: 15000,
+    perMgCents: 750,
+    category: "metabolic",
+    role: "volume-driver",
+    position: "operator-override 2026-05-22",
+    shortDescription:
+      "Synthetic 39-amino-acid research peptide supplied as a 20mg lyophilized vial. Reference material for incretin-pathway, GIP/GLP/glucagon-receptor, and analytical-workflow research contexts.",
+  },
+  {
+    slug: "tirz-25mg",
+    sku: "TIRZ-25MG",
+    name: "Tirz, 25mg vial",
+    shortName: "Tirz",
+    dose: "25mg",
+    format: "vial",
+    listPriceCents: 10000,
+    perMgCents: 400,
+    category: "metabolic",
+    role: "volume-driver",
+    position: "operator-override 2026-05-22",
+    shortDescription:
+      "Synthetic dual-incretin research peptide supplied as a 25mg lyophilized vial. Reference material for GIP/GLP receptor-binding, peptide-identity, and analytical-workflow research contexts.",
   },
 ];
 

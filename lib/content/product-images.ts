@@ -42,6 +42,11 @@ const productStudioImages = Object.fromEntries(
     ["kpv-10mg", "KPV 10mg"],
     ["kpv-500mcg", "KPV 500mcg"],
     ["aod-9604-5mg", "AOD-9604 5mg"],
+    // Operator-override SKUs per docs/DECISIONS/iron_law_2_7_override_2026-05-22.md
+    ["klow-80mg", "KLOW 80mg"],
+    ["reta-10mg", "Reta 10mg"],
+    ["reta-20mg", "Reta 20mg"],
+    ["tirz-25mg", "Tirz 25mg"],
   ].map(([slug, label]) => [
     slug,
     {
