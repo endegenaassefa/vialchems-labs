@@ -83,8 +83,11 @@ describe("POST /api/access (D7 qualification persistence)", () => {
     expect(res.status).toBe(400);
   });
 
-  it("returns 429 + Retry-After after 10 requests within 60s (Iron Law 2.34)", async () => {
+  it("returns 429 + Retry-After after 10 requests within 60s (per-IP cap, Iron Law 2.34)", async () => {
     const ip = "203.0.113.99";
+    // Use a different email per request so the per-IP gate is the dominant
+    // limit (per-email cap is 3/hr; per-IP cap is 10/60s — this test
+    // exercises the per-IP path).
     for (let i = 0; i < 10; i += 1) {
       const ok = await POST(
         new Request("http://localhost/api/access", {
@@ -93,7 +96,10 @@ describe("POST /api/access (D7 qualification persistence)", () => {
             "content-type": "application/json",
             "x-forwarded-for": ip,
           },
-          body: JSON.stringify(validPayload),
+          body: JSON.stringify({
+            ...validPayload,
+            email: `researcher-${i}@example.com`,
+          }),
         }),
       );
       expect(ok.status).toBe(200);
@@ -105,7 +111,10 @@ describe("POST /api/access (D7 qualification persistence)", () => {
           "content-type": "application/json",
           "x-forwarded-for": ip,
         },
-        body: JSON.stringify(validPayload),
+        body: JSON.stringify({
+          ...validPayload,
+          email: "researcher-overflow@example.com",
+        }),
       }),
     );
     expect(blocked.status).toBe(429);

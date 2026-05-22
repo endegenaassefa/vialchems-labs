@@ -308,6 +308,14 @@ export interface IsRateLimitedArgs {
   ip: string;
   email?: string;
   now?: number;
+  /**
+   * Which gates to evaluate. Defaults to ["ip"] when no email is supplied,
+   * or ["ip", "email"] when email is supplied. Callers that already ran
+   * the IP gate earlier in the same request (the typical two-pass
+   * pattern: gate-before-Zod for IP, gate-after-Zod for email) should pass
+   * `["email"]` on the second pass so the IP counter isn't double-charged.
+   */
+  gates?: ReadonlyArray<"ip" | "email">;
 }
 
 export type IsRateLimitedResult =
@@ -322,9 +330,11 @@ export type IsRateLimitedResult =
 
 /**
  * Returns `{ limited: false }` when the caller is under cap, or `{ limited:
- * true, scope, retryAfterSeconds, limit, reset }` on denial. Pre-validation
- * IP gate runs first; if email is supplied, the per-email gate runs after
- * (so a fresh IP can still be blocked when the email is exhausted).
+ * true, scope, retryAfterSeconds, limit, reset }` on denial. By default
+ * evaluates the IP gate, and the per-email gate when email is supplied.
+ * Pass `gates: ["email"]` on the second pass of the two-pass pattern (where
+ * IP was already gated before Zod parsing) so the IP counter isn't
+ * double-charged.
  *
  * Bypass: SKIP_RATE_LIMIT=true → `{ limited: false }` without consulting
  * any store. Module-load Sentry alert fires when this is active in
@@ -343,8 +353,13 @@ export async function isRateLimited(
 
   const now = args.now ?? Date.now();
   const adapter = getRateLimitAdapter();
+  const gates: ReadonlyArray<"ip" | "email"> =
+    args.gates ?? (args.email !== undefined ? ["ip", "email"] : ["ip"]);
+  const runIp = gates.includes("ip");
+  const runEmail = gates.includes("email") && args.email !== undefined;
 
   // ---- IP gate ----
+  if (runIp) {
   if (adapter === "upstash") {
     const res = await upstashGate("ip", args.route, args.ip);
     if (res !== null) {
@@ -389,9 +404,10 @@ export async function isRateLimited(
       };
     }
   }
+  } // end if (runIp)
 
-  // ---- Email gate (only if supplied) ----
-  if (args.email !== undefined) {
+  // ---- Email gate (only if supplied and requested) ----
+  if (runEmail && args.email !== undefined) {
     if (adapter === "upstash") {
       const res = await upstashGate(
         "email",
