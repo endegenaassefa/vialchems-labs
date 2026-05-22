@@ -329,6 +329,69 @@ export type IsRateLimitedResult =
     };
 
 /**
+ * Run a single gate (ip or email) and return either `null` (under cap) or
+ * a denial result. Centralises Upstash → in-memory fallback + breadcrumb
+ * emission so the public `isRateLimited` body stays compact.
+ */
+async function runGate(
+  scope: "ip" | "email",
+  args: {
+    route: RouteKey;
+    identifier: string;
+    now: number;
+    adapter: "in-memory" | "upstash";
+    rawIdentifier: string; // used for in-memory normalisation
+  },
+): Promise<
+  | { limited: false }
+  | {
+      limited: true;
+      retryAfterSeconds: number;
+      limit: number;
+      reset: number;
+    }
+> {
+  const denyWith = (
+    retryAfterSeconds: number,
+    limit: number,
+    reset: number,
+  ): {
+    limited: true;
+    retryAfterSeconds: number;
+    limit: number;
+    reset: number;
+  } => {
+    addRateLimitBreadcrumb(args.route, scope, retryAfterSeconds);
+    return { limited: true, retryAfterSeconds, limit, reset };
+  };
+
+  if (args.adapter === "upstash") {
+    const res = await upstashGate(scope, args.route, args.identifier);
+    if (res !== null) {
+      if (!res.ok) {
+        const retryAfterSeconds = Math.max(
+          1,
+          Math.ceil((res.reset - args.now) / 1000),
+        );
+        return denyWith(retryAfterSeconds, res.limit, res.reset);
+      }
+      return { limited: false };
+    }
+    // Upstash returned null → fail-open path. Already warned via Sentry.
+  }
+
+  // In-memory (default OR Upstash fallback).
+  const r =
+    scope === "ip"
+      ? rateLimitByIp(args.route, args.rawIdentifier, args.now)
+      : rateLimitByEmail(args.route, args.rawIdentifier, args.now);
+  if (!r.success) {
+    return denyWith(r.retryAfterSeconds, r.limit, r.reset);
+  }
+  return { limited: false };
+}
+
+/**
  * Returns `{ limited: false }` when the caller is under cap, or `{ limited:
  * true, scope, retryAfterSeconds, limit, reset }` on denial. By default
  * evaluates the IP gate, and the per-email gate when email is supplied.
@@ -360,104 +423,30 @@ export async function isRateLimited(
 
   // ---- IP gate ----
   if (runIp) {
-  if (adapter === "upstash") {
-    const res = await upstashGate("ip", args.route, args.ip);
-    if (res !== null) {
-      if (!res.ok) {
-        const retryAfterSeconds = Math.max(
-          1,
-          Math.ceil((res.reset - now) / 1000),
-        );
-        addRateLimitBreadcrumb(args.route, "ip", retryAfterSeconds);
-        return {
-          limited: true,
-          scope: "ip",
-          retryAfterSeconds,
-          limit: res.limit,
-          reset: res.reset,
-        };
-      }
-    } else {
-      // Upstash failed (already warned via Sentry). Fall back to in-memory.
-      const fallback = rateLimitByIp(args.route, args.ip, now);
-      if (!fallback.success) {
-        addRateLimitBreadcrumb(args.route, "ip", fallback.retryAfterSeconds);
-        return {
-          limited: true,
-          scope: "ip",
-          retryAfterSeconds: fallback.retryAfterSeconds,
-          limit: fallback.limit,
-          reset: fallback.reset,
-        };
-      }
-    }
-  } else {
-    const r = rateLimitByIp(args.route, args.ip, now);
-    if (!r.success) {
-      addRateLimitBreadcrumb(args.route, "ip", r.retryAfterSeconds);
-      return {
-        limited: true,
-        scope: "ip",
-        retryAfterSeconds: r.retryAfterSeconds,
-        limit: r.limit,
-        reset: r.reset,
-      };
+    const ipResult = await runGate("ip", {
+      route: args.route,
+      identifier: args.ip,
+      rawIdentifier: args.ip,
+      now,
+      adapter,
+    });
+    if (ipResult.limited) {
+      return { ...ipResult, scope: "ip" };
     }
   }
-  } // end if (runIp)
 
-  // ---- Email gate (only if supplied and requested) ----
+  // ---- Email gate (only if supplied AND requested) ----
   if (runEmail && args.email !== undefined) {
-    if (adapter === "upstash") {
-      const res = await upstashGate(
-        "email",
-        args.route,
-        args.email.trim().toLowerCase(),
-      );
-      if (res !== null) {
-        if (!res.ok) {
-          const retryAfterSeconds = Math.max(
-            1,
-            Math.ceil((res.reset - now) / 1000),
-          );
-          addRateLimitBreadcrumb(args.route, "email", retryAfterSeconds);
-          return {
-            limited: true,
-            scope: "email",
-            retryAfterSeconds,
-            limit: res.limit,
-            reset: res.reset,
-          };
-        }
-      } else {
-        const fallback = rateLimitByEmail(args.route, args.email, now);
-        if (!fallback.success) {
-          addRateLimitBreadcrumb(
-            args.route,
-            "email",
-            fallback.retryAfterSeconds,
-          );
-          return {
-            limited: true,
-            scope: "email",
-            retryAfterSeconds: fallback.retryAfterSeconds,
-            limit: fallback.limit,
-            reset: fallback.reset,
-          };
-        }
-      }
-    } else {
-      const r = rateLimitByEmail(args.route, args.email, now);
-      if (!r.success) {
-        addRateLimitBreadcrumb(args.route, "email", r.retryAfterSeconds);
-        return {
-          limited: true,
-          scope: "email",
-          retryAfterSeconds: r.retryAfterSeconds,
-          limit: r.limit,
-          reset: r.reset,
-        };
-      }
+    const normalised = args.email.trim().toLowerCase();
+    const emailResult = await runGate("email", {
+      route: args.route,
+      identifier: normalised,
+      rawIdentifier: args.email,
+      now,
+      adapter,
+    });
+    if (emailResult.limited) {
+      return { ...emailResult, scope: "email" };
     }
   }
 
