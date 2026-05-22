@@ -129,9 +129,6 @@ export function V2Header() {
               </span>
             )}
           </Link>
-          <Link className="btn btn-primary btn-sm v2-nav-cta" href="/affiliate">
-            Affiliate <Icon.arrow size={14} strokeWidth={1.5} />
-          </Link>
         </div>
       </div>
       {mobileMenuOpen && (
