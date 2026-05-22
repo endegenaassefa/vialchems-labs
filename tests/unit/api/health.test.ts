@@ -52,14 +52,20 @@ describe("/api/health GET", () => {
     expect(body.gitSha).toBe("unknown");
   });
 
-  it("version defaults to 'v5.0.0' when no env vars set", async () => {
+  it("version falls back to 'v' + package.json version when no env vars set", async () => {
+    // Phase 14 follow-up: route previously hardcoded "v5.0.0" as the
+    // fallback, which made /api/health permanently lag behind the actual
+    // shipped package.json version. Now the fallback reads from
+    // package.json with a "v" prefix so every package version bump
+    // propagates automatically — no Vercel env update required.
     delete process.env.NEXT_PUBLIC_PACKAGE_VERSION;
     delete process.env.PACKAGE_VERSION;
     vi.resetModules();
+    const packageJson = await import("../../../package.json");
     const { GET } = await import("@/app/api/health/route");
     const res = await GET();
     const body = await res.json();
-    expect(body.version).toBe("v5.0.0");
+    expect(body.version).toBe(`v${packageJson.default.version}`);
   });
 
   it("adds Sentry breadcrumb at entry (Iron Law 2.32)", async () => {
