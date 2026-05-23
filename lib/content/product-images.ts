@@ -61,3 +61,39 @@ export function getProductStudioImage(
 ): ProductStudioImage | undefined {
   return productStudioImages[slug];
 }
+
+/**
+ * Returns the responsive srcset string for a product-shot path
+ * (e.g. "/product-shots/bpc-157-10mg.png"). Variants live alongside
+ * the source PNG in `public/product-shots/responsive/<slug>-<width>.png`
+ * and are generated at commit time by
+ * `scripts/generate-mobile-image-variants.mjs`. Returns null if the
+ * source path doesn't match the catalog convention.
+ *
+ * The 4 widths (256/384/512/768) match the M0i spec in
+ * SUPER_PROMPT_softlaunch_2026-05-22 §6 and span the iPhone SE
+ * 1-column grid (~265px wide) through the 3-col desktop grid
+ * (~340px per card at 1280 viewport). The browser picks the
+ * smallest variant >= the rendered pixel width (after DPR scaling).
+ */
+const VARIANT_WIDTHS = [256, 384, 512, 768] as const;
+
+export function getProductImageSrcset(src: string): string | null {
+  const match = /^\/product-shots\/([^/]+)\.png$/.exec(src);
+  if (!match) return null;
+  const slug = match[1];
+  return VARIANT_WIDTHS.map(
+    (w) => `/product-shots/responsive/${slug}-${w}.png ${w}w`,
+  ).join(", ");
+}
+
+/**
+ * Default `sizes` attribute for catalog product cards rendered through
+ * `ProductVisual`. Maps to the M0d grid breakpoints:
+ *   - under 640px (1-col grid): each card spans ~100vw minus container
+ *     padding → roughly 90vw upper bound
+ *   - 640-1023px (2-col grid): each card spans ~50vw
+ *   - 1024+ (3-col grid): each card spans ~33vw
+ */
+export const PRODUCT_CARD_IMAGE_SIZES =
+  "(max-width: 639px) 90vw, (max-width: 1023px) 50vw, 33vw";

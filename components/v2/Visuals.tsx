@@ -1,6 +1,10 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import {
+  getProductImageSrcset,
+  PRODUCT_CARD_IMAGE_SIZES,
+} from "@/lib/content/product-images";
 import type { CatalogItem } from "./data";
 
 export function MoleculeBg() {
@@ -124,15 +128,25 @@ export function ProductVisual({
   item: Pick<CatalogItem, "image" | "shortName">;
   small?: boolean;
 }) {
+  // M0i — emit a `srcset` derived from the pre-generated 256/384/512/
+  // 768 variants in /product-shots/responsive/<slug>-<width>.png so
+  // the browser picks the smallest variant that covers the rendered
+  // pixel width. On iPhone SE the 256w variant is ~37KB vs ~370KB
+  // for the 1024×1024 source — 13 SKUs on /shop drop from ~5MB of
+  // imagery to ~480KB. Intentional <img> usage: the catalog renders
+  // across grid + carousel surfaces with dynamic aspect ratios driven
+  // by CSS rather than the width/height attrs <Image> requires.
+  const srcSet = getProductImageSrcset(item.image);
   return (
     <div className={`product-shot${small ? " product-shot-sm" : ""}`}>
-      {/* Intentional <img> usage: ProductVisual scales freely across grid + carousel
-          surfaces with dynamic aspect ratios driven by CSS rather than width/height
-          attrs that <Image> requires. Loading is lazy + sourced from public/ static
-          assets so LCP impact is minimal. Phase 10 may revisit for next/image where
-          known-bounds container exists. */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={item.image} alt={`${item.shortName} vial`} loading="lazy" />
+      <img
+        src={item.image}
+        srcSet={srcSet ?? undefined}
+        sizes={srcSet ? PRODUCT_CARD_IMAGE_SIZES : undefined}
+        alt={`${item.shortName} vial`}
+        loading="lazy"
+      />
     </div>
   );
 }
