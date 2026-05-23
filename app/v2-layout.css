@@ -1467,16 +1467,23 @@ footer {
   .v2-product-grid {
     gap: 20px !important;
   }
-  .v2-product-info {
-    order: 1;
-  }
+  /* M0e — mobile PDP reading order is image → info per super-prompt
+   * §6 M0e SUCCESS CRITERIA ("image + price + CTA above-fold on
+   * 375px"). The prior order (info:1, media:2) inverted the DOM and
+   * hid the product image below a tall text block. Restoring DOM
+   * order also tightens the image to 220x220 so the fold can fit
+   * the image + price + Add-to-cart button on iPhone SE's 667px
+   * height. */
   .v2-product-media-card {
-    order: 2;
+    order: 1;
     padding: 10px !important;
   }
+  .v2-product-info {
+    order: 2;
+  }
   .v2-product-main-media {
-    width: min(100%, 292px);
-    height: 389px;
+    width: min(100%, 200px);
+    height: 200px;
     margin-right: auto !important;
     margin-left: auto !important;
     aspect-ratio: auto !important;
