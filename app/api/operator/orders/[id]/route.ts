@@ -27,7 +27,7 @@ import { checkOperatorAuth } from "@/lib/operator/auth-guard";
 import { sendOrderShipped } from "@/lib/email/order-shipped";
 import { sendOrderConfirmation } from "@/lib/email/order-confirmation";
 import { captureException } from "@/lib/sentry";
-import { trackServerEvent } from "@/lib/analytics/server-track";
+import { scheduleServerEvent } from "@/lib/analytics/server-track";
 import { FUNNEL_EVENTS } from "@/lib/analytics/events";
 
 type PaymentRail = "btcpay" | "plaid" | "zelle" | "bitcoin-direct" | "stub";
@@ -333,7 +333,7 @@ export async function PATCH(
     // path. Visitor IP is the OPERATOR's, not the customer's; we omit
     // it so Plausible attributes the event to "unknown" rather than
     // mis-attributing to the operator's location.
-    void trackServerEvent({
+    scheduleServerEvent({
       event: FUNNEL_EVENTS.ORDER_PAID,
       props: {
         provider: data.payment_provider,

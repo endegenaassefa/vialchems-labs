@@ -15,6 +15,7 @@
  * not bubble into credit-bearing code paths.
  */
 import { siteConfig } from "@/lib/content/site";
+import { after } from "next/server";
 
 export interface ServerTrackInput {
   event: string;
@@ -44,6 +45,27 @@ export interface ServerTrackResult {
 }
 
 const PLAUSIBLE_EVENTS_URL = "https://plausible.io/api/event";
+
+/**
+ * Codex P2 (PR #37): bare `void trackServerEvent(...)` in a Next.js
+ * route handler is not guaranteed to finish in serverless — the
+ * platform can freeze the worker the moment the response is sent and
+ * drop the in-flight Plausible POST. Use this helper instead. It
+ * schedules the tracking call inside `after()` so the runtime keeps
+ * the worker alive until the Plausible POST resolves. Falls back to
+ * fire-and-forget when called outside a route-handler scope (tests).
+ */
+export function scheduleServerEvent(input: ServerTrackInput): void {
+  try {
+    after(async () => {
+      await trackServerEvent(input);
+    });
+  } catch {
+    // Outside a request scope (e.g., unit tests) — analytics
+    // still fires, just without the after() guarantee.
+    void trackServerEvent(input);
+  }
+}
 
 export async function trackServerEvent(
   input: ServerTrackInput,
