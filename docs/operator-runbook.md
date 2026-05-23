@@ -552,3 +552,99 @@ Status as of 2026-05-23:
 1. Rebase + split the PR themselves.
 2. Close PR #4 and re-author the rate-limit + per-email gate work as a new PR (the underlying changes to `lib/rate-limit.ts` + `app/api/*` are reusable).
 3. Defer the I3 Upstash wiring until post-soft-launch and accept the in-memory rate-limiter for the first 1-5K-impression ad campaign (the LRU cap from PR #4 is already implemented at the code level, just not committed to `main`).
+
+### M2 — Load test (super-prompt M2)
+
+A simple fetch-loop driver lives at `scripts/load-test.mjs`. Default
+scenario: 100 virtual users for 5 minutes against `/`, `/shop`, and a
+handful of PDPs. Verifies P95 latency under 3 seconds, success rate
+above 99.5%, and zero 5xx responses.
+
+**Run locally against the dev server** (safest):
+
+```
+npm run dev &
+sleep 30
+BASE_URL=http://127.0.0.1:3200 VU=20 DURATION_S=60 node scripts/load-test.mjs
+```
+
+**Against a Vercel preview** (medium risk):
+
+```
+BASE_URL=https://vialchemlabs-pr-xxx.vercel.app VU=50 DURATION_S=180 \
+  node scripts/load-test.mjs
+```
+
+**Against production** (DO NOT run without operator coordination):
+
+```
+# Will trigger Vercel rate limits + Sentry alerts. Coordinate first.
+BASE_URL=https://vialchemlabs.net VU=100 DURATION_S=300 \
+  node scripts/load-test.mjs
+```
+
+Output JSON lands under `.gstack/load-tests/<ts>.json`. Exit code 0 if
+all three verdict gates pass (P95 + success rate + zero 5xx), 1 if any
+gate fails, 2 on fatal driver error.
+
+### M3 — Backup + disaster-recovery plan
+
+**What lives where:**
+
+| Layer                | Backed up by                              | RPO                    | RTO            |
+| -------------------- | ----------------------------------------- | ---------------------- | -------------- |
+| Postgres data        | Supabase automatic backups                | ~24h (free) / 2h (pro) | ~1–2h restore  |
+| Application code     | GitHub `origin/main`                      | n/a (source of truth)  | <5 min revert  |
+| Vercel deployments   | Vercel automatic deployment history       | n/a                    | <2 min rollback |
+| Customer files / COA | `public/coa/` checked into the repo       | n/a                    | <5 min revert  |
+| Sentry events        | Sentry 30-day retention                   | n/a                    | n/a            |
+| Resend events        | Resend 30-day retention                   | n/a                    | n/a            |
+
+**Recovery procedures:**
+
+1. **Bad deploy / regression** — fastest is Vercel rollback. From the
+   Vercel dashboard: Project → Deployments → pick the prior good
+   deploy → "Promote to Production". Verifies in under 2 minutes.
+
+2. **Bad code on main** — `git revert <bad-sha>` and push. Vercel
+   redeploys automatically. Use this when the rollback target is more
+   than 2–3 deploys back and a clean forward fix is preferable.
+
+3. **Database corruption / accidental destructive query** — Supabase
+   point-in-time restore:
+   - Dashboard: Project → Database → Backups → "Point in time"
+   - Pick the timestamp just before the bad event
+   - Confirm restore. Connection string stays the same; expect 1–2h
+     downtime depending on database size.
+   - Note: the free tier only retains the last daily backup; the pro
+     tier retains 7 days at the moment of writing.
+
+4. **Lost a user's data** (cookie wipe, customer wants their order
+   re-emailed) — the order itself is in `orders` + `order_items`;
+   re-send the confirmation manually via Resend dashboard "Send"
+   from a saved template, or trigger via a small server action.
+
+5. **Sentry / Resend outage** — both vendors have status pages.
+   Reconciliation and order placement still succeed; only the
+   observability tail is degraded. No customer-side action needed.
+
+**RPO/RTO targets for soft launch:**
+
+- RPO (data loss tolerance): 24 hours on the free tier, 2 hours after
+  the Supabase pro upgrade. Order placement itself is durably
+  recorded in Supabase at request time, so the realistic data-loss
+  window is only the gap between Supabase backups, not the full 24h.
+- RTO (recovery time): under 2 hours for any single failure mode
+  above. The longest path is a full Postgres restore; everything
+  else is sub-5-minute.
+
+**Off-platform redundancy:**
+
+- Source code: GitHub origin/main is the canonical backup. Any
+  clone reproduces the site if Vercel disappears.
+- COA PDFs: checked into the repo under `public/coa/`. Re-deployable
+  anywhere.
+- Customer/order data: only in Supabase. If Supabase disappears, the
+  audit_log + Resend dashboard + BTCPay/bank records are the
+  forensic recovery path; this is acceptable for soft-launch volume
+  but should be revisited before scaling to >100 orders/day.
