@@ -25,7 +25,23 @@ import { z } from "zod";
 import { serviceSupabase } from "@/lib/supabase";
 import { checkOperatorAuth } from "@/lib/operator/auth-guard";
 import { sendOrderShipped } from "@/lib/email/order-shipped";
+import { sendOrderConfirmation } from "@/lib/email/order-confirmation";
 import { captureException } from "@/lib/sentry";
+
+type PaymentRail = "btcpay" | "plaid" | "zelle" | "bitcoin-direct" | "stub";
+
+function normalizeRail(raw: string | null | undefined): PaymentRail {
+  if (
+    raw === "btcpay" ||
+    raw === "plaid" ||
+    raw === "zelle" ||
+    raw === "bitcoin-direct" ||
+    raw === "stub"
+  ) {
+    return raw;
+  }
+  return "stub";
+}
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -103,16 +119,32 @@ export async function PATCH(
 
   const operatorEmail = auth.email ?? "unknown";
   const now = new Date().toISOString();
+  const ipAddress =
+    request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? null;
+  const userAgent = request.headers.get("user-agent") ?? null;
+
   let update: Record<string, unknown> = {};
-  let auditAction: string;
+  // P0-6 (PR #36 codex finding): each status-transition action writes
+  // an order_status_history row (Iron Law 2.33 append-only audit
+  // lineage). `newStatus = null` for non-transitions (add_note).
+  let newStatus: "paid" | "shipped" | null = null;
+  // P0-4 (PR #36 codex finding): the actual audit_log schema is
+  // { event_type, customer_id, order_id, details, ip_address,
+  // user_agent } — not { action, actor_email, target_kind, target_id,
+  // payload }. Build the typed payload below.
+  let auditEventType: string;
 
   if (body.action === "mark_paid") {
+    // P0-3 (PR #36 codex finding): orders has NO payment_verified_at
+    // column. The transition timing is captured by the
+    // order_status_history row + the audit_log row below; no schema
+    // change required.
     update = {
       status: "paid",
-      payment_verified_at: now,
       operator_notes: body.note ?? undefined,
     };
-    auditAction = "operator_mark_paid";
+    newStatus = "paid";
+    auditEventType = "operator.mark_paid";
   } else if (body.action === "mark_shipped") {
     update = {
       status: "shipped",
@@ -121,20 +153,22 @@ export async function PATCH(
       shipped_at: now,
       operator_notes: body.note ?? undefined,
     };
-    auditAction = "operator_mark_shipped";
+    newStatus = "shipped";
+    auditEventType = "operator.mark_shipped";
   } else {
     update = { operator_notes: body.note };
-    auditAction = "operator_add_note";
+    auditEventType = "operator.add_note";
   }
 
-  // Apply the update + select the email so the side-effect email
-  // (shipped notification) can address it.
+  // Apply the update + select the order UUID (needed for the FK on
+  // order_status_history + audit_log) + the customer-facing fields the
+  // side-effect emails address.
   const { data, error } = await supabase
     .from("orders")
     .update(update)
     .eq("display_id", id)
     .select(
-      "display_id, email, total_cents, payment_provider, carrier, tracking_number",
+      "id, display_id, email, total_cents, payment_provider, carrier, tracking_number",
     )
     .single();
 
@@ -145,18 +179,44 @@ export async function PATCH(
     return jsonError("not_found", 404);
   }
 
-  // Best-effort audit entry. The audit_log table has an
-  // append-only trigger (Iron Law 2.33) so a failure here means
-  // a real data-integrity problem — surface to Sentry but don't
-  // fail the operator action; they need the response to confirm
-  // their click landed.
+  // P0-6: write a status-history row on state transitions. Best-effort
+  // via Sentry capture — append-only trigger means a write failure
+  // signals a real integrity issue, but the operator needs the response
+  // to confirm their click landed; we don't want to leave the orders
+  // row mutated while the response 500s.
+  if (newStatus) {
+    const { error: historyError } = await supabase
+      .from("order_status_history")
+      .insert({
+        order_id: data.id,
+        to_status: newStatus,
+        reason: auditEventType,
+      });
+    if (historyError) {
+      captureException(
+        new Error(
+          `order_status_history_persist_failed: ${historyError.message}`,
+        ),
+        { tags: { route: "operator_patch", phase: "history" } },
+      );
+    }
+  }
+
+  // P0-4: audit_log insert against the real schema. `details` carries
+  // the action + operator identity + request body so a forensic replay
+  // can reconstruct the operator's intent without joining other tables.
   try {
     await supabase.from("audit_log").insert({
-      action: auditAction,
-      actor_email: operatorEmail,
-      target_kind: "order",
-      target_id: id,
-      payload: body,
+      event_type: auditEventType,
+      order_id: data.id,
+      details: {
+        action: body.action,
+        actor_email: operatorEmail,
+        display_id: id,
+        body,
+      },
+      ip_address: ipAddress,
+      user_agent: userAgent,
     });
   } catch (e) {
     captureException(e, {
@@ -164,7 +224,64 @@ export async function PATCH(
     });
   }
 
-  // F2 — shipped email on the shipped transition.
+  // P0-5: mark_paid fires the customer paid confirmation. Per super-
+  // prompt §6 C2 the operator-side paid notification is SKIPPED here
+  // because the operator IS the actor — they just clicked the button.
+  // Items are fetched separately from order_items so the email body
+  // renders the breakdown the customer paid for.
+  if (body.action === "mark_paid" && data.email) {
+    let items: Array<{ name: string; qty: number; unitPriceCents: number }> =
+      [];
+    try {
+      const { data: itemRows, error: itemsError } = await supabase
+        .from("order_items")
+        .select("name_snapshot, quantity, unit_price_cents")
+        .eq("order_id", data.id);
+      if (itemsError) {
+        captureException(
+          new Error(`paid_email_items_lookup: ${itemsError.message}`),
+          {
+            tags: { route: "operator_patch", phase: "paid_email_items_lookup" },
+          },
+        );
+      } else if (Array.isArray(itemRows)) {
+        items = itemRows.map((row) => {
+          const r = row as {
+            name_snapshot: string;
+            quantity: number;
+            unit_price_cents: number;
+          };
+          return {
+            name: r.name_snapshot,
+            qty: r.quantity,
+            unitPriceCents: r.unit_price_cents,
+          };
+        });
+      }
+    } catch (e) {
+      captureException(e, {
+        tags: { route: "operator_patch", phase: "paid_email_items_lookup" },
+      });
+    }
+
+    try {
+      await sendOrderConfirmation({
+        displayId: id,
+        customerEmail: data.email,
+        totalCents: data.total_cents,
+        rail: normalizeRail(data.payment_provider),
+        status: "paid",
+        items,
+        shippingEtaDays: 3,
+      });
+    } catch (e) {
+      captureException(e, {
+        tags: { route: "operator_patch", phase: "paid_customer_email" },
+      });
+    }
+  }
+
+  // F2 — shipped email on the shipped transition (unchanged).
   if (body.action === "mark_shipped" && data.email) {
     try {
       await sendOrderShipped({
