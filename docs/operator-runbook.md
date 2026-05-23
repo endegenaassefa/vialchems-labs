@@ -427,3 +427,109 @@ Week 2 retro:
 - **Pricing matrix**: `/root/peptide-launch-bundle/corpus/02_claude_code_outputs/pricing_matrix.csv` (3,388 SKUs across 169 vendors)
 - **Build artifacts**: `/root/peptide-site/docs/checkpoints/` (per-phase checkpoint logs)
 - **Slice 3 firing prompt**: `/mnt/c/Users/endeg/Downloads/slice_B1_reddit_and_forum_ecosystem_map.md`
+
+---
+
+## Soft-launch operator playbooks (Phase 11)
+
+Added per `SUPER_PROMPT_softlaunch_2026-05-22.md` §6 items F1, L1, L2, L3.
+
+### F1 — Fulfillment SOP
+
+Trigger: operator-notification email arrives subject `[VC] Order <display_id> PAID — ...`.
+
+1. Open `/operator/orders` and locate the order by display_id.
+2. Verify line items + shipping address match the order detail.
+3. Print a USPS shipping label via the USPS Click-N-Ship UI (or the carrier the operator prefers for the SKU's weight class).
+4. Pack:
+   - Use a tamper-evident inner pouch.
+   - Add a cold-pack for heat-sensitive SKUs (peptides >= -20°C stable in transit for 72h; cold-pack required if >72h transit predicted).
+   - Include the printed pick-list (order detail PDF from the dashboard).
+   - Seal outer box with branded tape.
+5. Drop at the carrier or schedule pickup.
+6. Enter tracking number + carrier in the operator dashboard order detail and click **Mark shipped**. This fires the F2 shipped email to the customer with the tracking URL.
+7. File the printed pick-list in the physical order binder for audit.
+
+SLA: paid -> shipped within 2 business days for soft launch.
+
+### L1 — Refund SOP per rail
+
+**BTCPay (Bitcoin Lightning + onchain):**
+
+1. BTCPay store dashboard -> Invoices -> find the invoice by `display_id`.
+2. Click **Refund** -> select line items + payment method (same the customer used).
+3. Confirm BTC returned. Lightning via LNURL; onchain needs customer BTC address (request via email if missing).
+4. In `/operator/orders/<id>`, click **Refund**. Fires refund-confirmation email.
+
+**Zelle:**
+
+1. Bank Zelle UI -> Send -> customer's Zelle handle from the order receipt -> refund amount + memo `REFUND-<display_id>`.
+2. Wait for Zelle confirmation.
+3. In `/operator/orders/<id>`, click **Refund** + paste confirmation ref into operator_notes.
+
+**Bitcoin direct (on-chain fallback):**
+
+1. Customer replies to support@vialchemlabs.net with refund-to BTC address.
+2. Operator sends BTC manually via their wallet.
+3. In `/operator/orders/<id>`, paste txid into operator_notes + click **Refund**.
+
+**Plaid (ACH):** hidden from UI per G2 decision until operator provisions Plaid credentials.
+
+### L2 — Emergency rollback playbook
+
+**Vercel deploy rollback (<=2 minutes):**
+
+```bash
+gh run list --workflow=ci --branch=main --limit 5
+# Note the deploy SHA of the last KNOWN-GOOD deploy.
+
+vercel rollback <previous-deployment-url> --yes
+# or via dashboard: vercel.com -> deployments -> ... -> Promote to Production
+
+curl -s https://vialchemlabs.net/api/health  # expect: gitSha matches rollback
+```
+
+**Git revert (when the prod bug is committed to main):**
+
+```bash
+git fetch origin main && git checkout main
+git revert <bad-sha>
+git push origin main
+```
+
+**Supabase point-in-time restore:**
+
+1. Supabase dashboard -> Database -> Backups.
+2. Pick timestamp BEFORE the bad write (free-tier retention ~7d).
+3. Restore to a NEW database first; inspect; then repoint Vercel `NEXT_PUBLIC_SUPABASE_URL`.
+4. Backfill orders between the restore timestamp and rollback by replaying reconciliation events from Sentry / Resend logs.
+
+**Customer comms template:**
+
+> Subject: VialChem Labs system maintenance
+>
+> Hi {{name}}, we briefly took the site offline at HH:MM to recover from a configuration error. No payment data or customer accounts were exposed. Your order #{{display_id}} is {{status}}. Reach support@vialchemlabs.net with any questions.
+
+### L3 — Where-to-look dashboard
+
+| Signal                        | Where                                            |
+| ----------------------------- | ------------------------------------------------ |
+| New orders                    | `/operator/orders`                               |
+| Order detail + status updates | `/operator/orders/<id>`                          |
+| Customer signups + auth       | dashboard.supabase.com -> Auth -> Users          |
+| Page traffic + funnel         | plausible.io -> vialchemlabs.net                 |
+| Server errors + perf          | sentry.io -> VialChem Labs                       |
+| Email deliverability          | resend.com -> vialchemlabs.net                   |
+| BTC payments                  | BTCPay store URL                                 |
+| Zelle deposits                | Operator's bank Zelle                            |
+| Server logs                   | vercel.com -> vialchems-labs -> Logs             |
+| Rate-limit hits               | upstash.com -> vialchemlabs-ratelimit            |
+| Health probe                  | `curl https://vialchemlabs.net/api/health`       |
+| Deploy-ready probe            | `curl https://vialchemlabs.net/api/health/ready` |
+
+Quick triage rules:
+
+- 500 errors -> Sentry first, then Vercel logs.
+- "I never got the email" -> Resend dashboard, search by recipient.
+- "My payment didn't go through" -> BTCPay (BTC) or bank (Zelle), then `/operator/orders/<id>`.
+- "I can't log in" -> Supabase Auth -> Users, then ask customer to re-request magic link.
