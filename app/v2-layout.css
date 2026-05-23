@@ -1314,11 +1314,18 @@ footer {
     min-height: auto !important;
     gap: 24px !important;
   }
+  /* M0c — on mobile the copy column (headline + CTAs) leads above
+   * the fold; the FloatingCards stack moves below. Section 4.5 of
+   * SUPER_PROMPT_softlaunch_2026-05-22: paid-ad traffic lands on
+   * `/` and the customer must see the brand promise + CTAs without
+   * scrolling. The previous order (stack:1, copy:2) buried the
+   * Browse-Catalog button below ~600px on iPhone SE, defeating the
+   * primary funnel entry point. */
   .v2-hero-copy {
-    order: 2;
+    order: 1;
   }
   .hero-proof-stack {
-    order: 1;
+    order: 2;
     height: auto !important;
     display: grid;
     grid-template-columns: 1fr;
