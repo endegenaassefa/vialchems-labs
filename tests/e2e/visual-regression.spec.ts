@@ -56,8 +56,17 @@ const ROUTES = [
   "/checkout/confirm",
 ] as const;
 
+// M0k (super-prompt 2026-05-22): add mobile-se (iPhone SE — narrowest
+// reasonable) + mobile-pixel (Pixel 7 — modern Android reference) so
+// the visual-regression suite catches regressions on the two viewports
+// most representative of paid-ad mobile traffic. Existing "mobile"
+// (375×812) is iPhone X/11/12/13 — preserved unchanged for continuity.
+// New viewports require ADDED snapshots only (Iron Law 2.25 exception);
+// no operator review needed on first baseline generation.
 const VIEWPORTS = [
+  { name: "mobile-se", width: 375, height: 667 },
   { name: "mobile", width: 375, height: 812 },
+  { name: "mobile-pixel", width: 412, height: 915 },
   { name: "tablet", width: 768, height: 1024 },
   { name: "desktop", width: 1440, height: 900 },
 ] as const;
