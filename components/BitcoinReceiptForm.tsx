@@ -15,16 +15,6 @@ interface BitcoinReceiptFormProps {
   sig: string;
 }
 
-const FIELD_STYLE = {
-  width: "100%",
-  marginTop: 6,
-  padding: "11px 12px",
-  border: "1px solid var(--line)",
-  borderRadius: "var(--r-sm)",
-  background: "var(--bg)",
-  color: "var(--fg)",
-} as const;
-
 function Field({
   label,
   name,
@@ -32,6 +22,7 @@ function Field({
   placeholder,
   required = true,
   autoComplete,
+  mono = false,
 }: {
   label: string;
   name: string;
@@ -39,19 +30,29 @@ function Field({
   placeholder?: string;
   required?: boolean;
   autoComplete?: string;
+  /**
+   * Render the input with the `.input.mono` variant. The shared
+   * `@media (max-width: 860px)` rule in v2-layout.css covers both
+   * `.input` and `.input.mono` at 16px so iOS Safari does not
+   * auto-zoom on focus (M0a foundation, M0b extends to Bitcoin form).
+   */
+  mono?: boolean;
 }) {
   return (
-    <label style={{ display: "block", color: "var(--fg-muted)" }}>
-      <span>{label}</span>
+    <div>
+      <label className="label" htmlFor={`btc-${name}`}>
+        {label}
+      </label>
       <input
+        className={mono ? "input mono" : "input"}
+        id={`btc-${name}`}
         name={name}
         type={type}
         required={required}
         placeholder={placeholder}
         autoComplete={autoComplete}
-        style={FIELD_STYLE}
       />
-    </label>
+    </div>
   );
 }
 
@@ -133,33 +134,61 @@ export function BitcoinReceiptForm({
 
   return (
     <form onSubmit={onSubmit} style={{ display: "grid", gap: 14 }}>
-      <Field label="Bitcoin transaction ID" name="txid" />
+      <Field label="Bitcoin transaction ID" name="txid" mono />
       <Field label="Buyer name" name="name" autoComplete="name" />
-      <Field label="Email" name="email" type="email" />
-      <Field label="Shipping street" name="street" />
-      <Field label="Apt / suite" name="street2" required={false} />
+      <Field label="Email" name="email" type="email" autoComplete="email" />
+      <Field
+        label="Shipping street"
+        name="street"
+        autoComplete="shipping address-line1"
+      />
+      <Field
+        label="Apt / suite"
+        name="street2"
+        required={false}
+        autoComplete="shipping address-line2"
+      />
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "1fr 90px 110px",
-          gap: 12,
+          gridTemplateColumns: "minmax(0, 1fr) 84px 120px",
+          gap: 10,
         }}
       >
-        <Field label="City" name="city" />
-        <Field label="State" name="stateCode" />
-        <Field label="ZIP" name="zip" />
+        <Field
+          label="City"
+          name="city"
+          autoComplete="shipping address-level2"
+        />
+        <Field
+          label="State"
+          name="stateCode"
+          autoComplete="shipping address-level1"
+          mono
+        />
+        <Field
+          label="ZIP"
+          name="zip"
+          autoComplete="shipping postal-code"
+          mono
+        />
       </div>
       <label
         style={{
           display: "flex",
           gap: 10,
           alignItems: "flex-start",
-          color: "var(--fg)",
+          color: "var(--fg-muted)",
           fontSize: 13,
           lineHeight: 1.5,
         }}
       >
-        <input name="attestation" type="checkbox" required />
+        <input
+          name="attestation"
+          type="checkbox"
+          required
+          style={{ marginTop: 3, accentColor: "var(--accent)" }}
+        />
         <span>
           I sent the exact Bitcoin amount shown above and understand staff will
           verify the transaction before dispatch.
@@ -174,6 +203,7 @@ export function BitcoinReceiptForm({
         type="submit"
         className="btn btn-accent btn-lg"
         disabled={pending}
+        style={{ justifyContent: "center", width: "100%" }}
       >
         {pending ? "Submitting Bitcoin receipt..." : "Submit Bitcoin receipt"}
       </button>

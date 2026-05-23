@@ -918,6 +918,29 @@ a {
   word-break: break-word;
   margin: 0;
 }
+/* M0b — Bitcoin checkout shell. Desktop 2-col layout (instructions +
+ * receipt form) mirrors the prior inline grid one-for-one so existing
+ * visual-regression baselines at 1280x720 remain unchanged; mobile
+ * collapse happens via the @media (max-width: 860px) rule below. */
+.v2-bitcoin-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(300px, 380px);
+  gap: 18px;
+  align-items: start;
+  margin-bottom: 24px;
+}
+/* M0b — Prominent BTC amount. Desktop preserves the prior inline
+ * `fontSize: 26, fontWeight: 600` exactly; mobile uses clamp() so
+ * the value stays >=24px (M0b SUCCESS CRITERIA floor inherited
+ * from the M0a contract). */
+.v2-bitcoin-amount {
+  font-family: var(--font-mono);
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0;
+  word-break: break-word;
+  margin: 0;
+}
 .btn:disabled {
   cursor: not-allowed;
   opacity: 0.68;
@@ -1249,6 +1272,19 @@ footer {
   .v2-zelle-amount {
     font-size: clamp(24px, 5.5vw, 28px);
     font-weight: 600;
+  }
+  /* M0b — Collapse the bitcoin checkout shell to a single column on
+   * narrow viewports. The desktop 2-col grid (1fr + 300-380px) leaves
+   * the address card under ~50px on iPhone SE — the same failure
+   * mode the M0a `.v2-zelle-shell` rule fixed for Zelle. */
+  .v2-bitcoin-shell {
+    grid-template-columns: 1fr;
+  }
+  /* M0b — Mobile BTC amount stays >=24px per super-prompt M0b inherit
+   * from M0a SUCCESS CRITERIA. clamp() keeps the value readable on
+   * every phone size. */
+  .v2-bitcoin-amount {
+    font-size: clamp(24px, 6vw, 28px);
   }
 }
 
