@@ -263,11 +263,64 @@ async function persistToSupabase(
 
       applied = Array.isArray(updatedRows) && updatedRows.length > 0;
       if (!applied) {
-        // Peer instance won the race — the row moved past `currentStatus`
-        // between our SELECT and our UPDATE. Treat as duplicate so the
-        // webhook caller returns 2xx and the provider stops retrying;
-        // history + emails were fired by the winner.
-        return { kind: "duplicate" };
+        // Codex P2 (PR #34 follow-up): 0-row CAS does NOT always mean a
+        // true duplicate. A different valid forward transition could have
+        // won the race — e.g., peer instance applied `pending → authorized`
+        // while we were trying `pending → paid`. Treating that as duplicate
+        // strands the durable row at `authorized` with no paid email
+        // ever firing. Re-read the row; classify:
+        //   - newStatus missing or equal to intent.status: true duplicate
+        //   - intent.status still a valid forward from newStatus: retry CAS
+        //     with newStatus in the filter
+        //   - otherwise: invalid_transition (peer applied something we
+        //     can no longer chain from)
+        const { data: latest } = await sb
+          .from("payments")
+          .select("status")
+          .eq("provider", intent.provider)
+          .eq("provider_intent_id", providerIntentId)
+          .maybeSingle();
+        const newStatus = (latest as { status?: PaymentStatus } | null)
+          ?.status;
+
+        if (!newStatus || newStatus === intent.status) {
+          return { kind: "duplicate" };
+        }
+
+        if (!canTransition(newStatus, intent.status)) {
+          return {
+            kind: "invalid_transition",
+            fromStatus: newStatus,
+            toStatus: intent.status,
+          };
+        }
+
+        // Retry CAS exactly once with the freshly-observed status. A
+        // second loss after retry is accepted as duplicate: another race
+        // happened during the re-read, the durable row is in some valid
+        // state per its history, and a missing paid email is recoverable
+        // from /operator/orders. Unbounded retry would let a hot loop in
+        // the provider hold the webhook open indefinitely.
+        const { data: retryRows, error: retryError } = await sb
+          .from("payments")
+          .update({
+            status: intent.status,
+            amount_cents: amountCents,
+            method_details: row.method_details,
+          })
+          .eq("provider", intent.provider)
+          .eq("provider_intent_id", providerIntentId)
+          .eq("status", newStatus)
+          .select("id");
+
+        if (retryError) {
+          throw new Error(`payments_update_failed: ${retryError.message}`);
+        }
+
+        applied = Array.isArray(retryRows) && retryRows.length > 0;
+        if (!applied) {
+          return { kind: "duplicate" };
+        }
       }
     } else {
       throw new Error(`payments_persist_failed: ${error.message}`);

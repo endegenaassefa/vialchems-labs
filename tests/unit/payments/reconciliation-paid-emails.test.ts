@@ -327,7 +327,7 @@ describe("firePaidEmails + persistToSupabase — P1-7: UPDATE-path concurrency r
     resetReconciliationLedger();
   });
 
-  it("does NOT fire paid emails when the conditional UPDATE returns 0 rows (peer instance won the race)", async () => {
+  it("does NOT fire paid emails when the conditional UPDATE returns 0 rows (peer instance won the race with same target)", async () => {
     // Race scenario: checkout already inserted the row at pending; two
     // cold-started webhook instances both observe pending + try to
     // transition to paid. The first one's UPDATE applies (filtered on
@@ -341,10 +341,11 @@ describe("firePaidEmails + persistToSupabase — P1-7: UPDATE-path concurrency r
       data: null,
     });
     // SELECT sees the pending row (current status at read time).
-    paymentsReadMaybeSingle.mockResolvedValueOnce({
-      data: { status: "pending" },
-      error: null,
-    });
+    paymentsReadMaybeSingle
+      .mockResolvedValueOnce({ data: { status: "pending" }, error: null })
+      // Re-read after 0-row CAS sees the target status: peer applied the
+      // same paid target → true duplicate.
+      .mockResolvedValueOnce({ data: { status: "paid" }, error: null });
     // UPDATE filtered on status='pending' affects 0 rows (peer beat us).
     paymentsUpdateSelect.mockResolvedValueOnce({ data: [], error: null });
 
@@ -404,6 +405,125 @@ describe("firePaidEmails + persistToSupabase — P1-7: UPDATE-path concurrency r
       ([col, val]) => col === "status" && val === "pending",
     );
     expect(statusEq).toBeDefined();
+  });
+});
+
+describe("firePaidEmails + persistToSupabase — codex P2: CAS 0-row re-read + retry", () => {
+  // Codex review (PR #34): the first CAS implementation incorrectly
+  // treated every 0-row UPDATE as a duplicate of the same target status.
+  // Real-world race: two webhooks arrive at two cold-started instances
+  // with DIFFERENT valid forward transitions (e.g., `authorized` and
+  // `paid` both from `pending`). The `authorized` instance wins → row
+  // becomes authorized. The `paid` instance's UPDATE filters on
+  // status=pending → 0 rows. The old code returned `duplicate`; the
+  // correct behavior is to re-read, observe status=authorized, and
+  // re-attempt the UPDATE with status=authorized in the filter so the
+  // paid transition completes. Without the retry: paid email never
+  // fires, BTCPay exhausts retries, customer has paid product silently
+  // stuck in authorized.
+
+  beforeEach(() => {
+    resetReconciliationLedger();
+    resetAllMocks();
+  });
+
+  afterEach(() => {
+    resetReconciliationLedger();
+  });
+
+  it("on 0-row CAS where re-read shows a still-valid intermediate, retries the UPDATE and fires emails", async () => {
+    // Insert collides; SELECT returns pending; first UPDATE matches 0
+    // rows (peer beat us to authorized); re-read returns authorized;
+    // canTransition(authorized, paid) is true; retry UPDATE with
+    // status=authorized filter → 1 row → applied=true.
+    paymentsInsert.mockResolvedValueOnce({
+      error: { code: "23505", message: "duplicate key value" },
+      data: null,
+    });
+    paymentsReadMaybeSingle
+      .mockResolvedValueOnce({ data: { status: "pending" }, error: null })
+      .mockResolvedValueOnce({ data: { status: "authorized" }, error: null });
+    paymentsUpdateSelect
+      .mockResolvedValueOnce({ data: [], error: null }) // first CAS: 0 rows
+      .mockResolvedValueOnce({ data: [{ id: "retry-id" }], error: null }); // retry: 1 row
+
+    await reconcile(makeIntent("pi_cas_retry", "paid"));
+
+    // Emails fire exactly once — the retry succeeded.
+    expect(sendOrderConfirmationMock).toHaveBeenCalledTimes(1);
+    expect(sendOperatorOrderNotificationMock).toHaveBeenCalledTimes(1);
+    // History row written.
+    expect(orderStatusHistoryInsert).toHaveBeenCalledTimes(1);
+    // UPDATE was called twice (first CAS + retry).
+    expect(paymentsUpdate).toHaveBeenCalledTimes(2);
+  });
+
+  it("on 0-row CAS where re-read shows the target status, returns duplicate (true race-loss)", async () => {
+    // Insert collides; SELECT returns pending; UPDATE 0 rows; re-read
+    // returns paid (peer applied same target). True duplicate — skip
+    // history/emails.
+    paymentsInsert.mockResolvedValueOnce({
+      error: { code: "23505", message: "duplicate key value" },
+      data: null,
+    });
+    paymentsReadMaybeSingle
+      .mockResolvedValueOnce({ data: { status: "pending" }, error: null })
+      .mockResolvedValueOnce({ data: { status: "paid" }, error: null });
+    paymentsUpdateSelect.mockResolvedValueOnce({ data: [], error: null });
+
+    await reconcile(makeIntent("pi_cas_true_dup", "paid"));
+
+    expect(sendOrderConfirmationMock).not.toHaveBeenCalled();
+    expect(sendOperatorOrderNotificationMock).not.toHaveBeenCalled();
+    expect(orderStatusHistoryInsert).not.toHaveBeenCalled();
+    // No retry UPDATE — re-read confirmed peer applied same target.
+    expect(paymentsUpdate).toHaveBeenCalledTimes(1);
+  });
+
+  it("on 0-row CAS where re-read shows a status that forbids the target, returns invalid_transition", async () => {
+    // Insert collides; SELECT returns pending; UPDATE 0 rows; re-read
+    // returns refunded (terminal). canTransition(refunded, paid) is
+    // false. Surface invalid_transition so the webhook caller can log +
+    // alert.
+    paymentsInsert.mockResolvedValueOnce({
+      error: { code: "23505", message: "duplicate key value" },
+      data: null,
+    });
+    paymentsReadMaybeSingle
+      .mockResolvedValueOnce({ data: { status: "pending" }, error: null })
+      .mockResolvedValueOnce({ data: { status: "refunded" }, error: null });
+    paymentsUpdateSelect.mockResolvedValueOnce({ data: [], error: null });
+
+    await reconcile(makeIntent("pi_cas_invalid", "paid"));
+
+    expect(sendOrderConfirmationMock).not.toHaveBeenCalled();
+    expect(sendOperatorOrderNotificationMock).not.toHaveBeenCalled();
+    expect(orderStatusHistoryInsert).not.toHaveBeenCalled();
+    expect(paymentsUpdate).toHaveBeenCalledTimes(1);
+  });
+
+  it("on 0-row CAS retry that also returns 0 rows (double race), returns duplicate (bounded retry)", async () => {
+    // Edge case: pending → authorized (peer 1) → ??? (peer 2) all happen
+    // between our reads. After one retry, if we STILL match 0 rows we
+    // accept the loss rather than retry forever — bounded retries
+    // protect the webhook caller from unbounded latency.
+    paymentsInsert.mockResolvedValueOnce({
+      error: { code: "23505", message: "duplicate key value" },
+      data: null,
+    });
+    paymentsReadMaybeSingle
+      .mockResolvedValueOnce({ data: { status: "pending" }, error: null })
+      .mockResolvedValueOnce({ data: { status: "authorized" }, error: null });
+    paymentsUpdateSelect
+      .mockResolvedValueOnce({ data: [], error: null }) // first CAS: 0 rows
+      .mockResolvedValueOnce({ data: [], error: null }); // retry CAS: also 0 rows
+
+    await reconcile(makeIntent("pi_cas_double_race", "paid"));
+
+    expect(sendOrderConfirmationMock).not.toHaveBeenCalled();
+    expect(sendOperatorOrderNotificationMock).not.toHaveBeenCalled();
+    expect(orderStatusHistoryInsert).not.toHaveBeenCalled();
+    expect(paymentsUpdate).toHaveBeenCalledTimes(2);
   });
 });
 
