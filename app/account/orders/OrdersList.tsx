@@ -76,11 +76,15 @@ function statusVariant(
 
 export function OrdersList() {
   const stub = useSessionStorageItem<StoredOrder>(ORDER_KEY);
-  const [state, setState] = useState<LoadState>({ kind: "idle" });
+  // Initial state is "loading" because the useEffect below fires
+  // immediately on mount. Previously the code initialized to "idle"
+  // then setState("loading") inside the effect — that synchronous
+  // setState triggers react-hooks/set-state-in-effect. Starting in
+  // "loading" makes the cascading render unnecessary.
+  const [state, setState] = useState<LoadState>({ kind: "loading" });
 
   useEffect(() => {
     let cancelled = false;
-    setState({ kind: "loading" });
     fetch("/api/account/orders", { credentials: "include" })
       .then(async (res) => {
         if (cancelled) return;
