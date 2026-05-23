@@ -80,6 +80,22 @@ export default function RootLayout({
         <Script id="vc-theme-init" strategy="beforeInteractive">
           {`(function(){try{var t=localStorage.getItem('vc.theme')||'light';var a=localStorage.getItem('vc.accent')||'cyan-navy';document.documentElement.dataset.theme=(t==='dark'||t==='light')?t:'light';document.documentElement.dataset.accent=a;}catch(e){document.documentElement.dataset.theme='light';document.documentElement.dataset.accent='cyan-navy';}})();`}
         </Script>
+        {/* D1 — Plausible analytics. Loads only when
+            NEXT_PUBLIC_PLAUSIBLE_DOMAIN is set (Vercel env, set
+            by operator post-Plausible-site-creation). The
+            outbound-links variant tracks external link clicks
+            in addition to page views. CSP allow-list for the
+            plausible.io script-src + connect-src is in
+            vercel.json. */}
+        {process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN ? (
+          <Script
+            id="vc-plausible"
+            strategy="afterInteractive"
+            defer
+            data-domain={process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN}
+            src="https://plausible.io/js/script.outbound-links.js"
+          />
+        ) : null}
       </head>
       <body className="min-h-full flex flex-col">
         <a href="#main" className="skip-link">
