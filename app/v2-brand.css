@@ -12,8 +12,13 @@
   --bg-inverse: #0a0e14;
 
   --fg: #0a0e14;
-  --fg-muted: #5a6470;
-  --fg-subtle: #8b95a1;
+  /* Theme-reconciliation PR: prior --fg-muted (#5a6470) was 6.5:1
+   * on #fafaf7 — fine for body, but on the #f4f4f0 footer-sunken
+   * background it landed at ~4.8:1. Prior --fg-subtle (#8b95a1)
+   * was 3.4:1 / 2.75:1 — failed WCAG 2.1 AA on both backgrounds.
+   * Both bumped to land >=4.5:1 on every surface they meet. */
+  --fg-muted: #4d5663;
+  --fg-subtle: #5e6877;
   --fg-inverse: #fafaf7;
 
   /* Hairlines */
@@ -26,11 +31,22 @@
   --accent-hi: #06b6d4; /* cyan highlight */
   --accent-soft: #e8f7fb; /* cyan tint bg */
   --accent-fg: #ffffff; /* on accent */
+  /* Alias for Tailwind arbitrary `text-[var(--text-on-accent)]`
+   * consumers — globals.css defines this inside [data-theme="*"]
+   * scopes but the :root default must also exist so the variable
+   * resolves before theme attributes attach. Both light + dark
+   * themes use white-on-accent so the alias points at the same. */
+  --text-on-accent: #ffffff;
 
-  /* Status */
-  --ok: #1f8a5b;
+  /* Status — darkened for WCAG 2.1 AA contrast on the soft-tint
+   * badge backgrounds. The prior --ok (#1f8a5b) on --ok-soft
+   * (#e7f4ed) produced 3.83:1, below the 4.5:1 body-text floor;
+   * --ok (#0e6b3f) lands at >=5:1. Same treatment applied to
+   * --warn (was #b08400 → 4.0:1 on warn-soft) and --danger
+   * (was already 5.2:1 — no change needed). */
+  --ok: #0e6b3f;
   --ok-soft: #e7f4ed;
-  --warn: #b08400;
+  --warn: #8a6500;
   --warn-soft: #fbf4dd;
   --danger: #b3261e;
   --danger-soft: #fbe9e7;

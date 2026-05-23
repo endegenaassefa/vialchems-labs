@@ -1,29 +1,22 @@
 /**
- * M0j — Mobile axe-core a11y sweep (scaffold)
+ * M0j — Mobile axe-core a11y sweep
  * (Section 6 super-prompt 2026-05-22).
  *
- * IMPORTANT: most tests in this spec are marked `test.fixme()`
- * because the v5 baseline currently has serious color-contrast
- * violations on the dark-theme default that the locked override
- * (`docs/DECISIONS/locked_override_2026-05-20.md`) said should
- * resolve to a LIGHT clinical theme. The legacy `tests/e2e/a11y.spec.ts`
- * does NOT exercise these violations because it never sets the
- * `vcl_age_verified` cookie — so every route 307-redirects to
- * `/age-gate` and axe scans the age-gate DOM, not the actual
- * content pages a real customer sees after first visit.
+ * Locks the iPhone SE (375x667) a11y contract for the 14 most-
+ * visited content routes + the two signed payment checkouts. All
+ * 16 assertions pass green on the LOCKED v5 LIGHT clinical theme
+ * (`docs/DECISIONS/locked_override_2026-05-20.md`) following the
+ * theme-reconciliation PR that switched `data-theme="dark"` →
+ * `"light"` in `app/layout.tsx`, bumped `--fg-muted` / `--fg-subtle`
+ * to >=4.5:1 contrast values, darkened `--ok` / `--warn` for badge
+ * AA, and added `aria-label="Sort catalog"` to the catalog sort
+ * select.
  *
- * The fixme'd tests still RUN — Playwright marks them as expected
- * failures and reports if any unexpectedly PASS. Each route locked
- * here is one violation surface we now know about. As individual
- * routes get their contrast / landmark / tap-target fixes (likely
- * as part of M0k visual-regression rebaseline or a dedicated
- * theme-reconciliation PR), the corresponding `test.fixme(` line
- * flips back to `test(`.
- *
- * The /checkout/zelle + /checkout/bitcoin tests at the bottom of
- * the file pass green today — the M0a + M0b restructures already
- * cleared the contrast + tap-target floor on those surfaces.
- * Those are NOT marked fixme.
+ * Scope: critical + serious only, mirroring the legacy
+ * tests/e2e/a11y.spec.ts contract. The super-prompt §6 M0j SUCCESS
+ * CRITERIA also calls for "axe-core reports zero violations on
+ * every page" (i.e. moderate + minor inclusive). Lifting the gate
+ * is an M0j-followup once we measure the moderate/minor surface.
  */
 import { expect, test } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
@@ -36,11 +29,7 @@ import { signBitcoinDirectCheckoutParams } from "@/lib/payments/bitcoin-direct";
 
 const VIEWPORT = { width: 375, height: 667 } as const;
 
-// Each route lists the known-violation impact level so the
-// `test.fixme(` call is self-documenting. As soon as a route is
-// fixed, drop it from this list (and the test below flips to
-// a plain `test(` call without further changes).
-const ROUTES_PENDING_CONTRAST_FIX = [
+const A11Y_ROUTES = [
   "/",
   "/shop",
   "/coa",
@@ -76,33 +65,33 @@ test.beforeEach(async ({ context, baseURL }) => {
   ]);
 });
 
-for (const route of ROUTES_PENDING_CONTRAST_FIX) {
-  test.fixme(
-    `${route} has no critical/serious axe violations at iPhone SE`,
-    async ({ page }) => {
-      await page.goto(route);
-      const results = await new AxeBuilder({ page })
-        .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
-        .analyze();
-      const blocking = results.violations.filter(
-        (v) => v.impact === "critical" || v.impact === "serious",
-      );
-      expect(
-        blocking,
-        `Critical/serious axe violations on ${route}: ${blocking
-          .map((v) => `${v.id} (${v.impact})`)
-          .join(", ")}`,
-      ).toHaveLength(0);
-    },
-  );
+for (const route of A11Y_ROUTES) {
+  test(`${route} has no critical/serious axe violations at iPhone SE`, async ({
+    page,
+  }) => {
+    await page.goto(route);
+    const results = await new AxeBuilder({ page })
+      .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
+      .analyze();
+    const blocking = results.violations.filter(
+      (v) => v.impact === "critical" || v.impact === "serious",
+    );
+    expect(
+      blocking,
+      `Critical/serious axe violations on ${route}: ${blocking
+        .map((v) => `${v.id} (${v.impact})`)
+        .join(", ")}`,
+    ).toHaveLength(0);
+  });
 }
 
-// Signed payment-rail checkout pages — the M0a + M0b layout work
-// fixed the page-shell contrast and tap-target issues, but the
-// shared V2Footer brings the same color-contrast violations as
-// every other content route (see header comment). Marked fixme
-// alongside the static routes; the contrast fix lifts these too.
-test.fixme("/checkout/zelle (signed) has no critical/serious axe violations at iPhone SE", async ({
+// Signed payment-rail checkout pages — the legacy a11y spec
+// skips these because they require a signed URL. Mobile is the
+// dominant viewport for ad-traffic and the M0a/M0b PRs reshaped
+// the layouts, so an a11y guard at iPhone SE here protects the
+// conversion path from any future change that re-introduces a
+// color-contrast or tap-target regression.
+test("/checkout/zelle (signed) has no critical/serious axe violations at iPhone SE", async ({
   page,
 }) => {
   const params = new URLSearchParams();
@@ -136,7 +125,7 @@ test.fixme("/checkout/zelle (signed) has no critical/serious axe violations at i
   ).toHaveLength(0);
 });
 
-test.fixme("/checkout/bitcoin (signed direct) has no critical/serious axe violations at iPhone SE", async ({
+test("/checkout/bitcoin (signed direct) has no critical/serious axe violations at iPhone SE", async ({
   page,
 }) => {
   const params = new URLSearchParams();

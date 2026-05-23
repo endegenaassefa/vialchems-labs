@@ -265,10 +265,16 @@
 
 [data-theme="light"],
 .light {
-  --text-primary: #0a0e1a;
-  --text-secondary: rgba(10, 14, 26, 0.78);
-  --text-muted: rgba(10, 14, 26, 0.58);
-  --text-disabled: rgba(10, 14, 26, 0.38);
+  /* Theme-reconciliation PR: the prior rgba()-based tokens produced
+   * 2.75:1 footer text and 3.83:1 badge-coa text — both below WCAG
+   * 2.1 AA's 4.5:1 floor for body text. Switching to solid hex
+   * values that match the :root defaults (which are the LOCKED v5
+   * light-theme palette per docs/DECISIONS/locked_override_2026-05-20.md)
+   * brings both surfaces to >=5:1 contrast. */
+  --text-primary: #0a0e14;
+  --text-secondary: #1f2937;
+  --text-muted: #4d5663;
+  --text-disabled: rgba(10, 14, 26, 0.5);
   --text-on-accent: #ffffff;
   --bg-primary: #ffffff;
   --bg-secondary: #f4f6fa;
