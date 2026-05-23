@@ -533,3 +533,22 @@ Quick triage rules:
 - "I never got the email" -> Resend dashboard, search by recipient.
 - "My payment didn't go through" -> BTCPay (BTC) or bank (Zelle), then `/operator/orders/<id>`.
 - "I can't log in" -> Supabase Auth -> Users, then ask customer to re-request magic link.
+
+### H4 — Operator in-flight PR #4 status
+
+Operator opened PR #4 (`v5.1-rate-limit-closure`) on 2026-05-22. The PR bundles:
+
+- Iron Law 2.34 closure: Upstash adapter swap, `SKIP_RATE_LIMIT` bypass, Sentry breadcrumbs, per-email gates wired at `/api/access` + `/api/newsletter/subscribe`, LRU cap on the in-memory store, response key rename `retryAfter` → `retryAfterSeconds`.
+- Hero copy refresh experiment ("The Certificate of Analysis is the product. The vial is the packaging.") on `components/v2/Home.tsx`.
+
+Status as of 2026-05-23:
+
+- State: OPEN, `mergeable: CONFLICTING` against current `main` (M0a-h + the soft-launch infra PRs have advanced main significantly).
+- CI: RED across Unit+preflight, e2e+visual-regression, Lighthouse mobile + desktop.
+- Recommendation: rebase the rate-limit half onto current main as a fresh PR (the Iron Law 2.34 closure covers I3 substantively); close or revert the hero-copy half (already superseded by the M0c hero work that landed in PR #13).
+
+**This soft-launch session intentionally did NOT push to or rebase PR #4** (per super-prompt §7 "NEVER push to or rebase a PR you didn't create"). The operator decides whether to:
+
+1. Rebase + split the PR themselves.
+2. Close PR #4 and re-author the rate-limit + per-email gate work as a new PR (the underlying changes to `lib/rate-limit.ts` + `app/api/*` are reusable).
+3. Defer the I3 Upstash wiring until post-soft-launch and accept the in-memory rate-limiter for the first 1-5K-impression ad campaign (the LRU cap from PR #4 is already implemented at the code level, just not committed to `main`).

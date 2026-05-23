@@ -8,7 +8,7 @@ import {
 const READY_ENV: ZelleEnv = {
   ZELLE_RECIPIENT_NAME: "Vialchem Labs LLC",
   ZELLE_HANDLE: "vialchem-pay",
-  ZELLE_EMAIL: "abhinav@vialchemlabs.net",
+  ZELLE_EMAIL: "support@vialchemlabs.net",
   ZELLE_PAYMENT_NOTE_PREFIX: "VCL",
 };
 
@@ -38,7 +38,7 @@ describe("createZelleAdapter", () => {
 
     expect(intent.metadata.zelleRecipientName).toBe("Vialchem Labs LLC");
     expect(intent.metadata.zelleHandle).toBe("vialchem-pay");
-    expect(intent.metadata.zelleSupportEmail).toBe("abhinav@vialchemlabs.net");
+    expect(intent.metadata.zelleSupportEmail).toBe("support@vialchemlabs.net");
   });
 
   it("creates a pending manual-payment intent with memo instructions", async () => {
@@ -65,7 +65,7 @@ describe("createZelleAdapter", () => {
     });
     expect(intent.metadata.zelleMemo).toBe("VCL-VC-260515-ABCDEF12");
     expect(intent.metadata.zelleHandle).toBe("vialchem-pay");
-    expect(intent.metadata.zelleEmail).toBe("abhinav@vialchemlabs.net");
+    expect(intent.metadata.zelleEmail).toBe("support@vialchemlabs.net");
     expect(intent.metadata.instructions).toContain("VCL-VC-260515-ABCDEF12");
   });
 
