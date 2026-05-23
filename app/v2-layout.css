@@ -1608,3 +1608,28 @@ footer {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ============================================================
+ * M0d — Catalog grid breakpoints per SUPER_PROMPT_softlaunch_2026-05-22
+ * §6 M0d. The spec asks for:
+ *   - 1 column under 640px
+ *   - 2 columns 640–1023px
+ *   - 3 columns at 1024px+
+ * The legacy stylesheet has its own `.catalog-grid` rules inside the
+ * shared @media (max-width: 860px) + @media (max-width: 560px) blocks
+ * that govern many other mobile rules. Touching those breakpoints
+ * would ripple into nav, hero, footer, cart, PDP, etc. — so M0d adds
+ * its own @media blocks AT THE END OF THE STYLESHEET. Source-order
+ * cascade resolves them last, overriding the legacy 860/560 rules
+ * at the relevant viewports without disturbing any other mobile rule.
+ * ============================================================ */
+@media (max-width: 1023px) {
+  .catalog-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 639px) {
+  .catalog-grid {
+    grid-template-columns: 1fr;
+  }
+}
