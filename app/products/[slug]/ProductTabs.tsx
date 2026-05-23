@@ -102,6 +102,7 @@ function DescriptionPanel({ product }: { product: Product }) {
       className="grid gap-10 md:grid-cols-[3fr_2fr]"
     >
       <div className="space-y-4 text-[16px] leading-[1.65] text-[var(--text-muted)]">
+        <CompositionDisclosure product={product} />
         {paragraphs.map((para, i) => (
           <p key={i} className={i === 0 ? "text-[var(--text)]" : undefined}>
             {para}
@@ -118,6 +119,76 @@ function DescriptionPanel({ product }: { product: Product }) {
           { term: "Per mg", value: formatPerMg(product.perMgCents) },
         ]}
       />
+    </div>
+  );
+}
+
+/**
+ * H1 (super-prompt §6) — multi-peptide blend disclosure on the PDP.
+ *
+ * - Populated `composition` → render the per-vial breakdown so the
+ *   researcher knows what's in the blend before they buy.
+ * - `composition === null` → render a customer-facing "pending"
+ *   notice with support contact. Makes the regulatory gap visible
+ *   instead of silent.
+ * - `composition === undefined` (default for single-peptide SKUs) →
+ *   render nothing.
+ */
+function CompositionDisclosure({ product }: { product: Product }) {
+  if (product.composition === undefined) return null;
+  if (product.composition === null) {
+    return (
+      <div
+        role="note"
+        className="rounded-[var(--radius-lg)] border border-[var(--border)] bg-[var(--surface)] p-4"
+      >
+        <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-2">
+          Composition disclosure pending
+        </p>
+        <p className="text-[14px] text-[var(--text-muted)] leading-[1.55]">
+          This is a multi-peptide blend. The per-batch composition is published
+          alongside the Certificate of Analysis once the lab releases each
+          batch. Contact{" "}
+          <a
+            href="mailto:support@vialchemlabs.net?subject=Composition disclosure request"
+            className="text-[var(--accent)] underline"
+          >
+            support@vialchemlabs.net
+          </a>{" "}
+          for the current batch's full peptide composition before ordering.
+        </p>
+      </div>
+    );
+  }
+  return (
+    <div
+      role="note"
+      className="rounded-[var(--radius-lg)] border border-[var(--border)] bg-[var(--surface)] p-4"
+    >
+      <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] mb-2">
+        Composition (per vial)
+      </p>
+      <ul className="space-y-1 text-[14px] text-[var(--text)]">
+        {product.composition.peptides.map((p) => (
+          <li
+            key={p.name}
+            className="flex items-baseline justify-between gap-3 font-mono"
+          >
+            <span>{p.name}</span>
+            <span className="tabular text-[var(--text-muted)]">
+              {p.mgPerVial} mg
+            </span>
+          </li>
+        ))}
+      </ul>
+      {product.composition.perBatchCoaUrl ? (
+        <a
+          href={product.composition.perBatchCoaUrl}
+          className="mt-3 inline-block font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)]"
+        >
+          Per-batch COA →
+        </a>
+      ) : null}
     </div>
   );
 }

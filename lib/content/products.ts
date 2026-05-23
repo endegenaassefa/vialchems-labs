@@ -31,6 +31,36 @@ export type ProductCategory =
   | "nootropic"
   | "immune";
 
+/**
+ * Composition disclosure for multi-peptide blend SKUs (super-prompt
+ * §6 H1). Three states the PDP renders:
+ *
+ *   - field absent (`composition` undefined) → single-peptide SKU,
+ *     no disclosure UI rendered. The SKU name + dose IS the
+ *     composition.
+ *   - field set to `null` → explicit "operator disclosure pending"
+ *     signal. PDP renders a contact-support notice in the
+ *     Description panel so the regulatory gap is visible to the
+ *     customer rather than hidden as a silent void.
+ *   - field populated → PDP renders the peptide list with per-vial
+ *     milligrams.
+ *
+ * Operator workflow for closing H1: edit the `composition` field
+ * for the relevant SKU here in products.ts, populate `peptides`
+ * with the per-batch breakdown, and the PDP renders the disclosure
+ * automatically.
+ */
+export interface ProductCompositionPeptide {
+  name: string;
+  mgPerVial: number;
+}
+
+export interface ProductComposition {
+  peptides: ProductCompositionPeptide[];
+  /** Optional URL of the per-batch COA that documents the blend. */
+  perBatchCoaUrl?: string;
+}
+
 export interface Product {
   slug: string;
   sku: string;
@@ -44,6 +74,12 @@ export interface Product {
   role: "loss-leader" | "volume-driver" | "catalog-filler";
   position: string;
   shortDescription: string;
+  /**
+   * Multi-peptide blend disclosure. See ProductComposition above.
+   * Set to `null` to render the "disclosure pending" notice; populate
+   * to render the breakdown; omit on single-peptide SKUs.
+   */
+  composition?: ProductComposition | null;
 }
 
 export type CatalogAvailability = "in-stock" | "request-only" | "test-only";
@@ -698,6 +734,12 @@ export const products: Product[] = [
     position: "operator-override 2026-05-22; composition disclosure pending",
     shortDescription:
       "Operator-blended research material supplied as an 80mg lyophilized vial. Composition declaration accompanies the per-batch certificate of analysis.",
+    // H1 (super-prompt §6): explicit `null` signals the PDP to render
+    // a customer-facing "Composition disclosure pending" notice
+    // pointing to support. Operator replaces this null with a populated
+    // ProductComposition (peptides + mgPerVial per the per-batch COA)
+    // when the blend specification is finalized.
+    composition: null,
   },
   {
     slug: "reta-10mg",

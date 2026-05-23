@@ -648,3 +648,25 @@ gate fails, 2 on fatal driver error.
   audit_log + Resend dashboard + BTCPay/bank records are the
   forensic recovery path; this is acceptable for soft-launch volume
   but should be revisited before scaling to >100 orders/day.
+
+### D2 — Sentry verification probe
+
+Once `NEXT_PUBLIC_SENTRY_DSN` (plus `SENTRY_ORG`, `SENTRY_PROJECT`,
+`SENTRY_AUTH_TOKEN`) are set in Vercel and a redeploy lands, fire the
+synthetic probe:
+
+```
+curl -i 'https://vialchemlabs.net/api/test-error?token=vc-sentry-probe'
+```
+
+Expected:
+
+- HTTP `500` response with body `{ ok: false, code: "sentry_probe_fired", ... }`
+- A `SentryProbeError` event in the Sentry dashboard within ~1 minute,
+  tagged `route=test-error`, `probe=sentry`
+- The captured event payload should have NO PII (no headers, no body,
+  no email, no IP) — confirms Iron Law 2.32 `beforeSend` scrubber
+
+If the response is `403`, the token is wrong. If `200`, the route isn't
+deployed yet. If the response is `500` but Sentry stays empty after 5
+minutes, check the DSN value in Vercel and re-deploy.
