@@ -66,9 +66,11 @@ function statusLabel(status: string): string {
   }
 }
 
-function statusVariant(status: string): "accent" | "ok" | "warn" {
-  if (status === "paid" || status === "shipped") return "ok";
-  if (status === "payment_rejected") return "warn";
+function statusVariant(
+  status: string,
+): "accent" | "info" | "electric" | "error" {
+  if (status === "paid" || status === "shipped") return "electric";
+  if (status === "payment_rejected" || status === "refunded") return "error";
   return "accent";
 }
 

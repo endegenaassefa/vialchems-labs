@@ -1,20 +1,21 @@
 "use client";
 
 /**
- * Signup — v1.3 real-feeling account creation.
+ * Signup — B1 magic-link flow with role capture
+ * (Section 6 super-prompt 2026-05-22).
  *
- * Real form (email + password + role + display name) backed by
- * lib/auth-store.ts (Zustand + localStorage). Creates a real account on this
- * device; password is SHA-256 hashed with a per-account salt. On submit,
- * routes to /account where the user sees their dashboard.
+ * The customer enters their email + research role + optional
+ * newsletter opt-in. We trigger Supabase Auth's `signInWithOtp`
+ * which emails a magic link. The role is captured in
+ * `user_metadata` via the `data` option so it follows the user
+ * into the qualification flow at first checkout.
  *
- * v4 D2 deferral closes when Supabase auth wires in Phase 10; the public
- * API of useAuthStore stays the same so this page won't need to change.
+ * Stub mode (REQUIRE_SUPABASE=false): renders a "setup pending"
+ * card instead of pretending to send a link.
  */
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { useState, type FormEvent } from "react";
+import { Suspense, useEffect, useState, type FormEvent } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Card } from "@/components/ui/Card";
@@ -22,43 +23,63 @@ import { Pill } from "@/components/ui/Pill";
 import { FieldLabel } from "@/components/ui/FieldLabel";
 import { Input } from "@/components/ui/Input";
 import { Button } from "@/components/ui/Button";
-import { useAuthStore } from "@/lib/auth-store";
 import {
   QualificationRoles,
   qualificationRoleLabels,
   type QualificationRole,
 } from "@/lib/customer-qualification";
+import { browserSupabase } from "@/lib/supabase";
+import { isSupabaseAuthAvailable } from "@/lib/supabase-auth";
 
-export default function SignupPage() {
-  const router = useRouter();
-  const signup = useAuthStore((s) => s.signup);
+type SubmitState =
+  | { kind: "idle" }
+  | { kind: "submitting" }
+  | { kind: "sent"; email: string }
+  | { kind: "unavailable" }
+  | { kind: "error"; message: string };
 
+function SignupPageInner() {
   const [email, setEmail] = useState("");
-  const [displayName, setDisplayName] = useState("");
-  const [password, setPassword] = useState("");
-  const [passwordConfirm, setPasswordConfirm] = useState("");
   const [role, setRole] = useState<QualificationRole>("academic-researcher");
   const [newsletterOptIn, setNewsletterOptIn] = useState(true);
-  const [submitting, setSubmitting] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [state, setState] = useState<SubmitState>({ kind: "idle" });
+  const [available, setAvailable] = useState(true);
+
+  useEffect(() => {
+    setAvailable(isSupabaseAuthAvailable());
+  }, []);
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setError(null);
-    if (password !== passwordConfirm) {
-      setError("Passwords do not match.");
+    if (!email.trim()) return;
+    setState({ kind: "submitting" });
+
+    const supabase = browserSupabase();
+    if (!supabase) {
+      setState({ kind: "unavailable" });
       return;
     }
-    setSubmitting(true);
-    try {
-      await signup({ email, password, role, displayName, newsletterOptIn });
-      router.push("/account");
-    } catch (err) {
-      setError(
-        err instanceof Error ? err.message : "Could not create account.",
-      );
-      setSubmitting(false);
+    const redirectTo =
+      typeof window !== "undefined"
+        ? `${window.location.origin}/auth/callback?next=/account`
+        : undefined;
+
+    const { error } = await supabase.auth.signInWithOtp({
+      email: email.trim(),
+      options: {
+        emailRedirectTo: redirectTo,
+        data: {
+          role,
+          newsletter_opt_in: newsletterOptIn,
+        },
+      },
+    });
+
+    if (error) {
+      setState({ kind: "error", message: error.message });
+      return;
     }
+    setState({ kind: "sent", email: email.trim() });
   }
 
   return (
@@ -71,153 +92,120 @@ export default function SignupPage() {
               C R E A T E · A C C O U N T
             </p>
             <h1 className="text-[clamp(36px,5vw,56px)] font-light tracking-tight leading-[1.05] text-[var(--text)] mb-6">
-              <span className="block">Set up your</span>
+              <span className="block">Join the</span>
               <span className="font-serif-italic block text-[var(--accent-soft)]">
-                researcher account.
+                research lab.
               </span>
             </h1>
             <p className="text-[15px] leading-[1.6] text-[var(--text-muted)] mb-8">
-              Faster checkout. Persistent qualification. COA download history.
-              Order tracking.
+              We&apos;ll email a one-tap sign-in link. Your account unlocks
+              order history, COA-verified vial tracking, and qualification
+              progress — no password.
             </p>
 
-            <Card variant="elevated" className="p-6">
-              <form onSubmit={onSubmit} className="space-y-5" noValidate>
-                <div>
-                  <FieldLabel htmlFor="signup-email" required>
-                    Email
-                  </FieldLabel>
-                  <div className="mt-2">
-                    <Input
-                      id="signup-email"
-                      name="email"
-                      type="email"
-                      autoComplete="email"
-                      required
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                    />
+            {state.kind === "sent" ? (
+              <Card variant="elevated" className="p-6">
+                <Pill variant="accent">Check your inbox</Pill>
+                <h2 className="mt-3 text-[22px] font-medium text-[var(--text)]">
+                  Confirmation link sent.
+                </h2>
+                <p className="mt-2 text-[14px] leading-[1.55] text-[var(--text-muted)]">
+                  We just emailed{" "}
+                  <span className="font-mono">{state.email}</span>. Click the
+                  link to confirm and land in your new account.
+                </p>
+              </Card>
+            ) : state.kind === "unavailable" || !available ? (
+              <Card variant="elevated" className="p-6">
+                <Pill variant="info">Setup pending</Pill>
+                <h2 className="mt-3 text-[20px] font-medium text-[var(--text)]">
+                  Account creation isn&apos;t enabled yet.
+                </h2>
+                <p className="mt-2 text-[14px] leading-[1.55] text-[var(--text-muted)]">
+                  Supabase Auth is being provisioned. You can still place an
+                  order as a guest — your order id will be in the confirmation
+                  email and visible on this device until you can sign in.
+                </p>
+              </Card>
+            ) : (
+              <Card variant="elevated" className="p-6">
+                <form onSubmit={onSubmit} className="space-y-5" noValidate>
+                  <div>
+                    <FieldLabel htmlFor="signup-email" required>
+                      Email
+                    </FieldLabel>
+                    <div className="mt-2">
+                      <Input
+                        id="signup-email"
+                        name="email"
+                        type="email"
+                        autoComplete="email"
+                        required
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                      />
+                    </div>
                   </div>
-                </div>
 
-                <div>
-                  <FieldLabel htmlFor="signup-name" required>
-                    Display name
-                  </FieldLabel>
-                  <div className="mt-2">
-                    <Input
-                      id="signup-name"
-                      name="displayName"
-                      autoComplete="name"
-                      required
-                      value={displayName}
-                      onChange={(e) => setDisplayName(e.target.value)}
-                      placeholder="Lab tech / researcher / institution name"
-                    />
+                  <div>
+                    <FieldLabel htmlFor="signup-role" required>
+                      Research role
+                    </FieldLabel>
+                    <div className="mt-2">
+                      <select
+                        id="signup-role"
+                        name="role"
+                        value={role}
+                        onChange={(e) =>
+                          setRole(e.target.value as QualificationRole)
+                        }
+                        className="w-full rounded-[var(--radius-md)] border border-[var(--border)] bg-[var(--surface)] px-3 py-2 text-[15px] text-[var(--text)] focus:border-[var(--accent)] focus:outline-none"
+                      >
+                        {QualificationRoles.map((r) => (
+                          <option key={r} value={r}>
+                            {qualificationRoleLabels[r]}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
                   </div>
-                </div>
 
-                <div>
-                  <FieldLabel htmlFor="signup-role" required>
-                    Institutional role
-                  </FieldLabel>
-                  <select
-                    id="signup-role"
-                    name="role"
-                    required
-                    value={role}
-                    onChange={(e) =>
-                      setRole(e.target.value as QualificationRole)
-                    }
-                    className="mt-2 w-full h-11 px-3 rounded-[var(--radius-md)] bg-[var(--surface-strong)] border border-[var(--border)] text-[14px] focus:border-[var(--accent)] focus:outline-none"
+                  <label className="flex items-start gap-3 text-[13px] text-[var(--text-muted)]">
+                    <input
+                      type="checkbox"
+                      checked={newsletterOptIn}
+                      onChange={(e) => setNewsletterOptIn(e.target.checked)}
+                      className="mt-1 accent-[var(--accent)]"
+                    />
+                    <span>
+                      Send me monthly research-citation digests (one-click
+                      unsubscribe in every email).
+                    </span>
+                  </label>
+
+                  {state.kind === "error" ? (
+                    <div
+                      role="alert"
+                      className="rounded-[var(--radius-md)] border border-[var(--pill-error)] px-4 py-3 text-[13px] text-[var(--pill-error)]"
+                    >
+                      {state.message}
+                    </div>
+                  ) : null}
+
+                  <Button
+                    type="submit"
+                    variant="primary"
+                    size="lg"
+                    className="w-full"
+                    disabled={state.kind === "submitting"}
                   >
-                    {QualificationRoles.map((r) => (
-                      <option key={r} value={r}>
-                        {qualificationRoleLabels[r]}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-
-                <div>
-                  <FieldLabel htmlFor="signup-password" required>
-                    Password
-                  </FieldLabel>
-                  <div className="mt-2">
-                    <Input
-                      id="signup-password"
-                      name="password"
-                      type="password"
-                      autoComplete="new-password"
-                      required
-                      minLength={8}
-                      value={password}
-                      onChange={(e) => setPassword(e.target.value)}
-                    />
-                  </div>
-                  <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.12em] text-[var(--text-subtle)]">
-                    Minimum 8 characters
-                  </p>
-                </div>
-
-                <div>
-                  <FieldLabel htmlFor="signup-password-confirm" required>
-                    Confirm password
-                  </FieldLabel>
-                  <div className="mt-2">
-                    <Input
-                      id="signup-password-confirm"
-                      name="passwordConfirm"
-                      type="password"
-                      autoComplete="new-password"
-                      required
-                      minLength={8}
-                      value={passwordConfirm}
-                      onChange={(e) => setPasswordConfirm(e.target.value)}
-                    />
-                  </div>
-                </div>
-
-                <label className="flex items-start gap-3 text-[13px] leading-[1.5] text-[var(--text-muted)] cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={newsletterOptIn}
-                    onChange={(e) => setNewsletterOptIn(e.target.checked)}
-                    className="mt-1 h-4 w-4 accent-[var(--accent)]"
-                  />
-                  <span>
-                    Send me new-batch announcements + research index updates.
-                    Unsubscribe anytime.
-                  </span>
-                </label>
-
-                {error ? (
-                  <div
-                    role="alert"
-                    className="rounded-[var(--radius-md)] border border-[var(--pill-error)] px-4 py-3 text-[13px] text-[var(--pill-error)]"
-                  >
-                    {error}
-                  </div>
-                ) : null}
-
-                <Button
-                  type="submit"
-                  variant="primary"
-                  size="lg"
-                  className="w-full"
-                  disabled={submitting}
-                >
-                  {submitting ? "Creating account…" : "Create account"}
-                </Button>
-
-                <div className="flex flex-wrap items-center justify-between gap-2 pt-2">
-                  <Pill variant="info">Pre-launch</Pill>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.16em] text-[var(--text-subtle)]">
-                    Server auth wires before public launch
-                  </span>
-                </div>
-              </form>
-            </Card>
+                    {state.kind === "submitting"
+                      ? "Sending confirmation link…"
+                      : "Email me a confirmation link"}
+                  </Button>
+                </form>
+              </Card>
+            )}
 
             <p className="mt-6 text-[14px] text-[var(--text-muted)] text-center">
               Already have an account?{" "}
@@ -228,28 +216,18 @@ export default function SignupPage() {
                 Sign in →
               </Link>
             </p>
-            <p className="mt-6 text-[12px] text-[var(--text-subtle)] leading-[1.55]">
-              By creating an account, you agree to our{" "}
-              <Link
-                href="/legal/terms"
-                className="text-[var(--text-muted)] underline"
-              >
-                Terms
-              </Link>{" "}
-              and{" "}
-              <Link
-                href="/legal/privacy"
-                className="text-[var(--text-muted)] underline"
-              >
-                Privacy Policy
-              </Link>
-              . You confirm you are 21+ and will use products solely for
-              laboratory research in non-clinical settings.
-            </p>
           </div>
         </section>
       </main>
       <SiteFooter />
     </>
+  );
+}
+
+export default function SignupPage() {
+  return (
+    <Suspense fallback={null}>
+      <SignupPageInner />
+    </Suspense>
   );
 }
