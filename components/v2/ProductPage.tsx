@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useState, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import { useCartStore } from "@/lib/cart-store";
+import { track } from "@/lib/analytics/plausible";
 import { catalogItems, displayPrice, getCatalogItem, skuCode } from "./data";
 import { Icon } from "./icons";
 import { V2Footer, V2Header } from "./Shell";
@@ -13,6 +14,16 @@ export function V2ProductPage({ slug }: { slug: string }) {
   const addLine = useCartStore((s) => s.addLine);
   const [qty, setQty] = useState(1);
   const [added, setAdded] = useState(false);
+
+  // D4: product_viewed funnel event. Fires once per PDP mount.
+  // track() no-ops when Plausible isn't configured.
+  useEffect(() => {
+    if (!item) return;
+    track({
+      event: "product_viewed",
+      props: { slug: item.slug, sku: item.sku, family: item.family },
+    });
+  }, [item]);
 
   if (!item) {
     return (

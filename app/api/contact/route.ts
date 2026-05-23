@@ -2,6 +2,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import * as Sentry from "@sentry/nextjs";
 import { findMarketingCopyViolation } from "@/lib/compliance";
 import { sendEmail } from "@/lib/email/resend";
+import { sendContactAck } from "@/lib/email/contact-ack";
 import { isRateLimited } from "@/lib/rate-limit";
 import { isProductionRuntime } from "@/lib/runtime-env";
 import { captureException } from "@/lib/sentry";
@@ -123,6 +124,22 @@ export async function POST(req: NextRequest) {
         { status: 502 },
       );
     }
+  }
+
+  // J2 — customer ack. Best-effort: if the ack send fails, log it
+  // to Sentry but do NOT fail the request (operator notification
+  // above already succeeded, which is the important half).
+  try {
+    await sendContactAck({
+      customerEmail: email,
+      customerName: name,
+      subject: `Contact form: ${name}`,
+      body: message,
+    });
+  } catch (error) {
+    captureException(error, {
+      tags: { route: "contact", provider: "resend", phase: "ack" },
+    });
   }
 
   return NextResponse.json({ ok: true });

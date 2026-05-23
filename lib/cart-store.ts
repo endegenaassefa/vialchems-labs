@@ -18,6 +18,7 @@
 
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
+import { track } from "@/lib/analytics/plausible";
 
 export interface CartLine {
   sku: string;
@@ -62,6 +63,16 @@ export const useCartStore = create<CartState>()(
               { ...line, qty: Math.min(10, Math.max(1, line.qty ?? 1)) },
             ],
           };
+        });
+        // D4: funnel event. track() no-ops when Plausible isn't
+        // configured so the cart still works without analytics.
+        track({
+          event: "add_to_cart",
+          props: {
+            sku: line.sku,
+            slug: line.slug,
+            qty: line.qty ?? 1,
+          },
         });
       },
       removeLine: (sku) =>
