@@ -24,7 +24,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Card } from "@/components/ui/Card";
 import { Pill } from "@/components/ui/Pill";
 import { Button } from "@/components/ui/Button";
@@ -50,6 +50,8 @@ import {
   useSessionStorageItem,
   useSessionStorageString,
 } from "@/lib/use-session-storage";
+import { FUNNEL_EVENTS } from "@/lib/analytics/events";
+import { track } from "@/lib/analytics/plausible";
 
 const ADDRESS_KEY = "vialchemlabs:checkout:address";
 const METHOD_KEY = "vialchemlabs:checkout:method";
@@ -109,6 +111,14 @@ export function ReviewPanel() {
   } | null>(null);
   const [promoError, setPromoError] = useState<string | null>(null);
   const [submitError, setSubmitError] = useState<string | null>(null);
+
+  // D4 funnel event — fires once when the review step renders. Uses
+  // useEffect with an empty dep array so it fires per-mount, not on
+  // every state change. The track() helper is a no-op when Plausible
+  // isn't configured, so test environments stay clean.
+  useEffect(() => {
+    track({ event: FUNNEL_EVENTS.CHECKOUT_STARTED });
+  }, []);
 
   const methodDiscountPct = method ? (METHOD_DISCOUNT_PCT[method] ?? 0) : 0;
   const methodDiscountCents = useMemo(

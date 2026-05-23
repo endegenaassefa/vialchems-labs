@@ -23,6 +23,8 @@ import { serviceSupabase } from "@/lib/supabase";
 import { sendOrderConfirmation } from "@/lib/email/order-confirmation";
 import { sendOperatorOrderNotification } from "@/lib/email/operator-notification";
 import { captureException } from "@/lib/sentry";
+import { trackServerEvent } from "@/lib/analytics/server-track";
+import { FUNNEL_EVENTS } from "@/lib/analytics/events";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -449,6 +451,19 @@ export async function POST(request: Request): Promise<Response> {
       },
     });
   }
+
+  // D4 funnel event — order_placed. Fires server-side because the
+  // total + rail come from server-validated state; the client-side
+  // track() call wouldn't have authoritative values. Visitor IP +
+  // User-Agent are forwarded so Plausible attributes the event to
+  // the correct visitor (not the server).
+  void trackServerEvent({
+    event: FUNNEL_EVENTS.ORDER_PLACED,
+    props: { provider: paymentIntent.provider, total_cents: totalCents },
+    visitorIp:
+      request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? undefined,
+    userAgent: request.headers.get("user-agent") ?? undefined,
+  });
 
   return NextResponse.json({
     ok: true,

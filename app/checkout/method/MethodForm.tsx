@@ -21,6 +21,8 @@ import { useCartStore } from "@/lib/cart-store";
 import { formatPrice } from "@/lib/content/products";
 import { siteConfig } from "@/lib/content/site";
 import { useSessionStorageString } from "@/lib/use-session-storage";
+import { FUNNEL_EVENTS } from "@/lib/analytics/events";
+import { track } from "@/lib/analytics/plausible";
 
 type MethodId = "crypto" | "ach" | "card";
 
@@ -42,6 +44,14 @@ export function MethodForm() {
     if (typeof window !== "undefined") {
       window.sessionStorage.setItem(METHOD_STORAGE_KEY, method);
     }
+    // D4 funnel event — fires when the user commits to a payment
+    // method by hitting "Continue to review". The provider prop maps
+    // to the on-site method name; the downstream order_placed /
+    // order_paid events use the locked PaymentProviderId rail.
+    track({
+      event: FUNNEL_EVENTS.PAYMENT_METHOD_SELECTED,
+      props: { provider: method },
+    });
     router.push("/checkout/review");
   }
 

@@ -32,6 +32,8 @@ import { serviceSupabase } from "@/lib/supabase";
 import { captureException } from "@/lib/sentry";
 import { sendOrderConfirmation } from "@/lib/email/order-confirmation";
 import { sendOperatorOrderNotification } from "@/lib/email/operator-notification";
+import { trackServerEvent } from "@/lib/analytics/server-track";
+import { FUNNEL_EVENTS } from "@/lib/analytics/events";
 import type { PaymentIntent, PaymentProviderId, PaymentStatus } from "./types";
 
 export interface ReconcileResult {
@@ -364,6 +366,14 @@ async function persistToSupabase(
     // recoverable (operator can re-send from /operator/orders/[id]);
     // a duplicate credit is not.
     await firePaidEmails(sb, orderUuid, intent.provider, amountCents);
+
+    // D4 funnel event — order_paid on the webhook-driven path. No
+    // visitor request to forward; Plausible treats as anonymous.
+    // Fire-and-forget so analytics never blocks the webhook 2xx.
+    void trackServerEvent({
+      event: FUNNEL_EVENTS.ORDER_PAID,
+      props: { provider: intent.provider, total_cents: amountCents },
+    });
   }
 
   return { kind: "applied" };
