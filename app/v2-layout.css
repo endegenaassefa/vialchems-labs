@@ -1223,8 +1223,12 @@ footer {
   /* M0a — iOS Safari auto-zooms any text input under 16px on focus,
    * which double-scales the layout and effectively breaks every form on
    * mobile. 16px floor is the documented WCAG-effective guard
-   * (Section 4.5 of SUPER_PROMPT_softlaunch_2026-05-22). */
-  .input {
+   * (Section 4.5 of SUPER_PROMPT_softlaunch_2026-05-22). Both selectors
+   * are listed so `.input.mono` (Zelle State + ZIP fields) wins over the
+   * default `.input.mono { font-size: 13px }` rule on equal specificity
+   * via source order. Codex-review finding [P2] (M0a follow-up). */
+  .input,
+  .input.mono {
     font-size: 16px;
   }
   /* M0a — WCAG 2.2 AA / Section 4.5: every tap target on mobile must be

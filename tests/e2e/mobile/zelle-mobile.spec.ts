@@ -19,13 +19,23 @@
  * (see lib/checkout/direct-payment.ts + lib/age-verification.ts).
  */
 import { expect, test } from "@playwright/test";
-import { signZelleCheckoutParams } from "@/lib/checkout/direct-payment";
+import {
+  getZelleCheckoutSigningSecret,
+  signZelleCheckoutParams,
+} from "@/lib/checkout/direct-payment";
 import {
   AGE_VERIFICATION_COOKIE,
   signAgeVerification,
 } from "@/lib/age-verification";
 
-const SIGNING_SECRET = "local-zelle-checkout-signing-secret";
+// Derive the signing secret from the same helper the server uses so the test
+// stays correct when CI sets `ZELLE_CHECKOUT_SIGNING_SECRET` or `AGE_GATE_SECRET`
+// (production-runtime path). Codex-review finding [P2] (M0a follow-up):
+// hard-coding `"local-zelle-checkout-signing-secret"` only matched the dev
+// fallback and landed on the invalid-link branch in any environment with a
+// configured secret. The webServer and the test share process.env, so reading
+// through the same helper guarantees the two sides agree.
+const SIGNING_SECRET = getZelleCheckoutSigningSecret();
 
 const MOBILE_VIEWPORTS = [
   { name: "iPhone SE", width: 375, height: 667 },
@@ -149,12 +159,21 @@ for (const viewport of MOBILE_VIEWPORTS) {
     }) => {
       await page.goto(buildSignedZelleUrl());
 
-      const nameInput = page.locator("#zelle-name");
-      const emailInput = page.locator("#zelle-email");
-      await expect(nameInput).toBeVisible();
-      await expect(emailInput).toBeVisible();
+      // Covers BOTH `.input` and `.input.mono` selectors. State + ZIP use
+      // the mono variant which previously inherited `font-size: 13px` and
+      // would auto-zoom on iOS even with the .input mobile override —
+      // see codex-review finding [P2] in the M0a follow-up.
+      const inputs = [
+        page.locator("#zelle-name"),
+        page.locator("#zelle-email"),
+        page.locator("#zelle-state"),
+        page.locator("#zelle-zip"),
+      ];
+      for (const input of inputs) {
+        await expect(input).toBeVisible();
+      }
 
-      for (const input of [nameInput, emailInput]) {
+      for (const input of inputs) {
         const fontSizePx = await input.evaluate(
           (el) =>
             Number.parseFloat(window.getComputedStyle(el).fontSize ?? "0") || 0,
