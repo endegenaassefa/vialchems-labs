@@ -15,6 +15,8 @@ import {
   type QualificationInput,
   type QualificationRole,
 } from "@/lib/customer-qualification";
+import { FUNNEL_EVENTS } from "@/lib/analytics/events";
+import { track } from "@/lib/analytics/plausible";
 
 interface QualificationFlowProps {
   onSubmit: (data: QualificationInput) => void;
@@ -54,6 +56,11 @@ export function QualificationFlow({
       return;
     }
     setErrors({});
+    // D4 funnel event — fires after validation passes, before the
+    // parent's onSubmit (which may persist or fetch). Decoupling means
+    // the event tracks the user intent even if the persistence call
+    // later fails / retries.
+    track({ event: FUNNEL_EVENTS.QUALIFICATION_COMPLETED });
     onSubmit(result.data);
   }
 

@@ -15,6 +15,8 @@ import {
   hasCurrentAgeVerification,
   persistAgeVerification,
 } from "@/components/age-gate/useAgeVerification";
+import { FUNNEL_EVENTS } from "@/lib/analytics/events";
+import { track } from "@/lib/analytics/plausible";
 
 const HEADLINE = "RESEARCH-GRADE PEPTIDES";
 const HEADLINE_WORDS = (() => {
@@ -72,6 +74,10 @@ export function AgeGateClient() {
     if (!termsAccepted) return;
     try {
       await persistAgeVerification();
+      // D4 funnel event — fires on the actual gate-passing action,
+      // NOT on the useEffect-driven redirect for already-verified
+      // visitors (re-firing would inflate the funnel top).
+      track({ event: FUNNEL_EVENTS.AGE_GATE_PASSED });
       setExiting(true);
       window.setTimeout(() => {
         router.replace(nextPath);
