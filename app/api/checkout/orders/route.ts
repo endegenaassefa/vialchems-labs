@@ -20,6 +20,9 @@ import {
   type PaymentIntent,
 } from "@/lib/payments/types";
 import { serviceSupabase } from "@/lib/supabase";
+import { sendOrderConfirmation } from "@/lib/email/order-confirmation";
+import { sendOperatorOrderNotification } from "@/lib/email/operator-notification";
+import { captureException } from "@/lib/sentry";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -391,6 +394,60 @@ export async function POST(request: Request): Promise<Response> {
     if (auditInsert.error) {
       return jsonError("audit_persist_failed", 500, auditInsert.error.message);
     }
+  }
+
+  // B3 + C4 — order-created notifications. Both helpers stay
+  // stub-safe when REQUIRE_RESEND=false. Best-effort: failures
+  // are reported to Sentry but never fail the order response,
+  // because the order is already persisted and the customer
+  // saw it. The operator notification surfaces order-events
+  // even if the customer ack failed.
+  // Iron Law 2.20 freezes PaymentProviderId to
+  // 'stub' | 'btcpay' | 'plaid' | 'zelle'. bitcoin-direct is
+  // a routing fallback within the BTCPay rail, not a member of
+  // the union; it never appears as paymentIntent.provider here.
+  const railTag: "btcpay" | "plaid" | "zelle" | "bitcoin-direct" | "stub" =
+    paymentIntent.provider;
+
+  try {
+    await sendOrderConfirmation({
+      displayId,
+      customerEmail: payload.qualification.email,
+      totalCents,
+      rail: railTag,
+      status: "awaiting_payment",
+      items: lines.map((l) => ({
+        name: l.name,
+        qty: l.qty,
+        unitPriceCents: l.unitPriceCents,
+      })),
+    });
+  } catch (error) {
+    captureException(error, {
+      tags: {
+        route: "checkout/orders",
+        provider: "resend",
+        phase: "customer_ack",
+      },
+    });
+  }
+
+  try {
+    await sendOperatorOrderNotification({
+      event: "placed",
+      displayId,
+      totalCents,
+      rail: railTag,
+      customerEmail: payload.qualification.email,
+    });
+  } catch (error) {
+    captureException(error, {
+      tags: {
+        route: "checkout/orders",
+        provider: "resend",
+        phase: "operator_notify",
+      },
+    });
   }
 
   return NextResponse.json({
