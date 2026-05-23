@@ -51,10 +51,16 @@ export async function GET(_request: NextRequest) {
   }
 
   const supabase = serviceSupabase()!;
+  // P0-2 (PR #35 codex finding): the orders table has NO `items`
+  // column. Line items live on the dedicated `order_items` table per
+  // `supabase/migrations/20260510000001_init.sql:229-239`. Use
+  // PostgREST's FK-embedded select syntax to inline order_items, then
+  // transform server-side so the API contract (`items: [{name, qty}]`)
+  // stays unchanged for the OrdersList client.
   const { data, error } = await supabase
     .from("orders")
     .select(
-      "display_id, total_cents, status, payment_provider, placed_at, shipped_at, tracking_number, carrier, items",
+      "display_id, total_cents, status, payment_provider, placed_at, shipped_at, tracking_number, carrier, order_items(name_snapshot, quantity)",
     )
     .eq("email", email)
     .order("placed_at", { ascending: false })
@@ -67,5 +73,31 @@ export async function GET(_request: NextRequest) {
     );
   }
 
-  return NextResponse.json({ ok: true, orders: data ?? [] }, { status: 200 });
+  type OrderRow = {
+    display_id: string;
+    total_cents: number;
+    status: string;
+    payment_provider: string;
+    placed_at: string;
+    shipped_at: string | null;
+    tracking_number: string | null;
+    carrier: string | null;
+    order_items?: Array<{ name_snapshot: string; quantity: number }> | null;
+  };
+  const orders = ((data ?? []) as OrderRow[]).map((row) => ({
+    display_id: row.display_id,
+    total_cents: row.total_cents,
+    status: row.status,
+    payment_provider: row.payment_provider,
+    placed_at: row.placed_at,
+    shipped_at: row.shipped_at,
+    tracking_number: row.tracking_number,
+    carrier: row.carrier,
+    items: (row.order_items ?? []).map((item) => ({
+      name: item.name_snapshot,
+      qty: item.quantity,
+    })),
+  }));
+
+  return NextResponse.json({ ok: true, orders }, { status: 200 });
 }
