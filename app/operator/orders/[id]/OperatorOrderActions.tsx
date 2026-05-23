@@ -107,7 +107,7 @@ export function OperatorOrderActions({
             style={{ fontSize: 12, marginBottom: 10, color: "var(--fg-muted)" }}
           >
             Verify the deposit landed in your bank/wallet before clicking.
-            Triggers customer + operator "paid" emails.
+            Triggers customer + operator &quot;paid&quot; emails.
           </p>
           <button
             type="button"
@@ -144,7 +144,7 @@ export function OperatorOrderActions({
             style={{ fontSize: 12, marginBottom: 10, color: "var(--fg-muted)" }}
           >
             Enter the carrier + tracking number, then mark shipped to fire the
-            customer's tracking email.
+            customer&apos;s tracking email.
           </p>
           <label
             htmlFor="op-carrier"

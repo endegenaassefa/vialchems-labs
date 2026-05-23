@@ -15,7 +15,7 @@
  */
 
 import Link from "next/link";
-import { Suspense, useEffect, useState, type FormEvent } from "react";
+import { Suspense, useState, type FormEvent } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Card } from "@/components/ui/Card";
@@ -43,11 +43,12 @@ function SignupPageInner() {
   const [role, setRole] = useState<QualificationRole>("academic-researcher");
   const [newsletterOptIn, setNewsletterOptIn] = useState(true);
   const [state, setState] = useState<SubmitState>({ kind: "idle" });
-  const [available, setAvailable] = useState(true);
-
-  useEffect(() => {
-    setAvailable(isSupabaseAuthAvailable());
-  }, []);
+  // Lazy initializer — matches the login/page.tsx pattern. SSR
+  // optimistically renders available=true to avoid hydration mismatch;
+  // client hydration computes the real value via browserSupabase().
+  const [available] = useState(() =>
+    typeof window === "undefined" ? true : isSupabaseAuthAvailable(),
+  );
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();

@@ -17,7 +17,7 @@
 
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { Suspense, useEffect, useState, type FormEvent } from "react";
+import { Suspense, useState, type FormEvent } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Card } from "@/components/ui/Card";
@@ -61,11 +61,15 @@ function LoginPageInner() {
 
   const [email, setEmail] = useState("");
   const [state, setState] = useState<SubmitState>({ kind: "idle" });
-  const [available, setAvailable] = useState(true);
-
-  useEffect(() => {
-    setAvailable(isSupabaseAuthAvailable());
-  }, []);
+  // Lazy initializer reads `isSupabaseAuthAvailable()` once at mount.
+  // SSR returns `true` optimistically so the form renders without a
+  // hydration mismatch; the first client render then computes the
+  // real value via browserSupabase() before the user can submit.
+  // Previously this was a useState(true) + useEffect(setAvailable)
+  // pattern, which trips react-hooks/set-state-in-effect.
+  const [available] = useState(() =>
+    typeof window === "undefined" ? true : isSupabaseAuthAvailable(),
+  );
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
