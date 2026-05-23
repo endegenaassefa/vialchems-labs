@@ -205,10 +205,7 @@ export default async function ZelleCheckoutPage({
                       <p className="eyebrow" style={{ marginBottom: 8 }}>
                         Amount to send
                       </p>
-                      <p
-                        className="v2-zelle-amount"
-                        data-testid="zelle-amount"
-                      >
+                      <p className="v2-zelle-amount" data-testid="zelle-amount">
                         {formatPrice(amountCents)}
                       </p>
                     </div>

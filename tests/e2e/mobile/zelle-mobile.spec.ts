@@ -187,7 +187,9 @@ for (const viewport of MOBILE_VIEWPORTS) {
     }) => {
       await page.goto(buildSignedZelleUrl());
 
-      const submit = page.getByRole("button", { name: /submit zelle receipt/i });
+      const submit = page.getByRole("button", {
+        name: /submit zelle receipt/i,
+      });
       await expect(submit).toBeVisible();
       const box = await submit.boundingBox();
       expect(box).not.toBeNull();
