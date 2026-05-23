@@ -85,12 +85,15 @@ export function getBitcoinDirectDetails(
   env: RuntimeEnv = process.env,
 ): BitcoinDirectDetails {
   const receiveAddress = firstPresent(env.BITCOIN_RECEIVE_ADDRESS) ?? "";
+  // J1: support inbox placeholder. Operator points the
+  // support@vialchemlabs.net mailbox at endegenaassefa2@gmail.com
+  // (or a dedicated inbox) post-launch.
   const supportEmail =
     firstPresent(
       env.BITCOIN_SUPPORT_EMAIL,
       env.ZELLE_SUPPORT_EMAIL,
       env.ZELLE_EMAIL,
-    ) ?? "abhinav@vialchemlabs.net";
+    ) ?? "support@vialchemlabs.net";
   const confirmationsRequired = Number.parseInt(
     env.BITCOIN_CONFIRMATIONS_REQUIRED ?? "1",
     10,

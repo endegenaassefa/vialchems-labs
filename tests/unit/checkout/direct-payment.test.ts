@@ -57,7 +57,7 @@ describe("direct payment credential helpers", () => {
       recipientName: "Vialchem Labs LLC",
       handle: "vialchem-pay",
       memoPrefix: "VCL",
-      supportEmail: "abhinav@vialchemlabs.net",
+      supportEmail: "support@vialchemlabs.net",
     });
   });
 
@@ -65,13 +65,13 @@ describe("direct payment credential helpers", () => {
     expect(
       getZelleDetails({
         ZELLE_HANDLE: "vialchem-pay",
-        ZELLE_EMAIL: "abhinav@vialchemlabs.net",
+        ZELLE_EMAIL: "support@vialchemlabs.net",
         ZELLE_RECIPIENT_NAME: "Vialchem Labs LLC",
         ZELLE_PAYMENT_NOTE_PREFIX: "VCL",
       }),
     ).toMatchObject({
       handle: "vialchem-pay",
-      email: "abhinav@vialchemlabs.net",
+      email: "support@vialchemlabs.net",
     });
   });
 });

@@ -32,7 +32,11 @@ const DEFAULT_ZELLE_DETAILS: Required<
   recipientName: "Vialchem Labs LLC",
   handle: "vialchem-pay",
   memoPrefix: "VCL",
-  supportEmail: "abhinav@vialchemlabs.net",
+  // J1: support inbox placeholder. Operator points the
+  // support@vialchemlabs.net mailbox at endegenaassefa2@gmail.com
+  // (or a dedicated inbox) post-launch — the env var override
+  // ZELLE_SUPPORT_EMAIL flips this without a code change.
+  supportEmail: "support@vialchemlabs.net",
   qrImageUrl: "/payments/zelle-qr.png",
 };
 
