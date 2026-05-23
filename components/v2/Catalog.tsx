@@ -444,6 +444,7 @@ export function V2Catalog() {
                 style={{ width: "auto", padding: "6px 10px", fontSize: 12 }}
                 value={sort}
                 onChange={(event) => setSort(event.target.value)}
+                aria-label="Sort catalog"
               >
                 <option>Newest</option>
                 <option>Price ↑</option>

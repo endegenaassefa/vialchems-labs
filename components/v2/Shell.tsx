@@ -298,9 +298,9 @@ function ThemeSwitch() {
   useEffect(() => {
     const frame = window.requestAnimationFrame(() => {
       try {
-        setTheme(localStorage.getItem("vc.theme") || "dark");
+        setTheme(localStorage.getItem("vc.theme") || "light");
       } catch {
-        setTheme("dark");
+        setTheme("light");
       }
     });
     return () => window.cancelAnimationFrame(frame);
@@ -336,7 +336,11 @@ function ThemeSwitch() {
           "1px solid color-mix(in oklab, var(--accent-hi) 46%, var(--line))",
         borderRadius: "var(--r-pill)",
         background: "var(--accent-soft)",
-        color: "var(--accent-hi)",
+        /* Theme-reconciliation PR: prior color `var(--accent-hi)`
+         * (#06b6d4 cyan-glow) on `var(--accent-soft)` (#e8f7fb)
+         * = 2.21:1 — below WCAG 2.1 AA. `var(--accent)` (#0f3a5f
+         * deep navy) on the same bg lands at ~9.6:1. */
+        color: "var(--accent)",
         cursor: "pointer",
         display: "inline-flex",
         alignItems: "center",

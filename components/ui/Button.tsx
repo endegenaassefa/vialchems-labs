@@ -46,7 +46,15 @@ const baseClasses = [
 
 const variantClasses: Record<ButtonVariant, string> = {
   primary: [
-    "bg-[var(--accent)] text-[var(--text-on-accent)]",
+    // Theme-reconciliation PR: replaced `text-[var(--text-on-accent)]`
+    // with explicit text-white because Tailwind v4 arbitrary classes
+    // don't always resolve CSS variables that live inside
+    // [data-theme="*"] scopes — axe-core was scanning the rendered
+    // DOM and finding #0a0e14 (default --fg) instead of #ffffff on
+    // the deep-navy `var(--accent)` background, producing a 1.64:1
+    // contrast violation. text-white is unconditional and matches
+    // the intent of `--text-on-accent` in both themes (both = #fff).
+    "bg-[var(--accent)] text-[#ffffff]",
     "border border-[var(--accent)]",
     // Phase 2 v4 — additive shadow elevation per Phase 1 token system
     "shadow-[var(--shadow-sm)]",

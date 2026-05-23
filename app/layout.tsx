@@ -63,14 +63,22 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      data-theme="dark"
+      data-theme="light"
       data-accent="cyan-navy"
       className={`${geist.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <head>
+        {/* Theme bootstrap. The LOCKED v5 brand expression
+            (docs/DECISIONS/locked_override_2026-05-20.md) is the LIGHT
+            clinical theme (--bg #fafaf7, --accent #0f3a5f navy). This
+            script honors a `localStorage.vc.theme` preference if set;
+            otherwise it preserves the SSR default ("light"). The prior
+            default was "dark" which produced #5a6470 fg-subtle on
+            #060a0f bg-sunken = 3.29:1 contrast — below WCAG 2.1 AA's
+            4.5:1 floor (caught by the M0j a11y sweep). */}
         <Script id="vc-theme-init" strategy="beforeInteractive">
-          {`(function(){try{var t=localStorage.getItem('vc.theme')||'dark';var a=localStorage.getItem('vc.accent')||'cyan-navy';document.documentElement.dataset.theme=(t==='dark'||t==='light')?t:'dark';document.documentElement.dataset.accent=a;}catch(e){document.documentElement.dataset.theme='dark';document.documentElement.dataset.accent='cyan-navy';}})();`}
+          {`(function(){try{var t=localStorage.getItem('vc.theme')||'light';var a=localStorage.getItem('vc.accent')||'cyan-navy';document.documentElement.dataset.theme=(t==='dark'||t==='light')?t:'light';document.documentElement.dataset.accent=a;}catch(e){document.documentElement.dataset.theme='light';document.documentElement.dataset.accent='cyan-navy';}})();`}
         </Script>
       </head>
       <body className="min-h-full flex flex-col">
