@@ -30,6 +30,8 @@
 import { validateShippingAddress } from "@/lib/compliance/jurisdictions";
 import { serviceSupabase } from "@/lib/supabase";
 import { captureException } from "@/lib/sentry";
+import { sendOrderConfirmation } from "@/lib/email/order-confirmation";
+import { sendOperatorOrderNotification } from "@/lib/email/operator-notification";
 import type { PaymentIntent, PaymentProviderId, PaymentStatus } from "./types";
 
 export interface ReconcileResult {
@@ -192,6 +194,13 @@ async function persistToSupabase(
 
   const { error } = await sb.from("payments").insert(row);
 
+  // `applied` tracks whether THIS instance actually transitioned the row.
+  // A fresh insert → applied. A 23505 → CAS UPDATE → applied iff the
+  // returned rowset is non-empty. The gate matters for paid-event side
+  // effects (B3 + C4): only the winner of the race may fire emails, or we
+  // get duplicate customer/operator notifications.
+  let applied = !error;
+
   if (error) {
     if (error.code === "23505") {
       // B2: row already exists. The OLD code returned "duplicate" here,
@@ -227,8 +236,16 @@ async function persistToSupabase(
         };
       }
 
-      // Status differs AND transition is valid — apply via UPDATE.
-      const { error: updateError } = await sb
+      // P1-7 (PR #34 codex re-review): atomic compare-and-swap UPDATE.
+      // Two cold-started instances racing on the same `pending → paid`
+      // transition could both observe pending and both UPDATE without
+      // conflict if the filter didn't include the prior status — both
+      // would then fall through to firePaidEmails, yielding duplicate
+      // paid emails. Gate the UPDATE on `.eq("status", currentStatus)`
+      // and `.select("id")` so a 0-row result identifies the loser of
+      // the race; the loser short-circuits as duplicate without firing
+      // history rows or emails.
+      const { data: updatedRows, error: updateError } = await sb
         .from("payments")
         .update({
           status: intent.status,
@@ -236,21 +253,86 @@ async function persistToSupabase(
           method_details: row.method_details,
         })
         .eq("provider", intent.provider)
-        .eq("provider_intent_id", providerIntentId);
+        .eq("provider_intent_id", providerIntentId)
+        .eq("status", currentStatus)
+        .select("id");
 
       if (updateError) {
         throw new Error(`payments_update_failed: ${updateError.message}`);
       }
 
-      // Fall through to the history-row write for credit-bearing transitions.
+      applied = Array.isArray(updatedRows) && updatedRows.length > 0;
+      if (!applied) {
+        // Codex P2 (PR #34 follow-up): 0-row CAS does NOT always mean a
+        // true duplicate. A different valid forward transition could have
+        // won the race — e.g., peer instance applied `pending → authorized`
+        // while we were trying `pending → paid`. Treating that as duplicate
+        // strands the durable row at `authorized` with no paid email
+        // ever firing. Re-read the row; classify:
+        //   - newStatus missing or equal to intent.status: true duplicate
+        //   - intent.status still a valid forward from newStatus: retry CAS
+        //     with newStatus in the filter
+        //   - otherwise: invalid_transition (peer applied something we
+        //     can no longer chain from)
+        const { data: latest } = await sb
+          .from("payments")
+          .select("status")
+          .eq("provider", intent.provider)
+          .eq("provider_intent_id", providerIntentId)
+          .maybeSingle();
+        const newStatus = (latest as { status?: PaymentStatus } | null)
+          ?.status;
+
+        if (!newStatus || newStatus === intent.status) {
+          return { kind: "duplicate" };
+        }
+
+        if (!canTransition(newStatus, intent.status)) {
+          return {
+            kind: "invalid_transition",
+            fromStatus: newStatus,
+            toStatus: intent.status,
+          };
+        }
+
+        // Retry CAS exactly once with the freshly-observed status. A
+        // second loss after retry is accepted as duplicate: another race
+        // happened during the re-read, the durable row is in some valid
+        // state per its history, and a missing paid email is recoverable
+        // from /operator/orders. Unbounded retry would let a hot loop in
+        // the provider hold the webhook open indefinitely.
+        const { data: retryRows, error: retryError } = await sb
+          .from("payments")
+          .update({
+            status: intent.status,
+            amount_cents: amountCents,
+            method_details: row.method_details,
+          })
+          .eq("provider", intent.provider)
+          .eq("provider_intent_id", providerIntentId)
+          .eq("status", newStatus)
+          .select("id");
+
+        if (retryError) {
+          throw new Error(`payments_update_failed: ${retryError.message}`);
+        }
+
+        applied = Array.isArray(retryRows) && retryRows.length > 0;
+        if (!applied) {
+          return { kind: "duplicate" };
+        }
+      }
     } else {
       throw new Error(`payments_persist_failed: ${error.message}`);
     }
   }
 
-  // On the credit-bearing transition (paid), also write a row to
-  // order_status_history so the order's lifecycle is auditable end-to-end.
-  if (intent.status === "paid") {
+  // History row + paid-email side effects fire ONLY when this instance
+  // actually applied the transition (fresh insert OR CAS UPDATE with rows
+  // affected). The previous structure ran them unconditionally inside the
+  // `intent.status === "paid"` block, which let the race-loser duplicate
+  // both the order_status_history row AND the customer/operator emails.
+  if (intent.status === "paid" && applied) {
     const { error: historyError } = await sb
       .from("order_status_history")
       .insert({
@@ -273,9 +355,156 @@ async function persistToSupabase(
         { tags: { route: "payments_reconcile", provider: intent.provider } },
       );
     }
+
+    // B3 + C4 paid-event side effect. Fires AFTER the durable payments
+    // + order_status_history writes so the email cannot land before
+    // the credit is recorded. Best-effort: any send failure → Sentry
+    // capture + continue. The webhook caller must still return 2xx so
+    // the provider doesn't retry indefinitely; a missed paid-email is
+    // recoverable (operator can re-send from /operator/orders/[id]);
+    // a duplicate credit is not.
+    await firePaidEmails(sb, orderUuid, intent.provider, amountCents);
   }
 
   return { kind: "applied" };
+}
+
+/**
+ * Best-effort customer + operator paid emails. Pulls display_id +
+ * email + items from the orders row, then fires both helpers. Never
+ * throws — the durable payments row is already written and the
+ * webhook caller needs a clean 2xx so the provider stops retrying.
+ *
+ * Iron Law 2.20: paymentIntent.provider is restricted to the locked
+ * union ('stub' | 'btcpay' | 'plaid' | 'zelle') so the rail tag
+ * carries through to the email helpers without widening.
+ */
+async function firePaidEmails(
+  sb: NonNullable<ReturnType<typeof serviceSupabase>>,
+  orderUuid: string,
+  provider: PaymentProviderId,
+  amountCents: number,
+): Promise<void> {
+  try {
+    // P0-1 (PR #34 codex review): the orders table has NO `items` column.
+    // Order lines live in the dedicated `order_items` table per the init
+    // migration (`supabase/migrations/20260510000001_init.sql:229`). The
+    // header lookup carries only display_id + email + total_cents; the
+    // line items are fetched separately so the SELECT doesn't error
+    // against the live schema.
+    const { data: orderRow, error } = await sb
+      .from("orders")
+      .select("display_id, email, total_cents")
+      .eq("id", orderUuid)
+      .maybeSingle();
+    if (error) {
+      captureException(
+        new Error(`paid_email_order_lookup_failed: ${error.message}`),
+        {
+          tags: { route: "payments_reconcile", provider, phase: "paid_email" },
+        },
+      );
+      return;
+    }
+    if (!orderRow) {
+      // No order row to look up — possible when test harnesses stub out
+      // the orders table or when an upstream race removed it. Silent
+      // skip: payments + history rows are already persisted (this code
+      // path only runs after the applied gate), so credit-correctness
+      // is preserved. Emails are observability.
+      return;
+    }
+    const header = orderRow as {
+      display_id: string;
+      email: string;
+      total_cents: number;
+    };
+
+    // Load the line items from the dedicated table. Failures here are
+    // captured to Sentry but do NOT block the email — the customer still
+    // gets a paid confirmation; items section just renders empty.
+    let items: Array<{ name: string; qty: number; unitPriceCents: number }> =
+      [];
+    const { data: itemRows, error: itemsError } = await sb
+      .from("order_items")
+      .select("name_snapshot, quantity, unit_price_cents")
+      .eq("order_id", orderUuid);
+    if (itemsError) {
+      captureException(
+        new Error(`paid_email_items_lookup: ${itemsError.message}`),
+        {
+          tags: {
+            route: "payments_reconcile",
+            provider,
+            phase: "paid_email_items_lookup",
+          },
+        },
+      );
+    } else if (Array.isArray(itemRows)) {
+      items = itemRows.map((row) => {
+        const r = row as {
+          name_snapshot: string;
+          quantity: number;
+          unit_price_cents: number;
+        };
+        return {
+          name: r.name_snapshot,
+          qty: r.quantity,
+          unitPriceCents: r.unit_price_cents,
+        };
+      });
+    }
+
+    const totalCents =
+      header.total_cents && header.total_cents > 0
+        ? header.total_cents
+        : amountCents;
+
+    try {
+      await sendOrderConfirmation({
+        displayId: header.display_id,
+        customerEmail: header.email,
+        totalCents,
+        rail: provider,
+        status: "paid",
+        items,
+        shippingEtaDays: 3,
+      });
+    } catch (sendError) {
+      captureException(sendError, {
+        tags: {
+          route: "payments_reconcile",
+          provider,
+          phase: "customer_paid_email",
+        },
+      });
+    }
+
+    try {
+      await sendOperatorOrderNotification({
+        event: "paid",
+        displayId: header.display_id,
+        totalCents,
+        rail: provider,
+        customerEmail: header.email,
+      });
+    } catch (sendError) {
+      captureException(sendError, {
+        tags: {
+          route: "payments_reconcile",
+          provider,
+          phase: "operator_paid_email",
+        },
+      });
+    }
+  } catch (outerError) {
+    // Defense in depth — any unanticipated throw must not bubble into
+    // the webhook caller. Reconcile is the credit primitive; email is
+    // observability.
+    captureException(outerError, {
+      tags: { route: "payments_reconcile", provider, phase: "paid_email" },
+    });
+  }
 }
 
 /**
