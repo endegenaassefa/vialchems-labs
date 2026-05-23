@@ -99,16 +99,7 @@ export default async function ZelleCheckoutPage({
         </section>
 
         <section className="section">
-          <div
-            className="container"
-            style={{
-              maxWidth: 1040,
-              display: "grid",
-              gridTemplateColumns: "minmax(0, 1fr) minmax(280px, 360px)",
-              gap: 24,
-              alignItems: "start",
-            }}
-          >
+          <div className="container v2-zelle-shell">
             {!signatureValid ? (
               <div className="card" style={{ padding: 28 }}>
                 <p className="eyebrow" style={{ marginBottom: 18 }}>
@@ -131,7 +122,10 @@ export default async function ZelleCheckoutPage({
               </div>
             ) : (
               <>
-                <div className="card" style={{ padding: 28 }}>
+                <div
+                  className="card"
+                  style={{ padding: "clamp(16px, 4vw, 28px)" }}
+                >
                   <p className="eyebrow" style={{ marginBottom: 18 }}>
                     Zelle payment instructions
                   </p>
@@ -207,9 +201,14 @@ export default async function ZelleCheckoutPage({
                         </p>
                       </div>
                     )}
-                    <InstructionBlock label="Amount to send">
-                      {formatPrice(amountCents)}
-                    </InstructionBlock>
+                    <div className="card" style={{ padding: 18 }}>
+                      <p className="eyebrow" style={{ marginBottom: 8 }}>
+                        Amount to send
+                      </p>
+                      <p className="v2-zelle-amount" data-testid="zelle-amount">
+                        {formatPrice(amountCents)}
+                      </p>
+                    </div>
                     <InstructionBlock label="Zelle ID">
                       {recipientHandle}
                       <span
@@ -312,7 +311,10 @@ export default async function ZelleCheckoutPage({
                   </Link>
                 </div>
 
-                <aside className="card" style={{ padding: 22 }}>
+                <aside
+                  className="card"
+                  style={{ padding: "clamp(16px, 3.5vw, 22px)" }}
+                >
                   <p className="eyebrow" style={{ marginBottom: 14 }}>
                     Order reference
                   </p>
