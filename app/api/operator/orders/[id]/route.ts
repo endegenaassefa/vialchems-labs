@@ -163,20 +163,56 @@ export async function PATCH(
   // Apply the update + select the order UUID (needed for the FK on
   // order_status_history + audit_log) + the customer-facing fields the
   // side-effect emails address.
-  const { data, error } = await supabase
+  //
+  // PR #36 codex follow-up: atomic compare-and-swap on the from-status
+  // makes the action idempotent. A retried mark_paid or stale-page
+  // mark_shipped click no longer triggers duplicate emails / history
+  // rows; the .eq/.neq filter prevents the UPDATE from matching when
+  // the order is already at the target state.
+  let updateBuilder = supabase
     .from("orders")
     .update(update)
-    .eq("display_id", id)
+    .eq("display_id", id);
+  if (body.action === "mark_paid") {
+    updateBuilder = updateBuilder.eq("status", "awaiting_payment");
+  } else if (body.action === "mark_shipped") {
+    updateBuilder = updateBuilder.neq("status", "shipped");
+  }
+  const { data, error } = await updateBuilder
     .select(
       "id, display_id, email, total_cents, payment_provider, carrier, tracking_number",
     )
-    .single();
+    .maybeSingle();
 
   if (error) {
     return jsonError("db_error", 500, error.message);
   }
   if (!data) {
-    return jsonError("not_found", 404);
+    // 0-row outcome — disambiguate: was the order missing, or did its
+    // status not match the action's expected from-state?
+    const { data: existing, error: readError } = await supabase
+      .from("orders")
+      .select("status")
+      .eq("display_id", id)
+      .maybeSingle();
+    if (readError) {
+      return jsonError("db_error", 500, readError.message);
+    }
+    if (!existing) {
+      return jsonError("not_found", 404);
+    }
+    // Idempotent skip: order exists but isn't in the expected state.
+    // 200 with skipped=true so the UI refreshes to the current truth
+    // and the operator sees the actual status.
+    return NextResponse.json(
+      {
+        ok: true,
+        skipped: true,
+        code: "no_transition",
+        currentStatus: (existing as { status?: string } | null)?.status,
+      },
+      { status: 200 },
+    );
   }
 
   // P0-6: write a status-history row on state transitions. Best-effort
@@ -205,8 +241,13 @@ export async function PATCH(
   // P0-4: audit_log insert against the real schema. `details` carries
   // the action + operator identity + request body so a forensic replay
   // can reconstruct the operator's intent without joining other tables.
+  //
+  // PR #36 codex follow-up: Supabase .insert() resolves with
+  // { error: PostgrestError } on failure rather than throwing. A bare
+  // try/catch would silently drop those errors (e.g., RLS violation,
+  // invalid ip_address value). Explicitly inspect the returned error.
   try {
-    await supabase.from("audit_log").insert({
+    const { error: auditError } = await supabase.from("audit_log").insert({
       event_type: auditEventType,
       order_id: data.id,
       details: {
@@ -218,6 +259,12 @@ export async function PATCH(
       ip_address: ipAddress,
       user_agent: userAgent,
     });
+    if (auditError) {
+      captureException(
+        new Error(`audit_log_insert_failed: ${auditError.message}`),
+        { tags: { route: "operator_patch", phase: "audit_log" } },
+      );
+    }
   } catch (e) {
     captureException(e, {
       tags: { route: "operator_patch", phase: "audit_log" },

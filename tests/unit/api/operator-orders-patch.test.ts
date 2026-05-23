@@ -61,16 +61,37 @@ vi.mock("@/lib/sentry", () => ({
 }));
 
 // Supabase mock — track every insert + update payload by table.
+// PR #36 codex follow-up: the UPDATE chain now applies an atomic
+// status filter (eq for mark_paid, neq for mark_shipped) and uses
+// .maybeSingle() so a 0-row outcome resolves to data:null without
+// throwing. The mock chain returns the same builder for .eq() and
+// .neq() so chained filters resolve at .maybeSingle().
 const ordersUpdateSingleMock = vi.fn();
-const ordersUpdateSelectMock = vi.fn(
-  (_cols: string) => ({ single: ordersUpdateSingleMock }),
-);
-const ordersUpdateEqMock = vi.fn(
-  (_col: string, _val: string) => ({ select: ordersUpdateSelectMock }),
+const ordersUpdateSelectMock = vi.fn((_cols: string) => ({
+  single: ordersUpdateSingleMock,
+  maybeSingle: ordersUpdateSingleMock,
+}));
+const ordersUpdateEqMock: ReturnType<typeof vi.fn> = vi.fn(
+  (_col: string, _val: string) => ({
+    eq: ordersUpdateEqMock,
+    neq: ordersUpdateEqMock,
+    select: ordersUpdateSelectMock,
+  }),
 );
 const ordersUpdateMock = vi.fn(
-  (_row: Record<string, unknown>) => ({ eq: ordersUpdateEqMock }),
+  (_row: Record<string, unknown>) => ({
+    eq: ordersUpdateEqMock,
+  }),
 );
+// Separate read-only SELECT chain for the "disambiguate after 0-row
+// CAS" path: select("status").eq("display_id", id).maybeSingle().
+const ordersReadMaybeSingleMock = vi.fn();
+const ordersReadEqMock = vi.fn((_col: string, _val: string) => ({
+  maybeSingle: ordersReadMaybeSingleMock,
+}));
+const ordersReadSelectMock = vi.fn((_cols: string) => ({
+  eq: ordersReadEqMock,
+}));
 
 const orderItemsEqMock = vi.fn();
 const orderItemsSelectMock = vi.fn((_cols: string) => ({ eq: orderItemsEqMock }));
@@ -79,7 +100,9 @@ const historyInsertMock = vi.fn();
 const auditInsertMock = vi.fn();
 
 const fromMock = vi.fn((table: string) => {
-  if (table === "orders") return { update: ordersUpdateMock };
+  if (table === "orders") {
+    return { update: ordersUpdateMock, select: ordersReadSelectMock };
+  }
   if (table === "order_items") return { select: orderItemsSelectMock };
   if (table === "order_status_history") return { insert: historyInsertMock };
   if (table === "audit_log") return { insert: auditInsertMock };
@@ -117,6 +140,9 @@ beforeEach(() => {
   ordersUpdateEqMock.mockClear();
   ordersUpdateSelectMock.mockClear();
   ordersUpdateSingleMock.mockReset();
+  ordersReadSelectMock.mockClear();
+  ordersReadEqMock.mockClear();
+  ordersReadMaybeSingleMock.mockReset();
   orderItemsSelectMock.mockClear();
   orderItemsEqMock.mockReset();
   historyInsertMock.mockReset();
@@ -293,6 +319,91 @@ describe("PATCH /api/operator/orders/[id] — regression: mark_shipped still fir
         trackingNumber: "775566123344",
       }),
     );
+  });
+});
+
+describe("PATCH /api/operator/orders/[id] — codex P2: idempotency + audit error capture", () => {
+  it("mark_paid on an already-paid order (0-row CAS) does NOT fire sendOrderConfirmation a second time", async () => {
+    // Codex finding: a retried/stale mark_paid click would otherwise
+    // pass the display_id .eq() filter and re-fire the customer email.
+    // The atomic .eq("status", "awaiting_payment") filter prevents the
+    // UPDATE from matching when status is already paid; the route then
+    // returns 200 with a skipped signal.
+    ordersUpdateSingleMock.mockResolvedValueOnce({ data: null, error: null });
+    ordersReadMaybeSingleMock.mockResolvedValueOnce({
+      data: { status: "paid" },
+      error: null,
+    });
+
+    const res = await PATCH(
+      makeReq({ action: "mark_paid" }) as never,
+      makeParams() as never,
+    );
+    expect(res.status).toBe(200);
+    const body = await res.json();
+    expect(body.ok).toBe(true);
+    expect(body.skipped).toBe(true);
+
+    expect(sendOrderConfirmationMock).not.toHaveBeenCalled();
+    expect(historyInsertMock).not.toHaveBeenCalled();
+  });
+
+  it("mark_shipped on an already-shipped order (0-row CAS) does NOT fire sendOrderShipped a second time", async () => {
+    ordersUpdateSingleMock.mockResolvedValueOnce({ data: null, error: null });
+    ordersReadMaybeSingleMock.mockResolvedValueOnce({
+      data: { status: "shipped" },
+      error: null,
+    });
+
+    const res = await PATCH(
+      makeReq({
+        action: "mark_shipped",
+        carrier: "USPS",
+        trackingNumber: "9400111202555842710018",
+      }) as never,
+      makeParams() as never,
+    );
+    expect(res.status).toBe(200);
+    const body = await res.json();
+    expect(body.skipped).toBe(true);
+
+    expect(sendOrderShippedMock).not.toHaveBeenCalled();
+    expect(historyInsertMock).not.toHaveBeenCalled();
+  });
+
+  it("0-row CAS where the order does not exist at all returns 404", async () => {
+    ordersUpdateSingleMock.mockResolvedValueOnce({ data: null, error: null });
+    ordersReadMaybeSingleMock.mockResolvedValueOnce({
+      data: null,
+      error: null,
+    });
+
+    const res = await PATCH(
+      makeReq({ action: "mark_paid" }) as never,
+      makeParams() as never,
+    );
+    expect(res.status).toBe(404);
+  });
+
+  it("captures audit_log INSERT errors (.insert() resolves with {error}, not throw)", async () => {
+    auditInsertMock.mockResolvedValueOnce({
+      data: null,
+      error: { message: "rls_violation_or_invalid_payload" },
+    });
+
+    const res = await PATCH(
+      makeReq({ action: "mark_paid" }) as never,
+      makeParams() as never,
+    );
+    // The route returns 200 — audit failure must not fail the user's
+    // action — but the error must surface to Sentry so we don't
+    // silently lose audit rows.
+    expect(res.status).toBe(200);
+    expect(captureExceptionMock).toHaveBeenCalled();
+    const capturedTags = captureExceptionMock.mock.calls
+      .map((call) => (call[1] as { tags?: { phase?: string } })?.tags)
+      .filter((tags) => tags?.phase === "audit_log");
+    expect(capturedTags.length).toBeGreaterThan(0);
   });
 });
 
