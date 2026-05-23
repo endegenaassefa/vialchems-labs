@@ -64,31 +64,35 @@ interface MaybeSingleResult<T> {
 
 // Orders header lookup chain: from("orders").select(cols).eq(col, val).maybeSingle()
 const ordersHeaderMaybeSingle = vi.fn();
-const ordersHeaderEq = vi.fn(() => ({ maybeSingle: ordersHeaderMaybeSingle }));
-const ordersSelect = vi.fn(() => ({ eq: ordersHeaderEq }));
+const ordersHeaderEq = vi.fn((_col: string, _val: string) => ({
+  maybeSingle: ordersHeaderMaybeSingle,
+}));
+const ordersSelect = vi.fn((_cols: string) => ({ eq: ordersHeaderEq }));
 
 // Order_items chain: from("order_items").select(cols).eq(col, val) → resolves
 const orderItemsEq = vi.fn();
-const orderItemsSelect = vi.fn(() => ({ eq: orderItemsEq }));
+const orderItemsSelect = vi.fn((_cols: string) => ({ eq: orderItemsEq }));
 
 // Payments insert chain: from("payments").insert(row) → resolves
 const paymentsInsert = vi.fn();
 
 // Payments select-after-23505 chain: from("payments").select("status").eq(...).eq(...).maybeSingle()
 const paymentsReadMaybeSingle = vi.fn();
-const paymentsReadEq = vi.fn(() => ({
+const paymentsReadEq = vi.fn((_col: string, _val: string) => ({
   eq: paymentsReadEq,
   maybeSingle: paymentsReadMaybeSingle,
 }));
-const paymentsReadSelect = vi.fn(() => ({ eq: paymentsReadEq }));
+const paymentsReadSelect = vi.fn((_cols: string) => ({ eq: paymentsReadEq }));
 
 // Payments UPDATE chain: from("payments").update(row).eq(provider).eq(intent_id).eq(status).select("id")
 const paymentsUpdateSelect = vi.fn();
-const paymentsUpdateEq = vi.fn(() => ({
+const paymentsUpdateEq = vi.fn((_col: string, _val: string) => ({
   eq: paymentsUpdateEq,
   select: paymentsUpdateSelect,
 }));
-const paymentsUpdate = vi.fn(() => ({ eq: paymentsUpdateEq }));
+const paymentsUpdate = vi.fn((_row: Record<string, unknown>) => ({
+  eq: paymentsUpdateEq,
+}));
 
 // Order_status_history insert chain.
 const orderStatusHistoryInsert = vi.fn();

@@ -36,6 +36,12 @@ const orderHistoryInsertMock = vi.fn();
 const ordersSelectMock = vi.fn();
 const ordersEqMock = vi.fn();
 const ordersMaybeSingleMock = vi.fn();
+// PR #34: firePaidEmails queries order_items separately (the orders table
+// has no items column). This file's tests don't assert on emails, but the
+// firePaidEmails code path is invoked on every applied paid transition so
+// the mock chain must resolve cleanly rather than throw "unexpected table".
+const orderItemsEqMock = vi.fn();
+const orderItemsSelectMock = vi.fn();
 
 const fromMock = vi.fn((table: string) => {
   if (table === "payments") {
@@ -50,6 +56,9 @@ const fromMock = vi.fn((table: string) => {
   }
   if (table === "orders") {
     return { select: ordersSelectMock };
+  }
+  if (table === "order_items") {
+    return { select: orderItemsSelectMock };
   }
   throw new Error(`unexpected table: ${table}`);
 });
@@ -120,6 +129,8 @@ function resetSupabaseMocks(): void {
   ordersSelectMock.mockReset();
   ordersEqMock.mockReset();
   ordersMaybeSingleMock.mockReset();
+  orderItemsSelectMock.mockReset();
+  orderItemsEqMock.mockReset();
   captureExceptionMock.mockReset();
   fromMock.mockClear();
 
@@ -134,12 +145,26 @@ function resetSupabaseMocks(): void {
   }));
   paymentsSelectMock.mockReturnValue({ eq: paymentsEqMock });
 
-  // B2: update().eq().eq() chain. Each .eq() returns a thenable chain that
-  // resolves to lastUpdateResult so a single test can override the resolved
-  // value before invoking reconcile().
-  lastUpdateResult = { error: null, data: null };
+  // B2 + P1-7: update().eq(provider).eq(intent_id).eq(status).select("id")
+  // chain. Each .eq() returns the same chain object; .select() resolves to
+  // the lastUpdateResult so tests can either accept the default (1 row
+  // affected → applied=true) or override (0 rows / error). The thenable
+  // pattern is preserved so existing tests that awaited the chain without
+  // .select() still resolve cleanly. Default flips from data:null to
+  // data:[{id: "default-update-id"}] because PR #34 reads the rowset count
+  // as the CAS "we actually applied" signal — null/empty would now mean
+  // "peer instance won the race" rather than "no rows to report."
+  lastUpdateResult = {
+    error: null,
+    data: [{ id: "default-update-id" }],
+  } as { error: unknown; data: unknown };
   const updateChain = {
     eq: paymentsUpdateEqMock,
+    select: vi.fn(() => ({
+      then(resolve: (v: typeof lastUpdateResult) => unknown) {
+        return Promise.resolve(lastUpdateResult).then(resolve);
+      },
+    })),
     then(resolve: (v: typeof lastUpdateResult) => unknown) {
       return Promise.resolve(lastUpdateResult).then(resolve);
     },
@@ -155,6 +180,12 @@ function resetSupabaseMocks(): void {
     maybeSingle: ordersMaybeSingleMock,
   }));
   ordersSelectMock.mockReturnValue({ eq: ordersEqMock });
+
+  // PR #34: order_items.select(cols).eq("order_id", uuid). firePaidEmails
+  // reads from here separately. Default resolves to empty array so
+  // happy-path tests don't synthesize fake items.
+  orderItemsEqMock.mockResolvedValue({ data: [], error: null });
+  orderItemsSelectMock.mockReturnValue({ eq: orderItemsEqMock });
 }
 
 describe("JurisdictionalGuardError barrel export (audit M23)", () => {
