@@ -4,6 +4,7 @@ import { formatPrice } from "@/lib/content/products";
 import { V2Footer, V2Header } from "@/components/v2/Shell";
 import { Icon } from "@/components/v2/icons";
 import { BitcoinReceiptForm } from "@/components/BitcoinReceiptForm";
+import { CopyButton } from "@/components/v2/checkout/CopyButton";
 import {
   buildBitcoinUri,
   getBitcoinDirectSigningSecret,
@@ -138,7 +139,10 @@ export default async function BitcoinCheckoutPage({
         <section className="section">
           <div className="container" style={{ maxWidth: 920 }}>
             {mode === "direct" && !directSignatureValid ? (
-              <div className="card" style={{ padding: 28 }}>
+              <div
+                className="card"
+                style={{ padding: "clamp(16px, 4vw, 28px)" }}
+              >
                 <p className="eyebrow" style={{ marginBottom: 18 }}>
                   Invalid checkout link
                 </p>
@@ -158,7 +162,10 @@ export default async function BitcoinCheckoutPage({
                 </Link>
               </div>
             ) : (
-              <div className="card" style={{ padding: 28 }}>
+              <div
+                className="card"
+                style={{ padding: "clamp(16px, 4vw, 28px)" }}
+              >
                 <div
                   style={{
                     display: "grid",
@@ -221,23 +228,14 @@ export default async function BitcoinCheckoutPage({
                 ) : null}
 
                 {directSignatureValid ? (
-                  <div
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns:
-                        "minmax(0, 1fr) minmax(300px, 380px)",
-                      gap: 18,
-                      alignItems: "start",
-                      marginBottom: 24,
-                    }}
-                  >
+                  <div className="v2-bitcoin-shell">
                     <div className="card" style={{ padding: 18 }}>
                       <p className="eyebrow" style={{ marginBottom: 8 }}>
                         Send exactly
                       </p>
                       <p
-                        className="mono"
-                        style={{ fontSize: 26, fontWeight: 600 }}
+                        className="v2-bitcoin-amount"
+                        data-testid="bitcoin-amount"
                       >
                         {btcAmount} BTC
                       </p>
@@ -248,18 +246,34 @@ export default async function BitcoinCheckoutPage({
                       <p className="eyebrow" style={{ margin: "18px 0 8px" }}>
                         Receive address
                       </p>
-                      <p className="mono" style={{ wordBreak: "break-all" }}>
+                      <p
+                        className="mono"
+                        data-testid="bitcoin-address"
+                        style={{ wordBreak: "break-all" }}
+                      >
                         {address}
                       </p>
-                      {bitcoinUri ? (
-                        <a
-                          className="btn btn-accent btn-lg"
-                          href={bitcoinUri}
-                          style={{ marginTop: 18 }}
-                        >
-                          Open wallet payment request
-                        </a>
-                      ) : null}
+                      <div
+                        style={{
+                          display: "grid",
+                          gap: 10,
+                          marginTop: 14,
+                        }}
+                      >
+                        <CopyButton
+                          value={address}
+                          label="Copy Bitcoin address"
+                        />
+                        {bitcoinUri ? (
+                          <a
+                            className="btn btn-accent btn-lg"
+                            href={bitcoinUri}
+                            style={{ justifyContent: "center" }}
+                          >
+                            Open wallet payment request
+                          </a>
+                        ) : null}
+                      </div>
                     </div>
                     <div className="card" style={{ padding: 18 }}>
                       <p className="eyebrow" style={{ marginBottom: 14 }}>
