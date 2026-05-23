@@ -896,6 +896,28 @@ a {
   gap: 18px;
   align-items: center;
 }
+/* M0a — Zelle checkout shell. Desktop is 2-col (instructions + order
+ * reference aside); narrow viewports collapse to a single stacked column
+ * via the @media (max-width: 860px) rule below. */
+.v2-zelle-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
+  gap: 24px;
+  align-items: start;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+/* M0a — Prominent total. Desktop floor mirrors the previous inline
+ * `fontSize: 20` so visual-regression baselines at 1280x720 remain
+ * unchanged; the mobile @media block below bumps the value to >=24px
+ * (the M0a SUCCESS CRITERIA floor in the super-prompt). */
+.v2-zelle-amount {
+  font-family: var(--font-mono);
+  font-size: 20px;
+  letter-spacing: 0;
+  word-break: break-word;
+  margin: 0;
+}
 .btn:disabled {
   cursor: not-allowed;
   opacity: 0.68;
@@ -1190,6 +1212,39 @@ footer {
   }
   .zelle-qr-card {
     grid-template-columns: 1fr;
+  }
+  /* M0a — collapse zelle checkout to a single column on narrow viewports.
+   * Without this rule the inline 280px right rail forces the QR + memo
+   * columns down to ~20px on iPhone SE (375px) — visually broken even
+   * though the page does not horizontally scroll thanks to minmax(0,1fr). */
+  .v2-zelle-shell {
+    grid-template-columns: 1fr;
+  }
+  /* M0a — iOS Safari auto-zooms any text input under 16px on focus,
+   * which double-scales the layout and effectively breaks every form on
+   * mobile. 16px floor is the documented WCAG-effective guard
+   * (Section 4.5 of SUPER_PROMPT_softlaunch_2026-05-22). */
+  .input {
+    font-size: 16px;
+  }
+  /* M0a — WCAG 2.2 AA / Section 4.5: every tap target on mobile must be
+   * >=44x44px. Default .btn shipped 10px padding * 14px font ≈ 40px —
+   * below the threshold for finger taps. Scoped to mobile only so
+   * desktop dense layouts (e.g. nav .btn-sm) are unaffected. .btn-sm
+   * keeps its smaller padding but inherits the min-height. */
+  .btn {
+    min-height: 44px;
+  }
+  .icon-btn {
+    width: 44px;
+    height: 44px;
+  }
+  /* M0a — Mobile total bumps to >=24px per super-prompt §6 M0a SUCCESS
+   * CRITERIA. clamp() lets it scale modestly with viewport so the amount
+   * remains the strongest typographic anchor on every phone size. */
+  .v2-zelle-amount {
+    font-size: clamp(24px, 5.5vw, 28px);
+    font-weight: 600;
   }
 }
 

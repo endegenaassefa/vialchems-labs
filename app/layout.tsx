@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import { siteConfig } from "@/lib/content/site";
@@ -6,6 +6,17 @@ import { CookieConsent } from "@/components/CookieConsent";
 import "./globals.css";
 import "./v2-brand.css";
 import "./v2-layout.css";
+
+// Mobile-first viewport per Section 4.5 of SUPER_PROMPT_softlaunch_2026-05-22.
+// Without `width=device-width`, mobile browsers assume a ~980px layout
+// viewport and zoom out, defeating every @media (max-width) rule on the
+// site. `initialScale: 1` keeps the first render at native size.
+// Do NOT add `maximumScale` or `userScalable: false` — both are WCAG
+// accessibility violations.
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 const geist = Geist({
   variable: "--font-geist",
