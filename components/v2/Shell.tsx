@@ -8,7 +8,7 @@ import { Icon } from "./icons";
 
 const navItems = [
   { href: "/shop", label: "Shop Peptides", key: "catalog" },
-  { href: "/coa", label: "Verify a Vial", key: "coa" },
+  { href: "/verify", label: "Lab Reports", key: "verify" },
   { href: "/affiliate", label: "Affiliate Program", key: "affiliate" },
   { href: "/account", label: "My Lab", key: "account" },
 ];
@@ -165,11 +165,11 @@ export function V2Header() {
                 Browse Catalog <Icon.arrow size={14} strokeWidth={1.5} />
               </Link>
               <Link
-                href="/coa"
+                href="/verify"
                 className="btn btn-ghost btn-lg"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Verify a Vial
+                Lab Reports
               </Link>
             </div>
             <div className="v2-mobile-links">
@@ -227,7 +227,7 @@ export function V2Footer() {
             title="Shop"
             links={[
               ["/shop", "Peptide Catalog"],
-              ["/coa", "Verify a Vial"],
+              ["/verify", "Lab Reports"],
               ["/account", "My Lab"],
             ]}
           />
