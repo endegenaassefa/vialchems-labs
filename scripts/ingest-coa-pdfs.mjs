@@ -25,14 +25,13 @@ import { execSync } from "node:child_process";
 import { tmpdir } from "node:os";
 import path from "node:path";
 
+import sharp from "sharp";
+
 import {
   normalizeSkuFolder,
   parseCoaFilename,
 } from "./coa-redaction/slug-normalize.mjs";
-import {
-  parseTesseractTsv,
-  redactJanoshikCOA,
-} from "./coa-redaction/lib.mjs";
+import { parseTesseractTsv, redactJanoshikCOA } from "./coa-redaction/lib.mjs";
 import {
   deriveBrandNeutralBatch,
   extractEndotoxinResult,
@@ -46,6 +45,7 @@ const REPO_ROOT = path.resolve(new URL("..", import.meta.url).pathname);
 const DEFAULT_SOURCE = "/mnt/c/Users/endeg/Downloads/vialchemlabs_coas";
 const SOURCE_DIR = process.env.COA_SOURCE_DIR ?? DEFAULT_SOURCE;
 const PUBLIC_COA_DIR = path.join(REPO_ROOT, "public", "coa");
+const PUBLIC_THUMB_DIR = path.join(REPO_ROOT, "public", "coa-thumbnails");
 const GENERATED_PATH = path.join(
   REPO_ROOT,
   "lib",
@@ -54,6 +54,9 @@ const GENERATED_PATH = path.join(
 );
 const DRY_RUN = process.env.COA_DRY_RUN === "1";
 const RENDER_DPI = 200;
+const THUMB_WIDTH = 600;
+const THUMB_HEIGHT = 800;
+const THUMB_RENDER_DPI = 150;
 
 function check(bin) {
   try {
@@ -99,14 +102,39 @@ async function readPngSize(pngPath) {
 function runTesseract(pngPath, mode) {
   if (mode === "tsv") {
     const out = tmpPath("ocr");
-    execSync(`tesseract ${JSON.stringify(pngPath)} ${JSON.stringify(out)} tsv`, {
-      stdio: "pipe",
-    });
+    execSync(
+      `tesseract ${JSON.stringify(pngPath)} ${JSON.stringify(out)} tsv`,
+      {
+        stdio: "pipe",
+      },
+    );
     return out + ".tsv";
   }
   return execSync(
     `tesseract ${JSON.stringify(pngPath)} stdout -l eng 2>/dev/null`,
   ).toString("utf8");
+}
+
+/**
+ * Generate a 600x800 PNG thumbnail of the redacted PDF's page 0.
+ * Rasterizes via pdftoppm, then sharp-resizes "cover" anchored to top
+ * (preserves the "TEST REPORT" header band that survived redaction).
+ */
+async function generateThumbnail(redactedPdfPath, outPngPath) {
+  const renderBase = tmpPath("thumb-src");
+  execSync(
+    `pdftoppm -png -r ${THUMB_RENDER_DPI} -singlefile ${JSON.stringify(redactedPdfPath)} ${JSON.stringify(renderBase)}`,
+    { stdio: "pipe" },
+  );
+  const renderedPath = renderBase + ".png";
+  try {
+    await sharp(renderedPath)
+      .resize(THUMB_WIDTH, THUMB_HEIGHT, { fit: "cover", position: "top" })
+      .png({ quality: 90 })
+      .toFile(outPngPath);
+  } finally {
+    await fs.unlink(renderedPath).catch(() => {});
+  }
 }
 
 function summaryFor(test, ocrText) {
@@ -162,8 +190,10 @@ async function processOnePdf(srcPdf, slug, test, perPanelAcc) {
     });
 
     const destPath = path.join(PUBLIC_COA_DIR, `${slug}-${test}.pdf`);
+    const thumbPath = path.join(PUBLIC_THUMB_DIR, `${slug}-${test}.png`);
     if (!DRY_RUN) {
       await fs.writeFile(destPath, redacted);
+      await generateThumbnail(destPath, thumbPath);
     }
 
     // Stash for the panel write-out.
@@ -236,10 +266,18 @@ async function main() {
   check("pdftoppm");
   check("tesseract");
 
+  // Ensure output dirs exist (PUBLIC_COA_DIR already exists from
+  // placeholders; PUBLIC_THUMB_DIR is created here on first run).
+  if (!DRY_RUN) {
+    await fs.mkdir(PUBLIC_THUMB_DIR, { recursive: true });
+  }
+
   const stat = await fs.stat(SOURCE_DIR).catch(() => null);
   if (!stat?.isDirectory()) {
     console.error(`[ingest-coa] Source folder not found: ${SOURCE_DIR}`);
-    console.error("Set COA_SOURCE_DIR or drop the lab folder at the default path.");
+    console.error(
+      "Set COA_SOURCE_DIR or drop the lab folder at the default path.",
+    );
     process.exit(1);
   }
 
@@ -270,7 +308,12 @@ async function main() {
         continue;
       }
       try {
-        await processOnePdf(path.join(subPath, file), parsed.sku, parsed.test, perPanel);
+        await processOnePdf(
+          path.join(subPath, file),
+          parsed.sku,
+          parsed.test,
+          perPanel,
+        );
         total++;
       } catch (err) {
         console.error(`  ✗ failed: ${file}: ${err.message}`);
