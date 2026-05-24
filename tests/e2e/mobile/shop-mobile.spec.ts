@@ -131,7 +131,9 @@ test.describe("Shop grid — product card image floor (iPhone SE)", () => {
     page,
   }) => {
     await page.goto("/shop");
-    const media = page.locator(".catalog-grid .product-card .product-media").first();
+    const media = page
+      .locator(".catalog-grid .product-card .product-media")
+      .first();
     await expect(media).toBeVisible();
     const box = await media.boundingBox();
     expect(box).not.toBeNull();

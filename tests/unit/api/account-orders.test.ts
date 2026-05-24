@@ -14,9 +14,9 @@ import { describe, expect, it, beforeEach, afterEach, vi } from "vitest";
 
 // Mocked Supabase client chain.
 const ordersOrderMock = vi.fn();
-const ordersEqMock = vi.fn(
-  (_col: string, _val: string) => ({ order: ordersOrderMock }),
-);
+const ordersEqMock = vi.fn((_col: string, _val: string) => ({
+  order: ordersOrderMock,
+}));
 const ordersSelectMock = vi.fn((_cols: string) => ({ eq: ordersEqMock }));
 
 const authGetUserMock = vi.fn();

@@ -591,14 +591,14 @@ gate fails, 2 on fatal driver error.
 
 **What lives where:**
 
-| Layer                | Backed up by                              | RPO                    | RTO            |
-| -------------------- | ----------------------------------------- | ---------------------- | -------------- |
-| Postgres data        | Supabase automatic backups                | ~24h (free) / 2h (pro) | ~1–2h restore  |
-| Application code     | GitHub `origin/main`                      | n/a (source of truth)  | <5 min revert  |
-| Vercel deployments   | Vercel automatic deployment history       | n/a                    | <2 min rollback |
-| Customer files / COA | `public/coa/` checked into the repo       | n/a                    | <5 min revert  |
-| Sentry events        | Sentry 30-day retention                   | n/a                    | n/a            |
-| Resend events        | Resend 30-day retention                   | n/a                    | n/a            |
+| Layer                | Backed up by                        | RPO                    | RTO             |
+| -------------------- | ----------------------------------- | ---------------------- | --------------- |
+| Postgres data        | Supabase automatic backups          | ~24h (free) / 2h (pro) | ~1–2h restore   |
+| Application code     | GitHub `origin/main`                | n/a (source of truth)  | <5 min revert   |
+| Vercel deployments   | Vercel automatic deployment history | n/a                    | <2 min rollback |
+| Customer files / COA | `public/coa/` checked into the repo | n/a                    | <5 min revert   |
+| Sentry events        | Sentry 30-day retention             | n/a                    | n/a             |
+| Resend events        | Resend 30-day retention             | n/a                    | n/a             |
 
 **Recovery procedures:**
 

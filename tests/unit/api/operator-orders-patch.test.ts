@@ -31,12 +31,15 @@
  */
 import { describe, expect, it, beforeEach, vi } from "vitest";
 
-const { sendOrderConfirmationMock, sendOperatorOrderNotificationMock, sendOrderShippedMock } =
-  vi.hoisted(() => ({
-    sendOrderConfirmationMock: vi.fn(),
-    sendOperatorOrderNotificationMock: vi.fn(),
-    sendOrderShippedMock: vi.fn(),
-  }));
+const {
+  sendOrderConfirmationMock,
+  sendOperatorOrderNotificationMock,
+  sendOrderShippedMock,
+} = vi.hoisted(() => ({
+  sendOrderConfirmationMock: vi.fn(),
+  sendOperatorOrderNotificationMock: vi.fn(),
+  sendOrderShippedMock: vi.fn(),
+}));
 
 vi.mock("@/lib/email/order-confirmation", () => ({
   sendOrderConfirmation: sendOrderConfirmationMock,
@@ -78,11 +81,9 @@ const ordersUpdateEqMock: ReturnType<typeof vi.fn> = vi.fn(
     select: ordersUpdateSelectMock,
   }),
 );
-const ordersUpdateMock = vi.fn(
-  (_row: Record<string, unknown>) => ({
-    eq: ordersUpdateEqMock,
-  }),
-);
+const ordersUpdateMock = vi.fn((_row: Record<string, unknown>) => ({
+  eq: ordersUpdateEqMock,
+}));
 // Separate read-only SELECT chain for the "disambiguate after 0-row
 // CAS" path: select("status").eq("display_id", id).maybeSingle().
 const ordersReadMaybeSingleMock = vi.fn();
@@ -94,7 +95,9 @@ const ordersReadSelectMock = vi.fn((_cols: string) => ({
 }));
 
 const orderItemsEqMock = vi.fn();
-const orderItemsSelectMock = vi.fn((_cols: string) => ({ eq: orderItemsEqMock }));
+const orderItemsSelectMock = vi.fn((_cols: string) => ({
+  eq: orderItemsEqMock,
+}));
 
 const historyInsertMock = vi.fn();
 const auditInsertMock = vi.fn();
@@ -196,11 +199,17 @@ beforeEach(() => {
 
 describe("PATCH /api/operator/orders/[id] — P0-3: payment_verified_at column gone", () => {
   it("mark_paid UPDATE body does NOT include payment_verified_at", async () => {
-    const res = await PATCH(makeReq({ action: "mark_paid" }) as never, makeParams() as never);
+    const res = await PATCH(
+      makeReq({ action: "mark_paid" }) as never,
+      makeParams() as never,
+    );
     expect(res.status).toBe(200);
 
     expect(ordersUpdateMock).toHaveBeenCalledTimes(1);
-    const update = ordersUpdateMock.mock.calls[0]?.[0] as Record<string, unknown>;
+    const update = ordersUpdateMock.mock.calls[0]?.[0] as Record<
+      string,
+      unknown
+    >;
     // P0-3: payment_verified_at column does not exist on orders.
     expect(update).not.toHaveProperty("payment_verified_at");
     // Status flip and operator_notes are the valid fields.
@@ -210,7 +219,10 @@ describe("PATCH /api/operator/orders/[id] — P0-3: payment_verified_at column g
 
 describe("PATCH /api/operator/orders/[id] — P0-4: audit_log schema mismatch", () => {
   it("audit_log insert uses event_type + order_id + details (the real schema)", async () => {
-    await PATCH(makeReq({ action: "mark_paid" }) as never, makeParams() as never);
+    await PATCH(
+      makeReq({ action: "mark_paid" }) as never,
+      makeParams() as never,
+    );
 
     expect(auditInsertMock).toHaveBeenCalledTimes(1);
     const audit = auditInsertMock.mock.calls[0]?.[0] as Record<string, unknown>;
@@ -237,7 +249,10 @@ describe("PATCH /api/operator/orders/[id] — P0-4: audit_log schema mismatch", 
 
 describe("PATCH /api/operator/orders/[id] — P0-5: mark_paid fires customer paid email", () => {
   it("calls sendOrderConfirmation with status='paid' and the order header", async () => {
-    await PATCH(makeReq({ action: "mark_paid" }) as never, makeParams() as never);
+    await PATCH(
+      makeReq({ action: "mark_paid" }) as never,
+      makeParams() as never,
+    );
 
     expect(sendOrderConfirmationMock).toHaveBeenCalledTimes(1);
     const arg = sendOrderConfirmationMock.mock.calls[0]?.[0];
@@ -255,17 +270,26 @@ describe("PATCH /api/operator/orders/[id] — P0-5: mark_paid fires customer pai
   it("does NOT call sendOperatorOrderNotification on mark_paid (operator is the actor)", async () => {
     // Per super-prompt §6 C2: "operator notification email (item C4)
     // — no, it's the operator doing this; skip".
-    await PATCH(makeReq({ action: "mark_paid" }) as never, makeParams() as never);
+    await PATCH(
+      makeReq({ action: "mark_paid" }) as never,
+      makeParams() as never,
+    );
     expect(sendOperatorOrderNotificationMock).not.toHaveBeenCalled();
   });
 });
 
 describe("PATCH /api/operator/orders/[id] — P0-6: order_status_history rows on transitions", () => {
   it("mark_paid inserts order_status_history with to_status='paid'", async () => {
-    await PATCH(makeReq({ action: "mark_paid" }) as never, makeParams() as never);
+    await PATCH(
+      makeReq({ action: "mark_paid" }) as never,
+      makeParams() as never,
+    );
 
     expect(historyInsertMock).toHaveBeenCalledTimes(1);
-    const hist = historyInsertMock.mock.calls[0]?.[0] as Record<string, unknown>;
+    const hist = historyInsertMock.mock.calls[0]?.[0] as Record<
+      string,
+      unknown
+    >;
     expect(hist.order_id).toBe(ORDER_UUID);
     expect(hist.to_status).toBe("paid");
     expect(hist.reason).toMatch(/operator\.mark_paid/);
@@ -282,7 +306,10 @@ describe("PATCH /api/operator/orders/[id] — P0-6: order_status_history rows on
     );
 
     expect(historyInsertMock).toHaveBeenCalledTimes(1);
-    const hist = historyInsertMock.mock.calls[0]?.[0] as Record<string, unknown>;
+    const hist = historyInsertMock.mock.calls[0]?.[0] as Record<
+      string,
+      unknown
+    >;
     expect(hist.order_id).toBe(ORDER_UUID);
     expect(hist.to_status).toBe("shipped");
     expect(hist.reason).toMatch(/operator\.mark_shipped/);

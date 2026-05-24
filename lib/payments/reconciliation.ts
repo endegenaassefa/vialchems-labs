@@ -282,8 +282,7 @@ async function persistToSupabase(
           .eq("provider", intent.provider)
           .eq("provider_intent_id", providerIntentId)
           .maybeSingle();
-        const newStatus = (latest as { status?: PaymentStatus } | null)
-          ?.status;
+        const newStatus = (latest as { status?: PaymentStatus } | null)?.status;
 
         if (!newStatus || newStatus === intent.status) {
           return { kind: "duplicate" };

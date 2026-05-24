@@ -60,8 +60,7 @@ export async function GET(request: NextRequest) {
     ? `${process.env.NEXT_PUBLIC_SENTRY_DSN.slice(0, 12)}...@...${process.env.NEXT_PUBLIC_SENTRY_DSN.slice(-12)}`
     : null;
   const clientInitialized = Boolean(Sentry.getClient());
-  const sentryEnv =
-    process.env.VERCEL_ENV ?? process.env.NODE_ENV ?? "unknown";
+  const sentryEnv = process.env.VERCEL_ENV ?? process.env.NODE_ENV ?? "unknown";
   const nextRuntime = process.env.NEXT_RUNTIME ?? "unset";
 
   const err = new SentryProbeError(

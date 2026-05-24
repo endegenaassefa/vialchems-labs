@@ -31,14 +31,7 @@
  * layer; this file exercises the paid-event side-effects layer
  * sitting on top of it.
  */
-import {
-  afterEach,
-  beforeEach,
-  describe,
-  expect,
-  it,
-  vi,
-} from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 // Hoisted so vi.mock can reach them.
 const { sendOrderConfirmationMock, sendOperatorOrderNotificationMock } =
@@ -262,7 +255,11 @@ describe("firePaidEmails — P0-1: items live on order_items, not orders", () =>
     orderItemsEq.mockResolvedValueOnce({
       data: [
         { name_snapshot: "BPC-157, 5mg", quantity: 2, unit_price_cents: 4500 },
-        { name_snapshot: "Retatrutide, 5mg", quantity: 1, unit_price_cents: 5000 },
+        {
+          name_snapshot: "Retatrutide, 5mg",
+          quantity: 1,
+          unit_price_cents: 5000,
+        },
       ],
       error: null,
     });
@@ -544,7 +541,11 @@ describe("firePaidEmails — fresh-insert happy path (regression guard)", () => 
     });
     orderItemsEq.mockResolvedValueOnce({
       data: [
-        { name_snapshot: "Cagrisema Bundle", quantity: 1, unit_price_cents: 9999 },
+        {
+          name_snapshot: "Cagrisema Bundle",
+          quantity: 1,
+          unit_price_cents: 9999,
+        },
       ],
       error: null,
     });
