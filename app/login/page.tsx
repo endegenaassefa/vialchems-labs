@@ -25,7 +25,11 @@ import { Pill } from "@/components/ui/Pill";
 import { FieldLabel } from "@/components/ui/FieldLabel";
 import { Input } from "@/components/ui/Input";
 import { Button } from "@/components/ui/Button";
-import { signInWithOtp, isSupabaseAuthAvailable } from "@/lib/supabase-auth";
+import {
+  isSupabaseAuthAvailable,
+  resolveAuthRedirectTo,
+  signInWithOtp,
+} from "@/lib/supabase-auth";
 
 type SubmitState =
   | { kind: "idle" }
@@ -79,10 +83,7 @@ function LoginPageInner() {
       nextParam && nextParam.startsWith("/") && !nextParam.startsWith("//")
         ? nextParam
         : "/account";
-    const redirectTo =
-      typeof window !== "undefined"
-        ? `${window.location.origin}/auth/callback?next=${encodeURIComponent(safeNext)}`
-        : undefined;
+    const redirectTo = resolveAuthRedirectTo(undefined, safeNext);
     const result = await signInWithOtp({ email: email.trim(), redirectTo });
     if (result.ok) {
       setState({ kind: "sent", email: email.trim() });

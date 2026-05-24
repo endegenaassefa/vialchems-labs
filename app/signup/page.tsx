@@ -29,6 +29,7 @@ import {
   type QualificationRole,
 } from "@/lib/customer-qualification";
 import { browserSupabase } from "@/lib/supabase";
+import { resolveAuthRedirectTo } from "@/lib/supabase-auth";
 import { isSupabaseAuthAvailable } from "@/lib/supabase-auth";
 
 type SubmitState =
@@ -60,10 +61,7 @@ function SignupPageInner() {
       setState({ kind: "unavailable" });
       return;
     }
-    const redirectTo =
-      typeof window !== "undefined"
-        ? `${window.location.origin}/auth/callback?next=/account`
-        : undefined;
+    const redirectTo = resolveAuthRedirectTo(undefined, "/account");
 
     const { error } = await supabase.auth.signInWithOtp({
       email: email.trim(),
