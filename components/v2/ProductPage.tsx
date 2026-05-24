@@ -575,27 +575,23 @@ export function V2ProductPage({ slug }: { slug: string }) {
                             : "Available by custom request"}
                         </td>
                       </tr>
-                      <tr>
-                        <td>Documentation</td>
-                        <td>
-                          {panel ? (
-                            <>
-                              Independent third-party lab panel ·{" "}
-                              <Link
-                                href={`/verify/${item.slug}`}
-                                style={{
-                                  color: "var(--accent)",
-                                  textDecoration: "underline",
-                                }}
-                              >
-                                Lab Reports
-                              </Link>
-                            </>
-                          ) : (
-                            "Lab panel published on order · RUO attestation required at checkout"
-                          )}
-                        </td>
-                      </tr>
+                      {/* Phase 1J — Documentation row only renders for SKUs
+                          WITHOUT a published panel. For LAB TESTED SKUs the
+                          panel-summary card above already conveys the
+                          "Independent third-party lab panel" message + 4 test
+                          results + Lab Reports link, so a Documentation row
+                          duplicating that wording was operator-flagged as
+                          repetitive. Custom-order SKUs (no panel) still need
+                          the row because there's no panel-summary card. */}
+                      {panel ? null : (
+                        <tr>
+                          <td>Documentation</td>
+                          <td>
+                            Lab panel published on order · RUO attestation
+                            required at checkout
+                          </td>
+                        </tr>
+                      )}
                       <tr>
                         <td>Release tests</td>
                         <td>
