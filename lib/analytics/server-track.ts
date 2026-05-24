@@ -88,7 +88,8 @@ export async function trackServerEvent(
     };
     if (input.visitorIp) headers["X-Forwarded-For"] = input.visitorIp;
     // Plausible needs a User-Agent header — without one it ignores the event.
-    headers["User-Agent"] = input.userAgent ?? "VialChemLabs/1.0 (server-event)";
+    headers["User-Agent"] =
+      input.userAgent ?? "VialChemLabs/1.0 (server-event)";
 
     const res = await fetch(PLAUSIBLE_EVENTS_URL, {
       method: "POST",

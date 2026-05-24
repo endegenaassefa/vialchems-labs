@@ -155,7 +155,7 @@ function CompositionDisclosure({ product }: { product: Product }) {
           >
             support@vialchemlabs.net
           </a>{" "}
-          for the current batch's full peptide composition before ordering.
+          for the full peptide composition of the current batch before ordering.
         </p>
       </div>
     );

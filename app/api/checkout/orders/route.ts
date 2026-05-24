@@ -464,7 +464,8 @@ export async function POST(request: Request): Promise<Response> {
     event: FUNNEL_EVENTS.ORDER_PLACED,
     props: { provider: paymentIntent.provider, total_cents: totalCents },
     visitorIp:
-      request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? undefined,
+      request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ??
+      undefined,
     userAgent: request.headers.get("user-agent") ?? undefined,
   });
 

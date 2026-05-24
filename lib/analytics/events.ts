@@ -18,7 +18,8 @@ export const FUNNEL_EVENTS = {
   ORDER_PAID: "order_paid",
 } as const;
 
-export type FunnelEventName = (typeof FUNNEL_EVENTS)[keyof typeof FUNNEL_EVENTS];
+export type FunnelEventName =
+  (typeof FUNNEL_EVENTS)[keyof typeof FUNNEL_EVENTS];
 
 export interface OrderEventProps {
   provider: string;
