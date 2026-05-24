@@ -65,7 +65,9 @@ describe("parseCoaFilename", () => {
       sku: "klow-80mg",
       test: "sterility",
     });
-    expect(parseCoaFilename("CJC-1295_plus_Ipamorelin_5mg_HeavyMetals.pdf")).toEqual({
+    expect(
+      parseCoaFilename("CJC-1295_plus_Ipamorelin_5mg_HeavyMetals.pdf"),
+    ).toEqual({
       sku: "cjc-1295-ipamorelin-5mg",
       test: "heavymetals",
     });
