@@ -15,6 +15,7 @@
  * stub message that won't trigger a real send.
  */
 import type { Session, User, AuthChangeEvent } from "@supabase/supabase-js";
+import { siteConfig } from "@/lib/content/site";
 import { browserSupabase } from "@/lib/supabase";
 
 /**
@@ -32,6 +33,34 @@ export type AuthCallResult<T = void> =
   | { ok: true; data: T }
   | { ok: false; code: "supabase_unavailable" | "auth_error"; message: string };
 
+/**
+ * Resolve the magic-link emailRedirectTo URL.
+ *
+ * Iron Law (super-prompt §7.1): NEVER use window.location.origin.
+ * That fallback bakes localhost into the magic link whenever a
+ * developer signs up from a dev environment and breaks production
+ * traffic where Supabase's redirect-allowlist excludes localhost.
+ *
+ * Always resolves to a siteConfig.url-rooted URL. Per-callsite override
+ * is accepted (used for special flows that want a non-default callback
+ * path); when the override is omitted we default to /account.
+ *
+ * Open-redirect prevention: nextPath must be a same-origin absolute
+ * path (starts with "/", not "//"); otherwise we ignore it and use
+ * /account.
+ */
+export function resolveAuthRedirectTo(
+  callerOverride?: string,
+  nextPath?: string,
+): string {
+  if (callerOverride) return callerOverride;
+  const safeNext =
+    nextPath && nextPath.startsWith("/") && !nextPath.startsWith("//")
+      ? nextPath
+      : "/account";
+  return `${siteConfig.url}/auth/callback?next=${encodeURIComponent(safeNext)}`;
+}
+
 export async function signInWithOtp({
   email,
   redirectTo,
@@ -48,11 +77,7 @@ export async function signInWithOtp({
   const { error } = await supabase.auth.signInWithOtp({
     email,
     options: {
-      emailRedirectTo:
-        redirectTo ??
-        (typeof window !== "undefined"
-          ? `${window.location.origin}/auth/callback`
-          : undefined),
+      emailRedirectTo: resolveAuthRedirectTo(redirectTo),
     },
   });
   if (error) {
