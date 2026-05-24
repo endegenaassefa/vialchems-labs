@@ -731,15 +731,23 @@ export const products: Product[] = [
     perMgCents: 125,
     category: "metabolic",
     role: "volume-driver",
-    position: "operator-override 2026-05-22; composition disclosure pending",
+    position:
+      "operator-override 2026-05-22; composition declared 2026-05-24 (research-validated)",
     shortDescription:
-      "Operator-blended research material supplied as an 80mg lyophilized vial. Composition declaration accompanies the per-batch certificate of analysis.",
-    // H1 (super-prompt §6): explicit `null` signals the PDP to render
-    // a customer-facing "Composition disclosure pending" notice
-    // pointing to support. Operator replaces this null with a populated
-    // ProductComposition (peptides + mgPerVial per the per-batch COA)
-    // when the blend specification is finalized.
-    composition: null,
+      "Operator-blended research material supplied as an 80mg lyophilized vial. The per-vial composition combines GHK-Cu, BPC-157, TB-500, and KPV at a fixed 50/10/10/10 mg ratio with the per-batch Certificate of Analysis individually quantifying each peptide.",
+    // H1 closure (super-prompt §9.1, 2026-05-24): research-validated
+    // canonical KLOW composition. The operator's per-batch Janoshik
+    // Purity COA individually certifies all 4 peptides; the per-batch
+    // test panel is published at /verify/klow-80mg.
+    composition: {
+      peptides: [
+        { name: "GHK-Cu", mgPerVial: 50 },
+        { name: "BPC-157", mgPerVial: 10 },
+        { name: "TB-500", mgPerVial: 10 },
+        { name: "KPV", mgPerVial: 10 },
+      ],
+      perBatchCoaUrl: "/verify/klow-80mg",
+    },
   },
   {
     slug: "reta-10mg",
