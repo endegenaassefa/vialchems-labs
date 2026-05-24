@@ -103,7 +103,13 @@ describe("computeOcrRedactionRegions", () => {
     const rows = [
       { left: 100, top: 100, width: 50, height: 18, text: "TEST" }, // safe
       { left: 700, top: 100, width: 250, height: 30, text: "JANOSHIK" }, // hit
-      { left: 380, top: 670, width: 220, height: 28, text: "wuhanwansheng.net" }, // hit
+      {
+        left: 380,
+        top: 670,
+        width: 220,
+        height: 28,
+        text: "wuhanwansheng.net",
+      }, // hit
       { left: 130, top: 1000, width: 90, height: 18, text: "Manufacturer" }, // label — safe (no token match)
     ];
     const regions = computeOcrRedactionRegions(rows, renderInfo, pageSize);

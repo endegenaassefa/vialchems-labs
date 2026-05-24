@@ -84,7 +84,9 @@ describe("extractPassFailResult", () => {
 describe("extractEndotoxinResult", () => {
   it("normalizes '<0.5 EU/mg' (with possible OCR spaces)", () => {
     expect(extractEndotoxinResult(ENDOTOXIN_FIXTURE)).toBe("<0.5EU/mg");
-    expect(extractEndotoxinResult("Results > < 0.25 EU / mg")).toBe("<0.25EU/mg");
+    expect(extractEndotoxinResult("Results > < 0.25 EU / mg")).toBe(
+      "<0.25EU/mg",
+    );
   });
 });
 

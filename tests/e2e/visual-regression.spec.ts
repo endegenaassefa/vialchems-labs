@@ -21,6 +21,7 @@ const ROUTES = [
   "/",
   "/shop",
   "/coa",
+  "/verify",
   "/about",
   "/blog",
   "/faq",
