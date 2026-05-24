@@ -88,7 +88,7 @@ export default function SettingsPage() {
                 Save preferences
               </Button>
               <p className="mt-4 font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)]">
-                Preference storage activates with the public launch
+                Preference sync requires an enabled account
               </p>
             </Card>
 
