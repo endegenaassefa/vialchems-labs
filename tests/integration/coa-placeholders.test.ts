@@ -24,7 +24,11 @@
 import { describe, expect, it } from "vitest";
 import { open, stat } from "node:fs/promises";
 import path from "node:path";
-import { products, bundles } from "@/lib/content/products";
+import {
+  bundles,
+  products,
+  publicLaunchProductSlugs,
+} from "@/lib/content/products";
 
 const COA_DIR = path.join(process.cwd(), "public", "coa");
 const BATCH_TOKEN = "BATCH-2026-PLACEHOLDER";
@@ -80,21 +84,30 @@ describe("Iron Law 2.42 -- placeholder COA on disk per catalog SKU", () => {
     });
   }
 
-  it("public/coa/ contains exactly one placeholder PDF per product + bundle (no orphans)", async () => {
+  it("public/coa/ contains the placeholder set + the per-test redacted set (no orphans)", async () => {
     const { readdir } = await import("node:fs/promises");
     const entries = await readdir(COA_DIR);
     const pdfs = entries.filter((name) => name.endsWith(".pdf"));
-    const expected = products.length + bundles.length;
-    expect(pdfs.length).toBe(expected);
 
+    // Post-P1D the directory contains TWO disjoint PDF families:
+    //   - Placeholders: one per product + bundle slug
+    //     ("<slug>-BATCH-2026-PLACEHOLDER.pdf").
+    //   - Real redacted COAs: one per publicLaunchProductSlug × 4 tests
+    //     ("<slug>-<purity|sterility|endotoxin|heavymetals>.pdf").
+    // Any PDF that doesn't fit either pattern is an orphan (deleted SKU,
+    // typo, or stale rebrand artifact) and must be cleaned up.
     const expectedNames = new Set<string>();
     for (const p of products) expectedNames.add(`${p.slug}-${BATCH_TOKEN}.pdf`);
     for (const b of bundles) expectedNames.add(`${b.slug}-${BATCH_TOKEN}.pdf`);
+    const tests = ["purity", "sterility", "endotoxin", "heavymetals"] as const;
+    for (const slug of publicLaunchProductSlugs) {
+      for (const test of tests) {
+        expectedNames.add(`${slug}-${test}.pdf`);
+      }
+    }
 
-    const actualNames = new Set(pdfs);
-    // Detect orphans (files on disk that no longer correspond to a SKU).
-    for (const name of actualNames) {
-      expect(expectedNames.has(name)).toBe(true);
+    for (const name of pdfs) {
+      expect(expectedNames.has(name), `orphan PDF: ${name}`).toBe(true);
     }
   });
 });

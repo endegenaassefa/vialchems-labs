@@ -41,16 +41,27 @@ export function extractTestDate(ocrText) {
 
 /**
  * Extract a purity percent from OCR text (e.g. "99.245%" or "Purity 99.245").
- * Returns the matched string with trailing % (e.g. "99.245%").
+ * Returns the matched string with trailing % (e.g. "99.245%") OR null when
+ * the OCR-extracted value is implausible (<50%) — happens when tesseract
+ * drops a leading digit (e.g. "99.34" misread as "9.34"). Recovery attempt:
+ * if 5 <= value < 50, prepend "9" and re-validate. Returning null lets the
+ * UI gracefully degrade to "Available" without rendering a wrong number.
  */
 export function extractPurityResult(ocrText) {
-  // OCR often mangles the % sign; accept the number with optional %.
-  const re = /purity[^\d]{0,20}(\d{2}\.\d{1,3})\s*%?/i;
+  // OCR often mangles the % sign; accept 1-3 digits before decimal,
+  // 1-4 after. Validate range after extraction.
+  const re = /purity[^\d]{0,20}(\d{1,3}\.\d{1,4})\s*%?/i;
   const m = ocrText.match(re);
-  if (m) return `${m[1]}%`;
-  // Standalone percentage near "Results"
-  const alt = ocrText.match(/results[^\n]*?\n[\s\S]{0,200}?(\d{2}\.\d{1,3})\s*%?/i);
-  if (alt) return `${alt[1]}%`;
+  if (m) {
+    const value = parseFloat(m[1]);
+    if (value >= 50 && value <= 100) return `${m[1]}%`;
+    // <50 likely OCR drop of leading "9" (e.g. "9.34" → "99.34"). Recover.
+    if (value < 50 && value >= 5) {
+      const recovered = `9${m[1]}`;
+      const recoveredValue = parseFloat(recovered);
+      if (recoveredValue <= 100) return `${recovered}%`;
+    }
+  }
   return null;
 }
 
