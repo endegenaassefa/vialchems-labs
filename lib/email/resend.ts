@@ -63,7 +63,9 @@ export interface SendEmailInput {
     | "cancel-confirmation"
     | "refund-confirmation"
     | "qualification-receipt"
-    | "magic-link";
+    | "magic-link"
+    | "affiliate-applicant-ack"
+    | "affiliate-operator-notification";
   /**
    * Schedule the email for future delivery via Resend's scheduledAt API.
    * Must be an ISO 8601 timestamp (e.g. "2026-08-05T11:52:01.858Z"). When

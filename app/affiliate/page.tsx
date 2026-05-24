@@ -19,18 +19,56 @@ import { Pill } from "@/components/ui/Pill";
 import { Card } from "@/components/ui/Card";
 import { Toast } from "@/components/ui/Toast";
 
-type Status = "idle" | "submitting" | "ok";
+type Status = "idle" | "submitting" | "ok" | "error" | "rate_limited";
 
 export default function AffiliatePage() {
   const [status, setStatus] = useState<Status>("idle");
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus("submitting");
-    // Phase 5: client-only ack. Phase 7 will POST to /api/affiliate.
-    await new Promise((r) => setTimeout(r, 250));
-    e.currentTarget.reset();
-    setStatus("ok");
+    setErrorMessage(null);
+    const form = e.currentTarget;
+    const data = new FormData(form);
+    const payload = Object.fromEntries(
+      ["name", "email", "audience", "views", "handles", "focus"].map((key) => [
+        key,
+        String(data.get(key) ?? "").trim(),
+      ]),
+    );
+    try {
+      const response = await fetch("/api/affiliate", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (response.status === 429) {
+        setStatus("rate_limited");
+        return;
+      }
+      if (!response.ok) {
+        const body = (await response.json().catch(() => ({}))) as {
+          error?: string;
+        };
+        setErrorMessage(
+          body.error === "missing_fields"
+            ? "Please fill in your name and email."
+            : body.error === "invalid_email"
+              ? "That email address doesn't look valid."
+              : body.error === "marketing_copy_violation"
+                ? "Your application includes terms we can't process. Please rephrase."
+                : "Something went wrong submitting your application.",
+        );
+        setStatus("error");
+        return;
+      }
+      form.reset();
+      setStatus("ok");
+    } catch {
+      setErrorMessage("Network error. Please try again.");
+      setStatus("error");
+    }
   }
 
   return (
@@ -304,8 +342,24 @@ export default function AffiliatePage() {
 
               {status === "ok" ? (
                 <Toast
-                  message="Application logged. The team will review and respond within five business days."
+                  message="Application received. Check your inbox for confirmation; the team will review within five business days."
                   tone="success"
+                  duration={6000}
+                  onDismiss={() => setStatus("idle")}
+                />
+              ) : null}
+              {status === "error" && errorMessage ? (
+                <Toast
+                  message={errorMessage}
+                  tone="error"
+                  duration={6000}
+                  onDismiss={() => setStatus("idle")}
+                />
+              ) : null}
+              {status === "rate_limited" ? (
+                <Toast
+                  message="Too many applications from this address. Please wait an hour and try again."
+                  tone="error"
                   duration={6000}
                   onDismiss={() => setStatus("idle")}
                 />

@@ -49,6 +49,7 @@ const IP_CONFIGS = {
   access: { requests: 10, windowSeconds: 60 },
   newsletter: { requests: 5, windowSeconds: 300 },
   contact: { requests: 3, windowSeconds: 3600 },
+  affiliate: { requests: 3, windowSeconds: 3600 },
 } as const satisfies Record<string, RateLimitConfig>;
 
 // Per-email limit: 3 attempts / 1 hour across any route bucket where the
@@ -58,6 +59,7 @@ const EMAIL_CONFIGS = {
   access: { requests: 3, windowSeconds: 3600 },
   newsletter: { requests: 3, windowSeconds: 3600 },
   contact: { requests: 3, windowSeconds: 3600 },
+  affiliate: { requests: 2, windowSeconds: 86400 },
 } as const satisfies Record<string, RateLimitConfig>;
 
 export type RouteKey = keyof typeof IP_CONFIGS;
