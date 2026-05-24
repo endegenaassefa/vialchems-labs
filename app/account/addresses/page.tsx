@@ -115,7 +115,7 @@ export default function AddressesPage() {
                   </Link>
                 </div>
                 <p className="sm:col-span-2 font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)]">
-                  Saved-address book activates with the public launch
+                  Address book sync requires an enabled account
                 </p>
               </form>
             </Card>

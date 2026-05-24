@@ -46,10 +46,21 @@ export function V2Coa() {
               }}
             >
               <div>
-                <h1 style={{ fontSize: 42, marginBottom: 8 }}>COA status</h1>
+                <h1 style={{ fontSize: 42, marginBottom: 8 }}>
+                  Certificate of Analysis library
+                </h1>
                 <p style={{ color: "var(--fg-muted)", maxWidth: 640 }}>
-                  Verified Certificate of Analysis records appear here after
-                  laboratory review, PDF upload, and release approval.
+                  Per-batch independent lab reports for every vial. Search by
+                  product, batch, or lab.{" "}
+                  <Link
+                    href="/verify"
+                    style={{
+                      color: "var(--accent)",
+                      textDecoration: "underline",
+                    }}
+                  >
+                    See the full test panel per product →
+                  </Link>
                 </p>
                 <div className="trust-strip">
                   <span className="trust-chip">
@@ -63,6 +74,10 @@ export function V2Coa() {
                   <span className="trust-chip">
                     <span className="badge-dot" />
                     Endotoxin screen
+                  </span>
+                  <span className="trust-chip">
+                    <span className="badge-dot" />
+                    Heavy metals
                   </span>
                 </div>
               </div>
@@ -168,18 +183,9 @@ export function V2Coa() {
                     maxWidth: 680,
                   }}
                 >
-                  <span
-                    className="badge badge-coa"
-                    style={{ width: "fit-content" }}
-                  >
-                    Awaiting release records
-                  </span>
-                  <h2 style={{ fontSize: 24, margin: 0 }}>
-                    No public COA records are posted yet.
-                  </h2>
+                  <h2 style={{ fontSize: 24, margin: 0 }}>Records syncing.</h2>
                   <p style={{ color: "var(--fg-muted)", lineHeight: 1.6 }}>
-                    Product lots remain gated until documentation is cleared.
-                    For current documentation on an order, contact support with
+                    For documentation on a specific order, contact support with
                     the SKU, order reference, or lot code.
                   </p>
                   <Link href="/contact" className="btn btn-accent btn-sm">

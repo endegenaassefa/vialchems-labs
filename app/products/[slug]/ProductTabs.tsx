@@ -199,8 +199,21 @@ function CoaPanel({ product }: { product: Product }) {
     return (
       <div role="tabpanel" id="tab-panel-coa" aria-labelledby="tab-coa">
         <p className="text-[var(--text-muted)]">
-          No public Certificate of Analysis is posted for this SKU yet. Product
-          lots remain gated until release documentation is cleared.
+          This SKU is available by custom-order request only. Browse the full{" "}
+          <Link
+            href="/verify"
+            className="text-[var(--accent)] underline underline-offset-2"
+          >
+            published lab-report library
+          </Link>{" "}
+          for our public catalog SKUs, or{" "}
+          <Link
+            href="/contact"
+            className="text-[var(--accent)] underline underline-offset-2"
+          >
+            contact support
+          </Link>{" "}
+          to discuss this material.
         </p>
       </div>
     );
