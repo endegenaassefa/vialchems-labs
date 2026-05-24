@@ -183,18 +183,9 @@ export function V2Coa() {
                     maxWidth: 680,
                   }}
                 >
-                  <span
-                    className="badge badge-coa"
-                    style={{ width: "fit-content" }}
-                  >
-                    Awaiting release records
-                  </span>
-                  <h2 style={{ fontSize: 24, margin: 0 }}>
-                    No public COA records are posted yet.
-                  </h2>
+                  <h2 style={{ fontSize: 24, margin: 0 }}>Records syncing.</h2>
                   <p style={{ color: "var(--fg-muted)", lineHeight: 1.6 }}>
-                    Product lots remain gated until documentation is cleared.
-                    For current documentation on an order, contact support with
+                    For documentation on a specific order, contact support with
                     the SKU, order reference, or lot code.
                   </p>
                   <Link href="/contact" className="btn btn-accent btn-sm">
