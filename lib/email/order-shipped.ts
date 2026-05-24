@@ -47,6 +47,8 @@ function renderText(input: OrderShippedInput): string {
     `Tracking: ${input.trackingNumber}`,
     `Track it here: ${url}`,
     "",
+    `Lab reports for every product: ${siteConfig.url}/verify`,
+    "",
     `Reach support: ${siteConfig.email.staff.join(", ")}`,
   ].join("\n");
 }

@@ -109,9 +109,11 @@ function Hero() {
               textTransform: "uppercase",
             }}
           >
-            <span>· Qualified lab orders</span>
-            <span>· HPLC purity records</span>
-            <span>· COA on every vial</span>
+            <span>· HPLC purity</span>
+            <span>· Sterility</span>
+            <span>· Endotoxin</span>
+            <span>· Heavy metals</span>
+            <span>· Independent lab</span>
           </div>
         </div>
         <FloatingCards />
@@ -211,7 +213,9 @@ function FloatingCards() {
         </div>
       </div>
 
-      <div
+      <Link
+        href="/verify"
+        aria-label="View independent lab reports"
         className="hero-proof-card hero-proof-card-coa"
         style={{
           position: "absolute",
@@ -220,6 +224,9 @@ function FloatingCards() {
           width: 250,
           animation: "float-y 7s ease-in-out infinite",
           animationDelay: "0.5s",
+          textDecoration: "none",
+          color: "inherit",
+          display: "block",
         }}
       >
         <div
@@ -310,7 +317,7 @@ function FloatingCards() {
             </span>
           </div>
         </div>
-      </div>
+      </Link>
 
       <div
         className="hero-proof-card hero-proof-card-timeline"

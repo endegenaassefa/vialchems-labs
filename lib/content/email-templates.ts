@@ -40,7 +40,7 @@ Your free PDF, the ${siteConfig.name} Reconstitution and Storage Guide, is attac
 
 If you have questions, reply to this email and our research-support team will respond within 1 business day.
 
-For our Certificates of Analysis library, see ${siteConfig.url}/coa.
+For per-product lab reports (HPLC purity, sterility, endotoxin, heavy metals), see ${siteConfig.url}/verify. The full Certificate of Analysis library is at ${siteConfig.url}/coa.
 
 ${siteConfig.name} Team
 ${FOOTER}`,
