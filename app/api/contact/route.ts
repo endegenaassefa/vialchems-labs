@@ -4,7 +4,6 @@ import { findMarketingCopyViolation } from "@/lib/compliance";
 import { sendEmail } from "@/lib/email/resend";
 import { sendContactAck } from "@/lib/email/contact-ack";
 import { isRateLimited } from "@/lib/rate-limit";
-import { isProductionRuntime } from "@/lib/runtime-env";
 import { captureException } from "@/lib/sentry";
 
 /**
@@ -114,16 +113,20 @@ export async function POST(req: NextRequest) {
     captureException(error, {
       tags: { route: "contact", provider: "resend" },
     });
-    if (isProductionRuntime()) {
-      return NextResponse.json(
-        {
-          ok: false,
-          error: "contact_dispatch_failed",
-          message: (error as Error).message,
-        },
-        { status: 502 },
-      );
-    }
+    // P2C (super-prompt §7.3): previously this branch only fired 502 in
+    // production runtime, so dev/preview swallowed Resend failures + still
+    // returned 200. That hid silent-delivery bugs (e.g. RESEND_API_KEY
+    // missing → stub-mode → no email sent + customer sees "received").
+    // Always surface dispatch failures so operators see them on every env.
+    return NextResponse.json(
+      {
+        ok: false,
+        error: "contact_dispatch_failed",
+        message: (error as Error).message,
+        hint: "Operator: curl /api/health/ready to verify RESEND_API_KEY + ORDER_STAFF_EMAILS are set in this environment.",
+      },
+      { status: 502 },
+    );
   }
 
   // J2 — customer ack. Best-effort: if the ack send fails, log it
