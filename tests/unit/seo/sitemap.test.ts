@@ -36,10 +36,13 @@ describe("buildSitemap", () => {
     expect(posts.length).toBeGreaterThanOrEqual(5);
   });
 
-  it("omits COA detail pages until verified certificates are published", () => {
+  it("includes COA detail pages now that verified certificates are published (Phase 1G)", () => {
+    // Post-P1D the sitemap emits one /coa/[peptide]/[batch] entry per
+    // published record (13 from publicLaunchProductSlugs after P1G
+    // derivation from productTestPanels). Discovery + SEO benefit.
     const entries = buildSitemap(BASE);
     const coa = entries.filter((e) => e.url.includes(`${BASE}/coa/`));
-    expect(coa).toHaveLength(0);
+    expect(coa.length).toBeGreaterThanOrEqual(13);
   });
 
   it("includes the legal pages", () => {

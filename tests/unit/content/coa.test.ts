@@ -2,15 +2,34 @@ import { afterEach, describe, expect, it } from "vitest";
 import { type CoaRecord, coaRecords, getCoa } from "@/lib/content/coa";
 
 describe("COA content", () => {
-  it("does not publish unverified COA records", () => {
-    expect(coaRecords).toHaveLength(0);
+  it("publishes one CoaRecord per ingested productTestPanel (Phase 1G)", () => {
+    // Post-P1G the legacy flat-record list is DERIVED from the panel
+    // data at module load. The previous assertion locked the empty
+    // state from before P1D ingest; that was an Iron Law 2.41 hazard
+    // because /coa rendered "Awaiting release records" forever.
+    // Coverage: at least the 13 publicLaunchProductSlugs have panels
+    // ingested by P1D, so the table is non-empty in production.
+    expect(coaRecords.length).toBeGreaterThan(0);
   });
 
-  it("only allows verified uploaded records when records exist", () => {
+  it("only allows verified records (status='verified' on every entry)", () => {
     for (const r of coaRecords) {
       expect(r.status).toBe("verified");
-      expect(r.testDate).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      // Accept full ISO date OR YYYY-MM fallback (when OCR dropped the day).
+      expect(r.testDate).toMatch(/^\d{4}-\d{2}(-\d{2})?$/);
       expect(r.pdfPath).toMatch(/^\/coa\/[\w-]+-[\w-]+\.pdf$/);
+    }
+  });
+
+  it("uses lab-agnostic public copy on every record (Iron Law 2.45)", () => {
+    for (const r of coaRecords) {
+      expect(r.lab).not.toMatch(/janoshik|wuhanwansheng/i);
+    }
+  });
+
+  it("uses Vialchems-namespaced batch identifiers (Iron Law 2.45)", () => {
+    for (const r of coaRecords) {
+      expect(r.batch).toMatch(/^vc-/);
     }
   });
 

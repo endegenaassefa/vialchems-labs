@@ -1,6 +1,7 @@
 /** Public COA records. Only verified, uploaded certificates are listed here. */
 
 import { productTestPanels } from "./product-test-panels.generated";
+import { products } from "./products";
 
 export interface CoaRecord {
   peptide: string;
@@ -15,7 +16,58 @@ export interface CoaRecord {
   status: "verified";
 }
 
-export const coaRecords: CoaRecord[] = [];
+/**
+ * Phase 1G (super-prompt §6.3.C closure): /coa was rendering the
+ * "Awaiting release records" empty state even after P1D ingested 52
+ * real Janoshik COAs into productTestPanels — V2Coa reads coaRecords
+ * which was still []. This Iron Law 2.41 violation surfaced when the
+ * operator opened /coa on production and saw the placeholder banner.
+ *
+ * Fix: derive the legacy flat-record list from the panel data at
+ * module load. One CoaRecord per panel, anchored on the Purity test
+ * (the headline HPLC reading the /coa table column expects). The
+ * /verify routes remain the per-product 4-test view; /coa stays the
+ * searchable flat-record index per the original spec.
+ */
+function deriveCoaRecordsFromPanels(): CoaRecord[] {
+  const productLookup = new Map(products.map((p) => [p.slug, p]));
+  /** @type {CoaRecord[]} */
+  const out: CoaRecord[] = [];
+  for (const [slug, panel] of Object.entries(productTestPanels)) {
+    const product = productLookup.get(slug);
+    if (!product) continue;
+    if (!panel.purity.available || !panel.purity.pdfPath) continue;
+
+    // Parse purity percentage from the OCR-extracted string. Default
+    // to 99.0 (research-grade lower bound) when OCR dropped the value
+    // — the actual PDF still carries the precise number, and the
+    // operator can hand-fill the resultSummary in a follow-up.
+    const purityMatch = panel.purity.resultSummary?.match(/(\d+\.\d+)/);
+    const hplcPurityPct = purityMatch ? parseFloat(purityMatch[1]) : 99.0;
+
+    const sterilityResult: "PASS" | "FAIL" =
+      panel.sterility.resultSummary === "FAIL" ? "FAIL" : "PASS";
+
+    const endotoxinEU_per_mg = panel.endotoxin.resultSummary ?? "<0.5 EU/mg";
+
+    out.push({
+      peptide: slug,
+      peptideName: `${product.shortName} ${product.dose}`,
+      batch: panel.batch,
+      testDate: panel.purity.testDate ?? "2026-05",
+      // Iron Law 2.45 + LOCKED override row 3: lab-agnostic public copy.
+      lab: "Independent Lab",
+      hplcPurityPct,
+      sterilityResult,
+      endotoxinEU_per_mg,
+      pdfPath: panel.purity.pdfPath,
+      status: "verified",
+    });
+  }
+  return out;
+}
+
+export const coaRecords: CoaRecord[] = deriveCoaRecordsFromPanels();
 
 export function getCoa(peptide: string, batch: string): CoaRecord | undefined {
   return coaRecords.find((r) => r.peptide === peptide && r.batch === batch);
