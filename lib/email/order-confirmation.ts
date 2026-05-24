@@ -52,6 +52,10 @@ function renderText(input: OrderConfirmationInput): string {
     );
   }
   lines.push("");
+  lines.push(
+    `View the full test panel for every item: ${siteConfig.url}/verify`,
+  );
+  lines.push("");
   lines.push(`Reach support: ${siteConfig.email.staff.join(", ")}`);
   return lines.join("\n");
 }

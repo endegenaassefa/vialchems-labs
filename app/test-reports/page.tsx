@@ -121,8 +121,11 @@ export default function TestReportsPage() {
               </div>
             </div>
             <div className="mt-14 flex flex-wrap gap-3">
-              <Link href="/coa" className={buttonClassNames("primary", "lg")}>
-                Browse COAs
+              <Link href="/verify" className={buttonClassNames("primary", "lg")}>
+                Lab reports per product
+              </Link>
+              <Link href="/coa" className={buttonClassNames("outline", "lg")}>
+                Browse all COAs
               </Link>
               <Link href="/about" className={buttonClassNames("outline", "lg")}>
                 About the standard

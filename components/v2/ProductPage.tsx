@@ -4,10 +4,31 @@ import Link from "next/link";
 import { useEffect, useState, type ReactNode } from "react";
 import { useCartStore } from "@/lib/cart-store";
 import { track } from "@/lib/analytics/plausible";
+import { getProductTestPanel } from "@/lib/content/coa";
 import { catalogItems, displayPrice, getCatalogItem, skuCode } from "./data";
 import { Icon } from "./icons";
 import { V2Footer, V2Header } from "./Shell";
 import { ProductVisual } from "./Visuals";
+
+/**
+ * Phase 1F (super-prompt §6.6) — panel-aware status badge for the
+ * COA tab. Replaces the hardcoded "COA PENDING" Iron Law 2.41
+ * violation with three explicit states:
+ *
+ *   - "LAB TESTED" (purity available)  → green/ok badge
+ *   - "TESTING IN PROGRESS" (panel exists, purity not yet released)
+ *   - null  (no panel)  → hide the badge entirely. Per Iron Law 2.42
+ *     a panel-less SKU should not be in the public catalog; defensive
+ *     fallback keeps the surface clean rather than re-introducing the
+ *     "COA PENDING" string.
+ */
+type CoaBadge = { text: string; cls: string } | null;
+function coaBadgeFor(slug: string): CoaBadge {
+  const panel = getProductTestPanel(slug);
+  if (!panel) return null;
+  if (panel.purity.available) return { text: "LAB TESTED", cls: "badge-coa" };
+  return { text: "TESTING IN PROGRESS", cls: "badge-coa" };
+}
 
 export function V2ProductPage({ slug }: { slug: string }) {
   const item = getCatalogItem(slug);
@@ -124,7 +145,12 @@ export function V2ProductPage({ slug }: { slug: string }) {
                   }}
                 >
                   <span className="badge badge-ruo">RESEARCH USE</span>
-                  <span className="badge badge-coa">COA PENDING</span>
+                  {(() => {
+                    const badge = coaBadgeFor(item.slug);
+                    return badge ? (
+                      <span className={`badge ${badge.cls}`}>{badge.text}</span>
+                    ) : null;
+                  })()}
                   {item.restricted && (
                     <span className="badge badge-restricted">
                       RESTRICTED ACCESS
@@ -378,7 +404,14 @@ export function V2ProductPage({ slug }: { slug: string }) {
                       }}
                     >
                       <span className="badge badge-ruo">RESEARCH USE</span>
-                      <span className="badge badge-coa">COA PENDING</span>
+                      {(() => {
+                        const badge = coaBadgeFor(relatedItem.slug);
+                        return badge ? (
+                          <span className={`badge ${badge.cls}`}>
+                            {badge.text}
+                          </span>
+                        ) : null;
+                      })()}
                     </div>
                     <div className="product-media">
                       <ProductVisual item={relatedItem} />
