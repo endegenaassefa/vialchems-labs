@@ -46,10 +46,21 @@ export function V2Coa() {
               }}
             >
               <div>
-                <h1 style={{ fontSize: 42, marginBottom: 8 }}>COA status</h1>
+                <h1 style={{ fontSize: 42, marginBottom: 8 }}>
+                  Certificate of Analysis library
+                </h1>
                 <p style={{ color: "var(--fg-muted)", maxWidth: 640 }}>
-                  Verified Certificate of Analysis records appear here after
-                  laboratory review, PDF upload, and release approval.
+                  Per-batch independent lab reports for every vial. Search by
+                  product, batch, or lab.{" "}
+                  <Link
+                    href="/verify"
+                    style={{
+                      color: "var(--accent)",
+                      textDecoration: "underline",
+                    }}
+                  >
+                    See the full test panel per product →
+                  </Link>
                 </p>
                 <div className="trust-strip">
                   <span className="trust-chip">
@@ -63,6 +74,10 @@ export function V2Coa() {
                   <span className="trust-chip">
                     <span className="badge-dot" />
                     Endotoxin screen
+                  </span>
+                  <span className="trust-chip">
+                    <span className="badge-dot" />
+                    Heavy metals
                   </span>
                 </div>
               </div>
