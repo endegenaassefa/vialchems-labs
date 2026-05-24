@@ -1,7 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState, type ReactNode } from "react";
+import { useEffect, useState } from "react";
 import { useCartStore } from "@/lib/cart-store";
 import { track } from "@/lib/analytics/plausible";
 import { getProductTestPanel } from "@/lib/content/coa";
@@ -32,9 +33,15 @@ function coaBadgeFor(slug: string): CoaBadge {
 
 export function V2ProductPage({ slug }: { slug: string }) {
   const item = getCatalogItem(slug);
+  const panel = getProductTestPanel(slug);
   const addLine = useCartStore((s) => s.addLine);
   const [qty, setQty] = useState(1);
   const [added, setAdded] = useState(false);
+  // Phase 1I (operator feedback 2026-05-24): PDP gets a media toggle so
+  // customers can flip from the product visual to a Purity-COA thumbnail
+  // preview without leaving the page. Default = "product". When panel
+  // exists + purity available, the "COA preview" tab unlocks.
+  const [mediaView, setMediaView] = useState<"product" | "coa">("product");
 
   // D4: product_viewed funnel event. Fires once per PDP mount.
   // track() no-ops when Plausible isn't configured.
@@ -122,12 +129,107 @@ export function V2ProductPage({ slug }: { slug: string }) {
                 className="card v2-product-media-card"
                 style={{ padding: 18, position: "sticky", top: 88 }}
               >
+                {/* Phase 1I — media toggle (Vial / COA preview). The COA
+                    tab only renders when this SKU has a published Purity
+                    panel; otherwise the toggle is hidden so the section
+                    stays clean for custom-order SKUs. */}
+                {panel?.purity.available && panel.purity.thumbPath ? (
+                  <div
+                    role="tablist"
+                    aria-label="Product media view"
+                    style={{
+                      display: "flex",
+                      gap: 4,
+                      marginBottom: 12,
+                      borderBottom: "1px solid var(--line)",
+                    }}
+                  >
+                    {(
+                      [
+                        { key: "product", label: "Vial" },
+                        { key: "coa", label: "COA preview" },
+                      ] as const
+                    ).map((tab) => {
+                      const active = mediaView === tab.key;
+                      return (
+                        <button
+                          key={tab.key}
+                          type="button"
+                          role="tab"
+                          aria-selected={active}
+                          onClick={() => setMediaView(tab.key)}
+                          style={{
+                            background: "transparent",
+                            border: "none",
+                            padding: "8px 12px",
+                            fontFamily: "var(--font-mono)",
+                            fontSize: 11,
+                            textTransform: "uppercase",
+                            letterSpacing: "0.12em",
+                            cursor: "pointer",
+                            color: active ? "var(--text)" : "var(--fg-muted)",
+                            borderBottom: active
+                              ? "2px solid var(--accent)"
+                              : "2px solid transparent",
+                            marginBottom: -1,
+                          }}
+                        >
+                          {tab.label}
+                        </button>
+                      );
+                    })}
+                  </div>
+                ) : null}
                 <div
                   className="product-media v2-product-main-media"
                   style={{ aspectRatio: "1 / 1.12", marginBottom: 0 }}
                 >
-                  <ProductVisual item={item} />
+                  {mediaView === "coa" &&
+                  panel?.purity.available &&
+                  panel.purity.thumbPath ? (
+                    <div
+                      style={{
+                        position: "relative",
+                        width: "100%",
+                        height: "100%",
+                        background: "var(--bg-sunken)",
+                        borderRadius: "var(--r-sm)",
+                        overflow: "hidden",
+                      }}
+                    >
+                      <Image
+                        src={panel.purity.thumbPath}
+                        alt={`${item.shortName} Purity COA preview`}
+                        fill
+                        sizes="(min-width: 1024px) 480px, 90vw"
+                        style={{ objectFit: "contain", objectPosition: "top" }}
+                      />
+                    </div>
+                  ) : (
+                    <ProductVisual item={item} />
+                  )}
                 </div>
+                {mediaView === "coa" && panel?.purity.available ? (
+                  <p
+                    style={{
+                      marginTop: 12,
+                      fontSize: 12,
+                      color: "var(--fg-muted)",
+                      lineHeight: 1.5,
+                    }}
+                  >
+                    Showing Purity (HPLC) report preview.{" "}
+                    <Link
+                      href={`/verify/${item.slug}`}
+                      style={{
+                        color: "var(--accent)",
+                        textDecoration: "underline",
+                      }}
+                    >
+                      See the full 4-test panel →
+                    </Link>
+                  </p>
+                ) : null}
                 <div className="v2-product-media-meta">
                   <span>{skuCode(item.sku)}</span>
                   <span>{item.dose}</span>
@@ -307,28 +409,145 @@ export function V2ProductPage({ slug }: { slug: string }) {
                   </div>
                 </div>
 
-                <div className="v2-product-proof-grid">
-                  <ProductProof
-                    icon={<Icon.doc size={16} strokeWidth={1.5} />}
-                    title="COA gate"
-                    body="Production COA required before shipment."
-                  />
-                  <ProductProof
-                    icon={<Icon.shield size={16} strokeWidth={1.5} />}
-                    title="Access check"
-                    body={accessLabel}
-                  />
-                  <ProductProof
-                    icon={<Icon.check size={16} strokeWidth={1.5} />}
-                    title="Release tests"
-                    body="HPLC purity, sterility, and endotoxin screening."
-                  />
-                  <ProductProof
-                    icon={<Icon.download size={16} strokeWidth={1.5} />}
-                    title="Lot trace"
-                    body="Batch records stay tied to the material code."
-                  />
-                </div>
+                {/* Phase 1I — panel-aware lab-panel summary. Replaces the
+                    previous 4-card "Production COA required before shipment"
+                    proof grid (which was duplicative with the spec table
+                    AND used stale 'COA required' language now that COAs
+                    are published). When LAB TESTED: shows the 4 test
+                    results inline + CTA to /verify/[slug]. When no panel
+                    exists: a single line about custom-order workflow. */}
+                {panel ? (
+                  <div
+                    className="card"
+                    style={{ padding: 18, marginBottom: 18 }}
+                  >
+                    <div
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        alignItems: "baseline",
+                        gap: 16,
+                        marginBottom: 12,
+                        flexWrap: "wrap",
+                      }}
+                    >
+                      <div>
+                        <div className="eyebrow" style={{ marginBottom: 4 }}>
+                          Independent third-party lab panel
+                        </div>
+                        <div
+                          className="mono"
+                          style={{
+                            fontSize: 11,
+                            color: "var(--fg-muted)",
+                          }}
+                        >
+                          Batch {panel.batch}
+                        </div>
+                      </div>
+                      <Link
+                        href={`/verify/${item.slug}`}
+                        style={{
+                          fontSize: 12,
+                          color: "var(--accent)",
+                          textDecoration: "underline",
+                        }}
+                      >
+                        See full test panel →
+                      </Link>
+                    </div>
+                    <div
+                      style={{
+                        display: "grid",
+                        gridTemplateColumns:
+                          "repeat(auto-fit, minmax(140px, 1fr))",
+                        gap: 12,
+                      }}
+                    >
+                      {(
+                        [
+                          { key: "purity", label: "Purity (HPLC)" },
+                          { key: "sterility", label: "Sterility" },
+                          { key: "endotoxin", label: "Endotoxin" },
+                          { key: "heavyMetals", label: "Heavy metals" },
+                        ] as const
+                      ).map((t) => {
+                        const test = panel[t.key];
+                        return (
+                          <div
+                            key={t.key}
+                            style={{
+                              padding: "10px 12px",
+                              border: "1px solid var(--line)",
+                              borderRadius: "var(--r-sm)",
+                              background: "var(--bg-sunken)",
+                            }}
+                          >
+                            <div
+                              className="mono"
+                              style={{
+                                fontSize: 10,
+                                textTransform: "uppercase",
+                                letterSpacing: "0.12em",
+                                color: "var(--fg-muted)",
+                                marginBottom: 4,
+                              }}
+                            >
+                              {t.label}
+                            </div>
+                            <div
+                              className="mono"
+                              style={{
+                                fontSize: 14,
+                                color: test.available
+                                  ? "var(--text)"
+                                  : "var(--fg-muted)",
+                                fontWeight: 500,
+                              }}
+                            >
+                              {test.available
+                                ? (test.resultSummary ?? "Available")
+                                : "Pending"}
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ) : (
+                  <div
+                    className="card"
+                    style={{
+                      padding: 18,
+                      marginBottom: 18,
+                      borderStyle: "dashed",
+                    }}
+                  >
+                    <div className="eyebrow" style={{ marginBottom: 6 }}>
+                      Custom-order item
+                    </div>
+                    <p
+                      style={{
+                        fontSize: 14,
+                        color: "var(--fg-muted)",
+                        lineHeight: 1.55,
+                      }}
+                    >
+                      Not in the public-launch catalog. Lab panel published on
+                      order.{" "}
+                      <Link
+                        href="/contact"
+                        style={{
+                          color: "var(--accent)",
+                          textDecoration: "underline",
+                        }}
+                      >
+                        Contact support
+                      </Link>{" "}
+                      to discuss this material.
+                    </p>
+                  </div>
+                )}
 
                 <div
                   className="card v2-product-spec-card"
@@ -359,13 +578,29 @@ export function V2ProductPage({ slug }: { slug: string }) {
                       <tr>
                         <td>Documentation</td>
                         <td>
-                          Production COA required before shipment · RUO
-                          attestation required
+                          {panel ? (
+                            <>
+                              Independent third-party lab panel ·{" "}
+                              <Link
+                                href={`/verify/${item.slug}`}
+                                style={{
+                                  color: "var(--accent)",
+                                  textDecoration: "underline",
+                                }}
+                              >
+                                Lab Reports
+                              </Link>
+                            </>
+                          ) : (
+                            "Lab panel published on order · RUO attestation required at checkout"
+                          )}
                         </td>
                       </tr>
                       <tr>
                         <td>Release tests</td>
-                        <td>HPLC purity · sterility · endotoxin screening</td>
+                        <td>
+                          HPLC purity · sterility · endotoxin · heavy metals
+                        </td>
                       </tr>
                       <tr>
                         <td>Access</td>
@@ -384,7 +619,7 @@ export function V2ProductPage({ slug }: { slug: string }) {
             <div className="section-hd">
               <div className="hd-l">
                 <div className="eyebrow">Related materials</div>
-                <h2>Same documentation posture.</h2>
+                <h2>More from the catalog.</h2>
               </div>
             </div>
             <div className="catalog-grid">
@@ -457,25 +692,5 @@ export function V2ProductPage({ slug }: { slug: string }) {
       </main>
       <V2Footer />
     </>
-  );
-}
-
-function ProductProof({
-  icon,
-  title,
-  body,
-}: {
-  icon: ReactNode;
-  title: string;
-  body: string;
-}) {
-  return (
-    <div className="v2-product-proof">
-      <div className="v2-product-proof-icon">{icon}</div>
-      <div>
-        <h2>{title}</h2>
-        <p>{body}</p>
-      </div>
-    </div>
   );
 }
