@@ -86,54 +86,95 @@ export function OrdersList() {
 
   useEffect(() => {
     let cancelled = false;
-    async function load() {
-      // Phase 2A4 — browser supabase-js stores session in localStorage
-      // (not cookies). Forward the access token as Authorization: Bearer
-      // so the API can authenticate the request.
-      const supabase = browserSupabase();
-      const headers: Record<string, string> = {};
-      if (supabase) {
-        const { data } = await supabase.auth.getSession();
-        if (data.session?.access_token) {
-          headers["Authorization"] = `Bearer ${data.session.access_token}`;
-        }
-      }
+
+    async function fetchOrders(headers: Record<string, string>) {
       return fetch("/api/account/orders", {
         credentials: "include",
         headers,
       });
     }
-    load()
-      .then(async (res) => {
-        if (cancelled) return;
-        if (res.status === 401) {
-          setState({ kind: "unauthorized" });
-          return;
-        }
-        if (res.status === 503) {
-          setState({ kind: "unavailable" });
-          return;
-        }
-        if (!res.ok) {
-          const body = (await res.json().catch(() => null)) as {
-            message?: string;
-          } | null;
-          setState({
-            kind: "error",
-            message: body?.message ?? `HTTP ${res.status}`,
-          });
-          return;
-        }
-        const body = (await res.json()) as { orders: ApiOrderRow[] };
-        setState({ kind: "loaded", orders: body.orders ?? [] });
-      })
-      .catch((err: unknown) => {
-        if (cancelled) return;
+
+    async function load(token: string | null) {
+      const headers: Record<string, string> = {};
+      if (token) headers["Authorization"] = `Bearer ${token}`;
+      return fetchOrders(headers);
+    }
+
+    // Phase 2A4-v2: wait for Supabase to surface the persisted session
+    // before firing the API call. The earlier version did getSession()
+    // inline on mount, which races against the supabase-js initial
+    // localStorage rehydration — first call sometimes returns null,
+    // sending the request without a Bearer header → 401 → loop bug.
+    // Subscribing to onAuthStateChange + waiting for INITIAL_SESSION
+    // (or any signed-in event) gives us a guaranteed access token.
+    const supabase = browserSupabase();
+    if (!supabase) {
+      // No Supabase configured (stub mode): just fire the request and
+      // let the existing 503 branch render the right message.
+      void load(null).then(handleResponse).catch(handleError);
+      return () => {
+        cancelled = true;
+      };
+    }
+
+    // Try getSession() first (cheap, often has the cached session).
+    void supabase.auth.getSession().then(({ data }) => {
+      if (cancelled) return;
+      if (data.session?.access_token) {
+        void load(data.session.access_token)
+          .then(handleResponse)
+          .catch(handleError);
+      } else {
+        // No session yet — wait for the auth-state event. If nothing
+        // arrives in 2s, fall through to a cookie-only attempt so the
+        // page doesn't hang on "Loading…" indefinitely.
+        const timeout = window.setTimeout(() => {
+          if (!cancelled)
+            void load(null).then(handleResponse).catch(handleError);
+        }, 2000);
+        const sub = supabase.auth.onAuthStateChange((_event, session) => {
+          if (cancelled || !session?.access_token) return;
+          window.clearTimeout(timeout);
+          sub.data.subscription.unsubscribe();
+          void load(session.access_token)
+            .then(handleResponse)
+            .catch(handleError);
+        });
+      }
+    });
+
+    async function handleResponse(res: Response) {
+      if (cancelled) return;
+      if (res.status === 401) {
+        setState({ kind: "unauthorized" });
+        return;
+      }
+      if (res.status === 503) {
+        setState({ kind: "unavailable" });
+        return;
+      }
+      if (!res.ok) {
+        const body = (await res.json().catch(() => null)) as {
+          message?: string;
+        } | null;
         setState({
           kind: "error",
-          message: err instanceof Error ? err.message : "network_error",
+          message: body?.message ?? `HTTP ${res.status}`,
         });
+        return;
+      }
+      const body = (await res.json()) as { orders: ApiOrderRow[] };
+      setState({ kind: "loaded", orders: body.orders ?? [] });
+    }
+
+    function handleError(err: unknown) {
+      if (cancelled) return;
+      setState({
+        kind: "error",
+        message: err instanceof Error ? err.message : "network_error",
       });
+    }
+
     return () => {
       cancelled = true;
     };
