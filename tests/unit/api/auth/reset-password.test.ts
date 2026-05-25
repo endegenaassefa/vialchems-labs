@@ -21,12 +21,33 @@ import { signAccountEmailToken } from "@/lib/auth/account-email-token";
 const TEST_SECRET = "reset-password-test-secret-1234567890";
 
 const updateUserByIdMock = vi.fn();
+
+// customer_profiles lookup: from("customer_profiles").select().eq().maybeSingle()
 const maybeSingleMock = vi.fn();
 const eqLookupMock = vi.fn(() => ({ maybeSingle: maybeSingleMock }));
 const selectMock = vi.fn(() => ({ eq: eqLookupMock }));
-const eqUpdateMock = vi.fn();
-const updateMock = vi.fn(() => ({ eq: eqUpdateMock }));
-const fromMock = vi.fn(() => ({ select: selectMock, update: updateMock }));
+
+// nonce INSERT: from("consumed_password_reset_nonces").insert(...)
+const insertMock = vi.fn();
+
+// nonce DELETE (rollback path): from("consumed_password_reset_nonces").delete().eq().eq()
+const eqDelete2Mock = vi.fn();
+const eqDelete1Mock = vi.fn(() => ({ eq: eqDelete2Mock }));
+const deleteMock = vi.fn(() => ({ eq: eqDelete1Mock }));
+
+// best-effort nonce-stamp: from("customer_profiles").update().eq()
+const eqStampMock = vi.fn();
+const updateMock = vi.fn(() => ({ eq: eqStampMock }));
+
+const fromMock = vi.fn((table: string) => {
+  if (table === "consumed_password_reset_nonces") {
+    return { insert: insertMock, delete: deleteMock };
+  }
+  if (table === "customer_profiles") {
+    return { select: selectMock, update: updateMock };
+  }
+  throw new Error(`unexpected table: ${table}`);
+});
 let serviceSupabaseReturn: unknown = {
   auth: { admin: { updateUserById: updateUserByIdMock } },
   from: fromMock,
@@ -84,15 +105,17 @@ describe("POST /api/auth/reset-password", () => {
     updateUserByIdMock.mockResolvedValue({ data: { user: { id: "u1" } }, error: null });
     maybeSingleMock.mockReset();
     maybeSingleMock.mockResolvedValue({
-      data: {
-        id: "profile-1",
-        last_used_reset_nonce: null,
-        status: "active",
-      },
+      data: { id: "profile-1", status: "active" },
       error: null,
     });
-    eqUpdateMock.mockReset();
-    eqUpdateMock.mockResolvedValue({ error: null });
+    insertMock.mockReset();
+    insertMock.mockResolvedValue({ error: null });
+    eqDelete2Mock.mockReset();
+    eqDelete2Mock.mockResolvedValue({ error: null });
+    eqDelete1Mock.mockClear();
+    deleteMock.mockClear();
+    eqStampMock.mockReset();
+    eqStampMock.mockResolvedValue({ error: null });
     eqLookupMock.mockClear();
     selectMock.mockClear();
     updateMock.mockClear();
@@ -108,7 +131,7 @@ describe("POST /api/auth/reset-password", () => {
     delete process.env.ACCOUNT_EMAIL_TOKEN_SECRET;
   });
 
-  it("updates password + stamps nonce when token + payload are valid", async () => {
+  it("consumes nonce atomically + updates password + stamps profile when token + payload are valid", async () => {
     const token = freshToken();
     const res = await POST(
       makeRequest({
@@ -120,16 +143,23 @@ describe("POST /api/auth/reset-password", () => {
     expect(res.status).toBe(200);
     const body = await res.json();
     expect(body).toEqual({ ok: true, message: "password_updated" });
+    // Atomic nonce consumption BEFORE auth update
+    expect(insertMock).toHaveBeenCalledWith(
+      expect.objectContaining({
+        auth_user_id: "user-uuid-1",
+        nonce: expect.any(String),
+      }),
+    );
     expect(updateUserByIdMock).toHaveBeenCalledWith("user-uuid-1", {
       password: VALID_PASSWORD,
     });
-    // Nonce stamp
+    // Best-effort forensic stamp
     expect(updateMock).toHaveBeenCalledWith(
       expect.objectContaining({
         last_used_reset_nonce: expect.any(String),
       }),
     );
-    expect(eqUpdateMock).toHaveBeenCalledWith("id", "profile-1");
+    expect(eqStampMock).toHaveBeenCalledWith("id", "profile-1");
   });
 
   it("rejects malformed JSON with 400 invalid_body", async () => {
@@ -203,21 +233,15 @@ describe("POST /api/auth/reset-password", () => {
     expect((await res.json()).code).toBe("invalid_password");
   });
 
-  it("rejects replayed nonce with 400 invalid_or_expired_token (defence in depth)", async () => {
-    const token = freshToken();
-    // Pre-set the lookup to return THIS token's nonce as already-used.
-    // Decoding the nonce requires the same payload — easier to seed
-    // with a known nonce by extracting it after sign.
-    const [encoded] = token.split(".");
-    const payload = JSON.parse(Buffer.from(encoded.replace(/-/g, "+").replace(/_/g, "/"), "base64").toString("utf-8"));
-    maybeSingleMock.mockResolvedValueOnce({
-      data: {
-        id: "profile-1",
-        last_used_reset_nonce: payload.nonce,
-        status: "active",
-      },
-      error: null,
+  it("rejects replayed nonce with 400 invalid_or_expired_token (atomic via unique constraint 23505)", async () => {
+    // Simulate the postgres unique-violation that the INSERT raises
+    // when (auth_user_id, nonce) already exists. The route must
+    // surface invalid_or_expired_token AND must NOT update the
+    // password.
+    insertMock.mockResolvedValueOnce({
+      error: { code: "23505", message: "duplicate key value violates unique constraint" },
     });
+    const token = freshToken();
     const res = await POST(
       makeRequest({
         token,
@@ -228,6 +252,43 @@ describe("POST /api/auth/reset-password", () => {
     expect(res.status).toBe(400);
     expect((await res.json()).code).toBe("invalid_or_expired_token");
     expect(updateUserByIdMock).not.toHaveBeenCalled();
+  });
+
+  it("returns 500 when nonce-insert fails with a non-23505 error (e.g. db down)", async () => {
+    insertMock.mockResolvedValueOnce({
+      error: { code: "08006", message: "connection failure" },
+    });
+    const token = freshToken();
+    const res = await POST(
+      makeRequest({
+        token,
+        password: VALID_PASSWORD,
+        confirm_password: VALID_PASSWORD,
+      }),
+    );
+    expect(res.status).toBe(500);
+    expect((await res.json()).code).toBe("internal_error");
+    expect(captureExceptionMock).toHaveBeenCalled();
+    expect(updateUserByIdMock).not.toHaveBeenCalled();
+  });
+
+  it("rolls back the consumed nonce when the auth password update fails", async () => {
+    updateUserByIdMock.mockResolvedValueOnce({
+      data: { user: null },
+      error: { message: "auth_500" },
+    });
+    const token = freshToken();
+    const res = await POST(
+      makeRequest({
+        token,
+        password: VALID_PASSWORD,
+        confirm_password: VALID_PASSWORD,
+      }),
+    );
+    expect(res.status).toBe(500);
+    expect(deleteMock).toHaveBeenCalled();
+    expect(eqDelete1Mock).toHaveBeenCalledWith("auth_user_id", "user-uuid-1");
+    expect(eqDelete2Mock).toHaveBeenCalledWith("nonce", expect.any(String));
   });
 
   it("rejects suspended account with 400 invalid_or_expired_token (don't differentiate)", async () => {
@@ -297,8 +358,8 @@ describe("POST /api/auth/reset-password", () => {
     expect(captureExceptionMock).toHaveBeenCalled();
   });
 
-  it("returns 200 success even if nonce-stamp errors (auth password is already updated; non-fatal)", async () => {
-    eqUpdateMock.mockResolvedValueOnce({ error: { message: "stamp_err" } });
+  it("returns 200 success even if forensic stamp errors (auth password is already updated; non-fatal)", async () => {
+    eqStampMock.mockResolvedValueOnce({ error: { message: "stamp_err" } });
     const token = freshToken();
     const res = await POST(
       makeRequest({

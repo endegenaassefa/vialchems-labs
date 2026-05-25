@@ -135,11 +135,13 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Anti-replay: check that this nonce hasn't been used. Reject if it
-    // matches the last-used nonce on the profile.
+    // First check that the profile exists + isn't suspended. This is
+    // a cheap reject before we touch anything else; it does NOT
+    // create a TOCTOU window because the actual single-use guarantee
+    // comes from the unique-constraint INSERT below.
     const lookup = await supabase
       .from("customer_profiles")
-      .select("id, last_used_reset_nonce, status")
+      .select("id, status")
       .eq("auth_user_id", payload.userId)
       .maybeSingle();
     if (lookup.error) {
@@ -159,20 +161,41 @@ export async function POST(request: NextRequest) {
         code: "invalid_or_expired_token",
       });
     }
-    if (
-      lookup.data.last_used_reset_nonce &&
-      lookup.data.last_used_reset_nonce === payload.nonce
-    ) {
+    if (lookup.data.status === "suspended") {
       return errorResponse(400, {
         ok: false,
         code: "invalid_or_expired_token",
       });
     }
-    if (lookup.data.status === "suspended") {
-      // Suspended accounts can't reset.
-      return errorResponse(400, {
+
+    // Codex P2 (2026-05-25): atomic nonce consumption via unique
+    // INSERT. This is the FIRST mutation in the reset flow. If a
+    // duplicate (same auth_user_id + nonce) is already on file,
+    // postgres returns 23505 and we abort BEFORE touching the
+    // password — so a concurrent submit or a replay of an earlier
+    // outstanding link both fail-closed.
+    const consume = await supabase
+      .from("consumed_password_reset_nonces")
+      .insert({
+        auth_user_id: payload.userId,
+        nonce: payload.nonce,
+      });
+    if (consume.error) {
+      const code = (consume.error as { code?: string }).code ?? "";
+      if (code === "23505") {
+        // Unique violation = replay. Generic 400 to avoid leaking
+        // "this nonce was already used".
+        return errorResponse(400, {
+          ok: false,
+          code: "invalid_or_expired_token",
+        });
+      }
+      captureException(consume.error, {
+        tags: { route: "auth/reset-password", phase: "nonce_consume" },
+      });
+      return errorResponse(500, {
         ok: false,
-        code: "invalid_or_expired_token",
+        code: "internal_error",
       });
     }
 
@@ -180,6 +203,14 @@ export async function POST(request: NextRequest) {
       password,
     });
     if (updateAuth.error) {
+      // The nonce is already consumed — the customer cannot retry
+      // with the same link. Roll the nonce row back so a fresh
+      // forgot-password request still produces a usable link.
+      await supabase
+        .from("consumed_password_reset_nonces")
+        .delete()
+        .eq("auth_user_id", payload.userId)
+        .eq("nonce", payload.nonce);
       captureException(updateAuth.error, {
         tags: { route: "auth/reset-password", phase: "auth_update" },
       });
@@ -189,16 +220,14 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    // Mark the nonce as used so the same link can't reset a second
-    // time within its 1h validity window.
+    // Best-effort forensic marker (no longer the single-use gate).
     const stamp = await supabase
       .from("customer_profiles")
       .update({ last_used_reset_nonce: payload.nonce })
       .eq("id", String(lookup.data.id));
     if (stamp.error) {
-      // The auth password is already updated; nonce-stamp failure is
-      // non-fatal. Log + return success so the customer isn't told
-      // their reset failed when it actually worked.
+      // Non-fatal: the password update succeeded + the nonce is
+      // already consumed in the dedicated table.
       captureException(stamp.error, {
         tags: { route: "auth/reset-password", phase: "nonce_stamp" },
       });
