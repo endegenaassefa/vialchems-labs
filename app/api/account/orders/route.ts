@@ -13,30 +13,25 @@
  * an empty list.
  */
 import { NextResponse, type NextRequest } from "next/server";
-import { cookies } from "next/headers";
+import { extractAuthenticatedUser } from "@/lib/auth/extract-user";
 import { serviceSupabase } from "@/lib/supabase";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-async function authenticatedEmail(): Promise<{
-  email: string | null;
-  code: "ok" | "no_session" | "supabase_unavailable";
-}> {
-  const supabase = serviceSupabase();
-  if (!supabase) return { email: null, code: "supabase_unavailable" };
-  const cookieStore = await cookies();
-  const token = cookieStore.get("sb-access-token")?.value;
-  if (!token) return { email: null, code: "no_session" };
-  const { data, error } = await supabase.auth.getUser(token);
-  if (error || !data.user?.email) {
-    return { email: null, code: "no_session" };
-  }
-  return { email: data.user.email, code: "ok" };
-}
-
-export async function GET(_request: NextRequest) {
-  const { email, code } = await authenticatedEmail();
+export async function GET(request: NextRequest) {
+  // Phase 2A4 — accept both cookie + Authorization Bearer auth. Browser
+  // supabase-js stores the session in localStorage (not cookies), so the
+  // client must forward the access token as a Bearer header. The cookie
+  // path stays for any server-side caller using @supabase/ssr.
+  const result = await extractAuthenticatedUser(request);
+  const code =
+    result.kind === "ok"
+      ? "ok"
+      : result.kind === "supabase_unavailable"
+        ? "supabase_unavailable"
+        : "no_session";
+  const email = result.kind === "ok" ? result.user.email : null;
   if (code === "supabase_unavailable") {
     return NextResponse.json(
       { ok: false, code: "supabase_unavailable", orders: [] },

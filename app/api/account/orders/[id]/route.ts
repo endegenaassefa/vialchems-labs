@@ -8,14 +8,14 @@
  * session. 503 when Supabase isn't configured.
  */
 import { NextResponse, type NextRequest } from "next/server";
-import { cookies } from "next/headers";
+import { extractAuthenticatedUser } from "@/lib/auth/extract-user";
 import { serviceSupabase } from "@/lib/supabase";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 export async function GET(
-  _request: NextRequest,
+  request: NextRequest,
   { params }: { params: Promise<{ id: string }> },
 ) {
   const { id } = await params;
@@ -26,36 +26,27 @@ export async function GET(
     );
   }
 
-  const supabase = serviceSupabase();
-  if (!supabase) {
+  // Phase 2A4 — same Bearer-or-cookie auth pattern as the list route.
+  const userResult = await extractAuthenticatedUser(request);
+  if (userResult.kind === "supabase_unavailable") {
     return NextResponse.json(
       { ok: false, code: "supabase_unavailable" },
       { status: 503 },
     );
   }
-
-  const cookieStore = await cookies();
-  const token = cookieStore.get("sb-access-token")?.value;
-  if (!token) {
-    return NextResponse.json(
-      { ok: false, code: "unauthorized" },
-      { status: 401 },
-    );
-  }
-  const { data: userData, error: userError } =
-    await supabase.auth.getUser(token);
-  if (userError || !userData.user?.email) {
+  if (userResult.kind !== "ok") {
     return NextResponse.json(
       { ok: false, code: "unauthorized" },
       { status: 401 },
     );
   }
 
+  const supabase = serviceSupabase()!;
   const { data, error } = await supabase
     .from("orders")
     .select("*")
     .eq("display_id", id)
-    .eq("email", userData.user.email)
+    .eq("email", userResult.user.email)
     .maybeSingle();
 
   if (error) {

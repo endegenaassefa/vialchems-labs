@@ -69,6 +69,16 @@ export default function AccountPage() {
     if (typeof window === "undefined") return false;
     return browserSupabase() !== null;
   });
+  // Phase 2A4 — inline recent orders preview (top 3) so the dashboard
+  // shows real activity instead of an empty placeholder card.
+  const [recentOrders, setRecentOrders] = useState<
+    Array<{
+      display_id: string;
+      total_cents: number;
+      status: string;
+      placed_at: string;
+    }>
+  >([]);
 
   useEffect(() => {
     const supabase = browserSupabase();
@@ -87,6 +97,41 @@ export default function AccountPage() {
       sub.data.subscription.unsubscribe();
     };
   }, []);
+
+  // Inline recent-orders fetch (Bearer-authed, gracefully degrades).
+  useEffect(() => {
+    if (!supabaseUser) return;
+    let cancelled = false;
+    async function load() {
+      const supabase = browserSupabase();
+      if (!supabase) return;
+      const { data: sessionData } = await supabase.auth.getSession();
+      const token = sessionData.session?.access_token;
+      if (!token) return;
+      try {
+        const res = await fetch("/api/account/orders", {
+          headers: { Authorization: `Bearer ${token}` },
+        });
+        if (!res.ok || cancelled) return;
+        const body = (await res.json()) as {
+          orders?: Array<{
+            display_id: string;
+            total_cents: number;
+            status: string;
+            placed_at: string;
+          }>;
+        };
+        if (cancelled) return;
+        setRecentOrders((body.orders ?? []).slice(0, 3));
+      } catch {
+        /* graceful no-op */
+      }
+    }
+    void load();
+    return () => {
+      cancelled = true;
+    };
+  }, [supabaseUser]);
 
   function handleLogout() {
     logout();
@@ -122,62 +167,128 @@ export default function AccountPage() {
   // email + recent order + order-history link + sign-out. The legacy
   // dashboard below remains intact for the PBKDF2 codepath.
   if (!user && supabaseUser) {
+    const memberSince = supabaseUser.created_at
+      ? new Date(supabaseUser.created_at).toLocaleDateString(undefined, {
+          year: "numeric",
+          month: "short",
+          day: "numeric",
+        })
+      : null;
     return (
       <>
         <SiteHeader />
         <main id="main" className="flex-1">
           <section className="border-b border-[var(--border)]">
-            <div className="mx-auto max-w-3xl px-6 py-32 md:py-40">
+            <div className="mx-auto max-w-5xl px-6 py-20 md:py-28">
               <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-[var(--accent)] mb-6">
                 A C C O U N T
               </p>
-              <h1 className="text-[clamp(36px,5vw,56px)] font-light leading-[1.05] tracking-tight text-[var(--text)] mb-6">
+              <h1 className="text-[clamp(32px,4.5vw,52px)] font-light leading-[1.08] tracking-tight text-[var(--text)] mb-4">
                 <span className="block">Welcome,</span>
                 <span className="font-serif-italic block text-[var(--accent-soft)]">
                   {supabaseUser.email}.
                 </span>
               </h1>
-              <div className="flex items-center gap-2 flex-wrap mb-8">
+              <div className="flex items-center gap-3 flex-wrap">
                 <Pill variant="accent">Signed in</Pill>
                 <span className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)]">
-                  Magic-link session · Supabase Auth
+                  Magic-link session
+                  {memberSince ? ` · Member since ${memberSince}` : ""}
                 </span>
               </div>
-              <div className="grid gap-4 md:grid-cols-2 mb-8">
-                <Card className="p-5">
-                  <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-2">
-                    Order history
-                  </p>
-                  <p className="text-[14px] text-[var(--text-muted)] mb-3 leading-[1.55]">
-                    View every order placed with this email.
-                  </p>
-                  <Link
-                    href="/account/orders"
-                    className={buttonClassNames("primary", "md")}
-                  >
-                    View orders →
-                  </Link>
-                </Card>
-                <Card className="p-5">
-                  <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-2">
-                    Lab reports
-                  </p>
-                  <p className="text-[14px] text-[var(--text-muted)] mb-3 leading-[1.55]">
-                    Per-product 4-test panel for every catalog SKU.
-                  </p>
-                  <Link
-                    href="/verify"
-                    className={buttonClassNames("outline", "md")}
-                  >
-                    Browse lab reports →
-                  </Link>
-                </Card>
+            </div>
+          </section>
+
+          <section className="border-b border-[var(--border)]">
+            <div className="mx-auto max-w-5xl px-6 py-12 grid gap-6 md:grid-cols-3">
+              <Card className="p-5">
+                <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-2">
+                  Order history
+                </p>
+                <p className="text-[20px] font-light text-[var(--text)] mb-3">
+                  {recentOrders.length} recent
+                  {recentOrders.length === 1 ? " order" : " orders"}
+                </p>
+                <Link
+                  href="/account/orders"
+                  className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)]"
+                >
+                  View all orders →
+                </Link>
+              </Card>
+              <Card className="p-5">
+                <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-2">
+                  Lab reports
+                </p>
+                <p className="text-[20px] font-light text-[var(--text)] mb-3">
+                  Per-product test panels
+                </p>
+                <Link
+                  href="/verify"
+                  className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)]"
+                >
+                  Browse lab reports →
+                </Link>
+              </Card>
+              <Card className="p-5">
+                <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-2">
+                  Shop catalog
+                </p>
+                <p className="text-[20px] font-light text-[var(--text)] mb-3">
+                  Restock or expand
+                </p>
+                <Link
+                  href="/shop"
+                  className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--accent)]"
+                >
+                  Browse catalog →
+                </Link>
+              </Card>
+            </div>
+          </section>
+
+          {recentOrders.length > 0 ? (
+            <section className="border-b border-[var(--border)]">
+              <div className="mx-auto max-w-5xl px-6 py-12">
+                <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-4">
+                  Recent orders
+                </p>
+                <ul className="space-y-3">
+                  {recentOrders.map((o) => (
+                    <li key={o.display_id}>
+                      <Link
+                        href={`/account/orders/${o.display_id}`}
+                        className="block"
+                      >
+                        <Card className="p-4 flex flex-wrap items-center gap-4 justify-between hover:border-[var(--accent)] transition-colors">
+                          <div>
+                            <p className="font-mono text-[14px] tabular text-[var(--text)]">
+                              {o.display_id}
+                            </p>
+                            <p className="text-[12px] text-[var(--text-muted)] mt-1">
+                              {new Date(o.placed_at).toLocaleDateString()}
+                            </p>
+                          </div>
+                          <div className="flex items-center gap-3">
+                            <Pill variant="accent">{o.status}</Pill>
+                            <span className="font-mono tabular text-[14px] text-[var(--text)]">
+                              ${(o.total_cents / 100).toFixed(2)}
+                            </span>
+                          </div>
+                        </Card>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              {recentOrder ? (
-                <Card className="p-5 mb-8">
-                  <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-3">
-                    Most recent order
-                  </p>
+            </section>
+          ) : recentOrder ? (
+            <section className="border-b border-[var(--border)]">
+              <div className="mx-auto max-w-5xl px-6 py-12">
+                <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-4">
+                  Most recent order (this device)
+                </p>
+                <Card className="p-5">
                   <Specs
                     items={[
                       { term: "Order ID", value: recentOrder.id },
@@ -190,7 +301,12 @@ export default function AccountPage() {
                     ]}
                   />
                 </Card>
-              ) : null}
+              </div>
+            </section>
+          ) : null}
+
+          <section>
+            <div className="mx-auto max-w-5xl px-6 py-12">
               <Button
                 type="button"
                 variant="outline"
