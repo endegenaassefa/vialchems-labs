@@ -31,13 +31,41 @@ export interface AccountEmailTokenPayload {
   purpose: AccountEmailTokenPurpose;
   userId: string;
   email: string;
-  exp?: number; // epoch seconds; set by signAccountEmailToken from ttlSeconds
-  nonce?: string;
+  /** Epoch seconds. Set internally by signAccountEmailToken; callers
+   * cannot override (would let a route mint arbitrarily long-lived
+   * tokens). */
+  exp: number;
+  /** Issued-at epoch seconds. Used at verify time to bound the
+   * lifetime of a token signed under a rotated-out secret. */
+  iat: number;
+  nonce: string;
 }
 
 export interface SignOptions {
   ttlSeconds: number;
+  /** Test-only clock injection (epoch seconds). Defaults to Date.now() / 1000. */
+  nowSeconds?: number;
 }
+
+export interface VerifyOptions {
+  /** Test-only clock injection (epoch seconds). Defaults to Date.now() / 1000. */
+  nowSeconds?: number;
+}
+
+/**
+ * Per-purpose hard caps used at verify time. A token whose
+ * `exp - iat` exceeds the cap for its purpose is rejected even if
+ * the signature is otherwise valid — this bounds the blast radius
+ * of a leaked PREVIOUS rotation secret (codex HIGH 2026-05-25):
+ * an attacker who learns the old key can mint a fresh token, but
+ * cannot mint one valid for longer than the legitimate flow
+ * allows.
+ */
+export const MAX_TTL_SECONDS: Record<AccountEmailTokenPurpose, number> = {
+  "confirm-email": 24 * 60 * 60, // 24h
+  "password-reset": 60 * 60, // 1h
+  "email-change": 24 * 60 * 60, // 24h
+};
 
 function base64UrlEncode(input: string): string {
   return Buffer.from(input, "utf-8")
@@ -69,22 +97,29 @@ function readPreviousSecret(): string {
 }
 
 export function signAccountEmailToken(
-  payload: Omit<AccountEmailTokenPayload, "exp" | "nonce"> &
-    Partial<Pick<AccountEmailTokenPayload, "exp" | "nonce">>,
+  payload: Pick<AccountEmailTokenPayload, "purpose" | "userId" | "email">,
   opts: SignOptions,
 ): string {
   const secret = readPrimarySecret();
   if (!secret) {
     throw new Error("account_email_token_secret_required");
   }
-  const exp =
-    payload.exp ?? Math.floor(Date.now() / 1000) + opts.ttlSeconds;
-  const nonce = payload.nonce ?? randomBytes(8).toString("hex");
+  // Codex LOW (2026-05-25): `exp` is internal-only. Callers cannot
+  // override `opts.ttlSeconds` to mint longer-lived tokens.
+  const cap = MAX_TTL_SECONDS[payload.purpose];
+  if (!cap) {
+    throw new Error(`unknown_token_purpose:${payload.purpose}`);
+  }
+  const ttl = Math.min(opts.ttlSeconds, cap);
+  const iat = opts.nowSeconds ?? Math.floor(Date.now() / 1000);
+  const exp = iat + ttl;
+  const nonce = randomBytes(8).toString("hex");
   const normalised: AccountEmailTokenPayload = {
     purpose: payload.purpose,
     userId: payload.userId,
     email: payload.email.trim().toLowerCase(),
     exp,
+    iat,
     nonce,
   };
   const json = JSON.stringify(normalised);
@@ -102,6 +137,7 @@ export function signAccountEmailToken(
 export function verifyAccountEmailToken(
   token: string,
   expectedPurpose: AccountEmailTokenPurpose,
+  opts: VerifyOptions = {},
 ): AccountEmailTokenPayload | null {
   if (typeof token !== "string" || token.length === 0 || token.length > 2048) {
     return null;
@@ -151,12 +187,24 @@ export function verifyAccountEmailToken(
     typeof (payload as { purpose?: unknown }).purpose !== "string" ||
     typeof (payload as { userId?: unknown }).userId !== "string" ||
     typeof (payload as { email?: unknown }).email !== "string" ||
-    typeof (payload as { exp?: unknown }).exp !== "number"
+    typeof (payload as { exp?: unknown }).exp !== "number" ||
+    typeof (payload as { iat?: unknown }).iat !== "number" ||
+    typeof (payload as { nonce?: unknown }).nonce !== "string"
   ) {
     return null;
   }
-  const typed = payload as AccountEmailTokenPayload & { exp: number };
+  const typed = payload as AccountEmailTokenPayload;
   if (typed.purpose !== expectedPurpose) return null;
-  if (typed.exp <= Math.floor(Date.now() / 1000)) return null;
+  const cap = MAX_TTL_SECONDS[typed.purpose];
+  if (!cap) return null;
+  const now = opts.nowSeconds ?? Math.floor(Date.now() / 1000);
+  // Reject obvious clock-skew / future-iat fraud (allow 5 minutes slack).
+  if (typed.iat > now + 5 * 60) return null;
+  // Codex HIGH (2026-05-25): per-purpose max-TTL clamp. Bounds the
+  // blast radius of a leaked PREVIOUS rotation secret — even if an
+  // attacker mints a fresh token, they cannot mint one with exp
+  // beyond MAX_TTL_SECONDS from iat.
+  if (typed.exp - typed.iat > cap) return null;
+  if (typed.exp <= now) return null;
   return typed;
 }

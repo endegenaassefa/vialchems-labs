@@ -8,6 +8,7 @@
  * supported via ACCOUNT_EMAIL_TOKEN_SECRET_PREVIOUS.
  */
 import { describe, it, expect, beforeEach, afterEach } from "vitest";
+import { createHmac } from "node:crypto";
 import {
   signAccountEmailToken,
   verifyAccountEmailToken,
@@ -17,7 +18,7 @@ import {
 const TEST_SECRET = "test-secret-for-account-email-token-1234567890";
 const PREV_SECRET = "previous-rotation-secret-9876543210";
 
-const basePayload: Omit<AccountEmailTokenPayload, "exp" | "nonce"> = {
+const basePayload: Pick<AccountEmailTokenPayload, "purpose" | "userId" | "email"> = {
   purpose: "confirm-email",
   userId: "11111111-2222-3333-4444-555555555555",
   email: "researcher@example.com",
@@ -107,8 +108,76 @@ describe("verifyAccountEmailToken", () => {
   });
 
   it("returns null when the token has expired", () => {
-    const token = signAccountEmailToken(basePayload, { ttlSeconds: -1 });
-    expect(verifyAccountEmailToken(token, "confirm-email")).toBeNull();
+    const t0 = 1_700_000_000;
+    const token = signAccountEmailToken(basePayload, {
+      ttlSeconds: 60,
+      nowSeconds: t0,
+    });
+    // Advance clock past expiry.
+    expect(
+      verifyAccountEmailToken(token, "confirm-email", { nowSeconds: t0 + 61 }),
+    ).toBeNull();
+  });
+
+  it("clamps ttlSeconds to the per-purpose MAX_TTL_SECONDS cap on issuance (codex HIGH)", () => {
+    const t0 = 1_700_000_000;
+    // Try to mint a 30-day password-reset (caller-supplied huge ttl);
+    // the sign function must clamp to MAX_TTL_SECONDS['password-reset']
+    // (3600s) so the token expires within the policy bound.
+    const token = signAccountEmailToken(
+      { purpose: "password-reset", userId: basePayload.userId, email: basePayload.email },
+      { ttlSeconds: 30 * 24 * 60 * 60, nowSeconds: t0 },
+    );
+    // Verifies at t0 + 3000s (under cap).
+    expect(
+      verifyAccountEmailToken(token, "password-reset", { nowSeconds: t0 + 3000 }),
+    ).not.toBeNull();
+    // Does NOT verify at t0 + 3700s (past clamped exp).
+    expect(
+      verifyAccountEmailToken(token, "password-reset", { nowSeconds: t0 + 3700 }),
+    ).toBeNull();
+  });
+
+  it("rejects a forged token whose exp - iat exceeds MAX_TTL_SECONDS even if signature is valid (rotation-leak defense)", () => {
+    // Simulate an attacker who has the secret and tries to mint a token
+    // valid for 30 days for password-reset. We bypass signAccountEmailToken
+    // and craft the payload directly.
+    const iat = 1_700_000_000;
+    const exp = iat + 30 * 24 * 60 * 60; // 30 days
+    const forged = {
+      purpose: "password-reset",
+      userId: basePayload.userId,
+      email: basePayload.email.toLowerCase(),
+      iat,
+      exp,
+      nonce: "deadbeefdeadbeef",
+    };
+    const encoded = Buffer.from(JSON.stringify(forged), "utf-8")
+      .toString("base64")
+      .replaceAll("+", "-")
+      .replaceAll("/", "_")
+      .replaceAll("=", "");
+    const sig = createHmac("sha256", TEST_SECRET).update(encoded).digest("hex");
+    const token = `${encoded}.${sig}`;
+    expect(
+      verifyAccountEmailToken(token, "password-reset", { nowSeconds: iat + 100 }),
+    ).toBeNull();
+  });
+
+  it("rejects a token whose iat is in the future (clock-skew slack is 5 minutes)", () => {
+    const t0 = 1_700_000_000;
+    const token = signAccountEmailToken(basePayload, {
+      ttlSeconds: 600,
+      nowSeconds: t0,
+    });
+    // Verifier clock is 10 minutes earlier — iat is 10m in the future.
+    expect(
+      verifyAccountEmailToken(token, "confirm-email", { nowSeconds: t0 - 10 * 60 }),
+    ).toBeNull();
+    // Within slack: iat is 4 minutes in the future. Accepted.
+    expect(
+      verifyAccountEmailToken(token, "confirm-email", { nowSeconds: t0 - 4 * 60 }),
+    ).not.toBeNull();
   });
 
   it("returns null when the purpose does not match (cross-purpose replay)", () => {
