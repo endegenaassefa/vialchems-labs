@@ -11,13 +11,14 @@ import { signAccountEmailToken } from "@/lib/auth/account-email-token";
 
 const TEST_SECRET = "confirm-email-test-secret-1234567890";
 
-// Mock the supabase service client. The processConfirmation function
-// calls markEmailConfirmed (auth.admin.updateUserById) +
-// activateProfile (.from(...).update(...).eq(...)), both implemented
-// against the supabase client returned here.
+// Mock the supabase service client. processConfirmation calls
+// markEmailConfirmed (auth.admin.updateUserById) + activateProfile
+// (.from(...).update(...).eq('auth_user_id', ...).eq('status', 'pending_email_verification').select('id')).
 const updateUserByIdMock = vi.fn();
-const eqMock = vi.fn();
-const updateMock = vi.fn(() => ({ eq: eqMock }));
+const selectMock = vi.fn();
+const eqStatusMock = vi.fn(() => ({ select: selectMock }));
+const eqAuthIdMock = vi.fn(() => ({ eq: eqStatusMock }));
+const updateMock = vi.fn(() => ({ eq: eqAuthIdMock }));
 const fromMock = vi.fn(() => ({ update: updateMock }));
 const supabaseStub = {
   auth: { admin: { updateUserById: updateUserByIdMock } },
@@ -60,8 +61,10 @@ describe("processConfirmation", () => {
     delete process.env.ACCOUNT_EMAIL_TOKEN_SECRET_PREVIOUS;
     updateUserByIdMock.mockReset();
     updateUserByIdMock.mockResolvedValue({ error: null, data: { user: { id: "user-uuid-1" } } });
-    eqMock.mockReset();
-    eqMock.mockResolvedValue({ error: null });
+    selectMock.mockReset();
+    selectMock.mockResolvedValue({ error: null, data: [{ id: "profile-1" }] });
+    eqStatusMock.mockClear();
+    eqAuthIdMock.mockClear();
     updateMock.mockClear();
     fromMock.mockClear();
     captureExceptionMock.mockReset();
@@ -113,7 +116,24 @@ describe("processConfirmation", () => {
     expect(updateMock).toHaveBeenCalledWith(
       expect.objectContaining({ status: "active" }),
     );
-    expect(eqMock).toHaveBeenCalledWith("auth_user_id", "user-uuid-1");
+    expect(eqAuthIdMock).toHaveBeenCalledWith("auth_user_id", "user-uuid-1");
+    expect(eqStatusMock).toHaveBeenCalledWith(
+      "status",
+      "pending_email_verification",
+    );
+    expect(selectMock).toHaveBeenCalledWith("id");
+  });
+
+  it("returns ok=false when the profile is not pending (suspended/active already)", async () => {
+    // Codex P2 (2026-05-25): a stale confirmation link arriving for a
+    // suspended account must NOT undo the suspension. The activation
+    // update is gated on status='pending_email_verification', and a
+    // 0-row result throws so the failure card renders.
+    selectMock.mockResolvedValueOnce({ error: null, data: [] });
+    const token = freshToken();
+    const r = await processConfirmation(token);
+    expect(r).toEqual({ ok: false });
+    expect(captureExceptionMock).toHaveBeenCalled();
   });
 
   it("returns ok=true (stub-mode success) when Supabase isn't configured", async () => {
@@ -133,7 +153,10 @@ describe("processConfirmation", () => {
   });
 
   it("returns ok=false (and captures Sentry) when profile update errors", async () => {
-    eqMock.mockResolvedValueOnce({ error: { message: "profile_update_failed" } });
+    selectMock.mockResolvedValueOnce({
+      error: { message: "profile_update_failed" },
+      data: null,
+    });
     const token = freshToken();
     const r = await processConfirmation(token);
     expect(r).toEqual({ ok: false });

@@ -128,11 +128,22 @@ export async function findAccountByEmail(
   email: string,
 ): Promise<ExistingAccountSnapshot> {
   const normalised = email.trim().toLowerCase();
-  // Active / pending profile?
+  // Codex P2 (2026-05-25): PostgREST's `.ilike()` treats `_` (and
+  // `%`) as LIKE wildcards. A registration for `a_b@example.com`
+  // would otherwise match `axb@example.com` and route to the
+  // duplicate-account branch — letting an attacker enumerate which
+  // emails are on file by registering crafted wildcards.
+  //
+  // The migration stores email as the normalised lowercase string
+  // (the registration route lowercases via emailSchema before
+  // insert). So an EXACT `.eq()` on the lowercased value is both
+  // safe and uses the lower(email) unique index. We fall back to a
+  // wildcard-escaped `.ilike()` only as defence in depth for any
+  // stray rows inserted before normalisation existed.
   const profile = await supabase
     .from("customer_profiles")
     .select("id, auth_user_id, status")
-    .ilike("email", normalised)
+    .eq("email", normalised)
     .maybeSingle();
   if (profile.error) {
     captureException(profile.error, {
@@ -155,7 +166,7 @@ export async function findAccountByEmail(
   const archived = await supabase
     .from("archived_accounts")
     .select("id")
-    .ilike("email", normalised)
+    .eq("email", normalised)
     .limit(1)
     .maybeSingle();
   if (archived.error) {
@@ -304,14 +315,30 @@ export async function activateProfile(
   authUserId: string,
 ): Promise<void> {
   const now = new Date().toISOString();
+  // Codex P2 (2026-05-25): gate on status='pending_email_verification'
+  // so a confirmation link arriving for an account the operator
+  // already suspended (manual ban, fraud freeze) doesn't silently
+  // undo the suspension. We also `select` the touched row to know if
+  // the update matched 0 rows — in which case the link is stale and
+  // the caller should surface failure.
   const res = await supabase
     .from("customer_profiles")
     .update({
       status: "active",
       email_confirmed_at: now,
     })
-    .eq("auth_user_id", authUserId);
+    .eq("auth_user_id", authUserId)
+    .eq("status", "pending_email_verification")
+    .select("id");
   if (res.error) throw res.error;
+  // `.select()` returns the updated rows; empty array means the row
+  // either doesn't exist or wasn't in the pending state. Either way
+  // the customer should NOT be told their account just activated —
+  // throw so the caller falls into the failure branch.
+  const rows = Array.isArray(res.data) ? res.data : [];
+  if (rows.length === 0) {
+    throw new Error("profile_not_pending");
+  }
 }
 
 // ---------------------------------------------------------------------------

@@ -84,7 +84,7 @@ export default async function ConfirmEmailPage({
                   Sign in
                 </Link>
                 <Link
-                  href="/login?action=resend"
+                  href="/auth/resend-confirmation"
                   className={buttonClassNames("ghost", "md")}
                 >
                   Resend confirmation
