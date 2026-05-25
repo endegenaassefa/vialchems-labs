@@ -6,9 +6,8 @@
  *
  * The customer enters their email, clicks "Email me a sign-in
  * link", and Supabase Auth sends a magic link that lands at
- * /auth/callback. Replaces the prior PBKDF2 password form; the
- * legacy localStorage path stays in lib/auth-store.ts for any
- * existing accounts that haven't been migrated.
+ * /auth/callback. Magic-link is the only sign-in method; the
+ * legacy PBKDF2 path was removed in the auth-flow redesign.
  *
  * Stub mode: when Supabase Auth isn't configured (REQUIRE_SUPABASE=
  * false), the helper returns supabase_unavailable and the UI shows

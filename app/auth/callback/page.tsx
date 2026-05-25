@@ -34,9 +34,12 @@ import Link from "next/link";
 import { browserSupabase } from "@/lib/supabase";
 
 function safeNext(value: string | null): string {
-  if (!value) return "/account";
-  if (!value.startsWith("/")) return "/account";
-  if (value.startsWith("//")) return "/account";
+  if (!value) return "/account?welcome=1";
+  if (!value.startsWith("/")) return "/account?welcome=1";
+  if (value.startsWith("//")) return "/account?welcome=1";
+  // If the destination is /account exactly, tag it as a fresh sign-in so
+  // the dashboard shows the welcome pill. Don't add it to deep links.
+  if (value === "/account") return "/account?welcome=1";
   return value;
 }
 
