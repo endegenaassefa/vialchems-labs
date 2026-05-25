@@ -51,6 +51,16 @@ const IP_CONFIGS = {
   contact: { requests: 3, windowSeconds: 3600 },
   affiliate: { requests: 3, windowSeconds: 3600 },
   trackOrder: { requests: 10, windowSeconds: 3600 },
+  // Customer-accounts spec §12.10. Generous per-IP caps so a shared
+  // office NAT doesn't lock a real customer out, paired with tighter
+  // per-email caps below to keep credential-stuffing impractical.
+  register: { requests: 5, windowSeconds: 3600 },
+  forgotPassword: { requests: 10, windowSeconds: 3600 },
+  resetPassword: { requests: 10, windowSeconds: 3600 },
+  signIn: { requests: 20, windowSeconds: 3600 },
+  emailChange: { requests: 5, windowSeconds: 3600 },
+  resendConfirmation: { requests: 5, windowSeconds: 3600 },
+  deleteAccount: { requests: 5, windowSeconds: 3600 },
 } as const satisfies Record<string, RateLimitConfig>;
 
 // Per-email limit: 3 attempts / 1 hour across any route bucket where the
@@ -62,6 +72,15 @@ const EMAIL_CONFIGS = {
   contact: { requests: 3, windowSeconds: 3600 },
   affiliate: { requests: 2, windowSeconds: 86400 },
   trackOrder: { requests: 3, windowSeconds: 3600 },
+  // Per-email caps mirror the IP caps but are stricter — the email is
+  // the credential under attack on password-spray / enumeration runs.
+  register: { requests: 2, windowSeconds: 3600 },
+  forgotPassword: { requests: 3, windowSeconds: 3600 },
+  resetPassword: { requests: 5, windowSeconds: 3600 },
+  signIn: { requests: 10, windowSeconds: 3600 },
+  emailChange: { requests: 5, windowSeconds: 3600 },
+  resendConfirmation: { requests: 3, windowSeconds: 3600 },
+  deleteAccount: { requests: 5, windowSeconds: 3600 },
 } as const satisfies Record<string, RateLimitConfig>;
 
 export type RouteKey = keyof typeof IP_CONFIGS;
