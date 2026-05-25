@@ -9,22 +9,26 @@
  *
  * The supabase-js browser client is configured with `detectSessionInUrl:
  * true` (lib/supabase.ts) which auto-parses the URL fragment on
- * instantiation, sets the session, persists it to localStorage, and
- * fires onAuthStateChange. This page just waits for the session to
- * land + navigates to the requested `next` destination.
+ * instantiation, sets the session, and persists it to localStorage.
+ * This page just waits for the session to land + navigates to the
+ * requested `next` destination.
  *
  * Supports BOTH:
  *   - Implicit flow (default): tokens arrive in URL fragment, supabase
  *     auto-handles + this page just reads getSession()
- *   - PKCE flow (if enabled): `?code=...` query param, supabase auto-
- *     handles + this page just reads getSession()
+ *   - PKCE flow (if enabled): `?code=...` query param, this page calls
+ *     exchangeCodeForSession before reading getSession()
  *
  * Errors redirect to /login?error=auth_error (or supabase_unavailable
  * when REQUIRE_SUPABASE=false stub mode).
+ *
+ * react-hooks/set-state-in-effect: this page deliberately does NOT call
+ * setState in the effect body — the only state transitions are the
+ * router.replace() redirects, which unmount the page entirely.
  */
 "use client";
 
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { browserSupabase } from "@/lib/supabase";
@@ -39,34 +43,26 @@ function safeNext(value: string | null): string {
 function CallbackInner() {
   const router = useRouter();
   const params = useSearchParams();
-  const [state, setState] = useState<
-    "idle" | "exchanging" | "success" | "error" | "unavailable"
-  >("idle");
-  const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
   useEffect(() => {
     let cancelled = false;
-    const supabase = browserSupabase();
-    if (!supabase) {
-      setState("unavailable");
-      router.replace("/login?error=supabase_unavailable");
-      return;
-    }
-    setState("exchanging");
 
     async function run() {
+      const supabase = browserSupabase();
+      if (!supabase) {
+        router.replace("/login?error=supabase_unavailable");
+        return;
+      }
+
       // With detectSessionInUrl=true (lib/supabase.ts), supabase-js auto-
-      // parses tokens from the URL fragment on first read. We give it a
-      // tick to settle, then check getSession(). For PKCE flow ?code=...
-      // we exchange explicitly; otherwise getSession() should already
-      // carry the implicit-flow session.
+      // parses tokens from the URL fragment on first read. For PKCE flow
+      // ?code=... we exchange explicitly; otherwise getSession() carries
+      // the implicit-flow session.
       const code = params.get("code");
-      if (code && supabase) {
+      if (code) {
         const exchanged = await supabase.auth.exchangeCodeForSession(code);
         if (cancelled) return;
         if (exchanged.error) {
-          setErrorMessage(exchanged.error.message);
-          setState("error");
           router.replace(
             `/login?error=auth_error&message=${encodeURIComponent(
               exchanged.error.message,
@@ -76,27 +72,19 @@ function CallbackInner() {
         }
       }
 
-      const { data, error } = supabase
-        ? await supabase.auth.getSession()
-        : { data: { session: null }, error: null };
+      const { data, error } = await supabase.auth.getSession();
       if (cancelled) return;
       if (error) {
-        setErrorMessage(error.message);
-        setState("error");
         router.replace(
           `/login?error=auth_error&message=${encodeURIComponent(error.message)}`,
         );
         return;
       }
       if (!data.session) {
-        // No tokens in URL hash, no code in query — link was incomplete.
-        setState("error");
         router.replace("/login?error=missing_code");
         return;
       }
-      setState("success");
-      const next = safeNext(params.get("next"));
-      router.replace(next);
+      router.replace(safeNext(params.get("next")));
     }
 
     void run();
@@ -133,14 +121,8 @@ function CallbackInner() {
           One moment.
         </h1>
         <p style={{ color: "var(--fg-muted)", lineHeight: 1.55 }}>
-          {state === "unavailable"
-            ? "Magic-link sign-in isn't enabled in this environment. Redirecting…"
-            : state === "error"
-              ? (errorMessage ??
-                "Could not verify the sign-in link. Redirecting back to /login…")
-              : state === "success"
-                ? "Verified. Redirecting to your account…"
-                : "Verifying your sign-in link with Supabase Auth."}
+          Verifying your sign-in link with Supabase Auth. You will be redirected
+          to your account shortly.
         </p>
         <p style={{ marginTop: 24, fontSize: 13 }}>
           <Link href="/login" style={{ color: "var(--accent)" }}>
