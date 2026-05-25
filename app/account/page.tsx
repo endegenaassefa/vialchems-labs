@@ -13,7 +13,8 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import type { User as SupabaseUser } from "@supabase/supabase-js";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Card } from "@/components/ui/Card";
@@ -26,6 +27,8 @@ import {
   useCurrentUser,
 } from "@/lib/auth-store";
 import { qualificationRoleLabels } from "@/lib/customer-qualification";
+import { browserSupabase } from "@/lib/supabase";
+import { signOut as supabaseSignOut } from "@/lib/supabase-auth";
 
 interface RecentOrder {
   id: string;
@@ -50,13 +53,55 @@ export default function AccountPage() {
   const user = useCurrentUser();
   const logout = useAuthStore((s) => s.logout);
   const [recentOrder] = useState<RecentOrder | null>(readRecentOrder);
+  // Phase 2A3 — also recognize Supabase Auth sessions (magic-link sign-in)
+  // alongside the legacy PBKDF2 localStorage user. Without this check, a
+  // user who completes the magic-link flow lands on /account and sees
+  // "No account on this device" because useCurrentUser only reads the
+  // Zustand auth-store. We subscribe to onAuthStateChange so the page
+  // re-renders when the Supabase session lands.
+  const [supabaseUser, setSupabaseUser] = useState<SupabaseUser | null>(null);
+  // Lazy initializer: when Supabase is not configured (stub mode) we're
+  // not loading anything, so default to false. When it IS configured the
+  // effect below kicks off getUser() and sets state on completion. This
+  // avoids the react-hooks/set-state-in-effect violation that would fire
+  // if we always defaulted to true + flipped to false synchronously.
+  const [supabaseLoading, setSupabaseLoading] = useState(() => {
+    if (typeof window === "undefined") return false;
+    return browserSupabase() !== null;
+  });
+
+  useEffect(() => {
+    const supabase = browserSupabase();
+    if (!supabase) return;
+    let cancelled = false;
+    supabase.auth.getUser().then(({ data }) => {
+      if (cancelled) return;
+      setSupabaseUser(data.user ?? null);
+      setSupabaseLoading(false);
+    });
+    const sub = supabase.auth.onAuthStateChange((_event, session) => {
+      setSupabaseUser(session?.user ?? null);
+    });
+    return () => {
+      cancelled = true;
+      sub.data.subscription.unsubscribe();
+    };
+  }, []);
 
   function handleLogout() {
     logout();
+    // Best-effort: also sign out of Supabase Auth if a session is present.
+    void supabaseSignOut();
     router.push("/");
   }
 
-  if (!hydrated) {
+  async function handleSupabaseSignOut() {
+    await supabaseSignOut();
+    setSupabaseUser(null);
+    router.push("/");
+  }
+
+  if (!hydrated || supabaseLoading) {
     return (
       <>
         <SiteHeader />
@@ -65,6 +110,96 @@ export default function AccountPage() {
             <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)]">
               Loading account…
             </p>
+          </section>
+        </main>
+        <SiteFooter />
+      </>
+    );
+  }
+
+  // Phase 2A3 — Supabase-only path. User signed in via magic link but has
+  // no legacy PBKDF2 record. Render a simplified dashboard that surfaces
+  // email + recent order + order-history link + sign-out. The legacy
+  // dashboard below remains intact for the PBKDF2 codepath.
+  if (!user && supabaseUser) {
+    return (
+      <>
+        <SiteHeader />
+        <main id="main" className="flex-1">
+          <section className="border-b border-[var(--border)]">
+            <div className="mx-auto max-w-3xl px-6 py-32 md:py-40">
+              <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-[var(--accent)] mb-6">
+                A C C O U N T
+              </p>
+              <h1 className="text-[clamp(36px,5vw,56px)] font-light leading-[1.05] tracking-tight text-[var(--text)] mb-6">
+                <span className="block">Welcome,</span>
+                <span className="font-serif-italic block text-[var(--accent-soft)]">
+                  {supabaseUser.email}.
+                </span>
+              </h1>
+              <div className="flex items-center gap-2 flex-wrap mb-8">
+                <Pill variant="accent">Signed in</Pill>
+                <span className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-subtle)]">
+                  Magic-link session · Supabase Auth
+                </span>
+              </div>
+              <div className="grid gap-4 md:grid-cols-2 mb-8">
+                <Card className="p-5">
+                  <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-2">
+                    Order history
+                  </p>
+                  <p className="text-[14px] text-[var(--text-muted)] mb-3 leading-[1.55]">
+                    View every order placed with this email.
+                  </p>
+                  <Link
+                    href="/account/orders"
+                    className={buttonClassNames("primary", "md")}
+                  >
+                    View orders →
+                  </Link>
+                </Card>
+                <Card className="p-5">
+                  <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-2">
+                    Lab reports
+                  </p>
+                  <p className="text-[14px] text-[var(--text-muted)] mb-3 leading-[1.55]">
+                    Per-product 4-test panel for every catalog SKU.
+                  </p>
+                  <Link
+                    href="/verify"
+                    className={buttonClassNames("outline", "md")}
+                  >
+                    Browse lab reports →
+                  </Link>
+                </Card>
+              </div>
+              {recentOrder ? (
+                <Card className="p-5 mb-8">
+                  <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[var(--text-muted)] mb-3">
+                    Most recent order
+                  </p>
+                  <Specs
+                    items={[
+                      { term: "Order ID", value: recentOrder.id },
+                      { term: "Placed", value: recentOrder.placedAt },
+                      { term: "Method", value: recentOrder.method },
+                      {
+                        term: "Total",
+                        value: `$${(recentOrder.totalCents / 100).toFixed(2)}`,
+                      },
+                    ]}
+                  />
+                </Card>
+              ) : null}
+              <Button
+                type="button"
+                variant="outline"
+                size="md"
+                onClick={handleSupabaseSignOut}
+              >
+                Sign out
+              </Button>
+            </div>
           </section>
         </main>
         <SiteFooter />
