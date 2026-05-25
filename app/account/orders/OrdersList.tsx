@@ -17,6 +17,7 @@ import { Pill } from "@/components/ui/Pill";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { buttonClassNames } from "@/components/ui/Button";
 import { formatPrice } from "@/lib/content/products";
+import { browserSupabase } from "@/lib/supabase";
 import { useSessionStorageItem } from "@/lib/use-session-storage";
 
 const ORDER_KEY = "vialchemlabs:checkout:order";
@@ -85,7 +86,24 @@ export function OrdersList() {
 
   useEffect(() => {
     let cancelled = false;
-    fetch("/api/account/orders", { credentials: "include" })
+    async function load() {
+      // Phase 2A4 — browser supabase-js stores session in localStorage
+      // (not cookies). Forward the access token as Authorization: Bearer
+      // so the API can authenticate the request.
+      const supabase = browserSupabase();
+      const headers: Record<string, string> = {};
+      if (supabase) {
+        const { data } = await supabase.auth.getSession();
+        if (data.session?.access_token) {
+          headers["Authorization"] = `Bearer ${data.session.access_token}`;
+        }
+      }
+      return fetch("/api/account/orders", {
+        credentials: "include",
+        headers,
+      });
+    }
+    load()
       .then(async (res) => {
         if (cancelled) return;
         if (res.status === 401) {
