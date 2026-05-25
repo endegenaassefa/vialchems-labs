@@ -19,7 +19,27 @@ import { __resetRateLimitForTests } from "@/lib/rate-limit";
 // Mocks
 // ---------------------------------------------------------------------------
 
-const signInWithPasswordMock = vi.fn();
+// Codex P1 (checkpoint 6) fix: delete route uses a throwaway anon
+// client for password re-verification — NOT the cached serviceSupabase().
+// Mock @supabase/supabase-js.createClient at the source so the ephemeral
+// client's signInWithPassword is observable.
+const ephemeralSignInMock = vi.fn();
+const ephemeralSignOutMock = vi.fn(() => Promise.resolve({ error: null }));
+vi.mock("@supabase/supabase-js", async () => {
+  const actual = await vi.importActual<typeof import("@supabase/supabase-js")>(
+    "@supabase/supabase-js",
+  );
+  return {
+    ...actual,
+    createClient: vi.fn(() => ({
+      auth: {
+        signInWithPassword: ephemeralSignInMock,
+        signOut: ephemeralSignOutMock,
+      },
+    })),
+  };
+});
+
 const deleteUserMock = vi.fn();
 
 const insertArchiveMock = vi.fn();
@@ -51,10 +71,7 @@ const fromMock = vi.fn((table: string) => {
 });
 
 let serviceSupabaseReturn: unknown = {
-  auth: {
-    admin: { deleteUser: deleteUserMock },
-    signInWithPassword: signInWithPasswordMock,
-  },
+  auth: { admin: { deleteUser: deleteUserMock } },
   from: fromMock,
 };
 vi.mock("@/lib/supabase", () => ({
@@ -105,16 +122,21 @@ function makeRequest(body: unknown, ip = "203.0.113.80"): import("next/server").
 describe("POST /api/account/delete", () => {
   beforeEach(() => {
     __resetRateLimitForTests();
+    // verifyPasswordWithEphemeralClient reads these env vars before
+    // building the throwaway client.
+    process.env.NEXT_PUBLIC_SUPABASE_URL = "https://stub.supabase.co";
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY = "stub-anon-key";
     extractMock.mockReset();
     extractMock.mockResolvedValue({
       kind: "ok",
       user: { id: "auth-uuid-1", email: "marie@radium.lab" },
     });
-    signInWithPasswordMock.mockReset();
-    signInWithPasswordMock.mockResolvedValue({
+    ephemeralSignInMock.mockReset();
+    ephemeralSignInMock.mockResolvedValue({
       data: { session: { access_token: "fresh" } },
       error: null,
     });
+    ephemeralSignOutMock.mockClear();
     deleteUserMock.mockReset();
     deleteUserMock.mockResolvedValue({ error: null });
     insertArchiveMock.mockReset();
@@ -162,10 +184,7 @@ describe("POST /api/account/delete", () => {
     sendDeletedEmailMock.mockResolvedValue({ ok: true, id: "stub:1" });
     captureExceptionMock.mockReset();
     serviceSupabaseReturn = {
-      auth: {
-        admin: { deleteUser: deleteUserMock },
-        signInWithPassword: signInWithPasswordMock,
-      },
+      auth: { admin: { deleteUser: deleteUserMock } },
       from: fromMock,
     };
   });
@@ -199,7 +218,7 @@ describe("POST /api/account/delete", () => {
   });
 
   it("returns 401 reauth_failed when password is wrong", async () => {
-    signInWithPasswordMock.mockResolvedValueOnce({
+    ephemeralSignInMock.mockResolvedValueOnce({
       data: { session: null },
       error: { message: "Invalid credentials" },
     });

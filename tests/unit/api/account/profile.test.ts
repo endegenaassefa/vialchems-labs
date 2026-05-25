@@ -175,4 +175,18 @@ describe("PATCH /api/account/profile", () => {
     expect(res.status).toBe(400);
     expect((await res.json()).code).toBe("profile_not_editable");
   });
+
+  it("writes phone=null when phone is sent but empty (codex P2 clear-vs-omit fix)", async () => {
+    await PATCH(makePatch({ full_name: "Real Name", phone: "" }));
+    const calls = patchUpdateMock.mock.calls as unknown as Array<Array<unknown>>;
+    const patchArg = calls[0][0] as Record<string, unknown>;
+    expect(patchArg.phone).toBeNull();
+  });
+
+  it("omits phone from the patch when key is absent entirely", async () => {
+    await PATCH(makePatch({ full_name: "Real Name" }));
+    const calls = patchUpdateMock.mock.calls as unknown as Array<Array<unknown>>;
+    const patchArg = calls[0][0] as Record<string, unknown>;
+    expect(Object.prototype.hasOwnProperty.call(patchArg, "phone")).toBe(false);
+  });
 });

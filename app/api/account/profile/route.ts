@@ -120,15 +120,32 @@ export async function PATCH(request: NextRequest) {
   }
   // Per spec §3.5, profileEditSchema strips date_of_birth. Belt-and-
   // suspenders: defensively delete from the patch object.
+  //
+  // Codex P2 (2026-05-25 checkpoint 6): we need to distinguish between
+  // "field omitted" and "field present but empty" so a user who clears
+  // their phone number actually clears the DB column rather than
+  // silently keeping the old value. We inspect the RAW body for which
+  // keys were sent, and pass `null` for the cleared ones.
+  const rawBody = body as Record<string, unknown>;
   const patch: Record<string, unknown> = {};
-  if (parsed.data.full_name !== undefined) patch.full_name = parsed.data.full_name;
-  if (parsed.data.phone !== undefined) patch.phone = parsed.data.phone;
-  if (parsed.data.research_org_type !== undefined)
+  if ("full_name" in rawBody && parsed.data.full_name !== undefined) {
+    patch.full_name = parsed.data.full_name;
+  }
+  if ("phone" in rawBody) {
+    // phoneSchema coerces empty string → undefined; interpret that
+    // as an explicit clear by writing null. A genuine "no change to
+    // phone" request omits the key entirely.
+    patch.phone = parsed.data.phone ?? null;
+  }
+  if ("research_org_type" in rawBody && parsed.data.research_org_type !== undefined) {
     patch.research_org_type = parsed.data.research_org_type;
-  if (parsed.data.research_org_other !== undefined)
-    patch.research_org_other = parsed.data.research_org_other;
-  if (parsed.data.research_focus !== undefined)
+  }
+  if ("research_org_other" in rawBody) {
+    patch.research_org_other = parsed.data.research_org_other ?? null;
+  }
+  if ("research_focus" in rawBody && parsed.data.research_focus !== undefined) {
     patch.research_focus = parsed.data.research_focus;
+  }
 
   if (Object.keys(patch).length === 0) {
     return NextResponse.json(

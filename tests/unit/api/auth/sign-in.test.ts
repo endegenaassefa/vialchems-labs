@@ -1,29 +1,15 @@
 /**
  * Tests for POST /api/auth/sign-in (pre-flight gate).
  *
- * The actual credential check runs on the browser via
- * supabase.auth.signInWithPassword. This endpoint exists for:
- *   - per-IP + per-email rate-limit before the password is even sent
- *   - status check (pending / suspended) so the UI can surface
- *     "confirm your email" instead of the generic invalid-creds reply
- *
- * Anti-enum invariant: missing/unknown emails return
- * { ok: true, status: "none" } — same shape as the active path.
- * Per-email rate-limit fires on whatever email was supplied so the
- * counter still bounds credential-stuffing.
+ * Codex P1 (checkpoint 6) fix: the pre-flight no longer returns
+ * { status: "active" | "pending" | "suspended" | "none" } — that
+ * was a public account-enumeration endpoint. Every success path now
+ * returns the uniform `{ ok: true }` shape. The route only does
+ * rate-limiting + body parsing; status differentiation moved to
+ * post-supabase-signIn handling on the client.
  */
 import { describe, it, expect, beforeEach, afterEach, vi } from "vitest";
 import { __resetRateLimitForTests } from "@/lib/rate-limit";
-
-const maybeSingleMock = vi.fn();
-const eqMock = vi.fn(() => ({ maybeSingle: maybeSingleMock }));
-const selectMock = vi.fn(() => ({ eq: eqMock }));
-const fromMock = vi.fn(() => ({ select: selectMock }));
-let serviceSupabaseReturn: unknown = { from: fromMock };
-vi.mock("@/lib/supabase", () => ({
-  serviceSupabase: () => serviceSupabaseReturn,
-  browserSupabase: () => null,
-}));
 
 const captureExceptionMock = vi.fn();
 vi.mock("@/lib/sentry", async () => {
@@ -51,62 +37,28 @@ function makeRequest(body: unknown, ip = "203.0.113.40"): import("next/server").
   }) as any;
 }
 
-describe("POST /api/auth/sign-in", () => {
+describe("POST /api/auth/sign-in (uniform pre-flight)", () => {
   beforeEach(() => {
     __resetRateLimitForTests();
-    maybeSingleMock.mockReset();
-    maybeSingleMock.mockResolvedValue({ data: null, error: null });
-    eqMock.mockClear();
-    selectMock.mockClear();
-    fromMock.mockClear();
-    serviceSupabaseReturn = { from: fromMock };
     captureExceptionMock.mockReset();
   });
   afterEach(() => __resetRateLimitForTests());
 
-  it("returns status=active when profile is active", async () => {
-    maybeSingleMock.mockResolvedValueOnce({
-      data: { status: "active" },
-      error: null,
-    });
+  it("returns { ok: true } for any valid email + password body — no status differentiation", async () => {
     const res = await POST(
       makeRequest({ email: "marie@radium.lab", password: "anything12345" }),
     );
     expect(res.status).toBe(200);
-    expect(await res.json()).toEqual({ ok: true, status: "active" });
+    const body = await res.json();
+    expect(body).toEqual({ ok: true });
   });
 
-  it("returns status=pending when profile is pending_email_verification", async () => {
-    maybeSingleMock.mockResolvedValueOnce({
-      data: { status: "pending_email_verification" },
-      error: null,
-    });
+  it("returns the SAME uniform body for an unknown email (anti-enumeration invariant)", async () => {
     const res = await POST(
-      makeRequest({ email: "marie@radium.lab", password: "anything12345" }),
+      makeRequest({ email: "ghost-no-account@example.com", password: "x".repeat(12) }),
     );
     expect(res.status).toBe(200);
-    expect(await res.json()).toEqual({ ok: true, status: "pending" });
-  });
-
-  it("returns status=suspended when profile is suspended", async () => {
-    maybeSingleMock.mockResolvedValueOnce({
-      data: { status: "suspended" },
-      error: null,
-    });
-    const res = await POST(
-      makeRequest({ email: "x@example.com", password: "anything12345" }),
-    );
-    expect(res.status).toBe(200);
-    expect(await res.json()).toEqual({ ok: true, status: "suspended" });
-  });
-
-  it("returns status=none when no profile exists (uniform shape)", async () => {
-    maybeSingleMock.mockResolvedValueOnce({ data: null, error: null });
-    const res = await POST(
-      makeRequest({ email: "ghost@example.com", password: "anything12345" }),
-    );
-    expect(res.status).toBe(200);
-    expect(await res.json()).toEqual({ ok: true, status: "none" });
+    expect(await res.json()).toEqual({ ok: true });
   });
 
   it("rejects malformed body with 400 invalid_body", async () => {
@@ -143,28 +95,6 @@ describe("POST /api/auth/sign-in", () => {
     const body = await limited.json();
     expect(body.code).toBe("rate_limited");
     expect(body.retry_after_seconds).toBeGreaterThan(0);
-  });
-
-  it("returns status=active on stub-mode (no supabase) — never blocks the client", async () => {
-    serviceSupabaseReturn = null;
-    const res = await POST(
-      makeRequest({ email: "x@example.com", password: "anything12345" }),
-    );
-    expect(res.status).toBe(200);
-    expect(await res.json()).toEqual({ ok: true, status: "active" });
-  });
-
-  it("returns status=active on lookup error (fail-safe; no enumeration signal)", async () => {
-    maybeSingleMock.mockResolvedValueOnce({
-      data: null,
-      error: { message: "db_down" },
-    });
-    const res = await POST(
-      makeRequest({ email: "x@example.com", password: "anything12345" }),
-    );
-    expect(res.status).toBe(200);
-    expect(await res.json()).toEqual({ ok: true, status: "active" });
-    expect(captureExceptionMock).toHaveBeenCalled();
   });
 
   it("GET returns 405", async () => {

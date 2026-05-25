@@ -27,11 +27,52 @@
  */
 import { NextResponse, type NextRequest } from "next/server";
 import { z } from "zod";
+import { createClient } from "@supabase/supabase-js";
 import { isRateLimited } from "@/lib/rate-limit";
 import { extractAuthenticatedUser } from "@/lib/auth/extract-user";
 import { serviceSupabase } from "@/lib/supabase";
 import { captureException } from "@/lib/sentry";
 import { sendAccountDeletedEmail } from "@/lib/email/account-deleted";
+
+/**
+ * Verify a password against Supabase Auth using a single-use anon
+ * client (never the cached service-role singleton). Returns true on
+ * a successful signInWithPassword. The ephemeral client is GCed at
+ * function exit; no auth state leaks back into the request's
+ * service client.
+ */
+async function verifyPasswordWithEphemeralClient(
+  email: string,
+  password: string,
+): Promise<boolean> {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const anon = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!url || !anon) {
+    // Stub mode — credential check can't run. The route is gated
+    // behind extractAuthenticatedUser which already returns
+    // supabase_unavailable in this branch, so we should never get
+    // here in stub mode. Return false to be safe.
+    return false;
+  }
+  const ephemeral = createClient(url, anon, {
+    auth: {
+      persistSession: false,
+      autoRefreshToken: false,
+      detectSessionInUrl: false,
+    },
+  });
+  const res = await ephemeral.auth.signInWithPassword({ email, password });
+  // Sign out immediately to invalidate the just-minted refresh
+  // token; the access token we leave alone (will expire naturally).
+  if (res.data.session) {
+    try {
+      await ephemeral.auth.signOut();
+    } catch {
+      // Non-fatal — the ephemeral client is GC'd anyway.
+    }
+  }
+  return !res.error && !!res.data.session;
+}
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -136,15 +177,18 @@ export async function POST(request: NextRequest) {
 
   const supabase = serviceSupabase()!;
 
-  // Re-verify the password against the session email by calling
-  // supabase.auth.signInWithPassword. The service-role admin client
-  // still routes credentials through the same auth backend, so a
-  // wrong password is rejected before we touch anything.
-  const verify = await supabase.auth.signInWithPassword({
-    email: auth.user.email,
-    password: parsed.data.password,
-  });
-  if (verify.error || !verify.data.session) {
+  // Codex P1 (2026-05-25 checkpoint 6): re-verify the password on a
+  // DEDICATED throwaway anon client. The cached serviceSupabase()
+  // would otherwise store the customer's session, and subsequent
+  // .from() calls in this same request would run as the customer
+  // (blocked by archived_accounts RLS, breaks the delete flow). The
+  // throwaway also keeps the cached singleton clean for the next
+  // request.
+  const verifyOk = await verifyPasswordWithEphemeralClient(
+    auth.user.email,
+    parsed.data.password,
+  );
+  if (!verifyOk) {
     return NextResponse.json(
       { ok: false, code: "reauth_failed" },
       { status: 401 },

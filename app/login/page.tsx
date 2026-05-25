@@ -42,8 +42,6 @@ import {
   signInWithPassword,
 } from "@/lib/supabase-auth";
 
-type PreflightStatus = "active" | "pending" | "suspended" | "none";
-
 type PasswordState =
   | { kind: "idle" }
   | { kind: "submitting" }
@@ -133,30 +131,26 @@ function LoginPageInner() {
 
   async function preflight(
     targetEmail: string,
-  ): Promise<{ ok: true; status: PreflightStatus } | { ok: false; retryAfterSeconds: number }> {
+  ): Promise<{ ok: true } | { ok: false; retryAfterSeconds: number }> {
     try {
       const res = await fetch("/api/auth/sign-in", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ email: targetEmail, password: "x".repeat(12) }),
       });
-      // Note: the body's password is throwaway — the pre-flight
-      // checks status + rate limit only. The real credential check
-      // is the browser-side signInWithPassword call below.
       const body = (await res.json()) as {
         ok: boolean;
-        status?: PreflightStatus;
         code?: string;
         retry_after_seconds?: number;
       };
       if (body.code === "rate_limited") {
         return { ok: false, retryAfterSeconds: body.retry_after_seconds ?? 60 };
       }
-      return { ok: true, status: body.status ?? "active" };
+      return { ok: true };
     } catch {
       // On preflight network error, fall through and let Supabase
       // surface the real error.
-      return { ok: true, status: "active" };
+      return { ok: true };
     }
   }
 
@@ -171,18 +165,6 @@ function LoginPageInner() {
       setPasswordState({
         kind: "rate_limited",
         retryAfterSeconds: pre.retryAfterSeconds,
-      });
-      return;
-    }
-    if (pre.status === "pending") {
-      setPasswordState({ kind: "pending", email: trimmed });
-      return;
-    }
-    if (pre.status === "suspended") {
-      // Surface as generic invalid credentials — never differentiate.
-      setPasswordState({
-        kind: "error",
-        message: "We couldn't sign you in with those credentials.",
       });
       return;
     }
@@ -204,6 +186,17 @@ function LoginPageInner() {
         kind: "error",
         message: "Sign-in isn't enabled yet on this environment.",
       });
+      return;
+    }
+    // Codex P1 fix (checkpoint 6): the pending-email message now
+    // comes from the Supabase reply, not from a pre-flight DB
+    // lookup that could enumerate accounts. Supabase returns
+    // "Email not confirmed" verbatim for accounts created via
+    // admin.createUser({ email_confirm: false }) when their
+    // email_confirmed_at is null.
+    const msg = result.message ?? "";
+    if (/email\s*not\s*confirmed/i.test(msg) || /confirm.*email/i.test(msg)) {
+      setPasswordState({ kind: "pending", email: trimmed });
       return;
     }
     setPasswordState({

@@ -86,7 +86,10 @@ export default function SecurityPage() {
 
   // Change password state — codex P1 (2026-05-25): require current
   // password so a stolen-session-open-tab attacker can't change a
-  // password silently without the credential.
+  // password silently without the credential. Codex P2 (checkpoint 6):
+  // legacy magic-link customers have NO password to enter — detect
+  // that case and skip the current-password gate (they re-authed via
+  // their magic-link to reach this page in the first place).
   const [currentPw, setCurrentPw] = useState("");
   const [newPw, setNewPw] = useState("");
   const [confirmPw, setConfirmPw] = useState("");
@@ -95,6 +98,17 @@ export default function SecurityPage() {
     () => (newPw.length === 0 ? null : evaluatePasswordStrength(newPw)),
     [newPw],
   );
+  // Heuristic: a user without an `email` identity (or whose
+  // identity has no password provider) signed up via magic-link
+  // and has no password to verify. The Supabase user object
+  // exposes `identities` after a getUser() call.
+  const hasPasswordIdentity = useMemo(() => {
+    // supabase-js types identities as Array<{ provider: string }>
+    // but the structure varies by SDK version; guard against both.
+    const idents = (user as unknown as { identities?: Array<{ provider?: string }> } | null)?.identities;
+    if (!Array.isArray(idents)) return true; // safer default: require current-pw
+    return idents.some((i) => i.provider === "email");
+  }, [user]);
 
   // Codex P2 (2026-05-25): profile edit form. The dashboard Edit
   // affordances all point here, so this is where Name/Phone/Org/Focus
@@ -170,7 +184,7 @@ export default function SecurityPage() {
   async function onChangePassword(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (pwState.kind === "saving") return;
-    if (!currentPw) {
+    if (hasPasswordIdentity && !currentPw) {
       setPwState({ kind: "error", message: "Enter your current password." });
       return;
     }
@@ -195,16 +209,19 @@ export default function SecurityPage() {
       return;
     }
     // Codex P1 (2026-05-25): re-verify the current password before
-    // updating. signInWithPassword refreshes the session as a side
-    // effect when it succeeds; on failure we surface a generic
-    // "current password is wrong" without differentiation.
-    const reauth = await supabase.auth.signInWithPassword({
-      email: user.email,
-      password: currentPw,
-    });
-    if (reauth.error) {
-      setPwState({ kind: "error", message: "Current password is incorrect." });
-      return;
+    // updating IF the customer has one set. Magic-link-only customers
+    // (no password identity) skip this check — they're setting their
+    // first password, and reaching this page already required a
+    // valid Supabase session (their magic-link auth proof).
+    if (hasPasswordIdentity) {
+      const reauth = await supabase.auth.signInWithPassword({
+        email: user.email,
+        password: currentPw,
+      });
+      if (reauth.error) {
+        setPwState({ kind: "error", message: "Current password is incorrect." });
+        return;
+      }
     }
     const { error } = await supabase.auth.updateUser({ password: newPw });
     if (error) {
@@ -223,11 +240,14 @@ export default function SecurityPage() {
     setProfileSaving(true);
     setProfileError(null);
     try {
+      // Codex P2 (checkpoint 6): always send phone (even when blank)
+      // so a clear is persisted. The route distinguishes "key present
+      // but empty" from "key omitted entirely".
       const patch: Record<string, unknown> = {
         full_name: profile.full_name,
-        phone: profile.phone ?? undefined,
+        phone: profile.phone ?? "",
         research_org_type: profile.research_org_type,
-        research_org_other: profile.research_org_other ?? undefined,
+        research_org_other: profile.research_org_other ?? "",
         research_focus: profile.research_focus,
       };
       const res = await fetch("/api/account/profile", {
@@ -471,23 +491,29 @@ export default function SecurityPage() {
             className="flex flex-col gap-4 p-5"
             noValidate
           >
-            <h2 className="text-lg font-medium">Change password</h2>
+            <h2 className="text-lg font-medium">
+              {hasPasswordIdentity ? "Change password" : "Set a password"}
+            </h2>
             <p className="text-sm text-slate-600">
-              Enter your current password, then choose a strong new one.
+              {hasPasswordIdentity
+                ? "Enter your current password, then choose a strong new one."
+                : "Your account uses magic-link sign-in. Add a password as a faster way to sign in next time."}
             </p>
-            <div className="flex flex-col gap-1">
-              <FieldLabel htmlFor="sec-current" required>
-                Current password
-              </FieldLabel>
-              <Input
-                id="sec-current"
-                type="password"
-                autoComplete="current-password"
-                required
-                value={currentPw}
-                onChange={(e) => setCurrentPw(e.target.value)}
-              />
-            </div>
+            {hasPasswordIdentity && (
+              <div className="flex flex-col gap-1">
+                <FieldLabel htmlFor="sec-current" required>
+                  Current password
+                </FieldLabel>
+                <Input
+                  id="sec-current"
+                  type="password"
+                  autoComplete="current-password"
+                  required
+                  value={currentPw}
+                  onChange={(e) => setCurrentPw(e.target.value)}
+                />
+              </div>
+            )}
             <div className="flex flex-col gap-1">
               <FieldLabel htmlFor="sec-new" required>
                 New password
@@ -541,7 +567,11 @@ export default function SecurityPage() {
               <Pill variant="electric">Password updated</Pill>
             )}
             <Button type="submit" variant="primary" disabled={pwState.kind === "saving"}>
-              {pwState.kind === "saving" ? "Saving..." : "Update password"}
+              {pwState.kind === "saving"
+                ? "Saving..."
+                : hasPasswordIdentity
+                  ? "Update password"
+                  : "Set password"}
             </Button>
           </form>
         </Card>
