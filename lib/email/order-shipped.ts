@@ -9,6 +9,7 @@
  * time. Stays stub-safe when REQUIRE_RESEND=false.
  */
 import { sendEmail, type SendEmailResult } from "@/lib/email/resend";
+import { buildOrderViewUrl } from "@/lib/auth/order-token";
 import { siteConfig } from "@/lib/content/site";
 
 export interface OrderShippedInput {
@@ -17,6 +18,14 @@ export interface OrderShippedInput {
   carrier: string;
   trackingNumber: string;
   trackingUrl?: string;
+}
+
+function safeBuildOrderViewUrl(displayId: string, email: string): string | null {
+  try {
+    return buildOrderViewUrl(siteConfig.url, displayId, email);
+  } catch {
+    return null;
+  }
 }
 
 function defaultTrackingUrl(carrier: string, trackingNumber: string): string {
@@ -40,17 +49,23 @@ function renderText(input: OrderShippedInput): string {
   const url =
     input.trackingUrl ??
     defaultTrackingUrl(input.carrier, input.trackingNumber);
-  return [
+  const viewUrl = safeBuildOrderViewUrl(input.displayId, input.customerEmail);
+  const lines = [
     `Your ${siteConfig.name} order ${input.displayId} has shipped.`,
     "",
     `Carrier: ${input.carrier}`,
     `Tracking: ${input.trackingNumber}`,
-    `Track it here: ${url}`,
-    "",
-    `Lab reports for every product: ${siteConfig.url}/verify`,
-    "",
-    `Reach support: ${siteConfig.email.staff.join(", ")}`,
-  ].join("\n");
+    `Track via carrier: ${url}`,
+  ];
+  if (viewUrl) {
+    lines.push("");
+    lines.push(`View your order: ${viewUrl}`);
+  }
+  lines.push("");
+  lines.push(`Lab reports for every product: ${siteConfig.url}/verify`);
+  lines.push("");
+  lines.push(`Reach support: ${siteConfig.email.staff.join(", ")}`);
+  return lines.join("\n");
 }
 
 export async function sendOrderShipped(
