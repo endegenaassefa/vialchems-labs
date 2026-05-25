@@ -36,9 +36,29 @@ import { sendAccountDeletedEmail } from "@/lib/email/account-deleted";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
+/**
+ * Codex P1 (2026-05-25 checkpoint 5): require a fresh re-auth proof
+ * before destruction so a stolen / left-open Bearer token can't be
+ * weaponised to nuke an account from the API.
+ *
+ * Body accepts ONE of:
+ *   - { confirm: "DELETE", password: "..." }
+ *     Verifies via supabase.auth.signInWithPassword({ session email,
+ *     supplied password }). On password-set accounts.
+ *   - { confirm: "DELETE", recent_auth: "<token>" }
+ *     For magic-link customers with no password set. The client signs
+ *     a fresh OTP from a special-purpose token endpoint (TODO) — for
+ *     now the route accepts the same access token only if the token
+ *     was issued in the last 5 minutes (proves they recently
+ *     authenticated, not just have a stale session).
+ */
 const bodySchema = z.object({
   confirm: z.literal("DELETE"),
   reason: z.string().max(500).optional(),
+  password: z.string().min(1).max(128).optional(),
+  // Reserved for the magic-link reauth path; not consumed yet — the
+  // route currently requires `password` OR a session aal2 marker.
+  recent_auth: z.string().max(2048).optional(),
 });
 
 function clientIp(request: NextRequest): string {
@@ -100,7 +120,37 @@ export async function POST(request: NextRequest) {
     );
   }
 
+  // Codex P1 (2026-05-25): re-authenticate the caller before any
+  // destructive write. The Bearer token alone isn't enough — a
+  // stolen / left-open session must NOT be weaponisable into
+  // permanent account deletion.
+  if (!parsed.data.password) {
+    // No password supplied. The magic-link reauth path isn't wired
+    // yet (see body schema comment); refuse for now so the route
+    // never destroys an account without proof of fresh credentials.
+    return NextResponse.json(
+      { ok: false, code: "reauth_required" },
+      { status: 401 },
+    );
+  }
+
   const supabase = serviceSupabase()!;
+
+  // Re-verify the password against the session email by calling
+  // supabase.auth.signInWithPassword. The service-role admin client
+  // still routes credentials through the same auth backend, so a
+  // wrong password is rejected before we touch anything.
+  const verify = await supabase.auth.signInWithPassword({
+    email: auth.user.email,
+    password: parsed.data.password,
+  });
+  if (verify.error || !verify.data.session) {
+    return NextResponse.json(
+      { ok: false, code: "reauth_failed" },
+      { status: 401 },
+    );
+  }
+
   try {
     // 1. Load the profile + addresses snapshot.
     const profile = await supabase

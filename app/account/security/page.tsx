@@ -33,7 +33,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useMemo, useState, type FormEvent } from "react";
+import { useEffect, useMemo, useState, type FormEvent } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Card } from "@/components/ui/Card";
@@ -44,7 +44,29 @@ import { Input } from "@/components/ui/Input";
 import { browserSupabase } from "@/lib/supabase";
 import { useSupabaseUser } from "@/lib/auth/use-supabase-user";
 import { signOut as supabaseSignOut } from "@/lib/supabase-auth";
-import { evaluatePasswordStrength } from "@/lib/validation/customer";
+import {
+  evaluatePasswordStrength,
+  RESEARCH_ORG_TYPES,
+  type ResearchOrgType,
+} from "@/lib/validation/customer";
+
+const ORG_TYPE_LABELS: Record<ResearchOrgType, string> = {
+  university: "University / academic lab",
+  biotech: "Biotech / pharma company",
+  independent_research: "Independent research organization",
+  cro: "Contract research organization (CRO)",
+  government: "Government / public-sector lab",
+  individual: "Individual researcher",
+  other: "Other",
+};
+
+interface ProfileShape {
+  full_name: string;
+  phone: string | null;
+  research_org_type: string;
+  research_org_other: string | null;
+  research_focus: string;
+}
 
 type PwState =
   | { kind: "idle" }
@@ -62,7 +84,10 @@ export default function SecurityPage() {
   const router = useRouter();
   const { user, session, loading, unavailable } = useSupabaseUser();
 
-  // Change password state
+  // Change password state — codex P1 (2026-05-25): require current
+  // password so a stolen-session-open-tab attacker can't change a
+  // password silently without the credential.
+  const [currentPw, setCurrentPw] = useState("");
   const [newPw, setNewPw] = useState("");
   const [confirmPw, setConfirmPw] = useState("");
   const [pwState, setPwState] = useState<PwState>({ kind: "idle" });
@@ -71,12 +96,57 @@ export default function SecurityPage() {
     [newPw],
   );
 
+  // Codex P2 (2026-05-25): profile edit form. The dashboard Edit
+  // affordances all point here, so this is where Name/Phone/Org/Focus
+  // actually become editable.
+  const [profile, setProfile] = useState<ProfileShape | null>(null);
+  const [profileLoading, setProfileLoading] = useState(true);
+  const [profileSaving, setProfileSaving] = useState(false);
+  const [profileSavedAt, setProfileSavedAt] = useState<number | null>(null);
+  const [profileError, setProfileError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (loading || !user || !session?.access_token) return;
+    let cancelled = false;
+    async function load() {
+      try {
+        const res = await fetch("/api/account/profile", {
+          headers: { Authorization: `Bearer ${session!.access_token}` },
+        });
+        if (!res.ok) {
+          if (!cancelled) setProfileLoading(false);
+          return;
+        }
+        const body = (await res.json()) as {
+          ok: boolean;
+          profile?: ProfileShape | null;
+          needs_completion?: boolean;
+        };
+        if (cancelled) return;
+        if (body.needs_completion) {
+          router.replace("/account/complete-profile");
+          return;
+        }
+        setProfile(body.profile ?? null);
+      } catch {
+        // silent
+      } finally {
+        if (!cancelled) setProfileLoading(false);
+      }
+    }
+    void load();
+    return () => {
+      cancelled = true;
+    };
+  }, [loading, user, session, router]);
+
   // Sign out everywhere
   const [signingOutAll, setSigningOutAll] = useState(false);
 
   // Delete account
   const [deleteState, setDeleteState] = useState<DeleteState>({ kind: "closed" });
   const [deleteConfirm, setDeleteConfirm] = useState("");
+  const [deletePassword, setDeletePassword] = useState("");
 
   if (unavailable || (!loading && !user)) {
     if (typeof window !== "undefined" && !loading && !user) {
@@ -100,6 +170,10 @@ export default function SecurityPage() {
   async function onChangePassword(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (pwState.kind === "saving") return;
+    if (!currentPw) {
+      setPwState({ kind: "error", message: "Enter your current password." });
+      return;
+    }
     if (newPw !== confirmPw) {
       setPwState({ kind: "error", message: "Passwords do not match." });
       return;
@@ -113,11 +187,23 @@ export default function SecurityPage() {
     }
     setPwState({ kind: "saving" });
     const supabase = browserSupabase();
-    if (!supabase) {
+    if (!supabase || !user?.email) {
       setPwState({
         kind: "error",
         message: "Sign-in isn't enabled yet on this environment.",
       });
+      return;
+    }
+    // Codex P1 (2026-05-25): re-verify the current password before
+    // updating. signInWithPassword refreshes the session as a side
+    // effect when it succeeds; on failure we surface a generic
+    // "current password is wrong" without differentiation.
+    const reauth = await supabase.auth.signInWithPassword({
+      email: user.email,
+      password: currentPw,
+    });
+    if (reauth.error) {
+      setPwState({ kind: "error", message: "Current password is incorrect." });
       return;
     }
     const { error } = await supabase.auth.updateUser({ password: newPw });
@@ -126,8 +212,47 @@ export default function SecurityPage() {
       return;
     }
     setPwState({ kind: "saved" });
+    setCurrentPw("");
     setNewPw("");
     setConfirmPw("");
+  }
+
+  async function onSaveProfile(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    if (profileSaving || !profile) return;
+    setProfileSaving(true);
+    setProfileError(null);
+    try {
+      const patch: Record<string, unknown> = {
+        full_name: profile.full_name,
+        phone: profile.phone ?? undefined,
+        research_org_type: profile.research_org_type,
+        research_org_other: profile.research_org_other ?? undefined,
+        research_focus: profile.research_focus,
+      };
+      const res = await fetch("/api/account/profile", {
+        method: "PATCH",
+        headers: {
+          "content-type": "application/json",
+          Authorization: `Bearer ${session!.access_token}`,
+        },
+        body: JSON.stringify(patch),
+      });
+      if (!res.ok) {
+        const body = (await res.json()) as { code?: string };
+        setProfileError(
+          body.code === "invalid_body"
+            ? "Some fields are invalid. Check the highlighted entries."
+            : "Could not save your profile. Try again.",
+        );
+        return;
+      }
+      setProfileSavedAt(Date.now());
+    } catch {
+      setProfileError("Network error. Please try again.");
+    } finally {
+      setProfileSaving(false);
+    }
   }
 
   async function onSignOutEverywhere() {
@@ -151,6 +276,14 @@ export default function SecurityPage() {
       });
       return;
     }
+    if (!deletePassword) {
+      setDeleteState({
+        kind: "error",
+        message:
+          "Enter your current password — we re-verify before deleting.",
+      });
+      return;
+    }
     setDeleteState({ kind: "deleting" });
     try {
       const res = await fetch("/api/account/delete", {
@@ -159,17 +292,18 @@ export default function SecurityPage() {
           "content-type": "application/json",
           Authorization: `Bearer ${session!.access_token}`,
         },
-        body: JSON.stringify({ confirm: "DELETE" }),
+        body: JSON.stringify({ confirm: "DELETE", password: deletePassword }),
       });
       if (!res.ok) {
         const body = (await res.json()) as { code?: string };
-        setDeleteState({
-          kind: "error",
-          message:
-            body.code === "rate_limited"
-              ? "Too many delete attempts. Try again later."
-              : "Could not delete your account. Try again or contact support.",
-        });
+        const msg =
+          body.code === "rate_limited"
+            ? "Too many delete attempts. Try again later."
+            : body.code === "reauth_failed" ||
+                body.code === "reauth_required"
+              ? "Password is incorrect — re-verify and try again."
+              : "Could not delete your account. Try again or contact support.";
+        setDeleteState({ kind: "error", message: msg });
         return;
       }
       // Success — sign out + redirect to home.
@@ -201,6 +335,135 @@ export default function SecurityPage() {
           ← Back to dashboard
         </Link>
 
+        {/* Profile edit (codex P2 fix) */}
+        <Card>
+          {profileLoading ? (
+            <p className="p-6 text-sm text-slate-500">Loading profile...</p>
+          ) : !profile ? (
+            <p className="p-6 text-sm text-slate-500">
+              No profile to edit yet.{" "}
+              <Link
+                href="/account/complete-profile"
+                className="underline underline-offset-2"
+              >
+                Complete your profile
+              </Link>
+              .
+            </p>
+          ) : (
+            <form
+              onSubmit={onSaveProfile}
+              className="flex flex-col gap-4 p-5"
+              noValidate
+            >
+              <h2 className="text-lg font-medium">Profile</h2>
+              <div className="flex flex-col gap-1">
+                <FieldLabel htmlFor="prof-name" required>
+                  Full legal name
+                </FieldLabel>
+                <Input
+                  id="prof-name"
+                  required
+                  value={profile.full_name}
+                  onChange={(e) =>
+                    setProfile({ ...profile, full_name: e.target.value })
+                  }
+                />
+              </div>
+              <div className="flex flex-col gap-1">
+                <FieldLabel htmlFor="prof-phone">Phone (optional)</FieldLabel>
+                <Input
+                  id="prof-phone"
+                  type="tel"
+                  value={profile.phone ?? ""}
+                  onChange={(e) =>
+                    setProfile({ ...profile, phone: e.target.value })
+                  }
+                />
+              </div>
+              <div className="flex flex-col gap-1">
+                <FieldLabel htmlFor="prof-org_type" required>
+                  Research organization type
+                </FieldLabel>
+                <select
+                  id="prof-org_type"
+                  required
+                  value={profile.research_org_type}
+                  onChange={(e) =>
+                    setProfile({
+                      ...profile,
+                      research_org_type: e.target.value,
+                    })
+                  }
+                  className="h-10 rounded-md border border-slate-300 bg-white px-3 text-sm"
+                >
+                  {RESEARCH_ORG_TYPES.map((t) => (
+                    <option key={t} value={t}>
+                      {ORG_TYPE_LABELS[t]}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              {profile.research_org_type === "other" && (
+                <div className="flex flex-col gap-1">
+                  <FieldLabel htmlFor="prof-org_other" required>
+                    Describe your organization
+                  </FieldLabel>
+                  <Input
+                    id="prof-org_other"
+                    value={profile.research_org_other ?? ""}
+                    onChange={(e) =>
+                      setProfile({
+                        ...profile,
+                        research_org_other: e.target.value,
+                      })
+                    }
+                  />
+                </div>
+              )}
+              <div className="flex flex-col gap-1">
+                <FieldLabel htmlFor="prof-focus" required>
+                  Research focus
+                </FieldLabel>
+                <textarea
+                  id="prof-focus"
+                  required
+                  minLength={10}
+                  maxLength={500}
+                  rows={3}
+                  value={profile.research_focus}
+                  onChange={(e) =>
+                    setProfile({
+                      ...profile,
+                      research_focus: e.target.value,
+                    })
+                  }
+                  className="rounded-md border border-slate-300 bg-white p-3 text-sm"
+                />
+              </div>
+              {profileError && (
+                <div
+                  role="alert"
+                  className="rounded-md border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-900"
+                >
+                  {profileError}
+                </div>
+              )}
+              {profileSavedAt !== null && (
+                <Pill variant="electric">Profile saved</Pill>
+              )}
+              <p className="text-xs text-slate-500">
+                Email is not editable here — email changes go through a
+                separate re-verification flow. Date of birth is immutable;
+                contact support to change.
+              </p>
+              <Button type="submit" variant="primary" disabled={profileSaving}>
+                {profileSaving ? "Saving..." : "Save profile"}
+              </Button>
+            </form>
+          )}
+        </Card>
+
         {/* Change password */}
         <Card>
           <form
@@ -210,9 +473,21 @@ export default function SecurityPage() {
           >
             <h2 className="text-lg font-medium">Change password</h2>
             <p className="text-sm text-slate-600">
-              You&rsquo;re already signed in, so we don&rsquo;t require your
-              current password here. Choose a strong new password.
+              Enter your current password, then choose a strong new one.
             </p>
+            <div className="flex flex-col gap-1">
+              <FieldLabel htmlFor="sec-current" required>
+                Current password
+              </FieldLabel>
+              <Input
+                id="sec-current"
+                type="password"
+                autoComplete="current-password"
+                required
+                value={currentPw}
+                onChange={(e) => setCurrentPw(e.target.value)}
+              />
+            </div>
             <div className="flex flex-col gap-1">
               <FieldLabel htmlFor="sec-new" required>
                 New password
@@ -310,8 +585,8 @@ export default function SecurityPage() {
             ) : (
               <div className="flex flex-col gap-3 rounded-md border border-red-200 bg-red-50 p-4">
                 <p className="text-sm text-red-900">
-                  This is permanent. Type <strong>DELETE</strong> below to
-                  confirm.
+                  This is permanent. Type <strong>DELETE</strong> and re-enter
+                  your password to confirm.
                 </p>
                 <Input
                   type="text"
@@ -319,6 +594,14 @@ export default function SecurityPage() {
                   onChange={(e) => setDeleteConfirm(e.target.value)}
                   placeholder="DELETE"
                   aria-label="Type DELETE to confirm"
+                />
+                <Input
+                  type="password"
+                  autoComplete="current-password"
+                  value={deletePassword}
+                  onChange={(e) => setDeletePassword(e.target.value)}
+                  placeholder="Your current password"
+                  aria-label="Re-enter your current password"
                 />
                 {deleteState.kind === "error" && (
                   <p className="text-sm text-red-900">{deleteState.message}</p>
