@@ -2,19 +2,250 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useCartHydrated, useCartStore } from "@/lib/cart-store";
+import { useSupabaseUser } from "@/lib/auth/use-supabase-user";
+import { signOut as supabaseSignOut } from "@/lib/supabase-auth";
 import { Icon } from "./icons";
 
+// Customer-accounts spec §3.6 — "My Lab" was vague + duplicated
+// site nav. The new pattern is auth-aware:
+//   - Signed-out: nav links + Sign in / Create account buttons
+//   - Signed-in: nav links + email-localpart dropdown → Account /
+//     Orders / Sign out
+//
+// The "Account" nav item is intentionally removed — the dropdown
+// owns it.
 const navItems = [
   { href: "/shop", label: "Shop Peptides", key: "catalog" },
   { href: "/verify", label: "Lab Reports", key: "verify" },
   { href: "/affiliate", label: "Affiliate Program", key: "affiliate" },
-  { href: "/account", label: "My Lab", key: "account" },
 ];
 
 function BrandWordmark() {
   return <span>vialchemlabs</span>;
+}
+
+/**
+ * Auth-aware account chip in the header. Signed-out: stacked
+ * Sign in + Create account buttons. Signed-in: email-localpart
+ * dropdown → Account / Orders / Sign out.
+ */
+function AccountChip({ onNavigate }: { onNavigate: () => void }) {
+  const { user, loading } = useSupabaseUser();
+  const [open, setOpen] = useState(false);
+  const rootRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    const onClickOutside = (e: MouseEvent) => {
+      if (!rootRef.current) return;
+      if (!rootRef.current.contains(e.target as Node)) setOpen(false);
+    };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("mousedown", onClickOutside);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("mousedown", onClickOutside);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [open]);
+
+  async function onSignOut() {
+    setOpen(false);
+    await supabaseSignOut();
+    if (typeof window !== "undefined") {
+      window.location.href = "/";
+    }
+  }
+
+  if (loading) {
+    // SSR-safe placeholder — render the user icon while we resolve.
+    return (
+      <span
+        className="icon-btn v2-nav-account"
+        aria-label="Account loading"
+        title="Account"
+      >
+        <Icon.user size={14} strokeWidth={1.5} />
+      </span>
+    );
+  }
+
+  if (!user) {
+    return (
+      <span
+        style={{ display: "inline-flex", alignItems: "center", gap: 8 }}
+      >
+        <Link
+          href="/login"
+          className="v2-nav-signin"
+          style={{
+            fontSize: 13,
+            padding: "6px 10px",
+            border: "1px solid var(--border)",
+            borderRadius: 8,
+            color: "var(--fg)",
+            textDecoration: "none",
+            whiteSpace: "nowrap",
+          }}
+          onClick={onNavigate}
+        >
+          Sign in
+        </Link>
+        <Link
+          href="/register"
+          className="v2-nav-register"
+          style={{
+            fontSize: 13,
+            padding: "6px 10px",
+            background: "var(--accent)",
+            color: "#ffffff",
+            borderRadius: 8,
+            textDecoration: "none",
+            whiteSpace: "nowrap",
+          }}
+          onClick={onNavigate}
+        >
+          Create account
+        </Link>
+      </span>
+    );
+  }
+
+  // Signed in — show the email localpart + dropdown.
+  const localpart = (user.email ?? "").split("@")[0] || "Account";
+  return (
+    <div ref={rootRef} style={{ position: "relative" }}>
+      <button
+        type="button"
+        className="v2-nav-account-chip"
+        aria-haspopup="menu"
+        aria-expanded={open}
+        onClick={() => setOpen((v) => !v)}
+        style={{
+          display: "inline-flex",
+          alignItems: "center",
+          gap: 6,
+          fontSize: 13,
+          padding: "6px 10px",
+          border: "1px solid var(--border)",
+          borderRadius: 8,
+          color: "var(--fg)",
+          background: "transparent",
+          cursor: "pointer",
+          maxWidth: 180,
+        }}
+      >
+        <Icon.user size={14} strokeWidth={1.5} />
+        <span
+          style={{
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+            whiteSpace: "nowrap",
+          }}
+        >
+          {localpart}
+        </span>
+        <span aria-hidden="true">▾</span>
+      </button>
+      {open && (
+        <div
+          role="menu"
+          style={{
+            position: "absolute",
+            right: 0,
+            top: "calc(100% + 4px)",
+            minWidth: 200,
+            background: "var(--bg)",
+            border: "1px solid var(--border)",
+            borderRadius: 8,
+            padding: 6,
+            zIndex: 50,
+            boxShadow: "0 4px 16px rgba(0,0,0,0.08)",
+          }}
+        >
+          <Link
+            href="/account"
+            role="menuitem"
+            onClick={() => {
+              setOpen(false);
+              onNavigate();
+            }}
+            style={{
+              display: "block",
+              padding: "8px 10px",
+              color: "var(--fg)",
+              textDecoration: "none",
+              borderRadius: 6,
+              fontSize: 13,
+            }}
+          >
+            Account
+          </Link>
+          <Link
+            href="/account/orders"
+            role="menuitem"
+            onClick={() => {
+              setOpen(false);
+              onNavigate();
+            }}
+            style={{
+              display: "block",
+              padding: "8px 10px",
+              color: "var(--fg)",
+              textDecoration: "none",
+              borderRadius: 6,
+              fontSize: 13,
+            }}
+          >
+            Orders
+          </Link>
+          <Link
+            href="/account/security"
+            role="menuitem"
+            onClick={() => {
+              setOpen(false);
+              onNavigate();
+            }}
+            style={{
+              display: "block",
+              padding: "8px 10px",
+              color: "var(--fg)",
+              textDecoration: "none",
+              borderRadius: 6,
+              fontSize: 13,
+            }}
+          >
+            Settings
+          </Link>
+          <button
+            type="button"
+            role="menuitem"
+            onClick={onSignOut}
+            style={{
+              display: "block",
+              width: "100%",
+              textAlign: "left",
+              padding: "8px 10px",
+              color: "var(--fg)",
+              background: "transparent",
+              border: "none",
+              cursor: "pointer",
+              borderRadius: 6,
+              fontSize: 13,
+              borderTop: "1px solid var(--border)",
+              marginTop: 4,
+            }}
+          >
+            Sign out
+          </button>
+        </div>
+      )}
+    </div>
+  );
 }
 
 export function V2Header() {
@@ -88,15 +319,7 @@ export function V2Header() {
           >
             <Icon.search size={14} strokeWidth={1.5} />
           </Link>
-          <Link
-            className="icon-btn v2-nav-account"
-            href="/account"
-            aria-label="Account"
-            title="Account"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            <Icon.user size={14} strokeWidth={1.5} />
-          </Link>
+          <AccountChip onNavigate={() => setMobileMenuOpen(false)} />
           <Link
             className="icon-btn v2-nav-cart"
             href="/cart"
@@ -189,6 +412,18 @@ export function V2Header() {
                   <Icon.arrow size={14} strokeWidth={1.5} />
                 </Link>
               ))}
+              <Link
+                href="/account"
+                className={
+                  pathname === "/account" || pathname.startsWith("/account/")
+                    ? "active"
+                    : ""
+                }
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                <span>Account</span>
+                <Icon.arrow size={14} strokeWidth={1.5} />
+              </Link>
             </div>
           </div>
         </div>
@@ -228,7 +463,7 @@ export function V2Footer() {
             links={[
               ["/shop", "Peptide Catalog"],
               ["/verify", "Lab Reports"],
-              ["/account", "My Lab"],
+              ["/account", "Account"],
             ]}
           />
           <FooterColumn
