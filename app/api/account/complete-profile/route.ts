@@ -73,7 +73,9 @@ export async function POST(request: NextRequest) {
 
   // The session's email is the source of truth; ignore any
   // tampered email on the body and use the auth session.
-  if (input.email.trim().toLowerCase() !== auth.user.email.trim().toLowerCase()) {
+  if (
+    input.email.trim().toLowerCase() !== auth.user.email.trim().toLowerCase()
+  ) {
     return NextResponse.json(
       { ok: false, code: "email_mismatch" },
       { status: 400 },
@@ -123,9 +125,12 @@ export async function POST(request: NextRequest) {
       .select("id")
       .single();
     if (profileInsert.error || !profileInsert.data) {
-      captureException(profileInsert.error ?? new Error("profile_insert_failed"), {
-        tags: { route: "account/complete-profile", phase: "insert_profile" },
-      });
+      captureException(
+        profileInsert.error ?? new Error("profile_insert_failed"),
+        {
+          tags: { route: "account/complete-profile", phase: "insert_profile" },
+        },
+      );
       return NextResponse.json(
         { ok: false, code: "internal_error" },
         { status: 500 },

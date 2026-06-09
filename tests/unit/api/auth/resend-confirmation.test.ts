@@ -7,7 +7,8 @@ import { __resetRateLimitForTests } from "@/lib/rate-limit";
 
 const sendAccountConfirmEmailMock = vi.fn();
 vi.mock("@/lib/email/account-email-confirm", () => ({
-  sendAccountConfirmEmail: (...a: unknown[]) => sendAccountConfirmEmailMock(...a),
+  sendAccountConfirmEmail: (...a: unknown[]) =>
+    sendAccountConfirmEmailMock(...a),
 }));
 
 const buildConfirmEmailUrlMock = vi.fn(
@@ -35,9 +36,8 @@ vi.mock("@/lib/supabase", () => ({
 
 const captureExceptionMock = vi.fn();
 vi.mock("@/lib/sentry", async () => {
-  const actual = await vi.importActual<typeof import("@/lib/sentry")>(
-    "@/lib/sentry",
-  );
+  const actual =
+    await vi.importActual<typeof import("@/lib/sentry")>("@/lib/sentry");
   return {
     ...actual,
     captureException: (...a: unknown[]) => captureExceptionMock(...a),
@@ -47,7 +47,10 @@ vi.mock("@/lib/sentry", async () => {
 import { POST, GET } from "@/app/api/auth/resend-confirmation/route";
 import { RESEND_CONFIRM_UNIFORM_MESSAGE } from "@/lib/auth/account-server";
 
-function makeRequest(body: unknown, ip = "203.0.113.50"): import("next/server").NextRequest {
+function makeRequest(
+  body: unknown,
+  ip = "203.0.113.50",
+): import("next/server").NextRequest {
   const headers = new Headers({
     "content-type": "application/json",
     "x-forwarded-for": ip,

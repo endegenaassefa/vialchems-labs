@@ -36,7 +36,9 @@ describe("Guard: anti-enumeration uniform response shape", () => {
     // accidentally lands on the wrong route).
     expect(REGISTER_UNIFORM_MESSAGE).not.toBe(FORGOT_PASSWORD_UNIFORM_MESSAGE);
     expect(REGISTER_UNIFORM_MESSAGE).not.toBe(RESEND_CONFIRM_UNIFORM_MESSAGE);
-    expect(FORGOT_PASSWORD_UNIFORM_MESSAGE).not.toBe(RESEND_CONFIRM_UNIFORM_MESSAGE);
+    expect(FORGOT_PASSWORD_UNIFORM_MESSAGE).not.toBe(
+      RESEND_CONFIRM_UNIFORM_MESSAGE,
+    );
   });
 });
 
@@ -80,9 +82,13 @@ describe("Guard: password-reset nonce consumption is atomic", () => {
 
   beforeEach(() => {
     __resetRateLimitForTests();
-    process.env.ACCOUNT_EMAIL_TOKEN_SECRET = "regression-guard-secret-1234567890";
+    process.env.ACCOUNT_EMAIL_TOKEN_SECRET =
+      "regression-guard-secret-1234567890";
     updateUserByIdMock.mockReset();
-    updateUserByIdMock.mockResolvedValue({ data: { user: { id: "u1" } }, error: null });
+    updateUserByIdMock.mockResolvedValue({
+      data: { user: { id: "u1" } },
+      error: null,
+    });
     profileMaybeSingleMock.mockReset();
     profileMaybeSingleMock.mockResolvedValue({
       data: { id: "p1", status: "active" },
@@ -105,7 +111,10 @@ describe("Guard: password-reset nonce consumption is atomic", () => {
     );
     const req = new Request("http://test.local/api/auth/reset-password", {
       method: "POST",
-      headers: new Headers({ "content-type": "application/json", "x-forwarded-for": "203.0.113.250" }),
+      headers: new Headers({
+        "content-type": "application/json",
+        "x-forwarded-for": "203.0.113.250",
+      }),
       body: JSON.stringify({
         token,
         password: "Vialchem!Lab42-mainline",
@@ -134,7 +143,10 @@ describe("Guard: password-reset nonce consumption is atomic", () => {
     );
     const req = new Request("http://test.local/api/auth/reset-password", {
       method: "POST",
-      headers: new Headers({ "content-type": "application/json", "x-forwarded-for": "203.0.113.249" }),
+      headers: new Headers({
+        "content-type": "application/json",
+        "x-forwarded-for": "203.0.113.249",
+      }),
       body: JSON.stringify({
         token,
         password: "Vialchem!Lab42-mainline",
@@ -166,7 +178,9 @@ describe("Guard: profile PATCH strips date_of_birth (spec §3.5 immutability)", 
     if (parsed.success) {
       // .strip() removes unknown keys; date_of_birth is not in the
       // schema so it falls out.
-      expect((parsed.data as Record<string, unknown>).date_of_birth).toBeUndefined();
+      expect(
+        (parsed.data as Record<string, unknown>).date_of_birth,
+      ).toBeUndefined();
     }
   });
 });
@@ -184,7 +198,11 @@ describe("Guard: dobSchema age math is calendar-correct (off-by-one)", () => {
     tomorrow.setUTCDate(tomorrow.getUTCDate() + 1);
     // 21 years before tomorrow = still 20 today
     const dob = new Date(
-      Date.UTC(tomorrow.getUTCFullYear() - 21, tomorrow.getUTCMonth(), tomorrow.getUTCDate()),
+      Date.UTC(
+        tomorrow.getUTCFullYear() - 21,
+        tomorrow.getUTCMonth(),
+        tomorrow.getUTCDate(),
+      ),
     );
     const value = `${dob.getUTCFullYear()}-${String(dob.getUTCMonth() + 1).padStart(2, "0")}-${String(dob.getUTCDate()).padStart(2, "0")}`;
     const r = dobSchema.safeParse(value);
@@ -199,9 +217,8 @@ describe("Guard: dobSchema age math is calendar-correct (off-by-one)", () => {
 
 describe("Guard: HMAC token per-purpose TTL cap (codex HIGH fix)", () => {
   it("verifyAccountEmailToken rejects a token whose exp - iat exceeds the per-purpose cap", async () => {
-    const { MAX_TTL_SECONDS, verifyAccountEmailToken } = await import(
-      "@/lib/auth/account-email-token"
-    );
+    const { MAX_TTL_SECONDS, verifyAccountEmailToken } =
+      await import("@/lib/auth/account-email-token");
     process.env.ACCOUNT_EMAIL_TOKEN_SECRET = "regression-cap-secret-1234567890";
 
     // Forge a token by hand with TTL > the cap for password-reset (1h).

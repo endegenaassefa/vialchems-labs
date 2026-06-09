@@ -35,9 +35,8 @@ vi.mock("@/lib/supabase", () => ({
 
 const captureExceptionMock = vi.fn();
 vi.mock("@/lib/sentry", async () => {
-  const actual = await vi.importActual<typeof import("@/lib/sentry")>(
-    "@/lib/sentry",
-  );
+  const actual =
+    await vi.importActual<typeof import("@/lib/sentry")>("@/lib/sentry");
   return {
     ...actual,
     captureException: (...a: unknown[]) => captureExceptionMock(...a),
@@ -47,7 +46,10 @@ vi.mock("@/lib/sentry", async () => {
 import { POST, GET } from "@/app/api/auth/forgot-password/route";
 import { FORGOT_PASSWORD_UNIFORM_MESSAGE } from "@/lib/auth/account-server";
 
-function makeRequest(body: unknown, ip = "203.0.113.20"): import("next/server").NextRequest {
+function makeRequest(
+  body: unknown,
+  ip = "203.0.113.20",
+): import("next/server").NextRequest {
   const headers = new Headers({
     "content-type": "application/json",
     "x-forwarded-for": ip,
@@ -184,6 +186,9 @@ describe("POST /api/auth/forgot-password", () => {
   it("GET returns 405", async () => {
     const res = await GET();
     expect(res.status).toBe(405);
-    expect(await res.json()).toEqual({ ok: true, message: "method_not_allowed" });
+    expect(await res.json()).toEqual({
+      ok: true,
+      message: "method_not_allowed",
+    });
   });
 });

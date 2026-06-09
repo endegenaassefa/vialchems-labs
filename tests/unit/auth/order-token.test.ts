@@ -6,10 +6,7 @@
  */
 import { describe, expect, it, beforeEach, afterEach, vi } from "vitest";
 
-const ENV_KEYS = [
-  "ORDER_TOKEN_SECRET",
-  "ORDER_TOKEN_SECRET_PREVIOUS",
-] as const;
+const ENV_KEYS = ["ORDER_TOKEN_SECRET", "ORDER_TOKEN_SECRET_PREVIOUS"] as const;
 
 function clearEnv() {
   for (const k of ENV_KEYS) delete process.env[k];

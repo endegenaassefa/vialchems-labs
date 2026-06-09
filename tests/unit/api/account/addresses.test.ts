@@ -51,10 +51,12 @@ vi.mock("@/lib/supabase", () => ({
 
 const captureExceptionMock = vi.fn();
 vi.mock("@/lib/sentry", async () => {
-  const actual = await vi.importActual<typeof import("@/lib/sentry")>(
-    "@/lib/sentry",
-  );
-  return { ...actual, captureException: (...a: unknown[]) => captureExceptionMock(...a) };
+  const actual =
+    await vi.importActual<typeof import("@/lib/sentry")>("@/lib/sentry");
+  return {
+    ...actual,
+    captureException: (...a: unknown[]) => captureExceptionMock(...a),
+  };
 });
 
 import { GET, PUT } from "@/app/api/account/addresses/route";
@@ -87,9 +89,15 @@ const VALID_ADDR = {
 describe("GET /api/account/addresses", () => {
   beforeEach(() => {
     extractMock.mockReset();
-    extractMock.mockResolvedValue({ kind: "ok", user: { id: "u1", email: "x@example.com" } });
+    extractMock.mockResolvedValue({
+      kind: "ok",
+      user: { id: "u1", email: "x@example.com" },
+    });
     profileMaybeSingleMock.mockReset();
-    profileMaybeSingleMock.mockResolvedValue({ data: { id: "p1" }, error: null });
+    profileMaybeSingleMock.mockResolvedValue({
+      data: { id: "p1" },
+      error: null,
+    });
     addrEqMock.mockReset();
     addrEqMock.mockResolvedValue({ data: [], error: null });
     upsertMock.mockReset();
@@ -143,9 +151,15 @@ describe("GET /api/account/addresses", () => {
 describe("PUT /api/account/addresses", () => {
   beforeEach(() => {
     extractMock.mockReset();
-    extractMock.mockResolvedValue({ kind: "ok", user: { id: "u1", email: "x@example.com" } });
+    extractMock.mockResolvedValue({
+      kind: "ok",
+      user: { id: "u1", email: "x@example.com" },
+    });
     profileMaybeSingleMock.mockReset();
-    profileMaybeSingleMock.mockResolvedValue({ data: { id: "p1" }, error: null });
+    profileMaybeSingleMock.mockResolvedValue({
+      data: { id: "p1" },
+      error: null,
+    });
     upsertMock.mockReset();
     upsertMock.mockResolvedValue({ error: null });
     deleteEq2Mock.mockReset();

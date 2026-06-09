@@ -105,7 +105,9 @@ export default function SecurityPage() {
   const hasPasswordIdentity = useMemo(() => {
     // supabase-js types identities as Array<{ provider: string }>
     // but the structure varies by SDK version; guard against both.
-    const idents = (user as unknown as { identities?: Array<{ provider?: string }> } | null)?.identities;
+    const idents = (
+      user as unknown as { identities?: Array<{ provider?: string }> } | null
+    )?.identities;
     if (!Array.isArray(idents)) return true; // safer default: require current-pw
     return idents.some((i) => i.provider === "email");
   }, [user]);
@@ -158,7 +160,9 @@ export default function SecurityPage() {
   const [signingOutAll, setSigningOutAll] = useState(false);
 
   // Delete account
-  const [deleteState, setDeleteState] = useState<DeleteState>({ kind: "closed" });
+  const [deleteState, setDeleteState] = useState<DeleteState>({
+    kind: "closed",
+  });
   const [deleteConfirm, setDeleteConfirm] = useState("");
   const [deletePassword, setDeletePassword] = useState("");
 
@@ -219,7 +223,10 @@ export default function SecurityPage() {
         password: currentPw,
       });
       if (reauth.error) {
-        setPwState({ kind: "error", message: "Current password is incorrect." });
+        setPwState({
+          kind: "error",
+          message: "Current password is incorrect.",
+        });
         return;
       }
     }
@@ -299,8 +306,7 @@ export default function SecurityPage() {
     if (!deletePassword) {
       setDeleteState({
         kind: "error",
-        message:
-          "Enter your current password — we re-verify before deleting.",
+        message: "Enter your current password — we re-verify before deleting.",
       });
       return;
     }
@@ -319,8 +325,7 @@ export default function SecurityPage() {
         const msg =
           body.code === "rate_limited"
             ? "Too many delete attempts. Try again later."
-            : body.code === "reauth_failed" ||
-                body.code === "reauth_required"
+            : body.code === "reauth_failed" || body.code === "reauth_required"
               ? "Password is incorrect — re-verify and try again."
               : "Could not delete your account. Try again or contact support.";
         setDeleteState({ kind: "error", message: msg });
@@ -473,9 +478,9 @@ export default function SecurityPage() {
                 <Pill variant="electric">Profile saved</Pill>
               )}
               <p className="text-xs text-slate-500">
-                Email is not editable here — email changes go through a
-                separate re-verification flow. Date of birth is immutable;
-                contact support to change.
+                Email is not editable here — email changes go through a separate
+                re-verification flow. Date of birth is immutable; contact
+                support to change.
               </p>
               <Button type="submit" variant="primary" disabled={profileSaving}>
                 {profileSaving ? "Saving..." : "Save profile"}
@@ -536,7 +541,8 @@ export default function SecurityPage() {
                       : "text-xs text-amber-700"
                   }
                 >
-                  Strength: {["very weak", "weak", "ok", "good", "strong"][pwEval.score]}
+                  Strength:{" "}
+                  {["very weak", "weak", "ok", "good", "strong"][pwEval.score]}
                 </p>
               )}
             </div>
@@ -566,7 +572,11 @@ export default function SecurityPage() {
             {pwState.kind === "saved" && (
               <Pill variant="electric">Password updated</Pill>
             )}
-            <Button type="submit" variant="primary" disabled={pwState.kind === "saving"}>
+            <Button
+              type="submit"
+              variant="primary"
+              disabled={pwState.kind === "saving"}
+            >
               {pwState.kind === "saving"
                 ? "Saving..."
                 : hasPasswordIdentity

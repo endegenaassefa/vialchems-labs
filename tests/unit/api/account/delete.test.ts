@@ -91,9 +91,8 @@ vi.mock("@/lib/email/account-deleted", () => ({
 
 const captureExceptionMock = vi.fn();
 vi.mock("@/lib/sentry", async () => {
-  const actual = await vi.importActual<typeof import("@/lib/sentry")>(
-    "@/lib/sentry",
-  );
+  const actual =
+    await vi.importActual<typeof import("@/lib/sentry")>("@/lib/sentry");
   return {
     ...actual,
     captureException: (...a: unknown[]) => captureExceptionMock(...a),
@@ -102,7 +101,10 @@ vi.mock("@/lib/sentry", async () => {
 
 import { POST, GET } from "@/app/api/account/delete/route";
 
-function makeRequest(body: unknown, ip = "203.0.113.80"): import("next/server").NextRequest {
+function makeRequest(
+  body: unknown,
+  ip = "203.0.113.80",
+): import("next/server").NextRequest {
   const headers = new Headers({
     "content-type": "application/json",
     "x-forwarded-for": ip,
@@ -192,14 +194,18 @@ describe("POST /api/account/delete", () => {
 
   it("returns 401 unauthorized when no session", async () => {
     extractMock.mockResolvedValueOnce({ kind: "no_session" });
-    const res = await POST(makeRequest({ confirm: "DELETE", password: "x12345678901" }));
+    const res = await POST(
+      makeRequest({ confirm: "DELETE", password: "x12345678901" }),
+    );
     expect(res.status).toBe(401);
     expect((await res.json()).code).toBe("unauthorized");
   });
 
   it("returns 503 supabase_unavailable in stub mode", async () => {
     extractMock.mockResolvedValueOnce({ kind: "supabase_unavailable" });
-    const res = await POST(makeRequest({ confirm: "DELETE", password: "x12345678901" }));
+    const res = await POST(
+      makeRequest({ confirm: "DELETE", password: "x12345678901" }),
+    );
     expect(res.status).toBe(503);
   });
 

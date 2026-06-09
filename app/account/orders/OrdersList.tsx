@@ -155,10 +155,7 @@ export function OrdersList() {
   // a calm placeholder while it happens. NEVER show a "Sign in" CTA here.
   if (!user) {
     return (
-      <EmptyState
-        title="Redirecting to sign in…"
-        description="Hold tight."
-      />
+      <EmptyState title="Redirecting to sign in…" description="Hold tight." />
     );
   }
 

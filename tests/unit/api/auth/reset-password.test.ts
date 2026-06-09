@@ -59,9 +59,8 @@ vi.mock("@/lib/supabase", () => ({
 
 const captureExceptionMock = vi.fn();
 vi.mock("@/lib/sentry", async () => {
-  const actual = await vi.importActual<typeof import("@/lib/sentry")>(
-    "@/lib/sentry",
-  );
+  const actual =
+    await vi.importActual<typeof import("@/lib/sentry")>("@/lib/sentry");
   return {
     ...actual,
     captureException: (...a: unknown[]) => captureExceptionMock(...a),
@@ -70,7 +69,10 @@ vi.mock("@/lib/sentry", async () => {
 
 import { POST, GET } from "@/app/api/auth/reset-password/route";
 
-function makeRequest(body: unknown, ip = "203.0.113.30"): import("next/server").NextRequest {
+function makeRequest(
+  body: unknown,
+  ip = "203.0.113.30",
+): import("next/server").NextRequest {
   const headers = new Headers({
     "content-type": "application/json",
     "x-forwarded-for": ip,
@@ -83,7 +85,13 @@ function makeRequest(body: unknown, ip = "203.0.113.30"): import("next/server").
   }) as any;
 }
 
-function freshToken(overrides: { ttlSeconds?: number; userId?: string; purpose?: "confirm-email" | "password-reset" | "email-change" } = {}) {
+function freshToken(
+  overrides: {
+    ttlSeconds?: number;
+    userId?: string;
+    purpose?: "confirm-email" | "password-reset" | "email-change";
+  } = {},
+) {
   process.env.ACCOUNT_EMAIL_TOKEN_SECRET = TEST_SECRET;
   return signAccountEmailToken(
     {
@@ -102,7 +110,10 @@ describe("POST /api/auth/reset-password", () => {
     __resetRateLimitForTests();
     process.env.ACCOUNT_EMAIL_TOKEN_SECRET = TEST_SECRET;
     updateUserByIdMock.mockReset();
-    updateUserByIdMock.mockResolvedValue({ data: { user: { id: "u1" } }, error: null });
+    updateUserByIdMock.mockResolvedValue({
+      data: { user: { id: "u1" } },
+      error: null,
+    });
     maybeSingleMock.mockReset();
     maybeSingleMock.mockResolvedValue({
       data: { id: "profile-1", status: "active" },
@@ -170,7 +181,10 @@ describe("POST /api/auth/reset-password", () => {
 
   it("rejects missing token with 400 invalid_or_expired_token", async () => {
     const res = await POST(
-      makeRequest({ password: VALID_PASSWORD, confirm_password: VALID_PASSWORD }),
+      makeRequest({
+        password: VALID_PASSWORD,
+        confirm_password: VALID_PASSWORD,
+      }),
     );
     expect(res.status).toBe(400);
     expect((await res.json()).code).toBe("invalid_or_expired_token");
@@ -239,7 +253,10 @@ describe("POST /api/auth/reset-password", () => {
     // surface invalid_or_expired_token AND must NOT update the
     // password.
     insertMock.mockResolvedValueOnce({
-      error: { code: "23505", message: "duplicate key value violates unique constraint" },
+      error: {
+        code: "23505",
+        message: "duplicate key value violates unique constraint",
+      },
     });
     const token = freshToken();
     const res = await POST(
@@ -293,7 +310,11 @@ describe("POST /api/auth/reset-password", () => {
 
   it("rejects suspended account with 400 invalid_or_expired_token (don't differentiate)", async () => {
     maybeSingleMock.mockResolvedValueOnce({
-      data: { id: "profile-1", last_used_reset_nonce: null, status: "suspended" },
+      data: {
+        id: "profile-1",
+        last_used_reset_nonce: null,
+        status: "suspended",
+      },
       error: null,
     });
     const token = freshToken();

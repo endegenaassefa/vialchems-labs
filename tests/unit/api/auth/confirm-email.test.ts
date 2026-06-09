@@ -32,9 +32,8 @@ vi.mock("@/lib/supabase", () => ({
 
 const captureExceptionMock = vi.fn();
 vi.mock("@/lib/sentry", async () => {
-  const actual = await vi.importActual<typeof import("@/lib/sentry")>(
-    "@/lib/sentry",
-  );
+  const actual =
+    await vi.importActual<typeof import("@/lib/sentry")>("@/lib/sentry");
   return {
     ...actual,
     captureException: (...a: unknown[]) => captureExceptionMock(...a),
@@ -43,7 +42,11 @@ vi.mock("@/lib/sentry", async () => {
 
 import { processConfirmation } from "@/lib/auth/account-server";
 
-function freshToken(overrides: { purpose?: "confirm-email" | "password-reset" | "email-change" } = {}) {
+function freshToken(
+  overrides: {
+    purpose?: "confirm-email" | "password-reset" | "email-change";
+  } = {},
+) {
   process.env.ACCOUNT_EMAIL_TOKEN_SECRET = TEST_SECRET;
   return signAccountEmailToken(
     {
@@ -60,7 +63,10 @@ describe("processConfirmation", () => {
     process.env.ACCOUNT_EMAIL_TOKEN_SECRET = TEST_SECRET;
     delete process.env.ACCOUNT_EMAIL_TOKEN_SECRET_PREVIOUS;
     updateUserByIdMock.mockReset();
-    updateUserByIdMock.mockResolvedValue({ error: null, data: { user: { id: "user-uuid-1" } } });
+    updateUserByIdMock.mockResolvedValue({
+      error: null,
+      data: { user: { id: "user-uuid-1" } },
+    });
     selectMock.mockReset();
     selectMock.mockResolvedValue({ error: null, data: [{ id: "profile-1" }] });
     eqStatusMock.mockClear();
@@ -145,7 +151,10 @@ describe("processConfirmation", () => {
   });
 
   it("returns ok=false (and captures Sentry) when auth.admin.updateUserById errors", async () => {
-    updateUserByIdMock.mockResolvedValueOnce({ error: { message: "auth_admin_503" }, data: { user: null } });
+    updateUserByIdMock.mockResolvedValueOnce({
+      error: { message: "auth_admin_503" },
+      data: { user: null },
+    });
     const token = freshToken();
     const r = await processConfirmation(token);
     expect(r).toEqual({ ok: false });

@@ -199,9 +199,12 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    const updateAuth = await supabase.auth.admin.updateUserById(payload.userId, {
-      password,
-    });
+    const updateAuth = await supabase.auth.admin.updateUserById(
+      payload.userId,
+      {
+        password,
+      },
+    );
     if (updateAuth.error) {
       // The nonce is already consumed — the customer cannot retry
       // with the same link. Roll the nonce row back so a fresh

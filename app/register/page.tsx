@@ -28,7 +28,11 @@ import { Pill } from "@/components/ui/Pill";
 import { Button } from "@/components/ui/Button";
 import { FieldLabel } from "@/components/ui/FieldLabel";
 import { Input } from "@/components/ui/Input";
-import { AddressFields, emptyAddress, type AddressValue } from "@/components/account/AddressFields";
+import {
+  AddressFields,
+  emptyAddress,
+  type AddressValue,
+} from "@/components/account/AddressFields";
 import {
   RESEARCH_ORG_TYPES,
   registrationSchema,
@@ -51,7 +55,8 @@ function RegisterInner() {
   const search = useSearchParams();
   const nextParam = (() => {
     const value = search?.get("next");
-    if (!value || !value.startsWith("/") || value.startsWith("//")) return "/account";
+    if (!value || !value.startsWith("/") || value.startsWith("//"))
+      return "/account";
     return value;
   })();
 
@@ -116,9 +121,7 @@ function RegisterInner() {
         if (!errs[key]) errs[key] = issue.message;
       }
       setFieldErrors(errs);
-      setTopError(
-        "Please fix the highlighted fields and submit again.",
-      );
+      setTopError("Please fix the highlighted fields and submit again.");
       return;
     }
 
@@ -151,9 +154,9 @@ function RegisterInner() {
           </h1>
           <p className="text-sm text-slate-600">
             We sent a confirmation link to{" "}
-            <span className="font-mono">{email}</span>. Click it within 24
-            hours to verify your email. If you don&rsquo;t see it, check spam
-            or request a fresh link from the sign-in page.
+            <span className="font-mono">{email}</span>. Click it within 24 hours
+            to verify your email. If you don&rsquo;t see it, check spam or
+            request a fresh link from the sign-in page.
           </p>
           <div className="flex justify-center gap-2">
             <Link
@@ -205,7 +208,9 @@ function RegisterInner() {
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
               aria-invalid={Boolean(fieldErrors.full_name)}
-              aria-describedby={fieldErrors.full_name ? "err-full_name" : undefined}
+              aria-describedby={
+                fieldErrors.full_name ? "err-full_name" : undefined
+              }
             />
             {fieldErrors.full_name && (
               <p id="err-full_name" className="text-sm text-red-700">
@@ -264,9 +269,7 @@ function RegisterInner() {
                   {fieldErrors.date_of_birth}
                 </p>
               )}
-              <p className="text-xs text-slate-500">
-                Must be 21 or older.
-              </p>
+              <p className="text-xs text-slate-500">Must be 21 or older.</p>
             </div>
           </div>
         </section>
@@ -397,7 +400,12 @@ function RegisterInner() {
                       : "text-amber-700"
                   }
                 >
-                  Strength: {["very weak", "weak", "ok", "good", "strong"][passwordEval.score]}
+                  Strength:{" "}
+                  {
+                    ["very weak", "weak", "ok", "good", "strong"][
+                      passwordEval.score
+                    ]
+                  }
                 </div>
                 {!passwordEval.acceptable &&
                   passwordEval.feedback.length > 0 && (
@@ -466,9 +474,7 @@ function RegisterInner() {
             </span>
           </label>
           {fieldErrors.terms_accepted && (
-            <p className="text-sm text-red-700">
-              {fieldErrors.terms_accepted}
-            </p>
+            <p className="text-sm text-red-700">{fieldErrors.terms_accepted}</p>
           )}
         </section>
 

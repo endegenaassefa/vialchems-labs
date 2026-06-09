@@ -64,21 +64,23 @@ export const emailSchema = z
  * undefined so an optional UI field that was never filled doesn't
  * trigger a regex failure.
  */
-export const phoneSchema = z
-  .preprocess((value) => {
+export const phoneSchema = z.preprocess(
+  (value) => {
     if (value === null) return undefined;
     if (typeof value === "string") {
       const trimmed = value.trim();
       return trimmed.length === 0 ? undefined : trimmed;
     }
     return value;
-  }, z
+  },
+  z
     .string()
     .regex(
       /^\+?[1-9]\d{6,14}$/,
       "Enter a phone number with 7-15 digits (international format).",
     )
-    .optional());
+    .optional(),
+);
 
 /**
  * Date-of-birth — YYYY-MM-DD string. Enforces age >= 21 at
@@ -99,7 +101,8 @@ export const dobSchema = z
         return false;
       const dob = new Date(Date.UTC(y, m - 1, d));
       if (Number.isNaN(dob.getTime())) return false;
-      if (dob.getUTCFullYear() !== y || dob.getUTCMonth() !== m - 1) return false;
+      if (dob.getUTCFullYear() !== y || dob.getUTCMonth() !== m - 1)
+        return false;
       const today = new Date();
       const todayUtc = Date.UTC(
         today.getUTCFullYear(),
@@ -134,14 +137,13 @@ export type ResearchOrgType = (typeof RESEARCH_ORG_TYPES)[number];
 
 export const orgTypeSchema = z.enum(RESEARCH_ORG_TYPES);
 
-export const orgOtherSchema = z
-  .preprocess((value) => {
-    if (typeof value === "string") {
-      const trimmed = value.trim();
-      return trimmed.length === 0 ? undefined : trimmed;
-    }
-    return value;
-  }, z.string().min(2).max(120).optional());
+export const orgOtherSchema = z.preprocess((value) => {
+  if (typeof value === "string") {
+    const trimmed = value.trim();
+    return trimmed.length === 0 ? undefined : trimmed;
+  }
+  return value;
+}, z.string().min(2).max(120).optional());
 
 export const researchFocusSchema = z
   .string()
@@ -205,7 +207,9 @@ export function evaluatePasswordStrength(
       zxcvbnFeedback.push(result.feedback.suggestions[0]);
   } catch {
     score = 0;
-    zxcvbnFeedback = ["Password could not be evaluated; choose a different one."];
+    zxcvbnFeedback = [
+      "Password could not be evaluated; choose a different one.",
+    ];
   }
 
   if (score < 3) {
@@ -219,17 +223,15 @@ export function evaluatePasswordStrength(
   return { score, acceptable, feedback };
 }
 
-export const passwordSchema = z
-  .string()
-  .superRefine((value, ctx) => {
-    const evaluation = evaluatePasswordStrength(value);
-    if (!evaluation.acceptable) {
-      ctx.addIssue({
-        code: z.ZodIssueCode.custom,
-        message: evaluation.feedback[0] ?? "Password does not meet policy.",
-      });
-    }
-  });
+export const passwordSchema = z.string().superRefine((value, ctx) => {
+  const evaluation = evaluatePasswordStrength(value);
+  if (!evaluation.acceptable) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      message: evaluation.feedback[0] ?? "Password does not meet policy.",
+    });
+  }
+});
 
 // ---------------------------------------------------------------------------
 // Address
@@ -248,10 +250,13 @@ export const addressSchema = z.object({
   region: z.string().trim().min(1, "State/region is required").max(100),
   postal_code: z.string().trim().min(2, "Postal code is required").max(20),
   country: z
-    .preprocess((value) => {
-      if (typeof value === "string") return value.trim().toUpperCase();
-      return value;
-    }, z.string().length(2, "Use a 2-letter country code"))
+    .preprocess(
+      (value) => {
+        if (typeof value === "string") return value.trim().toUpperCase();
+        return value;
+      },
+      z.string().length(2, "Use a 2-letter country code"),
+    )
     .default("US"),
 });
 
@@ -307,8 +312,7 @@ export const registrationSchema = registrationBaseSchema.superRefine(
       ctx.addIssue({
         code: z.ZodIssueCode.custom,
         path: ["shipping_address"],
-        message:
-          "Provide a shipping address or check Same as mailing.",
+        message: "Provide a shipping address or check Same as mailing.",
       });
     }
   },
@@ -378,8 +382,7 @@ export const completeProfileSchema = registrationBaseSchema
       ctx.addIssue({
         code: z.ZodIssueCode.custom,
         path: ["shipping_address"],
-        message:
-          "Provide a shipping address or check Same as mailing.",
+        message: "Provide a shipping address or check Same as mailing.",
       });
     }
   });

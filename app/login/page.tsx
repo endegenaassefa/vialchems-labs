@@ -116,7 +116,9 @@ function LoginPageInner() {
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [passwordState, setPasswordState] = useState<PasswordState>({ kind: "idle" });
+  const [passwordState, setPasswordState] = useState<PasswordState>({
+    kind: "idle",
+  });
 
   const [otpExpanded, setOtpExpanded] = useState(false);
   const [otpState, setOtpState] = useState<OtpState>({ kind: "idle" });
@@ -268,8 +270,8 @@ function LoginPageInner() {
                 Sign-in isn&rsquo;t enabled yet
               </h2>
               <p className="text-sm text-slate-600">
-                Supabase Auth is being provisioned. Email support if you need
-                to access your order history before then.
+                Supabase Auth is being provisioned. Email support if you need to
+                access your order history before then.
               </p>
             </div>
           </Card>
@@ -347,8 +349,8 @@ function LoginPageInner() {
                   role="alert"
                   className="rounded-md border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900"
                 >
-                  Too many attempts. Try again in {passwordState.retryAfterSeconds}{" "}
-                  seconds.
+                  Too many attempts. Try again in{" "}
+                  {passwordState.retryAfterSeconds} seconds.
                 </div>
               )}
               {passwordState.kind === "error" && (
@@ -389,7 +391,9 @@ function LoginPageInner() {
         <details
           className="rounded-md border border-slate-200 bg-white p-4 text-sm"
           open={otpExpanded}
-          onToggle={(e) => setOtpExpanded((e.target as HTMLDetailsElement).open)}
+          onToggle={(e) =>
+            setOtpExpanded((e.target as HTMLDetailsElement).open)
+          }
         >
           <summary className="cursor-pointer text-slate-700">
             Sign in with a magic link instead
@@ -439,8 +443,7 @@ function LoginPageInner() {
         </details>
 
         <p className="text-center text-sm text-slate-600">
-          New to{" "}
-          <span className="font-medium">VialChem Labs</span>?{" "}
+          New to <span className="font-medium">VialChem Labs</span>?{" "}
           <Link
             href={`/register${nextParam !== "/account" ? `?next=${encodeURIComponent(nextParam)}` : ""}`}
             className="font-medium text-slate-900 underline underline-offset-2"

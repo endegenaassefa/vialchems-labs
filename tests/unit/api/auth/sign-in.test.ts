@@ -13,9 +13,8 @@ import { __resetRateLimitForTests } from "@/lib/rate-limit";
 
 const captureExceptionMock = vi.fn();
 vi.mock("@/lib/sentry", async () => {
-  const actual = await vi.importActual<typeof import("@/lib/sentry")>(
-    "@/lib/sentry",
-  );
+  const actual =
+    await vi.importActual<typeof import("@/lib/sentry")>("@/lib/sentry");
   return {
     ...actual,
     captureException: (...a: unknown[]) => captureExceptionMock(...a),
@@ -24,7 +23,10 @@ vi.mock("@/lib/sentry", async () => {
 
 import { POST, GET } from "@/app/api/auth/sign-in/route";
 
-function makeRequest(body: unknown, ip = "203.0.113.40"): import("next/server").NextRequest {
+function makeRequest(
+  body: unknown,
+  ip = "203.0.113.40",
+): import("next/server").NextRequest {
   const headers = new Headers({
     "content-type": "application/json",
     "x-forwarded-for": ip,
@@ -55,7 +57,10 @@ describe("POST /api/auth/sign-in (uniform pre-flight)", () => {
 
   it("returns the SAME uniform body for an unknown email (anti-enumeration invariant)", async () => {
     const res = await POST(
-      makeRequest({ email: "ghost-no-account@example.com", password: "x".repeat(12) }),
+      makeRequest({
+        email: "ghost-no-account@example.com",
+        password: "x".repeat(12),
+      }),
     );
     expect(res.status).toBe(200);
     expect(await res.json()).toEqual({ ok: true });

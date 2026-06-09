@@ -55,10 +55,12 @@ vi.mock("@/lib/supabase", () => ({
 
 const captureExceptionMock = vi.fn();
 vi.mock("@/lib/sentry", async () => {
-  const actual = await vi.importActual<typeof import("@/lib/sentry")>(
-    "@/lib/sentry",
-  );
-  return { ...actual, captureException: (...a: unknown[]) => captureExceptionMock(...a) };
+  const actual =
+    await vi.importActual<typeof import("@/lib/sentry")>("@/lib/sentry");
+  return {
+    ...actual,
+    captureException: (...a: unknown[]) => captureExceptionMock(...a),
+  };
 });
 
 import { POST, GET } from "@/app/api/account/complete-profile/route";

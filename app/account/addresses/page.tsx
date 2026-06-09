@@ -185,7 +185,9 @@ export default function AddressesPage() {
                 {topError}
               </div>
             )}
-            {savedAt !== null && <Pill variant="electric">Saved · just now</Pill>}
+            {savedAt !== null && (
+              <Pill variant="electric">Saved · just now</Pill>
+            )}
 
             <Card>
               <div className="flex flex-col gap-3 p-5">

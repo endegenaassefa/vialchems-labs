@@ -207,7 +207,10 @@ function AccountDashboardInner() {
             Try again in a moment. If you just placed an order, your
             confirmation email has a direct tracking link.
           </p>
-          <Link href="/track-order" className={buttonClassNames("outline", "md")}>
+          <Link
+            href="/track-order"
+            className={buttonClassNames("outline", "md")}
+          >
             Track an order
           </Link>
         </main>
@@ -349,7 +352,10 @@ function AccountDashboardInner() {
             <ul className="space-y-3">
               {recentOrders.map((o) => (
                 <li key={o.display_id}>
-                  <Link href={`/account/orders/${o.display_id}`} className="block">
+                  <Link
+                    href={`/account/orders/${o.display_id}`}
+                    className="block"
+                  >
                     <Card className="p-4 flex flex-wrap items-center justify-between gap-4 hover:border-[var(--accent)] transition-colors">
                       <div>
                         <p className="font-mono text-[14px] tabular-nums">
@@ -419,8 +425,8 @@ function AccountDashboardInner() {
                   label="Research org"
                   value={
                     profile
-                      ? ORG_TYPE_LABELS[profile.research_org_type] ??
-                        profile.research_org_type
+                      ? (ORG_TYPE_LABELS[profile.research_org_type] ??
+                        profile.research_org_type)
                       : "Not set"
                   }
                   href="/account/security"

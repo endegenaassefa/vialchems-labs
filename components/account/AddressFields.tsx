@@ -47,8 +47,7 @@ export function AddressFields({
   required = true,
 }: AddressFieldsProps) {
   const onField =
-    (field: keyof AddressValue) =>
-    (e: ChangeEvent<HTMLInputElement>) =>
+    (field: keyof AddressValue) => (e: ChangeEvent<HTMLInputElement>) =>
       onChange({ ...value, [field]: e.target.value });
 
   const id = (key: string) => `${prefix}-${key}`;

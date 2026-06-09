@@ -39,14 +39,16 @@ vi.mock("@/lib/auth/account-server", async () => {
     findAccountByEmail: (...a: unknown[]) => findAccountByEmailMock(...a),
     createAuthUser: (...a: unknown[]) => createAuthUserMock(...a),
     deleteAuthUser: (...a: unknown[]) => deleteAuthUserMock(...a),
-    insertProfileWithAddresses: (...a: unknown[]) => insertProfileWithAddressesMock(...a),
+    insertProfileWithAddresses: (...a: unknown[]) =>
+      insertProfileWithAddressesMock(...a),
     buildConfirmEmailUrl: (...a: unknown[]) => buildConfirmEmailUrlMock(...a),
   };
 });
 
 const sendAccountConfirmEmailMock = vi.fn();
 vi.mock("@/lib/email/account-email-confirm", () => ({
-  sendAccountConfirmEmail: (...a: unknown[]) => sendAccountConfirmEmailMock(...a),
+  sendAccountConfirmEmail: (...a: unknown[]) =>
+    sendAccountConfirmEmailMock(...a),
 }));
 
 const serviceSupabaseStub = { __stub: true };
@@ -58,9 +60,8 @@ vi.mock("@/lib/supabase", () => ({
 
 const captureExceptionMock = vi.fn();
 vi.mock("@/lib/sentry", async () => {
-  const actual = await vi.importActual<typeof import("@/lib/sentry")>(
-    "@/lib/sentry",
-  );
+  const actual =
+    await vi.importActual<typeof import("@/lib/sentry")>("@/lib/sentry");
   return {
     ...actual,
     captureException: (...a: unknown[]) => captureExceptionMock(...a),
@@ -100,7 +101,10 @@ const validBody = (overrides: Partial<Record<string, unknown>> = {}) => ({
   ...overrides,
 });
 
-function makeRequest(body: unknown, ip = "203.0.113.10"): import("next/server").NextRequest {
+function makeRequest(
+  body: unknown,
+  ip = "203.0.113.10",
+): import("next/server").NextRequest {
   const headers = new Headers({
     "content-type": "application/json",
     "x-forwarded-for": ip,
@@ -133,9 +137,13 @@ describe("POST /api/auth/register", () => {
     deleteAuthUserMock.mockReset();
     deleteAuthUserMock.mockResolvedValue(undefined);
     insertProfileWithAddressesMock.mockReset();
-    insertProfileWithAddressesMock.mockResolvedValue({ profileId: "profile-uuid-1" });
+    insertProfileWithAddressesMock.mockResolvedValue({
+      profileId: "profile-uuid-1",
+    });
     buildConfirmEmailUrlMock.mockReset();
-    buildConfirmEmailUrlMock.mockReturnValue("https://example.test/auth/confirm-email?token=stub");
+    buildConfirmEmailUrlMock.mockReturnValue(
+      "https://example.test/auth/confirm-email?token=stub",
+    );
     sendAccountConfirmEmailMock.mockReset();
     sendAccountConfirmEmailMock.mockResolvedValue({ ok: true, id: "stub:1" });
     captureExceptionMock.mockReset();
@@ -243,12 +251,18 @@ describe("POST /api/auth/register", () => {
     // email; the 3rd should be limited.
     for (let i = 0; i < 2; i += 1) {
       const ok = await POST(
-        makeRequest(validBody({ email: "spam-target@example.com" }), `203.0.113.${i + 1}`),
+        makeRequest(
+          validBody({ email: "spam-target@example.com" }),
+          `203.0.113.${i + 1}`,
+        ),
       );
       await expectUniform(ok);
     }
     const limited = await POST(
-      makeRequest(validBody({ email: "spam-target@example.com" }), "203.0.113.99"),
+      makeRequest(
+        validBody({ email: "spam-target@example.com" }),
+        "203.0.113.99",
+      ),
     );
     await expectUniform(limited);
   });

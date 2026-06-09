@@ -162,8 +162,8 @@ export default function CompleteProfilePage() {
               </h1>
               <p className="mt-2 text-sm text-slate-600">
                 Your account was created before we required full profile
-                details. Add what we need to ship reliably and we&rsquo;ll
-                land you on the dashboard.
+                details. Add what we need to ship reliably and we&rsquo;ll land
+                you on the dashboard.
               </p>
             </header>
 
@@ -192,7 +192,9 @@ export default function CompleteProfilePage() {
                   onChange={(e) => setFullName(e.target.value)}
                 />
                 {fieldErrors.full_name && (
-                  <p className="text-sm text-red-700">{fieldErrors.full_name}</p>
+                  <p className="text-sm text-red-700">
+                    {fieldErrors.full_name}
+                  </p>
                 )}
               </div>
               <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
@@ -236,7 +238,9 @@ export default function CompleteProfilePage() {
                   id="cp-org_type"
                   required
                   value={orgType}
-                  onChange={(e) => setOrgType(e.target.value as ResearchOrgType)}
+                  onChange={(e) =>
+                    setOrgType(e.target.value as ResearchOrgType)
+                  }
                   className="h-10 rounded-md border border-slate-300 bg-white px-3 text-sm"
                 >
                   {RESEARCH_ORG_TYPES.map((t) => (
@@ -330,7 +334,12 @@ export default function CompleteProfilePage() {
               </span>
             </label>
 
-            <Button type="submit" disabled={submitting} variant="primary" size="lg">
+            <Button
+              type="submit"
+              disabled={submitting}
+              variant="primary"
+              size="lg"
+            >
               {submitting ? "Saving..." : "Complete profile"}
             </Button>
             <p className="text-center text-sm text-slate-600">

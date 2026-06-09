@@ -83,7 +83,9 @@ export default function ResendConfirmationPage() {
                 />
               </div>
               <Button type="submit" disabled={state.kind === "sending"}>
-                {state.kind === "sending" ? "Sending..." : "Send confirmation link"}
+                {state.kind === "sending"
+                  ? "Sending..."
+                  : "Send confirmation link"}
               </Button>
               <p className="text-xs text-slate-500">
                 For privacy, we always return the same response whether the

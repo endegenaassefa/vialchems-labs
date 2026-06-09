@@ -36,7 +36,9 @@ describe("sendAccountConfirmEmail", () => {
     const call = sendEmailMock.mock.calls[0][0];
     expect(call.tag).toBe("account-email-confirm");
     expect(call.to).toBe("marie@radium.lab");
-    expect(call.text).toContain("https://test.local/auth/confirm-email?token=abcdef.ghijkl");
+    expect(call.text).toContain(
+      "https://test.local/auth/confirm-email?token=abcdef.ghijkl",
+    );
     expect(call.text).toContain("Dr. Marie Curie");
     expect(call.html).toContain("Confirm email");
     expect(call.html).toContain("Dr. Marie Curie");

@@ -23,7 +23,10 @@ export const dynamic = "force-dynamic";
 const PROFILE_SELECT =
   "id, email, phone, full_name, date_of_birth, research_org_type, research_org_other, research_focus, status, email_confirmed_at, created_at";
 
-async function loadProfile(supabase: ReturnType<typeof serviceSupabase>, authUserId: string) {
+async function loadProfile(
+  supabase: ReturnType<typeof serviceSupabase>,
+  authUserId: string,
+) {
   if (!supabase) throw new Error("supabase_unavailable");
   return supabase
     .from("customer_profiles")
@@ -66,12 +69,11 @@ export async function GET(request: NextRequest) {
         { status: 200 },
       );
     }
-    return NextResponse.json(
-      { ok: true, profile: res.data },
-      { status: 200 },
-    );
+    return NextResponse.json({ ok: true, profile: res.data }, { status: 200 });
   } catch (err) {
-    captureException(err, { tags: { route: "account/profile", phase: "outer" } });
+    captureException(err, {
+      tags: { route: "account/profile", phase: "outer" },
+    });
     return NextResponse.json(
       { ok: false, code: "internal_error" },
       { status: 500 },
@@ -137,7 +139,10 @@ export async function PATCH(request: NextRequest) {
     // phone" request omits the key entirely.
     patch.phone = parsed.data.phone ?? null;
   }
-  if ("research_org_type" in rawBody && parsed.data.research_org_type !== undefined) {
+  if (
+    "research_org_type" in rawBody &&
+    parsed.data.research_org_type !== undefined
+  ) {
     patch.research_org_type = parsed.data.research_org_type;
   }
   if ("research_org_other" in rawBody) {
@@ -184,7 +189,9 @@ export async function PATCH(request: NextRequest) {
       { status: 200 },
     );
   } catch (err) {
-    captureException(err, { tags: { route: "account/profile", phase: "outer" } });
+    captureException(err, {
+      tags: { route: "account/profile", phase: "outer" },
+    });
     return NextResponse.json(
       { ok: false, code: "internal_error" },
       { status: 500 },

@@ -51,7 +51,9 @@ export default async function ConfirmEmailPage({
           {result.ok ? (
             <div className="flex flex-col gap-4 p-6 text-center">
               <Pill variant="electric">Verified</Pill>
-              <h1 className="text-2xl font-semibold">Your email is confirmed</h1>
+              <h1 className="text-2xl font-semibold">
+                Your email is confirmed
+              </h1>
               <p className="text-sm text-slate-600">
                 {result.email
                   ? `We've activated the account for ${result.email}.`

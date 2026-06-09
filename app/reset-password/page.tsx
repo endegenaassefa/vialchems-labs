@@ -104,8 +104,8 @@ function ResetInner() {
             This reset link can&rsquo;t be used
           </h1>
           <p className="text-sm text-slate-600">
-            The token is missing from the URL. Request a fresh reset link
-            from the sign-in page.
+            The token is missing from the URL. Request a fresh reset link from
+            the sign-in page.
           </p>
           <Link
             href="/forgot-password"
@@ -123,8 +123,8 @@ function ResetInner() {
       <form className="flex flex-col gap-4 p-6" onSubmit={onSubmit}>
         <h1 className="text-2xl font-semibold">Set a new password</h1>
         <p className="text-sm text-slate-600">
-          Choose a password with 12 or more characters, mixed case, and at
-          least one digit.
+          Choose a password with 12 or more characters, mixed case, and at least
+          one digit.
         </p>
         {topError && (
           <div

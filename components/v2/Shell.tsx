@@ -76,9 +76,7 @@ function AccountChip({ onNavigate }: { onNavigate: () => void }) {
 
   if (!user) {
     return (
-      <span
-        style={{ display: "inline-flex", alignItems: "center", gap: 8 }}
-      >
+      <span style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
         <Link
           href="/login"
           className="v2-nav-signin"

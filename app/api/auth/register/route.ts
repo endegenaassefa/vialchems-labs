@@ -108,7 +108,11 @@ export async function POST(request: NextRequest) {
     // we still return uniform so the response shape stays flat.
     let authUserId: string;
     try {
-      const created = await createAuthUser(supabase, input.email, input.password);
+      const created = await createAuthUser(
+        supabase,
+        input.email,
+        input.password,
+      );
       authUserId = created.id;
     } catch (err) {
       captureException(err, {
@@ -160,5 +164,8 @@ export async function POST(request: NextRequest) {
 // Block every other method explicitly — also via the uniform body so a
 // scanner probing `OPTIONS /api/auth/register` learns nothing extra.
 export async function GET() {
-  return NextResponse.json({ ok: true, message: "method_not_allowed" }, { status: 405 });
+  return NextResponse.json(
+    { ok: true, message: "method_not_allowed" },
+    { status: 405 },
+  );
 }

@@ -35,7 +35,8 @@ const putSchema = z
       ctx.addIssue({
         code: z.ZodIssueCode.custom,
         path: ["shipping"],
-        message: "Provide a shipping address or set shipping_same_as_mailing=true.",
+        message:
+          "Provide a shipping address or set shipping_same_as_mailing=true.",
       });
     }
   });
@@ -74,7 +75,12 @@ export async function GET(request: NextRequest) {
     const profileId = await findProfileId(supabase, auth.user.id);
     if (!profileId) {
       return NextResponse.json(
-        { ok: true, mailing: null, shipping: null, shipping_same_as_mailing: true },
+        {
+          ok: true,
+          mailing: null,
+          shipping: null,
+          shipping_same_as_mailing: true,
+        },
         { status: 200 },
       );
     }
@@ -166,21 +172,19 @@ export async function PUT(request: NextRequest) {
 
     // Mailing: upsert via (profile_id, kind) unique. Service-role
     // bypasses RLS so we can run upsert without per-row select first.
-    const upsertMailing = await supabase
-      .from("customer_addresses")
-      .upsert(
-        {
-          profile_id: profileId,
-          kind: "mailing",
-          street1: input.mailing.street1,
-          street2: input.mailing.street2 ?? null,
-          city: input.mailing.city,
-          region: input.mailing.region,
-          postal_code: input.mailing.postal_code,
-          country: input.mailing.country,
-        },
-        { onConflict: "profile_id,kind" },
-      );
+    const upsertMailing = await supabase.from("customer_addresses").upsert(
+      {
+        profile_id: profileId,
+        kind: "mailing",
+        street1: input.mailing.street1,
+        street2: input.mailing.street2 ?? null,
+        city: input.mailing.city,
+        region: input.mailing.region,
+        postal_code: input.mailing.postal_code,
+        country: input.mailing.country,
+      },
+      { onConflict: "profile_id,kind" },
+    );
     if (upsertMailing.error) {
       captureException(upsertMailing.error, {
         tags: { route: "account/addresses", phase: "upsert_mailing" },
@@ -209,21 +213,19 @@ export async function PUT(request: NextRequest) {
       }
     } else {
       const shipping = input.shipping!;
-      const upsertShipping = await supabase
-        .from("customer_addresses")
-        .upsert(
-          {
-            profile_id: profileId,
-            kind: "shipping",
-            street1: shipping.street1,
-            street2: shipping.street2 ?? null,
-            city: shipping.city,
-            region: shipping.region,
-            postal_code: shipping.postal_code,
-            country: shipping.country,
-          },
-          { onConflict: "profile_id,kind" },
-        );
+      const upsertShipping = await supabase.from("customer_addresses").upsert(
+        {
+          profile_id: profileId,
+          kind: "shipping",
+          street1: shipping.street1,
+          street2: shipping.street2 ?? null,
+          city: shipping.city,
+          region: shipping.region,
+          postal_code: shipping.postal_code,
+          country: shipping.country,
+        },
+        { onConflict: "profile_id,kind" },
+      );
       if (upsertShipping.error) {
         captureException(upsertShipping.error, {
           tags: { route: "account/addresses", phase: "upsert_shipping" },

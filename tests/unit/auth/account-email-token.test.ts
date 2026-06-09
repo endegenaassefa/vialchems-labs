@@ -18,7 +18,10 @@ import {
 const TEST_SECRET = "test-secret-for-account-email-token-1234567890";
 const PREV_SECRET = "previous-rotation-secret-9876543210";
 
-const basePayload: Pick<AccountEmailTokenPayload, "purpose" | "userId" | "email"> = {
+const basePayload: Pick<
+  AccountEmailTokenPayload,
+  "purpose" | "userId" | "email"
+> = {
   purpose: "confirm-email",
   userId: "11111111-2222-3333-4444-555555555555",
   email: "researcher@example.com",
@@ -43,14 +46,20 @@ describe("signAccountEmailToken", () => {
 
   it("throws when the secret is empty", () => {
     delete process.env.ACCOUNT_EMAIL_TOKEN_SECRET;
-    expect(() => signAccountEmailToken(basePayload, { ttlSeconds: 3600 })).toThrow(
-      /account_email_token_secret_required/i,
-    );
+    expect(() =>
+      signAccountEmailToken(basePayload, { ttlSeconds: 3600 }),
+    ).toThrow(/account_email_token_secret_required/i);
   });
 
   it("produces a different token for different purposes (cross-purpose replay protection)", () => {
-    const a = signAccountEmailToken({ ...basePayload, purpose: "confirm-email" }, { ttlSeconds: 3600 });
-    const b = signAccountEmailToken({ ...basePayload, purpose: "password-reset" }, { ttlSeconds: 3600 });
+    const a = signAccountEmailToken(
+      { ...basePayload, purpose: "confirm-email" },
+      { ttlSeconds: 3600 },
+    );
+    const b = signAccountEmailToken(
+      { ...basePayload, purpose: "password-reset" },
+      { ttlSeconds: 3600 },
+    );
     expect(a).not.toBe(b);
   });
 
@@ -125,16 +134,24 @@ describe("verifyAccountEmailToken", () => {
     // the sign function must clamp to MAX_TTL_SECONDS['password-reset']
     // (3600s) so the token expires within the policy bound.
     const token = signAccountEmailToken(
-      { purpose: "password-reset", userId: basePayload.userId, email: basePayload.email },
+      {
+        purpose: "password-reset",
+        userId: basePayload.userId,
+        email: basePayload.email,
+      },
       { ttlSeconds: 30 * 24 * 60 * 60, nowSeconds: t0 },
     );
     // Verifies at t0 + 3000s (under cap).
     expect(
-      verifyAccountEmailToken(token, "password-reset", { nowSeconds: t0 + 3000 }),
+      verifyAccountEmailToken(token, "password-reset", {
+        nowSeconds: t0 + 3000,
+      }),
     ).not.toBeNull();
     // Does NOT verify at t0 + 3700s (past clamped exp).
     expect(
-      verifyAccountEmailToken(token, "password-reset", { nowSeconds: t0 + 3700 }),
+      verifyAccountEmailToken(token, "password-reset", {
+        nowSeconds: t0 + 3700,
+      }),
     ).toBeNull();
   });
 
@@ -160,7 +177,9 @@ describe("verifyAccountEmailToken", () => {
     const sig = createHmac("sha256", TEST_SECRET).update(encoded).digest("hex");
     const token = `${encoded}.${sig}`;
     expect(
-      verifyAccountEmailToken(token, "password-reset", { nowSeconds: iat + 100 }),
+      verifyAccountEmailToken(token, "password-reset", {
+        nowSeconds: iat + 100,
+      }),
     ).toBeNull();
   });
 
@@ -172,11 +191,15 @@ describe("verifyAccountEmailToken", () => {
     });
     // Verifier clock is 10 minutes earlier — iat is 10m in the future.
     expect(
-      verifyAccountEmailToken(token, "confirm-email", { nowSeconds: t0 - 10 * 60 }),
+      verifyAccountEmailToken(token, "confirm-email", {
+        nowSeconds: t0 - 10 * 60,
+      }),
     ).toBeNull();
     // Within slack: iat is 4 minutes in the future. Accepted.
     expect(
-      verifyAccountEmailToken(token, "confirm-email", { nowSeconds: t0 - 4 * 60 }),
+      verifyAccountEmailToken(token, "confirm-email", {
+        nowSeconds: t0 - 4 * 60,
+      }),
     ).not.toBeNull();
   });
 
@@ -187,7 +210,9 @@ describe("verifyAccountEmailToken", () => {
     );
     // A password-reset token must NOT verify as a confirm-email token.
     expect(verifyAccountEmailToken(resetToken, "confirm-email")).toBeNull();
-    expect(verifyAccountEmailToken(resetToken, "password-reset")).not.toBeNull();
+    expect(
+      verifyAccountEmailToken(resetToken, "password-reset"),
+    ).not.toBeNull();
   });
 
   it("returns null for the email-change purpose mismatch", () => {

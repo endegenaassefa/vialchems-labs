@@ -22,7 +22,10 @@ export interface OrderConfirmationInput {
   shippingEtaDays?: number;
 }
 
-function safeBuildOrderViewUrl(displayId: string, email: string): string | null {
+function safeBuildOrderViewUrl(
+  displayId: string,
+  email: string,
+): string | null {
   try {
     return buildOrderViewUrl(siteConfig.url, displayId, email);
   } catch {

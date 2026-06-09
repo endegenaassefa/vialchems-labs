@@ -20,9 +20,15 @@ import {
 
 describe("findAccountByEmail", () => {
   it("queries customer_profiles via EXACT eq() on lowercased email (not ilike, to avoid `_`/`%` wildcard false-matches)", async () => {
-    const eqProfile = vi.fn(() => ({ maybeSingle: () => Promise.resolve({ data: null, error: null }) }));
+    const eqProfile = vi.fn(() => ({
+      maybeSingle: () => Promise.resolve({ data: null, error: null }),
+    }));
     const selectProfile = vi.fn(() => ({ eq: eqProfile }));
-    const eqArchived = vi.fn(() => ({ limit: () => ({ maybeSingle: () => Promise.resolve({ data: null, error: null }) }) }));
+    const eqArchived = vi.fn(() => ({
+      limit: () => ({
+        maybeSingle: () => Promise.resolve({ data: null, error: null }),
+      }),
+    }));
     const selectArchived = vi.fn(() => ({ eq: eqArchived }));
     const fromMock = vi.fn((table: string) => {
       if (table === "customer_profiles") return { select: selectProfile };
@@ -46,13 +52,21 @@ describe("findAccountByEmail", () => {
       },
     });
     const r = await findAccountByEmail(supabase, "x@example.com");
-    expect(r).toMatchObject({ kind: "active", profileId: "p1", authUserId: "u1" });
+    expect(r).toMatchObject({
+      kind: "active",
+      profileId: "p1",
+      authUserId: "u1",
+    });
   });
 
   it("returns pending when the profile exists with status=pending_email_verification", async () => {
     const supabase = makeStub({
       profile: {
-        data: { id: "p1", auth_user_id: "u1", status: "pending_email_verification" },
+        data: {
+          id: "p1",
+          auth_user_id: "u1",
+          status: "pending_email_verification",
+        },
         error: null,
       },
     });
@@ -100,23 +114,32 @@ describe("activateProfile", () => {
       "profile_not_pending",
     );
     expect(eqAuth).toHaveBeenCalledWith("auth_user_id", "user-uuid-1");
-    expect(eqStatus).toHaveBeenCalledWith("status", "pending_email_verification");
+    expect(eqStatus).toHaveBeenCalledWith(
+      "status",
+      "pending_email_verification",
+    );
     expect(select).toHaveBeenCalledWith("id");
   });
 
   it("resolves on 1-row match", async () => {
-    const select = vi.fn().mockResolvedValue({ error: null, data: [{ id: "p1" }] });
+    const select = vi
+      .fn()
+      .mockResolvedValue({ error: null, data: [{ id: "p1" }] });
     const eqStatus = vi.fn(() => ({ select }));
     const eqAuth = vi.fn(() => ({ eq: eqStatus }));
     const update = vi.fn(() => ({ eq: eqAuth }));
     const from = vi.fn(() => ({ update }));
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const supabase: any = { from };
-    await expect(activateProfile(supabase, "user-uuid-1")).resolves.toBeUndefined();
+    await expect(
+      activateProfile(supabase, "user-uuid-1"),
+    ).resolves.toBeUndefined();
   });
 
   it("throws when the underlying Supabase response has an error", async () => {
-    const select = vi.fn().mockResolvedValue({ error: { message: "boom" }, data: null });
+    const select = vi
+      .fn()
+      .mockResolvedValue({ error: { message: "boom" }, data: null });
     const eqStatus = vi.fn(() => ({ select }));
     const eqAuth = vi.fn(() => ({ eq: eqStatus }));
     const update = vi.fn(() => ({ eq: eqAuth }));
@@ -129,7 +152,8 @@ describe("activateProfile", () => {
 
 describe("URL builders", () => {
   beforeEach(() => {
-    process.env.ACCOUNT_EMAIL_TOKEN_SECRET = "test-secret-account-server-1234567890";
+    process.env.ACCOUNT_EMAIL_TOKEN_SECRET =
+      "test-secret-account-server-1234567890";
   });
   it("builds a /auth/confirm-email URL with a confirm-email token", () => {
     const url = buildConfirmEmailUrl("user-uuid-1", "marie@radium.lab");

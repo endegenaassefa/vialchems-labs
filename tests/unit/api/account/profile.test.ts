@@ -25,12 +25,17 @@ const getSelectMock = vi.fn(() => ({ eq: getEqMock }));
 
 // PATCH: from('customer_profiles').update().eq().eq().select().maybeSingle()
 const patchMaybeSingleMock = vi.fn();
-const patchSelectChainMock = vi.fn(() => ({ maybeSingle: patchMaybeSingleMock }));
+const patchSelectChainMock = vi.fn(() => ({
+  maybeSingle: patchMaybeSingleMock,
+}));
 const patchEqStatusMock = vi.fn(() => ({ select: patchSelectChainMock }));
 const patchEqAuthMock = vi.fn(() => ({ eq: patchEqStatusMock }));
 const patchUpdateMock = vi.fn(() => ({ eq: patchEqAuthMock }));
 
-const fromMock = vi.fn(() => ({ select: getSelectMock, update: patchUpdateMock }));
+const fromMock = vi.fn(() => ({
+  select: getSelectMock,
+  update: patchUpdateMock,
+}));
 let serviceSupabaseReturn: unknown = { from: fromMock };
 vi.mock("@/lib/supabase", () => ({
   serviceSupabase: () => serviceSupabaseReturn,
@@ -39,10 +44,12 @@ vi.mock("@/lib/supabase", () => ({
 
 const captureExceptionMock = vi.fn();
 vi.mock("@/lib/sentry", async () => {
-  const actual = await vi.importActual<typeof import("@/lib/sentry")>(
-    "@/lib/sentry",
-  );
-  return { ...actual, captureException: (...a: unknown[]) => captureExceptionMock(...a) };
+  const actual =
+    await vi.importActual<typeof import("@/lib/sentry")>("@/lib/sentry");
+  return {
+    ...actual,
+    captureException: (...a: unknown[]) => captureExceptionMock(...a),
+  };
 });
 
 import { GET, PATCH } from "@/app/api/account/profile/route";
@@ -67,7 +74,10 @@ function makePatch(body: unknown): import("next/server").NextRequest {
 describe("GET /api/account/profile", () => {
   beforeEach(() => {
     extractMock.mockReset();
-    extractMock.mockResolvedValue({ kind: "ok", user: { id: "u1", email: "x@example.com" } });
+    extractMock.mockResolvedValue({
+      kind: "ok",
+      user: { id: "u1", email: "x@example.com" },
+    });
     getMaybeSingleMock.mockReset();
     getEqMock.mockClear();
     getSelectMock.mockClear();
@@ -122,7 +132,10 @@ describe("GET /api/account/profile", () => {
 describe("PATCH /api/account/profile", () => {
   beforeEach(() => {
     extractMock.mockReset();
-    extractMock.mockResolvedValue({ kind: "ok", user: { id: "u1", email: "x@example.com" } });
+    extractMock.mockResolvedValue({
+      kind: "ok",
+      user: { id: "u1", email: "x@example.com" },
+    });
     patchMaybeSingleMock.mockReset();
     patchMaybeSingleMock.mockResolvedValue({
       data: { id: "p1", full_name: "New" },
@@ -151,7 +164,9 @@ describe("PATCH /api/account/profile", () => {
       makePatch({ date_of_birth: "1980-01-01", full_name: "Strip Test" }),
     );
     expect(patchUpdateMock).toHaveBeenCalledTimes(1);
-    const calls = patchUpdateMock.mock.calls as unknown as Array<Array<unknown>>;
+    const calls = patchUpdateMock.mock.calls as unknown as Array<
+      Array<unknown>
+    >;
     const patchArg = calls[0][0] as Record<string, unknown>;
     expect(patchArg.full_name).toBe("Strip Test");
     expect(patchArg.date_of_birth).toBeUndefined();
@@ -178,14 +193,18 @@ describe("PATCH /api/account/profile", () => {
 
   it("writes phone=null when phone is sent but empty (codex P2 clear-vs-omit fix)", async () => {
     await PATCH(makePatch({ full_name: "Real Name", phone: "" }));
-    const calls = patchUpdateMock.mock.calls as unknown as Array<Array<unknown>>;
+    const calls = patchUpdateMock.mock.calls as unknown as Array<
+      Array<unknown>
+    >;
     const patchArg = calls[0][0] as Record<string, unknown>;
     expect(patchArg.phone).toBeNull();
   });
 
   it("omits phone from the patch when key is absent entirely", async () => {
     await PATCH(makePatch({ full_name: "Real Name" }));
-    const calls = patchUpdateMock.mock.calls as unknown as Array<Array<unknown>>;
+    const calls = patchUpdateMock.mock.calls as unknown as Array<
+      Array<unknown>
+    >;
     const patchArg = calls[0][0] as Record<string, unknown>;
     expect(Object.prototype.hasOwnProperty.call(patchArg, "phone")).toBe(false);
   });

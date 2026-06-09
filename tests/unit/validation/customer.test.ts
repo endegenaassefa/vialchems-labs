@@ -92,8 +92,7 @@ describe("dobSchema", () => {
   const yyyy = today.getFullYear();
   const mm = String(today.getMonth() + 1).padStart(2, "0");
   const dd = String(today.getDate()).padStart(2, "0");
-  const dobFor = (yearsAgo: number) =>
-    `${yyyy - yearsAgo}-${mm}-${dd}`;
+  const dobFor = (yearsAgo: number) => `${yyyy - yearsAgo}-${mm}-${dd}`;
 
   it("accepts a 22-years-ago birthdate", () => {
     expect(dobSchema.safeParse(dobFor(22)).success).toBe(true);
@@ -135,7 +134,9 @@ describe("orgTypeSchema", () => {
 
 describe("orgOtherSchema", () => {
   it("accepts a 2-120 char description", () => {
-    expect(orgOtherSchema.safeParse("Citizen-science co-op").success).toBe(true);
+    expect(orgOtherSchema.safeParse("Citizen-science co-op").success).toBe(
+      true,
+    );
   });
   it("optional: undefined parses to undefined", () => {
     const r = orgOtherSchema.safeParse(undefined);
@@ -145,7 +146,10 @@ describe("orgOtherSchema", () => {
 
 describe("researchFocusSchema", () => {
   it("accepts 10-500 chars", () => {
-    expect(researchFocusSchema.safeParse("Studying mitochondrial signalling.").success).toBe(true);
+    expect(
+      researchFocusSchema.safeParse("Studying mitochondrial signalling.")
+        .success,
+    ).toBe(true);
   });
   it("rejects 9 chars", () => {
     expect(researchFocusSchema.safeParse("too short").success).toBe(false);
@@ -167,13 +171,19 @@ describe("addressSchema", () => {
     expect(addressSchema.safeParse(base).success).toBe(true);
   });
   it("accepts street2 as optional", () => {
-    expect(addressSchema.safeParse({ ...base, street2: "Suite 4" }).success).toBe(true);
+    expect(
+      addressSchema.safeParse({ ...base, street2: "Suite 4" }).success,
+    ).toBe(true);
   });
   it("rejects empty street1", () => {
-    expect(addressSchema.safeParse({ ...base, street1: "" }).success).toBe(false);
+    expect(addressSchema.safeParse({ ...base, street1: "" }).success).toBe(
+      false,
+    );
   });
   it("rejects 1-char country code", () => {
-    expect(addressSchema.safeParse({ ...base, country: "U" }).success).toBe(false);
+    expect(addressSchema.safeParse({ ...base, country: "U" }).success).toBe(
+      false,
+    );
   });
   it("uppercases the country code", () => {
     const r = addressSchema.safeParse({ ...base, country: "us" });
@@ -204,13 +214,17 @@ describe("evaluatePasswordStrength", () => {
 
 describe("passwordSchema", () => {
   it("accepts a 12-char password with upper+lower+digit and zxcvbn >= 3", () => {
-    expect(passwordSchema.safeParse("Vialchem!Lab42-mainline").success).toBe(true);
+    expect(passwordSchema.safeParse("Vialchem!Lab42-mainline").success).toBe(
+      true,
+    );
   });
   it("rejects a < 12 char password", () => {
     expect(passwordSchema.safeParse("Short1A").success).toBe(false);
   });
   it("rejects a > 128 char password", () => {
-    expect(passwordSchema.safeParse(`${"A".repeat(70)}${"b".repeat(60)}1`).success).toBe(false);
+    expect(
+      passwordSchema.safeParse(`${"A".repeat(70)}${"b".repeat(60)}1`).success,
+    ).toBe(false);
   });
   it("rejects a password with no uppercase", () => {
     expect(passwordSchema.safeParse("nouppercase123456").success).toBe(false);
@@ -323,8 +337,12 @@ describe("registrationSchema", () => {
 
 describe("profileEditSchema", () => {
   it("accepts a subset of fields (every field optional)", () => {
-    expect(profileEditSchema.safeParse({ phone: "+14155552671" }).success).toBe(true);
-    expect(profileEditSchema.safeParse({ full_name: "New Name" }).success).toBe(true);
+    expect(profileEditSchema.safeParse({ phone: "+14155552671" }).success).toBe(
+      true,
+    );
+    expect(profileEditSchema.safeParse({ full_name: "New Name" }).success).toBe(
+      true,
+    );
     expect(profileEditSchema.safeParse({}).success).toBe(true);
   });
   it("rejects DOB edits entirely (immutable per spec §3.5)", () => {
