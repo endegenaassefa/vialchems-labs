@@ -3,21 +3,18 @@
 /**
  * AuthHeaderLink — small client island for the SiteHeader auth area.
  *
- * Renders "Sign in" when signed out, or the user's display name when signed
- * in (linking to /account). Hydration-safe via useAuthHydrated() — the
- * server-rendered fallback is the "Sign in" state, which matches the most
- * common case for first-load.
+ * Single source of truth: useSupabaseUser(). Server-renders the "Sign in"
+ * fallback so SSR + first paint match; switches to the signed-in pill
+ * once the Supabase session resolves.
  */
 
 import Link from "next/link";
-import { useAuthHydrated, useCurrentUser } from "@/lib/auth-store";
+import { useSupabaseUser } from "@/lib/auth/use-supabase-user";
 
 export function AuthHeaderLink() {
-  const hydrated = useAuthHydrated();
-  const user = useCurrentUser();
+  const { user, loading } = useSupabaseUser();
 
-  // Pre-hydration: render the "Sign in" fallback so SSR + first paint match.
-  if (!hydrated || !user) {
+  if (loading || !user) {
     return (
       <Link
         href="/login"
@@ -27,6 +24,9 @@ export function AuthHeaderLink() {
       </Link>
     );
   }
+  // Compact display: email's local-part (the bit before @). Falls back to
+  // "Account" when the email is somehow missing.
+  const label = user.email?.split("@")[0] ?? "Account";
   return (
     <Link
       href="/account"
@@ -36,7 +36,7 @@ export function AuthHeaderLink() {
         aria-hidden="true"
         className="h-1.5 w-1.5 rounded-full bg-[var(--accent)]"
       />
-      <span>{user.displayName}</span>
+      <span>{label}</span>
     </Link>
   );
 }

@@ -61,6 +61,43 @@ export function resolveAuthRedirectTo(
   return `${siteConfig.url}/auth/callback?next=${encodeURIComponent(safeNext)}`;
 }
 
+export interface SignInWithPasswordInput {
+  email: string;
+  password: string;
+}
+
+/**
+ * Password sign-in via Supabase Auth. Used by the rebuilt /login
+ * page once the pre-flight gate at /api/auth/sign-in clears.
+ *
+ * Returns `auth_error` for any rejection (wrong password,
+ * unverified email, locked account) — the route handler differentiates
+ * pending vs unknown at /api/auth/sign-in, but the actual credential
+ * check stays generic to avoid enumeration via supabase reply text.
+ */
+export async function signInWithPassword({
+  email,
+  password,
+}: SignInWithPasswordInput): Promise<AuthCallResult> {
+  const supabase = browserSupabase();
+  if (!supabase) {
+    return {
+      ok: false,
+      code: "supabase_unavailable",
+      message:
+        "Supabase Auth is not configured. Set NEXT_PUBLIC_SUPABASE_URL / NEXT_PUBLIC_SUPABASE_ANON_KEY + REQUIRE_SUPABASE=true to enable password sign-in.",
+    };
+  }
+  const { error } = await supabase.auth.signInWithPassword({
+    email,
+    password,
+  });
+  if (error) {
+    return { ok: false, code: "auth_error", message: error.message };
+  }
+  return { ok: true, data: undefined };
+}
+
 export async function signInWithOtp({
   email,
   redirectTo,

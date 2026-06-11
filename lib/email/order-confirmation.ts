@@ -8,6 +8,7 @@
  * underlying `sendEmail()` returns a synthetic ID.
  */
 import { sendEmail, type SendEmailResult } from "@/lib/email/resend";
+import { buildOrderViewUrl } from "@/lib/auth/order-token";
 import { siteConfig } from "@/lib/content/site";
 
 export interface OrderConfirmationInput {
@@ -19,6 +20,20 @@ export interface OrderConfirmationInput {
   items: Array<{ name: string; qty: number; unitPriceCents: number }>;
   paymentInstructions?: string;
   shippingEtaDays?: number;
+}
+
+function safeBuildOrderViewUrl(
+  displayId: string,
+  email: string,
+): string | null {
+  try {
+    return buildOrderViewUrl(siteConfig.url, displayId, email);
+  } catch {
+    // ORDER_TOKEN_SECRET unset (stub mode / misconfig) — omit the link
+    // rather than crashing the email send. The operator notification
+    // path catches the alarm separately.
+    return null;
+  }
 }
 
 function formatPrice(cents: number): string {
@@ -52,6 +67,11 @@ function renderText(input: OrderConfirmationInput): string {
     );
   }
   lines.push("");
+  const viewUrl = safeBuildOrderViewUrl(input.displayId, input.customerEmail);
+  if (viewUrl) {
+    lines.push(`Track your order: ${viewUrl}`);
+    lines.push("");
+  }
   lines.push(
     `View the full test panel for every item: ${siteConfig.url}/verify`,
   );
