@@ -135,11 +135,11 @@ export async function POST(request: NextRequest) {
       );
       return registerUniformResponse();
     }
-    console.log(
-      "[DBG-REG] phase=after_find_account kind=" + existing.kind,
-    );
+    console.log("[DBG-REG] phase=after_find_account kind=" + existing.kind);
     if (existing.kind === "active" || existing.kind === "pending") {
-      console.log("[DBG-REG] phase=existing_account bail=true kind=" + existing.kind);
+      console.log(
+        "[DBG-REG] phase=existing_account bail=true kind=" + existing.kind,
+      );
       return registerUniformResponse();
     }
 
