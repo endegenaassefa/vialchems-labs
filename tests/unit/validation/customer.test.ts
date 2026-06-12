@@ -142,6 +142,22 @@ describe("orgOtherSchema", () => {
     const r = orgOtherSchema.safeParse(undefined);
     expect(r.success).toBe(true);
   });
+  // Regression (2026-06-12): a curl/SDK caller that sends explicit JSON
+  // null for unused optional fields was tripping the bare `.optional()`
+  // (which rejects null with invalid_type) and the /api/auth/register
+  // route's anti-enum design swallowed the resulting validation
+  // failure — silent registration failure. Preprocessor now normalises
+  // null → undefined so the field accepts both shapes.
+  it("normalises explicit null to undefined", () => {
+    const r = orgOtherSchema.safeParse(null);
+    expect(r.success).toBe(true);
+    if (r.success) expect(r.data).toBeUndefined();
+  });
+  it("normalises empty string to undefined", () => {
+    const r = orgOtherSchema.safeParse("");
+    expect(r.success).toBe(true);
+    if (r.success) expect(r.data).toBeUndefined();
+  });
 });
 
 describe("researchFocusSchema", () => {
@@ -174,6 +190,17 @@ describe("addressSchema", () => {
     expect(
       addressSchema.safeParse({ ...base, street2: "Suite 4" }).success,
     ).toBe(true);
+  });
+  // Regression (2026-06-12): see orgOtherSchema regression note.
+  it("normalises street2 null to undefined", () => {
+    const r = addressSchema.safeParse({ ...base, street2: null });
+    expect(r.success).toBe(true);
+    if (r.success) expect(r.data.street2).toBeUndefined();
+  });
+  it("normalises street2 empty string to undefined", () => {
+    const r = addressSchema.safeParse({ ...base, street2: "" });
+    expect(r.success).toBe(true);
+    if (r.success) expect(r.data.street2).toBeUndefined();
   });
   it("rejects empty street1", () => {
     expect(addressSchema.safeParse({ ...base, street1: "" }).success).toBe(
