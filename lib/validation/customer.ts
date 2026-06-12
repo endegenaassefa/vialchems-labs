@@ -138,6 +138,12 @@ export type ResearchOrgType = (typeof RESEARCH_ORG_TYPES)[number];
 export const orgTypeSchema = z.enum(RESEARCH_ORG_TYPES);
 
 export const orgOtherSchema = z.preprocess((value) => {
+  // Normalise null → undefined so an API client that sends explicit JSON
+  // null for an unused optional field doesn't trip `.optional()` (which
+  // accepts undefined but rejects null with invalid_type). The browser
+  // form already sends undefined for non-"other" org types; this widens
+  // the gate for SDK / curl callers as defence in depth.
+  if (value === null) return undefined;
   if (typeof value === "string") {
     const trimmed = value.trim();
     return trimmed.length === 0 ? undefined : trimmed;
@@ -240,6 +246,11 @@ export const passwordSchema = z.string().superRefine((value, ctx) => {
 export const addressSchema = z.object({
   street1: z.string().trim().min(1, "Street address is required").max(200),
   street2: z.preprocess((value) => {
+    // Normalise null → undefined (same defence-in-depth treatment as
+    // orgOtherSchema / phoneSchema). The browser form sends "" for empty
+    // street2 which the trim path already handles; SDK / curl callers that
+    // send explicit JSON null would otherwise trip `.optional()`.
+    if (value === null) return undefined;
     if (typeof value === "string") {
       const trimmed = value.trim();
       return trimmed.length === 0 ? undefined : trimmed;
