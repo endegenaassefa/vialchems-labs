@@ -151,11 +151,19 @@ export const orgOtherSchema = z.preprocess((value) => {
   return value;
 }, z.string().min(2).max(120).optional());
 
-export const researchFocusSchema = z
-  .string()
-  .trim()
-  .min(10, "Describe your research in at least 10 characters")
-  .max(500, "Keep the research description under 500 characters");
+// Optional now (2026-06-12): operator removed the mandatory-writing
+// requirement from registration after customer feedback that a
+// 10-character minimum was friction without clear value. Accepts
+// undefined, null, empty string, or 1-500 chars. The form still
+// shows it as an optional field, just no longer required to submit.
+export const researchFocusSchema = z.preprocess((value) => {
+  if (value === null) return undefined;
+  if (typeof value === "string") {
+    const trimmed = value.trim();
+    return trimmed.length === 0 ? undefined : trimmed;
+  }
+  return value;
+}, z.string().max(500, "Keep the research description under 500 characters").optional());
 
 // ---------------------------------------------------------------------------
 // Password policy — NIST 800-63B aligned (length-first, complexity light,

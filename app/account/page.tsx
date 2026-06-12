@@ -192,6 +192,15 @@ function AccountDashboardInner() {
     router.push("/");
   }
 
+  // 2026-06-12: redirect via useEffect, placed BEFORE early returns
+  // so the hooks-order contract holds across renders. Each conditional
+  // return below is just markup, the hook above unconditionally runs.
+  useEffect(() => {
+    if (!user && !loading && !unavailable && typeof window !== "undefined") {
+      router.replace("/login?next=/account");
+    }
+  }, [user, loading, unavailable, router]);
+
   if (unavailable) {
     return (
       <>
@@ -234,9 +243,6 @@ function AccountDashboardInner() {
   }
 
   if (!user) {
-    if (typeof window !== "undefined") {
-      router.replace("/login?next=/account");
-    }
     return (
       <>
         <SiteHeader />

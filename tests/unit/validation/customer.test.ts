@@ -161,16 +161,35 @@ describe("orgOtherSchema", () => {
 });
 
 describe("researchFocusSchema", () => {
-  it("accepts 10-500 chars", () => {
+  it("accepts a normal 1-500 char description", () => {
     expect(
       researchFocusSchema.safeParse("Studying mitochondrial signalling.")
         .success,
     ).toBe(true);
   });
-  it("rejects 9 chars", () => {
-    expect(researchFocusSchema.safeParse("too short").success).toBe(false);
+  it("accepts a short answer (1 char) now that the field is optional", () => {
+    expect(researchFocusSchema.safeParse("A").success).toBe(true);
   });
-  it("rejects 501 chars", () => {
+  // Operator decision (2026-06-12): research_focus is OPTIONAL —
+  // removed the 10-char minimum that customers found frictiony.
+  // Accepts undefined, null, empty string. Empty/null normalise to
+  // undefined so the DB column gets a real NULL.
+  it("treats undefined as missing", () => {
+    const r = researchFocusSchema.safeParse(undefined);
+    expect(r.success).toBe(true);
+    if (r.success) expect(r.data).toBeUndefined();
+  });
+  it("treats null as missing", () => {
+    const r = researchFocusSchema.safeParse(null);
+    expect(r.success).toBe(true);
+    if (r.success) expect(r.data).toBeUndefined();
+  });
+  it("treats empty string as missing", () => {
+    const r = researchFocusSchema.safeParse("");
+    expect(r.success).toBe(true);
+    if (r.success) expect(r.data).toBeUndefined();
+  });
+  it("rejects 501 chars (max still enforced)", () => {
     expect(researchFocusSchema.safeParse("a".repeat(501)).success).toBe(false);
   });
 });

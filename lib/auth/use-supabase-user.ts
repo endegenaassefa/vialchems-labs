@@ -23,23 +23,40 @@ export interface SupabaseUserState {
 }
 
 export function useSupabaseUser(): SupabaseUserState {
-  const [state, setState] = useState<SupabaseUserState>(() => {
-    if (typeof window === "undefined") {
-      return { user: null, session: null, loading: true, unavailable: false };
-    }
-    const supabase = browserSupabase();
-    if (!supabase) {
-      return { user: null, session: null, loading: false, unavailable: true };
-    }
-    return { user: null, session: null, loading: true, unavailable: false };
+  // 2026-06-12: hydration-safe initial state. Server AND first client
+  // render BOTH return loading=true, unavailable=false. The post-mount
+  // effect below then upgrades to the real value (real user, real
+  // unavailable). Without this guard, pages that branched on
+  // `unavailable` rendered different markup on SSR vs first client
+  // render (loading vs unavailable banner), triggering hydration
+  // mismatches on /account + /login + every page using this hook.
+  const [state, setState] = useState<SupabaseUserState>({
+    user: null,
+    session: null,
+    loading: true,
+    unavailable: false,
   });
 
   useEffect(() => {
     const supabase = browserSupabase();
-    // Stub mode: the lazy initializer already set unavailable=true at
-    // mount, so no setState here (the set-state-in-effect lint rule would
-    // flag it as a cascading render).
-    if (!supabase) return;
+    // Stub mode: no Supabase client at all. Flip to unavailable from
+    // its hydration-safe loading default. Set-state-in-effect is
+    // acceptable here because we only run this once and the alternative
+    // is a permanent loading spinner in stub builds.
+    if (!supabase) {
+      // Hydration-safe upgrade from loading=true → unavailable=true.
+      // setState-in-effect is intentional: SSR + first client render
+      // both need to render the same `loading` skeleton to avoid
+      // hydration mismatches; this one-time flip happens after mount.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setState({
+        user: null,
+        session: null,
+        loading: false,
+        unavailable: true,
+      });
+      return;
+    }
 
     let cancelled = false;
 

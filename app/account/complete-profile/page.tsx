@@ -20,7 +20,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useMemo, useState, type FormEvent } from "react";
+import { useEffect, useMemo, useState, type FormEvent } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Card } from "@/components/ui/Card";
@@ -70,10 +70,14 @@ export default function CompleteProfilePage() {
 
   const initial = useMemo(() => user?.email ?? "", [user]);
 
-  if (unavailable || (!loading && !user)) {
-    if (typeof window !== "undefined" && !loading && !user) {
+  // 2026-06-12: redirect via useEffect (see /account/addresses note).
+  useEffect(() => {
+    if (!loading && !user && !unavailable) {
       router.replace("/login?next=/account/complete-profile");
     }
+  }, [loading, user, unavailable, router]);
+
+  if (unavailable || (!loading && !user)) {
     return (
       <>
         <SiteHeader />

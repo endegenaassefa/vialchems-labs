@@ -27,7 +27,7 @@
 
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Suspense, useState, type FormEvent } from "react";
+import { Suspense, useEffect, useState, type FormEvent } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { Card } from "@/components/ui/Card";
@@ -90,11 +90,11 @@ function ErrorBanner({ reason }: { reason: string | null }) {
   if (!reason) return null;
   const copy =
     reason === "supabase_unavailable"
-      ? "Sign-in isn't enabled yet on this environment."
+      ? "Sign-in is temporarily unavailable. Please try again in a moment."
       : reason === "missing_code"
-        ? "That sign-in link is incomplete — request a fresh one below."
+        ? "That sign-in link is incomplete, request a fresh one below."
         : reason === "auth_error"
-          ? "The sign-in link could not be verified — request a fresh one below."
+          ? "The sign-in link could not be verified, request a fresh one below."
           : "Sign in didn't complete. Please try again.";
   return (
     <div
@@ -123,13 +123,24 @@ function LoginPageInner() {
   const [otpExpanded, setOtpExpanded] = useState(false);
   const [otpState, setOtpState] = useState<OtpState>({ kind: "idle" });
 
-  // Lazy initialiser: SSR returns `true` optimistically so the form
-  // renders without a hydration mismatch; the first client render
-  // then computes the real value before submit can fire. Mirrors
-  // the earlier magic-link-only login implementation.
-  const [available] = useState(() =>
-    typeof window === "undefined" ? true : isSupabaseAuthAvailable(),
-  );
+  // Hydration-safe availability (2026-06-12): the earlier lazy
+  // initialiser returned `true` on SSR and the real value on the
+  // first client render, which mismatched whenever Supabase was
+  // genuinely unavailable. We now ALWAYS return `true` on SSR +
+  // first client render, then flip to the real value via a
+  // post-mount effect. Identical markup on both sides means no
+  // hydration error; the brief "form visible then maybe swapped
+  // for unavailable banner" is acceptable + only triggers on the
+  // very rare unavailable case.
+  const [available, setAvailable] = useState(true);
+  useEffect(() => {
+    // Hydration-safe upgrade from optimistic `true` to the real
+    // availability value. setState-in-effect is intentional here:
+    // it only fires once per mount and the alternative is an
+    // SSR/CSR markup mismatch that React's hydration check forbids.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setAvailable(isSupabaseAuthAvailable());
+  }, []);
 
   async function preflight(
     targetEmail: string,
@@ -186,7 +197,8 @@ function LoginPageInner() {
     if (result.code === "supabase_unavailable") {
       setPasswordState({
         kind: "error",
-        message: "Sign-in isn't enabled yet on this environment.",
+        message:
+          "Sign-in is temporarily unavailable. Please try again in a moment.",
       });
       return;
     }
@@ -265,13 +277,19 @@ function LoginPageInner() {
         {!available ? (
           <Card>
             <div className="flex flex-col gap-3 p-6">
-              <Pill variant="info">Setup pending</Pill>
+              <Pill variant="info">Sign-in unavailable</Pill>
               <h2 className="text-xl font-medium">
-                Sign-in isn&rsquo;t enabled yet
+                Sign-in is temporarily unavailable
               </h2>
               <p className="text-sm text-slate-600">
-                Supabase Auth is being provisioned. Email support if you need to
-                access your order history before then.
+                Please try again in a moment. If the problem persists, email{" "}
+                <a
+                  href="mailto:support@vialchemlabs.net"
+                  className="underline underline-offset-2"
+                >
+                  support@vialchemlabs.net
+                </a>
+                .
               </p>
             </div>
           </Card>
