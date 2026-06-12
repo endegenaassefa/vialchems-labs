@@ -104,7 +104,7 @@ function RegisterInner() {
       date_of_birth: dob,
       research_org_type: orgType,
       research_org_other: orgType === "other" ? orgOther : undefined,
-      research_focus: researchFocus,
+      research_focus: researchFocus.trim() === "" ? undefined : researchFocus,
       password,
       confirm_password: confirm,
       terms_accepted: terms,
@@ -244,7 +244,8 @@ function RegisterInner() {
                 autoComplete="tel"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
-                placeholder="+14155550100"
+                placeholder="(555) 555-0100"
+                inputMode="tel"
                 aria-invalid={Boolean(fieldErrors.phone)}
               />
               {fieldErrors.phone && (
@@ -315,19 +316,15 @@ function RegisterInner() {
             </div>
           )}
           <div className="flex flex-col gap-1">
-            <FieldLabel htmlFor="reg-research_focus" required>
-              Research focus
-            </FieldLabel>
+            <FieldLabel htmlFor="reg-research_focus">Research focus</FieldLabel>
             <textarea
               id="reg-research_focus"
-              required
-              minLength={10}
               maxLength={500}
               rows={3}
               value={researchFocus}
               onChange={(e) => setResearchFocus(e.target.value)}
               className="rounded-md border border-slate-300 bg-white p-3 text-sm"
-              placeholder="1-3 sentences describing your work."
+              placeholder="Optional — a sentence or two about what you study."
               aria-invalid={Boolean(fieldErrors.research_focus)}
             />
             {fieldErrors.research_focus && (
@@ -336,7 +333,7 @@ function RegisterInner() {
               </p>
             )}
             <p className="text-xs text-slate-500">
-              {researchFocus.length}/500 characters.
+              Optional · {researchFocus.length}/500 characters.
             </p>
           </div>
         </section>

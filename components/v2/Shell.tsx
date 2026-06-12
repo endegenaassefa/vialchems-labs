@@ -31,10 +31,92 @@ function BrandWordmark() {
  * Sign in + Create account buttons. Signed-in: email-localpart
  * dropdown → Account / Orders / Sign out.
  */
+/**
+ * Mobile-menu auth links (Sign in + Create account when signed-out;
+ * email + Sign out when signed-in). The header AccountChip is hidden
+ * on screens below 860px because two stacked buttons crowd a 375px
+ * viewport. Drawer is the cleaner home for auth on mobile.
+ */
+function MobileMenuAuthLinks({ onNavigate }: { onNavigate: () => void }) {
+  const { user, loading } = useSupabaseUser();
+  const [mounted, setMounted] = useState(false);
+  // Hydration guard — render nothing on SSR + first client render,
+  // then real markup after mount. setState-in-effect is intentional.
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
+  }, []);
+  if (!mounted || loading) return null;
+
+  async function onSignOut() {
+    await supabaseSignOut();
+    if (typeof window !== "undefined") window.location.href = "/";
+  }
+
+  if (!user) {
+    return (
+      <>
+        <Link href="/login" onClick={onNavigate}>
+          <span>Sign in</span>
+          <Icon.arrow size={14} strokeWidth={1.5} />
+        </Link>
+        <Link href="/register" onClick={onNavigate}>
+          <span>Create account</span>
+          <Icon.arrow size={14} strokeWidth={1.5} />
+        </Link>
+      </>
+    );
+  }
+  const localpart = (user.email ?? "").split("@")[0] || "Account";
+  return (
+    <>
+      <Link href="/account" onClick={onNavigate}>
+        <span>{localpart}</span>
+        <Icon.arrow size={14} strokeWidth={1.5} />
+      </Link>
+      <button
+        type="button"
+        onClick={onSignOut}
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          width: "100%",
+          padding: 0,
+          background: "transparent",
+          border: "none",
+          textAlign: "left",
+          font: "inherit",
+          color: "inherit",
+          cursor: "pointer",
+        }}
+      >
+        <span>Sign out</span>
+        <Icon.arrow size={14} strokeWidth={1.5} />
+      </button>
+    </>
+  );
+}
+
 function AccountChip({ onNavigate }: { onNavigate: () => void }) {
   const { user, loading } = useSupabaseUser();
   const [open, setOpen] = useState(false);
+  // Hydration guard (2026-06-12): the auth-aware chip caused a
+  // hydration mismatch on every page because SSR rendered the
+  // "loading" branch while the first client render sees the
+  // already-resolved user state. We now render the SAME loading
+  // placeholder on both server AND first client render, then
+  // swap to real state via a post-mount flag. Eliminates the
+  // mismatch + matches the "render once, update on the client"
+  // pattern recommended by the React docs.
+  const [mounted, setMounted] = useState(false);
   const rootRef = useRef<HTMLDivElement | null>(null);
+
+  // Hydration guard — see MobileMenuAuthLinks for full rationale.
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     if (!open) return;
@@ -61,8 +143,10 @@ function AccountChip({ onNavigate }: { onNavigate: () => void }) {
     }
   }
 
-  if (loading) {
-    // SSR-safe placeholder — render the user icon while we resolve.
+  if (!mounted || loading) {
+    // SSR + first-client-render placeholder. Identical markup on
+    // both sides → no hydration mismatch. Once `mounted` flips on
+    // the second client render, we swap to the real auth state.
     return (
       <span
         className="icon-btn v2-nav-account"
@@ -76,7 +160,10 @@ function AccountChip({ onNavigate }: { onNavigate: () => void }) {
 
   if (!user) {
     return (
-      <span style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
+      <span
+        className="v2-nav-account-actions"
+        style={{ display: "inline-flex", alignItems: "center", gap: 8 }}
+      >
         <Link
           href="/login"
           className="v2-nav-signin"
@@ -116,7 +203,11 @@ function AccountChip({ onNavigate }: { onNavigate: () => void }) {
   // Signed in — show the email localpart + dropdown.
   const localpart = (user.email ?? "").split("@")[0] || "Account";
   return (
-    <div ref={rootRef} style={{ position: "relative" }}>
+    <div
+      ref={rootRef}
+      className="v2-nav-account-actions"
+      style={{ position: "relative" }}
+    >
       <button
         type="button"
         className="v2-nav-account-chip"
@@ -410,18 +501,9 @@ export function V2Header() {
                   <Icon.arrow size={14} strokeWidth={1.5} />
                 </Link>
               ))}
-              <Link
-                href="/account"
-                className={
-                  pathname === "/account" || pathname.startsWith("/account/")
-                    ? "active"
-                    : ""
-                }
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                <span>Account</span>
-                <Icon.arrow size={14} strokeWidth={1.5} />
-              </Link>
+              <MobileMenuAuthLinks
+                onNavigate={() => setMobileMenuOpen(false)}
+              />
             </div>
           </div>
         </div>

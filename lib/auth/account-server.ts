@@ -204,7 +204,7 @@ export async function insertProfileWithAddresses(
       date_of_birth: args.input.date_of_birth,
       research_org_type: args.input.research_org_type,
       research_org_other: args.input.research_org_other ?? null,
-      research_focus: args.input.research_focus,
+      research_focus: args.input.research_focus ?? null,
       status: "pending_email_verification",
     })
     .select("id")

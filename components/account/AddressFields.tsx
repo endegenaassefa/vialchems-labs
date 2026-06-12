@@ -120,19 +120,24 @@ export function AddressFields({
         <FieldLabel htmlFor={id("country")} required={required}>
           Country
         </FieldLabel>
-        <Input
+        {/* 2026-06-12: replaced a free-text 2-letter country input with
+            a select. Customers were confused why a label "Country"
+            accepted only 2 characters. We currently ship US-only per
+            spec; if international launches, add more <option>s here
+            and the addressSchema (any 2-letter code) accepts them. */}
+        <select
           id={id("country")}
           name={`${prefix}_country`}
           autoComplete="country"
           required={required}
-          maxLength={2}
-          minLength={2}
-          value={value.country}
+          value={value.country || "US"}
           onChange={(e) =>
             onChange({ ...value, country: e.target.value.toUpperCase() })
           }
-          placeholder="US"
-        />
+          className="h-10 rounded-md border border-slate-300 bg-white px-3 text-sm"
+        >
+          <option value="US">United States</option>
+        </select>
       </div>
     </div>
   );

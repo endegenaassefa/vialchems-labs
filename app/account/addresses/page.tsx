@@ -94,10 +94,16 @@ export default function AddressesPage() {
     };
   }, [loading, user, session]);
 
-  if (unavailable || (!loading && !user)) {
-    if (typeof window !== "undefined" && !loading && !user) {
+  // 2026-06-12: redirect via useEffect — calling router.replace()
+  // in the render body warned "Cannot update Router while rendering
+  // AddressesPage". Effect runs post-commit, no React contract break.
+  useEffect(() => {
+    if (!loading && !user && !unavailable) {
       router.replace("/login?next=/account/addresses");
     }
+  }, [loading, user, unavailable, router]);
+
+  if (unavailable || (!loading && !user)) {
     return (
       <>
         <SiteHeader />

@@ -166,10 +166,14 @@ export default function SecurityPage() {
   const [deleteConfirm, setDeleteConfirm] = useState("");
   const [deletePassword, setDeletePassword] = useState("");
 
-  if (unavailable || (!loading && !user)) {
-    if (typeof window !== "undefined" && !loading && !user) {
+  // 2026-06-12: redirect via useEffect (see /account/addresses note).
+  useEffect(() => {
+    if (!loading && !user && !unavailable) {
       router.replace("/login?next=/account/security");
     }
+  }, [loading, user, unavailable, router]);
+
+  if (unavailable || (!loading && !user)) {
     return (
       <>
         <SiteHeader />
@@ -208,7 +212,8 @@ export default function SecurityPage() {
     if (!supabase || !user?.email) {
       setPwState({
         kind: "error",
-        message: "Sign-in isn't enabled yet on this environment.",
+        message:
+          "We can't reach the auth service right now. Please try again in a moment.",
       });
       return;
     }

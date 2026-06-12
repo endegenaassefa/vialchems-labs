@@ -1150,8 +1150,13 @@ footer {
   }
   .v2-theme-switch,
   .v2-nav-account,
-  .v2-nav-cta {
-    display: none;
+  .v2-nav-cta,
+  /* 2026-06-12: hide the auth-aware chip on mobile. Sign in / Create
+     account live in the mobile drawer (MobileMenuAuthLinks) where
+     they have room. Outer wrapper (.v2-nav-account-actions) catches
+     both signed-out (span) + signed-in (div) variants. */
+  .v2-nav-account-actions {
+    display: none !important;
   }
   .foot-grid {
     grid-template-columns: 1fr 1fr;
