@@ -59,6 +59,10 @@ function clientIp(request: NextRequest): string {
 }
 
 export async function POST(request: NextRequest) {
+  // TEMPORARY INSTRUMENTATION (remove after diagnosis).
+  // Logs the bail phase to Vercel runtime logs. PII-safe: no email,
+  // no password, no full body. Just phase name + error class name.
+  console.log("[DBG-REG] phase=enter");
   try {
     const ip = clientIp(request);
     const ipGate = await isRateLimited({
@@ -66,18 +70,39 @@ export async function POST(request: NextRequest) {
       ip,
       gates: ["ip"],
     });
-    if (ipGate.limited) return registerUniformResponse();
+    if (ipGate.limited) {
+      console.log("[DBG-REG] phase=ip_rate_limited bail=true");
+      return registerUniformResponse();
+    }
+    console.log("[DBG-REG] phase=after_ip_gate ok=true");
 
     let body: unknown;
     try {
       body = await request.json();
-    } catch {
+    } catch (parseErr) {
+      console.log(
+        "[DBG-REG] phase=json_parse_fail bail=true err=" +
+          (parseErr as Error)?.constructor?.name,
+      );
       return registerUniformResponse();
     }
+    console.log("[DBG-REG] phase=after_parse ok=true");
 
     const parsed = registrationSchema.safeParse(body);
-    if (!parsed.success) return registerUniformResponse();
+    if (!parsed.success) {
+      const firstIssue = parsed.error.issues[0];
+      console.log(
+        "[DBG-REG] phase=schema_fail bail=true issues=" +
+          parsed.error.issues.length +
+          " first_path=" +
+          (firstIssue?.path?.join(".") || "?") +
+          " first_code=" +
+          (firstIssue?.code || "?"),
+      );
+      return registerUniformResponse();
+    }
     const input = parsed.data;
+    console.log("[DBG-REG] phase=after_schema ok=true");
 
     const emailGate = await isRateLimited({
       route: "register",
@@ -85,20 +110,36 @@ export async function POST(request: NextRequest) {
       email: input.email,
       gates: ["email"],
     });
-    if (emailGate.limited) return registerUniformResponse();
+    if (emailGate.limited) {
+      console.log("[DBG-REG] phase=email_rate_limited bail=true");
+      return registerUniformResponse();
+    }
+    console.log("[DBG-REG] phase=after_email_gate ok=true");
 
     const supabase = serviceSupabase();
     if (!supabase) {
-      // Supabase not configured — pretend success so the response
-      // doesn't differentiate from real environments. The Sentry
-      // alarm fires from elsewhere when REQUIRE_SUPABASE is on but
-      // the keys are missing.
+      console.log("[DBG-REG] phase=service_supabase_null bail=true");
       return registerUniformResponse();
     }
+    console.log("[DBG-REG] phase=after_supabase_init ok=true");
 
-    const existing = await findAccountByEmail(supabase, input.email);
+    let existing;
+    try {
+      existing = await findAccountByEmail(supabase, input.email);
+    } catch (lookupErr) {
+      console.log(
+        "[DBG-REG] phase=find_account_threw bail=true err=" +
+          (lookupErr as Error)?.constructor?.name +
+          " msg=" +
+          String((lookupErr as Error)?.message ?? "").slice(0, 200),
+      );
+      return registerUniformResponse();
+    }
+    console.log("[DBG-REG] phase=after_find_account kind=" + existing.kind);
     if (existing.kind === "active" || existing.kind === "pending") {
-      // Uniform response — we DO NOT create a duplicate auth row.
+      console.log(
+        "[DBG-REG] phase=existing_account bail=true kind=" + existing.kind,
+      );
       return registerUniformResponse();
     }
 
@@ -114,7 +155,14 @@ export async function POST(request: NextRequest) {
         input.password,
       );
       authUserId = created.id;
+      console.log("[DBG-REG] phase=auth_user_created ok=true");
     } catch (err) {
+      console.log(
+        "[DBG-REG] phase=auth_user_create_fail bail=true err=" +
+          (err as Error)?.constructor?.name +
+          " msg=" +
+          String((err as Error)?.message ?? "").slice(0, 200),
+      );
       captureException(err, {
         tags: { route: "auth/register", phase: "auth_user_create" },
       });
@@ -126,7 +174,14 @@ export async function POST(request: NextRequest) {
         authUserId,
         input,
       });
+      console.log("[DBG-REG] phase=profile_inserted ok=true");
     } catch (err) {
+      console.log(
+        "[DBG-REG] phase=profile_insert_fail bail=true err=" +
+          (err as Error)?.constructor?.name +
+          " msg=" +
+          String((err as Error)?.message ?? "").slice(0, 200),
+      );
       captureException(err, {
         tags: { route: "auth/register", phase: "profile_insert" },
         extra: { authUserId },
@@ -154,8 +209,15 @@ export async function POST(request: NextRequest) {
       });
     }
 
+    console.log("[DBG-REG] phase=complete ok=true");
     return registerUniformResponse();
   } catch (err) {
+    console.log(
+      "[DBG-REG] phase=outer_catch bail=true err=" +
+        (err as Error)?.constructor?.name +
+        " msg=" +
+        String((err as Error)?.message ?? "").slice(0, 200),
+    );
     captureException(err, { tags: { route: "auth/register", phase: "outer" } });
     return registerUniformResponse();
   }
